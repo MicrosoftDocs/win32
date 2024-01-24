@@ -1,5 +1,5 @@
 ---
-Description: Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
+description: Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
 ms.assetid: 47768691-7071-440e-bfbf-975713880c00
 title: Implementing a Word Breaker and Stemmer
 ms.topic: article
@@ -9,6 +9,9 @@ ms.date: 05/31/2018
 # Implementing a Word Breaker and Stemmer
 
 Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
+
+> [!Note]
+> Custom word breakers were temporarily unsupported. In July 2018, a change was made to Windows Server 2019 that prevented DLLs without a Microsoft signature from being loaded by SearchIndexer.exe. This limitation was lifted in January 2021.
 
 This topic is organized as follows:
 
@@ -57,7 +60,7 @@ When a document is included in the index, each word is assigned an integer value
 
 
 
-|       |     |                        |          |       |     |     |                               |
+|&nbsp; | &nbsp;  |      &nbsp;                  |   &nbsp;       |   &nbsp;    | &nbsp;    |  &nbsp;   |      &nbsp;                         |
 |-------|-----|------------------------|----------|-------|-----|-----|-------------------------------|
 | Where | is  | Kyle Kyle's<br/> | document | filed | in  | the | database data base<br/> |
 

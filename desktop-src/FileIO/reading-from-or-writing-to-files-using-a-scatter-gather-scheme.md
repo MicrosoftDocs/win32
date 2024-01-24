@@ -1,5 +1,5 @@
 ---
-Description: Describes a scatter-gather scheme for reading or writing noncontiguous chunks of data in one operation.
+description: Describes a scatter-gather scheme for reading or writing noncontiguous chunks of data in one operation.
 ms.assetid: ae5d83ca-f219-4fcc-ad06-bc242ba95372
 title: Reading From or Writing To Files Using a Scatter-Gather Scheme
 ms.topic: article

@@ -2,7 +2,6 @@
 title: Counters, Queries and Performance Measurement
 description: The following sections describe features for use in performance testing and improvement, such as queries, counters, timing, and predication.
 ms.assetid: C7AEF1A0-36FB-4026-9CCF-ED0206961A58
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

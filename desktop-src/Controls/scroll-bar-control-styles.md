@@ -48,7 +48,7 @@ To create a scroll bar control using the [**CreateWindow**](/windows/desktop/api
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h</dt> </dl> |
 

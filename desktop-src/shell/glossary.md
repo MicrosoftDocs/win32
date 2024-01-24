@@ -1,5 +1,5 @@
 ---
-Description: Glossary page
+description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 title: Shell Glossary
 ms.topic: article

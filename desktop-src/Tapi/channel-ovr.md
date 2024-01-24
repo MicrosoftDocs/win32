@@ -1,12 +1,12 @@
 ---
-Description: Each line has one or more channels. The service providers normally handle how channels are exposed as addresses to an application, and the end user or server does not require specific knowledge of channels.
+description: Each line has one or more channels. The service providers normally handle how channels are exposed as addresses to an application, and the end user or server does not require specific knowledge of channels.
 ms.assetid: 8c7d38e0-1863-461f-9225-7a0b419532a3
 title: Channel (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Channel
+# Channel (Telephony API)
 
 Each line has one or more channels. The service providers normally handle how channels are exposed as addresses to an application, and the end user or server does not require specific knowledge of channels.
 

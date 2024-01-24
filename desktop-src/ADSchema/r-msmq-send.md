@@ -21,7 +21,7 @@ Allows sending messages to the queue.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | msmq-Send                            |
 | Display-Name | Send Message                         |
@@ -42,7 +42,7 @@ Allows sending messages to the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 44                                           |
@@ -53,7 +53,7 @@ Allows sending messages to the queue.
 
 
 
-|                         |                                                                                            |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> [**MSMQ-Group**](c-msmq-group.md)<br/> |
 | Localization-Display-ID | 44                                                                                         |
@@ -64,7 +64,7 @@ Allows sending messages to the queue.
 
 
 
-|                         |                                                                                            |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> [**MSMQ-Group**](c-msmq-group.md)<br/> |
 | Localization-Display-ID | 44                                                                                         |
@@ -75,7 +75,7 @@ Allows sending messages to the queue.
 
 
 
-|                         |                                                                                            |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> [**MSMQ-Group**](c-msmq-group.md)<br/> |
 | Localization-Display-ID | 44                                                                                         |
@@ -86,7 +86,7 @@ Allows sending messages to the queue.
 
 
 
-|                         |                                                                                            |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> [**MSMQ-Group**](c-msmq-group.md)<br/> |
 | Localization-Display-ID | 44                                                                                         |
@@ -97,7 +97,7 @@ Allows sending messages to the queue.
 
 
 
-|                         |                                                                                            |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> [**MSMQ-Group**](c-msmq-group.md)<br/> |
 | Localization-Display-ID | 44                                                                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS Structure"
 title: JET_LGPOS Structure
 TOCTitle: JET_LGPOS Structure
 ms:assetid: dbce1a60-b32b-40c1-a215-e93bb77cd8c1
@@ -50,30 +51,16 @@ Supports the ESE infrastructure and cannot be used from your code.
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also
 
-[JET_BKINFO](gg294120\(v=exchg.10\).md)  
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
-
+[JET_BKINFO](./jet-bkinfo-structure.md)  
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)

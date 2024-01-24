@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException members"
 title: EsentResourceException members
 TOCTitle: EsentResourceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentResourceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for Resource exceptions.
 
-The [EsentResourceException](dn350557\(v=exchg.10\).md) type exposes the following members.
+The [EsentResourceException](./esentresourceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +168,6 @@ Top
 
 #### Reference
 
-[EsentResourceException class](dn350557\(v=exchg.10\).md)
+[EsentResourceException class](./esentresourceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

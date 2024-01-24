@@ -1,5 +1,5 @@
 ---
-Description: Unregisters an application as a client of CTL3D.
+description: Unregisters an application as a client of CTL3D.
 ms.assetid: 21990A79-F90D-4AE1-AB02-2B33583B47F5
 title: Ctl3dUnregister function
 ms.topic: reference
@@ -57,7 +57,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 

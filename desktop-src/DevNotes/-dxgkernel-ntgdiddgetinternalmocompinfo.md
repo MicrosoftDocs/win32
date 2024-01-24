@@ -1,5 +1,5 @@
 ---
-Description: Allows the driver to report that it internally allocates display memory to perform motion compensation.
+description: Allows the driver to report that it internally allocates display memory to perform motion compensation.
 ms.assetid: cf2878ae-7eff-4214-bb9e-e8b608831108
 title: NtGdiDdGetInternalMoCompInfo function (Ntgdi.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

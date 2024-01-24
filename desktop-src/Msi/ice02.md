@@ -1,5 +1,5 @@
 ---
-Description: ICE02 validates that certain references between the Component, File, and Registry tables are reciprocal. These references must to be reciprocal for the installer to correctly determine the installation state of components.
+description: ICE02 validates that certain references between the Component, File, and Registry tables are reciprocal. These references must be reciprocal for the installer to correctly determine the installation state of components.
 ms.assetid: 864404f1-439d-49a2-973d-4e6e1618863e
 title: ICE02
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ICE02
 
-ICE02 validates that certain references between the [Component](component-table.md), [File](file-table.md), and [Registry](registry-table.md) tables are reciprocal. These references must to be reciprocal for the installer to correctly determine the installation state of components.
+ICE02 validates that certain references between the [Component](component-table.md), [File](file-table.md), and [Registry](registry-table.md) tables are reciprocal. These references must be reciprocal for the installer to correctly determine the installation state of components.
 
 The installer uses the KeyPath column of the Component table to detect the presence of the component listed in the Component column. The KeyPath column contains a key into the Registry or File tables. Both of these tables have a Component\_ column that contains a key back into the Component table pointing to the component that controls the registry entry or file. These references must be reciprocal.
 

@@ -1,5 +1,5 @@
 ---
-Description: The MSIARPSETTINGSIDENTIFIER property contains a semi-colon delimited list of the registry locations where the application stores a user's settings and preferences.
+description: The MSIARPSETTINGSIDENTIFIER property contains a semi-colon delimited list of the registry locations where the application stores a user's settings and preferences.
 ms.assetid: 524ba004-d3a2-4619-8c98-362761a3ae7a
 title: MSIARPSETTINGSIDENTIFIER property
 ms.topic: reference
@@ -20,7 +20,7 @@ This property is optional and can be set in the [Property](property-table.md) ta
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 4.5 on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

@@ -1,6 +1,6 @@
 ---
 title: label - ps
-description: Mark the next instruction as having a label index.
+description: Mark the next instruction as having a label index. | label - ps
 ms.assetid: 21afa062-c536-4891-ba69-ca5284b0539c
 ms.topic: reference
 ms.date: 05/31/2018
@@ -28,9 +28,9 @@ Mark the next instruction as having a label index.
 
 where \# identifies the label number.
 
-For ps\_2\_x, the label number must be between between 0 and 15.
+For ps\_2\_x, the label number must be between 0 and 15.
 
-For ps\_2\_sw, ps\_3\_0, and ps\_3\_sw, the label number must be between between 0 and 2047.
+For ps\_2\_sw, ps\_3\_0, and ps\_3\_sw, the label number must be between 0 and 2047.
 
 ## Remarks
 

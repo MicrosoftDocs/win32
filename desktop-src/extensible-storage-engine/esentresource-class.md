@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource class"
 title: EsentResource class
 TOCTitle: EsentResource class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentResource
@@ -34,13 +35,13 @@ This is the base class for all esent resource objects. Subclasses of this class 
 
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.EsentResource  
-    [Microsoft.Isam.Esent.Interop.Session](dn351164\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.Table](dn351163\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.Transaction](dn351174\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.Update](dn351191\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback](dn335323\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.Interop.Session](./session-class.md)  
+    [Microsoft.Isam.Esent.Interop.Table](./table-class.md)  
+    [Microsoft.Isam.Esent.Interop.Transaction](./transaction-class.md)  
+    [Microsoft.Isam.Esent.Interop.Update](./update-class.md)  
+    [Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback](./durablecommitcallback-class.md)  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -65,6 +66,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentResource members](dn350521\(v=exchg.10\).md)
+[EsentResource members](./esentresource-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

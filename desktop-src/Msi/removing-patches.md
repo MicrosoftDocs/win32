@@ -1,5 +1,5 @@
 ---
-Description: Beginning with Windows Installer&\#160;version&\#160;3.0, it is possible to create and install patches that can be uninstalled singly, and in any order, without having to uninstall and reinstall the entire application and other patches.
+description: Beginning with Windows Installer&\#160;version&\#160;3.0, it is possible to create and install patches that can be uninstalled singly, and in any order, without having to uninstall and reinstall the entire application and other patches.
 ms.assetid: 2ad30ac9-eac9-49cf-98ae-5c053a0b500a
 title: Removing Patches
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Creates the specified type with the specified name.
+description: Creates the specified type with the specified name.
 ms.assetid: eb85477c-d750-46d2-8b32-450f672e7601
 title: IPStore::CreateType method (Pstore.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

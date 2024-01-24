@@ -1,5 +1,5 @@
 ---
-Description: Lists the vector accessor functions provided by the DirectXMath Library.
+description: Lists the vector accessor functions provided by the DirectXMath Library.
 ms.assetid: 6e7453b8-0dee-6fc5-cbac-fe20e4e3ef60
 title: DirectXMath Library vector accessor functions
 ms.topic: reference

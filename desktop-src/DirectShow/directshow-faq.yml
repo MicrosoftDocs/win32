@@ -1,0 +1,177 @@
+### YamlMime:FAQ
+metadata:
+  description: DirectShow FAQ
+  ms.assetid: 198758b9-025a-44af-958c-9ddea8cbb12d
+  title: DirectShow FAQ
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: DirectShow FAQ
+summary: This article answers many frequently asked questions about Microsoft DirectShow.
+
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          What operating systems does DirectShow support?
+        answer: |
+          DirectShow is available in all supported versions of Windows.
+
+      - question: |
+          How much COM knowledge do I need to program with DirectShow?
+        answer: |
+          For application development, you need to understand the basics of working with COM objects: how to instantiate them, access the interfaces they expose, and manage reference counts on those interfaces. Filter development requires more COM knowledge.
+          
+      - question: |
+          What formats does DirectShow support?
+        answer: |
+          See [Supported Formats in DirectShow](supported-formats-in-directshow.md).
+          
+      - question: |
+          Is there a DirectShow Hardware Compatibility List (HCL)?
+        answer: |
+          No. DirectShow uses Microsoft DirectDraw and Microsoft DirectSound hardware capabilities if they are available. When no special hardware is available, DirectShow uses GDI to draw video and the **waveOut** \* multimedia APIs to play audio.
+
+      - question: |
+          What languages can I use to write a DirectShow application?
+        answer: |
+          DirectShow is designed primarily for C++ development. A small sub-set of the DirectShow API is exposed through Visual Basic 6.0; however, this feature is deprecated.
+
+      - question: |
+          Will DirectShow ever be accessible through managed code?
+        answer: |
+          Microsoft has no current plans to implement a managed DirectShow API.
+
+      - question: |
+          What compiler do I need for DirectShow development?
+        answer: |
+          Any compiler capable of generating Component Object Model (COM) objects should work once the compiler's environment has been configured correctly.
+
+      - question: |
+          How does DirectShow relate to Microsoft DirectX?
+        answer: |
+          Internally, DirectShow uses DirectSound and DirectDraw when the hardware supports it. The Video Renderer and Overlay Mixer filters use DirectDraw 3 and DirectDraw 5 surfaces. The Video Mixing Renderer 7 (Windows XP only) uses DirectDraw 7 surfaces. The Video Mixing Renderer 9 and the Enhanced Video Renderer use the latest Microsoft Direct3D APIs. You do not need to use the other DirectX APIs to write a DirectShow application, although it is possible to combine them.
+
+      - question: |
+          How does DirectShow relate to Microsoft ActiveMovie?
+        answer: |
+          ActiveMovie was the original name for DirectShow. The term ActiveMovie is no longer used.
+
+      - question: |
+          Is the source code to the GraphEdit utility available? Can GraphEdit be redistributed?
+        answer: |
+          No, the source is not available, and Graphedt.exe is not redistributable.
+
+      - question: |
+          Do DMOs replace DirectShow filters?
+        answer: |
+          Microsoft DirectX Media Objects (DMOs) can be used in a DirectShow application. For encoders, decoders, and effects, you are encouraged to write a DMO instead of a DirectShow filter. (Note: If you want to use DirectX Video Acceleration in your decoder, you must implement it as a filter.) For other purposes, a DirectShow filter might be more appropriate. For more information about DMOs, see [DirectX Media Objects](directx-media-objects.md).
+          
+      - question: |
+          I'm playing an AVI format file with Windows Media Player. I can hear the audio, but there doesn't seem to be any video-instead, I just see black. What's wrong?
+        answer: |
+          Probably the file was encoded with a codec that is not present on your system. Although the AVI file format is common, AVI files can be created with many different compression formats (codecs). If you try to play an AVI file that uses an unsupported codec, you might hear the audio component, but the video will display as a black screen or the screen contents will remain unchanged.
+          
+          > [!Note]  
+          > Windows Media Player often attempts to download and install a codec if it is not present on your system.
+          
+           
+          
+      - question: |
+          How do I build my application? What libraries and header files do I need?
+        answer: |
+          See [Setting Up the Build Environment](setting-up-the-build-environment.md).
+          
+      - question: |
+          GraphEdit displays a lot of filters that aren't documented. What are these filters?
+        answer: |
+          GraphEdit enumerates all of the filters that are registered on your system in a filter category. This might include filters installed by third-party applications, or installed by other Microsoft technologies, such as Windows Media or NetMeeting. Also, some DirectShow filters act as wrappers for codecs or hardware devices, with each codec or device appearing as a distinct filter. The Microsoft H.263 Video Codec is used by NetMeeting and is no longer supported in DirectShow. For more information, see [Enumerating Devices and Filters](enumerating-devices-and-filters.md).
+          
+      - question: |
+          I'm having trouble building my custom graph programmatically.
+        answer: |
+          First try building the filter graph with GraphEdit. This tool enables you to simulate lots of possibilities quickly. GraphEdit is always a great place to test out the graph before attempting to build it with source code.
+          
+          For more information about graph building, see the following articles:
+          
+          -   [Building the Filter Graph](building-the-filter-graph.md)
+          -   [Enumerating Objects in a Filter Graph](enumerating-objects-in-a-filter-graph.md)
+          
+      - question: |
+          How can I detect whether DirectShow is installed on a given machine?
+        answer: |
+          Call **CoCreateInstance** to create an instance of the Filter Graph Manager. If this call succeeds, DirectShow is installed on the machine. The following code shows how to do this:
+          
+          
+          ```C++
+          IGraphBuilder *pGraph;
+          
+          HRESULT hr = CoCreateInstance(CLSID_FilterGraph,
+              NULL, CLSCTX_INPROC_SERVER,
+              IID_IGraphBuilder, (void **) &pGraph);
+          ```
+          
+          
+          
+      - question: |
+          How do I change a filter's settings without displaying the property page?
+        answer: |
+          Most filters expose one or more interfaces for setting properties on the filter. Consult the reference page for the filter in question. (See [DirectShow Filters](directshow-filters.md).)
+          
+      - question: |
+          Can I test my filter with GraphEdit?
+        answer: |
+          While you are developing a filter, GraphEdit can help you to visualize the connections between filters. It can also provide a quick test of a filter's functionality. However, it is not meant as a robust test platform.
+
+      - question: |
+          At what privilege ring do filters run?
+        answer: |
+          Filters run at ring 3, although some filters control streaming devices that run at ring 0. For more information, see [How Hardware Devices Participate in the Filter Graph](how-hardware-devices-participate-in-the-filter-graph.md).
+          
+      - question: |
+          Do I need to use a kernel debugger?
+        answer: |
+          That depends on your specific project. Installing the DirectX debug runtime libraries means that you are installing debug drivers and other kernel mode components, and that if your application causes a debug assert in one of these components, your machine will automatically reboot unless you have a kernel debugger attached to your process.
+
+      - question: |
+          When I run my application in the debugger, it crashes.
+        answer: |
+          Some decoders are designed not to work while the application is attached to the debugger. Try running the application outside the debugger.
+
+      - question: |
+          How does the DEFINE\_GUID macro work?
+        answer: |
+          The **DEFINE\_GUID** macro solves the problem of declaring `extern` references to GUID values in your source code. For example, suppose that your project has three source files, Src1.cpp, Src2.cpp, and Src3.cpp, and all three files use a certain GUID value that you have defined. The GUID value must be defined exactly once in your project, and the other source files must declare `extern` references to it. With the **DEFINE\_GUID** macro, you can use the same header file for both purposes. In your header file, declare the GUID as follows:
+          
+          
+          ```C++
+          DEFINE_GUID(CLSID_MyObject, 
+          0x00000000, 0x0000, 0x0000, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00);
+          ```
+          
+          
+          
+          (Where this example has zeroes, put the actual GUID values.) You can use the Guidgen.exe utility to create a new GUID and paste it into the header file in the **DEFINE\_GUID** format. Include this header file in every source file that references the GUID. In exactly one of the source files, include the header file Initguid.h before your header file. For example:
+          
+          
+          ```C++
+          // Src1.cpp
+          #include <initguid.h>
+          #include "MyGuids.h"
+
+          // Src2.cpp
+          #include "MyGuids.h"
+
+          // Src3.cpp
+          #include "MyGuids.h"
+          ```
+
+          Wherever the Initguid.h header file is not included, the **DEFINE\_GUID** macro creates an `extern` reference to the GUID value. When the Initguid.h header file is included, it redefines the **DEFINE\_GUID** macro so that **DEFINE\_GUID** creates a defining declaration of the GUID.
+
+          If you do not include Initguid.h in any of the source files, you will get a link error "unresolved external symbol." If you include Initguid.h twice for the same GUID, you will get a compile error "redefinition; multiple initialization." To resolve these errors, make sure that Initguid.h is included exactly once. Also, do not include Initguid.h inside a precompiled header file, because in effect the precompiled header is included in every source file.
+
+additionalContent: |
+
+  ## Related topics
+  
+  [Introduction to DirectShow](introduction-to-directshow.md)

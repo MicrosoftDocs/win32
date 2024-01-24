@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST Structure"
 title: JET_RECORDLIST Structure
 TOCTitle: JET_RECORDLIST Structure
 ms:assetid: 6b4d97a0-4b42-4f7c-bb18-b6db3c92668a
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_RECORDLIST Structure
 
-The **JET_RECORDLIST** structure finds records that are in the intersection of specified index ranges when they are used with the [JetIntersectIndexes](gg269289\(v=exchg.10\).md) function.
+The **JET_RECORDLIST** structure finds records that are in the intersection of specified index ranges when they are used with the [JetIntersectIndexes](./jetintersectindexes-function.md) function.
 
 ```cpp
     typedef struct {
@@ -43,7 +44,7 @@ The size of the **JET_RECORDLIST** structure, in bytes.
 
 **tableid**
 
-The table identifier of a temporary table that contains the bookmarks for the results of the query. The table will automatically be closed if the current transaction is rolled back with [JetRollback](gg269273\(v=exchg.10\).md); otherwise, it must be closed with [JetCloseTable](gg294087\(v=exchg.10\).md).
+The table identifier of a temporary table that contains the bookmarks for the results of the query. The table will automatically be closed if the current transaction is rolled back with [JetRollback](./jetrollback-function.md); otherwise, it must be closed with [JetCloseTable](./jetclosetable-function.md).
 
 **cRecord**
 
@@ -59,34 +60,20 @@ The temporary table that is identified by **tableid** has a single column. That 
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also
 
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetIntersectIndexes](gg269289\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)
-
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetIntersectIndexes](./jetintersectindexes-function.md)  
+[JetRollback](./jetrollback-function.md)

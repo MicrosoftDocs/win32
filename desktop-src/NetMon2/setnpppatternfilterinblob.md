@@ -1,5 +1,5 @@
 ---
-Description: Sets the BLOB pattern match filter.
+description: Sets the BLOB pattern match filter.
 ms.assetid: 44e7c67a-f430-4d68-bc7f-f6bbd5b9e5a9
 title: SetNPPPatternFilterInBlob function (Netmon.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ The pattern match filter data stored in the **Config** category of the BLOB.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -22,7 +22,7 @@ Stores a list of preferred network configurations in Group Policy for wireless n
 
 
 
-|                   |                                                                                  |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | CN                | ms-ieee-80211-Data                                                               |
 | Ldap-Display-Name | msieee80211-Data                                                                 |
@@ -47,7 +47,7 @@ Stores a list of preferred network configurations in Group Policy for wireless n
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -68,7 +68,7 @@ Stores a list of preferred network configurations in Group Policy for wireless n
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -89,7 +89,7 @@ Stores a list of preferred network configurations in Group Policy for wireless n
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -110,7 +110,7 @@ Stores a list of preferred network configurations in Group Policy for wireless n
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -131,7 +131,7 @@ Stores a list of preferred network configurations in Group Policy for wireless n
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |

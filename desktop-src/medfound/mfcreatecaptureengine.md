@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of the capture engine.
+description: Creates an instance of the capture engine.
 ms.assetid: 4B0C9DD6-135D-4412-A585-7E98A84101B5
 title: MFCreateCaptureEngine function
 ms.topic: reference
@@ -55,7 +55,7 @@ This function has no associated import library and is not declared in a public h
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                        |

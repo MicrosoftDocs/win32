@@ -1,5 +1,5 @@
 ---
-Description: SFVM\_THISIDLIST may be altered or unavailable.
+description: SFVM\_THISIDLIST may be altered or unavailable.
 ms.assetid: 488f696d-aa71-4727-bbd2-c99e7d245d85
 title: SFVM_THISIDLIST message (Shlobj.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The address of the view's PIDL.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

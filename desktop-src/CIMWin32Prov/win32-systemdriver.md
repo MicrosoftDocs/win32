@@ -1,5 +1,5 @@
 ---
-Description: Represents the system driver for a base service.
+description: Represents the system driver for a base service.
 ms.assetid: 67dc6e14-c8c1-4168-8f99-b04c6ecd4ad2
 ms.tgt_platform: multiple
 title: Win32_SystemDriver class
@@ -840,8 +840,6 @@ The **Win32\_SystemDriver** class is derived from [**Win32\_BaseService**](win32
 
 ## Examples
 
-The [List System Drivers](https://Gallery.TechNet.Microsoft.Com/5629cc13-cefc-4e51-a24f-aac6db23d141) VBScript sample Displays installed system drivers in an HTML file.
-
 The following PowerShell example retrieves a number of properties from the running system drivers on a computer.
 
 
@@ -855,7 +853,7 @@ Get-WmiObject -Class Win32_SystemDriver | Where-Object -FilterScript {$_.State -
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

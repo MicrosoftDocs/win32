@@ -1,5 +1,5 @@
 ---
-Description: It is sometimes useful to back up and restore only sections of files. VSS provides partial file mechanisms, which, if requesters support it, allows writers to specify partial file backups and restores.
+description: It is sometimes useful to back up and restore only sections of files. VSS provides partial file mechanisms, which, if requesters support it, allows writers to specify partial file backups and restores.
 ms.assetid: 02b74a4e-d69f-4eeb-866a-3399598b7035
 title: Working with Partial Files
 ms.topic: article

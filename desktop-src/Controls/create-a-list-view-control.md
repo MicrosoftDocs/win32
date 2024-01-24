@@ -25,7 +25,6 @@ A list-view control can also be created as part of a dialog box template. You mu
 
 ## Instructions
 
-### 
 
 First register the window class by calling the [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) function and specifying the [**ICC\_LISTVIEW\_CLASSES**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) bit in the accompanying **INITCOMMONCONTROLSEX** structure. This ensures that the common controls DLL is loaded. Next, use the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function and specify the [**WC\_LISTVIEW**](common-control-window-classes.md) window class.
 
@@ -75,7 +74,6 @@ HWND CreateListView (HWND hwndParent)
 
 
 
-### 
 
 Typically, list-view applications enable the user to change from one view to another.
 

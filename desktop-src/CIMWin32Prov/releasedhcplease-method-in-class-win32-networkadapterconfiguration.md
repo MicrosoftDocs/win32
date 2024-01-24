@@ -1,5 +1,5 @@
 ---
-Description: The ReleaseDHCPLease WMI class method releases the IP address bound to a specific DHCP-enabled network adapter.
+description: The ReleaseDHCPLease WMI class method releases the IP address bound to a specific DHCP-enabled network adapter.
 ms.assetid: 0cf4b531-8626-4388-bffa-e16a4aa8c794
 ms.tgt_platform: multiple
 title: ReleaseDHCPLease method of the Win32_NetworkAdapterConfiguration class
@@ -399,8 +399,6 @@ DHCP not enabled on adapter.
 
 ## Examples
 
-The [Release Renew IP Adresses Using PowerShell](https://Gallery.TechNet.Microsoft.Com/Renew-IP-Adresses-Using-365f6bfa) PowerShell example on TechNet Gallery uses **ReleaseDHCPLease** to release and renew an IP address.
-
 The following VBScript code releases the DHCP leases for all TCP/IP-bound network adapters on a computer.
 
 
@@ -425,7 +423,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

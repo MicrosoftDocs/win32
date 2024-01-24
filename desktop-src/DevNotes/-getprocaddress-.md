@@ -1,5 +1,5 @@
 ---
-Description: Gets the address of a function from a DLL.
+description: Gets the address of a function from a DLL.
 ms.assetid: e425948c-5588-4a4f-994c-4e608af18439
 title: '_GetProcAddress_ function'
 ms.topic: reference
@@ -44,7 +44,7 @@ FARPROC _GetProcAddress_(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingRestoreLogFilesException methods"
 title: EsentMissingRestoreLogFilesException methods
 TOCTitle: EsentMissingRestoreLogFilesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMissingRestoreLogFilesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMissingRestoreLogFilesException](dn334755\(v=exchg.10\).md) type exposes the following members.
+The [EsentMissingRestoreLogFilesException](./esentmissingrestorelogfilesexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentMissingRestoreLogFilesException class](dn334755\(v=exchg.10\).md)
+[EsentMissingRestoreLogFilesException class](./esentmissingrestorelogfilesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

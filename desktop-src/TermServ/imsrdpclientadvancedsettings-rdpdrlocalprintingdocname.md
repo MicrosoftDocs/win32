@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings RdpdrLocalPrintingDocName property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings RdpdrLocalPrintingDocName property
 ms.assetid: ccff4695-920b-4595-9beb-f084ccca420e
 ms.tgt_platform: multiple
 keywords:
@@ -89,7 +89,7 @@ Returns **S\_FALSE**.
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                       |

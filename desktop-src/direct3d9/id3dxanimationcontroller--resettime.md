@@ -1,5 +1,5 @@
 ---
-Description: Resets the global animation time to zero. Any pending events will retain their original schedules, but in the new timeframe.
+description: Resets the global animation time to zero. Any pending events will retain their original schedules, but in the new timeframe.
 ms.assetid: 70b073ec-ef97-4af4-9f42-b6a6cc13605f
 title: ID3DXAnimationController::ResetTime method (D3dx9anim.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method is typically used when the global animation time value is nearing th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

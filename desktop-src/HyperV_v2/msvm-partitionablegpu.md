@@ -1,5 +1,5 @@
 ---
-Description: Represents a partitionable GPU. Each GPU can be sliced into a number of GPU partitions, which can be assigned to a virtual machine as a vGPU.
+description: Represents a partitionable GPU. Each GPU can be sliced into a number of GPU partitions, which can be assigned to a virtual machine as a vGPU.
 ms.assetid: a32dfc03-6967-4fa3-ae32-bf074137740b
 title: Msvm_PartitionableGpu class
 ms.topic: reference
@@ -376,7 +376,7 @@ An array of valid GPU partition options the physical GPU can be sliced into.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

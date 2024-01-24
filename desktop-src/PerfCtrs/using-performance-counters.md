@@ -1,5 +1,5 @@
 ---
-Description: To consume counter data, see Consuming Counter Data.
+description: To consume counter data, see Consuming Counter Data.
 ms.assetid: fff8bc4a-3d7a-4d70-ba03-347f9f063c84
 title: Using Performance Counters
 ms.topic: article
@@ -15,6 +15,7 @@ Performance counter **providers** are software components that publish performan
 - Use [Performance Counter Tools](performance-counters-tools.md) when you want to collect or view the counter data from a system.
 - Use [Performance Counter Consumer APIs](consuming-counter-data.md) when you want to write a program that collects counter data from the local system.
 - Use [WMI Performance Counter Classes](/windows/desktop/WmiSdk/monitoring-performance-data) when you want to collect counter data from a local or remote system using WMI.
+- Use [Work Unit performance counter](using-workunit-perf_counters.md) when you want learn about the deeper processes running within an application.
 - Use [Performance Counter Provider APIs](providing-counter-data.md) when you want to publish performance counter data from your software component.
 
 ## See also

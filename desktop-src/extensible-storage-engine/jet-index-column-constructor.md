@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_COLUMN constructor"
 title: JET_INDEX_COLUMN constructor  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JET_INDEX_COLUMN constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_INDEX_COLUMN constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_INDEX_COLUMN()
 
 #### Reference
 
-[JET_INDEX_COLUMN class](dn335349\(v=exchg.10\).md)
+[JET_INDEX_COLUMN class](./jet-index-column-class.md)
 
-[JET_INDEX_COLUMN members](dn335351\(v=exchg.10\).md)
+[JET_INDEX_COLUMN members](./jet-index-column-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

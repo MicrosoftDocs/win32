@@ -1,5 +1,5 @@
 ---
-Description: The pipe server controls whether its handles can be inherited in the following ways.
+description: The pipe server controls whether its handles can be inherited in the following ways.
 ms.assetid: 72302f8b-f3a2-4efc-aab1-e596b8323984
 title: Pipe Handle Inheritance
 ms.topic: article

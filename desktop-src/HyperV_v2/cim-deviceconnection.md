@@ -1,5 +1,5 @@
 ---
-Description: A relationship that indicates that two or more devices are connected together.
+description: A relationship that indicates that two or more devices are connected together.
 ms.assetid: 84282740-f60f-46fa-95b7-b52a7e6efcc4
 title: CIM_DeviceConnection class (Hyper-V management)
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DeviceConnection class
+# CIM_DeviceConnection class (Hyper-V management)
 
 A relationship that indicates that two or more devices are connected together.
 
@@ -116,7 +116,7 @@ When several bus and connection speeds are possible, this property defines the s
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

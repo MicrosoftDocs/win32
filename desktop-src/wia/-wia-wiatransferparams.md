@@ -1,5 +1,5 @@
 ---
-Description: The WiaTransferParams is transmitted to an application during a data transfer by the Windows Image Acquisition (WIA) run-time system to the IWiaTransferCallback::TransferCallback method.
+description: The WiaTransferParams is transmitted to an application during a data transfer by the Windows Image Acquisition (WIA) run-time system to the IWiaTransferCallback::TransferCallback method.
 ms.assetid: 4f1bbacf-e9fd-4129-ab05-3edaeecfaf43
 title: WiaTransferParams structure (Wia.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ The status, or error state, of the device set by the driver; for example, "warmi
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |

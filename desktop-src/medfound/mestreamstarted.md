@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media stream when the source starts without seeking. A media stream raises this event when the media source raises the MESourceStarted event.
+description: Raised by a media stream when the source starts without seeking. A media stream raises this event when the media source raises the MESourceStarted event.
 ms.assetid: 6652e440-5de9-4767-b7a6-9d919ceece38
 title: MEStreamStarted event (Mfobjects.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

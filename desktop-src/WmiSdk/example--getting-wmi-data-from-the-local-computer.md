@@ -1,5 +1,5 @@
 ---
-Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, retrieves data semisynchronously, and then cleans up.
+description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, retrieves data semisynchronously, and then cleans up.
 ms.assetid: 35dc97aa-dcef-48c1-af8b-ce43e3cf1d3e
 ms.tgt_platform: multiple
 title: 'Example: Getting WMI Data from the Local Computer'
@@ -49,7 +49,7 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     ```C++
     VARIANT vtProp;
-
+    VariantInit(&vtProp);
     // Get the value of the Name property
     hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
     ```
@@ -227,6 +227,7 @@ int main(int argc, char **argv)
 
         VARIANT vtProp;
 
+        VariantInit(&vtProp);
         // Get the value of the Name property
         hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
         wcout << " OS Name : " << vtProp.bstrVal << endl;

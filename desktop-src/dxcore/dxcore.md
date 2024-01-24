@@ -1,9 +1,8 @@
 ---
 title: DXCore
 description: DXCore is an adapter enumeration API for DirectX devices.
-ms.localizationpriority: high
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 08/17/2023
 ---
 
 # DXCore
@@ -17,7 +16,7 @@ This documentation set contains information about programming with DXCore, as we
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Supported runtime environments** | Windows/C++ |
-| **Recommended programming languages** | C/C++ |
+| **Recommended programming languages** | C++ |
 | **Minimum supported client** | Windows 10, version 2004 (10.0; Build 19041) |
 | **Header** | dxcore.h and dxcore_interface.h |
 | **Library** | dxcore.lib |

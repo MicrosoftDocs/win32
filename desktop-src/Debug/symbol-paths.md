@@ -1,5 +1,5 @@
 ---
-Description: The DbgHelp library uses the symbol search path to locate debug symbols (.pdb and .dbg files). The search path can be made up of one or more path elements separated by semicolons.
+description: The DbgHelp library uses the symbol search path to locate debug symbols (.pdb and .dbg files). The search path can be made up of one or more path elements separated by semicolons.
 ms.assetid: 3527f589-285b-4cdf-b024-17920971a904
 title: Symbol Paths
 ms.topic: article
@@ -64,7 +64,7 @@ To see how this works, set this search path.
 `cache*c:\myCache;srv*\\symbols\symbols`
 
 <!-- 
-See example from https://docs.microsoft.com/windows-hardware/drivers/debugger/symbol-path
+See example from [Symbol path for Windows debuggers](/windows-hardware/drivers/debugger/symbol-path)
 cache*c:\MySymbols;srv*https://msdl.microsoft.com/download/symbols
 -->
 

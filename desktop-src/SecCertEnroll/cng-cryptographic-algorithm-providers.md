@@ -1,5 +1,5 @@
 ---
-Description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers.'
+description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers.'
 ms.assetid: ce29bc97-049e-4c82-979f-4c805a318ba0
 title: CNG Cryptographic Algorithm Providers
 ms.topic: article
@@ -22,7 +22,7 @@ Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) sep
 
 | Name                                   | Supported modes                                                                                                                                                                                                 | Key size in bits (Default/Min/Max) |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| Advanced Encryption Standard (AES)     | ECB, CBC, CFB8, CFB128, GCM, CCM, GMAC, CMAC, AES Key Wrap, XTS<br/> **Windows 8:** Support for the CFB128 and CMAC modes begins.<br/> **Windows 10:** Support for XTS-AES moode begins.<br/> | 128/192/256                        |
+| Advanced Encryption Standard (AES)     | ECB, CBC, CFB8, CFB128, GCM, CCM, GMAC, CMAC, AES Key Wrap, XTS<br/> **Windows 8:** Support for the CFB128 and CMAC modes begins.<br/> **Windows 10:** Support for XTS-AES mode begins.<br/> | 128/192/256                        |
 | Data Encryption Standard (DES)         | ECB, CBC, CFB8, CFB64<br/> **Windows 8:** Support for the CFB64 mode begins.<br/>                                                                                                                   | 56/56/56                           |
 | Data Encryption Standard XORed(DESX)   | ECB, CBC, CFB8, CFB64 <br/> **Windows 8:** Support for the CFB64 mode begins.<br/>                                                                                                                  | 192/192/192                        |
 | Triple Data Encryption Standard (3DES) | ECB, CBC, CFB8, CFB64 <br/> **Windows 8:** Support for the CFB64 mode begins.<br/>                                                                                                                  | 112/168                            |
@@ -41,7 +41,7 @@ Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) sep
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Digital Signature Algorithm (DSA) | Implementation conforms to FIPS 186-3 for key sizes between 1024 and 3072 bits. <br/> Implementation conforms to FIPS 186-2 for key sizes from 512 to 1024 bits.<br/> | 512 to 3072, in 64-bit increments<br/> **Windows 8:** Support for the a 3072 bit key begins.<br/> |
 | RSA                               | Includes RSA algorithms that use PKCS1, Optimal Asymmetric Encryption Padding (OAEP) encoding or padding, or Probabilistic Signature Scheme (PSS) plaintext padding               | 512 to 16384, in 64-bit increments                                                                            |
-
+| Elliptic Curve Digital Signature Algorithm (ECDSA) | Includes curves that use 256, 384 and 521 bit public keys as specified in FIPS 186-3. **Note:** To display all named elliptic curves, use **certutil  displayEccCurve**.<br> | 256/384/521 | 
 
 
  
@@ -68,42 +68,13 @@ Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) sep
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Algorithm name</th>
-<th>Notes</th>
-<th>Key size in bits (Default/Min/Max)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Diffie-Hellman Key Exchange Algorithm</td>
 
-<td>512 to 4096, in 64-bit increments</td>
-</tr>
-<tr class="even">
-<td>Elliptic Curve Diffie-Hellman (ECDH)</td>
-<td>Includes curves that use 256, 384 and 521 bit public keys as specified in SP800-56A.</td>
-<td>256/384/521</td>
-</tr>
-<tr class="odd">
-<td>Elliptic Curve Digital Signature Algorithm (ECDSA)</td>
-<td>Includes curves that use 256, 384 and 521 bit public keys as specified in FIPS 186-3.
-<blockquote>
-[!Note]<br />
-To display all named elliptic curves, use <strong>certutil  displayEccCurve</strong>.
-</blockquote>
-<br/></td>
-<td>256/384/521</td>
-</tr>
-</tbody>
-</table>
+| Algorithm name | Notes | Key size in bits (Default/Min/Max) | 
+|----------------|-------|------------------------------------|
+| Diffie-Hellman Key Exchange Algorithm | 512 to 4096, in 64-bit increments | 
+| Elliptic Curve Diffie-Hellman (ECDH) | Includes curves that use 256, 384 and 521 bit public keys as specified in SP800-56A. | 256/384/521 | 
+
+
 
 
 

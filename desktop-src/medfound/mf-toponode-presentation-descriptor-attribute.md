@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the presentation descriptor for the media source.
+description: Contains a pointer to the presentation descriptor for the media source.
 ms.assetid: 4f2c1ad8-fda9-482f-b82a-9838d15d2785
 title: MF_TOPONODE_PRESENTATION_DESCRIPTOR attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

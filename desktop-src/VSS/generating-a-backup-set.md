@@ -1,5 +1,5 @@
 ---
-Description: A backup set is a list of all files to be backed up, their locations, and how to back them up.
+description: A backup set is a list of all files to be backed up, their locations, and how to back them up.
 ms.assetid: 34a66a9c-c1bc-437d-b034-59dc0c88228c
 title: Generating A Backup Set
 ms.topic: article

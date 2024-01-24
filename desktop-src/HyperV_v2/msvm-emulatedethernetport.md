@@ -1,5 +1,5 @@
 ---
-Description: Represents an emulated Ethernet adapter.
+description: Represents an emulated Ethernet adapter.
 ms.assetid: 8E990C76-7D48-42B0-BB4D-C4C07B1C482A
 title: Msvm_EmulatedEthernetPort class
 ms.topic: reference
@@ -1023,7 +1023,7 @@ See [Querying networking objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

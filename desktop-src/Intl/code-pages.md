@@ -1,5 +1,5 @@
 ---
-Description: Most applications written today handle character data primarily as Unicode, using the UTF-16 encoding.
+description: Most applications written today handle character data primarily as Unicode, using the UTF-16 encoding.
 ms.assetid: 866f09f4-629e-4097-a974-fbda9389d077
 title: Code Pages
 ms.topic: article
@@ -12,7 +12,7 @@ Most applications written today handle character data primarily as [Unicode](uni
 
 -   To communicate with legacy applications.
 -   To communicate with older mail and news servers, which might not always support Unicode.
--   To communicate with the Windows Console.
+-   To communicate with the Windows Console for legacy purposes. (The console does support Unicode, but some legacy command-line application tools may not.)
 
 > [!Note]  
 > New Windows applications should use [Unicode](unicode.md) to avoid the inconsistencies of varied code pages and for ease of localization.

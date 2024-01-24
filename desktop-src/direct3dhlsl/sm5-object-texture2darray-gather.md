@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::Gather(S,float,int) function
-description: Samples a texture and returns all four components.
+description: Returns the four texel values that would be used in a bi-linear filtering operation. | Texture2DArray::Gather(S,float,int) function
 ms.assetid: b0355158-01c8-45a1-bb5d-29a8c43b1685
 keywords:
 - Gather function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Gather(S,float,int) function
+# Texture2DArray::Gather(S,float,int) function
 
-Samples a texture and returns all four components.
+Returns the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 

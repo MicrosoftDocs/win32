@@ -1,5 +1,5 @@
 ---
-Description: These constants are used in two contexts.
+description: These constants are used in two contexts.
 ms.assetid: 5c05a567-cc65-411e-b049-919a442c5c57
 title: LINEPROXYREQUEST_ Constants (Tapi.h)
 ms.topic: reference
@@ -216,7 +216,7 @@ Associated with [**lineSetQueueMeasurementPeriod**](/windows/desktop/api/Tapi/nf
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

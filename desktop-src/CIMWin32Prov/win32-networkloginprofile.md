@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_NetworkLoginProfile&\#8194;WMI class represents the network login information of a specific user on a computer system running Windows.
+description: The Win32\_NetworkLoginProfile&\#8194;WMI class represents the network login information of a specific user on a computer system running Windows.
 ms.assetid: e5a8e934-d5a7-43fa-b140-c3cca972590f
 ms.tgt_platform: multiple
 title: Win32_NetworkLoginProfile class
@@ -946,8 +946,6 @@ The calling process that uses this class must have the **SE\_RESTORE\_NAME** pri
 
 ## Examples
 
-The [List Network Login Profiles](https://Gallery.TechNet.Microsoft.Com/4b84fb8a-964e-4811-98d2-de1009685a14) PowerShell sample returns network login information for all the users of a computer.
-
 The following VBScript sample returns network login information.
 
 
@@ -1020,7 +1018,7 @@ End Function
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

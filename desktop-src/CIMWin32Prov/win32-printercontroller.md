@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PrinterController association WMI class relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
+description: The Win32\_PrinterController association WMI class relates a printer and the local device to which the printer is connected. Note that this class only returns instances for local printers.
 ms.assetid: fb483b28-11f1-4153-893e-492f71763712
 ms.tgt_platform: multiple
 title: Win32_PrinterController class
@@ -212,7 +212,7 @@ The **Win32\_PrinterController** class is derived from [**CIM\_ControlledBy**](c
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

@@ -36,10 +36,10 @@ Represents the layout style of a group of controls in a custom template.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -205,12 +205,8 @@ The following code example demonstrates the basic markup for a custom four-butto
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 

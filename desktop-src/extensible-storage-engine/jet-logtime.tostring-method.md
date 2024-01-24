@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME.ToString method"
 title: JET_LOGTIME.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LOGTIME.ToString
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the structure.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ The structure as a string.
 
 #### Reference
 
-[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](./jet-logtime-structure2.md)
 
-[JET_LOGTIME members](hh579151\(v=exchg.10\).md)
+[JET_LOGTIME members](./jet-logtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

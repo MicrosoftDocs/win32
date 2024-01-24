@@ -1,6 +1,6 @@
 ---
 title: TCM_SETUNICODEFORMAT message (Commctrl.h)
-description: Sets the Unicode character format flag for the control.
+description: TCM_SETUNICODEFORMAT message - Sets the Unicode character format flag for the control.
 ms.assetid: 4a9bacfc-d1b7-432a-9b61-b0fe18576679
 keywords:
 - TCM_SETUNICODEFORMAT message Windows Controls
@@ -46,7 +46,7 @@ See the remarks for [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md) for a d
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

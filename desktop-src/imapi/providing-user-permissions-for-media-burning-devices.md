@@ -14,7 +14,7 @@ An administrator may adjust specific device-related permissions for power users 
 
 To reach the appropriate group permissions panel in Windows XP, click **Start**, click **Run**, type **gpedit.msc**, and then click **OK**. In the Group Policy interface, expand **Computer Configuration**, expand **Windows Settings**, expand **Security Settings**, expand **Local Policies**, and double-click **Security Options**.
 
-![](images/gpolpanel.jpg)
+![Screenshot that shows the 'Group Policy' window with a policy selected from the 'Policy' pane.](images/gpolpanel.jpg)
 
 At this panel, an administrator must specify the settings of two device options to provide the required group permissions:
 

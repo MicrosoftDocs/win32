@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth device model number.
+description: Bluetooth device model number.
 ms.assetid: a2b131c0-42e3-4d1e-91df-839638388f9a
 title: System.DeviceInterface.Bluetooth.ModelNumber
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.DeviceInterface.Bluetooth.ModelNumber
 
-Bluetooth device model number.
+Bluetooth device model number string that is assigned by the device vendor.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
 

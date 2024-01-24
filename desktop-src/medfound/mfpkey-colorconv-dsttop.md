@@ -1,5 +1,5 @@
 ---
-Description: Specifies the top edge of the destination rectangle, in pixels.
+description: MFPKEY_COLORCONV_DSTTOP Property - Specifies the top edge of the destination rectangle, in pixels.
 ms.assetid: e3ccbb23-0be3-4316-9e5f-0094fdb9e2db
 title: MFPKEY_COLORCONV_DSTTOP Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ VT\_I4
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

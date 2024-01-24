@@ -26,15 +26,18 @@ keywords:
 - example playlists
 - sample playlists
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - kbArticle
 api_name: 
 api_type: 
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # An Advanced Playlist
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following playlist example shows how to use a more complete set of playlist elements. When writing your own code, you will need to change all URLs and file names to valid file names that are accessible to your Windows Media Player.
 
@@ -96,7 +99,7 @@ The following table describes the preceding advanced playlist.
 | `<BANNER HREF = "..\\samples\\home.gif">`                                                   | The [BANNER](banner-element.md) element creates an advertising banner in Windows Media Player. The **HREF** attribute specifies the banner graphic (which must be 194 pixels wide by 32 pixels tall).                                                                                                                                  |
 | `<ABSTRACT>MSN website</ABSTRACT>`                                                    | The [ABSTRACT](abstract-element.md) element provides the ToolTip for the **BANNER**.                                                                                                                                                                                                                                                   |
 | `<MOREINFO HREF = "https://www.msn.com" </ABSTRACT>`                                      | The [MOREINFO](moreinfo-element.md) element links the **BANNER** graphic to a URL. Holding the mouse pointer over the **BANNER** accesses a ToolTip, if defined. Selecting the **BANNER** will open the designated URL.                                                                                                                |
-| <PARAM name = "track" value="1"/>                                                         | The [PARAM](param-element.md) element defines a custom parameter. The **name** attribute defines the name of the custom parameter as "track". The **value** attribute defines the value of "track" to be "1".                                                                                                                          |
+| \<PARAM name = "track" value="1"/>                                                         | The [PARAM](param-element.md) element defines a custom parameter. The **name** attribute defines the name of the custom parameter as "track". The **value** attribute defines the value of "track" to be "1".                                                                                                                          |
 | `</BANNER>`                                                                                 | Closes the **BANNER** element                                                                                                                                                                                                                                                                                                           |
 | `<ENTRY ClientSkip="no">`                                                                   | Begins the [ENTRY](entry-element.md) element block. This element defines a clip in a playlist by specifying a link in the **REF** element. Setting **ClientSkip** to "no" means that the user cannot fast forward or jump to the next clip                                                                                             |
 | `<BANNER HREF = "..\\samples\\contact.gif">`                                                | Creates an advertising banner. The **HREF** is the banner graphic (194x32 pixels).                                                                                                                                                                                                                                                      |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexNotFoundException constructor"
 title: EsentIndexNotFoundException constructor 
 TOCTitle: 'EsentIndexNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexNotFoundException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexNotFoundException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentIndexNotFoundException()
 
 #### Reference
 
-[EsentIndexNotFoundException class](dn350459\(v=exchg.10\).md)
+[EsentIndexNotFoundException class](./esentindexnotfoundexception-class.md)
 
-[EsentIndexNotFoundException members](dn319404\(v=exchg.10\).md)
+[EsentIndexNotFoundException members](./esentindexnotfoundexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

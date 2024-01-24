@@ -1,5 +1,5 @@
 ---
-Description: The ISearchResult interface defines the following properties.
+description: The ISearchResult interface defines the following properties.
 ms.assetid: 12237d7b-edb1-45b1-b4e1-a85261ee18ce
 title: ISearchResult Properties
 ms.topic: article

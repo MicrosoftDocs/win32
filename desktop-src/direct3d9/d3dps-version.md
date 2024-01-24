@@ -1,5 +1,5 @@
 ---
-Description: Create a pixel shader version token.
+description: Create a pixel shader version token.
 ms.assetid: 70089a93-83df-4ac4-8d98-4e1bb6ad2581
 title: D3DPS_VERSION macro (D3d9types.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The version number is a combination of the major version and the minor vertex sh
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

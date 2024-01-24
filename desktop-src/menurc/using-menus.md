@@ -99,7 +99,7 @@ The following example shows how to create a class menu for an application, creat
 Following is the relevant portion of the application's header file:
 
 
-```
+```cpp
 // Menu-template resource identifier 
  
 #define IDM_MYMENURESOURCE   3
@@ -110,7 +110,7 @@ Following is the relevant portion of the application's header file:
 Following are the relevant portions of the application itself:
 
 
-```
+```cpp
 HINSTANCE hinst; 
  
 int APIENTRY WinMain(HINSTANCE hinstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) 
@@ -231,7 +231,7 @@ The [**WM\_CONTEXTMENU**](wm-contextmenu.md) message is generated when an applic
 Following is an example of [**WM\_CONTEXTMENU**](wm-contextmenu.md) message processing as it might appear in an application's window procedure. The low-order and high-order words of the *lParam* parameter specify the screen coordinates of the mouse when the right mouse button is released (note that these coordinates can take negative values on systems with multiple monitors). The application-defined **OnContextMenu** function returns **TRUE** if it displays a context menu, or **FALSE** if it does not.
 
 
-```
+```cpp
 case WM_CONTEXTMENU: 
     if (!OnContextMenu(hwnd, GET_X_LPARAM(lParam),
               GET_Y_LPARAM(lParam))) 
@@ -244,7 +244,7 @@ case WM_CONTEXTMENU:
 The following application-defined OnContextMenu function displays a shortcut menu if the specified mouse position is within the window's client area. A more sophisticated function might display one of several different menus, depending on which portion of the client area is specified. To actually display the shortcut menu, this example calls an application-defined function called DisplayContextMenu. For a description of this function, see [Displaying a Shortcut Menu](#displaying-a-shortcut-menu).
 
 
-```
+```cpp
 BOOL WINAPI OnContextMenu(HWND hwnd, int x, int y) 
 { 
     RECT rc;                    // client area of window 
@@ -283,7 +283,7 @@ The example in this section contains portions of code from an application that c
 Here is the menu template for the shortcut menu that is provided in the application's resource-definition file.
 
 
-```
+```cpp
 PopupMenu MENU 
 BEGIN 
   POPUP "Dummy Popup" 
@@ -324,7 +324,7 @@ END
 The following example gives the window procedure and supporting functions used to create and display the shortcut menu.
 
 
-```
+```cpp
 LRESULT APIENTRY MenuWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
 { 
     RECT rc;    // client area             
@@ -401,7 +401,7 @@ The function shown in the following example displays a shortcut menu.
 The application includes a menu resource identified by the string "ShortcutExample." The menu bar simply contains a menu name. The application uses the [**TrackPopupMenu**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenu) function to display the menu associated with this menu item. (The menu bar itself is not displayed because **TrackPopupMenu** requires a handle to a menu, submenu, or shortcut menu.)
 
 
-```
+```cpp
 VOID APIENTRY DisplayContextMenu(HWND hwnd, POINT pt) 
 { 
     HMENU hmenu;            // top-level menu 
@@ -471,11 +471,10 @@ The second menu is a Lines menu. It contains bitmaps showing the line styles pro
 Here are the definitions of the bitmap resources in the application's resource-definition file.
 
 
-```
-PIE BITMAP pie.bmp 
-LINE BITMAP line.bmp 
-BAR BITMAP bar.bmp 
- 
+```cpp
+PIE BITMAP pie.bmp
+LINE BITMAP line.bmp
+BAR BITMAP bar.bmp
 ```
 
 
@@ -483,7 +482,7 @@ BAR BITMAP bar.bmp
 Here are the relevant portions of the application's header file.
 
 
-```
+```cpp
 // Menu-item identifiers 
  
 #define IDM_SOLID       PS_SOLID 
@@ -525,7 +524,7 @@ VOID MakeLineMenu(HWND, HPEN, HBITMAP);
 The following example shows how menus and menu-item bitmaps are created in an application.
 
 
-```
+```cpp
 LRESULT APIENTRY MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
 { 
  
@@ -698,7 +697,7 @@ Defined in the application's window procedure are two static arrays of bitmap ha
 Following are the relevant portions of the application's header file.
 
 
-```
+```cpp
 // Menu-item identifiers 
  
 #define IDM_PIE         1 
@@ -732,7 +731,7 @@ Following are the relevant portions of the application's header file.
 Following are the relevant portions of the window procedure. The window procedure performs most of its initialization by calling the application-defined LoadChartBitmaps, CreateLineBitmaps, and AddBitmapMenu functions, described later in this topic.
 
 
-```
+```cpp
 LRESULT CALLBACK MainWindowProc( 
         HWND hwnd, 
         UINT uMsg, 
@@ -792,7 +791,7 @@ LRESULT CALLBACK MainWindowProc(
 The application-defined LoadChartBitmaps function loads the bitmap resources for the chart menu by calling the [**LoadBitmap**](/windows/desktop/api/winuser/nf-winuser-loadbitmapa) function, as follows.
 
 
-```
+```cpp
 VOID WINAPI LoadChartBitmaps(HBITMAP *paHbm) 
 { 
     paHbm[0] = LoadBitmap(g_hinst, MAKEINTRESOURCE(IDB_PIE)); 
@@ -806,7 +805,7 @@ VOID WINAPI LoadChartBitmaps(HBITMAP *paHbm)
 The application-defined CreateLineBitmaps function creates the bitmaps for the Lines menu by using GDI drawing functions. The function creates a memory device context (DC) with the same properties as the desktop window's DC. For each line style, the function creates a bitmap, selects it into the memory DC, and draws in it.
 
 
-```
+```cpp
 VOID WINAPI CreateLineBitmaps(HBITMAP *paHbm) 
 { 
     HWND hwndDesktop = GetDesktopWindow(); 
@@ -874,7 +873,7 @@ VOID WINAPI CreateLineBitmaps(HBITMAP *paHbm)
 The application-defined AddBitmapMenu function creates a menu and adds the specified number of bitmap menu items to it. Then it adds a corresponding menu name to the specified window's menu bar.
 
 
-```
+```cpp
 VOID WINAPI AddBitmapMenu( 
         HWND hwnd,          // window that owned the menu bar 
         LPSTR lpszText,     // text of menu name on menu bar 
@@ -965,7 +964,7 @@ The [**WM\_MENUCHAR**](wm-menuchar.md) message is sent when the user types a men
 The high-order word of *wParam* contains the menu handle to the current menu. The window with the owner-drawn menus can process [**WM\_MENUCHAR**](wm-menuchar.md) as follows:
 
 
-```
+```cpp
    case WM_MENUCHAR:
       nIndex = Determine index of menu item to be selected from
                character that was typed and handle to the current
@@ -999,7 +998,7 @@ This topic contains an example from an application that uses owner-drawn menu it
 Here is how the menu is defined in the resource-definition file. Note that the strings for the Regular, Bold, Italic, and Underline menu items are assigned at run time, so their strings are empty in the resource-definition file.
 
 
-```
+```cpp
 MainMenu MENU 
 BEGIN 
     POPUP   "&Character" 
@@ -1029,7 +1028,7 @@ During the processing of the [**WM\_MEASUREITEM**](../controls/wm-measureitem.md
 During the processing of the [**WM\_DRAWITEM**](../controls/wm-drawitem.md) message, the menu item's string is drawn with room left next to the string for the check-mark bitmap. If the user selects the item, the selected text and background colors are used to draw the item.
 
 
-```
+```cpp
 LRESULT APIENTRY MainWndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
 { 
  
@@ -1275,7 +1274,7 @@ The window procedure processes the [**WM\_DESTROY**](/windows/desktop/winmsg/wm-
 The following are the relevant portions of the application's header file.
 
 
-```
+```cpp
 // Menu-item identifiers for the Character menu 
  
 #define IDM_CHARACTER 10 
@@ -1302,7 +1301,7 @@ typedef struct tagMYITEM
 The following are the relevant portions of the application's window procedure and its associated functions.
 
 
-```
+```cpp
 LRESULT CALLBACK MainWindowProc( 
         HWND hwnd, 
         UINT uMsg, 
@@ -1580,7 +1579,7 @@ To retrieve a handle to the system-defined check box bitmap, the example calls t
 The following portion of a resource-definition file shows how the menu items in the **Character** menu are defined. Note that no font attributes are in effect initially, so the check-mark attribute for the **Regular** item is set to selected and, by default, the check-mark attribute of the remaining items is set to clear.
 
 
-```
+```cpp
 #include "men3.h" 
  
 MainMenu MENU 
@@ -1601,7 +1600,7 @@ END
 Here are the relevant contents of the application's header file.
 
 
-```
+```cpp
 // Menu-item identifiers  
  
 #define IDM_REGULAR 0x1 
@@ -1630,7 +1629,7 @@ BYTE CheckOrUncheckMenuItem(BYTE, HMENU);
 The following example shows the portions of the window procedure that create the check-mark bitmaps; set the check-mark attribute of the **Bold**, **Italic**, and **Underline** menu items; and destroy check-mark bitmaps.
 
 
-```
+```cpp
 LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam) 
 { 
  
@@ -1922,7 +1921,7 @@ Unlike character attributes, only one paragraph alignment can be selected at a t
 Following are the relevant portions of the application's header file.
 
 
-```
+```cpp
 // Menu-item identifiers for the Character menu 
  
 #define IDM_CHARACTER 10 
@@ -1948,7 +1947,7 @@ typedef VOID (WINAPI * DRAWFUNC)(HDC hdc, SIZE size);
 The following are the relevant portions of the application's window procedure and related functions.
 
 
-```
+```cpp
 LRESULT CALLBACK MainWindowProc( 
         HWND hwnd, 
         UINT uMsg, 
@@ -2198,9 +2197,3 @@ VOID WINAPI OnDestroy(HWND hwnd)
     DeleteObject(mii.hbmpUnchecked); 
 } 
 ```
-
-
-
- 
-
- 

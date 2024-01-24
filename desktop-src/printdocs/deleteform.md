@@ -1,5 +1,5 @@
 ---
-Description: The DeleteForm function removes a form name from the list of supported forms.
+description: The DeleteForm function removes a form name from the list of supported forms.
 ms.assetid: a2d0345f-2469-46ab-935f-777f2b33b621
 title: DeleteForm function (Winspool.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

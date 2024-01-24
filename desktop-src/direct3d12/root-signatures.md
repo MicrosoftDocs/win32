@@ -2,7 +2,6 @@
 title: Root Signatures
 description: The root signature defines what types of resources are bound to the graphics pipeline.
 ms.assetid: 'ee32a222-8469-4af5-b688-afa70cf77c6a'
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

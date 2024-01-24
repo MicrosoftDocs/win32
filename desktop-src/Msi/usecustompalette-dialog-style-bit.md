@@ -1,5 +1,5 @@
 ---
-Description: If this bit is set, the pictures on the dialog box are created with the custom palette (one per dialog received from the first control created). If the bit is not set, the pictures are rendered using a default palette.
+description: If this bit is set, the pictures on the dialog box are created with the custom palette (one per dialog received from the first control created). If the bit is not set, the pictures are rendered using a default palette.
 ms.assetid: 9cfc7fd9-27a3-4208-b42c-48369890a74b
 title: UseCustomPalette Dialog Style Bit
 ms.topic: article

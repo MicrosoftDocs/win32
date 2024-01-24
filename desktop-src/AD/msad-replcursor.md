@@ -128,7 +128,7 @@ Gets the maximum update sequence number to which the destination server can indi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

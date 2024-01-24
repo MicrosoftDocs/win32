@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the DrawLine methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the DrawLine methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: 15c1c3fd-4479-46ad-a70c-f7d15bc69488
 title: Graphics.DrawLine methods
 ms.date: 07/02/2019

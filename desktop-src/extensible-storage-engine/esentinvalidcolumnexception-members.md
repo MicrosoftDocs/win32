@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException members"
 title: EsentInvalidColumnException members
 TOCTitle: EsentInvalidColumnException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException
@@ -15,7 +16,7 @@ Include inherited members
 
 Exception thrown when a column conversion fails.
 
-The [EsentInvalidColumnException](dn319487\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidColumnException](./esentinvalidcolumnexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidColumnException class](dn319487\(v=exchg.10\).md)
+[EsentInvalidColumnException class](./esentinvalidcolumnexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

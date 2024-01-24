@@ -1,5 +1,5 @@
 ---
-Description: Fog blending refers to the application of the fog factor to the fog and object colors to produce the final color that appears in a scene, as discussed in Fog Formulas (Direct3D 9).
+description: Fog blending refers to the application of the fog factor to the fog and object colors to produce the final color that appears in a scene, as discussed in Fog Formulas (Direct3D 9).
 ms.assetid: b5b43f12-bbed-4464-aebc-02ad6dab1951
 title: Fog Blending (Direct3D 9)
 ms.topic: article

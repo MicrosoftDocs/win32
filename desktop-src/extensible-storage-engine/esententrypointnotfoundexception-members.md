@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEntryPointNotFoundException members"
 title: EsentEntryPointNotFoundException members
 TOCTitle: EsentEntryPointNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.EntryPointNotFound exceptions.
 
-The [EsentEntryPointNotFoundException](dn274309\(v=exchg.10\).md) type exposes the following members.
+The [EsentEntryPointNotFoundException](./esententrypointnotfoundexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentEntryPointNotFoundException class](dn274309\(v=exchg.10\).md)
+[EsentEntryPointNotFoundException class](./esententrypointnotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Enables the image processing filter to write properties back to the driver (and device).
+description: Enables the image processing filter to write properties back to the driver (and device).
 ms.assetid: b9bb8d81-2945-46ba-a0a2-7009000574aa
 title: IWiaImageFilter::ApplyProperties method (Wia.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ This method allows the image processing filter to write properties back to the d
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

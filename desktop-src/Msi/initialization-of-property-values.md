@@ -1,5 +1,5 @@
 ---
-Description: It is recommended that all properties to be used by the installation be entered into the Property table with an initial value.
+description: It is recommended that all properties to be used by the installation be entered into the Property table with an initial value.
 ms.assetid: 2c054e04-197d-47e1-8951-b8a62040a145
 title: Initialization of Property Values
 ms.topic: article

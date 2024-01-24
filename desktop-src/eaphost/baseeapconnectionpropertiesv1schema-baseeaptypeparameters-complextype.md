@@ -1,5 +1,5 @@
 ---
-title: BaseEapTypeParameters Complex Type
+title: BaseEapTypeParameters Complex Type - Connection properties
 description: Is a base element of the method-specific element that appears in the derived element of the BaseEapConnectionPropertiesV1 schema.
 ms.assetid: 3b853275-9187-4824-8f27-409d76dada56
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# BaseEapTypeParameters Complex Type
+# BaseEapTypeParameters Complex Type - Connection properties
 
 The **BaseEapTypeParameters** complex type is a base element of the method-specific element that appears in the derived element of the [BaseEapConnectionPropertiesV1 schema](baseeapconnectionpropertiesv1schema-schema.md).
 
@@ -34,7 +34,7 @@ The **BaseEapTypeParameters** complex type is a base element of the method-speci
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

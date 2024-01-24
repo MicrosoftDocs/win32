@@ -83,7 +83,7 @@ Rich edit controls do not support the following edit control styles.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h</dt> </dl> |
 

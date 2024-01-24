@@ -1,6 +1,6 @@
 ---
 title: Player.MediaCollectionMediaRemoved event
-description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
+description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library. | Player.MediaCollectionMediaRemoved event
 ms.assetid: a1df6faf-38dc-4f5f-8f8a-953c91ea026c
 keywords:
 - MediaCollectionMediaRemoved event Windows Media Player
@@ -15,10 +15,13 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Player.MediaCollectionMediaRemoved event
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
 
@@ -58,7 +61,7 @@ This event only occurs for the local library.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

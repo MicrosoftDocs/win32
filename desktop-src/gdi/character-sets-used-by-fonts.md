@@ -1,5 +1,5 @@
 ---
-Description: All fonts use a character set. A character set contains punctuation marks, numerals, uppercase and lowercase letters, and all other printable characters. Each element of a character set is identified by a number.
+description: All fonts use a character set. A character set contains punctuation marks, numerals, uppercase and lowercase letters, and all other printable characters. Each element of a character set is identified by a number.
 ms.assetid: 7989c59e-2ec6-4d1a-bb86-f4037ca32764
 title: Character Sets Used by Fonts
 ms.topic: article

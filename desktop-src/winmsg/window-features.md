@@ -1,5 +1,5 @@
 ---
-Description: This overview discusses features of windows such as window types, states, size, and position.
+description: This overview discusses features of windows such as window types, states, size, and position.
 ms.assetid: 8318c22f-85a2-490e-8233-ee1e234890d9
 title: Window Features
 ms.topic: article
@@ -162,16 +162,21 @@ The user sets the foreground window by clicking a window, or by using the ALT+TA
 
 An application sets the foreground window by using the [**SetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-setforegroundwindow) function.
 
-The system restricts which processes can set the foreground window. A process can set the foreground window only if one of the following conditions is true:
+The system restricts which processes can set the foreground window. A process can set the foreground window only if:
 
--   The process is the foreground process.
--   The process was started by the foreground process.
--   The process received the last input event.
--   There is no foreground process.
--   The foreground process is being debugged.
--   The foreground is not locked (see [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow)).
--   The foreground lock time-out has expired (see **SPI\_GETFOREGROUNDLOCKTIMEOUT** in [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)).
--   No menus are active.
+- All of the following conditions are true:
+  - The process calling **SetForegroundWindow** belongs to a desktop application, not a UWP app or a Windows Store app designed for Windows 8 or 8.1.
+  - The foreground process has not disabled calls to **SetForegroundWindow** by a previous call to the [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow) function.
+  - The foreground lock time-out has expired (see [**SPI_GETFOREGROUNDLOCKTIMEOUT** in **SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa#SPI_GETFOREGROUNDLOCKTIMEOUT)).
+  - No menus are active.
+- Additionally, at least one of the following conditions is true:
+  - The calling process is the foreground process.
+  - The calling process was started by the foreground process.
+  - There is currently no foreground window, and thus no foreground process.
+  - The calling process received the last input event.
+  - Either the foreground process or the calling process is being debugged.
+
+It is possible for a process to be denied the right to set the foreground window even if it meets these conditions.
 
 A process that can set the foreground window can enable another process to set the foreground window by calling the [**AllowSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-allowsetforegroundwindow) function, or by calling the [**BroadcastSystemMessage**](/windows/win32/api/winuser/nf-winuser-broadcastsystemmessage) function with the **BSF\_ALLOWSFW** flag. The foreground process can disable calls to [**SetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-setforegroundwindow) by calling the [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow) function.
 
@@ -301,9 +306,9 @@ An application that has a window menu can change the size and position of that w
 
 After creating a window, an application can set the window's size or position by calling one of several different functions, including [**SetWindowPlacement**](/windows/win32/api/winuser/nf-winuser-setwindowplacement), [**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow), [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos), and [**DeferWindowPos**](/windows/win32/api/winuser/nf-winuser-deferwindowpos). **SetWindowPlacement** sets a window's minimized position, maximized position, restored size and position, and show state. The **MoveWindow** and **SetWindowPos** functions are similar; both set the size or position of a single application window. The **SetWindowPos** function includes a set of flags that affect the window's show state; **MoveWindow** does not include these flags. Use the [**BeginDeferWindowPos**](/windows/win32/api/winuser/nf-winuser-begindeferwindowpos), **DeferWindowPos**, and [**EndDeferWindowPos**](/windows/win32/api/winuser/nf-winuser-enddeferwindowpos) functions to simultaneously set the position of a number of windows, including the size, position, position in the z-order, and show state.
 
-An application can retrieve the coordinates of a window's bounding rectangle by using the [**GetWindowRect**](/windows/win32/api/winuser/nf-winuser-getwindowrect) function. **GetWindowRect** fills a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure with the coordinates of the window's upper left and lower right corners. The coordinates are relative to the upper left corner of the screen, even for a child window. The [**ScreenToClient**](/windows/win32/api/winuser/nf-winuser-screentoclient) or [**MapWindowPoints**](/windows/win32/api/winuser/nf-winuser-mapwindowpoints) function maps the screen coordinates of a child window's bounding rectangle to coordinates relative to the parent window's client area.
+An application can retrieve the coordinates of a window's bounding rectangle by using the [**GetWindowRect**](/windows/win32/api/winuser/nf-winuser-getwindowrect) function. **GetWindowRect** fills a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure with the coordinates of the window's upper left and lower right corners. The coordinates are relative to the upper left corner of the screen, even for a child window. The [**ScreenToClient**](/windows/win32/api/winuser/nf-winuser-screentoclient) or [**MapWindowPoints**](/windows/win32/api/winuser/nf-winuser-mapwindowpoints) function maps the screen coordinates of a child window's bounding rectangle to coordinates relative to the parent window's client area.
 
-The [**GetClientRect**](/windows/win32/api/winuser/nf-winuser-getclientrect) function retrieves the coordinates of a window's client area. **GetClientRect** fills a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure with the coordinates of the upper left and lower right corners of the client area, but the coordinates are relative to the client area itself. This means the coordinates of a client area's upper left corner are always (0,0), and the coordinates of the lower right corner are the width and height of the client area.
+The [**GetClientRect**](/windows/win32/api/winuser/nf-winuser-getclientrect) function retrieves the coordinates of a window's client area. **GetClientRect** fills a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure with the coordinates of the upper left and lower right corners of the client area, but the coordinates are relative to the client area itself. This means the coordinates of a client area's upper left corner are always (0,0), and the coordinates of the lower right corner are the width and height of the client area.
 
 The [**CascadeWindows**](/windows/win32/api/winuser/nf-winuser-cascadewindows) function cascades the windows on the desktop or cascades the child windows of the specified parent window. The [**TileWindows**](/windows/win32/api/winuser/nf-winuser-tilewindows) function tiles the windows on the desktop or tiles the child windows of the specified parent window.
 

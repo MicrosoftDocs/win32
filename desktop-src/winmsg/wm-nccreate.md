@@ -1,5 +1,5 @@
 ---
-Description: Sent prior to the WM\_CREATE message when a window is first created.
+description: Sent prior to the WM\_CREATE message when a window is first created.
 ms.assetid: 5dd0eda3-83a6-4077-a7a3-e371c9413b0f
 title: WM_NCCREATE message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent prior to the [**WM\_CREATE**](wm-create.md) message when a window is first created.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -47,7 +47,7 @@ If an application processes this message, it should return **TRUE** to continue 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Tests the BoundingFrustum for intersection with another object.
+description: Tests the BoundingFrustum for intersection with another object.
 ms.assetid: b087761c-b298-4b64-86e7-60cd73543144
 title: BoundingFrustum.Intersects methods
 ms.topic: reference

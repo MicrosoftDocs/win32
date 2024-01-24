@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_VolatileStorage class requests a reset of the logical device.
+description: The Reset method of the CIM\_VolatileStorage class requests a reset of the logical device.
 ms.assetid: 3a0c4bf7-a2c3-4001-9658-8c3a94c2e7f1
 ms.tgt_platform: multiple
 title: Reset method of the CIM_VolatileStorage class
@@ -52,7 +52,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

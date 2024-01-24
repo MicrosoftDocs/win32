@@ -1,6 +1,6 @@
 ---
 title: glGetTexParameteriv function (Gl.h)
-description: The glGetTexParameterfv and glGetTexParameteriv functions return texture parameter values.
+description: The glGetTexParameterfv and glGetTexParameteriv functions return texture parameter values. | glGetTexParameteriv function (Gl.h)
 ms.assetid: b89d10f1-5e30-4d25-8953-fbd59781fdac
 keywords:
 - glGetTexParameteriv function OpenGL
@@ -91,19 +91,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* or *name* was not an accepted value.<br/>                                                                              |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glGetTexParameter** function returns in *params* the value or values of the texture parameter specified as *pname*. The *target* parameter defines the target texture, either GL\_TEXTURE\_1D or GL\_TEXTURE\_2D, to specify one-dimensional or two-dimensional texturing. The *pname* parameter accepts the same symbols as [**glTexParameter**](gltexparameter-functions.md), with the same interpretations.
@@ -114,7 +101,7 @@ If an error is generated, no change is made to the contents of *params*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

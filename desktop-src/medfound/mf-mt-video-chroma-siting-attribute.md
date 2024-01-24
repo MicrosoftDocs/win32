@@ -1,5 +1,5 @@
 ---
-Description: Describes how chroma was sampled for a YCbCr video media type.
+description: Describes how chroma was sampled for a YCbCr video media type.
 ms.assetid: 0c930348-8669-42cc-9d74-df9ef475bdc8
 title: MF_MT_VIDEO_CHROMA_SITING attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

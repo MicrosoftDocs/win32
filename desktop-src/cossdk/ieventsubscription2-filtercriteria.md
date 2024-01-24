@@ -1,5 +1,5 @@
 ---
-Description: The filter criteria governing the subscription.
+description: The filter criteria governing the subscription.
 ms.assetid: cfc3ba9e-0566-45fd-917f-34842b8ff377
 title: IEventSubscription2::FilterCriteria property
 ms.topic: reference
@@ -49,7 +49,7 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

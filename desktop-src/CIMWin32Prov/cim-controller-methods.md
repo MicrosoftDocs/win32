@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Controller class exposes the following methods.
+description: The CIM\_Controller class exposes the following methods.
 ms.assetid: 4FF60D4B-64E5-4242-8260-78AE14855B37
 ms.tgt_platform: multiple
 title: CIM_Controller Methods

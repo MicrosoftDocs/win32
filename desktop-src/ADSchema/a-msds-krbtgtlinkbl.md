@@ -22,7 +22,7 @@ Backward link for the [**ms-DS-KrbTgt-Link**](a-msds-krbtgtlink.md) attribute.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-KrbTgt-Link-BL                    |
 | Ldap-Display-Name | msDS-KrbTgtLinkBl                       |
@@ -45,7 +45,7 @@ Backward link for the [**ms-DS-KrbTgt-Link**](a-msds-krbtgtlink.md) attribute.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2101                            |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Backward link for the [**ms-DS-KrbTgt-Link**](a-msds-krbtgtlink.md) attribute.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2101                            |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Backward link for the [**ms-DS-KrbTgt-Link**](a-msds-krbtgtlink.md) attribute.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2101                            |
 | MAPI-Id                | \-                              |

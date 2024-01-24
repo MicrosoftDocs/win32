@@ -92,88 +92,14 @@ For more information and examples about how to use the Task Scheduler interfaces
 
 Some action properties that are of type **BSTR** can contain $(Arg0), $(Arg1), ..., $(Arg32) variables in their string values. These variables are replaced with the values that are specified in the *params* parameter of the [**IRegisteredTask::Run**](/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-run) and [**IRegisteredTask::RunEx**](/windows/desktop/api/taskschd/nf-taskschd-iregisteredtask-runex) methods or are contained within the event trigger for the task. The following table lists the action properties that can use variables in their string values.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Action</th>
-<th>Properties</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>COM Handler Action</td>
-<td>C++:
-<ul>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_classid"><strong>ClassId Property of IComHandlerAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data"><strong>Data Property of IComHandlerAction</strong></a></li>
-</ul>
-<br/> Scripting:
-<ul>
-<li><a href="comhandleraction-classid.md"><strong>ComHandlerAction.ClassId</strong></a></li>
-<li><a href="comhandleraction-data.md"><strong>ComHandlerAction.Data</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Email Action</td>
-<td>C++:
-<ul>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body"><strong>Body Property of IEmailAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_server"><strong>Server Property of IEmailAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject"><strong>Subject Property of IEmailAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to"><strong>To Property of IEmailAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_cc"><strong>Cc Property of IEmailAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc"><strong>Bcc Property of IEmailAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_replyto"><strong>ReplyTo Property of IEmailAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_from"><strong>From Property of IEmailAction</strong></a></li>
-</ul>
-<br/> Scripting:
-<ul>
-<li><a href="emailaction-body.md"><strong>EmailAction.Body</strong></a></li>
-<li><a href="emailaction-server.md"><strong>EmailAction.Server</strong></a></li>
-<li><a href="emailaction-subject.md"><strong>EmailAction.Subject</strong></a></li>
-<li><a href="emailaction-to.md"><strong>EmailAction.To</strong></a></li>
-<li><a href="emailaction-cc.md"><strong>EmailAction.Cc</strong></a></li>
-<li><a href="emailaction-bcc.md"><strong>EmailAction.Bcc</strong></a></li>
-<li><a href="emailaction-replyto.md"><strong>EmailAction.ReplyTo</strong></a></li>
-<li><a href="emailaction-from.md"><strong>EmailAction.From</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Exec Action</td>
-<td>C++:
-<ul>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments"><strong>Arguments Property of IExecAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory"><strong>WorkingDirectory Property of IExecAction</strong></a></li>
-</ul>
-<br/> Scripting:
-<ul>
-<li><a href="execaction-arguments.md"><strong>ExecAction.Arguments</strong></a></li>
-<li><a href="execaction-workingdirectory.md"><strong>ExecAction.WorkingDirectory</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Show Message Action</td>
-<td>C++:
-<ul>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_title"><strong>Title Property of IShowMessageAction</strong></a></li>
-<li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody"><strong>MessageBody Property of IShowMessageAction</strong></a></li>
-</ul>
-<br/> Scripting:
-<ul>
-<li><a href="showmessageaction-title.md"><strong>ShowMessageAction.Title</strong></a></li>
-<li><a href="showmessageaction-messagebody.md"><strong>ShowMessageAction.MessageBody</strong></a></li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Action | Properties | 
+|--------|------------|
+| COM Handler Action | C++:<ul><li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_classid"><strong>ClassId Property of IComHandlerAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data"><strong>Data Property of IComHandlerAction</strong></a></li></ul><br /> Scripting:<ul><li><a href="comhandleraction-classid.md"><strong>ComHandlerAction.ClassId</strong></a></li><li><a href="comhandleraction-data.md"><strong>ComHandlerAction.Data</strong></a></li></ul><br /> | 
+| Email Action | C++:<ul><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_body"><strong>Body Property of IEmailAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_server"><strong>Server Property of IEmailAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_subject"><strong>Subject Property of IEmailAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_to"><strong>To Property of IEmailAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_cc"><strong>Cc Property of IEmailAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_bcc"><strong>Bcc Property of IEmailAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_replyto"><strong>ReplyTo Property of IEmailAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iemailaction-get_from"><strong>From Property of IEmailAction</strong></a></li></ul><br /> Scripting:<ul><li><a href="emailaction-body.md"><strong>EmailAction.Body</strong></a></li><li><a href="emailaction-server.md"><strong>EmailAction.Server</strong></a></li><li><a href="emailaction-subject.md"><strong>EmailAction.Subject</strong></a></li><li><a href="emailaction-to.md"><strong>EmailAction.To</strong></a></li><li><a href="emailaction-cc.md"><strong>EmailAction.Cc</strong></a></li><li><a href="emailaction-bcc.md"><strong>EmailAction.Bcc</strong></a></li><li><a href="emailaction-replyto.md"><strong>EmailAction.ReplyTo</strong></a></li><li><a href="emailaction-from.md"><strong>EmailAction.From</strong></a></li></ul><br /> | 
+| Exec Action | C++:<ul><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments"><strong>Arguments Property of IExecAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory"><strong>WorkingDirectory Property of IExecAction</strong></a></li></ul><br /> Scripting:<ul><li><a href="execaction-arguments.md"><strong>ExecAction.Arguments</strong></a></li><li><a href="execaction-workingdirectory.md"><strong>ExecAction.WorkingDirectory</strong></a></li></ul><br /> | 
+| Show Message Action | C++:<ul><li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_title"><strong>Title Property of IShowMessageAction</strong></a></li><li><a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody"><strong>MessageBody Property of IShowMessageAction</strong></a></li></ul><br /> Scripting:<ul><li><a href="showmessageaction-title.md"><strong>ShowMessageAction.Title</strong></a></li><li><a href="showmessageaction-messagebody.md"><strong>ShowMessageAction.MessageBody</strong></a></li></ul><br /> | 
+
 
 
 

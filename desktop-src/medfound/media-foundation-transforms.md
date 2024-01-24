@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation Transforms
+description: Media Foundation Transforms
 ms.assetid: cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0
 title: Media Foundation Transforms
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Media Foundation Transforms
 
-Media Foundation transforms (MFTs) provide a generic model for processing media data. MFTs are used for decoders, encoders, and digital signal processors (DSPs). In short, anything that sits in the media pipleine between the media source and the media sink is an MFT.
+Media Foundation transforms (MFTs) provide a generic model for processing media data. MFTs are used for decoders, encoders, and digital signal processors (DSPs). In short, anything that sits in the media pipeline between the media source and the media sink is an MFT.
 
 This section describes the MFT programming model and how to implement an MFT, with recommendations for specific types of MFTs, such as decoders.
 

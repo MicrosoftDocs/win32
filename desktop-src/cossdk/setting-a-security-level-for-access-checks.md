@@ -1,5 +1,5 @@
 ---
-Description: After you have enabled access checks, for your COM+ application, you must select the level at which you wish to have access checks performed.
+description: After you have enabled access checks, for your COM+ application, you must select the level at which you wish to have access checks performed.
 ms.assetid: 9c044add-7761-4378-b7eb-bf4e84e913b3
 title: Setting a Security Level for Access Checks
 ms.topic: article

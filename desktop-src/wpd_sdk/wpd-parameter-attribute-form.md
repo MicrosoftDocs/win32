@@ -1,5 +1,5 @@
 ---
-Description: Describes how a (method or event) parameter stores its value.
+description: Describes how a (method or event) parameter stores its value.
 ms.assetid: 066196af-7805-4823-8ab7-cb95c17bba2a
 title: WpdParameterAttributeForm enumeration (PortableDevice.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The parameter is an object identifier.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

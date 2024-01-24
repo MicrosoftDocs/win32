@@ -1,5 +1,5 @@
 ---
-Description: Occurs after IInkStrokeDisp objects have been deleted from the Ink property.
+description: Occurs after IInkStrokeDisp objects have been deleted from the Ink property.
 ms.assetid: 395544e1-dc93-45d3-ac7a-d54712f3c027
 title: InkPicture.StrokesDeleted event (Msinkaut.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

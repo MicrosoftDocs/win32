@@ -1,6 +1,6 @@
 ---
 title: Header Control Messages
-description: .
+description: Header Control Messages
 ms.assetid: 77743235-fba5-472c-8a86-065e280c6eeb
 ms.topic: article
 ms.date: 05/31/2018

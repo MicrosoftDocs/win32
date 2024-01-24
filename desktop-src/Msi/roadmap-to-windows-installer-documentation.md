@@ -1,5 +1,5 @@
 ---
-Description: This documentation is the primary source of reference material for Windows Installer.
+description: This documentation is the primary source of reference material for Windows Installer.
 ms.assetid: dfbcc4b6-08bd-4b8a-b658-7010bd0b099c
 title: Roadmap to Windows Installer Documentation
 ms.topic: article

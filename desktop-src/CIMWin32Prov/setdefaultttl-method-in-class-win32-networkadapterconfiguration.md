@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultTTL WMI class static method is used to set the default Time to Live (TTL) value in the header of outgoing IP packets.
+description: The SetDefaultTTL WMI class static method is used to set the default Time to Live (TTL) value in the header of outgoing IP packets.
 ms.assetid: 74b060de-512c-407e-9f93-c3b496f8d09d
 ms.tgt_platform: multiple
 title: SetDefaultTTL method of the Win32_NetworkAdapterConfiguration class
@@ -405,13 +405,13 @@ The TTL specifies the number of routers an IP packet may pass through to reach i
 
 ## Examples
 
-The [Modify the Default Time-to-Live for All Network Adapters](https://Gallery.TechNet.Microsoft.Com/scriptcenter/3a228fb8-5517-4e23-800e-2a15f427d05d) VBScript sample uses **SetDefaultTTL** to set the default time-to-live value in the header of outgoing IP packets to 64
+The Modify the Default Time-to-Live for All Network Adapters (`Modify the Default Time-to-Live for All Network Adapters.vbs.txt`) VBScript sample uses **SetDefaultTTL** to set the default time-to-live value in the header of outgoing IP packets to 64
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

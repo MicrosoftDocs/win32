@@ -1,5 +1,5 @@
 ---
-Description: Benefits of Queued Processing
+description: Benefits of Queued Processing
 ms.assetid: dc1fc03f-1e2c-481c-95a7-f8d7b1e06bb0
 title: Benefits of Queued Processing
 ms.topic: article
@@ -32,7 +32,7 @@ If you have a component that can be run either connected or disconnected, messag
 
 The following illustration shows the flow of information in a disconnected scenario.
 
-![](images/b1818188-0294-4bd8-8bbe-9fe8eea9e09a.png)
+![Diagram that shows teh flow of information between the client and server.](images/b1818188-0294-4bd8-8bbe-9fe8eea9e09a.png)
 
 ## Message Reliability
 

@@ -1,5 +1,5 @@
 ---
-Description: Contains the original WAVE format tag for an audio stream.
+description: Contains the original WAVE format tag for an audio stream.
 ms.assetid: 2b30a1c2-4a42-4b09-acb6-b76267cc7ed0
 title: MF_MT_ORIGINAL_WAVE_FORMAT_TAG attribute (Mfapi.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

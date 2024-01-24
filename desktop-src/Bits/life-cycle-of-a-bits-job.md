@@ -53,7 +53,7 @@ The **TRANSFERRED** state happens when a transfer is done and it succeeded. You 
 Once a job is in a final state, you can't call any of the state-changing methods. The job will be **ACKNOWLEDGED** after you call Complete() and all completed downloaded files will be available. The job will be **CANCELLED** after you call Cancel() and all downloaded files will be deleted. 
 
 
-# Life Cycle of a BITS job
+## Life Cycle of a BITS job
 
 The life cycle of a BITS job begins when you create a job. A job is a container that contains one or more files to transfer. A job also has properties that specify how BITS transfers the files and interacts with your application. For example, you can specify the priority of the job, whether the job is an upload or download job, and for which events you want to receive notification.
 

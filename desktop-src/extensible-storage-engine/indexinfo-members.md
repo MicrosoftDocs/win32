@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo members"
 title: IndexInfo members
 TOCTitle: IndexInfo members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IndexInfo
@@ -15,7 +16,7 @@ Include inherited members
 
 Information about one esent index. This is not an interop class, but is used by the meta-data helper methods.
 
-The [IndexInfo](dn350919\(v=exchg.10\).md) type exposes the following members.
+The [IndexInfo](./indexinfo-class.md) type exposes the following members.
 
 ## Properties
 
@@ -125,6 +126,6 @@ Top
 
 #### Reference
 
-[IndexInfo class](dn350919\(v=exchg.10\).md)
+[IndexInfo class](./indexinfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

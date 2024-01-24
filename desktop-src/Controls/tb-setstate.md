@@ -34,7 +34,7 @@ Command identifier of the button.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a combination of values listed in [Toolbar Button States](toolbar-button-states.md). The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) must be zero.
+The [**LOWORD**](../winmsg/loword.md) is a combination of values listed in [Toolbar Button States](toolbar-button-states.md). The [**HIWORD**](../winmsg/hiword.md) must be zero.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: The read-only Language property returns the LANGID of the required module.
+description: The read-only Language property returns the LANGID of the required module.
 ms.assetid: 9b0608d1-b6e8-4cf9-8119-3c2909156516
 title: Dependency.Language property (Mergemod.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ See [**get\_Language Function (Dependency Object)**](/windows/win32/api/mergemod
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

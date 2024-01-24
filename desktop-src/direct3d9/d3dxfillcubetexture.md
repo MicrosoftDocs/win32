@@ -1,5 +1,5 @@
 ---
-Description: Uses a user-provided function to fill each texel of each mip level of a given cube texture.
+description: Uses a user-provided function to fill each texel of each mip level of a given cube texture.
 ms.assetid: 0390a1b6-6675-42e1-bc45-65dd7b2d83c5
 title: D3DXFillCubeTexture function (D3dx9tex.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ if (FAILED (hr = D3DXFillCubeTexture (m_pTexture, ColorCubeFill, NULL)))
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

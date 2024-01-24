@@ -1,5 +1,5 @@
 ---
-Description: Verifies whether the referenced physical element can be contained by, or inserted into, the physical package.
+description: Verifies whether the referenced physical element can be contained by, or inserted into, the physical package.
 ms.assetid: 406aaa75-b48c-4377-adb5-e900676b6e36
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_PhysicalPackage class
@@ -63,7 +63,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

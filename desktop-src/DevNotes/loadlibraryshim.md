@@ -1,5 +1,5 @@
 ---
-Description: Loads a specified version of a .NET Framework library DLL.
+description: Loads a specified version of a .NET Framework library DLL.
 ms.assetid: f001774d-ea9a-4820-aec0-99ce958b1e1d
 title: LoadLibraryShim function
 ms.topic: reference
@@ -79,7 +79,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Mscoree.dll</dt> </dl> |
 

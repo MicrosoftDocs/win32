@@ -1,5 +1,5 @@
 ---
-Description: Implementing IWICBitmapSourceTransform
+description: Implementing IWICBitmapSourceTransform
 ms.assetid: 6a3e682c-55c6-4728-9d14-5eb0290f3dcc
 title: Implementing IWICBitmapSourceTransform
 ms.topic: article

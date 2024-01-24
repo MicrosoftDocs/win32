@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesException constructor"
 title: EsentTooManyOpenTablesException constructor 
 TOCTitle: 'EsentTooManyOpenTablesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyOpenTablesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTooManyOpenTablesException()
 
 #### Reference
 
-[EsentTooManyOpenTablesException class](dn350769\(v=exchg.10\).md)
+[EsentTooManyOpenTablesException class](./esenttoomanyopentablesexception-class.md)
 
-[EsentTooManyOpenTablesException members](dn350775\(v=exchg.10\).md)
+[EsentTooManyOpenTablesException members](./esenttoomanyopentablesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

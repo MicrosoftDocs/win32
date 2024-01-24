@@ -1,5 +1,5 @@
 ---
-Description: Verifies a single catalog file.
+description: Verifies a single catalog file.
 ms.assetid: '4b2de733-ef95-4b0a-8f53-7bc73ffaa2c2'
 title: VerifyCatalogFile function
 ms.topic: reference
@@ -59,7 +59,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 

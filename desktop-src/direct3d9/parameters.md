@@ -1,5 +1,5 @@
 ---
-Description: Parameters are effect variables.
+description: Parameters are effect variables.
 ms.assetid: 'vs|directx_sdk|~\parameters.htm'
 title: Parameters (Direct3D 9)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DXFileEnumObject interface to cycle through the child file data objects in the file and to retrieve a child object by its globally unique identifier (GUID) or by its name.
+description: Applications use the methods of the ID3DXFileEnumObject interface to cycle through the child file data objects in the file and to retrieve a child object by its globally unique identifier (GUID) or by its name.
 ms.assetid: 23b28f07-5832-4163-953b-615d20e781f6
 title: ID3DXFileEnumObject interface (D3DX9Xof.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ typedef interface ID3DXFileEnumObject *LPD3DXFILEENUMOBJECT;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

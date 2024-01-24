@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the length of time before a URL is determined to be unreachable.
+description: Sets or retrieves the length of time before a URL is determined to be unreachable.
 ms.assetid: f39dafc4-6017-463c-aeee-948b6173862a
 title: CertificateStatus.UrlRetrievalTimeout property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CertificateStatus.UrlRetrievalTimeout property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **UrlRetrievalTimeout** property sets or retrieves the length of time before a URL is determined to be unreachable.
 
@@ -42,7 +42,7 @@ If this property is not set, the default time-out is 15 seconds.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: The PARTICIPANT\_EVENT enum describes participant events.
+description: The PARTICIPANT\_EVENT enum describes participant events.
 ms.assetid: 678165f2-ad0b-415f-86bf-8c4e3bd8d793
 title: PARTICIPANT_EVENT enumeration (Ipmsp.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ The local participant has become silent in the conference.
 
 
 
-|                         |                                                                                    |
+| Requirement | Value |
 |-------------------------|------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                              |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl> |

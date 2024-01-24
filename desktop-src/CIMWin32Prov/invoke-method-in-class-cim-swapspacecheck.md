@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_SwapSpaceCheck class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context are described by the non-abstract CIM\_Check subclasses. This method is inherited from CIM\_Check.
+description: The Invoke method of the CIM\_SwapSpaceCheck class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context are described by the non-abstract CIM\_Check subclasses. This method is inherited from CIM\_Check.
 ms.assetid: eee84cf1-dbd6-4557-b9ff-eb19c8042db8
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_SwapSpaceCheck class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

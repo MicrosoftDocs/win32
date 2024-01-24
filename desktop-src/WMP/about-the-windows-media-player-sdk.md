@@ -33,10 +33,13 @@ keywords:
 - ActiveX control,documentation
 - ActiveX control,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # About the Windows Media Player SDK
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Microsoft Windows Media Player Software Development Kit (SDK) provides information and tools to customize Windows Media Player and Windows Media Player Mobile and to use the Windows Media Player ActiveX control and the Windows Media Player Mobile ActiveX control. This documentation also provides information about using Windows Media metafiles.
 

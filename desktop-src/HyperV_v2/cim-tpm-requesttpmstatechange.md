@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the TPM be changed to the value specified in the RequestedTPMState parameter.
+description: Requests that the state of the TPM be changed to the value specified in the RequestedTPMState parameter.
 ms.assetid: 7ad8bf4e-6263-45d5-8f33-fb842bbf1f1a
 title: RequestTPMStateChange method of the CIM_TPM class
 ms.topic: reference
@@ -187,7 +187,7 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

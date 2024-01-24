@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Objects
+# Objects (Windows Animation Manager)
 
 Reference documentation for objects defined by the Windows Animation Manager.
 

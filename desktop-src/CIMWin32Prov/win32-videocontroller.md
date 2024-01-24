@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities and management capacity of the video controller on a computer system running Windows.
+description: Represents the capabilities and management capacity of the video controller on a computer system running Windows.
 ms.assetid: 5c81994b-4a84-46ff-8689-09998dc66f91
 ms.tgt_platform: multiple
 title: Win32_VideoController class
@@ -2614,11 +2614,9 @@ This property is inherited from [**CIM\_VideoController**](cim-videocontroller.m
 
 The **Win32\_VideoController** class is derived from [**CIM\_PCVideoController**](cim-pcvideocontroller.md).
 
-For more information about using this class, such as retrieving information from multiple monitors, see [Use PowerShell to Discover Multi-Monitor Information](https://blogs.technet.com/b/heyscriptingguy/archive/2013/10/03/use-powershell-to-discover-multi-monitor-information.aspx).
+For more information about using this class, such as retrieving information from multiple monitors, see [Use PowerShell to Discover Multi-Monitor Information](https://devblogs.microsoft.com/scripting/use-powershell-to-discover-multi-monitor-information/).
 
 ## Examples
-
-The [List Video Controller Properties](https://Gallery.TechNet.Microsoft.Com/6c1a585c-742f-4f51-bb57-23838e8f011f) VBScript sample lists the video controller properties.
 
 The following PowerShell example lists the video controller properties.
 
@@ -2699,7 +2697,7 @@ foreach ($objItem in $colItems) {
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

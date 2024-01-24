@@ -1,5 +1,5 @@
 ---
-Description: 'The following topics describe Network Share Management:'
+description: 'The following topics describe Network Share Management:'
 ms.assetid: 7669049d-de56-4485-be4f-939900ca6a4f
 title: About Network Share Management
 ms.topic: article

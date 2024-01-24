@@ -1,5 +1,5 @@
 ---
-Description: The IDownloadResult interface defines the following properties.
+description: The IDownloadResult interface defines the following properties.
 ms.assetid: a175e3f8-3b15-4ef9-b19b-2f3602f7c187
 title: IDownloadResult Properties
 ms.topic: article

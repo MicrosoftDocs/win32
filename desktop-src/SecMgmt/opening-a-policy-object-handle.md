@@ -1,5 +1,5 @@
 ---
-Description: Most LSA Policy functions require a handle to the Policy object for the system to query or modify. To obtain a handle to a Policy object, call LsaOpenPolicy and specify the name of the system you want to access and the set of access permissions required.
+description: Most LSA Policy functions require a handle to the Policy object for the system to query or modify. To obtain a handle to a Policy object, call LsaOpenPolicy and specify the name of the system you want to access and the set of access permissions required.
 ms.assetid: 66fdc878-d9c4-421c-b79f-9df08984611c
 title: Opening a Policy Object Handle
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: 'Contains the URL of the IFO (DVD Information) file specified by the HTTP server in the HTTP header, &\#0034;Pragma: ifoFileURI.dlna.org&\#0034;.'
+description: 'Contains the URL of the IFO (DVD Information) file specified by the HTTP server in the HTTP header, &\#0034;Pragma: ifoFileURI.dlna.org&\#0034;.'
 ms.assetid: 007e0f4d-fb37-4dec-96a7-311df567eb04
 title: MF_BYTESTREAM_IFO_FILE_URI attribute (Mfobjects.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                                           |

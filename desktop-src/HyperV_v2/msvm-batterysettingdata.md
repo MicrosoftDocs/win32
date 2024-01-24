@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings of a the virtual battery device.
+description: Represents the settings of a the virtual battery device.
 ms.assetid: 04fbad81-119d-437c-a0f8-5d2f073c465e
 title: Msvm_BatterySettingData class
 ms.topic: reference
@@ -38,7 +38,7 @@ The **Msvm\_BatterySettingData** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

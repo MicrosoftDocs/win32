@@ -1,5 +1,5 @@
 ---
-Description: The VINES\_IP\_ADDRESS structure is an IP address on a Vines network.
+description: The VINES\_IP\_ADDRESS structure is an IP address on a Vines network.
 ms.assetid: 681753a5-08a2-48e6-9e46-c028c12ad9c1
 title: VINES_IP_ADDRESS structure (Netmon.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ The identifier of a specific subnet on the whole network.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

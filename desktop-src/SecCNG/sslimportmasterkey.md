@@ -1,5 +1,5 @@
 ---
-Description: Performs a server-side Secure Sockets Layer protocol (SSL) key exchange operation.
+description: Performs a server-side Secure Sockets Layer protocol (SSL) key exchange operation.
 ms.assetid: 052e38ee-658c-47dc-8098-c9a1fd359e1c
 title: SslImportMasterKey function (Sslprovider.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ One of the [**CNG SSL Provider Cipher Suite Identifiers**](https://msdn.microsof
 *pParameterList* \[in\]
 </dt> <dd>
 
-A pointer to an array of [**NCryptBuffer**](https://msdn.microsoft.com/library/Aa376245(v=VS.85).aspx) buffers that contain information used as part of the key exchange operation. The precise set of buffers is dependent on the protocol and cipher suite that is used. At the minimum, the list will contain buffers that contain the client and server supplied random values.
+A pointer to an array of **NCryptBuffer** buffers that contain information used as part of the key exchange operation. The precise set of buffers is dependent on the protocol and cipher suite that is used. At the minimum, the list will contain buffers that contain the client and server supplied random values.
 
 </dd> <dt>
 
@@ -138,7 +138,7 @@ This function decrypts the premaster secret, computes the SSL master secret, and
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

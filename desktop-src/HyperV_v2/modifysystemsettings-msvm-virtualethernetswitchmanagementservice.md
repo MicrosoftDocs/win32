@@ -1,5 +1,5 @@
 ---
-Description: Modifies virtual switch settings.
+description: Modifies virtual switch settings.
 ms.assetid: 8d323578-990f-483c-8515-8a21479767b1
 title: ModifySystemSettings method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference
@@ -92,7 +92,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

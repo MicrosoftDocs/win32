@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MotherboardDevice WMI class represents a device that contains the central components of the Windows computer system.
+description: The Win32\_MotherboardDevice WMI class represents a device that contains the central components of the Windows computer system.
 ms.assetid: 2aed5fff-e994-4ce1-8a2e-aadb01adf28d
 ms.tgt_platform: multiple
 title: Win32_MotherboardDevice class
@@ -1226,8 +1226,6 @@ The **Win32\_MotherboardDevice** class is derived from [**CIM\_LogicalDevice**](
 
 ## Examples
 
-The following [JavaScript](https://Gallery.TechNet.Microsoft.Com/05bbadf8-1356-43a6-82fc-fcab40233fe5) and [PowerShell](https://Gallery.TechNet.Microsoft.Com/cb520044-836e-425c-8c12-a9586d1c0e6e) code samples retrieve motherboard information.
-
 The following VBScript code sample retrieves motherboard information.
 
 
@@ -1254,7 +1252,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

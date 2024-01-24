@@ -1,5 +1,5 @@
 ---
-Description: An HRECOGNIZER handle is used to create a recognizer context, retrieve the recognizer's attributes and properties, and determine which packet properties the recognizer requires to perform recognition.
+description: An HRECOGNIZER handle is used to create a recognizer context, retrieve the recognizer's attributes and properties, and determine which packet properties the recognizer requires to perform recognition.
 ms.assetid: 1fc1901e-8c4d-4ef1-8c38-52d46ce10a48
 title: HRECOGNIZER Handle (Recapis.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The following functions use an **HRECOGNIZER**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                        |
 | Minimum supported server<br/> | None supported<br/>                                                            |

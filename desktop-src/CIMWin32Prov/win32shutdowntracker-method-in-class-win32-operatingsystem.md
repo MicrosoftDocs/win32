@@ -1,5 +1,5 @@
 ---
-Description: The Win32ShutdownTracker method provides the same set of shutdown options supported by the Win32Shutdown method in Win32\_OperatingSystem, but it also allows you to specify comments, a reason for shutdown, or a timeout.
+description: The Win32ShutdownTracker method provides the same set of shutdown options supported by the Win32Shutdown method in Win32\_OperatingSystem, but it also allows you to specify comments, a reason for shutdown, or a timeout.
 ms.assetid: 2c5502c9-9ec0-4f9e-b661-1f8015556008
 ms.tgt_platform: multiple
 title: Win32ShutdownTracker method of the Win32_OperatingSystem class
@@ -168,7 +168,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

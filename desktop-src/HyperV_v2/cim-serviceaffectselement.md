@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service and a managed element that might be affected by its execution.
+description: Represents an association between a service and a managed element that might be affected by its execution.
 ms.assetid: 2fd9199f-9ab0-4c42-9708-d6cd6911f77a
 title: CIM_ServiceAffectsElement class
 ms.topic: reference
@@ -229,7 +229,7 @@ Each item in the array provides additional information for the corresponding ite
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

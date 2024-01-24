@@ -1,5 +1,5 @@
 ---
-Description: Returns a value that indicates whether a particular service is running.
+description: Shell.IsServiceRunning method - Returns a value that indicates whether a particular service is running.
 ms.assetid: FDC41C2D-7462-458f-BBE6-D97260C26B6C
 title: Shell.IsServiceRunning method (Shldisp.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ end function
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

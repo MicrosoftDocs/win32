@@ -1,5 +1,5 @@
 ---
-Description: You can specify that the driver clip the frames.
+description: You can specify that the driver clip the frames.
 ms.assetid: a4f53568-684b-48cf-835b-915cefb45a5d
 title: Clipping a Frame
 ms.topic: article

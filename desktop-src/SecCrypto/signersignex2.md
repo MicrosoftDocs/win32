@@ -1,5 +1,5 @@
 ---
-Description: Signs and time stamps the specified file, allowing multiple nested signatures.
+description: Signs and time stamps the specified file, allowing multiple nested signatures.
 ms.assetid: 216EFFCF-CD23-484A-ADBF-94B5AD52289F
 title: SignerSignEx2 function
 ms.topic: reference
@@ -194,7 +194,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |

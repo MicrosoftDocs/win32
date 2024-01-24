@@ -1,5 +1,5 @@
 ---
-Description: Forwards the work in resolving delay-loaded imports from the parent binary to a target binary.
+description: Forwards the work in resolving delay-loaded imports from the parent binary to a target binary.
 ms.assetid: 65629d7b-36b0-426b-a20d-ec736b8461dc
 title: ResolveDelayLoadsFromDll function
 ms.topic: reference
@@ -63,17 +63,26 @@ Reserved; must be 0.
 
 ## Return value
 
-The address of the delay-load descriptor, if it is found; otherwise, **NULL**.
+Returns an **NTSTATUS** or error code.
+
+| Return code | Description |
+|--------------|--------------|
+| STATUS_SUCCESS | The operation completed successfully |
+| STATUS_DLL_NOT_FOUND | The Target DLL could not be found |
+
+The forms and significance of **NTSTATUS** error codes are listed in the Ntstatus.h header file available in the WDK, and are described in the WDK documentation.
+
 
 ## Requirements
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 8<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                    |
 | Library<br/> | <dl> <dt>Kernel32.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Kernel32.dll</dt> </dl> |
-
 
 
 ## See also

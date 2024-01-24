@@ -27,7 +27,7 @@ Finds the first list box string in a combo box that matches the string specified
 *wParam* 
 </dt> <dd>
 
-The zero-based index of the item preceding the first item to be searched. When the search reaches the bottom of the list box, it continues from the top of the list box back to the item specified by the *wParam* parameter. If *wParam* is  1, the entire list box is searched from the beginning.
+The zero-based index of the item preceding the first item to be searched. When the search reaches the bottom of the list box, it continues from the top of the list box back to the item specified by the *wParam* parameter. If *wParam* is -1, the entire list box is searched from the beginning.
 
 </dd> <dt>
 
@@ -52,7 +52,7 @@ If you create the combo box with an owner-drawn style but without the [**CBS\_HA
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

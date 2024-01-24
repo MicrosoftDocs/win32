@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of Direct3D authenticated channel.
+description: Specifies the type of Direct3D authenticated channel.
 ms.assetid: 99a7664e-b0c8-4e66-ad3b-c6ad039ef6eb
 title: D3DAUTHENTICATEDCHANNELTYPE enumeration (D3d9types.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Hardware driver channel. This channel provides communication with a driver that 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

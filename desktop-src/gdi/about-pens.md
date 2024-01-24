@@ -1,5 +1,5 @@
 ---
-Description: 'There are two types of pen: cosmetic and geometric.'
+description: 'There are two types of pen: cosmetic and geometric.'
 ms.assetid: e1e49ee8-07f1-4f1a-95bb-f6757a72da99
 title: About Pens
 ms.topic: article

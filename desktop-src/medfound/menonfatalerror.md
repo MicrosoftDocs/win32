@@ -1,5 +1,5 @@
 ---
-Description: A non-fatal error occurred during streaming.
+description: A non-fatal error occurred during streaming.
 ms.assetid: 04afcca5-34d9-4c99-86bc-b37c19232ec1
 title: MENonFatalError event (Mfobjects.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ If a non-recoverable streaming error occurs, send the [MEError](meerror.md) even
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |

@@ -1,5 +1,5 @@
 ---
-Description: The MSIINSTALLPERUSER and the ALLUSERS properties can be set by the user at installation time, through the user interface or on a command line, to request that the Windows Installer install a dual-purpose package for the current user or all users of the computer.
+description: The MSIINSTALLPERUSER and the ALLUSERS properties can be set by the user at installation time, through the user interface or on a command line, to request that the Windows Installer install a dual-purpose package for the current user or all users of the computer.
 ms.assetid: 17eb24e4-8464-4724-9768-4b58446ee4bc
 title: MSIINSTALLPERUSER property
 ms.topic: reference
@@ -32,7 +32,7 @@ The installation context determines the values of the [**DesktopFolder**](deskto
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

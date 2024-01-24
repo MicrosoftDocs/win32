@@ -22,7 +22,7 @@ For an OID, identifies the group object that corresponds to the issuance policy 
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-OIDToGroup-Link                   |
 | Ldap-Display-Name | msDS-OIDToGroupLink                     |
@@ -44,7 +44,7 @@ For an OID, identifies the group object that corresponds to the issuance policy 
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | 2164                                                               |
 | MAPI-Id                | \-                                                                 |
@@ -65,7 +65,7 @@ For an OID, identifies the group object that corresponds to the issuance policy 
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | 2164                                                               |
 | MAPI-Id                | \-                                                                 |

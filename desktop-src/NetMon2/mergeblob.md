@@ -1,5 +1,5 @@
 ---
-Description: The MergeBlob function copies all of the entries from the source BLOB into a destination BLOB.
+description: The MergeBlob function copies all of the entries from the source BLOB into a destination BLOB.
 ms.assetid: 7521ce0c-fd02-4002-bdae-0d74a2e4a646
 title: MergeBlob function (Netmon.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Entries common to source and destination files will be overwritten with data fro
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Mark of the Web zone, as URLZONE enumeration value.
+description: Mark of the Web zone, as URLZONE enumeration value.
 ms.assetid: d6e81804-80c5-4b05-a256-6355ae109970
 title: System.History.TargetUrlHostName
 ms.topic: article

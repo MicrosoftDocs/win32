@@ -22,7 +22,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Global-Address-List2                    |
 | Ldap-Display-Name | globalAddressList2                      |
@@ -45,7 +45,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2124                                                                                 |
 | MAPI-Id                | \-                                                                                   |
@@ -66,7 +66,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2124                                                                                 |
 | MAPI-Id                | \-                                                                                   |
@@ -87,7 +87,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2124                                                                                 |
 | MAPI-Id                | \-                                                                                   |

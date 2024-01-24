@@ -1,5 +1,5 @@
 ---
-Description: Returns a RecordList object that enumerates the list of products.
+description: Returns a RecordList object that enumerates the list of products.
 ms.assetid: 30735b9f-091b-4915-9b07-9688c9be2d26
 title: Installer.ProductsEx property
 ms.topic: reference
@@ -36,7 +36,7 @@ propVal = Installer.ProductsEx
 
 
 
-|                    |                                                                                                                                                                                                                                                                       |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP.<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                    |

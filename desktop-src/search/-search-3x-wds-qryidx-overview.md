@@ -1,5 +1,5 @@
 ---
-Description: There are several ways to use Windows Search to query the index.
+description: There are several ways to use Windows Search to query the index.
 ms.assetid: 2c161b7f-4e28-4e8a-add6-3c1cda00a622
 title: Querying the Index Programmatically
 ms.topic: article
@@ -25,7 +25,7 @@ This section provides the conceptual framework for querying the index programmat
 
 ## Additional Resources
 
--   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb?view=dotnet-plat-ext-3.1).
+-   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb).
 -   For additional background on using properties in querying, see the following topics:
     -   [Property System](../properties/building-property-handlers.md)
     -   [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
@@ -33,7 +33,6 @@ This section provides the conceptual framework for querying the index programmat
 -   For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
 -   To download the Search SDK Code Samples:
     -   For Windows 7: [Windows Search Samples on GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)
-    -   For Windows Vista: [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)
 -   To download the Windows SDK:
     -   For Windows 7: [Windows SDK for Windows 7 and .NET Framework](https://msdn.microsoft.com/windowsvista/bb980924.aspx)
     -   For Windows Vista: [Windows SDK for Windows Vista and .NET Framework](https://www.microsoft.com/download/details.aspx?id=31950)

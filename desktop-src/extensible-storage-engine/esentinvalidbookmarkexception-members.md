@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBookmarkException members"
 title: EsentInvalidBookmarkException members
 TOCTitle: EsentInvalidBookmarkException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidBookmark exceptions.
 
-The [EsentInvalidBookmarkException](dn319464\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidBookmarkException](./esentinvalidbookmarkexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidBookmarkException class](dn319464\(v=exchg.10\).md)
+[EsentInvalidBookmarkException class](./esentinvalidbookmarkexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

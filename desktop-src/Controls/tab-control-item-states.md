@@ -32,7 +32,7 @@ Tab control items now support an item state to support the [**TCM\_DESELECTALL**
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

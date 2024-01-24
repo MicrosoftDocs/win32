@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID.Inequality operator"
 title: JET_INDEXID.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXID.op_Inequality(Microsoft.Isam.Esent.Interop.JET_INDEXID,Microsoft.Isam.Esent.Interop.JET_INDEXID)
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Determines whether two specified instances of JET_INDEXID are not equal.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,14 +61,14 @@ public static bool operator !=(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXID](hh557060\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXID](./jet-indexid-structure2.md)  
     
     The first instance to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXID](hh557060\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXID](./jet-indexid-structure2.md)  
     
     The second instance to compare.
 
@@ -80,8 +81,8 @@ True if the two instances are not equal.
 
 #### Reference
 
-[JET_INDEXID structure](hh557060\(v=exchg.10\).md)
+[JET_INDEXID structure](./jet-indexid-structure2.md)
 
-[JET_INDEXID members](hh565743\(v=exchg.10\).md)
+[JET_INDEXID members](./jet-indexid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

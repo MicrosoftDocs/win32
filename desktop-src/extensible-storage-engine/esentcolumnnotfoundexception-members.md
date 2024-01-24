@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotFoundException members"
 title: EsentColumnNotFoundException members
 TOCTitle: EsentColumnNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnNotFoundException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ColumnNotFound exceptions.
 
-The [EsentColumnNotFoundException](dn274196\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnNotFoundException](./esentcolumnnotfoundexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentColumnNotFoundException class](dn274196\(v=exchg.10\).md)
+[EsentColumnNotFoundException class](./esentcolumnnotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

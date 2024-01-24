@@ -1,5 +1,5 @@
 ---
-Description: The values in the following table specify the type of physical connector for a video output.
+description: The values in the following table specify the type of physical connector for a video output.
 ms.assetid: 93e816fb-1b40-4865-9c0c-24d96c83fb7f
 title: OPM Connector Type Flags (Opmapi.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Some of these values are equivalent to values from the **COPP\_ConnectorType** e
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

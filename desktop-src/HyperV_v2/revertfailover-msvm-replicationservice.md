@@ -1,5 +1,5 @@
 ---
-Description: Reverts the current failover for a virtual machine by discarding the current failover disk.
+description: Reverts the current failover for a virtual machine by discarding the current failover disk.
 ms.assetid: 99d3a3d3-49e4-4410-b979-47b62ebc6aa6
 title: RevertFailover method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -101,7 +101,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

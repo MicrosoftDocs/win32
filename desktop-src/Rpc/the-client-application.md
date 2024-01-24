@@ -1,6 +1,6 @@
 ---
 title: The Client Application
-description: The example below is from the 'Hello World' application in the RPC\\Hello directory of the Platform Software Development Kit (SDK).
+description: View the client application part of a remote procedure call (RPC) example. The example below is from the 'Hello World' application in the Platform SDK.
 ms.assetid: 8c33801a-341a-4674-bd41-5bdca7e244fb
 ms.topic: article
 ms.date: 05/31/2018

@@ -43,42 +43,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Calendar
-<ul>
-<li>DataGrid
-<ul>
-<li>Header (0 or 1)
-<ul>
-<li>HeaderItem (0 or 7, quantity depends on how many days are displayed in columns)</li>
-</ul></li>
-<li>ListItem (quantity depends on how many days are displayed)</li>
-<li>Button (0 or 2; for paging calendar view)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Calendar
-<ul>
-<li>ListItem (quantity depends on how many days are displayed)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>Calendar<ul><li>DataGrid<ul><li>Header (0 or 1)<ul><li>HeaderItem (0 or 7, quantity depends on how many days are displayed in columns)</li></ul></li><li>ListItem (quantity depends on how many days are displayed)</li><li>Button (0 or 2; for paging calendar view)</li></ul></li></ul></li></ul> | <ul><li>Calendar<ul><li>ListItem (quantity depends on how many days are displayed)</li></ul></li></ul> | 
+
 
 
 

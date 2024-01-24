@@ -1,5 +1,5 @@
 ---
-Description: The SIO\_ADDRESS\_LIST\_SORT IOCTL allows application developers to sort a list of IPv6 and IPv4 destination addresses to determine the best available address for making a connection. The SIO\_ADDRESS\_LIST\_SORT IOCTL is supported on Windows XP and later.
+description: The SIO\_ADDRESS\_LIST\_SORT IOCTL allows application developers to sort a list of IPv6 and IPv4 destination addresses to determine the best available address for making a connection. The SIO\_ADDRESS\_LIST\_SORT IOCTL is supported on Windows XP and later.
 ms.assetid: bf380ddf-8171-4ef4-be47-94c7a6aabf0a
 title: Using SIO_ADDRESS_LIST_SORT
 ms.topic: article

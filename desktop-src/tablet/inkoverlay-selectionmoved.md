@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+description: InkOverlay.SelectionMoved event - Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 78b5ab11-01c0-4bdb-ae1f-ec55774abdce
 title: InkOverlay.SelectionMoved event (Msinkaut.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This event does not return a value.
 
 ## Remarks
 
-TThis event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents dispatch-only interfaces (dispinterfaces) with an ID of of DISPID\_IOESelectionMoved.
+TThis event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents dispatch-only interfaces (dispinterfaces) with an ID of DISPID\_IOESelectionMoved.
 
 To get the new bounding rectangle of the collection of strokes that have been moved, call the [**Selection.GetBoundingBox**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox) method.
 
@@ -51,7 +51,7 @@ To get the new bounding rectangle of the collection of strokes that have been mo
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

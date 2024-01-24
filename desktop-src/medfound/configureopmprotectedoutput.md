@@ -1,5 +1,5 @@
 ---
-Description: Configures a protected output object.
+description: Configures a protected output object.
 ms.assetid: d22a378e-2d4e-4ff4-a18e-136932c24d2b
 title: ConfigureOPMProtectedOutput function
 ms.topic: reference
@@ -84,7 +84,7 @@ This function has no associated import library. To call this function, you must 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

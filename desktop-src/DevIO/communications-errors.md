@@ -1,5 +1,5 @@
 ---
-Description: There are other circumstances where a read or write operation can be completed with fewer than the requested number of characters, even though a time-out has not occurred.
+description: There are other circumstances where a read or write operation can be completed with fewer than the requested number of characters, even though a time-out has not occurred.
 ms.assetid: 05f84661-34ff-4e1f-9ec8-e4682138dfee
 title: Communications Errors
 ms.topic: article

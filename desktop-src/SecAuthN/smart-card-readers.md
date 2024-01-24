@@ -1,5 +1,5 @@
 ---
-Description: Readers are standard devices in a smart card system. They are controlled through drivers, and are introduced to and removed from the system through Plug and Play or through the Control Panel Devices item.
+description: Readers are standard devices in a smart card system. They are controlled through drivers, and are introduced to and removed from the system through Plug and Play or through the Control Panel Devices item.
 ms.assetid: 694902b9-e43c-4558-8fab-baa853f9fc4d
 title: Smart Card Readers
 ms.topic: article

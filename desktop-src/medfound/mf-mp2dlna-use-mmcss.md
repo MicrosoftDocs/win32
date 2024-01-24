@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Digital Living Network Alliance (DLNA) media sink uses the Multimedia Class Scheduler Service (MMCSS).
+description: Specifies whether the Digital Living Network Alliance (DLNA) media sink uses the Multimedia Class Scheduler Service (MMCSS).
 ms.assetid: 4c27e2ec-624a-4b1f-bea9-3aaad1534c9b
 title: MF_MP2DLNA_USE_MMCSS attribute (Mfmp2dlna.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ If this attribute is **TRUE**, the DLNA media sink registers itself with MMCSS.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

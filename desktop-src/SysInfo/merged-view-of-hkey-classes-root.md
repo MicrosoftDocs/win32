@@ -1,5 +1,5 @@
 ---
-Description: The RegOpenUserClassesRoot function provides a merged view for processes, such as services, that are dealing with clients other than the interactive user.
+description: The RegOpenUserClassesRoot function provides a merged view for processes, such as services, that are dealing with clients other than the interactive user.
 ms.assetid: 3815d487-2d58-4ba8-85d2-cae6a642a791
 title: Merged View of HKEY_CLASSES_ROOT
 ms.topic: article

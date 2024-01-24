@@ -1,5 +1,5 @@
 ---
-Description: Contains the camera extrinsics for the sample.
+description: Contains the camera extrinsics for the sample.
 ms.assetid: C970E958-3866-491A-9806-DB300834360E
 title: MFSampleExtension_CameraExtrinsics attribute (Mfapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ This attribute is optional to support cameras that are not calibrated.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

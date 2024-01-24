@@ -1,5 +1,5 @@
 ---
-Description: In Winsock applications, a socket descriptor is not a file descriptor and must be used with the Winsock functions.
+description: In Winsock applications, a socket descriptor is not a file descriptor and must be used with the Winsock functions.
 ms.assetid: bc434b35-9231-4b03-bc8f-cf59aaeb821e
 title: Socket Data Type
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Explains how to create a certificate request and receive and store the returned certificate in a certificate store.
+description: Explains how to create a certificate request and receive and store the returned certificate in a certificate store.
 ms.assetid: 4ca3d6cb-6ce7-4408-9258-6e40c8219dc0
 title: Using Certificate Enrollment Control
 ms.topic: article

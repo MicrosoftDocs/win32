@@ -1,5 +1,5 @@
 ---
-Description: To create a Direct3D device, first create a Direct3D object (see Direct3DCreate9).
+description: To create a Direct3D device, first create a Direct3D object (see Direct3DCreate9).
 ms.assetid: 06810f31-fa6c-416e-bd7b-65cfb3e6d7f2
 title: Creating a Device (Direct3D 9)
 ms.topic: article
@@ -14,7 +14,7 @@ First, initialize values for the [**D3DPRESENT\_PARAMETERS**](d3dpresent-paramet
 
 
 ```
-LPDIRECT3DDEVICE9 pDevice = NULL;
+LPDIRECT3DDEVICE9 d3dDevice = NULL;
 
 D3DPRESENT_PARAMETERS d3dpp; 
 

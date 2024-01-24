@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth device last connected time.
+description: Bluetooth device last connected time.
 ms.assetid: b741f3a2-f4e5-4c29-b7b9-b6798e262a7c
 title: System.DeviceInterface.Bluetooth.LastConnectedTime
 ms.topic: article

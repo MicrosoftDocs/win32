@@ -1,5 +1,5 @@
 ---
-Description: One of the chief features of the functions in the GDI print API is their support of device independence.
+description: One of the chief features of the functions in the GDI print API is their support of device independence.
 ms.assetid: 3efcc6d0-14f0-4605-9603-ccc7ad0cc895
 title: About the GDI Print API
 ms.topic: article

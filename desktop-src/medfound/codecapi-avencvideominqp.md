@@ -1,5 +1,5 @@
 ---
-Description: Specifies the minimum quantization parameter (QP) for video encoding.
+description: Specifies the minimum quantization parameter (QP) for video encoding.
 ms.assetid: C9004A40-ECC9-45C3-BBDE-0A179B838AFE
 title: CODECAPI_AVEncVideoMinQP property (Codecapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The value is the minimum QP that is used in variable-QP encoding.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

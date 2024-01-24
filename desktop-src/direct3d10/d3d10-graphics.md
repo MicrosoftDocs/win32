@@ -1,5 +1,5 @@
 ---
-Description: This section contains information about programming with Microsoft Direct3D 10.
+description: This section contains information about programming with Microsoft Direct3D 10.
 ms.assetid: 5b1424d9-7724-46a7-9526-c44253b3b532
 title: Direct3D 10 Graphics
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ClassicCOMApplicationClasses association WMI class relates a COM application and a COM component grouped under it.
+description: The Win32\_ClassicCOMApplicationClasses association WMI class relates a COM application and a COM component grouped under it.
 ms.assetid: 77f24461-9ca0-4fc3-8728-4a4b9a1edbc3
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMApplicationClasses class
@@ -87,7 +87,7 @@ The **Win32\_ClassicCOMApplicationClasses** class is derived from [**Win32\_COMA
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

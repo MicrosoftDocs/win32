@@ -1,5 +1,5 @@
 ---
-Description: Creates an empty volume texture, adjusting the calling parameters as needed.
+description: Creates an empty volume texture, adjusting the calling parameters as needed.
 ms.assetid: 8fc515cd-2fb3-40c7-8192-a41d93ac1e99
 title: D3DXCreateVolumeTexture function (D3dx9tex.h)
 ms.topic: reference
@@ -138,7 +138,7 @@ Internally, D3DXCreateVolumeTexture uses [**D3DXCheckVolumeTextureRequirements**
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ActionSequence association defines a series of operations that transition the software element (referenced by the CIM\_SoftwareElementActions association) to its next state, or removes the software element from its current state.
+description: The CIM\_ActionSequence association defines a series of operations that transition the software element (referenced by the CIM\_SoftwareElementActions association) to its next state, or removes the software element from its current state.
 ms.assetid: b539c424-bc2a-414b-b56c-72550004720f
 ms.tgt_platform: multiple
 title: CIM_ActionSequence class
@@ -104,7 +104,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

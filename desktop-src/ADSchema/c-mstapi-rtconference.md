@@ -22,7 +22,7 @@ Used to publish a real-time TAPI multicast conference.
 
 
 
-|                   |                                                                                                                                                                                                          |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CN                | ms-TAPI-Rt-Conference                                                                                                                                                                                    |
 | Ldap-Display-Name | msTAPI-RtConference                                                                                                                                                                                      |
@@ -46,7 +46,7 @@ Used to publish a real-time TAPI multicast conference.
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -174,7 +174,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -305,7 +305,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -447,7 +447,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -596,7 +596,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

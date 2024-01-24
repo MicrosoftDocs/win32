@@ -2,7 +2,6 @@
 title: Dynamic Indexing using HLSL 5.1
 description: The D3D12DynamicIndexing sample demonstrates some of the new HLSL features available in Shader Model 5.1 - particularly dynamic indexing and unbounded arrays - to render the same mesh multiple times, each time rendering it with a dynamically selected material. With dynamic indexing, shaders can now index into an array without knowing the value of the index at compile time. When combined with unbounded arrays, this adds another level of indirection and flexibility for shader authors and art pipelines.
 ms.assetid: 9821AEDF-E83D-4034-863A-2B820D9B7455
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -131,8 +130,9 @@ The contents of `g_txMats[]` are procedurally generated textures created in **Lo
             cityTextureData.resize(CityMaterialCount);
             for (int i = 0; i < CityMaterialCount; ++i)
             {
+                CD3DX12_HEAP_PROPERTIES heapProps(D3D12_HEAP_TYPE_DEFAULT);
                 ThrowIfFailed(m_device->CreateCommittedResource(
-                    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+                    &heapProps,
                     D3D12_HEAP_FLAG_NONE,
                     &textureDesc,
                     D3D12_RESOURCE_STATE_COPY_DEST,
@@ -215,10 +215,12 @@ Texture data is uploaded to the GPU via an upload heap and SRVs are created for 
                 const UINT subresourceCount = textureDesc.DepthOrArraySize * textureDesc.MipLevels;
                 const UINT64 uploadBufferStep = GetRequiredIntermediateSize(m_cityMaterialTextures[0].Get(), 0, subresourceCount); // All of our textures are the same size in this case.
                 const UINT64 uploadBufferSize = uploadBufferStep * CityMaterialCount;
+                CD3DX12_HEAP_PROPERTIES uploadHeap(D3D12_HEAP_TYPE_UPLOAD);
+                auto uploadDesc = CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize);
                 ThrowIfFailed(m_device->CreateCommittedResource(
-                    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+                    &uploadHeap,
                     D3D12_HEAP_FLAG_NONE,
-                    &CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize),
+                    &uploadDesc,
                     D3D12_RESOURCE_STATE_GENERIC_READ,
                     nullptr,
                     IID_PPV_ARGS(&materialsUploadHeap)));
@@ -233,7 +235,8 @@ Texture data is uploaded to the GPU via an upload heap and SRVs are created for 
                     textureData.SlicePitch = textureData.RowPitch * textureDesc.Height;
 
                     UpdateSubresources(m_commandList.Get(), m_cityMaterialTextures[i].Get(), materialsUploadHeap.Get(), i * uploadBufferStep, 0, subresourceCount, &textureData);
-                    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_cityMaterialTextures[i].Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE));
+                    auto barrier = CD3DX12_RESOURCE_BARRIER::Transition(m_cityMaterialTextures[i].Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE);
+                    m_commandList->ResourceBarrier(1, &barrier);
                 }
             }
 ```
@@ -302,8 +305,9 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
             textureDesc.SampleDesc.Quality = 0;
             textureDesc.Dimension = D3D12_RESOURCE_DIMENSION_TEXTURE2D;
 
+            CD3DX12_HEAP_PROPERTIES heapProps(D3D12_HEAP_TYPE_DEFAULT);
             ThrowIfFailed(m_device->CreateCommittedResource(
-                &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+                &heapProps,
                 D3D12_HEAP_FLAG_NONE,
                 &textureDesc,
                 D3D12_RESOURCE_STATE_COPY_DEST,
@@ -312,10 +316,12 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
 
             const UINT subresourceCount = textureDesc.DepthOrArraySize * textureDesc.MipLevels;
             const UINT64 uploadBufferSize = GetRequiredIntermediateSize(m_cityDiffuseTexture.Get(), 0, subresourceCount);
+            CD3DX12_HEAP_PROPERTIES uploadHeap(D3D12_HEAP_TYPE_UPLOAD);
+            auto uploadDesc = CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize);
             ThrowIfFailed(m_device->CreateCommittedResource(
-                &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+                &uploadHeap,
                 D3D12_HEAP_FLAG_NONE,
-                &CD3DX12_RESOURCE_DESC::Buffer(uploadBufferSize),
+                &uploadDesc,
                 D3D12_RESOURCE_STATE_GENERIC_READ,
                 nullptr,
                 IID_PPV_ARGS(&textureUploadHeap)));
@@ -328,7 +334,8 @@ The diffuse texture, g\_`txDiffuse`, is uploaded in a similar manner and also ge
             textureData.SlicePitch = SampleAssets::Textures[0].Data[0].Size;
 
             UpdateSubresources(m_commandList.Get(), m_cityDiffuseTexture.Get(), textureUploadHeap.Get(), 0, 0, subresourceCount, &textureData);
-            m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_cityDiffuseTexture.Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE));
+            auto barrier = CD3DX12_RESOURCE_BARRIER::Transition(m_cityDiffuseTexture.Get(), D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE);
+            m_commandList->ResourceBarrier(1, &barrier);
         }
 ```
 

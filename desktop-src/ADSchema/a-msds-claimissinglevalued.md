@@ -22,7 +22,7 @@ For a claim type object, this attribute identifies if the claim type or resource
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Claim-Is-Single-Valued         |
 | Ldap-Display-Name | msDS-ClaimIsSingleValued             |
@@ -43,7 +43,7 @@ For a claim type object, this attribute identifies if the claim type or resource
 
 
 
-|                        |                                                                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |

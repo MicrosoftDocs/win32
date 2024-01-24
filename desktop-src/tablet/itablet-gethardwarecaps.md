@@ -1,5 +1,5 @@
 ---
-Description: Returns a value that represents the capabilities of the tablet hardware.
+description: Returns a value that represents the capabilities of the tablet hardware.
 ms.assetid: 68936dab-3df4-42c4-9945-bcd525c996f3
 title: ITablet::GetHardwareCaps method
 ms.topic: reference
@@ -78,7 +78,7 @@ The *pdwCaps* parameter is a set of bit flags that describe tablet hardware capa
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

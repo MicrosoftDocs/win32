@@ -22,7 +22,7 @@ For a resource property, this attribute indicates whether it is being used as a 
 
 
 
-|                   |                                              |
+| Entry | Value |
 |-------------------|----------------------------------------------|
 | CN                | ms-DS-Is-Used-As-Resource-Security-Attribute |
 | Ldap-Display-Name | msDS-IsUsedAsResourceSecurityAttribute       |
@@ -43,7 +43,7 @@ For a resource property, this attribute indicates whether it is being used as a 
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |

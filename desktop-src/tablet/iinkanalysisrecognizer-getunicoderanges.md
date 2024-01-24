@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an array of character ranges representing the supported Unicode character ranges.
+description: Retrieves an array of character ranges representing the supported Unicode character ranges.
 ms.assetid: 334cf545-832a-4e8a-8fe6-76a173676be7
 title: IInkAnalysisRecognizer::GetUnicodeRanges method (IACom.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

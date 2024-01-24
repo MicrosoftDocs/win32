@@ -1,5 +1,5 @@
 ---
-Description: This section contains Methods belonging to the InkEdit Control.
+description: This section contains Methods belonging to the InkEdit Control.
 ms.assetid: f16785e5-fd4c-442e-b5ae-8b62f3b503b4
 title: InkEdit Methods
 ms.topic: reference

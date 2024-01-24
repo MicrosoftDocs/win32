@@ -3,10 +3,13 @@ title: Control Panels
 description: Use control panel items to help users configure system-level features and perform related tasks. Programs that have a user interface should be configured directly from their UI instead.
 ms.assetid: 845325ef-9f1d-4aa7-a5b0-685fac74a9f8
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Control Panels
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Use control panel items to help users configure system-level features and perform related tasks. Programs that have a user interface should be configured directly from their UI instead.
 
@@ -513,12 +516,9 @@ The following guidelines apply to links to task pages, such as Category page tas
 
 -   **Retain similar language between task links and the pages they point to.** Users shouldn't be surprised by the page that is displayed by a link.
 -   **For task pages, design the main instruction, commit buttons, and task links as a related set of text.**
-
-    **Examples:**
-
     
 
-    |                              |                                                       |
+    | Example                             |    Instruction                                                   |
     |------------------------------|-------------------------------------------------------|
     | Task link:<br/>        | Connect to a wireless network<br/>              |
     | Main instruction:<br/> | Choose a network to connect to<br/>             |
@@ -708,7 +708,7 @@ When referring to the control panel home page or category pages:
 
     **Example:**
 
-    In Control Panel, open **Security Center**.
+    In Control Panel, open **Network and Sharing Center**.
 
 -   In programming and other technical documentation, refer to control panel home page and control panel category page, without capitalizing any of the words. A preceding definite article is optional.
 
@@ -722,6 +722,3 @@ Examples:
 
 -   In Control Panel, open **Parental Controls**.
 -   Return to the main **Parental Controls** page.
-
- 
-

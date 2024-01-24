@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the Rect class. For a complete class listing, see Rect Class.
+description: This topic lists the methods of the Rect class. For a complete class listing, see Rect Class.
 ms.assetid: fe6960fa-db73-4806-a2c2-675782eed41d
 title: Rect Methods
 ms.topic: reference

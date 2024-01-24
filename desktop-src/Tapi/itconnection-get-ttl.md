@@ -1,5 +1,5 @@
 ---
-Description: The get\_Ttl method gets the time to live (TTL) scope for transmissions on the addresses.
+description: The get\_Ttl method gets the time to live (TTL) scope for transmissions on the addresses.
 ms.assetid: ea3c22d8-476e-4b4b-98c6-f1075e704f3d
 title: ITConnection::get_Ttl method (Sdpblb.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[ Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API provides similar functionality.\]
 
-The **get\_Ttl** method gets the [*time to live*](../tapi2/t_tapgloss.md) (TTL) scope for transmissions on the addresses.
+The **get\_Ttl** method gets the [*time to live*](t-tapgloss.md) (TTL) scope for transmissions on the addresses.
 
 ## Syntax
 
@@ -56,7 +56,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

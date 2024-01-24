@@ -1,12 +1,14 @@
 ---
-title: Functions
+
+title: Functions (Device Access)
+
 description: Functions in the Device Access API.
 ms.assetid: DCD5DAD6-E8C2-4EA4-AE66-A47AE0759ED0
 ms.topic: article
 ms.date: 02/11/2020
 ---
 
-# Functions
+# Device Access API functions
 
 Functions in the Device Access API.
 
@@ -18,4 +20,4 @@ Functions in the Device Access API.
 
 ## Related topics
 
-[Custom Driver Access Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Hardware Dev Center](/windows/hardware/)
+[Custom Driver Access Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Hardware Dev Center](/windows-hardware/drivers/)

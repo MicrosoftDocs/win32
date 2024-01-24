@@ -1,5 +1,5 @@
 ---
-Description: Used with the NCRYPT\_UI\_POLICY\_PROPERTY property to contain user interface information for a key.
+description: Used with the NCRYPT\_UI\_POLICY\_PROPERTY property to contain user interface information for a key.
 ms.assetid: c567d8ba-3315-4316-8e09-93b2c10a55ec
 title: NCRYPT_UI_POLICY_BLOB structure (Ncrypt\_provider.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ This structure is included in the Ncrypt\_provider.h header. To use the structur
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                          |

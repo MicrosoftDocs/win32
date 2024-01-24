@@ -1,6 +1,6 @@
 ---
 title: Dynamic Data Exchange Management Library Reference
-description: .
+description: . | Dynamic Data Exchange Management Library Reference
 ms.assetid: bc9fc6ba-cf10-435b-ac0c-6253342f99fe
 ms.topic: reference
 ms.date: 05/31/2018

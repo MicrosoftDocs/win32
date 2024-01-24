@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOperationException members"
 title: EsentInvalidOperationException members
 TOCTitle: EsentInvalidOperationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidOperationException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidOperation exceptions.
 
-The [EsentInvalidOperationException](dn319571\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidOperationException](./esentinvalidoperationexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidOperationException class](dn319571\(v=exchg.10\).md)
+[EsentInvalidOperationException class](./esentinvalidoperationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

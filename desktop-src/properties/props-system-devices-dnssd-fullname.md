@@ -1,5 +1,5 @@
 ---
-Description: Complete DNS-SD service instance name, including instance, service, and domain.
+description: Complete DNS-SD service instance name, including instance, service, and domain.
 ms.assetid: 0d13caba-a280-4b14-9c7a-240bd44c24d2
 title: System.Devices.Dnssd.FullName
 ms.topic: article

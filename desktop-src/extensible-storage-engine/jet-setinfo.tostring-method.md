@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETINFO.ToString method"
 title: JET_SETINFO.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SETINFO.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_SETINFO.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [JET_SETINFO](dn351059\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_SETINFO](./jet-setinfo-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +53,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [JET_SETINFO](dn351059\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [JET_SETINFO](./jet-setinfo-class.md).  
 
 ## See also
 
 #### Reference
 
-[JET_SETINFO class](dn351059\(v=exchg.10\).md)
+[JET_SETINFO class](./jet-setinfo-class.md)
 
-[JET_SETINFO members](dn351029\(v=exchg.10\).md)
+[JET_SETINFO members](./jet-setinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

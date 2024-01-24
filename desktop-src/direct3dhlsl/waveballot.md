@@ -22,7 +22,7 @@ Returns a uint4 containing a bitmask of the evaluation of the Boolean expression
 ## Syntax
 
 ``` syntax
-uint4 WaveBallot(
+uint4 WaveActiveBallot(
    bool expr
 );
 ```
@@ -56,13 +56,7 @@ Instead of:
 uint result = countbits( WaveActiveBallot( bBit ) );
 ```
 
-This function is supported from shader model 6.0, in the following types of shaders:
-
-
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 
 

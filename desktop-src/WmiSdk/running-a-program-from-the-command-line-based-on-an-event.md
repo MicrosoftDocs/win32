@@ -1,5 +1,5 @@
 ---
-Description: The CommandLineEventConsumer class runs a specified executable program from a command line when a specified event occurs. This class is a standard event consumer that WMI provides.
+description: The CommandLineEventConsumer class runs a specified executable program from a command line when a specified event occurs. This class is a standard event consumer that WMI provides.
 ms.assetid: b912a4a1-7b1c-43a9-b098-fcfd62a2c2db
 ms.tgt_platform: multiple
 title: Running a Program from the Command Line Based on an Event

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST constructor"
 title: JET_RECORDLIST constructor 
 TOCTitle: 'JET_RECORDLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECORDLIST.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RECORDLIST constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_RECORDLIST()
 
 #### Reference
 
-[JET_RECORDLIST class](dn335223\(v=exchg.10\).md)
+[JET_RECORDLIST class](./jet-recordlist-class.md)
 
-[JET_RECORDLIST members](dn335227\(v=exchg.10\).md)
+[JET_RECORDLIST members](./jet-recordlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

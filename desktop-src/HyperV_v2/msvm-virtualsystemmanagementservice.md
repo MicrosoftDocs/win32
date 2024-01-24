@@ -1,5 +1,5 @@
 ---
-Description: Represents the virtualization service present on a single host system.
+description: Represents the virtualization service present on a single host system.
 ms.assetid: '7f4bd9e0-b034-4882-ad01-f7df740939ae'
 title: Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -721,7 +721,7 @@ Access to the **Msvm\_VirtualSystemManagementService** class might be restricted
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

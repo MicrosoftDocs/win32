@@ -1,5 +1,5 @@
 ---
-Description: The SetTcpipNetbios method is used to set the default operation of NetBIOS over TCP/IP.
+description: The SetTcpipNetbios method is used to set the default operation of NetBIOS over TCP/IP.
 ms.assetid: 2c639595-da13-400d-b4d0-432b39460554
 ms.tgt_platform: multiple
 title: SetTcpipNetbios method of the Win32_NetworkAdapterConfiguration class
@@ -432,17 +432,11 @@ DHCP not enabled on adapter.
 
 </dd> </dl>
 
-## Examples
-
-The [Modify NetBIOS Use on a Network Adapter](https://Gallery.TechNet.Microsoft.Com/01d541f7-5c0d-46d3-8619-28aaab154dc0) VBScript sample enables NetBIOS for a network adapter.
-
-The [Configure iSCSI Network Cards as per Microsoft Best Practices PowerShell](https://Gallery.TechNet.Microsoft.Com/Configure-iSCSI-Network-81232a5e) sample automates the configuration settings for a Virtual Machine.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

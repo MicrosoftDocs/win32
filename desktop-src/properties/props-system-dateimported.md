@@ -1,5 +1,5 @@
 ---
-Description: The date and time the file was imported into a private application database.
+description: The date and time the file was imported into a private application database.
 ms.assetid: b859c2c9-0985-451c-be05-e17101bc2f3c
 title: System.DateImported
 ms.topic: article

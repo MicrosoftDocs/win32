@@ -1,5 +1,5 @@
 ---
-Description: These flags provide additional information about effect parameters.
+description: These flags provide additional information about effect parameters.
 ms.assetid: 7e1e4c64-56b8-4fdb-8178-50f7d61b917b
 title: D3DX_PARAMETER (D3dx9effect.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ Effect parameter constants are used by [**D3DXPARAMETER\_DESC**](d3dxparameter-d
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9effect.h</dt> </dl> |
 

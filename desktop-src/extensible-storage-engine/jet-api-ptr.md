@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_API_PTR"
 title: JET_API_PTR
 TOCTitle: JET_API_PTR
 ms:assetid: 27b1eeec-1707-4edb-a4b2-2619190c21e7
@@ -46,36 +47,22 @@ Like a **DWORD_PTR** data type, the **JET_API_PTR** data type is defined as 4 by
 
 The **JET_API_PTR** data type is used to define the following data types:
 
-  - [JET_HANDLE](gg269217\(v=exchg.10\).md)
+  - [JET_HANDLE](./jet-handle.md)
 
-  - [JET_INSTANCE](gg294048\(v=exchg.10\).md)
+  - [JET_INSTANCE](./jet-instance.md)
 
-  - [JET_SESID](gg269253\(v=exchg.10\).md)
+  - [JET_SESID](./jet-sesid.md)
 
-  - [JET_TABLEID](gg269182\(v=exchg.10\).md)
+  - [JET_TABLEID](./jet-tableid.md)
 
-  - [JET_LS](gg269336\(v=exchg.10\).md)
+  - [JET_LS](./jet-ls.md)
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
 

@@ -21,7 +21,7 @@ Allows receiving messages from the Dead Letter queue.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | msmq-Receive-Dead-Letter             |
 | Display-Name | Receive Dead Letter                  |
@@ -42,7 +42,7 @@ Allows receiving messages from the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 38                                                           |
@@ -53,7 +53,7 @@ Allows receiving messages from the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 38                                                           |
@@ -64,7 +64,7 @@ Allows receiving messages from the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 38                                                           |
@@ -75,7 +75,7 @@ Allows receiving messages from the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 38                                                           |
@@ -86,7 +86,7 @@ Allows receiving messages from the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 38                                                           |
@@ -97,7 +97,7 @@ Allows receiving messages from the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 38                                                           |

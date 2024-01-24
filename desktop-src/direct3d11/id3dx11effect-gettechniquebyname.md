@@ -1,6 +1,6 @@
 ---
 title: ID3DX11Effect GetTechniqueByName method (D3dx11effect.h)
-description: Get a technique by name.
+description: Get a technique by name. | ID3DX11Effect GetTechniqueByName method (D3dx11effect.h)
 ms.assetid: 0f7fa02c-dfbf-4971-86ad-3429f99f84e0
 keywords:
 - GetTechniqueByName method Direct3D 11
@@ -66,7 +66,7 @@ An effect contains one or more techniques; each technique contains one or more p
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |

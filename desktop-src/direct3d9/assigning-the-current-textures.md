@@ -1,5 +1,5 @@
 ---
-Description: Direct3D maintains a list of up to eight current textures. It blends these textures onto all the primitive it renders. Only textures created as texture interface pointers can be used in the set of current textures.
+description: Direct3D maintains a list of up to eight current textures. It blends these textures onto all the primitive it renders. Only textures created as texture interface pointers can be used in the set of current textures.
 ms.assetid: 5a58c915-7b67-45a7-9493-6657c75aaa10
 title: Assigning the Current Textures (Direct3D 9)
 ms.topic: article

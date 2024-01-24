@@ -3,10 +3,13 @@ title: Property Windows
 description: Property window is the collective name for the following types of user interfaces (UIs) Property sheet used to view and change properties for an object or collection of objects in a dialog box.Property inspector used to view and change properties for an object or collection of objects in a pane.Options dialog box used to view and change options for an application.
 ms.assetid: 18fc04da-9f84-4a44-9f3d-a9e29b121e7c
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Property Windows
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Property window is the collective name for the following types of user interfaces (UIs):
 
@@ -390,7 +393,3 @@ When referring to property pages:
  
 
  
-
-
-
-

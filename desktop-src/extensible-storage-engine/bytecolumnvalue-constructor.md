@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ByteColumnValue constructor"
 title: ByteColumnValue constructor 
 TOCTitle: 'ByteColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ByteColumnValue.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # ByteColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public ByteColumnValue()
 
 #### Reference
 
-[ByteColumnValue class](dn334109\(v=exchg.10\).md)
+[ByteColumnValue class](./bytecolumnvalue-class.md)
 
-[ByteColumnValue members](dn334162\(v=exchg.10\).md)
+[ByteColumnValue members](./bytecolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

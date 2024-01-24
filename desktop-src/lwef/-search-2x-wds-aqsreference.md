@@ -1,9 +1,9 @@
 ---
 title: Advanced Query Syntax
-description: The Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches.
+description: Microsoft Windows Desktop Search (WDS) uses Advanced Query Syntax (AQS) to help users and programmers better define and narrow their searches.
 ms.assetid: 8e55bd40-c7cf-44a6-bc18-24bc7a267779
 ms.topic: article
-ms.date: 05/19/2020
+ms.date: 02/10/2023
 ---
 
 # Advanced Query Syntax
@@ -11,64 +11,48 @@ ms.date: 05/19/2020
 > [!NOTE]
 > Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
-The Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches. Using AQS is an easy way to narrow searches and deliver better result sets. Searches can be narrowed by the following parameters:
+Microsoft Windows Desktop Search (WDS) uses Advanced Query Syntax (AQS) to help users and programmers better define and narrow their searches. Using AQS is an easy way to deliver more meaningful result sets. Searches can be narrowed by the following parameters:
 
--   File kinds: folders, documents, presentations, pictures and so on.
--   File stores: specific databases and locations.
--   File properties: size, date, title and so on.
--   File contents: keywords like "project deliverables," "AQS," "blue suede shoes," and so on.
+- File kinds: File types, such as folders, documents, presentations, pictures, and so on.
+- File stores: Specific databases and locations.
+- File properties: File metadata, such as size, date, and title.
+- File contents: Keywords like *project deliverables*, *AQS*, *blue suede shoes*, and so on.
 
-Furthermore, search parameters can be combined using search operators. The remainder of this section explains the query syntax, the parameters and operators, and how they can be combined to offer targeted search results. The tables describe the syntax to use with WDS, as well as the properties that can be queried for each file kind displayed in the **Windows Desktop Search** results window.
+Furthermore, you can combine search parameters by using search operators. The remainder of this section explains query syntax, parameters and operators, and how they can be combined to offer targeted search results. The tables describe the syntax to use with WDS, and the properties that can be queried for each file kind displayed in the **Windows Desktop Search** results window.
 
-## Desktop Search Syntax
+## Desktop search syntax
 
-A search query can include one or more keywords, with Boolean operators and optional criteria. These optional criteria can narrow a search based on the following:
+A search query can include one or more keywords, with Boolean operators and optional criteria. You can use these optional criteria to refine a search with the following syntax:
 
--   Scope or data store in which files reside
--   Kinds of files
--   Managed properties of files
+- `<scope name>:<value>`: Location or data store in which files reside
+- `<file kind>:<value>`: Kinds of files
+- `<property name>:<value>`: Managed properties of files
 
-The optional criteria, described in greater detail following, use the following syntax:
-
-`<scope name>:<value>`
-
-`<file kind>:<value>`
-
-`<property name>:<value>`
-
-Suppose a user wants to search for a document containing the phrase "last quarter," created by John or Joanne, and that the user saved to the folder mydocuments. The query may look like this:
+Suppose a user wants to search for a document containing the phrase *last quarter*, created by John or Joanne, and saved to the folder *mydocuments*. The query might look like this:
 
 `"last quarter" author:(john OR joanne) foldername:mydocuments`
 
-### Scope: Locations and Data Stores
+### Scope by location and data store
 
-Users can limit the scope of their searches to specific folder locations or data stores. For example, if you use several email accounts and you want to limit a query to either Microsoft Outlook or Microsoft Outlook Express, you can use `store:outlook` or `store:oe` respectively.
+Users can limit the scope of their searches to specific folder locations or data stores. For example, if you use several email accounts, and you want to limit a query to Microsoft Outlook, use `store:outlook`.
 
-
-
-| Restrict Search by Data Store | Use              | Example                                  |
+| Location or data store        | AQS Keyword      | Example                                  |
 |-------------------------------|------------------|------------------------------------------|
 | Desktop                       | desktop          | store:desktop                            |
 | Files                         | files            | store:files                              |
 | Outlook                       | outlook          | store:outlook                            |
 | Outlook Express               | oe               | store:oe                                 |
-| Specific Folder               | foldername or in | foldername:MyDocuments or in:MyDocuments |
+| Specific folder               | foldername or in | foldername:MyDocuments or in:MyDocuments |
 
+If you have a protocol handler in place to crawl custom stores, like Lotus Notes, you can use the name of the store or protocol handler for the data store. For example, if you implemented a protocol handler to include a Lotus Notes data store as "notes," the query syntax would be `store:notes`.
 
+### File kinds
 
- 
+Users can limit their searches to specific kinds of files, also called file types. The following table lists the file kinds and offers examples of the AQS syntax used to search for these kinds of files.
 
-If you have a protocol handler in place to crawl custom stores, like Lotus Notes, you can use the name of the store or protocol handler for the store. For example, if you implemented a protocol handler to include a Lotus Notes data store as "notes," the query syntax would be `store:notes`.
-
-### Common File Kinds
-
-Users can also limit their searches to specific types of files, called file kinds. The following table lists the file kinds and offers examples of the syntax used to search for these kinds of files.
-
-
-
-| To Restrict by File Type:       | Use              | Example                        |
+| File kind to search             | AQS Keyword      | Example                        |
 |---------------------------------|------------------|--------------------------------|
-| All file types                  | everything       | kind:everything                |
+| All file kinds                  | everything       | kind:everything                |
 | Communications                  | communications   | kind:communications            |
 | Contacts                        | contacts         | kind:contacts                  |
 | E-mail                          | email            | kind:email                     |
@@ -88,88 +72,61 @@ Users can also limit their searches to specific types of files, called file kind
 | Favorites                       | favorites        | kind:favorites                 |
 | Programs                        | programs         | kind:programs                  |
 
+### Boolean operators
 
+Users can combine search keywords and file properties with operators to broaden or narrow a search. The following table describes common search query operators.
 
- 
+| Operator  | Example | Result |
+|-----------------|----------|----------|
+| NOT             | social NOT security | Finds items that contain *social*, but not *security*. |
+| Space           | social  security    | Finds items that contain *social* and *security*. |
+| OR              | social OR security  | Finds items that contain *social* or *security*. |
+| Quotation marks | "social security"   | Finds items that contain the exact phrase *social security*. |
+| Parentheses     | (social security)   | Finds items that contain *social* and *security* in any order. |
+| >               | date:>11/13/21<br/> size:>500<br/>  | Finds items with a date after MM/DD/YY. <br/> Finds items with a size greater than 500 bytes.<br/> |
+| <               | date:<11/13/21 <br/> size:<500<br/> | Finds items with a date before MM/DD/YY. <br/> Finds items with a size less than 500 bytes.<br/> |
+| ..              | date:11/13/21..11/15/21 | Finds items with a date beginning on MM/DD/YY and ending on MM/DD/YY. |
 
-### Boolean Operators
+> [!NOTE]
+> The operators **NOT** and **OR** must be in uppercase and can't be combined in the same query. For example, `social OR security NOT retirement` is not allowed.
 
-Search keywords and file properties can be combined to broaden or narrow a search with operators. The following table explains common operators used in a search query.
+### Boolean properties
 
+Some file types let users search for files by using Boolean properties, as described in the following table.
 
-
-| Keyword/Symbol  | Examples                                              | Function                                                                                                       |
-|-----------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| NOT             | social NOT security<br/>                        | Finds items that contain *social*, but not *security*.<br/>                                              |
-|                 | social  security<br/>                           | Finds items that contain *social* and *security*.<br/>                                              |
-| OR              | social OR security<br/>                         | Finds items that contain *social* or *security*.<br/>                                                    |
-| Quotation marks | "social security"<br/>                          | Finds items that contain the exact phrase *social security*.<br/>                                        |
-| Parentheses     | (social security)<br/>                          | Finds items that contain *social* and *security* in any order.<br/>                                      |
-| >            | date:>11/05/04<br/> size:>500<br/>  | Finds items with a date after 11/05/04. <br/> Finds items with a size greater than 500 bytes.<br/> |
-| <            | date:<11/05/04 <br/> size:<500<br/> | Finds items with a date before 11/05/04. <br/> Finds items with a size less than 500 bytes.<br/>   |
-| ..              | date:11/05/04..11/10/04<br/>                    | Finds items with a date beginning on 11/05/04 and ending on 11/10/04.<br/>                               |
-
-
-
- 
-
-> [!Note]
->
-> The operators **NOT** and **OR** must be in uppercase and cannot be combined in one query (e.g., `social OR security NOT retirement`).
-
- 
-
-### Boolean Properties
-
-Some file types let users search for files using Boolean properties, as described in the following table.
-
-
-
-| Property       | Example                   | Function                                                                                                        |
-|----------------|---------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Property syntax | Example | Result |
+|---|---|---|
 | is:attachment  | report is:attachment      | Finds items that have attachments that contain *report*. Same as `isattachment:true`.                           |
 | isonline:      | report isonline:true      | Finds items that are online and which contain *report*.                                                         |
-| isrecurring:   | report isrecurring:true   | Finds items that are recurring and which contain*report*.                                                       |
-| isflagged:     | report isflagged:true     | Finds items that are flagged (Review, Follow up, for example) and which contain *report*.                       |
-| isdeleted:     | report isdeleted:true     | Finds items that are flagged as deleted (Recycle Bin or Deleted Items, for example) and which contain *report*. |
+| isrecurring:   | report isrecurring:true   | Finds items that are recurring and which contain *report*.                                                       |
+| isflagged:     | report isflagged:true     | Finds items that are flagged (for example, Review, Follow up) and which contain *report*.                       |
+| isdeleted:     | report isdeleted:true     | Finds items that are flagged as deleted (for example, moved to the Recycle Bin or deleted items) and which contain *report*. |
 | iscompleted:   | report iscompleted:false  | Finds items that are not flagged as complete and which contain *report*.                                        |
-| hasattachment: | report hasattachment:true | Finds items containing *report* and having attachments                                                          |
-| hasflag:       | report hasflag:true       | Finds items containing *report* and having flags.                                                                |
-
-
-
- 
+| hasattachment: | report hasattachment:true | Finds items that contain *report* and have attachments                                                          |
+| hasflag:       | report hasflag:true       | Finds items that contain *report* and have flags.                                                                |
 
 ### Dates
 
-In addition to searching on specific dates and date ranges using the operators described earlier, AQS allows relative date values (like `today`, `tomorrow`, or `next week`) and day (like `Tuesday` or `Monday..Wednesday`) and month (`February`) values.
+In addition to being able to search on specific dates and date ranges with the operators described previously, AQS allows relative date values (like `today`, `tomorrow`, or `next week`), day values (such as `Tuesday` or `Monday..Wednesday`), and month values (such as `February`).
 
+| Date relative to: | Example | Result |
+|---|---|---|
+| Day | date:today<br/> date:tomorrow<br/> date:yesterday<br/> | Finds items with today's date.<br/> Finds items with tomorrow's date.<br/> Finds items with yesterday's date. <br/> |
+| Week/Month/Year | date:this week<br/> date:last week<br/> date:next month<br/> date:past month<br/> date:coming year <br/> | Finds items with a date falling within the current week.<br/> Finds items with a date falling within the previous week.<br/> Finds items with a date falling within the upcoming week.<br/> Finds items with a date falling within the previous month.<br/> Finds items with a date falling within the upcoming year. <br/> |
 
-
-| Relative to:    | Syntax Example                                                                                                                         | Result                                                                                                                                                                                                                                                                                                                                                    |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Day             | date:today<br/> date:tomorrow<br/> date:yesterday<br/>                                                               | Finds items with today's date.<br/> Finds items with tomorrow's date.<br/> Finds items with yesterday's date. <br/>                                                                                                                                                                                                                     |
-| Week/Month/year | date:this week<br/> date:last week<br/> date:next month<br/> date:past month<br/> date:coming year <br/> | Finds items with a date falling within the current week.<br/> Finds items with a date falling within the previous week.<br/> Finds items with a date falling within the upcoming week.<br/> Finds items with a date falling within the previous month.<br/> Finds items with a date falling within the upcoming year. <br/> |
-
-
-
- 
-
-## Properties by File Kind
+## Properties by file kind
 
 Users can search on specific properties of different file kinds. Some properties (like file size) are common to all files, while others are limited to a specific kind. Slide count, for example, is specific to presentations. The following tables list these properties by file kind.
 
-### File Kind: Everything
+### Everything
 
-These are properties common to all file kinds. To include all types of files in a query, the syntax is:
+These properties are common to all file kinds. To include all types of files in a query, use this syntax:
 
 `kind:everything <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property       | Use                      | Example                        |
+| Property       | AQS keyword              | Example                        |
 |----------------|--------------------------|--------------------------------|
 | Title          | title, subject or about  | title:"Quarterly Financial"    |
 | Status         | status                   | status:complete                |
@@ -193,39 +150,27 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Folder         | folder, under or path    | folder:downloads               |
 | File extension | ext or fileext           | ext:.txt                       |
 
-
-
- 
-
 ### Attachment
 
-These are properties common to attachments. To limit the search to attachments only, the syntax is:
+These properties are common to all attachment file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:attachment <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property | Use            | Example                  |
-|----------|----------------|--------------------------|
+| Property | AQS keyword | Example |
+|----------|-------------|---------|
 | People   | people or with | people:john or with:john |
-
-
-
- 
 
 ### Contacts
 
-These are properties common to contacts. To limit the search to contacts only, the syntax is:
+These properties are common to all contacts file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:contacts <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property              | Use                 | Example                            |
+| Property              | AQS keyword         | Example                            |
 |-----------------------|---------------------|------------------------------------|
 | Job title             | jobtitle            | jobtitle:CFO                       |
 | IM address            | imaddress           | imaddress:john\_doe@msn.com        |
@@ -236,7 +181,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Spouse                | spouse              | spouse:Debbie                      |
 | Business city         | businesscity        | businesscity:Seattle               |
 | Business postal code  | businesspostalcode  | businesspostalcode:98006           |
-| Business home page    | businesshomepage    | businesshomepage:www.microsoft.com |
+| Business home page    | businesshomepage    | businesshomepage:www.office.com |
 | Callback phone number | callbackphonenumber | callbackphonenumber:555-555-2121   |
 | Car phone             | carphone            | carphone:555-555-2121              |
 | Children              | children            | children:Timmy                     |
@@ -253,27 +198,18 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Birthday              | birthday            | birthday:1/1/06                    |
 | Web page              | webpage             | webpage:www.microsoft.com          |
 
-
-
- 
-
-> [!Note]
->
-> Phone numbers are indexed as entered. For example, if a user did not include a country or area code when entering the phone number, users will not be able to locate a contact if searching with country or area code in the phone number.
-
- 
+> [!NOTE]
+> Phone numbers are indexed as entered. For example, if a country code or area code was omitted in a contact's phone number, users won't be able to find that contact if they search with a country code or area code in the phone number.
 
 ### Communications
 
-These are properties common to communications. To limit the search to communications only, the syntax is:
+These properties are common to all communications file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:communications <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property       | Use                           | Example                         |
+| Property       | AQS keyword                   | Example                         |
 |----------------|-------------------------------|---------------------------------|
 | From           | from or organizer             | from:john                       |
 | Received       | received or sent              | sent:yesterday                  |
@@ -288,42 +224,30 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Is completed   | iscompleted                   | is:completed                    |
 | Incomplete     | incomplete or isincomplete    | is:incomplete                   |
 | Has flag       | hasflag or isflagged          | has:flag                        |
-| Duration       | duration                      | duration:> 50                |
-
-
-
- 
+| Duration       | duration                      | duration:> 50                   |
 
 ### Calendar
 
-These are properties common to calendars. To limit the search to calendars only, the syntax is:
+These properties are common to all calendar file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:calendar <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property  | Use                      | Example          |
+| Property  | AQS keyword              | Example          |
 |-----------|--------------------------|------------------|
 | Recurring | recurring or isrecurring | is:recurring     |
 | Organizer | organizer, by or from    | organizer:debbie |
 
-
-
- 
-
 ### Documents
 
-These are properties common to documents. To limit the search to documents only, the syntax is:
+These properties are common to all documents file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:documents <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property          | Use             | Example                       |
+| Property          | AQS keyword     | Example                       |
 |-------------------|-----------------|-------------------------------|
 | Comments          | comments        | comments:"needs final review" |
 | Last saved by     | lastsavedby     | lastsavedby:john              |
@@ -332,39 +256,27 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Document format   | documentformat  | documentformat:MIMETYPE       |
 | Date last printed | datelastprinted | datelastprinted:last week     |
 
-
-
- 
-
 ### Presentation
 
-These are properties common to presentations. To limit the search to presentations only, the syntax is:
+These properties are common to all presentation file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:presentation <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property    | Use        | Example           |
-|-------------|------------|-------------------|
-| Slide count | slidecount | slidecount:>20 |
-
-
-
- 
+| Property    | AQS keyword | Example           |
+|-------------|-------------|-------------------|
+| Slide count | slidecount  | slidecount:>20 |
 
 ### Music
 
-These are properties common to music files. To limit the search to music only, the syntax is:
+These properties are common to all music file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:music <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property | Use                | Example                  |
+| Property | AQS keyword        | Example                  |
 |----------|--------------------|--------------------------|
 | Bit rate | bitrate, rate      | bitrate:192              |
 | Artist   | artist, by or from | artist:John Singer       |
@@ -374,21 +286,15 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Track    | track              | track:12                 |
 | Year     | year               | year:> 1980 < 1990 |
 
-
-
- 
-
 ### Picture
 
-These are properties common to pictures. To limit the search to pictures only, the syntax is:
+These properties are common to all picture file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:picture <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property     | Use         | Example               |
+| Property     | AQS keyword | Example               |
 |--------------|-------------|-----------------------|
 | Camera make  | cameramake  | cameramake:sample     |
 | Camera model | cameramodel | cameramodel:sample    |
@@ -398,53 +304,25 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 | Width        | width       | width:1600            |
 | Height       | height      | height:1200           |
 
-
-
- 
-
 ### Video
 
-These are properties common to videos. To limit the search to videos only, the syntax is:
+These properties are common to all video file kinds. To limit a search to this type of file only, use this syntax:
 
 `kind:video <property>:<value>`
 
-where `<property>` is a property listed below and `<value>` is the user-specified search term.
+where `<property>` is an AQS property keyword from the following table and `<value>` is the specified search term.
 
-
-
-| Property | Use           | Example                                |
+| Property | AQS keyword   | Example                                |
 |----------|---------------|----------------------------------------|
 | Name     | name, subject | name:"Family Vacation to the Beach 05" |
 | Ext      | ext, fileext  | ext:.avi                               |
 
-
-
- 
-
-## Related topics
-
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
+## See also
 
 [Perceived Types](-search-2x-wds-perceivedtype.md)
-</dt> <dt>
 
-[SchemaTable](-search-2x-wds-schematable.md)
-</dt> <dt>
+[Schema table](-search-2x-wds-schematable.md)
 
-[Calling WDS from the Command Line](-search-2x-wds-fromcommandline.md)
-</dt> <dt>
+[Calling WDS from the command line](-search-2x-wds-fromcommandline.md)
 
-[Calling WDS from Web Pages](-search-2x-wds-browserhelpobject.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+[Calling WDS from web pages](-search-2x-wds-browserhelpobject.md)

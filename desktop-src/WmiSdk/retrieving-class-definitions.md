@@ -1,5 +1,5 @@
 ---
-Description: Schema queries are WQL statements that request class definitions and information about schema associations.
+description: Schema queries are WQL statements that request class definitions and information about schema associations.
 ms.assetid: cb65e99f-9046-4c63-ab56-60dedc45bcef
 ms.tgt_platform: multiple
 title: Retrieving Class Definitions

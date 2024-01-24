@@ -13,8 +13,6 @@ ms.date: 05/31/2018
  **Clients** - Windows 8  
 **Servers** - Windows Server 2012  
 
-
-
 ## Description
 
 As antimalware (AM) software has become better and better at detecting runtime malware, attackers are also becoming better at creating rootkits that can hide from detection. Detecting malware that starts early in the boot cycle is a challenge that most AM vendors address diligently. Typically, they create system hacks that are not supported by the host operating system and can actually result in placing the computer in an unstable state. Up to this point, Windows has not provided a good way for AM to detect and resolve these early boot threats.
@@ -33,13 +31,15 @@ Boot drivers are initialized based on the classification that is returned from t
 
 An ELAM driver must register for kernel callbacks to get info about each boot-start driver as it is initializing. The ELAM driver can then return a classification for each driver. These functions are required:
 
-<dl> IoRegisterBootDriverCallback()  
-IoUnRegisterBootDriverCallback()  
-</dl> An ELAM driver can also register for registry callbacks. Doing so enables the ELAM driver to inspect the configuration data that is used by each boot-start driver. The ELAM driver can then block or modify the data before it is used by the boot-start drivers, if necessary. These functions are required:
+-   [IoRegisterBootDriverCallback](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback)
+-   [IoUnRegisterBootDriverCallback](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iounregisterbootdrivercallback)
 
-<dl> CmRegisterCallbackEx()  
-CmUnRegisterCallback()  
-</dl> A more detailed description of ELAM driver requirements and API usage is documented in a white paper on MSDN called Early Launch Antimalware.
+An ELAM driver can also register for registry callbacks. Doing so enables the ELAM driver to inspect the configuration data that is used by each boot-start driver. The ELAM driver can then block or modify the data before it is used by the boot-start drivers, if necessary. These functions are required:
+
+-   [CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex)
+-   [CmUnRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback)
+
+For more details about ELAM driver requirements and API usage, see [Early Launch Antimalware](/windows-hardware/drivers/install/early-launch-antimalware).
 
 ## Tests
 
@@ -47,11 +47,11 @@ ELAM drivers must be specially signed by Microsoft to ensure they are started by
 
 ## Resources
 
--   [Early Launch Antimalware Whitepaper](/windows-hardware/drivers/install/early-launch-antimalware)
--   [CmRegisterCallbackEx()](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex)
--   [CmUnRegisterCallback()](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback)
--   [IoRegisterBootDriverCallback()](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback)
--   [IoUnRegisterBootDriverCallback()](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iounregisterbootdrivercallback)
+-   [Early Launch Antimalware](/windows-hardware/drivers/install/early-launch-antimalware)
+-   [CmRegisterCallbackEx](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex)
+-   [CmUnRegisterCallback](/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback)
+-   [IoRegisterBootDriverCallback](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdrivercallback)
+-   [IoUnRegisterBootDriverCallback](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iounregisterbootdrivercallback)
 -   [Certifying hardware with the Windows Hardware Certification Kit Build Conference presentation](https://channel9.msdn.com/events/BUILD/BUILD2011/HW-659T)
 -   [Download Kits and Tools](https://msdn.microsoft.com/windows/hardware/br259105)
 

@@ -1,5 +1,5 @@
 ---
-Description: A collection of PolicyInformation objects.
+description: A collection of PolicyInformation objects.
 ms.assetid: 2abdd070-82ae-47fd-afbc-6d4361e5a3f1
 title: CertificatePolicies object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CertificatePolicies object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to retrieve the certificate policies.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to retrieve the certificate policies.\]
 
 The **CertificatePolicies** object represents a collection of [**PolicyInformation**](policyinformation.md) objects. Each [**PolicyInformation**](policyinformation.md) object represents a single certificate policy.
 
@@ -59,7 +59,7 @@ The **CertificatePolicies** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

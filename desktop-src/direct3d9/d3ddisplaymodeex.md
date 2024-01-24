@@ -1,5 +1,5 @@
 ---
-Description: Information about the properties of a display mode.
+description: Information about the properties of a display mode.
 ms.assetid: df9d12b9-7acb-435b-9d54-0b095c871f0e
 title: D3DDISPLAYMODEEX structure (D3d9types.h)
 ms.topic: reference
@@ -113,7 +113,7 @@ This structure is used in various methods to create and manage Direct3D 9Ex devi
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

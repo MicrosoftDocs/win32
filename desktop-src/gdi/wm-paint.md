@@ -1,8 +1,9 @@
 ---
-Description: The WM\_PAINT message is sent when the system or another application makes a request to paint a portion of an application's window.
+description: The WM\_PAINT message is sent when the system or another application makes a request to paint a portion of an application's window.
 ms.assetid: afebaa07-cf00-47db-a919-46436f164881
 title: WM_PAINT message (Winuser.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +11,7 @@ ms.date: 05/31/2018
 
 The **WM\_PAINT** message is sent when the system or another application makes a request to paint a portion of an application's window. The message is sent when the [**UpdateWindow**](/windows/desktop/api/Winuser/nf-winuser-updatewindow) or [**RedrawWindow**](/windows/desktop/api/Winuser/nf-winuser-redrawwindow) function is called, or by the [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) function when the application obtains a **WM\_PAINT** message by using the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagea) function.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -96,7 +97,7 @@ For some common controls, the default **WM\_PAINT** message processing checks th
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

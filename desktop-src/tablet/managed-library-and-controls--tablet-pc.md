@@ -1,5 +1,5 @@
 ---
-Description: To build Tablet PC applications in C\# and Visual Basic .NET, your project in Microsoft Visual Studio .NET must include a reference to the Tablet PC managed library assemblies. This provides access to the managed object model and controls.
+description: To build Tablet PC applications in C\# and Visual Basic .NET, your project in Microsoft Visual Studio .NET must include a reference to the Tablet PC managed library assemblies. This provides access to the managed object model and controls.
 ms.assetid: d9c491c9-d341-4189-9a41-45c4d78322fa
 title: Managed Library and Controls (Tablet PC)
 ms.topic: article
@@ -14,8 +14,8 @@ To build Tablet PC applications in C\# and Visual Basic .NET, your project in Mi
 
 In Windows Vista, the Tablet PC managed library assemblies are installed by default in two directories:
 
--   <systemdrive>:\\Program Files\\Common Files\\Microsoft Shared\\Ink directory
--   <systemdrive>:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Bin
+-   &lt;systemdrive&gt;:\\Program Files\\Common Files\\Microsoft Shared\\Ink directory
+-   &lt;systemdrive&gt;:\\Program Files\\Microsoft SDKs\\Windows\\v6.0\\Bin
 
 To add a reference to the Tablet PC platform managed libraries in Microsoft Visual Studio .NET:
 

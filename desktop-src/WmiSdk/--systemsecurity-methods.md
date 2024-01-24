@@ -1,5 +1,5 @@
 ---
-Description: The \_\_SystemSecurity class exposes the following methods.
+description: The \_\_SystemSecurity class exposes the following methods.
 ms.assetid: BD47A5CA-A18D-4480-B531-DB3280CF0365
 ms.tgt_platform: multiple
 title: __SystemSecurity Methods

@@ -1,5 +1,5 @@
 ---
-Description: Describes swapchain statistics relating to PresentEx calls.
+description: Describes swapchain statistics relating to PresentEx calls.
 ms.assetid: aa100b83-6fbf-442d-9891-7fc034a5b1d5
 title: D3DPRESENTSTATS structure (D3d9types.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ The vblank count when the scheduler last sampled the machine time by calling Que
 **SyncQPCTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)**
+Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)**
 
 </dd> <dd>
 
@@ -85,7 +85,7 @@ The scheduler's last sampled machine time, obtained by calling [**QueryPerforman
 **SyncGPUTime**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)**
+Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)**
 
 </dd> <dd>
 
@@ -138,7 +138,7 @@ D3D9Ex Flip Mode provides frame statistics information to windowed applications 
 
 When Desktop Window Manager is turned off, windowed mode 9Ex applications using flip mode will receive present statistics information of limited accuracy.
 
-**Windows Vista:  **
+**Windows Vista:**
 
 If an application is not fast enough to keep up with the monitor's refresh rate, possibly due to slow hardware or lack of system resources, then it can experience a graphics glitch. A glitch is a so-called visual hiccup. If a monitor is set to refresh at 60 Hz, and the application can only manage 30 fps, then half of the frames will have glitches.
 
@@ -156,7 +156,7 @@ Applications can detect a glitch by keeping track of SynchRefreshCount. For exam
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

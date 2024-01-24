@@ -1,5 +1,5 @@
 ---
-Description: Removes virtual resource settings from a virtual switch configuration.
+description: Removes virtual resource settings from a virtual switch configuration.
 ms.assetid: 9992ebcd-8891-42ef-be7e-154f336e37f8
 title: RemoveResourceSettings method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference
@@ -89,7 +89,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

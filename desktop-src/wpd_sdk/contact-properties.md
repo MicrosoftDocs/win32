@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following contact properties.
+description: Windows Portable Devices supports the following contact properties.
 ms.assetid: 8571b5a3-c3ac-40f2-86e1-33a8d5d0e550
 title: Contact Properties (PortableDevice.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ Windows Portable Devices supports the following contact properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Radio buttons are not treated as individual controls, but they are part of a radio button group that functions as a RadioButtonGroup control. The RadioButton table lists the buttons for all the groups.
+description: Radio buttons are not treated as individual controls, but they are part of a radio button group that functions as a RadioButtonGroup control. The RadioButton table lists the buttons for all the groups.
 ms.assetid: 7f8f278a-a737-4116-9938-2850dbb611fa
 title: RadioButton Table
 ms.topic: article

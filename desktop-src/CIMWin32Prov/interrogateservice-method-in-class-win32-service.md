@@ -1,5 +1,5 @@
 ---
-Description: Requests that the referenced service update its state to the service manager.
+description: InterrogateService method of the Win32_Service class (CIMWin32 WMI Providers) - Requests that the referenced service update its state to the service manager.
 ms.assetid: a4ea8753-1859-4d97-b9ca-47598c7e7654
 ms.tgt_platform: multiple
 title: InterrogateService method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# InterrogateService method of the Win32\_Service class
+# InterrogateService method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **InterrogateService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method requests that the referenced service update its state to the service manager.
 
@@ -220,7 +220,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer stores all database strings in a single shared string pool to reduce the size of the database and to improve performance.
+description: The Windows Installer stores all database strings in a single shared string pool to reduce the size of the database and to improve performance.
 ms.assetid: b627f3da-3545-4c1a-85b0-d8845fdac621
 title: String-Pool Validation
 ms.topic: article

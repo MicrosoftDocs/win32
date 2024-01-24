@@ -39,14 +39,14 @@ The current DPI for a window always equals the last DPI sent by **WM\_DPICHANGED
 *wParam* 
 </dt> <dd>
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of the *wParam* contains the Y-axis value of the new dpi of the window. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) of the *wParam* contains the X-axis value of the new DPI of the window. For example, 96, 120, 144, or 192. The values of the X-axis and the Y-axis are identical for Windows apps.
+The [**HIWORD**](../winmsg/hiword.md) of the *wParam* contains the Y-axis value of the new dpi of the window. The [**LOWORD**](../winmsg/loword.md) of the *wParam* contains the X-axis value of the new DPI of the window. For example, 96, 120, 144, or 192. The values of the X-axis and the Y-axis are identical for Windows apps.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that provides a suggested size and position of the current window scaled for the new DPI. The expectation is that apps will reposition and resize windows based on the suggestions provided by *lParam* when handling this message.
+A pointer to a [**RECT**](/windows/desktop/api/windef/ns-windef-rect) structure that provides a suggested size and position of the current window scaled for the new DPI. The expectation is that apps will reposition and resize windows based on the suggestions provided by *lParam* when handling this message.
 
 </dd> </dl>
 
@@ -125,7 +125,7 @@ An alternative way to scale a value is to convert the DPI value into a scale fac
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |

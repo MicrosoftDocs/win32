@@ -21,7 +21,7 @@ A case-sensitive string.
 
 
 
-|              |                                                                        |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------|
 | Name         | String(Case Sensitive)                                                 |
 | Syntax ID    | 2.5.5.3                                                                |

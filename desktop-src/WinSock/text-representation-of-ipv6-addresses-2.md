@@ -1,5 +1,5 @@
 ---
-Description: This section is copied from &\#0034;IPv6 Addressing Architecture&\#0034; by R.
+description: This section is copied from &\#0034;IPv6 Addressing Architecture&\#0034; by R.
 ms.assetid: 52faecb9-0d7a-40fa-a021-3cc6816a4db8
 title: Text Representation of IPv6 Addresses
 ms.topic: article

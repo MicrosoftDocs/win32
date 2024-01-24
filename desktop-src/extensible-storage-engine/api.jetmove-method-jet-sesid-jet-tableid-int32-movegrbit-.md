@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetMove method (JET_SESID, JET_TABLEID, Int32, MoveGrbit)"
 title: Api.JetMove method (JET_SESID, JET_TABLEID, Int32, MoveGrbit)
 TOCTitle: JetMove method (JET_SESID, JET_TABLEID, Int32, MoveGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetMove(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Int32,Microsoft.Isam.Esent.Interop.MoveGrbit)
@@ -24,9 +25,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetMove method (JET_SESID, JET_TABLEID, Int32, MoveGrbit)
 
-Navigate through an index. The cursor can be positioned at the start or end of the index and moved backwards and forwards by a specified number of index entries. Also see [TryMoveFirst(JET_SESID, JET_TABLEID)](dn334150\(v=exchg.10\).md), [TryMoveLast(JET_SESID, JET_TABLEID)](dn334140\(v=exchg.10\).md), [TryMoveNext(JET_SESID, JET_TABLEID)](dn334095\(v=exchg.10\).md), [TryMovePrevious(JET_SESID, JET_TABLEID)](dn334144\(v=exchg.10\).md).
+Navigate through an index. The cursor can be positioned at the start or end of the index and moved backwards and forwards by a specified number of index entries. Also see [TryMoveFirst(JET_SESID, JET_TABLEID)](./api.trymovefirst-method.md), [TryMoveLast(JET_SESID, JET_TABLEID)](./api.trymovelast-method.md), [TryMoveNext(JET_SESID, JET_TABLEID)](./api.trymovenext-method.md), [TryMovePrevious(JET_SESID, JET_TABLEID)](./api.trymoveprevious-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,14 +60,14 @@ public static void JetMove(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use for the call.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor to position.
 
@@ -80,7 +81,7 @@ public static void JetMove(
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.MoveGrbit](hh558238\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.MoveGrbit](./movegrbit-enumeration.md)  
     
     Move options.
 
@@ -88,10 +89,10 @@ public static void JetMove(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[JetMove overload](dn292215\(v=exchg.10\).md)
+[JetMove overload](./api.jetmove-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

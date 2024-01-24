@@ -1,5 +1,5 @@
 ---
-Description: Use the IWiaDevMgr::EnumDeviceInfo (or IWiaDevMgr2::EnumDeviceInfo) method to enumerate the Windows Image Acquisition (WIA) devices installed on a system.
+description: Use the IWiaDevMgr::EnumDeviceInfo (or IWiaDevMgr2::EnumDeviceInfo) method to enumerate the Windows Image Acquisition (WIA) devices installed on a system.
 ms.assetid: 6465a33e-1b3b-4142-a58f-b27e9c95cd3e
 title: Enumerating System Devices
 ms.topic: article

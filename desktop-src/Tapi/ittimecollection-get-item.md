@@ -1,5 +1,5 @@
 ---
-Description: The get\_Item method gets an item from the collection using an index.
+description: The get\_Item method gets an item from the collection using an index.
 ms.assetid: 7401ae21-190d-479c-aebc-51bf8a953b94
 title: ITTimeCollection::get_Item method (Sdpblb.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ TAPI calls the **AddRef** method on the [**ITTime**](ittime.md) interface return
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

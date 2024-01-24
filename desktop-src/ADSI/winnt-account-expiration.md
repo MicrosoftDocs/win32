@@ -16,7 +16,7 @@ When using the WinNT provider, the account expiration date can be set using the 
 
 To set the account expiration date, set the [**IADsUser.AccountExpirationDate**](iadsuser-property-methods.md) property to the desired date value. To set the account expiration date to never expire, set this property to "January 1, 1970".
 
-## Example Code
+## Example 1
 
 The following code example shows how to set the account expiration date using Visual Basic with ADSI.
 
@@ -35,7 +35,7 @@ usr.SetInfo
 
 
 
-## Example Code
+## Example 2
 
 The following code example shows how to set the account expiration date using C++ with ADSI.
 

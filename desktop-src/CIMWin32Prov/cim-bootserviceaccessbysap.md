@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_BootServiceAccessBySAP class associates a boot service and its access points.
+description: The CIM\_BootServiceAccessBySAP class associates a boot service and its access points.
 ms.assetid: 993469dd-fb9c-4d21-99e0-03c4b19eb7fd
 ms.tgt_platform: multiple
 title: CIM_BootServiceAccessBySAP class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

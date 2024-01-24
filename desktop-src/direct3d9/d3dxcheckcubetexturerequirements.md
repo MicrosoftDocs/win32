@@ -1,5 +1,5 @@
 ---
-Description: Checks cube-texture-creation parameters.
+description: Checks cube-texture-creation parameters.
 ms.assetid: 56ced947-1142-4d05-95e3-ca6a26b147d4
 title: D3DXCheckCubeTextureRequirements function (D3dx9tex.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ Cube textures differ from other surfaces in that they are collections of surface
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

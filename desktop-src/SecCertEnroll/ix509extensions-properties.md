@@ -1,5 +1,5 @@
 ---
-Description: The IX509Extensions interface exposes the following properties.
+description: The IX509Extensions interface exposes the following properties.
 ms.assetid: D0B9963D-8611-419E-9CF9-AB23E61594A4
 title: IX509Extensions Properties
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Specifies for a transcode topology whether the topology loader will load hardware-based transforms.
+description: Specifies for a transcode topology whether the topology loader will load hardware-based transforms.
 ms.assetid: 33db8621-114a-4531-908f-f30034441973
 title: MF_TRANSCODE_TOPOLOGYMODE attribute (Mfidl.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

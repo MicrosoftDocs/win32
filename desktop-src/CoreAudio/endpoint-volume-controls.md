@@ -1,5 +1,5 @@
 ---
-Description: Endpoint Volume Controls
+description: Endpoint Volume Controls
 ms.assetid: 667c3659-69ae-469d-9ae0-e32a189cbc71
 title: Endpoint Volume Controls
 ms.topic: article
@@ -81,7 +81,6 @@ public:
             delete this;
         }
         return ulRef;
-
     }
 
     HRESULT STDMETHODCALLTYPE QueryInterface(REFIID riid, VOID **ppvInterface)
@@ -219,7 +218,7 @@ Exit:
         MessageBox(NULL, TEXT("This program requires Windows Vista."),
                    TEXT("Error termination"), MB_OK);
     }
-    if (pEnumerator != NULL)
+    if (g_pEndptVol != NULL)
     {
         g_pEndptVol->UnregisterControlChangeNotify(
                     (IAudioEndpointVolumeCallback*)&EPVolEvents);

@@ -1,5 +1,5 @@
 ---
-Description: Provides an interface that allows an application to access and manage the print document package.
+description: Provides an interface that allows an application to access and manage the print document package.
 ms.assetid: 2A975374-F224-49F9-9AB8-FF983DEB0B01
 title: Print Document Package API
 ms.topic: article

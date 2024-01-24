@@ -1,5 +1,5 @@
 ---
-Description: DevQuery Device Object Type.
+description: DevQuery Device Object Type.
 ms.assetid: 765ef06c-957e-48fa-be5f-9cedc7823564
 title: System.Devices.DevObjectType
 ms.topic: article

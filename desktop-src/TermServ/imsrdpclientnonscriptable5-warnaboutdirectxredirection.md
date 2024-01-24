@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 WarnAboutDirectXRedirection property
-description: This property is not used.
+description: This property is not used. | IMsRdpClientNonScriptable5 WarnAboutDirectXRedirection property
 ms.assetid: 005CA515-05B1-4B31-A83F-80E113F1BA7B
 ms.tgt_platform: multiple
 keywords:
@@ -50,7 +50,7 @@ Specifies the new property value.
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |

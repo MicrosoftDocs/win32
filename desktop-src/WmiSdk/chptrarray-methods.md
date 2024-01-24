@@ -1,5 +1,5 @@
 ---
-Description: The CHPtrArray class exposes the following methods.
+description: The CHPtrArray class exposes the following methods.
 ms.assetid: 14151444-29D4-45CF-92F2-159AD6AB9E98
 ms.tgt_platform: multiple
 title: CHPtrArray Methods

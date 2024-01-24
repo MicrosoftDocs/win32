@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndDatabasesConsistentException properties"
 title: EsentLogSequenceEndDatabasesConsistentException properties
 TOCTitle: EsentLogSequenceEndDatabasesConsistentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndDatabasesConsistentException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogSequenceEndDatabasesConsistentException](dn334651\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogSequenceEndDatabasesConsistentException](./esentlogsequenceenddatabasesconsistentexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentLogSequenceEndDatabasesConsistentException class](dn334651\(v=exchg.10\).md)
+[EsentLogSequenceEndDatabasesConsistentException class](./esentlogsequenceenddatabasesconsistentexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

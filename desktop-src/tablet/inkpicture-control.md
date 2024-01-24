@@ -1,5 +1,5 @@
 ---
-Description: Reference topic for InkPicture control for the Tablet PC.
+description: Reference topic for InkPicture control for the Tablet PC.
 ms.assetid: 1ced9779-dae5-4f9a-8a68-b2c0d041d5b4
 title: InkPicture Control
 ms.topic: article
@@ -14,7 +14,7 @@ Users add ink to a transparent layer using a pen. Users can re-size an [InkPictu
 
 The [InkPicture](inkpicture-control-reference.md) control includes basic printing support; however, it is up to you to implement print preview or other advanced printing capabilities.
 
-The managed (.NET Framework) implementation of [InkPicture](/previous-versions/ms583740(v=vs.100)) inherits from the [PictureBox](/dotnet/api/system.windows.forms.picturebox?view=netcore-3.1) class.
+The managed (.NET Framework) implementation of [InkPicture](/previous-versions/ms583740(v=vs.100)) inherits from the [PictureBox](/dotnet/api/system.windows.forms.picturebox?view=netcore-3.1&preserve-view=true) class.
 
 By default, ink is colored black if not in high-contrast mode; otherwise, it is set to the current system color setting (COLOR\_WINDOWTEXT) value. Also, by default [**FitToCurve**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_fittocurve) is **FALSE**.
 

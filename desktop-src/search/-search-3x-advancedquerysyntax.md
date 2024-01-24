@@ -1,5 +1,5 @@
 ---
-Description: Advanced Query Syntax (AQS) is the default query syntax used by Windows Search to query the index and to refine and narrow search parameters.
+description: Advanced Query Syntax (AQS) is the default query syntax used by Windows Search to query the index and to refine and narrow search parameters.
 ms.assetid: 76e33903-d063-48c0-9afe-912c3daa8237
 title: Using Advanced Query Syntax Programmatically
 ms.topic: article
@@ -45,7 +45,7 @@ A query consists of basic queries connected with AND, OR, and NOT, as shown in t
 
 If a query has two or more uses of AND or OR, they will bind from left to right, regardless of whether it is AND or OR. That is, the query, "apple AND pear OR plum" will be interpreted as if it were written as "(apple AND pear) OR plum", and the query, "apple OR pear AND plum", will be interpreted as if it were written as "(apple OR pear) AND plum". So if a document contains the word plum but neither apple, nor pear, the first query will return it but the second query will not. Hence, we recommend that you use explicit parentheses for any query that mixes AND and OR to avoid mistakes or misinterpretations.
 
-A basic query searches for items that satisfy a restriction over a property. The only required portion of a basic query is the restriction or search value. If you do not specify a property, Windows Search searches all properties. <restr> represents the search restriction.
+A basic query searches for items that satisfy a restriction over a property. The only required portion of a basic query is the restriction or search value. If you do not specify a property, Windows Search searches all properties. &lt;restr&gt; represents the search restriction.
 
 The following forms for a basic query are valid:
 
@@ -204,7 +204,7 @@ For more information about canonical properties and the property system generall
 
 ### Query Operators
 
-If a property, p, has multiple values for some item, an AQS query for p:<restr> returns the item if <restr> is **true** for at least one of the values. (<restr> represents a restriction.)
+If a property, p, has multiple values for some item, an AQS query for p:&lt;restr&gt; returns the item if &lt;restr&gt; is **true** for at least one of the values. (&lt;restr&gt; represents a restriction.)
 
 The syntax listed in the following table consists of an operator, operator symbol, example and example description. The operator and symbol can be used in any language and included in any query. Do not use the COP\_IMPLICIT or COP\_APPLICATION\_SPECIFIC operators. Some of the operators have interchangeable symbols.
 
@@ -212,10 +212,10 @@ The syntax listed in the following table consists of an operator, operator symbo
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -327,9 +327,9 @@ Useful examples of how query values can be restricted are listed in the followin
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -373,20 +373,20 @@ Useful examples of how query values can be restricted are listed in the followin
 <td>Absolute dates</td>
 <td>System.ItemDate:1/26/2010<br/> SystemDateModified 10/15/2002 19:00<br/></td>
 <td>Finds items with a date of 26 January 2010.<br/> Finds items that were modified on 15 October 2002 between the hours 19:00:00 and 19:00:59. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Because date formats (like floating point formats) vary among locales, the use of canonical syntax with absolute dates is not supported and is not localization safe.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td>Relative dates</td>
 <td>System.ItemDate:System.StructuredQueryType.DateTime#Today<br/> System.DateAcquired:System.StructuredQueryType.DateTime#NextMonth<br/> System.Message.DateReceived:System.StructuredQueryType.DateTime#LastYear<br/></td>
 <td>Finds items with today's date.<br/> Finds items with a date in the next month.<br/> Finds items with a date in the last year.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 In addition to searching on specific dates and date ranges, AQS recognizes relative date values (like <em>today</em>, <em>tomorrow</em>, <em>nextweek</em>, <em>nextmonth</em>), and day (like <em>Tuesday</em> or <em>Monday..Wednesday</em>), and month (<em>February</em>).
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">

@@ -1,5 +1,5 @@
 ---
-Description: Generates a simplified mesh using the provided weights that come as close as possible to the given MinValue.
+description: Generates a simplified mesh using the provided weights that come as close as possible to the given MinValue.
 ms.assetid: 589356a9-f272-4851-92ae-54dbecc0b234
 title: D3DXSimplifyMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -138,7 +138,7 @@ This default structure is what most applications should use because it considers
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

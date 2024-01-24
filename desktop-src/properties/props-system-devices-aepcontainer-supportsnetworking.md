@@ -1,5 +1,5 @@
 ---
-Description: Indicates if the Device Association Endpoint Container Supports SupportsNetworking.
+description: Indicates if the Device Association Endpoint Container Supports SupportsNetworking.
 ms.assetid: 83d18f28-fa2b-496c-b9e4-ceacd268724b
 title: System.Devices.AepContainer.SupportsNetworking
 ms.topic: article

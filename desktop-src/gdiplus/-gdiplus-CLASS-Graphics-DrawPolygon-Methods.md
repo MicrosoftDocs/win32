@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the DrawPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the DrawPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: 5cc34d59-d8f7-4df6-afc1-df729337d62f
 title: Graphics.DrawPolygon methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the DrawPolygon methods of the [**Graphics**](/windows/win32/ap
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

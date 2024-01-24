@@ -16,7 +16,7 @@ api_type:
 api_location: 
 ---
 
-# Shader Constants
+# Shader Constants (HLSL)
 
 In Shader Model 4, shader constants are stored in one or more buffer resources in memory. They can be organized into two types of buffers: constant buffers (cbuffers) and texture buffers (tbuffers). Constant buffers are optimized for constant-variable usage, which is characterized by lower-latency access and more frequent update from the CPU. For this reason, additional size, layout, and access restrictions apply to these resources. Texture buffers are accessed like textures and perform better for arbitrarily indexed data. Regardless of which type of resource you use, there is no limit to the number of constant buffers or texture buffers an application can create.
 
@@ -24,9 +24,9 @@ Declaring a constant buffer or a texture buffer looks very much like a structure
 
 
 
-|                                                                                                                         |
-|-------------------------------------------------------------------------------------------------------------------------|
-| *BufferType* \[*Name*\] \[: **register**(b\#)\] {     *VariableDeclaration* \[: **packoffset**(c\#.xyzw)\];      ... }; |
+|                                                                                                                     |
+|---------------------------------------------------------------------------------------------------------------------|
+| *BufferType* *Name* \[: **register**(b\#)\] {     *VariableDeclaration* \[: **packoffset**(c\#.xyzw)\];      ... }; |
 
 
 
@@ -57,7 +57,7 @@ Declaring a constant buffer or a texture buffer looks very much like a structure
 <span id="Name"></span><span id="name"></span><span id="NAME"></span>*Name*
 </dt> <dd>
 
-\[in\] Optional, ASCII string containing a unique buffer name.
+\[in\] ASCII string containing a unique buffer name.
 
 </dd> <dt>
 
@@ -100,11 +100,9 @@ A constant buffer does not require a [view](/windows/desktop/direct3d10/d3d10-gr
 
 There are two ways to pack constants data: using the [register (DirectX HLSL)](dx-graphics-hlsl-variable-register.md) and [packoffset (DirectX HLSL)](dx-graphics-hlsl-variable-packoffset.md) keywords.
 
+Differences between Direct3D 9 and Direct3D 10 and 11:
 
-
-|                                                                                                                                                                                                                                                                                                        |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10 and 11:<br/> Unlike the auto-allocation of constants in Direct3D 9, which did not perform packing and instead assigned each variable to a set of float4 registers, HLSL constant variables follow packing rules in Direct3D 10 and 11.<br/> |
+- Unlike the auto-allocation of constants in Direct3D 9, which did not perform packing and instead assigned each variable to a set of float4 registers, HLSL constant variables follow packing rules in Direct3D 10 and 11.
 
 
 

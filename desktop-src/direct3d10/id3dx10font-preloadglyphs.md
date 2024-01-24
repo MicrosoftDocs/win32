@@ -1,5 +1,5 @@
 ---
-Description: Load a series of glyphs into video memory to improve the efficiency of rendering to the device.
+description: Load a series of glyphs into video memory to improve the efficiency of rendering to the device.
 ms.assetid: 7d063d52-af2c-44a6-9019-3d546acfbd4a
 title: ID3DX10Font::PreloadGlyphs method (D3DX10.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Glyphs will not be rendered to the device; ID3DX10Font::DrawText must still be c
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

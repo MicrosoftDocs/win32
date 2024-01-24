@@ -1,5 +1,5 @@
 ---
-Description: The Synchronization Manager provides a centralized, standard technology for synchronizing files for offline use on a mobile computer or a computer connected to a local area network.
+description: The Synchronization Manager provides a centralized, standard technology for synchronizing files for offline use on a mobile computer or a computer connected to a local area network.
 title: Synchronization Manager
 ms.topic: article
 ms.date: 05/31/2018
@@ -37,7 +37,7 @@ Requires Windows Server 2003, Windows XP, Windows 2000, or Windows Millenniu
 | Topic                                                                                       | Description                                                                                                                                         |
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [About Synchronization Manager](syncmgr-about.md)<br/>                               | The Synchronization Manager provides a centralized, standard technology for synchronizing files for offline use on a local computer.<br/>     |
-| [Mobile Computing Configurations](syncmgr-mobile-computing-configs.md)<br/>          | Applications can use Sychronization Manager to keep files and resources cached locally and synchronized on mobile and desktop computers.<br/> |
+| [Mobile Computing Configurations](syncmgr-mobile-computing-configs.md)<br/>          | Applications can use Synchronization Manager to keep files and resources cached locally and synchronized on mobile and desktop computers.<br/> |
 | [Application Scenarios](syncmgr-app-scenarios.md)<br/>                               | Applications and services that can use Synchronization Manager.<br/>                                                                          |
 | [Synchronization Manager Architecture](syncmgr-architecture.md)<br/>                 |                                                                                                                                                     |
 | [Using Synchronization Manager from a Program](syncmgr-using-from-a-program.md)<br/> |                                                                                                                                                     |

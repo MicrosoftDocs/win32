@@ -1,5 +1,5 @@
 ---
-Description: Called when user identities are switched.
+description: Called when user identities are switched.
 ms.assetid: e88383fc-e58e-4987-be4b-8ce2ab1368db
 title: IIdentityChangeNotify::SwitchIdentities method (Msident.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ You may implement this method to provide custom behavior for your application wh
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

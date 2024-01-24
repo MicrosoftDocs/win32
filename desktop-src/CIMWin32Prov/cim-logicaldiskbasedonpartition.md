@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalDiskBasedOnPartition class associates a logical disk with the disk partition on which it resides.
+description: The CIM\_LogicalDiskBasedOnPartition class associates a logical disk with the disk partition on which it resides.
 ms.assetid: 264b62ed-2af2-42dc-9cd2-41b26cc85ca4
 ms.tgt_platform: multiple
 title: CIM_LogicalDiskBasedOnPartition class
@@ -136,7 +136,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

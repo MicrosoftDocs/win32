@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_StorageRedundancyGroup class represents mass storage-related redundancy information.
+description: The CIM\_StorageRedundancyGroup class represents mass storage-related redundancy information.
 ms.assetid: 6bc81680-672a-4872-8951-11d7f10acbc7
 ms.tgt_platform: multiple
 title: CIM_StorageRedundancyGroup class
@@ -420,7 +420,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

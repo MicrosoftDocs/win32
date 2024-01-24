@@ -1,5 +1,5 @@
 ---
-Description: Introduction to TopoEdit
+description: Introduction to TopoEdit
 ms.assetid: 9223309c-5ee0-4059-9480-4f54252fdd39
 title: Introduction to TopoEdit
 ms.topic: article

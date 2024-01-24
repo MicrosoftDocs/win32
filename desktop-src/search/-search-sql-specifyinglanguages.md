@@ -1,5 +1,5 @@
 ---
-Description: You can specify the language used in search queries.
+description: You can specify the language used in search queries.
 ms.assetid: 3a7ecf8f-38ae-41d1-be70-e9ab23977a01
 title: Specifying Languages
 ms.topic: article

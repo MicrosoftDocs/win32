@@ -1,6 +1,6 @@
 ---
 title: Menu Notifications
-description: .
+description: Menu Notifications
 ms.assetid: 8ff5671e-a666-483c-9ac1-f8be6eb58ffa
 ms.topic: article
 ms.date: 05/31/2018

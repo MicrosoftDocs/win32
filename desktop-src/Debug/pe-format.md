@@ -3,15 +3,15 @@ description: This specification describes the structure of executable (image) fi
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: article
-ms.date: 08/11/2020
-ms.custom: contperfq1
+ms.date: 03/31/2021
+ms.custom: contperf-fy21q1
 ---
 
 # PE Format
 
 This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively.
 
-> [!Note]  
+> [!Note]
 > This document is provided to aid in the development of tools and applications for Windows but is not guaranteed to be a complete specification in all respects. Microsoft reserves the right to alter this document without notice.
 
 This revision of the Microsoft Portable Executable and Common Object File Format Specification replaces all previous revisions of this specification.
@@ -122,14 +122,19 @@ The Machine field has one of the following values, which specify the CPU type. A
 | Constant                                    | Value              | Description                                                                             |
 |---------------------------------------------|--------------------|-----------------------------------------------------------------------------------------|
 | IMAGE\_FILE\_MACHINE\_UNKNOWN <br/>   | 0x0 <br/>    | The content of this field is assumed to be applicable to any machine type <br/> |
+| IMAGE\_FILE\_MACHINE\_ALPHA <br/>     | 0x184 <br/>  | Alpha AXP, 32-bit address space <br/>                                             |
+| IMAGE\_FILE\_MACHINE\_ALPHA64 <br/>   | 0x284 <br/>  | Alpha 64, 64-bit address space <br/>                                              |
 | IMAGE\_FILE\_MACHINE\_AM33 <br/>      | 0x1d3 <br/>  | Matsushita AM33 <br/>                                                             |
 | IMAGE\_FILE\_MACHINE\_AMD64 <br/>     | 0x8664 <br/> | x64 <br/>                                                                         |
 | IMAGE\_FILE\_MACHINE\_ARM <br/>       | 0x1c0 <br/>  | ARM little endian <br/>                                                           |
 | IMAGE\_FILE\_MACHINE\_ARM64 <br/>     | 0xaa64 <br/> | ARM64 little endian <br/>                                                         |
 | IMAGE\_FILE\_MACHINE\_ARMNT <br/>     | 0x1c4 <br/>  | ARM Thumb-2 little endian <br/>                                                   |
+| IMAGE\_FILE\_MACHINE\_AXP64 <br/>     | 0x284 <br/>  | AXP 64 (Same as Alpha 64) <br/>                                                   |
 | IMAGE\_FILE\_MACHINE\_EBC <br/>       | 0xebc <br/>  | EFI byte code <br/>                                                               |
 | IMAGE\_FILE\_MACHINE\_I386 <br/>      | 0x14c <br/>  | Intel 386 or later processors and compatible processors <br/>                     |
 | IMAGE\_FILE\_MACHINE\_IA64 <br/>      | 0x200 <br/>  | Intel Itanium processor family <br/>                                              |
+| IMAGE\_FILE\_MACHINE\_LOONGARCH32 <br/>  | 0x6232 <br/>  | LoongArch 32-bit processor family <br/>                                       |
+| IMAGE\_FILE\_MACHINE\_LOONGARCH64 <br/>  | 0x6264 <br/>  | LoongArch 64-bit processor family <br/>                                       |
 | IMAGE\_FILE\_MACHINE\_M32R <br/>      | 0x9041 <br/> | Mitsubishi M32R little endian <br/>                                               |
 | IMAGE\_FILE\_MACHINE\_MIPS16 <br/>    | 0x266 <br/>  | MIPS16 <br/>                                                                      |
 | IMAGE\_FILE\_MACHINE\_MIPSFPU <br/>   | 0x366 <br/>  | MIPS with FPU <br/>                                                               |
@@ -315,8 +320,8 @@ Also, do not assume that the RVAs in this table point to the beginning of a sect
 | 144/160 <br/> | 8 <br/> | Debug <br/>                   | The debug data starting address and size. For more information, see [The .debug Section](#the-debug-section).<br/>                                                             |
 | 152/168 <br/> | 8 <br/> | Architecture <br/>            | Reserved, must be 0 <br/>                                                                                                                                                      |
 | 160/176 <br/> | 8 <br/> | Global Ptr <br/>              | The RVA of the value to be stored in the global pointer register. The size member of this structure must be set to zero. <br/>                                                 |
-| 168/184 <br/> | 8 <br/> | TLS Table <br/>               | The thread local storage (TLS) table address and size. For more information, [The .tls Section](#the-tls-section).<br/>                                                        |
-| 176/192 <br/> | 8 <br/> | Load Config Table <br/>       | The load configuration table address and size. For more information, [The Load Configuration Structure (Image Only)](#the-load-configuration-structure-image-only).<br/>       |
+| 168/184 <br/> | 8 <br/> | TLS Table <br/>               | The thread local storage (TLS) table address and size. For more information, see [The .tls Section](#the-tls-section).<br/>                                                        |
+| 176/192 <br/> | 8 <br/> | Load Config Table <br/>       | The load configuration table address and size. For more information, see [The Load Configuration Structure (Image Only)](#the-load-configuration-structure-image-only).<br/>       |
 | 184/200 <br/> | 8 <br/> | Bound Import <br/>            | The bound import table address and size. <br/>                                                                                                                                 |
 | 192/208 <br/> | 8 <br/> | IAT <br/>                     | The import address table address and size. For more information, see [Import Address Table](#import-address-table).<br/>                                                 |
 | 200/216 <br/> | 8 <br/> | Delay Import Descriptor <br/> | The delay import descriptor address and size. For more information, see [Delay-Load Import Tables (Image Only)](#delay-load-import-tables-image-only).<br/>                    |
@@ -415,13 +420,13 @@ IMAGE\_SCN\_LNK\_NRELOC\_OVFL indicates that the count of relocations for the se
 
 ### Grouped Sections (Object Only)
 
-The "$"? character (dollar sign) has a special interpretation in section names in object files.
+The "$" character (dollar sign) has a special interpretation in section names in object files.
 
-When determining the image section that will contain the contents of an object section, the linker discards the "$"? and all characters that follow it. Thus, an object section named .**text$X** actually contributes to the **.text** section in the image.
+When determining the image section that will contain the contents of an object section, the linker discards the "$" and all characters that follow it. Thus, an object section named .**text$X** actually contributes to the **.text** section in the image.
 
-However, the characters following the "$"? determine the ordering of the contributions to the image section. All contributions with the same object-section name are allocated contiguously in the image, and the blocks of contributions are sorted in lexical order by object-section name. Therefore, everything in object files with section name **.text$X** ends up together, after the **.text$W** contributions and before the **.text$Y** contributions.
+However, the characters following the "$" determine the ordering of the contributions to the image section. All contributions with the same object-section name are allocated contiguously in the image, and the blocks of contributions are sorted in lexical order by object-section name. Therefore, everything in object files with section name **.text$X** ends up together, after the **.text$W** contributions and before the **.text$Y** contributions.
 
-The section name in an image file never contains a "$"? character.
+The section name in an image file never contains a "$" character.
 
 ## Other Contents of the File
 
@@ -837,7 +842,7 @@ The symbol table is an array of records, each 18 bytes long. Each record is eith
 
 | Offset         | Size          | Field                          | Description                                                                                                                                                                                                                                 |
 |----------------|---------------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 <br/>  | 8 <br/> | Name (\*) <br/>          | The name of the symbol, represented by a union of three structures. An array of 8 bytes is used if the name is not more than 8 bytes long. For more information, see [Symbol Name Representation](https://www.bing.com/search?q=Symbol+Name+Representation). <br/> |
+| 0 <br/>  | 8 <br/> | Name (\*) <br/>          | The name of the symbol, represented by a union of three structures. An array of 8 bytes is used if the name is not more than 8 bytes long. For more information, see [Symbol Name Representation](#symbol-name-representation). <br/> |
 | 8 <br/>  | 4 <br/> | Value <br/>              | The value that is associated with the symbol. The interpretation of this field depends on SectionNumber and StorageClass. A typical meaning is the relocatable address. <br/>                                                         |
 | 12 <br/> | 2 <br/> | SectionNumber <br/>      | The signed integer that identifies the section, using a one-based index into the section table. Some values have special meaning, as defined in section 5.4.2, "Section Number Values." <br/>                                         |
 | 14 <br/> | 2 <br/> | Type <br/>               | A number that represents type. Microsoft tools set this field to 0x20 (function) or 0x0 (not a function). For more information, see [Type Representation](#type-representation). <br/>                                                |
@@ -1426,6 +1431,8 @@ The following values are defined for the Type field of the debug directory entry
 | IMAGE\_DEBUG\_TYPE\_RESERVED10 <br/>      | 10 <br/> | Reserved. <br/>                                                                                                                                                                                            |
 | IMAGE\_DEBUG\_TYPE\_CLSID <br/>           | 11 <br/> | Reserved. <br/>                                                                                                                                                                                            |
 | IMAGE\_DEBUG\_TYPE\_REPRO <br/>           | 16 <br/> | PE determinism or reproducibility. <br/>                                                                                                                                                                   |
+| Undefined<br/>           | 17 <br/> | Debugging information is embedded in the PE file at location specified by PointerToRawData. <br/>                                                                                                                                                                   |
+| Undefined<br/>           | 19 <br/> | Stores crypto hash for the content of the symbol file used to build the PE/COFF file. <br/>                                                                                                                                                                   |
 | IMAGE\_DEBUG\_TYPE\_EX\_DLLCHARACTERISTICS | 20 | Extended DLL characteristics bits. |
 
 
@@ -1436,10 +1443,10 @@ If the Type field is set to IMAGE\_DEBUG\_TYPE\_FPO, the debug raw data is an ar
 
 
 ```C++
-#define FRAME_FPO   0               
+#define FRAME_FPO   0
 #define FRAME_TRAP  1
 #define FRAME_TSS   2
-               
+
 typedef struct _FPO_DATA {
     DWORD       ulOffStart;            // offset 1st byte of function code
     DWORD       cbProcSize;            // # bytes in function
@@ -1466,7 +1473,8 @@ The following values are defined for the extended DLL characteristics bits.
 
 | Constant | Value | Description |
 |-|-|-|
-| IMAGE\_DLLCHARACTERISTICS\_EX\_CET\_COMPAT | 0x0001 | Image is CET compatible. |
+| IMAGE\_DLLCHARACTERISTICS\_EX\_CET\_COMPAT | 0x0001 | Image is Control-flow Enforcement Technology (CET) Shadow Stack compatible.  |
+| IMAGE\_DLLCHARACTERISTICS\_EX\_FORWARD\_CFI\_COMPAT | 0x0040 | All branch targets in all image code sections are annotated with forward-edge control flow integrity guard instructions such as x86 CET-Indirect Branch Tracking (IBT) or ARM Branch Target Identification (BTI) instructions. This bit is not used by Windows. |
 
 #### .debug$F (Object Only)
 
@@ -1795,6 +1803,8 @@ To apply a base relocation, the difference is calculated between the preferred b
 | IMAGE\_REL\_BASED\_THUMB\_MOV32 <br/>    | 7 <br/>  | This relocation is meaningful only when the machine type is Thumb. The base relocation applies the 32-bit address of a symbol to a consecutive MOVW/MOVT instruction pair. <br/>                                                                                                                                            |
 | IMAGE\_REL\_BASED\_RISCV\_LOW12I <br/>   | 7 <br/>  | This relocation is only meaningful when the machine type is RISC-V. The base relocation applies to the low 12 bits of a 32-bit absolute address formed in RISC-V I-type instruction format. <br/>                                                                                                                           |
 | IMAGE\_REL\_BASED\_RISCV\_LOW12S <br/>   | 8 <br/>  | This relocation is only meaningful when the machine type is RISC-V. The base relocation applies to the low 12 bits of a 32-bit absolute address formed in RISC-V S-type instruction format. <br/>                                                                                                                           |
+| IMAGE\_REL\_BASED\_LOONGARCH32\_MARK\_LA <br/>   | 8 <br/>  | This relocation is only meaningful when the machine type is LoongArch 32-bit. The base relocation applies to a 32-bit absolute address formed in two consecutive instructions. <br/>                                                                                                                           |
+| IMAGE\_REL\_BASED\_LOONGARCH64\_MARK\_LA <br/>   | 8 <br/>  | This relocation is only meaningful when the machine type is LoongArch 64-bit. The base relocation applies to a 64-bit absolute address formed in four consecutive instructions. <br/>                                                                                                                           |
 | IMAGE\_REL\_BASED\_MIPS\_JMPADDR16 <br/> | 9 <br/>  | The relocation is only meaningful when the machine type is MIPS. The base relocation applies to a MIPS16 jump instruction. <br/>                                                                                                                                                                                            |
 | IMAGE\_REL\_BASED\_DIR64 <br/>           | 10 <br/> | The base relocation applies the difference to the 64-bit field at offset. <br/>                                                                                                                                                                                                                                             |
 
@@ -1993,9 +2003,9 @@ Additionally, the Windows SDK winnt.h header defines this macro for the amount o
 
 Resources are indexed by a multiple-level binary-sorted tree structure. The general design can incorporate 2\*\*31 levels. By convention, however, Windows uses three levels:
 
-<dl> Type  
-Name  
-Language  
+<dl> Type
+Name
+Language
 </dl>
 
 A series of resource directory tables relates all of the levels in the following way: Each directory table is followed by a series of directory entries that give the name or identifier (ID) for that level (Type, Name, or Language level) and an address of either a data description or another directory table. If the address points to a data description, then the data is a leaf in the tree. If the address points to another directory table, then that table lists directory entries at the next level down.
@@ -2109,39 +2119,40 @@ The first 8 bytes of an archive consist of the file signature. The rest of the 
 
 -   The first and second members are "linker members." Each of these members has its own format as described in section [Import Name Type](#import-name-type). Typically, a linker places information into these archive members. The linker members contain the directory of the archive.
 
--   The third member is the "longnames" member. This member consists of a series of null-terminated ASCII strings in which each string is the name of another archive member.
+-   The third member is the "longnames" member. This optional member consists of a series of null-terminated ASCII strings in which each string is the name of another archive member.
 
 -   The rest of the archive consists of standard (object-file) members. Each of these members contains the contents of one object file in its entirety.
 
 An archive member header precedes each member. The following list shows the general structure of an archive:
 
--   Signature :"!&lt;arch&gt;\\n"
--   Header
+|Signature :"!&lt;arch&gt;\\n"|
+|-------|
 
-    <dl> 1st Linker Member  
-    </dl>
+|Header|
+|-------|
+|1st Linker Member|
 
--   Header
+|Header|
+|-------|
+|2nd Linker Member|
 
-    <dl> 2nd Linker Member  
-    </dl>
+|Header|
+|-------|
+|Longnames Member|
 
--   Header
+|Header|
+|-------|
+|Contents of OBJ File 1<br/>(COFF format)|
 
-    <dl> Longnames Member  
-    </dl>
+|Header|
+|-------|
+|Contents of OBJ File 2<br/>(COFF format)|
 
--   Header
+...
 
-    <dl> Contents of OBJ File 1  
-    (COFF format)  
-    </dl>
-
--   Header
-
-    <dl> Contents of OBJ File 2  
-    (COFF format)  
-    </dl>
+|Header|
+|-------|
+|Contents of OBJ File N<br/>(COFF format)|
 
 ### Archive File Signature
 
@@ -2149,11 +2160,23 @@ The archive file signature identifies the file type. Any utility (for example, a
 
 `!<arch>\n`
 
+The Windows SDK winnt.h header defines the following macros:
+
+```
+#define IMAGE_ARCHIVE_START_SIZE             8
+#define IMAGE_ARCHIVE_START                  "!<arch>\n"
+#define IMAGE_ARCHIVE_END                    "`\n"
+#define IMAGE_ARCHIVE_PAD                    "\n"
+#define IMAGE_ARCHIVE_LINKER_MEMBER          "/               "
+#define IMAGE_ARCHIVE_LONGNAMES_MEMBER       "//              "
+#define IMAGE_ARCHIVE_HYBRIDMAP_MEMBER       "/<HYBRIDMAP>/   "
+```
+
 ### Archive Member Headers
 
 Each member (linker, longnames, or object-file member) is preceded by a header. An archive member header has the following format, in which each field is an ASCII text string that is left justified and padded with spaces to the end of the field. There is no terminating null character in any of these fields.
 
-Each member header starts on the first even address after the end of the previous archive member.
+Each member header starts on the first even address after the end of the previous archive member, one byte '\n' (IMAGE_ARCHIVE_PAD) may be inserted after an archive member to make the following member start on an even address.
 
 
 
@@ -2165,11 +2188,7 @@ Each member header starts on the first even address after the end of the previou
 | 34 <br/> | 6 <br/>  | Group ID <br/>      | An ASCII decimal representation of the group ID. This field does not contain a meaningful value on Windows platforms because Microsoft tools emit all blanks. <br/>                                   |
 | 40 <br/> | 8 <br/>  | Mode <br/>          | An ASCII octal representation of the member's file mode. This is the ST\_MODE value from the C run-time function \_wstat. <br/>                                                                       |
 | 48 <br/> | 10 <br/> | Size <br/>          | An ASCII decimal representation of the total size of the archive member, not including the size of the header. <br/>                                                                                  |
-| 58 <br/> | 2 <br/>  | End of Header <br/> | The two bytes in the C string "˜\\n" (0x60 0x0A). <br/>                                                                                                                                               |
-
-
-
- 
+| 58 <br/> | 2 <br/>  | End of Header <br/> | The two bytes (0x60 0x0A) in the C string "`\\n" (IMAGE_ARCHIVE_END). <br/>                                                             
 
 The Name field has one of the formats shown in the following table. As mentioned earlier, each of these strings is left justified and padded with trailing spaces within a field of 16 bytes:
 
@@ -2179,7 +2198,7 @@ The Name field has one of the formats shown in the following table. As mentioned
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | name/ <br/>      | The name of the archive member. <br/>                                                                                                                                                                                                                                                          |
 | / <br/>          | The archive member is one of the two linker members. Both of the linker members have this name. <br/>                                                                                                                                                                                          |
-| // <br/>         | The archive member is the longnames member, which consists of a series of null-terminated ASCII strings. The longnames member is the third archive member and must always be present even if the contents are empty. <br/>                                                                     |
+| // <br/>         | The archive member is the longnames member, which consists of a series of null-terminated ASCII strings. The longnames member is the third archive member and is optional. <br/>                                                                     |
 | /n <br/>         | The name of the archive member is located at offset n within the longnames member. The number n is the decimal representation of the offset. For example: "/26" indicates that the name of the archive member is located 26 bytes beyond the beginning of the longnames member contents. <br/> |
 
 
@@ -2188,7 +2207,7 @@ The Name field has one of the formats shown in the following table. As mentioned
 
 ### First Linker Member
 
-The name of the first linker member is "/". The first linker member is included for backward compatibility. It is not used by current linkers, but its format must be correct. This linker member provides a directory of symbol names, as does the second linker member. For each symbol, the information indicates where to find the archive member that contains the symbol.
+The name of the first linker member is "/" (IMAGE_ARCHIVE_LINKER_MEMBER). The first linker member is included for backward compatibility. It is not used by current linkers, but its format must be correct. This linker member provides a directory of symbol names, as does the second linker member. For each symbol, the information indicates where to find the archive member that contains the symbol.
 
 The first linker member has the following format. This information appears after the header:
 
@@ -2208,7 +2227,7 @@ The elements in the offsets array must be arranged in ascending order. This fact
 
 ### Second Linker Member
 
-The second linker member has the name "/" as does the first linker member. Although both linker members provide a directory of symbols and archive members that contain them, the second linker member is used in preference to the first by all current linkers. The second linker member includes symbol names in lexical order, which enables faster searching by name.
+Like the first linker member, the second linker member has the name "/" (IMAGE_ARCHIVE_LINKER_MEMBER). Although both linker members provide a directory of symbols and archive members that contain them, the second linker member is used in preference to the first by all current linkers. The second linker member includes symbol names in lexical order, which enables faster searching by name.
 
 The second member has the following format. This information appears after the header:
 
@@ -2228,7 +2247,7 @@ The second member has the following format. This information appears after the h
 
 ### Longnames Member
 
-The name of the longnames member is "//". The longnames member is a series of strings of archive member names. A name appears here only when there is insufficient room in the Name field (16 bytes). The longnames member is optional. It can be empty with only a header, or it can be completely absent without even a header.
+The name of the longnames member is "//" (IMAGE_ARCHIVE_LONGNAMES_MEMBER). The longnames member is a series of strings of archive member names. A name appears here only when there is insufficient room in the Name field (16 bytes). The longnames member is optional. It can be empty with only a header, or it can be completely absent without even a header.
 
 The strings are null-terminated. Each string begins immediately after the null byte in the previous string.
 
@@ -2243,22 +2262,19 @@ The section contributions for an import can be inferred from a small set of info
 
 In an import library with the long format, a single member contains the following information:
 
-<dl> Archive member header  
-File header  
-Section headers  
-Data that corresponds to each of the section headers  
-COFF symbol table  
-Strings  
-  
-</dl>
+* Archive member header
+* File header
+* Section headers
+* Data that corresponds to each of the section headers
+* COFF symbol table
+* Strings
 
 In contrast, a short import library is written as follows:
 
-<dl> Archive member header  
-Import header  
-Null-terminated import name string  
-Null-terminated DLL name string  
-</dl>
+* Archive member header
+* Import header
+* Null-terminated import name string
+* Null-terminated DLL name string
 
 This is sufficient information to accurately reconstruct the entire contents of the member at the time of its use.
 
@@ -2293,9 +2309,9 @@ The following values are defined for the Type field in the import header:
 
 | Constant                  | Value         | Description                                      |
 |---------------------------|---------------|--------------------------------------------------|
-| IMPORT\_CODE <br/>  | 0 <br/> | Executable code. <br/>                     |
-| IMPORT\_DATA <br/>  | 1 <br/> | Data. <br/>                                |
-| IMPORT\_CONST <br/> | 2 <br/> | Specified as CONST in the .def file. <br/> |
+| IMPORT\_OBJECT\_CODE <br/>  | 0 <br/> | Executable code. <br/>                     |
+| IMPORT\_OBJECT\_DATA <br/>  | 1 <br/> | Data. <br/>                                |
+| IMPORT\_OBJECT\_CONST <br/> | 2 <br/> | Specified as CONST in the .def file. <br/> |
 
 These values are used to determine which section contributions must be generated by the tool that uses the library if it must access that data.
 
@@ -2305,10 +2321,10 @@ The null-terminated import symbol name immediately follows its associated import
 
 | Constant | Value | Description |
 | - | - | - |
-| IMPORT\_ORDINAL | 0 | The import is by ordinal. This indicates that the value in the Ordinal/Hint field of the import header is the import's ordinal. If this constant is not specified, then the Ordinal/Hint field should always be interpreted as the import's hint. |
-| IMPORT\_NAME | 1 | The import name is identical to the public symbol name. |
-| IMPORT\_NAME\_NOPREFIX | 2 | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_. |
-| IMPORT\_NAME\_UNDECORATE | 3 | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_, and truncating at the first @. |
+| IMPORT\_OBJECT\_ORDINAL | 0 | The import is by ordinal. This indicates that the value in the Ordinal/Hint field of the import header is the import's ordinal. If this constant is not specified, then the Ordinal/Hint field should always be interpreted as the import's hint. |
+| IMPORT\_OBJECT\_NAME | 1 | The import name is identical to the public symbol name. |
+| IMPORT\_OBJECT\_NAME\_NOPREFIX | 2 | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_. |
+| IMPORT\_OBJECT\_NAME\_UNDECORATE | 3 | The import name is the public symbol name, but skipping the leading ?, @, or optionally \_, and truncating at the first @. |
 
 ## Appendix A: Calculating Authenticode PE Image Hash
 

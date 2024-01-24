@@ -43,28 +43,11 @@ This topic contains the following sections.
 
 The following table depicts a typical control and content view of the UI Automation tree that pertains to progress bar controls and describes what can be contained in each view. For more information about the UI Automation tree, see [UI Automation Tree Overview](uiauto-treeoverview.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ProgressBar</li>
-</ul></td>
-<td><ul>
-<li>ProgressBar</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>ProgressBar</li></ul> | <ul><li>ProgressBar</li></ul> | 
+
 
 The progress bar controls do not have any children in the control or content view of the UI Automation tree.
 

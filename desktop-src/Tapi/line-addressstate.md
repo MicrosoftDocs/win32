@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_ADDRESSSTATE message is sent when the status of an address changes on a line that is currently open by the application. The application can invoke lineGetAddressStatus to determine the current status of the address.
+description: The TAPI LINE\_ADDRESSSTATE message is sent when the status of an address changes on a line that is currently open by the application. The application can invoke lineGetAddressStatus to determine the current status of the address.
 ms.assetid: af211fa1-79f8-49ac-a1d8-b62981f50519
 title: LINE_ADDRESSSTATE message (Tapi.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The **LINE\_ADDRESSSTATE** message is sent to any application that has opened th
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

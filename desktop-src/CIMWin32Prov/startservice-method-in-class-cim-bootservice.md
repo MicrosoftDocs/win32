@@ -1,5 +1,5 @@
 ---
-Description: The StartService method puts the service in a &\#0034;start&\#0034; state.
+description: The StartService method puts the service in a &\#0034;start&\#0034; state.
 ms.assetid: b2b38d64-b497-46f5-8638-a9a8ce50e888
 ms.tgt_platform: multiple
 title: StartService method of the CIM_BootService class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

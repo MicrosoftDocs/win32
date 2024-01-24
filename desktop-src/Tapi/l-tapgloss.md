@@ -1,5 +1,5 @@
 ---
-Description: The following terms are useful in understanding the TAPI technology.
+description: The following terms are useful in understanding the TAPI technology.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 670db42d-d269-422c-8dd3-d25cdb5e9e60
 title: L (Telephony API)
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# L
+# L (Telephony API)
 
 [A](a-tapgloss.md) [B](b-tapgloss.md) [C](c-tapgloss.md) [D](d-tapgloss.md) [E](e-tapgloss.md) F G [H](h-tapgloss.md) [I](i-tapgloss.md) J [K](k-tapgloss.md) L [M](m-tapgloss.md) N O [P](p-tapgloss.md) Q [R](r-tapgloss.md) [S](s-tapgloss.md) [T](t-tapgloss.md) [U](u-tapgloss.md) [V](v-tapgloss.md) [W](w-tapgloss.md) X Y Z
 

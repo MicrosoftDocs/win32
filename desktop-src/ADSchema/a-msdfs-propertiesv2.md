@@ -22,7 +22,7 @@ Properties associated with DFS root or link.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFS-Properties-v2                        |
 | Ldap-Display-Name | msDFS-Propertiesv2                          |
@@ -45,7 +45,7 @@ Properties associated with DFS root or link.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
@@ -66,7 +66,7 @@ Properties associated with DFS root or link.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
@@ -87,7 +87,7 @@ Properties associated with DFS root or link.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |

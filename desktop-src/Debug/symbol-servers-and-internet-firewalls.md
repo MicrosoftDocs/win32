@@ -1,5 +1,5 @@
 ---
-Description: Some systems use Internet firewalls or proxy servers that require authentication for all Internet traffic.
+description: Some systems use Internet firewalls or proxy servers that require authentication for all Internet traffic.
 ms.assetid: b79e9a6f-2ffb-4ec0-ac2d-63e79ecfc26c
 title: Symbol Server and Internet Firewalls
 ms.topic: article

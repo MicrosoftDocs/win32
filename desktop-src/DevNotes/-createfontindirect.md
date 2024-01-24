@@ -1,5 +1,5 @@
 ---
-Description: Creates a logical font.
+description: Creates a logical font.
 ms.assetid: 1713d8ab-99f5-42d1-afb3-de2d66c033b6
 title: '_CreateFontIndirect function'
 ms.topic: reference
@@ -43,7 +43,7 @@ HFONT _CreateFontIndirect(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 

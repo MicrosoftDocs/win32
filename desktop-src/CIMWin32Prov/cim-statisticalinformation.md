@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_StatisticalInformation class is a root class for the arbitrary collection of statistical data or metrics applicable to one or more managed system elements.
+description: The CIM\_StatisticalInformation class is a root class for the arbitrary collection of statistical data or metrics applicable to one or more managed system elements.
 ms.assetid: ecc3b310-c553-416b-b4e3-705965557945
 ms.tgt_platform: multiple
 title: CIM_StatisticalInformation class
@@ -109,7 +109,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

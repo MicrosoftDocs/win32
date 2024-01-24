@@ -1,5 +1,5 @@
 ---
-Description: VDS provides objects for performing service-related activities. This topic describes each object.
+description: VDS provides objects for performing service-related activities. This topic describes each object.
 ms.assetid: ae4d18f2-4d50-480c-bc7a-4eec0334707d
 title: Startup and Service Objects
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Startup and Service Objects
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 VDS provides objects for performing service-related activities. This topic describes each object.
 

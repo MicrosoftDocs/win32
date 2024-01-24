@@ -1,5 +1,5 @@
 ---
-Description: Returns a BasicConstraints object that represents the basic constraints extension of the certificate.
+description: Returns a BasicConstraints object that represents the basic constraints extension of the certificate.
 ms.assetid: cc4e566a-5f68-4e28-9397-39f22a71e45b
 title: ICertificate2::BasicConstraints method
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 
 # ICertificate2::BasicConstraints method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **BasicConstraints** method returns a [**BasicConstraints**](basicconstraints.md) object that represents the basic constraints extension of the certificate.
 
@@ -44,7 +44,7 @@ The [**BasicConstraints**](basicconstraints.md) object that represents the basic
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

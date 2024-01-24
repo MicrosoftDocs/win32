@@ -22,7 +22,7 @@ The distinguished name for the site to which this subnet belongs.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Site-Object                             |
 | Ldap-Display-Name | siteObject                              |
@@ -49,7 +49,7 @@ The distinguished name for the site to which this subnet belongs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 46                                    |
 | MAPI-Id                | \-                                    |
@@ -70,7 +70,7 @@ The distinguished name for the site to which this subnet belongs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 46                                    |
 | MAPI-Id                | \-                                    |
@@ -91,7 +91,7 @@ The distinguished name for the site to which this subnet belongs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 46                                    |
 | MAPI-Id                | \-                                    |
@@ -112,7 +112,7 @@ The distinguished name for the site to which this subnet belongs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 46                                    |
 | MAPI-Id                | \-                                    |
@@ -133,7 +133,7 @@ The distinguished name for the site to which this subnet belongs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 46                                    |
 | MAPI-Id                | \-                                    |
@@ -154,7 +154,7 @@ The distinguished name for the site to which this subnet belongs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 46                                    |
 | MAPI-Id                | \-                                    |
@@ -175,7 +175,7 @@ The distinguished name for the site to which this subnet belongs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 46                                    |
 | MAPI-Id                | \-                                    |

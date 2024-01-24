@@ -1,4 +1,5 @@
 ---
+description: Describes a CimMofDeserializer class, which represents a CIM MOF deserializer, and provides its inheritance hierarchy, syntax, and thread safety.
 title: CimMofDeserializer class (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer class (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: T:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer
@@ -33,7 +34,7 @@ Represents a CIM MOF deserializer.
 
 ## Inheritance hierarchy
 
-[System.Object](/dotnet/api/system.object?view=netframework-4.8)  
+[System.Object](/dotnet/api/system.object)  
   Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer  
 
 ## Syntax

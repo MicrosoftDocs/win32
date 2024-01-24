@@ -1,5 +1,5 @@
 ---
-Description: Service installation in the Windows Sockets 2 (Winsock) SPI.
+description: Service installation in the Windows Sockets 2 (Winsock) SPI.
 ms.assetid: a303fbcf-9122-422a-9b12-d00a5df0fc0f
 title: Service Installation in the Windows Sockets 2 SPI
 ms.topic: article

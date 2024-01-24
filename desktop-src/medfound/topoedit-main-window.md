@@ -1,5 +1,5 @@
 ---
-Description: TopoEdit Main Window
+description: TopoEdit Main Window
 ms.assetid: 665f347b-18e0-4d10-9e23-94af4c0d8972
 title: TopoEdit Main Window
 ms.topic: article

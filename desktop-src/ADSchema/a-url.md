@@ -22,7 +22,7 @@ A list of alternate webpages.
 
 
 
-|                   |                                                                             |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------------|
 | CN                | WWW-Page-Other                                                              |
 | Ldap-Display-Name | url                                                                         |
@@ -49,7 +49,7 @@ A list of alternate webpages.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8175                          |
@@ -70,7 +70,7 @@ A list of alternate webpages.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8175                          |
@@ -91,7 +91,7 @@ A list of alternate webpages.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8175                          |
@@ -112,7 +112,7 @@ A list of alternate webpages.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8175                          |
@@ -133,7 +133,7 @@ A list of alternate webpages.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8175                          |
@@ -154,7 +154,7 @@ A list of alternate webpages.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8175                          |
@@ -175,7 +175,7 @@ A list of alternate webpages.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8175                          |

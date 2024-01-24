@@ -22,7 +22,7 @@ An attribute that defines a user-specified NSEC3 salt string to use when signing
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DNS-NSEC3-User-Salt                      |
 | Ldap-Display-Name | msDNS-NSEC3UserSalt                         |
@@ -43,7 +43,7 @@ An attribute that defines a user-specified NSEC3 salt string to use when signing
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

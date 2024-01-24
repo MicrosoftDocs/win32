@@ -1,5 +1,5 @@
 ---
-Description: System Restore automatically monitors and records key system changes on a user's computer. For more information, see System Restore.
+description: System Restore automatically monitors and records key system changes on a user's computer. For more information, see System Restore.
 ms.assetid: 5fc345ff-8a47-4372-806f-64b8c271fd2d
 title: System Restore Points and the Windows Installer
 ms.topic: article

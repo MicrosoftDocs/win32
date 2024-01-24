@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_IDEController WMI class manages the capabilities of an integrated device electronics (IDE) controller device.
+description: The Win32\_IDEController WMI class manages the capabilities of an integrated device electronics (IDE) controller device.
 ms.assetid: 9aff19df-8184-47d6-9d21-30376b6bc9b2
 ms.tgt_platform: multiple
 title: Win32_IDEController class
@@ -1574,7 +1574,7 @@ The **Win32\_IDEController** class is derived from [**CIM\_Controller**](cim-con
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

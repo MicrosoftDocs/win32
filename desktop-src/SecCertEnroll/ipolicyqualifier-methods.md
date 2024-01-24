@@ -1,5 +1,5 @@
 ---
-Description: The IPolicyQualifier interface exposes the following methods.
+description: The IPolicyQualifier interface exposes the following methods.
 ms.assetid: 0088E93A-10B3-4522-A1D5-E256A5318923
 title: IPolicyQualifier Methods
 ms.topic: reference

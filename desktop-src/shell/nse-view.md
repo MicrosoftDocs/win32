@@ -1,5 +1,5 @@
 ---
-Description: Most namespace extensions are a subset of the Shell namespace.
+description: Most namespace extensions are a subset of the Shell namespace.
 ms.assetid: 00b6b281-b157-4a61-9852-8aafd9ba68d3
 title: Displaying a Self-Contained View of a Namespace Extension
 ms.topic: article

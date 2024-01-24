@@ -1,6 +1,6 @@
 ---
 title: sincos - vs
-description: Computes sine and cosine, in radians.
+description: Computes sine and cosine, in radians. | sincos - vs
 ms.assetid: 733a3980-ceaf-43dc-a862-923c369e4a65
 ms.topic: reference
 ms.date: 05/31/2018

@@ -19,11 +19,7 @@ api_location:
 
 Exit the surrounding loop ([do](dx-graphics-hlsl-do.md), [for](dx-graphics-hlsl-for.md), [while](dx-graphics-hlsl-while.md)).
 
-
-
-|        |
-|--------|
-| break; |
+break;
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the conversion function from RGB to RGB for a video media type.
+description: Specifies the conversion function from RGB to RGB for a video media type.
 ms.assetid: c64c2135-f588-4d7a-9ca8-ae4f7b290572
 title: MF_MT_TRANSFER_FUNCTION attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

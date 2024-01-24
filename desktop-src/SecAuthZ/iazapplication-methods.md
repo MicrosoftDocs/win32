@@ -1,5 +1,5 @@
 ---
-Description: The IAzApplication interface exposes the following methods.
+description: The IAzApplication interface exposes the following methods.
 ms.assetid: C969D653-9FEE-45B6-8DB1-4D778C836E9D
 title: IAzApplication Methods
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: WMI return codes that indicate status and do not indicate an error.
+description: WMI return codes that indicate status and do not indicate an error.
 ms.assetid: 36faa3fb-9496-47ca-bdba-f8eb52a06ff7
 ms.tgt_platform: multiple
 title: WMI Non-Error Constants (WbemCli.h)
@@ -208,7 +208,7 @@ Reserved for future use.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

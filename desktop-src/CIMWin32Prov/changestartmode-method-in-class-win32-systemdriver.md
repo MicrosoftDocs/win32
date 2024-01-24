@@ -1,5 +1,5 @@
 ---
-Description: Modifies the start mode of a Win32\_SystemDriver service.
+description: Modifies the start mode of a Win32\_SystemDriver service.
 ms.assetid: 34f4e0ac-d8a0-4be7-8c84-0252e50db441
 ms.tgt_platform: multiple
 title: ChangeStartMode method of the Win32_SystemDriver class
@@ -187,7 +187,7 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

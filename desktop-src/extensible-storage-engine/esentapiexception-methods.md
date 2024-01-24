@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentApiException methods"
 title: EsentApiException methods
 TOCTitle: EsentApiException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentApiException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentApiException](dn334231\(v=exchg.10\).md) type exposes the following members.
+The [EsentApiException](./esentapiexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentApiException class](dn334231\(v=exchg.10\).md)
+[EsentApiException class](./esentapiexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

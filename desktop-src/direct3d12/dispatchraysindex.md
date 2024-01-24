@@ -1,7 +1,6 @@
 ---
 description: Gets the current location within the width, height, and depth obtained with the [**DispatchRaysDimensions**](dispatchraysdimensions.md) system value intrinsic.
 title: DispatchRaysIndex
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

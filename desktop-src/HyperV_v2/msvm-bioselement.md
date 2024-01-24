@@ -1,5 +1,5 @@
 ---
-Description: Represents the low-level software that is loaded into RAM to configure and start the system.
+description: Represents the low-level software that is loaded into RAM to configure and start the system.
 ms.assetid: D123601A-DEE6-43EA-BD95-1F7F0F2C2B43
 title: Msvm_BIOSElement class
 ms.topic: reference
@@ -743,7 +743,7 @@ Access to the **Msvm\_BIOSElement** class might be restricted by UAC Filtering. 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

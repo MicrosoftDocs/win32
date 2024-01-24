@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used or implemented by services.
+description: The following functions are used or implemented by services.
 ms.assetid: 63666848-cbac-4853-8b91-89303f9854c0
 title: Service Functions
 ms.topic: article

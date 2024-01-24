@@ -1,5 +1,5 @@
 ---
-Description: Sets the given instruction identifier in the application protocol data unit (APDU).
+description: Sets the given instruction identifier in the application protocol data unit (APDU).
 ms.assetid: ea527ffd-b053-467d-883d-b93d5bbfb071
 title: ISCardCmd::put_InstructionId method (Scarddat.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -429,19 +429,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_STACK\_OVERFLOW**</dt> </dl>    | The function was called while the attribute stack was full.<br/>                                                                |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glPushAttrib** function takes one argument, a mask that indicates which groups of state variables to save on the attribute stack. Symbolic constants are used to set bits in the mask. The mask parameter is typically constructed by applying the logical **OR** operation to several of these constants. You can use the special mask GL\_ALL\_ATTRIB\_BITS to save all stackable states.
@@ -466,7 +453,7 @@ The following functions retrieve information related to **glPushAttrib** and [**
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

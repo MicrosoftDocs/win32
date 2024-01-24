@@ -1,5 +1,5 @@
 ---
-Description: Windows Imaging Component (WIC) proxy function for IEnumString::Next.
+description: Windows Imaging Component (WIC) proxy function for IEnumString::Next.
 ms.assetid: a3f6a32b-3043-4bea-a70b-0b4507b4e3a1
 title: IEnumString_Next_WIC_Proxy function
 ms.topic: reference
@@ -56,7 +56,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

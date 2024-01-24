@@ -1,5 +1,5 @@
 ---
-Description: Contains a list of basic service set (BSS) identifiers.
+description: Contains a list of basic service set (BSS) identifiers.
 ms.assetid: 22907f94-1ae8-4938-a816-b406656256c0
 title: DOT11_BSSID_LIST structure (Windot11.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ A list of BSS identifiers. A BSS identifier is stored as a [**DOT11\_MAC\_ADDRES
 
 
 
-|                                     |                                                                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                       |

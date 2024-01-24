@@ -1,5 +1,5 @@
 ---
-Description: The STRINGFORMAT\_ constants describe different string formats.
+description: The STRINGFORMAT\_ constants describe different string formats.
 ms.assetid: ca67c9d1-d3e0-4a55-9be7-6760edea96ee
 title: STRINGFORMAT_ Constants (Tapi.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

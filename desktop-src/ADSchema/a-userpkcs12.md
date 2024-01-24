@@ -21,7 +21,7 @@ PKCS \#12 PFX PDU for exchange of personal identity information.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | userPKCS12                                            |
 | Ldap-Display-Name | userPKCS12                                            |
@@ -46,7 +46,7 @@ PKCS \#12 PFX PDU for exchange of personal identity information.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -67,7 +67,7 @@ PKCS \#12 PFX PDU for exchange of personal identity information.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -88,7 +88,7 @@ PKCS \#12 PFX PDU for exchange of personal identity information.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -109,7 +109,7 @@ PKCS \#12 PFX PDU for exchange of personal identity information.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -130,7 +130,7 @@ PKCS \#12 PFX PDU for exchange of personal identity information.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |

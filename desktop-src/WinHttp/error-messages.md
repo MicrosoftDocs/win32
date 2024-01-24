@@ -1,12 +1,12 @@
 ---
-Description: The error values identified in this topic are returned by GetLastError when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails.
+description: The error values identified in this topic are returned by GetLastError when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails.
 ms.assetid: c8a863cd-d36c-4ec8-ac49-0b714a5e4cc2
 title: Error Messages (Winhttp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Error Messages
+# Error Messages (Winhttp.h)
 
 The error values listed below are returned by [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) when one of the Microsoft Windows HTTP Services (WinHTTP) functions fails, and are also returned in the lower 16 bits of [**HRESULT**](../com/structure-of-com-error-codes.md) error returns from the [**WinHttpRequest**](winhttprequest.md) object.
 
@@ -734,7 +734,7 @@ For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-p
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

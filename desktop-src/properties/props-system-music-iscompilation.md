@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the music file is part of a compilation.
+description: Indicates whether the music file is part of a compilation.
 ms.assetid: E3FD56F1-8886-408b-BDF2-7499AAF5AF97
 title: System.Music.IsCompilation
 ms.topic: article

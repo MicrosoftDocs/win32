@@ -1,5 +1,5 @@
 ---
-Description: Merges two print tickets and returns a valid, viable print ticket.
+description: Merges two print tickets and returns a valid, viable print ticket.
 ms.assetid: 4aa7b9de-abf2-4781-942e-0b992a6bffed
 title: MergeAndValidatePrintTicketThunk2 function
 ms.topic: reference
@@ -115,7 +115,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

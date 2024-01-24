@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapAlreadyExistsException constructor"
 title: EsentSLVOwnerMapAlreadyExistsException constructor 
 TOCTitle: 'EsentSLVOwnerMapAlreadyExistsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapAlreadyExistsException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVOwnerMapAlreadyExistsException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVOwnerMapAlreadyExistsException()
 
 #### Reference
 
-[EsentSLVOwnerMapAlreadyExistsException class](dn334804\(v=exchg.10\).md)
+[EsentSLVOwnerMapAlreadyExistsException class](./esentslvownermapalreadyexistsexception-class.md)
 
-[EsentSLVOwnerMapAlreadyExistsException members](dn350714\(v=exchg.10\).md)
+[EsentSLVOwnerMapAlreadyExistsException members](./esentslvownermapalreadyexistsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

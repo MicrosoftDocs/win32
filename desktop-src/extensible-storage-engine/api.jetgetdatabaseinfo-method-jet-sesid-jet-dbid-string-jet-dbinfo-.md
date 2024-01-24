@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetDatabaseInfo method (JET_SESID, JET_DBID, String, JET_DbInfo)"
 title: Api.JetGetDatabaseInfo method (JET_SESID, JET_DBID, String, JET_DbInfo)
 TOCTitle: JetGetDatabaseInfo method (JET_SESID, JET_DBID, String, JET_DbInfo)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetDatabaseInfo(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String@,Microsoft.Isam.Esent.Interop.JET_DbInfo)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Retrieves certain information about the given database.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,14 +60,14 @@ public static void JetGetDatabaseInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)  
     
     The database identifier.
 
@@ -80,7 +81,7 @@ public static void JetGetDatabaseInfo(
 <!-- end list -->
 
   - infoLevel  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DbInfo](hh163267\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DbInfo](./jet-dbinfo-enumeration.md)  
     
     The specific data to retrieve.
 
@@ -88,10 +89,10 @@ public static void JetGetDatabaseInfo(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[JetGetDatabaseInfo overload](dn292163\(v=exchg.10\).md)
+[JetGetDatabaseInfo overload](./api.jetgetdatabaseinfo-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

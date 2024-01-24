@@ -1,5 +1,5 @@
 ---
-Description: Creates a new printer driver.
+description: Creates a new printer driver.
 ms.assetid: 23d9ec50-235a-4bf8-ab6b-be3509c3869f
 ms.tgt_platform: multiple
 title: AddPrinterDriver method of the Win32_PrinterDriver class
@@ -67,7 +67,7 @@ Access denied.
 **87**
 </dt> <dd>
 
-The parameter is incorrect. May occur when the object is not correctly filled or when driver can not be found in the system. Alternately, the name attribute may be different than the model specified in the .inf file. Or, there may be a missing backslash ("\\") on a PathFile attribute.
+The parameter is incorrect. May occur when the object is not correctly filled or when driver cannot be found in the system. Alternately, the name attribute may be different than the model specified in the .inf file. Or, there may be a missing backslash ("\\") on a PathFile attribute.
 
 </dd> <dt>
 
@@ -86,8 +86,6 @@ The printer driver is unknown.
  
 
 ## Examples
-
-The[Install a Printer Driver not Found in Drivers Cab](https://Gallery.TechNet.Microsoft.Com/1aac6333-a794-48d3-b7da-46d87df56ee1) VBScript code example installs a hypothetical printer using a print driver not found in Drivers.cab.
 
 The following VBScript sample installs the printer driver for an Apple LaserWriter 8500 printer.
 
@@ -113,7 +111,7 @@ intResult = objDriver.AddPrinterDriver(objDriver)
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

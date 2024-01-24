@@ -19,11 +19,7 @@ api_location:
 
 Gets the sampling position (x,y) for a given sample index.
 
-
-
-|                                                                                  |
-|----------------------------------------------------------------------------------|
-| float<2> GetRenderTargetSamplePosition( in int<1> Index<br/>); |
+float<2> GetRenderTargetSamplePosition( in int<1> Index<br/>);
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ProcessThread class represents a link between a process and the threads running in the context of the process.
+description: The CIM\_ProcessThread class represents a link between a process and the threads running in the context of the process.
 ms.assetid: e71543c5-d9b3-4f98-93a6-08f977a26305
 ms.tgt_platform: multiple
 title: CIM_ProcessThread class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

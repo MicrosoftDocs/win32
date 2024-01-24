@@ -1,5 +1,5 @@
 ---
-Description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if <displayInfo displayType=&\#0034;Number&\#0034;>.
+description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if <displayInfo displayType=&\#0034;Number&\#0034;>.
 ms.assetid: 9e8cfe5c-e17a-40d6-958f-a1bd1130c699
 title: numberFormat
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # numberFormat
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. This is applicable only if <displayInfo displayType="Number">. There should be only one [numberFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. This is applicable only if \<displayInfo displayType="Number"\>. There should be only one [numberFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
 If there are multiple elements, the last one is used. If no [numberFormat]() element is provided, then the default attribute settings are applied to the property description.
 
@@ -68,8 +68,8 @@ If there are multiple elements, the last one is used. If no [numberFormat]() ele
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -131,7 +131,7 @@ If there are multiple elements, the last one is used. If no [numberFormat]() ele
 </tr>
 <tr class="odd">
 <td>Duration</td>
-<td>Formats the value as a duration. Use <formatDurationAs> to specify the duration format. Requires the property to be UInt64.</td>
+<td>Formats the value as a duration. Use &lt;formatDurationAs&gt; to specify the duration format. Requires the property to be UInt64.</td>
 </tr>
 </tbody>
 </table>

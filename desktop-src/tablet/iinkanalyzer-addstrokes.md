@@ -1,5 +1,5 @@
 ---
-Description: Adds stroke data for multiple strokes to the IInkAnalyzer and assigns the active input thread's culture identifier to the strokes.
+description: Adds stroke data for multiple strokes to the IInkAnalyzer and assigns the active input thread's culture identifier to the strokes.
 ms.assetid: 4a8d6828-699b-465d-b057-197866ff069f
 title: IInkAnalyzer::AddStrokes method (IACom.h)
 ms.topic: reference
@@ -121,7 +121,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) already contains a stroke with the sa
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

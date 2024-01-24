@@ -46,7 +46,7 @@ If the TSF keyboard is open, the return value is **TRUE**. Otherwise, it is **FA
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

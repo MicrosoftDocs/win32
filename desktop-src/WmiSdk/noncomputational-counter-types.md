@@ -1,5 +1,5 @@
 ---
-Description: Noncomputational counter types do not have an associated formula. The raw value is directly meaningful.
+description: Noncomputational counter types do not have an associated formula. The raw value is directly meaningful.
 ms.assetid: 2a6bb3a3-0aec-437a-881a-c4e14fcff6da
 ms.tgt_platform: multiple
 title: Noncomputational Counter Types

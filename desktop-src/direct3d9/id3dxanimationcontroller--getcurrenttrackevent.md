@@ -1,5 +1,5 @@
 ---
-Description: Returns an event handle to the event currently running on the specified animation track.
+description: Returns an event handle to the event currently running on the specified animation track.
 ms.assetid: 2e3d4b85-42f0-463f-9eca-d9b1fa8932f6
 title: ID3DXAnimationController::GetCurrentTrackEvent method (D3dx9anim.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Event handle to the event currently running on the specified track. **NULL** is 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

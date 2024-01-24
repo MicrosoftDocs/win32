@@ -1,5 +1,5 @@
 ---
-Description: The following summary information properties must be defined in every installation package, using a software tool to access the Istream interface of the Summary Information Stream.
+description: The following summary information properties must be defined in every installation package, using a software tool to access the Istream interface of the Summary Information Stream.
 ms.assetid: 9775959f-5ab2-43cd-8cc8-9d81945b4ec6
 title: Adding Summary Information
 ms.topic: article

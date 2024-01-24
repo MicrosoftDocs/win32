@@ -1,5 +1,5 @@
 ---
-Description: Explains the two kinds of credentials with which the Credentials Management API works.
+description: Explains the two kinds of credentials with which the Credentials Management API works.
 ms.assetid: eaf1c298-f0af-4b29-a09a-f399da20335d
 title: Kinds of Credentials
 ms.topic: article

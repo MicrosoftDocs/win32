@@ -1,5 +1,5 @@
 ---
-Description: The RegisterFonts action registers installed fonts with the system. This action maps the font name in the FontTitle column of the Font table to the path of the font file installed.
+description: The RegisterFonts action registers installed fonts with the system. This action maps the font name in the FontTitle column of the Font table to the path of the font file installed.
 ms.assetid: 3c6d3ec9-b36f-46f4-8b32-c97a75b9e238
 title: RegisterFonts Action
 ms.topic: article

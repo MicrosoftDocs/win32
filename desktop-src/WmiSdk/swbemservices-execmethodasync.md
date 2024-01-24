@@ -1,5 +1,5 @@
 ---
-Description: Executes a method that is exported by a method provider.
+description: SWbemServices.ExecMethodAsync method - Executes a method that is exported by a method provider.
 ms.assetid: 933a4c64-7538-474e-9f6f-f94da6066b46
 ms.tgt_platform: multiple
 title: SWbemServices.ExecMethodAsync method (Wbemdisp.h)
@@ -254,7 +254,7 @@ end sub
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

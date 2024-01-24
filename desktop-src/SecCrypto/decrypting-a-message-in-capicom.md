@@ -1,5 +1,5 @@
 ---
-Description: This subroutine take a password string to be used to generate a session encryption key, and the name of a file from which an encrypted message will be read. All parameters are passed into the subroutine by values.
+description: This subroutine take a password string to be used to generate a session encryption key, and the name of a file from which an encrypted message will be read. All parameters are passed into the subroutine by values.
 ms.assetid: 70f23d93-2bca-419b-9de7-e52ce4fb1350
 title: Decrypting a Message in CAPICOM
 ms.topic: article

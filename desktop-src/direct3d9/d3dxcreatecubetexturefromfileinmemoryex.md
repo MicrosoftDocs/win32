@@ -1,5 +1,5 @@
 ---
-Description: Creates a cube texture from a file in memory. This is a more advanced function than D3DXCreateCubeTextureFromFileInMemory.
+description: Creates a cube texture from a file in memory. This is a more advanced function than D3DXCreateCubeTextureFromFileInMemory.
 ms.assetid: 598016eb-9ea9-4dca-a297-5708a957da6a
 title: D3DXCreateCubeTextureFromFileInMemoryEx function (D3dx9tex.h)
 ms.topic: reference
@@ -198,7 +198,7 @@ When skipping mipmap levels while loading a .dds file, use the D3DX\_SKIP\_DDS\_
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

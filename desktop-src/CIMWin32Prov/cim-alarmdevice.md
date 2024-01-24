@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AlarmDevice class is an alarm device that emits audible or visible indications related to a problem situation.
+description: The CIM\_AlarmDevice class is an alarm device that emits audible or visible indications related to a problem situation.
 ms.assetid: 1f64aea4-d0a4-480b-9802-e2c21e71c754
 ms.tgt_platform: multiple
 title: CIM_AlarmDevice class
@@ -1194,7 +1194,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

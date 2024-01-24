@@ -31,7 +31,6 @@ A visual style is a specification that defines the appearance of the Windows com
 -   You must use the visual styles API to apply the currently active visual style to your application's custom or owner-drawn controls, if any.
 -   The information that defines a visual style is stored in a .msstyles file. Microsoft does not support the authoring of .msstyles files.
 
-### 
 
 The following illustration shows a simple dialog box with a taskbar, on a Windows 7 desktop that uses the Windows Aero theme without transparency. Because the application is not configured to use visual styles, the buttons appear the same regardless of the theme settings.
 

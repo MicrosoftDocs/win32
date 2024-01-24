@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_NOTIFY\_INFO structure contains printer information returned by the FindNextPrinterChangeNotification function. The function returns this information after a wait operation on a printer change notification object has been satisfied.
+description: The PRINTER\_NOTIFY\_INFO structure contains printer information returned by the FindNextPrinterChangeNotification function. The function returns this information after a wait operation on a printer change notification object has been satisfied.
 ms.assetid: c104fabe-edf5-426e-859b-694811975623
 title: PRINTER_NOTIFY_INFO structure (Winspool.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ If the **Flags** member has the PRINTER\_NOTIFY\_INFO\_DISCARDED bit set, this i
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: All Performance Data Helper (PDH) functions return a value of type PDH\_STATUS.
+description: All Performance Data Helper (PDH) functions return a value of type PDH\_STATUS.
 ms.assetid: ea67d798-81db-44ad-b0fb-24e0c3be7388
 title: Performance Data Helper Error Codes
 ms.topic: article
@@ -19,7 +19,6 @@ void main(void)
 {
     HANDLE hPdhLibrary = NULL;
     LPWSTR pMessage = NULL;
-    DWORD_PTR pArgs[] = { (DWORD_PTR)L"<collectionname>" };
     DWORD dwErrorCode = PDH_PLA_ERROR_ALREADY_EXISTS;
 
     hPdhLibrary = LoadLibrary(L"pdh.dll");
@@ -29,8 +28,8 @@ void main(void)
         return;
     }
 
-    if (!FormatMessage(FORMAT_MESSAGE_FROM_HMODULE
-                       FORMAT_MESSAGE_ALLOCATE_BUFFER
+    if (!FormatMessage(FORMAT_MESSAGE_FROM_HMODULE |
+                       FORMAT_MESSAGE_ALLOCATE_BUFFER |
                        FORMAT_MESSAGE_IGNORE_INSERTS,
                        hPdhLibrary,
                        dwErrorCode,

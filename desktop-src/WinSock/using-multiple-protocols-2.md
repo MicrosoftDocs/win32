@@ -1,5 +1,5 @@
 ---
-Description: An application uses the WSAEnumProtocols function to determine which transport protocols and protocol chains are present, and to obtain information about each as contained in the associated WSAPROTOCOL\_INFO structure.
+description: An application uses the WSAEnumProtocols function to determine which transport protocols and protocol chains are present, and to obtain information about each as contained in the associated WSAPROTOCOL\_INFO structure.
 ms.assetid: 4f38cb07-d824-4d43-abd8-89d58dc15810
 title: Using Multiple Protocols
 ms.topic: article

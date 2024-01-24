@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO.szInstanceName property"
 title: JET_INSTANCE_INFO.szInstanceName property 
 TOCTitle: 'szInstanceName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.szInstanceName
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the name of the database instance. This value can be null if the instance does not have a name.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[JET_INSTANCE_INFO class](dn335182\(v=exchg.10\).md)
+[JET_INSTANCE_INFO class](./jet-instance-info-class.md)
 
-[JET_INSTANCE_INFO members](dn335183\(v=exchg.10\).md)
+[JET_INSTANCE_INFO members](./jet-instance-info-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

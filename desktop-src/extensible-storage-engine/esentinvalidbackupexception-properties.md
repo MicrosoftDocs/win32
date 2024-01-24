@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBackupException properties"
 title: EsentInvalidBackupException properties
 TOCTitle: EsentInvalidBackupException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidBackupException](dn319406\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidBackupException](./esentinvalidbackupexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInvalidBackupException class](dn319406\(v=exchg.10\).md)
+[EsentInvalidBackupException class](./esentinvalidbackupexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

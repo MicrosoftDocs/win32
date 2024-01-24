@@ -1,5 +1,5 @@
 ---
-Description: Serves as a parent class for all user-defined event types, also known as extrinsic events.
+description: Serves as a parent class for all user-defined event types, also known as extrinsic events.
 ms.assetid: 8fddbcd1-7393-4a3b-8a10-a8b620efc19f
 ms.tgt_platform: multiple
 title: '__ExtrinsicEvent class'
@@ -82,7 +82,7 @@ The **\_\_ExtrinsicEvent** class is derived from [**\_\_Event**](--event.md).
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

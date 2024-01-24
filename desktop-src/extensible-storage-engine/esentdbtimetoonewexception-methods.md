@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooNewException methods"
 title: EsentDbTimeTooNewException methods
 TOCTitle: EsentDbTimeTooNewException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDbTimeTooNewException](dn334407\(v=exchg.10\).md) type exposes the following members.
+The [EsentDbTimeTooNewException](./esentdbtimetoonewexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDbTimeTooNewException class](dn334407\(v=exchg.10\).md)
+[EsentDbTimeTooNewException class](./esentdbtimetoonewexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

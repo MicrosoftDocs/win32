@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_CLOSE message is sent when the specified line device has been forcibly closed. The line device handle or any call handles for calls on the line are no longer valid once this message has been sent.
+description: The TAPI LINE\_CLOSE message is sent when the specified line device has been forcibly closed. The line device handle or any call handles for calls on the line are no longer valid once this message has been sent.
 ms.assetid: f254e331-d574-4fa7-8447-6e4535d3d773
 title: LINE_CLOSE message (Tapi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ The causing condition can be a significant change of state, a hardware error, a 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

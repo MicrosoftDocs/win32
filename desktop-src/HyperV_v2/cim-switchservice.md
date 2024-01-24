@@ -1,5 +1,5 @@
 ---
-Description: Represents a switch service.
+description: Represents a switch service.
 ms.assetid: cf6319fa-7d69-4820-b0e0-775aad8b190c
 title: CIM_SwitchService class
 ms.topic: reference
@@ -183,7 +183,7 @@ The number of switch ports controlled by this switching service.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

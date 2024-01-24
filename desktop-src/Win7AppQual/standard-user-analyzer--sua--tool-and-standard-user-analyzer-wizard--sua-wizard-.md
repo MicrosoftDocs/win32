@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Learn how to use the Standard User Analyzer (SUA) tool and SUA Wizard to test your applications and detect potential compatibility issues.
 ms.assetid: 229ee531-32b9-4e11-b64c-3ce5b5ab6530
 title: Standard User Analyzer (SUA) Tool and Standard User Analyzer Wizard (SUA Wizard)
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-**Clients:** Windows XP \| Windows Vista \| Windows 7  
-**Servers:** Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
+**Clients:** Windows XP, Windows Vista, Windows 7  
+**Servers:** Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
 
 ## Description
 
@@ -27,7 +27,7 @@ The following sections provide detailed information about how to use the SUA and
 
 The SUA tool enables you to analyze an application, review a detailed report about the UAC-related issues, and then apply the suggested and selected application mitigations, as shown in the following flowchart.
 
-![](images/act-suaflowchart-appcookbook.gif)
+![Diagram that shows the flow of the S U A tool.](images/act-suaflowchart-appcookbook.gif)
 
 *SUA Tool and Virtualization*
 
@@ -41,7 +41,7 @@ Only the SUA tool enables you to turn on and off the **Launch Elevated** feature
 
 The SUA Wizard enables you to follow a guided, step-by-step process by which you can analyze an application and then apply the suggested and selected application mitigations, as shown in the following flowchart. Unlike the SUA tool, the wizard does not enable a review of the detailed UAC-related issues.
 
-![](images/act-suaflowchart-appcookbook.gif)
+![Diagram that shows the flow of the S U A Wizard.](images/act-suaflowchart-appcookbook.gif)
 
 ## Links to Other Resources
 

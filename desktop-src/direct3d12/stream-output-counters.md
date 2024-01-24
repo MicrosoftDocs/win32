@@ -2,7 +2,6 @@
 title: Stream Output Counters
 description: Stream output is the ability of the GPU to write vertices to a buffer. The stream output counters monitor progress.
 ms.assetid: 7342DA09-25E9-4154-83BA-B03ADBB8B671
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-Description: Sets the position for an overlay.
+description: Sets the position for an overlay.
 ms.assetid: dd495118-9ceb-4100-a7ec-794659bb4461
 title: NtGdiDdSetOverlayPosition function (Ntgdi.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ Pointer to a [**DD\_SETOVERLAYPOSITIONDATA**](/windows/win32/api/ddrawint/ns-ddr
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

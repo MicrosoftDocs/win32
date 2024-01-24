@@ -1,5 +1,5 @@
 ---
-Description: Create an effect pool from an effect in memory.
+description: Create an effect pool from an effect in memory.
 ms.assetid: 634bcb23-a73f-4493-b805-e2aa5420fa2a
 title: D3DX10CreateEffectPoolFromMemory function (D3DX10Async.h)
 ms.topic: reference
@@ -173,7 +173,7 @@ Returns one of the following [Direct3D 10 Return Codes](d3d10-graphics-reference
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

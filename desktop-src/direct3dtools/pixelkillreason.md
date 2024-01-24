@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate why a pixel was rejected.
+description: An enum used to indicate why a pixel was rejected.
 MS-HAID: vspixengine.PIXELKILLREASON
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -68,7 +68,7 @@ A value that indicates that the pixel was rejected because the depth and stencil
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

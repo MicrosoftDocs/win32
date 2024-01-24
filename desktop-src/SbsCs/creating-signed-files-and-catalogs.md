@@ -1,5 +1,5 @@
 ---
-Description: To sign a file and create a catalog for it, you must first have a process for signing files, a certificate, and a public key.
+description: To sign a file and create a catalog for it, you must first have a process for signing files, a certificate, and a public key.
 ms.assetid: 61337ea6-2d6b-4080-9128-5b8527512ce6
 title: Creating Signed Files and Catalogs
 ms.topic: article

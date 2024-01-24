@@ -65,7 +65,7 @@ Indicates or sets the use of no headers.
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | IDL<br/> | <dl> <dt>WdsView.idl</dt> </dl> |
 

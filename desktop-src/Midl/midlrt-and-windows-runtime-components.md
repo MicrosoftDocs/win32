@@ -14,13 +14,11 @@ ms.date: 05/31/2018
 
 Shows how to create metadata (.winmd) files that represent the API for custom Windows Runtime components.
 
-## 
 
 Use the MIDLRT compiler to build metadata (.winmd) files for your custom Windows Runtime components.
 
 When your metadata files are generated, you can compose them into a more efficient package by using the MDMERGE utility. For more info, see [MDMERGE and metadata files](mdmerge-and-metadata-files.md).
 
-## 
 
 Using MIDLRT is similar to using the MIDL compiler. Run MIDLRT from the command line using the following command:
 
@@ -28,7 +26,6 @@ Using MIDLRT is similar to using the MIDL compiler. Run MIDLRT from the command 
 
 where *<***options***>* represents the command-line options you want to use, and Filename.idl is the name of the IDL file to compile.
 
-## 
 
 The following list shows the command-line switches that MIDLRT.EXE uses.
 

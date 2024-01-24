@@ -1,5 +1,5 @@
 ---
-Description: The Pause WMI class method suspends a print job.
+description: The Pause WMI class method suspends a print job.
 ms.assetid: f1e3906f-1ca2-45c0-9863-5762e4e2119a
 ms.tgt_platform: multiple
 title: Pause method of the Win32_PrintJob class
@@ -57,8 +57,6 @@ Access Denied
 
 ## Examples
 
-The [Pause All Printers with Empty Print Queues](https://Gallery.TechNet.Microsoft.Com/cf2b6b61-8ffe-444b-857b-e3a205bc693c) VBScript code sample pauses any printers that have no pending print jobs.
-
 The following VBScript code sample pauses all the print jobs on a print server.
 
 
@@ -81,7 +79,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

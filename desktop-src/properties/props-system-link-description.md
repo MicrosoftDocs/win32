@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Link.Description
 ms.assetid: a28c687a-7c5c-4c93-a597-5584c5222b19
 title: System.Link.Description
 ms.topic: article

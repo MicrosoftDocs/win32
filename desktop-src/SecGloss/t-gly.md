@@ -1,5 +1,5 @@
 ---
-Description: Contains definitions of security terms that begin with the letter T.
+description: Contains definitions of security terms that begin with the letter T.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 11f2e098-1d1e-473b-90ff-7b86eb923e9f
 title: T (Security Glossary)

@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_S1159 and LOCALE\_SAM
+description: LOCALE\_S1159 and LOCALE\_SAM
 ms.assetid: dc7058af-1d5f-40a0-8d0b-17d2ff5662ce
 title: LOCALE_S1159 and LOCALE_SAM
 ms.topic: article

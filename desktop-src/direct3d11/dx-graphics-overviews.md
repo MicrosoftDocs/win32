@@ -17,7 +17,7 @@ The programming guide contains information about how to use the Microsoft Direct
 | [Devices](overviews-direct3d-11-devices.md) | This section describes Direct3D 11 device and device-context objects. |
 | [Resources](overviews-direct3d-11-resources.md) | This section describes aspects of Direct3D 11 resources. |
 | [Graphics pipeline](overviews-direct3d-11-graphics-pipeline.md) | This section describes the Direct3D 11 programmable pipeline. |
-| [Compute shader overview](direct3d-11-advanced-stages-compute-shader.md) | A compute shader is a programmable shader stage that expands Direct3D 11 beyond graphics programming. The compute shader technology is also known as the [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) technology. |
+| [Compute shader overview](direct3d-11-advanced-stages-compute-shader.md) | A compute shader is a programmable shader stage that expands Direct3D 11 beyond graphics programming. The compute shader technology is also known as the DirectCompute technology. |
 | [Rendering](overviews-direct3d-11-render.md) | This section contains information about several Direct3D 11 rendering technologies. |
 | [Effects](d3d11-graphics-programming-guide-effects.md) | A DirectX effect is a collection of pipeline state, set by expressions written in [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-reference) and some syntax that is specific to the effect framework. |
 | [Migrating to Direct3D 11](d3d11-programming-guide-migrating.md) | This section provides info for migrating to Direct3D 11 from an earlier version of Direct3D. |

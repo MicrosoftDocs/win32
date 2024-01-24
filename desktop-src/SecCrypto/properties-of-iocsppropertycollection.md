@@ -1,5 +1,5 @@
 ---
-Description: The following properties are defined by the IOCSPPropertyCollection interface.
+description: The following properties are defined by the IOCSPPropertyCollection interface.
 ms.assetid: c476b627-f558-4a39-86f7-de85d9138004
 title: Properties of IOCSPPropertyCollection
 ms.topic: article

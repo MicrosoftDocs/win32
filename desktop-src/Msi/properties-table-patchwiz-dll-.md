@@ -1,5 +1,5 @@
 ---
-Description: The Properties Table contains global settings for the patch package. The Properties Table is required in the patch creation database (.pcp file), and is used by the UiCreatePatchPackageEx function.
+description: The Properties Table contains global settings for the patch package. The Properties Table is required in the patch creation database (.pcp file), and is used by the UiCreatePatchPackageEx function.
 ms.assetid: 767b97ce-7018-4d2b-bad5-11c18102d743
 title: Properties Table (Patchwiz.dll)
 ms.topic: article

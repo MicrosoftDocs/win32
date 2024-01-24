@@ -1,5 +1,5 @@
 ---
-Description: Used with the CryptAcquireContext and CryptSetProvider functions.
+description: Used with the CryptAcquireContext and CryptSetProvider functions.
 ms.assetid: 97e9a708-83b5-48b3-9d16-f7b54367dc4e
 title: Cryptographic Provider Names (Wincrypt.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The following [*cryptographic service provider*](../secgloss/c-gly.md) (CSP) nam
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -151,7 +151,7 @@ The command should return information about the video sources. When used with MC
 -   MCI\_DGV\_SETVIDEO\_SRC\_SECAM
 -   MCI\_DGV\_SETVIDEO\_SRC\_SVIDEO
 
-There might be more than one source of each type returned. The generic source type is used when more then one type of signal is allowed for that connector.
+There might be more than one source of each type returned. The generic source type is used when more than one type of signal is allowed for that connector.
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ For VCR devices, *lpList* points to an [**MCI\_VCR\_LIST\_PARMS**](mci-vcr-list-
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

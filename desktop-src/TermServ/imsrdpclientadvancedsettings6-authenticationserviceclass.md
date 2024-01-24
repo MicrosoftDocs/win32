@@ -66,7 +66,7 @@ Service principal names (SPNs) are associated with the security principal (user 
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                         |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies an operation for which code is to be generated.
+description: Specifies an operation for which code is to be generated.
 ms.assetid: 'd198197e-d146-4f1b-99df-944822e83357'
 title: operation element
 ms.topic: article
@@ -76,7 +76,7 @@ This generates idl function declarations for all methods associated with the two
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

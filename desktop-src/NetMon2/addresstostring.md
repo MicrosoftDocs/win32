@@ -1,5 +1,5 @@
 ---
-Description: The AddressToString function converts an address into a string.
+description: The AddressToString function converts an address into a string.
 ms.assetid: 999a6142-1423-4006-a489-63895dd19ce3
 title: AddressToString function (Netmon.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The return value is a pointer to the converted string.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

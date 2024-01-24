@@ -1,5 +1,5 @@
 ---
-Description: The PROTOCOLINFO structure describes a protocol.
+description: The PROTOCOLINFO structure describes a protocol.
 ms.assetid: '7f936c93-a942-4591-9abc-59872df0964e'
 title: PROTOCOLINFO structure (Netmon.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ A comment describing the protocol.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

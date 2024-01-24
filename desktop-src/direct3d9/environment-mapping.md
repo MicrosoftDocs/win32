@@ -1,5 +1,5 @@
 ---
-Description: Environment mapping is a technique that simulates highly reflective surfaces without using ray tracing.
+description: Environment mapping is a technique that simulates highly reflective surfaces without using ray tracing.
 ms.assetid: 'vs|directx_sdk|~\environment_mapping.htm'
 title: Environment Mapping (Direct3D 9)
 ms.topic: article

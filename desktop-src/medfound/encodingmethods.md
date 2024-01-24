@@ -1,12 +1,12 @@
 ---
-Description: Encoding Methods
+description: Encoding Methods
 ms.assetid: 17ab5ecc-0173-4c5c-9d65-40e506ab7e07
 title: Encoding Methods (Microsoft Media Foundation)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Encoding Methods
+# Encoding Methods (Microsoft Media Foundation)
 
 Most of the Windows Media Audio and Video codecs support multiple encoding methods. Knowing how and when to use each method can help you create high-quality compressed content.
 

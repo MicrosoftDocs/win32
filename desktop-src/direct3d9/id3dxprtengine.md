@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXPRTEngine interface is used to compute a precomputed radiance transfer (PRT) simulation. Its methods are typically used offline, to compute per-vertex or per-texel transfer vectors in advance of real-time 3D modeling.
+description: The ID3DXPRTEngine interface is used to compute a precomputed radiance transfer (PRT) simulation. Its methods are typically used offline, to compute per-vertex or per-texel transfer vectors in advance of real-time 3D modeling.
 ms.assetid: d5be657f-2b0c-48fd-a7f0-ddb90107772f
 title: ID3DXPRTEngine interface (D3DX9Mesh.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ typedef interface ID3DXPRTEngine *LPD3DXPRTENGINE;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

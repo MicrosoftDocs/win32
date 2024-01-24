@@ -1,5 +1,5 @@
 ---
-Description: The LINETRANSLATERESULT\_ bit-flag constants describe various results of an address translation.
+description: The LINETRANSLATERESULT\_ bit-flag constants describe various results of an address translation.
 ms.assetid: 7b834c57-d862-4fe6-828c-9e8fa20f3ec7
 title: LINETRANSLATERESULT_ Constants (Tapi.h)
 ms.topic: reference
@@ -145,7 +145,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

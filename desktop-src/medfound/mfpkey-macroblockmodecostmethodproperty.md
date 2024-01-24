@@ -1,5 +1,5 @@
 ---
-Description: Specifies the cost method used by the codec to determine which macroblock mode to use.
+description: Specifies the cost method used by the codec to determine which macroblock mode to use.
 ms.assetid: 2ba9b943-0daa-40c1-87ea-2fa647fb7095
 title: MFPKEY_MACROBLOCKMODECOSTMETHOD Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ This property may be set to one of the following values.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The CObjectPathParser class exposes the following methods.
+description: The CObjectPathParser class exposes the following methods.
 ms.assetid: 8109064C-E67F-4462-945D-1D2541E8588D
 ms.tgt_platform: multiple
 title: CObjectPathParser Methods

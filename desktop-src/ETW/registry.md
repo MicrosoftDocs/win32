@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for registry events. The following syntax is simplified from MOF code.
+description: Registry class - This class is the parent class for registry events. The following syntax is simplified from MOF code.
 ms.assetid: 362d7653-1ba0-45b7-80f3-0fccca0badf1
 title: Registry class
 ms.topic: reference
@@ -70,7 +70,7 @@ Event trace consumers can implement special processing for registry events by ca
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

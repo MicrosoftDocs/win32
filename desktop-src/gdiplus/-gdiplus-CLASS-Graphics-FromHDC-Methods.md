@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the FromHDC methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the FromHDC methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: c1d3fc6e-6b7d-4fcf-9bc4-a2bab36304ed
 title: Graphics.FromHDC methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the FromHDC methods of the [**Graphics**](/windows/win32/api/gd
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

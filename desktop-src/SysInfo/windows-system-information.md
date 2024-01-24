@@ -1,5 +1,5 @@
 ---
-Description: The following overviews describe the types of system information available.
+description: The following overviews describe the types of system information available.
 ms.assetid: cb7b50fc-6591-48a9-b3a7-327de9a6dc06
 title: Windows System Information
 ms.topic: article
@@ -29,7 +29,7 @@ The following overviews describe the types of system information available.
 
 
 
-|                                                                                                                                   |                                                                                                                   |
+| Item                                                                                                                              | Description                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [General Windows Development Issues Forum](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsgeneraldevelopmentissues) | Discuss Windows System Information and other general issues about developing applications for Windows.<br/> |
 

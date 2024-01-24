@@ -55,7 +55,6 @@ During initialization, the window procedure changes the default password charact
 
 During user input processing, the window procedure changes the default push button from **CANCEL** to **OK** as soon as the user enters text in the edit control. If the user presses the **OK** button, the window procedure uses the [**EM\_LINELENGTH**](em-linelength.md) and [**EM\_GETLINE**](em-getline.md) messages to retrieve the text.
 
-## 
 
 
 ```C++

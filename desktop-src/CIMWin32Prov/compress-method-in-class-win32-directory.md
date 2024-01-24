@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical directory entry file (or directory) specified in the object path.
+description: Compresses the logical directory entry file (or directory) specified in the object path.
 ms.assetid: 4db13622-75c5-45db-8536-451059c0e477
 ms.tgt_platform: multiple
 title: Compress method of the Win32_Directory class
@@ -165,7 +165,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

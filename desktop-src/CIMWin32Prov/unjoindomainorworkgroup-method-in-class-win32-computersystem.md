@@ -1,5 +1,5 @@
 ---
-Description: Removes a computer system from a domain or workgroup.
+description: Removes a computer system from a domain or workgroup.
 ms.assetid: 79ee177e-81e2-441b-b39a-2fb53a0145bf
 ms.tgt_platform: multiple
 title: UnjoinDomainOrWorkgroup method of the Win32_ComputerSystem class
@@ -108,17 +108,11 @@ The **UnjoinDomainOrWorkgroup** method returns 0 (zero) on success or when no op
 
 After calling this method, restart the affected computer to apply the changes.
 
-## Examples
-
-[The Unjoin a Computer from a Domain](https://Gallery.TechNet.Microsoft.Com/c2025ace-cb51-4136-9de9-db8871f79f62) VBScript sample unjoins the local computer from its current domain and disables the computer account.
-
-The [Unjoin a Computer from a Domain using VBS script](https://Gallery.TechNet.Microsoft.Com/Unjoin-a-Computer-from-a-825249e1) sample unjoins a specified computer from a domain. .
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

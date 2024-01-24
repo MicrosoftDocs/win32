@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogCorruptDuringHardRestoreException members"
 title: EsentLogCorruptDuringHardRestoreException members
 TOCTitle: EsentLogCorruptDuringHardRestoreException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRestoreException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogCorruptDuringHardRestore exceptions.
 
-The [EsentLogCorruptDuringHardRestoreException](dn334512\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogCorruptDuringHardRestoreException](./esentlogcorruptduringhardrestoreexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogCorruptDuringHardRestoreException class](dn334512\(v=exchg.10\).md)
+[EsentLogCorruptDuringHardRestoreException class](./esentlogcorruptduringhardrestoreexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

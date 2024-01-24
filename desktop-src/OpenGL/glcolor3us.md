@@ -1,6 +1,6 @@
 ---
 title: glColor3us function (Gl.h)
-description: Sets the current color.
+description: Sets the current color. | glColor3us function (Gl.h)
 ms.assetid: ddce11f4-6bb2-43d0-92b0-11be67c572fe
 keywords:
 - glColor3us function OpenGL
@@ -76,7 +76,7 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

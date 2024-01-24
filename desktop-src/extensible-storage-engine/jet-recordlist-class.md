@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST class"
 title: JET_RECORDLIST class
 TOCTitle: JET_RECORDLIST class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RECORDLIST
@@ -35,7 +36,7 @@ Information about a temporary table containing information about all indexes for
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_RECORDLIST  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_RECORDLIST members](dn335227\(v=exchg.10\).md)
+[JET_RECORDLIST members](./jet-recordlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

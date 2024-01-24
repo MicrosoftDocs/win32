@@ -22,7 +22,7 @@ This attribute serves the same purpose as the Non-Security-Member attribute but 
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Non-Members                       |
 | Ldap-Display-Name | msDS-NonMembers                         |
@@ -47,7 +47,7 @@ This attribute serves the same purpose as the Non-Security-Member attribute but 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 2014                                |
 | MAPI-Id                | \-                                  |
@@ -68,7 +68,7 @@ This attribute serves the same purpose as the Non-Security-Member attribute but 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 2014                                |
 | MAPI-Id                | \-                                  |
@@ -89,7 +89,7 @@ This attribute serves the same purpose as the Non-Security-Member attribute but 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 2014                                |
 | MAPI-Id                | \-                                  |
@@ -110,7 +110,7 @@ This attribute serves the same purpose as the Non-Security-Member attribute but 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 2014                                |
 | MAPI-Id                | \-                                  |
@@ -131,7 +131,7 @@ This attribute serves the same purpose as the Non-Security-Member attribute but 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 2014                                |
 | MAPI-Id                | \-                                  |

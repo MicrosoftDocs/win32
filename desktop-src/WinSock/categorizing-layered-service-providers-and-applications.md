@@ -1,6 +1,6 @@
 ---
 title: Categorizing layered service providers and apps
-Description: Winsock 2 accommodates layered protocols.
+description: Winsock 2 accommodates layered protocols.
 ms.assetid: 1c5efd2e-1b42-4c20-a4da-b81a5fc4243c
 ms.topic: article
 ms.date: 05/31/2018
@@ -23,7 +23,7 @@ It is possible to define LSP categories based upon the subset of SPI functions a
 
 On Windows Vista and later, a new method is provided for categorizing both Winsock Layered Service Providers and applications so that only certain LSPs will be loaded. There are several reasons for adding these features.
 
-One of the primary reasons is that certain system critical processes such as winlogon and lsass create sockets, but these processes do not use these sockets to send any traffic on the network. So most LSPs should not be loaded into these processes. A number of cases have also been documented where buggy LSPs can cause *lsass.exe* to crash. If lsass crashes, the system forces a shutdown. A side affect of these system processes loading LSPs is that these processes never exit so when an LSP is installed or removed, a reboot is required.
+One of the primary reasons is that certain system critical processes such as winlogon and lsass create sockets, but these processes do not use these sockets to send any traffic on the network. So most LSPs should not be loaded into these processes. A number of cases have also been documented where buggy LSPs can cause *lsass.exe* to crash. If lsass crashes, the system forces a shutdown. A side effect of these system processes loading LSPs is that these processes never exit so when an LSP is installed or removed, a reboot is required.
 
 A secondary reason is that there are some cases where applications may not want to load certain LSPs. For example, some applications may not want to load cryptographic LSPs which could prevent the application from communicating with other systems that do not have the cyptographic LSP installed.
 

@@ -1,5 +1,5 @@
 ---
-Description: Removes an IContextNode object from this collection.
+description: Removes an IContextNode object from this collection.
 ms.assetid: ddda506d-4e39-486d-ac7d-211dc7869a73
 title: IContextNodes::RemoveContextNode method (IACom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

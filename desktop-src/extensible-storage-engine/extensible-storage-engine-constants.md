@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Constants"
 title: Extensible Storage Engine Constants
 TOCTitle: Extensible Storage Engine Constants
 ms:assetid: 9a361b83-491d-442d-971d-6696f88ad42e
@@ -26,25 +27,24 @@ _**Applies to:** Windows | Windows Server_
 
 The Extensible Storage Engine Constants section contains the following sections:
 
-  - [JET_CBTYP](gg294071\(v=exchg.10\).md)
+  - [JET_CBTYP](./jet-cbtyp.md)
 
-  - [JET_COLTYP](gg269213\(v=exchg.10\).md)
+  - [JET_COLTYP](./jet-coltyp.md)
 
-  - [JET_OBJTYP](gg269312\(v=exchg.10\).md)
+  - [JET_OBJTYP](./jet-objtyp.md)
 
-  - [JET_SNP](gg269311\(v=exchg.10\).md)
+  - [JET_SNP](./jet-snp.md)
 
-  - [JET_SNT](gg269294\(v=exchg.10\).md)
+  - [JET_SNT](./jet-snt.md)
 
-  - [Error Handling Constants](gg269258\(v=exchg.10\).md)
+  - [Error Handling Constants](./error-handling-constants.md)
 
-  - [Event Logging Constants](gg294101\(v=exchg.10\).md)
+  - [Event Logging Constants](./event-logging-constants.md)
 
-  - [Extensible Storage Engine System Parameters](gg294139\(v=exchg.10\).md)
+  - [Extensible Storage Engine System Parameters](./extensible-storage-engine-system-parameters.md)
 
-  - [Invalid Handle Constants](gg269256\(v=exchg.10\).md)
+  - [Invalid Handle Constants](./invalid-handle-constants.md)
 
-  - [Maximum Settings Constants](gg269189\(v=exchg.10\).md)
+  - [Maximum Settings Constants](./maximum-settings-constants.md)
 
-  - [Obsolete Constants](gg269305\(v=exchg.10\).md)
-
+  - [Obsolete Constants](./obsolete-constants.md)

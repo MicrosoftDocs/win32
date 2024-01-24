@@ -1,5 +1,5 @@
 ---
-Description: The IsOwned method of the Win32\_Tpm class indicates whether the device has an owner. This value is changed by the TakeOwnership method.
+description: The IsOwned method of the Win32\_Tpm class indicates whether the device has an owner. This value is changed by the TakeOwnership method.
 ms.assetid: 04a9394f-98de-43e3-8a19-7a8f409823b8
 title: IsOwned method of the Win32_Tpm class
 ms.topic: reference
@@ -69,7 +69,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |

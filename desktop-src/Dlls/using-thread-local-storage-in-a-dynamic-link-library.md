@@ -1,5 +1,5 @@
 ---
-Description: This section shows the use of a DLL entry-point function to set up a thread local storage (TLS) index to provide private storage for each thread of a multithreaded process.
+description: This section shows the use of a DLL entry-point function to set up a thread local storage (TLS) index to provide private storage for each thread of a multithreaded process.
 ms.assetid: a300f223-b513-4a22-a7a4-5d98cf74d77d
 title: Using Thread Local Storage in a Dynamic-Link Library
 ms.topic: article

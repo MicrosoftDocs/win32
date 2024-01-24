@@ -1,5 +1,5 @@
 ---
-Description: A conditional access control entry (ACE) allows an access condition to be evaluated when an access check is performed. The security descriptor definition language (SDDL) provides syntax for defining conditional ACEs in a string format.
+description: A conditional access control entry (ACE) allows an access condition to be evaluated when an access check is performed. The security descriptor definition language (SDDL) provides syntax for defining conditional ACEs in a string format.
 ms.assetid: cdc3629d-c4d8-4910-8838-3bdb601f7064
 title: Security Descriptor Definition Language for Conditional ACEs
 ms.topic: article
@@ -120,7 +120,7 @@ The operators are evaluated in the following order of precedence, with operation
 5.  &&
 6.  \|\|
 
-In addition, any portion of a conditional expression can be enclosed in parenthesis. Expressions within parentheses are evaluated first.
+In addition, any portion of a conditional expression can be enclosed in parentheses. Expressions within parentheses are evaluated first.
 
 ## Unknown Values
 

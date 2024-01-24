@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ModifySettingAction class represents the information for modifying a specific setting file, for a specific entry, with a specific value.
+description: The CIM\_ModifySettingAction class represents the information for modifying a specific setting file, for a specific entry, with a specific value.
 ms.assetid: 6d22bc11-f798-4634-8688-797d4a4a4bee
 ms.tgt_platform: multiple
 title: CIM_ModifySettingAction class
@@ -935,8 +935,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from [**CIM\_Action**](cim-action.md).
 
@@ -954,7 +954,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

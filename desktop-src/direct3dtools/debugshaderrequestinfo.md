@@ -1,5 +1,5 @@
 ---
-Description: Represents information about a shader debugger request.
+description: Represents information about a shader debugger request.
 MS-HAID: vspixengine.DebugShaderRequestInfo
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -56,7 +56,7 @@ The coordinates of the thread to debug
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

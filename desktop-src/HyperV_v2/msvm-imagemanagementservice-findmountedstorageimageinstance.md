@@ -1,5 +1,5 @@
 ---
-Description: Finds an Msvm\_MountedStorageImage object for a given disk image path.
+description: Finds an Msvm\_MountedStorageImage object for a given disk image path.
 ms.assetid: 498ed285-2b5b-472b-b0ee-649c97b61274
 title: FindMountedStorageImageInstance method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -123,7 +123,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

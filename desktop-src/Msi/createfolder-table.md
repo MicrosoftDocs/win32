@@ -1,5 +1,5 @@
 ---
-Description: The CreateFolder table contains references to folders that need to be created explicitly for a particular component.
+description: The CreateFolder table contains references to folders that need to be created explicitly for a particular component.
 ms.assetid: b17b470b-6971-4124-8ec3-73914fdea95f
 title: CreateFolder Table
 ms.topic: article

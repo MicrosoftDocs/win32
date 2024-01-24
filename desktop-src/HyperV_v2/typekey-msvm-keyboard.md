@@ -1,5 +1,5 @@
 ---
-Description: Simulates a press-release key sequence.
+description: Simulates a press-release key sequence.
 ms.assetid: 4166BA71-315D-41BD-857C-48AFB702911E
 title: TypeKey method of the Msvm_Keyboard class
 ms.topic: reference
@@ -98,7 +98,7 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

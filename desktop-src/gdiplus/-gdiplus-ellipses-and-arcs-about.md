@@ -1,5 +1,5 @@
 ---
-Description: An ellipse is specified by its bounding rectangle. The following illustration shows an ellipse along with its bounding rectangle.
+description: An ellipse is specified by its bounding rectangle. The following illustration shows an ellipse along with its bounding rectangle.
 ms.assetid: 45e80501-4d64-480b-a7c7-3af52c00a0aa
 title: Ellipses and Arcs
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Gets the location of the icon assigned to the link.
+description: Gets the location of the icon assigned to the link.
 ms.assetid: 3bb7f0f0-7ab9-41e6-b738-274efbcd52ab
 title: ShellLinkObject.GetIconLocation method (Shlobj\_core.h)
 ms.topic: reference
@@ -168,7 +168,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

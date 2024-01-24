@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Point2<Type> Function
+# Point2&lt;Type&gt; Function
 
 Creates a point that stores its coordinates using the specified data type.
 
@@ -61,7 +61,7 @@ A point that contains the specified x-coordinate and y-coordinate.
 
 
 
-|                                     |                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |

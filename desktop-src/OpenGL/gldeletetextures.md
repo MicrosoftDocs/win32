@@ -67,19 +67,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *n* was a negative value.<br/>                                                                                                  |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glDeleteTextures** function deletes *n* textures named by the elements of the array *textures*. After a texture is deleted, it has no contents or dimensionality, and its name is free for reuse (for example, by **glGenTextures**). The **glDeleteTextures** function ignores zeros and names that do not correspond to existing textures.
@@ -101,7 +88,7 @@ The following function retrieves information related to **glDeleteTextures**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

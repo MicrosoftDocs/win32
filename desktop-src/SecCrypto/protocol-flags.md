@@ -1,5 +1,5 @@
 ---
-Description: Predefined constants for cryptography protocols. These values are defined in Wincrypt.h.
+description: Predefined constants for cryptography protocols. These values are defined in Wincrypt.h.
 ms.assetid: 61dc0eff-2033-464a-a558-1798a92d48a2
 title: Protocol Flags (Wincrypt.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ The following are predefined constants for cryptography protocols. These values 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

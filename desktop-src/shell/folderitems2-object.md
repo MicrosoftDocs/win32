@@ -1,5 +1,5 @@
 ---
-Description: Extends the FolderItems object. It supports one additional method.
+description: Extends the FolderItems object. It supports one additional method.
 title: FolderItems2 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 0ca0efb3-6831-4561-9fd1-6d0b62704931
-api_name: 
- - FolderItems2
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -53,7 +44,7 @@ The **FolderItems2** object has these methods.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

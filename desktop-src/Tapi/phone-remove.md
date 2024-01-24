@@ -1,5 +1,5 @@
 ---
-Description: The TAPI PHONE\_REMOVE message is sent to inform an application of the removal (deletion from the system) of a phone device.
+description: The TAPI PHONE\_REMOVE message is sent to inform an application of the removal (deletion from the system) of a phone device.
 ms.assetid: 7c888976-65da-477a-b5a6-6e78d5f603b1
 title: PHONE_REMOVE message (Tapi.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ After a device has been removed, any attempt to access the device by its device 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

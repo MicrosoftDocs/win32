@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.GetTableIndexes method (JET_SESID, JET_DBID, String)"
 title: Api.GetTableIndexes method (JET_SESID, JET_DBID, String)
 TOCTitle: GetTableIndexes method (JET_SESID, JET_DBID, String)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetTableIndexes(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Iterates over all the indexs in the table, returning information about each one.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,14 +60,14 @@ public static IEnumerable<IndexInfo> GetTableIndexes(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)  
     
     The database containing the table.
 
@@ -79,17 +80,17 @@ public static IEnumerable<IndexInfo> GetTableIndexes(
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<[IndexInfo](dn350919\(v=exchg.10\).md)\>  
+Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<[IndexInfo](./indexinfo-class.md)\>  
 An iterator over an IndexInfo for each index in the table.  
 
 ## See also
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[GetTableIndexes overload](dn292087\(v=exchg.10\).md)
+[GetTableIndexes overload](./api.gettableindexes-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

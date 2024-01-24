@@ -25,10 +25,10 @@ Enables or disables whether the items in a list-view control display as a group.
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>A **BOOL** that indicates whether to enable a list-view control to group displayed items. Use **TRUE** to enable grouping, **FALSE** to disable it. </dd> <dt>
+ </dt> <dd>A <b>BOOL</b> that indicates whether to enable a list-view control to group displayed items. Use <b>TRUE</b> to enable grouping, <b>FALSE</b> to disable it. </dd> <dt>
 
 *lParam* 
-</dt> <dd>Must be **NULL**.</dd> </dl>
+ </dt> <dd>Must be <b>NULL</b>.</dd> </dl>
 
 ## Return value
 
@@ -59,7 +59,7 @@ Returns one of the following values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

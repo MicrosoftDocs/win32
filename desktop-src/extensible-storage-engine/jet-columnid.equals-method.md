@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.Equals method"
 title: JET_COLUMNID.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_COLUMNID.Equals
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](./jet-columnid-structure.md)
 
-[JET_COLUMNID members](hh558343\(v=exchg.10\).md)
+[JET_COLUMNID members](./jet-columnid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

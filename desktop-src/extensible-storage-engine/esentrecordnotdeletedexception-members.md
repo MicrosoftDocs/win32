@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotDeletedException members"
 title: EsentRecordNotDeletedException members
 TOCTitle: EsentRecordNotDeletedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordNotDeletedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.RecordNotDeleted exceptions.
 
-The [EsentRecordNotDeletedException](dn350508\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordNotDeletedException](./esentrecordnotdeletedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentRecordNotDeletedException class](dn350508\(v=exchg.10\).md)
+[EsentRecordNotDeletedException class](./esentrecordnotdeletedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

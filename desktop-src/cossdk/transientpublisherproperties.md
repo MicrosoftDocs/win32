@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each transient publisher property for the parent TransientSubscriptions collection. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
+description: Contains an object for each transient publisher property for the parent TransientSubscriptions collection. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
 ms.assetid: 63921caa-5c22-4203-b1a3-f143928f4742
 title: TransientPublisherProperties collection
 ms.topic: reference
@@ -47,7 +47,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                        |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name of the property. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                              |
@@ -63,7 +63,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                           |
+| Entry | Value |
 |----------------|---------------------------|
 | Description    | A value for the property. |
 | Access         | ReadWrite                 |

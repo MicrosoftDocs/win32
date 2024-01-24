@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskFullException methods"
 title: EsentDiskFullException methods
 TOCTitle: EsentDiskFullException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDiskFullException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDiskFullException](dn334461\(v=exchg.10\).md) type exposes the following members.
+The [EsentDiskFullException](./esentdiskfullexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDiskFullException class](dn334461\(v=exchg.10\).md)
+[EsentDiskFullException class](./esentdiskfullexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

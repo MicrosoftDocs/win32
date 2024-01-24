@@ -22,7 +22,7 @@ The GUID to be used to apply security credentials to a set of objects.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Attribute-Security-GUID                               |
 | Ldap-Display-Name | attributeSecurityGUID                                 |
@@ -49,7 +49,7 @@ The GUID to be used to apply security credentials to a set of objects.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -70,7 +70,7 @@ The GUID to be used to apply security credentials to a set of objects.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -91,7 +91,7 @@ The GUID to be used to apply security credentials to a set of objects.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -112,7 +112,7 @@ The GUID to be used to apply security credentials to a set of objects.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -133,7 +133,7 @@ The GUID to be used to apply security credentials to a set of objects.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -154,7 +154,7 @@ The GUID to be used to apply security credentials to a set of objects.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -175,7 +175,7 @@ The GUID to be used to apply security credentials to a set of objects.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |

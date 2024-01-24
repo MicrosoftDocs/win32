@@ -1,5 +1,5 @@
 ---
-Description: Uploads a printer driver to the print servers driver store so that it can be installed by calling InstallPrinterDriverFromPackage.
+description: Uploads a printer driver to the print servers driver store so that it can be installed by calling InstallPrinterDriverFromPackage.
 ms.assetid: dd3b3a3b-8ded-44ae-85dd-e630bc62e898
 title: UploadPrinterDriverPackage function (Winspool.h)
 ms.topic: reference
@@ -126,7 +126,7 @@ Only signed driver packages can be uploaded.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

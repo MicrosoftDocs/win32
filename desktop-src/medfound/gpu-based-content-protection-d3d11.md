@@ -1,5 +1,5 @@
 ---
-Description: This topic describes video content&\#8211;protection capabilities that a graphics driver can provide.
+description: This topic describes video content&\#8211;protection capabilities that a graphics driver can provide.
 ms.assetid: 3FDB4908-C75D-4AE0-B32E-93F840E4F30A
 title: GPU-Based Content Protection with D3D11 Video
 ms.topic: article
@@ -90,7 +90,7 @@ Here is a high-level overview of the encryption and decoding process:
 1.  The software decoder receives a stream of encrypted data from the video source. The decoder decrypts this stream.
 2.  The software decoder negotiates a session key with the cryptographic session.
 3.  The software decoder uses the authenticated channel to associate the cryptographic session with the decoder device.
-4.  The software decoder puts compressed data in buffers that it gets from the decoder device (accelerator). For protected content, the software encoder encrypts the data that is puts into the buffers, using the session key for the encryption.
+4.  The software decoder puts compressed data in buffers that it gets from the decoder device (accelerator). For protected content, the software encoder encrypts the data that is put into the buffers, using the session key for the encryption.
     > [!Note]  
     > Some drivers use a content key, instead of the session key, for encryption. The content key could change from one frame to the next.
 
@@ -181,45 +181,18 @@ To send a command to the authenticated channel, perform the following steps.
 
 1.  Fill in the input data structure. This data structure is always a [**D3D11_AUTHENTICATED_CONFIGURE_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input) structure followed by additional fields. Fill in the **D3D11_AUTHENTICATED_CONFIGURE_INPUT** structure as shown in the following table.
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Member</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>omac</strong></td>
-    <td>Skip this field for now.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>ConfigureType</strong></td>
-    <td>GUID that identifies the command. For a list of commands, see <a href="content-protection-commands.md">Content Protection Commands</a>.</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>hChannel</strong></td>
-    <td>The handle to the authenticated channel.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>SequenceNumber</strong></td>
-    <td>The sequence number. The first sequence number is specified by sending a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> command. Each time you send another command, increment this number by 1. The sequence number guards against replay attacks.
-    <blockquote>
-    [!Note]<br />
-    Two separate sequence numbers are used, one for commands and one for queries.
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
-
     
+| Member | Description | 
+|--------|-------------|
+| <strong>omac</strong> | Skip this field for now. | 
+| <strong>ConfigureType</strong> | GUID that identifies the command. For a list of commands, see <a href="content-protection-commands.md">Content Protection Commands</a>. | 
+| <strong>hChannel</strong> | The handle to the authenticated channel. | 
+| **SequenceNumber** | The sequence number. The first sequence number is specified by sending a [**D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) command. Each time you send another command, increment this number by 1. The sequence number guards against replay attacks.         **Note:**     Two separate sequence numbers are used, one for commands and one for queries.    <br> | 
 
-     
+
+
+
+
 
 2.  Calculate the OMAC tag for the block of data that appears after the **omac** member of the input structure. Then copy this tag value into the **omac** member.
 3.  Call [**ID3D11VideoContext::ConfigureAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel).
@@ -236,41 +209,17 @@ To send a command to the authenticated channel, perform the following steps.
 
 1.  Fill in the input data structure. This data structure is always a [**D3D11_AUTHENTICATED_QUERY_INPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_input) structure, possibly followed by additional fields. Fill in the **D3D11_AUTHENTICATED_QUERY_INPUT** structure as shown in the following table.
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Member</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>QueryType</strong></td>
-    <td>GUID that identifies the query. For a list of queries, see <a href="content-protection-queries.md">Content Protection Queries</a>.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>hChannel</strong></td>
-    <td>The handle to the authenticated channel.</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>SequenceNumber</strong></td>
-    <td>The sequence number. The first sequence number is specified by sending a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> command. Each time you send another query, increment this number by 1. The sequence number guards against replay attacks.
-    <blockquote>
-    [!Note]<br />
-    Two separate sequence numbers are used, one for commands and one for queries.
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
-
     
+| Member | Description | 
+|--------|-------------|
+| <strong>QueryType</strong> | GUID that identifies the query. For a list of queries, see <a href="content-protection-queries.md">Content Protection Queries</a>. | 
+| <strong>hChannel</strong> | The handle to the authenticated channel. | 
+| **SequenceNumber** | The sequence number. The first sequence number is specified by sending a [**D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) command. Each time you send another query, increment this number by 1. The sequence number guards against replay attacks.         **Note:**     Two separate sequence numbers are used, one for commands and one for queries.    <br> | 
 
-     
+
+
+
+
 
 2.  Call [**ID3D11VideoContext::QueryAuthenticatedChannel**](/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-queryauthenticatedchannel).
 3.  The driver places the output from the query in a [**D3D11_AUTHENTICATED_QUERY_OUTPUT**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_output) structure. This structure is followed by additional fields, depending on the query type.

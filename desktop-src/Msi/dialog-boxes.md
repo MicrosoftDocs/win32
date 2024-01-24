@@ -1,12 +1,12 @@
 ---
-Description: Dialog boxes are specified in the Dialog column of the Dialog table. For more information on adding a dialog box or billboard to a user interface, see Using the User Interface.
+description: Dialog boxes are specified in the Dialog column of the Dialog table. For more information on adding a dialog box or billboard to a user interface, see Using the User Interface.
 ms.assetid: 7cecb1c6-3dc3-48a1-94b9-1976c72b7764
 title: Dialog Boxes (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Dialog Boxes
+# Dialog Boxes (Windows Installer)
 
 Dialog boxes are specified in the Dialog column of the [Dialog table](dialog-table.md). For more information on adding a dialog box or billboard to a user interface, see [Using the User Interface](using-the-user-interface.md).
 

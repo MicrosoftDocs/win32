@@ -1,5 +1,5 @@
 ---
-Description: Displays a Select Certificate dialog box, allowing a signing certificate (also known as the enrollment agent certificate) to be selected.
+description: Displays a Select Certificate dialog box, allowing a signing certificate (also known as the enrollment agent certificate) to be selected.
 ms.assetid: b8198f65-4ffb-4dfa-8286-e62ef483ab16
 title: ISCrdEnr::selectSigningCertificate method
 ms.topic: reference
@@ -83,7 +83,7 @@ After a signing certificate is selected, its name can be retrieved by calling [*
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

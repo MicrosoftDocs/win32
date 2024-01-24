@@ -1,5 +1,5 @@
 ---
-Description: This topic contains the resource file for the tutorial How to Play Media Files with Media Foundation.
+description: This topic contains the resource file for the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: 5454c92b-5f71-4be3-ac98-b2195c482ea4
 title: player.rc
 ms.topic: article

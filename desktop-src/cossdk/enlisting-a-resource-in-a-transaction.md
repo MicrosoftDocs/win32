@@ -1,5 +1,5 @@
 ---
-Description: Enlisting a Resource in a Transaction
+description: Enlisting a Resource in a Transaction
 ms.assetid: b41fe0aa-a4cf-4d4a-9543-8eb0b38f07a2
 title: Enlisting a Resource in a Transaction
 ms.topic: article

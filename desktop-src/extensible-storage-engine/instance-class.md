@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance class"
 title: Instance class
 TOCTitle: Instance class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Instance
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Instance class
 
-A class that encapsulates a [JET_INSTANCE](hh564593\(v=exchg.10\).md) in a disposable object. The instance must be closed last and closing the instance releases all other resources for the instance.
+A class that encapsulates a [JET_INSTANCE](./jet-instance-structure.md) in a disposable object. The instance must be closed last and closing the instance releases all other resources for the instance.
 
 ## Inheritance hierarchy
 
@@ -38,7 +39,7 @@ A class that encapsulates a [JET_INSTANCE](hh564593\(v=exchg.10\).md) in a dispo
       [Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid](/dotnet/api/microsoft.win32.safehandles.safehandlezeroorminusoneisinvalid)  
         Microsoft.Isam.Esent.Interop.Instance  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,6 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[Instance members](dn350944\(v=exchg.10\).md)
+[Instance members](./instance-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexCantBuildException constructor"
 title: EsentIndexCantBuildException constructor 
 TOCTitle: 'EsentIndexCantBuildException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexCantBuildException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentIndexCantBuildException()
 
 #### Reference
 
-[EsentIndexCantBuildException class](dn350436\(v=exchg.10\).md)
+[EsentIndexCantBuildException class](./esentindexcantbuildexception-class.md)
 
-[EsentIndexCantBuildException members](dn319381\(v=exchg.10\).md)
+[EsentIndexCantBuildException members](./esentindexcantbuildexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

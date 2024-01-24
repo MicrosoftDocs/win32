@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_BootService class represents the functionality provided by a device or software, or by a network, to load an operating system on a unitary computer system.
+description: The CIM\_BootService class represents the functionality provided by a device or software, or by a network, to load an operating system on a unitary computer system.
 ms.assetid: d9c969bb-0f54-4e94-8e19-7ccd6f5adfb3
 ms.tgt_platform: multiple
 title: CIM_BootService class
@@ -382,7 +382,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

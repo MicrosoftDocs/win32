@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfAutoincrementValuesException members"
 title: EsentOutOfAutoincrementValuesException members
 TOCTitle: EsentOutOfAutoincrementValuesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfAutoincrementValuesException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.OutOfAutoincrementValues exceptions.
 
-The [EsentOutOfAutoincrementValuesException](dn319752\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfAutoincrementValuesException](./esentoutofautoincrementvaluesexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentOutOfAutoincrementValuesException class](dn319752\(v=exchg.10\).md)
+[EsentOutOfAutoincrementValuesException class](./esentoutofautoincrementvaluesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

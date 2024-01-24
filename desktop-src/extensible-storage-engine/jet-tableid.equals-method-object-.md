@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID.Equals method (Object)"
 title: JET_TABLEID.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.Equals(System.Object)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -66,10 +67,10 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](./jet-tableid-structure.md)
 
-[JET_TABLEID members](hh596310\(v=exchg.10\).md)
+[JET_TABLEID members](./jet-tableid-members.md)
 
-[Equals overload](hh577437\(v=exchg.10\).md)
+[Equals overload](./jet-tableid.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

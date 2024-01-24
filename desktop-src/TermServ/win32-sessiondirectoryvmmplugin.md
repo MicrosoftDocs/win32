@@ -164,7 +164,7 @@ The service location that the plug-in should contact.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |

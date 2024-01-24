@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average bytes per second in a quality-based variable-bit-rate (VBR) audio stream.
+description: Specifies the average bytes per second in a quality-based variable-bit-rate (VBR) audio stream.
 ms.assetid: dcee969a-617e-4045-a468-8158afb06356
 title: MFPKEY_WMAENC_AVGBYTESPERSEC Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ This value is required by the audio decoder to properly decompress the content.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Raised when the IMFMediaSession::Pause method completes asynchronously.
+description: Raised when the IMFMediaSession::Pause method completes asynchronously.
 ms.assetid: 72546082-83ec-4481-a24f-e82bd6c88859
 title: MESessionPaused event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

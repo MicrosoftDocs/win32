@@ -93,7 +93,7 @@ This image shows the same dialog box in high contrast on Windows 8, with Window
 
 ## Detecting High Contrast in Previous Versions of Windows
 
-Applications running on previous versions of Windows do not have access to the new high contrast themes. If your application needs to run on previous versions of , you should include support for rendering your UI in high contraWindowsst in the Windows classic theming model. Your application can determine whether a high contrast theme is active by calling the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function with the **SPI\_GETHIGHCONTRAST** flag.
+Applications running on previous versions of Windows do not have access to the new high contrast themes. If your application needs to run on previous versions of , you should include support for rendering your UI in high contrast in the Windows classic theming model. Your application can determine whether a high contrast theme is active by calling the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function with the **SPI\_GETHIGHCONTRAST** flag.
 
 ## Related topics
 

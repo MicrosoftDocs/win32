@@ -1,5 +1,5 @@
 ---
-Description: Service Object
+description: Service Object
 ms.assetid: 4ce4e7f7-579d-41a5-a4e1-935ba0afce83
 title: Service Object
 ms.topic: article

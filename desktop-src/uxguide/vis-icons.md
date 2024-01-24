@@ -3,10 +3,13 @@ title: Icons (Design basics)
 description: Icons are pictorial representations of objects, important not only for aesthetic reasons as part of the visual identity of a program, but also for utilitarian reasons as shorthand for conveying meaning that users perceive almost instantaneously.
 ms.assetid: 6f88cb32-ecfe-4e6e-a41b-31891cf510cf
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
-# Icons
+# Icons (Design basics)
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Icons are pictorial representations of objects, important not only for aesthetic reasons as part of the visual identity of a program, but also for utilitarian reasons as shorthand for conveying meaning that users perceive almost instantaneously. Windows Vista introduces a new style of iconography that brings a higher level of detail and sophistication to Windows.
 
@@ -106,9 +109,8 @@ The Drop Shadow option in the Layer Style dialog box, and a typical shadow for a
 
 
 
-|                               |                                                          |
+| Characteristic                              | Range                                                         |
 |-------------------------------|----------------------------------------------------------|
-| **Characteristic**<br/> | **Range**<br/>                                     |
 | Color<br/>              | Black<br/>                                         |
 | Blend mode<br/>         | Multiply<br/>                                      |
 | Opacity<br/>            | 22-50 percent, depending on color of the item<br/> |
@@ -168,9 +170,8 @@ The following tables show examples of scaling ratios applied to two common icon 
 
 
 
-|                    |                          |                             |
+| dpi                   | Icon size                         | Scale factor                            |
 |--------------------|--------------------------|-----------------------------|
-| **dpi**<br/> | **Icon size**<br/> | **Scale factor**<br/> |
 | 96<br/>      | 16x16<br/>         | 1.0 (100%)<br/>       |
 | 120<br/>     | 20x20<br/>         | 1.25 (125%)<br/>      |
 | 144<br/>     | 24x24<br/>         | 1.5 (150%)<br/>       |
@@ -182,9 +183,8 @@ The following tables show examples of scaling ratios applied to two common icon 
 
 
 
-|                    |                          |                             |
+| dpi                   | Icon size                         | Scale factor                            |
 |--------------------|--------------------------|-----------------------------|
-| **dpi**<br/> | **Icon size**<br/> | **Scale factor**<br/> |
 | 96<br/>      | 32x32<br/>         | 1.0 (100%)<br/>       |
 | 120<br/>     | 40x40<br/>         | 1.25 (125%)<br/>      |
 | 144<br/>     | 48x48<br/>         | 1.5 (150%)<br/>       |
@@ -196,7 +196,7 @@ The following tables show examples of scaling ratios applied to two common icon 
 
 **.ico file sizes (standard)**
 
-![illustration of different-sized router icons ](images/vis-icons-image16.png)
+![Diagram that shows different standard-sized router icons.](images/vis-icons-image16.png)
 
 **.ico file sizes (special cases)**
 
@@ -355,10 +355,4 @@ Try iterations in context.
 ![figure of two sets of folders in tree view ](images/vis-icons-image25.png)
 
  
-
- 
-
-
-
-
 

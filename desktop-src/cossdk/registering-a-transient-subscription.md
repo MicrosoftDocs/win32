@@ -1,5 +1,5 @@
 ---
-Description: Transient subscriptions cannot be set by using the Component Services administration tool. You must use the COM+ administrative interfaces to create or update a transient subscription.
+description: Transient subscriptions cannot be set by using the Component Services administration tool. You must use the COM+ administrative interfaces to create or update a transient subscription.
 ms.assetid: 28d48d59-abb2-4682-ab54-60b6aa7b31b1
 title: Registering a Transient Subscription
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The parent class from which all system event trace classes are derived. The following syntax is simplified from MOF code.
+description: The parent class from which all system event trace classes are derived. The following syntax is simplified from MOF code.
 ms.assetid: 27979d9c-eca7-426f-8f8e-99443e5a0188
 title: MSNT_SystemTrace class
 ms.topic: reference
@@ -63,7 +63,7 @@ Enable flag that indicates the enabled kernel providers.
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

@@ -34,10 +34,10 @@ Represents a custom layout template of Ribbon controls.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -189,11 +189,8 @@ The following code example illustrates a basic custom template.
 ## Element information
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+- **Minimum supported system**: Windows 7 
+- **Can be empty**: No
 
 
 

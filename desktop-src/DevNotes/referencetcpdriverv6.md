@@ -1,5 +1,5 @@
 ---
-Description: Obtains a reference to a TCP v6 driver object.
+description: Obtains a reference to a TCP v6 driver object.
 ms.assetid: 9f57ea0b-0ab4-4ef9-9bf1-1f41f72dfbe9
 title: ReferenceTcpDriverV6 function
 ms.topic: reference
@@ -55,7 +55,7 @@ This function is implemented in Drvref.lib, which is available for download. See
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>Drvref.lib</dt> </dl> |
 

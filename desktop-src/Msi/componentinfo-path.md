@@ -1,5 +1,5 @@
 ---
-Description: The path of the component.
+description: The path of the component.
 ms.assetid: f10253f4-d948-4853-9056-2a5c674a6506
 title: ComponentInfo.Path property
 ms.topic: reference
@@ -29,7 +29,7 @@ The path of the component. This property calls the [**MsiGetComponentPathEx**](/
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 or later.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |

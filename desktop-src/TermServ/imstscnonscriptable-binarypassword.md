@@ -1,6 +1,6 @@
 ---
 title: IMsTscNonScriptable BinaryPassword property
-description: This property is no longer available for use.
+description: This property is no longer available for use. | IMsTscNonScriptable BinaryPassword property
 ms.assetid: b3be7323-a75f-4ec2-9d58-e8ff3338d6ff
 ms.tgt_platform: multiple
 keywords:
@@ -82,7 +82,7 @@ Returns **E\_NOTIMPL**.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | None supported<br/>                                                              |

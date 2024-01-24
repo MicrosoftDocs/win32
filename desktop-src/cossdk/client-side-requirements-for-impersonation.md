@@ -1,5 +1,5 @@
 ---
-Description: Client-Side Requirements for Impersonation
+description: Client-Side Requirements for Impersonation
 ms.assetid: c2d20233-93c6-4d2d-946d-8abccbeb3c5e
 title: Client-Side Requirements for Impersonation
 ms.topic: article

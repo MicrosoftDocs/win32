@@ -1,5 +1,5 @@
 ---
-Description: The value of the first portion of the &\#0034;cs(User-Agent)&\#0034; field that the network source uses for logging.
+description: The value of the first portion of the &\#0034;cs(User-Agent)&\#0034; field that the network source uses for logging.
 ms.assetid: b6c33cc8-ff43-4a19-a333-51a7f9b265a9
 title: MFNETSOURCE_BROWSERUSERAGENT property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

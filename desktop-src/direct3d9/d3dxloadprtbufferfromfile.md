@@ -1,5 +1,5 @@
 ---
-Description: Loads into memory a precomputed radiance transfer (PRT) buffer that was saved to disk.
+description: Loads into memory a precomputed radiance transfer (PRT) buffer that was saved to disk.
 ms.assetid: b9296c9e-e8ff-4a18-8682-fcac4feb64e9
 title: D3DXLoadPRTBufferFromFile function (D3DX9Mesh.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The compiler setting also determines the function version. If Unicode is defined
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

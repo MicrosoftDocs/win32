@@ -1,5 +1,5 @@
 ---
-Description: Configures the ASF media source to use iterative seeking if the source file has no index.
+description: Configures the ASF media source to use iterative seeking if the source file has no index.
 ms.assetid: 0dd6f202-cdbc-4a28-8907-5530a0a2141b
 title: MFPKEY_ASFMediaSource_IterativeSeekIfNoIndex property (Mfidl.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ These properties set the maximum number of iterations and the tolerance, respect
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                     |

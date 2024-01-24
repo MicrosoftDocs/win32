@@ -1,5 +1,5 @@
 ---
-Description: Notification Functions
+description: Notification Functions
 ms.assetid: 44f69e05-1f08-48da-abb7-7e0a96c0cd26
 title: Notification Functions
 ms.topic: article

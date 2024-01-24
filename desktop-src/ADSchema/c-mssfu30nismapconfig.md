@@ -1,6 +1,6 @@
 ---
 title: msSFU-30-NIS-Map-Config class
-description: Represents an internal data structure used by the server for NIS.
+description: Represents an internal data structure used by the server for NIS. | msSFU-30-NIS-Map-Config class
 ms.assetid: 155e8aa0-8a24-40b6-90cc-fd8fb81856a4
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ Represents an internal data structure used by the server for NIS.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msSFU-30-NIS-Map-Config              |
 | Ldap-Display-Name | msSFU30NISMapConfig                  |
@@ -45,7 +45,7 @@ Represents an internal data structure used by the server for NIS.
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -180,7 +180,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -326,7 +326,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -479,7 +479,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

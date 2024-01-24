@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFilteredMoveNotSupportedException constructor"
 title: EsentFilteredMoveNotSupportedException constructor 
 TOCTitle: 'EsentFilteredMoveNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSupportedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFilteredMoveNotSupportedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentFilteredMoveNotSupportedException()
 
 #### Reference
 
-[EsentFilteredMoveNotSupportedException class](dn274384\(v=exchg.10\).md)
+[EsentFilteredMoveNotSupportedException class](./esentfilteredmovenotsupportedexception-class.md)
 
-[EsentFilteredMoveNotSupportedException members](dn274385\(v=exchg.10\).md)
+[EsentFilteredMoveNotSupportedException members](./esentfilteredmovenotsupportedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

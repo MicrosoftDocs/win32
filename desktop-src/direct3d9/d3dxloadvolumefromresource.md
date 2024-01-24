@@ -1,5 +1,5 @@
 ---
-Description: Loads a volume from a resource.
+description: Loads a volume from a resource.
 ms.assetid: 3fa1243b-5e31-4737-8d3c-08852d6528d9
 title: D3DXLoadVolumeFromResource function (D3dx9tex.h)
 ms.topic: reference
@@ -144,7 +144,7 @@ This function supports both Unicode and ANSI strings.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

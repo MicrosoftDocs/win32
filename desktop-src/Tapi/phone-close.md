@@ -1,5 +1,5 @@
 ---
-Description: The TAPI PHONE\_CLOSE message is sent when an open phone device has been forcibly closed as part of resource reclamation. The device handle is no longer valid once this message has been sent.
+description: The TAPI PHONE\_CLOSE message is sent when an open phone device has been forcibly closed as part of resource reclamation. The device handle is no longer valid once this message has been sent.
 ms.assetid: 84650abf-235e-4792-a67d-2f0f08b85a32
 title: PHONE_CLOSE message (Tapi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ An open phone device can also be forcibly closed after the user has modified the
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

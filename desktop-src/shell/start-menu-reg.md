@@ -1,5 +1,5 @@
 ---
-Description: The Start menu in Windows XP and Windows Vista contains reserved slots for the default Internet (browser) and E-mail (mail) clients, together commonly known as Start Menu Internet Applications.
+description: The Start menu in Windows XP and Windows Vista contains reserved slots for the default Internet (browser) and E-mail (mail) clients, together commonly known as Start Menu Internet Applications.
 ms.assetid: a3d7416f-0dbd-4af2-ab38-758f9cc8aec5
 title: How to Register an Internet Browser or Email Client With the Windows Start Menu
 ms.topic: article
@@ -111,21 +111,22 @@ HKEY_LOCAL_MACHINE
             (Default) = LITVIEW.EXE
 ```
 
-> [!Note]In Windows Vista, the user-level default web browser should be set using the **Default Programs** tool, not [SPAD](cpl-setprogramaccess.md).
->
+> [!Note]
+> In Windows Vista, the user-level default web browser should be set using the **Default Programs** tool, not [SPAD](cpl-setprogramaccess.md).
+> 
 > **The following information applies to Windows XP only.**
->
+> 
 > If the registration of the computer-level default web browser under HKEY\_LOCAL\_MACHINE as shown above is successful, the application should delete the Default entry under the following subkey:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE
 >       Clients
 >          StartMenuInternet
 > ```
->
+> 
 > If the registration of the computer-level default web browser under HKEY\_LOCAL\_MACHINE fails, the application should set the REG\_SZ data as shown in this example for the Lit View application:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE

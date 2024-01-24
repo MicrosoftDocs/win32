@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotCommittedException constructor"
 title: EsentSLVPagesNotCommittedException constructor 
 TOCTitle: 'EsentSLVPagesNotCommittedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotCommittedException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVPagesNotCommittedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVPagesNotCommittedException()
 
 #### Reference
 
-[EsentSLVPagesNotCommittedException class](dn350720\(v=exchg.10\).md)
+[EsentSLVPagesNotCommittedException class](./esentslvpagesnotcommittedexception-class.md)
 
-[EsentSLVPagesNotCommittedException members](dn334820\(v=exchg.10\).md)
+[EsentSLVPagesNotCommittedException members](./esentslvpagesnotcommittedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

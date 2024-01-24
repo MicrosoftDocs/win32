@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO Structure"
 title: JET_BKINFO Structure
 TOCTitle: JET_BKINFO Structure
 ms:assetid: dfaf1d72-1d5f-4777-91c1-6affb735b092
@@ -64,36 +65,22 @@ The high log generation number associated with this backup event.
 
 ### Remarks
 
-This structure is used inside the [JET_DBINFOMISC](gg294147\(v=exchg.10\).md) structure to represent data about the database backup event.
+This structure is used inside the [JET_DBINFOMISC](./jet-dbinfomisc-structure.md) structure to represent data about the database backup event.
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also
 
-[JET_LGPOS](gg294113\(v=exchg.10\).md)  
-[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
-[JET_BKLOGTIME](gg269219\(v=exchg.10\).md)  
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
-
+[JET_LGPOS](./jet-lgpos-structure.md)  
+[JET_LOGTIME](./jet-logtime-structure.md)  
+[JET_BKLOGTIME](./jet-bklogtime-structure.md)  
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)

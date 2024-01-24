@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullInvalidException methods"
 title: EsentNullInvalidException methods
 TOCTitle: EsentNullInvalidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNullInvalidException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNullInvalidException](dn319698\(v=exchg.10\).md) type exposes the following members.
+The [EsentNullInvalidException](./esentnullinvalidexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentNullInvalidException class](dn319698\(v=exchg.10\).md)
+[EsentNullInvalidException class](./esentnullinvalidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

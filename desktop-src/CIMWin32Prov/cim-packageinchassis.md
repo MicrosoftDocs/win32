@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PackageInChassis association represents the relationship in which a chassis can contain other packages, such as other chassis and cards.
+description: The CIM\_PackageInChassis association represents the relationship in which a chassis can contain other packages, such as other chassis and cards.
 ms.assetid: 3243bc0f-ce20-4108-b6e3-838bcb8f2fec
 ms.tgt_platform: multiple
 title: CIM_PackageInChassis class
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

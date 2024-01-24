@@ -1,5 +1,5 @@
 ---
-Description: Encoder Interfaces
+description: Encoder Interfaces
 ms.assetid: 02365401-8648-4be1-a447-fabd2cb77355
 title: Encoder Interfaces
 ms.topic: article
@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Encoder Interfaces
 
-## 
 
 The following tables show the interfaces implemented by Windows Imaging Component (WIC) encoders, and the class diagram shows the inheritance hierarchy.
 

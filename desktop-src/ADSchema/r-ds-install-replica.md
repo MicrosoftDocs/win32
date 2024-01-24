@@ -21,7 +21,7 @@ Extended right needed to do a replica install.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | DS-Install-Replica                   |
 | Display-Name | Add/Remove Replica In Domain         |
@@ -43,7 +43,7 @@ Extended right needed to do a replica install.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 49                                           |
@@ -54,7 +54,7 @@ Extended right needed to do a replica install.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 49                                           |
@@ -65,7 +65,7 @@ Extended right needed to do a replica install.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 49                                           |
@@ -76,7 +76,7 @@ Extended right needed to do a replica install.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 49                                           |
@@ -87,7 +87,7 @@ Extended right needed to do a replica install.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 49                                           |
@@ -98,7 +98,7 @@ Extended right needed to do a replica install.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 49                                           |
@@ -109,7 +109,7 @@ Extended right needed to do a replica install.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 49                                           |

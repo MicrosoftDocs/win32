@@ -1,5 +1,5 @@
 ---
-Description: Sets the Internetworking Packet Exchange (IPX) network number/frame pairs for this network adapter.
+description: Sets the Internetworking Packet Exchange (IPX) network number/frame pairs for this network adapter.
 ms.assetid: 8190564f-7d9f-4b05-9949-2e732ce36dba
 ms.tgt_platform: multiple
 title: SetIPXFrameTypeNetworkPairs method of the Win32_NetworkAdapterConfiguration class
@@ -212,7 +212,7 @@ An integer array of frame type identifiers. The values in this array correspond 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: If the XML web service you want to access was created by exposing a COM+ application, consider accessing it in client-activated object (CAO) mode, which avoids the run-time generation of a proxy and increases performance by using persistent connections.
+description: If the XML web service you want to access was created by exposing a COM+ application, consider accessing it in client-activated object (CAO) mode, which avoids the run-time generation of a proxy and increases performance by using persistent connections.
 ms.assetid: 471de0fa-3429-45f8-abe2-aff0cf6fb350
 title: Accessing XML Web Services in CAO Mode
 ms.topic: article

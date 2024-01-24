@@ -1,6 +1,6 @@
 ---
 title: MS-TS-Property02 attribute
-description: Reserved for future use.
+description: Reserved for future use. | MS-TS-Property02 attribute
 ms.assetid: 4d96a949-96f6-4208-b6a0-903122ca7ae7
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ Reserved for future use.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MS-TS-Property02                            |
 | Ldap-Display-Name | msTSProperty02                              |
@@ -45,7 +45,7 @@ Reserved for future use.
 
 
 
-|                        |                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------|
 | Link-Id                | \-                                                                          |
 | MAPI-Id                | \-                                                                          |
@@ -66,7 +66,7 @@ Reserved for future use.
 
 
 
-|                        |                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------|
 | Link-Id                | \-                                                                          |
 | MAPI-Id                | \-                                                                          |
@@ -87,7 +87,7 @@ Reserved for future use.
 
 
 
-|                        |                                                                             |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------|
 | Link-Id                | \-                                                                          |
 | MAPI-Id                | \-                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The ICertEncodeLongArray interface exposes the following methods.
+description: The ICertEncodeLongArray interface exposes the following methods.
 ms.assetid: EFF77C99-D7FE-433E-81E6-64535D0A9B63
 title: ICertEncodeLongArray Methods
 ms.topic: reference

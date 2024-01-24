@@ -1,5 +1,5 @@
 ---
-Description: The SNMP event providers support SNMPv1 traps and SNMPv2 notifications.
+description: The SNMP event providers support SNMPv1 traps and SNMPv2 notifications.
 ms.assetid: 715b2925-b01d-4631-86e3-a6239ff1dba7
 ms.tgt_platform: multiple
 title: Receiving SNMP Events

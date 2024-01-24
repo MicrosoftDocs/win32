@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for network events. The following syntax is simplified from MOF code.
+description: This class is the event type class for network events. The following syntax is simplified from MOF code.
 ms.assetid: afa994ef-dd1c-4909-a6cd-7021be4fff40
 title: SystemConfig_Network class
 ms.topic: reference
@@ -113,7 +113,7 @@ Qualifiers: WmiDataId(4)
 
 The time that must elapse before TCP can release a closed connection and reuse its resources. This interval between closure and release is known as the TIME\_WAIT state or 2MSL state. During this time, the connection can be reopened at much less cost to the client and server than establishing a new connection.
 
-RFC 793 published by the IETF requires that TCP maintains a closed connection for an interval at least equal to twice the maximum segment lifetime (2MSL) of the network. When a connection is released, its socket pair and TCP control block (TCB) can be used to support another connection. By default, the MSL is defined to be 120 seconds, and the value of this entry is equal to two MSLs, or 4 minutes. For more information, see [RFC 793](https://tools.ietf.org/html/rfc973).
+RFC 793 published by the IETF requires that TCP maintains a closed connection for an interval at least equal to twice the maximum segment lifetime (2MSL) of the network. When a connection is released, its socket pair and TCP control block (TCB) can be used to support another connection. By default, the MSL is defined to be 120 seconds, and the value of this entry is equal to two MSLs, or 4 minutes. For more information, see [RFC 793](https://tools.ietf.org/html/rfc793).
 
 Reducing the value of this entry using a registry setting allows TCP to release closed connections faster, providing more resources for new connections. However, if the value is too low, TCP might release connection resources before the connection is complete, requiring the server to use additional resources to reestablish the connection.
 
@@ -125,7 +125,7 @@ Normally, TCP does not release closed connections until the value of this entry 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

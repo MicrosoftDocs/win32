@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC.errValue property"
 title: JET_ERRINFOBASIC.errValue property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'errValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.errValue
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the error value for the requested info level.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public JET_err errValue { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](./jet-errinfobasic-class.md)
 
-[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](./jet-errinfobasic-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

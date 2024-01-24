@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDatabaseSpaceException properties"
 title: EsentOutOfDatabaseSpaceException properties
 TOCTitle: EsentOutOfDatabaseSpaceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfDatabaseSpaceException](dn319717\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfDatabaseSpaceException](./esentoutofdatabasespaceexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentOutOfDatabaseSpaceException class](dn319717\(v=exchg.10\).md)
+[EsentOutOfDatabaseSpaceException class](./esentoutofdatabasespaceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

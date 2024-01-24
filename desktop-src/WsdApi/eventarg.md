@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether related event arguments are included in the generated functions.
+description: Specifies whether related event arguments are included in the generated functions.
 ms.assetid: 60be4680-c434-4fdb-8449-c040969d2f59
 title: eventArg element
 ms.topic: reference
@@ -43,7 +43,7 @@ Possible values are 1 (event arguments included) and 0 (default, event arguments
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

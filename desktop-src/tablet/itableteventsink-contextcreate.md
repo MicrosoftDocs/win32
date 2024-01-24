@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a new tablet context is created.
+description: Occurs when a new tablet context is created.
 ms.assetid: 64e1f778-90c1-417d-a80b-37aeecffd411
 title: ITabletEventSink::ContextCreate method
 ms.topic: reference
@@ -61,7 +61,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

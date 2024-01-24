@@ -1,5 +1,5 @@
 ---
-Description: Represents the attributes of the computer system's basic input/output services (BIOS) that are installed on a computer.
+description: Represents the attributes of the computer system's basic input/output services (BIOS) that are installed on a computer.
 ms.assetid: e4a5aaf0-0432-4517-97b7-ac05ffd10b5b
 ms.tgt_platform: multiple
 title: Win32_BIOS class
@@ -1553,10 +1553,6 @@ The properties in the **Win32\_BIOS** class may change for a specific computer s
 
 ## Examples
 
-The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software, including **Win32\_BIOS**, to display information about a local or remote system.
-
-The [Generate system information as XML hierarchy](https://Gallery.TechNet.Microsoft.Com/Generate-system-information-3f40629f) VBScript sample on TechNet Gallery uses a number of calls to hardware and software, including **Win32\_BIOS**, to generate an XML representation of a system using a manual XML output.
-
 The following PowerShell code sample uses **Win32\_BIOS** to return characteristics of the BIOS
 
 
@@ -1721,7 +1717,7 @@ Version               :  DELL   - 27d60a0d
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

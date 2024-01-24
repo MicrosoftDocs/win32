@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the size of a device. This is returned from the IOCTL\_STORAGE\_READ\_CAPACITY control code.
+description: Contains information about the size of a device. This is returned from the IOCTL\_STORAGE\_READ\_CAPACITY control code.
 ms.assetid: 'bd18f4b7-f87e-48f6-b7c2-68990beb8d36'
 title: STORAGE_READ_CAPACITY structure (Ntddstor.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ The header file Ntddstor.h is available in the Windows Driver Kit (WDK).
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP1<br/>                          |

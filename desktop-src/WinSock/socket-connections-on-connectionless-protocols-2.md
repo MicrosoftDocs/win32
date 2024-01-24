@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe the semantics of using connect operations on connectionless protocols such as UDP and IPX.Connecting to a Default PeerReconnecting and DisconnectingUsing Sendto While Connected
+description: The following sections describe the semantics of using connect operations on connectionless protocols such as UDP and IPX.Connecting to a Default PeerReconnecting and DisconnectingUsing Sendto While Connected
 ms.assetid: 7d69c82e-51cb-4e54-8097-744e211eb032
 title: Socket Connections on Connectionless Protocols
 ms.topic: article

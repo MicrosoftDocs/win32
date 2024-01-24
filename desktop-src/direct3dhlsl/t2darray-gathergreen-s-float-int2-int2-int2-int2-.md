@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherGreen(S,float,int2,int2,int2,int2) function
-description: Samples a texture and returns the green component.
+description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation. | Texture2DArray::GatherGreen(S,float,int2,int2,int2,int2) function
 ms.assetid: 7E79442E-286F-4BDB-8D7A-2C20A0933585
 keywords:
 - GatherGreen function HLSL
@@ -15,21 +15,21 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherGreen(S,float,int2,int2,int2,int2) function
+# Texture2DArray::GatherGreen(S,float,int2,int2,int2,int2) function
 
-Samples a texture and returns the green component.
+Returns the green components of the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType GatherGreen(
-  in SamplerState S,
-  in float        Location,
-  in int2         Offset1,
-  in int2         Offset2,
-  in int2         Offset3,
-  in int2         Offset4
+  in SamplerState S,
+  in float3       Location,
+  in int2         Offset1,
+  in int2         Offset2,
+  in int2         Offset3,
+  in int2         Offset4
 );
 ```
 
@@ -113,7 +113,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -122,9 +122,9 @@ This function is supported for the following types of shaders:
 [GatherGreen methods](texture2darray-gathergreen.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 

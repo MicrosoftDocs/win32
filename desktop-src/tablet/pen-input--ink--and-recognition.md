@@ -1,5 +1,5 @@
 ---
-Description: One interesting new feature of Tablet PC is the pen input system.
+description: One interesting new feature of Tablet PC is the pen input system.
 ms.assetid: 8432617a-5ae7-44cb-a5f7-f3b2d8885846
 title: Pen Input, Ink, and Recognition
 ms.topic: article

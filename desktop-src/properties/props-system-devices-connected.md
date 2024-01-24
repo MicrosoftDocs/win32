@@ -1,5 +1,5 @@
 ---
-Description: Device connection state.
+description: Device connection state.
 ms.assetid: 33c0aeed-3b68-4cdc-befe-4df3b1e6f2a3
 title: System.Devices.Connected
 ms.topic: article

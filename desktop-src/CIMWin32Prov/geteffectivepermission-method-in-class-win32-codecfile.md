@@ -1,5 +1,5 @@
 ---
-Description: Uses the values set in the Permissions parameter to determine whether the user has the specified permissions set in the AccessMask property of the Win32\_CodecFile object that represents the codec file.
+description: Uses the values set in the Permissions parameter to determine whether the user has the specified permissions set in the AccessMask property of the Win32\_CodecFile object that represents the codec file.
 ms.assetid: 068dfcaf-037b-4516-b85a-8ba6558ba561
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_CodecFile class (Aclui.h)
@@ -206,7 +206,7 @@ Returns **True** when the caller has the specified permissions, and **false** wh
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

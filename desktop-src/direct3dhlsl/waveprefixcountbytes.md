@@ -47,13 +47,7 @@ The sum of all the specified Boolean variables set to true across all active lan
 
 ## Remarks
 
-This function is supported from shader model 6.0, in the following types of shaders:
-
-
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 
 

@@ -12,7 +12,7 @@ Signed integer multiply and add.
 
 
 
-| imad dest\[.mask\], \[-\]src0\[.swizzle\], \[-\]src1\[.swizzle\], \[-\]src2\[.swizzle |
+| imad dest\[.mask\], \[-\]src0\[.swizzle\], \[-\]src1\[.swizzle\], \[-\]src2\[.swizzle\] |
 |---------------------------------------------------------------------------------------|
 
 

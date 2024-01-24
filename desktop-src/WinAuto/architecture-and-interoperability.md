@@ -42,7 +42,7 @@ With UI Automation, the UI Automation core component (UIAutomationCore.dll) is l
 
 UI Automation includes proxy objects that provide UI information about standard UI elements such as USER controls, USER menus, and common controls. It also includes proxies that enable UI Automation clients to get UI information from Microsoft Active Accessibility servers.
 
-The following illustration shows the relationships among the various UI Automation compontents used in accessibility tools (clients) and in applications (providers).
+The following illustration shows the relationships among the various UI Automation components used in accessibility tools (clients) and in applications (providers).
 
 ![illustration showing how components of accessibility tools interact with those in applications](images/uiaarch.gif)
 

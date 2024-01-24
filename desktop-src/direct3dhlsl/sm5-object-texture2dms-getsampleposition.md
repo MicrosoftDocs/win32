@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetSamplePosition function
+# Texture2DMS::GetSamplePosition function
 
 Returns the sample position for the sample index provided.
 

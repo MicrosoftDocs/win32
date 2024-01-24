@@ -1,5 +1,5 @@
 ---
-Description: Sets the minimum bone influence. Influence values smaller than this are ignored.
+description: Sets the minimum bone influence. Influence values smaller than this are ignored.
 ms.assetid: 9af19c9e-bb6e-4f93-973f-5c38f88eea3d
 title: ID3DXSkinInfo::SetMinBoneInfluence method (D3DX9Mesh.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

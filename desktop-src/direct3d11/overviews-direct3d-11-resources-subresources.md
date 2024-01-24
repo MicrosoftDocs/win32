@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Subresources
+# Subresources (Direct3D 11 Graphics)
 
 This topic describes texture subresources, or portions of a resource.
 

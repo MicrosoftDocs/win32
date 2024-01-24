@@ -22,7 +22,7 @@ Value of the [**USN-Changed**](a-usnchanged.md) attribute of the object from the
 
 
 
-|                   |                                                                                                     |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------------------------------------|
 | CN                | USN-Source                                                                                          |
 | Ldap-Display-Name | uSNSource                                                                                           |
@@ -49,7 +49,7 @@ Value of the [**USN-Changed**](a-usnchanged.md) attribute of the object from the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8157                          |
@@ -70,7 +70,7 @@ Value of the [**USN-Changed**](a-usnchanged.md) attribute of the object from the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8157                          |
@@ -91,7 +91,7 @@ Value of the [**USN-Changed**](a-usnchanged.md) attribute of the object from the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8157                          |
@@ -112,7 +112,7 @@ Value of the [**USN-Changed**](a-usnchanged.md) attribute of the object from the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8157                          |
@@ -133,7 +133,7 @@ Value of the [**USN-Changed**](a-usnchanged.md) attribute of the object from the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8157                          |
@@ -154,7 +154,7 @@ Value of the [**USN-Changed**](a-usnchanged.md) attribute of the object from the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8157                          |
@@ -175,7 +175,7 @@ Value of the [**USN-Changed**](a-usnchanged.md) attribute of the object from the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8157                          |

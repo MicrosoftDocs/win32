@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SetCurrentIndexGrbit enumeration"
 title: SetCurrentIndexGrbit enumeration
 TOCTitle: SetCurrentIndexGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit
@@ -34,11 +35,11 @@ ROBOTS: INDEX,FOLLOW
 
 # SetCurrentIndexGrbit enumeration
 
-Options for [JetSetCurrentIndex2(JET_SESID, JET_TABLEID, String, SetCurrentIndexGrbit)](dn334005\(v=exchg.10\).md) and [JetSetCurrentIndex3(JET_SESID, JET_TABLEID, String, SetCurrentIndexGrbit, Int32)](dn334012\(v=exchg.10\).md).
+Options for [JetSetCurrentIndex2(JET_SESID, JET_TABLEID, String, SetCurrentIndexGrbit)](./api.jetsetcurrentindex2-method.md) and [JetSetCurrentIndex3(JET_SESID, JET_TABLEID, String, SetCurrentIndexGrbit, Int32)](./api.jetsetcurrentindex3-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -90,4 +91,4 @@ public enum SetCurrentIndexGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

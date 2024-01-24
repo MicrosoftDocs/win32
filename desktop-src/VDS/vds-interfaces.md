@@ -1,5 +1,5 @@
 ---
-Description: Virtual Disk Service (VDS) objects provide interfaces that expose methods for querying, configuring, and maintaining storage devices.
+description: Virtual Disk Service (VDS) objects provide interfaces that expose methods for querying, configuring, and maintaining storage devices.
 ms.assetid: 0bddfd62-881d-4fda-b303-ed38d434af55
 title: VDS Interfaces
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # VDS Interfaces
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 Virtual Disk Service (VDS) objects provide interfaces that expose methods for querying, configuring, and maintaining storage devices.
 

@@ -1,5 +1,5 @@
 ---
-Description: 'There are four layers to the Ink Analysis library: Windows Forms, WPF, COM, and the base layer. This section describes when to use each layer.'
+description: 'There are four layers to the Ink Analysis library: Windows Forms, WPF, COM, and the base layer. This section describes when to use each layer.'
 ms.assetid: bd190606-5bd8-4280-ba2b-267588904ed3
 title: Ink Analysis API Usage
 ms.topic: article

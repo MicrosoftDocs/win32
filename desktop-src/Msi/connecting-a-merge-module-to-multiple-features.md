@@ -1,5 +1,5 @@
 ---
-Description: The Connect method of the Merge Object can be used to connect a module to an additional feature that has been merged into the database or that will be merged into the database. The feature must exist before calling this method.
+description: The Connect method of the Merge Object can be used to connect a module to an additional feature that has been merged into the database or that will be merged into the database. The feature must exist before calling this method.
 ms.assetid: 8b59de42-bc3f-468b-a410-8f935ff73345
 title: Connecting a Merge Module to Multiple Features
 ms.topic: article

@@ -15,10 +15,13 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # IWMPClosedCaption::SAMIStyle property
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **SAMIStyle** property gets or sets the closed captioning style.
 
@@ -45,7 +48,7 @@ The **System.String** that is the name specified in the style identifier of a SA
 
 ## Remarks
 
-A SAMI file can contain several format style definitions. SAMI styles are defined between the <STYLE> and </STYLE> tags in the SAMI file. A style is defined with a text string preceded by a \# character. For example:
+A SAMI file can contain several format style definitions. SAMI styles are defined between the &lt;STYLE&gt; and </STYLE> tags in the SAMI file. A style is defined with a text string preceded by a \# character. For example:
 
 
 ```
@@ -64,7 +67,7 @@ If no SAMI style is specified, the first style defined in the SAMI file is used 
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

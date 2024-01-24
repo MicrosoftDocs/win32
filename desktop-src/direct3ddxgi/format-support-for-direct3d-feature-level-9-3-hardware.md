@@ -1,5 +1,5 @@
 ---
-Description: This section specifies the formats ([**DXGI_FORMAT_***](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) values) that are supported in Direct3D Feature 10Level9 9.3 hardware.
+description: This section specifies the formats ([**DXGI_FORMAT_***](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) values) that are supported in Direct3D Feature 10Level9 9.3 hardware.
 ms.assetid: B2A843D5-6A6B-4180-8B94-D032B1322798
 title: Format support for Direct3D Feature 10Level9 9.3 hardware
 ms.topic: article
@@ -16,8 +16,8 @@ The table summarizes the feature support, using the following key.
 |-----------------------------------|-------------------------------------------------------------------------------|
 | **-**                             | Disallowed or not available.                                                  |
 | ![required](images/letter-r.jpg)  | Hardware support is required.                                                 |
-| ![optional](images/letter-o.jpg)  | Hardware support optional, the format may or may not be hardware accelerated. |
-| ![dependant](images/letter-d.jpg) | Required if related optional feature is supported.                            |
+| ![optional](images/letter-o.jpg)  | Hardware support optional; the format may or may not be hardware accelerated. |
+| ![dependant](images/letter-d.jpg) | Required if a related optional feature is supported.                            |
 
 This topic contains a section per format. A format *target* (the tables contain one row per target) can be a resource type, an HLSL intrinsic function, or a particular functionality that is dependent on a particular format.
 

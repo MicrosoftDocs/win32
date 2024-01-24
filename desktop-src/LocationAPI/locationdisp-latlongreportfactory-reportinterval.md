@@ -1,5 +1,5 @@
 ---
-Description: The current latitude/longitude report event interval in milliseconds.
+description: The current latitude/longitude report event interval in milliseconds.
 ms.assetid: bb33c4c1-805d-4519-8363-b0221d420b36
 title: LocationDisp.LatLongReportFactory.ReportInterval property
 ms.topic: reference
@@ -44,7 +44,7 @@ This value is a request to the location provider. The location provider is not r
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

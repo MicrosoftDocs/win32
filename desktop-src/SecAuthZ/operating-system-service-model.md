@@ -1,5 +1,5 @@
 ---
-Description: An application running as a standard user communicates with a service running as SYSTEM by using Remote Procedure Call (RPC).
+description: An application running as a standard user communicates with a service running as SYSTEM by using Remote Procedure Call (RPC).
 ms.assetid: c0bcebe3-f7eb-471f-a21d-5840d2e26729
 title: Operating System Service Model
 ms.topic: article

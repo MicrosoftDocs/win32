@@ -1,5 +1,5 @@
 ---
-Description: The distortion visible in the texels of a 3D object whose surface is oriented at an angle with respect to the plane of the screen is called anisotropy.
+description: The distortion visible in the texels of a 3D object whose surface is oriented at an angle with respect to the plane of the screen is called anisotropy.
 ms.assetid: f6c8a9e2-aab0-4f06-956e-bb86557c72e7
 title: Anisotropic Texture Filtering (Direct3D 9)
 ms.topic: article

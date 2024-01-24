@@ -22,7 +22,7 @@ An integer by which MAPI clients identify this attribute.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | MAPI-ID                              |
 | Ldap-Display-Name | mAPIID                               |
@@ -48,7 +48,7 @@ An integer by which MAPI clients identify this attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80CE                                                   |
@@ -69,7 +69,7 @@ An integer by which MAPI clients identify this attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80CE                                                   |
@@ -90,7 +90,7 @@ An integer by which MAPI clients identify this attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80CE                                                   |
@@ -111,7 +111,7 @@ An integer by which MAPI clients identify this attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80CE                                                   |
@@ -132,7 +132,7 @@ An integer by which MAPI clients identify this attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80CE                                                   |
@@ -153,7 +153,7 @@ An integer by which MAPI clients identify this attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80CE                                                   |

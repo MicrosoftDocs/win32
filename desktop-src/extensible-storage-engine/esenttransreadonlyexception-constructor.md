@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransReadOnlyException constructor"
 title: EsentTransReadOnlyException constructor 
 TOCTitle: 'EsentTransReadOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTransReadOnlyException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTransReadOnlyException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTransReadOnlyException()
 
 #### Reference
 
-[EsentTransReadOnlyException class](dn350809\(v=exchg.10\).md)
+[EsentTransReadOnlyException class](./esenttransreadonlyexception-class.md)
 
-[EsentTransReadOnlyException members](dn350804\(v=exchg.10\).md)
+[EsentTransReadOnlyException members](./esenttransreadonlyexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

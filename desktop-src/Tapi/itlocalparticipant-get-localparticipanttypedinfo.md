@@ -1,5 +1,5 @@
 ---
-Description: The get\_LocalParticipantTypedInfo method gets participant information, such as e-mail name or geographical location.
+description: The get\_LocalParticipantTypedInfo method gets participant information, such as e-mail name or geographical location.
 ms.assetid: 46bb70a7-7dc9-463d-8416-737122412750
 title: ITLocalParticipant::get_LocalParticipantTypedInfo method (Confpriv.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ The application must use [SysFreeString](/windows/win32/api/oleauto/nf-oleauto-s
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

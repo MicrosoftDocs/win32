@@ -1,5 +1,5 @@
 ---
-Description: Represents a handle to an OCSP response associated with a server certificate chain.
+description: Represents a handle to an OCSP response associated with a server certificate chain.
 ms.assetid: baf173f1-99dc-49f9-9a17-fee79b393db7
 title: HCERT_SERVER_OCSP_RESPONSE (Wincrypt.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ typedef VOID* HCERT_SERVER_OCSP_RESPONSE;
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

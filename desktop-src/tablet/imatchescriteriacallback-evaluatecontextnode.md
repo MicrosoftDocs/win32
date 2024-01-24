@@ -1,5 +1,5 @@
 ---
-Description: When overridden in a derived class, evaluates whether a specified IContextNode object meets the criteria.
+description: When overridden in a derived class, evaluates whether a specified IContextNode object meets the criteria.
 ms.assetid: ade8e59c-6aeb-4a87-a95d-229f8f0b2223
 title: IMatchesCriteriaCallBack::EvaluateContextNode method (IACom.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ To use [**IInkAnalyzer::FindNodesWithCallBack Method**](iinkanalyzer-findnodeswi
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

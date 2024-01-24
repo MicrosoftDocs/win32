@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the URI that points to a Certification Practice Statement (CPS) published by the certification authority (CA).
+description: Retrieves the URI that points to a Certification Practice Statement (CPS) published by the certification authority (CA).
 ms.assetid: fd030c1c-137c-4036-bf13-ae989a9703cc
 title: Qualifier.CPSPointer property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Qualifier.CPSPointer property
 
-\[The **CPSPointer** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
+\[The **CPSPointer** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
 
 The **CPSPointer** property retrieves the URI that points to a Certification Practice Statement (CPS) published by the certification authority (CA).
 
@@ -38,7 +38,7 @@ The URI that points to a CPS published by the CA.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

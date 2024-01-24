@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Application Manifest
 ms.assetid: f022374d-ea3f-477f-9b59-3188b775ed64
 title: Application Manifest
 ms.topic: article
@@ -127,7 +127,7 @@ The value of adding GUIDs for both operating systems in the above example is to 
 
 **Crash dump diagnosis blocked**
 
-**Solution** Go to the Microsoft Support page for [KB 976038: Exceptions that are thrown from an application that runs in a 64-bit version of Windows are ignored](https://support.microsoft.com/kb/976038) for additional details.
+**Solution** Go to the Microsoft Support page for KB 976038: Exceptions that are thrown from an application that runs in a 64-bit version of Windows are ignored  for additional details.
 
 ## Links to Other Resources
 

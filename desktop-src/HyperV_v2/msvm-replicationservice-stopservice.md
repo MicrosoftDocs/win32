@@ -1,5 +1,5 @@
 ---
-Description: Stops the service.
+description: StopService method of the Msvm_ReplicationService class - Stops the service.
 ms.assetid: ff92e1ba-3093-4e78-8729-9f98a22a9f74
 title: StopService method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -48,7 +48,7 @@ The method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

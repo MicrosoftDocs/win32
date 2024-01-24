@@ -1,5 +1,5 @@
 ---
-Description: The Subclasses\_ method of the SWbemObject object returns an SWbemObjectSet object.
+description: The Subclasses\_ method of the SWbemObject object returns an SWbemObjectSet object.
 ms.assetid: c17e5d4a-016f-42ae-bc11-e21a44772ce5
 ms.tgt_platform: multiple
 title: SWbemObject.Subclasses_ method (Wbemdisp.h)
@@ -162,7 +162,7 @@ It is not an error for the returned collection to have zero elements if there ar
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Returns a string located at a given position within a BLOB.
+description: Returns a string located at a given position within a BLOB.
 ms.assetid: 5930a30b-f0ed-4d5b-a0ba-6cead55c2fcd
 title: GetStringFromBlob function (Netmon.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ If the specified **Owner**, **Category**, or **Tag** data does not exist, the fu
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

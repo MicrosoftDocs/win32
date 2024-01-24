@@ -1,34 +1,28 @@
 - name: "Windows Search"
   href: windows-search.md
   items: 
-  - name: "Windows Search Overview"
-    href: -search-3x-wds-overview.md
+  - name: "Technical Overview"
     items: 
+    - name: "Technical Overview"
+      href: -search-3x-wds-overview.md
     - name: "Windows Search as a Development Platform"
       href: -search-3x-wds-development-ovr.md
-      items: 
-      - name: "Windows 7 Search"
-        href: -search-new-for-win7.md
-        items: 
-        - name: "New for Windows 7 Search"
-          href: new-for-windows-7-search.md
-        - name: "Indexing Prioritization and Rowset Events in Windows 7"
-          href: indexing-prioritization-and-rowset-events.md
-        - name: "Windows Shell Libraries in Windows 7"
-          href: -search-win7-development-scenarios.md
-      - name: "Indexing, Querying and Notifications in Windows Search"
-        href: indexing--querying-and-notifications--windows-search-.md
-        items: 
-        - name: "What is Included in the Index"
-          href: -search-3x-wds-included-in-index.md
-        - name: "Indexing Process in Windows Search"
-          href: -search-indexing-process-overview.md
-        - name: "Querying Process in Windows Search"
-          href: querying-process--windows-search-.md
-        - name: "Notifications Process in Windows Search"
-          href: -search-3x-wds-support.md
-        - name: "URL Formatting Requirements"
-          href: url-formatting-requirements.md
+    - name: "What is Included in the Index"
+      href: -search-3x-wds-included-in-index.md
+    - name: "Indexing Process in Windows Search"
+      href: -search-indexing-process-overview.md
+    - name: "Querying Process in Windows Search"
+      href: querying-process--windows-search-.md
+    - name: "Notifications Process in Windows Search"
+      href: -search-3x-wds-support.md
+    - name: "URL Formatting Requirements"
+      href: url-formatting-requirements.md
+    - name: "New for Windows 7 Search"
+      href: new-for-windows-7-search.md
+    - name: "Indexing Prioritization and Rowset Events in Windows 7"
+      href: indexing-prioritization-and-rowset-events.md
+    - name: "Windows Shell Libraries"
+      href: -search-win7-development-scenarios.md
     - name: "Languages Supported by Windows Search"
       href: -search-3x-wds-language-support.md
     - name: "Using Managed Code with Shell Data and Windows Search"

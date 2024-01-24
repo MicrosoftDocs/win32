@@ -22,7 +22,7 @@ There are, however, the following differences between the stub and the proxy:
 
 The following diagram shows the structure of the stub. Each interface stub is connected to an interface on the object. The channel dispatches incoming messages to the appropriate interface stub. All the components talk to the channel through [**IRpcChannelBuffer**](/windows/win32/api/objidlbase/nn-objidlbase-irpcchannelbuffer), the interface that provides access to the RPC run-time library.
 
-![](images/98714a22-733e-432f-bb90-408bbeecc23f.png)
+![Screenshot that shows the structure of the Stub.](images/98714a22-733e-432f-bb90-408bbeecc23f.png)
 
 ## Related topics
 

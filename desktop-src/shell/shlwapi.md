@@ -1,5 +1,5 @@
 ---
-Description: This section describes the Windows Shell lightweight utility functions. The programming elements explained in this documentation are exported by Shlwapi.dll and defined in Shlwapi.h and Shlwapi.lib.
+description: This section describes the Windows Shell lightweight utility functions. The programming elements explained in this documentation are exported by Shlwapi.dll and defined in Shlwapi.h and Shlwapi.lib.
 title: Shell Lightweight Utility Functions
 ms.topic: article
 ms.date: 05/31/2018

@@ -552,7 +552,7 @@
       - name: "File and Directory Linking"
         href: file-and-directory-linking.md
         items: 
-        - name: "Hard Links and Junctions"
+        - name: "Hard links and junctions"
           href: hard-links-and-junctions.md
         - name: "Distributed Link Tracking and Object Identifiers"
           href: distributed-link-tracking-and-object-identifiers.md
@@ -1041,7 +1041,7 @@
         - name: "Wow64DisableWow64FsRedirection"
           href: /windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection
         - name: "Wow64EnableWow64FsRedirection"
-          href: /windows/desktop/api/WinBase/nf-winbase-wow64enablewow64fsredirection
+          href: /windows/win32/api/wow64apiset/nf-wow64apiset-wow64enablewow64fsredirection
         - name: "Wow64RevertWow64FsRedirection"
           href: /windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection
         - name: "WriteEncryptedFileRaw"
@@ -1523,7 +1523,7 @@
         - name: "MARK_HANDLE_INFO"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-mark_handle_info
         - name: "MARK_HANDLE_INFO32"
-          href: /windows/desktop/api/WinIoCtl/ns-winioctl-mark_handle_info32
+          href: /windows-hardware/drivers/ddi/ntifs/ns-ntifs-mark_handle_info32
         - name: "MFT_ENUM_DATA"
           href: /windows/desktop/api/WinIoCtl/ns-winioctl-mft_enum_data_v0
         - name: "MFT_ENUM_DATA_V1"

@@ -55,7 +55,7 @@ For states, the value can be one of the following:
 
 
 
-|                      |                                                 |
+|                      | Description                                     |
 |----------------------|-------------------------------------------------|
 | **"Gesturing"**      | To retrieve all **Gesturing** state animations. |
 | **"GesturingDown"**  | To retrieve **GesturingDown** animations.       |

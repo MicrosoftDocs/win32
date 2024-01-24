@@ -21,7 +21,7 @@ The device associated with the DXGI surface must be a D3D11 device.
 
 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | Error Level | Warning |
 

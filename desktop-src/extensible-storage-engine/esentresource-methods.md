@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource methods"
 title: EsentResource methods
 TOCTitle: EsentResource methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentResource
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentResource](dn319890\(v=exchg.10\).md) type exposes the following members.
+The [EsentResource](./esentresource-class.md) type exposes the following members.
 
 ## Methods
 
@@ -96,6 +97,6 @@ Top
 
 #### Reference
 
-[EsentResource class](dn319890\(v=exchg.10\).md)
+[EsentResource class](./esentresource-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

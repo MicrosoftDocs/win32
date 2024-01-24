@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Performance
+# Performance (Windows 7 Developer Guide)
 
 Windows 7 maximizes hardware energy efficiency and scalability while maintaining high performance. Energy efficiency is improved through reduced background activity and new support for the trigger starting of system services. Windows 7 also offers improvements in the Windows kernel that enable applications and services to scale efficiently between platforms. Performance of many features and APIs is improved in Windows 7 versus Windows Vista. For example, driver performance on servers is optimized by new user-mode and kernel-mode topology APIs. Graphics rendering is considerably smoother and faster. Accessibility performance is also significantly faster than before.
 

@@ -22,7 +22,7 @@ An integer value that contains flags that define additional properties of the cl
 
 
 
-|                   |                                                |
+| Entry | Value |
 |-------------------|------------------------------------------------|
 | CN                | System-Flags                                   |
 | Ldap-Display-Name | systemFlags                                    |
@@ -49,7 +49,7 @@ An integer value that contains flags that define additional properties of the cl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ An integer value that contains flags that define additional properties of the cl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ An integer value that contains flags that define additional properties of the cl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ An integer value that contains flags that define additional properties of the cl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ An integer value that contains flags that define additional properties of the cl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ An integer value that contains flags that define additional properties of the cl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ An integer value that contains flags that define additional properties of the cl
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

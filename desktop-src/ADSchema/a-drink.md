@@ -21,7 +21,7 @@ The drink (Favorite Drink) attribute type specifies the favorite drink of an obj
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | drink                                       |
 | Ldap-Display-Name | drink                                       |
@@ -46,7 +46,7 @@ The drink (Favorite Drink) attribute type specifies the favorite drink of an obj
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -67,7 +67,7 @@ The drink (Favorite Drink) attribute type specifies the favorite drink of an obj
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -88,7 +88,7 @@ The drink (Favorite Drink) attribute type specifies the favorite drink of an obj
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -109,7 +109,7 @@ The drink (Favorite Drink) attribute type specifies the favorite drink of an obj
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -130,7 +130,7 @@ The drink (Favorite Drink) attribute type specifies the favorite drink of an obj
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

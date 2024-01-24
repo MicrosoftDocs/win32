@@ -1,5 +1,5 @@
 ---
-Description: A &\#0034;character set&\#0034; is a mapping of characters to their identifying code values.
+description: A &\#0034;character set&\#0034; is a mapping of characters to their identifying code values.
 ms.assetid: '0a055c02-c5ed-4790-83e4-183bc3cc6b51'
 title: Character Sets
 ms.topic: article

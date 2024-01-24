@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Represents an instant in time, typically expressed as a date and time of day and a corresponding calendar.
+description: Deprecated. Represents an instant in time, typically expressed as a date and time of day and a corresponding calendar.
 ms.assetid: a714ff32-2b1f-4256-931e-324d64daf2ac
 title: CALDATETIME structure
 ms.topic: reference
@@ -116,7 +116,7 @@ The tick for the instant in time.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

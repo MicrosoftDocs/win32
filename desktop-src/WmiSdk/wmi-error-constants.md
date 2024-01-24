@@ -1,5 +1,5 @@
 ---
-Description: If an error occurs, WMI returns an error code as an HRESULT value. These codes may be returned by scripts, C++ applications, or Wmic.
+description: If an error occurs, WMI returns an error code as an HRESULT value. These codes may be returned by scripts, C++ applications, or Wmic.
 ms.assetid: b560f37c-da22-4745-8d1f-b27afdf572ec
 ms.tgt_platform: multiple
 title: WMI Error Constants (WbemCli.h)
@@ -17,7 +17,7 @@ If an error occurs, WMI returns an error code as an **HRESULT** value. These cod
 >
 > If WMI returns error messages, be aware that they may not indicate problems in the WMI service or in WMI providers. Failures can originate in other parts of the operating system and emerge as errors through WMI. Under any circumstances, do not delete the WMI repository as a first action because deleting the repository can cause damage to the system or to installed applications.
 >
-> To obtain more information about the source of the problem, you can download and run the [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) diagnostic command line tool. This tool produces a report that can usually isolate the source of the problem and provide instructions on how to fix it. The report also aids Microsoft support services in assisting you. You can download the WMI Diagnosis Utility [here](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d).
+> For more info, see [WMI Troubleshooting](/windows/win32/wmisdk/wmi-troubleshooting).
 
  
 
@@ -2424,7 +2424,7 @@ The syntax for the preprocessor commands [\#pragma deleteinstance](pragma-delete
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

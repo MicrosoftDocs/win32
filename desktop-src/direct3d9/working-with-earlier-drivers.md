@@ -1,5 +1,5 @@
 ---
-Description: This section lists issues that can be encountered when working with Direct3D 9 on drivers written for versions of Direct3D earlier than Direct3D 9.
+description: This section lists issues that can be encountered when working with Direct3D 9 on drivers written for versions of Direct3D earlier than Direct3D 9.
 ms.assetid: 891198e8-6c45-4f03-99bb-e24a4082b0d8
 title: Working with Earlier Drivers (Direct3D 9)
 ms.topic: article

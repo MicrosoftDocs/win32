@@ -1,5 +1,5 @@
 ---
-Description: Identifies the name of the profile.
+description: Identifies the name of the profile.
 ms.assetid: bc84813f-f25a-456c-9093-13aee31c8e3a
 title: Name (MBNProfile) Element
 ms.topic: reference
@@ -33,7 +33,7 @@ The **Name** element is defined by the [**MBNProfile**](schema-mbnprofile-elemen
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

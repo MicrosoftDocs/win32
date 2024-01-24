@@ -1,6 +1,6 @@
 ---
 title: Keyboard Accelerator Notifications
-description: .
+description: Keyboard Accelerator Notifications
 ms.assetid: d3fc9c39-44bf-4619-870d-e3f0f40ebc54
 ms.topic: article
 ms.date: 05/31/2018

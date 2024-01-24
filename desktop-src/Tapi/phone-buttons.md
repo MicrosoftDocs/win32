@@ -1,5 +1,5 @@
 ---
-Description: TAPI models a phones buttons and lamps as button-lamp pairs.
+description: TAPI models a phones buttons and lamps as button-lamp pairs.
 ms.assetid: e4c50bd6-a256-407f-af3b-b24383a30ea0
 title: Phone Buttons
 ms.topic: article

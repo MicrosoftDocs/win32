@@ -1,6 +1,6 @@
 ---
 title: Texture1DArray::Texture1DArray SampleGrad methods
-description: Samples a texture using a gradient to influence the way the sample location is calculated.
+description: Samples a texture using a gradient to influence the way the sample location is calculated. | Texture1DArray::Texture1DArray SampleGrad methods
 ms.assetid: 8B16599A-1676-4E86-A9A9-B4FE54C1E4A2
 keywords:
 - SampleGrad methods HLSL

@@ -33,10 +33,10 @@ Represents a [Check Box](windowsribbon-controls-checkbox.md) control.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -52,10 +52,10 @@ Represents a [Check Box](windowsribbon-controls-checkbox.md) control.
 <td>Boolean<br/></td>
 <td>No<br/></td>
 <td>This attribute is valid only when the <strong>CheckBox</strong> element is a child of <a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>QuickAccessToolbar.ApplicationDefaults</strong></a>. <br/> Restricted to one of the following values:<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The <strong>CheckBox</strong> does not support a tertiary, or indeterminate, state.
-</blockquote>
+
 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd> Default. <br/> </dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -131,13 +131,8 @@ This section of code shows the **CheckBox** control declarations.
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
-
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 ## See also

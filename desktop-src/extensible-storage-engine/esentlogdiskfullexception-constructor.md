@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDiskFullException constructor"
 title: EsentLogDiskFullException constructor 
 TOCTitle: 'EsentLogDiskFullException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogDiskFullException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentLogDiskFullException()
 
 #### Reference
 
-[EsentLogDiskFullException class](dn334539\(v=exchg.10\).md)
+[EsentLogDiskFullException class](./esentlogdiskfullexception-class.md)
 
-[EsentLogDiskFullException members](dn334595\(v=exchg.10\).md)
+[EsentLogDiskFullException members](./esentlogdiskfullexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

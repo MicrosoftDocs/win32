@@ -1,6 +1,6 @@
 ---
 title: glVertex3iv function (Gl.h)
-description: Specifies a vertex.
+description: Specifies a vertex. | glVertex3iv function (Gl.h)
 ms.assetid: db7e6a93-aaa2-402b-acd5-971c17451314
 keywords:
 - glVertex3iv function OpenGL
@@ -50,7 +50,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

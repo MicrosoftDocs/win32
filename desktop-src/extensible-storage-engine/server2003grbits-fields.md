@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server2003Grbits fields"
 title: Server2003Grbits fields (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Grbits fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Server2003Grbits](dn351281\(v=exchg.10\).md) type exposes the following members.
+The [Server2003Grbits](./server2003grbits-class.md) type exposes the following members.
 
 ## Fields
 
@@ -51,7 +52,6 @@ Top
 
 #### Reference
 
-[Server2003Grbits class](dn351281\(v=exchg.10\).md)
+[Server2003Grbits class](./server2003grbits-class.md)
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

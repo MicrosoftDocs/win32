@@ -21,7 +21,7 @@ The Audio attribute type allows the storing of sounds in the Directory.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | audio                                                 |
 | Ldap-Display-Name | audio                                                 |
@@ -46,7 +46,7 @@ The Audio attribute type allows the storing of sounds in the Directory.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -67,7 +67,7 @@ The Audio attribute type allows the storing of sounds in the Directory.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -88,7 +88,7 @@ The Audio attribute type allows the storing of sounds in the Directory.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -109,7 +109,7 @@ The Audio attribute type allows the storing of sounds in the Directory.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -130,7 +130,7 @@ The Audio attribute type allows the storing of sounds in the Directory.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |

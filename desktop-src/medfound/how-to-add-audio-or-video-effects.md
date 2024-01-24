@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use audio/video effects with MFPlay.
+description: This topic describes how to use audio/video effects with MFPlay.
 ms.assetid: 90f34bf3-899f-46e0-80c8-af83caa4835d
 title: How to Add Audio or Video Effects
 ms.topic: article

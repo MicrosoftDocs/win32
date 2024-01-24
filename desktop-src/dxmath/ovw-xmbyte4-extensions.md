@@ -1,5 +1,5 @@
 ---
-Description: Describes a 4D vector made up signed integer, 8-bits (1 byte) in length.
+description: Describes a 4D vector made up signed integer, 8-bits (1 byte) in length.
 ms.assetid: 771479f4-0819-48e3-afae-a79ee2c502b6
 title: XMBYTE4 extensions
 ms.topic: reference

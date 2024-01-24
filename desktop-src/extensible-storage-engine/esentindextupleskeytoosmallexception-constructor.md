@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesKeyTooSmallException constructor"
 title: EsentIndexTuplesKeyTooSmallException constructor 
 TOCTitle: 'EsentIndexTuplesKeyTooSmallException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexTuplesKeyTooSmallException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentIndexTuplesKeyTooSmallException()
 
 #### Reference
 
-[EsentIndexTuplesKeyTooSmallException class](dn350474\(v=exchg.10\).md)
+[EsentIndexTuplesKeyTooSmallException class](./esentindextupleskeytoosmallexception-class.md)
 
-[EsentIndexTuplesKeyTooSmallException members](dn319419\(v=exchg.10\).md)
+[EsentIndexTuplesKeyTooSmallException members](./esentindextupleskeytoosmallexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

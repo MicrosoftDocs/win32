@@ -1,5 +1,5 @@
 ---
-Description: Describes how to initialize an XPS OM, which allows a program to create an XPS document.
+description: Describes how to initialize an XPS OM, which allows a program to create an XPS document.
 ms.assetid: 920d940f-5ae2-4376-8c7b-0cef04f21df7
 title: Initialize an XPS OM
 ms.topic: article
@@ -84,7 +84,7 @@ You can make your program more efficient by obtaining a pointer to an [**IXpsOMO
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

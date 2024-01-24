@@ -22,7 +22,7 @@ A name used to identify the schema partition. Not used by AD.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | DMD-Name                                    |
 | Ldap-Display-Name | dmdName                                     |
@@ -49,7 +49,7 @@ A name used to identify the schema partition. Not used by AD.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C56                          |
@@ -70,7 +70,7 @@ A name used to identify the schema partition. Not used by AD.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C56                          |
@@ -91,7 +91,7 @@ A name used to identify the schema partition. Not used by AD.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C56                          |
@@ -112,7 +112,7 @@ A name used to identify the schema partition. Not used by AD.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C56                          |
@@ -133,7 +133,7 @@ A name used to identify the schema partition. Not used by AD.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C56                          |
@@ -154,7 +154,7 @@ A name used to identify the schema partition. Not used by AD.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C56                          |
@@ -175,7 +175,7 @@ A name used to identify the schema partition. Not used by AD.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C56                          |

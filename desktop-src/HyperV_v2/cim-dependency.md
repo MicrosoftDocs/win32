@@ -1,5 +1,5 @@
 ---
-Description: Represents a generic association used to establish dependency relationships between managed elements.
+description: Represents a generic association used to establish dependency relationships between managed elements.
 ms.assetid: a81beedc-5473-49a6-8e7f-67e831d3e8bc
 title: CIM_Dependency class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Dependency class
+# CIM_Dependency class (Hyper-V management)
 
 Represents a generic association used to establish dependency relationships between managed elements.
 
@@ -80,7 +80,7 @@ The dependent object in the association.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

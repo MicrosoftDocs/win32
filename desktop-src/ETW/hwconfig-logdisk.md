@@ -1,5 +1,5 @@
 ---
-Description: The HWConfig\_LogDisk class is the event type class for logical disk configuration events. The following syntax is simplified from MOF code.
+description: The HWConfig\_LogDisk class is the event type class for logical disk configuration events. The following syntax is simplified from MOF code.
 ms.assetid: 2b7038fa-2f20-4bb5-bac1-76b272b3421c
 title: HWConfig_LogDisk class
 ms.topic: reference
@@ -117,7 +117,7 @@ Starting offset (in bytes) of the partition from the beginning of the disk.
 
 
 
-|                                     |                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                   |

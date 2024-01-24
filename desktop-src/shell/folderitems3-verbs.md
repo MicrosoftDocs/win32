@@ -1,5 +1,5 @@
 ---
-Description: Gets the list of verbs common to all the folder items.
+description: Gets the list of verbs common to all the folder items.
 ms.assetid: f72f5dcc-35e0-4a23-ae4c-355da2858aab
 title: FolderItems3.Verbs property (Shldisp.h)
 ms.topic: reference
@@ -146,7 +146,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

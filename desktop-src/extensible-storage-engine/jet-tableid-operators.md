@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_TABLEID operators"
 title: JET_TABLEID operators
 TOCTitle: JET_TABLEID operators
 ms:assetid: ef291f9a-8eed-fe37-7cc6-f32d84624f76
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_TABLEID](hh566310\(v=exchg.10\).md) type exposes the following members.
+The [JET_TABLEID](./jet-tableid-structure.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](./jet-tableid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

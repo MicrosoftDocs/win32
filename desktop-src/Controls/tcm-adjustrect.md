@@ -34,7 +34,7 @@ Operation to perform. If this parameter is **TRUE**, *lParam* specifies a displa
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that specifies the given rectangle and receives the calculated rectangle.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that specifies the given rectangle and receives the calculated rectangle.
 
 </dd> </dl>
 
@@ -50,7 +50,7 @@ This message applies only to tab controls that are at the top. It does not apply
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

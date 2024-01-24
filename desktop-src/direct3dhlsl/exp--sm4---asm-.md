@@ -23,7 +23,7 @@ Component-wise 2exponent.
 
 | Item                                                            | Description                                                                |
 |-----------------------------------------------------------------|----------------------------------------------------------------------------|
-| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The result of the operation.<br/> *dest* = 2*src0*<br/> |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The result of the operation.<br/> *dest* = 2 ^ *src0*<br/> |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[in\] The exponent.<br/>                                            |
 
 
@@ -38,9 +38,8 @@ The following table shows the results obtained when executing the instruction wi
 
 
 
-|          |          |        |             |        |        |             |        |          |         |
-|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **src**  | **-inf** | **-F** | **-denorm** | **-0** | **+0** | **+denorm** | **+F** | **+inf** | **NaN** |
+|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **dest** | 0        | +F     | 1           | 1      | 1      | 1           | +F     | +inf     | NaN     |
 
 

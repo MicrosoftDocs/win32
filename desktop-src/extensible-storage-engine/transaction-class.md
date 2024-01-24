@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction class"
 title: Transaction class
 TOCTitle: Transaction class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Transaction
@@ -33,10 +34,10 @@ A class that encapsulates a transaction on a JET_SESID.
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
-  [Microsoft.Isam.Esent.Interop.EsentResource](dn319890\(v=exchg.10\).md)  
+  [Microsoft.Isam.Esent.Interop.EsentResource](./esentresource-class.md)  
     Microsoft.Isam.Esent.Interop.Transaction  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,6 +62,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[Transaction members](dn351240\(v=exchg.10\).md)
+[Transaction members](./transaction-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

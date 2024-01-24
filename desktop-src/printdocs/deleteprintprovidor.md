@@ -1,5 +1,5 @@
 ---
-Description: The DeletePrintProvidor function removes a print provider added by the AddPrintProvidor function.
+description: The DeletePrintProvidor function removes a print provider added by the AddPrintProvidor function.
 ms.assetid: b7104f9a-111c-4904-a355-063bb4cc81f1
 title: DeletePrintProvidor function (Winspool.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: Creates an offline registry hive that contains a single empty root key.
+description: Creates an offline registry hive that contains a single empty root key.
 ms.assetid: 985cfea4-6f15-4d63-8e41-df2a490296a3
 title: ORCreateHive function (Offreg.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The **ORCreateHive** function creates an empty offline registry hive in memory. 
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

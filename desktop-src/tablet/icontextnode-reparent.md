@@ -1,5 +1,5 @@
 ---
-Description: Moves this IContextNode object from its parent context node's collection of subnodes to the specified context node's collection of subnodes.
+description: Moves this IContextNode object from its parent context node's collection of subnodes to the specified context node's collection of subnodes.
 ms.assetid: e19ecbe3-f7aa-499c-86a1-236dc9056fd9
 title: IContextNode::Reparent method (IACom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

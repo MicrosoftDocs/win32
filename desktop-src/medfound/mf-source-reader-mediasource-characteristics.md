@@ -1,5 +1,5 @@
 ---
-Description: Gets the characteristics of the media source from the Source Reader.
+description: Gets the characteristics of the media source from the Source Reader.
 ms.assetid: 4cd48b69-6f7b-4b13-86f3-b38969025f70
 title: MF_SOURCE_READER_MEDIASOURCE_CHARACTERISTICS attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ HRESULT GetSourceFlags(IMFSourceReader *pReader, ULONG *pulFlags)
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

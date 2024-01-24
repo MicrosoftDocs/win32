@@ -1,5 +1,5 @@
 ---
-Description: The EnableDHCP WMI class method enables the Dynamic Host Configuration Protocol (DHCP) for service with this network adapter. DHCP allows IP addresses to be dynamically allocated.
+description: The EnableDHCP WMI class method enables the Dynamic Host Configuration Protocol (DHCP) for service with this network adapter. DHCP allows IP addresses to be dynamically allocated.
 ms.assetid: 8c61d731-77a3-4ef4-bad9-26edaca60892
 ms.tgt_platform: multiple
 title: EnableDHCP method of the Win32_NetworkAdapterConfiguration class
@@ -396,8 +396,6 @@ This method does not clears any static default gateways present on the machine.
 
 ## Examples
 
-The [Enable DHCP and Assign DNS Servers](https://Gallery.TechNet.Microsoft.Com/7b1cec46-bdb8-4afc-b240-9789eefce6de) VBScript code sample on TechNet Gallery uses EnableDHCP to enable DHCP and assign DNS servers to a computer.
-
 The following VBScript code sample demonstrates how to enable DHCP use on an instance of [**Win32\_NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md) . In this case we specify the adapter with an Index of 0. The correct index should be selected from Win32\_NetworkAdapter instances for other interfaces.
 
 > [!Note]  
@@ -461,7 +459,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

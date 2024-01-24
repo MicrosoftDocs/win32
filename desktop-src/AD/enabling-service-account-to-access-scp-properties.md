@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Enabling Service Account to Access SCP Properties
 
-The following code example sets a pair of Access Control Entries (ACEs) on a service connection point (SCP) object. The ACEs grant read/write access to the user or computer account under which the service instance will be running. The service installer uses code similar to the following to ensure that the service can update its properties at run time. If ACEs similar to these these are not set, the service will not have access to the properties of the SCP.
+The following code example sets a pair of Access Control Entries (ACEs) on a service connection point (SCP) object. The ACEs grant read/write access to the user or computer account under which the service instance will be running. The service installer uses code similar to the following to ensure that the service can update its properties at run time. If ACEs similar to these are not set, the service will not have access to the properties of the SCP.
 
 Typically, a service installer will set these ACEs after creating the SCP object. For more information, and a code example that creates an SCP and calls this function, see [How Clients Find and Use a Service Connection Point](how-clients-find-and-use-a-service-connection-point.md). If the service is reconfigured to run under a different account, the ACEs must be updated. To run successfully, this code example must be run in the security context of a domain administrator.
 

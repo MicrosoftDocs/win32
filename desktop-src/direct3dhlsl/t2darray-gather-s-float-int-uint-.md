@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::Gather(S,float,int,uint) function
-description: Samples a texture and returns all four components along with status about the operation.
+description: Returns the four texel values that would be used in a bi-linear filtering operation. | Texture2DArray::Gather(S,float,int,uint) function
 ms.assetid: 311A5042-19AA-41C7-8B22-2E34E4554250
 keywords:
 - Gather function HLSL
@@ -15,19 +15,19 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Gather(S,float,int,uint) function
+# Texture2DArray::Gather(S,float,int,uint) function
 
-Samples a texture and returns all four components along with status about the operation.
+Returns the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType Gather(
-  in  SamplerState S,
-  in  float        Location,
-  in  int          Offset,
-  out uint         Status
+  in  SamplerState S,
+  in  float3       Location,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 
@@ -93,7 +93,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -102,6 +102,6 @@ This function is supported for the following types of shaders:
 [Gather methods](texture2darray-gather.md)
 </dt> </dl>
 
- 
 
- 
+
+

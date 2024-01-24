@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_OUTPUTID query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_OUTPUTID query.
 ms.assetid: 4dfd1d65-b203-456a-bc9b-527906bcf87e
 title: D3DAUTHENTICATEDCHANNEL_QUERYROUTPUTID_OUTPUT structure (D3d9types.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ An output ID that is associated with the specified device and cryptographic sess
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

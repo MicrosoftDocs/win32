@@ -12,9 +12,11 @@ You can align [DirectWrite](direct-write-portal.md) text by using the [**SetText
 
 
 ```C++
-if (SUCCEEDED(hr))
+HRESULT hr = pTextFormat_->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
+
+if (FAILED(hr))
 {
-    hr = pTextFormat_->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
+    // Report the error
 }
 ```
 

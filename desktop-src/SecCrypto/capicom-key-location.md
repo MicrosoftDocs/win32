@@ -1,5 +1,5 @@
 ---
-Description: The CAPICOM\_KEY\_LOCATION enumeration defines key location types.
+description: The CAPICOM\_KEY\_LOCATION enumeration defines key location types.
 ms.assetid: d6261906-66aa-4c18-8305-b7998bbe53d5
 title: CAPICOM_KEY_LOCATION enumeration (Capicom.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ This enumeration is used by the following method:
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

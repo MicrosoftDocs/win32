@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFatalException methods"
 title: EsentFatalException methods
 TOCTitle: EsentFatalException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFatalException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFatalException](dn274321\(v=exchg.10\).md) type exposes the following members.
+The [EsentFatalException](./esentfatalexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentFatalException class](dn274321\(v=exchg.10\).md)
+[EsentFatalException class](./esentfatalexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

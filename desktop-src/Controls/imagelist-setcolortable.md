@@ -88,7 +88,7 @@ Only image lists created with the [**ILC\_COLOR4**](/windows/desktop/api/Commctr
 
 
 
-|                                     |                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                            |

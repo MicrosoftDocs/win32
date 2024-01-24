@@ -1,5 +1,6 @@
 ---
-title: EsentResource.Dispose method 
+description: "Learn more about: EsentResource.Dispose method"
+title: EsentResource.Dispose method
 TOCTitle: 'Dispose method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentresource.dispose(v=EXCHG.10)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Dispose of this object, releasing the underlying Esent resource.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,10 +53,10 @@ public void Dispose()
 
 #### Reference
 
-[EsentResource class](dn319890\(v=exchg.10\).md)
+[EsentResource class](./esentresource-class.md)
 
-[EsentResource members](dn350521\(v=exchg.10\).md)
+[EsentResource members](./esentresource-members.md)
 
-[Dispose overload](dn350542\(v=exchg.10\).md)
+[Dispose overload](./esentresource.dispose-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

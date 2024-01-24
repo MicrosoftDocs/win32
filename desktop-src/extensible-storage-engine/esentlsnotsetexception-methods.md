@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSNotSetException methods"
 title: EsentLSNotSetException methods
 TOCTitle: EsentLSNotSetException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLSNotSetException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLSNotSetException](dn334676\(v=exchg.10\).md) type exposes the following members.
+The [EsentLSNotSetException](./esentlsnotsetexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentLSNotSetException class](dn334676\(v=exchg.10\).md)
+[EsentLSNotSetException class](./esentlsnotsetexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

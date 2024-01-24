@@ -1,5 +1,5 @@
 ---
-Description: Reports an instance creation event, which is a type of intrinsic event that is generated when a new instance is added to the namespace.
+description: Reports an instance creation event, which is a type of intrinsic event that is generated when a new instance is added to the namespace.
 ms.assetid: 41976479-70e3-4914-a56a-fa94a1fd31c7
 ms.tgt_platform: multiple
 title: '__InstanceCreationEvent class'
@@ -103,19 +103,11 @@ Notification queries that request notification of the creation of a resource and
 
 For a larger discussion of using **\_\_InstanceCreationEvent** as a way to monitor file systems, see [WMI and File System Monitoring](https://www.codeproject.com/Articles/42212/WMI-and-File-System-Monitoring) on CodeProject.
 
-## Examples
-
-The [Create Permanent WMI Event registration to monitor files](https://Gallery.TechNet.Microsoft.Com/Create-Permenant-WMI-Event-f67ce5c2) PowerShell example on TechNet Gallery uses **\_\_InstanceCreationEvent** as part of a complex script to set up a permanent WMI event registration.
-
-The [PowerShell WMI Permanent Events](https://Gallery.TechNet.Microsoft.Com/PowerShell-WMI-Permanent-7e17f262) PowerShell example on TechNet Gallery uses **\_\_InstanceCreationEvent** as part of a demonstration script for setting up a permanent event registration.
-
-The [Monitor process creation event](https://Gallery.TechNet.Microsoft.Com/6f137d9e-f00a-4f0a-ad07-7d752ff5251d) VBScript sample on TechNet uses **\_\_InstanceCreationEvent** to monitors the first WMI instance creation event for [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process).
-
 ## Requirements
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

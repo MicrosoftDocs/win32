@@ -1,5 +1,5 @@
 ---
-Description: Grants the specified DDE share trusted status within the current users context.
+description: Grants the specified DDE share trusted status within the current users context.
 ms.assetid: 508d3603-468c-4ecb-8e5c-0ab86c2ff3b4
 title: NDdeSetTrustedShare function (Nddeapi.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ If **NDdeSetTrustedShare** is called with *dwTrustOptions* set to zero, the trus
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

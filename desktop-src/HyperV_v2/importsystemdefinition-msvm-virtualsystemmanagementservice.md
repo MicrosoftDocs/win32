@@ -1,5 +1,5 @@
 ---
-Description: Creates a new planned computer system based on the specified virtual machine definition.
+description: Creates a new planned computer system based on the specified virtual machine definition.
 ms.assetid: 885d399f-5bcf-4f34-b2f1-582cbfcd7c10
 title: ImportSystemDefinition method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -125,7 +125,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

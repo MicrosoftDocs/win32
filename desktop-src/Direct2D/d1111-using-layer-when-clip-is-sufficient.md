@@ -30,7 +30,7 @@ The address of the interface.
 
 </dd> </dl> 
 
-|             |             |
+| &nbsp;      |    &nbsp;   |
 |-------------|-------------|
 | Error Level | Information |
 

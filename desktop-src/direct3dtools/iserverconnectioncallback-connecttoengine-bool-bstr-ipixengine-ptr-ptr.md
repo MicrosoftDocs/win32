@@ -1,5 +1,5 @@
 ---
-Description: Connect to another instance of a remote engine on the local machine.
+description: Connect to another instance of a remote engine on the local machine.
 MS-HAID: vspixengine.IServerConnectionCallback\_ConnectToEngine\_BOOL\_BSTR\_IPixEngine\_ptr\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -52,7 +52,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
 ## <span id="see_also"></span>See also
 

@@ -21,7 +21,7 @@ Extended right needed to change the infrastructure FSMO role owner.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Change-Infrastructure-Master         |
 | Display-Name | Change Infrastructure Master         |
@@ -42,7 +42,7 @@ Extended right needed to change the infrastructure FSMO role owner.
 
 
 
-|                         |                                                                    |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------|
 | Applies-To              | [**Infrastructure-Update**](c-infrastructureupdate.md)<br/> |
 | Localization-Display-ID | 50                                                                 |
@@ -53,7 +53,7 @@ Extended right needed to change the infrastructure FSMO role owner.
 
 
 
-|                         |                                                                    |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------|
 | Applies-To              | [**Infrastructure-Update**](c-infrastructureupdate.md)<br/> |
 | Localization-Display-ID | 50                                                                 |
@@ -64,7 +64,7 @@ Extended right needed to change the infrastructure FSMO role owner.
 
 
 
-|                         |                                                                    |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------|
 | Applies-To              | [**Infrastructure-Update**](c-infrastructureupdate.md)<br/> |
 | Localization-Display-ID | 50                                                                 |
@@ -75,7 +75,7 @@ Extended right needed to change the infrastructure FSMO role owner.
 
 
 
-|                         |                                                                    |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------|
 | Applies-To              | [**Infrastructure-Update**](c-infrastructureupdate.md)<br/> |
 | Localization-Display-ID | 50                                                                 |
@@ -86,7 +86,7 @@ Extended right needed to change the infrastructure FSMO role owner.
 
 
 
-|                         |                                                                    |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------|
 | Applies-To              | [**Infrastructure-Update**](c-infrastructureupdate.md)<br/> |
 | Localization-Display-ID | 50                                                                 |
@@ -97,7 +97,7 @@ Extended right needed to change the infrastructure FSMO role owner.
 
 
 
-|                         |                                                                    |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------------|
 | Applies-To              | [**Infrastructure-Update**](c-infrastructureupdate.md)<br/> |
 | Localization-Display-ID | 50                                                                 |

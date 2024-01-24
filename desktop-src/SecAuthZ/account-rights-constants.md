@@ -1,5 +1,5 @@
 ---
-Description: Account rights determine the type of logon that a user account can perform. An administrator assigns account rights to user and group accounts. Each users account rights include those granted to the user and to the groups to which the user belongs.
+description: Account rights determine the type of logon that a user account can perform. An administrator assigns account rights to user and group accounts. Each users account rights include those granted to the user and to the groups to which the user belongs.
 ms.assetid: 42139d33-2d56-4d29-998f-5512bb795d44
 title: Account Rights Constants (Ntsecapi.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The preceding account right constants are defined as strings in Ntsecapi.h. For 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

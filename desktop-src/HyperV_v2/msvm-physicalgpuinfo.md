@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a RemoteFX physical graphics processing unit (GPU).
+description: Contains information about a RemoteFX physical graphics processing unit (GPU).
 ms.assetid: 86B47AAE-DBFF-43EF-88C6-44836D6C3AFA
 title: Msvm_PhysicalGPUInfo class
 ms.topic: reference
@@ -175,7 +175,7 @@ The total amount of video memory, in bytes, on the physical GPU that can be used
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

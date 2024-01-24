@@ -1,5 +1,5 @@
 ---
-Description: Sets an influence value of a bone on a single vertex.
+description: Sets an influence value of a bone on a single vertex.
 ms.assetid: 9283866f-3dfe-467d-a74f-77e89c2778c4
 title: ID3DXSkinInfo::SetBoneVertexInfluence method (D3DX9Mesh.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

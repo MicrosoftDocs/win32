@@ -1,5 +1,5 @@
 ---
-Description: The side-by-side assembly API uses the following functions to access the Side-by-Side Assembly interfaces.
+description: The side-by-side assembly API uses the following functions to access the Side-by-Side Assembly interfaces.
 ms.assetid: 040a4f27-8fe9-4436-9c8a-ff58d1effd10
 title: Side-by-Side Assembly Functions
 ms.topic: article

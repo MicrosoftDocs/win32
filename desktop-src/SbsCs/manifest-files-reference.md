@@ -1,5 +1,5 @@
 ---
-Description: Side-by-side assemblies are used with the following types of manifest and configuration files. Manifests and configurations are XML files.
+description: Side-by-side assemblies are used with the following types of manifest and configuration files. Manifests and configurations are XML files.
 ms.assetid: 8b969a8f-586c-4556-87be-92db6c61e8ce
 title: Manifest Files Reference
 ms.topic: article
@@ -31,7 +31,7 @@ For a listing of the publisher configuration file schema, see [Publisher Configu
 
 Other technologies extend the format used by Windows versioning and configuration manifests. Developers should refer to the documentation that is specific to the technology being used for information about the manifest format. For example:
 
--   [ClickOnce](/visualstudio/deployment/clickonce-reference?view=vs-2015)
+-   [ClickOnce](/visualstudio/deployment/clickonce-reference)
 -   [Common Language Runtime](/dotnet/standard/clr)
 -   [User Account Control (UAC)](/previous-versions/bb756929(v=msdn.10))
 

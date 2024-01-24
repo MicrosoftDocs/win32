@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.TermGrbit property"
 title: Instance.TermGrbit property 
 TOCTitle: 'TermGrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Instance.TermGrbit
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the TermGrbit for this instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public TermGrbit TermGrbit { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.TermGrbit](hh577872\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.TermGrbit](./termgrbit-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Instance members](dn350944\(v=exchg.10\).md)
+[Instance members](./instance-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

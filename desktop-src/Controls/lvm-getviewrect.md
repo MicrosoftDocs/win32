@@ -30,7 +30,7 @@ Retrieves the bounding rectangle of all items in the list-view control. The list
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that receives the bounding rectangle. All coordinates are relative to the visible area of the list-view control.
 
 </dd> </dl>
 
@@ -42,7 +42,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

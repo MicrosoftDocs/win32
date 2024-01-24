@@ -1,5 +1,5 @@
 ---
-Description: Creates an N-patch mesh from a triangle mesh.
+description: Creates an N-patch mesh from a triangle mesh.
 ms.assetid: f565ed0b-72fc-4184-b423-f68b0acfafb0
 title: D3DXCreateNPatchMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

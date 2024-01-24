@@ -1,5 +1,5 @@
 ---
-Description: Removes the current IWiaItem2 object from the device's object tree.
+description: Removes the current IWiaItem2 object from the device's object tree.
 ms.assetid: 247eb36f-3e5c-4030-8334-1a4028b3eb44
 title: IWiaItem2::DeleteItem method (Wia.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ If the device supports item deletion in its [**IWiaItem2**](-wia-iwiaitem2.md) t
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

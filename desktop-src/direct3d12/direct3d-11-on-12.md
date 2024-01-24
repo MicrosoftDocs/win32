@@ -2,7 +2,6 @@
 title: Direct3D 11 on 12
 description: D3D11On12 is a mechanism by which developers can use D3D11 interfaces and objects to drive the D3D12 API.
 ms.assetid: 8412D8BB-B6DD-471E-AAB2-A81121FB0FFA
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

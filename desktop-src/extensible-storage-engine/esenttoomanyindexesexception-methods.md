@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyIndexesException methods"
 title: EsentTooManyIndexesException methods
 TOCTitle: EsentTooManyIndexesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyIndexesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManyIndexesException](dn334994\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyIndexesException](./esenttoomanyindexesexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentTooManyIndexesException class](dn334994\(v=exchg.10\).md)
+[EsentTooManyIndexesException class](./esenttoomanyindexesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

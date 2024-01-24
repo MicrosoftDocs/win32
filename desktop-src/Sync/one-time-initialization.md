@@ -1,5 +1,5 @@
 ---
-Description: Components are often designed to perform initialization tasks when they are first called, rather than when they are loaded.
+description: Components are often designed to perform initialization tasks when they are first called, rather than when they are loaded.
 ms.assetid: 404c083c-7bee-44c2-b8e7-da1901b6ab2f
 title: One-Time Initialization
 ms.topic: article
@@ -58,7 +58,7 @@ The following steps describe asynchronous one-time initialization.
 
 ## Calling One-Time Initialization from multiple sites
 
-One-time initialization guarded by a single **INIT\_ONCE** structure may be performed from mutiple sites; different callback may be passed from each site, and synchronization with and without callback may be mixed. Initialization is still guaranted to perform sucesfully just once.
+One-time initialization guarded by a single **INIT\_ONCE** structure may be performed from multiple sites; different callback may be passed from each site, and synchronization with and without callback may be mixed. Initialization is still guaranteed to perform successfully just once.
 
 However, asynchronous and synchronous initialization cannot be mixed: once asynchronous initialization is attempted, attempts to start synchronous initialization would fail.
 

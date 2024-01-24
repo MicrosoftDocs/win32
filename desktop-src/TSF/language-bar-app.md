@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Language Bar
+# Language Bar (TSF Applications)
 
 An application cannot add items to the language bar; only a text service can add items to the language bar. An application can affect how certain items on the language bar appear.
 

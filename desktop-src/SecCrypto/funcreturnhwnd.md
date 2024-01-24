@@ -1,5 +1,5 @@
 ---
-Description: Used by a cryptographic service provider (CSP) to obtain the window handle that the CSP should use as the parent or owner of any user interface that is displayed.
+description: Used by a cryptographic service provider (CSP) to obtain the window handle that the CSP should use as the parent or owner of any user interface that is displayed.
 ms.assetid: 56f189e7-073b-4b42-b6ab-0147853fe6d5
 title: CRYPT_RETURN_HWND function pointer (Cspdk.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This function pointer does not return a value.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

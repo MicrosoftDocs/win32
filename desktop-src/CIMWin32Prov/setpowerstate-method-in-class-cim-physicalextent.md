@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_PhysicalExtent class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_PhysicalExtent class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: a763c361-9b1a-49fd-8ed2-c1fcfdfd16db
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_PhysicalExtent class
@@ -111,7 +111,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

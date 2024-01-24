@@ -1,7 +1,7 @@
 ---
 title: WER Structures
 ms.assetid: 59b4d44a-2681-4ec1-9f43-7ceaec98c55e
-description: 
+description: "Learn more about: WER Structures"
 keywords:
 - Windows error reporting Windows Error Reporting , structures
 ms.topic: article

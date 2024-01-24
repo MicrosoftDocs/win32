@@ -1,5 +1,5 @@
 ---
-Description: Mobile Broadband Profile Schema v1.
+description: Mobile Broadband Profile Schema v1.
 ms.assetid: e55775d2-1166-4f14-9553-207c69202b69
 title: Mobile Broadband Profile Schema v1
 ms.topic: reference

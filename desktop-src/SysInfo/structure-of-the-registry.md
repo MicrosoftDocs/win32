@@ -1,5 +1,5 @@
 ---
-Description: The registry is a hierarchical database that contains data that is critical for the operation of Windows and the applications and services that run on Windows.
+description: The registry is a hierarchical database that contains data that is critical for the operation of Windows and the applications and services that run on Windows.
 ms.assetid: 4ed60563-73d8-4134-8cb2-8388734fb18d
 title: Structure of the Registry
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The registry is a hierarchical database that contains data that is critical for the operation of Windows and the applications and services that run on Windows. The data is structured in a tree format. Each node in the tree is called a *key*. Each key can contain both *subkeys* and data entries called *values*. Sometimes, the presence of a key is all the data that an application requires; other times, an application opens a key and uses the values associated with the key. A key can have any number of values, and the values can be in any form. For more information, see [Registry Value Types](registry-value-types.md) and [Registry Element Size Limits](registry-element-size-limits.md).
 
-Each key has a name consisting of one or more printable characters. Key names are not case sensitive. Key names cannot include the backslash character (\), but any other printable character can be used. Value names and data can include the backslash character.
+Each key has a name consisting of one or more printable characters. Key names are not case sensitive. Key names cannot include the backslash character (\\), but any other printable character can be used. Value names and data can include the backslash character.
 
 The name of each subkey is unique with respect to the key that is immediately above it in the hierarchy. Key names are not localized into other languages, although values may be.
 

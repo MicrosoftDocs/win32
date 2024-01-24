@@ -1,6 +1,6 @@
 ---
 title: glScaled function (Gl.h)
-description: The glScaled and glScalef functions multiply the current matrix by a general scaling matrix.
+description: The glScaled and glScalef functions multiply the current matrix by a general scaling matrix. | glScaled function (Gl.h)
 ms.assetid: 3846289f-5c7b-4bb6-95a8-90a58dd8b9d9
 keywords:
 - glScaled function OpenGL
@@ -74,23 +74,11 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 
 
-## Error codes
-
-The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glScaled** function produces a general scaling along the *x*, *y*, and *z* axes. The three arguments indicate the desired scale factors along each of the three axes. The resulting matrix is
 
-![](images/scale01.png)
+![Diagram showing the matrix of scale factors along the x, y, and z axes.](images/scale01.png)
 
 The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this scale matrix, with the product replacing the current matrix. That is, if M is the current matrix and S is the scale matrix, then M is replaced with M   S.
 
@@ -112,7 +100,7 @@ The following functions retrieve information related to **glScaled**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

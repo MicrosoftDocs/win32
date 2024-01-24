@@ -1,5 +1,5 @@
 ---
-Description: Video Samples
+description: Video Samples
 ms.assetid: 1ee2ad6f-5e84-45ba-9849-cd3bd8e7eb29
 title: Video Samples
 ms.topic: article

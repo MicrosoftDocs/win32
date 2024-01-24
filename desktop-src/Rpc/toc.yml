@@ -63,7 +63,7 @@
         href: choosing-an-authentication-level.md
       - name: "Choosing Security QOS Options"
         href: choosing-security-qos-options.md
-      - name: "Common Mistake: Assuming RpcServerRegisterAuthInfo Prevents Unauthorized Users from Calling your Server"
+      - name: "RpcServerRegisterAuthInfo doesn't deny unauthorized users"
         href: common-mistake-assuming-rpcserverregisterauthinfo-prevents-unauthorized-users-from-calling-your-server.md
       - name: "Callbacks"
         href: callbacks.md

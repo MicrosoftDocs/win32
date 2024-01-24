@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexBuildCorruptedException members"
 title: EsentIndexBuildCorruptedException members
 TOCTitle: EsentIndexBuildCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexBuildCorruptedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.IndexBuildCorrupted exceptions.
 
-The [EsentIndexBuildCorruptedException](dn350493\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexBuildCorruptedException](./esentindexbuildcorruptedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentIndexBuildCorruptedException class](dn350493\(v=exchg.10\).md)
+[EsentIndexBuildCorruptedException class](./esentindexbuildcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

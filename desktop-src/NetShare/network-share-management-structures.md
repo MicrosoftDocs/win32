@@ -1,5 +1,5 @@
 ---
-Description: The Network Share Management structures can be grouped as follows.
+description: The Network Share Management structures can be grouped as follows.
 ms.assetid: 15b004de-1e8a-4bea-8e3d-28885f321126
 title: Network Share Management Structures
 ms.topic: article
@@ -52,7 +52,7 @@ The Network Share Management structures can be grouped as follows.
 <dl>
 
 [**STAT\_SERVER\_0**](/windows/desktop/api/Lmstats/ns-lmstats-stat_server_0)  
-[**STAT\_WORKSTATION\_0**](/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1)  
+[**STAT_WORKSTATION_0**](/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0-r1)  
 </dl>
 
  

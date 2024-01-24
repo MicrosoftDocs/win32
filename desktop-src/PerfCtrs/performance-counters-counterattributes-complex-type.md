@@ -1,5 +1,5 @@
 ---
-Description: Defines a list that contains up to five counter attributes.
+description: Defines a list that contains up to five counter attributes.
 ms.assetid: d710c3d2-2886-4f1a-bd27-f11451d2f3c6
 title: counterAttributes Complex Type
 ms.topic: reference
@@ -42,7 +42,7 @@ Defines a list that contains up to five counter attributes.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

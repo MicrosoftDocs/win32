@@ -1,5 +1,5 @@
 ---
-Description: Changes a partial lock to an exclusive lock.
+description: Changes a partial lock to an exclusive lock.
 ms.assetid: 4999b539-620e-4fb3-b8d4-92767da1225f
 title: CShareLockNH::FirstPartialToExclusive method
 ms.topic: reference
@@ -44,7 +44,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                     |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Rwnh.dll</dt> </dl> |
 

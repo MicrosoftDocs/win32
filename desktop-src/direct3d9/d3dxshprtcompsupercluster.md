@@ -1,5 +1,5 @@
 ---
-Description: Used with compressed results of the vertex version of the precomputed radiance transfer (PRT) simulator.
+description: D3DXSHPRTCompSuperCluster function - Used with compressed results of the vertex version of the precomputed radiance transfer (PRT) simulator.
 ms.assetid: 0ec28b8c-5010-48a4-8e45-d7f9aa08185f
 title: D3DXSHPRTCompSuperCluster function (D3DX9Mesh.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

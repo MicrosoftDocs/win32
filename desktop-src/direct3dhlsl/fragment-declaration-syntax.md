@@ -28,7 +28,7 @@ where:
 
 
 
-|                   |                                                                                                                                                                                                                                                       |
+| Value                  | Description                                                                                                                                                                                                                                                      |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | fragmentKeyword   | Required keyword. Either pixelfragment or vertexfragment.                                                                                                                                                                                             |
 | FragmentName      | An ASCII text string that specifies the compiled fragment name.                                                                                                                                                                                       |

@@ -1,9 +1,9 @@
 ---
-Description: Sets various battery information.
+description: Sets various battery information.
 ms.assetid: b827983d-5fb8-43f2-b732-541d16b3eb7b
 title: IOCTL_BATTERY_SET_INFORMATION control code (Poclass.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 01/11/2022
 topic_type:
 - APIRef
 - kbSyntax
@@ -114,6 +114,8 @@ If the operation completes successfully, [**DeviceIoControl**](/windows/desktop/
 
 If the operation fails or is pending, [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) returns zero. To get extended error information, call [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
+All requests for battery information will complete with the status of ERROR_NO_SUCH_DEVICE (or ERROR_FILE_NOT_FOUND in **Windows 10 version 1809 and earlier**) whenever the BatteryTag element of the request does not match that of the current battery tag. This ensures that the returned battery information matches that of the requested battery (see [Battery Tags](battery-information.md) for more information).
+
 ## Remarks
 
 All requests to set battery information will complete with the status of ERROR\_FILE\_NOT\_FOUND if the battery tag of the request does not match that of the current battery tag.
@@ -124,7 +126,7 @@ For the implications of overlapped I/O on this operation, see the Remarks sectio
 
 
 
-|                                     |                                                                                                                                                                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |

@@ -1,5 +1,5 @@
 ---
-Description: Applications that port from WinINet to WinHTTP may need to use the same autoproxy settings that they can retrieve under WinINet or Internet Explorer (IE).
+description: Applications that port from WinINet to WinHTTP may need to use the same autoproxy settings that they can retrieve under WinINet or Internet Explorer (IE).
 ms.assetid: c3e867d8-9d67-4e6a-8551-1fa846e089ed
 title: Setting WinINet Proxy Configurations in WinHTTP
 ms.topic: article

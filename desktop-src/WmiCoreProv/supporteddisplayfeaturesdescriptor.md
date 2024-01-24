@@ -1,5 +1,5 @@
 ---
-Description: Represents the supported display features of the monitor.
+description: Represents the supported display features of the monitor.
 ms.assetid: 28eeead3-8fb9-4720-8d93-1c6757dfb31b
 title: SupportedDisplayFeaturesDescriptor class
 ms.topic: reference
@@ -113,7 +113,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the display has has a preferred timing mode. If **True**, the first detailed timing block contains the preferred timing mode of the monitor. Use of preferred timing mode is required by EDID v.1.3 and higher.
+Indicates whether the display has a preferred timing mode. If **True**, the first detailed timing block contains the preferred timing mode of the monitor. Use of preferred timing mode is required by EDID v.1.3 and higher.
 
 </dd> <dt>
 
@@ -160,7 +160,7 @@ Indicates whether the display supports VESA Display Power Management Signaling (
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

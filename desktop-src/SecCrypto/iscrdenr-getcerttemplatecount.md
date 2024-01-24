@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of certificate templates.
+description: Retrieves the number of certificate templates.
 ms.assetid: f56e6e72-1562-4c53-b0da-b4bc69511559
 title: ISCrdEnr::getCertTemplateCount method
 ms.topic: reference
@@ -77,7 +77,7 @@ A **Long** value that represents the number of certificate templates.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

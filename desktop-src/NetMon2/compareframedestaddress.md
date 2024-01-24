@@ -1,5 +1,5 @@
 ---
-Description: The CompareFrameDestAddress function compares an address to the destination address of a frame.
+description: The CompareFrameDestAddress function compares an address to the destination address of a frame.
 ms.assetid: 739b3b9f-f989-459d-ac3e-6be7769adc06
 title: CompareFrameDestAddress function (Netmon.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ Network Monitor provides two other functions, [CompareFrameSourceAddress](compar
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

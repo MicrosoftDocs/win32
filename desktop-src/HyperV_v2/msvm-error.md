@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the severity, cause, recommended actions, and other data related to the failure of a CIM Operation.
+description: Contains information about the severity, cause, recommended actions, and other data related to the failure of a CIM Operation.
 ms.assetid: 128B9ECE-D26C-4A7D-BFB7-69CD986B0DBA
 title: Msvm_Error class
 ms.topic: reference
@@ -749,7 +749,7 @@ Access to the **Msvm\_Error** class might be restricted by UAC Filtering. For mo
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

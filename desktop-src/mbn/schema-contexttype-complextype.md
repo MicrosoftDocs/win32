@@ -1,5 +1,5 @@
 ---
-Description: Specifies the connenction context of a Mobile Broadband device.
+description: Specifies the connenction context of a Mobile Broadband device.
 ms.assetid: 513e744d-bd62-43e9-a636-6690867d8b9b
 title: contextType Complex Type
 ms.topic: reference
@@ -117,7 +117,7 @@ The **contextType** complex type specifies the connenction context of a Mobile B
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

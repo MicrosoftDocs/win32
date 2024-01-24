@@ -1,5 +1,5 @@
 ---
-Description: Overview of using gestures.
+description: Overview of using gestures.
 ms.assetid: 5bc80086-7acf-4f86-a9fb-a663de489f8b
 title: Using Gestures
 ms.topic: article

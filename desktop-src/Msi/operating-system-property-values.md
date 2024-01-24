@@ -1,5 +1,5 @@
 ---
-Description: The table in this topic displays values for selected Windows Installer Operating System Properties.
+description: The table in this topic displays values for selected Windows Installer Operating System Properties.
 ms.assetid: 4f516cf0-d5b3-4df6-b171-54bbafc0ef93
 title: Operating System Property Values
 ms.topic: article
@@ -36,10 +36,8 @@ The table in this topic displays values for selected Windows Installer [Operatin
 | Windows 7 with Service Pack 1 (SP1)           | 601       | greater than 7100             | 1                |
 | Windows 8                                     | 602       | greater than or equal to 9200 | Not applicable   |
 | Windows Server 2012                           | 602       | greater than or equal to 9200 | Not applicable   |
+| Windows 8.1                                   | 603       | greater than or equal to 9600 | Not applicable   |
 
-
-
- 
 
 For more information, see [Released Versions of Windows Installer](released-versions-of-windows-installer.md), [**VersionNT**](versionnt.md), [**WindowsBuild**](windowsbuild.md), and [**ServicePackLevel**](servicepacklevel.md).
 

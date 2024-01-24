@@ -1,7 +1,6 @@
 ---
 title: D3DPERF_SetRegion function
 description: Mark a series of frames with the specified color and name in the PIXRun file. This function is not currently supported by PIX.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 04/06/2020
 req.lib: d3d9.lib

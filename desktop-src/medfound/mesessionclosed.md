@@ -1,5 +1,5 @@
 ---
-Description: Raised when the IMFMediaSession::Close method completes asynchronously.
+description: Raised when the IMFMediaSession::Close method completes asynchronously.
 ms.assetid: d1056ce7-5527-428a-8ace-e1c10a2124a5
 title: MESessionClosed event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

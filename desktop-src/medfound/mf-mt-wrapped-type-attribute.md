@@ -1,5 +1,5 @@
 ---
-Description: Contains a media type that has been wrapped in another media type.
+description: Contains a media type that has been wrapped in another media type.
 ms.assetid: 3bd94523-0206-44d8-83a2-e569e4ab7815
 title: MF_MT_WRAPPED_TYPE attribute (Mfapi.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

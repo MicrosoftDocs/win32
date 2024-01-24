@@ -8,10 +8,13 @@ keywords:
 - creating skins,art
 - art files for skins,creating
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Creating the Art
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The art for this skin was created using Adobe Photoshop. Other graphics editing programs, such as Jasc Paint Shop Pro or Microsoft Paint, could have been used. Photoshop was chosen as an example of a graphics editing application that supports layers, which are helpful for creating multiple bitmap files that will line up with each other.
 

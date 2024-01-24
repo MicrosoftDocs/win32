@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SOPENTYPELANGUAGETAG
+description: LOCALE\_SOPENTYPELANGUAGETAG
 ms.assetid: b70955ca-d315-4e7f-ac71-405292adf5fa
 title: LOCALE_SOPENTYPELANGUAGETAG
 ms.topic: article

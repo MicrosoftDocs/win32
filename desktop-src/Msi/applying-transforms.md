@@ -1,5 +1,5 @@
 ---
-Description: The TRANSFORMS property contains the list of transforms for an installation package. The installer applies all the transforms in the transforms list at every installation, advertisement, installation-on-demand, or maintenance installation of the package.
+description: The TRANSFORMS property contains the list of transforms for an installation package. The installer applies all the transforms in the transforms list at every installation, advertisement, installation-on-demand, or maintenance installation of the package.
 ms.assetid: dde2ef55-7794-4eb1-984a-ed13e990c97f
 title: Applying Transforms
 ms.topic: article

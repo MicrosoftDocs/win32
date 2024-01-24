@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent to the parent window of an owner-drawn button, combo box, list box, or menu when a visual aspect of the button, combo box, list box, or menu has changed.
 
-A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [*WindowProc*](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -66,7 +66,7 @@ Before returning from processing this message, an application should ensure that
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

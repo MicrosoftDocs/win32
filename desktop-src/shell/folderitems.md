@@ -1,5 +1,5 @@
 ---
-Description: Represents the collection of items in a Shell folder. This object contains properties and methods that allow you to retrieve information about the collection.
+description: Represents the collection of items in a Shell folder. This object contains properties and methods that allow you to retrieve information about the collection.
 title: FolderItems object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: b99201b3-95e8-4ddd-b338-dee8d107d0a0
-api_name: 
- - FolderItems
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -71,7 +62,7 @@ The **FolderItems** object has these properties.
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

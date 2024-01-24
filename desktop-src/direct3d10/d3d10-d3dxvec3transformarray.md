@@ -1,21 +1,24 @@
 ---
-Description: Transforms an array (x, y, z, 1) by a given matrix.
+description: D3DXVec3TransformArray function (D3DX10Math.h) - Transforms an array (x, y, z, 1) by a given matrix.
 ms.assetid: f64c55df-ea93-4c93-be89-eee650e6ecf0
 title: D3DXVec3TransformArray function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3TransformArray
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec3TransformArray function
+# D3DXVec3TransformArray function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms an array (x, y, z, 1) by a given matrix.
 
@@ -109,7 +112,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

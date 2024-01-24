@@ -1,6 +1,6 @@
 ---
 title: Buffer::Load(int, uint) function
-description: Reads buffer data and returns status of the operation.
+description: Reads buffer data and returns status of the operation. | Buffer::Load(int, uint) function
 ms.assetid: 0C7FC522-C962-4467-AA3E-6611064C188B
 keywords:
 - Load function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int, uint) function
+# Buffer::Load(int, uint) function
 
 Reads buffer data and returns status of the operation.
 

@@ -1,5 +1,5 @@
 ---
-Description: Create an effect pool from an effect file.
+description: Create an effect pool from an effect file.
 ms.assetid: be738374-a91e-43d3-9cec-14882e6317ee
 title: D3DX10CreateEffectPoolFromFile function (D3DX10Async.h)
 ms.topic: reference
@@ -173,7 +173,7 @@ hr = D3DX10CreateEffectPoolFromFile( str,
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

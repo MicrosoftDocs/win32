@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 The following sections describe the functionality has been added in Direct3D 11.3. These features are also available in Direct3D 12.
 
-## 
 
 ## In this section
 

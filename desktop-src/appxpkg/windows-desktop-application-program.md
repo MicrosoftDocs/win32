@@ -8,9 +8,9 @@ ms.date: 11/02/2018
 
 # Windows Desktop Application Program
 
-You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program.
+You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program. To view these reports, navigate to Partner Center > [Insights dashboard](https://partner.microsoft.com/dashboard/insights/analytics/overview) > Windows Desktop Applications and click on Overview.
 
-There's no charge to access this data all you need to do is [sign up](https://login.microsoftonline.com/common/oauth2/authorize?client_id=4990cffe-04e8-4e8b-808a-1175604b879f&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3deJsPaLaK4fU55nKvN21CjU6FsdJ0aPGfhsjGAZ0HR9bE6rgwHHX4izvRt_w-0VUlIF0ClCya4cVY6Uv4qTAqDrH8LTwFpjFGWVW2BAIJmAAuxBLZGTPS_DYy0wwgvTh1orWTCMvBdlOu_kF8vwNe4mjtk9JRMvYaETyspKrJi-s5Z2K7lKIPqnlFkwSU-aoot-3NxTeQ0wu6_RJ1nf_kLFatEkVAqokDSYTKkpv7zF6gA3YYriMFoC9_f2uxuXpI-STckg&nonce=637177463062493881.YjhiOTZjYTMtOTVhZS00OGM1LWI4MDItNWE5MThjMjA1ZjZmMTAyZDRiMGQtMDJhNC00ZDJmLWFkM2QtM2FjZDJkNjcxYWQy&redirect_uri=https%3a%2f%2fpartner.microsoft.com%2faad%2fauthPostGateway&resource=797f4846-ba00-4fd7-ba43-dac1f8f63013&mkt=en-US) and accept the [Windows Desktop Application Program Agreement](https://go.microsoft.com/fwlink/?linkid=853677), then upload a signed file using the same certificate you used to sign your application executable files.
+There's no charge to access this data all you need to do is [sign up](https://partner.microsoft.com/dashboard/desktop/overview) and accept the [Windows Desktop Application Program Agreement](https://go.microsoft.com/fwlink/?linkid=853677), then upload a signed file using the same certificate you used to sign your application executable files.
 
 ## Join the Windows Desktop Application Program
 
@@ -21,7 +21,7 @@ There's no charge to access this data all you need to do is [sign up](https://lo
 
  
 
-**If your company doesn't have a Partner Center account**: You can [sign up for the Windows Desktop Application Program directly](https://login.microsoftonline.com/common/oauth2/authorize?client_id=4990cffe-04e8-4e8b-808a-1175604b879f&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3dWc5R_wIKVD0EbOy2UUxS0_0GQJnIAbD-eisMn7Gb4cJL18fRdelvbtj5_R0zoGlsebcnAxIvwKS5kx4Ma4mLMbU4l9ULsE9ajiZU4wtchLJXyJGsPCjCBUNV7TY1SzwXAI-LepSoXkqa8xSywVb7JZ3Xed-Lcw-kwEShFOwt0SdSdc1nNevHbPOhotOeFQcqbo0HESVYXk6pZORJ_OYimG99onp_zSTyludOvvaTd9GYKUgX9exCU5IHReP7MzJDHOgqTg&nonce=637177463071243612.NDU4MjE2ZTMtNmVkMi00YWNiLWEzZGEtMjYyNDRkODI0M2FmOTM3MmE1NzgtMzQ1OC00M2ZkLWJhMDktYzI4YTNhNzdiYTk0&redirect_uri=https%3a%2f%2fpartner.microsoft.com%2faad%2fauthPostGateway&resource=797f4846-ba00-4fd7-ba43-dac1f8f63013&mkt=en-US) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
+**If your company doesn't have a Partner Center account**: You can [sign up for the Windows Desktop Application Program directly](https://partner.microsoft.com/dashboard/desktop/overview) at no cost. Coming soon, we'll provide the option to [associate an Azure AD tenant with your account](/windows/uwp/publish/add-users-groups-and-azure-ad-applications) so that other people in your company can also sign in.
 
 ## Add your desktop applications
 
@@ -40,7 +40,7 @@ We'll provide you a file and ask you to sign it with the same valid, non-expired
 
 1.  From your dashboard, select **Add desktop applications**.
 2.  On the next page, download the signable file by selecting **Download the file**, then save the file to your computer.
-3.  Sign the file you just downloaded using the same code-signing certificate that you use to authenticate your desktop application(s). You can use SignTool.exe (available in Microsoft Visual Studio and as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk)) to sign this file. More details about this process are described below.
+3.  Sign the file you just downloaded using the same code-signing certificate that you use to authenticate your desktop application(s). You can use SignTool.exe (available in Microsoft Visual Studio and as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/)) to sign this file. More details about this process are described below.
 4.  Upload the file you just signed by dragging it into the field (or click to browse your files).
 5.  Select **Submit** to complete the process.
 
@@ -52,7 +52,7 @@ After you complete these steps, we'll identify which Windows desktop application
 
 ## Use signtool.exe to sign the downloaded file
 
-Microsoft provides a tool for signing files, SignTool.exe, with Visual Studio and in the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk). You can use this tool to perform and verify the code signing process. More info about SignTool.exe is available [here](/dotnet/framework/tools/signtool-exe).
+Microsoft provides a tool for signing files, SignTool.exe, with Visual Studio and in the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/). You can use this tool to perform and verify the code signing process. More info about SignTool.exe is available [here](/dotnet/framework/tools/signtool-exe).
 
 Here are two of the most common ways to use this tool to sign the signable file.
 
@@ -62,7 +62,7 @@ Here are two of the most common ways to use this tool to sign the signable file.
     signtool sign /f MyCert.pfx /p MyCertPassword /v SignableFile.bin
     ```
 
-    ![command prompt window showing this command](images/signtool2.png)
+    ![Screenshot that shows a command prompt window showing the 'signtool sign /f MyCert.pfx /p MyCertPassword /v SignableFile.bin' command.](images/signtool2.png)
 
 -   If the code-signing certificate is available in your local certificate store:
 
@@ -86,8 +86,9 @@ Our telemetry data will show health information such as crashes for each applica
 
 > [!Note]  
 > If we detect that an application's metadata has been updated to use a new name, we ll begin to report new data under the new name. Historical data associated with the old name will be preserved for 30 days.
+> 
+> Analytics will not be available for an application until it has been installed on at least 100 devices.
 
- 
 
 ### Health report
 
@@ -104,7 +105,7 @@ You can filter the data in a number of ways, allowing you to:
 -   Compare performance of your desktop applications across Windows versions, or on a specific version, such as the latest Windows 10 release
 -   View health info for one particular executable file included in your application
 
-Select **Upload symbols** in the top of the **Failures** table to upload a .zip file containing your application's [symbol files](http:/docs.microsoft.com/windows-hardware/drivers/debugger/symbols-and-symbol-files). These symbol files will be indexed and used to produce more accurate stack traces. Symbol file types within the .zip should be .pdb, .dll, or .exe. After you successfully upload your .zip file, you should see fewer **!Unknown** values for new failures in your application's failure list in approximately 5 days.
+Select **Upload symbols** in the top of the **Failures** table to upload a .zip file containing your application's [symbol files](/windows-hardware/drivers/debugger/symbols-and-symbol-files). These symbol files will be indexed and used to produce more accurate stack traces. Symbol file types within the .zip should be .pdb, .dll, or .exe. After you successfully upload your .zip file, you should see fewer **!Unknown** values for new failures in your application's failure list in approximately 5 days.
 
 ### Installs report
 

@@ -1,5 +1,5 @@
 ---
-Description: Removes mesh data from the device that has been committed to the device (with ID3DX10Mesh::CommitToDevice).
+description: Removes mesh data from the device that has been committed to the device (with ID3DX10Mesh::CommitToDevice).
 ms.assetid: 60eee1f8-f04b-4f33-8f86-0564d0334f97
 title: ID3DX10Mesh::Discard method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

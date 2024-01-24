@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID.GetHashCode method"
 title: JET_TABLEID.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.GetHashCode
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns the hash code for this instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ The hash code for this instance.
 
 #### Reference
 
-[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](./jet-tableid-structure.md)
 
-[JET_TABLEID members](hh596310\(v=exchg.10\).md)
+[JET_TABLEID members](./jet-tableid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

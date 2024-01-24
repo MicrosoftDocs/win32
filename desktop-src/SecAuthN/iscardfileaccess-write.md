@@ -1,5 +1,5 @@
 ---
-Description: The Write method writes data to a current opened file.
+description: The Write method writes data to a current opened file.
 ms.assetid: 0c92af34-a9db-4242-8b6e-d1010a0d7afa
 title: ISCardFileAccess::Write method
 ms.topic: reference
@@ -90,7 +90,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

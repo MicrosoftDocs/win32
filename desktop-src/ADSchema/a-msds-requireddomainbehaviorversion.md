@@ -22,7 +22,7 @@ Required domain function level for this feature.
 
 
 
-|                   |                                        |
+| Entry | Value |
 |-------------------|----------------------------------------|
 | CN                | ms-DS-Required-Domain-Behavior-Version |
 | Ldap-Display-Name | msDS-RequiredDomainBehaviorVersion     |
@@ -44,7 +44,7 @@ Required domain function level for this feature.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -65,7 +65,7 @@ Required domain function level for this feature.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

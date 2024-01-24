@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_DCOMApplicationSetting&\#8194;WMI class represents the settings of a DCOM application.
+description: The Win32\_DCOMApplicationSetting&\#8194;WMI class represents the settings of a DCOM application.
 ms.assetid: afa23faa-bf4d-4f54-9ee9-227956ff3292
 ms.tgt_platform: multiple
 title: Win32_DCOMApplicationSetting class
@@ -358,7 +358,7 @@ The **Win32\_DCOMApplicationSetting** class is derived from [**Win32\_COMSetting
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

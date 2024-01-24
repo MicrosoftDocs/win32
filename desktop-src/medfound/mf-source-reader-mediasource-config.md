@@ -1,5 +1,5 @@
 ---
-Description: Contains configuration properties for the Source Reader.
+description: Contains configuration properties for the Source Reader.
 ms.assetid: f7e5ef6a-5fc3-4f39-acc0-61ce79030211
 title: MF_SOURCE_READER_MEDIASOURCE_CONFIG attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Internally, the source reader passes the **IPropertyStore** pointer to the sourc
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: The Format property of the ConfigurableItem object returns the value from the Format column of the ModuleConfiguration table.
+description: The Format property of the ConfigurableItem object returns the value from the Format column of the ModuleConfiguration table.
 ms.assetid: e75ed650-7309-4e24-9c35-82ebf27d011b
 title: ConfigurableItem.Format property (Mergemod.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ See [**get\_Format**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurable
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

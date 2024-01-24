@@ -12,10 +12,13 @@ keywords:
 - ACM reference,about
 - reference for ACM,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Audio Compression Manager Reference
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 This section describes the functions, structures, and messages associated with the ACM. These elements are grouped as follows.
 

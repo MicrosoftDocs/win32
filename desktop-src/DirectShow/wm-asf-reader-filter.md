@@ -1,18 +1,21 @@
 ---
-Description: WM ASF Reader Filter
+description: Learn about the WM ASF Reader filter for DirectShow. This is a wrapper filter for the reader object that's provided with the Windows Media Format SDK.
 ms.assetid: '82b9f849-b9dc-439b-8ca7-9dcd992338ab'
 title: WM ASF Reader Filter (DirectShow)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
-# WM ASF Reader Filter
+# WM ASF Reader Filter (DirectShow)
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The WM ASF Reader is a wrapper filter for the reader object provided with the Windows Media Format SDK and is the recommended source filter for file playback of Windows Media-based content and content created with any of the Microsoft MPEG-4 Encoder DMOs.
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Label | Value |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter), [**IAMExtendedSeeking**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamextendedseeking), **IServiceProvider**In addition, the filter exposes the following Windows Media Format SDK interfaces: [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo), [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced), [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2), [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) (through **IServiceProvider**)<br/> |
 | Input pin media types                    | Not applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |

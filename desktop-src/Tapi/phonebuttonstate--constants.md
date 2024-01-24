@@ -1,5 +1,5 @@
 ---
-Description: The PHONEBUTTONSTATE bit-flag constants describe the buttons positions.
+description: The PHONEBUTTONSTATE bit-flag constants describe the buttons positions.
 ms.assetid: f1196e31-65c6-4ade-a0b7-c7758ce97be1
 title: PHONEBUTTONSTATE_ Constants (Tapi.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ For backward compatibility, it is the responsibility of the service provider to 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

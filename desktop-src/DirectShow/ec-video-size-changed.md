@@ -1,12 +1,15 @@
 ---
-Description: The native video size has changed.
+description: The native video size has changed.
 ms.assetid: 276f37b3-f981-4a01-bb37-1ee77248668f
 title: EC_VIDEO_SIZE_CHANGED (Dshow.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # EC\_VIDEO\_SIZE\_CHANGED
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The native video size has changed.
 
@@ -42,7 +45,7 @@ The [Video Mixing Renderer 7](video-mixing-renderer-filter-7.md) (VMR-7) and the
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

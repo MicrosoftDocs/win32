@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Hooks"
 ms.assetid: f0ca9e41-a9f7-435f-a601-f0959adcb514
 title: Using Hooks
 ms.topic: article
@@ -45,11 +46,11 @@ The following example uses a variety of thread-specific hook procedures to monit
 
 -   **WH\_CALLWNDPROC**
 -   **WH\_CBT**
--   **WH\_DEBUG**
+-   **WH_DEBUG**
 -   **WH\_GETMESSAGE**
 -   **WH\_KEYBOARD**
--   **WH\_MOUSE**
--   **WH\_MSGFILTER**
+-   **WH_MOUSE**
+-   **WH_MSGFILTER**
 
 The user can install and remove a hook procedure by using the menu. When a hook procedure is installed and an event that is monitored by the procedure occurs, the procedure writes information about the event to the client area of the application's main window.
 

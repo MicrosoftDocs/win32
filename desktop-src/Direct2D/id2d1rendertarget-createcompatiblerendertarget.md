@@ -111,7 +111,7 @@ Code has been omitted from this example.
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |

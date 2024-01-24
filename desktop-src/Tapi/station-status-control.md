@@ -1,5 +1,5 @@
 ---
-Description: There are three major station status functions that need control Message Waiting lights, Forwarding, and Do Not Disturb.
+description: There are three major station status functions that need control Message Waiting lights, Forwarding, and Do Not Disturb.
 ms.assetid: 4a6dc47f-caff-4f2b-8858-0e9bec32b137
 title: Station Status Control
 ms.topic: article

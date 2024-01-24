@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.ExposureBias property.
+description: The photo metadata policy for the System.Photo.ExposureBias property.
 ms.assetid: 00ebe037-0116-4d75-868b-d75b3e58a84d
 title: System.Photo.ExposureBias Photo Metadata Policy
 ms.topic: article

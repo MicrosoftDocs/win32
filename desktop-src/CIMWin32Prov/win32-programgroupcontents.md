@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ProgramGroupContents association WMI class relates a program group order and an individual program group or item contained in it.
+description: The Win32\_ProgramGroupContents association WMI class relates a program group order and an individual program group or item contained in it.
 ms.assetid: 687794d1-acc1-498a-9886-0c9ac762ebf4
 ms.tgt_platform: multiple
 title: Win32_ProgramGroupContents class
@@ -87,7 +87,7 @@ The **Win32\_ProgramGroupContents** class is derived from [**CIM\_Component**](c
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

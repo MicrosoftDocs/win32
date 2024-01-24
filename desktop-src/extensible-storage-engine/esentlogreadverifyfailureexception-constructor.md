@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogReadVerifyFailureException constructor"
 title: EsentLogReadVerifyFailureException constructor 
 TOCTitle: 'EsentLogReadVerifyFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogReadVerifyFailureException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogReadVerifyFailureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentLogReadVerifyFailureException()
 
 #### Reference
 
-[EsentLogReadVerifyFailureException class](dn334583\(v=exchg.10\).md)
+[EsentLogReadVerifyFailureException class](./esentlogreadverifyfailureexception-class.md)
 
-[EsentLogReadVerifyFailureException members](dn334599\(v=exchg.10\).md)
+[EsentLogReadVerifyFailureException members](./esentlogreadverifyfailureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

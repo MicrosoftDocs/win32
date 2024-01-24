@@ -1,5 +1,5 @@
 ---
-Description: After beginning preview of a video stream, call the IWiaVideo::TakePicture method of the IWiaVideo interface to capture a still image from the streaming video.
+description: After beginning preview of a video stream, call the IWiaVideo::TakePicture method of the IWiaVideo interface to capture a still image from the streaming video.
 ms.assetid: 2b8c465b-0dbf-4741-a701-200862cc3de3
 title: Capturing a Still Image from a Video Stream
 ms.topic: article

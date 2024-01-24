@@ -81,7 +81,7 @@ If the low-order word of *wParam* is UIS\_INITIALIZE, the system will send the [
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -96,10 +96,10 @@ If the low-order word of *wParam* is UIS\_INITIALIZE, the system will send the [
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](../winmsg/loword.md)
 </dt> <dt>
 
 [**WM\_QUERYUISTATE**](wm-queryuistate.md)

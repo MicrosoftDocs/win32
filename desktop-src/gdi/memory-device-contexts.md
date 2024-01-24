@@ -1,5 +1,5 @@
 ---
-Description: To enable applications to place output in memory rather than sending it to an actual device, use a special device context for bitmap operations called a memory device context.
+description: To enable applications to place output in memory rather than sending it to an actual device, use a special device context for bitmap operations called a memory device context.
 ms.assetid: 0a682dc4-31a4-43c8-b0b1-ab01986b1dac
 title: Memory Device Contexts
 ms.topic: article

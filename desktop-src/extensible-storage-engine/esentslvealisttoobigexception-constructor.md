@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListTooBigException constructor"
 title: EsentSLVEAListTooBigException constructor 
 TOCTitle: 'EsentSLVEAListTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVEAListTooBigException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVEAListTooBigException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVEAListTooBigException()
 
 #### Reference
 
-[EsentSLVEAListTooBigException class](dn350686\(v=exchg.10\).md)
+[EsentSLVEAListTooBigException class](./esentslvealisttoobigexception-class.md)
 
-[EsentSLVEAListTooBigException members](dn350688\(v=exchg.10\).md)
+[EsentSLVEAListTooBigException members](./esentslvealisttoobigexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

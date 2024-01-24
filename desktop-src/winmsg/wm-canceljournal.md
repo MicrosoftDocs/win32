@@ -1,5 +1,5 @@
 ---
-Description: Posted to an application when a user cancels the application's journaling activities. The message is posted with a NULL window handle.
+description: Posted to an application when a user cancels the application's journaling activities. The message is posted with a NULL window handle.
 ms.assetid: 7515acb5-4526-40f7-abb7-822a073ac7dc
 title: WM_CANCELJOURNAL message (Winuser.h)
 ms.topic: reference
@@ -7,6 +7,9 @@ ms.date: 05/31/2018
 ---
 
 # WM\_CANCELJOURNAL message
+
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
 
 Posted to an application when a user cancels the application's journaling activities. The message is posted with a **NULL** window handle.
 
@@ -57,7 +60,7 @@ Note that the key combinations mentioned above (CTRL+ESC or CTRL+ALT+DEL) cause 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -72,13 +75,13 @@ Note that the key combinations mentioned above (CTRL+ESC or CTRL+ALT+DEL) cause 
 **Reference**
 </dt> <dt>
 
-[*JournalPlaybackProc*](/previous-versions/windows/desktop/legacy/ms644982(v=vs.85))
+[*JournalPlaybackProc*](journalplaybackproc.md)
 </dt> <dt>
 
-[*JournalRecordProc*](/previous-versions/windows/desktop/legacy/ms644983(v=vs.85))
+[*JournalRecordProc*](/windows/win32/winmsg/journalrecordproc)
 </dt> <dt>
 
-[*GetMsgProc*](/previous-versions/windows/desktop/legacy/ms644981(v=vs.85))
+[*GetMsgProc*](/windows/win32/winmsg/getmsgproc)
 </dt> <dt>
 
 [**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)

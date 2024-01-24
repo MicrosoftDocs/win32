@@ -1,5 +1,5 @@
 ---
-Description: The automatic logon password should be protected by using the LsaStorePrivateData function.
+description: The automatic logon password should be protected by using the LsaStorePrivateData function.
 ms.assetid: 7bd4d725-de17-4801-bd06-8d47a777409d
 title: Protecting the Automatic Logon Password
 ms.topic: article

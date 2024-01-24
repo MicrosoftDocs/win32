@@ -1,5 +1,5 @@
 ---
-Description: The two application-defined mapping modes (MM\_ISOTROPIC and MM\_ANISOTROPIC) are provided for application-specific mapping modes.
+description: The two application-defined mapping modes (MM\_ISOTROPIC and MM\_ANISOTROPIC) are provided for application-specific mapping modes.
 ms.assetid: c4c4e352-63fc-4e97-a218-a1b7deac02e8
 title: Application-Defined Mapping Modes
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PFNREALLOC delegate"
 title: JET_PFNREALLOC delegate
 TOCTitle: JET_PFNREALLOC delegate
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_PFNREALLOC
@@ -36,7 +37,7 @@ Callback used by JetEnumerateColumns to allocate memory for its output buffers.
 
 This API is not CLS-compliant. 
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -92,4 +93,4 @@ A pointer to newly allocated memory. If memory could not be allocated then [Zero
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

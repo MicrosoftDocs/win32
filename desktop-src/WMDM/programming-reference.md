@@ -1,6 +1,6 @@
 ---
 title: WMDM reference
-description: Programming Reference
+description: The Windows Media Device Manager SDK consists of a collection of interfaces, structures, enumerations, and constants. Use these reference articles.
 ms.assetid: 1d2260a8-bc9f-41b3-a3b0-0176b45fff1f
 keywords:
 - Windows Media Device Manager,programming reference

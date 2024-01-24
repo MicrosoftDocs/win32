@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer provides many built-in actions for performing the installation process. For a list of these actions, see the Standard Actions Reference.
+description: The Windows Installer provides many built-in actions for performing the installation process. For a list of these actions, see the Standard Actions Reference.
 ms.assetid: '4a1f3ccc-4904-47d0-bfc6-013e404de47e'
 title: Custom Actions
 ms.topic: article

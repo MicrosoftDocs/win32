@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows8Grbits fields"
 title: Windows8Grbits fields (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Grbits fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Windows8Grbits](dn335391\(v=exchg.10\).md) type exposes the following members.
+The [Windows8Grbits](./windows8grbits-class.md) type exposes the following members.
 
 ## Fields
 
@@ -56,7 +57,6 @@ Top
 
 #### Reference
 
-[Windows8Grbits class](dn335391\(v=exchg.10\).md)
+[Windows8Grbits class](./windows8grbits-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

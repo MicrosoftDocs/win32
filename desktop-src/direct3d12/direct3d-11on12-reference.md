@@ -2,7 +2,6 @@
 title: 11on12 Reference
 description: This section covers Direct3D 12 APIs declared in d3d11on12.h. The Direct3D 11on12 APIs help you port code incrementally from D3D11 to D3D12.
 ms.assetid: FB588202-A187-4727-BF53-E931BEA6CFB9
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---

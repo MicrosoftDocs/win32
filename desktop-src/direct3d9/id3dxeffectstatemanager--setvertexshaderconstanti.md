@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set an array of vertex shader integer constants.
+description: ID3DXEffectStateManager::SetVertexShaderConstantI method - A callback function that must be implemented by a user to set an array of vertex shader integer constants.
 ms.assetid: 0035c97a-1b17-4665-9032-7b3b9a9d2cff
 title: ID3DXEffectStateManager::SetVertexShaderConstantI method (D3DX9Effect.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The user-implemented method should return S\_OK. If the callback fails when sett
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

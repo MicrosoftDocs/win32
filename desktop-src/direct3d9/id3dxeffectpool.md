@@ -1,5 +1,5 @@
 ---
-Description: Applications use the ID3DXEffectPool interface to identify parameters that are going to be shared across effects. See parameter sharing in Cloning and Sharing (Direct3D 9). This interface has no methods.
+description: Applications use the ID3DXEffectPool interface to identify parameters that are going to be shared across effects. See parameter sharing in Cloning and Sharing (Direct3D 9). This interface has no methods.
 ms.assetid: dd5e55eb-9436-422d-9743-38be44d05962
 title: ID3DXEffectPool interface (D3DX9Effect.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ typedef interface ID3DXEffectPool *LPD3DXEFFECTPOOL;
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalFile class represents a named collection of data, which can be executable code, that is located in a file system on a storage extent.
+description: The CIM\_LogicalFile class represents a named collection of data, which can be executable code, that is located in a file system on a storage extent.
 ms.assetid: 96bf95a1-c8d7-4035-8d5a-38cdb9c75cce
 ms.tgt_platform: multiple
 title: CIM_LogicalFile class
@@ -853,7 +853,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

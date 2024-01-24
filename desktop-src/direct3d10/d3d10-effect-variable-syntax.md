@@ -1,5 +1,5 @@
 ---
-Description: An effect variable is declared with the following syntax.
+description: An effect variable is declared with the following syntax.
 ms.assetid: 53939c65-3725-44cc-bec6-775c3b921770
 title: Effect Variable Syntax (Direct3D 10)
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDefaultValueTooBigException constructor"
 title: EsentDefaultValueTooBigException constructor 
 TOCTitle: 'EsentDefaultValueTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDefaultValueTooBigException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDefaultValueTooBigException()
 
 #### Reference
 
-[EsentDefaultValueTooBigException class](dn334424\(v=exchg.10\).md)
+[EsentDefaultValueTooBigException class](./esentdefaultvaluetoobigexception-class.md)
 
-[EsentDefaultValueTooBigException members](dn274265\(v=exchg.10\).md)
+[EsentDefaultValueTooBigException members](./esentdefaultvaluetoobigexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

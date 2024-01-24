@@ -1,5 +1,5 @@
 ---
-Description: The SCARD\_IO\_REQUEST structure begins a protocol control information structure.
+description: The SCARD\_IO\_REQUEST structure begins a protocol control information structure.
 ms.assetid: 80fd7c6e-e768-42db-8302-29e92c9552f0
 title: SCARD_IO_REQUEST structure (Winsmcrd.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Length, in bytes, of the **SCARD\_IO\_REQUEST** structure plus any following PCI
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

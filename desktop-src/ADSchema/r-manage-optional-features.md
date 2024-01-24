@@ -21,7 +21,7 @@ Manage optional features for Active Directory.
 
 
 
-|              |                                               |
+| Entry | Value |
 |--------------|-----------------------------------------------|
 | CN           | Manage-Optional-Features                      |
 | Display-Name | Manage Optional Features for Active Directory |
@@ -38,7 +38,7 @@ Manage optional features for Active Directory.
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 79                                                            |
@@ -49,7 +49,7 @@ Manage optional features for Active Directory.
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 79                                                            |

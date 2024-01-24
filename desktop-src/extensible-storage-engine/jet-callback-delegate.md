@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CALLBACK delegate"
 title: JET_CALLBACK delegate
 TOCTitle: JET_CALLBACK delegate
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_CALLBACK
@@ -34,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 A multi-purpose callback function used by the database engine to inform the application of an event involving online defragmentation and cursor state notifications.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -71,28 +72,28 @@ public delegate JET_err JET_CALLBACK(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session for which the callback is being made.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)  
     
     The database for which the callback is being made.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor for which the callback is being made.
 
 <!-- end list -->
 
   - cbtyp  
-    Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](hh564847\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](./jet-cbtyp-enumeration.md)  
     
     The operation for which the callback is being made.
 
@@ -126,10 +127,10 @@ public delegate JET_err JET_CALLBACK(
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

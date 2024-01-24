@@ -1,5 +1,5 @@
 ---
-Description: Sent by a File Manager extension to cause File Manager to repaint either its active window or all of its windows.
+description: Sent by a File Manager extension to cause File Manager to repaint either its active window or all of its windows.
 title: FM_REFRESH_WINDOWS message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 210168c6-d83b-4ffd-93d4-d22fa748cef2
-api_name: 
- - FM_REFRESH_WINDOWS
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -55,7 +46,7 @@ File system changes caused by an extension are automatically detected by File Ma
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

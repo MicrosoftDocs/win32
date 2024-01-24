@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Grbits.WaitAllLevel0Commit field"
 title: Server2003Grbits.WaitAllLevel0Commit field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: WaitAllLevel0Commit field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits.WaitAllLevel0Commit
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 All transactions previously committed by any session that have not yet been flushed to the transaction log file will be flushed immediately. This API will wait until the transactions have been flushed before returning to the caller. This option may be used even if the session is not currently in a transaction. This option cannot be used in combination with any other option.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](hh557147\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](./microsoft.isam.esent.interop.server2003-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const CommitTransactionGrbit WaitAllLevel0Commit
 
 #### Reference
 
-[Server2003Grbits class](dn351281\(v=exchg.10\).md)
+[Server2003Grbits class](./server2003grbits-class.md)
 
-[Server2003Grbits members](dn351200\(v=exchg.10\).md)
+[Server2003Grbits members](./server2003grbits-members.md)
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

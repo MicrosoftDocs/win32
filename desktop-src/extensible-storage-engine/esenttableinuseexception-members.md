@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableInUseException members"
 title: EsentTableInUseException members
 TOCTitle: EsentTableInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTableInUseException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TableInUse exceptions.
 
-The [EsentTableInUseException](dn334903\(v=exchg.10\).md) type exposes the following members.
+The [EsentTableInUseException](./esenttableinuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTableInUseException class](dn334903\(v=exchg.10\).md)
+[EsentTableInUseException class](./esenttableinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -22,7 +22,7 @@ Stores configuration options for the Service Connection Point publication servic
 
 
 
-|                   |                                                    |
+| Entry | Value |
 |-------------------|----------------------------------------------------|
 | CN                | ms-DS-Service-Connection-Point-Publication-Service |
 | Ldap-Display-Name | msDS-ServiceConnectionPointPublicationService      |
@@ -42,7 +42,7 @@ Stores configuration options for the Service Connection Point publication servic
 
 
 
-|                             |                                        |
+| Entry | Value |
 |-----------------------------|----------------------------------------|
 | System-Only                 | True                                   |
 | Object-Category             | 1                                      |

@@ -1,5 +1,5 @@
 ---
-Description: Represents a wireless local area network communications device that conforms to the IEEE 802.11 series of specifications.
+description: Represents a wireless local area network communications device that conforms to the IEEE 802.11 series of specifications.
 ms.assetid: c4e3345f-5c7d-4d1d-9a94-64112d7334ff
 title: CIM_WiFiPort class
 ms.topic: reference
@@ -192,7 +192,7 @@ The data rate at which the current PPDU (PLCP (Physical Layer Convergence Protoc
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

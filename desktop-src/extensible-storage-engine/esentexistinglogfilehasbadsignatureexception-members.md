@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExistingLogFileHasBadSignatureException members"
 title: EsentExistingLogFileHasBadSignatureException members
 TOCTitle: EsentExistingLogFileHasBadSignatureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentExistingLogFileHasBadSignatureException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ExistingLogFileHasBadSignature exceptions.
 
-The [EsentExistingLogFileHasBadSignatureException](dn274318\(v=exchg.10\).md) type exposes the following members.
+The [EsentExistingLogFileHasBadSignatureException](./esentexistinglogfilehasbadsignatureexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentExistingLogFileHasBadSignatureException class](dn274318\(v=exchg.10\).md)
+[EsentExistingLogFileHasBadSignatureException class](./esentexistinglogfilehasbadsignatureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

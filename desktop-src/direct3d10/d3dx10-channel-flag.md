@@ -1,5 +1,5 @@
 ---
-Description: These flags are used by functions which operate on one or more channels in a texture.
+description: These flags are used by functions which operate on one or more channels in a texture.
 ms.assetid: 54ecb39a-a36e-43bb-bb51-78b7375716d8
 title: D3DX10_CHANNEL_FLAG enumeration (D3DX10Tex.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ Indicates the luminaces of the red, green, and blue channels should be used.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

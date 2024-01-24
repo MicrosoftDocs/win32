@@ -1,5 +1,5 @@
 ---
-Description: Opens the specified folder.
+description: Shell.Open method - Opens the specified folder.
 ms.assetid: 96ed9360-fb8f-4f7e-aefb-4a63ec95df07
 title: Shell.Open method (Shldisp.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

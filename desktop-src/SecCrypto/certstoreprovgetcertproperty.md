@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a specified property of a certificate.
+description: Retrieves a specified property of a certificate.
 ms.assetid: 827e0331-1f87-4891-8cc1-de1bcbad2963
 title: CertStoreProvGetCertProperty callback function
 ms.topic: reference
@@ -88,7 +88,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

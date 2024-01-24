@@ -1,5 +1,5 @@
 ---
-Description: Deprecated.
+description: Deprecated.
 ms.assetid: eb2622bc-a98d-42bd-ab59-7a849000d79d
 title: GetCalendarDateFormatEx function
 ms.topic: reference
@@ -129,7 +129,7 @@ This function does not have an associated header file or library file. The appli
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

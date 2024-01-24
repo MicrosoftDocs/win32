@@ -1,5 +1,5 @@
 ---
-Description: The setup functions include file queue functionality.
+description: The setup functions include file queue functionality.
 ms.assetid: '628850ab-eb66-4b60-9298-1a44a7f6a390'
 title: File Queues
 ms.topic: article

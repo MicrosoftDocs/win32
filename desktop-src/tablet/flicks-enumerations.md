@@ -1,5 +1,5 @@
 ---
-Description: This section contains the enumerations used in the WM\_TABLET\_FLICK Message.
+description: This section contains the enumerations used in the WM\_TABLET\_FLICK Message.
 ms.assetid: b3118d47-36c9-435f-9268-06de1a75375e
 title: Flicks Enumerations
 ms.topic: article

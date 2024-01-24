@@ -1,5 +1,5 @@
 ---
-Description: You create an enhanced metafile by using the CreateEnhMetaFile function, supplying the appropriate arguments.
+description: You create an enhanced metafile by using the CreateEnhMetaFile function, supplying the appropriate arguments.
 ms.assetid: b012e50e-a7f5-4687-9833-38dacc113d77
 title: Enhanced Metafile Creation
 ms.topic: article

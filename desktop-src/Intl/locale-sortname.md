@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SORTNAME
+description: LOCALE\_SORTNAME
 ms.assetid: 985260e1-a5f5-4654-9551-f1e17231a539
 title: LOCALE_SORTNAME
 ms.topic: article

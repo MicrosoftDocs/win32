@@ -1,5 +1,5 @@
 ---
-Description: COM+ Services Without Components
+description: COM+ Services Without Components
 ms.assetid: 5ef67411-334b-476e-b9b7-3677b24ab7df
 title: COM+ Services Without Components
 ms.topic: article

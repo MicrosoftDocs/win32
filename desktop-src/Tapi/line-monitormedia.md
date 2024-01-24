@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE_MONITORMEDIA message is sent when a change in the calls media type is detected. The sending of this message is controlled with the lineMonitorMedia function
+description: The TAPI LINE_MONITORMEDIA message is sent when a change in the calls media type is detected. The sending of this message is controlled with the lineMonitorMedia function
 ms.assetid: 1cfba455-9a15-45f3-8d56-74b8348e080e
 title: LINE_MONITORMEDIA message (Tapi.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If the service provider does not generate the timestamp (for example, if it was 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

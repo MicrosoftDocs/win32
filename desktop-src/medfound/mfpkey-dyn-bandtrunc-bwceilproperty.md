@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum coded bandwidth allowed by band truncation in the encoder.
+description: Specifies the maximum coded bandwidth allowed by band truncation in the encoder.
 ms.assetid: 01af4961-b372-462b-a24e-c600d1cd76ab
 title: MFPKEY_DYN_BANDTRUNC_BWCEIL Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

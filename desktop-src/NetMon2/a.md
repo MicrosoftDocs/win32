@@ -1,5 +1,5 @@
 ---
-Description: Glossary of Network Monitor terms that begin with the letter A.
+description: Glossary of Network Monitor terms that begin with the letter A.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 0aa58f61-c753-4a32-b37e-b5a7a0e842cc
 title: A (Network Monitor)
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# A
+# A (Network Monitor)
 
 <dl> <dt>
 

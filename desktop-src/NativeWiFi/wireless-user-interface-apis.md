@@ -1,5 +1,5 @@
 ---
-Description: Windows 8, Windows Server 2012, and later include a new Connection Manager feature that allows users to easily connect to the Internet and to other networks (work and home networks, for example).
+description: Windows 8, Windows Server 2012, and later include a new Connection Manager feature that allows users to easily connect to the Internet and to other networks (work and home networks, for example).
 ms.assetid: 6b2f5a50-fabd-4c80-acc8-a0883c939632
 title: Wireless User Interface APIs
 ms.topic: article
@@ -125,7 +125,7 @@ Windows Vista and later include an advanced user interface that is used to view
 [Using Native Wifi](using-native-wifi.md)
 </dt> <dt>
 
-[Wireless Profile Samples](wireless-profile-samples.md)
+[Wireless profile samples](wireless-profile-samples.md)
 </dt> <dt>
 
 [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea)

@@ -46,8 +46,8 @@ The following example shows the skeleton of a fully defined event manifest.
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>

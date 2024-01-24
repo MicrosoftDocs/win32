@@ -48,7 +48,7 @@ The DTS\_XXXFORMAT styles that define the display format cannot be combined. If 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

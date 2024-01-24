@@ -1,5 +1,5 @@
 ---
-Description: A custom action can launch an executable file that is stored on the user's machine or contained inside the installation package.
+description: A custom action can launch an executable file that is stored on the user's machine or contained inside the installation package.
 ms.assetid: 28416230-d0c2-4f6a-9908-45851a5664c5
 title: Executable Files
 ms.topic: article

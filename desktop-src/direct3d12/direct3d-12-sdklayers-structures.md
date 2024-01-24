@@ -2,7 +2,6 @@
 title: Debug Layer Structures
 description: The following structures are declared in d3d12sdklayers.h.
 ms.assetid: FE8796A7-98D1-4333-8755-2A47567560B3
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---

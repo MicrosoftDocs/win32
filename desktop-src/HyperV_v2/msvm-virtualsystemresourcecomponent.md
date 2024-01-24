@@ -1,5 +1,5 @@
 ---
-Description: Represents a virtual device service of the Microsoft Windows Hyper-V platform.
+description: Represents a virtual device service of the Microsoft Windows Hyper-V platform.
 ms.assetid: 865D83E1-0FC6-4F96-94BB-AA5116890127
 title: Msvm_VirtualSystemResourceComponent class
 ms.topic: reference
@@ -185,7 +185,7 @@ Access to the **Msvm\_VirtualSystemResourceComponent** class might be restricted
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

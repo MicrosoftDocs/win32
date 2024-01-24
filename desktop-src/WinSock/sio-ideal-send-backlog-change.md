@@ -1,5 +1,5 @@
 ---
-Description: Control code notifies an application when the ideal send backlog value changes for the connection.
+description: Control code notifies an application when the ideal send backlog value changes for the connection.
 ms.assetid: 337883a5-7ceb-40d3-b318-b86dd488b94a
 title: SIO_IDEAL_SEND_BACKLOG_CHANGE Control Code
 ms.topic: reference
@@ -97,6 +97,8 @@ Otherwise, the function does not return until the operation has been completed o
 
 ### lpCompletionRoutine
 
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 
 ### lpThreadId
@@ -175,7 +177,7 @@ The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL can fail with **WSAEINTR** or **
 
 * The TCP connection is gracefully disconnected in the send direction. This can occur as a result of a call to shutdown function with the how parameter set to **SD\_SEND**, a call to the **DisconnectEx** function, or a call to the **TransmitFile** or **TransmitPackets** function with *dwFlags* parameter set to **TF\_DISCONNECT** or **TF\_REUSE**.
 * The TCP connection has been reset or aborted.
-* The application issues a **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL when there is already a pended notification request. Only one one pended **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** request is allowed at a time.
+* The application issues a **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL when there is already a pended notification request. Only one pended **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** request is allowed at a time.
 * The request is canceled by the I/O Manager.
 * The socket is closed.
 

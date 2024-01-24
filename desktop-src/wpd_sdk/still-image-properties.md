@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following still-image properties.
+description: Windows Portable Devices supports the following still-image properties.
 ms.assetid: 0b5a126c-5064-48e5-a635-00c3e9ab6a2c
 title: Still Image Properties (PortableDevice.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Windows Portable Devices supports the following still-image properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

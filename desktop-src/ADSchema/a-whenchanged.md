@@ -22,7 +22,7 @@ The date when this object was last changed. This value is not replicated and exi
 
 
 
-|                   |                                                               |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------|
 | CN                | When-Changed                                                  |
 | Ldap-Display-Name | whenChanged                                                   |
@@ -49,7 +49,7 @@ The date when this object was last changed. This value is not replicated and exi
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3008                          |
@@ -70,7 +70,7 @@ The date when this object was last changed. This value is not replicated and exi
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3008                          |
@@ -91,7 +91,7 @@ The date when this object was last changed. This value is not replicated and exi
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3008                          |
@@ -112,7 +112,7 @@ The date when this object was last changed. This value is not replicated and exi
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3008                          |
@@ -133,7 +133,7 @@ The date when this object was last changed. This value is not replicated and exi
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3008                          |
@@ -154,7 +154,7 @@ The date when this object was last changed. This value is not replicated and exi
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3008                          |
@@ -175,7 +175,7 @@ The date when this object was last changed. This value is not replicated and exi
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x3008                          |

@@ -1,5 +1,5 @@
 ---
-Description: Summary of VSS API Changes in Windows Server 2003
+description: Summary of VSS API Changes in Windows Server 2003
 ms.assetid: 35572fc6-9147-4726-ae7a-d78292683ba0
 title: Summary of VSS API Changes in Windows Server 2003
 ms.topic: article

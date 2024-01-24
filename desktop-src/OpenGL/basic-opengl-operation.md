@@ -27,7 +27,7 @@ ms.date: 05/31/2018
 
 The following diagram illustrates how OpenGL processes data. As shown, commands enter from the left and proceed through a processing pipeline. Some commands specify geometric objects to be drawn, and others control how the objects are handled during various processing stages.
 
-![](images/basic01.png)
+![Diagram showing the OpenGL data processing pipeline stages.](images/basic01.png)
 
 The processing stages in basic OpenGL operation are as follows:
 

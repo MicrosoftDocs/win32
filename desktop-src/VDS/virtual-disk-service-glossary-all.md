@@ -1,5 +1,5 @@
 ---
-Description: This section provides a glossary of technical terms used in the Virtual Disk Service (VDS) documentation.
+description: This section provides a glossary of technical terms used in the Virtual Disk Service (VDS) documentation.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 1cf28cfb-ce96-4659-955d-0088bddcb9ce
 title: Virtual Disk Service Glossary
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Virtual Disk Service Glossary
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 This section provides a glossary of technical terms used in the Virtual Disk Service (VDS) documentation.
 

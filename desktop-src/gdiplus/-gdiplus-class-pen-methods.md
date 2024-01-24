@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the Pen class. For a complete class listing, see Pen Class.
+description: This topic lists the methods of the Pen class. For a complete class listing, see Pen Class.
 ms.assetid: 479998ae-0775-4672-8ab4-add9b5cc4f03
 title: Pen Methods
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets a value that represents the month component of the datetime value.
+description: Gets or sets a value that represents the month component of the datetime value.
 ms.assetid: 05818f0a-7e15-4ddd-a6a7-9d16ae82cd3c
 ms.tgt_platform: multiple
 title: SWbemDateTime.Month property (Wbemdisp.h)
@@ -46,7 +46,7 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_UnitaryComputerSystem class exposes the following methods.
+description: The CIM\_UnitaryComputerSystem class exposes the following methods.
 ms.assetid: AE0FCA45-9F75-4608-9F83-28B238DBD960
 ms.tgt_platform: multiple
 title: CIM_UnitaryComputerSystem Methods

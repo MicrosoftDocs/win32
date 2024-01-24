@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the AddPie methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the AddPie methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: 8327b2cc-855e-419e-82c1-2a424aef2838
 title: GraphicsPath.AddPie methods (Gdipluspath.h)
 ms.date: 07/02/2019
@@ -27,7 +27,7 @@ This topic lists the AddPie methods of the [**GraphicsPath**](/windows/win32/api
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the FillPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the FillPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: e7cc93ab-c1e6-40e7-8888-f6bbffa42a00
 title: Graphics.FillPolygon methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
@@ -27,7 +27,7 @@ This topic lists the FillPolygon methods of the [**Graphics**](/windows/win32/ap
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

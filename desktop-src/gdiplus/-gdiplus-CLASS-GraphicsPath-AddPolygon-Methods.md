@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the AddPolygon methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the AddPolygon methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: c768a38e-0b64-4254-b844-ade567eaea8f
 title: GraphicsPath.AddPolygon methods (Gdipluspath.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the AddPolygon methods of the [**GraphicsPath**](/windows/win32
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInDistributedTransactionException constructor"
 title: EsentNotInDistributedTransactionException constructor 
 TOCTitle: 'EsentNotInDistributedTransactionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNotInDistributedTransactionException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentNotInDistributedTransactionException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentNotInDistributedTransactionException()
 
 #### Reference
 
-[EsentNotInDistributedTransactionException class](dn334734\(v=exchg.10\).md)
+[EsentNotInDistributedTransactionException class](./esentnotindistributedtransactionexception-class.md)
 
-[EsentNotInDistributedTransactionException members](dn319678\(v=exchg.10\).md)
+[EsentNotInDistributedTransactionException members](./esentnotindistributedtransactionexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

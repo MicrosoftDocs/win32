@@ -110,7 +110,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Error Messages
+# Error Messages (Wininet.h)
 
 The WinINet functions return error codes where appropriate. The following errors are specific to the WinINet functions.
 
@@ -1198,7 +1198,7 @@ The dialog box should be retried.
 
 
 
-SSL certificate common name (host name field) is incorrect for example, if you entered www.server.com and the common name on the certificate says www.different.com.
+SSL certificate common name (host name field) is incorrect for example, if you entered `www.server.com` and the common name on the certificate says `www.different.com`.
 
 
 </dt> </dl> </dd> <dt>
@@ -1444,7 +1444,7 @@ No more items have been found.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

@@ -22,7 +22,7 @@ Contains internal data that the NIS server uses to store temporary data.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msSFU-30-Key-Values                  |
 | Ldap-Display-Name | msSFU30KeyValues                     |
@@ -46,7 +46,7 @@ Contains internal data that the NIS server uses to store temporary data.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |
@@ -67,7 +67,7 @@ Contains internal data that the NIS server uses to store temporary data.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |
@@ -88,7 +88,7 @@ Contains internal data that the NIS server uses to store temporary data.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |
@@ -109,7 +109,7 @@ Contains internal data that the NIS server uses to store temporary data.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |

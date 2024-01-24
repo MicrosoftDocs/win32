@@ -1,5 +1,5 @@
 ---
-Description: The following procedure describes a scenario to generate a transform that permanently hides a feature.
+description: The following procedure describes a scenario to generate a transform that permanently hides a feature.
 ms.assetid: 43f36866-a9df-4035-a8ae-5ccbcb628a90
 title: Generating a Transform
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Creates a delta between the specified source file and the specified target file.
+description: Creates a delta between the specified source file and the specified target file.
 title: CreatePatchFileExA/W function
 ms.topic: reference
 ms.date: 04/17/2020
@@ -83,7 +83,7 @@ This function returns **TRUE** if it succeeds; otherwise, it returns **FALSE**.
 
 ## Requirements
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | Header | patchapi.h |
 | DLL | mspatchc.dll |

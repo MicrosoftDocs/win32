@@ -1,22 +1,25 @@
 ---
-Description: Calculates the exponential.
+description: D3DXQuaternionExp function (D3DX10Math.h) - Calculates the exponential.
 ms.assetid: bd70c432-ac61-4c38-b10b-3b103e49ead8
 title: D3DXQuaternionExp function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionExp
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXQuaternionExp function
+# D3DXQuaternionExp function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Calculates the exponential.
 
@@ -67,8 +70,8 @@ This method converts a pure quaternion to a unit quaternion. D3DXQuaternionExp e
 
 ```
 Given a pure quaternion defined by:
-q = (0, theta * v); 
-    
+q = (0, theta * v);
+
 This method calculates the exponential result.
 exp(Q) = (cos(theta), sin(theta) * v)
 ```
@@ -87,7 +90,7 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

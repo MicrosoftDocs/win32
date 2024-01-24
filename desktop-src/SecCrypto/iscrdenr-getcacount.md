@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of certification authorities (CAs) willing to issue a certificate based on the specified certificate template.
+description: Returns the number of certification authorities (CAs) willing to issue a certificate based on the specified certificate template.
 ms.assetid: 377121a8-3895-4308-a803-4a62580c6de0
 title: ISCrdEnr::getCACount method
 ms.topic: reference
@@ -77,7 +77,7 @@ A **Long** value that represents the number of available CAs that will issue a c
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

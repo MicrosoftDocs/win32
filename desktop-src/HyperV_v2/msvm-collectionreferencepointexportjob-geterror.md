@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an error.
+description: Retrieves an error.
 ms.assetid: 7c47acae-d398-4698-81db-e3c8a812f339
 title: GetError method of the Msvm_CollectionReferencePointExportJob class
 ms.topic: reference
@@ -87,7 +87,7 @@ On success, contains a description of the error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

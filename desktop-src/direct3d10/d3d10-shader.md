@@ -1,5 +1,5 @@
 ---
-Description: HLSL compile options.
+description: HLSL compile options.
 ms.assetid: 'vs|directx_sdk|~\d3d10_shader.htm'
 title: D3D10_SHADER Constants
 ms.topic: article

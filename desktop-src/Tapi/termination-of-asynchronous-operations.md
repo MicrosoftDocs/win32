@@ -1,5 +1,5 @@
 ---
-Description: When an application calls the lineClose function with one or more outstanding asynchronous operations, TAPI may direct the service provider to terminate asynchronous operations associated with a call.
+description: When an application calls the lineClose function with one or more outstanding asynchronous operations, TAPI may direct the service provider to terminate asynchronous operations associated with a call.
 ms.assetid: b26ce074-76dc-4a50-8c17-d3412c336d59
 title: Termination of Asynchronous Operations
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: An association between an instance of Msvm\_VssComponent and an instance of Msvm\_VssService that represents a service for performing operations on the VSS component.
+description: An association between an instance of Msvm\_VssComponent and an instance of Msvm\_VssService that represents a service for performing operations on the VSS component.
 ms.assetid: 19fdf2e3-48c4-452b-89d0-ec0b8681fca2
 title: Msvm_ServiceOfVssComponent class
 ms.topic: reference
@@ -82,7 +82,7 @@ An [**Msvm\_VssService**](msvm-vssservice.md) that represents the VSS IC service
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

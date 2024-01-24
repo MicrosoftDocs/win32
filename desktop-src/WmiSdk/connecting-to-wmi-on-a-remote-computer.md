@@ -1,5 +1,5 @@
 ---
-Description: Describes how scripts, applications, and providers can establish connections to WMI on remote computers to obtain data or control hardware and software.
+description: Describes how scripts, applications, and providers can establish connections to WMI on remote computers to obtain data or control hardware and software.
 ms.assetid: 16b00ee3-f721-4912-9e8e-2fdbc897a813
 ms.tgt_platform: multiple
 title: Connecting to WMI on a Remote Computer
@@ -30,7 +30,7 @@ At its heart, connecting to a remote system with WMI consists of making sure tha
 <span id="Connecting_to_WMI_Remotely_with_PowerShell"></span><span id="connecting_to_wmi_remotely_with_powershell"></span><span id="CONNECTING_TO_WMI_REMOTELY_WITH_POWERSHELL"></span>[Connecting to WMI Remotely with PowerShell](connecting-to-wmi-on-a-remote-computer-by-using-powershell.md)
 </dt> <dd>
 
-Use the *-ComputerName* parameter common to most WMI cmdlets, such as [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1).
+Use the *-ComputerName* parameter common to most WMI cmdlets, such as [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1&preserve-view=true).
 
 
 ```PowerShell

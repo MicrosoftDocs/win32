@@ -22,7 +22,7 @@ In MSMQ 1.0 we had our own DS, in which we kept some information per user. As pa
 
 
 
-|                   |                                                                                                  |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------------------------------|
 | CN                | MSMQ-Migrated-User                                                                               |
 | Ldap-Display-Name | mSMQMigratedUser                                                                                 |
@@ -47,7 +47,7 @@ In MSMQ 1.0 we had our own DS, in which we kept some information per user. As pa
 
 
 
-|                             |                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                         |
 | Object-Category             | 1                                                                                                                             |
@@ -160,7 +160,7 @@ This class contains the following attributes for Windows 2000 Server:
 
 
 
-|                             |                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                         |
 | Object-Category             | 1                                                                                                                             |
@@ -291,7 +291,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                         |
 | Object-Category             | 1                                                                                                                             |
@@ -425,7 +425,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                         |
 | Object-Category             | 1                                                                                                                             |
@@ -570,7 +570,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                         |
 | Object-Category             | 1                                                                                                                             |
@@ -722,7 +722,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                         |
 | Object-Category             | 1                                                                                                                             |

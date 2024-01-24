@@ -1,5 +1,5 @@
 ---
-Description: An encoder converts uncompressed audio or video into compressed packets in the format specified by the application. For converting media files into ASF format, you can use the Windows Media audio and video codecs.
+description: An encoder converts uncompressed audio or video into compressed packets in the format specified by the application. For converting media files into ASF format, you can use the Windows Media audio and video codecs.
 ms.assetid: 6dcf12d0-ea37-446b-a807-2b27fd1f6124
 title: Windows Media Encoders
 ms.topic: article

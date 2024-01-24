@@ -1,6 +1,6 @@
 ---
-title: IEnumTfContextViews method
-description: IEnumTfContextViews method
+title: IEnumTfContextViews method (IEnumTfContextViews.Reset API)
+description: IEnumTfContextViews method | IEnumTfContextViews.Reset API
 ms.assetid: cd1684cd-83d4-4161-8dcf-6edc6c37332b
 keywords:
 - method Text Services Framework
@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# IEnumTfContextViews:: method
+# IEnumTfContextViews method (IEnumTfContextViews.Reset API)
 
 ## Syntax
 

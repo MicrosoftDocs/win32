@@ -1,5 +1,5 @@
 ---
-Description: Creates a new shim database.
+description: Creates a new shim database.
 ms.assetid: 91fb180d-1a21-4011-821d-ea0fc999dc76
 title: SdbCreateDatabase function
 ms.topic: reference
@@ -57,7 +57,7 @@ The function returns a handle to the shim database or **NULL** on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_COMMAND\_MTP\_EXT\_GET\_SUPPORTED\_VENDOR\_OPCODES command sends an MTP command block. There is no subsequent data phase associated with this command.
+description: The WPD\_COMMAND\_MTP\_EXT\_GET\_SUPPORTED\_VENDOR\_OPCODES command sends an MTP command block. There is no subsequent data phase associated with this command.
 ms.assetid: 397ae29c-f81c-410e-9670-db69c099a321
 title: WPD_COMMAND_MTP_EXT_GET_SUPPORTED_VENDOR_OPCODES Command (WpdMtpExtensions.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](/windows
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WpdMtpExtensions.h</dt> </dl> |
 

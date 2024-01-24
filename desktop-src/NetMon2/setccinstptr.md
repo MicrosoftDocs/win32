@@ -1,5 +1,5 @@
 ---
-Description: The SetCCInstPtr function captures a context instance pointer.
+description: The SetCCInstPtr function captures a context instance pointer.
 ms.assetid: 31924608-4aa1-4801-a5de-d8de054e12d9
 title: SetCCInstPtr function (Netmon.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Use this function to store a pointer to a block that was allocated with the **CC
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

@@ -1,5 +1,5 @@
 ---
-Description: For an application to realistically render a 3D scene, it must take into account the effect that light sources have on the appearance of the scene.
+description: For an application to realistically render a 3D scene, it must take into account the effect that light sources have on the appearance of the scene.
 ms.assetid: ff2037e4-2cf6-4247-b93f-13f0078f3b58
 title: Light Mapping with Textures (Direct3D 9)
 ms.topic: article

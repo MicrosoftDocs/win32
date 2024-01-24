@@ -122,8 +122,12 @@
         href: /previous-versions/windows/desktop/legacy/aa366535(v=vs.85)
       - name: "CreateEnclave"
         href: /windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave
-      - name: "CreateFileMapping"
-        href: /windows/desktop/api/WinBase/nf-winbase-createfilemappinga
+      - name: "CreateFileMappingA"
+        href: /windows/win32/api/winbase/nf-winbase-createfilemappinga
+      - name: "CreateFileMappingW"
+        href: /windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw
+      - name: "CreateFileMapping2"
+        href: /windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2
       - name: "CreateFileMappingFromApp"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp
       - name: "CreateFileMappingNuma"

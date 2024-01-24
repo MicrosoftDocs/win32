@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Channel
+# Channel (COM)
 
 The channel has the responsibility of transmitting all messages between client and object across the process boundary. The channel has been designed to work transparently with different channel types, is compatible with OSF DCE standard RPC, and supports single and multithreaded applications.
 

@@ -1,5 +1,5 @@
 ---
-Description: Enter records for the five sample custom actions created in the previous section to the CustomAction Table. For more information on how to populate the CustomAction table for this type of custom action see Custom Action Type 1.
+description: Enter records for the five sample custom actions created in the previous section to the CustomAction Table. For more information on how to populate the CustomAction table for this type of custom action see Custom Action Type 1.
 ms.assetid: 56828105-bd72-426d-833f-f756c577c77f
 title: Authoring the CustomAction Table
 ms.topic: article

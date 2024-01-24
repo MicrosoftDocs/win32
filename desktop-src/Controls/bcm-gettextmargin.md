@@ -34,7 +34,7 @@ Not used; must be zero.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that contains the margins to use for drawing text.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that contains the margins to use for drawing text.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ If the message succeeds, it returns **TRUE**. Otherwise it returns **FALSE**.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

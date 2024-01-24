@@ -20,7 +20,7 @@ The Active Directory servers publish their addresses such that clients can find 
 
 
 
-Active Directory servers offer the LDAP service over the TCP protocol so that published names are "ldap.tcp.<domain>". Thus, the SRV RR for fabrikam.com is "ldap.tcp.fabrikam.com". Additional data about the SRV RR indicates the priority and weight for the server, enabling clients to choose the best server for their needs.
+Active Directory servers offer the LDAP service over the TCP protocol so that published names are "ldap.tcp.&lt;domain&gt;". Thus, the SRV RR for fabrikam.com is "ldap.tcp.fabrikam.com". Additional data about the SRV RR indicates the priority and weight for the server, enabling clients to choose the best server for their needs.
 
 When an Active Directory server is installed, it uses Dynamic DNS to publish itself. Because TCP/IP addresses are subject to change, servers periodically verify their registrations to be sure they are correct, and update them if necessary.
 

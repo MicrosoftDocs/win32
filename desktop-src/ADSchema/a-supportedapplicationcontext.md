@@ -22,7 +22,7 @@ Specifies the object identifiers of application contexts that an OSI application
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Supported-Application-Context                         |
 | Ldap-Display-Name | supportedApplicationContext                           |
@@ -48,7 +48,7 @@ Specifies the object identifiers of application contexts that an OSI application
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | 0x813D                                                                                                                              |
@@ -69,7 +69,7 @@ Specifies the object identifiers of application contexts that an OSI application
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | 0x813D                                                                                                                              |
@@ -90,7 +90,7 @@ Specifies the object identifiers of application contexts that an OSI application
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | 0x813D                                                                                                                              |
@@ -111,7 +111,7 @@ Specifies the object identifiers of application contexts that an OSI application
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | 0x813D                                                                                                                              |
@@ -132,7 +132,7 @@ Specifies the object identifiers of application contexts that an OSI application
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | 0x813D                                                                                                                              |
@@ -153,7 +153,7 @@ Specifies the object identifiers of application contexts that an OSI application
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | 0x813D                                                                                                                              |

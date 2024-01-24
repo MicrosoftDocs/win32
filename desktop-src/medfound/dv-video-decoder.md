@@ -1,5 +1,5 @@
 ---
-Description: The Media Foundation DV video decoder is a Media Foundation Transform that decodes DV video.
+description: The Media Foundation DV video decoder is a Media Foundation Transform that decodes DV video.
 ms.assetid: 97e5ba52-92fc-49e4-9c22-6f61bfda2003
 title: DV Video Decoder
 ms.topic: reference
@@ -41,7 +41,7 @@ It supports a single output type:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

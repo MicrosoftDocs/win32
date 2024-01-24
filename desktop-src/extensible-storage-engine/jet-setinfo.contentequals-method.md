@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETINFO.ContentEquals method"
 title: JET_SETINFO.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SETINFO.ContentEquals(Microsoft.Isam.Esent.Interop.JET_SETINFO)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,7 +58,7 @@ public bool ContentEquals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SETINFO](dn351059\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SETINFO](./jet-setinfo-class.md)  
     
     An instance to compare with this instance.
 
@@ -68,14 +69,14 @@ True if the two instances are equal.
 
 #### Implements
 
-[IContentEquatable\<T\>.ContentEquals(T)](hh538970\(v=exchg.10\).md)  
+[IContentEquatable\<T\>.ContentEquals(T)](./icontentequatable-t-.contentequals-method.md)  
 
 ## See also
 
 #### Reference
 
-[JET_SETINFO class](dn351059\(v=exchg.10\).md)
+[JET_SETINFO class](./jet-setinfo-class.md)
 
-[JET_SETINFO members](dn351029\(v=exchg.10\).md)
+[JET_SETINFO members](./jet-setinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

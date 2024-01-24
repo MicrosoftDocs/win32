@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Sent to the owner window of a combo box, list box, list-view control, or menu item when the control or menu is created.
 
-A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [*WindowProc*](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -39,7 +39,7 @@ WM_MEASUREITEM
 *wParam* 
 </dt> <dd>
 
-Contains the value of the **CtlID** member of the [**MEASUREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-measureitemstruct) structure pointed to by the *lParam* parameter. This value identifies the control that sent the **WM\_MEASUREITEM** message. If the value is zero, the message was sent by a menu. If the value is nonzero, the message was sent by a combo box or by a list box. If the value is nonzero, and the value of the **itemID** member of the **MEASUREITEMSTRUCT** pointed to by *lParam* is (UINT)  1, the message was sent by a combo edit field.
+Contains the value of the **CtlID** member of the [**MEASUREITEMSTRUCT**](/windows/win32/api/winuser/ns-winuser-measureitemstruct) structure pointed to by the *lParam* parameter. This value identifies the control that sent the **WM\_MEASUREITEM** message.  If the message was sent by a menu, this parameter is zero.  If the value is nonzero or the value is zero and the value of the **CtlType** member of the **MEASUREITEMSTRUCT** pointed to by *lParam* is not **ODT_MENU**, the message was sent by a combo box or by a list box. If the value is nonzero, and the value of the **itemID** member of the **MEASUREITEMSTRUCT** pointed to by *lParam* is (UINT)  1, the message was sent by a combo edit field.
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ The system sends the **WM\_MEASUREITEM** message to the owner window of combo bo
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

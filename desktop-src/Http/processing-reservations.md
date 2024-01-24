@@ -14,8 +14,8 @@ Reservations for portions of the URL namespace are made by the system administra
 
 | Namespace reserved                 | Reserved for              |
 |------------------------------------|---------------------------|
-| https://<host>:<port>/  | LocalSystem Administrator |
-| https://<host>:<port>/ | LocalSystem Administrator |
+| https://&lt;host&gt;:&lt;port&gt;/  | LocalSystem Administrator |
+| https://&lt;host&gt;:&lt;port&gt;/ | LocalSystem Administrator |
 
 
 
@@ -25,10 +25,10 @@ These implicit reservations cannot be removed. However, it is possible to delega
 
 
 
-| Namespace reserved      | Reserved for |
-|-------------------------|--------------|
-| https://+:80/            | UserA, UserC |
-| https://adatum.com:443/ | UserB        |
+| Namespace reserved        | Reserved for |
+|---------------------------|--------------|
+| `https://+:80/`           | UserA, UserC |
+| `https://adatum.com:443/` | UserB        |
 
 
 

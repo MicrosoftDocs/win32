@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCreateIndexException methods"
 title: EsentInvalidCreateIndexException methods
 TOCTitle: EsentInvalidCreateIndexException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateIndexException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidCreateIndexException](dn319507\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidCreateIndexException](./esentinvalidcreateindexexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidCreateIndexException class](dn319507\(v=exchg.10\).md)
+[EsentInvalidCreateIndexException class](./esentinvalidcreateindexexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

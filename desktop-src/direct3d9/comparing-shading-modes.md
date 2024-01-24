@@ -1,5 +1,5 @@
 ---
-Description: In flat shading mode, the following pyramid is displayed with a sharp edge between adjoining faces. In Gouraud shading mode, however, shading values are interpolated across the edge, and the final appearance is of a curved surface.
+description: In flat shading mode, the following pyramid is displayed with a sharp edge between adjoining faces. In Gouraud shading mode, however, shading values are interpolated across the edge, and the final appearance is of a curved surface.
 ms.assetid: efcaf3f7-b474-4719-adde-10096e296b9f
 title: Comparing Shading Modes (Direct3D 9)
 ms.topic: article

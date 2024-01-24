@@ -1,5 +1,5 @@
 ---
-Description: Example of a Microsoft SMB Protocol packet exchange between a client and a server.
+description: Example of a Microsoft SMB Protocol packet exchange between a client and a server.
 ms.assetid: f831d0de-0e38-4141-811c-892a1b5c4037
 title: Microsoft SMB Protocol Packet Exchange Scenario
 ms.topic: article

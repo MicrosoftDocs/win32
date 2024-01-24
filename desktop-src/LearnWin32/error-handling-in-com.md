@@ -1,12 +1,12 @@
 ---
 title: Error Handling in COM (Get Started with Win32 and C++)
-description: .
+description: Error Handling in COM (Get Started with Win32 and C++)
 ms.assetid: 022ca652-59d2-4513-9d73-1c6d8688c478
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Handling in COM
+# Error Handling in COM (Get Started with Win32 and C++)
 
 COM uses **HRESULT** values to indicate the success or failure of a method or function call. Various SDK headers define various **HRESULT** constants. A common set of system-wide codes is defined in WinError.h. The following table shows some of those system-wide return codes.
 

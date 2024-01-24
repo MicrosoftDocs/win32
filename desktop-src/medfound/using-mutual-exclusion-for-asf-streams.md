@@ -1,5 +1,5 @@
 ---
-Description: Using Mutual Exclusion for ASF Streams
+description: Using Mutual Exclusion for ASF Streams
 ms.assetid: fdd31eac-1dd6-45f0-90fb-d5a74c85db2e
 title: Using Mutual Exclusion for ASF Streams
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Developers of Windows Installer packages may choose to use a custom action type 19 when the standard actions are insufficient to execute the installation.
+description: Developers of Windows Installer packages may choose to use a custom action type 19 when the standard actions are insufficient to execute the installation.
 ms.assetid: c6df5462-e20e-4486-8480-8c747193c5d9
 title: Custom Action Type 19
 ms.topic: article

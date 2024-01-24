@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Windows Search Constants and Enumerations
 ms.assetid: 27b25e6b-49e6-4c70-947e-d67bd1335924
 title: Windows Search Constants and Enumerations
 ms.topic: article
@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Windows Search Constants and Enumerations
 
-## 
 
 This section documents the following constants and enumerations:
 

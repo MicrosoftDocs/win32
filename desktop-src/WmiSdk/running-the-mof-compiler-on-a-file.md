@@ -1,5 +1,5 @@
 ---
-Description: 'You have two choices when compiling a MOF file: using the command-line utility or using a programmatic interface.'
+description: 'You have two choices when compiling a MOF file: using the command-line utility or using a programmatic interface.'
 ms.assetid: 1760f1bd-7027-4201-97a2-ca902f945b52
 ms.tgt_platform: multiple
 title: Running the MOF Compiler on a File
@@ -17,7 +17,7 @@ Until you run the MOF compiler, [**Mofcomp.exe**](mofcomp.md), a provider is not
 
 1.  Call the MOF compiler from the command line, using the following syntax.
 
-    **mofcomp** *MOFfile***.mof**
+    **mofcomp** _MOFfile_**.mof**
 
     The MOF compiler supports a variety of switches to control special processing situations. All of the switches are optional, and any combination of switches is allowed. However, it does not make sense to use some of the switches in combination with others. For example, to combine the **-class:updateonly** and **-class:createonly** switches results in the compiler not performing any action.
 

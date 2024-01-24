@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for thread events. The following syntax is simplified from MOF code.
+description: Thread_V0 class - This class is the parent class for thread events. The following syntax is simplified from MOF code.
 ms.assetid: 7ae2556b-49d4-4c70-9f29-49a3ca96f5bf
 title: Thread_V0 class
 ms.topic: reference
@@ -37,7 +37,7 @@ The **Thread\_V0** class does not define any members.
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

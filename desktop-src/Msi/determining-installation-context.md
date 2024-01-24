@@ -1,5 +1,5 @@
 ---
-Description: An application can call the MsiEnumProducts or MsiEnumProductsEx functions to enumerate products that are installed or advertised on the system.
+description: An application can call the MsiEnumProducts or MsiEnumProductsEx functions to enumerate products that are installed or advertised on the system.
 ms.assetid: 162bda20-0c62-4eac-8c1f-fd107e42c528
 title: Determining Installation Context
 ms.topic: article

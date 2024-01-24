@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the connection status of the device. This property applies only to items of type device (root items). Possible values are &\#0034;connected&\#0034;, &\#0034;disconnected&\#0034;, or NULL (if this property does not apply to the item). Read-only.
+description: Retrieves the connection status of the device. This property applies only to items of type device (root items). Possible values are &\#0034;connected&\#0034;, &\#0034;disconnected&\#0034;, or NULL (if this property does not apply to the item). Read-only.
 ms.assetid: 44b1713a-5859-4973-8495-e8a67f2344b2
 title: Item.ConnectStatus property
 ms.topic: reference
@@ -38,7 +38,7 @@ String that receives the connection status.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

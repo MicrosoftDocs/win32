@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseSharingViolationException members"
 title: EsentDatabaseSharingViolationException members
 TOCTitle: EsentDatabaseSharingViolationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseSharingViolationException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseSharingViolation exceptions.
 
-The [EsentDatabaseSharingViolationException](dn334374\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseSharingViolationException](./esentdatabasesharingviolationexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseSharingViolationException class](dn334374\(v=exchg.10\).md)
+[EsentDatabaseSharingViolationException class](./esentdatabasesharingviolationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

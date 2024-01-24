@@ -1,5 +1,5 @@
 ---
-Description: Performs synchronous ink analysis.
+description: Performs synchronous ink analysis.
 ms.assetid: 957845f3-96b4-4184-aaec-e266cbe47e46
 title: IInkAnalyzer::Analyze method (IACom.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ if (pAnalysisStatus != NULL)
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

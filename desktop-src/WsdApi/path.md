@@ -1,5 +1,5 @@
 ---
-Description: Specifies the location and filename of a WSDL file. The path may be an absolute or relative path to the file, but must not be an URL.
+description: Specifies the location and filename of a WSDL file. The path may be an absolute or relative path to the file, but must not be an URL.
 ms.assetid: '0664dcc6-1e71-46cf-9084-1adc84861b52'
 title: path element (Web Services on Devices)
 ms.topic: article
@@ -46,7 +46,7 @@ The following XML shows a valid **path** element.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

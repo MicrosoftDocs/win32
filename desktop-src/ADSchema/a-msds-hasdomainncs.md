@@ -22,7 +22,7 @@ Directory service replication information that details the domain naming context
 
 
 
-|                   |                                                     |
+| Entry | Value |
 |-------------------|-----------------------------------------------------|
 | CN                | ms-DS-Has-Domain-NCs                                |
 | Ldap-Display-Name | msDS-HasDomainNCs                                   |
@@ -48,7 +48,7 @@ Directory service replication information that details the domain naming context
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2026                                     |
 | MAPI-Id                | \-                                       |
@@ -69,7 +69,7 @@ Directory service replication information that details the domain naming context
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2026                                     |
 | MAPI-Id                | \-                                       |
@@ -90,7 +90,7 @@ Directory service replication information that details the domain naming context
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2026                                     |
 | MAPI-Id                | \-                                       |
@@ -111,7 +111,7 @@ Directory service replication information that details the domain naming context
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2026                                     |
 | MAPI-Id                | \-                                       |
@@ -132,7 +132,7 @@ Directory service replication information that details the domain naming context
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2026                                     |
 | MAPI-Id                | \-                                       |
@@ -153,7 +153,7 @@ Directory service replication information that details the domain naming context
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2026                                     |
 | MAPI-Id                | \-                                       |

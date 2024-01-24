@@ -1,5 +1,5 @@
 ---
-Description: Indicates the format of the audio file.
+description: Indicates the format of the audio file.
 ms.assetid: 58cb9e95-7ac8-42f1-ad2a-a3979ec800eb
 title: System.Audio.Format
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PhysicalMemoryArray&\#160;WMI class represents details about the computer system physical memory. This includes the number of memory devices, memory capacity available, and memory type&\#8212;for example, system or video memory.
+description: The Win32\_PhysicalMemoryArray&\#160;WMI class represents details about the computer system physical memory. This includes the number of memory devices, memory capacity available, and memory type&\#8212;for example, system or video memory.
 ms.assetid: 6b553230-e1fc-46e6-b13a-02fbbd34034d
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemoryArray class
@@ -413,7 +413,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("SMBIOS\|Type 16\|Extended Maximum Capacity"), [**Units**](../wmisdk/standard-qualifiers.md) ("kilobytes")
 </dt> </dl>
 
-Maximum memory size (in bytes) installable for this particular memory array. If the size is unknown, the property is given a value of 0 (zero).
+Maximum memory size (in kilobytes) installable for this particular memory array. If the size is unknown, the property is given a value of 0 (zero).
 
 This value comes from the **Extended Maximum Capacity** member of the **Physical Memory Array** structure in the SMBIOS information.
 
@@ -979,7 +979,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

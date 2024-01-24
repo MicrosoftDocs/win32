@@ -1,5 +1,5 @@
 ---
-Description: Represents a synthetic Ethernet adapter.
+description: Represents a synthetic Ethernet adapter.
 ms.assetid: B5CB86A9-015B-42E8-ADF4-2F61970D8437
 title: Msvm_SyntheticEthernetPort class
 ms.topic: reference
@@ -1024,7 +1024,7 @@ See [Querying networking objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

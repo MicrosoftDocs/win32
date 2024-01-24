@@ -1,22 +1,25 @@
 ---
-Description: Performs a Catmull-Rom interpolation, using the specified 2D vectors.
+description: D3DXVec2CatmullRom function (D3DX10Math.h) - Performs a Catmull-Rom interpolation, using the specified 2D vectors.
 ms.assetid: 8ec1abfa-0fa9-486a-b86d-bbb8f1d63849
 title: D3DXVec2CatmullRom function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2CatmullRom
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXVec2CatmullRom function
+# D3DXVec2CatmullRom function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Performs a Catmull-Rom interpolation, using the specified 2D vectors.
 
@@ -106,10 +109,10 @@ Given four points (p1, p2, p3, p4), find a function Q(s) such that:
 
 
 ```
-Q(s) is a cubic function. 
-Q(s) interpolates between p2 and p3 as s ranges from 0 to 1. 
-Q(s) is parallel to the line joining p1 to p3 when s is 0. 
-Q(s) is parallel to the line joining p2 to p4 when s is 1. 
+Q(s) is a cubic function.
+Q(s) interpolates between p2 and p3 as s ranges from 0 to 1.
+Q(s) is parallel to the line joining p1 to p3 when s is 0.
+Q(s) is parallel to the line joining p2 to p4 when s is 1.
 ```
 
 
@@ -167,7 +170,7 @@ Q(s) = [(-s3 + 2s2 - s)p1 + (3s3 - 5s2 + 2)p2 + (-3s3 + 4s2 + s)p3 + (s3 - s2)p4
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

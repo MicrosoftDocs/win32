@@ -1,5 +1,5 @@
 ---
-Description: Address objects are entities that can make or receive calls. The related interfaces and methods allow an application to get and set information concerning an address, such as whether the address has caller ID support.
+description: Address objects are entities that can make or receive calls. The related interfaces and methods allow an application to get and set information concerning an address, such as whether the address has caller ID support.
 ms.assetid: 6e347e4c-aec3-4bbd-95f3-a68e6e136e11
 title: Address Object Interfaces
 ms.topic: article

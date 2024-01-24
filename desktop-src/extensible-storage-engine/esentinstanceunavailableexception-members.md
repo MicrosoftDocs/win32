@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableException members"
 title: EsentInstanceUnavailableException members
 TOCTitle: EsentInstanceUnavailableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InstanceUnavailable exceptions.
 
-The [EsentInstanceUnavailableException](dn319441\(v=exchg.10\).md) type exposes the following members.
+The [EsentInstanceUnavailableException](./esentinstanceunavailableexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInstanceUnavailableException class](dn319441\(v=exchg.10\).md)
+[EsentInstanceUnavailableException class](./esentinstanceunavailableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The get\_StartAddress method gets the first address to be used for the session.
+description: The get\_StartAddress method gets the first address to be used for the session.
 ms.assetid: 3c4fec19-1b7d-4052-afd8-7aaf095907d0
 title: ITConnection::get_StartAddress method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleau
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 726518FB-FCED-433B-BDD1-3B141C17AF32
 title: M (Isolated Applications and Side-by-side Assemblies)
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# M
+# M (Isolated Applications and Side-by-side Assemblies)
 
 [A](a-sbscs-gly.md) B C [D](d-sbscs-gly.md) E F [G](g-sbscs-gly.md) H [I](i-sbscs-gly.md) J K L M N O [P](p-sbscs-gly.md) Q [R](r-sbscs-gly.md) [S](s-sbscs-gly.md) T U V W X Y Z
 

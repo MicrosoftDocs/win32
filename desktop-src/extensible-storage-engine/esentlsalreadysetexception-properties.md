@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSAlreadySetException properties"
 title: EsentLSAlreadySetException properties
 TOCTitle: EsentLSAlreadySetException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLSAlreadySetException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLSAlreadySetException](dn334614\(v=exchg.10\).md) type exposes the following members.
+The [EsentLSAlreadySetException](./esentlsalreadysetexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentLSAlreadySetException class](dn334614\(v=exchg.10\).md)
+[EsentLSAlreadySetException class](./esentlsalreadysetexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

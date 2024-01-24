@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLREASON\_ bit-flag constants describe the reason for a call.
+description: The LINECALLREASON\_ bit-flag constants describe the reason for a call.
 ms.assetid: 16278146-886f-433a-afe5-64f4894b1428
 title: LINECALLREASON_ Constants (Tapi.h)
 ms.topic: reference
@@ -182,7 +182,7 @@ The LINECALLREASON\_ constants are used in the **dwReason** member of the [**LIN
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

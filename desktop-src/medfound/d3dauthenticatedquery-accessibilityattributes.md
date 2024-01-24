@@ -1,5 +1,5 @@
 ---
-Description: Returns the type of I/O bus used to send data to the GPU.
+description: Returns the type of I/O bus used to send data to the GPU.
 ms.assetid: 5a180a5c-6798-40ba-9e2c-ce1f755fcc08
 title: D3DAUTHENTICATEDQUERY_ACCESSIBILITYATTRIBUTES (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Returns the type of I/O bus used to send data to the GPU.
 
 
 
-|             |                                                                                                              |
+| Requirement | Value |
 |-------------|--------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_ACCESSIBILITYATTRIBUTES**                                                           |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT**](d3dauthenticatedchannel-query-input.md)                         |
@@ -44,7 +44,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

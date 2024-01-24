@@ -1,6 +1,6 @@
 ---
 title: nop - vs
-description: No operation is performed.
+description: No operation is performed. | nop - vs
 ms.assetid: 0ef0ad87-4fda-4c7a-a61a-fb83484cf11f
 ms.topic: reference
 ms.date: 05/31/2018

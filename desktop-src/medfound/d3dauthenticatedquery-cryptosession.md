@@ -1,5 +1,5 @@
 ---
-Description: Returns handles to the cryptographic session and Direct3D device that are associated with a specified DirectX Video Acceleration 2 (DXVA-2) decoder device.
+description: Returns handles to the cryptographic session and Direct3D device that are associated with a specified DirectX Video Acceleration 2 (DXVA-2) decoder device.
 ms.assetid: 90b3bcf3-2988-48de-8acd-62e385d4fdf0
 title: D3DAUTHENTICATEDQUERY_CRYPTOSESSION (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Returns handles to the cryptographic session and Direct3D device that are associ
 
 
 
-|             |                                                                                                                  |
+| Requirement | Value |
 |-------------|------------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_CRYPTOSESSION**                                                                         |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT**](d3dauthenticatedchannel-query-input.md)                             |
@@ -42,7 +42,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

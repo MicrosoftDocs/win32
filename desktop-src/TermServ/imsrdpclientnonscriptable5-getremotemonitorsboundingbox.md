@@ -58,7 +58,7 @@ All coordinates are in virtual screen coordinates, which are relative to the upp
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                             |

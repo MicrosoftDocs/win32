@@ -25,7 +25,7 @@ D3D11\_RECT is declared as follows:
 typedef RECT D3D11_RECT;
 ```
 
-For more information about this GDI rectangle structure, see [**RECT**](/previous-versions//dd162897(v=vs.85)).
+For more information about this GDI rectangle structure, see [**RECT**](/windows/win32/api/windef/ns-windef-rect).
 
 ## Remarks
 
@@ -35,7 +35,7 @@ This structure is used for scissor rectangles by [**ID3D11DeviceContext::RSGetSc
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3D11.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3D11.lib</dt> </dl> |

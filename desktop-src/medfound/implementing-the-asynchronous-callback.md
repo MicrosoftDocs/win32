@@ -1,5 +1,5 @@
 ---
-Description: Implementing the Asynchronous Callback
+description: Implementing the Asynchronous Callback
 ms.assetid: c2c9d0f7-038b-4f23-985c-b812908d71a7
 title: Implementing the Asynchronous Callback
 ms.topic: article

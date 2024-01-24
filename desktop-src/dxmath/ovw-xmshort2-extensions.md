@@ -1,5 +1,5 @@
 ---
-Description: XMSHORT2 describes a 2D vector consisting of 16-bit signed and normalized integer components.
+description: XMSHORT2 describes a 2D vector consisting of 16-bit signed and normalized integer components.
 ms.assetid: cc0db281-e304-408a-8b3d-2d520bfa283e
 title: XMSHORT2 Extensions
 ms.topic: reference

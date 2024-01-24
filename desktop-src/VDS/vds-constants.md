@@ -1,5 +1,5 @@
 ---
-Description: VDS Constants
+description: VDS Constants
 ms.assetid: a3a8b549-51bc-48eb-9215-04c7311e03a3
 title: VDS Constants
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # VDS Constants
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 VDS constants are categorized as follows:
 

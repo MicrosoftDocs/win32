@@ -1,6 +1,6 @@
 ---
 title: Button Control Messages
-description: .
+description: Button Control Messages
 ms.assetid: 8aea1640-c962-40a4-9133-7beb78baf594
 ms.topic: article
 ms.date: 05/31/2018

@@ -16,10 +16,9 @@ api_location:
 The pipeline has three shader stages and each one is programmed with an HLSL shader. All Direct3D 10 shaders are written in HLSL, targeting shader model 4.
 
 
+Differences between Direct3D 9 and Direct3D 10:
 
-|                                                                                                                                                                                                                                                                                                                                                |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> Unlike Direct3D 9 shader models which could be authored in an intermediate assembly language, shader model 4.0 shaders are only authored in HLSL. Offline compilation of shaders into device-consumable bytecode is still supported, and recommended for most scenarios.<br/> |
+- Unlike Direct3D 9 shader models which could be authored in an intermediate assembly language, shader model 4.0 shaders are only authored in HLSL. Offline compilation of shaders into device-consumable bytecode is still supported, and recommended for most scenarios.
 
 
 

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 <dl> <dt><span id="GL_POINT_SIZE"></span><span id="gl_point_size"></span>GL\_POINT\_SIZE</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | Point size                         |
 | Attribute group: | point                              |
@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_POINT_SMOOTH"></span><span id="gl_point_smooth"></span>GL\_POINT\_SMOOTH</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | Point aliasing on                  |
 | Attribute group: | point/enable                       |
@@ -44,7 +44,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_LINE_WIDTH"></span><span id="gl_line_width"></span>GL\_LINE\_WIDTH</dt> <dd> 
 
-|                  |                                                                                |
+| Property | Value |
 |------------------|--------------------------------------------------------------------------------|
 | Description:     | Line width                                                                     |
 | Attribute group: | line                                                                           |
@@ -57,7 +57,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_LINE_SMOOTH"></span><span id="gl_line_smooth"></span>GL\_LINE\_SMOOTH</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | Line antialiasing on               |
 | Attribute group: | line/enable                        |
@@ -70,7 +70,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_LINE_STIPPLE_PATTERN"></span><span id="gl_line_stipple_pattern"></span>GL\_LINE\_STIPPLE\_PATTERN</dt> <dd> 
 
-|                  |                                                                                  |
+| Property | Value |
 |------------------|----------------------------------------------------------------------------------|
 | Description:     | Line stipple                                                                     |
 | Attribute group: | line                                                                             |
@@ -83,7 +83,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_LINE_STIPPLE_REPEAT"></span><span id="gl_line_stipple_repeat"></span>GL\_LINE\_STIPPLE\_REPEAT</dt> <dd> 
 
-|                  |                                                                                  |
+| Property | Value |
 |------------------|----------------------------------------------------------------------------------|
 | Description:     | Line stipple repeat                                                              |
 | Attribute group: | line                                                                             |
@@ -96,7 +96,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_LINE_STIPPLE"></span><span id="gl_line_stipple"></span>GL\_LINE\_STIPPLE</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | Line stipple enable                |
 | Attribute group: | line/enable                        |
@@ -109,7 +109,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_CULL_FACE"></span><span id="gl_cull_face"></span>GL\_CULL\_FACE</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | Polygon culling enabled            |
 | Attribute group: | polygon/enable                     |
@@ -122,7 +122,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_CULL_FACE_MODE"></span><span id="gl_cull_face_mode"></span>GL\_CULL\_FACE\_MODE</dt> <dd> 
 
-|                  |                                                                                  |
+| Property | Value |
 |------------------|----------------------------------------------------------------------------------|
 | Description:     | Cull front-facing/back-facing polygons                                           |
 | Attribute group: | polygon                                                                          |
@@ -135,7 +135,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_FRONT_FACE"></span><span id="gl_front_face"></span>GL\_FRONT\_FACE</dt> <dd> 
 
-|                  |                                                                                  |
+| Property | Value |
 |------------------|----------------------------------------------------------------------------------|
 | Description:     | Polygon front-face CW/CCW indicator                                              |
 | Attribute group: | polygon                                                                          |
@@ -148,7 +148,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_POLYGON_SMOOTH"></span><span id="gl_polygon_smooth"></span>GL\_POLYGON\_SMOOTH</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | Polygon antialiasing on            |
 | Attribute group: | polygon/enable                     |
@@ -161,7 +161,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_POLYGON_MODE"></span><span id="gl_polygon_mode"></span>GL\_POLYGON\_MODE</dt> <dd> 
 
-|                  |                                                                                  |
+| Property | Value |
 |------------------|----------------------------------------------------------------------------------|
 | Description:     | Polygon rasterization mode (front and back)                                      |
 | Attribute group: | polygon                                                                          |
@@ -174,7 +174,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_POLYGON_STIPPLE"></span><span id="gl_polygon_stipple"></span>GL\_POLYGON\_STIPPLE</dt> <dd> 
 
-|                  |                                    |
+| Property | Value |
 |------------------|------------------------------------|
 | Description:     | Polygon stipple enable             |
 | Attribute group: | polygon/enable                     |
@@ -187,7 +187,7 @@ ms.date: 05/31/2018
 
 
 
-|                  |                                                    |
+| Property | Value |
 |------------------|----------------------------------------------------|
 | Description:     | Polygon stipple pattern                            |
 | Attribute group: | polygon-stipple                                    |

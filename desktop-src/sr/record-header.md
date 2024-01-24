@@ -89,7 +89,7 @@ typedef struct _SR_LOG_DEBUG_INFO {
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                            |

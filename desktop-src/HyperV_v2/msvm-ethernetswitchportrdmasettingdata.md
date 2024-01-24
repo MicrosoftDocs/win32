@@ -1,5 +1,5 @@
 ---
-Description: Represents the port RDMA feature setting data.
+description: Represents the port RDMA feature setting data.
 ms.assetid: a9b8c98f-194e-4eec-8d4a-961b1a439e62
 title: Msvm_EthernetSwitchPortRdmaSettingData class
 ms.topic: reference
@@ -64,7 +64,7 @@ The weight assigned to this port for Guest RDMA. The weight is the relative impo
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

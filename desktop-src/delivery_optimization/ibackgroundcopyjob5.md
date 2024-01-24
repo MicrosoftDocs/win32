@@ -38,8 +38,8 @@ The **IBackgroundCopyJob5** interface has these methods.
 
 | Method                                                 | Description                                                |
 |:-------------------------------------------------------|:-----------------------------------------------------------|
-| [**GetProperty**](ibackgroundcopyjob5-getproperty.md) | A generic method for getting DO job properties.<br/> |
-| [**SetProperty**](ibackgroundcopyjob5-setproperty.md) | A generic method for setting DO job properties.<br/> |
+| [**GetProperty**](ibackgroundcopyjob5-getproperty.md) | A generic method for getting Delivery Optimization job properties.<br/> |
+| [**SetProperty**](ibackgroundcopyjob5-setproperty.md) | A generic method for setting Delivery Optimization job properties.<br/> |
 
 
 
@@ -49,7 +49,7 @@ The **IBackgroundCopyJob5** interface has these methods.
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |

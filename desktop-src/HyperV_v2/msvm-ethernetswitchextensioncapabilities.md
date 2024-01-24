@@ -1,5 +1,5 @@
 ---
-Description: Represents the association between Ethernet extensions and their capabilities.
+description: Represents the association between Ethernet extensions and their capabilities.
 ms.assetid: 6b32235a-175d-48f9-af3a-2d40f748a518
 title: Msvm_EthernetSwitchExtensionCapabilities class
 ms.topic: reference
@@ -108,7 +108,7 @@ A reference to an instance of the [**Msvm\_InstalledEthernetSwitchExtension**](m
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

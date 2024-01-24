@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoBackupDirectoryException methods"
 title: EsentNoBackupDirectoryException methods
 TOCTitle: EsentNoBackupDirectoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoBackupDirectoryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNoBackupDirectoryException](dn319659\(v=exchg.10\).md) type exposes the following members.
+The [EsentNoBackupDirectoryException](./esentnobackupdirectoryexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentNoBackupDirectoryException class](dn319659\(v=exchg.10\).md)
+[EsentNoBackupDirectoryException class](./esentnobackupdirectoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: This document presents common Shell data transfer scenarios and discusses how to implement each one in your application.
+description: This document presents common Shell data transfer scenarios and discusses how to implement each one in your application.
 ms.assetid: 7fce555c-a93d-4414-9119-7ae9acdd4d89
 title: Handling Shell Data Transfer Scenarios
 ms.topic: article
@@ -88,13 +88,13 @@ The simplest way to retrieve file names from a data object is the [CF\_HDROP](cl
 
 1.  Call [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata). Set the **cfFormat** member of the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure to [CF\_HDROP](clipboard.md) and the **tymed** member to [TYMED\_HGLOBAL](dataobject.md). The **dwAspect** member is normally set to DVASPECT\_CONTENT. However, if you need to have the file's path in short (8.3) format, set **dwAspect** to DVASPECT\_SHORT.
 
-    When [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) returns, the **hGlobal** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure points to a global memory object that contains the data.
+    When [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) returns, the **hGlobal** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure points to a global memory object that contains the data.
 
-2.  Create an HDROP variable and set it to the **hGlobal** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure. The HDROP variable is now a handle to a [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles) structure followed by a double null-terminated string containing the fully qualified file paths of the copied files.
+2.  Create an HDROP variable and set it to the **hGlobal** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure. The HDROP variable is now a handle to a [**DROPFILES**](/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles) structure followed by a double null-terminated string containing the fully qualified file paths of the copied files.
 3.  Determine how many file paths are in the list by calling [**DragQueryFile**](/windows/desktop/api/Shellapi/nf-shellapi-dragqueryfilea) with the *iFile* parameter set to 0xFFFFFFFF. The function returns the number of file paths in the list. The file path's zero-based index in this list is used in the next step to identify a particular path.
 4.  Extract the file paths from the global memory object by calling [**DragQueryFile**](/windows/desktop/api/Shellapi/nf-shellapi-dragqueryfilea) once for each file, with *iFile* set to the file's index.
 5.  Process the file paths as needed and paste them into your application.
-6.  Call [**ReleaseStgMedium**](/windows/win32/api/ole2/nf-ole2-releasestgmedium) and pass in the pointer to the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure that you passed to [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) in step 1. Once you have released the structure, the HDROP value that you created in step 2 is no longer valid and should not be used.
+6.  Call [**ReleaseStgMedium**](/windows/win32/api/ole2/nf-ole2-releasestgmedium) and pass in the pointer to the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure that you passed to [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) in step 1. Once you have released the structure, the HDROP value that you created in step 2 is no longer valid and should not be used.
 
 ## Copying the Contents of a Dropped File into an Application
 
@@ -137,11 +137,11 @@ A [CFSTR\_FILECONTENTS](clipboard.md) format is always accompanied by a [CFSTR\_
 To extract a [CFSTR\_FILECONTENTS](clipboard.md) format:
 
 1.  Extract the [CFSTR\_FILEDESCRIPTOR](clipboard.md) format as a [TYMED\_HGLOBAL](dataobject.md) value.
-2.  The **hGlobal** member of the returned [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure points to a global memory object. Lock that object by passing the **hGlobal** value to [**GlobalLock**](/windows/win32/api/winbase/nf-winbase-globallock).
+2.  The **hGlobal** member of the returned [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure points to a global memory object. Lock that object by passing the **hGlobal** value to [**GlobalLock**](/windows/win32/api/winbase/nf-winbase-globallock).
 3.  Cast the pointer returned by [**GlobalLock**](/windows/win32/api/winbase/nf-winbase-globallock) to a [**FILEGROUPDESCRIPTOR**](/windows/win32/api/shlobj_core/ns-shlobj_core-filegroupdescriptora) pointer. It will point to a **FILEGROUPDESCRIPTOR** structure followed by one or more [**FILEDESCRIPTOR**](/windows/win32/api/shlobj_core/ns-shlobj_core-filedescriptora) structures. Each **FILEDESCRIPTOR** structure contains a description of a file that is contained by one of the accompanying [CFSTR\_FILECONTENTS](clipboard.md) formats.
 4.  Examine the [**FILEDESCRIPTOR**](/windows/win32/api/shlobj_core/ns-shlobj_core-filedescriptora) structures to determine which one corresponds to the file you want to extract. The zero-based index of that **FILEDESCRIPTOR** structure is used to identify the file's [CFSTR\_FILECONTENTS](clipboard.md) format. Because the size of a global memory block is not byte-precise, use the structure's **nFileSizeLow** and **nFileSizeHigh** members to determine how many bytes represent the file in the global memory object.
 5.  Call [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) with the **cfFormat** member of the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure set to the [CFSTR\_FILECONTENTS](clipboard.md) value and the **lIndex** member set to the index that you determined in the previous step. The **tymed** member is typically set to [TYMED\_HGLOBAL](dataobject.md) \| TYMED\_ISTREAM \| TYMED\_ISTORAGE. The data object can then choose its preferred data transfer mechanism.
-6.  The [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure that [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) returns will contain a pointer to the file's data. Examine the **tymed** member of the structure to determine the data transfer mechanism.
+6.  The [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure that [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) returns will contain a pointer to the file's data. Examine the **tymed** member of the structure to determine the data transfer mechanism.
 7.  If **tymed** is set to [TYMED\_ISTREAM](dataobject.md) or TYMED\_ISTORAGE, use the interface to extract the data. If **tymed** is set to TYMED\_HGLOBAL, the data is contained in a global memory object. For a discussion of how to extract data from a global memory object, see the *Extracting a global memory object from a data object* section of [Shell Data Object](dataobject.md).
 8.  Call [**GlobalLock**](/windows/win32/api/winbase/nf-winbase-globallock) to unlock the global memory object that you locked in step 2.
 

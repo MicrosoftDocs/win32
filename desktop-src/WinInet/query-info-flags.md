@@ -102,11 +102,11 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Query Info Flags
+# Query Info Flags (Wininet.h)
 
 The following lists contain the attributes and modifiers used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) and [**QueryInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774972(v=vs.85)).
 
-The attribute flags are used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774972(v=vs.85))) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](/windows), that are not related to a specific header.
+The attribute flags are used by [**HttpQueryInfo**](/windows/desktop/api/Wininet/nf-wininet-httpqueryinfoa) (or [**QueryInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774972(v=vs.85))) to indicate what data to retrieve. Most of the attribute flags map directly to a specific HTTP header. There are also some special flags, such as [HTTP\_QUERY\_RAW\_HEADERS](#http_query_raw_headers), that are not related to a specific header.
 
 <dl> <dt>
 
@@ -1282,7 +1282,7 @@ Returns the header value as a [**SYSTEMTIME**](/windows/desktop/api/minwinbase/n
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

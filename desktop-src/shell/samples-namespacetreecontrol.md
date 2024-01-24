@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to implement a custom namespace tree control for an application.
+description: Demonstrates how to implement a custom namespace tree control for an application.
 title: NameSpace Tree Control Sample
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: The IX509PolicyServerUrl interface exposes the following properties.
+description: The IX509PolicyServerUrl interface exposes the following properties.
 ms.assetid: 28E07887-FF97-4862-B682-018863687916
 title: IX509PolicyServerUrl Properties
 ms.topic: reference

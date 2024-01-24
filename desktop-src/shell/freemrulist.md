@@ -1,5 +1,5 @@
 ---
-Description: Frees the handle associated with the most recently used (MRU) list and writes cached data to the registry.
+description: Frees the handle associated with the most recently used (MRU) list and writes cached data to the registry.
 title: FreeMRUList function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Comctl32.dll
 ms.assetid: 51db9352-7188-4fb7-9c92-1d9579cd7250
-api_name: 
- - FreeMRUList
-api_type: 
- - DllExport
-api_location: 
- - Comctl32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -69,7 +60,7 @@ This function is not included in a public header or library. It must be extracte
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP constructor"
 title: JET_RSTMAP constructor 
 TOCTitle: 'JET_RSTMAP constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RSTMAP.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RSTMAP constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_RSTMAP()
 
 #### Reference
 
-[JET_RSTMAP class](dn351048\(v=exchg.10\).md)
+[JET_RSTMAP class](./jet-rstmap-class.md)
 
-[JET_RSTMAP members](dn335249\(v=exchg.10\).md)
+[JET_RSTMAP members](./jet-rstmap-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

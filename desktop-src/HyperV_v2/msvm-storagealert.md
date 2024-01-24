@@ -1,5 +1,5 @@
 ---
-Description: Represents an event that is raised each time the OperationalStatus property of the Msvm\_ResourcePool or Msvm\_LogicalDisk class changes.
+description: Represents an event that is raised each time the OperationalStatus property of the Msvm\_ResourcePool or Msvm\_LogicalDisk class changes.
 ms.assetid: 20E7C22A-A151-4EDC-90D8-4BCD53C42355
 title: Msvm_StorageAlert class
 ms.topic: reference
@@ -78,7 +78,7 @@ Access type: Read-only
 Qualifiers: **ModelCorrespondence** ("CIM\_AlertIndication.AlertingManagedElement", "CIM\_AlertIndication.OtherAlertingElementFormat")
 </dt> </dl>
 
-Specifies the format of the **AlertingManagedElement** property. The format is a CIMObjectPath, with the format *<NamespacePath>:<ClassName>.<Prop1>=\\"<Value1>\\", "<Prop2>=\\"<Value2>\\"*, which specifies an instance in the CIM Schema.
+Specifies the format of the **AlertingManagedElement** property. The format is a CIMObjectPath, with the format *&lt;NamespacePath&gt;:&lt;ClassName&gt;.&lt;Prop1&gt;=\\"&lt;Value1&gt;\\", "&lt;Prop2&gt;=\\"&lt;Value2&gt;\\"*, which specifies an instance in the CIM Schema.
 
 This property is inherited from the **CIM\_AlertIndication** class.
 
@@ -280,7 +280,7 @@ When a client receives an **Msvm\_StorageAlert** event, if the value of the **Pr
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

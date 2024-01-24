@@ -1,5 +1,5 @@
 ---
-Description: Notifies a window that its nonclient area is being destroyed. The DestroyWindow function sends the WM\_NCDESTROY message to the window following the WM\_DESTROY message.
+description: Notifies a window that its nonclient area is being destroyed. The DestroyWindow function sends the WM\_NCDESTROY message to the window following the WM\_DESTROY message.
 ms.assetid: 64ab268d-0e90-4401-81d3-a4da64196001
 title: WM_NCDESTROY message (Winuser.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Notifies a window that its nonclient area is being destroyed. The [**DestroyWind
 
 The **WM\_NCDESTROY** message is sent after the child windows have been destroyed. In contrast, [**WM\_DESTROY**](wm-destroy.md) is sent before the child windows are destroyed.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -53,7 +53,7 @@ This message frees any memory internally allocated for the window.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

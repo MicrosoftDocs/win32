@@ -22,7 +22,7 @@ Authentication information for the incoming portion of a trust.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Trust-Auth-Incoming                                   |
 | Ldap-Display-Name | trustAuthIncoming                                     |
@@ -48,7 +48,7 @@ Authentication information for the incoming portion of a trust.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -69,7 +69,7 @@ Authentication information for the incoming portion of a trust.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -90,7 +90,7 @@ Authentication information for the incoming portion of a trust.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -111,7 +111,7 @@ Authentication information for the incoming portion of a trust.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -132,7 +132,7 @@ Authentication information for the incoming portion of a trust.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -153,7 +153,7 @@ Authentication information for the incoming portion of a trust.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |

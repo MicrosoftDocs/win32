@@ -1,5 +1,5 @@
 ---
-Description: 'This section includes the following topics:'
+description: 'This section includes the following topics:'
 ms.assetid: f390c793-cb61-492c-8797-da0df0a36ece
 title: General Query Language Information
 ms.topic: article

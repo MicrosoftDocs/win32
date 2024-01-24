@@ -1,5 +1,5 @@
 ---
-Description: Extends the ITablet Interface.
+description: Extends the ITablet Interface.
 ms.assetid: dd4f3b2e-7f63-4d5b-b50e-64458719c17a
 title: ITablet2 interface
 ms.topic: reference
@@ -66,7 +66,7 @@ interface ITablet2 : IUnknown
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | None supported<br/>                                                              |

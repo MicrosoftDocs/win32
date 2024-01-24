@@ -1,6 +1,6 @@
 ---
 title: Drawing Basic Shapes
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This article describes drawing basic shapes in VML, a feature that is deprecated as of Windows Internet Explorer 9.
 ms.assetid: 05443e1f-c098-441c-a5bc-274cc37ef074
 keywords:
 - Web workshop,drawing shapes

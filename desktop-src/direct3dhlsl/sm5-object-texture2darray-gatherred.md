@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherRed(S,float,int) function
-description: Samples a texture and returns the red component.
+description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation. | Texture2DArray::GatherRed(S,float,int) function
 ms.assetid: cb9c21ef-87f4-4c32-b41a-9fc7478713a6
 keywords:
 - GatherRed function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherRed(S,float,int) function
+# Texture2DArray::GatherRed(S,float,int) function
 
-Samples a texture and returns the red component.
+Returns the red components of the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 

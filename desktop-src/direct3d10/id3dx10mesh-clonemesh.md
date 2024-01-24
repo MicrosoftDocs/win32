@@ -1,5 +1,5 @@
 ---
-Description: Creates a new mesh and fills it with the data of a previously loaded mesh.
+description: Creates a new mesh and fills it with the data of a previously loaded mesh.
 ms.assetid: 2ce39982-abc0-444b-bc6f-24508f76fe31
 title: ID3DX10Mesh::CloneMesh method (D3DX10.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

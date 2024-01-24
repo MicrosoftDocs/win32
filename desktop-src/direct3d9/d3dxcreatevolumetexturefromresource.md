@@ -1,5 +1,5 @@
 ---
-Description: Creates a volume texture from a resource.
+description: Creates a volume texture from a resource.
 ms.assetid: 82a0b7aa-69fa-450d-b0d2-769f05fd75ea
 title: D3DXCreateVolumeTextureFromResource function (D3dx9tex.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ Filtering is automatically applied to a texture created using this method. The f
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Text
 
-Element is not a child of it's parent
+Element is not a child of its parent
 
 ## Type
 

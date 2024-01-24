@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullKeyDisallowedException methods"
 title: EsentNullKeyDisallowedException methods
 TOCTitle: EsentNullKeyDisallowedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNullKeyDisallowedException](dn319701\(v=exchg.10\).md) type exposes the following members.
+The [EsentNullKeyDisallowedException](./esentnullkeydisallowedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentNullKeyDisallowedException class](dn319701\(v=exchg.10\).md)
+[EsentNullKeyDisallowedException class](./esentnullkeydisallowedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

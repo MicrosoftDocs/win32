@@ -1,5 +1,5 @@
 ---
-Description: Prior to Windows Vista, you created a Control Panel item by creating a .dll file and naming it with a .cpl extension.
+description: Prior to Windows Vista, you created a Control Panel item by creating a .dll file and naming it with a .cpl extension.
 ms.assetid: 258dae28-c054-4392-b0e9-99493f23c814
 title: Using CPLApplet
 ms.topic: article

@@ -99,7 +99,7 @@ The size of the output bitmap increases based on the standard deviation, the ang
 
 
 
-|                        |                                                                   |
+| Requirement | Value |
 |------------------------|-------------------------------------------------------------------|
 | Output Bitmap Growth X | StandardDeviation (DIPs) \* 6 \* ((User DPI) / 96) \* cos(Angle)) |
 | Output Bitmap Growth Y | StandardDeviation (DIPs) \* 6 \* ((User DPI) / 96) \* sin(Angle)) |
@@ -112,7 +112,7 @@ The size of the output bitmap increases based on the standard deviation, the ang
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |

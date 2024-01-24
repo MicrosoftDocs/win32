@@ -1,5 +1,5 @@
 ---
-Description: Contains the index of an entry and its TAG information in a shim database.
+description: Contains the index of an entry and its TAG information in a shim database.
 ms.assetid: '2ff58e01-cc47-4612-a3bc-a87ccb343bd2'
 title: TAGID
 ms.topic: article
@@ -41,7 +41,7 @@ Indicates a root list TAG that can be used as a parent to obtain a child **TAGID
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

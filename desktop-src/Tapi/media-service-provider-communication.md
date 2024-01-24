@@ -1,5 +1,5 @@
 ---
-Description: Starting with Windows 2000 telephony service providers that negotiate a version of 3.0 or later must have a matching media service provider.
+description: Starting with Windows 2000 telephony service providers that negotiate a version of 3.0 or later must have a matching media service provider.
 ms.assetid: 9235c631-77bc-42c6-8139-9208c9c254b4
 title: Media Service Provider Communication
 ms.topic: article

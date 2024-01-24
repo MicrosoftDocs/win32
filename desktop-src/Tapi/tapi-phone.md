@@ -1,5 +1,5 @@
 ---
-Description: The tapi/phone device class consists of all phone devices. You access these devices by using the TAPI phone functions.
+description: The tapi/phone device class consists of all phone devices. You access these devices by using the TAPI phone functions.
 ms.assetid: c2e52fdf-e07a-4897-8af5-0a101d6c237a
 title: tapi/phone
 ms.topic: article

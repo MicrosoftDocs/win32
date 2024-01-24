@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE Structure"
 title: JET_SIGNATURE Structure
 TOCTitle: JET_SIGNATURE Structure
 ms:assetid: 90d3fd56-be65-4126-b50c-b53e3c3f38f6
@@ -42,7 +43,7 @@ A randomly assigned number.
 
 **logtimeCreate**
 
-The [JET_LOGTIME](gg294089\(v=exchg.10\).md) at the time of [JetCreateDatabase](gg269212\(v=exchg.10\).md) is executed.
+The [JET_LOGTIME](./jet-logtime-structure.md) at the time of [JetCreateDatabase](./jetcreatedatabase-function.md) is executed.
 
 **szComputerName**
 
@@ -50,35 +51,21 @@ The optional string value of the NetBIOS name for the computer. This value may n
 
 ### Remarks
 
-This can be found as an element of [JET_DBINFOMISC](gg294147\(v=exchg.10\).md).
+This can be found as an element of [JET_DBINFOMISC](./jet-dbinfomisc-structure.md).
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also
 
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)  
-[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
-[JetCreateDatabase](gg269212\(v=exchg.10\).md)
-
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)  
+[JET_LOGTIME](./jet-logtime-structure.md)  
+[JetCreateDatabase](./jetcreatedatabase-function.md)

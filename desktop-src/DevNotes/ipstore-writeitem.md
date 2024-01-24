@@ -1,5 +1,5 @@
 ---
-Description: Writes a data item to protected storage.
+description: Writes a data item to protected storage.
 ms.assetid: d940470c-b881-4e05-8e52-f804eac11e45
 title: IPStore::WriteItem method (Pstore.h)
 ms.topic: reference
@@ -148,7 +148,7 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

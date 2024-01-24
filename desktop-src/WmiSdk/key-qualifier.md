@@ -1,5 +1,5 @@
 ---
-Description: The Key qualifier indicates whether the property is part of the namespace handle.
+description: The Key qualifier indicates whether the property is part of the namespace handle.
 ms.assetid: 838d295f-e812-4e46-99a4-d2714a0ae8dc
 ms.tgt_platform: multiple
 title: Key Qualifier
@@ -37,7 +37,7 @@ Keys are written one time at object instantiation and must not be modified later
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

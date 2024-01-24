@@ -1,6 +1,6 @@
 ---
 title: HttpServerExample
-description: This example shows a TCP server that accepts a channel and receives and replies to messages.
+description: See an HTTP server example that uses the Windows Web Services API. This example shows a TCP server that accepts a channel and receives and replies to messages.
 ms.assetid: b8cf29af-f13f-47ae-9954-7845515135f9
 keywords:
 - HttpServerExample Native-Web-Services

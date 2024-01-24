@@ -41,10 +41,10 @@ Represents a [Font Control](windowsribbon-controls-fontcontrol.md), which is a s
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,10 +72,10 @@ Represents a [Font Control](windowsribbon-controls-fontcontrol.md), which is a s
 <li><strong>Font family</strong> combo box.</li>
 <li><strong>Font Size</strong> combo box.</li>
 <li><p><strong>Bold</strong>, <strong>Italic</strong>, <strong>Underline</strong>, and <strong>Strikethrough</strong> toggle buttons.</p>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The <strong>Strikethrough</strong> and <strong>Underline</strong> toggle buttons are displayed by default but can be hidden by setting the <em>IsStrikethroughButtonVisible</em> and <em>IsUnderlineButtonVisible</em> attributes to <code>false</code>.
-</blockquote>
+
 <p><br/></p></li>
 </ul>
 </dd> <dt><span></span><span></span><strong></strong> (FontWithColor)<br/> </dt> <dd> <img src="images/markup/screenshot-fonttype-fontwithcolor.png" alt="Screen shot of the FontControl element with the FontWithColor attribute set to true." /><br/> Setting the <em>FontType</em> attribute to <code>FontWithColor</code> enables the following functionality:<br/>
@@ -84,17 +84,17 @@ The <strong>Strikethrough</strong> and <strong>Underline</strong> toggle buttons
 <li><strong>Font size</strong> combo box.</li>
 <li><strong>Grow font</strong> and <strong>Shrink font</strong> font size increment and decrement buttons.</li>
 <li><p><strong>Bold</strong>, <strong>Italic</strong>, <strong>Underline</strong>, and <strong>Strikethrough</strong> toggle buttons.</p>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The <strong>Strikethrough</strong> and <strong>Underline</strong> toggle buttons are displayed by default but can be hidden by setting the <em>IsStrikethroughButtonVisible</em> and <em>IsUnderlineButtonVisible</em> attributes to <code>false</code>.
-</blockquote>
+
 <p><br/></p></li>
 <li><strong>Text color</strong> color picker.</li>
 <li><p><strong>Text highlight color</strong> color picker.</p>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This control is hidden by default but can be displayed by setting the <em>IsHighlightButtonVisible</em> attribute to <code>true</code>.
-</blockquote>
+
 <p><br/></p></li>
 </ul>
 </dd> <dt><span></span><span></span><strong></strong> (RichFont)<br/> </dt> <dd> <img src="images/markup/screenshot-fonttype-richfont.png" alt="Screen shot of the FontControl element with the RichFont attribute set to true." /><br/> Setting the <em>FontType</em> attribute to <code>RichFont</code> enables the following functionality:<br/>
@@ -103,17 +103,17 @@ This control is hidden by default but can be displayed by setting the <em>IsHigh
 <li><strong>Font size</strong> combo box.</li>
 <li><strong>Grow font</strong> and <strong>Shrink font</strong> font size increment and decrement buttons.</li>
 <li><p><strong>Bold</strong>, <strong>Italic</strong>, <strong>Underline</strong>, and <strong>Strikethrough</strong> toggle buttons.</p>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The <strong>Strikethrough</strong> and <strong>Underline</strong> toggle buttons are displayed by default and cannot be hidden by setting the <em>IsStrikethroughButtonVisible</em> and <em>IsUnderlineButtonVisible</em> attributes to <code>false</code>.
-</blockquote>
+
 <p><br/></p></li>
 <li><strong>Text color</strong> color picker.</li>
 <li><p><strong>Text highlight color</strong> color picker.</p>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This control is displayed by default and cannot be hidden by setting the <em>IsHighlightButtonVisible</em> attribute to <code>false</code>.
-</blockquote>
+
 <p><br/></p></li>
 <li><strong>Subscript</strong> and <strong>Superscript</strong> toggle buttons.</li>
 </ul>
@@ -124,10 +124,10 @@ This control is displayed by default and cannot be hidden by setting the <em>IsH
 <td>Boolean<br/></td>
 <td>No<br/></td>
 <td><strong>Windows 8 and newer</strong><br/> Restricted to one of the following values: <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The Grow/Shrink buttons are never displayed in the <a href="windowsribbon-element-minitoolbar.md"><strong>MiniToolbar</strong></a>.
-</blockquote>
+
 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd> Default when the value of <em>FontType</em> equals <code>FontWithColor</code> or <code>RichFont</code>.<br/> </dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd> Default when the value of <em>FontType</em> equals <code>FontOnly</code>.<br/> </dd> </dl></td>
 </tr>
@@ -136,10 +136,10 @@ The Grow/Shrink buttons are never displayed in the <a href="windowsribbon-elemen
 <td>Boolean<br/></td>
 <td>No<br/></td>
 <td>Restricted to one of the following values (0 and 1 are not valid): <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Color highlighting is available only from a <strong>FontControl</strong> when the value of the <em>FontType</em> attribute equals <code>FontWithColor</code> or <code>RichFont</code>.
-</blockquote>
+
 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd> Default when the value of <em>FontType</em> equals <code>FontWithColor</code> or <code>RichFont</code>.<br/> Valid only when the value of <em>FontType</em> equals <code>FontWithColor</code> or <code>RichFont</code>.<br/> </dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd> Default when the value of <em>FontType</em> equals <code>FontOnly</code>.<br/> Valid only when the value of <em>FontType</em> equals <code>FontOnly</code> or <code>FontWithColor</code>.<br/> </dd> </dl></td>
 </tr>
@@ -183,16 +183,16 @@ Color highlighting is available only from a <strong>FontControl</strong> when th
 <td>Boolean<br/></td>
 <td>No<br/></td>
 <td>Restricted to one of the following values (0 and 1 are not valid):<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Vertical fonts are preceded by an @ symbol in the <strong>Font family</strong> list.
-</blockquote>
+
 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd> Default. Displays the vertical fonts that are set to <strong>Show</strong> in the <strong>Fonts</strong> control panel. <br/> </dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd> Allows an application that does not support vertical text to hide any vertical fonts that are set to <strong>Show</strong> in the <strong>Fonts</strong> control panel.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 In Windows Vista, the <strong>Fonts</strong> control panel does not offer <strong>Show</strong> or <strong>Hide</strong> functionality. In this case, the <em>ShowVerticalFonts</em> attribute must be set to <code>False</code>.
-</blockquote>
+
 <br/> </dd> </dl></td>
 </tr>
 </tbody>
@@ -312,12 +312,8 @@ This section of code shows the **FontControl** control declarations where each *
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 

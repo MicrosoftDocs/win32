@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SerialPort WMI class represents a serial port on a computer system running Windows.
+description: The Win32\_SerialPort WMI class represents a serial port on a computer system running Windows.
 ms.assetid: f2e5cc5a-a12b-4079-92e1-6bb62fe797a0
 ms.tgt_platform: multiple
 title: Win32_SerialPort class
@@ -2169,9 +2169,7 @@ The **Win32\_SerialPort** class is derived from [**CIM\_SerialController**](cim-
 
 ## Examples
 
-For an alternate method of retrieving serial port information (from the registry), see the [Enumerate Ports](https://Gallery.TechNet.Microsoft.Com/scriptcenter/087b4d73-4a5e-4746-b365-ad682911360e) Visual Basic sample.
-
-The [List Serial Port Properties](https://Gallery.TechNet.Microsoft.Com/42ff8eab-7d2b-4549-b178-835daecf4f12) PowerShell example returns information about the serial ports installed on a computer.
+For an alternate method of retrieving serial port information (from the registry), do a web search for the "Enumerate Ports" Visual Basic sample.
 
 The following VBScript sample returns information about the serial ports installed on a computer.
 
@@ -2225,7 +2223,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

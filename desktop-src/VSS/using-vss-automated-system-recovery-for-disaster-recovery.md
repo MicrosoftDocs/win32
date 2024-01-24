@@ -1,5 +1,5 @@
 ---
-Description: A VSS backup-and-recovery application that performs disaster recovery (also called bare-metal recovery) can use the Automated System Recovery (ASR) writer together with Windows Preinstallation Environment (Windows PE) to back up and restore critical volumes and other components of the bootable system state. The backup application is implemented as a VSS requester.
+description: A VSS backup-and-recovery application that performs disaster recovery (also called bare-metal recovery) can use the Automated System Recovery (ASR) writer together with Windows Preinstallation Environment (Windows PE) to back up and restore critical volumes and other components of the bootable system state. The backup application is implemented as a VSS requester.
 ms.assetid: 13adfd79-f26a-4385-9b59-129d06fa72eb
 title: Using VSS Automated System Recovery for Disaster Recovery
 ms.topic: article
@@ -84,19 +84,19 @@ The component names use the following formats:
 
 -   For disk components, the format is
 
-    <COMPONENT logicalPath="Disks" componentName="harddisk*n*" componentType="filegroup" />
+    \<COMPONENT logicalPath="Disks" componentName="harddisk*n*" componentType="filegroup" /\>
 
     where *n* is the disk number. Only the disk number is recorded. To get the disk number, use the [**IOCTL\_STORAGE\_GET\_DEVICE\_NUMBER**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_get_device_number) control code.
 
 -   For volume components, the format is
 
-    <COMPONENT logicalPath="Volumes" componentName="Volume{*GUID*}" componentType="filegroup" />
+    \<COMPONENT logicalPath="Volumes" componentName="Volume{*GUID*}" componentType="filegroup" /\>
 
     where *GUID* is the volume GUID.
 
 -   For the BCD store component, the format is
 
-    <COMPONENT logicalPath="BCD" componentName="BCD" componentType="filegroup" componentCaption = "This is the path to the boot BCD store and the boot managers...All the files in this directory need to be backed up...">
+    \<COMPONENT logicalPath="BCD" componentName="BCD" componentType="filegroup" componentCaption = "This is the path to the boot BCD store and the boot managers...All the files in this directory need to be backed up..."\>
 
     If the system partition has a volume GUID name, this component is selectable. Otherwise, it is not selectable.
 

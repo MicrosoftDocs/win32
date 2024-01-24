@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the idleness of the system.
+description: Contains information about the idleness of the system.
 ms.assetid: f6349b7c-1835-4492-95e3-9ce142628804
 title: SYSTEM_POWER_INFORMATION structure
 ms.topic: reference
@@ -84,7 +84,7 @@ Note that this structure definition was accidentally omitted from WinNT.h. This 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

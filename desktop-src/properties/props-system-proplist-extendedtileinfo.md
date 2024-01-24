@@ -1,5 +1,5 @@
 ---
-Description: The list of properties to show in the listview on extended tiles. Register under the regvalue of &\#0034;ExtendedTileInfo&\#0034;.
+description: The list of properties to show in the listview on extended tiles. Register under the regvalue of &\#0034;ExtendedTileInfo&\#0034;.
 ms.assetid: 6ba9e943-bd96-47ca-9808-362f69fc2e3b
 title: System.PropList.ExtendedTileInfo
 ms.topic: article

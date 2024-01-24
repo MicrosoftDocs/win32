@@ -1,5 +1,5 @@
 ---
-Description: The VBScript file WiGenXfm.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script can generate a transform from two Windows Installer databases. For more information see Database Transforms.
+description: The VBScript file WiGenXfm.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script can generate a transform from two Windows Installer databases. For more information see Database Transforms.
 ms.assetid: bfa918b8-8d90-4e14-8a06-6c3d5b5dc13b
 title: Generate a Transform
 ms.topic: article

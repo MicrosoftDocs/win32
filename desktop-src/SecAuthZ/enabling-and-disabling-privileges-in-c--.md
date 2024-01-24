@@ -1,5 +1,5 @@
 ---
-Description: Enabling a privilege in an access token allows the process to perform system-level actions that it could not previously.
+description: Enabling a privilege in an access token allows the process to perform system-level actions that it could not previously.
 ms.assetid: aa2d3fe7-01ee-4243-b72c-3e8b90068e22
 title: Enabling and Disabling Privileges in C++
 ms.topic: article
@@ -32,7 +32,7 @@ The following example shows how to enable or disable a privilege in an [*access 
 ```C++
 #include <windows.h>
 #include <stdio.h>
-#pragma comment(lib, "cmcfg32.lib")
+#pragma comment(lib, "advapi32.lib")
 
 BOOL SetPrivilege(
     HANDLE hToken,          // access token handle

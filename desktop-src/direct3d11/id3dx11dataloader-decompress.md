@@ -78,7 +78,7 @@ Use this method to load resources from file systems, such as ZIP files. When loa
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX11core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX11.lib</dt> </dl>   |

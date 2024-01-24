@@ -1,5 +1,5 @@
 ---
-Description: The flags in the following table specify output protection mechanisms for Output Protection Manager (OPM).
+description: The flags in the following table specify output protection mechanisms for Output Protection Manager (OPM).
 ms.assetid: 484dfea9-301d-4b2b-b5d1-d785ebaa8c8f
 title: OPM Protection Type Flags (Opmapi.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ When COPP semantics are used, the [**IOPMVideoOutput**](/windows/desktop/api/opm
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

@@ -1,6 +1,6 @@
 ---
 title: EM_SETLIMITTEXT message (Winuser.h)
-description: Sets the text limit of an edit control.
+description: EM_SETLIMITTEXT message - Sets the text limit of an edit control.
 ms.assetid: e2be7814-435b-495f-982a-32247fbc0165
 keywords:
 - EM_SETLIMITTEXT message Windows Controls
@@ -64,7 +64,7 @@ For single-line edit controls, the text limit is either 0x7FFFFFFE bytes or the 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

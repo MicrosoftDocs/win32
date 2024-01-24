@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the event is an online event.
+description: Indicates whether the event is an online event.
 ms.assetid: 1dc4d04f-7e7c-42a1-bd71-4549f83a806e
 title: System.Calendar.IsOnline
 ms.topic: article

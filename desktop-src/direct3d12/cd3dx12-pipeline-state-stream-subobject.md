@@ -12,7 +12,6 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -123,7 +122,7 @@ The [**CD3DX12\_PIPELINE\_STATE\_STREAM\_BLEND\_DESC**](cd3dx12-pipeline-state-s
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 

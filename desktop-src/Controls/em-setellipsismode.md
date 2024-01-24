@@ -67,7 +67,7 @@ If wparam is 0 and lparam is one of the values in the table above, the return va
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |

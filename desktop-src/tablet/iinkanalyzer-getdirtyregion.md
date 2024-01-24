@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the area that has changed since the last analysis operation.
+description: Retrieves the area that has changed since the last analysis operation.
 ms.assetid: 0cd62775-59c6-41f5-957e-709a53a8c257
 title: IInkAnalyzer::GetDirtyRegion method (IACom.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Use [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemf
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_Photo\_ShutterSpeed.
+description: The denominator of PKEY\_Photo\_ShutterSpeed.
 ms.assetid: 43a71003-4b83-4d0c-b4b3-a75bb15f9d65
 title: System.Photo.ShutterSpeedDenominator
 ms.topic: article

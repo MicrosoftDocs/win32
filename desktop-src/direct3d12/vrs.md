@@ -1,7 +1,6 @@
 ---
 title: Variable-rate shading (VRS)
 description: Variable-rate shading&mdash;or coarse pixel shading&mdash;is a mechanism that lets you allocate rendering performance/power at rates that vary across your rendered image.
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/08/2019
 ---
@@ -27,16 +26,18 @@ The variable-rate shading (VRS) model extends supersampling-with-MSAA into the o
 
 A coarse-shading API allows your application to specify the number of pixels that belong to a shaded group, or *coarse pixel*. You can vary the coarse pixel size after you've allocated the render target. So, different portions of the screen or different draw passes can have different shading rates.
 
-Here's a table describing which MSAA level is supported with which coarse pixel size. Some are not supported on any platform; while others are conditionally enabled based on a capability (*AdditionalShadingRatesSupported*), indicated by "Cap".
+Following is a table describing which MSAA level is supported with which coarse pixel size, for platforms that support coarse shading:
+* For cells marked *Y*, that combination is enabled.
+* For cells marked *Cap*, that combination is conditionally enabled based on a cap (AdditionalShadingRatesSupported).
+* For cells that are blank, that combination is unsupported.
+* For cells that are halftone-shaded, that combination is unsupported, *and* it involves tracking more than 16 samples per pixel shader invocation. For tracking more than 16 samples there are additional hardware alignment barriers to support, compared to the other cases.
 
-![coarsePixelSizeSupport](images/CoarsePixelSizeSupport.PNG "Coarse pixel size support")
-
-For the feature tiers discussed in the next section, there's no coarse-pixel-size-and-sample-count combination where hardware needs to track more than 16 samples per pixel shader invocation. Those combinations are halftone-shaded in the table above.
+![Table shows coarse pixel size for M S A A levels.](images/CoarsePixelSizeSupport.PNG "Coarse pixel sizes")
 
 ## Feature tiers
 There are two tiers to the VRS implementation, and two capabilities that you can query for. Each tier is described in greater detail after the table.
 
-![tiers](images/Tiers.PNG "Tiers")
+![Table shows features available in Tier 1 and Tier 2.](images/Tiers.PNG "VRS tiers")
 
 ### Tier 1
 - Shading rate can be specified only on a per-draw-basis; no more granular than that.
@@ -72,7 +73,7 @@ Your application can specify a coarse pixel size using the [**ID3D12GraphicsComm
 Values for this state are expressed through the [**D3D12_SHADING_RATE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate) enumeration.
 
 #### Coarse pixel size support
-The shading rates 1x1, 1x2, 2x2, and 2x2 are supported on all tiers.
+The shading rates 1x1, 1x2, 2x1, and 2x2 are supported on all tiers.
 
 There is a capability, *AdditionalShadingRatesSupported*, to indicate whether 2x4, 4x2, and 4x4 are supported on the device.
 
@@ -170,7 +171,7 @@ If a VS or GS sets `SV_ShadingRate`, but VRS is not enabled, then the semantic-s
 ### Combining shading rate factors
 The various sources of shading rate are applied in sequence using this diagram.
 
-![combiners](images/Combiners.PNG "Combiners")
+![Diagram shows a pipeline state, labeled A, with Provoking vertex shading rate, labeled B, applied at a Combiner, then Image based shading rate, labeled B, applied at a Combiner.](images/Combiners.PNG "Shading combiners")
 
 Each pair of A and B is combined using a combiner.
 
@@ -303,8 +304,8 @@ For four-bit values.
 | Binary value | Decimal  | Fractional |
 |-------------:|---------:|-----------:|
 |         1000 |-0.5f     |-8 / 16     |
-|         1001 |-0.4375f  |-7 / 16|    |
-|         1010 |-0.375f   |-6 / 16|    |
+|         1001 |-0.4375f  |-7 / 16     |
+|         1010 |-0.375f   |-6 / 16     |
 |         1011 |-0.3125f  |-5 / 16     |
 |         1100 |-0.25f    |-4 / 16     |
 |         1101 |-0.1875f  |-3 / 16     |
@@ -442,7 +443,7 @@ Given coarse pixel shading's compatibility with MSAA, the number of coverage bit
 ### Number of coverage bits needed
 The following table indicates how many coverage bits are needed for each combination of coarse pixel size and MSAA level.
 
-![NumberOfCoverageBits](images/NumberOfCoverageBits.PNG "NumberOfCoverageBits")
+![Table shows coarse pixel size, number of fine pixels, and M S A A levels.](images/NumberOfCoverageBits.PNG "Coverage bits")
 
 As indicated in the table, it isn't possible to use coarse pixels to write to more than 16 samples at a time using the variable-rate shading feature exposed through Direct3D 12. This restriction is due to Direct3D 12's constraints regarding which MSAA levels are allowed with which coarse pixel size (see the table in the [With variable-rate shading (VRS)](#with-variable-rate-shading-vrs) section in this topic).
 
@@ -451,17 +452,17 @@ The bits of the coverage mask adhere to a well-defined order. The mask consists 
 
 The table below shows the coverage mask format for supported combinations of coarse pixel size and MSAA level.
 
-![Coverage1x](images/Coverage1x.PNG "Coverage1x")
+![Table shows coarse pixel size, coarse pixel diagram, and 1 x M S A A coverage bits.](images/Coverage1x.PNG "Coverage at 1x")
 
 The following table portrays 2x MSAA pixels, where each pixel has two samples of indices 0 and 1.
 
 The positioning of the labels of samples on the pixels are for illustrative purposes, and do not necessarily convey the spatial {X, Y} locations of samples on that pixel; especially given that sample positions can be programmatically changed. Samples are referred to by their 0-based index.
 
-![Coverage2x](images/Coverage2x.PNG "Coverage2x")
+![Table shows coarse pixel size, coarse pixel diagram, and 2 x M S A A coverage bits.](images/Coverage2x.PNG "Coverage at 2x")
 
 The following table shows 4x MSAA pixels, where each pixel has four samples of indices 0, 1, 2, and 3.
 
-![Coverage4x](images/Coverage4x.PNG "Coverage4x")
+![Table shows coarse pixel size, coarse pixel diagram, and 4 x M S A A coverage bits.](images/Coverage4x.PNG "Coverage at 4x")
 
 ## Discard
 When the HLSL semantic `discard` is used with coarse pixel shading, coarse pixels are discarded.

@@ -1,6 +1,6 @@
 ---
 title: Texture1DArray::Sample(S,float,int,float) function
-description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to.
+description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to. | Texture1DArray::Sample(S,float,int,float) function
 ms.assetid: 3A965EEE-FCA3-4DD8-87D2-56679DFF5D3A
 keywords:
 - Sample function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Sample(S,float,int,float) function
+# Texture1DArray::Sample(S,float,int,float) function
 
 Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to.
 

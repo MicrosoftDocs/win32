@@ -1,5 +1,5 @@
 ---
-Description: Specifies the cryptographic service provider (CSP) and private key information used to create a digital signature.
+description: Specifies the cryptographic service provider (CSP) and private key information used to create a digital signature.
 ms.assetid: 85dc6a06-365a-4591-9d1d-117556a4417d
 title: SIGNER_PROVIDER_INFO structure
 ms.topic: reference
@@ -110,7 +110,7 @@ The name of the key container that contains the private key information.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: The SetBufferValue method adds a new BYTE\* value (type VT\_VECTOR \| VT\_UI1) or overwrites an existing one.
+description: The SetBufferValue method adds a new BYTE\* value (type VT\_VECTOR \| VT\_UI1) or overwrites an existing one.
 ms.assetid: 6c421240-2ff8-4862-bd90-1feee5d15a8d
 title: IPortableDeviceValues::SetBufferValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ Setting a **NULL** or a zero-sized buffer is not supported.
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

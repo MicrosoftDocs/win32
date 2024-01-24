@@ -1,6 +1,6 @@
 ---
 title: AppendStructuredBuffer::GetDimensions function
-description: Gets the resource dimensions.
+description: Gets the resource dimensions. | AppendStructuredBuffer::GetDimensions function
 ms.assetid: 41ed86d5-25c0-48bd-add9-792eb89605c3
 keywords:
 - GetDimensions function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetDimensions function
+# AppendStructuredBuffer::GetDimensions function
 
 Gets the resource dimensions.
 

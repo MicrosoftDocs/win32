@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the destination address of a frame.
+description: Retrieves the destination address of a frame.
 ms.assetid: f19a6753-37d8-4ec7-a7d4-ced0292d453c
 title: GetFrameDestAddress function (Netmon.h)
 ms.topic: reference
@@ -101,7 +101,7 @@ The **ADDRESS\_TYPE\_FIND\_HIGHEST** address type is allowed. When this address 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

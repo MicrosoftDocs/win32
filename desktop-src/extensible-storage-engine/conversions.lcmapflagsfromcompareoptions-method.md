@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Conversions.LCMapFlagsFromCompareOptions method"
 title: Conversions.LCMapFlagsFromCompareOptions method 
 TOCTitle: 'LCMapFlagsFromCompareOptions method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Conversions.LCMapFlagsFromCompareOptions(System.Globalization.CompareOptions)
@@ -32,7 +33,7 @@ Give CompareOptions, turn them into flags from LCMapString. Unknown options are 
 
 This API is not CLS-compliant. 
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -73,8 +74,8 @@ The LCMapString flags that match the compare options. Unsupported options are ig
 
 #### Reference
 
-[Conversions class](dn334230\(v=exchg.10\).md)
+[Conversions class](./conversions-class.md)
 
-[Conversions members](dn334184\(v=exchg.10\).md)
+[Conversions members](./conversions-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

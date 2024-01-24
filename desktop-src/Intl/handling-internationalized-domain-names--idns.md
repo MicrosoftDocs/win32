@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how you can work with internationalized domain names (IDNs) in your applications.
+description: This topic describes how you can work with internationalized domain names (IDNs) in your applications.
 ms.assetid: e0ca356e-f8c1-4845-ae1e-ce2ae8987515
 title: Handling Internationalized Domain Names (IDNs)
 ms.topic: article
@@ -34,7 +34,7 @@ NLS also defines several API functions that can be used to mitigate some of the 
 -   [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa), [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex). Retrieve locale information. Using the functions with *LCType* set to [LOCALE\_SSCRIPTS](locale-sscripts.md) provides a list of scripts normally used for a particular locale.
 -   [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts). Compares lists of scripts. To verify against multiple locales, the application can make multiple calls to [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) or [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) and [**VerifyScripts**](/windows/desktop/api/Winnls/nf-winnls-verifyscripts).
 
-For applications that run on Windows XP and Windows Server 2003, the functions [**DownlevelGetLocaleScripts**](downlevelgetlocalescripts.md), [**DownlevelGetStringScripts**](downlevelgetstringscripts.md), and [**DownlevelVerifyScripts**](downlevelverifyscripts.md) play a similar role to the functions listed above in mitigating security risk. The ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) download is available at the [MSDN Download Center](https://www.microsoft.com/?ref=go).
+For applications that run on Windows XP and Windows Server 2003, the functions [**DownlevelGetLocaleScripts**](downlevelgetlocalescripts.md), [**DownlevelGetStringScripts**](downlevelgetstringscripts.md), and [**DownlevelVerifyScripts**](downlevelverifyscripts.md) play a similar role to the functions listed above in mitigating security risk. The ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://archive.org/details/idndl.x86) download available from [archive.org](https://archive.org/).
 
 ## Handle Unicode Strings
 

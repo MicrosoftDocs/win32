@@ -1,5 +1,5 @@
 ---
-Description: An instance object path describes the location of an instance of a given class within a specific namespace.
+description: An instance object path describes the location of an instance of a given class within a specific namespace.
 ms.assetid: 78a194f0-cd21-4622-9242-be7e430b96c0
 ms.tgt_platform: multiple
 title: Describing an Instance Object Path

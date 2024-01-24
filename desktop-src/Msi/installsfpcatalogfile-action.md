@@ -1,5 +1,5 @@
 ---
-Description: The InstallSFPCatalogFile action installs the catalogs used by Windows Me for Windows File Protection.
+description: The InstallSFPCatalogFile action installs the catalogs used by Windows Me for Windows File Protection.
 ms.assetid: 1c8253f1-ac7d-4346-a16e-887d16f521d9
 title: InstallSFPCatalogFile Action
 ms.topic: article

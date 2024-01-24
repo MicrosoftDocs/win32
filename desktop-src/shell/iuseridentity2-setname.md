@@ -1,5 +1,5 @@
 ---
-Description: IUserIdentity2::SetName is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IUserIdentity2::SetName is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 1c9c3beb-fa1c-4b4d-9cfd-656b97949036
 title: IUserIdentity2::SetName method (Msident.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

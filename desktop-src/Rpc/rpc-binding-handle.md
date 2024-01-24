@@ -1,6 +1,6 @@
 ---
 title: RPC_BINDING_HANDLE (Rpcdce.h)
-description: The RPC\_BINDING HANDLE data type declares a binding handle containing information that the RPC run-time library uses to access binding information.
+description: The RPC_BINDING_HANDLE data type declares a binding handle containing information that the RPC run-time library uses to access binding information.
 ms.assetid: 3e07d9e9-04d8-4f94-8104-cd0ee89a9407
 keywords:
 - RPC_BINDING_HANDLE
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # RPC\_BINDING\_HANDLE
 
-The **RPC\_BINDING HANDLE** data type declares a binding handle containing information that the RPC run-time library uses to access binding information.
+The **RPC\_BINDING\_HANDLE** data type declares a binding handle containing information that the RPC run-time library uses to access binding information.
 
 
 ```C++
@@ -46,7 +46,7 @@ Routines requiring a binding handle as a parameter show a data type of **RPC\_BI
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |

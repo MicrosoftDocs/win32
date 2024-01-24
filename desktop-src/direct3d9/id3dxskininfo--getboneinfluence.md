@@ -1,5 +1,5 @@
 ---
-Description: Gets the vertices and weights that a bone influences.
+description: Gets the vertices and weights that a bone influences.
 ms.assetid: 84cb064b-b6b2-402d-81cc-8c02de6f8b52
 title: ID3DXSkinInfo::GetBoneInfluence method (D3DX9Mesh.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ Use [**ID3DXSkinInfo::GetNumBoneInfluences**](id3dxskininfo--getnumboneinfluence
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

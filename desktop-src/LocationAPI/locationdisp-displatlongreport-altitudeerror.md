@@ -1,5 +1,5 @@
 ---
-Description: Altitude error, in meters.
+description: Altitude error, in meters.
 ms.assetid: 36ebb079-26e6-4b3f-ad73-547a47bd23d7
 title: LocationDisp.DispLatLongReport.AltitudeError property
 ms.topic: reference
@@ -47,7 +47,7 @@ For an example of how to use this property, see [A Simple LatLong Report Example
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

@@ -1,5 +1,5 @@
 ---
-Description: Creates a render environment map.
+description: Creates a render environment map.
 ms.assetid: 5ca10602-5ab1-4766-a350-706c46c55df2
 title: D3DXCreateRenderToEnvMap function (D3dx9core.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

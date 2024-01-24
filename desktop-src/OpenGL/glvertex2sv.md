@@ -1,6 +1,6 @@
 ---
 title: glVertex2sv function (Gl.h)
-description: Specifies a vertex.
+description: Specifies a vertex. | glVertex2sv function (Gl.h)
 ms.assetid: 4e13356a-a74b-4fb6-a001-1fffc28dd7a1
 keywords:
 - glVertex2sv function OpenGL
@@ -50,7 +50,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

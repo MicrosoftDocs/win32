@@ -1,5 +1,5 @@
 ---
-Description: Media Event Generators
+description: Media Event Generators
 ms.assetid: 2e003ad4-9fcb-4834-a335-e4969ffd3a00
 title: Media Event Generators
 ms.topic: article

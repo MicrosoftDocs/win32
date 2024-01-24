@@ -1,8 +1,7 @@
 ---
-Description: Called by an intersection shader to report a ray intersection.
+description: Called by an intersection shader to report a ray intersection.
 ms.assetid: 
 title: ReportHit function
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

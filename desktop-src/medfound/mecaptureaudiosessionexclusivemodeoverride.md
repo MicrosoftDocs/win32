@@ -1,5 +1,5 @@
 ---
-Description: Sent by an audio capture source when another program opens the audio device in exclusive mode.
+description: Sent by an audio capture source when another program opens the audio device in exclusive mode.
 ms.assetid: E9CC8507-38AB-4049-8DAC-767EC0ECE270
 title: MECaptureAudioSessionExclusiveModeOverride event (Mfobjects.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The capture source sends this event when it receives an [**IAudioSessionEvents::
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |

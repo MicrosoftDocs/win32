@@ -1,5 +1,5 @@
 ---
-Description: The PHONEHOOKSWITCHDEV\_ bit-flag constants describe various audio I/O devices each with its own hookswitch controllable from the computer.
+description: The PHONEHOOKSWITCHDEV\_ bit-flag constants describe various audio I/O devices each with its own hookswitch controllable from the computer.
 ms.assetid: b3272a75-87b0-4afc-b2e2-2d65e4b49300
 title: PHONEHOOKSWITCHDEV_ Constants (Tapi.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ These constants are used in the [**PHONECAPS**](/windows/desktop/api/Tapi/ns-tap
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

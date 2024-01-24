@@ -1,5 +1,5 @@
 ---
-Description: This section describes the document technologies that are supported by Microsoft Windows.
+description: This section describes the document technologies that are supported by Microsoft Windows.
 ms.assetid: '14ae2c97-8596-46db-a55c-ef706d2cd00b'
 title: XPS Documents
 ms.topic: article
@@ -64,7 +64,7 @@ This section describes the native Windows document technologies that are support
 
 
 
-|                                                                    |                                                                                                                                                                                                                                 |
+| Document technology                                                                   | Description                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [XPS Document API](documents-xps.md)<br/>                   | Provides a trustworthy format for electronic paper.<br/> The XPS Document API that is described in this section gives programs and XPSDrv print drivers access to the content and metadata of an XPS document.<br/> |
 | [XPS Digital Signature API](xps-digital-signatures.md)<br/> | Enables document signing, verification of the signer's identity, and indication of whether an XPS document has changed since it was signed.<br/>                                                                          |

@@ -22,7 +22,7 @@ A container of this class can contain Central Access Policy objects.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Authz-Central-Access-Policies     |
 | Ldap-Display-Name | msAuthz-CentralAccessPolicies        |
@@ -42,7 +42,7 @@ A container of this class can contain Central Access Policy objects.
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

@@ -1,5 +1,5 @@
 ---
-Description: A media service provider (MSP) enables an application to control media for a particular transport mechanism.
+description: A media service provider (MSP) enables an application to control media for a particular transport mechanism.
 ms.assetid: f886380f-d970-4511-bf71-fb1eb767e4f4
 title: Media Service Providers
 ms.topic: article

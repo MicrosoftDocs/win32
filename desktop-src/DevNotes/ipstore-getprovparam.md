@@ -1,5 +1,5 @@
 ---
-Description: Intended to set the specified parameter information.
+description: Intended to set the specified parameter information.
 ms.assetid: e1a5766f-a303-47f1-a4bb-33f4253a5464
 title: IPStore::GetProvParam method (Pstore.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ Calls to this method will always fail.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

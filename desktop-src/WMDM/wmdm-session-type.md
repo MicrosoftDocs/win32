@@ -78,7 +78,7 @@ The session is defined as a custom session.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

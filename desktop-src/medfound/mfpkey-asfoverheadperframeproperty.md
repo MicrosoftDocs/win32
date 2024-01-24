@@ -1,5 +1,5 @@
 ---
-Description: Specifies the overhead, in bytes per packet, required for the container used to store the compressed content.
+description: Specifies the overhead, in bytes per packet, required for the container used to store the compressed content.
 ms.assetid: 73ec52de-c74a-45b3-a453-7f32510b4484
 title: MFPKEY_ASFOVERHEADPERFRAME Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ If you are using the Advanced Systems Format (ASF) file structure, do not change
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

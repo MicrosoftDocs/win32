@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSequenceException properties"
 title: EsentOSSnapshotInvalidSequenceException properties
 TOCTitle: EsentOSSnapshotInvalidSequenceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOSSnapshotInvalidSequenceException](dn319729\(v=exchg.10\).md) type exposes the following members.
+The [EsentOSSnapshotInvalidSequenceException](./esentossnapshotinvalidsequenceexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentOSSnapshotInvalidSequenceException class](dn319729\(v=exchg.10\).md)
+[EsentOSSnapshotInvalidSequenceException class](./esentossnapshotinvalidsequenceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

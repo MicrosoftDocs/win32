@@ -1,5 +1,5 @@
 ---
-Description: Represents an address in the master file table (MFT). The address is tagged with a circularly reused sequence number that is set at the time the MFT segment reference was valid.
+description: Represents an address in the master file table (MFT). The address is tagged with a circularly reused sequence number that is set at the time the MFT segment reference was valid.
 ms.assetid: 59d83b95-83fb-4630-8ce4-f58441c748ab
 title: MFT_SEGMENT_REFERENCE structure
 ms.topic: reference

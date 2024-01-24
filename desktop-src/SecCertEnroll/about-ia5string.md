@@ -1,5 +1,5 @@
 ---
-Description: The ASN.1 IA5tring data type is encoded into a TLV triplet that begins with a Tag byte of 0x16.
+description: The ASN.1 IA5tring data type is encoded into a TLV triplet that begins with a Tag byte of 0x16.
 ms.assetid: c1268524-4304-4c21-8f7d-f0a2826cd74e
 title: IA5String
 ms.topic: article

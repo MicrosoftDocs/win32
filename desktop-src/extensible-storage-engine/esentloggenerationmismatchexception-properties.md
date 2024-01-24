@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogGenerationMismatchException properties"
 title: EsentLogGenerationMismatchException properties
 TOCTitle: EsentLogGenerationMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogGenerationMismatchException](dn334564\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogGenerationMismatchException](./esentloggenerationmismatchexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentLogGenerationMismatchException class](dn334564\(v=exchg.10\).md)
+[EsentLogGenerationMismatchException class](./esentloggenerationmismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

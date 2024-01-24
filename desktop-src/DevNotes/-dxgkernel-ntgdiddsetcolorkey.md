@@ -1,5 +1,5 @@
 ---
-Description: Sets the color key value for the specified surface.
+description: Sets the color key value for the specified surface.
 ms.assetid: 052dba97-c047-4ef7-a908-2a66ade3af10
 title: NtGdiDdSetColorKey function (Ntgdi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to a [**DD\_SETCOLORKEYDATA**](/windows/win32/api/ddrawint/ns-ddrawint-d
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

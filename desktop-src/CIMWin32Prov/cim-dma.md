@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DMA class represents computer architecture direct memory access (DMA).
+description: The CIM\_DMA class represents computer architecture direct memory access (DMA).
 ms.assetid: 101fa9f3-a403-487d-8482-b1e8e9f957d6
 ms.tgt_platform: multiple
 title: CIM_DMA class
@@ -833,7 +833,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

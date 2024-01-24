@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObsoleteException constructor (String, JET_err)"
 title: EsentObsoleteException constructor (String, JET_err)
 TOCTitle: EsentObsoleteException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentObsoleteException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentObsoleteException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,7 @@ protected EsentObsoleteException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +71,10 @@ protected EsentObsoleteException(
 
 #### Reference
 
-[EsentObsoleteException class](dn319668\(v=exchg.10\).md)
+[EsentObsoleteException class](./esentobsoleteexception-class.md)
 
-[EsentObsoleteException members](dn319669\(v=exchg.10\).md)
+[EsentObsoleteException members](./esentobsoleteexception-members.md)
 
-[EsentObsoleteException overload](dn319672\(v=exchg.10\).md)
+[EsentObsoleteException overload](./esentobsoleteexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

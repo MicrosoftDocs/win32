@@ -15,10 +15,13 @@ keywords:
 - mutual exclusion,getting profile information at playback
 - bandwidth sharing,getting profile information at playback
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Getting Profile Information at Playback
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Information from the profile used to create a file is stored in the header section of the file. Both reader objects can access the profile information from the file header. There are several reasons why you might want to access profile data from the reader. Most commonly, you will need to retrieve information about streams, mutual exclusion objects, and bandwidth sharing objects.
 

@@ -1,5 +1,5 @@
 ---
-Description: Platform Path Override
+description: Platform Path Override
 ms.assetid: f430fd9a-f865-4cdb-b0ea-4e6d79913308
 title: Platform Path Override
 ms.topic: article

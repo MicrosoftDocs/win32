@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Windows Software Development Kit (SDK) includes localized resource strings, localized Error tables, and localized ActionText tables for the languages listed in the following table.
+description: The Microsoft Windows Software Development Kit (SDK) includes localized resource strings, localized Error tables, and localized ActionText tables for the languages listed in the following table.
 ms.assetid: 2e3a6e73-5b06-452d-9f87-18eb6914b961
 title: Localizing the Error and ActionText Tables
 ms.topic: article
@@ -47,7 +47,7 @@ You can import the localized Error and ActionText tables into your database by u
 | 1051             | 0x41B                | 1250            | SKY          | Slovak - Slovakia             | sk-SK            |
 | 1053\*           | 0x41D                | 1252            | SVE          | Swedish - Sweden              | sv-SE            |
 | 1054             | 0x41E                | 874             | THA          | Thai - Thailand               | th-TH            |
-| 1055             | 0x41F                | 1254            | TRK          | Turkish - Turkey              | tr-TR            |
+| 1055             | 0x41F                | 1254            | TRK          | Turkish - Türkiye              | tr-TR            |
 | 1060             | 0x424                | 1250            | SLV          | Slovenian - Slovenia          | sl-SI            |
 | 1066             | 0x42A                | 1258            | VIT          | Vietnamese - Viet Nam         | vi-VN            |
 | 1069             | 0x42D                | 1252            | EUQ          | Basque (Basque)               | eu-ES            |

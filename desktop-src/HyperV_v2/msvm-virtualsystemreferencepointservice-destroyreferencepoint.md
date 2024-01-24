@@ -1,5 +1,5 @@
 ---
-Description: Deletes the specified reference point.
+description: Deletes the specified reference point.
 ms.assetid: cb5245b6-5984-40ec-a37e-e4a0a62e318a
 title: DestroyReferencePoint method of the Msvm_VirtualSystemReferencePointService class
 ms.topic: reference
@@ -98,7 +98,7 @@ On success, returns a 0 (Complete with No Error), or 4096 (Job Started); otherwi
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

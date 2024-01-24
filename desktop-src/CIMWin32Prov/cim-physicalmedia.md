@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalMedia class represents types of documentation and storage medium, such as tapes, CD ROMs, and so on.
+description: The CIM\_PhysicalMedia class represents types of documentation and storage medium, such as tapes, CD ROMs, and so on.
 ms.assetid: ba258e53-4a82-4b30-aadd-54448841cd06
 ms.tgt_platform: multiple
 title: CIM_PhysicalMedia class
@@ -1076,7 +1076,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateEncoder method.
+description: Proxy function for the CreateEncoder method.
 ms.assetid: e3ffad7f-eb0e-481d-81ee-caf18e14ba59
 title: IWICImagingFactory_CreateEncoder_Proxy function
 ms.topic: reference
@@ -84,7 +84,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

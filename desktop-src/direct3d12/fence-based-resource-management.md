@@ -2,7 +2,6 @@
 title: Fence-Based Resource Management
 description: Shows how to manage resource data life-span by tracking GPU progress via fences. Memory can be effectively re-used with fences carefully managing the availability of free space in memory, such as in a ring buffer implementation for an Upload heap.
 ms.assetid: A7AB6569-EC6B-4B1B-9266-D05B6DB3A27B
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

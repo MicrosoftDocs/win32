@@ -1,5 +1,5 @@
 ---
-Description: Stores an attribute table entry.
+description: D3DXATTRIBUTERANGE structure - Stores an attribute table entry.
 ms.assetid: b9f13b12-35ba-4e4c-93ac-3dd44d611b47
 title: D3DXATTRIBUTERANGE structure (D3dx9mesh.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ typedef D3DXATTRIBUTERANGE* LPD3DXATTRIBUTERANGE;
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

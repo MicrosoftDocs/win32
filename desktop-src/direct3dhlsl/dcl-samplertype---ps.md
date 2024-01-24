@@ -17,11 +17,7 @@ Declare a pixel shader sampler.
 
 ## Syntax
 
-
-
-|                      |
-|----------------------|
-| dcl\_samplerType s\# |
+dcl\_samplerType s\#
 
 
 

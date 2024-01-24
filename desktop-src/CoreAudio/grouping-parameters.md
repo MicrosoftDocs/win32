@@ -1,5 +1,5 @@
 ---
-Description: Grouping Parameters
+description: Grouping Parameters
 ms.assetid: 088156f7-fb75-4fcf-b928-87e97b13bdab
 title: Grouping Parameters
 ms.topic: article

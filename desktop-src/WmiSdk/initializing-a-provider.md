@@ -1,5 +1,5 @@
 ---
-Description: One of the first tasks you must code for a provider is the initialization process, which covers any tasks your provider must perform that allows it to send and receive information from WMI, control a managed object, and perform other tasks.
+description: One of the first tasks you must code for a provider is the initialization process, which covers any tasks your provider must perform that allows it to send and receive information from WMI, control a managed object, and perform other tasks.
 ms.assetid: 3dc145b8-1ce4-4caa-b2ac-31a3681e76f1
 ms.tgt_platform: multiple
 title: Initializing a Provider

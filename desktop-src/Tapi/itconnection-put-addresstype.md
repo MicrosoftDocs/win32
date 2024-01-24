@@ -1,5 +1,5 @@
 ---
-Description: The put\_AddressType method sets the address type.
+description: The put\_AddressType method sets the address type.
 ms.assetid: 73c64904-925c-4a35-a8f9-88b196b59b1e
 title: ITConnection::put_AddressType method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The application must use [**SysAllocString**](/windows/win32/api/oleauto/nf-olea
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

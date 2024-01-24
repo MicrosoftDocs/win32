@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for disk I/O events. The following syntax is simplified from MOF code.
+description: This class is the parent class for disk I/O events. The following syntax is simplified from MOF code.
 ms.assetid: 630fb6c6-b505-4384-ab7b-ee898d95bd41
 title: DiskIo class
 ms.topic: reference
@@ -71,7 +71,7 @@ Disk I/O events are recorded at the I/O completion time. To determine when the I
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

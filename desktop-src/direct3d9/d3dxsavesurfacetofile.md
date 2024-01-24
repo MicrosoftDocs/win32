@@ -1,5 +1,5 @@
 ---
-Description: Saves a surface to a file.
+description: Saves a surface to a file.
 ms.assetid: 28bbf728-afde-4d25-8562-9d6a957aab2d
 title: D3DXSaveSurfaceToFile function (D3dx9tex.h)
 ms.topic: reference
@@ -78,9 +78,9 @@ Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
 
 </dd> </dl>
 
@@ -100,7 +100,7 @@ This function handles conversion to and from compressed texture formats.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

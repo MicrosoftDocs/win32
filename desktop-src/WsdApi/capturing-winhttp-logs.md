@@ -1,5 +1,5 @@
 ---
-Description: WinHTTP logs can be used to help troubleshoot WSDAPI applications. This is helpful when metadata exchange fails or when SSL/TLS negotiation fails.
+description: WinHTTP logs can be used to help troubleshoot WSDAPI applications. This is helpful when metadata exchange fails or when SSL/TLS negotiation fails.
 ms.assetid: 75ba330d-afcd-4d8f-93c7-a1b9f80dd050
 title: Capturing WinHTTP Logs
 ms.topic: article
@@ -7,6 +7,9 @@ ms.date: 05/31/2018
 ---
 
 # Capturing WinHTTP Logs
+
+> [!IMPORTANT]
+> This procedure is available only for OS versions prior to Windows 7 or Windows Server 2008 R2.
 
 [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) logs can be used to help troubleshoot WSDAPI applications. This is helpful when metadata exchange fails or when SSL/TLS negotiation fails.
 
@@ -35,11 +38,5 @@ Once WinHTTP logs have been captured, the logs can be examined to look for the c
 
 ## Related topics
 
-<dl> <dt>
-
-[WinHTTP](/windows/desktop/WinHttp/winhttp-start-page)
-</dt> <dt>
-
-[Using WinHTTP Logging to Verify Get Traffic](using-winhttp-logging-to-verify-get-traffic.md)
-</dt>
-</dl>
+* [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page)
+* [Using WinHTTP Logging to Verify Get Traffic](using-winhttp-logging-to-verify-get-traffic.md)

@@ -22,7 +22,7 @@ Terminal Services session Maximum Disconnection Time is the maximum amount of ti
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Max-Disconnection-Time         |
 | Ldap-Display-Name | msTSMaxDisconnectionTime             |
@@ -45,7 +45,7 @@ Terminal Services session Maximum Disconnection Time is the maximum amount of ti
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services session Maximum Disconnection Time is the maximum amount of ti
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services session Maximum Disconnection Time is the maximum amount of ti
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

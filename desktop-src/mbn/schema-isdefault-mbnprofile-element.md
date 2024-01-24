@@ -1,5 +1,5 @@
 ---
-Description: Specifies if this is the default profile for the device.
+description: Specifies if this is the default profile for the device.
 ms.assetid: 024ef936-ddf4-41f6-81c9-5c8a632690a0
 title: IsDefault (MBNProfile) Element
 ms.topic: reference
@@ -39,7 +39,7 @@ The **IsDefault** element is defined by the [**MBNProfile**](schema-mbnprofile-e
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

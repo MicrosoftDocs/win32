@@ -1,5 +1,5 @@
 ---
-Description: The GetRange method retrieves the range of valid values for a given audio settings property.
+description: The GetRange method retrieves the range of valid values for a given audio settings property.
 ms.assetid: 09ee0c59-6ae6-47eb-a8cf-6b24e759d7fb
 title: ITAudioSettings::GetRange method (Ipmsp.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

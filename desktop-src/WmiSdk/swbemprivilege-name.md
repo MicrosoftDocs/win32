@@ -1,5 +1,5 @@
 ---
-Description: The Name property of an SWbemPrivilege object is a string that uniquely describes a privilege.
+description: The Name property of an SWbemPrivilege object is a string that uniquely describes a privilege.
 ms.assetid: cc1cdde7-20ad-4ff7-ad49-43eb46c15df9
 ms.tgt_platform: multiple
 title: SWbemPrivilege.Name property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemPrivilege.Name As
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

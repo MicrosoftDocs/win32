@@ -1,5 +1,5 @@
 ---
-Description: Winsock catalog change event for a layered service provider (LSP) removal operation.
+description: Winsock catalog change event for a layered service provider (LSP) removal operation.
 ms.assetid: 86FF17F7-8CCF-4A03-899F-42BFACDF3F54
 title: WINSOCK_WS2HELP_LSP_REMOVE event
 ms.topic: reference
@@ -77,7 +77,7 @@ The **WINSOCK\_WS2HELP\_LSP\_REMOVE** event is traced for an LSP removal operati
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

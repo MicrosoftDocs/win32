@@ -49,7 +49,7 @@ Before you begin, log on to a Windows domain. You must have permission to modify
 
     
 
-3.  Press **<F5>** to run the program.
+3.  Press **&lt;F5&gt;** to run the program.
 4.  To verify changes, use the Active Directory Users and Computers management tool. For more information about using ADSI and Visual Basic, see [Accessing Active Directory Using Visual Basic](accessing-active-directory-using-visual-basic.md).
 
  

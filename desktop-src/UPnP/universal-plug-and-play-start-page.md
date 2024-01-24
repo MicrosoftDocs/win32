@@ -23,7 +23,7 @@ The Control Point API enables developers to write applications that search for a
 
 ## Developer audience
 
-Developers using the Control Point APIs and Device Host APIs must be familiar with the UPnP device architecture. For more information, see the [UPnP Implementation Documentation](https://openconnectivity.org/resources/upnpresources.zip) and the [UPnP Forum](https://openconnectivity.org/).
+Developers using the Control Point APIs and Device Host APIs must be familiar with the UPnP device architecture. For more information, see the [UPnP Implementation Documentation](https://openconnectivity.org/wp-content/uploads/2017/05/upnpresources.zip) and the [UPnP Forum](https://openconnectivity.org/).
 
 Developers who are using the Device Host APIs should be familiar with the Active Template Library (ATL) and COM interfaces.
 

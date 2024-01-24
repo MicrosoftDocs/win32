@@ -21,7 +21,7 @@ Contains a GUID that identifies a specific 802.11 Group Policy object on the dom
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-net-ieee-80211-GP-PolicyGUID             |
 | Ldap-Display-Name | ms-net-ieee-80211-GP-PolicyGUID             |
@@ -44,7 +44,7 @@ Contains a GUID that identifies a specific 802.11 Group Policy object on the dom
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -65,7 +65,7 @@ Contains a GUID that identifies a specific 802.11 Group Policy object on the dom
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -86,7 +86,7 @@ Contains a GUID that identifies a specific 802.11 Group Policy object on the dom
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Notifies a Media Foundation transform (MFT) that the first sample is about to be processed.
+description: Notifies a Media Foundation transform (MFT) that the first sample is about to be processed.
 ms.assetid: 579df695-02c4-4332-b1b4-c7bd9da50c0f
 title: MFT_MESSAGE_NOTIFY_START_OF_STREAM (Mftransform.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ An asynchronous MFT must implement this message, as described in [Asynchronous M
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

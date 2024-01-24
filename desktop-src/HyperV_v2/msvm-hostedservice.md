@@ -1,5 +1,5 @@
 ---
-Description: Associates a service with its hosting computer system.
+description: Associates a service with its hosting computer system.
 ms.assetid: 888ABA71-6D67-4933-89E6-40F731AA7153
 title: Msvm_HostedService class
 ms.topic: reference
@@ -84,7 +84,7 @@ See [Querying Networking Objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

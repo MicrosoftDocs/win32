@@ -1,5 +1,5 @@
 ---
-Description: Home address postal box number of the contact.
+description: Home address postal box number of the contact.
 ms.assetid: 4a0dfbca-e3a2-4b08-bb06-86a58bef9998
 title: System.Contact.HomeAddressPostOfficeBox
 ms.topic: article

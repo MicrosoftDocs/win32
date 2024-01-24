@@ -1,5 +1,5 @@
 ---
-Description: Raised by the audio renderer when the audio session is disconnected from a Windows Terminal Services (WTS) session. The audio renderer is now invalid.
+description: Raised by the audio renderer when the audio session is disconnected from a Windows Terminal Services (WTS) session. The audio renderer is now invalid.
 ms.assetid: 08f9844c-f3b1-4d60-990e-9131f3312f6b
 title: MEAudioSessionDisconnected event (Mfobjects.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ The [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy) poi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

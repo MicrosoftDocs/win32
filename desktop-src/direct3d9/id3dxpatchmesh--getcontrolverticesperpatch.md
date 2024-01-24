@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of control vertices per patch.
+description: Gets the number of control vertices per patch.
 ms.assetid: e523cb1e-90b0-4e26-a5bd-471384bfee0e
 title: ID3DXPatchMesh::GetControlVerticesPerPatch method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The number of control vertices per patch.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

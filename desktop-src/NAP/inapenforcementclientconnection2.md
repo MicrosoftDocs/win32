@@ -1,6 +1,6 @@
 ---
 title: INapEnforcementClientConnection2 interface (NapEnforcementClient.h)
-description: Allow for client connection management.
+description: Allow for client connection management. | INapEnforcementClientConnection2 interface (NapEnforcementClient.h)
 ms.assetid: f7b5d8cc-6a91-4e49-8957-cf67d1001089
 keywords:
 - INapEnforcementClientConnection2 interface NAP
@@ -58,7 +58,7 @@ The **INapEnforcementClientConnection2** interface has these methods.
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |

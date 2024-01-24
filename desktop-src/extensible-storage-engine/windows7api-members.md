@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows7Api members"
 title: Windows7Api members (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Api members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api
@@ -15,7 +16,7 @@ Include inherited members
 
 ESENT APIs that were first supported in Windows 7 (Windows Server 2008 R2).
 
-The [Windows7Api](dn335406\(v=exchg.10\).md) type exposes the following members.
+The [Windows7Api](./windows7api-class.md) type exposes the following members.
 
 ## Methods
 
@@ -53,7 +54,6 @@ Top
 
 #### Reference
 
-[Windows7Api class](dn335406\(v=exchg.10\).md)
+[Windows7Api class](./windows7api-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows7 namespace](./microsoft.isam.esent.interop.windows7-namespace.md)

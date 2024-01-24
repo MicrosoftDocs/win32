@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of which pipeline stages are not able to return mesh data for the event specified in the associated request.
+description: A callback that notifies the host of which pipeline stages are not able to return mesh data for the event specified in the associated request.
 MS-HAID: vspixengine.IPipeLineStagesCallback\_MeshDataNotAvailableCallback\_UINT\_PipeLineStageError\_arr\_UINT\_UINT\_EventID
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -60,7 +60,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
 ## <span id="see_also"></span>See also
 

@@ -1,5 +1,5 @@
 ---
-Description: Computes the Secure Sockets Layer protocol (SSL) master secret key.
+description: Computes the Secure Sockets Layer protocol (SSL) master secret key.
 ms.assetid: c9408eb3-711d-42c3-a4ba-e388689da34e
 title: SslGenerateMasterKey function (Sslprovider.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ One of the [**CNG SSL Provider Cipher Suite Identifier**](https://msdn.microsoft
 *pParameterList* \[in\]
 </dt> <dd>
 
-A pointer to an array of [**NCryptBuffer**](https://msdn.microsoft.com/library/Aa376245(v=VS.85).aspx) buffers that contain information used as part of the key exchange operation. The precise set of buffers is dependent on the protocol and cipher suite that is used. At the minimum, the list will contain buffers that contain the client and server supplied random values.
+A pointer to an array of **NCryptBuffer** buffers that contain information used as part of the key exchange operation. The precise set of buffers is dependent on the protocol and cipher suite that is used. At the minimum, the list will contain buffers that contain the client and server supplied random values.
 
 </dd> <dt>
 
@@ -161,7 +161,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteTempTableException constructor"
 title: EsentCannotDeleteTempTableException constructor 
 TOCTitle: 'EsentCannotDeleteTempTableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTempTableException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotDeleteTempTableException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentCannotDeleteTempTableException()
 
 #### Reference
 
-[EsentCannotDeleteTempTableException class](dn274088\(v=exchg.10\).md)
+[EsentCannotDeleteTempTableException class](./esentcannotdeletetemptableexception-class.md)
 
-[EsentCannotDeleteTempTableException members](dn274155\(v=exchg.10\).md)
+[EsentCannotDeleteTempTableException members](./esentcannotdeletetemptableexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

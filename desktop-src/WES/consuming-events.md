@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Consuming Events
+# Consuming Events (Windows Event Log)
 
 You can consume events from channels or from log files. To consume events, you can consume all events or you can specify an XPath expression that identifies the events that you want to consume. To determine the elements and attributes of an event that you can use in your XPath expression, see [Event Schema](eventschema-schema.md).
 

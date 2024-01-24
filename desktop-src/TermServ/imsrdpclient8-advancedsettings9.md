@@ -53,7 +53,7 @@ An [**IMsRdpClientAdvancedSettings8**](imsrdpclientadvancedsettings8.md) interfa
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Cleans up the state for the session being opened, or the currently open session.
+description: Cleans up the state for the session being opened, or the currently open session.
 ms.assetid: 8247AFA9-F471-4CCD-972D-D0C827E86880
 title: WFDDisplaySinkCloseSession function (Wfdsink.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Your app can call this function to terminate the Miracast session for any reason
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                    |

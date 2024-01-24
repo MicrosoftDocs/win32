@@ -1,5 +1,5 @@
 ---
-Description: Creates the specified subtype within the specified type.
+description: Creates the specified subtype within the specified type.
 ms.assetid: afd5c0c6-5779-4a78-83aa-cae36f5de564
 title: IPStore::CreateSubtype method (Pstore.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

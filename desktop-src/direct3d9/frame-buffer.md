@@ -1,5 +1,5 @@
 ---
-Description: Frame Buffer (Direct3D 9)
+description: Frame Buffer (Direct3D 9)
 ms.assetid: f7466dc1-d694-4595-9d14-2cf5f59e82a4
 title: Frame Buffer (Direct3D 9)
 ms.topic: article

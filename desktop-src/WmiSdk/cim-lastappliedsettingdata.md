@@ -1,5 +1,5 @@
 ---
-Description: An association between an object and another object which has been applied to it.
+description: An association between an object and another object which has been applied to it.
 ms.assetid: ee6b17b7-4f01-4731-8d6b-a3421621a75a
 ms.tgt_platform: multiple
 title: CIM_LastAppliedSettingData class
@@ -87,7 +87,7 @@ The object that was the target of the object's application.
 
 
 
-|                      |                        |
+| Requirement | Value |
 |----------------------|------------------------|
 | Namespace<br/> | Root\\CIMV2<br/> |
 

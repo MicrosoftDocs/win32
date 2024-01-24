@@ -1,5 +1,5 @@
 ---
-Description: Indicates the last time the item was accessed. The Indexing Service friendly name is &\#0034;access&\#0034;.
+description: Indicates the last time the item was accessed. The Indexing Service friendly name is &\#0034;access&\#0034;.
 ms.assetid: 380bd1c6-6a07-46ea-b9ad-16540306e40f
 title: System.DateAccessed
 ms.topic: article

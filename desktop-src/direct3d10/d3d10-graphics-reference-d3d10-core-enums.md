@@ -1,5 +1,5 @@
 ---
-Description: 'This section contains information about the following core enumerations:'
+description: 'This section contains information about the following core enumerations:'
 ms.assetid: 3d1541bf-75d8-459d-a912-4068e9a0a9e4
 title: Direct3D 10 core enumerations
 ms.topic: article

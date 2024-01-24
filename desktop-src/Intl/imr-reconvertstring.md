@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when a selected IME needs a string for reconversion. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
+description: Notifies an application when a selected IME needs a string for reconversion. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
 ms.assetid: 82ef20b5-bdfa-4bde-abb4-3d14ae35c116
 title: IMR_RECONVERTSTRING notification code (Imm.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the current reconversion string structure. If *lParam* is set to **NULL*
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

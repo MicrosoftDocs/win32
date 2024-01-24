@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAlreadyPreparedException constructor"
 title: EsentAlreadyPreparedException constructor 
 TOCTitle: 'EsentAlreadyPreparedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentAlreadyPreparedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentAlreadyPreparedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentAlreadyPreparedException()
 
 #### Reference
 
-[EsentAlreadyPreparedException class](dn334228\(v=exchg.10\).md)
+[EsentAlreadyPreparedException class](./esentalreadypreparedexception-class.md)
 
-[EsentAlreadyPreparedException members](dn273996\(v=exchg.10\).md)
+[EsentAlreadyPreparedException members](./esentalreadypreparedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Used by the auto complete client to notify the application of the text a user has inked into Input Panel.
+description: Used by the auto complete client to notify the application of the text a user has inked into Input Panel.
 ms.assetid: 68413836-321a-4e75-8538-c5a8fc577c0f
 title: ITipAutocompleteProvider::UpdatePendingText method (TipAutoComplete.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This text will not contain the text already inserted in the focused field. The a
 
 
 
-|                                     |                                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |

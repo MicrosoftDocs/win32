@@ -1,6 +1,6 @@
 ---
 title: Resource Records
-description: A resource record, commonly referred to as an RR, is the unit of information entry in DNS zone files; RRs are the basic building blocks of host-name and IP information and are used to resolve all DNS queries.
+description: Learn about resource records. A resource record is the unit of information entry in DNS zone files, which used to resolve all DNS queries.
 ms.assetid: 'c64907c2-ebd3-4550-9454-13f51a6d7ca6'
 ms.topic: article
 ms.date: 05/31/2018

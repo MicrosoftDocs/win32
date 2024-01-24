@@ -1,5 +1,5 @@
 ---
-Description: Starting in Windows 8, the AppInit\_DLLs infrastructure is disabled when secure boot is enabled.
+description: Starting in Windows 8, the AppInit\_DLLs infrastructure is disabled when secure boot is enabled.
 ms.assetid: 3ADE71C7-7113-4D26-8D6D-5609CAF13397
 title: AppInit DLLs and Secure Boot
 ms.topic: article
@@ -30,8 +30,4 @@ One of the certification requirements for Windows 8 desktop apps is that the ap
 -   The AppInit\_DLLs mechanism is disabled by default when secure boot is enabled.
 -   Using AppInit\_DLLs in a Windows 8 desktop app is a Windows desktop app certification failure.
 
-See the following whitepaper for info about AppInit\_DLLs on Windows 7 and Windows Server 2008 R2: [AppInit DLLs in Windows 7 and Windows Server 2008 R2](/previous-versions/windows/hardware/download/dn550976(v=vs.85)).
-
- 
-
- 
+To download a whitepaper with info about AppInit\_DLLs on Windows 7 and Windows Server 2008 R2, visit the [Windows Hardware Dev Center Archive](/previous-versions/windows/hardware/download/dn550976(v=vs.85)), and search for *AppInit DLLs in Windows 7 and Windows Server 2008 R2*.

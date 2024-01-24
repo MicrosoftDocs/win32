@@ -1,5 +1,5 @@
 ---
-Description: This section provides detailed reference documentation for COM interfaces, enumeration types, and constants for the Sensor API.
+description: This section provides detailed reference documentation for COM interfaces, enumeration types, and constants for the Sensor API.
 ms.assetid: 69f8e750-a566-401a-a95f-9c3e15e7d56a
 title: Sensor API Programming Reference
 ms.topic: article

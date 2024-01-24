@@ -1,5 +1,5 @@
 ---
-Description: Represents a generic association between two managed elements that represent different aspects of the same underlying entity.
+description: Represents a generic association between two managed elements that represent different aspects of the same underlying entity.
 ms.assetid: 28d153de-ce9c-4cd3-8995-0d959846be4d
 title: CIM_LogicalIdentity class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_LogicalIdentity class
+# CIM_LogicalIdentity class (Hyper-V management)
 
 Represents a generic association between two managed elements that represent different aspects of the same underlying entity.
 
@@ -80,7 +80,7 @@ The first aspect in the association. The use of System in the property name does
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

@@ -1,5 +1,5 @@
 ---
-Description: A notification callback function specified with the LdrRegisterDllNotification function.
+description: A notification callback function specified with the LdrRegisterDllNotification function.
 ms.assetid: 12202797-c80c-4fa3-9cc4-dcb1a9f01551
 title: LdrDllNotification callback function
 ms.topic: reference
@@ -115,7 +115,7 @@ The notification callback function is called before dynamic linking takes place.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

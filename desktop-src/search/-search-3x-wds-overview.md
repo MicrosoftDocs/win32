@@ -1,5 +1,5 @@
 ---
-Description: Windows Search is a desktop search platform that has instant search capabilities for most common file types and data types, and third-party developers can extend these capabilities to new file types and data types.
+description: Windows Search is a desktop search platform that has instant search capabilities for most common file types and data types, and third-party developers can extend these capabilities to new file types and data types.
 ms.assetid: 6da601c6-3742-40ad-99f2-8817f7f642b3
 title: Windows Search Overview
 ms.topic: article
@@ -97,7 +97,7 @@ For more information about the Windows Search SDK interoperability assembly for 
 
 ### SDK Download and Contents
 
-In addition to meeting the listed technical prerequirements, you must also download the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) to get the Windows Search libraries. The [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8) contain useful code samples and an interoperability assembly for developing with managed code. For more information on using the code samples, see [Windows Search Code Samples](-search-3x-wds-sampleentry.md).
+In addition to meeting the listed technical prerequisites, you must also download the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) to get the Windows Search libraries. The [Windows Search Code Samples](-search-samples-ovw.md) contain useful code samples and an interoperability assembly for developing with managed code.
 
 ## Windows Search SDK Documentation
 
@@ -142,13 +142,13 @@ Windows Search is built into Windows Vista and later, and is available as a red
 -   Windows Server 2003 with Service Pack 1 (SP1) and later.
 -   All x64-based versions of Windows Server 2003.
 
-Systems running these operating systems must have Windows Search installed in order to run applications written for Windows Search. For more information, see [KB article 917013: Description of Windows Desktop Search 3.01 and the Multilingual User Interface Pack for Windows Desktop Search 3.01](https://support.microsoft.com/kb/917013).
+Systems running these operating systems must have Windows Search installed in order to run applications written for Windows Search.
 
 ## Additional Resources
 
 -   For information about creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](/previous-versions//bb776815(v=vs.85)).
--   For more information about [ISearchFolderItemFactory](/windows/win32/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory) and the DB folder data source, see the description of the STR\_PARSE\_WITH\_PROPERTIES constant in [Bind Context String Keys](../shell/str-constants.md). See also [Association Arrays](/previous-versions/windows/win32/legacy/ee872122(v=vs.85)) and [IPropertySystem::GetPropertyDescriptionListFromString](/windows/win32/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring).
--   For information on OLE DB, see [OLE DB Programming Overview](/cpp/data/oledb/ole-db-programming-overview?view=vs-2019). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb?view=dotnet-plat-ext-3.1) documentation.
+-   For more information about [ISearchFolderItemFactory](/windows/win32/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory) and the DB folder data source, see the description of the STR\_PARSE\_WITH\_PROPERTIES constant in [Bind Context String Keys](../shell/str-constants.md). See also [Association Arrays](/previous-versions/windows/desktop/legacy/ee872122(v=vs.85)) and [IPropertySystem::GetPropertyDescriptionListFromString](/windows/win32/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring).
+-   For information on OLE DB, see [OLE DB Programming Overview](/cpp/data/oledb/ole-db-programming-overview). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb?view=dotnet-plat-ext-3.1&preserve-view=true) documentation.
 -   For an overview of file type handlers (also known as Shell extension handlers and Search handlers), see [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md).
 -   For community-supported message boards about Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
 -   For related code samples, see [Windows Search Code Samples](-search-samples-ovw.md).

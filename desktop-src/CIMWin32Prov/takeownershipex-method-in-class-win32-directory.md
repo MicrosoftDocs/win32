@@ -1,5 +1,5 @@
 ---
-Description: Obtains ownership of the logical directory entry file specified in the object path. This method is an extended version of the TakeOwnerShip method.
+description: Obtains ownership of the logical directory entry file specified in the object path. This method is an extended version of the TakeOwnerShip method.
 ms.assetid: 73726207-e885-4957-bff8-6903c4b99278
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the Win32_Directory class
@@ -194,7 +194,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

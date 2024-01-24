@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesKeyTooSmallException members"
 title: EsentIndexTuplesKeyTooSmallException members
 TOCTitle: EsentIndexTuplesKeyTooSmallException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.IndexTuplesKeyTooSmall exceptions.
 
-The [EsentIndexTuplesKeyTooSmallException](dn350474\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesKeyTooSmallException](./esentindextupleskeytoosmallexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesKeyTooSmallException class](dn350474\(v=exchg.10\).md)
+[EsentIndexTuplesKeyTooSmallException class](./esentindextupleskeytoosmallexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

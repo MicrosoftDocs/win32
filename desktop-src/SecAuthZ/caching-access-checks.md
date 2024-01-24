@@ -1,5 +1,5 @@
 ---
-Description: When an application performs an access check by calling the AuthzAccessCheck function, the results of that access check can be cached.
+description: When an application performs an access check by calling the AuthzAccessCheck function, the results of that access check can be cached.
 ms.assetid: d79a5683-6c67-487f-b9a6-4e80da38b827
 title: Caching Access Checks
 ms.topic: article

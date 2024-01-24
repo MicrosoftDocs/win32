@@ -20,7 +20,7 @@ The default values for the two configurable TTL parameters will be as follows:
 -   Default TTL value = 86400 seconds (1 day)
 -   Minimum TTL value = 900 seconds (15 minutes)
 
-The configurable TTL parameters will be stored as AVA (attribute value assertion) entries of the form "<value-name>=<value>" in the attribute **ms-DS-Other-Settings** of the NTDS-Service object given by the following DN in the Configuration partition:
+The configurable TTL parameters will be stored as AVA (attribute value assertion) entries of the form "&lt;value-name&gt;=&lt;value&gt;" in the attribute **ms-DS-Other-Settings** of the NTDS-Service object given by the following DN in the Configuration partition:
 
 
 ```C++

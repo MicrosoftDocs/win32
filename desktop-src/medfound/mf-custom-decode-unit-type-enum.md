@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of unit contained in an IMFSample in a MFSampleExtension\_ForwardedDecodeUnits collection.
+description: Specifies the type of unit contained in an IMFSample in a MFSampleExtension\_ForwardedDecodeUnits collection.
 ms.assetid: B74890ED-9586-475B-8C77-457ECB893980
 title: MF_CUSTOM_DECODE_UNIT_TYPE enumeration (Mfapi.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Specifies the type of unit contained in an [**IMFSample**](/windows/desktop/api/
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

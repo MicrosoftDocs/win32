@@ -1,5 +1,5 @@
 ---
-Description: For segment re-encoding, specifies the buffer size.
+description: For segment re-encoding, specifies the buffer size.
 ms.assetid: 4f8d3a29-e011-4dcb-8eed-23ccce03a66a
 title: MFPKEY_REENCENDBUFFERSIZE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

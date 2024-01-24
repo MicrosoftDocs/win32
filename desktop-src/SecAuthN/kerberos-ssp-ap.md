@@ -1,5 +1,5 @@
 ---
-Description: The Kerberos authentication package is used when logging on to a network; local logons are handled by MSV1\_0.
+description: The Kerberos authentication package is used when logging on to a network; local logons are handled by MSV1\_0.
 ms.assetid: 43970c99-53f1-43c1-9d9f-65573572f731
 title: Kerberos SSP/AP
 ms.topic: article

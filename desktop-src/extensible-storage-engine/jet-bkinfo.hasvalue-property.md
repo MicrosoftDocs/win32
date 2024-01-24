@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.HasValue property"
 title: JET_BKINFO.HasValue property 
 TOCTitle: 'HasValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.HasValue
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a value indicating whether this backup info is null.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,14 +58,14 @@ Type: [System.Boolean](/dotnet/api/system.boolean)
 
 #### Implements
 
-[INullableJetStruct.HasValue](hh577833\(v=exchg.10\).md)  
+[INullableJetStruct.HasValue](./inullablejetstruct.hasvalue-property.md)  
 
 ## See also
 
 #### Reference
 
-[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](./jet-bkinfo-structure2.md)
 
-[JET_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](./jet-bkinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Adds an extended property to the collection.
+description: Adds an extended property to the collection.
 ms.assetid: 1d6b3c39-17b0-4a7c-a5c2-4a3bd866be07
 title: ExtendedProperties.Add method
 ms.topic: reference
@@ -51,7 +51,7 @@ This method does not return a value.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

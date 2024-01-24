@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInternalErrorException members"
 title: EsentInternalErrorException members
 TOCTitle: EsentInternalErrorException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInternalErrorException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InternalError exceptions.
 
-The [EsentInternalErrorException](dn319452\(v=exchg.10\).md) type exposes the following members.
+The [EsentInternalErrorException](./esentinternalerrorexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInternalErrorException class](dn319452\(v=exchg.10\).md)
+[EsentInternalErrorException class](./esentinternalerrorexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

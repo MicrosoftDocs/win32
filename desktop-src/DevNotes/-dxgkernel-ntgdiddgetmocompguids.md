@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of GUIDs the driver supports.
+description: Retrieves the number of GUIDs the driver supports.
 ms.assetid: ed6b81bc-3f83-4983-97b6-32fdeb1c901e
 title: NtGdiDdGetMoCompGuids function (Ntgdi.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

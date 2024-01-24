@@ -1,5 +1,5 @@
 ---
-Description: Disables a physical GPU for virtualization.
+description: Disables a physical GPU for virtualization.
 ms.assetid: 280a3c25-7b8f-4113-bf35-171d15f4aea7
 title: DisableGPUForVirtualization method of the Msvm_Synthetic3DService class
 ms.topic: reference
@@ -65,7 +65,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

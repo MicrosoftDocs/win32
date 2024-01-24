@@ -1,5 +1,5 @@
 ---
-Description: Places the service represented by the Win32\_SystemDriver object in the stopped state.
+description: Places the service represented by the Win32\_SystemDriver object in the stopped state.
 ms.assetid: 0fa8ef44-39eb-448e-8d33-38a5af9a0c13
 ms.tgt_platform: multiple
 title: StopService method of the Win32_SystemDriver class (Sdoias.h)
@@ -234,7 +234,7 @@ $Return = $usbPrintDriver.StopService()
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

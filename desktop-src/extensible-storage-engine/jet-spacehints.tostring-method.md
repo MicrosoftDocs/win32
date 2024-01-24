@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.ToString method"
 title: JET_SPACEHINTS.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.ToString
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ The structure as a string.
 
 #### Reference
 
-[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](./jet-spacehints-class.md)
 
-[JET_SPACEHINTS members](dn351096\(v=exchg.10\).md)
+[JET_SPACEHINTS members](./jet-spacehints-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

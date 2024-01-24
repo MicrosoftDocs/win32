@@ -1,5 +1,5 @@
 ---
-Description: Defines the basic RGB color object.
+description: Defines the basic RGB color object.
 ms.assetid: f00638d3-93c1-4ec6-b4f7-d3849f1a9000
 title: ColorRGB
 ms.topic: reference

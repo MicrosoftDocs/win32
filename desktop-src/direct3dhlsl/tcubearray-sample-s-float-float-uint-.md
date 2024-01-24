@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::Sample(S,float,float,uint) function
-description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
+description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation. | TextureCubeArray::Sample(S,float,float,uint) function
 ms.assetid: 5645841D-A32E-452E-873C-E070CF6A4C00
 keywords:
 - Sample function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Sample(S,float,float,uint) function
+# TextureCubeArray::Sample(S,float,float,uint) function
 
 Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
 

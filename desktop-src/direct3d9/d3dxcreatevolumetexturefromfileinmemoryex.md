@@ -1,5 +1,5 @@
 ---
-Description: Creates a volume texture from a file. This is a more advanced function than D3DXCreateVolumeTextureFromFileInMemory.
+description: Creates a volume texture from a file. This is a more advanced function than D3DXCreateVolumeTextureFromFileInMemory.
 ms.assetid: 1a43f906-1826-40a3-a7a9-a0536c977164
 title: D3DXCreateVolumeTextureFromFileInMemoryEx function (D3dx9tex.h)
 ms.topic: reference
@@ -210,7 +210,7 @@ When skipping mipmap levels while loading a .dds file, use the D3DX\_SKIP\_DDS\_
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

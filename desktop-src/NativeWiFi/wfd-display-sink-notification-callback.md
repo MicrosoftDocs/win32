@@ -1,5 +1,5 @@
 ---
-Description: Defines the callback function&\#8212;which you implement in your app&\#8212;that was specified to the WFDStartDisplaySink function.
+description: Defines the callback function&\#8212;which you implement in your app&\#8212;that was specified to the WFDStartDisplaySink function.
 ms.assetid: 0D4C00FD-4ED6-4F0F-BB72-0A1FCC05DB37
 title: WFD_DISPLAY_SINK_NOTIFICATION_CALLBACK callback function (Wfdsink.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ A pointer to a struct containing data that your app can optionally set to indica
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |

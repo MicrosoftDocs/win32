@@ -1,5 +1,5 @@
 ---
-Description: This topic helps you get started creating world-ready applications, by specifying prerequisites, summarizing technologies, and introducing a getting-started tutorial.
+description: This topic helps you get started creating world-ready applications, by specifying prerequisites, summarizing technologies, and introducing a getting-started tutorial.
 ms.assetid: 80c10bc2-b7e3-4f24-8bac-826149a376c7
 title: Getting Started with International Windows Development
 ms.topic: article

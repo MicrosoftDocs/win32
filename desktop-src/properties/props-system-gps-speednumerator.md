@@ -1,5 +1,5 @@
 ---
-Description: The numerator of PKEY\_GPS\_Speed.
+description: The numerator of PKEY\_GPS\_Speed.
 ms.assetid: decae1d2-d3f8-495a-9fb9-70e48a9ca2cc
 title: System.GPS.SpeedNumerator
 ms.topic: article

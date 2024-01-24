@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC class"
 title: JET_DBINFOMISC class
 TOCTitle: JET_DBINFOMISC class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC
@@ -35,7 +36,7 @@ Holds miscellaneous information about a database. This is the information that i
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_DBINFOMISC  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,6 +63,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](./jet-dbinfomisc-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

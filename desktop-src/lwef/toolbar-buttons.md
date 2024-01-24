@@ -6,11 +6,11 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Toolbar Buttons
+# Toolbar Buttons (Linguistic Information Sound Editing Tool)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-![](images/f9charnew.gif)
+:::image type="icon" source="images/f9charnew.gif":::
 
 <dl> <dt>
 
@@ -21,7 +21,7 @@ Resets the sound editor for creating a new sound file. If an existing sound file
 
 </dd> </dl>
 
-![](images/f10charopen.gif)
+:::image type="icon" source="images/f10charopen.gif":::
 
 <dl> <dt>
 
@@ -32,7 +32,7 @@ Displays the Open File dialog box, enabling you to open an existing sound file. 
 
 </dd> </dl>
 
-![](images/f11charsave.gif)
+:::image type="icon" source="images/f11charsave.gif":::
 
 <dl> <dt>
 
@@ -43,7 +43,7 @@ Saves the sound file. If the file does not exist (has not been named), the edito
 
 </dd> </dl>
 
-![](images/f14charcut.gif)
+:::image type="icon" source="images/f14charcut.gif":::
 
 <dl> <dt>
 
@@ -54,7 +54,7 @@ Removes the selected text from the editor and places it on the Windows Clipboard
 
 </dd> </dl>
 
-![](images/f15charcopy.gif)
+:::image type="icon" source="images/f15charcopy.gif":::
 
 <dl> <dt>
 
@@ -65,7 +65,7 @@ Copies the selected text in the editor to the Windows Clipboard.
 
 </dd> </dl>
 
-![](images/f16charpaste.gif)
+:::image type="icon" source="images/f16charpaste.gif":::
 
 <dl> <dt>
 
@@ -76,7 +76,7 @@ Copies text from the current Windows Clipboard to the selected location in the T
 
 </dd> </dl>
 
-![](images/f17chardel.gif)
+:::image type="icon" source="images/f17chardel.gif":::
 
 <dl> <dt>
 
@@ -87,7 +87,7 @@ Removes the selected text from the sound editor.
 
 </dd> </dl>
 
-![](images/f18charundo.gif)
+:::image type="icon" source="images/f18charundo.gif":::
 
 <dl> <dt>
 
@@ -98,7 +98,7 @@ Removes a change made in the sound editor.
 
 </dd> </dl>
 
-![](images/f19charredo.gif)
+:::image type="icon" source="images/f19charredo.gif":::
 
 <dl> <dt>
 
@@ -109,7 +109,7 @@ Reverses an undo action in the sound editor.
 
 </dd> </dl>
 
-![](images/flistlinguist.gif)
+:::image type="icon" source="images/flistlinguist.gif":::
 
 <dl> <dt>
 
@@ -120,7 +120,7 @@ Generates phoneme and word labels for the sound file.
 
 </dd> </dl>
 
-![](images/flistpause.gif)
+:::image type="icon" source="images/flistpause.gif":::
 
 <dl> <dt>
 
@@ -131,7 +131,7 @@ Pauses playing of the sound file.
 
 </dd> </dl>
 
-![](images/flistplay.gif)
+:::image type="icon" source="images/flistplay.gif":::
 
 <dl> <dt>
 
@@ -142,7 +142,7 @@ Plays the sound file or selected portion of the sound file.
 
 </dd> </dl>
 
-![](images/fliststop.gif)
+:::image type="icon" source="images/fliststop.gif":::
 
 <dl> <dt>
 
@@ -153,7 +153,7 @@ Stops recording or playing the sound file or selected portion of the sound file.
 
 </dd> </dl>
 
-![](images/flistrecord.gif)
+:::image type="icon" source="images/flistrecord.gif":::
 
 <dl> <dt>
 

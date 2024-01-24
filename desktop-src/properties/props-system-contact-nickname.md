@@ -1,5 +1,5 @@
 ---
-Description: Nickname of the contact.
+description: Nickname of the contact.
 ms.assetid: c4470744-0f07-425e-a782-c12ec98af53d
 title: System.Contact.NickName
 ms.topic: article

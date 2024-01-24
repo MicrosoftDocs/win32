@@ -1,5 +1,5 @@
 ---
-Description: The Windows Imaging Component (WIC) is an extensible platform for digital imaging on the Windows Vista and Windows 7 operating systems.
+description: The Windows Imaging Component (WIC) is an extensible platform for digital imaging on the Windows Vista and Windows 7 operating systems.
 ms.assetid: ffcd5239-ae2d-436f-9402-8c10a79256c3
 title: Introduction (How to Write a WIC-Enabled Codec)
 ms.topic: article

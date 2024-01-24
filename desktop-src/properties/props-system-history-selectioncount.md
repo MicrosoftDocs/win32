@@ -1,5 +1,5 @@
 ---
-Description: The count of instances the user has selected the item.
+description: The count of instances the user has selected the item.
 ms.assetid: 42020071-b536-46b5-be82-d89b0653c008
 title: System.History.SelectionCount
 ms.topic: article

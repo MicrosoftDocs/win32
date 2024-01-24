@@ -49,7 +49,6 @@ For a quick reference to all this information, as well as information on Windows
 
 -   [Windows as a service](/windows/deployment/update/), for information about Windows 10 release types and app support.
 -   [Windows Insider](https://insider.windows.com/), to access preview builds, test, and provide feedback.
--   [Ready for Windows 10](https://www.readyfor10.com/), to submit your company's information to a resource for IT managers.
 
  
 

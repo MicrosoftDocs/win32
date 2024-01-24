@@ -1,5 +1,5 @@
 ---
-Description: The system file checker utility, Sfc.exe, allows administrators to scan all protected resources to verify their versions.
+description: The system file checker utility, Sfc.exe, allows administrators to scan all protected resources to verify their versions.
 ms.assetid: 72f69ad2-15d9-4191-a8aa-4c23a2392006
 title: System File Checker
 ms.topic: article

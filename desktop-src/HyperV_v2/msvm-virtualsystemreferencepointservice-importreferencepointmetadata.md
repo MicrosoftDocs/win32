@@ -1,5 +1,5 @@
 ---
-Description: Imports reference point metadata of the virtual system.
+description: Imports reference point metadata of the virtual system.
 ms.assetid: 8e32fded-cd84-4586-83c4-c23200d4698e
 title: ImportReferencePointMetadata method of the Msvm_VirtualSystemReferencePointService class
 ms.topic: reference
@@ -114,7 +114,7 @@ Returns either 0 (no error) or one of the following error messages:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

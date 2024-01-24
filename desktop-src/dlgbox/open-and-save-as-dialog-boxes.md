@@ -1,23 +1,18 @@
 ---
-title: Open and Save As Dialog Boxes
-description: The Open dialog box lets the user specify the drive, directory, and the name of a file or set of files to open.
+title: Open and Save As dialog boxes
+description: Learn to display custom Open and Save As dialog boxes in your legacy Windows app
 ms.assetid: 5676ca9d-daca-40bf-8881-def2ff841c58
-keywords:
-- Common Dialog Box Library
-- common dialog boxes
-- Open dialog box
-- Save As dialog box
-- customizing Open dialog box
-- customizing Save As dialog box
-- dialog boxes,Open
-- dialog boxes,Save As
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/10/2022
+ms.custom: project-verbatim, seo-windows-dev
 ---
 
-# Open and Save As Dialog Boxes
+# Open and Save As dialog boxes
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+> [!NOTE]
+> The [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) function is demonstrated in the [File is in use sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/fileisinuse).
+
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](../shell/common-file-dialog.md). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 The **Open** dialog box lets the user specify the drive, directory, and the name of a file or set of files to open. You create and display an **Open** dialog box by initializing an [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) structure and passing the structure to the [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) function.
 
@@ -315,6 +310,6 @@ By default, the [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-ge
 
 If you set the **OFN\_EXPLORER** flag, the system treats a hook procedure or custom template as an Explorer-style customization. For information about customizing an Explorer-style dialog box, see [Explorer-Style Custom Templates](#explorer-style-custom-templates).
 
- 
+## See also
 
- 
+* [File is in use sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/fileisinuse)

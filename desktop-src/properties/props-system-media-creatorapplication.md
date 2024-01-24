@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Media.CreatorApplication
 ms.assetid: ba60825d-1b0d-4b0c-a5ed-5dfa486eac68
 title: System.Media.CreatorApplication
 ms.topic: article

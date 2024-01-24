@@ -1,5 +1,5 @@
 ---
-Description: Specifies a reference to an uncompressed surface.
+description: Specifies a reference to an uncompressed surface.
 ms.assetid: 01F9C9F9-8EB4-49D5-91F0-89B4C40DDDC8
 title: DXVA_PicEntry_HEVC structure (Dxva.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ Accesses the entire 8 bits of the union.
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                           |

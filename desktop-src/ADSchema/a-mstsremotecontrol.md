@@ -22,7 +22,7 @@ Terminal Services Remote Control specifies whether to allow remote observation o
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Remote-Control                 |
 | Ldap-Display-Name | msTSRemoteControl                    |
@@ -45,7 +45,7 @@ Terminal Services Remote Control specifies whether to allow remote observation o
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services Remote Control specifies whether to allow remote observation o
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services Remote Control specifies whether to allow remote observation o
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

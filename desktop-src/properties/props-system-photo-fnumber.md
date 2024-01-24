@@ -1,5 +1,5 @@
 ---
-Description: The FNumber value when the photo was taken, as read from the Exchangeable Image File (EXIF) information.
+description: The FNumber value when the photo was taken, as read from the Exchangeable Image File (EXIF) information.
 ms.assetid: 914dc34d-34e9-4283-be26-203da945d3e9
 title: System.Photo.FNumber
 ms.topic: article
@@ -63,7 +63,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

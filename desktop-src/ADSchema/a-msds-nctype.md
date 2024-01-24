@@ -22,7 +22,7 @@ A bitfield that maintains information about aspects of an NC replica that is rel
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-NC-Type                        |
 | Ldap-Display-Name | msDS-NcType                          |
@@ -45,7 +45,7 @@ A bitfield that maintains information about aspects of an NC replica that is rel
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ A bitfield that maintains information about aspects of an NC replica that is rel
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ A bitfield that maintains information about aspects of an NC replica that is rel
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

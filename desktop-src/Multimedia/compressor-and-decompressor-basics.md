@@ -6,10 +6,13 @@ keywords:
 - video compression manager (VCM),opening compressors
 - VCM (video compression manager),opening compressors
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Compressor and Decompressor Basics
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 To open and locate a compressor, you can use the [**ICLocate**](/windows/desktop/api/Vfw/nf-vfw-iclocate) and [**ICOpen**](/windows/desktop/api/Vfw/nf-vfw-icopen) functions. You can use **ICLocate** to find a compressor of a specific type and to obtain a handle of it for use in other VCM functions. To open a compressor, you can use **ICOpen**. Your application uses the handle returned by this function to identify the opened compressor when it uses other VCM functions.
 

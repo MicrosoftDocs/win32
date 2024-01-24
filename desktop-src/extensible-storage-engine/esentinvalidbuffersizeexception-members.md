@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBufferSizeException members"
 title: EsentInvalidBufferSizeException members
 TOCTitle: EsentInvalidBufferSizeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidBufferSize exceptions.
 
-The [EsentInvalidBufferSizeException](dn319475\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidBufferSizeException](./esentinvalidbuffersizeexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidBufferSizeException class](dn319475\(v=exchg.10\).md)
+[EsentInvalidBufferSizeException class](./esentinvalidbuffersizeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

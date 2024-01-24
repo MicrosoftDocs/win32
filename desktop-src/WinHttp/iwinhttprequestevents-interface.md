@@ -1,5 +1,5 @@
 ---
-Description: Provides events for Microsoft Windows HTTP Services (WinHTTP).
+description: Provides events for Microsoft Windows HTTP Services (WinHTTP).
 ms.assetid: 0721d7f9-2e84-41a9-be52-89c8d638eb90
 title: IWinHttpRequestEvents interface
 ms.topic: reference
@@ -63,7 +63,7 @@ To view some code that registers for COM notifications, see the Client section o
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

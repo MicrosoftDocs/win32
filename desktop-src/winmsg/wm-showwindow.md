@@ -1,5 +1,5 @@
 ---
-Description: Sent to a window when the window is about to be hidden or shown.
+description: Sent to a window when the window is about to be hidden or shown.
 ms.assetid: dea7c9aa-eba7-4b93-a4c5-9b2d36999780
 title: WM_SHOWWINDOW message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent to a window when the window is about to be hidden or shown.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -69,7 +69,7 @@ The **WM\_SHOWWINDOW** message is not sent under the following circumstances:
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

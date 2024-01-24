@@ -1,5 +1,5 @@
 ---
-Description: Describes how to create a handler for custom icon assignments.
+description: Describes how to create a handler for custom icon assignments.
 ms.assetid: 23ed3a21-cf62-4440-b983-fae23aa56890
 title: How to Create Icon Handlers
 ms.topic: article

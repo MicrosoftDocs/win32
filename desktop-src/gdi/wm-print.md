@@ -1,5 +1,5 @@
 ---
-Description: The WM\_PRINT message is sent to a window to request that it draw itself in the specified device context, most commonly in a printer device context.
+description: The WM\_PRINT message is sent to a window to request that it draw itself in the specified device context, most commonly in a printer device context.
 ms.assetid: e6be2ecd-603a-405f-8a48-68d971e1f6de
 title: WM_PRINT message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_PRINT** message is sent to a window to request that it draw itself in the specified device context, most commonly in a printer device context.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -65,7 +65,7 @@ The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

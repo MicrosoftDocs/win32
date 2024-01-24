@@ -1,5 +1,5 @@
 ---
-Description: This topic describes what libraries are and how they can benefit users and developers.
+description: This topic describes what libraries are and how they can benefit users and developers.
 ms.assetid: D5F5FE96-11D2-4fc5-A68B-6E594C09BE20
 title: About Libraries
 ms.topic: article

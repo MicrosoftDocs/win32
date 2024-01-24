@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the media file has been disabled by DRM.
+description: Indicates whether the media file has been disabled by DRM.
 ms.assetid: e914eb0e-fef6-44e9-9d4c-06989027eec4
 title: System.DRM.IsDisabled
 ms.topic: article

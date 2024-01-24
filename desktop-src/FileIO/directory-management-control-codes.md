@@ -1,5 +1,5 @@
 ---
-Description: Control codes used with file compression and decompression and with reparse points.
+description: Control codes used with file compression and decompression and with reparse points.
 ms.assetid: e2e671c7-ef65-4401-8016-649e86f84fec
 title: Directory Management Control Codes
 ms.topic: article

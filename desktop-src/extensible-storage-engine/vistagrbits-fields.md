@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaGrbits fields"
 title: VistaGrbits fields (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaGrbits fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [VistaGrbits](dn335350\(v=exchg.10\).md) type exposes the following members.
+The [VistaGrbits](./vistagrbits-class.md) type exposes the following members.
 
 ## Fields
 
@@ -81,7 +82,6 @@ Top
 
 #### Reference
 
-[VistaGrbits class](dn335350\(v=exchg.10\).md)
+[VistaGrbits class](./vistagrbits-class.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

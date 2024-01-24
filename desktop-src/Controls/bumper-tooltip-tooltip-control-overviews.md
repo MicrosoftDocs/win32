@@ -1,6 +1,6 @@
 ---
 title: Tooltip Control Overview
-description: .
+description: Tooltip Control Overview
 ms.assetid: 686455f6-9c72-433e-a1ee-60a83c49ee6e
 ms.topic: article
 ms.date: 05/31/2018

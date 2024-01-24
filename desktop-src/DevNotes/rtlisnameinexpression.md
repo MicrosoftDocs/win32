@@ -1,5 +1,5 @@
 ---
-Description: Determines whether a Unicode string matches the specified pattern.
+description: Determines whether a Unicode string matches the specified pattern.
 ms.assetid: 9b220cb8-4402-4094-8209-59a9af004b4a
 title: RtlIsNameInExpression function
 ms.topic: reference
@@ -77,7 +77,7 @@ This function has no associated header file. The associated import library, Ntdl
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |

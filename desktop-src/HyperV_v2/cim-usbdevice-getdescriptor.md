@@ -1,5 +1,5 @@
 ---
-Description: Returns the USBDevice descriptor as specified by the input parameters.
+description: Returns the USBDevice descriptor as specified by the input parameters.
 ms.assetid: 89bb8a49-6fca-422c-808d-70ae77aae4c3
 title: GetDescriptor method of the CIM_USBDevice class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# GetDescriptor method of the CIM\_USBDevice class
+# GetDescriptor method of the CIM_USBDevice class (Hyper-V management)
 
 Returns the USBDevice descriptor as specified by the input parameters.
 
@@ -81,7 +81,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

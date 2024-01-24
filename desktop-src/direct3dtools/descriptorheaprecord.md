@@ -1,5 +1,5 @@
 ---
-Description: Represents descriptor heap information.
+description: Represents descriptor heap information.
 MS-HAID: vspixengine.DescriptorHeapRecord
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -38,7 +38,7 @@ An array of descriptor heap information indexed by using the DESCRIPTOR\_HEAP\_C
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

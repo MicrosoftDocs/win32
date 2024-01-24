@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for registry events. The following syntax is simplified from MOF code.
+description: Registry_V0 class - This class is the parent class for registry events. The following syntax is simplified from MOF code.
 ms.assetid: 879ac606-f451-4d5d-bf78-3e7fd3093189
 title: Registry_V0 class
 ms.topic: reference
@@ -37,7 +37,7 @@ The **Registry\_V0** class does not define any members.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

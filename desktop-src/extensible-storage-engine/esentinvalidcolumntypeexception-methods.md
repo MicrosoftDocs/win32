@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnTypeException methods"
 title: EsentInvalidColumnTypeException methods
 TOCTitle: EsentInvalidColumnTypeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidColumnTypeException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidColumnTypeException](dn319454\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidColumnTypeException](./esentinvalidcolumntypeexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidColumnTypeException class](dn319454\(v=exchg.10\).md)
+[EsentInvalidColumnTypeException class](./esentinvalidcolumntypeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

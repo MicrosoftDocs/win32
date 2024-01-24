@@ -1,12 +1,15 @@
 ---
-Description: Specifies the high-level cut when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
+description: Specifies the high-level cut when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
 ms.assetid: 8771a5f9-878b-43fd-8eaa-0bfc276194aa
 title: AVDecDDDynamicRangeScaleHigh property (Codecapi.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # AVDecDDDynamicRangeScaleHigh property
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Specifies the high-level cut when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
 
@@ -43,7 +46,7 @@ This property applies only when the value of the [**AVDecDDOperationalMode**](av
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

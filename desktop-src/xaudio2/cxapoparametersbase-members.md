@@ -1,5 +1,5 @@
 ---
-Description: Shows the members of the CXAPOParametersBase class.
+description: Shows the members of the CXAPOParametersBase class.
 ms.assetid: C2113358-07DE-426E-AF26-BD8ED9902192
 title: CXAPOParametersBase Members
 ms.topic: article
@@ -14,7 +14,7 @@ Shows the members of the [**CXAPOParametersBase**](/windows/desktop/api/XAPOBase
 
 
 
-|                                                    |                                                                         |
+|    Constructor                                                |     Description                                                                    |
 |----------------------------------------------------|-------------------------------------------------------------------------|
 | [**CXAPOParametersBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapoparametersbase) | Constructs a [**CXAPOParametersBase**](/windows/desktop/api/XAPOBase/nl-xapobase-cxapoparametersbase) object. |
 
@@ -26,7 +26,7 @@ Shows the members of the [**CXAPOParametersBase**](/windows/desktop/api/XAPOBase
 
 
 
-|                                                                                                                              |                                                                                                                                                                  |
+|        Method                                                                                                                      |     Description                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddRef**](/previous-versions/windows/desktop/legacy/ee418448(v=vs.85)) (inherited from [**IXAPO**](/windows/desktop/api/XAPO/nn-xapo-ixapo))                                         | Increments the XAPO object's reference count.<br/>                                                                                                         |
 | [**BeginProcess**](/windows/win32/api/xapobase/nf-xapobase-cxapoparametersbase-beginprocess)                                                                     | Returns the current process parameters. <br/>                                                                                                              |

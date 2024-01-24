@@ -21,7 +21,7 @@ Contains an integer that uniquely identifies a user in an administrative domain.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | uidNumber                            |
 | Ldap-Display-Name | uidNumber                            |
@@ -45,7 +45,7 @@ Contains an integer that uniquely identifies a user in an administrative domain.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -66,7 +66,7 @@ Contains an integer that uniquely identifies a user in an administrative domain.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -87,7 +87,7 @@ Contains an integer that uniquely identifies a user in an administrative domain.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -108,7 +108,7 @@ Contains an integer that uniquely identifies a user in an administrative domain.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |

@@ -22,7 +22,7 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Mastered-By                             |
 | Ldap-Display-Name | masteredBy                              |
@@ -49,7 +49,7 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 77                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 77                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 77                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 77                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 77                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 77                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ Backward link for Has-Master-NCs attribute. The distinguished name for its NTDS 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 77                              |
 | MAPI-Id                | \-                              |

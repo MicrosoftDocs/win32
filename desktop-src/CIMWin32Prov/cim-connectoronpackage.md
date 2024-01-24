@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ConnectorOnPackage class represents an association that makes explicit the containment relationship between connectors and packages. Physical packages contain connectors as well as other physical elements.
+description: The CIM\_ConnectorOnPackage class represents an association that makes explicit the containment relationship between connectors and packages. Physical packages contain connectors as well as other physical elements.
 ms.assetid: 67cfb8c7-b952-452c-aeb4-0f06b2b0570b
 ms.tgt_platform: multiple
 title: CIM_ConnectorOnPackage class
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

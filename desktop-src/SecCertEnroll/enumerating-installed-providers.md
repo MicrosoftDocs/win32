@@ -1,5 +1,5 @@
 ---
-Description: The following example shows how to use the Certificate Enrollment API to enumerate the providers installed on a computer.
+description: The following example shows how to use the Certificate Enrollment API to enumerate the providers installed on a computer.
 ms.assetid: d7fa03d5-775c-41f3-9fef-8929bd25ed92
 title: Enumerating Installed Providers
 ms.topic: article

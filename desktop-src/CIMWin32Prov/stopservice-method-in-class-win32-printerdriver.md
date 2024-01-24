@@ -1,5 +1,5 @@
 ---
-Description: Places the service represented by the Win32\_PrinterDriver object in the stopped state.
+description: Places the service represented by the Win32\_PrinterDriver object in the stopped state.
 ms.assetid: 0e730fe6-ff9f-4866-a255-be6d372f2d7d
 ms.tgt_platform: multiple
 title: StopService method of the Win32_PrinterDriver class (Sdoias.h)
@@ -59,7 +59,7 @@ Request not supported.
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

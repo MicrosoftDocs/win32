@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_RANGE constructor"
 title: JET_INDEX_RANGE constructor  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JET_INDEX_RANGE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_INDEX_RANGE constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_INDEX_RANGE()
 
 #### Reference
 
-[JET_INDEX_RANGE class](dn335481\(v=exchg.10\).md)
+[JET_INDEX_RANGE class](./jet-index-range-class.md)
 
-[JET_INDEX_RANGE members](dn335359\(v=exchg.10\).md)
+[JET_INDEX_RANGE members](./jet-index-range-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

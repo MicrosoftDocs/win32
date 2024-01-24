@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the FillPie methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the FillPie methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: e6de6634-b87f-4fe9-a0d4-ffeea0e0ae8b
 title: Graphics.FillPie methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
@@ -27,7 +27,7 @@ This topic lists the FillPie methods of the [**Graphics**](/windows/win32/api/gd
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

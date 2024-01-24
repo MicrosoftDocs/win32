@@ -1,5 +1,5 @@
 ---
-Description: If you choose to do so, your application can provide its own recognizer implementations. This section describes the requirements for creating a custom application recognizer for your application that you can use with the Tablet PC Platform API.
+description: If you choose to do so, your application can provide its own recognizer implementations. This section describes the requirements for creating a custom application recognizer for your application that you can use with the Tablet PC Platform API.
 ms.assetid: 502ef3fb-ba45-4f8b-bbd5-19c24e313439
 title: Creating a Recognizer
 ms.topic: article

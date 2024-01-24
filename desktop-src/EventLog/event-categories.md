@@ -1,5 +1,5 @@
 ---
-Description: Categories help you organize events so Event Viewer can filter them. Each event source can define its own numbered categories and the text strings to which they are mapped.
+description: Categories help you organize events so Event Viewer can filter them. Each event source can define its own numbered categories and the text strings to which they are mapped.
 ms.assetid: ddba8066-b6b9-42a6-b49f-cbae8f97ef6d
 title: Event Categories
 ms.topic: article

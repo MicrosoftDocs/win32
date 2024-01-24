@@ -1,5 +1,5 @@
 ---
-Description: Input Method Manager Reference
+description: Input Method Manager Reference
 ms.assetid: 28e0c84e-febd-454b-bd9c-b6446d2b001a
 title: Input Method Manager Reference
 ms.topic: article

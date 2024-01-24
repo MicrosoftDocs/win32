@@ -1,5 +1,5 @@
 ---
-Description: Returns a Boolean value that indicates whether the private key is protected.
+description: Returns a Boolean value that indicates whether the private key is protected.
 ms.assetid: 6a329581-0ff8-45fa-9997-5fcf043287cb
 title: PrivateKey.IsProtected method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # PrivateKey.IsProtected method
 
-\[The **IsProtected** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **IsProtected** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **IsProtected** method returns a Boolean value that indicates whether the private key is protected.
 
@@ -46,7 +46,7 @@ The return value of this method is dependent on the [*cryptographic service prov
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

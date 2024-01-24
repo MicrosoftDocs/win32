@@ -1,5 +1,5 @@
 ---
-Description: Manages metrics for managed elements.
+description: Manages metrics for managed elements.
 ms.assetid: df249d0c-960b-47d6-9590-f0fd08ddec18
 title: CIM_MetricService class
 ms.topic: reference
@@ -57,7 +57,7 @@ The **CIM\_MetricService** class has these methods.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

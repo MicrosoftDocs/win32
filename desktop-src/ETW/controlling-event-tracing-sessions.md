@@ -1,5 +1,5 @@
 ---
-Description: Event tracing sessions record events from one or more providers.
+description: Event tracing sessions record events from one or more providers.
 ms.assetid: 43841d2f-5a4c-493d-9531-21941311ffbc
 title: Controlling Event Tracing Sessions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Each of the following sections discusses a function exported by Xenroll.dll. Each section also discusses how to use CertEnroll.dll to replace the function or indicates that no mapping between the two libraries exists.
+description: Each of the following sections discusses a function exported by Xenroll.dll. Each section also discusses how to use CertEnroll.dll to replace the function or indicates that no mapping between the two libraries exists.
 ms.assetid: 06d8dd6f-7a8d-4da5-a99d-9c9d8fb90cfa
 title: Helper Functions (Certificate Enrollment API)
 ms.topic: article

@@ -34,7 +34,7 @@ The following table describes the property values.
 
 
 
-|                           |                                 |
+|     Value                 |  Description                    |
 |---------------------------|---------------------------------|
 | `UI_FONTDELTASIZE_GROW`   | **Grow font** button clicked.   |
 | `UI_FONTDELTASIZE_SHRINK` | **Shrink font** button clicked. |

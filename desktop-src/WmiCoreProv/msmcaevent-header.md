@@ -1,5 +1,5 @@
 ---
-Description: Represents the common header that all MSMCAEvent classes use. This class is available only in 64-bit Windows systems.
+description: Represents the common header that all MSMCAEvent classes use. This class is available only in 64-bit Windows systems.
 ms.assetid: ff20522c-f805-47dc-bef2-4176211de698
 title: MSMCAEvent_Header class
 ms.topic: reference
@@ -149,7 +149,7 @@ Type of event log message. These messages correspond to the event log message co
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

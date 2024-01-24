@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.
+description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.
 ms.assetid: a9648287-65d9-47d8-b32b-33f74b4fcd07
 title: Metafile.Metafile constructors
 ms.date: 07/02/2019

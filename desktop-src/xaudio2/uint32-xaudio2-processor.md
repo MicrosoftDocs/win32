@@ -1,5 +1,5 @@
 ---
-Description: Defines values to use with XAudio2Create to specify available processors.
+description: Defines values to use with XAudio2Create to specify available processors.
 ms.assetid: 29E67C0A-36EB-47B2-8708-36EC733D0D37
 title: XAUDIO2_PROCESSOR (Xaudio2.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Xaudio2.h</dt> </dl> |
 

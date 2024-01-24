@@ -1,5 +1,5 @@
 ---
-Description: Controls the luminance and brightness controls of an overlay surface.
+description: Controls the luminance and brightness controls of an overlay surface.
 ms.assetid: 2f617c89-5505-4d84-be7d-473b216c0571
 title: NtGdiDdColorControl function (Ntgdi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to a [**DD\_COLORCONTROLDATA**](/windows/win32/api/ddrawint/ns-ddrawint-
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

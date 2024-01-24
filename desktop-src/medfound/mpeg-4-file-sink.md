@@ -1,5 +1,5 @@
 ---
-Description: The MPEG-4 file sink creates MP4 files.
+description: The MPEG-4 file sink creates MP4 files.
 ms.assetid: 069b8e72-d081-466e-ac8d-c3f81c8a6f35
 title: MPEG-4 File Sink
 ms.topic: reference
@@ -67,7 +67,7 @@ The MPEG-4 file sink has the following requirements for AVC bitstreams:
 
 -   The bitstream must conform to the H.264 Annex B format specification. In particular, NALUs must be delimited with either 3-byte or 4-byte start codes.
 -   Media samples must contain all slice and data NALUs that correspond to a single presentation time.
--   The MPEG-4 file sink does not support content that has B frames.
+-   When writing B-frames into an MP4 file, you must set both the presentation time stamp and the decode time stamp. If stream has a B frame and the decode timestamp is not set, the MP4 writer will see the frame time going backwards and will drop the frame. 
 
 ## AAC Audio
 
@@ -118,7 +118,7 @@ The MPEG-4 file sink creates the MPEG-4 variant of the MP3 sample description bo
 
 -   Furigana metadata support added in Windows 8 MPEG-4 source.
 
-    MPEG-4 source reads Furigana metadata from ’soal’, ‘soar’, ‘soaa’, ‘sonm’, and ‘soco’. IPropertyStore reads Furignana metadata through the set of corresponding PKEYs.
+    MPEG-4 source reads Furigana metadata from ’soal’, ‘soar’, ‘soaa’, ‘sonm’, and ‘soco’. IPropertyStore reads Furigana metadata through the set of corresponding PKEYs.
 
     The following table shows the mapping between the shell canonical name, the property key, and the box/tag ID in MPEG-4 file format.
 
@@ -165,7 +165,7 @@ The MPEG-4 file sink creates the MPEG-4 variant of the MP3 sample description bo
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

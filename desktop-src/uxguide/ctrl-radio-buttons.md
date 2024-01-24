@@ -3,10 +3,13 @@ title: Radio Buttons
 description: With a radio button, users make a choice among a set of mutually exclusive, related options.
 ms.assetid: f9af0a8a-d4a1-464c-a967-bab88ae0726b
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Radio Buttons
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a radio button, users make a choice among a set of mutually exclusive, related options. Users can choose one and only one option. Radio buttons are so called because they function like the channel presets on radios.
 

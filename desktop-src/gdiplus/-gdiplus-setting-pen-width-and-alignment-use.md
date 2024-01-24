@@ -1,5 +1,5 @@
 ---
-Description: When you create a Pen object, you can supply the pen width as one of the arguments to the constructor. You can also change the pen width by using the Pen::SetWidth method.
+description: When you create a Pen object, you can supply the pen width as one of the arguments to the constructor. You can also change the pen width by using the Pen::SetWidth method.
 ms.assetid: b529ba0b-1786-4925-88bd-1a8369fc368c
 title: Setting Pen Width and Alignment
 ms.topic: article

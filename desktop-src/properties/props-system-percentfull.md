@@ -1,5 +1,5 @@
 ---
-Description: The amount of space filled, as a percentage.
+description: The amount of space filled, as a percentage.
 ms.assetid: ea17d252-61ba-4c87-8568-af06cf64023a
 title: System.PercentFull
 ms.topic: article

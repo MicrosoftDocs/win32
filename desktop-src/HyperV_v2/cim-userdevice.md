@@ -1,5 +1,5 @@
 ---
-Description: Represents a logical device that allows a user to input, view or hear data on the computer system.
+description: Represents a logical device that allows a user to input, view or hear data on the computer system.
 ms.assetid: 95f88a63-3a2a-4b8c-9849-564dac254933
 title: CIM_UserDevice class (Hyper-V management)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_UserDevice class
+# CIM_UserDevice class (Hyper-V management)
 
 Represents a logical device that allows a user to input, view or hear data on the computer system.
 
@@ -59,7 +59,7 @@ Access type: Read-only
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

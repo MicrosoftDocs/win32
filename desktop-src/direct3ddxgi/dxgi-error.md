@@ -1,5 +1,5 @@
 ---
-Description: Error codes that can be returned by a DXGI function.
+description: Error codes that can be returned by a DXGI function.
 ms.assetid: 9aa7dd65-6bf9-4731-8085-a9eab4224cdd
 title: DXGI_ERROR (Winerror.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ For example, **DXGI\_ERROR\_INVALID\_CALL** is defined as **0x887A0001**:
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winerror.h</dt> </dl> |
 

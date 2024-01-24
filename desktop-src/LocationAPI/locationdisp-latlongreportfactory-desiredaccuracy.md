@@ -1,5 +1,5 @@
 ---
-Description: The current desired-accuracy value.
+description: LocationDisp.LatLongReportFactory.DesiredAccuracy property - The current desired-accuracy value.
 ms.assetid: dfad833b-bb0c-4c66-9942-da10abee5381
 title: LocationDisp.LatLongReportFactory.DesiredAccuracy property
 ms.topic: reference
@@ -55,7 +55,7 @@ This value is a request to the location provider. The location provider is not r
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

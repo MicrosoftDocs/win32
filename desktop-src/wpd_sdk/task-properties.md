@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following task properties.
+description: Windows Portable Devices supports the following task properties.
 ms.assetid: 9bd6c2e1-740a-453d-b390-120700af7c93
 title: Task Properties (PortableDevice.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Windows Portable Devices supports the following task properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

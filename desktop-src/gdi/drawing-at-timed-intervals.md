@@ -1,5 +1,5 @@
 ---
-Description: You can draw at timed intervals by creating a timer with the SetTimer function.
+description: You can draw at timed intervals by creating a timer with the SetTimer function.
 ms.assetid: 82f9aa5e-8e42-49cf-bcd0-785bc78fe159
 title: Drawing at Timed Intervals
 ms.topic: article
@@ -56,7 +56,7 @@ LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
             { 
                 case SIZE_MINIMIZED: 
  
-                    / Stop the timer if the window is minimized. 
+                    // Stop the timer if the window is minimized. 
  
                     KillTimer(hwnd, 1); 
                     idTimer = -1; 

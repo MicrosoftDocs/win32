@@ -1,5 +1,5 @@
 ---
-Description: About the Windows Core Audio APIs
+description: About the Windows Core Audio APIs
 ms.assetid: 657cf75f-3d72-4a5f-ae29-299e826b2b86
 title: About the Windows Core Audio APIs
 ms.topic: article
@@ -10,10 +10,10 @@ ms.date: 05/31/2018
 
 This documentation provides information about Core Audio APIs for the Microsoft Windows family of operating systems.
 
-The Core Audio APIs were introduced in Windows Vista. This is a new set of user-mode audio components provides client applications with improved audio capabilities. These capabilities include the following:
+The Core Audio APIs were introduced in Windows Vista. This new set of user-mode audio components provide client applications with improved audio capabilities. These capabilities include the following:
 
 -   Low-latency, glitch-resilient audio streaming.
--   Improved reliability (many audio functions have moved from kernel mode to user mode).
+-   Improved reliability (many audio functions have moved from kernel-mode to user-mode).
 -   Improved security (processing of protected audio content takes place in a secure, lower-privilege process).
 -   Assignment of particular system-wide roles (console, multimedia, and communications) to individual audio devices.
 -   Software abstraction of the audio endpoint devices (for example, speakers, headphones, and microphones) that the user manipulates directly.
@@ -68,7 +68,7 @@ This overview contains the following topics.
 | [What's New for Core Audio APIs in Windows 7](what-s-new-for-core-audio-apis-in-windows-7.md) | Summarizes the new features and the improvements to the Core Audio APIs                   |
 | [Header Files and System Components](header-files-and-system-components.md)                   | Describes the header files and system components for the Core Audio APIs.                 |
 | [SDK Samples That Use the Core Audio APIs](sdk-samples-that-use-the-core-audio-apis.md)       | Lists the samples in the Windows SDK that use the Core Audio APIs.                        |
-| [For More Information](for-more-information.md)                                               | Refers to online resources that provide additional information about the Core Audio APIs. |
+
 
 
 

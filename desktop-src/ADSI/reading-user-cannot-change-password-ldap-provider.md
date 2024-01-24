@@ -1,6 +1,6 @@
 ---
 title: Reading User Cannot Change Password (LDAP Provider)
-description: The ability of a user to change their password is a permission that can be granted or denied.
+description: Learn how to determine if a user has permission to change a password for LDAP Provider. The ability of a user to change a password can be granted or denied.
 ms.assetid: d0d95d20-dcdb-453a-9d15-c386217927c8
 ms.tgt_platform: multiple
 keywords:

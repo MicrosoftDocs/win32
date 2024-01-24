@@ -51,13 +51,13 @@ This element (defined by the [**logonType**](taskschedulerschema-logontype-simpl
 -   Password: User must log on using a password.
 -   InteractiveToken: User must already be logged on. The task will be run only in an existing interactive session.
 
-For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type. To set the task logon type to be interactive, specify **InteractiveToken** in the **<LogonType>** element of the task principal.
+For a task, that contains a message box action, the message box will be displayed if the task is activated and the task has an interactive logon type. To set the task logon type to be interactive, specify **InteractiveToken** in the **&lt;LogonType&gt;** element of the task principal.
 
 ## Requirements
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

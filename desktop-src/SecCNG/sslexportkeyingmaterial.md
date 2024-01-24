@@ -1,5 +1,5 @@
 ---
-Description: Exports keying material per the RFC 5705 standard.
+description: Exports keying material per the RFC 5705 standard.
 ms.assetid: 19624852-B1A6-4BB4-96AF-0457834DA294
 title: SslExportKeyingMaterial function (Sslprovider.h)
 ms.topic: reference
@@ -135,7 +135,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                     |

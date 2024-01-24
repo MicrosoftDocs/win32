@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseAlreadyRunningMaintenanceException members"
 title: EsentDatabaseAlreadyRunningMaintenanceException members
 TOCTitle: EsentDatabaseAlreadyRunningMaintenanceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyRunningMaintenanceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseAlreadyRunningMaintenance exceptions.
 
-The [EsentDatabaseAlreadyRunningMaintenanceException](dn334266\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseAlreadyRunningMaintenanceException](./esentdatabasealreadyrunningmaintenanceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseAlreadyRunningMaintenanceException class](dn334266\(v=exchg.10\).md)
+[EsentDatabaseAlreadyRunningMaintenanceException class](./esentdatabasealreadyrunningmaintenanceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

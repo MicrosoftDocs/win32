@@ -1,5 +1,5 @@
 ---
-Description: Contains the coordinates of the display in the International Commission on Illumination (CIE) XYZ color space.
+description: Contains the coordinates of the display in the International Commission on Illumination (CIE) XYZ color space.
 ms.assetid: e44e8a5f-005d-4d58-84e3-135d4e396086
 title: XYZinCIE class
 ms.topic: reference
@@ -79,7 +79,7 @@ To calculate the z-coordinate, based on the x and y values, use the relation \|\
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O operations in the current process, regardless of which thread created the I/O operation.
+description: Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O operations in the current process, regardless of which thread created the I/O operation.
 ms.assetid: a2ce13b8-7da6-4848-848d-901d9667c2e3
 title: CancelIoEx function (IoAPI.h)
 ms.topic: reference
@@ -100,7 +100,7 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 
 
-|                                     |                                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                             |

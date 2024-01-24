@@ -1,12 +1,15 @@
 ---
-Description: H.264 Video Types
+description: H.264 Video Types
 ms.assetid: aa3166b2-6b04-44fa-bc9d-c8ff46f99201
 title: H.264 Video Types
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # H.264 Video Types
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following media subtypes are defined for H.264 video.
 
@@ -36,7 +39,7 @@ When start codes are present in the bitstream, the following media type is used:
 
 
 
-|             |                                                                                                   |
+| Label | Value |
 |-------------|---------------------------------------------------------------------------------------------------|
 | Major type  | **MEDIATYPE\_Video**                                                                              |
 | Subtypes    | **MEDIASUBTYPE\_H264**, **MEDIASUBTYPE\_h264**, **MEDIASUBTYPE\_X264**, or **MEDIASUBTYPE\_x264** |
@@ -60,7 +63,7 @@ When start codes are not present in the bitstream, the following media type is u
 
 
 
-|             |                        |
+| Label | Value |
 |-------------|------------------------|
 | Major type  | **MEDIATYPE\_Video**   |
 | Subtype     | **MEDIASUBTYPE\_AVC1** |

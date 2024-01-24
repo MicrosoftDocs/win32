@@ -1,5 +1,5 @@
 ---
-Description: If the generic host and client can see each other on the network but the actual host and client cannot, it is likely that the problem is in the messages sent between the endpoints over the network.
+description: If the generic host and client can see each other on the network but the actual host and client cannot, it is likely that the problem is in the messages sent between the endpoints over the network.
 ms.assetid: 1b0943fb-076e-4feb-9a4f-36a06bdd19ae
 title: Using WSD Debug Client to Verify Multicast Traffic
 ms.topic: article
@@ -31,7 +31,7 @@ Always verify that [Probe](probe-message.md) messages are being multicast. Optio
 
 Messages must be triggered in order to be sent as described in step 3 above. The WSD Debug Client displays the raw SOAP message as output. Because all messages printed by WSD Debug Client in multicast mode are received over a multicast socket, the message destination address is not displayed.
 
-The following sample WSD Debug Client output shows a Probe message. The <wsa:Action> element identifies the message as a Probe message. Inspect the <wsa:Action> field to verify that the received message was a Probe message.
+The following sample WSD Debug Client output shows a Probe message. The \<wsa:Action> element identifies the message as a Probe message. Inspect the \<wsa:Action> field to verify that the received message was a Probe message.
 
 ``` syntax
 UDP message at 05/08/07 10:06:55 from soap.udp://[127.0.0.1:49334]
@@ -46,7 +46,7 @@ ap:Header><soap:Body><wsd:Probe><wsd:Types>wsdp:Device</wsd:Types></wsd:Probe></
 soap:Body></soap:Envelope>
 ```
 
-The following sample WSD Debug Client output shows a Hello message. The <wsa:Action> element identifies the message as a Hello message.
+The following sample WSD Debug Client output shows a Hello message. The \<wsa:Action> element identifies the message as a Hello message.
 
 ``` syntax
 UDP message at 05/08/07 10:10:49 from soap.udp://[[::1]:49343]
@@ -74,9 +74,9 @@ There are two ways to filter results. The IP addresses to filter can be explicit
 
 1.  Configure the host and client to run across the network (that is, make sure that the host and client will operate on different machines).
 2.  Collect the IP address(es) of the device. If the device has multiple addresses (for example, it has both IPv4 and IPv6 addresses) all addresses must be collected.
-3.  Open a command prompt and run the following command: **WSDDebug\_client.exe /mode multicast /ip add** *<device IP>*
+3.  Open a command prompt and run the following command: **WSDDebug\_client.exe /mode multicast /ip add** *\<device IP>*
 
-*<device IP>* is an IP address. The following list shows some sample formats for this IP address.
+*\<device IP>* is an IP address. The following list shows some sample formats for this IP address.
 
 -   192.168.0.1
 -   ::1
@@ -89,7 +89,7 @@ The WSD Debug Client automatically resolves hostnames supplied at the command pr
 1.  Configure the host and client to run across the network (that is, make sure that the host and client will operate on different machines).
 2.  Collect the IP address(es) of the device. If the device has multiple addresses (for example, it has both IPv4 and IPv6 addresses) all addresses must be collected.
 3.  Open a command prompt and run the following command: **WSDDebug\_client.exe /mode multicast**
-4.  At the WSD Debug Client command prompt, run the following command: **ip add** *<device IP>*
+4.  At the WSD Debug Client command prompt, run the following command: **ip add** *\<device IP>*
 5.  Repeat step 4 until all device IP addresses have been added.
 
 The following procedure assumes that the WSD Debug Client has been started and filtering by IP address is occurring.

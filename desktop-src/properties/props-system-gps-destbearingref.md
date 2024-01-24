@@ -1,5 +1,5 @@
 ---
-Description: Indicates the reference used for giving the bearing to the destination point (for example,true direction, magnetic direction).
+description: Indicates the reference used for giving the bearing to the destination point (for example,true direction, magnetic direction).
 ms.assetid: d0dda2fb-6a9c-471a-a92a-1fba06815065
 title: System.GPS.DestBearingRef
 ms.topic: article

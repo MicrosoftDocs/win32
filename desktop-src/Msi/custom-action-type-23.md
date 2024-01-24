@@ -1,5 +1,5 @@
 ---
-Description: Developers of Windows Installer packages may choose to use a custom action type 23 when the standard actions are insufficient to execute the installation.
+description: Developers of Windows Installer packages may choose to use a custom action type 23 when the standard actions are insufficient to execute the installation.
 ms.assetid: 8219f157-585d-4733-8e10-c05813b398ba
 title: Custom Action Type 23
 ms.topic: article

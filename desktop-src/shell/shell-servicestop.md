@@ -1,5 +1,5 @@
 ---
-Description: Stops a named service.
+description: Shell.ServiceStop method - Stops a named service.
 ms.assetid: AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947
 title: Shell.ServiceStop method (Shldisp.h)
 ms.topic: reference
@@ -129,7 +129,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

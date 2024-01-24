@@ -1,5 +1,5 @@
 ---
-Description: Lists and explains the responsibilities of Winlogon.
+description: Lists and explains the responsibilities of Winlogon.
 ms.assetid: 5aef4164-11bd-4acc-b851-de982e35d2b5
 title: Responsibilities of Winlogon
 ms.topic: article

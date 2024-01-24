@@ -1,5 +1,5 @@
 ---
-Description: Configuration Overview
+description: Configuration Overview
 ms.assetid: 5cdc21a1-ff55-4c36-8106-b045256778ce
 title: Configuration Overview
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Configuration Overview
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 If you are unfamiliar with the objects that are defined by VDS, see the [VDS Object Model](vds-object-model.md).
 

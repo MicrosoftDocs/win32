@@ -1,5 +1,5 @@
 ---
-Description: The AttachPropertyInstance function maps an existing property to a specific location in the recognized data.
+description: The AttachPropertyInstance function maps an existing property to a specific location in the recognized data.
 ms.assetid: b44cf8d1-939b-45da-8a9a-b4bdcf9faf43
 title: AttachPropertyInstance function (Netmon.h)
 ms.topic: reference
@@ -132,7 +132,7 @@ During the implementation of [**AttachProperties**](attachproperties.md), call *
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

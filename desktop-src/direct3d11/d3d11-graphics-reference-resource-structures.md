@@ -8,11 +8,10 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Resource Structures
+# Resource Structures (Direct3D 11 Graphics)
 
 Structures are used to create and use resources.
 
-## 
 
 ## In this section
 

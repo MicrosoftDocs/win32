@@ -1,5 +1,5 @@
 ---
-Description: Used in the QueryGuestClusterInformation method in the Msvm\_VssService class to retrieve information about the guest cluster the VM is part of.
+description: Used in the QueryGuestClusterInformation method in the Msvm\_VssService class to retrieve information about the guest cluster the VM is part of.
 ms.assetid: c484b38d-9137-44da-a368-a2a673b94ef8
 title: Msvm_GuestClusterInformation class
 ms.topic: reference
@@ -204,7 +204,7 @@ An array of Resource Allocation Setting Data (RASD) representing the shared virt
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

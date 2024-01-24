@@ -1,5 +1,5 @@
 ---
-Description: The Connect method connects the NPP to the network by using a specified NIC and provides configuration information for the connection.
+description: IRTC::Connect method - The Connect method connects the NPP to the network by using a specified NIC and provides configuration information for the connection.
 ms.assetid: d017c2a3-a832-4084-b21b-0cca428c5360
 title: IRTC::Connect method (Netmon.h)
 ms.topic: reference
@@ -125,7 +125,7 @@ The error BLOB returned in *hErrorBlob* contains error information that the deve
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Links to documentation for the IAzApplication3 interoperability wrapper methods and properties.
+description: Links to documentation for the IAzApplication3 interoperability wrapper methods and properties.
 ms.assetid: f0e3c2b8-6b39-4436-b538-7e73c5a3a012
 title: Microsoft.Interop.Security.AzRoles.IAzApplication3 interface
 ms.topic: reference
@@ -316,7 +316,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzApplication3** interface has these p
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

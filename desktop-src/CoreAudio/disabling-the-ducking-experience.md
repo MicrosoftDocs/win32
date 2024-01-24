@@ -1,5 +1,5 @@
 ---
-Description: A user can disable the Default Ducking Experience provided by the system by using the options that are available on the Communications tab of the Windows multimedia control panel, Mmsys.cpl.
+description: A user can disable the Default Ducking Experience provided by the system by using the options that are available on the Communications tab of the Windows multimedia control panel, Mmsys.cpl.
 ms.assetid: 5604b927-99f8-450f-a48c-b38d782584de
 title: Disabling the Default Ducking Experience
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The REBOOT property suppresses certain prompts for a restart of the system.
+description: The REBOOT property suppresses certain prompts for a restart of the system.
 ms.assetid: 'd88752cd-f59d-4214-b5b5-ce126500aa4e'
 title: REBOOT property
 ms.topic: article
@@ -34,7 +34,7 @@ The installer only evaluates the first character of the **REBOOT** property.
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

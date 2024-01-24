@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for disk I/O flush events. The following syntax is simplified from MOF code.
+description: This class is the event type class for disk I/O flush events. The following syntax is simplified from MOF code.
 ms.assetid: 7f0c9bd4-e4d3-49c1-ae72-f6bdf938099f
 title: DiskIo_TypeGroup3 class
 ms.topic: reference
@@ -181,7 +181,7 @@ The identifier of the issuing thread.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

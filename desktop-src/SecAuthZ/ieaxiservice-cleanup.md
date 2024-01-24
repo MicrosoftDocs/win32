@@ -1,5 +1,5 @@
 ---
-Description: Frees resources used by the IeAxiService interface.
+description: Frees resources used by the IeAxiService interface.
 ms.assetid: 11f5cfdc-dcdd-4b41-b02c-b19b9452509e
 title: IeAxiService::Cleanup method
 ms.topic: reference
@@ -41,7 +41,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |

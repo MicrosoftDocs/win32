@@ -1,5 +1,5 @@
 ---
-Description: If you are using the COM API for WMI to retrieve or store localized class information, specify the locale in the strLocale parameter to the IWbemLocator::ConnectServer interface.
+description: If you are using the COM API for WMI to retrieve or store localized class information, specify the locale in the strLocale parameter to the IWbemLocator::ConnectServer interface.
 ms.assetid: 940a7bd9-c2ea-4deb-b5d8-207a0ce7a616
 ms.tgt_platform: multiple
 title: Retrieving Amended Classes Using the COM API for WMI

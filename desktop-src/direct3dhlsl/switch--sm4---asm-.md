@@ -12,7 +12,7 @@ Transfers control to a different statement block within the switch body dependin
 
 
 
-| switch src0.selected\_component |
+| switch src0.select\_component |
 |---------------------------------|
 
 

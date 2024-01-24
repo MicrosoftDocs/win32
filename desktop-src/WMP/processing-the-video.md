@@ -9,10 +9,13 @@ keywords:
 - DSP plug-ins,video processing
 - video DSP plug-ins,processing
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Processing the Video
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The details of processing video vary for each format; it is beyond the scope of this documentation to provide these details. In a general sense, the goal of the plug-in is to change the color data in the input buffer and then copy the data to the output buffer.
 

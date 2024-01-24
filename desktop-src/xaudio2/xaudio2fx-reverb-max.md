@@ -1,5 +1,5 @@
 ---
-Description: Maximum values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
+description: Maximum values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
 ms.assetid: 190d582d-651f-3174-19e6-375dc63f0540
 title: XAUDIO2FX_REVERB_MAX (Xaudio2fx.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Xaudio2fx.h</dt> </dl> |
 

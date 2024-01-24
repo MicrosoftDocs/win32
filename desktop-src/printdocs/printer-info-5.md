@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_INFO\_5 structure specifies detailed printer information.
+description: The PRINTER\_INFO\_5 structure specifies detailed printer information.
 ms.assetid: c8599f2e-3b7c-4fde-a340-ca7d3ddaa106
 title: PRINTER_INFO_5 structure (Winspool.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ This value is not used.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

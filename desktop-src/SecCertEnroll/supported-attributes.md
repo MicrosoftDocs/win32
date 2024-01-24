@@ -1,5 +1,5 @@
 ---
-Description: The Certificate Enrollment API supports the following attributes. You can create an individual attribute by using the corresponding interface identified in each of the following sections.
+description: The Certificate Enrollment API supports the following attributes. You can create an individual attribute by using the corresponding interface identified in each of the following sections.
 ms.assetid: e14fd472-1974-4ad2-b35a-3ab58ba0d707
 title: Supported Attributes
 ms.topic: article

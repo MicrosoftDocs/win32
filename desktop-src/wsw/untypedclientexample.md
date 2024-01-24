@@ -1,6 +1,6 @@
 ---
 title: UnTypedClientExample
-description: This example shows a HTTP client that sends request-reply messages.
+description: Review an untyped client example that uses the Windows Web Services API (WWSAPI). This example shows a HTTP client that sends request-reply messages.
 ms.assetid: ea6d8696-fd43-4d3c-bfec-3602658a08a7
 keywords:
 - UnTypedClientExample Native-Web-Services

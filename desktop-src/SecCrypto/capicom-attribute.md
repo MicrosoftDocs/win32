@@ -1,5 +1,5 @@
 ---
-Description: Defines the kind of attribute associated with a signature.
+description: Defines the kind of attribute associated with a signature.
 ms.assetid: 94f0dce4-0b32-4c39-ab2e-b01795432acd
 title: CAPICOM_ATTRIBUTE enumeration (Capicom.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The **CAPICOM\_ATTRIBUTE** enumeration type is used by the [**Attribute.Name**](
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

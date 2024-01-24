@@ -1,12 +1,12 @@
 ---
-Description: A region is a portion of the display surface.
+description: A region is a portion of the display surface.
 ms.assetid: eb78d7a0-6293-487f-88c5-88ba455b965f
 title: Regions (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Regions
+# Regions (GDI+)
 
 A region is a portion of the display surface. Regions can be simple (a single rectangle) or complex (a combination of polygons and closed curves). The following illustration shows two regions: one constructed from a rectangle, and the other constructed from a path.
 

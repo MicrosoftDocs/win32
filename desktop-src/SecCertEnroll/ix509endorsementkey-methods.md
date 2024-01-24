@@ -1,5 +1,5 @@
 ---
-Description: The IX509EndorsementKey interface exposes the following methods.
+description: The IX509EndorsementKey interface exposes the following methods.
 ms.assetid: 536E5DE6-FF14-45C8-9227-68AF673E5FDC
 title: IX509EndorsementKey Methods
 ms.topic: reference

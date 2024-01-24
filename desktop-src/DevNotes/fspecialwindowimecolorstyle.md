@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the specified color is a special window color.
+description: Specifies whether the specified color is a special window color.
 ms.assetid: 41f7d4fb-9718-42a8-89df-c29bd8c0665b
 title: FSpecialWindowIMEColorStyle function
 ms.topic: reference
@@ -53,7 +53,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

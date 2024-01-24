@@ -19,15 +19,18 @@ keywords:
 - event stream switching
 - ad insertion
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - kbArticle
 api_name: 
 api_type: 
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # Using Metafiles for Seamless Stream Switching
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can facilitate seamless stream switching using metafile playlists. Usually, when a piece of content ends, buffering occurs for the next clip or stream before it opens (if it is content received from a streaming media server). Microsoft Windows Media Services enables you to eliminate, or at least minimize, this buffering time and have another piece of streamed content begin playing nearly immediately. The normal mode of operation for Windows Media Player is to open the next media stream referenced by the playlist 20 seconds before the end of the currently rendered stream. This generally provides a seamless transition between media streams, depending on other factors such as Web access times.
 

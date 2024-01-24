@@ -100,7 +100,7 @@ Finally, the buttons are added to the toolbar control with a [**TB\_ADDBUTTONS**
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
@@ -112,7 +112,7 @@ Finally, the buttons are added to the toolbar control with a [**TB\_ADDBUTTONS**
 
 <dl> <dt>
 
-[**MAKELONG**](/previous-versions/windows/desktop/legacy/ms632660(v=vs.85))
+[**MAKELONG**](../winmsg/makelong.md)
 </dt> </dl>
 
  

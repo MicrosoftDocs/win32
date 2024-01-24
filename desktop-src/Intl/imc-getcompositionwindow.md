@@ -1,5 +1,5 @@
 ---
-Description: Instructs an IME window to get the position of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+description: Instructs an IME window to get the position of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: d2c60974-a602-4a42-8a45-870ee39df001
 title: IMC_GETCOMPOSITIONWINDOW command (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Because the IME might adjust the position of a composition window, an applicatio
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

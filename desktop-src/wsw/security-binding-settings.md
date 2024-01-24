@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 Security binding settings control the way a security token is obtained or used. They are represented as a collection of property-value pairs, with the property keys defined by the enumeration [**WS\_SECURITY\_BINDING\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_security_binding_property). Each property in the collection has a reasonable default value. As a result, it is possible to define and use a security description without specifying any of the security binding settings.
 
-## 
 
 For information on channel-wide security settings, with properties whose keys are defined by the [**WS\_SECURITY\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_security_property_id) enumeration, see[Security Channel Settings](security-channel-settings.md).
 
@@ -23,7 +22,7 @@ The following API elements are used with security binding settings.
 | Enumeration                                                                          | Description                                                                                                                                                       |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WS\_CERT\_FAILURE**](/windows/win32/api/webservices/ne-webservices-ws_value_type)                                         | Defines failures related to certificate validation.                                                                                                               |
-| [**WS\_HTTP\_HEADER\_AUTH\_SCHEME**](https://technet.microsoft.com/windows/dd401907(v=vs.60))                 | Defines the options for performing client authentication using HTTP authentication headers.                                                                       |
+| **WS\_HTTP\_HEADER\_AUTH\_SCHEME**                 | Defines the options for performing client authentication using HTTP authentication headers.                                                                       |
 | [**WS\_HTTP\_HEADER\_AUTH\_TARGET**](/windows/desktop/api/WebServices/ne-webservices-ws_http_header_auth_target)                 | Defines the target for the HTTP header authentication security binding.                                                                                           |
 | [**WS\_REQUEST\_SECURITY\_TOKEN\_ACTION**](/windows/desktop/api/WebServices/ne-webservices-ws_request_security_token_action)     | Defines which set of actions to use when negotiating security tokens using WS-Trust.                                                                              |
 | [**WS\_SECURITY\_ALGORITHM\_SUITE\_NAME**](/windows/desktop/api/WebServices/ne-webservices-ws_security_algorithm_suite_name)     | A suite of security algorithms used for tasks such as signing and encryting.                                                                                      |

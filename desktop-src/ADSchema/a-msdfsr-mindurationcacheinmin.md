@@ -22,7 +22,7 @@ Minimum time, in minutes, before truncating files.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-MinDurationCacheInMin        |
 | Ldap-Display-Name | msDFSR-MinDurationCacheInMin         |
@@ -45,7 +45,7 @@ Minimum time, in minutes, before truncating files.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -66,7 +66,7 @@ Minimum time, in minutes, before truncating files.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -87,7 +87,7 @@ Minimum time, in minutes, before truncating files.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |

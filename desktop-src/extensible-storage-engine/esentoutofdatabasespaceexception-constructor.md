@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDatabaseSpaceException constructor"
 title: EsentOutOfDatabaseSpaceException constructor 
 TOCTitle: 'EsentOutOfDatabaseSpaceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfDatabaseSpaceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentOutOfDatabaseSpaceException()
 
 #### Reference
 
-[EsentOutOfDatabaseSpaceException class](dn319717\(v=exchg.10\).md)
+[EsentOutOfDatabaseSpaceException class](./esentoutofdatabasespaceexception-class.md)
 
-[EsentOutOfDatabaseSpaceException members](dn319769\(v=exchg.10\).md)
+[EsentOutOfDatabaseSpaceException members](./esentoutofdatabasespaceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: You can use the Component Services administrative tool to populate a role with user accounts or groups.
+description: You can use the Component Services administrative tool to populate a role with user accounts or groups.
 ms.assetid: 1cf7dc38-185a-4cc4-8f4c-44b6af4c5f4a
 title: Assigning a User Account or Group to a Role
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T>.ValueAsObject property"
 title: ColumnValueOfStruct(T).ValueAsObject property 
 TOCTitle: 'ValueAsObject property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.ValueAsObject
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the last set or retrieved value of the column. The value is returned as a generic object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,8 +60,8 @@ Type: [System.Object](/dotnet/api/system.object)
 
 #### Reference
 
-[ColumnValueOfStruct\<T\> class](dn334171\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> class](./columnvalueofstruct-t-class.md)
 
-[ColumnValueOfStruct\<T\> members](dn334217\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> members](./columnvalueofstruct-t-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

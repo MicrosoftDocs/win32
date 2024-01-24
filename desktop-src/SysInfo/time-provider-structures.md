@@ -1,5 +1,5 @@
 ---
-Description: 'The following structures are used with time providers:'
+description: 'The following structures are used with time providers:'
 ms.assetid: 8f4de647-1599-4704-a41b-5279b0290739
 title: Time Provider Structures
 ms.topic: article

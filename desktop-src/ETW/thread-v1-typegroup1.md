@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for thread start events. The following syntax is simplified from MOF code.
+description: This class is the event type class for thread start events. The following syntax is simplified from MOF code.
 ms.assetid: 412de56f-4f54-46e8-ab60-d47371247e79
 title: Thread_V1_TypeGroup1 class
 ms.topic: reference
@@ -211,7 +211,7 @@ Starting address of the function to be executed by this thread.
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

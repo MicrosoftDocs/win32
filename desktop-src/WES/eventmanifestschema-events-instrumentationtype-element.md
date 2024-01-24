@@ -1,6 +1,6 @@
 ---
 title: events (InstrumentationType) Element
-description: Contains a list of providers that are defined in the manifest.
+description: Contains a list of providers that are defined in the manifest. | events (InstrumentationType) Element
 ms.assetid: 1dab7840-75c0-4cee-94ba-9816762ac345
 keywords:
 - events element EventLog
@@ -31,7 +31,7 @@ The **events** element is defined by the [**InstrumentationType**](eventmanifest
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

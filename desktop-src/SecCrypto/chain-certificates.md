@@ -1,5 +1,5 @@
 ---
-Description: The Certificates property retrieves a Certificates collection that represents the certificates in the chain. This is the default property.
+description: The Certificates property retrieves a Certificates collection that represents the certificates in the chain. This is the default property.
 ms.assetid: c3e6953f-35e5-469a-a1aa-e3a4ebe21ac3
 title: IChain2::Certificates property
 ms.topic: reference
@@ -21,7 +21,7 @@ api_location:
 
 # IChain2::Certificates property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](/dotnet/api/system.security.cryptography.x509certificates.x509chain?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](/dotnet/api/system.security.cryptography.x509certificates.x509chain) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Certificates** property retrieves a [**Certificates**](certificates.md) collection that represents the certificates in the chain. This is the default property.
 
@@ -44,7 +44,7 @@ A [**Certificates**](certificates.md) collection that is used to retrieve inform
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

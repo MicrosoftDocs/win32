@@ -1,6 +1,6 @@
 ---
 title: ButtonTip Element
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | ButtonTip Element
 ms.assetid: 93e5d0c8-8d2d-45c1-9d47-bbd0b6eb8b88
 keywords:
 - ButtonTip Element Windows Media Player
@@ -11,10 +11,13 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # ButtonTip Element
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
@@ -59,7 +62,7 @@ This element is optional for each instance of **ServiceTask1**, **ServiceTask2**
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

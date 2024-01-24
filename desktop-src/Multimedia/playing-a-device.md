@@ -6,10 +6,13 @@ keywords:
 - MCI_PLAY command
 - MCIAVI playback window
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Playing a Device
+
+\[The feature associated with this page, [MCI](/windows/win32/multimedia/mci), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCI**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The [**play**](play.md) ([**MCI\_PLAY**](mci-play.md)) command starts playing a device. Without any flags, this command starts playing from the current position and plays until the command is interrupted or until the end of the media or file is reached. After playback, the current position is at the end of the media. You can also use the [**seek**](seek.md) ([**MCI\_SEEK**](mci-seek.md)) command to change the current position.
 

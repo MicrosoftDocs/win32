@@ -1,5 +1,5 @@
 ---
-Description: The IsOverridable property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be overridden when propagated.
+description: The IsOverridable property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be overridden when propagated.
 ms.assetid: 3cd82407-6664-446e-bc84-68cc9a69fd6b
 ms.tgt_platform: multiple
 title: SWbemQualifier.IsOverridable property (Wbemdisp.h)
@@ -42,7 +42,7 @@ SWbemQualifier.IsOverridable As Boolean
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

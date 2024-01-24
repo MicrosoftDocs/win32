@@ -1,5 +1,5 @@
 ---
-Description: The RKeyOpenKeyService function is not supported.
+description: The RKeyOpenKeyService function is not supported.
 ms.assetid: 3af18cf7-bc98-4ebc-a62c-7234e9fbddaa
 title: RKeyOpenKeyService function (Rkeysvcc.h)
 ms.topic: reference
@@ -103,7 +103,7 @@ If the function fails, the return value is a **ULONG** that indicates the error.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

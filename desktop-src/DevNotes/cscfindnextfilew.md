@@ -1,5 +1,5 @@
 ---
-Description: Continues a file search operation.
+description: Continues a file search operation.
 ms.assetid: 5b1a8f67-7fce-4ba5-918d-826bdaca1947
 title: CSCFindNextFileW function
 ms.topic: reference
@@ -108,7 +108,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Cscmig.dll</dt> </dl> |
 

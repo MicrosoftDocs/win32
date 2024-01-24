@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AssociatedSensor class associates an installed sensor with a logical device. The sensor measures critical input and output properties, and can be included with the device or installed nearby.
+description: The CIM\_AssociatedSensor class associates an installed sensor with a logical device. The sensor measures critical input and output properties, and can be included with the device or installed nearby.
 ms.assetid: 8ccaa37f-b95f-4582-a694-23bdc15b8c8b
 ms.tgt_platform: multiple
 title: CIM_AssociatedSensor class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

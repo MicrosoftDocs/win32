@@ -22,7 +22,7 @@ Indicates how much time must transpire since the last keep-alive for the inter-s
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Inter-Site-Topology-Failover         |
 | Ldap-Display-Name | interSiteTopologyFailover            |
@@ -49,7 +49,7 @@ Indicates how much time must transpire since the last keep-alive for the inter-s
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -70,7 +70,7 @@ Indicates how much time must transpire since the last keep-alive for the inter-s
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -91,7 +91,7 @@ Indicates how much time must transpire since the last keep-alive for the inter-s
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -112,7 +112,7 @@ Indicates how much time must transpire since the last keep-alive for the inter-s
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -133,7 +133,7 @@ Indicates how much time must transpire since the last keep-alive for the inter-s
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -154,7 +154,7 @@ Indicates how much time must transpire since the last keep-alive for the inter-s
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -175,7 +175,7 @@ Indicates how much time must transpire since the last keep-alive for the inter-s
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CoolingDevice class represents the capabilities and management of cooling devices.
+description: The CIM\_CoolingDevice class represents the capabilities and management of cooling devices.
 ms.assetid: ac0f0df4-c174-4306-9325-eaa316ee820a
 ms.tgt_platform: multiple
 title: CIM_CoolingDevice class
@@ -1084,7 +1084,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

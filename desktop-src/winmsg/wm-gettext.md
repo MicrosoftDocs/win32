@@ -1,5 +1,5 @@
 ---
-Description: Copies the text that corresponds to a window into a buffer provided by the caller.
+description: Copies the text that corresponds to a window into a buffer provided by the caller.
 ms.assetid: 117c3d6d-24cd-462f-bdb0-b65d8914273a
 title: WM_GETTEXT message (Winuser.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ Sending a **WM\_GETTEXT** message to a non-text static control, such as a static
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

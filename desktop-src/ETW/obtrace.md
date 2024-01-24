@@ -1,5 +1,5 @@
 ---
-Description: Represents the parent class from which all object manager event trace classes are derived.
+description: Represents the parent class from which all object manager event trace classes are derived.
 ms.assetid: 07cfc4a2-c665-4080-bc4b-fe9ec7191fdc
 title: ObTrace class
 ms.topic: reference
@@ -41,7 +41,7 @@ To enable object manager event tracing, call the [**TraceSetInformation**](/wind
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |

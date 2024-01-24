@@ -1,6 +1,6 @@
 ---
 title: Repeating A Task
-description: Task Scheduler can run a task any number of times times after a trigger is fired.
+description: Task Scheduler can run a task any number of times after a trigger is fired.
 ms.assetid: 69c60713-134c-4602-9e7b-cc3eea871068
 keywords:
 - repetition pattern Task Scheduler
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # Repeating A Task
 
-Task Scheduler can run a task any number of times times after a trigger is fired. To do this, the trigger defines a repetition pattern that tells Task Scheduler how long it should continue to repeat the task and the time interval between each task repetition.
+Task Scheduler can run a task any number of times after a trigger is fired. To do this, the trigger defines a repetition pattern that tells Task Scheduler how long it should continue to repeat the task and the time interval between each task repetition.
 
 ## Repetition Pattern
 

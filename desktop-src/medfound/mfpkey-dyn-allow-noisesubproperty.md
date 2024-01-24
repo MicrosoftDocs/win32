@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder uses noise substitution.
+description: Specifies whether the encoder uses noise substitution.
 ms.assetid: 8b018208-3e35-41a6-9f03-3aa142cc4f69
 title: MFPKEY_DYN_ALLOW_NOISESUB Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

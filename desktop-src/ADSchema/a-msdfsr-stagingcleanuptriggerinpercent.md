@@ -22,7 +22,7 @@ Staging clean-up trigger in percent of free disk space.
 
 
 
-|                   |                                        |
+| Entry | Value |
 |-------------------|----------------------------------------|
 | CN                | ms-DFSR-StagingCleanupTriggerInPercent |
 | Ldap-Display-Name | msDFSR-StagingCleanupTriggerInPercent  |
@@ -45,7 +45,7 @@ Staging clean-up trigger in percent of free disk space.
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |
@@ -66,7 +66,7 @@ Staging clean-up trigger in percent of free disk space.
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |
@@ -87,7 +87,7 @@ Staging clean-up trigger in percent of free disk space.
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |

@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 Security contexts enable the establishment of a message security context according to WS-SecureConversation. That context can then be used to secure messages as an alternative to one-shot security where the credentials are transmitted for every request. The established security context is a more efficient method of securing messages when multiple messages are exchanged.
 
-## 
 
 Security contexts require the presence of bootstrap security credentials that are used to secure the messages sent in the context. The [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding), [**WS\_XML\_TOKEN\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding), and [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding) structures may be used for this purpose.
 

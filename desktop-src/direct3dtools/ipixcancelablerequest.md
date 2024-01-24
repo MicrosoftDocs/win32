@@ -1,5 +1,5 @@
 ---
-Description: Base of any request that can be canceled. Canceled requests can only be canceled if they are still in the queue, so a cancelation may be ignored.
+description: Base of any request that can be canceled. Canceled requests can only be canceled if they are still in the queue, so a cancelation may be ignored.
 MS-HAID: vspixengine.IPixCancelableRequest
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -30,7 +30,7 @@ The **IPixCancelableRequest** interface inherits from the [**IUnknown**](/window
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

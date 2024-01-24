@@ -30,9 +30,6 @@ The address of the resource.
 
 </dd> </dl> 
 
-|             |       |
-|-------------|-------|
-| Error Level | Error |
 
 
 

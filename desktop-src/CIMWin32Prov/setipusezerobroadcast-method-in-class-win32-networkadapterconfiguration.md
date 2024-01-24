@@ -1,5 +1,5 @@
 ---
-Description: The SetIPUseZeroBroadcast WMI class static method is used to set IP zero broadcast usage.
+description: The SetIPUseZeroBroadcast WMI class static method is used to set IP zero broadcast usage.
 ms.assetid: d20ac6fc-a5d5-4ad9-a2a5-65142b4c7d02
 ms.tgt_platform: multiple
 title: SetIPUseZeroBroadcast method of the Win32_NetworkAdapterConfiguration class
@@ -403,15 +403,11 @@ DHCP not enabled on adapter.
 
 If the *IPUseZeroBroadcast* parameter is set to **TRUE**, then IP will use zero-broadcasts (0.0.0.0) instead of one-broadcasts (255.255.255.255). Most systems use one-broadcasts, but systems derived from BSD implementations use zero-broadcasts. Systems that use different broadcasts will not interoperate on the same network.
 
-## Examples
-
-The [Modify Zero-Broadcast Use for All Network Adapters](https://Gallery.TechNet.Microsoft.Com/3d1ec74a-bf96-41cf-bb90-f98cd6494fb3) VBScript sample configures a computer to use zero-broadcasts (0.0.0.0) rather than one-broadcasts (255.255.255.255).
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

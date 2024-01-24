@@ -1,5 +1,5 @@
 ---
-Description: If the current configuration is a result of the Undo/Redo/Restore, marks it as if it has been set explicitly, so that the history will preserve the time when it was set, and a backup file will be created for it on the next configuration change.
+description: If the current configuration is a result of the Undo/Redo/Restore, marks it as if it has been set explicitly, so that the history will preserve the time when it was set, and a backup file will be created for it on the next configuration change.
 ms.assetid: 1b3d398a-c7f9-4e21-9e43-1245a13fe564
 ms.tgt_platform: multiple
 title: Checkpoint method of the Control class (Srrestoreptapi.h)
@@ -150,7 +150,7 @@ Success
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

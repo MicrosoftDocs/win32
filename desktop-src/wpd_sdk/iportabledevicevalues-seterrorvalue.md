@@ -1,5 +1,5 @@
 ---
-Description: The SetErrorValue method adds a new HRESULT value (type VT\_ERROR) or overwrites an existing one.
+description: The SetErrorValue method adds a new HRESULT value (type VT\_ERROR) or overwrites an existing one.
 ms.assetid: 87369791-42bd-4523-b15a-acf0ea1e5af8
 title: IPortableDeviceValues::SetErrorValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If an existing value has the same key specified by the *key* parameter, it overw
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

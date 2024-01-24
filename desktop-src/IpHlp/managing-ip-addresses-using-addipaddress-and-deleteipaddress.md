@@ -1,6 +1,6 @@
 ---
 title: Manage IP addresses with AddIPAddress, DeleteIPAddress
-Description: The AddIPAddress function adds the specified IPv4 address to the specified adapter.
+description: The AddIPAddress function adds the specified IPv4 address to the specified adapter.
 ms.assetid: 71cf6b4d-192c-4b2a-b534-be0b3da552f9
 ms.topic: article
 ms.date: 05/31/2018

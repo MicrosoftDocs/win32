@@ -1,5 +1,5 @@
 ---
-Description: Requests to indicate that the graphics log has new data inside of it.
+description: Requests to indicate that the graphics log has new data inside of it.
 MS-HAID: vspixengine.IPixEngine2\_OnNewDataAvailable\_BOOL\_BOOL\_INT64\_INT64\_INT32\_BYTE\_arr
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -64,7 +64,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
 ## <span id="see_also"></span>See also
 

@@ -1,5 +1,5 @@
 ---
-Description: Provides read-only access to the extended key usage (EKU) properties of a certificate.
+description: Provides read-only access to the extended key usage (EKU) properties of a certificate.
 ms.assetid: '636d7f65-d286-4800-a576-a23e6e9811b2'
 title: ExtendedKeyUsage object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # ExtendedKeyUsage object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **ExtendedKeyUsage** object provides read-only access to the extended key usage (EKU) properties of a certificate.
 
@@ -51,7 +51,7 @@ The **ExtendedKeyUsage** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

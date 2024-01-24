@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveryVerifyFailureException constructor"
 title: EsentRecoveryVerifyFailureException constructor 
 TOCTitle: 'EsentRecoveryVerifyFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecoveryVerifyFailureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentRecoveryVerifyFailureException()
 
 #### Reference
 
-[EsentRecoveryVerifyFailureException class](dn319891\(v=exchg.10\).md)
+[EsentRecoveryVerifyFailureException class](./esentrecoveryverifyfailureexception-class.md)
 
-[EsentRecoveryVerifyFailureException members](dn350544\(v=exchg.10\).md)
+[EsentRecoveryVerifyFailureException members](./esentrecoveryverifyfailureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

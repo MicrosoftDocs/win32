@@ -47,7 +47,7 @@ Another feature of Windows Media Center is support for a standard remote control
 
 Avoid any physical interaction between the user and the computer or its peripherals. Requiring the user to change input controllers during gameplay is undesirable, since he or she is likely to be near only the primary input device.
 
-Microsoft has created common gamepad controllers for use with both Windows and Xbox 360—the Xbox 360 Controller for Windows and the Xbox 360 Wireless Controller for Windows. Making sure that your title plays well on the common controllers will ease some of the headache associated with testing your game against potential input devices.
+Microsoft has created common gamepad controllers for use with both Windows and Xbox 360. Making sure that your title plays well on the common controllers will ease some of the headache associated with testing your game against potential input devices.
 
 ### Display
 

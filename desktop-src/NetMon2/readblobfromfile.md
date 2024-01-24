@@ -1,5 +1,5 @@
 ---
-Description: The ReadBlobFromFile function reads a BLOB in a file.
+description: The ReadBlobFromFile function reads a BLOB in a file.
 ms.assetid: c3d4a892-160b-48e9-8881-0ada3ebd49b0
 title: ReadBlobFromFile function (Netmon.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

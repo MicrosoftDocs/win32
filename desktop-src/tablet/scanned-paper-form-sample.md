@@ -1,5 +1,5 @@
 ---
-Description: In this C\# sample, a paper form has been scanned as a Portable Network Graphics (PNG) file and specified as the background image at run time for a InkPicture control. The sample uses a message box to display handwriting recognition results.
+description: In this C\# sample, a paper form has been scanned as a Portable Network Graphics (PNG) file and specified as the background image at run time for a InkPicture control. The sample uses a message box to display handwriting recognition results.
 ms.assetid: fc9a39c2-9e4b-4d22-a118-3d24544897dd
 title: Scanned Paper Form Sample
 ms.topic: article
@@ -27,7 +27,7 @@ The sample includes an Extensible Markup Language (XML) file, Formdata.xml. The 
 
 The Left, Top, Right, and Bottom elements are definitions of pixel coordinates for each field.
 
-The sample initializes a new [DataSet](/dotnet/api/system.data.dataset?view=netcore-3.1) with the data contained in Formdata.xml:
+The sample initializes a new [DataSet](/dotnet/api/system.data.dataset?view=netcore-3.1&preserve-view=true) with the data contained in Formdata.xml:
 
 
 ```C++
@@ -97,7 +97,7 @@ The Clear menu click event handler deletes the current [Strokes](/previous-versi
 
 ## Closing the Form
 
-In the Windows Form Designer generated code, the [InkPicture](/previous-versions/aa514604(v=msdn.10)) control is added to the form's component list when the form is initialized. When the form closes, the InkPicture control is disposed, as well as the other components of the form, by the form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method.
+In the Windows Form Designer generated code, the [InkPicture](/previous-versions/aa514604(v=msdn.10)) control is added to the form's component list when the form is initialized. When the form closes, the InkPicture control is disposed, as well as the other components of the form, by the form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1&preserve-view=true) method.
 
 ## Related topics
 

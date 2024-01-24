@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyBoundaryException methods"
 title: EsentKeyBoundaryException methods
 TOCTitle: EsentKeyBoundaryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentKeyBoundaryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentKeyBoundaryException](dn319605\(v=exchg.10\).md) type exposes the following members.
+The [EsentKeyBoundaryException](./esentkeyboundaryexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentKeyBoundaryException class](dn319605\(v=exchg.10\).md)
+[EsentKeyBoundaryException class](./esentkeyboundaryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

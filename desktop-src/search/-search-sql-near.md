@@ -1,5 +1,5 @@
 ---
-Description: The NEAR term is used to specify that two content search terms must be relatively close to one another to be recognized as matching for the CONTAINS predicate.
+description: The NEAR term is used to specify that two content search terms must be relatively close to one another to be recognized as matching for the CONTAINS predicate.
 ms.assetid: cbc449b1-9f1d-42a2-b39e-d5cd69c052df
 title: NEAR Term
 ms.topic: article
@@ -28,7 +28,6 @@ When the words joined by NEAR in the query are found within approximately 50 wor
 
  
 
-## 
 
 The following table describes content search term types that can be used with a NEAR term in a CONTAINS predicate.
 
@@ -36,9 +35,9 @@ The following table describes content search term types that can be used with a 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -54,7 +53,7 @@ The following table describes content search term types that can be used with a 
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -71,7 +70,7 @@ The following table describes content search term types that can be used with a 
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -89,7 +88,7 @@ The following table describes content search term types that can be used with a 
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

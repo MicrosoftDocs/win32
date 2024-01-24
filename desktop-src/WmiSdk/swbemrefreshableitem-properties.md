@@ -1,5 +1,5 @@
 ---
-Description: The SWbemRefreshableItem object exposes the following properties.
+description: The SWbemRefreshableItem object exposes the following properties.
 ms.assetid: DB9CBB42-271F-45F5-A8B3-B729887EBDBC
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem Properties

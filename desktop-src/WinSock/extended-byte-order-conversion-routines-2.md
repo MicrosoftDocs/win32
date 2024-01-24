@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets 2 does not assume that the network byte order for all protocols is the same.
+description: Windows Sockets 2 does not assume that the network byte order for all protocols is the same.
 ms.assetid: 517c21b5-4b56-49f8-88ae-103fdfce6441
 title: Extended Byte-Order Conversion Routines
 ms.topic: article

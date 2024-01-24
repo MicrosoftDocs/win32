@@ -1,5 +1,5 @@
 ---
-Description: Raised by a trusted output if an error occurs while enforcing the output policy.
+description: Raised by a trusted output if an error occurs while enforcing the output policy.
 ms.assetid: 0cc62915-1ed6-4d1d-9600-0dac0b9034e3
 title: MEPolicyError event (Mfobjects.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ Possible values retrieved from [**IMFMediaEvent::GetStatus**](/windows/desktop/a
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

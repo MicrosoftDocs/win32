@@ -1,5 +1,5 @@
 ---
-Description: Indicates the reason a WLAN operation has failed.
+description: Indicates the reason a WLAN operation has failed.
 ms.assetid: 7b267f0b-b3f7-4729-bab4-de3bdd0a35a2
 title: WLAN_REASON_CODE (Wlanapi.h)
 ms.topic: reference
@@ -300,7 +300,7 @@ The 802.1x error codes supported on Windows XP with SP3 and on the Wireless LAN
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                  |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

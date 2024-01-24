@@ -1,5 +1,5 @@
 ---
-Description: Gets the properties of the view.
+description: Gets the properties of the view.
 title: IShellFolderViewType::GetViewTypeProperties method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 82be6bd5-a46c-48b3-a1f0-a92b9454c35e
-api_name: 
- - IShellFolderViewType.GetViewTypeProperties
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -95,7 +86,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

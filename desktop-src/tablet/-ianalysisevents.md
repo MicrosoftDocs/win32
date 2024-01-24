@@ -1,5 +1,5 @@
 ---
-Description: Specifies events associated with the analysis steps of an IInkAnalyzer object.
+description: Specifies events associated with the analysis steps of an IInkAnalyzer object.
 ms.assetid: 8cb75f99-aa39-44d1-a055-dc1fb3f6b292
 title: '_IAnalysisEvents interface'
 ms.topic: reference
@@ -42,7 +42,7 @@ The **\_IAnalysisEvents** interface has these events.
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The path and filename of the thumbnail image. This property is NULL if the item does not support thumbnails, or if a path cannot be built. Read-only.
+description: The path and filename of the thumbnail image. This property is NULL if the item does not support thumbnails, or if a path cannot be built. Read-only.
 ms.assetid: 067b8421-2108-4297-84ce-415af07207f4
 title: Item.Thumbnail property
 ms.topic: reference
@@ -38,7 +38,7 @@ String that receives the path and filename.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

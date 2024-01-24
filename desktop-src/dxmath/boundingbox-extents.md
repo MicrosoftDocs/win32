@@ -1,5 +1,5 @@
 ---
-Description: The extents of the BoundingBox.
+description: The extents of the BoundingBox.
 ms.assetid: 83e62f07-5bb5-4129-b88f-998a6f47c810
 title: BoundingBox.Extents (DirectXCollision.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                      |                                                                                               |
+| Requirement | Value |
 |----------------------|-----------------------------------------------------------------------------------------------|
 | Namespace<br/> | Use DirectX.<br/>                                                                       |
 | Header<br/>    | <dl> <dt>DirectXCollision.h</dt> </dl> |

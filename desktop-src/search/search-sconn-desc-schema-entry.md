@@ -1,5 +1,5 @@
 ---
-Description: Introduces the Search Connector Description schema that is used by Windows Explorer libraries and federated search providers.
+description: Introduces the Search Connector Description schema that is used by Windows Explorer libraries and federated search providers.
 ms.assetid: b85a04c6-9398-4cc7-a894-881216600203
 title: Search Connector Description Schema
 ms.topic: article
@@ -143,7 +143,7 @@ The following is an example of a Search Connector Description file for a MAPI pr
 **Other Resources**
 </dt> <dt>
 
-[OpenSearch](http://www.opensearch.org/Home)
+[OpenSearch](https://www.opensearch.org)
 </dt> <dt>
 
 [Microsoft Download Center](https://www.microsoft.com/DOWNLOADS/en/default.aspx)

@@ -1,5 +1,5 @@
 ---
-Description: Describes a pass for an effect object.
+description: Describes a pass for an effect object.
 ms.assetid: 398e6120-7bdf-425b-a8aa-cc0eb74ffa3a
 title: D3DXPASS_DESC structure (D3dx9effect.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ Pointer to the pixel shader function. If an effect is created with [D3DXFX\_NOT\
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9effect.h</dt> </dl> |
 

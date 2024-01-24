@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used in creating and maintaining placeholder files and directories.
+description: The following structures are used in creating and maintaining placeholder files and directories.
 ms.assetid: 50CCA8F5-7118-48E8-ADBF-337798FAF549
 title: Cloud Filter Structures
 ms.topic: article

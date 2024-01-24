@@ -1,5 +1,5 @@
 ---
-Description: Copies per-vertex albedo values from a mesh.
+description: Copies per-vertex albedo values from a mesh.
 ms.assetid: 3a6f1cc2-a870-4463-98df-599d9fbd9d78
 title: ID3DXPRTEngine::ExtractPerVertexAlbedo method (D3DX9Mesh.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

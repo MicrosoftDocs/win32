@@ -1,5 +1,5 @@
 ---
-Description: Pack mesh partitioning data into an atlas.
+description: Pack mesh partitioning data into an atlas.
 ms.assetid: 4da85626-c36c-44d9-990b-0db80ed04423
 title: D3DXUVAtlasPack function (D3DX9Mesh.h)
 ms.topic: reference
@@ -154,7 +154,7 @@ If the function succeeds, the return value is D3D\_OK; otherwise, the value is D
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogSignatureException properties"
 title: EsentBadLogSignatureException properties
 TOCTitle: EsentBadLogSignatureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadLogSignatureException](dn274072\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadLogSignatureException](./esentbadlogsignatureexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentBadLogSignatureException class](dn274072\(v=exchg.10\).md)
+[EsentBadLogSignatureException class](./esentbadlogsignatureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

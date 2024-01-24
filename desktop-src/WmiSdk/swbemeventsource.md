@@ -1,10 +1,10 @@
 ---
-Description: The SWbemEventSource object retrieves events from an event query in conjunction with SWbemServices.ExecNotificationQuery.
+description: The SWbemEventSource object retrieves events from an event query in conjunction with SWbemServices.ExecNotificationQuery.
 ms.assetid: 7efd5e6a-4311-4d20-8b05-e9208eec098a
 ms.tgt_platform: multiple
 title: SWbemEventSource object (Wbemdisp.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/25/2020
 topic_type: 
 - APIRef
 - kbSyntax
@@ -63,7 +63,7 @@ This script uses the methods of the **SWbemEventSource** class and the [**SWbemS
 
 ```VB
 ' Connect to WMI, obtaining an SWbemServices object
-set svc =
+set svc = _
 CreateObject("Wbemscripting.SWbemLocator")._
    ConnectServer(,"root\cimv2")
 
@@ -90,7 +90,7 @@ wend
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

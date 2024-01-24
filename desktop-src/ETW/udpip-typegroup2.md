@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for UDP/IP IPv6 send and receive events. The following syntax is simplified from MOF code.
+description: This class is the event type class for UDP/IP IPv6 send and receive events. The following syntax is simplified from MOF code.
 ms.assetid: 059041f6-bf34-4bf8-8e1a-2dfbc6c30edc
 title: UdpIp_TypeGroup2 class
 ms.topic: reference
@@ -189,7 +189,7 @@ Source port number.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

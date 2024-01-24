@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the type of relationship this IContextLink represents.
+description: Retrieves the type of relationship this IContextLink represents.
 ms.assetid: 03c13eba-1493-4fb7-b684-f15147e5a0eb
 title: IContextLink::GetContextLinkDirection method (IACom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

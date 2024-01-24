@@ -1,5 +1,5 @@
 ---
-Description: An installation package contains all of the information that the Windows Installer requires to install or uninstall an application or product and to run the setup user interface.
+description: An installation package contains all of the information that the Windows Installer requires to install or uninstall an application or product and to run the setup user interface.
 ms.assetid: 532b3492-919f-4999-b86c-e3c210876141
 title: Installation Package
 ms.topic: article

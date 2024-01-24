@@ -1,5 +1,5 @@
 ---
-Description: Well-authored components do not perturb the environment of the hosting application, nor do they leak activation contexts.
+description: Well-authored components do not perturb the environment of the hosting application, nor do they leak activation contexts.
 ms.assetid: cc3e21fd-5fd3-40b6-9218-cb5f47be3567
 title: Isolating Components
 ms.topic: article

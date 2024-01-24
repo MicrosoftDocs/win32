@@ -1,5 +1,5 @@
 ---
-Description: Specifies the top edge of the source rectangle, in pixels.
+description: MFPKEY_RESIZE_SRC_TOP Property - Specifies the top edge of the source rectangle, in pixels.
 ms.assetid: 12791b9f-4b00-4697-ae3c-8fc069568c82
 title: MFPKEY_RESIZE_SRC_TOP Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ VT\_I4
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

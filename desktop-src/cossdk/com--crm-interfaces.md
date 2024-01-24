@@ -1,5 +1,5 @@
 ---
-Description: The CRM interfaces are required to provide support for CRM Workers and CRM Compensators developed using Visual Basic and Visual C++.
+description: The CRM interfaces are required to provide support for CRM Workers and CRM Compensators developed using Visual Basic and Visual C++.
 ms.assetid: 68a75da7-1f35-41a4-8872-e3f4ad1fc30d
 title: COM+ CRM Interfaces
 ms.topic: article

@@ -55,7 +55,7 @@ The **Exec** element is defined by the [**actionGroup**](taskschedulerschema-act
 
 | Name | Type       | Description                                                    |
 |------|------------|----------------------------------------------------------------|
-| Id   | **string** | The identifier of the action performed by the task.<br/> |
+| id   | **string** | The identifier of the action performed by the task.<br/> |
 
 
 
@@ -77,7 +77,7 @@ For a complete example of the XML for a task that uses an event trigger, see [Ti
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

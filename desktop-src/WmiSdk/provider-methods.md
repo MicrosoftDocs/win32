@@ -1,5 +1,5 @@
 ---
-Description: The Provider class exposes the following methods.
+description: The Provider class exposes the following methods.
 ms.assetid: AD0BCAC7-6B5C-4BAF-9641-37D315D3E7B1
 ms.tgt_platform: multiple
 title: Provider Methods

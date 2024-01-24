@@ -1,5 +1,5 @@
 ---
-Description: The ConfigurableItem object represents a single row from the ModuleConfiguration table.
+description: The ConfigurableItem object represents a single row from the ModuleConfiguration table.
 ms.assetid: bbd0d9bc-a463-4cd8-93ee-963dcee8efa6
 title: ConfigurableItem object (Mergemod.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ interface **IMsmConfigurableItem : IDispatch**
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

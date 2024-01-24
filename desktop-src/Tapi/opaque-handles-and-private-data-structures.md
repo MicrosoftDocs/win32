@@ -1,5 +1,5 @@
 ---
-Description: Opaque handles are used in TSPI to refer to the data structures representing lines, phones, and call appearances.
+description: Opaque handles are used in TSPI to refer to the data structures representing lines, phones, and call appearances.
 ms.assetid: aa1742aa-6cd4-461a-ad92-972eefcf637f
 title: Opaque Handles and Private Data Structures
 ms.topic: article

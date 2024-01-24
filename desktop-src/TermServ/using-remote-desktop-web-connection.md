@@ -80,7 +80,17 @@ Some properties of the Remote Desktop ActiveX control object are restricted to s
 
 For enhanced security, you might choose to disable Remote Desktop Services features.
 
-</dd> </dl>
+</dd>  <dt>
+
+[Calling Remote Desktop ActiveX control non-scriptable interfaces](calling-non-scriptable-interfaces.md)
+</dt> <dd>
+
+Provides guidance for calling non-scriptable Remote Desktop ActiveX controls from native and managed code.
+
+</dd> 
+
+
+</dl>
 
 For more information about the sample webpage that is included with the installation of the Remote Desktop ActiveX control, see [Sample webpage included with the Remote Desktop ActiveX control](sample-web-page-included-with-the-remote-desktop-activex-control.md).
 

@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for page fault events. The following syntax is simplified from MOF code.
+description: PageFault_TransitionFault class - This class is the event type class for page fault events. The following syntax is simplified from MOF code.
 ms.assetid: cc2b7a93-6974-4872-98f3-d6cb81861ae5
 title: PageFault_TransitionFault class
 ms.topic: reference
@@ -81,7 +81,7 @@ Virtual address of the page that caused the page fault.
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

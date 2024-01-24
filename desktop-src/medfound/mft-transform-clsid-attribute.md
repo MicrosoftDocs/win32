@@ -1,5 +1,5 @@
 ---
-Description: Contains the class identifier (CLSID) of a Media Foundation transform (MFT).
+description: Contains the class identifier (CLSID) of a Media Foundation transform (MFT).
 ms.assetid: 99ee6f50-1de7-41ea-be5b-135730138d5d
 title: MFT_TRANSFORM_CLSID_Attribute attribute (Mftransform.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

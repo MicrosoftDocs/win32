@@ -1,5 +1,5 @@
 ---
-Description: This section lists the type definition for the called party subaddress.
+description: This section lists the type definition for the called party subaddress.
 ms.assetid: c6a1caf9-8bf8-41be-ae64-62d42eda550e
 title: Called Party Subaddress
 ms.topic: article

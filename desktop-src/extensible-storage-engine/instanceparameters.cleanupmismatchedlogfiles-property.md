@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.CleanupMismatchedLogFiles property"
 title: InstanceParameters.CleanupMismatchedLogFiles property 
 TOCTitle: 'CleanupMismatchedLogFiles property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CleanupMismatchedLogFiles
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # InstanceParameters.CleanupMismatchedLogFiles property
 
-Gets or sets a value indicating whether JetInit fails when the database engine is configured to start using transaction log files on disk that are of a different size than what is configured. Normally, [JetInit(JET_INSTANCE)](dn292210\(v=exchg.10\).md) will successfully recover the databases but will fail with [LogFileSizeMismatchDatabasesConsistent](hh564840\(v=exchg.10\).md) to indicate that the log file size is misconfigured. However, when this parameter is set to true then the database engine will silently delete all the old log files, start a new set of transaction log files using the configured log file size. This parameter is useful when the application wishes to transparently change its transaction log file size yet still work transparently in upgrade and restore scenarios.
+Gets or sets a value indicating whether JetInit fails when the database engine is configured to start using transaction log files on disk that are of a different size than what is configured. Normally, [JetInit(JET_INSTANCE)](./api.jetinit-method.md) will successfully recover the databases but will fail with [LogFileSizeMismatchDatabasesConsistent](./jet-err-enumeration.md) to indicate that the log file size is misconfigured. However, when this parameter is set to true then the database engine will silently delete all the old log files, start a new set of transaction log files using the configured log file size. This parameter is useful when the application wishes to transparently change its transaction log file size yet still work transparently in upgrade and restore scenarios.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Boolean](/dotnet/api/system.boolean)
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

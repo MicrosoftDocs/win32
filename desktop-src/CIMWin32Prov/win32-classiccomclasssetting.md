@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings of a Component Object Model (COM) component.
+description: Represents the settings of a Component Object Model (COM) component.
 ms.assetid: 18d9ddf2-184d-4680-8d56-f012c608ff7d
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMClassSetting class
@@ -555,7 +555,7 @@ The **Win32\_ClassicCOMClassSetting** class is derived from [**Win32\_COMSetting
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

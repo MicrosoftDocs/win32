@@ -1,6 +1,6 @@
 ---
-title: SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,int,uint) function
-description: Samples a Texture2D on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation.
+title: SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,int,uint) function for Texture2D
+description: Samples a Texture2D on mipmap level 0 only and compares the result to a comparison value, and then returns status about the operation. For Texture2D.
 ms.assetid: AEFE424F-2C77-434C-B9C0-8173778CB108
 keywords:
 - SampleCmpLevelZero function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleCmpLevelZero(S,float,float,int,uint) function
+# SampleCmpLevelZero::SampleCmpLevelZero(S,float,float,int,uint) function for Texture2D
 
 Samples a [**Texture2D**](sm5-object-texture2d.md) on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation.
 

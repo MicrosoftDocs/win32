@@ -1,5 +1,5 @@
 ---
-Description: Qualified components are a method of indirection and can be used to group components with parallel functionality into categories.
+description: Qualified components are a method of indirection and can be used to group components with parallel functionality into categories.
 ms.assetid: 45a05ab2-d951-415d-bdb8-cb0a73eb9967
 title: Using Qualified Components
 ms.topic: article

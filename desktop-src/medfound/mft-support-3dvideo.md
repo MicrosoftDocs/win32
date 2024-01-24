@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a Media Foundation transform (MFT) supports 3D stereoscopic video.
+description: Specifies whether a Media Foundation transform (MFT) supports 3D stereoscopic video.
 ms.assetid: DE96FD14-5C7E-4560-99AC-B1EBDA1EBB2B
 title: MFT_SUPPORT_3DVIDEO attribute (Mftransform.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The default value of this attribute is **FALSE**. Treat this attribute as read-o
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |

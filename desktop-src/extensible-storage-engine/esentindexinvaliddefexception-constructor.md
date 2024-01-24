@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexInvalidDefException constructor"
 title: EsentIndexInvalidDefException constructor 
 TOCTitle: 'EsentIndexInvalidDefException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexInvalidDefException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexInvalidDefException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentIndexInvalidDefException()
 
 #### Reference
 
-[EsentIndexInvalidDefException class](dn319396\(v=exchg.10\).md)
+[EsentIndexInvalidDefException class](./esentindexinvaliddefexception-class.md)
 
-[EsentIndexInvalidDefException members](dn319390\(v=exchg.10\).md)
+[EsentIndexInvalidDefException members](./esentindexinvaliddefexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

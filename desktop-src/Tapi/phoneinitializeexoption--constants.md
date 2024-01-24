@@ -1,5 +1,5 @@
 ---
-Description: The PHONEINITIALIZEEXOPTION\_ constants specify which event notification mechanism to use when initializing a session.
+description: The PHONEINITIALIZEEXOPTION\_ constants specify which event notification mechanism to use when initializing a session.
 ms.assetid: 7d8b122d-bebe-4904-abc8-d680b0899e25
 title: PHONEINITIALIZEEXOPTION_ Constants (Tapi.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ See [**phoneInitializeEx**](/windows/desktop/api/Tapi/nf-tapi-phoneinitializeexa
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

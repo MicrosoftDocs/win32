@@ -1,5 +1,5 @@
 ---
-Description: Converts the specified attribute data to XML format.
+description: Converts the specified attribute data to XML format.
 ms.assetid: 7a75726d-f1ec-4137-89c1-eccb4a78fc22
 title: SdbFormatAttribute function
 ms.topic: reference
@@ -65,7 +65,7 @@ The function returns **TRUE** on success or **FALSE** if the buffer is too small
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

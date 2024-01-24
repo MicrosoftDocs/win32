@@ -25,7 +25,7 @@ HKEY_CLASSES_ROOT
       <clsid>
 ```
 
-*<clsid>* is the string representation of the CLSID as produced by the [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) function. Under the *<clsid>* key, there is an **InProcServer32** key that identifies the object as a 32-bit in-proc server. Under the **InProcServer32** key, the location of the DLL is specified in the default value and the threading model is specified in the **ThreadingModel** value. All property sheet extensions must use the "Apartment" threading model.
+*&lt;clsid&gt;* is the string representation of the CLSID as produced by the [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) function. Under the *&lt;clsid&gt;* key, there is an **InProcServer32** key that identifies the object as a 32-bit in-proc server. Under the **InProcServer32** key, the location of the DLL is specified in the default value and the threading model is specified in the **ThreadingModel** value. All property sheet extensions must use the "Apartment" threading model.
 
 ## Registering with Active Directory Domain Services
 

@@ -1,5 +1,5 @@
 ---
-Description: The GetDescriptor method returns the USB device descriptor as specified by the input parameters.
+description: The GetDescriptor method returns the USB device descriptor as specified by the input parameters.
 ms.assetid: 5f36ac8a-e751-4494-b91e-c6733bc3e349
 ms.tgt_platform: multiple
 title: GetDescriptor method of the CIM_USBDevice class (Wmcodecdsp.h)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# GetDescriptor method of the CIM\_USBDevice class
+# GetDescriptor method of the CIM_USBDevice class (Wmcodecdsp.h)
 
 The **GetDescriptor** method returns the USB device descriptor as specified by the input parameters.
 
@@ -97,7 +97,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

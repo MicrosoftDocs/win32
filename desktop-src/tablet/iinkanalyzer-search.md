@@ -1,5 +1,5 @@
 ---
-Description: Provides a fuzzy, case-insensitive phrase based search for analyzed writing strokes and analyzed drawing strokes that have recognized types.
+description: IInkAnalyzer::Search method - Provides a fuzzy, case-insensitive phrase based search for analyzed writing strokes and analyzed drawing strokes that have recognized types.
 ms.assetid: 5b5ce4b5-45ef-42ef-866b-2f38c32d8c86
 title: IInkAnalyzer::Search method (IACom.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ This search finds multi-word and single word substrings. Both alternate recognit
 
 All incoming strings will be converted to a single casing for comparison utilizing the LCID of the current thread to do this conversion to respect cultural case conventions.
 
-The string passed is treated as a phrase. Words and characters must appear in the alterantes for the strokes in the order specified. The first and last words of the phrase may be matched as substrings (the first word appearing at the end of an alternate and the last word appearing at the begginging of one), but any other words (those inside of the phrase) must appear as whole words.
+The string passed is treated as a phrase. Words and characters must appear in the alternates for the strokes in the order specified. The first and last words of the phrase may be matched as substrings (the first word appearing at the end of an alternate and the last word appearing at the beginning of one), but any other words (those inside of the phrase) must appear as whole words.
 
 If the string passed in has no whitespace in between characters, the substring may be found anywhere inside of a single word in an alternate.
 
@@ -95,7 +95,7 @@ Search does not generate PopulateContextNode events. Only the strokes that have 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

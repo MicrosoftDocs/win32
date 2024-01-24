@@ -1,5 +1,5 @@
 ---
-Description: This per-machine system policy can be used to specify that the Windows Installer pass all public properties to the server side during a managed installation using elevated privileges.
+description: This per-machine system policy can be used to specify that the Windows Installer pass all public properties to the server side during a managed installation using elevated privileges.
 ms.assetid: 437ceef2-730f-47ae-9b1f-dfc7c6d2d132
 title: EnableUserControl
 ms.topic: article

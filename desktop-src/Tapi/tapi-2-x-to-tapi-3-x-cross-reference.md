@@ -1,5 +1,5 @@
 ---
-Description: The following material provides some assistance to programmers familiar with the TAPI 2.x API in locating appropriate methods in the TAPI 3.x API. This section is not intended to be exhaustive, and provides cross-referencing only in selected areas.
+description: The following material provides some assistance to programmers familiar with the TAPI 2.x API in locating appropriate methods in the TAPI 3.x API. This section is not intended to be exhaustive, and provides cross-referencing only in selected areas.
 ms.assetid: ae4f077b-ef6e-4ba4-b5db-bc749c2dcb9c
 title: TAPI 2.x to TAPI 3.x Cross-Reference
 ms.topic: article

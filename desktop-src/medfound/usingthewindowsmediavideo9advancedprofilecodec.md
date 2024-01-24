@@ -1,5 +1,5 @@
 ---
-Description: Using the Windows Media Video 9 Advanced Profile
+description: Using the Windows Media Video 9 Advanced Profile
 ms.assetid: 2abc0efc-dd11-4921-897c-209a26f8ba1d
 title: Using the Windows Media Video 9 Advanced Profile
 ms.topic: article
@@ -34,13 +34,8 @@ The current version of the Windows Media Video 9 Advanced Profile codec is based
 <dl> <dt>
 
 [Working with Video](workingwithvideo.md)
-</dt> <dt>
-
-[VC-1 Technical Overview](https://www.microsoft.com/windows/windowsmedia/howto/articles/vc1techoverview.aspx)
-</dt> <dt>
-
-[Using the Advanced Settings of the Windows Media Video 9 Advanced Profile Codec](https://www.microsoft.com/windows/windowsmedia/howto/articles/codecadvancedsettings.aspx)
-</dt> </dl>
+</dt> 
+ </dl>
 
  
 

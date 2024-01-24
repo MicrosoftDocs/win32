@@ -1,5 +1,5 @@
 ---
-Description: When you provide a thumbnail, the following guidelines should be followed.
+description: When you provide a thumbnail, the following guidelines should be followed.
 title: Thumbnail Handler Guidelines
 ms.topic: article
 ms.date: 05/31/2018
@@ -25,6 +25,7 @@ When you provide a thumbnail, the following guidelines should be followed.
 -   Do not add adornments to your thumbnails. Windows Vista automatically applies drop shadows and other adornments where appropriate. It also applies special adornments for specific file types such as pictures or videos.
 -   Do not overlay file type or application information on your thumbnail. Windows Vista displays a type overlay for you in the lower right corner of the image. This overlay is based on perceived type but can be set for individual file types.
 -   For better performance, when your thumbnail is based on file content—a page of a document, for example—store the preview image when the file is saved (and therefore probably changed) instead of calculating it in real time. This should be done if the calculation is memory-intensive (more than one or two seconds). If this is not done, views showing a large number of files whose thumbnails are handled by different handlers is going to take some time to display—a bad user experience. Windows Vista caches thumbnails and refers to the last modified time to determine whether a thumbnail should be updated.
+-   Be aware that Explorer may choose not to display a thumbnail even if a provider is available. For example, a file that has been archived to tape will not be recalled to obtain its thumbnail.
 
 ## Related topics
 

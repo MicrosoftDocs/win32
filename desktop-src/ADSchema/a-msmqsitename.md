@@ -22,7 +22,7 @@ The **MSMQ-Site-Name** attribute has been replaced by the [**MSMQ-Site-Name-Ex**
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MSMQ-Site-Name                              |
 | Ldap-Display-Name | mSMQSiteName                                |
@@ -48,7 +48,7 @@ The **MSMQ-Site-Name** attribute has been replaced by the [**MSMQ-Site-Name-Ex**
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -69,7 +69,7 @@ The **MSMQ-Site-Name** attribute has been replaced by the [**MSMQ-Site-Name-Ex**
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -90,7 +90,7 @@ The **MSMQ-Site-Name** attribute has been replaced by the [**MSMQ-Site-Name-Ex**
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -111,7 +111,7 @@ The **MSMQ-Site-Name** attribute has been replaced by the [**MSMQ-Site-Name-Ex**
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -132,7 +132,7 @@ The **MSMQ-Site-Name** attribute has been replaced by the [**MSMQ-Site-Name-Ex**
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -153,7 +153,7 @@ The **MSMQ-Site-Name** attribute has been replaced by the [**MSMQ-Site-Name-Ex**
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |

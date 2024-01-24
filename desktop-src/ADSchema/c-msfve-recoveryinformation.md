@@ -22,7 +22,7 @@ This class contains a Full Volume Encryption recovery password with its associat
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-FVE-RecoveryInformation           |
 | Ldap-Display-Name | msFVE-RecoveryInformation            |
@@ -44,7 +44,7 @@ This class contains a Full Volume Encryption recovery password with its associat
 
 
 
-|                             |                                                                            |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------|
 | System-Only                 | False                                                                      |
 | Object-Category             | 1                                                                          |
@@ -187,7 +187,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                            |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------|
 | System-Only                 | False                                                                      |
 | Object-Category             | 1                                                                          |
@@ -337,7 +337,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                            |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------|
 | System-Only                 | False                                                                      |
 | Object-Category             | 1                                                                          |

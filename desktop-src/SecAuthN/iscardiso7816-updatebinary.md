@@ -1,5 +1,5 @@
 ---
-Description: The UpdateBinary method constructs an application protocol data unit (APDU) command that updates the bits present in an elementary file with the bits given in the APDU command.
+description: The UpdateBinary method constructs an application protocol data unit (APDU) command that updates the bits present in an elementary file with the bits given in the APDU command.
 ms.assetid: 14ac6ad9-efcf-48ea-8712-19caeee47521
 title: ISCardISO7816::UpdateBinary method (Scardssp.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

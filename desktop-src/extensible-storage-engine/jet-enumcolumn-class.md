@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN class"
 title: JET_ENUMCOLUMN class
 TOCTitle: JET_ENUMCOLUMN class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN
@@ -35,7 +36,7 @@ Enumerates the column values of a record using the JetEnumerateColumns function.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
+[JET_ENUMCOLUMN members](./jet-enumcolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

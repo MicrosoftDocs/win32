@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObjectDuplicateException methods"
 title: EsentObjectDuplicateException methods
 TOCTitle: EsentObjectDuplicateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentObjectDuplicateException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentObjectDuplicateException](dn319723\(v=exchg.10\).md) type exposes the following members.
+The [EsentObjectDuplicateException](./esentobjectduplicateexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentObjectDuplicateException class](dn319723\(v=exchg.10\).md)
+[EsentObjectDuplicateException class](./esentobjectduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

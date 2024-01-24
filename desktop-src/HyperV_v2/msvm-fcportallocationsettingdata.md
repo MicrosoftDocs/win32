@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of a synthetic Fibre Channel port or a Fibre Channel switch port.
+description: Represents the configured state of a synthetic Fibre Channel port or a Fibre Channel switch port.
 ms.assetid: 680badc4-8dba-47e8-859a-0ed472a15eda
 title: Msvm_FcPortAllocationSettingData class
 ms.topic: reference
@@ -498,7 +498,7 @@ Range: 0 1000
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

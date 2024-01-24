@@ -1,5 +1,5 @@
 ---
-Description: The MSIPATCHREMOVE property specifies the list of patches to remove during an installation.
+description: The MSIPATCHREMOVE property specifies the list of patches to remove during an installation.
 ms.assetid: 76f8daa9-d32c-4845-85bc-52b728f53d1f
 title: MSIPATCHREMOVE property
 ms.topic: reference
@@ -18,7 +18,7 @@ The **MSIPATCHREMOVE** property can be set on the command line as follows to rem
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

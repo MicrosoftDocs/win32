@@ -1,5 +1,5 @@
 ---
-Description: This topic discusses the process of inviting a peer to join a peer group using the Peer Grouping APIs.
+description: This topic discusses the process of inviting a peer to join a peer group using the Peer Grouping APIs.
 ms.assetid: 6afcbfec-b1df-45cd-8a43-221dfe5d8c33
 title: Inviting a Peer to a Group
 ms.topic: article

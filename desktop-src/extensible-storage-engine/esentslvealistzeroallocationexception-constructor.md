@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListZeroAllocationException constructor"
 title: EsentSLVEAListZeroAllocationException constructor 
 TOCTitle: 'EsentSLVEAListZeroAllocationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVEAListZeroAllocationException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVEAListZeroAllocationException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVEAListZeroAllocationException()
 
 #### Reference
 
-[EsentSLVEAListZeroAllocationException class](dn350689\(v=exchg.10\).md)
+[EsentSLVEAListZeroAllocationException class](./esentslvealistzeroallocationexception-class.md)
 
-[EsentSLVEAListZeroAllocationException members](dn350727\(v=exchg.10\).md)
+[EsentSLVEAListZeroAllocationException members](./esentslvealistzeroallocationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

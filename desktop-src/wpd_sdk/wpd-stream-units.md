@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_STREAM\_UNITS enumeration specifies the unit types to be used for IPortableDeviceUnitsStream operations.
+description: The WPD\_STREAM\_UNITS enumeration specifies the unit types to be used for IPortableDeviceUnitsStream operations.
 ms.assetid: BE668696-7AF3-44AA-891A-9BFF67FB5544
 title: WPD_STREAM_UNITS enumeration (PortableDeviceTypes.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The stream units are specified in microseconds.
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                        |

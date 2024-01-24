@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how your application can specify what URL the Tablet PC Snipping Tool should obtain when capturing your application.
+description: This topic describes how your application can specify what URL the Tablet PC Snipping Tool should obtain when capturing your application.
 ms.assetid: e31e63e8-8f6b-41f7-8bd6-afc5ca32456b
 title: Snipping Tool Support in Windows Vista
 ms.topic: article
@@ -20,7 +20,7 @@ HKLM\\Software\\Microsoft\\Windows\\TabletPC\\Snipping Tool\\LinkFingerprints,
 
 And should create a subkey whose name is the same as the window class from which the link should be obtained. The window class name should be the topmost window of the application.
 
-HKLM\\Software\\Microsoft\\Windows\\TabletPC\\Snipping Tool\\LinkFingerprints\\<Window Class Name>
+HKLM\\Software\\Microsoft\\Windows\\TabletPC\\Snipping Tool\\LinkFingerprints\\\<Window Class Name\>
 
 ### Window Class Key Details
 

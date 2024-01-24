@@ -1,5 +1,5 @@
 ---
-Description: Describes a subset of the mesh that has the same attribute and bone combination.
+description: Describes a subset of the mesh that has the same attribute and bone combination.
 ms.assetid: e6a4b3bb-d28d-44c2-a6df-f60f0412a70e
 title: D3DXBONECOMBINATION structure (D3dx9mesh.h)
 ms.topic: reference
@@ -115,7 +115,7 @@ The subset of the mesh described by **D3DXBONECOMBINATION** can be rendered in a
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: 'The following are the power management events:'
+description: 'The following are the power management events:'
 ms.assetid: 2315e17f-f0c1-409c-b1c0-b3735c25c4c1
 title: Power Management Events
 ms.topic: article

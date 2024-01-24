@@ -1,12 +1,12 @@
 ---
-Description: The primary sources for installation procedures are the Resource Kit for the target operating system, application documentation, and service provider instructions. For Microsoft service providers, the appropriate resource kit contains instructions.
+description: The primary sources for installation procedures are the Resource Kit for the target operating system, application documentation, and service provider instructions. For Microsoft service providers, the appropriate resource kit contains instructions.
 ms.assetid: a94023ac-5226-4a51-a08b-c53d08260710
 title: Installation (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Installation
+# Installation (Telephony API)
 
 The primary sources for installation procedures are the Resource Kit for the target operating system, application documentation, and service provider instructions. For Microsoft service providers, the appropriate resource kit contains instructions.
 

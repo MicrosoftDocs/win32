@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSCallbackNotSpecifiedException methods"
 title: EsentLSCallbackNotSpecifiedException methods
 TOCTitle: EsentLSCallbackNotSpecifiedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLSCallbackNotSpecifiedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLSCallbackNotSpecifiedException](dn334617\(v=exchg.10\).md) type exposes the following members.
+The [EsentLSCallbackNotSpecifiedException](./esentlscallbacknotspecifiedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentLSCallbackNotSpecifiedException class](dn334617\(v=exchg.10\).md)
+[EsentLSCallbackNotSpecifiedException class](./esentlscallbacknotspecifiedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

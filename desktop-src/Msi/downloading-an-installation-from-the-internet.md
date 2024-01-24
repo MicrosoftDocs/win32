@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer accepts a Uniform Resource Locator (URL) as a valid source for an installation.
+description: Windows Installer accepts a Uniform Resource Locator (URL) as a valid source for an installation.
 ms.assetid: f1bb2dc0-4236-4bd7-89a2-f4416b5b9dda
 title: Downloading an Installation from the Internet
 ms.topic: article

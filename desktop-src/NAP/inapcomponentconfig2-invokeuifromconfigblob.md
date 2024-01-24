@@ -101,7 +101,7 @@ If used for a local machine, this function can be used for per policy SHV config
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

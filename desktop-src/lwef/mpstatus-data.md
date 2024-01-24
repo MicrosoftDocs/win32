@@ -209,7 +209,7 @@ When **ComponentID** == **MPCOMPONENT\_ELAM**. See [**MPSTATUS\_DATAEX\_UNUSED**
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |

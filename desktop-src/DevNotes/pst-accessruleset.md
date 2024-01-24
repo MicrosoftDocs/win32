@@ -1,5 +1,5 @@
 ---
-Description: Identifies the set of access rules for the protected storage data.
+description: Identifies the set of access rules for the protected storage data.
 ms.assetid: 0eee34c2-b832-41b3-80f5-b03fdddf75cc
 title: PST_ACCESSRULESET structure (Pstore.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ A pointer to an array of [**PST\_ACCESSRULE**](pst-accessrule.md) structures.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl> |
 

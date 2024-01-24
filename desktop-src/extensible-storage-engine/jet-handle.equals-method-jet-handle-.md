@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE.Equals method (JET_HANDLE)"
 title: JET_HANDLE.Equals method (JET_HANDLE)
 TOCTitle: Equals method (JET_HANDLE)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_HANDLE.Equals(Microsoft.Isam.Esent.Interop.JET_HANDLE)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,7 +54,7 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](hh558081\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)  
     
     An instance to compare with this instance.
 
@@ -70,10 +71,10 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET_HANDLE structure](hh558081\(v=exchg.10\).md)
+[JET_HANDLE structure](./jet-handle-structure.md)
 
-[JET_HANDLE members](hh557479\(v=exchg.10\).md)
+[JET_HANDLE members](./jet-handle-members.md)
 
-[Equals overload](hh579372\(v=exchg.10\).md)
+[Equals overload](./jet-handle.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

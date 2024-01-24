@@ -1,5 +1,5 @@
 ---
-Description: Specifies to constrict video.
+description: Specifies to constrict video.
 ms.assetid: 2C976D71-DBEA-4669-AFA7-167207D45273
 title: MFPROTECTION_CONSTRICTVIDEO attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies to constrict video.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

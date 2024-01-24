@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentWriteConflictException properties"
 title: EsentWriteConflictException properties
 TOCTitle: EsentWriteConflictException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentWriteConflictException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentWriteConflictException](dn350876\(v=exchg.10\).md) type exposes the following members.
+The [EsentWriteConflictException](./esentwriteconflictexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentWriteConflictException class](dn350876\(v=exchg.10\).md)
+[EsentWriteConflictException class](./esentwriteconflictexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

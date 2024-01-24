@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempPathInUseException methods"
 title: EsentTempPathInUseException methods
 TOCTitle: EsentTempPathInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTempPathInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTempPathInUseException](dn334969\(v=exchg.10\).md) type exposes the following members.
+The [EsentTempPathInUseException](./esenttemppathinuseexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentTempPathInUseException class](dn334969\(v=exchg.10\).md)
+[EsentTempPathInUseException class](./esenttemppathinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

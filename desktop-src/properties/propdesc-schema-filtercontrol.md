@@ -1,5 +1,5 @@
 ---
-Description: Specifies what control to use in the header filter menu.
+description: Specifies what control to use in the header filter menu.
 ms.assetid: a3117e16-20d0-4637-b726-9fa49516ad5c
 title: filterControl
 ms.topic: article
@@ -52,8 +52,8 @@ If there are multiple elements, the last one is used. If no [filterControl]() el
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,7 +75,7 @@ If there are multiple elements, the last one is used. If no [filterControl]() el
 <tbody>
 <tr class="odd">
 <td>Default</td>
-<td>Default. Uses the default control, based upon the <typeInfo type=&quot;&quot;> attribute. The default type is &quot;DateTime&quot; and the default control is &quot;Calendar&quot;. Any other type results in no special filter control.</td>
+<td>Default. Uses the default control, based upon the &lt;typeInfo type=&quot;&quot;&gt; attribute. The default type is &quot;DateTime&quot; and the default control is &quot;Calendar&quot;. Any other type results in no special filter control.</td>
 </tr>
 <tr class="even">
 <td>Calendar</td>

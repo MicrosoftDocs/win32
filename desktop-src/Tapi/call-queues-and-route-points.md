@@ -1,5 +1,5 @@
 ---
-Description: A call queue or route point is a special address within the switch where calls are temporarily held pending action.
+description: A call queue or route point is a special address within the switch where calls are temporarily held pending action.
 ms.assetid: 1c801401-be05-4b5f-bc4f-628dde0f3cf7
 title: Call Queues and Route Points
 ms.topic: article

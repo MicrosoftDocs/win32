@@ -1,5 +1,5 @@
 ---
-Description: Begin authoring the upgrade package by copying the installation package and source directory tree of the of original product.
+description: Begin authoring the upgrade package by copying the installation package and source directory tree of the of original product.
 ms.assetid: 279f0ab6-a6fc-4594-af6c-5a69d6167300
 title: Importing Original Installation Database
 ms.topic: article

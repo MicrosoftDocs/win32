@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_INFO\_8 structure specifies the global default printer settings.
+description: The PRINTER\_INFO\_8 structure specifies the global default printer settings.
 ms.assetid: 98f26a45-5302-4358-bed6-691d9bc37554
 title: PRINTER_INFO_8 structure (Winspool.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The global defaults are set by the administrator of a printer that can be used b
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

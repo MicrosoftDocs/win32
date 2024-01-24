@@ -1,5 +1,5 @@
 ---
-Description: The Start method starts the capture.
+description: The Start method starts the capture.
 ms.assetid: 1f676e19-18ff-4c34-a83f-2723ff356be2
 title: IRTC::Start method (Netmon.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ When you restart the capture by using the IRTC::Start and [IRTC::Stop](irtc-stop
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

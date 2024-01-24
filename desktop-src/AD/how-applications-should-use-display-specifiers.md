@@ -26,7 +26,6 @@ The **iconPath** property of the display specifier objects for the appropriate l
 
 When possible, use the appropriate object creation wizards to create new objects. For more information, see [Invoking Creation Wizards from Your Application](invoking-creation-wizards-from-your-application.md).
 
-## 
 
 The following code example shows how to obtain the display text for a class and an attribute of a class.
 

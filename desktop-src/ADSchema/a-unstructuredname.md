@@ -21,7 +21,7 @@ The DNS name of the router (for example: router1.fabrikam.com).
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | unstructuredName                     |
 | Ldap-Display-Name | unstructuredName                     |
@@ -46,7 +46,7 @@ The DNS name of the router (for example: router1.fabrikam.com).
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -67,7 +67,7 @@ The DNS name of the router (for example: router1.fabrikam.com).
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -88,7 +88,7 @@ The DNS name of the router (for example: router1.fabrikam.com).
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -109,7 +109,7 @@ The DNS name of the router (for example: router1.fabrikam.com).
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -130,7 +130,7 @@ The DNS name of the router (for example: router1.fabrikam.com).
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

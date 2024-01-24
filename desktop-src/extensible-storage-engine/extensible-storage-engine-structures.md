@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Structures"
 title: Extensible Storage Engine Structures
 TOCTitle: Extensible Storage Engine Structures
 ms:assetid: 0fe8a183-0f4b-4840-a53f-2d6494c43f22
@@ -26,169 +27,168 @@ _**Applies to:** Windows | Windows Server_
 
 The Extensible Storage Engine API has the following structures:
 
-  - [JET_BKINFO](gg294120\(v=exchg.10\).md)
+  - [JET_BKINFO](./jet-bkinfo-structure.md)
 
 <!-- end list -->
 
-  - [JET_BKLOGTIME](gg269219\(v=exchg.10\).md)
+  - [JET_BKLOGTIME](./jet-bklogtime-structure.md)
 
 <!-- end list -->
 
-  - [JET_COLUMNBASE](gg269194\(v=exchg.10\).md)
+  - [JET_COLUMNBASE](./jet-columnbase-structure.md)
 
 <!-- end list -->
 
-  - [JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)
+  - [JET_COLUMNCREATE](./jet-columncreate-structure.md)
 
 <!-- end list -->
 
-  - [JET_COLUMNDEF](gg294130\(v=exchg.10\).md)
+  - [JET_COLUMNDEF](./jet-columndef-structure.md)
 
 <!-- end list -->
 
-  - [JET_COLUMNLIST](gg269228\(v=exchg.10\).md)
+  - [JET_COLUMNLIST](./jet-columnlist-structure.md)
 
 <!-- end list -->
 
-  - [JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)
+  - [JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-structure.md)
 
 <!-- end list -->
 
-  - [JET_CONVERT](gg269220\(v=exchg.10\).md)
+  - [JET_CONVERT](./jet-convert-structure.md)
 
 <!-- end list -->
 
-  - [JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
+  - [JET_DBINFOMISC](./jet-dbinfomisc-structure.md)
 
 <!-- end list -->
 
-  - [JET_DBINFOUPGRADE](gg294114\(v=exchg.10\).md)
+  - [JET_DBINFOUPGRADE](./jet-dbinfoupgrade-structure.md)
 
 <!-- end list -->
 
-  - [JET_ENUMCOLUMN](gg294138\(v=exchg.10\).md)
+  - [JET_ENUMCOLUMN](./jet-enumcolumn-structure.md)
 
 <!-- end list -->
 
-  - [JET_ENUMCOLUMNID](gg269251\(v=exchg.10\).md)
+  - [JET_ENUMCOLUMNID](./jet-enumcolumnid-structure.md)
 
 <!-- end list -->
 
-  - [JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)
+  - [JET_ENUMCOLUMNVALUE](./jet-enumcolumnvalue-structure.md)
 
 <!-- end list -->
 
-  - [JET_INDEXCREATE](gg269186\(v=exchg.10\).md)
+  - [JET_INDEXCREATE](./jet-indexcreate-structure.md)
 
 <!-- end list -->
 
-  - [JET_INDEXID](gg269327\(v=exchg.10\).md)
+  - [JET_INDEXID](./jet-indexid-structure.md)
 
 <!-- end list -->
 
-  - [JET_INDEXLIST](gg269185\(v=exchg.10\).md)
+  - [JET_INDEXLIST](./jet-indexlist-structure.md)
 
 <!-- end list -->
 
-  - [JET_INDEXRANGE](gg269335\(v=exchg.10\).md)
+  - [JET_INDEXRANGE](./jet-indexrange-structure.md)
 
 <!-- end list -->
 
-  - [JET_INSTANCE_INFO](gg269331\(v=exchg.10\).md)
+  - [JET_INSTANCE_INFO](./jet-instance-info-structure.md)
 
 <!-- end list -->
 
-  - [JET_LGPOS](gg294113\(v=exchg.10\).md)
+  - [JET_LGPOS](./jet-lgpos-structure.md)
 
 <!-- end list -->
 
-  - [JET_LOGINFO](gg294063\(v=exchg.10\).md)
+  - [JET_LOGINFO](./jet-loginfo-structure.md)
 
 <!-- end list -->
 
-  - [JET_LOGTIME](gg294089\(v=exchg.10\).md)
+  - [JET_LOGTIME](./jet-logtime-structure.md)
 
 <!-- end list -->
 
-  - [JET_OBJECTINFO](gg269353\(v=exchg.10\).md)
+  - [JET_OBJECTINFO](./jet-objectinfo-structure.md)
 
 <!-- end list -->
 
-  - [JET_OBJECTLIST](gg269348\(v=exchg.10\).md)
+  - [JET_OBJECTLIST](./jet-objectlist-structure.md)
 
 <!-- end list -->
 
-  - [JET_OPENTEMPORARYTABLE](gg269206\(v=exchg.10\).md)
+  - [JET_OPENTEMPORARYTABLE](./jet-opentemporarytable-structure.md)
 
 <!-- end list -->
 
-  - [JET_RECORDLIST](gg269287\(v=exchg.10\).md)
+  - [JET_RECORDLIST](./jet-recordlist-structure.md)
 
 <!-- end list -->
 
-  - [JET_RECPOS](gg269308\(v=exchg.10\).md)
+  - [JET_RECPOS](./jet-recpos-structure.md)
 
 <!-- end list -->
 
-  - [JET_RECSIZE](gg294072\(v=exchg.10\).md)
+  - [JET_RECSIZE](./jet-recsize-structure.md)
 
 <!-- end list -->
 
-  - [JET_RETINFO](gg294049\(v=exchg.10\).md)
+  - [JET_RETINFO](./jet-retinfo-structure.md)
 
 <!-- end list -->
 
-  - [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)
+  - [JET_RETRIEVECOLUMN](./jet-retrievecolumn-structure.md)
 
 <!-- end list -->
 
-  - [JET_RSTINFO](gg269216\(v=exchg.10\).md)
+  - [JET_RSTINFO](./jet-rstinfo-structure.md)
 
 <!-- end list -->
 
-  - [JET_RSTMAP](gg294077\(v=exchg.10\).md)
+  - [JET_RSTMAP](./jet-rstmap-structure.md)
 
 <!-- end list -->
 
-  - [JET_SETCOLUMN](gg269233\(v=exchg.10\).md)
+  - [JET_SETCOLUMN](./jet-setcolumn-structure.md)
 
 <!-- end list -->
 
-  - [JET_SETINFO](gg294090\(v=exchg.10\).md)
+  - [JET_SETINFO](./jet-setinfo-structure.md)
 
 <!-- end list -->
 
-  - [JET_SETSYSPARAM](gg269230\(v=exchg.10\).md)
+  - [JET_SETSYSPARAM](./jet-setsysparam-structure.md)
 
 <!-- end list -->
 
-  - [JET_SIGNATURE](gg269340\(v=exchg.10\).md)
+  - [JET_SIGNATURE](./jet-signature-structure.md)
 
 <!-- end list -->
 
-  - [JET_SNPROG](gg269328\(v=exchg.10\).md)
+  - [JET_SNPROG](./jet-snprog-structure.md)
 
 <!-- end list -->
 
-  - [JET_TABLECREATE](gg294146\(v=exchg.10\).md)
+  - [JET_TABLECREATE](./jet-tablecreate-structure.md)
 
 <!-- end list -->
 
-  - [JET_TABLECREATE2](gg269203\(v=exchg.10\).md)
+  - [JET_TABLECREATE2](./jet-tablecreate2-structure.md)
 
 <!-- end list -->
 
-  - [JET_THREADSTATS](gg269227\(v=exchg.10\).md)
+  - [JET_THREADSTATS](./jet-threadstats-structure.md)
 
 <!-- end list -->
 
-  - [JET_TUPLELIMITS](gg269207\(v=exchg.10\).md)
+  - [JET_TUPLELIMITS](./jet-tuplelimits-structure.md)
 
 <!-- end list -->
 
-  - [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)
+  - [JET_UNICODEINDEX](./jet-unicodeindex-structure.md)
 
 <!-- end list -->
 
-  - [JET_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md)
-
+  - [JET_USERDEFINEDDEFAULT](./jet-userdefineddefault-structure.md)

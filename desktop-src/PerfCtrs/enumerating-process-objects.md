@@ -1,5 +1,5 @@
 ---
-Description: The following example calls the PdhEnumObjectItems function to enumerate the instances and counters of the process objects on the local computer.
+description: The following example calls the PdhEnumObjectItems function to enumerate the instances and counters of the process objects on the local computer.
 ms.assetid: d7518ba6-a0f1-4985-aa2c-1ca15a0ceb02
 title: Enumerating Process Objects
 ms.topic: article
@@ -10,6 +10,8 @@ ms.date: 05/31/2018
 
 The following example calls the [**PdhEnumObjectItems**](/windows/desktop/api/Pdh/nf-pdh-pdhenumobjectitemsa) function to enumerate the instances and counters of the process objects on the local computer.
 
+> [!TIP]
+> Windows 11 and later includes the `Process V2` counterset. The `Process V2` counterset resolves [several issues](./handling-duplicate-instance-names.md) with the `Process` counterset and should be preferred when collecting process information from computers running Windows 11 or later.
 
 ```C++
 // This program needs only the essential Windows header files.

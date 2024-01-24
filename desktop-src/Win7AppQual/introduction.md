@@ -1,16 +1,16 @@
 ---
-Description: .
+description: Introduction (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.assetid: 6BB5AABC-6281-4575-8189-477C57DF4F4F
 title: Introduction (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Introduction
+# Introduction (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 
 Around the world, many companies are adopting Windows 7 because of its enterprise features and abilities. IT departments are also changing how they approach their long-term platform needs to support a modern desktop. The Windows 7 operating system helps lower the total cost of ownership by helping users stay productive anywhere, enhances security and control, and simplifies desktop management across the organization. Windows 7 also includes a standards-based modern browser, Windows Internet Explorer 8, which provides improved security and enhanced browsing capabilities. These two platforms increase IT efficiency and enhance an organization’s agility and security.
 
-However, migrating to a new operating system creates unique challenges, primarily with the need to support legacy web applications. Companies may have applications that are built for previous versions of Windows Internet Explorer, such as Windows Internet Explorer 7 or Microsoft Internet Explorer 6. These web applications may encounter compatibility issues with Internet Explorer 8. Additionally Internet Explorer 6 does not natively run on Windows 7 and Windows does not support running two versions of Internet Explorer simultaneously. For more information, see the Microsoft Knowledge Base article, "[Running Multiple Versions of Internet Explorer on Single Operating System is Unsupported](https://support.microsoft.com/kb/2020599)."
+However, migrating to a new operating system creates unique challenges, primarily with the need to support legacy web applications. Companies may have applications that are built for previous versions of Windows Internet Explorer, such as Windows Internet Explorer 7 or Microsoft Internet Explorer 6. These web applications may encounter compatibility issues with Internet Explorer 8. Additionally Internet Explorer 6 does not natively run on Windows 7 and Windows does not support running two versions of Internet Explorer simultaneously. For more information, see the Microsoft Knowledge Base article, "Running Multiple Versions of Internet Explorer on Single Operating System is Unsupported."
 
 Many companies still use Internet Explorer 6-based web applications that were built and customized over the past decade. Companies that plan to deploy Windows 7 need to have a comprehensive strategy and an execution plan in place to migrate legacy web applications to Internet Explorer 8. This document provides a detailed overview of Internet Explorer 8 compatibility issues, discusses how to migrate web applications, and introduces related tools and processes.
 

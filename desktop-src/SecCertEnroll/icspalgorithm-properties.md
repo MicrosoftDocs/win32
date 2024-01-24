@@ -1,5 +1,5 @@
 ---
-Description: The ICspAlgorithm interface exposes the following properties.
+description: The ICspAlgorithm interface exposes the following properties.
 ms.assetid: 74092DF2-DE32-4E3F-B984-A3BC4543E605
 title: ICspAlgorithm Properties
 ms.topic: reference

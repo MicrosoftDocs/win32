@@ -1,5 +1,5 @@
 ---
-Description: Sent by an asynchronous Media Foundation transform (MFT) when a drain operation is complete.
+description: Sent by an asynchronous Media Foundation transform (MFT) when a drain operation is complete.
 ms.assetid: 923055e5-a09a-402e-983b-6fa3cebb1b3a
 title: METransformDrainComplete event (Mfobjects.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ To drain an MFT, call [**IMFTransform::ProcessMessage**](/windows/desktop/api/mf
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |

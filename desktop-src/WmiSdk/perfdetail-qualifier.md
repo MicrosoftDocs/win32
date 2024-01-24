@@ -1,5 +1,5 @@
 ---
-Description: The PerfDetail qualifier in Win32\_PerfRawData classes is not used. It always contains 100.
+description: The PerfDetail qualifier in Win32\_PerfRawData classes is not used. It always contains 100.
 ms.assetid: 020a78cc-7f6c-4940-a528-b159f1f34dd3
 ms.tgt_platform: multiple
 title: PerfDetail Qualifier
@@ -23,7 +23,7 @@ The **PerfDetail** qualifier in [**Win32\_PerfRawData**](/windows/desktop/CIMWin
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

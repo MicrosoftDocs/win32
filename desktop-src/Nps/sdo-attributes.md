@@ -1,6 +1,6 @@
 ---
 title: Attributes (Network Policy Server)
-description: Attributes
+description: This article links to the attributes enumeration types to use when manipulating RADIUS dictionary attributes on the SDO computer. 
 ms.assetid: af7d220d-f920-4480-9cf1-72a2cb542e4e
 ms.tgt_platform: multiple
 ms.topic: article

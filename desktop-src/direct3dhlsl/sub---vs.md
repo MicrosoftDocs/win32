@@ -1,6 +1,6 @@
 ---
 title: sub - vs
-description: Subtracts sources.
+description: Subtracts sources. | sub - vs
 ms.assetid: ccd7ca57-05a9-4ee8-8bda-c8c875476aaf
 ms.topic: reference
 ms.date: 05/31/2018

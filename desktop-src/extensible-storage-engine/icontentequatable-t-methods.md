@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IContentEquatable<T> methods"
 title: IContentEquatable(T) methods
 TOCTitle: IContentEquatable(T) methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IContentEquatable`1
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [IContentEquatable\<T\>](hh578046\(v=exchg.10\).md) type exposes the following members.
+The [IContentEquatable\<T\>](./icontentequatable-t-interface.md) type exposes the following members.
 
 ## Methods
 
@@ -41,7 +42,6 @@ Top
 
 #### Reference
 
-[IContentEquatable\<T\> interface](hh578046\(v=exchg.10\).md)
+[IContentEquatable\<T\> interface](./icontentequatable-t-interface.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

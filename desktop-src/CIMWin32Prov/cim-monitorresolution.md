@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MonitorResolution class represents the relationship between horizontal and vertical resolutions and the refresh rate and scan mode for a desktop monitor. Values are specified in the video controller object.
+description: The CIM\_MonitorResolution class represents the relationship between horizontal and vertical resolutions and the refresh rate and scan mode for a desktop monitor. Values are specified in the video controller object.
 ms.assetid: 064620dd-2d92-42d0-9167-35867830a077
 ms.tgt_platform: multiple
 title: CIM_MonitorResolution class
@@ -258,7 +258,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

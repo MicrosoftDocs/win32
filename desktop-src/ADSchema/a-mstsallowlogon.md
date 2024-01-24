@@ -22,7 +22,7 @@ Specifies whether the user is allowed to log on to the Terminal Server. The valu
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Allow-Logon                    |
 | Ldap-Display-Name | msTSAllowLogon                       |
@@ -45,7 +45,7 @@ Specifies whether the user is allowed to log on to the Terminal Server. The valu
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Specifies whether the user is allowed to log on to the Terminal Server. The valu
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Specifies whether the user is allowed to log on to the Terminal Server. The valu
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

@@ -1,5 +1,5 @@
 ---
-Description: Using the Microsoft Visual Basic integrated development environment (IDE) for debugging gives Visual Basic developers access to familiar tools and ease-of-use.
+description: Using the Microsoft Visual Basic integrated development environment (IDE) for debugging gives Visual Basic developers access to familiar tools and ease-of-use.
 ms.assetid: d31efc97-c286-434d-93f5-77b34ec16205
 title: Debugging in the Visual Basic IDE
 ms.topic: article

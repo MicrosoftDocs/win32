@@ -1,5 +1,5 @@
 ---
-Description: The XMUNIBBLE4 structure exposes the following operators.
+description: The XMUNIBBLE4 structure exposes the following operators.
 ms.assetid: a0f959a2-b093-42e3-ab64-cc09bd3fc860
 title: XMUNIBBLE4 Operators
 ms.topic: reference

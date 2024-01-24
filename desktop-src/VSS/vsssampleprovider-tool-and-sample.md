@@ -1,5 +1,5 @@
 ---
-Description: Shows how to use the VSS interfaces to create a VSS hardware provider.
+description: Shows how to use the VSS interfaces to create a VSS hardware provider.
 ms.assetid: 4d3c3f3c-22d2-4246-afef-aee2a0bd52d6
 title: VssSampleProvider Tool and Sample
 ms.topic: article
@@ -70,7 +70,7 @@ The VssSampleProvider sample includes the following installation and uninstallat
 
         The VSS sample provider recognizes a LUN only if **VSS Sample HW Provider** is a part of the storage identifier. For more information about the storage identifier, see the following blog post.
 
-        [LUN - Resync with Diskshadow and Virtual Storage](https://blogs.msdn.microsoft.com/b/himanshu_kale/archive/2009/06/02/lun-resync-with-diskshadow-virtual-storage.aspx)
+        [LUN - Resync with Diskshadow and Virtual Storage](https://techcommunity.microsoft.com/t5/storage-at-microsoft/diskshadow-scripts-for-lun-resync/ba-p/423885)
 
     2.  In the command prompt window, use diskpart.exe to format the virtual disk and assign a drive letter to it.
 
@@ -94,7 +94,7 @@ The VssSampleProvider sample includes the following installation and uninstallat
 
     
 
-    *<drive>* represents the drive letter of the virtual LUN.
+    *&lt;drive&gt;* represents the drive letter of the virtual LUN.
 
 7.  To uninstall the VSS sample provider, in the command prompt window, type the following command:
 

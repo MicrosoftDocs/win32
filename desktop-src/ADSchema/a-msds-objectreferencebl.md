@@ -22,7 +22,7 @@ Backward link for [**ms-DS-Object-Reference**](a-msds-objectreference.md).
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Object-Reference-BL               |
 | Ldap-Display-Name | msDS-ObjectReferenceBL                  |
@@ -47,7 +47,7 @@ Backward link for [**ms-DS-Object-Reference**](a-msds-objectreference.md).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2039                            |
 | MAPI-Id                | \-                              |
@@ -68,7 +68,7 @@ Backward link for [**ms-DS-Object-Reference**](a-msds-objectreference.md).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2039                            |
 | MAPI-Id                | \-                              |
@@ -89,7 +89,7 @@ Backward link for [**ms-DS-Object-Reference**](a-msds-objectreference.md).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2039                            |
 | MAPI-Id                | \-                              |
@@ -110,7 +110,7 @@ Backward link for [**ms-DS-Object-Reference**](a-msds-objectreference.md).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2039                            |
 | MAPI-Id                | \-                              |
@@ -131,7 +131,7 @@ Backward link for [**ms-DS-Object-Reference**](a-msds-objectreference.md).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2039                            |
 | MAPI-Id                | \-                              |

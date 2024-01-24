@@ -1,5 +1,5 @@
 ---
-Description: The Title property is a read-only property that returns the title of the feature in the Title column of the Feature table.
+description: The Title property is a read-only property that returns the title of the feature in the Title column of the Feature table.
 ms.assetid: 8369b1bb-eaf6-4ba6-98b9-424e24efdf96
 title: FeatureInfo.Title property
 ms.topic: reference
@@ -36,7 +36,7 @@ propVal = FeatureInfo.Title
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

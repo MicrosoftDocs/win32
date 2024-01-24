@@ -1,5 +1,5 @@
 ---
-Description: Enables low-latency processing in the Microsoft Media Foundation pipeline.
+description: Enables low-latency processing in the Microsoft Media Foundation pipeline.
 ms.assetid: 4D11B4D6-8CFF-4850-BF8F-9019A1F79153
 title: MF_LOW_LATENCY attribute (Mfapi.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ Applications typically do not set this attribute directly on the pipeline compon
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

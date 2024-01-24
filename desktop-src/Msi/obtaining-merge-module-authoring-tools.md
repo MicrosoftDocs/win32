@@ -1,5 +1,5 @@
 ---
-Description: To generate a merge module, you need to obtain a software tool with which to edit an .msm file.
+description: To generate a merge module, you need to obtain a software tool with which to edit an .msm file.
 ms.assetid: bc14d36a-b299-4c61-ade2-43fad142d21d
 title: Obtaining Merge Module Authoring Tools
 ms.topic: article

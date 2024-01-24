@@ -1,5 +1,5 @@
 ---
-Description: The SetFloatValue method adds a new FLOAT value (type VT\_R4) or overwrites an existing one.
+description: The SetFloatValue method adds a new FLOAT value (type VT\_R4) or overwrites an existing one.
 ms.assetid: 1e0c9d19-47bf-4d93-a0c0-27e2c4897012
 title: IPortableDeviceValues::SetFloatValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If an existing value has the same key that is specified by the *key* parameter, 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

@@ -22,7 +22,7 @@ Backward pointer to foreign objects.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Remote-Source                               |
 | Ldap-Display-Name | remoteSource                                |
@@ -48,7 +48,7 @@ Backward pointer to foreign objects.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -69,7 +69,7 @@ Backward pointer to foreign objects.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -90,7 +90,7 @@ Backward pointer to foreign objects.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -111,7 +111,7 @@ Backward pointer to foreign objects.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -132,7 +132,7 @@ Backward pointer to foreign objects.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -153,7 +153,7 @@ Backward pointer to foreign objects.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

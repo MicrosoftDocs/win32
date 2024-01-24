@@ -1,5 +1,5 @@
 ---
-Description: Verifies a single catalog file using standard operating system code signing policy, such as driver signing.
+description: Verifies a single catalog file using standard operating system code signing policy, such as driver signing.
 ms.assetid: 1e2a18a5-506e-46a8-9309-666bec92182d
 title: pSetupVerifyCatalogFile function
 ms.topic: reference
@@ -55,7 +55,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 

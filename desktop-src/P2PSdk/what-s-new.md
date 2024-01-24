@@ -1,12 +1,12 @@
 ---
-Description: Whats New
+description: Whats New
 ms.assetid: 5fea45a4-afef-417c-b042-53ae930cad9e
 title: Whats New (Peer-to-Peer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# Whats New (Peer-to-Peer)
 
 ## Windows Server 2008 and Windows Vista
 

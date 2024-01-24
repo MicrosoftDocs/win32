@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetExternalRestore2 Function"
 title: JetExternalRestore2 Function
 TOCTitle: JetExternalRestore2 Function
 ms:assetid: 66331be0-7abc-43a0-8b8b-dbdd227c918e
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetExternalRestore2 Function
 
-The **JetExternalRestore2** function restores an external backup that was taken with the external backup APIs and provides checkpoints to use for circular logging operations. This is known as hard recovery, which is similar but different than soft recovery as performed by the [JetInit](gg294068\(v=exchg.10\).md) function.
+The **JetExternalRestore2** function restores an external backup that was taken with the external backup APIs and provides checkpoints to use for circular logging operations. This is known as hard recovery, which is similar but different than soft recovery as performed by the [JetInit](./jetinit-function.md) function.
 
 **Windows XP:  JetExternalRestore2** is introduced in Windows XP.
 
@@ -60,7 +61,7 @@ The path or directory for the logs for the final phase (undo) of the recovery an
 
 *rgrstmap*
 
-This is an array of [JET_RSTMAP](gg294077\(v=exchg.10\).md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of the databases to restore.
+This is an array of [JET_RSTMAP](./jet-rstmap-structure.md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of the databases to restore.
 
 *crstfilemap*
 
@@ -92,66 +93,23 @@ The status callback, which reports the progress of the recovery.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>The <em>szTargetInstanceLogPath</em> specified does not belong to an initialized instance. This error will only be returned in Windows XP and later.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseCorrupted</p></td>
-<td><p>This indicates the database was corrupted, or an unrecognized file.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errEndingRestoreLogTooLow</p></td>
-<td><p>This error is returned if one for the log files in the <em>szBackupLogPath</em>, has a log generation above that specified in <em>genHigh</em> or <em>pLogInfo.ulGenHigh</em>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFileNotFound</p></td>
-<td><p>The operation failed because it could not open the requested file because it could not be found at the specified path.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>One of the parameters provided contained an unexpected value or contained a value that did not make sense when combined with the value of another parameter. This can happen for <a href="gg294088(v=exchg.10).md">JetExternalRestore</a>, and so on when the <em>szTargetCheckpointPath</em> and the <em>szTargetInstanceLogPath</em> are either not both specified or not both unspecified. That is, they must match, and be both specified or both unspecified.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidPath</p></td>
-<td><p>The operation failed because the specified path could not be found.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>The operation failed because not enough memory could be allocated to complete it.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreOfNonBackupDatabase</p></td>
-<td><p>This error is returned if the database file specified during restore is not a database that was backed up with external backup.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>The database engine cannot run external restore or hard recovery in single instance mode. This error will only be returned in Windows XP and later.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errStartingRestoreLogTooHigh</p></td>
-<td><p>This error is returned if one of the log files in the <em>szBackupLogPath</em>, has a log generation below that specified by the <em>genLow</em> or <em>pLogInfo.ulGenLow</em>.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errBadRestoreTargetInstance</p> | <p>The <em>szTargetInstanceLogPath</em> specified does not belong to an initialized instance. This error will only be returned in Windows XP and later.</p> | 
+| <p>JET_errDatabaseCorrupted</p> | <p>This indicates the database was corrupted, or an unrecognized file.</p> | 
+| <p>JET_errEndingRestoreLogTooLow</p> | <p>This error is returned if one for the log files in the <em>szBackupLogPath</em>, has a log generation above that specified in <em>genHigh</em> or <em>pLogInfo.ulGenHigh</em>.</p> | 
+| <p>JET_errFileNotFound</p> | <p>The operation failed because it could not open the requested file because it could not be found at the specified path.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>One of the parameters provided contained an unexpected value or contained a value that did not make sense when combined with the value of another parameter. This can happen for <a href="gg294088(v=exchg.10).md">JetExternalRestore</a>, and so on when the <em>szTargetCheckpointPath</em> and the <em>szTargetInstanceLogPath</em> are either not both specified or not both unspecified. That is, they must match, and be both specified or both unspecified.</p> | 
+| <p>JET_errInvalidPath</p> | <p>The operation failed because the specified path could not be found.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>The operation failed because not enough memory could be allocated to complete it.</p> | 
+| <p>JET_errRestoreOfNonBackupDatabase</p> | <p>This error is returned if the database file specified during restore is not a database that was backed up with external backup.</p> | 
+| <p>JET_errRunningInOneInstanceMode</p> | <p>The database engine cannot run external restore or hard recovery in single instance mode. This error will only be returned in Windows XP and later.</p> | 
+| <p>JET_errStartingRestoreLogTooHigh</p> | <p>This error is returned if one of the log files in the <em>szBackupLogPath</em>, has a log generation below that specified by the <em>genLow</em> or <em>pLogInfo.ulGenLow</em>.</p> | 
+
 
 
 On success, all databases from the *rgrstmap* are completely recovered and in a clean or consistent state. At this point the database can be remounted to an existing instance.
@@ -160,51 +118,28 @@ On failure, the engine could not recover the database. The database is in an inv
 
 #### Remarks
 
-See [JetExternalRestore](gg294088\(v=exchg.10\).md).
+See [JetExternalRestore](./jetexternalrestore-function.md).
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista or Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008 or Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JetExternalRestore2W</strong> (Unicode) and <strong>JetExternalRestore2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista or Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008 or Windows Server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetExternalRestore2W</strong> (Unicode) and <strong>JetExternalRestore2A</strong> (ANSI).</p> | 
+
 
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_LOGINFO](gg294063\(v=exchg.10\).md)  
-[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
-[JET_RSTMAP](gg294077\(v=exchg.10\).md)  
-[JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JetExternalRestore](gg294088\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_LOGINFO](./jet-loginfo-structure.md)  
+[JET_PFNSTATUS](./jet-pfnstatus-callback-function.md)  
+[JET_RSTMAP](./jet-rstmap-structure.md)  
+[JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
+[JetExternalRestore](./jetexternalrestore-function.md)  
+[JetInit](./jetinit-function.md)

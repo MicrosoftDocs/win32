@@ -1,5 +1,5 @@
 ---
-Description: The SO\_EXCLUSIVEADDRUSE socket option prevents other sockets from being forcibly bound to the same address and port.
+description: The SO\_EXCLUSIVEADDRUSE socket option prevents other sockets from being forcibly bound to the same address and port.
 ms.assetid: ce0d8188-54be-46e8-8753-d0680f690b84
 title: SO_EXCLUSIVEADDRUSE socket option (Winsock2.h)
 ms.topic: reference
@@ -285,7 +285,7 @@ The SO\_LINGER option may be set on a socket to prevent the port going into one 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

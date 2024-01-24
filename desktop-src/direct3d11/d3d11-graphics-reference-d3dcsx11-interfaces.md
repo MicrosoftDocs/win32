@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 This section contains reference information about the COM interfaces provided by the D3DCSX utility library.
 
-## 
 
 ## In this section
 

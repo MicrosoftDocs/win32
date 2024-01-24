@@ -266,6 +266,12 @@
     items: 
     - name: "doWipeMethod method"
       href: mdm-remotewipe-dowipemethod.md
+    - name: "doWipePersistProvisionedDataMethod method"
+      href: mdm-remotewipe-dowipepersistprovisioneddatamethod.md
+    - name: "doWipePersistUserDataMethod method"
+      href: mdm-remotewipe-dowipepersistuserdatamethod.md
+    - name: "doWipeProtectedMethod method"
+      href: mdm-remotewipe-dowipeprotectedmethod.md
   - name: "MDM_Reporting_EnterpriseDataProtection01_RetrieveByCount02"
     href: mdm-reporting-enterprisedataprotection01-retrievebycount02.md
   - name: "MDM_Reporting_EnterpriseDataProtection01_RetrieveByTimeRange02"

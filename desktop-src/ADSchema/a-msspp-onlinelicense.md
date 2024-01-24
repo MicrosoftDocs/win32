@@ -1,6 +1,6 @@
 ---
 title: ms-SPP-Online-License attribute
-description: License used during online activation of the Active Directory forest
+description: License used during online activation of the Active Directory forest | ms-SPP-Online-License attribute
 ms.assetid: f86a5b28-3690-4caf-ba22-f8b846337ca1
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ License used during online activation of the Active Directory forest
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-SPP-Online-License                                 |
 | Ldap-Display-Name | msSPP-OnlineLicense                                   |
@@ -43,7 +43,7 @@ License used during online activation of the Active Directory forest
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

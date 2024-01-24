@@ -1,5 +1,5 @@
 ---
-Description: Sets a new class identifier in the application protocol data unit (APDU).
+description: Sets a new class identifier in the application protocol data unit (APDU).
 ms.assetid: 7e7d42f2-2858-4b37-a7d5-a919e3e005da
 title: ISCardCmd::put_ClassId method (Scarddat.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

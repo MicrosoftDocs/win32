@@ -1,6 +1,6 @@
 ---
 title: Error Codes (Windows Media Device Manager 11 SDK)
-description: Error Codes
+description: Learn about the various error codes that can be returned by Windows Media technologies, organized by origin.
 ms.assetid: 37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad
 keywords:
 - Windows Media Device Manager,error codes
@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Codes
+# Error Codes (Windows Media Device Manager 11 SDK)
 
 Windows Media Device Manager methods can return a variety of error codes. Some of these are specific to the Windows Media Device Manager, while others are defined by other SDKs or porting kits used to build a device and bubbled up to the Windows Media Device Manager methods. This section describes the various error codes that can be returned by Windows Media technologies, organized by origin.
 
@@ -27,7 +27,7 @@ The following error codes are defined by the Windows Media Device Manager SDK.
 | WMDM\_E\_BUSY                          | The device is busy and cannot satisfy the new request.                                                                                               |
 | WMDM\_E\_CALL\_OUT\_OF\_SEQUENCE       | Operations were called in the wrong order. (For example, calling Read without Open.)                                                                 |
 | WMDM\_E\_INCORRECT\_APPSEC             | The minimum level of application security is not correct. This can be caused if a device's key/certificate pair is not a high enough security level. |
-| WMDM\_E\_CANTOPEN\_PMSN\_SERVICE\_PIPE | PMSN service pipe can not be opened.                                                                                                                 |
+| WMDM\_E\_CANTOPEN\_PMSN\_SERVICE\_PIPE | PMSN service pipe cannot be opened.                                                                                                                 |
 | WMDM\_E\_INCORRECT\_RIGHTS             | The rights for a file are not correct.                                                                                                               |
 | WMDM\_E\_INTERFACEDEAD                 | The object has disconnected itself from the clients.                                                                                                 |
 | WMDM\_E\_INVALIDTYPE                   | The type is not valid.                                                                                                                               |
@@ -239,8 +239,8 @@ The following error codes are defined in the Windows Media DRM for Portable Devi
 | DRM\_E\_WRONGTOKENTYPE                      | The token parameter is of an incompatible type.                                                                                                                                    | 0x8004c00d        |
 | DRM\_E\_XMLNOTFOUND                         | A required XML tag cannot be found.                                                                                                                                                | 0X8004C04F        |
 | NS\_E\_DRM\_DEBUGGING\_NOT\_ALLOWED         | A command cannot be run with a debugger attached.                                                                                                                                  | 0xC00D2767        |
-|                                             | The DRM security elements must be updated. The user can go to the [Windows Media Individualization Page](https://drmlicense.one.microsoft.com/Indivsite/force.asp) to update their computer. | 0x800480CF        |
-|                                             | The DRM security elements must be updated. The user can go to the [Windows Media Individualization Page](https://drmlicense.one.microsoft.com/Indivsite/force.asp) to update their computer. | 0x80049006        |
+|                                             | The DRM security elements must be updated. The user can visit [DRM individualization](../wmformat/drm-individualization.md) to update their computer. | 0x800480CF        |
+|                                             | The DRM security elements must be updated. The user can visit [DRM individualization](../wmformat/drm-individualization.md) to update their computer. | 0x80049006        |
 
 
 

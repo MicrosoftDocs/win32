@@ -1,5 +1,5 @@
 ---
-Description: The Description property returns the value from the Description column of the ModuleConfiguration table.
+description: The Description property returns the value from the Description column of the ModuleConfiguration table.
 ms.assetid: a43e3392-0539-4904-a0d9-827b69e1ce07
 title: ConfigurableItem.Description property (Mergemod.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ See [**get\_Description**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigu
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

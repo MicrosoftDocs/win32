@@ -45,36 +45,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Slider
-<ul>
-<li>Button (2 or 4)</li>
-<li>Thumb (1)</li>
-<li>List Item (0 or more)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Slider
-<ul>
-<li>List Item (0 or more)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>Slider<ul><li>Button (2 or 4)</li><li>Thumb (1)</li><li>List Item (0 or more)</li></ul></li></ul> | <ul><li>Slider<ul><li>List Item (0 or more)</li></ul></li></ul> | 
+
 
 
 

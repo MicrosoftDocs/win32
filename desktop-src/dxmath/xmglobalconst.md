@@ -1,5 +1,5 @@
 ---
-Description: Declares an object to be a pick-any constant, to avoid redundant reloads of that object if it is used (and declared) in multiple places in the DirectXMath Library.
+description: Declares an object to be a pick-any constant, to avoid redundant reloads of that object if it is used (and declared) in multiple places in the DirectXMath Library.
 ms.assetid: FDE5C004-9E8E-4890-8FDC-987C1569D8E5
 title: XMGLOBALCONST macro
 ms.topic: reference

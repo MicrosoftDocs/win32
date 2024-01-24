@@ -1,5 +1,5 @@
 ---
-Description: TopoEdit Modules
+description: TopoEdit Modules
 ms.assetid: f3da2d13-a8ad-4db0-9d18-e94857f0abc7
 title: TopoEdit Modules
 ms.topic: article
@@ -26,7 +26,7 @@ Regsvr32 <Install path>\Microsoft SDKs\Windows\v6.0\Bin\TEDUTIL.dll
 
 Source code for TopoEdit is also provided as a sample in the Windows SDK. It is located in the following directory:
 
-<samples root>\\Multimedia\\Media Foundation\\TopoEdit
+\<samples root\>\\Multimedia\\Media Foundation\\TopoEdit
 
 ## Related topics
 

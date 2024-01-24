@@ -1,5 +1,5 @@
 ---
-Description: XPS Document Enumerations
+description: XPS Document Enumerations
 ms.assetid: 5abe6898-bb2c-4c4a-9a88-d84f71cb33e0
 title: XPS Document Enumerations
 ms.topic: article

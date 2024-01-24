@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about the native PNG codec available through the Windows Imaging Component (WIC).
+description: This topic provides information about the native PNG codec available through the Windows Imaging Component (WIC).
 ms.assetid: 703217EA-70C8-4F86-B8DF-95468C78C8DA
 title: PNG Format Overview
 ms.topic: article
@@ -16,7 +16,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                 |
+|     Component          | Description                     |
 |------------------------|---------------------------------|
 | Formal Name(s)         | Portable Network Graphics (PNG) |
 | File Name Extension(s) | png                             |

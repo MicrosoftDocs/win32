@@ -22,7 +22,7 @@ Specifies a path to the user's profile. This value can be a null string, a local
 
 
 
-|                   |                                                                          |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------|
 | CN                | Profile-Path                                                             |
 | Ldap-Display-Name | profilePath                                                              |
@@ -48,7 +48,7 @@ Specifies a path to the user's profile. This value can be a null string, a local
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ Specifies a path to the user's profile. This value can be a null string, a local
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ Specifies a path to the user's profile. This value can be a null string, a local
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -111,7 +111,7 @@ Specifies a path to the user's profile. This value can be a null string, a local
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -132,7 +132,7 @@ Specifies a path to the user's profile. This value can be a null string, a local
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -153,7 +153,7 @@ Specifies a path to the user's profile. This value can be a null string, a local
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

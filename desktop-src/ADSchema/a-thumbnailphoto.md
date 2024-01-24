@@ -22,7 +22,7 @@ An image of the user. A space-efficient format like JPEG or GIF is recommended.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Picture                                               |
 | Ldap-Display-Name | thumbnailPhoto                                        |
@@ -48,7 +48,7 @@ An image of the user. A space-efficient format like JPEG or GIF is recommended.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -69,7 +69,7 @@ An image of the user. A space-efficient format like JPEG or GIF is recommended.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -90,7 +90,7 @@ An image of the user. A space-efficient format like JPEG or GIF is recommended.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -111,7 +111,7 @@ An image of the user. A space-efficient format like JPEG or GIF is recommended.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C9E                                                             |
@@ -132,7 +132,7 @@ An image of the user. A space-efficient format like JPEG or GIF is recommended.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C9E                                                             |
@@ -153,7 +153,7 @@ An image of the user. A space-efficient format like JPEG or GIF is recommended.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C9E                                                             |

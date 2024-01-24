@@ -1,5 +1,5 @@
 ---
-Description: Direct3D 9 Video APIs
+description: Direct3D 9 Video APIs
 ms.assetid: 2f5f46a0-f21f-4e57-9297-bad2b791da52
 title: Direct3D 9 Video APIs
 ms.topic: article

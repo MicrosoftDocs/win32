@@ -21,7 +21,7 @@ Validated write permission to enable updating membership of a group in terms of 
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Self-Membership                      |
 | Display-Name | Add/Remove self as member            |
@@ -43,7 +43,7 @@ Validated write permission to enable updating membership of a group in terms of 
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 12                                  |
@@ -54,7 +54,7 @@ Validated write permission to enable updating membership of a group in terms of 
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 12                                  |
@@ -65,7 +65,7 @@ Validated write permission to enable updating membership of a group in terms of 
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 12                                  |
@@ -76,7 +76,7 @@ Validated write permission to enable updating membership of a group in terms of 
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 12                                  |
@@ -87,7 +87,7 @@ Validated write permission to enable updating membership of a group in terms of 
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 12                                  |
@@ -98,7 +98,7 @@ Validated write permission to enable updating membership of a group in terms of 
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 12                                  |
@@ -109,7 +109,7 @@ Validated write permission to enable updating membership of a group in terms of 
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 12                                  |

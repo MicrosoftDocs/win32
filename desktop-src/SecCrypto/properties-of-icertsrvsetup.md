@@ -1,5 +1,5 @@
 ---
-Description: Properties defined by the ICertSrvSetup interface.
+description: Properties defined by the ICertSrvSetup interface.
 ms.assetid: ffe81266-1787-4883-a99e-5f1a537396b8
 title: Properties of ICertSrvSetup
 ms.topic: article

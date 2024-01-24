@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how Media Foundation Transforms should handle time stamps.
+description: This topic describes how Media Foundation Transforms should handle time stamps.
 ms.assetid: 4ab576ce-becd-4736-921e-e463c0dff841
 title: Time Stamps and Durations
 ms.topic: article

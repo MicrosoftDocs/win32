@@ -1,6 +1,6 @@
 ---
 title: glPopMatrix function (Gl.h)
-description: The glPushMatrix and glPopMatrix functions push and pop the current matrix stack.
+description: The glPushMatrix and glPopMatrix functions push and pop the current matrix stack. | glPopMatrix function (Gl.h)
 ms.assetid: 7b4fc26e-36c8-4252-aba7-2e8ec6b34f91
 keywords:
 - glPopMatrix function OpenGL
@@ -52,21 +52,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-It is an error to push a full matrix stack, or to pop a matrix stack that contains only a single matrix. In either case, the error flag is set and no other change is made to the OpenGL state.
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_STACK\_UNDERFLOW**</dt> </dl>   | The function was called while the current matrix stack contained only a single matrix.<br/>                                     |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 There is a stack of matrices for each of the matrix modes. In GL\_MODELVIEW mode, the stack depth is at least 32. In the other two modes, GL\_PROJECTION and GL\_TEXTURE, the depth is at least 2. The current matrix in any mode is the matrix on the top of the stack for that mode.
@@ -99,7 +84,7 @@ The following functions retrieve information related to [**glPushMatrix**](glpus
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

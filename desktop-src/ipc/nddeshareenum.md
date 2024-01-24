@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the list of available DDE shares.
+description: Retrieves the list of available DDE shares.
 ms.assetid: ce5aeddd-d9d1-40a2-a807-1a9c9f98f171
 title: NDdeShareEnum function (Nddeapi.h)
 ms.topic: reference
@@ -95,7 +95,7 @@ If the function fails, the return value is an error code, which can be translate
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

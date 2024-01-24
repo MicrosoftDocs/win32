@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Provides notification of modifications to user identities on the system, as well as user requests to switch the current user identity.
+description: Deprecated. Provides notification of modifications to user identities on the system, as well as user requests to switch the current user identity.
 ms.assetid: 09903aa6-62bf-4820-9a09-79956d775441
 title: IIdentityChangeNotify interface (Msident.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ To implement notifications, a derived interface must connect to the [**IUserIden
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

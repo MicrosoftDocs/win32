@@ -1,12 +1,15 @@
 ---
-Description: The lock attribute specifies whether an object should be edited. If the value is TRUE, the application should treat the object as locked, and disallow changes to that object or its children. The default value is FALSE.
+description: The lock attribute specifies whether an object should be edited. If the value is TRUE, the application should treat the object as locked, and disallow changes to that object or its children. The default value is FALSE.
 ms.assetid: 1aa92665-ab3b-4f04-9e6b-905942c197ef
 title: lock Attribute
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # lock Attribute
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Fan WMI class represents the properties of a fan device in the computer system. For example, the CPU cooling fan.
+description: The Win32\_Fan WMI class represents the properties of a fan device in the computer system. For example, the CPU cooling fan.
 ms.assetid: ff48b788-d759-45cf-812f-a80dba0c9192
 ms.tgt_platform: multiple
 title: Win32_Fan class
@@ -1226,8 +1226,6 @@ The **Win32\_Fan** class is derived from [**CIM\_Fan**](cim-fan.md).
 
 ## Examples
 
-The [List Computer Fan Information](https://Gallery.TechNet.Microsoft.Com/d1534503-704f-4450-8dab-f3e760bf818c) PowerShell sample retrieves information about the cooling fans installed in a computer.
-
 The following sample retrieves information about the cooling fans installed on a computer.
 
 
@@ -1270,7 +1268,7 @@ foreach ($objItem in $colItems)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

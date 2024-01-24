@@ -1,5 +1,5 @@
 ---
-Description: Defines text or CDATA to be reused by the include element.
+description: Defines text or CDATA to be reused by the include element.
 ms.assetid: bf5cc1e2-b08e-45b6-8e07-5c69865b695b
 title: macro element
 ms.topic: reference
@@ -55,7 +55,7 @@ The following XML shows how to include the **DoNotModify** macro. This XML can b
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

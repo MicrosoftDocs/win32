@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the type of extended property. This is the default property.
+description: Sets or retrieves the type of extended property. This is the default property.
 ms.assetid: c2917126-929b-4b60-bcde-0ad919cb03d4
 title: ExtendedProperty.PropID property
 ms.topic: reference
@@ -86,7 +86,7 @@ A value of the [**CAPICOM\_PROPID**](capicom-propid.md) enumeration that defines
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

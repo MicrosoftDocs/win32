@@ -1,5 +1,5 @@
 ---
-Description: Locks a range of vertex or texel sample data and obtains a pointer to the location in buffer memory.
+description: Locks a range of vertex or texel sample data and obtains a pointer to the location in buffer memory.
 ms.assetid: 8de2725f-507e-41ee-828d-2fb19cc2252c
 title: ID3DXPRTBuffer::LockBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

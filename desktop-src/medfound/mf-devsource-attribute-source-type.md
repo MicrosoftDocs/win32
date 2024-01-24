@@ -1,5 +1,5 @@
 ---
-Description: Specifies a devices type, such as audio capture or video capture.
+description: Specifies a devices type, such as audio capture or video capture.
 ms.assetid: c6c05267-1c93-48e2-b463-b5a1514f1b7b
 title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE attribute (Mfidl.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

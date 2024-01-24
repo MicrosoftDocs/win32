@@ -1,5 +1,5 @@
 ---
-Description: The OnObjectReady event of an SWbemSink object is triggered when an asynchronous operation returns an object.
+description: The OnObjectReady event of an SWbemSink object is triggered when an asynchronous operation returns an object.
 ms.assetid: 14110ee7-a808-4786-b695-2ce54189d826
 ms.tgt_platform: multiple
 title: ISWbemSinkEvents::OnObjectReady event (Wbemdisp.h)
@@ -92,7 +92,7 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

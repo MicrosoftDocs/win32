@@ -1,5 +1,5 @@
 ---
-Description: You can hide the Cancel button that is used to cancel an installation by using a command-line option, the Windows Installer API, or a custom action. The Cancel button can be hidden for part or all of the installation depending on which method you use.
+description: You can hide the Cancel button that is used to cancel an installation by using a command-line option, the Windows Installer API, or a custom action. The Cancel button can be hidden for part or all of the installation depending on which method you use.
 ms.assetid: de2bb788-0d19-4818-8038-cae6000b38c4
 title: Hiding the Cancel Button During an Installation
 ms.topic: article

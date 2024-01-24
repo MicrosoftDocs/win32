@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RebootAction class causes a system reboot where the software element is installed.
+description: The CIM\_RebootAction class causes a system reboot where the software element is installed.
 ms.assetid: 4da5f0b0-3c09-4dd6-b821-43953f629829
 ms.tgt_platform: multiple
 title: CIM_RebootAction class
@@ -805,8 +805,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from [**CIM\_Action**](cim-action.md).
 
@@ -822,7 +822,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

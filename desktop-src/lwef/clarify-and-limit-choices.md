@@ -34,7 +34,7 @@ You can also use directive prompts to avoid open-ended input. Directive prompts 
 
 
 
-|                                            |                                                     |
+| Prompt                                           | Evaluation                                                    |
 |--------------------------------------------|-----------------------------------------------------|
 | What do you want?                          | Too general, an open-ended request                  |
 | Choose a pizza style or ingredient.        | Good, if choices are visible, but still general     |
@@ -48,16 +48,9 @@ This guides the user toward issuing a valid command. By suggesting the words or 
 
 Wording influences the success of a prompt. For example, the prompt, "Would you like to order your pizza?" could generate either a "Yes" or "No" response, but it might also generate an order request. Define prompts to be non-ambiguous or be prepared to accept a larger variety of possible responses. In addition, note the tendency for people to mimic words and constructs they hear. This can often be used to help evoke an appropriate response as in the following example:
 
+**User:** Show me all messages from Paul.
 
-
-|            |                                 |
-|------------|---------------------------------|
-| User:      | Show me all messages from Paul. |
-| Character: |                                 |
-
-
-
- 
+**Character:**
 
 This is more likely to elicit the full name of one of the parties with the possible prefix of "I mean" or "I meant."
 
@@ -65,18 +58,13 @@ Because Microsoft Agent characters operate within the visual interface of Micros
 
 You can also use other modes of interaction to subtly suggest to users the appropriate speech grammar, as shown in the following example:
 
+**User:** (Clicks Hawaiian-style pizza option with the mouse)
 
+**Character:** Hawaiian-style pizza.
 
-|            |                                                     |
-|------------|-----------------------------------------------------|
-| User:      | (Clicks Hawaiian-style pizza option with the mouse) |
-| Character: | Hawaiian-style pizza.                               |
-| User:      | (Clicks Extra Cheese option with the mouse)         |
-| Character: | Add "Extra Cheese."                                 |
+**User:** (Clicks Extra Cheese option with the mouse)
 
-
-
- 
+**Character:** Add "Extra Cheese."
 
 Another important factor in successful speech input is cueing the user when the engine is ready for input, because many speech engines allow only a single utterance at a time. Microsoft Agent provides support for this in two ways. First, if the sound card supports MIDI, Microsoft Agent generates a brief tone to signal when the speech-input channel is available. Second, the Listening Tip window displays an appropriate text prompt when the character (speech engine) is listening for input. In addition, this tip displays what the engine heard.
 

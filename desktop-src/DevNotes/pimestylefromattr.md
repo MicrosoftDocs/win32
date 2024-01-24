@@ -1,5 +1,5 @@
 ---
-Description: Retrieves styles for a given attribute.
+description: Retrieves styles for a given attribute.
 ms.assetid: 206c69b9-981b-49ef-9f71-1c65e08637bb
 title: PIMEStyleFromAttr function
 ms.topic: reference
@@ -129,7 +129,7 @@ typedef struct {
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

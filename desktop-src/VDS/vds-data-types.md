@@ -1,5 +1,5 @@
 ---
-Description: The data types supported by VDS define function return values, function parameters, and structure members. Data types define the size and meaning of these elements.
+description: The data types supported by VDS define function return values, function parameters, and structure members. Data types define the size and meaning of these elements.
 ms.assetid: f17e8c7e-e3cb-49ca-9060-2299dda55770
 title: VDS Data Types
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # VDS Data Types
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 The data types supported by VDS define function return values, function parameters, and structure members. Data types define the size and meaning of these elements.
 

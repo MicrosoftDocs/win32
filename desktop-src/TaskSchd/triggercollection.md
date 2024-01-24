@@ -74,7 +74,7 @@ For more information and example code for this scripting object, see [Time Trigg
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |

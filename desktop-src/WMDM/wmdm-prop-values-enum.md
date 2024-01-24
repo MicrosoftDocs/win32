@@ -60,7 +60,7 @@ The caller is required to free the memory used by **pValues**. For an example of
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

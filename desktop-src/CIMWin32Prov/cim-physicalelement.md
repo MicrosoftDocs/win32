@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalElement subclasses define any component of a system that has a distinct physical identity. Instances of this class can be defined in terms of labels that can be physically attached to the object.
+description: The CIM\_PhysicalElement subclasses define any component of a system that has a distinct physical identity. Instances of this class can be defined in terms of labels that can be physically attached to the object.
 ms.assetid: 7ba6d1a9-f449-4ae2-a37c-517245bea39e
 ms.tgt_platform: multiple
 title: CIM_PhysicalElement class
@@ -424,7 +424,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

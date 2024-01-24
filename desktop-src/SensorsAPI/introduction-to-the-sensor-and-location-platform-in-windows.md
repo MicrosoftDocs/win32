@@ -1,9 +1,9 @@
 ---
-Description: The Windows 7 operating system provides built-in support for sensor devices.
+description: The Windows 7 operating system provides built-in support for sensor devices.
 ms.assetid: 751ba2fc-fbff-4418-82ac-eebc8a145b14
 title: Overview of the Windows sensor and location platform
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 11/06/2023
 ---
 
 # Overview of the Windows sensor and location platform
@@ -22,10 +22,10 @@ Location devices make up one especially interesting category. By now, most peopl
 
 The Windows Sensor and Location platform consists of the following developer and user components:
 
--   The DDI enables Windows to provide a standard way for sensor devices to connect to the computer and to provide data to other subsystems.
--   The Windows Sensor API provides a set of methods, properties, and events to work with connected sensors and sensor data.
--   The Windows Location API, which is built on the Windows Sensor API, provides a set of programming objects, including scripting objects, for working with location information.
--   The Location and Other Sensors Control Panel enables computer administrators to set sensors, including location sensors, for each user.
+- The DDI enables Windows to provide a standard way for sensor devices to connect to the computer and to provide data to other subsystems.
+- The Windows Sensor API provides a set of methods, properties, and events to work with connected sensors and sensor data.
+- The Windows Location API, which is built on the Windows Sensor API, provides a set of programming objects, including scripting objects, for working with location information.
+- The Location and Other Sensors Control Panel enables computer administrators to set sensors, including location sensors, for each user.
 
 The following sections describe each of these components.
 
@@ -57,6 +57,6 @@ The Control Panel also provides a Default Location page to enable users to provi
 
 [About the Sensor API](about-the-sensor-api.md)
 
-[Windows Hardware Developer Central Web site](https://www.microsoft.com/whdc/device/sensors/default.mspx)
+[Windows Hardware Developer Central Web site](https://developer.microsoft.com/windows/hardware/)
 
 [Windows Developer Center](https://msdn.microsoft.com/windows/default.aspx?wt.svl=client)

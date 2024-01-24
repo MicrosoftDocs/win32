@@ -1,5 +1,5 @@
 ---
-Description: Instead of drawing a line or curve with a solid color, you can draw with a texture.
+description: Instead of drawing a line or curve with a solid color, you can draw with a texture.
 ms.assetid: 326170a5-d21f-49d6-9f60-10b9bc8d97b4
 title: Drawing a Line Filled with a Texture
 ms.topic: article

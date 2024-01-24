@@ -23,9 +23,8 @@ Indices for which combined thread and thread group a compute shader is executing
 
 
 
-|       |
+| Type      |
 |-------|
-| Type  |
 | uint3 |
 
 
@@ -44,9 +43,8 @@ This function is supported in the following types of shaders:
 
 
 
-|        |      |        |          |       |         |
-|--------|------|--------|----------|-------|---------|
 | Vertex | Hull | Domain | Geometry | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
 

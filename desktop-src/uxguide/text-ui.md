@@ -1,12 +1,15 @@
 ---
 title: User Interface Text
-description: User interface text appears on UI surfaces.
+description: Learn about the user interface text that appears on UI surfaces.
 ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # User Interface Text
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 User interface text appears on UI surfaces. This text includes control labels and static text:
 
@@ -21,13 +24,13 @@ UI text has several usage patterns:
 
 
 
-|                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|   Usage                                                                                                                                                                                          |    Description                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Title bar text**<br/> use title bar text to identify a window or the source of a dialog box. <br/>                                                                            | ![screen shot of folder options title bar](images/text-ui-image1.png)<br/> In this example, the title bar text identifies a window.<br/>                                                                                                                                                                                                                                                                                                             |
-| **Main instructions**<br/> use the prominent main instruction to explain concisely what to do in the window or page. <br/>                                                      | The instruction should be a specific statement, imperative direction, or question. good main instructions communicate the user's objective rather than focusing just on manipulating the ui. <br/> ![screen shot of question: do you want latest help? ](images/text-ui-image2.png)<br/> In this example, the main instruction text directly engages the user with a question in terms of the user's own benefit or interest.<br/>             |
-| **Supplemental instructions**<br/> when necessary, use a supplemental instruction to present additional information helpful to understanding or using the window or page. <br/> | You can provide more detailed information, provide context, and define terminology. supplemental instructions elaborate on the main instruction without simply re-wording it. <br/> ![screen shot of text on switching to admin account ](images/text-ui-image3.png)<br/> In this example, the supplemental instructions provide two possible courses of action to take in response to the information presented in the main instruction.<br/> |
+| **Main instructions**<br/> use the prominent main instruction to explain concisely what to do in the window or page. <br/>                                                      | The instruction should be a specific statement, imperative direction, or question. Good main instructions communicate the user's objective rather than focusing just on manipulating the UI. <br/> ![screen shot of question: do you want latest help? ](images/text-ui-image2.png)<br/> In this example, the main instruction text directly engages the user with a question in terms of the user's own benefit or interest.<br/>             |
+| **Supplemental instructions**<br/> when necessary, use a supplemental instruction to present additional information helpful to understanding or using the window or page. <br/> | You can provide more detailed information, provide context, and define terminology. Supplemental instructions elaborate on the main instruction without simply re-wording it. <br/> ![screen shot of text on switching to admin account ](images/text-ui-image3.png)<br/> In this example, the supplemental instructions provide two possible courses of action to take in response to the information presented in the main instruction.<br/> |
 | **Control labels**<br/> labels directly on or next to controls. <br/>                                                                                                           | ![screen shot of desktop clock options ](images/text-ui-image4.png)<br/> In this example, control labels identify desktop clock settings that users can select or modify.<br/>                                                                                                                                                                                                                                                                       |
-| **Supplemental explanations**<br/> an elaboration of the control labels (typically for command links, radio buttons, and check boxes). <br/>                                    | ![screen shot of security-settings dialog box ](images/text-ui-image5.png)<br/> In this example, the supplemental explanations clarify the choices.<br/>                                                                                                                                                                                                                                                                                             |
+| **Supplemental explanations**<br/> an elaboration of the control labels (typically for command links, radio buttons, and check boxes). <br/>                                    | ![Screenshot that shows a security-settings dialog box.](images/text-ui-image5.png)<br/> In this example, the supplemental explanations clarify the choices.<br/>                                                                                                                                                                                                                                                                                             |
 
 
 
@@ -65,11 +68,11 @@ You should also assume that once users have decided what to do, they will immedi
 
 Redundant text not only takes valuable screen space, but weakens the effectiveness of the important ideas or actions that you are trying to convey. It is also a waste of the reader's time, and all the more so in a context where scanning is the norm. **Windows strives to explain what users need to do once well and concisely.**
 
-Review each window and eliminate duplicate words and statements, both within and across controls. Don't avoid important text be explicit wherever necessary but don't be redundant and don't explain the obvious.
+Review each window and eliminate duplicate words and statements, both within and across controls. Don't avoid important text; be explicit wherever necessary, but don't be redundant and don't explain the obvious.
 
 ### Avoid over-communication
 
-Even if text isn't redundant, it can simply be too wordy in an effort to explain every detail. **Too much text discourages reading the eye tends to skip right over it ironically resulting in less communication rather than more.** In UI text, concisely communicate the essential information. If more information is necessary for some users or some scenarios, provide a link to more detailed [Help content](winenv-help.md), or perhaps to a glossary entry for clarification of a term.
+Even if text isn't redundant, it can simply be too wordy in an effort to explain every detail. **Too much text discourages reading; the eye tends to skip right over it ironically resulting in less communication rather than more.** In UI text, concisely communicate the essential information. If more information is necessary for some users or some scenarios, provide a link to more detailed [Help content](winenv-help.md), or perhaps to a glossary entry for clarification of a term.
 
 **Incorrect:**
 
@@ -81,7 +84,7 @@ To avoid text that discourages reading, craft your text to make every word count
 
 ### Use the inverted pyramid
 
-Academic writing typically uses a "pyramid" structural style that lays down a foundation of facts, works with those facts, and builds up to a conclusion forming a pyramid-like structure. By contrast, journalists use an "inverted pyramid" style that starts with the conclusion the fundamental "takeaway" that readers must have. It then fills in progressively more detail that readers may be interested in perhaps just to scan. The advantage of this style is that it gets right to the point, and allows readers to stop reading at any point they choose and still understand the essential information.
+Academic writing typically uses a "pyramid" structural style that lays down a foundation of facts, works with those facts, and builds up to a conclusion forming a pyramid-like structure. By contrast, journalists use an "inverted pyramid" style that starts with the conclusion as the fundamental "takeaway" that readers must have. It then fills in progressively more detail that readers may be interested in perhaps just to scan. The advantage of this style is that it gets right to the point, and allows readers to stop reading at any point they choose and still understand the essential information.
 
 You should apply the inverted pyramid structure to UI text. Get right to the point with the essential information, let users stop reading at any time they choose, and use a Help link to present the remainder of the pyramid.
 
@@ -135,9 +138,8 @@ The following fonts and colors are defaults for Windows.
 
 
 
-|                                                                                      |                             |                                                            |
+| Pattern                                                                                     | Theme symbol                            | Font, Color                                                           |
 |--------------------------------------------------------------------------------------|-----------------------------|------------------------------------------------------------|
-| **Pattern**<br/>                                                               | **Theme symbol**<br/> | **Font, Color**<br/>                                 |
 | ![first column: title bar text ](images/text-ui-image12.png)<br/>              | CaptionFont<br/>      | 9 pt. black (\#000000) Segoe UI<br/>                 |
 | ![first column: main instructions ](images/text-ui-image13.png)<br/>           | MainInstruction<br/>  | 12 pt. blue (\#003399) Segoe UI<br/>                 |
 | ![first column: secondary instructions ](images/text-ui-image14.png)<br/>      | Instruction<br/>      | 9 pt. black (\#000000) Segoe UI<br/>                 |
@@ -456,7 +458,7 @@ For more information, see the "Main instruction" section in the specific UI comp
     -   **If an option is optional, consider adding "(optional)" to the label.**
     -   **If an option is strongly recommended, add "(recommended)" to the label.** Doing so means the setting is optional, but should be set anyway.
     -   **If an option is intended only for advanced users, consider adding "(advanced)" to the label.**
--   You may specify units (seconds, connections, and so on) in parenthesis after the label.
+-   You may specify units (seconds, connections, and so on) in parentheses after the label.
 
     ![screen shot of label: initial size (mb) ](images/text-ui-image44.png)
 
@@ -493,125 +495,21 @@ The following table shows the most common commit button labels and their usage.
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Button label</strong><br/></td>
-<td><strong>Meaning</strong><br/></td>
-<td><strong>When to use</strong><br/></td>
-<td><strong>Access key</strong><br/></td>
-</tr>
-<tr class="even">
-<td><strong>OK</strong><br/></td>
-<td><ul>
-<li>In dialog boxes: apply the changes or commit to the task and close the window.</li>
-<li>In owner property windows: apply the pending changes (made since the window was opened or the last Apply) and close the window.</li>
-<li>In owned property windows: keep the changes, close the window, and apply the changes when the owner window's changes are applied.</li>
-</ul></td>
-<td><ul>
-<li>Use with windows that aren't task specific, such as property sheets.</li>
-<li>For windows used to perform one specific task, use a specific label instead that starts with a verb (example: Print).</li>
-<li>For windows in which users can't make changes, use Close.</li>
-</ul></td>
-<td>Enter<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Yes/No</strong><br/></td>
-<td>Yes is the affirmative response to a yes or no question, whereas No is the negative response.<br/></td>
-<td><ul>
-<li>Use Yes and No buttons only to respond to yes or no questions. Never use OK and Cancel for yes or no questions.</li>
-<li>Prefer specific responses over Yes and No buttons. While there's nothing wrong with using Yes and No, specific responses can be understood more quickly, resulting in efficient decision making.</li>
-<li>However, consider using Yes and No responses if the phrasing of specific responses turns out to be long or awkward.</li>
-<li>Don't use Yes and No buttons if the meaning of the No response is unclear. If so, use specific responses instead.</li>
-<li>Yes and No must always be used as a pair.</li>
-</ul></td>
-<td>Y and N<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Cancel</strong><br/></td>
-<td><ul>
-<li>In dialog boxes: discard all changes or work in progress, revert to the previous state (leaving no noticeable side effect), and close the window.</li>
-<li>In property sheets: discard all pending changes (made since the window was opened or the last Apply) and close the window.</li>
-<li>In control panel items: discard all changes or work in progress, revert to the previous state, and return to the hub page from which the task was launched. If there is no such hub page, close the control panel item window instead.</li>
-</ul></td>
-<td><ul>
-<li>Use when all pending changes or actions can be discarded and any side effects can be undone.</li>
-<li>For changes that can't be discarded, use Close. For actions in progress that can be stopped, use Stop. If initially changes or actions can be discarded, you can use Cancel initially then change to Close or Stop once it can't be undone.</li>
-</ul></td>
-<td>Esc<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Close</strong><br/></td>
-<td>Close the window. Any changes or side effects are not discarded.<br/></td>
-<td><ul>
-<li>Use when changes or side effects can't be discarded. Use Close instead of Cancel for primary windows.</li>
-<li>Use for windows in which users can't make changes.</li>
-</ul></td>
-<td>Alt+F4, Ctrl+F4<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Stop</strong><br/></td>
-<td>Stop a currently running task and close the window. Any work in progress or side effects are not discarded.<br/></td>
-<td><ul>
-<li>Use when work in progress and any side effects can't or won't be discarded, typically with progress bars or animations.</li>
-</ul></td>
-<td>Esc<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Apply</strong><br/></td>
-<td>In owner property sheets: apply the pending changes (made since the window was opened or the last Apply), but leave the window open. Doing so allows users to evaluate the changes before closing the property sheet. In owned property sheets: don't use.<br/></td>
-<td><ul>
-<li>Use only in property sheets.</li>
-<li>Provide an Apply button only if the property sheet has settings (at least one) with effects that users can evaluate in a meaningful way. Typically, Apply buttons are used when settings make visible changes. Users should be able to apply a change, evaluate the change, and make further changes based on that evaluation. If not, remove the Apply button instead of disabling it.</li>
-</ul></td>
-<td>A<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Next</strong><br/></td>
-<td>In wizards and multi-step tasks: advance to the next step without committing to the task.<br/></td>
-<td><ul>
-<li>Use only in wizards and multi-step tasks to advance to the next step without commitment.</li>
-<li>The effect of a Next button can always be undone by clicking Back.</li>
-</ul></td>
-<td>N<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Finish</strong><br/></td>
-<td>In wizards and multi-step tasks: close the window. If the task hasn't been performed yet, perform the task. If that task has already been performed, any changes or side effects are not discarded.<br/></td>
-<td><ul>
-<li>Use only in wizards and multi-step tasks. However, the use of Finish is discouraged because there is usually a better, more specific commit button:
-<ul>
-<li>If clicking the button commits to the task (so the task hasn't already been performed), use a specific label that starts with a verb (examples: Print, Connect, Start) that is a response to the main instruction.</li>
-<li>If the task has already been performed within the wizard, use Close instead.</li>
-</ul></li>
-<li>However, you can use Finish when:
-<ul>
-<li>The specific label is still generic, such as Save, Select, Choose, or Get.</li>
-<li>The task involves changing a setting or collection of settings.</li>
-</ul></li>
-</ul></td>
-<td>Enter<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Done</strong><br/></td>
-<td>Not applicable.<br/></td>
-<td><ul>
-<li>Don't use. Done as a command is grammatically incorrect.</li>
-</ul></td>
-<td>Not applicable.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Button label | When to use |
+|--------|-------|
+| <strong>OK</strong><br /> | <ul><li>In dialog boxes: apply the changes or commit to the task and close the window.</li><li>In owner property windows: apply the pending changes (made since the window was opened or the last Apply) and close the window.</li><li>In owned property windows: keep the changes, close the window, and apply the changes when the owner window's changes are applied.</li><li>Use with windows that aren't task specific, such as property sheets.</li><li>For windows used to perform one specific task, use a specific label instead that starts with a verb (example: Print).</li><li>For windows in which users can't make changes, use Close.</li><li> Enter</li></ul><br /> | 
+| <strong>Yes/No</strong><br /> | Yes is the affirmative response to a yes or no question, whereas No is the negative response.<br /><li>Use Yes and No buttons only to respond to yes or no questions. Never use OK and Cancel for yes or no questions.</li><li>Prefer specific responses over Yes and No buttons. While there's nothing wrong with using Yes and No, specific responses can be understood more quickly, resulting in efficient decision making.</li><li>However, consider using Yes and No responses if the phrasing of specific responses turns out to be long or awkward.</li><li>Don't use Yes and No buttons if the meaning of the No response is unclear. If so, use specific responses instead.</li><li>Yes and No must always be used as a pair. <li>Y and N</li></ul> | 
+| <strong>Cancel</strong><br /> | <li>In dialog boxes: discard all changes or work in progress, revert to the previous state (leaving no noticeable side effect), and close the window.</li><li>In property sheets: discard all pending changes (made since the window was opened or the last Apply) and close the window.</li><li>In control panel items: discard all changes or work in progress, revert to the previous state, and return to the hub page from which the task was launched. If there is no such hub page, close the control panel item window instead.</li><li>Use when all pending changes or actions can be discarded and any side effects can be undone.</li><li>For changes that can't be discarded, use Close. For actions in progress that can be stopped, use Stop. If initially changes or actions can be discarded, you can use Cancel initially then change to Close or Stop once it can't be undone.</li><li>Esc</li></ul> | 
+| <strong>Close</strong><br /> | Close the window. Any changes or side effects are not discarded.<li>Use when changes or side effects can't be discarded. Use Close instead of Cancel for primary windows.</li><li>Use for windows in which users can't make changes.</li><li> Alt+F4, Ctrl+F4</li></ul>| 
+| <strong>Stop</strong><br /> | Stop a currently running task and close the window. Any work in progress or side effects are not discarded.<li>Use when work in progress and any side effects can't or won't be discarded, typically with progress bars or animations.</li><li> Esc</li></ul> | 
+| <strong>Apply</strong><br /> | In owner property sheets: apply the pending changes (made since the window was opened or the last Apply), but leave the window open. Doing so allows users to evaluate the changes before closing the property sheet. In owned property sheets: don't use.<li>Use only in property sheets.</li><li>Provide an Apply button only if the property sheet has settings (at least one) with effects that users can evaluate in a meaningful way. Typically, Apply buttons are used when settings make visible changes. Users should be able to apply a change, evaluate the change, and make further changes based on that evaluation. If not, remove the Apply button instead of disabling it.</li><li>A</li></ul>| 
+| <strong>Next</strong><br /> | In wizards and multi-step tasks: advance to the next step without committing to the task.<li>Use only in wizards and multi-step tasks to advance to the next step without commitment.</li><li>The effect of a Next button can always be undone by clicking Back.</li><li> N</li></ul>| 
+| <strong>Finish</strong><br /> | In wizards and multi-step tasks: close the window. If the task hasn't been performed yet, perform the task. If that task has already been performed, any changes or side effects are not discarded.<li>Use only in wizards and multi-step tasks. However, the use of Finish is discouraged because there is usually a better, more specific commit button:<ul><li>If clicking the button commits to the task (so the task hasn't already been performed), use a specific label that starts with a verb (examples: Print, Connect, Start) that is a response to the main instruction.</li><li>If the task has already been performed within the wizard, use Close instead.</li></ul></li><li>However, you can use Finish when:<ul><li>The specific label is still generic, such as Save, Select, Choose, or Get.</li><li>The task involves changing a setting or collection of settings.</li></ul></li><li> Enter</ul> | 
+| <strong>Done</strong><br /> | Not applicable.<li>Don't use. Done as a command is grammatically incorrect.</li><li> Not applicable.</li></ul> | 
 
 
 
- 
 
  
 

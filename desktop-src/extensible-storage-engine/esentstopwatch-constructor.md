@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch constructor"
 title: EsentStopwatch constructor 
 TOCTitle: 'EsentStopwatch constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStopwatch.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentStopwatch constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentStopwatch()
 
 #### Reference
 
-[EsentStopwatch class](dn334867\(v=exchg.10\).md)
+[EsentStopwatch class](./esentstopwatch-class.md)
 
-[EsentStopwatch members](dn334924\(v=exchg.10\).md)
+[EsentStopwatch members](./esentstopwatch-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

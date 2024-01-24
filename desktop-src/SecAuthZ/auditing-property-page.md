@@ -1,5 +1,5 @@
 ---
-Description: The access control editor can include an Auditing property page that enables the user to view and edit the access control entries (ACEs) in an objects system access control list (SACL). For more information about SACLs, see Access Control Lists (ACLs).
+description: The access control editor can include an Auditing property page that enables the user to view and edit the access control entries (ACEs) in an objects system access control list (SACL). For more information about SACLs, see Access Control Lists (ACLs).
 ms.assetid: 2a9152b7-c72d-4f03-bc3f-b75927fb4b6c
 title: Auditing Property Page
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The RadioButtonGroup control is a group of radio buttons.
+description: The RadioButtonGroup control is a group of radio buttons.
 ms.assetid: 896a85e9-0ad7-4890-8dfd-1c1e6ba5f31b
 title: RadioButtonGroup Control
 ms.topic: article

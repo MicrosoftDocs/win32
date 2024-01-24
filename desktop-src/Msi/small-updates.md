@@ -1,5 +1,5 @@
 ---
-Description: A small update makes changes to one or more application files that are too minor to warrant changing the product code.
+description: A small update makes changes to one or more application files that are too minor to warrant changing the product code.
 ms.assetid: c74ef2bd-9cf5-4ec0-bfff-1fad0e17ba98
 title: Small Updates
 ms.topic: article

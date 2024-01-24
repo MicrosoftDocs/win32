@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for disk I/O events. The following syntax is simplified from MOF code.
+description: This class is the event type class for disk I/O events. The following syntax is simplified from MOF code.
 ms.assetid: fe7d4efa-3d39-4438-a1a6-af3f65ea3deb
 title: DiskIo_TypeGroup1 class
 ms.topic: reference
@@ -306,7 +306,7 @@ The **HighResResponseTime** property is supported. The property contains the tim
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

@@ -1,6 +1,6 @@
 ---
 title: HexInt64Type Simple Type
-description: Defines an 8-byte hexadecimal type.
+description: Defines an 8-byte hexadecimal type. | HexInt64Type Simple Type
 ms.assetid: 2e81ec2b-cf67-42df-92a0-bf45b6dca051
 keywords:
 - HexInt64Type simple type EventLog
@@ -43,7 +43,7 @@ The **HexInt64Type** simple type is a [string](/dotnet/api/system.string) that i
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue.ToString method"
 title: StringColumnValue.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.StringColumnValue.ToString
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a string representation of this object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ A string representation of this object.
 
 #### Reference
 
-[StringColumnValue class](dn351135\(v=exchg.10\).md)
+[StringColumnValue class](./stringcolumnvalue-class.md)
 
-[StringColumnValue members](dn351145\(v=exchg.10\).md)
+[StringColumnValue members](./stringcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

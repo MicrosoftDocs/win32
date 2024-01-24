@@ -1,5 +1,5 @@
 ---
-Description: A child process can inherit several properties and resources from its parent process.
+description: A child process can inherit several properties and resources from its parent process.
 ms.assetid: c530e723-2d40-4022-a259-dfc650604e44
 title: Inheritance (Processes and Threads)
 ms.topic: article
@@ -38,7 +38,7 @@ To specify a list of the handles that should be inherited by a specific child pr
 
 An inherited handle refers to the same object in the child process as it does in the parent process. It also has the same value and access privileges. Therefore, when one process changes the state of the object, the change affects both processes. To use a handle, the child process must retrieve the handle value and "know" the object to which it refers. Usually, the parent process communicates this information to the child process through its command line, environment block, or some form of [interprocess communication](/windows/desktop/ipc/interprocess-communications).
 
-Use the [**SetHandleInformation**](windows/win32/api/handleapi/nf-handleapi-sethandleinformation) function to control if an existing handle is inheritable or not.
+Use the [**SetHandleInformation**](/windows/win32/api/handleapi/nf-handleapi-sethandleinformation) function to control if an existing handle is inheritable or not.
 
 ## Inheriting Environment Variables
 

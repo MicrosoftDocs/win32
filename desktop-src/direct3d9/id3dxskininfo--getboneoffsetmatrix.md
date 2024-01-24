@@ -1,5 +1,5 @@
 ---
-Description: Gets the bone offset matrix.
+description: Gets the bone offset matrix.
 ms.assetid: 99d47635-ffae-4668-a37c-b15442148fa1
 title: ID3DXSkinInfo::GetBoneOffsetMatrix method (D3DX9Mesh.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Returns a pointer to the bone offset matrix. Do not free this pointer.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

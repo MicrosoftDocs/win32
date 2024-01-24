@@ -1,5 +1,5 @@
 ---
-Description: Stops the guest service.
+description: Stops the guest service.
 ms.assetid: 67FFA46C-0B61-4845-A617-BA10F4D42CBC
 title: Msvm_GuestService::StopService method
 ms.topic: reference
@@ -51,7 +51,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

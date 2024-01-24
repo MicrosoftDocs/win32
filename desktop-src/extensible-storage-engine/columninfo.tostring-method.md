@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.ToString method"
 title: ColumnInfo.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnInfo.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # ColumnInfo.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [ColumnInfo](dn334128\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [ColumnInfo](./columninfo-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +53,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [ColumnInfo](dn334128\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [ColumnInfo](./columninfo-class.md).  
 
 ## See also
 
 #### Reference
 
-[ColumnInfo class](dn334128\(v=exchg.10\).md)
+[ColumnInfo class](./columninfo-class.md)
 
-[ColumnInfo members](dn334181\(v=exchg.10\).md)
+[ColumnInfo members](./columninfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

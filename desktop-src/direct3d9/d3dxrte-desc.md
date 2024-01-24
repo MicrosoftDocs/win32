@@ -1,5 +1,5 @@
 ---
-Description: Describes an off-screen render target used by an instance of ID3DXRenderToEnvMap.
+description: Describes an off-screen render target used by an instance of ID3DXRenderToEnvMap.
 ms.assetid: 805df4da-e882-4d54-bf2c-49cfcbc59ac6
 title: D3DXRTE_DESC structure (D3dx9core.h)
 ms.topic: reference
@@ -101,7 +101,7 @@ This method is used to return the creation parameters used when creating an [**I
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9core.h</dt> </dl> |
 

@@ -94,4 +94,4 @@
       - name: "STAT_SERVER_0"
         href: /windows/win32/api/Lmstats/ns-lmstats-stat_server_0
       - name: "STAT_WORKSTATION_0"
-        href: /windows/desktop/api/Lmstats/ns-lmstats-stat_workstation_0~r1
+        href: /windows/win32/api/lmstats/ns-lmstats-stat_workstation_0-r1

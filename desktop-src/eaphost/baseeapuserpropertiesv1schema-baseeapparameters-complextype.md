@@ -1,5 +1,5 @@
 ---
-title: BaseEapParameters Complex Type
+title: BaseEapParameters Complex Type - User properties
 description: Defines the element that specified the legacy method selected and method-specific credentials.
 ms.assetid: bc42e536-f741-4821-8453-6c0631daad3e
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# BaseEapParameters Complex Type
+# BaseEapParameters Complex Type - User properties
 
 The **BaseEapParameters** complex type defines the element that specified the legacy method selected and method-specific credentials.
 
@@ -52,7 +52,7 @@ The method can define the constituent elements inside **BaseEapParameters**; the
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

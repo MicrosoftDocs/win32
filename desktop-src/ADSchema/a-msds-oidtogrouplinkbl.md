@@ -22,7 +22,7 @@ Backward link for [**ms-DS-OIDToGroup-Link**](a-msds-oidtogrouplink.md). Identif
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-OIDToGroup-Link-BL                |
 | Ldap-Display-Name | msDS-OIDToGroupLinkBl                   |
@@ -44,7 +44,7 @@ Backward link for [**ms-DS-OIDToGroup-Link**](a-msds-oidtogrouplink.md). Identif
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2165                            |
 | MAPI-Id                | \-                              |
@@ -65,7 +65,7 @@ Backward link for [**ms-DS-OIDToGroup-Link**](a-msds-oidtogrouplink.md). Identif
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2165                            |
 | MAPI-Id                | \-                              |

@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables CPU optimizations.
+description: Enables or disables CPU optimizations.
 ms.assetid: 6f73df12-f2fc-4651-b0f7-f7a55e534d3d
 title: D3DXCpuOptimizations function (D3DX10Math.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Returns the type of CPU detected, and for which optimizations exist (see [**D3DX
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

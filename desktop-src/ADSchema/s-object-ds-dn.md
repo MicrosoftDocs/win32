@@ -21,7 +21,7 @@ String that contains a distinguished name (DN). For attributes with this syntax,
 
 
 
-|              |                                                                        |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------|
 | Name         | Object(DS-DN)                                                          |
 | Syntax ID    | 2.5.5.1                                                                |

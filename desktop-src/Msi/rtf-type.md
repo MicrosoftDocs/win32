@@ -1,5 +1,5 @@
 ---
-Description: The RTF Type of semantic type is one of the Text Format Types.
+description: The RTF Type of semantic type is one of the Text Format Types.
 ms.assetid: 91fc47c1-520a-4002-9dbe-4ee2b56f84b3
 title: RTF Type
 ms.topic: article

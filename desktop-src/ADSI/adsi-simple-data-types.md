@@ -80,7 +80,7 @@ DWORD
 **ADS\_LARGE\_INTEGER**
 </dt> <dd>
 
-[**LARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1)
+[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ When ADSI reads an attribute that has been defined as an **INTEGER** in the LDAP
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                    |

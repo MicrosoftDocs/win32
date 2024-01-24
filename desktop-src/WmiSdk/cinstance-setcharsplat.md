@@ -1,5 +1,5 @@
 ---
-Description: The CInstance::SetCharSplat method sets a string property.
+description: The CInstance::SetCharSplat method sets a string property.
 ms.assetid: 7f59a2ea-3513-4a14-ac1a-62ed833d7192
 ms.tgt_platform: multiple
 title: CInstance::SetCharSplat methods (Instance.h)
@@ -38,7 +38,7 @@ The **CInstance::SetCharSplat** method sets a string property.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |

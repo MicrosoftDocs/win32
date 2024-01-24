@@ -1,6 +1,6 @@
 ---
 title: ps_2_0 Registers
-description: Pixel shaders depend on registers to get vertex data, to output pixel data, to hold temporary results during calculations, and to identify texture sampling stages.
+description: This article contains reference information for the input and output registers implemented by pixel shader version 2_0.
 ms.assetid: 8002e3eb-b9d4-4ecb-a9e5-ae58a9e20ace
 keywords:
 - Registers - ps_2_0

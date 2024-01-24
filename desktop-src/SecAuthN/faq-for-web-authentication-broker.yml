@@ -1,0 +1,44 @@
+### YamlMime:FAQ
+metadata:
+  description: Frequently asked questions for Web Authentication Broker.
+  ms.assetid: 49ACB2E3-CF57-4D8E-9670-E7C18A06F76A
+  title: FAQ for Web Authentication Broker
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: FAQ for Web Authentication Broker
+summary: |
+  Frequently asked questions for Web Authentication Broker.
+  
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          How can I make sure that my https:// page works with the Web Authentication Broker?
+        answer: |
+          Try loading the page in Windows Internet Explorer before trying it with Web Authentication Broker. If your web page loads with no errors, it will be rendered correctly by the Web Authentication Broker as well.
+
+      - question: |
+          In case of an error, will the error codes be displayed to the user?
+        answer: |
+          While an error page will be displayed to the user, the underlying error code is not shown. It is only returned to the app. Alternately, you can also use the operational logs.
+
+      - question: |
+          How can I find more details on the error encountered?
+        answer: |
+          Use the operational logs for details.
+
+      - question: |
+          Does the single sign-on (SSO) app container share its cookies with the Internet Explorer or other browsers?
+        answer: |
+          No. 
+
+additionalContent: |
+
+  ## Related topics
+  
+  [Considerations for the web page development](considerations-for-the-web-page-development.md)
+
+  [Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
+
+  [**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web)

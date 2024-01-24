@@ -1,5 +1,5 @@
 ---
-Description: Represents the definition aspects of a metric.
+description: Represents the definition aspects of a metric.
 ms.assetid: 861a69f6-a3bf-4e18-a9c2-931632e3cccc
 title: Msvm_BaseMetricDefinition class
 ms.topic: reference
@@ -378,7 +378,7 @@ Identifies the specific units of a value, for example, "megabytes". This propert
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

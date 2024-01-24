@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 XML canonicalization solves the problem of converting a set of XML nodes into bytes in such a way that trivial changes to the XML (such as changing the order of attributes in an element) do not change the resulting byte form. The bytes obtained from canonicalization are commonly used to generate a cryptographic signature over XML content.
 
-## 
 
 The commonly used XML canonicalization algorithms standardize the following aspects:
 

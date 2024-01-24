@@ -1,5 +1,5 @@
 ---
-Description: The property proxy for the System.Photo.ExposureBias photo metadata policy.
+description: The property proxy for the System.Photo.ExposureBias photo metadata policy.
 ms.assetid: b4f3542d-a0af-4742-851b-fd501c40a698
 title: System.Photo.ExposureBias Proxy
 ms.topic: article

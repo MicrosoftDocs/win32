@@ -1,6 +1,6 @@
 ---
 title: CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object
-description: The CurrentPlaylistItemAvailable event occurs when the current playlist becomes available.
+description: The CurrentPlaylistItemAvailable event occurs when the current playlist becomes available. | CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object
 ms.assetid: 101807c9-b00f-4351-a9a3-5413a52496f4
 keywords:
 - CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -13,10 +13,13 @@ api_location:
 api_type:
 - Assembly
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The CurrentPlaylistItemAvailable event occurs when the current playlist becomes available.
 
@@ -56,7 +59,7 @@ The name of the current playlist can be used to retrieve the corresponding **IWM
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

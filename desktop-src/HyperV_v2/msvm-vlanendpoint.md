@@ -1,5 +1,5 @@
 ---
-Description: Represents the VLAN endpoint of a switch port.
+description: Represents the VLAN endpoint of a switch port.
 ms.assetid: 82F2EC39-0C9C-4A9D-A6C4-1543A62A341D
 title: Msvm_VLANEndpoint class
 ms.topic: reference
@@ -785,7 +785,7 @@ See [Querying networking objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

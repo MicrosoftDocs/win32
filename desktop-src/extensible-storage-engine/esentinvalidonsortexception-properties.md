@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOnSortException properties"
 title: EsentInvalidOnSortException properties
 TOCTitle: EsentInvalidOnSortException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidOnSortException](dn319570\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidOnSortException](./esentinvalidonsortexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInvalidOnSortException class](dn319570\(v=exchg.10\).md)
+[EsentInvalidOnSortException class](./esentinvalidonsortexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

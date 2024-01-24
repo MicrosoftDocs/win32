@@ -1,7 +1,7 @@
 ---
-Description: Occurs when the IInkAnalyzer::Analyze method or IInkAnalyzer::BackgroundAnalyze method is called.
+description: Occurs when the IInkAnalyzer::Analyze method or IInkAnalyzer::BackgroundAnalyze method is called.
 ms.assetid: 339b41c6-f388-4b81-b2bc-3705b39d9cc9
-title: '_IAnalysisEvents::Activity event' (IACom.h)
+title: '_IAnalysisEvents::Activity event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -60,7 +60,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

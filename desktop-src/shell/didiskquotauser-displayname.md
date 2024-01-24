@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's display name.
+description: Gets the user's display name.
 title: DIDiskQuotaUser.DisplayName property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 2951c2fb-1682-4ec2-bb48-470a7c2d2b15
-api_name: 
- - DIDiskQuotaUser.DisplayName
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -52,7 +43,7 @@ This property contains the user's "friendly name." Its value is not necessarily 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

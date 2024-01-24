@@ -1,5 +1,5 @@
 ---
-Description: Stores the host name and the port of the proxy server used by the network source.
+description: Stores the host name and the port of the proxy server used by the network source.
 ms.assetid: 164f8ac3-08ce-40a8-ac8d-4c2a267d9db5
 title: MFNETSOURCE_PROXYINFO property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ This property is read-only. To get the property value from the network source, c
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

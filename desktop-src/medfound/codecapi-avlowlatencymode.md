@@ -1,5 +1,5 @@
 ---
-Description: Enables low-latency mode in a codec.
+description: Enables low-latency mode in a codec.
 ms.assetid: 15E8FF6F-AD8C-436F-B3C0-5062B1F86E32
 title: CODECAPI_AVLowLatencyMode property (Codecapi.h)
 ms.topic: reference
@@ -30,11 +30,14 @@ Low-latency mode is useful for real-time communications or live capture, when la
 
 The encoder is expected to not add any sample delay due to frame reordering in encoding process, and one input sample shall produce one output sample. B slices/frames can be present as long as they do not introduce any frame re-ordering in the encoder.
 
+> [!WARNING] 
+> In the current implementation, the Media Foundation H.264 decoder uses the type **VT_UI4** for this property. All other implementations, including the H.264 encoder, use the type **VT_BOOL**.
+
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

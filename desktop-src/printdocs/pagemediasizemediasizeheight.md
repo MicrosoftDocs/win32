@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageMediaSizeMediaSizeHeight parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 209b3024-60cf-47e0-8738-cd7795e38c2a
 title: PageMediaSizeMediaSizeHeight
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageMediaSizeMediaSizeHeight
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Specifies the dimension MediaSizeHeight direction for the Custom MediaSize option.
 
@@ -19,7 +19,7 @@ Specifies the dimension MediaSizeHeight direction for the Custom MediaSize optio
 
 
 
-| Name                       |                                                           |
+| Name | Value |
 |----------------------------|-----------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                   |
 | Scoping Prefix <br/> | Page<br/>                                           |
@@ -84,7 +84,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-Description: Gets the maximum number of events the animation controller can support.
+description: Gets the maximum number of events the animation controller can support.
 ms.assetid: f76fe7e5-1173-403b-8af4-825476a851f1
 title: ID3DXAnimationController::GetMaxNumEvents method (D3dx9anim.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The maximum number of events the controller can manage.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

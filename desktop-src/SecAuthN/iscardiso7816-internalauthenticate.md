@@ -1,5 +1,5 @@
 ---
-Description: Constructs an application protocol data unit (APDU) command that initiates the computation of the authentication data by the card using the challenge data sent from the interface device and a relevant secret (for example, a key) stored in the card.
+description: Constructs an application protocol data unit (APDU) command that initiates the computation of the authentication data by the card using the challenge data sent from the interface device and a relevant secret (for example, a key) stored in the card.
 ms.assetid: cb0b2535-6e5b-4fb2-b540-cd037259baab
 title: ISCardISO7816::InternalAuthenticate method (Scardssp.h)
 ms.topic: reference
@@ -130,7 +130,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

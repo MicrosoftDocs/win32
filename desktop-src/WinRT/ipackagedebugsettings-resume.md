@@ -1,5 +1,5 @@
 ---
-Description: Resumes the processes of the package if they are currently suspended.
+description: Resumes the processes of the package if they are currently suspended.
 ms.assetid: c5376e00-b4b7-4a81-a84c-3a46758fe130
 title: IPackageDebugSettings::Resume method
 ms.topic: reference
@@ -51,13 +51,13 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-Each process receives the [**Resuming**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Resuming**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

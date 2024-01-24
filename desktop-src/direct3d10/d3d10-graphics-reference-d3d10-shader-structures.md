@@ -1,12 +1,12 @@
 ---
-Description: 'This section contains information about the following shader structures:'
+description: 'This section contains information about the following shader structures:'
 ms.assetid: b36309e0-1c44-42d9-adcf-33acd753438c
 title: Shader Structures (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Structures
+# Shader Structures (Direct3D 10 Graphics)
 
 This section contains information about the following shader structures:
 

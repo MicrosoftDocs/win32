@@ -1,5 +1,5 @@
 ---
-Description: Specifies FFT protection.
+description: Specifies FFT protection.
 ms.assetid: 0CFD2A1B-BAE0-4755-9B26-A3D8C3053ABD
 title: MFPROTECTION_FFT attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies FFT protection.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

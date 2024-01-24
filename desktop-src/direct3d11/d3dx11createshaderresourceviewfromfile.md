@@ -122,7 +122,7 @@ For a list of supported image formats, see [**D3DX11\_IMAGE\_FILE\_FORMAT**](d3d
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX11tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX11.lib</dt> </dl>  |

@@ -1,5 +1,5 @@
 ---
-Description: Texture filtering constants.
+description: Texture filtering constants.
 ms.assetid: 4434e456-670e-46a9-ba78-affdc195fe1c
 title: D3DPTFILTERCAPS
 ms.topic: article
@@ -14,8 +14,8 @@ Texture filtering constants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -96,7 +96,7 @@ These constants are used by TextureFilterCaps, CubeTextureFilterCaps, VolumeText
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

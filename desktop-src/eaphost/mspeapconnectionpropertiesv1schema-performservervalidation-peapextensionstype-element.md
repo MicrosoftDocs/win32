@@ -1,6 +1,6 @@
 ---
 title: PerformServerValidation (PeapExtensionsType) element (v1 schema)
-description: Learn about the PerformServerValidation (PeapExtensionsType) element. This element indicates whether server validation is performed.
+description: Learn about the PerformServerValidation (PeapExtensionsType) element. This element indicates whether server validation is performed. | PerformServerValidation (PeapExtensionsType) element (v1 schema)
 ms.assetid: b0483ed0-a02f-4f60-b1ae-7c5e6be8e196
 keywords:
 - element EAPHost

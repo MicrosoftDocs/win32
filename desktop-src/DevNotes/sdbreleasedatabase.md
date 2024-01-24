@@ -1,5 +1,5 @@
 ---
-Description: Closes the shim database initialized using the SdbInitDatabase function.
+description: Closes the shim database initialized using the SdbInitDatabase function.
 ms.assetid: 8452ab14-a1e9-41b3-a1ac-7ff3a7d3a7ed
 title: SdbReleaseDatabase function
 ms.topic: reference
@@ -49,7 +49,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

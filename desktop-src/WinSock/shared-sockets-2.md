@@ -1,5 +1,5 @@
 ---
-Description: The WSADuplicateSocket function is introduced to enable socket sharing across processes.
+description: The WSADuplicateSocket function is introduced to enable socket sharing across processes.
 ms.assetid: f7cf40e9-f3a6-4b62-8a78-df25464e2365
 title: Shared Sockets
 ms.topic: article

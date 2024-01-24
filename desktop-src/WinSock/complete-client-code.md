@@ -1,5 +1,5 @@
 ---
-Description: The following is the complete source code for the basic Winsock TCP/IP Client Application.
+description: The following is the complete source code for the basic Winsock TCP/IP Client Application.
 ms.assetid: 42e003d8-1471-4f7f-b01a-23c7041036ea
 title: Complete Winsock Client Code
 ms.topic: article

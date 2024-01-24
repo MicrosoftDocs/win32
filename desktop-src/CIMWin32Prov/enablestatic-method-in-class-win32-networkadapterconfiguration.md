@@ -1,5 +1,5 @@
 ---
-Description: The EnableStatic WMI class method enables static TCP/IP addressing for the target network adapter. As a result, DHCP for this network adapter is disabled.
+description: The EnableStatic WMI class method enables static TCP/IP addressing for the target network adapter. As a result, DHCP for this network adapter is disabled.
 ms.assetid: d0076424-58c0-4cfe-b55b-44c0f2620388
 ms.tgt_platform: multiple
 title: EnableStatic method of the Win32_NetworkAdapterConfiguration class
@@ -426,10 +426,6 @@ When using **EnableStatic** to give an adapter a static IP configuration, the fu
 
 ## Examples
 
-The [Static IP and then join to a domain](https://Gallery.TechNet.Microsoft.Com/Static-IP-and-then-join-to-130d4b8a) PowerShell code sample, on TechNet Gallery, uses **EnableStatic** to add a static IP to a local machine.
-
-The [Assign a Static IP Address](https://Gallery.TechNet.Microsoft.Com/8979c752-8288-4a18-b5ed-f3b79f013f4a) VBScript code example, on TechNet Gallery, uses **EnableStatic** to set the IP address of a computer.
-
 The following VBScript sample demonstrates how to disable DHCP use on an instance of [**Win32\_NetworkAdapterConfiguration**](win32-networkadapterconfiguration.md). In this case we specify the adapter with an Index of 0. The correct index should be selected from Win32\_NetworkAdapter instances for other interfaces.
 
 > [!Note]  
@@ -500,7 +496,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

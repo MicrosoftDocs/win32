@@ -1,5 +1,5 @@
 ---
-Description: Performs a bit-block transfer.
+description: Performs a bit-block transfer.
 ms.assetid: 90cc02af-96af-4913-ae7d-62f39cd6ddd7
 title: NtGdiDdBlt function (Ntgdi.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ Pointer to a [**DD\_BLTDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_bltdat
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

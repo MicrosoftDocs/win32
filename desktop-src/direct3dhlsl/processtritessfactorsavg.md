@@ -1,6 +1,6 @@
 ---
 title: ProcessTriTessFactorsAvg function
-description: Generates the corrected tessellation factors for a tri patch.
+description: Generates the corrected tessellation factors for a tri patch. | ProcessTriTessFactorsAvg function
 ms.assetid: 005a63b6-f35d-42d6-bb29-f4ebb374080e
 keywords:
 - ProcessTriTessFactorsAvg function HLSL

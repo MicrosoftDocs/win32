@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Tab
+# Tab (Windows Ribbon Framework)
 
 A Tab contains [groups](windowsribbon-controls-group.md) of related controls.
 

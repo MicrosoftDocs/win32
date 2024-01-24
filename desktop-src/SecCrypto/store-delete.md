@@ -1,5 +1,5 @@
 ---
-Description: Deletes the certificate store that is represented by the current Store object.
+description: Deletes the certificate store that is represented by the current Store object.
 ms.assetid: 274914ee-27a0-4bd6-8510-af897aab3a2d
 title: Store.Delete method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Store.Delete method
 
-\[The **Delete** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/previous-versions/windows/embedded/hh424027(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **Delete** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/previous-versions/windows/embedded/hh424027(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Delete** method deletes the [*certificate store*](../secgloss/c-gly.md) that is represented by the current [**Store**](certificate.md) object. This method deletes only nonsystem stores.
 
@@ -58,7 +58,7 @@ The **Delete** method returns an error if called from a web script.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.1 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotTimeOutException constructor"
 title: EsentOSSnapshotTimeOutException constructor 
 TOCTitle: 'EsentOSSnapshotTimeOutException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotTimeOutException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOSSnapshotTimeOutException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentOSSnapshotTimeOutException()
 
 #### Reference
 
-[EsentOSSnapshotTimeOutException class](dn319704\(v=exchg.10\).md)
+[EsentOSSnapshotTimeOutException class](./esentossnapshottimeoutexception-class.md)
 
-[EsentOSSnapshotTimeOutException members](dn319749\(v=exchg.10\).md)
+[EsentOSSnapshotTimeOutException members](./esentossnapshottimeoutexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

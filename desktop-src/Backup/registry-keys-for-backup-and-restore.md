@@ -1,7 +1,7 @@
 ---
 title: Registry Keys and Values for Backup and Restore
 ms.assetid: 83449f78-cca1-449b-8c5f-3c8a91c8b3e7
-description: 
+description: "Learn more about: Registry Keys and Values for Backup and Restore"
 keywords:
 - backup Backup , registry keys
 - registry keys Backup
@@ -64,7 +64,7 @@ The **FilesNotToBackup** registry key specifies the names of the files and direc
 
 \[*Drive*\]\[*Path*\]\\*FileName* \[/s\]
 
--   *Drive* specifies the drive and is optional. For example, c:. To specify all drives, use a backslash (\); no drive letters are needed.
+-   *Drive* specifies the drive and is optional. For example, c:. To specify all drives, use a backslash (\\); no drive letters are needed.
 -   *Path* specifies the path and is optional. It cannot contain wildcard characters.
 -   *FileName* specifies the file or directory and is required. It can contain wildcard characters.
 -   /s specifies that all subdirectories of the specified path are to be included.

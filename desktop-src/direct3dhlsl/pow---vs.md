@@ -1,6 +1,6 @@
 ---
 title: pow - vs
-description: Full precision abs(src0)src1.
+description: Full precision abs(src0)src1. | pow - vs
 ms.assetid: 51da86c6-bafa-42e0-90a5-d1545e39e600
 ms.topic: reference
 ms.date: 05/31/2018

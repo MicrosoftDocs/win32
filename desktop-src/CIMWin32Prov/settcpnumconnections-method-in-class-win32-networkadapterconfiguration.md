@@ -1,5 +1,5 @@
 ---
-Description: The SetTcpNumConnections WMI class static method is used to set the maximum number of connections that TCP may have open simultaneously.
+description: The SetTcpNumConnections WMI class static method is used to set the maximum number of connections that TCP may have open simultaneously.
 ms.assetid: 50458161-1f28-47f9-b395-09586e859d5d
 ms.tgt_platform: multiple
 title: SetTcpNumConnections method of the Win32_NetworkAdapterConfiguration class
@@ -399,15 +399,11 @@ DHCP not enabled on adapter.
 
 </dd> </dl>
 
-## Examples
-
-The [Modify the Allowed Number of TCP Connections](https://Gallery.TechNet.Microsoft.Com/016d09f3-28aa-47eb-b439-100b89999bab) VBScript sample sets the maximum allowed number of simultaneously-opened TCP connections on a computer to 10.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

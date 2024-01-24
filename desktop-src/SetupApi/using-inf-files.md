@@ -1,5 +1,5 @@
 ---
-Description: After you create an INF file for the installation process, the setup functions can access that information to use when copying, deleting, or renaming files and updating INIs and registry entries.
+description: After you create an INF file for the installation process, the setup functions can access that information to use when copying, deleting, or renaming files and updating INIs and registry entries.
 ms.assetid: 128e856c-7c3e-404e-b01e-144ab30bbb48
 title: Using INF Files
 ms.topic: article

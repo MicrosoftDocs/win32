@@ -1,5 +1,5 @@
 ---
-Description: Specifies a numeric representation of the tradeoff between motion smoothness and image quality of codec output.
+description: Specifies a numeric representation of the tradeoff between motion smoothness and image quality of codec output.
 ms.assetid: 63915450-71c5-4097-91d7-5817249c1cda
 title: MFPKEY_CRISP Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This property should be set only for constant-bit-rate (CBR) encoding. The optim
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

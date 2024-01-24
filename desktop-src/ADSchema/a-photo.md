@@ -21,7 +21,7 @@ An object encoded in G3 fax as explained in recommendation T.4, with an ASN.1 wr
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | photo                                                 |
 | Ldap-Display-Name | photo                                                 |
@@ -46,7 +46,7 @@ An object encoded in G3 fax as explained in recommendation T.4, with an ASN.1 wr
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -67,7 +67,7 @@ An object encoded in G3 fax as explained in recommendation T.4, with an ASN.1 wr
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -88,7 +88,7 @@ An object encoded in G3 fax as explained in recommendation T.4, with an ASN.1 wr
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -109,7 +109,7 @@ An object encoded in G3 fax as explained in recommendation T.4, with an ASN.1 wr
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -130,7 +130,7 @@ An object encoded in G3 fax as explained in recommendation T.4, with an ASN.1 wr
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |

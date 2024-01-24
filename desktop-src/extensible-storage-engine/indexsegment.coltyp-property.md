@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment.Coltyp property"
 title: IndexSegment.Coltyp property 
 TOCTitle: 'Coltyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexSegment.Coltyp
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the type of the column being indexed.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,15 +54,14 @@ public JET_coltyp Coltyp { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_coltyp](hh577895\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_coltyp](./jet-coltyp-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[IndexSegment class](dn350912\(v=exchg.10\).md)
+[IndexSegment class](./indexsegment-class.md)
 
-[IndexSegment members](dn350930\(v=exchg.10\).md)
+[IndexSegment members](./indexsegment-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

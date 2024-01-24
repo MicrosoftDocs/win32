@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters methods"
 title: InstanceParameters methods
 TOCTitle: InstanceParameters methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.InstanceParameters
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [InstanceParameters](dn350942\(v=exchg.10\).md) type exposes the following members.
+The [InstanceParameters](./instanceparameters-class.md) type exposes the following members.
 
 ## Methods
 
@@ -66,6 +67,6 @@ Top
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

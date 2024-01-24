@@ -1,5 +1,5 @@
 ---
-Description: Depicts the tasks required to encode a hashed message.
+description: Depicts the tasks required to encode a hashed message.
 ms.assetid: c1a65452-c634-4cc6-9afe-d6bf11d999d1
 title: Encoding and Decoding a Hashed Message
 ms.topic: article

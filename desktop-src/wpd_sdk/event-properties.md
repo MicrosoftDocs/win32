@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following event properties.
+description: Windows Portable Devices supports the following event properties.
 ms.assetid: 672b75ac-cd47-4212-a505-c220ecdf98e3
 title: Event Properties (PortableDevice.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ Windows Portable Devices supports the following event properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

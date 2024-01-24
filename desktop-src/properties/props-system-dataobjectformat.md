@@ -1,5 +1,5 @@
 ---
-Description: The data object format. A string value that is the clipboard format name.
+description: The data object format. A string value that is the clipboard format name.
 ms.assetid: D833838E-3B5A-42D5-BA19-0476A3141C9B
 title: System.DataObjectFormat
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: SRV record priority field. Not usually used.
+description: SRV record priority field. Not usually used.
 ms.assetid: 5e231cfe-acd4-46b1-b288-391e1173ce58
 title: System.Devices.Dnssd.Priority
 ms.topic: article

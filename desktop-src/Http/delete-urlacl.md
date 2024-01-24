@@ -25,10 +25,7 @@ delete urlacl [url=]string
 
 ## Parameters
 
-<dl> <dt>
-
-<span id="_url__string"></span><span id="_URL__STRING"></span>**\[url=\]***string*
-</dt> <dd></dd> </dl>
+__\[url=\]__*string*
 
 ## Examples
 

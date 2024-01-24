@@ -1,5 +1,5 @@
 ---
-Description: The Authority property of the SWbemObjectPath object contains a string that defines the Authority component of the object path.
+description: The Authority property of the SWbemObjectPath object contains a string that defines the Authority component of the object path.
 ms.assetid: f00e5759-03b4-4333-b89e-5f54db73c3b7
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Authority property (Wbemdisp.h)
@@ -42,7 +42,7 @@ SWbemObjectPath.Authority As String
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_RebootAction class takes a particular action. The details of how the method performs the action are implementation specific. This method is inherited from CIM\_Action.
+description: The Invoke method of the CIM\_RebootAction class takes a particular action. The details of how the method performs the action are implementation specific. This method is inherited from CIM\_Action.
 ms.assetid: 27b6571e-94fe-423e-89ab-5ba2bc632882
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_RebootAction class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,22 +1,25 @@
 ---
-Description: Determines if a matrix is an identity matrix.
+description: Determines if a matrix is an identity matrix.
 ms.assetid: 00f72d08-5d4b-4310-8167-e6b6371d24fd
 title: D3DXMatrixIsIdentity function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixIsIdentity
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXMatrixIsIdentity function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Determines if a matrix is an identity matrix.
 
@@ -54,7 +57,7 @@ If the matrix is an identity matrix, this function returns **TRUE**. Otherwise, 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

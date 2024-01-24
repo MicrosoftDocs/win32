@@ -1,5 +1,5 @@
 ---
-Description: The SWbemRefreshableItem.Object property represents a single SWbemObject instance that is refreshed. The item is contained in an SWbemRefresher object.SWbemObject instance that is refreshed. The item is contained in an SWbemRefresher object.
+description: The SWbemRefreshableItem.Object property represents a single SWbemObject instance that is refreshed. The item is contained in an SWbemRefresher object.SWbemObject instance that is refreshed. The item is contained in an SWbemRefresher object.
 ms.assetid: 91a693c0-cde4-4cf6-b85a-662cfd0333e9
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem.Object property (Wbemdisp.h)
@@ -46,7 +46,7 @@ This property is **NULL** unless [**SWbemRefreshableItem.IsSet**](swbemrefreshab
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

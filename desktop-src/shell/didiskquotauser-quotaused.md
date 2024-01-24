@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's current disk usage, in bytes.
+description: Gets the user's current disk usage, in bytes.
 title: DIDiskQuotaUser.QuotaUsed property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 3e3ade59-b925-4ff5-ae7e-ed97eff506c7
-api_name: 
- - DIDiskQuotaUser.QuotaUsed
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -48,7 +39,7 @@ The **Integer** value that is set to the amount of disk space currently in use. 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

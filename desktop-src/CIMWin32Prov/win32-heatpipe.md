@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_HeatPipe WMI class represents the properties of a heat pipe cooling device.
+description: The Win32\_HeatPipe WMI class represents the properties of a heat pipe cooling device.
 ms.assetid: c6e24cb2-e29a-4cd5-af62-b8e48a5936f9
 ms.tgt_platform: multiple
 title: Win32_HeatPipe class
@@ -1189,7 +1189,7 @@ The **Win32\_HeatPipe** class is derived from [**CIM\_HeatPipe**](cim-heatpipe.m
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

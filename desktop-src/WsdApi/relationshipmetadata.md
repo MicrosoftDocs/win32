@@ -1,5 +1,5 @@
 ---
-Description: Describes the host and hosted metadata for the device.
+description: Describes the host and hosted metadata for the device.
 ms.assetid: 1dde01bf-2cc1-4074-a82b-c5946339233b
 title: relationshipMetadata element
 ms.topic: reference
@@ -38,7 +38,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

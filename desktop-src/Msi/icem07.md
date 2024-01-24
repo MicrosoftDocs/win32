@@ -1,5 +1,5 @@
 ---
-Description: ICEM07 verifies that the order of files in the sequence table matches the order of files in MergeModule.CABinet.
+description: ICEM07 verifies that the order of files in the sequence table matches the order of files in MergeModule.CABinet.
 ms.assetid: 5778e0c5-2f8d-4562-9c93-d6f6890a74e9
 title: ICEM07
 ms.topic: article

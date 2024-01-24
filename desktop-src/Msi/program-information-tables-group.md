@@ -1,5 +1,5 @@
 ---
-Description: The Program Information Tables group contain important information that used throughout the installation.
+description: The Program Information Tables group contain important information that used throughout the installation.
 ms.assetid: 86e57708-8778-44fd-a4b4-6418652d8e50
 title: Program Information Tables Group
 ms.topic: article

@@ -22,7 +22,7 @@ This is a multivalued attribute whose values consist of a 5 tuple: (attribute na
 
 
 
-|                   |                                                                                                                                                                      |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CN                | Extra-Columns                                                                                                                                                        |
 | Ldap-Display-Name | extraColumns                                                                                                                                                         |
@@ -47,7 +47,7 @@ This is a multivalued attribute whose values consist of a 5 tuple: (attribute na
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -68,7 +68,7 @@ This is a multivalued attribute whose values consist of a 5 tuple: (attribute na
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -89,7 +89,7 @@ This is a multivalued attribute whose values consist of a 5 tuple: (attribute na
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -110,7 +110,7 @@ This is a multivalued attribute whose values consist of a 5 tuple: (attribute na
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -131,7 +131,7 @@ This is a multivalued attribute whose values consist of a 5 tuple: (attribute na
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |

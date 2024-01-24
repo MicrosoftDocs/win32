@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateAfterTruncationException properties"
 title: EsentMultiValuedDuplicateAfterTruncationException properties
 TOCTitle: EsentMultiValuedDuplicateAfterTruncationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMultiValuedDuplicateAfterTruncationException](dn334700\(v=exchg.10\).md) type exposes the following members.
+The [EsentMultiValuedDuplicateAfterTruncationException](./esentmultivaluedduplicateaftertruncationexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentMultiValuedDuplicateAfterTruncationException class](dn334700\(v=exchg.10\).md)
+[EsentMultiValuedDuplicateAfterTruncationException class](./esentmultivaluedduplicateaftertruncationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

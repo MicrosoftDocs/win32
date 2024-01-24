@@ -1,5 +1,5 @@
 ---
-Description: The Set method sets the value of a given call quality control property.
+description: The Set method sets the value of a given call quality control property.
 ms.assetid: e83ed9d7-0a53-4555-ae44-737ab3dfb749
 title: ITCallQualityControl::Set method (Ipmsp.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

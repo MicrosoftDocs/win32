@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Share class represents a shared resource on a computer system running Windows. This may be a disk drive, printer, interprocess communication, or other sharable device. For more information about retrieving WMI classes, see Retrieving a Class.
+description: The Win32\_Share class represents a shared resource on a computer system running Windows. This may be a disk drive, printer, interprocess communication, or other sharable device. For more information about retrieving WMI classes, see Retrieving a Class.
 ms.assetid: 2d47b726-a0fe-47f3-9e96-d1d507655e56
 ms.tgt_platform: multiple
 title: Win32_Share class
@@ -411,12 +411,7 @@ Depending on your security permissions, you may not be able to retrieve all of t
 
 ## Examples
 
-The following Script Center[code example](https://Gallery.TechNet.Microsoft.Com/scriptcenter/List-Share-Permissions-83f8c419) lists all shares on a computer, and list all the share permissions for each share.
-
-The [Get Share Information similar to Win32\_Share](https://Gallery.TechNet.Microsoft.Com/Get-Share-Information-5cc71b2c) PowerShell sample queries Win32\_Share and provides the results.
-
 The following PowerShell sample displays the shares on the local system.
-
 
 ```PowerShell
 $shares = Get-WMIObject -class Win32_share
@@ -456,7 +451,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -27,7 +27,7 @@ Password settings object for accounts.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Password-Settings              |
 | Ldap-Display-Name | msDS-PasswordSettings                |
@@ -49,7 +49,7 @@ Password settings object for accounts.
 
 
 
-|                             |                                                                               |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------|
 | System-Only                 | False                                                                         |
 | Object-Category             | 1                                                                             |
@@ -199,7 +199,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                               |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------|
 | System-Only                 | False                                                                         |
 | Object-Category             | 1                                                                             |
@@ -356,7 +356,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                               |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------|
 | System-Only                 | False                                                                         |
 | Object-Category             | 1                                                                             |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesTooManyColumnsException properties"
 title: EsentIndexTuplesTooManyColumnsException properties
 TOCTitle: EsentIndexTuplesTooManyColumnsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTooManyColumnsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexTuplesTooManyColumnsException](dn319427\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesTooManyColumnsException](./esentindextuplestoomanycolumnsexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesTooManyColumnsException class](dn319427\(v=exchg.10\).md)
+[EsentIndexTuplesTooManyColumnsException class](./esentindextuplestoomanycolumnsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

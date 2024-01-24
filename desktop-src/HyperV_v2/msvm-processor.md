@@ -1,5 +1,5 @@
 ---
-Description: Represents the virtual processor in a virtual machine.
+description: Represents the virtual processor in a virtual machine.
 ms.assetid: 4BA91C44-0F85-42D1-A8B5-147E1D532FB5
 title: Msvm_Processor class
 ms.topic: reference
@@ -1007,7 +1007,7 @@ Access to the **Msvm\_Processor** class might be restricted by UAC Filtering. Fo
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

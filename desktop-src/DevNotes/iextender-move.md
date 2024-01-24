@@ -1,5 +1,5 @@
 ---
-Description: Moves an MDIForm, form, or control.
+description: Moves an MDIForm, form, or control.
 ms.assetid: 963e6533-f571-4043-bdd8-2596df6b5b35
 title: IExtender::Move method
 ms.topic: reference
@@ -74,7 +74,7 @@ This method does not return a value.
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ole2disp.dll; </dt> <dt>Oleaut32.dll</dt> </dl> |
 

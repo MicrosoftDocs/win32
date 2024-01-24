@@ -1,5 +1,5 @@
 ---
-Description: Associates a video head with the video adapter that contains it.
+description: Associates a video head with the video adapter that contains it.
 ms.assetid: d15f4350-1529-4246-9ea2-8453e52516c6
 title: CIM_VideoHeadOnController class
 ms.topic: reference
@@ -80,7 +80,7 @@ The head on the video adapter.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

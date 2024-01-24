@@ -11,7 +11,6 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2019
 ---
@@ -19,7 +18,7 @@ ms.date: 07/29/2019
 # IDODownloadInternal::GetPropertyEx method
 
 > [!IMPORTANT]
-> The **IDODownloadInternal** interface is deprecated. Instead, use the [IDODownload](../do/nn-do-idodownload.md) interface.
+> The **IDODownloadInternal** interface is deprecated. Instead, use the [IDODownload](/windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idodownload) interface.
 
 Retrieves a pointer to a **VARIANT** that contains a specific extended download property value.
 

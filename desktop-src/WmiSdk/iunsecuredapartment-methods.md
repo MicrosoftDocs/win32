@@ -1,5 +1,5 @@
 ---
-Description: The IUnsecuredApartment interface exposes the following methods.
+description: The IUnsecuredApartment interface exposes the following methods.
 ms.assetid: 5E233B3B-5EBE-43D0-B8F6-C1FC995D55B6
 ms.tgt_platform: multiple
 title: IUnsecuredApartment Methods

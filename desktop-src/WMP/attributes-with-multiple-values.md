@@ -1,6 +1,6 @@
 ---
 title: Attributes with Multiple Values (Windows Media Player SDK)
-description: Attributes with Multiple Values
+description: Learn about attributes with multiple values in the Windows Media Player SDK. Some media item attributes can have multiple values.
 ms.assetid: 8405481c-47f5-4752-9dab-d3c84711fbb4
 keywords:
 - Windows Media Player,attributes for media items
@@ -15,10 +15,13 @@ keywords:
 - attributes,multiple values
 - multiple attribute values
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
-# Attributes with Multiple Values
+# Attributes with Multiple Values (Windows Media Player SDK)
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Some media item attributes can have multiple values. For example, the **Author**, **WM/Composer**, and **WM/Genre** attributes can each have more than one value. The data type of such attributes is **multi-valued string**.
 

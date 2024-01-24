@@ -21,7 +21,7 @@ Represents one entry from a netgroup map.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | nisNetgroupTriple                    |
 | Ldap-Display-Name | nisNetgroupTriple                    |
@@ -45,7 +45,7 @@ Represents one entry from a netgroup map.
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |
@@ -66,7 +66,7 @@ Represents one entry from a netgroup map.
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |
@@ -87,7 +87,7 @@ Represents one entry from a netgroup map.
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |
@@ -108,7 +108,7 @@ Represents one entry from a netgroup map.
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |

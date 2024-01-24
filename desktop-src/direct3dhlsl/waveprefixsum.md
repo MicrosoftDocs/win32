@@ -45,11 +45,7 @@ A postfix sum can be computed by adding the prefix sum to the current lane's val
 
 Note that the active lane with the lowest index will always receive a 0 for its prefix sum.
 
-This function is supported from shader model 6.0, in the following types of shaders.
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 ## Examples
 
@@ -60,7 +56,7 @@ uint prefixSum = WavePrefixSum( numToSum );
 
 On a machine with a wave size of 8, and all lanes active except lanes 0 and 4, the following values would be returned from WavePrefixSum.
 
-| lane index | status   | prefixProduct | 
+| lane index | status   | prefixSum     | 
 |------------|----------|---------------|
 | 0          | inactive | n/a           |
 | 1          | active   | = 0           |

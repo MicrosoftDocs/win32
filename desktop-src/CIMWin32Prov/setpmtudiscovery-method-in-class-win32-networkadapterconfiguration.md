@@ -1,5 +1,5 @@
 ---
-Description: The SetPMTUDiscovery WMI class static method is used to enable Maximum Transmission Unit (MTU) discovery over the path to a remote host.
+description: The SetPMTUDiscovery WMI class static method is used to enable Maximum Transmission Unit (MTU) discovery over the path to a remote host.
 ms.assetid: 43c640bb-c4e7-4b4b-9c18-6cc426229954
 ms.tgt_platform: multiple
 title: SetPMTUDiscovery method of the Win32_NetworkAdapterConfiguration class
@@ -403,15 +403,11 @@ DHCP not enabled on adapter.
 
 By discovering the Path MTU and limiting TCP segments to this size, TCP can eliminate fragmentation at routers along the path that connect networks with different MTUs. Fragmentation adversely affects TCP throughput and network congestion. Setting this parameter to **FALSE** causes an MTU of 576 bytes to be used for all connections that are not to machines on the local subnet
 
-## Examples
-
-The [Enable PMTU Discovery on all Network Adapters](https://Gallery.TechNet.Microsoft.Com/dd68dc8d-d452-484c-add7-2da5c87c3568) VBScript sample enables a computer to automatically discover the maximum transmission unit on a network.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

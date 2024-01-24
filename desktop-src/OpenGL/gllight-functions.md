@@ -1,6 +1,6 @@
 ---
 title: glLight Functions
-description: These functions return light source parameter values.
+description: Understand the glLight functions in the Open Graphics Library (OpenGL). These functions return light source parameter values.
 ms.assetid: 004f0f53-4c72-48df-8231-6b39df464061
 keywords:
 - OpenGL,glLight functions

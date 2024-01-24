@@ -22,7 +22,7 @@ Contains the naming contexts held by a domain controller. This attribute depreca
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Has-Master-NCs                    |
 | Ldap-Display-Name | msDS-hasMasterNCs                       |
@@ -48,7 +48,7 @@ Contains the naming contexts held by a domain controller. This attribute depreca
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2036                                     |
 | MAPI-Id                | \-                                       |
@@ -69,7 +69,7 @@ Contains the naming contexts held by a domain controller. This attribute depreca
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2036                                     |
 | MAPI-Id                | \-                                       |
@@ -90,7 +90,7 @@ Contains the naming contexts held by a domain controller. This attribute depreca
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2036                                     |
 | MAPI-Id                | \-                                       |
@@ -111,7 +111,7 @@ Contains the naming contexts held by a domain controller. This attribute depreca
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2036                                     |
 | MAPI-Id                | \-                                       |
@@ -132,7 +132,7 @@ Contains the naming contexts held by a domain controller. This attribute depreca
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2036                                     |
 | MAPI-Id                | \-                                       |
@@ -153,7 +153,7 @@ Contains the naming contexts held by a domain controller. This attribute depreca
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2036                                     |
 | MAPI-Id                | \-                                       |

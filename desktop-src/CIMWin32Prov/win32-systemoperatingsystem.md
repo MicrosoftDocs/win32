@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemOperatingSystem association WMI class relates a computer system and its operating system.
+description: The Win32\_SystemOperatingSystem association WMI class relates a computer system and its operating system.
 ms.assetid: dc71f80b-6fbd-4bc8-8783-3922d8050518
 ms.tgt_platform: multiple
 title: Win32_SystemOperatingSystem class
@@ -107,7 +107,7 @@ The **Win32\_SystemOperatingSystem** class is derived from [**CIM\_InstalledOS**
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

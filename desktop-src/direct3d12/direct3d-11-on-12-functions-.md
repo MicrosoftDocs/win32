@@ -2,7 +2,6 @@
 title: 11on12 Functions
 description: The following functions are declared in d3d11on12.h.
 ms.assetid: 99DDA586-ACFD-4326-B25E-EF8875901690
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---

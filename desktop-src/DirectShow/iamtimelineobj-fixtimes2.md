@@ -1,9 +1,9 @@
 ---
-Description: The FixTimes2 method rounds the specified start and stop times to the nearest frame boundaries, as defined by the parent group's frame rate setting. This method is equivalent to IAMTimelineObj::FixTimes, but takes REFTIME values.
+description: The FixTimes2 method rounds the specified start and stop times to the nearest frame boundaries, as defined by the parent group's frame rate setting. This method is equivalent to IAMTimelineObj::FixTimes, but takes REFTIME values.
 ms.assetid: bdb3d999-2c91-4108-9286-c6e1f3362c09
 title: IAMTimelineObj::FixTimes2 method (Qedit.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,9 +14,12 @@ api_type:
 api_location: 
 - strmiids.lib
 - strmiids.dll
+ms.custom: UpdateFrequency5
 ---
 
 # IAMTimelineObj::FixTimes2 method
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
@@ -75,7 +78,7 @@ Returns S\_OK if successful, or E\_NOTINTREE if the object is not part of a grou
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

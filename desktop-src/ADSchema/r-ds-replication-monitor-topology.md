@@ -21,7 +21,7 @@ Extended control access right that allows the reading of replication monitoring 
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | DS-Replication-Monitor-Topology      |
 | Display-Name | Monitor Active Directory Replication |
@@ -41,7 +41,7 @@ Extended control access right that allows the reading of replication monitoring 
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 67                                                                                                                               |
@@ -52,7 +52,7 @@ Extended control access right that allows the reading of replication monitoring 
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 67                                                                                                                               |
@@ -63,7 +63,7 @@ Extended control access right that allows the reading of replication monitoring 
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 67                                                                                                                               |
@@ -74,7 +74,7 @@ Extended control access right that allows the reading of replication monitoring 
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 67                                                                                                                               |
@@ -85,7 +85,7 @@ Extended control access right that allows the reading of replication monitoring 
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 67                                                                                                                               |

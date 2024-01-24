@@ -1,5 +1,5 @@
 ---
-Description: The JOB\_INFO\_3 structure is used to link together a set of print jobs.
+description: The JOB\_INFO\_3 structure is used to link together a set of print jobs.
 ms.assetid: a110f555-dc33-450c-ae77-ea26f0f69448
 title: JOB_INFO_3 structure (Winspool.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ This value is reserved for future use. You must set it to zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

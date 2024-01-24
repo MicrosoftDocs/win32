@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotTimeOutException members"
 title: EsentOSSnapshotTimeOutException members
 TOCTitle: EsentOSSnapshotTimeOutException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotTimeOutException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.OSSnapshotTimeOut exceptions.
 
-The [EsentOSSnapshotTimeOutException](dn319704\(v=exchg.10\).md) type exposes the following members.
+The [EsentOSSnapshotTimeOutException](./esentossnapshottimeoutexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentOSSnapshotTimeOutException class](dn319704\(v=exchg.10\).md)
+[EsentOSSnapshotTimeOutException class](./esentossnapshottimeoutexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

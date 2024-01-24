@@ -1,5 +1,5 @@
 ---
-Description: The WM\_TABLET\_ADDED message is posted when a tablet device is added to Windows.
+description: The WM\_TABLET\_ADDED message is posted when a tablet device is added to Windows.
 ms.assetid: 74323b34-2364-47eb-b8ac-b97546e43b32
 title: WM_TABLET_ADDED message (Tpcshrd.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ The indexes passed in *wParam* are related to the index used by the [**ITabletMa
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                        |
 | Minimum supported server<br/> | None supported<br/>                                                            |

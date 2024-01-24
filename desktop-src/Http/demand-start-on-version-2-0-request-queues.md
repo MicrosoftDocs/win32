@@ -1,6 +1,6 @@
 ---
 title: Demand Start on Version 2.0 Request Queues
-description: .
+description: Demand Start on Version 2.0 Request Queues
 ms.assetid: 84a744b7-1b0e-4fa7-8015-4840251aa856
 ms.topic: article
 ms.date: 05/31/2018

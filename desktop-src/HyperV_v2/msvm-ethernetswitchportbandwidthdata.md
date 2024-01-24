@@ -1,5 +1,5 @@
 ---
-Description: Represents the port bandwidth feature status data.
+description: Represents the port bandwidth feature status data.
 ms.assetid: 1f7be0dd-3d2f-49ef-aff0-cb162389194a
 title: Msvm_EthernetSwitchPortBandwidthData class
 ms.topic: reference
@@ -235,7 +235,7 @@ The name of the virtual switch that scopes this port data instance. This propert
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

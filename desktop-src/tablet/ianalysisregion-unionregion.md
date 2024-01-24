@@ -1,5 +1,5 @@
 ---
-Description: Expands the area of this IAnalysisRegion to the area created by its union with the specified IAnalysisRegion.
+description: Expands the area of this IAnalysisRegion to the area created by its union with the specified IAnalysisRegion.
 ms.assetid: cc3ec5c6-98ff-442e-a1e8-d1a57752ad56
 title: IAnalysisRegion::UnionRegion method (IACom.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ If either area is infinite, the new area is also infinite.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

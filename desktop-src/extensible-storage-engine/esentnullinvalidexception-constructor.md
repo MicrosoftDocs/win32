@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullInvalidException constructor"
 title: EsentNullInvalidException constructor 
 TOCTitle: 'EsentNullInvalidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNullInvalidException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentNullInvalidException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentNullInvalidException()
 
 #### Reference
 
-[EsentNullInvalidException class](dn319698\(v=exchg.10\).md)
+[EsentNullInvalidException class](./esentnullinvalidexception-class.md)
 
-[EsentNullInvalidException members](dn319647\(v=exchg.10\).md)
+[EsentNullInvalidException members](./esentnullinvalidexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

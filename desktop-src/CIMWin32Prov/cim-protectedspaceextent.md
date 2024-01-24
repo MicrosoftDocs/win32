@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ProtectedSpaceExtent class represents addressable logical-block addresses, which are treated as a single storage extent, but are located on a single physical extent.
+description: The CIM\_ProtectedSpaceExtent class represents addressable logical-block addresses, which are treated as a single storage extent, but are located on a single physical extent.
 ms.assetid: c6fac984-3b04-4fdb-916a-f83a9d35c67b
 ms.tgt_platform: multiple
 title: CIM_ProtectedSpaceExtent class
@@ -1323,7 +1323,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

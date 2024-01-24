@@ -1,5 +1,5 @@
 ---
-Description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: 7f641354-c3f5-4eb3-ad1c-98abf7694106
 title: IEnumParticipant::Skip method (Confpriv.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

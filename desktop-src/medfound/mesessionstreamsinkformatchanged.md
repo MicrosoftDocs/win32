@@ -1,5 +1,5 @@
 ---
-Description: Raised by the Media Session when the format changes on a media sink.
+description: Raised by the Media Session when the format changes on a media sink.
 ms.assetid: f56419f8-7f50-4eda-bf4a-fcdbbe46e180
 title: MESessionStreamSinkFormatChanged event (Mfobjects.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The following attributes are defined for this event.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

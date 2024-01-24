@@ -1,5 +1,5 @@
 ---
-Description: Returns a description of the video signal that is being transmitted over the connector.
+description: Returns a description of the video signal that is being transmitted over the connector.
 ms.assetid: 8464470f-49db-4559-80b2-02cfc473e30e
 title: OPM_GET_ACTUAL_OUTPUT_FORMAT (Opmapi.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Returns a description of the video signal that is being transmitted over the con
 
 
 
-|              |                                                                              |
+| Requirement | Value |
 |--------------|------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ACTUAL\_OUTPUT\_FORMAT                                             |
 | Input data   | None                                                                         |
@@ -32,7 +32,7 @@ This query is equivalent to the DXVA\_COPPQueryDisplayData query used in Certifi
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

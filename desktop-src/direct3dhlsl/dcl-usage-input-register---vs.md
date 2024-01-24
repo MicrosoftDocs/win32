@@ -17,11 +17,7 @@ Declare the association between a vertex element usage and a usage index for a v
 
 ## Syntax
 
-
-
-|                                |
-|--------------------------------|
-| dcl\_usage\[usage\_index\] v\# |
+dcl\_usage\[usage\_index\] v\#
 
 
 

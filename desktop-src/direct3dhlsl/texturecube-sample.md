@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube Sample methods
-description: Samples a texture.
+description: Samples a texture. | TextureCube::TextureCube Sample methods
 ms.assetid: 8A43006B-E7BB-4D4D-8D46-F611322B0882
 keywords:
 - Sample methods HLSL

@@ -1,5 +1,5 @@
 ---
-Description: The IImageInformation interface defines the following properties.
+description: The IImageInformation interface defines the following properties.
 ms.assetid: 618e3b07-b9ba-444e-a6bd-0e3d7cb78d97
 title: IImageInformation Properties
 ms.topic: article

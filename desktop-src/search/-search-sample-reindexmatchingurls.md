@@ -1,5 +1,5 @@
 ---
-Description: 'The ReindexMatchingUrls code sample demonstrates how to provide three ways to specify the files to re-index: URLs that match a file type, mime type, or a specified WHERE clause.'
+description: 'The ReindexMatchingUrls code sample demonstrates how to provide three ways to specify the files to re-index: URLs that match a file type, mime type, or a specified WHERE clause.'
 ms.assetid: f7b3a8a6-b464-46d4-a99c-fc56eea9b1ec
 title: ReindexMatchingUrls
 ms.topic: article

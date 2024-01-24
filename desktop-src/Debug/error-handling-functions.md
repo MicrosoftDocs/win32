@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with error handling.
+description: The following functions are used with error handling.
 ms.assetid: ae8ad3a2-1f1a-46d6-adaa-74c50c07dcc5
 title: Error Handling Functions
 ms.topic: article

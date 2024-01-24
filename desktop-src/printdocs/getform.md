@@ -1,5 +1,5 @@
 ---
-Description: The GetForm function retrieves information about a specified form.
+description: The GetForm function retrieves information about a specified form.
 ms.assetid: 10b25748-6d7c-46ab-bd2c-9b6126a1d7d1
 title: GetForm function (Winspool.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ If the caller is remote, and the *Level* is 2, the **StringType** value of the r
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

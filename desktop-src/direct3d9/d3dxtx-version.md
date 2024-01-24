@@ -1,5 +1,5 @@
 ---
-Description: Version token that creates a procedural texture filler in effects. This macro is used by the D3DXFillxxxTX functions.
+description: Version token that creates a procedural texture filler in effects. This macro is used by the D3DXFillxxxTX functions.
 ms.assetid: b11b6229-27a3-4813-9642-9e33bcd0da7a
 title: D3DXTX_VERSION (D3DX9Shader.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ The macro returns the procedural texture version token.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 

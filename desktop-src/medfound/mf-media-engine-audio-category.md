@@ -1,5 +1,5 @@
 ---
-Description: Specifies the category of the audio stream.
+description: Specifies the category of the audio stream.
 ms.assetid: 0F2DB9A7-64ED-4952-BCB3-F2B15BA37D2A
 title: MF_MEDIA_ENGINE_AUDIO_CATEGORY attribute
 ms.topic: reference
@@ -24,7 +24,7 @@ This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**]
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                  |

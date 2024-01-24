@@ -97,7 +97,7 @@ You can also store button images in a set of [Image Lists](image-lists.md). An i
 
 
 
-|          |                                                                                                                                                                                              |
+|  State        |  Description                                                                                                                                                                                            |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Normal   | Buttons in their default state.                                                                                                                                                              |
 | Hot      | Buttons that are under the pointer or pressed. Hot items are supported only in toolbar controls that have the [**TBSTYLE\_FLAT**](toolbar-control-and-button-styles.md) style. |

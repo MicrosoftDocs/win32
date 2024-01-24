@@ -1,5 +1,5 @@
 ---
-Description: Windows Imaging Component
+description: Windows Imaging Component
 ms.assetid: b872baf9-9fcb-4604-a518-26e109eda792
 title: Windows Imaging Component
 ms.topic: article
@@ -27,7 +27,6 @@ WIC is designed to meet the needs of the following classes of developers:
 -   Developers who want run-time codec discovery for newly designed or implemented image codecs.
 -   Developers designing or implementing new image codecs and metadata formats.
 
-## 
 
 ## In this section
 

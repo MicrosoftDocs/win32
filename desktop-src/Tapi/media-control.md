@@ -1,5 +1,5 @@
 ---
-Description: The media of a communications session is the form in which the data is transmitted. Media controls allow an application to recognize a variety of media types and adjust aspects of the media stream, such as the volume of voice transmission.
+description: The media of a communications session is the form in which the data is transmitted. Media controls allow an application to recognize a variety of media types and adjust aspects of the media stream, such as the volume of voice transmission.
 ms.assetid: b32503fe-d494-44ea-b144-e38b8ab9b3d4
 title: Media Control
 ms.topic: article

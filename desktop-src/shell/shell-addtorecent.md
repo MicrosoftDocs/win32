@@ -1,5 +1,5 @@
 ---
-Description: Adds a file to the most recently used (MRU) list.
+description: Shell.AddToRecent method - Adds a file to the most recently used (MRU) list.
 ms.assetid: 26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7
 title: Shell.AddToRecent method (Shldisp.h)
 ms.topic: reference
@@ -173,7 +173,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

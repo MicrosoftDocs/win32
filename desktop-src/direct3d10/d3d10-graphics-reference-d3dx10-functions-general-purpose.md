@@ -1,12 +1,12 @@
 ---
-Description: D3DX supplies the following general purpose functions.
+description: D3DX supplies the following general purpose functions.
 ms.assetid: 36db8e11-9cb0-4fa7-be40-4bf2eb8337ed
 title: General Purpose Functions (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# General Purpose Functions
+# General Purpose Functions (Direct3D 10 Graphics)
 
 D3DX supplies the following general purpose functions.
 

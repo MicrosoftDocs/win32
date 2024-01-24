@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabase400FormatException members"
 title: EsentDatabase400FormatException members
 TOCTitle: EsentDatabase400FormatException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabase400FormatException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.Database400Format exceptions.
 
-The [EsentDatabase400FormatException](dn334253\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabase400FormatException](./esentdatabase400formatexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabase400FormatException class](dn334253\(v=exchg.10\).md)
+[EsentDatabase400FormatException class](./esentdatabase400formatexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

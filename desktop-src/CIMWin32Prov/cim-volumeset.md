@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VolumeSet class represents a contiguous range of logical blocks presented to the operating environment for reading and writing user data.
+description: The CIM\_VolumeSet class represents a contiguous range of logical blocks presented to the operating environment for reading and writing user data.
 ms.assetid: f0350185-6210-4f95-a2a2-23de61b1af1f
 ms.tgt_platform: multiple
 title: CIM_VolumeSet class
@@ -1337,7 +1337,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_NEEDMEDIA notification is sent to the callback routine when new media or a new cabinet file is required.
+description: The SPFILENOTIFY\_NEEDMEDIA notification is sent to the callback routine when new media or a new cabinet file is required.
 ms.assetid: 6a7947de-1bb3-46e0-9334-405684e58e98
 title: SPFILENOTIFY_NEEDMEDIA message (Setupapi.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The callback routine should return one of the following.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

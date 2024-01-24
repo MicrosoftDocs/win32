@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LogicalProgramGroupItem&\#8194;WMI class represents an element contained by a Win32\_LogicalProgramGroup that is not also another Win32\_LogicalProgramGroup instance.
+description: The Win32\_LogicalProgramGroupItem&\#8194;WMI class represents an element contained by a Win32\_LogicalProgramGroup that is not also another Win32\_LogicalProgramGroup instance.
 ms.assetid: 70b127bf-4e94-4c1a-98ff-909bdfe0f009
 ms.tgt_platform: multiple
 title: Win32_LogicalProgramGroupItem class
@@ -243,7 +243,7 @@ The calling process that uses this class must have the **SE\_RESTORE\_NAME** pri
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,6 @@
-﻿---
-title: Update.Save method 
+---
+description: "Learn more about: Update.Save method overload list"
+title: Update.Save method overload list
 TOCTitle: 'Save method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Update.Save
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.update.save(v=EXCHG.10)
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[Update class](dn351191\(v=exchg.10\).md)
+[Update class](./update-class.md)
 
-[Update members](dn351259\(v=exchg.10\).md)
+[Update members](./update-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexCantBuildException members"
 title: EsentIndexCantBuildException members
 TOCTitle: EsentIndexCantBuildException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.IndexCantBuild exceptions.
 
-The [EsentIndexCantBuildException](dn350436\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexCantBuildException](./esentindexcantbuildexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentIndexCantBuildException class](dn350436\(v=exchg.10\).md)
+[EsentIndexCantBuildException class](./esentindexcantbuildexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

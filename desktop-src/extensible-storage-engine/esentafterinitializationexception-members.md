@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAfterInitializationException members"
 title: EsentAfterInitializationException members
 TOCTitle: EsentAfterInitializationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentAfterInitializationException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.AfterInitialization exceptions.
 
-The [EsentAfterInitializationException](dn334220\(v=exchg.10\).md) type exposes the following members.
+The [EsentAfterInitializationException](./esentafterinitializationexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentAfterInitializationException class](dn334220\(v=exchg.10\).md)
+[EsentAfterInitializationException class](./esentafterinitializationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

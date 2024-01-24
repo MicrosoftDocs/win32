@@ -19,7 +19,7 @@
     items: 
     - name: "Overview"
       href: your-first-windows-program.md
-    - name: "Creating a Window"
+    - name: "Create a Window"
       href: creating-a-window.md
     - name: "Window Messages"
       href: window-messages.md

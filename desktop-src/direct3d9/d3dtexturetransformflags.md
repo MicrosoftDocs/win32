@@ -1,5 +1,5 @@
 ---
-Description: Defines texture coordinate transformation values.
+description: Defines texture coordinate transformation values.
 ms.assetid: a91f33ce-2db5-437a-ac29-402b26b0d4e1
 title: D3DTEXTURETRANSFORMFLAGS enumeration (D3D9Types.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ Texture coordinates can be transformed using a 4 x 4 matrix before the results a
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

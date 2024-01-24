@@ -34,9 +34,9 @@ Command identifier of the button to hide or show.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **BOOL** that indicates whether to hide or show the specified button. If **TRUE**, the button is hidden. If **FALSE**, the button is shown.
+The [**LOWORD**](../winmsg/loword.md) is a **BOOL** that indicates whether to hide or show the specified button. If **TRUE**, the button is hidden. If **FALSE**, the button is shown.
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) must be zero.
+The [**HIWORD**](../winmsg/hiword.md) must be zero.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

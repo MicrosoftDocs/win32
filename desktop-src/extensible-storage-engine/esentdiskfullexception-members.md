@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskFullException members"
 title: EsentDiskFullException members
 TOCTitle: EsentDiskFullException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDiskFullException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DiskFull exceptions.
 
-The [EsentDiskFullException](dn334461\(v=exchg.10\).md) type exposes the following members.
+The [EsentDiskFullException](./esentdiskfullexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDiskFullException class](dn334461\(v=exchg.10\).md)
+[EsentDiskFullException class](./esentdiskfullexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

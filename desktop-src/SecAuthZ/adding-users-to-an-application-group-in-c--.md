@@ -1,5 +1,5 @@
 ---
-Description: In Authorization Manager, an application group is a group of users and user groups. An application group can contain other application groups, so groups of users can be nested.
+description: In Authorization Manager, an application group is a group of users and user groups. An application group can contain other application groups, so groups of users can be nested.
 ms.assetid: b01883d6-eae6-4f3a-b269-90c22827f116
 title: Adding Users to an Application Group in C++
 ms.topic: article

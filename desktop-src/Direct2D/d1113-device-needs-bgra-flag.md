@@ -21,7 +21,7 @@ The Direct3D device was not created with D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT, a
 
 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | Error Level | Warning |
 

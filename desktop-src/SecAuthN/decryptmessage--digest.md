@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a message by using Digest.
+description: Decrypts a message by using Digest.
 ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 title: DecryptMessage (Digest) function
 ms.topic: reference
@@ -50,8 +50,12 @@ A pointer to a variable of type **ULONG** that receives package-specific flags t
 
 This parameter can be one of the following flags.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Value</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>The message was not encrypted, but a header or trailer was produced.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/></td></tr><tr class="even"><td><span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl> <dt><strong>SIGN_ONLY</strong> </dt> </dl></td><td>When using the Digest SSP, use this flag when the [*security context*](../secgloss/s-gly.md) is set to verify the [*signature*](../secgloss/s-gly.md) only. For more information, see [Quality of Protection](quality-of-protection.md).<br/></td></tr></tbody></table>
+
+| Value | Meaning | 
+|-------|---------|
+| **SECQOP_WRAP_NO_ENCRYPT**<br> | The message was not encrypted, but a header or trailer was produced.<br> **Note:** KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.<br> | 
+| <span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl><dt><strong>SIGN_ONLY</strong></dt></dl> | When using the Digest SSP, use this flag when the [*security context*](../secgloss/s-gly.md) is set to verify the [*signature*](../secgloss/s-gly.md) only. For more information, see [Quality of Protection](quality-of-protection.md).<br /> | 
+
 
 ## Return value
 
@@ -77,7 +81,7 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

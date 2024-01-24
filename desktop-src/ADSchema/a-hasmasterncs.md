@@ -22,7 +22,7 @@ The distinguished name for the naming contexts for the DC. Forward link for the 
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Has-Master-NCs                          |
 | Ldap-Display-Name | hasMasterNCs                            |
@@ -49,7 +49,7 @@ The distinguished name for the naming contexts for the DC. Forward link for the 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 76                                       |
 | MAPI-Id                | 0x80B6                                   |
@@ -70,7 +70,7 @@ The distinguished name for the naming contexts for the DC. Forward link for the 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 76                                       |
 | MAPI-Id                | 0x80B6                                   |
@@ -91,7 +91,7 @@ The distinguished name for the naming contexts for the DC. Forward link for the 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 76                                       |
 | MAPI-Id                | 0x80B6                                   |
@@ -112,7 +112,7 @@ The distinguished name for the naming contexts for the DC. Forward link for the 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 76                                       |
 | MAPI-Id                | 0x80B6                                   |
@@ -133,7 +133,7 @@ The distinguished name for the naming contexts for the DC. Forward link for the 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 76                                       |
 | MAPI-Id                | 0x80B6                                   |
@@ -154,7 +154,7 @@ The distinguished name for the naming contexts for the DC. Forward link for the 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 76                                       |
 | MAPI-Id                | 0x80B6                                   |
@@ -175,7 +175,7 @@ The distinguished name for the naming contexts for the DC. Forward link for the 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 76                                       |
 | MAPI-Id                | 0x80B6                                   |

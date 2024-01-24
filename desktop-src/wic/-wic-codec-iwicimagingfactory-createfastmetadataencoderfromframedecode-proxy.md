@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateFastMetadataEncoderFromFrameDecode method.
+description: Proxy function for the CreateFastMetadataEncoderFromFrameDecode method.
 ms.assetid: 0edc3387-47e9-401c-9153-76c8c32b52de
 title: IWICImagingFactory_CreateFastMetadataEncoderFromFrameDecode_Proxy function
 ms.topic: reference
@@ -74,7 +74,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

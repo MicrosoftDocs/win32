@@ -1,5 +1,5 @@
 ---
-Description: Recreates the application-specific and internal property data for an array of bytes that was previously created with IContextNode::SavePropertiesData.
+description: Recreates the application-specific and internal property data for an array of bytes that was previously created with IContextNode::SavePropertiesData.
 ms.assetid: 2d24d0da-16f1-4ddc-8e2e-93c312ecfa42
 title: IContextNode::LoadPropertiesData method (IACom.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

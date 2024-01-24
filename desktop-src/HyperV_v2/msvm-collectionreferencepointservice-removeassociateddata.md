@@ -1,5 +1,5 @@
 ---
-Description: Removes the data log associated with the reference point.
+description: RemoveAssociatedData method of the Msvm_CollectionReferencePointService class - Removes the data log associated with the reference point.
 ms.assetid: 42242b76-9123-41a7-b8b1-82d2e827ea53
 title: RemoveAssociatedData method of the Msvm_CollectionReferencePointService class
 ms.topic: reference
@@ -92,7 +92,7 @@ If successful, returns either 0 (no error), or 4096 (job started); otherwise, re
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

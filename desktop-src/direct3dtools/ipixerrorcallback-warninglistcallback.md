@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of warnings returned by the associated request.
+description: A callback that notifies the host of warnings returned by the associated request.
 MS-HAID: vspixengine.IPixErrorCallback\_WarningListCallback
 MSHAttr:
 - PreferredSiteName:MSDN

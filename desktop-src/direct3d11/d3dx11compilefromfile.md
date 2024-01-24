@@ -183,7 +183,7 @@ In addition, if you supply a non-**NULL** value to *pHResult* when you supply **
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX11async.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX11.lib</dt> </dl>    |

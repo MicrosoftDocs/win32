@@ -1,5 +1,5 @@
 ---
-Description: An encoder writes image data to a stream. Encoders can compress, encrypt, and alter the image pixels in a number of ways prior to writing them to the stream.
+description: An encoder writes image data to a stream. Encoders can compress, encrypt, and alter the image pixels in a number of ways prior to writing them to the stream.
 ms.assetid: e1e3a9d9-209b-46a6-92da-5570476507cf
 title: Encoding Overview
 ms.topic: article
@@ -170,7 +170,7 @@ return hr;
 
 ## Encoder Options Usage
 
-Different encoders for different formats need to expose different options for how an image is encoded. Windows Imaging Component (WIC) provides a consistent mechanism for expressing whether encoding options are required while still enabling applications to work with multiple encoders without requiring knowledge of a particular format. This is accomplished by providing an [IPropertyBag](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)) parameter on the [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe) method and the [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize) method.
+Different encoders for different formats need to expose different options for how an image is encoded. Windows Imaging Component (WIC) provides a consistent mechanism for expressing whether encoding options are required while still enabling applications to work with multiple encoders without requiring knowledge of a particular format. This is accomplished by providing an [IPropertyBag](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) parameter on the [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe) method and the [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize) method.
 
 The component factory provides an easy creation point for creating an encoder options property bag. Codecs can use this service if they need to provide a simple, intuitive and non-conflicting set of encoder options. The imaging property bag must be initialized during creation with all the encoder options relevant to that codec. For encoder options from the canonical set, the value range will be enforced on Write. For more advanced needs, codecs should write their own property bag implementation.
 

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreatePalette method.
+description: Proxy function for the CreatePalette method.
 ms.assetid: c83b4239-ce6b-4a4c-ab70-df31dfcdd26c
 title: IWICImagingFactory_CreatePalette_Proxy function
 ms.topic: reference
@@ -64,7 +64,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

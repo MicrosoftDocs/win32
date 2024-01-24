@@ -1,5 +1,5 @@
 ---
-Description: Sent to notify CPlApplet that the user has chosen the icon associated with a given dialog box. CPlApplet should display the corresponding dialog box and carry out any user-specified tasks.
+description: Sent to notify CPlApplet that the user has chosen the icon associated with a given dialog box. CPlApplet should display the corresponding dialog box and carry out any user-specified tasks.
 title: CPL_STARTWPARMS message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ Returns **TRUE** if the message was handled, or **FALSE** otherwise.
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                             |

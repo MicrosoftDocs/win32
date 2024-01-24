@@ -1,5 +1,5 @@
 ---
-Description: Displays a browser bar.
+description: IShellDispatch2.ShowBrowserBar method - Displays a browser bar.
 ms.assetid: 5776370c-3bbf-449b-a8fe-2dbc7d89dd25
 title: IShellDispatch2.ShowBrowserBar method (Shldisp.h)
 ms.topic: reference
@@ -144,7 +144,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

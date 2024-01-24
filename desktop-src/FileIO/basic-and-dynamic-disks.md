@@ -1,9 +1,9 @@
 ---
-Description: Describes two disk storage types and discusses partition styles.
+description: Describes two disk storage types and discusses partition styles.
 ms.assetid: 5d511654-92e0-4236-80e7-bb2417403186
 title: Basic and Dynamic Disks
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Basic and Dynamic Disks
@@ -15,7 +15,7 @@ For the purposes of this topic, the term *volume* is used to refer to the concep
 In this topic:
 
 -   [Basic Disks](#basic-disks)
--   [Dynamic Disks](#basic-and-dynamic-disks)
+-   [Dynamic Disks](#dynamic-disks)
 -   [Partition Styles](#partition-styles)
     -   [Master Boot Record](#master-boot-record)
     -   [GUID Partition Table](#guid-partition-table)
@@ -68,7 +68,7 @@ The operations common to basic and dynamic disks are the following:
 -   Establish drive-letter assignments for disk volumes or partitions, and for CD-ROM devices.
 -   Convert a basic disk to a dynamic disk, or a dynamic disk to a basic disk.
 
-Unless specified otherwise, Windows initially partitions a drive as a basic disk by default. You must explicitly convert a basic disk to a dynamic disk. However, there are disk space considerations that must be accounted for before you attempt to do this. For more information, see [How To Convert to Basic and Dynamic Disks in Windows XP Professional](https://support.microsoft.com/kb/309044).
+Unless specified otherwise, Windows initially partitions a drive as a basic disk by default. You must explicitly convert a basic disk to a dynamic disk. However, there are disk space considerations that must be accounted for before you attempt to do this.
 
 ## Partition Styles
 
@@ -131,9 +131,6 @@ There is no specific function to programmatically detect the type of disk a part
 </dt> <dt>
 
 [Dynamic Disks and Volumes Technical Reference](/previous-versions/windows/it-pro/windows-server-2003/cc785638(v=ws.10))
-</dt> <dt>
-
-[Basic Storage Versus Dynamic Storage in Windows XP]( https://support.microsoft.com/kb/314343/)
 </dt> </dl>
 
  

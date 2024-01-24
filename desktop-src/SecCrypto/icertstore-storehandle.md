@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the HCERTSTORE handle of a certificate store.
+description: Sets or retrieves the HCERTSTORE handle of a certificate store.
 ms.assetid: 3ff8b4c7-4a9a-4cc1-b0ea-da442ebce157
 title: ICertStore::StoreHandle property
 ms.topic: reference
@@ -55,7 +55,7 @@ If you set the **StoreHandle** property, the state of the entire [**Store**](sto
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

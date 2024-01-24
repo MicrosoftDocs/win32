@@ -1,5 +1,5 @@
 ---
-Description: Locks an index buffer and obtains a pointer to the index buffer memory.
+description: Locks an index buffer and obtains a pointer to the index buffer memory.
 ms.assetid: c8941164-1f2a-4aed-b0bd-8130aac61da4
 title: ID3DXBaseMesh::LockIndexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ When working with index buffers, you are allowed to make multiple lock calls. Ho
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

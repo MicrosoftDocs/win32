@@ -1,5 +1,5 @@
 ---
-Description: The Windows operating system accumulates a set of operating statistics for workstations and servers from the time that the workstation or server service is started.
+description: The Windows operating system accumulates a set of operating statistics for workstations and servers from the time that the workstation or server service is started.
 ms.assetid: 4e0217bf-7550-40a2-b47c-8e898a586005
 title: Statistics Functions
 ms.topic: article
@@ -20,7 +20,7 @@ The Windows operating system accumulates a set of operating statistics for works
 
  
 
-The **NetStatisticsGet** function returns a [**STAT\_WORKSTATION\_0**](/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0~r1) structure when workstation statistics are requested; the function returns a [**STAT\_SERVER\_0**](/windows/desktop/api/Lmstats/ns-lmstats-stat_server_0) structure when server statistics are requested.
+The **NetStatisticsGet** function returns a [**STAT\_WORKSTATION\_0**](/windows/win32/api/lmstats/ns-lmstats-stat_workstation_0-r1) structure when workstation statistics are requested; the function returns a [**STAT\_SERVER\_0**](/windows/desktop/api/Lmstats/ns-lmstats-stat_server_0) structure when server statistics are requested.
 
  
 

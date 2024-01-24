@@ -1,5 +1,5 @@
 ---
-Description: The LINE\_GROUPSTATUS message is sent when the status of an ACD group changes on an agent handler for which the application currently has an open line. This message is generated using the lineProxyMessage function.
+description: The LINE\_GROUPSTATUS message is sent when the status of an ACD group changes on an agent handler for which the application currently has an open line. This message is generated using the lineProxyMessage function.
 ms.assetid: 1f3210fe-a7c8-4cfa-8e36-3a88e93d68bb
 title: LINE_GROUPSTATUS message (Tapi.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Reserved. Set to zero.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.2<br/>                                                      |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

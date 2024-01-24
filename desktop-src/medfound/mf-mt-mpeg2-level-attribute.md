@@ -1,5 +1,5 @@
 ---
-Description: Specifies the MPEG-2 or H.264 level in a video media type.
+description: Specifies the MPEG-2 or H.264 level in a video media type.
 ms.assetid: 8dd8e8c4-5a6f-4a87-a643-73af35c362a9
 title: MF_MT_MPEG2_LEVEL attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

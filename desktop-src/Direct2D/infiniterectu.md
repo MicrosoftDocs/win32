@@ -43,7 +43,7 @@ The new rectangle.
 
 
 
-|                    |                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1helper\_3.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl>        |

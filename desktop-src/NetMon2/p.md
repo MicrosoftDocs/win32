@@ -1,5 +1,5 @@
 ---
-Description: Glossary of Network Monitor terms that begin with the letter P.
+description: Glossary of Network Monitor terms that begin with the letter P.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: '321398fb-683f-4fb1-b6b7-c7826811cacd'
 title: P (Network Monitor)
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# P
+# P (Network Monitor)
 
 <dl> <dt>
 

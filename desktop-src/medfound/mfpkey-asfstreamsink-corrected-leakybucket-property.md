@@ -1,5 +1,5 @@
 ---
-Description: Specifies the &\#0034;leaky bucket&\#0034; parameters for a stream on an ASF media sink.
+description: Specifies the &\#0034;leaky bucket&\#0034; parameters for a stream on an ASF media sink.
 ms.assetid: b01e59b6-0a7f-4125-867c-532385a27c15
 title: MFPKEY_ASFSTREAMSINK_CORRECTED_LEAKYBUCKET property (Mfidl.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The value of this property is an array of three **DWORD** values in the followin
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

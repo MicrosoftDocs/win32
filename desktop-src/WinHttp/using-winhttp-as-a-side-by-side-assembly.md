@@ -1,5 +1,5 @@
 ---
-Description: On Windows Server 2003, WinHTTP is implemented as a side-by-side assembly, and must be linked to as such. Note that this does not apply to Windows Vista and later.
+description: On Windows Server 2003, WinHTTP is implemented as a side-by-side assembly, and must be linked to as such. Note that this does not apply to Windows Vista and later.
 ms.assetid: 524d926d-4d8a-4576-96fd-c533517ba28e
 title: Using WinHTTP as a Side-by-side Assembly
 ms.topic: article
@@ -20,9 +20,9 @@ To use this mechanism to link to WinHTTP version 5.1 on Windows Server 2003, an
 
 The sample manifest below illustrates an application manifest that can be used for linking to WinHTTP.
 
-All attributes except "type" of the "<assembly><assemblyIdentity>" must be modified as appropriate for your particular application. The same goes for the contents of the "&lt;description&gt;" element.
+All attributes except "type" of the "&lt;assembly&gt;&lt;assemblyIdentity&gt;" must be modified as appropriate for your particular application. The same goes for the contents of the "&lt;description&gt;" element.
 
-In addition, make sure that the "processorArchitecture" attribute of the "<dependentAssembly><assemblyIdentity>" matches the "processorArchitecture" attribute of the "<assembly><assemblyIdentity>". Below, for example, both are set to "x86".
+In addition, make sure that the "processorArchitecture" attribute of the "&lt;dependentAssembly&gt;&lt;assemblyIdentity&gt;" matches the "processorArchitecture" attribute of the "&lt;assembly&gt;&lt;assemblyIdentity&gt;". Below, for example, both are set to "x86".
 
 All values not specific to your application should take the forms shown below.
 

@@ -1,5 +1,5 @@
 ---
-Description: Telephone number of the contact's assistant.
+description: Telephone number of the contact's assistant.
 ms.assetid: 2e3008b6-e427-468a-9381-f1d4866111c7
 title: System.Contact.AssistantTelephone
 ms.topic: article

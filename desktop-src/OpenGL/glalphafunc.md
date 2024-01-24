@@ -84,19 +84,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *func* was not an accepted value.<br/>                                                                                          |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The alpha test discards fragments depending on the outcome of a comparison between the incoming fragments' alpha values and a constant reference value. The **glAlphaFunc** function specifies the reference and comparison function. The comparison is performed only if alpha testing is enabled. (For more information on GL\_ALPHA\_TEST, see [**glEnable**](glenable.md).)
@@ -119,7 +106,7 @@ The following functions retrieve information related to the **glAlphaFunc** func
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

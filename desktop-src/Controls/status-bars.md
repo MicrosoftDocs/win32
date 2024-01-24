@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Status Bars
+# Status Bars (Windows Controls)
 
 A *status bar* is a horizontal window at the bottom of a parent window in which an application can display various kinds of status information. The status bar can be divided into parts to display more than one type of information. The following screen shot shows the status bar in the Microsoft Windows Paint application. In this case, the status bar contains the text "For Help, click Help Topics on the Help Menu". The status bar is the area at the bottom of the window that contains Help text and coordinate information.
 

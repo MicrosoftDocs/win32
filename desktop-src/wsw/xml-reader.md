@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 XML Reader is a cursor over an input source of XML. At its core, an XML Reader reads one [XML Node](xml-node.md) at a time, but there are additional helper APIs to make reading a sequence of nodes easier.
 
-## 
 
 The following types of readers input are supported:
 

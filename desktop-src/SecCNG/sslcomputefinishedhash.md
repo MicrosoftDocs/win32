@@ -1,5 +1,5 @@
 ---
-Description: Computes the hash sent in the finished message of the Secure Sockets Layer protocol (SSL) handshake.
+description: Computes the hash sent in the finished message of the Secure Sockets Layer protocol (SSL) handshake.
 ms.assetid: 82dfeb1d-c141-40c9-b692-daad78ab6d55
 title: SslComputeFinishedHash function (Sslprovider.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # SslComputeFinishedHash function
 
-The **SslComputeFinishedHash** function computes the [*hash*](/windows/desktop/SecGloss/h-gly) sent in the finished message of the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) handshake. For more information about the SSL handshake sequence, see [Description of the Secure Sockets Layer (SSL) Handshake](https://support.microsoft.com/kb/257591).
+The **SslComputeFinishedHash** function computes the [*hash*](/windows/desktop/SecGloss/h-gly) sent in the finished message of the [*Secure Sockets Layer protocol*](/windows/desktop/SecGloss/s-gly) (SSL) handshake.
 
 ## Syntax
 
@@ -124,7 +124,7 @@ The value of *cbOutput* determines the length of the hash data. When the [*Trans
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

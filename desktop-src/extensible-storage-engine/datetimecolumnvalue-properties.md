@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: DateTimeColumnValue properties"
 title: DateTimeColumnValue properties
 TOCTitle: DateTimeColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.DateTimeColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [DateTimeColumnValue](dn334238\(v=exchg.10\).md) type exposes the following members.
+The [DateTimeColumnValue](./datetimecolumnvalue-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,7 +82,6 @@ Top
 
 #### Reference
 
-[DateTimeColumnValue class](dn334238\(v=exchg.10\).md)
+[DateTimeColumnValue class](./datetimecolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

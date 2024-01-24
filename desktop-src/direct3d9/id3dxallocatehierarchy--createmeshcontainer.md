@@ -1,5 +1,5 @@
 ---
-Description: Requests allocation of a mesh container object.
+description: Requests allocation of a mesh container object.
 ms.assetid: ec66b393-016b-4572-94dc-5c8903b506a3
 title: ID3DXAllocateHierarchy::CreateMeshContainer method (D3dx9anim.h)
 ms.topic: reference
@@ -124,7 +124,7 @@ The return values of this method are implemented by an application programmer. I
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

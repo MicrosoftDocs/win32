@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the synthetic 3-D video graphics processing units (GPUs) available on the host system.
+description: Contains information about the synthetic 3-D video graphics processing units (GPUs) available on the host system.
 ms.assetid: 771A42C3-4888-49DF-A389-161A2D0E3DBD
 title: Msvm_Synth3dVideoPool class
 ms.topic: reference
@@ -662,7 +662,7 @@ Strings that describe the various [**OperationalStatus**](msvm-bioselement.md) a
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Control code associates a socket with a persistent or runtime reservation for a block of TCP or UDP identified by the port reservation token.
+description: Control code associates a socket with a persistent or runtime reservation for a block of TCP or UDP identified by the port reservation token.
 ms.assetid: 4CBFB5F8-1FA1-44BA-9932-6F0329A465CB
 title: SIO_ASSOCIATE_PORT_RESERVATION Control Code
 ms.topic: reference
@@ -107,6 +107,8 @@ For overlapped operations, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-w
 Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 ### lpCompletionRoutine
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 

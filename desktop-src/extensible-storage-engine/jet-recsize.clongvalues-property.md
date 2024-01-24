@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cLongValues property"
 title: JET_RECSIZE.cLongValues property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cLongValues property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cLongValues
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the total number of long values stored in the long-value tree for this record. This does not include intrinsic long values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Int64](/dotnet/api/system.int64)
 
 #### Reference
 
-[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](./jet-recsize-structure2.md)
 
-[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](./jet-recsize-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

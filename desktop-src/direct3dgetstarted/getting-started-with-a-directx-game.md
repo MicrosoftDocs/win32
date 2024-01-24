@@ -34,7 +34,7 @@ Ready to start? Let's review before we head on. You have:
 
 
 
-|                                                                                                    |                                                                                                           |
+| Topic                                                                                                   | Description                                                                                                           |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | [Work with DirectX device resources](work-with-dxgi.md)                                           | Learn how to use DXGI to create a virtualized graphics device, and create and configure a swap chain.     |
 | [Understand the Direct3D 11 rendering pipeline](understand-the-directx-11-2-graphics-pipeline.md) | Learn how to hook into the DirectX device resources class, and draw using the Direct3D graphics pipeline. |

@@ -1,5 +1,5 @@
 ---
-Description: Independent software vendors (ISVs) can extend the set of known folders on a system by registering known folders of their own.
+description: Independent software vendors (ISVs) can extend the set of known folders on a system by registering known folders of their own.
 ms.assetid: bb2c63e6-7525-4d20-ac50-591b3e53dea2
 title: How to Extend Known Folders with Custom Folders
 ms.topic: article
@@ -30,7 +30,7 @@ Give consideration to why you want your folder to be included in the known folde
 
 <dl> <dt>
 
-[Known Folders Sample](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
+[Known Folders Sample](/windows/win32/shell/samples-knownfolders)
 </dt> </dl>
 
  

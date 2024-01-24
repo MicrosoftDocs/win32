@@ -98,7 +98,7 @@ W3C ARIA roles can map to Microsoft Active Accessibility roles or UI Automation 
 
 W3C ARIA states and properties map to various Microsoft Active Accessibility and UI Automation properties and functions. Most of the ARIA states and properties are supported by the UI Automation AriaProperties property. The exceptions are ARIA properties that take object references (for example, the describedby ARIA property), and ARIA properties that are supported by the accessibility object model. For example, the ARIA activedescendent property is expected to be represented as the element with focus in the accessibility object model. The ARIA owns property should be also reflected in the accessibility object model when it is specified.
 
-AriaProperties is a string property that has a collection of name/value pairs whose delimiters are the equal sign (=) and the semicolon (;), for example, "checked=true;disabled=false". A backslash (\) is used as an escape when these delimiter characters, or a backslash, appear in the values. The provider code can add verification to validate the original ARIA properties in the Document Object Model, but it is not required.
+AriaProperties is a string property that has a collection of name/value pairs whose delimiters are the equal sign (=) and the semicolon (;), for example, "checked=true;disabled=false". A backslash (\\) is used as an escape when these delimiter characters, or a backslash, appear in the values. The provider code can add verification to validate the original ARIA properties in the Document Object Model, but it is not required.
 
 
 

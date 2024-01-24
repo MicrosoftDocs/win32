@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadLostFlushVerifyFailureException properties"
 title: EsentReadLostFlushVerifyFailureException properties
 TOCTitle: EsentReadLostFlushVerifyFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentReadLostFlushVerifyFailureException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentReadLostFlushVerifyFailureException](dn319812\(v=exchg.10\).md) type exposes the following members.
+The [EsentReadLostFlushVerifyFailureException](./esentreadlostflushverifyfailureexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentReadLostFlushVerifyFailureException class](dn319812\(v=exchg.10\).md)
+[EsentReadLostFlushVerifyFailureException class](./esentreadlostflushverifyfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

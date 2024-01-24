@@ -1,5 +1,5 @@
 ---
-Description: The LoadIPAddresses function is called by the monitor to fill in an IP address list with addresses taken from an HTML configuration string variable.
+description: The LoadIPAddresses function is called by the monitor to fill in an IP address list with addresses taken from an HTML configuration string variable.
 ms.assetid: d0b5d686-5a98-4d61-aa28-24ea71fcb06b
 title: LoadIPAddresses function (Netmon.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ The IP addresses must be in x.x.x.x format (for example, 127.0.0.1).
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

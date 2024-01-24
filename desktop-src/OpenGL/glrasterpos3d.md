@@ -1,6 +1,6 @@
 ---
 title: glRasterPos3d function (Gl.h)
-description: Specifies the raster position for pixel operations.
+description: Specifies the raster position for pixel operations. | glRasterPos3d function (Gl.h)
 ms.assetid: 82e526f2-7ccd-4d31-a281-7cd6d7a488c1
 keywords:
 - glRasterPos3d function OpenGL
@@ -102,7 +102,7 @@ The following functions retrieve information related to [glRasterPos](glrasterpo
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

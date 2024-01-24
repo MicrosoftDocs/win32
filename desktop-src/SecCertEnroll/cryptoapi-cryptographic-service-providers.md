@@ -1,5 +1,5 @@
 ---
-Description: Providers associated with Cryptography API (CryptoAPI) are called cryptographic service providers (CSPs) in this documentation.
+description: Providers associated with Cryptography API (CryptoAPI) are called cryptographic service providers (CSPs) in this documentation.
 ms.assetid: 28c9d348-7a37-4346-8b75-396d1349b152
 title: CryptoAPI Cryptographic Service Providers
 ms.topic: article

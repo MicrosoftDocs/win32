@@ -1,5 +1,5 @@
 ---
-Description: Specifies the frame types (I, P, or B) that the quantization parameter (QP) is applied to.
+description: Specifies the frame types (I, P, or B) that the quantization parameter (QP) is applied to.
 ms.assetid: 6331033F-7EEB-41B3-B166-29686D4AADB6
 title: CODECAPI_AVEncVideoEncodeFrameTypeQP property (Codecapi.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ When [CODECAPI\_AVEncVideoSelectLayer](codecapi-avencvideoselectlayer.md) select
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |

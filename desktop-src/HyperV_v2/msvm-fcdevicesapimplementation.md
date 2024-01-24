@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service access point and the logical device that implements it.
+description: Msvm_FcDeviceSAPImplementation class - Represents an association between a service access point and the logical device that implements it.
 ms.assetid: 5510c179-09e6-4762-b9b3-68ed49eafd66
 title: Msvm_FcDeviceSAPImplementation class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_FcEndpoint**](msvm-fcendpoint.md) cla
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

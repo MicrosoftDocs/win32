@@ -1,5 +1,5 @@
 ---
-Description: Creates a mesh from a control-patch mesh.
+description: Creates a mesh from a control-patch mesh.
 ms.assetid: 50e4f7aa-a6b8-4a2b-9813-a9448f408d06
 title: D3DXCreatePatchMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -118,7 +118,7 @@ This method takes an input patch mesh and converts it to a tessellated mesh. Pat
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

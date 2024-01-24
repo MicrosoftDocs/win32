@@ -1,5 +1,5 @@
 ---
-Description: The synchronization attribute is a declarative property that specifies what type of synchronization you want your components to have when they are activated.
+description: The synchronization attribute is a declarative property that specifies what type of synchronization you want your components to have when they are activated.
 ms.assetid: 7f044ee5-b99e-4f0c-a680-b1e2672949fc
 title: Synchronization Attribute Values
 ms.topic: article

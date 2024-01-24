@@ -1,5 +1,5 @@
 ---
-Description: This section provides the reference specifications for Direct Manipulation constants.
+description: This section provides the reference specifications for Direct Manipulation constants.
 ms.assetid: 41A828F5-4AE3-4073-89EB-CC1279B9ECED
 title: Direct Manipulation Constants
 ms.topic: article
@@ -18,7 +18,7 @@ This section provides the reference specifications for [Direct Manipulation](dir
 
 ## Requirements
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                              |

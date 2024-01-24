@@ -20,7 +20,7 @@ WsUtil.exe does not support the full extent of XSD schema. The current support l
 
 Identifier generation
 
-Element name or type name in the schema might not be valid C identifier, and the names are normalized to generated valid C names. Invalid C identifier characters are converted to the hex name, and a underscore '\_' might be prefixed to the name if necessary. Anonymous types are named after the enclosing element name but prefixed with underscore "\_" to avoid name collision. Global type names are preserved as it is after invalid characters are normalized. Nested anonymous types are prefixed with the parent type name.
+Element name or type name in the schema might not be valid C identifier, and the names are normalized to generated valid C names. Invalid C identifier characters are converted to the hex name, and an underscore '\_' might be prefixed to the name if necessary. Anonymous types are named after the enclosing element name but prefixed with underscore "\_" to avoid name collision. Global type names are preserved as it is after invalid characters are normalized. Nested anonymous types are prefixed with the parent type name.
 
 For every global element definition, wsutil.exe generates a [**WS\_ELEMENT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_element_description) in the global description structure. For every global type definition, wsutil.exe generates a type description in the global description structure to be referenced by application.
 
@@ -178,7 +178,7 @@ If the array is a parameter field in input/output message, there would be two ac
 
 ## Range on Array
 
-We recommend the best practice of not specifying maxOccur="unbounded" for arrays. Instead, a fixed integer number should be specified to set a upper bound of array counts allowed. range is supported for integral types, as well as strings, byte arrays, and generic arrays.
+We recommend the best practice of not specifying maxOccur="unbounded" for arrays. Instead, a fixed integer number should be specified to set an upper bound of array counts allowed. range is supported for integral types, as well as strings, byte arrays, and generic arrays.
 
 ## Heuristic for Wrapped as Opposed to Unwrapped array
 

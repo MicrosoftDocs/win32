@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the identifier of the protocol currently in use on the smart card.
+description: Retrieves the identifier of the protocol currently in use on the smart card.
 ms.assetid: 68c75e98-da5c-4e3e-9836-369941751fb0
 title: ISCard::get_Protocol method (Scardmgr.h)
 ms.topic: reference
@@ -100,7 +100,7 @@ switch (scProtocol)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

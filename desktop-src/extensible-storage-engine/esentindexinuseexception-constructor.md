@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexInUseException constructor"
 title: EsentIndexInUseException constructor 
 TOCTitle: 'EsentIndexInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexInUseException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexInUseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentIndexInUseException()
 
 #### Reference
 
-[EsentIndexInUseException class](dn350505\(v=exchg.10\).md)
+[EsentIndexInUseException class](./esentindexinuseexception-class.md)
 
-[EsentIndexInUseException members](dn350446\(v=exchg.10\).md)
+[EsentIndexInUseException members](./esentindexinuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

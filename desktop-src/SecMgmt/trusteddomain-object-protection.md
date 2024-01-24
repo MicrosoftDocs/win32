@@ -1,5 +1,5 @@
 ---
-Description: When a TrustedDomain object is created, it is assigned a standard protection.
+description: When a TrustedDomain object is created, it is assigned a standard protection.
 ms.assetid: cc554630-7be7-4657-90f2-ce5fa81731b2
 title: TrustedDomain Object Protection
 ms.topic: article

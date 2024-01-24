@@ -1,5 +1,5 @@
 ---
-Description: The QueryStations method provides a list of all computers that are currently using Network Monitor to capture data.
+description: The QueryStations method provides a list of all computers that are currently using Network Monitor to capture data.
 ms.assetid: 8e578f50-685e-4799-90ca-5da8810ec2a3
 title: IDelaydC::QueryStations method (Netmon.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ It is your responsibility to allocate the memory for the [QUERYTABLE](querytable
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: This section contains information about the DirectXMath functions.
+description: This section contains information about the DirectXMath functions.
 ms.assetid: aa285d9c-09b2-a408-ca6d-7aa79670e1e6
 title: DirectXMath Library functions
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The TARGETDIR property specifies the root destination directory for the installation.
+description: The TARGETDIR property specifies the root destination directory for the installation.
 ms.assetid: 279bb9ad-afb6-406e-b74a-8424da177e6f
 title: TARGETDIR property
 ms.topic: reference
@@ -20,7 +20,7 @@ For more information on how to change TARGETDIR during an installation see [Chan
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

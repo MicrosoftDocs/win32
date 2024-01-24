@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooNewException members"
 title: EsentDbTimeTooNewException members
 TOCTitle: EsentDbTimeTooNewException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DbTimeTooNew exceptions.
 
-The [EsentDbTimeTooNewException](dn334407\(v=exchg.10\).md) type exposes the following members.
+The [EsentDbTimeTooNewException](./esentdbtimetoonewexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDbTimeTooNewException class](dn334407\(v=exchg.10\).md)
+[EsentDbTimeTooNewException class](./esentdbtimetoonewexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MediaPresent association describes a relationship where a storage extent must be accessed through a media access device.
+description: The CIM\_MediaPresent association describes a relationship where a storage extent must be accessed through a media access device.
 ms.assetid: 84c4931c-1dc6-4fc1-b3b9-8252ecb627f5
 ms.tgt_platform: multiple
 title: CIM_MediaPresent class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_MediaPresent class
+# CIM_MediaPresent class (CIMWin32 WMI Providers)
 
 The **CIM\_MediaPresent** association describes a relationship where a storage extent must be accessed through a media access device.
 
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

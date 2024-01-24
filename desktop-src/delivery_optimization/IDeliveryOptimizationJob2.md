@@ -1,6 +1,6 @@
 ---
 title: IDeliveryOptimizationJob2 interface
-description: 
+description: "Learn more about: IDeliveryOptimizationJob2 interface"
 keywords:
 - IDeliveryOptimizationJob2 interface
 topic_type:
@@ -32,13 +32,13 @@ The **IDeliveryOptimizationJob2** interface has these methods.
 
 | Method                                              | Description                                                          |
 |:----------------------------------------------------|----------------------------------------------------------------------|
-| [**AddFile**](ideliveryoptimizationjob2-addfile.md) | The AddFile method adds a single file to an existing DO job.         |
-| [**GetProperty**](ideliveryoptimizationjob2-getproperty.md) | The AddFile method adds a single file to an existing DO job. |
+| [**AddFile**](ideliveryoptimizationjob2-addfile.md) | The AddFile method adds a single file to an existing Delivery Optimization job.         |
+| [**GetProperty**](ideliveryoptimizationjob2-getproperty.md) | The AddFile method adds a single file to an existing Delivery Optimization job. |
 | [**SetProperty**](ideliveryoptimizationjob2-setproperty.md) | This method is unused.                                       |
 
 ## Requirements
 
-|                          |                                                                                  |
+| Requirement | Value |
 |--------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client | Windows 10, version 1803 \[desktop apps only\]                                   |
 | Minimum supported server | Windows Server, version 1709 \[desktop apps only\]                               |

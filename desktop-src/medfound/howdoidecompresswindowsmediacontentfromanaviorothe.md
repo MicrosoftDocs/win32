@@ -1,5 +1,5 @@
 ---
-Description: How do I decompress streams from an AVI file or other file about which I have no format information?
+description: How do I decompress streams from an AVI file or other file about which I have no format information?
 ms.assetid: 980f52f4-17a4-4871-9269-f9e0b97416c6
 title: How do I decompress streams from an AVI file or other file about which I have no format information?
 ms.topic: article

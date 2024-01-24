@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application when the IME ends composition. A window receives this message through its WindowProc function.
+description: Sent to an application when the IME ends composition. A window receives this message through its WindowProc function.
 ms.assetid: d0f05524-4dfc-45b2-9476-6f1244190de5
 title: WM_IME_ENDCOMPOSITION message (Winuser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_ENDCOMPOSITION message
 
-Sent to an application when the IME ends composition. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+Sent to an application when the IME ends composition. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -42,7 +42,7 @@ If the application has created an IME window, it should pass this message to tha
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

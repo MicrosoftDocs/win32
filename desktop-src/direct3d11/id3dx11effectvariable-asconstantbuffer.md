@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectVariable AsConstantBuffer method (D3dx11effect.h)
-description: Get a constant buffer.
+description: Get a constant buffer. | ID3DX11EffectVariable AsConstantBuffer method (D3dx11effect.h)
 ms.assetid: b8d8b43c-4626-43b6-8a49-8ffa7cb48427
 keywords:
 - AsConstantBuffer method Direct3D 11
@@ -57,7 +57,7 @@ Applications can test the returned object for validity by calling [**IsValid**](
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |

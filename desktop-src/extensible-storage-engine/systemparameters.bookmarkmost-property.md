@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.BookmarkMost property"
 title: SystemParameters.BookmarkMost property 
 TOCTitle: 'BookmarkMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.BookmarkMost
@@ -29,9 +30,9 @@ ROBOTS: INDEX,FOLLOW
 
 # SystemParameters.BookmarkMost property
 
-Gets the maximum size of a bookmark. [JetGetBookmark(JET_SESID, JET_TABLEID, \[\], Int32, Int32)](dn292149\(v=exchg.10\).md).
+Gets the maximum size of a bookmark. [JetGetBookmark(JET_SESID, JET_TABLEID, \[\], Int32, Int32)](./api.jetgetbookmark-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

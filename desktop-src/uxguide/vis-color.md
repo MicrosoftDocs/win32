@@ -3,10 +3,13 @@ title: Color
 description: Color is an important visual element of most user interfaces.
 ms.assetid: 30a60e9e-ebb4-40f2-8535-a9b58dc668a8
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Color
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Color is an important visual element of most user interfaces. Beyond pure aesthetics, color has associated meanings and elicits emotional responses. To prevent confusion in meaning, color must be used consistently. To obtain the desired emotional responses, color must be used appropriately.
 
@@ -76,7 +79,7 @@ Of course, color is often used in graphics for purely aesthetic reasons. While a
 
 **Users' interpretation of color is often culturally dependent.** For example, in the United States, wedding attire for the bride is largely associated with the color white, while black is associated with funerals. However, long ago in Japan the color symbolism was just the opposite: white was the predominant color at funerals, and black was considered a color that brings good luck for weddings.
 
-That said, **the interpretation of red, yellow, and green for status is consistent globally.** This is due to the [UNESCO Vienna Convention on Road Signs and Signals](https://www.unece.org/trans/conventn/signalse.pdf), which defines the worldwide convention for traffic lights (where red means stop, green means proceed, and yellow means proceed with caution). You can use these status colors without concern for culturally dependent interpretations.
+That said, **the interpretation of red, yellow, and green for status is consistent globally.** This is due to the [UNESCO Vienna Convention on Road Signs and Signals](https://unece.org/fileadmin/DAM/trans/conventn/Conv_road_signs_2006v_EN.pdf), which defines the worldwide convention for traffic lights (where red means stop, green means proceed, and yellow means proceed with caution). You can use these status colors without concern for culturally dependent interpretations.
 
 Beyond the status colors, Windows assigns meanings to colors based on convention, as presented in the Guidelines section of this article. Be sure that your program's color usage is compatible with these color conventions.
 
@@ -177,11 +180,11 @@ To determine if your program's use of color is accessible and not used as a prim
 
 To determine if your program's use of color is programmed correctly, test your program in the following modes:
 
--   Theming enabled using the default Windows theme.
--   Theming enabled using a non-default theme.
--   Theming disabled ("Windows Classic style" in the Theme Settings in the Personalization Control Panel item).
--   High Contrast Black (white text on a black background).
--   High Contrast White (black text on a white background).
+- Theming enabled using the default Windows theme.
+- Theming enabled using a non-default theme.
+- Theming disabled ("Windows Classic style" in the Theme Settings in the Personalization Control Panel item).
+- High Contrast Black theme (white text on a black background, known as Aquatic in Windows 11).
+- High Contrast White theme (black text on a white background, known as Desert on Windows 11).
 
 All the screen elements should be legible and appear as expected, even immediately after mode changes.
 
@@ -209,9 +212,8 @@ All the screen elements should be legible and appear as expected, even immediate
 
 
 
-|                                      |                                                                               |                                                                                                                                                                 |
+| Hue | Meaning | Use in Windows  |
 |--------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Hue**<br/>                   | **Meaning**<br/>                                                        | **Use in Windows**<br/>                                                                                                                                   |
 | blue/green<br/>                | Windows brand<br/>                                                      | Background: Windows branding.<br/>                                                                                                                        |
 | glass, black, gray, white<br/> | neutral<br/>                                                            | Background: standard window frames, Start menu, taskbar, Sidebar.<br/> Foreground: normal text.<br/>                                                |
 | blue<br/>                      | start, commit<br/>                                                      | Background: default command buttons, search, log on.<br/> Icons: information, Help.<br/> Foreground: main instructions, links.<br/>           |
@@ -269,6 +271,4 @@ In this example, there are three different shades of yellow, but only the highly
 ![screen shot of message containing 'gold bar' ](images/vis-color-image18.png)
 
 In the incorrect example, the message refers to the Windows Internet Explorer information bar by its color instead of its name.
-
- 
 

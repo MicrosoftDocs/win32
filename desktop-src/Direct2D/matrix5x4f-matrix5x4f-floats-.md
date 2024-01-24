@@ -240,7 +240,7 @@ The value in the fifth row and fourth column of the matrix.
 
 
 
-|                                     |                                                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |

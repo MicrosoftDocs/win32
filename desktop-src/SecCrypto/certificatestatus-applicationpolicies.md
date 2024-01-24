@@ -1,5 +1,5 @@
 ---
-Description: Returns an OIDs collection that represents the application policies used to create the Chain object.
+description: Returns an OIDs collection that represents the application policies used to create the Chain object.
 ms.assetid: dca0acbf-e369-4216-a4f6-44ed965011d0
 title: CertificateStatus.ApplicationPolicies method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CertificateStatus.ApplicationPolicies method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **ApplicationPolicies** method returns an [**OIDs**](oids.md) collection that represents the application policies used to create the [**Chain**](chain.md) object.
 
@@ -46,7 +46,7 @@ Add application policy OIDs to the collection to specify the application policie
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

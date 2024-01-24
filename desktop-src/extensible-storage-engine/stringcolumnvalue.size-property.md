@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue.Size property"
 title: StringColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.StringColumnValue.Size
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the size of the value in the column. This returns 0 for variable sized columns (i.e. binary and string).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[StringColumnValue class](dn351135\(v=exchg.10\).md)
+[StringColumnValue class](./stringcolumnvalue-class.md)
 
-[StringColumnValue members](dn351145\(v=exchg.10\).md)
+[StringColumnValue members](./stringcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

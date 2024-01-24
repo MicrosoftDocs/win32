@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with event logging.
+description: The following functions are used with event logging.
 ms.assetid: fd5c12ec-3a3d-4b75-a573-0b27ae7a890b
 title: Event Logging Functions
 ms.topic: article

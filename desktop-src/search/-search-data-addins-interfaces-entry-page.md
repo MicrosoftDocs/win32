@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Data Add-in Interfaces
 ms.assetid: 2e9748be-7d76-4424-8daf-c94a327d85ac
 title: Data Add-in Interfaces
 ms.topic: article
@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Data Add-in Interfaces
 
-## 
 
 This Windows Search reference section consists of the following data add-in interfaces:
 

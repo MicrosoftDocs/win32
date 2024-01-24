@@ -204,7 +204,7 @@ Do not use. Reserved for future use.
 
 
 
-Indicates that tunnel methods should perform a full authentication instead of an abbreviated version, such as [Protected EAP (PEAP) Fast Reconnect](https://go.microsoft.com/fwlink/p/?linkid=84002).
+Indicates that tunnel methods should perform a full authentication instead of an abbreviated version, such as [Protected EAP (PEAP) Fast Reconnect](/previous-versions/windows/it-pro/windows-server-2003/cc757996(v=ws.10)).
 
 
 </dt> </dl> </dd> <dt>
@@ -322,7 +322,7 @@ Do not use. Reserved for future use.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
@@ -336,6 +336,4 @@ Do not use. Reserved for future use.
 
 [Common EAPHost Constants](common-eap-host-error-constants.md)
 </dt> </dl>
-
- 
 

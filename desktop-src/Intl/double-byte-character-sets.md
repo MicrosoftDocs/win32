@@ -1,5 +1,5 @@
 ---
-Description: A double-byte character set (DBCS), also known as an &\#0034;expanded 8-bit character set&\#0034;, is an extended single-byte character set (SBCS), implemented as a code page.
+description: A double-byte character set (DBCS), also known as an &\#0034;expanded 8-bit character set&\#0034;, is an extended single-byte character set (SBCS), implemented as a code page.
 ms.assetid: df049d22-02e2-48b2-8b74-52f71c00c549
 title: Double-byte Character Sets
 ms.topic: article

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SystemParameters members"
 title: SystemParameters members
 TOCTitle: SystemParameters members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.SystemParameters
@@ -15,7 +16,7 @@ Include inherited members
 
 Constants for the ESENT API. These don't have to be looked up via system parameters. This class provides static properties to set and get global ESENT system parameters. This class provides static properties to set and get global ESENT system parameters.
 
-The [SystemParameters](dn351139\(v=exchg.10\).md) type exposes the following members.
+The [SystemParameters](./systemparameters-class.md) type exposes the following members.
 
 ## Properties
 
@@ -215,7 +216,6 @@ Top
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

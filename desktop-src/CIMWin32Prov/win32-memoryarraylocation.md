@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MemoryArrayLocation association WMI class relates a logical memory array and the physical memory array on which it exists.
+description: The Win32\_MemoryArrayLocation association WMI class relates a logical memory array and the physical memory array on which it exists.
 ms.assetid: 455daeee-ad67-4599-84d6-fa3f4ac593aa
 ms.tgt_platform: multiple
 title: Win32_MemoryArrayLocation class
@@ -87,7 +87,7 @@ The **Win32\_MemoryArrayLocation** class is derived from [**CIM\_Realizes**](cim
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: New functions have been introduced to the Windows Sockets interface specifically designed to make Windows Sockets programming easier. One of the benefits of these new Windows Sockets functions is integrated support for both IPv6 and IPv4.
+description: New functions have been introduced to the Windows Sockets interface specifically designed to make Windows Sockets programming easier. One of the benefits of these new Windows Sockets functions is integrated support for both IPv6 and IPv4.
 ms.assetid: 83262f2b-a335-4bbd-b2e3-6c7744b3ee50
 title: Function Calls for IPv6 Winsock Applications
 ms.topic: article
@@ -462,7 +462,7 @@ Alternatively, you can search your code base for instances of the **gethostbynam
 [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[Changing Data Structures for IPv6 Winsock Appications](changing-data-structures-2.md)
+[Changing Data Structures for IPv6 Winsock Applications](changing-data-structures-2.md)
 </dt> <dt>
 
 [Dual-Stack Sockets for IPv6 Winsock Applications](dual-stack-sockets.md)

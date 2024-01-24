@@ -1,5 +1,5 @@
 ---
-Description: Begins the processing to create a decoded picture.
+description: Begins the processing to create a decoded picture.
 ms.assetid: 80471cc6-c66d-49d9-8593-780e41ac39b9
 title: IDirect3DDXVADevice9::BeginFrame method (Dxva.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ For each call to **BeginFrame**, the decoder must make a corresponding call to [
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |

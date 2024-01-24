@@ -1,5 +1,5 @@
 ---
-Description: In Direct3D 10, device state is grouped into state objects which greatly reduce the cost of state changes.
+description: In Direct3D 10, device state is grouped into state objects which greatly reduce the cost of state changes.
 ms.assetid: b2839da9-60ed-4f6c-9cc7-eac53647cca7
 title: State Objects (Direct3D 10)
 ms.topic: article
@@ -48,9 +48,9 @@ This group of state (see [**D3D10\_SAMPLER\_DESC**](/windows/desktop/api/D3D10/n
 
 
 
-|                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> In Direct3D 10, the sampler object is no longer bound to a specific texture - it just describes how to do filtering given any attached resource. |
+Differences between Direct3D 9 and Direct3D 10:
+
+- In Direct3D 10, the sampler object is no longer bound to a specific texture, it just describes how to do filtering given any attached resource.
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFTopologyNode::GetInputPrefType method.
+description: Remotable version of the IMFTopologyNode::GetInputPrefType method.
 ms.assetid: b02cf739-97a9-4bb0-abb1-0da491857c50
 title: RemoteGetInputPrefType (Mfobjects.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: For each product listed by the patch package as eligible to receive the patch, the ApplyPatch method of the Installer object invokes an installation and sets the PATCH property to the path of the patch package.
+description: For each product listed by the patch package as eligible to receive the patch, the ApplyPatch method of the Installer object invokes an installation and sets the PATCH property to the path of the patch package.
 ms.assetid: eee93b6d-f45b-40ae-8e17-cfe6f46b66f4
 title: Installer.ApplyPatch method
 ms.topic: reference
@@ -97,7 +97,7 @@ The [**REINSTALL**](reinstall.md) property is required when applying a [small up
 
 
 
-|                    |                                                                                                                                                                                                                                                                       |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP.<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                    |

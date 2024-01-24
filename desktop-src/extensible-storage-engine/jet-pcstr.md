@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PCSTR"
 title: JET_PCSTR
 TOCTitle: JET_PCSTR
 ms:assetid: 5826e6b9-5297-421f-abaa-016708bf16f6
@@ -40,24 +41,11 @@ Null-terminated, constant ASCII string (char \*).
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 

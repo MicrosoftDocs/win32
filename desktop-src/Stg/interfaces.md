@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (Structured Storage)
 
 Structured Storage defines the following interfaces:
 

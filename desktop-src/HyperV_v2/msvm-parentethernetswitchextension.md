@@ -1,5 +1,5 @@
 ---
-Description: Represents the association between a parent Ethernet switch extension and a child Ethernet switch extension.
+description: Represents the association between a parent Ethernet switch extension and a child Ethernet switch extension.
 ms.assetid: a0a60214-d85d-4c64-b720-1c34abc25287
 title: Msvm_ParentEthernetSwitchExtension class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_EthernetSwitchExtension**](msvm-ether
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

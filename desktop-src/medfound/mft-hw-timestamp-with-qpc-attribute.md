@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a hardware device source uses the system time for time stamps.
+description: Specifies whether a hardware device source uses the system time for time stamps.
 ms.assetid: 54cdfa13-955a-4e92-b337-f645d526a1b8
 title: MFT_HW_TIMESTAMP_WITH_QPC_Attribute attribute (Mftransform.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: Generates IDL declarations for subscribe/unsubscribe proxy functions for port type notification operations.
+description: Generates IDL declarations for subscribe/unsubscribe proxy functions for port type notification operations.
 ms.assetid: 240ef2b3-ed72-45bb-b653-441c4e5540b5
 title: subscriptionIdlFunctionDeclarations element
 ms.topic: reference
@@ -65,7 +65,7 @@ Generates IDL declarations for subscribe/unsubscribe proxy functions for port ty
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

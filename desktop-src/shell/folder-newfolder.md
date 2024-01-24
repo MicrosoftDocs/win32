@@ -1,5 +1,5 @@
 ---
-Description: Creates a new folder.
+description: Creates a new folder.
 ms.assetid: 7a552e5a-e9a3-4fcf-bc6b-17e8bc39af87
 title: Folder.NewFolder method (Shldisp.h)
 ms.topic: reference
@@ -139,7 +139,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

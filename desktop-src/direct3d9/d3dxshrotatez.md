@@ -1,22 +1,28 @@
 ---
-Description: Rotates the spherical harmonic (SH) vector in the z-axis by the given angle.
+description: D3DXSHRotateZ function (D3dx9math.h) - Rotates the spherical harmonic (SH) vector in the z-axis by the given angle.
 ms.assetid: 1f471183-4c8e-4fa8-9a42-f6cc2bb1b0f2
 title: D3DXSHRotateZ function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHRotateZ
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXSHRotateZ function
+# D3DXSHRotateZ function (D3dx9math.h)
+
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
+
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/main/SHMath) library function **XMSHRotateZ**.
 
 Rotates the spherical harmonic (SH) vector in the z-axis by the given angle.
 
@@ -91,7 +97,7 @@ Each coefficient of the basis function Yₗₘ is stored at memory location l² 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

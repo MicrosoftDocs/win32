@@ -1,5 +1,5 @@
 ---
-Description: Used to indicate that an error has occurred with the source buffer.
+description: Used to indicate that an error has occurred with the source buffer.
 ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
 title: IMFSourceBufferNotify::OnError method
 ms.topic: reference
@@ -45,7 +45,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

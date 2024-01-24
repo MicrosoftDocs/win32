@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of confirmation that can occur on an IContextNode object.
+description: Specifies the type of confirmation that can occur on an IContextNode object.
 ms.assetid: 5c906548-dbf5-4448-b248-070bd43b054e
 title: ConfirmationType enumeration (IACom.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ You can use the **NodeTypeAndProperties** value only for ink word and ink drawin
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

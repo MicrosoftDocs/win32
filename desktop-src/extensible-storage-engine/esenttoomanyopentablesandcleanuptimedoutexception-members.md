@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesAndCleanupTimedOutException members"
 title: EsentTooManyOpenTablesAndCleanupTimedOutException members
 TOCTitle: EsentTooManyOpenTablesAndCleanupTimedOutException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesAndCleanupTimedOutException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TooManyOpenTablesAndCleanupTimedOut exceptions.
 
-The [EsentTooManyOpenTablesAndCleanupTimedOutException](dn350787\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyOpenTablesAndCleanupTimedOutException](./esenttoomanyopentablesandcleanuptimedoutexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTooManyOpenTablesAndCleanupTimedOutException class](dn350787\(v=exchg.10\).md)
+[EsentTooManyOpenTablesAndCleanupTimedOutException class](./esenttoomanyopentablesandcleanuptimedoutexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

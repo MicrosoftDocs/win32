@@ -1,5 +1,5 @@
 ---
-Description: Specifies a trace provider (ETW or WPP) for MFTrace.
+description: Specifies a trace provider (ETW or WPP) for MFTrace.
 ms.assetid: '692cce3b-ebf5-4a49-8c37-48c8ef6caee7'
 title: provider element
 ms.topic: article
@@ -59,13 +59,14 @@ keyword+
 
 ## Element information
 
-
-
-|              |     |
-|--------------|-----|
-| Can be empty | No  |
-
-
+:::row:::
+    :::column:::
+        Can be empty
+    :::column-end:::
+    :::column span="2":::
+        No
+    :::column-end:::
+:::row-end:::
 
 ## See also
 

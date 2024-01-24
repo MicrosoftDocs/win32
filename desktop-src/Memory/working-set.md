@@ -1,5 +1,5 @@
 ---
-Description: The working set of a process is the set of pages in the virtual address space of the process that are currently resident in physical memory.
+description: The working set of a process is the set of pages in the virtual address space of the process that are currently resident in physical memory.
 ms.assetid: ff05276a-1d40-4844-b649-10e32e3f1937
 title: Working Set
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The working set of a process is the set of pages in the virtual address space of the process that are currently resident in physical memory. The working set contains only pageable memory allocations; nonpageable memory allocations such as [Address Windowing Extensions](address-windowing-extensions.md) (AWE) or [large page allocations](large-page-support.md) are not included in the working set.
 
-When a process references pageable memory that is not currently in its working set, a *page fault* occurs. The system page fault handler attempts to resolve the page fault and, if it succeeds, the page is added to the working set. (Accessing AWE or large page allocations never causes a page fault, because these allocations are not pageable .)
+When a process references pageable memory that is not currently in its working set, a *page fault* occurs. The system page fault handler attempts to resolve the page fault and, if it succeeds, the page is added to the working set. (Accessing AWE or large page allocations never causes a page fault, because these allocations are not pageable.)
 
 A *hard page fault* must be resolved by reading page contents from the page's *backing store*, which is either the system paging file or a memory-mapped file created by the process. A *soft page fault* can be resolved without accessing the backing store. A soft page fault occurs when:
 
@@ -20,7 +20,7 @@ A *hard page fault* must be resolved by reading page contents from the page's *b
 
 Pages can be removed from a process working set as a result of the following actions:
 
--   The process reduces or empties the working set by calling the [**SetProcessWorkingSetSize**](/windows/win32/api/winbase/nf-winbase-setprocessworkingsetsize), [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex) or [**EmptyWorkingSet**](/windows/win32/api/psapi/nf-psapi-emptyworkingset) function.
+-   The process reduces or empties the working set by calling the [**SetProcessWorkingSetSize**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize), [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex) or [**EmptyWorkingSet**](/windows/win32/api/psapi/nf-psapi-emptyworkingset) function.
 -   The process calls the [**VirtualUnlock**](/windows/win32/api/memoryapi/nf-memoryapi-virtualunlock) function on a memory range that is not locked.
 -   The process unmaps a mapped view of a file using the [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) function.
 -   The memory manager trims pages from the working set to create more available memory.

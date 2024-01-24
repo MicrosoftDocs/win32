@@ -1,5 +1,5 @@
 ---
-Description: For a media type that describes an MPEG-2 transport stream (TS), specifies the transport packets contain a 4-byte time code.
+description: For a media type that describes an MPEG-2 transport stream (TS), specifies the transport packets contain a 4-byte time code.
 ms.assetid: B172E7A8-5757-49B7-A784-FAFC7E904A4C
 title: MF_MT_MPEG2_TIMECODE attribute (Mfapi.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ For a media type that describes an MPEG-2 transport stream (TS), specifies the t
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

@@ -1,5 +1,5 @@
 ---
-Description: Control code enables a socket to receive all IPv4 or IPv6 packets passing through a network interface.
+description: Control code enables a socket to receive all IPv4 or IPv6 packets passing through a network interface.
 ms.assetid: 1c198a70-6669-4599-bd9a-ffc26c9fe1d0
 title: SIO_RCVALL Control Code
 ms.topic: reference
@@ -16,19 +16,6 @@ api_location:
 The **SIO\_RCVALL** control code enables a socket to receive all IPv4 or IPv6 packets passing through a network interface.
 
 To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function with the following parameters.
-
-```cpp
-int WSAIoctl(
-  (socket) s,            // descriptor identifying a socket
-  SIO_RCV_ALL,                       // dwIoControlCode
-  NULL,                              // lpvInBuffer0,                                 // cbInBuffer
-  NULL,                              // lpvOutBuffer output buffer
-  (DWORD) cbOutBuffer,            // size of output buffer  
-  (LPDWORD) lpcbBytesReturned,    // number of bytes returned
-  (LPWSAOVERLAPPED) lpOverlapped, // OVERLAPPED structure
-  (LPWSAOVERLAPPED_COMPLETION_ROUTINE) lpCompletionRoutine,  // completion routine
-);
-```
 
 ```cpp
 int WSAIoctl(
@@ -102,6 +89,8 @@ For overlapped operations, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-w
 Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 ### lpCompletionRoutine
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 

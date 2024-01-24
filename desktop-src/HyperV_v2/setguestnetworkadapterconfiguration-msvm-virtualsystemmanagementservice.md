@@ -1,5 +1,5 @@
 ---
-Description: Configures the network adapters within the guest operating system.
+description: Configures the network adapters within the guest operating system.
 ms.assetid: 698e0c17-f8bd-433f-b982-5481f9701ba6
 title: SetGuestNetworkAdapterConfiguration method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -106,7 +106,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

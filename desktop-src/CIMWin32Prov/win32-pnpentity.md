@@ -1,5 +1,5 @@
 ---
-Description: Epresents the properties of a Plug and Play device.
+description: Epresents the properties of a Plug and Play device.
 ms.assetid: 621f4410-8d8f-4afa-b0f0-beed263f3a13
 ms.tgt_platform: multiple
 title: Win32_PnPEntity class
@@ -1332,8 +1332,6 @@ The **Win32\_PnPEntity** class is derived from [**CIM\_LogicalDevice**](cim-logi
 
 ## Examples
 
-The [Get-BrokenHardware.ps1](https://Gallery.TechNet.Microsoft.Com/dbb678f4-b95b-45c3-bc8b-2ae2d052448e) PowerShell sample on TechNet Gallery uses to **Win32\_PnPEntity** to retrieve a list of non-working hardware using WMI.
-
 The following VBScript code example connects to a group of remote computers in the same domain by creating an array of remote computer names and then displaying names of the Plug and Play devices—instances of Win32\_PnPEntity—on each computer.
 
 
@@ -1366,7 +1364,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

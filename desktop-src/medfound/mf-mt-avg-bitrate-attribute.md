@@ -1,5 +1,5 @@
 ---
-Description: Approximate data rate of the video stream, in bits per second, for a video media type.
+description: Approximate data rate of the video stream, in bits per second, for a video media type.
 ms.assetid: cf9374a7-3688-4a6c-8339-d68c267c9bed
 title: MF_MT_AVG_BITRATE attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

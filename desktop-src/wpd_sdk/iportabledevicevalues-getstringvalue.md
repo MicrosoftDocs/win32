@@ -1,5 +1,5 @@
 ---
-Description: The GetStringValue method retrieves a string value (type VT\_LPWSTR) specified by a key.
+description: The GetStringValue method retrieves a string value (type VT\_LPWSTR) specified by a key.
 ms.assetid: c6feecc0-7a06-4f78-9cf1-e2897333b62e
 title: IPortableDeviceValues::GetStringValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ For an example of how to use this method, see [Retrieving Supported Service Even
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

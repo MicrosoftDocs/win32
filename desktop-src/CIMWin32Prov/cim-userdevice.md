@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_UserDevice class is a parent class from which other classes, such as CIM\_Keyboard or CIM\_DesktopMonitor, descend. User devices are logical devices that allow a computer system's user to input, view, or hear data.
+description: The CIM\_UserDevice class is a parent class from which other classes, such as CIM\_Keyboard or CIM\_DesktopMonitor, descend. User devices are logical devices that allow a computer system's user to input, view, or hear data.
 ms.assetid: 311a065a-df9b-4c4b-bdc4-d3de89ce2f3d
 ms.tgt_platform: multiple
 title: CIM_UserDevice class (CIMWin32 WMI Providers)
@@ -36,7 +36,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_UserDevice class
+# CIM_UserDevice class (CIMWin32 WMI Providers)
 
 The **CIM\_UserDevice** class is a parent class from which other classes, such as [**CIM\_Keyboard**](cim-keyboard.md) or [**CIM\_DesktopMonitor**](cim-desktopmonitor.md), descend. User devices are logical devices that allow a computer system's user to input, view, or hear data.
 
@@ -1180,7 +1180,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

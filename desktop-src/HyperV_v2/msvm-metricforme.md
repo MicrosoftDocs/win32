@@ -1,5 +1,5 @@
 ---
-Description: This association links a managed element to the metric values being maintained for it.
+description: This association links a managed element to the metric values being maintained for it.
 ms.assetid: 89b43736-90ae-49e0-a0ed-7918ddec8558
 title: Msvm_MetricForME class
 ms.topic: reference
@@ -76,7 +76,7 @@ A reference to an instance of the **CIM\_BaseMetricValue** class that represents
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

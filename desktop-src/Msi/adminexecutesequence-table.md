@@ -1,5 +1,5 @@
 ---
-Description: The AdminExecuteSequence table lists actions that the installer calls in sequence when the top-level ADMIN action is executed.
+description: The AdminExecuteSequence table lists actions that the installer calls in sequence when the top-level ADMIN action is executed.
 ms.assetid: 33a2ef50-519b-424e-b510-55c21c5706a3
 title: AdminExecuteSequence Table
 ms.topic: article

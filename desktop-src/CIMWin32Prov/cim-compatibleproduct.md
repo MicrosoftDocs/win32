@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CompatibleProduct class represents an association between products that indicates whether two referenced products are interoperable, such as whether they can be installed together, or whether one can be the physical container for the other, and so on.
+description: The CIM\_CompatibleProduct class represents an association between products that indicates whether two referenced products are interoperable, such as whether they can be installed together, or whether one can be the physical container for the other, and so on.
 ms.assetid: d822b052-981a-4a66-8404-b4f5f4681502
 ms.tgt_platform: multiple
 title: CIM_CompatibleProduct class
@@ -103,7 +103,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

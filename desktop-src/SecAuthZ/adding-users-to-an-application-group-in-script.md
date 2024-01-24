@@ -1,5 +1,5 @@
 ---
-Description: An application group is a group of users and user groups. An application group can contain other application groups, so groups of users can be nested. An application group is represented by an IAzApplicationGroup object.
+description: An application group is a group of users and user groups. An application group can contain other application groups, so groups of users can be nested. An application group is represented by an IAzApplicationGroup object.
 ms.assetid: 9ec5b55e-3d66-44f6-9b59-a5e66192d8ac
 title: Adding Users to an Application Group in Script
 ms.topic: article

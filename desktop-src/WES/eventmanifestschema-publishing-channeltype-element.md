@@ -1,6 +1,6 @@
 ---
 title: publishing (ChannelType) Element
-description: Defines the logging properties for the session that the channel uses.
+description: Defines the logging properties for the session that the channel uses. | publishing (ChannelType) Element
 ms.assetid: 032b5888-550b-4771-bd30-3195602811a7
 keywords:
 - publishing element EventLog
@@ -31,7 +31,7 @@ The **publishing** element is defined by the [**ChannelType**](eventmanifestsche
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

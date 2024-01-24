@@ -1,5 +1,5 @@
 ---
-Description: The distance to the subject in meters. Calculated from PKEY\_Photo\_SubjectDistanceNumerator and PKEY\_Photo\_SubjectDistanceDenominator.
+description: The distance to the subject in meters. Calculated from PKEY\_Photo\_SubjectDistanceNumerator and PKEY\_Photo\_SubjectDistanceDenominator.
 ms.assetid: 41d48485-9317-4eb2-ab3f-e0c5d3c690bc
 title: System.Photo.SubjectDistance
 ms.topic: article
@@ -34,7 +34,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

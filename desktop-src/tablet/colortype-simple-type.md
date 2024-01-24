@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that is used to specify valid values for the color of certain elements in a Journal XML file.
+description: Defines the type that is used to specify valid values for the color of certain elements in a Journal XML file.
 ms.assetid: 10a19f28-d0aa-4126-b3f5-fde35fc5fdb0
 title: ColorType Simple Type
 ms.topic: reference
@@ -34,7 +34,7 @@ A color can be a hexadecimal RGB value in the format \#RRGGBB. It must match the
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

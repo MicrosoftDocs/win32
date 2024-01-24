@@ -65,7 +65,7 @@ Sets the clipboard redirection mode to **TRUE** or **FALSE**. If set to **TRUE**
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                         |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |

@@ -1,5 +1,5 @@
 ---
-Description: A shadow copy provider must conform to guidelines to ensure requester compatibility.
+description: A shadow copy provider must conform to guidelines to ensure requester compatibility.
 ms.assetid: 49baeb89-1dc9-45c2-a532-071085a8e52f
 title: Required Behaviors for Shadow Copy Providers
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: You can use the ISearchQueryHelper interface to query the index. This interface is implemented as a helper class to ISearchCatalogManager (and ISearchCatalogManager2), and is obtained by calling ISearchCatalogManager::GetQueryHelper.
+description: You can use the ISearchQueryHelper interface to query the index. This interface is implemented as a helper class to ISearchCatalogManager (and ISearchCatalogManager2), and is obtained by calling ISearchCatalogManager::GetQueryHelper.
 ms.assetid: 6e567c09-8763-4866-bf02-ad6651b454db
 title: Querying the Index with ISearchQueryHelper
 ms.topic: article

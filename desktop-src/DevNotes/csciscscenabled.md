@@ -1,5 +1,5 @@
 ---
-Description: Determines whether Offline Files is enabled.
+description: Determines whether Offline Files is enabled.
 ms.assetid: c7d3173d-ed51-4de6-ad07-4c5e6906b0f4
 title: CSCIsCSCEnabled function
 ms.topic: reference
@@ -46,7 +46,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Cscmig.dll</dt> </dl> |
 

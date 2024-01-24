@@ -1,5 +1,5 @@
 ---
-Description: Beginning with Windows Installer 3.0, it is possible to uninstall some patches from applications.
+description: Beginning with Windows Installer 3.0, it is possible to uninstall some patches from applications.
 ms.assetid: 11e995b7-30c7-4992-b436-3af289ac3966
 title: Uninstalling Patches
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This section describes messages and message queues and how to use them in your applications.
+description: This section describes messages and message queues and how to use them in your applications.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues.htm'
 title: Messages and Message Queues
 ms.topic: article
@@ -72,7 +72,7 @@ For lists of the system-provided messages, see [System-Defined Messages](about-m
 |----------------------------------|--------------------------------------------------------------------------------|
 | [**OCM\_\_BASE**](ocm--base.md) | Used to define private messages for use by private window classes. <br/> |
 | [**WM\_APP**](wm-app.md)        | Used to define private messages. <br/>                                   |
-| [**WM\_USER**](wm-user.md)      | Used todefine private messages for use by private window classes. <br/>  |
+| [**WM\_USER**](wm-user.md)      | Used to define private messages for use by private window classes. <br/>  |
 
 
 

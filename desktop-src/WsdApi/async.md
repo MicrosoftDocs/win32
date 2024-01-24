@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether asynchronous operations are included in the generated proxy functions.
+description: Specifies whether asynchronous operations are included in the generated proxy functions.
 ms.assetid: 7b57d5c6-589b-4e03-bfcf-1faa671ebd77
 title: async element
 ms.topic: reference
@@ -46,7 +46,7 @@ A proxy can have both asynchronous and synchronous versions of the same operatio
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

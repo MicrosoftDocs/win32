@@ -22,7 +22,7 @@ Version of a Winsock service.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Service-Instance-Version                              |
 | Ldap-Display-Name | serviceInstanceVersion                                |
@@ -48,7 +48,7 @@ Version of a Winsock service.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -69,7 +69,7 @@ Version of a Winsock service.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -90,7 +90,7 @@ Version of a Winsock service.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -111,7 +111,7 @@ Version of a Winsock service.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -132,7 +132,7 @@ Version of a Winsock service.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |
@@ -153,7 +153,7 @@ Version of a Winsock service.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | \-                                                       |

@@ -1,5 +1,5 @@
 ---
-Description: Computes the bounding sphere of all the meshes in the frame hierarchy.
+description: Computes the bounding sphere of all the meshes in the frame hierarchy.
 ms.assetid: 8c3f5a9e-73ff-4d83-8f85-a3fc2a9a53f7
 title: D3DXFrameCalculateBoundingSphere function (D3dx9anim.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

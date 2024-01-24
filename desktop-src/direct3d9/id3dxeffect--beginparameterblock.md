@@ -1,5 +1,5 @@
 ---
-Description: Start capturing state changes in a parameter block.
+description: Start capturing state changes in a parameter block.
 ms.assetid: cdf6f572-1a21-4c1d-a113-13b48bacd060
 title: ID3DXEffect::BeginParameterBlock method (D3DX9Effect.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Capture effect parameter state changes until EndParameterBlock is called. Effect
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

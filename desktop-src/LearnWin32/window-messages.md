@@ -1,12 +1,12 @@
 ---
 title: Window Messages (Get Started with Win32 and C++)
-description: .
+description: Window Messages (Get Started with Win32 and C++)
 ms.assetid: 90c20456-44ed-4f0f-a6d3-b6c5660f0bc7
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Window Messages
+# Window Messages (Get Started with Win32 and C++)
 
 A GUI application must respond to events from the user and from the operating system.
 
@@ -85,7 +85,7 @@ The [**PostQuitMessage**](/windows/desktop/api/winuser/nf-winuser-postquitmessag
 // Correct.
 
 MSG msg = { };
-while (GetMessage(&msg, NULL, 0, 0))
+while (GetMessage(&msg, NULL, 0, 0) > 0)
 {
     TranslateMessage(&msg);
     DispatchMessage(&msg);

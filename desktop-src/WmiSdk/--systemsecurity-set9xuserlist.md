@@ -1,5 +1,5 @@
 ---
-Description: Sets the remote access rights for a list of individual users on computers running obsolete versions of Windows, where access control through Windows security descriptors is not available.
+description: Sets the remote access rights for a list of individual users on computers running obsolete versions of Windows, where access control through Windows security descriptors is not available.
 ms.assetid: f6da65d3-86dd-4fc8-b4c0-f7ddc8536d4e
 ms.tgt_platform: multiple
 title: '__SystemSecurity::Set9XUserList method'
@@ -61,7 +61,7 @@ This method is not supported.
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

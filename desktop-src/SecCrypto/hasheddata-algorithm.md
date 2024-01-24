@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the type of hashing algorithm used.
+description: Sets or retrieves the type of hashing algorithm used.
 ms.assetid: 3f8e83f2-0e46-494b-ac63-658e663680ea
 title: HashedData.Algorithm property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # HashedData.Algorithm property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](/previous-versions/windows/) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](/previous-versions/windows/) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Algorithm** property sets or retrieves the type of hashing algorithm used.
 
@@ -54,7 +54,7 @@ A value of the [**CAPICOM\_HASH\_ALGORITHM**](capicom-hash-algorithm.md) enumera
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

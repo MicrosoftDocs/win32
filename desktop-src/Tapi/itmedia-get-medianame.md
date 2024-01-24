@@ -1,5 +1,5 @@
 ---
-Description: The get\_MediaName method gets the media name. Defined media are audio, video, whiteboard, text, and data.
+description: The get\_MediaName method gets the media name. Defined media are audio, video, whiteboard, text, and data.
 ms.assetid: 4afb24f9-582e-420d-8bda-772a3dc4d96c
 title: ITMedia::get_MediaName method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleau
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

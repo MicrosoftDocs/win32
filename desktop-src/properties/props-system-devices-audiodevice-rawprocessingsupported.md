@@ -1,5 +1,5 @@
 ---
-Description: Raw processing mode support for the audio device. If VARIANT\_TRUE the device supports raw processing mode.
+description: Raw processing mode support for the audio device. If VARIANT\_TRUE the device supports raw processing mode.
 ms.assetid: c78cf43d-f60d-48a0-9957-f821f0229dfa
 title: System.Devices.AudioDevice.RawProcessingSupported
 ms.topic: article

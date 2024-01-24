@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the audio streams in a presentation have a variable bit rate.
+description: Specifies whether the audio streams in a presentation have a variable bit rate.
 ms.assetid: 2bd7eee1-5a93-4bde-8b58-80b6395a094e
 title: MF_PD_AUDIO_ISVARIABLEBITRATE attribute (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                     |

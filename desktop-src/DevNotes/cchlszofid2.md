@@ -1,5 +1,5 @@
 ---
-Description: Decodes and stores a string.
+description: Decodes and stores a string.
 ms.assetid: 6ababd6e-57b7-49eb-98c9-a4bcb558a377
 title: CchLszOfId2 function
 ms.topic: reference
@@ -69,7 +69,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msjint40.dll</dt> </dl> |
 

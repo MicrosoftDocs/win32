@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for stack tracing events.
+description: This class is the parent class for stack tracing events.
 ms.assetid: 3c0ff01b-fb37-4931-9484-ff8048abca66
 title: StackWalk class
 ms.topic: reference
@@ -53,7 +53,7 @@ Use the following event type to identify the actual event when consuming events.
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

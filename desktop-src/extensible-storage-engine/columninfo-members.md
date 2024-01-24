@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo members"
 title: ColumnInfo members
 TOCTitle: ColumnInfo members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnInfo
@@ -15,7 +16,7 @@ Include inherited members
 
 Information about one Esent column. This is not an interop class, but is used by the meta-data helper methods.
 
-The [ColumnInfo](dn334128\(v=exchg.10\).md) type exposes the following members.
+The [ColumnInfo](./columninfo-class.md) type exposes the following members.
 
 ## Properties
 
@@ -120,6 +121,6 @@ Top
 
 #### Reference
 
-[ColumnInfo class](dn334128\(v=exchg.10\).md)
+[ColumnInfo class](./columninfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

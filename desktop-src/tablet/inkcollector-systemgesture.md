@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a system gesture is recognized.
+description: InkCollector.SystemGesture event - Occurs when a system gesture is recognized.
 ms.assetid: 11071d6f-8aa3-4902-94fd-89ad0cf17729
 title: InkCollector.SystemGesture event (Msinkaut.h)
 ms.topic: reference
@@ -100,7 +100,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: Gamma correction, or gamma for short, is the name of a nonlinear operation that systems use to code and decode pixel values in images.
+description: Gamma correction, or gamma for short, is the name of a nonlinear operation that systems use to code and decode pixel values in images.
 ms.assetid: 97ACDAE3-514E-4AAF-A27D-E5FFC162DB2A
 title: Using gamma correction
 ms.topic: article

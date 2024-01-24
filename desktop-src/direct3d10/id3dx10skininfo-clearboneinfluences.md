@@ -1,5 +1,5 @@
 ---
-Description: Clear a bone's list of vertices that it influences.
+description: Clear a bone's list of vertices that it influences.
 ms.assetid: 1ba6f43a-1f85-4057-b0ed-247cc38d4932
 title: ID3DX10SkinInfo::ClearBoneInfluences method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

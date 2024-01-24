@@ -1,5 +1,5 @@
 ---
-Description: Creates a generic transactional object that begins a transaction. By calling the methods of this class, you can compose the work of multiple COM objects in a single transaction and explicitly commit or abort the transaction.
+description: Creates a generic transactional object that begins a transaction. By calling the methods of this class, you can compose the work of multiple COM objects in a single transaction and explicitly commit or abort the transaction.
 ms.assetid: '5f3f83e0-33fc-4c43-9327-59485c0d8bd3'
 title: TransactionContextEx class (ComSvcs.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                        |
+| Requirement | Value |
 |------------|--------------------------------------------------------|
 | CLSID      | CLSID\_TransactionContextEx                            |
 | ProgID     | L"TxCTx.TransactionContextEx"                          |
@@ -49,7 +49,7 @@ The **TransactionContextEx** class was not designed to be used in Visual Basic. 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

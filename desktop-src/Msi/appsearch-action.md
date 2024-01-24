@@ -1,5 +1,5 @@
 ---
-Description: The AppSearch action uses file signatures to search for existing versions of products.
+description: The AppSearch action uses file signatures to search for existing versions of products.
 ms.assetid: 56665876-2c74-476b-aa1a-158c6e86418d
 title: AppSearch Action
 ms.topic: article

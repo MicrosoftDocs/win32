@@ -1,5 +1,5 @@
 ---
-Description: The SQL query strings for Windows Installer are restricted to the following formats.
+description: The SQL query strings for Windows Installer are restricted to the following formats.
 ms.assetid: badee528-fa69-43ab-965e-d9e6f2529b99
 title: SQL Syntax
 ms.topic: article

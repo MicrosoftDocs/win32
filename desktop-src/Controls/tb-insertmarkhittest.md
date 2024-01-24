@@ -27,7 +27,7 @@ Retrieves the insertion mark information for a point in a toolbar.
 *wParam* 
 </dt> <dd>
 
-Pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure that contains the hit test coordinates, relative to the client area of the toolbar.
+Pointer to a [**POINT**](/windows/win32/api/windef/ns-windef-point) structure that contains the hit test coordinates, relative to the client area of the toolbar.
 
 </dd> <dt>
 
@@ -46,7 +46,7 @@ Returns nonzero if the point is an insertion mark, or zero otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

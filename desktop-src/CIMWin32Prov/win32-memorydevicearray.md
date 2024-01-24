@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MemoryDeviceArray association WMI class relates a memory device and the memory array in which it resides.
+description: The Win32\_MemoryDeviceArray association WMI class relates a memory device and the memory array in which it resides.
 ms.assetid: 39ea6333-2352-488b-99e4-97594bea7dcd
 ms.tgt_platform: multiple
 title: Win32_MemoryDeviceArray class
@@ -87,7 +87,7 @@ The **Win32\_MemoryDeviceArray** class is derived from [**CIM\_Component**](cim-
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

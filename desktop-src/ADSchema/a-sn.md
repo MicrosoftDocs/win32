@@ -22,7 +22,7 @@ This attribute contains the family or last name for a user.
 
 
 
-|                   |                                                                                  |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | CN                | Surname                                                                          |
 | Ldap-Display-Name | sn                                                                               |
@@ -48,7 +48,7 @@ This attribute contains the family or last name for a user.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | 0x3A11                                |
@@ -69,7 +69,7 @@ This attribute contains the family or last name for a user.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |
@@ -90,7 +90,7 @@ This attribute contains the family or last name for a user.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |
@@ -111,7 +111,7 @@ This attribute contains the family or last name for a user.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |
@@ -132,7 +132,7 @@ This attribute contains the family or last name for a user.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |
@@ -153,7 +153,7 @@ This attribute contains the family or last name for a user.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | 0x3A11                                                                                        |

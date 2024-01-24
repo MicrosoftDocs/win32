@@ -22,7 +22,7 @@ Contains a bitmask of performed SAM operations on Active Directory.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | SAM-Domain-Updates                                    |
 | Ldap-Display-Name | samDomainUpdates                                      |
@@ -45,7 +45,7 @@ Contains a bitmask of performed SAM operations on Active Directory.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -66,7 +66,7 @@ Contains a bitmask of performed SAM operations on Active Directory.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -87,7 +87,7 @@ Contains a bitmask of performed SAM operations on Active Directory.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

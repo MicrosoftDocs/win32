@@ -3,14 +3,17 @@ title: The OLE Component Object Model
 description: The OLE Component Object Model
 ms.assetid: f3200d81-c2fa-4cc7-bf85-54f6c753a529
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # The OLE Component Object Model
 
+\[The feature associated with this page, [Custom File and Stream Handlers](/windows/win32/multimedia/custom-file-and-stream-handlers), is a legacy feature. It has been superseded by [MediaStreamSource class](/uwp/api/Windows.Media.Core.MediaStreamSource). **MediaStreamSource class** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaStreamSource class** instead of **Custom File and Stream Handlers**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+
 The objects used by the AVIFile library are all part of the OLE Component Object Model. Primarily, this means they share certain methods that make them easier to work with, and the values they return are common to most OLE interface methods.
 
-The OLE Component Object Model of the file and stream handlers uses the OLE **IClassFactory** interface to create instances of their object class. As component objects, they implement the [IUnknown](iunknown.md) interface, which consists of the [**QueryInterface**](/previous-versions//dd757101(v=vs.85)), [**Release**](/previous-versions//dd757102(v=vs.85)), and [**AddRef**](/previous-versions//dd757100(v=vs.85)) methods. The **IUnknown** interface lets an application obtain pointers to other interfaces supported by the same object.
+The OLE Component Object Model of the file and stream handlers uses the OLE **IClassFactory** interface to create instances of their object class. As component objects, they implement the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface, which consists of the [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(refiid_void)), [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release), and [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) methods. The **IUnknown** interface lets an application obtain pointers to other interfaces supported by the same object.
 
 You can determine if an object supports a specific interface by using the **QueryInterface** method. If an object supports a specified interface, **QueryInterface** returns a pointer to that interface.
 

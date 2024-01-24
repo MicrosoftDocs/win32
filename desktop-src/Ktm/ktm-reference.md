@@ -1,5 +1,5 @@
 ---
-Description: The Kernel Transaction Manager (KTM) API consists of the following elements:Kernel Transaction Manager EnumerationsKernel Transaction Manager FunctionsKernel Transaction Manager StructuresKernel Transaction Manager Constants
+description: The Kernel Transaction Manager (KTM) API consists of the following elements:Kernel Transaction Manager EnumerationsKernel Transaction Manager FunctionsKernel Transaction Manager StructuresKernel Transaction Manager Constants
 ms.assetid: 6441fa83-1e60-4257-b1b2-41f87ce0dd85
 title: KTM Reference
 ms.topic: article

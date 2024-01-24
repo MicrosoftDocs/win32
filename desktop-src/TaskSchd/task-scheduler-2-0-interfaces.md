@@ -12,7 +12,6 @@ The interfaces that are described in the following topics provide programmatic a
 
 These topics contain a description of the interface, a list of the properties and methods defined by the interface, and remarks about any special circumstances that should be noted when using the interface.
 
-## 
 
 The following interfaces are introduced in Task Scheduler 2.0.
 

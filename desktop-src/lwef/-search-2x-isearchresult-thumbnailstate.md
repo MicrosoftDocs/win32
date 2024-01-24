@@ -1,6 +1,6 @@
 ---
 title: ISearchResult ThumbnailState method
-description: Reserved.
+description: Reserved. | ISearchResult ThumbnailState method
 ms.assetid: b91727a6-a193-4767-a8ff-05ac64f1f27f
 keywords:
 - ThumbnailState method Legacy Windows Environment Features

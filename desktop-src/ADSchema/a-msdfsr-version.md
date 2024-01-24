@@ -22,7 +22,7 @@ Contains the version number of the Distributed File System (DFS) Replication ser
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFSR-Version                             |
 | Ldap-Display-Name | msDFSR-Version                              |
@@ -46,7 +46,7 @@ Contains the version number of the Distributed File System (DFS) Replication ser
 
 
 
-|                        |                                                                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                          |
 | MAPI-Id                | \-                                                                                                                                          |
@@ -67,7 +67,7 @@ Contains the version number of the Distributed File System (DFS) Replication ser
 
 
 
-|                        |                                                                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                          |
 | MAPI-Id                | \-                                                                                                                                          |
@@ -88,7 +88,7 @@ Contains the version number of the Distributed File System (DFS) Replication ser
 
 
 
-|                        |                                                                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                          |
 | MAPI-Id                | \-                                                                                                                                          |
@@ -109,7 +109,7 @@ Contains the version number of the Distributed File System (DFS) Replication ser
 
 
 
-|                        |                                                                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                          |
 | MAPI-Id                | \-                                                                                                                                          |

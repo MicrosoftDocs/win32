@@ -1,5 +1,5 @@
 ---
-Description: Gets a vector.
+description: Gets a vector.
 ms.assetid: 55f5512f-42f2-4588-abd4-1cdea530b9bf
 title: ID3DXBaseEffect::GetVector method (D3DX9Shader.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ If the destination vector is larger than the source vector, only the initial com
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

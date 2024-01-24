@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileInvalidTypeException methods"
 title: EsentFileInvalidTypeException methods
 TOCTitle: EsentFileInvalidTypeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileInvalidTypeException](dn274337\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileInvalidTypeException](./esentfileinvalidtypeexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentFileInvalidTypeException class](dn274337\(v=exchg.10\).md)
+[EsentFileInvalidTypeException class](./esentfileinvalidtypeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Occurs before strokes are deleted from the Ink property.
+description: Occurs before strokes are deleted from the Ink property.
 ms.assetid: 09468416-ad08-48ea-aa4a-3af0fe553f3d
 title: InkOverlay.StrokesDeleting event (Msinkaut.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

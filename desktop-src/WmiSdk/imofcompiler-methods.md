@@ -1,5 +1,5 @@
 ---
-Description: The IMofCompiler interface exposes the following methods.
+description: The IMofCompiler interface exposes the following methods.
 ms.assetid: 7EB42953-7C39-4A8E-8000-A57C622631F0
 ms.tgt_platform: multiple
 title: IMofCompiler Methods

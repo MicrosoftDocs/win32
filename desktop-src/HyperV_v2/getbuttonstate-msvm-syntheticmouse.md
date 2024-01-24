@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current state of the specified device button.
+description: GetButtonState method of the Msvm_SyntheticMouse class - Retrieves the current state of the specified device button.
 ms.assetid: 66363AF1-E360-478D-8E62-513DE66EF130
 title: GetButtonState method of the Msvm_SyntheticMouse class
 ms.topic: reference
@@ -108,7 +108,7 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

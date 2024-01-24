@@ -89,7 +89,7 @@ Below are different categories of disabilities. Each category includes some rela
 
 *"My presentation was followed by a lively question and answer session, and one notable moment occurred when one of the staffers asked a question about accessibility in \[our\] games... this 28-year-old staffer is an avid gamer who used to play \[our game\] with a wide circle of friends. Because he is color blind, however, it was hard for him to tell the good guys from the bad guys and the game finally became too frustrating. When the new version... came out and \[we\] hadn't fixed the problem, he and his friends all decided to buy a competitor's game instead." an anonymous industry executive*
 
-The term "visual impairment" often brings to mind someone who is completely blind. However, it is startling to know that 8.7% of the male population is affected by some level of color blindness ("[How do people inherit colorblindness? How often?](https://www.webexhibits.org/causesofcolor/2C.mdl)," WebExhibits.org). Another 1.2% of individuals are affected by more severe forms of visual impairment ("[Disability Info: Visual Impairments Fact Sheet](https://nichcy.org/disability/specific/visualimpairment)," National Dissemination Center for Children with Disabilities). That means almost one out of every ten potential gamers have issues affecting their eyesight that can impact their gaming experience.
+The term "visual impairment" often brings to mind someone who is completely blind. However, it is startling to know that 8.7% of the male population is affected by some level of color blindness ("[How do people inherit colorblindness? How often?](http://www.webexhibits.org/causesofcolor/2C.html)," WebExhibits.org). Another 1.2% of individuals are affected by more severe forms of visual impairment ("[Disability Info: Visual Impairments Fact Sheet](https://nichcy.org/disability/specific/visualimpairment)," National Dissemination Center for Children with Disabilities). That means almost one out of every ten potential gamers have issues affecting their eyesight that can impact their gaming experience.
 
 To help you understand visual impairment issues, imagine that:
 
@@ -115,7 +115,7 @@ With a few simple steps and features, you can address these issues and improve t
 
 *"Memories of Half-Life return to haunt us as yet another technological masterpiece \[Halo\] is useless to the deaf gamer... Let's hope, no pray! that if Halo 2 ever sees the light of day that it will be fully subtitled." www.DeafGamers.com*
 
-The next most prevalent form of impairments that can affect game play is auditory impairments. In the U.S. alone, over 28 million people are affected by some sort of hearing impairment. While hearing impairments are often associated with age, 17 out of every 1,000 children under the age of 18 are affected with a hearing impairment ("[Statistics about Hearing Disorders, Ear Infections, and Deafness](https://www.nidcd.nih.gov/health/statistics/pages/hearing.aspx)," National Institute on Deafness and Other Communication Disorders). When one considers that the gamers of today are getting older and losing their hearing at an ever-increasing rate, it is clear that demand for audio accessibility will only grow.
+The next most prevalent form of impairments that can affect game play is auditory impairments. In the U.S. alone, over 28 million people are affected by some sort of hearing impairment. While hearing impairments are often associated with age, 17 out of every 1,000 children under the age of 18 are affected with a hearing impairment (see [Hearing, Ear Infections, and Deafness](https://www.nidcd.nih.gov/health/hearing-ear-infections-deafness) on the National Institute on Deafness and Other Communication Disorders website). When one considers that the gamers of today are getting older and losing their hearing at an ever-increasing rate, it is clear that demand for audio accessibility will only grow.
 
 To help you understand auditory impairment issues, imagine that:
 
@@ -200,20 +200,20 @@ There are a number of web resources available that discuss video game accessibil
 
 General Disability sites:
 
--   [Game Accessibility](https://www.game-accessibility.com/)
+-   [Game accessibility guidelines](https://gameaccessibilityguidelines.com/full-list/)
 -   [Microsoft's Accessibility Site](https://www.microsoft.com/enable/)
 -   [Accessibility](/previous-versions/windows/internet-explorer/ie-developer/accessibility/gg701968(v=vs.85))
 
 Auditory Impairment Sites:
 
 -   [DeafGamers.com](https://www.deafgamers.com/)
--   [The Deaf Resource Library](https://www.deaflibrary.org/)
+-   [The Deaf Resource Library](http://www.deaflibrary.org/)
 
 Visual Impairment Sites:
 
 -   [National Eye Institute](https://www.nei.nih.gov/)
 -   [Vischeck](https://www.vischeck.com/)
--   [WebExhibits.org](https://www.webexhibits.org/causesofcolor/2.mdl)
+-   [WebExhibits.org](http://www.webexhibits.org/causesofcolor/2A.html)
 
 Mobility impairment Sites:
 

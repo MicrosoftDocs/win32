@@ -1,5 +1,5 @@
 ---
-Description: An application-defined function that frees memory allocated by the AuthzComputeGroupsCallback function. AuthzFreeGroupsCallback is a placeholder for the application-defined function name.
+description: An application-defined function that frees memory allocated by the AuthzComputeGroupsCallback function. AuthzFreeGroupsCallback is a placeholder for the application-defined function name.
 ms.assetid: 5563311c-2bd1-4e96-ba0a-5a4225050f77
 title: AuthzFreeGroupsCallback callback function
 ms.topic: reference
@@ -52,7 +52,7 @@ Attribute variables must be in the form of an expression when used with logical 
 
 
 
-|                                     |                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |

@@ -1,5 +1,5 @@
 ---
-Description: Determines if a ray intersects with a subset of this mesh.
+description: Determines if a ray intersects with a subset of this mesh.
 ms.assetid: 31f90141-60be-4c7f-8d6a-a1a97ff26d9d
 title: ID3DX10Mesh::IntersectSubset method (D3DX10.h)
 ms.topic: reference
@@ -144,7 +144,7 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

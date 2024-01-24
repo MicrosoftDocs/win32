@@ -1,5 +1,5 @@
 ---
-Description: Wi-Fi Direct Services Advertisement Id.
+description: Wi-Fi Direct Services Advertisement Id.
 ms.assetid: 7c2d2f9a-9dde-4d37-ad05-d69e8073b290
 title: System.Devices.WiFiDirectServices.AdvertisementId
 ms.topic: article

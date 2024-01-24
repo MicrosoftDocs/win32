@@ -1,5 +1,5 @@
 ---
-Description: Clear all work items from the thread pump.
+description: Clear all work items from the thread pump.
 ms.assetid: d1682610-d81a-45cd-8c7f-2185d2d48b93
 title: ID3DX10ThreadPump::PurgeAllItems method (D3DX10.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

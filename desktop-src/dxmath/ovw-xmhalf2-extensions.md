@@ -1,5 +1,5 @@
 ---
-Description: XMHALF2 describes 2D vector consisting of two half-precision (16bit) floating-point values.
+description: XMHALF2 describes 2D vector consisting of two half-precision (16bit) floating-point values.
 ms.assetid: 3e2995bf-e755-4665-bf97-6b9190e78ab5
 title: XMHALF2 Extensions
 ms.topic: reference

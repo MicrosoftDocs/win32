@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the media file has a spherical video stream.
+description: Indicates whether the media file has a spherical video stream.
 ms.assetid: 14d4ea1f-776b-40e4-b55d-1cb8a71c6a99
 title: System.Video.IsSpherical
 ms.topic: article

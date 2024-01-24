@@ -1,5 +1,5 @@
 ---
-Description: The property proxy for the System.GPS.DOP photo metadata policy.
+description: The property proxy for the System.GPS.DOP photo metadata policy.
 ms.assetid: d57aa21c-68c3-40a2-a0b0-a266d9f12056
 title: System.GPS.DOP Proxy
 ms.topic: article

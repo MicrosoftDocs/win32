@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_objtyp enumeration"
 title: JET_objtyp enumeration
 TOCTitle: JET_objtyp enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_objtyp
@@ -34,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 Type of an ESENT object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -79,5 +80,4 @@ public enum JET_objtyp
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Represents the private key associated with a certificate.
+description: Represents the private key associated with a certificate.
 ms.assetid: '26ad1d1c-17c5-4191-ac97-b911e62b4119'
 title: PrivateKey object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # PrivateKey object
 
-\[The **PrivateKey** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **PrivateKey** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **PrivateKey** object represents the [*private key*](../secgloss/p-gly.md) associated with a certificate.
 
@@ -83,7 +83,7 @@ The **PrivateKey** object can be created, and it is safe for scripting. The Prog
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

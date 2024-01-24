@@ -1,5 +1,5 @@
 ---
-Description: The Stat method retrieves statistical information from the stream object.
+description: The Stat method retrieves statistical information from the stream object.
 ms.assetid: 7dfb59e9-143a-402e-990a-a2b35e6443dd
 title: IByteBuffer::Stat method (Scardssp.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The wave/out device class consists of audio devices for low-level wave audio output.
+description: The wave/out device class consists of audio devices for low-level wave audio output.
 ms.assetid: 85894134-e8ad-43e2-8b97-09b80bfd36d5
 title: wave/out
 ms.topic: article

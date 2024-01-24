@@ -1,6 +1,6 @@
 ---
-title: Media Types
-description: Media Types
+title: Media Types for Windows Media Format SDK
+description: Learn about media types that can be used by the Windows Media Format SDK. Media types are GUID values assigned to constants in the SDK.
 ms.assetid: 00dcbb20-09ed-44c5-992c-20f3d17ad47c
 keywords:
 - Windows Media Format SDK,media types
@@ -8,10 +8,13 @@ keywords:
 - ASF (Advanced Systems Format),media types
 - media types,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
-# Media Types
+# Media Types for Windows Media Format SDK
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Media types identify the different types of media that can be used by the Windows Media Format SDK. All media types are GUID values that have been assigned to constants in the SDK. The GUID values represented by the constants listed in this section are listed in the [Media Type Identifiers](media-type-identifiers.md) section of this reference.
 

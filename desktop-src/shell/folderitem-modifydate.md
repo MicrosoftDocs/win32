@@ -1,5 +1,5 @@
 ---
-Description: For a file, sets or gets the date and time that it was last modified. For a folder, retrieves the date and time that a folder was last modified, but cannot set it.
+description: For a file, sets or gets the date and time that it was last modified. For a folder, retrieves the date and time that a folder was last modified, but cannot set it.
 ms.assetid: bb60c800-863b-469b-b937-9816b8b338bf
 title: FolderItem.ModifyDate property (Shldisp.h)
 ms.topic: reference
@@ -145,7 +145,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

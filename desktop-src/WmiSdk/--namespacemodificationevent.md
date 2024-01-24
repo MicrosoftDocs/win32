@@ -1,5 +1,5 @@
 ---
-Description: Reports a namespace modification event, which is a type of intrinsic event that is generated when a namespace is modified.
+description: Reports a namespace modification event, which is a type of intrinsic event that is generated when a namespace is modified.
 ms.assetid: 168505d7-4677-4f41-935e-149f22de2cb5
 ms.tgt_platform: multiple
 title: __NamespaceModificationEvent class
@@ -136,7 +136,7 @@ Note that the [**Name**](--namespace.md) property of a **\_\_Namespace** instanc
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -22,7 +22,7 @@ Password settings object that is applied to this object.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-PSO-Applied                       |
 | Ldap-Display-Name | msDS-PSOApplied                         |
@@ -45,7 +45,7 @@ Password settings object that is applied to this object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2119                            |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Password settings object that is applied to this object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2119                            |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Password settings object that is applied to this object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2119                            |
 | MAPI-Id                | \-                              |

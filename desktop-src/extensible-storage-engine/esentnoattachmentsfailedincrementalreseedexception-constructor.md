@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoAttachmentsFailedIncrementalReseedException constructor"
 title: EsentNoAttachmentsFailedIncrementalReseedException constructor 
 TOCTitle: 'EsentNoAttachmentsFailedIncrementalReseedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoAttachmentsFailedIncrementalReseedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentNoAttachmentsFailedIncrementalReseedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentNoAttachmentsFailedIncrementalReseedException()
 
 #### Reference
 
-[EsentNoAttachmentsFailedIncrementalReseedException class](dn334719\(v=exchg.10\).md)
+[EsentNoAttachmentsFailedIncrementalReseedException class](./esentnoattachmentsfailedincrementalreseedexception-class.md)
 
-[EsentNoAttachmentsFailedIncrementalReseedException members](dn334720\(v=exchg.10\).md)
+[EsentNoAttachmentsFailedIncrementalReseedException members](./esentnoattachmentsfailedincrementalreseedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

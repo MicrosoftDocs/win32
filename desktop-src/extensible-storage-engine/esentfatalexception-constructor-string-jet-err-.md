@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFatalException constructor (String, JET_err)"
 title: EsentFatalException constructor (String, JET_err)
 TOCTitle: EsentFatalException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFatalException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFatalException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,7 @@ protected EsentFatalException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +71,10 @@ protected EsentFatalException(
 
 #### Reference
 
-[EsentFatalException class](dn274321\(v=exchg.10\).md)
+[EsentFatalException class](./esentfatalexception-class.md)
 
-[EsentFatalException members](dn274275\(v=exchg.10\).md)
+[EsentFatalException members](./esentfatalexception-members.md)
 
-[EsentFatalException overload](dn274323\(v=exchg.10\).md)
+[EsentFatalException overload](./esentfatalexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The SetDynamicDNSRegistration method indicates the dynamic DNS registration of IP addresses for this IP-bound adapter.
+description: The SetDynamicDNSRegistration method indicates the dynamic DNS registration of IP addresses for this IP-bound adapter.
 ms.assetid: 8e6ca408-3283-40b8-b621-9befdc39b730
 ms.tgt_platform: multiple
 title: SetDynamicDNSRegistration method of the Win32_NetworkAdapterConfiguration class
@@ -407,17 +407,11 @@ DHCP not enabled on adapter.
 
 </dd> </dl>
 
-## Examples
-
-The [Modify Dynamic DNS Registration for a Network Adapter](https://Gallery.TechNet.Microsoft.Com/6c72969c-16c8-4bb6-92e9-b9020001759f) VBScript sample configures dynamic DNS registration for a network adapter.
-
-The [Configure iSCSI Network Cards as per Microsoft Best Practices PowerShell](https://Gallery.TechNet.Microsoft.Com/Configure-iSCSI-Network-81232a5e) sample automates the configuration settings for a Virtual Machine.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

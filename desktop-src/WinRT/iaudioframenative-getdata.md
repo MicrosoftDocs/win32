@@ -1,5 +1,5 @@
 ---
-Description: This method returns an interface that provides access to the audio data.
+description: This method returns an interface that provides access to the audio data.
 ms.assetid: 4FA7CC9D-D379-4C08-8D4F-5301ECCDF372
 title: IAudioFrameNative::GetData method
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: NavigateXmlExample
-description: This example writes XML to an XML buffer, and then reads it back out.
+description: Review an XML navigation example that uses Windows Web Services API (WWSAPI). This example writes XML to an XML buffer, and then reads it back out.
 ms.assetid: b37da839-de05-4fb6-b1aa-b00801e88e47
 keywords:
 - NavigateXmlExample Web Services for Windows

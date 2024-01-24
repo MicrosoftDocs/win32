@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth class of device minor code.
+description: Bluetooth class of device minor code.
 ms.assetid: 56923491-8d03-418a-a0b5-c27206c3f8b0
 title: System.Devices.Aep.Bluetooth.Cod.Minor
 ms.topic: article

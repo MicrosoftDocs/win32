@@ -3,7 +3,6 @@ title: Direct3D 12 glossary
 description: These terms are distinctive of Direct3D 12.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 46B0F055-7E4F-4F8D-9915-3D195FD695B7
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

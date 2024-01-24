@@ -1,5 +1,5 @@
 ---
-Description: Sets the first parameter (P1) byte of the application protocol data unit (APDU).
+description: Sets the first parameter (P1) byte of the application protocol data unit (APDU).
 ms.assetid: 359df5cc-10a7-4093-9a77-f3eb0b98545a
 title: ISCardCmd::put_P1 method (Scarddat.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

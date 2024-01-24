@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRestoreOfNonBackupDatabaseException members"
 title: EsentRestoreOfNonBackupDatabaseException members
 TOCTitle: EsentRestoreOfNonBackupDatabaseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRestoreOfNonBackupDatabaseException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.RestoreOfNonBackupDatabase exceptions.
 
-The [EsentRestoreOfNonBackupDatabaseException](dn350584\(v=exchg.10\).md) type exposes the following members.
+The [EsentRestoreOfNonBackupDatabaseException](./esentrestoreofnonbackupdatabaseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentRestoreOfNonBackupDatabaseException class](dn350584\(v=exchg.10\).md)
+[EsentRestoreOfNonBackupDatabaseException class](./esentrestoreofnonbackupdatabaseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -5,7 +5,8 @@ ms.assetid: d3cb25ce-6fb9-4fca-8662-3efef14238a5
 keywords:
 - Extensible Authentication Protocol,reference
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/14/2023
+ms.contributor: samyun
 ---
 
 # Extensible Authentication Protocol Reference
@@ -14,15 +15,7 @@ This section describes the reference elements that are used to implement the Ext
 
 This documentation describes the following topics.
 
--   [EAP Enumerations](eap-enumerations.md)
--   [EAP Functions](eap-functions.md)
--   [EAP Interfaces](eap-interfaces.md)
--   [EAP Structures](eap-structures.md)
-
- 
-
- 
-
-
-
-
+- [EAP Enumerations](eap-enumerations.md)
+- [EAP Functions](eap-functions.md)
+- [EAP Interfaces](eap-interfaces.md)
+- [EAP Structures](eap-structures.md)

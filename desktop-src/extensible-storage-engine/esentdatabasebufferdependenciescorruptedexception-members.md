@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseBufferDependenciesCorruptedException members"
 title: EsentDatabaseBufferDependenciesCorruptedException members
 TOCTitle: EsentDatabaseBufferDependenciesCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseBufferDependenciesCorruptedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseBufferDependenciesCorrupted exceptions.
 
-The [EsentDatabaseBufferDependenciesCorruptedException](dn334366\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseBufferDependenciesCorruptedException](./esentdatabasebufferdependenciescorruptedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseBufferDependenciesCorruptedException class](dn334366\(v=exchg.10\).md)
+[EsentDatabaseBufferDependenciesCorruptedException class](./esentdatabasebufferdependenciescorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

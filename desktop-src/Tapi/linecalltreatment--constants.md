@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLTREATMENT\_ constants list treatments for calls that are unanswered or on hold. Except for basic parameter validation, call treatment is a straight pass-through by TAPI to the service provider.
+description: The LINECALLTREATMENT\_ constants list treatments for calls that are unanswered or on hold. Except for basic parameter validation, call treatment is a straight pass-through by TAPI to the service provider.
 ms.assetid: c28c9200-dd51-48b2-905c-fbe37c83b00f
 title: LINECALLTREATMENT_ Constants (Tapi.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The value 0x00000000 is reserved to indicate that the service provider does not 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

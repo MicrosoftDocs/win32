@@ -1,5 +1,5 @@
 ---
-Description: The Shortcut table and related tables of the installation database hold information needed to install shortcuts. See the Program Information Tables Group and Editing Installer Shortcuts.
+description: The Shortcut table and related tables of the installation database hold information needed to install shortcuts. See the Program Information Tables Group and Editing Installer Shortcuts.
 ms.assetid: 0f3adf78-e650-414f-b85d-b53b986eafda
 title: Specifying Shortcuts
 ms.topic: article

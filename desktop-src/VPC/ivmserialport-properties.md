@@ -1,6 +1,6 @@
 ---
 title: IVMSerialPort Properties
-description: The IVMSerialPort interface exposes the following properties.
+description: The IVMSerialPort interface exposes the following properties. | IVMSerialPort Properties
 ms.assetid: 59A82A36-EDAE-465A-AC86-CDA0EAF05C87
 ms.topic: reference
 ms.date: 05/31/2018

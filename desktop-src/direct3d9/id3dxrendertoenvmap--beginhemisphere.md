@@ -1,5 +1,5 @@
 ---
-Description: Initiate the rendering of a hemispheric environment map.
+description: Initiate the rendering of a hemispheric environment map.
 ms.assetid: 1150aad9-dd8c-4943-afaf-90794faaaf70
 title: ID3DXRenderToEnvMap::BeginHemisphere method (D3dx9core.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ See [**ID3DXRenderToEnvMap::Face**](id3dxrendertoenvmap--face.md) to draw the fa
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

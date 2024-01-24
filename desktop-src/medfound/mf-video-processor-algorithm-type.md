@@ -1,5 +1,5 @@
 ---
-Description: Defines algorithms for the video processor which is use by MF\_VIDEO\_PROCESSOR\_ALGORITHM.
+description: Defines algorithms for the video processor which is use by MF\_VIDEO\_PROCESSOR\_ALGORITHM.
 ms.assetid: 3BB0836E-39E6-40FA-9BA0-C986EB587CF1
 title: MF_VIDEO_PROCESSOR_ALGORITHM_TYPE enumeration
 ms.topic: reference
@@ -53,7 +53,7 @@ The video processor will always internally process in AYUV and use high quality 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |

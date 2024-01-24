@@ -21,7 +21,7 @@ Contains an integer value that uniquely identifies a group in an administrative 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | gidNumber                            |
 | Ldap-Display-Name | gidNumber                            |
@@ -45,7 +45,7 @@ Contains an integer value that uniquely identifies a group in an administrative 
 
 
 
-|                        |                                                                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                              |
 | MAPI-Id                | \-                                                                                              |
@@ -66,7 +66,7 @@ Contains an integer value that uniquely identifies a group in an administrative 
 
 
 
-|                        |                                                                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                              |
 | MAPI-Id                | \-                                                                                              |
@@ -87,7 +87,7 @@ Contains an integer value that uniquely identifies a group in an administrative 
 
 
 
-|                        |                                                                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                              |
 | MAPI-Id                | \-                                                                                              |
@@ -108,7 +108,7 @@ Contains an integer value that uniquely identifies a group in an administrative 
 
 
 
-|                        |                                                                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                              |
 | MAPI-Id                | \-                                                                                              |

@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth class of device service positioning.
+description: Bluetooth class of device service positioning.
 ms.assetid: 4183501e-d5a8-4b78-a419-98b7fa8e4fd6
 title: System.Devices.Aep.Bluetooth.Cod.Services.Positioning
 ms.topic: article

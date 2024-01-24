@@ -1,5 +1,5 @@
 ---
-Description: You can limit the amount of drawing your application carries out when processing the WM\_PAINT message by determining the size and location of the update region.
+description: You can limit the amount of drawing your application carries out when processing the WM\_PAINT message by determining the size and location of the update region.
 ms.assetid: 3407014d-6427-45e9-8be4-b8037ca5438f
 title: Redrawing in the Update Region
 ms.topic: article

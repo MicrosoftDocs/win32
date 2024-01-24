@@ -1,5 +1,5 @@
 ---
-Description: The Extended Phone Services (or device-specific phone services) include all extensions to TSPI defined by the service-provider.
+description: The Extended Phone Services (or device-specific phone services) include all extensions to TSPI defined by the service-provider.
 ms.assetid: 309d77e6-7517-4547-9c56-a471657b64bd
 title: Extended Phone Services
 ms.topic: article

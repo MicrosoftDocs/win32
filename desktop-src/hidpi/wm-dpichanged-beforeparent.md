@@ -1,6 +1,6 @@
 ---
 title: WM_DPICHANGED_BEFOREPARENT message (Winuser.h)
-description: For Per Monitor v2 top-level windows, this message is sent to all HWNDs in the child HWDN tree of the window that is undergoing a DPI change.
+description: For Per Monitor v2 top-level windows, this message is sent to all HWNDs in the child HWDN tree of the window that is undergoing a DPI change. | WM_DPICHANGED_BEFOREPARENT message (Winuser.h)
 ms.assetid: EC8CC313-565F-451F-AE18-66F3B63303CE
 keywords:
 - WM_DPICHANGED_BEFOREPARENT message High DPI
@@ -59,7 +59,7 @@ This message is only sent when the top-level window has a DPI awareness context 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |

@@ -1,5 +1,5 @@
 ---
-Description: COM+ Administration Operations Within Transactions
+description: COM+ Administration Operations Within Transactions
 ms.assetid: 832f2e6d-26ff-416e-a92e-ebaa33d4e7e5
 title: COM+ Administration Operations Within Transactions
 ms.topic: article

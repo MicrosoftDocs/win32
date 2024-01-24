@@ -1,5 +1,5 @@
 ---
-Description: Sets the health state of an application that is running in a virtual machine.
+description: Sets the health state of an application that is running in a virtual machine.
 ms.assetid: 012190CA-9CBF-47B6-9C5D-F75D73B0499B
 title: IVmApplicationHealthMonitor::SetApplicationState method
 ms.topic: reference
@@ -71,7 +71,7 @@ To use this programming element, the Windows 8 integration components must be in
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                      |

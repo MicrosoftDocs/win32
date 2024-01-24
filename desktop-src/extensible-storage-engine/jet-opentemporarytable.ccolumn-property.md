@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.ccolumn property"
 title: JET_OPENTEMPORARYTABLE.ccolumn property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'ccolumn property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.ccolumn
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_OPENTEMPORARYTABLE.ccolumn property
 
-Gets or sets the number of columns in [prgcolumndef](dn351228\(v=exchg.10\).md).
+Gets or sets the number of columns in [prgcolumndef](./jet-opentemporarytable.prgcolumndef-property.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,10 +64,10 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](./jet-opentemporarytable-class.md)
 
-[JET_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE members](./jet-opentemporarytable-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)
 
-[prgcolumnid](dn351233\(v=exchg.10\).md)
+[prgcolumnid](./jet-opentemporarytable.prgcolumnid-property.md)

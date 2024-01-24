@@ -1,5 +1,5 @@
 ---
-Description: Beginning with Windows Installer 3.0, multiple patches can be applied to a product in a constant order, regardless of the order that the patches are provided to the system.
+description: Beginning with Windows Installer 3.0, multiple patches can be applied to a product in a constant order, regardless of the order that the patches are provided to the system.
 ms.assetid: 10af1857-d59f-490d-9b50-49619b1e892c
 title: Installing Multiple Patches
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Pronounciation of the last name.
+description: Pronounciation of the last name.
 ms.assetid: 4aed9a52-164a-4c4b-aa52-b55d0eb1d92e
 title: System.Contact.JA.LastNamePhonetic
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specify information about the performance object to which the WMI performance counter class is mapped.
+description: Specify information about the performance object to which the WMI performance counter class is mapped.
 ms.assetid: 7b8b7f00-95d8-4c1e-8638-157d0f4c7c32
 ms.tgt_platform: multiple
 title: Class Qualifiers for Performance Counter Classes
@@ -21,7 +21,6 @@ Class qualifiers specify information about the performance object to which the W
 -   [Qualifiers for Formatted Performance Classes](#)
 -   [Related topics](#related-topics)
 
-## 
 
 Performance counter–specific qualifiers are automatically attached by the "WbemPerfClass" provider to [**Win32\_PerfRawData**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) classes and properties in Root\\CIMv2.
 

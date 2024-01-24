@@ -1,5 +1,5 @@
 ---
-Description: Represents a product. This includes software and hardware used on this computer system.
+description: Represents a product. This includes software and hardware used on this computer system.
 ms.assetid: 6241e703-4ce9-435f-bf36-4388e38a3ea5
 ms.tgt_platform: multiple
 title: Win32_ComputerSystemProduct class
@@ -204,15 +204,11 @@ This property is inherited from [**CIM\_Product**](cim-product.md).
 
 The **Win32\_ComputerSystemProduct** class is derived from [**CIM\_Product**](cim-product.md).
 
-## Examples
-
-The [Get-BrokenHardware.ps1](https://Gallery.TechNet.Microsoft.Com/dbb678f4-b95b-45c3-bc8b-2ae2d052448e) PowerShell sample on TechNet Gallery uses to **Win32\_ComputerSystemProduct** to retrieve a list of non-working hardware using WMI.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

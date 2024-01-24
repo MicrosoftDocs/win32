@@ -1,5 +1,5 @@
 ---
-Description: Sets the protection level for an output protection mechanism.
+description: Sets the protection level for an output protection mechanism.
 ms.assetid: f4e63bf5-0749-4054-9f86-7fd88f2881ad
 title: OPM_SET_PROTECTION_LEVEL (Opmapi.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Sets the protection level for an output protection mechanism.
 
 
 
-|              |                                                                                                     |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------------------------------|
 | Command GUID | OPM\_SET\_PROTECTION\_LEVEL                                                                         |
 | Input data   | An [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/desktop/api/opmapi/ns-opmapi-opm_set_protection_level_parameters) structure |
@@ -29,7 +29,7 @@ Some connectors can support multiple protection mechanisms. With that type of co
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

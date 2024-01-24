@@ -1,5 +1,5 @@
 ---
-Description: Stores the string sent in the Accept-Language header.
+description: Stores the string sent in the Accept-Language header.
 ms.assetid: b6ac613c-099b-4415-84ad-c0f8ad5f667b
 title: MFNETSOURCE_STREAM_LANGUAGE property (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The MFNETSOURCE\_STREAM\_LANGUAGE constant defines the GUID for the property key
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

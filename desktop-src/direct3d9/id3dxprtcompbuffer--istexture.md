@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the buffer contains a texture.
+description: ID3DXPRTCompBuffer::IsTexture method - Indicates whether the buffer contains a texture.
 ms.assetid: d86425ff-febe-4966-95aa-df4ce95397c0
 title: ID3DXPRTCompBuffer::IsTexture method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the buffer contains a texture; returns **FALSE** otherwise.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

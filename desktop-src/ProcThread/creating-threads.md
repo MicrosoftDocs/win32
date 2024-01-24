@@ -1,5 +1,5 @@
 ---
-Description: The CreateThread function creates a new thread for a process.
+description: Review how to use the CreateThread function to create a new thread for a process. Examine a code example that shows its usage.
 ms.assetid: eb0cc3c0-14f2-4913-a592-4ba3eaf67002
 title: Creating Threads
 ms.topic: article
@@ -24,7 +24,7 @@ The calling thread uses the [**WaitForMultipleObjects**](/windows/desktop/api/sy
 #define BUF_SIZE 255
 
 DWORD WINAPI MyThreadFunction( LPVOID lpParam );
-void ErrorHandler(LPTSTR lpszFunction);
+void ErrorHandler(LPCTSTR lpszFunction);
 
 // Sample custom data structure for threads to use.
 // This is passed by void pointer so it can be any data type
@@ -138,7 +138,7 @@ DWORD WINAPI MyThreadFunction( LPVOID lpParam )
 
 
 
-void ErrorHandler(LPTSTR lpszFunction) 
+void ErrorHandler(LPCTSTR lpszFunction) 
 { 
     // Retrieve the system error message for the last-error code.
 

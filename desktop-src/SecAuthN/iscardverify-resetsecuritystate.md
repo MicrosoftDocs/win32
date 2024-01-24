@@ -1,5 +1,5 @@
 ---
-Description: Resets the current security context of the smart card.
+description: Resets the current security context of the smart card.
 ms.assetid: fcd55b65-a741-4244-8597-ec61cea3f4b7
 title: ISCardVerify::ResetSecurityState method
 ms.topic: reference
@@ -60,7 +60,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

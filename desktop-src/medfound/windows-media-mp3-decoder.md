@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media MP3 decoder decodes audio files that have been encoded in the following formats.
+description: The Windows Media MP3 decoder decodes audio files that have been encoded in the following formats.
 ms.assetid: 817bbc2d-b3d5-49b4-84e4-bc8dc232a8ea
 title: Windows Media MP3 Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ The Windows Media MP3 decoder supports, but does not enumerate, the following ou
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

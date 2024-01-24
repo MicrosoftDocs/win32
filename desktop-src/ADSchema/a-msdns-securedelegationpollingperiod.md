@@ -22,7 +22,7 @@ An attribute that defines in seconds the time between polling attempts for child
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DNS-Secure-Delegation-Polling-Period |
 | Ldap-Display-Name | msDNS-SecureDelegationPollingPeriod     |
@@ -43,7 +43,7 @@ An attribute that defines in seconds the time between polling attempts for child
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

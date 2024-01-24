@@ -1,5 +1,5 @@
 ---
-Description: Shows metrics by class.
+description: Shows metrics by class.
 ms.assetid: a08c0749-b60b-4b8a-996f-b3bbaf1fb2d3
 title: ShowMetricsByClass method of the Msvm_MetricService class
 ms.topic: reference
@@ -133,7 +133,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

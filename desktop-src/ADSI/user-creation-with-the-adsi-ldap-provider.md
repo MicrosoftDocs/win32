@@ -22,7 +22,7 @@ With the ADSI LDAP provider, you can only create a global user account. Local ac
 
     If the [**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject) interface is used, the new object is created when the [**CreateDSObject**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-createdsobject) method is called. The minimum attributes, including the [**objectClass**](/windows/desktop/ADSchema/a-objectclass), must be specified in the [**ADS\_ATTR\_INFO**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) array passed to the **CreateDSObject** method.
 
-## Example Code
+## Example 1
 
 The following code example creates a user account with the default attributes.
 
@@ -48,7 +48,7 @@ Cleanup:
 
 
 
-## Example Code
+## Example 2
 
 The following code example creates a user account with the default attributes. For brevity, error checking is omitted.
 

@@ -1,5 +1,5 @@
 ---
-Description: Concatenates a group of meshes into one common mesh. This method can optionally apply a matrix transformation to each input mesh and its texture coordinates.
+description: Concatenates a group of meshes into one common mesh. This method can optionally apply a matrix transformation to each input mesh and its texture coordinates.
 ms.assetid: 0f2af63a-ece5-4c99-8cb8-045099eca3ea
 title: D3DXConcatenateMeshes function (D3DX9Mesh.h)
 ms.topic: reference
@@ -128,7 +128,7 @@ If no [vertex declaration](vertex-declaration.md) is given as part of the Option
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

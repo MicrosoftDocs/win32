@@ -1,5 +1,5 @@
 ---
-Description: The Property property of the Session object is a read-write property that represents the string value of a named installer property, as maintained by the Session object.
+description: The Property property of the Session object is a read-write property that represents the string value of a named installer property, as maintained by the Session object.
 ms.assetid: 15ce8264-2573-428c-98d9-690cfaae5144
 title: Session.Property property
 ms.topic: reference
@@ -39,7 +39,7 @@ Required case-sensitive name of a property, or a case-insensitive name of an env
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

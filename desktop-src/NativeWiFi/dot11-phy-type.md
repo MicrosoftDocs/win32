@@ -1,5 +1,5 @@
 ---
-Description: Defines an 802.11 PHY and media type.
+description: Defines an 802.11 PHY and media type.
 ms.assetid: f3804e57-c633-4288-9749-2b267b1353ae
 title: DOT11_PHY_TYPE enumeration (Windot11.h)
 ms.topic: reference
@@ -139,7 +139,7 @@ An IHV can assign a value for its proprietary PHY types from **dot11\_phy\_type\
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

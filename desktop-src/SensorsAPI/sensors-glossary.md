@@ -1,5 +1,5 @@
 ---
-Description: Glossary page
+description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 4841262f-7a5a-4e49-afbd-866b451dff6c
 title: Sensor API Glossary

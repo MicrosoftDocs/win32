@@ -1,5 +1,5 @@
 ---
-Description: The following list contains the CMSPStream methods implemented.
+description: The following list contains the CMSPStream methods implemented.
 ms.assetid: 184d74c7-a36e-47f5-8f11-9161cc03b627
 title: CMSPStream MSPI Methods Implemented
 ms.topic: article

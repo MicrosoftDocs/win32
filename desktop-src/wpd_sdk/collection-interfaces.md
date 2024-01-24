@@ -1,5 +1,5 @@
 ---
-Description: Collection Interfaces
+description: Collection Interfaces
 ms.assetid: 5b76c30c-3114-46fb-bf35-b47115f33961
 title: Collection Interfaces
 ms.topic: article

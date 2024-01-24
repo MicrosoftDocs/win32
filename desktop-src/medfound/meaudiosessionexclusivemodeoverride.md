@@ -1,5 +1,5 @@
 ---
-Description: Raised by the audio renderer when the audio session is preempted by an exclusive-mode connection. The audio renderer is now invalid.
+description: Raised by the audio renderer when the audio session is preempted by an exclusive-mode connection. The audio renderer is now invalid.
 ms.assetid: f89acfe4-14a7-4051-a816-e5e0ba8db80a
 title: MEAudioSessionExclusiveModeOverride event (Mfobjects.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ The [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy) poi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

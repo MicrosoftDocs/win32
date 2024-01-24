@@ -1,5 +1,5 @@
 ---
-Description: Is the Windows module that performs interactive logon for a logon session. Winlogon behavior can be customized by implementing and registering a Credential Provider.
+description: Is the Windows module that performs interactive logon for a logon session. Winlogon behavior can be customized by implementing and registering a Credential Provider.
 ms.assetid: 6721367b-e200-4297-897b-4772226203b0
 title: Winlogon and Credential Providers
 ms.topic: article

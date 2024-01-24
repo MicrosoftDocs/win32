@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateException methods"
 title: EsentMultiValuedDuplicateException methods
 TOCTitle: EsentMultiValuedDuplicateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMultiValuedDuplicateException](dn319652\(v=exchg.10\).md) type exposes the following members.
+The [EsentMultiValuedDuplicateException](./esentmultivaluedduplicateexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentMultiValuedDuplicateException class](dn319652\(v=exchg.10\).md)
+[EsentMultiValuedDuplicateException class](./esentmultivaluedduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

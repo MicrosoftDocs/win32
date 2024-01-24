@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_POWER\_SOURCES enumeration type describes the power source that a device is using.
+description: The WPD\_POWER\_SOURCES enumeration type describes the power source that a device is using.
 ms.assetid: feebf213-052d-4315-84db-2109cab5f179
 title: WPD_POWER_SOURCES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ This enumeration is used by the [WPD\_DEVICE\_POWER\_SOURCE](device-properties.m
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

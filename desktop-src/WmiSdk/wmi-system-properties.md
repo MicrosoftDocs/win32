@@ -1,5 +1,5 @@
 ---
-Description: Windows Management Instrumentation (WMI) defines a set of system properties that are associated with all classes and instances of classes.
+description: Windows Management Instrumentation (WMI) defines a set of system properties that are associated with all classes and instances of classes.
 ms.assetid: e812c0cb-3e08-4cac-8d05-2cd7abc922d1
 ms.tgt_platform: multiple
 title: WMI System Properties

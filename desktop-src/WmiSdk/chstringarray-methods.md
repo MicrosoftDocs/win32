@@ -1,5 +1,5 @@
 ---
-Description: The CHStringArray class exposes the following methods.
+description: The CHStringArray class exposes the following methods.
 ms.assetid: AFE4306E-6BB1-4F1D-A301-CD5F05385466
 ms.tgt_platform: multiple
 title: CHStringArray Methods

@@ -1,5 +1,5 @@
 ---
-Description: Encrypts a message to provide privacy by using NTLM.
+description: Encrypts a message to provide privacy by using NTLM.
 ms.assetid: 852a4624-792d-4f7d-bd3e-5a28692e2ef3
 title: EncryptMessage (NTLM) function
 ms.topic: reference
@@ -36,8 +36,11 @@ Package-specific flags that indicate the quality of protection. A [*security pac
 
 This parameter can be the following flag.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Value</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Produce a header or trailer but do not encrypt the message.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/></td></tr></tbody></table>
+
+| Value | Meaning | 
+|-------|---------|
+| **SECQOP_WRAP_NO_ENCRYPT**<br> | Produce a header or trailer but do not encrypt the message.<br> **Note:** KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.<br> | 
+
 
 *pMessage* \[in, out\]
 
@@ -91,7 +94,7 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 | -------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

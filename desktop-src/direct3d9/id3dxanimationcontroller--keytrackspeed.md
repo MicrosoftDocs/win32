@@ -1,5 +1,5 @@
 ---
-Description: Sets an event key that changes the rate of play of an animation track.
+description: Sets an event key that changes the rate of play of an animation track.
 ms.assetid: 217d3a2d-0fb7-4995-86ec-7a4e8420e338
 title: ID3DXAnimationController::KeyTrackSpeed method (D3dx9anim.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ Event handle to the priority blend event. **NULL** is returned if one or more of
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

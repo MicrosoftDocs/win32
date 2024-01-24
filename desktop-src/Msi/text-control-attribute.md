@@ -1,5 +1,5 @@
 ---
-Description: This attribute is the text string displayed in the control.
+description: This attribute is the text string displayed in the control.
 ms.assetid: 0c4b7183-a43a-4c91-b01e-9f377500ba38
 title: Text Control Attribute
 ms.topic: article

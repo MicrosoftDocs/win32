@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.RecordedTV.DateContentExpires
 ms.assetid: 01cdf99b-1c63-424b-b160-ee1ac5557ae7
 title: System.RecordedTV.DateContentExpires
 ms.topic: article

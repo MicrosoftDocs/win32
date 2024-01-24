@@ -1,5 +1,5 @@
 ---
-Description: The IsSrkAuthCompatible method of the Win32\_Tpm class indicates whether the Storage Root Key (SRK) authorization is compatible with the value expected by Windows Vista.
+description: The IsSrkAuthCompatible method of the Win32\_Tpm class indicates whether the Storage Root Key (SRK) authorization is compatible with the value expected by Windows Vista.
 ms.assetid: ce6d05b8-673a-40ab-a1d7-3fedfd099306
 title: IsSrkAuthCompatible method of the Win32_Tpm class
 ms.topic: reference
@@ -69,7 +69,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |

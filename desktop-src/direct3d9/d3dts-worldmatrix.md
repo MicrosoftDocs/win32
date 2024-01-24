@@ -1,5 +1,5 @@
 ---
-Description: Maps indices in the range 0 through 255 to the corresponding transform states.
+description: Maps indices in the range 0 through 255 to the corresponding transform states.
 ms.assetid: b0a1548c-de5d-4eff-baf9-4aecb5e13443
 title: D3DTS_WORLDMATRIX macro (D3d9types.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Transform states in the range 256 through 511 are reserved to store up to 256 ma
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

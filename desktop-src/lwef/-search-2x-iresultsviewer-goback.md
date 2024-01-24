@@ -1,6 +1,6 @@
 ---
 title: IResultsViewer GoBack method
-description: Reserved.
+description: Reserved. | IResultsViewer GoBack method
 ms.assetid: e297fd70-96ec-4a01-81b2-de28b8fd37dd
 keywords:
 - GoBack method Legacy Windows Environment Features

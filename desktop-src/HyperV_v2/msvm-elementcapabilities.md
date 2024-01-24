@@ -1,5 +1,5 @@
 ---
-Description: Represents the association between managed elements and their capabilities.
+description: Represents the association between managed elements and their capabilities.
 ms.assetid: F083E6D2-CC74-4DAD-8FF7-3FE3CA4EEFFF
 title: Msvm_ElementCapabilities class
 ms.topic: reference
@@ -112,7 +112,7 @@ Access to the **Msvm\_ElementCapabilities** class might be restricted by UAC Fil
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

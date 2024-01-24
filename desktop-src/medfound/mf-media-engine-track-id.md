@@ -1,5 +1,5 @@
 ---
-Description: Specifies the track id.
+description: Specifies the track id.
 ms.assetid: C3D53A3D-BEC0-4C53-B000-98DAAC1282CE
 title: MF_MEDIA_ENGINE_TRACK_ID attribute (Mfmediaengine.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Specifies the track id.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

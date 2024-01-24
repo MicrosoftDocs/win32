@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LGPOS operators"
 title: JET_LGPOS operators
 TOCTitle: JET_LGPOS operators
 ms:assetid: 78bf06f8-31d9-ea15-d979-02535d91ebda
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_LGPOS](hh578063\(v=exchg.10\).md) type exposes the following members.
+The [JET_LGPOS](./jet-lgpos-structure2.md) type exposes the following members.
 
 ## Operators
 
@@ -66,7 +67,6 @@ Top
 
 #### Reference
 
-[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](./jet-lgpos-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

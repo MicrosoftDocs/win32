@@ -8,13 +8,12 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Resource Interfaces
+# Resource Interfaces (Direct3D 11 Graphics)
 
 There are a number of interfaces for the two basic types of resources: buffers and textures. There are also interfaces for views of resources.
 
 An application uses a view to bind a resource to a pipeline stage. The view defines how the resource can be accessed during rendering. This section describes the view interfaces.
 
-## 
 
 ## In this section
 

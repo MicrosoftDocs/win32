@@ -1,5 +1,5 @@
 ---
-Description: The brightness value of the image, in APEX units, usually in the range of -99.99 to 99.99.
+description: The brightness value of the image, in APEX units, usually in the range of -99.99 to 99.99.
 ms.assetid: 533f6934-dec8-455a-937c-d4e144be4335
 title: System.Photo.Brightness
 ms.topic: article
@@ -36,7 +36,7 @@ See the EXIF 2.2 specification, Annex C, for a comparison of [System.Photo.Brigh
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

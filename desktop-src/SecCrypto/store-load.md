@@ -1,5 +1,5 @@
 ---
-Description: Imports certificates from a file into the store.
+description: Imports certificates from a file into the store.
 ms.assetid: 884326b4-77ca-43d4-bda9-127d823ce9bc
 title: Store.Load method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Store.Load method
 
-\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/dotnet/api/system.security.cryptography.x509certificates.x509store?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/dotnet/api/system.security.cryptography.x509certificates.x509store) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Load** method imports certificates from a file into the store.
 
@@ -89,7 +89,7 @@ If the certificate being loaded into the store is the same as one that is alread
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

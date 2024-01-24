@@ -1,5 +1,5 @@
 ---
-Description: Pronounciation of the contact's company name.
+description: Pronounciation of the contact's company name.
 ms.assetid: 8a00e312-1c5b-4adc-9970-6d16fb5dd437
 title: System.Contact.JA.CompanyNamePhonetic
 ms.topic: article

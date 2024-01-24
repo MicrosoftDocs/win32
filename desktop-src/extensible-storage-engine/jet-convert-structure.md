@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONVERT Structure"
 title: JET_CONVERT Structure
 TOCTitle: JET_CONVERT Structure
 ms:assetid: 33a0ff95-e9af-44c0-bf80-03d785771d5e
@@ -26,7 +27,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_CONVERT** structure contains the name of an earlier ESE version DLL that is used for reading a databases that are created with that earlier version. In addition, other flags are provided to control the nature of the conversion.
 
-**Windows Server 2003:** The feature in [JetCompact](gg269284\(v=exchg.10\).md) that performed a conversion was removed from the product in Windows Server 2003. It is only supported in Windows 2000 and Windows XP.
+**Windows Server 2003:** The feature in [JetCompact](./jetcompact-function.md) that performed a conversion was removed from the product in Windows Server 2003. It is only supported in Windows 2000 and Windows XP.
 
 ```cpp
     typedef struct tagCONVERT {
@@ -56,33 +57,16 @@ Reserved for system use.
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JET_CONVERT_W</strong> (Unicode) and <strong>JET_CONVERT_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JET_CONVERT_W</strong> (Unicode) and <strong>JET_CONVERT_A</strong> (ANSI).</p> | 
+
 
 
 ### See Also
 
-[JetCompact](gg269284\(v=exchg.10\).md)
-
+[JetCompact](./jetcompact-function.md)

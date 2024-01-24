@@ -22,7 +22,7 @@ The name of the domain to be used for security descriptor translation for a non-
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-SD-Reference-Domain               |
 | Ldap-Display-Name | msDS-SDReferenceDomain                  |
@@ -48,7 +48,7 @@ The name of the domain to be used for security descriptor translation for a non-
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 2000                                       |
 | MAPI-Id                | \-                                         |
@@ -69,7 +69,7 @@ The name of the domain to be used for security descriptor translation for a non-
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 2000                                       |
 | MAPI-Id                | \-                                         |
@@ -90,7 +90,7 @@ The name of the domain to be used for security descriptor translation for a non-
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 2000                                       |
 | MAPI-Id                | \-                                         |
@@ -111,7 +111,7 @@ The name of the domain to be used for security descriptor translation for a non-
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 2000                                       |
 | MAPI-Id                | \-                                         |
@@ -132,7 +132,7 @@ The name of the domain to be used for security descriptor translation for a non-
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 2000                                       |
 | MAPI-Id                | \-                                         |
@@ -153,7 +153,7 @@ The name of the domain to be used for security descriptor translation for a non-
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 2000                                       |
 | MAPI-Id                | \-                                         |

@@ -1,6 +1,6 @@
 ---
 title: ServerNames (ServerValidationParameters) element (PEAP)
-description: Learn about the ServerNames (ServerValidationParameters) element. This element represents a list of semicolon delimited server names.
+description: Learn about the ServerNames (ServerValidationParameters) element. This element represents a list of semicolon delimited server names. | ServerNames (ServerValidationParameters) element (PEAP)
 ms.assetid: 2595daa1-9f1b-40cf-9219-0e7295fdd5c3
 keywords:
 - ServerNames element EAPHost

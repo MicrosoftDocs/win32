@@ -1,5 +1,5 @@
 ---
-Description: The SET structure defines a set of values.
+description: The SET structure defines a set of values.
 ms.assetid: '88e0ffa1-71a2-4a3f-bdf1-964de0adea62'
 title: SET structure (Netmon.h)
 ms.topic: reference
@@ -161,7 +161,7 @@ The parser DLL can provide a value set and a label set. The member of the **UNIO
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

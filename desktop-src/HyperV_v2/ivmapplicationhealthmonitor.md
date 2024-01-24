@@ -1,5 +1,5 @@
 ---
-Description: Reports the health status of an application that is running in a virtual machine to the Hyper-V integration components running in the same virtual machine.
+description: Reports the health status of an application that is running in a virtual machine to the Hyper-V integration components running in the same virtual machine.
 ms.assetid: C463391B-669C-4CBA-9EC7-7E0ABC5A63A1
 title: IVmApplicationHealthMonitor interface
 ms.topic: reference
@@ -50,7 +50,7 @@ To use this programming element, the Windows 8 integration components must be in
 
 
 
-|                                     |                                                                                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                                                                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                                                                           |

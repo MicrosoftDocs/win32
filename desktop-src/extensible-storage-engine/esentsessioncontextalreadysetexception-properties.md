@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextAlreadySetException properties"
 title: EsentSessionContextAlreadySetException properties
 TOCTitle: EsentSessionContextAlreadySetException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSessionContextAlreadySetException](dn350632\(v=exchg.10\).md) type exposes the following members.
+The [EsentSessionContextAlreadySetException](./esentsessioncontextalreadysetexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSessionContextAlreadySetException class](dn350632\(v=exchg.10\).md)
+[EsentSessionContextAlreadySetException class](./esentsessioncontextalreadysetexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Sets the processing mode for the Voice Capture DSP.
+description: Sets the processing mode for the Voice Capture DSP.
 ms.assetid: 479b3525-5beb-4c6b-b1ad-8fa72c0d0fd0
 title: MFPKEY_WMAAECMA_SYSTEM_MODE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ You must set this property before using the Voice Capture DSP. After you set thi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

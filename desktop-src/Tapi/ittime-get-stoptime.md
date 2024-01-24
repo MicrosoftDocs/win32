@@ -1,5 +1,5 @@
 ---
-Description: The get\_StopTime method gets the NTP (Network Time Protocol) ending time value. If the end time is zero, the session is not bounded.
+description: The get\_StopTime method gets the NTP (Network Time Protocol) ending time value. If the end time is zero, the session is not bounded.
 ms.assetid: f18042c0-e41d-43b3-a75d-6ab161afde6e
 title: ITTime::get_StopTime method (Sdpblb.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFixedInheritedDDLException properties"
 title: EsentFixedInheritedDDLException properties
 TOCTitle: EsentFixedInheritedDDLException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFixedInheritedDDLException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFixedInheritedDDLException](dn350413\(v=exchg.10\).md) type exposes the following members.
+The [EsentFixedInheritedDDLException](./esentfixedinheritedddlexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentFixedInheritedDDLException class](dn350413\(v=exchg.10\).md)
+[EsentFixedInheritedDDLException class](./esentfixedinheritedddlexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The Get method gets the value of a given call quality control property.
+description: The Get method gets the value of a given call quality control property.
 ms.assetid: 0fec408e-2751-4c99-afe1-4337d22eff83
 title: ITCallQualityControl::Get method (Ipmsp.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

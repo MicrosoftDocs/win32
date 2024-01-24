@@ -1,5 +1,5 @@
 ---
-Description: Sets the GUID of the category of Windows Image Acquisition (WIA) 2.0 item that the profile is associated with.
+description: Sets the GUID of the category of Windows Image Acquisition (WIA) 2.0 item that the profile is associated with.
 ms.assetid: e359abcb-b5d5-45a4-b650-2b278ba1ff6a
 title: IScanProfile::SetItem method (Scanprofile.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ If two applications create scan profile objects from the same XML file, and each
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

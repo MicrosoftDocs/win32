@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation Enumerations
+description: Media Foundation Enumerations
 ms.assetid: f26a730f-18c4-4247-acaf-af1dfad19086
 title: Media Foundation Enumerations
 ms.topic: article
@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 | Topic                                                                                                     | Description                                                                                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_MFDepthMeasurement**](/windows/desktop/api/mfapi/ne-mfapi-_mfdepthmeasurement)<br/>                                            | Specifies the measurement system for a depth value in a video frame.<br/>                                                                                                                                             |
+| [**\_MFDepthMeasurement**](/windows/win32/api/mfapi/ne-mfapi-mfdepthmeasurement)<br/>                                            | Specifies the measurement system for a depth value in a video frame.<br/>                                                                                                                                             |
 | [**\_MF\_CROSS\_ORIGIN\_POLICY**](/windows/desktop/api/mfidl/ne-mfidl-mf_cross_origin_policy)<br/>                                 | Maps to the W3C cross origin settings (CORS) attribute used by the HTML5 media element<br/>                                                                                                                           |
 | [**\_MFP\_CREATION\_OPTIONS**](/windows/win32/api/mfplay/ne-mfplay-_mfp_creation_options)<br/>                                      | Specifies options for the [**MFPCreateMediaPlayer**](/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer) function.<br/>                                                                                                                         |
 | [**\_MFP\_CREDENTIAL\_FLAGS**](/windows/win32/api/mfplay/ne-mfplay-_mfp_credential_flags)<br/>                                      | Contains flags for the [**MFP\_ACQUIRE\_USER\_CREDENTIAL\_EVENT**](/windows/desktop/api/mfplay/ns-mfplay-mfp_acquire_user_credential_event) structure.<br/>                                                                                             |

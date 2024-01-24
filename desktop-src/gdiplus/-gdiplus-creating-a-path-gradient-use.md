@@ -1,5 +1,5 @@
 ---
-Description: The PathGradientBrush class allows you to customize the way you fill a shape with gradually changing colors.
+description: The PathGradientBrush class allows you to customize the way you fill a shape with gradually changing colors.
 ms.assetid: f6a8085c-3d6a-494f-a1ee-5fa96efb1aae
 title: Creating a Path Gradient
 ms.topic: article

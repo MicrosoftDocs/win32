@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOperationException members"
 title: EsentOperationException members
 TOCTitle: EsentOperationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOperationException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for Operation exceptions.
 
-The [EsentOperationException](dn319727\(v=exchg.10\).md) type exposes the following members.
+The [EsentOperationException](./esentoperationexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +168,6 @@ Top
 
 #### Reference
 
-[EsentOperationException class](dn319727\(v=exchg.10\).md)
+[EsentOperationException class](./esentoperationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

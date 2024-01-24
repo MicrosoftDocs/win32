@@ -1,5 +1,5 @@
 ---
-Description: This guide contains a description of the graphics pipeline implemented by Microsoft Direct3D.
+description: This guide contains a description of the graphics pipeline implemented by Microsoft Direct3D.
 ms.assetid: 54c5f8de-a976-4a82-9a23-a7f6cffef5e1
 title: Programming Guide for Direct3D 9
 ms.topic: article

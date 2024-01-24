@@ -1,5 +1,5 @@
 ---
-Description: Compares two Unicode strings to determine whether one string is a prefix of the other.
+description: Compares two Unicode strings to determine whether one string is a prefix of the other.
 ms.assetid: 7D859C0A-2F72-49A4-8B49-130DCA103F37
 title: RtlPrefixUnicodeString function (Ntddk.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ If **TRUE**, case should be ignored when doing the comparison.
 
 
 
-|                                     |                                                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                    |

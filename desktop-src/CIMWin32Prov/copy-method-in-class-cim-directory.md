@@ -1,5 +1,5 @@
 ---
-Description: The Copy method copies the logical file (or directory) specified in the object path to the location specified by the input parameter.
+description: Copy method of the CIM_Directory class - The Copy method copies the logical file (or directory) specified in the object path to the location specified by the input parameter.
 ms.assetid: 71481cc8-9052-4c62-9c26-6887ea646ee1
 ms.tgt_platform: multiple
 title: Copy method of the CIM_Directory class
@@ -158,7 +158,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

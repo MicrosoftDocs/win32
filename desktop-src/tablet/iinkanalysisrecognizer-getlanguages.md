@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the identifiers for the locales that this IInkAnalysisRecognizer supports.
+description: Retrieves the identifiers for the locales that this IInkAnalysisRecognizer supports.
 ms.assetid: 14c91ad0-f49e-43e7-848c-abc96b0dffa8
 title: IInkAnalysisRecognizer::GetLanguages method (IACom.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ For more information about language identifiers, see [Language Identifier Consta
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

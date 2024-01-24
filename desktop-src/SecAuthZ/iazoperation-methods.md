@@ -1,5 +1,5 @@
 ---
-Description: The IAzOperation interface exposes the following methods.
+description: The IAzOperation interface exposes the following methods.
 ms.assetid: 96BC7551-35DD-4677-9131-7452C7A2C1E8
 title: IAzOperation Methods
 ms.topic: reference

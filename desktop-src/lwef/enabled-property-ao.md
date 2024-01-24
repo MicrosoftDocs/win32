@@ -1,12 +1,12 @@
 ---
 title: Enabled Property (AudioOutput Object)
-description: Enabled Property
+description: Learn about the Enabled AudioOutput object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 6526f249-be13-4732-b79e-a9952489461f
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enabled Property
+# Enabled Property (AudioOutput Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 

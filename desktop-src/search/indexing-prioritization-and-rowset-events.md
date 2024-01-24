@@ -1,5 +1,5 @@
 ---
-Description: Outlines the introduction of indexing prioritization and rowset events for Windows 7.
+description: Outlines the introduction of indexing prioritization and rowset events for Windows 7.
 ms.assetid: 6cdfb7d3-f849-432c-960f-912e5024c583
 title: Indexing Prioritization and Rowset Events in Windows 7
 ms.topic: article
@@ -136,7 +136,7 @@ See the following resources related to prioritization and rowsets:
 
 <dl> <dt>
 
-[Windows 7 Search](-search-new-for-win7.md)
+[Windows 7 Search](./-search-3x-wds-overview.md)
 </dt> <dt>
 
 [New for Windows 7 Search](new-for-windows-7-search.md)

@@ -1,5 +1,5 @@
 ---
-Description: Modifies virtual system settings.
+description: Modifies virtual system settings.
 ms.assetid: 9c3d28f8-9806-411a-866f-d062c6d31818
 title: ModifySystemSettings method of the CIM_VirtualSystemManagementService class
 ms.topic: reference
@@ -94,7 +94,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

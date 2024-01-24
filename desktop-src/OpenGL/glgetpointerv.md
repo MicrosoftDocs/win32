@@ -66,18 +66,6 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 
 
-## Error codes
-
-The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                             | Meaning                                       |
-|--------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl> | *pname* was not an accepted value.<br/> |
-
-
-
 ## Remarks
 
 The **glGetPointerv** function returns array pointer information. The *pname* parameter is a symbolic constant specifying the kind of array pointer to return, and *params* is a pointer to a location to place the returned data.
@@ -86,7 +74,7 @@ The **glGetPointerv** function returns array pointer information. The *pname* pa
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

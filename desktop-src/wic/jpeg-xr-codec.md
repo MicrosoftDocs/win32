@@ -1,5 +1,5 @@
 ---
-Description: The native JPEG XR codec is available through the Windows Imaging Component (WIC). The JPEG XR format, which the codec supports, is designed for consumer and professional digital photography.
+description: The native JPEG XR codec is available through the Windows Imaging Component (WIC). The JPEG XR format, which the codec supports, is designed for consumer and professional digital photography.
 ms.assetid: CB8D1A5F-B544-462E-8927-F45512CED873
 title: JPEG XR Codec Overview
 ms.topic: article
@@ -32,7 +32,7 @@ Substantial performance improvements, in relation to the HD Photo codec, have be
 
 
 
-|                     |                                                                         |
+|      Component      |    Description                                                          |
 |---------------------|-------------------------------------------------------------------------|
 | File name extension | "jxr" and "wdp"                                                         |
 | Container GUID      | **GUID\_ContainerFormatWmp**                                            |
@@ -482,41 +482,14 @@ Sets the chroma subsampling. This property applies only to RGB images.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>3</td>
-<td>4:4:4 encoding. Preserves full chroma resolution.</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>4:2:2 encoding. Chroma resolution is ½ of luminance resolution.</td>
-</tr>
-<tr class="odd">
-<td>1</td>
-<td>4:2:0 encoding. Chroma resolution is ¼ of luminance resolution.</td>
-</tr>
-<tr class="even">
-<td>0</td>
-<td>4:0:0 encoding. Discards all chroma values and preserves luminance only.
-<blockquote>
-[!Note]<br />
-This mode is not recommended, because the codec uses a slightly modified definition of luminance to improve performance. Instead, it is better to convert the image to monochrome before encoding.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Description | 
+|-------|-------------|
+| 3 | 4:4:4 encoding. Preserves full chroma resolution. | 
+| 2 | 4:2:2 encoding. Chroma resolution is ½ of luminance resolution. | 
+| 1 | 4:2:0 encoding. Chroma resolution is ¼ of luminance resolution. | 
+| 0 | 4:0:0 encoding. Discards all chroma values and preserves luminance only. **Note:** This mode is not recommended, because the codec uses a slightly modified definition of luminance to improve performance. Instead, it is better to convert the image to monochrome before encoding.<br> | 
+
 
 
 

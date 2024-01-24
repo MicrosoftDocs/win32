@@ -1,7 +1,6 @@
-﻿---
+---
 title: DirectML functions
 description: The following functions are declared in DirectML.h.
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
@@ -16,6 +15,7 @@ The following functions are declared in DirectML.h.
 | Topic | Description |
 |-|-|
 | [**DMLCreateDevice**](/windows/desktop/api/directml/nf-directml-dmlcreatedevice) | Creates a DirectML device for a given Direct3D 12 device. |
+| [**DMLCreateDevice1**](/windows/desktop/api/directml/nf-directml-dmlcreatedevice1) | Creates a DirectML device for a given Direct3D 12 device. |
 
 ## Related topics
 

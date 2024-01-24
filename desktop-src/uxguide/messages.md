@@ -3,10 +3,13 @@ title: Messages (Design basics)
 description: Messages are any kind of message users need or want to see as they use your app. Learn how to present errors, warning, confirmations, and notifications in your app.
 ms.assetid: 700F1F1F-B41D-4C0A-B2EC-91C84E46E526
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
-# Messages
+# Messages (Design basics)
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Messages are any kind of message users need or want to see as they use your app. Learn how to present errors, warning, confirmations, and notifications in your app.
 
@@ -26,10 +29,4 @@ Messages are any kind of message users need or want to see as they use your app.
  
 
  
-
- 
-
-
-
-
 

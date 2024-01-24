@@ -186,7 +186,7 @@ ms.date: 05/31/2018
 
 # Windows Data Types
 
-The data types supported by Windows are used to define function return values, function and message parameters, and structure members. They define the size and meaning of these elements. For more information about the underlying C/C++ data types, see [Data Type Ranges](/cpp/cpp/data-type-ranges?view=vs-2019).
+The data types supported by Windows are used to define function return values, function and message parameters, and structure members. They define the size and meaning of these elements. For more information about the underlying C/C++ data types, see [Data Type Ranges](/cpp/cpp/data-type-ranges).
 
 The following table contains the following types: character, integer, Boolean, pointer, and handle. The character, integer, and Boolean types are common to most C compilers. Most of the pointer-type names begin with a prefix of P or LP. Handles refer to a resource that has been loaded into memory.
 
@@ -196,8 +196,8 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -279,7 +279,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <td>Half the size of a pointer. Use within a structure that contains a pointer and two small fields.<br/> This type is declared in BaseTsd.h as follows:<br/> <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -451,7 +451,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="HMODULE"></span><span id="hmodule"></span><strong>HMODULE</strong></td>
-<td><p>A handle to a module. The is the base address of the module in memory.</p>
+<td><p>A handle to a module. This is the base address of the module in memory.</p>
 <p><strong>HMODULE</strong> and <strong>HINSTANCE</strong> are the same in current versions of Windows, but represented different things in 16-bit Windows.</p>
 <p>This type is declared in WinDef.h as follows:</p>
 <p><code>typedef HINSTANCE HMODULE;</code></p></td>
@@ -524,7 +524,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -606,7 +606,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -634,7 +634,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -704,7 +704,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -774,7 +774,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -856,7 +856,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -926,7 +926,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1038,7 +1038,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1067,7 +1067,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1143,7 +1143,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1176,7 +1176,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1342,7 +1342,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1370,7 +1370,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1404,7 +1404,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1438,7 +1438,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1480,7 +1480,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <td><span id="UINT64"></span><span id="uint64"></span><strong>UINT64</strong></td>
 <td><p>An unsigned <a href="#int64"><strong>INT64</strong></a>. The range is 0 through 18446744073709551615 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
-<p><code>typedef usigned __int 64 UINT64;</code></p></td>
+<p><code>typedef unsigned __int64 UINT64;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="ULONG"></span><span id="ulong"></span><strong>ULONG</strong></td>
@@ -1496,7 +1496,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1524,7 +1524,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1564,7 +1564,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1638,7 +1638,7 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 
 
 
-|                                     |                                                                                                                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                |

@@ -1,5 +1,5 @@
 ---
-Description: Contains the on-disk file system recognition information stored in the volumes boot sector (logical disk sector zero).
+description: Contains the on-disk file system recognition information stored in the volumes boot sector (logical disk sector zero).
 ms.assetid: d9c19e01-ff82-4bbc-9eb6-aac9dc5c34ac
 title: FILE_SYSTEM_RECOGNITION_STRUCTURE structure
 ms.topic: reference
@@ -98,7 +98,7 @@ A two-byte checksum calculated over the bytes starting at the **FsName** data me
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

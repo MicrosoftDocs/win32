@@ -1,5 +1,5 @@
 ---
-Description: Returns the sampler index.
+description: Returns the sampler index.
 ms.assetid: 'vs|directx_sdk|~\id3dxconstanttable__getsamplerindex.htm'
 title: ID3DXConstantTable::GetSamplerIndex method (D3DX9Shader.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Returns the sampler index number from the constant table.
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -94,8 +94,8 @@ Keeping that code in mind, consider that a geometry shader looks much like a ver
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -109,7 +109,7 @@ Keeping that code in mind, consider that a geometry shader looks much like a ver
 <td>The function return type does one thing, declares the maximum number of vertices that can be output by the shader. In this case, <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -127,18 +127,18 @@ defines the output to be a maximum of 12 vertices.</td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream<GSPS_INPUT> TriStream</code></pre></td>
+<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream&lt;GSPS_INPUT&gt; TriStream</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 </div>
 <p>The first parameter is an array of vertices (3 in this case) defined by a GSPS_INPUT structure (which defines per-vertex data as a position, a normal and a texture coordinate). The first parameter also uses the triangle keyword, which means the input assembler stage must output data to the geometry shader as one of the triangle primitive types (triangle list or triangle strip).</p>
-<p>The second parameter is a triangle stream defined by the type TriangleStream<GSPS_INPUT>. This means the parameter is an array of triangles, each of which is made up of three vertices (that contain the data from the members of GSPS_INPUT).</p>
+<p>The second parameter is a triangle stream defined by the type TriangleStream&lt;GSPS_INPUT&gt;. This means the parameter is an array of triangles, each of which is made up of three vertices (that contain the data from the members of GSPS_INPUT).</p>
 <p>Use the triangle and trianglestream keywords to identify individual triangles or a stream of triangles in a GS.</p></td>
 </tr>
 <tr class="odd">
@@ -174,7 +174,7 @@ Just like vertex and pixel shaders, you need a shader flag to tell the compiler 
 
 Once you know that you will be streaming the data from the geometry, and you have successfully compiled the shader, the next step is to call [**ID3D11Device::CreateGeometryShaderWithStreamOutput**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-creategeometryshaderwithstreamoutput) to create the geometry shader object.
 
-But first, you need to declare the steam output (SO) stage input signature. This signature matches or validates the GS outputs and the SO inputs at the time of object creation. The following code is an example of the SO declaration.
+But first, you need to declare the stream output (SO) stage input signature. This signature matches or validates the GS outputs and the SO inputs at the time of object creation. The following code is an example of the SO declaration.
 
 
 ```

@@ -160,7 +160,7 @@ D3DX11 automatically performs gamma correction (to convert color data from RGB s
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX11tex.h</dt> </dl> |
 

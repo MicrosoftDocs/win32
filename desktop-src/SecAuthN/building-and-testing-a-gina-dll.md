@@ -1,5 +1,5 @@
 ---
-Description: All functions, prototypes, structures, and constants are defined in the Winwlx.h header file.
+description: All functions, prototypes, structures, and constants are defined in the Winwlx.h header file.
 ms.assetid: 13b5bc92-583d-4031-94f9-f84dbfbf7ee7
 title: Building and Testing a GINA DLL
 ms.topic: article
@@ -66,10 +66,8 @@ To test a [*GINA*](/windows/desktop/SecGloss/g-gly) DLL, use the Winlogon.exe fr
     </dl>
     ```
 
-    > [!Note]  
-    > You must use the Windows symbolic debugger (NTSD) to debug Winlogon.
-
-     
+> [!NOTE]
+> You must use the Windows symbolic debugger (NTSD) to debug Winlogon.
 
 ## Related topics
 

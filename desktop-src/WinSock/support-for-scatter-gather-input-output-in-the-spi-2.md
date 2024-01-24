@@ -1,5 +1,5 @@
 ---
-Description: The WSPSend, WSPSendTo, WSPRecv, and WSPRecvFrom routines all take an array of client buffers as input parameters and thus may be used for scatter/gather (or vectored) I/O.
+description: The WSPSend, WSPSendTo, WSPRecv, and WSPRecvFrom routines all take an array of client buffers as input parameters and thus may be used for scatter/gather (or vectored) I/O.
 ms.assetid: ecd3d2f1-74b1-42f7-8402-3170112e3aca
 title: Support for Scatter/Gather Input/Output in the SPI
 ms.topic: article

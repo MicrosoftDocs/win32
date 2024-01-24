@@ -1,5 +1,5 @@
 ---
-Description: Returns the EKUs collection for the certificate.
+description: Returns the EKUs collection for the certificate.
 ms.assetid: 64211a00-7d4d-4381-a134-9cd570ed7dbb
 title: ExtendedKeyUsage.EKUs property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # ExtendedKeyUsage.EKUs property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **EKUs** property returns the [**EKUs**](ekus.md) collection for the certificate.
 
@@ -38,7 +38,7 @@ The [**EKUs**](ekus.md) collection that contains the [**EKU**](eku.md) objects f
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupDirectoryNotEmptyException methods"
 title: EsentBackupDirectoryNotEmptyException methods
 TOCTitle: EsentBackupDirectoryNotEmptyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBackupDirectoryNotEmptyException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBackupDirectoryNotEmptyException](dn273970\(v=exchg.10\).md) type exposes the following members.
+The [EsentBackupDirectoryNotEmptyException](./esentbackupdirectorynotemptyexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentBackupDirectoryNotEmptyException class](dn273970\(v=exchg.10\).md)
+[EsentBackupDirectoryNotEmptyException class](./esentbackupdirectorynotemptyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

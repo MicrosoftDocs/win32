@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder should use a preferred frame size given in number of samples per frame.
+description: Specifies whether the encoder should use a preferred frame size given in number of samples per frame.
 ms.assetid: c9baeff7-53fb-425f-b07b-4066a705ca54
 title: MFPKEY_REQUESTING_A_FRAMESIZE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ To specifiy a preferred frame size, set the following properties.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

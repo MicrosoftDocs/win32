@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the key protector for a virtual system.
+description: Retrieves the key protector for a virtual system.
 ms.assetid: fd827da8-b2fc-4c57-bb7d-7da46db8e8be
 title: GetKeyProtector method of the Msvm_SecurityService class
 ms.topic: reference
@@ -98,7 +98,7 @@ On success, returns a 0 or 4096. Otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_Sensor class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_Sensor class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: ca934b60-4af4-40a5-a619-353d35fbe9e5
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_Sensor class
@@ -111,7 +111,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

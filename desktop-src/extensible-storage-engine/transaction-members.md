@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction members"
 title: Transaction members
 TOCTitle: Transaction members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Transaction
@@ -15,7 +16,7 @@ Include inherited members
 
 A class that encapsulates a transaction on a JET_SESID.
 
-The [Transaction](dn351174\(v=exchg.10\).md) type exposes the following members.
+The [Transaction](./transaction-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +168,6 @@ Top
 
 #### Reference
 
-[Transaction class](dn351174\(v=exchg.10\).md)
+[Transaction class](./transaction-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

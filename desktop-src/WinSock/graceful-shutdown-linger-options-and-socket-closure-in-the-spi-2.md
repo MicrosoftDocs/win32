@@ -1,5 +1,5 @@
 ---
-Description: It is important to distinguish between shutting down a socket connection and closing a socket.
+description: It is important to distinguish between shutting down a socket connection and closing a socket.
 ms.assetid: f076b1ec-6b96-4386-8519-4728e0a2b1ff
 title: Graceful Shutdown, Linger Options, and Socket Closure in the SPI
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: In the following example code, the monitor sets a capture filter that specifies IP only and requested protocol data.
+description: In the following example code, the monitor sets a capture filter that specifies IP only and requested protocol data.
 ms.assetid: 0945bceb-b5fe-4f07-866b-4e0468227610
 title: Processing Frame Data
 ms.topic: article

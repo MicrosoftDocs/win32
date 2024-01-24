@@ -1,5 +1,5 @@
 ---
-Description: Imports a certificate from a file.
+description: Imports a certificate from a file.
 ms.assetid: 62c3bf8e-2f52-4342-b3ee-744b032578bf
 title: ICertificate2::Load method
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # ICertificate2::Load method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Load** method imports a certificate from a file. This method was introduced in CAPICOM 2.0.
 
@@ -103,7 +103,7 @@ This method raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-based
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

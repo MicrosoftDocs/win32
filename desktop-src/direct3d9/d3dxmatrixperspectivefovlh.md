@@ -1,22 +1,25 @@
 ---
-Description: Builds a left-handed perspective projection matrix based on a field of view.
+description: D3DXMatrixPerspectiveFovLH function (D3dx9math.h) - Builds a left-handed perspective projection matrix based on a field of view.
 ms.assetid: 90328798-f124-4b61-90a9-971946066b02
 title: D3DXMatrixPerspectiveFovLH function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixPerspectiveFovLH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixPerspectiveFovLH function
+# D3DXMatrixPerspectiveFovLH function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a left-handed perspective projection matrix based on a field of view.
 
@@ -94,6 +97,8 @@ Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) structure that is a left-handed per
 
 The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXMatrixPerspectiveFovLH** function can be used as a parameter for another function.
 
+To change the aspect ratio axis, use the calculation formula: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspect). Alternatively, add X and Y aspect ratio variables in the structure to scale the vertical view space: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspectY), aspect = aspectX * aspect Y.
+
 This function computes the returned matrix as shown:
 
 
@@ -114,7 +119,7 @@ xScale = yScale / aspect ratio
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

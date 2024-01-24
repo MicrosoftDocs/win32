@@ -1,5 +1,5 @@
 ---
-Description: These WMI classes are declared in CimWin32.mof.
+description: These WMI classes are declared in CimWin32.mof.
 ms.assetid: 53122499-1CC0-4B48-AEA1-B70B7BBC3A99
 ms.tgt_platform: multiple
 title: CIM WMI Provider

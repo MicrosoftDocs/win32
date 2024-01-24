@@ -1,22 +1,25 @@
 ---
-Description: Scale the current matrix about the object origin.
+description: ID3DXMATRIXStack::ScaleLocal method (D3DX10.h) - Scale the current matrix about the object origin.
 ms.assetid: 748fce3a-a33c-4975-bbf0-dd3167a036f1
 title: ID3DXMATRIXStack::ScaleLocal method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.ScaleLocal
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::ScaleLocal method
+# ID3DXMATRIXStack::ScaleLocal method (D3DX10.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Scale the current matrix about the object origin.
 
@@ -87,7 +90,7 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

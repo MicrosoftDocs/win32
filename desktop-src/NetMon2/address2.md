@@ -1,5 +1,5 @@
 ---
-Description: Contains a single address of any type of supported addresses.
+description: Contains a single address of any type of supported addresses.
 ms.assetid: 3f840842-8992-4fab-8820-cbbfc63242b8
 title: ADDRESS2 structure (Netmon.h)
 ms.topic: reference
@@ -155,7 +155,7 @@ View of the data expressed as an FDDI destination address.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

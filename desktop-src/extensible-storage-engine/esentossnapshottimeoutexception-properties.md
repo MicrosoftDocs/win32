@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotTimeOutException properties"
 title: EsentOSSnapshotTimeOutException properties
 TOCTitle: EsentOSSnapshotTimeOutException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotTimeOutException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOSSnapshotTimeOutException](dn319704\(v=exchg.10\).md) type exposes the following members.
+The [EsentOSSnapshotTimeOutException](./esentossnapshottimeoutexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentOSSnapshotTimeOutException class](dn319704\(v=exchg.10\).md)
+[EsentOSSnapshotTimeOutException class](./esentossnapshottimeoutexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

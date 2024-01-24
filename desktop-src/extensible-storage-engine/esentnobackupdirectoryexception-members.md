@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoBackupDirectoryException members"
 title: EsentNoBackupDirectoryException members
 TOCTitle: EsentNoBackupDirectoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNoBackupDirectoryException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.NoBackupDirectory exceptions.
 
-The [EsentNoBackupDirectoryException](dn319659\(v=exchg.10\).md) type exposes the following members.
+The [EsentNoBackupDirectoryException](./esentnobackupdirectoryexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentNoBackupDirectoryException class](dn319659\(v=exchg.10\).md)
+[EsentNoBackupDirectoryException class](./esentnobackupdirectoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

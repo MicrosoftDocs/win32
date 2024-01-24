@@ -1,5 +1,5 @@
 ---
-Description: Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.
+description: Specifies the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.
 ms.assetid: cd3c28d9-8663-4672-94ba-0a53861086cb
 title: AuthProtocol (contextType) Element
 ms.topic: reference
@@ -61,7 +61,7 @@ The **AuthProtocol** element is defined by the [**contextType**](schema-contextt
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

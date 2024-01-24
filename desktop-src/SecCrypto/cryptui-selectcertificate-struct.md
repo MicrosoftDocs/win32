@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the dialog box displayed by the CryptUIDlgSelectCertificate function.
+description: Contains information about the dialog box displayed by the CryptUIDlgSelectCertificate function.
 ms.assetid: 073a67a0-427b-4b81-82a0-1bb0a216a335
 title: CRYPTUI_SELECTCERTIFICATE_STRUCT structure
 ms.topic: reference
@@ -196,7 +196,7 @@ This member is not used if the **dwFlags** member of this structure does not con
 
 
 
-|                                     |                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                            |

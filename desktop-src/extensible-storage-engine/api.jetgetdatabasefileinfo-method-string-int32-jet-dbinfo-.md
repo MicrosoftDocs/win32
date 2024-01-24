@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetDatabaseFileInfo method (String, Int32, JET_DbInfo)"
 title: Api.JetGetDatabaseFileInfo method (String, Int32, JET_DbInfo)
 TOCTitle: JetGetDatabaseFileInfo method (String, Int32, JET_DbInfo)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetDatabaseFileInfo(System.String,System.Int32@,Microsoft.Isam.Esent.Interop.JET_DbInfo)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Retrieves certain information about the given database.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -70,7 +71,7 @@ public static void JetGetDatabaseFileInfo(
 <!-- end list -->
 
   - infoLevel  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DbInfo](hh163267\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DbInfo](./jet-dbinfo-enumeration.md)  
     
     The specific data to retrieve.
 
@@ -78,10 +79,10 @@ public static void JetGetDatabaseFileInfo(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[JetGetDatabaseFileInfo overload](dn292157\(v=exchg.10\).md)
+[JetGetDatabaseFileInfo overload](./api.jetgetdatabasefileinfo-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

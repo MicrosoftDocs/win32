@@ -1,5 +1,5 @@
 ---
-Description: This attribute, when set on a stream, explicitly marks the stream as shared by the frame server.
+description: This attribute, when set on a stream, explicitly marks the stream as shared by the frame server.
 ms.assetid: 15DF88A2-041C-4E73-A121-00454964E2C1
 title: MF_DEVICESTREAM_FRAMESERVER_SHARED attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ This attribute, when set on a stream, explicitly marks the stream as shared by t
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

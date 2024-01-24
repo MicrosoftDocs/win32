@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::GatherBlue(S,float,uint) function
-description: Samples a texture and returns the blue component along with status about the operation.
+description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCubeArray::GatherBlue(S,float,uint) function
 ms.assetid: 85606EE7-9B05-439F-B525-A1CD42FE32F6
 keywords:
 - GatherBlue function HLSL
@@ -15,18 +15,18 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherBlue(S,float,uint) function
+# TextureCubeArray::GatherBlue(S,float,uint) function
 
-Samples a texture and returns the blue component along with status about the operation.
+Returns the blue components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType GatherBlue(
-  in  SamplerState S,
-  in  float        Location,
-  out uint         Status
+  in  SamplerState S,
+  in  float4       Location,
+  out uint         Status
 );
 ```
 
@@ -83,7 +83,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -95,6 +95,6 @@ This function is supported for the following types of shaders:
 [**TextureCubeArray**](texturecubearray.md)
 </dt> </dl>
 
- 
 
- 
+
+

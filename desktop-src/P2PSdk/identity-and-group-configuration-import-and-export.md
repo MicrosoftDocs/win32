@@ -1,5 +1,5 @@
 ---
-Description: Peer identity and group configuration files can be imported and exported from one endpoint to another by using the identity import and export functions located in the Identity Manager and Grouping APIs.
+description: Peer identity and group configuration files can be imported and exported from one endpoint to another by using the identity import and export functions located in the Identity Manager and Grouping APIs.
 ms.assetid: 876d9c57-15f6-4f5e-8035-792e15f8035e
 title: Identity and Group Configuration Import and Export
 ms.topic: article

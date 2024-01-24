@@ -1,5 +1,5 @@
 ---
-Description: Handle to the local Policy object.
+description: Handle to the local Policy object.
 ms.assetid: f5878d27-558b-4ef1-9401-1277e740c61d
 title: LSA_HANDLE (Ntsecapi.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ Each handle has an associated set of permissions that determine the operations y
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

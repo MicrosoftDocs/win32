@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the InitializePredefined method.
+description: Proxy function for the InitializePredefined method.
 ms.assetid: 78137d43-c32f-4d60-b289-2e2154cf4d1e
 title: IWICPalette_InitializePredefined_Proxy function
 ms.topic: reference
@@ -76,7 +76,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

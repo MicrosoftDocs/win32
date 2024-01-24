@@ -1,5 +1,5 @@
 ---
-Description: Creates a reference point of a virtual system collection.
+description: Creates a reference point of a virtual system collection.
 ms.assetid: 40ec5715-0dbc-43e3-a305-c8c31de60977
 title: CreateReferencePoint method of the Msvm_CollectionReferencePointService class
 ms.topic: reference
@@ -159,7 +159,7 @@ If successful, returns either 0 (no error), or 4096 (job started); otherwise, re
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

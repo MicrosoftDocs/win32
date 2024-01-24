@@ -1,5 +1,5 @@
 ---
-Description: A FirstRun dialog box sequence collects user name, company name, and product ID information. The installer verifies the product ID during this dialog.
+description: A FirstRun dialog box sequence collects user name, company name, and product ID information. The installer verifies the product ID during this dialog.
 ms.assetid: bb77296f-705a-4409-b2ca-a76bbaf7ea57
 title: FirstRun Dialog
 ms.topic: article

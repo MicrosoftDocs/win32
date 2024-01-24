@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDirectoryException constructor"
 title: EsentInvalidLogDirectoryException constructor 
 TOCTitle: 'EsentInvalidLogDirectoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLogDirectoryException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidLogDirectoryException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidLogDirectoryException()
 
 #### Reference
 
-[EsentInvalidLogDirectoryException class](dn319548\(v=exchg.10\).md)
+[EsentInvalidLogDirectoryException class](./esentinvalidlogdirectoryexception-class.md)
 
-[EsentInvalidLogDirectoryException members](dn319543\(v=exchg.10\).md)
+[EsentInvalidLogDirectoryException members](./esentinvalidlogdirectoryexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the Complement methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
+description: This topic lists the Complement methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 ms.assetid: f9868ad5-b6eb-45a3-99a3-8edec3a78636
 title: Region.Complement methods
 ms.date: 07/02/2019

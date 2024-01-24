@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to sign an XPS document.
+description: This topic describes how to sign an XPS document.
 ms.assetid: fbe64aed-6b07-49de-910c-18be68cb65a2
 title: Sign a Document
 ms.topic: article
@@ -178,7 +178,7 @@ The following code example illustrates how to use the preceding steps in a progr
 [XPS Document Errors](xps-document-errors.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

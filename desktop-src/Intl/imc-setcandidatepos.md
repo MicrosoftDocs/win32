@@ -1,5 +1,5 @@
 ---
-Description: Instructs an IME window to set the position of the candidates window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+description: Instructs an IME window to set the position of the candidates window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 7a2f9958-4a4e-462a-9737-e7796fd90216
 title: IMC_SETCANDIDATEPOS command (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This command is intended for applications that display composition characters on
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

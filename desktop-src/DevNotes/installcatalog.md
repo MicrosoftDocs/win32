@@ -1,5 +1,5 @@
 ---
-Description: Installs a catalog in a directory.
+description: Installs a catalog in a directory.
 ms.assetid: 9741f8e3-d9db-46cd-886d-587f332b0ab8
 title: InstallCatalog function
 ms.topic: reference
@@ -71,7 +71,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 

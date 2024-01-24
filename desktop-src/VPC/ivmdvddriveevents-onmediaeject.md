@@ -1,6 +1,6 @@
 ---
 title: IVMDVDDriveEvents OnMediaEject method (VPCCOMInterfaces.h)
-description: Receives notification that media has been ejected from the drive.
+description: Receives notification that media has been ejected from the drive. | IVMDVDDriveEvents OnMediaEject method (VPCCOMInterfaces.h)
 ms.assetid: ec90fbce-7123-4bfa-abab-300e916fa089
 keywords:
 - OnMediaEject method Virtual PC
@@ -58,7 +58,7 @@ This method is called when media (an ISO image or a disc in a host drive) is eje
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

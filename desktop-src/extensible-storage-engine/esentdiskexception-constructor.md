@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentDiskException constructor"
 title: EsentDiskException constructor 
 TOCTitle: 'EsentDiskException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentDiskException.#ctor
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[EsentDiskException class](dn334464\(v=exchg.10\).md)
+[EsentDiskException class](./esentdiskexception-class.md)
 
-[EsentDiskException members](dn274279\(v=exchg.10\).md)
+[EsentDiskException members](./esentdiskexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

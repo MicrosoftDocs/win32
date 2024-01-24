@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Performance Counters Elements"
 ms.assetid: dc5dd33c-a2ed-4c0c-9f54-aca3df57d4fb
 title: Performance Counters Elements
 ms.topic: article

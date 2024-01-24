@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SerialController class represents the capabilities and management of the serial port logical device.
+description: The CIM\_SerialController class represents the capabilities and management of the serial port logical device.
 ms.assetid: 7d5a96aa-fa6c-4904-8ca1-88ec14748810
 ms.tgt_platform: multiple
 title: CIM_SerialController class (CIMWin32 WMI Providers)
@@ -41,7 +41,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_SerialController class
+# CIM_SerialController class (CIMWin32 WMI Providers)
 
 The **CIM\_SerialController** class represents the capabilities and management of the serial port logical device.
 
@@ -1670,7 +1670,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

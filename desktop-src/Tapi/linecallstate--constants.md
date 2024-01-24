@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLSTATE\_ bit-flag constants describe the call states a call can be in.
+description: The LINECALLSTATE\_ bit-flag constants describe the call states a call can be in.
 ms.assetid: 18d881ee-cf98-4dec-a561-333c2518935d
 title: LINECALLSTATE_ Constants (Tapi.h)
 ms.topic: reference
@@ -182,7 +182,7 @@ The **LINECALLSTATE\_constants** are used as parameters by the [**LINE\_CALLSTAT
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

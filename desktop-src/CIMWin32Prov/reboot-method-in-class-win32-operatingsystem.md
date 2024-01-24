@@ -1,5 +1,5 @@
 ---
-Description: The Reboot&\#8194;WMI class method shuts down the computer system, then restarts it.
+description: The Reboot&\#8194;WMI class method shuts down the computer system, then restarts it.
 ms.assetid: 23b70f2a-28ce-4463-9d22-29de52349ab6
 ms.tgt_platform: multiple
 title: Reboot method of the Win32_OperatingSystem class
@@ -174,7 +174,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

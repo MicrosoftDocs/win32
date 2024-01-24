@@ -1,6 +1,6 @@
 ---
 title: WIC programming guide
-Description: Describes how to use the WIC APIs.
+description: Describes how to use the WIC APIs.
 ms.assetid: ed7987f0-5983-4bb5-8640-0830a87c8f2e
 ms.topic: article
 ms.date: 05/31/2018

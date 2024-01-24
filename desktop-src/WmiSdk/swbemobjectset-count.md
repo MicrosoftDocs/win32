@@ -1,5 +1,5 @@
 ---
-Description: Use the Count property of the SWbemObjectSet object to determine how many items are in an SWbemObjectSet collection. This property is read-only.
+description: Use the Count property of the SWbemObjectSet object to determine how many items are in an SWbemObjectSet collection. This property is read-only.
 ms.assetid: ad3d1265-a11e-4962-b1f3-60092d2f79ef
 ms.tgt_platform: multiple
 title: SWbemObjectSet.Count property (Wbemdisp.h)
@@ -86,7 +86,7 @@ End If
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

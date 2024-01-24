@@ -1,5 +1,5 @@
 ---
-Description: The state or province name.
+description: The state or province name.
 ms.assetid: 5b517d27-33c9-473e-b9b8-79e845b8a79b
 title: LocationDisp.DispCivicAddressReport.StateProvince property
 ms.topic: reference
@@ -43,7 +43,7 @@ For an example of how to use this property, see [A Simple Civic Address Report E
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

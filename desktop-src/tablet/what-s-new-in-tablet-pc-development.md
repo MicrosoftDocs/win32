@@ -1,5 +1,5 @@
 ---
-Description: This section describes what is new in Tablet PC Technology development.
+description: This section describes what is new in Tablet PC Technology development.
 ms.assetid: e61bd444-7e48-4146-93a4-8b99e34226af
 title: What's New in Tablet PC Development
 ms.topic: article

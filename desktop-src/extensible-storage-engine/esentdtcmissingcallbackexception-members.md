@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCMissingCallbackException members"
 title: EsentDTCMissingCallbackException members
 TOCTitle: EsentDTCMissingCallbackException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDTCMissingCallbackException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DTCMissingCallback exceptions.
 
-The [EsentDTCMissingCallbackException](dn334508\(v=exchg.10\).md) type exposes the following members.
+The [EsentDTCMissingCallbackException](./esentdtcmissingcallbackexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDTCMissingCallbackException class](dn334508\(v=exchg.10\).md)
+[EsentDTCMissingCallbackException class](./esentdtcmissingcallbackexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

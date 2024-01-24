@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_COLUMN members"
 title: JET_INDEX_COLUMN members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_INDEX_COLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN
@@ -13,9 +14,9 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-Contains filter definition for [JetPrereadIndexRanges(JET_SESID, JET_TABLEID, \[\], Int32, Int32, Int32, \[\], PrereadIndexRangesGrbit)](dn335382\(v=exchg.10\).md) and [JetSetCursorFilter(JET_SESID, JET_TABLEID, \[\], CursorFilterGrbit)](dn335383\(v=exchg.10\).md).
+Contains filter definition for [JetPrereadIndexRanges(JET_SESID, JET_TABLEID, \[\], Int32, Int32, Int32, \[\], PrereadIndexRangesGrbit)](./windows8api.jetprereadindexranges-method.md) and [JetSetCursorFilter(JET_SESID, JET_TABLEID, \[\], CursorFilterGrbit)](./windows8api.jetsetcursorfilter-method.md).
 
-The [JET_INDEX_COLUMN](dn335349\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEX_COLUMN](./jet-index-column-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -127,6 +128,6 @@ Top
 
 #### Reference
 
-[JET_INDEX_COLUMN class](dn335349\(v=exchg.10\).md)
+[JET_INDEX_COLUMN class](./jet-index-column-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

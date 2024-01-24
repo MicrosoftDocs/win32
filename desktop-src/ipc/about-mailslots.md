@@ -1,5 +1,5 @@
 ---
-Description: A mailslot is a pseudofile that resides in memory, and you use standard file functions to access it.
+description: A mailslot is a pseudofile that resides in memory, and you use standard file functions to access it.
 ms.assetid: 9a68905d-c235-4c72-bc71-1cccdf5cdadc
 title: About Mailslots
 ms.topic: article

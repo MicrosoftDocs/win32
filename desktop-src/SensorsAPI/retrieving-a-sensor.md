@@ -1,5 +1,5 @@
 ---
-Description: To retrieve a sensor object, you use the ISensorManager interface. You can think of this interface as the root interface for the Sensor API. To use ISensorManager, you must first call the COM CoCreateInstance method.
+description: To retrieve a sensor object, you use the ISensorManager interface. You can think of this interface as the root interface for the Sensor API. To use ISensorManager, you must first call the COM CoCreateInstance method.
 ms.assetid: 36631bae-f237-4951-9959-6ab6286bd1f7
 title: Retrieving a Sensor Object
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The DRIVER\_INFO\_1 structure identifies a printer driver.
+description: The DRIVER\_INFO\_1 structure identifies a printer driver.
 ms.assetid: 9435192b-3eba-4937-8cd3-bff4e9eb84d3
 title: DRIVER_INFO_1 structure (Winspool.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Pointer to a null-terminated string that specifies the name of a printer driver.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

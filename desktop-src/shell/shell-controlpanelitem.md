@@ -1,5 +1,5 @@
 ---
-Description: Runs the specified Control Panel (\*.cpl) application.
+description: Runs the specified Control Panel (\*.cpl) application.
 title: Shell.ControlPanelItem method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 54979bbd-b36b-4b5b-a8a0-5f63e9526fa5
-api_name: 
- - Shell.ControlPanelItem
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -140,7 +131,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

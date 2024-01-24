@@ -1,5 +1,5 @@
 ---
-Description: Load formatted text into video memory to improve the efficiency of rendering to the device. This method supports ANSI and Unicode strings.
+description: Load formatted text into video memory to improve the efficiency of rendering to the device. This method supports ANSI and Unicode strings.
 ms.assetid: 0e5380fc-7a01-4e09-9c18-22087be56780
 title: ID3DX10Font::PreloadText method (D3DX10.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ This method internally converts characters to glyphs using the GDI function [Get
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

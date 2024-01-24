@@ -17,7 +17,7 @@ A compatible A8 render target is a compatible render target ([**ID2D1BitmapRende
 
 -   The visual continuity of the application that stretches and diminshes text during an animation.
 
-To create a compatible A8 render target, use the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(id2d1bitmaprendertarget)) method together with the DXGI\_FORMAT\_A8\_UNORM pixel format, and specify a returned compatible render target. For more information about pixel formats, see [Supported pixel formats and alpha modes](/windows/win32/direct2d/supported-pixel-formats-and-alpha-modes).
+To create a compatible A8 render target, use the [**ID2D1RenderTarget::CreateCompatibleRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(id2d1bitmaprendertarget)) method together with the DXGI\_FORMAT\_A8\_UNORM pixel format, and specify a returned compatible render target. For more information about pixel formats, see [Supported pixel formats and alpha modes](./supported-pixel-formats-and-alpha-modes.md).
 
 For example, to efficiently animate the text that is shown in the following screen shot, use a compatible A8 render target to cache the text as an opacity mask. Then, apply transformations to the opacity mask to achieve fast rendering results.
 

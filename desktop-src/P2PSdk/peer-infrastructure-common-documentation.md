@@ -1,5 +1,5 @@
 ---
-Description: This section of the Peer Infrastructure documentation contains information that is common to two or more of the Peer Infrastructure APIs. For example, the Peer Grouping and Identity Manager APIs use the PeerEndEnumeration function.
+description: This section of the Peer Infrastructure documentation contains information that is common to two or more of the Peer Infrastructure APIs. For example, the Peer Grouping and Identity Manager APIs use the PeerEndEnumeration function.
 ms.assetid: e7baac2f-f46d-4087-b5f0-85bd7b4abab0
 title: Peer Infrastructure Common Documentation
 ms.topic: article

@@ -22,7 +22,7 @@ Defines a set of operations that can be performed by a particular set of users w
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Az-Role                           |
 | Ldap-Display-Name | msDS-AzRole                             |
@@ -46,7 +46,7 @@ Defines a set of operations that can be performed by a particular set of users w
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -175,7 +175,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -307,7 +307,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -452,7 +452,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -604,7 +604,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |

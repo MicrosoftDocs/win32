@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback to add items to the menu.
+description: Allows the callback to add items to the menu.
 title: DFM_MERGECONTEXTMENU message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -63,7 +63,7 @@ This message is sent to either the callback function or the callback object depe
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

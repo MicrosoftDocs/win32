@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException.GetObjectData method"
 title: EsentErrorException.GetObjectData method 
 TOCTitle: 'GetObjectData method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentErrorException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 When overridden in a derived class, sets the [SerializationInfo](/dotnet/api/system.runtime.serialization.serializationinfo) with information about the exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -77,32 +78,19 @@ public override void GetObjectData(
 
 ## Exceptions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Exception</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-<td><p>The info parameter is a null reference (Nothing in Visual Basic).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Exception | Condition | 
+|-----------|-----------|
+| <a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a> | <p>The info parameter is a null reference (Nothing in Visual Basic).</p> | 
+
 
 
 ## See also
 
 #### Reference
 
-[EsentErrorException class](dn274314\(v=exchg.10\).md)
+[EsentErrorException class](./esenterrorexception-class.md)
 
-[EsentErrorException members](dn274255\(v=exchg.10\).md)
+[EsentErrorException members](./esenterrorexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

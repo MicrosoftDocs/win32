@@ -22,7 +22,7 @@ Terminal Services Session Initial Program specifies the path and file name of th
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-TS-Initial-Program                       |
 | Ldap-Display-Name | msTSInitialProgram                          |
@@ -45,7 +45,7 @@ Terminal Services Session Initial Program specifies the path and file name of th
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services Session Initial Program specifies the path and file name of th
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services Session Initial Program specifies the path and file name of th
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

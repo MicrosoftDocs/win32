@@ -1,5 +1,5 @@
 ---
-Description: Association class between a guest service interface component and the guest service resource.
+description: Association class between a guest service interface component and the guest service resource.
 ms.assetid: 4c16c3ab-4137-40ab-be2e-f385d8e36a41
 title: Msvm_GuestServiceInterfaceSettingDataComponent class
 ms.topic: reference
@@ -82,7 +82,7 @@ A [**CIM\_SettingData**](cim-settingdata.md) that references the guest service r
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

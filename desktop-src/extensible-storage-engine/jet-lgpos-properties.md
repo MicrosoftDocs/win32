@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LGPOS properties"
 title: JET_LGPOS properties
 TOCTitle: JET_LGPOS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_LGPOS
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_LGPOS](hh578063\(v=exchg.10\).md) type exposes the following members.
+The [JET_LGPOS](./jet-lgpos-structure2.md) type exposes the following members.
 
 ## Properties
 
@@ -56,7 +57,6 @@ Top
 
 #### Reference
 
-[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](./jet-lgpos-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

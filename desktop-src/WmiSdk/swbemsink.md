@@ -1,5 +1,5 @@
 ---
-Description: The SWbemSink object is implemented by client applications to receive the results of asynchronous operations and event notifications.
+description: The SWbemSink object is implemented by client applications to receive the results of asynchronous operations and event notifications.
 ms.assetid: a90777ef-fa26-4bfb-b196-c083a0c92a29
 ms.tgt_platform: multiple
 title: SWbemSink object (Wbemdisp.h)
@@ -121,7 +121,7 @@ End Sub
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about creating the default indexer object provided by Media Foundation.
+description: This topic provides information about creating the default indexer object provided by Media Foundation.
 ms.assetid: 3a2caf11-808b-4910-b83c-a272a026f0d3
 title: Indexer Creation and Configuration
 ms.topic: article

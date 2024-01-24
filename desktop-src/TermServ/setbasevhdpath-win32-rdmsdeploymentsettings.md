@@ -1,6 +1,6 @@
 ---
 title: SetBaseVHDPath method of the Win32_RDMSDeploymentSettings class
-description: Retrieves the base path to the directory to which VHDs of the virtual desktop collection are deployed.
+description: Retrieves the base path to the directory to which VHDs of the virtual desktop collection are deployed. | SetBaseVHDPath method of the Win32_RDMSDeploymentSettings class
 ms.assetid: 1ea4cd93-ef17-4ec9-82f9-382c549f189c
 ms.tgt_platform: multiple
 keywords:
@@ -53,7 +53,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                              |

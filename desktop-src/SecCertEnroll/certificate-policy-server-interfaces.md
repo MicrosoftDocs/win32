@@ -1,5 +1,5 @@
 ---
-Description: The following interfaces can be used to programmatically configure a certificate enrollment policy (CEP) server.
+description: The following interfaces can be used to programmatically configure a certificate enrollment policy (CEP) server.
 ms.assetid: 48c7c21c-1b20-4a79-932d-bed19ff9833e
 title: Certificate Policy Server Interfaces
 ms.topic: article

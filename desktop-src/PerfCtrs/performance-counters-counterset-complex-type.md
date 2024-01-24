@@ -1,5 +1,5 @@
 ---
-Description: Defines a list of counters that are logically related.
+description: Defines a list of counters that are logically related.
 ms.assetid: d094146a-389e-4053-8ee5-acd29254e817
 title: counterSet Complex Type
 ms.topic: reference
@@ -117,7 +117,7 @@ Defines a list of counters that are logically related.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

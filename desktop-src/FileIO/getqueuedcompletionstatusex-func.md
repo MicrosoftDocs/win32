@@ -1,5 +1,5 @@
 ---
-Description: Retrieves multiple completion port entries simultaneously.
+description: Retrieves multiple completion port entries simultaneously.
 ms.assetid: 3996c02c-562c-4697-a091-e241ad54b239
 title: GetQueuedCompletionStatusEx function (IoAPI.h)
 ms.topic: reference
@@ -85,7 +85,11 @@ The number of milliseconds that the caller is willing to wait for a completion p
 
 If *dwMilliseconds* is **INFINITE** (0xFFFFFFFF), the function will never time out. If *dwMilliseconds* is zero and there is no I/O operation to dequeue, the function will time out immediately.
 
-</dd> <dt>
+<b>Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2:  </b>The <i>dwMilliseconds</i> value does include time spent in low-power states. For example, the timeout does keep counting down while the computer is asleep.
+
+<b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not keep counting down while the computer is asleep.
+
+</dd>  <dt>
 
 *fAlertable* \[in\]
 </dt> <dd>
@@ -138,7 +142,7 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 
 
-|                                     |                                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                             |

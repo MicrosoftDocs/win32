@@ -1,5 +1,5 @@
 ---
-Description: The SESSIONSTATS structure provides statistics about a session.
+description: The SESSIONSTATS structure provides statistics about a session.
 ms.assetid: 51a6a601-634e-4d97-8c85-d3961400a2d1
 title: SESSIONSTATS structure (Netmon.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ Network Monitor stores session and station information in two associated arrays,
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: Parental Controls Robustness
+description: Parental Controls Robustness
 ms.assetid: 6823da94-724b-4465-ba5f-a4361c845951
 title: Parental Controls Robustness
 ms.topic: article

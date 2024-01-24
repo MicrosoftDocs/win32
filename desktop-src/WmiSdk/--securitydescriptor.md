@@ -1,5 +1,5 @@
 ---
-Description: Represents a security descriptor.
+description: Represents a security descriptor.
 ms.assetid: 1ade1751-52a2-4ada-8255-323321111663
 ms.tgt_platform: multiple
 title: '__SecurityDescriptor class'
@@ -140,7 +140,7 @@ This class provides properties inherited by [**Win32\_SecurityDescriptor**](/pre
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: There are five asynchronous operations that are not related to any particular call.
+description: There are five asynchronous operations that are not related to any particular call.
 ms.assetid: d7107834-07e4-40ed-91ea-2e6127597c13
 title: Call-less Asynchronous Operations
 ms.topic: article

@@ -8,10 +8,13 @@ keywords:
 - streams,audio formats
 - audio streams,audio formats
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # To Find Audio Formats
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following example code demonstrates how to find an audio format that matches criteria you specify. The **FindAudioFormat** function accepts a pointer to a [**WAVEFORMATEX**](/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)) structure that contains the number of channels, bits per sample, and sample rate that you want to use. The function finds the format that matches those requirements and has the highest bit rate that does not exceed the *dwMaxRate* parameter. If you set *fAVSync* to **TRUE**, the function only validates formats that can be synchronized with video. For simplicity, this function only works with 1-pass CBR formats.
 

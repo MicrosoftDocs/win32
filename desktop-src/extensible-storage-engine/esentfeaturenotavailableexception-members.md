@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFeatureNotAvailableException members"
 title: EsentFeatureNotAvailableException members
 TOCTitle: EsentFeatureNotAvailableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.FeatureNotAvailable exceptions.
 
-The [EsentFeatureNotAvailableException](dn274291\(v=exchg.10\).md) type exposes the following members.
+The [EsentFeatureNotAvailableException](./esentfeaturenotavailableexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentFeatureNotAvailableException class](dn274291\(v=exchg.10\).md)
+[EsentFeatureNotAvailableException class](./esentfeaturenotavailableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

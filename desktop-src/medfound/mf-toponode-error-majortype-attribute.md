@@ -1,5 +1,5 @@
 ---
-Description: Contains the major media type for a topology node. This attribute is set when the topology fails to load because the correct decoder could not be found.
+description: Contains the major media type for a topology node. This attribute is set when the topology fails to load because the correct decoder could not be found.
 ms.assetid: eb837fe6-12c9-479c-a0be-63b24093e6fd
 title: MF_TOPONODE_ERROR_MAJORTYPE attribute (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

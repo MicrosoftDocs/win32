@@ -1,5 +1,5 @@
 ---
-Description: If this style bit is set the text in the dialog box is displayed in right-to-left-reading order.
+description: If this style bit is set the text in the dialog box is displayed in right-to-left-reading order.
 ms.assetid: bc814954-de4b-4a59-9e17-141460a741e0
 title: RTLRO Dialog Style Bit
 ms.topic: article

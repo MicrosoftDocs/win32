@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherRed(S,float,uint) function
-description: Samples a texture and returns the red component along with status about the operation.
+description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCube::GatherRed(S,float,uint) function
 ms.assetid: 6B298DFD-B996-40F4-9304-AA8283FDEC31
 keywords:
 - GatherRed function HLSL
@@ -15,18 +15,18 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherRed(S,float,uint) function
+# TextureCube::GatherRed(S,float,uint) function
 
-Samples a texture and returns the red component along with status about the operation.
+Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType GatherRed(
-  in  SamplerState S,
-  in  float        Location,
-  out uint         Status
+  in  SamplerState S,
+  in  float3       Location,
+  out uint         Status
 );
 ```
 
@@ -83,7 +83,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -95,6 +95,6 @@ This function is supported for the following types of shaders:
 [**TextureCube**](texturecube.md)
 </dt> </dl>
 
- 
 
- 
+
+

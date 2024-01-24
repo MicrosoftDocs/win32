@@ -1,5 +1,5 @@
 ---
-Description: The following is the complete listing of the publisher configuration file schema.
+description: The following is the complete listing of the publisher configuration file schema.
 ms.assetid: 501151ee-67f5-4127-b048-91ea4a42f9e7
 title: Publisher Configuration File Schema
 ms.topic: article

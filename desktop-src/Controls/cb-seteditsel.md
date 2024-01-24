@@ -34,9 +34,9 @@ This parameter is not used.
 *lParam* \[in\]
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) of *lParam* specifies the starting position. If the **LOWORD** is -1, the selection, if any, is removed.
+The [**LOWORD**](../winmsg/loword.md) of *lParam* specifies the starting position. If the **LOWORD** is -1, the selection, if any, is removed.
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) of *lParam* specifies the ending position. If the **HIWORD** is -1, all text from the starting position to the last character in the edit control is selected.
+The [**HIWORD**](../winmsg/hiword.md) of *lParam* specifies the ending position. If the **HIWORD** is -1, all text from the starting position to the last character in the edit control is selected.
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ The positions are zero-based. The first character of the edit control is in the 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

@@ -50,9 +50,6 @@ The name of the method that received the invalid enumeration value.
 
 </dd> </dl> 
 
-|             |       |
-|-------------|-------|
-| Error Level | Error |
 
 
 

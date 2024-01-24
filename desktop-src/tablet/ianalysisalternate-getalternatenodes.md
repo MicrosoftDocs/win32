@@ -1,5 +1,5 @@
 ---
-Description: Gets the IContextNode objects that are associated with this alternate.
+description: Gets the IContextNode objects that are associated with this alternate.
 ms.assetid: 6dfae9cc-d9d2-44de-b6cf-80bbcd296390
 title: IAnalysisAlternate::GetAlternateNodes method (IACom.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Because they correspond to alternates, these [**IContextNode**](icontextnode.md)
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Some of the system items found in the Control Panel are extensible. To install a Control Panel extension, register your Shell extension as follows, where name is the predefined name of the system item (see table below).
+description: Some of the system items found in the Control Panel are extensible. To install a Control Panel extension, register your Shell extension as follows, where name is the predefined name of the system item (see table below).
 title: Extending System Control Panel Items
 ms.topic: article
 ms.date: 05/31/2018
@@ -32,82 +32,18 @@ This is similar to the way you would register an extension for a predefined Shel
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control Panel item</th>
-<th><em>name</em></th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Display</td>
-<td>Desk</td>
-<td>Also supports replacement of the <strong>Desktop</strong> page.
-<blockquote>
-[!Note]<br />
-This is no longer supported under Windows Vista.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Display Settings Advanced</td>
-<td>Device</td>
-<td>Nonhardware-specific advanced properties.
-<blockquote>
-[!Note]<br />
-This is no longer supported under Windows Vista.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Display Settings Advanced</td>
-<td>Display</td>
-<td>Hardware-specific advanced properties.
-<blockquote>
-[!Note]<br />
-This is no longer supported under Windows Vista.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Internet Options</td>
-<td>Internet</td>
-<td>The maximum number of extension pages is 18.</td>
-</tr>
-<tr class="odd">
-<td>Keyboard</td>
-<td>Keyboard</td>
-<td>The maximum number of extension pages is 30.</td>
-</tr>
-<tr class="even">
-<td>Mouse</td>
-<td>Mouse</td>
-<td>Also supports replacement of standard pages. The maximum number of extension pages is 8.</td>
-</tr>
-<tr class="odd">
-<td>Power Options</td>
-<td>Power</td>
-<td>The maximum number of pages, including standard pages, is 18.</td>
-</tr>
-<tr class="even">
-<td>System</td>
-<td>System</td>
-<td>The maximum number of extension pages is 8.
-<blockquote>
-[!Note]<br />
-This is no longer supported under Windows Vista.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Control Panel item | <em>name</em> | Remarks | 
+|--------------------|---------------|---------|
+| Display | Desk | Also supports replacement of the **Desktop** page. **Note:** This is no longer supported under Windows Vista.<br> | 
+| Display Settings Advanced | Device | Nonhardware-specific advanced properties. **Note:** This is no longer supported under Windows Vista.<br> | 
+| Display Settings Advanced | Display | Hardware-specific advanced properties. **Note:** This is no longer supported under Windows Vista.<br> | 
+| Internet Options | Internet | The maximum number of extension pages is 18. | 
+| Keyboard | Keyboard | The maximum number of extension pages is 30. | 
+| Mouse | Mouse | Also supports replacement of standard pages. The maximum number of extension pages is 8. | 
+| Power Options | Power | The maximum number of pages, including standard pages, is 18. | 
+| System | System | The maximum number of extension pages is 8. **Note:** This is no longer supported under Windows Vista.<br> | 
+
 
 
 

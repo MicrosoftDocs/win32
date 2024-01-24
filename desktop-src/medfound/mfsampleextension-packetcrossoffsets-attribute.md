@@ -1,5 +1,5 @@
 ---
-Description: Specifies the offsets to the payload boundaries in a frame for protected samples.
+description: Specifies the offsets to the payload boundaries in a frame for protected samples.
 ms.assetid: 8aa25afd-efa8-4fe0-92d4-8432f9d633c9
 title: MFSampleExtension_PacketCrossOffsets attribute (Wmcontainer.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                              |

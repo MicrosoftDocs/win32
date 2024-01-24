@@ -1,5 +1,5 @@
 ---
-Description: This section lists topics about XAudio2 audio effects.
+description: This section lists topics about XAudio2 audio effects.
 ms.assetid: edd663db-2893-cef7-ccfa-d84d8bb83ff1
 title: Audio Effects
 ms.topic: article

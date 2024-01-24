@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentStateException constructor"
 title: EsentStateException constructor 
 TOCTitle: 'EsentStateException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentStateException.#ctor
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[EsentStateException class](dn334920\(v=exchg.10\).md)
+[EsentStateException class](./esentstateexception-class.md)
 
-[EsentStateException members](dn334927\(v=exchg.10\).md)
+[EsentStateException members](./esentstateexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -120,7 +120,7 @@ DCE IDL compilers do not support constant expressions. Therefore, this feature i
 
 A previously defined constant can be used as the assigned value of a subsequent constant. The value of a constant integral expression is automatically converted to the respective integer type in accordance with C conversion rules.
 
-The value of a character constant must be a single-quoted ASCII character. When the character constant is the single-quote character itself ('), the backslash character (\) must precede the single-quote character, as in \\'.
+The value of a character constant must be a single-quoted ASCII character. When the character constant is the single-quote character itself ('), the backslash character (\\) must precede the single-quote character, as in \\'.
 
 The value of a character-string constant must be a double-quoted string. Within a string, the backslash (**\\**) character must precede a literal double-quote character ( **"** ), as in **\\"**. Within a string, the backslash character (**\\**) represents an escape character. String constants can consist of up to 255 characters.
 

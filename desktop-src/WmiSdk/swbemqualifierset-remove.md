@@ -1,5 +1,5 @@
 ---
-Description: The Remove method of the SWbemQualifierSet object deletes a named qualifier from the collection.
+description: The Remove method of the SWbemQualifierSet object deletes a named qualifier from the collection.
 ms.assetid: 7d386858-efd1-42e6-9176-9cb4bcfc77d0
 ms.tgt_platform: multiple
 title: SWbemQualifierSet.Remove method (Wbemdisp.h)
@@ -100,7 +100,7 @@ You cannot iterate a collection while removing items because when you remove an 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

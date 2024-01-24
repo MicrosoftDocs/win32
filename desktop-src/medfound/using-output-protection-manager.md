@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Output Protection Manager"
 ms.assetid: 01edc17e-e71c-4772-a03c-09c9a2b8400f
 title: Using Output Protection Manager
 ms.topic: article
@@ -18,7 +19,7 @@ This topic describes how to use Output Protection Manager (OPM) to protect video
 
 Premium video content is usually encrypted to protect it from unauthorized duplication. Of course, the video must be decrypted before it is displayed. The decrypted, uncompressed frames must then travel across a physical connector to the display device. Content providers may require the video frames to be protected at this point, as they travel across the physical connector.
 
-Various protection mechanisms exist for this purpose, including High-Bandwidth Digital Content Protection (HDCP) and DisplayPort Content Protection (DPCP) for digital outputs; and Copy Generation Management System - Analog (CGMS-A) for analog outputs. Generally, these mechanisms involve encrypting or scrambling the signal befores it goes to the display.
+Various protection mechanisms exist for this purpose, including High-Bandwidth Digital Content Protection (HDCP) and DisplayPort Content Protection (DPCP) for digital outputs; and Copy Generation Management System - Analog (CGMS-A) for analog outputs. Generally, these mechanisms involve encrypting or scrambling the signal before it goes to the display.
 
 OPM enables an application to enforce content protection mechanisms on the video output. Using OPM, the application sends commands and status requests to the graphics driver through a trusted, secure channel. OPM enables an application to:
 
@@ -26,7 +27,7 @@ OPM enables an application to enforce content protection mechanisms on the video
 -   Set up a trusted communication channel with the driver.
 -   Enforce content protection mechanisms on the physical output.
 
-OPM replaces Certified Output Protection Protcol (COPP) and uses a similar API. For backward compatibility, the OPM interface can emulate the COPP interface. Differences between OPM and COPP include the following:
+OPM replaces Certified Output Protection Protocol (COPP) and uses a similar API. For backward compatibility, the OPM interface can emulate the COPP interface. Differences between OPM and COPP include the following:
 
 -   OPM uses X.509 certificates, while COPP uses a proprietary certificate format.
 -   OPM supports HDCP repeaters.
@@ -153,43 +154,14 @@ The following flags are defined for **ulStatusFlags**.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Flag</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>OPM_STATUS_LINK_LOST</strong></td>
-<td>Output protection stopped working for some reason; for example, the display device might be unplugged from the conntector. Stop playback and turn off all output protection mechanisms.</td>
-</tr>
-<tr class="even">
-<td><strong>OPM_STATUS_RENEGOTIATION_REQUIRED</strong></td>
-<td>The application must reestablish the OPM session. Respond as follows:
-<ol>
-<li>Stop playback.</li>
-<li>Turn off all protection mechanisms.</li>
-<li>Release the <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput"><strong>IOPMVideoOutput</strong></a> interface.</li>
-<li>Recreate all video surfaces.</li>
-<li>Create a new OPM object and attempt to reestablish content protection. If this fails, display an error message to the user. Do not play any more video content.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong></td>
-<td>This flag applies only when HDCP is used, and indicates the presence of a revoked HDCP device. Stop playback and turn off all protection mechanisms on this video output. When this flag is set, the <strong>OPM_STATUS_LINK_LOST</strong> flag is also set.</td>
-</tr>
-<tr class="even">
-<td><strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong></td>
-<td>The driver has detected tampering. Stop playback, and do not play any more video using this video output. It is also a good idea to stop using any other video outputs, because the system might be compromised.</td>
-</tr>
-</tbody>
-</table>
+
+| Flag | Description | 
+|------|-------------|
+| <strong>OPM_STATUS_LINK_LOST</strong> | Output protection stopped working for some reason; for example, the display device might be unplugged from the connector. Stop playback and turn off all output protection mechanisms. | 
+| <strong>OPM_STATUS_RENEGOTIATION_REQUIRED</strong> | The application must reestablish the OPM session. Respond as follows:<ol><li>Stop playback.</li><li>Turn off all protection mechanisms.</li><li>Release the <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput"><strong>IOPMVideoOutput</strong></a> interface.</li><li>Recreate all video surfaces.</li><li>Create a new OPM object and attempt to reestablish content protection. If this fails, display an error message to the user. Do not play any more video content.</li></ol> | 
+| <strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong> | This flag applies only when HDCP is used, and indicates the presence of a revoked HDCP device. Stop playback and turn off all protection mechanisms on this video output. When this flag is set, the <strong>OPM_STATUS_LINK_LOST</strong> flag is also set. | 
+| <strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong> | The driver has detected tampering. Stop playback, and do not play any more video using this video output. It is also a good idea to stop using any other video outputs, because the system might be compromised. | 
+
 
 
 

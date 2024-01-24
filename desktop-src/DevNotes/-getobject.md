@@ -1,5 +1,5 @@
 ---
-Description: Gets graphics object information.
+description: Gets graphics object information.
 ms.assetid: 352bff43-4271-4dab-8a4e-a5deb1a50ba1
 title: '_GetObject function'
 ms.topic: reference
@@ -43,7 +43,7 @@ int _GetObject(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 

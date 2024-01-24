@@ -1,5 +1,5 @@
 ---
-Description: Sent to the parent window of an owner-drawn control or menu when a visual aspect of the control or menu has changed.
+description: Sent to the parent window of an owner-drawn control or menu when a visual aspect of the control or menu has changed.
 ms.assetid: 2515bbab-025f-4f00-8564-a732d68edea3
 title: DFM_WM_DRAWITEM message (Shlobj.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ Before returning from processing this message, an application should ensure that
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: The Call ID differs from the Session Identifier in two primary ways the service provider assigns it, and it is the same for every application that handles the session.
+description: The Call ID differs from the Session Identifier in two primary ways the service provider assigns it, and it is the same for every application that handles the session.
 ms.assetid: c9d0d43b-3053-4e3e-b442-57942f3448df
 title: Call ID
 ms.topic: article

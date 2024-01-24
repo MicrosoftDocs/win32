@@ -1,12 +1,15 @@
 ---
-Description: This section lists the media types used for MPEG-1 data.
+description: This section lists the media types used for MPEG-1 data.
 ms.assetid: 4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8
 title: MPEG-1 Media Types
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # MPEG-1 Media Types
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This section lists the media types used for MPEG-1 data.
 
@@ -14,7 +17,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                 |
+| Label | Value |
 |-----------------------|-------------------------------------------------|
 | Major type            | MEDIATYPE\_Stream                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1System                       |
@@ -30,7 +33,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                            |
+| Label | Value |
 |-----------------------|----------------------------|
 | Major type            | MEDIATYPE\_Stream          |
 | Subtype               | MEDIASUBTYPE\_MPEG1VideoCD |
@@ -46,7 +49,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                |
+| Label | Value |
 |-----------------------|------------------------------------------------|
 | Major type            | MEDIATYPE\_Audio                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1Packet                      |
@@ -62,7 +65,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                            |
+| Label | Value |
 |-----------------------|--------------------------------------------|
 | Major type            | MEDIATYPE\_Audio                           |
 | Subtype               | MEDIASUBTYPE\_MPEG1Payload                 |
@@ -78,7 +81,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                |
+| Label | Value |
 |-----------------------|------------------------------------------------|
 | Major type            | MEDIATYPE\_Video                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1Packet                      |
@@ -94,7 +97,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                          |
+| Label | Value |
 |-----------------------|------------------------------------------|
 | Major type            | MEDIATYPE\_Video                         |
 | Subtype               | MEDIASUBTYPE\_MPEG1Payload               |
@@ -110,7 +113,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                |
+| Label | Value |
 |-----------------------|------------------------------------------------|
 | Major type            | MEDIATYPE\_Stream                              |
 | Subtype               | MEDIASUBTYPE\_ MPEG1Video                      |
@@ -126,7 +129,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                |
+| Label | Value |
 |-----------------------|------------------------------------------------|
 | Major type            | MEDIATYPE\_Stream                              |
 | Subtype               | MEDIASUBTYPE\_ MPEG1Audio                      |

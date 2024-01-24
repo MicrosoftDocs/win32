@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStateException constructor (String, JET_err)"
 title: EsentStateException constructor (String, JET_err)
 TOCTitle: EsentStateException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStateException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentStateException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,7 @@ protected EsentStateException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +71,10 @@ protected EsentStateException(
 
 #### Reference
 
-[EsentStateException class](dn334920\(v=exchg.10\).md)
+[EsentStateException class](./esentstateexception-class.md)
 
-[EsentStateException members](dn334927\(v=exchg.10\).md)
+[EsentStateException members](./esentstateexception-members.md)
 
-[EsentStateException overload](dn334862\(v=exchg.10\).md)
+[EsentStateException overload](./esentstateexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

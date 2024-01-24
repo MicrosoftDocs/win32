@@ -1,5 +1,5 @@
 ---
-Description: Thumbnails and Previews
+description: Thumbnails and Previews
 ms.assetid: e45f025e-a1ac-47c8-b794-ab1402ab35fb
 title: Thumbnails and Previews
 ms.topic: article

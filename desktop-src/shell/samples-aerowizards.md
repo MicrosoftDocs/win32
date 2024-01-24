@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to migrate Wizard 97 software to the Aero Wizard.
+description: Demonstrates how to migrate Wizard 97 software to the Aero Wizard.
 title: Aero Wizards Sample
 ms.topic: article
 ms.date: 05/31/2018

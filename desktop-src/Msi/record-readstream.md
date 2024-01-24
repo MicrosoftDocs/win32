@@ -1,5 +1,5 @@
 ---
-Description: The ReadStream method of the Record object reads a specified number of bytes from a record field that contains stream data.
+description: The ReadStream method of the Record object reads a specified number of bytes from a record field that contains stream data.
 ms.assetid: 845e23e5-6379-4592-aee4-cd6832baf335
 title: Record.ReadStream method
 ms.topic: reference
@@ -84,7 +84,7 @@ For an example of this method, see [Copy ANSI File Into a Database Field](copy-a
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

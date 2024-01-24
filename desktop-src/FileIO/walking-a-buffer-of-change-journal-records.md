@@ -1,5 +1,5 @@
 ---
-Description: How to return change journal records that meet specified criteria.
+description: How to return change journal records that meet specified criteria.
 ms.assetid: 8946adb5-da47-4711-8800-86f323081c4c
 title: Walking a Buffer of Change Journal Records
 ms.topic: article

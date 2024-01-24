@@ -1,6 +1,6 @@
 ---
 title: INapEnforcementClientConnection SetFlags method (NapEnforcementClient.h)
-description: Is used to differentiate first-time responses from responses due to SoHRequests cached by the enforcers.
+description: Is used to differentiate first-time responses from responses due to SoHRequests cached by the enforcers. | INapEnforcementClientConnection SetFlags method (NapEnforcementClient.h)
 ms.assetid: 2f35bcdf-662c-431f-a39e-a7c758f35603
 keywords:
 - SetFlags method NAP
@@ -73,7 +73,7 @@ This value is set by the NapAgent.
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |

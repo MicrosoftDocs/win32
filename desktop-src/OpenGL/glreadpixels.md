@@ -139,25 +139,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *format* was GL\_DEPTH\_COMPONENT, and there was no depth buffer.<br/>                                                          |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
 
-
-
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *format* or *type* was not an accepted value.<br/>                                                                              |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | Either *width* or *height* was negative.<br/>                                                                                   |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *format* was GL\_COLOR\_INDEX, and the color buffers stored RGBA or BGRA color components.<br/>                                 |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *format* was GL\_STENCIL\_INDEX, and there was no stencil buffer.<br/>                                                          |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *format* was GL\_DEPTH\_COMPONENT, and there was no depth buffer.<br/>                                                          |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glReadPixels** function returns pixel data from the framebuffer, starting with the pixel whose lower-left corner is at location (*x*, *y*), into client memory starting at location *pixels*. Several parameters control the processing of the pixel data before it is placed into client memory. These parameters are set with three commands: [**glPixelStore**](glpixelstore-functions.md), [**glPixelTransfer**](glpixeltransfer.md), and [**glPixelMap**](glpixelmap.md). This topic describes the effects on **glReadPixels** of most, but not all of the parameters specified by these three commands.
@@ -184,7 +165,7 @@ The following function retrieves information related to **glReadPixels**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

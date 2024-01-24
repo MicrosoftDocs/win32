@@ -1,5 +1,5 @@
 ---
-Description: Lists the 4D vector transformation functions.
+description: Lists the 4D vector transformation functions.
 ms.assetid: 25fada4c-0ddc-0b79-9b8a-e9edfefce19a
 title: DirectXMath Library 4D vector transformation functions
 ms.topic: reference

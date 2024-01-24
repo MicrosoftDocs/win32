@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the applications callback interface for the IMFBufferListNotify interface for the active buffer list.
+description: Contains a pointer to the applications callback interface for the IMFBufferListNotify interface for the active buffer list.
 ms.assetid: 703A7BF0-A89F-40E9-9440-B8C8E03FDE1A
 title: MF_MSE_ACTIVELIST_CALLBACK attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Contains a pointer to the application's callback interface for the [**IMFBufferL
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

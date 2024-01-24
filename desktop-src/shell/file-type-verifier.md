@@ -1,5 +1,5 @@
 ---
-Description: The File Type Verifier is a tool that enables independent software vendors (ISVs) to verify that their unique file types are implemented correctly.
+description: The File Type Verifier is a tool that enables independent software vendors (ISVs) to verify that their unique file types are implemented correctly.
 ms.assetid: 1BD7452B-2DF5-44e9-9B09-C29ABFFA5F93
 title: File Type Verifier
 ms.topic: article

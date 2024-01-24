@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDisabledFunctionalityException members"
 title: EsentDisabledFunctionalityException members
 TOCTitle: EsentDisabledFunctionalityException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDisabledFunctionalityException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DisabledFunctionality exceptions.
 
-The [EsentDisabledFunctionalityException](dn274277\(v=exchg.10\).md) type exposes the following members.
+The [EsentDisabledFunctionalityException](./esentdisabledfunctionalityexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDisabledFunctionalityException class](dn274277\(v=exchg.10\).md)
+[EsentDisabledFunctionalityException class](./esentdisabledfunctionalityexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

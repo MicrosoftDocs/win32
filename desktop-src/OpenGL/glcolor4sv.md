@@ -1,6 +1,6 @@
 ---
 title: glColor4sv function (Gl.h)
-description: Sets the current color from an already existing array of color values.
+description: Sets the current color from an already existing array of color values. | glColor4sv function (Gl.h)
 ms.assetid: 4fd846b2-b0e7-49ac-988b-0f67537ab0b3
 keywords:
 - glColor4sv function OpenGL
@@ -60,7 +60,7 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

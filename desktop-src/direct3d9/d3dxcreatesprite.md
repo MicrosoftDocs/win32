@@ -1,5 +1,5 @@
 ---
-Description: Creates a sprite object which is associated with a particular device. Sprite objects are used to draw 2D images to the screen.
+description: Creates a sprite object which is associated with a particular device. Sprite objects are used to draw 2D images to the screen.
 ms.assetid: 1611073f-0590-415a-8ea5-dc1d224f20b9
 title: D3DXCreateSprite function (D3dx9core.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ This interface can be used to draw two dimensional images in screen space of the
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

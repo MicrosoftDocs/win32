@@ -38,11 +38,9 @@ req.redist:
 
 ## Description
 
-An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
-The system calls this function whenever an application calls the [GetMessage](/windows/desktop/api/winuser/nf-winuser-getmessage) or [PeekMessage](/windows/desktop/api/winuser/nf-winuser-peekmessagew) function and there is a mouse message to be processed.
+An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The system calls this function whenever an application calls the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function and there is a mouse message to be processed.
 
-The **HOOKPROC** type defines a pointer to this callback function.
-**MouseProc** is a placeholder for the application-defined or library-defined function name.
+The **HOOKPROC** type defines a pointer to this callback function. *MouseProc* is a placeholder for the application-defined or library-defined function name.
 
 ```cpp
 LRESULT CALLBACK MouseProc(
@@ -59,7 +57,9 @@ LRESULT CALLBACK MouseProc(
 Type: **int**
 
 A code that the hook procedure uses to determine how to process the message.
-If *nCode* is less than zero, the hook procedure must pass the message to the [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
+
+If *nCode* is less than zero, the hook procedure must pass the message to the [**CallNextHookEx**](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
+
 This parameter can be one of the following values.
 
 | Value | Meaning |
@@ -83,20 +83,19 @@ A pointer to a [MOUSEHOOKSTRUCT](/windows/desktop/api/winuser/ns-winuser-mouseho
 
 Type: **LRESULT**
 
-If *nCode* is less than zero, the hook procedure must return the value returned by **CallNextHookEx**.
+If *nCode* is less than zero, the hook procedure must return the value returned by [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex).
 
 If *nCode* is greater than or equal to zero, and the hook procedure did not process the message, it is highly recommended that you call **CallNextHookEx** and return the value it returns; otherwise, other applications that have installed [WH_MOUSE](about-hooks.md) hooks will not receive hook notifications and may behave incorrectly as a result.
+
 If the hook procedure processed the message, it may return a nonzero value to prevent the system from passing the message to the target window procedure.
 
 ## Remarks
 
-An application installs the hook procedure by specifying the WH_MOUSE hook type and a pointer to the hook procedure in a call to the **SetWindowsHookEx** function.
+An application installs the hook procedure by specifying the [**WH_MOUSE**](/windows/win32/winmsg/about-hooks) hook type and a pointer to the hook procedure in a call to the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function.
 
-The hook procedure must not install a [WH_JOURNALPLAYBACK](about-hooks.md) callback function.
+The hook procedure must not install a [**WH_JOURNALPLAYBACK**](/windows/win32/winmsg/about-hooks) callback function.
 
-This hook may be called in the context of the thread that installed it.
-The call is made by sending a message to the thread that installed the hook.
-Therefore, the thread that installed the hook must have a message loop.
+This hook may be called in the context of the thread that installed it. The call is made by sending a message to the thread that installed the hook. Therefore, the thread that installed the hook must have a message loop.
 
 ## See also
 

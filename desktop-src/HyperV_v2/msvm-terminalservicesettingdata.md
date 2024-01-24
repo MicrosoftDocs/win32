@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings for the virtual computer terminal services on a host.
+description: Represents the settings for the virtual computer terminal services on a host.
 ms.assetid: 1f8d0718-09da-4231-95eb-cc63b6f324dd
 title: Msvm_TerminalServiceSettingData class
 ms.topic: reference
@@ -188,7 +188,7 @@ The list of trusted issuer certificate hashes for verifying the signature of fed
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

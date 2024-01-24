@@ -1,5 +1,5 @@
 ---
-Description: A window device context enables an application to draw anywhere in a window, including the nonclient area.
+description: A window device context enables an application to draw anywhere in a window, including the nonclient area.
 ms.assetid: 7b3c6352-51d5-4fdf-82c2-7a28194f607f
 title: Window Display Device Contexts
 ms.topic: article

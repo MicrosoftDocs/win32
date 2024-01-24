@@ -1,5 +1,5 @@
 ---
-Description: This section contains the core functions for Tablet PC.
+description: This section contains the core functions for Tablet PC.
 ms.assetid: 8f94a82c-de93-4649-a9b5-0adcbe01333d
 title: Core Tablet PC Functions
 ms.topic: article

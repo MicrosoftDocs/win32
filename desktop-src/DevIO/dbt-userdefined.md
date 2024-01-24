@@ -1,5 +1,5 @@
 ---
-Description: The DBT\_USERDEFINED device event identifies a user-defined event.
+description: The DBT\_USERDEFINED device event identifies a user-defined event.
 ms.assetid: b42feda9-5fe7-4e54-aad9-28c61d2f29b6
 title: DBT_USERDEFINED event (Dbt.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ Return **TRUE**.
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                   |

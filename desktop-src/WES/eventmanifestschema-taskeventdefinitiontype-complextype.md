@@ -1,6 +1,6 @@
 ---
 title: TaskEventDefinitionType Complex Type
-description: Defines a task-specific event that your provider can log.
+description: Defines a task-specific event that your provider can log. | TaskEventDefinitionType Complex Type
 ms.assetid: f0329728-e7b5-4161-a30f-78b81a7b6812
 keywords:
 - TaskEventDefinitionType complex type EventLog
@@ -78,7 +78,7 @@ Defines a task-specific event that your provider can log.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

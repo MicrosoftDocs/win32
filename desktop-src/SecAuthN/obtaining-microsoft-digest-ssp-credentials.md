@@ -1,5 +1,5 @@
 ---
-Description: User credentials are required by Microsoft Digest; both client and server must present valid credentials before they can establish a security context for message exchange. Credentials handles are used to obtain and present credentials.
+description: User credentials are required by Microsoft Digest; both client and server must present valid credentials before they can establish a security context for message exchange. Credentials handles are used to obtain and present credentials.
 ms.assetid: f97bdaf6-40a8-414e-a561-d3cb953d0bab
 title: Obtaining Microsoft Digest SSP Credentials
 ms.topic: article

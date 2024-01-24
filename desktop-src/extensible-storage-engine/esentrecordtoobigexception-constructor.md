@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigException constructor"
 title: EsentRecordTooBigException constructor 
 TOCTitle: 'EsentRecordTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecordTooBigException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentRecordTooBigException()
 
 #### Reference
 
-[EsentRecordTooBigException class](dn319857\(v=exchg.10\).md)
+[EsentRecordTooBigException class](./esentrecordtoobigexception-class.md)
 
-[EsentRecordTooBigException members](dn319859\(v=exchg.10\).md)
+[EsentRecordTooBigException members](./esentrecordtoobigexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

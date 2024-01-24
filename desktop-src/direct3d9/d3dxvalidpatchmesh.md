@@ -1,5 +1,5 @@
 ---
-Description: Validates a patch mesh, returning the number of degenerate vertices and patches.
+description: Validates a patch mesh, returning the number of degenerate vertices and patches.
 ms.assetid: a95ff9d9-d476-42ac-8d7e-1dc42418f763
 title: D3DXValidPatchMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ This method validates the mesh by checking for invalid indices. Error informatio
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

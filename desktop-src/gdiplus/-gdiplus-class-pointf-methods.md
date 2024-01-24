@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the PointF class. For a complete class listing, see PointF Class.
+description: This topic lists the methods of the PointF class. For a complete class listing, see PointF Class.
 ms.assetid: 5840b082-9985-4749-a8d9-1ab98e5950eb
 title: PointF Methods
 ms.topic: reference

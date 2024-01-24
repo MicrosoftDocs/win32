@@ -1,5 +1,5 @@
 ---
-Description: The compatibility infrastructure uses a database to identify application compatibility issues and their solutions.
+description: The compatibility infrastructure uses a database to identify application compatibility issues and their solutions.
 ms.assetid: 3b35b758-18ca-40dd-8882-35d9b458264c
 title: Application Compatibility Database
 ms.topic: article

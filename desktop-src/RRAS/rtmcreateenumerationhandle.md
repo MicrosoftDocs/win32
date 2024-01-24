@@ -96,7 +96,7 @@ If the function fails, or no routes exist with the specified criteria, the retur
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

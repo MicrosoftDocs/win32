@@ -1,12 +1,12 @@
 ---
-Description: All item objects have properties.
+description: All item objects have properties.
 ms.assetid: 00e04790-e319-41b3-b88f-8064912b91b1
 title: Property Attributes (WIA)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Property Attributes
+# Property Attributes (WIA)
 
 All item objects have properties. The properties have attributes. For instance, property attributes indicate whether a property is read from, written to, or deleted. They also indicate the valid property values. The following constants are valid property attributes: 
 

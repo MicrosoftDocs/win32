@@ -1,5 +1,5 @@
 ---
-Description: Requests an endpoint that is used to connect to a service.
+description: Requests an endpoint that is used to connect to a service.
 ms.assetid: 4C02EA78-AD77-42CD-B94F-C8C3ED26CB4C
 title: IUpdateEndpointProvider::GetServiceEndpoint method (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ A client-server endpoint that is used to connect to the update service.
 
 </dt> <dd>
 
-A Reporting endpoint that is used used when the client reports the results of scans, downloads, and installs back to the update service
+A Reporting endpoint that is used when the client reports the results of scans, downloads, and installs back to the update service
 
 </dd> <dt>
 
@@ -106,7 +106,7 @@ A Regulation endpoint that is used when the client computer contacts the regulat
 
 </dt> <dd>
 
-A Simple-Targeting endoint that is used only with private services (WSUS servers in corporate environments).
+A Simple-Targeting endpoint that is used only with private services (WSUS servers in corporate environments).
 
 </dd> </dl> </dd> <dt>
 
@@ -134,7 +134,7 @@ Indicates weather WUA requests a new token. True indicates that a new token is r
 *pbstrEndpointLoc* \[out\]
 </dt> <dd>
 
-Specify the URL used to communicate with the service. For example, for a cleint-server endpoint this would be the URL to the client server service. See Remarks for more information.
+Specify the URL used to communicate with the service. For example, for a client-server endpoint this would be the URL to the client server service. See Remarks for more information.
 
 </dd> </dl>
 
@@ -144,7 +144,7 @@ Returns **S\_OK** if successful. Otherwise, returns a COM or Windows error code.
 
 ## Remarks
 
-WUA typically sets the *fRefreshOnline* parameter to false when this method is first called, then if a connection error occures WUA sets that parameter to true when the method is called again. However, the implementation of this method can request a new token from a Security Token Service (STS) or provide a cached token at any time.
+WUA typically sets the *fRefreshOnline* parameter to false when this method is first called, then if a connection error occurs WUA sets that parameter to true when the method is called again. However, the implementation of this method can request a new token from a Security Token Service (STS) or provide a cached token at any time.
 
 If the endpoint does not need authentication, then the caller can connect to the service using only the URL specified by the *pbstrEndpointLoc* parameter.
 
@@ -154,7 +154,7 @@ If the endpoint does need authentication, then the caller can use the URL specif
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>                |

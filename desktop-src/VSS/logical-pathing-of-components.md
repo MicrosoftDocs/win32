@@ -1,5 +1,5 @@
 ---
-Description: Logical pathing is used to organize components managed by a writer into well-defined groups.
+description: Logical pathing is used to organize components managed by a writer into well-defined groups.
 ms.assetid: 663c8ca9-8f5b-48bd-af2d-b2d90de9e492
 title: Logical Pathing of Components
 ms.topic: article

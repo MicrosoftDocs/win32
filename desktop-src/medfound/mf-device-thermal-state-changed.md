@@ -1,5 +1,5 @@
 ---
-Description: Represents an event that signals a thermal state change in the device.
+description: Represents an event that signals a thermal state change in the device.
 ms.assetid: 7F656E64-CE72-4DF8-9094-1EBBAE3A81E5
 title: MF_DEVICE_THERMAL_STATE_CHANGED attribute (Mfapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The value of this attribute specifies the device thermal value in percentage.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

@@ -22,7 +22,7 @@ Backward link from Az-Operation to Az-Role objects that link to it.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Operations-For-Az-Role-BL         |
 | Ldap-Display-Name | msDS-OperationsForAzRoleBL              |
@@ -47,7 +47,7 @@ Backward link from Az-Operation to Az-Role objects that link to it.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2023                            |
 | MAPI-Id                | \-                              |
@@ -68,7 +68,7 @@ Backward link from Az-Operation to Az-Role objects that link to it.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2023                            |
 | MAPI-Id                | \-                              |
@@ -89,7 +89,7 @@ Backward link from Az-Operation to Az-Role objects that link to it.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2023                            |
 | MAPI-Id                | \-                              |
@@ -110,7 +110,7 @@ Backward link from Az-Operation to Az-Role objects that link to it.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2023                            |
 | MAPI-Id                | \-                              |
@@ -131,7 +131,7 @@ Backward link from Az-Operation to Az-Role objects that link to it.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2023                            |
 | MAPI-Id                | \-                              |

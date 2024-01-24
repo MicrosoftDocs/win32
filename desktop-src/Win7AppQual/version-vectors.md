@@ -1,5 +1,5 @@
 ---
-Description: A version vector processes conditional comments in an HTML webpage. That is, version vectors enable you to create markup based on the browser version.
+description: A version vector processes conditional comments in an HTML webpage. That is, version vectors enable you to create markup based on the browser version.
 ms.assetid: 526080CD-CE76-48B8-AEBC-6A135FD95BB0
 title: Version Vectors
 ms.topic: article

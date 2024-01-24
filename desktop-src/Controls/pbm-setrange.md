@@ -34,13 +34,13 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the minimum range value, and the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the maximum range value. The minimum range value must not be negative. By default, the minimum value is zero. The maximum range value must be greater than the minimum range value. By default, the maximum range value is 100.
+The [**LOWORD**](../winmsg/loword.md) specifies the minimum range value, and the [**HIWORD**](../winmsg/hiword.md) specifies the maximum range value. The minimum range value must not be negative. By default, the minimum value is zero. The maximum range value must be greater than the minimum range value. By default, the maximum range value is 100.
 
 </dd> </dl>
 
 ## Return value
 
-Returns the previous range values if successful, or zero otherwise. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the previous minimum value, and the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the previous maximum value.
+Returns the previous range values if successful, or zero otherwise. The [**LOWORD**](../winmsg/loword.md) specifies the previous minimum value, and the [**HIWORD**](../winmsg/hiword.md) specifies the previous maximum value.
 
 ## Remarks
 
@@ -52,7 +52,7 @@ To set a larger range, call [**PBM\_SETRANGE32**](pbm-setrange32.md).
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

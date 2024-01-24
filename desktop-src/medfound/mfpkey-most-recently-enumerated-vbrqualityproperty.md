@@ -1,5 +1,5 @@
 ---
-Description: Specifies the VBR quality level of the most recently enumerated output type.
+description: Specifies the VBR quality level of the most recently enumerated output type.
 ms.assetid: 7d67e41f-060b-49a1-9e17-5db081ef4210
 title: MFPKEY_MOST_RECENT_ENUMERATED_VBRQUALITY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ When the encoder is acting as an Media Foundation Transform (MFT) and it enumera
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Secures the volume's encryption key by using the Trusted Platform Module (TPM) on the computer, if available, enhanced by both a user-specified personal identification number (PIN) and by an external key that must be presented to the computer at startup.
+description: Secures the volume's encryption key by using the Trusted Platform Module (TPM) on the computer, if available, enhanced by both a user-specified personal identification number (PIN) and by an external key that must be presented to the computer at startup.
 ms.assetid: 8991c22c-1e36-415e-a82b-c5ddf9c3b24a
 title: ProtectKeyWithTPMAndPINAndStartupKey method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -170,7 +170,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise with SP1, Windows Vista Ultimate with SP1 \[desktop apps only\]<br/>     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

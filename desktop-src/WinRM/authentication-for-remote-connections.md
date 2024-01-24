@@ -18,7 +18,7 @@ Windows Remote Management maintains security for communication between computers
 
 ## Default Group Access
 
-During setup, WinRM creates the local group **WinRMRemoteWMIUsers\_\_**. WinRM then restricts remote access to any user that is not a member of either the local administration group or the **WinRMRemoteWMIUsers\_\_** group. You can add a local user, domain user, or domain group to **WinRMRemoteWMIUsers\_\_** by typing **net localgroup WinRMRemoteWMIUsers\_\_ /add <domain>\\<username>** at the command prompt. Optionally, you can use the Group Policy to add a user to the group.
+During setup, WinRM creates the local group **WinRMRemoteWMIUsers\_\_**. WinRM then restricts remote access to any user that is not a member of either the local administration group or the **WinRMRemoteWMIUsers\_\_** group. You can add a local user, domain user, or domain group to **WinRMRemoteWMIUsers\_\_** by typing **net localgroup WinRMRemoteWMIUsers\_\_ /add &lt;domain&gt;\\&lt;username&gt;** at the command prompt. Optionally, you can use the Group Policy to add a user to the group.
 
 ## Default Authentication Settings
 

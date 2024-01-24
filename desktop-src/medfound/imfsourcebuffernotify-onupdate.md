@@ -1,5 +1,5 @@
 ---
-Description: Used to indicate that the source buffer is updating.
+description: Used to indicate that the source buffer is updating.
 ms.assetid: 3c41f50f-7f0b-4676-9522-3866aedab047
 title: IMFSourceBufferNotify::OnUpdate method
 ms.topic: reference
@@ -40,7 +40,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

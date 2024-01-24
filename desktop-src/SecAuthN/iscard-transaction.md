@@ -1,5 +1,5 @@
 ---
-Description: Executes a write and read operation on the smart card command (application protocol data unit) object.
+description: Executes a write and read operation on the smart card command (application protocol data unit) object.
 ms.assetid: 4dc8ed56-97e0-4c05-a70a-ea2ffd976d47
 title: ISCard::Transaction method (Scardmgr.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

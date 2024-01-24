@@ -1,5 +1,5 @@
 ---
-Description: Specifies the size of the destination window for video playback.
+description: Specifies the size of the destination window for video playback.
 ms.assetid: 46af4c11-042c-4580-ba9d-3aee6172de56
 title: MF_TOPOLOGY_PLAYBACK_MAX_DIMS attribute (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

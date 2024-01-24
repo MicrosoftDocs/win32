@@ -1,5 +1,5 @@
 ---
-Description: Associates a virtual system with a snapshot that was captured from the virtual system.
+description: Associates a virtual system with a snapshot that was captured from the virtual system.
 ms.assetid: CF1C1C04-02BC-4AC3-8327-FEE54ECE8541
 title: Msvm_SnapshotOfVirtualSystem class
 ms.topic: reference
@@ -76,7 +76,7 @@ A reference to an instance of the [**Msvm\_VirtualSystemSettingData**](msvm-virt
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

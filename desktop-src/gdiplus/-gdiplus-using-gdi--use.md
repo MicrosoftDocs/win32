@@ -1,5 +1,5 @@
 ---
-Description: 'The following topics describe how to use the GDI+ API with the C++ programming language:'
+description: 'The following topics describe how to use the GDI+ API with the C++ programming language:'
 ms.assetid: 659881f3-ada3-4731-95b9-2ef7a8a445a9
 title: Using GDI+
 ms.topic: article

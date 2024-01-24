@@ -1,5 +1,5 @@
 ---
-Description: The XMUINT3 structure exposes the following operators.
+description: The XMUINT3 structure exposes the following operators.
 ms.assetid: 6e732b64-9926-4949-9292-c3ac3a553967
 title: XMUINT3 Operators
 ms.topic: reference

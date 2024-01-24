@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Device and Driver Installation Reference
 
-## 
 
 ## In this section
 

@@ -1,5 +1,5 @@
 ---
-Description: The ISearchCompletedCallback interface defines the following method.
+description: The ISearchCompletedCallback interface defines the following method.
 ms.assetid: cb65a106-2cf7-4544-96cb-47481dc81111
 title: ISearchCompletedCallback Methods
 ms.topic: reference

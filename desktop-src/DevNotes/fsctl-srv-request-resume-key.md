@@ -1,5 +1,5 @@
 ---
-Description: The FSCTL\_SRV\_REQUEST\_RESUME\_KEY control code is used to retrieve an opaque file reference for use with the IOCTL\_COPYCHUNK control code.
+description: The FSCTL\_SRV\_REQUEST\_RESUME\_KEY control code is used to retrieve an opaque file reference for use with the IOCTL\_COPYCHUNK control code.
 ms.assetid: a6e0d253-5beb-4de8-8c40-d004f5794d47
 title: FSCTL_SRV_REQUEST_RESUME_KEY control code
 ms.topic: reference

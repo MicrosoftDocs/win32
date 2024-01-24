@@ -1,5 +1,5 @@
 ---
-Description: Controls the signaling of MFSampleExtension\_MeanAbsoluteDifference through IMFAttribute on each output sample.
+description: Controls the signaling of MFSampleExtension\_MeanAbsoluteDifference through IMFAttribute on each output sample.
 ms.assetid: 61C0F431-FBF5-4B17-8F3A-0F6AD2BA33B7
 title: CODECAPI_AVEncVideoMeanAbsoluteDifference property (Codecapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The default value should be 0.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                               |

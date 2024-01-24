@@ -1,5 +1,5 @@
 ---
-Description: Contains information identifying the adapter.
+description: Contains information identifying the adapter.
 ms.assetid: d0d59df9-c512-4d69-b0a0-7d87d7a380f6
 title: D3DADAPTER_IDENTIFIER9 structure (D3D9Types.h)
 ms.topic: reference
@@ -27,9 +27,12 @@ typedef struct D3DADAPTER_IDENTIFIER9 {
   char          Driver[MAX_DEVICE_IDENTIFIER_STRING];
   char          Description[MAX_DEVICE_IDENTIFIER_STRING];
   char          DeviceName[32];
+#ifdef _WIN32
   LARGE_INTEGER DriverVersion;
+#else
   DWORD         DriverVersionLowPart;
   DWORD         DriverVersionHighPart;
+#endif
   DWORD         VendorId;
   DWORD         DeviceId;
   DWORD         SubSysId;
@@ -81,7 +84,7 @@ Device name for GDI.
 **DriverVersion**
 </dt> <dd>
 
-Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer~r1)**
+Type: **[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)**
 
 </dd> <dd>
 
@@ -177,9 +180,8 @@ Used to determine the Windows Hardware Quality Labs (WHQL) validation level for 
 
 
 
-|       |                                               |
+| Bits  |  Description                                             |
 |-------|-----------------------------------------------|
-| Bits  |                                               |
 | 31-16 | The year, a decimal number from 1999 upwards. |
 | 15-8  | The month, a decimal number from 1 to 12.     |
 | 7-0   | The day, a decimal number from 1 to 31.       |
@@ -192,7 +194,7 @@ The following values are also used.
 
 
 
-|     |                                                       |
+| Value    |  Description                                                     |
 |-----|-------------------------------------------------------|
 | 0   | Not certified.                                        |
 | 1   | WHQL validated, but no date information is available. |
@@ -238,7 +240,7 @@ The VendorId, DeviceId, SubSysId, and Revision members can be used in tandem to 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

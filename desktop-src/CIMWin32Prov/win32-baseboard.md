@@ -1,5 +1,5 @@
 ---
-Description: Represents a baseboard, which is also known as a motherboard or system board.
+description: Represents a baseboard, which is also known as a motherboard or system board.
 ms.assetid: 04ac7522-8b99-4ffc-9f7d-d1225f55a862
 ms.tgt_platform: multiple
 title: Win32_BaseBoard class
@@ -709,10 +709,6 @@ The **Win32\_BaseBoard** class is derived from [**CIM\_Card**](cim-card.md) whic
 
 ## Examples
 
-The [List Computer Baseboard Properties](https://Gallery.TechNet.Microsoft.Com/932346d8-4a23-4dac-bdbd-01fc14d526f8) Perl sample returns information about the computer baseboard.
-
-The [List Computer Baseboard Properties](https://Gallery.TechNet.Microsoft.Com/359772a2-c70e-45e9-bdad-f79efe2420a9) PowerShell sample returns information about the computer baseboard.
-
 The following VBScript sample also returns information about the computer baseboard.
 
 
@@ -763,7 +759,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The TAPI DLLs, along with the TAPI Server (Tapisvr.exe), are crucial abstractions separating end-user or server applications from service providers. A TAPI DLL in conjunction with the TAPI Server provides a consistent interface between these two layers.
+description: The TAPI DLLs, along with the TAPI Server (Tapisvr.exe), are crucial abstractions separating end-user or server applications from service providers. A TAPI DLL in conjunction with the TAPI Server provides a consistent interface between these two layers.
 ms.assetid: 17937bf1-e0bd-4845-9484-d23190807642
 title: TAPI DLL
 ms.topic: article

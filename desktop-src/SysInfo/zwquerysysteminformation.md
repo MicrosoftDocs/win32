@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the specified system information.
+description: Retrieves the specified system information.
 ms.assetid: c91b9a35-ca2b-4d81-973d-fe709144df90
 title: ZwQuerySystemInformation function
 ms.topic: reference
@@ -410,7 +410,7 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

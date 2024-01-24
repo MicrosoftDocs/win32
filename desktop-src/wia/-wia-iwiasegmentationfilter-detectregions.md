@@ -1,5 +1,5 @@
 ---
-Description: Determines the sub-regions of an image laid out on the flatbed platen so that each of sub-region can be acquired into a separate image item.
+description: Determines the sub-regions of an image laid out on the flatbed platen so that each of sub-region can be acquired into a separate image item.
 ms.assetid: 899d61f0-2dd8-4a68-827e-89e85ebb5143
 title: IWiaSegmentationFilter::DetectRegions method (Wia.h)
 ms.topic: reference
@@ -212,7 +212,7 @@ DownloadPreviewImage(
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

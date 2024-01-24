@@ -1,5 +1,5 @@
 ---
-Description: Gets an object that represents the parent of the current object.
+description: Gets an object that represents the parent of the current object.
 ms.assetid: 76c2f72c-5ef6-4f2c-bdfc-62ced6dbc504
 title: Shell.Parent property (Shldisp.h)
 ms.topic: reference
@@ -119,7 +119,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

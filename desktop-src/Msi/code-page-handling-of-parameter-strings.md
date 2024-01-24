@@ -1,5 +1,5 @@
 ---
-Description: You can add localization information to an installation database by using a database table editor such as Orca that is provided with the Windows Installer SDK, or by calling the Database Functions from an application.
+description: You can add localization information to an installation database by using a database table editor such as Orca that is provided with the Windows Installer SDK, or by calling the Database Functions from an application.
 ms.assetid: cc1eb336-5dec-40cc-8aa5-564cd167855d
 title: Code Page Handling of Parameter Strings
 ms.topic: article

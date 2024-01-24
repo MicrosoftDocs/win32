@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.BusinessAddress2Country
 ms.assetid: 55ead258-7b5d-4df8-bf47-ad907d39d3fd
 title: System.Contact.BusinessAddress2Country
 ms.topic: article

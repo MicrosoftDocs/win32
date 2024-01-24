@@ -21,7 +21,7 @@ A Uniform Resource Identifier followed by a label. The label is used to describe
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | labeledURI                                  |
 | Ldap-Display-Name | labeledURI                                  |
@@ -46,7 +46,7 @@ A Uniform Resource Identifier followed by a label. The label is used to describe
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -67,7 +67,7 @@ A Uniform Resource Identifier followed by a label. The label is used to describe
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -88,7 +88,7 @@ A Uniform Resource Identifier followed by a label. The label is used to describe
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -109,7 +109,7 @@ A Uniform Resource Identifier followed by a label. The label is used to describe
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -130,7 +130,7 @@ A Uniform Resource Identifier followed by a label. The label is used to describe
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |

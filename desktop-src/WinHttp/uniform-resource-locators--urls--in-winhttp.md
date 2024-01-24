@@ -1,5 +1,5 @@
 ---
-Description: A URL is a compact representation of the location and access method for a resource located on the Internet.
+description: A URL is a compact representation of the location and access method for a resource located on the Internet.
 ms.assetid: 940c414d-274f-475c-a50e-7a0853c3c26b
 title: Uniform Resource Locators (URLs) in WinHTTP
 ms.topic: article

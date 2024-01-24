@@ -1,5 +1,5 @@
 ---
-Description: The SetNumForwardPackets WMI class static method is used to set the number of IP packet headers allocated for the router packet queue. When all headers are in use, the router will begin to discard packets from the queue at random.
+description: The SetNumForwardPackets WMI class static method is used to set the number of IP packet headers allocated for the router packet queue. When all headers are in use, the router will begin to discard packets from the queue at random.
 ms.assetid: cadc7565-4cad-4e0f-a1eb-bf99d333bb28
 ms.tgt_platform: multiple
 title: SetNumForwardPackets method of the Win32_NetworkAdapterConfiguration class
@@ -399,15 +399,11 @@ DHCP not enabled on adapter.
 
 </dd> </dl>
 
-## Examples
-
-The [Modify the Number of Allowed Forward Packets](https://Gallery.TechNet.Microsoft.Com/4123c28e-25c4-444e-818b-67bdbcc0cd4c) VBScript sample configures the number of forward packets allocated to the router packet queue.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

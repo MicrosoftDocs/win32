@@ -1,5 +1,5 @@
 ---
-Description: A decoder-defined GUID that identifies the spatial audio metadata format, notifying downstream components of the metadata object type that the decoder will output.
+description: A decoder-defined GUID that identifies the spatial audio metadata format, notifying downstream components of the metadata object type that the decoder will output.
 ms.assetid: 9714A2C7-25A1-4735-A0AC-22329ECBBC46
 title: MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_FORMAT_ID attribute (Mfapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The metadata blob with the specified format is written using the [**ISpatialAudi
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

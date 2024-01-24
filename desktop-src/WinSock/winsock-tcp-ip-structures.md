@@ -1,5 +1,5 @@
 ---
-Description: The following list provides concise descriptions of each Winsock TCP/IP structure. For additional information on any structure, click the structure name.
+description: The following list provides concise descriptions of each Winsock TCP/IP structure. For additional information on any structure, click the structure name.
 ms.assetid: 9c9a4639-4b51-4e00-b790-a0a5841c6ed3
 title: Winsock TCP/IP Structures
 ms.topic: article

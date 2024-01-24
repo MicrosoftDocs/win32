@@ -49,7 +49,7 @@ A second-order dependent texture instruction is defined as a texture instruction
 
 ### ps\_3\_0
 
-src1 must be a [Sampler (Direct3D 9 asm-ps)](dx9-graphics-reference-asm-ps-registers-sampler.md) (s\#), with no modifier. Swizzle is allowed on src0 or src1. The swizzle is applied to the texture coordintates before texture lookup.
+src1 must be a [Sampler (Direct3D 9 asm-ps)](dx9-graphics-reference-asm-ps-registers-sampler.md) (s\#), with no modifier. Swizzle is allowed on src0 or src1. The swizzle is applied to the texture coordinates before texture lookup.
 
 ## Remarks
 

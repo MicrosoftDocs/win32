@@ -1,5 +1,5 @@
 ---
-Description: Core Audio Enumerations
+description: Core Audio Enumerations
 ms.assetid: 7d25be71-ffbe-4e8c-9a45-cdeb35d10292
 title: Core Audio Enumerations
 ms.topic: article

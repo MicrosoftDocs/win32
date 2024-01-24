@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Media Foundation.
+description: The Microsoft Media Foundation.
 ms.assetid: 4C397139-6553-4707-B737-7C31C5D423BA
 title: MP3 Audio Encoder
 ms.topic: reference
@@ -24,61 +24,16 @@ Set the following attributes on the output media type.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Major type.</td>
-<td>Must be <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Audio subtype.</td>
-<td>Must be <strong>MFAudioFormat_MP3</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
-<td>Bit rate of the encoded MP3 stream, in bytes per second.</td>
-<td>The encoder supports all bit rates defined by the standard (32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, or 320 Kbps).<br/> The default bit rates are 128 Kbps for mono and 320 Kbps for stereo.<br/> Use this attribute to specify the encoded bit rate.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Number of channels.</td>
-<td>The following values are supported:
-<ul>
-<li>1 (mono)</li>
-<li>2 (stereo)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Samples per second.</td>
-<td>The following values are supported:
-<ul>
-<li>48000 (48 KHz)</li>
-<li>44100 (44.1 KHz)</li>
-<li>32000 (32 KHz)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-user-data-attribute.md">MF_MT_USER_DATA</a></td>
-<td>Additional codec data.</td>
-<td>This attribute contains the 12 bytes of the <a href="/windows/desktop/api/mmreg/ns-mmreg-mpeglayer3waveformat"><strong>MPEGLAYER3WAVEFORMAT</strong></a> structure that follow the <strong>wfx</strong> member of that structure.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | Remarks | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Major type. | Must be <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Audio subtype. | Must be <strong>MFAudioFormat_MP3</strong>. | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a> | Bit rate of the encoded MP3 stream, in bytes per second. | The encoder supports all bit rates defined by the standard (32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, or 320 Kbps).<br /> The default bit rates are 128 Kbps for mono and 320 Kbps for stereo.<br /> Use this attribute to specify the encoded bit rate.<br /> | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Number of channels. | The following values are supported:<ul><li>1 (mono)</li><li>2 (stereo)</li></ul> | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Samples per second. | The following values are supported:<ul><li>48000 (48 KHz)</li><li>44100 (44.1 KHz)</li><li>32000 (32 KHz)</li></ul> | 
+| <a href="mf-mt-user-data-attribute.md">MF_MT_USER_DATA</a> | Additional codec data. | This attribute contains the 12 bytes of the <a href="/windows/desktop/api/mmreg/ns-mmreg-mpeglayer3waveformat"><strong>MPEGLAYER3WAVEFORMAT</strong></a> structure that follow the <strong>wfx</strong> member of that structure. | 
+
 
 
 
@@ -112,7 +67,7 @@ The MPEG-1 and MPEG-2 standard defines 252 layer 3 audio formats. The MP3 encode
 
 
 
-|                                  |                                                               |
+| Requirement | Value |
 |----------------------------------|---------------------------------------------------------------|
 | Channels                         | mono or stereo                                                |
 | MPEG-1 sample rates in kHz       | 44.1, 48, 32                                                  |
@@ -161,7 +116,7 @@ The MP3 encoder does not support the following formats defined by the standard.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |

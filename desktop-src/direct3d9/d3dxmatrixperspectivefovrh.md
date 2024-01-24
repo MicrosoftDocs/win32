@@ -1,22 +1,25 @@
 ---
-Description: Builds a right-handed perspective projection matrix based on a field of view.
+description: D3DXMatrixPerspectiveFovRH function (D3dx9math.h) - Builds a right-handed perspective projection matrix based on a field of view.
 ms.assetid: 3f4bc5d8-90af-4fdc-bc0c-931407cd7a9b
 title: D3DXMatrixPerspectiveFovRH function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixPerspectiveFovRH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixPerspectiveFovRH function
+# D3DXMatrixPerspectiveFovRH function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a right-handed perspective projection matrix based on a field of view.
 
@@ -94,6 +97,8 @@ Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) structure that is a right-handed pe
 
 The return value for this function is the same value returned in the *pOut* parameter. In this way, the **D3DXMatrixPerspectiveFovRH** function can be used as a parameter for another function.
 
+To change the aspect ratio axis, use the calculation formula: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspect). Alternatively, add X and Y aspect ratio variables in the structure to scale the vertical view space: fovy = 2 * math.atan(math.tan(fovy * 0.5) / aspectY), aspect = aspectX * aspect Y.
+
 This function computes the returned matrix as shown.
 
 
@@ -104,7 +109,7 @@ xScale     0          0              0
 0        0        zn*zf/(zn-zf)      0
 where:
 yScale = cot(fovY/2)
-    
+
 xScale = yScale / aspect ratio
 ```
 
@@ -114,7 +119,7 @@ xScale = yScale / aspect ratio
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

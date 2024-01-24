@@ -11,11 +11,14 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # HTMLView Element
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
@@ -58,13 +61,13 @@ Base URL for the HTMLView webpage that Windows Media Player displays.
 
 You can use this element to integrate the HTMLView feature with your online store. If the domain of the URL specified by the current online store matches the one for the HTMLView webpage, the switch to **Now Playing** happens without user intervention and the HTMLView content is displayed. Otherwise, Windows Media Player prompts the user for permission to show the HTMLView content.
 
-For example, if the URL for the HTMLView webpage is https://www.proseware.com/html/HTMLView.htm and the URL for the **BaseURL** attribute is specified as https://www.proseware.com, the HTMLView webpage displays without prompting the user.
+For example, if the URL for the HTMLView webpage is `https://www.proseware.com/html/HTMLView.htm` and the URL for the **BaseURL** attribute is specified as `https://www.proseware.com`, the HTMLView webpage displays without prompting the user.
 
 ## Requirements
 
 
 
-|                    |                                             |
+| Requirement | Value |
 |--------------------|---------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later<br/> |
 

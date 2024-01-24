@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_WHITE\_BALANCE\_SETTINGS enumeration type describes how a video or image device weights color channels to achieve a proper white balance.
+description: The WPD\_WHITE\_BALANCE\_SETTINGS enumeration type describes how a video or image device weights color channels to achieve a proper white balance.
 ms.assetid: 7bc173dd-4fdd-4b03-994e-f0711c910618
 title: WPD_WHITE_BALANCE_SETTINGS enumeration (PortableDevice.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ This enumeration is used by the [WPD\_STILL\_IMAGE\_WHITE\_BALANCE](still-image-
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

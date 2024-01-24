@@ -1,5 +1,5 @@
 ---
-Description: The rendering interfaces for Direct3D consist of methods that render primitives from vertex data stored in one or more data buffers.
+description: The rendering interfaces for Direct3D consist of methods that render primitives from vertex data stored in one or more data buffers.
 ms.assetid: e89eae14-f480-470c-b301-f7ff316ad339
 title: Vertex Data Streams (Direct3D 9)
 ms.topic: article

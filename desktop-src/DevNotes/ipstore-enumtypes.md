@@ -1,5 +1,5 @@
 ---
-Description: Returns an interface for enumerating types that are currently registered in the protected database.
+description: Returns an interface for enumerating types that are currently registered in the protected database.
 ms.assetid: 0c0c2ad7-90b0-4fc0-8972-82eb159653be
 title: IPStore::EnumTypes method (Pstore.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

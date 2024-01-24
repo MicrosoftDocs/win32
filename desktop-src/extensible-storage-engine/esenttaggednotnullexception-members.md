@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTaggedNotNULLException members"
 title: EsentTaggedNotNULLException members
 TOCTitle: EsentTaggedNotNULLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTaggedNotNULLException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TaggedNotNULL exceptions.
 
-The [EsentTaggedNotNULLException](dn334954\(v=exchg.10\).md) type exposes the following members.
+The [EsentTaggedNotNULLException](./esenttaggednotnullexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTaggedNotNULLException class](dn334954\(v=exchg.10\).md)
+[EsentTaggedNotNULLException class](./esenttaggednotnullexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Re-enumerates all the scan profiles in the system.
+description: Re-enumerates all the scan profiles in the system.
 ms.assetid: f5e49645-e81a-4750-8ea5-f0c698a61752
 title: IScanProfileMgr::Refresh method (Scanprofilemgr.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ Use this method when more than one [**IScanProfileMgr**](-wia-iscanprofilemgr.md
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

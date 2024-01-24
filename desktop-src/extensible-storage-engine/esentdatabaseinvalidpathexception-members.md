@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidPathException members"
 title: EsentDatabaseInvalidPathException members
 TOCTitle: EsentDatabaseInvalidPathException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPathException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseInvalidPath exceptions.
 
-The [EsentDatabaseInvalidPathException](dn334460\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseInvalidPathException](./esentdatabaseinvalidpathexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseInvalidPathException class](dn334460\(v=exchg.10\).md)
+[EsentDatabaseInvalidPathException class](./esentdatabaseinvalidpathexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

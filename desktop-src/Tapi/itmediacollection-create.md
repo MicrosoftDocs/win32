@@ -1,5 +1,5 @@
 ---
-Description: The Create method creates a new media with default properties, adds it to the collection at the specified index, and returns a pointer to the ITMedia interface.
+description: The Create method creates a new media with default properties, adds it to the collection at the specified index, and returns a pointer to the ITMedia interface.
 ms.assetid: f0036556-d2e7-4589-8bb4-e2c5559902fe
 title: ITMediaCollection::Create method (Sdpblb.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ TAPI calls the **AddRef** method on the [**ITMedia**](itmedia.md) interface retu
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

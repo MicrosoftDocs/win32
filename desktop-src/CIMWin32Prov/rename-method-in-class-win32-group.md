@@ -1,5 +1,5 @@
 ---
-Description: Allows the group name to be changed.
+description: Allows the group name to be changed.
 ms.assetid: 7eb1360e-7416-4a90-abc6-c9a85a114316
 ms.tgt_platform: multiple
 title: Rename method of the Win32_Group class
@@ -126,7 +126,7 @@ Success.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

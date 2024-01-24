@@ -1,5 +1,5 @@
 ---
-Description: Using Logical Sensors
+description: Using Logical Sensors
 ms.assetid: 97f4c44e-27dd-4f2a-b987-060bb2d9bc00
 title: Using Logical Sensors
 ms.topic: article

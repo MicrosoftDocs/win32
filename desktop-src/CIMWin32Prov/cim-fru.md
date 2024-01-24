@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FRU class represents a vendor-defined collection of products and physical elements that are associated with a field replaceable unit (FRU) to support, maintain, or upgrade a product at the customer's location.
+description: The CIM\_FRU class represents a vendor-defined collection of products and physical elements that are associated with a field replaceable unit (FRU) to support, maintain, or upgrade a product at the customer's location.
 ms.assetid: 4464ec3a-5509-4e15-9020-4abb2edd2570
 ms.tgt_platform: multiple
 title: CIM_FRU class
@@ -184,7 +184,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

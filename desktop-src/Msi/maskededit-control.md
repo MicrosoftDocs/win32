@@ -1,5 +1,5 @@
 ---
-Description: The MaskedEdit Control is an edit field control that contains a mask in the text field of the control. You can associate the control with a string value property by entering the property name into the Property column of the Control Table.
+description: The MaskedEdit Control is an edit field control that contains a mask in the text field of the control. You can associate the control with a string value property by entering the property name into the Property column of the Control Table.
 ms.assetid: 8cc14683-3dbb-404f-87af-09a5f5b90b19
 title: MaskedEdit Control
 ms.topic: article

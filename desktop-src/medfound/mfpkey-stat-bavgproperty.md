@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average buffer window, in milliseconds, of an encoded stream.
+description: Specifies the average buffer window, in milliseconds, of an encoded stream.
 ms.assetid: 96bf43c3-5a62-4157-a7bc-2302fd69c522
 title: MFPKEY_STAT_BAVG Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ To determine the average buffer window of an encoded stream, read this property 
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BytesColumnValue methods"
 title: BytesColumnValue methods
 TOCTitle: BytesColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.BytesColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [BytesColumnValue](dn334170\(v=exchg.10\).md) type exposes the following members.
+The [BytesColumnValue](./bytescolumnvalue-class.md) type exposes the following members.
 
 ## Methods
 
@@ -71,6 +72,6 @@ Top
 
 #### Reference
 
-[BytesColumnValue class](dn334170\(v=exchg.10\).md)
+[BytesColumnValue class](./bytescolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

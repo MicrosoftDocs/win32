@@ -1,5 +1,5 @@
 ---
-Description: Explains how to use SignTool to verify a file signature.
+description: Explains how to use SignTool to verify a file signature.
 ms.assetid: 9c40a397-19ea-4600-97ee-987dd10f4ef8
 title: Using SignTool to Verify a File Signature
 ms.topic: article
@@ -24,7 +24,7 @@ The following command verifies a system file that may be signed in a catalog:
 
 The following command verifies a system file that is signed in a catalog named *MyCat.cat*:
 
-**SignTool verify /c** *MyCat.catMyFile.ini*
+**SignTool verify /c** *MyCat.cat* *MyFile.ini*
 
 For any [SignTool](signtool.md) verification, you can retrieve the signer of the certificate. The following command verifies a system file and displays the signer certificate:
 

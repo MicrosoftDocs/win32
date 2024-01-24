@@ -81,7 +81,7 @@ The WINBIO\_FINGER\_UNSPECIFIED\_POS\_\* constants are not part of the ANSI 381 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Media.AverageLevel
 ms.assetid: e5500ae2-f250-4b27-8eaa-bff8c2f7c797
 title: System.Media.AverageLevel
 ms.topic: article

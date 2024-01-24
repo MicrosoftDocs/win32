@@ -1,6 +1,6 @@
 ---
 title: template (TemplateListType) Element
-description: A template that defines the data to include with an event.
+description: A template that defines the data to include with an event. | template (TemplateListType) Element
 ms.assetid: 97560254-100c-4d2a-bf3f-ca0897ece6c2
 keywords:
 - template element EventLog
@@ -31,7 +31,7 @@ The **template** element is defined by the [**TemplateListType**](eventmanifests
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

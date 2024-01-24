@@ -1,5 +1,5 @@
 ---
-Description: To verify a signature, create a hash object using CryptCreateHash. This hash object accumulates the data to be verified. The data is then added to the hash object with the CryptHashData function.
+description: To verify a signature, create a hash object using CryptCreateHash. This hash object accumulates the data to be verified. The data is then added to the hash object with the CryptHashData function.
 ms.assetid: 3779f83b-0d87-4f47-949b-9eb39690adfb
 title: Verifying a Signature
 ms.topic: article

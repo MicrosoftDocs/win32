@@ -1,5 +1,5 @@
 ---
-Description: The ISmimeCapabilities interface exposes the following properties.
+description: The ISmimeCapabilities interface exposes the following properties.
 ms.assetid: 2FC6D08D-808E-478A-AA84-F37BDB912C3B
 title: ISmimeCapabilities Properties
 ms.topic: reference

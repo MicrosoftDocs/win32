@@ -1,5 +1,5 @@
 ---
-Description: Provides a link between the capabilities instance and the minimum, maximum, incremental, and default settings for a resource.
+description: Provides a link between the capabilities instance and the minimum, maximum, incremental, and default settings for a resource.
 ms.assetid: 3B09ED8A-D4D0-41E2-B807-96AD8E990773
 title: Msvm_SettingsDefineCapabilities class
 ms.topic: reference
@@ -188,7 +188,7 @@ Access to the **Msvm\_SettingsDefineCapabilities** class might be restricted by 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

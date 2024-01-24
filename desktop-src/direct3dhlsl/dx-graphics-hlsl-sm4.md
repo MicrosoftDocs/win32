@@ -17,49 +17,16 @@ Shader Model 4 is a superset of the capabilities in [Shader Model 3](dx-graphics
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Feature</th>
-<th>Capability</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Instruction Set</td>
-<td><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>HLSL functions</strong></a></td>
-</tr>
-<tr class="even">
-<td>Register Set</td>
-<td>The register set is accessible through members in constant and texture buffers using HLSL semantics for things like component packing.
-<ul>
-<li>Pixel shader registers (see <a href="dx-graphics-hlsl-sm4-registers-ps-4-0.md">Registers - ps_4_0</a> and <a href="dx-graphics-hlsl-sm4-registers-ps-4-1.md">Registers - ps_4_1</a>)</li>
-<li>Vertex shader registers (see <a href="dx-graphics-hlsl-sm4-registers-vs-4-0.md">Registers - vs_4_0</a> and <a href="dx-graphics-hlsl-sm4-registers-vs-4-1.md">Registers - vs_4_1</a>)</li>
-<li>Geometry shader registers (see <a href="dx-graphics-hlsl-sm4-registers-gs-4-0.md">Registers - gs_4_0</a> and <a href="dx-graphics-hlsl-sm4-registers-gs-4-1.md">Registers - gs_4_1</a>)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Vertex Shader Max</td>
-<td>No restriction</td>
-</tr>
-<tr class="even">
-<td>Pixel Shader Max</td>
-<td>No restriction</td>
-</tr>
-<tr class="odd">
-<td>New Shader Profiles Added</td>
-<td>gs_4_0, ps_4_0, vs_4_0, gs_4_1*, ps_4_1*, gs_4_1*</td>
-</tr>
-<tr class="even">
-<td>New Effect-Framework Profile Added</td>
-<td>fx_4_0, fx_4_1*</td>
-</tr>
-</tbody>
-</table>
+
+| Feature | Capability | 
+|---------|------------|
+| Instruction Set | <a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>HLSL functions</strong></a> | 
+| Register Set | The register set is accessible through members in constant and texture buffers using HLSL semantics for things like component packing.<ul><li>Pixel shader registers (see <a href="dx-graphics-hlsl-sm4-registers-ps-4-0.md">Registers - ps_4_0</a> and <a href="dx-graphics-hlsl-sm4-registers-ps-4-1.md">Registers - ps_4_1</a>)</li><li>Vertex shader registers (see <a href="dx-graphics-hlsl-sm4-registers-vs-4-0.md">Registers - vs_4_0</a> and <a href="dx-graphics-hlsl-sm4-registers-vs-4-1.md">Registers - vs_4_1</a>)</li><li>Geometry shader registers (see <a href="dx-graphics-hlsl-sm4-registers-gs-4-0.md">Registers - gs_4_0</a> and <a href="dx-graphics-hlsl-sm4-registers-gs-4-1.md">Registers - gs_4_1</a>)</li></ul> | 
+| Vertex Shader Max | No restriction | 
+| Pixel Shader Max | No restriction | 
+| New Shader Profiles Added | gs_4_0, ps_4_0, vs_4_0, gs_4_1*, ps_4_1*, gs_4_1* | 
+| New Effect-Framework Profile Added | fx_4_0, fx_4_1* | 
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
+description: Learn about mesh support in D3DX. D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
 ms.assetid: 7892370f-0807-4ab7-b7cd-a7e1182e3f9c
 title: Mesh Support in D3DX (Direct3D 9)
 ms.topic: article
@@ -25,7 +25,7 @@ D3DX implements the mesh construct to load, manipulate, and render .x file conte
 
 ## Mesh Architecture
 
-A mesh contains the data for a complex model. It is an abstract data container that contains resources such as textures and materials, and attributes such as position data and adjacency data. There are several mesh operations that improve drawing performance and the appearance of a surface. In addition, there are a number of other mesh concepts that will effect the functionality of mesh operations. Understanding these mesh concepts so you can apply them will improve mesh performance.
+A mesh contains the data for a complex model. It is an abstract data container that contains resources such as textures and materials, and attributes such as position data and adjacency data. There are several mesh operations that improve drawing performance and the appearance of a surface. In addition, there are a number of other mesh concepts that will affect the functionality of mesh operations. Understanding these mesh concepts so you can apply them will improve mesh performance.
 
 ## Mesh Object Data
 

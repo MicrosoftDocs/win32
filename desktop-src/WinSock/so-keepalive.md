@@ -1,5 +1,5 @@
 ---
-Description: Is designed to allow an application to enable keep-alive packets for a socket connection.
+description: Is designed to allow an application to enable keep-alive packets for a socket connection.
 ms.assetid: d6da7761-7a09-4c91-9737-550590a773b3
 title: SO_KEEPALIVE socket option (Ws2def.h)
 ms.topic: reference
@@ -20,25 +20,12 @@ The constant that represents this socket option is 0x0008.
 
 
 ```C++
-int getsockopt(
-  (SOCKET) s,      // descriptor identifying a socket 
-  (int) SOL_SOCKET,   // level
-  (int) SO_KEEPALIVE, // optname
-  (char *) optval, // output buffer,
-  (int) optlen,  // size of output buffer
-);
-```
-
-
-
-
-```C++
 int setsockopt(
   (SOCKET) s,      // descriptor identifying a socket 
   (int) SOL_SOCKET,   // level
   (int) SO_KEEPALIVE, // optname
   (char *) optval, // input buffer,
-  (int) optlen,  // size of input buffer
+  (int) optlen  // size of input buffer
 );
 ```
 
@@ -78,10 +65,10 @@ This value is treated as a boolean value with 0 used to indicate **FALSE** (disa
 
 </dd> <dt>
 
-*optlen* \[in, out\]
+*optlen* \[in\]
 </dt> <dd>
 
-A pointer to the size, in bytes, of the *optval* buffer. This size must be equal to or larger than the size of a **DWORD** value.
+The size, in bytes, of the *optval* buffer. This size must be equal to or larger than the size of a **DWORD** value.
 
 </dd> </dl>
 
@@ -117,9 +104,9 @@ When this socket option is enabled, the TCP stack sends keep-alive packets when 
 
 The **SO\_KEEPALIVE** socket option is valid only for protocols that support the notion of keep-alive (connection-oriented protocols). For TCP, the default keep-alive timeout is 2 hours and the keep-alive interval is 1 second. The default number of keep-alive probes varies based on the version of Windows.
 
-The [**SIO\_KEEPALIVE\_VALS**](/previous-versions/windows/desktop/legacy/dd877220(v=vs.85)) control code enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. If TCP keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
+The [**SIO_KEEPALIVE_VALS**](/windows/win32/winsock/sio-keepalive-vals) control code can be used to enable or disable keep-alive, and adjust the timeout and interval, for a single connection. If keep-alive is enabled with **SO\_KEEPALIVE**, then the default TCP settings are used for keep-alive timeout and interval unless these values have been changed using **SIO\_KEEPALIVE\_VALS**.
 
-The default settings when a TCP socket is initialized sets the keep-alive timeout to 2 hours and the keep-alive interval to 1 second. The default system-wide value of the keep-alive timeout is controllable through the [KeepAliveTime](/previous-versions/windows/it-pro/windows-server-2003/cc782936(v=ws.10)) registry setting which takes a value in milliseconds. The default system-wide value of the keep-alive interval is controllable through the [KeepAliveInterval](/previous-versions/windows/it-pro/windows-server-2003/cc758083(v=ws.10)) registry setting which takes a value in milliseconds.
+The default system-wide value of the keep-alive timeout is controllable through the [KeepAliveTime](/previous-versions/windows/it-pro/windows-server-2003/cc782936(v=ws.10)) registry setting which takes a value in milliseconds. The default system-wide value of the keep-alive interval is controllable through the [KeepAliveInterval](/previous-versions/windows/it-pro/windows-server-2003/cc758083(v=ws.10)) registry setting which takes a value in milliseconds.
 
 On Windows Vista and later, the number of keep-alive probes (data retransmissions) is set to 10 and cannot be changed.
 
@@ -135,7 +122,7 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -165,7 +152,7 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket)
 </dt> <dt>
 
-[**SIO\_KEEPALIVE\_VALS**](/previous-versions/windows/desktop/legacy/dd877220(v=vs.85))
+[**SIO_KEEPALIVE_VALS**](/windows/win32/winsock/sio-keepalive-vals)
 </dt> <dt>
 
 [TcpMaxDataRetransmissions](/previous-versions/windows/it-pro/windows-server-2003/cc780586(v=ws.10))
@@ -173,7 +160,3 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 
 [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)
 </dt> </dl>
-
- 
-
- 

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateQueryWriterFromBlockWriter method.
+description: Proxy function for the CreateQueryWriterFromBlockWriter method.
 ms.assetid: f941e3b1-1645-4ed6-b2c5-180cb4c43fca
 title: IWICComponentFactory_CreateQueryWriterFromBlockWriter_Proxy function
 ms.topic: reference
@@ -72,7 +72,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

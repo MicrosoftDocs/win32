@@ -22,7 +22,7 @@ List of subordinate references of a Naming Context.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Sub-Refs                                |
 | Ldap-Display-Name | subRefs                                 |
@@ -49,7 +49,7 @@ List of subordinate references of a Naming Context.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x813B                          |
@@ -70,7 +70,7 @@ List of subordinate references of a Naming Context.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x813B                          |
@@ -91,7 +91,7 @@ List of subordinate references of a Naming Context.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x813B                          |
@@ -112,7 +112,7 @@ List of subordinate references of a Naming Context.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x813B                          |
@@ -133,7 +133,7 @@ List of subordinate references of a Naming Context.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x813B                          |
@@ -154,7 +154,7 @@ List of subordinate references of a Naming Context.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x813B                          |
@@ -175,7 +175,7 @@ List of subordinate references of a Naming Context.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x813B                          |

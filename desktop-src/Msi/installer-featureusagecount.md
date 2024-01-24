@@ -1,5 +1,5 @@
 ---
-Description: The FeatureUsageCount property is a read-only property that returns the number of times the feature has been used.
+description: The FeatureUsageCount property is a read-only property that returns the number of times the feature has been used.
 ms.assetid: 70171e22-d73a-4718-a360-df9d1722761b
 title: Installer.FeatureUsageCount property
 ms.topic: reference
@@ -40,7 +40,7 @@ Use of the [**UseFeature**](installer-usefeature.md), [**ProvideComponent**](ins
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

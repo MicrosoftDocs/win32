@@ -1,5 +1,5 @@
 ---
-Description: The EnumPrinters function enumerates available printers, print servers, domains, or print providers.
+description: The EnumPrinters function enumerates available printers, print servers, domains, or print providers.
 ms.assetid: 0d0cc726-c515-4146-9273-cdf1db3c76b7
 title: EnumPrinters function (Winspool.h)
 ms.topic: reference
@@ -188,7 +188,7 @@ In the *Name* parameter column of the table, you should substitute an appropriat
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

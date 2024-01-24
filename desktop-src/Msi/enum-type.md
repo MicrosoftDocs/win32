@@ -1,5 +1,5 @@
 ---
-Description: The Enum Type of semantic type is one of the Text Format Types.
+description: The Enum Type of semantic type is one of the Text Format Types.
 ms.assetid: fff01044-5749-42a5-b026-5b22671870bd
 title: Enum Type
 ms.topic: article

@@ -5,10 +5,13 @@ ms.assetid: e68c6166-d643-4a01-861a-8adda5b7a3b2
 keywords:
 - Windows Media Player Online Stores
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Introduction to the Online Stores Welcome Kit
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Online Stores Welcome Kit describes the process of bringing an online digital media store on board for Windows Media Player. Windows Media Player supports two kinds of online stores: type 1 and type 2. For information about the difference between type 1 and type 2 stores, see [Windows Media Player Online Stores](windows-media-player-online-stores.md).
 
@@ -56,11 +59,7 @@ Obtain this document from the Windows Media Player Services Virtual Team at mpsv
 </dd> <dt>
 
 <span id="Windows_Media_Rights_Manager_License__if_using_DRM_"></span><span id="windows_media_rights_manager_license__if_using_drm_"></span><span id="WINDOWS_MEDIA_RIGHTS_MANAGER_LICENSE__IF_USING_DRM_"></span>Windows Media Rights Manager License (if using DRM)
-</dt> <dd>
-
-You can request a Windows Media Rights Manager License by using the [Microsoft License Request form](https://go.microsoft.com/?linkid=9742685).
-
-</dd> <dt>
+</dt>  <dt>
 
 <span id="Windows_Media_Format_SDK_License"></span><span id="windows_media_format_sdk_license"></span><span id="WINDOWS_MEDIA_FORMAT_SDK_LICENSE"></span>Windows Media Format SDK License
 </dt> <dd>

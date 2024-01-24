@@ -1,5 +1,5 @@
 ---
-Description: For uniformity, each instance of the TRAP-TYPE macro is first mapped to an instance of the NOTIFICATION-TYPE macro using the mapping defined in RFC 1908.
+description: For uniformity, each instance of the TRAP-TYPE macro is first mapped to an instance of the NOTIFICATION-TYPE macro using the mapping defined in RFC 1908.
 ms.assetid: ed3536b8-5846-4207-aa9d-6814b1f4a35f
 ms.tgt_platform: multiple
 title: TRAP-TYPE Macro

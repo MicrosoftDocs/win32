@@ -1,5 +1,5 @@
 ---
-Description: The SOURCELIST property is a semicolon-delimited list of network or URL source paths to the application's installation package.
+description: The SOURCELIST property is a semicolon-delimited list of network or URL source paths to the application's installation package.
 ms.assetid: '9dc1e195-a108-4f8f-b008-e08fc7658fc0'
 title: SOURCELIST property
 ms.topic: article
@@ -24,7 +24,7 @@ For Windows Installer the number of sources in the **SOURCELIST** property is un
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

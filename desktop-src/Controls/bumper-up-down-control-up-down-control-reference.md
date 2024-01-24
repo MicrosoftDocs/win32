@@ -1,6 +1,6 @@
 ---
 title: Up-Down Control Reference
-description: .
+description: Up-Down Control Reference
 ms.assetid: a02b4a87-1648-4c0e-a5a1-f826e91b93cf
 ms.topic: article
 ms.date: 05/31/2018

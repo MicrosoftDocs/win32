@@ -1,5 +1,5 @@
 ---
-Description: The Basic Ink Analysis sample shows how the InkAnalyzer class divides ink into various word and drawing segments.This sample is an updated version of the Ink Divider Sample.
+description: The Basic Ink Analysis sample shows how the InkAnalyzer class divides ink into various word and drawing segments.This sample is an updated version of the Ink Divider Sample.
 ms.assetid: cb9a28d9-f8c6-478e-ae43-2d30106edc7b
 title: Basic Ink Analysis Sample
 ms.topic: article

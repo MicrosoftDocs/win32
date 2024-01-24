@@ -1,5 +1,5 @@
 ---
-Description: The IX509EnrollmentHelper interface exposes the following methods.
+description: The IX509EnrollmentHelper interface exposes the following methods.
 ms.assetid: CBF148DE-B727-4BED-A625-8CB677261BF3
 title: IX509EnrollmentHelper Methods
 ms.topic: reference

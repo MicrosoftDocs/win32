@@ -1,5 +1,5 @@
 ---
-Description: ICE68 checks that all custom action types needed for an installation are valid.
+description: ICE68 checks that all custom action types needed for an installation are valid.
 ms.assetid: a37d6d6c-3005-425b-883a-6fe074b9d708
 title: ICE68
 ms.topic: article

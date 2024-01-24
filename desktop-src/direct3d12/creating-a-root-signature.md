@@ -2,7 +2,6 @@
 title: Creating a Root Signature
 description: Root signatures are a complex data structure containing nested structures.
 ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -32,7 +31,7 @@ If you wish to take advantage of driver optimizations for root signature descrip
 
 The enum [**D3D12\_DESCRIPTOR\_RANGE\_TYPE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type) defines the types of descriptors that can be referenced as part of a descriptor table layout definition.
 
-It is a range so that, for example if part of a descriptor table a descriptor table has 100 SRVs, that range can be declared in one entry rather than 100. So a descriptor table definition is a collection of ranges.
+It is a range so that, for example if part of a descriptor table has 100 SRVs, that range can be declared in one entry rather than 100. So a descriptor table definition is a collection of ranges.
 
 ``` syntax
 typedef enum D3D12_DESCRIPTOR_RANGE_TYPE
@@ -48,13 +47,13 @@ typedef enum D3D12_DESCRIPTOR_RANGE_TYPE
 
 The [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range) structure defines a range of descriptors of a given type (such as SRVs) within a descriptor table.
 
-The `D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND` \#define can typically be used for the `OffsetInDescriptorsFromTableStart` parameter of [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range). This means append the descriptor range being defined after the previous one in the descriptor table. If the application wants to alias descriptors or for some reason wants to skip slots, it can set `OffsetInDescriptorsFromTableStart` to whatever offset is desired. Defining overlapping ranges of different types is invalid.
+The `D3D12_DESCRIPTOR_RANGE_OFFSET_APPEND` macro can typically be used for the `OffsetInDescriptorsFromTableStart` parameter of [**D3D12\_DESCRIPTOR\_RANGE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range). This means append the descriptor range being defined after the previous one in the descriptor table. If the application wants to alias descriptors or for some reason wants to skip slots, it can set `OffsetInDescriptorsFromTableStart` to whatever offset is desired. Defining overlapping ranges of different types is invalid.
 
 The set of shader registers specified by the combination of `RangeType`, `NumDescriptors`, `BaseShaderRegister`, and `RegisterSpace` cannot conflict or overlap across any declarations in a root signature that have common [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility) (refer to the shader visibility section below).
 
 ## Descriptor Table Layout
 
-The [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table) structure declares the layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap. Samplers are not allowed in the same descriptor table as CBV/UAV/SRVs.
+The [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table) structure declares the layout of a descriptor table as a collection of descriptor ranges that start at a given offset of a descriptor heap. Samplers are not allowed in the same descriptor table as CBV/UAV/SRVs.
 
 This struct is used when the root signature slot type is set to `D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE`.
 
@@ -80,17 +79,15 @@ The member of [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d1
 
 One use of shader visibility is to help with shaders that are authored expecting different bindings per shader stage using an overlapping namespace. For example, a vertex shader may declare:
 
- 
-
-Texture2D foo : register(t0);"
-
- 
+```hlsl
+Texture2D foo : register(t0);
+```
 
 and the pixel shader may also declare:
 
- 
-
+```hlsl
 Texture2D bar : register(t0);
+```
 
 If the application makes a root signature binding to t0 VISIBILITY\_ALL, both shaders see the same texture. If the shader defines actually wants each shader to see different textures, it can define 2 root signature slots with VISIBILITY\_VERTEX and \_PIXEL. No matter what the visibility is on a root signature slot, it always has the same cost (cost only depending on what the SlotType is) towards one fixed maximum root signature size.
 
@@ -134,9 +131,8 @@ The example below shows how to create a root signature with the following format
 
 
 
-|                        |                                                |                                              |
-|------------------------|------------------------------------------------|----------------------------------------------|
-| **RootParameterIndex** | **Contents**                                   |                                              |
+| RootParameterIndex                       | Contents                                               | Values                                             |
+|------------------------|------------------------------------------------|----------------------------------------------|                                              
 | \[0\]                  | Root constants: { b2 }                         | (1 CBV)                                      |
 | \[1\]                  | Descriptor table: { t2-t7, u0-u3 }             | (6 SRVs + 4 UAVs)                            |
 | \[2\]                  | Root CBV: { b0 }                               | (1 CBV, static data)                         |
@@ -203,7 +199,7 @@ CreatePipelineStatesAhreadOfTime(pRootSignature); // The root signature is passe
 ...
 
 ID3D12DescriptorHeap* pHeaps[2] = {pCommonHeap, pSamplerHeap};
-pGraphicsCommandList->SetDescriptorHeaps(pHeaps,2);
+pGraphicsCommandList->SetDescriptorHeaps(2,pHeaps);
 pGraphicsCommandList->SetGraphicsRootSignature(pRootSignature);
 pGraphicsCommandList->SetGraphicsRootDescriptorTable(
                         6,heapOffsetForMoreData,DescRange[5].NumDescriptors);
@@ -215,8 +211,8 @@ pGraphicsCommandList->SetComputeRootConstantBufferView(2,pDynamicCBHeap,&CBVDesc
 
 MY_PER_DRAW_STUFF stuff;
 InitMyPerDrawStuff(&stuff);
-pGraphicsCommandList->SetSetGraphicsRoot32BitConstants(
-                        0,&stuff,0,RTSlot[0].Constants.Num32BitValues);
+pGraphicsCommandList->SetGraphicsRoot32BitConstants(
+                        0,RTSlot[0].Constants.Num32BitValues,&stuff,0);
 
 SetMyRTVAndOtherMiscBindings();
 
@@ -225,7 +221,7 @@ for(UINT i = 0; i < numObjects; i++)
     pGraphicsCommandList->SetPipelineState(PSO[i]);
     pGraphicsCommandList->SetGraphicsRootDescriptorTable(
                     1,heapOffsetForFooAndBar[i],DescRange[1].NumDescriptors);
-    pGraphicsCommandList->SetGraphicsRoot32BitConstant(0,&i,1,drawIDOffset);
+    pGraphicsCommandList->SetGraphicsRoot32BitConstant(0,i,drawIDOffset);
     SetMyIndexBuffers(i);
     pGraphicsCommandList->DrawIndexedInstanced(...);
 }

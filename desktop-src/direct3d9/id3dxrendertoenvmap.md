@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXRenderToEnvMap interface is used to generalize the process of rendering to environment maps.
+description: The ID3DXRenderToEnvMap interface is used to generalize the process of rendering to environment maps.
 ms.assetid: d72db260-5493-4381-9269-521ad333f0b2
 title: ID3DXRenderToEnvMap interface (D3dx9core.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ typedef interface ID3DXRenderToEnvMap *LPD3DXRenderToEnvMap;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

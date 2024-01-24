@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FRUPhysicalElements class represents the physical elements that make up a field replaceable unit (FRU).
+description: The CIM\_FRUPhysicalElements class represents the physical elements that make up a field replaceable unit (FRU).
 ms.assetid: ecdb19a8-5169-4370-8d2d-a21a0021ea5b
 ms.tgt_platform: multiple
 title: CIM_FRUPhysicalElements class
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

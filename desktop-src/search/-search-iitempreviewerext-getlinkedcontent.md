@@ -1,5 +1,5 @@
 ---
-Description: Permits the extension to rich content for a property.
+description: Permits the extension to rich content for a property.
 ms.assetid: d1b09ea0-7263-4b7c-8c59-25251bb6b285
 title: IItemPreviewerExt::GetLinkedContent method
 ms.topic: reference
@@ -78,7 +78,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: A broadcast can be made to the locally attached network by setting sa\_netnum to binary zeros (0) and sa\_nodenum to binary ones (1).
+description: A broadcast can be made to the locally attached network by setting sa\_netnum to binary zeros (0) and sa\_nodenum to binary ones (1).
 ms.assetid: b9146e18-b47e-47f1-a25e-7b9e1e81ebb5
 title: Broadcast to Local Network
 ms.topic: article

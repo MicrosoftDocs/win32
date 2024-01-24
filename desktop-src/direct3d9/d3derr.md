@@ -1,5 +1,5 @@
 ---
-Description: The following is a list of the values that can be returned by Direct3D methods. See the individual method descriptions for lists of the values that each can return.
+description: The following is a list of the values that can be returned by Direct3D methods. See the individual method descriptions for lists of the values that each can return.
 ms.assetid: 4a9daa05-74f3-4173-b63d-53767feea7e2
 title: D3DERR (D3d9.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ The facility code \_FACD3D is used to generate error codes, as in the following 
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9.h</dt> </dl> |
 

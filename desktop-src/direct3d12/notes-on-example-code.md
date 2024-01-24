@@ -2,7 +2,6 @@
 title: Example Code in the D3D12 Reference
 description: Explains the use of example code in the Direct3D 12 documentation.
 ms.assetid: C2323482-D06D-43B7-9BDE-BFB9A6A6B70D
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -58,7 +57,8 @@ m_commandList->RSSetViewports(1, &m_viewport);
 m_commandList->RSSetScissorRects(1, &m_scissorRect);
 
 // Indicate that the back buffer will be used as a render target.
-m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
+auto barrier = CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET);
+m_commandList->ResourceBarrier(1, &barrier);
 
 CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
 m_commandList->OMSetRenderTargets(1, &rtvHandle, FALSE, nullptr);
@@ -71,8 +71,8 @@ m_commandList->IASetVertexBuffers(0, 1, &m_vertexBufferView);
 m_commandList->DrawInstanced(3, 1, 0, 0);
 
 // Indicate that the back buffer will now be used to present.
-m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
-
+m_commandList->ResourceBarrier(1, &barrier);
+barrier = CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT);
 ThrowIfFailed(m_commandList->Close());
 ```
 

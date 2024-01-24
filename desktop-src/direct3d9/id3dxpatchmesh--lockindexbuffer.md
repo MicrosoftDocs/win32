@@ -1,5 +1,5 @@
 ---
-Description: Lock the index buffer.
+description: Lock the index buffer.
 ms.assetid: b68aff75-9ba6-4088-b35f-f56d700d1aff
 title: ID3DXPatchMesh::LockIndexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ The index buffer is usually locked, written to, and then unlocked for reading. P
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

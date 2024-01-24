@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStreamingDataNotLoggedException properties"
 title: EsentStreamingDataNotLoggedException properties
 TOCTitle: EsentStreamingDataNotLoggedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentStreamingDataNotLoggedException](dn334874\(v=exchg.10\).md) type exposes the following members.
+The [EsentStreamingDataNotLoggedException](./esentstreamingdatanotloggedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentStreamingDataNotLoggedException class](dn334874\(v=exchg.10\).md)
+[EsentStreamingDataNotLoggedException class](./esentstreamingdatanotloggedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

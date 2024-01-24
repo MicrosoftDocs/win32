@@ -1,5 +1,5 @@
 ---
-Description: Renames a computer.
+description: Renames a computer.
 ms.assetid: 9d338ebe-caf0-42c4-995f-fd750e5664df
 ms.tgt_platform: multiple
 title: Rename method of the Win32_ComputerSystem class
@@ -404,7 +404,7 @@ return 0; // Program successfully completed.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

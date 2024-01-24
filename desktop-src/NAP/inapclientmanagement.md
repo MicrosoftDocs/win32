@@ -1,6 +1,6 @@
 ---
 title: INapClientManagement interface (NapManagement.h)
-description: Provides methods for NAP client management.
+description: Provides methods for NAP client management. | INapClientManagement interface (NapManagement.h)
 ms.assetid: 9c5724db-1e85-4da5-92b7-9ff6579f9cfb
 keywords:
 - INapClientManagement interface NAP
@@ -62,7 +62,7 @@ The **INapClientManagement** interface has these methods.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |

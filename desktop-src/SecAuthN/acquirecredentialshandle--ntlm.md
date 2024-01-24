@@ -1,5 +1,5 @@
 ---
-Description: Acquires a handle to preexisting credentials of a security principal that is using NTLM.
+description: Acquires a handle to preexisting credentials of a security principal that is using NTLM.
 ms.assetid: 8a51ca50-0e05-4f1e-9dfc-c5d0118f65ed
 title: AcquireCredentialsHandle (NTLM) function (Sspi.h)
 ms.topic: reference
@@ -160,7 +160,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

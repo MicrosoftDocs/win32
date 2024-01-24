@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidObjectException constructor"
 title: EsentInvalidObjectException constructor 
 TOCTitle: 'EsentInvalidObjectException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidObjectException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidObjectException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidObjectException()
 
 #### Reference
 
-[EsentInvalidObjectException class](dn319564\(v=exchg.10\).md)
+[EsentInvalidObjectException class](./esentinvalidobjectexception-class.md)
 
-[EsentInvalidObjectException members](dn319566\(v=exchg.10\).md)
+[EsentInvalidObjectException members](./esentinvalidobjectexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

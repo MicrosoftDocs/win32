@@ -1,5 +1,5 @@
 ---
-Description: The TextStyle table lists different font styles used in controls having text.
+description: The TextStyle table lists different font styles used in controls having text.
 ms.assetid: a351e67a-8f51-41bf-9202-56488b870fa7
 title: TextStyle Table
 ms.topic: article

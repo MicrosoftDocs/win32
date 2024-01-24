@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Platforms
 
-**Clients**   Windows XP \| Windows Vista \| Windows 7 \| Windows 7 SP1 \| Windows 8  
-**Servers**   Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2 \| Windows Server 2008 R2 SP1 \| Windows Server 2012 \| Windows Server 2012 R2 \| Windows Server 2016  
+**Clients**   Windows XP, Windows Vista, Windows 7, Windows 7 SP1, Windows 8  
+**Servers**   Windows Server 2003, Windows Server 2008, Windows Server 2008 R2, Windows Server 2008 R2 SP1, Windows Server 2012, Windows Server 2012 R2, Windows Server 2016  
 
 
 ## Description
@@ -232,9 +232,7 @@ A 4K Native Disk has the  Bytes Per Sector  and  Bytes Per Physical Sector  fiel
 
 -   [Windows General Support Statement](https://support.microsoft.com/kb/2510009)
 -   [Microsoft KB 982018](https://support.microsoft.com/kb/982018)
--   [Microsoft KB 2553708](https://support.microsoft.com/kb/2553708)
 -   [Hotfix for Windows 7 and Windows Server 2008 R2](https://support.microsoft.com/kb/982018)
--   [Hotfix for Windows Vista and Windows Server 2008](https://support.microsoft.com/kb/2553708)
 -   [HyperV Support Statement](https://support.microsoft.com/kb/2515143)
 -   [General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
 -   [IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property)

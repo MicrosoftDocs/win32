@@ -1,22 +1,25 @@
 ---
-Description: Interpolates between quaternions, using spherical quadrangle interpolation.
+description: D3DXQuaternionSquad function (D3DX10Math.h) - Interpolates between quaternions, using spherical quadrangle interpolation.
 ms.assetid: ba953731-4372-4b32-942b-23abfe479704
 title: D3DXQuaternionSquad function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionSquad
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXQuaternionSquad function
+# D3DXQuaternionSquad function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Interpolates between quaternions, using spherical quadrangle interpolation.
 
@@ -119,7 +122,7 @@ Use [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) for any quat
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

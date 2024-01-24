@@ -1,12 +1,12 @@
 ---
 title: VoiceCaption Property (Commands Object)
-description: VoiceCaption Property
+description: Learn about the VoiceCaption Property of the Commands object, which returns or sets the text displayed for the Commands object in the Voice Commands Window.
 ms.assetid: 2c4fa175-fc2d-4474-b15f-7e838103a435
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# VoiceCaption Property
+# VoiceCaption Property (Commands Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 

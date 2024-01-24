@@ -34,9 +34,9 @@ Command identifier for a toolbar button.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **BOOL** that indicates the new highlight state. If **TRUE**, the button is highlighted. If **FALSE**, the button is set to its default state.
+The [**LOWORD**](../winmsg/loword.md) is a **BOOL** that indicates the new highlight state. If **TRUE**, the button is highlighted. If **FALSE**, the button is set to its default state.
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) must be zero.
+The [**HIWORD**](../winmsg/hiword.md) must be zero.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

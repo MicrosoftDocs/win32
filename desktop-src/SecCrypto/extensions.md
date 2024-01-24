@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of Extension objects.
+description: Represents a collection of Extension objects.
 ms.assetid: 'f2a6854d-1831-489f-adf6-31a0b26511e3'
 title: Extensions object
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Extensions object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ExtensionCollection Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extensioncollection?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ExtensionCollection Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extensioncollection) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Extensions** object represents a collection of [**Extension**](extension.md) objects. Each [**Extension**](extension.md) object represents a single certificate extension.
 
@@ -52,7 +52,7 @@ The **Extensions** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

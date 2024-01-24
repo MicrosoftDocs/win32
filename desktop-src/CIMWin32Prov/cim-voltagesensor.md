@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VoltageSensor class exists for backward compatibility to earlier CIM schema definitions. With additions to the CIM\_Sensor and CIM\_NumericSensor classes in version 2.2, it is no longer necessary.
+description: The CIM\_VoltageSensor class exists for backward compatibility to earlier CIM schema definitions. With additions to the CIM\_Sensor and CIM\_NumericSensor classes in version 2.2, it is no longer necessary.
 ms.assetid: a578c7a2-27d5-4bd8-86d7-3962d5091f14
 ms.tgt_platform: multiple
 title: CIM_VoltageSensor class
@@ -1488,7 +1488,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

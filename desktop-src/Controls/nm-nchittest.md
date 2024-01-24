@@ -1,6 +1,6 @@
 ---
 title: NM_NCHITTEST notification code (Commctrl.h)
-description: Sent by a rebar control when the control receives a WM\_NCHITTEST message. This notification code is sent in the form of a WM\_NOTIFY message.
+description: NM_NCHITTEST notification code - Sent by a rebar control when the control receives a WM\_NCHITTEST message. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: 0e088b14-b912-4f60-9d25-cd0a0ba264c3
 keywords:
 - NM_NCHITTEST notification code Windows Controls
@@ -48,7 +48,7 @@ Unless otherwise specified, return zero to allow the control to perform default 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Your application can support a different set of user interface languages from those supported by the target operating system. This topic discusses this type of support, using snippets from complete samples.
+description: Your application can support a different set of user interface languages from those supported by the target operating system. This topic discusses this type of support, using snippets from complete samples.
 ms.assetid: cb9f2a5f-3bb8-4287-a542-c71d20b37194
 title: Supporting Application-Specific Language Settings
 ms.topic: article

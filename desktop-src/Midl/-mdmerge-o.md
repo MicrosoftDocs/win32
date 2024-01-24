@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# /o switch
+# /o switch (MDMERGE)
 
 The **/o** switch specifies the output directory for composed metadata files.
 
@@ -43,7 +43,7 @@ Specifies the directory that contains the merged metadata files.
 
 
 
-|                   |                                |
+| Requirement | Value |
 |-------------------|--------------------------------|
 | Client<br/> | Windows 8<br/>           |
 | Server<br/> | Windows Server 2012<br/> |

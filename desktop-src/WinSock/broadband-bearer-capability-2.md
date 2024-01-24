@@ -1,5 +1,5 @@
 ---
-Description: This section lists the values used for the broadband bearer capability.
+description: This section lists the values used for the broadband bearer capability.
 ms.assetid: 9e45ca17-2aec-42e5-88a5-5ef1dc4238d9
 title: Broadband Bearer Capability
 ms.topic: article

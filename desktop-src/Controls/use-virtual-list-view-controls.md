@@ -270,13 +270,13 @@ void PrepCache(int iFrom, int iTo)
         g_cCache   = (iTo - iFrom + 1);
         g_priCache = (RndItem *)GlobalAlloc( GPTR, sizeof( RndItem ) * g_cCache );
 
-        if (!g_priEndCache)
+        if (!g_priCache)
         {
             // TODO: Out of memory. Do error handling.
         }
 
         // Loop to fill the cache with the recommended items.
-        for (i=0; i<g_cEndCache; i++)
+        for (i=0; i<g_cCache; i++)
         {
             // TODO: Call a function that accesses item information
             // and fills a cache element.

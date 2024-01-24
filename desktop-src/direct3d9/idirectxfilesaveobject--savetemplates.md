@@ -1,5 +1,5 @@
 ---
-Description: Saves templates to a DirectX file. Deprecated.
+description: Saves templates to a DirectX file. Deprecated.
 ms.assetid: 7a45565a-8c04-4fa1-a424-294b847d3a2f
 title: IDirectXFileSaveObject::SaveTemplates method (DXFile.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ After using this method to save the templates, use the [**IDirectXFileSaveObject
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

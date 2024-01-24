@@ -23,7 +23,6 @@ This topic demonstrates how to add columns to a list-view control. Columns are u
 
 ## Instructions
 
-### 
 
 To add a column to a list-view control, send the [**LVM\_INSERTCOLUMN**](lvm-insertcolumn.md) message or use the [**ListView\_InsertColumn**](/windows/desktop/api/Commctrl/nf-commctrl-listview_insertcolumn) macro. To delete a column, use the [**LVM\_DELETECOLUMN**](lvm-deletecolumn.md) message.
 

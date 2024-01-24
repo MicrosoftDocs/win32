@@ -1,5 +1,5 @@
 ---
-Description: Windows Server 2008.
+description: Windows Server 2008.
 ms.assetid: 2f7b62f8-ba1e-42d2-8872-38d4475e4a2a
 title: What's New in VSS in Windows Server 2008 and Windows Vista SP1
 ms.topic: article

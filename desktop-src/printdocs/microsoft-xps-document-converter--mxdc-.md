@@ -1,5 +1,5 @@
 ---
-Description: This section describes how Windows applications interact with the Microsoft XPS Document Converter (MXDC), which is a component that enables applications to use the GDI Print API with printers that have an XPSDrv Print Driver.
+description: This section describes how Windows applications interact with the Microsoft XPS Document Converter (MXDC), which is a component that enables applications to use the GDI Print API with printers that have an XPSDrv Print Driver.
 ms.assetid: e947e4c4-eda1-407c-9ba8-048beef1974b
 title: Microsoft XPS Document Converter (MXDC)
 ms.topic: article
@@ -23,10 +23,10 @@ This section provides information about the following topics.
 
 <dl> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> <dt>
 
-[XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816)
+[XPS Specification and License Downloads](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> <dt>
 
 [isXPS Conformance Tool](/previous-versions/dotnet/netframework-3.0/aa348104(v=vs.85))

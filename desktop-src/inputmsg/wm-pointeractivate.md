@@ -20,7 +20,7 @@ ms.date: 02/03/2020
 
 Sent to an inactive window when a primary pointer generates a [**WM_POINTERDOWN**](wm-pointerdown.md) over the window. As long as the message remains unhandled, it travels up the parent window chain until it is reaches the top-level window. Applications can respond to this message to specify whether they wish to be activated.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -38,9 +38,9 @@ A window receives this message through its [**WindowProc**](/previous-versions/w
 
 Contains the pointer identifier and additional information. Use the following macros to retrieve this information.
 
-[**GET_POINTERID_WPARAM**](/previous-versions/windows/desktop/api)(wParam): pointer identifier
+[**GET_POINTERID_WPARAM**](/windows/win32/api/winuser/nf-winuser-get_pointerid_wparam)(wParam): pointer identifier
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](../inputdev/wm-nchittest.md) message.
+[**HIWORD**](../winmsg/hiword.md)(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](../inputdev/wm-nchittest.md) message.
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ If the application does not handle this message, [**DefWindowProc**](/windows/wi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |

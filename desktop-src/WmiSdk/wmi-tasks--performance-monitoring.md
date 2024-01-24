@@ -1,5 +1,5 @@
 ---
-Description: Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance.
+description: Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance.
 ms.assetid: 4c88de96-992e-4d34-ba93-35d2b6e73c1d
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Performance Monitoring'
@@ -18,7 +18,6 @@ Use the WMI classes that obtain data from performance counters to access and ref
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-## 
 
 The following procedure describes how to run a script.
 
@@ -40,8 +39,8 @@ The following table lists script examples that can be used to obtain various typ
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -59,7 +58,7 @@ The following table lists script examples that can be used to obtain various typ
 <td>Use the <a href="/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data"><strong>Win32_PerfFormattedData_PerfProc_Process</strong></a> or the appropriate formatted <a href="/windows/desktop/CIMWin32Prov/performance-counter-classes">Performance Counter Class</a> and the <a href="swbemobjectex-refresh-.md"><strong>SWbemObjectEx.Refresh_</strong></a> method. For more information, see <a href="scripting-with-swbemobject.md">Scripting with SWbemObject</a>.<br/> In C++, use <a href="/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbypath"><strong>IWbemConfigureRefresher::AddObjectByPath</strong></a> and <a href="/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemrefresher-refresh"><strong>IWbemRefresher::Refresh</strong></a>. For more information, see <a href="monitoring-performance-data.md">Monitoring Performance Data</a>.<br/> The following script runs until the computer is restarted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the <a href="/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process"><strong>Terminate</strong></a> method in the <a href="/windows/desktop/CIMWin32Prov/win32-process"><strong>Win32_Process</strong></a> class.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -93,7 +92,7 @@ Wend</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -134,7 +133,7 @@ Wend</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -158,13 +157,10 @@ While (True)
     &quot;Win32_PerfRawData_PerfOS_Processor.Name=&#39;_Total&#39;&quot;)
     N2 = object2.PercentProcessorTime
     D2 = object2.TimeStamp_Sys100NS
-
     &#39; CounterType - PERF_100NSEC_TIMER_INV
     &#39; Formula - (1- ((N2 - N1) / (D2 - D1))) x 100
     PercentProcessorTime = (1 - ((N2 - N1)/(D2-D1)))*100
-
     Wscript.Echo &quot;% Processor Time=&quot; , PercentProcessorTime
-
 Wend</code></pre></td>
 </tr>
 </tbody>

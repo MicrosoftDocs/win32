@@ -1,5 +1,5 @@
 ---
-Description: The IX509SCEPEnrollment interface exposes the following properties.
+description: The IX509SCEPEnrollment interface exposes the following properties.
 ms.assetid: 53BE8DE9-87AC-41D1-B1B5-2FEC72F5FCEA
 title: IX509SCEPEnrollment Properties
 ms.topic: reference

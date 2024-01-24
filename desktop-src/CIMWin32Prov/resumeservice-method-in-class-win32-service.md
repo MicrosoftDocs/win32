@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the referenced service in the resumed state.
+description: ResumeService method of the Win32_Service class (CIMWin32 WMI Providers) - Attempts to place the referenced service in the resumed state.
 ms.assetid: 3b4228bf-9ff5-44ab-bfe2-f7dd8fb62007
 ms.tgt_platform: multiple
 title: ResumeService method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# ResumeService method of the Win32\_Service class
+# ResumeService method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **ResumeService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the referenced service in the resumed state.
 
@@ -227,8 +227,6 @@ You must use the proper method to start a service that has been stopped or to re
 
 ## Examples
 
-The [Resume AutoStart Services that are Paused](https://Gallery.TechNet.Microsoft.Com/413f2896-e7f3-4b3e-96cb-5abdc9bb6c36) VBScript sample restarts any auto-start services that have been paused.
-
 The following VBScript code sample describes how to resume a paused service from instances of [**Win32\_Service**](win32-service.md).
 
 > [!Note]  
@@ -319,7 +317,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

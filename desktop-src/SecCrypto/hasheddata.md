@@ -1,5 +1,5 @@
 ---
-Description: Provides functionality for hashing a string.
+description: Provides functionality for hashing a string.
 ms.assetid: 893639c2-57b9-48f6-bf60-a21c3368ffeb
 title: HashedData object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # HashedData object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](/previous-versions/windows/) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](/previous-versions/windows/) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **HashedData** object provides functionality for hashing a string.
 
@@ -74,7 +74,7 @@ The **HashedData** object can be created, and it is safe for scripting. The Prog
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

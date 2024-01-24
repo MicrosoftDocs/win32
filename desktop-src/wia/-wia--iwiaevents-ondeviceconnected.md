@@ -1,5 +1,5 @@
 ---
-Description: Event that occurs when a new Windows Image Acquisition (WIA) hardware device is connected.
+description: Event that occurs when a new Windows Image Acquisition (WIA) hardware device is connected.
 ms.assetid: 327a29b8-581c-41b5-bea7-068bec95e653
 title: Wia.OnDeviceConnected event
 ms.topic: reference
@@ -55,7 +55,7 @@ For example, you might want a script to refresh the [**Devices**](-wia-iwia-devi
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

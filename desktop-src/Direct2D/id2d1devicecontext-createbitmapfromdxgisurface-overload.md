@@ -33,7 +33,7 @@ Creates a bitmap from a DXGI surface that can be set as a target surface or have
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1\_1.h</dt> </dl> |
 

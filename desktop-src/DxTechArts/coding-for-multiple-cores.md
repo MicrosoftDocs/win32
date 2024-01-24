@@ -239,7 +239,7 @@ The function [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-w
 
 ### Interlocked Functions and Lockless Programming
 
-There is a family of functions for performing simple thread-safe operations without using locks. These are the Interlocked family of functions, such as [**InterlockedIncrement**](/windows/win32/api/winbase/nf-winbase-interlockedincrement). These functions, plus other techniques using careful setting of flags, are together known as lockless programming. Lockless programming can be extremely tricky to do correctly, and is substantially more difficult on Xbox 360 than on Windows.
+There is a family of functions for performing simple thread-safe operations without using locks. These are the Interlocked family of functions, such as [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincrement). These functions, plus other techniques using careful setting of flags, are together known as lockless programming. Lockless programming can be extremely tricky to do correctly, and is substantially more difficult on Xbox 360 than on Windows.
 
 For more information about programming without locks, see [Lockless Programming Considerations for Xbox 360 and Microsoft Windows](./lockless-programming.md).
 

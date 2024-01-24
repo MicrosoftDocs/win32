@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings PersistCacheDirectory property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings PersistCacheDirectory property
 ms.assetid: 4e92a1c8-a9e6-47c5-b231-e5c1a7e0701c
 ms.tgt_platform: multiple
 keywords:
@@ -77,7 +77,7 @@ Returns **S\_FALSE**.
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                       |

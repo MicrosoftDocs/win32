@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SCSIController WMI class represents a SCSI controller on a computer system running Windows.
+description: The Win32\_SCSIController WMI class represents a SCSI controller on a computer system running Windows.
 ms.assetid: 14ed523e-d505-40fa-81d5-3a71eb9f078e
 ms.tgt_platform: multiple
 title: Win32_SCSIController class
@@ -1777,7 +1777,7 @@ The **Win32\_SCSIController** class is derived from [**CIM\_SCSIController**](ci
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

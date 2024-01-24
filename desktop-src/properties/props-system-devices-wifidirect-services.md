@@ -1,5 +1,5 @@
 ---
-Description: Indicates services supported by the Wi-Fi Direct Device.
+description: Indicates services supported by the Wi-Fi Direct Device.
 ms.assetid: 5163eff6-7f65-4602-ad9a-5b8a63e5fd1b
 title: System.Devices.WiFiDirect.Services
 ms.topic: article

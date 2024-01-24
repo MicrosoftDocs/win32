@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to add buttons to the toolbar. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to add buttons to the toolbar. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_GETBUTTONINFO message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ Buttons can be appended or prepended to the standard system folder view object b
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

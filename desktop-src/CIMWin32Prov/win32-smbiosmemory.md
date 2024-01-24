@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SMBIOSMemory abstract WMI class represents the properties of a computer system memory as seen through the system management BIOS (SMBIOS) interface.
+description: The Win32\_SMBIOSMemory abstract WMI class represents the properties of a computer system memory as seen through the system management BIOS (SMBIOS) interface.
 ms.assetid: 2f609fc6-f0f5-45a5-9f9a-3873da034d49
 ms.tgt_platform: multiple
 title: Win32_SMBIOSMemory class
@@ -1778,7 +1778,7 @@ The **Win32\_SMBIOSMemory** class is derived from [**CIM\_StorageExtent**](cim-s
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

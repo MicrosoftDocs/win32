@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_OSSNAPID properties"
 title: JET_OSSNAPID properties
 TOCTitle: JET_OSSNAPID properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_OSSNAPID
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_OSSNAPID](hh558483\(v=exchg.10\).md) type exposes the following members.
+The [JET_OSSNAPID](./jet-ossnapid-structure.md) type exposes the following members.
 
 ## Properties
 
@@ -41,7 +42,6 @@ Top
 
 #### Reference
 
-[JET_OSSNAPID structure](hh558483\(v=exchg.10\).md)
+[JET_OSSNAPID structure](./jet-ossnapid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

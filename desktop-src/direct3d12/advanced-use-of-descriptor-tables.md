@@ -3,7 +3,6 @@ title: Advanced use of Descriptor Tables
 description: The following sections provide information about the advanced use of descriptor tables.
 ms.assetid: BB0CA29C-65CB-48B1-8351-EE13CC470B54
 ms.date: 05/31/2018
-ms.localizationpriority: high
 ms.topic: article
 ---
 

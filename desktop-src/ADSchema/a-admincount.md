@@ -22,7 +22,7 @@ Indicates that a given object has had its ACLs changed to a more secure value by
 
 
 
-|                   |                                                     |
+| Entry | Value |
 |-------------------|-----------------------------------------------------|
 | CN                | Admin-Count                                         |
 | Ldap-Display-Name | adminCount                                          |
@@ -48,7 +48,7 @@ Indicates that a given object has had its ACLs changed to a more secure value by
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -69,7 +69,7 @@ Indicates that a given object has had its ACLs changed to a more secure value by
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -90,7 +90,7 @@ Indicates that a given object has had its ACLs changed to a more secure value by
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -111,7 +111,7 @@ Indicates that a given object has had its ACLs changed to a more secure value by
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -132,7 +132,7 @@ Indicates that a given object has had its ACLs changed to a more secure value by
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -153,7 +153,7 @@ Indicates that a given object has had its ACLs changed to a more secure value by
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |

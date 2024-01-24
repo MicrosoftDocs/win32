@@ -1,5 +1,5 @@
 ---
-Description: Overview of general threading considerations.
+description: Overview of general threading considerations.
 ms.assetid: cf35724f-5f80-4b3e-992a-a9d5ea99aae9
 title: General Threading Considerations
 ms.topic: article
@@ -44,9 +44,9 @@ When your application is performing custom rendering or when your application is
 
 | Object or Control                                            | Event                                                                                                                                                                                                                     |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InkCollector**](inkcollector-class.md) Object<br/> | The underlying control's [Control.Invalidated](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) and [Control.Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) events.<br/>                                 |
-| [**InkOverlay**](inkoverlay-class.md) Object<br/>     | The underlying control's [Control.Invalidated](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) and [Control.Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) events.<br/>                                 |
-| [InkPicture](inkpicture-control.md) Control<br/>      | [InkPicture](inkpicture-control.md) control's inherited [Control.Invalidated](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1) and [Control.Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) events.<br/> |
+| [**InkCollector**](inkcollector-class.md) Object<br/> | The underlying control's [Control.Invalidated](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1&preserve-view=true) and [Control.Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1&preserve-view=true) events.<br/>                                 |
+| [**InkOverlay**](inkoverlay-class.md) Object<br/>     | The underlying control's [Control.Invalidated](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1&preserve-view=true) and [Control.Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1&preserve-view=true) events.<br/>                                 |
+| [InkPicture](inkpicture-control.md) Control<br/>      | [InkPicture](inkpicture-control.md) control's inherited [Control.Invalidated](/dotnet/api/system.windows.forms.control.invalidated?view=netcore-3.1&preserve-view=true) and [Control.Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1&preserve-view=true) events.<br/> |
 
 
 

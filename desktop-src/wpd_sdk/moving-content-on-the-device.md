@@ -1,5 +1,5 @@
 ---
-Description: Moving Content on the Device
+description: Moving Content on the Device
 ms.assetid: 5072d308-d376-4141-96df-dbef23fb9f9b
 title: Moving Content on the Device
 ms.topic: article

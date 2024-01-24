@@ -1,5 +1,5 @@
 ---
-Description: The PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode property indicates whether the endpoint supports the event-driven mode.
+description: The PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode property indicates whether the endpoint supports the event-driven mode.
 ms.assetid: 9cffd9ae-710b-4d41-aa02-3ab1a065e544
 title: PKEY_AudioEndpoint_Supports_EventDriven_Mode (Mmdeviceapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ This property value is populated by an audio OEM in an .inf file to indicate tha
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |

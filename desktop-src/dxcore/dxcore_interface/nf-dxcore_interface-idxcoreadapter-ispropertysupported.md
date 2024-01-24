@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapter::IsPropertySupported
 description: Determines whether this DXCore adapter object and the current operating system (OS) support the specified adapter property.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---
@@ -21,9 +20,9 @@ virtual bool STDMETHODCALLTYPE IsPropertySupported(
 
 ### property
 
-Type: **[DXCoreAdapterProperty](./ne-dxcore_interface-dxcoreadapterproperty.md)**
+Type: **[DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty)**
 
-The type of property that you're querying about support for. See the table in [DXCoreAdapterProperty](./ne-dxcore_interface-dxcoreadapterproperty.md) for more info about each adapter property.
+The type of property that you're querying about support for. See the table in [DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) for more info about each adapter property.
 
 ## Returns
 

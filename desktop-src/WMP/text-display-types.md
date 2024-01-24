@@ -7,10 +7,13 @@ keywords:
 - text in skins,display types
 - skins,text
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Text Display Types
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You do not need to include text displays in your skin, but there are many instances where you might want to. For example, you might want to include a Seek trackbar to allow the user to move to any position in the media item, but you also might want to include a text display that shows the number of seconds that have elapsed since the current media item started playing.
 

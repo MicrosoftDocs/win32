@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the response entity body as text.
+description: Retrieves the response entity body as text.
 ms.assetid: 87caf64f-be11-45c9-af1e-997a55c5e76e
 title: IWinHttpRequest::ResponseText property
 ms.topic: reference
@@ -174,7 +174,7 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

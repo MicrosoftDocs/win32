@@ -1,5 +1,5 @@
 ---
-Description: WMI scheduled tasks create and get information about scheduled tasks. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI scheduled tasks create and get information about scheduled tasks. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 62151fe8-8880-43f2-b456-628bd9c7cc1c
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Scheduled Tasks'
@@ -18,7 +18,6 @@ WMI scheduled tasks create and get information about scheduled tasks. For other 
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-## 
 
 The following procedure describes how to run a script.
 
@@ -40,8 +39,8 @@ The following table lists script examples that can be used to obtain various typ
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,7 +54,7 @@ The following table lists script examples that can be used to obtain various typ
 <td>Use the <a href="/windows/desktop/CIMWin32Prov/win32-scheduledjob"><strong>Win32_ScheduledJob</strong></a> class and the <a href="/windows/desktop/CIMWin32Prov/create-method-in-class-win32-scheduledjob"><strong>Create</strong></a> method. If you are having difficulty making this task work on Windows 7 or later, see the <strong>Win32_ScheduledJob</strong> Remarks section; likely your settings are preventing you from using the class.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -90,7 +89,7 @@ End If</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

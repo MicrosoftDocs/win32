@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the raw application protocol data unit (APDU).
+description: Retrieves the raw application protocol data unit (APDU).
 ms.assetid: d8b326db-de54-4ef8-becb-fd905414c45c
 title: ISCardCmd::get_Apdu method (Scarddat.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

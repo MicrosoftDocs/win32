@@ -1,5 +1,5 @@
 ---
-Description: Device groups allow the specification of the Icons, Label, or DeviceHandlers properties for any device that declares itself part of that group.
+description: Device groups allow the specification of the Icons, Label, or DeviceHandlers properties for any device that declares itself part of that group.
 ms.assetid: 84433068-A869-479D-8ADA-E8221B38CCAE
 title: How to Specify an Icon, Label, or Device Handler for a Device Using a Device Group
 ms.topic: article
@@ -12,7 +12,6 @@ Device groups allow the specification of the Icons, Label, or DeviceHandlers pro
 
 ## Instructions
 
-### 
 
 The following example uses a system with several attached Zip drives. Without specifying the Icons, Label, and DeviceHandlers values for each drive individually, you create a device group called ZipDrive and define those values within it. Each Zip drive is then declared a member of the ZipDrive group.
 

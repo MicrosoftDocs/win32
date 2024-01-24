@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedIndexViolationException constructor"
 title: EsentMultiValuedIndexViolationException constructor 
 TOCTitle: 'EsentMultiValuedIndexViolationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedIndexViolationException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMultiValuedIndexViolationException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentMultiValuedIndexViolationException()
 
 #### Reference
 
-[EsentMultiValuedIndexViolationException class](dn334706\(v=exchg.10\).md)
+[EsentMultiValuedIndexViolationException class](./esentmultivaluedindexviolationexception-class.md)
 
-[EsentMultiValuedIndexViolationException members](dn319635\(v=exchg.10\).md)
+[EsentMultiValuedIndexViolationException members](./esentmultivaluedindexviolationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

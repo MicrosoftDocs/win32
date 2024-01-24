@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the GetRectangle methods of the LinearGradientBrush class. For a complete list of methods for the LinearGradientBrush class, see LinearGradientBrush Methods.
+description: This topic lists the GetRectangle methods of the LinearGradientBrush class. For a complete list of methods for the LinearGradientBrush class, see LinearGradientBrush Methods.
 ms.assetid: 56ec2372-0fd3-4220-a283-5d9691fe2e69
 title: LinearGradientBrush.GetRectangle methods (Gdiplusheaders.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the GetRectangle methods of the [**LinearGradientBrush**](/wind
 
 
 
-|                                     |                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                            |

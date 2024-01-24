@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPOwnExtCorruptedException members"
 title: EsentSPOwnExtCorruptedException members
 TOCTitle: EsentSPOwnExtCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSPOwnExtCorruptedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.SPOwnExtCorrupted exceptions.
 
-The [EsentSPOwnExtCorruptedException](dn334917\(v=exchg.10\).md) type exposes the following members.
+The [EsentSPOwnExtCorruptedException](./esentspownextcorruptedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentSPOwnExtCorruptedException class](dn334917\(v=exchg.10\).md)
+[EsentSPOwnExtCorruptedException class](./esentspownextcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

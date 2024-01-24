@@ -1,5 +1,5 @@
 ---
-Description: The Directory method retrieves a list of files of the specified type from the current directory.
+description: The Directory method retrieves a list of files of the specified type from the current directory.
 ms.assetid: 0ae89811-7534-497b-af9f-ae37a48bc3e5
 title: ISCardFileAccess::Directory method
 ms.topic: reference
@@ -95,7 +95,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

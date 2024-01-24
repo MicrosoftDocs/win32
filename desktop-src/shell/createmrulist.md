@@ -1,5 +1,5 @@
 ---
-Description: Creates a new most recently used (MRU) list.
+description: Creates a new most recently used (MRU) list.
 title: CreateMRUListW function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,16 +14,6 @@ api_type:
 api_location: 
 - Comctl32.dll
 ms.assetid: b2d9e3c7-8151-45ef-9658-bd33a87b4c9c
-api_name: 
- - CreateMRUListW
- - CreateMRUListW
-api_type: 
- - DllExport
-api_location: 
- - Comctl32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -69,7 +59,7 @@ This function is not included in a public header or library. It can be accessed 
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

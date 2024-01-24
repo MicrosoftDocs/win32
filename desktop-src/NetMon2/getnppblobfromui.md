@@ -1,5 +1,5 @@
 ---
-Description: Selects a register NIC.
+description: Selects a register NIC.
 ms.assetid: 27814a40-6933-498b-a0d2-535698b1e402
 title: GetNPPBlobFromUI function (Netmon.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ The caller must call the [DestroyBlob](destroyblob.md) function, which destroys 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

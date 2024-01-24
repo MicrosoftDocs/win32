@@ -1,6 +1,6 @@
 ---
 title: TBM_SETPOS message (Commctrl.h)
-description: Sets the current logical position of the slider in a trackbar.
+description: TBM_SETPOS message - Sets the current logical position of the slider in a trackbar.
 ms.assetid: df6c4e5d-2847-419d-82b5-334d53bb6ba1
 keywords:
 - TBM_SETPOS message Windows Controls
@@ -46,7 +46,7 @@ No return value.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

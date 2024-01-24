@@ -68,7 +68,7 @@ The default event mask is ENM\_NONE in which case no notifications are sent to t
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>RichEdit.h</dt> </dl> |
 

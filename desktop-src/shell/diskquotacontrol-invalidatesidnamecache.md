@@ -1,5 +1,5 @@
 ---
-Description: Invalidates the security ID user name cache.
+description: Invalidates the security ID user name cache.
 ms.assetid: 52f4a051-0caf-43c1-b190-c83c20e9fcf8
 title: DiskQuotaControl.InvalidateSidNameCache method (Dskquota.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ User names and associated security IDs are stored in a cache. You can clear this
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

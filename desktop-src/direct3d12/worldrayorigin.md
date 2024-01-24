@@ -1,8 +1,7 @@
 ---
-Description: The world-space direction for the current ray.
+description: WorldRayOrigin - The world-space direction for the current ray.
 ms.assetid: 
 title: WorldRayOrigin
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

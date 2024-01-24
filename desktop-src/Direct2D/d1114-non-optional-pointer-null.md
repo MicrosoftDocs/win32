@@ -44,9 +44,6 @@ The name of the method that received the invalid parameter.
 
 </dd> </dl> 
 
-|             |       |
-|-------------|-------|
-| Error Level | Error |
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Asynchronous Callback Methods
+description: Asynchronous Callback Methods
 ms.assetid: ea778eaa-6460-4a93-bd6a-1857ea8b6230
 title: Asynchronous Callback Methods
 ms.topic: reference

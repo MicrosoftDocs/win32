@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_DirectorySpecification class evaluates a particular check.
+description: The Invoke method of the CIM\_DirectorySpecification class evaluates a particular check.
 ms.assetid: 63289f94-f134-4159-898c-404cdd8f2a5c
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_DirectorySpecification class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

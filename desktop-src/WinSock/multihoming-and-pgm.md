@@ -1,5 +1,5 @@
 ---
-Description: Special consideration must be given to multihomed PGM senders or receivers. This page describes the considerations, and provides guidelines for best programming practices.
+description: Special consideration must be given to multihomed PGM senders or receivers. This page describes the considerations, and provides guidelines for best programming practices.
 ms.assetid: 10fb56dd-3c96-4944-9b53-aee76c269528
 title: Multihoming and PGM
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This section explains how to perform tasks associated with the Multiple Document Interface.
+description: This section explains how to perform tasks associated with the Multiple Document Interface.
 ms.assetid: 024744d3-362f-4162-8d0a-d4dac61de808
 title: Using the Multiple Document Interface
 ms.topic: article

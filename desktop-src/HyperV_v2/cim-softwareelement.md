@@ -1,5 +1,5 @@
 ---
-Description: Represents an individually manageable or deployable part of a CIM\_SoftwareFeature.
+description: Represents an individually manageable or deployable part of a CIM\_SoftwareFeature.
 ms.assetid: 96affc55-b001-4122-b883-3610bf95a786
 title: CIM_SoftwareElement class (Hyper-V management)
 ms.topic: reference
@@ -27,7 +27,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SoftwareElement class
+# CIM_SoftwareElement class (Hyper-V management)
 
 Represents an individually manageable or deployable part of a **CIM\_SoftwareFeature**.
 
@@ -1069,7 +1069,7 @@ Access type: Read-only
 Qualifiers: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (64), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF.DMTF\|SubComponent Software \|001.4")
 </dt> </dl>
 
-The software version in the format *<Major>*.*<Minor>*.*<Revision>* or *<Major>*.*<Minor><letter><revision>*.
+The software version in the format *&lt;Major&gt;*.*&lt;Minor&gt;*.*&lt;Revision&gt;* or *&lt;Major&gt;*.*&lt;Minor&gt;&lt;letter&gt;&lt;revision&gt;*.
 
 </dd> </dl>
 
@@ -1077,7 +1077,7 @@ The software version in the format *<Major>*.*<Minor>*.*<Revision>* or *<Major>*
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

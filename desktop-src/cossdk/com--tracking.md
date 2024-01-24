@@ -1,5 +1,5 @@
 ---
-Description: COM+ Tracking
+description: COM+ Tracking
 ms.assetid: ad3bdeb5-f303-411a-abfb-ccde3f9a86b9
 title: COM+ Tracking
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables format conversions by the source reader or sink writer.
+description: Enables or disables format conversions by the source reader or sink writer.
 ms.assetid: 282b70c3-c81c-47dd-bfa2-7e77138ccb91
 title: MF_READWRITE_DISABLE_CONVERTERS attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Use this attribute with the following functions:
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

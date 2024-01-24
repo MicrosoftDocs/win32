@@ -1,5 +1,5 @@
 ---
-Description: The CopyValuesFromPropertyStore method copies the contents of an IPropertyStore into the collection.
+description: The CopyValuesFromPropertyStore method copies the contents of an IPropertyStore into the collection.
 ms.assetid: 887c9569-ff76-41cf-8782-62c59c04e831
 title: IPortableDeviceValues::CopyValuesFromPropertyStore method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ This method is supported in Windows Vista and later versions of Windows.
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

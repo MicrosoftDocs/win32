@@ -88,7 +88,7 @@ For Win32 desktop apps, you can use the [Concurrency Runtime](/previous-versions
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX11async.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX11.lib</dt> </dl>    |

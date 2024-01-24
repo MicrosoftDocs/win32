@@ -1,5 +1,5 @@
 ---
-Description: Transforms the BoundingOrientedBox.
+description: Transforms the BoundingOrientedBox.
 ms.assetid: 8602a236-72db-4c1c-8813-03d2f55ac08e
 title: BoundingOrientedBox.Transform methods
 ms.topic: reference

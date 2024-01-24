@@ -22,7 +22,7 @@ A number that represents the OM type for the attribute.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | OM-Syntax                            |
 | Ldap-Display-Name | oMSyntax                             |
@@ -49,7 +49,7 @@ A number that represents the OM type for the attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FE                                                   |
@@ -70,7 +70,7 @@ A number that represents the OM type for the attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FE                                                   |
@@ -91,7 +91,7 @@ A number that represents the OM type for the attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FE                                                   |
@@ -112,7 +112,7 @@ A number that represents the OM type for the attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FE                                                   |
@@ -133,7 +133,7 @@ A number that represents the OM type for the attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FE                                                   |
@@ -154,7 +154,7 @@ A number that represents the OM type for the attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FE                                                   |
@@ -175,7 +175,7 @@ A number that represents the OM type for the attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FE                                                   |

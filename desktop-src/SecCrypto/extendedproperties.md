@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of ExtendedProperty objects.
+description: Represents a collection of ExtendedProperty objects.
 ms.assetid: '9de25994-9f0b-47a0-b4c8-781aec782f88'
 title: ExtendedProperties object
 ms.topic: reference
@@ -76,7 +76,7 @@ The **ExtendedProperties** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

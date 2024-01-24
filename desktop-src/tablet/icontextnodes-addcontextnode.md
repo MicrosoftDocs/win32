@@ -1,5 +1,5 @@
 ---
-Description: Adds an IContextNode object to this collection.
+description: Adds an IContextNode object to this collection.
 ms.assetid: 48feae05-1cc8-46c3-97cd-4493ee28b8e5
 title: IContextNodes::AddContextNode method (IACom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

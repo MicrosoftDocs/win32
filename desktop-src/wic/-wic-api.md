@@ -1,5 +1,5 @@
 ---
-Description: The Windows Imaging Component (WIC) provides a Component Object Model (COM) based API for use in C and C++.
+description: The Windows Imaging Component (WIC) provides a Component Object Model (COM) based API for use in C and C++.
 ms.assetid: 74b14b5e-70e9-410f-a6e6-d8873a5f4fa4
 title: WIC API Overview
 ms.topic: article

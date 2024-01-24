@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PrinterShare association WMI class relates a local printer and the share that represents it as it is viewed over a network.
+description: The Win32\_PrinterShare association WMI class relates a local printer and the share that represents it as it is viewed over a network.
 ms.assetid: 9ac99e52-5e8f-4329-960f-7bd1fd229e37
 ms.tgt_platform: multiple
 title: Win32_PrinterShare class
@@ -86,7 +86,7 @@ The **Win32\_PrinterShare** class is derived from [**CIM\_Dependency**](cim-depe
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

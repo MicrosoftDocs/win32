@@ -1,5 +1,5 @@
 ---
-Description: Defines a virtual system.
+description: Defines a virtual system.
 ms.assetid: c3964e99-9227-4b98-af87-7caa59296306
 title: DefineSystem method of the CIM_VirtualSystemManagementService class
 ms.topic: reference
@@ -112,7 +112,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

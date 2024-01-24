@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about the native BMP codec available through the Windows Imaging Component (WIC).
+description: This topic provides information about the native BMP codec available through the Windows Imaging Component (WIC).
 ms.assetid: 85AC5A30-A915-439E-A10F-B2833DDA995C
 title: BMP Format Overview
 ms.topic: article
@@ -16,7 +16,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                       |
+| Component              | Description           |
 |------------------------|-----------------------|
 | Formal Name(s)         | Windows Bitmap Format |
 | File Name Extension(s) | bmp, dib              |

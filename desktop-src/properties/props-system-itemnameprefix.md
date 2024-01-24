@@ -1,5 +1,5 @@
 ---
-Description: The prefix of an item, used for e-mail messages where the subject begins with the prefix &\#0034;Re:&\#0034;.
+description: The prefix of an item, used for e-mail messages where the subject begins with the prefix &\#0034;Re:&\#0034;.
 ms.assetid: 3c257edc-b7f7-498d-8347-0be4fca41023
 title: System.ItemNamePrefix
 ms.topic: article

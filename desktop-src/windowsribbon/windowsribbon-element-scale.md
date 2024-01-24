@@ -34,10 +34,10 @@ Represents the size and layout preference of a [**Group**](windowsribbon-element
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -164,10 +164,8 @@ The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 

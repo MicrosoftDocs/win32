@@ -1,5 +1,5 @@
 ---
-Description: The examples in this section deal with different aspects of using Multiple Display Monitors.
+description: The examples in this section deal with different aspects of using Multiple Display Monitors.
 ms.assetid: dbb1dcae-9e8e-47e5-936f-fcd035d5f098
 title: Using Multiple Display Monitors
 ms.topic: article

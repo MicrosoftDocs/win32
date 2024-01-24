@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the cipher suites supported by a Secure Sockets Layer protocol (SSL) protocol provider.
+description: Enumerates the cipher suites supported by a Secure Sockets Layer protocol (SSL) protocol provider.
 ms.assetid: c12bc422-71c9-44f4-abf7-76902b19d3bd
 title: SslEnumCipherSuites function (Sslprovider.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ Set this parameter to **NULL** when you are not specifying a private key.
 *ppCipherSuite* \[out\]
 </dt> <dd>
 
-A pointer to a [**NCRYPT\_SSL\_CIPHER\_SUITE**](https://www.bing.com/search?q=**NCRYPT\_SSL\_CIPHER\_SUITE**) structure to receive the address of the next cipher suite in the list.
+A pointer to a **NCRYPT\_SSL\_CIPHER\_SUITE** structure to receive the address of the next cipher suite in the list.
 
 </dd> <dt>
 
@@ -112,22 +112,10 @@ To enumerate all cipher suites supported by the SSL provider, call the **SslEnum
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Ncrypt.lib</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
-
-
-
-## See also
-
-<dl> <dt>
-
-[**NCRYPT\_SSL\_CIPHER\_SUITE**](https://www.bing.com/search?q=**NCRYPT\_SSL\_CIPHER\_SUITE**)
-</dt> </dl>
-
- 
-

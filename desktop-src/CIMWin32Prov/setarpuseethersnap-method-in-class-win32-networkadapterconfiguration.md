@@ -1,5 +1,5 @@
 ---
-Description: The SetArpUseEtherSNAP WMI class static method is used to enable ethernet packets to use 802.3 SNAP encoding.
+description: The SetArpUseEtherSNAP WMI class static method is used to enable ethernet packets to use 802.3 SNAP encoding.
 ms.assetid: 437954c0-ea6b-4559-a4cb-1f66630e70fe
 ms.tgt_platform: multiple
 title: SetArpUseEtherSNAP method of the Win32_NetworkAdapterConfiguration class
@@ -403,15 +403,11 @@ DHCP not enabled on adapter.
 
 By default, the stack transmits packets in Digital, Intel, Xerox (DIX) Ethernet format. It always receives both formats.
 
-## Examples
-
-The [Modify ARP Queries to Use EtherSNAP](https://Gallery.TechNet.Microsoft.Com/2fe24075-fdb1-486d-8c0b-d25075fd8f21) VBScript code sample on TechNet Gallery uses **SetArpUseEtherSNAP** to configure the network adapters on a computer to use 802.3 SNAP encoding for Ethernet packets.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

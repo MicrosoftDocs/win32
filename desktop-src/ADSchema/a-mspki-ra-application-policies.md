@@ -22,7 +22,7 @@ The required RA application policy OID in the counter signatures of the certific
 
 
 
-|                   |                                                                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | CN                | ms-PKI-RA-Application-Policies                                                             |
 | Ldap-Display-Name | msPKI-RA-Application-Policies                                                              |
@@ -47,7 +47,7 @@ The required RA application policy OID in the counter signatures of the certific
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -68,7 +68,7 @@ The required RA application policy OID in the counter signatures of the certific
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -89,7 +89,7 @@ The required RA application policy OID in the counter signatures of the certific
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -110,7 +110,7 @@ The required RA application policy OID in the counter signatures of the certific
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -131,7 +131,7 @@ The required RA application policy OID in the counter signatures of the certific
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

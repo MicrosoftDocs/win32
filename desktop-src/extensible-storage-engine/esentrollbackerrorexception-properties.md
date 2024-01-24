@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRollbackErrorException properties"
 title: EsentRollbackErrorException properties
 TOCTitle: EsentRollbackErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRollbackErrorException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRollbackErrorException](dn350592\(v=exchg.10\).md) type exposes the following members.
+The [EsentRollbackErrorException](./esentrollbackerrorexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentRollbackErrorException class](dn350592\(v=exchg.10\).md)
+[EsentRollbackErrorException class](./esentrollbackerrorexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

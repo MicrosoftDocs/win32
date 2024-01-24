@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for TCP/IP events. The following syntax is simplified from MOF code.
+description: TcpIp class - This class is the parent class for TCP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: f9d6ea8f-c777-4747-89f4-f389c6eeac35
 title: TcpIp class
 ms.topic: reference
@@ -71,7 +71,7 @@ You can trace network events to a source and destination process using the **Pro
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

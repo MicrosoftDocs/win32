@@ -1,5 +1,5 @@
 ---
-Description: Business address state of the contact.
+description: Business address state of the contact.
 ms.assetid: 4e0af488-61af-4f1a-b0a2-eff8b9fbbc3a
 title: System.Contact.BusinessAddressState
 ms.topic: article

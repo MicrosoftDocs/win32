@@ -1,5 +1,5 @@
 ---
-Description: A parser is the Network Monitor component that inspects data in a delayed capture, and passes specific protocol information to the application that calls the parser. A parser is passive because it works only when Network Monitor or an expert call it.
+description: A parser is the Network Monitor component that inspects data in a delayed capture, and passes specific protocol information to the application that calls the parser. A parser is passive because it works only when Network Monitor or an expert call it.
 ms.assetid: 6c135a24-5718-429a-988b-a2abd6b563d1
 title: Parser
 ms.topic: article

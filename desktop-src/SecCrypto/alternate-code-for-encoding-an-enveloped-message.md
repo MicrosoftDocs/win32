@@ -1,5 +1,5 @@
 ---
-Description: The following example demonstrates an alternate process of encoding a signed message, using that signed message as the inner content for an enveloped message. In preparation for decoding, the inner content is tested to determine its inner-content type.
+description: The following example demonstrates an alternate process of encoding a signed message, using that signed message as the inner content for an enveloped message. In preparation for decoding, the inner content is tested to determine its inner-content type.
 ms.assetid: ba174e3c-bc2f-48bd-a1bf-fec491dc0ce3
 title: Alternate Code for Encoding an Enveloped Message
 ms.topic: article

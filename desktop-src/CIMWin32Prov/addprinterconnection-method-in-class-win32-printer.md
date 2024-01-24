@@ -1,5 +1,5 @@
 ---
-Description: Provides a connection to an existing printer on the network, and adds it to the list of available printers.
+description: Provides a connection to an existing printer on the network, and adds it to the list of available printers.
 ms.assetid: 44149051-4abf-4428-8999-355dd0b0ce69
 ms.tgt_platform: multiple
 title: AddPrinterConnection method of the Win32_Printer class
@@ -80,10 +80,6 @@ Incompatible Printer Driver
 
 ## Examples
 
-The [Add-PrinterDriver](https://Gallery.TechNet.Microsoft.Com/1c8f4c0d-9439-4af0-8840-59686d9b4bc1) PowerShell sample installs all printer drivers from a specified print server.
-
-The [ListSharedPrintersAddPrintConnection.ps1](https://Gallery.TechNet.Microsoft.Com/b7f74333-e78b-49d8-b23a-f1307d5b1ee6) PowerShell sample lists shared printers on a remote comptuer, and gives you the ability to add a printer connection from the remote computer to your computer.
-
 The following VBScript code sample adds a local printer.
 
 
@@ -118,7 +114,7 @@ objPrinter.Put_()
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

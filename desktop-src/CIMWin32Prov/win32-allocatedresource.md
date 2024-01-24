@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_AllocatedResource association WMI class relates a logical device to a system resource. This class is used to discover which resources, such as IRQs or DMA channels, are in use by a specific device.
+description: The Win32\_AllocatedResource association WMI class relates a logical device to a system resource. This class is used to discover which resources, such as IRQs or DMA channels, are in use by a specific device.
 ms.assetid: cfac1209-1405-4fee-847c-8a61504bfac1
 ms.tgt_platform: multiple
 title: Win32_AllocatedResource class
@@ -89,7 +89,7 @@ The **Win32\_AllocatedResource** class is derived from [**CIM\_Dependency**](cim
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

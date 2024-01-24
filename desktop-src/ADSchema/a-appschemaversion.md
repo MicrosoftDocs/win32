@@ -22,7 +22,7 @@ This attribute stores the schema version of the class store. It is used to provi
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | App-Schema-Version                   |
 | Ldap-Display-Name | appSchemaVersion                     |
@@ -48,7 +48,7 @@ This attribute stores the schema version of the class store. It is used to provi
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -69,7 +69,7 @@ This attribute stores the schema version of the class store. It is used to provi
 
 
 
-|                        |                                                                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
@@ -90,7 +90,7 @@ This attribute stores the schema version of the class store. It is used to provi
 
 
 
-|                        |                                                                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
@@ -111,7 +111,7 @@ This attribute stores the schema version of the class store. It is used to provi
 
 
 
-|                        |                                                                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
@@ -132,7 +132,7 @@ This attribute stores the schema version of the class store. It is used to provi
 
 
 
-|                        |                                                                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |
@@ -153,7 +153,7 @@ This attribute stores the schema version of the class store. It is used to provi
 
 
 
-|                        |                                                                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                                                    |

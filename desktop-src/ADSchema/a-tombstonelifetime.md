@@ -22,7 +22,7 @@ The number of days before a deleted object is removed from the directory service
 
 
 
-|                   |                                                           |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------|
 | CN                | Tombstone-Lifetime                                        |
 | Ldap-Display-Name | tombstoneLifetime                                         |
@@ -49,7 +49,7 @@ The number of days before a deleted object is removed from the directory service
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x8145                                           |
@@ -70,7 +70,7 @@ The number of days before a deleted object is removed from the directory service
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x8145                                           |
@@ -91,7 +91,7 @@ The number of days before a deleted object is removed from the directory service
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x8145                                           |
@@ -112,7 +112,7 @@ The number of days before a deleted object is removed from the directory service
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x8145                                           |
@@ -133,7 +133,7 @@ The number of days before a deleted object is removed from the directory service
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x8145                                           |
@@ -154,7 +154,7 @@ The number of days before a deleted object is removed from the directory service
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x8145                                           |
@@ -175,7 +175,7 @@ The number of days before a deleted object is removed from the directory service
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x8145                                           |

@@ -1,5 +1,5 @@
 ---
-Description: ICE06 checks every table to validate that all the columns listed in the \_Validation table are present in the table. If a table does not exist, any \_Validation entries for that table are ignored.
+description: ICE06 checks every table to validate that all the columns listed in the \_Validation table are present in the table. If a table does not exist, any \_Validation entries for that table are ignored.
 ms.assetid: 0c3f21ae-49ea-4cfe-b465-6fdc2b19cbb9
 title: ICE06
 ms.topic: article

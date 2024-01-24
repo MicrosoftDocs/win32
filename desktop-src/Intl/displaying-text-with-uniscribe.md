@@ -1,5 +1,5 @@
 ---
-Description: Your applications can use Uniscribe API functions to support typography and the display and editing of international text. Uniscribe uses the paragraph as the unit for text display, and the Uniscribe functionality must be used for the entire paragraph.
+description: Your applications can use Uniscribe API functions to support typography and the display and editing of international text. Uniscribe uses the paragraph as the unit for text display, and the Uniscribe functionality must be used for the entire paragraph.
 ms.assetid: e1adc567-0445-4deb-8634-25653f82127c
 title: Displaying Text with Uniscribe
 ms.topic: article
@@ -50,7 +50,7 @@ As shown in the following table, Uniscribe version 1.6 or greater supports sever
 
 ## Lay Out Text Using Uniscribe
 
-Your application can use the following steps to lay out out a text paragraph with Uniscribe. This procedure assumes that the application has already divided the paragraph into runs.
+Your application can use the following steps to lay out a text paragraph with Uniscribe. This procedure assumes that the application has already divided the paragraph into runs.
 
 1.  Call [**ScriptRecordDigitSubstitution**](/windows/desktop/api/Usp10/nf-usp10-scriptrecorddigitsubstitution) only when starting or when receiving a [**WM\_SETTINGCHANGE**](../winmsg/wm-settingchange.md) message.
 2.  (Optional) Call [**ScriptIsComplex**](/windows/desktop/api/Usp10/nf-usp10-scriptiscomplex) to determine if the paragraph requires complex processing.

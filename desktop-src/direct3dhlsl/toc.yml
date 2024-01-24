@@ -1,7 +1,7 @@
-- name: "HLSL"
+- name: "High-level shader language (HLSL)"
   href: dx-graphics-hlsl.md
   items: 
-  - name: "Programming Guide for HLSL"
+  - name: "Programming guide for HLSL"
     href: dx-graphics-hlsl-pguide.md
     items: 
     - name: "Using shader linking"
@@ -101,6 +101,8 @@
             href: dx-graphics-hlsl-struct.md
           - name: "User-Defined Type"
             href: dx-graphics-hlsl-user-defined.md
+          - name: "State Object Types"
+            href: dx-graphics-hlsl-state-object.md
       - name: "Flow Control"
         href: dx-graphics-hlsl-flow-control.md
         items: 
@@ -1331,8 +1333,8 @@
         href: dst.md
       - name: "errorf"
         href: errorf.md
-      - name: "EvaluateAttributeAtCentroid"
-        href: evaluateattributeatcentroid.md
+      - name: "EvaluateAttributeCentroid"
+        href: evaluateattributecentroid.md
       - name: "EvaluateAttributeAtSample"
         href: evaluateattributeatsample.md
       - name: "EvaluateAttributeSnapped"
@@ -2291,9 +2293,9 @@
           href: dcl-output-omask--sm5---asm-.md
         - name: "dcl_output_control_point_count (sm5 - asm)"
           href: dcl-output-control-point-count--sm5---asm-.md
-        - name: "dcl_resource raw (sm5 - asm)"
+        - name: "dcl_resource_raw (sm5 - asm)"
           href: dcl-resource-raw--sm5---asm-.md
-        - name: "dcl_resource structured (sm5 - asm)"
+        - name: "dcl_resource_structured (sm5 - asm)"
           href: dcl-resource-structured--sm5---asm-.md
         - name: "dcl_stream (sm5 - asm)"
           href: dcl-stream--sm5---asm-.md

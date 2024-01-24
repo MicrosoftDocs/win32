@@ -1,5 +1,5 @@
 ---
-Description: Specifies characteristics that a client can assign to an audio stream during the initialization of the stream.
+description: Specifies characteristics that a client can assign to an audio stream during the initialization of the stream.
 ms.assetid: 7b2267c3-79f5-4ada-a7ce-78dd514f8487
 title: AUDCLNT_STREAMFLAGS_XXX Constants (Audiosessiontypes.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ The AUDCLNT\_STREAMFLAGS\_RATEADJUST flag enables an application to get a refere
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                    |

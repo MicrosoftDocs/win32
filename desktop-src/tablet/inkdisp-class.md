@@ -1,5 +1,5 @@
 ---
-Description: Represents the collected strokes of ink within an ink space.
+description: InkDisp class - Represents the collected strokes of ink within an ink space.
 ms.assetid: f942d6a3-f303-49df-a128-de9760b508ef
 title: InkDisp class (Msinkaut.h)
 ms.topic: reference
@@ -128,7 +128,7 @@ The [**InkRenderer**](inkrenderer-class.md) object manages the mappings between 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

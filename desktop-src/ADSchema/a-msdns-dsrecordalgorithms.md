@@ -22,7 +22,7 @@ An attribute used to define the algorithms used when writing the dsset file duri
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-DS-Record-Algorithms          |
 | Ldap-Display-Name | msDNS-DSRecordAlgorithms             |
@@ -43,7 +43,7 @@ An attribute used to define the algorithms used when writing the dsset file duri
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

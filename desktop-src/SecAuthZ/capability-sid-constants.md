@@ -1,5 +1,5 @@
 ---
-Description: Define for applications well-known capabilities by using the AllocateAndInitializeSid function.
+description: Define for applications well-known capabilities by using the AllocateAndInitializeSid function.
 ms.assetid: CD27774F-0B70-4D97-96C9-B247536CC88E
 title: Capability SID Constants (Winnt.h)
 ms.topic: reference
@@ -150,7 +150,7 @@ When constructing a capability SID, you need to include the package authority, S
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

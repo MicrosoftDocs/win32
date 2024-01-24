@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIdInUseException members"
 title: EsentDatabaseIdInUseException members
 TOCTitle: EsentDatabaseIdInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIdInUseException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseIdInUse exceptions.
 
-The [EsentDatabaseIdInUseException](dn334396\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseIdInUseException](./esentdatabaseidinuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseIdInUseException class](dn334396\(v=exchg.10\).md)
+[EsentDatabaseIdInUseException class](./esentdatabaseidinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

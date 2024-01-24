@@ -1,22 +1,25 @@
 ---
-Description: Subtracts two 4D vectors.
+description: Subtracts two 4D vectors.
 ms.assetid: 3bc55b38-818e-40eb-859e-495ee28fc4ae
 title: D3DXVec4Subtract function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4Subtract
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec4Subtract function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Subtracts two 4D vectors.
 
@@ -78,7 +81,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -101,7 +104,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

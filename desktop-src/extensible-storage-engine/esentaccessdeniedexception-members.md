@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAccessDeniedException members"
 title: EsentAccessDeniedException members
 TOCTitle: EsentAccessDeniedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentAccessDeniedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.AccessDenied exceptions.
 
-The [EsentAccessDeniedException](dn273978\(v=exchg.10\).md) type exposes the following members.
+The [EsentAccessDeniedException](./esentaccessdeniedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentAccessDeniedException class](dn273978\(v=exchg.10\).md)
+[EsentAccessDeniedException class](./esentaccessdeniedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

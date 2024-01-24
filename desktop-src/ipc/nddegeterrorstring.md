@@ -1,5 +1,5 @@
 ---
-Description: Converts an error code returned by a network DDE function into an error string that explains the returned error code.
+description: Converts an error code returned by a network DDE function into an error string that explains the returned error code.
 ms.assetid: 7077e3bc-df6e-401b-9ac7-15144b79af96
 title: NDdeGetErrorString function (Nddeapi.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If the function fails, the return value is a nonzero error code. If the *lpszErr
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

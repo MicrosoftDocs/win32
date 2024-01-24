@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_BootConfiguration WMI class represents the boot configuration of a computer system running Windows.
+description: The Win32\_BootConfiguration WMI class represents the boot configuration of a computer system running Windows.
 ms.assetid: c2db28dd-3feb-44bb-a532-c91cab980ba3
 ms.tgt_platform: multiple
 title: Win32_BootConfiguration class
@@ -220,8 +220,6 @@ The **Win32\_BootConfiguration** class is derived from [**CIM\_Setting**](cim-se
 
 ## Examples
 
-The [List the Boot Configuration Properties of a Computer](https://Gallery.TechNet.Microsoft.Com/55c35de3-bb6a-47f0-89f9-d2c49ab4cf19) Perl sample returns boot configuration information for a computer.
-
 The following VBScript sample returns boot configuration information for a computer.
 
 
@@ -284,7 +282,7 @@ Temp Directory     : C:\WINDOWS\system32\config\systemprofile\Local Settings\Tem
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

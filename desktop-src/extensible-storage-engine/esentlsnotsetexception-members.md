@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSNotSetException members"
 title: EsentLSNotSetException members
 TOCTitle: EsentLSNotSetException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLSNotSetException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LSNotSet exceptions.
 
-The [EsentLSNotSetException](dn334676\(v=exchg.10\).md) type exposes the following members.
+The [EsentLSNotSetException](./esentlsnotsetexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLSNotSetException class](dn334676\(v=exchg.10\).md)
+[EsentLSNotSetException class](./esentlsnotsetexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

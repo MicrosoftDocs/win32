@@ -1,5 +1,5 @@
 ---
-Description: Retrieving the Rendering Capabilities Supported by a Device
+description: Retrieving the Rendering Capabilities Supported by a Device
 ms.assetid: 2332e3cc-087c-49cf-bde9-7f86f65158e7
 title: Retrieving the Rendering Capabilities Supported by a Device
 ms.topic: article

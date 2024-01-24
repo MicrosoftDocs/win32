@@ -1,5 +1,5 @@
 ---
-Description: Represents a 4D vector with signed integer coordinates.
+description: Represents a 4D vector with signed integer coordinates.
 MS-HAID: vspixengine.PixEngineInt4
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -47,7 +47,7 @@ The position of the W axis component.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

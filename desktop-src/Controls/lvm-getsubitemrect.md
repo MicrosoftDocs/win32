@@ -34,7 +34,7 @@ Index of the subitem's parent item.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive the subitem bounding rectangle information. Its members must be initialized according to the following member/value relationships:
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that will receive the subitem bounding rectangle information. Its members must be initialized according to the following member/value relationships:
 
 
 
@@ -59,7 +59,7 @@ Following are the flag values that may be set.
 
 
 
-|                |                                                                                                                     |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------|
 | **Flag Value** | **Meaning**                                                                                                         |
 | LVIR\_BOUNDS   | Returns the bounding rectangle of the entire item, including the icon and label.                                    |
@@ -74,7 +74,7 @@ Following are the flag values that may be set.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

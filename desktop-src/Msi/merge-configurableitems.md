@@ -1,5 +1,5 @@
 ---
-Description: The read-only ConfigurableItems property of the Merge object returns a collection ConfigurableItem objects, each of which represents a single row from the ModuleConfiguration table.
+description: The read-only ConfigurableItems property of the Merge object returns a collection ConfigurableItem objects, each of which represents a single row from the ModuleConfiguration table.
 ms.assetid: 4d1a64f7-fbd0-4358-8911-112e43f1be4a
 title: Merge.ConfigurableItems property (Mergemod.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ See [**get\_ConfigurableItems**](/windows/desktop/api/Mergemod/nf-mergemod-imsmm
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

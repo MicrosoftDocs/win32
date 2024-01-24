@@ -1,5 +1,5 @@
 ---
-Description: The OpenSearch code sample demonstrates how to create a federated search service using the OpenSearch protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
+description: The OpenSearch code sample demonstrates how to create a federated search service using the OpenSearch protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
 ms.assetid: 792884e4-826b-4474-82e1-1680d4d8b602
 title: OpenSearch
 ms.topic: article

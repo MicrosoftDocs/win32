@@ -173,7 +173,7 @@ Many new APIs have been added for Windows 8 and Windows Server 2012.
 
 ## Windows 7 updates to the Windows Filtering Platform
 
-The document [What's New in Windows Filtering Platform](https://download.microsoft.com/download/5/2/0/520FB22A-4374-45FC-B62B-B556E749AEE0/WFP - What's New in Win7-V1.1.docx) details many of the updates made for Windows 7. Information is also available in the Windows Driver Kit on [WFP Changes for Windows 7](/windows-hardware/drivers/network/wfp-changes-for-windows-7).
+The document [What's New in Windows Filtering Platform]() details many of the updates made for Windows 7. Information is also available in the Windows Driver Kit on [WFP Changes for Windows 7](/windows-hardware/drivers/network/wfp-changes-for-windows-7).
 
  
 

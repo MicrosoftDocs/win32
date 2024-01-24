@@ -1,5 +1,5 @@
 ---
-Description: The SetEmailNames method sets an array of e-mail addresses associated with the conference blob.
+description: The SetEmailNames method sets an array of e-mail addresses associated with the conference blob.
 ms.assetid: 1d6d5b01-bc0f-455f-8b23-bc0f409afde4
 title: ITSdp::SetEmailNames method (Sdpblb.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The lists that *Addresses* and *Names* point to are the same length.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

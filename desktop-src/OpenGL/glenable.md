@@ -1,6 +1,6 @@
 ---
 title: glEnable function (Gl.h)
-description: The glEnable and glDisable functions enable or disable OpenGL capabilities.
+description: The glEnable and glDisable functions enable or disable OpenGL capabilities. | glEnable function (Gl.h)
 ms.assetid: cd4590dd-ae41-47c9-9861-10d72318840f
 keywords:
 - glEnable function OpenGL
@@ -47,19 +47,6 @@ For discussion of the values *cap* can take, see the following Remarks section.
 ## Return value
 
 This function does not return a value.
-
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *cap* was not one of the values listed in the preceding Remarks section.<br/>                                                   |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
 
 ## Error codes
 
@@ -142,7 +129,7 @@ Both **glEnable** and **glDisable** take a single argument, *cap*, which can ass
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

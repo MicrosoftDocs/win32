@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN members"
 title: JET_SETCOLUMN members
 TOCTitle: JET_SETCOLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN
@@ -13,9 +14,9 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-Contains input and output parameters for [JetSetColumns(JET_SESID, JET_TABLEID, \[\], Int32)](dn334006\(v=exchg.10\).md). Fields in the structure describe what column value to set, how to set it, and where to get the column set data.
+Contains input and output parameters for [JetSetColumns(JET_SESID, JET_TABLEID, \[\], Int32)](./api.jetsetcolumns-method.md). Fields in the structure describe what column value to set, how to set it, and where to get the column set data.
 
-The [JET_SETCOLUMN](dn335260\(v=exchg.10\).md) type exposes the following members.
+The [JET_SETCOLUMN](./jet-setcolumn-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -157,6 +158,6 @@ Top
 
 #### Reference
 
-[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](./jet-setcolumn-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

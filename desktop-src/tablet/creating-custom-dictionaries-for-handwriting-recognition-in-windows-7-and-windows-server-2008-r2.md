@@ -1,5 +1,5 @@
 ---
-Description: This section explains how to create a custom dictionary for handwriting recognition.
+description: This section explains how to create a custom dictionary for handwriting recognition.
 ms.assetid: 83abf534-740c-44a3-bbd4-babb54f2930e
 title: Creating Custom Dictionaries for Handwriting Recognition in Windows 7 and Windows Server 2008 R2
 ms.topic: article
@@ -44,8 +44,8 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -55,12 +55,12 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 </thead>
 <tbody>
 <tr class="odd">
-<td>-lang <localename></td>
-<td>The specified locale name assigned to the compiled custom dictionary file. The argument <localename> has the form language-REGION. An example of this is en-US, which signifies the English language in the United States region. For examples of this form, see [Language Identifier Constants and Strings](/windows/desktop/Intl/language-identifier-constants-and-strings). The following languages are supported for Windows 7 and Windows Server 2008 R2 by this feature: en-US, en-GB, en-CA, en-AU, de-DE, de-CH, fr-FR, es-ES, es-MX, es-AR, it-IT, nl-NL, nl-BE, pt-BR, pt-PT, da-DK, sv-SE, nb-NO, nn-NO, fi-FI, pl-PL, cs-CZ, ru-RU, ro-RO, sr-Latn-CS, sr-Cyrl-CS, ca-ES and hr-HR.<br/></td>
+<td>-lang &lt;localename&gt;</td>
+<td>The specified locale name assigned to the compiled custom dictionary file. The argument &lt;localename&gt; has the form language-REGION. An example of this is en-US, which signifies the English language in the United States region. For examples of this form, see [Language Identifier Constants and Strings](/windows/desktop/Intl/language-identifier-constants-and-strings). The following languages are supported for Windows 7 and Windows Server 2008 R2 by this feature: en-US, en-GB, en-CA, en-AU, de-DE, de-CH, fr-FR, es-ES, es-MX, es-AR, it-IT, nl-NL, nl-BE, pt-BR, pt-PT, da-DK, sv-SE, nb-NO, nn-NO, fi-FI, pl-PL, cs-CZ, ru-RU, ro-RO, sr-Latn-CS, sr-Cyrl-CS, ca-ES and hr-HR.<br/></td>
 </tr>
 <tr class="even">
-<td>-type <type></td>
-<td>The option argument <type> is a single-string concatenation of the resource's use as either the main word list (PRIMARY) or as a supplement to the main word list (SECONDARY) followed by the actual word list name to which the resource is applied (such as DICTIONARY or SURNAME). The following are possible values:
+<td>-type &lt;type&gt;</td>
+<td>The option argument &lt;type&gt; is a single-string concatenation of the resource's use as either the main word list (PRIMARY) or as a supplement to the main word list (SECONDARY) followed by the actual word list name to which the resource is applied (such as DICTIONARY or SURNAME). The following are possible values:
 <ul>
 <li>PRIMARY-CITYNAME-LIST</li>
 <li>PRIMARY-COUNTRYNAME-LIST</li>
@@ -83,19 +83,19 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 <li>SECONDARY-URL-LIST</li>
 </ul>
 If a type value starts with the prefix PRIMARY, the compiled dictionary, after it is installed, will replace the system dictionary for that language. The value PRIMARY-DICTIONARY represents the main system dictionary for a language.
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Replacing a system dictionary does nothing to the original system dictionary content, as the replacement is in effect only until the custom dictionary has been removed.
-</blockquote>
+
 <br/> If a type value starts with the prefix SECONDARY, the compiled dictionary will supplement the system dictionary without replacing it.</td>
 </tr>
 <tr class="odd">
-<td>-comment <comment></td>
+<td>-comment &lt;comment&gt;</td>
 <td>The specified comment is compiled into the dictionary file. The comment must be a single string and no longer than 64 characters.</td>
 </tr>
 <tr class="even">
-<td>-o <dictfile.hwrdict></td>
-<td>Output is written to the file name specified by <dictfile.hwrdict>.<br/> If this option is missing, the output file name is derived from the original input file name, with the input file extension replaced by .hwrdict.<br/></td>
+<td>-o &lt;dictfile.hwrdict&gt;</td>
+<td>Output is written to the file name specified by &lt;dictfile.hwrdict&gt;.<br/> If this option is missing, the output file name is derived from the original input file name, with the input file extension replaced by .hwrdict.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -108,7 +108,7 @@ Replacing a system dictionary does nothing to the original system dictionary con
 
 If no parameters are specified, the default option values are
 
--lang <current input language> -type SECONDARY-DICTIONARY
+-lang \<current input language\> -type SECONDARY-DICTIONARY
 
 ### Examples
 
@@ -149,7 +149,7 @@ Usage: hwrreg        [-check]
 | Parameter                | Description                                                                                                                                                                                                                                                                                                                                                                        |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | -check                   | The dictionary file is verified without being installed. The  check option displays the file's comment, plus the registration information that would be used to install the file. This option is useful for verifying registration information before the installation is performed. <br/> If this option is missing, HwrReg.exe installs the custom dictionary.<br/>  |
-|  lang <localename> | The dictionary file is verified without being installed. The  check option displays the file's comment, plus the registration information that would be used to install the file. This option is useful for verifying registration information before the installation is performed. <br/> If this option is missing, HwrReg.exe installs the custom dictionary. <br/> |
+|  lang &lt;localename&gt; | The dictionary file is verified without being installed. The  check option displays the file's comment, plus the registration information that would be used to install the file. This option is useful for verifying registration information before the installation is performed. <br/> If this option is missing, HwrReg.exe installs the custom dictionary. <br/> |
 |  scope {all\|me}         | The custom dictionary is installed either for all users ( scope all) or for just the current user ( scope me). Installing with  scope all requires the command to be run in an elevated command prompt; otherwise, an error code will be returned. <br/> If this option is missing, the installation is scoped to just the current user.<br/>                          |
 |  noprompt                | HwrReg.exe does not prompt for confirmation. This can be useful when running hwrReg.exe from a script. <br/>                                                                                                                                                                                                                                                                 |
 
@@ -180,9 +180,9 @@ Usage: hwrreg        [-lang <localename>]
 
 | Parameter                | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  lang <localename> | The dictionaries registered for only this locale name are listed or removed. The argument <localename> has the form language REGION. For examples of this form, see [Language Identifier Constants and Strings](/windows/desktop/Intl/language-identifier-constants-and-strings). <br/> If this option is missing, dictionaries for all languages are listed or removed.<br/> |
+|  lang &lt;localename&gt; | The dictionaries registered for only this locale name are listed or removed. The argument &lt;localename&gt; has the form language REGION. For examples of this form, see [Language Identifier Constants and Strings](/windows/desktop/Intl/language-identifier-constants-and-strings). <br/> If this option is missing, dictionaries for all languages are listed or removed.<br/> |
 |  scope {all\|me}         | The custom dictionary is installed either for all users ( scope all) or for just the current user ( scope me). Installing with  scope all requires the command to be run in an elevated command prompt; otherwise, an error code will be returned. <br/> If this option is missing, the installation is scoped to just the current user.<br/>                      |
-|  type <type>       | Lists or removes only dictionaries that are registered with the specified type.<br/> If this option is missing, all dictionary types are listed or removed. Installing or removing a custom dictionary of another type (such as PRIMARY-COUNTRYNAME-LIST) may affect handwriting recognition in other contexts. <br/>                                              |
+|  type &lt;type&gt;       | Lists or removes only dictionaries that are registered with the specified type.<br/> If this option is missing, all dictionary types are listed or removed. Installing or removing a custom dictionary of another type (such as PRIMARY-COUNTRYNAME-LIST) may affect handwriting recognition in other contexts. <br/>                                              |
 |  list                    | Lists all installed dictionaries that match the other options.<br/> If this option is missing, the option  remove must be specified.<br/>                                                                                                                                                                                                                          |
 |  remove                  | Prompts for removal of any dictionary that matches the other options.<br/> If this option is missing, the option  list must be specified.<br/>                                                                                                                                                                                                                     |
 

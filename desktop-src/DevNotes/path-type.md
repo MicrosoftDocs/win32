@@ -1,5 +1,5 @@
 ---
-Description: Represents the type of path being used as an argument.
+description: Represents the type of path being used as an argument.
 ms.assetid: f308c638-b383-432e-9dd3-edc33b792139
 title: PATH_TYPE enumeration
 ms.topic: reference
@@ -52,7 +52,7 @@ Internal path.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

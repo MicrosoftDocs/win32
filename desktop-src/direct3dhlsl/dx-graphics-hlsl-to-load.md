@@ -20,15 +20,15 @@ Reads texel data without any filtering or sampling.
 <table>
 <tbody>
 <tr class="odd">
-<td>ret Object.Load(<dl> int Location,<br />
-[int SampleIndex, ]<br />
-[int Offset ]<br />
+<td>ret Object.Load(<dl> typeX Location,<br />
+[typeX SampleIndex, ]<br />
+[typeX Offset ]<br />
 </dl>);</td>
 </tr>
 </tbody>
 </table>
 
-
+typeX denotes that there are four possible types: **int**, **int2**, **int3** or **int4**.
 
  
 
@@ -54,14 +54,14 @@ A [texture-object](dx-graphics-hlsl-to-type.md) type (except TextureCube or Text
 |----------------------------------------------|----------------|
 | Buffer                                       | int            |
 | Texture1D, Texture2DMS                       | int2           |
-| Texture1DArray, Texture 2D, Texture2DMSArray | int3           |
+| Texture1DArray, Texture2D, Texture2DMSArray  | int3           |
 | Texture2DArray, Texture3D                    | int4           |
 
 
 
  
 
-For example, to access a 2D texture, supply UV coordinates for the first two components and a mipmap level for the third component.
+For example, to access a 2D texture, supply integer texel coordinates for the first two components and a mipmap level for the third component.
 
 > [!Note]  
 > When one or more of the coordinates in *Location* exceed the u, v, or w mipmap level dimensions of the texture, **Load** returns zero in all components. Direct3D guarantees to return zero for any resource that is accessed out of bounds.
@@ -73,7 +73,7 @@ For example, to access a 2D texture, supply UV coordinates for the first two com
 <span id="SampleIndex"></span><span id="sampleindex"></span><span id="SAMPLEINDEX"></span>*SampleIndex*
 </dt> <dd>
 
-\[in\] An optional sampling index.
+\[in\] A sampling index. Required for multi-sample textures. Not supported for other textures.
 
 
 
@@ -82,21 +82,12 @@ For example, to access a 2D texture, supply UV coordinates for the first two com
 | Texture1D, Texture1DArray, Texture2D, Texture2DArray, Texture3D, Texture2DArray, TextureCube, TextureCubeArray | not supported  |
 | Texture2DMS, Texture2DMSArray¹                                                                                 | int            |
 
-
-
- 
-
-> [!Note]  
-> *SampleIndex* is only available for multi-sample textures.
-
- 
-
 </dd> <dt>
 
 <span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span>*Offset*
 </dt> <dd>
 
-\[in\] An optional offset applied to the texture coordinates before sampling. The offset type is dependent on the texture-object type.
+\[in\] An optional offset applied to the texture coordinates before sampling. The offset type is dependent on the texture-object type, and needs to be static.
 
 
 
@@ -104,14 +95,14 @@ For example, to access a 2D texture, supply UV coordinates for the first two com
 |----------------------------------------------------------|----------------|
 | Texture1D, Texture1DArray                                | int            |
 | Texture2D, Texture2DArray, Texture2DMS, Texture2DMSArray | int2           |
-| Texture3D, Texture2DArray                                | int3           |
+| Texture3D                                                | int3           |
 
 
 
  
 
 > [!Note]  
-> If you use *Offset* with multi-sample textures, you must also specify *SampleIndex*.
+> *SampleIndex* must always be specified first with multi-sample textures.
 
  
 
@@ -119,7 +110,7 @@ For example, to access a 2D texture, supply UV coordinates for the first two com
 
 ## Return Value
 
-The return type matches the type in the *Object* declaration. For example, a Texture2D object that was declared as "Texture2d<uint4> myTexture;" has a return value of type **uint4**.
+The return type matches the type in the *Object* declaration. For example, a Texture2D object that was declared as "Texture2d&lt;uint4&gt; myTexture;" has a return value of type **uint4**.
 
 ## Minimum Shader Model
 

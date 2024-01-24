@@ -1,5 +1,5 @@
 ---
-Description: Consistent and Done Flags
+description: Consistent and Done Flags
 ms.assetid: a641fa95-5587-4362-9869-e5c27c6dd2ce
 title: Consistent and Done Flags
 ms.topic: article

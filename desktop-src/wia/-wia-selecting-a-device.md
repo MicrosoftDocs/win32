@@ -1,12 +1,12 @@
 ---
-Description: When an application connects to a Windows Image Acquisition (WIA) hardware device, WIA creates an item tree (a hierarchical tree of IWiaItem or IWiaItem2 interfaces) that represents the device and its images, folders, and scanning beds.
+description: When an application connects to a Windows Image Acquisition (WIA) hardware device, WIA creates an item tree (a hierarchical tree of IWiaItem or IWiaItem2 interfaces) that represents the device and its images, folders, and scanning beds.
 ms.assetid: 2a7bcfd4-4075-48a4-9eff-5210b9a635e3
 title: Selecting a Device (WIA)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Selecting a Device
+# Selecting a Device (WIA)
 
 When an application connects to a Windows Image Acquisition (WIA) hardware device, WIA creates an item tree (a hierarchical tree of [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) or [**IWiaItem2**](-wia-iwiaitem2.md) interfaces) that represents the device and its images, folders, and scanning beds. An application can select and connect to a device without user input, or it can display a dialog box that allows a user to select a device.
 

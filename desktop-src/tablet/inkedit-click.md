@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a user clicks the InkEdit control.
+description: Occurs when a user clicks the InkEdit control.
 ms.assetid: 99fd7ef0-02cf-4390-9026-00ef2bbc1e37
 title: InkEdit.Click event (Inked.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

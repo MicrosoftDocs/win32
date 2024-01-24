@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID.ToString method (String, IFormatProvider)"
 title: JET_SESID.ToString method (String, IFormatProvider)
 TOCTitle: ToString method (String, IFormatProvider)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SESID.ToString(System.String,System.IFormatProvider)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Formats the value of the current instance using the specified format.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -81,10 +82,10 @@ A [String](/dotnet/api/system.string) containing the value of the current instan
 
 #### Reference
 
-[JET_SESID structure](hh596745\(v=exchg.10\).md)
+[JET_SESID structure](./jet-sesid-structure.md)
 
-[JET_SESID members](hh557719\(v=exchg.10\).md)
+[JET_SESID members](./jet-sesid-members.md)
 
-[ToString overload](hh565472\(v=exchg.10\).md)
+[ToString overload](./jet-sesid.tostring-method2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

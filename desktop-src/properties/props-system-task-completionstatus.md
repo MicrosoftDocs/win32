@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Task.CompletionStatus
 ms.assetid: c7cf61e0-c536-4292-bbe3-f54d0cb9a3f3
 title: System.Task.CompletionStatus
 ms.topic: article

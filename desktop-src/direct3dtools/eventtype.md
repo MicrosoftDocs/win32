@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate the type of an event.
+description: An enum used to indicate the type of an event.
 MS-HAID: vspixengine.EVENTTYPE
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -98,4 +98,4 @@ A value that corresponds to a dispatch event.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>

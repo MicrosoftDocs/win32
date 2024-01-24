@@ -1,5 +1,5 @@
 ---
-Description: 'The System Registry Provider class StdRegProv for WMI has methods that do the following:'
+description: 'The System Registry Provider class StdRegProv for WMI has methods that do the following:'
 ms.assetid: d42248b3-2f96-4771-aee9-a0db139b149e
 ms.tgt_platform: multiple
 title: Changing Registry Data
@@ -68,10 +68,10 @@ End If
 ```PowerShell
 
 $HKEY_LOCAL_MACHINE = 2147483650 
-$strComputer = &quot;.&quot;
-$strPath = &quot;SOFTWARE\MyKey\MySubKey&quot;
+$strComputer = "."
+$strPath = "SOFTWARE\MyKey\MySubKey"
 
-$reg = [wmiclass]&quot;\\$strComputer\root\default:StdRegprov&quot;
+$reg = [wmiclass]"\\$strComputer\root\default:StdRegprov"
 
 [void]$reg.CreateKey($HKEY_LOCAL_MACHINE, $strPath)
 ```
@@ -113,13 +113,13 @@ Next
 ```PowerShell
 
 $HKEY_LOCAL_MACHINE = 2147483650 
-$strComputer = &quot;.&quot;
-$strPath = &quot;SOFTWARE\MyKey\MySubKey&quot;
+$strComputer = "."
+$strPath = "SOFTWARE\MyKey\MySubKey"
 
-$strValueName = &quot;MultiStringValue&quot;
-$arrStringValues = @(&quot;one&quot;, &quot;two&quot;,&quot;three&quot;, &quot;four&quot;)
+$strValueName = "MultiStringValue"
+$arrStringValues = @("one", "two","three", "four")
 
-$reg = [wmiclass]&quot;\\$strComputer\root\default:StdRegprov&quot;
+$reg = [wmiclass]"\\$strComputer\root\default:StdRegprov"
 
 [void]$reg.SetMultiStringValue($HKEY_LOCAL_MACHINE, $strKeyPath, $strValueName, $arrStringValues)
 
@@ -127,12 +127,4 @@ $multiValues = $reg.GetMultiStringValue($HKEY_LOCAL_MACHINE, $strKeyPath, $strVa
 $multiValues.sValue
 ```
 
-
-
-
-
 Using WMI, you cannot set access security on a registry key. However, the [**StdRegProv.CheckAccess**](/previous-versions/windows/desktop/regprov/checkaccess-method-in-class-stdregprov) method compares the security settings of the current user to the security descriptor on a registry key to determine if the user has a specific permission, such as **KEY\_SET\_VALUE**.
-
- 
-
- 

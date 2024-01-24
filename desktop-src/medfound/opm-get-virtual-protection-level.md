@@ -1,5 +1,5 @@
 ---
-Description: Returns the virtual protection level for a specified protection mechanism.
+description: Returns the virtual protection level for a specified protection mechanism.
 ms.assetid: 635d54de-2735-4390-8bac-ba63b9503909
 title: OPM_GET_VIRTUAL_PROTECTION_LEVEL (Opmapi.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ The *virtual* protection level is the level requested by the application during 
 
 
 
-|              |                                                                                                                                                                               |
+| Requirement | Value |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_VIRTUAL\_PROTECTION\_LEVEL                                                                                                                                          |
 | Input data   | The protection mechanism to query, specified as a 32-bit integer. The value is interpreted as a member of the [**OPM Protection Type Flags**](opm-protection-type-flags.md). |
@@ -47,7 +47,7 @@ This query is equivalent to the DXVA\_COPPQueryLocalProtectionLevel query used i
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

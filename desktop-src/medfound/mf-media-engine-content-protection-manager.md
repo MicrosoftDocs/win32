@@ -1,5 +1,5 @@
 ---
-Description: Enables the Media Engine to play protected content.
+description: Enables the Media Engine to play protected content.
 ms.assetid: F6F17EC7-6553-4127-B691-C20C945DD4D8
 title: MF_MEDIA_ENGINE_CONTENT_PROTECTION_MANAGER attribute (Mfmediaengine.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This attribute can be one of the attributes passed to [**IMFMediaEngineClassFact
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                |

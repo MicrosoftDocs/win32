@@ -1,5 +1,5 @@
 ---
-Description: Returns a handle to a display device context (DC) that has the font set.
+description: Returns a handle to a display device context (DC) that has the font set.
 ms.assetid: b2092d7d-9761-41de-b094-b06626bd7ba3
 title: ID3DXFont::GetDC method (D3dx9core.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Handle to a display DC.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -21,7 +21,7 @@ Exchange right: allows sending mail as the mailbox.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Send-As                              |
 | Display-Name | Send As                              |
@@ -42,7 +42,7 @@ Exchange right: allows sending mail as the mailbox.
 
 
 
-|                         |                                                                             |
+| Entry | Value |
 |-------------------------|-----------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 4                                                                           |
@@ -53,7 +53,7 @@ Exchange right: allows sending mail as the mailbox.
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 4                                                                                                                               |
@@ -64,7 +64,7 @@ Exchange right: allows sending mail as the mailbox.
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 4                                                                                                                               |
@@ -75,7 +75,7 @@ Exchange right: allows sending mail as the mailbox.
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 4                                                                                                                               |
@@ -86,7 +86,7 @@ Exchange right: allows sending mail as the mailbox.
 
 
 
-|                         |                                                                                                                                                                                                                  |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 4                                                                                                                                                                                                                |
@@ -97,7 +97,7 @@ Exchange right: allows sending mail as the mailbox.
 
 
 
-|                         |                                                                                                                                                                                                                  |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 4                                                                                                                                                                                                                |

@@ -1,5 +1,5 @@
 ---
-Description: The following list includes some of the most important requirements of C2-level security, as defined by the U.S.
+description: The following list includes some of the most important requirements of C2-level security, as defined by the U.S.
 ms.assetid: e81f31bb-6314-4493-844a-65032e3cf90b
 title: C2-level Security
 ms.topic: article

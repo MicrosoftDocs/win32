@@ -1,5 +1,5 @@
 ---
-Description: Changes the number of samples contained in the buffer.
+description: Changes the number of samples contained in the buffer.
 ms.assetid: c3cceba8-0bbc-46e5-95d9-cdf58d8a2510
 title: ID3DXPRTBuffer::Resize method (D3DX9Mesh.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the fo
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

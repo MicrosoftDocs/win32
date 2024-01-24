@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDiskFullException properties"
 title: EsentLogDiskFullException properties
 TOCTitle: EsentLogDiskFullException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogDiskFullException](dn334539\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogDiskFullException](./esentlogdiskfullexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentLogDiskFullException class](dn334539\(v=exchg.10\).md)
+[EsentLogDiskFullException class](./esentlogdiskfullexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

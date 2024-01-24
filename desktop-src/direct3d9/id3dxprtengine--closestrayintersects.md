@@ -1,5 +1,5 @@
 ---
-Description: Uses efficient ray-tracing in precomputed radiance transfer (PRT) simulations to determine whether a ray intersects a mesh.
+description: Uses efficient ray-tracing in precomputed radiance transfer (PRT) simulations to determine whether a ray intersects a mesh.
 ms.assetid: e506aed3-bf14-4f29-845b-2091f5b00950
 title: ID3DXPRTEngine::ClosestRayIntersects method (D3DX9Mesh.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: The assembly versions specified in assembly manifests and application manifests comprise the default configuration that the application should use when the application runs.
+description: The assembly versions specified in assembly manifests and application manifests comprise the default configuration that the application should use when the application runs.
 ms.assetid: febae617-4c17-4fc0-9c2d-0f5be5fdd5a8
 title: Default Configuration
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_VirtualSystemReferencePointExportJob class - Requests a state change.
 ms.assetid: 53c24e17-2b59-4439-a6d1-e971c189d223
 title: RequestStateChange method of the Msvm_VirtualSystemReferencePointExportJob class
 ms.topic: reference
@@ -164,7 +164,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

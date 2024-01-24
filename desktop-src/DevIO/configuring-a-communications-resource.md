@@ -1,5 +1,5 @@
 ---
-Description: The following example opens a handle to COM2 and fills in a DCB structure with the current configuration. The DCB structure is then modified and used to reconfigure the device.
+description: The following example opens a handle to COM2 and fills in a DCB structure with the current configuration. The DCB structure is then modified and used to reconfigure the device.
 ms.assetid: 5b325a1e-51e1-43b4-92e7-7bcf34c6388f
 title: Configuring a Communications Resource
 ms.topic: article

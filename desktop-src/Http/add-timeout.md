@@ -21,38 +21,20 @@ Adds a global timeout to the HTTP.sys service.
 ``` syntax
 add timeout [timeouttype=]{idleconnectiontimeout|headerwaittimeout}
             [value=]u-short
-
- 
 ```
 
 ## Parameters
 
-<dl> <dt>
-
-<span id="_timeouttype___idleconnectiontimeout_headerwaittimeout_"></span><span id="_TIMEOUTTYPE___IDLECONNECTIONTIMEOUT_HEADERWAITTIMEOUT_"></span>**\[timeouttype=\]{idleconnectiontimeout\|headerwaittimeout}**
-</dt> <dd>
+**\[timeouttype=\]{idleconnectiontimeout\|headerwaittimeout}**
 
 Specifies the type of timeout for setting.
 
-</dd> <dt>
-
-<span id="_value__u-short"></span><span id="_VALUE__U-SHORT"></span>**\[value=\]***u-short*
-</dt> <dd>
+__\[value=\]__*u-short*
 
 Specifies the value of the timeout (in seconds). If value is hexadecimal, then add the prefix 0x.
-
-</dd> </dl>
 
 ## Examples
 
 **add timeout timeouttype=idleconnectiontimeout value=120**
 
 **add timeout timeouttype=headerwaittimeout value=0x40**
-
- 
-
- 
-
-
-
-

@@ -1,5 +1,5 @@
 ---
-Description: Adjusts the contrast.
+description: Adjusts the contrast.
 ms.assetid: 32ae514a-eeba-4205-b6e6-70fc01b93a95
 title: MFPKEY_COLOR_CONTRAST Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ This property has a range of -127 to 127. Zero indicates no change in contrast.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

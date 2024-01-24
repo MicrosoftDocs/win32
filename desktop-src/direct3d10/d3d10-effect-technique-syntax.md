@@ -1,5 +1,5 @@
 ---
-Description: An effect technique is declared with the following syntax.
+description: An effect technique is declared with the following syntax.
 ms.assetid: 84f9b74d-8397-4cd5-91a0-7f910ba7b19e
 title: Effect Technique Syntax (Direct3D 10)
 ms.topic: reference
@@ -72,8 +72,8 @@ Required keyword.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -87,7 +87,7 @@ Required keyword.
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -104,7 +104,7 @@ Required keyword.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -122,7 +122,7 @@ Required keyword.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -140,7 +140,7 @@ Required keyword.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -155,7 +155,7 @@ Required keyword.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -170,7 +170,7 @@ Required keyword.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

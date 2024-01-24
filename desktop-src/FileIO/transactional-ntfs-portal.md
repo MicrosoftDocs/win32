@@ -1,5 +1,5 @@
 ---
-Description: Transactional NTFS (TxF) allows file operations on an NTFS file system volume to be performed in a transaction.
+description: Transactional NTFS (TxF) allows file operations on an NTFS file system volume to be performed in a transaction.
 ms.assetid: e8c3ceed-d391-4934-b3f7-12c2123c8c23
 title: Transactional NTFS (TxF)
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Transactional NTFS (TxF)
 
-\[Microsoft strongly recommends developers utilize alternative means to achieve your application s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](deprecation-of-txf.md).\]
+\[Microsoft strongly recommends developers utilize alternative means to achieve your application's needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](deprecation-of-txf.md).\]
 
 ## Purpose
 

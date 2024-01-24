@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 For a service instance that logs on with a user account, rather than the LocalSystem account, the Service Control Manager (SCM) on the host computer stores the account password, which it uses to log on the service when the service starts. As with any user account, you must change the password periodically to maintain security. When you change the password on a service account, update the password stored by the SCM. The following code example shows how to do both.
 
-The code examples use [**IADsUser.SetPassword**](/windows/desktop/api/iads/nf-iads-iadsuser-setpassword) to set the account password. This method uses the distinguished name of the account. Then the sample opens a handle to the installed service on the specified host computer, and uses the [**ChangeServiceConfig**](/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga) function to update the password cached by the SCM. This function uses the SAM name ("<domain>\\<username>") of the account.
+The code examples use [**IADsUser.SetPassword**](/windows/desktop/api/iads/nf-iads-iadsuser-setpassword) to set the account password. This method uses the distinguished name of the account. Then the sample opens a handle to the installed service on the specified host computer, and uses the [**ChangeServiceConfig**](/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga) function to update the password cached by the SCM. This function uses the SAM name ("&lt;domain&gt;\\&lt;username&gt;") of the account.
 
 > [!Note]  
 > This code must be executed by a domain administrator.

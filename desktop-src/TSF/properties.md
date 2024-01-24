@@ -22,7 +22,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Properties
+# Properties (Common Elements)
 
 Text Services Framework (TSF) provides properties that associate metadata with a range of text. These properties include, but are not limited to, display attributes such as bold text, the language identifier of the text, and raw data provided by a text service such as the audio data associated with text from the speech text service.
 
@@ -66,7 +66,7 @@ TSF defines three different types of properties.
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|   Property type             |   Description                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Static         | A static property object stores the property data with text. It also stores the range of text information for each range that the property applies to. ITfReadOnlyProperty::GetType returns the GUID\_TFCAT\_PROPSTYLE\_STATIC category.                                                                                                                                                                                                                      |
 | Static-Compact | A static-compact property object is identical to a static property object except a static-compact property does not store range data. When the range covered by a static-compact property is requested, a range is created for each group of adjacent properties. Static-compact properties are the most efficient way to store properties on a per-character basis. ITfReadOnlyProperty::GetType returns the GUID\_TFCAT\_PROPSTYLE\_STATICCOMPACT category. |

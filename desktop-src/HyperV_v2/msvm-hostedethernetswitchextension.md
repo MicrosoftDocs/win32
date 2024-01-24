@@ -1,5 +1,5 @@
 ---
-Description: Associates a virtual Ethernet switch to the extensions currently bound to it.
+description: Associates a virtual Ethernet switch to the extensions currently bound to it.
 ms.assetid: d8c87fa2-6859-49ed-abd5-32a836b00e5a
 title: Msvm_HostedEthernetSwitchExtension class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_EthernetSwitchExtension**](msvm-ether
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

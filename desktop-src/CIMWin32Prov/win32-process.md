@@ -1,9 +1,10 @@
 ---
-Description: The Win32\_Process&\#32;WMI class represents a process on an operating system.
+description: The Win32\_Process&\#32;WMI class represents a process on an operating system.
 ms.assetid: 51206aca-4784-4d18-95ca-bc0a45691f78
 ms.tgt_platform: multiple
 title: Win32_Process class
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/23/2020
 topic_type:
 - APIRef
@@ -68,7 +69,7 @@ The **Win32\_Process** [WMI class](../wmisdk/retrieving-a-class.md) represents a
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
 > [!NOTE]
-> For a general discussion on Processes and Threads within Windows, please see the topic [Processes and Threads](/ProcThread/processes-and-threads.md).
+> For a general discussion on Processes and Threads within Windows, please see the topic [Processes and Threads](/windows/win32/procthread/processes-and-threads).
 
 ## Syntax
 
@@ -102,7 +103,7 @@ class Win32_Process : CIM_Process
   uint32   PeakPageFileUsage;
   uint64   PeakVirtualSize;
   uint32   PeakWorkingSetSize;
-  uint32   Priority = NULL;
+  uint32   Priority;
   uint64   PrivatePageCount;
   uint32   ProcessId;
   uint32   QuotaNonPagedPoolUsage;
@@ -1155,10 +1156,6 @@ You can monitor process performance with the [**Win32\_PerfFormattedData\_PerfPr
 
 ## Examples
 
-The [List the Properties of WMI Classes](https://Gallery.TechNet.Microsoft.Com/a7918bf3-bc03-4553-990f-aba13cf196b7) PowerShell code sample on TechNet Gallery describes the **Win32\_Process** class, and outputs the results in Excel format.
-
-The [Terminate running process on multiple servers](https://Gallery.TechNet.Microsoft.Com/698c2512-2bbd-40ee-b3bf-a9cebdad2faf) terminates a process running on a single or multiple computers.
-
 In the [Example: Calling a Provider Method](../wmisdk/example--calling-a-provider-method.md) topic, the code uses C++ to call **Win32\_Process** to create a process.
 
 Availability is the simplest form of process monitoring: with this approach, you simply ensure that the process is running. When you monitor for process availability, you typically retrieve a list of processes running on a computer and then verify that a particular process is still active. If the process is active, it is considered available. If the process is not active, it is not available. The following VBScript sample monitors process availability by checking the list of processes running on a computer and issuing a notification if the Database.exe process is not found.
@@ -1260,7 +1257,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

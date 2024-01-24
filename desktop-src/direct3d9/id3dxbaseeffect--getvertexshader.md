@@ -1,5 +1,5 @@
 ---
-Description: Gets a vertex shader.
+description: Gets a vertex shader.
 ms.assetid: ab58b465-7b10-46eb-88c0-c5229cb09481
 title: ID3DXBaseEffect::GetVertexShader method (D3DX9Shader.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,5 +1,5 @@
 ---
-Description: Represents a 2D point with unsigned integer coordinates.
+description: Represents a 2D point with unsigned integer coordinates.
 MS-HAID: vspixengine.Point2D
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -41,7 +41,7 @@ The position of the point on the Y axis.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

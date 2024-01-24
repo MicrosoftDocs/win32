@@ -1,5 +1,5 @@
 ---
-Description: ICE77 verifies that custom actions with the msidbCustomActionTypeInScript bit set are sequenced after the InstallInitialize action and before the InstallFinalize action.
+description: ICE77 verifies that custom actions with the msidbCustomActionTypeInScript bit set are sequenced after the InstallInitialize action and before the InstallFinalize action.
 ms.assetid: 291cf731-b7e6-44c2-a8ec-78e0e037d1f5
 title: ICE77
 ms.topic: article

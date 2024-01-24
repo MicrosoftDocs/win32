@@ -1,5 +1,5 @@
 ---
-Description: Constructs bit patterns that are used to identify texture coordinate formats within a FVF description. The results of these macros can be combined within a FVF description by using the OR operator.
+description: Constructs bit patterns that are used to identify texture coordinate formats within a FVF description. The results of these macros can be combined within a FVF description by using the OR operator.
 ms.assetid: c3076d7c-7935-40ee-b513-7ff6551a535f
 title: D3DFVF_TEXCOORDSIZEN (D3d9types.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ DWORD dwFVF = D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_DIFFUSE |
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

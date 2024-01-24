@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseCorruptedException properties"
 title: EsentDatabaseCorruptedException properties
 TOCTitle: EsentDatabaseCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseCorruptedException](dn334279\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseCorruptedException](./esentdatabasecorruptedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseCorruptedException class](dn334279\(v=exchg.10\).md)
+[EsentDatabaseCorruptedException class](./esentdatabasecorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BoolColumnValue constructor"
 title: BoolColumnValue constructor 
 TOCTitle: 'BoolColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.BoolColumnValue.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # BoolColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public BoolColumnValue()
 
 #### Reference
 
-[BoolColumnValue class](dn334148\(v=exchg.10\).md)
+[BoolColumnValue class](./boolcolumnvalue-class.md)
 
-[BoolColumnValue members](dn334152\(v=exchg.10\).md)
+[BoolColumnValue members](./boolcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

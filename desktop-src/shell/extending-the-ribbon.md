@@ -1,5 +1,5 @@
 ---
-Description: Learn how to extend the Windows Explorer Ribbon.
+description: Learn how to extend the Windows Explorer Ribbon.
 title: Extending the Ribbon
 ms.topic: article
 ms.date: 05/31/2018

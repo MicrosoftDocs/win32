@@ -1,5 +1,5 @@
 ---
-Description: The RemoveAt method removes the element stored at the location specified by the given index.
+description: IPortableDevicePropVariantCollection::RemoveAt method - The RemoveAt method removes the element stored at the location specified by the given index.
 ms.assetid: cfee2454-5103-48ce-b9f7-1f76f5c18b6d
 title: IPortableDevicePropVariantCollection::RemoveAt method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ You must specify a zero-based index.
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

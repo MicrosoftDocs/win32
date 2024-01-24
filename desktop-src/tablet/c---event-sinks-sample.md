@@ -1,5 +1,5 @@
 ---
-Description: This program demonstrates how you can build an application that captures InkCollector events using only C++. This program co-creates an InkCollector object to ink -enable the window. It displays a message box whenever a Stroke event is received.
+description: This program demonstrates how you can build an application that captures InkCollector events using only C++. This program co-creates an InkCollector object to ink -enable the window. It displays a message box whenever a Stroke event is received.
 ms.assetid: 91450559-ae47-457a-a709-b4e4e78bde22
 title: C++ Event Sinks Sample
 ms.topic: article
@@ -22,7 +22,7 @@ The `InkCollectorEvents` Class handles passing ink collector events from the ink
 
 ```C++
 // Invoke translates from IDispatch to an event callout
-//  that can be overriden by a subclass of this class.
+//  that can be overridden by a subclass of this class.
 STDMETHOD(Invoke)(
    DISPID dispidMember, 
     REFIID riid,
@@ -167,7 +167,7 @@ The CMyInkCollector Class's Init method declares and initializes a CMyInkEvents 
 
 
 ```C++
-// Handle all initializaton
+// Handle all initialization
 HRESULT Init(
 HWND hWnd)
 {
@@ -205,7 +205,7 @@ HWND hWnd)
 
 ## Accessing the Tablet PC Interfaces and the Wrapper Classes
 
-First, include the headers for Tablet PC Automation interfaces. These are installed with the Microsoft<entity type="reg"/> Windows<entity type="reg"/> XP Tablet PC Edition Development Kit 1.7.
+First, include the headers for Tablet PC Automation interfaces. These are installed with the Microsoft\<entity type="reg"/\> Windows\<entity type="reg"/\> XP Tablet PC Edition Development Kit 1.7.
 
 
 ```C++

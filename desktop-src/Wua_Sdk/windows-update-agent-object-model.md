@@ -1,5 +1,5 @@
 ---
-Description: Programmers using Windows Update Agent (WUA) begin by adding a reference to Wuapi.dll to their current project (in Visual C++, Microsoft Visual Basic, or C\#) or by referencing Wuapi.h and Wuguid.lib in a C or C++ project.
+description: Programmers using Windows Update Agent (WUA) begin by adding a reference to Wuapi.dll to their current project (in Visual C++, Microsoft Visual Basic, or C\#) or by referencing Wuapi.h and Wuguid.lib in a C or C++ project.
 ms.assetid: ec9cbb0b-b5d4-41f2-8a25-143130d08a3b
 title: Windows Update Agent Object Model
 ms.topic: article

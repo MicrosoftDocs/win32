@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.Equals method (JET_COLUMNID)"
 title: JET_COLUMNID.Equals method (JET_COLUMNID)
 TOCTitle: Equals method (JET_COLUMNID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.Equals(Microsoft.Isam.Esent.Interop.JET_COLUMNID)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,7 +54,7 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)  
     
     An instance to compare with this instance.
 
@@ -70,10 +71,10 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](./jet-columnid-structure.md)
 
-[JET_COLUMNID members](hh558343\(v=exchg.10\).md)
+[JET_COLUMNID members](./jet-columnid-members.md)
 
-[Equals overload](hh579286\(v=exchg.10\).md)
+[Equals overload](./jet-columnid.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,6 +1,6 @@
 ---
 title: Common Dialog Box Reference
-description: .
+description: . | Common Dialog Box Reference
 ms.assetid: 0abb8407-a50d-4b01-a90f-d037d67183d8
 ms.topic: reference
 ms.date: 05/31/2018

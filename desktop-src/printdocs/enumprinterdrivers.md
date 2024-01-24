@@ -1,5 +1,5 @@
 ---
-Description: The EnumPrinterDrivers function enumerates the printer drivers installed on a specified printer server.
+description: The EnumPrinterDrivers function enumerates the printer drivers installed on a specified printer server.
 ms.assetid: fa3d8cf4-70bc-4362-833e-e4217ed5d43b
 title: EnumPrinterDrivers function (Winspool.h)
 ms.topic: reference
@@ -131,7 +131,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

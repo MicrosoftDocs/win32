@@ -27,7 +27,7 @@ Immediate compare and exchange to memory.
 | <span id="dst1"></span><span id="DST1"></span>*dst1*<br/>                                                | \[in\] An unordered access view (UAV) (u\#). In the compute shader this can also be thread group shared memory (g\#). <br/> |
 | <span id="dstAddress"></span><span id="dstaddress"></span><span id="DSTADDRESS"></span>*dstAddress*<br/> | \[in\] The destination memory.<br/>                                                                                         |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/>                                                | \[in\] The value to compare to *dst1*.<br/>                                                                                 |
-| <span id="scr1"></span><span id="SCR1"></span>*scr1*<br/>                                                | \[in\] The value written to the destination memory if the compared values are identical.<br/>                               |
+| <span id="src1"></span><span id="SRC1"></span>*src1*<br/>                                                | \[in\] The value written to the destination memory if the compared values are identical.<br/>                               |
 
 
 

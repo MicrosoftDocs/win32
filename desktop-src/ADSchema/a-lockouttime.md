@@ -22,7 +22,7 @@ The date and time (UTC) that this account was locked out. This value is stored a
 
 
 
-|                   |                                                                                  |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | CN                | Lockout-Time                                                                     |
 | Ldap-Display-Name | lockoutTime                                                                      |
@@ -49,7 +49,7 @@ The date and time (UTC) that this account was locked out. This value is stored a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -70,7 +70,7 @@ The date and time (UTC) that this account was locked out. This value is stored a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -91,7 +91,7 @@ The date and time (UTC) that this account was locked out. This value is stored a
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -112,7 +112,7 @@ The date and time (UTC) that this account was locked out. This value is stored a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -133,7 +133,7 @@ The date and time (UTC) that this account was locked out. This value is stored a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -154,7 +154,7 @@ The date and time (UTC) that this account was locked out. This value is stored a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -175,7 +175,7 @@ The date and time (UTC) that this account was locked out. This value is stored a
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

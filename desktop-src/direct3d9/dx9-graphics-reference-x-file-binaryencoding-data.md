@@ -1,5 +1,5 @@
 ---
-Description: A data object has the following syntax definition.
+description: A data object has the following syntax definition.
 ms.assetid: e636c2eb-3c11-45bf-ab0b-a14ec878742c
 title: Data (X file format)
 ms.topic: article

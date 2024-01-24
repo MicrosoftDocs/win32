@@ -34,68 +34,17 @@ There are no attributes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="windowsribbon-element-button.md"><strong>Button</strong></a><br/></td>
-<td>Must occur at least once.<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-checkbox.md"><strong>CheckBox</strong></a><br/></td>
-<td>Must occur at least once.<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-combobox.md"><strong>ComboBox</strong></a><br/></td>
-<td>Must occur at least once.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 and newer.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-dropdowngallery.md"><strong>DropDownGallery</strong></a><br/></td>
-<td>Must occur at least once.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 and newer.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-inribbongallery.md"><strong>InRibbonGallery</strong></a><br/></td>
-<td>Must occur at least once.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 and newer.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-splitbuttongallery.md"><strong>SplitButtonGallery</strong></a><br/></td>
-<td>Must occur at least once.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 and newer.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-togglebutton.md"><strong>ToggleButton</strong></a><br/></td>
-<td>Must occur at least once.<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Element | Description | 
+|---------|-------------|
+| <a href="windowsribbon-element-button.md"><strong>Button</strong></a><br /> | Must occur at least once.<br /><br /> | 
+| <a href="windowsribbon-element-checkbox.md"><strong>CheckBox</strong></a><br /> | Must occur at least once.<br /><br /> | 
+| [**ComboBox**](windowsribbon-element-combobox.md)<br> | Must occur at least once.<br> **Note:** Windows 8 and newer.<br> | 
+| [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br> | Must occur at least once.<br> **Note:** Windows 8 and newer.<br> | 
+| [**InRibbonGallery**](windowsribbon-element-inribbongallery.md)<br> | Must occur at least once.<br> **Note:** Windows 8 and newer.<br> | 
+| [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md)<br> | Must occur at least once.<br> **Note:** Windows 8 and newer.<br> | 
+| <a href="windowsribbon-element-togglebutton.md"><strong>ToggleButton</strong></a><br /> | Must occur at least once.<br /><br /> | 
+
 
 
 
@@ -145,7 +94,7 @@ This section of code shows the **QuickAccessToolbar.ApplicationDefaults** contro
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Stop the collector quickly, discarding all the queued data.
+description: Stop the collector quickly, discarding all the queued data.
 ms.assetid: 9d96a94b-21ae-40bd-9c7f-b466ca38dce3
 ms.tgt_platform: multiple
 title: FastShutdown method of the Control class
@@ -41,7 +41,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

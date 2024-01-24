@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Microsoft Message Queuing (MSMQ) - SHA 2 Is the Default Hash Algorithm
 ms.assetid: 43cca5bc-6675-4f29-925e-19d3fb19ef0f
 title: Microsoft Message Queuing (MSMQ) - SHA 2 Is the Default Hash Algorithm
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
- **Clients** - Windows XP \| Windows Vista \| Windows 7  
-**Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
+ **Clients** - Windows XP, Windows Vista, Windows 7  
+**Servers** - Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Sink Writer Attributes
+description: Sink Writer Attributes
 ms.assetid: f27b9beb-f35f-400e-a337-50d9de21e91e
 title: Sink Writer Attributes
 ms.topic: article

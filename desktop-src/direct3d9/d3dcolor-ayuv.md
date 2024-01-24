@@ -1,5 +1,5 @@
 ---
-Description: Initializes a color using the (a,y,u,v) values.
+description: Initializes a color using the (a,y,u,v) values.
 ms.assetid: 47b65aab-511a-44c1-ab94-973bc2da7e04
 title: D3DCOLOR_AYUV macro (D3d9types.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ v = red - luminance
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

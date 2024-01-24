@@ -1,5 +1,5 @@
 ---
-Description: Represents a battery connected to the computer system.
+description: Represents a battery connected to the computer system.
 ms.assetid: b07ccb1d-008e-4bf1-8299-33706cbcbaee
 ms.tgt_platform: multiple
 title: Win32_Battery class
@@ -1591,19 +1591,11 @@ The **Win32\_Battery** class is derived from [**CIM\_Battery**](cim-battery.md) 
 
 Windows Server 2008 contains the (APC) UPS drivers in the OS, which allows you to treat the UPS as a battery supply. This allows you to monitor the UPS status using a script and take actions when necessary.
 
-## Examples
-
-The [Toggle-Wireless.ps1](https://Gallery.TechNet.Microsoft.Com/Toggle-Wirelessps1-2d244a8f) PowerShell code sample queries **Win32\_Battery** to determine whether or not to toggle the wireless in order to save power.
-
-The [List UPS Information](https://Gallery.TechNet.Microsoft.Com/7196121e-97de-4290-9939-26d0ce266270) Perl sample Lists information about the uninterruptible power sources attached to a computer.
-
-For a furthe discussion of using Win32\_Battery to monitor your laptop, see [Use PowerShell to Detect Power State and to Set Power Plan](https://blogs.technet.com/b/heyscriptingguy/archive/2012/11/28/use-powershell-to-detect-power-state-and-set-power-plan.aspx).
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

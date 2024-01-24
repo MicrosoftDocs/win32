@@ -1,5 +1,5 @@
 ---
-Description: The member of the vertex decl to do the software skinning on. This is used with the ID3DX10SkinInfo::DoSoftwareSkinning API.
+description: The member of the vertex decl to do the software skinning on. This is used with the ID3DX10SkinInfo::DoSoftwareSkinning API.
 ms.assetid: 67c817cd-ce78-4e8b-bdc3-7c4d6670dee1
 title: D3DX10_SKINNING_CHANNEL structure (D3DX10.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Determines which array of matrices to use in the [**ID3DX10SkinInfo::DoSoftwareS
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 The WWSAPI includes API elements that can be used to process WSDL and Policy from an endpoint with the goal of extracting information that can be used to communicate with the endpoint. These APIs are typically used when the communication protocol supported by the endpoint is not already known.
 
-## 
 
 Use the following sequence to process metadata:
 

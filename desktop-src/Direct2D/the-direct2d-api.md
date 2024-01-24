@@ -1,5 +1,5 @@
 ---
-title: Direct2D API Overview
+title: Direct2D API overview
 description: Provides an overview of the Direct2D object model.
 ms.assetid: b1362ef6-40fc-4fa5-ba5b-22c622c39f04
 keywords:
@@ -27,7 +27,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Direct2D API Overview
+# Direct2D API overview
 
 Direct2D provides an API, similar to Direct3D, for use with C or C++. The API exposes a variety of drawing-related functionality:
 
@@ -156,7 +156,7 @@ A brush, represented by the [**ID2D1Brush**](/windows/win32/api/d2d1/nn-d2d1-id2
 -   [**ID2D1RadialGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush) paints an area with a radial gradient that blends two or more colors around an ellipse.
 -   [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) paints an area with a bitmap.
 
-To create a brush, you use one of the [**ID2D1RenderTarget::**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)Create*<Type>*Brush methods, such as [**CreateRadialGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)). Brushes can be used with a render target Draw and Fill methods, either to paint a shape stroke or outline, or as an opacity mask.
+To create a brush, you use one of the [**ID2D1RenderTarget::**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)Create*&lt;Type&gt;*Brush methods, such as [**CreateRadialGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)). Brushes can be used with a render target Draw and Fill methods, either to paint a shape stroke or outline, or as an opacity mask.
 
 For more information about brushes, see the [Brushes Overview](direct2d-brushes-overview.md).
 
@@ -168,7 +168,7 @@ More complex shapes can be created by using the [**ID2D1GeometrySink**](/windows
 
 The geometry interfaces provide methods for manipulating shapes by widening or simplifying existing geometries, or by generating the intersection or union of multiple geometries. They also provide methods for determining whether geometries are intersecting or overlapping, retrieving bounds information, computing the area or length of a geometry, and interpolating locations along a geometry. Direct2D also provides the ability to create a mesh of triangles that is tessellated from a geometry.
 
-To create a geometry, you use one of the [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)::Create*<Type>*Geometry methods, such as [**CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry). A geometry is a device-independent resource.
+To create a geometry, you use one of the [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)::Create*&lt;Type&gt;*Geometry methods, such as [**CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry). A geometry is a device-independent resource.
 
 To render a geometry, you use the [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) and [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) methods of a render target.
 
@@ -207,7 +207,7 @@ You do not use a factory or a render target to instantiate Direct2D primitives. 
 [Direct2D Reference](reference.md)
 </dt> <dt>
 
-[DirectWrite Hello World Sample](/samples/browse/?redirectedfrom=MSDN-samples)
+[DirectWrite HelloWorld](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/multimedia/DirectWrite/HelloWorld)
 </dt> <dt>
 
 [Introducing DirectWrite](../directwrite/introducing-directwrite.md)

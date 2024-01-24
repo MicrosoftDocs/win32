@@ -1,5 +1,5 @@
 ---
-Description: Deletes the specified item from the protected storage.
+description: Deletes the specified item from the protected storage.
 ms.assetid: 1d071245-a563-4fba-9300-c47ca9a9d625
 title: IPStore::DeleteItem method (Pstore.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

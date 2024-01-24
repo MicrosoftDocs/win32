@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO methods"
 title: JET_INSTANCE_INFO methods
 TOCTitle: JET_INSTANCE_INFO methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_INSTANCE_INFO](dn335182\(v=exchg.10\).md) type exposes the following members.
+The [JET_INSTANCE_INFO](./jet-instance-info-class.md) type exposes the following members.
 
 ## Methods
 
@@ -71,6 +72,6 @@ Top
 
 #### Reference
 
-[JET_INSTANCE_INFO class](dn335182\(v=exchg.10\).md)
+[JET_INSTANCE_INFO class](./jet-instance-info-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

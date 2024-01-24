@@ -41,7 +41,7 @@ These functions convert [**Windows.Foundation.Numerics**](/uwp/api/Windows.Found
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Namespace | DirectX |
 | Header | <dl> <dt>Windowsnumerics.h</dt> </dl> |

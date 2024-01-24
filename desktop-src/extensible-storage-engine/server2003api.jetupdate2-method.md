@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Api.JetUpdate2 method"
 title: Server2003Api.JetUpdate2 method  (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: 'JetUpdate2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Server2003.Server2003Api.JetUpdate2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Byte[],System.Int32,System.Int32@,Microsoft.Isam.Esent.Interop.Server2003.UpdateGrbit)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Server2003Api.JetUpdate2 method
 
-The JetUpdate function performs an update operation including inserting a new row into a table or updating an existing row. Deleting a table row is performed by calling [JetDelete(JET_SESID, JET_TABLEID)](dn292131\(v=exchg.10\).md).
+The JetUpdate function performs an update operation including inserting a new row into a table or updating an existing row. Deleting a table row is performed by calling [JetDelete(JET_SESID, JET_TABLEID)](./api.jetdelete-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](hh557147\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](./microsoft.isam.esent.interop.server2003-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -70,14 +71,14 @@ public static void JetUpdate2(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session which started the update.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor to update. An update should be prepared.
 
@@ -105,20 +106,20 @@ public static void JetUpdate2(
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.Server2003.UpdateGrbit](hh558389\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Server2003.UpdateGrbit](./updategrbit-enumeration.md)  
     
     Update options.
 
 ## Remarks
 
-JetUpdate is the final step in performing an insert or an update. The update is begun by calling [JetPrepareUpdate(JET_SESID, JET_TABLEID, JET_prep)](dn332988\(v=exchg.10\).md) and then by calling [JetSetColumn(JET_SESID, JET_TABLEID, JET_COLUMNID, \[\], Int32, SetColumnGrbit, JET_SETINFO)](dn334009\(v=exchg.10\).md) one or more times to set the record state. Finally, JetUpdate2(JET_SESID, JET_TABLEID, \[\], Int32, Int32, UpdateGrbit) is called to complete the update operation. Indexes are updated only by JetUpdate or and not during JetSetColumn.
+JetUpdate is the final step in performing an insert or an update. The update is begun by calling [JetPrepareUpdate(JET_SESID, JET_TABLEID, JET_prep)](./api.jetprepareupdate-method.md) and then by calling [JetSetColumn(JET_SESID, JET_TABLEID, JET_COLUMNID, \[\], Int32, SetColumnGrbit, JET_SETINFO)](./api.jetsetcolumn-method-jet-sesid-jet-tableid-jet-columnid-byte-int32-setcolumngrbit-jet-setinfo-.md) one or more times to set the record state. Finally, JetUpdate2(JET_SESID, JET_TABLEID, \[\], Int32, Int32, UpdateGrbit) is called to complete the update operation. Indexes are updated only by JetUpdate or and not during JetSetColumn.
 
 ## See also
 
 #### Reference
 
-[Server2003Api class](dn351277\(v=exchg.10\).md)
+[Server2003Api class](./server2003api-class.md)
 
-[Server2003Api members](dn351196\(v=exchg.10\).md)
+[Server2003Api members](./server2003api-members.md)
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

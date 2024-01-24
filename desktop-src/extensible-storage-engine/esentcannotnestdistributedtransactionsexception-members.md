@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDistributedTransactionsException members"
 title: EsentCannotNestDistributedTransactionsException members
 TOCTitle: EsentCannotNestDistributedTransactionsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CannotNestDistributedTransactions exceptions.
 
-The [EsentCannotNestDistributedTransactionsException](dn274174\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotNestDistributedTransactionsException](./esentcannotnestdistributedtransactionsexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCannotNestDistributedTransactionsException class](dn274174\(v=exchg.10\).md)
+[EsentCannotNestDistributedTransactionsException class](./esentcannotnestdistributedtransactionsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

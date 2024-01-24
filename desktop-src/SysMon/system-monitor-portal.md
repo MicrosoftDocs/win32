@@ -1,7 +1,7 @@
 ---
 title: System Monitor
 ms.assetid: 0de49670-d828-4af9-b4bd-dd93a9c21516
-description: 
+description: "Learn more about: System Monitor"
 ms.topic: article
 ms.date: 05/31/2018
 ---

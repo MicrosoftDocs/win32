@@ -1,5 +1,5 @@
 ---
-Description: The LookupDwordSetString function returns the string corresponding to the specified value of a labeled set.
+description: The LookupDwordSetString function returns the string corresponding to the specified value of a labeled set.
 ms.assetid: ee2b1b7a-6b64-4c8c-a71d-de970b66d46e
 title: LookupDwordSetString function (Netmon.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ If the function is unsuccessful, the specified value is not in the set, the retu
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

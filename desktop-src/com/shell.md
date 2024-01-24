@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shell
+# Shell (COM)
 
 Provides Windows 3.1 shell printing and **File Open** information.
 

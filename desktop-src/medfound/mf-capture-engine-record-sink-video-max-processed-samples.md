@@ -1,5 +1,5 @@
 ---
-Description: Sets the maximum number of processed samples that can be buffered in the record sink video path.
+description: Sets the maximum number of processed samples that can be buffered in the record sink video path.
 ms.assetid: 5AFA197E-5A7F-402E-A62B-4F624A5DD917
 title: MF_CAPTURE_ENGINE_RECORD_SINK_VIDEO_MAX_PROCESSED_SAMPLES attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The maximum value for this attribute is 17.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                         |

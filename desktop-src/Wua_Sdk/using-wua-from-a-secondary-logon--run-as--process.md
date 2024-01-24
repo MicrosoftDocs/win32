@@ -1,5 +1,5 @@
 ---
-Description: Updates that require user interaction cannot be installed by Windows Update Agent (WUA) applications if the WUA applications are running in the context of the Secondary Logon service.
+description: Updates that require user interaction cannot be installed by Windows Update Agent (WUA) applications if the WUA applications are running in the context of the Secondary Logon service.
 ms.assetid: 090cd730-cfcd-49fc-b748-f66e696edaf3
 title: Using WUA from a Secondary Logon (Run As) Process
 ms.topic: article

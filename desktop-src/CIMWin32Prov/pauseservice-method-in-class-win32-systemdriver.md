@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the service managed by the logical system driver in the paused state.
+description: Attempts to place the service managed by the logical system driver in the paused state.
 ms.assetid: f5e960c1-868b-4b7b-9ea5-0fb8a9cfbafa
 ms.tgt_platform: multiple
 title: PauseService method of the Win32_SystemDriver class
@@ -234,7 +234,7 @@ $Return = $usbPrintDriver.PauseService()
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

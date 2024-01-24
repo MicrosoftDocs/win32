@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the collection of certificates in the signed executable file.
+description: Retrieves the collection of certificates in the signed executable file.
 ms.assetid: ecc05117-8b98-4e49-9671-71829df24597
 title: SignedCode.Certificates property
 ms.topic: reference
@@ -38,7 +38,7 @@ The [**Certificates**](certificates.md) collection that contains all the certifi
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,12 +1,12 @@
 ---
-Description: Working with Media Buffers
+description: Working with Media Buffers
 ms.assetid: c7e079e0-99f3-4bff-9163-1c5a022c14ae
 title: Working with Media Buffers (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Working with Media Buffers
+# Working with Media Buffers (Microsoft Media Foundation)
 
 This topic describes how to use the [**IMFMediaBuffer**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) interface to access the data in a media buffer. All media buffers expose **IMFMediaBuffer**, which is designed for any type of data. Uncompressed video frames are a special case, described in the topic [Uncompressed Video Buffers](uncompressed-video-buffers.md).
 

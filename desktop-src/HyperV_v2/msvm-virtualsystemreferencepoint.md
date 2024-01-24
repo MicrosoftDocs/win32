@@ -1,5 +1,5 @@
 ---
-Description: Represents a reference point for a virtual system.
+description: Represents a reference point for a virtual system.
 ms.assetid: b3ba4fa7-3b77-4a1d-ab8f-d38af12ab5dd
 title: Msvm_VirtualSystemReferencePoint class
 ms.topic: reference
@@ -205,7 +205,7 @@ The name of the [**CIM\_ComputerSystem**](cim-computersystem.md) to which this r
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

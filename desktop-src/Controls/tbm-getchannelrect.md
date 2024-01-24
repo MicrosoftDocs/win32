@@ -30,7 +30,7 @@ Retrieves the size and position of the bounding rectangle for a trackbar's chann
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. The message fills this structure with the channel's bounding rectangle, in client coordinates of the trackbar's window.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. The message fills this structure with the channel's bounding rectangle, in client coordinates of the trackbar's window.
 
 </dd> </dl>
 
@@ -42,7 +42,7 @@ No return value.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

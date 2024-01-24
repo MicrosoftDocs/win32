@@ -1,5 +1,5 @@
 ---
-Description: The Global Partition
+description: The Global Partition
 ms.assetid: db11e6f5-0a3d-44ce-9a51-90d7e2b80981
 title: The Global Partition
 ms.topic: article

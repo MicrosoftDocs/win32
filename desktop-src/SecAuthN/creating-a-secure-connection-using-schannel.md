@@ -1,5 +1,5 @@
 ---
-Description: How to create a secure connection using Schannel.
+description: How to create a secure connection using Schannel.
 ms.assetid: 94eb15c3-225b-4b6f-b29c-41e5d356a847
 title: Creating a Secure Connection Using Schannel
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating a Secure Connection Using Schannel
 
-The Schannel [*security package*](/windows/desktop/SecGloss/s-gly) provides access to four [*security protocols*](/windows/desktop/SecGloss/s-gly):
+The Schannel [*security package*](/windows/desktop/SecGloss/s-gly) provides access to five [*security protocols*](/windows/desktop/SecGloss/s-gly):
 
 -   [Transport Layer Security (TLS 1.2)](transport-layer-security-protocol.md)
 -   [Transport Layer Security (TLS 1.1)](transport-layer-security-protocol.md)

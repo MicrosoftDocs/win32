@@ -22,7 +22,7 @@ The MAPI display table for an address entry for MSDOS client.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Address-Entry-Display-Table-MSDOS                     |
 | Ldap-Display-Name | addressEntryDisplayTableMSDOS                         |
@@ -48,7 +48,7 @@ The MAPI display table for an address entry for MSDOS client.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
@@ -69,7 +69,7 @@ The MAPI display table for an address entry for MSDOS client.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
@@ -90,7 +90,7 @@ The MAPI display table for an address entry for MSDOS client.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
@@ -111,7 +111,7 @@ The MAPI display table for an address entry for MSDOS client.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
@@ -132,7 +132,7 @@ The MAPI display table for an address entry for MSDOS client.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
@@ -153,7 +153,7 @@ The MAPI display table for an address entry for MSDOS client.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |

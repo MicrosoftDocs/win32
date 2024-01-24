@@ -1,22 +1,25 @@
 ---
-Description: Creates the negative color value of a color value.
+description: Creates the negative color value of a color value.
 ms.assetid: 74143126-93f8-49fa-abe3-fd730b644d87
 title: D3DXColorNegative function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXColorNegative
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXColorNegative function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Creates the negative color value of a color value.
 
@@ -79,7 +82,7 @@ pOut->r = 1.0f - pC->r;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -105,7 +108,3 @@ pOut->r = 1.0f - pC->r;
  
 
  
-
-
-
-

@@ -34,7 +34,7 @@ Sets the named property to the given value.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1\_1.h</dt> </dl> |
 

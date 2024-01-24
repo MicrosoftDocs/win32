@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when the IME needs to change the RECONVERTSTRING structure. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
+description: Notifies an application when the IME needs to change the RECONVERTSTRING structure. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
 ms.assetid: 035a7072-d292-4883-bc3e-d1e9ed64d9ec
 title: IMR_CONFIRMRECONVERTSTRING notification code (Imm.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ After the application has handled [IMR\_RECONVERTSTRING](imr-reconvertstring.md)
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

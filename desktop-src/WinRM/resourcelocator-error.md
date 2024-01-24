@@ -1,6 +1,6 @@
 ---
 title: ResourceLocator.Error property (WSManDisp.h)
-description: Gets an XML representation of additional error information.
+description: Gets an XML representation of additional error information. | ResourceLocator.Error property (WSManDisp.h)
 ms.assetid: d500ab29-d2d3-4a54-af2d-8729f9caf4dc
 ms.tgt_platform: multiple
 keywords:
@@ -42,7 +42,7 @@ The XML representation of additional error information.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                           |

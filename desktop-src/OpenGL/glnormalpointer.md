@@ -75,19 +75,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                      |
-|-------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was not an accepted value.<br/> |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *stride* or *count* was negative.<br/> |
-
-
-
 ## Remarks
 
 The **glNormalPointer** function specifies the location and data of an array of normals to use when rendering. The *type* parameter specifies the data type of each normal coordinate. The *stride* parameter determines the byte offset from one normal to the next, enabling the packing of vertices and attributes in a single array or storage in separate arrays. In some implementations storing the vertices and attributes in a single array can be more efficient than using separate arrays; see [**glInterleavedArrays**](glinterleavedarrays.md) for details.
@@ -116,7 +103,7 @@ The following functions are associated with **glNormalPointer**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: List of URLs to which the network source will send logging information.
+description: List of URLs to which the network source will send logging information.
 ms.assetid: 772c5b57-273d-4289-9229-ef7a199c6473
 title: MFNETSOURCE_LOGURL property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

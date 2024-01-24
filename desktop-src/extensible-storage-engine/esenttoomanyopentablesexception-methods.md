@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesException methods"
 title: EsentTooManyOpenTablesException methods
 TOCTitle: EsentTooManyOpenTablesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManyOpenTablesException](dn350769\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyOpenTablesException](./esenttoomanyopentablesexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentTooManyOpenTablesException class](dn350769\(v=exchg.10\).md)
+[EsentTooManyOpenTablesException class](./esenttoomanyopentablesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cbDataCompressed property"
 title: JET_RECSIZE.cbDataCompressed property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cbDataCompressed property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cbDataCompressed
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RECSIZE.cbDataCompressed property
 
-Gets the compressed size of user data in record. This is the same as [cbData](hh557581\(v=exchg.10\).md) if no intrinsic long-values are compressed).
+Gets the compressed size of user data in record. This is the same as [cbData](./jet-recsize.cbdata-property.md) if no intrinsic long-values are compressed).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Int64](/dotnet/api/system.int64)
 
 #### Reference
 
-[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](./jet-recsize-structure2.md)
 
-[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](./jet-recsize-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

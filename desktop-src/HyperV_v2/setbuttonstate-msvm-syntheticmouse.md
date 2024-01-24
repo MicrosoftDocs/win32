@@ -1,5 +1,5 @@
 ---
-Description: Sets the current state of the specified device button.
+description: SetButtonState method of the Msvm_SyntheticMouse class - Sets the current state of the specified device button.
 ms.assetid: 942DB31C-09A2-43B6-A666-267AF6A84E0E
 title: SetButtonState method of the Msvm_SyntheticMouse class
 ms.topic: reference
@@ -108,7 +108,7 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -22,7 +22,7 @@ Specifies the country/region code for the user's language of choice. This value 
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Country-Code                            |
 | Ldap-Display-Name | countryCode                             |
@@ -49,7 +49,7 @@ Specifies the country/region code for the user's language of choice. This value 
 
 
 
-|                        |                                                                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                |
@@ -70,7 +70,7 @@ Specifies the country/region code for the user's language of choice. This value 
 
 
 
-|                        |                                                                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                |
@@ -91,7 +91,7 @@ Specifies the country/region code for the user's language of choice. This value 
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -112,7 +112,7 @@ Specifies the country/region code for the user's language of choice. This value 
 
 
 
-|                        |                                                                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                |
@@ -133,7 +133,7 @@ Specifies the country/region code for the user's language of choice. This value 
 
 
 
-|                        |                                                                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                |
@@ -154,7 +154,7 @@ Specifies the country/region code for the user's language of choice. This value 
 
 
 
-|                        |                                                                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                |
@@ -175,7 +175,7 @@ Specifies the country/region code for the user's language of choice. This value 
 
 
 
-|                        |                                                                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                |

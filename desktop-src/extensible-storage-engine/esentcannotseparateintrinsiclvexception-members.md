@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotSeparateIntrinsicLVException members"
 title: EsentCannotSeparateIntrinsicLVException members
 TOCTitle: EsentCannotSeparateIntrinsicLVException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CannotSeparateIntrinsicLV exceptions.
 
-The [EsentCannotSeparateIntrinsicLVException](dn274117\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotSeparateIntrinsicLVException](./esentcannotseparateintrinsiclvexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCannotSeparateIntrinsicLVException class](dn274117\(v=exchg.10\).md)
+[EsentCannotSeparateIntrinsicLVException class](./esentcannotseparateintrinsiclvexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

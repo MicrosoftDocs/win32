@@ -1,6 +1,6 @@
 ---
 title: glNormal3dv function (Gl.h)
-description: Sets the current normal vector.
+description: Sets the current normal vector. | glNormal3dv function (Gl.h)
 ms.assetid: 9d4f8d3c-f4c4-4165-a5f9-edc89319008b
 keywords:
 - glNormal3dv function OpenGL
@@ -62,7 +62,7 @@ Normals specified by using**glNormal3dv** need not have unit length. If normaliz
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_IREADINGLAYOUT
+description: LOCALE\_IREADINGLAYOUT
 ms.assetid: 353b931e-ab9c-43b2-84ac-0b1195a01446
 title: LOCALE_IREADINGLAYOUT
 ms.topic: article

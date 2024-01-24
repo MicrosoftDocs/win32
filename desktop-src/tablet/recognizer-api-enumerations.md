@@ -1,5 +1,5 @@
 ---
-Description: This section describes the recognizer enumerations.
+description: This section describes the recognizer enumerations.
 ms.assetid: f0df02b0-bef6-461f-a2cf-d4ac58bd5f0e
 title: Recognizer Enumerations
 ms.topic: article

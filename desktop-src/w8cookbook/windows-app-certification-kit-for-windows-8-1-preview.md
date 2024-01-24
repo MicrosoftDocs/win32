@@ -25,8 +25,6 @@ The Windows App Certification Kit 3.1 has been updated to provide the developers
 
 -   [Windows App Certification Kit](https://msdn.microsoft.com/windows/apps/jj572486.aspx) provides an overview of the Windows App Certification Kit 3.0, what’s new in version 3.0 and a link to “Get the Windows App Certification Kit for Windows RT”
 -   [Using the Windows App Certification Kit](/previous-versions/windows/apps/hh694081(v=win.10)) lists the pre-requisites for developing a store app and how to validate your store app using Windows App Certification Kit”
--   [Using the Windows App Certification Kit White Paper](https://www.microsoft.com/download/details.aspx?id=27414) provides a step-by-step overview of the Windows App Certification Kit, and guidance on integrating the kit into existing test services using the command line mode
--   [Windows Store app development for Windows RT PCs](https://www.microsoft.com/download/details.aspx?id=30703) addresses various aspects of developing Windows Store apps for Windows RT
 -   [Get Certified](../win_cert/windows-certification-portal.md) provides various resources to help you certify your desktop app
 -   [Certify your app](https://msdn.microsoft.com/library/windows/apps/hh694079.aspx) describes the certification process for Windows Store
 

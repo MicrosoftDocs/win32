@@ -1,5 +1,5 @@
 ---
-Description: Access to WMI namespaces and their data is controlled by security descriptors.
+description: Access to WMI namespaces and their data is controlled by security descriptors.
 ms.assetid: 3c2dc148-df6a-4bcb-a657-59b56c358d14
 ms.tgt_platform: multiple
 title: Securing WMI Namespaces
@@ -11,7 +11,6 @@ ms.date: 05/31/2018
 
 Access to WMI namespaces and their data is controlled by [*security descriptors*](gloss-s.md). You can protect data in your [*namespaces*](gloss-n.md) by adjusting the namespace security descriptor to control who has access to the data and methods. For more information, see [Access to WMI Securable Objects](access-to-wmi-securable-objects.md).
 
-## 
 
 The following topics describe WMI namespace security and how to control access to namespaces.
 

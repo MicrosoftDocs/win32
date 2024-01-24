@@ -1,5 +1,5 @@
 ---
-Description: Setting the DISABLEADVTSHORTCUTS property disables the generation of shortcuts supporting installation-on-demand and advertisement. Setting this property specifies that these shortcuts should instead be replaced by regular shortcuts.
+description: Setting the DISABLEADVTSHORTCUTS property disables the generation of shortcuts supporting installation-on-demand and advertisement. Setting this property specifies that these shortcuts should instead be replaced by regular shortcuts.
 ms.assetid: 1b55ecbe-932f-4f08-98b1-8c5e7a57d2e8
 title: DISABLEADVTSHORTCUTS property
 ms.topic: reference
@@ -24,7 +24,7 @@ This property is commonly used by administrators for users who roam between envi
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

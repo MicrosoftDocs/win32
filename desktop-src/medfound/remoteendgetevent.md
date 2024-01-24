@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFMediaEventGenerator::EndGetEvent method.
+description: Remotable version of the IMFMediaEventGenerator::EndGetEvent method.
 ms.assetid: 5b793760-546c-43d4-8251-d89d8d7152ad
 title: RemoteEndGetEvent (Mfobjects.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

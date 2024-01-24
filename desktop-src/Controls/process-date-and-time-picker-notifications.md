@@ -23,7 +23,6 @@ This section demonstrates how to process date and time picker notifications.
 
 ## Instructions
 
-### 
 
 A date and time picker (DTP) control sends notification messages to the parent window when events, usually triggered by input from the user, occur in the control. Your application must include code to determine the type of notification message and respond appropriately.
 
@@ -31,7 +30,7 @@ If you plan to use callback fields with the DTP controls in your application, yo
 
 The following C++ code example identifies the notification message sent by a DTP control and calls the appropriate application-defined function. Refer to the following topics for code examples that illustrate how to process the notifications that appear in this example.
 
-|                                                                                                        |
+|   Topics                                                                                                     |
 |--------------------------------------------------------------------------------------------------------|
 | [How to Process the DTN\_DATETIMECHANGE Notification](process-the-dtn-datetimechange-notification.md) |
 | [How to Process the DTN\_FORMATQUERY Notification](process-the-dtn-formatquery-notification.md)       |
@@ -42,7 +41,6 @@ The following C++ code example identifies the notification message sent by a DTP
 
  
 
-## 
 
 
 ```C++

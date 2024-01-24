@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a IInkTablet is added to the system.
+description: InkOverlay.TabletAdded event - Occurs when a IInkTablet is added to the system.
 ms.assetid: 2076a520-bd37-43b5-b57f-030828b096cb
 title: InkOverlay.TabletAdded event (Msinkaut.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

@@ -20,7 +20,7 @@ The following are the WinINet Constants.
      
 
 -   [HTTP Status Codes](http-status-codes.md)
--   [Option Flags](option-flags.md)
+-   [Option flags](option-flags.md)
 -   [Query Info Flags](query-info-flags.md)
 
  

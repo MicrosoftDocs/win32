@@ -12,7 +12,7 @@ Query the dimensions of a given input resource.
 
 
 
-| resinfo\[\_uint\|\_rcpFloat\] dest\[.mask\], srcMipLevel.select\_component, srcResource\[.swizzle\] |
+| resinfo[\_uint\|\_rcpFloat] dest\[.mask\], srcMipLevel.select\_component, srcResource\[.swizzle\] |
 |-----------------------------------------------------------------------------------------------------|
 
 

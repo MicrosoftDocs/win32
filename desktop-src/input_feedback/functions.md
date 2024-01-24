@@ -1,5 +1,7 @@
 ---
-title: Functions
+
+title: Functions (Input Feedback Configuration))
+
 description: The topics in this section provide the reference specifications for Input Feedback Configuration functions.
 ms.assetid: 9CC3EA75-8FD5-4A29-8FD7-785E25ACCBA2
 keywords:
@@ -14,7 +16,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# Functions
+# Input Feedback Configuration functions
 
 The topics in this section provide the reference specifications for [Input Feedback Configuration](input-feedback-configuration-portal.md) functions.
 

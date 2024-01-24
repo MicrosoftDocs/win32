@@ -1,5 +1,5 @@
 ---
-Description: Removes a single Certificate object from the collection.
+description: Removes a single Certificate object from the collection.
 ms.assetid: dff82825-1a7d-4c1a-94e2-7f9d1281ecf2
 title: ICertificates2::Remove method
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 
 # ICertificates2::Remove method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](/previous-versions/windows/embedded/hh424013(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](/previous-versions/windows/embedded/hh424013(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Remove** method removes a single [**Certificate**](certificate.md) object from the collection. This method was introduced in CAPICOM 2.0.
 
@@ -64,7 +64,7 @@ This method does not return a value.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

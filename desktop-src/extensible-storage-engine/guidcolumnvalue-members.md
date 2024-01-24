@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GuidColumnValue members"
 title: GuidColumnValue members
 TOCTitle: GuidColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.GuidColumnValue
@@ -15,7 +16,7 @@ Include inherited members
 
 A [Guid](/dotnet/api/system.guid) column value.
 
-The [GuidColumnValue](dn350902\(v=exchg.10\).md) type exposes the following members.
+The [GuidColumnValue](./guidcolumnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[GuidColumnValue class](dn350902\(v=exchg.10\).md)
+[GuidColumnValue class](./guidcolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

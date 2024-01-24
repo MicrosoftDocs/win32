@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFMediaTypeHandler::GetCurrentMediaType method.
+description: Remotable version of the IMFMediaTypeHandler::GetCurrentMediaType method.
 ms.assetid: f7f69adb-2a4a-47a9-bb92-ad9d005b962f
 title: RemoteGetCurrentMediaType (Mfobjects.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

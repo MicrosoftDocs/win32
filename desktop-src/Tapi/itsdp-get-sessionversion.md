@@ -1,5 +1,5 @@
 ---
-Description: The get\_SessionVersion method gets the 32-bit (ideally Network Time Protocol, or NTP) value that serves as the session version.
+description: The get\_SessionVersion method gets the 32-bit (ideally Network Time Protocol, or NTP) value that serves as the session version.
 ms.assetid: 39c2aef4-24e3-4ea0-8b23-dff842f9ab84
 title: ITSdp::get_SessionVersion method (Sdpblb.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The return value of this method could be **ULONG**, but Visual Basic doesn't sup
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

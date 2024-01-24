@@ -15,11 +15,7 @@ api_location:
 
 Ends the current primitive strip and starts a new strip. If the current strip does not have enough vertices emitted to fill the primitive topology, the incomplete primitive at the end will be discarded.
 
-
-
-|                 |
-|-----------------|
-| RestartStrip(); |
+RestartStrip();
 
 
 

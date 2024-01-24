@@ -1,6 +1,6 @@
 ---
 title: InprocHandler32
-description: Specifies whether an application uses a custom handler.
+description: InprocHandler32 specifies whether an application uses a custom handler in the HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID registry key.
 ms.assetid: da611bb6-1f69-449a-9821-e2fbbe413a97
 keywords:
 - InprocHandler32 registry key COM

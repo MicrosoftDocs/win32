@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MemoryOnCard class associates physical memory located on hosting boards, adapter cards, and so on. This association explicitly defines the relationship of memory to cards.
+description: The CIM\_MemoryOnCard class associates physical memory located on hosting boards, adapter cards, and so on. This association explicitly defines the relationship of memory to cards.
 ms.assetid: 0d094cad-c542-4794-b6e1-87cdc8067668
 ms.tgt_platform: multiple
 title: CIM_MemoryOnCard class
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

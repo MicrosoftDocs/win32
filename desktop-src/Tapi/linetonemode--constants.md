@@ -1,5 +1,5 @@
 ---
-Description: The LINETONEMODE\_ constants describe different selections that are used when generating line tones.
+description: The LINETONEMODE\_ constants describe different selections that are used when generating line tones.
 ms.assetid: 7bfc7d4e-2ab3-44ec-a936-f2d7dcfce263
 title: LINETONEMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ These constants are used to define tones to be generated inband over a call to t
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

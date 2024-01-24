@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the plaintext content of a message to be enveloped. This is the default property.
+description: Sets or retrieves the plaintext content of a message to be enveloped. This is the default property.
 ms.assetid: 7927321f-fbda-45e0-9b9f-c10ecd3a98b1
 title: EnvelopedData.Content property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # EnvelopedData.Content property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](/dotnet/api/system.security.cryptography.pkcs.envelopedcms?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**EnvelopedCms Class**](/dotnet/api/system.security.cryptography.pkcs.envelopedcms?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Content** property sets or retrieves the plaintext content of a message to be enveloped. This is the default property.
 
@@ -42,7 +42,7 @@ Setting this property must be done before the [**Encrypt**](envelopeddata-encryp
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

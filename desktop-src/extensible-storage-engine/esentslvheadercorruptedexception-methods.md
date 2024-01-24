@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVHeaderCorruptedException methods"
 title: EsentSLVHeaderCorruptedException methods
 TOCTitle: EsentSLVHeaderCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVHeaderCorruptedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVHeaderCorruptedException](dn334793\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVHeaderCorruptedException](./esentslvheadercorruptedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVHeaderCorruptedException class](dn334793\(v=exchg.10\).md)
+[EsentSLVHeaderCorruptedException class](./esentslvheadercorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

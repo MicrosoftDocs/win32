@@ -1,5 +1,5 @@
 ---
-Description: The CInstance class exposes the following methods.
+description: The CInstance class exposes the following methods.
 ms.assetid: B9846350-405D-440E-AC35-16446D3F03F5
 ms.tgt_platform: multiple
 title: CInstance Methods

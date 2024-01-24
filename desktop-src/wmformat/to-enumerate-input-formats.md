@@ -12,10 +12,13 @@ keywords:
 - profiles,input format enumerations
 - codecs,input format enumerations
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # To Enumerate Input Formats
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Each of the Windows Media codecs accepts one or more types of input media for compression. The Windows Media Format SDK enables you to input a wider variety of formats than those supported by the codecs. The SDK does this by performing pre-processing transformations on the inputs when necessary, such as resizing video frames or resampling audio. In any case, you must ensure that the input formats for the files you write match the data you send to the writer. Each codec has a default input media format that is set in the writer when the profile is loaded. You can examine the default input format by calling [**IWMWriter::GetInputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops).
 

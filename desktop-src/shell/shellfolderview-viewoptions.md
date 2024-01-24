@@ -1,5 +1,5 @@
 ---
-Description: Gets a set of flags that indicate the current options of the view.
+description: Gets a set of flags that indicate the current options of the view.
 ms.assetid: 83a17033-bd7f-44de-a0c8-460d12c4825d
 title: ShellFolderView.ViewOptions property (Shldisp.h)
 ms.topic: reference
@@ -171,7 +171,7 @@ The following example shows the proper use of this method in JScript embedded in
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

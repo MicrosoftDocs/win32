@@ -1,5 +1,5 @@
 ---
-Description: This section describes structures you can use to develop parsers. These structures are used by functions you can use to develop parsers and functions you can use to develop either parsers or experts.
+description: This section describes structures you can use to develop parsers. These structures are used by functions you can use to develop parsers and functions you can use to develop either parsers or experts.
 ms.assetid: ce45a8ef-4355-46fd-909e-3ab4d63a3bf1
 title: Parser Structures
 ms.topic: article

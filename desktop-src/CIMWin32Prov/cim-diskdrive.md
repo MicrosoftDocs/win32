@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DiskDrive class represents a physical disk drive as seen by the operating system.
+description: The CIM\_DiskDrive class represents a physical disk drive as seen by the operating system.
 ms.assetid: 3a63506e-455e-4108-b0c7-03b2af249d61
 ms.tgt_platform: multiple
 title: CIM_DiskDrive class (CIMWin32 WMI Providers)
@@ -45,7 +45,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_DiskDrive class
+# CIM_DiskDrive class (CIMWin32 WMI Providers)
 
 The **CIM\_DiskDrive** class represents a physical disk drive as seen by the operating system. The disk drive features correspond to the logical and management characteristics of the drive, and in some cases, may not reflect the physical characteristics of the device. An interface to a physical drive is a member of this class. However, an object based on another logical device is not a member of this class.
 
@@ -1610,7 +1610,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

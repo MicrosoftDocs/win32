@@ -1,5 +1,5 @@
 ---
-Description: An enum used to send responses from the capture engine to Graphics Diagnostics.
+description: An enum used to send responses from the capture engine to Graphics Diagnostics.
 MS-HAID: vspixengine.PixPipeResponse
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -62,7 +62,7 @@ A response which indicates status information about the app being captured; for 
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

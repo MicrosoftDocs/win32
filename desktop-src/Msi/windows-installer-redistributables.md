@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer redistributable is a software update package.
+description: The Windows Installer redistributable is a software update package.
 ms.assetid: 8491dfa6-b9be-4e37-8a61-a405c8eb0ab0
 title: Windows Installer Redistributables
 ms.topic: article

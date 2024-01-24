@@ -1,5 +1,5 @@
 ---
-Description: Forces the Enhanced Video Renderer (EVR) to use bob deinterlacing.
+description: Forces the Enhanced Video Renderer (EVR) to use bob deinterlacing.
 ms.assetid: 56f808b3-c2eb-46e4-84a1-c478a5db78e7
 title: EVRConfig_ForceBob attribute (Uuids.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from strmiids.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

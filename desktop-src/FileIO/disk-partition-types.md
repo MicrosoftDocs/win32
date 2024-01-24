@@ -1,5 +1,5 @@
 ---
-Description: Valid partition types used by disk drivers.
+description: Valid partition types used by disk drivers.
 ms.assetid: b2e15b93-a02b-4d6f-b242-b5ec9a30c97b
 title: Disk Partition Types (WinIoCtl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ There are several macros that can help you detect the partition type: **IsContai
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                      |

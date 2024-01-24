@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Limitations of the Scripting Model"
 ms.assetid: b8ddbfac-5b5e-4aff-beea-82e7fc984790
 title: Limitations of the Scripting Model
 ms.topic: article

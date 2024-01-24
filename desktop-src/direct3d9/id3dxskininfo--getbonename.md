@@ -1,5 +1,5 @@
 ---
-Description: Gets the bone name, from the bone index.
+description: Gets the bone name, from the bone index.
 ms.assetid: f56faf41-c119-4cdd-bb8a-86fc99ff5893
 title: ID3DXSkinInfo::GetBoneName method (D3DX9Mesh.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Returns the bone name. Do not free this string.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

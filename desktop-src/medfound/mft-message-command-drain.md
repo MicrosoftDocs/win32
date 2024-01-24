@@ -1,5 +1,5 @@
 ---
-Description: Requests a Media Foundation transform (MFT) to flush all stored data.
+description: MFT_MESSAGE_COMMAND_DRAIN - Requests a Media Foundation transform (MFT) to flush all stored data.
 ms.assetid: c48f3a88-a007-4f30-ac60-9e5a8c24e1ee
 title: MFT_MESSAGE_COMMAND_DRAIN (Mftransform.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFT\_MESSAGE\_COMMAND\_DRAIN
 
-Requests a Media Foundation transform (MFT) to flush all stored data.
+Requests a Media Foundation transform (MFT) to drain all stored data.
 
 ## Message Parameter
 
@@ -55,7 +55,7 @@ Otherwise, a synchronous MFT must implement this message.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

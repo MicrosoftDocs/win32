@@ -1,5 +1,5 @@
 ---
-Description: Dropping or disconnecting a session terminates communication. The application has the option of sending user-user information at the time of the disconnect, if the service provider supports it.
+description: Dropping or disconnecting a session terminates communication. The application has the option of sending user-user information at the time of the disconnect, if the service provider supports it.
 ms.assetid: dc348bb2-d564-40f8-afe3-5473c5769fa4
 title: Drop
 ms.topic: article

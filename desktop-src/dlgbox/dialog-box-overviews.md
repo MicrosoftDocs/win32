@@ -1,6 +1,6 @@
 ---
 title: Dialog Box Overviews
-description: .
+description: . | Dialog Box Overviews
 ms.assetid: 325643f1-a46c-4a7a-9899-70be5faf8872
 ms.topic: reference
 ms.date: 05/31/2018

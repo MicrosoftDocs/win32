@@ -1,5 +1,5 @@
 ---
-Description: The standard Windows Image Acquisition (WIA) video driver (wiavusd.dll) supports the following properties for streaming video devices.
+description: The standard Windows Image Acquisition (WIA) video driver (wiavusd.dll) supports the following properties for streaming video devices.
 ms.assetid: 24fa7e02-c409-49ec-b1a9-309f7c95e292
 title: Video WIA Device Property Constants (Wiadef.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The prefix "WIA\_DPV\_" indicates a Device Property for Video devices and is the
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

@@ -22,7 +22,7 @@ Contains the relative cost for routing messages through a particular site connec
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Cost                                 |
 | Ldap-Display-Name | cost                                 |
@@ -49,7 +49,7 @@ Contains the relative cost for routing messages through a particular site connec
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8068                                     |
@@ -70,7 +70,7 @@ Contains the relative cost for routing messages through a particular site connec
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8068                                     |
@@ -91,7 +91,7 @@ Contains the relative cost for routing messages through a particular site connec
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8068                                     |
@@ -112,7 +112,7 @@ Contains the relative cost for routing messages through a particular site connec
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8068                                     |
@@ -133,7 +133,7 @@ Contains the relative cost for routing messages through a particular site connec
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8068                                     |
@@ -154,7 +154,7 @@ Contains the relative cost for routing messages through a particular site connec
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8068                                     |
@@ -175,7 +175,7 @@ Contains the relative cost for routing messages through a particular site connec
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8068                                     |

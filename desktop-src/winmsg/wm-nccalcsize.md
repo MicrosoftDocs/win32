@@ -1,5 +1,5 @@
 ---
-Description: Sent when the size and position of a window's client area must be calculated. By processing this message, an application can control the content of the window's client area when the size or position of the window changes.
+description: Sent when the size and position of a window's client area must be calculated. By processing this message, an application can control the content of the window's client area when the size or position of the window changes.
 ms.assetid: d2d5825e-02a5-44b8-8615-55b7259d24ba
 title: WM_NCCALCSIZE message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent when the size and position of a window's client area must be calculated. By processing this message, an application can control the content of the window's client area when the size or position of the window changes.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -37,7 +37,7 @@ If *wParam* is **FALSE**, the application does not need to indicate the valid pa
 
 If *wParam* is **TRUE**, *lParam* points to an [**NCCALCSIZE\_PARAMS**](/windows/win32/api/winuser/ns-winuser-nccalcsize_params) structure that contains information an application can use to calculate the new size and position of the client rectangle.
 
-If *wParam* is **FALSE**, *lParam* points to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. On entry, the structure contains the proposed window rectangle for the window. On exit, the structure should contain the screen coordinates of the corresponding window client area.
+If *wParam* is **FALSE**, *lParam* points to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. On entry, the structure contains the proposed window rectangle for the window. On exit, the structure should contain the screen coordinates of the corresponding window client area.
 
 </dd> </dl>
 
@@ -80,7 +80,7 @@ Starting with Windows Vista, removing the standard frame by simply returning 0 w
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -116,7 +116,7 @@ Starting with Windows Vista, removing the standard frame by simply returning 0 w
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](/previous-versions//dd162897(v=vs.85))
+[**RECT**](/windows/win32/api/windef/ns-windef-rect)
 </dt> </dl>
 
  

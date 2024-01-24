@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseFailedIncrementalReseedException members"
 title: EsentDatabaseFailedIncrementalReseedException members
 TOCTitle: EsentDatabaseFailedIncrementalReseedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseFailedIncrementalReseedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseFailedIncrementalReseed exceptions.
 
-The [EsentDatabaseFailedIncrementalReseedException](dn334404\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseFailedIncrementalReseedException](./esentdatabasefailedincrementalreseedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseFailedIncrementalReseedException class](dn334404\(v=exchg.10\).md)
+[EsentDatabaseFailedIncrementalReseedException class](./esentdatabasefailedincrementalreseedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MappedLogicalDisk &\#32; WMI class represents network storage devices that are mapped as logical disks on the computer system.
+description: The Win32\_MappedLogicalDisk &\#32; WMI class represents network storage devices that are mapped as logical disks on the computer system.
 ms.assetid: 5dd4b0eb-7872-4f2d-9c8b-ea03f7e2c16d
 ms.tgt_platform: multiple
 title: Win32_MappedLogicalDisk class
@@ -1575,7 +1575,7 @@ The instances returned for this class are as follows, supposing that user A is e
 
     -   Again, if there is more than one session of user B running on the machine, then the provider has no way of deciding which to use. In this case, no mapped drive instances are returned.
 
-For more information on using **Win32\_MappedLogicalDisk**, see [How Can I Determine Which Drives are Mapped to Network Shares?](https://blogs.technet.com/b/heyscriptingguy/archive/2005/10/27/how-can-i-determine-which-drives-are-mapped-to-network-shares.aspx)
+For more information on using **Win32\_MappedLogicalDisk**, see [How Can I Determine Which Drives are Mapped to Network Shares?](https://devblogs.microsoft.com/scripting/how-can-i-determine-which-drives-are-mapped-to-network-shares/)
 
 ## Examples
 
@@ -1592,7 +1592,7 @@ Get-WmiObject Win32_MappedLogicalDisk | Select Name, ProviderName, FileSystem, S
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
@@ -1614,6 +1614,4 @@ Get-WmiObject Win32_MappedLogicalDisk | Select Name, ProviderName, FileSystem, S
 
 [WMI Tasks: Disks and File Systems](/windows/desktop/WmiSdk/wmi-tasks--disks-and-file-systems)
 </dt> </dl>
-
- 
 

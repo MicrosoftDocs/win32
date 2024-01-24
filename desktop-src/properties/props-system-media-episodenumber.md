@@ -1,5 +1,5 @@
 ---
-Description: A 1 based monotonically incremented number that corresponds to the episode of the show.
+description: A 1 based monotonically incremented number that corresponds to the episode of the show.
 ms.assetid: b782a90c-34ae-4e76-b1b8-ba13f17885bd
 title: System.Media.EpisodeNumber
 ms.topic: article

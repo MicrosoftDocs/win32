@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_CacheMemory&\#32;WMI class represents internal and external cache memory on a computer system.
+description: The Win32\_CacheMemory&\#32;WMI class represents internal and external cache memory on a computer system.
 ms.assetid: 9cfb992d-fbac-4e56-b4f3-61c0c93f5852
 ms.tgt_platform: multiple
 title: Win32_CacheMemory class
@@ -2530,7 +2530,7 @@ The **Win32\_CacheMemory** class is derived from [**CIM\_CacheMemory**](cim-cach
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

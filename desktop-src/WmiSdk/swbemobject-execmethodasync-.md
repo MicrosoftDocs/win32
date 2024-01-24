@@ -1,5 +1,5 @@
 ---
-Description: The ExecMethodAsync\_ method of SWbemObject asynchronously executes a method that a method provider exports.
+description: The ExecMethodAsync\_ method of SWbemObject asynchronously executes a method that a method provider exports.
 ms.assetid: b848b38b-c0c3-49cd-b1e2-b0a440b82d61
 ms.tgt_platform: multiple
 title: SWbemObject.ExecMethodAsync_ method (Wbemdisp.h)
@@ -239,7 +239,7 @@ end sub
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

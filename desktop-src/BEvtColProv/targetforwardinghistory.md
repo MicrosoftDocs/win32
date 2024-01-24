@@ -1,5 +1,5 @@
 ---
-Description: The recent history of changes to the forwarding data for a target computer.
+description: The recent history of changes to the forwarding data for a target computer.
 ms.assetid: 621e2734-fc75-4e7a-9fae-de3d1b0272ae
 ms.tgt_platform: multiple
 title: TargetForwardingHistory class
@@ -263,7 +263,7 @@ Timestamp of when this state change was recorded.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

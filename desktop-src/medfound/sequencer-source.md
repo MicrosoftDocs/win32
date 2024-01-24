@@ -1,5 +1,5 @@
 ---
-Description: Sequencer Source
+description: Sequencer Source
 ms.assetid: '788ede68-2fd7-45f6-90cb-2426c40f7d4c'
 title: Sequencer Source
 ms.topic: article

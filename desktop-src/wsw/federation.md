@@ -17,7 +17,7 @@ Federation allows the delegation of authorization authority to other members of 
 -   Fabrikam, when it becomes a partner of Contoso, sets up a trust agreement with Contoso. The goal of this step is to agree on the security token type and content that will represent Fabrikam's authorization and will be acceptable to Contoso. For example, it may be decided that a trusted X.509 certificate with subject name "CN=Fabrikam Inc Supplier STS" should sign a SAML token for that SAML to be accepted by the Contoso Web Service. Further, it may be decided that the security claim in the issued SAML token should be either 'https://schemas.contoso.com/claims/lookup' (for part lookup authorization) or 'https://schemas.contoso.com/claims/order' (for part ordering authorization).
 -   When a Fabrikam employee uses the internal parts ordering application, it first contacts a security token service (STS) inside Fabrikam. That employee is authenticated using the internal Fabrikam security mechanism (say, Windows domain username/password), his authorization to order parts is verified, and he is issued a short lived SAML token containing the appropriate claims and signed by the X.509 certificate decided above. The parts ordering application then contacts the Contoso service presenting the issued SAML token to authenticate and perform the ordering task.
 
-Here, the Fabrikam STS acts as the 'issuing party' and the Contoso parts service acts as the 'relying party'. ![](images/stsmodel.png)
+Here, the Fabrikam STS acts as the 'issuing party' and the Contoso parts service acts as the 'relying party'. ![Diagram showing an issuing party and a relying party in a federation.](images/stsmodel.png)
 
 ## Federation Features
 

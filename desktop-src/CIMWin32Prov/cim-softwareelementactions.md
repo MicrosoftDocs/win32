@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SoftwareElementActions association identifies the actions for a software element.
+description: The CIM\_SoftwareElementActions association identifies the actions for a software element.
 ms.assetid: 2f8a584c-dff0-48f8-bc5f-2b833b5c0b18
 ms.tgt_platform: multiple
 title: CIM_SoftwareElementActions class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

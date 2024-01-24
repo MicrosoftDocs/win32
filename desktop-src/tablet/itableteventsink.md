@@ -1,5 +1,5 @@
 ---
-Description: Defines methods that handle the ITablet Interface events.
+description: Defines methods that handle the ITablet Interface events.
 ms.assetid: 9acf32fa-b33f-4b9a-be73-804b7d5434e8
 title: ITabletEventSink interface
 ms.topic: reference
@@ -131,7 +131,7 @@ interface ITabletEventSink: IUnknown
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

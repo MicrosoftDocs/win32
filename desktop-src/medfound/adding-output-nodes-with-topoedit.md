@@ -1,5 +1,5 @@
 ---
-Description: Adding Output Nodes with TopoEdit
+description: Adding Output Nodes with TopoEdit
 ms.assetid: 23d60fc7-547b-4ef5-b334-5f1b38e58e92
 title: Adding Output Nodes with TopoEdit
 ms.topic: article
@@ -14,46 +14,13 @@ The following table shows the menu/toolbar command for adding an output node to 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Source media type</th>
-<th>Menu/Toolbar Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Audio stream</td>
-<td>On the <strong>Topology</strong> menu, click <strong>Add SAR</strong>.</td>
-<td>Creates an output node for the Streaming Audio Renderer (SAR) that plays an audio stream through an audio device such as a sound card.</td>
-</tr>
-<tr class="even">
-<td>Video stream</td>
-<td>On the <strong>Topology</strong> menu, click <strong>Add EVR</strong>.</td>
-<td>Creates an output node for the enhanced video renderer (EVR) that displays frames for a video stream.</td>
-</tr>
-<tr class="odd">
-<td>Custom media sink</td>
-<td><ol>
-<li>On the <strong>Topology</strong> menu, click <strong>Add Custom Sink</strong>.<br/> The <strong>Input Custom GUID</strong> dialog box opens.<br/></li>
-<li><p>In the <strong>GUID:</strong> field, enter the GUID of your custom sink that you want to add to the topology.<br/></p>
-<blockquote>
-[!Note]<br />
-TopoEdit expects the GUID in the format &quot;{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}&quot;. Otherwise, it fails to add the node and displays an &quot;Invalid GUID&quot; error message.
-</blockquote>
-<p><br/></p></li>
-<li>Click <strong>OK</strong>.<br/></li>
-</ol></td>
-<td>Creates an output node for the stream sink for a custom media source.<br/> The custom sink must support <strong>CoCreateInstance</strong> so that the sink can be specified with a CLSID.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Source media type | Menu/Toolbar Command | Description | 
+|-------------------|----------------------|-------------|
+| Audio stream | On the <strong>Topology</strong> menu, click <strong>Add SAR</strong>. | Creates an output node for the Streaming Audio Renderer (SAR) that plays an audio stream through an audio device such as a sound card. | 
+| Video stream | On the <strong>Topology</strong> menu, click <strong>Add EVR</strong>. | Creates an output node for the enhanced video renderer (EVR) that displays frames for a video stream. | 
+| Custom media sink | <ol><br>- On the **Topology** menu, click **Add Custom Sink**.<br> The **Input Custom GUID** dialog box opens.<br>- <br>In the **GUID:** field, enter the GUID of your custom sink that you want to add to the topology.<br> **Note:** TopoEdit expects the GUID in the format "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}". Otherwise, it fails to add the node and displays an "Invalid GUID" error message.<br>- Click **OK**.<br></ol> | Creates an output node for the stream sink for a custom media source.<br> The custom sink must support **CoCreateInstance** so that the sink can be specified with a CLSID.<br> | 
+
 
 
 

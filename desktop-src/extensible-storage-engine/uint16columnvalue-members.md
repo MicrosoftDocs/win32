@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt16ColumnValue members"
 title: UInt16ColumnValue members
 TOCTitle: UInt16ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.UInt16ColumnValue
@@ -15,7 +16,7 @@ Include inherited members
 
 A [UInt16](/dotnet/api/system.uint16) column value.
 
-The [UInt16ColumnValue](dn351247\(v=exchg.10\).md) type exposes the following members.
+The [UInt16ColumnValue](./uint16columnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[UInt16ColumnValue class](dn351247\(v=exchg.10\).md)
+[UInt16ColumnValue class](./uint16columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

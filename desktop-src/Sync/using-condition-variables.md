@@ -1,5 +1,5 @@
 ---
-Description: The following code implements a producer/consumer queue.
+description: The following code implements a producer/consumer queue.
 ms.assetid: 0f79de15-6ce9-4d89-afb5-b4a2f0cf2fe3
 title: Using Condition Variables
 ms.topic: article

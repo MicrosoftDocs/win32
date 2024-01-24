@@ -1,5 +1,5 @@
 ---
-Description: Windows Server 2008 R2 adds support for server-side handwriting recognition to Windows. This topic describes how to recognize handwriting in Windows Server 2008 R2.
+description: Windows Server 2008 R2 adds support for server-side handwriting recognition to Windows. This topic describes how to recognize handwriting in Windows Server 2008 R2.
 ms.assetid: ec22391d-a6e8-49b0-8650-943a661cbcd3
 title: Handwriting Recognition in Windows Server 2008 R2
 ms.topic: article
@@ -14,10 +14,10 @@ Windows Server 2008 R2 supports server-side handwriting recognition. Server-side
 
 The following steps should be followed to set up server-side recognition.
 
--   Install Ink and Handwriting Services
--   Install Support for Web Server (IIS) and Application Server
--   Enable the Desktop Experience Role
--   Start the Tablet PC Input Service
+- Install Ink and Handwriting Services
+- Install Support for Web Server (IIS) and Application Server
+- Enable the Desktop Experience Role
+- Start the Tablet PC Input Service
 
 ### Install Ink and Handwriting Services
 
@@ -60,21 +60,21 @@ After you have installed the Desktop Experience service, the Tablet PC Input ser
 
 This section shows how to create a Web application that uses Silverlight to capture handwriting input. Use the following steps to program the recognizer in Visual Studio 2008.
 
--   Install and update Visual Studio 2008 to add support for Silverlight.
--   Create a new Silverlight project in Visual Studio 2008.
--   Add the necessary service references to your project.
--   Create a Silverlight WCF Service for ink recognition.
--   Add the service reference to your client project.
--   Add the InkCollector class to the InkRecognition project.
--   Remove secure transport directives from the client configuration
+- Install and update Visual Studio 2008 to add support for Silverlight.
+- Create a new Silverlight project in Visual Studio 2008.
+- Add the necessary service references to your project.
+- Create a Silverlight WCF Service for ink recognition.
+- Add the service reference to your client project.
+- Add the InkCollector class to the InkRecognition project.
+- Remove secure transport directives from the client configuration
 
 ### Install and Update Visual Studio 2008 to Add Support for Silverlight
 
 Before you begin, you must perform the following steps on your Windows Server 2008 R2 server.
 
--   Install Visual Studio 2008.
--   Install [Microsoft Visual Studio 2008 Service Pack 1](https://www.microsoft.com/download/details.aspx?id=10986).
--   Install [Microsoft Silverlight 5 SDK]((https://www.microsoft.com/download/details.aspx?id=28359).
+- Install Visual Studio 2008.
+- Install [Microsoft Visual Studio 2008 Service Pack 1](https://www.microsoft.com/en-us/download/details.aspx?id=13276).
+- Install [Microsoft Silverlight 5 SDK](https://www.microsoft.com/silverlight/).
 
 After you have installed these applications and updates, you are ready to create your server-side recognition Web application.
 

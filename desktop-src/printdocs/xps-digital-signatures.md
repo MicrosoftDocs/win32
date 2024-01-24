@@ -1,5 +1,5 @@
 ---
-Description: The XPS Digital Signature API enables a user to sign a document, verify the identity of the signer, and indicate whether an XPS document has changed since it was signed.
+description: The XPS Digital Signature API enables a user to sign a document, verify the identity of the signer, and indicate whether an XPS document has changed since it was signed.
 ms.assetid: '8a23617e-92fe-4662-b602-47add5716358'
 title: XPS Digital Signature API
 ms.topic: article
@@ -37,7 +37,7 @@ The XPS Digital Signature interfaces that are described in this section are not 
 [Packaging](/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> <dt>
 
 [Standard ECMA-376, Office Open XML File Formats](https://www.ecma-international.org/publications/standards/Ecma-376.htm)

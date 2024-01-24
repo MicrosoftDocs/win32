@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::Gather(S,float,uint) function
-description: Samples a texture and returns all four components along with status about the operation.
+description: Returns the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCubeArray::Gather(S,float,uint) function
 ms.assetid: B5C1843C-8DE4-4007-B619-2CC09B8A023B
 keywords:
 - Gather function HLSL
@@ -15,18 +15,18 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Gather(S,float,uint) function
+# TextureCubeArray::Gather(S,float,uint) function
 
-Samples a texture and returns all four components along with status about the operation.
+Returns the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType Gather(
-  in  SamplerState S,
-  in  float        Location,
-  out uint         Status
+  in  SamplerState S,
+  in  float4       Location,
+  out uint         Status
 );
 ```
 
@@ -83,7 +83,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -95,6 +95,6 @@ This function is supported for the following types of shaders:
 [**TextureCubeArray**](texturecubearray.md)
 </dt> </dl>
 
- 
 
- 
+
+

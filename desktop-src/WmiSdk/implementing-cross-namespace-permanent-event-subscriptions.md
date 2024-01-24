@@ -1,5 +1,5 @@
 ---
-Description: It is recommended that all permanent subscriptions be compiled into the \\root\\subscription namespace.
+description: It is recommended that all permanent subscriptions be compiled into the \\root\\subscription namespace.
 ms.assetid: 6d4ccc86-f29f-4ca5-bea5-c77ee07d7789
 ms.tgt_platform: multiple
 title: Implementing Cross-Namespace Permanent Event Subscriptions

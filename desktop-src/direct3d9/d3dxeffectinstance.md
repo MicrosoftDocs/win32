@@ -1,5 +1,5 @@
 ---
-Description: Data type for managing a set of default effect parameters.
+description: Data type for managing a set of default effect parameters.
 ms.assetid: a3408c0b-b4a6-47b1-b12e-594c13bd3a7d
 title: D3DXEFFECTINSTANCE structure (D3dx9mesh.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to an array of [**D3DXEFFECTDEFAULT**](d3dxeffectdefault.md) elements, e
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with file logs.
+description: The following functions are used with file logs.
 ms.assetid: b747a1f2-d11a-4512-9cf2-efa226f372d5
 title: File Log Functions
 ms.topic: article

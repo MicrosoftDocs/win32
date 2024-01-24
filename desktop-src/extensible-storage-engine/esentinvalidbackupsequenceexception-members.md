@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBackupSequenceException members"
 title: EsentInvalidBackupSequenceException members
 TOCTitle: EsentInvalidBackupSequenceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupSequenceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidBackupSequence exceptions.
 
-The [EsentInvalidBackupSequenceException](dn319414\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidBackupSequenceException](./esentinvalidbackupsequenceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidBackupSequenceException class](dn319414\(v=exchg.10\).md)
+[EsentInvalidBackupSequenceException class](./esentinvalidbackupsequenceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

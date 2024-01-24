@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_GPS\_DOP.
+description: The denominator of PKEY\_GPS\_DOP.
 ms.assetid: 005512c6-934a-4f50-9253-e60030aa1a95
 title: System.GPS.DOPDenominator
 ms.topic: article

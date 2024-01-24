@@ -1,5 +1,5 @@
 ---
-Description: Volume and LUN Binding
+description: Volume and LUN Binding
 ms.assetid: ae32b354-799e-4f9b-8989-02bd95968210
 title: Volume and LUN Binding
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Volume and LUN Binding
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 Binding is the creation of volumes or LUNs. Volumes consist of disk extents and LUNs consist of drive extents. Binding selects for a set of mappings to physical resources and occurs within a subsystem, within a pack, or both. All provider programs support partially directed binding a model in which the caller specifies only those binding attributes of particular interest, and allows the provider to choose the rest. The operations in VDS for binding volumes and LUNs are similar but not identical. For example, hardware providers can offer additional binding options.
 
@@ -38,15 +38,15 @@ Non-fault tolerant volumes and LUNs do not offer disaster recovery. If one of th
 
 Simple
 
-![](images/vdssimplelunvol.png)
+![Diagram that shows a Simple non-fault tolerant type with 2 Packs and 2 Subsystems.](images/vdssimplelunvol.png)
 
 Spanned
 
-![](images/vdsspanlunvol.png)
+![Diagram that shows a Spanned non-fault tolerant type with 1 Pack and 1 Subsystem.](images/vdsspanlunvol.png)
 
 Striped
 
-![](images/vdsstripelunvol.png)
+![Diagram that shows a Striped non-fault tolerant type with 1 Pack and 1 Subsystem.](images/vdsstripelunvol.png)
 
 ### Fault Tolerant Binding
 
@@ -54,11 +54,11 @@ The following fault tolerant volumes and LUNs offer disaster recovery. If one of
 
 Mirrored (three-way mirror)
 
-![](images/vdsmirrorlunvol.png)
+![Diagram that shows a Mirrored (3-way mirror) fault tolerant type.](images/vdsmirrorlunvol.png)
 
 Striped with parity
 
-![](images/vdsstripeparitylunvol.png)
+![Diagram that shows a Striped with parity fault tolerant type.](images/vdsstripeparitylunvol.png)
 
 ## Related topics
 

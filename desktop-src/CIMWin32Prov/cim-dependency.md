@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Dependency class represents an association that establishes dependency relationships between objects.
+description: The CIM\_Dependency class represents an association that establishes dependency relationships between objects.
 ms.assetid: ff0d6b50-0920-443e-a984-e6a9ab4402b1
 ms.tgt_platform: multiple
 title: CIM_Dependency class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Dependency class
+# CIM_Dependency class (CIMWin32 WMI Providers)
 
 The **CIM\_Dependency** class represents an association that establishes dependency relationships between objects.
 
@@ -88,7 +88,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

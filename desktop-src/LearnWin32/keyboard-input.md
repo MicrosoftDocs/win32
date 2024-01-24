@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Keyboard Input
+# Keyboard Input (Get Started with Win32 and C++)
 
 The keyboard is used for several distinct types of input, including:
 
@@ -70,7 +70,7 @@ Key strokes are converted into characters by the [**TranslateMessage**](/windows
 
 As you might guess, [**WM\_CHAR**](/windows/desktop/inputdev/wm-char) messages are generated from [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) messages, while [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar) messages are generated from [**WM\_SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown) messages. For example, suppose the user presses the SHIFT key followed by the A key. Assuming a standard keyboard layout, you would get the following sequence of messages:
 
-WM\_KEYDOWN**: SHIFT  
+**WM\_KEYDOWN**: SHIFT  
 **WM\_KEYDOWN**: A  
 **WM\_CHAR**: 'A'  
 
@@ -105,6 +105,8 @@ Some CTRL key combinations are translated into ASCII control characters. For exa
 
 The following code displays the main keyboard messages in the debugger. Try playing with different keystroke combinations and see what messages are generated.
 
+> [!Note]  
+> Be sure to include wchar.h or else swprintf_s will be undefined.
 
 ```C++
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
@@ -167,7 +169,7 @@ For example, consider how would you detect the combination of left mouse click +
 
 
 ```C++
-if (GetKeyState(VK_MENU) & 0x8000))
+if (GetKeyState(VK_MENU) & 0x8000)
 {
     // ALT key is down.
 }
@@ -181,7 +183,7 @@ Most keyboards have two ALT keys, left and right. The previous example tests whe
 
 
 ```C++
-if (GetKeyState(VK_RMENU) & 0x8000))
+if (GetKeyState(VK_RMENU) & 0x8000)
 {
     // Right ALT key is down.
 }

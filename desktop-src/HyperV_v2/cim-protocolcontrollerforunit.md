@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a protocol controller and an exposed logical unit.
+description: Represents an association between a protocol controller and an exposed logical unit.
 ms.assetid: e8bf2b32-b4a6-4963-8a50-2b06776965e8
 title: CIM_ProtocolControllerForUnit class
 ms.topic: reference
@@ -139,7 +139,7 @@ The access rights granted to the logical unit through the protocol controller.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

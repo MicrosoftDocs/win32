@@ -1,6 +1,6 @@
 ---
 title: Modifiers for ps_1_X
-description: Instruction modifiers affect the result of the instruction before it is written into the destination register.
+description: Instruction modifiers affect the result of the instruction before it is written into the destination register. Learn about modifiers for ps_1_X.
 ms.assetid: 15b892da-b6fd-4bd5-8889-bc48035e7819
 ms.topic: article
 ms.date: 05/31/2018
@@ -19,9 +19,8 @@ A list of the modifiers is shown below.
 
 
 
-| Modifier | Description                   | Syntax           | Version |      |      |      |
+| Modifier | Description                   | Syntax           | Version 1\_1 | Version 1\_2     |Version  1\_3    | Version 1\_4    |
 |----------|-------------------------------|------------------|---------|------|------|------|
-|          |                               |                  | 1\_1    | 1\_2 | 1\_3 | 1\_4 |
 | \_x2     | Multiply by 2                 | instruction\_x2  | X       | X    | X    | X    |
 | \_x4     | Multiply by 4                 | instruction\_x4  | X       | X    | X    | X    |
 | \_x8     | Multiply by 8                 | instruction\_x8  |         |      |      | X    |

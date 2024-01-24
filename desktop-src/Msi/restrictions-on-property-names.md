@@ -1,5 +1,5 @@
 ---
-Description: All property names must follow these restrictions.
+description: All property names must follow these restrictions.
 ms.assetid: 4447013a-86c4-48a9-bfe1-5e758c799a2f
 title: Restrictions on Property Names
 ms.topic: article

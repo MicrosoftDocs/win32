@@ -1,5 +1,5 @@
 ---
-Description: The StartDocPrinter function notifies the print spooler that a document is to be spooled for printing.
+description: The StartDocPrinter function notifies the print spooler that a document is to be spooled for printing.
 ms.assetid: caa2bd80-4af3-4968-a5b9-d12f16cac6fc
 title: StartDocPrinter function (Winspool.h)
 ms.topic: reference
@@ -95,7 +95,7 @@ For a sample program that uses this function, see [How To: Print Using the GDI P
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

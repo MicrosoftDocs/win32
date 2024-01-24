@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the FontCollection class. For a complete class listing, see FontCollection Class.
+description: This topic lists the methods of the FontCollection class. For a complete class listing, see FontCollection Class.
 ms.assetid: 7a5a643b-f57a-47a7-9ef7-5406a278862c
 title: FontCollection Methods
 ms.topic: reference

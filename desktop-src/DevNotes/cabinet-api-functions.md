@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cabinet API Functions"
 ms.assetid: 43afef50-8fd2-49ec-9fb4-dafd8ebc009e
 title: Cabinet API Functions
 ms.topic: article

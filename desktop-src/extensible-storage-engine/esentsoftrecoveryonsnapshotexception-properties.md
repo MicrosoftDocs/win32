@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnSnapshotException properties"
 title: EsentSoftRecoveryOnSnapshotException properties
 TOCTitle: EsentSoftRecoveryOnSnapshotException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSoftRecoveryOnSnapshotException](dn334794\(v=exchg.10\).md) type exposes the following members.
+The [EsentSoftRecoveryOnSnapshotException](./esentsoftrecoveryonsnapshotexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSoftRecoveryOnSnapshotException class](dn334794\(v=exchg.10\).md)
+[EsentSoftRecoveryOnSnapshotException class](./esentsoftrecoveryonsnapshotexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

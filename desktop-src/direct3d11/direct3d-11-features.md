@@ -20,7 +20,7 @@ The programming guide contains information about how to use the Direct3D 11 prog
 
 ## Compute Shader
 
-A compute shader is a programmable shader designed for general-purpose data-parallel processing. In other words, compute shaders allow a GPU to be used as a general-purpose parallel processor. The compute shader is similar to the other programmable pipeline shaders (such as vertex, pixel, geometry) in the way that it accesses inputs and outputs. The compute shader technology is also known as the [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) technology. A compute shader is integrated into Direct3D and is accessible through a Direct3D device. It can directly share memory resources with graphics shaders by using the Direct3D device. However, it is not directly connected to other shader stages.
+A compute shader is a programmable shader designed for general-purpose data-parallel processing. In other words, compute shaders allow a GPU to be used as a general-purpose parallel processor. The compute shader is similar to the other programmable pipeline shaders (such as vertex, pixel, geometry) in the way that it accesses inputs and outputs. The compute shader technology is also known as the DirectCompute technology. A compute shader is integrated into Direct3D and is accessible through a Direct3D device. It can directly share memory resources with graphics shaders by using the Direct3D device. However, it is not directly connected to other shader stages.
 
 A compute shader is designed for mass-market applications that perform computations at interactive rates, when the cost of transitioning between the API (and its associated software stack) and a CPU would consume too much overhead.
 

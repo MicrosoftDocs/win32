@@ -1,5 +1,5 @@
 ---
-Description: Lists all of the certificates in a system certificate store and the name of the subject and all of the certificate context properties of each of those certificates.
+description: Lists all of the certificates in a system certificate store and the name of the subject and all of the certificate context properties of each of those certificates.
 ms.assetid: 4b5361f5-79b1-4b05-a133-1a394da7d6ee
 title: 'Example C Program: Listing the Certificates in a Store'
 ms.topic: article

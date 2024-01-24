@@ -1,5 +1,5 @@
 ---
-Description: BETest is a VSS requester that tests advanced backup and restore operations.
+description: BETest is a VSS requester that tests advanced backup and restore operations.
 ms.assetid: a6cc7308-a9fa-4a84-9e7c-4d0adda28db5
 title: BETest Tool
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents a color value with alpha, which is used for transparency.
+description: D3DCOLORVALUE structure (Dxgitype.h) - Represents a color value with alpha, which is used for transparency.
 ms.assetid: 27A86A10-FC0E-421E-BEA7-2DEB539849BB
 title: D3DCOLORVALUE structure (Dxgitype.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - dxgitype.h
 ---
 
-# D3DCOLORVALUE structure
+# D3DCOLORVALUE structure (Dxgitype.h)
 
 Represents a color value with alpha, which is used for transparency.
 
@@ -84,7 +84,7 @@ You can use D3DCOLORVALUE or [**DXGI\_RGBA**](dxgi-rgba.md) with [**IDXGISwapCha
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dxgitype.h</dt> </dl> |
 

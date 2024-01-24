@@ -22,7 +22,7 @@ This attribute was used for the Win16 help file format for Exchange 4.0. It is n
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Help-Data16                                           |
 | Ldap-Display-Name | helpData16                                            |
@@ -48,7 +48,7 @@ This attribute was used for the Win16 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803A                                                   |
@@ -69,7 +69,7 @@ This attribute was used for the Win16 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803A                                                   |
@@ -90,7 +90,7 @@ This attribute was used for the Win16 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803A                                                   |
@@ -111,7 +111,7 @@ This attribute was used for the Win16 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803A                                                   |
@@ -132,7 +132,7 @@ This attribute was used for the Win16 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803A                                                   |
@@ -153,7 +153,7 @@ This attribute was used for the Win16 help file format for Exchange 4.0. It is n
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803A                                                   |

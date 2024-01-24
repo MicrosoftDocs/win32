@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVHeaderBadChecksumException constructor"
 title: EsentSLVHeaderBadChecksumException constructor 
 TOCTitle: 'EsentSLVHeaderBadChecksumException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVHeaderBadChecksumException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVHeaderBadChecksumException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVHeaderBadChecksumException()
 
 #### Reference
 
-[EsentSLVHeaderBadChecksumException class](dn350706\(v=exchg.10\).md)
+[EsentSLVHeaderBadChecksumException class](./esentslvheaderbadchecksumexception-class.md)
 
-[EsentSLVHeaderBadChecksumException members](dn350710\(v=exchg.10\).md)
+[EsentSLVHeaderBadChecksumException members](./esentslvheaderbadchecksumexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

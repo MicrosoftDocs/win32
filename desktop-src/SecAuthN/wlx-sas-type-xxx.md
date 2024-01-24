@@ -1,5 +1,5 @@
 ---
-Description: Values define a specific SAS type.
+description: Values define a specific SAS type.
 ms.assetid: c0a1269b-f9d4-49e1-89ca-526fef148134
 title: WLX_SAS_TYPE_XXX (Winwlx.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ All values from zero to 127 are reserved for Microsoft-defined types. Values abo
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

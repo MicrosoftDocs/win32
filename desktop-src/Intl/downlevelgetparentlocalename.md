@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the locale name for the parent of the supplied locale.
+description: Retrieves the locale name for the parent of the supplied locale.
 ms.assetid: a8db8107-822c-4bbc-acb8-40b25d2b41c4
 title: DownlevelGetParentLocaleName function (Nlsdl.h)
 ms.topic: reference
@@ -87,13 +87,13 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 ## Remarks
 
-The required header file and DLL are part of the "Microsoft NLS Downlevel Data Mapping APIs" download, available at the [Microsoft Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&DisplayLang=en).
+The required header file and DLL are part of the "Microsoft NLS Downlevel Data Mapping APIs" download, which is no longer available from the [Microsoft Download Center](https://www.microsoft.com/downloads). Use [ICU globalization APIs](/dotnet/core/compatibility/globalization/5.0/icu-globalization-api) on Windows 10 May 2019 Update and later versions.
 
 ## Requirements
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

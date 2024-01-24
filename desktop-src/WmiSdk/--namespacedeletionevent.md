@@ -1,5 +1,5 @@
 ---
-Description: Reports a namespace deletion event, which is a type of intrinsic event that is generated when a sub-namespace is removed from the current namespace.
+description: Reports a namespace deletion event, which is a type of intrinsic event that is generated when a sub-namespace is removed from the current namespace.
 ms.assetid: f7160a90-562d-40d9-9189-32aaabcd81d0
 ms.tgt_platform: multiple
 title: '__NamespaceDeletionEvent class'
@@ -97,7 +97,7 @@ The **\_\_NamespaceDeletionEvent** class is derived from [**\_\_NamespaceOperati
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

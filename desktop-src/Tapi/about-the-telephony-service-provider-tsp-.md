@@ -1,5 +1,5 @@
 ---
-Description: A TAPI telephony service provider (TSP) is a dynamic-link library (DLL) that supports communications device control through a set of exported service functions.
+description: A TAPI telephony service provider (TSP) is a dynamic-link library (DLL) that supports communications device control through a set of exported service functions.
 ms.assetid: 6e4fb295-940e-4f76-ad43-fad7da90094a
 title: About the Telephony Service Provider (TSP)
 ms.topic: article

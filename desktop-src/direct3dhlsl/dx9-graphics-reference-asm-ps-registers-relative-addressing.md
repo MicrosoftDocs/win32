@@ -1,6 +1,6 @@
 ---
 title: Relative addressing (HLSL PS reference)
-description: The \ \ syntax can be used only in register types that can be relatively addressed in certain shader models.
+description: For pixel shaders, the \ \ syntax can be used only in register types that can be relatively addressed in certain shader models.
 ms.assetid: 37e2bab9-f6fe-438a-8a2d-c963634ef8c3
 ms.topic: article
 ms.date: 05/31/2018

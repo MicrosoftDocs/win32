@@ -86,7 +86,7 @@ Win32 **\_BITMAPINFOHEADER** structure that contains color and dimension informa
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

@@ -19,11 +19,7 @@ api_location:
 
 Do not output the result of the current pixel.
 
-
-
-|          |
-|----------|
-| discard; |
+discard;
 
 
 

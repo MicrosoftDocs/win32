@@ -1,5 +1,5 @@
 ---
-Description: A minor upgrade is an update that makes changes to many resources.
+description: A minor upgrade is an update that makes changes to many resources.
 ms.assetid: 74c962f9-93cd-40ed-a8fe-141ccac79d79
 title: Minor Upgrades
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This structure contains information about the device firmware.
+description: STORAGE_HW_FIRMWARE_INFO structure - This structure contains information about the device firmware.
 ms.assetid: 7BDACD50-0FD1-4F00-BAE5-884D8C1485BC
 title: STORAGE_HW_FIRMWARE_INFO structure (Winioctl.h)
 ms.topic: reference
@@ -138,7 +138,7 @@ Contains the slot information for each slot on the device, of type [**STORAGE\_H
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                        |

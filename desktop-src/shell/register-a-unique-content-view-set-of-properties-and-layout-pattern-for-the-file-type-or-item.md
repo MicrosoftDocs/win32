@@ -1,5 +1,5 @@
 ---
-Description: You can register a unique Content view property list and layout pattern for the file type or item.
+description: You can register a unique Content view property list and layout pattern for the file type or item.
 ms.assetid: EA5A3ADA-4DFD-4F85-A176-93577D822815
 title: Register a Content View Set of Properties and Layout Pattern for a File Type or Item
 ms.topic: article
@@ -40,11 +40,11 @@ The Alpha layout pattern is optimized for document search results that contain e
 
 -   The following illustration shows the Alpha layout when the item has 350 pixels or more of horizontal space.
 
-    ![alpha layout example](images/content-view/alphaviewmore.png)
+    ![Diagram that shows an alpha layout example](images/content-view/alphaviewmore.png)
 
 -   The following illustration shows the Alpha layout when the item has less than 350 pixels of horizontal space.
 
-    ![alpha layout example](images/content-view/layout2.png)
+    ![Screenshot that shows an alpha layout example in Microsoft Word.](images/content-view/layout2.png)
 
 -   The following illustration shows the Alpha layout when the item has less than 350 pixels of horizontal space.
 
@@ -58,15 +58,15 @@ The Beta layout pattern is optimized for email document search results that cont
 -   Properties: 5
 -   Beta layout when the item has 350 pixels or more of horizontal space, as shown in the following illustration.
 
-    ![beta layout example](images/content-view/layout3.png)
+    ![Diagram that shows a beta layout example.](images/content-view/layout3.png)
 
 -   The following illustration shows the beta layout when the item has 350 pixels or more of horizontal space.
 
-    ![beta layout example](images/content-view/betaviewmore.png)
+    ![Screenshot that shows a beta layout example for e-mail.](images/content-view/betaviewmore.png)
 
 -   The following illustration shows the Beta layout when the item has less than 350 pixels of horizontal space.
 
-    ![beta layout example](images/content-view/layout4.png)
+    ![Diagram that shows a beta layout example with less than 350 pixels of horizontal space.](images/content-view/layout4.png)
 
 -   The following illustration shows the beta layout when the item has less than 350 pixels of horizontal space:
 
@@ -80,15 +80,15 @@ The Gamma layout pattern is similar to Alpha but uses a two-line layout instead 
 -   Properties: 4
 -   The following illustration shows the gamma layout when the item has 350 pixels or more of horizontal space.
 
-    ![gamma layout example](images/content-view/layout5.png)
+    ![Diagram that shows a gamma layout example.](images/content-view/layout5.png)
 
 -   The following illustration shows the gamma layout when the item has 350 pixels or more of horizontal space.
 
-    ![gamma layout example](images/content-view/gammaviewmore.png)
+    ![Screenshot that shows a gamma layout example for a checklist item.](images/content-view/gammaviewmore.png)
 
 -   The following illustration shows the gamma layout when the item has less than 350 pixels of horizontal space.
 
-    ![gamma layout example](images/content-view/layout6.png)
+    ![Diagram that shows a gamma layout example with less than 350 pixels of horizontal space.](images/content-view/layout6.png)
 
 -   Example of the gamma layout when the item has less than 350 pixels of horizontal space.
 
@@ -102,15 +102,15 @@ The Delta layout pattern is optimized for displaying many shorter properties suc
 -   Properties: 6
 -   Delta layout when the item has 700 pixels or more of horizontal space, as shown in the following illustration.
 
-    ![delta layout example](images/content-view/layout7.png)
+    ![Diagram that shows a delta layout example.](images/content-view/layout7.png)
 
 -   Example of the delta layout when the item has 700 pixels or more of horizontal space.
 
-    ![delta layout example](images/content-view/deltalayoutmore.png)
+    ![Screenshot that shows a delta layout example for a music file.](images/content-view/deltalayoutmore.png)
 
 -   Delta layout when the item has between 350 and 700 pixels of horizontal space.
 
-    ![delta layout example](images/content-view/layout8.png)
+    ![Diagram that shows a delta layout example that has between 350 and 700 pixels of horizontal space.](images/content-view/layout8.png)
 
 -   Example of the delta layout when the item has between 350 and 700 pixels of horizontal space.
 
@@ -122,7 +122,7 @@ The Delta layout pattern is optimized for displaying many shorter properties suc
 
 -   Example of the delta layout when the item has less than 350 pixels of horizontal space.
 
-    ![delta layout example](images/content-view/deltaviewless.png)
+    ![Screenshot that shows a delta layout example for a music file that has less than 350 pixels of horizontal space.](images/content-view/deltaviewless.png)
 
 ### Step 3: Registering Custom Properties and Layout for Your File Type
 

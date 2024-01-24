@@ -1,6 +1,6 @@
 ---
 title: RWTexture3D
-description: A read/write resource.
+description: A read/write resource. | RWTexture3D
 ms.assetid: 4d02810e-4f3c-4b20-b057-0ff27d6732b5
 keywords:
 - RWTexture3D HLSL

@@ -21,7 +21,7 @@ Contains the absolute path to the home directory.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | unixHomeDirectory                    |
 | Ldap-Display-Name | unixHomeDirectory                    |
@@ -45,7 +45,7 @@ Contains the absolute path to the home directory.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -66,7 +66,7 @@ Contains the absolute path to the home directory.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -87,7 +87,7 @@ Contains the absolute path to the home directory.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -108,7 +108,7 @@ Contains the absolute path to the home directory.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |

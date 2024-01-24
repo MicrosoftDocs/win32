@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_OnBoardDevice WMI class represents common adapter devices built into the motherboard (system board).
+description: The Win32\_OnBoardDevice WMI class represents common adapter devices built into the motherboard (system board).
 ms.assetid: 6fac38b4-7c04-4f64-997d-40bcbf767959
 ms.tgt_platform: multiple
 title: Win32_OnBoardDevice class
@@ -573,7 +573,7 @@ The **Win32\_OnBoardDevice** class is derived from [**CIM\_PhysicalComponent**](
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

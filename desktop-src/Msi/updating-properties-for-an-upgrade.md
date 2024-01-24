@@ -1,5 +1,5 @@
 ---
-Description: Because the upgrade changes the name of the .msi file and changes the component code of some components, the product code of the upgrade must be changed from that of the original product.
+description: Because the upgrade changes the name of the .msi file and changes the component code of some components, the product code of the upgrade must be changed from that of the original product.
 ms.assetid: ebb1a217-fce6-43f0-9139-c0f4422c8fc4
 title: Updating Properties for an Upgrade
 ms.topic: article

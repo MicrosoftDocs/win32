@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a localizable print form.
+description: Contains information about a localizable print form.
 ms.assetid: 5cc11a77-2b9d-44a4-88de-6ed0b7460bc8
 title: FORM_INFO_2 structure (Winspool.h)
 ms.topic: reference
@@ -157,7 +157,7 @@ For a **FORM\_INFO\_2** returned by a call to [**GetForm**](getform.md) or [**En
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

@@ -59,7 +59,7 @@ For more information about SuperPan, see [**EnableSuperPan**](imsrdpclientadvanc
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                |

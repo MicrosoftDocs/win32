@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Printer class represents the capabilities and management of the printer logical device.
+description: The CIM\_Printer class represents the capabilities and management of the printer logical device.
 ms.assetid: e41ff580-0202-4d3f-8d78-4705d5fb41b3
 ms.tgt_platform: multiple
 title: CIM_Printer class
@@ -4140,7 +4140,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEndingRestoreLogTooLowException constructor"
 title: EsentEndingRestoreLogTooLowException constructor 
 TOCTitle: 'EsentEndingRestoreLogTooLowException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentEndingRestoreLogTooLowException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentEndingRestoreLogTooLowException()
 
 #### Reference
 
-[EsentEndingRestoreLogTooLowException class](dn274239\(v=exchg.10\).md)
+[EsentEndingRestoreLogTooLowException class](./esentendingrestorelogtoolowexception-class.md)
 
-[EsentEndingRestoreLogTooLowException members](dn274307\(v=exchg.10\).md)
+[EsentEndingRestoreLogTooLowException members](./esentendingrestorelogtoolowexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

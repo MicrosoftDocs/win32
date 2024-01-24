@@ -1,0 +1,30 @@
+### YamlMime:FAQ
+metadata:
+  title: Common Controls FAQ
+  description: This FAQ provides answers to some common questions about the common controls.
+  ms.assetid: 4a0f7576-6c43-46cc-ae60-5b8e7e8f6483
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: Common Controls FAQ
+summary: |
+  This FAQ provides answers to some common questions about the common controls.  
+  
+  
+  |  Question                                                                                                                                                                                                          |       Reference                                                                                                                                                                        |
+  |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | How do I create a wizard?                                                                                                                                                                                  | See [Creating Wizards](wizards.md).                                                                                                                                          |
+  | When you hold the mouse pointer over a partially concealed folder name in the Windows Explorer tree view, a tooltip appears that displays the entire name. How do I create one of these in-place tooltips? | See [Implementing In-Place Tooltips](using-tooltip-contro.md) in [Using Tooltip Controls](using-tooltip-contro.md).                                  |
+  | How do I create a toolbar that the user can customize?                                                                                                                                                     | See [Customizing Toolbars](using-toolbar-controls.md) in Using Toolbar Controls.                                                                        |
+  | How do I embed a control, such as an edit box, in a toolbar control?                                                                                                                                       | See [Embedding Nonbutton Controls](using-toolbar-controls.md) in Toolbars in [Using Toolbar Controls](using-toolbar-controls.md). |
+  | How do I create the kind of toolbar that Windows Internet Explorer uses?                                                                                                                                   | See [How to Create an Internet Explorer-style Toolbar](cc-faq-ietoolbar.yml).                                                                                                 |
+  | How do I create the kind of menu bar that Internet Explorer uses?                                                                                                                                          | See [How to Create an Internet Explorer-style Menu Bar](cc-faq-iemenubar.yml).                                                                                                |
+  | How do I handle the common controls if my application needs to be localized?                                                                                                                               | See [Localization Support for the Common Controls](cc-faq-localization.yml).                                                                                                  |
+  
+  
+sections:
+  - name: Ignored
+    questions:
+      - question: Related topics
+        answer: |
+          [About Common Controls](common-controls-intro.md)
+          

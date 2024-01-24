@@ -25,10 +25,10 @@ Removes all groups from a list-view control.
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Must be **NULL**.</dd> <dt>
+</dt> <dd>Must be <b>NULL</b>.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Must be **NULL**.</dd> </dl>
+ </dt> <dd>Must be <b>NULL</b>.</dd> </dl>
 
 ## Return value
 
@@ -45,7 +45,7 @@ The return value is not used.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

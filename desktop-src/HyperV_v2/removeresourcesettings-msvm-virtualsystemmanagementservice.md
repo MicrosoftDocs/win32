@@ -1,5 +1,5 @@
 ---
-Description: Removes virtual resource settings from a virtual machine configuration.
+description: Removes virtual resource settings from a virtual machine configuration.
 ms.assetid: 74d9a70a-5258-4e4b-8131-b25513d11a4b
 title: RemoveResourceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -89,7 +89,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

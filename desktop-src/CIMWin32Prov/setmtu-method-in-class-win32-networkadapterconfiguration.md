@@ -1,5 +1,5 @@
 ---
-Description: The SetMTU WMI class static method is used to set the default Maximum Transmission Unit (MTU) for a network interface.
+description: The SetMTU WMI class static method is used to set the default Maximum Transmission Unit (MTU) for a network interface.
 ms.assetid: 262c8bd7-1057-4204-80ab-725c60fc9c52
 ms.tgt_platform: multiple
 title: SetMTU method of the Win32_NetworkAdapterConfiguration class
@@ -405,15 +405,11 @@ The MTU is the maximum packet size (in bytes) that a transport will transmit ove
 
 Note that an IP datagram can span multiple packets. Values larger than the default for the underlying network result in the transport using the network default MTU. Values smaller than 68 result in the transport using an MTU of 68.
 
-## Examples
-
-The [Modify the MTU for all Network Adapters](https://Gallery.TechNet.Microsoft.Com/49c26363-d46c-4288-9c8d-feb0a1982998) VBScript sample configures the maximum transmission unit for all network adapters installed in a computer.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

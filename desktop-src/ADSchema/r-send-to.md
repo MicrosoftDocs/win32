@@ -21,7 +21,7 @@ Exchange right: allows sending to a mailbox.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Send-To                              |
 | Display-Name | Send To                              |
@@ -42,7 +42,7 @@ Exchange right: allows sending to a mailbox.
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 6                                   |
@@ -53,7 +53,7 @@ Exchange right: allows sending to a mailbox.
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 6                                   |
@@ -64,7 +64,7 @@ Exchange right: allows sending to a mailbox.
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 6                                   |
@@ -75,7 +75,7 @@ Exchange right: allows sending to a mailbox.
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 6                                   |
@@ -86,7 +86,7 @@ Exchange right: allows sending to a mailbox.
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 6                                   |
@@ -97,7 +97,7 @@ Exchange right: allows sending to a mailbox.
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 6                                   |

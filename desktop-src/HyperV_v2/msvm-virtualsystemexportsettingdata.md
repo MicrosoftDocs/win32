@@ -1,5 +1,5 @@
 ---
-Description: Provides additional information to be used with the ExportSystemDefinition method of the Msvm\_VirtualSystemManagementService class.
+description: Provides additional information to be used with the ExportSystemDefinition method of the Msvm\_VirtualSystemManagementService class.
 ms.assetid: 86396A76-83EC-476E-86A9-83861A002152
 title: Msvm_VirtualSystemExportSettingData class
 ms.topic: reference
@@ -458,7 +458,7 @@ Access to the **Msvm\_VirtualSystemExportSettingData** class might be restricted
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -124,7 +124,7 @@ Your application must have an Internet connection to enable it to acquire or res
 
 
 
-|                    |                                                                                                                                                                |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>WMDRMDeviceApp.h (also requires Wmdrmdeviceapp\_i.c, built from WMDRMDeviceApp.idl)</dt> </dl> |
 | Library<br/> | <dl> <dt>Mssachlp.lib</dt> </dl>                                                                        |

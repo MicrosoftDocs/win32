@@ -1,5 +1,5 @@
 ---
-Description: In certain cases, a user that is not a system administrator can only override an approved list of restricted Windows Installer public properties.
+description: In certain cases, a user that is not a system administrator can only override an approved list of restricted Windows Installer public properties.
 ms.assetid: e16e8187-75b6-4104-a53c-928a56fcee6b
 title: Restricted Public Properties
 ms.topic: article

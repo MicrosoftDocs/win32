@@ -1,5 +1,5 @@
 ---
-Description: DirectX Surface Buffer
+description: DirectX Surface Buffer
 ms.assetid: 2c82c023-4436-4f8a-b896-7f4765f989b3
 title: DirectX Surface Buffer
 ms.topic: article

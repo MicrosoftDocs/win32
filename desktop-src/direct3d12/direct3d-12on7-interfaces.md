@@ -1,7 +1,6 @@
 ---
 title: Direct3D 12 On Windows 7 interfaces
 description: The following interfaces are declared in d3d12downlevel.h.
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 08/29/2019
 ---

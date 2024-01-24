@@ -20,9 +20,9 @@ ms.date: 02/03/2020
 
 Posted to the window with foreground keyboard focus when a horizontal scroll wheel is rotated.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
-> \[!Important\]  
+> ![Important]  
 > Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 
  
@@ -43,7 +43,7 @@ A window receives this message through its [**WindowProc**](/previous-versions/w
 
 Contains the pointer identifier and wheel delta. Use the following macros to retrieve this information.
 
-[**GET_POINTERID_WPARAM**](/previous-versions/windows/desktop/api)(wParam): pointer identifier.
+[**GET_POINTERID_WPARAM**](/windows/win32/api/winuser/nf-winuser-get_pointerid_wparam)(wParam): pointer identifier.
 
 [**GET_WHEEL_DELTA_WPARAM**](/windows/win32/api/winuser/nf-winuser-get_wheel_delta_wparam)(wParam): wheel delta as signed short value.
 
@@ -74,7 +74,7 @@ If the application does not process this message, it should call [**DefWindowPro
 
 ## Remarks
 
-To retrieve the wheel scroll units, use the **inputData** filed of the [**POINTER_INFO**](/previous-versions/windows/desktop/api) structure returned by calling [**GetPointerInfo**](/previous-versions/windows/desktop/api) function. This field contains a signed value and is expressed in a multiple of **WHEEL_DELTA**. A positive value indicates a rotation forward and a negative value indicates a rotation backward.
+To retrieve the wheel scroll units, use the **inputData** filed of the [**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info) structure returned by calling [**GetPointerInfo**](/windows/win32/api/winuser/ns-winuser-pointer_info) function. This field contains a signed value and is expressed in a multiple of **WHEEL_DELTA**. A positive value indicates a rotation forward and a negative value indicates a rotation backward.
 
 Note that the wheel inputs may be delivered even if the mouse cursor is located outside of application s window. The wheel messages are delivered in a way very similar to the keyboard inputs. The focus window of the foregournd message queue receives the wheel messages.
 
@@ -82,7 +82,7 @@ Note that the wheel inputs may be delivered even if the mouse cursor is located 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
+description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
 ms.assetid: 7a319fbb-9757-45da-8a8b-51dd48f08464
 title: IMFCdmSuspendNotify::End method
 ms.topic: reference
@@ -40,7 +40,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

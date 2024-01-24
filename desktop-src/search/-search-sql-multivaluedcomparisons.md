@@ -1,5 +1,5 @@
 ---
-Description: Columns stored in the content index can have multiple values, and those multivalued columns can be compared by using the ARRAY comparison predicate.
+description: Columns stored in the content index can have multiple values, and those multivalued columns can be compared by using the ARRAY comparison predicate.
 ms.assetid: bc3de1bd-b833-459d-81a3-c6b08314e26f
 title: Multi-Valued (ARRAY) Comparisons
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Windows operating system provides a comprehensive and system-wide set of power management features. This enables systems to extend battery life and save energy, reduce heat and noise, and help ensure data reliability.
+description: The Windows operating system provides a comprehensive and system-wide set of power management features. This enables systems to extend battery life and save energy, reduce heat and noise, and help ensure data reliability.
 ms.assetid: 01ce4d21-1a0c-44a8-91ef-5e300e7c6c9a
 title: About Power Management
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The ICertPropertyKeyProvInfo interface exposes the following methods.
+description: The ICertPropertyKeyProvInfo interface exposes the following methods.
 ms.assetid: 70BA96BE-E2A3-4CD7-BE24-5644ED81EA89
 title: ICertPropertyKeyProvInfo Methods
 ms.topic: reference

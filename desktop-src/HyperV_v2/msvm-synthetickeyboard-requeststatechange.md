@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_SyntheticKeyboard class - Requests a state change.
 ms.assetid: 984e8a68-bc95-4a8b-99d6-ac248e96c45e
 title: RequestStateChange method of the Msvm_SyntheticKeyboard class
 ms.topic: reference
@@ -152,7 +152,7 @@ On success, returns 0; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

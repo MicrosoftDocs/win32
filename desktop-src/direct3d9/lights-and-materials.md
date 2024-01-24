@@ -1,5 +1,5 @@
 ---
-Description: Lights are used to illuminate objects in a scene.
+description: Lights are used to illuminate objects in a scene.
 ms.assetid: 0751bb76-611a-41c4-aab2-aa6f68b61b0e
 title: Lights and Materials (Direct3D 9)
 ms.topic: article

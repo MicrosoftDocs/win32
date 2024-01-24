@@ -1,5 +1,5 @@
 ---
-Description: Apply the values in a state block to the current effect system state.
+description: Apply the values in a state block to the current effect system state.
 ms.assetid: f228e2a2-64fa-4354-9f49-42d1d3b12d50
 title: ID3DXEffect::ApplyParameterBlock method (D3DX9Effect.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Capture effect parameter state changes in a parameter block by calling BeginPara
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

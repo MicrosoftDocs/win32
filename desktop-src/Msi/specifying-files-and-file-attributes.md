@@ -1,5 +1,5 @@
 ---
-Description: The installation and removal of each file is determined by the Windows Installer Component that controls the file.
+description: The installation and removal of each file is determined by the Windows Installer Component that controls the file.
 ms.assetid: 6f84bf57-2c68-4f37-b9cd-eee3a657e7cd
 title: Specifying Files and File Attributes
 ms.topic: article

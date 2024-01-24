@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains the text value in a Content element \[Journal Reader\].
+description: Defines the type that contains the text value in a Content element \[Journal Reader\].
 ms.assetid: f0969da4-2557-4f43-97e6-e8ab5da3a0a5
 title: TextType Complex Type
 ms.topic: reference
@@ -26,7 +26,7 @@ Defines the type that contains the text value in a [Content element \[Journal Re
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

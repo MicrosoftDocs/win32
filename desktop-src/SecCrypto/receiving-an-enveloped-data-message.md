@@ -1,5 +1,5 @@
 ---
-Description: To decrypt an enveloped message, the recipient matches a certificate from the My store that has an available private key with a certificate in the enveloped message.
+description: To decrypt an enveloped message, the recipient matches a certificate from the My store that has an available private key with a certificate in the enveloped message.
 ms.assetid: 536f9977-102c-4df9-9d07-97b4b434b845
 title: Receiving an Enveloped Data Message
 ms.topic: article

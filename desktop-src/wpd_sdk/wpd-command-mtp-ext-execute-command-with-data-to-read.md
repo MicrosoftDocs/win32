@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ command sends an MTP command block, which will be followed by a data phase. (The data is sent from the device to the host.).
+description: The WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ command sends an MTP command block, which will be followed by a data phase. (The data is sent from the device to the host.).
 ms.assetid: 7a76a601-c051-4c0c-bfeb-24e9dddcb9e0
 title: WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_READ Command (WpdMtpExtensions.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](/windows
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WpdMtpExtensions.h</dt> </dl> |
 

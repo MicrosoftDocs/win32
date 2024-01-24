@@ -1,5 +1,5 @@
 ---
-Description: This attribute specifies if the given control is enabled or disabled. Most controls appear gray when disabled.
+description: This attribute specifies if the given control is enabled or disabled. Most controls appear gray when disabled.
 ms.assetid: d84b1b55-34e1-4173-b945-39a809014d55
 title: Enabled Control Attribute
 ms.topic: article

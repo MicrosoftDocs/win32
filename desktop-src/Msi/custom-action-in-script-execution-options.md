@@ -1,5 +1,5 @@
 ---
-Description: You can use the following option flags to specify the in-script execution of custom actions.
+description: You can use the following option flags to specify the in-script execution of custom actions.
 ms.assetid: 6c608151-cdbe-4424-9b16-6dbff28190ab
 title: Custom Action In-Script Execution Options
 ms.topic: article

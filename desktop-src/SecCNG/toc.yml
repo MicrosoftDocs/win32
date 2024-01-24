@@ -21,6 +21,8 @@
         href: protection-descriptors.md
       - name: "Protected Data Format"
         href: protected-data-format.md
+      - name: "DPAPI Backup Keys on AD Domain Controllers"
+        href: cng-dpapi-backup-keys-on-ad-domain-controllers.md
   - name: "Using CNG"
     href: using-cng.md
     items: 
@@ -205,11 +207,15 @@
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptderivekeypbkdf2
       - name: "BCRYPT_INIT_AUTH_MODE_INFO"
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcrypt_init_auth_mode_info
+      - name: "ProcessPrng"
+        href: processprng.md
       - name: "SystemPrng"
         href: systemprng.md
     - name: "CNG Key Storage Functions"
       href: cng-key-storage-functions.md
       items: 
+      - name: "GetKeyStorageInterface"
+        href: ./ncrypt/nf-ncrypt-getkeystorageinterface.md
       - name: "NCryptCreateClaim"
         href: /windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreateclaim
       - name: "NCryptCreatePersistedKey"
@@ -355,6 +361,10 @@
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_algorithm_identifier
       - name: "BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO"
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_authenticated_cipher_mode_info
+      - name: "BCryptBuffer"
+        href: /windows/win32/api/bcrypt/ns-bcrypt-bcryptbuffer
+      - name: "BCryptBufferDesc"
+        href: /windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc
       - name: "BCRYPT_DH_KEY_BLOB"
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_dh_key_blob
       - name: "BCRYPT_DH_PARAMETER_HEADER"
@@ -436,9 +446,9 @@
       - name: "NCryptAlgorithmName"
         href: /windows/win32/api/Ncrypt/ns-ncrypt-ncryptalgorithmname
       - name: "NCryptBuffer"
-        href: /windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer
+        href: /windows/win32/api/bcrypt/ns-bcrypt-bcryptbuffer
       - name: "NCryptBufferDesc"
-        href: /windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc
+        href: /windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc
       - name: "NCryptKeyName"
         href: /windows/desktop/api/Ncrypt/ns-ncrypt-ncryptkeyname
       - name: "NCryptProviderName"

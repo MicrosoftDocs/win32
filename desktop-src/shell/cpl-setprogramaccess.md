@@ -1,5 +1,5 @@
 ---
-Description: This topic discusses the Set Program Access and Computer Defaults (SPAD) feature found in Control Panel.
+description: This topic discusses the Set Program Access and Computer Defaults (SPAD) feature found in Control Panel.
 ms.assetid: 0d706857-5a84-4d68-99dc-bb9aab4197b9
 title: Set Program Access and Computer Defaults (SPAD)
 ms.topic: article
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic discusses the **Set Program Access and Computer Defaults (SPAD)** feature found in Control Panel. SPAD is located under the [Default Programs](default-programs.md) Control Panel item in Windows Vista and later versions of Windows. In Windows XP, it is located in the **Add or Remove Programs** item and titled **Set Program Access and Defaults**.
 
 > [!IMPORTANT]
-> This topic does not apply for Windows 10. The way that default file associations work changed in Windows 10. For more information, see the section on **Changes to how Windows 10 handles default apps** in [this post](https://blogs.windows.com/bloggingwindows/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
+> This topic does not apply for Windows 10. The way that default file associations work changed in Windows 10. For more information, see the section on **Changes to how Windows 10 handles default apps** in [this post](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
 
  
 

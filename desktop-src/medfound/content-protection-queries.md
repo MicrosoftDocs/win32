@@ -1,5 +1,5 @@
 ---
-Description: Lists the queries for the IDirect3DAuthenticatedChannel9::Query method.
+description: Lists the queries for the IDirect3DAuthenticatedChannel9::Query method.
 ms.assetid: 75e246c6-bf23-44d9-8fb3-46a6dc5324a5
 title: Content Protection Queries
 ms.topic: article

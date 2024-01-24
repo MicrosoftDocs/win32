@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Internet Explorer Compatibility Test Tool (IECTT)
 ms.assetid: 11169540-555A-48A9-A4CD-535D5765C005
 title: Internet Explorer Compatibility Test Tool (IECTT)
 ms.topic: article
@@ -27,8 +27,7 @@ You can upload your web-based issues to the ACT database, which processes the in
 
 ## Collect Your Compatibility Data
 
-You can collect your website and web application-related compatibility data by using the IECTT tool with either Internet Explorer 7 or Internet Explorer 7.
-
+You can collect your website and web application-related compatibility data by using the IECTT tool with either Internet Explorer 7 or Internet Explorer 8.
 **To collect your compatibility data**
 
 1.  Close all of your active Windows Internet Explorer windows.

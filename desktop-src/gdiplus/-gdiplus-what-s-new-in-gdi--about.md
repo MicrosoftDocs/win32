@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ is different from Windows Graphics Device Interface (GDI) in a couple of ways.
+description: Windows GDI+ is different from Windows Graphics Device Interface (GDI) in a couple of ways.
 ms.assetid: 031cff8e-a233-4435-81e9-daf9c735c5d6
 title: What's New In GDI+?
 ms.topic: article

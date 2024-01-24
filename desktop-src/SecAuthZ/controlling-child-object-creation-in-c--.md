@@ -1,5 +1,5 @@
 ---
-Description: You can use the DACL of a container object to control who is allowed to create child objects within the container.
+description: You can use the DACL of a container object to control who is allowed to create child objects within the container.
 ms.assetid: 95f2f058-f847-4f58-b469-090bf599ae98
 title: Controlling Child Object Creation in C++
 ms.topic: article

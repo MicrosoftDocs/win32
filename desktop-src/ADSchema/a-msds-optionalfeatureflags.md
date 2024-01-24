@@ -22,7 +22,7 @@ An integer value that contains flags that define behavior of an optional feature
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Optional-Feature-Flags         |
 | Ldap-Display-Name | msDS-OptionalFeatureFlags            |
@@ -44,7 +44,7 @@ An integer value that contains flags that define behavior of an optional feature
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -65,7 +65,7 @@ An integer value that contains flags that define behavior of an optional feature
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

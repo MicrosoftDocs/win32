@@ -1,5 +1,5 @@
 ---
-Description: Merge Modules provide a standard method for you to deliver shared Windows Installer components, and setup logic to applications.
+description: Merge Modules provide a standard method for you to deliver shared Windows Installer components, and setup logic to applications.
 ms.assetid: 63ced106-12e3-4483-8bfe-22c54fe7a204
 title: Using Automation to Merge a Merge Module into a Database
 ms.topic: article

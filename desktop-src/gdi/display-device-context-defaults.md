@@ -1,5 +1,5 @@
 ---
-Description: Upon first creating a display device context, the system assigns default values for the attributes (that is, drawing objects, colors, and modes) that comprise the device context.
+description: Upon first creating a display device context, the system assigns default values for the attributes (that is, drawing objects, colors, and modes) that comprise the device context.
 ms.assetid: 1a9244e6-2773-435a-8569-806df3a0cd39
 title: Display Device Context Defaults
 ms.topic: article

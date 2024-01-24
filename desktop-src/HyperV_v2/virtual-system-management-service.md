@@ -1,5 +1,5 @@
 ---
-Description: The Virtual System Profile describes the objects which make up a virtual machine.
+description: The Virtual System Profile describes the objects which make up a virtual machine.
 ms.assetid: A5EB62F8-C925-4279-B802-CD40A2C282FD
 title: Virtual system management service
 ms.topic: article

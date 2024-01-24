@@ -9,7 +9,7 @@
     - name: "Supported Formats in DirectShow"
       href: supported-formats-in-directshow.md
     - name: "DirectShow FAQ"
-      href: directshow-faq.md
+      href: directshow-faq.yml
   - name: "Getting Started"
     href: getting-started.md
     items: 
@@ -2801,7 +2801,7 @@
         - name: "Set"
           href: ikspropertyset-set.md
       - name: "IKsTopologyInfo"
-        href: /previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo
+        href: /windows/win32/api/vidcap/nn-vidcap-ikstopologyinfo
         items: 
         - name: "CreateNodeInstance"
           href: /previous-versions/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-createnodeinstance
@@ -5084,7 +5084,7 @@
         - name: "AM_PROPERTY_COPY_ANALOG_COMPONENT"
           href: am-property-copy-analog-component-property.md
         - name: "AM_COPY_MACROVISION"
-          href: /previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_copy_macrovision
+          href: /previous-versions/ms778996(v=vs.85)
         - name: "AM_COPY_MACROVISION_LEVEL"
           href: /previous-versions/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level
         - name: "AM_DVDCOPY_BUSKEY"

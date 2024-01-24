@@ -1,5 +1,5 @@
 ---
-Description: The SWbemNamedValue object represents a single named value that belongs to the SWbemNamedValueSet collection object. This object cannot be created by the VBScript CreateObject call.
+description: The SWbemNamedValue object represents a single named value that belongs to the SWbemNamedValueSet collection object. This object cannot be created by the VBScript CreateObject call.
 ms.assetid: 3f72afcd-6e10-4200-804d-918e3eb2862f
 ms.tgt_platform: multiple
 title: SWbemNamedValue object (Wbemdisp.h)
@@ -46,7 +46,7 @@ The **SWbemNamedValue** object has these properties.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Safer API
+description: Safer API
 ms.assetid: CBF2F348-6FED-4646-948C-81147A70DD33
 title: Safer API
 ms.topic: article

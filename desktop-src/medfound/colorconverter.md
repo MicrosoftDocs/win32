@@ -1,5 +1,5 @@
 ---
-Description: Converts a video stream between color formats.
+description: Converts a video stream between color formats.
 ms.assetid: 1c15dc2b-0e69-4d16-af02-8056a1eb2c5c
 title: Color Converter DSP (Wmcodecdsp.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ The color converter does not support every combination of input format and outpu
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

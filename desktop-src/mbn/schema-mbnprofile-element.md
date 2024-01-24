@@ -1,5 +1,5 @@
 ---
-Description: Is the root element that identifies a Mobile Broadband profile.
+description: Is the root element that identifies a Mobile Broadband profile.
 ms.assetid: 08302e7f-3024-439b-a2ad-a4ae9487b82b
 title: MBNProfile Element
 ms.topic: reference
@@ -136,7 +136,7 @@ There can only be one element of this type per document.
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters members"
 title: InstanceParameters members
 TOCTitle: InstanceParameters members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.InstanceParameters
@@ -15,7 +16,7 @@ Include inherited members
 
 This class provides properties to set and get system parameters on an ESENT instance. This class provides static properties to set and get per-instance ESENT system parameters.
 
-The [InstanceParameters](dn350942\(v=exchg.10\).md) type exposes the following members.
+The [InstanceParameters](./instanceparameters-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -233,7 +234,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn350985(v=exchg.10).md">WaypointLatency</a></td>
-<td>Gets or sets a the number of logs that esent will defer database flushes for. This can be used to increase database recoverability if failures cause logfiles to be lost. Supported on Windows 7 and up. Ignored on Windows XP, Windows Server 2003, Windows Vista and Windows Server 2008.</td>
+<td>Gets or sets the number of logs that esent will defer database flushes for. This can be used to increase database recoverability if failures cause logfiles to be lost. Supported on Windows 7 and up. Ignored on Windows XP, Windows Server 2003, Windows Vista and Windows Server 2008.</td>
 </tr>
 </tbody>
 </table>
@@ -292,6 +293,6 @@ Top
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

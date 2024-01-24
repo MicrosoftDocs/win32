@@ -1,5 +1,5 @@
 ---
-Description: WMI applications written in C++ can make asynchronous calls by using many of the methods of the IWbemServices COM interface.
+description: WMI applications written in C++ can make asynchronous calls by using many of the methods of the IWbemServices COM interface.
 ms.assetid: 5179969f-bc7d-4408-84ef-7b003950a59f
 ms.tgt_platform: multiple
 title: Making an Asynchronous Call with C++

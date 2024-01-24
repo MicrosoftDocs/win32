@@ -1,6 +1,6 @@
 ---
 title: RWTexture3D::Load(int,uint) function
-description: Reads texture data and returns status about the operation.
+description: Reads texture data and returns status about the operation. | RWTexture3D::Load(int,uint) function
 ms.assetid: 7BC334D3-217A-454F-B205-A9D7D66B5E99
 keywords:
 - Load function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,uint) function
+# RWTexture3D::Load(int,uint) function
 
 Reads texture data and returns status about the operation.
 

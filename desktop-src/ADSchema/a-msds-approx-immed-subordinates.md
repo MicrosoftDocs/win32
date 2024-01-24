@@ -22,7 +22,7 @@ The value returned by this attribute is based on index sizes. This may be off by
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Approx-Immed-Subordinates      |
 | Ldap-Display-Name | msDS-Approx-Immed-Subordinates       |
@@ -48,7 +48,7 @@ The value returned by this attribute is based on index sizes. This may be off by
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ The value returned by this attribute is based on index sizes. This may be off by
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ The value returned by this attribute is based on index sizes. This may be off by
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ The value returned by this attribute is based on index sizes. This may be off by
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ The value returned by this attribute is based on index sizes. This may be off by
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ The value returned by this attribute is based on index sizes. This may be off by
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

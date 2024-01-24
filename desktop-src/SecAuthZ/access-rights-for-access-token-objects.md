@@ -1,5 +1,5 @@
 ---
-Description: An application cannot change the access control list of an object unless the application has the rights to do so.
+description: An application cannot change the access control list of an object unless the application has the rights to do so.
 ms.assetid: 5f710fd8-33de-47c0-a8b2-baf3008c4ed7
 title: Access Rights for Access-Token Objects
 ms.topic: article
@@ -28,7 +28,7 @@ The following are valid access rights for access-token objects:
     | TOKEN\_ADJUST\_SESSIONID  | Required to adjust the session ID of an access token. The SE\_TCB\_NAME privilege is required.                                                                                                                                                                                    |
     | TOKEN\_ASSIGN\_PRIMARY    | Required to attach a [*primary token*](/windows/desktop/SecGloss/p-gly) to a [*process*](/windows/desktop/SecGloss/p-gly). The SE\_ASSIGNPRIMARYTOKEN\_NAME privilege is also required to accomplish this task. |
     | TOKEN\_DUPLICATE          | Required to duplicate an access token.                                                                                                                                                                                                                                            |
-    | TOKEN\_EXECUTE            | Combines STANDARD\_RIGHTS\_EXECUTE and TOKEN\_IMPERSONATE.                                                                                                                                                                                                                        |
+    | TOKEN\_EXECUTE            | Same as STANDARD\_RIGHTS\_EXECUTE.                                                                                                                                                                                                                                                |
     | TOKEN\_IMPERSONATE        | Required to attach an impersonation access token to a process.                                                                                                                                                                                                                    |
     | TOKEN\_QUERY              | Required to query an access token.                                                                                                                                                                                                                                                |
     | TOKEN\_QUERY\_SOURCE      | Required to query the source of an access token.                                                                                                                                                                                                                                  |

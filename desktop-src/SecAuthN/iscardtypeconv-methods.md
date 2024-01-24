@@ -1,5 +1,5 @@
 ---
-Description: The ISCardTypeConv interface exposes the following methods.
+description: The ISCardTypeConv interface exposes the following methods.
 ms.assetid: B8FE1FE9-313C-418D-8CED-FF856DA07CE2
 title: ISCardTypeConv Methods
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The following steps are taken to perform simple stream recording.
+description: The following steps are taken to perform simple stream recording.
 ms.assetid: fde8a6cf-1080-4575-a923-ea1590d1e2a1
 title: Simple Record
 ms.topic: article

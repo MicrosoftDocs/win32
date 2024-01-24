@@ -1,5 +1,5 @@
 ---
-Description: Gets a custom device icon.
+description: IWiaUIExtension::GetDeviceIcon method - Gets a custom device icon.
 ms.assetid: 27763f39-80d8-4862-b045-e49c6e824c28
 title: IWiaUIExtension::GetDeviceIcon method (Wiadevd.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

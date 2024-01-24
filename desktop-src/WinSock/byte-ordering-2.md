@@ -1,5 +1,5 @@
 ---
-Description: Care must always be taken to account for any differences between the byte ordering used for storing integers by the host architecture and the byte ordering used on the wire by individual transport protocols.
+description: Care must always be taken to account for any differences between the byte ordering used for storing integers by the host architecture and the byte ordering used on the wire by individual transport protocols.
 ms.assetid: 54c84cdb-50a1-4f5e-a18f-0477d90c74d2
 title: Byte Ordering
 ms.topic: article

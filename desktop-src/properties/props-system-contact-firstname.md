@@ -1,5 +1,5 @@
 ---
-Description: Indicates the first name of the contact.
+description: Indicates the first name of the contact.
 ms.assetid: f8bb0667-5f42-47ef-bd8a-90974f388225
 title: System.Contact.FirstName
 ms.topic: article

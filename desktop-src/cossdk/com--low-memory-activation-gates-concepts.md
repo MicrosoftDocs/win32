@@ -1,5 +1,5 @@
 ---
-Description: COM+ attempts to prevent situations in which these error paths have to be executed on a server.
+description: COM+ attempts to prevent situations in which these error paths have to be executed on a server.
 ms.assetid: 0de125a2-2e91-49b9-a903-6c2e173e22a2
 title: COM+ Low-Memory Activation Gates Concepts
 ms.topic: article
@@ -14,7 +14,7 @@ Reliability problems often occur when a server's resources cannot react efficien
 
 COM+ attempts to prevent situations in which these error paths have to be executed on a server. Through the low-memory activation gates feature, COM+ proactively monitors memory load in the system and ensures that a reasonable amount of memory is available before executing user code. If the percentage of virtual memory available to the application falls below a fixed threshold, the activation fails before a COM+ server application or object is created (as shown in the illustration below). By failing these activations that would normally run, the low-memory activation gates feature minimizes the problems associated with memory allocations in user code, which significantly enhances system reliability.
 
-![](images/ada5ef02-f2b1-46bb-b0fc-fe7d65f31b43.png)
+![Diagram that shows the relationship between a COM+ application and a low-memory activation gate.](images/ada5ef02-f2b1-46bb-b0fc-fe7d65f31b43.png)
 
 The low-memory activation gates feature applies only to configured COM components that are installed in a COM+ application.
 

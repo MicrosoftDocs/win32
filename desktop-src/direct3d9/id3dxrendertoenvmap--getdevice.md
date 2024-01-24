@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the Direct3D device associated with the environment map.
+description: Retrieves the Direct3D device associated with the environment map.
 ms.assetid: 15f342c5-7665-443a-b7b8-32cc67034c41
 title: ID3DXRenderToEnvMap::GetDevice method (D3dx9core.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

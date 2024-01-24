@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogSignatureException members"
 title: EsentBadLogSignatureException members
 TOCTitle: EsentBadLogSignatureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.BadLogSignature exceptions.
 
-The [EsentBadLogSignatureException](dn274072\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadLogSignatureException](./esentbadlogsignatureexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentBadLogSignatureException class](dn274072\(v=exchg.10\).md)
+[EsentBadLogSignatureException class](./esentbadlogsignatureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

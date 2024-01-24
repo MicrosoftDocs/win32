@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_IUSEUTF8LEGACYOEMCP
+description: LOCALE\_IUSEUTF8LEGACYOEMCP
 ms.assetid: 41efe160-8f0e-4fb8-b819-6eb9853dba4b
 title: LOCALE_IUSEUTF8LEGACYOEMCP
 ms.topic: article

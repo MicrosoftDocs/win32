@@ -1,5 +1,5 @@
 ---
-Description: Registers for notification when a DLL is first loaded. This notification occurs before dynamic linking takes place.
+description: Registers for notification when a DLL is first loaded. This notification occurs before dynamic linking takes place.
 ms.assetid: c2757aa0-76fa-427a-a4f6-cb26e7f7d0d1
 title: LdrRegisterDllNotification function
 ms.topic: reference
@@ -81,7 +81,7 @@ This function has no associated header file. The associated import library, Ntdl
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

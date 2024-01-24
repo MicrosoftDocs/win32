@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DirectorySpecificationFile association represents the directory that contains the file specified by referencing the CIM\_DirectorySpecification class.
+description: The CIM\_DirectorySpecificationFile association represents the directory that contains the file specified by referencing the CIM\_DirectorySpecification class.
 ms.assetid: 57fe996e-6bd4-4070-9e99-460b2a36243f
 ms.tgt_platform: multiple
 title: CIM_DirectorySpecificationFile class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

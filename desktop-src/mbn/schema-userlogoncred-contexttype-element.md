@@ -1,5 +1,5 @@
 ---
-Description: Contains logon credentials for a connection.
+description: Contains logon credentials for a connection.
 ms.assetid: 79c1d277-6284-4adb-a1bd-6c207b37e33e
 title: UserLogonCred (contextType) Element
 ms.topic: reference
@@ -65,7 +65,7 @@ The **UserLogonCred** element is defined by the [**contextType**](schema-context
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

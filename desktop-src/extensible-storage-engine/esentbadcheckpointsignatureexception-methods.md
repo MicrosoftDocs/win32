@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadCheckpointSignatureException methods"
 title: EsentBadCheckpointSignatureException methods
 TOCTitle: EsentBadCheckpointSignatureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadCheckpointSignatureException](dn273995\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadCheckpointSignatureException](./esentbadcheckpointsignatureexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentBadCheckpointSignatureException class](dn273995\(v=exchg.10\).md)
+[EsentBadCheckpointSignatureException class](./esentbadcheckpointsignatureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

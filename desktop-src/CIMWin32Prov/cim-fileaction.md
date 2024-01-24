@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FileAction class allows the author to locate files that already exist on a user's computer, and then move or copy those files to a new location.
+description: The CIM\_FileAction class allows the author to locate files that already exist on a user's computer, and then move or copy those files to a new location.
 ms.assetid: 0576e73f-08e1-4f80-af5a-f5d497f57632
 ms.tgt_platform: multiple
 title: CIM_FileAction class
@@ -805,8 +805,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from [**CIM\_Action**](cim-action.md).
 
@@ -822,7 +822,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

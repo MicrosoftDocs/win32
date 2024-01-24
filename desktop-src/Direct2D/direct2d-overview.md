@@ -88,7 +88,7 @@ Microsoft Direct2D enables developers to build 2-D graphics features in their ap
 
 <dl> <dt>
 
-[Direct2D Quickstart for Windows 8](direct2d-quickstart-with-device-context.md)
+[Direct2D quickstart for Windows 8](direct2d-quickstart-with-device-context.md)
 </dt> <dt>
 
 [Direct2D API Overview](the-direct2d-api.md)

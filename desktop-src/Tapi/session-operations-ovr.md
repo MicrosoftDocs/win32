@@ -1,5 +1,5 @@
 ---
-Description: Session operations are the core of most TAPI applications. The following material provides an overview of various types of session control and links to the appropriate reference pages on functions and methods.
+description: Session operations are the core of most TAPI applications. The following material provides an overview of various types of session control and links to the appropriate reference pages on functions and methods.
 ms.assetid: 8cf4d013-205e-4bb9-bb6d-7d3fd93e7df6
 title: Session Operations
 ms.topic: article

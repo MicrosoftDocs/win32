@@ -1,5 +1,5 @@
 ---
-Description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string.
+description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string.
 ms.assetid: 49ba57b8-3e08-425f-98b2-52ed2c41a488
 title: enumeratedList
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # enumeratedList
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. It also influences how the property may be grouped, or what values to show in the list if the "editControl" is a listblox. This is applicable only if <displayInfo displayType="Enumerated">. There should be only one [enumeratedList]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. It also influences how the property may be grouped, or what values to show in the list if the "editControl" is a listblox. This is applicable only if \<displayInfo displayType="Enumerated"\>. There should be only one [enumeratedList]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
 If there are multiple elements, the last one is used. If no [enumeratedList]() element is provided, then the default attribute settings are applied to the property description.
 

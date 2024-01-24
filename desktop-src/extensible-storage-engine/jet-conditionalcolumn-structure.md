@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONDITIONALCOLUMN Structure"
 title: JET_CONDITIONALCOLUMN Structure
 TOCTitle: JET_CONDITIONALCOLUMN Structure
 ms:assetid: 2ca6b4ba-0dc4-47d5-b072-324e5a381d0d
@@ -46,28 +47,12 @@ The name of the column that contains the data on which the database engine is co
 
 **grbit** A group of bits that gives the options for the conditional index. Passing in zero or logically-**OR**ed values is not valid for **JET_CONDITIONALCOLUMN**. The bit field must be exactly one of the following:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitIndexColumnMustBeNull</p></td>
-<td><p>The column specified by the <em>szColumnName</em> parameter must be NULL for an index entry for a given row to appear in this index.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexColumnMustBeNonNull</p></td>
-<td><p>The column specified by the <em>szColumnName</em> parameter must be non-NULL for an index entry in order for a given row to appear in this index.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitIndexColumnMustBeNull</p> | <p>The column specified by the <em>szColumnName</em> parameter must be NULL for an index entry for a given row to appear in this index.</p> | 
+| <p>JET_bitIndexColumnMustBeNonNull</p> | <p>The column specified by the <em>szColumnName</em> parameter must be non-NULL for an index entry in order for a given row to appear in this index.</p> | 
+
 
 
 ### Remarks
@@ -76,34 +61,17 @@ A conditional index contains an index entry for only those rows that match the s
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JET_CONDITIONALCOLUMN_W</strong> (Unicode) and <strong>JET_CONDITIONALCOLUMN_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JET_CONDITIONALCOLUMN_W</strong> (Unicode) and <strong>JET_CONDITIONALCOLUMN_A</strong> (ANSI).</p> | 
+
 
 
 ### See Also
 
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)
-
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)

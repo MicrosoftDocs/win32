@@ -1,5 +1,5 @@
 ---
-Description: Permits processing of a transformation command encountered in a preview template.
+description: Permits processing of a transformation command encountered in a preview template.
 ms.assetid: 0b81b780-8bd1-4667-a0a1-65319f209603
 title: IItemPreviewerExt::ProcessTransformCommand method
 ms.topic: reference
@@ -88,7 +88,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

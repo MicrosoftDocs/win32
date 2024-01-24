@@ -1,6 +1,6 @@
 ---
 title: CSymbolType Simple Type (Windows Event Log)
-description: Defines a valid C/C++ symbol name.
+description: CSymbolType Simple Type (Windows Event Log) - Defines a valid C/C++ symbol name.
 ms.assetid: d19827b6-2b61-4d75-ac9d-56a384b0cc4b
 keywords:
 - CSymbolType simple type EventLog
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# CSymbolType Simple Type
+# CSymbolType Simple Type (Windows Event Log)
 
 Defines a valid C/C++ symbol name.
 
@@ -47,7 +47,7 @@ If the symbol name is empty, the message compiler uses the **name** attribute of
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

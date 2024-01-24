@@ -1,5 +1,5 @@
 ---
-Description: The DoInitialize method must be implemented by the monitor. The MCSVC calls this method to obtain a capture filter immediately before calling the NPPs IRTCConnect method.
+description: The DoInitialize method must be implemented by the monitor. The MCSVC calls this method to obtain a capture filter immediately before calling the NPPs IRTCConnect method.
 ms.assetid: 5e43be75-21b3-4f37-ad53-3ffdd55f56a1
 title: IMonitorDoInitialize method (Netmon.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ The MCSVC calls the **DoInitialize** method to perform any required monitor init
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

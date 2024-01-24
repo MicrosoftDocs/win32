@@ -28,7 +28,7 @@ Gets group information.
 </dt> <dd>An ID that specifies the group whose information is retrieved.</dd> <dt>
 
 *lParam* 
-</dt> <dd>A pointer an <a href="/windows/win32/api/commctrl/ns-commctrl-lvgroup">**LVGROUP**</a> structure that receives the retrieved information. Set the **cbSize** member of this structure to sizeof(LVGROUP). </dd> </dl>
+</dt> <dd>A pointer an <a href="/windows/win32/api/commctrl/ns-commctrl-lvgroup"><b>LVGROUP</b></a> structure that receives the retrieved information. Set the <b>cbSize</b> member of this structure to sizeof(LVGROUP). </dd> </dl>
 
 ## Return value
 
@@ -47,7 +47,7 @@ Before attempting to retrieve the header for a group, first ensure that the grou
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

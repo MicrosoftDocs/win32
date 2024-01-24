@@ -1,5 +1,5 @@
 ---
-Description: Encrypts a message to provide privacy by using Schannel.
+description: Encrypts a message to provide privacy by using Schannel.
 ms.assetid: b02b38bd-f3dd-4bf8-a36e-44ff9fbbe550
 title: EncryptMessage (Schannel) function
 ms.topic: reference
@@ -98,7 +98,7 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 
 ## Requirements
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

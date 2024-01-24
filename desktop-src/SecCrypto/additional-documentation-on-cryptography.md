@@ -1,5 +1,5 @@
 ---
-Description: Lists additional available documentation on cryptography and authentication.
+description: Lists additional available documentation on cryptography and authentication.
 ms.assetid: c4cecc97-25eb-43e8-9f4d-9ed3fc4acf0a
 title: Additional Documentation on Cryptography
 ms.topic: article

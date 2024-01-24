@@ -1,5 +1,5 @@
 ---
-Description: Indicates the frame width for the video stream.
+description: Indicates the frame width for the video stream.
 ms.assetid: e44999c8-cd0e-4653-a191-a7a7ea8e6bec
 title: System.Video.FrameWidth
 ms.topic: article

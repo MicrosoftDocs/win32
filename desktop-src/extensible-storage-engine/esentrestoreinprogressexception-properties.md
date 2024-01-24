@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRestoreInProgressException properties"
 title: EsentRestoreInProgressException properties
 TOCTitle: EsentRestoreInProgressException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRestoreInProgressException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRestoreInProgressException](dn350560\(v=exchg.10\).md) type exposes the following members.
+The [EsentRestoreInProgressException](./esentrestoreinprogressexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentRestoreInProgressException class](dn350560\(v=exchg.10\).md)
+[EsentRestoreInProgressException class](./esentrestoreinprogressexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

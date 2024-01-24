@@ -1,5 +1,5 @@
 ---
-Description: Creates a new system service.
+description: Create method of the Win32_Service class (CIMWin32 WMI Providers) - Creates a new system service.
 ms.assetid: 164e9065-bb0d-4c93-a9fe-c86db1ea7cb7
 ms.tgt_platform: multiple
 title: Create method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# Create method of the Win32\_Service class
+# Create method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **Create** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method creates a new system service.
 
@@ -466,7 +466,7 @@ errReturn = objService.Create ("DbService", "Personnel Database", _
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

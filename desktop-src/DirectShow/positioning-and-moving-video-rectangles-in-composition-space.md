@@ -1,12 +1,15 @@
 ---
 title: Position and move video rectangles in composition space
-Description: Positioning and Moving Video Rectangles in Composition Space
+description: Positioning and Moving Video Rectangles in Composition Space
 ms.assetid: 97e7bb24-79f6-4638-a9c4-ac09dbd29be9
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Position and move video rectangles in composition space
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When the VMR mixes multiple input streams, it positions each stream within a normalized rectangle, called "composition space." Within composition space, the coordinates (0.0, 0.0) to (1.0, 1.0) form the visible video rectangle. Any coordinates that fall outside of this rectangle are clipped.
 
@@ -16,7 +19,7 @@ For example, assume that stream 0 (which corresponds to pin 0) contains the main
 
 
 
-|        |                             |
+| Label | Value |
 |--------|-----------------------------|
 | Time   | Rectangle                   |
 | t + 0  | { -1.0f, 0.0f, 0.0f, 1.0f } |

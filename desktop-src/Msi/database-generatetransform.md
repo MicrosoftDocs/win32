@@ -1,5 +1,5 @@
 ---
-Description: The GenerateTransform method of the Database object creates a transform that, when applied to the object database, results in the reference database. The transform is stored in the storage object.
+description: The GenerateTransform method of the Database object creates a transform that, when applied to the object database, results in the reference database. The transform is stored in the storage object.
 ms.assetid: 51cd70a0-6eda-4ca6-b468-9cb36ad942f8
 title: Database.GenerateTransform method
 ms.topic: reference
@@ -67,7 +67,7 @@ If the method fails, you can obtain extended error information by using the [**L
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

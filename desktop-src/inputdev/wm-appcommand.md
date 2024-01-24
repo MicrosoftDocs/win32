@@ -169,7 +169,7 @@ Unlike other windows messages, an application should return **TRUE** from this m
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -196,7 +196,7 @@ Unlike other windows messages, an application should return **TRUE** from this m
 [**GET\_KEYSTATE\_LPARAM**](/windows/win32/api/winuser/nf-winuser-get_keystate_lparam)
 </dt> <dt>
 
-[**ShellProc**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85))
+[**ShellProc**](../winmsg/shellproc.md)
 </dt> <dt>
 
 [**WM\_XBUTTONUP**](wm-xbuttonup.md)

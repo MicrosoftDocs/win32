@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 # Host a UI Automation Windowless ActiveX Control
 
-Learn how to create a control container that can host windowless Microsoft ActiveX controls that implement Microsoft UI Automation. By using the steps described here, you can ensure that any UI Automation windowless controls that are hosted in your control container are accessible to assistive technology (AT) client applications.
+Learn how to create a control container able to host windowless Microsoft ActiveX controls that implement Microsoft UI Automation. By using the steps described here, you can ensure that any UI Automation windowless controls hosted in your control container are accessible to assistive technology (AT) client applications.
 
 ## What you need to know
 
@@ -39,7 +39,7 @@ If the control container has a Microsoft Active Accessibility implementation, ca
 
 ### Step 2: Implement the IRawElementProviderWindowlessSite interface.
 
-A control container implements the [**IRawElementProviderWindowlessSite**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite) interface enable a windowless control that is based on UI Automation to communicate its accessibility information.
+A control container implements the [**IRawElementProviderWindowlessSite**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite) interface to enable a UI Automation-based windowless control to communicate its accessibility information.
 
 1.  Implement [**IRawElementProviderWindowlessSite::GetRuntimeIdPrefix**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderwindowlesssite-getruntimeidprefix).
 
@@ -136,7 +136,7 @@ A control container implements the [**IRawElementProviderWindowlessSite**](/wind
 
 ### Step 3: Optional: Implement the IRawElementProviderHostingAccessibles interface.
 
-Implement the [**IRawElementProviderHostingAccessibles**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhostingaccessibles) interface if your control container has a UI Automation provider implementation that is the root of an accessibility tree that includes windowless ActiveX controls that support Microsoft Active Accessibility. The **IRawElementProviderHostingAccessibles** interface has a single method, [**GetEmbeddedAccessibles**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderhostingaccessibles-getembeddedaccessibles), which retrieves the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointers of all Microsoft Active Accessibility-based windowless ActiveX controls that are hosted by your control container.
+Implement the [**IRawElementProviderHostingAccessibles**](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhostingaccessibles) interface if your control container has a UI Automation provider implementation that is the root of an accessibility tree that includes windowless ActiveX controls that support Microsoft Active Accessibility. The **IRawElementProviderHostingAccessibles** interface has a single method, [**GetEmbeddedAccessibles**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderhostingaccessibles-getembeddedaccessibles), which retrieves the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointers of all Microsoft Active Accessibility-based windowless ActiveX controls hosted by your control container.
 
 ## Related topics
 

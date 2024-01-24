@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the ExitWindows function to log off the current user.
+description: The following example uses the ExitWindows function to log off the current user.
 ms.assetid: 74be3505-c4bd-4ae2-aaed-700382839006
 title: How to Log Off the Current User
 ms.topic: article
@@ -24,7 +24,7 @@ The following example uses the [**ExitWindowsEx**](/windows/desktop/api/Winuser/
 ExitWindowsEx(EWX_LOGOFF, 0);
 ```
 
-The application receives the [**WM\_QUERYENDSESSION**](wm-queryendsession.md) message and displays a dialog box asking the whether it is OK to end the session. If the user clicks **Yes**, the system logs off the user. If the user clicks **No**, the logoff is canceled.
+The application receives the [**WM\_QUERYENDSESSION**](wm-queryendsession.md) message and displays a dialog box asking whether it is OK to end the session. If the user clicks **Yes**, the system logs off the user. If the user clicks **No**, the logoff is canceled.
 
 ``` syntax
 // Process the message in the window procedure. 

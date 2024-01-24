@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextAlreadySetException constructor"
 title: EsentSessionContextAlreadySetException constructor 
 TOCTitle: 'EsentSessionContextAlreadySetException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSessionContextAlreadySetException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentSessionContextAlreadySetException()
 
 #### Reference
 
-[EsentSessionContextAlreadySetException class](dn350632\(v=exchg.10\).md)
+[EsentSessionContextAlreadySetException class](./esentsessioncontextalreadysetexception-class.md)
 
-[EsentSessionContextAlreadySetException members](dn350624\(v=exchg.10\).md)
+[EsentSessionContextAlreadySetException members](./esentsessioncontextalreadysetexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

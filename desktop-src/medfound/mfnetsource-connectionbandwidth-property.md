@@ -1,5 +1,5 @@
 ---
-Description: Specifies the link bandwidth for the network source, in bits per second.
+description: Specifies the link bandwidth for the network source, in bits per second.
 ms.assetid: 1b71dce1-8744-4114-9629-2a9d0afb7c43
 title: MFNETSOURCE_CONNECTIONBANDWIDTH property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

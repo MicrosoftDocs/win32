@@ -21,7 +21,7 @@ Extended right needed to force DS to check stale phantom objects.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | DS-Check-Stale-Phantoms              |
 | Display-Name | Check Stale Phantoms                 |
@@ -42,7 +42,7 @@ Extended right needed to force DS to check stale phantom objects.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 53                                       |
@@ -53,7 +53,7 @@ Extended right needed to force DS to check stale phantom objects.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 53                                       |
@@ -64,7 +64,7 @@ Extended right needed to force DS to check stale phantom objects.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 53                                       |
@@ -75,7 +75,7 @@ Extended right needed to force DS to check stale phantom objects.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 53                                       |
@@ -86,7 +86,7 @@ Extended right needed to force DS to check stale phantom objects.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 53                                       |
@@ -97,7 +97,7 @@ Extended right needed to force DS to check stale phantom objects.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 53                                       |

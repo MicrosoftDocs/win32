@@ -1,5 +1,5 @@
 ---
-Description: WMI has extensions or providers that enable you to access other operating system features, such as Active Directory, ODBC, and SNMP. You can also access data from device drivers.
+description: WMI has extensions or providers that enable you to access other operating system features, such as Active Directory, ODBC, and SNMP. You can also access data from device drivers.
 ms.assetid: 63ca64e0-1731-47bb-8ed0-51fcdb114863
 ms.tgt_platform: multiple
 title: Accessing Other Operating System Features with WMI

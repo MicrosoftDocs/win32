@@ -1,5 +1,5 @@
 ---
-Description: Multiplies every value in the buffer by a constant value.
+description: Multiplies every value in the buffer by a constant value.
 ms.assetid: 3d7ef530-b83a-4123-a2ed-fff2b21378ee
 title: ID3DXPRTBuffer::ScaleBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

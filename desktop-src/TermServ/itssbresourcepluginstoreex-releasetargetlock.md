@@ -57,7 +57,7 @@ This method is only available on Windows Server 2012 R2 with [KB3091411](https:/
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                             |

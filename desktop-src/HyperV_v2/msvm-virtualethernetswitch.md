@@ -1,5 +1,5 @@
 ---
-Description: Represents a virtual Ethernet switch. Each switch has many different ports to which network adapters can be attached. The switch itself is not highly configurable and acts mostly as a placeholder.
+description: Represents a virtual Ethernet switch. Each switch has many different ports to which network adapters can be attached. The switch itself is not highly configurable and acts mostly as a placeholder.
 ms.assetid: 9415477a-9423-40fa-a887-3a93da1374af
 title: Msvm_VirtualEthernetSwitch class
 ms.topic: reference
@@ -768,7 +768,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

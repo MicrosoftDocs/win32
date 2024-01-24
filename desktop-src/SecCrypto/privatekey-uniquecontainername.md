@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the unique private key container name.
+description: Retrieves the unique private key container name.
 ms.assetid: 2f1315b7-0b12-45d6-8dac-80331bd84ffd
 title: PrivateKey.UniqueContainerName property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # PrivateKey.UniqueContainerName property
 
-\[The **UniqueContainerName** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **UniqueContainerName** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **UniqueContainerName** property retrieves the unique private key container name.
 
@@ -38,7 +38,7 @@ A string that contains the unique private key container name.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

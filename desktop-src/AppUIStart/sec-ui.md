@@ -82,7 +82,7 @@ The following table lists features that, if used incorrectly, can compromise the
 [Security How Tos Index](/previous-versions/msp-n-p/ff650055(v=pandp.10))
 </dt> <dt>
 
-[TechNet Security Resources](https://www.microsoft.com/technet/security/default.mspx)
+[Microsoft Security Response Center](https://www.microsoft.com/msrc)
 </dt> <dt>
 
 [Best Practices for the Security APIs](/windows/desktop/SecBP/best-practices-for-the-security-apis)

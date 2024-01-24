@@ -23,7 +23,6 @@ This topic describes how to create an instance of a group and add it to a list-v
 
 ## Instructions
 
-### 
 
 To use groups in a list-view control, ensure that the control includes the [**LVS\_ALIGNTOP**](list-view-window-styles.md) window style.
 

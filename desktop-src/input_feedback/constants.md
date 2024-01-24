@@ -1,5 +1,5 @@
 ---
-title: Constants
+title: Input Feedback Configuration constants
 description: This section provides the reference specifications for Input Feedback Configuration constants.
 ms.assetid: 1B0EA599-6618-4DF2-B8C7-91A534BD85C0
 topic_type:
@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# Constants
+# Input Feedback Configuration constants
 
 This section provides the reference specifications for [Input Feedback Configuration](input-feedback-configuration-portal.md) constants.
 
@@ -37,7 +37,7 @@ Specifies that the parent window chain should be checked.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |

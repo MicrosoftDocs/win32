@@ -1,5 +1,5 @@
 ---
-Description: The FileIo\_V0\_Name class is an older version of the event type class for file I/O events. The following syntax is simplified from MOF code.
+description: The FileIo\_V0\_Name class is an older version of the event type class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: dcbe37f2-6df0-41a5-b85f-dcd06cbd5901
 title: FileIo_V0_Name class
 ms.topic: reference
@@ -85,7 +85,7 @@ Match the value of this pointer to the **FileObject** pointer value in a [**Disk
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

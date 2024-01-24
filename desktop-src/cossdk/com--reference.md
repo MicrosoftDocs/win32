@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COM+ Reference"
 ms.assetid: f20207cb-f583-47c5-9f24-f719b68b260a
 title: COM+ Reference
 ms.topic: article

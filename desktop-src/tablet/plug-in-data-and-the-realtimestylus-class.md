@@ -1,5 +1,5 @@
 ---
-Description: Plug-ins for the RealTimeStylus class must implement the IStylusSyncPlugin or IStylusAsyncPlugin interface, or both.
+description: Plug-ins for the RealTimeStylus class must implement the IStylusSyncPlugin or IStylusAsyncPlugin interface, or both.
 ms.assetid: 827ac817-e0e6-4750-9d48-b939ccd5e679
 title: Plug-in Data and the RealTimeStylus Class
 ms.topic: article
@@ -88,80 +88,19 @@ The [**RealTimeStylus**](realtimestylus-class.md) object receives data about sys
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="/previous-versions/ms827134(v=msdn.10)">SystemGesture</a></th>
-<th>Objects that precede the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object</th>
-<th>Objects that come after the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Tap</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DoubleTap</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object, the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>Tap</strong> system gesture and the [StylusUpData](/previous-versions/ms824057(v=msdn.10)) objects.<br/></td>
-<td>The second <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>RightTap</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object and the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>HoldEnter</strong> member of the <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesure</a> enumeration.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Drag</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>RightDrag</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>HoldEnter</strong></td>
-<td>The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br/></td>
-<td>The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br/>
-<blockquote>
-[!Note]<br />
-This system gesture isn't recognized if the user begins a <strong>Drag</strong> or <strong>RightDrag</strong> system gesture.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>HoldLeave</strong></td>
-<td>Not implemented.<br/></td>
-<td>Not implemented.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>HoverEnter</strong></td>
-<td>Several <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> objects of low average velocity.<br/></td>
-<td><blockquote>
-[!Note]<br />
-There may be noticeable delay before receiving the <strong>HoverEnter</strong> system gesture. The <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>HoverLeave</strong></td>
-<td>The <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>HoverEnter</strong> system gesture and several <a href="/previous-versions/ms824592(v=msdn.10)">InAirPacketsData</a> objects of sufficient average velocity.<br/></td>
-<td><blockquote>
-[!Note]<br />
-There may be noticeable delay before receiving the <strong>HoverLeave</strong> system gesture. The <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object only receives this data if the <strong>RealTimeStylus</strong> object is attached to the window or control that is directly under the pen at the time of the system gesture.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesture</a> | Objects that precede the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object | Objects that come after the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object | 
+|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| <strong>Tap</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br /> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br /> | 
+| <strong>DoubleTap</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object, the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>Tap</strong> system gesture and the [StylusUpData](/previous-versions/ms824057(v=msdn.10)) objects.<br /> | The second <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br /> | 
+| <strong>RightTap</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object and the <a href="/previous-versions/ms824019(v=msdn.10)">SystemGestureData</a> object for the <strong>HoldEnter</strong> member of the <a href="/previous-versions/ms827134(v=msdn.10)">SystemGesure</a> enumeration.<br /> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br /> | 
+| <strong>Drag</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br /> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br /> | 
+| <strong>RightDrag</strong> | The <a href="/previous-versions/ms824107(v=msdn.10)">StylusDownData</a> object.<br /> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br /> | 
+| **HoldEnter** | The [StylusDownData](/previous-versions/ms824107(v=msdn.10)) object.<br> | The [StylusUpData](/previous-versions/ms824057(v=msdn.10)) object.<br> **Note:** This system gesture isn't recognized if the user begins a **Drag** or **RightDrag** system gesture.<br> | 
+| <strong>HoldLeave</strong> | Not implemented.<br /> | Not implemented.<br /> | 
+| **HoverEnter** | Several [InAirPacketsData](/previous-versions/ms824592(v=msdn.10)) objects of low average velocity.<br> |  **Note:** There may be noticeable delay before receiving the **HoverEnter** system gesture. The [**RealTimeStylus**](realtimestylus-class.md) object only receives this data if the **RealTimeStylus** object is attached to the window or control that is directly under the pen at the time of the system gesture.<br> | 
+| **HoverLeave** | The [SystemGestureData](/previous-versions/ms824019(v=msdn.10)) object for the **HoverEnter** system gesture and several [InAirPacketsData](/previous-versions/ms824592(v=msdn.10)) objects of sufficient average velocity.<br> |  **Note:** There may be noticeable delay before receiving the **HoverLeave** system gesture. The [**RealTimeStylus**](realtimestylus-class.md) object only receives this data if the **RealTimeStylus** object is attached to the window or control that is directly under the pen at the time of the system gesture.<br> | 
+
 
 
 
@@ -196,7 +135,7 @@ In this diagram, the circles lettered "A" and "B" represent tablet pen data that
 
 The following diagram illustrates the addition of custom stylus data to the output queue with the *queue* parameter set to **OutputImmediate**.
 
-![illustration showing custom stylus data flow to the output queue](images/bcf45325-5557-47a2-af43-142c7684e482.gif)
+![Diagram that shows the custom stylus data flow to the output queue.](images/bcf45325-5557-47a2-af43-142c7684e482.gif)
 
 In this diagram, the circles lettered "A" and "B" represent tablet pen data that has already been added to the [**RealTimeStylus**](realtimestylus-class.md) object's output queue and that has not yet been sent to the asynchronous plug-in collection. The circle lettered "C" represents the tablet pen data that the **RealTimeStylus** object is currently processing. It is sent to the synchronous plug-in collection and placed on the output queue. The circles numbered "1", "2", and "3" represent custom stylus data that has been added to the output queue by the first, second, and third synchronous plug-ins respectively in response to the tablet pen data represented by "C". The plug-ins have added the custom stylus data with the *queue* parameter set to **OutputImmediate**. The empty circle represents the position in the output queue where future tablet pen data is added.
 

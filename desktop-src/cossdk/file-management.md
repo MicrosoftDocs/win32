@@ -1,5 +1,5 @@
 ---
-Description: To enable the transfer of application files, COMREPL automatically manages sets of file system folders on the source and target. These COMREPL folders are all rooted in %systemdir%\\com\\replication.
+description: To enable the transfer of application files, COMREPL automatically manages sets of file system folders on the source and target. These COMREPL folders are all rooted in %systemdir%\\com\\replication.
 ms.assetid: 8c59577b-34ea-4675-aaea-a2732fd5ce14
 title: File Management (Component Services)
 ms.topic: article
@@ -16,7 +16,7 @@ To enable the transfer of application files, COMREPL automatically manages sets 
 
 | Folder                   | Purpose                                                                                                                                                                                                                                                                                                                                                                                                               |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ReplicaSource<br/> | Applications exported during the prepare phase are stored here.<br/> This folder is overwritten each time the prepare phase is executed against a given source computer. This folder is never explicitly deleted, so replication to targets can take place at any time after the source is prepared.<br/> Each application is stored in its own subfolder named <appName>+<appID>.<br/> |
+| ReplicaSource<br/> | Applications exported during the prepare phase are stored here.<br/> This folder is overwritten each time the prepare phase is executed against a given source computer. This folder is never explicitly deleted, so replication to targets can take place at any time after the source is prepared.<br/> Each application is stored in its own subfolder named &lt;appName&gt;+&lt;appID&gt;.<br/> |
 
 
 

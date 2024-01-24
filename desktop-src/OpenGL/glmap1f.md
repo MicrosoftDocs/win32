@@ -1,6 +1,6 @@
 ---
 title: glMap1f function (Gl.h)
-description: The glMap1d and glMap1f functions define a one-dimensional evaluator.
+description: The glMap1f function defines a one-dimensional evaluator. | glMap1f function (Gl.h)
 ms.assetid: c016ad80-b507-4e21-829f-f173d5c8dee6
 keywords:
 - glMap1f function OpenGL
@@ -120,22 +120,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* was not an accepted value.<br/>                                                                                        |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *u1* was equal to *u2*.<br/>                                                                                                    |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *stride* was less than the number of values in a control point.<br/>                                                            |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *order* was less than one or GL\_MAX\_EVAL\_ORDER.<br/>                                                                         |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 Evaluators provide a way to use polynomial or rational polynomial mapping to produce vertices, normals, texture coordinates, and colors. The values produced by an evaluator are sent to further stages of OpenGL processing just as if they had been presented using [**glVertex**](glvertex-functions.md), [**glNormal**](glnormal-functions.md), [**glTexCoord**](gltexcoord-functions.md), and [**glColor**](glcolor-functions.md) commands, except that the generated values do not update the current normal, texture coordinates, or color.
@@ -144,19 +128,19 @@ All polynomial or rational polynomial splines of any degree (up to the maximum d
 
 Evaluators define curves based on Bernstein polynomials. Define **p** () as
 
-![](images/map01.png)
+![Equation showing the definition of p ().](images/map01.png)
 
 where **R***i* is a control point and () is the *i* the Bernstein polynomial of degree *n* (*order* =*n* + 1):
 
-![](images/map02.png)
+![Equation showing the Bernstein polynomial of degree n.](images/map02.png)
 
 Recall that
 
-![](images/map03.png)
+![Equations showing equivalence to 1.](images/map03.png)
 
 The **glMap1** function is used to define the basis and to specify what kind of values are produced. Once defined, a map can be enabled and disabled by calling [**glEnable**](glenable.md) and **glDisable** with the map name, one of the nine predefined values for *target* described above. The [glEvalCoord1](glevalcoord-functions.md) function evaluates the one-dimensional maps that are enabled. When **glEvalCoord1** presents a value *u*, the Bernstein functions are evaluated using *u*^, where
 
-![](images/map04.png)
+![Equation showing the definition of u^.](images/map04.png)
 
 The *stride*, *order*, and *points* parameters define the array addressing for accessing the control points. The *points* parameter is the location of the first control point, which occupies one, two, three, or four contiguous memory locations, depending on which map is being defined. The *order* parameter is the number of control points in the array. The *stride* parameter tells how many float or double locations to advance the internal memory pointer to reach the next control point.
 
@@ -190,7 +174,7 @@ The following functions retrieve information related to **glMap1**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

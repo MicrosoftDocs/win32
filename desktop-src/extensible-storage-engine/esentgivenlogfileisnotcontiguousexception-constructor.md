@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentGivenLogFileIsNotContiguousException constructor"
 title: EsentGivenLogFileIsNotContiguousException constructor 
 TOCTitle: 'EsentGivenLogFileIsNotContiguousException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentGivenLogFileIsNotContiguousException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentGivenLogFileIsNotContiguousException()
 
 #### Reference
 
-[EsentGivenLogFileIsNotContiguousException class](dn350479\(v=exchg.10\).md)
+[EsentGivenLogFileIsNotContiguousException class](./esentgivenlogfileisnotcontiguousexception-class.md)
 
-[EsentGivenLogFileIsNotContiguousException members](dn350424\(v=exchg.10\).md)
+[EsentGivenLogFileIsNotContiguousException members](./esentgivenlogfileisnotcontiguousexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

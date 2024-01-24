@@ -1,5 +1,5 @@
 ---
-Description: Create symbolic links that use either an absolute or relative path by using the CreateSymbolicLink function.
+description: Create symbolic links that use either an absolute or relative path by using the CreateSymbolicLink function.
 ms.assetid: 3821478d-87bb-4e47-8263-d977cf665503
 title: Creating Symbolic Links
 ms.topic: article
@@ -13,7 +13,7 @@ The function [**CreateSymbolicLink**](/windows/desktop/api/WinBase/nf-winbase-cr
 Symbolic links can either be absolute or relative links. Absolute links are links that specify each portion of the path name; relative links are determined relative to where relative–link specifiers are in a specified path. Relative links are specified using the following conventions:
 
 -   Dot (. and ..) conventions—for example, "..\\" resolves the path relative to the parent directory.
--   Names with no slashes (\)—for example, "tmp" resolves the path relative to the current directory.
+-   Names with no slashes (\\)—for example, "tmp" resolves the path relative to the current directory.
 -   Root relative—for example, "\\Windows\\System32" resolves to the "*current drive*:\\Windows\\System32". directory
 -   Current working directory-relative—for example, if the current working directory is "C:\\Windows\\System32", "C:File.txt" resolves to "C:\\Windows\\System32\\File.txt".
 

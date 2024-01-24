@@ -1,5 +1,5 @@
 ---
-Description: Antialiasing is a technique you can use to reduce the appearance of stair-step pixels when drawing any line that is not exactly horizontal or vertical.
+description: Antialiasing is a technique you can use to reduce the appearance of stair-step pixels when drawing any line that is not exactly horizontal or vertical.
 ms.assetid: e5931c95-1de7-4b41-bc15-f07f8654df2d
 title: Antialiasing (Direct3D 9)
 ms.topic: article

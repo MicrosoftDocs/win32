@@ -1,5 +1,5 @@
 ---
-Description: Network Monitor uses the ParserAutoInstallInfo export function to install a parser. When ParserAutoInstallInfo is called, the parser returns a PF\_PARSERDLLINFO structure containing all the information that Network Monitor needs to install a parser DLL.
+description: Network Monitor uses the ParserAutoInstallInfo export function to install a parser. When ParserAutoInstallInfo is called, the parser returns a PF\_PARSERDLLINFO structure containing all the information that Network Monitor needs to install a parser DLL.
 ms.assetid: 1add9988-9cb2-43f9-8ae2-32acfe21b6f3
 title: Implementing ParserAutoInstallInfo
 ms.topic: article
@@ -39,7 +39,7 @@ The following procedure identifies the steps necessary to implement [**ParserAut
     -   If the preceding protocols can determine that your protocol follows from data in the preceding protocols, set the **pWhoHandsOffToMe** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, your protocol is then added to the [*handoff sets*](h.md) of the preceding protocols.
     -   If the preceding protocols cannot determine that your protocol follows from data in the preceding protocols, set **pWhoCanPrecedeMe** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, the your protocol is then added to the [*follow sets*](f.md) of the protocols.
 7.  Specify the protocols that follow each DLL protocol. One of the following conditions applies to an outgoing follow-set.
-    -   If your protocol can determine which protocols follow based on data in your protocol, set the **pWhoDoIHandOffTo** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, the these protocols are added to the [*handoff set*](h.md) of your protocols.
+    -   If your protocol can determine which protocols follow based on data in your protocol, set the **pWhoDoIHandOffTo** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, these protocols are added to the [*handoff set*](h.md) of your protocols.
     -   If your protocol cannot determine which protocols follow based on data in your protocol, set the **pWhoCanFollowMe** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, these protocols are added to the [*follow set*](f.md) of your protocol.
 8.  Return the [**PF\_PARSERDLLINFO**](pf-parserdllinfo.md) structure to Network Monitor.
 

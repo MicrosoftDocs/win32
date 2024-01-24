@@ -1,5 +1,5 @@
 ---
-Description: Links to documentation for the IAzOperations interoperability wrapper methods and properties.
+description: Links to documentation for the IAzOperations interoperability wrapper methods and properties.
 ms.assetid: 4fc5c62c-986e-4b3c-a8de-6687da114284
 title: Microsoft.Interop.Security.AzRoles.IAzOperations interface
 ms.topic: reference
@@ -69,7 +69,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzOperations** interface has these pro
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

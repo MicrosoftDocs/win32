@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidObjectException properties"
 title: EsentInvalidObjectException properties
 TOCTitle: EsentInvalidObjectException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidObjectException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidObjectException](dn319564\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidObjectException](./esentinvalidobjectexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInvalidObjectException class](dn319564\(v=exchg.10\).md)
+[EsentInvalidObjectException class](./esentinvalidobjectexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.
+description: Used to determine whether a certificate template contains the szOID\_PKIX\_KP\_EMAIL\_PROTECTION key usage.
 ms.assetid: 1f0512e0-68b6-4b79-84bd-614babb4151d
 title: ISCrdEnr::getCertTemplateSMIME method
 ms.topic: reference
@@ -83,7 +83,7 @@ The constant for szOID\_PKIX\_KP\_EMAIL\_PROTECTION is defined in Wincrypt.h.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

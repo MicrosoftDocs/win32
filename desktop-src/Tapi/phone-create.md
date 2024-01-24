@@ -1,5 +1,5 @@
 ---
-Description: The TAPI PHONE\_CREATE message is sent to inform applications of the creation of a new phone device.
+description: The TAPI PHONE\_CREATE message is sent to inform applications of the creation of a new phone device.
 ms.assetid: 62895b10-76ce-456e-ad02-e2b7764616a8
 title: PHONE_CREATE message (Tapi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Applications supporting TAPI version 1.4 or later are sent a **PHONE\_CREATE** m
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

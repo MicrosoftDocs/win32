@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterList::GetAdapter
 description: Retrieves a specific adapter by index from a DXCore adapter list object.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---

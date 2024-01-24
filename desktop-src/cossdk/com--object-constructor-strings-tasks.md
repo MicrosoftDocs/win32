@@ -1,5 +1,5 @@
 ---
-Description: COM+ Object Constructor Strings Tasks
+description: COM+ Object Constructor Strings Tasks
 ms.assetid: b8518f3f-dfaa-4a7d-9b1b-978a62cba4b5
 title: COM+ Object Constructor Strings Tasks
 ms.topic: article

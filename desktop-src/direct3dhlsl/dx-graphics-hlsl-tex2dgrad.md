@@ -1,6 +1,6 @@
 ---
 title: tex2Dgrad
-description: Samples a 2D texture using a gradient to select the mip level.
+description: Samples a 2D texture using a gradient to select the mip level. | tex2Dgrad
 ms.assetid: a9ab7972-3480-4b37-aa10-c5cf811bdd0e
 keywords:
 - tex2Dgrad HLSL

@@ -1,5 +1,5 @@
 ---
-Description: The GetPrinterData function retrieves configuration data for the specified printer or print server.
+description: The GetPrinterData function retrieves configuration data for the specified printer or print server.
 ms.assetid: b5a44b27-a4aa-4e58-9a64-05be87d12ab5
 title: GetPrinterData function (Winspool.h)
 ms.topic: reference
@@ -191,7 +191,7 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

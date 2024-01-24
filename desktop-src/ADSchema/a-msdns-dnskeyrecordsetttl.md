@@ -22,7 +22,7 @@ An attribute that defines the time-to-live (TTL) value assigned to DNSKEY record
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-DNSKEY-Record-Set-TTL         |
 | Ldap-Display-Name | msDNS-DNSKEYRecordSetTTL             |
@@ -43,7 +43,7 @@ An attribute that defines the time-to-live (TTL) value assigned to DNSKEY record
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

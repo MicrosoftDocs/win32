@@ -16,15 +16,18 @@ keywords:
 - dynamically creating Windows Media metafile playlists
 - ASP pages
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - kbArticle
 api_name: 
 api_type: 
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # Using ASP Pages to Dynamically Create Windows Media Metafile Playlists
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can use Active Server Pages (ASP, or .asp files) to dynamically generate playlists based on information provided by users. An ASP page is a dynamic webpage used in conjunction with Microsoft Internet Information Services (IIS). ASP is an environment in which you can combine HTML, scripts, and reusable ActiveX server components to create dynamic and powerful Web-based business solutions. ASP pages enable server-side scripting for IIS with native support for both Microsoft Visual Basic Scripting Edition (VBScript) and Microsoft JScript. This discussion assumes that you are familiar with ASP and defining variables.
 

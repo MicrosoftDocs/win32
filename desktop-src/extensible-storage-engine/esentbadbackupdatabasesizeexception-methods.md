@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBackupDatabaseSizeException methods"
 title: EsentBadBackupDatabaseSizeException methods
 TOCTitle: EsentBadBackupDatabaseSizeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadBackupDatabaseSizeException](dn273987\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadBackupDatabaseSizeException](./esentbadbackupdatabasesizeexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentBadBackupDatabaseSizeException class](dn273987\(v=exchg.10\).md)
+[EsentBadBackupDatabaseSizeException class](./esentbadbackupdatabasesizeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

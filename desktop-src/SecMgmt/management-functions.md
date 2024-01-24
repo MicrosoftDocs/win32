@@ -1,5 +1,5 @@
 ---
-Description: Lists support functions provided by the Security Configuration tool set.
+description: Lists support functions provided by the Security Configuration tool set.
 ms.assetid: 5a771014-1706-490f-8540-ec516652cb83
 title: Security Management Functions
 ms.topic: article
@@ -210,7 +210,7 @@ The following Safer functions can be used to check the safer level of any execut
 | [**SaferiIsExecutableFileType**](/windows/desktop/api/WinSafer/nf-winsafer-saferiisexecutablefiletype) | Determines whether a specified file is an executable file.<br/>                                                                                                                |
 | [**SaferRecordEventLogEntry**](/windows/desktop/api/WinSafer/nf-winsafer-saferrecordeventlogentry)     | Sends a message to the event log.<br/>                                                                                                                                         |
 | [**SaferSetLevelInformation**](/windows/desktop/api/WinSafer/nf-winsafer-safersetlevelinformation)     | Sets the information about a policy level.<br/>                                                                                                                                |
-| [**SaferSetPolicyInformation**](/windows/desktop/api/WinSafer/nf-winsafer-safergetlevelinformation)    | Sets the global policy controls.<br/>                                                                                                                                          |
+| [**SaferSetPolicyInformation**](/windows/desktop/api/WinSafer/nf-winsafer-safersetpolicyinformation)    | Sets the global policy controls.<br/>                                                                                                                                          |
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: 'There are two ways to implement a class provider: implement the interface as a push provider, or as a pull provider.'
+description: 'There are two ways to implement a class provider: implement the interface as a push provider, or as a pull provider.'
 ms.assetid: 2c6d3f73-e219-409b-9347-492035c1eb9f
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for a Class Provider

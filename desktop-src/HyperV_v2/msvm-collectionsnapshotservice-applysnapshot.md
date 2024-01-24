@@ -1,5 +1,5 @@
 ---
-Description: Applies a snapshot collection to the collection of virtual computer system.
+description: Applies a snapshot collection to the collection of virtual computer system.
 ms.assetid: c76c552a-ae07-4dab-a938-740d77447a53
 title: ApplySnapshot method of the Msvm_CollectionSnapshotService class
 ms.topic: reference
@@ -92,7 +92,7 @@ On success, returns a 0; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

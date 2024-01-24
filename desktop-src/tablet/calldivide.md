@@ -1,5 +1,5 @@
 ---
-Description: Retrieves analysis information from the InkDivider object.
+description: Retrieves analysis information from the InkDivider object.
 ms.assetid: 1b073da4-80f4-48f4-8ff6-b21793c173a8
 title: CallDivide function
 ms.topic: reference
@@ -119,7 +119,7 @@ This function can return one of these values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |

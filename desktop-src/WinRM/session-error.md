@@ -40,7 +40,7 @@ XML representation of error information.
 
 ## Examples
 
-The following VBScript code example shows a script that contains an error in the [*resource URI*](windows-remote-management-glossary.md). The correct resource URI is http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_QuotaSetting?VolumePath=c:\\.
+The following VBScript code example shows a script that contains an error in the [*resource URI*](windows-remote-management-glossary.md). The correct resource URI is `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_QuotaSetting?VolumePath=c:\\`.
 
 
 ```VB
@@ -129,7 +129,7 @@ to get more information in how to construct a resource URI:
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                           |

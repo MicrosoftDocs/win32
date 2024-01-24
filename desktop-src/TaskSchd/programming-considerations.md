@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Considerations
+# Programming Considerations (Task Scheduler)
 
 When developing applications that use the Task Scheduler 1.0, keep the following programming issues in mind.
 

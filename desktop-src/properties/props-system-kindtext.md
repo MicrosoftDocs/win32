@@ -1,5 +1,5 @@
 ---
-Description: The user-friendly form of System.Kind. This value is not intended to be parsed programmatically.
+description: The user-friendly form of System.Kind. This value is not intended to be parsed programmatically.
 ms.assetid: bf5c5dfa-a77e-4c69-a5a5-0655dfba309c
 title: System.KindText
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Requests the title and text for a chevron infotip for the item specified by the accompanying SMDATA structure.
+description: Requests the title and text for a chevron infotip for the item specified by the accompanying SMDATA structure.
 ms.assetid: 7bce4079-994c-4eb0-ab86-9044701d85a1
 title: SMC_CHEVRONGETTIP message (Shobjidl.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ This notification is received by the [**IShellMenuCallback::CallbackSM**](/windo
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

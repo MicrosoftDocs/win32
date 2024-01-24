@@ -13,10 +13,13 @@ keywords:
 - migration guide,version differences
 - versions of Windows Media Player,object model
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Detailed Object Model Comparison
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following table compares the Windows Media Player 6.4 object model properties with the Windows Media Player 7 or later object model.
 
@@ -24,8 +27,8 @@ The following table compares the Windows Media Player 6.4 object model propertie
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -36,7 +39,7 @@ The following table compares the Windows Media Player 6.4 object model propertie
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>.<strong>AllowChangeDisplaySize</strong></td>
-<td>The display of Windows Media Player 7 or later automatically resizes to fit the media. You can set the height and width properties in the <OBJECT> tag or in script.</td>
+<td>The display of Windows Media Player 7 or later automatically resizes to fit the media. You can set the height and width properties in the &lt;OBJECT&gt; tag or in script.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>AllowScan</strong></td>
@@ -64,7 +67,7 @@ The following table compares the Windows Media Player 6.4 object model propertie
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>AutoSize</strong></td>
-<td>Automatic sizing is the default behavior. To override automatic sizing, set the height and width properties in the <OBJECT> tag or in script.</td>
+<td>Automatic sizing is the default behavior. To override automatic sizing, set the height and width properties in the &lt;OBJECT&gt; tag or in script.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>.<strong>AutoStart</strong></td>
@@ -228,8 +231,8 @@ The following table compares the Windows Media Player 6.4 object model propertie
 </tr>
 <tr class="odd">
 <td><em>Player6</em>.<strong>DefaultFrame</strong></td>
-<td>Use <em>Settings</em>.<strong>defaultFrame</strong>, or use a <PARAM> attribute in the <OBJECT> element:
-<pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
+<td>Use <em>Settings</em>.<strong>defaultFrame</strong>, or use a &lt;PARAM&gt; attribute in the &lt;OBJECT&gt; element:
+<pre data-space="preserve"><code>&lt;PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;&gt;</code></pre></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>DisplayBackColor</strong></td>
@@ -245,7 +248,7 @@ The following table compares the Windows Media Player 6.4 object model propertie
 </tr>
 <tr class="odd">
 <td><em>Player6</em>.<strong>DisplaySize</strong></td>
-<td>The default display automatically resizes to fit the media. You can set the height and width properties in the <OBJECT> tag, or in script. Use <em>Player</em>.<strong>fullScreen</strong> to switch to full-screen mode.</td>
+<td>The default display automatically resizes to fit the media. You can set the height and width properties in the &lt;OBJECT&gt; tag, or in script. Use <em>Player</em>.<strong>fullScreen</strong> to switch to full-screen mode.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>.<strong>Duration</strong></td>
@@ -532,8 +535,8 @@ The following table compares the Windows Media Player version 6.4 object model m
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -1,5 +1,5 @@
 ---
-Description: Represents a physical computer system or virtual machine.
+description: Represents a physical computer system or virtual machine.
 ms.assetid: '1db9e169-1466-4898-ab95-e9d622fe43cb'
 title: Msvm_ComputerSystem class
 ms.topic: reference
@@ -553,7 +553,7 @@ In Windows 8, there is a single instance of [**ReplicationSettingData**](msvm-re
 
 | Property name  | Windows 8 value               | Windows 8.1 value                          |
 |----------------|-------------------------------|--------------------------------------------|
-| **InstanceID** | Microsoft:<vmguid>\\HVR | Microsoft:<vmguid>\\HVR\\<0/1> |
+| **InstanceID** | Microsoft:&lt;vmguid&gt;\\HVR | Microsoft:&lt;vmguid&gt;\\HVR\\<0/1> |
 
 
 
@@ -1257,7 +1257,7 @@ See [Querying Networking Objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

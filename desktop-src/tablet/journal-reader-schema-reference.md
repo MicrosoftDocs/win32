@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the schema that defines the XML returned by the Journal Note Reader component.
+description: This section contains reference information for the schema that defines the XML returned by the Journal Note Reader component.
 ms.assetid: fd4a34fb-39e9-47e5-9761-9cbf0f28d9fe
 title: Journal Reader Schema Reference
 ms.topic: article

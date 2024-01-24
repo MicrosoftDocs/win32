@@ -1,5 +1,5 @@
 ---
-Description: The Origin property of the SWbemProperty object retrieves the name of the WMI class in which this property was introduced. For classes with deep inheritance hierarchies, it is often desirable to know which properties were declared in which classes.
+description: The Origin property of the SWbemProperty object retrieves the name of the WMI class in which this property was introduced. For classes with deep inheritance hierarchies, it is often desirable to know which properties were declared in which classes.
 ms.assetid: 25bc0303-43b8-42da-a194-82213c1009d9
 ms.tgt_platform: multiple
 title: SWbemProperty.Origin property (Wbemdisp.h)
@@ -43,7 +43,7 @@ SWbemProperty.Origin As String
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation transforms (MFTs) are an evolution of the transform model first introduced with DirectX Media Objects (DMOs).
+description: Media Foundation transforms (MFTs) are an evolution of the transform model first introduced with DirectX Media Objects (DMOs).
 ms.assetid: 4e8c3ec9-6ffa-4858-a4ea-8ef8ccaf9253
 title: Comparison of MFTs and DMOs
 ms.topic: article
@@ -148,7 +148,7 @@ MFTs: No equivalent enumeration.
 
 ### ProcessOutput Flags
 
-DMOs: [**\_DMO\_PROCESS\_OUTPUT\_FLAGS**](/previous-versions/windows/win32/api/Mediaobj/ne-mediaobj-_dmo_process_output_flags) enumeration.
+DMOs: [**\_DMO\_PROCESS\_OUTPUT\_FLAGS**](/previous-versions/windows/desktop/api/Mediaobj/ne-mediaobj-_dmo_process_output_flags) enumeration.
 
 MFTs: [**\_MFT\_PROCESS\_OUTPUT\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_process_output_flags) enumeration.
 
@@ -162,7 +162,8 @@ MFTs: [**\_MFT\_PROCESS\_OUTPUT\_FLAGS**](/windows/win32/api/mftransform/ne-mftr
 
  
 
-DMOs: [**\_DMO\_OUTPUT\_DATA\_BUFFER\_FLAGS**](/previous-versions/windows/win32/api/Mediaobj/ne-mediaobj-_dmo_output_data_buffer_flags) enumeration.
+DMOs: [**\_DMO\_OUTPUT\_DATA\_BUFFER\_FLAGS**](/previous-versions/windows/desktop/api/Mediaobj/ne-mediaobj-_dmo_output_data_buffer_flags) enumeration.
+
 
 MFTs: [**\_MFT\_OUTPUT\_DATA\_BUFFER\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_output_data_buffer_flags) enumeration.
 
@@ -262,7 +263,7 @@ MFTs: [**\_MFT\_OUTPUT\_STREAM\_INFO\_FLAGS**](/windows/win32/api/mftransform/ne
 
 ### SetInputType/SetOutputType Flags
 
-DMOs: [**\_DMO\_SET\_TYPE\_FLAGS**](/previous-versions/windows/win32/api/Mediaobj/ne-mediaobj-_dmo_set_type_flags) enumeration.
+DMOs: [**\_DMO\_SET\_TYPE\_FLAGS**](/previous-versions/windows/desktop/api/Mediaobj/ne-mediaobj-_dmo_set_type_flags) enumeration.
 
 MFTs: [**\_MFT\_SET\_TYPE\_FLAGS**](/windows/win32/api/mftransform/ne-mftransform-_mft_set_type_flags) enumeration.
 

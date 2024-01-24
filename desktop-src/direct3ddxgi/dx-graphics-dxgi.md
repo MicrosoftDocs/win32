@@ -1,5 +1,5 @@
 ---
-Description: DXGI
+description: DXGI
 ms.assetid: 9565e874-5a8d-4b4b-a2a4-391e46922cc1
 title: DXGI
 ms.topic: reference
@@ -18,7 +18,7 @@ This documentation set contains information about programming with DXGI.
 
 
 
-|                                   |                                                                                                |
+| Requirement                                  | Value                                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------------------|
 | Supported runtime environments    | <dl> <dt>Windows/C++</dt> </dl>         |
 | Recommended programming languages | C/C++                                                                                          |

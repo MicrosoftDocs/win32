@@ -1,5 +1,5 @@
 ---
-Description: Find and print the name of the owner of a file.
+description: Find and print the name of the owner of a file.
 ms.assetid: b0dbc785-58a7-4f39-ab39-b96abece5b93
 title: Finding the Owner of a File Object in C++
 ms.topic: article
@@ -86,7 +86,7 @@ bRtnBool = LookupAccountSid(
 // Reallocate memory for the buffers.
 AcctName = (LPTSTR)GlobalAlloc(
           GMEM_FIXED,
-          dwAcctName);
+          dwAcctName * sizeof(wchar_t));
 
 // Check GetLastError for GlobalAlloc error condition.
 if (AcctName == NULL) {
@@ -99,7 +99,7 @@ if (AcctName == NULL) {
 
     DomainName = (LPTSTR)GlobalAlloc(
            GMEM_FIXED,
-           dwDomainName);
+           dwDomainName * sizeof(wchar_t));
 
     // Check GetLastError for GlobalAlloc error condition.
     if (DomainName == NULL) {

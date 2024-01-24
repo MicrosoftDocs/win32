@@ -1,5 +1,5 @@
 ---
-Description: The Image class provides basic methods for loading and displaying raster images and vector images. The Metafile class, which inherits from the Image class, provides more specialized methods for recording, displaying, and examining vector images.
+description: The Image class provides basic methods for loading and displaying raster images and vector images. The Metafile class, which inherits from the Image class, provides more specialized methods for recording, displaying, and examining vector images.
 ms.assetid: 79b8df1b-6fc5-455b-9d08-57d64bf6bffa
 title: Loading and Displaying Metafiles
 ms.topic: article

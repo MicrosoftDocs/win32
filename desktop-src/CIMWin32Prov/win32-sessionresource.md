@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SessionResource association represents the relationship between a session and the resources that the session provides access to.
+description: The Win32\_SessionResource association represents the relationship between a session and the resources that the session provides access to.
 ms.assetid: 39c195cf-e70b-4e93-b46b-61ed4f08f57e
 ms.tgt_platform: multiple
 title: Win32_SessionResource class
@@ -83,7 +83,7 @@ The Dependent reference represents the session using the resource.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -24,7 +24,7 @@ Shader Model 5 implements the intrinsic functions from Shader Model 4 and below 
 -   [**ddy\_coarse**](ddy-coarse.md)
 -   [**DeviceMemoryBarrier**](devicememorybarrier.md)
 -   [**DeviceMemoryBarrierWithGroupSync**](devicememorybarrierwithgroupsync.md)
--   [**EvaluateAttributeAtCentroid**](evaluateattributeatcentroid.md)
+-   [**EvaluateAttributeCentroid**](evaluateattributecentroid.md)
 -   [**EvaluateAttributeAtSample**](evaluateattributeatsample.md)
 -   [**f16tof32**](f16tof32.md)
 -   [**f32tof16**](f32tof16.md)

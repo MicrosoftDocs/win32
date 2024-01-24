@@ -1,5 +1,5 @@
 ---
-Description: The midi/in device class consists of MIDI sequencers that are used for input. You access these devices by using the MIDI functions, which are described in the Platform Software Development Kit (SDK).
+description: The midi/in device class consists of MIDI sequencers that are used for input. You access these devices by using the MIDI functions, which are described in the Platform Software Development Kit (SDK).
 ms.assetid: 8997a391-bf61-4ec9-8ffc-fe3e6b92d63a
 title: midi/in
 ms.topic: article

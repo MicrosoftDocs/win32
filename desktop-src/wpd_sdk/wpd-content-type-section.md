@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_SECTION
+description: WPD\_CONTENT\_TYPE\_SECTION
 ms.assetid: 8680a74b-9594-4271-a511-637f617aa12a
 title: WPD_CONTENT_TYPE_SECTION
 ms.topic: article
@@ -16,9 +16,8 @@ This type of object supports the following properties.
 
 
 
-|                                                                                                                                  |                                                                       |
+| Property Name       | Required or Optional             |
 |----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| **Property Name**                                                                                                                | **Required or Optional**                                              |
 | [WPD\_OBJECT\_ID](object-properties.md)                                                                           | Required.                                                             |
 | [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                                                            | Required.                                                             |
 | [WPD\_OBJECT\_NAME](object-properties.md)                                                                       | Required if the object represents a file.                             |

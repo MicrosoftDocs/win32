@@ -34,7 +34,7 @@ Creates an image source object from a WIC bitmap source, while populating all pi
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1\_3.h</dt> </dl> |
 

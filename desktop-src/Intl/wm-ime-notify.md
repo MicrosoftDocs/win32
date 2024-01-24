@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application to notify it of changes to the IME window. A window receives this message through its WindowProc function.
+description: Sent to an application to notify it of changes to the IME window. A window receives this message through its WindowProc function.
 ms.assetid: 20e064b8-2baf-4b4c-8341-36c3e4643eff
 title: WM_IME_NOTIFY message (Winuser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM_IME_NOTIFY message
 
-Sent to an application to notify it of changes to the IME window. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+Sent to an application to notify it of changes to the IME window. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -75,7 +75,7 @@ An application processes this message if it is responsible for managing the IME 
 
 
 
-|                                     |                                                                                                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: The PHONESTATE\_ bit-flag constants describe various status items for a phone device.
+description: The PHONESTATE\_ bit-flag constants describe various status items for a phone device.
 ms.assetid: 5db53dd4-606a-40b9-9159-b67a0ea1e400
 title: PHONESTATE_ Constants (Tapi.h)
 ms.topic: reference
@@ -260,7 +260,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

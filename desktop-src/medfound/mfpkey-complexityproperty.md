@@ -1,5 +1,5 @@
 ---
-Description: Specifies the encoder algorithm complexity.
+description: MFPKEY_COMPLEXITY Property - Specifies the encoder algorithm complexity.
 ms.assetid: 1537e98b-d7ed-49e6-aa25-8f2f124c88eb
 title: MFPKEY_COMPLEXITY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This integer value ranges from 0 to 3. Lower values cause the codec to use less 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

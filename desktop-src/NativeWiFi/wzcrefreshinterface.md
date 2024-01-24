@@ -1,5 +1,5 @@
 ---
-Description: Refreshes interface information for a specific wireless LAN interface.
+description: Refreshes interface information for a specific wireless LAN interface.
 ms.assetid: 584b95b7-3218-4e3e-b5d9-9542488af16b
 title: WZCRefreshInterface function (Wzcsapi.h)
 ms.topic: reference
@@ -113,7 +113,7 @@ The **wszGuid** member of the [**INTF\_ENTRY**](intf-entry.md) structure pointed
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

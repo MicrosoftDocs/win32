@@ -1,5 +1,5 @@
 ---
-Description: Indicates a type of service status change for monitoring and reporting.
+description: Indicates a type of service status change for monitoring and reporting.
 ms.assetid: 7508526c-02ce-4ac2-8616-491390a4afad
 title: SC_EVENT_TYPE enumeration (Winsvcp.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The status of a service has changed. The *hService* parameter of the [**Subscrib
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                       |

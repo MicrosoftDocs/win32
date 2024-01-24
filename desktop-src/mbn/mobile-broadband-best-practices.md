@@ -1,5 +1,5 @@
 ---
-Description: When working with the Mobile Broadband API the following set of best practices should be used in order to achieve the best possible performance.
+description: When working with the Mobile Broadband API the following set of best practices should be used in order to achieve the best possible performance.
 ms.assetid: 523e3ea4-1d4e-45d1-bc24-93aa2fb14390
 title: Mobile Broadband API Best Practices
 ms.topic: article
@@ -129,7 +129,7 @@ Use the IP Helper functions [GetlfEntry](/windows/win32/api/iphlpapi/nf-iphlpapi
 
 ## Using The Pin Unblock API
 
-A calling client application must be elevated in order to successfully to invoke [**IMbnPin::Unblock**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock). This method is the only portion of the Mobile Broadband API that requires administrator or NCO privileges. See [A Description of the Network Configuration Operators Group]( https://support.microsoft.com/kb/297938/en-us) for more information.
+A calling client application must be elevated in order to successfully to invoke [**IMbnPin::Unblock**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnpin-unblock). This method is the only portion of the Mobile Broadband API that requires administrator or NCO privileges.
 
 ## Working With SafeArrays
 

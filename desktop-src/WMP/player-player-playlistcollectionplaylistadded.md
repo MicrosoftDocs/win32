@@ -1,6 +1,6 @@
 ---
 title: Player.PlaylistCollectionPlaylistAdded event
-description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection.
+description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection. | Player.PlaylistCollectionPlaylistAdded event
 ms.assetid: 07acb5e6-d832-4f0b-a6bb-2b7ba27c368d
 keywords:
 - PlaylistCollectionPlaylistAdded event Windows Media Player
@@ -15,10 +15,13 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Player.PlaylistCollectionPlaylistAdded event
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **PlaylistCollectionPlaylistAdded** event occurs when a playlist is added to the playlist collection.
 
@@ -60,7 +63,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

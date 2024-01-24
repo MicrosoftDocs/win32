@@ -1,5 +1,5 @@
 ---
-Description: Identifies a counter in a counter set that the provider provides.
+description: Identifies a counter in a counter set that the provider provides.
 ms.assetid: 5b39804f-c117-4f1f-b100-d02674d1e8ad
 title: counter (counterSet) Element
 ms.topic: reference
@@ -27,7 +27,7 @@ The **counter** element is defined by the [**counterSet**](performance-counters-
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

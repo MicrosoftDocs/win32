@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the IDirectXFileObject interface to retrieve information about Microsoft DirectX file objects. Deprecated.
+description: Applications use the methods of the IDirectXFileObject interface to retrieve information about Microsoft DirectX file objects. Deprecated.
 ms.assetid: 015d2c4e-4a25-40da-b88a-bad0c4e20e09
 title: IDirectXFileObject interface (DXFile.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ typedef interface IDirectXFileObject *LPDIRECTXFILEOBJECT;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

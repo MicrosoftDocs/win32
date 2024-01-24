@@ -1,5 +1,5 @@
 ---
-Description: Instantiating an Encoder MFT
+description: Instantiating an Encoder MFT
 ms.assetid: 50b71c00-b7cf-4c38-8114-bb36b358fda5
 title: Instantiating an Encoder MFT
 ms.topic: article
@@ -26,7 +26,7 @@ In Microsoft Media Foundation, encoders are implemented as [Media Foundation tra
 
     SubType: MFVideoFormat\_WVC1, MFVideoFormat\_WMV3, MFVideoFormat\_WMV2, MFVideoFormat\_WMV1
 
-Media Foundation provides several functions that your application can call to enumerate the various encoders available in your system. Encoders are registered as COM objects and the registry entry follows the standard format for COM class factories. The registry maintains the CLSIDs for the encoders, which are categorized by the media format (audio or video). The class identifiers of the Windows Media encoders are defined as constants in the wmcodecdsp.h header file. In Media Foundation, the encoders can be registered through calls to [**MFTRegisterLocal**](/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal) or [**MFTRegisterLocalByCLSID**](/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocalbyclsid) by specifying the catergory, the supported input types, and the supported output types. Upon successful registration through these functions, the MFTs are considered by the Media Foundation enumeration functions.
+Media Foundation provides several functions that your application can call to enumerate the various encoders available in your system. Encoders are registered as COM objects and the registry entry follows the standard format for COM class factories. The registry maintains the CLSIDs for the encoders, which are categorized by the media format (audio or video). The class identifiers of the Windows Media encoders are defined as constants in the wmcodecdsp.h header file. In Media Foundation, the encoders can be registered through calls to [**MFTRegisterLocal**](/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal) or [**MFTRegisterLocalByCLSID**](/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocalbyclsid) by specifying the category, the supported input types, and the supported output types. Upon successful registration through these functions, the MFTs are considered by the Media Foundation enumeration functions.
 
 For creating an instance of an encoder MFT, an application has the following choices.
 

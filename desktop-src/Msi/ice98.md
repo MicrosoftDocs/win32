@@ -1,5 +1,5 @@
 ---
-Description: ICE98 verifies the description field of the ODBCDataSource Table for an ODBC data source. It uses the SQLValidDSN function to check that only valid characters are used, and that the description does not exceed the maximum allowed length.
+description: ICE98 verifies the description field of the ODBCDataSource Table for an ODBC data source. It uses the SQLValidDSN function to check that only valid characters are used, and that the description does not exceed the maximum allowed length.
 ms.assetid: ed78db96-10a1-4e42-9147-2309c9ca9c6e
 title: ICE98
 ms.topic: article
@@ -40,7 +40,7 @@ The data source name is invalid: <String of length > 32>
 | DataSource | Description                      |
 |------------|----------------------------------|
 | BadChar    | !                                |
-| TooLong    | <String of length > 32> |
+| TooLong    | \<String of length > 32> |
 
 
 

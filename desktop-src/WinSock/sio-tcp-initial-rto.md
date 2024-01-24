@@ -1,5 +1,5 @@
 ---
-Description: Control code configures initial retransmission timeout (RTO) parameters on a socket.
+description: A control code that configures initial retransmission timeout (RTO) parameters on a socket.
 ms.assetid: F5ABAE57-E0F0-4AEB-825C-B53AEE8210E7
 title: SIO_TCP_INITIAL_RTO Control Code
 ms.topic: reference
@@ -10,11 +10,11 @@ api_location:
  - mstcpip.h
 ---
 
-# SIO_TCP_INITIAL_RTO Control Code
+# SIO_TCP_INITIAL_RTO control code
 
 ## Description
 
-The **SIO\_TCP\_INITIAL\_RTO** control code configures initial retransmission timeout (RTO) parameters on a socket.
+The **SIO_TCP_INITIAL_RTO** control code configures initial retransmission timeout (RTO) parameters on a socket.
 
 To perform this operation, call the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** function with the following parameters.
 
@@ -57,7 +57,7 @@ A descriptor identifying a socket.
 ### dwIoControlCode
 
 The control code for the operation.
-Use **SIO\_TCP\_INITIAL\_RTO** for this operation.
+Use **SIO_TCP_INITIAL_RTO** for this operation.
 
 ### lpvInBuffer
 
@@ -104,6 +104,8 @@ Otherwise, the function does not return until the operation has been completed o
 
 ### lpCompletionRoutine
 
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 
 ### lpThreadId
@@ -137,11 +139,11 @@ To get extended error information, call [**WSAGetLastError**](/windows/desktop/a
 | **WSAEINVAL** | An invalid argument was supplied. This error is returned if the *dwIoControlCode* parameter is not a valid command, or a specified input parameter is not acceptable, or the command is not applicable to the type of socket specified. |
 | **WSAENETDOWN** | A socket operation encountered a dead network. This error is returned if the network subsystem has failed. |
 | **WSAENOTSOCK** | An operation was attempted on something that is not a socket. This error is returned if the descriptor s is not a socket. |
-| **WSAEOPNOTSUPP** | The attempted operation is not supported for the type of object referenced. This error is returned if the specified IOCTL command is not supported. This error is also returned if the **SIO\_TCP\_INITIAL\_RTO** IOCTL is not supported by the transport provider. |
+| **WSAEOPNOTSUPP** | The attempted operation is not supported for the type of object referenced. This error is returned if the specified IOCTL command is not supported. This error is also returned if the **SIO_TCP_INITIAL_RTO** IOCTL is not supported by the transport provider. |
 
 ## Remarks
 
-An application can use the **SIO\_TCP\_INITIAL\_RTO** IOCTL to control the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket if required.
+An application can use the **SIO_TCP_INITIAL_RTO** IOCTL to control the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket if required.
 An application, if using this option, must supply suitable values before starting a TCP connection attempt on the socket.
 
 The [**TCP_INITIAL_RTO_PARAMETERS**](/windows/desktop/api/mstcpip/ns-mstcpip-tcp_initial_rto_parameters) IOCTL allows an application to configure the initial (SYN) retransmission timeout (RTO) used by the socket.

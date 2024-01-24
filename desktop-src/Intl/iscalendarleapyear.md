@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Identifies whether the specified year is a leap year within the given era for the specific calendar.
+description: Deprecated. Identifies whether the specified year is a leap year within the given era for the specific calendar.
 ms.assetid: 91f58915-f0c6-4c7a-9d9a-96e255d799fd
 title: IsCalendarLeapYear function
 ms.topic: reference
@@ -73,7 +73,7 @@ This function does not have an associated header file or library file. The appli
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

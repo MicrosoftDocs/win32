@@ -15,9 +15,9 @@ For convenience, Microsoft Visual Studio 6.0 provides a project file for each sa
 
  
 
-To load the appropriate project for a sample, you can run Visual Studio at the command prompt in the sample's directory as shown in the following example. You must substitute the sample project name for **<project name>**.
+To load the appropriate project for a sample, you can run Visual Studio at the command prompt in the sample's directory as shown in the following example. You must substitute the sample project name for **\<project name\>**.
 
-**msdev <project name>.dsp**
+**msdev \<project name\>.dsp**
 
 You can also simply double-click the .dsp file in the Windows Explorer to load a sample's workspace into Visual Studio. From within Visual Studio you can then browse the C++ classes of the sample source and generally perform the other edit-compile-debug operations.
 

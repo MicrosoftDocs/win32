@@ -1,12 +1,12 @@
 ---
-Description: This section contains information about classes provided by the Microsoft XAudio2 API.
+description: This section contains information about classes provided by the Microsoft XAudio2 API.
 ms.assetid: 4349f03a-54a0-2780-0138-a893e1568a26
 title: Classes (XAudio2 APIs)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Classes
+# Classes (XAudio2 APIs)
 
 This section contains information about classes provided by the Microsoft XAudio2 API.
 

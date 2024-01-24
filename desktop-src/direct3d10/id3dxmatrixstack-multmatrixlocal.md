@@ -1,22 +1,25 @@
 ---
-Description: Determines the product of the given matrix and the current matrix.
+description: ID3DXMATRIXStack::MultMatrixLocal method (D3DX10.h) - Determines the product of the given matrix and the current matrix.
 ms.assetid: 4d374a7b-99e0-4313-970d-b0e7cf3e97ce
 title: ID3DXMATRIXStack::MultMatrixLocal method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.MultMatrixLocal
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::MultMatrixLocal method
+# ID3DXMATRIXStack::MultMatrixLocal method (D3DX10.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Determines the product of the given matrix and the current matrix.
 
@@ -67,7 +70,7 @@ This method does not add an item to the stack, it replaces the current matrix wi
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

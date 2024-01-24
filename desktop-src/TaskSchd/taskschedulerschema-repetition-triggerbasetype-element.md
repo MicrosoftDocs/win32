@@ -88,7 +88,7 @@ The following XML defines a boot trigger element that specifies a repetition pat
     <Repetition>
         <Interval></Interval>
         <Duration></Duration>
-        <StopAtDurationEnd>true</StopAtDirationEnd>
+        <StopAtDurationEnd>true</StopAtDurationEnd>
     </Repetition>
     <ExecutionTimeLimit></ExecutionTimeLimit>
     <Delay><Delay>
@@ -101,7 +101,7 @@ The following XML defines a boot trigger element that specifies a repetition pat
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

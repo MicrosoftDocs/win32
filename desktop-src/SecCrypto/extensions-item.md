@@ -1,5 +1,5 @@
 ---
-Description: The Item property retrieves an extension, by index, from the collection. This is the default property.
+description: The Item property retrieves an extension, by index, from the collection. This is the default property.
 ms.assetid: 0242dc14-abf2-49df-b75a-9005b2376cfc
 title: Extensions.Item property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Extensions.Item property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ExtensionCollection Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extensioncollection?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ExtensionCollection Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extensioncollection) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Item** property retrieves an extension, by index, from the collection. This is the default property.
 
@@ -40,7 +40,7 @@ An [**Extension**](extension.md) object that represents the indexed certificate 
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

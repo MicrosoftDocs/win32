@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets (Winsock) and protocol-independent multipoint and multicast capabilities of transports.
+description: Windows Sockets (Winsock) and protocol-independent multipoint and multicast capabilities of transports.
 ms.assetid: 861f457c-fe7e-4128-a3f3-786424a96ea5
 title: Protocol-Independent Multicast and Multipoint in the SPI
 ms.topic: article

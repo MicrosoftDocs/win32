@@ -1,5 +1,5 @@
 ---
-Description: RAW Codec Requirements for Windows 7
+description: RAW Codec Requirements for Windows 7
 ms.assetid: 3f8bd336-ba03-4ffb-9aa2-ea55a276e3bc
 title: RAW Codec Requirements for Windows 7
 ms.topic: article

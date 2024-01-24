@@ -1,5 +1,5 @@
 ---
-Description: The Mobile Broadband Profile Schema v4 defines the following simple types. All of these types are in the namespace https://www.microsoft.com/networking/WWAN/profile/v4.
+description: The Mobile Broadband Profile Schema v4 defines the following simple types. All of these types are in the namespace https://www.microsoft.com/networking/WWAN/profile/v4.
 MS-HAID: WWAN\_profile\_v4.simple\_types
 MSHAttr:
 - PreferredSiteName:MSDN

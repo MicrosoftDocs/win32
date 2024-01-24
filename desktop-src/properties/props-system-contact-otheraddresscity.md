@@ -1,5 +1,5 @@
 ---
-Description: Other address city name of the contact.
+description: Other address city name of the contact.
 ms.assetid: 57a53d3a-31d4-4c0f-ad2a-2b2ef94a7d2b
 title: System.Contact.OtherAddressCity
 ms.topic: article

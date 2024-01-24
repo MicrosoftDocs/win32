@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the Commit method.
+description: IWICFastMetadataEncoder_Commit_Proxy function - Proxy function for the Commit method.
 ms.assetid: 5b3b90ad-9d67-4fbd-b01e-c7478df8dd45
 title: IWICFastMetadataEncoder_Commit_Proxy function
 ms.topic: reference
@@ -56,7 +56,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

@@ -1,5 +1,5 @@
 ---
-Description: Control code configures a TCP socket for lower latency and faster operations on the loopback interface.
+description: Control code configures a TCP socket for lower latency and faster operations on the loopback interface.
 ms.assetid: 4F7A6454-E3ED-4529-A531-B0640B0767EF
 title: SIO_LOOPBACK_FAST_PATH Control Code
 ms.topic: reference
@@ -105,6 +105,8 @@ For overlapped operations, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-w
 Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 ### lpCompletionRoutine
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 

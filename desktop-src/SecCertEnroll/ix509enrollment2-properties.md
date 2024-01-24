@@ -1,5 +1,5 @@
 ---
-Description: The IX509Enrollment2 interface exposes the following properties.
+description: The IX509Enrollment2 interface exposes the following properties.
 ms.assetid: 39012FE5-9612-4B28-A27E-E1C721F82C85
 title: IX509Enrollment2 Properties
 ms.topic: reference

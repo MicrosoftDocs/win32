@@ -25,7 +25,6 @@ The C++ code example in this topic enables a user to view a list of files in the
 
 ## Instructions
 
-### 
 
 The directory listing application must perform the following list box–related tasks:
 
@@ -37,7 +36,6 @@ In the following C++ code example, the dialog box procedure initializes the mult
 
 When the user selects a group of files and chooses the **Delete** button, the dialog box procedure sends the [**LB\_GETSELCOUNT**](lb-getselcount.md) message, to retrieve the number of files selected, and the [**LB\_GETSELITEMS**](lb-getselitems.md) message, to retrieve an array of selected list box items. After deleting a file, the dialog procedure removes the corresponding item from the list box by sending the [**LB\_DELETESTRING**](lb-deletestring.md) message.
 
-## 
 
 
 ```C++

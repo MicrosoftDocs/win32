@@ -1,6 +1,6 @@
 ---
 title: Tree View Constants
-description: .
+description: Tree View Constants
 ms.assetid: b9f36b7f-52f0-4de2-8c10-d3b8c6f8828e
 ms.topic: article
 ms.date: 05/31/2018

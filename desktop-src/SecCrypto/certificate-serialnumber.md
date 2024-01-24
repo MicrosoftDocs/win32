@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a string that contains the certificate serial number.
+description: Retrieves a string that contains the certificate serial number.
 ms.assetid: d08be744-4ae8-49f9-8b00-48e76c296f2b
 title: Certificate.SerialNumber property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Certificate.SerialNumber property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **SerialNumber** property retrieves a string that contains the certificate serial number.
 
@@ -40,7 +40,7 @@ A string that contains the certificate serial number.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

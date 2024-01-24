@@ -1,5 +1,5 @@
 ---
-Description: WMI contains a set of classes for troubleshooting client applications that use WMI providers.
+description: WMI contains a set of classes for troubleshooting client applications that use WMI providers.
 ms.assetid: f69b360a-2c24-4776-bcda-b51edde0dcde
 ms.tgt_platform: multiple
 title: Troubleshooting WMI Client Applications

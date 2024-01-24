@@ -1,5 +1,5 @@
 ---
-Description: Whether the device is currently present or not.
+description: Whether the device is currently present or not.
 ms.assetid: 1209d5f4-b82b-44c2-8173-41556d2ec802
 title: System.Devices.Aep.IsPresent
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetRestoreInstance method"
 title: Api.JetRestoreInstance method 
 TOCTitle: 'JetRestoreInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetRestoreInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String,System.String,Microsoft.Isam.Esent.Interop.JET_PFNSTATUS)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetRestoreInstance method
 
-Restores and recovers a streaming backup of an instance including all the attached databases. It is designed to work with a backup created with the [JetBackupInstance(JET_INSTANCE, String, BackupGrbit, JET_PFNSTATUS)](dn292102\(v=exchg.10\).md) function. This is the simplest and most encapsulated restore function.
+Restores and recovers a streaming backup of an instance including all the attached databases. It is designed to work with a backup created with the [JetBackupInstance(JET_INSTANCE, String, BackupGrbit, JET_PFNSTATUS)](./api.jetbackupinstance-method.md) function. This is the simplest and most encapsulated restore function.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,7 +64,7 @@ public static void JetRestoreInstance(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)  
     
     The instance to use. The instance should not be initialized. Restoring the files will initialize the instance.
 
@@ -72,7 +73,7 @@ public static void JetRestoreInstance(
   - source  
     Type: [System.String](/dotnet/api/system.string)  
     
-    Location of the backup. The backup should have been created with [JetBackupInstance(JET_INSTANCE, String, BackupGrbit, JET_PFNSTATUS)](dn292102\(v=exchg.10\).md).
+    Location of the backup. The backup should have been created with [JetBackupInstance(JET_INSTANCE, String, BackupGrbit, JET_PFNSTATUS)](./api.jetbackupinstance-method.md).
 
 <!-- end list -->
 
@@ -84,7 +85,7 @@ public static void JetRestoreInstance(
 <!-- end list -->
 
   - statusCallback  
-    Type: [Microsoft.Isam.Esent.Interop.JET_PFNSTATUS](hh565966\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_PFNSTATUS](./jet-pfnstatus-delegate.md)  
     
     Optional status notification callback.
 
@@ -92,8 +93,8 @@ public static void JetRestoreInstance(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

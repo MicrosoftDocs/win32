@@ -1,5 +1,5 @@
 ---
-Description: The ChangeDir method changes the current smart card directory to the new specified directory.
+description: The ChangeDir method changes the current smart card directory to the new specified directory.
 ms.assetid: 1eb53236-c88f-4b43-ac91-de67d4029433
 title: ISCardFileAccess::ChangeDir method
 ms.topic: reference
@@ -90,7 +90,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

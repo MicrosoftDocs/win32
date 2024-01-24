@@ -1,5 +1,5 @@
 ---
-Description: If this style bit is set, text in the control is aligned to the right.
+description: If this style bit is set, text in the control is aligned to the right.
 ms.assetid: 444fb9ac-8626-4079-80be-6c210a69d984
 title: RightAligned Control Attribute
 ms.topic: article

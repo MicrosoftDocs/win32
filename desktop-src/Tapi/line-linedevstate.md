@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_LINEDEVSTATE message is sent when the state of a line device has changed. The application can invoke lineGetLineDevStatus to determine the new status of the line.
+description: The TAPI LINE\_LINEDEVSTATE message is sent when the state of a line device has changed. The application can invoke lineGetLineDevStatus to determine the new status of the line.
 ms.assetid: 15f616de-db47-4577-9a47-94f9292253dd
 title: LINE_LINEDEVSTATE message (Tapi.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ The sending of the **LINE\_LINEDEVSTATE** message can be controlled with [**line
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

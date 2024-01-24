@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SwapSpaceCheck class specifies the amount of swap space that must be available on the system.
+description: The CIM\_SwapSpaceCheck class specifies the amount of swap space that must be available on the system.
 ms.assetid: c5e5ec68-bc62-4bdf-93b7-ce868e738dee
 ms.tgt_platform: multiple
 title: CIM_SwapSpaceCheck class
@@ -811,8 +811,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from [**CIM\_Check**](cim-check.md).
 
@@ -828,7 +828,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -22,7 +22,7 @@ Used to store a string that contains a GUID for the filter and a WMI namespace p
 
 
 
-|                   |                                                                                 |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------|
 | CN                | GPC-WQL-Filter                                                                  |
 | Ldap-Display-Name | gPCWQLFilter                                                                    |
@@ -47,7 +47,7 @@ Used to store a string that contains a GUID for the filter and a WMI namespace p
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -68,7 +68,7 @@ Used to store a string that contains a GUID for the filter and a WMI namespace p
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -89,7 +89,7 @@ Used to store a string that contains a GUID for the filter and a WMI namespace p
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -110,7 +110,7 @@ Used to store a string that contains a GUID for the filter and a WMI namespace p
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -131,7 +131,7 @@ Used to store a string that contains a GUID for the filter and a WMI namespace p
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

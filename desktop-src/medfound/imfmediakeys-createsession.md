@@ -1,5 +1,5 @@
 ---
-Description: Creates a media key session object using the specified initialization data and custom data. .
+description: Creates a media key session object using the specified initialization data and custom data. .
 ms.assetid: 9f11433c-7cff-4a59-9d4a-7f4b56ba62cf
 title: IMFMediaKeys::CreateSession method
 ms.topic: reference
@@ -97,7 +97,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

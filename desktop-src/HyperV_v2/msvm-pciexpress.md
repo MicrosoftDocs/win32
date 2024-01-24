@@ -1,5 +1,5 @@
 ---
-Description: Represents the state of the PCI Express port.
+description: Represents the state of the PCI Express port.
 ms.assetid: 15d670ee-940a-4737-b2cd-e89dd8a63a5c
 title: Msvm_PciExpress class
 ms.topic: reference
@@ -91,7 +91,7 @@ A string containing the device location path that identifies the device virtual 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

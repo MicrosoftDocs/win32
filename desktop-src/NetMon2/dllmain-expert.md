@@ -1,5 +1,5 @@
 ---
-Description: The expert implements the DllMain function. The operating system calls DllMain to obtain a handle to an instance of the expert.
+description: The expert implements the DllMain function. The operating system calls DllMain to obtain a handle to an instance of the expert.
 ms.assetid: 38593ba0-dc37-4620-bb49-2e50c3d9ea3c
 title: DllMain Expert callback function (Process.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The **DllMain** expert function is based on the dynamic link library [**DllMain*
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

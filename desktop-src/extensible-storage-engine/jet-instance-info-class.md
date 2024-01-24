@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO class"
 title: JET_INSTANCE_INFO class
 TOCTitle: JET_INSTANCE_INFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO
@@ -35,7 +36,7 @@ Receives information about running database instances when used with the JetGetI
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,6 +61,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_INSTANCE_INFO members](dn335183\(v=exchg.10\).md)
+[JET_INSTANCE_INFO members](./jet-instance-info-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

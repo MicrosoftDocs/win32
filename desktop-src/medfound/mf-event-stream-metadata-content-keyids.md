@@ -1,5 +1,5 @@
 ---
-Description: Specifies the content key IDs.
+description: Specifies the content key IDs.
 ms.assetid: 886127A1-7612-40FE-8BE7-EA90708E41DA
 title: MF_EVENT_STREAM_METADATA_CONTENT_KEYIDS attribute (Mfapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies the content key IDs.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                     |

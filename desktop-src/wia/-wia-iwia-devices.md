@@ -1,19 +1,9 @@
 ---
-Description: Collection of DeviceInfo objects that represents all of the devices installed on the computer.
+description: Collection of DeviceInfo objects that represents all of the devices installed on the computer.
 ms.assetid: 2f124188-2b66-46cc-9b26-bfef3709a1af
 title: Wia.Devices property
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
-- APIRef
-- kbSyntax
-api_name: 
-- Wia.Devices
-- SafeWia.Devices
-api_type: 
-- COM
-api_location: 
-- Wiascr.dll
 topic_type: 
 - APIRef
 - kbSyntax
@@ -75,7 +65,7 @@ Next
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

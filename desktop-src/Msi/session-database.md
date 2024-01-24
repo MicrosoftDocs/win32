@@ -1,5 +1,5 @@
 ---
-Description: The Database property of the Session object is a read-only property that returns the database for the current install session as a Database object.
+description: The Database property of the Session object is a read-only property that returns the database for the current install session as a Database object.
 ms.assetid: 03c14d1c-5adb-4cd7-8978-170dfc5bce40
 title: Session.Database property
 ms.topic: reference
@@ -36,7 +36,7 @@ propVal = Session.Database
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

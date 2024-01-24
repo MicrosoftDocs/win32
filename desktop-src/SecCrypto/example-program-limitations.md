@@ -1,5 +1,5 @@
 ---
-Description: Example Program Limitations
+description: Example Program Limitations
 ms.assetid: 2f428872-10ba-4059-ab42-f69dce940bed
 title: Example Program Limitations
 ms.topic: article

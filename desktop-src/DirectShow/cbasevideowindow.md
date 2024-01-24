@@ -1,9 +1,9 @@
 ---
-Description: The CBaseVideoWindow class implements the IDispatch methods of the IVideoWindow interface. The remaining IVideoWindow methods are left as pure virtual methods, and must be implemented by a derived class.
+description: The CBaseVideoWindow class implements the IDispatch methods of the IVideoWindow interface. The remaining IVideoWindow methods are left as pure virtual methods, and must be implemented by a derived class.
 ms.assetid: b6acec98-cff7-46ee-abd7-77f0b7ac3b9d
 title: CBaseVideoWindow class (Ctlutil.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -16,9 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
+ms.custom: UpdateFrequency5
 ---
 
 # CBaseVideoWindow class
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 ![cbasevideowindow class hierarchy](images/wctrl01.png)
 
@@ -30,7 +33,7 @@ The **IDispatch** methods in this class are standard implementations, and are no
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The Directory table specifies the directory layout for the product. Each row of the table indicates a directory both at the source and the target.
+description: The Directory table specifies the directory layout for the product. Each row of the table indicates a directory both at the source and the target.
 ms.assetid: eaca30cb-fec1-49ca-8b23-5e54c583e3e2
 title: Directory Table
 ms.topic: article

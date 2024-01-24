@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Window Classes Overviews
 ms.assetid: 63b84da1-0739-4a21-af58-1c0a40616dc0
 title: Window Classes Overviews
 ms.topic: article

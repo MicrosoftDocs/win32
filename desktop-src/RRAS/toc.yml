@@ -1221,7 +1221,7 @@
             - name: "DemandDialRequest"
               href: /previous-versions/windows/desktop/legacy/aa373924(v=vs.85)
             - name: "MIBEntryCreate"
-              href: //previous-versions/windows/desktop/legacy/aa374538(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/aa374538(v=vs.85)
             - name: "MIBEntryDelete"
               href: /previous-versions/windows/desktop/legacy/aa374539(v=vs.85)
             - name: "MIBEntryGet"

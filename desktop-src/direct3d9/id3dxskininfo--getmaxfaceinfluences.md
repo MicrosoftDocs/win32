@@ -1,5 +1,5 @@
 ---
-Description: Gets the maximum face influences in a triangle mesh with the specified index buffer.
+description: Gets the maximum face influences in a triangle mesh with the specified index buffer.
 ms.assetid: 72dc2440-87df-461e-80d0-9ad9b1e4d8ee
 title: ID3DXSkinInfo::GetMaxFaceInfluences method (D3DX9Mesh.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

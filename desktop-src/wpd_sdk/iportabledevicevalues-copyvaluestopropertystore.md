@@ -1,5 +1,5 @@
 ---
-Description: The CopyValuesToPropertyStore method copies all the values from a collection into an IPropertyStore interface.
+description: The CopyValuesToPropertyStore method copies all the values from a collection into an IPropertyStore interface.
 ms.assetid: 417a8723-fa46-44c8-9bdc-412c0f20969a
 title: IPortableDeviceValues::CopyValuesToPropertyStore method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ This method is supported in Windows Vista and later versions of Windows.
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

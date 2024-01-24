@@ -1,5 +1,5 @@
 ---
-Description: This topic discusses programming instructions for locating redirected registry strings. For more information, see Using Registry String Redirection.
+description: This topic discusses programming instructions for locating redirected registry strings. For more information, see Using Registry String Redirection.
 ms.assetid: 03d1512f-35a6-4b3a-9a0e-97e17bd9b126
 title: Locating Redirected Strings
 ms.topic: article

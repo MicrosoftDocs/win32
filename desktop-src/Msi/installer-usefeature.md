@@ -1,5 +1,5 @@
 ---
-Description: The UseFeature method of the Installer object increments the usage count for a particular feature and returns the installation state for that feature. This method should be used to indicate an application's intent to use a feature.
+description: The UseFeature method of the Installer object increments the usage count for a particular feature and returns the installation state for that feature. This method should be used to indicate an application's intent to use a feature.
 ms.assetid: c9ea812c-2f95-4ba4-ad8e-b96f7fc14bb1
 title: Installer.UseFeature method
 ms.topic: reference
@@ -69,7 +69,7 @@ The **UseFeature** method should only be used on features known to be published.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

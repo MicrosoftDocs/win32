@@ -1,5 +1,5 @@
 ---
-Description: 'COM+ Events provides two ways to control which events reach which subscribers: publisher filtering and parameter filtering.'
+description: 'COM+ Events provides two ways to control which events reach which subscribers: publisher filtering and parameter filtering.'
 ms.assetid: dfc82a57-5587-462d-a43d-516b7d70e25e
 title: Filtering Events in COM+
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: CertMgr
+description: CertMgr
 ms.assetid: c9b68a81-c4f7-4754-9b47-c83f3679f0e3
 title: CertMgr
 ms.topic: article

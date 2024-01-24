@@ -22,7 +22,7 @@ The list of distinguished names for subnets that belong to this site.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Site-Object-BL                          |
 | Ldap-Display-Name | siteObjectBL                            |
@@ -49,7 +49,7 @@ The list of distinguished names for subnets that belong to this site.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 47                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ The list of distinguished names for subnets that belong to this site.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 47                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ The list of distinguished names for subnets that belong to this site.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 47                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ The list of distinguished names for subnets that belong to this site.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 47                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ The list of distinguished names for subnets that belong to this site.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 47                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ The list of distinguished names for subnets that belong to this site.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 47                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ The list of distinguished names for subnets that belong to this site.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 47                              |
 | MAPI-Id                | \-                              |

@@ -14,7 +14,6 @@ The interfaces that are described in the following topics provide programmatic a
 
 These topics contain a description of the interface, a list of the properties and methods defined by the interface, and remarks about any special circumstances that should be noted when using the interface.
 
-## 
 
 The following interfaces are introduced in Task Scheduler 2.0, which is used in the Windows Vista operating system.
 
@@ -68,7 +67,6 @@ The following interfaces are introduced in Task Scheduler 2.0, which is used in 
 
  
 
-## 
 
 > [!WARNING]
 > The Task Scheduler 1.0 interfaces are available only in Windows 2000, Windows XP, and Windows Server 2003 operating systems. They are deprecated as of Windows Vista and may be removed completely in the future. Please use the Task Scheduler 2.0 interfaces listed above instead.

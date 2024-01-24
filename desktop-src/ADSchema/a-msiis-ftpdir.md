@@ -22,7 +22,7 @@ This attribute determines the user home directory relative to the file server sh
 
 
 
-|                   |                                                                                                                                 |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | CN                | ms-IIS-FTP-Dir                                                                                                                  |
 | Ldap-Display-Name | msIIS-FTPDir                                                                                                                    |
@@ -47,7 +47,7 @@ This attribute determines the user home directory relative to the file server sh
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ This attribute determines the user home directory relative to the file server sh
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ This attribute determines the user home directory relative to the file server sh
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ This attribute determines the user home directory relative to the file server sh
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ This attribute determines the user home directory relative to the file server sh
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

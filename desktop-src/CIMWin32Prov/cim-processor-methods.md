@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Processor class exposes the following methods.
+description: The CIM\_Processor class exposes the following methods.
 ms.assetid: FD2BA3A6-9F4B-4E27-A54E-87DDBE2C4961
 ms.tgt_platform: multiple
 title: CIM_Processor Methods

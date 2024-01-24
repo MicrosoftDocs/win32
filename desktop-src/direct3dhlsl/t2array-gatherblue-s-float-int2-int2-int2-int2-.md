@@ -1,6 +1,6 @@
 ---
 title: GatherBlue(S,float,int2,int2,int2,int2) function (HLSL reference)
-description: Samples a texture and returns the blue component.
+description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation. | GatherBlue(S,float,int2,int2,int2,int2) function (HLSL reference)
 ms.assetid: 0DDD3235-4F12-4D74-975A-F70A271C1FC0
 keywords:
 - GatherBlue function HLSL
@@ -17,19 +17,19 @@ api_location:
 
 # GatherBlue(S,float,int2,int2,int2,int2) function (HLSL reference)
 
-Samples a texture and returns the blue component.
+Returns the blue components of the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType GatherBlue(
-  in SamplerState S,
-  in float        Location,
-  in int2         Offset1,
-  in int2         Offset2,
-  in int2         Offset3,
-  in int2         Offset4
+  in SamplerState S,
+  in float3       Location,
+  in int2         Offset1,
+  in int2         Offset2,
+  in int2         Offset3,
+  in int2         Offset4
 );
 ```
 
@@ -113,7 +113,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -122,9 +122,9 @@ This function is supported for the following types of shaders:
 [GatherBlue methods](texture2darray-gatherblue.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 

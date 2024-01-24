@@ -1,5 +1,5 @@
 ---
-title: BaseEapParameters Complex Type
+title: BaseEapParameters Complex Type - Connection properties
 description: Defines the placeholder element for method type and method-specific configuration.
 ms.assetid: 510debce-545c-4ce1-965b-e4b2185b7983
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# BaseEapParameters Complex Type
+# BaseEapParameters Complex Type - Connection properties
 
 The **BaseEapParameters** complex type defines the placeholder element for method type and method-specific configuration.
 
@@ -54,7 +54,7 @@ In **BaseEapParameters** the method can define the constituent elements. The met
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Implementing a COM+ Resource Dispenser
+description: Implementing a COM+ Resource Dispenser
 ms.assetid: 083c5962-f55a-435a-964e-fdc868f9bd3d
 title: Implementing a COM+ Resource Dispenser
 ms.topic: article

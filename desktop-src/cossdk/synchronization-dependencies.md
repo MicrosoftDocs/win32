@@ -1,5 +1,5 @@
 ---
-Description: Synchronization values can be automatically determined or constrained by the configuration of other properties, such as transactional requirements and just-in-time (JIT) activation.
+description: Synchronization values can be automatically determined or constrained by the configuration of other properties, such as transactional requirements and just-in-time (JIT) activation.
 ms.assetid: 16771121-cb10-42b4-babc-59270188495a
 title: Synchronization Dependencies
 ms.topic: article

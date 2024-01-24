@@ -1,5 +1,5 @@
 ---
-Description: Finds the text range in the recognized string that corresponds to a collection of IContextNode objects.
+description: Finds the text range in the recognized string that corresponds to a collection of IContextNode objects.
 ms.assetid: 2c5bc4a1-08de-4872-b552-6d22924ce2a8
 title: IInkAnalyzer::GetTextRangeFromNodes method (IACom.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ This method throws an E\_INVALIDARG exception when *pNodesToSearch* contains an 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The DeleteMonitor function removes a port monitor added by the AddMonitor function.
+description: The DeleteMonitor function removes a port monitor added by the AddMonitor function.
 ms.assetid: 32548d4f-830a-471d-8a72-c0f62f43ffa2
 title: DeleteMonitor function (Winspool.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The caller must have [SeLoadDriverPrivilege](/windows/desktop/SecAuthZ/authoriza
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

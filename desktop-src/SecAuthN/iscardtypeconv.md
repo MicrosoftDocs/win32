@@ -1,5 +1,5 @@
 ---
-Description: Provides the methods needed to support the users of the other smart card COM interfaces.
+description: Provides the methods needed to support the users of the other smart card COM interfaces.
 ms.assetid: ce81706b-9201-432e-b9d0-c758769e1040
 title: ISCardTypeConv interface (Scarddat.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The **ISCardTypeConv** interface has these methods.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

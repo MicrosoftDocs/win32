@@ -1,5 +1,5 @@
 ---
-Description: Device Association Endpoint Container's Identity.
+description: Device Association Endpoint Container's Identity.
 ms.assetid: 57af4101-ee2a-499e-a407-0f4498958b47
 title: System.Devices.AepContainer.ContainerId
 ms.topic: article

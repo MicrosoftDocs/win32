@@ -19,7 +19,7 @@ The following table lists additional object roles which Oleacc.dll supports.
 
 
 
-|                                                                         |                                                           |
+| &nbsp; |  &nbsp; |
 |-------------------------------------------------------------------------|-----------------------------------------------------------|
 | [**ROLE\_SYSTEM\_ALERT**](/windows)                           | [**ROLE\_SYSTEM\_DROPLIST**](/windows)       |
 | [**ROLE\_SYSTEM\_APPLICATION**](/windows)               | [**ROLE\_SYSTEM\_EQUATION**](/windows)       |

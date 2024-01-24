@@ -1,5 +1,5 @@
 ---
-Description: Represents information about a source code file.
+description: Represents information about a source code file.
 MS-HAID: vspixengine.SourceFileInfo
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -56,7 +56,7 @@ The fourth 8 byte portion of the checksum.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

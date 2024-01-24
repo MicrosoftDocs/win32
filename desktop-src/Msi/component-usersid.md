@@ -1,5 +1,5 @@
 ---
-Description: The user SID for the enumerated component.
+description: The user SID for the enumerated component.
 ms.assetid: 52dd8514-bb06-4c67-ba07-950e5e21b85a
 title: Component.UserSID property
 ms.topic: reference
@@ -29,7 +29,7 @@ The user SID for the enumerated component. This property calls the [**MsiEnumCom
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 or later.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |

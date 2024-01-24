@@ -1,5 +1,5 @@
 ---
-Description: The Sources property enumerates all the sources for the patch instance. This property calls MsiSourceListEnumSources and returns an array of strings, and accepts the source type as argument.
+description: The Sources property enumerates all the sources for the patch instance. This property calls MsiSourceListEnumSources and returns an array of strings, and accepts the source type as argument.
 ms.assetid: 4a052518-4d76-4a95-be9e-7acae36db626
 title: Patch.Sources property
 ms.topic: reference
@@ -38,7 +38,7 @@ The type of source to enumerate. The value can be *msiInstallSourceTypeNetwork* 
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

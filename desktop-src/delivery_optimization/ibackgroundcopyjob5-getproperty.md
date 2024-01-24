@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyJob5 GetProperty method (Deliveryoptimization.h)
-description: A generic method for getting Delivery Optimization (DO) job properties.
+description: A generic method for getting Delivery Optimization job properties.
 ms.assetid: 22BA2FAB-3F24-4801-8FB7-CB6F9E8DFBB3
 keywords:
 - GetProperty method
@@ -21,7 +21,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IBackgroundCopyJob5::GetProperty method
 
-A generic method for getting Delivery Optimization (DO) job properties.
+A generic method for getting Delivery Optimization job properties.
 
 ## Syntax
 
@@ -71,7 +71,7 @@ The method returns the following return values.
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |

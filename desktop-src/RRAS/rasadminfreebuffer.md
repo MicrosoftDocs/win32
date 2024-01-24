@@ -70,7 +70,7 @@ Use the **RasAdminFreeBuffer** function to free the buffers allocated by the [**
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows 2000 Professional<br/>                                                   |
 | End of server support<br/> | Windows 2000 Server<br/>                                                         |

@@ -1,6 +1,6 @@
 ---
 title: ProviderType Complex Type
-description: Defines a provider and the metadata that it uses to define its events.
+description: Defines a provider and the metadata that it uses to define its events. | ProviderType Complex Type
 ms.assetid: 70199cf5-a6d0-4780-9ff1-ed083a5b49ac
 keywords:
 - ProviderType complex type EventLog
@@ -171,7 +171,7 @@ An event's message string can contain insertion strings and parameter strings. A
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

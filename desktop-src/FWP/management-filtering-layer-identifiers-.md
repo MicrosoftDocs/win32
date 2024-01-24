@@ -370,7 +370,7 @@ This filtering layer allows for inspecting when an established TCP connection ha
 This filtering layer is located in the receive path after the MAC (802.3) layer processing has occurred but before the frame is processed by the framing layer. This is the layer after native in which all frames look like Ethernet frames.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available in Windows 8 and Windows Server 2012 and later releases.
 
  
 
@@ -385,7 +385,7 @@ This filtering layer is located in the receive path after the MAC (802.3) layer 
 This filtering layer is located in the send path after the framing layer processing has occurred but before the frame is processed by the MAC (802.3) layer. This is the layer after native in which all frames look like Ethernet frames.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available in Windows 8 and Windows Server 2012 and later releases.
 
  
 
@@ -400,7 +400,7 @@ This filtering layer is located in the send path after the framing layer process
 This filtering layer is located in the receive path after the MAC layer processing has occurred but before the frame is processed by the framing layer. It is the first layer after the Miniport delivers the frame to NDIS.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available in Windows 8 and Windows Server 2012 and later releases.
 
  
 
@@ -415,7 +415,7 @@ This filtering layer is located in the receive path after the MAC layer processi
 This filtering layer is located in the send path after the framing layer processing has occurred but before the frame is processed by the MAC (Native 802.11) layer. It is the first layer after the Miniport delivers the frame to NDIS.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available in Windows 8 and Windows Server 2012 and later releases.
 
  
 
@@ -430,7 +430,7 @@ This filtering layer is located in the send path after the framing layer process
 This filtering layer is located in the vSwitch ingress path just after the MAC header has been parsed, but before any MAC header processing takes place.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available in Windows 8 and Windows Server 2012 and later releases.
 
  
 
@@ -445,7 +445,7 @@ This filtering layer is located in the vSwitch ingress path just after the MAC h
 This filtering layer is located in the vSwitch egress path just after the MAC header has been parsed, but before any MAC header processing takes place.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available in Windows 8 and Windows Server 2012 and later releases.
 
  
 
@@ -464,7 +464,7 @@ If a vSwitchPort is in PVLAN or trunk mode, filters at this layer will be bypass
 If IPv4 is uninstalled in the host, filters in this layer will cause packets to be dropped.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available in Windows 8 and Windows Server 2012 and later releases.
 
  
 
@@ -483,7 +483,7 @@ If a vSwitchPort is in PVLAN or trunk mode, filters at this layer will be bypass
 If IPv4 is uninstalled in the host, filters in this layer will cause packets to be dropped.
 
 > [!Note]  
-> Available only in Windows 8 and Windows Server 2012.
+> Available in Windows 8 and Windows Server 2012 and later releases.
 
  
 
@@ -623,13 +623,9 @@ See [ALE Layers](ale-layers.md) for more information.
 
 
 
-This filtering layer allows for modification of addresses and ports at the bind\_redirect layer.
+This filtering layer allows for the modification of the remote address and/or port of an outgoing TCP connection, as well as for non-TCP traffic based on the first packet sent.
 
-For TCP, the local address and/or local port as well as the remote address and/or remote port can be modified.
-
-For UDP, the local address and/or local port can be modified.
-
-See [ALE Layers](ale-layers.md) for more information.
+For more info, see [ALE Layers](ale-layers.md).
 
 
 </dt> </dl> </dd> <dt>
@@ -639,9 +635,9 @@ See [ALE Layers](ale-layers.md) for more information.
 
 
 
-This filtering layer allows for modification of bind() and connect() calls and selection of host routes.
+This filtering layer allows for the modification of the local address and/or port during the bind operation on a TCP or UDP socket.
 
-See [ALE Layers](ale-layers.md) for more information.
+For more info, see [ALE Layers](ale-layers.md).
 
 
 </dt> </dl> </dd> <dt>
@@ -660,7 +656,7 @@ See [ALE Layers](ale-layers.md) for more information.
 
 ## Remarks
 
-These filtering layer identifiers are also referred to as management filtering layer identifiers. WFP API also contains a set of [run-time filtering layer identifiers](https://msdn.microsoft.com/library/ff549947.aspx), documented in the Windows Driver Kit (WDK). Run-time filtering layer identifiers are LUIDs, and therefore are smaller, only 64 bits in size, compared to the management filtering layer identifiers, which are 128 bits in size.
+These filtering layer identifiers are also referred to as management filtering layer identifiers. WFP API also contains a set of [run-time filtering layer identifiers](/windows-hardware/drivers/network/management-filtering-layer-identifiers), documented in the Windows Driver Kit (WDK). Run-time filtering layer identifiers are LUIDs, and therefore are smaller, only 64 bits in size, compared to the management filtering layer identifiers, which are 128 bits in size.
 
 Management filtering layer identifiers and run-time filtering layer identifiers point to the same layers.
 
@@ -672,7 +668,7 @@ Run-time filtering layer identifiers are used by functions that interact with th
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -689,6 +685,4 @@ Run-time filtering layer identifiers are used by functions that interact with th
 
 [WFP Architecture](windows-filtering-platform-architecture-overview.md)
 </dt> </dl>
-
- 
 

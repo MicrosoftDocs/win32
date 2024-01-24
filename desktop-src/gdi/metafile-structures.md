@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used with enhanced-format metafiles.
+description: The following structures are used with enhanced-format metafiles.
 ms.assetid: 6a509ed5-cea3-4318-ad17-9d20425a6e80
 title: Metafile Structures
 ms.topic: article
@@ -18,8 +18,8 @@ The following structures are used with enhanced-format metafiles.
 [**ENHMETAHEADER**](/windows/win32/api/wingdi/ns-wingdi-enhmetaheader)  
 [**ENHMETARECORD**](/windows/win32/api/wingdi/ns-wingdi-enhmetarecord)  
 [**HANDLETABLE**](/windows/win32/api/wingdi/ns-wingdi-handletable)  
-[**POINTL**](/previous-versions//dd162807(v=vs.85))  
-[**RECTL**](/previous-versions//dd162907(v=vs.85))  
+[**POINTL**](/windows/win32/api/windef/ns-windef-pointl)  
+[**RECTL**](/windows/win32/api/windef/ns-windef-rectl)  
 </dl> 
 
 Note that the [**EMR**](/windows/win32/api/wingdi/ns-wingdi-emr) structure is used as the first member of the remaining structures.  

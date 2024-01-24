@@ -1,6 +1,6 @@
 ---
 title: COM Error Codes (STG, RPC) (Winerror.h)
-description: The following table provides a list of error codes used by COM-based APIs.
+description: The following table provides a list of error codes used by COM-based APIs. | COM Error Codes (STG, RPC) (Winerror.h)
 ms.assetid: d1b39eea-c910-4da0-b15a-2f9cabf9a2c9
 topic_type:
 - apiref
@@ -276,7 +276,7 @@ If you are experiencing difficulty with an application you are installing or run
 | <span id="CO_E_FAILEDTOSETDACL"></span><span id="co_e_failedtosetdacl"></span><dl> <dt>**CO\_E\_FAILEDTOSETDACL**</dt> <dt>0x80010129</dt> </dl>                                                    | Unable to set a discretionary ACL into a security descriptor<br/>                                                                                                |
 | <span id="CO_E_ACCESSCHECKFAILED"></span><span id="co_e_accesscheckfailed"></span><dl> <dt>**CO\_E\_ACCESSCHECKFAILED**</dt> <dt>0x8001012A</dt> </dl>                                              | The system function, AccessCheck, returned false<br/>                                                                                                            |
 | <span id="CO_E_NETACCESSAPIFAILED"></span><span id="co_e_netaccessapifailed"></span><dl> <dt>**CO\_E\_NETACCESSAPIFAILED**</dt> <dt>0x8001012B</dt> </dl>                                           | Either NetAccessDel or NetAccessAdd returned an error code.<br/>                                                                                                 |
-| <span id="CO_E_WRONGTRUSTEENAMESYNTAX"></span><span id="co_e_wrongtrusteenamesyntax"></span><dl> <dt>**CO\_E\_WRONGTRUSTEENAMESYNTAX**</dt> <dt>0x8001012C</dt> </dl>                               | One of the trustee strings provided by the user did not conform to the <Domain>\\<Name> syntax and it was not the "\*" string<br/>                   |
+| <span id="CO_E_WRONGTRUSTEENAMESYNTAX"></span><span id="co_e_wrongtrusteenamesyntax"></span><dl> <dt>**CO\_E\_WRONGTRUSTEENAMESYNTAX**</dt> <dt>0x8001012C</dt> </dl>                               | One of the trustee strings provided by the user did not conform to the &lt;Domain&gt;\\&lt;Name&gt; syntax and it was not the "\*" string<br/>                   |
 | <span id="CO_E_INVALIDSID"></span><span id="co_e_invalidsid"></span><dl> <dt>**CO\_E\_INVALIDSID**</dt> <dt>0x8001012D</dt> </dl>                                                                   | One of the security identifiers provided by the user was invalid<br/>                                                                                            |
 | <span id="CO_E_CONVERSIONFAILED"></span><span id="co_e_conversionfailed"></span><dl> <dt>**CO\_E\_CONVERSIONFAILED**</dt> <dt>0x8001012E</dt> </dl>                                                 | Unable to convert a wide character trustee string to a multibyte trustee string<br/>                                                                             |
 | <span id="CO_E_NOMATCHINGSIDFOUND"></span><span id="co_e_nomatchingsidfound"></span><dl> <dt>**CO\_E\_NOMATCHINGSIDFOUND**</dt> <dt>0x8001012F</dt> </dl>                                           | Unable to find a security identifier that corresponds to a trustee string provided by the user<br/>                                                              |
@@ -304,7 +304,7 @@ If you are experiencing difficulty with an application you are installing or run
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winerror.h</dt> </dl> |
 

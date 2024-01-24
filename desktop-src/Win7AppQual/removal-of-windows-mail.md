@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Removal of Windows Mail
 ms.assetid: 356f0d79-12dd-49f0-b756-a46f20177efa
 title: Removal of Windows Mail
 ms.topic: article

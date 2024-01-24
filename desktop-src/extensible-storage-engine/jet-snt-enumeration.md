@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNT enumeration"
 title: JET_SNT enumeration
 TOCTitle: JET_SNT enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SNT
@@ -40,7 +41,7 @@ ROBOTS: INDEX,FOLLOW
 
 Type of progress being reported.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,53 +59,19 @@ public enum JET_SNT
 
 ## Members
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>Member name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>Begin</td>
-<td>Callback for the beginning of an operation.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Progress</td>
-<td>Callback for operation progress.</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Complete</td>
-<td>Callback for the completion of an operation.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Fail</td>
-<td>Callback for failure during the operation.</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>RecoveryStep</td>
-<td>Callback for recovery control.
-<p>Used for internal processing in versions of the Windows operating system earlier than Windows 8. This value is not applicable to versions of Windows starting with Windows 8.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Member name | Description | 
+|-------------|-------------|
+| Begin | Callback for the beginning of an operation. | 
+| Progress | Callback for operation progress. | 
+| Complete | Callback for the completion of an operation. | 
+| Fail | Callback for failure during the operation. | 
+| RecoveryStep | Callback for recovery control.<p>Used for internal processing in versions of the Windows operating system earlier than Windows 8. This value is not applicable to versions of Windows starting with Windows 8.</p> | 
+
 
 
 ## See also
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

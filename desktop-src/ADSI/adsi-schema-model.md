@@ -34,7 +34,7 @@ When ADSI first binds to the LDAP server, it retrieves the subschema data using 
 ADSI then attempts to process the schema data and reads the [**modifyTimeStamp**](/windows/desktop/ADSchema/a-modifytimestamp) attribute. If the **modifyTimeStamp** attribute exists and ADSI successfully processes the schema, ADSI writes the subschema to disk and creates the two following registry values under the key. If the subschema data exists, but cannot be processed, neither of these registry values is created:
 
 -   A **Time** value, which contains the [**modifyTimeStamp**](/windows/desktop/ADSchema/a-modifytimestamp) attribute. This value is used to ensure that the schema data is current and prevents the constant reloading of the schema data.
--   A **File** value, which contains the path to where ADSI stores the schema data in the file system. By default, ADSI caches the subschema in the <systemroot>\\SchCache directory with a file name corresponding to the name of the LDAP server.
+-   A **File** value, which contains the path to where ADSI stores the schema data in the file system. By default, ADSI caches the subschema in the &lt;systemroot&gt;\\SchCache directory with a file name corresponding to the name of the LDAP server.
 
 If the subschema data can be processed, but no [**modifyTimeStamp**](/windows/desktop/ADSchema/a-modifytimestamp) attribute is exposed, the schema data is cached in memory, but not written to disk. If an LDAP v3 server has been contacted through ADSI on the local computer and a cached subschema is not present, it is most likely for one of the following reasons:
 

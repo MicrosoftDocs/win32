@@ -1,5 +1,5 @@
 ---
-Description: Requests civic address report events.
+description: Requests civic address report events.
 ms.assetid: cb02f611-7cda-405f-aeee-833b7385a4be
 title: LocationDisp.CivicAddressReportFactory.ListenForReports method (Locationapi.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ For an example of how to use this method, see [Listening for Civic Address Repor
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | None supported<br/>                                                                |

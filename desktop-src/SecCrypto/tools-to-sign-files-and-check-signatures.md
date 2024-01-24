@@ -1,5 +1,5 @@
 ---
-Description: CryptoAPI Tools are the following tools that you can use to sign files digitally, to confirm signatures on files, and to create catalog files.
+description: CryptoAPI Tools are the following tools that you can use to sign files digitally, to confirm signatures on files, and to create catalog files.
 ms.assetid: c2a514cf-e3f2-4501-8b52-07b9bf7ab372
 title: Tools to Sign Files and Check Signatures
 ms.topic: article

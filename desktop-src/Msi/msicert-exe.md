@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer can use digital signatures as a means to detect corrupted resources.
+description: Windows Installer can use digital signatures as a means to detect corrupted resources.
 ms.assetid: fc982813-583b-4fcd-88d8-9de227994e7b
 title: Msicert.exe
 ms.topic: article
@@ -24,9 +24,9 @@ The command line options are case-insensitive and slash delimiters may be used i
 
 | Option | Parameter        | Description                                                                                             |
 |--------|------------------|---------------------------------------------------------------------------------------------------------|
-| -d     | <database> | The database (.msi file) that is being updated.                                                         |
-| -m     | <media Id> | The entry in the DiskId field of the [Media table](media-table.md) in the record for the cabinet file. |
-| -c     | <cabinet>  | The path to the digitally signed cabinet file.                                                          |
+| -d     | &lt;database&gt; | The database (.msi file) that is being updated.                                                         |
+| -m     | \<media Id\> | The entry in the DiskId field of the [Media table](media-table.md) in the record for the cabinet file. |
+| -c     | &lt;cabinet&gt;  | The path to the digitally signed cabinet file.                                                          |
 | -h     |                  | Include the hash of the digital signature. This is optional.                                            |
 
 

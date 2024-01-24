@@ -1,5 +1,5 @@
 ---
-Description: Mergemod.dll provides a COM object that implements merge operations and source image generation for merge modules. The main object implements interfaces for C/C++ programs and automation clients, including Visual Basic and VBScript.
+description: Mergemod.dll provides a COM object that implements merge operations and source image generation for merge modules. The main object implements interfaces for C/C++ programs and automation clients, including Visual Basic and VBScript.
 ms.assetid: 877d3691-948f-4aea-89d8-0ff008126ccc
 title: Merge Module Automation
 ms.topic: article

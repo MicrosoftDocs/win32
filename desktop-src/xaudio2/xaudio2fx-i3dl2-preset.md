@@ -1,5 +1,5 @@
 ---
-Description: I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) preset identifiers for initializing the XAUDIO2FX\_REVERB\_I3DL2\_PARAMETERS structure for use in the ReverbConvertI3DL2ToNative function.
+description: I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) preset identifiers for initializing the XAUDIO2FX\_REVERB\_I3DL2\_PARAMETERS structure for use in the ReverbConvertI3DL2ToNative function.
 ms.assetid: 6dcf4fe8-1189-8b79-b94b-29af835e4bcd
 title: XAUDIO2FX_I3DL2_PRESET (Xaudio2fx.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Xaudio2fx.h</dt> </dl> |
 

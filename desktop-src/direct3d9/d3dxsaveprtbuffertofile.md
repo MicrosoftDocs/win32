@@ -45,13 +45,13 @@ Address of a pointer to the input [**ID3DXPRTBuffer**](id3dxprtbuffer.md) object
 
 ## Return value
 
-Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
+Type: **[HRESULT](../com/structure-of-com-error-codes.md)**
 
 If the method succeeds, the return value is **D3D\_OK**. If the method fails, the return value can be **D3DERR\_INVALIDCALL**.
 
 ## Remarks
 
-The compiler setting also determines the function version. If Unicode is defined, then the function call resolves to [D3DXSavePRTBufferToFileW](/windows/win32/direct3d9/d3dxsaveprtbuffertofile). Otherwise, the function call resolves to **D3DXSavePRTBufferToFileA**.
+The compiler setting also determines the function version. If Unicode is defined, then the function call resolves to [D3DXSavePRTBufferToFileW](). Otherwise, the function call resolves to **D3DXSavePRTBufferToFileA**.
 
 The PRT file format is a binary file in the form of a header and then a data block.
 
@@ -73,7 +73,7 @@ The data block that follows the header is `NumSamples * NumCoeffs * NumChannels 
 
 ## Requirements
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the GUID of this file data object.
+description: Retrieves the GUID of this file data object.
 ms.assetid: 79bf56b5-5900-4427-8092-3a1df86f8a57
 title: ID3DXFileData::GetId method (D3DX9Xof.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

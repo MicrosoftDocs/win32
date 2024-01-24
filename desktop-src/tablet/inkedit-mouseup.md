@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user releases a mouse button while the mouse is over the InkEdit control.
+description: Occurs when the user releases a mouse button while the mouse is over the InkEdit control.
 ms.assetid: 3c9e0229-c7e2-4b5c-9532-18fbf8a3667d
 title: InkEdit.MouseUp event (Inked.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

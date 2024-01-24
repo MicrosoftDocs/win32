@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetCreateTableColumnIndex4 method"
 title: Windows8Api.JetCreateTableColumnIndex4 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetCreateTableColumnIndex4 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetCreateTableColumnIndex4(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,Microsoft.Isam.Esent.Interop.JET_TABLECREATE)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Windows8Api.JetCreateTableColumnIndex4 method
 
-Creates a table, adds columns, and indices on that table. [JetCreateTableColumnIndex3(JET_SESID, JET_DBID, JET_TABLECREATE)](dn292129\(v=exchg.10\).md)
+Creates a table, adds columns, and indices on that table. [JetCreateTableColumnIndex3(JET_SESID, JET_DBID, JET_TABLECREATE)](./api.jetcreatetablecolumnindex3-method.md)
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,21 +61,21 @@ public static void JetCreateTableColumnIndex4(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)  
     
     The database to which to add the new table.
 
 <!-- end list -->
 
   - tablecreate  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLECREATE](dn351072\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLECREATE](./jet-tablecreate-class.md)  
     
     Object describing the table to create.
 
@@ -82,9 +83,8 @@ public static void JetCreateTableColumnIndex4(
 
 #### Reference
 
-[Windows8Api class](dn335490\(v=exchg.10\).md)
+[Windows8Api class](./windows8api-class.md)
 
-[Windows8Api members](dn335373\(v=exchg.10\).md)
+[Windows8Api members](./windows8api-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

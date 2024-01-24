@@ -1,5 +1,5 @@
 ---
-Description: Starts the service.
+description: StartService method of the Msvm_VirtualEthernetSwitchManagementService class - Starts the service.
 ms.assetid: 8b232523-3311-47a9-949a-3bbb9944d80f
 title: StartService method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

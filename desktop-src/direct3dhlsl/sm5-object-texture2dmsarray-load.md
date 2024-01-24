@@ -1,6 +1,6 @@
 ---
 title: Texture2DMSArray::Load(int,int) function
-description: Gets one value.
+description: Gets one value. | Texture2DMSArray::Load(int,int) function
 ms.assetid: 955135cf-1bac-4d0c-9870-2b6d59d9dd88
 keywords:
 - Load function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,int) function
+# Texture2DMSArray::Load(int,int) function
 
 Gets one value.
 

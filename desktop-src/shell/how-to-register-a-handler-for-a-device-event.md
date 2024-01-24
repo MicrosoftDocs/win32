@@ -1,5 +1,5 @@
 ---
-Description: Describes the processes for implementing device event handlers in the registry.
+description: Describes the processes for implementing device event handlers in the registry.
 ms.assetid: 84B12B5C-C179-4124-A1FC-B90D120336BF
 title: How to Register a Handler for a Device Event
 ms.topic: article
@@ -12,7 +12,6 @@ Handlers define the software portion of AutoPlay. They define the software's ico
 
 ## Instructions
 
-### 
 
 Handlers and their associated values are defined under the **AutoplayHandlers**\\**Handlers** key. Subkeys differ depending on whether the system can read device contents directly or whether the device provides contents to the system through a proprietary interface.
 

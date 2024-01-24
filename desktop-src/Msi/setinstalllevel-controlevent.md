@@ -1,5 +1,5 @@
 ---
-Description: The SetInstallLevel event changes the installation level to the value specified by the argument.
+description: The SetInstallLevel event changes the installation level to the value specified by the argument.
 ms.assetid: 71cfd516-4a92-446c-bd8f-a3a04dba0bb2
 title: SetInstallLevel ControlEvent
 ms.topic: article

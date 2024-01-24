@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to use both the C/C++ API for Microsoft Windows HTTP Services (WinHTTP) and the COM interface exposed by the WinHttpRequest Object.
+description: This section describes how to use both the C/C++ API for Microsoft Windows HTTP Services (WinHTTP) and the COM interface exposed by the WinHttpRequest Object.
 ms.assetid: 16178bb8-5e95-46a5-825a-880edc402445
 title: Using WinHTTP
 ms.topic: article
@@ -34,7 +34,7 @@ This section describes how to use both the C/C++ API for Microsoft Windows HTTP 
 
 -   [WinHttpCfg.exe, a Certificate Configuration Tool](winhttpcertcfg-exe--a-certificate-configuration-tool.md)
 -   [ProxyCfg.exe, a Proxy Configuration Tool](proxycfg-exe--a-proxy-configuration-tool.md)
--   [WinHttpTraceCfg, a Trace Configuration Tool](winhttptracecfg-exe--a-trace-configuration-tool.md)
+-   [Collect WinHTTP traces](collect-traces.md)
 
  
 

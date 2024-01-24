@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotFoundException members"
 title: EsentRecordNotFoundException members
 TOCTitle: EsentRecordNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.RecordNotFound exceptions.
 
-The [EsentRecordNotFoundException](dn319846\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordNotFoundException](./esentrecordnotfoundexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentRecordNotFoundException class](dn319846\(v=exchg.10\).md)
+[EsentRecordNotFoundException class](./esentrecordnotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

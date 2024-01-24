@@ -22,7 +22,7 @@ Contains the list of users that directly report to the user. The users listed as
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | Reports                                         |
 | Ldap-Display-Name | directReports                                   |
@@ -48,7 +48,7 @@ Contains the list of users that directly report to the user. The users listed as
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 43                              |
 | MAPI-Id                | 0x800E                          |
@@ -69,7 +69,7 @@ Contains the list of users that directly report to the user. The users listed as
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 43                              |
 | MAPI-Id                | 0x800E                          |
@@ -90,7 +90,7 @@ Contains the list of users that directly report to the user. The users listed as
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 43                              |
 | MAPI-Id                | 0x800E                          |
@@ -111,7 +111,7 @@ Contains the list of users that directly report to the user. The users listed as
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 43                              |
 | MAPI-Id                | 0x800E                          |
@@ -132,7 +132,7 @@ Contains the list of users that directly report to the user. The users listed as
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 43                              |
 | MAPI-Id                | 0x800E                          |
@@ -153,7 +153,7 @@ Contains the list of users that directly report to the user. The users listed as
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 43                              |
 | MAPI-Id                | 0x800E                          |

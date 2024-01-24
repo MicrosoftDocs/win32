@@ -12,14 +12,13 @@ api_location:
 - D3D12.h
 api_type:
 - HeaderDef
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # D3D12\_RECT
 
-D3D12\_RECT is declared as a RECT. For more information about this GDI rectangle structure, see [**RECT**](/previous-versions//dd162897(v=vs.85)).
+D3D12\_RECT is declared as a RECT. For more information about this GDI rectangle structure, see [**RECT**](/windows/win32/api/windef/ns-windef-rect).
 
 ``` syntax
 typedef RECT D3D12_RECT;
@@ -41,7 +40,7 @@ This structure is a member of the [**D3D12\_DISCARD\_REGION**](/windows/desktop/
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D12.h</dt> </dl> |
 

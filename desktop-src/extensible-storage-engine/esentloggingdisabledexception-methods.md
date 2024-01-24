@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLoggingDisabledException methods"
 title: EsentLoggingDisabledException methods
 TOCTitle: EsentLoggingDisabledException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLoggingDisabledException](dn334582\(v=exchg.10\).md) type exposes the following members.
+The [EsentLoggingDisabledException](./esentloggingdisabledexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentLoggingDisabledException class](dn334582\(v=exchg.10\).md)
+[EsentLoggingDisabledException class](./esentloggingdisabledexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

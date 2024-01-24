@@ -1,5 +1,5 @@
 ---
-Description: Computes the key block used by the Extensible Authentication Protocol (EAP).
+description: Computes the key block used by the Extensible Authentication Protocol (EAP).
 ms.assetid: 0f382668-6fc6-440f-ba61-70b1db0f3987
 title: SslComputeEapKeyBlock function (Sslprovider.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ If the function fails, it returns a nonzero error value.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

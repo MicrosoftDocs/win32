@@ -22,7 +22,7 @@ For a claim type, this attribute identifies whether a user can input values othe
 
 
 
-|                   |                                       |
+| Entry | Value |
 |-------------------|---------------------------------------|
 | CN                | ms-DS-Claim-Is-Value-Space-Restricted |
 | Ldap-Display-Name | msDS-ClaimIsValueSpaceRestricted      |
@@ -43,7 +43,7 @@ For a claim type, this attribute identifies whether a user can input values othe
 
 
 
-|                        |                                                                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |

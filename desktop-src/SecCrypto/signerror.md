@@ -1,5 +1,5 @@
 ---
-Description: Calls the GetLastError function and converts the return code to an HRESULT.
+description: Calls the GetLastError function and converts the return code to an HRESULT.
 ms.assetid: 7b8eab85-212b-44bc-9d1b-60587652380d
 title: SignError function
 ms.topic: reference
@@ -52,7 +52,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

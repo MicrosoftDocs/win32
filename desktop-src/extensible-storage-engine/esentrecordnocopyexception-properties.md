@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNoCopyException properties"
 title: EsentRecordNoCopyException properties
 TOCTitle: EsentRecordNoCopyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordNoCopyException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecordNoCopyException](dn350517\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordNoCopyException](./esentrecordnocopyexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentRecordNoCopyException class](dn350517\(v=exchg.10\).md)
+[EsentRecordNoCopyException class](./esentrecordnocopyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

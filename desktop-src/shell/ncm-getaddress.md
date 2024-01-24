@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether a network address conforms to a specified type and format.
+description: Indicates whether a network address conforms to a specified type and format.
 title: NCM_GETADDRESS message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -75,7 +75,7 @@ Set the network address type mask using the [**NCM\_SETALLOWTYPE**](ncm-setallow
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

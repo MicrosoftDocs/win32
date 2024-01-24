@@ -1,5 +1,5 @@
 ---
-Description: The WiaAddDevice function invokes the Scanner and Camera Installation Wizard UI. It is equivalent to running &\#0034;rundll32.exe sti\_ci.dll AddDevice&\#0034; from the command prompt.
+description: The WiaAddDevice function invokes the Scanner and Camera Installation Wizard UI. It is equivalent to running &\#0034;rundll32.exe sti\_ci.dll AddDevice&\#0034; from the command prompt.
 ms.assetid: 83a1e22c-d751-4c8e-8f39-ec987042c745
 title: WiaAddDevice function (Wia.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ This function should be called with administrator credentials. When running unde
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

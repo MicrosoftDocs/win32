@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidDatabaseIdException members"
 title: EsentInvalidDatabaseIdException members
 TOCTitle: EsentInvalidDatabaseIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseIdException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidDatabaseId exceptions.
 
-The [EsentInvalidDatabaseIdException](dn319512\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidDatabaseIdException](./esentinvaliddatabaseidexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidDatabaseIdException class](dn319512\(v=exchg.10\).md)
+[EsentInvalidDatabaseIdException class](./esentinvaliddatabaseidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

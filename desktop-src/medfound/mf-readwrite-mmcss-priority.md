@@ -1,5 +1,5 @@
 ---
-Description: Sets the base thread priority for the Source Reader or Sink Writer.
+description: Sets the base thread priority for the Source Reader or Sink Writer.
 ms.assetid: 9513AE28-2AF4-45EC-AC19-C0718540E26F
 title: MF_READWRITE_MMCSS_PRIORITY attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ When the Source Reader or Sink Writer registers threads with the [Multimedia Cla
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |

@@ -22,7 +22,7 @@ This is a list of the GUIDs of COM objects that support a callback interface tha
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | DS-UI-Admin-Notification                    |
 | Ldap-Display-Name | dSUIAdminNotification                       |
@@ -48,7 +48,7 @@ This is a list of the GUIDs of COM objects that support a callback interface tha
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -69,7 +69,7 @@ This is a list of the GUIDs of COM objects that support a callback interface tha
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -90,7 +90,7 @@ This is a list of the GUIDs of COM objects that support a callback interface tha
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -111,7 +111,7 @@ This is a list of the GUIDs of COM objects that support a callback interface tha
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -132,7 +132,7 @@ This is a list of the GUIDs of COM objects that support a callback interface tha
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -153,7 +153,7 @@ This is a list of the GUIDs of COM objects that support a callback interface tha
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

@@ -1,5 +1,5 @@
 ---
-Description: The Position Type of a Table of Contents
+description: The Position Type of a Table of Contents
 ms.assetid: cc2fbadc-43f7-470c-873b-de2dc9d84e5d
 title: The Position Type of a Table of Contents
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue methods"
 title: ColumnValue methods
 TOCTitle: ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.ColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [ColumnValue](dn334206\(v=exchg.10\).md) type exposes the following members.
+The [ColumnValue](./columnvalue-class.md) type exposes the following members.
 
 ## Methods
 
@@ -71,6 +72,6 @@ Top
 
 #### Reference
 
-[ColumnValue class](dn334206\(v=exchg.10\).md)
+[ColumnValue class](./columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

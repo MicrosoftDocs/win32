@@ -1,5 +1,5 @@
 ---
-Description: Defines the different error states of the Media Source Extension.
+description: Defines the different error states of the Media Source Extension.
 ms.assetid: 8FD54833-F60B-49E8-A673-6130F3B06160
 title: MF_MSE_ERROR enumeration
 ms.topic: reference
@@ -69,7 +69,7 @@ Specifies an unknown error.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

@@ -1,5 +1,5 @@
 ---
-Description: Use the following functions to consume and provide performance data.
+description: Use the following functions to consume and provide performance data.
 ms.assetid: a2c97b8b-b1b1-4dd8-8f23-edffaa74d028
 title: Performance Counters Functions
 ms.topic: article
@@ -128,9 +128,9 @@ Use the PerfLib V2 Consumer functions to consume performance data from V2 perfor
 
 [V1 performance data providers](providing-counter-data-using-a-performance-dll.md) implement a DLL that provides the following functions:
 
-- [*ClosePerformanceData*](https://msdn.microsoft.com/library/Aa371895(v=VS.85).aspx)
-- [*CollectPerformanceData*](https://msdn.microsoft.com/library/Aa371898(v=VS.85).aspx)
-- [*OpenPerformanceData*](https://msdn.microsoft.com/library/Aa372200(v=VS.85).aspx)
+- [*ClosePerformanceData*](/windows/win32/api/winperf/nc-winperf-pm_close_proc)
+- [*CollectPerformanceData*](/windows/win32/api/winperf/nc-winperf-pm_collect_proc)
+- [*OpenPerformanceData*](/previous-versions/windows/desktop/legacy/aa372200(v=vs.85))
 
 > [!Note]
 > Due to significant performance and reliability issues, V1 performance data providers are deprecated. Although you still can use a performance extension DLL to provide counter data, you are encouraged to [create a V2 provider](providing-counter-data-using-version-2-0.md) instead. You also are encouraged to replace existing V1 providers with V2 providers.

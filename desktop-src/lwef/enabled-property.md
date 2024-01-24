@@ -1,12 +1,12 @@
 ---
 title: Enabled Property (Balloon Object)
-description: Enabled Property
+description: Learn about the Enabled Balloon object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 4d73acda-6fcc-4912-a466-570849aeb807
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enabled Property
+# Enabled Property (Balloon Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 

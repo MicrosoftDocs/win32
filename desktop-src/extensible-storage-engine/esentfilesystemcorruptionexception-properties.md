@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileSystemCorruptionException properties"
 title: EsentFileSystemCorruptionException properties
 TOCTitle: EsentFileSystemCorruptionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileSystemCorruptionException](dn274381\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileSystemCorruptionException](./esentfilesystemcorruptionexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentFileSystemCorruptionException class](dn274381\(v=exchg.10\).md)
+[EsentFileSystemCorruptionException class](./esentfilesystemcorruptionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

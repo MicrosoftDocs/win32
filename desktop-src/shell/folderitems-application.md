@@ -1,5 +1,5 @@
 ---
-Description: Contains the Application object of the folder items collection.
+description: Contains the Application object of the folder items collection.
 ms.assetid: 2cd4243e-a5a6-4de4-b310-f74558ac0fbe
 title: FolderItems.Application property (Shldisp.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ Use this property with the **Set** and **CreateObject** commands or with the **G
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

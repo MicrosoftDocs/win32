@@ -1,5 +1,5 @@
 ---
-Description: The FASTOEM property is designed to enable OEMs to reduce the time it takes to install Windows Installer applications for a specific scenario.
+description: The FASTOEM property is designed to enable OEMs to reduce the time it takes to install Windows Installer applications for a specific scenario.
 ms.assetid: 4c0af524-eb2e-4d64-bb25-3dae488d236d
 title: FASTOEM property
 ms.topic: reference
@@ -54,7 +54,7 @@ Use the following example command line if the installation package is not locate
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

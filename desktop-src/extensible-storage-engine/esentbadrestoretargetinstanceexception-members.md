@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadRestoreTargetInstanceException members"
 title: EsentBadRestoreTargetInstanceException members
 TOCTitle: EsentBadRestoreTargetInstanceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadRestoreTargetInstanceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.BadRestoreTargetInstance exceptions.
 
-The [EsentBadRestoreTargetInstanceException](dn274044\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadRestoreTargetInstanceException](./esentbadrestoretargetinstanceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentBadRestoreTargetInstanceException class](dn274044\(v=exchg.10\).md)
+[EsentBadRestoreTargetInstanceException class](./esentbadrestoretargetinstanceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

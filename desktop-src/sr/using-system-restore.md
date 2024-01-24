@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 The following examples demonstrate how to create and cancel restore points using the [**SRSetRestorePoint**](/windows/desktop/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa) function.
 
-The first step to using using System Restore is setting up the COM calls to [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). This is required for any process that uses the [**SRSetRestorePoint**](/windows/desktop/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa) function. The NetworkService, LocalService, and System must be allowed make calls to the process. The following **InitializeCOMSecurity** function is an example of how to initialize COM security. You may need to modify the parameters to the **CoInitializeSecurity** function for your application.
+The first step to using System Restore is setting up the COM calls to [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). This is required for any process that uses the [**SRSetRestorePoint**](/windows/desktop/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa) function. The NetworkService, LocalService, and System must be allowed make calls to the process. The following **InitializeCOMSecurity** function is an example of how to initialize COM security. You may need to modify the parameters to the **CoInitializeSecurity** function for your application.
 
 
 ```C++

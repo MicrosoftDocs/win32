@@ -1,5 +1,5 @@
 ---
-Description: The InstallExecuteSequence table lists actions that are executed when the top-level INSTALL action is executed.
+description: The InstallExecuteSequence table lists actions that are executed when the top-level INSTALL action is executed.
 ms.assetid: '995d4159-bfc9-48b2-8328-3ae8251d785d'
 title: InstallExecuteSequence Table
 ms.topic: article

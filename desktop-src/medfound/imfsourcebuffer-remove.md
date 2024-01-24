@@ -1,5 +1,5 @@
 ---
-Description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.
+description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.
 ms.assetid: 86536d73-18c0-4acc-81ec-72f1dfe400c5
 title: IMFSourceBuffer::Remove method
 ms.topic: reference
@@ -57,7 +57,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

@@ -1,5 +1,5 @@
 ---
-Description: Provides the picture-level parameters of a compressed picture for HEVC video decoding.
+description: Provides the picture-level parameters of a compressed picture for HEVC video decoding.
 ms.assetid: F73AE9CD-5BBC-4A9F-8D05-707AD5E2E92A
 title: DXVA_PicParams_HEVC structure (Dxva.h)
 ms.topic: reference
@@ -397,7 +397,7 @@ typedef struct _DXVA_PicParams_HEVC {
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                           |

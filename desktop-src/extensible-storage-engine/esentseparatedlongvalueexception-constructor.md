@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSeparatedLongValueException constructor"
 title: EsentSeparatedLongValueException constructor 
 TOCTitle: 'EsentSeparatedLongValueException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSeparatedLongValueException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSeparatedLongValueException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentSeparatedLongValueException()
 
 #### Reference
 
-[EsentSeparatedLongValueException class](dn350615\(v=exchg.10\).md)
+[EsentSeparatedLongValueException class](./esentseparatedlongvalueexception-class.md)
 
-[EsentSeparatedLongValueException members](dn350616\(v=exchg.10\).md)
+[EsentSeparatedLongValueException members](./esentseparatedlongvalueexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

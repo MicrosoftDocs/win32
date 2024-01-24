@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotCommittedException methods"
 title: EsentSLVPagesNotCommittedException methods
 TOCTitle: EsentSLVPagesNotCommittedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotCommittedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVPagesNotCommittedException](dn350720\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVPagesNotCommittedException](./esentslvpagesnotcommittedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVPagesNotCommittedException class](dn350720\(v=exchg.10\).md)
+[EsentSLVPagesNotCommittedException class](./esentslvpagesnotcommittedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

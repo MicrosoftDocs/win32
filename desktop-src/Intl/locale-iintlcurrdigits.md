@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_IINTLCURRDIGITS
+description: LOCALE\_IINTLCURRDIGITS
 ms.assetid: 37d2a352-fe8a-4705-8af9-2d0927b43afe
 title: LOCALE_IINTLCURRDIGITS
 ms.topic: article

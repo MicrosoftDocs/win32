@@ -1,5 +1,5 @@
 ---
-Description: The Native Wifi API contains functions, structures, and enumerations that support wireless network connectivity and wireless profile management.
+description: The Native Wifi API contains functions, structures, and enumerations that support wireless network connectivity and wireless profile management.
 ms.assetid: 686f9ccf-5040-44c5-8633-83f12dc46586
 title: About the Native Wifi API
 ms.topic: article
@@ -35,7 +35,7 @@ Mixing Native Wifi API calls and Wireless Ad Hoc API calls is not recommended. D
 [About the Wireless Ad Hoc API](about-the-wireless-ad-hoc-api.md)
 </dt> <dt>
 
-[Download the Windows Vista SDK](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf)
+[Download the Windows Vista SDK](https://www.microsoft.com/download/details.aspx?id=14477)
 </dt> </dl>
 
  

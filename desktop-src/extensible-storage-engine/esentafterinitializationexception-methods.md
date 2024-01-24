@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAfterInitializationException methods"
 title: EsentAfterInitializationException methods
 TOCTitle: EsentAfterInitializationException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentAfterInitializationException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentAfterInitializationException](dn334220\(v=exchg.10\).md) type exposes the following members.
+The [EsentAfterInitializationException](./esentafterinitializationexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentAfterInitializationException class](dn334220\(v=exchg.10\).md)
+[EsentAfterInitializationException class](./esentafterinitializationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

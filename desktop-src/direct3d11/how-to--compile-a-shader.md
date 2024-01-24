@@ -37,7 +37,7 @@ You typically use the [fxc.exe](/windows/desktop/direct3dtools/fxc) HLSL code co
 The following code example shows how to compile various shaders.
 
 > [!Note]  
-> For this example code, you need the Windows SDK 8.0 and the d3dcompiler\_44.dll file from the %PROGRAM\_FILE%\\Windows Kits\\8.0\\Redist\\D3D\\<arch> folder in your path. Windows Store apps support run time compilation for development but not for deployment.
+> For this example code, you need the Windows SDK 8.0 and the d3dcompiler\_44.dll file from the %PROGRAM\_FILE%\\Windows Kits\\8.0\\Redist\\D3D\\&lt;arch&gt; folder in your path. Windows Store apps support run time compilation for development but not for deployment.
 
  
 
@@ -94,7 +94,7 @@ HRESULT CompileShader( _In_ LPCWSTR srcFile, _In_ LPCSTR entryPoint, _In_ LPCSTR
 
 int main()
 {
-    // Compile vertex shader shader
+    // Compile vertex shader
     ID3DBlob *vsBlob = nullptr;
     HRESULT hr = CompileShader( L"BasicHLSL11_VS.hlsl", "VSMain", "vs_4_0_level_9_1", &vsBlob );
     if ( FAILED(hr) )
@@ -103,7 +103,7 @@ int main()
         return -1;
     }
 
-    // Compile pixel shader shader
+    // Compile pixel shader
     ID3DBlob *psBlob = nullptr;
     hr = CompileShader( L"BasicHLSL11_PS.hlsl", "PSMain", "ps_4_0_level_9_1", &psBlob );
     if ( FAILED(hr) )

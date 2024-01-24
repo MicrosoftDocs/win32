@@ -1,5 +1,5 @@
 ---
-Description: The SetKeepAliveInterval WMI class static method is used to set the interval separating Keep Alive Retransmissions until a response is received.
+description: The SetKeepAliveInterval WMI class static method is used to set the interval separating Keep Alive Retransmissions until a response is received.
 ms.assetid: 83415000-124a-44a7-93cc-92ce9df143aa
 ms.tgt_platform: multiple
 title: SetKeepAliveInterval method of the Win32_NetworkAdapterConfiguration class
@@ -403,15 +403,11 @@ DHCP not enabled on adapter.
 
 After a response is received, the delay until the next Keep Alive Transmission is again controlled by the value of the [**KeepAliveTime**](win32-networkadapterconfiguration.md) property. The connection is terminated after the number of retransmissions specified by the **TcpMaxDataRetransmissions** property have gone unanswered
 
-## Examples
-
-The [Modify the Keep Alive Interval for all Network Adapters](https://Gallery.TechNet.Microsoft.Com/f6d4a0e7-5b59-42e3-888d-82a028e2bf35) VBScript sample configures the keep alive interval for all network adapters on a computer to 300,00 milliseconds (5 minutes).
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

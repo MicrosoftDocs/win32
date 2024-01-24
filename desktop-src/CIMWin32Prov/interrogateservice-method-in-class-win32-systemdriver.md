@@ -1,5 +1,5 @@
 ---
-Description: Requests that the system driver service update its state to the service manager.
+description: Requests that the system driver service update its state to the service manager.
 ms.assetid: 350d9044-39fd-436f-ab15-b30324b2b2e9
 ms.tgt_platform: multiple
 title: InterrogateService method of the Win32_SystemDriver class
@@ -43,7 +43,7 @@ Returns a value of 0 (zero) if the **InterrogateService** request was accepted, 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

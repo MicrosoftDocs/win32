@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SDAYNAME\* Constants
+description: LOCALE\_SDAYNAME\* Constants
 ms.assetid: a5451df7-d608-4151-92b1-7e25f8f4500d
 title: LOCALE_SDAYNAME* Constants
 ms.topic: article

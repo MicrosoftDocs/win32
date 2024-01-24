@@ -181,7 +181,7 @@ hr = device->CreateInputLayout(
 
 Each of the input-layout element definitions is prefixed with a string, like "POSITION" or "NORMAL"—that is the semantic we discussed earlier in this topic. It's like a handle that helps the GPU identify that element when processing the vertex. Choose common, meaningful names for your vertex elements.
 
-Just as with the constant buffer, the vertex shader has a corresponding buffer definition for incoming vertex elements. (That's why we provided a reference to the vertex shader resource when creating the input layout - Direct3D validates the per-vertex data layout with the shader's input struct.) Note how the semantics match between the input layout definition and this HLSL buffer declaration. However, `COLOR` has a "0" appended to it. It isn't necessary to add the 0 if you have only one `COLOR` element declared in the layout, but it's a good practice to append it in case you you choose to add more color elements in the future.
+Just as with the constant buffer, the vertex shader has a corresponding buffer definition for incoming vertex elements. (That's why we provided a reference to the vertex shader resource when creating the input layout - Direct3D validates the per-vertex data layout with the shader's input struct.) Note how the semantics match between the input layout definition and this HLSL buffer declaration. However, `COLOR` has a "0" appended to it. It isn't necessary to add the 0 if you have only one `COLOR` element declared in the layout, but it's a good practice to append it in case you choose to add more color elements in the future.
 
 
 ```C++

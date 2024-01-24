@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SNEGINFINITY
+description: LOCALE\_SNEGINFINITY
 ms.assetid: 06e4b7dc-fc31-45e5-908a-50d693b20351
 title: LOCALE_SNEGINFINITY
 ms.topic: article

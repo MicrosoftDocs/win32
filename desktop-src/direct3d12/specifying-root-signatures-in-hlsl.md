@@ -2,7 +2,6 @@
 title: Specifying Root Signatures in HLSL
 description: Specifying root signatures in HLSL Shader Model 5.1 is an alternative to specifying them in C++ code.
 ms.assetid: 399F5E91-B017-4F5E-9037-DC055407D96F
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -54,6 +53,15 @@ A root signature can be specified in HLSL as a string. The string contains a col
                              "filter = FILTER_MIN_MAG_MIP_LINEAR )"
 ```
 
+This definition would give the following root signature, noting:
+
+-   The use of default parameters.
+-   b0 and (b0, space=1) do not conflict
+-   u0 is only visible to the geometry shader
+-   u4 and u5 are aliased to the same descriptor in a heap
+
+![a root signature specified using the high level shader language](images/hlsl-root-signature.png)
+
 ### Root Signature Version 1.1
 
 [Root Signature Version 1.1](root-signature-version-1-1.md) enables driver optimizations on root signature descriptors and data.
@@ -76,15 +84,6 @@ A root signature can be specified in HLSL as a string. The string contains a col
                              "addressU = TEXTURE_ADDRESS_CLAMP, " \
                              "filter = FILTER_MIN_MAG_MIP_LINEAR )"
 ```
-
-This definition would give the following root signature, noting:
-
--   The use of default parameters.
--   b0 and (b0, space=1) do not conflict
--   u0 is only visible to the geometry shader
--   u4 and u5 are aliased to the same descriptor in a heap
-
-![a root signature specified using the high level shader language](images/hlsl-root-signature.png)
 
 The HLSL root signature language closely corresponds to the C++ root signature APIs and has equivalent expressive power. The root signature is specified as a sequence of clauses, separated by comma. The order of clauses is important, as the order of parsing determines the slot position in the root signature. Each clause takes one or more named parameters. The order of parameters is not important, however.
 

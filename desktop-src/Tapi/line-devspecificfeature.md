@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_DEVSPECIFICFEATURE message is sent to notify the application about device-specific events occurring on a line, address, or call. The meaning of the message and the interpretation of the parameters are device specific.
+description: The TAPI LINE\_DEVSPECIFICFEATURE message is sent to notify the application about device-specific events occurring on a line, address, or call. The meaning of the message and the interpretation of the parameters are device specific.
 ms.assetid: 5f1a4da2-1a2a-4a18-8a69-82d27ddca9cf
 title: LINE_DEVSPECIFICFEATURE message (Tapi.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The **LINE\_DEVSPECIFICFEATURE** message is used by a service provider in conjun
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

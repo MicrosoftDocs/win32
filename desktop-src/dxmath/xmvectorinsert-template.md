@@ -1,5 +1,5 @@
 ---
-Description: Rotates a vector left by a given number of 32-bit components and insert selected elements of that result into another vector.
+description: Rotates a vector left by a given number of 32-bit components and insert selected elements of that result into another vector.
 ms.assetid: 'm:microsoft.directx_sdk.template.xmvectorinsert(xmvector,xmvector)'
 title: XMVectorInsert template (DirectXMath.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXMath.h</dt> </dl> |
 

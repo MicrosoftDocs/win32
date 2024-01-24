@@ -1,5 +1,5 @@
 ---
-Description: Describes a function used by an effect.
+description: Describes a function used by an effect.
 ms.assetid: 5d9deb82-7fe5-4408-8a6a-b34ecd97e8ba
 title: D3DXFUNCTION_DESC structure (D3dx9effect.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Unused. This member will always be set to zero by [**GetFunctionDesc**](id3dxbas
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9effect.h</dt> </dl> |
 

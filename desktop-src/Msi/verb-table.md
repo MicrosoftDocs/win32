@@ -1,5 +1,5 @@
 ---
-Description: The Verb table contains command-verb information associated with file name extensions that must be generated as a part of product advertisement. Each row generates a set of registry keys and values.
+description: The Verb table contains command-verb information associated with file name extensions that must be generated as a part of product advertisement. Each row generates a set of registry keys and values.
 ms.assetid: 3749095c-f0c0-498c-969f-a6c445cfdd62
 title: Verb Table
 ms.topic: article

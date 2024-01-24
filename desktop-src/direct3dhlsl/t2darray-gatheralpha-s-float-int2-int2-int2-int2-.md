@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherAlpha(S,float,int2,int2,int2,int2) function
-description: Samples a texture and returns the alpha component.
+description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation. | Texture2DArray::GatherAlpha(S,float,int2,int2,int2,int2) function
 ms.assetid: A7F96B45-A097-437B-A0D0-18555FF76544
 keywords:
 - GatherAlpha function HLSL
@@ -15,21 +15,21 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherAlpha(S,float,int2,int2,int2,int2) function
+# Texture2DArray::GatherAlpha(S,float,int2,int2,int2,int2) function
 
-Samples a texture and returns the alpha component.
+Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType GatherAlpha(
-  in SamplerState S,
-  in float        Location,
-  in int2         Offset1,
-  in int2         Offset2,
-  in int2         Offset3,
-  in int2         Offset4
+  in SamplerState S,
+  in float3       Location,
+  in int2         Offset1,
+  in int2         Offset2,
+  in int2         Offset3,
+  in int2         Offset4
 );
 ```
 
@@ -113,7 +113,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -122,9 +122,9 @@ This function is supported for the following types of shaders:
 [GatherAlpha methods](texture2darray-gatheralpha.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: The StretchBlt function scales a bitmap by performing a bit-block transfer from a rectangle in a source device context into a rectangle in a destination device context.
+description: The StretchBlt function scales a bitmap by performing a bit-block transfer from a rectangle in a source device context into a rectangle in a destination device context.
 ms.assetid: 34390ff9-8d5f-497e-87aa-a1019d01bba6
 title: Bitmap Scaling
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the work-item priority for a branch of the topology.
+description: Specifies the work-item priority for a branch of the topology.
 ms.assetid: B2FA1151-08D3-46F9-A38D-AC8908EFA6A2
 title: MF_TOPONODE_WORKQUEUE_ITEM_PRIORITY attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

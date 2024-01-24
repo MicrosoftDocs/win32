@@ -1,5 +1,5 @@
 ---
-Description: The minimum requirement for enabling XAudio2 to play audio data is an audio processing graph, which is constructed from a single mastering voice and a single source voice.
+description: The minimum requirement for enabling XAudio2 to play audio data is an audio processing graph, which is constructed from a single mastering voice and a single source voice.
 ms.assetid: 40f79959-23c9-4513-363b-2f2fc85e4c0a
 title: 'How to: Build a Basic Audio Processing Graph'
 ms.topic: article

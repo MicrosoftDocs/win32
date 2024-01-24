@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SnapshotEndGrbit enumeration"
 title: SnapshotEndGrbit enumeration (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: SnapshotEndGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.SnapshotEndGrbit
@@ -32,11 +33,11 @@ ROBOTS: INDEX,FOLLOW
 
 # SnapshotEndGrbit enumeration
 
-Options for [JetOSSnapshotEnd(JET_OSSNAPID, SnapshotEndGrbit)](dn351267\(v=exchg.10\).md).
+Options for [JetOSSnapshotEnd(JET_OSSNAPID, SnapshotEndGrbit)](./vistaapi.jetossnapshotend-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -83,4 +84,4 @@ public enum SnapshotEndGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

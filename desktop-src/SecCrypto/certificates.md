@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of Certificate objects.
+description: Certificates object - Represents a collection of Certificate objects.
 ms.assetid: '82011c49-38fb-4261-8fb3-b76859da8a9e'
 title: Certificates object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Certificates object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](/previous-versions/windows/embedded/hh424013(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](/previous-versions/windows/embedded/hh424013(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Certificates** object represents a collection of [**Certificate**](certificate.md) objects. Each [**Certificate**](certificate.md) object represents a single [*digital certificate*](../secgloss/d-gly.md).
 
@@ -89,7 +89,7 @@ The **Certificates** object can be created, and it is safe for scripting. The Pr
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

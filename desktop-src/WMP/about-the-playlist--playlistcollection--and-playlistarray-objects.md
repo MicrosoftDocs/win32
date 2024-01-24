@@ -28,10 +28,13 @@ keywords:
 - Windows Media Player Mobile,PlaylistArray object
 - PlaylistArray object
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # About the Playlist, PlaylistCollection, and PlaylistArray Objects
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **Playlist**, **PlaylistCollection**, and **PlaylistArray** objects govern the playlists that Windows Media Player can use to specify the order in which content will be played. You get the **PlaylistCollection** object from the **playlistCollection** property of the **Player** object. The **playlistCollection** property returns the **PlaylistCollection** object. You can only access the properties of the **PlaylistCollection** object after you have created it. For example, to create a new playlist, you must first get the **PlaylistCollection** object and then use a method on that object.
 

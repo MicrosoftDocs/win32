@@ -1,5 +1,5 @@
 ---
-Description: Suspends the processes of the package if they are currently running.
+description: Suspends the processes of the package if they are currently running.
 ms.assetid: 83f44285-46ed-4968-b0af-7964dfacf602
 title: IPackageDebugSettings::Suspend method
 ms.topic: reference
@@ -62,13 +62,13 @@ This method can return one of these values.
 
 ## Remarks
 
-Each process receives the [**Suspending**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Suspending**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

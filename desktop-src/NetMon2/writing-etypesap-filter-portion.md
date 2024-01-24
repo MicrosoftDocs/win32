@@ -1,5 +1,5 @@
 ---
-Description: The Etype/SAP portion of the capture filter notifies the Network Monitor driver to accept frames that have a specific combination of Etypes and service access points (SAPs).
+description: The Etype/SAP portion of the capture filter notifies the Network Monitor driver to accept frames that have a specific combination of Etypes and service access points (SAPs).
 ms.assetid: 57dcf1cd-f27f-4bd3-a5a8-9e978a2d213e
 title: Writing Etype/SAP Filter Portion
 ms.topic: article

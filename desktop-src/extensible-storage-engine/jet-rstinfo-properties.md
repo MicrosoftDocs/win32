@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RSTINFO properties"
 title: JET_RSTINFO properties
 TOCTitle: JET_RSTINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RSTINFO
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_RSTINFO](dn335235\(v=exchg.10\).md) type exposes the following members.
+The [JET_RSTINFO](./jet-rstinfo-class.md) type exposes the following members.
 
 ## Properties
 
@@ -61,7 +62,6 @@ Top
 
 #### Reference
 
-[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](./jet-rstinfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

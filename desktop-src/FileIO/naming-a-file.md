@@ -2,7 +2,7 @@
 description: All file systems supported by Windows use the concept of files and directories to access data stored on a disk or device.
 ms.assetid: 121cd5b2-e6fd-4eb4-99b4-b652d27b53e8
 title: Naming Files, Paths, and Namespaces
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.topic: article
 ms.date: 09/15/2020
 ---
@@ -30,7 +30,7 @@ For additional information, see the following subsections:
 -   [Related topics](#related-topics)
 
 
-To learn about configuring Windows 10 to support long file paths, see [Maximum Path Length Limitation](/windows/win32/fileio/maximum-file-path-limitation).
+To learn about configuring Windows 10 to support long file paths, see [Maximum Path Length Limitation](./maximum-file-path-limitation.md).
 
 
 ## File and Directory Names
@@ -70,7 +70,7 @@ The following fundamental rules enable applications to create and process valid 
 -   Use two consecutive periods (..) as a directory *component* in a path to represent the parent of the current directory, for example "..\\temp.txt". For more information, see [Paths](#fully-qualified-vs-relative-paths).
 -   Do not use the following reserved names for the name of a file:
 
-    CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9. Also avoid these names followed immediately by an extension; for example, NUL.txt is not recommended. For more information, see [Namespaces](#win32-file-namespaces).
+    CON, PRN, AUX, NUL, COM0, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, COM¹, COM², COM³, LPT0, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, LPT9, LPT¹, LPT², and LPT³. Also avoid these names followed immediately by an extension; for example, NUL.txt and NUL.tar.gz are both equivalent to NUL. For more information, see [Namespaces](#win32-file-namespaces).
 
 -   Do not end a file or directory name with a space or a period. Although the underlying file system may support such names, the Windows shell and user interface does not. However, it is acceptable to specify a period as the first character of a name. For example, ".temp".
 
@@ -129,7 +129,7 @@ Relative paths can combine both example types, for example "C:..\\tmp.txt". This
 ### Maximum Path Length Limitation
 
 
-In editions of Windows before Windows 10 version 1607, the maximum length for a path is **MAX\_PATH**, which is defined as 260 characters. In later versions of Windows, changing a registry key or using the Group Policy tool is required to remove the limit. See [Maximum Path Length Limitation](/windows/win32/fileio/maximum-file-path-limitation) for full details.
+In editions of Windows before Windows 10 version 1607, the maximum length for a path is **MAX\_PATH**, which is defined as 260 characters. In later versions of Windows, changing a registry key or using the Group Policy tool is required to remove the limit. See [Maximum Path Length Limitation](./maximum-file-path-limitation.md) for full details.
 
 
 ## Namespaces
@@ -144,7 +144,9 @@ For file I/O, the "\\\\?\\" prefix to a path string tells the Windows APIs to di
 
 Because it turns off automatic expansion of the path string, the "\\\\?\\" prefix also allows the use of ".." and "." in the path names, which can be useful if you are attempting to perform operations on a file with these otherwise reserved relative path specifiers as part of the fully qualified path.
 
-Many but not all file I/O APIs support "\\\\?\\"; you should look at the reference topic for each API to be sure.
+Many but not all file I/O APIs support "\\\\?\\"; you should look at the reference topic for each API to be sure. 
+
+Note that Unicode APIs should be used to make sure the "\\\\?\\" prefix allows you to exceed the **MAX\_PATH** 
 
 ### Win32 Device Namespaces
 
@@ -152,7 +154,7 @@ The "\\\\.\\" prefix will access the Win32 device namespace instead of the Win32
 
 For example, if you want to open the system's serial communications port 1, you can use "COM1" in the call to the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function. This works because COM1–COM9 are part of the reserved names in the NT namespace, although using the "\\\\.\\" prefix will also work with these device names. By comparison, if you have a 100 port serial expansion board installed and want to open COM56, you cannot open it using "COM56" because there is no predefined NT namespace for COM56. You will need to open it using "\\\\.\\COM56" because "\\\\.\\" goes directly to the device namespace without attempting to locate a predefined alias.
 
-Another example of using the Win32 device namespace is using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function with "\\\\.\\PhysicalDisk*X*" (where *X* is a valid integer value) or "\\\\.\\CdRom*X*". This allows you to access those devices directly, bypassing the file system. This works because these device names are created by the system as these devices are enumerated, and some drivers will also create other aliases in the system. For example, the device driver that implements the name "C:\\" has its own namespace that also happens to be the file system.
+Another example of using the Win32 device namespace is using the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function with "\\\\.\\PhysicalDrive*X*" (where *X* is a valid integer value) or "\\\\.\\CdRom*X*". This allows you to access those devices directly, bypassing the file system. This works because these device names are created by the system as these devices are enumerated, and some drivers will also create other aliases in the system. For example, the device driver that implements the name "C:\\" has its own namespace that also happens to be the file system.
 
 APIs that go through the [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function generally work with the "\\\\.\\" prefix because **CreateFile** is the function used to open both files and devices, depending on the parameters you use.
 

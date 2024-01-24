@@ -1,5 +1,5 @@
 ---
-Description: Working with Media Samples
+description: Working with Media Samples
 ms.assetid: 10b547b1-6624-4d49-9852-a5fff4eb70e7
 title: Working with Media Samples
 ms.topic: article
@@ -49,7 +49,7 @@ HRESULT CreateMediaSample(DWORD cbData, IMFSample **ppSample)
 
 
 
-The recommended way to get the buffers from the sample is to call [**IMFSample::ConvertToContiguousBuffer**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer). This method returns a single continguous buffer.
+The recommended way to get the buffers from the sample is to call [**IMFSample::ConvertToContiguousBuffer**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer). This method returns a single continuous buffer.
 
 To iterate through the buffers in the list, start by calling [**IMFSample::GetBufferCount**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbuffercount). This method returns the number of buffers. Then call [**IMFSample::GetBufferByIndex**](/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbufferbyindex) and specify the index of the buffer to retrieve. Buffers are indexed from zero.
 

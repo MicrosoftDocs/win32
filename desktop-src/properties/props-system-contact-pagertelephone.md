@@ -1,5 +1,5 @@
 ---
-Description: Pager telephone number of the contact.
+description: Pager telephone number of the contact.
 ms.assetid: c3d62f1b-8455-414c-b4a6-261cf7db787e
 title: System.Contact.PagerTelephone
 ms.topic: article

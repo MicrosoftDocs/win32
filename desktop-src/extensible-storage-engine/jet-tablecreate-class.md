@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE class"
 title: JET_TABLECREATE class
 TOCTitle: JET_TABLECREATE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_TABLECREATE
@@ -35,7 +36,7 @@ Contains the information needed to create a table in an ESE database. Contains t
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_TABLECREATE  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,6 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](./jet-tablecreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

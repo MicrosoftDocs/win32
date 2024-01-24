@@ -1,5 +1,5 @@
 ---
-Description: Returns a string that describes the status code.
+description: Returns a string that describes the status code.
 ms.assetid: d3007f3e-46e1-4ab6-8ce3-c4e38f87ce61
 title: IWiaErrorHandler::GetStatusDescription method (Wia.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ Returns one of the following values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

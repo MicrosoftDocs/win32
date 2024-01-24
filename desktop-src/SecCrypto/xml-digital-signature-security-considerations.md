@@ -1,5 +1,5 @@
 ---
-Description: Applications that sign and verify XML digital signatures should be written according to the following best practices to avoid denial of service attacks, data loss, and compromise of private information.
+description: Applications that sign and verify XML digital signatures should be written according to the following best practices to avoid denial of service attacks, data loss, and compromise of private information.
 ms.assetid: aa972946-9860-49c1-ae94-3f315684c291
 title: XML Digital Signature Security Considerations
 ms.topic: article

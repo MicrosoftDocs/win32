@@ -29,7 +29,7 @@ The address of a value that receives the font's character set. The following are
 
 
 
-|     |                                                                                        |
+| Value    | Character set                                                                                       |
 |-----|----------------------------------------------------------------------------------------|
 | 0   | Standard Windows characters (ANSI).                                                    |
 | 1   | Default character set.                                                                 |

@@ -22,7 +22,7 @@ Used by DS Security to determine which users can perform specific operations on 
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Control-Access-Rights                                 |
 | Ldap-Display-Name | controlAccessRights                                   |
@@ -48,7 +48,7 @@ Used by DS Security to determine which users can perform specific operations on 
 
 
 
-|                        |                                                                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                 |
@@ -69,7 +69,7 @@ Used by DS Security to determine which users can perform specific operations on 
 
 
 
-|                        |                                                                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                 |
@@ -90,7 +90,7 @@ Used by DS Security to determine which users can perform specific operations on 
 
 
 
-|                        |                                                                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                 |
@@ -111,7 +111,7 @@ Used by DS Security to determine which users can perform specific operations on 
 
 
 
-|                        |                                                                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                 |
@@ -132,7 +132,7 @@ Used by DS Security to determine which users can perform specific operations on 
 
 
 
-|                        |                                                                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                 |
@@ -153,7 +153,7 @@ Used by DS Security to determine which users can perform specific operations on 
 
 
 
-|                        |                                                                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                 |

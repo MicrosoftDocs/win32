@@ -1,5 +1,5 @@
 ---
-Description: A value indicating whether a frame was captured using active infrared (IR) illumination.
+description: A value indicating whether a frame was captured using active infrared (IR) illumination.
 ms.assetid: D84772C8-902F-4302-8288-0430892A1896
 title: MF_CAPTURE_METADATA_FRAME_ILLUMINATION attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Active illumination is when a device has a light emitter close to the IR camera 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                      |

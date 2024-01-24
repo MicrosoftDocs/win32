@@ -1,5 +1,5 @@
 ---
-Description: A polygon is a filled shape with straight sides.
+description: A polygon is a filled shape with straight sides.
 ms.assetid: 2259855f-4bad-4513-a021-b48c73eb7841
 title: About Polygons
 ms.topic: article

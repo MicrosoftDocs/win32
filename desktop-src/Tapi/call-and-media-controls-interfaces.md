@@ -1,5 +1,5 @@
 ---
-Description: The following are the TAPI 3.x call and media controls interfaces. For a listing of these interfaces by functionality, see Call and Media Controls Quick Reference.
+description: The following are the TAPI 3.x call and media controls interfaces. For a listing of these interfaces by functionality, see Call and Media Controls Quick Reference.
 ms.assetid: aa43013d-826e-487b-b0a3-2d890f93a512
 title: Call and Media Controls Interfaces
 ms.topic: article

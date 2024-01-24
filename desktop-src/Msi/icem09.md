@@ -1,5 +1,5 @@
 ---
-Description: ICEM09 verifies the merge module safely handles predefined directories.
+description: ICEM09 verifies the merge module safely handles predefined directories.
 ms.assetid: 747ae5ee-adc1-4aa7-8239-2379f76bfd0f
 title: ICEM09
 ms.topic: article
@@ -69,10 +69,10 @@ To fix this warning, name the action the same as the target directory. Note that
 
 | Component               | Directory          |
 |-------------------------|--------------------|
-| Component1.<GUID> | ProgramFilesFolder |
-| Component2.<GUID> | StartMenuFolder    |
-| Component3.<GUID> | AppDataFolder      |
-| Component4.<GUID> | MyPicturesFolder   |
+| Component1.&lt;GUID&gt; | ProgramFilesFolder |
+| Component2.&lt;GUID&gt; | StartMenuFolder    |
+| Component3.&lt;GUID&gt; | AppDataFolder      |
+| Component4.&lt;GUID&gt; | MyPicturesFolder   |
 
 
 
@@ -84,8 +84,8 @@ To fix this warning, name the action the same as the target directory. Note that
 
 | CustomAction                 | Type | Source                       | Target              |
 |------------------------------|------|------------------------------|---------------------|
-| StartMenuFolder.<GUID> | 51   | StartMenuFolder.<GUID> | \[StartMenuFolder\] |
-| MyAppDataFolderAction        | 51   | AppDataFolder.<GUID>   | \[AppDataFolder\]   |
+| StartMenuFolder.&lt;GUID&gt; | 51   | StartMenuFolder.&lt;GUID&gt; | \[StartMenuFolder\] |
+| MyAppDataFolderAction        | 51   | AppDataFolder.&lt;GUID&gt;   | \[AppDataFolder\]   |
 
 
 
@@ -97,7 +97,7 @@ To fix this warning, name the action the same as the target directory. Note that
 
 | Action                       | Sequence | BaseAction | After | Condition |
 |------------------------------|----------|------------|-------|-----------|
-| StartMenuFolder.<GUID> | 100      |            |       |           |
+| StartMenuFolder.&lt;GUID&gt; | 100      |            |       |           |
 
 
 

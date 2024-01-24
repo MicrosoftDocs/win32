@@ -1,6 +1,6 @@
 ---
 title: Distributed File System (DFS) Functions
-Description: The Distributed File System (DFS) functions provide the ability to logically group shares on multiple servers and to transparently link shares into a single hierarchical namespace. DFS organizes shared resources on a network in a treelike structure.
+description: The Distributed File System (DFS) functions provide the ability to logically group shares on multiple servers and to transparently link shares into a single hierarchical namespace. DFS organizes shared resources on a network in a treelike structure.
 ms.assetid: a29cde3e-483a-4658-94d4-27398f66abfb
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,6 +1,6 @@
 ---
 title: abs - ps
-description: Computes absolute value.
+description: Computes absolute value. | abs - ps
 ms.assetid: e97db550-2a03-421a-86f4-a6fc5f8e0bca
 ms.topic: reference
 ms.date: 05/31/2018
@@ -17,15 +17,7 @@ Computes absolute value.
 
 ## Syntax
 
-
-
-|              |
-|--------------|
-| abs dst, src |
-
-
-
- 
+**abs dst, src**
 
 where
 
@@ -36,9 +28,8 @@ where
 
 
 
-|                       |      |      |      |      |      |      |       |      |       |
-|-----------------------|------|------|------|------|------|------|-------|------|-------|
 | Pixel shader versions | 1\_1 | 1\_2 | 1\_3 | 1\_4 | 2\_0 | 2\_x | 2\_sw | 3\_0 | 3\_sw |
+|-----------------------|------|------|------|------|------|------|-------|------|-------|
 | abs                   |      |      |      |      | x    | x    | x     | x    | x     |
 
 
@@ -61,7 +52,7 @@ dest.w = abs(src.w)
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Minimum operating system | Windows 98 |
 

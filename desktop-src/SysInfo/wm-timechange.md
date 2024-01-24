@@ -1,5 +1,5 @@
 ---
-Description: A message that is sent whenever there is a change in the system time.
+description: A message that is sent whenever there is a change in the system time.
 ms.assetid: 94b5b6f7-04bb-4e0a-848b-e2b31ffc2938
 title: WM_TIMECHANGE message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A message that is sent whenever there is a change in the system time.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -68,7 +68,7 @@ An application should not broadcast this message, because the system will broadc
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

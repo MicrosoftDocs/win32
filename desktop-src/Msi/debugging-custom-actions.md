@@ -1,5 +1,5 @@
 ---
-Description: You can debug custom actions that are based on dynamic-link libraries by using Debugging Tools for Windows. It is not possible to use dynamic debugging with custom actions based on executable files or scripts.
+description: You can debug custom actions that are based on dynamic-link libraries by using Debugging Tools for Windows. It is not possible to use dynamic debugging with custom actions based on executable files or scripts.
 ms.assetid: 4241a27a-c127-4c65-96a2-1d655b343eba
 title: Debugging Custom Actions
 ms.topic: article
@@ -24,7 +24,7 @@ If you are debugging a custom action that runs with elevated (system) privileges
 
 Once the debugger has been attached to the correct process, the installer triggers a debugger breakpoint immediately before calling the entry point of the DLL. At the breakpoint, your DLL is already loaded into the process and the entry point address determined. If your custom action DLL could not be loaded or the custom action entry point did not exist, no breakpoint is triggered. Because the breakpoint is triggered before calling the DLL function, once the breakpoint has been triggered you should use your debugger to step forward until your custom action entry point is called. Alternately, you can set a breakpoint anywhere in your custom action and resume normal execution.
 
-The Windows Installer executes DLLs not stored in the [Binary table](binary-table.md) directly from the DLL location. The installer does not know the original name of a DLL stored in the Binary table and runs the DLL custom action under a temporary file name. The form of the temporary file name is MSI?????.TMP. On Windows XP, this temporary file is stored in a secure location, commonly <WindowFolder>\\Installer.
+The Windows Installer executes DLLs not stored in the [Binary table](binary-table.md) directly from the DLL location. The installer does not know the original name of a DLL stored in the Binary table and runs the DLL custom action under a temporary file name. The form of the temporary file name is MSI?????.TMP. On Windows XP, this temporary file is stored in a secure location, commonly &lt;WindowFolder&gt;\\Installer.
 
 Note that many DLLs created for debugging contain the name and path of the corresponding PDB file as part of the DLL itself. When debugging this type of DLL on a system where the PDB can be found at the location stored in the DLL, symbols may be loaded automatically by the debugger tool. In situations where the PDB cannot be found at the stored location, where the debugger does not support loading symbols from the stored location, or where the DLL was not built with debugging information, you may need to place your symbol files in the folder with the temporary DLL file.
 

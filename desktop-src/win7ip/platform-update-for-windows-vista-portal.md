@@ -1,6 +1,6 @@
 ---
 title: Platform Update for Windows Vista
-description: .
+description: Platform Update for Windows Vista
 ms.assetid: 661f88f9-e5ba-412d-8cb4-f3f186568b74
 ms.topic: article
 ms.date: 05/31/2018
@@ -36,11 +36,6 @@ For Windows Vista, end-users obtain the Platform Update for Windows Vista from W
 
 
 
- 
-
-## Additional resources
-
-[Knowledge Base article about the Platform Update for Windows Vista (KB 971644)](https://support.microsoft.com/kb/971644)
 
  
 

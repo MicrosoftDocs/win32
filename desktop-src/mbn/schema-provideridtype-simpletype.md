@@ -1,5 +1,5 @@
 ---
-Description: Defines a type for the ProviderID element of the Mobile Broadband profile.
+description: Defines a type for the ProviderID element of the Mobile Broadband profile.
 ms.assetid: 84193749-c98d-4313-bf99-3da1c74d7cc4
 title: providerIdType Simple Type
 ms.topic: reference
@@ -39,7 +39,7 @@ The **providerIdType** simple type is a token that is restricted by the followin
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the quantization parameter (QP) that was used to encode a video sample.
+description: Specifies the quantization parameter (QP) that was used to encode a video sample.
 ms.assetid: F7C4FEFC-FEE7-4614-BC90-4F9D5D878F49
 title: MFSampleExtension_VideoEncodeQP attribute (Mfapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The [**H.264 Video Encoder**](h-264-video-encoder.md) sets this attribute on the
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | None supported<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Broadcast to every window following a theme change event. Examples of theme change events are the activation of a theme, the deactivation of a theme, or a transition from one theme to another.
+description: Broadcast to every window following a theme change event. Examples of theme change events are the activation of a theme, the deactivation of a theme, or a transition from one theme to another.
 ms.assetid: 1a4051ac-cc6e-4520-ab66-d0a41a8a4c73
 title: WM_THEMECHANGED message (Winuser.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 > [!Note]  
 > This message is posted by the operating system. Applications typically do not send this message.
@@ -60,7 +60,7 @@ Following the **WM\_THEMECHANGED** broadcast, any existing theme handles are inv
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

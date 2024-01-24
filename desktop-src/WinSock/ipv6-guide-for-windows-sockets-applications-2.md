@@ -1,5 +1,5 @@
 ---
-Description: This guide provides the information you need to enable your Microsoft Windows application to use the next generation of Internet Protocol, version 6 (IPv6).
+description: This guide provides the information you need to enable your Microsoft Windows application to use the next generation of Internet Protocol, version 6 (IPv6).
 ms.assetid: 8e862eb0-2ba9-40b0-ac73-fcb0e625965e
 title: IPv6 Guide for Windows Sockets Applications
 ms.topic: article
@@ -41,9 +41,6 @@ To go straight to the sample application, see [Appendix A: IPv4-only Source Code
 [IPv6 Support](ipv6-support-2.md)
 </dt> <dt>
 
-[IPv6 Technology Preview for Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=27b1e6a6-bbdd-43c9-af57-dae19795a088)
-</dt> <dt>
-
 [Using the Checkv4.exe Utility](using-the-checkv4-exe-utility-2.md)
 </dt> <dt>
 
@@ -52,10 +49,3 @@ To go straight to the sample application, see [Appendix A: IPv4-only Source Code
 
 [Appendix B: IP-version Agnostic Source Code](appendix-b-ip-version-agnostic-source-code-2.md)
 </dt> </dl>
-
- 
-
- 
-
-
-

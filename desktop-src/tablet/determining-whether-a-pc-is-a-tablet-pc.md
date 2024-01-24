@@ -1,5 +1,5 @@
 ---
-Description: You may occasionally need to determine whether your application is running on a Tablet PC because you may want your applications to take advantage of inherent ink, recognition, and pen capabilities.
+description: You may occasionally need to determine whether your application is running on a Tablet PC because you may want your applications to take advantage of inherent ink, recognition, and pen capabilities.
 ms.assetid: 86a3eddb-6541-4b73-b2ca-6adedad1a1e5
 title: Determining Whether a PC is a Tablet PC
 ms.topic: article

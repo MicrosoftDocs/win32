@@ -1,5 +1,5 @@
 ---
-Description: Callback function for UVAtlas.
+description: Callback function for UVAtlas.
 ms.assetid: a605ae27-10c9-49b4-98fe-8c788c2c0752
 title: LPD3DXUVATLASCB
 ms.topic: reference
@@ -38,7 +38,7 @@ Be sure to specify the [**Windows Data Types**](../winprog/windows-data-types.md
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3dx9mesh.h |
 | Import Library           | d3dx9.lib   |

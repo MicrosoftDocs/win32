@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings for the metric service. The properties for this class cannot be modified directly. The client must call the ModifyServiceSettings method to modify any of these properties.
+description: Represents the settings for the metric service. The properties for this class cannot be modified directly. The client must call the ModifyServiceSettings method to modify any of these properties.
 ms.assetid: 578ddda7-4c8e-498e-8612-29c392390b73
 title: Msvm_MetricServiceSettingData class
 ms.topic: reference
@@ -124,7 +124,7 @@ Defines the interval at which metrics should be flushed to disk.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

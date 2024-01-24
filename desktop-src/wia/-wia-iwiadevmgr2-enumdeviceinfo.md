@@ -1,5 +1,5 @@
 ---
-Description: Creates an enumerator of property information for each available Windows Image Acquisition (WIA) 2.0 device.
+description: Creates an enumerator of property information for each available Windows Image Acquisition (WIA) 2.0 device.
 ms.assetid: e37b73d5-5192-46e4-bb1c-bd1ef41f1d6c
 title: IWiaDevMgr2::EnumDeviceInfo method (Wia.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unkn
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

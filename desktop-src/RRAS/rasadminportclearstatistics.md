@@ -74,13 +74,13 @@ There is no extended error information for this function; do not call [**GetLast
 
 The **RasAdminPortClearStatistics** function clears the statistics on the server, not locally within the application that makes the call. This means that the statistics are also reset for any other application that is monitoring the specified port.
 
-If the *lpszPort* port is part of a multilink connection, **RasAdminPortClearStatistics** resets the statistics for the specified port, The function also resets the cumulative statistics for the multilink connection. However, the function does not effect the individual statistics for other ports that are part of the multilink connection.
+If the *lpszPort* port is part of a multilink connection, **RasAdminPortClearStatistics** resets the statistics for the specified port, The function also resets the cumulative statistics for the multilink connection. However, the function does not affect the individual statistics for other ports that are part of the multilink connection.
 
 ## Requirements
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows 2000 Professional<br/>                                                   |
 | End of server support<br/> | Windows 2000 Server<br/>                                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSQLLinkNotSupportedException properties"
 title: EsentSQLLinkNotSupportedException properties
 TOCTitle: EsentSQLLinkNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSQLLinkNotSupportedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSQLLinkNotSupportedException](dn334854\(v=exchg.10\).md) type exposes the following members.
+The [EsentSQLLinkNotSupportedException](./esentsqllinknotsupportedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSQLLinkNotSupportedException class](dn334854\(v=exchg.10\).md)
+[EsentSQLLinkNotSupportedException class](./esentsqllinknotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,6 +1,6 @@
 ---
 title: DeleteEx method of the Win32_SessionBrokerFarmAccount class
-description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012.
+description: The Win32\_SessionBrokerFarmAccount class is no longer available for use as of Windows Server 2012. | DeleteEx method of the Win32_SessionBrokerFarmAccount class
 ms.assetid: d30c5d3e-f63c-4b21-85ae-a0b8d5868d64
 ms.tgt_platform: multiple
 keywords:
@@ -55,7 +55,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |

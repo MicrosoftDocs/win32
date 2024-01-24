@@ -1,5 +1,5 @@
 ---
-Description: Represents the attributes and behaviors of a network adapter. This class includes extra properties and methods that support the management of the TCP/IP protocol that are independent from the network adapter.
+description: Represents the attributes and behaviors of a network adapter. This class includes extra properties and methods that support the management of the TCP/IP protocol that are independent from the network adapter.
 ms.assetid: 690b46ed-a065-4973-b044-0df4e81e41a1
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapterConfiguration class
@@ -79,7 +79,7 @@ api_location:
 
 # Win32\_NetworkAdapterConfiguration class
 
-The **Win32\_NetworkAdapterConfiguration** [WMI class](../wmisdk/retrieving-a-class.md)represents the attributes and behaviors of a network adapter. This class includes extra properties and methods that support the management of the TCP/IP protocol that are independent from the network adapter.
+The **Win32\_NetworkAdapterConfiguration** [WMI class](../wmisdk/retrieving-a-class.md) represents the attributes and behaviors of a network adapter. This class includes extra properties and methods that support the management of the TCP/IP protocol that are independent from the network adapter.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -1331,10 +1331,6 @@ The **Win32\_NetworkAdapterConfiguration** class is derived from [**CIM\_Setting
 
 ## Examples
 
-The [WMI Information Retriever](https://Gallery.TechNet.Microsoft.Com/e493376c-1286-456b-bd4b-4ac3b0e9bb45) VBScript code example on the TechNet Gallery uses the **Win32\_NetworkAdapterConfiguration** class to retrieve network configuration information from a number of remote computers.
-
-The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software, including **Win32\_NetworkAdapterConfiguration**, to display information about a local or remote system.
-
 The following PowerShell code retrieves the configuration settings for the Microsoft ISTAP Adapter.
 
 
@@ -1669,7 +1665,7 @@ End Function
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Stops the service.
+description: StopService method of the Msvm_SecurityService class - Stops the service.
 ms.assetid: cf100cea-b0e1-42e9-831e-6422aded47c5
 title: StopService method of the Msvm_SecurityService class
 ms.topic: reference
@@ -48,7 +48,7 @@ On success, returns a 0; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

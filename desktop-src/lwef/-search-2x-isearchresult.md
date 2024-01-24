@@ -65,7 +65,7 @@ These methods expose properties and actions applicable to the result set.
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |

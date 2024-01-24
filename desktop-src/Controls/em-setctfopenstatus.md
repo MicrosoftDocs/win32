@@ -46,7 +46,7 @@ If successful, this message returns **TRUE**. If unsuccessful, this message retu
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

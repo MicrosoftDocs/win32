@@ -1,5 +1,5 @@
 ---
-Description: Returns information about the placement and orientation of a glyph in a character cell.
+description: Returns information about the placement and orientation of a glyph in a character cell.
 ms.assetid: 80a78e68-6f88-4cd2-bb7b-0c608ae700aa
 title: ID3DXFont::GetGlyphData method (D3dx9core.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ Address of a pointer to a [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/
 *pBlackBox* \[out\]
 </dt> <dd>
 
-Type: **[**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **[**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
 Pointer to the smallest rectangle object that completely encloses the glyph.
 
@@ -84,7 +84,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

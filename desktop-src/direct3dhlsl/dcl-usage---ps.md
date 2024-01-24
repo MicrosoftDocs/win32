@@ -17,11 +17,7 @@ Declare the association between vertex shader output and pixel shader input.
 
 ## Syntax
 
-
-
-|                                                   |
-|---------------------------------------------------|
-| dcl\_semantics \[\_centroid\] dst\[.write\_mask\] |
+dcl\_semantics \[\_centroid\] dst\[.write\_mask\]
 
 
 
@@ -30,7 +26,7 @@ Declare the association between vertex shader output and pixel shader input.
 Where:
 
 -   \_semantics: Identifies the intended data usage, and may be any of the values in [**D3DDECLUSAGE**](/windows/desktop/direct3d9/d3ddeclusage) (without the D3DDECLUSAGE\_ prefix). Additionally, an integer index can be appended to the semantic to distinguish parameters that use similar semantics.
--   \[\_[Centroid](dx9-graphics-reference-asm-ps-instructions-modifiers-ps-2-0.md)\] is an optional instruction modifier. It is is supported on dcl\_usage instructions that declare the input registers and on texture lookup instructions. The centroid is appended with no space.
+-   \[\_[Centroid](dx9-graphics-reference-asm-ps-instructions-modifiers-ps-2-0.md)\] is an optional instruction modifier. It is supported on dcl\_usage instructions that declare the input registers and on texture lookup instructions. The centroid is appended with no space.
 -   dst: destination register. See [ps\_3\_0 Registers](dx9-graphics-reference-asm-ps-registers-ps-3-0.md).
 -   write\_mask: The same output register may be declared multiple times, each time with a unique write mask (so different semantics can be applied to individual components). However, the same semantic cannot be used multiple times in a declaration. This means that vectors must be four components or less, and cannot go across four-component register boundaries (individual output registers). When the \_psize semantic is used, it should have a full write mask because it is considered a scalar. When the \_position semantic is used, it should have full write mask because all four components have to be written.
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageBoundaryException methods"
 title: EsentPageBoundaryException methods
 TOCTitle: EsentPageBoundaryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPageBoundaryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentPageBoundaryException](dn319768\(v=exchg.10\).md) type exposes the following members.
+The [EsentPageBoundaryException](./esentpageboundaryexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentPageBoundaryException class](dn319768\(v=exchg.10\).md)
+[EsentPageBoundaryException class](./esentpageboundaryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

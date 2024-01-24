@@ -374,7 +374,7 @@ The [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) instruc
 
 Sometimes the read or write that acquires or releases a resource is done using one of the **InterlockedXxx** functions. On Windows, this simplifies things; because on Windows, the **InterlockedXxx** functions are all full-memory barriers. They effectively have a CPU memory barrier both before and after them, which means that they are a full read-acquire or write-release barrier all by themselves.
 
-On Xbox 360, the **InterlockedXxx** functions do not contain CPU memory barriers. They prevent compiler reordering of reads and writes but not CPU reordering. Therefore, in most cases when using **InterlockedXxx** functions on Xbox 360, you should precede or follow them with an **\_\_lwsync**, to make them a read-acquire or write-release barrier. For convenience and for easier readability, there are **Acquire** and **Release** versions of many of the **InterlockedXxx** functions. These come with a built-in memory barrier. For instance, [**InterlockedIncrementAcquire**](/previous-versions/windows/win32/legacy/ms683618(v=vs.85)) does an interlocked increment followed by an **\_\_lwsync** memory barrier to give the full read-acquire functionality.
+On Xbox 360, the **InterlockedXxx** functions do not contain CPU memory barriers. They prevent compiler reordering of reads and writes but not CPU reordering. Therefore, in most cases when using **InterlockedXxx** functions on Xbox 360, you should precede or follow them with an **\_\_lwsync**, to make them a read-acquire or write-release barrier. For convenience and for easier readability, there are **Acquire** and **Release** versions of many of the **InterlockedXxx** functions. These come with a built-in memory barrier. For instance, [**InterlockedIncrementAcquire**](/previous-versions/windows/desktop/legacy/ms683618(v=vs.85)) does an interlocked increment followed by an **\_\_lwsync** memory barrier to give the full read-acquire functionality.
 
 It is recommended that you use the **Acquire** and **Release** versions of the **InterlockedXxx** functions (most of which are available on Windows as well, with no performance penalty) to make your intent more obvious and to make it easier to get the memory barrier instructions in the correct place. Any use of **InterlockedXxx** on Xbox 360 without a memory barrier should be examined very carefully, because it is often a bug.
 
@@ -418,10 +418,10 @@ A pipe is a construct that lets one or more threads write data that is then read
 
 ## Xbox 360 Performance
 
-The performance of synchronization instructions and functions on Xbox 360 will vary depending on what other code is running. Acquiring locks will take much longer if another thread currently owns the lock. [**InterlockedIncrement**](/windows/win32/api/winbase/nf-winbase-interlockedincrement) and critical section operations will take much longer if other threads are writing to the same cache line. The contents of the store queues can also affect performance. Therefore, all of these numbers are just approximations, generated from very simple tests:
+The performance of synchronization instructions and functions on Xbox 360 will vary depending on what other code is running. Acquiring locks will take much longer if another thread currently owns the lock. [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincrement) and critical section operations will take much longer if other threads are writing to the same cache line. The contents of the store queues can also affect performance. Therefore, all of these numbers are just approximations, generated from very simple tests:
 
 -   **lwsync** was measured as taking 33-48 cycles.
--   [**InterlockedIncrement**](/windows/win32/api/winbase/nf-winbase-interlockedincrement) was measured as taking 225-260 cycles.
+-   [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincrement) was measured as taking 225-260 cycles.
 -   Acquiring or releasing a critical section was measured as taking about 345 cycles.
 -   Acquiring or releasing a mutex was measured as taking about 2350 cycles.
 
@@ -432,7 +432,7 @@ The performance of synchronization instructions and functions on Windows vary wi
 However, even some measurements generated from very simple tests are helpful:
 
 -   [**MemoryBarrier**](/windows/win32/api/winnt/nf-winnt-memorybarrier) was measured as taking 20-90 cycles.
--   [**InterlockedIncrement**](/windows/win32/api/winbase/nf-winbase-interlockedincrement) was measured as taking 36-90 cycles.
+-   [**InterlockedIncrement**](/windows/win32/api/winnt/nf-winnt-interlockedincrement) was measured as taking 36-90 cycles.
 -   Acquiring or releasing a critical section was measured as taking 40-100 cycles.
 -   Acquiring or releasing a mutex was measured as taking about 750-2500 cycles.
 

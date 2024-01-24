@@ -1,5 +1,5 @@
 ---
-Description: The context of the product.
+description: The context of the product.
 ms.assetid: e8848e99-452d-4ea7-830b-7af7f32f8390
 title: Client.Context property
 ms.topic: reference
@@ -29,7 +29,7 @@ The context of the product. This property calls the [**MsiEnumClientsEx**](/wind
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 or later.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |

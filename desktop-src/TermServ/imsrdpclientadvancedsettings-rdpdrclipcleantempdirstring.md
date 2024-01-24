@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings RdpdrClipCleanTempDirString property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings RdpdrClipCleanTempDirString property
 ms.assetid: 3c143567-edfd-4a28-a390-4733b91aae20
 ms.tgt_platform: multiple
 keywords:
@@ -89,7 +89,7 @@ Returns **S\_FALSE**.
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                       |

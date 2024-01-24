@@ -1,5 +1,5 @@
 ---
-Description: 'Three generations of Rights Management SDK are now available: Rights Management SDK 4.2, Microsoft Rights Management SDK 2.1 and Active Directory Rights Management Services SDK, as well as a scripting API, Active Directory Rights Management Services Scripting API, that enables custom administration of an RMS server.'
+description: 'Three generations of Rights Management SDK are now available: Rights Management SDK 4.2, Microsoft Rights Management SDK 2.1 and Active Directory Rights Management Services SDK, as well as a scripting API, Active Directory Rights Management Services Scripting API, that enables custom administration of an RMS server.'
 ms.assetid: 7776559E-3950-4184-B3C0-BD12EE593510
 title: Microsoft Rights Management SDKs
 ms.topic: reference

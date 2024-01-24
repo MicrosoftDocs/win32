@@ -22,7 +22,7 @@ The time when this root key was created.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Kds-CreateTime                    |
 | Ldap-Display-Name | msKds-CreateTime                     |
@@ -43,7 +43,7 @@ The time when this root key was created.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |

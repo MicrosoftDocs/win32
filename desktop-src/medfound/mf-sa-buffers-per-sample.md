@@ -1,5 +1,5 @@
 ---
-Description: Specifies how many buffers the video-sample allocator creates for each video sample.
+description: Specifies how many buffers the video-sample allocator creates for each video sample.
 ms.assetid: A782BF8A-822A-407D-A30A-F2045BBB0BC0
 title: MF_SA_BUFFERS_PER_SAMPLE attribute (Mftransform.h)
 ms.topic: reference
@@ -33,7 +33,7 @@ If all of these criteria are true, the MFT should set the attribute value to 2 (
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |

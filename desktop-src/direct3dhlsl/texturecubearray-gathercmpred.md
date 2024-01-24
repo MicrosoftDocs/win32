@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray GatherCmpRed methods
-description: Samples and compares a texture and returns the red component.
+description: Samples and compares a texture and returns the red component. | TextureCubeArray::TextureCubeArray GatherCmpRed methods
 ms.assetid: FD87AA60-C99D-404E-AA28-096240A2E757
 keywords:
 - GatherCmpRed methods HLSL

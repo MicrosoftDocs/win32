@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical shortcut file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
+description: Uncompresses the logical shortcut file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
 ms.assetid: aa1c04d1-4cce-4096-bce3-b9c61b9a4eb7
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_ShortcutFile class
@@ -166,7 +166,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

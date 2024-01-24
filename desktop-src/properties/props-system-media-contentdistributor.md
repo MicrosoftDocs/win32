@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Media.ContentDistributor
 ms.assetid: b4c65279-e94e-48d2-bd6c-60980cacc154
 title: System.Media.ContentDistributor
 ms.topic: article

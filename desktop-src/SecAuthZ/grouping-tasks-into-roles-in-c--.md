@@ -1,5 +1,5 @@
 ---
-Description: In Authorization Manager, a role represents a category of users and the tasks those users are authorized to perform.
+description: In Authorization Manager, a role represents a category of users and the tasks those users are authorized to perform.
 ms.assetid: d2671c52-8d34-45e2-9c49-4ed399f3c220
 title: Grouping Tasks into Roles in C++
 ms.topic: article

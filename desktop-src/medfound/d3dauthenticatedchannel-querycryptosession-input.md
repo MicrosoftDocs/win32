@@ -1,5 +1,5 @@
 ---
-Description: Contains input data for a D3DAUTHENTICATEDQUERY\_CRYPTOSESSION query.
+description: Contains input data for a D3DAUTHENTICATEDQUERY\_CRYPTOSESSION query.
 ms.assetid: 3a4dead8-fe23-41b4-a167-e0430d09248a
 title: D3DAUTHENTICATEDCHANNEL_QUERYCRYPTOSESSION_INPUT structure (D3d9types.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ A handle to a DirectX Video Acceleration 2 (DXVA-2) decoder device.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

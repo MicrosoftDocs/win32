@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DNS Overview
 
-DNS is an industry-standard service used to locate computers on an Internet Protocol (IP)-based network. IP networks, such as the Internet and Windows 2000 networks, rely on number-based addresses, such as 207.46.131.137 to ferry information throughout the network. Network users rely on character-based names, such as www.microsoft.com. Therefore, it is necessary to translate character or user-friendly addresses (www.microsoft.com) into the number-based addresses (207.46.131.137) that the network can recognize. DNS is the service of choice in Windows 2000 to locate resources and translate them into their corresponding IP addresses.
+DNS is an industry-standard service used to locate computers on an Internet Protocol (IP)-based network. IP networks, such as the Internet and Windows 2000 networks, rely on number-based addresses, such as 207.46.131.137 to ferry information throughout the network. Network users rely on character-based names, such as `www.microsoft.com`. Therefore, it is necessary to translate character or user-friendly addresses (`www.microsoft.com`) into the number-based addresses (207.46.131.137) that the network can recognize. DNS is the service of choice in Windows 2000 to locate resources and translate them into their corresponding IP addresses.
 
 DNS uses a specialized database of resource records, commonly referred to simply as RRs, to respond to client name-resolution queries. Before DNS, name resolution on the Internet was achieved with [*hosts file*](h-gly.md), which are manually created files that associated host names with IP addresses.
 

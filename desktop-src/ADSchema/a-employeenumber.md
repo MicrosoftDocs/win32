@@ -22,7 +22,7 @@ The number assigned to an employee other than the ID.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Employee-Number                             |
 | Ldap-Display-Name | employeeNumber                              |
@@ -48,7 +48,7 @@ The number assigned to an employee other than the ID.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C67       |
@@ -69,7 +69,7 @@ The number assigned to an employee other than the ID.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C67       |
@@ -90,7 +90,7 @@ The number assigned to an employee other than the ID.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C67       |
@@ -111,7 +111,7 @@ The number assigned to an employee other than the ID.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C67       |
@@ -132,7 +132,7 @@ The number assigned to an employee other than the ID.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C67       |
@@ -153,7 +153,7 @@ The number assigned to an employee other than the ID.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C67       |

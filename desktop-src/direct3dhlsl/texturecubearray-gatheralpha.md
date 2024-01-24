@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray GatherAlpha methods
-description: Samples a texture and returns the alpha component.
+description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation. | TextureCubeArray::TextureCubeArray GatherAlpha methods
 ms.assetid: C7D4B78D-B756-4ADA-B0EA-3360007C02E1
 keywords:
 - GatherAlpha methods HLSL
@@ -16,15 +16,15 @@ api_location:
 
 # TextureCubeArray::GatherAlpha methods
 
-Samples a texture and returns the alpha component.
+Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation.
 
 ### Overload list
 
 
 
-| Method                                                                    | Description                                                                                         |
-|:--------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**GatherAlpha(S,float,uint)**](tcubearray-gatheralpha-s-float-uint-.md) | Samples a texture and returns the alpha component along with status about the operation.<br/> |
+| Method                                                                    | Description                                                                                                                                      |
+|:--------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**GatherAlpha(S,float,uint)**](tcubearray-gatheralpha-s-float-uint-.md) | Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.<br/> |
 
 
 

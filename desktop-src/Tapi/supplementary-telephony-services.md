@@ -1,5 +1,5 @@
 ---
-Description: Supplementary Telephony services are the collection of all the services defined by the API other than those included in the Basic Telephony subset.
+description: Supplementary Telephony services are the collection of all the services defined by the API other than those included in the Basic Telephony subset.
 ms.assetid: a2a30a0d-fbfd-4317-8e3a-d1e1e8b86ae0
 title: Supplementary Telephony Services
 ms.topic: article

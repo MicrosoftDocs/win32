@@ -1,5 +1,5 @@
 ---
-Description: Specifies the quality at which maximum coded bandwidth is allowed.
+description: Specifies the quality at which maximum coded bandwidth is allowed.
 ms.assetid: a1862ea5-5680-4d20-a8bf-e5ddb84a361e
 title: MFPKEY_DYN_BANDTRUNC_QFLOOR Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

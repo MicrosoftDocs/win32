@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the codec should use conservative perceptual optimization when encoding.
+description: Specifies whether the codec should use conservative perceptual optimization when encoding.
 ms.assetid: f44fd932-d8f8-46c7-b17c-27e6141408ab
 title: MFPKEY_PERCEPTUALOPTLEVEL Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The results of the optimization will vary considerably depending on the type of 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

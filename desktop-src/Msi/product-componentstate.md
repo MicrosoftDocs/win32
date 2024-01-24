@@ -1,5 +1,5 @@
 ---
-Description: The ComponentState property is the installation state of the component for the instance of this product.This property calls MsiQueryComponentState, with the ProductCode, UserSid, and Context of the object.
+description: The ComponentState property is the installation state of the component for the instance of this product.This property calls MsiQueryComponentState, with the ProductCode, UserSid, and Context of the object.
 ms.assetid: 2939048a-42a5-4ffb-868c-251c0f15e5ed
 title: Product.ComponentState method
 ms.topic: reference
@@ -84,7 +84,7 @@ If the call fails, the property contains an error code from [**MsiQueryComponent
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

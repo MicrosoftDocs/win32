@@ -1,6 +1,6 @@
 ---
 title: glGetColorTableParameterivEXT function (Gl.h)
-description: The glGetColorTableParameterfvEXT and glGetColorTableParameterivEXT functions get palette parameters from color tables.
+description: The glGetColorTableParameterfvEXT and glGetColorTableParameterivEXT functions get palette parameters from color tables. | glGetColorTableParameterivEXT function (Gl.h)
 ms.assetid: 39a0b346-d103-4426-8536-95e7e1548f7a
 keywords:
 - glGetColorTableParameterivEXT function OpenGL
@@ -91,7 +91,7 @@ The **glGetColorTableParameterivEXT** and [**glGetColorTableParameterfvEXT**](gl
 
 
 
-|                                     |                                                                                 |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                      |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                            |

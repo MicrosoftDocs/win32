@@ -1,5 +1,5 @@
 ---
-Description: Returns the current protection level for the device.
+description: Returns the current protection level for the device.
 ms.assetid: 335d21e8-2a98-4824-a60d-1969a40e8d24
 title: D3DAUTHENTICATEDQUERY_PROTECTION (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Returns the current protection level for the device.
 
 
 
-|             |                                                                                                            |
+| Requirement | Value |
 |-------------|------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_PROTECTION**                                                                      |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT**](d3dauthenticatedchannel-query-input.md)                       |
@@ -39,7 +39,7 @@ This query is valid for all channel types.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

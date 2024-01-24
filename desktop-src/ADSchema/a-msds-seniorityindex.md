@@ -1,6 +1,6 @@
 ---
 title: ms-DS-Seniority-Index attribute
-description: Contains the seniority index as applied by the organization where the person works.
+description: Contains the seniority index as applied by the organization where the person works. | ms-DS-Seniority-Index attribute
 ms.assetid: d2fae29b-fab0-48b4-a4df-9259e99eb952
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ Contains the seniority index as applied by the organization where the person wor
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Seniority-Index                |
 | Ldap-Display-Name | msDS-SeniorityIndex                  |
@@ -43,7 +43,7 @@ Contains the seniority index as applied by the organization where the person wor
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C9C                                                             |

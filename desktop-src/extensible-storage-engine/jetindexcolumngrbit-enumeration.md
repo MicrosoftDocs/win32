@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetIndexColumnGrbit enumeration"
 title: JetIndexColumnGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JetIndexColumnGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JetIndexColumnGrbit
@@ -32,11 +33,11 @@ ROBOTS: INDEX,FOLLOW
 
 # JetIndexColumnGrbit enumeration
 
-Options for [JET_INDEX_COLUMN](dn335349\(v=exchg.10\).md).
+Options for [JET_INDEX_COLUMN](./jet-index-column-class.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -83,4 +84,4 @@ public enum JetIndexColumnGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

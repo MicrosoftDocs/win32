@@ -1,5 +1,5 @@
 ---
-Description: Manages Shell links. This object makes much of the functionality of the IShellLink interface available to scripting applications.
+description: Manages Shell links. This object makes much of the functionality of the IShellLink interface available to scripting applications.
 title: ShellLinkObject object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: d3c0ccf8-0f83-42f7-9d6f-1fb293da6364
-api_name: 
- - ShellLinkObject
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -76,7 +67,7 @@ The **ShellLinkObject** object has these properties.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

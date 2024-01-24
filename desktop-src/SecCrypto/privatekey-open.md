@@ -1,5 +1,5 @@
 ---
-Description: Accesses an existing key container. This method associates the key container to the certificate that corresponds to the private key by adding the CERT\_KEY\_PROV\_INFO\_PROP\_ID property using the specified information.
+description: Accesses an existing key container. This method associates the key container to the certificate that corresponds to the private key by adding the CERT\_KEY\_PROV\_INFO\_PROP\_ID property using the specified information.
 ms.assetid: e5e19452-bfdc-4427-ac1d-cf8aa349bb89
 title: PrivateKey.Open method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # PrivateKey.Open method
 
-\[The **Open** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **Open** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Certificate2.PrivateKey Property**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2.privatekey) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Open** method accesses an existing [*key container*](../secgloss/k-gly.md). This method associates the key container to the [*certificate*](../secgloss/c-gly.md) that corresponds to the [*private key*](../secgloss/p-gly.md) by adding the CERT\_KEY\_PROV\_INFO\_PROP\_ID property using the specified information.
 
@@ -167,7 +167,7 @@ This method returns CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-base
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

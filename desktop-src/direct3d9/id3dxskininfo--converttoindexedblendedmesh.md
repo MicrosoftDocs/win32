@@ -1,5 +1,5 @@
 ---
-Description: Takes a mesh and returns a new mesh with per-vertex blend weights, indices, and a bone combination table. The table describes which bone palettes affect which subsets of the mesh.
+description: Takes a mesh and returns a new mesh with per-vertex blend weights, indices, and a bone combination table. The table describes which bone palettes affect which subsets of the mesh.
 ms.assetid: e4758a3b-8a45-4ed3-aa62-9713d12afc56
 title: ID3DXSkinInfo::ConvertToIndexedBlendedMesh method (D3DX9Mesh.h)
 ms.topic: reference
@@ -160,7 +160,7 @@ This method does not run on hardware that does not support fixed-function vertex
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

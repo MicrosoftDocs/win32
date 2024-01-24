@@ -1,5 +1,5 @@
 ---
-Description: Specifies the field dominance for an interlaced video frame.
+description: Specifies the field dominance for an interlaced video frame.
 ms.assetid: 680c42e4-2808-46ed-98a8-c77b14a55def
 title: MFSampleExtension_BottomFieldFirst attribute (Mfapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

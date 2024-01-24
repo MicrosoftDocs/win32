@@ -1,6 +1,6 @@
 ---
 title: Win32_TSExpandEnvironmentVariables class
-description: Expands system-defined environment variables.
+description: Expands system-defined environment variables. | Win32_TSExpandEnvironmentVariables class
 ms.assetid: f79d4fa2-1a6e-4a2f-a637-b62f05cfd2ad
 ms.tgt_platform: multiple
 keywords:
@@ -228,7 +228,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

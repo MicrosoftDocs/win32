@@ -1,5 +1,5 @@
 ---
-Description: Checks whether a specified event handle is valid and the animation event has not yet completed.
+description: Checks whether a specified event handle is valid and the animation event has not yet completed.
 ms.assetid: 242ad1e2-4b04-4ce1-9cdf-f66da9f83f06
 title: ID3DXAnimationController::ValidateEvent method (D3dx9anim.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The method will indicate that an event handle is valid even if the event is runn
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: Custom HRESULT values for the graphics diagnostics capture interface.
+description: Custom HRESULT values for the graphics diagnostics capture interface.
 MS-HAID: vspixengine.Hresult
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -307,7 +307,7 @@ A custom HRESULT which indicates that a draw call was entirely occluded, resulti
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

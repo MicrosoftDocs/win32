@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS structure"
 title: JET_THREADSTATS structure (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_THREADSTATS structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Contains cumulative statistics on the work performed by the database engine on the current thread. This information is returned via JetGetThreadStats.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,7 +58,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
+[JET_THREADSTATS members](./jet-threadstats-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

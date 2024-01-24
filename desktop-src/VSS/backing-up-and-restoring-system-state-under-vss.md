@@ -1,5 +1,5 @@
 ---
-Description: Note  This topic only applies to Windows Server 2003 R2 and Windows Server 2003 with Service Pack 1 (SP1).
+description: Note  This topic only applies to Windows Server 2003 R2 and Windows Server 2003 with Service Pack 1 (SP1).
 ms.assetid: a192d9a7-1c65-4251-acb1-4df03ebfe910
 title: Backing Up and Restoring System State in Windows Server 2003 R2 and Windows Server 2003 SP1
 ms.topic: article

@@ -21,7 +21,7 @@ Object(Access-Point) syntax. From X400.
 
 
 
-|              |                      |
+| Entry | Value |
 |--------------|----------------------|
 | Name         | Object(Access-Point) |
 | Syntax ID    | 2.5.5.14             |

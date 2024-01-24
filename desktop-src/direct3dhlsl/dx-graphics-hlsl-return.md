@@ -19,11 +19,7 @@ api_location:
 
 A return statement signals the end of a function.
 
-
-
-|                   |
-|-------------------|
-| return \[value\]; |
+return \[value\];
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: The Attributes property returns the value from the Attributes column of the ModuleConfiguration table.
+description: The Attributes property returns the value from the Attributes column of the ModuleConfiguration table.
 ms.assetid: fb7336b7-28af-48c8-80b2-80c03948660a
 title: ConfigurableItem.Attributes property (Mergemod.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ See [**get\_Attributes**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigur
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

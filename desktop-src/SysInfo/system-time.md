@@ -1,5 +1,5 @@
 ---
-Description: System time is the current date and time of day.
+description: System time is the current date and time of day.
 ms.assetid: 1a1e251e-2375-4134-bbd8-1e4670b9f9d2
 title: System Time
 ms.topic: article

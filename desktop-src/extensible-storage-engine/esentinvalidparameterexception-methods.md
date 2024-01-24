@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidParameterException methods"
 title: EsentInvalidParameterException methods
 TOCTitle: EsentInvalidParameterException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidParameterException](dn319601\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidParameterException](./esentinvalidparameterexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidParameterException class](dn319601\(v=exchg.10\).md)
+[EsentInvalidParameterException class](./esentinvalidparameterexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for ready thread events. The following syntax is simplified from MOF code.
+description: This class is the event type class for ready thread events. The following syntax is simplified from MOF code.
 ms.assetid: 861ab070-5536-4897-b523-9b09a7d59b3e
 title: ReadyThread class
 ms.topic: reference
@@ -161,7 +161,7 @@ The thread identifier of the thread being readied for execution.
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

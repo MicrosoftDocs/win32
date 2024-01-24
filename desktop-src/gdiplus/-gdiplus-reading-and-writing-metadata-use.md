@@ -1,5 +1,5 @@
 ---
-Description: Some image files contain metadata that you can read to determine features of the image.
+description: Some image files contain metadata that you can read to determine features of the image.
 ms.assetid: 2febea35-3fea-4a2d-baaf-7a4f935fc81f
 title: Reading and Writing Metadata
 ms.topic: article
@@ -65,7 +65,7 @@ A [**PropertyItem**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-propert
 
 
 
-|            |                                                                                                                                                                                                                                                                                                        |
+|            | Description                                                                                                                                                                                                                                                                                                       |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **id**     | A tag that identifies the metadata item. The values that can be assigned to **id** (PropertyTagImageTitle, PropertyTagEquipMake, PropertyTagExifExposureTime, and the like) are defined in Gdiplusimaging.h.                                                                                           |
 | **length** | The length, in bytes, of the array of values pointed to by the **value** data member. Note that if the **type** data member is set to PropertyTagTypeASCII, then the length data member is the **length** of a null-terminated character string, including the NULL terminator.                        |

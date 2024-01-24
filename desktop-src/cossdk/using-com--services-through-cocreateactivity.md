@@ -1,5 +1,5 @@
 ---
-Description: The CoCreateActivity function is used to submit batch work to the COM+ system. It allows script-based applications to support an application-wide COM+ service configuration.
+description: The CoCreateActivity function is used to submit batch work to the COM+ system. It allows script-based applications to support an application-wide COM+ service configuration.
 ms.assetid: af734507-516c-43f1-9c5e-c77cde1b8008
 title: Using COM+ Services Through CoCreateActivity
 ms.topic: article

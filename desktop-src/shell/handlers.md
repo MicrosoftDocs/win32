@@ -1,5 +1,5 @@
 ---
-Description: The capabilities of the Shell can be extended with registry entries and .ini files.
+description: The capabilities of the Shell can be extended with registry entries and .ini files.
 ms.assetid: '74a81e4f-7357-4901-a118-ba44e8892f25'
 title: Creating Shell Extension Handlers
 ms.topic: article
@@ -64,7 +64,7 @@ The details of how to implement specific extension handlers are covered in the s
 
 Much of the implementation of a Shell extension handler object depends on its type. There are, however, some common elements. This section discusses those aspects of implementation that are shared by all Shell extension handlers.
 
-All Shell extension handlers are in-process Component Object Model (COM) objects. They must be assigned a GUID and registered as described in Registering Shell Extension Handlers. They are implemented as DLLs and must export the following standard functions:
+Many Shell extension handlers are in-process Component Object Model (COM) objects. They must be assigned a GUID and registered as described in Registering Shell Extension Handlers. They are implemented as DLLs and must export the following standard functions:
 
 -   [**DllMain**](../dlls/dllmain.md). The standard entry point to the DLL.
 -   [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject). Exposes the object's class factory.
@@ -95,7 +95,7 @@ The following code fragment illustrates how a typical Shell extension handler im
 
 
 ```C++
-TCHAR m_szFileName[MAX_PATH];    // The file name
+wchar_t m_szFileName[MAX_PATH];    // The file name
 DWORD m_dwMode;                  // The file access mode
 
 CSampleExtHandler::GetClassID(CLSID *pCLSID)
@@ -110,8 +110,6 @@ CSampleExtHandler::Load(PCWSTR pszFile, DWORD dwMode)
 }
 ```
 
-
-
 ### Implementing IShellExtInit
 
 The [**IShellExtInit**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface has only one method, [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize), in addition to [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown). The method has three parameters that the Shell can use to pass in various types of information. The values passed in depend on the type of handler, and some can be set to **NULL**.
@@ -125,7 +123,7 @@ The [**IShellExtInit::Initialize**](/windows/desktop/api/shobjidl_core/nf-shobji
 
 ```C++
 LPCITEMIDLIST  m_pIDFolder;           //The folder's PIDL
-TCHAR          m_szFile[MAX_PATH];    //The file name
+wchar_t        m_szFile[MAX_PATH];    //The file name
 IDataObject   *m_pDataObj;            //The IDataObject pointer
 HKEY           m_hRegKey;             //The file or folder's registry key
 
@@ -135,10 +133,10 @@ STDMETHODIMP CShellExt::Initialize(LPCITEMIDLIST pIDFolder,
 { 
     // If Initialize has already been called, release the old PIDL
     ILFree(m_pIDFolder);
-    m_pIDFolder = NULL;
+    m_pIDFolder = nullptr;
 
-    //Store the new PIDL.
-    if(pIDFolder)
+    // Store the new PIDL.
+    if (pIDFolder)
     {
         m_pIDFolder = ILClone(pIDFolder);
     }
@@ -161,13 +159,13 @@ STDMETHODIMP CShellExt::Initialize(LPCITEMIDLIST pIDFolder,
         FORMATETC   fe = {CF_HDROP, NULL, DVASPECT_CONTENT, -1, TYMED_HGLOBAL};
         UINT        uCount;
 
-        if(SUCCEEDED(m_pDataObj->GetData(&fe, &medium)))
+        if (SUCCEEDED(m_pDataObj->GetData(&fe, &medium)))
         {
             // Get the count of files dropped.
             uCount = DragQueryFile((HDROP)medium.hGlobal, (UINT)-1, NULL, 0);
 
             // Get the first file name from the CF_HDROP.
-            if(uCount)
+            if (uCount)
                 DragQueryFile((HDROP)medium.hGlobal, 0, m_szFile, 
                               sizeof(m_szFile)/sizeof(TCHAR));
 
@@ -177,16 +175,10 @@ STDMETHODIMP CShellExt::Initialize(LPCITEMIDLIST pIDFolder,
 
     // Duplicate the registry handle. 
     if (hRegKey) 
-        RegOpenKeyEx(hRegKey, 
-                     NULL, 
-                     0L, 
-                     MAXIMUM_ALLOWED, 
-                     &m_hRegKey); 
+        RegOpenKeyEx(hRegKey, nullptr, 0L, MAXIMUM_ALLOWED, &m_hRegKey); 
     return S_OK; 
 }
 ```
-
-
 
 CSampleExtHandler is the name of the class used to implement the interface. The **m\_pIDFolder**, **m\_pDataObject**, **m\_szFileName**, and **m\_hRegKey** variables are private variables used to store the information that is passed in. For simplicity, this example assumes that only one file name will be held by the data object. After the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure is retrieved from the data object, [**DragQueryFile**](/windows/desktop/api/Shellapi/nf-shellapi-dragqueryfilea) is used to extract the file name from the **FORMATETC** structure's **medium.hGlobal** member. If a registry key is passed in, the method uses [**RegOpenKeyEx**](/windows/win32/api/winreg/nf-winreg-regopenkeyexa) to open the key and assigns the handle to **m\_hRegKey**.
 

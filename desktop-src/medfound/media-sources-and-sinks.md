@@ -1,5 +1,5 @@
 ---
-Description: This section describes the media sources and sinks that are supported in Microsoft Media Foundation.
+description: This section describes the media sources and sinks that are supported in Microsoft Media Foundation.
 ms.assetid: 560A3EA8-AB78-4326-893B-A28DCBC0A7E0
 title: Media Sources and Sinks
 ms.topic: article

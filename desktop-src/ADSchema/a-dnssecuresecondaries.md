@@ -22,7 +22,7 @@ The **Dns-Secure-Secondaries** attribute is not currently used.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Dns-Secure-Secondaries               |
 | Ldap-Display-Name | dnsSecureSecondaries                 |
@@ -48,7 +48,7 @@ The **Dns-Secure-Secondaries** attribute is not currently used.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -69,7 +69,7 @@ The **Dns-Secure-Secondaries** attribute is not currently used.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -90,7 +90,7 @@ The **Dns-Secure-Secondaries** attribute is not currently used.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -111,7 +111,7 @@ The **Dns-Secure-Secondaries** attribute is not currently used.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -132,7 +132,7 @@ The **Dns-Secure-Secondaries** attribute is not currently used.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -153,7 +153,7 @@ The **Dns-Secure-Secondaries** attribute is not currently used.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

@@ -15,26 +15,12 @@ api_location:
 
 The [mspeapconnectionpropertiesv2](mspeapconnectionpropertiesv2schema-schema.md) schema defines the following complex types.
 
--   [**IdentityPrivacyParameters**](mspeapconnectionpropertiesv2-identityprivacyparameters-complextype.md)
--   [**PeapExtensionsTypeV2**](mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md)
+- [**IdentityPrivacyParameters**](mspeapconnectionpropertiesv2-identityprivacyparameters-complextype.md)
+- [**PeapExtensionsTypeV2**](mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md)
 
-## Related topics
+## See also
 
-<dl> <dt>
-
-[EAPHost and Legacy Schema](eaphost-schemas.md)
-</dt> <dt>
-
-[mspeapconnectionpropertiesv1 Schema](mspeapconnectionpropertiesv1schema-schema.md)
-</dt> <dt>
-
-[mspeapconnectionpropertiesv2 Schema](mspeapconnectionpropertiesv2schema-schema.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [EAPHost and Legacy Schema](eaphost-schemas.md)
+- [mspeapconnectionpropertiesv1 Schema](mspeapconnectionpropertiesv1schema-schema.md)
+- [mspeapconnectionpropertiesv2 Schema](mspeapconnectionpropertiesv2schema-schema.md)
+- [mspeapconnectionpropertiesv3 Schema](mspeapconnectionpropertiesv3schema-schema.md)

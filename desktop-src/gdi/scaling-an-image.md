@@ -1,5 +1,5 @@
 ---
-Description: Some applications scale images; that is, they display zoomed or reduced views of an image. For example, a drawing application may provide a zoom feature that enables the user to view and edit a drawing on a pixel-by-pixel basis.
+description: Some applications scale images; that is, they display zoomed or reduced views of an image. For example, a drawing application may provide a zoom feature that enables the user to view and edit a drawing on a pixel-by-pixel basis.
 ms.assetid: ab7d5224-62de-40a8-909f-564f61c45d01
 title: Scaling an Image
 ms.topic: article

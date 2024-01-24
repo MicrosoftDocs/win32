@@ -19,11 +19,7 @@ api_location:
 
 Executes a statement block until the conditional expression fails.
 
-
-
-|                                                                  |
-|------------------------------------------------------------------|
-| \[*Attribute*\] while ( *Conditional* ) {   *Statement Block*; } |
+\[*Attribute*\] while ( *Conditional* ) {   *Statement Block*; }
 
 
 

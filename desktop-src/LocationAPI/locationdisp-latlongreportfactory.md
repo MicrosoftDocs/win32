@@ -1,5 +1,5 @@
 ---
-Description: Manages latitude/longitude reports.
+description: Manages latitude/longitude reports.
 ms.assetid: 66025874-32dd-4494-a9ad-12fe3afa60f9
 title: LocationDisp.LatLongReportFactory object
 ms.topic: reference
@@ -97,7 +97,7 @@ Set latlongfactory = WScript.CreateObject("LocationDisp.LatLongReportFactory")
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

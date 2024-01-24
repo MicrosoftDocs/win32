@@ -20,8 +20,8 @@ These are the considerations for supplicants with respect to group policy and EA
 
     For more information, see the following topics.
 
-    -   [General Frequently Asked Questions](general-frequently-asked-questions.md)
-    -   [EAP Method Frequently Asked Questions](eap-method-frequently-asked-questions.md).
+    -   [General Frequently Asked Questions](general-frequently-asked-questions.yml)
+    -   [EAP Method Frequently Asked Questions](eap-method-frequently-asked-questions.yml).
     -   [**EapHostPeerConfigXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob)
     -   [**EapHostPeerCredentialsXml2Blob**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob)
 

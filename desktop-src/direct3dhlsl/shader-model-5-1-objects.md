@@ -14,9 +14,8 @@ For the [Rasterizer Order Views](/windows/desktop/direct3d11/rasterizer-order-vi
 
 
 
-|                                    |                                                               |
+| Rasterizer object                                   | UAV object                                                              |
 |------------------------------------|---------------------------------------------------------------|
-| Rasterizer Object                  | UAV Object                                                    |
 | RasterizerOrderedBuffer            | [**RWBuffer**](sm5-object-rwbuffer.md)                       |
 | RasterizerOrderedByteAddressBuffer | [**RWByteAddressBuffer**](sm5-object-rwbyteaddressbuffer.md) |
 | RasterizerOrderedStructuredBuffer  | [**RWStructuredBuffer**](sm5-object-rwstructuredbuffer.md)   |

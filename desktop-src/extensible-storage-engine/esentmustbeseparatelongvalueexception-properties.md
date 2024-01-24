@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustBeSeparateLongValueException properties"
 title: EsentMustBeSeparateLongValueException properties
 TOCTitle: EsentMustBeSeparateLongValueException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMustBeSeparateLongValueException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMustBeSeparateLongValueException](dn334710\(v=exchg.10\).md) type exposes the following members.
+The [EsentMustBeSeparateLongValueException](./esentmustbeseparatelongvalueexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentMustBeSeparateLongValueException class](dn334710\(v=exchg.10\).md)
+[EsentMustBeSeparateLongValueException class](./esentmustbeseparatelongvalueexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

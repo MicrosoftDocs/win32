@@ -1,5 +1,5 @@
 ---
-Description: The MP3 file source parses MP3 files.
+description: The MP3 file source parses MP3 files.
 ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: MP3 File Source
 ms.topic: reference
@@ -56,41 +56,14 @@ In addition, it exposes the following interfaces through [**IMFGetService**](/wi
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Service GUID</th>
-<th>Interface</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>MF_METADATA_PROVIDER_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider"><strong>IMFMetadataProvider</strong></a></td>
-</tr>
-<tr class="even">
-<td><strong>MF_PROPERTY_HANDLER_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a>
-<blockquote>
-[!Note]<br />
-See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol"><strong>IMFRateControl</strong></a></td>
-</tr>
-<tr class="even">
-<td><strong>MF_RATE_CONTROL_SERVICE</strong></td>
-<td><a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport"><strong>IMFRateSupport</strong></a></td>
-</tr>
-</tbody>
-</table>
+
+| Service GUID | Interface | 
+|--------------|-----------|
+| <strong>MF_METADATA_PROVIDER_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider"><strong>IMFMetadataProvider</strong></a> | 
+| **MF_PROPERTY_HANDLER_SERVICE** | [**IPropertyStore**](/windows/desktop/api/propsys/nn-propsys-ipropertystore) **Note:** See [Shell Metadata Providers](shell-metadata-providers.md).<br> | 
+| <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol"><strong>IMFRateControl</strong></a> | 
+| <strong>MF_RATE_CONTROL_SERVICE</strong> | <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport"><strong>IMFRateSupport</strong></a> | 
+
 
 
 
@@ -100,7 +73,7 @@ See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                           |

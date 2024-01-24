@@ -27,7 +27,7 @@ The NAP client architecture consists of the following:
 
 -   A layer of System Health Agent (SHA) components
 
-    An SHA component maintains and reports one or multiple elements of system health. For example, there might be an SHA for antivirus signatures and an SHA for operating system updates. An SHA can be matched to a remediation server, which is a computer that contains health update resources that NAP clients can access to remediate their noncompliant state. For example, an SHA for checking antivirus signatures is matched to the server that contains the latest antivirus signature file. SHAs do not have to have a corresponding remediation server. For example, an SHA can just check local system settings to ensure that a host-based firewall is enabled. Windows Vista and Windows XP Service Pack 3 include the Windows Security Health Agent (WSHA) that monitors the settings of the Windows Security Center. Third-party software vendors or Microsoft can provide additional SHAs to the NAP platform.
+    An SHA component maintains and reports one or multiple elements of system health. For example, there might be an SHA for antivirus signatures and an SHA for operating system updates. An SHA can be matched to a remediation server, which is a computer that contains health update resources that NAP clients can access to remediate their noncompliant state. For example, an SHA for checking antivirus signatures is matched to the server that contains the latest antivirus signature file. SHAs do not have to have a corresponding remediation server. For example, an SHA can just check local system settings to ensure that a host-based firewall is enabled. Windows Vista and Windows XP Service Pack 3 include the Windows Security Health Agent (WSHA) that monitors the settings of the Windows Security app. Third-party software vendors or Microsoft can provide additional SHAs to the NAP platform.
 
 -   NAP Agent
 
@@ -94,7 +94,3 @@ The NAP Agent provides the following services:
  
 
  
-
-
-
-

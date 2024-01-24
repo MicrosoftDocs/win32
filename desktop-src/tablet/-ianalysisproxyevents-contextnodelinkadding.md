@@ -1,7 +1,7 @@
 ---
-Description: Occurs before the ink analyzer adds an IContextLink object between two IContextNode objects.
+description: Occurs before the ink analyzer adds an IContextLink object between two IContextNode objects.
 ms.assetid: ec56cb8e-5154-45ee-911d-e2a240d19dc3
-title: '_IAnalysisProxyEvents::ContextNodeLinkAdding event' (IACom.h)
+title: '_IAnalysisProxyEvents::ContextNodeLinkAdding event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -63,7 +63,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

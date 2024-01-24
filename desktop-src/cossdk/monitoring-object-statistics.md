@@ -1,5 +1,5 @@
 ---
-Description: You can monitor object statistics as an application runs. By doing so, you can fine-tune the object pool characteristics to achieve the balance in performance and resources that you would like to have.
+description: You can monitor object statistics as an application runs. By doing so, you can fine-tune the object pool characteristics to achieve the balance in performance and resources that you would like to have.
 ms.assetid: 57987cc1-8bb5-4bbd-a425-fda2e5a8b597
 title: Monitoring Object Statistics
 ms.topic: article

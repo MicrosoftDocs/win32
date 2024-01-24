@@ -1,5 +1,5 @@
 ---
-Description: Table of Contents Parser Programming Guide
+description: Table of Contents Parser Programming Guide
 ms.assetid: f706b196-beaa-4229-b842-78b271539ed8
 title: Table of Contents Parser Programming Guide
 ms.topic: article

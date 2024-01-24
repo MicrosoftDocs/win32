@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateServiceManager2 interface defines the following methods.
+description: The IUpdateServiceManager2 interface defines the following methods.
 ms.assetid: 50a99e84-0f7c-4cd9-86d1-2247ac0d33dd
 title: IUpdateServiceManager2 Methods
 ms.topic: reference

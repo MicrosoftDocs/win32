@@ -1,5 +1,5 @@
 ---
-Description: The IBinaryConverter interface exposes the following methods.
+description: The IBinaryConverter interface exposes the following methods.
 ms.assetid: 263D97A1-6B60-4114-BB57-1B5604632F5D
 title: IBinaryConverter Methods
 ms.topic: reference

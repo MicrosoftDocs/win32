@@ -1,5 +1,5 @@
 ---
-Description: Get the number of vertices that a given bone influences.
+description: Get the number of vertices that a given bone influences.
 ms.assetid: e92361ea-4269-4d63-a8d1-560a486b6563
 title: ID3DX10SkinInfo::GetBoneInfluenceCount method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

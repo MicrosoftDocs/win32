@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about the specified registry key in an offline registry hive.
+description: Retrieves information about the specified registry key in an offline registry hive.
 ms.assetid: b565c55c-acc2-4880-91eb-7bd9188e4749
 title: ORQueryInfoKey function (Offreg.h)
 ms.topic: reference
@@ -141,7 +141,7 @@ If the *lpClass* buffer is too small to receive the name of the class, the funct
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

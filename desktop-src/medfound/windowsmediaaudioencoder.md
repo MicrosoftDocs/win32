@@ -1,5 +1,5 @@
 ---
-Description: 'The Windows Media Audio encoder encodes audio streams. The encoder supports three categories of encoded output: Windows Media Audio Standard, Windows Media Audio Professional, and Windows Media Audio Lossless.'
+description: 'The Windows Media Audio encoder encodes audio streams. The encoder supports three categories of encoded output: Windows Media Audio Standard, Windows Media Audio Professional, and Windows Media Audio Lossless.'
 ms.assetid: 1f6a3a9f-b534-4a6b-b773-0315c759624e
 title: Windows Media Audio Encoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ Read/write.<br />
 </tr>
 <tr class="odd">
 <td><a href="mfpkey-checkdataconsistency2pproperty.md"><strong>MFPKEY_CHECKDATACONSISTENCY2P</strong></a></td>
-<td>Specifies whether whether the encoder should check for data consistency across passes when performing two-pass VBR encoding. <br/> <dl> Windows Vista and later.<br />
+<td>Specifies whether the encoder should check for data consistency across passes when performing two-pass VBR encoding. <br/> <dl> Windows Vista and later.<br />
 Standard, Professional, Lossless.<br />
 Read-only.<br />
 </dl></td>
@@ -401,7 +401,7 @@ Read/write.<br />
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

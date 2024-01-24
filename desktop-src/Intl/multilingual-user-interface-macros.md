@@ -1,5 +1,5 @@
 ---
-Description: 'MUI provides the following macros, used to retrieve information from a FILEMUIINFO structure:'
+description: 'MUI provides the following macros, used to retrieve information from a FILEMUIINFO structure:'
 ms.assetid: d910d922-33f5-48ff-be0a-1ac11a13383a
 title: Multilingual User Interface Macros
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.Subtraction operator"
 title: JET_RECSIZE.Subtraction operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Subtraction operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.op_Subtraction(Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE,Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE)
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Calculate the difference in sizes between two JET_RECSIZE structures.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,29 +61,28 @@ public static JET_RECSIZE operator -(
 #### Parameters
 
   - left  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](./jet-recsize-structure2.md)  
     
     The first JET_RECSIZE.
 
 <!-- end list -->
 
   - right  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](./jet-recsize-structure2.md)  
     
     The second JET_RECSIZE.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](hh557010\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE](./jet-recsize-structure2.md)  
 A JET_RECSIZE containing the difference in sizes between left and right.  
 
 ## See also
 
 #### Reference
 
-[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](./jet-recsize-structure2.md)
 
-[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](./jet-recsize-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

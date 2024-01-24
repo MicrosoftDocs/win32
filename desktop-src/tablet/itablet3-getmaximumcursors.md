@@ -1,5 +1,5 @@
 ---
-Description: The GetMaximumCursors method retrieves the maximum number of cursors that a tablet device supports.
+description: The GetMaximumCursors method retrieves the maximum number of cursors that a tablet device supports.
 ms.assetid: 5a43d792-e64c-4506-9792-31efe0885959
 title: ITablet3::GetMaximumCursors method
 ms.topic: reference
@@ -50,7 +50,7 @@ Returns S\_OK on success; otherwise, returns an error code.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

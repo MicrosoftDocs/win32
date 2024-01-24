@@ -1,5 +1,5 @@
 ---
-Description: Shows how to preview video from a video capture device, using the MFPlay API.
+description: Shows how to preview video from a video capture device, using the MFPlay API.
 ms.assetid: 6e2b1636-9d24-40e6-9ed4-e17d1af6a044
 title: SimpleCapture Sample
 ms.topic: article

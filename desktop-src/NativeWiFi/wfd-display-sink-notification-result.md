@@ -1,5 +1,5 @@
 ---
-Description: Describes the result that you can optionally set after processing a display sink notfication in the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
+description: Describes the result that you can optionally set after processing a display sink notfication in the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
 ms.assetid: 6ED04294-2ED9-455B-9274-8C3DB06D4B21
 title: WFD_DISPLAY_SINK_NOTIFICATION_RESULT structure (Wfdsink.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ A pointer to a NULL-terminated string describing the profile.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |

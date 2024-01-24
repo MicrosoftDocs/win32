@@ -1,5 +1,5 @@
 ---
-Description: The \_Columns table is a read-only system table that contains the column catalog. It lists the columns for all the tables. You can query this table to find out if a given column exists.
+description: The \_Columns table is a read-only system table that contains the column catalog. It lists the columns for all the tables. You can query this table to find out if a given column exists.
 ms.assetid: 1ddde4e2-90a9-4dd8-a4f9-b6802d0b11cf
 title: '_Columns Table'
 ms.topic: article

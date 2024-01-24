@@ -1,6 +1,6 @@
 ---
 title: IMsRdpDriveCollection DriveCount property
-description: Retrieves the count of objects in the collection.
+description: Retrieves the count of objects in the collection. | IMsRdpDriveCollection DriveCount property
 ms.assetid: 33b39657-2cc1-4f1e-b23a-809a9737ed8d
 ms.tgt_platform: multiple
 keywords:
@@ -49,7 +49,7 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                           |

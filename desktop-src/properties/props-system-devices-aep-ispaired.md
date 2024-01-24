@@ -1,5 +1,5 @@
 ---
-Description: Whether the Device Association Endpoint is paired with the system or not.
+description: Whether the Device Association Endpoint is paired with the system or not.
 ms.assetid: 7338cae2-5bc4-4643-9311-7845d5c08381
 title: System.Devices.Aep.IsPaired
 ms.topic: article

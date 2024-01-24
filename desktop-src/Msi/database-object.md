@@ -1,5 +1,5 @@
 ---
-Description: The Database object accesses an installer database.
+description: The Database object accesses an installer database.
 ms.assetid: 97765884-3e1c-486a-932c-6430b113fac8
 title: Database object
 ms.topic: reference
@@ -83,7 +83,7 @@ The **Database** object has these properties.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

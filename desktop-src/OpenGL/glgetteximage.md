@@ -92,20 +92,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                                |
-|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target*, *format*, or *type* was not an accepted value.<br/>                                                                    |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* is less than zero or greater than *log*2 (*max*), where *max* is the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>      |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md) .<br/> |
-
-
-
 ## Remarks
 
 The **glGetTexImage** function returns a texture image into *pixels*. The *target* parameter specifies whether the desired texture image is one specified by [**glTexImage1D**](glteximage1d.md)**(**GL\_TEXTURE\_1D**)** or by [**glTexImage2D**](glteximage2d.md)**(**GL\_TEXTURE\_2D**)**. The *level* parameter specifies the level-of-detail number of the desired image. The *format* and *type* parameters specify the format and type of the desired image array. For a description of the acceptable values for the *format* and *type* parameters, respectively, see **glTexImage1D** and [**glDrawPixels**](gldrawpixels.md).
@@ -138,7 +124,7 @@ The following functions retrieve information related to **glGetTexImage**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -22,7 +22,7 @@ Indicates that the domain is in native mode or mixed mode. This attribute is fou
 
 
 
-|                   |                                       |
+| Entry | Value |
 |-------------------|---------------------------------------|
 | CN                | NT-Mixed-Domain                       |
 | Ldap-Display-Name | nTMixedDomain                         |
@@ -48,7 +48,7 @@ Indicates that the domain is in native mode or mixed mode. This attribute is fou
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -69,7 +69,7 @@ Indicates that the domain is in native mode or mixed mode. This attribute is fou
 
 
 
-|                        |                                                                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                      |
 | MAPI-Id                | \-                                                                                      |
@@ -90,7 +90,7 @@ Indicates that the domain is in native mode or mixed mode. This attribute is fou
 
 
 
-|                        |                                                                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                      |
 | MAPI-Id                | \-                                                                                      |
@@ -111,7 +111,7 @@ Indicates that the domain is in native mode or mixed mode. This attribute is fou
 
 
 
-|                        |                                                                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                      |
 | MAPI-Id                | \-                                                                                      |
@@ -132,7 +132,7 @@ Indicates that the domain is in native mode or mixed mode. This attribute is fou
 
 
 
-|                        |                                                                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                      |
 | MAPI-Id                | \-                                                                                      |
@@ -153,7 +153,7 @@ Indicates that the domain is in native mode or mixed mode. This attribute is fou
 
 
 
-|                        |                                                                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                      |
 | MAPI-Id                | \-                                                                                      |

@@ -22,7 +22,7 @@ Tracks the past DS replication identities of a given DC.
 
 
 
-|                   |                                                                                     |
+| Entry | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | CN                | Retired-Repl-DSA-Signatures                                                         |
 | Ldap-Display-Name | retiredReplDSASignatures                                                            |
@@ -49,7 +49,7 @@ Tracks the past DS replication identities of a given DC.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -70,7 +70,7 @@ Tracks the past DS replication identities of a given DC.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -91,7 +91,7 @@ Tracks the past DS replication identities of a given DC.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -112,7 +112,7 @@ Tracks the past DS replication identities of a given DC.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -133,7 +133,7 @@ Tracks the past DS replication identities of a given DC.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -154,7 +154,7 @@ Tracks the past DS replication identities of a given DC.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -175,7 +175,7 @@ Tracks the past DS replication identities of a given DC.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

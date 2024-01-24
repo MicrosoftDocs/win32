@@ -1,6 +1,6 @@
 ---
 title: glDisableClientState function (Gl.h)
-description: The glEnableClientState and glDisableClientState functions enable and disable arrays respectively.
+description: The glEnableClientState and glDisableClientState functions enable and disable arrays respectively. | glDisableClientState function (Gl.h)
 ms.assetid: b3316519-00ed-45f8-9c4b-2e04c483751e
 keywords:
 - glDisableClientState function OpenGL
@@ -73,18 +73,6 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 
 
-## Error codes
-
-The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                             | Meaning                                       |
-|--------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl> | *array* was not an accepted value.<br/> |
-
-
-
 ## Remarks
 
 The [**glEnableClientState**](glenableclientstate.md) and **glDisableClientState** functions enable and disable various individual arrays. Use [**glIsEnabled**](glisenabled.md) or [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) to determine the current setting of any capability.
@@ -100,7 +88,7 @@ Calling [**glEnableClientState**](glenableclientstate.md) and **glDisableClientS
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

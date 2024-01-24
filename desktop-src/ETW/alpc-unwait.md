@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for ALPC end wait events. The following syntax is simplified from MOF code.
+description: This class is the event type class for ALPC end wait events. The following syntax is simplified from MOF code.
 ms.assetid: 89a357dd-c217-4b55-994a-4252fa3cae1c
 title: ALPC_Unwait class
 ms.topic: reference
@@ -60,7 +60,7 @@ Status from wait operation.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

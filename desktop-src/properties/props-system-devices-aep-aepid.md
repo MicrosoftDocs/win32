@@ -1,5 +1,5 @@
 ---
-Description: Identity of the Device Association Endpoint.
+description: Identity of the Device Association Endpoint.
 ms.assetid: ff9a1588-2dde-4c43-a808-3368877a44a7
 title: System.Devices.Aep.AepId
 ms.topic: article

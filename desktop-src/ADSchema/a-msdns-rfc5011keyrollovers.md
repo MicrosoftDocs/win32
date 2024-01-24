@@ -22,7 +22,7 @@ An attribute that defines whether or not the DNS zone should be maintained using
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-RFC5011-Key-Rollovers         |
 | Ldap-Display-Name | msDNS-RFC5011KeyRollovers            |
@@ -43,7 +43,7 @@ An attribute that defines whether or not the DNS zone should be maintained using
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

@@ -1,5 +1,5 @@
 ---
-Description: Destroys a previously allocated kernel-mode Microsoft DirectDraw surface object that was created with the dwCaps member of the DDSCAPS structure set to DDSCAPS\_EXECUTEBUFFER.
+description: Destroys a previously allocated kernel-mode Microsoft DirectDraw surface object that was created with the dwCaps member of the DDSCAPS structure set to DDSCAPS\_EXECUTEBUFFER.
 ms.assetid: c737b706-25be-49b8-8d8c-35f48aea2889
 title: NtGdiDdDestroyD3DBuffer function (Ntgdi.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ Handle to a [**DD\_DESTROYSURFACEDATA**](/windows/win32/api/ddrawint/ns-ddrawint
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

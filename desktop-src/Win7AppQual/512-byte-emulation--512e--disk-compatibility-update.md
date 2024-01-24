@@ -1,5 +1,5 @@
 ---
-Description: This topic introduces the effect of Advanced Format storage devices on software, discusses what applications can do to help support this type of media, and discusses the infrastructure that Microsoft introduced with Windows 7 SP1 and Windows Server 2008 R2 SP1 to enable developers to support these types of devices.
+description: This topic introduces the effect of Advanced Format storage devices on software, discusses what applications can do to help support this type of media, and discusses the infrastructure that Microsoft introduced with Windows 7 SP1 and Windows Server 2008 R2 SP1 to enable developers to support these types of devices.
 ms.assetid: 1D2847A7-15E9-42E0-90EB-7F43E76D3E44
 title: 512-byte Emulation (512e) Disk Compatibility Update
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Platform
 
- **Clients** - Windows Vista \| Windows 7 \| Windows 7 SP1  
-**Servers** - Windows Server 2008 \| Windows Server 2008 R2 \| Windows Server 2008 R2 SP1  
+ **Clients** - Windows Vista, Windows 7, Windows 7 SP1  
+**Servers** - Windows Server 2008, Windows Server 2008 R2, Windows Server 2008 R2 SP1  
 
 ## Feature Impact
 
@@ -181,7 +181,6 @@ This is a living document, and is meant as an aid for developers to help underst
 
 -   **Windows General Support Statement**: <https://support.microsoft.com/kb/2510009>
 -   **Hotfix for Windows 7 and Windows Server 2008 R2**: <https://support.microsoft.com/kb/982018>
--   **Hotfix for Windows Vista and Windows Server 2008**: <https://support.microsoft.com/kb/2470478>
 -   **HyperV Support Statement**: <https://support.microsoft.com/kb/2515143>
 -   **General information about the IOCTL\_STORAGE\_QUERY\_PROPERTY control code**: [https://msdn.microsoft.com/library/ff560590.aspx](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
 -   **IOCTL\_STORAGE\_QUERY\_PROPERTY Control Code**: [https://msdn.microsoft.com/library/ff800830.aspx](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property)

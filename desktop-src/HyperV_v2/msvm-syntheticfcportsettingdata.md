@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of a synthetic Fibre Channel port.
+description: Represents the configured state of a synthetic Fibre Channel port.
 ms.assetid: 5d47dd80-de34-4ae4-a300-c16da1cd4974
 title: Msvm_SyntheticFcPortSettingData class
 ms.topic: reference
@@ -502,7 +502,7 @@ An integer that defines the relative weight for each virtual machine processor. 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

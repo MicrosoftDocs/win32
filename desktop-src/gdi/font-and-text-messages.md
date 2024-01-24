@@ -1,5 +1,5 @@
 ---
-Description: The following message is used with fonts.
+description: The following message is used with fonts.
 ms.assetid: 58d41727-2125-44f2-b68c-dd2868f6c608
 title: Font and Text Messages
 ms.topic: article

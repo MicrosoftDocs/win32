@@ -1,21 +1,24 @@
 ---
-Description: Determines the cross-product in four dimensions.
+description: D3DXVec4Cross function (D3DX10Math.h) - Determines the cross-product in four dimensions.
 ms.assetid: 4f728fbd-cf5a-4d2e-ba4f-487616d83f6d
 title: D3DXVec4Cross function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4Cross
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4Cross function
+# D3DXVec4Cross function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Determines the cross-product in four dimensions.
 
@@ -87,7 +90,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

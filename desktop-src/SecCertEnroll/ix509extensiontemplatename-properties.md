@@ -1,5 +1,5 @@
 ---
-Description: The IX509ExtensionTemplateName interface exposes the following properties.
+description: The IX509ExtensionTemplateName interface exposes the following properties.
 ms.assetid: 7BECF603-DB9C-4FBD-9E27-F961A5CDFBB0
 title: IX509ExtensionTemplateName Properties
 ms.topic: reference

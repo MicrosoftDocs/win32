@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of qualifiers.
+description: Represents a collection of qualifiers.
 ms.assetid: '2f51404d-b26e-4153-b206-ab6b413363a1'
 title: Qualifiers object (Iads.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Qualifiers object
 
-\[The **Qualifiers** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
+\[The **Qualifiers** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
 
 The **Qualifiers** object represents a collection of qualifiers.
 
@@ -61,7 +61,7 @@ The [**PolicyInformation.Qualifiers**](policyinformation-qualifiers.md) CAPICOM 
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | Header<br/>          | <dl> <dt>Iads.h</dt> </dl>      |

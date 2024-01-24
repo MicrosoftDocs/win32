@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNTSystemCallFailedException methods"
 title: EsentNTSystemCallFailedException methods
 TOCTitle: EsentNTSystemCallFailedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNTSystemCallFailedException](dn334749\(v=exchg.10\).md) type exposes the following members.
+The [EsentNTSystemCallFailedException](./esentntsystemcallfailedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentNTSystemCallFailedException class](dn334749\(v=exchg.10\).md)
+[EsentNTSystemCallFailedException class](./esentntsystemcallfailedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

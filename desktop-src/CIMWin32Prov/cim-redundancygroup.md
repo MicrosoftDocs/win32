@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RedundancyGroup class represents a collection of managed system elements, which indicates that the aggregated components, together, provide redundancy.
+description: The CIM\_RedundancyGroup class represents a collection of managed system elements, which indicates that the aggregated components, together, provide redundancy.
 ms.assetid: b47899cc-eafc-431f-96d4-edb01bf4bcd1
 ms.tgt_platform: multiple
 title: CIM_RedundancyGroup class
@@ -340,7 +340,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

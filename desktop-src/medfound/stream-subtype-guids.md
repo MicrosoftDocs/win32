@@ -1,5 +1,5 @@
 ---
-Description: The following subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.
+description: The following subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.
 ms.assetid: B7DA4F21-C7FA-46BB-ADF8-E501891D2A0D
 title: Stream Subtype GUIDs
 ms.topic: article

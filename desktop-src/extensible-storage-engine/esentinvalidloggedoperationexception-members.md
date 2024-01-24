@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLoggedOperationException members"
 title: EsentInvalidLoggedOperationException members
 TOCTitle: EsentInvalidLoggedOperationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLoggedOperationException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidLoggedOperation exceptions.
 
-The [EsentInvalidLoggedOperationException](dn319545\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLoggedOperationException](./esentinvalidloggedoperationexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLoggedOperationException class](dn319545\(v=exchg.10\).md)
+[EsentInvalidLoggedOperationException class](./esentinvalidloggedoperationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

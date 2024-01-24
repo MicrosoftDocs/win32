@@ -1,5 +1,5 @@
 ---
-Description: The IInstallationProgressChangedCallback interface defines the following method.
+description: The IInstallationProgressChangedCallback interface defines the following method.
 ms.assetid: 6f6befde-c1b6-4d1a-811d-592cbd6e1992
 title: IInstallationProgressChangedCallback Methods
 ms.topic: reference

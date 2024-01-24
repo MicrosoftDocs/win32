@@ -1,5 +1,5 @@
 ---
-Description: The Delete&\#8194;WMI class method deletes an existing service.
+description: Delete method of the Win32_Service class (CIMWin32 WMI Providers) - The Delete&\#8194;WMI class method deletes an existing service.
 ms.assetid: aa4e7630-3b19-47dd-acd1-4d1735acb819
 ms.tgt_platform: multiple
 title: Delete method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# Delete method of the Win32\_Service class
+# Delete method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **Delete** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method deletes an existing service.
 
@@ -292,7 +292,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

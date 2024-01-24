@@ -1,5 +1,5 @@
 ---
-Description: Contains the palette entries for a video media type. Use this attribute for palettized video formats, such as RGB 8.
+description: Contains the palette entries for a video media type. Use this attribute for palettized video formats, such as RGB 8.
 ms.assetid: 3efc124b-073e-4c48-9550-c100e29f2d6f
 title: MF_MT_PALETTE attribute (Mfapi.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Byte array
 
 ## Remarks
 
-The attribute data is an array of [**MFPaletteEntry**](/windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry) unions.
+The attribute data is an array of [**MFPaletteEntry**](/windows/win32/api/mfobjects/ns-mfobjects-mfpaletteentry) unions.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

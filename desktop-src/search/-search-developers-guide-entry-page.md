@@ -1,5 +1,5 @@
 ---
-Description: Third parties can create applications that query the index for data programmatically and can extend Windows Search to index data from custom file formats and data stores.
+description: Third parties can create applications that query the index for data programmatically and can extend Windows Search to index data from custom file formats and data stores.
 ms.assetid: 70046df0-ce48-472d-b24b-8231ea3a43c0
 title: Windows Search Developer's Guide
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Third parties can create applications that query the index for data programmatically and can extend Windows Search to index data from custom file formats and data stores. To create Windows Search applications, third-party developers must first implement a Shell data store to a achieve a reasonable user experience. For more information, see [Implementing the Basic Folder Object Interfaces](/previous-versions/windows/desktop/legacy/cc144093(v=vs.85)).
 
-You must also download the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) for the Windows Search libraries. The [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8) contains useful code samples and an interopability assembly for developing with managed code. For more information on using the code samples, see [Windows Search Code Samples](-search-3x-wds-sampleentry.md).
+You must also download the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) for the Windows Search libraries. The [Windows Search Code Samples](-search-samples-ovw.md) contains useful code samples and an interoperability assembly for developing with managed code.
 
 This section is organized as follows:
 

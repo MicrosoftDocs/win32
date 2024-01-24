@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RemoveFileAction class uninstalls files.
+description: The CIM\_RemoveFileAction class uninstalls files.
 ms.assetid: 32d5e537-eee2-4f93-9b1f-ecee0d36c99a
 ms.tgt_platform: multiple
 title: CIM_RemoveFileAction class
@@ -823,8 +823,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from [**CIM\_Action**](cim-action.md).
 
@@ -842,7 +842,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

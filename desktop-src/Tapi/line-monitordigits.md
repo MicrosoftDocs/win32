@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_MONITORDIGITS message is sent when a digit is detected. The sending of this message is controlled with the lineMonitorDigits function.
+description: The TAPI LINE\_MONITORDIGITS message is sent when a digit is detected. The sending of this message is controlled with the lineMonitorDigits function.
 ms.assetid: 1c1a729c-a6bb-4432-9617-4a892c76cb8d
 title: LINE_MONITORDIGITS message (Tapi.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If the service provider does not generate the timestamp (for example, if it was 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

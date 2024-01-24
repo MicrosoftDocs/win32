@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCurrencyStackOutOfMemoryException methods"
 title: EsentCurrencyStackOutOfMemoryException methods
 TOCTitle: EsentCurrencyStackOutOfMemoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCurrencyStackOutOfMemoryException](dn334249\(v=exchg.10\).md) type exposes the following members.
+The [EsentCurrencyStackOutOfMemoryException](./esentcurrencystackoutofmemoryexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentCurrencyStackOutOfMemoryException class](dn334249\(v=exchg.10\).md)
+[EsentCurrencyStackOutOfMemoryException class](./esentcurrencystackoutofmemoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

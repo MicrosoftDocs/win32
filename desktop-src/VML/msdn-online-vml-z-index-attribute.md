@@ -42,7 +42,7 @@ Values include:
 | Value | Description                                                                                                                                                                                            |
 |-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Auto  | The order that the shapes appear in the HTML page will be used, bottom to top.                                                                                                                         |
-| order | A number that represents the stacking precedence. A shape with a a higher number will be displayed as if it wereoverlapping (in "front" of) a shape with a lower number. Negative numbers can be used. |
+| order | A number that represents the stacking precedence. A shape with a higher number will be displayed as if it wereoverlapping (in "front" of) a shape with a lower number. Negative numbers can be used. |
 
 
 

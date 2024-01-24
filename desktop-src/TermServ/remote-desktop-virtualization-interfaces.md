@@ -242,7 +242,7 @@ Derive from this interface to define a custom target property set.
 [**ITsSbTaskInfo**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo)
 </dt> <dd>
 
-Exposes properties that the Remote Desktop Connection Broker uses to set a plugin’s queue.
+Exposes properties that the Remote Desktop Connection Broker uses to set a plugin's queue.
 
 </dd> <dt>
 

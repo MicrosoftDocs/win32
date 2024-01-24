@@ -1,6 +1,6 @@
 ---
 title: IDeliveryOptimizationJob2::GetProperty method
-description: Returns a single property of the DO job.
+description: Returns a single property of the Delivery Optimization job.
 keywords:
 - GetProperty method
 - GetProperty method, IDeliveryOptimizationJob2 interface
@@ -20,7 +20,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IDeliveryOptimizationJob2::GetProperty method
 
-This method returns a single property of the DO job.
+This method returns a single property of the Delivery Optimization job.
 
 ## Syntax
 
@@ -60,7 +60,7 @@ This method returns the following HRESULT values.
 
 ## Requirements
 
-|                           |                                                                                  |
+| Requirement | Value |
 |---------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client  | Windows 10, version 1803 \[desktop apps only\]                                   |
 | Minimum supported server  | Windows Server, version 1709 \[desktop apps only\]                               |

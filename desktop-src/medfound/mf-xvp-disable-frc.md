@@ -1,5 +1,5 @@
 ---
-Description: Disables frame-rate conversion in the Video Processor MFT.
+description: Disables frame-rate conversion in the Video Processor MFT.
 ms.assetid: 98AA7B3A-281C-427D-805E-5C4EE1EFAE21
 title: MF_XVP_DISABLE_FRC attribute (Mfidl.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ Set the attribute before streaming begins.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

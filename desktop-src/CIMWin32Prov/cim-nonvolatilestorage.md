@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_NonVolatileStorage class represents the capabilities and management of non-volatile storage. Nonvolatile memory natively includes flash and ROM storage.
+description: The CIM\_NonVolatileStorage class represents the capabilities and management of non-volatile storage. Nonvolatile memory natively includes flash and ROM storage.
 ms.assetid: 39158b31-31f7-460c-aef1-1ca423badad6
 ms.tgt_platform: multiple
 title: CIM_NonVolatileStorage class
@@ -1810,7 +1810,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

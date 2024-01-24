@@ -1,9 +1,9 @@
 ---
-Description: The CloneProps method clones a set of properties from this property setter and adds them to a new property setter.
+description: The CloneProps method clones a set of properties from this property setter and adds them to a new property setter.
 ms.assetid: dee93e41-2925-4b4b-b5b2-7cfd6ea10e05
 title: IPropertySetter::CloneProps method (Qedit.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -14,9 +14,12 @@ api_type:
 api_location: 
 - strmiids.lib
 - strmiids.dll
+ms.custom: UpdateFrequency5
 ---
 
 # IPropertySetter::CloneProps method
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
@@ -87,7 +90,7 @@ If the method succeeds, the [**IPropertySetter**](ipropertysetter.md) interface 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

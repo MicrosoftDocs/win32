@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateInstaller interface defines the following methods.
+description: The IUpdateInstaller interface defines the following methods.
 ms.assetid: 94e2516e-19e1-4e9c-9b9a-fa9a68222b08
 title: IUpdateInstaller Methods
 ms.topic: reference

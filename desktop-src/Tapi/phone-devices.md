@@ -1,5 +1,5 @@
 ---
-Description: Phone device support is supplementary rather than basic, so service providers are not required to support phone devices.
+description: Phone device support is supplementary rather than basic, so service providers are not required to support phone devices.
 ms.assetid: '4d9f3b32-20d0-4550-9b3d-db97df8ea289'
 title: Phone Devices
 ms.topic: article

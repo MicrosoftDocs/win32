@@ -1,12 +1,12 @@
 ---
 title: Visible Property (Balloon Object)
-description: Visible Property
+description: Learn about the Visible Property of the Balloon object, which returns or sets the visible setting for the word balloon for the specified character.
 ms.assetid: cbda7f69-889a-45a0-9549-d27eddfcec57
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Visible Property
+# Visible Property (Balloon Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 

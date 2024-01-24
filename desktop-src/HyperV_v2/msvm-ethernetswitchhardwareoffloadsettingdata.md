@@ -1,5 +1,5 @@
 ---
-Description: Represents the switch offload settings.
+description: Represents the switch offload settings.
 ms.assetid: 4e00544e-a8db-4337-af3f-f651bfcf6b05
 title: Msvm_EthernetSwitchHardwareOffloadSettingData class
 ms.topic: reference
@@ -192,7 +192,7 @@ Indicates how VRSS/VMMQ queues are steered to different host processors.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -115,7 +115,7 @@ For an extensive list of possible error codes, see [Error Codes](error-codes.md)
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>WMDDRMSP.idl</dt> </dl> |
 | Library<br/> | <dl> <dt>Mssachlp.lib</dt> </dl> |

@@ -1,22 +1,25 @@
 ---
-Description: Loads identity in the current matrix.
+description: ID3DXMATRIXStack::LoadIdentity method (D3DX10.h) - Loads identity in the current matrix.
 ms.assetid: 324b49c2-3aca-4bbb-90f3-62f3ffb2fa45
 title: ID3DXMATRIXStack::LoadIdentity method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.LoadIdentity
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::LoadIdentity method
+# ID3DXMATRIXStack::LoadIdentity method (D3DX10.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Loads identity in the current matrix.
 
@@ -47,7 +50,7 @@ The identity matrix is a matrix in which all coefficients are 0.0 except the \[1
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |
@@ -67,7 +70,3 @@ The identity matrix is a matrix in which all coefficients are 0.0 except the \[1
  
 
  
-
-
-
-

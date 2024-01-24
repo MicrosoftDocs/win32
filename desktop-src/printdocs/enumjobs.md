@@ -1,5 +1,5 @@
 ---
-Description: The EnumJobs function retrieves information about a specified set of print jobs for a specified printer.
+description: The EnumJobs function retrieves information about a specified set of print jobs for a specified printer.
 ms.assetid: 1cf429ea-b40e-4063-b6de-c43b7b87f3d3
 title: EnumJobs function (Winspool.h)
 ms.topic: reference
@@ -134,7 +134,7 @@ To determine the number of print jobs in the printer queue, call the [**GetPrint
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

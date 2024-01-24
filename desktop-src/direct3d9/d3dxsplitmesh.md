@@ -1,5 +1,5 @@
 ---
-Description: Splits a mesh into meshes smaller than the specified size.
+description: Splits a mesh into meshes smaller than the specified size.
 ms.assetid: 55cdd82f-91fa-4805-969f-8fbe53cbde58
 title: D3DXSplitMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -148,7 +148,7 @@ const DWORD remap = face_remaps[2][3];
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

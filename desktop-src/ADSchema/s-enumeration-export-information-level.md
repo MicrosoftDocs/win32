@@ -21,7 +21,7 @@ Enumeration(export-information-level) syntax.
 
 
 
-|              |                                                                           |
+| Entry | Value |
 |--------------|---------------------------------------------------------------------------|
 | Name         | Enumeration(Export-Information-Level)                                     |
 | Syntax ID    | 2.5.5.9                                                                   |

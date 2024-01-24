@@ -1,5 +1,5 @@
 ---
-Description: Classic providers use the TraceEventInstance function to trace events that are part of a single transaction. You can also use this function to trace parent/child events.
+description: Classic providers use the TraceEventInstance function to trace events that are part of a single transaction. You can also use this function to trace parent/child events.
 ms.assetid: 246e9443-3120-49bf-a6e3-64dddba348fa
 title: Writing Related Events in a Classic Provider
 ms.topic: article

@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapter::GetPropertySize
 description: For a specified adapter property, retrieves the size of buffer, in bytes, that is required for a call to [GetProperty](./nf-dxcore_interface-idxcoreadapter-getproperty.md).
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---
@@ -22,7 +21,7 @@ virtual HRESULT STDMETHODCALLTYPE GetPropertySize(
 
 ### property
 
-Type: **[DXCoreAdapterProperty](./ne-dxcore_interface-dxcoreadapterproperty.md)**
+Type: **[DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty)**
 
 The type of the property whose size, in bytes, you wish to retrieve.
 

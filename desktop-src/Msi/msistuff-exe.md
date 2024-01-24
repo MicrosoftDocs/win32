@@ -1,5 +1,5 @@
 ---
-Description: Msistuff.exe is a command line utility that can be used to display or configure the resources in the Setup.exe bootstrap executable.
+description: Msistuff.exe is a command line utility that can be used to display or configure the resources in the Setup.exe bootstrap executable.
 ms.assetid: df79574c-d0e7-45e3-97c1-d62f700260ce
 title: Msistuff.exe
 ms.topic: article

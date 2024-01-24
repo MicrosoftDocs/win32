@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an array of identifiers for the strokes within the IContextNode object.
+description: Retrieves an array of identifiers for the strokes within the IContextNode object.
 ms.assetid: 2420afec-6859-449b-92d8-0f4327281852
 title: IContextNode::GetStrokeIds method (IACom.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

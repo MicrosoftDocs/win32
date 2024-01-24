@@ -1,5 +1,5 @@
 ---
-Description: The IWiaUIExtension interface provides methods that replace the default system user interface, provide a custom device bitmap logo, and provide a custom device icon.
+description: The IWiaUIExtension interface provides methods that replace the default system user interface, provide a custom device bitmap logo, and provide a custom device icon.
 ms.assetid: e3c69019-0e07-44ad-b48b-ea7e3daed2b7
 title: IWiaUIExtension interface (Wiadevd.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The **IWiaUIExtension** interface has these methods.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

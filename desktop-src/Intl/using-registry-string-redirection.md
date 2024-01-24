@@ -1,5 +1,5 @@
 ---
-Description: Storage of hard-coded strings in the registry is part of a pre-Windows Vista localization model.
+description: Storage of hard-coded strings in the registry is part of a pre-Windows Vista localization model.
 ms.assetid: 70185942-7d32-4151-a4e1-f71cf45e87af
 title: Using Registry String Redirection
 ms.topic: article
@@ -240,24 +240,29 @@ If the shell cannot find or retrieve the value of DispFileName, it uses the defa
 
 ## Create Resources for Keyboard Layout Strings
 
-If your application implements a keyboard layout, it requires a localizable string resource for the name of the layout for screen display, for example, in lists of keyboard layouts. Each keyboard layout has a registry key under HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\Keyboard Layouts.
+If your application implements a keyboard layout, it requires a localizable string resource for the name of the layout for screen display, for example, in lists of keyboard layouts. Each keyboard layout has a registry key under `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts`.
 
-Among the values for that key are Layout Text, a human-readable name for backward compatibility, and Layout Display Name. The data supplied for Layout Display Name should be a string reference of the form "`@<path>,-resID`", referring to a localizable string resource associated with the keyboard layout.
+Among the values for that key are `Layout Text`, a human-readable name for backward compatibility, and `Layout Display Name`. The data supplied for `Layout Display Name` should be a string reference of the form `@<path>,-resID`, referring to a localizable string resource associated with the keyboard layout.
 
-Here is an example of a registry setting for the Spanish (Spain) keyboard layout:
+Here is an example of a registry setting for the [Spanish keyboard layout](/globalization/keyboards/kbdsp):
 
-`Layout Display Name=@%SystemRoot%\system32\input.dll,-5020`
+```C++
+HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\
+0000040a
+    Layout Text REG_SZ "Spanish"
+    Layout Display Name REG_EXPAND_SZ "@%SystemRoot%\system32\input.dll,-5020"
+```
 
 ## Represent OLE Insert Object Common Dialog Strings
 
-You can implement the display name of an OLE insertable object as a localizable string resource associated with the code implementing that object. The [OLE Insert Object dialog box](/cpp/mfc/reference/coleinsertdialog-class) gets a display name from the registry key HKCR\\CLSID\\{*<GUID>*}, where *GUID* identifies the class identifier of an insertable OLE object. Windows Vista and later implement this type of object in a localizable way, using a MUI-compliant display name that allows customization to the user interface language. In contrast, pre-Windows Vista operating systems implement the display name for this type of object using the default value of the corresponding registry key. Typically this name is either an English (United States) name or a name in the system default UI language.
+You can implement the display name of an OLE insertable object as a localizable string resource associated with the code implementing that object. The [OLE Insert Object dialog box](/cpp/mfc/reference/coleinsertdialog-class) gets a display name from the registry key HKCR\\CLSID\\{*&lt;GUID&gt;*}, where *GUID* identifies the class identifier of an insertable OLE object. Windows Vista and later implement this type of object in a localizable way, using a MUI-compliant display name that allows customization to the user interface language. In contrast, pre-Windows Vista operating systems implement the display name for this type of object using the default value of the corresponding registry key. Typically this name is either an English (United States) name or a name in the system default UI language.
 
 > [!Note]  
 > Not all objects that correspond to subkeys of the registry key are insertable.
 
  
 
-The default value of the HKCR\\CLSID\\{*<GUID>*} key should retain a human-readable name for backward compatibility. However, it should also define the LocalizedString value, in the format "`@<path>,-ResID`", where path identifies the executable file implementing the object. The ResID value specifies the resource identifier of the localizable string for the display name.
+The default value of the HKCR\\CLSID\\{*&lt;GUID&gt;*} key should retain a human-readable name for backward compatibility. However, it should also define the LocalizedString value, in the format "`@<path>,-ResID`", where path identifies the executable file implementing the object. The ResID value specifies the resource identifier of the localizable string for the display name.
 
 For example, the registration script for the insertable Media Clip object includes the following lines:
 

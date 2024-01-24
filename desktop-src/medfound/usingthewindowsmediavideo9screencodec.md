@@ -1,12 +1,12 @@
 ---
-Description: Using the Windows Media Video 9 Screen Codec
+description: Using the Windows Media Video 9 Screen Codec
 ms.assetid: d88d5f5e-0935-4bbe-8abf-72cc536f9b40
 title: Using the Windows Media Video 9 Screen Codec (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using the Windows Media Video 9 Screen Codec
+# Using the Windows Media Video 9 Screen Codec (Microsoft Media Foundation)
 
 The Windows Media Video 9 Screen codec is optimized for compressing *application video*, which consists of consecutive screen shots for a computer display. The codec takes advantage of the typical image simplicity (relatively few colors, lots of straight lines, and so on) and relative lack of motion to achieve a very high compression ratio. The disadvantage of this optimization is that video that doesn't conform to the expected characteristics of application video can be difficult to compress with an acceptable level of quality.
 

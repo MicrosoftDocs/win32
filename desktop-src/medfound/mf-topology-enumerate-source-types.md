@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the topology loader enumerates the media types provided by the media source.
+description: Specifies whether the topology loader enumerates the media types provided by the media source.
 ms.assetid: 2675ef16-2018-47e8-bb22-2fc0d62e6681
 title: MF_TOPOLOGY_ENUMERATE_SOURCE_TYPES attribute (Mfidl.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The order in which the topology loader tries a media source's media types is con
 
 If the MF\_TOPOLOGY\_ENUMERATE\_SOURCE\_TYPES attribute is **FALSE** or not set, the topology loader uses the stream's current media type. It does not enumerate the list of possible types. If the current media type is incompatible with the downstream topology node, and no combination of decoders/converters can be found, topology resolution fails.
 
-If the MF\_TOPOLOGY\_ENUMERATE\_SOURCE\_TYPES attribute is **TRUE**, the topology loader enumerates the source's media types until it finds a compatible type. In that case, the exact order of operations depends on the whether the [**MF\_TOPONODE\_CONNECT\_METHOD**](mf-toponode-connect-method-attribute.md) attribute on the source node includes the **MF\_CONNECT\_RESOLVE\_INDEPENDENT\_OUTPUTTYPES** flag.
+If the MF\_TOPOLOGY\_ENUMERATE\_SOURCE\_TYPES attribute is **TRUE**, the topology loader enumerates the source's media types until it finds a compatible type. In that case, the exact order of operations depends on whether the [**MF\_TOPONODE\_CONNECT\_METHOD**](mf-toponode-connect-method-attribute.md) attribute on the source node includes the **MF\_CONNECT\_RESOLVE\_INDEPENDENT\_OUTPUTTYPES** flag.
 
 If MF\_TOPOLOGY\_ENUMERATE\_SOURCE\_TYPES is **TRUE** and the **MF\_CONNECT\_RESOLVE\_INDEPENDENT\_OUTPUTTYPES** flag is set, the topology loader exhausts each media type before moving to the next, as follows:
 
@@ -107,7 +107,7 @@ Case 2: The flag is not set.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

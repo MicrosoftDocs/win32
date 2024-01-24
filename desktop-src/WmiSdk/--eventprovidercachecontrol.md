@@ -1,5 +1,5 @@
 ---
-Description: Controls when an event provider is unloaded.
+description: Controls when an event provider is unloaded.
 ms.assetid: 7f11e521-d0f6-4c3c-8bfe-ceed2d106ed3
 ms.tgt_platform: multiple
 title: '__EventProviderCacheControl class'
@@ -68,7 +68,7 @@ For more information about using this class, see [Unloading a Provider](unloadin
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

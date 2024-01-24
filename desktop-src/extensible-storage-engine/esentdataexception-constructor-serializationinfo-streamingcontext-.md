@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDataException constructor (SerializationInfo, StreamingContext)"
 title: EsentDataException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentDataException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDataException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDataException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +70,10 @@ protected EsentDataException(
 
 #### Reference
 
-[EsentDataException class](dn334392\(v=exchg.10\).md)
+[EsentDataException class](./esentdataexception-class.md)
 
-[EsentDataException members](dn274228\(v=exchg.10\).md)
+[EsentDataException members](./esentdataexception-members.md)
 
-[EsentDataException overload](dn334391\(v=exchg.10\).md)
+[EsentDataException overload](./esentdataexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

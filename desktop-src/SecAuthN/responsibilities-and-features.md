@@ -1,5 +1,5 @@
 ---
-Description: Each part of the interactive logon process has a set of responsibilities. This section defines those responsibilities and indicates where you can implement features not contained in the standard version of the operating system.
+description: Each part of the interactive logon process has a set of responsibilities. This section defines those responsibilities and indicates where you can implement features not contained in the standard version of the operating system.
 ms.assetid: 4b816598-a2dc-4db2-a79a-0c327320fd86
 title: Responsibilities and Features
 ms.topic: article

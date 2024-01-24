@@ -1,5 +1,5 @@
 ---
-Description: COM+ SOAP Service Concepts
+description: COM+ SOAP Service Concepts
 ms.assetid: 4c3950d7-4ad3-4518-9a98-2c8da8c4afc8
 title: COM+ SOAP Service Concepts
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The date and time a communication was received.
+description: The date and time a communication was received.
 ms.assetid: de222d2f-1825-45a5-b899-45b4c2ab6f2c
 title: System.Message.DateReceived
 ms.topic: article

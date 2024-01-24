@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_CONTACT\_GROUP
+description: WPD\_CONTENT\_TYPE\_CONTACT\_GROUP
 ms.assetid: ddebb789-7e60-4728-a0a4-94c06d8a98f9
 title: WPD_CONTENT_TYPE_CONTACT_GROUP
 ms.topic: article

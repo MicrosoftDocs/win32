@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_GroupUser association WMI class relates a group and an account that is a member of that group.
+description: The Win32\_GroupUser association WMI class relates a group and an account that is a member of that group.
 ms.assetid: 46dd65f0-b729-4b23-8a00-bc33d1a4868b
 ms.tgt_platform: multiple
 title: Win32_GroupUser class
@@ -83,17 +83,11 @@ Reference to the instance representing the user or system account that is a part
 
 The **Win32\_GroupUser** class is derived from [**CIM\_Component**](cim-component.md).
 
-## Examples
-
-For a PowerShell example of using Win32\_GroupUser to retrieve a list of local group members, see the [List local group members on a remote computer using WMI and PowerShell sample](https://Gallery.TechNet.Microsoft.Com/List-local-group-members-762b48c5) on TechNet Gallery.
-
-The [WMI Information Retriever](https://Gallery.TechNet.Microsoft.Com/e493376c-1286-456b-bd4b-4ac3b0e9bb45) VBScript code example on the TechNet Gallery uses the **Win32\_GroupUser** class to retrieve user information from a number of remote computers.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

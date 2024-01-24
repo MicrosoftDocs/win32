@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.KeyMost field"
 title: VistaParam.KeyMost field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: KeyMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.KeyMost
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # VistaParam.KeyMost field
 
-This read-only parameter indicates the maximum allowable index key length that can be selected for the current database page size (as configured by [DatabasePageSize](hh596135\(v=exchg.10\).md)).
+This read-only parameter indicates the maximum allowable index key length that can be selected for the current database page size (as configured by [DatabasePageSize](./jet-param-enumeration.md)).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const JET_param KeyMost
 
 #### Reference
 
-[VistaParam class](dn335284\(v=exchg.10\).md)
+[VistaParam class](./vistaparam-class.md)
 
-[VistaParam members](dn335372\(v=exchg.10\).md)
+[VistaParam members](./vistaparam-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

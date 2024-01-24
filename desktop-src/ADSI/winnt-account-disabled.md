@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 When using the WinNT provider, an account can be enabled or disabled using the [**IADsUser.AccountDisabled**](iadsuser-property-methods.md) property.
 
-## Example Code
+## Example 1
 
 The following code example shows how to disable an account using Visual Basic with ADSI.
 
@@ -37,7 +37,7 @@ Cleanup:
 
 
 
-## Example Code
+## Example 2
 
 The following code example shows how to disable an account using C++ with ADSI.
 

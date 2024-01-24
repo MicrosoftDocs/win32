@@ -1,5 +1,5 @@
 ---
-Description: This topic lists structures that are used with processes, threads, processors, job objects, and user-mode scheduling (UMS).
+description: This topic lists structures that are used with processes, threads, processors, job objects, and user-mode scheduling (UMS).
 ms.assetid: dbb50193-4c67-494e-9c46-2ac3106fac9a
 title: Process and Thread Structures
 ms.topic: article

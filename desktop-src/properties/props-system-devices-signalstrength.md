@@ -1,5 +1,5 @@
 ---
-Description: Device signal strength.
+description: Device signal strength.
 ms.assetid: 662d39a6-f2f5-4556-a6de-bbcc655b4adb
 title: System.Devices.SignalStrength
 ms.topic: article

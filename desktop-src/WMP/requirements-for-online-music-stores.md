@@ -5,10 +5,13 @@ ms.assetid: 0595e7e0-6da9-4caa-a305-cfedd81e217e
 keywords:
 - Windows Media Player Online Stores
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Requirements for Online Music Stores
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 All of the requirements that your online store must meet are detailed in the Online Media Service Listing Agreement for Windows Media Player. To ensure that your online store provides a great user experience, we've highlighted some key requirements regarding customization and playback.
 

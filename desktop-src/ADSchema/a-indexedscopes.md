@@ -22,7 +22,7 @@ List of directory scopes (for example, C:\\ or D:\) that are indexed.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | IndexedScopes                               |
 | Ldap-Display-Name | indexedScopes                               |
@@ -48,7 +48,7 @@ List of directory scopes (for example, C:\\ or D:\) that are indexed.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -69,7 +69,7 @@ List of directory scopes (for example, C:\\ or D:\) that are indexed.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -90,7 +90,7 @@ List of directory scopes (for example, C:\\ or D:\) that are indexed.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -111,7 +111,7 @@ List of directory scopes (for example, C:\\ or D:\) that are indexed.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -132,7 +132,7 @@ List of directory scopes (for example, C:\\ or D:\) that are indexed.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -153,7 +153,7 @@ List of directory scopes (for example, C:\\ or D:\) that are indexed.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |

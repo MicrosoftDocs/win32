@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DesktopMonitor class represents the capabilities and management of the desktop monitor (CRT) logical device.
+description: The CIM\_DesktopMonitor class represents the capabilities and management of the desktop monitor (CRT) logical device.
 ms.assetid: dc65aa38-5255-4a40-8ffc-f05f9af71dc6
 ms.tgt_platform: multiple
 title: CIM_DesktopMonitor class (CIMWin32 WMI Providers)
@@ -40,7 +40,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_DesktopMonitor class
+# CIM_DesktopMonitor class (CIMWin32 WMI Providers)
 
 The **CIM\_DesktopMonitor** class represents the capabilities and management of the desktop monitor (CRT) logical device.
 
@@ -1193,7 +1193,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

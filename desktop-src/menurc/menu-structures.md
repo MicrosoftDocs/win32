@@ -1,6 +1,6 @@
 ---
 title: Menu Structures
-description: .
+description: Menu Structures
 ms.assetid: 38b5fa6d-cbbb-4b0f-bc05-f7544e1ef863
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Two primary trust models, certificate hierarchies and cross certification, have evolved to help address logistical problems associated with certifying identities and establishing trust.
+description: Two primary trust models, certificate hierarchies and cross certification, have evolved to help address logistical problems associated with certifying identities and establishing trust.
 ms.assetid: b9a552df-dc27-4c3d-ab71-c80ae0f2a67d
 title: Trust Models
 ms.topic: article

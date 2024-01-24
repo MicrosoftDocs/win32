@@ -1,5 +1,5 @@
 ---
-Description: Use to set VFP as mandatory on a port.
+description: Use to set VFP as mandatory on a port.
 ms.assetid: efc54e06-26ff-4773-b4b4-a1c5e03d06cc
 title: Msvm_EthernetSwitchPortVfpSettingData class
 ms.topic: reference
@@ -38,7 +38,7 @@ The **Msvm\_EthernetSwitchPortVfpSettingData** class does not define any members
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

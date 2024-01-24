@@ -1,5 +1,5 @@
 ---
-Description: Sets the gamma ramp for the device.
+description: Sets the gamma ramp for the device.
 ms.assetid: 92ea0247-6eec-4c5f-9ea7-65f6b97dde1e
 title: NtGdiDdSetGammaRamp function (Ntgdi.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ It is recommended that applications use the **IDirectDrawGammaControl::SetGammaR
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

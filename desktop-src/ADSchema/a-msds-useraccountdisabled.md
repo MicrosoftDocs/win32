@@ -22,7 +22,7 @@ Indicates whether an account is disabled or enabled. True if the account disable
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-User-Account-Disabled          |
 | Ldap-Display-Name | msDS-UserAccountDisabled             |
@@ -43,7 +43,7 @@ Indicates whether an account is disabled or enabled. True if the account disable
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

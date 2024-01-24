@@ -1,5 +1,5 @@
 ---
-Description: Puts the guest service in a started state.
+description: Puts the guest service in a started state.
 ms.assetid: 1DC6A5B3-0F91-4AC1-99D5-0E8CF5ED35A2
 title: Msvm_GuestService::StartService method
 ms.topic: reference
@@ -51,7 +51,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

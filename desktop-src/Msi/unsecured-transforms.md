@@ -1,5 +1,5 @@
 ---
-Description: Transforms that have not been secured as described in Secured Transforms are unsecured transforms by default.
+description: Transforms that have not been secured as described in Secured Transforms are unsecured transforms by default.
 ms.assetid: feace6c3-7828-44d0-8d2b-482a02e8e0c0
 title: Unsecured Transforms
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property consisting of an array of string elements.
+description: Represents a PnP device property consisting of an array of string elements.
 ms.assetid: B0ED67F2-1534-45BA-ACBD-0914EC3AC7D8
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyStringArray class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

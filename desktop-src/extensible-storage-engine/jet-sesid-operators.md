@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_SESID operators"
 title: JET_SESID operators
 TOCTitle: JET_SESID operators
 ms:assetid: fc9db8fb-5468-7f64-a8ce-662ba7687623
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_SESID](hh596745\(v=exchg.10\).md) type exposes the following members.
+The [JET_SESID](./jet-sesid-structure.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_SESID structure](hh596745\(v=exchg.10\).md)
+[JET_SESID structure](./jet-sesid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

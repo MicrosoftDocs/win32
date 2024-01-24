@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether an Advanced Systems Format (ASF) file contains any streams that are not audio or video.
+description: Specifies whether an Advanced Systems Format (ASF) file contains any streams that are not audio or video.
 ms.assetid: ccd61f50-29fb-4a50-80c9-d23d71d768f3
 title: MF_PD_ASF_INFO_HAS_NON_AUDIO_VIDEO attribute (Wmcontainer.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

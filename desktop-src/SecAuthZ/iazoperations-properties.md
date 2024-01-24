@@ -1,5 +1,5 @@
 ---
-Description: The IAzOperations interface exposes the following properties.
+description: The IAzOperations interface exposes the following properties.
 ms.assetid: 7BC9F593-4EE0-4781-BA6F-905A229199B6
 title: IAzOperations Properties
 ms.topic: reference

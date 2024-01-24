@@ -1,6 +1,6 @@
 ---
 title: WM ASF Writer Filter (Windows Media Format 11 SDK)
-description: WM ASF Writer Filter
+description: Learn about the WM ASF Writer filter for the Windows Media Format 11 SDK. Review filter information and see related topics.
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
 - Windows Media Format SDK,WM ASF Writer
@@ -10,10 +10,13 @@ keywords:
 - Advanced Systems Format (ASF),WM ASF Writer
 - ASF (Advanced Systems Format),WM ASF Writer
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
-# WM ASF Writer Filter
+# WM ASF Writer Filter (Windows Media Format 11 SDK)
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The WM ASF Writer filter accepts a variable number of input streams and creates an ASF file. The filter handles all compression and multiplexing (although the compression mechanism can be bypassed). You can use the WM ASF Writer filter in various scenarios including digital video (DV) capture, audio recompression, and conversion of Audio-Video Interleaved (AVI) or MPEG digital media files for network streaming. This filter provides the only way to create Microsoft Windows Media Audio and Windows Media Video files in DirectShow.
 
@@ -23,7 +26,7 @@ The following table contains information about the WM ASF Writer filter, such as
 
 
 
-|                        |                                                                                                                                                                                                                         |
+| Filter Information                       |  Types                                                                                                                                                                                                                       |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter interfaces      | **IAMFilterMiscFlags**, **IBaseFilter**, **IConfigAsfWriter**, **IFileSinkFilter2**, IMediaSeeking, IPersistStream, IServiceProvider, ISpecifyPropertyPages, **IWMIndexer2**, **IWMHeaderInfo**, **IWMWriterAdvanced2** |
 | Input pin media types  | Dependent on the profile. Typically uncompressed types like MEDIATYPE\_Audio or MEDIATYPE\_Video, although compressed types can be accepted if they match the profile                                                   |

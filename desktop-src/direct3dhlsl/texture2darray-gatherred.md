@@ -16,18 +16,18 @@ api_location:
 
 # Texture2DArray::GatherRed methods
 
-Samples a [**Texture2DArray**](sm5-object-texture2darray.md) and returns the red component.
+Returns the red components of a [**Texture2DArray**](sm5-object-texture2darray.md)'s four texel values that would be used in a bi-linear filtering operation.
 
 ### Overload list
 
 
 
-| Method                                                                                                      | Description                                                                                       |
-|:------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
-| [**GatherRed(S,float,int)**](sm5-object-texture2darray-gatherred.md)                                       | Samples a texture and returns the red component.<br/>                                       |
-| [**GatherRed(S,float,int,uint)**](t2darray-gatherred-s-float-int-uint-.md)                                 | Samples a texture and returns the red component along with status about the operation.<br/> |
-| [**GatherRed(S,float,int2,int2,int2,int2)**](t2darray-gatherred-s-float-int2-int2-int2-int2-.md)           | Samples a texture and returns the red component.<br/>                                       |
-| [**GatherRed(S,float,int2,int2,int2,int2,uint)**](t2darray-gatherred-s-float-int2-int2-int2-int2-uint-.md) | Samples a texture and returns the red component along with status about the operation.<br/> |
+| Method                                                                                                      | Description                                                                                                                                     |
+|:------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**GatherRed(S,float,int)**](sm5-object-texture2darray-gatherred.md)                                        | Returns the red components of the four texel values that would be used in a bi-linear filtering operation.<br/>                                 |
+| [**GatherRed(S,float,int,uint)**](t2darray-gatherred-s-float-int-uint-.md)                                  | Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.<br/> |
+| [**GatherRed(S,float,int2,int2,int2,int2)**](t2darray-gatherred-s-float-int2-int2-int2-int2-.md)            | Returns the red components of the four texel values that would be used in a bi-linear filtering operation.<br/>                                 |
+| [**GatherRed(S,float,int2,int2,int2,int2,uint)**](t2darray-gatherred-s-float-int2-int2-int2-int2-uint-.md)  | Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.<br/> |
 
 
 

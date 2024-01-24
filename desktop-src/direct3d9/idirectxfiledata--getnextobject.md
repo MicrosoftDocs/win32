@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the next child data object, data reference object, or binary object in the DirectX file. Deprecated.
+description: Retrieves the next child data object, data reference object, or binary object in the DirectX file. Deprecated.
 ms.assetid: 8232e911-6552-4b2b-a9c2-59e6a13a0d9b
 title: IDirectXFileData::GetNextObject method (DXFile.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ To determine the type of object retrieved, use QueryInterface to query the retri
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

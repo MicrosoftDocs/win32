@@ -1,5 +1,5 @@
 ---
-Description: Commits the recovery snapshot that the InitiateFailover method has used for a failover.
+description: Commits the recovery snapshot that the InitiateFailover method has used for a failover.
 ms.assetid: 05c27211-adc7-400a-83e2-81792ae7577f
 title: CommitFailover method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -103,7 +103,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

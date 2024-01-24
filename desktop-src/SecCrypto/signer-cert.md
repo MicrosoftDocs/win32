@@ -1,5 +1,5 @@
 ---
-Description: Specifies a certificate used to sign a document. The certificate can be stored in a Software Publisher Certificate (SPC) file or in a certificate store.
+description: Specifies a certificate used to sign a document. The certificate can be stored in a Software Publisher Certificate (SPC) file or in a certificate store.
 ms.assetid: 9a99ce98-237d-4223-ab3d-0576041038e3
 title: SIGNER_CERT structure
 ms.topic: reference
@@ -103,7 +103,7 @@ The handle of the window to use as the owner of any dialog boxes that are displa
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

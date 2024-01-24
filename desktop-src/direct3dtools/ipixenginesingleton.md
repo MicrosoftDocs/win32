@@ -1,5 +1,5 @@
 ---
-Description: Determines if the engine supports a singleton instance or not.
+description: Determines if the engine supports a singleton instance or not.
 MS-HAID: vspixengine.IPixEngineSingleton
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -30,7 +30,7 @@ The **IPixEngineSingleton** interface inherits from the [**IUnknown**](/windows/
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

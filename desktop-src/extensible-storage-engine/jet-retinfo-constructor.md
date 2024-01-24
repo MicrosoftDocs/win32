@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETINFO constructor"
 title: JET_RETINFO constructor 
 TOCTitle: 'JET_RETINFO constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RETINFO.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RETINFO constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_RETINFO()
 
 #### Reference
 
-[JET_RETINFO class](dn335277\(v=exchg.10\).md)
+[JET_RETINFO class](./jet-retinfo-class.md)
 
-[JET_RETINFO members](dn351022\(v=exchg.10\).md)
+[JET_RETINFO members](./jet-retinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue.Value property"
 title: StringColumnValue.Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.StringColumnValue.Value
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # StringColumnValue.Value property
 
-Gets or sets the value of the column. Use [SetColumns(JET_SESID, JET_TABLEID, \[\])](dn334138\(v=exchg.10\).md) to update a record with the column value.
+Gets or sets the value of the column. Use [SetColumns(JET_SESID, JET_TABLEID, \[\])](./api.setcolumns-method.md) to update a record with the column value.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[StringColumnValue class](dn351135\(v=exchg.10\).md)
+[StringColumnValue class](./stringcolumnvalue-class.md)
 
-[StringColumnValue members](dn351145\(v=exchg.10\).md)
+[StringColumnValue members](./stringcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

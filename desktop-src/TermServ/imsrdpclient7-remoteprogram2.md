@@ -57,7 +57,7 @@ The address of an [**ITSRemoteProgram2**](itsremoteprogram2.md) interface pointe
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |

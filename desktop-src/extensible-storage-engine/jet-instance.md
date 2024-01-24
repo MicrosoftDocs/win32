@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE"
 title: JET_INSTANCE
 TOCTitle: JET_INSTANCE
 ms:assetid: a4136bec-95b3-42d7-b21b-1df09197bb11
@@ -34,11 +35,11 @@ The **JET_INSTANCE** data type contains a handle to the instance of the database
 
 JET_INSTANCE
 
-Either **NULL** or [JET_instanceNil](gg269256\(v=exchg.10\).md) can be used to indicate an invalid instance handle.
+Either **NULL** or [JET_instanceNil](./invalid-handle-constants.md) can be used to indicate an invalid instance handle.
 
 ### Remarks
 
-This handle is obtained when you create an instance of the database by calling the [JetCreateInstance](gg269354\(v=exchg.10\).md), [JetCreateInstance2](gg269202\(v=exchg.10\).md), [JetInit](gg294068\(v=exchg.10\).md), or [JetInit2](gg294065\(v=exchg.10\).md) functions.
+This handle is obtained when you create an instance of the database by calling the [JetCreateInstance](./jetcreateinstance-function.md), [JetCreateInstance2](./jetcreateinstance2-function.md), [JetInit](./jetinit-function.md), or [JetInit2](./jetinit2-function.md) functions.
 
 **Windows XP:**  The explicit use of instances is only supported on Windows XP and later releases.
 
@@ -46,32 +47,18 @@ This handle is obtained when you create an instance of the database by calling t
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also
 
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetCreateInstance2](gg269202\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[JetInit2](gg294065\(v=exchg.10\).md)
-
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetCreateInstance2](./jetcreateinstance2-function.md)  
+[JetInit](./jetinit-function.md)  
+[JetInit2](./jetinit2-function.md)

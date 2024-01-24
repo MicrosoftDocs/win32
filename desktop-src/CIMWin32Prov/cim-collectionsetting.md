@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CollectionSetting class represents the association between a CIM\_CollectionOfMSEs and the setting class defined for them.
+description: The CIM\_CollectionSetting class represents the association between a CIM\_CollectionOfMSEs and the setting class defined for them.
 ms.assetid: f09bd656-5fdd-4ab1-8ef9-52d431a5117d
 ms.tgt_platform: multiple
 title: CIM_CollectionSetting class
@@ -87,7 +87,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of encryption types that can be used to encrypt content before it becomes accessible to the CPU or bus.
+description: Returns the number of encryption types that can be used to encrypt content before it becomes accessible to the CPU or bus.
 ms.assetid: 442b80f5-8467-427d-a01e-5d22f6ddafea
 title: D3DAUTHENTICATEDQUERY_ENCRYPTIONWHENACCESSIBLEGUIDCOUNT (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Returns the number of encryption types that can be used to encrypt content befor
 
 
 
-|             |                                                                                                                                              |
+| Requirement | Value |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_ENCRYPTIONWHENACCESSIBLEGUIDCOUNT**                                                                                 |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT**](d3dauthenticatedchannel-query-input.md)                                                         |
@@ -42,7 +42,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

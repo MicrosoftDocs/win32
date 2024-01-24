@@ -1,5 +1,5 @@
 ---
-Description: Manipulates a textual conference description.
+description: Manipulates a textual conference description.
 ms.assetid: b9ce61d1-3fc5-4963-8d2f-586a4b6a159d
 title: ITConferenceBlob interface (Sdpblb.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The **ITConferenceBlob** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

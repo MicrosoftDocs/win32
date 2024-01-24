@@ -1,5 +1,5 @@
 ---
-Description: Exports a virtual machine, or a snapshot of a virtual machine, to a file.
+description: Exports a virtual machine, or a snapshot of a virtual machine, to a file.
 ms.assetid: b88712e4-a1a6-4188-8082-f4973f89018d
 title: ExportSystemDefinition method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -114,7 +114,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

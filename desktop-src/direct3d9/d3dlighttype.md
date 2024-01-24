@@ -1,5 +1,5 @@
 ---
-Description: Defines the light type.
+description: Defines the light type.
 ms.assetid: 90ad82d3-ffa8-42bb-9d9c-cf28a416c32d
 title: D3DLIGHTTYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Directional lights are slightly faster than point light sources, but point light
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

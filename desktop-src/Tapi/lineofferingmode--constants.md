@@ -1,5 +1,5 @@
 ---
-Description: The LINEOFFERINGMODE\_ bit-flag constants (TAPI versions 1.4 and later) describe different substates of an offering call.
+description: The LINEOFFERINGMODE\_ bit-flag constants (TAPI versions 1.4 and later) describe different substates of an offering call.
 ms.assetid: a6c6d30f-fdc4-4ba5-b1a2-3c709445aedc
 title: LINEOFFERINGMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The LINEOFFERINGMODE\_ACTIVE and LINEOFFERINGMODE\_INACTIVE values are used when
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

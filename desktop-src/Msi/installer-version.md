@@ -1,5 +1,5 @@
 ---
-Description: The Version property of the Installer object is a read-only property that is the string representation of the current version of Windows Installer. The string is returned in the following form.
+description: The Version property of the Installer object is a read-only property that is the string representation of the current version of Windows Installer. The string is returned in the following form.
 ms.assetid: '9af262f0-b573-471d-aac6-6a72e8cb5314'
 title: Installer.Version property
 ms.topic: reference
@@ -38,7 +38,7 @@ propVal = Installer.Version
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

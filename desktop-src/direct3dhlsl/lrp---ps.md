@@ -1,6 +1,6 @@
 ---
 title: lrp - ps
-description: Interpolates linearly between the second and third source registers by a proportion specified in the first source register.
+description: Interpolates linearly between the second and third source registers by a proportion specified in the first source register. | lrp - ps
 ms.assetid: b360f28e-cb2a-4403-a020-180524df6549
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Create an effect from an ASCII or binary effect description.
+description: D3DXCreateEffectFromResource function - Create an effect from an ASCII or binary effect description.
 ms.assetid: 8385512c-e93d-4c07-b353-87717eb58bcd
 title: D3DXCreateEffectFromResource function (D3DX9Effect.h)
 ms.topic: reference
@@ -142,7 +142,7 @@ D3DXCreateEffectFromResource loads data from a resource of type RT\_RCDATA. See 
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

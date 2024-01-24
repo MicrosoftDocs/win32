@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_TapeDrive class requests a reset of the logical device.
+description: The Reset method of the CIM\_TapeDrive class requests a reset of the logical device.
 ms.assetid: 48097e0d-7986-46b9-884d-7534f3848dd7
 ms.tgt_platform: multiple
 title: Reset method of the CIM_TapeDrive class
@@ -47,7 +47,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

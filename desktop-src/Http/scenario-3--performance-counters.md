@@ -14,15 +14,15 @@ Performance counters measure quantities of information or data, according to the
 
 Starting with Windows Vista and Windows Server 2008, HTTP.sys has the following performance metric counters to help you with monitoring, diagnosing, and capacity planning for Web servers: The HTTP Server API component has the following performance counters to help you with monitoring, diagnosing, and capacity planning for Web servers:
 
--   HTTP Service Counters:
--   Number of URIs in the cache, added since startup, deleted since startup, and number of cache flushes
--   Cache hits/second and Cache misses/second
--   HTTP Service URL Groups:
--   Data send rate, data receive rate, bytes transferred (sent and received)
--   Maximum number of connections, connection attempts rate, rate for GET and HEAD requests, and total number of requests
--   HTTP Service Request Queues:
--   Number of requests in queue, age of oldest requests in queue (age of the last request in the queue)
--   Rate of request arrivals into the queue, rate of rejection, total number of rejected requests, rate of cache hits
+- HTTP Service Counters:
+  - Number of URIs in the cache, added since startup, deleted since startup, and number of cache flushes
+  - Cache hits/second and Cache misses/second
+- HTTP Service URL Groups:
+  - Data send rate, data receive rate, bytes transferred (sent and received)
+  - Maximum number of connections, connection attempts rate, rate for GET and HEAD requests, and total number of requests
+- HTTP Service Request Queues:
+  - Number of requests in queue, age of oldest requests in queue (age of the last request in the queue)
+  - Rate of request arrivals into the queue, rate of rejection, total number of rejected requests, rate of cache hits
 
 **Accessing Performance Counters**
 

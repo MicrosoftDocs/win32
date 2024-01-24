@@ -1,5 +1,5 @@
 ---
-Description: Control code retrieves the ideal send backlog value for the underlying connection.
+description: Control code retrieves the ideal send backlog value for the underlying connection.
 ms.assetid: 03fe964b-26f7-4af7-83bf-62cc877d01a8
 title: SIO_IDEAL_SEND_BACKLOG_QUERY Control Code
 ms.topic: reference
@@ -104,6 +104,8 @@ For overlapped operations, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-w
 Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 ### lpCompletionRoutine
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 

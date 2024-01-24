@@ -1,5 +1,5 @@
 ---
-Description: Represents a pipeline stage, including details of the shader used.
+description: Represents a pipeline stage, including details of the shader used.
 MS-HAID: vspixengine.PipeLineStage
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -56,7 +56,7 @@ A FILEPTR for the shader byte stream. This is passed back in order to debug.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

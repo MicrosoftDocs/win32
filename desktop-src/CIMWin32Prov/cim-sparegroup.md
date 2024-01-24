@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SpareGroup class is derived from the CIM\_RedundancyGroup class and indicates that one or more of the aggregated elements can be spared.
+description: The CIM\_SpareGroup class is derived from the CIM\_RedundancyGroup class and indicates that one or more of the aggregated elements can be spared.
 ms.assetid: e60f8cab-a9e8-4f5a-b8d7-833c7832ef7e
 ms.tgt_platform: multiple
 title: CIM_SpareGroup class
@@ -344,7 +344,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

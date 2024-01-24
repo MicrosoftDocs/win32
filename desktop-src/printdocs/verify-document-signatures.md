@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to verify the signatures in an XPS document and how to verify the certificates that are related to those signatures.
+description: This topic describes how to verify the signatures in an XPS document and how to verify the certificates that are related to those signatures.
 ms.assetid: fd12abaf-dc0f-4db1-837d-c116627bcc7e
 title: Verify Document Signatures and Certificates
 ms.topic: article
@@ -585,7 +585,7 @@ CreateCertificateChain (
 [XPS Document Errors](xps-document-errors.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

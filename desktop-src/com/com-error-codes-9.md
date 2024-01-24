@@ -1,6 +1,6 @@
 ---
 title: COM Error Codes (WPN, MBN, P2P, Bluetooth) (Winerror.h)
-description: The following table provides a list of error codes used by COM-based APIs.
+description: The following table provides a list of error codes used by COM-based APIs. | COM Error Codes (WPN, MBN, P2P, Bluetooth) (Winerror.h)
 ms.assetid: 351E28F9-89E7-4F19-B72D-FFE12C95A6B3
 topic_type:
 - apiref
@@ -1099,7 +1099,7 @@ Too many attributes have been used.
 
 
 
-The connection can not be found.
+The connection cannot be found.
 
 
 </dt> </dl> </dd> <dt>
@@ -1918,7 +1918,7 @@ The app invite request was canceld by the user.
 
 
 
-No respose ot the invite was received.
+No response to the invite was received.
 
 
 </dt> </dl> </dd> <dt>
@@ -2265,7 +2265,7 @@ An error that lies in the reserved range has been received.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winerror.h</dt> </dl> |
 

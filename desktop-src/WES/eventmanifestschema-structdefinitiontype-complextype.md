@@ -1,6 +1,6 @@
 ---
 title: StructDefinitionType Complex Type
-description: Defines a structure that includes one or more data items that you want to include with the event.
+description: Defines a structure that includes one or more data items that you want to include with the event. | StructDefinitionType Complex Type
 ms.assetid: eb6b3682-1035-472b-8027-583d43c31748
 keywords:
 - StructDefinitionType complex type EventLog
@@ -80,7 +80,7 @@ You should not use structures but instead should define data items for each memb
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

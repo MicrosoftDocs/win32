@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNID methods"
 title: JET_ENUMCOLUMNID methods
 TOCTitle: JET_ENUMCOLUMNID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_ENUMCOLUMNID](dn335139\(v=exchg.10\).md) type exposes the following members.
+The [JET_ENUMCOLUMNID](./jet-enumcolumnid-class.md) type exposes the following members.
 
 ## Methods
 
@@ -66,6 +67,6 @@ Top
 
 #### Reference
 
-[JET_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID class](./jet-enumcolumnid-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

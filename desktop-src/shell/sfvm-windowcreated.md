@@ -1,5 +1,5 @@
 ---
-Description: Notifies the callback object that the folder view window is being created. Used by IShellFolderViewCB::MessageSFVCB.
+description: Notifies the callback object that the folder view window is being created. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_WINDOWCREATED message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -46,7 +46,7 @@ The folder view's window handle.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

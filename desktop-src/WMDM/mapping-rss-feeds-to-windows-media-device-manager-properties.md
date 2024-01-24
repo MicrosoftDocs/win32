@@ -209,7 +209,7 @@ The following table describes how the values in the RSS Channel elements in the 
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [g\_wszWMDMAuthorDate](metadata-constants.md)           | Fri, 9 June 2006 14:00:28 EDT                                                                 |
 | [g\_wszWMDMDESCRIPTION](metadata-constants.md)          | Lucerne Publishing CEO Peter Bankov takes a look at the latest trends in online publications. |
-| [g\_wszWMDMDESTINATION\_URL](metadata-constants.md)     | https://www.lucernepublishing/services/podcasting                                              |
+| [g\_wszWMDMDESTINATION\_URL](metadata-constants.md)     | `https://www.lucernepublishing/services/podcasting`                                              |
 | [g\_wszWMDMEDITOR](metadata-constants.md)               | someone@example.com                                                                           |
 | [g\_wszWMDMFileCreationDate](metadata-constants.md)     | Fri, 9 June 2006 14:00:28 EDT                                                                 |
 | [g\_wszWMDMFileName](metadata-constants.md)             | The Digital Publication                                                                       |
@@ -241,7 +241,7 @@ The following table describes how the values in the RSS Image elements in the pr
 | [g\_wszWMDMDescription](metadata-constants.md)      | Lucerne Logo                                     |
 | [g\_wszWMDMDestinationURL](metadata-constants.md)   | //www.lucernepublishing.com/community/podcasts   |
 | [g\_wszWMDMHeight](metadata-constants.md)           | 300                                              |
-| [g\_wszWMDMSourceURL](metadata-constants.md)        | https://www.lucernepublishing.com/images/logo.gif |
+| [g\_wszWMDMSourceURL](metadata-constants.md)        | `https://www.lucernepublishing.com/images/logo.gif` |
 | [g\_wszWMDMTitle](metadata-constants.md)            | Lucerne Publishing                               |
 | [g\_wszWMDMWidth](metadata-constants.md)            | 300                                              |
 
@@ -260,15 +260,15 @@ The following table describes how the values in the RSS Item elements in the pre
 | [g\_wszWMDMAuthor](metadata-constants.md)           | Lucerne                                                                                                                             |
 | [g\_wszWMDMAuthorDate](metadata-constants.md)       | Thur, 1 June 2006 14:00:28 EDT                                                                                                      |
 | [g\_wszWMDMDescription](metadata-constants.md)      | Online publications are rapidly changing. A publishing house CEO examines the trends of the past five years and their implications. |
-| [g\_wszWMDMDestinationURL](metadata-constants.md)   | https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                   |
+| [g\_wszWMDMDestinationURL](metadata-constants.md)   | `https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3`                                  |
 | [g\_wszWMDMDuration](metadata-constants.md)         | 120325445                                                                                                                           |
 | [g\_wszWMDMFileCreationDate](metadata-constants.md) | Thur, 1 June 2006 14:00:28 EDT                                                                                                      |
 | [g\_wszWMDMFileSize](metadata-constants.md)         | 10329011                                                                                                                            |
 | [g\_wszWMDMFormatCode](metadata-constants.md)       | WMDM\_FORMATCODE\_MP3                                                                                                               |
 | [g\_wszWMDMGenre](metadata-constants.md)            | News                                                                                                                                |
 | [g\_wszWMDMLastModifiedDate](metadata-constants.md) | Thur, 1 June 2006 14:00:28 EDT                                                                                                      |
-| [g\_wszWMDMMediaGuid](metadata-constants.md)        | https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                   |
-| [g\_wszWMDMSourceURL](metadata-constants.md)        | https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                   |
+| [g\_wszWMDMMediaGuid](metadata-constants.md)        | `https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3`                                 |
+| [g\_wszWMDMSourceURL](metadata-constants.md)        | `https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3`                                  |
 | [g\_wszWMDMTitle](metadata-constants.md)            | The Digital Publication                                                                                                             |
 | [g\_wszWMDMYear](metadata-constants.md)             | Thur, 1 June 2006 14:00:28 EDT                                                                                                      |
 

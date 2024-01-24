@@ -1,22 +1,25 @@
 ---
-Description: Calculates the transposed product of two matrices.
+description: D3DXMatrixMultiplyTranspose function (D3dx9math.h) - Calculates the transposed product of two matrices.
 ms.assetid: 43927500-9413-41a4-a6ee-974d85dd1054
 title: D3DXMatrixMultiplyTranspose function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixMultiplyTranspose
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixMultiplyTranspose function
+# D3DXMatrixMultiplyTranspose function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Calculates the transposed product of two matrices.
 
@@ -82,7 +85,7 @@ This function is useful to set matrices as constants for vertex and pixel shader
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -105,7 +108,3 @@ This function is useful to set matrices as constants for vertex and pixel shader
  
 
  
-
-
-
-

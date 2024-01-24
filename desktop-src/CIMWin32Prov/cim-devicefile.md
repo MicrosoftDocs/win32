@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DeviceFile class represents a type of logical file, which represents a device.
+description: The CIM\_DeviceFile class represents a type of logical file, which represents a device.
 ms.assetid: b07f039c-8ab0-4e13-96d5-3621da19e66d
 ms.tgt_platform: multiple
 title: CIM_DeviceFile class
@@ -964,7 +964,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

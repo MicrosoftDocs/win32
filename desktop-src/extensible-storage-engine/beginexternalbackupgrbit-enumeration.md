@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BeginExternalBackupGrbit enumeration"
 title: BeginExternalBackupGrbit enumeration
 TOCTitle: BeginExternalBackupGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.BeginExternalBackupGrbit
@@ -32,11 +33,11 @@ ROBOTS: INDEX,FOLLOW
 
 # BeginExternalBackupGrbit enumeration
 
-Options for [JetBeginExternalBackupInstance(JET_INSTANCE, BeginExternalBackupGrbit)](dn292104\(v=exchg.10\).md).
+Options for [JetBeginExternalBackupInstance(JET_INSTANCE, BeginExternalBackupGrbit)](./api.jetbeginexternalbackupinstance-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -83,4 +84,4 @@ public enum BeginExternalBackupGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

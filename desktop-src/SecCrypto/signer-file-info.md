@@ -1,5 +1,5 @@
 ---
-Description: Specifies a file to sign.
+description: Specifies a file to sign.
 ms.assetid: 5b45d855-ede8-43eb-9253-e3fe1716686b
 title: SIGNER_FILE_INFO structure
 ms.topic: reference
@@ -65,7 +65,7 @@ An open handle to the file specified by the **pwszFileName** member. If this mem
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: A service can register to be started or stopped when a trigger event occurs.
+description: A service can register to be started or stopped when a trigger event occurs.
 ms.assetid: ca02a3ae-b16a-4427-b6db-b935c9cf23b3
 title: Service Trigger Events
 ms.topic: article

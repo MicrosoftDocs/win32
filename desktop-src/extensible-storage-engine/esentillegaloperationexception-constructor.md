@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIllegalOperationException constructor"
 title: EsentIllegalOperationException constructor 
 TOCTitle: 'EsentIllegalOperationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIllegalOperationException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIllegalOperationException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentIllegalOperationException()
 
 #### Reference
 
-[EsentIllegalOperationException class](dn350477\(v=exchg.10\).md)
+[EsentIllegalOperationException class](./esentillegaloperationexception-class.md)
 
-[EsentIllegalOperationException members](dn350426\(v=exchg.10\).md)
+[EsentIllegalOperationException members](./esentillegaloperationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

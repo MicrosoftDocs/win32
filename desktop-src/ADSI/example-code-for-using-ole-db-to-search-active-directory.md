@@ -26,7 +26,6 @@ The [ICommandText::SetCommandText](/previous-versions/windows/desktop/ms709757(v
 
 For more information about OLE DB, see the OLE DB Programmer's Guide.
 
-## 
 
 
 ```C++

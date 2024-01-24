@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 A vector with two components.
 
-This type is available only in C++. Its .NET equivalent is [System.Numerics.Vector2](/dotnet/api/system.numerics.vector2?view=netframework-4.8).
+This type is available only in C++. Its .NET equivalent is [System.Numerics.Vector2](/dotnet/api/system.numerics.vector2).
 
 ## Constructors
 
@@ -96,7 +96,7 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Vect
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Namespace | Windows::Foundation::Numerics |
 | Header | <dl> <dt>Windowsnumerics.h</dt> </dl> |

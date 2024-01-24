@@ -12,7 +12,6 @@ ms.date: 05/31/2018
 
 Describes the enumerated types that define the constants that are used by the Task Scheduler APIs.
 
-## 
 
 The following enumerated types are introduced in Task Scheduler 2.0.
 
@@ -37,7 +36,6 @@ The following enumerated types are introduced in Task Scheduler 2.0.
 
  
 
-## 
 
 > [!WARNING]
 > The Task Scheduler 1.0 enumerations are available only in Windows 2000, Windows XP, and Windows Server 2003 operating systems. They are deprecated as of Windows Vista and may be removed completely in the future. Please use the Task Scheduler 2.0 enumerations listed above instead.

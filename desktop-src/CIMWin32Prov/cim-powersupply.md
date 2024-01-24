@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PowerSupply class represents the capabilities and management of the power supply logical device.
+description: The CIM\_PowerSupply class represents the capabilities and management of the power supply logical device.
 ms.assetid: a9b79564-01d9-42a4-8586-782f179c179f
 ms.tgt_platform: multiple
 title: CIM_PowerSupply class
@@ -1472,7 +1472,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Gets the time remaining before a delayed app suspending operation continues.
+description: Gets the time remaining before a delayed app suspending operation continues.
 ms.assetid: A90347F3-75CB-4EEB-930D-30882F43D192
 title: ISuspendingOperation::Deadline property (Windows.ApplicationModel.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The time remaining before a delayed app suspending operation continues.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about the specified directory object.
+description: Retrieves information about the specified directory object.
 ms.assetid: a2c67c4d-4753-4d47-a404-31d067a78bf4
 title: NtQueryDirectoryObject function
 ms.topic: reference
@@ -112,7 +112,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

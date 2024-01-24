@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of pointers to transposed matrices.
+description: ID3DXBaseEffect::SetMatrixTransposePointerArray method - Sets an array of pointers to transposed matrices.
 ms.assetid: 11a21077-eeee-4d52-ac16-41444e3eca4f
 title: ID3DXBaseEffect::SetMatrixTransposePointerArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ If the destination matrices are smaller than the source matrices, the additional
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

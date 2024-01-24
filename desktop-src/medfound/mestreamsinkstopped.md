@@ -1,5 +1,5 @@
 ---
-Description: Raised by a stream sink when it completes the transition to the stopped state. The transition to stopped occurs when the IMFPresentationClock Stop method is called on the sinks presentation clock.
+description: Raised by a stream sink when it completes the transition to the stopped state. The transition to stopped occurs when the IMFPresentationClock Stop method is called on the sinks presentation clock.
 ms.assetid: '1a8c7faa-4d4a-4458-ad08-a760a15dc347'
 title: MEStreamSinkStopped event (Mfobjects.h)
 ms.topic: article
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

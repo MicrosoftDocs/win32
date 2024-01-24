@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetResizeDatabase Function"
 title: JetResizeDatabase Function
 TOCTitle: JetResizeDatabase Function
 ms:assetid: b6420de7-acff-480e-838b-f0e5acc29c65
@@ -62,105 +63,53 @@ A pointer to a number that receives the size of the database, in pages, after th
 
 A group of bits that specifies zero or more of the values listed in the following table.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitResizeDatabaseOnlyGrow</p></td>
-<td><p>Only grow the database. If the resize call would shrink the database, do nothing.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitResizeDatabaseOnlyGrow</p> | <p>Only grow the database. If the resize call would shrink the database, do nothing.</p> | 
+
 
 
 ### Return value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Return code</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>The operation completed successfully.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDiskFull</p></td>
-<td><p>There is insufficient free space on the volume to perform the grow operation.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDiskIO</p></td>
-<td><p>A file-related error was returned by the <a href="gg269242(v=exchg.10).md">JetSetDatabaseSize</a> function. For more information about other file-related errors that might be returned, see <a href="gg269242(v=exchg.10).md">JetSetDatabaseSize</a>.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Return code</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
+| <p>JET_errDiskFull</p> | <p>There is insufficient free space on the volume to perform the grow operation.</p> | 
+| <p>JET_errDiskIO</p> | <p>A file-related error was returned by the <a href="gg269242(v=exchg.10).md">JetSetDatabaseSize</a> function. For more information about other file-related errors that might be returned, see <a href="gg269242(v=exchg.10).md">JetSetDatabaseSize</a>.</p> | 
+
 
 
 #### Remarks
 
 If the **JetResizeDatabase** function is called prior to inserting large amounts of data, the database file will be grown in one operation. This will reduce the likelihood of the database file becoming fragmented at the file system level, and also reduce the number of times the database file has to be grown. Growing the database file once can be faster than growing it several times.
 
-To set the size of a database that is not opened, see [JetSetDatabaseSize](gg269242\(v=exchg.10\).md).
+To set the size of a database that is not opened, see [JetSetDatabaseSize](./jetsetdatabasesize-function.md).
 
 The file size might not match the number of pages that are returned in the *pcpgReal* parameter. Two additional reserved pages might not be counted in the *pcpgReal* parameter.
 
 #### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows 8.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2012.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Library</strong></p></td>
-<td><p>Use ESENT.lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requires ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows 8.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2012.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
+
 
 
 #### See also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JET_OBJECTLIST](gg269348\(v=exchg.10\).md)  
-[JetSetDatabaseSize](gg269242\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_OBJECTINFO](./jet-objectinfo-structure.md)  
+[JET_OBJECTLIST](./jet-objectlist-structure.md)  
+[JetSetDatabaseSize](./jetsetdatabasesize-function.md)

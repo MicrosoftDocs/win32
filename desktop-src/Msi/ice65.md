@@ -1,5 +1,5 @@
 ---
-Description: ICE65 checks that the Environment table does not have invalid prefix or append values.
+description: ICE65 checks that the Environment table does not have invalid prefix or append values.
 ms.assetid: 95d4e618-9a19-40db-910a-daab105559ae
 title: ICE65
 ms.topic: article

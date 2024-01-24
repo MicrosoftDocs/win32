@@ -1,5 +1,5 @@
 ---
-Description: Prevents edge gesture behaviors when an application window is active and in full-screen mode (or an owned window is active).
+description: Prevents edge gesture behaviors when an application window is active and in full-screen mode (or an owned window is active).
 ms.assetid: F4242C05-181B-44FC-BE6C-8ABB76079981
 title: System.EdgeGesture.DisableTouchWhenFullscreen
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Creating a derived class in WMI is very similar to creating a base class. As with a base class, you must first define the derived class and then register the derived class with WMI.
+description: Creating a derived class in WMI is very similar to creating a base class. As with a base class, you must first define the derived class and then register the derived class with WMI.
 ms.assetid: 8dd483b8-8bc2-4a5c-b981-6c2ffaccdb95
 ms.tgt_platform: multiple
 title: Creating a WMI Derived Class

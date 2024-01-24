@@ -1,5 +1,5 @@
 ---
-Description: Shows registering (creating) and opening a system store, registering a physical store as a member of a system store, and unregistering (deleting) a system store.
+description: Shows registering (creating) and opening a system store, registering a physical store as a member of a system store, and unregistering (deleting) a system store.
 ms.assetid: 857ab592-68c7-4660-b37d-b165aeee14f4
 title: 'Example C Program: Registering Physical and System Certificate Stores'
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: XAudio2 can call functions provided by the client to notify it asynchronously of certain events taking place in the audio processing thread.
+description: XAudio2 can call functions provided by the client to notify it asynchronously of certain events taking place in the audio processing thread.
 ms.assetid: 4fbd4229-f7ac-33b3-b4b7-f09150a60598
 title: XAudio2 Callbacks
 ms.topic: article

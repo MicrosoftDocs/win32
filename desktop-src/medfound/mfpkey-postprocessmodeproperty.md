@@ -1,5 +1,5 @@
 ---
-Description: Specifies the post processing mode for the decoder.
+description: Specifies the post processing mode for the decoder.
 ms.assetid: c6dab7f6-4a3e-45bb-b81c-5f4c39f9e954
 title: MFPKEY_POSTPROCESSMODE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ As the value of this property goes from 0 to 4, the decoding complexity, use of 
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

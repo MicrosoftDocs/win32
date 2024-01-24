@@ -1,5 +1,5 @@
 ---
-Description: Sets the method that is called when the asynchronous action completes.
+description: Sets the method that is called when the asynchronous action completes.
 ms.assetid: 632800E4-D02B-4D45-8A9B-B373AC938558
 title: IAsyncAction::put_Completed method
 ms.topic: reference
@@ -53,7 +53,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                              |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |

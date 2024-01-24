@@ -1,5 +1,5 @@
 ---
-Description: The BLOB Helper API includes the following structures.
+description: The BLOB Helper API includes the following structures.
 ms.assetid: 26efc9d0-3e62-4a6b-b99d-f5441e25d175
 title: BLOB Structures
 ms.topic: article

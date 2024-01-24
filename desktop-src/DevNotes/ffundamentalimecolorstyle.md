@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the specified color is a fundamental color.
+description: Specifies whether the specified color is a fundamental color.
 ms.assetid: 9a06fadc-9b97-4f7d-9488-688b72d14bc5
 title: FFundamentalIMEColorStyle function
 ms.topic: reference
@@ -53,7 +53,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

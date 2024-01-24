@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.FileAllocationSize
 ms.assetid: ca3290ce-5690-44e1-80fd-0524a13ced5d
 title: System.FileAllocationSize
 ms.topic: article

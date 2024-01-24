@@ -1,5 +1,5 @@
 ---
-Description: Associates an ID3DXTextureGutterHelper object with the ID3DXPRTBuffer object.
+description: Associates an ID3DXTextureGutterHelper object with the ID3DXPRTBuffer object.
 ms.assetid: 095fea82-ac7a-42fa-990a-084715c73823
 title: ID3DXPRTBuffer::AttachGH method (D3DX9Mesh.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ You must ensure that the number of **ID3DXPRTBuffer::AttachGH** calls matches th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

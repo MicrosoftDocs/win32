@@ -84,20 +84,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                              | Meaning                                      |
-|---------------------------------------------------------------------------------------------------|----------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl> | *size* was not 3 or 4.<br/>            |
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>  | *type* was not an accepted value.<br/> |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl> | *stride* or *count* was negative.<br/> |
-
-
-
 ## Remarks
 
 The **glColorPointer** function specifies the location and data format of an array of color components to use when rendering. The *stride* parameter determines the byte offset from one color to the next, enabling the packing of vertex attributes in a single array or storage in separate arrays. In some implementations, storing vertex attributes in a single array can be more efficient than the use of separate arrays.
@@ -126,7 +112,7 @@ The following functions retrieve information related to the **glColorPointer** f
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

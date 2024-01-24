@@ -39,28 +39,11 @@ Source of the performance counter data. For possible values, see [**DataSourceTy
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Exception type</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>System.ArgumentException</strong></td>
-<td>You can receive this exception for one of the following reasons:
-<ul>
-<li>The specified data source value is not valid.</li>
-<li>If the data source is a log file, SYSMON cannot find one of the specified files. The Err.Number value is 0xC0000BD1.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Exception type | Condition | 
+|----------------|-----------|
+| <strong>System.ArgumentException</strong> | You can receive this exception for one of the following reasons:<ul><li>The specified data source value is not valid.</li><li>If the data source is a log file, SYSMON cannot find one of the specified files. The Err.Number value is 0xC0000BD1.</li></ul> | 
+
 
 
 
@@ -76,7 +59,7 @@ Also, you cannot modify the [**SqlDsnName**](systemmonitor-sqldsnname.md) and [*
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

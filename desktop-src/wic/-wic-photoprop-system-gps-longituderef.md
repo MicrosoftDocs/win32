@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.LongitudeRef property.
+description: The photo metadata policy for the System.GPS.LongitudeRef property.
 ms.assetid: 6e7b3b87-70e5-4c6a-a9b3-959eab38f1f0
 title: System.GPS.LongitudeRef Photo Metadata Policy
 ms.topic: article

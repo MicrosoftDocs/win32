@@ -1,5 +1,5 @@
 ---
-Description: Adjusts the brightness.
+description: Adjusts the brightness.
 ms.assetid: 1b3f56eb-3f22-4120-ba6c-331eccd5d303
 title: MFPKEY_COLOR_BRIGHTNESS Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ This property has a range of -127 to 127. Zero indicates no change in brightness
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

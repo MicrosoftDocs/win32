@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MemoryWithMedia class associates physical memory with a physical media and its cartridge. The memory provides media identification and stores user-specific data.
+description: The CIM\_MemoryWithMedia class associates physical memory with a physical media and its cartridge. The memory provides media identification and stores user-specific data.
 ms.assetid: 99806d2d-6575-431d-9149-dc8ea767146c
 ms.tgt_platform: multiple
 title: CIM_MemoryWithMedia class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

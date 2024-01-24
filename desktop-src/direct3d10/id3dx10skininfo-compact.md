@@ -1,5 +1,5 @@
 ---
-Description: Limit the number of bones that can influence a vertex and/or limit the amount of influence a bone can have on a vertex.
+description: Limit the number of bones that can influence a vertex and/or limit the amount of influence a bone can have on a vertex.
 ms.assetid: 75c4d2eb-0a43-494d-9642-4c08aa814794
 title: ID3DX10SkinInfo::Compact method (D3DX10.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

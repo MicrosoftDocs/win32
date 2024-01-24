@@ -1,5 +1,5 @@
 ---
-Description: The TAPI\_VIDEO\_STREAM\_CONFIG\_CAPS structure is contained by the TAPI\_STREAM\_CONFIG\_CAPS structure when the CapsType member is set to the VideoCap member of the StreamConfigCapsType union.
+description: The TAPI\_VIDEO\_STREAM\_CONFIG\_CAPS structure is contained by the TAPI\_STREAM\_CONFIG\_CAPS structure when the CapsType member is set to the VideoCap member of the StreamConfigCapsType union.
 ms.assetid: 8812755a-50e8-4d8e-ab67-7a3a4b2a4a67
 title: TAPI_VIDEO_STREAM_CONFIG_CAPS structure (Ipmsp.h)
 ms.topic: reference
@@ -176,7 +176,7 @@ Maximum bits per second.
 
 
 
-|                         |                                                                                    |
+| Requirement | Value |
 |-------------------------|------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                       |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT3X3.
+description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT3X3.
 ms.assetid: 19daf862-df81-40d7-b0c7-809015d7f7c8
 title: XMFLOAT3X3 operator () operators
 ms.topic: reference
@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator () operators
+# XMFLOAT3X3 operator () operators
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT3X3`.
 
@@ -23,38 +23,12 @@ Accesses specific matrix elements referenced by row and column from the current 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Operator</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT3X3::operator () (size_t,size_t)</strong></a></td>
-<td style="text-align: left;">Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT3X3</code> as specified by row and column arguments. <br/> This operator returns a <code>reference</code> to a matrix element of an instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> as specified by row and column arguments. <br/>
-<blockquote>
-[!Note]<br />
-This operator is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT3X3::operator () (size_t,size_t)</strong></a></td>
-<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMFLOAT3X3</code> as specified by row and column arguments. <br/> This operator returns the value of a matrix element of an instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> as specified by row and column arguments. <br/>
-<blockquote>
-[!Note]<br />
-This operator is only available when developing with C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Operator | Description | 
+|----------|-------------|
+| [**XMFLOAT3X3::operator () (size_t,size_t)**](/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-operator-function-call(size_t_size_t)) | Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT3X3</code> as specified by row and column arguments. <br> This operator returns a <code>reference</code> to a matrix element of an instance [**XMFLOAT3X3**](/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3) as specified by row and column arguments. <br> **Note:** This operator is only available under C++.<br> | 
+| [**XMFLOAT3X3::operator () (size_t,size_t)**](/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-operator-function-call(size_t_size_t)) | Return the value of a matrix element in an instance <code>XMFLOAT3X3</code> as specified by row and column arguments. <br> This operator returns the value of a matrix element of an instance [**XMFLOAT3X3**](/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3) as specified by row and column arguments. <br> **Note:** This operator is only available when developing with C++.<br> | 
+
 
 
 

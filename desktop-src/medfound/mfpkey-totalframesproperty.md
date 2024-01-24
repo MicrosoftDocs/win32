@@ -1,5 +1,5 @@
 ---
-Description: Specifies the total number of video frames passed to the encoder during the endocing process.
+description: Specifies the total number of video frames passed to the encoder during the endocing process.
 ms.assetid: 33009587-6fb2-4331-88d7-21886125467e
 title: MFPKEY_TOTALFRAMES Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ You can get this value after you are finished passing samples.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE members"
 title: JET_INDEXRANGE members
 TOCTitle: JET_INDEXRANGE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE
@@ -15,7 +16,7 @@ Include inherited members
 
 Identifies an index range when it is used with the JetIntersectIndexes function.
 
-The [JET_INDEXRANGE](dn335175\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXRANGE](./jet-indexrange-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -127,6 +128,6 @@ Top
 
 #### Reference
 
-[JET_INDEXRANGE class](dn335175\(v=exchg.10\).md)
+[JET_INDEXRANGE class](./jet-indexrange-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

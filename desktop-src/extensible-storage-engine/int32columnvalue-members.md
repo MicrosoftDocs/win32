@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int32ColumnValue members"
 title: Int32ColumnValue members
 TOCTitle: Int32ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Int32ColumnValue
@@ -15,7 +16,7 @@ Include inherited members
 
 An [Int32](/dotnet/api/system.int32) column value.
 
-The [Int32ColumnValue](dn350992\(v=exchg.10\).md) type exposes the following members.
+The [Int32ColumnValue](./int32columnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[Int32ColumnValue class](dn350992\(v=exchg.10\).md)
+[Int32ColumnValue class](./int32columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

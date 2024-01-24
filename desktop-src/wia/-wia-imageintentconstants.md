@@ -1,5 +1,5 @@
 ---
-Description: Image intent constants specify what type of data the image is meant to represent.
+description: Image intent constants specify what type of data the image is meant to represent.
 ms.assetid: 171228d9-a619-49aa-964e-f72a7f294a9d
 title: Image Intent Constants (Wiadef.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ The following list shows the C/C++ constant name followed by the corresponding n
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T> members"
 title: ColumnValueOfStruct(T) members
 TOCTitle: ColumnValueOfStruct(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1
@@ -15,7 +16,7 @@ Include inherited members
 
 Set a column of a struct type (e.g. Int32/Guid).
 
-The [ColumnValueOfStruct\<T\>](dn334171\(v=exchg.10\).md) type exposes the following members.
+The [ColumnValueOfStruct\<T\>](./columnvalueofstruct-t-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[ColumnValueOfStruct\<T\> class](dn334171\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> class](./columnvalueofstruct-t-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

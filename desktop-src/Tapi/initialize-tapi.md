@@ -1,5 +1,5 @@
 ---
-Description: The following code example demonstrates creation of the TAPI object.
+description: The following code example demonstrates creation of the TAPI object.
 ms.assetid: f8566e53-51c9-4424-a8bb-369455f35706
 title: Initialize TAPI
 ms.topic: article
@@ -33,8 +33,5 @@ if (result != S_OK) {
 
 ## See Also
 
-<dl><dt>
-[ITTAPI::Initialize](/windows/win32/api/tapi3if/nf-tapi3if-ittapi-initialize)
-</dt><dt>
-[Common HRESULT Values](../seccrypto/common-hresult-values.md)
-</dt></dl>
+- [ITTAPI::Initialize](/windows/win32/api/tapi3if/nf-tapi3if-ittapi-initialize)
+- [Common HRESULT Values](../seccrypto/common-hresult-values.md)

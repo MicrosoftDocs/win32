@@ -36,7 +36,7 @@ MCN_GETDAYSTATE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate) structure. The structure contains information about the time frame for which the control needs information, and it receives the address of an array that provides this data.
+Pointer to an [**NMDAYSTATE**](/windows/win32/api/commctrl/ns-commctrl-nmdaystate) structure. The structure contains information about the time frame for which the control needs information, and a stack-allocated array of bitfields to write this data into.
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ Handling this notification code allows your application to customize its display
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

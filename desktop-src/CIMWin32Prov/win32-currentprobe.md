@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_CurrentProbe WMI class represents the properties of a current monitoring sensor (ammeter).
+description: The Win32\_CurrentProbe WMI class represents the properties of a current monitoring sensor (ammeter).
 ms.assetid: 2e1da856-b787-404b-ac4b-080c4950bad8
 ms.tgt_platform: multiple
 title: Win32_CurrentProbe class
@@ -1485,7 +1485,7 @@ The **Win32\_CurrentProbe** class is derived from [**CIM\_CurrentSensor**](cim-c
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

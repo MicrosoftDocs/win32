@@ -1,5 +1,5 @@
 ---
-Description: Specifies the whole file behind the object. It is also a way of referring to any resource type, including those not covered by other Windows Portable Devices resource types, such as a custom object type.
+description: Specifies the whole file behind the object. It is also a way of referring to any resource type, including those not covered by other Windows Portable Devices resource types, such as a custom object type.
 ms.assetid: e534ea86-4932-45c7-87e7-03926202fa7e
 title: WPD_RESOURCE_DEFAULT
 ms.topic: reference

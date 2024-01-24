@@ -1,5 +1,5 @@
 ---
-Description: ICE80 validates that the value of the Template Summary Property (PID\_TEMPLATE) correctly specifies &\#0034;Intel64&\#0034;, &\#0034;x64&\#0034;, or &\#0034;Intel&\#0034; depending on the presence of 64-bit components or custom action scripts.
+description: ICE80 validates that the value of the Template Summary Property (PID\_TEMPLATE) correctly specifies &\#0034;Intel64&\#0034;, &\#0034;x64&\#0034;, or &\#0034;Intel&\#0034; depending on the presence of 64-bit components or custom action scripts.
 ms.assetid: fd2a15cf-d117-4a87-a26e-caff4b12a2e9
 title: ICE80
 ms.topic: article

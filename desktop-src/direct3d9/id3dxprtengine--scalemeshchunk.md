@@ -1,5 +1,5 @@
 ---
-Description: Scales all the samples associated with a given submesh. The method is useful for computing subsurface scattering.
+description: Scales all the samples associated with a given submesh. The method is useful for computing subsurface scattering.
 ms.assetid: abb9ca6a-5fc2-4986-8a38-29998fe5e537
 title: ID3DXPRTEngine::ScaleMeshChunk method (D3DX9Mesh.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

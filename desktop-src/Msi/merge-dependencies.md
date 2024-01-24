@@ -1,5 +1,5 @@
 ---
-Description: The read-only Dependencies property of the Merge object returns a collection of Dependency objects that enumerates a set of unsatisfied dependencies for the current database.
+description: The read-only Dependencies property of the Merge object returns a collection of Dependency objects that enumerates a set of unsatisfied dependencies for the current database.
 ms.assetid: d7081ffe-3d9e-486e-84b6-b45e92fff5f0
 title: Merge.Dependencies property (Mergemod.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ See [**get\_Dependencies**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-ge
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

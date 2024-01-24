@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotNotAllowedException members"
 title: EsentOSSnapshotNotAllowedException members
 TOCTitle: EsentOSSnapshotNotAllowedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.OSSnapshotNotAllowed exceptions.
 
-The [EsentOSSnapshotNotAllowedException](dn319702\(v=exchg.10\).md) type exposes the following members.
+The [EsentOSSnapshotNotAllowedException](./esentossnapshotnotallowedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentOSSnapshotNotAllowedException class](dn319702\(v=exchg.10\).md)
+[EsentOSSnapshotNotAllowedException class](./esentossnapshotnotallowedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

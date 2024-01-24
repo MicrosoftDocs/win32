@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the format types for strings used to compose the format picture for a time string. Each format picture consists of a combination of one string of each of the format types.
+description: This topic describes the format types for strings used to compose the format picture for a time string. Each format picture consists of a combination of one string of each of the format types.
 ms.assetid: a5e87d88-4037-4302-99b7-179bfb03fac3
 title: Hour, Minute, and Second Format Pictures
 ms.topic: article

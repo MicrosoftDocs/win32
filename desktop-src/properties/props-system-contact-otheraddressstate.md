@@ -1,5 +1,5 @@
 ---
-Description: Other address state name of the contact.
+description: Other address state name of the contact.
 ms.assetid: 9a6381c8-5228-445f-8f7a-a3cc69737e61
 title: System.Contact.OtherAddressState
 ms.topic: article

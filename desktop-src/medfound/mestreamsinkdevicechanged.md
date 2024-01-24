@@ -1,5 +1,5 @@
 ---
-Description: Raised by the stream sinks of the enhanced video renderer (EVR) if the video device changes.
+description: Raised by the stream sinks of the enhanced video renderer (EVR) if the video device changes.
 ms.assetid: 5b663d6b-5df8-4321-a6a5-a21b9810065a
 title: MEStreamSinkDeviceChanged event (Mfobjects.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

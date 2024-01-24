@@ -1,5 +1,5 @@
 ---
-Description: The DeleteExtractedFiles function deletes the files that were extracted by the Extract function.
+description: The DeleteExtractedFiles function deletes the files that were extracted by the Extract function.
 ms.assetid: 253e6267-d4be-46d6-bad2-2eb20bbc7e33
 title: DeleteExtractedFiles function
 ms.topic: reference
@@ -57,7 +57,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Cabinet.dll</dt> </dl> |
 

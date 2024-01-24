@@ -1,5 +1,5 @@
 ---
-Description: The user-friendly form of System.Photo.Saturation. Not intended to be parsed programmatically.
+description: The user-friendly form of System.Photo.Saturation. Not intended to be parsed programmatically.
 ms.assetid: 2d6a524c-515a-439a-a57d-d0506cfddcca
 title: System.Photo.SaturationText
 ms.topic: article

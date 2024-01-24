@@ -1,5 +1,5 @@
 ---
-Description: This sample code is from an ICE custom action ( ICE08). The ICE validates that every component in the Component table has a unique GUID. No validation is done if the Component table does not exist.
+description: This sample code is from an ICE custom action ( ICE08). The ICE validates that every component in the Component table has a unique GUID. No validation is done if the Component table does not exist.
 ms.assetid: 785c3fd6-7120-4532-b055-b73a9a44f75d
 title: Sample ICE in VBScript
 ms.topic: article

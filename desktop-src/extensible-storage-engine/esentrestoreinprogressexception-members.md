@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRestoreInProgressException members"
 title: EsentRestoreInProgressException members
 TOCTitle: EsentRestoreInProgressException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRestoreInProgressException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.RestoreInProgress exceptions.
 
-The [EsentRestoreInProgressException](dn350560\(v=exchg.10\).md) type exposes the following members.
+The [EsentRestoreInProgressException](./esentrestoreinprogressexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentRestoreInProgressException class](dn350560\(v=exchg.10\).md)
+[EsentRestoreInProgressException class](./esentrestoreinprogressexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -29,7 +29,7 @@ An error number.
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | Error Level | Warning |
 

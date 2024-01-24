@@ -1,5 +1,5 @@
 ---
-Description: Locates the target function of the specified import and replaces the function pointer in the import thunk with the target of the function implementation.
+description: Locates the target function of the specified import and replaces the function pointer in the import thunk with the target of the function implementation.
 ms.assetid: 4ab79b7c-81d1-40bf-a76b-217d93567e40
 title: ResolveDelayLoadedAPI function
 ms.topic: reference
@@ -60,14 +60,14 @@ The descriptor for the module to be loaded.
 *FailureDllHook* \[in, optional\]
 </dt> <dd>
 
-The address of the failure hook. See [**DelayLoadFailureHook**](delayloadfailurehook.md).
+The address of the failure hook.
 
 </dd> <dt>
 
 *FailureSystemHook* \[in, optional\]
 </dt> <dd>
 
-The address of the system failure hook.
+The address of the system failure hook. See [**DelayLoadFailureHook**](delayloadfailurehook.md).
 
 </dd> <dt>
 
@@ -93,8 +93,10 @@ The address of the import, or the failure stub for it.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 8<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                    |
 | Library<br/> | <dl> <dt>Kernel32.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Kernel32.dll</dt> </dl> |
 

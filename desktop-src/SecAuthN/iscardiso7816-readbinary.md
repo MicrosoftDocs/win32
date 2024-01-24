@@ -1,5 +1,5 @@
 ---
-Description: The ReadBinary method constructs an application protocol data unit (APDU) command that acquires a response message that gives that part of the contents of a transparent-structured elementary file.
+description: The ReadBinary method constructs an application protocol data unit (APDU) command that acquires a response message that gives that part of the contents of a transparent-structured elementary file.
 ms.assetid: 15394c21-1e07-4ea1-8f11-817e07b31f9b
 title: ISCardISO7816::ReadBinary method (Scardssp.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

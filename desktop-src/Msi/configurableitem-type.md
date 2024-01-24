@@ -1,5 +1,5 @@
 ---
-Description: The Type property returns the value from the Type column of the ModuleConfiguration table .
+description: The Type property returns the value from the Type column of the ModuleConfiguration table .
 ms.assetid: af2cb859-2e9d-4bca-867b-cdc61d9758cd
 title: ConfigurableItem.Type property (Mergemod.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ See [**get\_Type Function (ConfigurableItem Object)**](/windows/desktop/api/Merg
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

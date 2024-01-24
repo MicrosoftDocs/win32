@@ -1,5 +1,5 @@
 ---
-Description: Destroys a previously allocated kernel-mode Microsoft DirectDraw surface object.
+description: Destroys a previously allocated kernel-mode Microsoft DirectDraw surface object.
 ms.assetid: 65419fce-9e82-4621-9906-832144888a3b
 title: NtGdiDdDestroySurface function (Ntgdi.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ It is recommended that applications use the DirectDraw and Direct3D APIs to cre
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

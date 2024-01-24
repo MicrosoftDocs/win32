@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentGivenLogFileIsNotContiguousException properties"
 title: EsentGivenLogFileIsNotContiguousException properties
 TOCTitle: EsentGivenLogFileIsNotContiguousException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentGivenLogFileIsNotContiguousException](dn350479\(v=exchg.10\).md) type exposes the following members.
+The [EsentGivenLogFileIsNotContiguousException](./esentgivenlogfileisnotcontiguousexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentGivenLogFileIsNotContiguousException class](dn350479\(v=exchg.10\).md)
+[EsentGivenLogFileIsNotContiguousException class](./esentgivenlogfileisnotcontiguousexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

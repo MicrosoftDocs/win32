@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when the style or position of the composition window is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+description: Notifies an application when the style or position of the composition window is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: 07a9f0f6-587e-47c6-8f18-b48bdab0a541
 title: IMN_SETCOMPOSITIONWINDOW notification code (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The application can get information about the composition form by using the [**I
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

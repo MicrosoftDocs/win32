@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustCommitDistributedTransactionToLevel0Exception properties"
 title: EsentMustCommitDistributedTransactionToLevel0Exception properties
 TOCTitle: EsentMustCommitDistributedTransactionToLevel0Exception properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMustCommitDistributedTransactionToLevel0Exception
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMustCommitDistributedTransactionToLevel0Exception](dn319638\(v=exchg.10\).md) type exposes the following members.
+The [EsentMustCommitDistributedTransactionToLevel0Exception](./esentmustcommitdistributedtransactiontolevel0exception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentMustCommitDistributedTransactionToLevel0Exception class](dn319638\(v=exchg.10\).md)
+[EsentMustCommitDistributedTransactionToLevel0Exception class](./esentmustcommitdistributedtransactiontolevel0exception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

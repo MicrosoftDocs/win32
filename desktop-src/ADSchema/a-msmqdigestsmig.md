@@ -22,7 +22,7 @@ In MSMQ mixed-mode, contains the previous value of mSMQDigests.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | MSMQ-Digests-Mig                                      |
 | Ldap-Display-Name | mSMQDigestsMig                                        |
@@ -48,7 +48,7 @@ In MSMQ mixed-mode, contains the previous value of mSMQDigests.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -69,7 +69,7 @@ In MSMQ mixed-mode, contains the previous value of mSMQDigests.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -90,7 +90,7 @@ In MSMQ mixed-mode, contains the previous value of mSMQDigests.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -111,7 +111,7 @@ In MSMQ mixed-mode, contains the previous value of mSMQDigests.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -132,7 +132,7 @@ In MSMQ mixed-mode, contains the previous value of mSMQDigests.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
@@ -153,7 +153,7 @@ In MSMQ mixed-mode, contains the previous value of mSMQDigests.
 
 
 
-|                        |                                                                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |

@@ -1,5 +1,5 @@
 ---
-Description: Describes a technique used by an effect.
+description: Describes a technique used by an effect.
 ms.assetid: 7ba2dbb3-8039-4d1c-ad9d-130d9bf3d80a
 title: D3DXTECHNIQUE_DESC structure (D3dx9effect.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ Some video cards can render two textures in a single pass. However, if a card do
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9effect.h</dt> </dl> |
 

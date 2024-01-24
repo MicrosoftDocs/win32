@@ -22,7 +22,7 @@ For a claim type or resource property object, this attribute describes the value
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Claim-Possible-Values                 |
 | Ldap-Display-Name | msDS-ClaimPossibleValues                    |
@@ -43,7 +43,7 @@ For a claim type or resource property object, this attribute describes the value
 
 
 
-|                        |                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |

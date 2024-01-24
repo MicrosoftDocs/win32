@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for use when implementing Tablet PC flick gesture support in controls or applications.
+description: This section contains reference information for use when implementing Tablet PC flick gesture support in controls or applications.
 ms.assetid: 5559b3a0-739b-4dd5-acf4-a44811c7cf37
 title: Flicks Reference
 ms.topic: article

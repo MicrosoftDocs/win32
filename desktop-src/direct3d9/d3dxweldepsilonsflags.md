@@ -1,5 +1,5 @@
 ---
-Description: Options for welding together vertices.
+description: Options for welding together vertices.
 ms.assetid: e73af63d-ed02-4fbc-8386-e8a40b0465ea
 title: D3DXWELDEPSILONSFLAGS enumeration (D3dx9mesh.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Instructs the weld not to split vertices that are in separate attribute groups. 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: A phone device is a device that supports the phone device class and that includes hookswitches, handsets, speakerphones, and headsets.
+description: A phone device is a device that supports the phone device class and that includes hookswitches, handsets, speakerphones, and headsets.
 ms.assetid: c2660d77-0265-49d4-bd04-1cddd674b760
 title: Phone Device Elements
 ms.topic: article

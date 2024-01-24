@@ -1,5 +1,5 @@
 ---
-Description: This section describes schemas used by the Windows Shell.
+description: This section describes schemas used by the Windows Shell.
 title: Shell Schemas
 ms.topic: article
 ms.date: 05/31/2018

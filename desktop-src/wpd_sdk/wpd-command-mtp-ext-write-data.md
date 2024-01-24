@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_COMMAND\_MTP\_EXT\_WRITE\_DATA command sends data to the device after the WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE command is run.
+description: The WPD\_COMMAND\_MTP\_EXT\_WRITE\_DATA command sends data to the device after the WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE command is run.
 ms.assetid: 96e7164c-17e7-427b-a0fd-4bfbb8215295
 title: WPD_COMMAND_MTP_EXT_WRITE_DATA Command (WpdMtpExtensions.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](/windows
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WpdMtpExtensions.h</dt> </dl> |
 

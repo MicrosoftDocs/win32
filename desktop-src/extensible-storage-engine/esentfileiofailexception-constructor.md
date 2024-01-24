@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOFailException constructor"
 title: EsentFileIOFailException constructor 
 TOCTitle: 'EsentFileIOFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIOFailException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFileIOFailException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentFileIOFailException()
 
 #### Reference
 
-[EsentFileIOFailException class](dn274360\(v=exchg.10\).md)
+[EsentFileIOFailException class](./esentfileiofailexception-class.md)
 
-[EsentFileIOFailException members](dn274361\(v=exchg.10\).md)
+[EsentFileIOFailException members](./esentfileiofailexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -119,7 +119,7 @@ An application can load an accelerator-table resource at any time. Usually, a si
 To process accelerators, an application's (or thread's) message loop must contain a call to the [**TranslateAccelerator**](/windows/desktop/api/Winuser/nf-winuser-translateacceleratora) function. **TranslateAccelerator** compares keystrokes to an accelerator table and, if it finds a match, translates the keystrokes into a [**WM\_COMMAND**](wm-command.md) (or [**WM\_SYSCOMMAND**](wm-syscommand.md)) message. The function then sends the message to a window procedure. The parameters of the **TranslateAccelerator** function include the handle to the window that is to receive the **WM\_COMMAND** messages, the handle to the accelerator table used to translate accelerators, and a pointer to an [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) structure containing a message from the queue. The following example shows how to call **TranslateAccelerator** from within a message loop.
 
 
-```
+```cpp
 MSG msg;
 BOOL bRet;
 
@@ -201,7 +201,7 @@ FontAccel ACCELERATORS
 The following sections from the application's source file show how to implement the accelerators.
 
 
-```
+```cpp
 HWND hwndMain;      // handle to main window 
 HANDLE hinstAcc;    // handle to application instance 
 int WINAPI WinMain(HINSTANCE hinst, HINSTANCE hinstPrev, LPSTR lpCmdLine, int nCmdShow) 
@@ -423,7 +423,7 @@ The menu item values for the menu template are constants defined as follows in t
 The dialog box uses an array of application-defined VKEY structures, each containing a keystroke-text string and an accelerator-text string. When the dialog box is created, it parses the array and adds each keystroke-text string to the **Select Keystroke** combo box. When the user clicks the **OK** button, the dialog box looks up the selected keystroke-text string and retrieves the corresponding accelerator-text string. The dialog box appends the accelerator-text string to the text of the menu item that the user selected. The following example shows the array of VKEY structures:
 
 
-```
+```cpp
 // VKey Lookup Support 
  
 #define MAXKEYS 25 
@@ -467,7 +467,7 @@ VKEYS vkeys[MAXKEYS] = {
 The dialog box's initialization procedure fills the **Select Item** and **Select Keystroke** combo boxes. After the user selects a menu item and associated accelerator, the dialog box examines the controls in the dialog box to get the user's selection, updates the text of the menu item, and then creates a new accelerator table that contains the user-defined new accelerator. The following example shows the dialog-box procedure. Note that you must initialize in your window procedure.
 
 
-```
+```cpp
 // Global variables 
  
 HWND hwndMain;      // handle to main window 

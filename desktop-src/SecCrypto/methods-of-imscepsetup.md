@@ -1,5 +1,5 @@
 ---
-Description: Methods defined by the IMSCEPSetup interface.
+description: Methods defined by the IMSCEPSetup interface.
 ms.assetid: 0d41243f-cff1-4608-bbe6-f99dc548b0e2
 title: Methods of IMSCEPSetup
 ms.topic: article

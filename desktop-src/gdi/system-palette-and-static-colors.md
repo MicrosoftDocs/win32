@@ -1,5 +1,5 @@
 ---
-Description: Ordinarily, the system palette entries that the system reserves for static colors cannot be changed.
+description: Ordinarily, the system palette entries that the system reserves for static colors cannot be changed.
 ms.assetid: be258151-36cc-42ba-8005-ff9d8e59b894
 title: System Palette and Static Colors
 ms.topic: article

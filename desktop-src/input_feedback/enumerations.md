@@ -1,5 +1,5 @@
 ---
-title: Enumerations
+title: Input Feedback Configuration enumerations
 description: The topics in this section provide the reference specifications for Input Feedback Configuration enumerations.
 ms.assetid: FB0B8837-EE4A-48EF-8DAE-B84D7FC3BB15
 keywords:
@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# Enumerations
+# Input Feedback Configuration enumerations
 
 The topics in this section provide the reference specifications for [Input Feedback Configuration](input-feedback-configuration-portal.md) enumerations.
 

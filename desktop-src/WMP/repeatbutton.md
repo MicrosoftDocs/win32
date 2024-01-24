@@ -1,6 +1,6 @@
 ---
 title: REPEATBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | REPEATBUTTON
 ms.assetid: 4322ee45-c2b2-4fa0-aa9c-624be5d464ea
 keywords:
 - REPEATBUTTON Windows Media Player
@@ -11,11 +11,14 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # REPEATBUTTON
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This is a predefined **BUTTON** with the following default values.
 
@@ -35,7 +38,7 @@ This creates a **BUTTON** control that toggles Repeat on and off. The ToolTips a
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

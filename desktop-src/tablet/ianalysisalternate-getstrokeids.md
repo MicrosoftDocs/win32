@@ -1,5 +1,5 @@
 ---
-Description: Returns the stroke identifiers that are associated with this IAnalysisAlternate.
+description: Returns the stroke identifiers that are associated with this IAnalysisAlternate.
 ms.assetid: 495d485f-0d16-4085-9213-cc55f3f259f0
 title: IAnalysisAlternate::GetStrokeIds method (IACom.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

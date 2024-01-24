@@ -1,5 +1,5 @@
 ---
-Description: This macro creates a value used by Issue to issue a query end.
+description: This macro creates a value used by Issue to issue a query end.
 ms.assetid: 9ced932a-5d98-4bf8-aa11-06560f53546d
 title: D3DISSUE_END (D3d9types.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ D3DISSUE\_END is valid for the following query types.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

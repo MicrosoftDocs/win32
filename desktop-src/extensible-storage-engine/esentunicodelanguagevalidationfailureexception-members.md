@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeLanguageValidationFailureException members"
 title: EsentUnicodeLanguageValidationFailureException members
 TOCTitle: EsentUnicodeLanguageValidationFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnicodeLanguageValidationFailureException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.UnicodeLanguageValidationFailure exceptions.
 
-The [EsentUnicodeLanguageValidationFailureException](dn350816\(v=exchg.10\).md) type exposes the following members.
+The [EsentUnicodeLanguageValidationFailureException](./esentunicodelanguagevalidationfailureexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentUnicodeLanguageValidationFailureException class](dn350816\(v=exchg.10\).md)
+[EsentUnicodeLanguageValidationFailureException class](./esentunicodelanguagevalidationfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -14,7 +14,7 @@ When using speech output to provide directive information or to elicit a user re
 
 
 
-|                                      |                               |
+| Directive                            |  Evaluation                   |
 |--------------------------------------|-------------------------------|
 | Let me repeat your number.           | No user action                |
 | The number will be repeated.         | Passive voice, no user action |
@@ -29,11 +29,11 @@ In addition, construct your output to unfold the key information at the end of t
 
 
 
-|             |                                      |                                            |
-|-------------|--------------------------------------|--------------------------------------------|
-| Instead of: | "Is three the next digit?"           | Use: "Is the next digit three?"            |
-| Instead of: | "Click OK to begin."                 | Use: "To begin, click OK."                 |
-| Instead of: | "Say 'Done' to complete your order." | Use: "To complete your order, say 'Done.'" |
+| Instead of this...                                                 | Use this                                           |
+|--------------------------------------------------|--------------------------------------------|
+| "Is three the next digit?"           | "Is the next digit three?"            |
+| "Click OK to begin."                 | "To begin, click OK."                 |
+| "Say 'Done' to complete your order." | "To complete your order, say 'Done.'" |
 
 
 

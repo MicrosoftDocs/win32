@@ -22,7 +22,7 @@ Contains the expiry time for the user's current password.
 
 
 
-|                   |                                          |
+| Entry | Value |
 |-------------------|------------------------------------------|
 | CN                | ms-DS-User-Password-Expiry-Time-Computed |
 | Ldap-Display-Name | msDS-UserPasswordExpiryTimeComputed      |
@@ -45,7 +45,7 @@ Contains the expiry time for the user's current password.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Contains the expiry time for the user's current password.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Contains the expiry time for the user's current password.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

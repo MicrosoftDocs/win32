@@ -1,7 +1,7 @@
 ---
 title: Windows Web Services Handles
 ms.assetid: a67f48ce-ebe3-48f9-9c00-67acd8b9fbe5
-description: 
+description: "Learn more about: Windows Web Services Handles"
 ms.topic: article
 ms.date: 05/31/2018
 ---

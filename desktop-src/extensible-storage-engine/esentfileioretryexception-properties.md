@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIORetryException properties"
 title: EsentFileIORetryException properties
 TOCTitle: EsentFileIORetryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileIORetryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileIORetryException](dn274364\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileIORetryException](./esentfileioretryexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentFileIORetryException class](dn274364\(v=exchg.10\).md)
+[EsentFileIORetryException class](./esentfileioretryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

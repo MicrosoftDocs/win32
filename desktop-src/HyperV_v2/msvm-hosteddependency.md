@@ -1,5 +1,5 @@
 ---
-Description: Associates a virtual machine instance with the computer system object that represents the physical, hosting system.
+description: Associates a virtual machine instance with the computer system object that represents the physical, hosting system.
 ms.assetid: 755624D7-04D0-47EA-8623-DEDE6B1D5CBC
 title: Msvm_HostedDependency class
 ms.topic: reference
@@ -80,7 +80,7 @@ Access to the **Msvm\_HostedDependency** class might be restricted by UAC Filter
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

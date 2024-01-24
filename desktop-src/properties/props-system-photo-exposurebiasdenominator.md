@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_Photo\_ExposureBias.
+description: The denominator of PKEY\_Photo\_ExposureBias.
 ms.assetid: fafeb942-1eba-4209-a1eb-00c3f00bbace
 title: System.Photo.ExposureBiasDenominator
 ms.topic: article

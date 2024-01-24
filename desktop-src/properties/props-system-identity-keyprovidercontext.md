@@ -1,5 +1,5 @@
 ---
-Description: Identity key provider context.
+description: Identity key provider context.
 ms.assetid: 20863a07-2c3f-46d9-8be5-5f264c2d6c92
 title: System.Identity.KeyProviderContext
 ms.topic: article

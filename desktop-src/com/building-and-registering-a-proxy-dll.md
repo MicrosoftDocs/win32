@@ -36,9 +36,9 @@ example.obj : example_p.c
 iids.obj : example_i.c
 PROXYSTUBOBJS = dlldata.obj example.obj iids.obj
 PROXYSTUBLIBS = kernel32.lib rpcndr.lib rpcns4.lib rpcrt4.lib uuid.lib
-proxy.dll : $(PROXYSTUBOBJX) example.def
+proxy.dll : $(PROXYSTUBOBJS) example.def
     link /dll /out:proxy.dll /def:example.def
-        $(PROXYSTUBOBJS) $(ORIXYSTUBLIBS)
+        $(PROXYSTUBOBJS) $(PROXYSTUBLIBS)
     regsvr32 /s proxy.dll
  
 ```

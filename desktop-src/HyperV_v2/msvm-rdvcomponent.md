@@ -1,5 +1,5 @@
 ---
-Description: Represents the state of the RDV component, which is responsible for providing a transport for the parent to the guest for configuration purposes.
+description: Represents the state of the RDV component, which is responsible for providing a transport for the parent to the guest for configuration purposes.
 ms.assetid: '240d2659-01ec-4300-a17e-0b1ec90483df'
 title: Msvm_RdvComponent class
 ms.topic: reference
@@ -798,7 +798,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

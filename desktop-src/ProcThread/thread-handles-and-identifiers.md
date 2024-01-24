@@ -1,5 +1,5 @@
 ---
-Description: When a new thread is created by the CreateThread or CreateRemoteThread function, a handle to the thread is returned.
+description: When a new thread is created by the CreateThread or CreateRemoteThread function, a handle to the thread is returned.
 ms.assetid: ff91fe27-9773-4185-bc1e-57e897be3821
 title: Thread Handles and Identifiers
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The hardware configuration functions retrieve information such as processor, hardware profile, and keyboard information.
+description: The hardware configuration functions retrieve information such as processor, hardware profile, and keyboard information.
 ms.assetid: c6245571-428a-4965-b58c-24645ddca70d
 title: Hardware Configuration
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetPixelFormat method.
+description: Proxy function for the GetPixelFormat method.
 ms.assetid: 0879bfb7-0175-4275-a093-a69b39c66a41
 title: IWICBitmapSource_GetPixelFormat_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

@@ -1,5 +1,5 @@
 ---
-Description: The video processor MFT is a Microsoft Media Foundation transform (MFT) that performs colorspace conversion, video resizing, deinterlacing, frame rate conversion, rotation, cropping, spatial left and right view unpacking, and mirroring.
+description: The video processor MFT is a Microsoft Media Foundation transform (MFT) that performs colorspace conversion, video resizing, deinterlacing, frame rate conversion, rotation, cropping, spatial left and right view unpacking, and mirroring.
 ms.assetid: 1476995A-9692-4B08-8EF7-7DB6321BEC24
 title: Video Processor MFT (Camerauicontrol.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ An instance of the video processor can be created in one of the following ways:
 -   By calling [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex). The video processor is registered under the **MFT\_CATEGORY\_VIDEO\_PROCESSOR** category.
 -   By calling the COM function **CoCreateInstance** passing it the CLSID **CLSID\_VideoProcessorMFT**.
 
-The following remarks pertain to working with source rectangles and destination rectangles in the **Video Processor MFT**. Source and destination rectangles are set with [**IMFVideoProcessorControl::SetDestinationRectangle**](/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setdestinationrectangle) and [**SetSourceRectangle**](/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setsourcerectangle) and some times with [**IMFMediaEngineEx::UpdateVideoStream**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-updatevideostream).
+The following remarks pertain to working with source rectangles and destination rectangles in the **Video Processor MFT**. Source and destination rectangles are set with [**IMFVideoProcessorControl::SetDestinationRectangle**](/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setdestinationrectangle) and [**SetSourceRectangle**](/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setsourcerectangle) and sometimes with [**IMFMediaEngineEx::UpdateVideoStream**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-updatevideostream).
 
 -   The source rectangle should be aligned and rounded to match the requirements of the color format of the frame inputted to the video processor. This is important because formats like 420 and 422 have requirements about the dimensions and offsets that can be created and accessed. For example, a source rectangle of {1, 0, 319, 240} (left, top, right, bottom) will be rounded to {2, 0, 320, 240} when the input format is 420.
 -   Both the destination and source rectangle will always be clamped to fit inside their respective frames—the source rectangle to the source frame and the destination rectangle to the destination frame. This means that negative values are not meaningful—they will be always clamped to 0.
@@ -88,7 +88,7 @@ If the input frame contains two views packed in the same frame, the video proces
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Camerauicontrol.h</dt> </dl> |
 

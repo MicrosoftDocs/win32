@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOSparseException members"
 title: EsentFileIOSparseException members
 TOCTitle: EsentFileIOSparseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.FileIOSparse exceptions.
 
-The [EsentFileIOSparseException](dn274375\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileIOSparseException](./esentfileiosparseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentFileIOSparseException class](dn274375\(v=exchg.10\).md)
+[EsentFileIOSparseException class](./esentfileiosparseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

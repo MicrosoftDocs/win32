@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabasesNotFromSameSnapshotException members"
 title: EsentDatabasesNotFromSameSnapshotException members
 TOCTitle: EsentDatabasesNotFromSameSnapshotException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabasesNotFromSameSnapshotException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabasesNotFromSameSnapshot exceptions.
 
-The [EsentDatabasesNotFromSameSnapshotException](dn334386\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabasesNotFromSameSnapshotException](./esentdatabasesnotfromsamesnapshotexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabasesNotFromSameSnapshotException class](dn334386\(v=exchg.10\).md)
+[EsentDatabasesNotFromSameSnapshotException class](./esentdatabasesnotfromsamesnapshotexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

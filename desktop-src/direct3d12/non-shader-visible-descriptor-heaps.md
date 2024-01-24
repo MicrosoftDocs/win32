@@ -2,7 +2,6 @@
 title: Non Shader Visible Descriptor Heaps
 description: Some descriptor heaps cannot be referenced by shaders through descriptor tables, but exist either to assist the app in staging the descriptors prior to recording a command list or because no shader-visible heap is required.
 ms.assetid: 85934873-8889-4564-A717-28A00614B38C
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -25,9 +24,8 @@ Other descriptors get bound to the pipeline by having their contents recorded di
 
 -   Render Target Views (RTVs)
 -   Depth Stencil Views (DSVs)
--   Stream Output Views (SOVs)
 
-Index Buffer Views (IBVs) and Vertex Buffer Views (VBVs) are passed directly to API methods, are do not have specific heap types.
+Index Buffer Views (IBVs), Vertex Buffer Views (VBVs), and Stream Output Views (SOVs) are passed directly to API methods, are do not have specific heap types.
 
 After recording into the command list (with a call such as [**OMSetRenderTargets**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets), for example) the memory used to hold the descriptors for this call is immediately available for re-use after the call.
 
@@ -37,12 +35,10 @@ Even descriptor tables have options where an app can allow the implementation to
 
 
 
-|                   |                                    |                                        |
+|                   | Shader visible, CPU write only                                   | Non-shader visible, CPU read/write                                       |
 |-------------------|------------------------------------|----------------------------------------|
-|                   | **shader visible, CPU write only** | **non-shader visible, CPU read/write** |
 | **CBV, SRV, UAV** | yes                                | yes                                    |
 | **SAMPLER**       | yes                                | yes                                    |
-| **SOV**           | no                                 | yes                                    |
 | **RTV**           | no                                 | yes                                    |
 | **DSV**           | no                                 | yes                                    |
 

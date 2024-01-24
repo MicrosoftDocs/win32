@@ -22,7 +22,7 @@ Contains a set of flags that define the type and scope of a group object. For th
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Group-Type                           |
 | Ldap-Display-Name | groupType                            |
@@ -49,7 +49,7 @@ Contains a set of flags that define the type and scope of a group object. For th
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -70,7 +70,7 @@ Contains a set of flags that define the type and scope of a group object. For th
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -91,7 +91,7 @@ Contains a set of flags that define the type and scope of a group object. For th
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -112,7 +112,7 @@ Contains a set of flags that define the type and scope of a group object. For th
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -133,7 +133,7 @@ Contains a set of flags that define the type and scope of a group object. For th
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -154,7 +154,7 @@ Contains a set of flags that define the type and scope of a group object. For th
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -175,7 +175,7 @@ Contains a set of flags that define the type and scope of a group object. For th
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |

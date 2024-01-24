@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexDuplicateException constructor"
 title: EsentIndexDuplicateException constructor 
 TOCTitle: 'EsentIndexDuplicateException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexDuplicateException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexDuplicateException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentIndexDuplicateException()
 
 #### Reference
 
-[EsentIndexDuplicateException class](dn350438\(v=exchg.10\).md)
+[EsentIndexDuplicateException class](./esentindexduplicateexception-class.md)
 
-[EsentIndexDuplicateException members](dn350440\(v=exchg.10\).md)
+[EsentIndexDuplicateException members](./esentindexduplicateexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

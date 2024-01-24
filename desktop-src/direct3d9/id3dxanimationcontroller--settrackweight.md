@@ -1,5 +1,5 @@
 ---
-Description: Sets the track weight. The weight is used to determine how to blend multiple tracks together.
+description: Sets the track weight. The weight is used to determine how to blend multiple tracks together.
 ms.assetid: a00ceae4-47b4-4fb9-a028-97493e3dc071
 title: ID3DXAnimationController::SetTrackWeight method (D3dx9anim.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

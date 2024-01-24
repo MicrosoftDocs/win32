@@ -1,5 +1,5 @@
 ---
-Description: 'The following messages are used with system shutdown:'
+description: 'The following messages are used with system shutdown:'
 ms.assetid: 2b9c4038-3beb-49d6-ab24-65a703934d43
 title: System Shutdown Messages
 ms.topic: article

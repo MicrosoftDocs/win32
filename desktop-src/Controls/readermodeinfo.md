@@ -95,7 +95,7 @@ Type: **LPRECT**
 
 </dd> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that specifies the scrolling area in the reader mode window. If this member is **NULL**, then the entire window is used as the scrolling area.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that specifies the scrolling area in the reader mode window. If this member is **NULL**, then the entire window is used as the scrolling area.
 
 </dd> <dt>
 
@@ -140,7 +140,7 @@ This structure is not declared in any public header. To use it, you must include
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSpaceHintsInvalidException constructor"
 title: EsentSpaceHintsInvalidException constructor 
 TOCTitle: 'EsentSpaceHintsInvalidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSpaceHintsInvalidException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSpaceHintsInvalidException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentSpaceHintsInvalidException()
 
 #### Reference
 
-[EsentSpaceHintsInvalidException class](dn334800\(v=exchg.10\).md)
+[EsentSpaceHintsInvalidException class](./esentspacehintsinvalidexception-class.md)
 
-[EsentSpaceHintsInvalidException members](dn334900\(v=exchg.10\).md)
+[EsentSpaceHintsInvalidException members](./esentspacehintsinvalidexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

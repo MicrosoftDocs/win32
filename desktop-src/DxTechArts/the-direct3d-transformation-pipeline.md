@@ -81,7 +81,7 @@ Here are descriptions of the stages that are shown in the preceding figure:
 
     then a perspective projection matrix could be written as follows:
 
-    ![perspective projection matrix](images/d3dxfrm62.gif)
+    ![Shows a perspective projection matrix.](images/d3dxfrm62.gif)
 
     where Mij are members of Mproj.
 

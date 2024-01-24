@@ -1,5 +1,5 @@
 ---
-Description: The orientation of the photo when it was taken, as specified in the Exchangeable Image File (EXIF) information and in terms of rows and columns.
+description: The orientation of the photo when it was taken, as specified in the Exchangeable Image File (EXIF) information and in terms of rows and columns.
 ms.assetid: d6186248-8944-4bd6-8f04-bab5ea15b169
 title: System.Photo.Orientation
 ms.topic: article
@@ -126,7 +126,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

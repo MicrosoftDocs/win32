@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS Structure"
 title: JET_RECPOS Structure
 TOCTitle: JET_RECPOS Structure
 ms:assetid: 7c335120-4b84-4095-8f13-e5315d4996b1
@@ -39,7 +40,7 @@ The **JET_RECPOS** structure contains a collection of integers that represent a 
 
 **cbStruct**
 
-The size of the [JET_RETINFO](gg294049\(v=exchg.10\).md) structure, in bytes. This value confirms the presence of the following fields.
+The size of the [JET_RETINFO](./jet-retinfo-structure.md) structure, in bytes. This value confirms the presence of the following fields.
 
 **centriesLT**
 
@@ -55,30 +56,16 @@ The approximate number of entries in the index.
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also
 
-[JET_RETINFO](gg294049\(v=exchg.10\).md)  
-[JetGetRecordPosition](gg269316\(v=exchg.10\).md)
-
+[JET_RETINFO](./jet-retinfo-structure.md)  
+[JetGetRecordPosition](./jetgetrecordposition-function.md)

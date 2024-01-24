@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_OBJECTLIST properties"
 title: JET_OBJECTLIST properties
 TOCTitle: JET_OBJECTLIST properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_OBJECTLIST](dn335206\(v=exchg.10\).md) type exposes the following members.
+The [JET_OBJECTLIST](./jet-objectlist-class.md) type exposes the following members.
 
 ## Properties
 
@@ -76,7 +77,6 @@ Top
 
 #### Reference
 
-[JET_OBJECTLIST class](dn335206\(v=exchg.10\).md)
+[JET_OBJECTLIST class](./jet-objectlist-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

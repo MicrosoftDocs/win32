@@ -1,5 +1,5 @@
 ---
-Description: Control codes used in disk management.
+description: Control codes used in disk management.
 ms.assetid: 488a7d32-cbb5-4f32-9655-0aca8ac69640
 title: Disk Management Control Codes
 ms.topic: article

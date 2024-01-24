@@ -1,5 +1,5 @@
 ---
-Description: This sample is based on the Ink Collection Sample. It shows how to use the Divider object to analyze ink input.
+description: This sample is based on the Ink Collection Sample. It shows how to use the Divider object to analyze ink input.
 ms.assetid: 3350b643-11b3-4474-8dd0-bc3eb1b7121e
 title: Ink Divider Sample
 ms.topic: article
@@ -254,7 +254,7 @@ private void DrawArea_Paint(object sender, System.Windows.Forms.PaintEventArgs e
 
 ## Closing the Form
 
-The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method disposes the [InkOverlay](/previous-versions/ms833057(v=msdn.10)), [Divider](/previous-versions/ms839398(v=msdn.10)), [RecognizerContext](/previous-versions/ms828542(v=msdn.10)) objects and the [Strokes](/previous-versions/ms827799(v=msdn.10)) collection used in the sample.
+The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1&preserve-view=true) method disposes the [InkOverlay](/previous-versions/ms833057(v=msdn.10)), [Divider](/previous-versions/ms839398(v=msdn.10)), [RecognizerContext](/previous-versions/ms828542(v=msdn.10)) objects and the [Strokes](/previous-versions/ms827799(v=msdn.10)) collection used in the sample.
 
  
 

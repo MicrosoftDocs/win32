@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseAlreadyUpgradedException constructor"
 title: EsentDatabaseAlreadyUpgradedException constructor 
 TOCTitle: 'EsentDatabaseAlreadyUpgradedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyUpgradedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseAlreadyUpgradedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseAlreadyUpgradedException()
 
 #### Reference
 
-[EsentDatabaseAlreadyUpgradedException class](dn334272\(v=exchg.10\).md)
+[EsentDatabaseAlreadyUpgradedException class](./esentdatabasealreadyupgradedexception-class.md)
 
-[EsentDatabaseAlreadyUpgradedException members](dn334363\(v=exchg.10\).md)
+[EsentDatabaseAlreadyUpgradedException members](./esentdatabasealreadyupgradedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

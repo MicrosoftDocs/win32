@@ -1,5 +1,5 @@
 ---
-Description: Enables and disables the collection of metrics.
+description: ControlMetrics method of the CIM_MetricService class - Enables and disables the collection of metrics.
 ms.assetid: afb90863-e70a-46e5-b1b7-d959dcacc306
 title: ControlMetrics method of the CIM_MetricService class
 ms.topic: reference
@@ -117,7 +117,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

@@ -22,7 +22,7 @@ This attribute indicates the type of algorithm that must be used to decode a dig
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Signature-Algorithms                        |
 | Ldap-Display-Name | signatureAlgorithms                         |
@@ -48,7 +48,7 @@ This attribute indicates the type of algorithm that must be used to decode a dig
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -69,7 +69,7 @@ This attribute indicates the type of algorithm that must be used to decode a dig
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -90,7 +90,7 @@ This attribute indicates the type of algorithm that must be used to decode a dig
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -111,7 +111,7 @@ This attribute indicates the type of algorithm that must be used to decode a dig
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -132,7 +132,7 @@ This attribute indicates the type of algorithm that must be used to decode a dig
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -153,7 +153,7 @@ This attribute indicates the type of algorithm that must be used to decode a dig
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |

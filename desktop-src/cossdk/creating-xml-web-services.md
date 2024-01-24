@@ -1,5 +1,5 @@
 ---
-Description: Any COM+ application can be exposed as an XML web service.
+description: Any COM+ application can be exposed as an XML web service.
 ms.assetid: 03c3d5a7-eb98-4916-b6ef-ef6aac86c574
 title: Creating XML Web Services
 ms.topic: article

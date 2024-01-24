@@ -1,5 +1,5 @@
 ---
-Description: The SEQUENCE action sorts and runs in sequence the actions in a table.
+description: The SEQUENCE action sorts and runs in sequence the actions in a table.
 ms.assetid: 1393bfaa-8649-40d3-9ff8-5e119c34aed3
 title: SEQUENCE Action
 ms.topic: article

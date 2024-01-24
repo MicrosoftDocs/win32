@@ -15,10 +15,13 @@ keywords:
 - Synchronized Accessible Media Interchange (SAMI),URLs
 - SAMI (Synchronized Accessible Media Interchange),URLs
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # About SAMI URLs
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 SAMI files can be associated with digital media files by using a single URL. This is accomplished by using *the sami* URL parameter. The URL parameter is preceded by the base URL and a ? character. A URL with a *sami* parameter follows this syntax:
 

@@ -1,12 +1,15 @@
 ---
-Description: Full Screen Renderer Filter
+description: Full Screen Renderer Filter
 ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: Full Screen Renderer Filter
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Full Screen Renderer Filter
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Full Screen Renderer filter provides full-screen video rendering on older hardware. Newer video cards can stretch the video efficiently enough that the Full Screen Renderer is not required. Therefore, the use of this filter is now deprecated.
 
@@ -14,7 +17,7 @@ Do not manually add this filter to the filter graph. If an application calls [**
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFullScreenVideoEx**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop) |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_Null                                                                                                                                                                                                               |
@@ -37,9 +40,8 @@ The Full Screen Renderer supports a static set of display modes. The video card 
 
 
 
-|      |       |        |           |
+| Mode | Width | Height | Bit depth |
 |------|-------|--------|-----------|
-| Mode | Width | Height | Bit Depth |
 | 0    | 320   | 200    | 16        |
 | 1    | 320   | 200    | 8         |
 | 2    | 320   | 240    | 16        |

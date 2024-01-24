@@ -1,5 +1,5 @@
 ---
-Description: Control code retrieves the redirect record for the accepted TCP/IP connection for use by a Windows Filtering Platform redirect service.
+description: Control code retrieves the redirect record for the accepted TCP/IP connection for use by a Windows Filtering Platform redirect service.
 ms.assetid: E0D7CC1A-8F93-45A0-9543-3F2ACAF352F5
 title: SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS Control Code
 ms.topic: reference
@@ -103,6 +103,8 @@ Otherwise, the function does not return until the operation has been completed o
 
 ### lpCompletionRoutine
 
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
+
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 
 ### lpThreadId
@@ -162,14 +164,14 @@ The **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_CONTEXT** IOCTL is used by a WFP-ba
 The redirect context is an optional driver-allocated context used if the current redirection state of a connection is that the connection was redirected by the calling redirect service or the connection was previously redirected by the calling redirect service but later redirected again by a different redirect service.
 For a TCP proxy connection, the redirect service transfers the retrieved redirect record to the TCP socket it uses to proxy the original content using the **SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS** IOCTL.
 
-When the redirect service is redirecting a non-TCP socket (UDP, for example), the redirect records returned by the **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS** IOCTL indicate this to the redirect service using the [**WSAMSG**](/windows/desktop/api/ws2def/ns-ws2def-wsamsg) structure used with the [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)) function.
+When the redirect service is redirecting a non-TCP socket (UDP, for example), the redirect records returned by the **SIO\_QUERY\_WFP\_CONNECTION\_REDIRECT\_RECORDS** IOCTL indicate this to the redirect service using the [**WSAMSG**](/windows/desktop/api/ws2def/ns-ws2def-wsamsg) structure used with the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function.
 The Control member of the [**WSAMSG**](/windows/desktop/api/ws2def/ns-ws2def-wsamsg) structure would have a cmsg_type in the **WSACMSGHDR** structure set to **IP\_CONNECTION\_REDIRECT\_RECORD**.
-The [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)) parameter must be supplied by the redirect service when accepting non-TCP redirects.
+The [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) parameter must be supplied by the redirect service when accepting non-TCP redirects.
 
 For non-TCP traffic, the redirect record is forwarded using the [**WSAMSG**](/windows/desktop/api/ws2def/ns-ws2def-wsamsg) structure with the [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg) function.
 
 Note that for non-TCP traffic, only the flow-creating packet will carry the **IP\_CONNECTION\_REDIRECT\_RECORD**.
-As a result, only the first proxied packet needs to include this information using the [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)) function.
+As a result, only the first proxied packet needs to include this information using the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function.
 
 Since the WFP redirect record is a variable length data blob, the caller can either supply a large output buffer (a 1,024 byte buffer pointed to by the *lpvOutBuffer* parameter, for example) or can pass an output buffer size in the *cbOutBuffer* parameter of 0 to query the buffer size required to hold the returned blob.
 If the output buffer size is not sufficient to the hold the data, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) or **WSPIoctl** functions will return **ERROR\_INSUFFICIENT\_BUFFER** and the required buffer size will be returned in value pointed to by the *lpcbBytesReturned* parameter.
@@ -195,7 +197,7 @@ This is an opaque blob of data that the application needs to retrieve and pass b
 
 [**WSAOVERLAPPED**](/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped)
 
-[**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85))
+[**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 
 [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg)
 

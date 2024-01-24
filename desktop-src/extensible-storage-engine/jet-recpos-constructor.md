@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS constructor"
 title: JET_RECPOS constructor 
 TOCTitle: 'JET_RECPOS constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECPOS.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RECPOS constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_RECPOS()
 
 #### Reference
 
-[JET_RECPOS class](dn335256\(v=exchg.10\).md)
+[JET_RECPOS class](./jet-recpos-class.md)
 
-[JET_RECPOS members](dn335257\(v=exchg.10\).md)
+[JET_RECPOS members](./jet-recpos-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Notifies the DWM of an incoming update to a window shared surface.
+description: Notifies the DWM of an incoming update to a window shared surface.
 ms.assetid: 8357D977-E501-47D7-85BC-7C8954C6D166
 title: DwmDxUpdateWindowSharedSurface function
 ms.topic: reference
@@ -65,7 +65,7 @@ This method should only ever be called after [**DwmDxGetWindowSharedSurface**](d
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 7 \[desktop apps only\] |
 | Minimum supported server | None supported |

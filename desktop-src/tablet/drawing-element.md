@@ -1,5 +1,5 @@
 ---
-Description: Contains content that has been classified by the analyzer or the user as a drawing.
+description: Contains content that has been classified by the analyzer or the user as a drawing.
 ms.assetid: 566542f3-b824-442d-9d8b-0064ebcf9b68
 title: Drawing Element
 ms.topic: reference
@@ -51,7 +51,7 @@ Contains content that has been classified by the analyzer or the user as a drawi
 
 
 
-|              |                                                             |
+|  Element     | Value                                                     |
 |--------------|-------------------------------------------------------------|
 | Element type | [**DrawingType**](drawingtype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                  |

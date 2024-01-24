@@ -1,5 +1,5 @@
 ---
-Description: The following sample code shows how to create Shell extensions for a custom protocol handler.
+description: The following sample code shows how to create Shell extensions for a custom protocol handler.
 ms.assetid: 4b65ced8-8dc9-43f6-bfe1-3703aea3459f
 title: 'Code Sample: Shell Extensions for Protocol Handlers'
 ms.topic: article
@@ -494,7 +494,7 @@ STDMETHODIMP CSampleShellFolder::SetNameOf(
 
 ## Additional Resources
 
--   For Search code samples, see [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+-   For Search code samples, see [Windows Search Code Samples](-search-samples-ovw.md).
 -   For Shell code samples, see [Shell SDK Samples](/previous-versions/windows/desktop/legacy/dd940376(v=vs.85)).
 
 ## Related topics

@@ -20,10 +20,13 @@ keywords:
 - frame-based indexes
 - SMPTE time codes,indexes
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Indexes
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 A common requirement for applications that read digital media files is the ability to seek to a specific point in the content. Seeking can be difficult because there is no guarantee that the various streams in a file have samples with concurrent start times. This problem is addressed with the use of *indexes*. An index is an object in an ASF file that equates video samples with their presentation times. No index is required for audio streams because audio data is more closely connected with presentation time than video data is.
 

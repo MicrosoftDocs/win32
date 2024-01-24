@@ -1,5 +1,5 @@
 ---
-Description: Adds, changes, or deletes an HTTP request header.
+description: Adds, changes, or deletes an HTTP request header.
 ms.assetid: 8cb4891d-0bdb-4dea-8ebe-d6ed26a50e41
 title: IWinHttpRequest::SetRequestHeader method
 ms.topic: reference
@@ -189,7 +189,7 @@ WinHttpReq.Send();
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

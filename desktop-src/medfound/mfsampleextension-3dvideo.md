@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a media sample contains a 3D video frame.
+description: Specifies whether a media sample contains a 3D video frame.
 ms.assetid: 1B0B9DBD-80EB-4876-B2F2-BE419AC84265
 title: MFSampleExtension_3DVideo attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ A component that generates 3D video frames should set this attribute to **TRUE**
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

@@ -1,5 +1,5 @@
 ---
-Description: There are several ways to use Windows Search to query the index. This topic outlines Advanced Query Syntax (AQS) and Structured Query Language (SQL) based approaches.
+description: There are several ways to use Windows Search to query the index. This topic outlines Advanced Query Syntax (AQS) and Structured Query Language (SQL) based approaches.
 ms.assetid: 544f03b3-cdf8-4550-a6da-e4a3bfc44744
 title: Using SQL and AQS Approaches to Query the Index
 ms.topic: article
@@ -75,7 +75,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-For more information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/5d8sd9we(VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb?view=dotnet-plat-ext-3.1) documentation.
+For more information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/5d8sd9we(VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb) documentation.
 
 ### Using ADO and ADO.NET
 

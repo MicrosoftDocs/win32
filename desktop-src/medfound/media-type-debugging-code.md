@@ -1,5 +1,5 @@
 ---
-Description: You can use the following code to view the contents of a media type while debugging.
+description: You can use the following code to view the contents of a media type while debugging.
 ms.assetid: 1132c936-c3a7-4d98-bc90-957c170d307a
 title: Media Type Debugging Code
 ms.topic: article

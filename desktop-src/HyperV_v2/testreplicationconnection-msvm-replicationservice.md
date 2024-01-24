@@ -1,5 +1,5 @@
 ---
-Description: Verifies if the replication can be enabled from the current host system to the specified recovery system.
+description: Verifies if the replication can be enabled from the current host system to the specified recovery system.
 ms.assetid: 404855d5-9a1f-4079-b46d-b378fafff5bb
 title: TestReplicationConnection method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -155,7 +155,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

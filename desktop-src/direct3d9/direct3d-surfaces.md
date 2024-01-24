@@ -1,5 +1,5 @@
 ---
-Description: A surface represents a linear area of display memory and usually resides in the display memory of the display card, although surfaces can exist in system memory. Surfaces are managed by the IDirect3DSurface9 interface.
+description: A surface represents a linear area of display memory and usually resides in the display memory of the display card, although surfaces can exist in system memory. Surfaces are managed by the IDirect3DSurface9 interface.
 ms.assetid: 17add726-3d95-46bc-8e15-3be0e570c49c
 title: Direct3D Surfaces (Direct3D 9)
 ms.topic: article
@@ -27,12 +27,11 @@ Surface formats determine how data for each pixel in surface memory is interpret
 
 Once a surface is created, you can get a pointer to it by calling any of these methods:
 
--   [**GetCubeMapSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-getcubemapsurface)
 -   [**GetBackBuffer**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getbackbuffer)
+-   [**GetCubeMapSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-getcubemapsurface)
 -   [**GetDepthStencilSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getdepthstencilsurface)
 -   [**GetFrontBufferData**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getfrontbufferdata)
 -   [**GetRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getrendertarget)
--   [**GetBackBuffer**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getbackbuffer)
 -   [**GetSurfaceLevel**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dtexture9-getsurfacelevel)
 
 The [**IDirect3DSurface9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dsurface9) interface enables you to indirectly access memory through the [**UpdateSurface**](/windows/desktop/api) method. This method allows you to copy a rectangular region of pixels from one **IDirect3DSurface9** interface to another **IDirect3DSurface9** interface. The surface interface also has methods to directly access display memory. For example, you can use the [**LockRect**](/windows/desktop/api) method to lock a rectangular region of display memory. It is important to call [**UnlockRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-unlockrect) after you are done working with the locked rectangular region on the surface.

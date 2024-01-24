@@ -1,6 +1,6 @@
 ---
 title: XAudio2 constants
-Description: This section details constants available in the XAudio2 API.
+description: This section details constants available in the XAudio2 API.
 ms.assetid: 8350cda4-0a44-1c56-0c0c-a7b10b4ea888
 ms.topic: article
 ms.date: 05/31/2018

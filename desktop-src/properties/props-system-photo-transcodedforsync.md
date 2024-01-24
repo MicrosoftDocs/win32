@@ -1,5 +1,5 @@
 ---
-Description: A VT\_BOOL that indicates whether the image has been transcoded for synchronizing with an external device.
+description: A VT\_BOOL that indicates whether the image has been transcoded for synchronizing with an external device.
 ms.assetid: c7f50095-97ad-4e21-bd7c-de4cf595badb
 title: System.Photo.TranscodedForSync
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents the type of information in the SYSTEM\_CPU\_SET\_INFORMATION structure.
+description: Represents the type of information in the SYSTEM\_CPU\_SET\_INFORMATION structure.
 ms.assetid: B42CB8E8-0010-4B11-AB0D-6D196DCCC90A
 title: CPU_SET_INFORMATION_TYPE enumeration (Processthreadapi.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ The structure contains CPU Set information.
 
 
 
-|                                     |                                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                       |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                              |

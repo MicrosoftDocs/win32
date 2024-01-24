@@ -1,5 +1,5 @@
 ---
-Description: The ReleaseDHCPLeaseAll WMI class static method releases the IP addresses bound to all DHCP-enabled network adapters.
+description: The ReleaseDHCPLeaseAll WMI class static method releases the IP addresses bound to all DHCP-enabled network adapters.
 ms.assetid: d9f83953-f3da-419d-8c84-649c39b4945e
 ms.tgt_platform: multiple
 title: ReleaseDHCPLeaseAll method of the Win32_NetworkAdapterConfiguration class
@@ -417,7 +417,7 @@ objNetworkSettings.ReleaseDHCPLeaseAll()
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

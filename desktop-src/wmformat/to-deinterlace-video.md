@@ -16,10 +16,13 @@ keywords:
 - inverse telecine,about
 - telecine,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # To Deinterlace Video
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Some sources of video, such as video capture cards, deliver video data for interlaced display. Each frame of interlaced video is made up of two fields. The top field contains the first line of video and every other line thereafter. The bottom field contains the second line of video and every other line thereafter. So one field contains all of the even numbered lines and the other contains all of the odd numbered lines. The fields that make up a frame represent slightly different presentation times so that, when interleaved, they do not form a static image.
 
@@ -29,63 +32,16 @@ To have the codec deinterlace input video, call the [**IWMWriterAdvanced2::SetIn
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>WM_DM_NOTINTERLACED</td>
-<td>Input is progressive. Use this setting to stop deinterlacing when you have previously set the deinterlacing mode to another value.</td>
-</tr>
-<tr class="even">
-<td>WM_DM_DEINTERLACE_NORMAL</td>
-<td>Select this mode to blend the even and odd fields of an interlaced frame (using a motion compensation mechanism).Benefits:<br/>
-<ul>
-<li>The interlace artifacts of the progressive display are significantly reduced.</li>
-<li>The Windows Media Video codec produces higher quality compressed video.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>WM_DM_DEINTERLACE_HALFSIZE</td>
-<td>Select this mode when the output resolution is half, or less, of the input resolution. For example, use this mode when the input video resolution is 640 x 480 pixels and the output video resolution is 320 x 240 pixels.Benefits:<br/>
-<ul>
-<li>The interlace artifacts of the progressive display are significantly reduced.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>WM_DM_DEINTERLACE_HALFSIZEDOUBLERATE</td>
-<td>Select this mode when the output resolution is half, or less, of the input resolution and the output <a href="wmformat-glossary.md"><em>frame rate</em></a> is twice as high. For example, use this mode when the input video resolution is 640 x 480 pixels at 30 interlaced frames/sec and the output video resolution is 320 x 240 pixels at 60 frames/sec.Benefits:<br/>
-<ul>
-<li>This produces progressive frames of high quality, because each field is converted to a frame and so there is no need to blend any information.</li>
-<li>The full motion of the interlaced fields is captured.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>WM_DM_DEINTERLACE_INVERSETELECINE</td>
-<td>Select this mode to convert telecined 30 frames/sec video into the 24 frames/sec of the original film.Benefits:<br/>
-<ul>
-<li>The compression quality improves significantly because only 24 frames/sec instead of 30 frames/sec need to be encoded.</li>
-<li>Because the result is progressive, the same compression and display benefits of deinterlacing are realized.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>WM_DM_DEINTERLACE_VERTICALHALFSIZEDOUBLERATE</td>
-<td>Select this mode when the vertical output resolution is half, or less, of the input vertical resolution and the output <a href="wmformat-glossary.md"><em>frame rate</em></a> is twice as high. For example, the input vertical video resolution is 640 x 480 pixels at 30 interlaced frames/sec and the output vertical video resolution is 320 x 240 pixels at 60 frames/sec.Benefits:<br/>
-<ul>
-<li>This produces progressive frames of high quality, because each field is converted to a frame and so there is no need to blend any information.</li>
-<li>The full motion of the interlaced fields is captured.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Value | Description | 
+|-------|-------------|
+| WM_DM_NOTINTERLACED | Input is progressive. Use this setting to stop deinterlacing when you have previously set the deinterlacing mode to another value. | 
+| WM_DM_DEINTERLACE_NORMAL | Select this mode to blend the even and odd fields of an interlaced frame (using a motion compensation mechanism).Benefits:<br /><ul><li>The interlace artifacts of the progressive display are significantly reduced.</li><li>The Windows Media Video codec produces higher quality compressed video.</li></ul> | 
+| WM_DM_DEINTERLACE_HALFSIZE | Select this mode when the output resolution is half, or less, of the input resolution. For example, use this mode when the input video resolution is 640 x 480 pixels and the output video resolution is 320 x 240 pixels.Benefits:<br /><ul><li>The interlace artifacts of the progressive display are significantly reduced.</li></ul> | 
+| WM_DM_DEINTERLACE_HALFSIZEDOUBLERATE | Select this mode when the output resolution is half, or less, of the input resolution and the output <a href="wmformat-glossary.md"><em>frame rate</em></a> is twice as high. For example, use this mode when the input video resolution is 640 x 480 pixels at 30 interlaced frames/sec and the output video resolution is 320 x 240 pixels at 60 frames/sec.Benefits:<br /><ul><li>This produces progressive frames of high quality, because each field is converted to a frame and so there is no need to blend any information.</li><li>The full motion of the interlaced fields is captured.</li></ul> | 
+| WM_DM_DEINTERLACE_INVERSETELECINE | Select this mode to convert telecined 30 frames/sec video into the 24 frames/sec of the original film.Benefits:<br /><ul><li>The compression quality improves significantly because only 24 frames/sec instead of 30 frames/sec need to be encoded.</li><li>Because the result is progressive, the same compression and display benefits of deinterlacing are realized.</li></ul> | 
+| WM_DM_DEINTERLACE_VERTICALHALFSIZEDOUBLERATE | Select this mode when the vertical output resolution is half, or less, of the input vertical resolution and the output <a href="wmformat-glossary.md"><em>frame rate</em></a> is twice as high. For example, the input vertical video resolution is 640 x 480 pixels at 30 interlaced frames/sec and the output vertical video resolution is 320 x 240 pixels at 60 frames/sec.Benefits:<br /><ul><li>This produces progressive frames of high quality, because each field is converted to a frame and so there is no need to blend any information.</li><li>The full motion of the interlaced fields is captured.</li></ul> | 
+
 
 
 

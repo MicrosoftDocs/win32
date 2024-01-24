@@ -38,7 +38,7 @@ To create an [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwrite
 
 Once an [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) interface is created, some values cannot be changed: the font family, collection, weight, and size, as well the locale name. To change these values, a new **IDWriteTextFormat** object must be created.
 
-[**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) enables you to change the properties above without recreating anthing. [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) enables you to make format changes that apply to the entire text, such as text alignment. If you want to apply formatting to specific character ranges, you should do so by using a **IDWriteTextLayout**.
+[**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) enables you to change the properties above without recreating anything. [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) enables you to make format changes that apply to the entire text, such as text alignment. If you want to apply formatting to specific character ranges, you should do so by using a **IDWriteTextLayout**.
 
 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) provides methods to set the text alignment, flow direction, incremental tab stop, line spacing, paragraph alignment, trimming, and word wrapping. These properties can be changed at any time after the creation of the **IDWriteTextFormat** object.
 

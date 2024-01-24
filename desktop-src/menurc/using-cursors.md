@@ -25,6 +25,7 @@ ms.date: 05/31/2018
 This section discusses the following topics.
 
 -   [Creating a Cursor](#creating-a-cursor)
+-   [Getting a Cursor size](#getting-a-cursor-size)
 -   [Displaying a Cursor](#displaying-a-cursor)
 -   [Confining a Cursor](#confining-a-cursor)
 -   [Using Cursor Functions to Create a Mousetrap](#using-cursor-functions-to-create-a-mousetrap)
@@ -35,7 +36,7 @@ This section discusses the following topics.
 The following example creates two cursor handles: one for the standard hourglass cursor and one for a custom cursor included as a resource in the application's resource-definition file.
 
 
-```
+```cpp
 HINSTANCE hinst;            // handle to current instance 
 HCURSOR hCurs1, hCurs2;     // cursor handles 
  
@@ -48,14 +49,11 @@ hCurs1 = LoadCursor(NULL, IDC_WAIT);
 hCurs2 = LoadCursor(hinst, MAKEINTRESOURCE(240)); 
 ```
 
+Applications should implement custom cursors as resources and use [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea), or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) rather than create the cursor at run time. Using cursor resources avoids device dependence, simplifies localization, and enables applications to share cursor designs.
 
+The following example uses the [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) function to create a custom monochrome cursor at run time. The example is included here to illustrate how the system interprets cursor masks.
 
-You should implement custom cursors as resources. Rather than create the cursors at run time, use the [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea), or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function to avoid device dependence, to simplify localization, and to enable applications to share cursor designs.
-
-The following example uses the [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) function to create a custom cursor at run time. The example is included here to illustrate how the system interprets cursor masks.
-
-
-```
+```cpp
 HINSTANCE hinst;            // handle to current instance  
 HCURSOR hCurs1, hCurs2;     // cursor handles 
  
@@ -162,11 +160,7 @@ hCurs3 = CreateCursor( hinst,   // app. instance
              XORmaskCursor );   // XOR mask 
 ```
 
-
-
 To create the cursor, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) applies the following truth table to the **AND** and **XOR** masks.
-
-
 
 | AND mask | XOR mask | Display        |
 |----------|----------|----------------|
@@ -175,20 +169,111 @@ To create the cursor, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser
 | 1        | 0        | Screen         |
 | 1        | 1        | Reverse screen |
 
-
-
- 
-
 For more information, see [Bitmaps](/windows/desktop/gdi/bitmaps).
 
-Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor). It is not necessary to destroy cursors created by other functions.
+Follow these steps to create an alpha blended cursor or icon at run time:
+- Complete a [**BITMAPV5HEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapv5header) structure, as in the code example following these steps, to define a 32 bits per pixel (BPP) alpha blended DIB.
+- Call the [**CreateDIBSection**](/windows/win32/api/wingdi/nf-wingdi-createdibsection) function to create a DIB section based on the [**BITMAPV5HEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapv5header) structure that you completed.
+- Use the bitmap and alpha information that you want for your alpha blended cursor or icon to complete the DIB section.
+- Complete an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure.
+- Place an empty monochrome bitmap in the **hbmMask** field, and then place the alpha blended DIB section in the **hbmColor** field.
+- Call the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function to create the alpha blended cursor or icon.
+
+The following code demonstrates how to create an alpha blended cursor. You can use the same code to create an alpha blended icon by changing the **fIcon** member of the [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure to **TRUE**:
+
+```cpp
+HCURSOR CreateAlphaCursor(void)
+{
+    HDC hMemDC;
+    DWORD dwWidth, dwHeight;
+    BITMAPV5HEADER bi;
+    HBITMAP hBitmap, hOldBitmap;
+    void *lpBits;
+    DWORD x,y;
+    HCURSOR hAlphaCursor = NULL;
+
+    dwWidth  = 32;  // width of cursor
+    dwHeight = 32;  // height of cursor
+
+    ZeroMemory(&bi,sizeof(BITMAPV5HEADER));
+    bi.bV5Size           = sizeof(BITMAPV5HEADER);
+    bi.bV5Width           = dwWidth;
+    bi.bV5Height          = dwHeight;
+    bi.bV5Planes = 1;
+    bi.bV5BitCount = 32;
+    bi.bV5Compression = BI_BITFIELDS;
+    // The following mask specification specifies a supported 32 BPP
+    // alpha format for Windows XP.
+    bi.bV5RedMask   =  0x00FF0000;
+    bi.bV5GreenMask =  0x0000FF00;
+    bi.bV5BlueMask  =  0x000000FF;
+    bi.bV5AlphaMask =  0xFF000000; 
+
+    HDC hdc;
+    hdc = GetDC(NULL);
+
+    // Create the DIB section with an alpha channel.
+    hBitmap = CreateDIBSection(hdc, (BITMAPINFO *)&bi, DIB_RGB_COLORS, 
+        (void **)&lpBits, NULL, (DWORD)0);
+
+    hMemDC = CreateCompatibleDC(hdc);
+    ReleaseDC(NULL,hdc);
+
+    // Draw something on the DIB section.
+    hOldBitmap = (HBITMAP)SelectObject(hMemDC, hBitmap);
+    PatBlt(hMemDC,0,0,dwWidth,dwHeight,WHITENESS);
+    SetTextColor(hMemDC,RGB(0,0,0));
+    SetBkMode(hMemDC,TRANSPARENT);
+    TextOut(hMemDC,0,9,"rgba",4);
+    SelectObject(hMemDC, hOldBitmap);
+    DeleteDC(hMemDC);
+
+    // Create an empty mask bitmap.
+    HBITMAP hMonoBitmap = CreateBitmap(dwWidth,dwHeight,1,1,NULL);
+
+    // Set the alpha values for each pixel in the cursor so that
+    // the complete cursor is semi-transparent.
+    DWORD *lpdwPixel;
+    lpdwPixel = (DWORD *)lpBits;
+    for (x=0;x<dwWidth;x++)
+       for (y=0;y<dwHeight;y++)
+       {
+           // Clear the alpha bits
+           *lpdwPixel &= 0x00FFFFFF;
+           // Set the alpha bits to 0x9F (semi-transparent)
+           *lpdwPixel |= 0x9F000000;
+           lpdwPixel++;
+       }
+
+    ICONINFO ii;
+    ii.fIcon = FALSE;  // Change fIcon to TRUE to create an alpha icon
+    ii.xHotspot = 0;
+    ii.yHotspot = 0;
+    ii.hbmMask = hMonoBitmap;
+    ii.hbmColor = hBitmap;
+
+    // Create the alpha cursor with the alpha DIB section.
+    hAlphaCursor = CreateIconIndirect(&ii);
+
+    DeleteObject(hBitmap);          
+    DeleteObject(hMonoBitmap); 
+
+    return hAlphaCursor;
+}
+```
+
+Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) or [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect). It is not necessary to destroy cursors created by other functions.
+
+## Getting a Cursor size
+
+See [Getting the Icon size](/windows/win32/menurc/using-icons#getting-the-icon-size).
 
 ## Displaying a Cursor
 
 The system automatically displays the class cursor (the cursor associated with the window to which the cursor is pointing). You can assign a class cursor while registering a window class. The following example illustrates this by assigning a cursor handle to the **hCursor** member of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure identified by the *wc* parameter.
 
 
-```
+```cpp
 WNDCLASS  wc; 
  
 // Fill the window class structure with parameters that 
@@ -219,7 +304,7 @@ Your application can change the design of the cursor by using the [**SetCursor**
 You can specify different cursors for different conditions while processing [**WM\_SETCURSOR**](wm-setcursor.md). For example, the following example shows how to display the cursor whenever the cursor moves over the icon of a minimized application.
 
 
-```
+```cpp
 case WM_SETCURSOR: 
  
     // If the window is minimized, draw the hCurs3 cursor. 
@@ -240,12 +325,12 @@ When the window is not minimized, the system displays the class cursor.
 You can replace a class cursor by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function. This function changes the default window settings for all windows of a specified class. The following example replaces the existing class cursor with the `hCurs2` cursor.
 
 
-```
+```cpp
 // Change the cursor for window class represented by hwnd. 
  
-SetClassLong(hwnd,    // window handle 
-    GCL_HCURSOR,      // change cursor 
-    (LONG) hCurs2);   // new cursor 
+SetClassLongPtr(hwnd,    // window handle 
+    GCLP_HCURSOR,        // change cursor 
+    (LONG_PTR) hCurs2);  // new cursor 
 ```
 
 
@@ -257,7 +342,7 @@ For more information, see [Window Classes](/windows/desktop/winmsg/window-classe
 The following example confines the cursor to the application's window and then restores the cursor to its previous window. The example uses the [**GetClipCursor**](/windows/desktop/api/Winuser/nf-winuser-getclipcursor) function to record the area in which the cursor can move and the [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) function to confine and restore the cursor.
 
 
-```
+```cpp
 RECT rcClip;           // new area for ClipCursor
 RECT rcOldClip;        // previous area for ClipCursor
  
@@ -293,7 +378,7 @@ The following example uses the [**SetCursorPos**](/windows/desktop/api/Winuser/n
 An example for a similar mousetrap is included in [Icons](icons.md). It uses the [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora) and [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) functions instead of the more device-dependent [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) and [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) functions.
 
 
-```
+```cpp
 HICON hIcon1;               // icon handles 
 POINT ptOld;                // previous cursor location 
 HCURSOR hCurs1;             // cursor handle 
@@ -500,7 +585,7 @@ LONG APIENTRY MainWndProc(
 Because the system does not require a mouse, an application should be able to simulate mouse actions with the keyboard. The following example shows how to achieve this by using the [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos) and [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos) functions and by processing input from the arrow keys.
 
 
-```
+```cpp
 HCURSOR hCurs1, hCurs2;    // cursor handles 
  
 POINT pt;                  // cursor location  

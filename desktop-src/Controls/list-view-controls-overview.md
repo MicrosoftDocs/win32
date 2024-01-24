@@ -4,9 +4,12 @@ description: A list-view control is a window that displays a collection of items
 ms.assetid: 163f7778-690c-4166-b0c5-c7be1a03ae98
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: project-verbatim
 ---
 
 # About List-View Controls
+
+See the [Virtual listview control sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw).
 
 A list-view control is a window that displays a collection of items. List-view controls provide several ways to arrange and display items and are much more flexible than simple [List Boxes](list-boxes.md). For example, additional information about each item can be displayed in columns to the right of the icon and label.
 
@@ -134,7 +137,7 @@ List-view controls with the [**LVS\_OWNERDATA**](list-view-window-styles.md) sty
 
 
 
-|                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|      Notification                    |     Description                         |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [LVN\_GETDISPINFO](lvn-getdispinfo.md) | A virtual list-view control maintains very little item information on its own. As a result, it often sends the [LVN\_GETDISPINFO](lvn-getdispinfo.md) notification code to request item information. This message is handled in much the same way as callback items in a standard list control. Because the number of items supported by the control can be very large, caching item data improves performance. When handling LVN\_GETDISPINFO, the owner of the control first attempts to supply requested item information from the cache (for more information, see [Cache Management](#cache-management)). If the requested item is not cached, the owner must be prepared to supply the information by other means. |
 | [LVN\_ODCACHEHINT](lvn-odcachehint.md) | A virtual list view sends the [LVN\_ODCACHEHINT](lvn-odcachehint.md) notification code to assist in optimizing the cache. The notification code provides inclusive index values for a range of items that it recommends be cached. Upon receiving the notification code, the owner must be prepared to load the cache with item information for the requested range so that the information will be readily available when an [LVN\_GETDISPINFO](lvn-getdispinfo.md) message is sent.                                                                                                                                                                                                                                   |
@@ -168,7 +171,7 @@ Multiple working areas can be used for creating different areas within one view.
 
 Multiple working areas can intersect, but any items that lie within the intersection become members of the area with the lower index; therefore, it is best to avoid this situation. When sorting multiple work areas, the items are sorted compared to the other items in the same working area.
 
-The number of working areas can be retrieved with the [**LVM\_GETNUMBEROFWORKAREAS**](lvm-getnumberofworkareas.md) message. The working areas are changed with the [**LVM\_SETWORKAREAS**](lvm-setworkareas.md) message and can be retrieved with the [**LVM\_GETWORKAREAS**](lvm-getworkareas.md) message. Both of these messages take the address of an array of [**RECT**](/previous-versions//dd162897(v=vs.85)) structures as the *lParam* and the number of **RECT** structures as the *wParam*. The **left** and **top** members of these structures specify the coordinates of the upper-left corner (the origin) of the working area, and the **right** and **bottom** members specify the lower-right corner of the working area. All the coordinates are in client coordinates of the list view. The maximum number of working areas allowed is defined by the **LV\_MAX\_WORKAREAS** value.
+The number of working areas can be retrieved with the [**LVM\_GETNUMBEROFWORKAREAS**](lvm-getnumberofworkareas.md) message. The working areas are changed with the [**LVM\_SETWORKAREAS**](lvm-setworkareas.md) message and can be retrieved with the [**LVM\_GETWORKAREAS**](lvm-getworkareas.md) message. Both of these messages take the address of an array of [**RECT**](/windows/win32/api/windef/ns-windef-rect) structures as the *lParam* and the number of **RECT** structures as the *wParam*. The **left** and **top** members of these structures specify the coordinates of the upper-left corner (the origin) of the working area, and the **right** and **bottom** members specify the lower-right corner of the working area. All the coordinates are in client coordinates of the list view. The maximum number of working areas allowed is defined by the **LV\_MAX\_WORKAREAS** value.
 
 Changing the working area has no effect on list-view controls that have the [**LVS\_LIST**](list-view-window-styles.md) or [**LVS\_REPORT**](list-view-window-styles.md) view, but the working areas will be maintained when the view type is changed. With the [**LVS\_ICON**](list-view-window-styles.md) and [**LVS\_SMALLICON**](list-view-window-styles.md) views, the working area can be modified to change the way the items are displayed. Making the width of the working area (right - left) greater than the client width of the control causes the items to be wrapped at that width and the horizontal scroll bar to be displayed. Making the width of the working area narrower than the width of the control's client area causes the items to be wrapped within the working area and not the client area. Setting the **left** or **top** member to a positive value causes the items to be displayed starting at the working area, creating an empty space between the edge of the control and the items. An empty space can also be created between the right edge of the control and the items by making the width of the working area less than the client width of the control.
 
@@ -338,6 +341,6 @@ Insertion marks show users where dragged items will be placed. Insertion marks c
 
 The insertion mark API elements enable placement of insertion marks by providing messages and flags that perform hit detection, that specify the location and appearance of the insertion mark by item, and that query for information about the current size and appearance of the insertion mark.
 
- 
+## See also
 
- 
+* [Virtual listview control sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw)

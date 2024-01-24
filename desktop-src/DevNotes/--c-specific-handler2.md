@@ -1,7 +1,7 @@
 ---
-Description: Called by the compiler to implement structured exception handling extensions.
+description: Called by the compiler to implement structured exception handling extensions.
 ms.assetid: 6EAE0B4E-35E1-48EB-A8A9-0C1DC5387B03
-title: '__C_specific_handler function' (Wdm.h)
+title: '__C_specific_handler function (Wdm.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -16,13 +16,14 @@ api_location:
 - ntoskrnl.exe
 - NTDll.dll
 - wpdupfltr.sys
+- kernelbase.dll
 ---
 
 # \_\_C\_specific\_handler function
 
 Called by the compiler to implement structured exception handling extensions.
 
-The relative address of the language specific handler is present in the UNWIND\_INFO whenever flags UNW\_FLAG\_EHANDLER or UNW\_FLAG\_UHANDLER are set. The language specific handler is called as part of the search for an exception handler or as part of an unwind. For more information see [Language Specific Handler](/cpp/build/language-specific-handler).
+The relative address of the language specific handler is present in the UNWIND\_INFO whenever flags UNW\_FLAG\_EHANDLER or UNW\_FLAG\_UHANDLER are set. The language specific handler is called as part of the search for an exception handler or as part of an unwind. For more information see [Language Specific Handler](/cpp/build/exception-handling-x64#language-specific-handler).
 
 ## Syntax
 
@@ -74,7 +75,7 @@ Points to the dispatcher context for this function.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wdm.h</dt> </dl>        |
 | Library<br/> | <dl> <dt>NtosKrnl.lib</dt> </dl> |

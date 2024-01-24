@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LsGrbit enumeration"
 title: LsGrbit enumeration
 TOCTitle: LsGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.LsGrbit
@@ -36,11 +37,11 @@ ROBOTS: INDEX,FOLLOW
 
 # LsGrbit enumeration
 
-Options for [JetSetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](dn334015\(v=exchg.10\).md) and [JetGetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](dn292177\(v=exchg.10\).md).
+Options for [JetSetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](./api.jetsetls-method.md) and [JetGetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](./api.jetgetls-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -97,4 +98,4 @@ public enum LsGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

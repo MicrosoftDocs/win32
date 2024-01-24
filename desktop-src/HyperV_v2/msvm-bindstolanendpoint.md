@@ -1,5 +1,5 @@
 ---
-Description: This association establishes a service access point (SAP) as a requester of protocol services from a protocol endpoint.
+description: This association establishes a service access point (SAP) as a requester of protocol services from a protocol endpoint.
 ms.assetid: 14edefd8-d59b-4925-8b78-a979fb9a975f
 title: Msvm_BindsToLANEndpoint class
 ms.topic: reference
@@ -97,7 +97,7 @@ Describes the framing method for the upper layer SAP or endpoint that is bound t
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

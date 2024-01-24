@@ -1,5 +1,5 @@
 ---
-Description: Virtual Disk Service Common Return Codes
+description: Virtual Disk Service Common Return Codes
 ms.assetid: c9ddd3b7-f017-4880-976a-c879a40dc17b
 title: Virtual Disk Service Common Return Codes
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Virtual Disk Service Common Return Codes
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 
 

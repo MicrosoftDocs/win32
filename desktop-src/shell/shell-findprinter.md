@@ -1,5 +1,5 @@
 ---
-Description: Displays the Find Printer dialog box.
+description: Shell.FindPrinter method - Displays the Find Printer dialog box.
 ms.assetid: 61C700CF-623B-4c99-A211-AC26A1E4AE85
 title: Shell.FindPrinter method (Shldisp.h)
 ms.topic: reference
@@ -124,7 +124,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

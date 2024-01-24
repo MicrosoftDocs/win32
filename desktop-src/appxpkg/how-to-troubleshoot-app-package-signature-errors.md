@@ -145,7 +145,7 @@ By adding a certificate to [local machine certificate stores](/windows-hardware/
 **Samples**
 </dt> <dt>
 
-[Create app package sample]https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingCreateAppx)
+[Create app package sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingCreateAppx)
 </dt> <dt>
 
 **Concepts**

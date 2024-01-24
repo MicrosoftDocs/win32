@@ -1,5 +1,5 @@
 ---
-Description: The pages of a process's virtual address space can be in one of the following states.
+description: The pages of a process's virtual address space can be in one of the following states.
 ms.assetid: a6faa901-2966-4556-90ef-c113b1ba6c6d
 title: Page State
 ms.topic: article

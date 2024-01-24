@@ -1,5 +1,5 @@
 ---
-Description: Because files are securable objects, access to them is regulated by the access-control model that governs access to all other securable objects in Windows.
+description: Because files are securable objects, access to them is regulated by the access-control model that governs access to all other securable objects in Windows.
 ms.assetid: 991d7d94-fae7-406f-b2e3-dee811279366
 title: File Security and Access Rights
 ms.topic: article
@@ -110,7 +110,7 @@ HANDLE hFile = CreateFile( fileName,                   // lpFileName
 
 There are situations when a backup application must be able to change the access control settings of a file or directory. An example is when the access control settings of the disk-resident copy of a file or directory is different from the backup copy. This would happen if these settings were changed after the file or directory was backed up, or if it was corrupted.
 
-The **FILE\_FLAG\_BACKUP\_SEMANTICS** flag specified in the call to [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) gives the backup application process permission to read the access-control settings of the file or directory. With this permission, the backup application process can then call [**GetKernelObjectSecurity**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity) and [**SetKernelObjectSecurity**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity) to read and than reset the access-control settings.
+The **FILE\_FLAG\_BACKUP\_SEMANTICS** flag specified in the call to [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) gives the backup application process permission to read the access-control settings of the file or directory. With this permission, the backup application process can then call [**GetKernelObjectSecurity**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity) and [**SetKernelObjectSecurity**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity) to read and then reset the access-control settings.
 
 If a backup application must have access to the system-level [access control settings](/windows/desktop/SecAuthZ/access-control-lists), the **ACCESS\_SYSTEM\_SECURITY** flag must be specified in the *dwDesiredAccess* parameter value passed to [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea).
 

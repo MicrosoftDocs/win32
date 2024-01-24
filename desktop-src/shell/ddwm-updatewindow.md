@@ -1,5 +1,5 @@
 ---
-Description: Instructs a drop image window to update using new DROPDESCRIPTION information.
+description: Instructs a drop image window to update using new DROPDESCRIPTION information.
 title: DDWM_UPDATEWINDOW message
 ms.topic: reference
 ms.date: 05/31/2018
@@ -49,7 +49,7 @@ The [DragWindow](clipboard.md) clipboard format provides the **HWND** of the rec
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

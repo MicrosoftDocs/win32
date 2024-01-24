@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesInvalidLimitsException properties"
 title: EsentIndexTuplesInvalidLimitsException properties
 TOCTitle: EsentIndexTuplesInvalidLimitsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesInvalidLimitsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexTuplesInvalidLimitsException](dn319411\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesInvalidLimitsException](./esentindextuplesinvalidlimitsexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesInvalidLimitsException class](dn319411\(v=exchg.10\).md)
+[EsentIndexTuplesInvalidLimitsException class](./esentindextuplesinvalidlimitsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

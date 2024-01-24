@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_BIOMETRIC category contains sensors that provide information about living beings.
+description: The SENSOR\_CATEGORY\_BIOMETRIC category contains sensors that provide information about living beings.
 ms.assetid: dfc7ad46-c13b-46d1-8854-0d93ecaac55a
 title: SENSOR_CATEGORY_BIOMETRIC (Sensors.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ This category includes the following platform-defined data fields.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

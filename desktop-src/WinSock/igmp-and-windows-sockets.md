@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets enables the Multicast Listener Discovery (MLD) on IPv6 and the Internet Group Management Protocol (IGMP) on IPv4 for multicast applications through the use of socket options and IOCTLs.
+description: Windows Sockets enables the Multicast Listener Discovery (MLD) on IPv6 and the Internet Group Management Protocol (IGMP) on IPv4 for multicast applications through the use of socket options and IOCTLs.
 ms.assetid: a5de4273-e86e-4f13-b068-256cb38706d4
 title: MLD and IGMP Using Windows Sockets
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDbtimeValuesException constructor"
 title: EsentOutOfDbtimeValuesException constructor 
 TOCTitle: 'EsentOutOfDbtimeValuesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfDbtimeValuesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentOutOfDbtimeValuesException()
 
 #### Reference
 
-[EsentOutOfDbtimeValuesException class](dn319775\(v=exchg.10\).md)
+[EsentOutOfDbtimeValuesException class](./esentoutofdbtimevaluesexception-class.md)
 
-[EsentOutOfDbtimeValuesException members](dn319734\(v=exchg.10\).md)
+[EsentOutOfDbtimeValuesException members](./esentoutofdbtimevaluesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

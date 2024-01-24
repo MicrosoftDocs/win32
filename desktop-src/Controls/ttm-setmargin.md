@@ -30,7 +30,7 @@ Sets the top, left, bottom, and right margins for a tooltip window. A margin is 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that contains the margin information to be set. The members of the **RECT** structure do not define a bounding rectangle. For the purpose of this message, the structure members are interpreted as follows:
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that contains the margin information to be set. The members of the **RECT** structure do not define a bounding rectangle. For the purpose of this message, the structure members are interpreted as follows:
 
 
 
@@ -59,7 +59,7 @@ This message has no effect when the application runs on Windows Vista and visual
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

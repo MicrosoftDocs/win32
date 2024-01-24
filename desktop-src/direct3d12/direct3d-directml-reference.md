@@ -1,7 +1,6 @@
-﻿---
+---
 title: DirectML reference
 description: This section covers Direct Machine Learning (DirectML) APIs declared in DirectML.h.
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1

@@ -1,5 +1,5 @@
 ---
-Description: The INSTALL action is a top-level action called to install or remove components.
+description: The INSTALL action is a top-level action called to install or remove components.
 ms.assetid: bf290b59-1ecb-410f-b1f6-fdbeebebe3d3
 title: INSTALL Action
 ms.topic: article

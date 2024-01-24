@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileFullException constructor"
 title: EsentSLVStreamingFileFullException constructor 
 TOCTitle: 'EsentSLVStreamingFileFullException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVStreamingFileFullException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVStreamingFileFullException()
 
 #### Reference
 
-[EsentSLVStreamingFileFullException class](dn350758\(v=exchg.10\).md)
+[EsentSLVStreamingFileFullException class](./esentslvstreamingfilefullexception-class.md)
 
-[EsentSLVStreamingFileFullException members](dn334855\(v=exchg.10\).md)
+[EsentSLVStreamingFileFullException members](./esentslvstreamingfilefullexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

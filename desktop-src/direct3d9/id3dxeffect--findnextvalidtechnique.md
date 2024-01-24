@@ -1,5 +1,5 @@
 ---
-Description: Searches for the next valid technique, starting at the technique after the specified technique.
+description: Searches for the next valid technique, starting at the technique after the specified technique.
 ms.assetid: 0d2f3f80-90fd-495d-acb8-075f50e9a974
 title: ID3DXEffect::FindNextValidTechnique method (D3DX9Effect.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

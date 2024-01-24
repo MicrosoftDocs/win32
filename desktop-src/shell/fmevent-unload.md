@@ -1,5 +1,5 @@
 ---
-Description: Sent to an extension DLL when File Manager is unloading the DLL.
+description: Sent to an extension DLL when File Manager is unloading the DLL.
 title: FMEVENT_UNLOAD message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 15ffcd46-602f-4ad0-9c58-0b8056b9cac4
-api_name: 
- - FMEVENT_UNLOAD
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -51,7 +42,7 @@ The *hwnd* and **hMenu** values passed with the [**FMEVENT\_LOAD**](fmevent-load
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

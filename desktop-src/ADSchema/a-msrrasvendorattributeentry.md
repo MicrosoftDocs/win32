@@ -22,7 +22,7 @@ A string that enables vendors to add router attributes to the DS for use in quer
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-RRAS-Vendor-Attribute-Entry              |
 | Ldap-Display-Name | msRRASVendorAttributeEntry                  |
@@ -48,7 +48,7 @@ A string that enables vendors to add router attributes to the DS for use in quer
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -69,7 +69,7 @@ A string that enables vendors to add router attributes to the DS for use in quer
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -90,7 +90,7 @@ A string that enables vendors to add router attributes to the DS for use in quer
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -111,7 +111,7 @@ A string that enables vendors to add router attributes to the DS for use in quer
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -132,7 +132,7 @@ A string that enables vendors to add router attributes to the DS for use in quer
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -153,7 +153,7 @@ A string that enables vendors to add router attributes to the DS for use in quer
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |

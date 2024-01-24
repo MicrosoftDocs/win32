@@ -1,5 +1,5 @@
 ---
-Description: Identifies whether the message junk e-mail proofing is still in progress.
+description: Identifies whether the message junk e-mail proofing is still in progress.
 ms.assetid: 0d2037bb-05eb-4c9f-8394-22f0785ee817
 title: System.Message.ProofInProgress
 ms.topic: article

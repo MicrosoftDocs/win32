@@ -1,5 +1,5 @@
 ---
-Description: The ProductInfoFromScript property of the Installer object returns the value of the specified attribute that is stored in an advertise script.
+description: The ProductInfoFromScript property of the Installer object returns the value of the specified attribute that is stored in an advertise script.
 ms.assetid: 92aa479b-2b4c-482c-a186-a290461bc6d8
 title: Installer::ProductInfoFromScript property
 ms.topic: reference
@@ -70,7 +70,7 @@ MsgBox  installer.ProductInfoFromScript("c:\scratch\orca.aas", 3)
 
 
 
-|                    |                                                                                                                                                                                                                                                              |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 4.5 on Windows Server 2003 and Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                           |

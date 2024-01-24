@@ -38,7 +38,7 @@ typedef enum _ExtendedDisconnectReasonCode {
   exDiscReasonServerInsufficientPrivileges      = 9,
   exDiscReasonServerFreshCredsRequired          = 10,
   exDiscReasonRpcInitiatedDisconnectByUser      = 11,
-  exDiscReasonLogoffByUser                      = 2,
+  exDiscReasonLogoffByUser                      = 12,
   exDiscReasonLicenseInternal                   = 256,
   exDiscReasonLicenseNoLicenseServer            = 257,
   exDiscReasonLicenseNoLicense                  = 258,
@@ -263,7 +263,7 @@ Ending the range of internal protocol errors.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

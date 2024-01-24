@@ -1,5 +1,5 @@
 ---
-Description: Controls remote access to unsupported versions of Windows.
+description: Controls remote access to unsupported versions of Windows.
 ms.assetid: eb326bba-a011-4b9c-b4ee-fc08ae364f6f
 ms.tgt_platform: multiple
 title: '__NTLMUser9X class'
@@ -155,7 +155,7 @@ The **\_\_NTLMUser9X** class is used as an input parameter for the [**\_\_System
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings DedicatedTerminal property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings DedicatedTerminal property
 ms.assetid: 40d54c88-dcac-4e7d-b389-a65caeb6960e
 ms.tgt_platform: multiple
 keywords:
@@ -89,7 +89,7 @@ Returns **S\_FALSE**.
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                       |

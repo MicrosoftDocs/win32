@@ -1,5 +1,5 @@
 ---
-Description: String indicating the model of the flash used to take the picture. Can be blank or not present.
+description: String indicating the model of the flash used to take the picture. Can be blank or not present.
 ms.assetid: adecb337-02a3-449c-b797-560f9241d133
 title: System.Photo.FlashModel
 ms.topic: article

@@ -1,12 +1,15 @@
 ---
-Description: The following subtypes define uncompressed RGB formats with no alpha channel.
+description: The following subtypes define uncompressed RGB formats with no alpha channel.
 ms.assetid: 49c91c8c-6889-48c6-8fa5-84929c03d951
 title: Uncompressed RGB Video Subtypes (Dshow.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Uncompressed RGB Video Subtypes
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following subtypes define uncompressed RGB formats with no alpha channel.
 
@@ -60,12 +63,12 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
     
 
--   For RGB 24, every pixel is an [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple). Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
+-   For RGB 24, every pixel is an [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple). Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is:
 
-    |       |      |       |     |
+    |       | Layout     | Layout      | Layout     |
     |-------|------|-------|-----|
-    | Byte  | 0    | 1     | 2   |
-    | Value | Blue | Green | Red |
+    | **Byte**  | 0    | 1     | 2   |
+    | **Value** | Blue | Green | Red |
 
     
 
@@ -73,10 +76,10 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
 -   For RGB 32, every pixel is an **RGBQUAD**. Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
 
-    |       |      |       |     |                     |
+    |       | Layout     | Layout      | Layout     | Layout |
     |-------|------|-------|-----|---------------------|
-    | Byte  | 0    | 1     | 2   | 3                   |
-    | Value | Blue | Green | Red | Alpha or Don't Care |
+    | **Byte**  | 0    | 1     | 2   | 3                   |
+    | **Value** | Blue | Green | Red | Alpha or Don't Care |
 
     
 
@@ -86,10 +89,10 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
 -   A2R10G10B10 uses the following layout: 
 
-    |       |       |         |         |         |
+    |       | Layout     | Layout      | Layout     | Layout |
     |-------|-------|---------|---------|---------|
-    | Bit   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
-    | Value | Blue  | Green   | Red     | Alpha   |
+    | **Bit**   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
+    | **Value** | Blue  | Green   | Red     | Alpha   |
 
     
 
@@ -97,10 +100,10 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
 -   A2B10G10R10 uses the following layout: 
 
-    |       |       |         |         |         |
+    |       | Layout     | Layout      | Layout     | Layout |
     |-------|-------|---------|---------|---------|
-    | Bit   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
-    | Value | Red   | Green   | Blue    | Alpha   |
+    | **Bit**   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
+    | **Value** | Red   | Green   | Blue    | Alpha   |
 
     
 
@@ -110,7 +113,7 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

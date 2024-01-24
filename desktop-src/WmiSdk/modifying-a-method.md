@@ -1,5 +1,5 @@
 ---
-Description: In addition to classes and instances, WMI allows you to modify a method. The main reason you would want to modify a method is if you changed the implementation of a method in a provider. For more information, see Writing a Method Provider.
+description: In addition to classes and instances, WMI allows you to modify a method. The main reason you would want to modify a method is if you changed the implementation of a method in a provider. For more information, see Writing a Method Provider.
 ms.assetid: 239a994f-ecaf-4558-9626-8f5e60dd350c
 ms.tgt_platform: multiple
 title: Modifying a Method

@@ -23,13 +23,11 @@ This topic demonstrates how to use the [**ImageList\_Draw**](/windows/desktop/ap
 
 ## Instructions
 
-### 
 
 To draw an image, you use the [**ImageList\_Draw**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_draw) or [**ImageList\_DrawEx**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_drawex) function. You specify the handle to an image list, the index of the image to draw, the handle to the destination device context, a location within the device context, and one or more drawing styles.
 
 The user-defined function in the following C++ code example uses the [**ImageList\_Draw**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_draw) function to draw an image and saves the client coordinates of the image's bounding rectangle. A subsequent function uses the bounding rectangle to determine whether the user has clicked on the image.
 
-## 
 
 
 ```C++

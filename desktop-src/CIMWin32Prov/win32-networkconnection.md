@@ -1,5 +1,5 @@
 ---
-Description: Represents an active network connection in a Windows-based environment.
+description: Represents an active network connection in a Windows-based environment.
 ms.assetid: e16e5f13-ea28-4d75-9978-4ff2ef5e5506
 ms.tgt_platform: multiple
 title: Win32_NetworkConnection class
@@ -767,7 +767,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

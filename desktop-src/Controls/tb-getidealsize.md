@@ -30,7 +30,7 @@ Gets the ideal size of the toolbar.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SIZE**](/previous-versions//dd145106(v=vs.85)) structure that receives the height or width at which all buttons would be displayed. If *wParam* is **TRUE**, only the **cy** member (height) is valid. If *wParam* is **FALSE**, only the **cx** member (width) is valid.
+Pointer to a [**SIZE**](/windows/win32/api/windef/ns-windef-size) structure that receives the height or width at which all buttons would be displayed. If *wParam* is **TRUE**, only the **cy** member (height) is valid. If *wParam* is **FALSE**, only the **cx** member (width) is valid.
 
 </dd> </dl>
 
@@ -42,7 +42,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

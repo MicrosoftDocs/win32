@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordPrimaryChangedException constructor"
 title: EsentRecordPrimaryChangedException constructor 
 TOCTitle: 'EsentRecordPrimaryChangedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordPrimaryChangedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecordPrimaryChangedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentRecordPrimaryChangedException()
 
 #### Reference
 
-[EsentRecordPrimaryChangedException class](dn319853\(v=exchg.10\).md)
+[EsentRecordPrimaryChangedException class](./esentrecordprimarychangedexception-class.md)
 
-[EsentRecordPrimaryChangedException members](dn350525\(v=exchg.10\).md)
+[EsentRecordPrimaryChangedException members](./esentrecordprimarychangedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

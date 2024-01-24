@@ -1,5 +1,5 @@
 ---
-Description: Finds the next frame in the current capture context that matches the filter.
+description: Finds the next frame in the current capture context that matches the filter.
 ms.assetid: cc99b4a0-b6b0-43b4-8121-0e402d024009
 title: FindNextFrame function (Netmon.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ A pointer to a **WORD** that will receive the protocol offset.
 
 The starting point of the search. By default, this function searches forward 1,000 frames from the *OriginalFrameNumber* starting point. To change the search-forward distance, add this line to the Nmapi.ini file, located in the \\Network Monitor directory.
 
-MAXLOOKBACK=<new lookforward distance>
+MAXLOOKBACK=\<new lookforward distance\>
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ The *ProtocolOffset* pointer is returned to the calling parser, which adds the *
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

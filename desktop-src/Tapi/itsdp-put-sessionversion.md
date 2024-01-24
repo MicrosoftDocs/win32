@@ -1,5 +1,5 @@
 ---
-Description: The put\_SessionVersion method sets the session version.
+description: The put\_SessionVersion method sets the session version.
 ms.assetid: 8984d608-0fad-4979-9c58-ac2fb7926796
 title: ITSdp::put_SessionVersion method (Sdpblb.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

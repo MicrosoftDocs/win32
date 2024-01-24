@@ -405,7 +405,7 @@
   - name: "Using Winsock"
     href: using-winsock.md
     items: 
-    - name: "Getting Started With Winsock"
+    - name: "Getting started with Winsock"
       href: getting-started-with-winsock.md
       items: 
       - name: "About Servers and Clients"
@@ -594,6 +594,12 @@
         href: winsock-tracing-event-details.md
       - name: "Winsock Catalog Change Tracing Details"
         href: winsock-layered-service-provider-tracing-event-details.md
+    - name: "Winsock timestamping"
+      href: winsock-timestamping.md
+    - name: "Winsock explicit congestion notification"
+      href: winsock-ecn.md
+    - name: "Winsock socket state notifications"
+      href: winsock-socket-state-notifications.md
   - name: "Winsock Reference"
     href: winsock-reference.md
     items: 
@@ -1079,8 +1085,8 @@
         href: /windows/win32/api/mswsock/nf-mswsock-wsarecvex
       - name: "WSARecvFrom"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsarecvfrom
-      - name: "WSARecvMsg"
-        href: /previous-versions/windows/desktop/legacy/ms741687(v=vs.85)
+      - name: "LPFN_WSARECVMSG (WSARecvMsg)"
+        href: /windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg
       - name: "WSARemoveServiceClass"
         href: /windows/win32/api/Winsock2/nf-winsock2-wsaremoveserviceclass
       - name: "WSAResetEvent"
@@ -1132,6 +1138,8 @@
         href: /windows/win32/api/ws2def/ns-ws2def-addrinfoa
       - name: "addrinfoW"
         href: /windows/win32/api/Ws2def/ns-ws2def-addrinfow
+      - name: "ADDRINFO_DNS_SERVER"
+        href: /windows/win32/api/ws2def/ns-ws2def-addrinfo_dns_server
       - name: "addrinfoex"
         href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoexw
       - name: "addrinfoex2"
@@ -1140,6 +1148,10 @@
         href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoex3
       - name: "addrinfoex4"
         href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoex4
+      - name: "addrinfoex5"
+        href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoex5
+      - name: "addrinfoex6"
+        href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoex6
       - name: "AFPROTOCOLS"
         href: /windows/win32/api/Winsock2/ns-winsock2-afprotocols
       - name: "ASSOCIATE_NAMERES_CONTEXT_INPUT"
@@ -1149,7 +1161,7 @@
       - name: "CSADDR_INFO"
         href: /windows/win32/api/nspapi/ns-nspapi-csaddr_info
       - name: "fd_set"
-        href: /windows/win32/api/winsock/nf-winsock-fd_set
+        href: /windows/win32/api/winsock2/ns-winsock2-fd_set
       - name: "GROUP_FILTER"
         href: /windows/win32/api/Ws2ipdef/ns-ws2ipdef-group_filter
       - name: "GROUP_REQ"
@@ -1464,7 +1476,7 @@
         - name: "LPWSPADDRESSTOSTRING"
           href: /windows/win32/api/Ws2spi/nc-ws2spi-lpwspaddresstostring
         - name: "LPWSPASYNCSELECT"
-          href: /previous-versions/windows/win32/legacy/ms742267(v=vs.85)
+          href: /previous-versions/windows/desktop/legacy/ms742267(v=vs.85)
         - name: "LPWSPBIND"
           href: /previous-versions/windows/hardware/network/ff566268(v=vs.85)
         - name: "LPWSPCANCELBLOCKINGCALL"

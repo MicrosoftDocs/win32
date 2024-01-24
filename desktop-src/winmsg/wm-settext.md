@@ -1,5 +1,5 @@
 ---
-Description: Sets the text of a window.
+description: Sets the text of a window.
 ms.assetid: 1b48c309-6903-4139-bf42-e8526963e681
 title: WM_SETTEXT message (Winuser.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ This message does not change the current selection in the list box of a combo bo
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

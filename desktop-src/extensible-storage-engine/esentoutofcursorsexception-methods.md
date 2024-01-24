@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfCursorsException methods"
 title: EsentOutOfCursorsException methods
 TOCTitle: EsentOutOfCursorsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfCursorsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfCursorsException](dn319764\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfCursorsException](./esentoutofcursorsexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentOutOfCursorsException class](dn319764\(v=exchg.10\).md)
+[EsentOutOfCursorsException class](./esentoutofcursorsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Gets the size of the rectangle patch.
+description: Gets the size of the rectangle patch.
 ms.assetid: d25373ef-789d-4515-83da-7049f040c9a4
 title: D3DXRectPatchSize function (D3DX9Mesh.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

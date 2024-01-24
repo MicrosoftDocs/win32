@@ -1,7 +1,7 @@
 ---
 title: Format conversion structures (HLSL reference)
 ms.assetid: b7af5595-ec09-49b4-8458-57dd8fb8a9cc
-description: 
+description: "Learn more about: Format conversion structures (HLSL reference)"
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

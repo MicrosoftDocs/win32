@@ -1,5 +1,5 @@
 ---
-Description: This page describes the behavior of multicast socket options based on various socket option settings states.
+description: This page describes the behavior of multicast socket options based on various socket option settings states.
 ms.assetid: a411e831-7b28-4ab5-a09a-650db99a7cd5
 title: Multicast Socket Option Behavior
 ms.topic: article
@@ -25,7 +25,7 @@ This page assists in properly designing and troubleshooting Windows Sockets mult
 </thead>
 <tbody>
 <tr class="odd">
-<td rowspan="4">IP_ADD_MEMBERSHIP${REMOVE}$<br />
+<td rowspan="4">IP_ADD_MEMBERSHIP<br />
 </td>
 <td>IP_ADD_MEMBERSHIP</td>
 <td>WSAEADDRNOTAVAIL</td>
@@ -56,7 +56,7 @@ This page assists in properly designing and troubleshooting Windows Sockets mult
 <td>Making socket option calls on a group or group/source pair not currently in the inclusion list (due to dropping membership, or otherwise) results in an error.</td>
 </tr>
 <tr class="even">
-<td rowspan="3">IP_ADD_SOURCE_MEMBERSHIP${REMOVE}$<br />
+<td rowspan="3">IP_ADD_SOURCE_MEMBERSHIP<br />
 </td>
 <td>IP_ADD_MEMBERSHIP</td>
 <td>WSAEADDRNOTAVAIL</td>
@@ -75,7 +75,7 @@ This page assists in properly designing and troubleshooting Windows Sockets mult
 
 </tr>
 <tr class="odd">
-<td rowspan="2">IP_DROP_SOURCE_MEMBERSHIP${REMOVE}$<br />
+<td rowspan="2">IP_DROP_SOURCE_MEMBERSHIP<br />
 </td>
 <td>IP_UNBLOCK_SOURCE</td>
 <td>WSAEINVAL</td>
@@ -88,7 +88,7 @@ This page assists in properly designing and troubleshooting Windows Sockets mult
 
 </tr>
 <tr class="odd">
-<td rowspan="3">IP_BLOCK_SOURCE${REMOVE}$<br />
+<td rowspan="3">IP_BLOCK_SOURCE<br />
 </td>
 <td>IP_BLOCK_SOURCE</td>
 <td>WSAEADDRNOTAVAIL</td>

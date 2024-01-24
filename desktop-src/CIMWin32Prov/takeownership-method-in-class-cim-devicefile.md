@@ -1,5 +1,5 @@
 ---
-Description: The TakeOwnerShip method obtains ownership of the logical file specified in the object path.
+description: TakeOwnerShip method of the CIM_DeviceFile class - The TakeOwnerShip method obtains ownership of the logical file specified in the object path.
 ms.assetid: ef7d5ce7-99fb-464f-9739-ec9189148f94
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the CIM_DeviceFile class
@@ -147,7 +147,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

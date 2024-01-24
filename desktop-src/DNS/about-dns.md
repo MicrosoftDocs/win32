@@ -12,9 +12,9 @@ ms.date: 05/31/2018
 
 # About DNS
 
-Domain Name System (DNS) is an industry-standard protocol used to locate computers on an IP-based network. Users can remember display names, such as www.microsoft.com easier than number-based addresses, such as 207.46.131.137.
+Domain Name System (DNS) is an industry-standard protocol used to locate computers on an IP-based network. Users can remember display names, such as `www.microsoft.com` easier than number-based addresses, such as 207.46.131.137.
 
-IP networks, such as the Internet and Windows networks, rely on number-based addresses to transmit data throughout the network; therefore, it is necessary to translate display names (such as www.microsoft.com) into numeric addresses that the network can recognize (such as 207.46.131.137). DNS is the service of choice in Windows to locate such resources and translate them into IP addresses.
+IP networks, such as the Internet and Windows networks, rely on number-based addresses to transmit data throughout the network; therefore, it is necessary to translate display names (such as `www.microsoft.com`) into numeric addresses that the network can recognize (such as 207.46.131.137). DNS is the service of choice in Windows to locate such resources and translate them into IP addresses.
 
 DNS is the primary locator service for Active Directory, and therefore, DNS can be considered a base service for both Windows and Active Directory. Windows provides functions that enable application programmers to use DNS functions such as programmatically making DNS queries, comparing records, and looking up names.
 

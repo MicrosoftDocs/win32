@@ -1,5 +1,5 @@
 ---
-Description: Joins a computer system to a domain or workgroup.
+description: Joins a computer system to a domain or workgroup.
 ms.assetid: b9421f04-9b56-4413-af5c-12dffeb6f0c8
 ms.tgt_platform: multiple
 title: JoinDomainOrWorkgroup method of the Win32_ComputerSystem class
@@ -329,7 +329,7 @@ The parameter is incorrect.
 **110**
 </dt> <dd>
 
-he system cannot open the specified object.
+The system cannot open the specified object.
 
 </dd> <dt>
 
@@ -401,8 +401,6 @@ In C++, set the authentication at **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** either 
 
 ## Examples
 
-The [Join a computer to a domain](https://Gallery.TechNet.Microsoft.Com/Join-a-computer-to-a-domain-6e19d905) PowerShell example joins a computer to a domain.
-
 The following VBScript code example joins a computer to a domain and creates the computer's account in Active Directory.
 
 
@@ -436,7 +434,7 @@ ReturnValue = objComputer.JoinDomainOrWorkGroup(strDomain, _
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

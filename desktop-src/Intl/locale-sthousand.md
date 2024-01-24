@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_STHOUSAND
+description: LOCALE\_STHOUSAND
 ms.assetid: 20898656-d9e3-47cb-9f0f-ea997633aa88
 title: LOCALE_STHOUSAND
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Default Printing Interface
+description: Default Printing Interface
 ms.assetid: 15096db9-a163-4278-beb2-8b7558d9e49b
 title: Default Printing Interface
 ms.topic: article

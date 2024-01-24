@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream properties"
 title: ColumnStream properties
 TOCTitle: ColumnStream properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.ColumnStream
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members.
+The [ColumnStream](./columnstream-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[ColumnStream class](dn334143\(v=exchg.10\).md)
+[ColumnStream class](./columnstream-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

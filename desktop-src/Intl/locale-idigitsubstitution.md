@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_IDIGITSUBSTITUTION
+description: LOCALE\_IDIGITSUBSTITUTION
 ms.assetid: f3f7d7ac-8f1e-4bfa-84f0-dfe8cff568c3
 title: LOCALE_IDIGITSUBSTITUTION
 ms.topic: article
@@ -14,8 +14,8 @@ ms.date: 05/31/2018
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

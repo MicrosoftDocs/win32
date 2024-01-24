@@ -1,5 +1,5 @@
 ---
-Description: Request a token for the endpoint of the service using the specified credentials.
+description: Request a token for the endpoint of the service using the specified credentials.
 ms.assetid: 2CA0F826-9A05-4385-AF1A-A8C05B3DAFE2
 title: IUpdateEndpointAuthProvider::GetEndpointToken method (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ Indicates weather WUA requests a new token. True indicates that a new token is r
 *ppEndpointToken* \[out\]
 </dt> <dd>
 
-Specifiy the endpoint token to be used.
+Specify the endpoint token to be used.
 
 </dd> </dl>
 
@@ -91,13 +91,13 @@ Returns S\_OK if successful. Otherwise, returns a COM or Windows error code.
 
 ## Remarks
 
-WUA typically sets the fRefreshOnline parameter to false when this method is first called, then if a connection error occures WUA sets that parameter to true when the method is called again. However, the implementation of this method can request a new token from a Security Token Service (STS) or provide a cached token at any time.
+WUA typically sets the fRefreshOnline parameter to false when this method is first called, then if a connection error occurs WUA sets that parameter to true when the method is called again. However, the implementation of this method can request a new token from a Security Token Service (STS) or provide a cached token at any time.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>                |

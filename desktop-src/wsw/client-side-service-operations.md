@@ -1,7 +1,7 @@
 ---
 title: Client-side Service Operations
 ms.assetid: 9d6e2441-91de-4108-b1c4-282fbca5fe7c
-description: 
+description: "Learn more about: Client-side Service Operations"
 keywords:
 - Client Side Service Operations Web Services for Windows
 - WWSAPI
@@ -22,7 +22,6 @@ The following is the layout of a client-side service operation:
 -   [**WS\_ASYNC\_CONTEXT**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context) asyncContext: Async context for executing the call asynchronously.
 -   [WS\_ERROR](ws-error.md) error: Rich error object.
 
-## 
 
 ### Signature for Client-side Service Operations
 

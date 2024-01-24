@@ -1,6 +1,6 @@
 ---
 title: glGetMaterialfv function (Gl.h)
-description: The glGetMaterialfv and glGetMaterialiv functions return material parameters.
+description: The glGetMaterialfv and glGetMaterialiv functions return material parameters. | glGetMaterialfv function (Gl.h)
 ms.assetid: b61dbe0c-5cc2-4397-9d7c-b99507a9f037
 keywords:
 - glGetMaterialfv function OpenGL
@@ -90,19 +90,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* or *query* was not an accepted value.<br/>                                                                             |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glGetMaterial** function returns in *params* the value or values of parameter *pname* of material *face*.
@@ -113,7 +100,7 @@ If an error is generated, no change is made to the contents of *params*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

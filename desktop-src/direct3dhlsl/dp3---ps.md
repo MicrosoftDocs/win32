@@ -1,6 +1,6 @@
 ---
 title: dp3 - ps
-description: Computes the three-component dot product of the source registers.
+description: Computes the three-component dot product of the source registers. | dp3 - ps
 ms.assetid: a365acd1-89c0-4340-8f51-8e478f84ddc0
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Raised by the Media Session when the status of a topology changes.
+description: Raised by the Media Session when the status of a topology changes.
 ms.assetid: b45fd598-ab1e-4b12-8d82-c88c96d1f770
 title: MESessionTopologyStatus event (Mfobjects.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ For a code example that retrieves the [**IMFTopology**](/windows/desktop/api/mfi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

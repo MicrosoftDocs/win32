@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ExecuteProgram class exposes the following methods.
+description: The CIM\_ExecuteProgram class exposes the following methods.
 ms.assetid: 0964B5DA-1E72-4430-98FD-66CE0D328B0C
 ms.tgt_platform: multiple
 title: CIM_ExecuteProgram Methods

@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when an IME is about to create the status window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+description: Notifies an application when an IME is about to create the status window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: bbd85c72-aa78-4e1d-8a7a-490650b2d782
 title: IMN_OPENSTATUSWINDOW notification code (Imm.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The IME window creates a status window when it processes this command and sets t
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

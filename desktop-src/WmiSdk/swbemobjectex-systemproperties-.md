@@ -1,5 +1,5 @@
 ---
-Description: Returns an SWbemPropertySet object that contains the collection of WMI System Properties that apply to the object.
+description: Returns an SWbemPropertySet object that contains the collection of WMI System Properties that apply to the object.
 ms.assetid: e95c325a-8851-4f55-a99d-4346d064e308
 ms.tgt_platform: multiple
 title: SWbemObjectEx.SystemProperties_ property (Wbemdisp.h)
@@ -75,7 +75,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The Pause method pauses the current capture.
+description: IRTC::Pause method - The Pause method pauses the current capture.
 ms.assetid: 8c7b310e-de04-4bd8-9c96-3c5948e610be
 title: IRTC::Pause method (Netmon.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ To restart the capture call [IRTC::Resume](irtc-resume.md). To stop the capture,
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

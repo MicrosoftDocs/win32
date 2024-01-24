@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateInstaller interface defines the following properties.
+description: The IUpdateInstaller interface defines the following properties.
 ms.assetid: 876a2150-40a1-42a3-bc9a-05dec94fccd3
 title: IUpdateInstaller Properties
 ms.topic: article

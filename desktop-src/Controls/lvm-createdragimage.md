@@ -34,7 +34,7 @@ The index of the item.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure that receives the initial location of the upper-left corner of the image, in view coordinates.
+A pointer to a [**POINT**](/windows/win32/api/windef/ns-windef-point) structure that receives the initial location of the upper-left corner of the image, in view coordinates.
 
 </dd> </dl>
 
@@ -50,7 +50,7 @@ Your application is responsible for destroying the image list when it is no long
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

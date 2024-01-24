@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the numerical password meets the special format requirements for this authentication value.
+description: Indicates whether the numerical password meets the special format requirements for this authentication value.
 ms.assetid: 3995405f-db4d-4f72-98dc-133a09f9cf65
 title: IsNumericalPasswordValid method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -81,7 +81,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Applications can retrieve and set the date and time a file is created, last modified, or last accessed by using the GetFileTime and SetFileTime functions.
+description: Applications can retrieve and set the date and time a file is created, last modified, or last accessed by using the GetFileTime and SetFileTime functions.
 ms.assetid: f8930be6-7c2a-4e50-a7a1-d25f6e2a3951
 title: Setting and Getting the Timestamp of a File
 ms.topic: article

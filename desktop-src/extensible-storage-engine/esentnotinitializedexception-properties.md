@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInitializedException properties"
 title: EsentNotInitializedException properties
 TOCTitle: EsentNotInitializedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNotInitializedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNotInitializedException](dn334741\(v=exchg.10\).md) type exposes the following members.
+The [EsentNotInitializedException](./esentnotinitializedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentNotInitializedException class](dn334741\(v=exchg.10\).md)
+[EsentNotInitializedException class](./esentnotinitializedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

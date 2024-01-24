@@ -1,5 +1,5 @@
 ---
-Description: The ClosePrinter function closes the specified printer object.
+description: The ClosePrinter function closes the specified printer object.
 ms.assetid: 95cc3eca-e65c-4fa6-8975-479e8e728dca
 title: ClosePrinter function (Winspool.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ For a sample program that uses this function, see [How To: Print Using the GDI P
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

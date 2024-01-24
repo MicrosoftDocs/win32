@@ -1,5 +1,5 @@
 ---
-Description: The IPortableDeviceKeyCollection interface holds a collection of PROPERTYKEY values. This interface can be retrieved from a method or, if a new object is required, call CoCreate with CLSID\_PortableDeviceKeyCollection.
+description: The IPortableDeviceKeyCollection interface holds a collection of PROPERTYKEY values. This interface can be retrieved from a method or, if a new object is required, call CoCreate with CLSID\_PortableDeviceKeyCollection.
 ms.assetid: 2460f5bc-6b1c-4e3b-bdb9-faaa6d6c87fd
 title: IPortableDeviceKeyCollection interface (PortableDeviceTypes.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The **IPortableDeviceKeyCollection** interface has these methods.
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

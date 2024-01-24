@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to a property store with encoding properties.
+description: Contains a pointer to a property store with encoding properties.
 ms.assetid: 28AC864C-C63C-4BD4-9770-B7B48A2815C6
 title: MF_SINK_WRITER_ENCODER_CONFIG attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The Sink Writer sets the properties on the encoder before setting the media type
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |

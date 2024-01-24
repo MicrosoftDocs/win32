@@ -1,5 +1,5 @@
 ---
-Description: Stencil buffers are a depth-buffer technique that can be updated as geometry is rendered, and used again as a mask for drawing more geometry.
+description: Stencil buffers are a depth-buffer technique that can be updated as geometry is rendered, and used again as a mask for drawing more geometry.
 ms.assetid: 0e1ef114-1d49-4beb-9fc2-2cfbbcae7add
 title: Shadowing (Direct3D 9)
 ms.topic: article

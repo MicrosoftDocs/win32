@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.Grbit property"
 title: IndexInfo.Grbit property 
 TOCTitle: 'Grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Grbit
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the index options.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,15 +54,14 @@ public CreateIndexGrbit Grbit { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.CreateIndexGrbit](hh578433\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.CreateIndexGrbit](./createindexgrbit-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[IndexInfo class](dn350919\(v=exchg.10\).md)
+[IndexInfo class](./indexinfo-class.md)
 
-[IndexInfo members](dn350916\(v=exchg.10\).md)
+[IndexInfo members](./indexinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabase400FormatException methods"
 title: EsentDatabase400FormatException methods
 TOCTitle: EsentDatabase400FormatException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabase400FormatException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabase400FormatException](dn334253\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabase400FormatException](./esentdatabase400formatexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabase400FormatException class](dn334253\(v=exchg.10\).md)
+[EsentDatabase400FormatException class](./esentdatabase400formatexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

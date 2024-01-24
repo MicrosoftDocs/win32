@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotSeparateIntrinsicLVException constructor"
 title: EsentCannotSeparateIntrinsicLVException constructor 
 TOCTitle: 'EsentCannotSeparateIntrinsicLVException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotSeparateIntrinsicLVException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentCannotSeparateIntrinsicLVException()
 
 #### Reference
 
-[EsentCannotSeparateIntrinsicLVException class](dn274117\(v=exchg.10\).md)
+[EsentCannotSeparateIntrinsicLVException class](./esentcannotseparateintrinsiclvexception-class.md)
 
-[EsentCannotSeparateIntrinsicLVException members](dn274181\(v=exchg.10\).md)
+[EsentCannotSeparateIntrinsicLVException members](./esentcannotseparateintrinsiclvexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

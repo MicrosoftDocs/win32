@@ -1,22 +1,25 @@
 ---
-Description: Builds a customized, right-handed orthographic projection matrix.
+description: D3DXMatrixOrthoOffCenterRH function (D3dx9math.h) - Builds a customized, right-handed orthographic projection matrix.
 ms.assetid: d6171e28-b138-4ccf-9f12-fb977a30aca1
 title: D3DXMatrixOrthoOffCenterRH function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixOrthoOffCenterRH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixOrthoOffCenterRH function
+# D3DXMatrixOrthoOffCenterRH function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a customized, right-handed orthographic projection matrix.
 
@@ -134,7 +137,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

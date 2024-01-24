@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFSourceResolver::BeginCreateObjectFromByteStream method.
+description: Remotable version of the IMFSourceResolver::BeginCreateObjectFromByteStream method.
 ms.assetid: 960b5c51-b9b1-4956-a270-abfb7eedd482
 title: RemoteBeginCreateObjectFromByteStream (Mfobjects.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

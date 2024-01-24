@@ -1,5 +1,5 @@
 ---
-Description: This section contains the classes and interfaces that are used for the math input control.
+description: This section contains the classes and interfaces that are used for the math input control.
 ms.assetid: 1ea452f2-6831-4f0d-90f7-901194af83b1
 title: Math Input Classes and Interfaces
 ms.topic: article

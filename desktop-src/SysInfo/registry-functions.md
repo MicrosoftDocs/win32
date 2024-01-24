@@ -1,5 +1,5 @@
 ---
-Description: The following are the registry functions.
+description: The following are the registry functions.
 ms.assetid: a490b748-42e8-462b-9a7f-a8b21438ea79
 title: Registry Functions
 ms.topic: article
@@ -47,6 +47,7 @@ The following are the registry functions.
 | [**RegQueryMultipleValues**](/windows/desktop/api/Winreg/nf-winreg-regquerymultiplevaluesa)           | Retrieves the type and data for a list of value names associated with an open registry key.                                                    |
 | [**RegQueryReflectionKey**](/windows/desktop/api/WinReg/nf-winreg-regqueryreflectionkey)             | Determines whether reflection has been disabled or enabled for the specified key.                                                              |
 | [**RegQueryValueEx**](/windows/desktop/api/Winreg/nf-winreg-regqueryvalueexa)                         | Retrieves the type and data for a specified value name associated with an open registry key.                                                   |
+| [**RegRenameKey**](/windows/desktop/api/Winreg/nf-winreg-regrenamekey)                                | Changes the name of the specified registry key.                                                                                                |
 | [**RegReplaceKey**](/windows/desktop/api/Winreg/nf-winreg-regreplacekeya)                             | Replaces the file backing a registry key and all its subkeys with another file.                                                                |
 | [**RegRestoreKey**](/windows/desktop/api/Winreg/nf-winreg-regrestorekeya)                             | Reads the registry information in a specified file and copies it over the specified key.                                                       |
 | [**RegSaveKey**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya)                                   | Saves the specified key and all of its subkeys and values to a new file.                                                                       |

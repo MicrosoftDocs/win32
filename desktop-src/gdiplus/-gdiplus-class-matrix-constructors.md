@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the Matrix class. For a complete class listing, see Matrix Class.
+description: This topic lists the constructors of the Matrix class. For a complete class listing, see Matrix Class.
 ms.assetid: a1411b9c-69e9-441e-a476-b0eb6ec30bf2
 title: Matrix.Matrix constructors
 ms.topic: reference

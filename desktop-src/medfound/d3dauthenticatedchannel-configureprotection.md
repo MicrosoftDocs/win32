@@ -1,5 +1,5 @@
 ---
-Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_PROTECTION command.
+description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_PROTECTION command.
 ms.assetid: 44f37e78-7218-42be-a07a-5ab911f2ba21
 title: D3DAUTHENTICATEDCHANNEL_CONFIGUREPROTECTION structure (D3d9types.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ A [**D3DAUTHENTICATEDCHANNEL\_PROTECTION\_FLAGS**](d3dauthenticatedchannel-prote
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

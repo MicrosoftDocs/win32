@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSystemPathInUseException properties"
 title: EsentSystemPathInUseException properties
 TOCTitle: EsentSystemPathInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSystemPathInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSystemPathInUseException](dn334943\(v=exchg.10\).md) type exposes the following members.
+The [EsentSystemPathInUseException](./esentsystempathinuseexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSystemPathInUseException class](dn334943\(v=exchg.10\).md)
+[EsentSystemPathInUseException class](./esentsystempathinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,6 +1,6 @@
 ---
 title: PerformServerValidation (EapType)
-description: Learn about the PerformServerValidation element. This element indicates whether server validation is performed.
+description: Learn about the PerformServerValidation element. This element indicates whether server validation is performed. | PerformServerValidation (EapType)
 ms.assetid: f6233bff-18e4-45b4-b598-839fa198f676
 keywords:
 - element EAPHost

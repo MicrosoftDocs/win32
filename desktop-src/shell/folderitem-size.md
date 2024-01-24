@@ -1,5 +1,5 @@
 ---
-Description: Contains the item's size.
+description: Contains the item's size.
 ms.assetid: 0eda405e-d54f-48d2-a060-a1fdcdb23785
 title: FolderItem.Size property (Shldisp.h)
 ms.topic: reference
@@ -141,7 +141,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: ICE custom actions communicate by calling MsiProcessMessage and posting an INSTALLMESSAGE\_USER type message.
+description: ICE custom actions communicate by calling MsiProcessMessage and posting an INSTALLMESSAGE\_USER type message.
 ms.assetid: 36307589-de0e-4eaf-b439-e7ba3cd96fb3
 title: ICE Message Guidelines
 ms.topic: article
@@ -12,7 +12,7 @@ ICE custom actions communicate by calling [**MsiProcessMessage**](/windows/deskt
 
 When authoring a message string for an ICE custom action, format the string as follows.
 
-*Name of ICE* <tab> *Message Type* <tab> *Description* <tab> *Help URL or location* <tab> *Table Name* <tab> *Column Name* <tab> *Primary Key* <tab> *Primary Key* <tab> *Primary Key* . . . (repeat for as many primary keys as needed)
+*Name of ICE* &lt;tab&gt; *Message Type* &lt;tab&gt; *Description* &lt;tab&gt; *Help URL or location* &lt;tab&gt; *Table Name* &lt;tab&gt; *Column Name* &lt;tab&gt; *Primary Key* &lt;tab&gt; *Primary Key* &lt;tab&gt; *Primary Key* . . . (repeat for as many primary keys as needed)
 
 The first three fields of the string are required in every message.
 

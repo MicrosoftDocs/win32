@@ -1,5 +1,5 @@
 ---
-Description: Glossary page
+description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 26a72de1-24bc-41e6-8d41-61d45f581e51
 title: COM+ Glossary

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the mode of the voice codec.
+description: Specifies the mode of the voice codec.
 ms.assetid: 8425cdab-e43c-41ca-9c20-09ab6a5f06f4
 title: MFPKEY_WMAVOICE_ENC_MusicSpeechClassMode Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ If automatic mode is not encoding mixed voice and music properly, you can specif
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

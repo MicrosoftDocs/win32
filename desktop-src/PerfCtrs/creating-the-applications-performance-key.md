@@ -1,5 +1,5 @@
 ---
-Description: An application that supports performance counters must have a Performance key under the Services key. The following example shows the values that you must include for this key.
+description: An application that supports performance counters must have a Performance key under the Services key. The following example shows the values that you must include for this key.
 ms.assetid: b6cdf130-699f-49bd-97b6-a580818b3fab
 title: Creating the Applications Performance Key
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a user clicks the InkPicture control.
+description: Occurs when a user clicks the InkPicture control.
 ms.assetid: 326bac37-2d5d-434b-916c-8a675bab5052
 title: InkPicture.Click event (Msinkaut.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

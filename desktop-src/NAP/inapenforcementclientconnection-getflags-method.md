@@ -1,6 +1,6 @@
 ---
 title: INapEnforcementClientConnection GetFlags method (NapEnforcementClient.h)
-description: Is used to differentiate first-time responses from responses due to SoHRequests cached by the enforcers.
+description: Is used to differentiate first-time responses from responses due to SoHRequests cached by the enforcers. | INapEnforcementClientConnection GetFlags method (NapEnforcementClient.h)
 ms.assetid: e8399615-5190-46f7-a3bf-3070de548953
 keywords:
 - GetFlags method NAP
@@ -69,7 +69,7 @@ Other COM-specific error codes also may be returned.
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |

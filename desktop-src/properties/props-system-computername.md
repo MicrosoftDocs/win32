@@ -1,5 +1,5 @@
 ---
-Description: The name of the computer where the item or file is located.
+description: The name of the computer where the item or file is located.
 ms.assetid: 8a126f68-40f9-433a-9697-ff5089b2da9e
 title: System.ComputerName
 ms.topic: article

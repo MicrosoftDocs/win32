@@ -1,6 +1,6 @@
 ---
 title: RAS Administration DLL Registry Setup
-description: The setup program for a third-party RAS administration DLL must register the DLL with RAS by providing information under the following key in the registry.
+description: Understand the requirements for registering a third-party remote access service (RAS) administration DLL with RAS.
 ms.assetid: 8108a0ac-8562-4251-99be-5f2b2f5c67c4
 ms.topic: article
 ms.date: 05/31/2018

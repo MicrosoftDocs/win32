@@ -1,5 +1,5 @@
 ---
-Description: Handling Events from the Device
+description: Handling Events from the Device
 ms.assetid: 529a8b7a-08b4-47de-8ed3-28e8fff0ede2
 title: Handling Events from the Device
 ms.topic: article

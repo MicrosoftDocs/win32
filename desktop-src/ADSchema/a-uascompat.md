@@ -39,7 +39,7 @@ Indicates if the security account manager will enforce data sizes to make Active
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | UAS-Compat                           |
 | Ldap-Display-Name | uASCompat                            |
@@ -65,7 +65,7 @@ Indicates if the security account manager will enforce data sizes to make Active
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -86,7 +86,7 @@ Indicates if the security account manager will enforce data sizes to make Active
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -107,7 +107,7 @@ Indicates if the security account manager will enforce data sizes to make Active
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -128,7 +128,7 @@ Indicates if the security account manager will enforce data sizes to make Active
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -149,7 +149,7 @@ Indicates if the security account manager will enforce data sizes to make Active
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -170,7 +170,7 @@ Indicates if the security account manager will enforce data sizes to make Active
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |

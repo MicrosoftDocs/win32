@@ -1,5 +1,5 @@
 ---
-Description: Notifies the application when an IME is about to change the content of the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+description: Notifies the application when an IME is about to change the content of the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: 0a276f9c-cece-4fa6-b71a-ba0daad5ca05
 title: IMN_CHANGECANDIDATE notification code (Imm.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The IME window changes the appearance of the candidate window when it processes 
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

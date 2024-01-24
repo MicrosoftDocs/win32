@@ -1,5 +1,5 @@
 ---
-Description: Identifies the query type.
+description: Identifies the query type.
 ms.assetid: 575c4e71-3cab-4123-a2a5-d23b53e87111
 title: D3DQUERYTYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ Identifies the query type. For information about queries, see [Queries (Direct3D
 ```C++
 typedef enum D3DQUERYTYPE { 
   D3DQUERYTYPE_VCACHE             = 4,
-  D3DQUERYTYPE_ResourceManager    = 5,
+  D3DQUERYTYPE_RESOURCEMANAGER    = 5,
   D3DQUERYTYPE_VERTEXSTATS        = 6,
   D3DQUERYTYPE_EVENT              = 8,
   D3DQUERYTYPE_OCCLUSION          = 9,
@@ -79,7 +79,7 @@ Query for any and all asynchronous events that have been issued from API calls.
 <span id="D3DQUERYTYPE_OCCLUSION"></span><span id="d3dquerytype_occlusion"></span>**D3DQUERYTYPE\_OCCLUSION**
 </dt> <dd>
 
-An occlusion query returns the number of pixels that pass z-testing. These pixels are for primitives drawn between the issue of [**D3DISSUE\_BEGIN**](d3dissue-begin.md) and [**D3DISSUE\_END**](d3dissue-end.md). This enables an application to check the occlusion result against 0. Zero is fully occluded, which means the pixels are not visible from the current camera position.
+An occlusion query returns the number of pixels (or samples when multisampling is enabled) that pass z-testing. These pixels/samples are for primitives drawn between the issue of [**D3DISSUE\_BEGIN**](d3dissue-begin.md) and [**D3DISSUE\_END**](d3dissue-end.md). This enables an application to check the occlusion result against 0. Zero is fully occluded, which means the pixels/samples are not visible from the current camera position. To get the number of pixels when a multisampled render target is used, the result should be divided by the sample count of the target.
 
 </dd> <dt>
 
@@ -151,11 +151,9 @@ Measure the cache hit-rate performance for textures and indexed vertices.
 
 Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemorypressure.md) structure.
 
+Differences between Direct3D 9 and Direct3D 9Ex:
 
-
-|                                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> D3DQUERYTYPE\_MEMORYPRESSURE is only available in Direct3D9Ex running on Windows 7 (or more current operating system).<br/> |
+- D3DQUERYTYPE\_MEMORYPRESSURE is only available in Direct3D9Ex running on Windows 7 (or more current operating system).
 
 
 
@@ -167,7 +165,7 @@ Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemory
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

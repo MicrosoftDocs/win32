@@ -22,7 +22,7 @@ Contains the GUID associated with a Full Volume Encryption (FVE) recovery passwo
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-FVE-RecoveryGuid                                   |
 | Ldap-Display-Name | msFVE-RecoveryGuid                                    |
@@ -45,7 +45,7 @@ Contains the GUID associated with a Full Volume Encryption (FVE) recovery passwo
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -66,7 +66,7 @@ Contains the GUID associated with a Full Volume Encryption (FVE) recovery passwo
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -87,7 +87,7 @@ Contains the GUID associated with a Full Volume Encryption (FVE) recovery passwo
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |

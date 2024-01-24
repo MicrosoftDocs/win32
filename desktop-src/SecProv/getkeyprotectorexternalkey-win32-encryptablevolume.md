@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the external key for a given key protector.
+description: Retrieves the external key for a given key protector.
 ms.assetid: d2b5e7d4-97c1-4d7f-a155-b5cdca2b552e
 title: GetKeyProtectorExternalKey method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -82,7 +82,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

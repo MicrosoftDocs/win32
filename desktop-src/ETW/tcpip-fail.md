@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for TCP/IP failure events. The following syntax is simplified from MOF code.
+description: TcpIp_Fail class - This class is the event type class for TCP/IP failure events. The following syntax is simplified from MOF code.
 ms.assetid: 1fe20b8c-b8f1-4db0-af78-1ebfc40b2bbd
 title: TcpIp_Fail class
 ms.topic: reference
@@ -106,7 +106,7 @@ Identifies the protocol. Can be one of the following values:
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

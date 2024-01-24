@@ -1,5 +1,5 @@
 ---
-Description: Represents a single authenticated attribute.
+description: Represents a single authenticated attribute.
 ms.assetid: 71c4543b-683f-4ffa-8301-c40c46c490b3
 title: Attribute object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Attribute object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObject Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobject?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography**](/previous-versions/windows/) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObject Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobject?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography**](/previous-versions/windows/) namespace.\]
 
 The **Attribute** object represents a single authenticated attribute.
 
@@ -57,7 +57,7 @@ The **Attribute** object can be created, and it is safe for scripting. The ProgI
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

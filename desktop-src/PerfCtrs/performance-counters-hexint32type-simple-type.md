@@ -1,5 +1,5 @@
 ---
-Description: Defines a 4-byte hexadecimal type.
+description: Defines a 4-byte hexadecimal type.
 ms.assetid: d0e538c1-f22e-4905-ba73-b670fa7eb174
 title: HexInt32Type Simple Type (Performance Counters)
 ms.topic: reference
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# HexInt32Type Simple Type
+# HexInt32Type Simple Type (Performance Counters)
 
 Defines a 4-byte hexadecimal type.
 
@@ -39,7 +39,7 @@ The **HexInt32Type** simple type is a **xs:string** that is restricted by the fo
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

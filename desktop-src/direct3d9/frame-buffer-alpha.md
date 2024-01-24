@@ -1,5 +1,5 @@
 ---
-Description: Frame buffer alpha-blending is a bit different than vertex alpha, material alpha, and texture alpha.
+description: Frame buffer alpha-blending is a bit different than vertex alpha, material alpha, and texture alpha.
 ms.assetid: 3664215d-ad03-400e-beab-b0421cf6b693
 title: Frame Buffer Alpha (Direct3D 9)
 ms.topic: article

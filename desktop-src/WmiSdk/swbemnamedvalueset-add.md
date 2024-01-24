@@ -1,5 +1,5 @@
 ---
-Description: The Add method of the SWbemNamedValueSet object adds an SWbemNamedValue object to the collection. If an element already exists in the collection with the same name, the new element replaces it.
+description: The Add method of the SWbemNamedValueSet object adds an SWbemNamedValue object to the collection. If an element already exists in the collection with the same name, the new element replaces it.
 ms.assetid: 471b23f5-6c53-40e2-a2a9-0798044c9dfb
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.Add method (Wbemdisp.h)
@@ -74,7 +74,7 @@ For examples of adding and retrieving named values, see [**SWbemNamedValue.Value
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

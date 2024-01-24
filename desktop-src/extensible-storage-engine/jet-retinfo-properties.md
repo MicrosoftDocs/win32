@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RETINFO properties"
 title: JET_RETINFO properties
 TOCTitle: JET_RETINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RETINFO
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_RETINFO](dn335277\(v=exchg.10\).md) type exposes the following members.
+The [JET_RETINFO](./jet-retinfo-class.md) type exposes the following members.
 
 ## Properties
 
@@ -51,7 +52,6 @@ Top
 
 #### Reference
 
-[JET_RETINFO class](dn335277\(v=exchg.10\).md)
+[JET_RETINFO class](./jet-retinfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,6 +1,6 @@
 ---
 title: glMap2f function (Gl.h)
-description: The glMap2d and glMap2f functions define a two-dimensional evaluator.
+description: The glMap2f function defines a two-dimensional evaluator. | glMap2f function (Gl.h)
 ms.assetid: 804fbf65-98a8-41af-8c39-5b83f3d341b0
 keywords:
 - glMap2f function OpenGL
@@ -152,22 +152,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* was not an accepted value.<br/>                                                                                        |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *u1* was equal to *u2*, or *v1* was equal to *v2*.<br/>                                                                         |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | Either *ustride* or *vstride* was less than the number of values in a control point.<br/>                                       |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | Either *uorder* or *vorder* was less than one or GL\_MAX\_EVAL\_ORDER.<br/>                                                     |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 Evaluators provide a way to use polynomial or rational polynomial mapping to produce vertices, normals, texture coordinates, and colors. The values produced by an evaluator are sent on to further stages of OpenGL processing just as if they had been presented using [**glVertex**](glvertex-functions.md), [**glNormal**](glnormal-functions.md), [**glTexCoord**](gltexcoord-functions.md), and [**glColor**](glcolor-functions.md) commands, except that the generated values do not update the current normal, texture coordinates, or color.
@@ -176,29 +160,29 @@ All polynomial or rational polynomial splines of any degree (up to the maximum d
 
 Evaluators define surfaces based on bivariate Bernstein polynomials. Define **p** (*u*^,*v*^) as
 
-![](images/map05.png)
+![Equation showing the definition of p ().](images/map05.png)
 
 where **R** *ij* is a control point, () is the *i*th Bernstein polynomial of degree
 
 *n* (*uorder* = *n* + 1)
 
-![](images/map06.png)
+![Equation showing the Bernstein polynomial of degree n.](images/map06.png)
 
 and () is the *j*th Bernstein polynomial of degree *m* (*vorder* = *m* + 1)
 
-![](images/map07.png)
+![Equation showing the Bernstein polynomial of degree m.](images/map07.png)
 
 Recall that
 
-![](images/map08.png)
+![Equations showing equivalence to 1.](images/map08.png)
 
 The **glMap2** function is used to define the basis and to specify what kind of values are produced. Once defined, a map can be enabled and disabled by calling [**glEnable**](glenable.md) and **glDisable** with the map name, one of the nine predefined values for *target*, described above. When [**glEvalCoord2**](glevalcoord-functions.md) presents values *u* and *v*, the bivariate Bernstein polynomials are evaluated using *u*^ and *v*^, where
 
-![](images/map09.png)
+![Equation showing the definition of u^.](images/map09.png)
 
 and
 
-![](images/map10.png)
+![Equation showing the definition of v^.](images/map10.png)
 
 The *target* parameter is a symbolic constant that indicates what kind of control points are provided in *points*, and what output is generated when the map is evaluated.
 
@@ -234,7 +218,7 @@ The following functions retrieve information related to **glMap2**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

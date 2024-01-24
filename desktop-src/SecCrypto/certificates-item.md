@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Certificate object that represents the indexed certificate of the collection. This is the default property.
+description: Retrieves a Certificate object that represents the indexed certificate of the collection. This is the default property.
 ms.assetid: 733f2b93-c059-4041-b7cd-8c20218f1462
 title: Certificates.Item property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Certificates.Item property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2collection?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2collection) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Item** property retrieves a [**Certificate**](certificate.md) object that represents the indexed certificate of the collection. This is the default property.
 
@@ -40,7 +40,7 @@ A [**Certificate**](certificate.md) object that represents the indexed certifica
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

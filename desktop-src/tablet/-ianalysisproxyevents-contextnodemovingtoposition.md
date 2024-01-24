@@ -1,7 +1,7 @@
 ---
-Description: Occurs before the IInkAnalyzer moves an IContextNode object to a new position within its parent node's collection of subnodes.
+description: Occurs before the IInkAnalyzer moves an IContextNode object to a new position within its parent node's collection of subnodes.
 ms.assetid: c7a5956e-ffc4-4205-9de3-e8b7d672156d
-title: '_IAnalysisProxyEvents::ContextNodeMovingToPosition event' (IACom.h)
+title: '_IAnalysisProxyEvents::ContextNodeMovingToPosition event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -79,7 +79,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Gets the direct child nodes of the IContextNode object.
+description: Gets the direct child nodes of the IContextNode object.
 ms.assetid: 50ce2fa4-031e-42e9-8e47-c0d3c2d2b4df
 title: IContextNode::GetSubNodes method (IACom.h)
 ms.topic: reference
@@ -169,7 +169,7 @@ HRESULT CMyClass::ExploreContextNode(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

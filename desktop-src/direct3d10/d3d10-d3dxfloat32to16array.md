@@ -1,22 +1,25 @@
 ---
-Description: Converts an array of 32-bit floats to 16-bit floats.
+description: D3DXFloat32To16Array function (D3DX10Math.h) - Converts an array of 32-bit floats to 16-bit floats.
 ms.assetid: 2114cf25-cc83-4c4a-9db5-ecc0f8ff1e85
 title: D3DXFloat32To16Array function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXFloat32To16Array
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXFloat32To16Array function
+# D3DXFloat32To16Array function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Converts an array of 32-bit floats to 16-bit floats.
 
@@ -74,7 +77,7 @@ Pointer to an array of 16-bit floats.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

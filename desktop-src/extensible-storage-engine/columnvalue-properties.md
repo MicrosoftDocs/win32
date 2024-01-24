@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ColumnValue properties"
 title: ColumnValue properties
 TOCTitle: ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.ColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [ColumnValue](dn334206\(v=exchg.10\).md) type exposes the following members.
+The [ColumnValue](./columnvalue-class.md) type exposes the following members.
 
 ## Properties
 
@@ -76,7 +77,6 @@ Top
 
 #### Reference
 
-[ColumnValue class](dn334206\(v=exchg.10\).md)
+[ColumnValue class](./columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

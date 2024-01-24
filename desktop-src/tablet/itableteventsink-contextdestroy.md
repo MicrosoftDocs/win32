@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a tablet context is being destroyed.
+description: Occurs when a tablet context is being destroyed.
 ms.assetid: 805289d8-267e-488b-8092-6b07b37dd6d4
 title: ITabletEventSink::ContextDestroy method
 ms.topic: reference
@@ -61,7 +61,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_FOCUS\_MODES enumeration type describes the focus mode used by a still image capture device.
+description: The WPD\_FOCUS\_MODES enumeration type describes the focus mode used by a still image capture device.
 ms.assetid: 3b092391-e4c1-4586-8df4-b58a1dcccc81
 title: WPD_FOCUS_MODES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ This enumeration is used by the [WPD\_STILL\_IMAGE\_FOCUS\_MODE](still-image-pro
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

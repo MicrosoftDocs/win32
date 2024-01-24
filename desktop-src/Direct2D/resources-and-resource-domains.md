@@ -49,7 +49,7 @@ As described in the previous section, device-independent resources always reside
 
 Use an [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory), itself a device-independent resource, to create device-independent resources. (To create a factory, use the [**CreateFactory**](/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory) function.)
 
-Excepti for render targets, all the resources created by a factory are device-independent. A render target is a device-dependent resource.
+Except for render targets, all the resources created by a factory are device-independent. A render target is a device-dependent resource.
 
 ## Device-Dependent Resources
 

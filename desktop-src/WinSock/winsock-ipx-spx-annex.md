@@ -1,5 +1,5 @@
 ---
-Description: This section describes Winsock extensions specific to Internetwork Packet Exchange/Sequenced Packet Exchange (IPX/SPX). It also describes aspects of base Winsock functions that either require special consideration or may exhibit unique behavior.
+description: This section describes Winsock extensions specific to Internetwork Packet Exchange/Sequenced Packet Exchange (IPX/SPX). It also describes aspects of base Winsock functions that either require special consideration or may exhibit unique behavior.
 ms.assetid: 8447e063-767a-40b8-b094-724393e85be2
 title: Winsock IPX/SPX Annex
 ms.topic: article

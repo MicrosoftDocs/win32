@@ -1,7 +1,6 @@
-﻿---
+---
 title: DirectML interfaces
 description: The following interfaces are declared in DirectML.h.
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
@@ -20,9 +19,10 @@ The following interfaces are declared in DirectML.h.
 | [**IDMLCompiledOperator**](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator) | Represents a compiled, efficient form of an operator suitable for execution on the GPU. |
 | [**IDMLDebugDevice**](/windows/desktop/api/directml/nn-directml-idmldebugdevice) | Controls the DirectML debug layer. |
 | [**IDMLDevice**](/windows/desktop/api/directml/nn-directml-idmldevice) | Represents a DirectML device, which is used to create operators, binding tables, command recorders, and other objects. |
+| [**IDMLDevice1**](/windows/desktop/api/directml/nn-directml-idmldevice1) | Represents a DirectML device, which is used to create operators, binding tables, command recorders, and other objects. |
 | [**IDMLDeviceChild**](/windows/win32/api/directml/nn-directml-idmldevicechild) | An interface implemented by all objects created from the DirectML device. |
 | [**IDMLDispatchable**](/windows/desktop/api/directml/nn-directml-idmldispatchable) | Implemented by objects that can be recorded into a command list for dispatch on the GPU, using [IDMLCommandRecorder::RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch). |
-| [**IDMLObject**](/windows/desktop/api/directml/nn-directml-idmlobject) | An interface from which [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice) and [IDMLDeviceChild](/windows/desktop/api/directml/nf-directml-idmldevicechild) inherit directly (and all other interfaces, indirectly). Consequently, it provides methods common to all DirectML interfaces, specifically methods to associate private data, and to annotate object names. |
+| [**IDMLObject**](/windows/desktop/api/directml/nn-directml-idmlobject) | An interface from which [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice) and [IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild) inherit directly (and all other interfaces, indirectly). Consequently, it provides methods common to all DirectML interfaces, specifically methods to associate private data, and to annotate object names. |
 | [**IDMLOperator**](/windows/desktop/api/directml/nn-directml-idmloperator) | Represents a DirectML operator. |
 | [**IDMLOperatorInitializer**](/windows/desktop/api/directml/nn-directml-idmloperatorinitializer) | Represents a specialized object whose purpose is to initialize compiled operators. |
 | [**IDMLPageable**](/windows/desktop/api/directml/nn-directml-idmlpageable) | Implemented by objects that can be evicted from GPU memory, and hence that can be supplied to [IDMLDevice::Evict](/windows/desktop/api/directml/nf-directml-idmldevice-evict) and [IDMLDevice::MakeResident](/windows/desktop/api/directml/nf-directml-idmldevice-makeresident). |

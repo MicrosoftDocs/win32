@@ -1,5 +1,5 @@
 ---
-Description: Called when the certificate returned by the CertStoreProvFindCRL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCRL.
+description: Called when the certificate returned by the CertStoreProvFindCRL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCRL.
 ms.assetid: e90609f6-63cd-40eb-bd5a-289473daa5bb
 title: CertStoreProvFreeFindCRL callback function
 ms.topic: reference
@@ -72,7 +72,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

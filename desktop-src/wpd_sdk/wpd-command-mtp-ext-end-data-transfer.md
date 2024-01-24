@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER command completes a data transfer and read response from the device.
+description: The WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER command completes a data transfer and read response from the device.
 ms.assetid: df2da2e6-ed5a-41a1-be30-844c0d6b409b
 title: WPD_COMMAND_MTP_EXT_END_DATA_TRANSFER Command (WpdMtpExtensions.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](/windows
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>WpdMtpExtensions.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The DRIVER\_INFO\_4 structure contains printer driver information.
+description: The DRIVER\_INFO\_4 structure contains printer driver information.
 ms.assetid: 63000de6-74e7-4427-98d7-7bbd2dd61080
 title: DRIVER_INFO_4 structure (Winspool.h)
 ms.topic: reference
@@ -127,7 +127,7 @@ A pointer to a null-terminated string that specifies previous printer driver nam
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

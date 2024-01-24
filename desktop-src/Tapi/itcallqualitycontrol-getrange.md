@@ -1,5 +1,5 @@
 ---
-Description: The GetRange method gets the range of valid values for a given call quality property.
+description: The GetRange method gets the range of valid values for a given call quality property.
 ms.assetid: 974033cf-59ce-4593-93d7-290094c20a7c
 title: ITCallQualityControl::GetRange method (Ipmsp.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

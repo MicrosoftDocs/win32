@@ -83,7 +83,7 @@ When appending an attribute which will be consumed by the Nap System, it should 
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |

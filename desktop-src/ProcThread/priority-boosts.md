@@ -1,5 +1,5 @@
 ---
-Description: Each thread has a dynamic priority.
+description: Each thread has a dynamic priority.
 ms.assetid: bcc6cec7-2d85-4810-98d0-7d99486f4924
 title: Priority Boosts
 ms.topic: article

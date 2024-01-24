@@ -1,5 +1,5 @@
 ---
-Description: The LIKE predicate performs pattern-matching comparison on the specified column.
+description: The LIKE predicate performs pattern-matching comparison on the specified column.
 ms.assetid: d4bcf406-1253-4e56-b770-79edd4a98205
 title: LIKE Predicate
 ms.topic: article
@@ -17,7 +17,7 @@ The LIKE predicate performs pattern-matching comparison on the specified column.
 
 
 
-The <column> can be a regular or delimited [identifier](-search-sql-identifiers.md). The column is limited to the properties in the property store.
+The &lt;column&gt; can be a regular or delimited [identifier](-search-sql-identifiers.md). The column is limited to the properties in the property store.
 
 The <wildcard\_literal> is a string literal. It is enclosed in quotation marks and optionally can contain wildcard characters. The match string can contain multiple wildcard characters if needed. The following table describes the wildcard characters that the LIKE predicate recognizes.
 

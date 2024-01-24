@@ -1,5 +1,5 @@
 ---
-Description: Password Filters
+description: Password Filters
 ms.assetid: 777edb4d-1fb4-4269-8382-8fe73c0c3b23
 title: Password Filters
 ms.topic: article

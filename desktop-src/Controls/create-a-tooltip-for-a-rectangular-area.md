@@ -51,7 +51,7 @@ void CreateToolTipForRect(HWND hwndParent)
     ti.uFlags   = TTF_SUBCLASS;
     ti.hwnd     = hwndParent;
     ti.hinst    = g_hInst;
-    ti.lpszText = TEXT("This is your tooltip string.");;
+    ti.lpszText = TEXT("This is your tooltip string.");
     
     GetClientRect (hwndParent, &ti.rect);
 

@@ -1,5 +1,5 @@
 ---
-Description: A state block can be used to capture only vertex state (see State Blocks Save and Restore State (Direct3D 9)).
+description: A state block can be used to capture only vertex state (see State Blocks Save and Restore State (Direct3D 9)).
 ms.assetid: cb898228-dc45-4a2a-a82e-8d64523e9b85
 title: Saving Vertex States With a StateBlock (Direct3D 9)
 ms.topic: article

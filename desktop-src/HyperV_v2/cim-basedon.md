@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a higher level CIM\_StorageExtent object and a lower level CIM\_StorageExtent object. For example a CIM\_ProtectedSpaceExtent object is a part of a CIM\_PhysicalExtent object.
+description: Represents an association between a higher level CIM\_StorageExtent object and a lower level CIM\_StorageExtent object. For example a CIM\_ProtectedSpaceExtent object is a part of a CIM\_PhysicalExtent object.
 ms.assetid: 40a88927-981b-4fc4-af5f-be91d9933284
 title: CIM_BasedOn class (Hyper-V management)
 ms.topic: reference
@@ -20,7 +20,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_BasedOn class
+# CIM_BasedOn class (Hyper-V management)
 
 Represents an association between a higher level **CIM\_StorageExtent** object and a lower level **CIM\_StorageExtent** object. For example a [**CIM\_ProtectedSpaceExtent**](/windows/desktop/CIMWin32Prov/cim-protectedspaceextent) object is a part of a [**CIM\_PhysicalExtent**](/windows/desktop/CIMWin32Prov/cim-physicalextent) object.
 
@@ -127,7 +127,7 @@ The address that indicates where in lower level storage, the higher level **CIM\
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

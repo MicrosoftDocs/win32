@@ -1,5 +1,5 @@
 ---
-Description: The PORT\_INFO\_2 structure identifies a supported printer port.
+description: The PORT\_INFO\_2 structure identifies a supported printer port.
 ms.assetid: 93675294-61d4-40e4-b84c-f252978e0285
 title: PORT_INFO_2 structure (Winspool.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ The **fPortType** member can be queried to determine information about the port.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

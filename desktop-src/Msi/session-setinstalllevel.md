@@ -1,5 +1,5 @@
 ---
-Description: The SetInstallLevel method of the Session object sets the install level for the current installation to a specified value and recalculates the Select and Installed states for all features in the Feature table.
+description: The SetInstallLevel method of the Session object sets the install level for the current installation to a specified value and recalculates the Select and Installed states for all features in the Feature table.
 ms.assetid: d47f8025-d484-42c7-9808-5ee590a4d200
 title: Session.SetInstallLevel method
 ms.topic: reference
@@ -57,7 +57,7 @@ If the method fails, you can obtain extended error information by using the [**L
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

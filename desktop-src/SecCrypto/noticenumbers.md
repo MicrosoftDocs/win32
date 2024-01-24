@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of Extension objects.
+description: NoticeNumbers object - Represents a collection of Extension objects.
 ms.assetid: b0d69df9-12c4-4872-b883-b029c4350502
 title: NoticeNumbers object
 ms.topic: reference
@@ -61,7 +61,7 @@ The NoticeNumbers object is used in the [**Qualifier.NoticeNumbers**](qualifier-
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

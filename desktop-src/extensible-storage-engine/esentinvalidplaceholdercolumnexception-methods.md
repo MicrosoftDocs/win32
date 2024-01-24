@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPlaceholderColumnException methods"
 title: EsentInvalidPlaceholderColumnException methods
 TOCTitle: EsentInvalidPlaceholderColumnException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidPlaceholderColumnException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidPlaceholderColumnException](dn319579\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidPlaceholderColumnException](./esentinvalidplaceholdercolumnexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidPlaceholderColumnException class](dn319579\(v=exchg.10\).md)
+[EsentInvalidPlaceholderColumnException class](./esentinvalidplaceholdercolumnexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

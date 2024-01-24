@@ -1,5 +1,5 @@
 ---
-Description: The SWbemObjectEx object exposes the following methods.
+description: The SWbemObjectEx object exposes the following methods.
 ms.assetid: 7F2F7F4A-8A83-4F6F-BDA4-A1B5BCB01F5E
 ms.tgt_platform: multiple
 title: SWbemObjectEx Methods

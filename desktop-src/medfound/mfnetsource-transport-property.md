@@ -1,5 +1,5 @@
 ---
-Description: Specifies the transport protocol used by the network source.
+description: Specifies the transport protocol used by the network source.
 ms.assetid: 7c8598ff-f408-42d0-9eee-3ef1e82f0466
 title: MFNETSOURCE_TRANSPORT property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ This property is read-only. To retrieve this property, query the network source 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

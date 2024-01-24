@@ -1,5 +1,5 @@
 ---
-Description: The SWbemRefresher object is a container object that can refresh the data for all the objects added to it. The set of added objects, each item represented by an SWbemRefreshableItem instance can be treated as a collection and enumerated.
+description: The SWbemRefresher object is a container object that can refresh the data for all the objects added to it. The set of added objects, each item represented by an SWbemRefreshableItem instance can be treated as a collection and enumerated.
 ms.assetid: cc5872a1-932b-4b68-9f5e-a91d35c8e117
 ms.tgt_platform: multiple
 title: SWbemRefresher object (Wbemdisp.h)
@@ -118,7 +118,7 @@ next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

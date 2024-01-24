@@ -1,5 +1,5 @@
 ---
-Description: Describes considerations for application control of file buffering, also known as unbuffered file input/output (I/O).
+description: Describes considerations for application control of file buffering, also known as unbuffered file input/output (I/O).
 ms.assetid: ae1e5d0f-9b55-4aae-8402-b9c8e33d9363
 title: File Buffering
 ms.topic: article
@@ -52,7 +52,7 @@ Because buffer addresses for read and write operations must be sector-aligned, t
 
 Therefore, in most situations, page-aligned memory will also be sector-aligned, because the case where the sector size is larger than the page size is rare.
 
-Another way to obtain manually-aligned memory buffers is to use the [\_aligned\_malloc](/cpp/c-runtime-library/reference/aligned-malloc?view=vs-2019) function from the C Run-Time library. For an example of how to manually control buffer alignment, see the C++ language code example in the Example Code section of [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile).
+Another way to obtain manually-aligned memory buffers is to use the [\_aligned\_malloc](/cpp/c-runtime-library/reference/aligned-malloc) function from the C Run-Time library. For an example of how to manually control buffer alignment, see the C++ language code example in the Example Code section of [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile).
 
  
 

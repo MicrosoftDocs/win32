@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageSizeMismatchException members"
 title: EsentPageSizeMismatchException members
 TOCTitle: EsentPageSizeMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.PageSizeMismatch exceptions.
 
-The [EsentPageSizeMismatchException](dn319780\(v=exchg.10\).md) type exposes the following members.
+The [EsentPageSizeMismatchException](./esentpagesizemismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentPageSizeMismatchException class](dn319780\(v=exchg.10\).md)
+[EsentPageSizeMismatchException class](./esentpagesizemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

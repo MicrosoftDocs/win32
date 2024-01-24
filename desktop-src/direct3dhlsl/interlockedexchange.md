@@ -68,6 +68,8 @@ This function does not return a value.
 
 This operation can only be performed on scalar-typed resources and shared memory variables. There are two possible uses for this function. The first is when R is a shared memory variable type. In this case, the function performs the operation on the shared memory register referenced by dest. The second scenario is when R is a resource variable type. In this scenario, the function performs the operation on the resource location referenced by dest. This operation is only available when R is readable and writable.
 
+Interlocked operations do not imply any memory fence/barrier.
+
 ### Minimum Shader Model
 
 This function is supported in the following shader models.

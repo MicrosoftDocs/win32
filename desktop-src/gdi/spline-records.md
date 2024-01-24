@@ -1,5 +1,5 @@
 ---
-Description: Spline records represent the quadratic curves (that is, quadratic b-splines) used by TrueType.
+description: Spline records represent the quadratic curves (that is, quadratic b-splines) used by TrueType.
 ms.assetid: 39b81ffc-382b-467c-83d7-d0754847759a
 title: Spline Records
 ms.topic: article

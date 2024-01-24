@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexInUseException properties"
 title: EsentIndexInUseException properties
 TOCTitle: EsentIndexInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexInUseException](dn350505\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexInUseException](./esentindexinuseexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentIndexInUseException class](dn350505\(v=exchg.10\).md)
+[EsentIndexInUseException class](./esentindexinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

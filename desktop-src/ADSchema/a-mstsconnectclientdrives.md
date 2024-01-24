@@ -22,7 +22,7 @@ Terminal Services session Connect Client Drives specifies whether to reconnect t
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Connect-Client-Drives          |
 | Ldap-Display-Name | msTSConnectClientDrives              |
@@ -45,7 +45,7 @@ Terminal Services session Connect Client Drives specifies whether to reconnect t
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services session Connect Client Drives specifies whether to reconnect t
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services session Connect Client Drives specifies whether to reconnect t
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

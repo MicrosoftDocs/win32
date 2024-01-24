@@ -1,5 +1,5 @@
 ---
-Description: A Cancel dialog box confirms that the user wants to terminate the installation. This is a modal dialog box.
+description: A Cancel dialog box confirms that the user wants to terminate the installation. This is a modal dialog box.
 ms.assetid: 5dab4315-721e-417d-91e0-b38653a65c23
 title: Cancel Dialog
 ms.topic: article

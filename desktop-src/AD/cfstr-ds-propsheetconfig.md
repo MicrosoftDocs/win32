@@ -39,7 +39,7 @@ The **CFSTR\_DS\_PROPSHEETCONFIG** clipboard format provides a global memory han
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

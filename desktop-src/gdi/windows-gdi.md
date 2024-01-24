@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Windows graphics device interface (GDI) enables applications to use graphics and formatted text on both the video display and the printer.
+description: The Microsoft Windows graphics device interface (GDI) enables applications to use graphics and formatted text on both the video display and the printer.
 ms.assetid: b58ab70a-2071-4264-9d20-c0b0aaf8dc5c
 title: Windows GDI
 ms.topic: article
@@ -48,7 +48,7 @@ For information on which operating systems are required to use a particular func
 
 <dl> <dt>
 
-[DirectX](https://msdn.microsoft.com/library/aa302281.aspx)
+[DirectX](/windows/win32/directx)
 </dt> <dt>
 
 [GDI+](../gdiplus/-gdiplus-gdi-start.md)

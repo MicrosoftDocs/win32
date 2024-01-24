@@ -1,5 +1,5 @@
 ---
-Description: Represents a Shell folder. This object contains properties and methods that allow you to retrieve information about the folder.
+description: Represents a Shell folder. This object contains properties and methods that allow you to retrieve information about the folder.
 ms.assetid: 'f1e82c61-205e-47c8-bc7c-6a52410a672e'
 title: Folder object (Shldisp.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The **Folder** object has these properties.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                 |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: WMI security focuses on protecting access to namespace data. WMI first grants access to groups of users as specified by the WMI Control and DCOM settings and then providers determine if the user should have access to namespace data.
+description: WMI security focuses on protecting access to namespace data. WMI first grants access to groups of users as specified by the WMI Control and DCOM settings and then providers determine if the user should have access to namespace data.
 ms.assetid: 88a2538a-ae30-4a1a-9d16-f0cd9419b2ed
 ms.tgt_platform: multiple
 title: Maintaining WMI Security

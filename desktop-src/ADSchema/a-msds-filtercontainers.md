@@ -22,7 +22,7 @@ A multiple-valued string that contains the names of classes used to determine wh
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Filter-Containers                     |
 | Ldap-Display-Name | msDS-FilterContainers                       |
@@ -47,7 +47,7 @@ A multiple-valued string that contains the names of classes used to determine wh
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -68,7 +68,7 @@ A multiple-valued string that contains the names of classes used to determine wh
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -89,7 +89,7 @@ A multiple-valued string that contains the names of classes used to determine wh
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -110,7 +110,7 @@ A multiple-valued string that contains the names of classes used to determine wh
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -131,7 +131,7 @@ A multiple-valued string that contains the names of classes used to determine wh
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

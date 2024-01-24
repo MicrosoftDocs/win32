@@ -1,5 +1,5 @@
 ---
-Description: The GetNetworkInfoFromBlob function retrieves network information from a given BLOB.
+description: The GetNetworkInfoFromBlob function retrieves network information from a given BLOB.
 ms.assetid: 217c33f4-e548-4072-9edd-ded61e6cd743
 title: GetNetworkInfoFromBlob function (Netmon.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ The network information is stored in the BLOB **NetworkInfo** section of the BLO
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

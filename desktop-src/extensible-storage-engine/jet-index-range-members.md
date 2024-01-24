@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_RANGE members"
 title: JET_INDEX_RANGE members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_INDEX_RANGE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE
@@ -13,9 +14,9 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-Contains definition for [JetPrereadIndexRanges(JET_SESID, JET_TABLEID, \[\], Int32, Int32, Int32, \[\], PrereadIndexRangesGrbit)](dn335382\(v=exchg.10\).md).
+Contains definition for [JetPrereadIndexRanges(JET_SESID, JET_TABLEID, \[\], Int32, Int32, Int32, \[\], PrereadIndexRangesGrbit)](./windows8api.jetprereadindexranges-method.md).
 
-The [JET_INDEX_RANGE](dn335481\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEX_RANGE](./jet-index-range-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -117,6 +118,6 @@ Top
 
 #### Reference
 
-[JET_INDEX_RANGE class](dn335481\(v=exchg.10\).md)
+[JET_INDEX_RANGE class](./jet-index-range-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

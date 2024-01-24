@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a processor.
+description: Contains information about a processor.
 ms.assetid: fa8c533c-3a54-4eb5-893f-649dfd8b4609
 title: PROCESSOR_POWER_INFORMATION structure
 ms.topic: reference
@@ -88,7 +88,7 @@ Note that this structure definition was accidentally omitted from WinNT.h. This 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

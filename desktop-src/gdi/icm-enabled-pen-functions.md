@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Image Color Management (ICM) ensures that a color image, graphic, or text object is rendered as close as possible to its original intent on any device, despite differences in imaging technologies and color capabilities among devices.
+description: Microsoft Image Color Management (ICM) ensures that a color image, graphic, or text object is rendered as close as possible to its original intent on any device, despite differences in imaging technologies and color capabilities among devices.
 ms.assetid: 55452048-aacd-4772-9345-3efcf0350ce6
 title: ICM-Enabled Pen Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: XAudio2 specific error codes returned by XAudio2 methods.
+description: XAudio2 specific error codes returned by XAudio2 methods.
 ms.assetid: 42a1c21c-4b14-114a-d79e-15a61eb2139b
 title: XAudio2 Error Codes (Xaudio2.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Xaudio2.h</dt> </dl> |
 

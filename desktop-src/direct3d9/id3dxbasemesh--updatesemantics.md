@@ -1,5 +1,5 @@
 ---
-Description: This method allows the user to change the mesh declaration without changing the data layout of the vertex buffer. The call is valid only if the old and new declaration formats have the same vertex size.
+description: This method allows the user to change the mesh declaration without changing the data layout of the vertex buffer. The call is valid only if the old and new declaration formats have the same vertex size.
 ms.assetid: ed2ad479-e0f7-4580-a20a-d3649759876a
 title: ID3DXBaseMesh::UpdateSemantics method (D3DX9Mesh.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 ## Remarks
 
-[**ID3DXBaseMesh::CloneMesh**](id3dxbasemesh--clonemesh.md) is used to reformat and change the vertex data layout. For example, use it to to add space for normals, texture coordinates, colors, weights, etc. that were not present before.
+[**ID3DXBaseMesh::CloneMesh**](id3dxbasemesh--clonemesh.md) is used to reformat and change the vertex data layout. For example, use it to add space for normals, texture coordinates, colors, weights, etc. that were not present before.
 
 **ID3DXBaseMesh::UpdateSemantics** is a method for updating the vertex declaration with different semantic information, without changing the layout of the vertex buffer. For example, use it to relabel a 3D texture coordinate as a binormal or tangent, or vice versa.
 
@@ -60,7 +60,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

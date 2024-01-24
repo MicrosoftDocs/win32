@@ -1,5 +1,5 @@
 ---
-Description: Contains input data for the IDirect3DAuthenticatedChannel9::Query method.
+description: Contains input data for the IDirect3DAuthenticatedChannel9::Query method.
 ms.assetid: 6a484652-8da2-4074-96b2-6fe49f4d4200
 title: D3DAUTHENTICATEDCHANNEL_QUERY_INPUT structure (D3d9types.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The query sequence number. At the start of the session, generate a cryptographic
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

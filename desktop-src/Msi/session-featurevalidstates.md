@@ -1,5 +1,5 @@
 ---
-Description: The FeatureValidStates property of the Session object returns an integer representing bit flags with each relevant bit representing a valid installation state for the specified feature.
+description: The FeatureValidStates property of the Session object returns an integer representing bit flags with each relevant bit representing a valid installation state for the specified feature.
 ms.assetid: 8a1f6911-b0a6-4fac-ba77-df4f1b7d15e2
 title: Session.FeatureValidStates property
 ms.topic: reference
@@ -58,7 +58,7 @@ If the property fails, you can obtain extended error information by using the [*
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

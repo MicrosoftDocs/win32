@@ -1,5 +1,5 @@
 ---
-Description: Represents the status of the optional features that are present on the operating system.
+description: Represents the status of the optional features that are present on the operating system.
 ms.assetid: 3ac0c227-dfe1-4f33-b3d1-bcd1309c3635
 ms.tgt_platform: multiple
 title: Win32_OptionalFeature class
@@ -20,21 +20,7 @@ api_type:
 - DllExport
 api_location: 
 - CIMWin32.dll
-topic_type: 
-- APIRef
-- kbSyntax
-api_name: 
-- Win32_OptionalFeature
-- Win32_OptionalFeature.Description
-- Win32_OptionalFeature.InstallDate
-- Win32_OptionalFeature.Status
-- Win32_OptionalFeature.Caption
-- Win32_OptionalFeature.Name
-- Win32_OptionalFeature.InstallState
-api_type: 
-- DllExport
-api_location: 
-- CIMWin32.dll
+
 ---
 
 # Win32\_OptionalFeature class
@@ -293,7 +279,7 @@ Values include the following:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |

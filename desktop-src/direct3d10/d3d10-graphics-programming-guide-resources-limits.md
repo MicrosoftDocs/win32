@@ -1,5 +1,5 @@
 ---
-Description: This table contains a list of the minimum resources supported by Direct3D 10.
+description: This table contains a list of the minimum resources supported by Direct3D 10.
 ms.assetid: 79c13aed-87bd-4875-9810-c3e078f58753
 title: Resource Limits (Direct3D 10)
 ms.topic: article

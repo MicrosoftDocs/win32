@@ -1,5 +1,5 @@
 ---
-Description: The lighting engine combines material color, vertex color, and lighting information to generate a per-vertex color.
+description: The lighting engine combines material color, vertex color, and lighting information to generate a per-vertex color.
 ms.assetid: 1e7c31cb-dc63-4f4a-9ddc-d1d1d0b69085
 title: Alpha Texture Blending (Direct3D 9)
 ms.topic: article

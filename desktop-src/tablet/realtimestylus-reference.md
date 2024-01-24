@@ -1,5 +1,5 @@
 ---
-Description: Provides access to the stylus events coming from pen or touch digitizers.
+description: Provides access to the stylus events coming from pen or touch digitizers.
 ms.assetid: a239b53c-7fc9-4211-962a-6cfbe0be4e4c
 title: RealTimeStylus Reference
 ms.topic: article

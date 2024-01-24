@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.Itag property"
 title: ColumnStream.Itag property 
 TOCTitle: 'Itag property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.Itag
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the itag of the column.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[ColumnStream class](dn334143\(v=exchg.10\).md)
+[ColumnStream class](./columnstream-class.md)
 
-[ColumnStream members](dn334190\(v=exchg.10\).md)
+[ColumnStream members](./columnstream-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

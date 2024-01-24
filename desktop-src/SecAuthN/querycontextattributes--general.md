@@ -1,5 +1,5 @@
 ---
-Description: Enables a transport application to query a [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
+description: Enables a transport application to query a [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
 ms.assetid: 67bc087f-7519-4c8a-9b34-b3ecd306a334
 title: QueryContextAttributes (General) function (Sspi.h)
 ms.topic: reference
@@ -12,8 +12,6 @@ Enables a transport application to query a [*security package*](../secgloss/s-gl
 
 For information about using this function with a specific [*security support provider*](../secgloss/s-gly.md) (SSP), see the following topics.
 
-
-
 | Topic                                                                            | Description                                                                                                                                          |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md)     | Enables a transport application to query the Credential Security Support Provider (CredSSP) for certain attributes of a [*security context*](../secgloss/s-gly.md).<br/> |
@@ -23,12 +21,7 @@ For information about using this function with a specific [*security support pro
 | [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md)           | Enables a transport application to query the NTLM security package for certain attributes of a [*security context*](../secgloss/s-gly.md).<br/>                          |
 | [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md)   | Enables a transport application to query the Schannel security package for certain attributes of a [*security context*](../secgloss/s-gly.md).<br/>                      |
 
-
-
- 
-
 ## Syntax
-
 
 ```C++
 SECURITY_STATUS SEC_ENTRY QueryContextAttributes(
@@ -37,8 +30,6 @@ SECURITY_STATUS SEC_ENTRY QueryContextAttributes(
   _Out_ PVOID       pBuffer
 );
 ```
-
-
 
 ## Parameters
 
@@ -55,8 +46,6 @@ A handle to the [*security context*](../secgloss/s-gly.md) to be queried.
 </dt> <dd>
 
 Specifies the attribute of the context to be returned. This parameter can be one of the following values.
-
-
 
 | Value                                                                                                                                                                                                                                                                                                   | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,7 +66,7 @@ Specifies the attribute of the context to be returned. This parameter can be one
 | <span id="SECPKG_ATTR_LOCAL_CERT_CONTEXT"></span><span id="secpkg_attr_local_cert_context"></span><dl> <dt>**SECPKG\_ATTR\_LOCAL\_CERT\_CONTEXT**</dt> <dt>0x54</dt> </dl>                           | The *pBuffer* parameter contains a pointer to a [**PCCERT\_CONTEXT**](/windows/win32/api/wincrypt/ns-wincrypt-cert_context)structure.<br/> Finds a certificate context that contains a local end certificate.<br/> This attribute is supported only by the Schannel [*security package*](../secgloss/s-gly.md).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | <span id="SECPKG_ATTR_LOCAL_CRED"></span><span id="secpkg_attr_local_cred"></span><dl> <dt>**SECPKG\_ATTR\_LOCAL\_CRED**</dt> </dl>                                                                                                              | The *pBuffer* parameter contains a pointer to a **SecPkgContext\_LocalCredentialInfo** structure. (obsolete)<br/> Superseded by SECPKG\_ATTR\_LOCAL\_CERT\_CONTEXT.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <span id="SECPKG_ATTR_NAMES"></span><span id="secpkg_attr_names"></span><dl> <dt>**SECPKG\_ATTR\_NAMES**</dt> <dt>1</dt> </dl>                                                                       | The *pBuffer* parameter contains a pointer to a [**SecPkgContext\_Names**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_namesa) structure.<br/> Queries the name associated with the context.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| <span id="SECPKG_ATTR_NATIVE_NAMES"></span><span id="secpkg_attr_native_names"></span><dl> <dt>**SECPKG\_ATTR\_NATIVE\_NAMES**</dt> <dt>13</dt> </dl>                                                | The *pBuffer* parameter contains a pointer to a [**SecPkgContext\_NativeNames**](https://docs.microsoft.com/windows/win32/api/sspi/ns-sspi-_secpkgcontext_nativenamesa) structure.<br/> Returns the principal name (CNAME) from the outbound ticket.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| <span id="SECPKG_ATTR_NATIVE_NAMES"></span><span id="secpkg_attr_native_names"></span><dl> <dt>**SECPKG\_ATTR\_NATIVE\_NAMES**</dt> <dt>13</dt> </dl>                                                | The *pBuffer* parameter contains a pointer to a [**SecPkgContext\_NativeNames**](/windows/win32/api/sspi/ns-sspi-_secpkgcontext_nativenamesa) structure.<br/> Returns the principal name (CNAME) from the outbound ticket.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | <span id="SECPKG_ATTR_NEGOTIATION_INFO"></span><span id="secpkg_attr_negotiation_info"></span><dl> <dt>**SECPKG\_ATTR\_NEGOTIATION\_INFO**</dt> <dt>12</dt> </dl>                                    | The *pBuffer* parameter contains a pointer to a [**SecPkgContext\_NegotiationInfo**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_negotiationinfoa) structure.<br/> Returns information about the [*security package*](../secgloss/s-gly.md) to be used with the negotiation process and the current state of the negotiation for the use of that package.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | <span id="SECPKG_ATTR_PACKAGE_INFO"></span><span id="secpkg_attr_package_info"></span><dl> <dt>**SECPKG\_ATTR\_PACKAGE\_INFO**</dt> <dt>10</dt> </dl>                                                | The *pBuffer* parameter contains a pointer to a [**SecPkgContext\_PackageInfo**](/windows/win32/api/sspi/ns-sspi-secpkginfoa) structure.<br/> Returns information on the SSP in use.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | <span id="SECPKG_ATTR_PASSWORD_EXPIRY"></span><span id="secpkg_attr_password_expiry"></span><dl> <dt>**SECPKG\_ATTR\_PASSWORD\_EXPIRY**</dt> <dt>8</dt> </dl>                                        | The *pBuffer* parameter contains a pointer to a [**SecPkgContext\_PasswordExpiry**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_passwordexpiry) structure.<br/> Returns password expiration information.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -121,7 +110,7 @@ After the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT or SECPKG\_ATTR\_LOCAL\_CERT\_CONT
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
@@ -130,48 +119,30 @@ After the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT or SECPKG\_ATTR\_LOCAL\_CERT\_CONT
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 | Unicode and ANSI names<br/>   | **QueryContextAttributesW** (Unicode) and **QueryContextAttributesA** (ANSI)<br/>                |
 
-
-
 ## See also
 
-<dl> <dt>
-
 [SSPI Functions](authentication-functions.md#sspi-functions)
-</dt> <dt>
 
-[**CERT\_CONTEXT**](/windows/win32/api/wincrypt/ns-wincrypt-cert_context)
-</dt> <dt>
+[Supporting Extended Protection for Authentication (EPA) in a service](epa-support-in-service.md)
 
-[**FreeContextBuffer**](/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
-</dt> <dt>
+[CERT\_CONTEXT](/windows/win32/api/wincrypt/ns-wincrypt-cert_context)
 
-[**SecPkgContext\_Authority**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_authoritya)
-</dt> <dt>
+[FreeContextBuffer](/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
 
-[**SecPkgContext\_ConnectionInfo**](/windows/win32/api/schannel/ns-schannel-secpkgcontext_connectioninfo)
-</dt> <dt>
+[SecPkgContext\_Authority](/windows/win32/api/sspi/ns-sspi-secpkgcontext_authoritya)
 
-[**SecPkgContext\_DceInfo**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_dceinfo)
-</dt> <dt>
+[SecPkgContext\_ConnectionInfo](/windows/win32/api/schannel/ns-schannel-secpkgcontext_connectioninfo)
 
-[**SecPkgContext\_IssuerListInfoEx**](/windows/win32/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex)
-</dt> <dt>
+[SecPkgContext\_DceInfo](/windows/win32/api/sspi/ns-sspi-secpkgcontext_dceinfo)
 
-[**SecPkgContext\_KeyInfo**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_keyinfoa)
-</dt> <dt>
+[SecPkgContext\_IssuerListInfoEx](/windows/win32/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex)
 
-[**SecPkgContext\_Lifespan**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_lifespan)
-</dt> <dt>
+[SecPkgContext\_KeyInfo](/windows/win32/api/sspi/ns-sspi-secpkgcontext_keyinfoa)
 
-[**SecPkgContext\_Names**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_namesa)
-</dt> <dt>
+[SecPkgContext\_Lifespan](/windows/win32/api/sspi/ns-sspi-secpkgcontext_lifespan)
 
-[**SecPkgContext\_Sizes**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_sizes)
-</dt> <dt>
+[SecPkgContext\_Names](/windows/win32/api/sspi/ns-sspi-secpkgcontext_namesa)
 
-[**SecPkgContext\_StreamSizes**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_streamsizes)
-</dt> </dl>
+[SecPkgContext\_Sizes](/windows/win32/api/sspi/ns-sspi-secpkgcontext_sizes)
 
- 
-
- 
+[SecPkgContext\_StreamSizes](/windows/win32/api/sspi/ns-sspi-secpkgcontext_streamsizes)

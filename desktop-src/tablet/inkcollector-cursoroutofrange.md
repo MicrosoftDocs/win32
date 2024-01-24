@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.
+description: InkCollector.CursorOutOfRange event - Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.
 ms.assetid: a3a570ed-570b-4579-b120-ed5457630bc2
 title: InkCollector.CursorOutOfRange event (Msinkaut.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ The **CursorOutOfRange** event is fired even when in select or erase mode, not j
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

@@ -1,6 +1,6 @@
 ---
 title: Providing Display Attributes
-description: Text Services Framework (TSF) enables a text service to provide display attributes for text.
+description: Learn how to provide display attributes. Text Services Framework (TSF) enables a text service to provide display attributes for text.
 ms.assetid: 5809f5b8-0396-4abd-b5fe-61ecc8cd0914
 keywords:
 - Text Services Framework (TSF),display attributes

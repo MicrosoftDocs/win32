@@ -1,5 +1,5 @@
 ---
-Description: Serves as the parent class for the \_\_Win32Provider system class.
+description: Serves as the parent class for the \_\_Win32Provider system class.
 ms.assetid: e4cad7c6-4650-4334-b8c4-ac65381bced7
 ms.tgt_platform: multiple
 title: '__Provider class'
@@ -77,7 +77,7 @@ Providers create [**\_\_Win32Provider**](--win32provider.md) instances to specif
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

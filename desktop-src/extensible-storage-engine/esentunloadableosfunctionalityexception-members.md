@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnloadableOSFunctionalityException members"
 title: EsentUnloadableOSFunctionalityException members
 TOCTitle: EsentUnloadableOSFunctionalityException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.UnloadableOSFunctionality exceptions.
 
-The [EsentUnloadableOSFunctionalityException](dn350835\(v=exchg.10\).md) type exposes the following members.
+The [EsentUnloadableOSFunctionalityException](./esentunloadableosfunctionalityexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentUnloadableOSFunctionalityException class](dn350835\(v=exchg.10\).md)
+[EsentUnloadableOSFunctionalityException class](./esentunloadableosfunctionalityexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Loads a surface from a resource.
+description: Loads a surface from a resource.
 ms.assetid: 16d49f61-8c84-4e15-aacc-1d26099e65e0
 title: D3DXLoadSurfaceFromResource function (D3dx9tex.h)
 ms.topic: reference
@@ -64,9 +64,9 @@ Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry
 *pDestRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. Specifies the destination rectangle. Set this parameter to **NULL** to specify the entire surface.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. Specifies the destination rectangle. Set this parameter to **NULL** to specify the entire surface.
 
 </dd> <dt>
 
@@ -91,9 +91,9 @@ Pointer to a string that specifies the resource name. If the compiler settings r
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
 
 </dd> <dt>
 
@@ -144,7 +144,7 @@ Writing to a non-level-zero surface will not cause the dirty rectangle to be upd
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

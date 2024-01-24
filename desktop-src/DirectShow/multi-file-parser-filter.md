@@ -1,12 +1,15 @@
 ---
-Description: Multi-File Parser Filter
+description: Multi-File Parser Filter
 ms.assetid: 8ef06f49-fda4-49e2-9b07-70453a2e897c
 title: Multi-File Parser Filter
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Multi-File Parser Filter
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Multi-File Parser filter parses a simple file format that enables multiple file names to be specified as though they were one file. These files have the format shown in the following example:
 
@@ -23,58 +26,19 @@ The use of this filter is deprecated. To render multiple files within the same f
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Filter interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></td>
-</tr>
-<tr class="even">
-<td>Input pin media types</td>
-<td><ul>
-<li>Major type: MEDIATYPE_Stream</li>
-<li>Subtype: CLSID_MultFile</li>
-<li>Format type: GUID_NULL</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Input pin interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Output pin media types</td>
-<td><ul>
-<li>Major type: MEDIATYPE_File</li>
-<li>Subtype: GUID_NULL</li>
-<li>Format type: MEDIATYPE_File</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Output pin interfaces</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Filter CLSID</td>
-<td>CLSID_MultFile</td>
-</tr>
-<tr class="odd">
-<td>Executable</td>
-<td>Quartz.dll</td>
-</tr>
-<tr class="even">
-<td><a href="merit.md">Merit</a></td>
-<td>MERIT_UNLIKELY</td>
-</tr>
-<tr class="odd">
-<td><a href="filter-categories.md">Filter Category</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| Filter interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a> | 
+| Input pin media types | <ul><li>Major type: MEDIATYPE_Stream</li><li>Subtype: CLSID_MultFile</li><li>Format type: GUID_NULL</li></ul> | 
+| Input pin interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Output pin media types | <ul><li>Major type: MEDIATYPE_File</li><li>Subtype: GUID_NULL</li><li>Format type: MEDIATYPE_File</li></ul> | 
+| Output pin interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Filter CLSID | CLSID_MultFile | 
+| Executable | Quartz.dll | 
+| <a href="merit.md">Merit</a> | MERIT_UNLIKELY | 
+| <a href="filter-categories.md">Filter Category</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

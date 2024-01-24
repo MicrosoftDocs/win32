@@ -1,5 +1,5 @@
 ---
-Description: The ProvideComponent method of the Installer object returns the full component path and performs any necessary installation.
+description: The ProvideComponent method of the Installer object returns the full component path and performs any necessary installation.
 ms.assetid: 2bf09515-6f65-4712-89c1-01c43c1ce27c
 title: Installer.ProvideComponent method
 ms.topic: reference
@@ -95,7 +95,7 @@ The msiInstallModeExisting option cannot be used in combination with msiReinstal
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the replication statistics that are associated with the specified replication relationship of the virtual machine.
+description: Retrieves the replication statistics that are associated with the specified replication relationship of the virtual machine.
 ms.assetid: AB46894A-CBED-40DF-86B9-B578603B0341
 title: Msvm_ReplicationService::GetReplicationStatisticsEx method
 ms.topic: reference
@@ -125,7 +125,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

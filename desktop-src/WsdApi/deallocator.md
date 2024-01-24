@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of deallocator to be used by a stub function.
+description: Specifies the type of deallocator to be used by a stub function.
 ms.assetid: 58228dfd-1d4b-41e5-b423-a54525021c22
 title: deallocator element
 ms.topic: reference
@@ -36,7 +36,7 @@ There are no child elements.
 
 ## Remarks
 
-The deallocator type should be enclosed in a pair of <deallocator></deallocator> tags. The following strings are valid deallocator values:
+The deallocator type should be enclosed in a pair of &lt;deallocator&gt;</deallocator> tags. The following strings are valid deallocator values:
 
 -   none
 -   WSDFreeLinkedMemory
@@ -50,7 +50,7 @@ The deallocator type should be enclosed in a pair of <deallocator></deallocator>
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

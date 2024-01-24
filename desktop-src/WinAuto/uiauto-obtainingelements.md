@@ -17,24 +17,14 @@ keywords:
 - search scope
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: project-verbatim
 ---
 
 # Obtaining UI Automation Elements
 
-This topic describes various ways to obtain [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) interfaces for UI elements. It contains the following sections:
+This topic describes various ways to obtain [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) interfaces for UI elements.
 
--   [Root Element](#root-element)
--   [Conditions](#conditions)
--   [Search Scope](#search-scope)
--   [Finding a Known Element](#finding-a-known-element)
--   [Finding Elements in a Subtree](#finding-elements-in-a-subtree)
--   [Walking a Subtree](#walking-a-subtree)
--   [Other Ways to Retrieve an Element](#other-ways-to-retrieve-an-element)
-    -   [From an Event](#from-an-event)
-    -   [From a Point](#from-a-point)
-    -   [From a Window Handle](#from-a-window-handle)
-    -   [From the Focused Control](#from-the-focused-control)
--   [Related topics](#related-topics)
+**IUIAutomationElement** is used in the [UI Automation document content client sample app](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/UIAutomationDocumentClient).
 
 ## Root Element
 
@@ -76,7 +66,7 @@ To find a known element that is identified by name, automation ID, or some other
 
 This way of finding UI Automation elements is most useful in automated testing scenarios.
 
-For a code example that shows how to find a know element, see [Finding an Element by Name](uiauto-howto-find-ui-elements.md).
+For a code example that shows how to find a known element, see [Finding an Element by Name](uiauto-howto-find-ui-elements.md).
 
 ## Finding Elements in a Subtree
 
@@ -132,14 +122,6 @@ To retrieve an [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClien
 
 ## Related topics
 
-<dl> <dt>
-
-
-</dt> <dt>
-
 [UI Automation Tree Overview](uiauto-treeoverview.md)
-</dt> </dl>
 
- 
-
- 
+[UI Automation document content client sample app](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/UIAutomationDocumentClient)

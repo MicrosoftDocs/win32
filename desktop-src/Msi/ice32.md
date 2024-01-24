@@ -1,5 +1,5 @@
 ---
-Description: ICE32 validates that keys and foreign keys in the .msi file are of the same size and column definition types.
+description: ICE32 validates that keys and foreign keys in the .msi file are of the same size and column definition types.
 ms.assetid: cc488ec5-e17a-4829-9763-38ba3c33bfde
 title: ICE32
 ms.topic: article

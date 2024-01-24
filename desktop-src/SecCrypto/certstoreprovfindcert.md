@@ -1,5 +1,5 @@
 ---
-Description: Enumerates or finds the first or next certificate in an external store that matches specified criteria.
+description: Enumerates or finds the first or next certificate in an external store that matches specified criteria.
 ms.assetid: 1129a372-4d7c-454e-969b-26a1d6037bc0
 title: CertStoreProvFindCert callback function
 ms.topic: reference
@@ -88,7 +88,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

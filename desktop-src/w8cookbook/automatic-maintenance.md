@@ -73,7 +73,7 @@ This section details how developers can create a task using a task definition in
 Task Scheduler includes a built-in command-line tool, schtasks.exe, that can import a task definition in XML format. The schema for task definition is documented at https://msdn.microsoft.com/library/aa383609(v=VS.85).aspx. Below is an example of an Automatic Maintenance task defined in XML.
 
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-16"?>
 <Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
@@ -127,7 +127,7 @@ To save the task on a Windows computer, save the above XML as a text file and us
 An Automatic Maintenance task also can be created using C code. Below is a code sample that can be used to configure a task’s Automatic Maintenance settings:
 
 
-```
+```C
 /********************************************************************
 This sample creates a maintenance task to start cmd window during maintenance opportunities with periodicity of 2 days and deadline 0f 14 days.
 ********************************************************************/
@@ -323,7 +323,7 @@ MainteanceTask( )
     }
 
     //  ------------------------------------------------------
-    //  Add an action to the task. This task will execute notepad.exe.     
+    //  Add an action to the task. This task will execute cmd.exe.     
     //  Get the task action collection pointer.
     hr = pTask->get_Actions( &pActionCollection );
     if( FAILED(hr) )
@@ -348,7 +348,7 @@ MainteanceTask( )
         goto CleanUp;
     }
 
-    //  Set the path of the executable to notepad.exe.
+    //  Set the path of the executable to cmd.exe.
     hr = pExecAction->put_Path( _bstr_t(L"cmd") );
     if( FAILED(hr) )
     {

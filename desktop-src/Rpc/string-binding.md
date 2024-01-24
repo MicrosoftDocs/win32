@@ -181,7 +181,7 @@ For more information about security options, [Security](security.md).
 
 White space is not allowed in string bindings except where required by the *Option* syntax. Default settings for the *NetworkAddress*, *Endpoint*, and *Option* fields vary according to the value of the *ProtocolSequence* member.
 
-For all string-binding fields, a single backslash character (\) is interpreted as an escape character. To specify a single literal backslash character, you must supply two backslash characters (\\\).
+For all string-binding fields, a single backslash character (\\) is interpreted as an escape character. To specify a single literal backslash character, you must supply two backslash characters (\\\\).
 
 A string binding contains the character representation of a binding handle and occasionally portions of a binding handle. String bindings are convenient for representing portions of a binding handle, but they can't be used for making remote procedure calls. They must first be converted to a binding handle by calling [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding).
 

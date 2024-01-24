@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used with fonts and text.
+description: The following structures are used with fonts and text.
 ms.assetid: 93726d5c-d4ed-4681-bf45-cb899f195b5d
 title: Font and Text Structures
 ms.topic: article
@@ -37,7 +37,7 @@ The following structures are used with fonts and text.
 [**POINTFX**](/windows/win32/api/wingdi/ns-wingdi-pointfx)  
 [**POLYTEXT**](/windows/win32/api/wingdi/ns-wingdi-polytexta)  
 [**RASTERIZER\_STATUS**](/windows/desktop/api/Wingdi/ns-wingdi-rasterizer_status)  
-[**SIZE**](/previous-versions//dd145106(v=vs.85))  
+[**SIZE**](/windows/win32/api/windef/ns-windef-size)  
 [**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica)  
 [**TTPOLYCURVE**](/windows/win32/api/wingdi/ns-wingdi-ttpolycurve)  
 [**TTPOLYGONHEADER**](/windows/win32/api/wingdi/ns-wingdi-ttpolygonheader)  

@@ -1,5 +1,5 @@
 ---
-Description: Installs an enrolled certificate from a Personal Information Exchange (PFX) file to the certificate store.
+description: Installs an enrolled certificate from a Personal Information Exchange (PFX) file to the certificate store.
 ms.assetid: f42379d0-b80e-4d95-ab34-9bb35fde06fd
 title: installResponseFromPFX
 ms.topic: article

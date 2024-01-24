@@ -1,5 +1,5 @@
 ---
-Description: Modifies virtual machine settings.
+description: Modifies virtual machine settings.
 ms.assetid: 3266bd0d-398b-4d3b-9248-e29c069aab11
 title: ModifySystemSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -92,7 +92,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

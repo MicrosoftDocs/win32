@@ -1,0 +1,448 @@
+### YamlMime:FAQ
+metadata:
+  title: Direct3D 10 Frequently Asked Questions
+  description: This article contains some of the frequently asked questions surrounding Direct3D 10 from the point of view of a developer who is porting an existing application from Direct3D 9 (D3D9) to Direct3D 10 (D3D10).
+  ms.assetid: da3022ca-b120-d0d7-6747-65b946dbc73c
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: Direct3D 10 Frequently Asked Questions
+summary: |
+  This article contains some of the frequently asked questions surrounding Direct3D 10 from the point of view of a developer who is porting an existing application from Direct3D 9 (D3D9) to Direct3D 10 (D3D10).
+  
+  
+
+sections:
+  - name: Constant Buffers
+    questions:
+      - question: What is the best way to update constant buffers?
+        answer: UpdateSubresource and Map with Discard should be about the same speed. Choose between them depending on which one copies the least amount of memory. If you already have your data stored in memory in one contiguous block, use UpdateSubresource. If you need to accumulate data from other places, use Map with Discard.
+
+      - question: What is the worst way to organize constant buffers?
+        answer: |
+          The worst performance is realized by putting all constants for a particular shader into one constant buffer. While this often is the easiest way to port from D3D9 to D3D10, it can impede performance. For example, consider a scenario that uses the following constant buffer:
+          
+          ``` syntax
+          cbuffer VSGlobalsCB
+          {
+              matrix  ViewProj;
+              matrix  Bones[100];
+              matrix  World;
+              float   SpecPower;
+              float4  BDRFCoefficients;
+              float   AppTime;
+              uint2   RenderTargetSize;
+          };
+          ```
+          
+          The buffer is 6560 bytes. Assume there is an application with 1000 objects to be rendered, 100 of which are skinned meshes, and 900 of which are static meshes. Also, assume that this application is using shadow mapping with one light source. This means there are two passes, one for the depth map rendered from the light, and one for the forward rendering pass. This results in 2000 draw calls. Although each draw call does not NEED to update every part of the constant buffer, the entire constant buffer still is updated and sent to the card. This results in the update of 13 MB of data every frame (2000 draw calls times 6560 KB).
+          
+          
+      - question: What is the best way to organize my constant buffers?
+        answer: |
+          The best way is to organize constant buffers by frequency of update. Constants that are updated at similar frequencies should be in the same buffer. For example, consider the scenario presented under, "What is the worst way to organize constant buffers?," but with a better constant layout:
+          
+          ``` syntax
+          cbuffer VSGlobalPerFrameCB
+            { 
+              float   AppTime; 
+            };
+          cbuffer VSPerSkinnedCB
+            { 
+              matrix  Bones[100]; 
+            };
+          cbuffer VSPerStaticCB
+            {
+              matrix  World;
+            };
+          cbuffer VSPerPassCB
+            {
+              matrix  ViewProj;
+              uint2   RenderTargetSize;
+            };
+          cbuffer VSPerMaterialCB
+            {
+              float   SpecPower;
+              float4  BDRFCoefficients;
+            };    
+          ```
+          
+          Constant buffers are split by their update frequency, but this only is half of the solution. The application needs to update the constant buffers correctly in order to take full advantage of the split. We will assume the same scene as above: 900 static meshes, 100 skinned meshes, one light pass, and one forward pass. We also will assume that some constant buffers per-object will be stored. This means that each object will contain either a VSPerSkinnedCB or a VSPerStaticCB, depending on whether or not it is skinned or static. We do this in order to avoid doubling the amount of matrices sent through the pipeline.
+          
+          We split the frame into three phases. The first phase is the beginning of the frame and involves no rendering, just constant updates.
+          
+          
+          
+          **Begin Frame**
+          
+          
+          -   Update VSGlobalPerFrameCB for application time (4 bytes)
+          -   Update 100 VSPerSkinnedCB for the 100 skinned objects (640000 bytes)
+          -   Update VSPerStaticCB for 900 static objects (57600 bytes)
+          
+          Next is the shadow map pass. Notice that the only constant buffer that actually updates is VSPerPassCB. All other constant buffers were updated during the begin frame pass. While we still need to bind these constant buffers, the amount of information passed to the video card is minimal, because the buffers already have been updated.
+          
+          
+          **Shadow Pass**
+          
+          
+          -   Update VSPerPassCB (72 bytes)
+          -   Draw 100 skinned meshes (100 binds, no updates)
+          -   Draw 900 static meshes (100 binds, no updates)
+          
+          Similarly, the forward rendering pass only needs to update per-material data, because it was not stored per-mesh. If we assume that there are 500 materials in use in the scene:
+          
+          
+          **Forward Pass**
+          
+          
+          -   Update VSPerPassCB (72 bytes)
+          -   Update 500 VSPerMaterialCBs (10000 bytes)
+          
+          This results in a total of just 707 KB. Although this is a very contrived scenario, it illustrates just how much constant update overhead can be reduced by sorting constants by frequency of update.
+          
+           
+      - question: What if I do not have enough space to store individual constant buffers for my meshes, material, and so on? 
+        answer: |
+          You always can use a tiered system of constant buffers. Create variable-sized constant buffers (16 bytes, 32 bytes, 64 bytes, and so on) up to the largest constant buffer size needed. When it is time to bind a constant buffer to a shader, select the smallest constant buffer that can hold the data needed by the shader. Although this approach is slightly less efficient, it is a good intermediate step.
+          
+          
+      - question: I am sharing constant buffers between different shaders. One shader may use all of the constants, but another may use some of the constants. What is the best way to update these? 
+        answer: |
+          One approach is to split the constant buffer even further. However, there comes a point at which too many constant buffers are bound. In this case, move the constants that are likely to be unused by several shaders to the end of the constant buffer. When getting the variable data from the shader, use the D3D10\_SVF\_USED flag from the D3D10\_SHADER\_VARIABLE\_DESC to determine if the variable is used. By placing unused variables at the end of the constant buffer, you can bind a smaller buffer to the shader that does not use these variables, thus saving the update cost.
+          
+          
+      - question: How much can I improve my frame rate if I only upload my character's bones once per frame instead of once per pass/draw? 
+        answer: |
+          You can improve frame rate between 8 percent and 50 percent depending on the amount of redundant data. In the worst case, performance will not be reduced.
+          
+          
+      - question: How many constant buffers should I have bound at once? 
+        answer: |
+          Bind the minimum number of constant buffers it takes to get all of your data into the shader. In a realistic scenario, five is the recommended number of constant buffers to use. Sharing constant buffers between shaders (binding the same CB to the VS and PS) also can improve performance.
+          
+          
+      - question: Is there a cost for binding constant buffers without using them? 
+        answer: |
+          Yes, if you are not actually going to use the buffer, then do not call VSSetConsantBuffer or PSSetConstantBuffer. This extra API overhead can add up over the course of multiple draw calls.
+          
+          
+          
+  - name: State
+    questions:
+      - question: What is the best way to manage state in D3D10? 
+        answer: |
+          The best solution is to know all of your state up front and to create the state objects up front. This means that at render time, state binding is the only operation that needs to happen. D3D10 also filter outs duplicates.
+          
+          
+      - question: My game has dynamically loaded or has user-generated content. I cannot load all of my state objects up front. What should I do? 
+        answer: |
+          There are two solutions here. The first is to just create state objects on the fly and to let D3D10 filter out duplicates. This, however, is not recommended for scenarios with many state object changes per frame. A better solution is to hash the state objects yourself and to create a state object only if one that fits the requirements is not found in the hash table. The reasoning behind using a custom hash table is that an application can select a fast hash based upon the usage scenario particular to that application. For example, if an application only changes the rendertargetwritemask in the BlendState and keeps all other values the same, the application can generate a hash from the rendertargetwritemask instead of the entire structure.
+          
+          
+      - question: AlphaTest state is gone. Where did it go? 
+        answer: |
+          AlphaTest now should be performance in the shader. See the FixedFuncEMU sample.
+          
+          
+      - question: What happened to user clip planes? 
+        answer: |
+          User clip planes have moved into the shader. There are two ways to handle this. The first is to output SV\_ClipDistance from the vertex shader or the geometry shader. The other option is to use discard in the pixel shader based upon some value passed down by the vertex shader or the geometry shader. Experiment with both to see which is faster for your particular scenario. Using SV\_ClipDistance could cause the hardware to use a geometry-based clipping routine that may cause geometry bound draw calls to run slower. Likewise, using discard shifts the work to the pixel shader, which may cause pixel-bound draw calls to run slower.
+          
+          
+      - question: Clears do not respect any state settings, such as my scissor rect settings in my Rasterizer State. 
+        answer: |
+          Clears have been separated from the pipeline state. In order to get D3D9-style behavior, emulate clears by drawing a full-screen quad.
+          
+          
+      - question: I set my states back to default to try and diagnose a rendering error. Now my screen just shows black, although I know I am drawing objects onto the screen. 
+        answer: |
+          When setting state back to default values (NULL), ensure that the SampleMask in the call to OMSetBlendState is never zero. If SampleMask is set to zero, then all samples will logically AND with zero. In this scenario, no samples will pass the blend test.
+          
+          
+      - question: Where did the D3DSAMP\SRGBTEXTURE state go? 
+        answer: |
+          SRGB was removed as part of the sampler state and now is tied to the texture format. Binding an SRGB texture will result in the same sampling you would get if you specified D3DSAMP\_SRGBTEXTURE in Direct3D 9.
+          
+          
+          
+  - name: Formats
+    questions:
+      - question: Which D3D9 format corresponds to which D3D10 format? 
+        answer: |
+          For info, see [Direct3D 9 to Direct3D 10 Considerations](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-d3d9-to-d3d10-considerations).
+          
+          
+      - question: What happened to A8R8G8B8 texture formats? 
+        answer: |
+          They have been deprecated in D3D10. You can re-source your textures as R8G8B8A8, or you can swizzle on load, or you can swizzle in the shader.
+          
+          
+      - question: How do I use palettized textures? 
+        answer: |
+          Place your color palette in a texture or a constant buffer and bind it to the pipeline. In the pixel shader do an indirect lookup using the index in your palettized texture.
+          
+          
+      - question: What are these new SRGB formats? 
+        answer: |
+          SRGB was removed as part of the sampler state and is now tied to the texture format. Binding an SRGB texture will result in the same sampling you would get if you specified D3DSAMP\_SRGBTEXTURE in Direct3D 9.
+          
+          
+      - question: Where did triangle fans go? 
+        answer: |
+          Triangle fans have been deprecated in D3D10. Triangle fans will need to be converted either in the content pipeline or on load.
+          
+          
+          
+  - name: Shader Linkage
+    questions:
+      - question: My Direct3D 9 shaders compile fine to Shader Model 4.0, but when I bind them to the pipeline, I get linkage errors showing up in the debug output with the debug runtime. 
+        answer: |
+          Shader linkage is much stricter in D3D10. Elements in a subsequent stage must be read in the order they are output from the previous stage. For example:
+          
+          A vertex shader outputs:
+          
+          ``` syntax
+              float4 Pos  : SV_POSITION;
+              float3 Norm : NORMAL;
+              float2 Tex  : TEXCOORD0;
+          ```
+          
+          A pixel shader reads in:
+          
+          ``` syntax
+                  float3 Norm : NORMAL;
+                  float2 Tex  : TEXCOORD0;
+          ```
+          
+          Although the position is not needed in the pixel shader, this will cause a linkage error, because position is being output from the vertex shader, but not read by the pixel shader. The more correct version would look like this:
+          
+          A vertex shader outputs:
+          
+          ``` syntax
+                  float3 Norm : NORMAL;
+                  float2 Tex  : TEXCOORD0;
+                  float4 Pos  : SV_POSITION;
+          ```
+          
+          A pixel shader reads in:
+          
+          ``` syntax
+                  float3 Norm : NORMAL;
+                  float2 Tex  : TEXCOORD0;
+          ```
+          
+          In this case, the vertex shader is outputting the same information, but now the pixel shader is reading things in the order output. Because the pixel shader is not reading anything after Tex, we do not have to worry that the VS is outputting more information than the PS is reading.
+          
+          
+      - question: I need a shader signature in order to create an Input Layout, but I load my meshes and create layouts before creating shaders. What do I do? 
+        answer: |
+          One solution is to switch the order and load shaders before loading meshes. However, this is much easier said than done. You always can create the Input Layouts on demand when needed by the application. You will have to keep a version of the shader signature around. You should create a hash based off of the shader and buffer layout, and only create the Input Layout if one that matches does not exist already.
+          
+          
+          
+  - name: Draw Calls
+    questions:
+      - question: What is my limit on draw calls for D3D10 to reach 60 Hz? 30 Hz? 
+        answer: |
+          Direct3D 9 had a limitation on the number of draw calls because of the CPU cost per draw call. On Direct3D 10, the cost of each draw call has been reduced. However, there is no longer a definite correlation between draw calls and frame rates. Because draw calls often require many support calls ( constant buffer updates, texture bindings, state setting, and so on) the frame rate impact of the API is now more dependent on the overall API usage as opposed to simply draw call counts.
+          
+          
+          
+  - name: Resources
+    questions:
+      - question: What resource usage type should I use for what operations? 
+        answer: |
+          Use the following cheat-sheet:
+          
+          -   The CPU updates the resource more than once per frame: D3D10\_USAGE\_DYNAMIC
+          -   The CPU updates the resource less than once per frame: D3D10\_USAGE\_DEFAULT
+          -   The CPU does not update the resource: D3D10\_USAGE\_IMMUTABLE
+          -   The CPU needs to read the resource: D3D10\_USAGE\_STAGING
+          
+          Because constant buffers are always meant to be update frequently, they do not conform to the "cheat-sheet." For which resource types to use for constant buffers, see the [Constant Buffers](/windows/win32/dxtecharts/direct3d10-frequently-asked-questions#constant-buffers) section.
+          
+          
+      - question: What happened to DrawPrimitiveUP and DrawIndexedPrimitiveUP? 
+        answer: |
+          They are gone in D3D10. For dynamic geometry use a large D3D10\_USAGE\_DYNAMIC buffer. At the beginning of the frame, map it with D3D10\_MAP\_WRITE\_DISCARD. For each subsequent draw call advance the write pointer past the position of the previously drawn vertices and map the buffer with D3D10\_MAP\_WRITE\_NO\_OVERWRITE. If you near the end of the buffer before the end of the frame, wrap the write pointer around to the beginning and map with D3D10\_MAP\_WRITE\_DISCARD.
+          
+          
+      - question: Can I write 16-bit indices and 32-bit indices into the same dynamic geometry buffer? 
+        answer: |
+          Yes, you can, but this can incur a performance penalty on certain hardware. It is a safer to create separate buffers for dynamic 16-bit index data and 32-bit index data.
+          
+          
+      - question: How do I read data back from the GPU to the CPU? 
+        answer: |
+          You must use a staging resource. Copy the data from the GPU resource to the staging resource using CopyResource. Map the staging resource to read the data.
+          
+          
+      - question: My application was dependent on StretchRect functionality. 
+        answer: |
+          Because this was essentially a wrapper for basic Direct3D functionality, it was removed from the API. Some of the StretchRect functionality was moved into D3DX10LoadTextureFromTexture. For format conversions and copying textures, D3DX10LoadTextureFromTexture may do the job. However, operations such as converting from one size to another likely will require a render to texture operation in the application.
+          
+          
+      - question: There are no offsets or sizes on Map calls for resources. These were there on Lock calls on Direct3D 9; why did they change? 
+        answer: |
+          The offsets and sizes on Lock calls on Direct3D 9 were basically API clutter and often ignored by the driver. Offsets should be calculated instead by the application from the pointer returned in the Map call.
+          
+          
+          
+  - name: Depth as Texture
+    questions:
+      - question: Which is faster? Using depth as a texture or writing depth to alpha and reading that? 
+        answer: |
+          This is application and hardware specific. Use whichever one saves the most bandwidth. If you already are using multiple render targets and have an extra channel, then writing depth from the shader may be a better solution. Also, writing depth to alpha or another render target allows you to write linear depth values that may speed up calculations that need to access the depth buffer.
+          
+          
+      - question: Can I have a texture bound as an input AND bound as a depth-stencil texture as long as I disable depth writes? 
+        answer: |
+          Not in D3D10.
+          
+          
+          
+  - name: MSAA
+    questions:
+      - question: Can I resolve an MSAA depth-stencil texture? 
+        answer: |
+          Not in D3D10. However, you can sample individual samples from the MSAA texture. See the [HLSL](/windows/win32/dxtecharts/direct3d10-frequently-asked-questions#hlsl) section for details.
+          
+          
+      - question: Why does my application crash as soon as I enable MSAA? 
+        answer: |
+          Ensure you are enabling an MSAA sample count and quality number that actually are enumerated by the driver.
+          
+          
+          
+  - name: Crashes
+    questions:
+      - question: My application crashes in D3D10 or in the driver and I do not know why. 
+        answer: |
+          The first step is to enable the debug runtime ([**D3D10\_CREATE\_DEVICE\_DEBUG**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) flag passed into [**D3D10CreateDevice**](/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)). This will expose the most common errors as debug output.
+          
+          
+      - question: PIX crashes when I try to use my application with it. 
+        answer: |
+          The first step is to enable the debug runtime ([**D3D10\_CREATE\_DEVICE\_DEBUG**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) flag passed into [**D3D10CreateDevice**](/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)). PIX has a much higher probability of crashing if the debug output is not clean.
+          
+          
+      - question: My game runs out of virtual address space on 32-bit Vista under D3D10. It does not have problems on D3D9. 
+        answer: |
+          There were some issues with D3D10 and virtual address space. This has been fixed in KB940105. If that does not fix your problem, ensure you are not creating more resources that can be mapped (locked) in D3D10 than you were creating in D3D9. Also think about porting to 64-bit since this will become more prevalent in the future.
+          
+          
+          
+  - name: Predicated Rendering
+    questions:
+      - question: I used Predicated rendering (based on occlusion query results). Why is my app still the same speed? 
+        answer: |
+          First, ensure that the rendering you would like to skip is actually the application bottleneck. If it is not the bottleneck, then skipping the rendering will not help frame rate.
+          
+          Second, make sure that enough time has passed between the issue of the query and rendering that you wish to predicate. If the query has not finished by the time the render call hits the GPU, the rendering will occur anyway.
+          
+          Third, predication only skips certain calls. The calls that are skipped are Draw, Clear, Copy, Update, ResolveSubresource and GenerateMips. State setting, IA setup, Map, and Create calls do not respect predication. If there are a lot of state setting calls around the draw call to be predicated, these states still will be set.
+          
+          
+          
+  - name: Geometry Shader
+    questions:
+      - question: Should I use the geometry shader to tessellate my (insert anything here)? 
+        answer: |
+          No. The geometry shader should NOT be used for tessellation.
+          
+          
+      - question: Can I use the geometry shader to create geometry? 
+        answer: |
+          Yes, in very limited scenarios. The geometry shader in current D3D10 (2008) parts is not equipped to handle much expansion. This may change in the future. Video card vendors may have a special path for one to four expansions because of existing point-sprite hardware. Any other expansion would have to be very limited. The ParticlesGS and PipesGS samples achieve high frame rates by only doing limited expansion. Only a few points are expanded per frame.
+          
+          
+      - question: What should I use the geometry shader for? 
+        answer: |
+          Anything that requires operations on an entire primitive such as silhouette detection, barycentric coordinates, and so on. Also use it to select which slice of a render target array to send primitives to.
+          
+          
+      - question: Can I output variable amounts of geometry from the geometry shader? 
+        answer: |
+          Yes, but this can cause performance issues. Take the example of outputting 1 point for one invocation and 4 points for another. While fitting within the expansion guidelines, this can cause the geometry shader threads to run serially.
+          
+          
+      - question: How does D3D10 know how to generate adjacency indices for my mesh? Or, why does D3D10 not render correctly when I specify that the geometry shader needs adjacency information. 
+        answer: |
+          The adjacency information is not created by D3D10, but by the application. Adjacency indices are generated by the application and must contain six indices per primitive; of the six, the odd numbered indices are the edge adjacent vertices. ID3DX10Mesh::GenerateAdjacencyAndPointsReps can be used to generate this data.
+          
+          
+          
+  - name: HLSL
+    questions:
+      - question: Are integer and bitwise instructions slow? 
+        answer: |
+          They can be. Various D3D10 cards may be able only to issue integer operations on a subset of the available ALU units. This is highly dependent on the hardware. See your individual hardware vendor for recommendations on how to address integer operations on that particular hardware. Also, be very careful of casts between types.
+          
+          
+      - question: What happened to VPOS? 
+        answer: |
+          If you declare an input to your pixel shader as SV\_POSITION, you will get the same behavior as declaring it as VPOS.
+          
+          
+      - question: How do I sample an MSAA texture? 
+        answer: |
+          In your shader, declare your texture as Texture2DMS. You then can fetch individual samples using the Sample methods off of the Texture2DMS object.
+          
+          
+      - question: How do I tell if a shader variable in a constant buffer actually is used? 
+        answer: |
+          Look at the reflected D3D10\_SHADER\_VARIABLE\_DESC struct for that variable. uFlags should have the D3D10\_SVF\_USED flag set.
+          
+          
+      - question: How do I tell if a shader variable in a constant buffer actually is using FX10? 
+        answer: |
+          This currently is not possible using FX10.
+          
+          
+      - question: I have no control over constant buffers that FX10 creates. How are they created and updated? 
+        answer: |
+          All FX10-managed constant buffers are created as D3D10\_USAGE\_DEFAULT resources and are updated using UpdateSubresource. Because FX10 keeps a backing store of all constant data, UpdateSubresource is the best approach for updating these.
+          
+          
+      - question: How do I emulate the fixed function pipeline using shaders? 
+        answer: |
+          See FixedFuncEMU sample.
+          
+          
+      - question: Should I use the new \[unroll\], \[loop\], \[branch\], and so on, compiler hints? 
+        answer: |
+          In general, no. The compiler will often try both ways and choose the fastest one. In some cases, it may be necessary to use \[unroll\], for example, when a texture fetch inside a loop needs access to a gradient.
+          
+          
+      - question: Does partial precision make any difference on D3D10? I can specify partial precision in my D3D9 HLSL, but not in my D3D10 HLSL. 
+        answer: |
+          All D3D10 operations are specified to run at 32-bit floating point precision. Therefore, partial precision should not make any difference in D3D10.
+          
+          
+      - question: In D3D9, I could do HW PCF shadow filtering by binding a depth buffer as a texture and using regular tex2d hlsl instructions. How do I do this on D3D10? 
+        answer: |
+          You have to use a comparison sampler state and use SampleCmp instructions.
+          
+          
+      - question: How does this register keyword work in D3D10? 
+        answer: |
+          The register keyword in D3D10 now applies to which slot a particular resource is bound to. In this case, the resource can be a Buffer (constant or otherwise), Texture, or Sampler.
+          
+          -   For constant buffers, use the syntax: register(bN), where N is the input slot (0-15)
+          -   For textures, use the syntax: register(tN), where N is the input slot (0-127)
+          -   For samplers, use the syntax: register(sN), where N is the input slot (0-127)
+          
+          
+      - question: How do I place a variable inside a constant buffer if register is just used to specify where to bind the entire buffer? 
+        answer: |
+          Use the packoffset keyword. The argument to packoffset is in the form of c\[0-4095\].\[x,y,z,w\]. For example:
+          
+          ``` syntax
+                  cbuffer cbLotsOfEmptySpace
+                  {
+                  float   IWaste2Floats   : packoffset(c0.z);
+                  float4  IWasteMore  : packoffset(c13);
+                  };
+          ```
+          
+          In this constant buffer, IWaste2Floats is placed at the third float (12th byte) in the constant buffer. IWasteMore is placed at the 13th float4 or 52nd float in the constant buffer.

@@ -1,5 +1,5 @@
 ---
-Description: Exports information that may help salvage encrypted data when the drive is severely damaged and no data backup files exist.
+description: Exports information that may help salvage encrypted data when the drive is severely damaged and no data backup files exist.
 ms.assetid: 3d376a02-3392-433e-b842-24c73074610c
 title: GetKeyPackage method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -90,7 +90,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

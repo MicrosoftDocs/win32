@@ -1,5 +1,5 @@
 ---
-Description: Writes an updated version of the security descriptor that controls access to the printer.
+description: Writes an updated version of the security descriptor that controls access to the printer.
 ms.assetid: 6a709043-473e-4b24-8b52-6c68b670ebcf
 ms.tgt_platform: multiple
 title: SetSecurityDescriptor method of the Win32_Printer class
@@ -109,8 +109,6 @@ When a new SACL is **NULL** in a call to this method, then the security descript
 
 ## Examples
 
-The [Copy-ACLToPrinter](https://Gallery.TechNet.Microsoft.Com/Copy-ACLToPrinter-2d66ce19) PowerShell sample Replace the permissions (ACL) from one printer to another.
-
 The following PowerShell code sample describes how to set the security descriptor for a printer.
 
 
@@ -173,7 +171,7 @@ $Printer.SetSecurityDescriptor($SD)
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

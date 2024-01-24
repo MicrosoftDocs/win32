@@ -22,7 +22,7 @@ Same as the Distinguished Name for an object. Used by Exchange.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Obj-Dist-Name                           |
 | Ldap-Display-Name | distinguishedName                       |
@@ -49,7 +49,7 @@ Same as the Distinguished Name for an object. Used by Exchange.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x803C                          |
@@ -70,7 +70,7 @@ Same as the Distinguished Name for an object. Used by Exchange.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x803C                          |
@@ -91,7 +91,7 @@ Same as the Distinguished Name for an object. Used by Exchange.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x803C                          |
@@ -112,7 +112,7 @@ Same as the Distinguished Name for an object. Used by Exchange.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x803C                          |
@@ -133,7 +133,7 @@ Same as the Distinguished Name for an object. Used by Exchange.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x803C                          |
@@ -154,7 +154,7 @@ Same as the Distinguished Name for an object. Used by Exchange.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x803C                          |
@@ -175,7 +175,7 @@ Same as the Distinguished Name for an object. Used by Exchange.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x803C                          |

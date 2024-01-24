@@ -1,5 +1,5 @@
 ---
-Description: Contains the item's full path and name.
+description: Contains the item's full path and name.
 ms.assetid: c94c7c1c-9dc9-4bb8-b7ec-01541baa2924
 title: FolderItem.Path property (Shldisp.h)
 ms.topic: reference
@@ -141,7 +141,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

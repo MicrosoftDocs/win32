@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VersionCompatibilityCheck class exposes the following methods.
+description: The CIM\_VersionCompatibilityCheck class exposes the following methods.
 ms.assetid: BF38E389-0598-40AA-BF94-C4265DE5EF13
 ms.tgt_platform: multiple
 title: CIM_VersionCompatibilityCheck Methods

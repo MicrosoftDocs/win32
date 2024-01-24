@@ -1,5 +1,5 @@
 ---
-Description: Library Functions
+description: Library Functions
 title: Library Functions
 ms.topic: article
 ms.date: 05/31/2018

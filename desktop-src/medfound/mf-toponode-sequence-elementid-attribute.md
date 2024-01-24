@@ -1,5 +1,5 @@
 ---
-Description: Specifies the element that contains this source node.
+description: Specifies the element that contains this source node.
 ms.assetid: f5fa5c10-8f30-43bd-8054-a39996f807a3
 title: MF_TOPONODE_SEQUENCE_ELEMENTID attribute (Mfidl.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

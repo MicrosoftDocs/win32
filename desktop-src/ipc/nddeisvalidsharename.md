@@ -1,5 +1,5 @@
 ---
-Description: Determines whether a share name uses the proper syntax.
+description: Determines whether a share name uses the proper syntax.
 ms.assetid: 4ffcff5d-0db5-4761-a31a-acefd2b8d9e2
 title: NDdeIsValidShareName function (Nddeapi.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ This function is also called by [**NDdeShareAdd**](nddeshareadd.md) when it crea
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: Gets the device that created the mesh.
+description: Gets the device that created the mesh.
 ms.assetid: b03dadda-ca54-4a55-a0a5-cf5ccdb55a72
 title: ID3DXPatchMesh::GetDevice method (D3DX9Mesh.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

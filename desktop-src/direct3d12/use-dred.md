@@ -2,7 +2,6 @@
 title: Use DRED to diagnose GPU faults
 description: Device Removed Extended Data (DRED) is an evolving set of diagnostic features designed to help you to identify the cause of unexpected device removal errors.
 ms.custom: 19H1
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/19/2019
 ---
@@ -15,7 +14,7 @@ To set the scene for auto-breadcrumbs, let's first mention the manual variety. I
 
 This is a reasonable approach if you want to create a custom, low-overhead implementation. But it may lack some of the versatility of a standardized solution, such as debugger extensions, or reporting via [Windows Error Reporting (WER)](/windows/desktop/wer/windows-error-reporting) (also known as Watson).
 
-So, DRED's auto-breadcrumbs call **WriteBufferImmediate** to place progress counters into the GPU command stream. DRED inserts a breadcrumb after each *render op*&mdash;which means every operation that results in GPU work (for example, **Draw**, **Dispatch**, **Copy**, **Resolve**, and others). If the device is removed in the middle of a GPU workload, then the DRED breadcrumb value is essentially a collection of the render ops that completed before the error.
+So, DRED's auto-breadcrumbs call **WriteBufferImmediate** to place progress counters into the GPU command stream. DRED inserts a breadcrumb after each *render op*&mdash;which means every operation that results in GPU work (for example, **Draw**, **Dispatch**, **Copy**, **Resolve**, and others). If the device is removed in the middle of a GPU workload, then the DRED breadcrumb value is essentially a collection of the render ops that completed before the error.
 
 The breadcrumb history ring buffer retains up to 64KiB operations in a given command list. If there are more than 65536 operations in a command list, then only the last 64KiB operations are stored&mdash;overwriting the oldest operations first. However, the breadcrumb counter value continues to count up to `UINT_MAX`. Therefore, LastOpIndex = (BreadcrumbCount - 1) % 65536.
 
@@ -38,7 +37,7 @@ A feature that's new for DRED 1.1 is DRED GPU page fault reporting. A GPU page f
 DRED attempts to address some of these scenarios by reporting the names and types of any existing or recently freed API objects that match the virtual address (VA) of the GPU-reported page fault.
 
 ### Caveat
-Not all GPUs support page faults (although, many do). Some GPUs respond to memory faults by: bit-bucket writes; reading simulated data (for example, zeros); or by simply hanging. Unfortunately, in cases where the GPU doesn't immediately hang, a [Timeout Detection and Recovery (TDR)](/windows-hardware/drivers/display/timeout-detection-and-recovery) can happen later in the pipe, making it even harder to locate the root cause.
+Not all GPUs support page faults (although, many do). Some GPUs respond to memory faults by: bit-bucket writes; reading simulated data (for example, zeros); or by simply hanging. Unfortunately, in cases where the GPU doesn't immediately hang, a [Timeout Detection and Recovery (TDR)](/windows-hardware/drivers/display/timeout-detection-and-recovery) can happen later in the pipe, making it even harder to locate the root cause.
 
 ### Performance
 The Direct3D 12 runtime must actively curate a collection of existing and recently-deleted API objects indexable by virtual address (VA). This increases the system memory overhead, and introduces a small performance hit to object creation and destruction. For that reason, this behavior is off by default.
@@ -85,7 +84,14 @@ void MyDeviceRemovedHandler(ID3D12Device * pDevice)
 ## Debugger access to DRED
 Debuggers have access to the DRED data via the **d3d12!D3D12DeviceRemovedExtendedData** data export.
 
+For WinDbg users, see the [DirectX-Debugging-Tools](https://github.com/microsoft/DirectX-Debugging-Tools) GitHub repository for a WinDBG extension that makes it much easier to debug Direct3D 12 DRED state.
+
 ## DRED telemetry
 Your application can use the DRED APIs to control DRED features, and to collect telemetry to help analyze problems. This gives you a much broader net for catching those hard-to-reproduce TDRs.
 
 As of Windows 10, version 1903, all user-mode device-removed events are reported to [Windows Error Reporting (WER)](/windows/desktop/wer/windows-error-reporting), also known as Watson. If a particular combination of application, GPU, and display driver generates a sufficient number of device-removed events, then it's possible that DRED will be temporarily enabled for customers launching the same application on a similar configuration.
+
+## More info about DRED
+* The [DirectX-Debugging-Tools](https://github.com/microsoft/DirectX-Debugging-Tools) GitHub repository
+* [Debugger extension for DRED](https://devblogs.microsoft.com/directx/debugger-extension-for-dred/) blog post
+* [DRED v1.2 supports PIX marker and event strings in Auto-Breadcrumbs](https://devblogs.microsoft.com/directx/dred-v1-2-supports-pix-marker-and-event-strings-in-auto-breadcrumbs/) blog post

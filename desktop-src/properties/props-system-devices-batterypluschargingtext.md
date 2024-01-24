@@ -1,5 +1,5 @@
 ---
-Description: The remaining battery life of the device, and the device's charging state as a string.
+description: The remaining battery life of the device, and the device's charging state as a string.
 ms.assetid: b0a0600f-db2f-4220-8cd9-d5e71880b267
 title: System.Devices.BatteryPlusChargingText
 ms.topic: article

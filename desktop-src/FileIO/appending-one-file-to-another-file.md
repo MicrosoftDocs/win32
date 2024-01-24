@@ -1,5 +1,5 @@
 ---
-Description: Example code that shows how an application can append one file to the end of another file, including how to open and close files, read and write to files, and lock and unlock files.
+description: Example code that shows how an application can append one file to the end of another file, including how to open and close files, read and write to files, and lock and unlock files.
 ms.assetid: e4d1f842-16a1-47e4-84b4-9bb44aaa1dc5
 title: Appending One File to Another File
 ms.topic: article
@@ -45,7 +45,7 @@ void main()
 
   if (hFile == INVALID_HANDLE_VALUE)
   {
-     printf("Could not open One.txt."); 
+     printf("Could not open one.txt."); 
      return;
   }
 
@@ -53,16 +53,16 @@ void main()
   // create a new file.
 
   hAppend = CreateFile(TEXT("two.txt"), // open Two.txt
-              FILE_APPEND_DATA,         // open for writing
-              FILE_SHARE_READ,          // allow multiple readers
-              NULL,                     // no security
-              OPEN_ALWAYS,              // open or create
-              FILE_ATTRIBUTE_NORMAL,    // normal file
-              NULL);                    // no attr. template
+              FILE_APPEND_DATA | FILE_GENERIC_READ,    // open for appending and locking
+              FILE_SHARE_READ,                         // allow multiple readers
+              NULL,                                    // no security
+              OPEN_ALWAYS,                             // open or create
+              FILE_ATTRIBUTE_NORMAL,                   // normal file
+              NULL);                                   // no attr. template
 
   if (hAppend == INVALID_HANDLE_VALUE)
   {
-     printf("Could not open Two.txt."); 
+     printf("Could not open two.txt."); 
      return;
   }
 
@@ -75,7 +75,10 @@ void main()
       && dwBytesRead > 0)
     {
     dwPos = SetFilePointer(hAppend, 0, NULL, FILE_END);
-    LockFile(hAppend, dwPos, 0, dwBytesRead, 0);
+    if (!LockFile(hAppend, dwPos, 0, dwBytesRead, 0))
+    {
+       printf("Could not lock two.txt");
+    }
     WriteFile(hAppend, buff, dwBytesRead, &dwBytesWritten, NULL);
     UnlockFile(hAppend, dwPos, 0, dwBytesRead, 0);
     }

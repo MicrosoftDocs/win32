@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# EM\_LINEINDEX message
+# EM_FILELINEINDEX message (CommCtrl.h)
 
 Gets the character index of the first character of a specified line in a multiline edit control, independently of how lines are displayed on the screen.. A character index is the zero-based index of the character from the beginning of the edit control.
 
@@ -46,7 +46,7 @@ The return value is the character index of the line specified in the *wParam* pa
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, 1809 \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                                     |

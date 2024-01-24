@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the parameters of the render surface.
+description: Retrieves the parameters of the render surface.
 ms.assetid: 4f46a4c6-7c50-479c-b2f5-24edff590c57
 title: ID3DXRenderToSurface::GetDesc method (D3dx9core.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

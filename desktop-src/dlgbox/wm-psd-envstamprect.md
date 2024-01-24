@@ -42,7 +42,7 @@ A handle to the device context for the sample page.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that contains the coordinates, in pixels, of the envelope-stamp rectangle.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that contains the coordinates, in pixels, of the envelope-stamp rectangle.
 
 </dd> </dl>
 
@@ -62,7 +62,7 @@ A hook procedure receives this message only if the selected paper type is an env
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

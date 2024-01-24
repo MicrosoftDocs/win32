@@ -1,5 +1,5 @@
 ---
-Description: The ProductState property is a read-only property that returns the install state information for a product.
+description: The ProductState property is a read-only property that returns the install state information for a product.
 ms.assetid: 9ae3bc86-aa13-41b3-b058-4037607f7dd5
 title: Installer.ProductState Property method
 ms.topic: reference
@@ -68,7 +68,7 @@ Returns one of the values shown in the following table.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID members"
 title: JET_TABLEID members
 TOCTitle: JET_TABLEID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_TABLEID
@@ -15,7 +16,7 @@ Include inherited members
 
 A JET_TABLEID contains a handle to the database cursor to use for a call to the JET API. A cursor can only be used with the session that was used to open that cursor.
 
-The [JET_TABLEID](hh566310\(v=exchg.10\).md) type exposes the following members.
+The [JET_TABLEID](./jet-tableid-structure.md) type exposes the following members.
 
 ## Properties
 
@@ -127,6 +128,6 @@ Top
 
 #### Reference
 
-[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](./jet-tableid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

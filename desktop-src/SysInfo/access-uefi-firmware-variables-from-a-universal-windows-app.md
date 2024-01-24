@@ -1,5 +1,5 @@
 ---
-Description: How to access Unified Extensible Firmware Interface (UEFI) firmware variables from a Universal Windows app.
+description: How to access Unified Extensible Firmware Interface (UEFI) firmware variables from a Universal Windows app.
 ms.assetid: 4131CCED-3B76-4569-B0A7-111E4E9215EF
 title: Access UEFI firmware variables from a Universal Windows App
 ms.topic: article
@@ -59,7 +59,7 @@ Starting with Windows 10, version 1803, Universal Windows apps can use [**GetFi
 
 <dl> <dt>
 
-[Special and restricted capabilities](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities)
+[Restricted capabilities](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities)
 </dt> <dt>
 
 [**GetFirmwareEnvironmentVariable**](/windows/desktop/api/Winbase/nf-winbase-getfirmwareenvironmentvariablea)

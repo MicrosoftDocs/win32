@@ -1,21 +1,24 @@
 ---
-Description: A 4x4 matrix that contains methods and operator overloads.
+description: D3DXMATRIX structure (D3dx9math.h) - A 4x4 matrix that contains methods and operator overloads.
 ms.assetid: 0911088b-50cf-4c4a-996e-351386fc359b
 title: D3DXMATRIX structure (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMATRIX
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
-# D3DXMATRIX structure
+# D3DXMATRIX structure (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 A 4x4 matrix that contains methods and operator overloads.
 
@@ -115,7 +118,7 @@ typedef struct _D3DMATRIX D3DXMATRIX, *LPD3DXMATRIX;
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

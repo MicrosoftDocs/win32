@@ -1,5 +1,5 @@
 ---
-Description: Is the base class from which most system classes derive.
+description: Is the base class from which most system classes derive.
 ms.assetid: a9d023ba-d401-4dde-88e6-cbd0e20d4549
 ms.tgt_platform: multiple
 title: '__SystemClass class'
@@ -39,7 +39,7 @@ The **\_\_SystemClass** class does not define any members.
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: The starting time for the presentation, in 100-nanosecond units, as measured by the presentation clock.
+description: The starting time for the presentation, in 100-nanosecond units, as measured by the presentation clock.
 ms.assetid: d19d851c-ab4a-4a9d-bcc4-8dd4e993fa2c
 title: MF_EVENT_START_PRESENTATION_TIME attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

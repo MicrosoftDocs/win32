@@ -1,5 +1,5 @@
 ---
-Description: Registers a window class that allows for the SysLink common control to be used in a window.
+description: Registers a window class that allows for the SysLink common control to be used in a window.
 ms.assetid: 1e6dd741-81be-40bb-a8b5-d565f593c4e9
 title: LinkWindow_RegisterClass function
 ms.topic: reference
@@ -50,7 +50,7 @@ Use [**LinkWindow\_UnregisterClass**](linkwindow-unregisterclass.md) to unregist
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

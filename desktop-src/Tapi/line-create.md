@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_CREATE message is sent to inform the application of the creation of a new line device.
+description: The TAPI LINE\_CREATE message is sent to inform the application of the creation of a new line device.
 ms.assetid: d4735eab-392f-49d9-a1d9-5895d9232624
 title: LINE_CREATE message (Tapi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Applications supporting TAPI version 1.4 or later are sent a **LINE\_CREATE** me
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

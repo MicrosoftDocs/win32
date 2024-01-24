@@ -1,5 +1,5 @@
 ---
-Description: The WM\_DEVMODECHANGE message is sent to all top-level windows whenever the user changes device-mode settings.
+description: The WM\_DEVMODECHANGE message is sent to all top-level windows whenever the user changes device-mode settings.
 ms.assetid: 06b625a8-7584-4a98-b8e7-f1de668c274e
 title: WM_DEVMODECHANGE message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_DEVMODECHANGE** message is sent to all top-level windows whenever the user changes device-mode settings.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -68,7 +68,7 @@ This message cannot be sent directly to a window. To send the **WM\_DEVMODECHANG
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

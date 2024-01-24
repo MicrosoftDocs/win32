@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSecondaryIndexCorruptedException methods"
 title: EsentSecondaryIndexCorruptedException methods
 TOCTitle: EsentSecondaryIndexCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSecondaryIndexCorruptedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSecondaryIndexCorruptedException](dn350606\(v=exchg.10\).md) type exposes the following members.
+The [EsentSecondaryIndexCorruptedException](./esentsecondaryindexcorruptedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSecondaryIndexCorruptedException class](dn350606\(v=exchg.10\).md)
+[EsentSecondaryIndexCorruptedException class](./esentsecondaryindexcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

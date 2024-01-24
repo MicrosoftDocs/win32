@@ -20,9 +20,12 @@ ms.date: 05/31/2018
 
 A computed attribute that contains the list of SIDs due to a transitive group membership expansion operation on a given user or computer. Token Groups cannot be retrieved if no Global Catalog is present to retrieve the transitive reverse memberships.
 
+> [!NOTE]
+> Retrieving Token Groups is an expensive operation on the domain controllers, requiring a BASE scope LDAP query to return the attribute values for a given security principal object. Care should be taken when scaling the use of this attribute in larger environments. It can impact overall domain controller performance up to the point that it prevents the domain controller from processing other requests. 
 
 
-|                   |                                      |
+
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Token-Groups                         |
 | Ldap-Display-Name | tokenGroups                          |
@@ -49,7 +52,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -70,7 +73,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -91,7 +94,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -112,7 +115,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -133,7 +136,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -154,7 +157,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -175,7 +178,7 @@ A computed attribute that contains the list of SIDs due to a transitive group me
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

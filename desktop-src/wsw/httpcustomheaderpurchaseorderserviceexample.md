@@ -1,6 +1,6 @@
 ---
 title: HttpCustomHeaderPurchaseOrderServiceExample
-description: This example shows how to use service host for hosting a PurchaseOrder service over HTTP.
+description: Review a Windows Web Services API (WWSAPI) C++ example of a purchase order service over HTTP custom headers.
 ms.assetid: 7a86e0be-6e52-4ad2-bca4-0162a8030cdc
 keywords:
 - HttpCustomHeaderPurchaseOrderServiceExample Native-Web-Services

@@ -1,5 +1,5 @@
 ---
-Description: Displays a dialog box that enables the user to select a hardware device for image acquisition.
+description: IWiaDevMgr2::SelectDeviceDlgID method - Displays a dialog box that enables the user to select a hardware device for image acquisition.
 ms.assetid: 6baca959-0f97-4a39-88d0-ed34b813c80a
 title: IWiaDevMgr2::SelectDeviceDlgID method (Wia.h)
 ms.topic: reference
@@ -128,7 +128,7 @@ The application can restrict the devices displayed to the user to particular typ
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets a value that represents the microseconds component of the datetime value.
+description: Gets or sets a value that represents the microseconds component of the datetime value.
 ms.assetid: b810b781-86a3-4730-8114-44d10454f7c3
 ms.tgt_platform: multiple
 title: SWbemDateTime.Microseconds property (Wbemdisp.h)
@@ -59,7 +59,7 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

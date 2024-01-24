@@ -1,23 +1,10 @@
 ---
-Description: The base type for classes representing a property returned by the Win32\_PnPEntity::GetDeviceProperties Method.
+description: The base type for classes representing a property returned by the Win32\_PnPEntity::GetDeviceProperties Method.
 ms.assetid: f636c106-6ca6-407f-804a-0ec554ed565c
 ms.tgt_platform: multiple
 title: Win32_PnPDeviceProperty class
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
-- APIRef
-- kbSyntax
-api_name: 
-- Win32_PnPDeviceProperty
-- Win32_PnPDeviceProperty.Key
-- Win32_PnPDeviceProperty.KeyName
-- Win32_PnPDeviceProperty.Type
-- Win32_PnPDeviceProperty.DeviceID
-api_type: 
-- DllExport
-api_location: 
-- CIMWin32.dll
 topic_type: 
 - APIRef
 - kbSyntax
@@ -488,7 +475,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
@@ -511,7 +498,3 @@ The possible values are.
  
 
  
-
-
-
-

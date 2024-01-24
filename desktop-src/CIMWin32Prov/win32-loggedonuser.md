@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LoggedOnUser association WMI class relates a session and a user account.
+description: The Win32\_LoggedOnUser association WMI class relates a session and a user account.
 ms.assetid: b1233f90-4898-4ced-84d2-0858027e935a
 ms.tgt_platform: multiple
 title: Win32_LoggedOnUser class
@@ -85,13 +85,13 @@ The **Win32\_LoggedOnUser** class is derived from [**CIM\_Dependency**](cim-depe
 
 ## Examples
 
-The [get-loggedonuser function](https://Gallery.TechNet.Microsoft.Com/scriptcenter/0e43993a-895a-4afe-a2b2-045a5146048a) PowerShell sample gets the logged on users on a local or remote computer, with session information.
+The `Get-LoggedOnUser function` PowerShell sample gets the logged on users on a local or remote computer, with session information.
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

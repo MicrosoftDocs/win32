@@ -1,5 +1,5 @@
 ---
-Description: Returns the kernel-mode Microsoft DirectX  API handle to use in subsequent calls to the kernel-mode entry points that control the DirectX  API mechanism.
+description: Returns the kernel-mode Microsoft DirectX  API handle to use in subsequent calls to the kernel-mode entry points that control the DirectX  API mechanism.
 ms.assetid: c95cb188-305f-4b60-be55-0511b57f0597
 title: NtGdiDdGetDxHandle function (Ntgdi.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If both *hDirectDraw* and *hSurface* are specified, *hSurface* is ignored.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

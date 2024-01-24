@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidIncrementalReseedException properties"
 title: EsentDatabaseInvalidIncrementalReseedException properties
 TOCTitle: EsentDatabaseInvalidIncrementalReseedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidIncrementalReseedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseInvalidIncrementalReseedException](dn334430\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseInvalidIncrementalReseedException](./esentdatabaseinvalidincrementalreseedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseInvalidIncrementalReseedException class](dn334430\(v=exchg.10\).md)
+[EsentDatabaseInvalidIncrementalReseedException class](./esentdatabaseinvalidincrementalreseedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Changes the type of the specified strokes.
+description: Changes the type of the specified strokes.
 ms.assetid: 8d954a7d-c987-41cf-9933-b2e6bacc9489
 title: IInkAnalyzer::SetStrokesType method (IACom.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ This method returns an error code when *plStrokes* is **NULL**.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

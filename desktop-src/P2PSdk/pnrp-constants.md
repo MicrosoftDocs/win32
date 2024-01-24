@@ -1,5 +1,5 @@
 ---
-Description: The PNRP Namespace Provider API uses the following constants.
+description: The PNRP Namespace Provider API uses the following constants.
 ms.assetid: 2eb110f3-7028-4598-a50d-707a2efde3bf
 title: PNRP Constants
 ms.topic: article

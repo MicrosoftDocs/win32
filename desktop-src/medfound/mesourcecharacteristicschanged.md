@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media source when the sources characteristics change.
+description: Raised by a media source when the sources characteristics change.
 ms.assetid: df7bb9a3-5949-4a4a-8835-c5b1d01b5cb3
 title: MESourceCharacteristicsChanged event (Mfobjects.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The following attributes are defined for this event.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

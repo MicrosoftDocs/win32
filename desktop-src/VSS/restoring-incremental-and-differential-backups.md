@@ -1,5 +1,5 @@
 ---
-Description: Restoring an incremental or differential backup under VSS is not significantly different from any other VSS restore operation.
+description: Restoring an incremental or differential backup under VSS is not significantly different from any other VSS restore operation.
 ms.assetid: 67143f6f-0bb8-4740-9289-8bbfeb7caadf
 title: Restoring Incremental and Differential Backups
 ms.topic: article

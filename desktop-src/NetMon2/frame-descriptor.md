@@ -1,5 +1,5 @@
 ---
-Description: The FRAME\_DESCRIPTOR structure provides descriptive information about raw frames.
+description: The FRAME\_DESCRIPTOR structure provides descriptive information about raw frames.
 ms.assetid: f2fc256e-8e64-49c1-b2ad-ef656762d5c7
 title: FRAME_DESCRIPTOR structure (Netmon.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ Offset to protocol data obtained from **HighPort**.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

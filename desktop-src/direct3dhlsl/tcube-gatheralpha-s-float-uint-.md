@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherAlpha(S,float,uint) function
-description: Samples a texture and returns the alpha component along with status about the operation.
+description: Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCube::GatherAlpha(S,float,uint) function
 ms.assetid: 19BD3024-D3E5-4AEA-8C8E-510A4EB527B5
 keywords:
 - GatherAlpha function HLSL
@@ -15,18 +15,18 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherAlpha(S,float,uint) function
+# TextureCube::GatherAlpha(S,float,uint) function
 
-Samples a texture and returns the alpha component along with status about the operation.
+Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType GatherAlpha(
-  in  SamplerState S,
-  in  float        Location,
-  out uint         Status
+  in  SamplerState S,
+  in  float3       Location,
+  out uint         Status
 );
 ```
 
@@ -83,7 +83,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -95,6 +95,6 @@ This function is supported for the following types of shaders:
 [**TextureCube**](texturecube.md)
 </dt> </dl>
 
- 
 
- 
+
+

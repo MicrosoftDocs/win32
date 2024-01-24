@@ -1,5 +1,5 @@
 ---
-Description: The DATATYPES\_INFO\_1 structure contains information about the data type used to record a print job.
+description: The DATATYPES\_INFO\_1 structure contains information about the data type used to record a print job.
 ms.assetid: 6169006c-12d4-4608-865c-732f04107f9f
 title: DATATYPES_INFO_1 structure (Winspool.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Pointer to a null-terminated string that identifies the data type used to record
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

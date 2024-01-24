@@ -1,5 +1,5 @@
 ---
-Description: The GetCCInstPtr function returns the pointer to the instance data added to the capture context.
+description: The GetCCInstPtr function returns the pointer to the instance data added to the capture context.
 ms.assetid: 6fb103d3-583b-4460-8b9a-ff921751b0eb
 title: GetCCInstPtr function (Netmon.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

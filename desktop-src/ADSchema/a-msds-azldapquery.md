@@ -22,7 +22,7 @@ A string that defines the LDAP query (max length 4096) which determines the memb
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Az-LDAP-Query                         |
 | Ldap-Display-Name | msDS-AzLDAPQuery                            |
@@ -47,7 +47,7 @@ A string that defines the LDAP query (max length 4096) which determines the memb
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -68,7 +68,7 @@ A string that defines the LDAP query (max length 4096) which determines the memb
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -89,7 +89,7 @@ A string that defines the LDAP query (max length 4096) which determines the memb
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -110,7 +110,7 @@ A string that defines the LDAP query (max length 4096) which determines the memb
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -131,7 +131,7 @@ A string that defines the LDAP query (max length 4096) which determines the memb
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |

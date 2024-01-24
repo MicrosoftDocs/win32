@@ -29,7 +29,7 @@ The RAS API is designed for use by C/C++ programmers. Microsoft Visual Basic pro
 
 Some of the functions in the RAS API are supported only on network servers and other functions are supported only on network clients. For more specific information about which operating systems support a particular function, refer to the Requirements sections in the documentation.
 
-The [enhanced RAS functionality](function-comparison-windows-2000-versus-rras-redistributable.md) of RRAS is available for Windows NT Server 4.0 by installing the [RRAS redistributable](https://www.microsoft.com/ntserver/nts/downloads/winfeatures/rras/rrasdown.asp). All the functionality of RRAS is incorporated into Windows 2000 Server, Windows Server 2003, and Windows Server 2008. RRAS applications cannot run on Windows NT Workstation 4.0 or on client operating systems, such as Windows 95. For more specific information about which operating systems support a particular function, refer to the Requirements sections in the documentation.
+The [enhanced RAS functionality](function-comparison-windows-2000-versus-rras-redistributable.md) of RRAS is available for Windows NT Server 4.0 by installing the 'RRAS redistributable'. All the functionality of RRAS is incorporated into Windows 2000 Server, Windows Server 2003, and Windows Server 2008. RRAS applications cannot run on Windows NT Workstation 4.0 or on client operating systems, such as Windows 95. For more specific information about which operating systems support a particular function, refer to the Requirements sections in the documentation.
 
 ## In this section
 

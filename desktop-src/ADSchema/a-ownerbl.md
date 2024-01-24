@@ -22,7 +22,7 @@ The backward link to the owner attribute. Contains a list of owners for an objec
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-Exch-Owner-BL                        |
 | Ldap-Display-Name | ownerBL                                 |
@@ -47,7 +47,7 @@ The backward link to the owner attribute. Contains a list of owners for an objec
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 45                              |
 | MAPI-Id                | \-                              |
@@ -68,7 +68,7 @@ The backward link to the owner attribute. Contains a list of owners for an objec
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 45                              |
 | MAPI-Id                | \-                              |
@@ -89,7 +89,7 @@ The backward link to the owner attribute. Contains a list of owners for an objec
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 45                              |
 | MAPI-Id                | \-                              |
@@ -110,7 +110,7 @@ The backward link to the owner attribute. Contains a list of owners for an objec
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 45                              |
 | MAPI-Id                | \-                              |
@@ -131,7 +131,7 @@ The backward link to the owner attribute. Contains a list of owners for an objec
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 45                              |
 | MAPI-Id                | \-                              |

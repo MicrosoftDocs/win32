@@ -1,5 +1,5 @@
 ---
-Description: Defines a type for the SimIccID element of the Mobile Broadband profile.
+description: Defines a type for the SimIccID element of the Mobile Broadband profile.
 ms.assetid: ce77180e-71e2-4cef-84e0-32397216385f
 title: simIccIDType Simple Type
 ms.topic: reference
@@ -39,7 +39,7 @@ The **simIccIDType** simple type is a token that is restricted by the following 
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

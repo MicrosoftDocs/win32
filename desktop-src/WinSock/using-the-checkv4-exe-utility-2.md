@@ -1,5 +1,5 @@
 ---
-Description: Using the Checkv4.exe utility to modify your IPv4 application to support IPv6.
+description: Using the Checkv4.exe utility to modify your IPv4 application to support IPv6.
 ms.assetid: 36b72e4f-133d-4d96-a3c9-86a852d3a479
 title: Using the Checkv4.exe utility
 ms.topic: article

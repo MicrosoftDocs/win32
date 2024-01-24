@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about a VHD Set file.
+description: Retrieves information about a VHD Set file.
 ms.assetid: efdfd4c6-b762-4369-add3-e152652c6802
 title: GetVHDSetInformation method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -138,7 +138,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

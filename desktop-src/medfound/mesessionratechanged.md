@@ -1,5 +1,5 @@
 ---
-Description: Raised by the Media Session when the playback rate changes. This event is sent after the IMFRateControl::SetRate method completes asynchronously.
+description: Raised by the Media Session when the playback rate changes. This event is sent after the IMFRateControl::SetRate method completes asynchronously.
 ms.assetid: 6bef923f-4083-46e1-9a2e-49a6825467ec
 title: MESessionRateChanged event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

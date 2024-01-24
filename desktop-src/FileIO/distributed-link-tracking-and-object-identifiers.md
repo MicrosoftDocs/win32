@@ -1,5 +1,5 @@
 ---
-Description: The distributed link tracking service enables client applications to track link sources that have moved.
+description: The distributed link tracking service enables client applications to track link sources that have moved.
 ms.assetid: 6f438c72-f23d-4ca4-83bd-fe3bc433ceeb
 title: Distributed Link Tracking and Object Identifiers
 ms.topic: article
@@ -55,7 +55,7 @@ If a link is made to a file on NTFS 3.0 or later, and the file is moved to any o
 
 To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
 
-**fsutil fsinfo ntfsinfo** *X***:**
+**fsutil fsinfo ntfsinfo** *X*__:__
 
 where *X* is the drive letter of the volume.
 
@@ -70,7 +70,7 @@ The distributed link tracking service maintains file links for the following sit
 
 The distributed link tracking service also attempts to maintain links in the preceding situations even when they do not occur within a domain, that is, they are cross domain or within a workgroup. Links can always be maintained in these situations when the network share on the link source computer is changed. They can also be maintained when a link source is moved within a computer. Links can usually be maintained when the link source is moved to another computer, but this form of tracking is less reliable over time.
 
-## Link Tracking Features
+## Link Tracking Functionality
 
 Link tracking functionality is primarily implemented in the form of the following two system services:
 
@@ -103,7 +103,7 @@ The distributed link tracking services are available only on the NTFS file syste
 
 To obtain the NTFS version of a volume, open a command prompt with Administrator access rights and execute the following command:
 
-**fsutil fsinfo ntfsinfo** *X***:**
+**fsutil fsinfo ntfsinfo** *X*__:__
 
 where *X* is the drive letter of the volume.
 

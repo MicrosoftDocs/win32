@@ -1,5 +1,5 @@
 ---
-Description: To generate a patch package, it is recommended that you use a patch creation tool such as Msimsp.exe and Patchwiz.dll.
+description: To generate a patch package, it is recommended that you use a patch creation tool such as Msimsp.exe and Patchwiz.dll.
 ms.assetid: aca3bbd2-440a-405f-bddc-5f9cc831b811
 title: Patchwiz.dll
 ms.topic: article

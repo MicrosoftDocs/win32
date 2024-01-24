@@ -1,5 +1,5 @@
 ---
-Description: I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiprocessor system.
+description: I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiprocessor system.
 ms.assetid: 213c48e8-bb21-43ed-9c00-2a5cf8ac25f0
 title: I/O Completion Ports
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # I/O Completion Ports
 
-I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiprocessor system. When a process creates an I/O completion port, the system creates an associated queue object for requests whose sole purpose is to service these requests. Processes that handle many concurrent asynchronous I/O requests can do so more quickly and efficiently by using I/O completion ports in conjunction with a pre-allocated thread pool than by creating threads at the time they receive an I/O request.
+I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiprocessor system. When a process creates an I/O completion port, the system creates an associated queue object for threads whose sole purpose is to service these requests. Processes that handle many concurrent asynchronous I/O requests can do so more quickly and efficiently by using I/O completion ports in conjunction with a pre-allocated thread pool than by creating threads at the time they receive an I/O request.
 
 ## How I/O Completion Ports Work
 
@@ -56,6 +56,7 @@ The system also allows a thread waiting in [**GetQueuedCompletionStatus**](/wind
 
 The following functions can be used to start I/O operations that complete by using I/O completion ports. You must pass the function an instance of the [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure and a file handle previously associated with an I/O completion port (by a call to [**CreateIoCompletionPort**](createiocompletionport.md)) to enable the I/O completion port mechanism:
 
+-   [**AcceptEx**](/windows/win32/api/mswsock/nf-mswsock-acceptex)
 -   [**ConnectNamedPipe**](/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe)
 -   [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol)
 -   [**LockFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-lockfileex)
@@ -68,7 +69,7 @@ The following functions can be used to start I/O operations that complete by usi
 -   [**WSASendTo**](/windows/desktop/api/winsock2/nf-winsock2-wsasendto)
 -   [**WSASend**](/windows/desktop/api/winsock2/nf-winsock2-wsasend)
 -   [**WSARecvFrom**](/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom)
--   [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85))
+-   [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 -   [**WSARecv**](/windows/desktop/api/winsock2/nf-winsock2-wsarecv)
 
 ## Related topics

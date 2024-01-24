@@ -1,6 +1,6 @@
 ---
 title: glGetTexEnvfv function (Gl.h)
-description: The glGetTexEnvfv and glGetTexEnviv functions return texture environment parameters.
+description: The glGetTexEnvfv and glGetTexEnviv functions return texture environment parameters. | glGetTexEnvfv function (Gl.h)
 ms.assetid: aa037494-e227-48f1-8d5e-9f82073dc2ea
 keywords:
 - glGetTexEnvfv function OpenGL
@@ -86,19 +86,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* or *pname* was not an accepted value.<br/>                                                                             |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glGetTexEnv** function returns in *params* selected values of a texture environment that was specified with [**glTexEnv**](gltexenv-functions.md). The *target* parameter specifies a texture environment. Currently, only one texture environment is defined and supported: GL\_TEXTURE\_ENV.
@@ -111,7 +98,7 @@ If an error is generated, no change is made to the contents of *params*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

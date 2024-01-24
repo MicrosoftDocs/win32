@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyIOException constructor"
 title: EsentTooManyIOException constructor 
 TOCTitle: 'EsentTooManyIOException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyIOException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyIOException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTooManyIOException()
 
 #### Reference
 
-[EsentTooManyIOException class](dn335003\(v=exchg.10\).md)
+[EsentTooManyIOException class](./esenttoomanyioexception-class.md)
 
-[EsentTooManyIOException members](dn350766\(v=exchg.10\).md)
+[EsentTooManyIOException members](./esenttoomanyioexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

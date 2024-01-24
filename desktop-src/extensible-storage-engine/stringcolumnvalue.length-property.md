@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue.Length property"
 title: StringColumnValue.Length property 
 TOCTitle: 'Length property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.StringColumnValue.Length
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the byte length of a column value, which is zero if column is null, otherwise it matches the byte length of the string value. The byte length is determined in assumption of two bytes per character.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,8 +60,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[StringColumnValue class](dn351135\(v=exchg.10\).md)
+[StringColumnValue class](./stringcolumnvalue-class.md)
 
-[StringColumnValue members](dn351145\(v=exchg.10\).md)
+[StringColumnValue members](./stringcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

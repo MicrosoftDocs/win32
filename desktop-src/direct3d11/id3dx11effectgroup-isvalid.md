@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectGroup IsValid method (D3dx11effect.h)
-description: Test an effect to see if it contains valid syntax.
+description: Test an effect to see if it contains valid syntax. | ID3DX11EffectGroup IsValid method (D3dx11effect.h)
 ms.assetid: 05829749-cef0-40ed-beab-556a65a1ac96
 keywords:
 - IsValid method Direct3D 11
@@ -53,7 +53,7 @@ Type: **[**BOOL**](/windows/desktop/WinProg/windows-data-types)**
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |

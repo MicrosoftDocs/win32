@@ -1,5 +1,5 @@
 ---
-Description: Current altitude, in meters. Altitude is relative to the reference ellipsoid.
+description: Current altitude, in meters. Altitude is relative to the reference ellipsoid.
 ms.assetid: fbe9984c-aa9d-4ce0-9f8b-d79ca06764d4
 title: LocationDisp.DispLatLongReport.Altitude property
 ms.topic: reference
@@ -49,7 +49,7 @@ For an example of how to use this property, see [A Simple LatLong Report Example
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

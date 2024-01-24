@@ -1,5 +1,5 @@
 ---
-Description: The SetPrinter function sets the data for a specified printer or sets the state of the specified printer by pausing printing, resuming printing, or clearing all print jobs.
+description: The SetPrinter function sets the data for a specified printer or sets the state of the specified printer by pausing printing, resuming printing, or clearing all print jobs.
 ms.assetid: 'ade367c5-20d6-4da9-bb52-ce6768cf7537'
 title: SetPrinter function (WinSpool.h)
 ms.topic: reference
@@ -172,7 +172,7 @@ You can use level 7 with the [**PRINTER\_INFO\_7**](printer-info-7.md) structure
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

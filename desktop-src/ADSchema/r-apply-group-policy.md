@@ -21,7 +21,7 @@ Extended right used by Group Policy engine to determine whether a GPO applies to
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Apply-Group-Policy                   |
 | Display-Name | Apply Group Policy                   |
@@ -42,7 +42,7 @@ Extended right used by Group Policy engine to determine whether a GPO applies to
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Group-Policy-Container**](c-grouppolicycontainer.md)<br/> |
 | Localization-Display-ID | 47                                                                  |
@@ -53,7 +53,7 @@ Extended right used by Group Policy engine to determine whether a GPO applies to
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Group-Policy-Container**](c-grouppolicycontainer.md)<br/> |
 | Localization-Display-ID | 47                                                                  |
@@ -64,7 +64,7 @@ Extended right used by Group Policy engine to determine whether a GPO applies to
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Group-Policy-Container**](c-grouppolicycontainer.md)<br/> |
 | Localization-Display-ID | 47                                                                  |
@@ -75,7 +75,7 @@ Extended right used by Group Policy engine to determine whether a GPO applies to
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Group-Policy-Container**](c-grouppolicycontainer.md)<br/> |
 | Localization-Display-ID | 47                                                                  |
@@ -86,7 +86,7 @@ Extended right used by Group Policy engine to determine whether a GPO applies to
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Group-Policy-Container**](c-grouppolicycontainer.md)<br/> |
 | Localization-Display-ID | 47                                                                  |
@@ -97,7 +97,7 @@ Extended right used by Group Policy engine to determine whether a GPO applies to
 
 
 
-|                         |                                                                     |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------|
 | Applies-To              | [**Group-Policy-Container**](c-grouppolicycontainer.md)<br/> |
 | Localization-Display-ID | 47                                                                  |

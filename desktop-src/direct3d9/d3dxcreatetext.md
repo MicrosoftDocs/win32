@@ -1,5 +1,5 @@
 ---
-Description: Creates a mesh containing the specified text, using the font associated with the device context.
+description: Creates a mesh containing the specified text, using the font associated with the device context.
 ms.assetid: 1c8b0dc6-51b8-45bf-b4c0-b67e3d128097
 title: D3DXCreateText function (D3dx9shape.h)
 ms.topic: reference
@@ -130,7 +130,7 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9shape.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>    |

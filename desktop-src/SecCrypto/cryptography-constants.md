@@ -1,5 +1,5 @@
 ---
-Description: The following constants are used by cryptography functions and defined in Wincrypt.h. Cryptography constants are categorized according to usage as follows.
+description: The following constants are used by cryptography functions and defined in Wincrypt.h. Cryptography constants are categorized according to usage as follows.
 ms.assetid: 938740cc-d1da-48b1-8cd6-46622f6fc93f
 title: Cryptography Constants
 ms.topic: article

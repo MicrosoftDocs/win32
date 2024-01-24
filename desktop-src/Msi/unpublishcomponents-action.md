@@ -1,5 +1,5 @@
 ---
-Description: The UnpublishComponents action manages the unadvertisement of components listed in the PublishComponent table.
+description: The UnpublishComponents action manages the unadvertisement of components listed in the PublishComponent table.
 ms.assetid: 3e50f668-6d08-405e-a5a4-f422041ef0b1
 title: UnpublishComponents Action
 ms.topic: article
@@ -26,14 +26,4 @@ There are no sequence restrictions.
 
 
  
-
-## ActionData Messages
-
-There are no ActionData messages.
-
- 
-
- 
-
-
 

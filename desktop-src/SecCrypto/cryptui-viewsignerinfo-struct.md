@@ -1,5 +1,5 @@
 ---
-Description: Contains information for the CryptUIDlgViewSignerInfo function.
+description: Contains information for the CryptUIDlgViewSignerInfo function.
 ms.assetid: 2b76de4f-4b35-477e-a67e-435434e066c6
 title: CRYPTUI_VIEWSIGNERINFO_STRUCT structure
 ms.topic: reference
@@ -141,7 +141,7 @@ An array of [**PROPSHEETPAGE**](/windows/win32/api/prsht/ns-prsht-propsheetpagea
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                      |

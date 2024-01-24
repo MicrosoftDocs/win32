@@ -1,5 +1,5 @@
 ---
-Description: The ISA operator is a WQL-specific operator that can be used in data, event, and schema queries.
+description: The ISA operator is a WQL-specific operator that can be used in data, event, and schema queries.
 ms.assetid: 0520470c-ebfc-4c45-8a1f-47fd66bf8414
 ms.tgt_platform: multiple
 title: ISA Operator for Schema Queries

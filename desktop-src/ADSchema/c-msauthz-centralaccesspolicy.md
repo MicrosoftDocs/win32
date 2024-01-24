@@ -22,7 +22,7 @@ A class that defines Central Access Policy objects.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Authz-Central-Access-Policy       |
 | Ldap-Display-Name | msAuthz-CentralAccessPolicy          |
@@ -42,7 +42,7 @@ A class that defines Central Access Policy objects.
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

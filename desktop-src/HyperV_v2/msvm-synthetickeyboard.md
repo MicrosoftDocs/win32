@@ -1,5 +1,5 @@
 ---
-Description: Represents a synthetic keyboard device.
+description: Represents a synthetic keyboard device.
 ms.assetid: 8fe9bdd5-59e8-421d-812a-08aa3c54c88f
 title: Msvm_SyntheticKeyboard class
 ms.topic: reference
@@ -55,7 +55,7 @@ The **Msvm\_SyntheticKeyboard** class has these methods.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

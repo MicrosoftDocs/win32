@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateService2 interface defines the following property.
+description: The IUpdateService2 interface defines the following property.
 ms.assetid: b6a8bd47-bd82-4284-8549-8a74e55af019
 title: IUpdateService2 Properties
 ms.topic: article

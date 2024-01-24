@@ -10,19 +10,18 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Message
+# Message (Windows Web Services)
 
 A message is an object that encapsulates data that is transmitted or received. The structure of a message is defined by SOAP and includes a set of headers and a body. The headers are always buffered in memory, but the body is read and written with a streaming API.
 
-![](images/messageenvelope.png)
+![Diagram showing a message with the header being buffered and the body being streamed.](images/messageenvelope.png)
 
-## 
 
 Messages have a set of properties which can be used to specify optional settings that control the behavior of a message, and to provide a way to retrieve additional information about received messages (such as security information). See [**WS\_MESSAGE\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_message_property_id) for a complete list of message properties.
 
 A message is addressed to a specific [Endpoint Address](endpoint-address.md).
 
-A [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) is a special sort of message content used to represent failures returned from from a remote endpoint.
+A [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) is a special sort of message content used to represent failures returned from a remote endpoint.
 
 Messages undergo encoding that transforms the XML to a linear wire format before being transmitted.
 

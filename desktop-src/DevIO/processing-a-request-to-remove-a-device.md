@@ -1,5 +1,5 @@
 ---
-Description: An application receives a DBT\_DEVICEQUERYREMOVE device event when a feature in the system has decided to remove a specified device.
+description: An application receives a DBT\_DEVICEQUERYREMOVE device event when a feature in the system has decided to remove a specified device.
 ms.assetid: 66f6c9f4-93fa-4ee8-adf8-cde4e63f9fb7
 title: Processing a Request to Remove a Device
 ms.topic: article

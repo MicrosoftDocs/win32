@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the InkEdit control gets results manually from a call to the InkEdit::Recognize method or automatically after the recognition timeout fires.
+description: Occurs when the InkEdit control gets results manually from a call to the InkEdit::Recognize method or automatically after the recognition timeout fires.
 ms.assetid: 09618be0-fe49-494f-940f-79ff8352097e
 title: InkEdit.RecognitionResult event (Inked.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

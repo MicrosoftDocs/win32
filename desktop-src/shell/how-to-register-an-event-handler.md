@@ -1,5 +1,5 @@
 ---
-Description: A device can potentially generate many events, and each event has the option of being handled by one of a number of different handlers.
+description: A device can potentially generate many events, and each event has the option of being handled by one of a number of different handlers.
 ms.assetid: C203B5AB-917C-4543-98D6-EDE02E0B5E49
 title: How to Register an Event Handler
 ms.topic: article
@@ -17,7 +17,6 @@ A device can potentially generate many events, and each event has the option of 
 
 ## Instructions
 
-### 
 
 Event handlers are defined under the **EventHandlers** key. An event handler key's values are the names of each handler that the user must choose from when the event is detected. There is no data value associated with these entries. Following is an example definition for a custom event handler called **MyNewRemovalEventHandler**, which presents these handler possibilities to the user:
 

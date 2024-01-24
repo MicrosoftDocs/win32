@@ -1,5 +1,5 @@
 ---
-Description: The Disconnect method disconnects the NPP from the network.
+description: IRTC::Disconnect method - The Disconnect method disconnects the NPP from the network.
 ms.assetid: 47a0cce0-a50d-4bad-9787-672cc3d13d07
 title: IRTC::Disconnect method (Netmon.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ This method cannot be called when the NPP is capturing data. You must call the [
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The RenewDHCPLeaseAll WMI class static method renews the IP addresses on all DHCP-enabled network adapters.
+description: The RenewDHCPLeaseAll WMI class static method renews the IP addresses on all DHCP-enabled network adapters.
 ms.assetid: cbe0a607-cb3b-47c4-ad3a-c4fa03fe688c
 ms.tgt_platform: multiple
 title: RenewDHCPLeaseAll method of the Win32_NetworkAdapterConfiguration class
@@ -394,15 +394,11 @@ DHCP not enabled on adapter.
 
 The lease for the IP address assigned by a DHCP server has an expiration date that the client must renew if it intends to continue use of the assigned IP address.
 
-## Examples
-
-The [Renew All DHCP Leases](https://Gallery.TechNet.Microsoft.Com/b29171b8-21b0-492a-b0fe-67e650adca99) VBScript example on TechNet Gallery renews all the DHCP leases currently in use on a computer.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

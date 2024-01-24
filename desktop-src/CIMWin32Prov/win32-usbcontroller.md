@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_USBController &\#32; WMI class manages the capabilities of a universal serial bus (USB) controller.
+description: The Win32\_USBController &\#32; WMI class manages the capabilities of a universal serial bus (USB) controller.
 ms.assetid: 2b45eb41-fc4f-4a00-a8e6-5b709240958a
 ms.tgt_platform: multiple
 title: Win32_USBController class
@@ -1584,10 +1584,7 @@ You can use the [**Win32\_USBControllerDevice**](win32-usbcontrollerdevice.md) a
 
 ## Examples
 
-The [List USB Controller Information](https://Gallery.TechNet.Microsoft.Com/fc2d92ce-a241-47bf-a5ea-3395d301559e) PowerShell sample returns information about all the USB controllers found on a computer.
-
 The following VBScript sample returns information about all the USB controllers found on a computer.
-
 
 ```VB
 On Error Resume Next 
@@ -1615,7 +1612,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

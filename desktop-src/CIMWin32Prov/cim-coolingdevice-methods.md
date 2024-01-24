@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CoolingDevice class exposes the following methods.
+description: The CIM\_CoolingDevice class exposes the following methods.
 ms.assetid: 7E7ED0E6-BCBE-48D0-B949-EDE0629459BC
 ms.tgt_platform: multiple
 title: CIM_CoolingDevice Methods

@@ -1,5 +1,5 @@
 ---
-Description: The IWbemDecoupledBasicEventProvider interface exposes the following methods.
+description: The IWbemDecoupledBasicEventProvider interface exposes the following methods.
 ms.assetid: 659752BD-B795-451B-B542-B5E362F93364
 ms.tgt_platform: multiple
 title: IWbemDecoupledBasicEventProvider Methods

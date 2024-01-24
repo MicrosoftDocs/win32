@@ -1,5 +1,5 @@
 ---
-Description: The ClearData method of the Record object clears the data in all fields, setting them to Null. Any objects stored in the fields are released.
+description: The ClearData method of the Record object clears the data in all fields, setting them to Null. Any objects stored in the fields are released.
 ms.assetid: 3157858d-6701-4eef-8946-fb1de0ba5c5d
 title: Record.ClearData method
 ms.topic: reference
@@ -40,7 +40,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: Initiates the failback for a recovery virtual machine.
+description: Initiates the failback for a recovery virtual machine.
 ms.assetid: F4AE1911-46B2-4412-A17F-3CA7D388276F
 title: Msvm_ReplicationService::InitiateFailback method
 ms.topic: reference
@@ -121,7 +121,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

@@ -22,7 +22,7 @@ Contains the distinguished name of the user who is the user's manager. The manag
 
 
 
-|                   |                                                                             |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------------|
 | CN                | Manager                                                                     |
 | Ldap-Display-Name | manager                                                                     |
@@ -48,7 +48,7 @@ Contains the distinguished name of the user who is the user's manager. The manag
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | 42                                                                 |
 | MAPI-Id                | 0x8005                                                             |
@@ -69,7 +69,7 @@ Contains the distinguished name of the user who is the user's manager. The manag
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |
@@ -90,7 +90,7 @@ Contains the distinguished name of the user who is the user's manager. The manag
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |
@@ -111,7 +111,7 @@ Contains the distinguished name of the user who is the user's manager. The manag
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |
@@ -132,7 +132,7 @@ Contains the distinguished name of the user who is the user's manager. The manag
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |
@@ -153,7 +153,7 @@ Contains the distinguished name of the user who is the user's manager. The manag
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 42                                                                                                                     |
 | MAPI-Id                | 0x8005                                                                                                                 |

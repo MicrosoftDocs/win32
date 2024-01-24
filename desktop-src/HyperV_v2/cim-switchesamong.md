@@ -1,5 +1,5 @@
 ---
-Description: Represents a switch service, which switches frames between switch ports.
+description: Represents a switch service, which switches frames between switch ports.
 ms.assetid: ee2d4831-df00-408c-b350-26d2d1d3e8aa
 title: CIM_SwitchesAmong class
 ms.topic: reference
@@ -80,7 +80,7 @@ A [**CIM\_SwitchService**](cim-switchservice.md) reference to the switching serv
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

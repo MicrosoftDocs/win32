@@ -1,12 +1,12 @@
 ---
-Description: Developers of installation packages can author a user interface containing the controls discussed in this topic.
+description: Developers of installation packages can author a user interface containing the controls discussed in this topic.
 ms.assetid: ed9fa158-9dad-4d2d-8153-78122b19a34e
 title: Controls (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Controls
+# Controls (Windows Installer)
 
 Developers of installation packages can author a user interface containing the controls discussed in this topic. For information on how to add a particular control to a dialog box, see the topic for that control and read the section [Adding Controls and Text](adding-controls-and-text.md).
 

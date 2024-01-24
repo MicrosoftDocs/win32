@@ -1,5 +1,5 @@
 ---
-Description: Copies the logical directory entry file or directory specified in the object path to the location specified by the input parameter.
+description: Copies the logical directory entry file or directory specified in the object path to the location specified by the input parameter.
 ms.assetid: 038e23d7-71db-4db6-8fb1-e84e972510c9
 ms.tgt_platform: multiple
 title: Copy method of the Win32_Directory class
@@ -153,7 +153,7 @@ WMI will not overwrite an existing folder when executing the Copy method. This m
 
 ## Examples
 
-The followng code sample, taken from the [Copy a Folder Using WMI](https://Gallery.TechNet.Microsoft.Com/71b8f517-0240-42a2-be5c-e5a3921604d2), uses the Copy method to copy the folder C:\\Scripts to D:\\Archive.
+The followng code sample uses the Copy method to copy the folder C:\\Scripts to D:\\Archive.
 
 
 ```VB
@@ -175,7 +175,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ClusterServiceAccessBySAP class represents the relationship between a clustering service and its access points.
+description: The CIM\_ClusterServiceAccessBySAP class represents the relationship between a clustering service and its access points.
 ms.assetid: b1e03ef1-909c-4836-a75f-c8d88a4d0087
 ms.tgt_platform: multiple
 title: CIM_ClusterServiceAccessBySAP class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

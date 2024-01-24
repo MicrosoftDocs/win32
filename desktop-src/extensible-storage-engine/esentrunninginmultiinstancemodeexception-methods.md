@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRunningInMultiInstanceModeException methods"
 title: EsentRunningInMultiInstanceModeException methods
 TOCTitle: EsentRunningInMultiInstanceModeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRunningInMultiInstanceModeException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRunningInMultiInstanceModeException](dn350596\(v=exchg.10\).md) type exposes the following members.
+The [EsentRunningInMultiInstanceModeException](./esentrunninginmultiinstancemodeexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentRunningInMultiInstanceModeException class](dn350596\(v=exchg.10\).md)
+[EsentRunningInMultiInstanceModeException class](./esentrunninginmultiinstancemodeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

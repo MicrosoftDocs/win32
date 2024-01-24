@@ -1,5 +1,5 @@
 ---
-Description: You use the BeginPaint and EndPaint functions to prepare for and complete the drawing in the client area.
+description: You use the BeginPaint and EndPaint functions to prepare for and complete the drawing in the client area.
 ms.assetid: ed995bfd-a791-4d73-9a0b-daf65a9f7709
 title: Drawing in the Client Area
 ms.topic: article

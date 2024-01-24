@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the Pen class. For a complete class listing, see Pen Class.
+description: This topic lists the constructors of the Pen class. For a complete class listing, see Pen Class.
 ms.assetid: 30b58e23-b79a-4746-8b2a-d19711ddcd69
 title: Pen.Pen constructors
 ms.date: 07/02/2019

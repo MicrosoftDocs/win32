@@ -175,14 +175,14 @@ You can use this argument with the **-km** or **-um** argument.
 <span id="-cs_namespace"></span><span id="-CS_NAMESPACE"></span>**-cs** *namespace*
 </dt> <dd>
 
-Use this argument to have the compiler generate a C# class based on the .NET 3.5 [EventProvider](/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
+Use this argument to have the compiler generate a C# class based on the .NET 3.5 [EventProvider](/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5&preserve-view=true) class.
 
 </dd> <dt>
 
 <span id="-css_namespace"></span><span id="-CSS_NAMESPACE"></span>**-css** *namespace*
 </dt> <dd>
 
-Use this argument to have the compiler generate a static C# class based on the .NET 3.5 [EventProvider](/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5) class.
+Use this argument to have the compiler generate a static C# class based on the .NET 3.5 [EventProvider](/dotnet/api/system.diagnostics.eventing.eventprovider?view=netframework-3.5&preserve-view=true) class.
 
 </dd> <dt>
 
@@ -365,7 +365,7 @@ mc -h <pathgoeshere> -r <pathgoeshere> spooler.man
 
 ## Requirements
 
-|                          |                                                 |
+| Requirement | Value |
 |--------------------------|-------------------------------------------------|
 | Minimum supported client | Windows 2000 Professional \[desktop apps only\] |
 | Minimum supported server | Windows 2000 Server \[desktop apps only\]       |

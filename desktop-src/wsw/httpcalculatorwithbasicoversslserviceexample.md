@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithBasicOverSslServiceExample
-description: This example shows how to use service host for hosting a calculator service over HTTP, with SSL transport security and HTTP header basic authentication.
+description: Review a Windows Web Services API (WWSAPI) C++ example of an HTTP calculator with basic over-SSL service.
 ms.assetid: ff56afec-da8c-4a2c-b26e-a065f9b73db1
 keywords:
 - HttpCalculatorWithBasicOverSslServiceExample Native-Web-Services

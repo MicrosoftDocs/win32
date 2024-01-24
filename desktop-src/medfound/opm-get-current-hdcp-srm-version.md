@@ -1,5 +1,5 @@
 ---
-Description: Returns the version number of the system renewability message (SRM) currently used by the video output.
+description: Returns the version number of the system renewability message (SRM) currently used by the video output.
 ms.assetid: 65d4b98b-369f-4863-a28c-f9e3b4c2b55d
 title: OPM_GET_CURRENT_HDCP_SRM_VERSION (Opmapi.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Returns the version number of the system renewability message (SRM) currently us
 
 
 
-|              |                                                                             |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_CURRENT\_HDCP\_SRM\_VERSION                                       |
 | Input data   | None                                                                        |
@@ -45,7 +45,7 @@ This query can cause the [**IOPMVideoOutput::GetInformation**](/windows/desktop/
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of floating-point numbers.
+description: ID3DXTextureShader::SetFloatArray method - Sets an array of floating-point numbers.
 ms.assetid: 8e64b569-a6bf-4925-9d21-4df0b6661ee2
 title: ID3DXTextureShader::SetFloatArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

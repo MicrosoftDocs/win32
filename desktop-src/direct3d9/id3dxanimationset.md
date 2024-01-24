@@ -1,5 +1,5 @@
 ---
-Description: This interface encapsulates the minimum functionality required of an animation set by an animation controller.
+description: This interface encapsulates the minimum functionality required of an animation set by an animation controller.
 ms.assetid: 'vs|directx_sdk|~\id3dxanimationset.htm'
 title: ID3DXAnimationSet interface (D3dx9anim.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ typedef interface ID3DXAnimationSet *LPD3DXANIMATIONSET;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

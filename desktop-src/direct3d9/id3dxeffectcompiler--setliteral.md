@@ -1,5 +1,5 @@
 ---
-Description: Toggles the literal status of a parameter. A literal parameter has a value that doesn't change during the lifetime of an effect.
+description: Toggles the literal status of a parameter. A literal parameter has a value that doesn't change during the lifetime of an effect.
 ms.assetid: 09ebf666-8a50-4604-abef-aed0d92a6d49
 title: ID3DXEffectCompiler::SetLiteral method (D3DX9Shader.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ This function must be called before the effect is compiled. Here is an example o
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,6 +1,6 @@
 ---
 title: Player.StringCollectionChange event
-description: The StringCollectionChange event occurs when a string collection changes.
+description: The StringCollectionChange event occurs when a string collection changes. | Player.StringCollectionChange event
 ms.assetid: 465ec694-afd1-4baa-b559-3ab75874388f
 keywords:
 - StringCollectionChange event Windows Media Player
@@ -15,10 +15,13 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Player.StringCollectionChange event
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The StringCollectionChange event occurs when a string collection changes.
 
@@ -53,9 +56,8 @@ Number (long)indicating the type of change that occurred to the string collectio
 
 
 
-|        |                                    |
-|--------|------------------------------------|
 | Number | Description                        |
+|--------|------------------------------------|
 | 0      | Unknown. (Not a valid value)       |
 | 1      | An item was inserted.              |
 | 2      | The string collection changed.     |
@@ -89,7 +91,7 @@ This event does not return a value.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

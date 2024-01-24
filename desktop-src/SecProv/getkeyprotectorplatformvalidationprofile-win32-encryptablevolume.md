@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the platform validation profile for a given key protector of the appropriate type.
+description: Retrieves the platform validation profile for a given key protector of the appropriate type.
 ms.assetid: 45fa6ba7-169c-4753-8586-0029a7650acc
 title: GetKeyProtectorPlatformValidationProfile method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -114,7 +114,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

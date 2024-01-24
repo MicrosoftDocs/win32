@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO Structure"
 title: JET_OBJECTINFO Structure
 TOCTitle: JET_OBJECTINFO Structure
 ms:assetid: 9d348ab3-d453-4316-9233-681f165e8ef1
@@ -47,7 +48,7 @@ The size, in bytes, of the **JET_OBJECTINFO** structure.
 
 **objtyp**
 
-Holds the [JET_OBJTYP](gg269312\(v=exchg.10\).md) of the structure. Currently only tables will be returned (that is, JET_objtypTable).
+Holds the [JET_OBJTYP](./jet-objtyp.md) of the structure. Currently only tables will be returned (that is, JET_objtypTable).
 
 **dtCreate**
 
@@ -61,126 +62,67 @@ Obsolete. Do not use.
 
 A group of bits that contain the options that are available for this call, which include zero or more of the following.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableInfoBookmark</p></td>
-<td><p>The table can have bookmarks.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableInfoRollback</p></td>
-<td><p>The table can be rolled back.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableInfoUpdatable</p></td>
-<td><p>The table can be updated.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitTableInfoBookmark</p> | <p>The table can have bookmarks.</p> | 
+| <p>JET_bitTableInfoRollback</p> | <p>The table can be rolled back.</p> | 
+| <p>JET_bitTableInfoUpdatable</p> | <p>The table can be updated.</p> | 
+
 
 
 **flags**
 
 A bit field that contains zero or more of the following flags.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitObjectSystem</p></td>
-<td><p>The table is a System Table and is for internal use only.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitObjectTableDerived</p></td>
-<td><p>The table inherited DDL from a template table.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitObjectTableFixedDDL</p></td>
-<td><p>The DDL for the table cannot be modified.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitObjectTableNoFixedVarColumnsInDerivedTables</p></td>
-<td><p>Used in conjunction with JET_bitObjectTableTemplate to disallow fixed or variable columns in derived tables (so that fixed or variable columns can be added to the template in the future).</p>
-<p><strong>Windows XP:  </strong>This value is introduced in Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitObjectTableTemplate</p></td>
-<td><p>The table is a template table.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Value</p> | <p>Meaning</p> | 
+|--------------|----------------|
+| <p>JET_bitObjectSystem</p> | <p>The table is a System Table and is for internal use only.</p> | 
+| <p>JET_bitObjectTableDerived</p> | <p>The table inherited DDL from a template table.</p> | 
+| <p>JET_bitObjectTableFixedDDL</p> | <p>The DDL for the table cannot be modified.</p> | 
+| <p>JET_bitObjectTableNoFixedVarColumnsInDerivedTables</p> | <p>Used in conjunction with JET_bitObjectTableTemplate to disallow fixed or variable columns in derived tables (so that fixed or variable columns can be added to the template in the future).</p><p><strong>Windows XP:  </strong>This value is introduced in Windows XP.</p> | 
+| <p>JET_bitObjectTableTemplate</p> | <p>The table is a template table.</p> | 
+
 
 
 **cRecord**
 
 The number of records in the table.
 
-This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](gg269232\(v=exchg.10\).md).
+This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](./jetgetobjectinfo-function.md).
 
 **cPage**
 
 The number of pages that are being used by the table.
 
-This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](gg269232\(v=exchg.10\).md).
+This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](./jetgetobjectinfo-function.md).
 
 ### Remarks
 
-A **JET_OBJECTINFO** structure gets populated by a call to [JetGetObjectInfo](gg269232\(v=exchg.10\).md) or [JetGetTableInfo](gg269177\(v=exchg.10\).md). If the API call does not succeed, the contents of the structure are undefined.
+A **JET_OBJECTINFO** structure gets populated by a call to [JetGetObjectInfo](./jetgetobjectinfo-function.md) or [JetGetTableInfo](./jetgettableinfo-function.md). If the API call does not succeed, the contents of the structure are undefined.
 
-If applicable, the table statistics include the number of records and the number of pages that are in the clustered index (that is, the index containing the record data). The index statistics are accessed separately by name, using [JetGetIndexInfo](gg294084\(v=exchg.10\).md) or [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md).
+If applicable, the table statistics include the number of records and the number of pages that are in the clustered index (that is, the index containing the record data). The index statistics are accessed separately by name, using [JetGetIndexInfo](./jetgetindexinfo-function.md) or [JetGetTableIndexInfo](./jetgettableindexinfo-function.md).
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+
 
 
 ### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_OBJTYP](gg269312\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetIndexInfo](gg294084\(v=exchg.10\).md)  
-[JetGetObjectInfo](gg269232\(v=exchg.10\).md)  
-[JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  
-[JetGetTableInfo](gg269177\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_OBJTYP](./jet-objtyp.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetIndexInfo](./jetgetindexinfo-function.md)  
+[JetGetObjectInfo](./jetgetobjectinfo-function.md)  
+[JetGetTableIndexInfo](./jetgettableindexinfo-function.md)  
+[JetGetTableInfo](./jetgettableinfo-function.md)

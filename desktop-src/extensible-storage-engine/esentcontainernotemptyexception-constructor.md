@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentContainerNotEmptyException constructor"
 title: EsentContainerNotEmptyException constructor 
 TOCTitle: 'EsentContainerNotEmptyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentContainerNotEmptyException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentContainerNotEmptyException()
 
 #### Reference
 
-[EsentContainerNotEmptyException class](dn334323\(v=exchg.10\).md)
+[EsentContainerNotEmptyException class](./esentcontainernotemptyexception-class.md)
 
-[EsentContainerNotEmptyException members](dn274224\(v=exchg.10\).md)
+[EsentContainerNotEmptyException members](./esentcontainernotemptyexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

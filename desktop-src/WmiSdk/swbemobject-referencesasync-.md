@@ -1,5 +1,5 @@
 ---
-Description: The ReferencesAsync\_ method of SWbemObject supplies a collection of all association classes or instances that refer to the current object. This method performs the same function that the WQL REFERENCES OF query performs.
+description: The ReferencesAsync\_ method of SWbemObject supplies a collection of all association classes or instances that refer to the current object. This method performs the same function that the WQL REFERENCES OF query performs.
 ms.assetid: 44989726-3f68-453b-b9f5-e76fb0fbb152
 ms.tgt_platform: multiple
 title: SWbemObject.ReferencesAsync_ method (Wbemdisp.h)
@@ -193,7 +193,7 @@ For more information about the REFERENCES OF associated WQL query, source instan
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

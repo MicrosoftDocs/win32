@@ -1,5 +1,5 @@
 ---
-Description: Copies the contents of a source memory block to a destination memory block, and supports overlapping source and destination memory blocks.
+description: Copies the contents of a source memory block to a destination memory block, and supports overlapping source and destination memory blocks.
 ms.assetid: D374F14D-24C7-4771-AD40-3AC37E7A2D2F
 title: RtlMoveMemory function (Wdm.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Callers of **RtlMoveMemory** can be running at any IRQL if the source and destin
 
 
 
-|                                     |                                                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                    |

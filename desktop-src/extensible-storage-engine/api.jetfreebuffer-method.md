@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetFreeBuffer method"
 title: Api.JetFreeBuffer method 
 TOCTitle: 'JetFreeBuffer method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetFreeBuffer(System.IntPtr)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Frees memory that was allocated by a database engine call.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -65,8 +66,8 @@ This method is internal because we never expose the memory allocated by ESENT to
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

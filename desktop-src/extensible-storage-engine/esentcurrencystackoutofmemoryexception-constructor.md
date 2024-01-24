@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCurrencyStackOutOfMemoryException constructor"
 title: EsentCurrencyStackOutOfMemoryException constructor 
 TOCTitle: 'EsentCurrencyStackOutOfMemoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCurrencyStackOutOfMemoryException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentCurrencyStackOutOfMemoryException()
 
 #### Reference
 
-[EsentCurrencyStackOutOfMemoryException class](dn334249\(v=exchg.10\).md)
+[EsentCurrencyStackOutOfMemoryException class](./esentcurrencystackoutofmemoryexception-class.md)
 
-[EsentCurrencyStackOutOfMemoryException members](dn334336\(v=exchg.10\).md)
+[EsentCurrencyStackOutOfMemoryException members](./esentcurrencystackoutofmemoryexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

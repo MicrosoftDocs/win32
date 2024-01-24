@@ -1,5 +1,5 @@
 ---
-Description: The HANDOFFENTRY structure defines a specific protocol entry in a HANDOFFTABLE structure.
+description: The HANDOFFENTRY structure defines a specific protocol entry in a HANDOFFTABLE structure.
 ms.assetid: 85793326-3007-4dd9-9325-3447d6e09883
 title: HANDOFFENTRY structure (Netmon.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ This structure is filled in by Network Monitor when Network Monitor creates a ha
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

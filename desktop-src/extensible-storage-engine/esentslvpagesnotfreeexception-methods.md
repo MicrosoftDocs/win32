@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotFreeException methods"
 title: EsentSLVPagesNotFreeException methods
 TOCTitle: EsentSLVPagesNotFreeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotFreeException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVPagesNotFreeException](dn350715\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVPagesNotFreeException](./esentslvpagesnotfreeexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVPagesNotFreeException class](dn350715\(v=exchg.10\).md)
+[EsentSLVPagesNotFreeException class](./esentslvpagesnotfreeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

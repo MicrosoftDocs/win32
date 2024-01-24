@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of this ID3DXFileSaveData file data node.
+description: Retrieves the name of this ID3DXFileSaveData file data node.
 ms.assetid: ea697d23-42e7-4661-b605-3654f6a31055
 title: ID3DXFileSaveData::GetName method (D3DX9Xof.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ For this method to succeed, either *szName* or *puiSize* must be non-**NULL**.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

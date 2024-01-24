@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_LogicalDevice class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_LogicalDevice class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 0d9678e0-a956-45d3-ac41-5c1604478fd7
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_LogicalDevice class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# SetPowerState method of the CIM\_LogicalDevice class
+# SetPowerState method of the CIM_LogicalDevice class (CIMWin32 WMI Providers)
 
 The **SetPowerState** method of the CIM\_LogicalDevice class sets the desired power state for a logical device and when a device should be put into that state.
 
@@ -137,7 +137,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

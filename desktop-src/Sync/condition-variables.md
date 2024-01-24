@@ -1,5 +1,5 @@
 ---
-Description: Condition variables are synchronization primitives that enable threads to wait until a particular condition occurs. Condition variables are user-mode objects that cannot be shared across processes.
+description: Condition variables are synchronization primitives that enable threads to wait until a particular condition occurs. Condition variables are user-mode objects that cannot be shared across processes.
 ms.assetid: fef9bab0-cd69-4812-869a-b43a10772d86
 title: Condition Variables
 ms.topic: article

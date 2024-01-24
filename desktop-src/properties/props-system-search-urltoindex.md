@@ -1,5 +1,5 @@
 ---
-Description: Emitted by a container IFilter for each child URL within the container. The children are eventually crawled by the indexer if they are within scope.
+description: Emitted by a container IFilter for each child URL within the container. The children are eventually crawled by the indexer if they are within scope.
 ms.assetid: e864b3fa-6d43-40fe-9556-474953098947
 title: System.Search.UrlToIndex
 ms.topic: article
@@ -27,7 +27,7 @@ propertyDescription
 
 ## Remarks
 
-This property contains a URL and is emitted by a protocol handler for each child URL or directoy under the current URL. The indexer calls back into the protocol handler, and asks for that document to be indexed. [System.Search.UrlToIndex](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) was called PID\_GTHR\_DIRLINK in earlier versions of the Windows operating system.
+This property contains a URL and is emitted by a protocol handler for each child URL or directory under the current URL. The indexer calls back into the protocol handler, and asks for that document to be indexed. [System.Search.UrlToIndex](/previous-versions/windows/desktop/legacy/bb760177(v=vs.85)) was called PID\_GTHR\_DIRLINK in earlier versions of the Windows operating system.
 
 PKEY values are defined in Propkey.h.
 

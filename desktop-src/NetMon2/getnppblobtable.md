@@ -1,5 +1,5 @@
 ---
-Description: The GetNPPBlobTable function retrieves an NPP BLOB table that represents the register NICs on the local computer.
+description: The GetNPPBlobTable function retrieves an NPP BLOB table that represents the register NICs on the local computer.
 ms.assetid: 9e61faf5-1f06-40b5-bf47-f258ffb5151a
 title: GetNPPBlobTable function (Netmon.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ To destroy all returned BLOBs and the BLOB table, the caller is responsible for 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

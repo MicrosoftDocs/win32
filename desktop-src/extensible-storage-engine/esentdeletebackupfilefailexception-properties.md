@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDeleteBackupFileFailException properties"
 title: EsentDeleteBackupFileFailException properties
 TOCTitle: EsentDeleteBackupFileFailException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDeleteBackupFileFailException](dn274267\(v=exchg.10\).md) type exposes the following members.
+The [EsentDeleteBackupFileFailException](./esentdeletebackupfilefailexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDeleteBackupFileFailException class](dn274267\(v=exchg.10\).md)
+[EsentDeleteBackupFileFailException class](./esentdeletebackupfilefailexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

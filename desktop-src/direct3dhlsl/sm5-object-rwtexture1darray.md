@@ -1,6 +1,6 @@
 ---
 title: RWTexture1DArray
-description: A read/write resource.
+description: A read/write resource. | RWTexture1DArray
 ms.assetid: 214c7e7d-4e74-4f4f-bf78-98e9df0b3a0e
 keywords:
 - RWTexture1DArray HLSL

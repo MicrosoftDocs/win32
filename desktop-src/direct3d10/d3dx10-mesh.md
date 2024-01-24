@@ -1,5 +1,5 @@
 ---
-Description: Flags used to specify creation options for a mesh.
+description: D3DX10_MESH enumeration - Flags used to specify creation options for a mesh.
 ms.assetid: 1a5a6b3f-34f4-4338-9ffe-8f95f6f0c385
 title: D3DX10_MESH enumeration (D3DX10Mesh.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ A 32-bit mesh (D3DXMESH\_32BIT) can theoretically support (2³²)-1 faces and ve
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Mesh.h</dt> </dl> |
 

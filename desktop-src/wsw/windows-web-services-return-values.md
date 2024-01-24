@@ -1,7 +1,7 @@
 ---
 title: Windows Web Services Return Values
 ms.assetid: 96285557-8317-4875-b634-e2eacd605901
-description: 
+description: "Learn more about: Windows Web Services Return Values"
 topic_type:
 - apiref
 api_name:

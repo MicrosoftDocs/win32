@@ -1,5 +1,5 @@
 ---
-Description: Determines if an IP address is in a specific subnet.
+description: Determines if an IP address is in a specific subnet.
 ms.assetid: 2fbfad9c-86b1-44c3-860b-a5c98ac6c2e9
 title: isInNetEx function
 ms.topic: reference
@@ -55,7 +55,7 @@ isInNetEx(host, "198.95.0.0/16");
 ```
 
 ``` syntax
-isInNetEx(host, "3ffe:8311:ffff/48");
+isInNetEx(host, "3ffe:8311:ffff::/48");
     true if the IP address of the host matches 3ffe:8311:fff:*:*:*:*:*
 ```
 

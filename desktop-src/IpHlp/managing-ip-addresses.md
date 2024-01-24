@@ -1,5 +1,5 @@
 ---
-Description: IP Helper can assist in the management of IP addresses associated with interfaces on the local computer. Use the functions described in the following paragraphs for IP address management.
+description: IP Helper can assist in the management of IP addresses associated with interfaces on the local computer. Use the functions described in the following paragraphs for IP address management.
 ms.assetid: 94da3e53-1898-4721-b5f0-0b7244574c55
 title: Managing IP Addresses
 ms.topic: article

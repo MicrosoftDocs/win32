@@ -1,5 +1,5 @@
 ---
-Description: Specifies access control permissions for a directory on a smart card.
+description: Specifies access control permissions for a directory on a smart card.
 ms.assetid: 361d9fa0-286e-4d2c-8452-3b5f48e77779
 title: CARD_DIRECTORY_ACCESS_CONDITION enumeration (Cardmod.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Administrators can read, write, and delete the directory.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows XP \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2003, Windows Server 2003 \[desktop apps only\]<br/>            |

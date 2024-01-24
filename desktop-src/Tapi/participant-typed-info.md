@@ -1,5 +1,5 @@
 ---
-Description: The members of the PARTICIPANT\_TYPED\_INFO enum identify the type of participant information being retrieved by the ITParticipant::get\_ParticipantTypedInfo method. This enum is used by applications that access the IPConf MSP.
+description: The members of the PARTICIPANT\_TYPED\_INFO enum identify the type of participant information being retrieved by the ITParticipant::get\_ParticipantTypedInfo method. This enum is used by applications that access the IPConf MSP.
 ms.assetid: ca933d8c-bfb4-4a92-b412-112e228ccca2
 title: PARTICIPANT_TYPED_INFO enumeration (Confpriv.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ Defines an experimental or application-specific Source Description (SDES) extens
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

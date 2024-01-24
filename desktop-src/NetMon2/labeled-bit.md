@@ -1,5 +1,5 @@
 ---
-Description: The LABELED\_BIT structure defines a label BIT pair.
+description: The LABELED\_BIT structure defines a label BIT pair.
 ms.assetid: 500b5159-bf9f-49d4-8567-d8e462015eb0
 title: LABELED_BIT structure (Netmon.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ When a BIT set is specified, Network Monitor displays only the BITs included in 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: An association between a service access point (SAP) and how it is implemented.
+description: Msvm_WiFiDeviceSAPImplementation class - An association between a service access point (SAP) and how it is implemented.
 ms.assetid: d1d99299-f2d9-4025-a48d-cf8180f2f7af
 title: Msvm_WiFiDeviceSAPImplementation class
 ms.topic: reference
@@ -82,7 +82,7 @@ An instance of the [**Msvm\_WiFiEndpoint**](msvm-wifiendpoint.md) class that rep
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

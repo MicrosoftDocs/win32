@@ -1,5 +1,5 @@
 ---
-Description: Gets EAPOL configuration parameters for the specified wireless LAN interface.
+description: Gets EAPOL configuration parameters for the specified wireless LAN interface.
 ms.assetid: 3dce15be-879d-42e9-b8eb-96d52c004acb
 title: WZCEapolGetInterfaceParams function (Wzcsapi.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ If the **WZCEapolGetInterfaceParams** returns ERROR\_SUCCESS, the caller should 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

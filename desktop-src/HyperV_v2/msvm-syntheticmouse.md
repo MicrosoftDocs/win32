@@ -1,5 +1,5 @@
 ---
-Description: Represents a synthetic mouse device.
+description: Represents a synthetic mouse device.
 ms.assetid: 'c04b7aa1-44fe-41f5-943f-ff49ce64be96'
 title: Msvm_SyntheticMouse class
 ms.topic: reference
@@ -1014,7 +1014,7 @@ Access to the **Msvm\_SyntheticMouse** class might be restricted by UAC Filterin
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

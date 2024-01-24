@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the subkeys of the specified open registry key in an offline registry hive. The function retrieves information about one subkey each time it is called.
+description: Enumerates the subkeys of the specified open registry key in an offline registry hive. The function retrieves information about one subkey each time it is called.
 ms.assetid: 46d13c37-473a-4772-992c-a565ad702fb9
 title: OREnumKey function (Offreg.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ While an application is using the **OREnumKey** function, it should not make cal
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

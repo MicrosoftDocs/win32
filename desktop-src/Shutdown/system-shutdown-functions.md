@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with system shutdown.
+description: The following functions are used with system shutdown.
 ms.assetid: 6a08a769-1acf-49eb-ba95-beaf56a374bf
 title: System Shutdown Functions
 ms.topic: article

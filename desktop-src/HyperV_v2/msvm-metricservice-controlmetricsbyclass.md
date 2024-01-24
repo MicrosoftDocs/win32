@@ -1,5 +1,5 @@
 ---
-Description: Controls metrics by class.
+description: Controls metrics by class.
 ms.assetid: f848fdec-561b-4be0-b1e9-a59e15196d1d
 title: ControlMetricsByClass method of the Msvm_MetricService class
 ms.topic: reference
@@ -117,7 +117,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

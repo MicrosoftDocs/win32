@@ -1,9 +1,9 @@
 ---
-Description: Constructor method. The constuctor provides the mapping between old-style multimedia format DWORD types and GUID subtypes.
+description: "A constructor method that provides the mapping between old-style multimedia format DWORD types and GUID subtypes. This method uses the 'pguid' parameter."
 ms.assetid: 4de6cb49-938e-42f8-8687-dc60a0f23e87
-title: FOURCCMap::FOURCCMap constructor (Fourcc.h)
+title: FOURCCMap::FOURCCMap constructor (Fourcc.h) - pguid parameter
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -16,9 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
+ms.custom: UpdateFrequency5
 ---
 
-# FOURCCMap::FOURCCMap constructor
+# FOURCCMap::FOURCCMap constructor (Fourcc.h) - pguid parameter
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Constructor method. The constuctor provides the mapping between old-style multimedia format **DWORD** types and **GUID** subtypes.
 
@@ -50,14 +53,10 @@ If this object is constructed with the **FOURCC** code, a **GUID** is created to
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Fourcc.h (include Streams.h)</dt> </dl>                                                                                    |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Requirement | Value |
+|-|-|
+| Header  | Fourcc.h (include Streams.h) |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

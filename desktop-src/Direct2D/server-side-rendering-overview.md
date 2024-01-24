@@ -28,7 +28,7 @@ Direct2D is well-suited for graphics applications that require server-side rende
 
 The following is a typical scenario for a chart server: charts and graphics are rendered on a server and delivered as bitmaps in response to Web requests. The server might be equipped with a low-end graphics card or no graphics card at all.
 
-This scenario reveals three application requirements. First, the application must handle multiple concurrent requests efficiently, especially on multicore servers. Second, the application must use software rendering when running on servers with a low-end graphics card or no graphics card. Finally, the application must run as a service in Session 0 so that it does not require a user to be logged in. For more information about Session 0, see [Impact of Session 0 Isolation on Services and Drivers in Windows](https://www.microsoft.com/whdc/system/sysinternals/Session0Changes.mspx).
+This scenario reveals three application requirements. First, the application must handle multiple concurrent requests efficiently, especially on multicore servers. Second, the application must use software rendering when running on servers with a low-end graphics card or no graphics card. Finally, the application must run as a service in Session 0 so that it does not require a user to be logged in. For more info about Session 0, see [Application Compatibility - Session 0 Isolation](https://techcommunity.microsoft.com/t5/ask-the-performance-team/application-compatibility-session-0-isolation/ba-p/372361) and [Session Zero Guidelines for UMDF Drivers](/windows-hardware/drivers/wdf/session-zero-guidelines-for-umdf-drivers).
 
 ## Options for Available APIs
 
@@ -48,7 +48,7 @@ Similar to GDI, GDI+ is limited by its locking mechanism. The locking mechanisms
 
 ### Direct2D
 
-Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high-quality rendering. It offers a single-threaded and a multithreaded factory and the linear scaling of course-grained software rendering.
+Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high-quality rendering. It offers a single-threaded and a multithreaded factory and the linear scaling of coarse-grained software rendering.
 
 To do this, Direct2D defines a root factory interface. As a rule, an object created on a factory can only be used with other objects created from the same factory. The caller can request either a single-threaded or a multithreaded factory when it is created. If a single-threaded factory is requested, then no locking of threads is performed. If the caller requests a multithreaded factory, then, a factory-wide thread lock is acquired whenever a call is made into Direct2D.
 

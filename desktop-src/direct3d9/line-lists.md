@@ -1,5 +1,5 @@
 ---
-Description: A line list is a list of isolated, straight line segments.
+description: A line list is a list of isolated, straight line segments.
 ms.assetid: bb02b3d6-f30f-4f2b-8b40-a7e37faf524a
 title: Line Lists
 ms.topic: article

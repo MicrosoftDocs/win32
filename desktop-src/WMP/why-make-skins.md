@@ -9,16 +9,19 @@ keywords:
 - Windows Media Player skins,examples
 - skins,examples
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Why Make Skins?
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When someone uses a program in a graphical computing environment such as Microsoft Windows, the visual components with which the user interacts make up the user interface. One of the purposes of Microsoft Windows is to provide a standard user interface so that all programs will operate in a similar, familiar way. For example, Microsoft recommends, in the Microsoft Windows User Experience, that every program provide a **Close** button in the upper-right corner of the main window of the program.
 
 Windows Media Player provides the capabilities for creating your own user interface. If you want to put the **Close** button in the middle of the screen, you can do that. Perhaps you do not like the way the **Close** button looks (it looks like an X inside a box); if you want it to look like a skull and crossbones, you can make a user interface where the **Close** button is just that! Windows Media Player gives you all the tools you need to make a custom user interface for playing music and video: buttons, slider bars, video windows, visualization windows, equalization bars, and so on.
 
-There are several good reasons why you might want to create your own user interface for Windows Media Player. One reason is that you might want to add functionality that is not already in Windows Media Player. For example, you might want to create a player that plays music from playlists that are based on the time of day, so that you have upbeat rock in the morning and slow jazz in the evening. Or perhaps you want to make a skin with a big red button that will stop the music quickly. Windows Media Player does not come with a "play the same song over and over again until my roommate goes crazy" button, but if you want one, you can create it.
+There are several good reasons why you might want to create your own user interface for Windows Media Player. One reason is that you might want to add functionality that is not already in Windows Media Player. For example, you might want to create a player that plays music from playlists that are based on the time of day, so that you have upbeat rock in the morning and slow jazz in the evening. Or perhaps you want to make a skin with a big red button that will stop the music quickly. Windows Media Player does not come with a "play the same song over and over again until my roommate gets angry" button, but if you want one, you can create it.
 
 Another reason for creating a skin is to make a branded look for Windows Media Player. If you are distributing music from your website and use a particular logo, you might want to design a skin that uses your logo to remind people about your site. If you have a rock band, you can make a skin with pictures of your band on it.
 

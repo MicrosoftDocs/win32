@@ -22,7 +22,7 @@ An instance of this class holds the definition of a property on resources.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Resource-Property              |
 | Ldap-Display-Name | msDS-ResourceProperty                |
@@ -42,7 +42,7 @@ An instance of this class holds the definition of a property on resources.
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |

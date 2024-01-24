@@ -1,5 +1,5 @@
 ---
-Description: Adds a data object as a child object. Deprecated.
+description: Adds a data object as a child object. Deprecated.
 ms.assetid: 43771dd6-c17f-4376-9b0a-459ba61ff4c5
 title: IDirectXFileData::AddDataObject method (DXFile.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Use the [**IDirectXFileSaveObject::CreateDataObject**](idirectxfilesaveobject--c
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

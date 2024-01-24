@@ -1,5 +1,5 @@
 ---
-Description: The term blit is shorthand for &\#0034;bit block transfer,&\#0034; which is the process of transferring blocks of data from one place in memory to another.
+description: The term blit is shorthand for &\#0034;bit block transfer,&\#0034; which is the process of transferring blocks of data from one place in memory to another.
 ms.assetid: 5f2aed2e-66d2-40e6-be35-92c3f92d17bd
 title: Copying Surfaces (Direct3D 9)
 ms.topic: article

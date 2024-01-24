@@ -1,6 +1,6 @@
 ---
 title: Raw Input Structures
-description: .
+description: Raw Input Structures
 ms.assetid: e6ea3fde-98a0-4eab-888d-647a6b0eb1e2
 ms.topic: article
 ms.date: 03/25/2020

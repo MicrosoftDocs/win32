@@ -1,5 +1,5 @@
 ---
-Description: Specifies to constrict audio.
+description: Specifies to constrict audio.
 ms.assetid: 455F12C9-FBD0-483F-AAC1-63FAC2A5F1F3
 title: MFPROTECTION_CONSTRICTAUDIO attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies to constrict audio.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

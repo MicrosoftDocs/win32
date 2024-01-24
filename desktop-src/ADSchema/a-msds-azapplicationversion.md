@@ -22,7 +22,7 @@ A version number to indicate that the AzApplication is updated.
 
 
 
-|                   |                                                      |
+| Entry | Value |
 |-------------------|------------------------------------------------------|
 | CN                | ms-DS-Az-Application-Version                         |
 | Ldap-Display-Name | msDS-AzApplicationVersion                            |
@@ -47,7 +47,7 @@ A version number to indicate that the AzApplication is updated.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -68,7 +68,7 @@ A version number to indicate that the AzApplication is updated.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -89,7 +89,7 @@ A version number to indicate that the AzApplication is updated.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -110,7 +110,7 @@ A version number to indicate that the AzApplication is updated.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -131,7 +131,7 @@ A version number to indicate that the AzApplication is updated.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |

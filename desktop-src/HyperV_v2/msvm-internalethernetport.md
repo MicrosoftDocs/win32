@@ -1,5 +1,5 @@
 ---
-Description: Represents an internal Ethernet port (network adapter).
+description: Represents an internal Ethernet port (network adapter).
 ms.assetid: 43277FA7-E040-49F2-A086-AF19B29D4F75
 title: Msvm_InternalEthernetPort class
 ms.topic: reference
@@ -1105,7 +1105,7 @@ See [Querying networking objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

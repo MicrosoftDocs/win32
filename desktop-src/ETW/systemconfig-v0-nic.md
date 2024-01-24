@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for network interface card configuration events.
+description: This class is the event type class for network interface card configuration events.
 ms.assetid: 1cae611b-fb6a-4416-8fd4-0c882e8aa5e6
 title: SystemConfig_V0_NIC class
 ms.topic: reference
@@ -333,7 +333,7 @@ Subnet mask associated with the network interface card. Each byte of the sint32 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

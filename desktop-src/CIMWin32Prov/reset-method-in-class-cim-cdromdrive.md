@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_CDROMDrive class requests a reset of the logical device.
+description: The Reset method of the CIM\_CDROMDrive class requests a reset of the logical device.
 ms.assetid: 9d422fb3-8332-4be5-8e90-0e782640748a
 ms.tgt_platform: multiple
 title: Reset method of the CIM_CDROMDrive class
@@ -52,7 +52,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

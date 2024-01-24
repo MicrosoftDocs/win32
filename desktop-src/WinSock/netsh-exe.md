@@ -1,5 +1,5 @@
 ---
-Description: The Netsh commands for IPv6 provide a command-line tool that you can use to query and configure IPv6 interfaces, address, caches, and routes. The Netsh interface IPv6 commands are supported on Windows XP with Service Pack 1 (SP1) and later.
+description: The Netsh commands for IPv6 provide a command-line tool that you can use to query and configure IPv6 interfaces, address, caches, and routes. The Netsh interface IPv6 commands are supported on Windows XP with Service Pack 1 (SP1) and later.
 ms.assetid: 68e17a55-4dd5-40cd-8996-25fa278ddd19
 title: Netsh.exe
 ms.topic: article
@@ -23,14 +23,14 @@ The following are a few commonly used commands for IPv6, although many other com
 <span id="netsh_interface_ipv6_add_address"></span><span id="NETSH_INTERFACE_IPV6_ADD_ADDRESS"></span>**netsh interface ipv6 add address**
 </dt> <dd>
 
-Adds an IPv6 address to a specific interface on the local computer. This command has suboption parameters that must to be specified.
+Adds an IPv6 address to a specific interface on the local computer. This command has suboption parameters that must be specified.
 
 </dd> <dt>
 
 <span id="netsh_interface_ipv6_add_dns"></span><span id="NETSH_INTERFACE_IPV6_ADD_DNS"></span>**netsh interface ipv6 add dns**
 </dt> <dd>
 
-Adds a DNS server IPv6 address to the statically-configured list of DNS servers for the specified interface on the local computer. This command has suboption parameters that must to be specified.
+Adds a DNS server IPv6 address to the statically-configured list of DNS servers for the specified interface on the local computer. This command has suboption parameters that must be specified.
 
 </dd> <dt>
 

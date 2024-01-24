@@ -22,7 +22,7 @@ Indicates whether the password for the account this attribute references will ex
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-User-Dont-Expire-Password      |
 | Ldap-Display-Name | msDS-UserDontExpirePassword          |
@@ -43,7 +43,7 @@ Indicates whether the password for the account this attribute references will ex
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

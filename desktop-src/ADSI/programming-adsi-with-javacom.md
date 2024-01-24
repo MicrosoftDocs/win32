@@ -60,7 +60,7 @@ Visual J++ creates the activeds package for the Java Wrapper classes and include
 
 To get an ADSI object that cannot be cocreated, use one of the exposed ADSI API functions, for example, [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) or [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject), which are also packaged in Activeds.dll. Microsoft J/Direct provides access to these and other native APIs. This is illustrated by the last two lines of the code example, above.
 
-When compiling, ensure that Microsoft Language Extension is enabled. To do this, select **<project> Properties...** from the **Project** menu in the Visual J++ project window. Then, click the **Compile** tab in the **<project> Properties** dialog. Clear the **Disable Microsoft Language Extensions** check box. If compiling from the command line, use "/x-" switch, for example:
+When compiling, ensure that Microsoft Language Extension is enabled. To do this, select **&lt;project&gt; Properties...** from the **Project** menu in the Visual J++ project window. Then, click the **Compile** tab in the **&lt;project&gt; Properties** dialog. Clear the **Disable Microsoft Language Extensions** check box. If compiling from the command line, use "/x-" switch, for example:
 
 **jvc /x- SimpleADSI.java**
 

@@ -1,5 +1,5 @@
 ---
-Description: Unregisters the specified database, making it no longer available.
+description: Unregisters the specified database, making it no longer available.
 ms.assetid: 7e6c50f4-85f6-4b33-b639-d8fda143e5e7
 title: SdbUnregisterDatabase function
 ms.topic: reference
@@ -49,7 +49,7 @@ The function returns **TRUE** on success or **FALSE** on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

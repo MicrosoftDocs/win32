@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseSignInUseException properties"
 title: EsentDatabaseSignInUseException properties
 TOCTitle: EsentDatabaseSignInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseSignInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseSignInUseException](dn334488\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseSignInUseException](./esentdatabasesigninuseexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseSignInUseException class](dn334488\(v=exchg.10\).md)
+[EsentDatabaseSignInUseException class](./esentdatabasesigninuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

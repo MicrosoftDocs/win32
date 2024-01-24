@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 A security desciption is represented by a [**WS\_SECURITY\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_security_description) structure, and an instance of a security description is supplied when you call the [**WsCreateChannel**](/windows/desktop/api/WebServices/nf-webservices-wscreatechannel) function to create a secure channel or the [**WsCreateListener**](/windows/desktop/api/WebServices/nf-webservices-wscreatelistener) function to create a listener.
 
-## 
 
 ## Structure of a Security Description
 
@@ -22,7 +21,7 @@ The basic model of channel security is that a channel is secured with one or mor
 
 Optional security settings that are specific to a security binding are specified as [security binding settings](security-binding-settings.md) in the security binding structure; however, channel-wide settings independent of security bindings are directly specified as [security channel settings](security-channel-settings.md) in the **properties** field of the security description itself.
 
-![](images/securitydescription.png)
+![Diagram showing the structure of a security description.](images/securitydescription.png)
 
 The following API elements are used with security descriptions.
 

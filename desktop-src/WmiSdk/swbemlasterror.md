@@ -1,5 +1,5 @@
 ---
-Description: The methods and properties of the SWbemLastError object contain and manipulate error objects.
+description: The methods and properties of the SWbemLastError object contain and manipulate error objects.
 ms.assetid: 11a652fa-29e8-437b-8e62-e28e56a8a38d
 ms.tgt_platform: multiple
 title: SWbemLastError object (Wbemdisp.h)
@@ -237,7 +237,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

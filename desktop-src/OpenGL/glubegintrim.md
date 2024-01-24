@@ -1,6 +1,6 @@
 ---
 title: gluBeginTrim function (Glu.h)
-description: The gluBeginTrim and gluEndTrim functions delimit a Non-Uniform Rational B-Spline (NURBS) trimming loop definition.
+description: The gluBeginTrim and gluEndTrim functions delimit a Non-Uniform Rational B-Spline (NURBS) trimming loop definition. | gluBeginTrim function (Glu.h)
 ms.assetid: 636402d0-8f6d-4ad8-84c6-66364025d788
 keywords:
 - gluBeginTrim function OpenGL
@@ -78,7 +78,7 @@ gluEndTrim(nobj);
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

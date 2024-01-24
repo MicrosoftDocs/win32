@@ -22,7 +22,7 @@ This attribute controls the granularity, in days, with which the last logon time
 
 
 
-|                   |                                                                                                            |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------|
 | CN                | ms-DS-Logon-Time-Sync-Interval                                                                             |
 | Ldap-Display-Name | msDS-LogonTimeSyncInterval                                                                                 |
@@ -47,7 +47,7 @@ This attribute controls the granularity, in days, with which the last logon time
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -68,7 +68,7 @@ This attribute controls the granularity, in days, with which the last logon time
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -89,7 +89,7 @@ This attribute controls the granularity, in days, with which the last logon time
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -110,7 +110,7 @@ This attribute controls the granularity, in days, with which the last logon time
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -131,7 +131,7 @@ This attribute controls the granularity, in days, with which the last logon time
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

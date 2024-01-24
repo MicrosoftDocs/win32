@@ -1,5 +1,5 @@
 ---
-Description: The GetNPPPatternFilterFromBlob function retrieves the pattern match filter from a specific BLOB.
+description: The GetNPPPatternFilterFromBlob function retrieves the pattern match filter from a specific BLOB.
 ms.assetid: b17cde55-8abb-4699-960f-676cbbb24326
 title: GetNPPPatternFilterFromBlob function (Netmon.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ The pattern match filter information is stored in the **Config** category of the
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

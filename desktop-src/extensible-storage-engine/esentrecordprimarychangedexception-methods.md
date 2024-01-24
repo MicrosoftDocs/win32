@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordPrimaryChangedException methods"
 title: EsentRecordPrimaryChangedException methods
 TOCTitle: EsentRecordPrimaryChangedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordPrimaryChangedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecordPrimaryChangedException](dn319853\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordPrimaryChangedException](./esentrecordprimarychangedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentRecordPrimaryChangedException class](dn319853\(v=exchg.10\).md)
+[EsentRecordPrimaryChangedException class](./esentrecordprimarychangedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

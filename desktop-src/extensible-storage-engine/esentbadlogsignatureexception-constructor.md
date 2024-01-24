@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogSignatureException constructor"
 title: EsentBadLogSignatureException constructor 
 TOCTitle: 'EsentBadLogSignatureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadLogSignatureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentBadLogSignatureException()
 
 #### Reference
 
-[EsentBadLogSignatureException class](dn274072\(v=exchg.10\).md)
+[EsentBadLogSignatureException class](./esentbadlogsignatureexception-class.md)
 
-[EsentBadLogSignatureException members](dn274035\(v=exchg.10\).md)
+[EsentBadLogSignatureException members](./esentbadlogsignatureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

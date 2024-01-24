@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the NPP status.
+description: Retrieves the NPP status.
 ms.assetid: 48682997-f641-4ae5-b5ad-64fd84f07ae3
 title: IESP::QueryStatus method (Netmon.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Before calling this method, allocate the memory required for the [NETWORKSTATUS]
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

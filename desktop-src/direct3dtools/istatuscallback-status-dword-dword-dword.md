@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of the engines progress. This also serves as a way for the host to determine that the engine is still running.
+description: A callback function used to notify the host of the engines progress. This also serves as a way for the host to determine that the engine is still running.
 title: "IStatusCallback::Status method"
 ms.topic: reference
 ms.date: 05/31/2018
@@ -48,7 +48,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
 ## <span id="see_also"></span>See also
 

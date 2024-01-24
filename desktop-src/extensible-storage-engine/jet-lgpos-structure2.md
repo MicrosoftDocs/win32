@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS structure"
 title: JET_LGPOS structure
 TOCTitle: JET_LGPOS structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_LGPOS
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Describes an offset in the log sequence.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,7 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_LGPOS members](hh566576\(v=exchg.10\).md)
+[JET_LGPOS members](./jet-lgpos-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

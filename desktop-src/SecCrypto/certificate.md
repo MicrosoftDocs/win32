@@ -1,5 +1,5 @@
 ---
-Description: Represents a single digital certificate.
+description: Represents a single digital certificate.
 ms.assetid: 'da95312b-cc9f-44f0-9517-0b28c5fcfb61'
 title: Certificate object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Certificate object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Certificate** object represents a single [*digital certificate*](../secgloss/d-gly.md).
 
@@ -106,7 +106,7 @@ The **Certificate** object can be created, and it is safe for scripting. The Pro
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

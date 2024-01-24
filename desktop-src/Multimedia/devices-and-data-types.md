@@ -27,10 +27,13 @@ keywords:
 - waveform-audio interface,closing output devices
 - closing waveform-audio output devices
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Devices and Data Types
+
+\[The feature associated with this page, [Waveform Audio](/windows/win32/multimedia/waveform-audio), is a legacy feature. It has been superseded by [WASAPI](/windows/win32/coreaudio/wasapi) and [Audio Graphs](/windows/uwp/audio-video-camera/audio-graphs). **WASAPI** and **Audio Graphs** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **WASAPI** and **Audio Graphs** instead of **Waveform Audio**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This section describes working with waveform-audio devices, and includes information on how to open, close and query them for their capabilities. It also describes how to keep track of the devices in a system by using device handles and device identifiers.
 
@@ -76,9 +79,8 @@ Each of these functions fills a structure with information about the capabilitie
 
 
 
-|                                                |                                    |
+|  Function                                              |  Structure                                  |
 |------------------------------------------------|------------------------------------|
-| Function                                       | Structure                          |
 | [**auxGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetdevcaps)         | [**AUXCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-auxcaps)         |
 | [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps)   | [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)   |
 | [**waveOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetdevcaps) | [**WAVEOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps) |
@@ -141,9 +143,8 @@ The **lpData** member of the [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-w
 
 
 
-|             |                 |                  |                |
-|-------------|-----------------|------------------|----------------|
 | Data format | Maximum value   | Minimum value    | Midpoint value |
+|-------------|-----------------|------------------|----------------|
 | 8-bit PCM   | 255 (0xFF)      | 0                | 128 (0x80)     |
 | 16-bit PCM  | 32,767 (0x7FFF) | –32,768 (0x8000) | 0              |
 

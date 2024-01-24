@@ -22,7 +22,7 @@ Disable packet privacy on a connection.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-DisablePacketPrivacy         |
 | Ldap-Display-Name | msDFSR-DisablePacketPrivacy          |
@@ -45,7 +45,7 @@ Disable packet privacy on a connection.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -66,7 +66,7 @@ Disable packet privacy on a connection.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -87,7 +87,7 @@ Disable packet privacy on a connection.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

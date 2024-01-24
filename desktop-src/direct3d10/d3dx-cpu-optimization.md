@@ -1,5 +1,5 @@
 ---
-Description: Specifies the instruction set D3DX is currently optimized for.
+description: Specifies the instruction set D3DX is currently optimized for.
 ms.assetid: 5fc97028-4a9d-4bc7-9c90-236a70e570e1
 title: D3DX_CPU_OPTIMIZATION enumeration (D3DX10Math.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Optimize for an SSE instruction set.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

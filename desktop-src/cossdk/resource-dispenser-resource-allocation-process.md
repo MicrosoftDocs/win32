@@ -1,5 +1,5 @@
 ---
-Description: Resource Dispenser Resource Allocation Process
+description: Resource Dispenser Resource Allocation Process
 ms.assetid: 695d08f4-ba5c-4a5f-a2ad-481a8ede49ab
 title: Resource Dispenser Resource Allocation Process
 ms.topic: article

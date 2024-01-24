@@ -1,5 +1,5 @@
 ---
-Description: The LINETERMDEV\_ bit-flag constants describe different types of terminal devices.
+description: The LINETERMDEV\_ bit-flag constants describe different types of terminal devices.
 ms.assetid: 3444d022-8225-4956-89a1-721b4662d557
 title: LINETERMDEV_ Constants (Tapi.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ These constants are used to characterize a line's terminal device and help an ap
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

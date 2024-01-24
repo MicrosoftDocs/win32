@@ -1,5 +1,5 @@
 ---
-Description: The SWbemPropertySet object exposes the following properties.
+description: The SWbemPropertySet object exposes the following properties.
 ms.assetid: 40837F5B-1F56-40E3-A28F-54BBAF950211
 ms.tgt_platform: multiple
 title: SWbemPropertySet Properties

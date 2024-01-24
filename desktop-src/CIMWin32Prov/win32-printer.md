@@ -1,5 +1,5 @@
 ---
-Description: Represents a device connected to a computer running on a Microsoft Windows operating system that can produce a printed image or text on paper or other medium.
+description: Represents a device connected to a computer running on a Microsoft Windows operating system that can produce a printed image or text on paper or other medium.
 ms.assetid: 58090e6a-8f13-4859-adb8-a7c6299d3efd
 ms.tgt_platform: multiple
 title: Win32_Printer class
@@ -5505,10 +5505,6 @@ You cannot use the **Win32\_Printer** class for printers on an MSCS print cluste
 
 ## Examples
 
-The [PS Create a Computer Configuration Drawing using Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell sample on TechNet Gallery uses **Win32\_Printer** to interact with Visio automation model to create a Visio drawing.
-
-The [Powershell Remote PC Info Script](https://Gallery.TechNet.Microsoft.Com/2a8a008c-ee30-4b50-a81a-1b7545ef3436) uses a number of classes, including **Win32\_Printer**, to retrieve information about a remote computer.
-
 The following PowerShell code sample shows how to determine the default printer of the local computer.
 
 
@@ -5592,7 +5588,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

@@ -1,5 +1,5 @@
 ---
-Description: There are several functions that help create and compile effects.
+description: There are several functions that help create and compile effects.
 ms.assetid: 8aa68b19-d248-448a-9364-42913253c55f
 title: Effect Functions
 ms.topic: article

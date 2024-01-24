@@ -1,5 +1,5 @@
 ---
-Description: Describes a JPEG quantization table.
+description: Describes a JPEG quantization table.
 ms.assetid: DE1AAB15-B0B8-4594-BBCE-5F8EE5CE0AF7
 title: DXGI_JPEG_QUANTIZATION_TABLE structure (Dxgitype.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ An array of bytes containing the elements of the quantization table.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dxgitype.h</dt> </dl> |
 

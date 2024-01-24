@@ -1,5 +1,5 @@
 ---
-Description: Represents the event type class for handle duplication events.
+description: Represents the event type class for handle duplication events.
 ms.assetid: a933ffaa-8c99-4b87-ad00-4c40fa4d8d26
 title: ObHandleDuplicateEvent class
 ms.topic: reference
@@ -135,7 +135,7 @@ The process identifier of the target.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |

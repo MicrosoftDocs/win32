@@ -1,7 +1,7 @@
-- name: "Desktop Win32 Apps"
+- name: "Desktop Win32 apps"
   href: ./index.yml
   items: 
-  - name: "Get Started"
+  - name: "Get started"
     items: 
     - name: "Overview"
       href: ./desktop-programming.md
@@ -38,23 +38,7 @@
       - name: "Overview"
         href: ./desktop-app-technologies.md
       - name: "Accessibility"
-        items: 
-        - name: "Overview"
-          href: ./accessibility/accessibility.md
-        - name: "What's new in Windows accessibility and automation"
-          href: ./accessibility/accessibility-whatsnew.md
-        - name: "Developing accessible Windows applications"
-          href: ./accessibility/accessibility-appdev.md
-        - name: "Developing accessible UI frameworks"
-          href: accessibility/accessibility-uiframeworkdev.md
-        - name: "Developing assistive technology for Windows"
-          href: ./accessibility/accessibility-atdev.md
-        - name: "Testing for accessibility"
-          href: ./accessibility/accessibility-testwithuia.md
-        - name: "Legacy accessibility and automation technology"
-          href: ./accessibility/accessibility-legacy.md
-        - name: "Accessibility and automation feature reference"
-          href: ./accessibility/accessibility-reference-old.md
+        href: ./winauto/accessibility.md
       - name: "Desktop App User Interface"
         items: 
         - name: "Overview"
@@ -145,6 +129,8 @@
           href: ./devlic/developer-licensing-portal.md
         - name: "Restart Manager"
           href: ./rstmgr/restart-manager-portal.md
+        - name: "Update Orchestrator"
+          href: ./UpdateOrchestrator/index.md
         - name: "Windows Installer"
           href: ./msi/windows-installer-portal.md
       - name: "Audio and Video"
@@ -212,7 +198,7 @@
         - name: "Web Services on Devices"
           href: wsdapi/wsd-portal.md
         - name: "WIA"
-          href: ./wsdapi/wsd-portal.md
+          href: ./wia/-wia-startpage.md
       - name: "Windows Media Device Manager 11 SDK"
         href: ./wmdm/windows-media-device-manager-11-sdk.md
       - name: "Windows Portable Devices"
@@ -301,6 +287,10 @@
             href: ./dxcore/dxcore.md
           - name: "DirectWrite"
             href: ./directwrite/direct-write-portal.md
+          - name: "DirectStorage"
+            items: 
+            - name: "Overview"
+              href: ./dstorage/dstorage-portal.md
           - name: "DirectXMath"
             href: ./dxmath/directxmath-portal.md
           - name: "windowsnumerics.h APIs"
@@ -329,6 +319,8 @@
             href: ./xinput/xinput-game-controller-apis-portal.md
         - name: "DirectComposition"
           href: ./directcomp/directcomposition-portal.md
+        - name: "Composition swapchain"
+          href: ./comp_swapchain/comp-swapchain-portal.md
         - name: "GDI+"
           href: ./gdiplus/-gdiplus-gdi-start.md
         - name: "Windows GDI"
@@ -341,6 +333,8 @@
           href: ./wic/-wic-lh.md
         - name: "Windows Mixed Reality"
           href: ./mixedreality/mixed-reality-portal.md
+        - name: "Windows Color System"
+          href: ./wcs/windows-color-system.md
       - name: "Networking and Internet"
         items: 
         - name: "Overview"
@@ -472,6 +466,8 @@
           href: ./secgloss/security-glossary.md
         - name: "TPM Base Services"
           href: ./tbs/tpm-base-services-portal.md
+        - name: "WebAuthN"
+          href: ./webauthn/-webauthn-portal.md
         - name: "Windows Biometric Framework"
           href: ./secbiomet/biometric-service-api-portal.md
       - name: "System Services"
@@ -484,12 +480,16 @@
           href: ./midl/midl-start-page.md
         - name: "Structured Storage"
           href: ./stg/structured-storage-start-page.md
+        - name: "Activity Coordinator"
+          href: ./activity_coordinator/-activity-coordinator-portal.md
         - name: "COM+"
           href: ./cossdk/component-services-portal.md
         - name: "Compression API"
           href: ./cmpapi/-compression-portal.md
         - name: "Dynamic-Link Libraries"
           href: ./dlls/dynamic-link-libraries.md
+        - name: "Hardware Requirement Evaluator"
+          href: ./hwreqchkapi/index.md
         - name: "Interprocess Communications"
           href: ./ipc/interprocess-communications.md
         - name: "Kernel Transaction Manager"
@@ -510,8 +510,8 @@
           href: ./sync/synchronization.md
         - name: "Windows System Information"
           href: ./sysinfo/windows-system-information.md
-      - name: "Windows Machine Learning"
-        href: ./machinelearning/machine-learning-portal.md
+      - name: "AI and machine learning"
+        href: /windows/ai/
       - name: "Developer Notes"
         href: ./devnotes/developer-notes.md
     - name: "Develop with Server Technologies"
@@ -608,3 +608,5 @@
       href: ./winrt/reference.md
     - name: "Windows Certification"
       href: ./win_cert/windows-certification-portal.md
+  - name: "Desktop Win32 code samples"
+    href: ./desktop-win32-code-samples.md

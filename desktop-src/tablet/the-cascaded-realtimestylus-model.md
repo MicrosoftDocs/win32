@@ -1,5 +1,5 @@
 ---
-Description: Overview of the cascaded model for the RealTimeStylus class.
+description: Overview of the cascaded model for the RealTimeStylus class.
 ms.assetid: f4c377a7-979d-4a06-a8de-31b8e67d74f8
 title: The Cascaded RealTimeStylus Model
 ms.topic: article
@@ -35,54 +35,19 @@ The following list describes the constraints associated with using the cascaded 
 
     
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Member</th>
-    <th>Behavior</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><a href="/previous-versions/ms825905(v=msdn.10)">GetDesiredPacketDescription</a></td>
-    <td>This method returns the information from the primary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns the default value.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><a href="/previous-versions/ms826041(v=msdn.10)">SetDesiredPacketDescription</a></td>
-    <td>This method raises an <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> exception.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td><a href="/previous-versions/ms825913(v=msdn.10)">GetStyluses</a></td>
-    <td>This method returns the information from the primary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns an empty array.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><a href="/previous-versions/ms824832(v=msdn.10)">Enabled</a></td>
-    <td>Getting this property returns the information from the primary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
-    <blockquote>
-    [!Note]<br />
-    Setting this property raises an <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> exception.
-    </blockquote>
-    <br/></td>
-    </tr>
-    <tr class="odd">
-    <td><a href="/previous-versions/ms824834(v=msdn.10)">WindowInputRectangle</a></td>
-    <td>Getting this property returns the information from the primary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object.<br/> If the secondary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, getting this property returns the default value.<br/>
-    <blockquote>
-    [!Note]<br />
-    Setting this property raises an <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> exception.
-    </blockquote>
-    <br/></td>
-    </tr>
-    </tbody>
-    </table>
-
     
+| Member | Behavior | 
+|--------|----------|
+| <a href="/previous-versions/ms825905(v=msdn.10)">GetDesiredPacketDescription</a> | This method returns the information from the primary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object.<br /> If the secondary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns the default value.<br /> | 
+| <a href="/previous-versions/ms826041(v=msdn.10)">SetDesiredPacketDescription</a> | This method raises an <a href="/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> exception.<br /> | 
+| <a href="/previous-versions/ms825913(v=msdn.10)">GetStyluses</a> | This method returns the information from the primary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> object.<br /> If the secondary <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> is not attached to a primary <strong>RealTimeStylus</strong> object, this method returns an empty array.<br /> | 
+| [Enabled](/previous-versions/ms824832(v=msdn.10)) | Getting this property returns the information from the primary [**RealTimeStylus**](realtimestylus-class.md) object.<br> If the secondary [**RealTimeStylus**](realtimestylus-class.md) is not attached to a primary **RealTimeStylus** object, getting this property returns the default value.<br>     **Note:**     Setting this property raises an [InvalidOperationException](/dotnet/api/system.invalidoperationexception) exception.    <br> | 
+| [WindowInputRectangle](/previous-versions/ms824834(v=msdn.10)) | Getting this property returns the information from the primary [**RealTimeStylus**](realtimestylus-class.md) object.<br> If the secondary [**RealTimeStylus**](realtimestylus-class.md) is not attached to a primary **RealTimeStylus** object, getting this property returns the default value.<br>     **Note:**     Setting this property raises an [InvalidOperationException](/dotnet/api/system.invalidoperationexception) exception.    <br> | 
 
-     
+
+
+
+
 
 -   The parent [**RealTimeStylus**](realtimestylus-class.md) object is expected to stop functioning when the child **RealTimeStylus** is Disposed.
 

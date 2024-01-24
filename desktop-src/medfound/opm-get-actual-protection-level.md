@@ -1,5 +1,5 @@
 ---
-Description: Returns the global protection level for a specified protection mechanism.
+description: Returns the global protection level for a specified protection mechanism.
 ms.assetid: 3dd4f6f0-2305-4470-bbd4-7737fa2d8eae
 title: OPM_GET_ACTUAL_PROTECTION_LEVEL (Opmapi.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Returns the global protection level for a specified protection mechanism.
 
 
 
-|              |                                                                                                                                                                           |
+| Requirement | Value |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ACTUAL\_PROTECTION\_LEVEL                                                                                                                                       |
 | Input data   | The protection mechanism to query, specified as a 32-bit integer. The value is interpreted as a member of the [OPM Protection Type Flags](opm-protection-type-flags.md). |
@@ -47,7 +47,7 @@ This query is equivalent to the DXVA\_COPPQueryGlobalProtectionLevel query used 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

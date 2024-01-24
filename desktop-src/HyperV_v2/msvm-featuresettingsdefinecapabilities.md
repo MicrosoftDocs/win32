@@ -1,5 +1,5 @@
 ---
-Description: Provides a link between the Ethernet switch feature capabilities instance and the minimum, maximum, incremental, and default settings for a resource.
+description: Provides a link between the Ethernet switch feature capabilities instance and the minimum, maximum, incremental, and default settings for a resource.
 ms.assetid: 5abd8b2a-9f72-4875-be5c-ce5a2f526e9a
 title: Msvm_FeatureSettingsDefineCapabilities class
 ms.topic: reference
@@ -173,7 +173,7 @@ Specifies further semantics on the interpretation of the non-**Null**, non-key p
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Used to execute tasks asynchronously, and created with D3DX10CreateThreadPump.
+description: Used to execute tasks asynchronously, and created with D3DX10CreateThreadPump.
 ms.assetid: 8d03c94a-9b64-464c-b0f4-4e5f5a00503f
 title: ID3DX10ThreadPump interface (D3DX10.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Built-in D3DX10 data loaders
 
 
 
-|                                                                            |                                          |
+|                                                                           |  Description                                        |
 |----------------------------------------------------------------------------|------------------------------------------|
 | [**D3DX10CreateAsyncFileLoader**](d3dx10createasyncfileloader.md)         | Create a file loader asynchronously.     |
 | [**D3DX10CreateAsyncMemoryLoader**](d3dx10createasyncmemoryloader.md)     | Create a data loader asynchronously.     |
@@ -75,7 +75,7 @@ Built-in D3DX10 data processors
 
 
 
-|                                                                                                  |                                                                                                                                                    |
+|                                                                                                 |  Description                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DX10CreateAsyncTextureProcessor**](d3dx10createasynctextureprocessor.md)                   | Create a data processor to be used with a thread pump. This API is similar to D3DX10CreateAsyncTextureInfoProcessor but it also loads the texture. |
 | [**D3DX10CreateAsyncTextureInfoProcessor**](d3dx10createasynctextureinfoprocessor.md)           | Create a data processor to be used with a thread pump.                                                                                             |
@@ -93,7 +93,7 @@ APIs that take a thread pump as a parameter.
 
 
 
-|                                                                                                  |                                                                  |
+|                                                                                                 | Description                                                                 |
 |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [**D3DX10CompileFromFile**](d3dx10compilefromfile.md)                                           | Compile a shader from a file.                                    |
 | [**D3DX10CompileFromMemory**](d3dx10compilefrommemory.md)                                       | Compile a shader residing in memory.                             |
@@ -125,7 +125,7 @@ APIs that take a thread pump as a parameter.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

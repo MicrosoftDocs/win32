@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when the sentence mode of the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+description: Notifies an application when the sentence mode of the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: 72455193-cd17-45f8-b19c-a1f735ff81bf
 title: IMN_SETSENTENCEMODE notification code (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The application can get information about the sentence mode by using the [**ImmG
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

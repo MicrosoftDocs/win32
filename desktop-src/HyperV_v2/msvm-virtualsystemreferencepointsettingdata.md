@@ -1,5 +1,5 @@
 ---
-Description: Provides additional information to be used with the CreateReferencePoint method of the Msvm\_VirtualSystemReferencePointService class.
+description: Provides additional information to be used with the CreateReferencePoint method of the Msvm\_VirtualSystemReferencePointService class.
 ms.assetid: 6b997ba5-871c-4c33-9ed5-b9a13cbfaacd
 title: Msvm_VirtualSystemReferencePointSettingData class
 ms.topic: reference
@@ -61,7 +61,7 @@ The consistency level of the reference point.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,6 +1,6 @@
 ---
 title: Texture1DArray::Texture1DArray SampleCmpLevelZero methods
-description: Samples a texture on mipmap level 0 only, using a comparison value to reject samples.
+description: Samples a texture on mipmap level 0 only, using a comparison value to reject samples. | Texture1DArray::Texture1DArray SampleCmpLevelZero methods
 ms.assetid: 4DA8D8D4-AEFB-408D-8FB7-1C129F7A4AC3
 keywords:
 - SampleCmpLevelZero methods HLSL

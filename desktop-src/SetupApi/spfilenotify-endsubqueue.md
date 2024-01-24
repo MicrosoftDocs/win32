@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_ENDSUBQUEUE notification is sent to the callback function when the queue completes all the operations in the delete, rename, or copy subqueue.
+description: The SPFILENOTIFY\_ENDSUBQUEUE notification is sent to the callback function when the queue completes all the operations in the delete, rename, or copy subqueue.
 ms.assetid: 76bd027a-0f00-46e3-b502-0c97827308a8
 title: SPFILENOTIFY_ENDSUBQUEUE message (Setupapi.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ The return value is ignored.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

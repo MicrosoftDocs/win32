@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Windows Search uses property handlers to extract the values of properties from items and uses the property system schema to determine how a specific property should be indexed.
+description: Microsoft Windows Search uses property handlers to extract the values of properties from items and uses the property system schema to determine how a specific property should be indexed.
 ms.assetid: b475329a-1ed7-43a4-8e11-3700889a4ce9
 title: Developing Property Handlers for Windows Search
 ms.topic: article
@@ -15,7 +15,7 @@ This topic supplements the [Property System](../properties/building-property-han
 -   [Design Decisions for Property Handlers](#design-decisions-for-property-handlers)
     -   [Property Decisions](#property-decisions)
     -   [Full-Text Support](#full-text-support)
-    -   [Operating System Implementatation Considerations](#operating-system-implementatation-considerations)
+    -   [Operating System Implementation Considerations](#operating-system-implementatation-considerations)
 -   [Writing Property Description Files](#writing-property-description-files)
 -   [Implementing Property Handlers](#implementing-property-handlers)
     -   [IInitializeWithStream](#iinitializewithstream)
@@ -84,8 +84,8 @@ For each of these properties, you need to determine what attributes it should ha
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -222,7 +222,7 @@ Property handlers can optionally implement this interface to disable a user's ab
 
 ## Ensuring Your Items Get Indexed
 
-Now that you've implemented your property handler, you want to make sure the items your handler is registered for get indexed. You can use the [Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) to initiate re-indexing, and you can also use the [Crawl Scope Manager](-search-3x-wds-extidx-csm.md) to set up default rules indicating the URLs you want the Indexer to crawl. Another option is to follow the ReIndex code sample in the [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+Now that you've implemented your property handler, you want to make sure the items your handler is registered for get indexed. You can use the [Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) to initiate re-indexing, and you can also use the [Crawl Scope Manager](-search-3x-wds-extidx-csm.md) to set up default rules indicating the URLs you want the Indexer to crawl. Another option is to follow the ReIndex code sample in the [Windows Search Code Samples](-search-samples-ovw.md).
 
 For further information, refer to [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) and [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md).
 
@@ -413,7 +413,7 @@ System.FileOwner;System.ComputerName
 [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
 </dt> <dt>
 
-[Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)
+[Windows Search Code Samples](-search-samples-ovw.md)
 </dt> </dl>
 
  

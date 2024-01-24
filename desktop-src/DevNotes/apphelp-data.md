@@ -1,5 +1,5 @@
 ---
-Description: Contains Apphelp data information.
+description: Contains Apphelp data information.
 ms.assetid: 31b305e9-1f38-4952-b4fd-963df79b1346
 title: APPHELP_DATA structure
 ms.topic: reference
@@ -153,7 +153,7 @@ This member is **TRUE** if this entry is in the service pack database and **FALS
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: An indicator of the flash status when the photo was taken, as read from the Exchangeable Image File (EXIF) info.
+description: An indicator of the flash status when the photo was taken, as read from the Exchangeable Image File (EXIF) info.
 ms.assetid: e21de610-9916-4b3f-8e50-f0141b476346
 title: System.Photo.Flash
 ms.topic: article
@@ -250,7 +250,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

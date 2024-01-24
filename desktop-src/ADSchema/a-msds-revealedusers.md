@@ -22,7 +22,7 @@ Used with RODCs to identify the user objects whose secrets have been disclosed t
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | ms-DS-Revealed-Users                            |
 | Ldap-Display-Name | msDS-RevealedUsers                              |
@@ -45,7 +45,7 @@ Used with RODCs to identify the user objects whose secrets have been disclosed t
 
 
 
-|                        |                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------|
 | Link-Id                | 2102                                                                               |
 | MAPI-Id                | \-                                                                                 |
@@ -66,7 +66,7 @@ Used with RODCs to identify the user objects whose secrets have been disclosed t
 
 
 
-|                        |                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------|
 | Link-Id                | 2102                                                                               |
 | MAPI-Id                | \-                                                                                 |
@@ -87,7 +87,7 @@ Used with RODCs to identify the user objects whose secrets have been disclosed t
 
 
 
-|                        |                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------|
 | Link-Id                | 2102                                                                               |
 | MAPI-Id                | \-                                                                                 |

@@ -1,5 +1,5 @@
 ---
-Description: The following elements are used with processes and threads.
+description: The following elements are used with processes and threads.
 ms.assetid: b503ab89-fa8a-4d79-b06e-4fee33a822f5
 title: Process and Thread Reference
 ms.topic: article

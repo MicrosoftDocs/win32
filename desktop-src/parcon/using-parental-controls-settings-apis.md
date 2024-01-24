@@ -1,5 +1,5 @@
 ---
-Description: Using Parental Controls Settings APIs
+description: Using Parental Controls Settings APIs
 ms.assetid: 77a239e9-1cec-4710-b673-7d0cebd502e9
 title: Using Parental Controls Settings APIs
 ms.topic: article
@@ -57,7 +57,7 @@ Using WMI to register a UI extensibility link requires specifying the following 
 -   Subsystem - intended to indicate classifications of link types, such as suites or standalone compliant applications
 -   Name resource DLL path and ID - specifies resource for display name to be displayed for the link.
 -   Subtitle resource DLL path and ID - specifies resource for additional text below the name.
--   Image path - full path of a 24 × 24 pixel bitmap (BMP), with 8 bits-per-pixel color depth and preferably an alpha channel. This is specified in a manner consistent with shell extensions: <file system path>,<negative resource ID>. As an example: C:\\Windows\\System32\\Wpccpl.dll,-20.
+-   Image path - full path of a 24 × 24 pixel bitmap (BMP), with 8 bits-per-pixel color depth and preferably an alpha channel. This is specified in a manner consistent with shell extensions: \<file system path\>,\<negative resource ID\1>. As an example: C:\\Windows\\System32\\Wpccpl.dll,-20.
 -   Disabled image path - same as image path above, except variant of bitmap showing disabled state. This image is shown when parental controls is off.
 -   Exe path - full path to an executable to be invoked by using ShellExecute(). This path must be specified with backslashes, or the link will not invoke the executable. Addition of a %SID% token after the exe path will result in the link execution substituting the SID string for the user for which the hub page is currently being viewed. The executable may then use the SID string to manage functionality for the specified user.
 
@@ -88,17 +88,17 @@ This feature is not supported on Windows 8.
 
 **Windows 7 and Windows Vista:** This feature is supported.
 
-<WebAddresses>
+&lt;WebAddresses&gt;
 
-<URL AllowBlock="1">https://alloweddomain.com/</URL>
+\<URL AllowBlock="1"\>https://alloweddomain.com/&lt;/URL&gt;
 
-<URL AllowBlock="1">https://allowedurl.com/allowed/default.html</URL>
+\<URL AllowBlock="1"\>https://allowedurl.com/allowed/default.html&lt;/URL&gt;
 
-<URL AllowBlock="2">https://blockeddomain.com/</URL>
+\<URL AllowBlock="2"\>https://blockeddomain.com/&lt;/URL&gt;
 
-<URL AllowBlock="2">https://blockedurl.com/blocked/default.html</URL>
+\<URL AllowBlock="2"\>https://blockedurl.com/blocked/default.html&lt;/URL&gt;
 
-</WebAddresses>
+&lt;/WebAddresses&gt;
 
 ## Application Restrictions Override Notes
 

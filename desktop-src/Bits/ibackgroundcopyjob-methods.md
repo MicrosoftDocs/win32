@@ -1,12 +1,12 @@
 ---
 title: IBackgroundCopyJob Methods (BITS)
-description: The IBackgroundCopyJob interface exposes the following methods.
+description: The IBackgroundCopyJob interface exposes the following methods. | IBackgroundCopyJob Methods (BITS)
 ms.assetid: CB1C6D64-416A-4F31-AC9D-B3C1A6818034
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyJob Methods
+# IBackgroundCopyJob Methods (BITS)
 
 The [**IBackgroundCopyJob**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopyjob) interface exposes the following methods.
 

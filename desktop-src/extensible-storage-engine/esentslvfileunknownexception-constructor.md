@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileUnknownException constructor"
 title: EsentSLVFileUnknownException constructor 
 TOCTitle: 'EsentSLVFileUnknownException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileUnknownException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVFileUnknownException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVFileUnknownException()
 
 #### Reference
 
-[EsentSLVFileUnknownException class](dn334785\(v=exchg.10\).md)
+[EsentSLVFileUnknownException class](./esentslvfileunknownexception-class.md)
 
-[EsentSLVFileUnknownException members](dn350704\(v=exchg.10\).md)
+[EsentSLVFileUnknownException members](./esentslvfileunknownexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

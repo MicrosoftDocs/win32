@@ -1,5 +1,5 @@
 ---
-Description: Sets a new reply APDU.
+description: Sets a new reply APDU.
 ms.assetid: 1d058c89-0de9-4809-b008-ae24c62acc5b
 title: ISCardCmd::put_ApduReply method (Scarddat.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -4,11 +4,11 @@ description: The section contains the format conversion functions used in Comput
 ms.assetid: 05575ee8-4428-437f-bfb6-e5c676405d65
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - apiref
-api_name: 
-api_type: 
-api_location: 
+api_name:
+api_type:
+api_location:
 ---
 
 # Format conversion functions (HLSL reference)
@@ -17,6 +17,8 @@ The section contains the format conversion functions used in Compute and Pixel S
 
 -   [Converter Functions](#converter-functions)
 -   [Related topics](#related-topics)
+
+> The D3DX_DXGIFormatConvert.inl header ships in the legacy DirectX SDK and relied on XNAMath for C++ support. It is also included in the [Microsoft.DXSDK.D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet package. The latest version uses DirectXMath for C++ support, and all functions are defined in the **DirectX** C++ namespace.
 
 ## Converter Functions
 
@@ -164,7 +166,3 @@ The section contains the format conversion functions used in Compute and Pixel S
  
 
  
-
-
-
-

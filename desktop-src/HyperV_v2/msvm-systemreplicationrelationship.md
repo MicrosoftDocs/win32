@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between an instance of Msvm\_ComputerSystem that represents the virtual machine and an instance of Msvm\_ReplicationRelationship that represents a replication relationship of the virtual machine.
+description: Represents an association between an instance of Msvm\_ComputerSystem that represents the virtual machine and an instance of Msvm\_ReplicationRelationship that represents a replication relationship of the virtual machine.
 ms.assetid: 23E7BF91-9527-434C-A571-05879E83950E
 title: Msvm_SystemReplicationRelationship class
 ms.topic: reference
@@ -82,7 +82,7 @@ Reference to the instance of the [**Msvm\_ReplicationRelationship**](msvm-replic
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

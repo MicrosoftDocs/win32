@@ -22,7 +22,7 @@ For a claim type object, this attribute indicates that the possible values descr
 
 
 
-|                   |                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------|
 | CN                | ms-DS-Claim-Shares-Possible-Values-With-BL |
 | Ldap-Display-Name | msDS-ClaimSharesPossibleValuesWithBL       |
@@ -43,7 +43,7 @@ For a claim type object, this attribute indicates that the possible values descr
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2179                            |
 | MAPI-Id                | \-                              |

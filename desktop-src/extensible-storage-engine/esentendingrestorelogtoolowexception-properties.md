@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEndingRestoreLogTooLowException properties"
 title: EsentEndingRestoreLogTooLowException properties
 TOCTitle: EsentEndingRestoreLogTooLowException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentEndingRestoreLogTooLowException](dn274239\(v=exchg.10\).md) type exposes the following members.
+The [EsentEndingRestoreLogTooLowException](./esentendingrestorelogtoolowexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentEndingRestoreLogTooLowException class](dn274239\(v=exchg.10\).md)
+[EsentEndingRestoreLogTooLowException class](./esentendingrestorelogtoolowexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

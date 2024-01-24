@@ -1,12 +1,12 @@
 ---
 title: Width Property (Characters Object)
-description: Width Property
+description: Learn about the Width Property of the Characters object, which returns or sets the width of the frame for the specified character.
 ms.assetid: ebada4cc-dbe6-4540-be1f-1f61e176765b
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Width Property
+# Width Property (Characters Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 

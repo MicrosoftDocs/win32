@@ -1,5 +1,5 @@
 ---
-Description: This topic demonstrates the process for drawing an IWICBitmapSource by using Direct2D.
+description: This topic demonstrates the process for drawing an IWICBitmapSource by using Direct2D.
 ms.assetid: 11d38c9a-775d-41f7-a193-37b702b29a96
 title: How to Draw a BitmapSource Using Direct2D
 ms.topic: article

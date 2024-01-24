@@ -1,5 +1,5 @@
 ---
-Description: Windows Imaging Component (WIC) simplifies color management by providing the IWICColorContext interface and the IWICColorTransform interface.
+description: Windows Imaging Component (WIC) simplifies color management by providing the IWICColorContext interface and the IWICColorTransform interface.
 ms.assetid: d4d761a6-d5a6-47b8-b655-7651bd415e4e
 title: Color Management Overview
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The ISceSvcAttachmentData interface exposes the following methods.
+description: The ISceSvcAttachmentData interface exposes the following methods.
 ms.assetid: 2025583E-CE1D-4DDF-8708-D7BEA47E9B4D
 title: ISceSvcAttachmentData Methods
 ms.topic: reference

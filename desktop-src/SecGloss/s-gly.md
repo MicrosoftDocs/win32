@@ -1,5 +1,5 @@
 ---
-Description: Contains definitions of security terms that begin with the letter S.
+description: Contains definitions of security terms that begin with the letter S.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3e9d7672-2314-45c8-8178-5a0afcfd0c50
 title: S (Security Glossary)

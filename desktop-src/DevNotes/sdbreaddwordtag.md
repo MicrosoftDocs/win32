@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the DWORD value for the specified TAGID.
+description: Retrieves the DWORD value for the specified TAGID.
 ms.assetid: 6610e101-9068-4812-b0ca-528658b62535
 title: SdbReadDWORDTag function
 ms.topic: reference
@@ -65,7 +65,7 @@ The function returns the value on success or *dwDefault* on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

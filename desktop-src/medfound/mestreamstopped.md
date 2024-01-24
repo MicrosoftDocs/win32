@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media stream when the IMFMediaSource::Stop method completes asynchronously.
+description: Raised by a media stream when the IMFMediaSource::Stop method completes asynchronously.
 ms.assetid: 80280820-b618-43d9-881e-6119dfa36e22
 title: MEStreamStopped event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Each active stream in the presentation sends this event.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

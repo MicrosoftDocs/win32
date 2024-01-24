@@ -3,10 +3,13 @@ title: How to design UX for desktop applications
 description: A great desktop application is powerful and, at the same time, simple. Through carefully balanced feature selection and presentation, you can achieve both power and simplicity.
 ms.assetid: 0039a3ee-95bc-457f-a1a8-6a036ce22fd2
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # How to design a great user experience for desktop applications
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A great desktop application is powerful and, at the same time, simple. Through carefully balanced feature selection and presentation, you can achieve both power and simplicity.
 
@@ -171,7 +174,3 @@ Power is all about enabling your users and making them productive. Simplicity is
  
 
  
-
-
-
-

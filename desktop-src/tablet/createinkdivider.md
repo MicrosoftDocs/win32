@@ -1,5 +1,5 @@
 ---
-Description: Instantiates an implementation of the InkDivider interface and returns its handle.
+description: Instantiates an implementation of the InkDivider interface and returns its handle.
 ms.assetid: 77c8504b-0b63-43dd-b487-bab2a500979b
 title: CreateInkDivider function
 ms.topic: reference
@@ -47,7 +47,7 @@ This class inherits from the [**InkDivider**](inkdivider-class.md) base class an
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |

@@ -1,5 +1,5 @@
 ---
-Description: You have several options as to the form a query takes when querying an event class that contains embedded objects. The results returned by the query vary, depending on the form of the query you use.
+description: You have several options as to the form a query takes when querying an event class that contains embedded objects. The results returned by the query vary, depending on the form of the query you use.
 ms.assetid: b959a695-be15-4aa7-9368-b840962ae0da
 ms.tgt_platform: multiple
 title: Querying Embedded Objects

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the frame rate for the video stream, in frames per 1000 seconds.
+description: Indicates the frame rate for the video stream, in frames per 1000 seconds.
 ms.assetid: cd5a2ae0-43ef-44e4-aa70-bca33baf2a56
 title: System.Video.FrameRate
 ms.topic: article

@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 The Direct3D API defines several layer API elements.
 
-## 
 
 ## In this section
 

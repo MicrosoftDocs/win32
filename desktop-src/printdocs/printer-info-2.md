@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_INFO\_2 structure specifies detailed printer information.
+description: The PRINTER\_INFO\_2 structure specifies detailed printer information.
 ms.assetid: 944cbfcd-9edf-4b60-a45c-9bb1839f8141
 title: PRINTER_INFO_2 structure (Winspool.h)
 ms.topic: reference
@@ -292,7 +292,7 @@ The average number of pages per minute that have been printed on the printer.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

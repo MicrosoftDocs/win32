@@ -1,5 +1,5 @@
 ---
-Description: The AbortPrinter function deletes a printers spool file if the printer is configured for spooling.
+description: The AbortPrinter function deletes a printers spool file if the printer is configured for spooling.
 ms.assetid: b361fba5-e4e7-4c9e-ab32-b8ab88dcb1dc
 title: AbortPrinter function (Winspool.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ When a page in a spooled file exceeds approximately 350 MB, it can fail to print
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

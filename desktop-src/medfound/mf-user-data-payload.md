@@ -1,5 +1,5 @@
 ---
-Description: Sets whether to include a user data payload with the output sample.
+description: Sets whether to include a user data payload with the output sample.
 ms.assetid: 1F2B8275-9D4C-4732-9905-8ADE4CFD7496
 title: MF_USER_DATA_PAYLOAD attribute (Mfidl.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ User data is passed through without any decoding.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

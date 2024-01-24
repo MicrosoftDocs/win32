@@ -1,5 +1,5 @@
 ---
-Description: A generic association used to establish part of relationships between managed elements.
+description: A generic association used to establish part of relationships between managed elements.
 ms.assetid: 4D237D68-0A63-4A19-B6AD-E3C781090994
 title: Msvm_ConcreteComponent class
 ms.topic: reference
@@ -80,7 +80,7 @@ Access to the **Msvm\_ConcreteComponent** class might be restricted by UAC Filte
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

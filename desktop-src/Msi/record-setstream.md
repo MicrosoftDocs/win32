@@ -1,5 +1,5 @@
 ---
-Description: The SetStream method of the Record object copies the content of the specified file into the designated record field as stream data. Stream data cannot be inserted into temporary fields.
+description: The SetStream method of the Record object copies the content of the specified file into the designated record field as stream data. Stream data cannot be inserted into temporary fields.
 ms.assetid: feb79371-d0c4-4bb0-b539-2f431ee1051b
 title: Record.SetStream method
 ms.topic: reference
@@ -61,7 +61,7 @@ If the method fails, you can obtain extended error information by using the [**L
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

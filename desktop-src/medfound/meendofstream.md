@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media stream when the stream ends.
+description: Raised by a media stream when the stream ends.
 ms.assetid: e793131a-f737-411f-a9fc-03b5b3d09aea
 title: MEEndOfStream event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ When the [Media Session](media-session.md) receives the MEEndOfStream event, it 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

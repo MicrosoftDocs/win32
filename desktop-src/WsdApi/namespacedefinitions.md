@@ -1,5 +1,5 @@
 ---
-Description: Generates C definitions for namespace tables.
+description: Generates C definitions for namespace tables.
 ms.assetid: 0de06ee1-1291-4f18-9514-cca443a3e300
 title: namespaceDefinitions element
 ms.topic: reference
@@ -42,7 +42,7 @@ This element is generally used in C source files to provide the namespace tables
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

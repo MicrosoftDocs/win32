@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustDisableLoggingForDbUpgradeException constructor"
 title: EsentMustDisableLoggingForDbUpgradeException constructor 
 TOCTitle: 'EsentMustDisableLoggingForDbUpgradeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMustDisableLoggingForDbUpgradeException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMustDisableLoggingForDbUpgradeException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentMustDisableLoggingForDbUpgradeException()
 
 #### Reference
 
-[EsentMustDisableLoggingForDbUpgradeException class](dn319640\(v=exchg.10\).md)
+[EsentMustDisableLoggingForDbUpgradeException class](./esentmustdisableloggingfordbupgradeexception-class.md)
 
-[EsentMustDisableLoggingForDbUpgradeException members](dn319642\(v=exchg.10\).md)
+[EsentMustDisableLoggingForDbUpgradeException members](./esentmustdisableloggingfordbupgradeexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

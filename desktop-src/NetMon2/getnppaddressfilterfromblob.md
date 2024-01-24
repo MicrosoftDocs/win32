@@ -1,5 +1,5 @@
 ---
-Description: The GetNPPAddressFilterFromBlob function fills in the given address filter with information stored in the BLOB.
+description: The GetNPPAddressFilterFromBlob function fills in the given address filter with information stored in the BLOB.
 ms.assetid: b34e0e52-1b2a-4d61-b60c-f1b19ff8ff38
 title: GetNPPAddressFilterFromBlob function (Netmon.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ The address information is stored in the **Config** section of the BLOB NPP **Ow
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

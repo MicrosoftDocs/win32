@@ -1,5 +1,5 @@
 ---
-Description: How to play files that contain DRM-protected media.
+description: How to play files that contain DRM-protected media.
 ms.assetid: 85d98f49-8af2-42ce-9b36-a025aee93f73
 title: How to Play Protected Media Files
 ms.topic: article

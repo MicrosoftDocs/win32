@@ -13,10 +13,13 @@ api_location:
 api_type:
 - DllExport
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Media.duration
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **duration** property retrieves the duration of the current media item in seconds.
 
@@ -34,7 +37,7 @@ If this property is used with a media item other than the one specified in *Play
 
 To retrieve the duration for files that are not in the user's library, you must wait for Windows Media Player to open the file; that is, the current OpenState must equal MediaOpen. You can verify this by handling the *Player*.**OpenStateChange** event or by periodically checking the value of *Player*.**openState**.
 
-For playlists, the duration of each media item can be retrieved when the individual media item is opened, rather than the when the playlist is opened.
+For playlists, the duration of each media item can be retrieved when the individual media item is opened, rather than when the playlist is opened.
 
 To retrieve the value of this property, read access to the library is required. For more information, see [Library Access](library-access.md).
 
@@ -82,7 +85,7 @@ RemTime.innerHTML += Math.floor(Player.currentMedia.duration - TimeNow);
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

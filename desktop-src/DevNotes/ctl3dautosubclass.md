@@ -1,5 +1,5 @@
 ---
-Description: Automatically subclasses and adds 3D effects to all dialog boxes in the application.
+description: Automatically subclasses and adds 3D effects to all dialog boxes in the application.
 ms.assetid: 96555052-c564-4cc7-9b24-e527f8e2f879
 title: Ctl3dAutoSubclass function
 ms.topic: reference
@@ -57,7 +57,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 

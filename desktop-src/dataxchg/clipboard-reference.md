@@ -1,6 +1,6 @@
 ---
 title: Clipboard Reference
-description: .
+description: . | Clipboard Reference
 ms.assetid: 3d6722a6-0d49-4a33-a5de-5b8a0ea29fdf
 ms.topic: reference
 ms.date: 05/31/2018

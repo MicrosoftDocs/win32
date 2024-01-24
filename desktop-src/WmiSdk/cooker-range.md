@@ -1,5 +1,5 @@
 ---
-Description: The COOKER\_RANGE counter type formula shows the difference between the Min and Max values for a set of raw observations of a property in a Win32\_PerfRawData instance.
+description: The COOKER\_RANGE counter type formula shows the difference between the Min and Max values for a set of raw observations of a property in a Win32\_PerfRawData instance.
 ms.assetid: 4173ca74-e982-4c94-9d78-613797eaec36
 ms.tgt_platform: multiple
 title: COOKER_RANGE

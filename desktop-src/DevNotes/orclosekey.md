@@ -1,5 +1,5 @@
 ---
-Description: Closes a handle to the specified registry key in an offline registry hive.
+description: Closes a handle to the specified registry key in an offline registry hive.
 ms.assetid: 01bb21b1-217b-4716-ae1e-466cf8383155
 title: ORCloseKey function (Offreg.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ Use the [**ORCloseHive**](orclosehive.md) function to close an offline registry 
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

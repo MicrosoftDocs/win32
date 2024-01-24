@@ -1,6 +1,6 @@
 ---
 title: Managing the Lifetime of an Object
-description: .
+description: Learn how to manage the AddRef and Release methods to control the lifetime of an object.
 ms.assetid: 0e522ded-8976-4cdd-9a61-eae7834c896b
 ms.topic: article
 ms.date: 05/31/2018
@@ -33,7 +33,7 @@ Here are the rules for reference counting:
 
 The following diagram shows a simple but typical case.
 
-![illustration that shows reference counting](images/com04.png)
+![Diagram that shows  a simple case of reference counting.](images/com04.png)
 
 The program creates an object and stores a pointer (*p*) to the object. At this point, the reference count is 1. When the program is finished using the pointer, it calls [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release). The reference count is decremented to zero, and the object deletes itself. Now *p* is invalid. It is an error to use *p* for any further method calls.
 

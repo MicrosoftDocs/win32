@@ -1,5 +1,5 @@
 ---
-Description: The CreateFolders action creates empty folders for components that are set to be installed.
+description: The CreateFolders action creates empty folders for components that are set to be installed.
 ms.assetid: 3982eac8-8272-4fb4-870c-390a0b6bd9a1
 title: CreateFolders Action
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each method on the interface to which the collection is related.
+description: Contains an object for each method on the interface to which the collection is related.
 ms.assetid: e64b007f-e44d-4b6b-97b2-1e017c5a7dbe
 title: MethodsForInterface collection
 ms.topic: reference
@@ -52,7 +52,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                            |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Determines whether the object is automatically deactivated when the method completes, without SetComplete or SetAbort necessarily being called. This affects only the default setting of the JIT Activation "Done" bit at method start; this bit can be reset (as with SetComplete or SetAbort) within the method to override the default. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                  |
@@ -68,7 +68,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                           |
+| Entry | Value |
 |----------------|---------------------------|
 | Description    | A GUID for the component. |
 | Access         | ReadOnly                  |
@@ -84,7 +84,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                              |
+| Entry | Value |
 |----------------|------------------------------|
 | Description    | A description of the method. |
 | Access         | ReadWrite                    |
@@ -100,7 +100,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                           |
+| Entry | Value |
 |----------------|---------------------------|
 | Description    | A GUID for the interface. |
 | Access         | ReadOnly                  |
@@ -116,7 +116,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                 |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The method dispatch identifier. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                        |
@@ -132,7 +132,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                    |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The method name. This property is returned when the [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies a list of bit rates and corresponding buffer windows for a variable bit rate (VBR) Advanced Systems Format (ASF) file.
+description: Specifies a list of bit rates and corresponding buffer windows for a variable bit rate (VBR) Advanced Systems Format (ASF) file.
 ms.assetid: e45d055f-d404-47e9-b3c8-ac743b290138
 title: MF_PD_ASF_METADATA_LEAKY_BUCKET_PAIRS attribute (Wmcontainer.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For each bit rate, the **msBufferWindow** member indicates how much content is b
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

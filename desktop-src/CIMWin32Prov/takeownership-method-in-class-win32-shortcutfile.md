@@ -1,5 +1,5 @@
 ---
-Description: The TakeOwnerShip&\#8194;WMI class method obtains ownership of the logical file specified in the object path.
+description: TakeOwnerShip method of the Win32_ShortcutFile class - The TakeOwnerShip&\#8194;WMI class method obtains ownership of the logical file specified in the object path.
 ms.assetid: 1a8ff156-50b2-4550-abcc-7a6ae0e4630f
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the Win32_ShortcutFile class
@@ -136,7 +136,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

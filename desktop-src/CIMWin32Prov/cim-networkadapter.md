@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_NetworkAdapter class is an abstract class that defines general networking hardware concepts (for example, permanent address or speed of operation). The information is conveyed using the CIM\_DeviceSAPImplementation association.
+description: The CIM\_NetworkAdapter class is an abstract class that defines general networking hardware concepts (for example, permanent address or speed of operation). The information is conveyed using the CIM\_DeviceSAPImplementation association.
 ms.assetid: dd44e05a-1124-42c2-aa69-340c06da35a2
 ms.tgt_platform: multiple
 title: CIM_NetworkAdapter class
@@ -1260,7 +1260,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -32,7 +32,7 @@ For legacy support, the default gesture handler maps some gestures to Windows me
 |----------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | Pan            | The pan gesture maps to using the scroll wheel.                  | **WM_VSCROLL**<br/> **WM_HSCROLL**<br/>       |
 | Press and Hold | The press and hold gesture maps to right clicking the mouse.     | **WM_RBUTTONDOWN**<br/> **WM_RBUTTONUP**<br/> |
-| Zoom           | The zoom gesture triggers messages that are similar to holding the CTRL key, and spinning the mouse wheel to scroll. | **WM_MOUSEWHEEL** with **MK_CONTROL** set in the *lParam* |
+| Zoom           | The zoom gesture triggers messages that are similar to holding the CTRL key, and spinning the mouse wheel to scroll. | **WM_MOUSEWHEEL** with **MK_CONTROL** set in the *wParam* |
 
 ## Interpreting Windows Touch Gestures
 

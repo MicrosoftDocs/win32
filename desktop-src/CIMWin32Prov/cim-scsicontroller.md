@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SCSIController class represents the capabilities and management of the SCSI controller logical device.
+description: The CIM\_SCSIController class represents the capabilities and management of the SCSI controller logical device.
 ms.assetid: a9b3dee4-1e42-4ac3-8c67-1da46f8acb43
 ms.tgt_platform: multiple
 title: CIM_SCSIController class
@@ -1680,7 +1680,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

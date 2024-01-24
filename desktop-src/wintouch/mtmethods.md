@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Methods
+# Methods (IManipulationProcessor)
 
 This section contains the methods for the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) interface.
 

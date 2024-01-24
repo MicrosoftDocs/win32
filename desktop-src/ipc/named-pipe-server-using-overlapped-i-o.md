@@ -1,5 +1,5 @@
 ---
-Description: Code example of a single-threaded pipe server that uses overlapped operations to service simultaneous connections to multiple pipe clients.
+description: Code example of a single-threaded pipe server that uses overlapped operations to service simultaneous connections to multiple pipe clients.
 ms.assetid: c0ac70cc-4ab9-47e5-b0e6-c0b373d16b25
 title: Named Pipe Server Using Overlapped I/O
 ms.topic: article
@@ -85,6 +85,8 @@ int _tmain(VOID)
       }
  
       Pipe[i].oOverlap.hEvent = hEvents[i]; 
+      Pipe[i].oOverlap.Offset = 0;
+      Pipe[i].oOverlap.OffsetHigh = 0;
  
       Pipe[i].hPipeInst = CreateNamedPipe( 
          lpszPipename,            // pipe name 

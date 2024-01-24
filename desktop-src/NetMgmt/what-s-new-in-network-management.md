@@ -41,10 +41,6 @@ The following existing Network Management functions were enhanced to support add
 
 Microsoft Windows Server 2003 introduces new Network Management programming features. These elements extend the capability of Network Management operations on Windows Server 2003 and later.
 
-The following are new Network Management functions:
-
--   [**NetLogonSetServiceBits**](netlogonsetservicebits.md)
-
 ## Windows XP
 
 Microsoft Windows XP introduces new Network Management programming features. These elements extend the capability of Network Management operations on Windows XP and later.

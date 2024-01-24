@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VideoBIOSElement class represents the low-level software that is loaded into non-volatile storage and used to configure and access a computer system's video controller and display.
+description: The CIM\_VideoBIOSElement class represents the low-level software that is loaded into non-volatile storage and used to configure and access a computer system's video controller and display.
 ms.assetid: f23d411f-4781-4727-abd1-61fe1a366bf0
 ms.tgt_platform: multiple
 title: CIM_VideoBIOSElement class
@@ -1018,8 +1018,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from the [**CIM\_SoftwareElement**](cim-softwareelement.md) class.
 
@@ -1037,7 +1037,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

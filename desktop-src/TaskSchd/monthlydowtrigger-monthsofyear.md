@@ -1,6 +1,6 @@
 ---
 title: MonthlyDOWTrigger.MonthsOfYear property
-description: For scripting, gets or sets the months of the year during which the task runs.
+description: For scripting, gets or sets the months of the year during which the task runs. | MonthlyDOWTrigger.MonthsOfYear property
 ms.assetid: '4ab7ab43-9c9b-4cd3-be8f-1989b83e8cf3'
 keywords:
 - MonthsOfYear property Task Scheduler
@@ -66,7 +66,7 @@ When reading or writing XML for a task, the months of the year of a monthly day-
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

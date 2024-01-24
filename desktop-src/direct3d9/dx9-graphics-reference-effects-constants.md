@@ -1,5 +1,5 @@
 ---
-Description: These are shader and effect constants.
+description: These are shader and effect constants.
 ms.assetid: cfc6ef62-c791-4714-93cb-4df682543c30
 title: Effect Constants
 ms.topic: article
@@ -17,7 +17,7 @@ Effects use [Handles (Direct3D 9)](handles.md) to reference techniques, passes, 
 
 
 
-|         |        |            |
+| Parameter        | Effect       |  Handle          |
 |---------|--------|------------|
 | typedef | LPCSTR | D3DXHANDLE |
 

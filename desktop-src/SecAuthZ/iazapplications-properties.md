@@ -1,5 +1,5 @@
 ---
-Description: The IAzApplications interface exposes the following properties.
+description: The IAzApplications interface exposes the following properties.
 ms.assetid: A2F3342F-C8E7-4866-BDD6-FEC08F24CA0F
 title: IAzApplications Properties
 ms.topic: reference

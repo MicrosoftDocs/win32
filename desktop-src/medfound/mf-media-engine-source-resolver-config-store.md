@@ -1,5 +1,5 @@
 ---
-Description: Gets the source resolver config store.
+description: Gets the source resolver config store.
 ms.assetid: 112B9CC2-DC0E-4AA4-978F-604ACD807E9D
 title: MF_MEDIA_ENGINE_SOURCE_RESOLVER_CONFIG_STORE attribute
 ms.topic: reference
@@ -18,7 +18,7 @@ Gets the source resolver config store.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                  |

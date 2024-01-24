@@ -1,5 +1,5 @@
 ---
-Description: It is possible to write your own symbol store creation program, rather than using SymStore.
+description: It is possible to write your own symbol store creation program, rather than using SymStore.
 ms.assetid: 5ccd0e41-3ae7-44b1-a72e-f59963340731
 title: Using Other Symbol Stores
 ms.topic: article

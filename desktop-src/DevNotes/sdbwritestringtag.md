@@ -1,5 +1,5 @@
 ---
-Description: Writes a string to the specified database.
+description: Writes a string to the specified database.
 ms.assetid: 72c62d91-0c1c-4ff8-8829-1c3ec1fa8648
 title: SdbWriteStringTag function
 ms.topic: reference
@@ -65,7 +65,7 @@ The function returns **TRUE** on success or **FALSE** on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

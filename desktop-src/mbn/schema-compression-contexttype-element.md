@@ -1,5 +1,5 @@
 ---
-Description: Specifies if compression will be used at the data link for header and data transfer.
+description: Specifies if compression will be used at the data link for header and data transfer.
 ms.assetid: 2aee93e4-d124-43cb-b974-19f00eb4d6a6
 title: Compression (contextType) Element
 ms.topic: reference
@@ -53,7 +53,7 @@ The **Compression** element is defined by the [**contextType**](schema-contextty
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

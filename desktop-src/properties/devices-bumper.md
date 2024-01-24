@@ -1,12 +1,12 @@
 ---
-Description: .
+description: Devices (Windows Property System)
 ms.assetid: 9e744e0c-a59d-47db-a785-026698d54ee0
 title: Devices (Windows Property System)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Devices
+# Devices (Windows Property System)
 
 ## In this section
 
@@ -70,7 +70,7 @@ ms.date: 05/31/2018
 | [System.Devices.Aep.Category](props-system-devices-aep-category.md)<br/>                                                                       | Categories the device is part of. e.g. Printer, Camera, etc.<br/>                                                                                |
 | [System.Devices.Aep.ContainerId](props-system-devices-aep-containerid.md)<br/>                                                                 | Device Association Endpoint's Parent Container Id<br/>                                                                                           |
 | [System.Devices.Aep.DeviceAddress](props-system-devices-aep-deviceaddress.md)<br/>                                                             | Address based on the protocol of the Device Association Endpoint. IP Address for an IP device, Bluetooth address for Bluetooth device, etc.<br/> |
-| [System.Devices.Aep.IsConnected](props-system-devices-aep-isconnected.md)<br/>                                                                 | Whether the device is currently connected to the system or or not<br/>                                                                           |
+| [System.Devices.Aep.IsConnected](props-system-devices-aep-isconnected.md)<br/>                                                                 | Whether the device is currently connected to the system or not<br/>                                                                           |
 | [System.Devices.Aep.IsPaired](props-system-devices-aep-ispaired.md)<br/>                                                                       | Whether the Device Association Endpoint is paired with the system or not<br/>                                                                    |
 | [System.Devices.Aep.IsPresent](props-system-devices-aep-ispresent.md)<br/>                                                                     | Whether the device is currently present or not<br/>                                                                                              |
 | [System.Devices.Aep.Manufacturer](props-system-devices-aep-manufacturer.md)<br/>                                                               | Device Association Endpoint's Manufacturer<br/>                                                                                                  |

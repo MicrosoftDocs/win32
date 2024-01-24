@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherRed(S,float,int2,int2,int2,int2) function
-description: Samples a texture and returns the red component.
+description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation. | Texture2D::GatherRed(S,float,int2,int2,int2,int2) function
 ms.assetid: 85C321CB-B77C-430B-921D-D56E5597B24A
 keywords:
 - GatherRed function HLSL
@@ -15,21 +15,21 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherRed(S,float,int2,int2,int2,int2) function
+# Texture2D::GatherRed(S,float,int2,int2,int2,int2) function
 
-Samples a texture and returns the red component.
+Returns the red components of the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType GatherRed(
-  in SamplerState S,
-  in float        Location,
-  in int2         Offset1,
-  in int2         Offset2,
-  in int2         Offset3,
-  in int2         Offset4
+  in SamplerState S,
+  in float2       Location,
+  in int2         Offset1,
+  in int2         Offset2,
+  in int2         Offset3,
+  in int2         Offset4
 );
 ```
 
@@ -113,7 +113,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -122,9 +122,9 @@ This function is supported for the following types of shaders:
 [GatherRed methods](texture2d-gatherred.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 

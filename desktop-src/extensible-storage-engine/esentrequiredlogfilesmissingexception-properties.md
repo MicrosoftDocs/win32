@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRequiredLogFilesMissingException properties"
 title: EsentRequiredLogFilesMissingException properties
 TOCTitle: EsentRequiredLogFilesMissingException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRequiredLogFilesMissingException](dn350548\(v=exchg.10\).md) type exposes the following members.
+The [EsentRequiredLogFilesMissingException](./esentrequiredlogfilesmissingexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentRequiredLogFilesMissingException class](dn350548\(v=exchg.10\).md)
+[EsentRequiredLogFilesMissingException class](./esentrequiredlogfilesmissingexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

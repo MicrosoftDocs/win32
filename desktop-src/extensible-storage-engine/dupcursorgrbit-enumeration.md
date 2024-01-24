@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DupCursorGrbit enumeration"
 title: DupCursorGrbit enumeration
 TOCTitle: DupCursorGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.DupCursorGrbit
@@ -30,11 +31,11 @@ ROBOTS: INDEX,FOLLOW
 
 # DupCursorGrbit enumeration
 
-Options for [JetDupCursor(JET_SESID, JET_TABLEID, JET_TABLEID, DupCursorGrbit)](dn292137\(v=exchg.10\).md).
+Options for [JetDupCursor(JET_SESID, JET_TABLEID, JET_TABLEID, DupCursorGrbit)](./api.jetdupcursor-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -76,4 +77,4 @@ public enum DupCursorGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

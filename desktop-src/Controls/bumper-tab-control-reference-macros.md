@@ -1,6 +1,6 @@
 ---
 title: Tab Control Macros
-description: .
+description: Tab Control Macros
 ms.assetid: 23c5bea5-c43e-45df-9761-911ed21f6a41
 ms.topic: article
 ms.date: 05/31/2018

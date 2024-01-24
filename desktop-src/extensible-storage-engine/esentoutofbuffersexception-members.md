@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfBuffersException members"
 title: EsentOutOfBuffersException members
 TOCTitle: EsentOutOfBuffersException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfBuffersException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.OutOfBuffers exceptions.
 
-The [EsentOutOfBuffersException](dn319715\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfBuffersException](./esentoutofbuffersexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentOutOfBuffersException class](dn319715\(v=exchg.10\).md)
+[EsentOutOfBuffersException class](./esentoutofbuffersexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

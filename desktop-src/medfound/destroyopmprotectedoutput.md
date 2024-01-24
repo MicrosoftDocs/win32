@@ -1,5 +1,5 @@
 ---
-Description: Releases a protected output object.
+description: Releases a protected output object.
 ms.assetid: e9b09fd7-9db2-4189-b347-55f5fede2f80
 title: DestroyOPMProtectedOutput function
 ms.topic: reference
@@ -58,7 +58,7 @@ This function has no associated import library. To call this function, you must 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

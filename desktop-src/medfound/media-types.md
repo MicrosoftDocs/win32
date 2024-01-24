@@ -1,12 +1,12 @@
 ---
-Description: Media Types
+description: Media Types
 ms.assetid: '690fda6e-dcbd-44dc-968d-cc949126da81'
 title: Media Types (Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Media Types
+# Media Types (Media Foundation)
 
 A *media type* is a way to describe the format of a media stream. In Media Foundation, media types are represented by the [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype) interface. Applications use media types to discover the format of a media file or media stream. Objects in the Media Foundation pipeline use media types to negotiate the formats they will deliver or receive.
 

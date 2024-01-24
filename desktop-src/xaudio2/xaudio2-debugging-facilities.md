@@ -1,5 +1,5 @@
 ---
-Description: The debug version of the XAudio2 engine validates parameters, and provides detailed warning and error messages.
+description: The debug version of the XAudio2 engine validates parameters, and provides detailed warning and error messages.
 ms.assetid: a7aaebf9-98d4-e96c-993d-b0d0b7074788
 title: XAudio2 Debugging Facilities
 ms.topic: article
@@ -16,9 +16,23 @@ You can set the level of debugging information shown by XAudio2 at any time by f
 
 ## Debug Support
 
-The debugging facilities are always available for XAUDIO2 in Windows 8.
+The debugging facilities are always available for XAUDIO2 in Windows 8.x, Windows 10, Windows 11, and when using the [XAudio2Redist](/windows/win32/xaudio2/xaudio2-redistributable) package.
 
-For the DirectX SDK versions of XAUDIO2, you must use **XAUDIO2\_DEBUG\_ENGINE** when creating the XAUDIO2 object with [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) and the system must have the DirectX SDK Developer Runtime installed for debugging to be supported.
+> For the legacy DirectX SDK versions of XAUDIO2, you must use **XAUDIO2\_DEBUG\_ENGINE** when creating the XAUDIO2 object with [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) and the system must have the DirectX SDK Developer Runtime installed for debugging to be supported.
+
+## Enabling Event Tracing for Windows (ETW) for XAudio2
+
+With XAudio 2.8 or later, all debugging information is logged via ETW. To enable logging of these events, use the following steps:
+
+1. Search for "Event Viewer" on your local system and run this application.
+2. Select View on the menu bar, and set the check-mark on _Show Analytic and Debug Logs_.
+3. Using the tree view, select Applications and Services Logs / Microsoft / Windows / XAudio2.
+4. Right-click on *Microsoft Windows XAudio2 debug logging* and select "Properties".
+5. Click the check-box on "Enable Log", and hit "OK". You can optionally change the log location which defaults to ``%SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-XAudio2%4Debug.etl``.
+
+Run your scenarios as normal and when you want to see the recent activity, open the ETL log file and look for events. There are a number of tools you can use, including the **Event Viewer** via "Open Saved Log..." in the actions pane.
+
+For more information, see [Event Tracing](/windows/win32/etw/event-tracing-portal).
 
 ## Related topics
 

@@ -1,5 +1,5 @@
 ---
-Description: Winsock Tracing
+description: Winsock Tracing
 ms.assetid: '0c430fc2-28e7-4537-a887-4c36d24fedee'
 title: Winsock Tracing
 ms.topic: article

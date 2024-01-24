@@ -11,10 +11,13 @@ keywords:
 - ASF (Advanced Systems Format),streams
 - arbitrary streams
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Arbitrary Streams
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 In addition to audio and video streams and image streams, an ASF file can accommodate streams containing a variety of data. The objects of the Windows Media Format SDK provide support for script streams, file transfer streams, Web streams, and arbitrary data streams. All of these stream types are arbitrary, meaning that no data validation is performed by the reading object. When you include streams of these types in your files, be sure that the reading application performs validation or data checking to ensure that your content has not been corrupted or intentionally mangled by a malicious third party.
 

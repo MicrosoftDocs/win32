@@ -1,5 +1,5 @@
 ---
-Description: The STATIONQUERY structure provides information about a specific computer using Network Monitor.
+description: The STATIONQUERY structure provides information about a specific computer using Network Monitor.
 ms.assetid: b7202c6b-e2b9-4a6f-8b87-3d11879f1d69
 title: STATIONQUERY structure (Netmon.h)
 ms.topic: reference
@@ -134,7 +134,7 @@ An array of these structures is used by the [QUERYTABLE](querytable.md) structur
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

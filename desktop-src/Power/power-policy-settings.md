@@ -1,5 +1,5 @@
 ---
-Description: Describes the power policy settings that make up a power scheme.
+description: Describes the power policy settings that make up a power scheme.
 ms.assetid: cd515cd6-67f4-45d0-b769-3abc7a56faa8
 title: Power Policy Settings
 ms.topic: article
@@ -25,7 +25,7 @@ The following table shows the three power plan personalities.
  
 
 > [!Note]  
-> Devices that support [Modern Standby](/windows-hardware/design/device-experiences/modern-standby) mode only allow the **Balanced** power plan. **Modern Standby** is the newer, more streamlined solution to power settings management.
+> Devices that support [Modern Standby](/windows-hardware/design/device-experiences/modern-standby) mode only allow the **Balanced** power plan, or power plans derived from **Balanced**. **Modern Standby** is the newer, more streamlined solution to power settings management.
 
  
 

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the isolation level and timeout value of a transaction that is hosted in the root transaction context.
+description: Retrieves the isolation level and timeout value of a transaction that is hosted in the root transaction context.
 ms.assetid: bb3ff03e-e69e-4a50-af36-4938eb4323df
 title: IContextTransactionInfo::GetTxIsolationLevelAndTimeout method
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |

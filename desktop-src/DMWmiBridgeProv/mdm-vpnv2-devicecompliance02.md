@@ -1,6 +1,6 @@
 ---
 title: MDM_VPNv2_DeviceCompliance02 class
-description: Reserved for Future Use.
+description: Reserved for Future Use. | MDM_VPNv2_DeviceCompliance02 class
 ms.assetid: f84f4812-3083-46c4-a60c-919ec92c844f
 keywords:
 - MDM_VPNv2_DeviceCompliance02 class
@@ -98,7 +98,7 @@ Added in Windows 10, version 1607. Describes the full path to the parent node. F
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |

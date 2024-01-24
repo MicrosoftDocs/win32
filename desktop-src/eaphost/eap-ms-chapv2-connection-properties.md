@@ -12,16 +12,16 @@ This sample is an instance of the [mschapv2connectionpropertiesv1](mschapv2conne
 
 ``` syntax
   <?xml version="1.0" ?> 
-  <EapHostConfig xmlns="https://www.microsoft.com/provisioning/EapHostConfig" 
-    xmlns:eapCommon="https://www.microsoft.com/provisioning/EapCommon" 
-    xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapMethodConfig">
+  <EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig" 
+    xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon" 
+    xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodConfig">
     <EapMethod>
       <eapCommon:Type>26</eapCommon:Type> 
       <eapCommon:AuthorId>0</eapCommon:AuthorId> 
     </EapMethod>
-    <Config xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1" 
-      xmlns:msPeap="https://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV1" 
-      xmlns:msChapV2="https://www.microsoft.com/provisioning/MsChapV2ConnectionPropertiesV1">
+    <Config xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1" 
+      xmlns:msPeap="http://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV1" 
+      xmlns:msChapV2="http://www.microsoft.com/provisioning/MsChapV2ConnectionPropertiesV1">
       <baseEap:Eap>
         <baseEap:Type>26</baseEap:Type> 
         <msChapV2:EapType>

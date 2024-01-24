@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the private key associated with the certificate.
+description: Sets or retrieves the private key associated with the certificate.
 ms.assetid: 976d81b4-5cbe-4824-9087-9a908b0e60e5
 title: Certificate.PrivateKey property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Certificate.PrivateKey property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2 Class**](/previous-versions/windows/embedded/hh424017(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **PrivateKey** property sets or retrieves the private key associated with the certificate. This property was introduced in CAPICOM 2.0.
 
@@ -46,7 +46,7 @@ This property raises CAPICOM\_E\_NOT\_ALLOWED when it is set from a web-based ap
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Defines the name to be used to identify the namespace in generated code.
+description: Defines the name to be used to identify the namespace in generated code.
 ms.assetid: 4e476be2-fa73-4b3e-b0cc-799c8d16b5de
 title: codeName element
 ms.topic: reference
@@ -44,7 +44,7 @@ This element overrides the default code name used for generated code. By default
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

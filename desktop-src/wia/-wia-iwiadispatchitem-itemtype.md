@@ -1,5 +1,5 @@
 ---
-Description: The type of this item. Read-only.
+description: The type of this item. Read-only.
 ms.assetid: 6c613a08-41aa-4242-80c0-75e1981a676f
 title: Item.ItemType property
 ms.topic: reference
@@ -56,7 +56,7 @@ An item can have more than one type. For example, every image is of both "image"
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The following API elements are used with user profiles.
+description: The following API elements are used with user profiles.
 title: User Profiles Reference
 ms.topic: article
 ms.date: 05/31/2018

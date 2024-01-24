@@ -1,5 +1,5 @@
 ---
-Description: Network Source Features
+description: Network Source Features
 ms.assetid: a4e20ecb-c145-4823-ae59-f6fc88593d86
 title: Network Source Features
 ms.topic: article

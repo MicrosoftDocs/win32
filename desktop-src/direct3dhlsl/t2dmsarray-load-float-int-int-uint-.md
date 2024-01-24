@@ -1,6 +1,6 @@
 ---
 title: Texture2DMSArray::Load(int,int,int,uint) function
-description: Reads texture data and returns status of the operation.
+description: Reads texture data and returns status of the operation. | Texture2DMSArray::Load(int,int,int,uint) function
 ms.assetid: F5EA2FFF-7E43-4A34-9358-EA54382641DC
 keywords:
 - Load function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,int,int,uint) function
+# Texture2DMSArray::Load(int,int,int,uint) function
 
 Reads texture data and returns status of the operation.
 

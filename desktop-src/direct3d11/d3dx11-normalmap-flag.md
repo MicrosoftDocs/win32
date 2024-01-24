@@ -88,7 +88,7 @@ These flags are used by [**D3DX11ComputeNormalMap**](d3dx11computenormalmap.md).
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX11tex.h</dt> </dl> |
 

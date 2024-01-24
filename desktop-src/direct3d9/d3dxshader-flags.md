@@ -1,5 +1,5 @@
 ---
-Description: The D3DXSHADER flags are used for parsing, compiling, or assembling shaders.
+description: The D3DXSHADER flags are used for parsing, compiling, or assembling shaders.
 ms.assetid: 8558d0e9-d09f-4c62-bc89-6080f4e44ff8
 title: D3DXSHADER Flags (D3dx9shader.h)
 ms.topic: reference
@@ -48,8 +48,8 @@ Parse time flags are only used by the effect system (before effect compilation) 
 
 | Constant                                                                                                                                                                                                                   | Description                                                                                                                                                                                                                                                                                        |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="D3DXSHADER_PACKMATRIX_COLUMNMAJOR"></span><span id="d3dxshader_packmatrix_columnmajor"></span><dl> <dt>**D3DXSHADER\_PACKMATRIX\_COLUMNMAJOR**</dt> </dl> | Unless explicitly specified, matrices will be packed in column-major order (each vector will be in a single column) when passed to and from the shader. This is generally more efficient because it allows vector-matrix multiplication to be performed using a series of dot products.<br/> |
-| <span id="D3DXSHADER_PACKMATRIX_ROWMAJOR"></span><span id="d3dxshader_packmatrix_rowmajor"></span><dl> <dt>**D3DXSHADER\_PACKMATRIX\_ROWMAJOR**</dt> </dl>          | Unless explicitly specified, matrices will be packed in row-major order (each vector will be in a single row) when passed to or from the shader.<br/>                                                                                                                                        |
+| <span id="D3DXSHADER_PACKMATRIX_COLUMNMAJOR"></span><span id="d3dxshader_packmatrix_columnmajor"></span><dl> <dt>**D3DXSHADER\_PACKMATRIX\_COLUMNMAJOR**</dt> <dt>/Zpc</dt></dl> | Unless explicitly specified, matrices will be packed in column-major order (each vector will be in a single column) when passed to and from the shader. This is generally more efficient because it allows vector-matrix multiplication to be performed using a series of dot products.<br/> |
+| <span id="D3DXSHADER_PACKMATRIX_ROWMAJOR"></span><span id="d3dxshader_packmatrix_rowmajor"></span><dl> <dt>**D3DXSHADER\_PACKMATRIX\_ROWMAJOR**</dt> <dt>/Zpr</dt> </dl>          | Unless explicitly specified, matrices will be packed in row-major order (each vector will be in a single row) when passed to or from the shader.<br/>                                                                                                                                        |
 
 
 
@@ -128,7 +128,7 @@ Applying **compiler flags** or **assembler flags** to the incorrect API will fai
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

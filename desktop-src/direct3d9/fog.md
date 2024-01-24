@@ -1,5 +1,5 @@
 ---
-Description: Adding fog to a 3D scene can enhance realism, provide ambiance or set a mood, and obscure artifacts sometimes caused when distant geometry comes into view.
+description: Adding fog to a 3D scene can enhance realism, provide ambiance or set a mood, and obscure artifacts sometimes caused when distant geometry comes into view.
 ms.assetid: 42045e96-43aa-4cec-82b5-0b46a7d5097b
 title: Fog (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The installer uses this event to publish the name of the present action. The name can be displayed on a dialog box by a Text Control that subscribes to this ControlEvent. This event should be authored in the EventMapping table.
+description: The installer uses this event to publish the name of the present action. The name can be displayed on a dialog box by a Text Control that subscribes to this ControlEvent. This event should be authored in the EventMapping table.
 ms.assetid: 2b4928fe-2d5c-46c1-8a31-cbebbc78d304
 title: ActionText ControlEvent
 ms.topic: article

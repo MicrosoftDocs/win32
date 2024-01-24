@@ -21,7 +21,7 @@ Extended right that enables a user to migrate the SID-History without administra
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Migrate-SID-History                  |
 | Display-Name | Migrate SID History                  |
@@ -41,7 +41,7 @@ Extended right that enables a user to migrate the SID-History without administra
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 63                                           |
@@ -52,7 +52,7 @@ Extended right that enables a user to migrate the SID-History without administra
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 63                                           |
@@ -63,7 +63,7 @@ Extended right that enables a user to migrate the SID-History without administra
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 63                                           |
@@ -74,7 +74,7 @@ Extended right that enables a user to migrate the SID-History without administra
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 63                                           |
@@ -85,7 +85,7 @@ Extended right that enables a user to migrate the SID-History without administra
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 63                                           |

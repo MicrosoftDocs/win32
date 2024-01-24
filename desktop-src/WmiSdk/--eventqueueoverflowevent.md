@@ -1,5 +1,5 @@
 ---
-Description: Reports when an event is dropped as a result of delivery queue overflow.
+description: Reports when an event is dropped as a result of delivery queue overflow.
 ms.assetid: 7cb1ef3b-3b0a-4f72-96de-862022fd6db8
 ms.tgt_platform: multiple
 title: '__EventQueueOverflowEvent class'
@@ -129,7 +129,7 @@ For more information, see the [**MaximumQueueSize**](--eventconsumer.md) propert
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Callback to return the instructions generated from creating a shader trace.
+description: Callback to return the instructions generated from creating a shader trace.
 MS-HAID: vspixengine.IDebugShaderCallback
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -34,13 +34,13 @@ The **IDebugShaderCallback** interface inherits from the [**IUnknown**](/windows
 
 The **IDebugShaderCallback** interface has these methods.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Method</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/idebugshadercallback-resultinstructions-dword-byte-arr"><strong>ResultInstructions</strong></a></td><td style="text-align: left;"><p>A callback that notifies the host of instructrion information returned by the associated request.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Method</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/idebugshadercallback-resultinstructions-dword-byte-arr"><strong>ResultInstructions</strong></a></td><td ><p>A callback that notifies the host of instructrion information returned by the associated request.</p></td></tr></tbody></table>
 
  
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

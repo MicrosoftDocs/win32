@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the handle for a connected smart card. This method returns (\*pHandle) == NULL if not connected.
+description: Retrieves the handle for a connected smart card. This method returns (\*pHandle) == NULL if not connected.
 ms.assetid: f03f8f25-b2e4-4fae-b7d2-bb0f1a7cd987
 title: ISCard::get_CardHandle method (Scardmgr.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: In general, how a shadow copy is created depends on the type of shadow copy to be created, its context, and the role accorded to writers in the shadow copy operation.
+description: In general, how a shadow copy is created depends on the type of shadow copy to be created, its context, and the role accorded to writers in the shadow copy operation.
 ms.assetid: eab3b39b-dfa7-43ea-adba-cd0b495c373f
 title: Shadow Copy Creation Details
 ms.topic: article

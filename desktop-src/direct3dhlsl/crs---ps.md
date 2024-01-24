@@ -1,6 +1,6 @@
 ---
 title: crs - ps
-description: Computes a cross product using the right-hand rule.
+description: Computes a cross product using the right-hand rule. | crs - ps
 ms.assetid: 602fa7cc-4e2b-4d90-90d8-df00d5812c81
 ms.topic: reference
 ms.date: 05/31/2018

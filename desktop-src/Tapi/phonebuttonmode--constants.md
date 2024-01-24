@@ -1,5 +1,5 @@
 ---
-Description: The PHONEBUTTONMODE\_ bit-flag constants describe the button classes.
+description: The PHONEBUTTONMODE\_ bit-flag constants describe the button classes.
 ms.assetid: 7bf337ee-acda-42fe-b50b-370aad50dc03
 title: PHONEBUTTONMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ This enumeration type is used in the [**PHONECAPS**](/windows/desktop/api/Tapi/n
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

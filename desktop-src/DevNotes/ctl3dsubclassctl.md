@@ -1,5 +1,5 @@
 ---
-Description: Subclasses an individual control unless the control appears in a dialog box.
+description: Subclasses an individual control unless the control appears in a dialog box.
 ms.assetid: 07a2bce1-4c69-4f8d-bb24-b17351f5e771
 title: Ctl3dSubclassCtl function
 ms.topic: reference
@@ -53,7 +53,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 

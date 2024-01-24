@@ -1,6 +1,6 @@
 ---
 title: ValueMapValueType Complex Type
-description: Defines the mapping between an integer value and a string value.
+description: Defines the mapping between an integer value and a string value. | ValueMapValueType Complex Type
 ms.assetid: 8fd3b3ed-5b62-4e2e-b6f9-8e1bf6d83a35
 keywords:
 - ValueMapValueType complex type EventLog
@@ -60,7 +60,7 @@ Defines the mapping between an integer value and a string value.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

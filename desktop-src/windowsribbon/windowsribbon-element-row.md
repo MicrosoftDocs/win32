@@ -154,10 +154,9 @@ The following code example demonstrates the basic markup for a custom four-butto
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+
+* **Minimum supported system**: Windows 7
+* **Can be empty**: No
 
 
 

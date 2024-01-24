@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe the functions, data structures, and enumerated constants that comprise the specific Peer Collaboration API elements.
+description: The following sections describe the functions, data structures, and enumerated constants that comprise the specific Peer Collaboration API elements.
 ms.assetid: 2d95313a-4190-40ee-9b94-fff7fdc6eb3d
 title: Collaboration API Reference
 ms.topic: article

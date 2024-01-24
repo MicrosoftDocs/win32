@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the value of the UserSID property to the string representation of the security identifier (SID) of the user running the installation. For more information, see Authorization Structures.
+description: The installer sets the value of the UserSID property to the string representation of the security identifier (SID) of the user running the installation. For more information, see Authorization Structures.
 ms.assetid: '94524636-c7f2-4de2-b35e-644c0c171193'
 title: UserSID property
 ms.topic: article
@@ -24,7 +24,7 @@ Note that this property has the special attribute that it can be retrieved from 
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

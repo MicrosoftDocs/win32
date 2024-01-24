@@ -1,5 +1,5 @@
 ---
-Description: Adds an alternate local network name for the computer from which it is called.
+description: Adds an alternate local network name for the computer from which it is called.
 ms.assetid: e4d8355b-0492-4b6f-988f-3887e63a2bba
 title: AddLocalAlternateComputerName function
 ms.topic: reference
@@ -78,7 +78,7 @@ If the function succeeds, the function returns **ERROR\_SUCCESS**. If the functi
 
 
 
-|                                   |                                                                                                       |
+| Requirement | Value |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------|
 | Library<br/>                | <dl> <dt>Kernel32.lib</dt> </dl>               |
 | DLL<br/>                    | <dl> <dt>Kernel32.dll</dt> </dl>               |

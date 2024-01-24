@@ -1,5 +1,5 @@
 ---
-Description: Sent by a File Manager extension to retrieve drive information from the active File Manager window.
+description: Sent by a File Manager extension to retrieve drive information from the active File Manager window.
 title: FM_GETDRIVEINFO message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 142fff71-3a1b-4197-8c06-2e981cce4e4f
-api_name: 
- - FM_GETDRIVEINFO
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -55,7 +46,7 @@ If 0xFFFFFFFF is returned in the **dwTotalSpace** or **dwFreeSpace** member of t
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

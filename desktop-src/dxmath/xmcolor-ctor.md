@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMCOLOR.
+description: Constructors exposed by XMCOLOR.
 ms.assetid: 9b9f0c85-453b-416d-9e70-6ffcf2286df7
 title: XMCOLOR constructors
 ms.topic: reference
@@ -28,56 +28,14 @@ Constructs instances of the [**XMCOLOR**](/windows/desktop/api/DirectXPackedVect
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-xmcolor(constfloat)"><strong>XMCOLOR ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMCOLOR</code><br/> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a><br/>
-<blockquote>
-[!Note]<br />
-This is only available for C++ based development.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-xmcolor(uint32_t)"><strong>XMCOLOR (uint32_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMCOLOR</code> from a <code>uint32_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a> from a <code>uint32_t</code> variable containing component data in a packed format. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-xmcolor(constfloat)"><strong>XMCOLOR (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMCOLOR</code> from a four element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a> from a from a four element <code>float</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-xmcolor(float_float_float_float)"><strong>XMCOLOR (float,float,float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMCOLOR</code> from four <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor"><strong>XMCOLOR</strong></a> from four <code>float</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| [**XMCOLOR ()**](/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-xmcolor(constfloat)) | Default constructor for <code>XMCOLOR</code><br> Default constructor for [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor)<br> **Note:** This is only available for C++ based development.<br> | 
+| [**XMCOLOR (uint32_t)**](/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-xmcolor(uint32_t)) | Initializes a new instance of <code>XMCOLOR</code> from a <code>uint32_t</code> variable containing component data in a packed format. <br> This constructor initializes a new instance of [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor) from a <code>uint32_t</code> variable containing component data in a packed format. <br> **Note:** This constructor is only available under C++.<br> | 
+| [**XMCOLOR (const float*)**](/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-xmcolor(constfloat)) | Initializes a new instance of <code>XMCOLOR</code> from a four element <code>float</code> array argument. <br> This constructor initializes a new instance of [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor) from a from a four element <code>float</code> array argument. <br> **Note:** This constructor is only available under C++.<br> | 
+| [**XMCOLOR (float,float,float,float)**](/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmcolor-xmcolor(float_float_float_float)) | Initializes a new instance of <code>XMCOLOR</code> from four <code>float</code> arguments. <br> This constructor initializes a new instance of [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor) from four <code>float</code> arguments. <br> **Note:** This constructor is only available under C++.<br> | 
+
 
 
 

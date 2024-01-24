@@ -1,5 +1,5 @@
 ---
-Description: Removes all external keys and related information saved onto the currently running operating system volume that are used to automatically unlock data volumes.
+description: Removes all external keys and related information saved onto the currently running operating system volume that are used to automatically unlock data volumes.
 ms.assetid: a5fef793-0634-493d-b62d-cb842844b1e8
 title: ClearAllAutoUnlockKeys method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -66,7 +66,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

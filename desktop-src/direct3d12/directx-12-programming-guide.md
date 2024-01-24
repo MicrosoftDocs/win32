@@ -1,9 +1,8 @@
-﻿---
+---
 title: Direct3D 12 programming guide
 description: Direct3D 12 provides an API and platform that allows apps to take advantage of the graphics and computing capabilities of PCs equipped with one or more Direct3D 12-compatible GPUs.
 ms.assetid: 16F78A6B-74C4-4ED1-809F-FE6DE157F368
 ms.custom: 19H1
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/19/2019
 ---

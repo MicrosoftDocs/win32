@@ -1,5 +1,5 @@
 ---
-Description: String indicating the manufacturer of the lens used to take the picture. Can be blank or not present.
+description: String indicating the manufacturer of the lens used to take the picture. Can be blank or not present.
 ms.assetid: 81fb5540-509d-44ac-a249-430a0466fdbd
 title: System.Photo.LensManufacturer
 ms.topic: article

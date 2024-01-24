@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseCorruptedNoRepairException members"
 title: EsentDatabaseCorruptedNoRepairException members
 TOCTitle: EsentDatabaseCorruptedNoRepairException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedNoRepairException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseCorruptedNoRepair exceptions.
 
-The [EsentDatabaseCorruptedNoRepairException](dn334384\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseCorruptedNoRepairException](./esentdatabasecorruptednorepairexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseCorruptedNoRepairException class](dn334384\(v=exchg.10\).md)
+[EsentDatabaseCorruptedNoRepairException class](./esentdatabasecorruptednorepairexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

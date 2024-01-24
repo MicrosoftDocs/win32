@@ -1,0 +1,46 @@
+- name: "Firewall dynamic keywords"
+  href: firewall-dynamic-keywords.md
+  items: 
+  - name: "Firewall dynamic keywords reference"
+    href: firewall-dynamic-keywords-reference.md
+    items: 
+    - name: "Firewall dynamic keywords callbacks"
+      href: firewall-dynamic-keywords-callbacks.md
+      items: 
+      - name: "FWPM_DYNAMIC_KEYWORD_CALLBACK0"
+        href: /windows/win32/api/fwpmu/nc-fwpmu-fwpm_dynamic_keyword_callback0
+    - name: "Firewall dynamic keywords functions"
+      href: firewall-dynamic-keywords-functions.md
+      items: 
+      - name: "FwpmDynamicKeywordSubscribe0"
+        href: /windows/win32/api/fwpmu/nf-fwpmu-fwpmdynamickeywordsubscribe0
+      - name: "FwpmDynamicKeywordUnsubscribe0"
+        href: /windows/win32/api/fwpmu/nf-fwpmu-fwpmdynamickeywordunsubscribe0
+      - name: "PFN_FWADDDYNAMICKEYWORDADDRESS0"
+        href: /windows/win32/api/netfw/nc-netfw-pfn_fwadddynamickeywordaddress0
+      - name: "PFN_FWDELETEDYNAMICKEYWORDADDRESS0"
+        href: /windows/win32/api/netfw/nc-netfw-pfn_fwdeletedynamickeywordaddress0
+      - name: "PFN_FWENUMDYNAMICKEYWORDADDRESSBYID0"
+        href: /windows/win32/api/netfw/nc-netfw-pfn_fwenumdynamickeywordaddressbyid0
+      - name: "PFN_FWENUMDYNAMICKEYWORDADDRESSESBYTYPE0"
+        href: /windows/win32/api/netfw/nc-netfw-pfn_fwenumdynamickeywordaddressesbytype0
+      - name: "PFN_FWFREEDYNAMICKEYWORDADDRESSDATA0"
+        href: /windows/win32/api/netfw/nc-netfw-pfn_fwfreedynamickeywordaddressdata0
+      - name: "PFN_FWUPDATEDYNAMICKEYWORDADDRESS0"
+        href: /windows/win32/api/netfw/nc-netfw-pfn_fwupdatedynamickeywordaddress0
+    - name: "Firewall dynamic keywords structures"
+      href: firewall-dynamic-keywords-structures.md
+      items: 
+      - name: "FW_DYNAMIC_KEYWORD_ADDRESS_DATA0"
+        href: /windows/win32/api/netfw/ns-netfw-fw_dynamic_keyword_address_data0
+      - name: "FW_DYNAMIC_KEYWORD_ADDRESS0"
+        href: /windows/win32/api/netfw/ns-netfw-fw_dynamic_keyword_address0
+    - name: "Firewall dynamic keywords enumerations"
+      href: firewall-dynamic-keywords-enumerations.md
+      items: 
+      - name: "FW_DYNAMIC_KEYWORD_ADDRESS_ENUM_FLAGS"
+        href: /windows/win32/api/netfw/ne-netfw-fw_dynamic_keyword_address_enum_flags
+      - name: "FW_DYNAMIC_KEYWORD_ADDRESS_FLAGS"
+        href: /windows/win32/api/netfw/ne-netfw-fw_dynamic_keyword_address_flags
+      - name: "FW_DYNAMIC_KEYWORD_ORIGIN_TYPE"
+        href: /windows/win32/api/netfw/ne-netfw-fw_dynamic_keyword_origin_type

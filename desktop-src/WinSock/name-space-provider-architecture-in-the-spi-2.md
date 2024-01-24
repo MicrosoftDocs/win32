@@ -1,5 +1,5 @@
 ---
-Description: Programmatic interfaces used to query the various types of namespaces and to register information within a namespace, if supported, differ widely.
+description: Programmatic interfaces used to query the various types of namespaces and to register information within a namespace, if supported, differ widely.
 ms.assetid: 6a037e8d-49f3-4286-929a-8bb64ea0960f
 title: Namespace Provider Architecture in the SPI
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: VDS Object Model
+description: VDS Object Model
 ms.assetid: e5fcc19a-e170-4918-85eb-c1457776795a
 title: VDS Object Model
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # VDS Object Model
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 VDS provides indirect access to host-based storage devices, such as disks and CD-ROM devices, and to disk arrays that are managed by hardware RAID controllers. While some storage entities model physical devices, others model virtual constructs: volumes, partitions, and so on. The objects that are described in this topic represent both the physical and virtual entities of VDS.
 
@@ -18,7 +18,7 @@ Applications call the methods that are exposed by these objects and VDS calls th
 
 As the following illustration shows, software provider programs implement objects that model host-based entities; hardware provider programs implement objects that model internal and external hardware RAID devices; the remaining common objects are either provider-independent, or are implemented by VDS. A spindle, which is not a VDS object, is a term for generic storage media that comprises of disk or drive extents.
 
-![](images/vdsobjectmodel.png)
+![Diagram that shows a classification of objects, defined as 'Common objects', 'Software provider objects', and 'Hardware provider objects'.](images/vdsobjectmodel.png)
 
 To learn more about the behavior of each object, select from the following topics:
 

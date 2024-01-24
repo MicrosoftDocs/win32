@@ -11,10 +11,13 @@ keywords:
 - DSP plug-ins,enumeration types
 - enumerations,DSP plug-ins
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DSP Plug-in Enumeration Types
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Windows Media Player SDK implements the following enumeration type for creating DSP plug-ins.
 
@@ -23,7 +26,7 @@ The Windows Media Player SDK implements the following enumeration type for creat
 | Enumeration Type                                        | Description                                                                                    |
 |---------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [WMPPlugin\_Caps](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps)                   | Used with **IWMPPlugin::GetCaps** to indicate whether the plug-in can convert between formats. |
-| [WMPServices\_StreamState](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate) | Indicates the whether the stream is currently stopped, paused, or playing.                     |
+| [WMPServices\_StreamState](/previous-versions/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate) | Indicates whether the stream is currently stopped, paused, or playing.                     |
 
 
 

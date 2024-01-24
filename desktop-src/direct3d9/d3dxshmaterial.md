@@ -1,5 +1,5 @@
 ---
-Description: Spherical harmonic (SH) precomputed radiance transfer (PRT) material characteristics.
+description: Spherical harmonic (SH) precomputed radiance transfer (PRT) material characteristics.
 ms.assetid: 2be49f96-ac61-46aa-8d56-d8eee8dca9ed
 title: D3DXSHMATERIAL structure (D3dx9mesh.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ For more information about PRT see:
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

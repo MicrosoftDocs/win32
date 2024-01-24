@@ -1,5 +1,5 @@
 ---
-Description: This attribute enables a text control to display the approximate number of minutes and seconds remaining for an installation.
+description: This attribute enables a text control to display the approximate number of minutes and seconds remaining for an installation.
 ms.assetid: e1302449-7f80-4881-bd76-49d386bfdafb
 title: TimeRemaining Control Attribute
 ms.topic: article

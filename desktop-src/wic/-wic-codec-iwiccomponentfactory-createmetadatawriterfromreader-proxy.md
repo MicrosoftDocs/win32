@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateMetadataWriterFromReader method.
+description: Proxy function for the CreateMetadataWriterFromReader method.
 ms.assetid: da9e80d3-3265-428d-987e-8b344472527a
 title: IWICComponentFactory_CreateMetadataWriterFromReader_Proxy function
 ms.topic: reference
@@ -80,7 +80,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

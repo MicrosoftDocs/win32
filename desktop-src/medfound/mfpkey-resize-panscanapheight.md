@@ -1,5 +1,5 @@
 ---
-Description: Specifies the height of the pan/scan region, in pixels.
+description: Specifies the height of the pan/scan region, in pixels.
 ms.assetid: 11fda329-4adf-40e9-85b0-8d0999bbcfb8
 title: MFPKEY_RESIZE_PANSCANAPHEIGHT Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ VT\_I4
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

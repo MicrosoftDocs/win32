@@ -1,5 +1,5 @@
 ---
-Description: Starts decoding a new frame.
+description: Starts decoding a new frame.
 ms.assetid: da2c231d-89a9-4fd9-99b5-f7c1309c26e0
 title: NtGdiDdBeginMoCompFrame function (Ntgdi.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

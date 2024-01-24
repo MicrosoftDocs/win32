@@ -1,5 +1,5 @@
 ---
-Description: How can a video stream encoded using quality-based VBR have fewer frames than the original stream?
+description: How can a video stream encoded using quality-based VBR have fewer frames than the original stream?
 ms.assetid: acce9c88-2ee1-4628-9fd5-ccb441f8b43e
 title: How can a video stream encoded using quality-based VBR have fewer frames than the original stream?
 ms.topic: article

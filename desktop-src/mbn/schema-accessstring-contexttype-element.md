@@ -1,5 +1,5 @@
 ---
-Description: Identifies the APN or dial string to be used to establish a data connection.
+description: Identifies the APN or dial string to be used to establish a data connection.
 ms.assetid: e791ffa1-b417-480c-adb8-b1dda7547d89
 title: AccessString (contextType) Element
 ms.topic: reference
@@ -44,7 +44,7 @@ The **AccessString** element is defined by the [**contextType**](schema-contextt
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

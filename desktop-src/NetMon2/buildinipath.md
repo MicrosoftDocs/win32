@@ -1,5 +1,5 @@
 ---
-Description: The BuildINIPath function returns a fully qualified path to an INI file that corresponds to information you enter.
+description: The BuildINIPath function returns a fully qualified path to an INI file that corresponds to information you enter.
 ms.assetid: 214ce89c-8bb2-4e1a-872a-026743a3e3a6
 title: BuildINIPath function (Netmon.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ The path that this function returns is a fully qualified path to an INI file tha
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

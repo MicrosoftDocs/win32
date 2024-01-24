@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseStreamingFileMismatchException methods"
 title: EsentDatabaseStreamingFileMismatchException methods
 TOCTitle: EsentDatabaseStreamingFileMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseStreamingFileMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseStreamingFileMismatchException](dn334493\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseStreamingFileMismatchException](./esentdatabasestreamingfilemismatchexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseStreamingFileMismatchException class](dn334493\(v=exchg.10\).md)
+[EsentDatabaseStreamingFileMismatchException class](./esentdatabasestreamingfilemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the item is shared. This checks only the non-inherited ACLs.
+description: Indicates whether the item is shared. This checks only the non-inherited ACLs.
 ms.assetid: b8ecf84b-911b-4eea-a015-22f5cecafa9c
 title: System.IsShared
 ms.topic: article

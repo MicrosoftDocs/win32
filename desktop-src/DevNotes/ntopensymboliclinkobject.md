@@ -1,5 +1,5 @@
 ---
-Description: Opens an existing symbolic link.
+description: Opens an existing symbolic link.
 ms.assetid: 37684707-4f65-4904-8bfc-d0679ebbd924
 title: NtOpenSymbolicLinkObject function
 ms.topic: reference
@@ -71,7 +71,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

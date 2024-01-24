@@ -1,5 +1,5 @@
 ---
-Description: Adds a new IContextLink to the IContextNode object's collection of context links.
+description: Adds a new IContextLink to the IContextNode object's collection of context links.
 ms.assetid: b7b9da10-3015-4976-bc4e-1a7f69b7c85b
 title: IContextNode::AddContextLink method (IACom.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ This [**IContextNode**](icontextnode.md) object is the source node (see [**ICont
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

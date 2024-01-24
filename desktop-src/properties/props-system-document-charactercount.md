@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Document.CharacterCount
 ms.assetid: bfe0d23d-18fa-4438-96af-da5d44a76b34
 title: System.Document.CharacterCount
 ms.topic: article

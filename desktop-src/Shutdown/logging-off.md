@@ -1,5 +1,5 @@
 ---
-Description: The ExitWindows function logs off the current user. You can also call the ExitWindowsEx function with the EXW\_LOGOFF flag.
+description: The ExitWindows function logs off the current user. You can also call the ExitWindowsEx function with the EXW\_LOGOFF flag.
 ms.assetid: 906d92f1-7cbe-454e-9c71-34b4383aebab
 title: Logging Off
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: MediaCollectionAttributeStringAdded Event of the AxWindowsMediaPlayer Object
-description: The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library.
+description: The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library. | MediaCollectionAttributeStringAdded Event of the AxWindowsMediaPlayer Object
 ms.assetid: b14db0ce-bd78-4e28-a42c-1a231c29da2b
 keywords:
 - MediaCollectionAttributeStringAdded Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -13,10 +13,13 @@ api_location:
 api_type:
 - Assembly
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # MediaCollectionAttributeStringAdded Event of the AxWindowsMediaPlayer Object
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library.
 
@@ -57,7 +60,7 @@ When a media item is added to the library, its metadata is added to the media co
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

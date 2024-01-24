@@ -43,7 +43,7 @@ Returns TRUE if successful, or FALSE otherwise.
 
 
 
-|                   |                                                                                                                 |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>None</dt> </dl>                                 |
 | DLL<br/>    | <dl> <dt>Riched20.dll (Rich Edit version 3.0)</dt> </dl> |

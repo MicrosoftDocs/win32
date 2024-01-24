@@ -1,5 +1,5 @@
 ---
-Description: Resource management is the process where resources are promoted from system-memory storage to device-accessible storage and discarded from device-accessible storage.
+description: Resource management is the process where resources are promoted from system-memory storage to device-accessible storage and discarded from device-accessible storage.
 ms.assetid: 4aa55313-b86c-48e7-829a-a0917c2ebae7
 title: Managing Resources (Direct3D 9)
 ms.topic: article

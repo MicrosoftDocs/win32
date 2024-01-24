@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempFileOpenErrorException properties"
 title: EsentTempFileOpenErrorException properties
 TOCTitle: EsentTempFileOpenErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTempFileOpenErrorException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTempFileOpenErrorException](dn334964\(v=exchg.10\).md) type exposes the following members.
+The [EsentTempFileOpenErrorException](./esenttempfileopenerrorexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentTempFileOpenErrorException class](dn334964\(v=exchg.10\).md)
+[EsentTempFileOpenErrorException class](./esenttempfileopenerrorexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Description of ways to enhance performance when using the StylusInput application programming interfaces (APIs).
+description: Description of ways to enhance performance when using the StylusInput application programming interfaces (APIs).
 ms.assetid: 2a541715-2d9e-4eb2-ab60-ec95368fca5a
 title: Performance Considerations for the StylusInput API
 ms.topic: article

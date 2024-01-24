@@ -1,5 +1,5 @@
 ---
-Description: Kernel object handles are process specific.
+description: Kernel object handles are process specific.
 ms.assetid: 3e3288dd-155a-41d0-9d43-5f49ed4c4a9d
 title: Kernel Objects
 ms.topic: article

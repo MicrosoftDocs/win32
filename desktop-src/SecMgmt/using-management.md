@@ -1,5 +1,5 @@
 ---
-Description: The following topics provide information about using security management. These procedures and examples demonstrate management techniques. The examples use function calls and structures described in Security Management Reference.
+description: The following topics provide information about using security management. These procedures and examples demonstrate management techniques. The examples use function calls and structures described in Security Management Reference.
 ms.assetid: accc4046-fbac-4343-b47b-42633a07ab2c
 title: Using Security Management
 ms.topic: article

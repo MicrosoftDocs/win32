@@ -1,5 +1,5 @@
 ---
-Description: Describes a virtual system reference point service.
+description: Describes a virtual system reference point service.
 ms.assetid: 888ecd21-4b59-46a9-b2e1-538e30dd2d1c
 title: Msvm_VirtualSystemReferencePointService class
 ms.topic: reference
@@ -58,7 +58,7 @@ The **Msvm\_VirtualSystemReferencePointService** class has these methods.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.pidxunicode property"
 title: JET_OPENTEMPORARYTABLE.pidxunicode property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'pidxunicode property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.pidxunicode
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the locale ID and normalization flags to use to compare any Unicode key column data in the temporary table. When this parameter is null, then the default LCID will be used to compare any Unicode key columns in the temporary table. The default LCID is the U.S. English locale. When this parameter is null, then the default normalization flags will be used to compare any Unicode key column data in the temp table. The default normalization flags are: NORM_IGNORECASE, NORM_IGNOREKANATYPE, and NORM_IGNOREWIDTH.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public JET_UNICODEINDEX pidxunicode { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX](dn351106\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX](./jet-unicodeindex-class.md)  
 
 ## See also
 
 #### Reference
 
-[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](./jet-opentemporarytable-class.md)
 
-[JET_OPENTEMPORARYTABLE members](dn335285\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE members](./jet-opentemporarytable-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

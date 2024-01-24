@@ -1,6 +1,6 @@
 ---
 title: IBackgroundCopyFile5 SetProperty method (Deliveryoptimization.h)
-description: Sets a generic property of a Delivery Optimization (DO) file transfer.
+description: Sets a generic property of a Delivery Optimization file transfer.
 ms.assetid: 63B6806E-47D6-49B0-9867-628C110540D0
 keywords:
 - SetProperty method
@@ -21,7 +21,7 @@ ROBOTS: INDEX,FOLLOW
 
 # IBackgroundCopyFile5::SetProperty method
 
-Sets a generic property of a Delivery Optimization (DO) file transfer.
+Sets a generic property of a Delivery Optimization file transfer.
 
 ## Syntax
 
@@ -61,7 +61,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |

@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set a vertex shader.
+description: A callback function that must be implemented by a user to set a vertex shader.
 ms.assetid: 8f3d3be3-c073-441d-a318-6d2cd5e7aca5
 title: ID3DXEffectStateManager::SetVertexShader method (D3DX9Effect.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The user-implemented method should return S\_OK. If the callback fails when sett
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -163,7 +163,7 @@ Users should have a consistent and secure experience with the default installati
 -   Start Menu AllPrograms > STARTUP
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\<username>\\AppData  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
 10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> Use the correct methods for installing files, such as fonts or drivers.  
 </dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> When the app is installed, there is no correct user location in which to store data. Attempts by an app to modify default association behaviors at a machine level after installation will be unsuccessful. Instead, defaults must be claimed on a per-user level, which prevents multiple users from overwriting each other's defaults.  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> A waiver is required for apps that write to the global assembly cache (GAC) .NET apps should keep assembly dependencies private, and store it in the app directory unless sharing an assembly is explicitly required.  
@@ -200,9 +200,8 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 
 
-|               |         |                                        |                                                                                  |
-|---------------|---------|----------------------------------------|----------------------------------------------------------------------------------|
 | Date          | Version | Revision description                   | Link to document                                                                 |
+|---------------|---------|----------------------------------------|----------------------------------------------------------------------------------|
 | Dec 20, 2011  | 1.0     | Initial draft of document for Preview. |                                                                                  |
 | Jan 26, 2012  | 1.1     | Update to section \#2.                 | [1.1](archive--certification-requirements-for-windows-desktop-apps-v1-1.md)     |
 | May 31, 2012  | 1.2     | Added summary test results             | [1.2](archive--certification-requirements-for-windows-desktop-apps-v1-2.md)     |
@@ -222,8 +221,8 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -259,7 +258,7 @@ Thank you again for joining in our commitment to delivering great customer exper
 </tr>
 <tr class="even">
 <td>Clean Reversible Installation</td>
-<td>A clean, reversible, installation allows users to successfully manage (deploy and remove) apps on their systems. For more information see, <a href="/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application?view=vs-2015">How to: Install Prerequisites with a ClickOnce Application</a>.</td>
+<td>A clean, reversible, installation allows users to successfully manage (deploy and remove) apps on their systems. For more information see, <a href="/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application">How to: Install Prerequisites with a ClickOnce Application</a>.</td>
 </tr>
 <tr class="odd">
 <td>Digitally sign files and drivers</td>
@@ -274,7 +273,6 @@ Thank you again for joining in our commitment to delivering great customer exper
 <td>Safe mode allows users to diagnose and troubleshoot Windows. Unless needed for basic operations of the system (for example, storage device drivers) or for diagnostic and recovery purposes (for example, anti-virus scanners), drivers and services must not be set to load in safe mode. By default, the safe mode does not start most drivers and services that did not come preinstalled with Windows. They should remain disabled unless the system requires them for basic operations or for diagnostic and recovery purposes.<br/> For more information see:
 <ul>
 <li><a href="/windows-hardware/drivers/kernel/determining-whether-the-operating-system-is-running-in-safe-mode">Determining Whether the Operating System Is Running in Safe Mode</a></li>
-<li><a href="https://support.microsoft.com/kb/837643">How to determine whether the system is running in Safe Mode from a device driver</a></li>
 </ul>
 <br/></td>
 </tr>

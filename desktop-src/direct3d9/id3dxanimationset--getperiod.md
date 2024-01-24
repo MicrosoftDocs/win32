@@ -1,5 +1,5 @@
 ---
-Description: Gets the period of the animation set.
+description: Gets the period of the animation set.
 ms.assetid: 0bb19ec1-c918-44b6-83b0-4fdbb4e1a485
 title: ID3DXAnimationSet::GetPeriod method (D3dx9anim.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The period is the range of time that the animation key frames are valid. For loo
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

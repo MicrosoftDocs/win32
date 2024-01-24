@@ -1,5 +1,5 @@
 ---
-Description: The WSOleDB code sample demonstrates Active Template Library (ATL) OLE DB access to Windows Search applications, and demonstrates two additional methods for retrieving results from Windows Search.
+description: The WSOleDB code sample demonstrates Active Template Library (ATL) OLE DB access to Windows Search applications, and demonstrates two additional methods for retrieving results from Windows Search.
 ms.assetid: c81bf3af-e023-4384-8c89-0fa9c8f08773
 title: WSOleDB
 ms.topic: article

@@ -22,7 +22,7 @@ A grammar for encoding the display table properties as a string.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Address-Syntax                                        |
 | Ldap-Display-Name | addressSyntax                                         |
@@ -48,7 +48,7 @@ A grammar for encoding the display table properties as a string.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
@@ -69,7 +69,7 @@ A grammar for encoding the display table properties as a string.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
@@ -90,7 +90,7 @@ A grammar for encoding the display table properties as a string.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
@@ -111,7 +111,7 @@ A grammar for encoding the display table properties as a string.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
@@ -132,7 +132,7 @@ A grammar for encoding the display table properties as a string.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |
@@ -153,7 +153,7 @@ A grammar for encoding the display table properties as a string.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8018                                                   |

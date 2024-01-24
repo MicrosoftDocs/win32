@@ -1,5 +1,5 @@
 ---
-Description: Attaches a surface to another surface.
+description: NtGdiDdCreateSurface function - Attaches a surface to another surface.
 ms.assetid: 4fd757c7-9e32-4737-b666-3226f6cf29fa
 title: NtGdiDdCreateSurface function (Ntgdi.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Previous handle to the same surface. Used if the surface is being re-created aft
 *puSurfaceDescription* \[in, out\]
 </dt> <dd>
 
-Pointer to the [**DDSURFACEDESC**](/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)) structure describing the surface or buffer that the driver should create.
+Pointer to the [**DDSURFACEDESC**](/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc) structure describing the surface or buffer that the driver should create.
 
 </dd> <dt>
 
@@ -129,7 +129,7 @@ When creating a chain of attached surfaces, such as a swap chain or chain or mip
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

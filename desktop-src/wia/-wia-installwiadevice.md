@@ -1,5 +1,5 @@
 ---
-Description: The InstallWiaDevice function installs a Windows Image Acquisition (WIA) device as root-enumerated device. It may popup a security warning if any installing file or coinstaller is not digitally signed and trusted.
+description: The InstallWiaDevice function installs a Windows Image Acquisition (WIA) device as root-enumerated device. It may popup a security warning if any installing file or coinstaller is not digitally signed and trusted.
 ms.assetid: c7de27f5-5994-4fce-a6ec-6e7cfae2e591
 title: InstallWiaDevice function (Wia.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ If the function fails, it returns a Win32 error code.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

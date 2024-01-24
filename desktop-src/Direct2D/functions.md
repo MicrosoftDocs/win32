@@ -19,7 +19,7 @@ Direct2D provides the following functions. Additional functions are defined in t
 | [**D2D1ComputeMaximumScaleFactor**](/windows/desktop/api/d2d1_2/nf-d2d1_2-d2d1computemaximumscalefactor) | Computes the maximum factor by which a given transform can stretch any vector. |
 | [**D2D1CreateDevice**](/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevice) | Creates a new Direct2D device associated with the provided DXGI device.  |
 | [**D2D1CreateDeviceContext**](/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevicecontext) | Creates a new Direct2D device context associated with a DXGI surface.  |
-| [**D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void\*\*)**](/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory~r1) | Creates a factory object that can be used to create Direct2D resources. |
+| [**D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,void\*\*)**](/windows/win32/api/d2d1/nf-d2d1-d2d1createfactory-r1) | Creates a factory object that can be used to create Direct2D resources. |
 | [**D2D1CreateFactory(D2D1_FACTORY_TYPE,REFIID,D2D1_FACTORY_OPTIONS\*,void\*\*)**](/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory) | Creates a factory object that can be used to create Direct2D resources. |
 | [**D2D1GetGradientMeshInteriorPointsFromCoonsPatch**](/windows/desktop/api/d2d1_3/nf-d2d1_3-d2d1getgradientmeshinteriorpointsfromcoonspatch) | Returns the interior points for a gradient mesh patch based on the points defining a Coons patch. |
 | [**D2D1InvertMatrix**](/windows/desktop/api/d2d1/nf-d2d1-d2d1invertmatrix) | Tries to invert the specified matrix. |

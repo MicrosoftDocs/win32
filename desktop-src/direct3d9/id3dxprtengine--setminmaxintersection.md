@@ -1,5 +1,5 @@
 ---
-Description: Sets the minimum and maximum distances of intersection between 3D objects.
+description: Sets the minimum and maximum distances of intersection between 3D objects.
 ms.assetid: da825c70-0c55-4303-b78a-a761ba037182
 title: ID3DXPRTEngine::SetMinMaxIntersection method (D3DX9Mesh.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ This method cannot be used in precomputed radiance transfer (PRT) simulations th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageBoundaryException constructor"
 title: EsentPageBoundaryException constructor 
 TOCTitle: 'EsentPageBoundaryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPageBoundaryException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentPageBoundaryException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentPageBoundaryException()
 
 #### Reference
 
-[EsentPageBoundaryException class](dn319768\(v=exchg.10\).md)
+[EsentPageBoundaryException class](./esentpageboundaryexception-class.md)
 
-[EsentPageBoundaryException members](dn319822\(v=exchg.10\).md)
+[EsentPageBoundaryException members](./esentpageboundaryexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

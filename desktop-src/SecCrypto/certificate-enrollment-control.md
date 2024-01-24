@@ -1,5 +1,5 @@
 ---
-Description: Certificate Enrollment Control can be used by an application that must request that a certificate be issued to a named subject.
+description: Certificate Enrollment Control can be used by an application that must request that a certificate be issued to a named subject.
 ms.assetid: ce6661b0-7ed2-452f-a54c-6705d14f3298
 title: Certificate Enrollment Control
 ms.topic: article

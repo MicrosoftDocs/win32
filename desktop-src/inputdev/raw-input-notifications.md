@@ -1,6 +1,6 @@
 ---
 title: Raw Input Notifications
-description: .
+description: Raw Input Notifications
 ms.assetid: 6e4705b2-1beb-4652-a621-5297e0ed504a
 ms.topic: article
 ms.date: 05/31/2018

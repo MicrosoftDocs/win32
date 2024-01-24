@@ -1,5 +1,5 @@
 ---
-Description: The wave/in device class consists of audio devices for low-level wave audio input.
+description: The wave/in device class consists of audio devices for low-level wave audio input.
 ms.assetid: b2f32019-088f-4805-af7e-559a8179b1e6
 title: wave/in
 ms.topic: article

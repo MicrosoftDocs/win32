@@ -1,6 +1,6 @@
 ---
 title: Introducing the Windows Ribbon Framework
-description: The Windows Ribbon framework is a rich command presentation system that provides a modern alternative to the layered menus, toolbars, and task panes of traditional Windows applications.
+description: View the landing page for the Windows Ribbon framework, which is an alternative to the layered menus, toolbars, and task panes of traditional Windows applications.
 ms.assetid: bc19d5eb-e3a4-4022-8051-512cb3a3e065
 keywords:
 - Windows Ribbon,framework

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MemoryMappedIO class represents computer architecture memory-mapped I/O. This class addresses memory and port I/O resources.
+description: The CIM\_MemoryMappedIO class represents computer architecture memory-mapped I/O. This class addresses memory and port I/O resources.
 ms.assetid: cf418cd0-1ace-4d86-a878-65e81771787e
 ms.tgt_platform: multiple
 title: CIM_MemoryMappedIO class
@@ -344,7 +344,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

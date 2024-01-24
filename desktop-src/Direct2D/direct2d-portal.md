@@ -1,6 +1,6 @@
 ---
 title: Direct2D
-description: .
+description: Direct2D
 ms.assetid: 03b3b91c-9751-4f8d-af24-85067f06930b
 ms.topic: article
 ms.date: 05/31/2018
@@ -28,7 +28,7 @@ Direct2D is designed primarily for use by the following classes of developers:
 
 > [!Note]
 >
-> The Platform Update for Windows Vista and Platform Update for Windows Server 2008 are a set of run-time libraries that enables developers to target applications to Windows 7, Windows Vista, Windows Server 2008 R2, and Windows Server 2008. These updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require Platform Update for Windows Vista or Platform Update for Windows Server 2008 can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background. For more information about both updates, see [Platform Update for Windows Vista](https://support.microsoft.com/kb/971644).
+> The Platform Update for Windows Vista and Platform Update for Windows Server 2008 are a set of run-time libraries that enables developers to target applications to Windows 7, Windows Vista, Windows Server 2008 R2, and Windows Server 2008. These updates will be available to all Windows Vista and Windows Server 2008 customers through Windows Update. Third-party applications that require Platform Update for Windows Vista or Platform Update for Windows Server 2008 can have Windows Update detect whether the required updated is installed; if it is not, Windows Update will download and install it in the background.
 
  
 
@@ -40,7 +40,7 @@ Direct2D is designed primarily for use by the following classes of developers:
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [What's new in Direct2D](what-s-new-in-direct2d-for-windows-8-consumer-preview.md)<br/> | Here are some of the new additions to Direct2D. <br/>                                                                                                                   |
 | [About Direct2D](direct2d-overview.md)<br/>                                             | Introduces Direct2D, an API that provides Win32 developers with the ability to perform 2-D graphics rendering tasks with superior performance and visual quality. <br/> |
-| [Direct2D Quickstart for Windows 8](direct2d-quickstart-with-device-context.md)<br/>    | Summarizes the steps required to draw with Direct2D and provides example code.<br/>                                                                                     |
+| [Direct2D quickstart for Windows 8](direct2d-quickstart-with-device-context.md)<br/>    | Summarizes the steps required to draw with Direct2D and provides example code.<br/>                                                                                     |
 | [Getting Started with Direct2D](getting-started-with-direct2d-nav.md)<br/>              | Describes how to get started creating Direct2D applications and provides example code.<br/>                                                                             |
 | [Programming Guide](programming-guide.md)<br/>                                          | This section contains conceptual programming topics that describe how to use the Direct2D API. <br/>                                                                    |
 | [Direct2D reference](reference.md)<br/>                                                      | Describes the Direct2D API in detail.<br/>                                                                                                                              |

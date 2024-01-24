@@ -1,5 +1,5 @@
 ---
-Description: A user-defined callback function that allows the caller of the CryptUIDlgSelectCertificate function to handle the display of certificates that the user selects to view.
+description: A user-defined callback function that allows the caller of the CryptUIDlgSelectCertificate function to handle the display of certificates that the user selects to view.
 ms.assetid: fdb9e9e0-02f1-42e0-9a11-204d916a1a88
 title: PFNCCERTDISPLAYPROC callback function
 ms.topic: reference
@@ -64,7 +64,7 @@ This function returns **TRUE** to indicate that it handles display of the certif
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

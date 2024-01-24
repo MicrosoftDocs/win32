@@ -23,9 +23,8 @@ Defines the location on the hull of the current domain point being evaluated.
 
 
 
-|        |                |
+| Type       | Input topology               |
 |--------|----------------|
-| Type   | Input Topology |
 | float2 | quad patch     |
 | float3 | tri patch      |
 | float2 | isoline        |
@@ -42,9 +41,8 @@ This function is supported in the following types of shaders:
 
 
 
-|        |      |        |          |       |         |
-|--------|------|--------|----------|-------|---------|
 | Vertex | Hull | Domain | Geometry | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
 |        |      | x      |          |       |         |
 
 

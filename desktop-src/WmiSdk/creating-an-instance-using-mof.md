@@ -1,5 +1,5 @@
 ---
-Description: You can declare a basic instance of a class in the Windows Management service using Managed Object Format (MOF). You can also override the default values for an instance. For more information, see Setting an Instance Property Value.
+description: You can declare a basic instance of a class in the Windows Management service using Managed Object Format (MOF). You can also override the default values for an instance. For more information, see Setting an Instance Property Value.
 ms.assetid: 12eda062-9614-455d-ae99-7706c685137b
 ms.tgt_platform: multiple
 title: Creating an Instance Using MOF

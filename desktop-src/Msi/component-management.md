@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer reduces the total cost of ownership (TCO) of your applications by increasing the ability of your customers to manage and maintain application components during setup and run time.
+description: The Windows Installer reduces the total cost of ownership (TCO) of your applications by increasing the ability of your customers to manage and maintain application components during setup and run time.
 ms.assetid: fbb139e3-c81b-44fc-9e92-bada0be02862
 title: Component Management
 ms.topic: article

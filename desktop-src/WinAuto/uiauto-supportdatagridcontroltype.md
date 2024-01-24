@@ -46,38 +46,11 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Control View</th>
-<th>Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>DataGrid
-<ul>
-<li>Header (0, 1, or 2)
-<ul>
-<li>HeaderItem (number of columns or rows)</li>
-</ul></li>
-<li>DataItem (0 or more; can be structured in a hierarchy)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>DataGrid
-<ul>
-<li>DataItem (0 or more; can be structured in a hierarchy)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Control View | Content View | 
+|--------------|--------------|
+| <ul><li>DataGrid<ul><li>Header (0, 1, or 2)<ul><li>HeaderItem (number of columns or rows)</li></ul></li><li>DataItem (0 or more; can be structured in a hierarchy)</li></ul></li></ul> | <ul><li>DataGrid<ul><li>DataItem (0 or more; can be structured in a hierarchy)</li></ul></li></ul> | 
+
 
 
 
@@ -167,44 +140,11 @@ The control view and the content view of the UI Automation tree that pertains to
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>UI Automation Tree - Control View</th>
-<th>UI Automation Tree - Content View</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DataGrid (Sort, Table, Selection, Grid)
-<ul>
-<li>Header
-<ul>
-<li>HeaderItem &quot;Name&quot; (Invoke)</li>
-<li>HeaderItem &quot;Date Modified&quot; (Invoke)</li>
-<li>HeaderItem &quot;Size&quot; (Invoke)</li>
-</ul></li>
-<li>Group &quot;Contoso&quot; (TableItem, GridItem, SelectionItem, Table*, Grid*)
-<ul>
-<li>DataItem &quot;Accounts Receivable.doc&quot; (SelectionItem, Invoke, TableItem*, GridItem*)</li>
-<li>DataItem &quot;Accounts Payable.doc&quot; (SelectionItem, Invoke, TableItem*, GridItem*)</li>
-</ul></li>
-</ul></td>
-<td>DataGrid (Table, Grid, Selection)
-<ul>
-<li>Group &quot;Contoso&quot; (TableItem, GridItem, SelectionItem, Table*, Grid*)
-<ul>
-<li>DataItem &quot;Accounts Receivable.doc&quot; (SelectionItem, Invoke, TableItem*, GridItem*)</li>
-<li>DataItem &quot;Accounts Payable.doc&quot; (SelectionItem, Invoke, TableItem*, GridItem*)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| UI Automation Tree - Control View | UI Automation Tree - Content View | 
+|-----------------------------------|-----------------------------------|
+| DataGrid (Sort, Table, Selection, Grid)<ul><li>Header<ul><li>HeaderItem "Name" (Invoke)</li><li>HeaderItem "Date Modified" (Invoke)</li><li>HeaderItem "Size" (Invoke)</li></ul></li><li>Group "Contoso" (TableItem, GridItem, SelectionItem, Table*, Grid*)<ul><li>DataItem "Accounts Receivable.doc" (SelectionItem, Invoke, TableItem*, GridItem*)</li><li>DataItem "Accounts Payable.doc" (SelectionItem, Invoke, TableItem*, GridItem*)</li></ul></li></ul> | DataGrid (Table, Grid, Selection)<ul><li>Group "Contoso" (TableItem, GridItem, SelectionItem, Table*, Grid*)<ul><li>DataItem "Accounts Receivable.doc" (SelectionItem, Invoke, TableItem*, GridItem*)</li><li>DataItem "Accounts Payable.doc" (SelectionItem, Invoke, TableItem*, GridItem*)</li></ul></li></ul> | 
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: The symbol handling capabilities of the DbgHelp API have evolved over the years.
+description: The symbol handling capabilities of the DbgHelp API have evolved over the years.
 ms.assetid: 6dc41682-6104-418b-b045-7afe8c2b11e9
 title: Public, Global, and Local Symbols
 ms.topic: article

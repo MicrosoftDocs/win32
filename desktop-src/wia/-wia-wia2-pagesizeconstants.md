@@ -1,5 +1,5 @@
 ---
-Description: The following are valid page sizes for Windows Image Acquisition (WIA) 2.0 item properties, such as WIA\_IPS\_PAGE\_SIZE. Dimensions in thousandths of an inch.
+description: The following are valid page sizes for Windows Image Acquisition (WIA) 2.0 item properties, such as WIA\_IPS\_PAGE\_SIZE. Dimensions in thousandths of an inch.
 ms.assetid: 64f2296b-7104-49be-9632-f075d06f94aa
 title: WIA 2.0 Page Size Constants (Wiadef.h)
 ms.topic: reference
@@ -145,7 +145,7 @@ The following are valid page sizes for Windows Image Acquisition (WIA) 2.0 item
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

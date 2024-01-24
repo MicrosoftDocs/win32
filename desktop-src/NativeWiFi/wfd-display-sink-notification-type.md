@@ -1,5 +1,5 @@
 ---
-Description: Defines the type of the notification passed to the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
+description: Defines the type of the notification passed to the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
 ms.assetid: C0AFF80E-A4D2-4FF1-B111-D628AF8755A8
 title: WFD_DISPLAY_SINK_NOTIFICATION_TYPE enumeration (Wfdsink.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ The notification is a disconnected notification.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |

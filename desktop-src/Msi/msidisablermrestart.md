@@ -1,5 +1,5 @@
 ---
-Description: The MSIDISABLERMRESTART property determines how applications or services that are currently using files affected by an update should be shut down and restarted to enable the installation of the update.
+description: The MSIDISABLERMRESTART property determines how applications or services that are currently using files affected by an update should be shut down and restarted to enable the installation of the update.
 ms.assetid: 45c804bf-6d15-416a-b106-d8bb3f4c547d
 title: MSIDISABLERMRESTART property
 ms.topic: reference
@@ -31,7 +31,7 @@ The **MSIDISABLERMRESTART** Property is ignored if the [Restart Manager](../rstm
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                          |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum service pack required by a Windows Installer version.<br/> |
 

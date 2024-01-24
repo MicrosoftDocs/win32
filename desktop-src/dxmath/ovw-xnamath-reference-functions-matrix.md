@@ -1,5 +1,5 @@
 ---
-Description: Lists the matrix functions provided by DirectXMath.
+description: Lists the matrix functions provided by DirectXMath.
 ms.assetid: d59d0dcc-deae-3f7e-55c5-0c5ff383343b
 title: DirectXMath Library matrix functions
 ms.topic: reference
@@ -64,6 +64,7 @@ Lists the matrix functions provided by DirectXMath.
 | [**XMMatrixTranslation**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranslation)<br/>                                       | Builds a translation matrix from the specified offsets.<br/>                                                                     |
 | [**XMMatrixTranslationFromVector**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranslationfromvector)<br/>                   | Builds a translation matrix from a vector.<br/>                                                                                  |
 | [**XMMatrixTranspose**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranspose)<br/>                                           | Computes the transpose of a matrix.<br/>                                                                                         |
+| [**XMMatrixVectorTensorProduct**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixvectortensorproduct)<br/>                                           | Computes the outer tensor product of 2 vectors.<br/>                                                                                         |
 
 
 

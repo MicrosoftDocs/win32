@@ -1,5 +1,5 @@
 ---
-Description: Windows Management Instrumentation (WMI) is the Microsoft implementation of Web-Based Enterprise Management (WBEM), which is an industry initiative to develop a standard technology for accessing management information in an enterprise environment.
+description: Windows Management Instrumentation (WMI) is the Microsoft implementation of Web-Based Enterprise Management (WBEM), which is an industry initiative to develop a standard technology for accessing management information in an enterprise environment.
 ms.assetid: d745cf25-a139-439d-9ac5-e7720b640516
 ms.tgt_platform: multiple
 title: About WMI
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # About WMI
 
-Windows Management Instrumentation (WMI) is the Microsoft implementation of Web-Based Enterprise Management (WBEM), which is an industry initiative to develop a standard technology for accessing management information in an enterprise environment. WMI uses the Common Information Model (CIM) industry standard to represent systems, applications, networks, devices, and other managed components. CIM is developed and maintained by the Distributed Management Task Force ([DMTF](https://www.dmtf.org/standards/wsman)).
+Windows Management Instrumentation (WMI) is the Microsoft implementation of Web-Based Enterprise Management (WBEM), which is an industry initiative to develop a standard technology for accessing management information in an enterprise environment. WMI uses the Common Information Model (CIM) industry standard to represent systems, applications, networks, devices, and other managed components. CIM is developed and maintained by the Distributed Management Task Force ([DMTF](https://www.dmtf.org/standards/ws-man)).
 
 > [!Note]  
 > The next-generation of WMI, known as the Windows Management Infrastructure (MI), is currently available. MI is fully compatible with previous versions of WMI, and provides a host of features and benefits that make designing and developing providers and clients easier than ever. For example, many newer providers are written using the MI framework, but can be accessed using WMI scripts and applications. For more information about the differences between the two technologies, see [Why Use MI?](/previous-versions/windows/desktop/wmi_v2/why-use-mi-)

@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for hardware configuration events. The following syntax is simplified from MOF code.
+description: SystemConfig_V0 class - This class is the parent class for hardware configuration events. The following syntax is simplified from MOF code.
 ms.assetid: 9da1a7ec-89b5-462b-a336-544e4b7adf96
 title: SystemConfig_V0 class
 ms.topic: reference
@@ -41,7 +41,7 @@ For hardware configuration events on Windows XP, see the [**HWConfig**](hwconfi
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

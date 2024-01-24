@@ -1,5 +1,5 @@
 ---
-Description: Contains a signed BLOB.
+description: Contains a signed BLOB.
 ms.assetid: c12d9007-c779-4363-8e28-6387a665a0d6
 title: SIGNER_CONTEXT structure
 ms.topic: reference
@@ -65,7 +65,7 @@ A pointer to the signed BLOB.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

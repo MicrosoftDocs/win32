@@ -1,5 +1,5 @@
 ---
-Description: 'The WBEMTime class subtraction operator (&\#8211;) has been overloaded to:'
+description: 'The WBEMTime class subtraction operator (&\#8211;) has been overloaded to:'
 audience: developer
 ms.assetid: 0fa51aab-7ea2-4af7-bb12-1646388b0405
 ms.tgt_platform: multiple
@@ -32,7 +32,7 @@ The [**WBEMTime**](wbemtime.md) class subtraction operator (�) has been overlo
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |

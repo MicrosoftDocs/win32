@@ -1,5 +1,5 @@
 ---
-Description: Is designed to allow an application to decide whether or not to accept an incoming connection on a listening socket.
+description: Is designed to allow an application to decide whether or not to accept an incoming connection on a listening socket.
 ms.assetid: 964683eb-5dfc-4441-abb7-315be8b89a19
 title: SO_CONDITIONAL_ACCEPT socket option (Ws2def.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

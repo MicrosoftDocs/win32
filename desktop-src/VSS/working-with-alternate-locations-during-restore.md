@@ -1,5 +1,5 @@
 ---
-Description: There are many reasons why a requester either should not, or may not, be able to restore files from backup media to their original location.
+description: There are many reasons why a requester either should not, or may not, be able to restore files from backup media to their original location.
 ms.assetid: 2a9cfd99-5a2c-4c0c-98ff-11c745298cda
 title: Working with Alternate Locations during Restore
 ms.topic: article

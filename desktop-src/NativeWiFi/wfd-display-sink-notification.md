@@ -1,5 +1,5 @@
 ---
-Description: Describes the notification passed to the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
+description: Describes the notification passed to the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
 ms.assetid: 1CB91DD9-5B58-4FE0-B7B0-E6189760511A
 title: WFD_DISPLAY_SINK_NOTIFICATION structure (Wfdsink.h)
 ms.topic: reference
@@ -178,7 +178,7 @@ The RTSP port.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies a completion queue descriptor used for I/O completion notification by send and receive requests with the Winsock registered I/O extensions.
+description: Specifies a completion queue descriptor used for I/O completion notification by send and receive requests with the Winsock registered I/O extensions.
 ms.assetid: 9196F8AF-3C48-445D-B2D5-E22A99759D92
 title: RIO_CQ (Mswsockdef.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ If multiple threads attempt to access the same **RIO\_CQ** using [**RIODequeueCo
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                        |

@@ -1,5 +1,5 @@
 ---
-Description: The IX509SignatureInformation interface exposes the following methods.
+description: The IX509SignatureInformation interface exposes the following methods.
 ms.assetid: 92B8C2C5-286A-462A-AE6E-1E3D4BE42FC4
 title: IX509SignatureInformation Methods
 ms.topic: reference

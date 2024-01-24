@@ -1,5 +1,5 @@
 ---
-Description: Returns a Boolean value that indicates whether the EKU extension is marked critical.
+description: Returns a Boolean value that indicates whether the EKU extension is marked critical.
 ms.assetid: f6d2a2e0-512b-44f2-a7d9-9ad661398aa8
 title: ExtendedKeyUsage.IsCritical property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # ExtendedKeyUsage.IsCritical property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **IsCritical** property returns a Boolean value that indicates whether the EKU extension is marked critical.
 
@@ -38,7 +38,7 @@ If **true**, the EKU extension is marked critical.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

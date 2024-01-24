@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ShareToDirectory association WMI class relates a shared resource on the computer system and the directory to which it is mapped.
+description: The Win32\_ShareToDirectory association WMI class relates a shared resource on the computer system and the directory to which it is mapped.
 ms.assetid: f8562539-2cb4-4661-8ef9-8b665e76a292
 ms.tgt_platform: multiple
 title: Win32_ShareToDirectory class
@@ -83,7 +83,7 @@ Reference to the instance representing the properties of the directory that has 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

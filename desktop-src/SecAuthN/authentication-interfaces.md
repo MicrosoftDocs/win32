@@ -1,5 +1,5 @@
 ---
-Description: Lists the interfaces in authentication APIs.
+description: Lists the interfaces in authentication APIs.
 ms.assetid: bde3bcae-2152-4589-92a0-b44d98f233ef
 title: Authentication Interfaces
 ms.topic: article

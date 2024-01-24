@@ -1,5 +1,5 @@
 ---
-Description: If the generic host and client succeed but the actual host and client still fail, it is possible that the metadata request is not being initiated. WinHTTP logging can be used to verify that outbound messages are being generated and sent correctly.
+description: If the generic host and client succeed but the actual host and client still fail, it is possible that the metadata request is not being initiated. WinHTTP logging can be used to verify that outbound messages are being generated and sent correctly.
 ms.assetid: ab4568bd-fc05-4e2a-ac8c-f035e6583a36
 title: Using WinHTTP Logging to Verify Get Traffic
 ms.topic: article

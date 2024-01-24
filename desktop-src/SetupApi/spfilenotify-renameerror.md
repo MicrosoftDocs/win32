@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_RENAMEERROR notification is sent to the callback routine if an error occurs during a file rename operation.
+description: The SPFILENOTIFY\_RENAMEERROR notification is sent to the callback routine if an error occurs during a file rename operation.
 ms.assetid: b7016cbe-2987-477f-958b-52b7a31c54c2
 title: SPFILENOTIFY_RENAMEERROR message (Setupapi.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The callback routine should return one of the following.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

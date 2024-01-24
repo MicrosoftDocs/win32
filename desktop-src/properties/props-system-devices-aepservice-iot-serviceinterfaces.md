@@ -1,5 +1,5 @@
 ---
-Description: List of interfaces that are available for this service.
+description: List of interfaces that are available for this service.
 ms.assetid: 9f8268e8-4144-4dcc-adef-82c6dea2e10e
 title: System.Devices.AepService.IoT.ServiceInterfaces
 ms.topic: article

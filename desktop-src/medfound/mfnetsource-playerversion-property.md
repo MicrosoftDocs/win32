@@ -1,5 +1,5 @@
 ---
-Description: The value of the &\#0034;c-playerversion&\#0034; field that the network source uses for logging.
+description: The value of the &\#0034;c-playerversion&\#0034; field that the network source uses for logging.
 ms.assetid: 7bc485de-345b-475c-bbae-0776aa63c93a
 title: MFNETSOURCE_PLAYERVERSION property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: Represents settings for a synthetic 3-D display controller for a virtual machine.
+description: Represents settings for a synthetic 3-D display controller for a virtual machine.
 ms.assetid: 7162AEED-90CB-41C3-BD44-8B552C00F597
 title: Msvm_Synthetic3DDisplayControllerSettingData class
 ms.topic: reference
@@ -575,7 +575,7 @@ Range: 0 1000
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

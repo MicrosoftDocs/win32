@@ -67,7 +67,7 @@ As a result, in Windows Vista, the [GDI](/windows/desktop/gdi/windows-gdi) DDI d
 
 The driver model used in Windows Vista required that every [GDI](/windows/desktop/gdi/windows-gdi) window be backed by both a video memory surface and a system memory surface. This resulted in system memory being used for every GDI window.
 
-For this reason, [GDI](/windows/desktop/gdi/windows-gdi) was changed again in Windows 7. . Instead of rendering to a system memory surface, GDI was modified to render to an aperture memory segment. The aperture memory can be updated from the video memory surface holding the window contents. GDI can render back to the aperture memory, and the result can then be sent back to the window surface. Since the aperture memory segment is addressable by the GPU, the GPU can accelerate these updates to the video memory surface. For example, text rendering, BitBlts, AlphaBlend, TransparentBlt, and StretchBlt are all accelerated in these cases.
+For this reason, [GDI](/windows/desktop/gdi/windows-gdi) was changed again in Windows 7. Instead of rendering to a system memory surface, GDI was modified to render to an aperture memory segment. The aperture memory can be updated from the video memory surface holding the window contents. GDI can render back to the aperture memory, and the result can then be sent back to the window surface. Since the aperture memory segment is addressable by the GPU, the GPU can accelerate these updates to the video memory surface. For example, text rendering, BitBlts, AlphaBlend, TransparentBlt, and StretchBlt are all accelerated in these cases.
 
 ## Contrasting Direct2D and GDI acceleration in Windows 7
 

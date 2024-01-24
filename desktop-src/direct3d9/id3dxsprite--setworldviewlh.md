@@ -1,5 +1,5 @@
 ---
-Description: Sets the left-handed world-view transform for a sprite. A call to this method is required before billboarding or sorting sprites.
+description: Sets the left-handed world-view transform for a sprite. A call to this method is required before billboarding or sorting sprites.
 ms.assetid: 70f1181d-41f9-4663-91e0-8df94bce4eed
 title: ID3DXSprite::SetWorldViewLH method (D3dx9core.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ A call to this method (or to [**ID3DXSprite::SetWorldViewRH**](id3dxsprite--setw
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

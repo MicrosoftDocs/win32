@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Voice Capture DSP uses source mode or filter mode.
+description: Specifies whether the Voice Capture DSP uses source mode or filter mode.
 ms.assetid: d1d3beba-678c-48fd-ad12-45e0418e1236
 title: MFPKEY_WMAAECMA_DMO_SOURCE_MODE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If the value of this property is VARIANT\_TRUE, the DSP has zero inputs. If the 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

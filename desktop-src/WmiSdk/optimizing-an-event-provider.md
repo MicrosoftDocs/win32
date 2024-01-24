@@ -1,5 +1,5 @@
 ---
-Description: An event provider may devote a great deal of time to creating events.
+description: An event provider may devote a great deal of time to creating events.
 ms.assetid: 5cf414f0-b3a8-4623-9aaa-08e2a28b40c0
 ms.tgt_platform: multiple
 title: Optimizing an Event Provider

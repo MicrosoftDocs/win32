@@ -19,45 +19,14 @@ Specifies a two-dimensional vector consisting of two **Double** numbers.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attributes</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Value</td>
-<td>String. Text representation of both vector numbers separated by a space.</td>
-</tr>
-<tr class="even">
-<td>X</td>
-<td>Double. X component of this vector.</td>
-</tr>
-<tr class="odd">
-<td>Y</td>
-<td>Double. Y component of this vector.</td>
-</tr>
-<tr class="even">
-<td>Type</td>
-<td>VgVectorType. Expected units for this vector. Values are:
-<ul>
-<li>Measure</li>
-<li>Length</li>
-<li>AngleInDegrees</li>
-<li>Fraction</li>
-<li>Number</li>
-<li>Percentage</li>
-<li>Integer</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Attributes | Description | 
+|------------|-------------|
+| Value | String. Text representation of both vector numbers separated by a space. | 
+| X | Double. X component of this vector. | 
+| Y | Double. Y component of this vector. | 
+| Type | VgVectorType. Expected units for this vector. Values are:<ul><li>Measure</li><li>Length</li><li>AngleInDegrees</li><li>Fraction</li><li>Number</li><li>Percentage</li><li>Integer</li></ul> | 
+
 
 
 

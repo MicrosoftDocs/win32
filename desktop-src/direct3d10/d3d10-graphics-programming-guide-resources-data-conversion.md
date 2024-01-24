@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe how Direct3D handles conversions between data types.
+description: The following sections describe how Direct3D handles conversions between data types.
 ms.assetid: 454d3fd0-fc0f-46a9-925e-13f8e3c39f02
 title: Data Conversion Rules
 ms.topic: article
@@ -63,9 +63,9 @@ The following table describes conversions from various representations described
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -205,9 +205,9 @@ Fixed point integer representations are used in two ways in Direct3D.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

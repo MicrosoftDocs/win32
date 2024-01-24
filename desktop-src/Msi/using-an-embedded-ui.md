@@ -1,5 +1,5 @@
 ---
-Description: A custom user interface can be embedded within the Windows Installer package.
+description: A custom user interface can be embedded within the Windows Installer package.
 ms.assetid: d037cd8d-9c88-4851-a9da-b2179f53cee6
 title: Using an Embedded UI
 ms.topic: article
@@ -21,7 +21,7 @@ The DLL file containing the custom UI, and any resource files used by the custom
 
  
 
-The custom UI DLL, in this example embedui.dll, should export the user-defined [*InitializeEmbeddedUI*](initializeembeddedui.md), [*EmbeddedUIHandler*](embeddeduihandler.md), and [*ShutdownEmbeddedUI*](shutdownembeddedui.md) functions. The following sample code illustrates these functions.
+The custom UI DLL, in this example embedui.dll, should export the user-defined *InitializeEmbeddedUI*, *EmbeddedUIHandler*, and *ShutdownEmbeddedUI* functions. The following sample code illustrates these functions.
 
 
 ```C++

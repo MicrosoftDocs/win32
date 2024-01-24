@@ -1,5 +1,5 @@
 ---
-Description: In addition to being accessed through the IVssBackupComponents interface by means of its copy's device object, a requester can make a shadow copy available to other processes as a mounted read-only device.
+description: In addition to being accessed through the IVssBackupComponents interface by means of its copy's device object, a requester can make a shadow copy available to other processes as a mounted read-only device.
 ms.assetid: 0898c2dc-992a-411b-81df-4f5e129f6a80
 title: Exposing and Surfacing Shadow Copied Volumes
 ms.topic: article

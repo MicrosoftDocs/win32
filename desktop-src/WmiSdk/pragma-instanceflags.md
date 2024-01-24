@@ -1,5 +1,5 @@
 ---
-Description: Controls the way instances are created or updated depending on the flags specified.
+description: Controls the way instances are created or updated depending on the flags specified.
 ms.assetid: 9932edf2-2e5f-4c5e-9889-f2be4af11bf2
 ms.tgt_platform: multiple
 title: pragma instanceflags
@@ -56,7 +56,7 @@ The following example shows how to use this command.
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

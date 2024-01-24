@@ -1,5 +1,5 @@
 ---
-Description: The Exchangeable Image File (EXIF) version.
+description: The Exchangeable Image File (EXIF) version.
 ms.assetid: 5a45acfa-fceb-4fc9-b758-f9a14965ef80
 title: System.Photo.EXIFVersion
 ms.topic: article
@@ -33,7 +33,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

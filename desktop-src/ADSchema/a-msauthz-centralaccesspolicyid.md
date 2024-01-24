@@ -22,7 +22,7 @@ For a Central Access Policy, this attribute defines a GUID that can be used to i
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Authz-Central-Access-Policy-ID    |
 | Ldap-Display-Name | msAuthz-CentralAccessPolicyID        |
@@ -43,7 +43,7 @@ For a Central Access Policy, this attribute defines a GUID that can be used to i
 
 
 
-|                        |                                                                                    |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                 |
 | MAPI-Id                | \-                                                                                 |

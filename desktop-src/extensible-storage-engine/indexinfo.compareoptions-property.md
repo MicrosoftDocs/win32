@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.CompareOptions property"
 title: IndexInfo.CompareOptions property 
 TOCTitle: 'CompareOptions property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.CompareOptions
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the CompareOptions for the index.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,8 +60,8 @@ Type: [System.Globalization.CompareOptions](/dotnet/api/system.globalization.com
 
 #### Reference
 
-[IndexInfo class](dn350919\(v=exchg.10\).md)
+[IndexInfo class](./indexinfo-class.md)
 
-[IndexInfo members](dn350916\(v=exchg.10\).md)
+[IndexInfo members](./indexinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

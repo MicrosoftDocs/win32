@@ -1,5 +1,5 @@
 ---
-Description: CIM\_LogicalElement is a base class for all components of a System that represent abstract system components, such as files, processes, and logical devices.
+description: CIM\_LogicalElement is a base class for all components of a System that represent abstract system components, such as files, processes, and logical devices.
 ms.assetid: d08a9552-7b89-4fab-870f-be770f0381a5
 title: CIM_LogicalElement class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_LogicalElement class
+# CIM_LogicalElement class (Hyper-V management)
 
 **CIM\_LogicalElement** is a base class for all components of a System that represent abstract system components, such as files, processes, and logical devices.
 
@@ -36,7 +36,7 @@ The **CIM\_LogicalElement** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

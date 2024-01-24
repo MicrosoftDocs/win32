@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Removal of Windows Registry Reflection
 ms.assetid: 4b42d44d-cde8-4d96-96c5-24b7ab7e4cec
 title: Removal of Windows Registry Reflection
 ms.topic: article

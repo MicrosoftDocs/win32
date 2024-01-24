@@ -1,12 +1,12 @@
 ---
 title: Width Property (PropertySheet Object)
-description: Width Property
+description: Learn about the Width Property of the PropertySheet object, which returns an integer value specifying the current width, in pixels, of the Microsoft Agent property sheet window.
 ms.assetid: fe5d4c44-3eea-4b13-913e-09f4c97f3aaa
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Width Property
+# Width Property (PropertySheet Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 

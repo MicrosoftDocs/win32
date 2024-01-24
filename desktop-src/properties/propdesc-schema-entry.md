@@ -1,5 +1,5 @@
 ---
-Description: This topic introduces the property description schema used by the Shell property system.
+description: This topic introduces the property description schema used by the Shell property system.
 ms.assetid: cac93c31-d90d-4116-b846-0cf593d1d56e
 title: Understanding the Property Description Schema
 ms.topic: article
@@ -37,7 +37,7 @@ The schema subsystem consists of the following:
 -   A subsystem object that implements [**IPropertyDescriptionList**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionlist), which is used as a collection of property descriptions.
 
 > [!Note]  
-> You must add `xmlns=http://schemas.microsoft.com/windows/2006/propertydescriptio`n to the root schema element of your .propdesc files.
+> You must add `xmlns=http://schemas.microsoft.com/windows/2006/propertydescription` to the root schema element of your .propdesc files.
 
  
 

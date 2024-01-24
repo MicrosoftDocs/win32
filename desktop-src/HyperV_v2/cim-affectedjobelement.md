@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a job and the CIM\_ManagedElement objects that may be affected by its execution.
+description: Represents an association between a job and the CIM\_ManagedElement objects that may be affected by its execution.
 ms.assetid: 94c5e602-214c-4003-921c-8955c3859738
 title: CIM_AffectedJobElement class
 ms.topic: reference
@@ -160,7 +160,7 @@ Additional details for corresponding "1" (Other) values in the **ElementEffects*
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

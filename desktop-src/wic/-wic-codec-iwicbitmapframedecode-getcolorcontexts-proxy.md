@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetColorContexts method.
+description: IWICBitmapFrameDecode_GetColorContexts_Proxy function - Proxy function for the GetColorContexts method.
 ms.assetid: 1925a64e-558d-4931-a3c3-b35d2b92a292
 title: IWICBitmapFrameDecode_GetColorContexts_Proxy function
 ms.topic: reference
@@ -88,7 +88,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

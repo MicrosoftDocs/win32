@@ -1,5 +1,5 @@
 ---
-Description: The Windows Image Acquisition (WIA) Device Manager is an extension of the Still Image (STI) Event Monitor.
+description: The Windows Image Acquisition (WIA) Device Manager is an extension of the Still Image (STI) Event Monitor.
 ms.assetid: 27c4b304-68c2-406f-9de1-818e427af504
 title: WIA Device Manager
 ms.topic: article

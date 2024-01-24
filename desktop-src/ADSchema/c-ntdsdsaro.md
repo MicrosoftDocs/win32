@@ -22,7 +22,7 @@ A subclass of Directory Service Agent that is distinguished by its reduced privi
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | NTDS-DSA-RO                          |
 | Ldap-Display-Name | nTDSDSARO                            |
@@ -44,7 +44,7 @@ A subclass of Directory Service Agent that is distinguished by its reduced privi
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -212,7 +212,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -388,7 +388,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |

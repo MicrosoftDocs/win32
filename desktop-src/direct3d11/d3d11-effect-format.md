@@ -1,7 +1,7 @@
 ---
 title: Effect Format (Direct3D 11)
 ms.assetid: c425f57b-fc14-46a5-bb65-a0a2305bd406
-description: 
+description: "Learn more about: Effect Format (Direct3D 11)"
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -20,7 +20,6 @@ The preceding diagram shows the categories of effect state.
 
 The definition of the effect binary format can be found in Binary\\EffectBinaryFormat.h in the effects source code.
 
-## 
 
 ## In this section
 

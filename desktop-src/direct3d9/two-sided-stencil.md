@@ -1,5 +1,5 @@
 ---
-Description: Shadow Volumes are used for drawing shadows with the stencil buffer.
+description: Shadow Volumes are used for drawing shadows with the stencil buffer.
 ms.assetid: 8b71d871-ee66-47c4-8190-5c75419b28b2
 title: Two-Sided Stencil (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Returns a handle to the handshake hash.
+description: Returns a handle to the handshake hash.
 ms.assetid: c0f20084-c863-42cf-afdf-298c5a96eed9
 title: SslHashHandshake function (Sslprovider.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ The **SslHashHandshake** function is one of three functions used to generate a h
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

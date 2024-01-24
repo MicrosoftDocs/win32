@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Message.AttachmentContents
 ms.assetid: abef2e61-6cbe-46cc-ba2a-a0bb42164c8c
 title: System.Message.AttachmentContents
 ms.topic: article

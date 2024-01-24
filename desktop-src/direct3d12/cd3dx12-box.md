@@ -13,7 +13,6 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.localizationpriority: low
 ms.date: 05/31/2018
 ---
 
@@ -119,7 +118,7 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx12.h</dt> </dl> |
 

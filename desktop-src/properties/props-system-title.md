@@ -1,5 +1,5 @@
 ---
-Description: The title of the item.
+description: The title of the item.
 ms.assetid: 8fb948d6-2677-4e5d-b283-8757c3df574d
 title: System.Title
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Describes the setting data for a virtual synthetic display controller.
+description: Describes the setting data for a virtual synthetic display controller.
 ms.assetid: cea79b24-4175-49db-a8b4-a9efb1fd0b96
 title: Msvm_SyntheticDisplayControllerSettingData class
 ms.topic: reference
@@ -135,7 +135,7 @@ The vertical resolution.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

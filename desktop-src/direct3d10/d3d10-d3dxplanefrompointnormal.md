@@ -1,22 +1,25 @@
 ---
-Description: Constructs a plane from a point and a normal.
+description: D3DXPlaneFromPointNormal function (D3DX10Math.h) - Constructs a plane from a point and a normal.
 ms.assetid: 93c644d2-ab8c-47a1-9a3b-8b9c6a13178b
 title: D3DXPlaneFromPointNormal function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneFromPointNormal
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXPlaneFromPointNormal function
+# D3DXPlaneFromPointNormal function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Constructs a plane from a point and a normal.
 
@@ -78,7 +81,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

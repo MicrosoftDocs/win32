@@ -1,22 +1,25 @@
 ---
-Description: Builds a right-handed perspective projection matrix.
+description: D3DXMatrixPerspectiveRH function (D3dx9math.h) - Builds a right-handed perspective projection matrix.
 ms.assetid: dd9b041b-922b-43df-a6e9-46c97204338a
 title: D3DXMatrixPerspectiveRH function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixPerspectiveRH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixPerspectiveRH function
+# D3DXMatrixPerspectiveRH function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a right-handed perspective projection matrix.
 
@@ -112,7 +115,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

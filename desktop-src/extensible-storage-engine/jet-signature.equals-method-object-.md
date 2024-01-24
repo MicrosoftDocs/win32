@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE.Equals method (Object)"
 title: JET_SIGNATURE.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SIGNATURE.Equals(System.Object)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -66,10 +67,10 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET_SIGNATURE structure](hh564644\(v=exchg.10\).md)
+[JET_SIGNATURE structure](./jet-signature-structure2.md)
 
-[JET_SIGNATURE members](hh565455\(v=exchg.10\).md)
+[JET_SIGNATURE members](./jet-signature-members.md)
 
-[Equals overload](hh565970\(v=exchg.10\).md)
+[Equals overload](./jet-signature.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

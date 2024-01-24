@@ -1,5 +1,5 @@
 ---
-Description: Closes the OC manager.
+description: Closes the OC manager.
 ms.assetid: feba9954-03b2-4b57-b7ba-933e171751ff
 title: OcTerminate function
 ms.topic: reference
@@ -53,7 +53,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>OcManage.dll</dt> </dl> |
 

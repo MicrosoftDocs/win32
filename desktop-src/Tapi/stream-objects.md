@@ -1,5 +1,5 @@
 ---
-Description: Stream objects are an abstraction of the media stream or streams associated with a call session.
+description: Stream objects are an abstraction of the media stream or streams associated with a call session.
 ms.assetid: 4bd7a305-69ff-4892-bf03-df9c6479adab
 title: Stream Objects
 ms.topic: article

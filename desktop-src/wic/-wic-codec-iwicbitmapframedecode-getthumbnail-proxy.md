@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetThumbnail method.
+description: IWICBitmapFrameDecode_GetThumbnail_Proxy function - Proxy function for the GetThumbnail method.
 ms.assetid: 377f8aac-3cdc-44dc-8c60-9b6bce915486
 title: IWICBitmapFrameDecode_GetThumbnail_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

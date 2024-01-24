@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update class"
 title: Update class
 TOCTitle: Update class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Update
@@ -33,10 +34,10 @@ A class that encapsulates an update on a JET_TABLEID.
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
-  [Microsoft.Isam.Esent.Interop.EsentResource](dn319890\(v=exchg.10\).md)  
+  [Microsoft.Isam.Esent.Interop.EsentResource](./esentresource-class.md)  
     Microsoft.Isam.Esent.Interop.Update  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,6 +62,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[Update members](dn351259\(v=exchg.10\).md)
+[Update members](./update-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

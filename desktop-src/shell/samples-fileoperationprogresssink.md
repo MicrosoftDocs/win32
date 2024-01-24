@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to use the IFileOperationProgressSink interface methods for monitoring the details of IFileOperation interface actions.
+description: Demonstrates how to use the IFileOperationProgressSink interface methods for monitoring the details of IFileOperation interface actions.
 title: File Operation Progress Sink
 ms.topic: article
 ms.date: 05/31/2018

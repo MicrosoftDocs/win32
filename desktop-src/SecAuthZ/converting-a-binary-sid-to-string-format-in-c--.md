@@ -1,5 +1,5 @@
 ---
-Description: Convert a security identifier (SID) to and from string format. For a description of the SID string format, see SID Components.
+description: Convert a security identifier (SID) to and from string format. For a description of the SID string format, see SID Components.
 ms.assetid: 970a3c60-9a8f-4160-86c9-91707613b140
 title: Converting a Binary SID to String Format in C++
 ms.topic: article

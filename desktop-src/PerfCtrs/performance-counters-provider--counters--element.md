@@ -1,5 +1,5 @@
 ---
-Description: Identifies the provider and the counters that it provides.
+description: Identifies the provider and the counters that it provides.
 ms.assetid: 54a8b293-8e35-4b15-901a-e0cf608595d3
 title: provider (counters) Element
 ms.topic: reference
@@ -27,7 +27,7 @@ The **provider** element is defined by the [**counters**](performance-counters-c
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

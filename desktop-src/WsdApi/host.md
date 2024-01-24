@@ -1,5 +1,5 @@
 ---
-Description: Defines the ServiceID and Types elements for the service host.
+description: Defines the ServiceID and Types elements for the service host.
 ms.assetid: 95066c04-5bdc-4c97-98b8-1da9928d9395
 title: host element
 ms.topic: reference
@@ -56,7 +56,7 @@ There are no attributes.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |

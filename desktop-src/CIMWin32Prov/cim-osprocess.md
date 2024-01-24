@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_OSProcess class associates the operating system and one or more processes running in the context of the operating system.
+description: The CIM\_OSProcess class associates the operating system and one or more processes running in the context of the operating system.
 ms.assetid: 59d52b29-9d97-464f-bbbc-4191305df8c7
 ms.tgt_platform: multiple
 title: CIM_OSProcess class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

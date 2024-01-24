@@ -12,10 +12,13 @@ keywords:
 - customizing sample projects
 - samples,type 2 online stores
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Customizing the Sample Project
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When creating your own online store, you will want to change the implementations of the following methods in the file named YourProject.cpp:
 
@@ -34,7 +37,7 @@ The **allowPlay** method provides a pointer to the **IWMPMedia** interface as a 
 
 The **allowCDBurn** and **allowPDATransfer** methods provide a pointer to the **IWMPPlaylist** interface as a parameter. This interface is the Windows Media Player interface that represents playlist objects. By calling the methods on this interface, you can work with the attributes and properties of a playlist, add items to a playlist, or remove items from a playlist.
 
-To learn how to remove an item from a playlist programmatically, see the implementation of **CAllowBaseDialog<T>::OnRemoveMediaFromPlaylist**. To learn more about working with media and playlist objects, see [Player Object Model for Scripting Languages](player-object-model-for-scripting-languages.md).
+To learn how to remove an item from a playlist programmatically, see the implementation of **CAllowBaseDialog&lt;T&gt;::OnRemoveMediaFromPlaylist**. To learn more about working with media and playlist objects, see [Player Object Model for Scripting Languages](player-object-model-for-scripting-languages.md).
 
 ## Code That Can Be Removed
 
@@ -46,8 +49,8 @@ You will probably want to remove the code that opens dialog boxes because it is 
 
 From YourProject.cpp, remove the following code:
 
--   The implementation of **CAllowBaseDialog<T>::OnInitDialog**.
--   The implementation of **CAllowBaseDialog<T>::OnRemoveMediaFromPlaylist**.
+-   The implementation of **CAllowBaseDialog&lt;T&gt;::OnInitDialog**.
+-   The implementation of **CAllowBaseDialog&lt;T&gt;::OnRemoveMediaFromPlaylist**.
 
 ## Related topics
 

@@ -23,7 +23,6 @@ This topic demonstrates how to create an instance of an IP address control.
 
 ## Instructions
 
-### 
 
 Before creating an IP address control, load the common controls DLL by calling [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex). Then use the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) or the [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) function to create an instance IP address control. The class name for the control is [**WC\_IPADDRESS**](common-control-window-classes.md). Use the [**WS\_CHILD**](/windows/desktop/winmsg/window-styles) style, because there is no specific style constant associated with the IP address control.
 

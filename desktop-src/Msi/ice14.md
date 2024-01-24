@@ -1,5 +1,5 @@
 ---
-Description: ICE14 validates the Feature table of a Windows Installer database.
+description: ICE14 validates the Feature table of a Windows Installer database.
 ms.assetid: fb1970f8-1dba-4b06-aa03-5b33d213fc79
 title: ICE14
 ms.topic: article

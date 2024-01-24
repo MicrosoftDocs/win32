@@ -52,7 +52,7 @@ Return Value:
 
    hr = CreateDeviceAccessInstance(pszDeviceInterfacePath,
                                    GENERIC_READ|GENERIC_WRITE,
-                                   &amp;pDeviceAccess);
+                                   &pDeviceAccess);
 
     if (FAILED(hr)) {
         return hr;
@@ -64,7 +64,7 @@ Return Value:
 
     if (SUCCEEDED(hr)) {
         hr = pDeviceAccess->GetResult(IID_IDeviceIoControl,
-                                            (void **)&amp;m_pDeviceIoControl);
+                                            (void **)&m_pDeviceIoControl);
     }
 
     pDeviceAccess->Release();
@@ -111,7 +111,7 @@ Return Value:
     sevenSegment = g_NumberToMask[value];
     hr = m_pDeviceIoControl->DeviceIoControlSync(
                          IOCTL_OSRUSBFX2_SET_7_SEGMENT_DISPLAY,
-                         &amp;sevenSegment,
+                         &sevenSegment,
                          sizeof(BYTE),
                          NULL,
                          0,
@@ -130,4 +130,4 @@ You can also send an IOCTL asynchronously by using the [**DeviceIoControlAsync**
 
 ## Related topics
 
-[Custom Driver Access Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Hardware Dev Center](/windows/hardware/)
+[Custom Driver Access Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Hardware Dev Center](/windows-hardware/drivers/)

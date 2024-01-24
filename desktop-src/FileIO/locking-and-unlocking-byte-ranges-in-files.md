@@ -1,5 +1,5 @@
 ---
-Description: Example code that shows byte range locking and unlocking by using the LockFileEx and UnlockFileEx functions.
+description: Example code that shows byte range locking and unlocking by using the LockFileEx and UnlockFileEx functions.
 ms.assetid: 9d54fe11-b1ad-4723-a42a-00bc6dc64072
 title: Locking and Unlocking Byte Ranges in Files
 ms.topic: article
@@ -13,7 +13,7 @@ Although the system allows more than one application to open a file and write to
 The [**LockFile**](/windows/desktop/api/FileAPI/nf-fileapi-lockfile) and [**LockFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-lockfileex) functions lock a specified range of bytes in a file. The range may extend beyond the current end of the file. Locking part of a file gives the threads of the locking processes exclusive access to the specified byte range by using the specified file handle. Attempts to access a byte range that is locked by another process always fail. If the locking process attempts to access a locked byte range through a second file handle, the attempt fails.
 
 > [!Note]  
-> Memory mapped files are not supported with byte range locks.
+> Byte range locks are ignored when using memory mapped files.
 
  
 

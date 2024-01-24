@@ -1,5 +1,5 @@
 ---
-Description: Contains the object's Application object.
+description: Shell.Application property - Contains the object's Application object.
 ms.assetid: 5335f4dd-ca80-49c8-8953-e32a6e6308e0
 title: Shell.Application property (Shldisp.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Use this property with the **Set** and **CreateObject** commands or with the **G
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: Creates a reference point of a virtual system.
+description: Creates a reference point of a virtual system.
 ms.assetid: 9cc7665a-9562-4267-bcd0-3162e426fbad
 title: CreateReferencePoint method of the Msvm_VirtualSystemReferencePointService class
 ms.topic: reference
@@ -138,7 +138,7 @@ On success, returns 0; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

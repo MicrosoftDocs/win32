@@ -1,5 +1,5 @@
 ---
-Description: Effect data types. The data is contained in the pValue member of D3DXEFFECTDEFAULT.
+description: Effect data types. The data is contained in the pValue member of D3DXEFFECTDEFAULT.
 ms.assetid: d698ad6e-2ce2-48d6-90be-49bc08f172a9
 title: D3DXEFFECTDEFAULTTYPE enumeration (D3dx9mesh.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

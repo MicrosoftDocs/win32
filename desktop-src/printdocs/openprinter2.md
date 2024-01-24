@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a handle to the specified printer, print server, or other types of handles in the print subsystem, while setting some of the printer options.
+description: Retrieves a handle to the specified printer, print server, or other types of handles in the print subsystem, while setting some of the printer options.
 ms.assetid: e2370ae4-4475-4ccc-a6f9-3d33d1370054
 title: OpenPrinter2 function (Winspool.h)
 ms.topic: reference
@@ -147,7 +147,7 @@ For a sample program that shows how to use this function, see [How To: Print Usi
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

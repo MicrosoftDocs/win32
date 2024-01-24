@@ -22,7 +22,7 @@ The parameters for the secret agreement algorithm.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-Kds-SecretAgreement-Param                          |
 | Ldap-Display-Name | msKds-SecretAgreementParam                            |
@@ -43,7 +43,7 @@ The parameters for the secret agreement algorithm.
 
 
 
-|                        |                                                                                                                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                  |

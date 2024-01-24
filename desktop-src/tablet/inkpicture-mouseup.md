@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the mouse pointer is moved over the InkPicture control and a mouse button is released.
+description: Occurs when the mouse pointer is moved over the InkPicture control and a mouse button is released.
 ms.assetid: 5e49acc8-1ce1-45ff-b87c-04bdc653156a
 title: InkPicture.MouseUp event (Msinkaut.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

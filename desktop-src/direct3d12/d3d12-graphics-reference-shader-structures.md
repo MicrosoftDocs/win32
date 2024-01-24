@@ -4,12 +4,11 @@ description: d3d12shader.h declares the following structures, which are used to 
 ms.assetid: b8ece5c3-5065-4711-b12c-6cf7ea0e1ba0
 keywords:
 - structures, Direct3D 12 Shaders
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Structures
+# Shader Structures (Direct3D 12 Graphics)
 
 d3d12shader.h declares the following structures, which are used to create and use shaders.
 

@@ -1,6 +1,6 @@
 ---
 title: glTexCoord2i function (Gl.h)
-description: Sets the current texture coordinates.
+description: Sets the current texture coordinates. | glTexCoord2i function (Gl.h)
 ms.assetid: 7a5ff9a7-8dcd-47a0-868c-3909e011a592
 keywords:
 - glTexCoord2i function OpenGL
@@ -64,7 +64,7 @@ The [**glTexCoord**](gltexcoord-functions.md) function sets the current texture 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

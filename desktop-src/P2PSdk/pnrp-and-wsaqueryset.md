@@ -1,5 +1,5 @@
 ---
-Description: PNRP uses the WSAQUERYSET structure in conjunction with various functions to facilitate resolving names and enumerating names and clouds.
+description: PNRP uses the WSAQUERYSET structure in conjunction with various functions to facilitate resolving names and enumerating names and clouds.
 ms.assetid: 0ccf20c1-4c95-4caf-a8f3-82a9e0a9907b
 title: PNRP and WSAQUERYSET (P2P.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The [**WSAQUERYSET**](winsock-nsp-reference-links.md) structure is used extensiv
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |

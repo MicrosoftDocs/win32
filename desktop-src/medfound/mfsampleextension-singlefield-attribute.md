@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a video sample contains a single field or two interleaved fields. This attribute applies to media samples.
+description: Specifies whether a video sample contains a single field or two interleaved fields. This attribute applies to media samples.
 ms.assetid: 550619be-2042-4a2c-9ad2-728474835255
 title: MFSampleExtension_SingleField attribute (Mfapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

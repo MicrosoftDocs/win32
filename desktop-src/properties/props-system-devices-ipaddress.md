@@ -1,5 +1,5 @@
 ---
-Description: IP address of the device.
+description: IP address of the device.
 ms.assetid: bf06dd91-b0e8-434e-8551-6a2a659b8093
 title: System.Devices.IpAddress
 ms.topic: article

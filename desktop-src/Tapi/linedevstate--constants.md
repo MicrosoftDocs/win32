@@ -1,5 +1,5 @@
 ---
-Description: The LINEDEVSTATE\_ bit-flag constants describe various line status events.
+description: The LINEDEVSTATE\_ bit-flag constants describe various line status events.
 ms.assetid: 41e8a777-a57a-4d6c-850f-e21b58081b0d
 title: LINEDEVSTATE_ Constants (Tapi.h)
 ms.topic: reference
@@ -274,7 +274,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

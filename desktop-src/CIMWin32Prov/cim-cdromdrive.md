@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CDROMDrive class represents a CD-ROM drive on the computer.
+description: The CIM\_CDROMDrive class represents a CD-ROM drive on the computer.
 ms.assetid: 044c9687-fc25-4a8c-b2ef-bd7ea332af7b
 ms.tgt_platform: multiple
 title: CIM_CDROMDrive class (CIMWin32 WMI Providers)
@@ -45,7 +45,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_CDROMDrive class
+# CIM_CDROMDrive class (CIMWin32 WMI Providers)
 
 The **CIM\_CDROMDrive** class represents a CD-ROM drive on the computer.
 
@@ -1455,7 +1455,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

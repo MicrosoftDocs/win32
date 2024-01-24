@@ -1,5 +1,5 @@
 ---
-Description: The Hyper-V virtual machine (VM) placement API contains the compatibility info for the VMs or hosting computer system.
+description: The Hyper-V virtual machine (VM) placement API contains the compatibility info for the VMs or hosting computer system.
 ms.assetid: F94D3E55-6735-45B4-82BD-9E7393ACC93B
 title: Hyper-V VM placement API
 ms.topic: reference

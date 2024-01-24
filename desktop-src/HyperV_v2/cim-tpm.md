@@ -1,5 +1,5 @@
 ---
-Description: Describes a Trusted Platform Module (TPM) device.
+description: Describes a Trusted Platform Module (TPM) device.
 ms.assetid: c923106f-126e-4e7e-822a-2fb715bbbc26
 title: CIM_TPM class
 ms.topic: reference
@@ -487,7 +487,7 @@ The target state to which the TPM is transitioning.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

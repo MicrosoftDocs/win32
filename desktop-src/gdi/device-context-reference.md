@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are associated with device contexts:'
+description: 'The following elements are associated with device contexts:'
 ms.assetid: ccec6fb6-7332-4426-a373-70d69f8d127c
 title: Device Context Reference
 ms.topic: article

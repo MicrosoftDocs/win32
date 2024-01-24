@@ -1,6 +1,6 @@
 ---
 title: TB_SETHOTITEM message (Commctrl.h)
-description: Sets the hot item in a toolbar.
+description: TB_SETHOTITEM message - Sets the hot item in a toolbar.
 ms.assetid: 15005741-29d2-48c6-b5f0-15178a49b917
 keywords:
 - TB_SETHOTITEM message Windows Controls
@@ -46,7 +46,7 @@ The behavior of this message is not defined for toolbars that do not have the [*
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

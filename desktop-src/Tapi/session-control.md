@@ -1,5 +1,5 @@
 ---
-Description: A session or call represents a connection between two or more addresses.
+description: A session or call represents a connection between two or more addresses.
 ms.assetid: f598c1cd-2b50-4ac6-a05e-4fd8eeb5e3e1
 title: Session Control
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDisabledDueToRecoveryFailureException properties"
 title: EsentLogDisabledDueToRecoveryFailureException properties
 TOCTitle: EsentLogDisabledDueToRecoveryFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogDisabledDueToRecoveryFailureException](dn334591\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogDisabledDueToRecoveryFailureException](./esentlogdisabledduetorecoveryfailureexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentLogDisabledDueToRecoveryFailureException class](dn334591\(v=exchg.10\).md)
+[EsentLogDisabledDueToRecoveryFailureException class](./esentlogdisabledduetorecoveryfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

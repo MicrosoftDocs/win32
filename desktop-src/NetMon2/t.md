@@ -1,5 +1,5 @@
 ---
-Description: Glossary of Network Monitor terms that begin with the letter T.
+description: Glossary of Network Monitor terms that begin with the letter T.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: '340580ea-665c-4482-9f0a-561128c8bff5'
 title: T (Network Monitor)
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# T
+# T (Network Monitor)
 
 <dl> <dt>
 

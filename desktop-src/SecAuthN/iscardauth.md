@@ -1,5 +1,5 @@
 ---
-Description: The ISCardAuth interface definition is provided as a standard that can be followed when developing a smart card service provider.The ISCardAuth interface can be used to expose authentication services supported by a smart card.
+description: The ISCardAuth interface definition is provided as a standard that can be followed when developing a smart card service provider.The ISCardAuth interface can be used to expose authentication services supported by a smart card.
 ms.assetid: 6b8a5b90-49ad-48fd-813c-c3c3337ec8f1
 title: ISCardAuth interface
 ms.topic: reference
@@ -57,7 +57,7 @@ The **ISCardAuth** interface has these methods.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

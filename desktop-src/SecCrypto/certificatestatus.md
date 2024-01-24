@@ -1,5 +1,5 @@
 ---
-Description: Contains information about how to construct a certificate trust chain.
+description: Contains information about how to construct a certificate trust chain.
 ms.assetid: 120cd79e-7c9b-45f3-8596-091b674e73d8
 title: CertificateStatus object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CertificateStatus object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **CertificateStatus** object contains information about how to construct a certificate trust chain.
 
@@ -72,7 +72,7 @@ The **CertificateStatus** object is returned by the [**Certificate.IsValid**](ce
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

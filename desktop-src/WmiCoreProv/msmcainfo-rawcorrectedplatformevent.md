@@ -1,5 +1,5 @@
 ---
-Description: Contains a Corrected Platform Event (CPE). This class is available only in 64-bit Windows systems.
+description: Contains a Corrected Platform Event (CPE). This class is available only in 64-bit Windows systems.
 ms.assetid: b24a390e-293d-4dd4-b747-33c298a5d45f
 title: MSMCAInfo_RawCorrectedPlatformEvent class
 ms.topic: reference
@@ -94,7 +94,7 @@ The **MSMCAInfo\_RawCorrectedPlatformEvent** class is derived from [**WMIEvent**
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

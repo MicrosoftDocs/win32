@@ -1,5 +1,5 @@
 ---
-Description: A user-implemented method for opening and reading the contents of a shader \#include file.
+description: A user-implemented method for opening and reading the contents of a shader \#include file.
 ms.assetid: ad0105f7-042d-4e96-ad4a-1ece08e519af
 title: ID3DXInclude::Open method (D3DX9Shader.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ The user-implemented method should return S\_OK. If the callback fails when read
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

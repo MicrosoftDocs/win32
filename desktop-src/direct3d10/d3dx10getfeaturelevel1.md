@@ -1,5 +1,5 @@
 ---
-Description: Get a Direct3D 10.1 device interface pointer from a Direct3D 10.0 interface pointer.
+description: Get a Direct3D 10.1 device interface pointer from a Direct3D 10.0 interface pointer.
 ms.assetid: cf31a67f-0493-4e79-8e73-0297ab93bbae
 title: D3DX10GetFeatureLevel1 function (D3DX10Core.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ You can only create a Direct3D 10.1 device on computers running Windows Vista Se
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Core.h</dt> </dl> |
 

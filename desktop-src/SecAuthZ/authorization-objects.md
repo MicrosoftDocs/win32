@@ -1,5 +1,5 @@
 ---
-Description: Lists the objects available in authorization APIs.
+description: Lists the objects available in authorization APIs.
 ms.assetid: 448c50f9-1138-4774-97e3-1ed94576fd2a
 title: Authorization Objects
 ms.topic: article
@@ -24,7 +24,6 @@ ActiveX Installer provides the following object.
 
  
 
-## 
 
 Authorization Manager provides the following objects.
 
@@ -39,7 +38,6 @@ Authorization Manager provides the following objects.
 
  
 
-## 
 
  
 

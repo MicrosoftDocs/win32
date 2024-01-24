@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Int64ColumnValue properties"
 title: Int64ColumnValue properties
 TOCTitle: Int64ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Int64ColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Int64ColumnValue](dn351016\(v=exchg.10\).md) type exposes the following members.
+The [Int64ColumnValue](./int64columnvalue-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,7 +82,6 @@ Top
 
 #### Reference
 
-[Int64ColumnValue class](dn351016\(v=exchg.10\).md)
+[Int64ColumnValue class](./int64columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: This example illustrates how a customization transform may be used to disable features and add new resources.
+description: This example illustrates how a customization transform may be used to disable features and add new resources.
 ms.assetid: 028b1d01-3b66-4640-98f9-ca33f90ca516
 title: A Customization Transform Example
 ms.topic: article

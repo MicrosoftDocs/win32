@@ -1,8 +1,7 @@
 ---
-Description: A float representing the current parametric ending point for the ray.  
+description: A float representing the current parametric ending point for the ray.
 ms.assetid: 
 title: RayTCurrent
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

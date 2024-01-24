@@ -1,7 +1,7 @@
 ---
-Description: Occurs when the IInkAnalyzer is ready to reconcile its background analysis results with its current state.
+description: Occurs when the IInkAnalyzer is ready to reconcile its background analysis results with its current state.
 ms.assetid: 63cf48eb-9d1e-4017-a4eb-55d811f7e6cf
-title: '_IAnalysisEvents::ReadyToReconcile event' (IACom.h)
+title: '_IAnalysisEvents::ReadyToReconcile event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -56,7 +56,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) raises this event during background anal
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

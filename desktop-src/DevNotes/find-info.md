@@ -1,5 +1,5 @@
 ---
-Description: Contains search context information.
+description: Contains search context information.
 ms.assetid: 4b865563-98c2-459b-bb2b-75420d51d6a7
 title: FIND_INFO structure
 ms.topic: reference
@@ -118,7 +118,7 @@ The current GUID value (if the tag type is **TAG\_TYPE\_BINARY** and the TAG is 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

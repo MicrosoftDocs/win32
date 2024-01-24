@@ -1,5 +1,5 @@
 ---
-Description: The UnregisterTypeLibraries action unregisters type libraries from the system. This action is applied to each file listed in the TypeLib table that is triggered to be uninstalled.
+description: The UnregisterTypeLibraries action unregisters type libraries from the system. This action is applied to each file listed in the TypeLib table that is triggered to be uninstalled.
 ms.assetid: fea5bdc1-ac27-4d02-bcea-5c97366dd394
 title: UnregisterTypeLibraries Action
 ms.topic: article

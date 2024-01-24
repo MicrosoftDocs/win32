@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN.cbData property"
 title: JET_SETCOLUMN.cbData property 
 TOCTitle: 'cbData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.cbData
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the size of the data to set.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](./jet-setcolumn-class.md)
 
-[JET_SETCOLUMN members](dn335261\(v=exchg.10\).md)
+[JET_SETCOLUMN members](./jet-setcolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

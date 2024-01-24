@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IDeepCloneable<T>.DeepClone method"
 title: IDeepCloneable(T).DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IDeepCloneable`1.DeepClone
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a deep copy of the object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,16 +52,15 @@ T DeepClone()
 
 #### Return value
 
-Type: [T](hh565368\(v=exchg.10\).md)  
+Type: [T](./ideepcloneable-t-interface.md)  
 A deep copy of the object.  
 
 ## See also
 
 #### Reference
 
-[IDeepCloneable\<T\> interface](hh565368\(v=exchg.10\).md)
+[IDeepCloneable\<T\> interface](./ideepcloneable-t-interface.md)
 
-[IDeepCloneable\<T\> members](hh596443\(v=exchg.10\).md)
+[IDeepCloneable\<T\> members](./ideepcloneable-t-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

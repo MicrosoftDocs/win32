@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for virtual allocation events. The following syntax is simplified from MOF code.
+description: This class is the event type class for virtual allocation events. The following syntax is simplified from MOF code.
 ms.assetid: 037d33e0-da94-4834-bc02-814c1cae1d8d
 title: PageFault_VirtualAlloc class
 ms.topic: reference
@@ -117,7 +117,7 @@ The size, in bytes, of the memory that was allocated or freed.
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

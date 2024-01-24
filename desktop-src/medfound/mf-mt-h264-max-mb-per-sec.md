@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum macroblock processing rate for an H.264 video stream.
+description: Specifies the maximum macroblock processing rate for an H.264 video stream.
 ms.assetid: 882F54D1-A963-4016-BEC7-F9C1AC5885FD
 title: MF_MT_H264_MAX_MB_PER_SEC attribute (Mfapi.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ This attribute is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

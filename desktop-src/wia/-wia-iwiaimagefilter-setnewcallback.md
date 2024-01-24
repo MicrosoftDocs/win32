@@ -1,5 +1,5 @@
 ---
-Description: Sets a new application callback for the image processing filter to use for forwarding calls.
+description: Sets a new application callback for the image processing filter to use for forwarding calls.
 ms.assetid: 25b86f1d-96c8-4150-9147-13be9b1dd50c
 title: IWiaImageFilter::SetNewCallback method (Wia.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ If *pWiaTransferCallback* is **NULL**, the image processing filter should simply
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

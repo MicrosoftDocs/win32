@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets a value that represents the minutes component of the datetime value.
+description: Gets or sets a value that represents the minutes component of the datetime value.
 ms.assetid: a52a66c2-f7ab-48d0-bdee-a07984ed3bc2
 ms.tgt_platform: multiple
 title: SWbemDateTime.Minutes property (Wbemdisp.h)
@@ -63,7 +63,7 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

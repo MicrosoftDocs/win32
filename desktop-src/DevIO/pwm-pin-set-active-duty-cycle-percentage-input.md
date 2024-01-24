@@ -1,5 +1,5 @@
 ---
-Description: Contains a desired duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.
+description: Contains a desired duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.
 ms.assetid: CA699703-2D9B-4841-99AD-9C27FF428394
 title: PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT structure (Pwm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The desired PWM signal duty cycle, as a PWM\_PERCENTAGE, which is a ULONGLONG va
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |

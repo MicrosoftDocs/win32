@@ -1,5 +1,5 @@
 ---
-Description: Authenticode time stamping is based on standard PKCS \#9 countersignatures. Signing tools from Microsoft allow developers to affix time stamps at the same time as they affix Authenticode signatures.
+description: Authenticode time stamping is based on standard PKCS \#7 countersignatures. Signing tools from Microsoft allow developers to affix time stamps at the same time as they affix Authenticode signatures.
 ms.assetid: d0bd3e2f-1eee-4f71-9467-974994f720d5
 title: Time Stamping Authenticode Signatures
 ms.topic: article
@@ -8,13 +8,13 @@ ms.date: 05/31/2018
 
 # Time Stamping Authenticode Signatures
 
-Microsoft Authenticode signatures provide authorship and integrity guarantees for binary data. Authenticode time stamping is based on standard PKCS \#9 countersignatures. Signing tools from Microsoft allow developers to affix time stamps at the same time as they affix Authenticode signatures. Time stamping allows Authenticode signatures to be verifiable even after the certificates used for signature have expired.
+Microsoft Authenticode signatures provide authorship and integrity guarantees for binary data. Authenticode time stamping is based on standard PKCS \#7 countersignatures. Signing tools from Microsoft allow developers to affix time stamps at the same time as they affix Authenticode signatures. Time stamping allows Authenticode signatures to be verifiable even after the certificates used for signature have expired.
 
 ## A Brief Introduction to Authenticode
 
 [*Authenticode*](../secgloss/a-gly.md) applies digital signature technology to guarantee the authorship and integrity of binary data such as installable software. A client web browser, or other system components, can use the Authenticode signatures to verify the integrity of the data when the software is downloaded or installed. Authenticode signatures can be used with many software formats, including .cab, .exe, .ocx, and .dll.
 
-Microsoft maintains a list of public [*certification authorities*](../secgloss/c-gly.md) (CAs). Issuers of Authenticode certificates currently include [VeriSign](https://www.verisign.com/), [Thawte](https://www.thawte.com/), [Comodo](https://www.comodo.com/), [Geotrust](https://www.geotrust.com/), and [GlobalSign](https://www.globalsign.com/).
+Microsoft maintains a list of public [*certification authorities*](/security/trusted-root/participants-list) (CAs). Issuers of Authenticode certificates currently include [SSL.com](https://www.ssl.com/), [Digicert](https://www.digicert.com/), [Sectigo(Comodo)](https://www.sectigo.com/), and [GlobalSign](https://www.globalsign.com/).
 
 ## About Cryptographic Time Stamping
 
@@ -116,8 +116,6 @@ The time stamp response is also sent within an HTTP 1.1 message. In the HTTP hea
 The time stamp response is a PKCS \#7 signed message signed by the time stamper. The ContentInfo of the PKCS \#7 message is identical to the ContentInfo received in the time stamp. The PKCS \#7 content contains the signing time authenticated attribute (defined in PKCS \#99, OID 1.2.840.113549.9.5).
 
 After Authenticode receives the time stamp from the server, Authenticode incorporates the time stamp into the original PKCS \#7 [**SignedData**](signeddata.md) as a countersignature. To accomplish this, the ContentInfo of the returned PKCS \#7 **SignedData** is discarded, and the SignerInfo of the returned time stamp is copied as a countersignature into the SignerInfo of the original PKCS \#7 **SignedData**. The certificate chain of the time stamper is also copied into Certificates in the original PKCS \#7 **SignedData** as an unauthenticated attribute of the original signer.
-
-For more information about PKCS and other security subjects, see the [content library of the RSA website](https://www.rsa.com/content_library.aspx).
 
  
 

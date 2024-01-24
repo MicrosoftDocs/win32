@@ -1,5 +1,5 @@
 ---
-Description: Modifies existing key-value pairs on a virtual machine.
+description: Modifies existing key-value pairs on a virtual machine.
 ms.assetid: A014F681-4429-4982-95AA-DF371925BB3B
 title: ModifyKvpItems method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -372,7 +372,7 @@ End Function
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

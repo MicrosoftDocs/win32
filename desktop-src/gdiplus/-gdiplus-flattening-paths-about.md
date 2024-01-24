@@ -1,5 +1,5 @@
 ---
-Description: A GraphicsPath object stores a sequence of lines and B&\#233;zier splines.
+description: A GraphicsPath object stores a sequence of lines and B&\#233;zier splines.
 ms.assetid: 8ce77146-dc28-4c0b-bcf0-dad4bf3d86e8
 title: Flattening Paths
 ms.topic: article

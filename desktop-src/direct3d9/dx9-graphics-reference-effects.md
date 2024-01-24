@@ -1,12 +1,12 @@
 ---
-Description: Effects are a higher level abstraction that take advantage of vertex and pixel shaders to encapsulate rendering effects. Effects can be written with the high-level language or with the shader assembly language.
+description: Effects are a higher level abstraction that take advantage of vertex and pixel shaders to encapsulate rendering effects. Effects can be written with the high-level language or with the shader assembly language.
 ms.assetid: e44fc38f-5b08-497a-a6e7-cfd64661ed30
 title: Effect Reference (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Effect Reference
+# Effect Reference (Direct3D 9 Graphics)
 
 Effects are a higher level abstraction that take advantage of vertex and pixel shaders to encapsulate rendering effects. Effects can be written with the high-level language or with the shader assembly language.
 

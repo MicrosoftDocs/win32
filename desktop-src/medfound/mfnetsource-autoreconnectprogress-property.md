@@ -1,5 +1,5 @@
 ---
-Description: The number of times the network source has attempted to reconnect to the network.
+description: The number of times the network source has attempted to reconnect to the network.
 ms.assetid: e3410e68-6358-4f00-8039-833a4ccdf7fa
 title: MFNETSOURCE_AUTORECONNECTPROGRESS property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ This property is read-only. To retrieve this property, query the network source 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

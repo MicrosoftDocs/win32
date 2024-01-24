@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The **SBM\_SETSCROLLINFO** message is sent to set the parameters of a scroll bar.
 
-Applications should not send this message directly. Instead, they should use the [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) function. A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollInfo** function to function properly.
+Applications should not send this message directly. Instead, they should use the [**SetScrollInfo**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) function. A window receives this message through its [*WindowProc*](/windows/win32/api/winuser/nc-winuser-wndproc) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollInfo** function to function properly.
 
 ## Parameters
 
@@ -67,7 +67,7 @@ The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md)
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

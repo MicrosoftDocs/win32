@@ -1,5 +1,5 @@
 ---
-Description: Describes a type of virtual resource available for use in virtual machines.
+description: Describes a type of virtual resource available for use in virtual machines.
 ms.assetid: A93D990E-D921-4113-8D88-218D0F84EFA0
 title: Msvm_ResourcePool class
 ms.topic: reference
@@ -624,7 +624,7 @@ Access to the **Msvm\_ResourcePool** class might be restricted by UAC Filtering.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

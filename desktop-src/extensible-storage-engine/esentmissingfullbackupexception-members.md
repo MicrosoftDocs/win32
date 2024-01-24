@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFullBackupException members"
 title: EsentMissingFullBackupException members
 TOCTitle: EsentMissingFullBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingFullBackupException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.MissingFullBackup exceptions.
 
-The [EsentMissingFullBackupException](dn334670\(v=exchg.10\).md) type exposes the following members.
+The [EsentMissingFullBackupException](./esentmissingfullbackupexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentMissingFullBackupException class](dn334670\(v=exchg.10\).md)
+[EsentMissingFullBackupException class](./esentmissingfullbackupexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException constructor (SerializationInfo, StreamingContext)"
 title: EsentResourceException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentResourceException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResourceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentResourceException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +70,10 @@ protected EsentResourceException(
 
 #### Reference
 
-[EsentResourceException class](dn350557\(v=exchg.10\).md)
+[EsentResourceException class](./esentresourceexception-class.md)
 
-[EsentResourceException members](dn350580\(v=exchg.10\).md)
+[EsentResourceException members](./esentresourceexception-members.md)
 
-[EsentResourceException overload](dn350556\(v=exchg.10\).md)
+[EsentResourceException overload](./esentresourceexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

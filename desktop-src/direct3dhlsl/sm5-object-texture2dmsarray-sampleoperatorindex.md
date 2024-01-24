@@ -1,6 +1,6 @@
 ---
 title: Texture2DMSArray::sample.Operator    function
-description: Returns a read-only resource variable.
+description: Returns a read-only resource variable. | Texture2DMSArray::sample.Operator    function
 ms.assetid: 5334c1d5-dfbd-4987-875c-0b92967b0f13
 keywords:
 - sample.Operator function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# sample.Operator\[\]\[\] function
+# Texture2DMSArray::sample.Operator    function
 
 Returns a read-only resource variable.
 

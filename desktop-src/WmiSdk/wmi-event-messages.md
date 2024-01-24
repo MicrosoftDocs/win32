@@ -1,5 +1,5 @@
 ---
-Description: The following list lists events supported by WMI logs in Windows Vista and later operating systems.
+description: The following list lists events supported by WMI logs in Windows Vista and later operating systems.
 ms.assetid: ad8891cc-0b76-404d-81fc-961bcdbfae32
 ms.tgt_platform: multiple
 title: WMI Event Messages
@@ -321,7 +321,7 @@ Windows Management Instrumentation Repository successfully recreated using Autor
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

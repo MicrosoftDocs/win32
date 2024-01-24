@@ -1,5 +1,5 @@
 ---
-Description: Occurs when an in-air packet is seen.
+description: InkOverlay.NewInAirPackets event - Occurs when an in-air packet is seen.
 ms.assetid: 10dc1909-bfbc-4ea0-b77a-e33149205107
 title: InkOverlay.NewInAirPackets event (Msinkaut.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ To set which properties are contained in this array, use the [**DesiredPacketDes
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

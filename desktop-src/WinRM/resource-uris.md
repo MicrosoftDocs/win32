@@ -53,11 +53,11 @@ The following list describes several types of resource URIs used by Windows Remo
 
     This group of URIs are configuration operations for the WinRM[*listener*](windows-remote-management-glossary.md) configuration.
 
-    https://schemas.microsoft.com/wbem/wsman/1/config/listener can be used in [**Session**](session.md) methods [**Get**](session-get.md), [**Put**](session-put.md), [**Create**](session-create.md), [**Delete**](session-delete.md), and [**Enumerate**](session-enumerate.md).
+    `https://schemas.microsoft.com/wbem/wsman/1/config/listener` can be used in [**Session**](session.md) methods [**Get**](session-get.md), [**Put**](session-put.md), [**Create**](session-create.md), [**Delete**](session-delete.md), and [**Enumerate**](session-enumerate.md).
 
 -   [*System Event Log*](windows-remote-management-glossary.md) (SEL) URIs
 
-    This group of URIs subscribes to Event Collector events from the BMC. You can subscribe to these events using the **Wevtutil** command-line tool. For more information, see https://schemas.microsoft.com/wbem/wsman/1/logrecord/sel.
+    This group of URIs subscribes to Event Collector events from the BMC. You can subscribe to these events using the **Wevtutil** command-line tool.
 
 ## Case Sensitivity
 

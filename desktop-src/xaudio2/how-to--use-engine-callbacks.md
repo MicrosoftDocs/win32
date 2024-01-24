@@ -1,5 +1,5 @@
 ---
-Description: You can notify the XAudio2 client code of engine events by registering an instance of a class implementing the IXAudio2EngineCallback interface with the XAudio2 engine.
+description: You can notify the XAudio2 client code of engine events by registering an instance of a class implementing the IXAudio2EngineCallback interface with the XAudio2 engine.
 ms.assetid: 006a8cb6-c24c-f7d1-9e8b-9cb2baa046c0
 title: 'How to: Use Engine Callbacks'
 ms.topic: article

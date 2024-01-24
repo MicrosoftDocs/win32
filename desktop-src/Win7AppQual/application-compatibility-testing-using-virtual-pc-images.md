@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Application Compatibility Testing Using Virtual PC Images
 ms.assetid: 316B4258-3C8D-4B74-A6B8-1D1C02372720
 title: Application Compatibility Testing Using Virtual PC Images
 ms.topic: article

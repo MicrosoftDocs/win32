@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfFileHandlesException properties"
 title: EsentOutOfFileHandlesException properties
 TOCTitle: EsentOutOfFileHandlesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfFileHandlesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfFileHandlesException](dn319728\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfFileHandlesException](./esentoutoffilehandlesexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentOutOfFileHandlesException class](dn319728\(v=exchg.10\).md)
+[EsentOutOfFileHandlesException class](./esentoutoffilehandlesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

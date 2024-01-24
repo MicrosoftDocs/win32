@@ -1,5 +1,5 @@
 ---
-Description: How to get more free disk space after exceeding the quota allowance.
+description: How to get more free disk space after exceeding the quota allowance.
 ms.assetid: a73b6a11-36f1-4437-a83d-e89918b1b0ae
 title: User-level Administration of Disk Quotas
 ms.topic: article

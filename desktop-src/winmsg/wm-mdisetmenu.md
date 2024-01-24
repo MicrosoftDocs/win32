@@ -1,5 +1,5 @@
 ---
-Description: An application sends the WM\_MDISETMENU message to a multiple-document interface (MDI) client window to replace the entire menu of an MDI frame window, to replace the window menu of the frame window, or both.
+description: An application sends the WM\_MDISETMENU message to a multiple-document interface (MDI) client window to replace the entire menu of an MDI frame window, to replace the window menu of the frame window, or both.
 ms.assetid: 5cc85032-5378-44a0-abd4-d583deaa3294
 title: WM_MDISETMENU message (Winuser.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If an MDI child window is maximized and this message replaces the MDI frame wind
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

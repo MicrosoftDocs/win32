@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingLogFileException members"
 title: EsentMissingLogFileException members
 TOCTitle: EsentMissingLogFileException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingLogFileException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.MissingLogFile exceptions.
 
-The [EsentMissingLogFileException](dn334746\(v=exchg.10\).md) type exposes the following members.
+The [EsentMissingLogFileException](./esentmissinglogfileexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentMissingLogFileException class](dn334746\(v=exchg.10\).md)
+[EsentMissingLogFileException class](./esentmissinglogfileexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

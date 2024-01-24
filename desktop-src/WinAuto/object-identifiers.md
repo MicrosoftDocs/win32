@@ -27,7 +27,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Object Identifiers
+# Object Identifiers (Winuser.h)
 
 This topic describes the Microsoft Active Accessibility object identifiers, 32-bit values that identify *categories* of accessible objects within a window. Microsoft Active Accessibility servers and Microsoft UI Automation providers use the object identifiers to determine the object to which a [**WM\_GETOBJECT**](wm-getobject.md) message request refers.
 
@@ -62,7 +62,7 @@ The following constants are defined in winuser.h:
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 

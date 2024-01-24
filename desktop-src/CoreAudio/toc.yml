@@ -149,6 +149,8 @@
       items: 
       - name: "Render Spatial Sound Using Spatial Audio Objects"
         href: render-spatial-sound-using-spatial-audio-objects.md
+      - name: "Recovering from an Invalid-Device Error (Spatial Sound)"
+        href: recovering-from-an-invalid-device-error-spatial-sound.md
   - name: "Programming Reference"
     href: programming-reference.md
     items: 
@@ -974,7 +976,7 @@
       - name: "AUDIO_VOLUME_NOTIFICATION_DATA"
         href: /windows/desktop/api/Endpointvolume/ns-endpointvolume-audio_volume_notification_data
       - name: "AudioClientProperties"
-        href: /windows/desktop/api/Audioclient/ns-audioclient-audioclientproperties~r1
+        href: /windows/desktop/api/Audioclient/ns-audioclient-audioclientproperties-r1
       - name: "AudioExtensionParams"
         href: /windows/win32/api/mmdeviceapi/ns-mmdeviceapi-audioextensionparams
       - name: "DIRECTX_AUDIO_ACTIVATION_PARAMS"

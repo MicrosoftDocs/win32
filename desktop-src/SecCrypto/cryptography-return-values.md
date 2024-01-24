@@ -1,5 +1,5 @@
 ---
-Description: The following return values are used by cryptography functions and defined in Wincrypt.h. Cryptography return values are categorized according to usage as follows.
+description: The following return values are used by cryptography functions and defined in Wincrypt.h. Cryptography return values are categorized according to usage as follows.
 ms.assetid: 0468cece-6449-4772-82c9-e3f410c34e46
 title: Cryptography Return Values
 ms.topic: article

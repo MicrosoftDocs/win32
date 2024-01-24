@@ -1,5 +1,5 @@
 ---
-Description: This interface is implemented by the application to save any additional user data embedded in .x files.
+description: ID3DXSaveUserData interface - This interface is implemented by the application to save any additional user data embedded in .x files.
 ms.assetid: 6294f942-9c14-4eed-92a8-af2821fd7e13
 title: ID3DXSaveUserData interface (D3dx9anim.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ typedef interface ID3DXSaveUserData *LPD3DXSAVEUSERDATA;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

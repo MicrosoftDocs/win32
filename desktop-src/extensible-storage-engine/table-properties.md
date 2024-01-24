@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Table properties"
 title: Table properties
 TOCTitle: Table properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Table
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Table](dn351163\(v=exchg.10\).md) type exposes the following members.
+The [Table](./table-class.md) type exposes the following members.
 
 ## Properties
 
@@ -51,7 +52,6 @@ Top
 
 #### Reference
 
-[Table class](dn351163\(v=exchg.10\).md)
+[Table class](./table-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

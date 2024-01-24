@@ -1,5 +1,5 @@
 ---
-Description: User name for an identity.
+description: User name for an identity.
 ms.assetid: da13b18d-0450-49fd-8c10-08413d55587e
 title: System.Identity.UserName
 ms.topic: article

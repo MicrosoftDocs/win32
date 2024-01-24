@@ -1,5 +1,5 @@
 ---
-Description: A value that indicates the type of sensor provided by a frame source, such as color, infrared, or depth.
+description: A value that indicates the type of sensor provided by a frame source, such as color, infrared, or depth.
 ms.assetid: F327B9E9-C01C-4F5B-9A26-6404ECD7F27F
 title: MF_MT_FRAMESOURCE_TYPES attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This value should be a member of the [**\_MFFrameSourceTypes**](/previous-versio
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                      |

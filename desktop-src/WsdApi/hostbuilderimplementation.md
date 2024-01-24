@@ -1,5 +1,5 @@
 ---
-Description: Generates a function that creates a typed host.
+description: Generates a function that creates a typed host.
 ms.assetid: 2b4a4016-cc5d-4912-8e08-ce3a11ab0a06
 title: hostBuilderImplementation element
 ms.topic: reference
@@ -52,7 +52,7 @@ hostedService+
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |

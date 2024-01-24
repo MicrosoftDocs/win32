@@ -1,5 +1,5 @@
 ---
-Description: Returns the list of the saved backup configuration files that can be restored.
+description: Returns the list of the saved backup configuration files that can be restored.
 ms.assetid: 9487c50e-ef3b-425f-92ef-0614290e9af4
 ms.tgt_platform: multiple
 title: ListBackups method of the Control class
@@ -82,7 +82,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

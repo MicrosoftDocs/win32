@@ -1,5 +1,5 @@
 ---
-Description: The following properties are defined by the IOCSPAdmin interface.
+description: The following properties are defined by the IOCSPAdmin interface.
 ms.assetid: a0be9b8a-3df7-4223-947b-dc3e7f608818
 title: Properties of IOCSPAdmin
 ms.topic: article

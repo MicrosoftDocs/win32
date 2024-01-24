@@ -1,5 +1,5 @@
 ---
-Description: Adds a sprite to the list of batched sprites.
+description: Adds a sprite to the list of batched sprites.
 ms.assetid: 8f5c43a2-68dd-44a9-be2f-f76d9fa2d900
 title: ID3DXSprite::Draw method (D3dx9core.h)
 ms.topic: reference
@@ -51,9 +51,9 @@ Pointer to an [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helpe
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that indicates the portion of the source texture to use for the sprite. If this parameter is **NULL**, then the entire source image is used for the sprite.
 
 </dd> <dt>
 
@@ -98,7 +98,7 @@ To scale, rotate, or translate a sprite, call [**ID3DXSprite::SetTransform**](id
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

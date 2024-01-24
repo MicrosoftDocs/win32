@@ -1,5 +1,5 @@
 ---
-Description: Sent to the CPlApplet function of a Control Panel application to retrieve the number of dialog boxes supported by the application.
+description: Sent to the CPlApplet function of a Control Panel application to retrieve the number of dialog boxes supported by the application.
 title: CPL_GETCOUNT message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -42,7 +42,7 @@ This message is sent immediately after the [**CPL\_INIT**](cpl-init.md) message.
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

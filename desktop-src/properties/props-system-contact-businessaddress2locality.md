@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.BusinessAddress2Locality
 ms.assetid: ce79131c-0abc-4b18-834b-5c94103fd3dc
 title: System.Contact.BusinessAddress2Locality
 ms.topic: article

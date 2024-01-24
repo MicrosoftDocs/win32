@@ -214,7 +214,9 @@
             href: tier-1.md
           - name: "Tier 2"
             href: tier-2.md
-    - name: "Graphics Pipeline"
+      - name: "Displayable surfaces"
+        href: displayable-surfaces.md
+    - name: "Graphics pipeline"
       href: overviews-direct3d-11-graphics-pipeline.md
       items: 
       - name: "Input-Assembler Stage"
@@ -926,6 +928,8 @@
             href: /windows/win32/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4
           - name: "D3D11_FEATURE_DATA_D3D11_OPTIONS5"
             href: /windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options5
+          - name: "D3D11_FEATURE_DATA_DISPLAYABLE"
+            href: /windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_displayable
           - name: "D3D11_FEATURE_DATA_DOUBLES"
             href: /windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_doubles
           - name: "D3D11_FEATURE_DATA_FORMAT_SUPPORT"
@@ -1783,16 +1787,23 @@
             href: /previous-versions/windows/desktop/legacy/ff728743(v=vs.85)
             items: 
             - name: "GetBufferPointer"
-              href: /previous-versions/windows/desktop/legacy/(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ff728744(v=vs.85)
             - name: "GetBufferSize"
-              href: /previous-versions/windows/desktop/legacy/(v=vs.85)
+              href: /previous-versions/windows/desktop/legacy/ff728745(v=vs.85)
+          - name: "ID3DDestructionNotifier"
+            href: /windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionotifier
+            items: 
+            - name: "RegisterDestructionCallback"
+              href: /windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-registerdestructioncallback
+            - name: "UnregisterDestructionCallback"
+              href: /windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionotifier-unregisterdestructioncallback
           - name: "ID3DInclude"
-            href: /windows/win32/api/D3Dcommon/nn-d3dcommon-id3dinclude
+            href: /windows/win32/api/d3dcommon/nn-d3dcommon-id3dinclude
             items: 
             - name: "Close"
-              href: /windows/win32/api/D3DCommon/nf-d3dcommon-id3dinclude-close
+              href: /windows/win32/api/d3dcommon/nf-d3dcommon-id3dinclude-close
             - name: "Open"
-              href: /windows/win32/api/D3DCommon/nf-d3dcommon-id3dinclude-open
+              href: /windows/win32/api/d3dcommon/nf-d3dcommon-id3dinclude-open
           - name: "ID3DUserDefinedAnnotation"
             href: /windows/win32/api/D3D11_1/nn-d3d11_1-id3duserdefinedannotation
             items: 
@@ -1808,52 +1819,52 @@
           href: d3d11-graphics-reference-d3d11-common-structures.md
           items: 
           - name: "D3D_SHADER_MACRO"
-            href: /windows/win32/api/D3DCommon/ns-d3dcommon-d3d_shader_macro
+            href: /windows/win32/api/d3dcommon/ns-d3dcommon-d3d_shader_macro
         - name: "Common Version Enumerations"
           href: d3d11-graphics-reference-d3d11-common-enumerations.md
           items: 
           - name: "D3D_CBUFFER_TYPE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_cbuffer_type
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_cbuffer_type
           - name: "D3D_DRIVER_TYPE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_driver_type
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_driver_type
           - name: "D3D_FEATURE_LEVEL"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_feature_level
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_feature_level
           - name: "D3D_INCLUDE_TYPE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_include_type
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_include_type
           - name: "D3D_INTERPOLATION_MODE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_interpolation_mode
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_interpolation_mode
           - name: "D3D_MIN_PRECISION"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_min_precision
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_min_precision
           - name: "D3D_NAME"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_name
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_name
           - name: "D3D_PRIMITIVE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_primitive
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_primitive
           - name: "D3D_PRIMITIVE_TOPOLOGY"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_primitive_topology
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_primitive_topology
           - name: "D3D_REGISTER_COMPONENT_TYPE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_register_component_type
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_register_component_type
           - name: "D3D_RESOURCE_RETURN_TYPE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_resource_return_type
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type
           - name: "D3D_SHADER_CBUFFER_FLAGS"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_cbuffer_flags
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_cbuffer_flags
           - name: "D3D_SHADER_INPUT_FLAGS"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_input_flags
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_input_flags
           - name: "D3D_SHADER_INPUT_TYPE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_input_type
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_input_type
           - name: "D3D_SHADER_VARIABLE_CLASS"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_class
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_class
           - name: "D3D_SHADER_VARIABLE_FLAGS"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_flags
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_flags
           - name: "D3D_SHADER_VARIABLE_TYPE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_type
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_shader_variable_type
           - name: "D3D_SRV_DIMENSION"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_srv_dimension
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_srv_dimension
           - name: "D3D_TESSELLATOR_DOMAIN"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_tessellator_domain
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_tessellator_domain
           - name: "D3D_TESSELLATOR_OUTPUT_PRIMITIVE"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_tessellator_output_primitive
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_tessellator_output_primitive
           - name: "D3D_TESSELLATOR_PARTITIONING"
-            href: /windows/win32/api/D3DCommon/ne-d3dcommon-d3d_tessellator_partitioning
+            href: /windows/win32/api/d3dcommon/ne-d3dcommon-d3d_tessellator_partitioning
       - name: "CD3D11 Helper Structures"
         href: cd3d11-helper-classes.md
         items: 
@@ -1892,8 +1903,8 @@
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(constd3d11_depth_stencil_desc_)
           - name: "CD3D11_DEPTH_STENCIL_DESC(CD3D11_DEFAULT) constructor"
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(cd3d11_default)
-          - name: "CD3D11_DEPTH_STENCIL_DESC(BOOL, D3D11_DEPTH_WRITE_MASK, D3D11_COMPARISON_FUNC, BOOL, UINT8, UINT8, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC) constructor"
-            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(bool_d3d11_depth_write_mask_d3d11_comparison_func_bool_uint8_uint8_d3d11_stencil_op_d3d11_stencil_op_d3d11_stencil_op_d3d11_compa
+#          - name: "CD3D11_DEPTH_STENCIL_DESC(BOOL, D3D11_DEPTH_WRITE_MASK, D3D11_COMPARISON_FUNC, BOOL, UINT8, UINT8, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC) constructor"
+#            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(bool_d3d11_depth_write_mask_d3d11_comparison_func_bool_uint8_uint8_d3d11_stencil_op_d3d11_stencil_op_d3d11_stencil_op_d3d11_compa
           - name: "~CD3D11_DEPTH_STENCIL_DESC() destructor"
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-~cd3d11_depth_stencil_desc
           - name: "operator const D3D11_DEPTH_STENCIL_DESC&() method"
@@ -1910,7 +1921,7 @@
           - name: "~CD3D11_BLEND_DESC() destructor"
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-~cd3d11_blend_desc
           - name: "operator const D3D11_BLEND_DESC&() method"
-            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-operatorconstd3d11_blend_desc_
+            href: /windows/win32/api/d3d11/ns-d3d11-d3d11_blend_desc
         - name: "CD3D11_RASTERIZER_DESC"
           href: /previous-versions/windows/desktop/legacy/jj151654(v=vs.85)
           items: 
@@ -1938,7 +1949,7 @@
           - name: "~CD3D11_BUFFER_DESC() destructor"
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-~cd3d11_buffer_desc
           - name: "operator const D3D11_BUFFER_DESC&() method"
-            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-operatorconstd3d11_buffer_desc_
+            href: /windows/win32/api/d3d11/ns-d3d11-cd3d11_buffer_desc
         - name: "CD3D11_TEXTURE1D_DESC"
           href: /previous-versions/windows/desktop/legacy/jj151694(v=vs.85)
           items: 

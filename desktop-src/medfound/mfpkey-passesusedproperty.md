@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of passes that the encoder will use to encode the content.
+description: Specifies the number of passes that the encoder will use to encode the content.
 ms.assetid: 71a21976-ed92-4cd6-946c-fa6268895531
 title: MFPKEY_PASSESUSED Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This value cannot exceed the value of [MFPKEY\_PASSESRECOMMENDED](mfpkey-passesr
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

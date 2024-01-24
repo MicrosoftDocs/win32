@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Card class exposes the following methods.
+description: The CIM\_Card class exposes the following methods.
 ms.assetid: 9099F48F-F2DB-4B29-BC33-470CCD6352CD
 ms.tgt_platform: multiple
 title: CIM_Card Methods

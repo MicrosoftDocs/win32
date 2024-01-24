@@ -1,5 +1,5 @@
 ---
-Description: This section covers Microsoft Telephony programming considerations that apply to both end-user applications and service providers.
+description: This section covers Microsoft Telephony programming considerations that apply to both end-user applications and service providers.
 ms.assetid: 3ba866e2-2293-41ab-a1ae-08491f098e1c
 title: General Programming Considerations
 ms.topic: article

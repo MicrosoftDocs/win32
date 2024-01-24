@@ -1,5 +1,5 @@
 ---
-Description: Increments the reference count to a Secure Sockets Layer protocol (SSL) provider instance.
+description: Increments the reference count to a Secure Sockets Layer protocol (SSL) provider instance.
 ms.assetid: 67e7b8b4-b073-4936-b1e0-3fc7c1c011a2
 title: SslIncrementProviderReferenceCount function (Sslprovider.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The ADDRESSTABLE structure contains a table of address pairs.
+description: The ADDRESSTABLE structure contains a table of address pairs.
 ms.assetid: 84577b6c-9d43-4e53-9f8d-33685329b11d
 title: ADDRESSTABLE structure (Netmon.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ Use this structure as part of the capture filter construction process. For more 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

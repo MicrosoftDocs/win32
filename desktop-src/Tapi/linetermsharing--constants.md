@@ -1,5 +1,5 @@
 ---
-Description: The LINETERMSHARING\_ bit-flag constants describe different ways in which a terminal can be shared between line devices, addresses, or calls.
+description: The LINETERMSHARING\_ bit-flag constants describe different ways in which a terminal can be shared between line devices, addresses, or calls.
 ms.assetid: 50a52a50-4d94-4068-9ea4-bea862400036
 title: LINETERMSHARING_ Constants (Tapi.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ These constants describe the classes of control and information streams that can
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

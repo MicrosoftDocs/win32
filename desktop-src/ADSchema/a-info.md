@@ -22,7 +22,7 @@ The user's comments. This string can be a null string.
 
 
 
-|                   |                                                                          |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------|
 | CN                | Comment                                                                  |
 | Ldap-Display-Name | info                                                                     |
@@ -48,7 +48,7 @@ The user's comments. This string can be a null string.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x3004                                               |
@@ -69,7 +69,7 @@ The user's comments. This string can be a null string.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x3004                                               |
@@ -90,7 +90,7 @@ The user's comments. This string can be a null string.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x3004                                               |
@@ -111,7 +111,7 @@ The user's comments. This string can be a null string.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x3004                                               |
@@ -132,7 +132,7 @@ The user's comments. This string can be a null string.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x3004                                               |
@@ -153,7 +153,7 @@ The user's comments. This string can be a null string.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x3004                                               |

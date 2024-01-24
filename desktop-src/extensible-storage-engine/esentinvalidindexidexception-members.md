@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidIndexIdException members"
 title: EsentInvalidIndexIdException members
 TOCTitle: EsentInvalidIndexIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidIndexIdException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidIndexId exceptions.
 
-The [EsentInvalidIndexIdException](dn319523\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidIndexIdException](./esentinvalidindexidexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidIndexIdException class](dn319523\(v=exchg.10\).md)
+[EsentInvalidIndexIdException class](./esentinvalidindexidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The GetFrameTimeStamp function returns the time stamp of a given frame.
+description: The GetFrameTimeStamp function returns the time stamp of a given frame.
 ms.assetid: 4ac50400-6674-40fa-9a69-9c0ccb55b92c
 title: GetFrameTimeStamp function (Netmon.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The **GetFrameTimeStamp** function returns a time stamp that shows the elapsed t
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

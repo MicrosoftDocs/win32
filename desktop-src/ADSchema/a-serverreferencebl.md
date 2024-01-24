@@ -22,7 +22,7 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Server-Reference-BL                     |
 | Ldap-Display-Name | serverReferenceBL                       |
@@ -49,7 +49,7 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 95                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 95                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 95                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 95                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 95                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 95                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ Found in the domain naming context. The distinguished name of a computer under t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 95                              |
 | MAPI-Id                | \-                              |

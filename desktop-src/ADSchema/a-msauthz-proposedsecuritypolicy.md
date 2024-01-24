@@ -22,7 +22,7 @@ For a Central Access Policy Entry, defines the proposed security policy of the o
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Authz-Proposed-Security-Policy           |
 | Ldap-Display-Name | msAuthz-ProposedSecurityPolicy              |
@@ -43,7 +43,7 @@ For a Central Access Policy Entry, defines the proposed security policy of the o
 
 
 
-|                        |                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |

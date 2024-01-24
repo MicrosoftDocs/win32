@@ -1,22 +1,25 @@
 ---
-Description: Rotates (relative to world coordinate space) around an arbitrary axis.
+description: ID3DXMATRIXStack::RotateAxis method (D3dx9math.h) - Rotates (relative to world coordinate space) around an arbitrary axis.
 ms.assetid: b7ae5195-a2af-429f-9a0d-51cd7e955362
 title: ID3DXMATRIXStack::RotateAxis method (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.RotateAxis
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::RotateAxis method
+# ID3DXMATRIXStack::RotateAxis method (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Rotates (relative to world coordinate space) around an arbitrary axis.
 
@@ -79,7 +82,7 @@ Because the rotation is right-multiplied to the matrix stack, the rotation is re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

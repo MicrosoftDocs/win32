@@ -1,5 +1,5 @@
 ---
-Description: A helper structure containing member structure information.
+description: A helper structure containing member structure information.
 ms.assetid: 2fbe5e97-047e-48bf-9413-dd297632288a
 title: D3DXSHADER_STRUCTMEMBERINFO structure (D3dx9shader.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

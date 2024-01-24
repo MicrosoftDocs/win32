@@ -1,5 +1,5 @@
 ---
-Description: Sets the security descriptor for the namespace to which a user is connected. This method requires a security descriptor in binary byte array format. If you are writing a script, use the SetSecurityDescriptor method.
+description: Sets the security descriptor for the namespace to which a user is connected. This method requires a security descriptor in binary byte array format. If you are writing a script, use the SetSecurityDescriptor method.
 ms.assetid: 049f8722-1674-4c4f-9300-09b1cc1412fb
 ms.tgt_platform: multiple
 title: SetSD method of the __SystemSecurity class
@@ -223,7 +223,7 @@ The following C# code sample uses the System.Security.AccessControl.RawSecurityD
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Creates and returns a Folder object for the specified folder.
+description: Shell.NameSpace method - Creates and returns a Folder object for the specified folder.
 ms.assetid: c0d61bc6-6851-4b47-a62d-4c24d2958b98
 title: Shell.NameSpace method (Shldisp.h)
 ms.topic: reference
@@ -143,7 +143,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

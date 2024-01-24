@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CheckVirtualSystemIsMigratableToSystem method of the CIM_VirtualSystemMigrationService class"
 ms.assetid: d3f7c926-804f-4c7c-8964-a8e464155417
 title: CheckVirtualSystemIsMigratableToSystem method of the CIM_VirtualSystemMigrationService class
 ms.topic: reference
@@ -107,7 +108,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

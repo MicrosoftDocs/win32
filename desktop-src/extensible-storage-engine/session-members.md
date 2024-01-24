@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session members"
 title: Session members
 TOCTitle: Session members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Session
@@ -15,7 +16,7 @@ Include inherited members
 
 A class that encapsulates a JET_SESID in a disposable object.
 
-The [Session](dn351164\(v=exchg.10\).md) type exposes the following members.
+The [Session](./session-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -161,7 +162,7 @@ Top
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
-<td><a href="dn351178(v=exchg.10).md">Implicit(Session to JET_SESID)</a></td>
+<td><a href="/windows/win32/extensible-storage-engine/session-implicit-conversion-session-to-jet-sesid">Implicit(Session to JET_SESID)</a></td>
 <td>Implicit conversion operator from a Session to a JET_SESID. This allows a Session to be used with APIs which expect a JET_SESID.</td>
 </tr>
 </tbody>
@@ -174,6 +175,6 @@ Top
 
 #### Reference
 
-[Session class](dn351164\(v=exchg.10\).md)
+[Session class](./session-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

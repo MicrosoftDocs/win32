@@ -1,6 +1,6 @@
 ---
 title: glGetMapdv function (Gl.h)
-description: The glGetMapdv, glGetMapfv, and glGetMapiv functions return evaluator parameters.
+description: The glGetMapdv, glGetMapfv, and glGetMapiv functions return evaluator parameters. | glGetMapdv function (Gl.h)
 ms.assetid: 3b4fc03b-ada4-4f4a-a234-fa6439f2e5c8
 keywords:
 - glGetMapdv function OpenGL
@@ -87,19 +87,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* or *query* was not an accepted value.<br/>                                                                             |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glGetMap** function returns evaluator parameters. (The **glMap1** and **glMap2** functions define evaluators.) The *target* parameter specifies a map, *query* selects a specific parameter, and *v* points to storage where the values will be returned.
@@ -112,7 +99,7 @@ If an error is generated, no change is made to the contents of *v*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

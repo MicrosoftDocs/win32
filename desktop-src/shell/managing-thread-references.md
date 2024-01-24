@@ -1,5 +1,5 @@
 ---
-Description: This article contains information about the management of thread references using functions from the Shell lightweight utility functions.
+description: This article contains information about the management of thread references using functions from the Shell lightweight utility functions.
 ms.assetid: d8d479fd-c45a-4dfa-b496-76abc7c09a42
 title: Managing Thread References
 ms.topic: article
@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 This article contains information about the management of thread references using functions from the Shell lightweight utility functions.
 
-## 
 
 Situations arise when a parent thread must be kept active for the lifetime of a child thread. For instance, if a Component Object Model (COM) object is created on the parent thread and marshaled to the child thread, that parent thread cannot terminate before the child thread. To accomplish this, the Shell provides these functions.
 

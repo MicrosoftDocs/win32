@@ -1,5 +1,5 @@
 ---
-Description: Page-Space to Device-Space Transformations
+description: Page-Space to Device-Space Transformations
 ms.assetid: 5505cf7a-7b9c-4728-934d-7faa4bdfde30
 title: Page-Space to Device-Space Transformations
 ms.topic: article

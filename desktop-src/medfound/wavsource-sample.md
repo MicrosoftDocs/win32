@@ -1,5 +1,5 @@
 ---
-Description: WavSource Sample
+description: WavSource Sample
 ms.assetid: 905fbba5-0a04-4048-80bd-f8707c4879da
 title: WavSource Sample
 ms.topic: article

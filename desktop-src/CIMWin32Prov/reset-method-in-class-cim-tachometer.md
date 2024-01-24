@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_Tachometer class requests a reset of the logical device.
+description: The Reset method of the CIM\_Tachometer class requests a reset of the logical device.
 ms.assetid: c8806511-6796-49e9-bdcd-959e5c5f9da0
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Tachometer class
@@ -52,7 +52,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

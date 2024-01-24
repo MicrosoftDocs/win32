@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the IMFTransform wants to receive MEPolicySet completion notifications.
+description: Specifies whether the IMFTransform wants to receive MEPolicySet completion notifications.
 title: MFT_POLICY_SET_AWARE (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -25,8 +25,8 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/api/mf
 
 ## Remarks
 
-This attributet can be used by an **IMFInputTrustAuthority** decrypter. An implementation of a Content Decryption Module (CDM) may include an implementation of 
-**IMFInputTrustAuthority**. The **IMFInputTrustAuthority** object is accessed through [IMFContentDecryptionModule::CreateTrustedInput](/windows/win32/api/mfcontentedecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createtrustedinput).
+This attributes can be used by an **IMFInputTrustAuthority** decrypter. An implementation of a Content Decryption Module (CDM) may include an implementation of 
+**IMFInputTrustAuthority**. The **IMFInputTrustAuthority** object is accessed through [IMFContentDecryptionModule::CreateTrustedInput](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createtrustedinput).
 
 
 The GUID constant for this attribute is exported from mfuuid.lib.
@@ -35,7 +35,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 April 2020 Update   <br/>                                        |
 | Header<br/>                   | <dl> <dt>Mftransform.h</dt> </dl> |

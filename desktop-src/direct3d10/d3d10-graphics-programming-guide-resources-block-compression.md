@@ -1,5 +1,5 @@
 ---
-Description: Block compression is a texture compression technique for reducing texture size.
+description: Block compression is a texture compression technique for reducing texture size.
 ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
 title: Block Compression (Direct3D 10)
 ms.topic: article
@@ -46,9 +46,9 @@ The uncompressed data is laid out in memory sequentially and requires 16 bytes, 
 
 ### Storing Compressed Data
 
-Now that you've seen how much memory an uncompressed image uses, take a look at how much memory a compressed image saves. The [BC1](#bc1) compression format stores 2 colors (1 byte each) and 16 3-bit indices (48 bits, or 6 bytes) that are used to interpolate the original colors in the texture, as shown in the following illustration.
+Now that you've seen how much memory an uncompressed image uses, take a look at how much memory a compressed image saves. The [BC4](#bc4) compression format stores 2 colors (1 byte each) and 16 3-bit indices (48 bits, or 6 bytes) that are used to interpolate the original colors in the texture, as shown in the following illustration.
 
-![illustration of the bc1 compression format](images/d3d10-block-compress-3.png)
+![illustration of the bc4 compression format](images/d3d10-block-compress-3.png)
 
 The total space required to store the compressed data is 8 bytes which is a 50-percent memory savings over the uncompressed example. The savings are even larger when more than one color component is used.
 
@@ -88,7 +88,7 @@ In summary, be careful to use aligned memory blocks when copying regions that co
 
 ## Compression Algorithms
 
-Block compression techniques in Direct3D break up uncompressed texture data into 4×4 blocks, compress each block, and then store the data. For this reason, textures are expected to be compressed must have texture dimensions that are multiples of 4.
+Block compression techniques in Direct3D break up uncompressed texture data into 4×4 blocks, compress each block, and then store the data. For this reason, textures that are expected to be compressed must have texture dimensions that are multiples of 4.
 
 ![diagram of block compression](images/d3d10-compression-1.png)
 
@@ -151,27 +151,12 @@ color_3 = 0;
 ```
 
 
+**Differences between Direct3D 9 and Direct3D 10:**
 
+This format exists in both Direct3D 9 and 10.
 
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Differences between Direct3D 9 and Direct3D 10:<br/> This format exists in both Direct3D 9 and 10.<br/>
-<ul>
-<li>In Direct3D 9, the BC1 format is called D3DFMT_DXT1.</li>
-<li>In Direct3D 10, the BC1 format is represented by DXGI_FORMAT_BC1_UNORM or DXGI_FORMAT_BC1_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-
-
- 
+- In **Direct3D 9**, the BC1 format is called **D3DFMT_DXT1**.
+- In **Direct3D 10**, the BC1 format is represented by **DXGI_FORMAT_BC1_UNORM** or **DXGI_FORMAT_BC1_UNORM_SRGB**.
 
 ### BC2
 
@@ -181,24 +166,14 @@ The BC2 format stores colors with the same number of bits and data layout as the
 
 ![diagram of the layout for bc2 compression](images/d3d10-compression-bc2.png)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Differences between Direct3D 9 and Direct3D 10:<br/> This format exists in both Direct3D 9 and 10.<br/>
-<ul>
-<li>In Direct3D 9, the BC2 format is called D3DFMT_DXT2 and D3DFMT_DXT3.</li>
-<li>In Direct3D 10, the BC2 format is represented by DXGI_FORMAT_BC2_UNORM or DXGI_FORMAT_BC2_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
 
+**Differences between Direct3D 9 and Direct3D 10:** 
 
+This format exists in both Direct3D 9 and 10. 
 
- 
+* In **Direct3D 9**, the BC2 format is called **D3DFMT_DXT2** and **D3DFMT_DXT3**.
+
+* In **Direct3D 10**, the BC2 format is represented by **DXGI_FORMAT_BC2_UNORM** or **DXGI_FORMAT_BC2_UNORM_SRGB**
 
 ### BC3
 
@@ -242,24 +217,12 @@ else
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Differences between Direct3D 9 and Direct3D 10:<br/>
-<ul>
-<li>In Direct3D 9, the BC3 format is called D3DFMT_DXT4 and D3DFMT_DXT5.</li>
-<li>In Direct3D 10, the BC3 format is represented by DXGI_FORMAT_BC3_UNORM or DXGI_FORMAT_BC3_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
 
+**Differences between Direct3D 9 and Direct3D 10:** 
 
+- In **Direct3D 9**, the BC3 format is called **D3DFMT_DXT4** and **D3DFMT_DXT5**.
 
- 
+- In **Direct3D 10**, the BC3 format is represented by **DXGI_FORMAT_BC3_UNORM** or **DXGI_FORMAT_BC3_UNORM_SRGB**. 
 
 ### BC4
 

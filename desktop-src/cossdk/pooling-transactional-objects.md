@@ -1,5 +1,5 @@
 ---
-Description: Transactional components that are to be pooled have special requirements.
+description: Transactional components that are to be pooled have special requirements.
 ms.assetid: 32e2f830-c30a-4dbc-8e69-dd2038851998
 title: Pooling Transactional Objects
 ms.topic: article

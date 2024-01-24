@@ -1,5 +1,5 @@
 ---
-Description: Stops the service.
+description: StopService method of the Msvm_MetricService class - Stops the service.
 ms.assetid: f317ee91-3f87-4089-8156-5124dec0fe5c
 title: StopService method of the Msvm_MetricService class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

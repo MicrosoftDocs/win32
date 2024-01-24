@@ -1,5 +1,5 @@
 ---
-Description: The SetBoolInBlob function sets a Boolean value at a given location within a BLOB.
+description: The SetBoolInBlob function sets a Boolean value at a given location within a BLOB.
 ms.assetid: 354d22be-b8c4-4068-8356-19b30ac188d0
 title: SetBoolInBlob function (Netmon.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

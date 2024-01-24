@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoDatabasesConsistentException properties"
 title: EsentRecoveredWithoutUndoDatabasesConsistentException properties
 TOCTitle: EsentRecoveredWithoutUndoDatabasesConsistentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecoveredWithoutUndoDatabasesConsistentException](dn350538\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecoveredWithoutUndoDatabasesConsistentException](./esentrecoveredwithoutundodatabasesconsistentexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentRecoveredWithoutUndoDatabasesConsistentException class](dn350538\(v=exchg.10\).md)
+[EsentRecoveredWithoutUndoDatabasesConsistentException class](./esentrecoveredwithoutundodatabasesconsistentexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

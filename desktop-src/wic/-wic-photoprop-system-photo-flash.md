@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.Flash property.
+description: The photo metadata policy for the System.Photo.Flash property.
 ms.assetid: 24b400a4-f4c7-4b59-a9e3-8a20144cd52e
 title: System.Photo.Flash Photo Metadata Policy
 ms.topic: article
@@ -47,7 +47,7 @@ Values from different schemas are reconciled.
 | Order | Path                             | Disk Format |
 |-------|----------------------------------|-------------|
 | 1     | /app1/ifd/exif/{ushort=37385}    | ushort      |
-| 2     | /xmp/<xmpstruct>exif:Flash |             |
+| 2     | /xmp/&lt;xmpstruct&gt;exif:Flash |             |
 
 
 
@@ -60,7 +60,7 @@ Values from different schemas are reconciled.
 | Order | Path                             | Disk Format |
 |-------|----------------------------------|-------------|
 | 1     | /app1/ifd/exif/{ushort=37385}    | ushort      |
-| 2     | /xmp/<xmpstruct>exif:Flash |             |
+| 2     | /xmp/&lt;xmpstruct&gt;exif:Flash |             |
 
 
 
@@ -73,7 +73,7 @@ Values from different schemas are reconciled.
 | Order | Path                             |
 |-------|----------------------------------|
 | 1     | /app1/ifd/exif/{ushort=37385}    |
-| 2     | /xmp/<xmpstruct>exif:flash |
+| 2     | /xmp/&lt;xmpstruct&gt;exif:flash |
 
 
 
@@ -88,7 +88,7 @@ Values from different schemas are reconciled.
 | Order | Path                                 | Disk Format |
 |-------|--------------------------------------|-------------|
 | 1     | /ifd/exif/{ushort=37385}             | ushort      |
-| 2     | /ifd/xmp/<xmpstruct>exif:Flash |             |
+| 2     | /ifd/xmp/&lt;xmpstruct&gt;exif:Flash |             |
 
 
 
@@ -101,7 +101,7 @@ Values from different schemas are reconciled.
 | Order | Path                                 | Disk Format |
 |-------|--------------------------------------|-------------|
 | 1     | /ifd/exif/{ushort=37385}             | ushort      |
-| 2     | /ifd/xmp/<xmpstruct>exif:Flash |             |
+| 2     | /ifd/xmp/&lt;xmpstruct&gt;exif:Flash |             |
 
 
 
@@ -114,7 +114,7 @@ Values from different schemas are reconciled.
 | Order | Path                                 |
 |-------|--------------------------------------|
 | 1     | /ifd/exif/{ushort=37385}             |
-| 2     | /ifd/xmp/<xmpstruct>exif:flash |
+| 2     | /ifd/xmp/&lt;xmpstruct&gt;exif:flash |
 
 
 

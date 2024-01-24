@@ -1,5 +1,5 @@
 ---
-Description: COM+ Resource Dispenser Interfaces
+description: COM+ Resource Dispenser Interfaces
 ms.assetid: 66ee4dd6-15d2-49e8-89a3-6fbb5770cabf
 title: COM+ Resource Dispenser Interfaces
 ms.topic: article

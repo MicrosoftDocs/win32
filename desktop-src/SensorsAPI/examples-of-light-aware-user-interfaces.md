@@ -1,5 +1,5 @@
 ---
-Description: Examples of Light-Aware User Interfaces
+description: Examples of Light-Aware User Interfaces
 ms.assetid: 13bcc087-bbe7-4352-b242-5a849cfe423d
 title: Examples of Light-Aware User Interfaces
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the name of the device.
+description: Specifies the name of the device.
 ms.assetid: 398737bb-6694-42f8-9e9f-5c7f203e54e0
 title: modelName element
 ms.topic: reference
@@ -38,7 +38,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

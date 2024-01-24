@@ -1,6 +1,6 @@
 ---
 title: Rich Edit Messages
-description: .
+description: Rich Edit Messages
 ms.assetid: 3a20f28f-de78-4a41-8a8d-8fd896c8ae30
 ms.topic: article
 ms.date: 05/31/2018

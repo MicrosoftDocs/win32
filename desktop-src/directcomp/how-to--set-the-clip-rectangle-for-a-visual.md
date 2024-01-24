@@ -86,10 +86,10 @@ The following example defines a clip rectangle that is centered around the curre
 
 Note that the [**IDCompositionRectangleClip**](/windows/win32/api/dcomp/nn-dcomp-idcompositionrectangleclip) interface includes the following methods for defining a clip rectangle that has rounded corners:
 
--   [**SetTopLeftRadiusX**](/windows/desktop/api/Dcomp/nf-dcomp-settopleftradiusx)
--   [**SetTopLeftRadiusY**](/windows/desktop/api/Dcomp/nf-dcomp-settopleftradiusy)
--   [**SetTopRightRadiusX**](/windows/desktop/api/Dcomp/nf-dcomp-settoprightradiusx)
--   [**SetTopRightRadiusY**](/windows/desktop/api/Dcomp/nf-dcomp-settoprightradiusy)
+-   [**SetTopLeftRadiusX**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusx(float))
+-   [**SetTopLeftRadiusY**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusy(float))
+-   [**SetTopRightRadiusX**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settoprightradiusx(float))
+-   [**SetTopRightRadiusY**](/windows/win32/api/dcomp/nf-dcomp-idcompositionrectangleclip-settoprightradiusy(float))
 
 ### Step 4: Set the Clip property of the visual
 

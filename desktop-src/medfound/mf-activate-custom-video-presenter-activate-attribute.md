@@ -1,5 +1,5 @@
 ---
-Description: Specifies an activation object that creates a custom video presenter for the enhanced video renderer (EVR) media sink.
+description: Specifies an activation object that creates a custom video presenter for the enhanced video renderer (EVR) media sink.
 ms.assetid: 65d88832-0969-4d85-bee2-fd0aa68e9f3b
 title: MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_ACTIVATE attribute (Mfidl.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -48,7 +48,7 @@ Here's a list of the UI fonts shipped with Windows 8.1 (affected by locked valu
 |-------------------------------|-----------------------|
 | Arabic                        | Segoe UI              |
 | Armenian                      | Segoe UI              |
-| Bangla (formerly Bengali)     | Nirmala UI            |
+| Bangla                        | Nirmala UI            |
 | Bopomofo                      | Microsoft JhengHei UI |
 | Braille                       | Segoe UI Symbol       |
 | Buginese                      | Leelawadee UI         |
@@ -83,7 +83,7 @@ Here's a list of the UI fonts shipped with Windows 8.1 (affected by locked valu
 | Ogham                         | Segoe UI Symbol       |
 | Ol Chiki                      | Nirmala UI            |
 | Old Turkic                    | Segoe UI Symbol       |
-| Odia (formerly Oriya)         | Nirmala UI            |
+| Odia                          | Nirmala UI            |
 | Osmanya                       | Ebrima                |
 | Phags-pa                      | Microsoft PhagsPa     |
 | Runic                         | Segoe UI Symbol       |
@@ -109,7 +109,7 @@ Here's a list of the legacy UI fonts which are also affected by locked values:
 
 | Script name (legacy)          | UI font (legacy)               |
 |-------------------------------|--------------------------------|
-| Bangla (formerly Bengali)     | Vrinda                         |
+| Bangla                        | Vrinda                         |
 | Canadian Aboriginal Syllabics | Euphemia                       |
 | Cherokee                      | Plantagenet                    |
 | Chinese (Simplified)          | Microsoft YaHei and SimSun     |
@@ -125,7 +125,7 @@ Here's a list of the legacy UI fonts which are also affected by locked values:
 | Lao                           | Lao UI                         |
 | Malayalam                     | Kartika                        |
 | Middle Eastern languages      | Tahoma                         |
-| Odia (formerly Oriya)         | Kalinga                        |
+| Odia                          | Kalinga                        |
 | Sinhalese                     | Iskoola Pota                   |
 | Tamil                         | Latha and Vijaya               |
 | Telugu                        | Gautami                        |

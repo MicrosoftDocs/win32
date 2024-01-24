@@ -1,5 +1,5 @@
 ---
-Description: A termination handler ensures that a specific block of code is executed whenever flow of control leaves a particular guarded body of code. A termination handler consists of the following elements.
+description: A termination handler ensures that a specific block of code is executed whenever flow of control leaves a particular guarded body of code. A termination handler consists of the following elements.
 ms.assetid: 899e2939-e028-4be1-9f08-9a79bf97eb37
 title: Termination Handling
 ms.topic: article

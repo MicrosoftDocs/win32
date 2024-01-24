@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_WIRELESS\_PROFILE
+description: WPD\_CONTENT\_TYPE\_WIRELESS\_PROFILE
 ms.assetid: 229f6b65-4904-41b1-bb35-8873477a272b
 title: WPD_CONTENT_TYPE_WIRELESS_PROFILE
 ms.topic: article
@@ -14,9 +14,8 @@ This type of object supports the following properties.
 
 
 
-|                                                                                                                       |                                                                       |
+| Property Name             | Required or Optional                      |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| **Property Name**                                                                                                     | **Required or Optional**                                              |
 | [WPD\_OBJECT\_ID](object-properties.md)                                                                | Required.                                                             |
 | [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                                                 | Required.                                                             |
 | [WPD\_OBJECT\_NAME](object-properties.md)                                                            | Required if the object represents a file.                             |

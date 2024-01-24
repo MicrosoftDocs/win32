@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Media.CollectionID
 ms.assetid: 8e404517-6406-4c53-81d5-b20cafbc393f
 title: System.Media.CollectionID
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents the logical connection point for a network adapter. When the Wi-Fi endpoint is connected to a switch port, the network adapter connected to the Wi-Fi endpoint has network connectivity.
+description: Represents the logical connection point for a network adapter. When the Wi-Fi endpoint is connected to a switch port, the network adapter connected to the Wi-Fi endpoint has network connectivity.
 ms.assetid: 66ed1503-9c11-4a51-a3a5-21e5d7021197
 title: Msvm_WiFiEndpoint class
 ms.topic: reference
@@ -954,7 +954,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

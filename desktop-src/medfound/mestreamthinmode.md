@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media stream when it starts or stops thinning the stream. For information about thinning, see About Rate Control.
+description: Raised by a media stream when it starts or stops thinning the stream. For information about thinning, see About Rate Control.
 ms.assetid: 7de8cb64-122a-475f-990c-c19590a9d9d8
 title: MEStreamThinMode event (Mfobjects.h)
 ms.topic: reference
@@ -18,29 +18,11 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VARTYPE</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>VT_BOOL<br/></td>
-<td>Indicates whether thinning has started or stopped.<br/>
-<ul>
-<li>VARIANT_TRUE: Samples delivered after this event are thinned.</li>
-<li>VARIANT_FALSE: Samples delivered after this event are not thinned.</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| VARTYPE | Description | 
+|---------|-------------|
+| VT_BOOL<br /> | Indicates whether thinning has started or stopped.<br /><ul><li>VARIANT_TRUE: Samples delivered after this event are thinned.</li><li>VARIANT_FALSE: Samples delivered after this event are not thinned.</li></ul><br /> | 
+
 
 
 
@@ -48,7 +30,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

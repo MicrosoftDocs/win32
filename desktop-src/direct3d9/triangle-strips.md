@@ -1,5 +1,5 @@
 ---
-Description: A triangle strip is a series of connected triangles.
+description: A triangle strip is a series of connected triangles.
 ms.assetid: 3923c570-47a4-4b53-a097-731981380ae0
 title: Triangle Strips
 ms.topic: article

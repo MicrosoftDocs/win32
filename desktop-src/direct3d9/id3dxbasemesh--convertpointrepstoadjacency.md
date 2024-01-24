@@ -1,5 +1,5 @@
 ---
-Description: Converts point representative data to mesh adjacency information.
+description: Converts point representative data to mesh adjacency information.
 ms.assetid: 6ae40486-74be-45a8-9971-f20517c8dcf0
 title: ID3DXBaseMesh::ConvertPointRepsToAdjacency method (D3DX9Mesh.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: WinHttp properties
+description: WinHttp properties
 ms.assetid: 6026588F-B8F8-4C2B-AB97-F259B94B72FD
 title: Properties
 ms.topic: article

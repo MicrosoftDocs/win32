@@ -1,5 +1,5 @@
 ---
-Description: Represents the index of the item in its parent SWbemRefresher object.
+description: Represents the index of the item in its parent SWbemRefresher object.
 ms.assetid: f076eb01-1e71-487d-a1af-687a052b4d67
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem.Index property (Wbemdisp.h)
@@ -42,7 +42,7 @@ SWbemRefreshableItem.Index As Long
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

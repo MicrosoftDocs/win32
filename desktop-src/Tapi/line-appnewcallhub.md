@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_APPNEWCALLHUB message is sent to inform an application when a new call hub has been created.
+description: The TAPI LINE\_APPNEWCALLHUB message is sent to inform an application when a new call hub has been created.
 ms.assetid: cf693d95-9abb-4999-81b6-7d2aa06d0f58
 title: LINE_APPNEWCALLHUB message (Tapi.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ This message originates with TAPI rather than with a service provider, so there 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.2<br/>                                                      |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

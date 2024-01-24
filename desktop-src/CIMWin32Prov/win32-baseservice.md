@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_BaseService abstract WMI class represents executable objects that are installed in a registry database maintained by the Service Control Manager.
+description: The Win32\_BaseService abstract WMI class represents executable objects that are installed in a registry database maintained by the Service Control Manager.
 ms.assetid: 63673df9-3e41-4668-98fe-dc0e048328c1
 ms.tgt_platform: multiple
 title: Win32_BaseService class
@@ -812,7 +812,7 @@ The **Win32\_BaseService** class is derived from [**CIM\_Service**](cim-service.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

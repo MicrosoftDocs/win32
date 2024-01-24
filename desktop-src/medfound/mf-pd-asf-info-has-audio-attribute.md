@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether an Advanced Systems Format (ASF) file contains any audio streams.
+description: Specifies whether an Advanced Systems Format (ASF) file contains any audio streams.
 ms.assetid: b7c5cd67-fd2a-49d8-8de5-61783a3b4577
 title: MF_PD_ASF_INFO_HAS_AUDIO attribute (Wmcontainer.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

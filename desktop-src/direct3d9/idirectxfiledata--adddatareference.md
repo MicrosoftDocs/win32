@@ -1,5 +1,5 @@
 ---
-Description: Creates and adds a data reference object as a child object. Deprecated.
+description: Creates and adds a data reference object as a child object. Deprecated.
 ms.assetid: 71a770a2-1502-4b93-b368-990c3318bd33
 title: IDirectXFileData::AddDataReference method (DXFile.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ For this method to succeed, either the szRef or pguidRef parameter must be non-*
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

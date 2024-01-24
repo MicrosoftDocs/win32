@@ -1,5 +1,5 @@
 ---
-Description: Gets a Boolean value that indicates whether the quota file for the volume is currently being rebuilt.
+description: Gets a Boolean value that indicates whether the quota file for the volume is currently being rebuilt.
 ms.assetid: 66a6bafe-bda4-41b3-9207-2ea6b8e63835
 title: DiskQuotaControl.QuotaFileRebuilding property
 ms.topic: reference
@@ -42,7 +42,7 @@ The quota file is automatically rebuilt when quotas are enabled on the system or
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

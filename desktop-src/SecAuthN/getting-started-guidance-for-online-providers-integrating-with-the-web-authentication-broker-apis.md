@@ -1,5 +1,5 @@
 ---
-Description: Guidelines for web developers and online providers to create web pages tailored for the Windows 8 Web Authentication Broker APIs for single sign-on (SSO) capabilities.
+description: Guidelines for web developers and online providers to create web pages tailored for the Windows 8 Web Authentication Broker APIs for single sign-on (SSO) capabilities.
 ms.assetid: E2AECE26-9649-41CB-9808-4F8171C707C3
 title: Getting started guidance for online providers integrating with the Web Authentication Broker APIs
 ms.topic: article
@@ -20,7 +20,7 @@ This section guides web developers and online providers for creating web pages t
 | [How to customize the UI elements](how-to-customize-the-ui-elements.md)<br/>                       | A web page customizes the user interface (UI) with the title, icon, and header color by using metadata tags defined on the web page.<br/>                                                                                                                                |
 | [Tutorial for authenticating web pages](tutorial-for-authenticating-web-pages.md)<br/>             |                                                                                                                                                                                                                                                                                |
 | [Web authentication problems](web-authentication-problems.md)<br/>                                 | This topic describes troubleshooting tips for using the Web Authentication Broker APIs for your web pages.<br/>                                                                                                                                                          |
-| [FAQ for Web Authentication Broker](faq-for-web-authentication-broker.md)<br/>                     | Frequently asked questions for Web Authentication Broker.<br/>                                                                                                                                                                                                           |
+| [FAQ for Web Authentication Broker](faq-for-web-authentication-broker.yml)<br/>                     | Frequently asked questions for Web Authentication Broker.<br/>                                                                                                                                                                                                           |
 
 
 

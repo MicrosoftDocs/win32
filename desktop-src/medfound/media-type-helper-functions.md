@@ -1,5 +1,5 @@
 ---
-Description: The following functions pertain to media type objects.
+description: The following functions pertain to media type objects.
 ms.assetid: 7d4f3581-8cb9-4d31-b2f7-c8fbde24cf2a
 title: Media Type Helper Functions
 ms.topic: article

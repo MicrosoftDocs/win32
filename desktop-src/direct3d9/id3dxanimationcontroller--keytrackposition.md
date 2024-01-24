@@ -1,5 +1,5 @@
 ---
-Description: Sets an event key that changes the local time of an animation track.
+description: Sets an event key that changes the local time of an animation track.
 ms.assetid: b527e960-8ab9-42a0-bb4d-bea5aaf83424
 title: ID3DXAnimationController::KeyTrackPosition method (D3dx9anim.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ Event handle to the priority blend event. **NULL** is returned if Track is inval
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

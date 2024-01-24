@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_UserAccount&\#32;WMI class contains information about a user account on a computer system running Windows.
+description: The Win32\_UserAccount&\#32;WMI class contains information about a user account on a computer system running Windows.
 ms.assetid: 747b2ce2-ae38-47de-bf3a-97058df56a7a
 ms.tgt_platform: multiple
 title: Win32_UserAccount class
@@ -600,10 +600,6 @@ The **Win32\_UserAccount** class is derived from [**Win32\_Account**](win32-acco
 
 ## Examples
 
-The [List Local User Accounts Using WMI](https://Gallery.TechNet.Microsoft.Com/827623f5-eb55-4035-8f57-25c4afb444cd) VBScript code sample on TechNet Gallery uses **Win32\_UserAccount** to Returns information about the local user accounts found on a computer.
-
-[The Translate SID to User Account and User Account to SID](https://Gallery.TechNet.Microsoft.Com/f1c83aed-fe60-48d5-90ab-22388fcbd54f) PowerShell code sample on TechNet Gallery uses **Win32\_UserAccount** to translate a SID to User Account and/or a User Account to SID.
-
 The following VBScript code example shows you how to get the full name of a user on a local computer. The full name is the human language name, for example, a person may have the user name of "kensanchez" and the full name may be "Ken Sanchez", so you substitute the real domain name and user name for "MyDomainName" and "MyUserName". For an efficient query, you must specify both the domain and user name properties.
 
 If you are an administrator on a remote computer, you can assign the name of the remote computer for strComputer (instead of "."), and then use the following type of script to get the full name of a user account on a local computer—from a remote computer.
@@ -647,7 +643,7 @@ using System.Management;
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

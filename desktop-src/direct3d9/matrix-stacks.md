@@ -1,5 +1,5 @@
 ---
-Description: The D3DX utility library provides the ID3DXMATRIXStack interface.
+description: The D3DX utility library provides the ID3DXMATRIXStack interface.
 ms.assetid: e3cfb29e-4ef6-4b48-ad6b-f0371f526507
 title: Matrix Stacks (Direct3D 9)
 ms.topic: article
@@ -7,6 +7,9 @@ ms.date: 05/31/2018
 ---
 
 # Matrix Stacks (Direct3D 9)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 The D3DX utility library provides the [**ID3DXMATRIXStack**](id3dxmatrixstack.md) interface. It supplies a mechanism to enable matrices to be pushed onto and popped off of a matrix stack. Implementing a matrix stack is an efficient way to track matrices while traversing a transform hierarchy.
 
@@ -87,6 +90,3 @@ For more information about the specific methods that you can perform on a D3DX m
  
 
  
-
-
-

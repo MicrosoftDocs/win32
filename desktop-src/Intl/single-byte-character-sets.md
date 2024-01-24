@@ -1,5 +1,5 @@
 ---
-Description: A single-byte character set (SBCS) is a mapping of 256 individual characters to their identifying code values, implemented as a code page.
+description: A single-byte character set (SBCS) is a mapping of 256 individual characters to their identifying code values, implemented as a code page.
 ms.assetid: 53f74132-91aa-4257-846a-f6e1f2f9ae0b
 title: Single-byte Character Sets
 ms.topic: article

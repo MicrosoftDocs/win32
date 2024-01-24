@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FlatPanel class exposes the following methods.
+description: The CIM\_FlatPanel class exposes the following methods.
 ms.assetid: 0D946E04-3C08-4C59-9445-F6F4DE549D25
 ms.tgt_platform: multiple
 title: CIM_FlatPanel Methods

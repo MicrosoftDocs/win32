@@ -1,5 +1,5 @@
 ---
-Description: The COOKER\_VARIANCE counter type formula provides variability that use to characterize dispersion for a set of raw observations of one property in a Win32\_PerfRawData instance.
+description: The COOKER\_VARIANCE counter type formula provides variability that use to characterize dispersion for a set of raw observations of one property in a Win32\_PerfRawData instance.
 ms.assetid: 6b184a36-7d22-41ab-98e7-b185d1063bcb
 ms.tgt_platform: multiple
 title: COOKER_VARIANCE

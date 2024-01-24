@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SettingCheck class specifies information needed to check a particular setting file for a specific entry that contains a value equal to the value specified. All comparisons are assumed to be case insensitive.
+description: The CIM\_SettingCheck class specifies information needed to check a particular setting file for a specific entry that contains a value equal to the value specified. All comparisons are assumed to be case insensitive.
 ms.assetid: 0e40276c-e794-4ea1-8937-c6d7f110f97d
 ms.tgt_platform: multiple
 title: CIM_SettingCheck class
@@ -885,8 +885,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from the [**CIM\_Check**](cim-check.md) class.
 
@@ -902,7 +902,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

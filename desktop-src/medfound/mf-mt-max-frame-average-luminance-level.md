@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum average per-frame luminance level of the content in Nits. This attribute has the same semantics as MaxFALL as defined in the CEA-861.3 standard.
+description: Specifies the maximum average per-frame luminance level of the content in Nits. This attribute has the same semantics as MaxFALL as defined in the CEA-861.3 standard.
 ms.assetid: 52C35F40-96C8-4DB6-964A-129447DE515E
 title: MF_MT_MAX_FRAME_AVERAGE_LUMINANCE_LEVEL attribute (Mfapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies the maximum average per-frame luminance level of the content in Nits. 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfapi.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Multihead cards are those that have a common frame buffer and accelerator, independent digital-to-analog converters (DACs), and monitor outputs.
+description: Multihead cards are those that have a common frame buffer and accelerator, independent digital-to-analog converters (DACs), and monitor outputs.
 ms.assetid: f741cdb4-2eb6-42e9-81ea-a8c677e07582
 title: Multihead (Direct3D 9)
 ms.topic: article

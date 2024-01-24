@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property consisting of an array of datetime elements.
+description: Represents a PnP device property consisting of an array of datetime elements.
 ms.assetid: 1036D49E-7F73-43C6-8F6E-BB909E74519E
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyDateTimeArray class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

@@ -116,7 +116,7 @@ The [**AddAtom**](/windows/desktop/api/Winbase/nf-winbase-addatomw), [**GlobalAd
 
 
 
-|                    |                                                                                                    |
+|     String format               |    Description                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | \#*dddd*           | An integer specified as a decimal string. Used to create or find an integer atom.                  |
 | *string atom name* | A string atom name. Used to add a string atom name to an atom table and receive an atom in return. |

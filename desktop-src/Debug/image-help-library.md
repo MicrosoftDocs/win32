@@ -1,5 +1,5 @@
 ---
-Description: This overview describes the function set provided by the ImageHlp DLL. These functions allow you to work with a portable executable (PE) image.
+description: This overview describes the function set provided by the ImageHlp DLL. These functions allow you to work with a portable executable (PE) image.
 ms.assetid: 45579485-a129-4c42-ab76-a7f57d79b46a
 title: Image Help Library
 ms.topic: article

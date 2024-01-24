@@ -1,5 +1,5 @@
 ---
-Description: Encrypts a message to provide privacy.
+description: Encrypts a message to provide privacy.
 ms.assetid: 2e09f262-9c3e-4db2-9285-017f5e1810c7
 title: EncryptMessage (General) function (Sspi.h)
 ms.topic: reference
@@ -51,8 +51,12 @@ When using the Digest SSP, this parameter must be set to zero.
 
 This parameter can be one of the following flags.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Value</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Produce a header or trailer but do not encrypt the message.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/></td></tr><tr class="even"><td><span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl> <dt><strong>SECQOP_WRAP_OOB_DATA</strong></dt> </dl></td><td>Send an Schannel alert message. In this case, the <em>pMessage</em> parameter must contain a standard two-byte SSL/TLS event code. This value is supported only by the Schannel SSP.<br/></td></tr></tbody></table>
+
+| Value | Meaning | 
+|-------|---------|
+| **SECQOP_WRAP_NO_ENCRYPT**<br> | Produce a header or trailer but do not encrypt the message.<br> **Note:** KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.<br> | 
+| <span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl><dt><strong>SECQOP_WRAP_OOB_DATA</strong></dt></dl> | Send an Schannel alert message. In this case, the <em>pMessage</em> parameter must contain a standard two-byte SSL/TLS event code. This value is supported only by the Schannel SSP.<br /> | 
+
 
 *pMessage* \[in, out\]
 
@@ -120,7 +124,7 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 
 ## Requirements
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]                                                            |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\]                                                   |

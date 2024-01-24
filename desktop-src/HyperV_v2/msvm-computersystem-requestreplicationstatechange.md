@@ -1,5 +1,5 @@
 ---
-Description: Requests that the replication state of the virtual machine be changed to the specified value and acts on the primary replication relationship of the virtual machine.
+description: Requests that the replication state of the virtual machine be changed to the specified value and acts on the primary replication relationship of the virtual machine.
 ms.assetid: 65FCDADD-1C50-4816-B10B-A951D1FC9C3B
 title: RequestReplicationStateChange method of the Msvm_ComputerSystem class
 ms.topic: reference
@@ -159,7 +159,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

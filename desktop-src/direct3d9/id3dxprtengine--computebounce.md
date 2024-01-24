@@ -1,5 +1,5 @@
 ---
-Description: Computes the source radiance resulting from a single bounce of interreflected light. This method can be used for any lit scene, including a spherical harmonic (SH)-based precomputed radiance transfer (PRT) model.
+description: Computes the source radiance resulting from a single bounce of interreflected light. This method can be used for any lit scene, including a spherical harmonic (SH)-based precomputed radiance transfer (PRT) model.
 ms.assetid: 91a6b503-acd2-459b-9d60-de68c879c61b
 title: ID3DXPRTEngine::ComputeBounce method (D3DX9Mesh.h)
 ms.topic: reference
@@ -122,7 +122,7 @@ Call [**ID3DXPRTEngine::MultiplyAlbedo**](id3dxprtengine--multiplyalbedo.md) to 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

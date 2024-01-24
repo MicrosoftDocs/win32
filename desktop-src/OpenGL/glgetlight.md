@@ -1,6 +1,6 @@
 ---
 title: glGetLight Functions
-description: These functions return light source parameter values.
+description: Understand the glGetLight functions in the Open Graphics Library (OpenGL). These functions return light source parameter values.
 ms.assetid: a2d41afd-78d9-4c59-92d5-3334d14a42f3
 ms.topic: article
 ms.date: 05/31/2018

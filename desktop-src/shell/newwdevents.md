@@ -1,5 +1,5 @@
 ---
-Description: Extends the WebWizardHost object by enabling server-side pages hosted in a wizard to verify that the user has been authenticated through a Microsoft account.
+description: Extends the WebWizardHost object by enabling server-side pages hosted in a wizard to verify that the user has been authenticated through a Microsoft account.
 ms.assetid: 44f2431c-82a2-4142-bf20-55fdd0c88008
 title: NewWDEvents object (Shldisp.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The **NewWDEvents** object has these methods.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

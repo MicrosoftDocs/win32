@@ -1,5 +1,5 @@
 ---
-Description: Adds another buffer to the ID3DXPRTBuffer and stores the results in ID3DXPRTBuffer.
+description: Adds another buffer to the ID3DXPRTBuffer and stores the results in ID3DXPRTBuffer.
 ms.assetid: 345412f4-30c5-4c1d-b0ef-6e3e18c4e5ab
 title: ID3DXPRTBuffer::AddBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ pBuffer and [**ID3DXPRTBuffer**](id3dxprtbuffer.md) must have the same number of
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

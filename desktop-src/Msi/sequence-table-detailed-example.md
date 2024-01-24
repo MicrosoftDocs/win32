@@ -1,5 +1,5 @@
 ---
-Description: Here is an example of a sequence table.
+description: Here is an example of a sequence table.
 ms.assetid: 25b3667a-1478-48c4-9c41-4defd25a0103
 title: Sequence Table Detailed Example
 ms.topic: article

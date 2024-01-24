@@ -1,5 +1,5 @@
 ---
-Description: Indicates the number of pixels in the image width (X direction) per FocalPlaneResolutionUnit on the camera focal plane. Calculated from PKEY\_Photo\_FocalPlaneXResolutionNumerator and PKEY\_Photo\_FocalPlaneXResolutionDenominator.
+description: Indicates the number of pixels in the image width (X direction) per FocalPlaneResolutionUnit on the camera focal plane. Calculated from PKEY\_Photo\_FocalPlaneXResolutionNumerator and PKEY\_Photo\_FocalPlaneXResolutionDenominator.
 ms.assetid: d1e94923-fdea-4894-813e-4617f3267bb7
 title: System.Photo.FocalPlaneXResolution
 ms.topic: article
@@ -34,7 +34,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

@@ -1,5 +1,5 @@
 ---
-Description: In WMI, a class is an object that describes some aspect of an enterprise, such as a special type of disk drive.
+description: In WMI, a class is an object that describes some aspect of an enterprise, such as a special type of disk drive.
 ms.assetid: 06b75910-f126-48b6-8e43-4a9ed4661732
 ms.tgt_platform: multiple
 title: Creating a WMI Class

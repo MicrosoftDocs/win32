@@ -1,5 +1,5 @@
 ---
-Description: On 64-bit Windows, portions of the registry entries are stored separately for 32-bit application and 64-bit applications and mapped into separate logical registry views using the registry redirector and registry reflection, because the 64-bit version of an application may use different registry keys and values than the 32-bit version. There are also shared registry keys that are not redirected or reflected.
+description: On 64-bit Windows, portions of the registry entries are stored separately for 32-bit application and 64-bit applications and mapped into separate logical registry views using the registry redirector and registry reflection, because the 64-bit version of an application may use different registry keys and values than the 32-bit version. There are also shared registry keys that are not redirected or reflected.
 ms.assetid: 08dc034c-15ce-41d9-8e74-a49b61ad40a6
 title: 32-bit and 64-bit Application Data in the Registry
 ms.topic: article

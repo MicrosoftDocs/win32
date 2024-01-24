@@ -30,7 +30,6 @@ Which function you use to cancel an operation depends on the object affected.
 
 For information on cancellations that affect [server side service operations](server-side-service-operations.md) and service-model callbacks, see [Call Cancellation](call-cancellation.md).
 
-## 
 
  
 

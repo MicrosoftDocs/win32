@@ -21,7 +21,7 @@ This topic describes the elements that make up the AccChecker GUI.
 
 AccChecker starts with the default view of the **Verifications** tab:
 
-![](images/accchecker-verifications-tab.png)
+![Screenshot that shows the 'Verifications' tab in the U I Accessibility Checker.](images/accchecker-verifications-tab.png)
 
 The **Verifications** tab contains the following components.
 
@@ -96,84 +96,21 @@ Running any verification routine causes AccChecker to compile all visible elemen
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Menu</th>
-<th>Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td rowspan="5"><strong>File</strong>${REMOVE}$<br />
-</td>
-<td><strong>Open</strong></td>
-<td>Provides the following options.<br/>
-<ul>
-<li><strong>Verifications DLL</strong> Opens a verification DLL. Native AccChecker verifications are encapsulated in a standalone DLL (VerificationRoutines.dll). This design allows test teams to create their own set of verifications based on the UI platform being tested.</li>
-<li><strong>Log file</strong> Lets you choose a verification log file to open.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Automatically load available verifications</strong></td>
-<td>Automatically loads all available AccChecker verifications.</td>
 
-</tr>
-<tr class="odd">
-<td><strong>Save Log</strong></td>
-<td>Save the verification log as XML or as plain text. Plain text is more readable.</td>
+| Menu | Command | Description | 
+|------|---------|-------------|
+| <strong>File</strong>${REMOVE}$<br /> | <strong>Open</strong> | Provides the following options.<br /><ul><li><strong>Verifications DLL</strong> Opens a verification DLL. Native AccChecker verifications are encapsulated in a standalone DLL (VerificationRoutines.dll). This design allows test teams to create their own set of verifications based on the UI platform being tested.</li><li><strong>Log file</strong> Lets you choose a verification log file to open.</li></ul> | 
+| <strong>Automatically load available verifications</strong> | Automatically loads all available AccChecker verifications. | 
+| <strong>Save Log</strong> | Save the verification log as XML or as plain text. Plain text is more readable. | 
+| <strong>Save Suppression</strong> | Save the suppression log as XML. This file specifies the verification messages to ignore in regression testing. | 
+| <strong>Exit</strong> | Closes the AccChecker tool. | 
+| <strong>Verifications</strong>${REMOVE}$<br /> | <strong>Run Now</strong> | Run the verification routines as specified for the chosen verification target. | 
+| <strong>Enable All</strong> | Check all verification routine check boxes. | 
+| <strong>Disable All</strong> | Uncheck all verification routine check boxes. | 
+| <strong>Options</strong> | <strong>Always On Top</strong> | Make AccChecker the topmost window in the z-order. | 
+| <strong>Help</strong>${REMOVE}$<br /> | <strong>Help</strong> | Display help information. | 
+| <strong>About</strong> | Display the AccChecker version and an email address for contacting Microsoft about AccChecker. | 
 
-</tr>
-<tr class="even">
-<td><strong>Save Suppression</strong></td>
-<td>Save the suppression log as XML. This file specifies the verification messages to ignore in regression testing.</td>
-
-</tr>
-<tr class="odd">
-<td><strong>Exit</strong></td>
-<td>Closes the AccChecker tool.</td>
-
-</tr>
-<tr class="even">
-<td rowspan="3"><strong>Verifications</strong>${REMOVE}$<br />
-</td>
-<td><strong>Run Now</strong></td>
-<td>Run the verification routines as specified for the chosen verification target.</td>
-</tr>
-<tr class="odd">
-<td><strong>Enable All</strong></td>
-<td>Check all verification routine check boxes.</td>
-
-</tr>
-<tr class="even">
-<td><strong>Disable All</strong></td>
-<td>Uncheck all verification routine check boxes.</td>
-
-</tr>
-<tr class="odd">
-<td><strong>Options</strong></td>
-<td><strong>Always On Top</strong></td>
-<td>Make AccChecker the topmost window in the z-order.</td>
-</tr>
-<tr class="even">
-<td rowspan="2"><strong>Help</strong>${REMOVE}$<br />
-</td>
-<td><strong>Help</strong></td>
-<td>Display help information.</td>
-</tr>
-<tr class="odd">
-<td><strong>About</strong></td>
-<td>Display the AccChecker version and an email address for contacting Microsoft about AccChecker.</td>
-
-</tr>
-</tbody>
-</table>
 
 
 

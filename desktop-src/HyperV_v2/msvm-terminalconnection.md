@@ -1,5 +1,5 @@
 ---
-Description: Indicates the state of an active remote session interacting with a virtual machine.
+description: Indicates the state of an active remote session interacting with a virtual machine.
 ms.assetid: EAE6082F-A0CB-4E75-8029-51E20649C0A8
 title: Msvm_TerminalConnection class
 ms.topic: reference
@@ -572,7 +572,7 @@ Access to the **Msvm\_TerminalConnection** class might be restricted by UAC Filt
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

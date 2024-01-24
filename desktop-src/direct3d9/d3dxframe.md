@@ -1,5 +1,5 @@
 ---
-Description: Encapsulates a transform frame in a transformation frame hierarchy.
+description: Encapsulates a transform frame in a transformation frame hierarchy.
 ms.assetid: 838d75c2-41b2-4703-961b-893c34104c55
 title: D3DXFRAME structure (D3dx9anim.h)
 ms.topic: reference
@@ -101,7 +101,7 @@ An application can derive from this structure to add other data.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 

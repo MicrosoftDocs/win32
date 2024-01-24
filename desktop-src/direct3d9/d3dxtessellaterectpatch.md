@@ -1,5 +1,5 @@
 ---
-Description: Tessellates a rectangular higher-order surface patch into a triangle mesh.
+description: Tessellates a rectangular higher-order surface patch into a triangle mesh.
 ms.assetid: d941d994-8a13-49ff-a0b1-b21a3f84ed78
 title: D3DXTessellateRectPatch function (D3DX9Mesh.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ Use [**D3DXRectPatchSize**](d3dxrectpatchsize.md) to get the number of output ve
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

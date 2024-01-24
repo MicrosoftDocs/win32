@@ -1,5 +1,5 @@
 ---
-Description: The IPX\_ADDRESS structure provides an address at the IPX protocol level.
+description: The IPX\_ADDRESS structure provides an address at the IPX protocol level.
 ms.assetid: 06939ac3-3718-4441-b2c8-c73adfe3babe
 title: IPX_ADDRESS structure (Netmon.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Subnet NIC identifier.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: Support in Windows XP
+description: Support in Windows XP
 ms.assetid: c1338d92-fc6b-4b9d-abe8-a71cce55fc29
 title: Support in Windows XP
 ms.topic: article

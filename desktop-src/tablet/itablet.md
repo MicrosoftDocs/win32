@@ -1,5 +1,5 @@
 ---
-Description: Represents a tablet attached to the computer.
+description: Represents a tablet attached to the computer.
 ms.assetid: 31e11f7d-5610-4c49-9203-2dc322fbef95
 title: ITablet interface
 ms.topic: reference
@@ -105,7 +105,7 @@ interface ITablet : IUnknown
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

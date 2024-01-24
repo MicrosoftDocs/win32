@@ -24,7 +24,7 @@ For more information about name formats, see [**DsCrackNames**](/windows/desktop
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Canonical-Name                              |
 | Ldap-Display-Name | canonicalName                               |
@@ -51,7 +51,7 @@ For more information about name formats, see [**DsCrackNames**](/windows/desktop
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -72,7 +72,7 @@ For more information about name formats, see [**DsCrackNames**](/windows/desktop
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -93,7 +93,7 @@ For more information about name formats, see [**DsCrackNames**](/windows/desktop
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -114,7 +114,7 @@ For more information about name formats, see [**DsCrackNames**](/windows/desktop
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -135,7 +135,7 @@ For more information about name formats, see [**DsCrackNames**](/windows/desktop
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -156,7 +156,7 @@ For more information about name formats, see [**DsCrackNames**](/windows/desktop
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -177,7 +177,7 @@ For more information about name formats, see [**DsCrackNames**](/windows/desktop
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the target of a symbolic link.
+description: Retrieves the target of a symbolic link.
 ms.assetid: 10a6676c-96f7-4758-8868-bbccd37b5019
 title: NtQuerySymbolicLinkObject function
 ms.topic: reference
@@ -71,7 +71,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

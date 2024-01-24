@@ -1,5 +1,5 @@
 ---
-Description: The TimeStamper property retrieves the time stamper of the signed executable file.
+description: The TimeStamper property retrieves the time stamper of the signed executable file.
 ms.assetid: f630b94f-015a-4387-938f-1b8c6b7895e9
 title: SignedCode.TimeStamper property
 ms.topic: reference
@@ -38,7 +38,7 @@ A [**Signer**](signer.md) object that provides access to the time stamper of the
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the IsVisible methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the IsVisible methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: d686ed98-9633-46f5-90f2-cb128b2b7e1c
 title: GraphicsPath.IsVisible methods
 ms.date: 07/02/2019

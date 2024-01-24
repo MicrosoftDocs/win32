@@ -1,5 +1,5 @@
 ---
-Description: Indicates the direction of saturation processing applied by the camera when the photo was taken.
+description: Indicates the direction of saturation processing applied by the camera when the photo was taken.
 ms.assetid: 209edf55-fd6c-416b-b175-346f5158fc2a
 title: System.Photo.Saturation
 ms.topic: article

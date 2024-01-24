@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateBitmapClipper method.
+description: Proxy function for the CreateBitmapClipper method.
 ms.assetid: 163a8d7b-f22b-4ab5-9dba-00b0cdaab440
 title: IWICImagingFactory_CreateBitmapClipper_Proxy function
 ms.topic: reference
@@ -64,7 +64,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

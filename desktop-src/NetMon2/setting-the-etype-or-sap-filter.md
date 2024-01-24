@@ -1,5 +1,5 @@
 ---
-Description: Setting the Etype or SAP portion of the capture filter is the first step in the capture filter creation process.
+description: Setting the Etype or SAP portion of the capture filter is the first step in the capture filter creation process.
 ms.assetid: 0a22f74b-5bb1-43df-a70a-9f30195177ea
 title: Setting the Etype or SAP Filter
 ms.topic: article

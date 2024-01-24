@@ -1,5 +1,5 @@
 ---
-Description: The CreateNPPInterface function uses the BLOB returned from the finder to create an NPP that the application can use.
+description: The CreateNPPInterface function uses the BLOB returned from the finder to create an NPP that the application can use.
 ms.assetid: 41f48c72-3284-4ebc-baff-63553c8971e6
 title: CreateNPPInterface function (Netmon.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

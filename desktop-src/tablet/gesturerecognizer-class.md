@@ -1,5 +1,5 @@
 ---
-Description: Implements the IGestureRecognizer Interface.
+description: Implements the IGestureRecognizer Interface.
 ms.assetid: 7cdaf3bf-7aae-4d36-af1c-0eb5a726f388
 title: GestureRecognizer class (RTSCom.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ Implements the [**IGestureRecognizer Interface**](/windows/desktop/api/RTSCom/nn
 
 
 
-|                                     |                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                       |

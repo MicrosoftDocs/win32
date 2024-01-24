@@ -1,5 +1,5 @@
 ---
-Description: Represents information about a frame on the callstack.
+description: Represents information about a frame on the callstack.
 MS-HAID: vspixengine.CallStackFrame
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -47,7 +47,7 @@ The associated line number.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

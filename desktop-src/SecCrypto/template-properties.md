@@ -1,5 +1,5 @@
 ---
-Description: The Template object exposes the following properties.
+description: The Template object exposes the following properties.
 ms.assetid: 96E9BBF9-2447-45CE-89A8-1A2B3FBD3FAE
 title: Template Properties
 ms.topic: reference

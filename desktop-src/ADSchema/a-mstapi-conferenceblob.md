@@ -22,7 +22,7 @@ A binary BLOB of data that describes various properties of a TAPI multicast conf
 
 
 
-|                   |                                                                                                              |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------------|
 | CN                | ms-TAPI-Conference-Blob                                                                                      |
 | Ldap-Display-Name | msTAPI-ConferenceBlob                                                                                        |
@@ -47,7 +47,7 @@ A binary BLOB of data that describes various properties of a TAPI multicast conf
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -68,7 +68,7 @@ A binary BLOB of data that describes various properties of a TAPI multicast conf
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -89,7 +89,7 @@ A binary BLOB of data that describes various properties of a TAPI multicast conf
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -110,7 +110,7 @@ A binary BLOB of data that describes various properties of a TAPI multicast conf
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -131,7 +131,7 @@ A binary BLOB of data that describes various properties of a TAPI multicast conf
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

@@ -1,5 +1,5 @@
 ---
-Description: Certificate Services issues certificates that can be used in public key infrastructure (PKI) applications.
+description: Certificate Services issues certificates that can be used in public key infrastructure (PKI) applications.
 ms.assetid: 2e6482b5-382d-4b17-b71e-6d2e4483a45e
 title: Application Uses
 ms.topic: article

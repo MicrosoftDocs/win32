@@ -11,10 +11,13 @@ keywords:
 - skins,mapping images
 - mapping images in skins
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Mapping Images
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Mapping images are used for specific controls to specify which regions will respond to mouse clicks and to determine which controls receive which events. The mapping image must be the same height and width as the primary image and should be created so that the images in both files line up exactly. For this reason, a graphics editing program that supports layers is recommended because you can be certain your images are perfectly aligned.
 

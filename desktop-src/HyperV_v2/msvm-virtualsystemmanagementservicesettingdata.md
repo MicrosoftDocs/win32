@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings for the virtualization service present on a single host system.
+description: Represents the settings for the virtualization service present on a single host system.
 ms.assetid: E3265AFE-0117-4F59-9A6B-34CEA7A61EDD
 title: Msvm_VirtualSystemManagementServiceSettingData class
 ms.topic: reference
@@ -420,7 +420,7 @@ Access to the **Msvm\_VirtualSystemManagementServiceSettingData** class might be
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

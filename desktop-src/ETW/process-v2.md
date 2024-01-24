@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for process events. The following syntax is simplified from MOF code.
+description: Process_V2 class - This class is the parent class for process events. The following syntax is simplified from MOF code.
 ms.assetid: 75596278-43cc-4040-a43d-6958d0935b68
 title: Process_V2 class
 ms.topic: reference
@@ -43,15 +43,15 @@ Event trace consumers can implement special processing for process events by cal
 
 
 
-| Event type                                                      | Description                                                                                                                                                                                                                        |
-|-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **EVENT\_TRACE\_TYPE\_END**(Event type value is 2)<br/>   | End process event. The [**Process\_TypeGroup1**](process-typegroup1.md) MOF class defines the event data for this event.                                                                                                          |
-| **EVENT\_TRACE\_TYPE\_START**(Event type value is 1)<br/> | Start process event. The [**Process\_TypeGroup1**](process-typegroup1.md) MOF class defines the event data for this event.                                                                                                        |
-| Event type value, 3                                             | Start data collection process event. Enumerates processes that are currently running at the time the kernel session starts. The [**Process\_TypeGroup1**](process-typegroup1.md) MOF class defines the event data for this event. |
-| Event type value, 4                                             | End data collection process event. Enumerates processes that are currently running at the time the kernel session ends. The [**Process\_TypeGroup1**](process-typegroup1.md) MOF class defines the event data for this event.     |
-| Event type value, 32                                            | Performance counters event. The [**Process\_V2\_TypeGroup2**](process-v2-typegroup2.md) MOF class defines the event data for this event.                                                                                          |
-| Event type value, 33                                            | Rundown of the performance counters at the start of the session. The [**Process\_V2\_TypeGroup2**](process-v2-typegroup2.md) MOF class defines the event data for this event.                                                     |
-| Event type value, 39                                            | Defunct process event. The [**Process\_TypeGroup1**](process-typegroup1.md) MOF class defines the event data for this event.                                                                                                      |
+| Event type                                                | Description                                                  |
+| --------------------------------------------------------- | ------------------------------------------------------------ |
+| **EVENT\_TRACE\_TYPE\_END**(Event type value is 2)<br/>   | End process event. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md) MOF class defines the event data for this event. |
+| **EVENT\_TRACE\_TYPE\_START**(Event type value is 1)<br/> | Start process event. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md) MOF class defines the event data for this event. |
+| Event type value, 3                                       | Start data collection process event. Enumerates processes that are currently running at the time the kernel session starts. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md) MOF class defines the event data for this event. |
+| Event type value, 4                                       | End data collection process event. Enumerates processes that are currently running at the time the kernel session ends. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md) MOF class defines the event data for this event. |
+| Event type value, 32                                      | Performance counters event. The [**Process\_V2\_TypeGroup2**](process-v2-typegroup2.md) MOF class defines the event data for this event. |
+| Event type value, 33                                      | Rundown of the performance counters at the start of the session. The [**Process\_V2\_TypeGroup2**](process-v2-typegroup2.md) MOF class defines the event data for this event. |
+| Event type value, 39                                      | Defunct process event. The [**Process\_V2\_TypeGroup1**](process-v2-typegroup1.md) MOF class defines the event data for this event. |
 
 
 
@@ -63,7 +63,7 @@ Process and thread start events may be logged in the context of the parent proce
 
 
 
-|                                     |                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |

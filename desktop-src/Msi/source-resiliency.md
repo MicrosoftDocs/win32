@@ -1,5 +1,5 @@
 ---
-Description: Applications that rely on network resources for installation-on-demand are susceptible to source failures if the source location should change for any reason or become damaged.
+description: Applications that rely on network resources for installation-on-demand are susceptible to source failures if the source location should change for any reason or become damaged.
 ms.assetid: 3d6a0524-d5df-4d4c-b861-d4a7da95ce40
 title: Source Resiliency
 ms.topic: article

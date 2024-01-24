@@ -22,7 +22,7 @@ If **TRUE**, this object has been marked for deletion and cannot be instantiated
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Is-Deleted                           |
 | Ldap-Display-Name | isDeleted                            |
@@ -49,7 +49,7 @@ If **TRUE**, this object has been marked for deletion and cannot be instantiated
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C0                          |
@@ -70,7 +70,7 @@ If **TRUE**, this object has been marked for deletion and cannot be instantiated
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C0                          |
@@ -91,7 +91,7 @@ If **TRUE**, this object has been marked for deletion and cannot be instantiated
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C0                          |
@@ -112,7 +112,7 @@ If **TRUE**, this object has been marked for deletion and cannot be instantiated
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C0                          |
@@ -133,7 +133,7 @@ If **TRUE**, this object has been marked for deletion and cannot be instantiated
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C0                          |
@@ -154,7 +154,7 @@ If **TRUE**, this object has been marked for deletion and cannot be instantiated
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C0                          |
@@ -175,7 +175,7 @@ If **TRUE**, this object has been marked for deletion and cannot be instantiated
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C0                          |

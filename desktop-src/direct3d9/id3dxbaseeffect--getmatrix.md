@@ -1,5 +1,5 @@
 ---
-Description: Gets a nontransposed matrix.
+description: Gets a nontransposed matrix.
 ms.assetid: d507c82c-b1a5-4e83-8921-5d45f52faba0
 title: ID3DXBaseEffect::GetMatrix method (D3DX9Shader.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ If the destination matrix is larger than the source matrix, only the upper-left 
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

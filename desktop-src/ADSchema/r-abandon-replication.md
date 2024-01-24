@@ -21,7 +21,7 @@ Extended right needed to cancel a replication sync.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Abandon-Replication                  |
 | Display-Name | Abandon Replication                  |
@@ -37,7 +37,7 @@ Extended right needed to cancel a replication sync.
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 30                                       |

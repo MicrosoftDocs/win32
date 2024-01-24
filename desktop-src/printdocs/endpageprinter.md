@@ -1,5 +1,5 @@
 ---
-Description: The EndPagePrinter function notifies the print spooler that the application is at the end of a page in a print job.
+description: The EndPagePrinter function notifies the print spooler that the application is at the end of a page in a print job.
 ms.assetid: aceb88b9-375b-4cd2-996a-c369f590154e
 title: EndPagePrinter function (Winspool.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ When a page in a spooled file exceeds approximately 350 MB, it can fail to print
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

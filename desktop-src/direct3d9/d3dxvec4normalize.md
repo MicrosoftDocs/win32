@@ -1,22 +1,25 @@
 ---
-Description: Returns the normalized version of a 4D vector.
+description: D3DXVec4Normalize function (D3dx9math.h) - Returns the normalized version of a 4D vector.
 ms.assetid: e12d5dc7-b26f-41dd-b89d-1df9ba23077a
 title: D3DXVec4Normalize function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4Normalize
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXVec4Normalize function
+# D3DXVec4Normalize function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns the normalized version of a 4D vector.
 
@@ -68,7 +71,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -85,7 +88,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

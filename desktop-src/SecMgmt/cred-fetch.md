@@ -1,5 +1,5 @@
 ---
-Description: Defines values that determine how to fetch the credential of a Group Managed Service Account (gMSA).
+description: Defines values that determine how to fetch the credential of a Group Managed Service Account (gMSA).
 ms.assetid: 90891448-22F6-497A-A612-3DAB8622C325
 title: CRED_FETCH enumeration (Secpkg.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Forces the operating system to attempt to read the password from the domain cont
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |

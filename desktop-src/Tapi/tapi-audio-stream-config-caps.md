@@ -1,5 +1,5 @@
 ---
-Description: The TAPI\_AUDIO\_STREAM\_CONFIG\_CAPS structure is contained by the TAPI\_STREAM\_CONFIG\_CAPS structure when the CapsType member is set to the AudioCap member of the StreamConfigCapsType union.
+description: The TAPI\_AUDIO\_STREAM\_CONFIG\_CAPS structure is contained by the TAPI\_STREAM\_CONFIG\_CAPS structure when the CapsType member is set to the AudioCap member of the StreamConfigCapsType union.
 ms.assetid: 61575839-4604-4c8b-ae4d-fe796c3c5314
 title: TAPI_AUDIO_STREAM_CONFIG_CAPS structure (Ipmsp.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ The granularity of the bytes per second values.
 
 
 
-|                         |                                                                                    |
+| Requirement | Value |
 |-------------------------|------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                       |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl> |

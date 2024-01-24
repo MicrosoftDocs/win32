@@ -1,5 +1,5 @@
 ---
-Description: Associates a transparent bridging service with an entry of its forwarding database.
+description: Associates a transparent bridging service with an entry of its forwarding database.
 ms.assetid: 6db93e71-c9b7-4710-a9ee-99a1055cfd82
 title: CIM_TransparentBridgingDynamicForwarding class
 ms.topic: reference
@@ -80,7 +80,7 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

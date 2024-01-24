@@ -22,7 +22,7 @@ Reference to subscriber objects for this member.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | FRS-Member-Reference-BL                 |
 | Ldap-Display-Name | fRSMemberReferenceBL                    |
@@ -48,7 +48,7 @@ Reference to subscriber objects for this member.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 105                             |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ Reference to subscriber objects for this member.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 105                             |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ Reference to subscriber objects for this member.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 105                             |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ Reference to subscriber objects for this member.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 105                             |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ Reference to subscriber objects for this member.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 105                             |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ Reference to subscriber objects for this member.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 105                             |
 | MAPI-Id                | \-                              |

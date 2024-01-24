@@ -1,351 +1,225 @@
 ---
-Description: SignTool is a Windows command-line tool for code signing, date stamping files, creating Windows digital signatures, and for verifying digital signatures.
-ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 title: SignTool
+description: Learn how to use SignTool, a command-line tool that digitally signs files, verifies the signatures in files, and time stamps files.
+ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/06/2023
 ---
 
 # SignTool
 
-The SignTool tool is a command-line tool that digitally signs files, verifies signatures in files, or time stamps files. For information about why signing files is important, see [Introduction to Code Signing](cryptography-tools.md). The tool is installed in the \\Bin folder of the Microsoft Windows Software Development Kit (SDK) installation path.
+SignTool is a command-line tool that digitally signs files, verifies the signatures in files, and time stamps files. For information about why signing files is important, see [Introduction to code signing](cryptography-tools.md).
 
-SignTool is available as part of the Windows SDK, which you can download from <https://go.microsoft.com/fwlink/p/?linkid=84091>.
+The tool is installed in the *\Bin* folder of the Microsoft Windows Software Development Kit (SDK) installation path, for example: *C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\signtool.exe*.
 
-**Windows Server 2008 R2 and Windows 7:  **
+SignTool is available as part of the Windows SDK, which you can download from [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk).
 
-If you are using the [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) function to verify multiple embedded signatures or support strong cryptography policy, you must include the following files:
+> [!NOTE]
+> The Windows 10 SDK, Windows 10 HLK, Windows 10 WDK, and Windows 10 ADK builds 20236 and later require that you specify the digest algorithm. The SignTool `sign` command requires the file digest algorithm option (`/fd`) and the time stamp digest algorithm option (`/td`) during signing and time stamping, respectively.
+>
+> If `/fd` isn't specified during signing and if `/td` isn't specified during time stamping, the command throws a warning, error code 0, initially. In later versions of SignTool, the warning becomes an error. We recommend SHA256. It is considered to be more secure than SHA1 by the industry.
 
--   Microsoft.Windows.Build.Signing.wintrust.dll.manifest
--   Wintrust.dll (downlevel version)
+## Syntax
 
-If you want to perform dual signing and make SHA256 catalogs, you must include those files and the following additional files:
+```console
+signtool [command] [options] [file_name | ...]
+```
 
--   Makecat.exe
--   Makecat.exe.manifest
--   Microsoft.Windows.Build.Signing.mssign32.dll.manifest
--   Mssign32.dll (downlevel version)
--   Signtool.exe
--   Signtool.exe.manifest
+## Parameters
 
-Here is the syntax for SignTool:
+|Argument|Description|
+|----|----|
+|`command`|One of four commands that specifies an operation to perform on a file: `catdb`, `sign`, `timestamp`, or `verify`. For a description of each command, see the next table.|
+|`options`|An option that modifies a command. In addition to the global `/q` and `/v` options, each command supports a unique set of options.|
+|`file_name`|The path to a file to sign.|
 
-**signtool** \[*Command*\]\[*Options*\]\[*FileName* …\]
+SignTool supports the following commands:
 
-The following commands are supported by SignTool. 
+|Command|Description|
+|----|----|
+|`catdb`|Adds a catalog file to, or removes it from, a catalog database. Catalog databases are used for automatic lookup of catalog files and are identified by GUID. For a list of the options supported by the `catdb` command, see [catdb command options](/dotnet/framework/tools/signtool-exe#catdb-command-options).|
+|`sign`|Digitally signs files. Digital signatures protect files from tampering and enable users to verify the signer based on a signing certificate. For a list of the options supported by the `sign` command, see [sign command options](/dotnet/framework/tools/signtool-exe#sign-command-options).|
+|`timestamp`|Time stamps files. For a list of the options supported by the `timestamp` command, see [timestamp command options](/dotnet/framework/tools/signtool-exe#timestamp-command-options).|
+|`verify`|Verifies the digital signature of files. Determines whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy. For a list of the options supported by the `verify` command, see [verify command options](/dotnet/framework/tools/signtool-exe#verify-command-options).|
 
-| Command        | Description                                                                                                                                                                                                |
-|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **catdb**      | Adds or removes a catalog file to or from a catalog database.<br/>                                                                                                                                   |
-| **sign**       | Digitally signs files.<br/>                                                                                                                                                                          |
-| **signwizard** | This command is not supported.<br/> **Windows Vista and earlier:** Launches the signing wizard. Only a single file can be specified for the file name command-line parameter.<br/> <br/> |
-| **timestamp**  | Time stamps files.<br/>                                                                                                                                                                              |
-| **verify**     | Verifies the digital signature of files.<br/>                                                                                                                                                        |
+The following options apply to all SignTool commands.
 
+|Global option|Description|
+|----|----|
+|`/q`|Displays no output if the command runs successfully, and displays minimal output if the command fails.|
+|`/v`|Displays verbose output regardless of whether the command runs successfully or fails, and displays warning messages.|
+|`/debug`|Displays debugging information.|
 
+## Catdb command options
 
- 
+The following table lists the options that can be used with the `catdb` command.
 
-The following options apply to the **catdb** command. 
+| Catdb option | Description |
+|----|----|
+| `/d` | Specifies that the default catalog database is updated. If you don't use either `/d` or `/g`, SignTool updates the system component and driver database. |
+| `/g` *GUID* | Specifies that the catalog database identified by the GUID is updated.|
+| `/r` | Removes the specified catalog from the catalog database. If this option isn't specified, SignTool adds the specified catalog to the catalog database.|
+| `/u` | Specifies that a unique name is automatically generated for the added catalog files. If necessary, the catalog files are renamed to prevent name conflicts with existing catalog files. If this option isn't specified, SignTool overwrites any existing catalog that has the same name as the specified catalog.|
 
-| Catdb option  | Description                                                                                                                                                                                                                                                                                                                     |
-|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **/d**        | Specifies that the default catalog database be updated. If neither the **/d** nor **/g** option is used, SignTool updates the system component and driver database.<br/>                                                                                                                                                  |
-| **/g** *GUID* | Specifies that the catalog database identified by the GUID be updated.<br/>                                                                                                                                                                                                                                               |
-| **/r**        | Removes the specified catalog from the catalog database. If this option is not specified, SignTool will add the specified catalog to the catalog database.<br/>                                                                                                                                                           |
-| **/u**        | Specifies that a unique name be automatically generated for the added catalog files. If necessary, the catalog files are renamed to prevent name conflicts with existing catalog files. If this option is not specified, SignTool overwrites any existing catalog that has the same name as the catalog being added.<br/> |
-
-
-
- 
-
-> [!Note]  
+> [!NOTE]
 > Catalog databases are used for automatic lookup of catalog files.
 
- 
+## Sign command options
 
-The following options apply to the **sign** command. 
+ The following table lists the options that can be used with the `sign` command.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Sign option</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>/a</strong></td>
-<td>Selects the best signing certificate automatically. If this option is not present, SignTool expects to find only one valid signing certificate.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/ac</strong> <em>FileName</em></td>
-<td>Specifies a file that contains an additional certificate to add to the signature block.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/as</strong></td>
-<td>Appends this signature. If no primary signature is present, this signature is made the primary signature.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/c</strong> <em>CertTemplateName</em></td>
-<td>Specifies the Certificate Template Name (a Microsoft extension) for the signing certificate.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/csp</strong> <em>CSPName</em></td>
-<td>Specifies the <a href="/windows/desktop/SecGloss/c-gly"><em>cryptographic service provider</em></a> (CSP) that contains the <a href="/windows/desktop/SecGloss/p-gly"><em>private key</em></a> container.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/d</strong> <em>Desc</em></td>
-<td>Specifies a description of the signed content.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/dg</strong> <em>Path</em></td>
-<td>Generates the digest to be signed and the unsigned PKCS7 files. The output digest and PKCS7 files will be: <em>Path</em>\<em>FileName.dig</em> and <em>Path</em>\<em>FileName.p7u</em>. To output an additional XML file, see <strong>/dxml</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/di</strong> <em>Path</em></td>
-<td>Creates the signature by ingesting the signed digest to the unsigned PKCS7 file. The input signed digest and unsigned PKCS7 files should be: <em>Path</em>\<em>FileName.dig.signed</em> and <em>Path</em>\<em>FileName.p7u</em>. <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/dlib</strong> <em>DLL</em></td>
-<td>Specifies the DLL implementing the <code>AuthenticodeDigestSign</code> function to sign the digest with. This option is equivalent to using <strong>SignTool</strong> separately with the <strong>/dg</strong>, <strong>/ds</strong>, and <strong>/di</strong> switches, except this option invokes all three as one atomic operation. <br/></td>
-</tr>
-<tr class="even">
-<td><strong>/dmdf</strong> <em>FileName</em></td>
-<td>When used with the <strong>/dg</strong> option, passes the file’s contents to the <code>AuthenticodeDigestSign</code> function without modification.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/ds</strong></td>
-<td>Signs the digest only. The input file should be the digest generated by the <strong>/dg</strong> option. The output file will be: <em>File.signed</em>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/du</strong> <em>URL</em></td>
-<td>Specifies a URL for expanded description of the signed content.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/dxml</strong></td>
-<td>When used with the <strong>/dg</strong> option, produces an XML file. The output file will be: <em>Path</em>\<em>FileName.dig.xml</em>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/f</strong> <em>SignCertFile</em></td>
-<td>Specifies the signing certificate in a file. Only the Personal Information Exchange (PFX) file format is supported. You can use the PVK2PFX.exe tool to convert SPC and PVK files to PFX format.<br/> If the file is in PFX format protected by a password, use the <strong>/p</strong> option to specify the password. If the file does not contain private keys, use the <strong>/csp</strong> and <strong>/k</strong> options to specify the CSP and private key container name, respectively.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/i</strong> <em>IssuerName</em></td>
-<td>Specifies the name of the issuer of the signing certificate. This value can be a substring of the entire issuer name.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/fd</strong></td>
-<td>Specifies the file digest algorithm to use to create file signatures. The default algorithm is <a href="/windows/desktop/SecGloss/s-gly"><em>Secure Hash Algorithm</em></a> (SHA-1).<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/j</strong> <em>DLL</em></td>
-<td>This flag is not supported.<br/> <strong>Windows Vista and earlier:</strong> Specifies the name of a DLL that provides attributes of the signature.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/jp</strong> <em>ParameterName</em></td>
-<td>This flag is not supported.<br/> <strong>Windows Vista and earlier:</strong> Specifies a parameter that is passed to the DLL specified by the <strong>/j</strong> command.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/kc</strong> <em>Name</em></td>
-<td>Specifies the key that contains the name of the private key.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/n</strong> <em>SubjectName</em></td>
-<td>Specifies the name of the subject of the signing certificate. This value can be a substring of the entire subject name.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/nph</strong></td>
-<td>If supported, suppresses page hashes for executable files. The default behavior is determined by the <strong>SIGNTOOL_PAGE_HASHES</strong> environment variable and by the Wintrust.dll version. This option is ignored for non-PE files.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/p</strong> <em>Password</em></td>
-<td>Specifies the password to use when opening a PFX file. A PFX file can be specified by using the <strong>/f</strong> option. For information about protecting passwords, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/p7</strong> <em>Path</em></td>
-<td>Specifies that for each specified content file, a PKCS #7 file is produced. The produced PKCS #7 file is named <em>Path</em>\<em>FileName</em>.p7.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/p7ce</strong> <em>Value</em></td>
-<td>Specifies options for the signed PKCS #7 content. Set <em>Value</em> to &quot;Embedded&quot; to embed the signed content in the PKCS #7 file, or set <em>Value</em> to &quot;DetachedSignedData&quot; to produce the signed data portion of a detached PKCS #7 file. If this option is not used, then the default choice is &quot;Embedded&quot;.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/p7co</strong> <em>OID</em></td>
-<td>Specifies the <a href="/windows/desktop/SecGloss/o-gly"><em>object identifier</em></a> (OID) that identifies the signed PKCS #7 content.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/ph</strong></td>
-<td>If supported, generates page hashes for executable files. This option is ignored for non-PE files.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/r</strong> <em>RootSubjectName</em></td>
-<td>Specifies the name of the subject of the root certificate that the signing certificate must chain to. This value can be a substring of the entire subject name of the root certificate.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/s</strong> <em>StoreName</em></td>
-<td>Specifies the store to open when searching for the certificate. If this option is not specified, the My store is opened.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/sha1</strong> <em>Hash</em></td>
-<td>Specifies the SHA1 hash of the signing certificate.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/sm</strong></td>
-<td>Specifies that a computer store, instead of a user store, be used.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/snk</strong> <em>FileName</em></td>
-<td>This flag is not supported.<br/> <strong>Windows Vista and earlier:</strong> Specifies the SNK file that contains the strong name private key.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/sncsp</strong> <em>Name</em></td>
-<td>This flag is not supported.<br/> <strong>Windows Vista and earlier.:</strong> Specifies the CSP that contains the strong name private key container.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/snkc</strong> <em>Name</em></td>
-<td>This flag is not supported.<br/> <strong>Windows Vista and earlier:</strong> Specifies the key that contains the name of the strong name private key.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/snks</strong> {<strong>1</strong>|<strong>2</strong>}</td>
-<td>This flag is not supported.<br/> <strong>Windows Vista and earlier:</strong> Specifies which strong name private key to use. If this argument is not used, the default value 2 is assumed.<br/> The following values are supported:<br/> <br/> <dl> <dt><span id="1"></span>1</dt> <dd> AT_KEYEXCHANGE<br/> </dd> <dt><span id="2__default_"></span><span id="2__DEFAULT_"></span>2 (default)</dt> <dd> AT_SIGNATURE<br/> </dd> </dl> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/t</strong> <em>URL</em></td>
-<td>Specifies the URL of the time stamp server. If this option is not present, then the signed file will not be time stamped. A warning is generated if time stamping fails.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/td</strong> <em>alg</em></td>
-<td>Used with the <strong>/tr</strong> switch to request a digest algorithm used by the RFC 3161 time stamp server.<br/>
-<blockquote>
-[!Note]<br />
-The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> switch, not before. If the <strong>/td</strong> switch is declared before the <strong>/tr</strong> switch, the timestamp that is returned is from an SHA1 algorithm instead of the intended SHA256 algorithm.
-</blockquote>
-<br/> <br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/tr</strong> <em>URL</em></td>
-<td>Specifies the RFC 3161 time stamp server's URL. If this option (or <strong>/t</strong>) is not specified, the signed file will not be time stamped. A warning is generated if time stamping fails. This switch cannot be used with the <strong>/t</strong> switch.<br/> <strong>Windows Vista and earlier:</strong> This flag is not supported.<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><strong>/u</strong> <em>Usage</em></td>
-<td>Specifies the <a href="/windows/desktop/SecGloss/e-gly"><em>enhanced key usage</em></a> (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is &quot;Code Signing&quot; (1.3.6.1.5.5.7.3.3).<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/uw</strong></td>
-<td>Specifies using &quot;Windows System Component Verification&quot; (1.3.6.1.4.1.311.10.3.6).<br/></td>
-</tr>
-</tbody>
-</table>
+|Sign command option|Description|
+|----|----|
+|`/a`|Automatically selects the best signing certificate. SignTool finds all valid certificates that satisfy all specified conditions and selects the one that is valid for the longest time. If this option isn't present, SignTool expects to find only one valid signing certificate.|
+|`/ac` *file*|Adds another certificate from *file* to the signature block.|
+|`/as`|Appends this signature. If no primary signature exists, this signature is made the primary signature instead.|
+|`/c` *CertTemplateName*|Specifies the Certificate Template Name (a Microsoft extension) for the signing certificate.|
+|`/csp` *CSPName*|Specifies the cryptographic service provider (CSP) that contains the private key container.|
+|`/d` *Desc*|Specifies a description of the signed content.|
+|`/dg` *Path*|Generates the digest to be signed and the unsigned PKCS7 files. The output digest and PKCS7 files are *\<Path>\\\<FileName>.dig* and *\<Path>\\\<FileName>.p7u*. To output an extra XML file, use `/dxml`. |
+|`/di` *Path*|Creates the signature by ingesting the signed digest to the unsigned PKCS7 file. The input signed digest and unsigned PKCS7 files should be *\<Path>\\\<FileName>.dig.signed* and *\<Path>\\\<FileName>.p7u*.|
+|`/dlib` *DLL*|Specifies the DLL that implements the `AuthenticodeDigestSign` function to sign the digest with. This option is equivalent to using SignTool separately with the `/dg`, `/ds`, and `/di` options. This option invokes all three as one atomic operation.|
+|`/dmdf` *Filename*|When used with the `/dg` option, passes the file’s contents to the `AuthenticodeDigestSign` function without modification.|
+|`/ds` |Signs the digest only. The input file should be the digest generated by the `/dg` option. The output file is: *\<File>.signed*.|
+|`/du` *URL*|Specifies a Uniform Resource Locator (URL) for the expanded description of the signed content.|
+|`/dxml` |When used with the `/dg` option, produces an XML file. The output file is: *\<Path>\\\<FileName>.dig.xml*.|
+|`/f` *SignCertFile*|Specifies the signing certificate in a file. If the file is in Personal Information Exchange (PFX) format and protected by a password, use the `/p` option to specify the password. If the file doesn't contain private keys, use the `/csp` and `/kc` options to specify the CSP and private key container name.|
+|`/fd` *alg*|Specifies the file digest algorithm to use for creating file signatures. Note: If the `/fd` option isn't specified while signing, the command generates an error.|
+|`/fd certHash`| Specifying the string "certHash" causes the command to use the algorithm specified on the signing certificate. Note: If the `/fd` option isn't specified while signing, the command generates an error.|
+|`/i` *IssuerName*|Specifies the name of the issuer of the signing certificate. This value can be a substring of the entire issuer name.|
+|`/kc` *PrivKeyContainerName*|Specifies the private key container name.|
+|`/n` *SubjectName*|Specifies the name of the subject of the signing certificate. This value can be a substring of the entire subject name.|
+|`/nph`|If supported, suppresses page hashes for executable files. The default is determined by the **SIGNTOOL_PAGE_HASHES** environment variable and by the *wintrust.dll* version. This option is ignored for non-PE files.|
+|`/p` *Password*|Specifies the password to use when opening a PFX file. Use the `/f` option to specify a PFX file.|
+|`/p7` *Path*|Specifies that a Public Key Cryptography Standards (PKCS) #7 file is produced for each specified content file. PKCS #7 files are named *\<path>\\\<filename>.p7*.|
+|`/p7ce` *Value*|Specifies options for the signed PKCS #7 content. Set *Value* to `Embedded` to embed the signed content in the PKCS #7 file, or to `DetachedSignedData` to produce the signed data portion of a detached PKCS #7 file. If the `/p7ce` option isn't specified, the signed content is embedded by default.|
+|`/p7co` *\<OID>*|Specifies the object identifier (OID) that identifies the signed PKCS #7 content.|
+|`/ph`|If supported, generates page hashes for executable files.|
+|`/r` *RootSubjectName*|Specifies the name of the subject of the root certificate that the signing certificate must chain to. This value can be a substring of the entire subject name of the root certificate.|
+|`/s` *StoreName*|Specifies the store to open when the command searches for the certificate. If this option isn't specified, the command opens the `My` store.|
+|`/sha1` *Hash*|Specifies the SHA1 hash of the signing certificate. The SHA1 hash is commonly used when multiple certificates satisfy the criteria specified by the remaining options.|
+|`/sm`|Specifies that the command uses a machine store, instead of a user store.|
+|`/t` *URL*|Specifies the URL of the time stamp server. If this option or `/tr` isn't specified, the signed file isn't time stamped. If time stamping fails, the command generates a warning. This option can't be used with the `/tr` option.|
+|`/td` *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. Note: If `/td` isn't specified while time stamping, the command generates an error.|
+|`/tr` *URL*|Specifies the URL of the RFC 3161 time stamp server. If this option or `/t` isn't specified, the signed file isn't time stamped. If the time stamping fails, the command generates a warning. This option can't be used with the `/t` option.|
+|`/u` *Usage*|Specifies the enhanced key usage (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is `Code Signing` or  `1.3.6.1.5.5.7.3.3`.|
+|`/uw`|Specifies usage of `Windows System Component Verification` or `1.3.6.1.4.1.311.10.3.6`.|
 
+For usage examples, see [Using SignTool to Sign a File](using-signtool-to-sign-a-file.md).
 
+## Timestamp command options
 
- 
+The following table lists the options that can be used with the `timestamp` command.
 
-The following option applies to the **timestamp** command. 
+|Timestamp option|Description|
+|----|----|
+|`/p7`|Time stamps PKCS #7 files.|
+|`/t` *URL*|Specifies the URL of the time stamp server. The file being time stamped must have previously been signed. Either the `/t` or the `/tr` option is required.|
+|`/td` *alg*|Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. Note: If `/td` isn't specified while time stamping, the command generates a warning.|
+|`/tp` *index*|Time stamps the signature at *index*.|
+|`/tr` *URL*|Specifies the URL of the RFC 3161 time stamp server. The file being time stamped must have previously been signed. Either the `/tr` or the `/t` option is required.|
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Timestamp option</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>/t</strong> <em>URL</em></td>
-<td>Required. Specifies the URL of the time stamp server. The file being time stamped must have previously been signed.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/td</strong> <em>index</em></td>
-<td>Used with the <strong>/tr</strong> switch to request a digest algorithm used by the RFC 3161 time stamp server.<br/>
-<blockquote>
-[!Note]<br />
-The <strong>/td</strong> switch must be declared after the <strong>/tr</strong> switch, not before. If the <strong>/td</strong> switch is declared before the <strong>/tr</strong> switch, the timestamp that is returned is from an SHA1 algorithm instead of the intended SHA256 algorithm.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/tp</strong> <em>alg</em></td>
-<td>Adds a timestamp to the signature at <em>index</em>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>/tr</strong> <em>URL</em></td>
-<td>Specifies the RFC 3161 time stamp server's URL. The file being time stamped must have previously been signed. Either the <strong>/tr</strong> or the <strong>/t</strong> option is required.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>/p7</strong> <em>Path</em></td>
-<td>Adds a timestamp to PKCS #7 files.<br/></td>
-</tr>
-</tbody>
-</table>
+## Verify command options
 
+|Verify option|Description|
+|----|----|
+| `/a` | Specifies that all methods can be used to verify the file. First, SignTool searches the catalog databases to determine whether the file is signed in a catalog. If the file isn't signed in any catalog, SignTool attempts to verify the file's embedded signature. We recommend this option when verifying files that might or might not be signed in a catalog. Examples of files that might or might not be signed include Windows files or drivers. |
+| `/ad` | Finds the catalog by using the default catalog database. |
+| `/all` | Verifies all signatures in a file with multiple signatures. |
+| `/as` | Finds the catalog by using the system component (driver) catalog database. |
+| `/ag` *CatDBGUID* | Finds the catalog in the catalog database identified by the GUID. |
+| `/c` *CatFile* | Specifies the catalog file by name. |
+| `/d` | Prints the description and description URL. Windows Vista and earlier: This option isn't supported. |
+| `/ds` *Index* | Verifies the signature at a certain position. |
+| `/hash`{*SHA1*\|*SHA256*} | Specifies an optional hash algorithm to use when searching for a file in a catalog. |
+| `/kp` | Performs the verification by using the x64 kernel-mode driver signing policy. |
+| `/ms` | Uses multiple verification semantics. This behavior is the default of a [WinVerifyTrust](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) call. |
+| `/o` *Version* | Verifies the file by operating system version. The version parameter is of the form: *\<PlatformID>:\<VerMajor>.\<VerMinor>.\<BuildNumber>*. We recommend the use of the `/o` option. If `/o` isn't specified, SignTool might return unexpected results. For example, if you don't include `/o`, then system catalogs that validate correctly on an older operating system might not validate correctly on a newer operating system. |
+| `/p7` | Verifies PKCS \#7 files. No existing policies are used for PKCS \#7 validation. SignTool checks the signature and builds a chain for the signing certificate. |
+| `/pa` | Specifies that the Default Authentication Verification Policy is used. If the `/pa` option isn't specified, SignTool uses the Windows Driver Verification Policy. This option can't be used with the `catdb` options. |
+| `/pg` *PolicyGUID* | Specifies a verification policy by GUID. The GUID corresponds to the `ActionID` of the verification policy. This option can't be used with the `catdb` options. |
+| `/ph` | Print and verify page hash values. Windows Vista and earlier: This option isn't supported. |
+| `/r` *RootSubjectName* | Specifies the name of the subject of the root certificate that the signing certificate must chain to. This value can be a substring of the entire subject name of the root certificate. |
+| `/tw` | Specifies that the command generates a warning if the signature isn't time stamped.|
 
+The SignTool `verify` command determines whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy.
 
- 
+The SignTool `verify` command outputs the embedded signature status unless an option is specified to search a catalog, such as `/a`, `/ad`, `/as`, `/ag`, or `/c`.
 
-The following options apply to the **verify** command. 
+## Return value
 
-| Verify option                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **/a**                          | Specifies that all methods can be used to verify the file. First, the catalog databases are searched to determine whether the file is signed in a catalog. If the file is not signed in any catalog, SignTool attempts to verify the file's embedded signature. This option is recommended when verifying files that may or may not be signed in a catalog. Examples of files that may or may not be signed include Windows files or drivers.<br/> |
-| **/ad**                         | Finds the catalog by using the default catalog database.<br/>                                                                                                                                                                                                                                                                                                                                                                                      |
-| **/all**                        | Verifies all signatures in a file with multiple signatures.<br/>                                                                                                                                                                                                                                                                                                                                                                                   |
-| **/as**                         | Finds the catalog by using the system component (driver) catalog database.<br/>                                                                                                                                                                                                                                                                                                                                                                    |
-| **/ag** *CatDBGUID*             | Finds the catalog in the catalog database identified by the **GUID**.<br/>                                                                                                                                                                                                                                                                                                                                                                         |
-| **/c** *CatFile*                | Specifies the catalog file by name.<br/>                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **/d**                          | Print the description and description URL.<br/> **Windows Vista and earlier:** This flag is not supported.<br/> <br/>                                                                                                                                                                                                                                                                                                                  |
-| **/ds** *Index*                 | Verifies the signature at a certain position.<br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **/hash**{**SHA1**\|**SHA256**} | Specifies an optional hash algorithm to use when searching for a file in a catalog.<br/>                                                                                                                                                                                                                                                                                                                                                           |
-| **/kp**                         | Performs the verification by using the x64 kernel-mode driver signing policy.<br/>                                                                                                                                                                                                                                                                                                                                                                 |
-| **/ms**                         | Uses multiple verification semantics. This is the default behavior of a [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) call.<br/>                                                                                                                                                                                                                                                                                                                        |
-| **/o** *Version*                | Verifies the file by operating system version. The version parameter is of the form:<br/> *PlatformID***:***VerMajor***.***VerMinor***.***BuildNumber*<br/> The use of the */o* switch is recommended. If */o* is not specified SignTool may return unexpected results. For example, if you do not include the */o* switch, then system catalogs that validate correctly on an older OS may not validate correctly on a newer OS.<br/> |
-| **/p7**                         | Verify PKCS \#7 files. No existing policies are used for PKCS \#7 validation. The signature is checked and a chain is built for the signing certificate.<br/>                                                                                                                                                                                                                                                                                      |
-| **/pa**                         | Specifies that the Default Authentication Verification Policy is used. If the **/pa** option is not specified, SignTool uses the Windows Driver Verification Policy. This option cannot be used with the **catdb** options.<br/>                                                                                                                                                                                                                   |
-| **/pg** *PolicyGUID*            | Specifies a verification policy by **GUID**. The **GUID** corresponds to the ActionID of the verification policy. This option cannot be used with the **catdb** options.<br/>                                                                                                                                                                                                                                                                      |
-| **/ph**                         | Print and verify page hash values.<br/> **Windows Vista and earlier:** This flag is not supported.<br/> <br/>                                                                                                                                                                                                                                                                                                                          |
-| **/r** *RootSubjectName*        | Specifies the name of the subject of the root certificate that the signing certificate must chain to. This value can be a substring of the entire subject name of the root certificate.<br/>                                                                                                                                                                                                                                                       |
-| **/tw**                         | Specifies that a warning is generated if the signature is not time stamped.<br/>                                                                                                                                                                                                                                                                                                                                                                   |
+SignTool returns one of the following exit codes when it terminates.
 
+|Exit code|Description|
+|----|----|
+|0|Execution was successful.|
+|1|Execution has failed.|
+|2|Execution has completed with warnings.|
 
+## Examples
 
- 
+The following command adds the catalog file *MyCatalogFileName.cat* to the system component and driver database. The `/u` option generates a unique name if necessary to prevent replacing an existing catalog file named *MyCatalogFileName.cat*.
 
-The following display options apply to all SignTool commands. 
+```console
+signtool catdb /v /u MyCatalogFileName.cat
+```
 
-| Global option | Description                                                                                          |
-|---------------|------------------------------------------------------------------------------------------------------|
-| **/debug**    | Displays debugging information.<br/>                                                           |
-| **/q**        | Displays no output on successful execution and minimal output for failed execution.<br/>       |
-| **/v**        | Displays verbose output for successful execution, failed execution, and warning messages.<br/> |
+The following command signs a file automatically by using the best certificate.
 
+```console
+signtool sign /a /fd SHA256 MyFile.exe 
+```
 
+The following command digitally signs a file by using a certificate stored in a password-protected PFX file.
 
- 
+```console
+signtool sign /f MyCert.pfx /p MyPassword /fd SHA256 MyFile.exe 
+```
 
-The SignTool **verify** command determines whether the signing certificate was issued by a trusted authority, whether the signing certificate has been revoked, and, optionally, whether the signing certificate is valid for a specific policy.  
+The following command digitally signs and time stamps a file. The certificate used to sign the file is stored in a PFX file.
 
-The SignTool **verify** command will output the **embedded** signature status unless an option is specified to search a catalog (/a, /ad, /as, /ag, /c).
+```console
+signtool sign /f MyCert.pfx /t http://timestamp.digicert.com /fd SHA256 MyFile.exe 
+```
 
-SignTool returns an exit code of zero for successful execution, one for failed execution, and two for execution that completed with warnings. If the SignTool encounters an unhandled exception, however, the return value is undefined.
+The following command signs a file by using a certificate located in the `My` store that has a subject name of `My Company Certificate`.
 
-The following command line shows signing a file automatically using the best certificate.
+```console
+signtool sign /n "My Company Certificate" /fd SHA256 MyFile.exe 
+```
 
-**signtool sign** **/a** *MyFile.exe*
+The following command signs an ActiveX control and provides information that is displayed in a browser when the user is prompted to install the control.
 
-> [!Note]  
-> When signing an executable file that is larger than approximately 300 megabytes for use on a computer running Windows XP with Service Pack 2 (SP2) and later, you should use catalog signing with the [MakeCat](makecat.md) tool rather than use the SignTool tool. Depending on the available system resources of the computer on which the file is verified, some applications may not be able to verify the binary signature of a large file. For more information, see KB article [922225](https://support.microsoft.com/kb/922225).
+```console
+signtool sign /f MyCert.pfx /d: "MyControl" /du http://www.example.com/MyControl/info.html /fd SHA256 MyControl.exe 
+```
 
- 
+The following command time stamps a file that has already been digitally signed.
 
- 
+```console
+signtool timestamp /t http://timestamp.digicert.com MyFile.exe
+```
 
- 
+The following command time stamps a file using an RFC 3161 time stamp server.
+
+```console
+signtool timestamp /tr http://timestamp.digicert.com /td SHA256 MyFile.exe
+```
+
+The following command verifies that a file has been signed.
+
+```console
+signtool verify MyFile.exe
+```
+
+The following command verifies a system file that can be signed in a catalog.
+
+```console
+signtool verify /a SystemFile.dll
+```
+
+The following command verifies a system file that is signed in a catalog named `MyCatalog.cat`.
+
+```console
+signtool verify /c MyCatalog.cat SystemFile.dll
+```

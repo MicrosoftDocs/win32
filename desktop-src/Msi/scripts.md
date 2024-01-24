@@ -1,5 +1,5 @@
 ---
-Description: A custom action can call functions that are written in VBScript or JScript.
+description: A custom action can call functions that are written in VBScript or JScript.
 ms.assetid: d859713f-b8b8-4eb0-b678-52b5d880bd20
 title: Scripts
 ms.topic: article

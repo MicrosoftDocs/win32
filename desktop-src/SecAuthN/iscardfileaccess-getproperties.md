@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the primitive data referred by TLVs (tag, length, value) for the specified object.
+description: Retrieves the primitive data referred by TLVs (tag, length, value) for the specified object.
 ms.assetid: 135aeb9a-b851-4522-862f-02a7e020c36b
 title: ISCardFileAccess::GetProperties method
 ms.topic: reference
@@ -108,7 +108,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

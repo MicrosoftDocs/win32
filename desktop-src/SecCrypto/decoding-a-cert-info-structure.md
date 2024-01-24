@@ -1,5 +1,5 @@
 ---
-Description: Given a certificate, the first step in decoding the certificate BLOB is to call CertCreateCertificateContext, passing it a pointer to the encoded certificate (BLOB).
+description: Given a certificate, the first step in decoding the certificate BLOB is to call CertCreateCertificateContext, passing it a pointer to the encoded certificate (BLOB).
 ms.assetid: b50530e2-15a0-4215-bf18-300cf67d1611
 title: Decoding a CERT_INFO Structure
 ms.topic: article

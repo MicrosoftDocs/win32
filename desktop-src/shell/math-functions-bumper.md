@@ -1,5 +1,5 @@
 ---
-Description: Math Functions
+description: Math Functions
 title: Math Functions (The Windows Shell)
 ms.topic: article
 ms.date: 05/31/2018
@@ -12,7 +12,7 @@ topic_type:
 
 ---
 
-# Math Functions
+# Math Functions (The Windows Shell)
 
 -   [**DWordPtrAdd**](/windows/desktop/api/Intsafe/nf-intsafe-dwordptradd)
 -   [**DWordPtrMult**](/windows/desktop/api/Intsafe/nf-intsafe-dwordptrmult)

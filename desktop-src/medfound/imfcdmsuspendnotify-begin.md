@@ -1,5 +1,5 @@
 ---
-Description: Indicates that the suspend process is starting and resources should be brought into a consistent state.
+description: Indicates that the suspend process is starting and resources should be brought into a consistent state.
 ms.assetid: 5cf3d249-3d8b-4596-9d8b-e7b95a270eff
 title: IMFCdmSuspendNotify::Begin method
 ms.topic: reference
@@ -40,7 +40,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

@@ -1,5 +1,5 @@
 ---
-Description: In each major release of Windows, there are fonts added to support international languages and scripts.
+description: In each major release of Windows, there are fonts added to support international languages and scripts.
 ms.assetid: 77b8c200-2682-4651-855a-602f768edc9b
 title: International Font Enumeration and Selection
 ms.topic: article

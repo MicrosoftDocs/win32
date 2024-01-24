@@ -1,5 +1,5 @@
 ---
-Description: Posts an I/O completion packet to an I/O completion port.
+description: Posts an I/O completion packet to an I/O completion port.
 ms.assetid: 69a9b1e5-2d40-42de-a14a-f7b6f29bf571
 title: PostQueuedCompletionStatus function (IoAPI.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ CsvFs will do redirected IO for compressed files.
 
 
 
-|                                     |                                                                                                                                                                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                       |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                              |

@@ -12,7 +12,7 @@ Declare compute shader input IDs.
 
 
 
-| dcl\_input {vThreadID.xyz\|vThreadGroupID.xyz\| vThreadIDInGroup.xyz\|vThreadIDInGroupFlattened} |
+| dcl\_input vThread |
 |--------------------------------------------------------------------------------------------------|
 
 
@@ -21,9 +21,9 @@ Declare compute shader input IDs.
 
 
 
-| Item                                                                                                                                                                                                                                                                                                                                                                          | Description                                                         |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| <span id="vThreadID___vThreadGroupID___vThreadIDInGroup___vThreadIDInGroupFlattened"></span><span id="vthreadid___vthreadgroupid___vthreadidingroup___vthreadidingroupflattened"></span><span id="VTHREADID___VTHREADGROUPID___VTHREADIDINGROUP___VTHREADIDINGROUPFLATTENED"></span>*vThreadID \| vThreadGroupID \| vThreadIDInGroup \| vThreadIDInGroupFlattened*<br/> | \[in\] The 3-component unsigned 32-bit integer ID value.<br/> |
+| Item | Description                                                         |
+|------|---------------------------------------------------------------------|
+| <span id="vThreadID___vThreadGroupID___vThreadIDInGroup___vThreadIDInGroupFlattened"></span><span id="vthreadid___vthreadgroupid___vthreadidingroup___vthreadidingroupflattened"></span><span id="VTHREADID___VTHREADGROUPID___VTHREADIDINGROUP___VTHREADIDINGROUPFLATTENED"></span>*vThread*<br/> | \[in\] The 3-component unsigned 32-bit integer ID value. One of:<ul><li>vThreadID.xyz</li><li>vThreadGroupID.xyz</li><li>vThreadIDInGroup.xyz</li><li>vThreadIDInGroupFlattened</li></ul><br/> |
 
 
 

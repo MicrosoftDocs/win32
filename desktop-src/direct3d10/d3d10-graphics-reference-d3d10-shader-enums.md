@@ -1,12 +1,12 @@
 ---
-Description: 'This section contains information about the following shader enumerations:'
+description: 'This section contains information about the following shader enumerations:'
 ms.assetid: 8d2b758b-cc2a-43ad-bf26-51674d4b5129
 title: Shader Enumerations (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Enumerations
+# Shader Enumerations (Direct3D 10 Graphics)
 
 This section contains information about the following shader enumerations:
 

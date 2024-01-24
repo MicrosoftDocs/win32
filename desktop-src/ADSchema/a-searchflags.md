@@ -22,7 +22,7 @@ Contains a set of flags that specify search and indexing information for an attr
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Search-Flags                         |
 | Ldap-Display-Name | searchFlags                          |
@@ -49,7 +49,7 @@ Contains a set of flags that specify search and indexing information for an attr
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x812D                                                   |
@@ -70,7 +70,7 @@ Contains a set of flags that specify search and indexing information for an attr
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x812D                                                   |
@@ -91,7 +91,7 @@ Contains a set of flags that specify search and indexing information for an attr
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x812D                                                   |
@@ -112,7 +112,7 @@ Contains a set of flags that specify search and indexing information for an attr
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x812D                                                   |
@@ -133,7 +133,7 @@ Contains a set of flags that specify search and indexing information for an attr
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x812D                                                   |
@@ -154,7 +154,7 @@ Contains a set of flags that specify search and indexing information for an attr
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x812D                                                   |
@@ -175,7 +175,7 @@ Contains a set of flags that specify search and indexing information for an attr
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x812D                                                   |

@@ -20,7 +20,7 @@ Users, groups, computers, and other security principals can be represented in do
 
 
 
-Where "<domain>" is the name of the Windows NT domain that contains the user and "<account>" is the **samAccountName** property of the specified user. For example: "Fabrikam\\jeffsmith".
+Where "&lt;domain&gt;" is the name of the Windows NT domain that contains the user and "&lt;account&gt;" is the **samAccountName** property of the specified user. For example: "Fabrikam\\jeffsmith".
 
 The domain account form can specify the trustee in an ACE in a security descriptor. It is also used for the logon name on computers running Windows version NT 4.0 and earlier.
 

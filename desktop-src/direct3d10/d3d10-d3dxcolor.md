@@ -1,21 +1,24 @@
 ---
-Description: Describes color values.
+description: D3DXCOLOR structure (D3DX10Math.h) - Describes color values.
 ms.assetid: bb5e36c8-4f24-41b5-84e7-3034e497721d
 title: D3DXCOLOR structure (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXCOLOR
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXCOLOR structure
+# D3DXCOLOR structure (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Describes color values.
 
@@ -85,7 +88,7 @@ Alpha component of the color.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

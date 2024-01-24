@@ -1,5 +1,5 @@
 ---
-Description: Specifies the container type of an encoded file.
+description: Specifies the container type of an encoded file.
 ms.assetid: 97fd968a-6843-4695-aece-02f9acd618fd
 title: MF_TRANSCODE_CONTAINERTYPE attribute (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Possible values for the container types provided by Media Foundation are describ
 | <span id="MFTranscodeContainerType_ADTS"></span><span id="mftranscodecontainertype_adts"></span><span id="MFTRANSCODECONTAINERTYPE_ADTS"></span><dl> <dt>**MFTranscodeContainerType\_ADTS**</dt> </dl>         | ADTS file container. <br/>                                                   |
 | <span id="MFTranscodeContainerType_MPEG2"></span><span id="mftranscodecontainertype_mpeg2"></span><span id="MFTRANSCODECONTAINERTYPE_MPEG2"></span><dl> <dt>**MFTranscodeContainerType\_MPEG2**</dt> </dl>     | MPEG2 file container. <br/>                                                  |
 | <span id="MFTranscodeContainerType_FMPEG4"></span><span id="mftranscodecontainertype_fmpeg4"></span><span id="MFTRANSCODECONTAINERTYPE_FMPEG4"></span><dl> <dt>**MFTranscodeContainerType\_FMPEG4**</dt> </dl> | FMPEG4 file container. <br/>                                                 |
-| <span id="MFTranscodeContainerType_WAVE"></span><span id="mftranscodecontainertype_wave"></span><span id="MFTRANSCODECONTAINERTYPE_WAVE"></span><dl> <dt>**MFTranscodeContainerType\_WAVE**</dt> </dl>         | WAVE file container.<br/> Supported in Windows 8.1 and and later.<br/> |
+| <span id="MFTranscodeContainerType_WAVE"></span><span id="mftranscodecontainertype_wave"></span><span id="MFTRANSCODECONTAINERTYPE_WAVE"></span><dl> <dt>**MFTranscodeContainerType\_WAVE**</dt> </dl>         | WAVE file container.<br/> Supported in Windows 8.1 and later.<br/> |
 | <span id="MFTranscodeContainerType_AVI"></span><span id="mftranscodecontainertype_avi"></span><span id="MFTRANSCODECONTAINERTYPE_AVI"></span><dl> <dt>**MFTranscodeContainerType\_AVI**</dt> </dl>             | AVI file container.<br/> Supported in Windows 8.1 and and later.<br/>  |
 | <span id="MFTranscodeContainerType_AMR"></span><span id="mftranscodecontainertype_amr"></span><span id="MFTRANSCODECONTAINERTYPE_AMR"></span><dl> <dt>**MFTranscodeContainerType\_AMR**</dt> </dl>             | AMR file container. <br/>                                                    |
 
@@ -63,7 +63,7 @@ This attribute can be used to configure the file-container type for the sink wri
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

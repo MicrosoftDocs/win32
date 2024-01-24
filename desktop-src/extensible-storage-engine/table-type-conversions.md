@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Table type conversions"
 title: Table type conversions
 TOCTitle: Table type conversions
 ms:assetid: 24cee894-5c11-d5d5-7929-fd1eb7ab19ea
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Table](dn351163\(v=exchg.10\).md) type exposes the following members.
+The [Table](./table-class.md) type exposes the following members.
 
 ## Operators
 
@@ -28,7 +29,7 @@ The [Table](dn351163\(v=exchg.10\).md) type exposes the following members.
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
-<td><a href="dn351239(v=exchg.10).md">Implicit(Table to JET_TABLEID)</a></td>
+<td><a href="/windows/win32/extensible-storage-engine/session-implicit-conversion-session-to-jet-sesid">Implicit(Table to JET_TABLEID)</a></td>
 <td>Implicit conversion operator from a Table to a JET_TABLEID. This allows a Table to be used with APIs which expect a JET_TABLEID.</td>
 </tr>
 </tbody>
@@ -41,7 +42,6 @@ Top
 
 #### Reference
 
-[Table class](dn351163\(v=exchg.10\).md)
+[Table class](./table-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

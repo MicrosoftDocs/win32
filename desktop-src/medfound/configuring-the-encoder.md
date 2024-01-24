@@ -1,5 +1,5 @@
 ---
-Description: Encoding Properties
+description: Encoding Properties
 ms.assetid: 6845c3fb-38a8-4b0d-aea2-e10f7e518653
 title: Encoding Properties
 ms.topic: article

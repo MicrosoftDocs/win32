@@ -1,5 +1,5 @@
 ---
-Description: This material is intended for developers who are writing their own setup programs and developers who want to learn more about the installer database tables. For general information on the installer, see About Windows Installer.
+description: This material is intended for developers who are writing their own setup programs and developers who want to learn more about the installer database tables. For general information on the installer, see About Windows Installer.
 ms.assetid: 95516437-9708-4f4e-a5c2-7bcd4741c776
 title: Database Functions
 ms.topic: article

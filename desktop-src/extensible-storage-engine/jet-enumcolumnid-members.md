@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNID members"
 title: JET_ENUMCOLUMNID members
 TOCTitle: JET_ENUMCOLUMNID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID
@@ -15,7 +16,7 @@ Include inherited members
 
 Enumerates a specific set of columns and, optionally, a specific set of multiple values for those columns when the JetEnumerateColumns function is used. JetEnumerateColumns optionally takes an array of JET_ENUMCOLUMNID structures.
 
-The [JET_ENUMCOLUMNID](dn335139\(v=exchg.10\).md) type exposes the following members.
+The [JET_ENUMCOLUMNID](./jet-enumcolumnid-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -122,6 +123,6 @@ Top
 
 #### Reference
 
-[JET_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID class](./jet-enumcolumnid-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Param.PrereadIOMax field"
 title: Windows8Param.PrereadIOMax field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: PrereadIOMax field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.PrereadIOMax
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Maximum number of I/O operations dispatched for a given purpose.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const JET_param PrereadIOMax
 
 #### Reference
 
-[Windows8Param class](dn335398\(v=exchg.10\).md)
+[Windows8Param class](./windows8param-class.md)
 
-[Windows8Param members](dn335505\(v=exchg.10\).md)
+[Windows8Param members](./windows8param-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

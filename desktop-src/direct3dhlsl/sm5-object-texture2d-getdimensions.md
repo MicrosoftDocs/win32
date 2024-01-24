@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GetDimensions function
-description: Returns the dimensions of the resource.
+description: Returns the dimensions of the resource. | Texture2D::GetDimensions function
 ms.assetid: 921e425d-c0dd-4b8d-b590-0599fabfe606
 keywords:
 - GetDimensions function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetDimensions function
+# Texture2D::GetDimensions function
 
 Returns the dimensions of the resource.
 

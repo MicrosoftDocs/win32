@@ -1,5 +1,5 @@
 ---
-Description: Use the methods of the IWiaDataTransfer interface to transfer data from a Windows Image Acquisition (WIA) 1.0 device to an application.
+description: Use the methods of the IWiaDataTransfer interface to transfer data from a Windows Image Acquisition (WIA) 1.0 device to an application.
 ms.assetid: 67fbf3d9-6965-4464-b04c-10989b2fd55d
 title: Transferring Image Data in WIA 1.0
 ms.topic: article
@@ -29,7 +29,7 @@ Applications must query an image item to obtain a pointer to its [**IWiaDataTran
 
 In the previous code, it is assumed that **pWiaItem** is a valid pointer to the [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) interface. The call to [IUnknown::QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) fills **pWiaDataTransfer** with a pointer to the [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) interface of the item referred to by **pWiaItem**.
 
-The application then sets the [STGMEDIUM](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure members. For information, see STGMEDIUM and [TYMED](/windows/win32/api/objidl/ne-objidl-tymed).
+The application then sets the [STGMEDIUM](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure members. For information, see STGMEDIUM and [TYMED](/windows/win32/api/objidl/ne-objidl-tymed).
 
 
 ```
@@ -56,7 +56,7 @@ The application then calls the [**IWiaDataTransfer::idtGetData**](/windows/deskt
 
 In the call to [**IWiaDataTransfer::idtGetData**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetdata), the second parameter specifies a pointer to the [**IWiaDataCallback**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatacallback) interface. Applications must implement this interface to receive callbacks during data transfers. For information about implementing this interface, see [**IWiaDataCallback::BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback).
 
-The application then releases the pointers to the [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) interface and frees any data allocated in the [STGMEDIUM](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure.
+The application then releases the pointers to the [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer) interface and frees any data allocated in the [STGMEDIUM](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure.
 
 The application can also transfer the image using in-memory data transfers instead of file transfers. In this case, the application uses the idtGetBandedData method in place of the idtGetData method.
 

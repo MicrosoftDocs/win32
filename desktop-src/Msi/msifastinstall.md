@@ -1,5 +1,5 @@
 ---
-Description: The MSIFASTINSTALL property can be used to reduce the time required to install a large Windows Installer package.
+description: The MSIFASTINSTALL property can be used to reduce the time required to install a large Windows Installer package.
 ms.assetid: 011668da-da04-4b80-989e-192b0daa3060
 title: MSIFASTINSTALL property
 ms.topic: reference
@@ -31,7 +31,7 @@ The value of the **MSIFASTINSTALL** property can be a combination of the followi
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

@@ -14,10 +14,13 @@ keywords:
 - samples,DSP plug-ins
 - audio DSP plug-ins,samples
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # About the Sample Audio DSP Plug-in
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The sample audio DSP plug-in provides a simple processing implementation that scales the amplitude of the audio by a factor provided by the user in the property page. The plug-in accepts values between zero and 1. The default value is 1. A value of 1 has no effect upon the sound; other scale factors are multipliers for the audio samples. For instance, a value of .5 would result in a 6 decibel decrease in volume. A value of zero results in silence.
 

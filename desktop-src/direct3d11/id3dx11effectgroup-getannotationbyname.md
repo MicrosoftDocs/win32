@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectGroup GetAnnotationByName method (D3dx11effect.h)
-description: Get an annotation by name.
+description: Get an annotation by name. | ID3DX11EffectGroup GetAnnotationByName method (D3dx11effect.h)
 ms.assetid: c526a249-fb56-47bb-a0c2-b829a1da88e8
 keywords:
 - GetAnnotationByName method Direct3D 11
@@ -64,7 +64,7 @@ A pointer to an [**ID3DX11EffectVariable**](id3dx11effectvariable.md). Note that
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |

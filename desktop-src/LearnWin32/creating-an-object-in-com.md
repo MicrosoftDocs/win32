@@ -81,7 +81,7 @@ Given these values, you would create a new `Shape` instance as follows:
 
 ```C++
 IDrawable *pShape;
-hr = CoCreateInstance(CLSID_Shape, NULL, CLSCTX_INPROC_SERVER, IID_Drawable,
+hr = CoCreateInstance(CLSID_Shape, NULL, CLSCTX_INPROC_SERVER, IID_IDrawable,
      reinterpret_cast<void**>(&pShape));
 
 if (SUCCEEDED(hr))

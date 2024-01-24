@@ -1,5 +1,5 @@
 ---
-Description: Initializes or reinitializes the system image list.
+description: Initializes or reinitializes the system image list.
 ms.assetid: 4e661326-157e-4c75-86df-cd213e01c3e5
 title: FileIconInit function
 ms.topic: reference
@@ -62,7 +62,7 @@ If you are using system image lists in your own process, you must call **FileIco
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ShortcutFile&\#32;WMI class represents files that are shortcuts to other files, directories, and commands.
+description: The Win32\_ShortcutFile&\#32;WMI class represents files that are shortcuts to other files, directories, and commands.
 ms.assetid: 15973234-e418-4869-839e-a7c439512e4e
 ms.tgt_platform: multiple
 title: Win32_ShortcutFile class
@@ -968,7 +968,7 @@ The **Win32\_ShortcutFile** class is derived from [**CIM\_DataFile**](cim-datafi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

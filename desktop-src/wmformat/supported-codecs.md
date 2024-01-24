@@ -9,73 +9,30 @@ keywords:
 - IWMCodecInfo3,about
 - codecs,IWMCodecInfo3 interface
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Supported Codecs
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Windows Media Format SDK provides support for the following codecs which are included when you install the SDK.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Codec</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Media Audio</td>
-<td>Audio codec for general use in encoding complex audio, like music.The most recent versions of this codec are the Windows Media Audio 9 codec and the Windows Media Audio 9.1 codec.<br/></td>
-</tr>
-<tr class="even">
-<td>Windows Media Audio Professional</td>
-<td>Audio codec for complex audio, like music. Supports multichannel and 24-bit encoding.There are two versions of this codec:<br/>
-<ul>
-<li>Windows Media Audio 9 Professional</li>
-<li>Windows Media Audio 9.1 Professional</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Windows Media Audio Lossless</td>
-<td>Audio codec for lossless encoding.There are two versions of this codec:<br/>
-<ul>
-<li>Windows Media Audio 9 Lossless</li>
-<li>Windows Media Audio 9.1 Lossless</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows Media Audio 9 Voice</td>
-<td>Audio codec optimized for encoding the human voice at high compression ratios. This is the preferred codec for streams consisting mostly of spoken words. For content that is mixed music and speech, this codec can dynamically change the encoding algorithm used to get optimal quality.</td>
-</tr>
-<tr class="odd">
-<td>Windows Media Video 9</td>
-<td>Video codec for general use in encoding complex video, such as movies.</td>
-</tr>
-<tr class="even">
-<td>Windows Media Video 9 Advanced Profile</td>
-<td>Video codec incorporating advanced encoding features, including interlaced encoding.</td>
-</tr>
-<tr class="odd">
-<td>Windows Media Video 9 Screen</td>
-<td>Video codec optimized for encoding sequential screenshots. This codec is often used for software training or support by recording monitor images as computer applications are used.</td>
-</tr>
-<tr class="even">
-<td>Windows Media Video Image</td>
-<td>Video codec for converting bitmap images with deformation information into compressed video.There are two version of this codec:<br/>
-<ul>
-<li>Windows Media Video 9 Image</li>
-<li>Windows Media Video 9 Image v2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Codec | Description | 
+|-------|-------------|
+| Windows Media Audio | Audio codec for general use in encoding complex audio, like music.The most recent versions of this codec are the Windows Media Audio 9 codec and the Windows Media Audio 9.1 codec.<br /> | 
+| Windows Media Audio Professional | Audio codec for complex audio, like music. Supports multichannel and 24-bit encoding.There are two versions of this codec:<br /><ul><li>Windows Media Audio 9 Professional</li><li>Windows Media Audio 9.1 Professional</li></ul> | 
+| Windows Media Audio Lossless | Audio codec for lossless encoding.There are two versions of this codec:<br /><ul><li>Windows Media Audio 9 Lossless</li><li>Windows Media Audio 9.1 Lossless</li></ul> | 
+| Windows Media Audio 9 Voice | Audio codec optimized for encoding the human voice at high compression ratios. This is the preferred codec for streams consisting mostly of spoken words. For content that is mixed music and speech, this codec can dynamically change the encoding algorithm used to get optimal quality. | 
+| Windows Media Video 9 | Video codec for general use in encoding complex video, such as movies. | 
+| Windows Media Video 9 Advanced Profile | Video codec incorporating advanced encoding features, including interlaced encoding. | 
+| Windows Media Video 9 Screen | Video codec optimized for encoding sequential screenshots. This codec is often used for software training or support by recording monitor images as computer applications are used. | 
+| Windows Media Video Image | Video codec for converting bitmap images with deformation information into compressed video.There are two version of this codec:<br /><ul><li>Windows Media Video 9 Image</li><li>Windows Media Video 9 Image v2</li></ul> | 
+
 
 
 

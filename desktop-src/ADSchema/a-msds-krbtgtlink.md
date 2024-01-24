@@ -22,7 +22,7 @@ Used with RODCs to define which krbtgt\_XXXX account corresponds to each RODC.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-KrbTgt-Link                       |
 | Ldap-Display-Name | msDS-KrbTgtLink                         |
@@ -45,7 +45,7 @@ Used with RODCs to define which krbtgt\_XXXX account corresponds to each RODC.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | 2100                                      |
 | MAPI-Id                | \-                                        |
@@ -66,7 +66,7 @@ Used with RODCs to define which krbtgt\_XXXX account corresponds to each RODC.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | 2100                                      |
 | MAPI-Id                | \-                                        |
@@ -87,7 +87,7 @@ Used with RODCs to define which krbtgt\_XXXX account corresponds to each RODC.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | 2100                                      |
 | MAPI-Id                | \-                                        |

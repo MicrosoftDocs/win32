@@ -1,5 +1,5 @@
 ---
-Description: The sample application described in this topic demonstrates how certain NLS functions can be used to convert internationalized domain names (IDNs).
+description: The sample application described in this topic demonstrates how certain NLS functions can be used to convert internationalized domain names (IDNs).
 ms.assetid: 9739efa5-8b88-4f9c-983d-806968caf9d5
 title: 'NLS: Internationalized Domain Name Conversion Sample'
 ms.topic: article
@@ -26,7 +26,7 @@ In the sample output, note that, "ExAmPlE.cOm" is converted to "русский.e
 // 
 // Copyright (c) Microsoft Corporation. All rights reserved. 
 // 
-// IdnMitigation.cpp 
+// IdnConversion.cpp 
 
 #include "stdafx.h"
 #include "windows.h"

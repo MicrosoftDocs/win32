@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingRestoreLogFilesException constructor"
 title: EsentMissingRestoreLogFilesException constructor 
 TOCTitle: 'EsentMissingRestoreLogFilesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMissingRestoreLogFilesException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMissingRestoreLogFilesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentMissingRestoreLogFilesException()
 
 #### Reference
 
-[EsentMissingRestoreLogFilesException class](dn334755\(v=exchg.10\).md)
+[EsentMissingRestoreLogFilesException class](./esentmissingrestorelogfilesexception-class.md)
 
-[EsentMissingRestoreLogFilesException members](dn334763\(v=exchg.10\).md)
+[EsentMissingRestoreLogFilesException members](./esentmissingrestorelogfilesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

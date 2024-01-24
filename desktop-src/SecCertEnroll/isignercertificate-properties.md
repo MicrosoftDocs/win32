@@ -1,5 +1,5 @@
 ---
-Description: The ISignerCertificate interface exposes the following properties.
+description: The ISignerCertificate interface exposes the following properties.
 ms.assetid: 7C6017EB-4D06-4B3F-84CB-857772BBC0DA
 title: ISignerCertificate Properties
 ms.topic: reference

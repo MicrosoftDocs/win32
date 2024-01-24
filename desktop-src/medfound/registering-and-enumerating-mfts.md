@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to enumerate Media Foundation transforms, and how to register a custom MFT so that applications can discover it.
+description: This section describes how to enumerate Media Foundation transforms, and how to register a custom MFT so that applications can discover it.
 ms.assetid: 76d2a703-4162-428e-a4ff-643e346eacfb
 title: Registering and Enumerating MFTs
 ms.topic: article
@@ -79,7 +79,7 @@ CoTaskMemFree(ppActivate);
 
 
 
-By default, some types of MFT are excluded from the enumeration, including asynchronous MFTs, hardware MFTs, and MFTs with field-of-use restructions. These are excluded because they all require special handling of some kind. Use the *Flags* parameter of [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) to change the default. For example, to include hardware MFTs in the enumeration results, set the **MFT\_ENUM\_FLAG\_HARDWARE** flag:
+By default, some types of MFT are excluded from the enumeration, including asynchronous MFTs, hardware MFTs, and MFTs with field-of-use restrictions. These are excluded because they all require special handling of some kind. Use the *Flags* parameter of [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) to change the default. For example, to include hardware MFTs in the enumeration results, set the **MFT\_ENUM\_FLAG\_HARDWARE** flag:
 
 
 ```C++

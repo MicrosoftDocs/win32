@@ -1,5 +1,5 @@
 ---
-Description: Lighting in the real world contains a very high dynamic range (HDR) of luminance values.
+description: Lighting in the real world contains a very high dynamic range (HDR) of luminance values.
 ms.assetid: 537700e2-802d-4fd1-b026-142d6f4f0559
 title: HDR Lighting (Direct3D 9)
 ms.topic: article
@@ -67,7 +67,7 @@ Where:
 
 This operator scales high luminances by 1/L and low luminances by 1. For more details, see the following paper.
 
-Reinhard, Erik, Mike Stark, Peter Shirley, and James Ferwerda. ["Photographic Tone Reproduction for Digital Images"](https://www.cs.utah.edu/~reinhard/cdrom/tonemap.pdf). ACM Transactions on Graphics (TOG), Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH), pp. 267-276. New York, NY: ACM Press, 2002.
+Reinhard, Erik, Mike Stark, Peter Shirley, and James Ferwerda. "Photographic Tone Reproduction for Digital Images". ACM Transactions on Graphics (TOG), Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH), pp. 267-276. New York, NY: ACM Press, 2002.
 
 ## Related topics
 

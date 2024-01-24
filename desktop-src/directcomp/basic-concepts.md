@@ -82,7 +82,7 @@ For more information about the types of bitmap content supported by DirectCompos
 
 The Clip property of a visual specifies a rectangular area called the *clipping region* (or *clip rectangle*). When a visual is rendered, only the portion of the visual that falls inside the clipping region is displayed, while any content that extends outside the clipping region is clipped (that is, not displayed). DirectComposition supports clipping regions that have rounded or squared corners.
 
-You set the Clip property of a visual by calling the [**IDCompositionVisual::SetClip**](/windows/desktop/api/Dcomp/nf-dcomp-setclip) method.
+You set the Clip property of a visual by calling the [**IDCompositionVisual::SetClip**](/windows/win32/api/dcomp/nf-dcomp-idcompositionvisual-setclip(constd2d_rect_f_)) method.
 
 For more information, see [Clipping](clipping.md).
 

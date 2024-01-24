@@ -22,7 +22,7 @@ This attribute contains state information for a directory tree that is being mov
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Move-Tree-State                                       |
 | Ldap-Display-Name | moveTreeState                                         |
@@ -49,7 +49,7 @@ This attribute contains state information for a directory tree that is being mov
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -70,7 +70,7 @@ This attribute contains state information for a directory tree that is being mov
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -91,7 +91,7 @@ This attribute contains state information for a directory tree that is being mov
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -112,7 +112,7 @@ This attribute contains state information for a directory tree that is being mov
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -133,7 +133,7 @@ This attribute contains state information for a directory tree that is being mov
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -154,7 +154,7 @@ This attribute contains state information for a directory tree that is being mov
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -175,7 +175,7 @@ This attribute contains state information for a directory tree that is being mov
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

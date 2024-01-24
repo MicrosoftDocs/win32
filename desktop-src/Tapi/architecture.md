@@ -1,12 +1,12 @@
 ---
-Description: The following illustration shows the general architecture of telephony service providers and their associated user interface dynamic-link libraries (UI DLLs).
+description: The following illustration shows the general architecture of telephony service providers and their associated user interface dynamic-link libraries (UI DLLs).
 ms.assetid: 'b5efe57a-19b8-49c5-810f-180633ed50d2'
 title: Architecture (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Architecture
+# Architecture (Telephony API)
 
 The following illustration shows the general architecture of telephony service providers and their associated user interface dynamic-link libraries (UI DLLs).
 

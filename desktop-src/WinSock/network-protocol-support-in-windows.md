@@ -1,5 +1,5 @@
 ---
-Description: The Internet Protocol Suite is the dominant network protocol used in enterprise networks and across the Internet.
+description: The Internet Protocol Suite is the dominant network protocol used in enterprise networks and across the Internet.
 ms.assetid: 8c123e09-b11a-4c92-b41e-49cc01be53d3
 title: Winsock Network Protocol Support in Windows
 ms.topic: article
@@ -61,15 +61,8 @@ The following table identifies native Windows support for common network protoco
 [Bluetooth](../bluetooth/bluetooth-start-page.md)
 </dt> <dt>
 
-[IPv6 Technology Preview for Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=27b1e6a6-bbdd-43c9-af57-dae19795a088)
-</dt> <dt>
-
 [IrDA](/previous-versions/windows/desktop/irda/irda-start-page)
 </dt> <dt>
 
 [NDIS 5.0 and ATM Support in Windows](/windows-hardware/drivers/network/ndis-version-guide)
 </dt> </dl>
-
- 
-
- 

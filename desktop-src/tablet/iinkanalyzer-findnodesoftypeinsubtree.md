@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the IContextNode objects of the specified type that are descendants of the specified IContextNode object.
+description: Retrieves all of the IContextNode objects of the specified type that are descendants of the specified IContextNode object.
 ms.assetid: 7e57d6ec-fe04-44c6-904f-7a212bbfcd19
 title: IInkAnalyzer::FindNodesOfTypeInSubTree method (IACom.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

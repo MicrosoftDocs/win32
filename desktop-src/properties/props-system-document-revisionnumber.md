@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Document.RevisionNumber
 ms.assetid: 837633aa-3c90-435b-ae6b-947b894ef24a
 title: System.Document.RevisionNumber
 ms.topic: article

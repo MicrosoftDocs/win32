@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Source Reader enables DirectX Video Acceleration (DXVA) on the video decoder.
+description: Specifies whether the Source Reader enables DirectX Video Acceleration (DXVA) on the video decoder.
 ms.assetid: ec539038-3fd3-41b7-a0e6-e75e3f2828a7
 title: MF_SOURCE_READER_DISABLE_DXVA attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ The default value of this attribute is **FALSE**, meaning that DXVA decoding is 
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

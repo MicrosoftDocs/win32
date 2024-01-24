@@ -1,5 +1,5 @@
 ---
-Description: Represents the configuration of a network adapter within the guest operating system.
+description: Represents the configuration of a network adapter within the guest operating system.
 ms.assetid: 154d4a0f-0c57-496a-a351-6caa74011544
 title: Msvm_GuestNetworkAdapterConfiguration class
 ms.topic: reference
@@ -244,7 +244,7 @@ An array of strings that contain the subnets configured on the network adapter w
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

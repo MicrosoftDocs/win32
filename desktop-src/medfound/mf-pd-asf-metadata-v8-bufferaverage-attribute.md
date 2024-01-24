@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average buffer size needed for a variable bit rate (VBR) Advanced Systems Format (ASF) file.
+description: Specifies the average buffer size needed for a variable bit rate (VBR) Advanced Systems Format (ASF) file.
 ms.assetid: 508d8670-5f5f-422b-9fa1-150115e2dbb8
 title: MF_PD_ASF_METADATA_V8_BUFFERAVERAGE attribute (Wmcontainer.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

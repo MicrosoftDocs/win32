@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: INullableJetStruct interface"
 title: INullableJetStruct interface
 TOCTitle: INullableJetStruct interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.INullableJetStruct
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Interface for Jet structures that are nullable (can have null values).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -50,7 +51,6 @@ public interface INullableJetStruct
 
 #### Reference
 
-[INullableJetStruct members](hh596493\(v=exchg.10\).md)
+[INullableJetStruct members](./inullablejetstruct-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

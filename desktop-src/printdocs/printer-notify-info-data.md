@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_NOTIFY\_INFO\_DATA structure identifies a job or printer information field and provides the current data for that field.
+description: The PRINTER\_NOTIFY\_INFO\_DATA structure identifies a job or printer information field and provides the current data for that field.
 ms.assetid: 7a7b9e01-32e0-47f8-a5b1-5f7e6a663714
 title: PRINTER_NOTIFY_INFO_DATA structure (Winspool.h)
 ms.topic: reference
@@ -321,7 +321,7 @@ If the **Type** member specifies JOB\_NOTIFY\_TYPE, the **Field** member can be 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

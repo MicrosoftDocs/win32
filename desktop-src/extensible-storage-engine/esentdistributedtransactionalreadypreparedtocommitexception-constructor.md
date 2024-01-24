@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDistributedTransactionAlreadyPreparedToCommitException constructor"
 title: EsentDistributedTransactionAlreadyPreparedToCommitException constructor 
 TOCTitle: 'EsentDistributedTransactionAlreadyPreparedToCommitException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDistributedTransactionAlreadyPreparedToCommitException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDistributedTransactionAlreadyPreparedToCommitException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDistributedTransactionAlreadyPreparedToCommitException()
 
 #### Reference
 
-[EsentDistributedTransactionAlreadyPreparedToCommitException class](dn334490\(v=exchg.10\).md)
+[EsentDistributedTransactionAlreadyPreparedToCommitException class](./esentdistributedtransactionalreadypreparedtocommitexception-class.md)
 
-[EsentDistributedTransactionAlreadyPreparedToCommitException members](dn274296\(v=exchg.10\).md)
+[EsentDistributedTransactionAlreadyPreparedToCommitException members](./esentdistributedtransactionalreadypreparedtocommitexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

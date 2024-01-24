@@ -1,5 +1,5 @@
 ---
-Description: Class is the abstract base class for classes that are used to determine when WMI should release a Component Object Model (COM) object.
+description: Class is the abstract base class for classes that are used to determine when WMI should release a Component Object Model (COM) object.
 ms.assetid: 32631610-8c0e-4f04-b0b2-62e5f8e23ef4
 ms.tgt_platform: multiple
 title: '__CacheControl class'
@@ -43,7 +43,7 @@ The **\_\_CacheControl** class is derived from [**\_\_SystemClass**](--systemcla
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -21,7 +21,7 @@ Contains the information that is stored in the GECOS field.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | gecos                                |
 | Ldap-Display-Name | gecos                                |
@@ -45,7 +45,7 @@ Contains the information that is stored in the GECOS field.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -66,7 +66,7 @@ Contains the information that is stored in the GECOS field.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -87,7 +87,7 @@ Contains the information that is stored in the GECOS field.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -108,7 +108,7 @@ Contains the information that is stored in the GECOS field.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |

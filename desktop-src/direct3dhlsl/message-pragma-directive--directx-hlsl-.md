@@ -21,7 +21,7 @@ Pragma directive that produces compiler-time messages.
 
 
 
-| \#pragma message "*token-string*" |
+| \#pragma message("*token-string*") |
 |-----------------------------------|
 
 

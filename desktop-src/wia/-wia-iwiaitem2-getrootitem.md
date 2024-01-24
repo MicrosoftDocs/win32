@@ -1,5 +1,5 @@
 ---
-Description: Gets the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) 2.0 hardware device.
+description: Gets the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) 2.0 hardware device.
 ms.assetid: bc31ad4a-0851-4510-a038-83646ffd5c98
 title: IWiaItem2::GetRootItem method (Wia.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unkn
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

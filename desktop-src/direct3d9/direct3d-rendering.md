@@ -1,5 +1,5 @@
 ---
-Description: Applications use the DrawPrimitive family of methods to render a 3D scene.
+description: Applications use the DrawPrimitive family of methods to render a 3D scene.
 ms.assetid: d4050920-1dfe-4137-939a-6ec8f269778b
 title: Direct3D Rendering (Direct3D 9)
 ms.topic: article

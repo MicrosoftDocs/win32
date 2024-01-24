@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadRestoreTargetInstanceException methods"
 title: EsentBadRestoreTargetInstanceException methods
 TOCTitle: EsentBadRestoreTargetInstanceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadRestoreTargetInstanceException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadRestoreTargetInstanceException](dn274044\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadRestoreTargetInstanceException](./esentbadrestoretargetinstanceexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentBadRestoreTargetInstanceException class](dn274044\(v=exchg.10\).md)
+[EsentBadRestoreTargetInstanceException class](./esentbadrestoretargetinstanceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

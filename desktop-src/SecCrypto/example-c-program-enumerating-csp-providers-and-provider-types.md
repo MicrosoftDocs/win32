@@ -1,5 +1,5 @@
 ---
-Description: Lists the CSPs available on a computer by using CryptoAPI.
+description: Lists the CSPs available on a computer by using CryptoAPI.
 ms.assetid: 10a5210d-7992-4832-9435-67ac2b851a97
 title: 'Example C Program: Enumerating CSP Providers and Provider Types'
 ms.topic: article
@@ -23,6 +23,7 @@ The following example shows enumerating CSPs and provider types.
 ```C++
 //-------------------------------------------------------------------
 // Copyright (C) Microsoft.  All rights reserved.
+#pragma comment(lib, "advapi32.lib")
 #pragma comment(lib, "crypt32.lib")
 
 #include <stdio.h>
@@ -245,7 +246,7 @@ int _tmain(int argc, _TCHAR* argv[])
            ptr += dwIncrement;
            dwNameLen = *(DWORD *)ptr;
            ptr += dwIncrement;
-           strncpy_s(szName,(char *) ptr, sizeof(szName), dwNameLen);
+           strncpy_s(szName, sizeof(szName), (char *) ptr, dwNameLen);
            
             //-------------------------------------------------------
             // Determine the algorithm type.

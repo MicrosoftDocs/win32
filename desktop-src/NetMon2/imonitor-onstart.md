@@ -1,5 +1,5 @@
 ---
-Description: The OnStart method is an optional method that can be implemented by the monitor. The MCSVC calls this method to request that the monitor start the capture.
+description: The OnStart method is an optional method that can be implemented by the monitor. The MCSVC calls this method to request that the monitor start the capture.
 ms.assetid: 992ee27e-aaba-4e65-989b-e3f0fbd542ea
 title: IMonitor::OnStart method (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ The MCSVC calls this method before the NPP's [IRTC::Start](irtc-start.md) method
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

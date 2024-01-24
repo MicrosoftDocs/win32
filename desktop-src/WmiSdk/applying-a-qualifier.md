@@ -1,5 +1,5 @@
 ---
-Description: Like many other techniques in Managed Object Format (MOF), applying a qualifier to your code is a relatively simple process.
+description: Like many other techniques in Managed Object Format (MOF), applying a qualifier to your code is a relatively simple process.
 ms.assetid: aaa5c921-bdcd-40e6-ab4b-9441a1957e5b
 ms.tgt_platform: multiple
 title: Applying a Qualifier

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the ordinal number of the stream being played.
+description: Indicates the ordinal number of the stream being played.
 ms.assetid: 796206ab-d69c-4dd5-a408-2ecb5cde243f
 title: System.Video.StreamNumber
 ms.topic: article

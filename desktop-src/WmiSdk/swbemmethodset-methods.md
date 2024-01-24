@@ -1,5 +1,5 @@
 ---
-Description: The SWbemMethodSet object exposes the following methods.
+description: The SWbemMethodSet object exposes the following methods.
 ms.assetid: EE61CF71-44CF-4938-8750-6B0FA3002043
 ms.tgt_platform: multiple
 title: SWbemMethodSet Methods

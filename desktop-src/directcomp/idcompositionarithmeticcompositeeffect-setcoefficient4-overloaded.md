@@ -33,7 +33,7 @@ Sets the fourth coefficient for the equation used to composite the two input ima
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dcomp.h</dt> </dl> |
 

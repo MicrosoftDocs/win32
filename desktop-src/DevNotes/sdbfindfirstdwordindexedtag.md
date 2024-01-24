@@ -1,5 +1,5 @@
 ---
-Description: Finds the first DWORD record in the specified index that meets the specified criteria.
+description: Finds the first DWORD record in the specified index that meets the specified criteria.
 ms.assetid: 81302f84-497d-4fef-b348-eee2a53284c7
 title: SdbFindFirstDWORDIndexedTag function
 ms.topic: reference
@@ -81,7 +81,7 @@ The **TAGID** of the first match or **TAG\_NULL** if no match is found.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

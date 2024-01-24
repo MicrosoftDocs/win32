@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE members"
 title: JET_HANDLE members
 TOCTitle: JET_HANDLE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_HANDLE
@@ -15,7 +16,7 @@ Include inherited members
 
 A JET_HANDLE contains a generic handle.
 
-The [JET_HANDLE](hh558081\(v=exchg.10\).md) type exposes the following members.
+The [JET_HANDLE](./jet-handle-structure.md) type exposes the following members.
 
 ## Properties
 
@@ -127,6 +128,6 @@ Top
 
 #### Reference
 
-[JET_HANDLE structure](hh558081\(v=exchg.10\).md)
+[JET_HANDLE structure](./jet-handle-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

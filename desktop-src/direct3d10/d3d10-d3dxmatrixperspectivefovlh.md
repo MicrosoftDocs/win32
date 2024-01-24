@@ -1,22 +1,25 @@
 ---
-Description: Builds a left-handed perspective projection matrix based on a field of view.
+description: D3DXMatrixPerspectiveFovLH function (D3DX10Math.h) - Builds a left-handed perspective projection matrix based on a field of view.
 ms.assetid: 35ee12d6-0a58-4b00-ac8f-82f82215f02e
 title: D3DXMatrixPerspectiveFovLH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixPerspectiveFovLH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixPerspectiveFovLH function
+# D3DXMatrixPerspectiveFovLH function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a left-handed perspective projection matrix based on a field of view.
 
@@ -114,7 +117,7 @@ xScale = yScale / aspect ratio
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

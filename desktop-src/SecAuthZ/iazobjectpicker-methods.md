@@ -1,5 +1,5 @@
 ---
-Description: The IAzObjectPicker interface exposes the following methods.
+description: The IAzObjectPicker interface exposes the following methods.
 ms.assetid: B1906BD1-80C6-4481-B741-B71D39CA33F1
 title: IAzObjectPicker Methods
 ms.topic: reference

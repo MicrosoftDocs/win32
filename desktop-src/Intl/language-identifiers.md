@@ -1,5 +1,5 @@
 ---
-Description: A language identifier is a standard international numeric abbreviation for the language in a country or geographical region.
+description: A language identifier is a standard international numeric abbreviation for the language in a country or geographical region.
 ms.assetid: 076e2a43-256a-4646-a5c8-1d48ab08ce1a
 title: Language Identifiers
 ms.topic: article

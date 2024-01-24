@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft RSA/Schannel Cryptographic Provider supports hashing, data signing, and signature verification.
+description: The Microsoft RSA/Schannel Cryptographic Provider supports hashing, data signing, and signature verification.
 ms.assetid: 34ede85a-579f-400f-a53e-e40711fcaaf3
 title: Microsoft RSA/Schannel Cryptographic Provider
 ms.topic: article
@@ -12,10 +12,10 @@ The Microsoft [*RSA*](../secgloss/r-gly.md)/[*Schannel*](../secgloss/s-gly.md) C
 
 
 
-|                |                                  |
-|----------------|----------------------------------|
-| Provider type: | **PROV\_RSA\_SCHANNEL**          |
-| Provider name: | **MS\_DEF\_RSA\_SCHANNEL\_PROV** |
+|                   | Value                         |
+|-------------------|-------------------------------|
+| **Provider type** | PROV\_RSA\_SCHANNEL           |
+| **Provider name** | MS\_DEF\_RSA\_SCHANNEL\_PROV  |
 
 
 

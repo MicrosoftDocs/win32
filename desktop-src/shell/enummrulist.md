@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the contents of the most recently used (MRU) list. Optionally retrieves an item from the enumeration.
+description: Enumerates the contents of the most recently used (MRU) list. Optionally retrieves an item from the enumeration.
 title: EnumMRUListW function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,16 +14,6 @@ api_type:
 api_location: 
 - Comctl32.dll
 ms.assetid: 630e5f27-96bf-4e88-b01a-127b301cc051
-api_name: 
- - EnumMRUListW
- - EnumMRUListW
-api_type: 
- - DllExport
-api_location: 
- - Comctl32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -105,7 +95,7 @@ This function is not included in a public header or library. It can be accessed 
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

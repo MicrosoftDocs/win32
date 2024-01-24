@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of a GPU partition device.
+description: Represents the configured state of a GPU partition device.
 ms.assetid: 33ec4ea2-4e79-4c84-8abe-da8308ad6702
 title: Msvm_GpuPartitionSettingData class
 ms.topic: reference
@@ -226,7 +226,7 @@ The optimal amount of VRAM which will appear in the GPU partition.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

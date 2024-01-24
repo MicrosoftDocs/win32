@@ -1,5 +1,5 @@
 ---
-Description: The IEnumMedia interface provides COM-standard enumeration methods for the ITMedia interface. The ITMediaCollection::get\_EnumerationIf method returns a pointer to IEnumMedia.
+description: The IEnumMedia interface provides COM-standard enumeration methods for the ITMedia interface. The ITMediaCollection::get\_EnumerationIf method returns a pointer to IEnumMedia.
 ms.assetid: 827f8866-2445-4b7c-88fe-eed19f48c93b
 title: IEnumMedia interface (Sdpblb.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The **IEnumMedia** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

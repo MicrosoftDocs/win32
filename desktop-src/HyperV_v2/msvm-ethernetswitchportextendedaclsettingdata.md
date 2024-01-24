@@ -1,5 +1,5 @@
 ---
-Description: Represents the extended port ACL settings.
+description: Represents the extended port ACL settings.
 ms.assetid: 357dd891-6692-4ffc-b8a8-4ece40d4af28
 title: Msvm_EthernetSwitchPortExtendedAclSettingData class
 ms.topic: reference
@@ -308,7 +308,7 @@ The weight applied to the extended ACL.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

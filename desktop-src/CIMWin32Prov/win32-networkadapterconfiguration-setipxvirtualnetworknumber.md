@@ -1,5 +1,5 @@
 ---
-Description: Sets the Internetworking Packet Exchange (IPX) virtual network number on the target computer system.
+description: Sets the Internetworking Packet Exchange (IPX) virtual network number on the target computer system.
 ms.assetid: 52064250-b94f-4dc0-bf1a-8601cd135a90
 ms.tgt_platform: multiple
 title: SetIPXVirtualNetworkNumber method of the Win32_NetworkAdapterConfiguration class
@@ -167,7 +167,7 @@ The virtual network number for this system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

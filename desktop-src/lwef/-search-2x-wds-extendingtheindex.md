@@ -1,12 +1,12 @@
 ---
 title: Extending the Index (Legacy Windows Environment Features)
-description: The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of Windows Search.
+description: Learn how to extend the index in Windows Desktop Search 2.x. For Windows releases later than Windows XP and Windows Server 2003, use Windows Search instead.
 ms.assetid: 'vs|search|~\search\wds2x\extending_index_ovr.htm'
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Extending the Index
+# Extending the Index (Legacy Windows Environment Features)
 
 > [!NOTE]
 > Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.

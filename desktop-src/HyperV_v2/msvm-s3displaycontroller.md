@@ -1,5 +1,5 @@
 ---
-Description: Represents the state of the emulated S3 controller that is present in each virtual machine configuration.
+description: Represents the state of the emulated S3 controller that is present in each virtual machine configuration.
 ms.assetid: 194E0195-1AFF-4298-8000-2249495818C2
 title: Msvm_S3DisplayController class
 ms.topic: reference
@@ -1078,7 +1078,7 @@ Access to the **Msvm\_S3DisplayController** class might be restricted by UAC Fil
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

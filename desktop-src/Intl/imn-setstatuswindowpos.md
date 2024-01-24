@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when the status window position in the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as follows.
+description: Notifies an application when the status window position in the input context is updated. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as follows.
 ms.assetid: 15e65aff-67d9-4d1a-a6a7-b921cecb3aec
 title: IMN_SETSTATUSWINDOWPOS notification code (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The application can get information about the status window position by using th
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

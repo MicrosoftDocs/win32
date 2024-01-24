@@ -21,7 +21,7 @@ Represents a 64-bit signed integer value.
 
 
 
-|              |                                                                                    |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------------------|
 | Name         | LargeInteger                                                                       |
 | Syntax ID    | 2.5.5.16                                                                           |

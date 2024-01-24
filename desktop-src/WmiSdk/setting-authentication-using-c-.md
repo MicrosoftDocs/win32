@@ -1,5 +1,5 @@
 ---
-Description: One of the main tasks of IWbemLocator::ConnectServer for WMI is returning a pointer to an IWbemServices proxy.
+description: One of the main tasks of IWbemLocator::ConnectServer for WMI is returning a pointer to an IWbemServices proxy.
 ms.assetid: bbff43b7-79f8-4c7b-a772-d3d962cf3859
 ms.tgt_platform: multiple
 title: Setting Authentication Using C++

@@ -1,5 +1,5 @@
 ---
-Description: The WM\_NCPAINT message is sent to a window when its frame must be painted.
+description: The WM\_NCPAINT message is sent to a window when its frame must be painted.
 ms.assetid: d8a2a8b9-2c5d-484c-be09-67eb33de67c0
 title: WM_NCPAINT message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_NCPAINT** message is sent to a window when its frame must be painted.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -71,7 +71,7 @@ case WM_NCPAINT:
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

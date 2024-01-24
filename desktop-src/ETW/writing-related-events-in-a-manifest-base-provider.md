@@ -1,5 +1,5 @@
 ---
-Description: Use the EventWriteTransfer function when several components want to relate their events in an end-to-end tracing scenario.
+description: Use the EventWriteTransfer function when several components want to relate their events in an end-to-end tracing scenario.
 ms.assetid: 715e3161-d85a-45c0-84df-c6c360b266a1
 title: Writing Related Events in a Manifest-based Provider
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: ProcessTriTessFactorsMin function
-description: Generates the corrected tessellation factors for a tri patch.
+description: Generates the corrected tessellation factors for a tri patch. | ProcessTriTessFactorsMin function
 ms.assetid: fa1e19c2-fadf-42d4-9574-834eaf871393
 keywords:
 - ProcessTriTessFactorsMin function HLSL

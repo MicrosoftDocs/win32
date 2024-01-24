@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Microsoft.Isam.Esent.Interop.Server2003 namespace"
 title: Microsoft.Isam.Esent.Interop.Server2003 namespace ()
 TOCTitle: '@NoTitle'
 ms:assetid: N:Microsoft.Isam.Esent.Interop.Server2003

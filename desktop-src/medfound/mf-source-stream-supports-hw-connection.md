@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether a media source supports hardware data flow.
+description: Indicates whether a media source supports hardware data flow.
 ms.assetid: 32FEBC99-0AE0-4FE9-90AB-5FB204BD4C83
 title: MF_SOURCE_STREAM_SUPPORTS_HW_CONNECTION attribute (Mfidl.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ The connection between the media source and the MFT is negotiated as follows.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

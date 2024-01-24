@@ -1,5 +1,5 @@
 ---
-Description: Creates the specified registry key in an offline registry hive. If the key already exists, the function opens it.
+description: Creates the specified registry key in an offline registry hive. If the key already exists, the function opens it.
 ms.assetid: 40e7468d-e781-4945-9023-580c06088b87
 title: ORCreateKey function (Offreg.h)
 ms.topic: reference
@@ -137,7 +137,7 @@ The offline registry does not support saving individual keys. Use the [**ORSaveH
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

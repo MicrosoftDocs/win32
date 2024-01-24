@@ -1,5 +1,5 @@
 ---
-Description: Making an asynchronous call to a WMI method or a provider method allows a script to continue executing while objects return to an SWbemSink object, and are handled by methods such as SWbemSink.OnObjectReady.
+description: Making an asynchronous call to a WMI method or a provider method allows a script to continue executing while objects return to an SWbemSink object, and are handled by methods such as SWbemSink.OnObjectReady.
 ms.assetid: 61f401d9-c874-472d-8dd3-7cf9d7f20a12
 ms.tgt_platform: multiple
 title: Making an Asynchronous Call with VBScript

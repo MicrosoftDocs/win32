@@ -1,5 +1,5 @@
 ---
-Description: Specifies the URL provided as an import hint for a WSDL or XSD referenced inside another WSDL.
+description: Specifies the URL provided as an import hint for a WSDL or XSD referenced inside another WSDL.
 ms.assetid: ba489fd7-2304-426e-83a0-d174bb394065
 title: location element
 ms.topic: reference
@@ -30,7 +30,7 @@ There are no child elements.
 
 | Element                                     | Description                                                                                                                             |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**importHint**](importhint.md)<br/> | Specifies the download location for a <wsdl:import> directive that does not explicitly specify a location.<br/> <br/> |
+| [**importHint**](importhint.md)<br/> | Specifies the download location for a \<wsdl:import> directive that does not explicitly specify a location.<br/> <br/> |
 
 
 
@@ -38,7 +38,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

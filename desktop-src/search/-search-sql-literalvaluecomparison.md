@@ -1,5 +1,5 @@
 ---
-Description: The literal value comparison uses standard comparison operators for matching a single-valued column to a literal value.
+description: The literal value comparison uses standard comparison operators for matching a single-valued column to a literal value.
 ms.assetid: 941298b4-d703-4b3f-8bde-0e6e158560df
 title: Literal Value Comparison
 ms.topic: article
@@ -55,6 +55,8 @@ In conjunction with the "=" operator, Windows Search Structured Query Language (
 ```
 ...WHERE <column> <comparison operator> [BEFORE | AFTER](<https://msdn.microsoft.com/library/Ff637626(v=MSDN.10).aspx>)
 ```
+
+Note: to compare dates, you must use [DATEADD](/windows/win32/search/-search-sql-dateadd).
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to use the Shell drag-and-drop services to get the presentation features that Shell drag-and-drop supports for both targets and sources.
+description: Demonstrates how to use the Shell drag-and-drop services to get the presentation features that Shell drag-and-drop supports for both targets and sources.
 title: Drag-and-Drop Visuals Sample
 ms.topic: article
 ms.date: 05/31/2018

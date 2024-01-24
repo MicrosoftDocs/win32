@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for driver complete request events. The following syntax is simplified from MOF code.
+description: This class is the event type class for driver complete request events. The following syntax is simplified from MOF code.
 ms.assetid: c9c9be05-c1c6-4d77-a47a-44a61ebfcdc7
 title: DriverCompleteRequest class
 ms.topic: reference
@@ -99,7 +99,7 @@ Identifier that uniquely identifies request. Use this identifier to correlate wi
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the number of pixels per resolution unit in the image width.
+description: Indicates the number of pixels per resolution unit in the image width.
 ms.assetid: 6d5ac7df-94a5-404f-a692-c472faabef1f
 title: System.Image.HorizontalResolution
 ms.topic: article

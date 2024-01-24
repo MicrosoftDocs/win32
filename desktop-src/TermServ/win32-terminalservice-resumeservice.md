@@ -1,6 +1,6 @@
 ---
 title: ResumeService method of the Win32_Service class (Remote Desktop Services)
-description: Attempts to place the referenced service in the resumed state.
+description: ResumeService method of the Win32_Service class (Remote Desktop Services) - Attempts to place the referenced service in the resumed state.
 ms.assetid: AA020A0A-E69C-44AB-B259-A73460728770
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# ResumeService method of the Win32\_Service class
+# ResumeService method of the Win32_Service class (Remote Desktop Services)
 
 The **ResumeService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the referenced service in the resumed state.
 
@@ -228,15 +228,11 @@ You must use the proper method to start a service that has been stopped or to re
 -   If a service is currently stopped, you must use the [**StartService**](win32-terminalservice-startservice.md) method to restart it; **ResumeService** cannot start a service that is currently stopped.
 -   If a service is paused, you must use **ResumeService**. If you use the [**StartService**](win32-terminalservice-startservice.md) method on a paused service, you receive the message, "The service is already running." However, the service remains paused until the resume service control code is sent to it.
 
-## Examples
-
-The [Resume AutoStart Services that are Paused](https://Gallery.TechNet.Microsoft.Com/413f2896-e7f3-4b3e-96cb-5abdc9bb6c36) VBScript sample restarts any auto-start services that have been paused.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

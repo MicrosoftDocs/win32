@@ -1,5 +1,5 @@
 ---
-Description: Defines a Uniscribe font metric cache.
+description: Defines a Uniscribe font metric cache.
 ms.assetid: 56a98529-6ae9-4b71-bd7d-cf056a1e3683
 title: SCRIPT_CACHE (Usp10.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ if (hr == E_PENDING)
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

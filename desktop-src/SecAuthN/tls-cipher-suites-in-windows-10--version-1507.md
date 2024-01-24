@@ -1,5 +1,5 @@
 ---
-Description: Cipher suites can only be negotiated for TLS versions which support them.
+description: Learn about TLS cipher suites in Windows 10 v1507. Cipher suites can only be negotiated for TLS versions which support them.
 ms.assetid: 58A47273-D2D3-449D-891C-C9502012C557
 title: TLS Cipher Suites in Windows 10 v1507
 ms.topic: article
@@ -20,7 +20,7 @@ Availability of cipher suites should be controlled in one of two ways:
 
  
 
-FIPS-compliance has become more complex with the addition of elliptic curves making the FIPS mode enabled column in previous versions of this table misleading. For example, a cipher suite such as TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA256 is only FIPS-complaint when using NIST elliptic curves. To find out which combinations of elliptic curves and cipher suites will be enabled in FIPS mode, see section 3.3.1 of [Guidelines for the Selection, Configuration, and Use of TLS Implementations]( https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf).
+FIPS-compliance has become more complex with the addition of elliptic curves making the FIPS mode enabled column in previous versions of this table misleading. For example, a cipher suite such as TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA256 is only FIPS-compliant when using NIST elliptic curves. To find out which combinations of elliptic curves and cipher suites will be enabled in FIPS mode, see section 3.3.1 of [Guidelines for the Selection, Configuration, and Use of TLS Implementations]( https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf).
 
 For Windows 10, version 1507, the following cipher suites are enabled and in this priority order by default using the Microsoft Schannel Provider:
 
@@ -77,7 +77,7 @@ The following cipher suites are supported by the Microsoft Schannel Provider, bu
 | TLS\_RSA\_EXPORT1024\_WITH\_RC4\_56\_SHA<br/>                                  | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_EXPORT1024\_WITH\_DES\_CBC\_SHA<br/>                                 | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_RSA\_EXPORT\_WITH\_RC4\_40\_MD5<br/>                                      | No<br/>                       | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
-| TLS\_RSA\_WITH\_NULL\_MD5 Only used when application explicitly requests.<br/> | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_NULL\_MD5 <br/>  Only used when application explicitly requests.<br/> | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_DHE\_DSS\_WITH\_DES\_CBC\_SHA<br/>                                        | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | TLS\_DHE\_DSS\_EXPORT1024\_WITH\_DES\_CBC\_SHA<br/>                            | Yes<br/>                      | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | SSL\_CK\_DES\_64\_CBC\_WITH\_MD5<br/>                                          | Yes<br/>                      | SSL 2.0<br/>                            |
@@ -90,7 +90,7 @@ The following cipher suites are supported by the Microsoft Schannel Provider, bu
 To add cipher suites, either deploy a group policy or use the TLS cmdlets:
 
 -   To use group policy, configure SSL Cipher Suite Order under Computer Configuration > Administrative Templates > Network > SSL Configuration Settings with the priority list for all cipher suites you want enabled.
--   To use PowerShell, see [TLS cmdlets](/powershell/module/tls/?view=win10-ps).
+-   To use PowerShell, see [TLS cmdlets](/powershell/module/tls/).
 
 > [!Note]  
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.

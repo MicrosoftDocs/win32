@@ -1,5 +1,5 @@
 ---
-Description: The LINETERMMODE\_ bit-flag constants describe different types of events on a phone line that can be routed to a terminal device.
+description: The LINETERMMODE\_ bit-flag constants describe different types of events on a phone line that can be routed to a terminal device.
 ms.assetid: 60af1687-8958-4918-be21-a13780c60974
 title: LINETERMMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ These constants describe the classes of control and information streams that can
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

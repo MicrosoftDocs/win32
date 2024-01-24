@@ -1,5 +1,5 @@
 ---
-Description: The following are the ImageHlp functions.
+description: The following are the ImageHlp functions.
 ms.assetid: 926f412e-25ba-4f9c-a118-b5a1bc723379
 title: ImageHlp Functions
 ms.topic: article

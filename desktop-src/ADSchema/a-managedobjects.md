@@ -22,7 +22,7 @@ Contains the list of objects that are managed by the user. The objects listed ar
 
 
 
-|                   |                                                                                    |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | CN                | Managed-Objects                                                                    |
 | Ldap-Display-Name | managedObjects                                                                     |
@@ -49,7 +49,7 @@ Contains the list of objects that are managed by the user. The objects listed ar
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 73                              |
 | MAPI-Id                | 0x8024                          |
@@ -70,7 +70,7 @@ Contains the list of objects that are managed by the user. The objects listed ar
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 73                              |
 | MAPI-Id                | 0x8024                          |
@@ -91,7 +91,7 @@ Contains the list of objects that are managed by the user. The objects listed ar
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 73                              |
 | MAPI-Id                | 0x8024                          |
@@ -112,7 +112,7 @@ Contains the list of objects that are managed by the user. The objects listed ar
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 73                              |
 | MAPI-Id                | 0x8024                          |
@@ -133,7 +133,7 @@ Contains the list of objects that are managed by the user. The objects listed ar
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 73                              |
 | MAPI-Id                | 0x8024                          |
@@ -154,7 +154,7 @@ Contains the list of objects that are managed by the user. The objects listed ar
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 73                              |
 | MAPI-Id                | 0x8024                          |
@@ -175,7 +175,7 @@ Contains the list of objects that are managed by the user. The objects listed ar
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 73                              |
 | MAPI-Id                | 0x8024                          |

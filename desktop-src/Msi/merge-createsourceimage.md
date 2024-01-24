@@ -1,5 +1,5 @@
 ---
-Description: The CreateSourceImage method of the Merge object allows the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration.
+description: The CreateSourceImage method of the Merge object allows the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration.
 ms.assetid: c3e3465a-d5a7-4fcc-b26a-5a8c763c23d9
 title: Merge.CreateSourceImage method (Mergemod.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ See [**CreateSourceImage**](/windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

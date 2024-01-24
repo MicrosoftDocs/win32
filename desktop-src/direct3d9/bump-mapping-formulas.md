@@ -1,5 +1,5 @@
 ---
-Description: Direct3D applies the following formulas to the DU and DV components in each bump map pixel.
+description: Direct3D applies the following formulas to the DU and DV components in each bump map pixel.
 ms.assetid: ae1de432-d1cc-45a5-b25f-b669cd30af3b
 title: Bump Mapping Formulas (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: For NLS, sorting (also known as &\#0034;collation&\#0034;) is the arrangement of strings.
+description: For NLS, sorting (also known as &\#0034;collation&\#0034;) is the arrangement of strings.
 ms.assetid: 8ca3af60-1ddb-4bfb-8aa6-8db769b3982d
 title: Sorting (Internationalization)
 ms.topic: article

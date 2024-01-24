@@ -1,5 +1,5 @@
 ---
-Description: People Near Me APIs
+description: People Near Me APIs
 ms.assetid: 3b142d23-a9b2-465c-9bdc-484afbde154e
 title: People Near Me APIs
 ms.topic: article

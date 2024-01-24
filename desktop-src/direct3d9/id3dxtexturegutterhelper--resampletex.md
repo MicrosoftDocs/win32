@@ -1,5 +1,5 @@
 ---
-Description: Resamples a texture into this gutterhelper's parameterization.
+description: Resamples a texture into this gutterhelper's parameterization.
 ms.assetid: a5ace0e4-2e89-471b-bdfb-67d5e85c6f46
 title: ID3DXTextureGutterHelper::ResampleTex method (D3DX9Mesh.h)
 ms.topic: reference
@@ -137,7 +137,7 @@ One common scenario might be to use UVAtlas to create a texture atlas and then u
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

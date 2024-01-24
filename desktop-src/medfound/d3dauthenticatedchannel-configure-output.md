@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a call to the IDirect3DAuthenticatedChannel9::Configure method.
+description: Contains the response to a call to the IDirect3DAuthenticatedChannel9::Configure method.
 ms.assetid: 6f33d3f7-a883-4aca-a058-b656d745f2b1
 title: D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT structure (D3d9types.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ For the **ConfigureType**, **hChannel**, and **SequenceNumber** members, the dri
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

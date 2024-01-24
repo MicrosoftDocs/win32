@@ -1,5 +1,5 @@
 ---
-Description: The CopyEx method copies the logical file (or directory) specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method and is inherited from CIM\_LogicalFile.
+description: The CopyEx method copies the logical file (or directory) specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method and is inherited from CIM\_LogicalFile.
 ms.assetid: e207cc80-055e-41bc-ab80-dc50131b544d
 ms.tgt_platform: multiple
 title: CopyEx method of the CIM_Directory class
@@ -208,7 +208,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

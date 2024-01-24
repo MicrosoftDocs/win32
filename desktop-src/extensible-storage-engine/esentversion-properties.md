@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentVersion properties"
 title: EsentVersion properties
 TOCTitle: EsentVersion properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentVersion
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentVersion](dn335007\(v=exchg.10\).md) type exposes the following members.
+The [EsentVersion](./esentversion-class.md) type exposes the following members.
 
 ## Properties
 
@@ -66,7 +67,6 @@ Top
 
 #### Reference
 
-[EsentVersion class](dn335007\(v=exchg.10\).md)
+[EsentVersion class](./esentversion-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

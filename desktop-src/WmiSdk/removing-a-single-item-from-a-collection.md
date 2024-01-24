@@ -1,5 +1,5 @@
 ---
-Description: One of the main purposes of accessing a collection is to remove an item from the collection. You can remove an item from a collection with a call to the SWbemPropertySet.Remove method. This method is not available for SWbemObjectSet or SWbemMethodSet.
+description: One of the main purposes of accessing a collection is to remove an item from the collection. You can remove an item from a collection with a call to the SWbemPropertySet.Remove method. This method is not available for SWbemObjectSet or SWbemMethodSet.
 ms.assetid: 4a71029c-9fe1-4348-9f78-daa345728e8d
 ms.tgt_platform: multiple
 title: Removing a Single Item from a WMI Collection

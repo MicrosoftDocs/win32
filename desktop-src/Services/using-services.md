@@ -1,5 +1,5 @@
 ---
-Description: To create and control services, use the following sample code.
+description: To create and control services, use the following sample code.
 ms.assetid: cacf0bdd-95b3-41d3-96a9-c60415a1f437
 title: Using Services
 ms.topic: article

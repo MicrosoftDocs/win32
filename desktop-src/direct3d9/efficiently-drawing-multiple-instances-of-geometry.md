@@ -1,5 +1,5 @@
 ---
-Description: Given a scene that contains many objects that use the same geometry, you can draw many instances of that geometry at different orientations, sizes, colors, and so on with dramatically better performance by reducing the amount of data you need to supply to the renderer.
+description: Given a scene that contains many objects that use the same geometry, you can draw many instances of that geometry at different orientations, sizes, colors, and so on with dramatically better performance by reducing the amount of data you need to supply to the renderer.
 ms.assetid: d8d9b0c8-b1c4-406d-bf2a-9716d725aec7
 title: Efficiently Drawing Multiple Instances of Geometry (Direct3D 9)
 ms.topic: article

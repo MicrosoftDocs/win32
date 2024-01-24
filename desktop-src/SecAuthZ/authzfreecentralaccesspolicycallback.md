@@ -1,5 +1,5 @@
 ---
-Description: The AuthzFreeCentralAccessPolicyCallback function is an application-defined function that frees memory allocated by the AuthzGetCentralAccessPolicyCallback function.
+description: The AuthzFreeCentralAccessPolicyCallback function is an application-defined function that frees memory allocated by the AuthzGetCentralAccessPolicyCallback function.
 ms.assetid: F0859A67-4D20-4189-8F35-A78034E41E6A
 title: AuthzFreeCentralAccessPolicyCallback callback function
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the media protection system to use for the content.
+description: Specifies the media protection system to use for the content.
 ms.assetid: D0380C89-872A-4863-983F-A52FBACEF4FD
 title: MFPKEY_MediaProtectionSystemId property
 ms.topic: reference
@@ -34,7 +34,7 @@ The value of this property is a GUID that identifies the media protection system
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.idl</dt> </dl> |
 

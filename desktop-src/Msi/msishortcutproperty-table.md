@@ -1,5 +1,5 @@
 ---
-Description: The MsiShortcutProperty table enables Window Installer to set properties for shortcuts that are also Windows Shell objects.
+description: The MsiShortcutProperty table enables Window Installer to set properties for shortcuts that are also Windows Shell objects.
 ms.assetid: d959769d-113f-4af2-89d4-ad3f5322de33
 title: MsiShortcutProperty Table
 ms.topic: article

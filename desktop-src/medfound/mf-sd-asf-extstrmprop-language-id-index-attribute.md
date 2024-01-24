@@ -1,5 +1,5 @@
 ---
-Description: Specifies the language used by a stream in an Advanced Systems Format (ASF) file.
+description: Specifies the language used by a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 834cac0a-0c84-49aa-baf2-32bae26e215b
 title: MF_SD_ASF_EXTSTRMPROP_LANGUAGE_ID_INDEX attribute (Wmcontainer.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ You can also get the language tag by querying the stream descriptor for the [**M
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

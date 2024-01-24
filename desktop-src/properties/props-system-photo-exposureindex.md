@@ -1,5 +1,5 @@
 ---
-Description: Indicates the exposure index selected on the camera or input device at the time the photo was taken. Calculated from PKEY\_Photo\_ExposureIndexNumerator and PKEY\_Photo\_ExposureIndexDenominator.
+description: Indicates the exposure index selected on the camera or input device at the time the photo was taken. Calculated from PKEY\_Photo\_ExposureIndexNumerator and PKEY\_Photo\_ExposureIndexDenominator.
 ms.assetid: 83ade9b2-78ea-4b26-b034-4ea5ad38a331
 title: System.Photo.ExposureIndex
 ms.topic: article
@@ -34,7 +34,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

@@ -1,5 +1,5 @@
 ---
-Description: Smart Card Authentication
+description: Smart Card Authentication
 ms.assetid: cb5c80ea-c15e-4f68-a94b-b458d69ff474
 title: Smart Card Authentication
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Smart Card Authentication
 
-The basic parts of the [*smart card subsystem*](../secgloss/s-gly.md) are based on PC/SC standards (see the specifications at [https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/)). These basic parts include:
+The basic parts of the [*smart card subsystem*](../secgloss/s-gly.md) are based on PC/SC standards (see the specifications at [https://pcscworkgroup.com](https://pcscworkgroup.com)). These basic parts include:
 
 -   A [*resource manager*](../secgloss/r-gly.md) that uses a Windows API.
 -   A [*user interface*](../secgloss/u-gly.md) (UI) that works with the resource manager.

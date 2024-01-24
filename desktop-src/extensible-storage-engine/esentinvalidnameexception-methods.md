@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidNameException methods"
 title: EsentInvalidNameException methods
 TOCTitle: EsentInvalidNameException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidNameException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidNameException](dn319541\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidNameException](./esentinvalidnameexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidNameException class](dn319541\(v=exchg.10\).md)
+[EsentInvalidNameException class](./esentinvalidnameexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

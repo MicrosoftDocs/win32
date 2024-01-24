@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCCallbackUnexpectedErrorException properties"
 title: EsentDTCCallbackUnexpectedErrorException properties
 TOCTitle: EsentDTCCallbackUnexpectedErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDTCCallbackUnexpectedErrorException](dn334500\(v=exchg.10\).md) type exposes the following members.
+The [EsentDTCCallbackUnexpectedErrorException](./esentdtccallbackunexpectederrorexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDTCCallbackUnexpectedErrorException class](dn334500\(v=exchg.10\).md)
+[EsentDTCCallbackUnexpectedErrorException class](./esentdtccallbackunexpectederrorexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

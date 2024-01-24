@@ -11,11 +11,14 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # argument Element
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **argument** element contains one portion of a condition string. A condition string typically has a condition portion and a value portion. For example, in the condition string "Artist Equals Joe", the condition portion is "Equals" and the value portion is "Joe".
 
@@ -55,8 +58,8 @@ When the **name** attribute of a **fragment** element is a media item characteri
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,10 +75,10 @@ When the **name** attribute of a **fragment** element is a media item characteri
 <tr class="even">
 <td>Value</td>
 <td>The content of the <strong>argument</strong> element is the value portion of a condition string. For example, in the condition string &quot;Artist Equals Joe&quot;, the value portion is &quot;Joe&quot;.Example:<br/>
-<pre data-space="preserve"><code><fragment name = &quot;Artist&quot;>
-  <argument name = &quot;Condition&quot;>Equals</argument>
-  <argument name = &quot;Value&quot;>Joe</argument>
-</fragment></code></pre></td>
+<pre data-space="preserve"><code>\&lt;fragment name = &quot;Artist&quot;&gt;
+  &lt;argument name = &quot;Condition&quot;>Equals&lt;/argument&gt;
+  &lt;argument name = &quot;Value&quot;>Joe&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -90,8 +93,8 @@ When the **name** attribute of a **fragment** element is "Limit Total Size To" o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -107,15 +110,15 @@ When the **name** attribute of a **fragment** element is "Limit Total Size To" o
 <tr class="even">
 <td>Number</td>
 <td>The content of the <strong>argument</strong> element is a number that limits the size or duration of the playlist.Examples:<br/>
-<pre data-space="preserve"><code><fragment name = &quot;Limit Total Size To&quot;>
-  <argument name = &quot;Format&quot;>Megabytes</argument>
-  <argument name = &quot;Number&quot;>5</argument>
-</fragment>
+<pre data-space="preserve"><code>\&lt;fragment name = &quot;Limit Total Size To&quot;&gt;
+  &lt;argument name = &quot;Format&quot;>Megabytes&lt;/argument&gt;
+  &lt;argument name = &quot;Number&quot;>5&lt;/argument&gt;
+&lt;/fragment&gt;
 
-<fragment name = &quot;Limit Total Duration To&quot;>
-  <argument name = &quot;Format&quot;>Minutes</argument>
-  <argument name = &quot;Number&quot;>20</argument>
-</fragment></code></pre></td>
+\<fragment name = &quot;Limit Total Duration To&quot;>
+  &lt;argument name = &quot;Format&quot;>Minutes&lt;/argument&gt;
+  &lt;argument name = &quot;Number&quot;>20&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -130,8 +133,8 @@ When the **name** attribute of a **fragment** element is "Limit Number of Items"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -143,9 +146,9 @@ When the **name** attribute of a **fragment** element is "Limit Number of Items"
 <tr class="odd">
 <td>Number</td>
 <td>The content of the <strong>argument</strong> element is a number that limits the number of items in a playlist.Example:<br/>
-<pre data-space="preserve"><code><fragment name = &quot;Limit Number of Items&quot;>
-  <argument name = &quot;Number&quot;>15</argument>
-</fragment></code></pre></td>
+<pre data-space="preserve"><code>\&lt;fragment name = &quot;Limit Number of Items&quot;&gt;
+  &lt;argument name = &quot;Number&quot;&gt;15&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -158,7 +161,7 @@ When the **name** attribute of a **fragment** element is "Limit Number of Items"
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

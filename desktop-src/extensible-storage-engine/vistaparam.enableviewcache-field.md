@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.EnableViewCache field"
 title: VistaParam.EnableViewCache field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: EnableViewCache field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.EnableViewCache
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Enable the use of memory mapped file I/O for database files.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const JET_param EnableViewCache
 
 #### Reference
 
-[VistaParam class](dn335284\(v=exchg.10\).md)
+[VistaParam class](./vistaparam-class.md)
 
-[VistaParam members](dn335372\(v=exchg.10\).md)
+[VistaParam members](./vistaparam-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

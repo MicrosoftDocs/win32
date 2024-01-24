@@ -1,5 +1,5 @@
 ---
-Description: In addition to supplying services, providers, classes, and instances, WMI also comes with several tools.
+description: In addition to supplying services, providers, classes, and instances, WMI also comes with several tools.
 ms.assetid: 452a396b-c7da-4ccd-873e-f381ee7c289a
 ms.tgt_platform: multiple
 title: Using the WMI Command-Line Tools

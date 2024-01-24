@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe the activation context API, side-by-side system assemblies supported by Microsoft, and a specification of the format of XML manifest files.
+description: The following sections describe the activation context API, side-by-side system assemblies supported by Microsoft, and a specification of the format of XML manifest files.
 ms.assetid: 7ebed490-2bd5-4193-bcd1-b9d60438cf9c
 title: Side-by-side Assemblies Reference
 ms.topic: article

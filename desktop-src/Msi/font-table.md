@@ -1,5 +1,5 @@
 ---
-Description: The Font table contains the information for registering font files with the system.
+description: The Font table contains the information for registering font files with the system.
 ms.assetid: 5ddff430-a6f8-473b-8006-ac0124469a99
 title: Font Table
 ms.topic: article

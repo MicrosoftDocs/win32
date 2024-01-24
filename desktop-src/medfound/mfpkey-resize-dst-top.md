@@ -1,5 +1,5 @@
 ---
-Description: Specifies the top edge of the destination rectangle, in pixels.
+description: MFPKEY_RESIZE_DST_TOP Property - Specifies the top edge of the destination rectangle, in pixels.
 ms.assetid: 66147460-b8c2-4d80-9a87-a2eeeea66cfa
 title: MFPKEY_RESIZE_DST_TOP Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ VT\_I4
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

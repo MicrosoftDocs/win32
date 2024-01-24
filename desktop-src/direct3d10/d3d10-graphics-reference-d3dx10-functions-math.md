@@ -1,15 +1,15 @@
 ---
-Description: The math library provided by the D3DX utility library supplies functions to compute 3D mathematical operations.
+description: Learn about the math library provided by the D3DX utility library in Direct3D 10 Graphics. The library supplies functions to compute 3D mathematical operations.
 ms.assetid: 6e180c12-8cbe-4013-8bb4-3ac5bb9c65f1
 title: Math Functions (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Math Functions
+# Math Functions (Direct3D 10 Graphics)
 
-> [!Note]  
-> The math functions of the D3DX utility library are deprecated for Windows 8. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead.
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
  
 

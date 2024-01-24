@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_ENVIRONMENTAL category contains sensors that provide information about the surrounding environment or weather.
+description: The SENSOR\_CATEGORY\_ENVIRONMENTAL category contains sensors that provide information about the surrounding environment or weather.
 ms.assetid: 4a29d44b-8949-474d-a2bf-0c6e1d30b198
 title: SENSOR_CATEGORY_ENVIRONMENTAL (Sensors.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ This category includes the following platform-defined data fields.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

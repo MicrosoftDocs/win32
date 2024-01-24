@@ -1,5 +1,5 @@
 ---
-Description: For a media type that describes an MPEG-2 transport stream (TS), specifies whether the transport packets contain Content Packet headers.
+description: For a media type that describes an MPEG-2 transport stream (TS), specifies whether the transport packets contain Content Packet headers.
 ms.assetid: 527B965D-4330-4DCB-B6DA-32D6BCDF5515
 title: MF_MT_MPEG2_CONTENT_PACKET attribute (Mfapi.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ For a media type that describes an MPEG-2 transport stream (TS), specifies wheth
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

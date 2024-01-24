@@ -1,5 +1,5 @@
 ---
-Description: Determines if a parameter is used by the technique.
+description: Determines if a parameter is used by the technique.
 ms.assetid: ac50c0d3-93d9-4477-a854-d0b53df28c90
 title: ID3DXEffect::IsParameterUsed method (D3DX9Effect.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Returns **TRUE** if the parameter is being used and returns **FALSE** if the par
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

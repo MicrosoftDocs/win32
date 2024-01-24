@@ -1,5 +1,5 @@
 ---
-Description: The well-known identifier \_\_CLASS refers to a pseudo-property on every WMI object that indicates the class of the current object.
+description: The well-known identifier \_\_CLASS refers to a pseudo-property on every WMI object that indicates the class of the current object.
 ms.assetid: a1d0e934-c5b5-4554-9d6e-3881064419ca
 ms.tgt_platform: multiple
 title: '__CLASS Identifier'

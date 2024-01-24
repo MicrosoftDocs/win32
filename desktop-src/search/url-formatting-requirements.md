@@ -1,5 +1,5 @@
 ---
-Description: As of Windows 7, inconsistencies remain in the handling and parsing of URLs. This topic provides a limited guide to navigating inconsistencies in file URL formats.
+description: As of Windows 7, inconsistencies remain in the handling and parsing of URLs. This topic provides a limited guide to navigating inconsistencies in file URL formats.
 ms.assetid: E9792368-517B-4FD7-A244-6C4B7F78B66E
 title: URL Formatting Requirements
 ms.topic: article

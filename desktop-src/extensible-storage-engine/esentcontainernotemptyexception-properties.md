@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentContainerNotEmptyException properties"
 title: EsentContainerNotEmptyException properties
 TOCTitle: EsentContainerNotEmptyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentContainerNotEmptyException](dn334323\(v=exchg.10\).md) type exposes the following members.
+The [EsentContainerNotEmptyException](./esentcontainernotemptyexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentContainerNotEmptyException class](dn334323\(v=exchg.10\).md)
+[EsentContainerNotEmptyException class](./esentcontainernotemptyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

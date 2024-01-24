@@ -1,5 +1,5 @@
 ---
-Description: Reads the binary data. Deprecated.
+description: Reads the binary data. Deprecated.
 ms.assetid: 530552c5-bf05-4e86-836d-d25161832c6d
 title: IDirectXFileBinary::Read method (DXFile.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is DXFILE\_OK. If the method fails, the
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

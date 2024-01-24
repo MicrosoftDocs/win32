@@ -1,5 +1,5 @@
 ---
-Description: Executes a verb on a Shell item.
+description: Executes a verb on a Shell item.
 ms.assetid: 'aac3f338-6074-4b1f-9b2f-e6206db52419'
 title: ShellFolderItem.InvokeVerbEx method (Shldisp.h)
 ms.topic: reference
@@ -160,7 +160,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

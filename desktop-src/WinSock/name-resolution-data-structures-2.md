@@ -1,5 +1,5 @@
 ---
-Description: Name resolution data structures in Windows Sockets (Winsock).
+description: Name resolution data structures in Windows Sockets (Winsock).
 ms.assetid: 87c54141-41e2-4eaa-ae3b-84598e8281d9
 title: Name Resolution Data Structures
 ms.topic: article

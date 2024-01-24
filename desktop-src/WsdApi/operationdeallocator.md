@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type deallocator to be used by an operations stub function.
+description: Specifies the type deallocator to be used by an operations stub function.
 ms.assetid: 52e6235d-90e6-4559-b17c-14ca3be896ff
 title: operationDeallocator element
 ms.topic: reference
@@ -47,7 +47,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

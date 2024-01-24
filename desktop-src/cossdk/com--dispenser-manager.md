@@ -1,5 +1,5 @@
 ---
-Description: The dispenser manager provides resource pooling for the resource dispensers and ensures that a resource supplied by a resource dispenser is correctly enlisted in the application objects transaction.
+description: The dispenser manager provides resource pooling for the resource dispensers and ensures that a resource supplied by a resource dispenser is correctly enlisted in the application objects transaction.
 ms.assetid: c8986943-56a1-4668-9e80-7ab2a42333a8
 title: COM+ Dispenser Manager
 ms.topic: article

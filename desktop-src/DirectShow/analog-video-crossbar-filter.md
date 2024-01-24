@@ -1,12 +1,15 @@
 ---
-Description: Analog Video Crossbar Filter
+description: Analog Video Crossbar Filter
 ms.assetid: 668f6a8b-a4ed-4e4a-956c-a87f165225fa
 title: Analog Video Crossbar Filter
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Analog Video Crossbar Filter
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Analog Video Crossbar filter represents a video crossbar on a video capture device that supports the Windows Driver Model (WDM).
 
@@ -18,7 +21,7 @@ For more information on wrapper filters and WDM streaming devices, see [How Hard
 
 
 
-|                                          |                                                                                                |
+| Label | Value |
 |------------------------------------------|------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMCrossbar**](/windows/desktop/api/Strmif/nn-strmif-iamcrossbar), ISpecifyPropertyPages, IPersistPropertyBag, IPersistStream |
 | Input Pin Media Types                    | MEDIATYPE\_AnalogAudio, MEDIATYPE\_AnalogVideo                                                 |

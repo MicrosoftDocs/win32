@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Windows Error Reporting Problem Steps Recorder
 ms.assetid: ce5db84a-53b6-4a7f-bee4-d198d8a6781e
 title: Windows Error Reporting Problem Steps Recorder
 ms.topic: article
@@ -29,7 +29,6 @@ Currently, a Windows Error Reporting service developer must request PSR enableme
 ## Links to Other Resources
 
 -   [Windows Error Reporting blog entry](/archive/blogs/wer/)
--   [Windows Quality Online Services (Winqual)](https://winqual.microsoft.com)
 
  
 

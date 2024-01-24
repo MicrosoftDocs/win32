@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransReadOnlyException members"
 title: EsentTransReadOnlyException members
 TOCTitle: EsentTransReadOnlyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTransReadOnlyException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TransReadOnly exceptions.
 
-The [EsentTransReadOnlyException](dn350809\(v=exchg.10\).md) type exposes the following members.
+The [EsentTransReadOnlyException](./esenttransreadonlyexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTransReadOnlyException class](dn350809\(v=exchg.10\).md)
+[EsentTransReadOnlyException class](./esenttransreadonlyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

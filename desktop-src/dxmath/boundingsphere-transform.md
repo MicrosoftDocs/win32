@@ -1,5 +1,5 @@
 ---
-Description: Transforms the BoundingSphere.
+description: Transforms the BoundingSphere.
 ms.assetid: 545904d4-f6c4-4341-a043-70b1a4d81f1c
 title: BoundingSphere.Transform methods
 ms.topic: reference

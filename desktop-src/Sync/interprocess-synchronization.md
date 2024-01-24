@@ -1,5 +1,5 @@
 ---
-Description: Multiple processes can have handles to the same event, mutex, semaphore, or timer object, so these objects can be used to accomplish interprocess synchronization.
+description: Multiple processes can have handles to the same event, mutex, semaphore, or timer object, so these objects can be used to accomplish interprocess synchronization.
 ms.assetid: 1738e586-580f-4b74-95dc-ede300b6ac9a
 title: Interprocess Synchronization
 ms.topic: article

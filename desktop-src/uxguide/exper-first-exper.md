@@ -3,10 +3,13 @@ title: First Experience
 description: In the ideal first experience, users install your program and use it productively immediately, without answering a bunch of questions or learning a bunch of things.
 ms.assetid: d925f71c-fc5a-4ff2-8f5d-9434c162b4b4
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # First Experience
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 In the ideal first experience, users install your program and use it productively immediately, without answering a bunch of questions or learning a bunch of things.
 
@@ -67,7 +70,7 @@ If so, consider presenting the tasks and settings during the first use experienc
 
 In the ideal first experience, users install your program (or even just start it if it doesn't require installation) and use it productively immediately without answering a bunch of questions or learning a bunch of things.
 
-This ideal is obtainable for most programs, so you should strive for this ideal experience whenever you can. However, this goal is often not obtainable for programs that require significant system integration, have many optional features, or have privacy implications. For example, if your program has features that might reveal personal information to untrusted parties, the tenets of [trustworthy computing](https://www.microsoft.com/mscorp/twc/default.mspx) require that you obtain user consent before enabling these features.
+This ideal is obtainable for most programs, so you should strive for this ideal experience whenever you can. However, this goal is often not obtainable for programs that require significant system integration, have many optional features, or have privacy implications. For example, if your program has features that might reveal personal information to untrusted parties, the tenets of trustworthy computing require that you obtain user consent before enabling these features.
 
 ### Questions aren't choices
 
@@ -81,9 +84,8 @@ Present settings and tasks to users during the first experiences when you must, 
 
 
 
-|                                             |                                                                                                                                                    |
+| First experience  | Alternatives       |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **First experience**<br/>             | **Alternatives**<br/>                                                                                                                        |
 | Setup questions<br/>                  | Select appropriate defaults.<br/> Allow users to change from program options.<br/> Provide typical vs. custom setup paths. <br/> |
 | First use questions<br/>              | Select appropriate defaults, and allow users to change from program options.<br/>                                                            |
 | First use tasks<br/>                  | Present contextually instead.<br/>                                                                                                           |
@@ -182,10 +184,4 @@ Windows asks users for the computer name and choice of background during setup b
 -   **Don't use any notifications during the initial Windows experience.** To improve its first experience, Windows 7 suppresses all notifications displayed during the first few hours of usage. Design your program assuming users won't see any such notifications.
 
  
-
- 
-
-
-
-
 

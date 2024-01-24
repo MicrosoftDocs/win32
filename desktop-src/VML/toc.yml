@@ -7,7 +7,7 @@
     - name: "Basic VML Types"
       href: basic-vml-types.md
     - name: "Frequently Asked Questions About VML"
-      href: frequently-asked-questions-about-vml.md
+      href: frequently-asked-questions-about-vml.yml
     - name: "Appendix"
       href: web-workshop---how-to-use-vml-on-web-pages----appendix.md
   - name: "How to Use VML on Web Pages"

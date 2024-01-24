@@ -1,5 +1,5 @@
 ---
-Description: The ReOrderCapabilities method sets a new order for format capabilities.
+description: The ReOrderCapabilities method sets a new order for format capabilities.
 ms.assetid: 05785d64-a22f-411f-9fae-318828d30c52
 title: ITFormatControl::ReOrderCapabilities method (Ipmsp.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ The [**GetNumberOfCapabilities**](itformatcontrol-getnumberofcapabilities.md) me
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

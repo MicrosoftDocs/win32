@@ -1,5 +1,5 @@
 ---
-Description: TAPI version 3.1 is a COM-based API that merges classic and IP telephony. Possible applications range from simple voice calls over the Public Switched Telephone Network (PSTN) to multicast multimedia IP conferencing with quality of service (QOS).
+description: TAPI version 3.1 is a COM-based API that merges classic and IP telephony. Possible applications range from simple voice calls over the Public Switched Telephone Network (PSTN) to multicast multimedia IP conferencing with quality of service (QOS).
 ms.assetid: 1f7ccef8-5aad-48e7-90e9-a378dd83a870
 title: TAPI 3.1 Overview
 ms.topic: article

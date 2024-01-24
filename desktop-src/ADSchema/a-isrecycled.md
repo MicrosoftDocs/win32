@@ -22,7 +22,7 @@ Is the object recycled. For use with AD Recycle Bin.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Is-Recycled                          |
 | Ldap-Display-Name | isRecycled                           |
@@ -44,7 +44,7 @@ Is the object recycled. For use with AD Recycle Bin.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -65,7 +65,7 @@ Is the object recycled. For use with AD Recycle Bin.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

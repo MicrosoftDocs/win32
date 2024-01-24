@@ -1,5 +1,5 @@
 ---
-Description: The read-only RelatedProducts property returns a StringList object enumerating the set of all products installed or advertised for the current user and machine with a specified UpgradeCode property in their Property table.
+description: The read-only RelatedProducts property returns a StringList object enumerating the set of all products installed or advertised for the current user and machine with a specified UpgradeCode property in their Property table.
 ms.assetid: 0316e536-ccd4-4d7a-9c49-66e6c4a07f1c
 title: Installer.RelatedProducts property
 ms.topic: reference
@@ -42,7 +42,7 @@ To enumerate the related products, an application iterates through the [**String
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

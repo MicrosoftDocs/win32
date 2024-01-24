@@ -1,5 +1,5 @@
 ---
-Description: Describes the resolution of the shadow z-buffer that will be used in Precomputed Radiance Transfer (PRT) direct lighting simulation on the GPU.
+description: Describes the resolution of the shadow z-buffer that will be used in Precomputed Radiance Transfer (PRT) direct lighting simulation on the GPU.
 ms.assetid: 05354328-9b6f-45f5-a913-47ede170b03f
 title: D3DXSHGPUSIMOPT enumeration (D3dx9mesh.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ Only one of the resolution values may be specified, and may be combined with the
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

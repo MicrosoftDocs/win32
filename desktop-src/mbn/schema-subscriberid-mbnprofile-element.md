@@ -1,5 +1,5 @@
 ---
-Description: Identifies the unique identifier of the profile.
+description: Identifies the unique identifier of the profile.
 ms.assetid: 7572ef4f-ce7a-4595-a5ad-ade96e36d7d7
 title: SubscriberID (MBNProfile) Element
 ms.topic: reference
@@ -19,7 +19,7 @@ The **SubscriberID (MBNProfile)** element identifies the unique identifier of th
 
 For a GSM network this should contain the IMSI (International Mobile Subscriber Identity) of the SIM and for CDMA devices it should contain the MIN (Mobile Identification Number) of the device.
 
-The element is is a numeric string with a maximum length 15 digits.
+The element is a numeric string with a maximum length 15 digits.
 
 The element is required.
 
@@ -35,7 +35,7 @@ The **SubscriberID** element is defined by the [**MBNProfile**](schema-mbnprofil
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

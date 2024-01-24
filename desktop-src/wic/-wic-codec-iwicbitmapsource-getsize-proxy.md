@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetSize method.
+description: Proxy function for the GetSize method.
 ms.assetid: a9b7d01c-78d9-47b8-a373-a7c49f7bccfd
 title: IWICBitmapSource_GetSize_Proxy function
 ms.topic: reference
@@ -76,7 +76,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

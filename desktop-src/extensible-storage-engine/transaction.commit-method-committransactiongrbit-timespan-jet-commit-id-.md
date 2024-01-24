@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.Commit method (CommitTransactionGrbit, TimeSpan, JET_COMMIT_ID)"
 title: Transaction.Commit method (CommitTransactionGrbit, TimeSpan, JET_COMMIT_ID)
 TOCTitle: Commit method (CommitTransactionGrbit, TimeSpan, JET_COMMIT_ID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.Commit(Microsoft.Isam.Esent.Interop.CommitTransactionGrbit,System.TimeSpan,Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID@)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Commit a transaction. This object should be in a transaction.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,7 +60,7 @@ public void Commit(
 #### Parameters
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.CommitTransactionGrbit](hh564415\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.CommitTransactionGrbit](./committransactiongrbit-enumeration.md)  
     
     JetCommitTransaction options.
 
@@ -73,7 +74,7 @@ public void Commit(
 <!-- end list -->
 
   - commitId  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](dn335448\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)  
     
     Commit-id for this commit record.
 
@@ -81,10 +82,10 @@ public void Commit(
 
 #### Reference
 
-[Transaction class](dn351174\(v=exchg.10\).md)
+[Transaction class](./transaction-class.md)
 
-[Transaction members](dn351240\(v=exchg.10\).md)
+[Transaction members](./transaction-members.md)
 
-[Commit overload](dn351242\(v=exchg.10\).md)
+[Commit overload](./transaction.commit-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

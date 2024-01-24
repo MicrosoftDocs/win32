@@ -1,5 +1,5 @@
 ---
-Description: Specifies the FOURCC that identifies the encoder you want to use.
+description: Specifies the FOURCC that identifies the encoder you want to use.
 ms.assetid: c03da576-cb58-4686-af6f-9575520c759c
 title: MFPKEY_FOURCC Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ You should use [**IWMCodecProps::GetCodecProp**](/windows/desktop/api/wmcodecdsp
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

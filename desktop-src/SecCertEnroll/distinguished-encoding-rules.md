@@ -1,5 +1,5 @@
 ---
-Description: Abstract Syntax Notation One (ASN.1) defines the following rule sets that govern how data structures that are being sent between computers are encoded and decoded.
+description: Abstract Syntax Notation One (ASN.1) defines the following rule sets that govern how data structures that are being sent between computers are encoded and decoded.
 ms.assetid: 47735fa1-9d75-4c6b-b14c-6c7483f43a5d
 title: Distinguished Encoding Rules
 ms.topic: article

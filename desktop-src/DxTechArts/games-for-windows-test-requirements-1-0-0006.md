@@ -75,8 +75,8 @@ This section contains detailed notes on each of the test tools used to verify pa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -114,8 +114,8 @@ This section contains detailed notes on each of the test tools used to verify pa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -140,10 +140,10 @@ This section contains detailed notes on each of the test tools used to verify pa
 <li>Log off as Toby and log on as Jane.</li>
 <li>Go back to the previous screen and select &quot;Set Game Ratings&quot;.</li>
 <li><p>Select a rating lower than the game's ESRB Rating.</p>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If the game is not rated, then skip this step and move onto the next part of this test. It may be necessary to choose a different rating system to find a game rating, depending on the language locale of the SKU being tested.
-</blockquote>
+
 <p><br/></p></li>
 <li>Log off as Jane and log on as Toby.</li>
 <li>Verify that the game does not launch for User Toby when ESRB is blocked by User Jane.</li>
@@ -179,8 +179,8 @@ This requirement has been retired.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -198,10 +198,10 @@ This requirement has been retired.
 <li>Verify that the game refers to the controller buttons and triggers using Xbox 360 names.</li>
 </ol>
 <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If the game does not support a game controller and/or only supports keyboard/mouse, then skip this test case.
-</blockquote>
+
 <br/> ** Settings for the controller might be located outside of the game. <br/></td>
 </tr>
 </tbody>
@@ -217,8 +217,8 @@ If the game does not support a game controller and/or only supports keyboard/mou
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -233,10 +233,10 @@ If the game does not support a game controller and/or only supports keyboard/mou
 <tr class="even">
 
 <td>Locate the Video Options for the game (this may be in our out of game).<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The following tests must be done on a widescreen monitor.
-</blockquote>
+
 <br/>
 <ol>
 <li>In the video resolution section, select 800 600 or 1024 768.</li>
@@ -267,10 +267,10 @@ This requirement has been retired.
 
 
 
-|                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| OS                                                                    | Requirement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows 7<br/> Windows Vista<br/> Windows XP<br/> | If the game uses Direct3D, the minimum version supported must be Direct3D 9, and Direct3D must be the default for any display configuration option.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                     | <dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>Manual</dt> <dd> Launch the game. In the video options, check to see if there are render options, D3D and/or OpenGL. If there are, verify that the game render options default to Direct3D. If you are unable to verify that D3D9 is the version of DirectX that is being used, then proceed to Automated Test. <br/> </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Use tool: Depends.exe <br/> </dd> </dl> |
+|     <dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>Manual</dt> <dd> Launch the game. In the video options, check to see if there are render options, D3D and/or OpenGL. If there are, verify that the game render options default to Direct3D. If you are unable to verify that D3D9 is the version of DirectX that is being used, then proceed to Automated Test. <br/> </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Use tool: Depends.exe <br/> </dd> </dl> |
 
 
 
@@ -282,8 +282,8 @@ This requirement has been retired.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -297,7 +297,7 @@ This requirement has been retired.
 <li>Set the system to DPI 150%: <br/> Windows Vista: Control Panel: Personalization, Adjust font size (DPI), Custom DPI. Set to 150%.<br/> Windows 7: Control Panel: Display, Set to Larger - 150%.<br/></li>
 <li>Run the installation process and game to verify there are no problems with clipped screens or dialog boxes.</li>
 </ol>
-</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Verify that element <dpiAware>true</dpiAware> is contained in the embedded manifest.<br/> Use tool: Mt.exe <br/> </dd> </dl></td>
+</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Automated Test</dt> <dd> Verify that element &lt;dpiAware&gt;true</dpiAware> is contained in the embedded manifest.<br/> Use tool: Mt.exe <br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>
@@ -314,20 +314,24 @@ This requirement has been retired.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/></td>
 <td>Every executable file (.EXE extension) included with an application must have an embedded manifest that defines its execution level:
-<pre class="syntax" data-space="preserve"><code><requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
+<pre class="syntax" data-space="preserve">
+
+```xml
+<requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
               uiAccess=&quot;true|false&quot;/></code></pre>
+```
 <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 For games and game installers, uiAccess should always be set to &quot;false&quot;.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -351,8 +355,8 @@ Use tool: Mt.exe <br/></td>
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -362,10 +366,10 @@ Use tool: Mt.exe <br/></td>
 <li>Titles and title installers must not contain any 16-bit code or rely on any 16-bit component.</li>
 <li>If the game is dependent on kernel-mode drivers for operation, x64 versions of these drivers must be available. The game setup must detect and install the proper drivers and components for 64-bit editions of Windows.</li>
 </ul>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Support for the 64-bit Edition of Windows XP Professional is optional.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -390,8 +394,8 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -421,8 +425,8 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -450,8 +454,8 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -488,8 +492,8 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -524,8 +528,8 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -559,8 +563,8 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -593,8 +597,8 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -625,8 +629,8 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -639,10 +643,10 @@ Support for the 64-bit Edition of Windows XP Professional is optional.
 <li>Install the game using the Default install type.</li>
 <li>Verify that the game was installed to Program Files.</li>
 </ol>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If this test fails, verify that the game is intended to install for All Users. If so, this is a failure.
-</blockquote>
+
 <br/></td>
 </tr>
 </tbody>
@@ -658,8 +662,8 @@ If this test fails, verify that the game is intended to install for All Users. I
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -685,8 +689,8 @@ If this test fails, verify that the game is intended to install for All Users. I
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -699,10 +703,10 @@ If this test fails, verify that the game is intended to install for All Users. I
 <li>Install the game.</li>
 <li>Verify that the game does not require the system to be rebooted after installation.</li>
 </ol>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If a Microsoft system update REDIST requires a reboot, then do the following: Complete the game installation, uninstall the game, and reinstall the game a second time. The game installation process should not require a reboot on this second installation.
-</blockquote>
+
 <br/></td>
 </tr>
 </tbody>
@@ -718,8 +722,8 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -758,17 +762,17 @@ If a Microsoft system update REDIST requires a reboot, then do the following: Co
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
 <td>For games distributed on CD, DVD, or other removable media that support Autorun, when the disc is inserted for the first time, the application must automatically run or prompt the user to install the game. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Autorun programs that were written for use on versions of Windows prior to Windows Vista should not use the .NET runtime, because this technology is not included with Windows XP or older versions of Windows.
-</blockquote>
+
 <br/> For further guidance, please refer to <a href="/windows/win32/DxTechArts/games-for-windows-technical-requirements-1-1-0006">Games for Windows Technical Requirements</a> 3.7, Support Autorun. <br/></td>
 </tr>
 <tr class="even">
@@ -794,7 +798,7 @@ Autorun programs that were written for use on versions of Windows prior to Windo
 
 
 
-|                                               |                                                                                                                                                                    |
+| OS                                              | Requirement                                                                                                                                                                   |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows 7<br/> Windows Vista<br/> | All application installers must take advantage of the Restart Manager APIs to avoid system reboots (see [requirement 3.5](#35-avoid-reboots-during-installation)). |
 
@@ -808,8 +812,8 @@ Autorun programs that were written for use on versions of Windows prior to Windo
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -832,10 +836,10 @@ Autorun programs that were written for use on versions of Windows prior to Windo
 <li>Launch the game.</li>
 <li>Verify that the game does not generate failures when run under Application Verifier.</li>
 </ol>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Some tests require a debugger to be fully run. This may require an unprotected release version of the game executable, since anti-cheat/anti-piracy technology may interfere with AppVerifer.
-</blockquote>
+
 <br/></td>
 </tr>
 </tbody>
@@ -851,8 +855,8 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -877,8 +881,8 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -911,8 +915,8 @@ Some tests require a debugger to be fully run. This may require an unprotected r
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1305,13 +1309,6 @@ This process is the same as clicking **Fail**, with the exception of the auto-po
 </dt> <dd>
 
 [Windows Installer](../msi/windows-installer-portal.md)
-
-</dd> <dt>
-
-<span id="WinQual_Developer_Portal__"></span><span id="winqual_developer_portal__"></span><span id="WINQUAL_DEVELOPER_PORTAL__"></span>WinQual Developer Portal 
-</dt> <dd>
-
-[Windows Quality Online Services (Winqual)](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
 
 </dd> <dt>
 

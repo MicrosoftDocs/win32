@@ -1,5 +1,5 @@
 ---
-Description: Use cryptographic technologies for public key encryption, encryption algorithms, RSA encryption, and digital certificates.
+description: Use cryptographic technologies for public key encryption, encryption algorithms, RSA encryption, and digital certificates.
 ms.assetid: c53af815-ee3f-417a-8e62-3a3689715bc6
 title: Cryptography
 ms.topic: article
@@ -29,7 +29,7 @@ CAPICOM 2.1.0.2 is supported on the following operating systems and versions:
 -   Windows Server 2003
 -   Windows XP
 
-CAPICOM is available as a redistributable file that can be downloaded from [Platform SDK Redistributable: CAPICOM](https://www.microsoft.com/download/details.aspx?id=25281).
+CAPICOM is available as a redistributable file that can be downloaded from Platform SDK Redistributable: CAPICOM.
 
 Certificate Services requires the following versions of these operating systems:
 

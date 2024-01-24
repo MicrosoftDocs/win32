@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDataException methods"
 title: EsentDataException methods
 TOCTitle: EsentDataException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDataException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDataException](dn334392\(v=exchg.10\).md) type exposes the following members.
+The [EsentDataException](./esentdataexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDataException class](dn334392\(v=exchg.10\).md)
+[EsentDataException class](./esentdataexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

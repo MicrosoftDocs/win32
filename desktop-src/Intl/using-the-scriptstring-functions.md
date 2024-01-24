@@ -1,5 +1,5 @@
 ---
-Description: For an application dealing with unformatted text, Uniscribe provides the ScriptString\* functions.
+description: For an application dealing with unformatted text, Uniscribe provides the ScriptString\* functions.
 ms.assetid: bfbba5df-ce06-4012-a7b1-55d8ea580942
 title: Using the ScriptString Functions
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using the ScriptString Functions
 
-For an application dealing with unformatted text, Uniscribe provides the **ScriptString\*** functions. These functions are similar to [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta), [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext), and [**GetTextExtent**](CDC::GetTextExtent), but they provide full complex script support, including caret placement. These functions are similar to the other Uniscribe functions, but are tailored to the simpler requirements of plain text processing.
+For an application dealing with unformatted text, Uniscribe provides the **ScriptString\*** functions. These functions are similar to [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta), [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext), and [**GetTextExtent**](/cpp/mfc/reference/cdc-class#gettextextent), but they provide full complex script support, including caret placement. These functions are similar to the other Uniscribe functions, but are tailored to the simpler requirements of plain text processing.
 
 The following table details the **ScriptString\*** functions and any counterparts in the other Uniscribe functions.
 

@@ -1,5 +1,5 @@
 ---
-Description: Frame rate of a video media type, in frames per second.
+description: Frame rate of a video media type, in frames per second.
 ms.assetid: 8336559c-06f1-478e-b921-e9eae7425230
 title: MF_MT_FRAME_RATE attribute (Mfapi.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ inline HRESULT GetFrameRate(
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

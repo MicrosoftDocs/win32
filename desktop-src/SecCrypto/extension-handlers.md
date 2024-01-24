@@ -1,5 +1,5 @@
 ---
-Description: Beginning with X.509 Certificate format Version 3, a certificate may contain certificate extensions.
+description: Beginning with X.509 Certificate format Version 3, a certificate may contain certificate extensions.
 ms.assetid: fb106cab-8a61-4a83-8fb4-7c045d905575
 title: Extension Handlers
 ms.topic: article

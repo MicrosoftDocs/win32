@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when an IME is about to close the candidates window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+description: Notifies an application when an IME is about to close the candidates window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: d96cea0a-1fc4-4ba7-bb96-7e9c0b67ce5b
 title: IMN_CLOSECANDIDATE notification code (Imm.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ By default, the IME window destroys a candidate window when it processes this co
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

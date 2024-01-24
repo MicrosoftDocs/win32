@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the CAPICOM\_STORE\_LOCATION of a certificate store.
+description: Sets or retrieves the CAPICOM\_STORE\_LOCATION of a certificate store.
 ms.assetid: 2bb76f51-f092-4dbe-93e9-1fdc185c7c50
 title: ICertStore::StoreLocation property
 ms.topic: reference
@@ -49,7 +49,7 @@ Any other **HRESULT** value indicates that the call failed.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

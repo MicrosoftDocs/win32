@@ -1,5 +1,5 @@
 ---
-Description: Describes the sub-type of an item.
+description: Describes the sub-type of an item.
 ms.assetid: 7b949b2a-77c9-41d3-90f3-f2ba4cfa2762
 title: System.ItemSubType
 ms.topic: article

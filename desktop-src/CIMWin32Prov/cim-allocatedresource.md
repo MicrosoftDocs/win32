@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AllocatedResource class represents an association between logical devices and system resources and indicates that the resource is assigned to the device.
+description: The CIM\_AllocatedResource class represents an association between logical devices and system resources and indicates that the resource is assigned to the device.
 ms.assetid: e1702635-32f5-4280-8c02-3940fd858106
 ms.tgt_platform: multiple
 title: CIM_AllocatedResource class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

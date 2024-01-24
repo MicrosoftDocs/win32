@@ -1,6 +1,6 @@
 ---
 title: rcp - vs
-description: Computes the reciprocal of the source scalar.
+description: Computes the reciprocal of the source scalar. | rcp - vs
 ms.assetid: be638a42-b693-461d-ab0a-3a6c0fa1acfc
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,12 +1,15 @@
 ---
-Description: Debug Output Functions
+description: Debug Output Functions
 ms.assetid: dfe44c8c-43ec-461f-952f-b87256b82ee6
 title: Debug Output Functions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Debug Output Functions
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The [DirectShow Base Classes](directshow-base-classes.md) provide several macros for displaying debugging information.
 
@@ -46,7 +49,7 @@ In Windows Vista or later, they are located under the following path:
 
 For third-party filters, the location depends on which version of the [DirectShow Base Classes](directshow-base-classes.md) was used to build the filter. The version included in the Windows SDK for Windows Vista uses the newer path. Previous versions used the older path.
 
-In the remarks that follow, the label *<DebugRoot>* is used to indicate these two paths. Substitute the correct path, depending on the version of Windows or the version of the base classes.
+In the remarks that follow, the label *&lt;DebugRoot&gt;* is used to indicate these two paths. Substitute the correct path, depending on the version of Windows or the version of the base classes.
 
 **Debug Logging**
 
@@ -77,9 +80,9 @@ DbgLog((LOG_TRACE, 3, TEXT("This is a debug message")));
 
 Every module can set its own debugging level for each message type. (A *module* is a DLL or executable that can be loaded using the **LoadLibrary** function.) A module's debugging levels appear in the registry under the following key:
 
-**HKEY\_LOCAL\_MACHINE**\\**<DebugRoot>**\\**<ModuleName>**\\**<MessageType>**
+**HKEY\_LOCAL\_MACHINE**\\**&lt;DebugRoot&gt;**\\**&lt;ModuleName&gt;**\\**&lt;MessageType&gt;**
 
-where *<Message Type>* is the message type minus the initial "LOG\_"; for example, **LOCKING** for LOG\_LOCKING messages. When a module is loaded, the debug library finds the module's logging levels in the registry. If the registry keys do not exist, the debug library creates them.
+where *\<Message Type\>* is the message type minus the initial "LOG\_"; for example, **LOCKING** for LOG\_LOCKING messages. When a module is loaded, the debug library finds the module's logging levels in the registry. If the registry keys do not exist, the debug library creates them.
 
 A module can also set its own levels at run time, using the [**DbgSetModuleLevel**](dbgsetmodulelevel.md) function. To send a message to the debug output, call the [**DbgLog**](dbglog.md) macro. The following example creates a level 3 message of type LOG\_TRACE:
 
@@ -98,7 +101,7 @@ The debug library uses whichever level is greater, the global level or the modul
 
 The debug output location is determined by another registry key:
 
-**HKEY\_LOCAL\_MACHINE**\\**<DebugRoot>**\\**<Modile Name>**\\**LogToFile**
+**HKEY\_LOCAL\_MACHINE**\\**&lt;DebugRoot&gt;**\\**\<Modile Name\>**\\**LogToFile**
 
 If the value of this key is `Console`, the output goes to the console window. If the value is `Deb`, `Debug`, `Debugger`, or an empty string, the output goes to the debugger window. Otherwise, the output is written to a file specified by the registry key.
 

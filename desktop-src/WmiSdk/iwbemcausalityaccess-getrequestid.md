@@ -1,5 +1,5 @@
 ---
-Description: The GetRequestId method returns a Globally Unique Identifier (GUID) value for a request. A GUID is a unique 128-bit number.
+description: The GetRequestId method returns a Globally Unique Identifier (GUID) value for a request. A GUID is a unique 128-bit number.
 ms.assetid: c8df15cf-ab48-491f-ac18-1dad567bbc0b
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess::GetRequestId method (Wbemint.h)
@@ -50,7 +50,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

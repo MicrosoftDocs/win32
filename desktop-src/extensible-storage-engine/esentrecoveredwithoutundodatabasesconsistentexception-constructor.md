@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoDatabasesConsistentException constructor"
 title: EsentRecoveredWithoutUndoDatabasesConsistentException constructor 
 TOCTitle: 'EsentRecoveredWithoutUndoDatabasesConsistentException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecoveredWithoutUndoDatabasesConsistentException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentRecoveredWithoutUndoDatabasesConsistentException()
 
 #### Reference
 
-[EsentRecoveredWithoutUndoDatabasesConsistentException class](dn350538\(v=exchg.10\).md)
+[EsentRecoveredWithoutUndoDatabasesConsistentException class](./esentrecoveredwithoutundodatabasesconsistentexception-class.md)
 
-[EsentRecoveredWithoutUndoDatabasesConsistentException members](dn319879\(v=exchg.10\).md)
+[EsentRecoveredWithoutUndoDatabasesConsistentException members](./esentrecoveredwithoutundodatabasesconsistentexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

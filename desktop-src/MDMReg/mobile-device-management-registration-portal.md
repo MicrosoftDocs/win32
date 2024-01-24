@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Mobile Device Management Registration
+# Mobile Device Management (MDM) registration
 
 ## Purpose
 
@@ -14,23 +14,8 @@ An industry trend has been developing in which employees connect their personal 
 
 ## In this section
 
-<dl> <dt>
-
-[MDM Registration Reference](mdm-registration-reference.md)
-</dt> <dd>
-
-The following programming elements are used with MDM Registration.
-
-</dd> </dl>
+[MDM Registration reference](mdm-registration-reference.md)
 
 ## Developer audience
 
 Mobile Device Management Registration is designed for use by companies developing and deploying MDM services.
-
- 
-
- 
-
-
-
-

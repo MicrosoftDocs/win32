@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of an emulated Ethernet adapter.
+description: Represents the configured state of an emulated Ethernet adapter.
 ms.assetid: 8BFD69D8-65B6-4C6F-9972-BD2F3C4FB5B8
 title: Msvm_EmulatedEthernetPortSettingData class
 ms.topic: reference
@@ -471,7 +471,7 @@ See [Querying networking objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

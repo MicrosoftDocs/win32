@@ -1,5 +1,5 @@
 ---
-Description: Device Roles for Legacy Windows Multimedia Applications
+description: Device Roles for Legacy Windows Multimedia Applications
 ms.assetid: 54dcaa0e-2652-406d-ba24-c8885924acc6
 title: Device Roles for Legacy Windows Multimedia Applications
 ms.topic: article

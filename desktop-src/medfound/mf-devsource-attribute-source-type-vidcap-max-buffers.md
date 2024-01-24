@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum number of frames that the video capture source will buffer.
+description: Specifies the maximum number of frames that the video capture source will buffer.
 ms.assetid: af30606b-f1a0-4fbf-a831-05ed891f5d53
 title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_MAX_BUFFERS attribute (Mfidl.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

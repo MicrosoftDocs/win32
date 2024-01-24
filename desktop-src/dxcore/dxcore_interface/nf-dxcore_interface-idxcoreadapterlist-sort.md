@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterList::Sort
 description: Sorts a DXCore adapter list object based on a provided input array of sort criteria.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/03/2019
 ---
@@ -31,9 +30,9 @@ The number of elements that are in the array pointed to by the *preferences* par
 
 ### preferences [in]
 
-Type: **const [DXCoreAdapterPreference](./ne-dxcore_interface-dxcoreadapterpreference.md)\***
+Type: **const [DXCoreAdapterPreference](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference)\***
 
-A pointer to a constant array of [DXCoreAdapterPreference](./ne-dxcore_interface-dxcoreadapterpreference.md) values, representing sort criteria.
+A pointer to a constant array of [DXCoreAdapterPreference](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference) values, representing sort criteria.
 
 ## Returns
 
@@ -47,7 +46,7 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 ## Remarks
 
-In cases where a provided [DXCoreAdapterPreference](./ne-dxcore_interface-dxcoreadapterpreference.md) value isn't recognized by the operating system (OS), it is ignored, and won't cause the API to fail. Known **DXCoreAdapterPreference** values will still be considered in this case. To determine whether a sort type is understood by the API, call [IDXCoreAdapterList::IsAdapterPreferenceSupported](./nf-dxcore_interface-idxcoreadapterlist-isadapterpreferencesupported.md).
+In cases where a provided [DXCoreAdapterPreference](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference) value isn't recognized by the operating system (OS), it is ignored, and won't cause the API to fail. Known **DXCoreAdapterPreference** values will still be considered in this case. To determine whether a sort type is understood by the API, call [IDXCoreAdapterList::IsAdapterPreferenceSupported](./nf-dxcore_interface-idxcoreadapterlist-isadapterpreferencesupported.md).
 
 **DXCoreAdapterPreference** values that occur earlier in the provided *preferences* array are treated with higher priority. 
 

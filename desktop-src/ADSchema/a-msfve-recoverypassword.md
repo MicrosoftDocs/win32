@@ -22,7 +22,7 @@ Contains the password required to recover a Full Volume Encryption (FVE) volume.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-FVE-RecoveryPassword                     |
 | Ldap-Display-Name | msFVE-RecoveryPassword                      |
@@ -45,7 +45,7 @@ Contains the password required to recover a Full Volume Encryption (FVE) volume.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -66,7 +66,7 @@ Contains the password required to recover a Full Volume Encryption (FVE) volume.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -87,7 +87,7 @@ Contains the password required to recover a Full Volume Encryption (FVE) volume.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |

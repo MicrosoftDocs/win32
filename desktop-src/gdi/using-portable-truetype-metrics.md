@@ -1,5 +1,5 @@
 ---
-Description: Applications that use the TrueType text metrics can achieve a high degree of printer and document portability; they can use TrueType metrics even if they must maintain compatibility with early 16-bit versions of Windows.
+description: Applications that use the TrueType text metrics can achieve a high degree of printer and document portability; they can use TrueType metrics even if they must maintain compatibility with early 16-bit versions of Windows.
 ms.assetid: 29b54315-7c4e-4b8c-ad79-0b85c7386860
 title: Using Portable TrueType Metrics
 ms.topic: article

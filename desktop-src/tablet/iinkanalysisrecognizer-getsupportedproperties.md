@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the globally unique identifiers (GUIDs) for the properties that this IInkAnalysisRecognizer can generate for analysis results.
+description: Retrieves the globally unique identifiers (GUIDs) for the properties that this IInkAnalysisRecognizer can generate for analysis results.
 ms.assetid: 3a36bc6c-5067-4291-9119-bc6836d32c21
 title: IInkAnalysisRecognizer::GetSupportedProperties method (IACom.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ A recognizer can support line metrics, line numbers, confidence levels, and so o
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

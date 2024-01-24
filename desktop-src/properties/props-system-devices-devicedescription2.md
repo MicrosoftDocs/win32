@@ -1,5 +1,5 @@
 ---
-Description: Second line of the device description.
+description: Second line of the device description.
 ms.assetid: 1d078da8-9a20-4ace-8622-23c82f58f081
 title: System.Devices.DeviceDescription2
 ms.topic: article

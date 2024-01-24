@@ -1,5 +1,5 @@
 ---
-Description: Get started learning the basics of building great desktop apps in this section.
+description: Get started learning the basics of building great desktop apps in this section.
 ms.assetid: 15690E05-9AF7-41A3-AF7C-8DB7C5FB9BE4
 title: Get started
 ms.topic: reference
@@ -50,7 +50,7 @@ For more information, see [Modernize your desktop apps](/windows/apps/desktop/mo
 
 ## C++/WinRT
 
-Optionally, you can configure your development computer to use [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/). C++/WinRT is an entirely standard modern C++17 language projection enables you to easily consume Windows Runtime APIs Windows Runtime (WinRT) APIs from your C++ Win32 desktop application. C++/WinRT is implemented as a header-file-based library.
+Optionally, you can configure your development computer to use [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/). C++/WinRT is an entirely standard modern C++17 language projection that enables you to easily consume Windows Runtime APIs Windows Runtime (WinRT) APIs from your C++ Win32 desktop application. C++/WinRT is implemented as a header-file-based library.
 
 To configure your project for C++/WinRT:
 

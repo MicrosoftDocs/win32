@@ -1,6 +1,6 @@
 ---
 title: Set device state on fixed-function, shader pipelines
-Description: This section provides the key differences between setting device state with the fixed-function and programmable shader pipeline.
+description: This section provides the key differences between setting device state with the fixed-function and programmable shader pipeline.
 ms.assetid: FF0F2A97-F75A-4AF0-8F5A-EA687523E753
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Signing data and verification of signatures on data are among the most important tasks done with cryptography.
+description: Signing data and verification of signatures on data are among the most important tasks done with cryptography.
 ms.assetid: 197b71e3-cfb9-41ff-8550-899fcc4e4055
 title: Signing Data and Verifying Digital Signatures
 ms.topic: article

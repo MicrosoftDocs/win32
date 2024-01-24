@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Statistics class represents an association that relates managed system elements to the statistical groups that apply to them.
+description: The CIM\_Statistics class represents an association that relates managed system elements to the statistical groups that apply to them.
 ms.assetid: fc75991b-adcd-4e47-b610-7503f6bb7c03
 ms.tgt_platform: multiple
 title: CIM_Statistics class
@@ -88,7 +88,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Defines the means by which a client can discover the methods provided by the migration service, and valid range of virtual system migration setting data.
+description: Defines the means by which a client can discover the methods provided by the migration service, and valid range of virtual system migration setting data.
 ms.assetid: 704fa81d-54a4-4d12-9b85-8836581d2784
 title: Msvm_VirtualSystemMigrationCapabilities class
 ms.topic: reference
@@ -209,7 +209,7 @@ Identifies the methods whose implementation may be synchronous; that is, the ope
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

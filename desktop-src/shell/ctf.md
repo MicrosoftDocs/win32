@@ -1,5 +1,5 @@
 ---
-Description: Flags that control the calling function's behavior. Used by SHCreateThread and SHCreateThreadWithHandle. In those functions, these values are defined as being of type SHCT\_FLAGS.
+description: Flags that control the calling function's behavior. Used by SHCreateThread and SHCreateThreadWithHandle. In those functions, these values are defined as being of type SHCT\_FLAGS.
 title: CTF Flags (Shlwapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -64,7 +64,7 @@ If no CTF\_WAIT\_ flag is specified, the calling thread will wait and send [**Se
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP, Windows 7 \[desktop apps only\]<br/>    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

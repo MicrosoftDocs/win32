@@ -1,5 +1,5 @@
 ---
-Description: Handles system color changes for applications that use CTL3D.
+description: Handles system color changes for applications that use CTL3D.
 ms.assetid: b1eadb7d-39a5-47e9-9ae5-62bd33557f6b
 title: Ctl3dColorChange function
 ms.topic: reference
@@ -54,7 +54,7 @@ case WM_SYSCOLORCHANGE:
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 

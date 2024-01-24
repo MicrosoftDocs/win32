@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherBlue(S,float,int,uint) function
-description: Samples a texture and returns the blue component along with status about the operation.
+description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | Texture2D::GatherBlue(S,float,int,uint) function
 ms.assetid: 9E2A57C3-4EC4-4414-B16A-64AF759F04E9
 keywords:
 - GatherBlue function HLSL
@@ -15,19 +15,19 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherBlue(S,float,int,uint) function
+# Texture2D::GatherBlue(S,float,int,uint) function
 
-Samples a texture and returns the blue component along with status about the operation.
+Returns the blue components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType GatherBlue(
-  in  SamplerState S,
-  in  float        Location,
-  in  int          Offset,
-  out uint         Status
+  in  SamplerState S,
+  in  float2       Location,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 
@@ -93,7 +93,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -102,6 +102,6 @@ This function is supported for the following types of shaders:
 [GatherBlue methods](texture2d-gatherblue.md)
 </dt> </dl>
 
- 
 
- 
+
+

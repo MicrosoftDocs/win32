@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the type of the specified stroke.
+description: Retrieves the type of the specified stroke.
 ms.assetid: bbd0bc23-89f9-4033-bc32-f9bd737c960c
 title: IInkAnalyzer::GetStrokeType method (IACom.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) does not set the stroke type value as pa
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

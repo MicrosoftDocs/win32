@@ -1,5 +1,5 @@
 ---
-Description: Verifies whether the referenced physical chassis can be contained by, or inserted into, the physical package.
+description: Verifies whether the referenced physical chassis can be contained by, or inserted into, the physical package.
 ms.assetid: 9a1aa1b7-2b95-4887-9d14-e416ff69f9df
 ms.tgt_platform: multiple
 title: IsCompatible method of the CIM_Chassis class
@@ -63,7 +63,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

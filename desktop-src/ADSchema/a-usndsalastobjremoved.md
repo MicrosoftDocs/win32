@@ -22,7 +22,7 @@ Contains the update sequence number (USN) for the last system object that was re
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | USN-DSA-Last-Obj-Removed             |
 | Ldap-Display-Name | uSNDSALastObjRemoved                 |
@@ -49,7 +49,7 @@ Contains the update sequence number (USN) for the last system object that was re
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8155                          |
@@ -70,7 +70,7 @@ Contains the update sequence number (USN) for the last system object that was re
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8155                          |
@@ -91,7 +91,7 @@ Contains the update sequence number (USN) for the last system object that was re
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8155                          |
@@ -112,7 +112,7 @@ Contains the update sequence number (USN) for the last system object that was re
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8155                          |
@@ -133,7 +133,7 @@ Contains the update sequence number (USN) for the last system object that was re
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8155                          |
@@ -154,7 +154,7 @@ Contains the update sequence number (USN) for the last system object that was re
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8155                          |
@@ -175,7 +175,7 @@ Contains the update sequence number (USN) for the last system object that was re
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8155                          |

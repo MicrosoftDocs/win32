@@ -1,5 +1,5 @@
 ---
-Description: Queries whether a digital video interface (DVI) connector supports DVI version 1.1 or later.
+description: Queries whether a digital video interface (DVI) connector supports DVI version 1.1 or later.
 ms.assetid: b6c450c0-e97f-472d-ae09-fa1e062aeb9e
 title: OPM_GET_DVI_CHARACTERISTICS (Opmapi.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Queries whether a digital video interface (DVI) connector supports DVI version 1
 
 
 
-|              |                                                                             |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_DVI\_CHARACTERISTICS                                              |
 | Input data   | None                                                                        |
@@ -43,7 +43,7 @@ This query is supported only when the physical connector type is OPM\_CONNECTOR\
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

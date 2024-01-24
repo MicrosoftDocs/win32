@@ -1,5 +1,5 @@
 ---
-Description: Establishes that a CIM\_ResourceAllocationSettingData instance representing a resource allocation depends on another resource allocation.
+description: Establishes that a CIM\_ResourceAllocationSettingData instance representing a resource allocation depends on another resource allocation.
 ms.assetid: 567ee36a-d47b-444d-8d2f-425873f95bef
 title: Msvm_ResourceDependentOnResource class
 ms.topic: reference
@@ -82,7 +82,7 @@ A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

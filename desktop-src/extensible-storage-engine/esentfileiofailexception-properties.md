@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOFailException properties"
 title: EsentFileIOFailException properties
 TOCTitle: EsentFileIOFailException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileIOFailException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileIOFailException](dn274360\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileIOFailException](./esentfileiofailexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentFileIOFailException class](dn274360\(v=exchg.10\).md)
+[EsentFileIOFailException class](./esentfileiofailexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

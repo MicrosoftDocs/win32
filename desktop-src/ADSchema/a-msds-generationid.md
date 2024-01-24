@@ -22,7 +22,7 @@ For virtual machine snapshot resuming detection. This attribute represents the V
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-Generation-Id                                   |
 | Ldap-Display-Name | msDS-GenerationId                                     |
@@ -43,7 +43,7 @@ For virtual machine snapshot resuming detection. This attribute represents the V
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

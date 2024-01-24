@@ -1,5 +1,5 @@
 ---
-Description: Structure used by the SfcGetFiles function.
+description: Structure used by the SfcGetFiles function.
 ms.assetid: 958167e3-3eb3-406a-85bf-ffe2851a95a1
 title: PPROTECT_FILE_ENTRY structure (Sfcfiles.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Pointer to string value containing the filename of the INF file which provides l
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

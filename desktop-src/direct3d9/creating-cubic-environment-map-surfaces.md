@@ -1,5 +1,5 @@
 ---
-Description: You create a cubic environment map texture by calling the CreateCubeTexture method. Cubic environment map textures must be square, with dimensions that are a power of two.
+description: You create a cubic environment map texture by calling the CreateCubeTexture method. Cubic environment map textures must be square, with dimensions that are a power of two.
 ms.assetid: 3879d215-064b-4d7d-afae-2ed46569c8bf
 title: Creating Cubic Environment Map Surfaces (Direct3D 9)
 ms.topic: article

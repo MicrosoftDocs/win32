@@ -1,5 +1,5 @@
 ---
-Description: Creates a BitLocker volume with the specified file system type of the discovery volume.
+description: Creates a BitLocker volume with the specified file system type of the discovery volume.
 ms.assetid: 088e7224-a336-4742-a12f-86755defe16c
 title: PrepareVolume method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -78,7 +78,7 @@ If you do not call this method when enabling a BitLocker volume, it is the same 
 
 ## Requirements
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

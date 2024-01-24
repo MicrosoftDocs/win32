@@ -1,12 +1,15 @@
 ---
-Description: The Microsoft MPEG-2 Video Encoder filter encodes MPEG-2 and MPEG-1 video.
+description: The Microsoft MPEG-2 Video Encoder filter encodes MPEG-2 and MPEG-1 video.
 ms.assetid: d52c1299-0641-405c-8960-edd738b56823
 title: Microsoft MPEG-2 Video Encoder (Wmcodecdsp.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Microsoft MPEG-2 Video Encoder
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Microsoft MPEG-2 Video Encoder filter encodes MPEG-2 and MPEG-1 video.
 
@@ -172,37 +175,13 @@ To configure the encoding mode, set the following properties:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Mode</th>
-<th>Properties</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CBR</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_CBR</strong><br/> <a href="avenccommonqualityvsspeed-property.md"><strong>AVEncCommonQualityVsSpeed</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
-</tr>
-<tr class="even">
-<td>Quality-based VBR</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_Quality</strong><br/> <a href="avenccommonquality-property.md"><strong>AVEncCommonQuality</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br/>
-<blockquote>
-[!Note]<br />
-In this mode, the <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a> and <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a> properties are not used. The minimum bit rate is assumed to be zero.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Peak-constrained VBR</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br/> <a href="avenccommonmultipassmode-property.md"><strong>AVEncCommonMultipassMode</strong></a> = 1<br/> <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
-</tr>
-</tbody>
-</table>
+
+| Mode | Properties | 
+|------|------------|
+| CBR | <a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_CBR</strong><br /><a href="avenccommonqualityvsspeed-property.md"><strong>AVEncCommonQualityVsSpeed</strong></a><br /><a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br /> | 
+| Quality-based VBR | [**AVEncCommonRateControlMode**](avenccommonratecontrolmode-property.md) = **eAVEncCommonRateControlMode_Quality**<br>[**AVEncCommonQuality**](avenccommonquality-property.md)<br>[**AVEncCommonMaxBitRate**](avenccommonmaxbitrate-property.md)<br> **Note:** In this mode, the [**AVEncCommonMeanBitRate**](avenccommonmeanbitrate-property.md) and [**AVEncCommonMinBitRate**](avenccommonminbitrate-property.md) properties are not used. The minimum bit rate is assumed to be zero.<br> | 
+| Peak-constrained VBR | <a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a> = <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br /><a href="avenccommonmultipassmode-property.md"><strong>AVEncCommonMultipassMode</strong></a> = 1<br /><a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a><br /><a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br /><a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br /> | 
+
 
 
 
@@ -344,7 +323,7 @@ The encoder introduces an encoding latency of at least one GOP.
 
 
 
-|                                     |                                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Home Premium, Windows Vista Ultimate, Windows 7 Home Premium, Windows 7 Professional, Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                                     |

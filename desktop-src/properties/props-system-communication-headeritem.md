@@ -1,5 +1,5 @@
 ---
-Description: This property is true if the item is a header item, which means that the item has not been fully downloaded.
+description: This property is true if the item is a header item, which means that the item has not been fully downloaded.
 ms.assetid: f7f904a6-99b8-4680-ac16-8ecbccf3239f
 title: System.Communication.HeaderItem
 ms.topic: article

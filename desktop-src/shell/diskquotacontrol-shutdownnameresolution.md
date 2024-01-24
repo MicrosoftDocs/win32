@@ -1,5 +1,5 @@
 ---
-Description: Shuts down the user name resolution thread.
+description: Shuts down the user name resolution thread.
 ms.assetid: 6c4544b9-81e7-4a72-aa00-70011e5cd85a
 title: DiskQuotaControl.ShutdownNameResolution method (Dskquota.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The security identifier (SID) name resolver translates SID to user names on a ba
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The SetKeepAliveTime WMI class static method is used to set how often TCP attempts to verify that an idle connection is still available by sending a Keep Alive packet.
+description: The SetKeepAliveTime WMI class static method is used to set how often TCP attempts to verify that an idle connection is still available by sending a Keep Alive packet.
 ms.assetid: 8640b109-928b-46fc-8dce-9ee5dcbd94e3
 ms.tgt_platform: multiple
 title: SetKeepAliveTime method of the Win32_NetworkAdapterConfiguration class
@@ -403,15 +403,11 @@ DHCP not enabled on adapter.
 
 If the remote system is still reachable and functioning, it will acknowledge the Keep Alive transmission. Keep Alive packets are not sent by default. This feature may be enabled in a connection by an application.
 
-## Examples
-
-The [Modify Keep Alive Time for All Network Adapters](https://Gallery.TechNet.Microsoft.Com/35c1b0ac-285d-4baa-be6e-d3fb0b461676) VBScript sample configures the keep alive time for all network adapters on a computer to 300,000 milliseconds (5 minutes).
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Provides an instance of IMFMuxStreamAttributesManager which manages the IMFAttributes describing the substreams of a multiplexed media source.
+description: Provides an instance of IMFMuxStreamAttributesManager which manages the IMFAttributes describing the substreams of a multiplexed media source.
 ms.assetid: 0149BD8B-8C9D-47FD-9EC1-BEBEE73BC73E
 title: MF_DEVICESTREAM_MULTIPLEXED_MANAGER attribute (Mfidl.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Pass this value into [**IMFAttributes::GetUnknown**](/windows/desktop/api/mfobje
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

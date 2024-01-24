@@ -1,5 +1,5 @@
 ---
-Description: Registry values must be set for verbs to handle situations where a user can select a single item, multiple items, or a selection from an item. A verb requires separate registry values for each of these three situations that the verb supports.
+description: Registry values must be set for verbs to handle situations where a user can select a single item, multiple items, or a selection from an item. A verb requires separate registry values for each of these three situations that the verb supports.
 ms.assetid: B6D4C879-3E52-4010-9B2E-3BCD81BB6C93
 title: How to Employ the Verb Selection Model
 ms.topic: article
@@ -12,7 +12,6 @@ Registry values must be set for verbs to handle situations where a user can sele
 
 ## Instructions
 
-### 
 
 Specify the MultiSelectModel value for all verbs. If the MultiSelectModel value is not specified, it is inferred from the type of verb implementation you have chosen. For COM-based methods (such as DropTarget and ExecuteCommand) **Player** is assumed, and for the other methods **Document** is assumed.
 

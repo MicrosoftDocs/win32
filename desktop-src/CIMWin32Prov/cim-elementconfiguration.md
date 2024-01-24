@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ElementConfiguration association relates a CIM\_Configuration object to one or more managed system elements. The CIM\_Configuration object represents a certain behavior, or a desired functional state for the associated CIM\_ManagedSystemElement.
+description: The CIM\_ElementConfiguration association relates a CIM\_Configuration object to one or more managed system elements. The CIM\_Configuration object represents a certain behavior, or a desired functional state for the associated CIM\_ManagedSystemElement.
 ms.assetid: 4d2af009-7466-4394-af42-72c8d96e0786
 ms.tgt_platform: multiple
 title: CIM_ElementConfiguration class
@@ -88,7 +88,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

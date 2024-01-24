@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_MemoryDevice WMI class represents the properties of a computer system memory device and its associated mapped addresses.
+description: The Win32\_MemoryDevice WMI class represents the properties of a computer system memory device and its associated mapped addresses.
 ms.assetid: d609dca5-2f5f-4f23-8fcc-bcc197d6c24b
 ms.tgt_platform: multiple
 title: Win32_MemoryDevice class
@@ -1864,15 +1864,11 @@ This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
 The **Win32\_MemoryDevice** class is derived from [**Win32\_SMBIOSMemory**](win32-smbiosmemory.md).
 
-## Examples
-
-The [List Memory Devices](https://Gallery.TechNet.Microsoft.Com/ddc9c2ab-3f88-44fb-935f-98da3bcf5858) Perl sample returns starting and ending addresses for all memory devices installed on a computer.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

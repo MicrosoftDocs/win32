@@ -1,12 +1,12 @@
 ---
-Description: Create, install, start, stop, and delete services with the service control manager. Use service configuration programs to modify or query the database of installed services.
+description: Create, install, start, stop, and delete services with the service control manager. Use service configuration programs to modify or query the database of installed services.
 ms.assetid: '711391da-05c6-4d89-88d6-c68c2e5c2f86'
 title: Services (Services)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Services
+# Services (Services)
 
 A *service application* conforms to the interface rules of the Service Control Manager (SCM). It can be started automatically at system boot, by a user through the Services control panel applet, or by an application that uses the [service functions](service-functions.md). Services can execute even when no user is logged on to the system.
 

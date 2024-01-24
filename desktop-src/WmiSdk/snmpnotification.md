@@ -1,5 +1,5 @@
 ---
-Description: The SnmpNotification class maps from the NOTIFICATION-TYPE macro to an encapsulated CIM class.
+description: The SnmpNotification class maps from the NOTIFICATION-TYPE macro to an encapsulated CIM class.
 ms.assetid: b90d8bab-7cae-4dbe-9f6e-daba4e68a10a
 ms.tgt_platform: multiple
 title: SnmpNotification class
@@ -198,7 +198,7 @@ A [NOTIFICATION-TYPE](notification-type-macro.md) macro that contains references
 
 
 
-|                                     |                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>         |
 | Minimum supported server<br/> | Windows Server 2008<br/>   |

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Extensible Storage Engine"
 title: Extensible Storage Engine
 TOCTitle: Extensible Storage Engine
 ms:assetid: 5c485eff-4329-4dc1-aa45-fb66e6554792
@@ -35,5 +36,4 @@ ESE was formerly known as Joint Engine Technology (JET) Blue, and so frequently 
 
 ### In This Section
 
-[Extensible Storage Engine Reference](gg269245\(v=exchg.10\).md)
-
+[Extensible Storage Engine Reference](./extensible-storage-engine-reference.md)

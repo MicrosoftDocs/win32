@@ -1,5 +1,5 @@
 ---
-Description: Library description files are XML files that define libraries.
+description: Library description files are XML files that define libraries.
 ms.assetid: 12F6E6AE-2776-408c-B9AC-E885BE93C27F
 title: Library Description Schema
 ms.topic: article
@@ -25,7 +25,7 @@ The Library Description schema consists of three major parts, described in the f
 
 
 
-|                             |                                                                                                                                                            |
+| Part                        | Description                                                                                                                                                |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | General library information | Information about the library, such as name, owner, version, icon, that Windows Explorer can use when it displays the library to a user.                   |
 | Library properties          | One or more properties that describe the library. These custom properties are specific to the library.                                                     |
@@ -39,9 +39,9 @@ Library files in Windows 7 are stored in the known folder, FOLDERID\_Libraries.
 
 ## Namespace Versioning
 
-Versions of the Library Description file format (\*.library-ms) are tracked by changing the namespace. For Windows 7, the file format has the following default namespace: http://schemas.microsoft.com/windows/2009/library.
+Versions of the Library Description file format (\*.library-ms) are tracked by changing the namespace. For Windows 7, the file format has the following default namespace: `https://schemas.microsoft.com/windows/2009/library`.
 
-Versions of the library contents, however, are tracked by using the [<version>](schema-library-version.md) element in a specific Library Description file.
+Versions of the library contents, however, are tracked by using the [&lt;version&gt;](schema-library-version.md) element in a specific Library Description file.
 
 ## Example of a Library Description File
 

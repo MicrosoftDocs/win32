@@ -1,5 +1,5 @@
 ---
-Description: The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.
+description: IStats::GetControlState method - The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.
 ms.assetid: 0faf2300-d9ff-4fe0-9d50-18beafd1daea
 title: IStats::GetControlState method (Netmon.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ This method can be called any time the NPP is connected to the network. You can 
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

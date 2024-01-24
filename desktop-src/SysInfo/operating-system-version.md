@@ -14,7 +14,9 @@ The following table summarizes the most recent operating system version numbers.
 
 | Operating system | Version number |
 |------------------|----------------|
+| Windows 11       | 10.0\*         |
 | Windows 10       | 10.0\*         |
+| Windows Server 2022 | 10.0\*      |
 | Windows Server 2019 | 10.0\*      |
 | Windows Server 2016 | 10.0\*      |
 | Windows 8.1      | 6.3\*          |

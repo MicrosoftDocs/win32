@@ -1,5 +1,5 @@
 ---
-Description: The Call and Media Control reference material contains information on interfaces, methods, enumerators, and types used in call setup and control.
+description: The Call and Media Control reference material contains information on interfaces, methods, enumerators, and types used in call setup and control.
 ms.assetid: d3e0922b-dcb5-402c-a6b2-37f3af4a8104
 title: Call and Media Controls Reference
 ms.topic: article

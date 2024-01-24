@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service access point (SAP) and a logical device that implements it.
+description: Represents an association between a service access point (SAP) and a logical device that implements it.
 ms.assetid: 40c8111a-d439-4c0f-805e-9c10d7182eb4
 title: CIM_DeviceSAPImplementation class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DeviceSAPImplementation class
+# CIM_DeviceSAPImplementation class (Hyper-V management)
 
 Represents an association between a service access point (SAP) and a logical device that implements it.
 
@@ -80,7 +80,7 @@ The SAP implemented by the logical device.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

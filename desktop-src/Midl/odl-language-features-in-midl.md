@@ -27,53 +27,189 @@ The following topics list the Object Description Language (ODL) attributes, keyw
 
 ## ODL Attributes
 
+:::row:::
+    :::column:::
+        \[[**appobject**](appobject.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**bindable**](bindable.md)\]
+    :::column-end:::
+:::row-end:::
 
+:::row:::
+    :::column:::
+        \[[**control**](control.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**default**](default.md)\]
+    :::column-end:::
+:::row-end:::
 
-|                                            |                                        |
-|--------------------------------------------|----------------------------------------|
-| \[[**appobject**](appobject.md)\]         | \[[**bindable**](bindable.md)\]       |
-| \[[**control**](control.md)\]             | \[[**default**](default.md)\]         |
-| \[[**defaultvalue**](defaultvalue.md)\]   | \[[**displaybind**](displaybind.md)\] |
-| \[[**dllname**](dllname-str-.md)\]        | \[[**dual**](dual.md)\]               |
-| \[[**entry**](entry.md)\]                 | \[[**helpcontext**](helpcontext.md)\] |
-| \[[**helpstring**](helpstring.md)\]       | \[[**helpfile**](helpfile.md)\]       |
-| \[[**hidden**](hidden.md)\]               | \[[**id**](id.md)\]                   |
-| \[[**immediatebind**](immediatebind.md)\] | \[[**in**](in.md)\]                   |
-| \[[**lcid**](lcid.md)\]                   | \[[**licensed**](licensed.md)\]       |
-| \[[**nonextensible**](nonextensible.md)\] | \[[**odl**](odl.md)\]                 |
-| \[[**oleautomation**](oleautomation.md)\] | \[[**optional**](optional.md)\]       |
-| \[[**out**](out-idl.md)\]                 | \[[**propget**](propget.md)\]         |
-| \[[**propput**](propput.md)\]             | \[[**propputref**](propputref.md)\]   |
-| \[[**public**](public.md)\]               | \[ [**readonly**](readonly.md)\]      |
-| \[[**requestedit**](requestedit.md)\]     | \[[**restricted**](restricted.md)\]   |
-| \[[**retval**](retval.md)\]               | \[[**source**](source.md)\]           |
-| \[[**uuid**](uuid.md)\]                   | [**vararg**](vararg.md)\]             |
-| \[[**version**](version.md)\]             | Â                                      |
+:::row:::
+    :::column:::
+        \[[**defaultvalue**](defaultvalue.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**displaybind**](displaybind.md)\]
+    :::column-end:::
+:::row-end:::
 
+:::row:::
+    :::column:::
+        \[[**dllname**](dllname-str-.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**dual**](dual.md)\]
+    :::column-end:::
+:::row-end:::
 
+:::row:::
+    :::column:::
+        \[[**entry**](entry.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**helpcontext**](helpcontext.md)\]
+    :::column-end:::
+:::row-end:::
 
- 
+:::row:::
+    :::column:::
+        \[[**helpstring**](helpstring.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**helpfile**](helpfile.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**hidden**](hidden.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**id**](id.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**immediatebind**](immediatebind.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**in**](in.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**lcid**](lcid.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**licensed**](licensed.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**nonextensible**](nonextensible.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**odl**](odl.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**oleautomation**](oleautomation.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**optional**](optional.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**out**](out-idl.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**propget**](propget.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**propput**](propput.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**propputref**](propputref.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**public**](public.md)\]
+    :::column-end:::
+    :::column:::
+        \[ [**readonly**](readonly.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**requestedit**](requestedit.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**restricted**](restricted.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**retval**](retval.md)\]
+    :::column-end:::
+    :::column:::
+        \[[**source**](source.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**uuid**](uuid.md)\]
+    :::column-end:::
+    :::column:::
+        [**vararg**](vararg.md)\]
+    :::column-end:::
+:::row-end:::
+
+:::row:::
+    :::column:::
+        \[[**version**](version.md)\]
+    :::column-end:::
+    :::column:::
+        Â
+    :::column-end:::
+:::row-end:::
 
 ## ODL Keywords, Statements, and Directives
 
+[**coclass**](coclass.md)
 
+[**dispinterface**](dispinterface.md)
 
-|                                        |
-|----------------------------------------|
-| [**coclass**](coclass.md)             |
-| [**dispinterface**](dispinterface.md) |
-| [**enum**](enum.md)                   |
-| \[[**importlib**](importlib.md)\]     |
-| [**interface**](interface.md)         |
-| [**library**](library.md)             |
-| [**module**](module.md)               |
-| [**struct**](struct.md)               |
-| [**typedef**](typedef.md)             |
-| [**union**](union.md)                 |
+[**enum**](enum.md)
 
+\[[**importlib**](importlib.md)\]
 
+[**interface**](interface.md)
 
- 
+[**library**](library.md)
+
+[**module**](module.md)
+
+[**struct**](struct.md)
+
+[**typedef**](typedef.md)
+
+[**union**](union.md)
 
 For information on how to marshal OLE Automation types, such as **BSTR**, **VARIANT**, and **SAFEARRAY**, see [Marshaling OLE Data Types](marshaling-ole-data-types.md).
 

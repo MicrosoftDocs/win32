@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DesktopMonitor class exposes the following methods.
+description: The CIM\_DesktopMonitor class exposes the following methods.
 ms.assetid: 18D3306B-DA34-4BF2-9FA5-22DABBAA3378
 ms.tgt_platform: multiple
 title: CIM_DesktopMonitor Methods

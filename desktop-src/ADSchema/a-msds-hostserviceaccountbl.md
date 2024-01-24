@@ -22,7 +22,7 @@ Service Accounts backward link for linking computers that are associated with th
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Host-Service-Account-BL           |
 | Ldap-Display-Name | msDS-HostServiceAccountBL               |
@@ -44,7 +44,7 @@ Service Accounts backward link for linking computers that are associated with th
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2167                            |
 | MAPI-Id                | \-                              |
@@ -65,7 +65,7 @@ Service Accounts backward link for linking computers that are associated with th
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2167                            |
 | MAPI-Id                | \-                              |

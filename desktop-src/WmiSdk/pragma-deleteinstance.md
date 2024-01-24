@@ -1,5 +1,5 @@
 ---
-Description: Deletes an existing instance of a class from the repository.
+description: Deletes an existing instance of a class from the repository.
 ms.assetid: 4389f831-a60e-4198-a55a-79189d10a38a
 ms.tgt_platform: multiple
 title: pragma deleteinstance
@@ -60,7 +60,7 @@ The following example shows how to use this command.
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

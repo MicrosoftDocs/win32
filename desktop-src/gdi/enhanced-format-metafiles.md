@@ -1,5 +1,5 @@
 ---
-Description: Enhanced-Format Metafiles
+description: Enhanced-Format Metafiles
 ms.assetid: 8d7015cb-5e1d-4805-a7a8-1f8b693e0681
 title: Enhanced-Format Metafiles
 ms.topic: article

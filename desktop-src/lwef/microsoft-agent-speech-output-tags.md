@@ -14,8 +14,8 @@ The Microsoft Agent services support modifying speech output through special tag
 
 Speech output tags use the following rules of syntax:
 
--   All tags begin and end with a backslash character (\).
--   The single backslash character is not enabled within a tag. To include a backslash character in a text parameter of a tag, use a double backslash (\\\).
+-   All tags begin and end with a backslash character (\\).
+-   The single backslash character is not enabled within a tag. To include a backslash character in a text parameter of a tag, use a double backslash (\\\\).
 -   Tags are case-insensitive. For example, \\pit\\ is the same as \\PIT\\.
 -   Tags are whitespace-dependent. For example, \\Rst\\ is not the same as \\ Rst \\.
 

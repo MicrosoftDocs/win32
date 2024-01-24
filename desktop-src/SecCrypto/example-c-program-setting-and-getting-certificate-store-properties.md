@@ -1,5 +1,5 @@
 ---
-Description: The following example sets and gets a certificate store property, the localized store name. This property is not persisted when the store is closed.
+description: The following example sets and gets a certificate store property, the localized store name. This property is not persisted when the store is closed.
 ms.assetid: 9fb368c9-a0d7-4c5f-9a38-7ef8f7283354
 title: 'Example C Program: Setting and Getting Certificate Store Properties'
 ms.topic: article

@@ -21,7 +21,7 @@ Contains part of the RPC map and stores the RPC number for UNIX RPCs.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | oncRpcNumber                         |
 | Ldap-Display-Name | oncRpcNumber                         |
@@ -45,7 +45,7 @@ Contains part of the RPC map and stores the RPC number for UNIX RPCs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -66,7 +66,7 @@ Contains part of the RPC map and stores the RPC number for UNIX RPCs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -87,7 +87,7 @@ Contains part of the RPC map and stores the RPC number for UNIX RPCs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -108,7 +108,7 @@ Contains part of the RPC map and stores the RPC number for UNIX RPCs.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |

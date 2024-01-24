@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 An XML Buffer provides efficient in-memory storage for arbitrary XML data.
 
-## 
 
 To read data from an XML Buffer, use a [XML Reader](xml-reader.md) and call [**WsSetInputToBuffer**](/windows/desktop/api/WebServices/nf-webservices-wssetinputtobuffer) with the XML Buffer. The reader will be positioned at the start of the document.
 

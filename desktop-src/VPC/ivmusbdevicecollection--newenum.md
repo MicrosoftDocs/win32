@@ -1,6 +1,6 @@
 ---
 title: IVMUSBDeviceCollection _NewEnum property (VPCCOMInterfaces.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. | IVMUSBDeviceCollection _NewEnum property (VPCCOMInterfaces.h)
 ms.assetid: f14f64a0-e65a-44d6-b053-54bbcb9ea804
 keywords:
 - _NewEnum property Virtual PC
@@ -58,7 +58,7 @@ The [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) enumerator.
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The following list provides concise descriptions of each Winsock SPI structure. For additional information on any Winsock SPI structure, click the structure name.
+description: The following list provides concise descriptions of each Winsock SPI structure. For additional information on any Winsock SPI structure, click the structure name.
 ms.assetid: 0e198e36-c025-4745-a841-3a23ea3d40aa
 title: Winsock SPI Structures
 ms.topic: article

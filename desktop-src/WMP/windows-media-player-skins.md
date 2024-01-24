@@ -7,10 +7,13 @@ keywords:
 - Windows Media Player skins,about
 - skins,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Windows Media Player Skins
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Windows Media Player provides a programming platform to create custom skins. Skins are sets of scripts, art, media, and text files that can be combined to create a new appearance for Windows Media Player. Using skins, you can change not only the way Windows Media Player looks, but how it functions. Not just where the knobs are and what they look like, but what they do, given the limits of the underlying Windows Media Player core technology.
 

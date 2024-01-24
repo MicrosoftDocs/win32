@@ -1,6 +1,6 @@
 ---
 title: HexInt32Type Simple Type (EventManifest Schema)
-description: Defines a 4-byte hexadecimal type.
+description: Defines a 4-byte hexadecimal type. | HexInt32Type Simple Type (EventManifest Schema)
 ms.assetid: b1006593-c6f2-4669-b242-758ce9977565
 keywords:
 - HexInt32Type simple type EventLog
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# HexInt32Type Simple Type
+# HexInt32Type Simple Type (EventManifest Schema)
 
 Defines a 4-byte hexadecimal type.
 
@@ -43,7 +43,7 @@ The **HexInt32Type** simple type is a **string** that is restricted by the follo
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the error object for the migration job, if one exists.
+description: Retrieves the error object for the migration job, if one exists.
 ms.assetid: 83a68ded-086a-42d9-b76d-e46af70d9b43
 title: GetError method of the Msvm_MigrationJob class
 ms.topic: reference
@@ -87,7 +87,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

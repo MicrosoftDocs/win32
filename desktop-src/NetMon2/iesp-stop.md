@@ -1,5 +1,5 @@
 ---
-Description: The Stop method stops the current capture.
+description: IESP::Stop method - The Stop method stops the current capture.
 ms.assetid: d2d4e51a-c6a4-4aec-a805-929af621ffb3
 title: IESP::Stop method (Netmon.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ When you stop and restart the capture, make sure to call the [IESP::Configure](i
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

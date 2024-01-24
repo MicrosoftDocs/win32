@@ -1,5 +1,5 @@
 ---
-Description: The ASF indexer is a WMContainer layer component that is used to read or write Index Objects in an Advanced Systems Format (ASF) file. This topic provides information about using the ASF indexer to seek within an ASF file.
+description: The ASF indexer is a WMContainer layer component that is used to read or write Index Objects in an Advanced Systems Format (ASF) file. This topic provides information about using the ASF indexer to seek within an ASF file.
 ms.assetid: 9c501d33-847e-448e-a19c-39dfbc7757ca
 title: Using the Indexer to Seek Within an ASF File
 ms.topic: article

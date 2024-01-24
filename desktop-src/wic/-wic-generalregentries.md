@@ -1,5 +1,5 @@
 ---
-Description: General Registry Entries
+description: General Registry Entries
 ms.assetid: 6a140c7f-df8c-4a8e-9e4d-dbb38901e14f
 title: General Registry Entries
 ms.topic: article
@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # General Registry Entries
 
-## 
 
 The following registry entries must be made separately for both the decoder and the encoder:
 

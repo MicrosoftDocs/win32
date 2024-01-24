@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of link when crawling or indexing.
+description: Specifies the type of link when crawling or indexing.
 ms.assetid: 2a0ddb31-df35-4da5-9950-b091cd461556
 title: LINKTYPE enumeration
 ms.topic: reference
@@ -66,7 +66,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

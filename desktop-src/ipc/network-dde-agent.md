@@ -1,5 +1,5 @@
 ---
-Description: The network DDE agent starts network DDE if it detects local network DDE activity.
+description: The network DDE agent starts network DDE if it detects local network DDE activity.
 ms.assetid: bc1e6a06-be07-4ae8-94da-9603a885b3a5
 title: Network DDE Agent
 ms.topic: article

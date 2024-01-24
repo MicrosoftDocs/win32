@@ -1,5 +1,5 @@
 ---
-Description: Specifies an XSD file to process for contract information.
+description: Specifies an XSD file to process for contract information.
 ms.assetid: 6fe40e77-d23f-4ae9-a4d6-1f567a0fffe7
 title: xsd element
 ms.topic: reference
@@ -63,7 +63,7 @@ The filename string should include complete path information as well.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

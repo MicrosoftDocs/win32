@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemDesktop association WMI class relates a computer system and its desktop configuration.
+description: The Win32\_SystemDesktop association WMI class relates a computer system and its desktop configuration.
 ms.assetid: 2b024660-d707-4463-8207-73df74bfa7d6
 ms.tgt_platform: multiple
 title: Win32_SystemDesktop class
@@ -87,7 +87,7 @@ The **Win32\_SystemDesktop** class is derived from [**Win32\_SystemSetting**](wi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

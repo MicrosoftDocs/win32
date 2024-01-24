@@ -1,5 +1,5 @@
 ---
-Description: The Account object is used to assign privileges, system access, and special quotas to individual users or to members of local groups or groups.
+description: The Account object is used to assign privileges, system access, and special quotas to individual users or to members of local groups or groups.
 ms.assetid: 6fa79584-f009-41c5-8257-df3c186dcf72
 title: Account Object
 ms.topic: article

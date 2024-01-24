@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the driver can create a surface of the specified surface description.
+description: Indicates whether the driver can create a surface of the specified surface description.
 ms.assetid: 4626163b-3070-4246-9a04-0b3438fc7057
 title: NtGdiDdCanCreateSurface function (Ntgdi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to a [**DD\_CANCREATESURFACEDATA**](/windows/win32/api/ddrawint/ns-ddraw
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

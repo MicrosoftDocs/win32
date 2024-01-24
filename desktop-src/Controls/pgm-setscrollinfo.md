@@ -36,7 +36,7 @@ A **UINT** that specifies the timeout value for the scroll, in milliseconds.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **UINT** that specifies the number of lines to scroll per timeout. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is a **UINT** that specifies the number of pixels per line.
+The [**LOWORD**](../winmsg/loword.md) is a **UINT** that specifies the number of lines to scroll per timeout. The [**HIWORD**](../winmsg/hiword.md) is a **UINT** that specifies the number of pixels per line.
 
 </dd> </dl>
 
@@ -58,7 +58,7 @@ By default, with each scrolling event the pager control scrolls an amount equal 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

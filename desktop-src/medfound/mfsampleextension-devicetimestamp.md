@@ -1,5 +1,5 @@
 ---
-Description: Contains the time stamp from the device driver.
+description: Contains the time stamp from the device driver.
 ms.assetid: 8904d104-ebcc-474d-b6b5-b262b6f62ee9
 title: MFSampleExtension_DeviceTimestamp attribute (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

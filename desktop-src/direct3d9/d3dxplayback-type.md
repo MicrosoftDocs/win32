@@ -1,5 +1,5 @@
 ---
-Description: Defines the type of animation set looping modes used for playback.
+description: Defines the type of animation set looping modes used for playback.
 ms.assetid: 2ce26bf0-2b33-4193-a58f-03493a051351
 title: D3DXPLAYBACK_TYPE enumeration (D3dx9anim.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 

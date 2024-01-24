@@ -1,5 +1,5 @@
 ---
-Description: 'The following flags are used to specify sprite rendering options to the flags parameter in the Begin method:'
+description: 'The following flags are used to specify sprite rendering options to the flags parameter in the Begin method:'
 ms.assetid: 195ee969-30e8-4828-a0be-f0d2a82e247c
 title: D3DXSPRITE
 ms.topic: article
@@ -12,9 +12,8 @@ The following flags are used to specify sprite rendering options to the flags pa
 
 
 
-|                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DXSPRITE\_DONOTSAVESTATE           | The device state is not to be saved or restored when [**Begin**](id3dxsprite--begin.md) or [**End**](id3dxsprite--end.md) is called.                                                                                                                                                                                                                                                                                            |
 | D3DXSPRITE\_DONOTMODIFY\_RENDERSTATE | The device render state is not to be changed when [**Begin**](id3dxsprite--begin.md) is called. The device is assumed to be in a valid state to draw vertices containing UsageIndex = 0 in the D3DDECLUSAGE\_POSITION, D3DDECLUSAGE\_TEXCOORD, and D3DDECLUSAGE\_COLOR data.                                                                                                                                                     |
 | D3DXSPRITE\_OBJECTSPACE              | The world, view, and projection transforms are not modified. The transforms currently set to the device are used to transform the sprites when the batched sprites are drawn (when [**Flush**](id3dxsprite--flush.md) or [**End**](id3dxsprite--end.md) is called). If this flag is not specified, then world, view, and projection transforms are modified so that sprites are drawn in screen-space coordinates.              |
@@ -33,7 +32,7 @@ The following flags are used to specify sprite rendering options to the flags pa
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3dx9core.h |
 | Minimum operating system | Windows 98  |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether to load hardware-based Microsoft Media Foundation transforms (MFTs) in the topology.
+description: Specifies whether to load hardware-based Microsoft Media Foundation transforms (MFTs) in the topology.
 ms.assetid: f7ac3c9b-c163-412f-84c0-27bf551091d8
 title: MF_TOPOLOGY_HARDWARE_MODE attribute (Mfidl.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

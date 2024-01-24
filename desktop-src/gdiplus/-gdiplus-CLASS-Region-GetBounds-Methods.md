@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the GetBounds methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
+description: This topic lists the GetBounds methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 ms.assetid: 20e6f834-1f36-4de0-b574-b89ebce917de
 title: Region.GetBounds methods
 ms.date: 07/02/2019

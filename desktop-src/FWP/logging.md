@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Logging
+# Logging (Windows Filtering Platform)
 
 The Windows Filtering Platform (WFP) provides logging of packet drops and IKE/AuthIP failures.
 

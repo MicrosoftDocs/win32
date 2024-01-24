@@ -1,5 +1,5 @@
 ---
-Description: Gets the current status of the smart card or reader.
+description: Gets the current status of the smart card or reader.
 ms.assetid: ae285e2e-6591-43ab-b92f-1ec755872379
 title: ISCardManage::Status method
 ms.topic: reference
@@ -77,7 +77,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

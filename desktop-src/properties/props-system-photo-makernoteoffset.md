@@ -1,5 +1,5 @@
 ---
-Description: The offset for the maker note specified in System.Photo.MakerNote.
+description: The offset for the maker note specified in System.Photo.MakerNote.
 ms.assetid: 473ee0c7-af11-4492-ac54-4723a103a389
 title: System.Photo.MakerNoteOffset
 ms.topic: article
@@ -33,7 +33,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

@@ -1,5 +1,5 @@
 ---
-Description: The SWbemRefresher object exposes the following methods.
+description: The SWbemRefresher object exposes the following methods.
 ms.assetid: D70D21DB-5623-4456-BC58-8BFB9E1A8CDF
 ms.tgt_platform: multiple
 title: SWbemRefresher Methods

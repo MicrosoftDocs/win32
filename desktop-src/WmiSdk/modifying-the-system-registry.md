@@ -1,5 +1,5 @@
 ---
-Description: The system registry contains configuration data that the operating system, services, and applications use.
+description: The system registry contains configuration data that the operating system, services, and applications use.
 ms.assetid: e16a5d4c-46a0-4798-894d-0af4cfa18f22
 ms.tgt_platform: multiple
 title: Modifying the System Registry

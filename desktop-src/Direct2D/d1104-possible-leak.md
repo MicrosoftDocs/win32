@@ -37,7 +37,7 @@ The address of the interface that was created on the *factory*.
 
 </dd> </dl> 
 
-|             |             |
+| &nbsp;      |    &nbsp;   |
 |-------------|-------------|
 | Error Level | Information |
 

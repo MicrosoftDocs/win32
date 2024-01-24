@@ -21,7 +21,7 @@ Allows receiving messages from the queue.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | msmq-Receive                         |
 | Display-Name | Receive Message                      |
@@ -42,7 +42,7 @@ Allows receiving messages from the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 42                                           |
@@ -53,7 +53,7 @@ Allows receiving messages from the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 42                                           |
@@ -64,7 +64,7 @@ Allows receiving messages from the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 42                                           |
@@ -75,7 +75,7 @@ Allows receiving messages from the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 42                                           |
@@ -86,7 +86,7 @@ Allows receiving messages from the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 42                                           |
@@ -97,7 +97,7 @@ Allows receiving messages from the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 42                                           |

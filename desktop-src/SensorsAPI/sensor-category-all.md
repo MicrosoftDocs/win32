@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_ALL category represents the set of all platform-defined sensor categories.
+description: The SENSOR\_CATEGORY\_ALL category represents the set of all platform-defined sensor categories.
 ms.assetid: e2d9fe6d-450a-446b-968b-0924116af6fe
 title: SENSOR_CATEGORY_ALL (Sensors.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The following table describes platform-defined data fields.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

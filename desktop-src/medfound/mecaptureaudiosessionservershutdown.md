@@ -1,5 +1,5 @@
 ---
-Description: Sent by an audio capture source when the capture audio session is disconnected due to the audio server being shutdown.
+description: Sent by an audio capture source when the capture audio session is disconnected due to the audio server being shutdown.
 ms.assetid: 43284B3E-3018-44F3-8D6C-8C3041DCCD3E
 title: MECaptureAudioSessionServerShutdown event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |

@@ -13,10 +13,13 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # WMT\_VIDEOIMAGE\_TRANSITION\_DIAMOND
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The diamond transition reveals the new image in a diamond.
 
@@ -26,51 +29,15 @@ The following table describes the parameters used by this transition and lists t
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parameter</th>
-<th>Structure member</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Center X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>X-coordinate, relative to the video frame, of the center of the diamond.</td>
-</tr>
-<tr class="even">
-<td>Center Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Y-coordinate, relative to the video frame, of the center of the diamond.</td>
-</tr>
-<tr class="odd">
-<td>Width</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Width of the diamond in pixels.</td>
-</tr>
-<tr class="even">
-<td>Height</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Height of the diamond in pixels.</td>
-</tr>
-<tr class="odd">
-<td>Composition</td>
-<td><strong>fEffectPara4</strong></td>
-<td>Set to one of the following values:
-<ul>
-<li>0 - Specifies normal composition, in which the previous image is the background, and the current image is the foreground.</li>
-<li>1 - Specifies reversed composition, in which the current image is the background image, and the previous image is the foreground</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Parameter | Structure member | Description | 
+|-----------|------------------|-------------|
+| Center X | <strong>fEffectPara0</strong> | X-coordinate, relative to the video frame, of the center of the diamond. | 
+| Center Y | <strong>fEffectPara1</strong> | Y-coordinate, relative to the video frame, of the center of the diamond. | 
+| Width | <strong>fEffectPara2</strong> | Width of the diamond in pixels. | 
+| Height | <strong>fEffectPara3</strong> | Height of the diamond in pixels. | 
+| Composition | <strong>fEffectPara4</strong> | Set to one of the following values:<ul><li>0 - Specifies normal composition, in which the previous image is the background, and the current image is the foreground.</li><li>1 - Specifies reversed composition, in which the current image is the background image, and the previous image is the foreground</li></ul> | 
+
 
 
 
@@ -80,7 +47,7 @@ The following table describes the parameters used by this transition and lists t
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmsdkidl.h</dt> </dl> |
 

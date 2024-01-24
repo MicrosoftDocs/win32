@@ -1,5 +1,5 @@
 ---
-Description: The following example encrypts and decrypts a data BLOB using CryptProtectData and CryptUnprotectData.
+description: The following example encrypts and decrypts a data BLOB using CryptProtectData and CryptUnprotectData.
 ms.assetid: 51607aad-9fa8-4db6-bd2a-3821dce619e7
 title: 'Example C Program: Using CryptProtectData'
 ms.topic: article

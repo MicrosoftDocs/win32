@@ -1,5 +1,5 @@
 ---
-Description: Caches internally the unfiltered image returned from the driver.
+description: Caches internally the unfiltered image returned from the driver.
 ms.assetid: 09cb242d-d1d6-4130-8b49-0770940471d8
 title: IWiaPreview::GetNewPreview method (Wia.h)
 ms.topic: reference
@@ -213,7 +213,7 @@ DownloadPreviewImage(
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

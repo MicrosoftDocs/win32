@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateBitmapFromMemory method.
+description: Proxy function for the CreateBitmapFromMemory method.
 ms.assetid: 5aa455d5-23e3-4738-b028-b84da0fb0c50
 title: IWICImagingFactory_CreateBitmapFromMemory_Proxy function
 ms.topic: reference
@@ -124,7 +124,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

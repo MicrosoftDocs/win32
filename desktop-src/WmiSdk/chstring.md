@@ -1,5 +1,5 @@
 ---
-Description: The following table lists the CHString methods.
+description: The following table lists the CHString methods.
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
 ms.tgt_platform: multiple
 title: CHString class (ChString.h)
@@ -60,7 +60,7 @@ The **CHString** class has these methods.
 | [**Compare**](/windows/desktop/api/ChString/nf-chstring-chstring-compare)                       | Compares two strings (case sensitive).<br/>                                                              |
 | [**CompareNoCase**](/windows/desktop/api/ChString/nf-chstring-chstring-comparenocase)           | Compares two strings (case insensitive).<br/>                                                            |
 | [**Empty**](/windows/desktop/api/ChString/nf-chstring-chstring-empty)                           | Forces a string to have 0 (zero) length.<br/>                                                            |
-| [**Find**](/windows/desktop/api/ChString/nf-chstring-chstring-find)                             | Overloaded. Finds a character or substring inside a larger string.<br/>                                  |
+| [**Find**](/windows/win32/api/chstring/nf-chstring-chstring-find(wchar))                        | Overloaded. Finds a character or substring inside a larger string.<br/>                                  |
 | [**FindOneOf**](/windows/desktop/api/ChString/nf-chstring-chstring-findoneof)                   | Finds the first matching character from a set.<br/>                                                      |
 | [**Format**](/windows/desktop/api/ChString/nf-chstring-chstring-format(uint_---))                         | Overloaded. Formats the string as **sprintf** does.<br/>                                                 |
 | [**FormatMessageW**](/windows/desktop/api/ChString/nf-chstring-chstring-formatmessagew(uint_---))         | Overloaded. Formats a message string.<br/>                                                               |
@@ -79,7 +79,7 @@ The **CHString** class has these methods.
 | [**MakeLower**](/windows/desktop/api/ChString/nf-chstring-chstring-makelower)                   | Converts all of the characters in this string to lowercase characters.<br/>                              |
 | [**MakeReverse**](/windows/desktop/api/ChString/nf-chstring-chstring-makereverse)               | Reverses the characters in this string.<br/>                                                             |
 | [**MakeUpper**](/windows/desktop/api/ChString/nf-chstring-chstring-makeupper)                   | Converts all of the characters in this string to uppercase characters.<br/>                              |
-| [**Mid**](/windows/desktop/api/ChString/nf-chstring-chstring-mid)                               | Overloaded. Extracts the middle part of a string (like the Basic **MID$** function).<br/>                |
+| [**Mid**](/windows/win32/api/chstring/nf-chstring-chstring-mid(int))                               | Overloaded. Extracts the middle part of a string (like the Basic **MID$** function).<br/>                |
 | [**ReleaseBuffer**](/windows/desktop/api/ChString/nf-chstring-chstring-releasebuffer)           | Releases control of the buffer returned by [**GetBuffer**](/windows/desktop/api/ChString/nf-chstring-chstring-getbuffer).<br/>                 |
 | [**ReverseFind**](/windows/desktop/api/ChString/nf-chstring-chstring-reversefind)               | Finds a character inside a larger string; starts from the end.<br/>                                      |
 | [**Right**](/windows/desktop/api/ChString/nf-chstring-chstring-right)                           | Extracts the right part of a string (like the Basic **RIGHT$** function).<br/>                           |
@@ -132,7 +132,7 @@ The destructor for the class is **CHString::~CHString**.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |

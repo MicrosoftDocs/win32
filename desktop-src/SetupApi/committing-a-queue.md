@@ -1,5 +1,5 @@
 ---
-Description: After all the desired file operations have been queued, the queue must be committed. This causes the enqueued file operations to be processed.
+description: After all the desired file operations have been queued, the queue must be committed. This causes the enqueued file operations to be processed.
 ms.assetid: 536f47f5-785e-4a83-a500-c769442e3e68
 title: Committing a Queue
 ms.topic: article

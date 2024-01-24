@@ -16,8 +16,8 @@ This section contains information about the core enumerations.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,10 +64,10 @@ This section contains information about the core enumerations.
 </tr>
 <tr>
 <td><a href="/windows/win32/api/D3D11_1/ne-d3d11_1-d3d11_copy_flags"><strong>D3D11_COPY_FLAGS</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 This enumeration is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
-</blockquote>
+
 <br/> Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource.<br/></td>
 </tr>
 <tr>
@@ -136,10 +136,10 @@ This enumeration is supported by the Direct3D 11.1 runtime, which is available o
 </tr>
 <tr>
 <td><a href="/windows/win32/api/D3D11_1/ne-d3d11_1-d3d11_logic_op"><strong>D3D11_LOGIC_OP</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 This enumeration is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
-</blockquote>
+
 <br/> Specifies logical operations to configure for a render target.<br/></td>
 </tr>
 <tr>
@@ -147,7 +147,7 @@ This enumeration is supported by the Direct3D 11.1 runtime, which is available o
 <td>Indicates how the pipeline interprets geometry or hull shader input primitives. <br/></td>
 </tr>
 <tr>
-<td><a href="/previous-versions/windows/win32/legacy/ff476189(v=vs.85)"><strong>D3D11_PRIMITIVE_TOPOLOGY</strong></a><br/></td>
+<td><a href="/previous-versions/windows/desktop/legacy/ff476189(v=vs.85)"><strong>D3D11_PRIMITIVE_TOPOLOGY</strong></a><br/></td>
 <td>How the pipeline interprets vertex data that is bound to the input-assembler stage. These primitive topology values determine how the vertex data is rendered on screen.<br/></td>
 </tr>
 <tr>
@@ -168,15 +168,15 @@ This enumeration is supported by the Direct3D 11.1 runtime, which is available o
 </tr>
 <tr>
 <td><a href="/windows/win32/api/D3D11/ne-d3d11-d3d11_shader_min_precision_support"><strong>D3D11_SHADER_MIN_PRECISION_SUPPORT</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 This enumeration is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.
-</blockquote>
+
 <br/> Values that specify minimum precision levels at shader stages.<br/></td>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_shared_resource_tier"><strong>D3D11_SHARED_RESOURCE_TIER</strong></a><br/></td>
-<td>Defines constants that specify a tier for shared resource support.<br/></td>
+<td>Defines constants that specify the level of support for shared resources in the current graphics driver.<br/></td>
 </tr>
 <tr>
 <td><a href="/windows/win32/api/D3D11/ne-d3d11-d3d11_stencil_op"><strong>D3D11_STENCIL_OP</strong></a><br/></td>

@@ -1,5 +1,5 @@
 ---
-Description: Retrieving the Content Types Supported by a Device
+description: Retrieving the Content Types Supported by a Device
 ms.assetid: 1cedb8d9-2476-420c-bab4-c8a032af781b
 title: Retrieving the Content Types Supported by a Device
 ms.topic: article

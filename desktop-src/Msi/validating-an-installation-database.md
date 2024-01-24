@@ -1,5 +1,5 @@
 ---
-Description: Authors of installation packages should always run validation on their packages before attempting to install the package for the first time and rerun validation whenever making any changes to the package.
+description: Authors of installation packages should always run validation on their packages before attempting to install the package for the first time and rerun validation whenever making any changes to the package.
 ms.assetid: 1f16a349-4919-46d2-9b78-2533b8679a73
 title: Validating an Installation Database
 ms.topic: article

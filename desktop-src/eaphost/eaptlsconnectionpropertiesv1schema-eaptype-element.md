@@ -1,6 +1,6 @@
 ---
-title: EapType Element
-description: Is a derived type of the EapType element from the BaseEapConnectionProperties schema.
+title: EapType element (eaptlsconnectionpropertiesv1schema)
+description: This element is a derived type of the EapType element from the BaseEapConnectionProperties schema. For the eaptlsconnectionpropertiesv1schema.
 ms.assetid: cf92d500-f815-48e2-a7d5-1364cb13a1f0
 keywords:
 - EapType element EAPHost
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# EapType Element
+# EapType element (eaptlsconnectionpropertiesv1schema)
 
 The **EapType** element is a derived type of the [**EapType**](baseeapconnectionpropertiesv1schema-eaptype-element.md) element from the [BaseEapConnectionProperties](baseeapconnectionpropertiesv1schema-schema.md) schema.
 
@@ -85,7 +85,7 @@ This derived **EapType** element contains the following elements: [**Credentials
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

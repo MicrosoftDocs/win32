@@ -1,5 +1,5 @@
 ---
-Description: Resource statistics gathered by the D3DDEVINFO\_ResourceManager when using the asynchronous query mechanism.
+description: Resource statistics gathered by the D3DDEVINFO\_ResourceManager when using the asynchronous query mechanism.
 ms.assetid: f4d9c6db-4002-439c-9a88-485763badc82
 title: D3DRESOURCESTATS structure (D3D9Types.h)
 ms.topic: reference
@@ -169,7 +169,7 @@ Total number of bytes of managed objects.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

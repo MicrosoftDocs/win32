@@ -1,5 +1,5 @@
 ---
-Description: The data transport functions exposed by Ws2spi.h.
+description: The data transport functions exposed by Ws2spi.h.
 ms.assetid: 6900faa3-79bb-4ed8-b83e-148eb10425a0
 title: Generic Data Transport Functions
 ms.topic: article

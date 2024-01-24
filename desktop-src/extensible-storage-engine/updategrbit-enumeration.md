@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UpdateGrbit enumeration"
 title: UpdateGrbit enumeration (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: UpdateGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Server2003.UpdateGrbit
@@ -32,11 +33,11 @@ ROBOTS: INDEX,FOLLOW
 
 # UpdateGrbit enumeration
 
-Options for [JetUpdate2(JET_SESID, JET_TABLEID, \[\], Int32, Int32, UpdateGrbit)](dn351205\(v=exchg.10\).md).
+Options for [JetUpdate2(JET_SESID, JET_TABLEID, \[\], Int32, Int32, UpdateGrbit)](./server2003api.jetupdate2-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](hh557147\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](./microsoft.isam.esent.interop.server2003-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -83,4 +84,4 @@ public enum UpdateGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

@@ -108,7 +108,7 @@ Quotas can be set through a Group Policy setting or manually. For more informati
 **To set a quota manually**
 
 1.  Open a Command Prompt window as an administrator.
-2.  At the Command Prompt, type **winrm set winrm/config/winrs '@{***<Quota>***="***<Value>***"}'**
+2.  At the Command Prompt, type **winrm set winrm/config/winrs '@{***&lt;Quota&gt;***="***&lt;Value&gt;***"}'**
 
 For example, to increase the maximum number of shells per user from 5 to 7, type **winrm set winrm/config/winrs '@{MaxShellsPerUser="7"}'**.
 

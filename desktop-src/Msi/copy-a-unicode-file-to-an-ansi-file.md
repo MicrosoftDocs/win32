@@ -1,5 +1,5 @@
 ---
-Description: The VBScript file WiToAnsi.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how script is used to rewrite a Unicode text file as an ANSI text file.
+description: The VBScript file WiToAnsi.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how script is used to rewrite a Unicode text file as an ANSI text file.
 ms.assetid: cb22495f-968c-470a-a2f1-d0e068133956
 title: Copy a Unicode File to an ANSI File
 ms.topic: article

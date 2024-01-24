@@ -1,5 +1,5 @@
 ---
-Description: The EnableIPFilterSec WMI class static method is used to enable Internet Protocol security (IPsec) globally across all IP-bound network adapters.
+description: The EnableIPFilterSec WMI class static method is used to enable Internet Protocol security (IPsec) globally across all IP-bound network adapters.
 ms.assetid: 565acc18-61e7-473e-b2cc-41f0e8c29193
 ms.tgt_platform: multiple
 title: EnableIPFilterSec method of the Win32_NetworkAdapterConfiguration class
@@ -405,8 +405,7 @@ With security enabled, the operational security characteristics for any one netw
 
 ## Examples
 
-The following code, taken from the [Enable IPFilter Security on All Network Adapters](https://Gallery.TechNet.Microsoft.Com/f8e56021-5a54-4554-b7b6-d76cc40d8d1d) sample on TechNet Gallery, enables IP filter security for all the network adapters installed in a computer.
-
+The following code enables IP filter security for all the network adapters installed in a computer.
 
 ```VB
 On Error Resume Next 
@@ -425,7 +424,7 @@ objNetworkSettings.EnableIPFilterSec(True)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

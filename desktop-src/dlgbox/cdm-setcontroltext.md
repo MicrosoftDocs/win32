@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # CDM\_SETCONTROLTEXT message
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](../shell/common-file-dialog.md). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Sets the text for the specified control in an Explorer-style **Open** or **Save As** dialog box. The dialog box must have been created with the **OFN\_EXPLORER** flag; otherwise, the message fails.
 
@@ -65,7 +65,7 @@ void CommDlg_OpenSave_SetControlText(hwnd, wparam, lparam)
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -94,6 +94,4 @@ void CommDlg_OpenSave_SetControlText(hwnd, wparam, lparam)
 
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

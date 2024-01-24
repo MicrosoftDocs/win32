@@ -1,5 +1,5 @@
 ---
-Description: Represents the tablet context.
+description: Represents the tablet context.
 ms.assetid: d518c42d-c2f6-4776-bea5-fecdfe48e260
 title: ITabletContextP interface
 ms.topic: reference
@@ -94,7 +94,7 @@ interface ITabletContextP : ITabletContext
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

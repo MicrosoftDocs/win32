@@ -1,5 +1,5 @@
 ---
-Description: These constants used when creating an effect to define either compilation behavior or runtime effect behavior.
+description: These constants used when creating an effect to define either compilation behavior or runtime effect behavior.
 ms.assetid: cff99200-8bdc-416c-b1a5-3ae515a17a17
 title: D3D10_EFFECT Constants
 ms.topic: reference

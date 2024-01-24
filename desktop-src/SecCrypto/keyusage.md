@@ -1,5 +1,5 @@
 ---
-Description: Provides read-only access to key usage properties of a certificate.
+description: Provides read-only access to key usage properties of a certificate.
 ms.assetid: '8b8e9076-1a4f-4383-ac4b-1322d52949f0'
 title: KeyUsage object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # KeyUsage object
 
-\[The **KeyUsage** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **KeyUsage** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509EnhancedKeyUsageExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **KeyUsage** object provides read-only access to key usage properties of a certificate.
 
@@ -59,7 +59,7 @@ The **KeyUsage** object cannot be created.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

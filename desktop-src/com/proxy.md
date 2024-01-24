@@ -21,7 +21,7 @@ Each interface proxy is a component object that implements the marshaling code f
 
 The following diagram shows the structure of a proxy that supports the standard marshaling of parameters belonging to two interfaces: IA1 and IA2. Each interface proxy implements [**IRpcProxyBuffer**](/windows/win32/api/objidlbase/nn-objidlbase-irpcproxybuffer) for internal communication between the aggregate pieces. When the proxy is ready to pass its marshaled parameters across the process boundary, it calls methods in the [**IRpcChannelBuffer**](/windows/win32/api/objidlbase/nn-objidlbase-irpcchannelbuffer) interface, which is implemented by the channel. The channel in turn forwards the call to the RPC run-time library so that it can reach its destination in the object.
 
-![](images/4432d8d3-dfab-4635-90f8-408aecf70134.png)
+![Diagram that shows the structure of the proxy.](images/4432d8d3-dfab-4635-90f8-408aecf70134.png)
 
 ## Related topics
 

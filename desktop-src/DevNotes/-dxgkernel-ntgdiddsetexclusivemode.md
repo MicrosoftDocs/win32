@@ -1,5 +1,5 @@
 ---
-Description: Notifies the driver when a Microsoft DirectDraw application is switching to or from exclusive mode.
+description: Notifies the driver when a Microsoft DirectDraw application is switching to or from exclusive mode.
 ms.assetid: f2b63d90-7ede-479f-a2fd-ae9870c4d7b9
 title: NtGdiDdSetExclusiveMode function (Ntgdi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to a [**DD\_SETEXCLUSIVEMODEDATA**](/windows/win32/api/ddrawint/ns-ddraw
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

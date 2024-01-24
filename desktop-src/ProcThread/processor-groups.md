@@ -1,5 +1,5 @@
 ---
-Description: The 64-bit versions of Windows 7 and Windows Server 2008 R2 and later versions of Windows support more than 64 logical processors on a single computer. This functionality is not available on 32-bit versions of Windows.
+description: The 64-bit versions of Windows 7 and Windows Server 2008 R2 and later versions of Windows support more than 64 logical processors on a single computer. This functionality is not available on 32-bit versions of Windows.
 ms.assetid: c627ac0f-96e8-48b5-9103-4316f487e173
 title: Processor Groups
 ms.topic: article
@@ -36,9 +36,28 @@ To specify affinity for all processes associated with a job object, use the [**S
 
 A logical processor is identified by its group number and its group-relative processor number. This is represented by a [**PROCESSOR\_NUMBER**](/windows/desktop/api/WinNT/ns-winnt-processor_number) structure. Numeric processor numbers used by legacy functions are group-relative.
 
-For a discussion of operating system architecture changes to support more than 64 processors, see the white paper [Supporting Systems That Have More Than 64 Processors](https://www.microsoft.com/whdc/system/Sysinternals/MoreThan64proc.mspx).
+For a discussion of operating system architecture changes to support more than 64 processors, see the white paper [Supporting Systems That Have More Than 64 Processors](https://plexuk.co.uk/?p=400).
 
 For a list of new functions and structures that support processor groups, see [What's New in Processes and Threads](what-s-new-in-processes-and-threads.md).
+
+### Behavior starting with Windows 11 and Windows Server 2022 
+
+> [!NOTE]
+> Starting with Windows 11 and Windows Server 2022, it is no longer the case that applications are constrained by default to a single processor group. Instead, processes and their threads have processor affinities that by default span all processors in the system, across multiple groups on machines with more than 64 processors.
+
+In order for applications to automatically take advantage of all the processors in a machine with more than 64 processors, starting with Windows 11 and Windows Server 2022 the OS has changed to make processes and their threads span all processors in the system, across all processor groups, by default. This means that applications no longer need to explicitly set their threads' affinities in order to access multiple processor groups.
+
+For compatibility reasons, the OS uses a new **Primary Group** concept for both processes and threads. Each process is assigned a primary group at creation, and by default all of its threads' primary group is the same. Each thread's ideal processor is in the thread's primary group, so threads will preferentially be scheduled to processors on their primary group, but they are able to be scheduled to processors on any other group. Affinity APIs that are not group-aware or operate on a single group implicitly use the primary group as the process/thread processor group; for more information on the new behaviors check the Remarks sections for the following:
+- [**GetProcessAffinityMask**](/windows/win32/api/winbase/nf-winbase-getprocessaffinitymask)
+- [**SetProcessAffinityMask**](/windows/win32/api/winbase/nf-winbase-setprocessaffinitymask)
+- [**SetThreadAffinityMask**](/windows/win32/api/winbase/nf-winbase-setthreadaffinitymask)
+- [**GetProcessGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity)
+- [**GetThreadGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-getthreadgroupaffinity)
+- [**SetThreadGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-setthreadgroupaffinity)
+- [**SetThreadIdealProcessor**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessor)
+- [**SetThreadIdealProcessorEx**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex)
+
+Applications can use [**CPU Sets**](/windows/win32/procthread/cpu-sets) to effectively manage a process' or thread's affinity over multiple processor groups.
 
 ## Related topics
 

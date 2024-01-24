@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical shortcut file (or directory) specified in the object path (this method is an extended version of the Compress method).
+description: Compresses the logical shortcut file (or directory) specified in the object path (this method is an extended version of the Compress method).
 ms.assetid: 1f7b6182-6ab7-4801-83a8-b57b1c78001f
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_ShortcutFile class
@@ -166,7 +166,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

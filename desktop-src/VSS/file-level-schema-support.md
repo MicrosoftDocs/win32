@@ -1,5 +1,5 @@
 ---
-Description: Writers can fine-tune the performance of various types of backup at the file set level by indicating through a file specification backup type, indicated by a bit mask or bitwise OR of the members of the VSS\_FILE\_SPEC\_BACKUP\_TYPE enumeration.
+description: Writers can fine-tune the performance of various types of backup at the file set level by indicating through a file specification backup type, indicated by a bit mask or bitwise OR of the members of the VSS\_FILE\_SPEC\_BACKUP\_TYPE enumeration.
 ms.assetid: a3ac69b4-894a-4536-8fab-f45ad7e5118a
 title: File Level Schema Support
 ms.topic: article

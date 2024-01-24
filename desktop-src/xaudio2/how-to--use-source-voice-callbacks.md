@@ -1,5 +1,5 @@
 ---
-Description: When you create a source voice, you can pass a structure to it that defines callbacks for certain audio events. You can use these callbacks to perform actions or to signal other code.
+description: When you create a source voice, you can pass a structure to it that defines callbacks for certain audio events. You can use these callbacks to perform actions or to signal other code.
 ms.assetid: 0bace0c5-9171-efd8-9a38-2c2b3452f73f
 title: 'How to: Use Source Voice Callbacks'
 ms.topic: article

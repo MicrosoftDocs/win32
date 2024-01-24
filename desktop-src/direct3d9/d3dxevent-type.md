@@ -1,5 +1,5 @@
 ---
-Description: Describes the type of events that can be keyed by the animation controller.
+description: Describes the type of events that can be keyed by the animation controller.
 ms.assetid: d98b398e-29e1-41b5-84eb-37983bac8d0a
 title: D3DXEVENT_TYPE enumeration (D3dx9anim.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 

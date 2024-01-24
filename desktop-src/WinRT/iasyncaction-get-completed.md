@@ -1,5 +1,5 @@
 ---
-Description: Gets the method that is called when the asynchronous action completes.
+description: Gets the method that is called when the asynchronous action completes.
 ms.assetid: 5050BF84-F9E0-4B3E-9252-6C5C1060826E
 title: IAsyncAction::get_Completed method
 ms.topic: reference
@@ -53,7 +53,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                              |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |

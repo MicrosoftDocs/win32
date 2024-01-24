@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Subset of .NET 2.0 Now on Server Core
 ms.assetid: f91c4604-b2d6-41e5-be66-bbc8a4f0e28e
 title: Subset of .NET 2.0 Now on Server Core
 ms.topic: article
@@ -40,7 +40,6 @@ Verify that the .NET classes your code uses is included in Server Core. Also tes
 ## Links to Other Resources
 
 -   [Server Core](/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
--   [Server Core Blog](https://blogs.technet.com/server_core/archive/2008/11/25/net-2-0-and-server-core-in-windows-server-2008-r2.aspx)
 -   *See also* the Server Core section of the *Windows Server 2008 R2 SDK* when it becomes available
 
 > [!Note]  

@@ -1,5 +1,5 @@
 ---
-Description: Places the specified user object next in line for name resolution.
+description: Places the specified user object next in line for name resolution.
 ms.assetid: 4c75f966-2e7d-4415-b1db-c98f8bdd4ce3
 title: DiskQuotaControl.GiveUserNameResolutionPriority method (Dskquota.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ Use the [**UserNameResolution**](diskquotacontrol-usernameresolution.md) propert
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: To enumerate all the devices on the computer, call the EnumDisplayDevices function. The information that is returned also indicates which monitor is part of the desktop.
+description: To enumerate all the devices on the computer, call the EnumDisplayDevices function. The information that is returned also indicates which monitor is part of the desktop.
 ms.assetid: 834dee04-66fa-42eb-adff-c08a74c6cea8
 title: Enumeration and Display Control
 ms.topic: article

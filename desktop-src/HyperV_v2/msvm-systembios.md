@@ -1,5 +1,5 @@
 ---
-Description: Used to associate a virtual machine with its BIOS.
+description: Used to associate a virtual machine with its BIOS.
 ms.assetid: 494E9D9F-64D5-49D5-A6C7-ABE469ABA4CA
 title: Msvm_SystemBIOS class
 ms.topic: reference
@@ -86,7 +86,7 @@ Access to the **Msvm\_SystemBIOS** class might be restricted by UAC Filtering. F
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

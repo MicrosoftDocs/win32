@@ -1,5 +1,5 @@
 ---
-Description: Computes the source radiance resulting from a single bounce of interreflected light, using adaptive sampling.
+description: Computes the source radiance resulting from a single bounce of interreflected light, using adaptive sampling.
 ms.assetid: 61f8cecd-d95a-4f02-929e-02f2bce5bde9
 title: ID3DXPRTEngine::ComputeBounceAdaptive method (D3DX9Mesh.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

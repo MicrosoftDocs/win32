@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the specified color is a special color.
+description: Specifies whether the specified color is a special color.
 ms.assetid: fda856c4-37b9-444f-9c54-d9eb848a4b05
 title: FSpecialIMEColorStyle function
 ms.topic: reference
@@ -53,7 +53,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

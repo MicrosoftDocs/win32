@@ -1,5 +1,5 @@
 ---
-Description: Developers creating applications for the Tablet PC are able to take advantage of input scope and context information.
+description: Developers creating applications for the Tablet PC are able to take advantage of input scope and context information.
 ms.assetid: 74e4e4b2-6ceb-4044-84df-2fff0788267a
 title: How the Tablet PC Platform Uses Context
 ms.topic: article

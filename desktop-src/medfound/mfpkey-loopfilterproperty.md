@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the codec should use the in-loop deblocking filter during encoding.
+description: Specifies whether the codec should use the in-loop deblocking filter during encoding.
 ms.assetid: 395a356a-5f58-46b4-b2ff-47f98106f487
 title: MFPKEY_LOOPFILTER Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Although the in-loop filter can lead to reduced image detail in some frames, the
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

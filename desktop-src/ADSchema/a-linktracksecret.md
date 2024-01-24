@@ -22,7 +22,7 @@ This attribute stores a link to a secret key that allows an encrypted file to be
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Link-Track-Secret                                     |
 | Ldap-Display-Name | linkTrackSecret                                       |
@@ -48,7 +48,7 @@ This attribute stores a link to a secret key that allows an encrypted file to be
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -69,7 +69,7 @@ This attribute stores a link to a secret key that allows an encrypted file to be
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -90,7 +90,7 @@ This attribute stores a link to a secret key that allows an encrypted file to be
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -111,7 +111,7 @@ This attribute stores a link to a secret key that allows an encrypted file to be
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -132,7 +132,7 @@ This attribute stores a link to a secret key that allows an encrypted file to be
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -153,7 +153,7 @@ This attribute stores a link to a secret key that allows an encrypted file to be
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |

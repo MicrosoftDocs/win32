@@ -1,5 +1,5 @@
 ---
-Description: The system uses objects and handles to regulate access to system resources for two main reasons.
+description: The system uses objects and handles to regulate access to system resources for two main reasons.
 ms.assetid: 122acb9e-2a1b-480b-9207-5cc6bbe6b6d4
 title: About Handles and Objects
 ms.topic: article

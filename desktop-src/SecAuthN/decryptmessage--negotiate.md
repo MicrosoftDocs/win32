@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a message by using Negotiate.
+description: Decrypts a message by using Negotiate.
 ms.assetid: 188341ff-4e67-481e-af30-7f9913b1d24e
 title: DecryptMessage (Negotiate) function
 ms.topic: reference
@@ -44,8 +44,11 @@ A pointer to a variable of type **ULONG** that receives package-specific flags t
 
 This parameter can be the following flag.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Value</th><th>Meaning</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>The message was not encrypted, but a header or trailer was produced.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br/></td></tr></tbody></table>
+
+| Value | Meaning | 
+|-------|---------|
+| **SECQOP_WRAP_NO_ENCRYPT**<br> | The message was not encrypted, but a header or trailer was produced.<br> **Note:** KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.<br> | 
+
 
 ## Return value
 
@@ -66,7 +69,7 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 ## Requirements
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

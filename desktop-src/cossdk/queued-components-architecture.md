@@ -1,5 +1,5 @@
 ---
-Description: The COM+ queued components service enhances the COM programming model by providing an environment in which a component can be invoked either synchronously (real-time) or asynchronously (queued).
+description: The COM+ queued components service enhances the COM programming model by providing an environment in which a component can be invoked either synchronously (real-time) or asynchronously (queued).
 ms.assetid: fd455679-b2b3-487f-8494-9ea296ce2c89
 title: Queued Components Architecture
 ms.topic: article
@@ -18,7 +18,7 @@ The COM+ queued components service consists of the following parts:
 -   Listener (for the server or receive side)
 -   Player (for the server or receive side)
 
-![](images/d732774b-1ca6-45ad-bce0-a95b0bfc3edb.png)
+![Diagram that shows the path from the client to the server: client, recorder, queue, listener, player, server.](images/d732774b-1ca6-45ad-bce0-a95b0bfc3edb.png)
 
 ## The Recorder
 

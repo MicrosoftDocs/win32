@@ -1,5 +1,5 @@
 ---
-Description: Waits for all volumes on the specified disk to be ready for use.
+description: Waits for all volumes on the specified disk to be ready for use.
 ms.assetid: 6cf619bb-7ff5-485e-b533-0f7f6503c6e0
 title: IOCTL_DISK_ARE_VOLUMES_READY control code (Ntdddisk.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ If the operation fails or is pending, [**DeviceIoControl**](/windows/desktop/api
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |

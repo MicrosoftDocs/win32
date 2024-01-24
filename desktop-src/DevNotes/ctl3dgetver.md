@@ -1,5 +1,5 @@
 ---
-Description: Indicates the version of CTL3D that is currently running.
+description: Indicates the version of CTL3D that is currently running.
 ms.assetid: 38c0842c-417f-4ca1-acc2-3bbadf45c804
 title: Ctl3dGetVer function
 ms.topic: reference
@@ -44,7 +44,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 

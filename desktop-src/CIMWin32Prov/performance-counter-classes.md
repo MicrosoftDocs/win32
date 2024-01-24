@@ -1,5 +1,5 @@
 ---
-Description: Performance Counter classes allow script and program access to system performance data calculated by existing high-performance providers.
+description: Performance Counter classes allow script and program access to system performance data calculated by existing high-performance providers.
 ms.assetid: 71746363-6fec-4344-8c5e-5cc057ebdf76
 ms.tgt_platform: multiple
 title: Performance Counter Classes

@@ -1,5 +1,5 @@
 ---
-Description: Configures, connects to, and disconnects from wireless networks.
+description: Configures, connects to, and disconnects from wireless networks.
 ms.assetid: f257bd46-6077-4295-bb90-fbc0a63133f6
 title: Native Wifi
 ms.topic: article
@@ -45,13 +45,5 @@ For additional information on the Native Wifi API on older versions of Windows, 
 
 <dl> <dt>
 
-[Wireless Networking](https://www.microsoft.com/technet/itsolutions/network/wifi/default.mspx)
+[Wireless Networking](/windows/win32/wireless-networking)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

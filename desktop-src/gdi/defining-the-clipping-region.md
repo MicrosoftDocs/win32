@@ -1,5 +1,5 @@
 ---
-Description: When the user clicks Define Clip Region , the system issues a WM\_COMMAND message.
+description: When the user clicks Define Clip Region , the system issues a WM\_COMMAND message.
 ms.assetid: 4b20f310-98c0-42c1-b3b3-eadf9bb2003c
 title: Defining the Clipping Region
 ms.topic: article

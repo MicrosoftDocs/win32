@@ -1,5 +1,5 @@
 ---
-Description: This section describes the recognizer structures.
+description: This section describes the recognizer structures.
 ms.assetid: 4c17391f-7af4-42ab-b77f-e3c39cadc0b6
 title: Recognizer Structures
 ms.topic: article

@@ -59,9 +59,9 @@ The input interpreted as a floating-point number.
 
 ## Function Overloads
 
-<dl> `float<x> asfloat(float<x> value);`  
-`float<x> asfloat(int<x> value);`  
-`float<x> asfloat(uint<x> value);`  
+<dl> `float&lt;x&gt; asfloat(float&lt;x&gt; value);`  
+`float&lt;x&gt; asfloat(int&lt;x&gt; value);`  
+`float&lt;x&gt; asfloat(uint&lt;x&gt; value);`  
 </dl>
 
 ## Minimum Shader Model

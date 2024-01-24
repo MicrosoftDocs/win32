@@ -1,5 +1,5 @@
 ---
-Description: CPL\_SELECT message
+description: CPL\_SELECT message
 title: CPL_SELECT message
 ms.topic: reference
 ms.date: 05/31/2018

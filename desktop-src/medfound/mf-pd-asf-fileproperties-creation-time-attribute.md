@@ -1,5 +1,5 @@
 ---
-Description: Specifies the date and time when an Advanced Systems Format (ASF) file was created.
+description: Specifies the date and time when an Advanced Systems Format (ASF) file was created.
 ms.assetid: 97f80584-9d74-4ba5-80f4-ddb6f2bc4625
 title: MF_PD_ASF_FILEPROPERTIES_CREATION_TIME attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Returns a collection of objects (classes or instances) called endpoints that are associated with a specified object.
+description: SWbemServices.AssociatorsOf method - Returns a collection of objects (classes or instances) called endpoints that are associated with a specified object.
 ms.assetid: a78e6701-6779-4a02-b811-23b2da4f4167
 ms.tgt_platform: multiple
 title: SWbemServices.AssociatorsOf method (Wbemdisp.h)
@@ -243,7 +243,7 @@ For more information about the ASSOCIATORS OF WQL query, source instances, and e
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

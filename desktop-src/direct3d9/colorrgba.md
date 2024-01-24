@@ -1,5 +1,5 @@
 ---
-Description: Defines a color object with an alpha component. This is used for the face color in the material template definition.
+description: Defines a color object with an alpha component. This is used for the face color in the material template definition.
 ms.assetid: a79d359d-242e-4ce1-be94-2912939ba3b0
 title: ColorRGBA
 ms.topic: reference

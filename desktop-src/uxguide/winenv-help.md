@@ -3,10 +3,13 @@ title: Help
 description: Use Help as a secondary mechanism to help users complete and better understand tasks \ 8212;the primary mechanism being the UI itself. Apply these guidelines to make the content truly helpful and easy to find.
 ms.assetid: 82ce076e-062b-4793-a1c0-ed96c0f2b284
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Help
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Use Help as a secondary mechanism to help users complete and better understand tasks the primary mechanism being the UI itself. Apply these guidelines to make the content truly helpful and easy to find.
 
@@ -122,7 +125,7 @@ Different kinds of content serve different purposes.
 
 
 
-|                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                       |
+|    Content Type                                                                                                        |   Example                                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Procedural Help**<br/> provides the steps for carrying out a task. <br/>                       | Procedural help should focus on "how" information rather than "what" or "why." <br/> ![screen shot of 'delete temporary files' help page ](images/winenv-help-image2.png)<br/> In this example, the Help topic describes how to use a feature of the Disk Cleanup utility, providing steps to follow in sequence.<br/>                                              |
 | **Conceptual Help**<br/> provides background information, feature overviews, or processes. <br/> | Conceptual help should provide "what" or "why" information beyond that needed to complete a task. <br/> ![screen shot of 'the desktop (overview)' help page ](images/winenv-help-image3.png)<br/> In this example, the Help topic defines what the desktop is, and provides additional detail about what it contains and why users interact with it.<br/>           |
@@ -322,10 +325,4 @@ In this example, the Help icon on the lower-left is used incorrectly with a Help
 -   Refer to Help simply as Help. Generally, don't use the phrase online Help unless you are in fact referring to content on your Web site.
 
  
-
- 
-
-
-
-
 

@@ -17,7 +17,7 @@ Declares an indexable, temporary register.
 
 
 
-| dcl\_indexableTemp x*N\[size\], ComponentCount* |
+| dcl\_indexableTemp xN\[size\], ComponentCount |
 |-------------------------------------------------|
 
 
@@ -28,8 +28,7 @@ Declares an indexable, temporary register.
 
 | Item                                                                                                                           | Description                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| <span id="N"></span><span id="n"></span>*N*<br/>                                                                         | \[in\] An integer that denotes the register number.<br/>                              |
-| <span id="_size_"></span><span id="_SIZE_"></span>*\[size\]*<br/>                                                        | \[in\] An optional integer value. The number of elements in the register array.<br/>  |
+| <span id="xN"></span><span id="xn"></span>*xN*<br/>                                                                         | \[in\] A temporary indexable register.<br/><ul><li><em>N</em> is an integer that identifies the register number.</li><li><em>*\[size\]*</em> is an optional integer value. The number of elements in the register array.</li></ul> |
 | <span id="ComponentCount"></span><span id="componentcount"></span><span id="COMPONENTCOUNT"></span>*ComponentCount*<br/> | \[in\] An optional integer value.The number of components in the register array.<br/> |
 
 

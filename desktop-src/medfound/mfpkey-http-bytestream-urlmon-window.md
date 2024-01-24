@@ -1,5 +1,5 @@
 ---
-Description: Sets a window for the Microsoft Media Foundation HTTP byte stream.
+description: Sets a window for the Microsoft Media Foundation HTTP byte stream.
 ms.assetid: 52761AC1-4974-4087-B5EE-A797F5BAD86D
 title: MFPKEY_HTTP_ByteStream_Urlmon_Window property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The value of this property is a pointer to the **IWindowForBindingUI** interface
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |
 

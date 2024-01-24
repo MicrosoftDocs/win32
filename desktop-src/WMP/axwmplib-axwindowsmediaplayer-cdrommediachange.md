@@ -1,6 +1,6 @@
 ---
 title: CdromMediaChange Event of the AxWindowsMediaPlayer Object
-description: The CdromMediaChange event occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive.
+description: The CdromMediaChange event occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive. | CdromMediaChange Event of the AxWindowsMediaPlayer Object
 ms.assetid: 0a6378c1-59e4-4be3-8764-d5c4ab478b6c
 keywords:
 - CdromMediaChange Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -13,10 +13,13 @@ api_location:
 api_type:
 - Assembly
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # CdromMediaChange Event of the AxWindowsMediaPlayer Object
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **CdromMediaChange** event occurs when a CD or DVD is inserted into or ejected from a CD or DVD drive.
 
@@ -56,7 +59,7 @@ The index of the CD drive corresponds to the index of an IWMPCdrom interface acc
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves state information for a virtual hard disk file.
+description: Retrieves state information for a virtual hard disk file.
 ms.assetid: 398b098b-dc1a-45e0-abcb-37b4b0a32290
 title: GetVirtualHardDiskState method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -153,7 +153,7 @@ public static void GetVirtualHardDiskState(string vhdPath)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

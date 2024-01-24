@@ -1,5 +1,5 @@
 ---
-Description: An association class is a special type of class that defines a relationship between two other classes.
+description: An association class is a special type of class that defines a relationship between two other classes.
 ms.assetid: 21fd6e39-5dd3-41b8-a2f5-0135a6637ce8
 ms.tgt_platform: multiple
 title: Declaring an Association Class

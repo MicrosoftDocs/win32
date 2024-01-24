@@ -124,7 +124,7 @@ coordsize="1000,1000" coordorigin="-500,-500">
 
 Similarly, the size of the containing box for the green roundrect is 50 points (width) by 40 points (height).
 
-When you want to to resize both the red oval and the green roundrect, simply change `<v:group style='... width:200pt;height:200pt;'>`. That's it -- you don't have to individually change the size of the two shapes.
+When you want to resize both the red oval and the green roundrect, simply change `<v:group style='... width:200pt;height:200pt;'>`. That's it -- you don't have to individually change the size of the two shapes.
 
 For example, if you change `<v:group style='... width:200pt;height:200pt;'>` to `<v:group style='... width:300pt;height:300pt;'>`, the shapes become larger, as shown in the following picture:
 

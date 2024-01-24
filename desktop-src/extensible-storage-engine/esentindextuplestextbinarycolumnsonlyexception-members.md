@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesTextBinaryColumnsOnlyException members"
 title: EsentIndexTuplesTextBinaryColumnsOnlyException members
 TOCTitle: EsentIndexTuplesTextBinaryColumnsOnlyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTextBinaryColumnsOnlyException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.IndexTuplesTextBinaryColumnsOnly exceptions.
 
-The [EsentIndexTuplesTextBinaryColumnsOnlyException](dn350490\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesTextBinaryColumnsOnlyException](./esentindextuplestextbinarycolumnsonlyexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesTextBinaryColumnsOnlyException class](dn350490\(v=exchg.10\).md)
+[EsentIndexTuplesTextBinaryColumnsOnlyException class](./esentindextuplestextbinarycolumnsonlyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

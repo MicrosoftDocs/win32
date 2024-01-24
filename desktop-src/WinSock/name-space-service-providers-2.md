@@ -1,5 +1,5 @@
 ---
-Description: A namespace provider implements an interface mapping between the Winsock namespace SPI and the native programmatic interface of an existing name service such as DNS, X.500, or NetWare Directory Services (NDS).
+description: A namespace provider implements an interface mapping between the Winsock namespace SPI and the native programmatic interface of an existing name service such as DNS, X.500, or NetWare Directory Services (NDS).
 ms.assetid: 9b35aa58-9011-4e0d-8c93-02714952b4a5
 title: Namespace Service Providers
 ms.topic: article

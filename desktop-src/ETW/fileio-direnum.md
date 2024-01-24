@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for the enumerate directory and directory notification events. The following syntax is simplified from MOF code.
+description: This class is the event type class for the enumerate directory and directory notification events. The following syntax is simplified from MOF code.
 ms.assetid: 08458385-6066-4523-a053-aceb5e5d6f10
 title: FileIo_DirEnum class
 ms.topic: reference
@@ -193,7 +193,7 @@ Directory enumeration and directory notification events are recorded when a dire
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

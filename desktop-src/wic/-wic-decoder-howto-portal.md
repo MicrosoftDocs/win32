@@ -1,5 +1,5 @@
 ---
-Description: The topics in this section provide examples demonstrating how to accomplish bitmap decoder-related tasks.
+description: The topics in this section provide examples demonstrating how to accomplish bitmap decoder-related tasks.
 ms.assetid: 1098b4a1-9f40-4d99-be8d-ab8f9c4172e7
 title: Decoder How-to Topics
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_DEVICE\_TYPES enumeration type describes the different Windows Portable Device (WPD) types commonly used to determine the basic classification and visual appearance of a portable device.
+description: The WPD\_DEVICE\_TYPES enumeration type describes the different Windows Portable Device (WPD) types commonly used to determine the basic classification and visual appearance of a portable device.
 ms.assetid: 51714e0f-e9b7-4474-a8bb-da3875ef5399
 title: WPD_DEVICE_TYPES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ An audio recorder device.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

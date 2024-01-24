@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidTableIdException members"
 title: EsentInvalidTableIdException members
 TOCTitle: EsentInvalidTableIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidTableIdException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidTableId exceptions.
 
-The [EsentInvalidTableIdException](dn334527\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidTableIdException](./esentinvalidtableidexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidTableIdException class](dn334527\(v=exchg.10\).md)
+[EsentInvalidTableIdException class](./esentinvalidtableidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

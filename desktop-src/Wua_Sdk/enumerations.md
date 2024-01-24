@@ -1,12 +1,12 @@
 ---
-Description: Enumerations (Controls and Property Pages)
+description: Enumerations (Controls and Property Pages)
 ms.assetid: 2ac80d0f-94c2-4d70-a48a-1b0060f91902
-title: Enumerations
+title: WUA Controls and Property Pages enumerations
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# WUA Controls and Property Pages enumerations
 
 Windows Update Agent (WUA) uses the enumerations that are listed in the following table to represent the status of operations.
 
@@ -28,7 +28,7 @@ Windows Update Agent (WUA) uses the enumerations that are listed in the followin
 | [**InstallationRebootBehavior**](/windows/win32/api/wuapi/ne-wuapi-installationrebootbehavior)                             | Defines the possible restart behaviors for an update.                                                                                                                                                                                                                                 |
 | [**OperationResultCode**](/windows/win32/api/wuapi/ne-wuapi-operationresultcode)                                           | Defines the possible results of a download, install, uninstall, or verification operation on an update.                                                                                                                                                                               |
 | [**SearchScope**](/windows/win32/api/wuapi/ne-wuapi-searchscope)                                                           | Specifies the variety of updates that should be returned by the search: per-machine updates, per-user updates, or both. Per-user updates are updates designed to affect only a single user’s environment. For more information, see [**IUpdate4::PerUser**](/windows/desktop/api/Wuapi/nf-wuapi-iupdate4-get_peruser).    |
-| [**ServerSelection**](/windows/win32/api/wuapicommon/ne-wuapicommon-serverselection)                                                   | Defines the update services that Windows Update can operate against. .                                                                                                                                                                                                                |
+| [**ServerSelection**](/openspecs/windows_protocols/ms-uamg/07e2bfa4-6795-4189-b007-cc50b476181a)                                                   | Defines the update services that Windows Update can operate against. .                                                                                                                                                                                                                |
 | [**UpdateEndpointAuthTokenType**](updateendpointauthtokentype.md)                           | Defines the type of tokens that can be used for authenticating with an endpoint.                                                                                                                                                                                                      |
 | [**UpdateEndpointType**](updateendpointtype.md)                                             | Defines the type of endpoints that can be used to connect to a service.                                                                                                                                                                                                               |
 | [**UpdateExceptionContext**](/windows/win32/api/wuapi/ne-wuapi-updateexceptioncontext)                                     | Defines the context in which an [**IUpdateException**](/windows/desktop/api/Wuapi/nn-wuapi-iupdateexception) object can be provided.                                                                                                                                                                                  |

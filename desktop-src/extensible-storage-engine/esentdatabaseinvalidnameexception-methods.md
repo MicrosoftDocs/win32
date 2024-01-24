@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidNameException methods"
 title: EsentDatabaseInvalidNameException methods
 TOCTitle: EsentDatabaseInvalidNameException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidNameException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseInvalidNameException](dn334450\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseInvalidNameException](./esentdatabaseinvalidnameexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseInvalidNameException class](dn334450\(v=exchg.10\).md)
+[EsentDatabaseInvalidNameException class](./esentdatabaseinvalidnameexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

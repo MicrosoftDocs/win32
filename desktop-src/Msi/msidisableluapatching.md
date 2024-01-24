@@ -1,5 +1,5 @@
 ---
-Description: Set the MSIDISABLELUAPATCHING property to 1 on the command line or in the Property table to prevent least-privilege patching of an application.
+description: Set the MSIDISABLELUAPATCHING property to 1 on the command line or in the Property table to prevent least-privilege patching of an application.
 ms.assetid: bf6b8794-332e-4069-8d6f-6d8dc9b01866
 title: MSIDISABLELUAPATCHING property
 ms.topic: reference
@@ -14,7 +14,7 @@ Set the **MSIDISABLELUAPATCHING** property to 1 on the command line or in the [P
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

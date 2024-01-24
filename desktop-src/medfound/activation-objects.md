@@ -1,5 +1,5 @@
 ---
-Description: Activation Objects
+description: Activation Objects
 ms.assetid: 767d5f1c-2b8d-43b6-916b-035129e93204
 title: Activation Objects
 ms.topic: article

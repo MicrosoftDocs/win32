@@ -1,6 +1,6 @@
 ---
 title: TSMF_SUPPORT_DATA_OUT structure
-description: Contains information about media formats.
+description: Contains information about media formats. | TSMF_SUPPORT_DATA_OUT structure
 ms.assetid: 987ede31-ad15-489f-90e5-fb707c6b38a9
 ms.tgt_platform: multiple
 keywords:
@@ -63,7 +63,7 @@ A variable number of structures containing media format data.
 
 
 
-|                                     |                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/> |

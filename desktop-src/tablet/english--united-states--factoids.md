@@ -1,5 +1,5 @@
 ---
-Description: "The following table lists formats that are available for each factoid used in United States English.FactoidDefinitionExamplesCURRENCYCurrency in dollars, euros, pounds, and yen as written in English (United States).$1,234$1,234.50$236.50$123k$.5025 5  1,123,500.50 456 7DATEDates as written in English (United States).3/14/20013-14-20013/143/14/013-14-0112-3-0103/14/0103-14-0120012001-2002'65March 14, 2001Wednesday, March 14, 2001Fri, Jul 16Thu, AUG 3March 14NUMBERAll numbers, including ordinals such as 1st and 2nd, and math symbols. The DATE, TIME, TELEPHONE, and CURRENCY factoid formats are also included in this factoid.123-123.456123rd25th1st22nd15TH90\\#1225%'913/14/20013-14-20013/143/14/013-14-0112-3-0103/14/0103-14-0120012001-2002(1+3)/51+1=2Note  Formats such as 300kb and 1Mb are not supported. ONECHARA single American National Standards Institute (ANSI) character.! &\\#0034; \\# $ % & ' ( ) \\* + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z \\[ \\\\ \\] \\_ a b c d e f g h i j k l m n o p q r s t u v w x y z { } ~    PERCENTA number followed by the percent symbol.87%5.9%POSTALCODEPostal codes as written in the United States.9811298073TELEPHONETelephone numbers as written in the United States.(206) 555-12121-206-555-12121-800-555-1212555-1212TIMETime as written in English (United States).15:053:0304:10 am3:17:352:34:35 am5:40:49 pm11:23:23 PM7:30 AM14:03UPPERCHARA single uppercase character.A-Z "
+description: "The following table lists formats that are available for each factoid used in United States English.FactoidDefinitionExamplesCURRENCYCurrency in dollars, euros, pounds, and yen as written in English (United States).$1,234$1,234.50$236.50$123k$.5025 5  1,123,500.50 456 7DATEDates as written in English (United States).3/14/20013-14-20013/143/14/013-14-0112-3-0103/14/0103-14-0120012001-2002'65March 14, 2001Wednesday, March 14, 2001Fri, Jul 16Thu, AUG 3March 14NUMBERAll numbers, including ordinals such as 1st and 2nd, and math symbols. The DATE, TIME, TELEPHONE, and CURRENCY factoid formats are also included in this factoid.123-123.456123rd25th1st22nd15TH90\\#1225%'913/14/20013-14-20013/143/14/013-14-0112-3-0103/14/0103-14-0120012001-2002(1+3)/51+1=2Note  Formats such as 300kb and 1Mb are not supported. ONECHARA single American National Standards Institute (ANSI) character.! &\\#0034; \\# $ % & ' ( ) \\* + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z \\[ \\\\ \\] \\_ a b c d e f g h i j k l m n o p q r s t u v w x y z { } ~    PERCENTA number followed by the percent symbol.87%5.9%POSTALCODEPostal codes as written in the United States.9811298073TELEPHONETelephone numbers as written in the United States.(206) 555-12121-206-555-12121-800-555-1212555-1212TIMETime as written in English (United States).15:053:0304:10 am3:17:352:34:35 am5:40:49 pm11:23:23 PM7:30 AM14:03UPPERCHARA single uppercase character.A-Z "
 ms.assetid: 4c8dd376-2288-451c-bb16-cdb088e41046
 title: English (United States) Factoids
 ms.topic: article
@@ -14,9 +14,9 @@ The following table lists formats that are available for each factoid used in Un
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -40,10 +40,10 @@ The following table lists formats that are available for each factoid used in Un
 <td>NUMBER<br/></td>
 <td>All numbers, including ordinals such as 1st and 2nd, and math symbols. The DATE, TIME, TELEPHONE, and CURRENCY factoid formats are also included in this factoid.<br/></td>
 <td>123<br/> -123.456<br/> 123rd<br/> 25th<br/> 1st<br/> 22nd<br/> 15TH<br/> 90<br/> #12<br/> 25%<br/> '91<br/> 3/14/2001<br/> 3-14-2001<br/> 3/14<br/> 3/14/01<br/> 3-14-01<br/> 12-3-01<br/> 03/14/01<br/> 03-14-01<br/> 2001<br/> 2001-2002<br/> (1+3)/5<br/> 1+1=2<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Formats such as 300kb and 1Mb are not supported.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">

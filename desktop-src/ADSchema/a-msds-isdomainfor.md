@@ -1,6 +1,6 @@
 ---
 title: ms-DS-Is-Domain-For attribute
-description: Backward link for ms-DS-Has-Domain-NCs. Identifies which DCs hold that partition as their primary domain.
+description: Backward link for ms-DS-Has-Domain-NCs. Identifies which DCs hold that partition as their primary domain. | ms-DS-Is-Domain-For attribute
 ms.assetid: ec63ddb4-c220-492b-92ce-e3da2069bcb8
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Is-Domain-For                     |
 | Ldap-Display-Name | msDS-IsDomainFor                        |
@@ -45,7 +45,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2027                            |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2027                            |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Backward link for [**ms-DS-Has-Domain-NCs**](a-msds-hasdomainncs.md). Identifies
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2027                            |
 | MAPI-Id                | \-                              |

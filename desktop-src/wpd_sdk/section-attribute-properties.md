@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following section data properties.
+description: Windows Portable Devices supports the following section data properties.
 ms.assetid: 8760d963-fc07-4b54-aa24-5725f4b95ed2
 title: Section Attribute Properties (PortableDevice.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Windows Portable Devices supports the following section data properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

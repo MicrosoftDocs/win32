@@ -1,5 +1,5 @@
 ---
-Description: This topic is presented because the initial documentation of the IPassportManager3 interface did not include two methods in the vtable. This information is being provided only in the interest of complete documentation.
+description: This topic is presented because the initial documentation of the IPassportManager3 interface did not include two methods in the vtable. This information is being provided only in the interest of complete documentation.
 ms.assetid: 04936141-81ac-42e8-afee-2e42c071aab5
 title: IPassportManager3 Add-ons
 ms.topic: article

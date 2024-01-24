@@ -1,5 +1,5 @@
 ---
-Description: NLA is capable of providing its clients with notification of network location changes. The mechanism used to request notification of change events is a combination of the WSALookupServiceBegin, WSANSPIoctl, and WSALookupServiceNext functions.
+description: NLA is capable of providing its clients with notification of network location changes. The mechanism used to request notification of change events is a combination of the WSALookupServiceBegin, WSANSPIoctl, and WSALookupServiceNext functions.
 ms.assetid: fed5a90d-0bc5-46e7-b3d3-edc4b303d305
 title: Notification from NLA
 ms.topic: article

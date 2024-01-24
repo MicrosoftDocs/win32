@@ -1,5 +1,5 @@
 ---
-Description: The Certified for Microsoft Windows Logo identifies products that have been verified through independent testing to comply with the Application Specification for Windows.
+description: The Certified for Microsoft Windows Logo identifies products that have been verified through independent testing to comply with the Application Specification for Windows.
 ms.assetid: d33efb75-1813-40a5-8846-8799e16b368d
 title: Windows Installer and Logo Requirements
 ms.topic: article
@@ -11,8 +11,6 @@ ms.date: 05/31/2018
 The Certified for Microsoft Windows Logo identifies products that have been verified through independent testing to comply with the Application Specification for Windows. This specification was developed by Microsoft in cooperation with customers and other developers to provide a road map for building reliable and manageable applications. Software vendors who comply with the specification qualify for the Certified for Microsoft Windows logo and then license the logo for use on their product packaging, advertising, collateral, and other marketing materials.
 
 For more information about Windows Vista, Windows XP, and Windows Server 2008 certification for your applications, see the [Microsoft Partner Network]( https://partner.microsoft.com).
-
-For more information about the Windows Server 2003 and Windows 2000 certification for your applications, see [https://msdn.microsoft.com/certification](https://www.microsoft.com/windowsserver2003/partners/isvs/cfw.mspx).
 
 If you are authoring an installation package for your application, you may take advantage of the capabilities of the Microsoft Windows Installer to help satisfy several of the requirements for certification. The following table provides links to information in Windows Installer documentation pertinent for some of the certification requirements. Note that the not every requirement for certification discussed in the Application Specification is dependent upon Windows Installer.
 

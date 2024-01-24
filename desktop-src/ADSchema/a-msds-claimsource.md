@@ -22,7 +22,7 @@ For a claim type, this attribute indicates the source of the claim type. For exa
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Claim-Source                          |
 | Ldap-Display-Name | msDS-ClaimSource                            |
@@ -43,7 +43,7 @@ For a claim type, this attribute indicates the source of the claim type. For exa
 
 
 
-|                        |                                                         |
+| Entry | Value |
 |------------------------|---------------------------------------------------------|
 | Link-Id                | \-                                                      |
 | MAPI-Id                | \-                                                      |

@@ -1,6 +1,6 @@
 ---
 title: map (BitMapType) Element
-description: Defines the mapping between a bit value and a string value.
+description: Defines the mapping between a bit value and a string value. | map (BitMapType) Element
 ms.assetid: 9673b736-9c1b-4b53-8c85-ed34f83084f1
 keywords:
 - map element EventLog
@@ -31,7 +31,7 @@ The **map** element is defined by the [**BitMapType**](eventmanifestschema-bitma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

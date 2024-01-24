@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnInUseException methods"
 title: EsentColumnInUseException methods
 TOCTitle: EsentColumnInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnInUseException](dn274180\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnInUseException](./esentcolumninuseexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentColumnInUseException class](dn274180\(v=exchg.10\).md)
+[EsentColumnInUseException class](./esentcolumninuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

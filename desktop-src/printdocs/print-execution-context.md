@@ -1,5 +1,5 @@
 ---
-Description: Represents the execution context when GetPrintExecutionData is called.
+description: Represents the execution context when GetPrintExecutionData is called.
 ms.assetid: b6c026b2-8519-45d3-9614-b502eec23cde
 title: PRINT_EXECUTION_CONTEXT enumeration (Winspool.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The caller is running in splwow64.exe
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                   |

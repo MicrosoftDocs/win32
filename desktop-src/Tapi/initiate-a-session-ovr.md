@@ -1,5 +1,5 @@
 ---
-Description: The primary pieces of information an application supplies to initiate a communications session are the address type, the media type or types, and the destination address.
+description: The primary pieces of information an application supplies to initiate a communications session are the address type, the media type or types, and the destination address.
 ms.assetid: 65e53587-0e40-411b-8d6c-d6adfc9d1e6c
 title: Initiate a Session
 ms.topic: article

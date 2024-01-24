@@ -1,5 +1,5 @@
 ---
-Description: The ISearchJob interface defines the following properties.
+description: The ISearchJob interface defines the following properties.
 ms.assetid: 9e1675e9-fe40-4209-aba9-1cabb4f3ea4c
 title: ISearchJob Properties
 ms.topic: article

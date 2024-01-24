@@ -1,5 +1,5 @@
 ---
-Description: Specify the protection levels for Copy Generation Management System&\#8212;Analog (CGMS-A).
+description: Specify the protection levels for Copy Generation Management System&\#8212;Analog (CGMS-A).
 ms.assetid: 739e2f9e-b8f1-4ee1-8706-9a069773a3de
 title: CGMS-A Protection Flags (Opmapi.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ These flags are equivalent to the **COPP\_CGMSA\_Protection\_Level** enumeration
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

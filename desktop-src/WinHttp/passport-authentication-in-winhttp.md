@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Windows HTTP Services (WinHTTP) fully support the client side use of the Microsoft Passport authentication protocol. This topic provides an overview of the transactions involved in Passport authentication and how to handle them.
+description: Microsoft Windows HTTP Services (WinHTTP) fully support the client side use of the Microsoft Passport authentication protocol. This topic provides an overview of the transactions involved in Passport authentication and how to handle them.
 ms.assetid: 395d7aef-4da0-4664-8328-7d31ce58fedd
 title: Passport Authentication in WinHTTP
 ms.topic: article

@@ -87,7 +87,7 @@ The RasAdmin functions can return error codes that are not in the range supporte
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows 2000 Professional<br/>                                                   |
 | End of server support<br/> | Windows 2000 Server<br/>                                                         |

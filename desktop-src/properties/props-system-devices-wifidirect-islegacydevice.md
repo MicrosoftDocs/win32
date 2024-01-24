@@ -1,5 +1,5 @@
 ---
-Description: Indicates if Wi-Fi Direct Device is a legacy device.
+description: Indicates if Wi-Fi Direct Device is a legacy device.
 ms.assetid: 1ec18626-3549-4206-b7ca-74f16130f557
 title: System.Devices.WiFiDirect.IsLegacyDevice
 ms.topic: article

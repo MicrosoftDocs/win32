@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of cryptographic service provider (CSP).
+description: Specifies the type of cryptographic service provider (CSP).
 ms.assetid: faf2390d-bf78-4943-91f3-1db9939fedfb
 title: CAPICOM_PROV_TYPE enumeration (Capicom.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The **CAPICOM\_PROV\_TYPE** enumeration is used by the following methods and pro
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

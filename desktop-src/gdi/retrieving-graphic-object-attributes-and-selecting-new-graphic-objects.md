@@ -1,6 +1,6 @@
 ---
 title: Retrieve object attributes, select new objects
-Description: An application can retrieve the attributes for a pen, brush, palette, font, or bitmap by calling the GetCurrentObject and GetObject functions.
+description: An application can retrieve the attributes for a pen, brush, palette, font, or bitmap by calling the GetCurrentObject and GetObject functions.
 ms.assetid: 09d8412f-a67d-48d5-9c04-9233dee43cf9
 ms.topic: article
 ms.date: 05/31/2018
@@ -38,7 +38,7 @@ The following example shows how an application can retrieve the current brush at
         hbrushOld = SelectObject(hdc, hbrushNew); 
     } 
  
-    // Perform painting operations with the white brush.  
+    // Perform painting operations with the solid-black brush.  
  
  
     // After completing the last painting operation with the new  

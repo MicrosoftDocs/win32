@@ -1,5 +1,5 @@
 ---
-Description: The GetBufferValue method retrieves a byte array value (type VT\_VECTOR \| VT\_UI1) specified by a key.
+description: The GetBufferValue method retrieves a byte array value (type VT\_VECTOR \| VT\_UI1) specified by a key.
 ms.assetid: 18180a47-7d81-440b-b596-2516089a02bd
 title: IPortableDeviceValues::GetBufferValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ Retrieving a **NULL** buffer or a zero-sized buffer is not supported.
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

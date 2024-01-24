@@ -1,5 +1,5 @@
 ---
-Description: Specifies an application-defined callback function called by File Manager to communicate with a File Manager extension.
+description: Specifies an application-defined callback function called by File Manager to communicate with a File Manager extension.
 title: FMExtensionProc callback function (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,16 +14,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 6e02d655-f7d8-460a-97d2-5b369493e941
-api_name: 
- - FMExtensionProc
- - FMExtensionProcW
-api_type: 
- - UserDefined
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -184,7 +174,7 @@ Returns a value dependent upon the *wMsg* parameter message.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

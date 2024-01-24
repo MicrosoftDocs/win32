@@ -1,5 +1,5 @@
 ---
-Description: Performs a resynchronization operation on the specified virtual machine.
+description: Performs a resynchronization operation on the specified virtual machine.
 ms.assetid: a3d06780-f43b-45c4-a186-a3544f9c7963
 title: Resynchronize method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -111,7 +111,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

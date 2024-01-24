@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set render state.
+description: A callback function that must be implemented by a user to set render state.
 ms.assetid: a5a27e30-c141-44a4-b8d4-38c1d6076b2a
 title: ID3DXEffectStateManager::SetRenderState method (D3DX9Effect.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The user-implemented method should return S\_OK. If the callback fails when sett
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

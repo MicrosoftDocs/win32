@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the class identifier from the application protocol data unit (APDU).
+description: Retrieves the class identifier from the application protocol data unit (APDU).
 ms.assetid: 03ea997d-7698-43c7-aa9a-dfc1bac6fcdd
 title: ISCardCmd::get_ClassId method (Scarddat.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The GetObjectText\_ method of the SWbemObject object returns a textual rendering of the object.
+description: The GetObjectText\_ method of the SWbemObject object returns a textual rendering of the object.
 ms.assetid: 8b980863-14ad-4884-8897-dd076d927824
 ms.tgt_platform: multiple
 title: SWbemObject.GetObjectText_ method (Wbemdisp.h)
@@ -79,7 +79,7 @@ Not enough memory to complete the operation.
 
 ## Examples
 
-The following code, taken from the [List the Definition of a WMI Class in MOF Format](https://Gallery.TechNet.Microsoft.Com/6bb54091-dd6f-4d0b-87af-2431fb8c3be6) VBScript code sample in the TechNet Gallery, retrieves and displays the textual representation of a WMI class definition in MOF (Managed Object Format) syntax.
+The following code retrieves and displays the textual representation of a WMI class definition in MOF (Managed Object Format) syntax.
 
 
 ```VB
@@ -104,7 +104,7 @@ WScript.Echo strMOF
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

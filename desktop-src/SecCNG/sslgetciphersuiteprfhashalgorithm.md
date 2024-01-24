@@ -1,5 +1,5 @@
 ---
-Description: 'Returns the Cryptography API: Next Generation (CNG) Algorithm Identifier of the hashing algorithm that is used for the Transport Layer Security protocol (TLS) pseudo-random function (PRF) for the input protocol, cipher suite, and key type.'
+description: 'Returns the Cryptography API: Next Generation (CNG) Algorithm Identifier of the hashing algorithm that is used for the Transport Layer Security protocol (TLS) pseudo-random function (PRF) for the input protocol, cipher suite, and key type.'
 ms.assetid: 8d20b2da-390e-458e-b122-f5ef3722ad87
 title: SslGetCipherSuitePRFHashAlgorithm function (Sslprovider.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ This **SslGetCipherSuitePRFHashAlgorithm** function is called for TLS 1.2 or lat
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |

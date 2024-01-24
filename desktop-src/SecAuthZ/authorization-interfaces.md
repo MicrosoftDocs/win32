@@ -1,5 +1,5 @@
 ---
-Description: Lists the interfaces provided by authorization APIs.
+description: Lists the interfaces provided by authorization APIs.
 ms.assetid: ede464a2-0be5-445a-aff7-d707dfccee13
 title: Authorization Interfaces
 ms.topic: article

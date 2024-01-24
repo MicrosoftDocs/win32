@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of pointers to transposed matrices.
+description: ID3DXConstantTable::SetMatrixTransposePointerArray method - Sets an array of pointers to transposed matrices.
 ms.assetid: f2db10cb-a146-412d-8de8-f093253470fd
 title: ID3DXConstantTable::SetMatrixTransposePointerArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ A transposed matrix contains column-major data; that is, each vector is containe
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,5 +1,5 @@
 ---
-Description: The += concatenation operator joins characters to the end of this string. The operator accepts another CHString object, a character pointer, or a single character.
+description: The += concatenation operator joins characters to the end of this string. The operator accepts another CHString object, a character pointer, or a single character.
 ms.assetid: 026ff9af-4cda-4261-aa27-e215d49b80ce
 ms.tgt_platform: multiple
 title: CHString::operator+= (ChString.h)
@@ -76,7 +76,7 @@ assert( ( s += L"def" ) == L"abcdef" );
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |

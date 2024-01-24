@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileAccessDeniedException properties"
 title: EsentSLVFileAccessDeniedException properties
 TOCTitle: EsentSLVFileAccessDeniedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVFileAccessDeniedException](dn350725\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVFileAccessDeniedException](./esentslvfileaccessdeniedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSLVFileAccessDeniedException class](dn350725\(v=exchg.10\).md)
+[EsentSLVFileAccessDeniedException class](./esentslvfileaccessdeniedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The name of a volume's file system. This is valid for Shell items that describe a volume.
+description: The name of a volume's file system. This is valid for Shell items that describe a volume.
 ms.assetid: 57ffd3b1-27a0-4d48-aa2c-482fb00cb44e
 title: System.Volume.FileSystem
 ms.topic: article

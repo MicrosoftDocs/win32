@@ -1,5 +1,5 @@
 ---
-Description: Gets an item's category information.
+description: Gets an item's category information.
 ms.assetid: 4d6f7a6a-280d-4b36-8e1d-8d9fcaa8a1de
 title: IWiaItem2::GetItemCategory method (Wia.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ Every [**IWiaItem2**](-wia-iwiaitem2.md) object in the hierarchical tree of obje
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

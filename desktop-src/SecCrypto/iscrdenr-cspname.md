@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the name of the cryptographic service provider (CSP).
+description: Sets or retrieves the name of the cryptographic service provider (CSP).
 ms.assetid: 34fde7b0-747d-4592-a89a-207f82369f52
 title: ISCrdEnr::CSPName property
 ms.topic: reference
@@ -57,7 +57,7 @@ Set this property to specify the name of the CSP to use with the Smart Card Enro
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

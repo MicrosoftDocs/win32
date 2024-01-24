@@ -1,5 +1,5 @@
 ---
-Description: IPv6 link-local and site-local addresses are called scoped addresses.
+description: IPv6 link-local and site-local addresses are called scoped addresses.
 ms.assetid: d31882f6-b747-47c7-83cb-a9a03fe11cb8
 title: IPv6 Link-local and Site-local Addresses
 ms.topic: article
@@ -30,7 +30,7 @@ On Windows XP with SP1, the following command will display the list of IPv6 int
 
 On Windows XP with SP1, the following command will change the site identifier associated with an interface index.
 
-**netsh interface ipv6 set interface <InterfaceIndex or Name> siteid=value**
+**netsh interface ipv6 set interface \<InterfaceIndex or Name\> siteid=value**
 
 On Windows XP, the following older command will also change the site identifier associated with a site-local address to 3.
 

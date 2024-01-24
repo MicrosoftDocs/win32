@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a tablet system event.
+description: Contains information about a tablet system event.
 ms.assetid: 725f4b43-0bcb-4452-a87f-b24a85de0049
 title: SYSTEM_EVENT_DATA structure
 ms.topic: reference
@@ -113,7 +113,7 @@ The following system events are defined for use in the **bCursorMode** member.
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

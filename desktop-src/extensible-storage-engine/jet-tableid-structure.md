@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID structure"
 title: JET_TABLEID structure
 TOCTitle: JET_TABLEID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_TABLEID
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 A JET_TABLEID contains a handle to the database cursor to use for a call to the JET API. A cursor can only be used with the session that was used to open that cursor.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,7 +57,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_TABLEID members](hh596310\(v=exchg.10\).md)
+[JET_TABLEID members](./jet-tableid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

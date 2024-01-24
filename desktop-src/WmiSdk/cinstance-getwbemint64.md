@@ -1,5 +1,5 @@
 ---
-Description: The CInstance::GetWBEMINT64 method retrieves a 64-bit integer property.
+description: The CInstance::GetWBEMINT64 method retrieves a 64-bit integer property.
 ms.assetid: b51d0c51-3b72-4358-8fc3-d1dbc298b4d9
 ms.tgt_platform: multiple
 title: CInstance::GetWBEMINT64 methods (Instance.h)
@@ -38,7 +38,7 @@ The **CInstance::GetWBEMINT64** method retrieves a 64-bit integer property.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |

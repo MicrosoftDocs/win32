@@ -1,5 +1,5 @@
 ---
-Description: Notifies applications that the system, typically a battery-powered personal computer, is about to enter a suspended mode.
+description: Notifies applications that the system, typically a battery-powered personal computer, is about to enter a suspended mode.
 ms.assetid: ceaa5ca4-799e-4801-96cd-aeea3dfd7d52
 title: WM_POWER message (WinUser.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ The suspended mode is the state in which the greatest amount of power savings oc
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

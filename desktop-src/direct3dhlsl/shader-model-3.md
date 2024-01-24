@@ -205,9 +205,8 @@ Both ps\_3\_0 and ps\_2\_x provide support for two levels of precision:
 
 
 
-|          |          |                   |                      |
-|----------|----------|-------------------|----------------------|
 | ps\_3\_0 | ps\_2\_0 | Precision         | Value                |
+|----------|----------|-------------------|----------------------|
 | x        |          | Full              | fp32 or higher       |
 | x        |          | Partial precision | fp16=s10e5           |
 | x        | x        | Full              | fp24=s16e7 or higher |
@@ -242,9 +241,8 @@ vs\_2\_sw is a relaxation to the maximum caps of vs\_2\_x; similarly, ps\_2\_sw 
 
 
 
-|                                            |                                      |                                                                                                                                   |
+| Shader model                                           |  Resource                                    |  Limit                                                                                                                                  |
 |--------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Shader Model                               | Resource                             | Limit                                                                                                                             |
 | vs\_2\_sw, vs\_3\_sw, ps\_2\_sw, ps\_3\_sw | Instruction Counts                   | Unlimited                                                                                                                         |
 | vs\_2\_sw, vs\_3\_sw, ps\_2\_sw, ps\_3\_sw | Float Constant Registers             | 8192                                                                                                                              |
 | vs\_2\_sw, vs\_3\_sw, ps\_2\_sw, ps\_3\_sw | Integer Constant Registers           | 2048                                                                                                                              |

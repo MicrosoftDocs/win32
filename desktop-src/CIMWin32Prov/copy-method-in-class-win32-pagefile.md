@@ -1,5 +1,5 @@
 ---
-Description: Copies the logical paging file or directory specified in the object path to the location specified by the input parameter.
+description: Copies the logical paging file or directory specified in the object path to the location specified by the input parameter.
 ms.assetid: e1ff3e91-dc30-4849-b80a-8838b527ad63
 ms.tgt_platform: multiple
 title: Copy method of the Win32_PageFile class
@@ -147,7 +147,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Registers a new appbar and specifies the message identifier that the system should use to send it notification messages. An appbar should send this message before sending any other appbar messages.
+description: Registers a new appbar and specifies the message identifier that the system should use to send it notification messages. An appbar should send this message before sending any other appbar messages.
 ms.assetid: 1da9db13-6fdc-44b3-9985-de32d572675a
 title: ABM_NEW message (Shellapi.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Returns **TRUE** if successful, or **FALSE** if an error occurs or if the appbar
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

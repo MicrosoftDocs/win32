@@ -1,5 +1,5 @@
 ---
-Description: Contains the effective output signal period for a Pulse Width Modulation (PWM) controller.
+description: Contains the effective output signal period for a Pulse Width Modulation (PWM) controller.
 ms.assetid: 280F564F-FF7F-4121-B726-9F9AF9E98EB7
 title: PWM_CONTROLLER_GET_ACTUAL_PERIOD_OUTPUT structure (Pwm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The effective output signal period as it would be measured on the output channel
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |

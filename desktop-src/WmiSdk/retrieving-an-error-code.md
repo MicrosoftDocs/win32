@@ -1,5 +1,5 @@
 ---
-Description: As with all applications, WMI receives error codes from the Windows operating system.
+description: As with all applications, WMI receives error codes from the Windows operating system.
 ms.assetid: f54b8e7c-c531-47d5-bab8-780652b94555
 ms.tgt_platform: multiple
 title: Retrieving an Error Code

@@ -2,7 +2,6 @@
 title: Suballocation Within Buffers
 description: Buffers have all the features necessary in D3D12 for applications to transfer a large range of transient data from the CPU to the GPU. This section covers four common scenarios for the use and management of resources and buffers.
 ms.assetid: 359E377A-8E16-4BB5-9055-09617335AB57
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

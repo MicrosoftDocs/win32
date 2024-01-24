@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_OSVersionCheck class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context is described by the non-abstract CIM\_Check subclasses. This method is inherited from CIM\_Check.
+description: The Invoke method of the CIM\_OSVersionCheck class evaluates a particular check. The details of how the method evaluates a particular check in a CIM context is described by the non-abstract CIM\_Check subclasses. This method is inherited from CIM\_Check.
 ms.assetid: ff06772c-e40c-49c8-b334-5ee480926245
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_OSVersionCheck class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

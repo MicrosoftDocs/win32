@@ -1,5 +1,5 @@
 ---
-Description: The Managed Object Format (MOF) compiler parses a file containing MOF statements and adds the classes and class instances defined in the file to the WMI repository.
+description: The Managed Object Format (MOF) compiler parses a file containing MOF statements and adds the classes and class instances defined in the file to the WMI repository.
 ms.assetid: 9858da09-fb91-43a4-9817-83b10e2ee08f
 ms.tgt_platform: multiple
 title: mofcomp
@@ -254,7 +254,7 @@ When an error occurs in updating the WMI repository, the compiler makes no attem
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

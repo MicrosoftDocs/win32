@@ -80,7 +80,7 @@ m_d2dContext->EndDraw();
 
 For DILATE mode, the Output Bitmap size grows: 
 
-|                          |                                         |
+| Requirement | Value |
 |--------------------------|-----------------------------------------|
 | Output Bitmap Growth X = | INT(FLOAT(Width) \* ((User DPI) / 96))  |
 | Output Bitmap Growth Y = | INT(FLOAT(Height) \* ((User DPI) / 96)) |
@@ -91,7 +91,7 @@ For DILATE mode, the Output Bitmap size grows:
 
 For ERODE mode, the Output Bitmap size shrinks:
 
-|                          |                                          |
+| Requirement | Value |
 |--------------------------|------------------------------------------|
 | Output Bitmap Growth X = | INT(FLOAT(-Width) \* ((User DPI) / 96))  |
 | Output Bitmap Growth Y = | INT(FLOAT(-Height) \* ((User DPI) / 96)) |
@@ -104,7 +104,7 @@ For ERODE mode, the Output Bitmap size shrinks:
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |

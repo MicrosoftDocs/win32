@@ -1,5 +1,5 @@
 ---
-Description: Contains the MPEG-1 or MPEG-2 sequence header for a video media type.
+description: Contains the MPEG-1 or MPEG-2 sequence header for a video media type.
 ms.assetid: 17b7f76c-404c-4aa9-9746-1488fee027f2
 title: MF_MT_MPEG_SEQUENCE_HEADER attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

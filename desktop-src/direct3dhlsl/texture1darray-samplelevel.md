@@ -1,6 +1,6 @@
 ---
 title: Texture1DArray::Texture1DArray SampleLevel methods
-description: Samples a texture on the specified mipmap level.
+description: Samples a texture on the specified mipmap level. | Texture1DArray::Texture1DArray SampleLevel methods
 ms.assetid: 68C86C79-37DC-49D0-9635-EA548A3DA83B
 keywords:
 - SampleLevel methods HLSL

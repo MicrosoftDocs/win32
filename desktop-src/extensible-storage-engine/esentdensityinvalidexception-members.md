@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDensityInvalidException members"
 title: EsentDensityInvalidException members
 TOCTitle: EsentDensityInvalidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DensityInvalid exceptions.
 
-The [EsentDensityInvalidException](dn334433\(v=exchg.10\).md) type exposes the following members.
+The [EsentDensityInvalidException](./esentdensityinvalidexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDensityInvalidException class](dn334433\(v=exchg.10\).md)
+[EsentDensityInvalidException class](./esentdensityinvalidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

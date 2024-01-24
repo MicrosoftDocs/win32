@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the process and thread functions.
+description: This topic describes the process and thread functions.
 ms.assetid: 8c8e8af0-bf50-4a4b-945c-83bae1eff7dd
 title: Process and Thread Functions
 ms.topic: article
@@ -70,14 +70,13 @@ The following functions are used with [processes](child-processes.md).
 | [**GetProcessGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity)               | Retrieves the processor group affinity of the specified process.                                                                                                                              |
 | [**GetProcessHandleCount**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount)                   | Retrieves the number of open handles that belong to the specified process.                                                                                                                    |
 | [**GetProcessId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessid)                                     | Retrieves the process identifier of the specified process.                                                                                                                                    |
-| [**GetProcessIdOfThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread)                     | Retrieves the process identifier of the process associated with the specified thread.                                                                                                         |
 | [**GetProcessIoCounters**](/windows/desktop/api/WinBase/nf-winbase-getprocessiocounters)                     | Retrieves accounting information for all I/O operations performed by the specified process.                                                                                                   |
 | [**GetProcessMitigationPolicy**](/windows/desktop/api/Processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy)         | Retrieves mitigation policy settings for the calling process.                                                                                                                                 |
 | [**GetProcessPriorityBoost**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesspriorityboost)               | Retrieves the priority boost control state of the specified process.                                                                                                                          |
 | [**GetProcessShutdownParameters**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters)     | Retrieves shutdown parameters for the currently calling process.                                                                                                                              |
 | [**GetProcessTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes)                               | Retrieves timing information about for the specified process.                                                                                                                                 |
 | [**GetProcessVersion**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessversion)                           | Retrieves the major and minor version numbers of the system on which the specified process expects to run.                                                                                    |
-| [**GetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize)             | Retrieves the minimum and maximum working set sizes of the specified process.                                                                                                                 |
+| [**GetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsize)             | Retrieves the minimum and maximum working set sizes of the specified process.                                                                                                                 |
 | [**GetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex)         | Retrieves the minimum and maximum working set sizes of the specified process.                                                                                                                 |
 | [**GetProcessorSystemCycleTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getprocessorsystemcycletime)       | Retrieves the cycle time each processor in the specified group spent executing deferred procedure calls (DPCs) and interrupt service routines (ISRs).                                         |
 | [**GetStartupInfo**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)                                 | Retrieves the contents of the [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure that was specified when the calling process was created.                                                       |
@@ -96,7 +95,7 @@ The following functions are used with [processes](child-processes.md).
 | [**SetProcessPriorityBoost**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost)               | Disables the ability of the system to temporarily boost the priority of the threads of the specified process.                                                                                 |
 | [**SetProcessRestrictionExemption**](/windows/desktop/api/Winuser/nf-winuser-setprocessrestrictionexemption) | Exempts the calling process from restrictions preventing desktop processes from interacting with the Windows Store app environment. This function is used by development and debugging tools. |
 | [**SetProcessShutdownParameters**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters)     | Sets shutdown parameters for the currently calling process.                                                                                                                                   |
-| [**SetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize)             | Sets the minimum and maximum working set sizes for the specified process.                                                                                                                     |
+| [**SetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsize)             | Sets the minimum and maximum working set sizes for the specified process.                                                                                                                     |
 | [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex)         | Sets the minimum and maximum working set sizes for the specified process.                                                                                                                     |
 | [**TerminateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess)                             | Terminates the specified process and all of its threads.                                                                                                                                      |
 
@@ -127,9 +126,8 @@ The following functions are used with process wide policy.
 
 
 
-|                                                      |                                                       |
+|  Function                                                    |  Description                                                     |
 |------------------------------------------------------|-------------------------------------------------------|
-| Function                                             | Description                                           |
 | [**QueryProtectedPolicy**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-queryprotectedpolicy) | Queries the value associated with a protected policy. |
 | [**SetProtectedPolicy**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprotectedpolicy)     | Sets a protected policy.                              |
 
@@ -153,6 +151,7 @@ The following functions are used with [threads](multiple-threads.md).
 | [**GetCurrentThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthread)                       | Retrieves a pseudo handle for the current thread.                                                                                                         |
 | [**GetCurrentThreadId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid)                   | Retrieves the thread identifier of the calling thread.                                                                                                    |
 | [**GetExitCodeThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodethread)                     | Retrieves the termination status of the specified thread.                                                                                                 |
+| [**GetProcessIdOfThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread)                     | Retrieves the process identifier of the process associated with the specified thread.                                                                                                         |
 | [**GetThreadDescription**](/windows/desktop/api/ProcessThreadsApi/nf-processthreadsapi-getthreaddescription)               | Retrieves the description that was assigned to a thread by calling [**SetThreadDescription**](/windows/desktop/api/ProcessThreadsApi/nf-processthreadsapi-setthreaddescription).                                  |
 | [**GetThreadGroupAffinity**](/windows/win32/api/processtopologyapi/nf-processtopologyapi-getthreadgroupaffinity)           | Retrieves the processor group affinity of the specified thread.                                                                                           |
 | [**GetThreadId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadid)                                 | Retrieves the thread identifier of the specified thread.                                                                                                  |
@@ -218,7 +217,7 @@ The following functions are used with [WOW64](../winprog64/running-32-bit-applic
 | [**IsWow64Message**](/windows/desktop/api/Winuser/nf-winuser-iswow64message)         | Determines whether the last message read from the current thread's queue originated from a WOW64 process.                              |
 | [**IsWow64Process**](/windows/win32/api/wow64apiset/nf-wow64apiset-iswow64process)         | Determines whether the specified process is running under WOW64.                                                                       |
 | [**IsWow64Process2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2)       | Determines whether the specified process is running under WOW64; also returns additional machine process and architecture information. |
-| [**Wow64SuspendThread**](/windows/desktop/api/WinBase/nf-winbase-wow64suspendthread) | Suspends the specified WOW64 thread.                                                                                                   |
+| [**Wow64SuspendThread**](/windows/win32/api/wow64apiset/nf-wow64apiset-wow64suspendthread) | Suspends the specified WOW64 thread.                                                                                                   |
 
 
 

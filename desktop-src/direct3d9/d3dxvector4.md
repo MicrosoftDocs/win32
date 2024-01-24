@@ -1,21 +1,24 @@
 ---
-Description: Describes a four-component vector including operator overloads and type casts.
+description: D3DXVECTOR4 structure (D3dx9math.h) - Describes a four-component vector including operator overloads and type casts.
 ms.assetid: fbfe7851-7bec-4fa0-b4dc-52f5cb83d0a4
 title: D3DXVECTOR4 structure (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVECTOR4
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
-# D3DXVECTOR4 structure
+# D3DXVECTOR4 structure (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Describes a four-component vector including operator overloads and type casts.
 
@@ -154,7 +157,7 @@ public:
     D3DXFLOAT16 x, y, z, w;
 
 } D3DXVECTOR4_16F, *LPD3DXVECTOR4_16F;
-        
+
 ```
 
 
@@ -163,7 +166,7 @@ public:
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

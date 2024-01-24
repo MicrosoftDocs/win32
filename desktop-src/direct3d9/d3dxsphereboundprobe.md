@@ -1,22 +1,25 @@
 ---
-Description: Determines if a ray intersects the volume of a sphere's bounding box.
+description: D3DXSphereBoundProbe function (D3DX9Mesh.h) - Determines if a ray intersects the volume of a sphere's bounding box.
 ms.assetid: fa2e9ecf-7905-4a62-ba48-774bd522525a
 title: D3DXSphereBoundProbe function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSphereBoundProbe
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXSphereBoundProbe function
+# D3DXSphereBoundProbe function (D3DX9Mesh.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Determines if a ray intersects the volume of a sphere's bounding box.
 
@@ -88,7 +91,7 @@ Returns **TRUE** if the ray intersects the volume of the sphere's bounding box. 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

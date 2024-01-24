@@ -1,5 +1,5 @@
 ---
-Description: The IPortableDevicePropVariantCollection interface holds a collection of indexed PROPVARIANT values of the same VARTYPE.
+description: The IPortableDevicePropVariantCollection interface holds a collection of indexed PROPVARIANT values of the same VARTYPE.
 ms.assetid: 41224958-a5a0-4e09-8733-d0ae036f68b9
 title: IPortableDevicePropVariantCollection interface (PortableDeviceTypes.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ The **IPortableDevicePropVariantCollection** interface has these methods.
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

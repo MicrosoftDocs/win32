@@ -1,6 +1,6 @@
 ---
 title: ReadWriteXmlExample
-description: This example writes XML to an XML buffer, and then reads it back out.
+description: Review an XML read/write example that uses Windows Web Services API (WWSAPI). This example writes XML to an XML buffer, and then reads it back out.
 ms.assetid: e9802e3c-c8a0-4b68-bba5-cdafb7250298
 keywords:
 - ReadWriteXmlExample Web Services for Windows

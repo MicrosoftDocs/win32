@@ -1,5 +1,5 @@
 ---
-Description: In addition to all the information elements previously described, which could be specified in the ATM-specific QoS structure while calling WSAConnect, there is a Cause IE that can only be used during the call release.
+description: In addition to all the information elements previously described, which could be specified in the ATM-specific QoS structure while calling WSAConnect, there is a Cause IE that can only be used during the call release.
 ms.assetid: 258b22d7-b58a-499a-be00-de548578db83
 title: Cause
 ms.topic: article

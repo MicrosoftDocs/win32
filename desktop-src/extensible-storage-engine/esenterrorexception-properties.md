@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException properties"
 title: EsentErrorException properties
 TOCTitle: EsentErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentErrorException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentErrorException](dn274314\(v=exchg.10\).md) type exposes the following members.
+The [EsentErrorException](./esenterrorexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentErrorException class](dn274314\(v=exchg.10\).md)
+[EsentErrorException class](./esenterrorexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

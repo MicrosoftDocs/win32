@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_StorageExtent class represents the capabilities and management of the various media that exist to store data and allow data retrieval.
+description: The CIM\_StorageExtent class represents the capabilities and management of the various media that exist to store data and allow data retrieval.
 ms.assetid: 3895e00e-1a80-4d45-be0a-b159f8f335e8
 ms.tgt_platform: multiple
 title: CIM_StorageExtent class (CIMWin32 WMI Providers)
@@ -40,7 +40,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_StorageExtent class
+# CIM_StorageExtent class (CIMWin32 WMI Providers)
 
 The **CIM\_StorageExtent** class represents the capabilities and management of the various media that exist to store data and allow data retrieval. This parent class can represent the various components of RAID (hardware or software) or a raw logical extent on top of physical media.
 
@@ -1303,7 +1303,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

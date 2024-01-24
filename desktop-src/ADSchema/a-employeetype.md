@@ -22,7 +22,7 @@ The job category for an employee.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Employee-Type                               |
 | Ldap-Display-Name | employeeType                                |
@@ -48,7 +48,7 @@ The job category for an employee.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C69       |
@@ -69,7 +69,7 @@ The job category for an employee.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C69       |
@@ -90,7 +90,7 @@ The job category for an employee.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C69       |
@@ -111,7 +111,7 @@ The job category for an employee.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C69       |
@@ -132,7 +132,7 @@ The job category for an employee.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C69       |
@@ -153,7 +153,7 @@ The job category for an employee.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | 0x8C69       |

@@ -1,5 +1,5 @@
 ---
-Description: Contains text information from the Journal note.
+description: Contains text information from the Journal note.
 ms.assetid: 09ec2e8a-bd50-4f82-8ce3-a1c61f48ddb7
 title: Text Element
 ms.topic: reference
@@ -57,7 +57,7 @@ There are no attributes when used with [**TitleInfo**](titleinfo-element.md) and
 
 
 
-|              |                                                                                                                                                                                                     |
+|   Element           |   Value                                |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Element type | [**TextType**](texttype-complex-type.md) complexType (with the Content element) or **xs:string** (with [**GroupNode**](groupnode-element.md) and [**TitleInfo**](titleinfo-element.md) elements) |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink<br/>                                                                                                                                               |

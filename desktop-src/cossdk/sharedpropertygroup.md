@@ -1,5 +1,5 @@
 ---
-Description: Creates and accesses the shared properties in a shared property group.
+description: Creates and accesses the shared properties in a shared property group.
 ms.assetid: '20fd32f0-b2b2-4bed-8c59-1d1fdc8a399e'
 title: SharedPropertyGroup class (ComSvcs.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                      |
+| Requirement | Value |
 |------------|------------------------------------------------------|
 | Interfaces | [**ISharedPropertyGroup**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroup) |
 
@@ -47,7 +47,7 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

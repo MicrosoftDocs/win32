@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for network interface card configuration events. The following syntax is simplified from MOF code.
+description: This class is the event type class for network interface card configuration events. The following syntax is simplified from MOF code.
 ms.assetid: 66b2c116-810e-489d-ad5e-f9c09902005b
 title: SystemConfig_NIC class
 ms.topic: reference
@@ -171,7 +171,7 @@ Length of the hardware address for the adapter.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

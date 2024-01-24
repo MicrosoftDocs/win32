@@ -1,5 +1,5 @@
 ---
-Description: COM+ CRM Startup and Recovery
+description: COM+ CRM Startup and Recovery
 ms.assetid: dee1f2df-dfe0-44c3-830b-871690e513e9
 title: COM+ CRM Startup and Recovery
 ms.topic: article

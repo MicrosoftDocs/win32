@@ -1,5 +1,5 @@
 ---
-Description: XPS Document Structures
+description: XPS Document Structures
 ms.assetid: c3680155-fdfb-4ef6-be15-af0587a4816a
 title: XPS Document Structures
 ms.topic: article

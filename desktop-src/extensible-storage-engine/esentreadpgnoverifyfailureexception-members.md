@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadPgnoVerifyFailureException members"
 title: EsentReadPgnoVerifyFailureException members
 TOCTitle: EsentReadPgnoVerifyFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentReadPgnoVerifyFailureException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ReadPgnoVerifyFailure exceptions.
 
-The [EsentReadPgnoVerifyFailureException](dn319871\(v=exchg.10\).md) type exposes the following members.
+The [EsentReadPgnoVerifyFailureException](./esentreadpgnoverifyfailureexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentReadPgnoVerifyFailureException class](dn319871\(v=exchg.10\).md)
+[EsentReadPgnoVerifyFailureException class](./esentreadpgnoverifyfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

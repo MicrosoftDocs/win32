@@ -1,6 +1,6 @@
 ---
 title: Player.MediaCollectionAttributeStringAdded event
-description: The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library.
+description: The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library. | Player.MediaCollectionAttributeStringAdded event
 ms.assetid: 0a7fd61f-0429-4c1c-8790-d2f0e7f41d44
 keywords:
 - MediaCollectionAttributeStringAdded event Windows Media Player
@@ -15,10 +15,13 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Player.MediaCollectionAttributeStringAdded event
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **MediaCollectionAttributeStringAdded** event occurs when an attribute value is added to the library.
 
@@ -68,7 +71,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

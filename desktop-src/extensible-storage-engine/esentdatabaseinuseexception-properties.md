@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInUseException properties"
 title: EsentDatabaseInUseException properties
 TOCTitle: EsentDatabaseInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseInUseException](dn334322\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseInUseException](./esentdatabaseinuseexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseInUseException class](dn334322\(v=exchg.10\).md)
+[EsentDatabaseInUseException class](./esentdatabaseinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

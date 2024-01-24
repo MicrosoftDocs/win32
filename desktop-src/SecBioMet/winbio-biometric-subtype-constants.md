@@ -36,8 +36,8 @@ To find the available biometric subtypes for a particular biometric type, use th
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -49,10 +49,10 @@ To find the available biometric subtypes for a particular biometric type, use th
 <tr class="odd">
 <td><strong>WINBIO_TYPE_FACIAL_FEATURES</strong></td>
 <td><a href="winbio-ansi-385-face-constants.md"><strong>WINBIO_ANSI_385_FACE Constants</strong></a>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 These values apply only for Windows 10 and later.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -71,19 +71,19 @@ These values apply only for Windows 10 and later.
 <tr class="odd">
 <td><strong>WINBIO_TYPE_IRIS</strong></td>
 <td><a href="winbio-iris-constants.md"><strong>WINBIO_IRIS Constants</strong></a>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 These values apply only for Windows 10 and later.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><strong>WINBIO_TYPE_VOICE</strong></td>
 <td><a href="https://www.bing.com/search?q=<strong>WINBIO_VOICE+Constants</strong>"><strong>WINBIO_VOICE Constants</strong></a>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 These values apply only for Windows 10 and later.
-</blockquote>
+
 <br/></td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@ For more information, see [Client Application Constants](client-application-cons
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |

@@ -1,5 +1,5 @@
 ---
-Description: This class is deprecated. Instead, we recommend deriving from the CIM\_Service class.
+description: This class is deprecated. Instead, we recommend deriving from the CIM\_Service class.
 ms.assetid: 67b3a96e-4549-41e0-8097-f8d145df0c49
 title: CIM_NetworkService class
 ms.topic: reference
@@ -136,7 +136,7 @@ This property is deprecated and should not be used.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

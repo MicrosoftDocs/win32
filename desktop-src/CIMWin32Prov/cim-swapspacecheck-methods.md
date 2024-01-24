@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SwapSpaceCheck class exposes the following methods.
+description: The CIM\_SwapSpaceCheck class exposes the following methods.
 ms.assetid: 09149D0A-9AB8-4582-9976-371278E851D0
 ms.tgt_platform: multiple
 title: CIM_SwapSpaceCheck Methods

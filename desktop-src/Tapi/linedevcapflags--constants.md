@@ -1,5 +1,5 @@
 ---
-Description: The LINEDEVCAPFLAGS\_ bit-flag constants are a collection of Booleans describing various line device capabilities.
+description: The LINEDEVCAPFLAGS\_ bit-flag constants are a collection of Booleans describing various line device capabilities.
 ms.assetid: 0c537488-9fb9-4961-bd0a-1937aefc0b08
 title: LINEDEVCAPFLAGS_ Constants (Tapi.h)
 ms.topic: reference
@@ -144,7 +144,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

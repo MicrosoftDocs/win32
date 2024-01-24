@@ -22,7 +22,7 @@ Directory Management Domain. In Active Directory, this is the class that holds t
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | DMD                                  |
 | Ldap-Display-Name | dMD                                  |
@@ -49,7 +49,7 @@ Directory Management Domain. In Active Directory, this is the class that holds t
 
 
 
-|                             |                                                                                                                                                                                                                      |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                                                                                                                |
 | Object-Category             | 1                                                                                                                                                                                                                    |
@@ -177,7 +177,7 @@ This class contains the following extended rights for Windows 2000 Server:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -328,7 +328,7 @@ This class contains the following extended rights for Windows Server 2003:
 
 
 
-|                             |                                          |
+| Entry | Value |
 |-----------------------------|------------------------------------------|
 | System-Only                 | True                                     |
 | Object-Category             | 1                                        |
@@ -461,7 +461,7 @@ This class contains the following extended rights for ADAM:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -615,7 +615,7 @@ This class contains the following extended rights for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -782,7 +782,7 @@ This class contains the following extended rights for Windows Server 2008:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -957,7 +957,7 @@ This class contains the following extended rights for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |

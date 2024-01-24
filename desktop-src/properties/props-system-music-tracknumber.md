@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Music.TrackNumber
 ms.assetid: 0007f7e0-4b62-453a-adc5-cccf1e916f12
 title: System.Music.TrackNumber
 ms.topic: article

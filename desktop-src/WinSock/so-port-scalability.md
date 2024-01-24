@@ -1,5 +1,5 @@
 ---
-Description: Enables local port scalability for a socket.
+description: Enables local port scalability for a socket.
 ms.assetid: c5142baf-9e2d-4c06-8719-9090fd2d9487
 title: SO_PORT_SCALABILITY (Ws2def.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ To have any effect, the **SO\_PORT\_SCALABILITY** option must be set before the 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

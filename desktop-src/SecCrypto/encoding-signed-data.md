@@ -1,5 +1,5 @@
 ---
-Description: Depicts the procedure for encoding a signed message.
+description: Depicts the procedure for encoding a signed message.
 ms.assetid: 40d1c417-6d88-4421-920f-8b40d88d28ce
 title: Encoding Signed Data
 ms.topic: article

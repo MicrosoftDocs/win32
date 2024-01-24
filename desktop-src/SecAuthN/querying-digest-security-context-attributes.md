@@ -1,5 +1,5 @@
 ---
-Description: The QueryContextAttributes (Digest) function provides information about the current settings of a security context.
+description: The QueryContextAttributes (Digest) function provides information about the current settings of a security context.
 ms.assetid: 36863f1d-ed4e-40ec-8831-1f8b9918f2d8
 title: Querying Digest Security Context Attributes
 ms.topic: article

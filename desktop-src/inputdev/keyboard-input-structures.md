@@ -1,6 +1,6 @@
 ---
 title: Keyboard Input Structures
-description: .
+description: Keyboard Input Structures
 ms.assetid: 77cfccd8-7e47-4cdf-99a0-c1992a257fef
 ms.topic: article
 ms.date: 05/31/2018

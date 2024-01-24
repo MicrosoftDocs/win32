@@ -1,5 +1,5 @@
 ---
-Description: These data types can be used to specify the type of a registry value.
+description: These data types can be used to specify the type of a registry value.
 title: Registry Data Types (Winnt.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -54,7 +54,7 @@ These data types can be used to specify the type of a registry value.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winnt.h</dt> </dl> |
 

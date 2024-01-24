@@ -1,5 +1,5 @@
 ---
-Description: The CIMType qualifier contains text describing the type of a property.
+description: The CIMType qualifier contains text describing the type of a property.
 ms.assetid: ae65d4c7-2150-489b-a368-fb38c0d1b3be
 ms.tgt_platform: multiple
 title: CIMType Qualifier
@@ -52,7 +52,7 @@ Because WMI allows more types than can be expressed by standard constants with t
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

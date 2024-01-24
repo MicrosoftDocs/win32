@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the Graphics class. For a complete class listing, see Graphics Class.
+description: This topic lists the methods of the Graphics class. For a complete class listing, see Graphics Class.
 ms.assetid: 6d6b71fc-b8a0-4a1e-8f9b-384ae3f4cf1c
 title: Graphics Methods
 ms.topic: reference
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic lists the methods of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class. For a complete class listing, see **Graphics Class**.
 
 -   [**AddMetafileComment**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-addmetafilecomment)
--   [**BeginContainer()**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer~r3)
+-   [**BeginContainer()**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer-r3)
 -   [**BeginContainer(RectF&,RectF&,Unit)**](/previous-versions//ms536157(v=vs.85))
 -   [**BeginContainer(Rect&,Rect&,Unit)**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrect__inconstrect__inunit))
 -   [**Clear**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-clear)

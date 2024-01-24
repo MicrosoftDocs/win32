@@ -1,5 +1,5 @@
 ---
-Description: Allows a client to manage an NTFS volume's global disk quota settings. This object makes the essential functionality of the DIDiskQuotaUser interface available to scripting and Microsoft Visual Basic-based applications.
+description: Allows a client to manage an NTFS volume's global disk quota settings. This object makes the essential functionality of the DIDiskQuotaUser interface available to scripting and Microsoft Visual Basic-based applications.
 title: DIDiskQuotaUser object
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 0cdf3293-3dcf-44e7-a80d-4eacf9d09fbf
-api_name: 
- - DIDiskQuotaUser
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -123,7 +114,7 @@ function EnumUsers(Volume_Label)
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

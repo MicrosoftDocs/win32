@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapter::QueryState
 description: Retrieves the current state of the specified item on the adapter.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---
@@ -36,9 +35,9 @@ HRESULT QueryState(
 
 ### state
 
-Type: **[DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md)**
+Type: **[DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate)**
 
-The kind of state item on the adapter whose state you wish to retrieve. See the table in [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) for more info about each adapter state kind.
+The kind of state item on the adapter whose state you wish to retrieve. See the table in [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind.
 
 ### inputStateDetailsSize
 
@@ -50,7 +49,7 @@ The size, in bytes, of the input state details buffer that you (optionally) allo
 
 Type: **void const\***
 
-An optional pointer to a constant input state details buffer that you allocate in your application, containing any information about your request that's required for the state kind you specify in *state*. See the table in [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) for more info about any input buffer requirement for a given state kind.
+An optional pointer to a constant input state details buffer that you allocate in your application, containing any information about your request that's required for the state kind you specify in *state*. See the table in [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about any input buffer requirement for a given state kind.
 
 ### outputBufferSize
 
@@ -62,7 +61,7 @@ The size, in bytes, of the output buffer that you allocate and provide in *outpu
 
 Type: **void\***
 
-A pointer to an output buffer that you allocate in your application, and that the function fills in. See the table in [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) for more info about the output buffer requirement for a given state kind.
+A pointer to an output buffer that you allocate in your application, and that the function fills in. See the table in [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about the output buffer requirement for a given state kind.
 
 ## Returns
 
@@ -80,7 +79,7 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 ## Remarks
 
-See [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) for more info about each adapter state kind, and what inputs and outputs are used. This function zeros out the *outputBuffer* buffer prior to filling it in.
+See [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind, and what inputs and outputs are used. This function zeros out the *outputBuffer* buffer prior to filling it in.
 
 ## See also
 

@@ -30,11 +30,6 @@ Following is additional information about anonymous access when reading and enum
 
 **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\Lsa**\\**RestrictAnonymous** = 1
 
-For more information, see the following article in the Microsoft Knowledge Base:
-
-ARTICLE ID: [Q246261](https://support.microsoft.com/kb/246261)
-
-TITLE: How to use the RestrictAnonymous registry Value.
 
 ## Updates
 

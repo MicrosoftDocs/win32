@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_HostedBootSAP class defines the hosting unitary computer system for a CIM\_BootSAP class.
+description: The CIM\_HostedBootSAP class defines the hosting unitary computer system for a CIM\_BootSAP class.
 ms.assetid: 2113de13-e7af-4a1c-ba80-27e2c57af8a0
 ms.tgt_platform: multiple
 title: CIM_HostedBootSAP class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

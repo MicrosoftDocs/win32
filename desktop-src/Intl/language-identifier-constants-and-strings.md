@@ -1,5 +1,5 @@
 ---
-Description: Each language identifier is composed of a primary language identifier indicating the language and a sublanguage identifier indicating the country/region.
+description: Each language identifier is composed of a primary language identifier indicating the language and a sublanguage identifier indicating the country/region.
 ms.assetid: 8a6373e0-46c2-4b1b-bc67-543f426ef15a
 title: Language Identifier Constants and Strings
 ms.topic: article

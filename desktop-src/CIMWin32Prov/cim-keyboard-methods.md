@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Keyboard class exposes the following methods.
+description: The CIM\_Keyboard class exposes the following methods.
 ms.assetid: FB1A9234-F0D0-424E-9A55-DF8FC274D86D
 ms.tgt_platform: multiple
 title: CIM_Keyboard Methods

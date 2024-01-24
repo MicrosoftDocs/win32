@@ -1,5 +1,5 @@
 ---
-Description: Initiates a failover for a virtual machine to an application or standard replication point image.
+description: Initiates a failover for a virtual machine to an application or standard replication point image.
 ms.assetid: cd7e9398-c234-4637-906d-69b46ebf3f51
 title: InitiateFailover method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -109,7 +109,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

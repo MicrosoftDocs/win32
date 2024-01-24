@@ -1,5 +1,5 @@
 ---
-Description: Basic Telephony services are a minimal subset of the Telephony specification.
+description: Basic Telephony services are a minimal subset of the Telephony specification.
 ms.assetid: 997e405f-41fa-4aeb-8700-3f9f61430c88
 title: Basic Telephony Services
 ms.topic: article

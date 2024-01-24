@@ -1,5 +1,5 @@
 ---
-Description: Provides a list of scripts used in the specified Unicode string.
+description: Provides a list of scripts used in the specified Unicode string.
 ms.assetid: 3ad23613-8d0c-432a-b352-637c373a0980
 title: DownlevelGetStringScripts function (Idndl.h)
 ms.topic: reference
@@ -204,13 +204,13 @@ Unassigned
 
  
 
-The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en%0A) download, available at the [MSDN Download Center](https://www.microsoft.com/?ref=go).
+The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://archive.org/details/idndl.x86) download available from [archive.org](https://archive.org/).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                        |

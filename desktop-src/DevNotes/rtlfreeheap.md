@@ -1,5 +1,5 @@
 ---
-Description: Frees a memory block that was allocated from a heap by RtlAllocateHeap.
+description: Frees a memory block that was allocated from a heap by RtlAllocateHeap.
 ms.assetid: 0A08FB6B-23A3-450B-8745-AEB927CEB7BB
 title: RtlFreeHeap function (Ntifs.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ Returns **TRUE** if the block was freed successfully; **FALSE** otherwise.
 
 
 
-|                                     |                                                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                    |

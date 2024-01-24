@@ -1,5 +1,5 @@
 ---
-Description: The Explorer Bar was introduced with Microsoft Internet Explorer 4.0 to provide a display area adjacent to the browser pane.
+description: The Explorer Bar was introduced with Microsoft Internet Explorer 4.0 to provide a display area adjacent to the browser pane.
 title: Create Custom Explorer Bars, Tool Bands, and Desk Bands
 ms.topic: article
 ms.date: 05/31/2018
@@ -16,7 +16,7 @@ topic_type:
 
 The Explorer Bar was introduced with Microsoft Internet Explorer 4.0 to provide a display area adjacent to the browser pane. It is basically a child window within the Windows Internet Explorer window, and it can be used to display information and interact with the user in much the same way. Explorer Bars are most commonly displayed as a vertical pane on the left side of the browser pane. However, an Explorer Bar can also be displayed horizontally, below the browser pane.
 
-![screen shot of the explorer bars](images/expl1.jpg)
+![Screenshot that shows the vertical and horizontal Explorer Bars.](images/expl1.jpg)
 
 There is a wide range of possible uses for the Explorer Bar. Users can select which option they want to see in several different ways, including selecting it from the **Explorer Bar** submenu of the **View** menu, or clicking a toolbar button. Internet Explorer provides several standard Explorer Bars, including Favorites and Search.
 
@@ -38,11 +38,11 @@ Users display a toolbar by selecting it from the **Toolbars** submenu of the **V
 
 Band objects can also be used to create *desk bands*. While their basic implementation is similar to Explorer Bars, desk bands are unrelated to Internet Explorer. A desk band is basically a way to create a dockable window on the desktop. The user selects it by right-clicking the taskbar and selecting it from the **Toolbars** submenu.
 
-![screen shot of desk bands](images/desk2.png)
+![Screenshot that shows a sample desk band.](images/desk2.png)
 
 Initially, desk bands are docked on the taskbar.
 
-![screen shot of desk bands](images/desk1.jpg)
+![Screenshot that shows desk bands docked on the task bar.](images/desk1.jpg)
 
 The user can then drag the desk band to the desktop, and it will appear as a normal window.
 

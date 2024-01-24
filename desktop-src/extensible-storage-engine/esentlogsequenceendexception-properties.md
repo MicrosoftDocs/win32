@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndException properties"
 title: EsentLogSequenceEndException properties
 TOCTitle: EsentLogSequenceEndException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogSequenceEndException](dn334652\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogSequenceEndException](./esentlogsequenceendexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentLogSequenceEndException class](dn334652\(v=exchg.10\).md)
+[EsentLogSequenceEndException class](./esentlogsequenceendexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the codec will use video scaling optimization.
+description: Specifies whether the codec will use video scaling optimization.
 ms.assetid: a21d0100-e020-4e74-b8e3-bb7071194828
 title: MFPKEY_VIDEOSCALING Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This property may be set to one of the following values.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

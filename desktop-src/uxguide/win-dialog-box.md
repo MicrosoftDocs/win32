@@ -1,12 +1,16 @@
 ---
-title: Dialog Boxes (Design basics)
-description: A dialog box is a secondary window that allows users to perform a command, asks users a question, or provides users with information or progress feedback.
+title: Windows 7 Dialog Boxes (Design basics)
+description: A Windows 7 dialog box is a secondary window that allows users to perform a command, asks users a question, or provides users with information or progress feedback.
 ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/25/2022
+ms.custom: seo-windows-dev
 ---
 
-# Dialog Boxes
+# Windows 7 Dialog Boxes (Design basics)
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A dialog box is a secondary window that allows users to perform a command, asks users a question, or provides users with information or progress feedback.
 
@@ -26,7 +30,7 @@ Dialog boxes have two fundamental types:
 -   A **title bar** to identify the application or system feature where the dialog box came from.
 -   A **main instruction**, with an optional icon, to identify the user's objective with the dialog.
 -   A **content area** for descriptive information and controls.
--   A **command area** for commit buttons, including a Cancel button, and optional More options and Don't show this <item> again controls.
+-   A **command area** for commit buttons, including a Cancel button, and optional More options and Don't show this &lt;item&gt; again controls.
 -   A **footnote area** for optional additional explanations and help, typically targeted at less experienced users.
 
 ![screen shot of a typical task dialog box ](images/win-dialog-box-image2.png)
@@ -84,7 +88,7 @@ If so, use the appropriate [common dialog](win-common-dlg.md) instead. Many of t
     -   Using a [split button](ctrl-command-buttons.md) to select variations of a command.
     -   Using a submenu for commands, check boxes, radio buttons and simple lists.
 
-![screen shot of a menu and submenu ](images/win-dialog-box-image4.png)
+![Screenshot that shows a menu and sub-menu.](images/win-dialog-box-image4.png)
 
 ![screen shot of a menu and submenu ](images/win-dialog-box-image5.png)
 
@@ -100,7 +104,7 @@ To design effective dialog boxes, use the following elements effectively:
 
 -   Dialog box text
 -   Main instructions
--   Don't show this <item> again option
+-   Don't show this &lt;item&gt; again option
 
 **If you do only one thing...**
 
@@ -384,9 +388,8 @@ In this example, the large graphic serves no purpose.
 
 
 
-|                                      |                                                                                                                            |
+| Pattern | Body icon |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Pattern**<br/>               | **Body icon**<br/>                                                                                                   |
 | **Question dialogs**<br/>      | Program, feature, object, warning icon (if potential loss of data or system access), security warning, or none.<br/> |
 | **Choice dialogs**<br/>        | None.<br/>                                                                                                           |
 | **Progress dialogs**<br/>      | None (but may have an animation).<br/>                                                                               |
@@ -450,42 +453,16 @@ For more information and examples, see [Icons](vis-icons.md).
 
 -   **Choose the commit buttons based on the design pattern:**
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Pattern</strong><br/></td>
-    <td><strong>Commit buttons</strong><br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Question dialogs (using buttons)</strong><br/></td>
-    <td>One of the following sets of concise commands: Yes/No, Yes/No/Cancel, [Do it]/Cancel, [Do it]/[Don't do it], [Do it]/[Don't do it]/Cancel.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td><strong>Question dialogs (using links)</strong><br/></td>
-    <td>Cancel.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Choice dialogs</strong><br/></td>
-    <td><ul>
-    <li>Modal dialogs: OK/Cancel or [Do it]/Cancel</li>
-    <li>Modeless dialogs: Close button on dialog box and title bar</li>
-    <li>Task pane: Close button on title bar</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td><strong>Progress dialogs</strong><br/></td>
-    <td>Use Cancel if returns the environment to its previous state (leaving no side effect); otherwise, use Stop.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Informational dialogs</strong><br/></td>
-    <td>Close.<br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Label | Value |
+|--------|-------|
+| <strong>Pattern</strong><br /> | <strong>Commit buttons</strong><br /> | 
+| <strong>Question dialogs (using buttons)</strong><br /> | One of the following sets of concise commands: Yes/No, Yes/No/Cancel, [Do it]/Cancel, [Do it]/[Don't do it], [Do it]/[Don't do it]/Cancel.<br /> | 
+| <strong>Question dialogs (using links)</strong><br /> | Cancel.<br /> | 
+| <strong>Choice dialogs</strong><br /> | <ul><li>Modal dialogs: OK/Cancel or [Do it]/Cancel</li><li>Modeless dialogs: Close button on dialog box and title bar</li><li>Task pane: Close button on title bar</li></ul> | 
+| <strong>Progress dialogs</strong><br /> | Use Cancel if returns the environment to its previous state (leaving no side effect); otherwise, use Stop.<br /> | 
+| <strong>Informational dialogs</strong><br /> | Close.<br /> | 
+
 
     
 
@@ -560,7 +537,7 @@ For more information and examples, see [Icons](vis-icons.md).
 
     **Incorrect:**
 
-    ![screen shot of message with ok for yes-no question ](images/win-dialog-box-image29.png)
+    ![Screenshot that shows a message with an 'OK' for a yes-no question.](images/win-dialog-box-image29.png)
 
     **Correct:**
 
@@ -634,7 +611,7 @@ For more information and examples, see [Icons](vis-icons.md).
 -   **Clicking Close means close the dialog box window, leaving any existing side effects.** Don't use Done, because it isn't an imperative construction. For nested choice dialog boxes, clicking Close in the owner choice dialog means any changes made by owned choice dialogs are preserved.
 -   **Put an explicit Close button in the dialog box body.** Dialog boxes need a clear exit point. Don't depend on users finding the Close button on the title bar.
 -   **Make sure the Close button on the title bar has the same effect as Cancel or Close.**
--   **Don't assign access keys to Close, because Esc is its the access key.** Doing so makes the other access keys easier to assign.
+-   **Don't assign access keys to Close, because Esc is the access key.** Doing so makes the other access keys easier to assign.
 
 **Apply buttons**
 
@@ -697,10 +674,10 @@ In this example, the dialog box uses a command link instead of a Cancel button.
 
 For more information and examples, see [Command Links](ctrl-command-links.md).
 
-### Don't show this <item> again
+### Don't show this &lt;item&gt; again
 
--   **Consider using a Don't show this <item> again option to allow users to suppress a recurring dialog box, only if there isn't a better alternative.** It is better always to show the dialog if users really need it, or simply eliminate it if they don't.
--   **Use this specific phrasing replace <item> with the specific item.** For example, Don't show this reminder again. When referring to a dialog box in general, use Don't show this message again.
+-   **Consider using a Don't show this &lt;item&gt; again option to allow users to suppress a recurring dialog box, only if there isn't a better alternative.** It is better always to show the dialog if users really need it, or simply eliminate it if they don't.
+-   **Use this specific phrasing replace &lt;item&gt; with the specific item.** For example, Don't show this reminder again. When referring to a dialog box in general, use Don't show this message again.
 -   **Clearly indicate when user input will be used for future default values** by adding the following sentence under the option: Your selections will be used by default in the future.
 -   **Don't select the option by default. If the dialog box really should be displayed only once, do so without asking.** Don't use this option as an excuse to annoy users make sure the default behavior isn't annoying.
 
@@ -736,7 +713,7 @@ In this example, rarely used options are hidden by default.
 
 -   **Don't use More/Fewer controls unless there really is more detail to show.** Don't just restate the same information in a different format.
 -   **Don't use More/Fewer controls to show Help.** Use Help links or footnotes instead.
--   **With task dialogs, avoid combining More/Fewer controls with Don't show this <item> again.** This combination has an awkward appearance.
+-   **With task dialogs, avoid combining More/Fewer controls with Don't show this &lt;item&gt; again.** This combination has an awkward appearance.
 -   For labeling guidelines, see [Progressive Disclosure](ctrl-progressive-disclosure-controls.md).
 
 ### Footnotes
@@ -946,6 +923,4 @@ When referring to dialog boxes:
 -   When possible, format the title using bold text. Otherwise, put the title in quotation marks only if required to prevent confusion.
 
 Example: In **Windows Security**, click **More Options**.
-
- 
 

@@ -1,5 +1,5 @@
 ---
-Description: The GetIUnknownValue method retrieves an IUnknown interface value (type VT\_UNKNOWN) specified by a key.
+description: The GetIUnknownValue method retrieves an IUnknown interface value (type VT\_UNKNOWN) specified by a key.
 ms.assetid: 2197fa1f-639d-4ac1-9d5b-c6534f3ecf1c
 title: IPortableDeviceValues::GetIUnknownValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesCannotRetrieveFromIndexException members"
 title: EsentIndexTuplesCannotRetrieveFromIndexException members
 TOCTitle: EsentIndexTuplesCannotRetrieveFromIndexException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesCannotRetrieveFromIndexException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.IndexTuplesCannotRetrieveFromIndex exceptions.
 
-The [EsentIndexTuplesCannotRetrieveFromIndexException](dn319401\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesCannotRetrieveFromIndexException](./esentindextuplescannotretrievefromindexexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesCannotRetrieveFromIndexException class](dn319401\(v=exchg.10\).md)
+[EsentIndexTuplesCannotRetrieveFromIndexException class](./esentindextuplescannotretrievefromindexexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

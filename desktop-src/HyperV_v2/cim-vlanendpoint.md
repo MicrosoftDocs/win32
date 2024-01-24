@@ -1,5 +1,5 @@
 ---
-Description: An endpoint on a switch or end station that is assigned to a VLAN, or accepts traffic from one or more VLANs.
+description: An endpoint on a switch or end station that is assigned to a VLAN, or accepts traffic from one or more VLANs.
 ms.assetid: 20943be3-35c3-4bf5-8f1a-d4095fa6897e
 title: CIM_VLANEndpoint class
 ms.topic: reference
@@ -461,7 +461,7 @@ The type of VLAN encapsulation that is supported by the VLAN endpoint when the v
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

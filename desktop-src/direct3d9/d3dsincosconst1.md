@@ -1,5 +1,5 @@
 ---
-Description: Creates the first constant (in register src2) for the sincos - ps pixel shader instruction.
+description: Creates the first constant (in register src2) for the sincos - ps pixel shader instruction.
 ms.assetid: 767c5353-b2fc-4d38-aab7-552be5565177
 title: D3DSINCOSCONST1 (D3dx9types.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ Returns the first constant needed by [sincos - ps](../direct3dhlsl/sincos---ps.m
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9types.h</dt> </dl> |
 

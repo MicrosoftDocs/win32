@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDisabledFunctionalityException constructor"
 title: EsentDisabledFunctionalityException constructor 
 TOCTitle: 'EsentDisabledFunctionalityException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDisabledFunctionalityException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDisabledFunctionalityException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDisabledFunctionalityException()
 
 #### Reference
 
-[EsentDisabledFunctionalityException class](dn274277\(v=exchg.10\).md)
+[EsentDisabledFunctionalityException class](./esentdisabledfunctionalityexception-class.md)
 
-[EsentDisabledFunctionalityException members](dn334469\(v=exchg.10\).md)
+[EsentDisabledFunctionalityException members](./esentdisabledfunctionalityexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

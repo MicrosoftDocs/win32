@@ -1,5 +1,5 @@
 ---
-Description: Configures the preference of the default capabilities.
+description: Configures the preference of the default capabilities.
 ms.assetid: 0afcb25a-2499-4baa-82ad-0706164e2e72
 title: IH323LineEx::SetDefaultCapabilityPreferrence method (H323priv.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>H323priv.h</dt> </dl> |

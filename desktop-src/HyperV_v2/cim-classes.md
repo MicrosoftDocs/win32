@@ -1,12 +1,12 @@
 ---
-Description: The CIM classes are base classes that all WMI objects derive from.
+description: The CIM classes are base classes that all WMI objects derive from.
 ms.assetid: 16EF4297-A64E-4273-9D6E-0B81C954265E
 title: CIM Classes (Hyper-V management)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# CIM Classes
+# CIM Classes (Hyper-V management)
 
 The CIM classes are base classes that all WMI objects derive from. Each provider potentially may use a slightly different versions of the CIM classes; therefore, most v2 WMI providers contain their own CIM class documentation.
 

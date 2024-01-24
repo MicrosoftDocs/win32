@@ -1,5 +1,5 @@
 ---
-Description: The maximum amount of physical memory supported by Microsoft Windows ranges from 2 GB to 2 TB, depending on the version of Windows.
+description: The maximum amount of physical memory supported by Microsoft Windows ranges from 2 GB to 2 TB, depending on the version of Windows.
 ms.assetid: 5e8fca7a-b85f-4bbd-80c1-e580a815fdce
 title: Virtual Address Space and Physical Storage
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The NTEventLogEventConsumer class writes a message to the Windows Event log when a specified event occurs. This class is a standard event consumer that WMI provides.
+description: The NTEventLogEventConsumer class writes a message to the Windows Event log when a specified event occurs. This class is a standard event consumer that WMI provides.
 ms.assetid: ca998a91-d9f7-44ff-bb83-5ba92d68f31e
 ms.tgt_platform: multiple
 title: Logging to NT Event Log Based on an Event

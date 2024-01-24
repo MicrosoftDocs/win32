@@ -1,5 +1,5 @@
 ---
-Description: Applications can optimize which subset of a texture is copied by specifying &\#0034;dirty&\#0034; regions on textures.
+description: Applications can optimize which subset of a texture is copied by specifying &\#0034;dirty&\#0034; regions on textures.
 ms.assetid: 102081bc-d5d5-4ec1-b935-00d4eda8f470
 title: Texture Dirty Regions (Direct3D 9)
 ms.topic: article

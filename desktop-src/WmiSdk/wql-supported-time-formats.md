@@ -1,5 +1,5 @@
 ---
-Description: Describes time formats supported for use in the WQL WHERE clause.
+description: Describes time formats supported for use in the WQL WHERE clause.
 ms.assetid: d86bd2e3-f5cb-488f-9cd6-5105d82a1842
 ms.tgt_platform: multiple
 title: WQL-Supported Time Formats

@@ -1,5 +1,5 @@
 ---
-Description: Decodes a string from base64.
+description: Decodes a string from base64.
 ms.assetid: acf2dba6-a0e8-4b77-a5a6-93cfa6afe874
 title: Utilities.Base64Decode method
 ms.topic: reference
@@ -55,7 +55,7 @@ Base64 encoding is the scheme used to transmit binary data. Base64 processes dat
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_CoolingDevice class requests a reset of the logical device.
+description: The Reset method of the CIM\_CoolingDevice class requests a reset of the logical device.
 ms.assetid: eaf113ac-ccaf-428e-b01f-58950967d779
 ms.tgt_platform: multiple
 title: Reset method of the CIM_CoolingDevice class
@@ -52,7 +52,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

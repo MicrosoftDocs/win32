@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer database consists of many interrelated tables that together comprise a relational database of the information necessary to install a group of applications.
+description: The Windows Installer database consists of many interrelated tables that together comprise a relational database of the information necessary to install a group of applications.
 ms.assetid: 3352dd8f-c082-4c4b-98be-5823c8b28f07
 title: About the Installer Database
 ms.topic: article

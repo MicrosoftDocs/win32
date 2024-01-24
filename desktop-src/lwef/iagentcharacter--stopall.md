@@ -26,7 +26,7 @@ A bitfield that indicates the types of requests to stop (and remove from the cha
 
 
 
-|                                                                                   |                                                                                                          |
+| Value                                                                                  |  Description                                                                                                        |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | **const unsigned long** **STOP\_TYPE\_ALL = 0xFFFFFFFF;**<br/>              | Stops all animation requests, including non-queued [**Prepare**](iagentcharacter--prepare.md) requests. |
 | **const unsigned long** **STOP\_TYPE\_PLAY = 0x00000001;**<br/>             | Stops all Play requests.                                                                                 |

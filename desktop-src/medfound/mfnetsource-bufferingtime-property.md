@@ -1,5 +1,5 @@
 ---
-Description: Number of seconds of data that the network source buffers at startup.
+description: Number of seconds of data that the network source buffers at startup.
 ms.assetid: 186b55fc-d1b1-4187-a748-efaee114eca9
 title: MFNETSOURCE_BUFFERINGTIME property (Mfidl.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The default value of this property is 5 seconds.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

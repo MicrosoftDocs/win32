@@ -22,7 +22,7 @@ This specifies the permissible content of entries of a particular structural obj
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | DIT-Content-Rules                           |
 | Ldap-Display-Name | dITContentRules                             |
@@ -49,7 +49,7 @@ This specifies the permissible content of entries of a particular structural obj
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -70,7 +70,7 @@ This specifies the permissible content of entries of a particular structural obj
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -91,7 +91,7 @@ This specifies the permissible content of entries of a particular structural obj
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -112,7 +112,7 @@ This specifies the permissible content of entries of a particular structural obj
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -133,7 +133,7 @@ This specifies the permissible content of entries of a particular structural obj
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -154,7 +154,7 @@ This specifies the permissible content of entries of a particular structural obj
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -175,7 +175,7 @@ This specifies the permissible content of entries of a particular structural obj
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |

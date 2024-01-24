@@ -20,7 +20,7 @@ ms.date: 04/17/2020
 
 Sent to the window that is getting raw input.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```cpp
@@ -64,7 +64,7 @@ Raw input is available only when the application calls [**RegisterRawInputDevice
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\] |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

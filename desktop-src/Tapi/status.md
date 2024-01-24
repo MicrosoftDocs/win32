@@ -1,12 +1,12 @@
 ---
-Description: Most of the get and set operations deal with one component of information only. The phoneGetStatus function returns complete status information about a phone device to an application.
+description: Most of the get and set operations deal with one component of information only. The phoneGetStatus function returns complete status information about a phone device to an application.
 ms.assetid: 'ca38396c-6f97-4c1c-99fb-2bd64c74c626'
 title: Status (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Status
+# Status (Telephony API)
 
 Most of the get and set operations deal with one component of information only. The [**phoneGetStatus**](/windows/desktop/api/Tapi/nf-tapi-phonegetstatus) function returns complete status information about a phone device to an application.
 

@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of integers.
+description: ID3DXBaseEffect::SetIntArray method - Sets an array of integers.
 ms.assetid: 4491bffd-ce5e-4f84-ac11-0314a1b16d63
 title: ID3DXBaseEffect::SetIntArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

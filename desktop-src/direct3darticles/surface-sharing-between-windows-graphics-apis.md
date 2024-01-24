@@ -1,12 +1,12 @@
 ---
-title: Surface Sharing Between Windows Graphics APIs
+title: Surface sharing between Windows graphics APIs
 description: This topic provides a technical overview of interoperability using surface sharing between Windows graphics APIs, including Direct3D 11, Direct2D, DirectWrite, Direct3D 10, and Direct3D 9Ex.
 ms.assetid: 65abf33e-3d15-42ff-99bd-674f24da773e
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Surface Sharing Between Windows Graphics APIs
+# Surface sharing between Windows graphics APIs
 
 This topic provides a technical overview of interoperability using surface sharing between Windows graphics APIs, including Direct3D 11, Direct2D, DirectWrite, Direct3D 10, and Direct3D 9Ex. If you already have a working knowledge of these APIs, this paper can help you use multiple APIs to render to the same surface in an application designed for the Windows 7 or Windows Vista operating systems. This topic also provides best practice guidelines and pointers to additional resources.
 
@@ -340,7 +340,7 @@ The queue exposes the following APIs:
 
 
 
-|                             |                                                                                  |
+| API                            | Description                                                                                 |
 |-----------------------------|----------------------------------------------------------------------------------|
 | CreateSurfaceQueue          | Creates an ISurfaceQueue object (the "root" queue).                              |
 | ISurfaceQueue::OpenConsumer | Returns an interface for the consuming device to dequeue.                        |
@@ -544,7 +544,7 @@ This interface provides two methods that allow the app to enqueue surfaces. Afte
 
 
 
-|                           |                                                                                                                                                       |
+| Method                          | Description                                                                                                                                                      |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ISurfaceProducer::Enqueue | Enqueues a surface to the queue object. After this call completes, the producer is done with the surface and the surface is ready for another device. |
 | ISurfaceProducer::Flush   | Used if the applications should have non-blocking behavior. See Remarks for details.                                                                  |

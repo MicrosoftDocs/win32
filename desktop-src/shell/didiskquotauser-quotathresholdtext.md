@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's warning threshold as a text string.
+description: Gets the user's warning threshold as a text string.
 ms.assetid: 55b53ad0-e7cd-4417-9087-297ac96e245f
 title: DIDiskQuotaUser.QuotaThresholdText property
 ms.topic: reference
@@ -38,7 +38,7 @@ The string value that contains the user's warning threshold. If a user's disk us
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

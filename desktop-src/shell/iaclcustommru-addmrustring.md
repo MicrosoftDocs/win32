@@ -1,5 +1,5 @@
 ---
-Description: Adds an entry to the most recently used (MRU) list.
+description: Adds an entry to the most recently used (MRU) list.
 title: IACLCustomMRU::AddMRUString method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -12,14 +12,6 @@ api_type:
 - COM
 api_location: 
 ms.assetid: d8fb8fa5-452b-45fd-b015-d9bf3d0c642e
-api_name: 
- - IACLCustomMRU.AddMRUString
-api_type: 
- - COM
-api_location: 
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -61,7 +53,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: This article contains general guidance for using the Direct3D 12 video APIs.
+description: This article contains general guidance for using the Direct3D 12 video APIs.
 ms.assetid: 
 title: Direct3D 12 Video Overview
 ms.topic: article
@@ -61,14 +61,14 @@ The [D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS](/windows/win32/api/d3d12video/ns-
 
 ## Video processing
 
-Direct3D 12 video APIs take a streamlined approach to video processing, eliminating features of Direct3D 11 that weren't widely used and removing capability checks for features that are mandatory across devices. The enumeration process for video processing is eliminated. Instead, call [ID3D12VideoDevice::CheckFeatureSupport](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-checkfeaturesupport) which allows an app to identify the capabilities of the video processor. The desired video, interlace, stereo formats and rates are provided as as input to **CheckFeatureSupport**.
+Direct3D 12 video APIs take a streamlined approach to video processing, eliminating features of Direct3D 11 that weren't widely used and removing capability checks for features that are mandatory across devices. The enumeration process for video processing is eliminated. Instead, call [ID3D12VideoDevice::CheckFeatureSupport](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-checkfeaturesupport) which allows an app to identify the capabilities of the video processor. The desired video, interlace, stereo formats and rates are provided as input to **CheckFeatureSupport**.
 
 ### Removed capabilities
 
 The following capabilities from Direct3D 11 are not supported in Direct3D 12 video processing:
 - Custom rates.  Instead, there is an input and output rate given during the [ID3D12VideoProcessCommandList::ProcessFrames](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocesscommandlist-processframes) command recording.
 - There are just two deinterlacing modes available now: [BOB](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_deinterlace_flags) and [CUSTOM](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_deinterlace_flags). Other modes have been eliminated. CUSTOM is a high-quality deinterlacing mode provided by the hardware vendor.
-- All of the optional stereo formats in [D3D11_VIDEO_PROCESSOR_STEREO_CAPS](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_caps) are no longer supported. Instead, [nono](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format), [horizontal](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format), [vertical](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format), and [separate](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format) are mandatory for all hardware devices if stereo is supported.
+- All of the optional stereo formats in [D3D11_VIDEO_PROCESSOR_STEREO_CAPS](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_caps) are no longer supported. Instead, [mono](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format), [horizontal](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format), [vertical](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format), and [separate](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_frame_stereo_format) are mandatory for all hardware devices if stereo is supported.
 - There is no equivalent for [D3D11_VIDEO_PROCESSOR_FORMAT_CAPS](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_format_caps) or [D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_auto_stream_caps). Instead, input and output formats are arguments to the creation of the video processor, and at that time, it should be known if the video processor can or cannot perform the operation with the given format. The [D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_video_process_auto_processing_flags) is used to indicate if auto processing features are available.
 - There is no equivalent for [D3D11_VIDEO_PROCESSOR_CAPS_LEGACY](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_feature_caps).
 - There is no equivalent for [D3D11_VIDEO_PROCESSOR_CAPS_CONSTRICTION](/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_feature_caps).
@@ -114,7 +114,10 @@ An implementation will also usually have a fence for each output buffer. In the 
 ## Related topics
 
 <dl> <dt>
+ 
 [Direct3D 12 Video APIs](direct3d-12-video-apis.md)
+</dt> <dt>
+ 
 [Media Foundation Programming Guide](media-foundation-programming-guide.md)
 </dt> </dl>
 

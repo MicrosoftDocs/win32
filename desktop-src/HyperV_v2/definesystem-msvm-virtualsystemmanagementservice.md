@@ -1,5 +1,5 @@
 ---
-Description: Creates a new virtual machine instance.
+description: Creates a new virtual machine instance.
 ms.assetid: 15BC967D-F392-45A6-ACF6-5C2F2334AAE6
 title: DefineSystem method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -126,7 +126,7 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

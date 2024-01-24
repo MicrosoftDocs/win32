@@ -1,12 +1,12 @@
 ---
-Description: The pluggable terminals are classified into Terminal Superclasses.
+description: The pluggable terminals are classified into Terminal Superclasses.
 ms.assetid: 0ab2896e-3634-47f7-b1f4-e7d1ffcb3592
 title: Registry Entries (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Registry Entries
+# Registry Entries (Telephony API)
 
 The pluggable terminals are classified into Terminal Superclasses. Each Terminal Superclass has an entry in the registry under the following key:
 

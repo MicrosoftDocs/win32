@@ -1,5 +1,5 @@
 ---
-Description: Adds resources to a virtual system configuration.
+description: Adds resources to a virtual system configuration.
 ms.assetid: c2541571-74f0-48f8-997c-56c152980eea
 title: AddResourceSettings method of the CIM_VirtualSystemManagementService class
 ms.topic: reference
@@ -104,7 +104,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

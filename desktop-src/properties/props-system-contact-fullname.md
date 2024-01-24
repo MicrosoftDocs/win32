@@ -1,5 +1,5 @@
 ---
-Description: Indicates the full name of the contact.
+description: Indicates the full name of the contact.
 ms.assetid: 24b1cc89-092f-4186-a5d3-a2be7a405538
 title: System.Contact.FullName
 ms.topic: article

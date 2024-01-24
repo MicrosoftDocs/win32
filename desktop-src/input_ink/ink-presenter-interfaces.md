@@ -1,5 +1,5 @@
 ---
-Description: The topics contained in this section provide the reference specifications for Ink presenter interfaces.
+description: The topics contained in this section provide the reference specifications for Ink presenter interfaces.
 ms.assetid: 68172566-586C-41AC-82B8-5DBE8B50EC8F
 title: Ink presenter interfaces
 ms.topic: article

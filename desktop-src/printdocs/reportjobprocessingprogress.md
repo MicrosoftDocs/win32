@@ -1,5 +1,5 @@
 ---
-Description: Reports to the Print Spooler service whether an XPS print job is in the spooling or the rendering phase and what part of the processing is currently underway.
+description: Reports to the Print Spooler service whether an XPS print job is in the spooling or the rendering phase and what part of the processing is currently underway.
 ms.assetid: 66f7483d-be98-410d-b0c7-430743397de2
 title: ReportJobProcessingProgress function (Winspool.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ For more information about COM error codes, see [Error Handling](../com/error-ha
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

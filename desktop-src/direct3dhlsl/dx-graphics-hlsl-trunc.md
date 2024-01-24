@@ -47,7 +47,7 @@ The input value truncated to an integer component.
 
 ## Remarks
 
-This function truncates a floating-point value to the integer component. Given a floating-point value of 1.6, the trunc function would return 1.0, where as the [**round (DirectX HLSL)**](dx-graphics-hlsl-round.md) function would return 2.0.
+This function truncates a floating-point value to the integer component. Given a floating-point value of 1.6, the trunc function would return 1.0, whereas the [**round (DirectX HLSL)**](dx-graphics-hlsl-round.md) function would return 2.0.
 
 ## Type Description
 
@@ -80,7 +80,7 @@ This function is supported in the following shader models.
 
 
 
-|                   |                                                                                            |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Corecrt\_math.h</dt> </dl> |
 

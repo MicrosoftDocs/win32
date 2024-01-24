@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_VideoSettings association WMI class relates a video controller and video settings that can be applied to it.
+description: The Win32\_VideoSettings association WMI class relates a video controller and video settings that can be applied to it.
 ms.assetid: 0cc42352-0a89-434d-a8b6-230c677de49c
 ms.tgt_platform: multiple
 title: Win32_VideoSettings class
@@ -87,7 +87,7 @@ The **Win32\_VideoSettings** class is derived from [**CIM\_VideoSetting**](cim-v
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

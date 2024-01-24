@@ -1,5 +1,5 @@
 ---
-Description: Reserved for operating system use.
+description: Reserved for operating system use.
 ms.assetid: 0ee10b13-4d12-4874-87bc-9ed104d74068
 ms.tgt_platform: multiple
 title: '__TimerNextFiring class'
@@ -30,7 +30,7 @@ The **\_\_TimerNextFiring** class does not define any members.
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

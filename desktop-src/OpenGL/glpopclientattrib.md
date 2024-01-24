@@ -1,6 +1,6 @@
 ---
 title: glPopClientAttrib function (Gl.h)
-description: The glPushClientAttrib and glPopClientAttrib functions save and restore groups of client-state variables on the client-attribute stack.
+description: The glPushClientAttrib and glPopClientAttrib functions save and restore groups of client-state variables on the client-attribute stack. | glPopClientAttrib function (Gl.h)
 ms.assetid: 030a3955-35bf-4862-9691-54b0c24514e8
 keywords:
 - glPopClientAttrib function OpenGL
@@ -49,18 +49,6 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 
 
-## Error codes
-
-The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                               | Meaning                                                                       |
-|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_STACK\_OVERFLOW**</dt> </dl> | The function was called while the client-attribute stack was full.<br/> |
-
-
-
 ## Remarks
 
 The **glPushClientAttrib** function uses its mask parameter to determine which groups of client-state variables are saved on the client-attribute stack. You can use the bitwise OR operator to join together accepted symbolic constants to set bits and construct a mask.
@@ -88,7 +76,7 @@ The following functions retrieve information related to **glPushClientAttrib** a
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

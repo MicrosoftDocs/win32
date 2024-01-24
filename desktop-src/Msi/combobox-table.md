@@ -1,5 +1,5 @@
 ---
-Description: The lines of a combo box are not treated as individual controls; they are part of a single combo box that functions as a control. This table lists the values for each combo box.
+description: The lines of a combo box are not treated as individual controls; they are part of a single combo box that functions as a control. This table lists the values for each combo box.
 ms.assetid: 1d3566ac-e95d-48ed-bce4-fb4604d5f762
 title: ComboBox Table
 ms.topic: article

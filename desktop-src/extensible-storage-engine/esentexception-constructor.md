@@ -1,5 +1,6 @@
-﻿---
-title: EsentException constructor  (Microsoft.Isam.Esent)
+---
+description: "Learn more about: EsentException constructor overload list"
+title: EsentException constructor  (Microsoft.Isam.Esent) overload list
 TOCTitle: 'EsentException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.EsentException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.esentexception.esentexception(v=EXCHG.10)
@@ -56,9 +57,8 @@ Top
 
 #### Reference
 
-[EsentException class](dn292088\(v=exchg.10\).md)
+[EsentException class](./esentexception-class.md)
 
-[EsentException members](dn292086\(v=exchg.10\).md)
+[EsentException members](./esentexception-members.md)
 
-[Microsoft.Isam.Esent namespace](dn292085\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent namespace](./microsoft.isam.esent-namespace.md)

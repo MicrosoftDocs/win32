@@ -1,5 +1,5 @@
 ---
-Description: Topics that cover the usage of isolated applications and side-by-side assemblies.
+description: Topics that cover the usage of isolated applications and side-by-side assemblies.
 ms.assetid: e9be32ee-9d6e-4ffe-86b8-e44b0a74d14f
 title: Using Isolated Applications and Side-by-side Assemblies
 ms.topic: article

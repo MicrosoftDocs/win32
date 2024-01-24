@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 12000-1599 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 12000-1599 defined in the WinError.h header file and is intended for developers.
 ms.assetid: bb3c658d-96db-495a-a0dc-e93949c3835d
 title: System Error Codes (12000-15999) (WinError.h)
 ms.topic: reference
@@ -24,6 +24,19 @@ The following list describes [system error codes](system-error-codes.md) (errors
 
 
 See [Internet Error Codes](../wininet/wininet-errors.md) and WinInet.h.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="ERROR_WINHTTP__"></span><span id="error_winhttp__"></span>**ERROR\_WINHTTP\_\***
+</dt> <dd> <dl> <dt>
+
+12001 - 12184 (0x2EE1)
+</dt> <dt>
+
+
+
+See [WinHTTP Error Codes](../winhttp/error-messages.md) and Winhttp.h.
 
 
 </dt> </dl> </dd> <dt>
@@ -3676,7 +3689,7 @@ Left hand side arguments to binary operators must be either attributes, nodes or
 
 
 
-A step operation must involve either a node test or, in the case of a predicate, an algebraic expression against which to test each node in the node set identified by the preceeding node set can be evaluated.
+A step operation must involve either a node test or, in the case of a predicate, an algebraic expression against which to test each node in the node set identified by the preceding node set can be evaluated.
 
 
 </dt> </dl> </dd> <dt>
@@ -3975,7 +3988,7 @@ The subscription fails to activate.
 
 
 
-The log of the subscription is in disabled state, and can not be used to forward events to. The log must first be enabled before the subscription can be activated.
+The log of the subscription is in disabled state, and cannot be used to forward events to. The log must first be enabled before the subscription can be activated.
 
 
 </dt> </dl> </dd> <dt>
@@ -5427,7 +5440,7 @@ This API cannot be used in the context of the caller's application type.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

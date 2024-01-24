@@ -78,7 +78,7 @@ The [**ROUTER\_CUSTOM\_IKEv2\_POLICY0**](/windows/desktop/api/mprapi/ns-mprapi-r
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mprapi.h</dt> </dl> |
 

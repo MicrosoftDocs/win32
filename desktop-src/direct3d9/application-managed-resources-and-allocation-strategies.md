@@ -1,5 +1,5 @@
 ---
-Description: Managed vertex-buffer or index-buffer resources cannot be declared dynamic by specifying D3DUSAGE\_DYNAMIC at creation time.
+description: Managed vertex-buffer or index-buffer resources cannot be declared dynamic by specifying D3DUSAGE\_DYNAMIC at creation time.
 ms.assetid: 440d9d94-3a56-4b34-a5e3-1b4712b078fc
 title: Application-Managed Resources and Allocation Strategies (Direct3D 9)
 ms.topic: article

@@ -1,8 +1,7 @@
 ---
-Description: A matrix for transforming from world-space to object-space.
+description: WorldToObject4x3 - A matrix for transforming from world-space to object-space.
 ms.assetid: 
 title: WorldToObject4x3
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -21,7 +20,7 @@ A matrix for transforming from world-space to object-space. Object-space refers 
 ## Syntax
 
 ```
-void WorldToObject4x3();
+float4x3 WorldToObject4x3();
 
 ```
 

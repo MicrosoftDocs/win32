@@ -22,7 +22,7 @@ ID of CSVLK product-key used to create the Activation Object
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-SPP-CSVLK-Pid                            |
 | Ldap-Display-Name | msSPP-CSVLKPid                              |
@@ -43,7 +43,7 @@ ID of CSVLK product-key used to create the Activation Object
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

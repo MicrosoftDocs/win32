@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for thread start and end events. The following syntax is simplified from MOF code.
+description: Thread_V2_TypeGroup1 class - This class is the event type class for thread start and end events. The following syntax is simplified from MOF code.
 ms.assetid: c24b4bc9-2a05-444c-be41-b4dfd0511b93
 title: Thread_V2_TypeGroup1 class
 ms.topic: reference
@@ -229,7 +229,7 @@ The DCStart and DCEnd event types enumerate the threads that are currently runni
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

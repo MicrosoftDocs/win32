@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of output identifiers associated with a specified cryptographic session and Direct3D device.
+description: Returns the number of output identifiers associated with a specified cryptographic session and Direct3D device.
 ms.assetid: a5b17250-6a40-40a9-93b6-3b98b56b09d6
 title: D3DAUTHENTICATEDQUERY_OUTPUTIDCOUNT (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Returns the number of output identifiers associated with a specified cryptograph
 
 
 
-|             |                                                                                                                  |
+| Requirement | Value |
 |-------------|------------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_OUTPUTIDCOUNT**                                                                         |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERYOUTPUTIDCOUNT\_INPUT**](d3dauthenticatedchannel-queryoutputidcount-input.md)   |
@@ -42,7 +42,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the recognizer.
+description: Retrieves the name of the recognizer.
 ms.assetid: bd97fead-1e80-49dc-ada0-38eb5dc015ae
 title: IInkAnalysisRecognizer::GetName method (IACom.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The name is localized for the region-neutral language that the recognizer suppor
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

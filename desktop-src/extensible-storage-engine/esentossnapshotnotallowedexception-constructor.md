@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotNotAllowedException constructor"
 title: EsentOSSnapshotNotAllowedException constructor 
 TOCTitle: 'EsentOSSnapshotNotAllowedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOSSnapshotNotAllowedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentOSSnapshotNotAllowedException()
 
 #### Reference
 
-[EsentOSSnapshotNotAllowedException class](dn319702\(v=exchg.10\).md)
+[EsentOSSnapshotNotAllowedException class](./esentossnapshotnotallowedexception-class.md)
 
-[EsentOSSnapshotNotAllowedException members](dn319743\(v=exchg.10\).md)
+[EsentOSSnapshotNotAllowedException members](./esentossnapshotnotallowedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

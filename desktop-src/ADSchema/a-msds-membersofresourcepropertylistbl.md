@@ -22,7 +22,7 @@ Backlink for ms-DS-Members-Of-Resource-Property-List. For a resource property ob
 
 
 
-|                   |                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------|
 | CN                | ms-DS-Members-Of-Resource-Property-List-BL |
 | Ldap-Display-Name | msDS-MembersOfResourcePropertyListBL       |
@@ -43,7 +43,7 @@ Backlink for ms-DS-Members-Of-Resource-Property-List. For a resource property ob
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2181                            |
 | MAPI-Id                | \-                              |

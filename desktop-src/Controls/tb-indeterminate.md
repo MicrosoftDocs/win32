@@ -34,9 +34,9 @@ Command identifier of the button whose indeterminate state is to be set or clear
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **BOOL** that indicates whether to set or clear the indeterminate state. If **TRUE**, the indeterminate state is set. If **FALSE**, the state is cleared.
+The [**LOWORD**](../winmsg/loword.md) is a **BOOL** that indicates whether to set or clear the indeterminate state. If **TRUE**, the indeterminate state is set. If **FALSE**, the state is cleared.
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) must be zero.
+The [**HIWORD**](../winmsg/hiword.md) must be zero.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

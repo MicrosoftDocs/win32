@@ -1,5 +1,5 @@
 ---
-Description: The IAzClientContext3 interface exposes the following properties.
+description: The IAzClientContext3 interface exposes the following properties.
 ms.assetid: 81CF2147-DD08-424F-839B-41860BE5C84E
 title: IAzClientContext3 Properties
 ms.topic: reference

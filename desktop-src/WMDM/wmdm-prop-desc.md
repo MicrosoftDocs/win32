@@ -85,7 +85,7 @@ The caller is required to free the memory used by **ValidValuesRange** or **Enum
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

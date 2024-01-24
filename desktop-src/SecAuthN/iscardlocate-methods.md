@@ -1,5 +1,5 @@
 ---
-Description: The ISCardLocate interface exposes the following methods.
+description: The ISCardLocate interface exposes the following methods.
 ms.assetid: 6E7D54C8-78F1-4F82-A687-F583AC6AAD4E
 title: ISCardLocate Methods
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Operating System Versioning
 ms.assetid: 974650d9-504a-4f19-bc71-90fbc92672d9
 title: Operating System Versioning
 ms.topic: article

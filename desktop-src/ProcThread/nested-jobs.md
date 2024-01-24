@@ -1,5 +1,5 @@
 ---
-Description: An application can use nested jobs to manage subsets of processes. Nested jobs also enable an application that uses jobs to host other applications that also use jobs.
+description: An application can use nested jobs to manage subsets of processes. Nested jobs also enable an application that uses jobs to host other applications that also use jobs.
 ms.assetid: FA22493B-CD29-49A7-BDAC-349FA96B8C9E
 title: Nested Jobs
 ms.topic: article

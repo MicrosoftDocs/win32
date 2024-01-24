@@ -1,5 +1,5 @@
 ---
-Description: The virtual BIOS is a software image that is loaded into RAM to configure some of the basic aspects of and boot a computer system. There is one BIOS element per computer system and that element cannot be replaced or removed.
+description: The virtual BIOS is a software image that is loaded into RAM to configure some of the basic aspects of and boot a computer system. There is one BIOS element per computer system and that element cannot be replaced or removed.
 ms.assetid: EC691401-947F-4B56-A8A7-F0ECBF01677B
 title: BIOS classes
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Explains the means by which an application or service provider can connect to a smart card by using the smart card subsystem.
+description: Explains the means by which an application or service provider can connect to a smart card by using the smart card subsystem.
 ms.assetid: 27f8f25f-1883-4070-94a4-0d3c51032378
 title: Accessing a Smart Card
 ms.topic: article

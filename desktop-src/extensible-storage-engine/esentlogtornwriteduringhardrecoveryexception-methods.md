@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogTornWriteDuringHardRecoveryException methods"
 title: EsentLogTornWriteDuringHardRecoveryException methods
 TOCTitle: EsentLogTornWriteDuringHardRecoveryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRecoveryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogTornWriteDuringHardRecoveryException](dn334657\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogTornWriteDuringHardRecoveryException](./esentlogtornwriteduringhardrecoveryexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentLogTornWriteDuringHardRecoveryException class](dn334657\(v=exchg.10\).md)
+[EsentLogTornWriteDuringHardRecoveryException class](./esentlogtornwriteduringhardrecoveryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

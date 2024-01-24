@@ -1,5 +1,5 @@
 ---
-Description: Specifies a key word for an MFTrace provider.
+description: Specifies a key word for an MFTrace provider.
 ms.assetid: 1ce4a5ee-c053-4d31-a984-dc11acebbf2a
 title: keyword element
 ms.topic: reference
@@ -33,8 +33,6 @@ There are no child elements.
 
 ## Parent elements
 
-
-
 | Element                                   |
 |-------------------------------------------|
 | [**mfdetours**](mfdetours.md)<br/> |
@@ -50,13 +48,14 @@ For the [**provider**](provider.md) element, the key words depend on the event p
 
 ## Element information
 
-
-
-|              |     |
-|--------------|-----|
-| Can be empty | Yes |
-
-
+:::row:::
+    :::column:::
+        Can be empty
+    :::column-end:::
+    :::column span="2":::
+        Yes
+    :::column-end:::
+:::row-end:::
 
 ## See also
 

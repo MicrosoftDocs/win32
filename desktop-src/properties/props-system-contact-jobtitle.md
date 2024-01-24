@@ -1,5 +1,5 @@
 ---
-Description: Job title of the contact.
+description: Job title of the contact.
 ms.assetid: 8fb33e53-f8cb-46d6-a480-447cce7ea95e
 title: System.Contact.JobTitle
 ms.topic: article

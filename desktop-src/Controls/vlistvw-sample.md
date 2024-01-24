@@ -1,7 +1,7 @@
 ---
 title: VListVW Sample
 ms.assetid: 5e1d13a6-ae11-4729-b0fc-0a1620cf0738
-description: 
+description: "Learn more about: VListVW Sample"
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -35,7 +35,7 @@ The VListVW Sample shows how to implement a simple virtual list-view control in 
 
 ## Downloading the Sample
 
-The VListVW Sample is available on on github in the [Windows Classic Samples repository](https://github.com/microsoft/Windows-classic-samples). The list view control items examples can be found at [here](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw)
+The VListVW Sample is available on github in the [Windows Classic Samples repository](https://github.com/microsoft/Windows-classic-samples). The list view control items examples can be found at [here](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw)
 
  
 

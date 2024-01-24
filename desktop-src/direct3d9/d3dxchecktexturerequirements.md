@@ -1,5 +1,5 @@
 ---
-Description: Checks texture-creation parameters.
+description: Checks texture-creation parameters.
 ms.assetid: f8e788f3-02a9-4ee7-b74d-9e781a2fb39f
 title: D3DXCheckTextureRequirements function (D3dx9tex.h)
 ms.topic: reference
@@ -126,7 +126,7 @@ This function uses the following heuristics when comparing the requested require
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

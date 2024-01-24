@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine System Parameters"
 title: Extensible Storage Engine System Parameters
 TOCTitle: Extensible Storage Engine System Parameters
 ms:assetid: f95c2e87-b25e-4be5-8c17-8486ba37dad4
@@ -24,33 +25,33 @@ _**Applies to:** Windows | Windows Server_
 
 ## Extensible Storage Engine System Parameters
 
-The following constants are used as values for the *paramid* parameter of the [JetGetSystemParameter](gg269291\(v=exchg.10\).md) and [JetSetSystemParameter](gg294044\(v=exchg.10\).md) functions.
+The following constants are used as values for the *paramid* parameter of the [JetGetSystemParameter](./jetgetsystemparameter-function.md) and [JetSetSystemParameter](./jetsetsystemparameter-function.md) functions.
 
-  - [Backup and Restore Parameters](gg269236\(v=exchg.10\).md)
+  - [Backup and Restore Parameters](./backup-and-restore-parameters.md)
 
-  - [Callback Parameters](gg269310\(v=exchg.10\).md)
+  - [Callback Parameters](./callback-parameters.md)
 
-  - [Database Parameters](gg269337\(v=exchg.10\).md)
+  - [Database Parameters](./database-parameters.md)
 
-  - [Database Cache Parameters](gg269293\(v=exchg.10\).md)
+  - [Database Cache Parameters](./database-cache-parameters.md)
 
-  - [Error Handling Parameters](gg269173\(v=exchg.10\).md)
+  - [Error Handling Parameters](./error-handling-parameters.md)
 
-  - [Event Log Parameters](gg294086\(v=exchg.10\).md)
+  - [Event Log Parameters](./event-log-parameters.md)
 
-  - [I/O Parameters](gg269260\(v=exchg.10\).md)
+  - [I/O Parameters](./i-o-parameters.md)
 
-  - [Index Parameters](gg294119\(v=exchg.10\).md)
+  - [Index Parameters](./index-parameters.md)
 
-  - [Informational Parameters](gg269241\(v=exchg.10\).md)
+  - [Informational Parameters](./informational-parameters.md)
 
-  - [Meta Parameters](gg269346\(v=exchg.10\).md)
+  - [Meta Parameters](./meta-parameters.md)
 
-  - [Resource Parameters](gg269201\(v=exchg.10\).md)
+  - [Resource Parameters](./resource-parameters.md)
 
-  - [Temporary Database Parameters](gg294140\(v=exchg.10\).md)
+  - [Temporary Database Parameters](./temporary-database-parameters.md)
 
-  - [Transaction Log Parameters](gg269235\(v=exchg.10\).md)
+  - [Transaction Log Parameters](./transaction-log-parameters.md)
 
 ### System Parameter Description Format
 
@@ -60,56 +61,18 @@ JET_paramX
 
 Description of the JET_paramX system parameter.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Default Value:</p></td>
-<td><p>The default value of the parameter.</p></td>
-</tr>
-<tr class="even">
-<td><p>Type:</p></td>
-<td><p>The data type of the parameter.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Valid Range:</p></td>
-<td><p>The legal values for the parameter.</p></td>
-</tr>
-<tr class="even">
-<td><p>Scope:</p></td>
-<td><p>Is the parameter Global or per Instance?</p></td>
-</tr>
-<tr class="odd">
-<td><p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Can the parameter be set if any instances exist?</p></td>
-</tr>
-<tr class="even">
-<td><p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Can the parameter be set when initialized?</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Physical Layout:</p></td>
-<td><p>Does the parameter affect the files on disk?</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Reliability:</p></td>
-<td><p>Does the parameter affect engine reliability?</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affects Performance:</p></td>
-<td><p>Does the parameter affect engine performance?</p></td>
-</tr>
-<tr class="even">
-<td><p>Affects Resources:</p></td>
-<td><p>Does the parameter affect engine resources?</p></td>
-</tr>
-<tr class="odd">
-<td><p>Availability:</p></td>
-<td><p>Releases of Windows that support the parameter.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| <p>Default Value:</p> | <p>The default value of the parameter.</p> | 
+| <p>Type:</p> | <p>The data type of the parameter.</p> | 
+| <p>Valid Range:</p> | <p>The legal values for the parameter.</p> | 
+| <p>Scope:</p> | <p>Is the parameter Global or per Instance?</p> | 
+| <p>Set After <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Can the parameter be set if any instances exist?</p> | 
+| <p>Set after <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Can the parameter be set when initialized?</p> | 
+| <p>Affects Physical Layout:</p> | <p>Does the parameter affect the files on disk?</p> | 
+| <p>Affects Reliability:</p> | <p>Does the parameter affect engine reliability?</p> | 
+| <p>Affects Performance:</p> | <p>Does the parameter affect engine performance?</p> | 
+| <p>Affects Resources:</p> | <p>Does the parameter affect engine resources?</p> | 
+| <p>Availability:</p> | <p>Releases of Windows that support the parameter.</p> | 
 

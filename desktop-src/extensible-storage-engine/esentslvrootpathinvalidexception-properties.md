@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootPathInvalidException properties"
 title: EsentSLVRootPathInvalidException properties
 TOCTitle: EsentSLVRootPathInvalidException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVRootPathInvalidException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVRootPathInvalidException](dn334837\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVRootPathInvalidException](./esentslvrootpathinvalidexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSLVRootPathInvalidException class](dn334837\(v=exchg.10\).md)
+[EsentSLVRootPathInvalidException class](./esentslvrootpathinvalidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

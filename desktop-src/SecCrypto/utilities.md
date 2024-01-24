@@ -1,5 +1,5 @@
 ---
-Description: Provides functionality for random number generation, conversions, and encoding and decoding from base64.
+description: Provides functionality for random number generation, conversions, and encoding and decoding from base64.
 ms.assetid: c0073361-5d0d-4915-8110-02f6e1e0714e
 title: Utilities object
 ms.topic: reference
@@ -67,7 +67,7 @@ The **Utilities** object can be created, and it is safe for scripting. The ProgI
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Add all of the Password properties from the CustomUserAccounts table to the MsiHiddenProperties property in the Property table.
+description: Add all of the Password properties from the CustomUserAccounts table to the MsiHiddenProperties property in the Property table.
 ms.assetid: 682f534c-10a2-4260-b21d-7075d8c1620c
 title: Securing the Installation
 ms.topic: article

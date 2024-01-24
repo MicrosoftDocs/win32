@@ -1,5 +1,5 @@
 ---
-Description: CryptXML provides a low level set of APIs that allow applications to create and verify enveloped, enveloping, and detached signatures. You can use CryptXML to create and verify content stored in signature object elements, including manifests.
+description: CryptXML provides a low level set of APIs that allow applications to create and verify enveloped, enveloping, and detached signatures. You can use CryptXML to create and verify content stored in signature object elements, including manifests.
 ms.assetid: 962dffdb-caa6-4aa7-b5c6-3a9de8cfaf6c
 title: XML Digital Signature API Functionality
 ms.topic: article

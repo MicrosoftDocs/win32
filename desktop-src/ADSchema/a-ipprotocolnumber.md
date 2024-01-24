@@ -21,7 +21,7 @@ Contains the section of the protocols map that stores the unique number that ide
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ipProtocolNumber                     |
 | Ldap-Display-Name | ipProtocolNumber                     |
@@ -45,7 +45,7 @@ Contains the section of the protocols map that stores the unique number that ide
 
 
 
-|                        |                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------|
 | Link-Id                | \-                                            |
 | MAPI-Id                | \-                                            |
@@ -66,7 +66,7 @@ Contains the section of the protocols map that stores the unique number that ide
 
 
 
-|                        |                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------|
 | Link-Id                | \-                                            |
 | MAPI-Id                | \-                                            |
@@ -87,7 +87,7 @@ Contains the section of the protocols map that stores the unique number that ide
 
 
 
-|                        |                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------|
 | Link-Id                | \-                                            |
 | MAPI-Id                | \-                                            |
@@ -108,7 +108,7 @@ Contains the section of the protocols map that stores the unique number that ide
 
 
 
-|                        |                                               |
+| Entry | Value |
 |------------------------|-----------------------------------------------|
 | Link-Id                | \-                                            |
 | MAPI-Id                | \-                                            |

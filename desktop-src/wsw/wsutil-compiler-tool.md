@@ -18,7 +18,6 @@ To support the [service model](service-model-layer-overview.md), WsUtil.exe gene
 
 To support [serialization](serialization.md), the compiler generates headers for element descriptions for global element definitions, and all the type definition information in the proxy files that is consumed by the serialization engine.
 
-## 
 
 For command line options for processing WSDL files, XML Schema files, and web service policy files, see the following topics:
 

@@ -1,5 +1,5 @@
 ---
-Description: Using Shell extensions to implement a copy hook handler.
+description: Using Shell extensions to implement a copy hook handler.
 ms.assetid: 05808281-84fb-402d-9fa1-3a747b29d030
 title: How to Create Copy Hook Handlers
 ms.topic: article

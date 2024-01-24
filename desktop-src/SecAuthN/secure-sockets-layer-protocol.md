@@ -1,5 +1,5 @@
 ---
-Description: The information in this topic applies to Windows Server 2003 and Windows XP.
+description: The information in this topic applies to Windows Server 2003 and Windows XP.
 ms.assetid: 45536902-af80-4dca-b3ce-207086844763
 title: Secure Sockets Layer Protocol
 ms.topic: article
@@ -21,7 +21,7 @@ Schannel supports versions 2.0 and 3.0 of the [*Secure Sockets Layer (SSL) proto
 
 SSL 3.0 is the predecessor of the [Transport Layer Security Protocol](transport-layer-security-protocol.md).
 
-Schannel supports the cipher suites listed under [TLS Cipher Suites](tls-cipher-suites.md) for SSL 3.0. SSL 3.0 supports all of the cipher suites listed under TLS Cipher Suites as well as SSL\_FORTEZZA\_KEA\_WITH\_FORTEZZA\_CBC\_SHA.
+Schannel supports the cipher suites listed under [TLS Cipher Suites](/windows/win32/secauthn/cipher-suites-in-schannel) for SSL 3.0. SSL 3.0 supports all of the cipher suites listed under TLS Cipher Suites as well as SSL\_FORTEZZA\_KEA\_WITH\_FORTEZZA\_CBC\_SHA.
 
 ## SSL 2.0
 

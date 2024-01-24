@@ -1,12 +1,12 @@
 ---
-Description: DMO Basics
+description: DMO Basics
 ms.assetid: eaf453d2-69f8-432a-8a58-1ed70778f182
 title: DMO Basics (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# DMO Basics
+# DMO Basics (Microsoft Media Foundation)
 
 This topic provides a brief overview of DMOs as they relate to Windows Media Codecs. For more information about DMOs, see [DirectX Media Objects](../directshow/directx-media-objects.md).
 

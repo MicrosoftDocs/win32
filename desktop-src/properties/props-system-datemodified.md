@@ -1,5 +1,5 @@
 ---
-Description: The date and time of the last modification to the item. The Indexing Service friendly name is 'write'.
+description: The date and time of the last modification to the item. The Indexing Service friendly name is 'write'.
 ms.assetid: 5e619ccf-e7a1-427b-8cc7-de1417c826c5
 title: System.DateModified
 ms.topic: article

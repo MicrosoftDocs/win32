@@ -1,5 +1,5 @@
 ---
-Description: Is used in the registration of permanent event consumers to relate an instance of the \_\_EventConsumer to an instance of \_\_EventFilter.
+description: Is used in the registration of permanent event consumers to relate an instance of the \_\_EventConsumer to an instance of \_\_EventFilter.
 ms.assetid: e6a06161-0f1c-4754-ac34-263ccf7bf10d
 ms.tgt_platform: multiple
 title: '__FilterToConsumerBinding class'
@@ -192,15 +192,11 @@ The **\_\_FilterToConsumerBinding** class is derived from [**\_\_IndicationRelat
 
 Permanent event consumers use the **\_\_FilterToConsumerBinding** system class to bind event filters to final consumers. After the filter and consumer are bound together, WMI can forward events that match the filter to the corresponding consumer.
 
-## Examples
-
-The [Create Permanent WMI Event registration to monitor files](https://Gallery.TechNet.Microsoft.Com/Create-Permenant-WMI-Event-f67ce5c2) PowerShell example on TechNet Gallery uses **\_\_FilterToConsumerBinding** as part of a complex script to set up a permanent WMI event registration.
-
 ## Requirements
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

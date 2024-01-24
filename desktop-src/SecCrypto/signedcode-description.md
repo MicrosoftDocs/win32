@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the description of the signed executable file.
+description: Sets or retrieves the description of the signed executable file.
 ms.assetid: 39ce37bd-fe3e-4195-a132-93f3743f7370
 title: SignedCode.Description property
 ms.topic: reference
@@ -42,7 +42,7 @@ The description is the text that appears in the Authenticode verification dialog
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

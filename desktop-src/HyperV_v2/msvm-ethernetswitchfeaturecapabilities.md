@@ -1,5 +1,5 @@
 ---
-Description: Defines the means by which a client can discover the valid range of default settings for an Ethernet switch feature.
+description: Defines the means by which a client can discover the valid range of default settings for an Ethernet switch feature.
 ms.assetid: 84ae7656-2cc4-4ca7-b4ae-95d9905c9aad
 title: Msvm_EthernetSwitchFeatureCapabilities class
 ms.topic: reference
@@ -180,7 +180,7 @@ The version of the feature in a format of "major.minor", for example "2.0".
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

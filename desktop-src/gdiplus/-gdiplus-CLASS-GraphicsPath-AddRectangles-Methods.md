@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the AddRectangles methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the AddRectangles methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: 467d4a61-8430-403c-90ed-f8c224ce3b61
 title: GraphicsPath.AddRectangles methods (Gdipluspath.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the AddRectangles methods of the [**GraphicsPath**](/windows/wi
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Gets a BOOL value.
+description: Gets a BOOL value.
 ms.assetid: 9d61efcd-f267-4c45-b685-d363588796f7
 title: ID3DXBaseEffect::GetBool method (D3DX9Shader.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

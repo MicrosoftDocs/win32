@@ -1,5 +1,5 @@
 ---
-Description: The Keywords Summary property in installation databases or transforms contains a list of keywords.
+description: The Keywords Summary property in installation databases or transforms contains a list of keywords.
 ms.assetid: e19dc495-e4d4-465f-8464-c60af8985334
 title: Keywords Summary property
 ms.topic: reference
@@ -20,7 +20,7 @@ It is up to the author of an installation database, transform, or patch package 
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

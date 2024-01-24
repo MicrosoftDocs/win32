@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetCurrentIndex method"
 title: Api.JetGetCurrentIndex method 
 TOCTitle: 'JetGetCurrentIndex method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetCurrentIndex(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String@,System.Int32)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetGetCurrentIndex method
 
-Ddetermines the name of the current index of a given cursor. This name is also used to later re-select that index as the current index using [JetSetCurrentIndex(JET_SESID, JET_TABLEID, String)](dn334011\(v=exchg.10\).md). It can also be used to discover the properties of that index using JetGetTableIndexInfo.
+Ddetermines the name of the current index of a given cursor. This name is also used to later re-select that index as the current index using [JetSetCurrentIndex(JET_SESID, JET_TABLEID, String)](./api.jetsetcurrentindex-method.md). It can also be used to discover the properties of that index using JetGetTableIndexInfo.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,14 +64,14 @@ public static void JetGetCurrentIndex(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor to get the index name for.
 
@@ -86,14 +87,14 @@ public static void JetGetCurrentIndex(
   - maxNameLength  
     Type: [System.Int32](/dotnet/api/system.int32)  
     
-    The maximum length of the index name. Index names are no more than [NameMost](dn351213\(v=exchg.10\).md) characters.
+    The maximum length of the index name. Index names are no more than [NameMost](./systemparameters.namemost-field.md) characters.
 
 ## See also
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

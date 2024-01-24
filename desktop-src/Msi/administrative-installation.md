@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer can perform an administrative installation of an application or product to a network for use by a workgroup.
+description: The Windows Installer can perform an administrative installation of an application or product to a network for use by a workgroup.
 ms.assetid: 5840cfab-a127-4b1f-a7af-a2d8e2786928
 title: Administrative Installation
 ms.topic: article

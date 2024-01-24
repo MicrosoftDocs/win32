@@ -1,5 +1,5 @@
 ---
-Description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+description: IEnumMedia::Skip method - The Skip method skips over the next specified number of elements in the enumeration sequence.
 ms.assetid: 825972c9-5303-4c5a-9475-dc67c185af91
 title: IEnumMedia::Skip method (Sdpblb.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

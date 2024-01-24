@@ -1,5 +1,5 @@
 ---
-Description: Loads a volume from a file in memory.
+description: Loads a volume from a file in memory.
 ms.assetid: d450b652-3a74-45ea-9506-e05da87821d7
 title: D3DXLoadVolumeFromFileInMemory function (D3dx9tex.h)
 ms.topic: reference
@@ -140,7 +140,7 @@ Writing to a non-level-zero surface of the volume texture will not cause the dir
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

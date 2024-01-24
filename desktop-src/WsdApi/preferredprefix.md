@@ -1,5 +1,5 @@
 ---
-Description: Defines the prefix to which the namespace should be mapped to make the XML more readable.
+description: Defines the prefix to which the namespace should be mapped to make the XML more readable.
 ms.assetid: 955f4785-5657-4a89-9728-bce99a0a4234
 title: preferredPrefix element
 ms.topic: reference
@@ -44,7 +44,7 @@ By default, the code generated creates a preferred prefix from the URI.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

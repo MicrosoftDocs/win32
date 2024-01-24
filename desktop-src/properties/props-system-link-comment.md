@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Link.Comment
 ms.assetid: 96bf4971-a19c-4284-abb8-ad843af32c6e
 title: System.Link.Comment
 ms.topic: article

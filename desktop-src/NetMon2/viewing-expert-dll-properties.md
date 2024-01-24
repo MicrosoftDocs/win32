@@ -1,5 +1,5 @@
 ---
-Description: Viewing Expert DLL Properties
+description: Viewing Expert DLL Properties
 ms.assetid: 90e9f32b-79cd-4199-8488-33c092579e96
 title: Viewing Expert DLL Properties
 ms.topic: article

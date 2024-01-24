@@ -1,6 +1,6 @@
 ---
 title: ishr (sm5 - asm)
-description: Arithmetic shift right (sign extending).
+description: Arithmetic shift right (sign extending). | ishr (sm5 - asm)
 ms.assetid: 8124B6C3-4576-4616-85A9-A2DD19EB6BB9
 ms.topic: reference
 ms.date: 05/31/2018
@@ -12,7 +12,7 @@ Arithmetic shift right (sign extending).
 
 
 
-| ishl dest\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
+| ishr dest\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
 |--------------------------------------------------------|
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Gets the merit value of a hardware codec.
+description: Gets the merit value of a hardware codec.
 ms.assetid: 51987a79-78bf-41b2-8349-8c2725dd89d6
 title: OPM_GET_CODEC_INFO (Opmapi.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Gets the merit value of a hardware codec.
 
 
 
-|              |                                                                                           |
+| Requirement | Value |
 |--------------|-------------------------------------------------------------------------------------------|
 | Request GUID | **OPM\_GET\_CODEC\_INFO**                                                                 |
 | Input data   | An [**OPM\_GET\_CODEC\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_codec_info_parameters) structure   |
@@ -32,7 +32,7 @@ Generally, you should not use this command directly. To get the merit value for 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                             |

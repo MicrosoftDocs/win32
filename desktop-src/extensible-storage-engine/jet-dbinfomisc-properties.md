@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_DBINFOMISC properties"
 title: JET_DBINFOMISC properties
 TOCTitle: JET_DBINFOMISC properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_DBINFOMISC](hh538867\(v=exchg.10\).md) type exposes the following members.
+The [JET_DBINFOMISC](./jet-dbinfomisc-class.md) type exposes the following members.
 
 ## Properties
 
@@ -231,7 +232,6 @@ Top
 
 #### Reference
 
-[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](./jet-dbinfomisc-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

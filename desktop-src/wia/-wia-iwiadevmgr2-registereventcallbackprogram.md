@@ -1,5 +1,5 @@
 ---
-Description: The IWiaDevMgr2::RegisterEventCallbackProgram method registers an application to receive device events. It is primarily provided for backward compatibility with applications that were not written for Windows Image Acquisition (WIA) 2.0.
+description: The IWiaDevMgr2::RegisterEventCallbackProgram method registers an application to receive device events. It is primarily provided for backward compatibility with applications that were not written for Windows Image Acquisition (WIA) 2.0.
 ms.assetid: 6b427f19-719b-44ce-8e2c-3c44672345c8
 title: IWiaDevMgr2::RegisterEventCallbackProgram method (Wia.h)
 ms.topic: reference
@@ -145,7 +145,7 @@ Typically, this method is called by an install program or a script. The install 
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |

@@ -1,5 +1,5 @@
 ---
-Description: Scalability is the ability of an application to service an additional load with a linear increase in resource usage.
+description: Scalability is the ability of an application to service an additional load with a linear increase in resource usage.
 ms.assetid: 8249f1af-9c96-4545-ad6a-3736c6e63c6d
 title: Designing for Scalability
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The topics in this section provide the reference specifications for Input Source Identification in Windows 8.
+description: The topics in this section provide the reference specifications for Input Source Identification in Windows 8.
 ms.assetid: 1B1292B2-1BB6-4F75-8D82-CC0596B9D061
 title: Input Source Identification Reference
 ms.topic: article

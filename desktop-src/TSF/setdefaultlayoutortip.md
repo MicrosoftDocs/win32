@@ -57,7 +57,7 @@ A bitfield that specifies the following flags.
 
 | Value                                                                                                                                                                                                                                                                         | Meaning                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="SDLOT_NOAPPLYTOCURRENTSESSION"></span><span id="sdlot_noapplytocurrentsession"></span><dl> <dt>**SDLOT\_NOAPPLYTOCURRENTSESSION**</dt> <dt>0x00000001</dt> </dl> | Stores the setting in the registry but dose not update the runtime keyboard setting of the current session. If the alternative registry path is set in [**SetDefaultLayoutOrTipUserReg**](/windows/desktop/TSF/setdefaultlayoutortipuserreg), this flag should be set.<br/> |
+| <span id="SDLOT_NOAPPLYTOCURRENTSESSION"></span><span id="sdlot_noapplytocurrentsession"></span><dl> <dt>**SDLOT\_NOAPPLYTOCURRENTSESSION**</dt> <dt>0x00000001</dt> </dl> | Stores the setting in the registry but does not update the runtime keyboard setting of the current session. If the alternative registry path is set in [**SetDefaultLayoutOrTipUserReg**](/windows/desktop/TSF/setdefaultlayoutortipuserreg), this flag should be set.<br/> |
 | <span id="SDLOT_APPLYTOCURRENTTHREAD"></span><span id="sdlot_applytocurrentthread"></span><dl> <dt>**SDLOT\_APPLYTOCURRENTTHREAD**</dt> <dt>0x00000002</dt> </dl>          | Applies the setting immediately on the current thread.<br/>                                                                                                                                                                                                |
 
 
@@ -83,11 +83,11 @@ A bitfield that specifies the following flags.
 
 The string format of the layout list is:
 
-<LangID 1>:<KLID 1>;\[...<LangID N>:<KLID N>
+\<LangID 1\>:\<KLID 1\>;\[...\<LangID N\>:\<KLID N\>
 
 The string format of the text service profile list is:
 
-<LangID 1>:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};
+\<LangID 1\>:{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx};
 
 The following is an example of a value for the *psz* parameter:
 
@@ -141,7 +141,7 @@ else
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

@@ -1,5 +1,5 @@
 ---
-Description: Instmsi.exe is the redistributable package for installing Windows Installer&\#160;2.0, and earlier versions of Windows Installer. See Windows Installer Redistributables for the redistributables for Windows Installer&\#160;3.0 and later versions.
+description: Instmsi.exe is the redistributable package for installing Windows Installer&\#160;2.0, and earlier versions of Windows Installer. See Windows Installer Redistributables for the redistributables for Windows Installer&\#160;3.0 and later versions.
 ms.assetid: 74ea4530-3a73-4169-b0b7-f0272229192d
 title: Instmsi.exe
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the supported usage modes for an H.264 video stream.
+description: Specifies the supported usage modes for an H.264 video stream.
 ms.assetid: EEAE0B57-9731-4032-80A3-6A1AD11214EC
 title: MF_MT_H264_SUPPORTED_USAGES attribute (Mfapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ This attribute is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

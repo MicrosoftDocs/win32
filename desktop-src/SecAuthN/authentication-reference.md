@@ -1,5 +1,5 @@
 ---
-Description: Authentication reference pages contain detailed descriptions of the Microsoft authentication functions, interfaces, objects, structures, and other programming elements.
+description: Authentication reference pages contain detailed descriptions of the Microsoft authentication functions, interfaces, objects, structures, and other programming elements.
 ms.assetid: d9d71c95-a18a-466b-a7cb-76fddbd42eb5
 title: Authentication Reference
 ms.topic: article

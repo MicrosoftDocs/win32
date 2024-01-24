@@ -1,5 +1,5 @@
 ---
-Description: Describes a callback key for use in key frame animation.
+description: Describes a callback key for use in key frame animation.
 ms.assetid: aca034f5-6961-49f1-ba7c-addcf016af2b
 title: D3DXKEY_CALLBACK structure (D3dx9anim.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Pointer to user callback data.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 

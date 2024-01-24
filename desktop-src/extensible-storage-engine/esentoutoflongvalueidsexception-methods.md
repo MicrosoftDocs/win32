@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfLongValueIDsException methods"
 title: EsentOutOfLongValueIDsException methods
 TOCTitle: EsentOutOfLongValueIDsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfLongValueIDsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfLongValueIDsException](dn319790\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfLongValueIDsException](./esentoutoflongvalueidsexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentOutOfLongValueIDsException class](dn319790\(v=exchg.10\).md)
+[EsentOutOfLongValueIDsException class](./esentoutoflongvalueidsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

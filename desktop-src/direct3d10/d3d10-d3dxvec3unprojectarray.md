@@ -1,21 +1,24 @@
 ---
-Description: Projects an array (x, y, z, 0) from screen space into object space.
+description: D3DXVec3UnprojectArray function (D3DX10Math.h) - Projects an array (x, y, z, 0) from screen space into object space.
 ms.assetid: 02db5b32-7fa3-4cde-bd63-0d8b3dfc31e7
 title: D3DXVec3UnprojectArray function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3UnprojectArray
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec3UnprojectArray function
+# D3DXVec3UnprojectArray function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Projects an array (x, y, z, 0) from screen space into object space.
 
@@ -137,7 +140,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

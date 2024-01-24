@@ -1,5 +1,5 @@
 ---
-Description: Contains the reference material on using the wireless ad hoc programming interface.
+description: Contains the reference material on using the wireless ad hoc programming interface.
 ms.assetid: f1dbcc9b-e60b-4044-9167-e9e87ead0a8b
 title: Wireless Ad Hoc Reference
 ms.topic: article

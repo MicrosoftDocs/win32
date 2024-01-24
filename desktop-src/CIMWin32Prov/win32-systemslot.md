@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemSlot &\#32; WMI class represents physical connection points including ports, motherboard slots and peripherals, and proprietary connection points.
+description: The Win32\_SystemSlot &\#32; WMI class represents physical connection points including ports, motherboard slots and peripherals, and proprietary connection points.
 ms.assetid: 0bdce597-dcbe-4593-b0d6-68c3bfecd0ee
 ms.tgt_platform: multiple
 title: Win32_SystemSlot class
@@ -1726,7 +1726,7 @@ The **Win32\_SystemSlot** class is derived from [**CIM\_Slot**](cim-slot.md).
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Requesters have primary responsibility for the life cycle of a Backup Components Document.
+description: Requesters have primary responsibility for the life cycle of a Backup Components Document.
 ms.assetid: 287b7b9a-ac04-4a74-83c1-2cdd4a571ac1
 title: Backup Components Document Life Cycle
 ms.topic: article

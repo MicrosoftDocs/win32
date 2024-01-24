@@ -1,5 +1,5 @@
 ---
-Description: The ICertPropertyEnrollment interface exposes the following methods.
+description: The ICertPropertyEnrollment interface exposes the following methods.
 ms.assetid: 9314565A-6503-41CE-AEC9-A2D2989B2CD4
 title: ICertPropertyEnrollment Methods
 ms.topic: reference

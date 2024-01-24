@@ -1,5 +1,5 @@
 ---
-Description: Signals an event from a media sink that renders media data.
+description: Signals an event from a media sink that renders media data.
 ms.assetid: bb7db7c9-c39f-4bf4-9412-42525c4f2ea3
 title: MERendererEvent event (Mfobjects.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The original event parameters (*EventParam1* and *EventParam2* in the **IMediaEv
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

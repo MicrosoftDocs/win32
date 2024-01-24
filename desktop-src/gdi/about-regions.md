@@ -1,5 +1,5 @@
 ---
-Description: Following are three types of regions that have been filled and framed.
+description: Following are three types of regions that have been filled and framed.
 ms.assetid: c71f43b4-dc85-420b-9574-03417d60a76f
 title: About Regions
 ms.topic: article

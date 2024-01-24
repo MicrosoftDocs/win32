@@ -1,5 +1,5 @@
 ---
-Description: The CostFinalize action ends the internal installation costing process begun by the CostInitialize action.
+description: The CostFinalize action ends the internal installation costing process begun by the CostInitialize action.
 ms.assetid: ae69ad03-5acc-4a62-ba71-3a4e477d34ab
 title: CostFinalize Action
 ms.topic: article

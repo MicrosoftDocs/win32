@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the IDirectXFileDataReference interface to support data reference objects.
+description: Applications use the methods of the IDirectXFileDataReference interface to support data reference objects.
 ms.assetid: e0f6046f-36d9-4a13-9a0c-0738ebb2e569
 title: IDirectXFileDataReference interface (DXFile.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ typedef interface IDirectXFileDataReference *LPDIRECTXFILEDATAREFERENCE;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

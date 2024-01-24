@@ -1,5 +1,5 @@
 ---
-Description: Stops the service represented by the object derived from Win32\_BaseService.
+description: Stops the service represented by the object derived from Win32\_BaseService.
 ms.assetid: 5d6427a6-d233-4db4-9235-c6187b36da5f
 ms.tgt_platform: multiple
 title: StopService method of the Win32_BaseService class (Sdoias.h)
@@ -277,7 +277,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

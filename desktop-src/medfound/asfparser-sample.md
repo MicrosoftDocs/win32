@@ -1,5 +1,5 @@
 ---
-Description: ASFParser Sample
+description: ASFParser Sample
 ms.assetid: 6be1e12f-7d4a-4564-88ae-14fd71fd2cf9
 title: ASFParser Sample
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Create a new child item. Adds IWiaItem2 objects to a device's IWiaItem2 tree.
+description: Create a new child item. Adds IWiaItem2 objects to a device's IWiaItem2 tree.
 ms.assetid: 525ee788-3ff4-4def-ae71-4a405c04c6a3
 title: IWiaItem2::CreateChildItem method (Wia.h)
 ms.topic: reference
@@ -113,7 +113,7 @@ If *lCreationFlags* is COPY\_PARENT\_PROPERTY\_VALUES and *lItemFlags* is zero, 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -29,7 +29,7 @@ A BSTR that sets the current page of the property. The parameter can be one of t
 
 
 
-|                 |                        |
+|                 | Description            |
 |-----------------|------------------------|
 | **"Speech"**    | The Speech Input page. |
 | **"Output"**    | The Output page.       |

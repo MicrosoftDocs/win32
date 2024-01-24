@@ -22,7 +22,7 @@ Attribute of ntdsConnection object that indicates why (or whether) the KCC shows
 
 
 
-|                   |                                                                                                                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | CN                | MS-DS-Replicates-NC-Reason                                                                                                                 |
 | Ldap-Display-Name | mS-DS-ReplicatesNCReason                                                                                                                   |
@@ -49,7 +49,7 @@ Attribute of ntdsConnection object that indicates why (or whether) the KCC shows
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -70,7 +70,7 @@ Attribute of ntdsConnection object that indicates why (or whether) the KCC shows
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -91,7 +91,7 @@ Attribute of ntdsConnection object that indicates why (or whether) the KCC shows
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -112,7 +112,7 @@ Attribute of ntdsConnection object that indicates why (or whether) the KCC shows
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -133,7 +133,7 @@ Attribute of ntdsConnection object that indicates why (or whether) the KCC shows
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -154,7 +154,7 @@ Attribute of ntdsConnection object that indicates why (or whether) the KCC shows
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |
@@ -175,7 +175,7 @@ Attribute of ntdsConnection object that indicates why (or whether) the KCC shows
 
 
 
-|                        |                                                        |
+| Entry | Value |
 |------------------------|--------------------------------------------------------|
 | Link-Id                | \-                                                     |
 | MAPI-Id                | \-                                                     |

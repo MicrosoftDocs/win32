@@ -1,5 +1,5 @@
 ---
-Description: Invokes the chkdsk operation on the disk.
+description: Invokes the chkdsk operation on the disk.
 ms.assetid: 65942702-b660-46cd-b614-e3e1ec3df7b9
 ms.tgt_platform: multiple
 title: Chkdsk method of the Win32_LogicalDisk class
@@ -133,10 +133,6 @@ This method is only applicable to those instances of logical disk that represent
 
 ## Examples
 
-The[Is CHKDSK Dirty Bit Set on a server](https://Gallery.TechNet.Microsoft.Com/57076851-97fb-4af6-8c5c-1e34156ceab4) PowerShell code sample examines the remote system and returns a true or false if the chkdsk /f flag was set.
-
-The [Remotely scan disk](https://Gallery.TechNet.Microsoft.Com/Remotely-scan-disk-dd4fc267) PowerShell code sample remotely starts or schedules Scan Disk.
-
 The following VBScript code sample Runs ChkDsk.exe against drive D on a computer.
 
 
@@ -158,7 +154,7 @@ errReturn = objDisk.ChkDsk(FIX_ERRORS)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

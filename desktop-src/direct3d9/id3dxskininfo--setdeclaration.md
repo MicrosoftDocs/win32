@@ -1,5 +1,5 @@
 ---
-Description: Sets the vertex declaration.
+description: Sets the vertex declaration.
 ms.assetid: cbb802ac-f0ba-41e6-8c67-a787982f975f
 title: ID3DXSkinInfo::SetDeclaration method (D3DX9Mesh.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: Advanced Topology Building
+description: Advanced Topology Building
 ms.assetid: 66aa07d8-6756-4d5b-9f0a-24b902da6fa2
 title: Advanced Topology Building
 ms.topic: article

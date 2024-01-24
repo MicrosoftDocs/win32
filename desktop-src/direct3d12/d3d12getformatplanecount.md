@@ -12,7 +12,6 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -65,7 +64,7 @@ The plane count for the specified format on the specified virtual adapter.
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |

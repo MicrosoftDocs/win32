@@ -1,5 +1,5 @@
 ---
-Description: An association between an instance of Msvm\_VirtualSystemSettingData and the Msvm\_VirtualSystemSettingData instance that represents the most recent snapshot upon which this object is based.
+description: An association between an instance of Msvm\_VirtualSystemSettingData and the Msvm\_VirtualSystemSettingData instance that represents the most recent snapshot upon which this object is based.
 ms.assetid: F779775B-9AB3-4495-B6FF-9985FCDF63E4
 title: Msvm_ParentChildSettingData class
 ms.topic: reference
@@ -86,7 +86,7 @@ Access to the **Msvm\_ParentChildSettingData** class might be restricted by UAC 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

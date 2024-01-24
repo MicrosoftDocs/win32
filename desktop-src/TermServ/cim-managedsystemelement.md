@@ -23,7 +23,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# CIM\_ManagedSystemElement class
+# CIM_ManagedSystemElement class (Remote Desktop Services)
 
 The base class for the system element hierarchy.
 
@@ -193,7 +193,7 @@ Current status of the object. Various operational and nonoperational statuses ca
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

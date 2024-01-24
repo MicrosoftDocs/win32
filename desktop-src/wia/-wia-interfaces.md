@@ -1,6 +1,6 @@
 ---
 title: WIA interfaces
-Description: This section contains reference information about the interfaces used with the Windows Image Acquisition (WIA)API.
+description: This section contains reference information about the interfaces used with the Windows Image Acquisition (WIA)API.
 ms.assetid: 0b496d6b-486a-42d3-a0e5-8e9e52e27608
 ms.topic: article
 ms.date: 05/31/2018

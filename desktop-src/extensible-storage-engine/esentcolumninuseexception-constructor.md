@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnInUseException constructor"
 title: EsentColumnInUseException constructor 
 TOCTitle: 'EsentColumnInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnInUseException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentColumnInUseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentColumnInUseException()
 
 #### Reference
 
-[EsentColumnInUseException class](dn274180\(v=exchg.10\).md)
+[EsentColumnInUseException class](./esentcolumninuseexception-class.md)
 
-[EsentColumnInUseException members](dn334265\(v=exchg.10\).md)
+[EsentColumnInUseException members](./esentcolumninuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

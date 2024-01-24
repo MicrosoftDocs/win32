@@ -1,5 +1,5 @@
 ---
-Description: Environment variables specify search paths for files, directories for temporary files, application-specific options, and other similar information.
+description: Environment variables specify search paths for files, directories for temporary files, application-specific options, and other similar information.
 ms.assetid: 6180e54e-4bd9-4692-83fd-f3f7f1d8f8d7
 title: User Environment Variables
 ms.topic: article

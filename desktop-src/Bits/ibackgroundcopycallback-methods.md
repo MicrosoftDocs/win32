@@ -1,12 +1,12 @@
 ---
 title: IBackgroundCopyCallback Methods (BITS)
-description: The IBackgroundCopyCallback interface exposes the following methods.
+description: The IBackgroundCopyCallback interface exposes the following methods. | IBackgroundCopyCallback Methods (BITS)
 ms.assetid: 44DF3117-AF7F-4248-B15E-0DA5F4091BA8
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyCallback Methods
+# IBackgroundCopyCallback Methods (BITS)
 
 The [**IBackgroundCopyCallback**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) interface exposes the following methods.
 

@@ -1,5 +1,5 @@
 ---
-Description: The RKeyCloseKeyService function is not supported.
+description: The RKeyCloseKeyService function is not supported.
 ms.assetid: 3a3d41d4-d8ce-4ed8-a70b-dd3629ab7b44
 title: RKeyCloseKeyService function (Rkeysvcc.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ If the function fails, the return value is a **ULONG** that indicates the error.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

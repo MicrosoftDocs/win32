@@ -1,5 +1,5 @@
 ---
-Description: Unregisters an appbar by removing it from the system's internal list. The system no longer sends notification messages to the appbar or prevents other applications from using the screen area used by the appbar.
+description: Unregisters an appbar by removing it from the system's internal list. The system no longer sends notification messages to the appbar or prevents other applications from using the screen area used by the appbar.
 title: ABM_REMOVE message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -51,7 +51,7 @@ This message causes the system to send the [**ABN\_POSCHANGED**](abn-poschanged.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

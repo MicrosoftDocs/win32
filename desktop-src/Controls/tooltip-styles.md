@@ -46,7 +46,7 @@ A tooltip control always has the WS\_POPUP and WS\_EX\_TOOLWINDOW window styles,
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

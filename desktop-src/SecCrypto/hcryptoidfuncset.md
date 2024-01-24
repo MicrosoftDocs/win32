@@ -1,5 +1,5 @@
 ---
-Description: Represents a handle to a set of object identifier (OID) installable functions.
+description: Represents a handle to a set of object identifier (OID) installable functions.
 ms.assetid: 83b76466-dc55-4269-91a3-17c2e6102126
 title: HCRYPTOIDFUNCSET (Wincrypt.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ typedef void* HCRYPTOIDFUNCSET;
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

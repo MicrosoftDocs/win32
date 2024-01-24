@@ -1,5 +1,5 @@
 ---
-Description: The MPEG4 Part 2 Video decoder decodes video streams that were encoded according to the MPEG4 Part 2 standard.
+description: The MPEG4 Part 2 Video decoder decodes video streams that were encoded according to the MPEG4 Part 2 standard.
 ms.assetid: 56e32d3c-9bd0-41fe-bb22-e4ff37b7cc5c
 title: MPEG-4 Part 2 Video Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The MPEG4 Part 2 Video decoder decodes video streams that were encoded according to the MPEG4 Part 2 standard.
 
-You can create an instance of the MPEG4 Part 2 Video decoder by calling **CoCreateInstance**. To create an instance of the decoder that behaves as a DirectX Media Object (DMO), use the class identifier **CLSID\_CMpeg4sDecMediaObject**. To create an istance of the decoder that behaves as a Media Foundation Transform (MFT), use the class identifier **CLSID\_CMpeg4sDecMFT**.
+You can create an instance of the MPEG4 Part 2 Video decoder by calling **CoCreateInstance**. To create an instance of the decoder that behaves as a DirectX Media Object (DMO), use the class identifier **CLSID\_CMpeg4sDecMediaObject**. To create an instance of the decoder that behaves as a Media Foundation Transform (MFT), use the class identifier **CLSID\_CMpeg4sDecMFT**.
 
 ## Input Types
 
@@ -157,7 +157,7 @@ The globally unique identifiers (GUIDs) for RGB media subtypes differ depending 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |

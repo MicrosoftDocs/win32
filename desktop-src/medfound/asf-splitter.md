@@ -1,5 +1,5 @@
 ---
-Description: ASF Splitter
+description: ASF Splitter
 ms.assetid: 383b1cc6-4a77-4e0e-a766-6213c64b025c
 title: ASF Splitter
 ms.topic: article

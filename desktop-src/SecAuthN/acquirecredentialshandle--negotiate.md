@@ -1,5 +1,5 @@
 ---
-Description: Acquires a handle to preexisting credentials of a security principal that is using Negotiate.
+description: Acquires a handle to preexisting credentials of a security principal that is using Negotiate.
 ms.assetid: ff372163-c73b-41bb-afcb-7d5de7720967
 title: AcquireCredentialsHandle (Negotiate) function (Sspi.h)
 ms.topic: reference
@@ -168,7 +168,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

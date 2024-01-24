@@ -1,6 +1,6 @@
 ---
 title: ms-DS-ManagedPasswordId attribute
-description: This constructed attribute contains the key identifier for the current managed password data for a group MSA.
+description: This attribute contains the key identifier for the current managed password data for a group MSA.
 ms.assetid: 82e78b10-d10c-4fb8-a4ee-5f775d4dbdf2
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,14 @@ api_name:
 api_type:
 - Schema
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 01/19/2024
 ---
 
 # ms-DS-ManagedPasswordId attribute
 
-This constructed attribute contains the key identifier for the current managed password data for a group MSA.
+This attribute contains the key identifier for the current managed password data for a group MSA.
 
-
-
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-ManagedPasswordId                               |
 | Ldap-Display-Name | msDS-ManagedPasswordId                                |
@@ -33,17 +31,13 @@ This constructed attribute contains the key identifier for the current managed p
 | System-Id-Guid    | 0e78295a-c6d3-0a40-b491-d62251ffa0a6                  |
 | Syntax            | [**Object(Replica-Link)**](s-object-replica-link.md) |
 
-
-
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+- [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
-
-
-|                        |                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |
@@ -56,15 +50,4 @@ This constructed attribute contains the key identifier for the current managed p
 | Range-Upper            | \-                                                                                          |
 | Search-Flags           | 0x00000000                                                                                  |
 | System-Flags           | 0x00000010                                                                                  |
-| Classes used in        | [**ms-DS-Group-Managed-Service-Account**](c-msds-groupmanagedserviceaccount.md)<br/> |
-
-
-
- 
-
- 
-
-
-
-
-
+| Classes used in        | [**ms-DS-Group-Managed-Service-Account**](c-msds-groupmanagedserviceaccount.md)             |

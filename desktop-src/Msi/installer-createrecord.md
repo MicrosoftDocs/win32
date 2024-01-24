@@ -1,5 +1,5 @@
 ---
-Description: The CreateRecord method of the Installer object returns a new Record object with the requested number of fields.
+description: The CreateRecord method of the Installer object returns a new Record object with the requested number of fields.
 ms.assetid: 7f9adb28-87da-48dd-ab5c-e138b356b133
 title: Installer.CreateRecord method
 ms.topic: reference
@@ -53,7 +53,7 @@ Field 0, not one of the fields in *count*, is normally used for record-oriented 
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

@@ -121,13 +121,13 @@ HRESULT DemoApp::OnRender()
 
 
 
-For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-quickstart.md).
+For a related tutorial, see [Create a simple Direct2D application](direct2d-quickstart.md).
 
 ## Requirements
 
 
 
-|                    |                                                                                                       |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1\_1.h (include D2d1.h)</dt> </dl> |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl>                   |
@@ -142,7 +142,7 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)
 </dt> <dt>
 
-[Creating a Simple Direct2D Application](direct2d-quickstart.md)
+[Create a simple Direct2D application](direct2d-quickstart.md)
 </dt> </dl>
 
 �

@@ -1,5 +1,5 @@
 ---
-Description: Globalization Services
+description: Globalization Services
 ms.assetid: 24bf4d02-c8c9-4294-9a4c-54eb993bab3e
 title: Globalization Services
 ms.topic: article

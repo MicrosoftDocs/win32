@@ -1,5 +1,5 @@
 ---
-Description: Specifies the health state of an application.
+description: Specifies the health state of an application.
 ms.assetid: CA06AA34-A549-4CFC-9B52-D2E0B200C3E9
 title: APPLICATION_STATE enumeration
 ms.topic: reference
@@ -57,7 +57,7 @@ To use this programming element, the Windows 8 integration components must be in
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                      |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBookmarkException properties"
 title: EsentBadBookmarkException properties
 TOCTitle: EsentBadBookmarkException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadBookmarkException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadBookmarkException](dn274043\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadBookmarkException](./esentbadbookmarkexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentBadBookmarkException class](dn274043\(v=exchg.10\).md)
+[EsentBadBookmarkException class](./esentbadbookmarkexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

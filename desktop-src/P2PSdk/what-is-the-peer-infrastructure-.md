@@ -1,5 +1,5 @@
 ---
-Description: The Peer Infrastructure is a set of several APIs that are powerful and flexible.
+description: The Peer Infrastructure is a set of several APIs that are powerful and flexible.
 ms.assetid: aed7585a-88e5-4ca3-a8c3-e2ccfe13d35d
 title: What is the Peer Infrastructure?
 ms.topic: article

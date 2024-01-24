@@ -1,5 +1,5 @@
 ---
-Description: The MsiDigitalSignature table contains the signature information for every digitally signed object in the installation database.
+description: The MsiDigitalSignature table contains the signature information for every digitally signed object in the installation database.
 ms.assetid: 63d62152-4f01-454f-bdea-550f2a9f6b14
 title: MsiDigitalSignature Table
 ms.topic: article

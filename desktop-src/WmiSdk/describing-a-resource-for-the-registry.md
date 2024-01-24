@@ -1,5 +1,5 @@
 ---
-Description: The system registry contains resource-related data.
+description: The system registry contains resource-related data.
 ms.assetid: e66f1db8-a5f3-41d3-9835-34b81b9da5ed
 ms.tgt_platform: multiple
 title: Describing a Resource for the Registry

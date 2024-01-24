@@ -1,5 +1,5 @@
 ---
-Description: To gain more detailed control over the autocomplete behavior, or to add a custom source of autocomplete strings, you must manage the autocomplete object yourself.
+description: To gain more detailed control over the autocomplete behavior, or to add a custom source of autocomplete strings, you must manage the autocomplete object yourself.
 ms.assetid: E1A7B1B0-2879-452E-9EBB-73F02B932200
 title: How to Enable Autocomplete Manually
 ms.topic: article

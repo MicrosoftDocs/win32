@@ -1,9 +1,8 @@
 ---
-Description: Used in an any hit shader to commit the current hit and then stop searching for more hits for the ray.
+description: Used in an any hit shader to commit the current hit and then stop searching for more hits for the ray.
 ms.assetid: 
 title: AcceptHitAndEndSearch function
 ms.date: 05/31/2018
-ms.localizationpriority: low
 ms.topic: reference
 topic_type: 
 - APIRef
@@ -44,15 +43,4 @@ This function can be called from the following raytracing shader types:
 
 ## See also
 
-<dl> <dt>
-
-[Direct3D 12 Raytracing HLSL Reference](direct3d-12-raytracing-hlsl-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Direct3D 12 raytracing HLSL reference](direct3d-12-raytracing-hlsl-reference.md)

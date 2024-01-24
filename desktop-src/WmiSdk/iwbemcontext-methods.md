@@ -1,5 +1,5 @@
 ---
-Description: The IWbemContext interface exposes the following methods.
+description: The IWbemContext interface exposes the following methods.
 ms.assetid: 15331CCA-382A-4E77-92F8-06128920E674
 ms.tgt_platform: multiple
 title: IWbemContext Methods

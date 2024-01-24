@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 An XML Node represents a single piece of XML, for example, a start element and its attributes, an end element, text, or "typed" text content such as an integer or byte array. The data in a node varies according to the [**WS\_XML\_NODE\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_xml_node_type).
 
-## 
 
 The following shows an example of an encoding specific xml document represented with encoding independent structures.
 

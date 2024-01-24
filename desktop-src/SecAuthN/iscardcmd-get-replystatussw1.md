@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the reply APDUs SW1 status byte.
+description: Retrieves the reply APDUs SW1 status byte.
 ms.assetid: 5f74d0c9-cf82-4694-bca6-a2655e717a1f
 title: ISCardCmd::get_ReplyStatusSW1 method (Scarddat.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

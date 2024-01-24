@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate which version of the remoting protocul is being used.
+description: An enum used to indicate which version of the remoting protocul is being used.
 MS-HAID: vspixengine.REMOTINGVERSION
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -74,7 +74,7 @@ A value which indicates that the latest remoting protocol is being used.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

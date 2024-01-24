@@ -1,5 +1,5 @@
 ---
-Description: Provides information about a VHD Set file.
+description: Provides information about a VHD Set file.
 ms.assetid: a975c131-d3f3-4be3-bc69-e277e3ce4d28
 title: Msvm_VHDSetInformation class
 ms.topic: reference
@@ -91,7 +91,7 @@ A list of GUIDs representing all of the snapshots contained by this VHD Set file
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Requests that the app suspending operation be delayed.
+description: Requests that the app suspending operation be delayed.
 ms.assetid: 5AB84652-165D-4173-A047-541B05848871
 title: ISuspendingOperation::GetDeferral method (Windows.ApplicationModel.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

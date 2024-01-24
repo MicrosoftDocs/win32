@@ -1,5 +1,5 @@
 ---
-Description: Specifies the audio policy class for the audio renderer.
+description: Specifies the audio policy class for the audio renderer.
 ms.assetid: 80b028f5-7756-4bb8-b5e3-ebc8343e168c
 title: MF_AUDIO_RENDERER_ATTRIBUTE_SESSION_ID attribute (Mfidl.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

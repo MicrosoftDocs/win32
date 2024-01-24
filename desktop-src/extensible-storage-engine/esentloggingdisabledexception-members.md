@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLoggingDisabledException members"
 title: EsentLoggingDisabledException members
 TOCTitle: EsentLoggingDisabledException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LoggingDisabled exceptions.
 
-The [EsentLoggingDisabledException](dn334582\(v=exchg.10\).md) type exposes the following members.
+The [EsentLoggingDisabledException](./esentloggingdisabledexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLoggingDisabledException class](dn334582\(v=exchg.10\).md)
+[EsentLoggingDisabledException class](./esentloggingdisabledexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

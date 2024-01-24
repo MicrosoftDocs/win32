@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the ID3DXFile object.
+description: Retrieves the ID3DXFile object.
 ms.assetid: 832878c6-73a4-400a-af30-57112b172977
 title: ID3DXFileEnumObject::GetFile method (D3DX9Xof.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_ModifySettingAction class takes a particular action. Details of how the method performs the action are implementation-specific. This method is inherited from CIM\_Action.
+description: The Invoke method of the CIM\_ModifySettingAction class takes a particular action. Details of how the method performs the action are implementation-specific. This method is inherited from CIM\_Action.
 ms.assetid: 360e3e00-1c09-495a-8fc0-ce2e9d1f9e77
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_ModifySettingAction class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

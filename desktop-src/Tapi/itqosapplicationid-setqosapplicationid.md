@@ -1,5 +1,5 @@
 ---
-Description: The SetQOSApplicationID method sets the QOS identifier for the application.
+description: The SetQOSApplicationID method sets the QOS identifier for the application.
 ms.assetid: e25cf749-6673-47eb-b843-4066f475b8f1
 title: ITQOSApplicationID::SetQOSApplicationID method (Ipmsp.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

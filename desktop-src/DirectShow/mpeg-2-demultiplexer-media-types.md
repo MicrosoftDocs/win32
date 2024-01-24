@@ -1,12 +1,15 @@
 ---
-Description: MPEG-2 Demultiplexer Media Types
+description: MPEG-2 Demultiplexer Media Types
 ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: MPEG-2 Demultiplexer Media Types
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # MPEG-2 Demultiplexer Media Types
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The [MPEG-2 Demultiplexer](mpeg-2-demultiplexer.md) filter recognizes the following media types.
 
@@ -37,32 +40,13 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Major Type</td>
-<td><strong>MEDIATYPE_MPEG2_SECTIONS</strong></td>
-</tr>
-<tr class="even">
-<td>Subtype</td>
-<td>Any of the following:<br/>
-<ul>
-<li><strong>MEDIASUBTYPE_ATSC_SI</strong>: ATSC Service Information.</li>
-<li><strong>MEDIASUBTYPE_DVB_SI</strong>: DVB Service Information.</li>
-<li><strong>MEDIASUBTYPE_ISDB_SI</strong>: Integrated Services Digital Broadcasting (ISDB) Service Information.</li>
-<li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: MPEG-2 section data.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Format Type</td>
-<td>None</td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| Major Type | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | 
+| Subtype | Any of the following:<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>: ATSC Service Information.</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>: DVB Service Information.</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>: Integrated Services Digital Broadcasting (ISDB) Service Information.</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: MPEG-2 section data.</li></ul> | 
+| Format Type | None | 
+
 
 
 
@@ -72,7 +56,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 
 
 
-|                  |                                          |
+| Label | Value |
 |------------------|------------------------------------------|
 | Major type       | **MEDIATYPE\_Video**                     |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_VIDEO**           |
@@ -87,7 +71,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 
 
 
-|                  |                                      |
+| Label | Value |
 |------------------|--------------------------------------|
 | Major type       | **MEDIATYPE\_Audio**                 |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_AUDIO**       |

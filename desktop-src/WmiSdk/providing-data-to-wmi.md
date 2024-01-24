@@ -1,5 +1,5 @@
 ---
-Description: WMI makes data about Windows manageable objects available through WMI providers.
+description: WMI makes data about Windows manageable objects available through WMI providers.
 ms.assetid: 74558c6e-28b6-479f-9de6-2fbad793ae26
 ms.tgt_platform: multiple
 title: Providing Data to WMI

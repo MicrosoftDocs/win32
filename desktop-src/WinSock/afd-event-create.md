@@ -1,5 +1,5 @@
 ---
-Description: Winsock network tracing event for a socket creation operation.
+description: Winsock network tracing event for a socket creation operation.
 ms.assetid: 59B9A570-5AEC-429D-AF71-AB6D8325C341
 title: AFD_EVENT_CREATE event
 ms.topic: reference
@@ -173,7 +173,7 @@ The **AFD\_EVENT\_CREATE** event is traced for a Winsock network operation to cr
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

@@ -1,6 +1,6 @@
 ---
 title: LocalizationType Complex Type
-description: Defines a group of localized resources that you reference in your manifest.
+description: Defines a group of localized resources that you reference in your manifest. | LocalizationType Complex Type
 ms.assetid: fecab4e0-7136-4b13-8c24-bebbad0812e6
 keywords:
 - LocalizationType complex type EventLog
@@ -89,7 +89,7 @@ Defines a group of localized resources that you reference in your manifest.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

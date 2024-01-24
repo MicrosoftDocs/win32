@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SENG\* Constants
+description: LOCALE\_SENG\* Constants
 ms.assetid: a1990e5a-c2c2-4ecc-a206-f818b179fc80
 title: LOCALE_SENG* Constants
 ms.topic: article

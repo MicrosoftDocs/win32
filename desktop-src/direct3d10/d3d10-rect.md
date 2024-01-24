@@ -1,5 +1,5 @@
 ---
-Description: 'D3D10\_RECT is declared as follows:'
+description: 'D3D10\_RECT is declared as follows:'
 ms.assetid: a0b27fb0-1e48-4e46-ad8c-99f197c31dc2
 title: D3D10_RECT (D3D10.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This structure is used for scissor rectangles by [**ID3D10Device::RSGetScissorRe
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3D10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3D10.lib</dt> </dl> |

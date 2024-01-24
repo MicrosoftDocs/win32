@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the source address of a frame.
+description: Retrieves the source address of a frame.
 ms.assetid: 414f9e64-f1b2-46f1-822e-0fffacfad843
 title: GetFrameSourceAddress function (Netmon.h)
 ms.topic: reference
@@ -101,7 +101,7 @@ An address type of **ADDRESS\_TYPE\_FIND\_HIGHEST** is allowed. When this addres
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

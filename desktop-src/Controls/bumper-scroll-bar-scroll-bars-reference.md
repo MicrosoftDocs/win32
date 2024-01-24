@@ -1,6 +1,6 @@
 ---
 title: Scroll Bar Reference
-description: .
+description: Scroll Bar Reference
 ms.assetid: 8a0fb114-6b3f-4c99-aeaf-32d0bd95fde7
 ms.topic: article
 ms.date: 05/31/2018

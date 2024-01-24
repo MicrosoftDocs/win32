@@ -1,5 +1,5 @@
 ---
-Description: Percent of time processing data in the driver. These statistics may help identify cases when the driver is waiting for other resources.
+description: Percent of time processing data in the driver. These statistics may help identify cases when the driver is waiting for other resources.
 ms.assetid: 2c613349-61eb-44aa-aa7b-3161dd1fc95e
 title: D3DDEVINFO_D3D9INTERFACETIMINGS structure (D3D9Types.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ These system-global metrics may or may not be implemented. Depending on the spec
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.Altitude property.
+description: The photo metadata policy for the System.GPS.Altitude property.
 ms.assetid: 63d59aa3-52a6-4b6f-b6ec-a1c4abcee83f
 title: System.GPS.Altitude Photo Metadata Policy
 ms.topic: article
@@ -111,10 +111,10 @@ This value can be written by writing to System.GPS.Altitude.Numerator and System
 
 
 
-| Order | Path                      |     |
-|-------|---------------------------|-----|
-| 1     | /ifd/gps/{ushort=6}       |     |
-| 2     | /ifd/xmp/exif:gpsaltitude |     |
+| Order | Path                      |
+|-------|---------------------------|
+| 1     | /ifd/gps/{ushort=6}       |
+| 2     | /ifd/xmp/exif:gpsaltitude |
 
 
 

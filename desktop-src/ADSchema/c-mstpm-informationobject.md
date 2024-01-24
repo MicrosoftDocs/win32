@@ -22,7 +22,7 @@ This class contains recovery information for a Trusted Platform Module (TPM) dev
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TPM-Information-Object            |
 | Ldap-Display-Name | msTPM-InformationObject              |
@@ -42,7 +42,7 @@ This class contains recovery information for a Trusted Platform Module (TPM) dev
 
 
 
-|                             |                                                                                                      |
+| Entry | Value |
 |-----------------------------|------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                |
 | Object-Category             | 1                                                                                                    |

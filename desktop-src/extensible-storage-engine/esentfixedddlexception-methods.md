@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFixedDDLException methods"
 title: EsentFixedDDLException methods
 TOCTitle: EsentFixedDDLException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFixedDDLException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFixedDDLException](dn350411\(v=exchg.10\).md) type exposes the following members.
+The [EsentFixedDDLException](./esentfixedddlexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentFixedDDLException class](dn350411\(v=exchg.10\).md)
+[EsentFixedDDLException class](./esentfixedddlexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

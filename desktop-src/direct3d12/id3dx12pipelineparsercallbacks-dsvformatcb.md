@@ -1,5 +1,5 @@
 ---
-title: ID3DX12PipelineParserCallbacks DepthStencilStateCb method (D3DX12.h)
+title: ID3DX12PipelineParserCallbacks DepthStencilStateCb method (D3DX12.h) (DSV)
 description: Calls the depth stencil value format subobject callback of an object that implements this interface.
 ms.assetid: BDD3AB24-34C6-41C8-984D-78A45867BF24
 keywords:
@@ -14,12 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# ID3DX12PipelineParserCallbacks::DepthStencilStateCb method
+# ID3DX12PipelineParserCallbacks DepthStencilStateCb method (D3DX12.h) for depth stencil value
 
 Calls the depth stencil value format subobject callback of an object that implements this interface.
 
@@ -55,7 +54,7 @@ Returns nothing.
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |

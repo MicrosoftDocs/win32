@@ -1,5 +1,5 @@
 ---
-Description: Defines 802.1X configuration elements.
+description: Defines 802.1X configuration elements.
 ms.assetid: 4755356e-cb4b-4eed-a494-ca0d17f5184f
 title: OneX Schema
 ms.topic: article
@@ -20,7 +20,7 @@ The root element of an 802.1X profile is the [**OneX**](onexschema-onex-element.
 To view sample profiles for wireless networks that include 802.1X configuration elements, see the following profile samples:
 
 -   [Bootstrap Profile Sample](bootstrap-profile-sample.md)
--   [FIPS Profile Sample](fips-profile-sample.md)
+-   [FIPS profile sample](fips-profile-sample.md)
 -   [Single Sign-On Profile Sample](single-sign-on-profile-sample.md)
 -   [WPA-Enterprise with PEAP-MSCHAPv2 Profile Sample](wpa-enterprise-with-peap-mschapv2-profile-sample.md)
 -   [WPA-Enterprise with TLS Profile Sample](wpa-enterprise-with-tls-profile-sample.md)

@@ -1,5 +1,5 @@
 ---
-Description: Checks and downloads an ActiveX object.
+description: Checks and downloads an ActiveX object.
 ms.assetid: a477c6dc-32a7-4d17-a997-6df4967d6c55
 title: IeAxiService::Initialize method
 ms.topic: reference
@@ -108,7 +108,7 @@ If the function fails, the return value can be one of the following error codes.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |

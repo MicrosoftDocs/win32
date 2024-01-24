@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the QWORD value for the specified TAGID.
+description: Retrieves the QWORD value for the specified TAGID.
 ms.assetid: 5fa94a95-c7f3-477b-ab7c-931e8d62d501
 title: SdbReadQWORDTag function
 ms.topic: reference
@@ -65,7 +65,7 @@ The function returns the value on success or *qwDefault* on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

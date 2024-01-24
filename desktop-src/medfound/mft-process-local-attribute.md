@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a Media Foundation transform (MFT) is registered only in the applications process.
+description: Specifies whether a Media Foundation transform (MFT) is registered only in the applications process.
 ms.assetid: e10d6378-8e85-4f73-9fa3-a2e954fc8249
 title: MFT_PROCESS_LOCAL_Attribute attribute (Mftransform.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

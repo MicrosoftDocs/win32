@@ -1,5 +1,5 @@
 ---
-Description: Holds the security rights for the namespace in the form of a security descriptor.
+description: Holds the security rights for the namespace in the form of a security descriptor.
 ms.assetid: 84e514f5-b114-4bfc-ab0b-9745f249168b
 ms.tgt_platform: multiple
 title: '__thisNAMESPACE class'
@@ -66,7 +66,7 @@ The singleton instance of **\_\_thisNAMESPACE** is read-only. To change the sett
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

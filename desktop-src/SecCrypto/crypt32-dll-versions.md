@@ -1,5 +1,5 @@
 ---
-Description: Crypt32.dll is the module that implements many of the CryptoAPI functions.
+description: Crypt32.dll is the module that implements many of the CryptoAPI functions.
 ms.assetid: b6063c92-5831-4b78-b2cd-812e55194bc9
 title: Crypt32.dll Versions
 ms.topic: article
@@ -15,7 +15,7 @@ In general, the version ranges of Crypt32.dll map to the operating system versio
 | Crypt32.dll version                               | Operating system                                                                                                                                                                |
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *version* >= 5.131.3790.0                      | Windows Server 2003                                                                                                                                                             |
-| *version* >= 5.131.2600.1243                   | Windows XP with Service Pack 2 (SP2)Windows XP with Service Pack 1 (SP1) with hotfix [Q329433](https://support.microsoft.com/kb/329433)<br/> Windows XP<br/> |
+| *version* >= 5.131.2600.1243                   | Windows XP with Service Pack 2 (SP2)Windows XP with Service Pack 1 (SP1) with hotfix KB329433<br/> Windows XP<br/> |
 | 5.131.2600.0 <= *version* < 5.131.2600.1243 | Windows XP with SP1Windows XP<br/>                                                                                                                                        |
 
 

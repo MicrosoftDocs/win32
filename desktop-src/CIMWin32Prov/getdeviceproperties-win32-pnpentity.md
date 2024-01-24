@@ -1,5 +1,5 @@
 ---
-Description: Gets the specified properties of this Plug and Play device.
+description: Gets the specified properties of this Plug and Play device.
 ms.assetid: 63327a4f-7d4a-4041-b58d-7a852ba08d5b
 ms.tgt_platform: multiple
 title: GetDeviceProperties method of the Win32_PnPEntity class
@@ -54,7 +54,7 @@ The requested properties in appropriate subtypes of the [**Win32\_PnPDevicePrope
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

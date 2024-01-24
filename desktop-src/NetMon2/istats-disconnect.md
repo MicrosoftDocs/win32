@@ -1,5 +1,5 @@
 ---
-Description: Disconnects the NPP from the network.
+description: Disconnects the NPP from the network.
 ms.assetid: 01ff8fc2-aa27-4df8-a499-c7b00c1fa2e8
 title: IStats::Disconnect method (Netmon.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ This method cannot be called when the NPP is capturing data. Call the **IStats::
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

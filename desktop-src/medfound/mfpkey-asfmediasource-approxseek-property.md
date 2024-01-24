@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the ASF media source uses approximate seeking.
+description: Specifies whether the ASF media source uses approximate seeking.
 ms.assetid: 4877b67c-524c-4717-a90f-6de21918d3d8
 title: MFPKEY_ASFMediaSource_ApproxSeek property (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The ASF media source handles seeking as follows:
 
 -   If the value of this property is **VARIANT\_TRUE**, the media source uses approximate seeking, which is less accurate but faster than exact seeking.
 -   If the value is **VARIANT\_FALSE** and the ASF file has an index, the media source uses exact seeking.
--   If the ASF file does not contain an index, the media source uses approxmate seeking unless the [MFPKEY\_ASFMediaSource\_IterativeSeekIfNoIndex](mfpkey-asfmediasource-iterativeseekifnoindex.md) property is set to **VARIANT\_TRUE**.
+-   If the ASF file does not contain an index, the media source uses approximate seeking unless the [MFPKEY\_ASFMediaSource\_IterativeSeekIfNoIndex](mfpkey-asfmediasource-iterativeseekifnoindex.md) property is set to **VARIANT\_TRUE**.
 -   If the ASF file does not contain an index and the [MFPKEY\_ASFMediaSource\_IterativeSeekIfNoIndex](mfpkey-asfmediasource-iterativeseekifnoindex.md) property is **VARIANT\_TRUE**, the media source uses iterative seeking. Iterative seeking is more accurate but slower than approximate seeking (but generally less accurate than exact seeking).
     > [!Note]  
     > Requires Windows 7.
@@ -47,7 +47,7 @@ The default value of this property is **VARIANT\_FALSE**.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

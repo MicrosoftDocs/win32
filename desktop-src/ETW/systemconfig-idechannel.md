@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for IDE channel events. The following syntax is simplified from MOF code.
+description: This class is the event type class for IDE channel events. The following syntax is simplified from MOF code.
 ms.assetid: 2265a4a6-4377-4aa9-926a-def6e8eda998
 title: SystemConfig_IDEChannel class
 ms.topic: reference
@@ -156,7 +156,7 @@ The identifier of the disk.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

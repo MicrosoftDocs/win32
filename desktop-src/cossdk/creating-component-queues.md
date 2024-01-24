@@ -1,5 +1,5 @@
 ---
-Description: An application that contains at least one queuable component can be marked as queued using the component services administrative tool.
+description: An application that contains at least one queuable component can be marked as queued using the component services administrative tool.
 ms.assetid: 7d9fec63-0bb7-45f3-9d40-736a60d69185
 title: Creating Component Queues
 ms.topic: article

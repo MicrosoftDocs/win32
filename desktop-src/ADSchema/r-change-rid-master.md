@@ -21,7 +21,7 @@ Extended right needed to change the relative identifier (RID) master FSMO role o
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Change-Rid-Master                    |
 | Display-Name | Change Rid Master                    |
@@ -42,7 +42,7 @@ Extended right needed to change the relative identifier (RID) master FSMO role o
 
 
 
-|                         |                                                |
+| Entry | Value |
 |-------------------------|------------------------------------------------|
 | Applies-To              | [**RID-Manager**](c-ridmanager.md)<br/> |
 | Localization-Display-ID | 29                                             |
@@ -53,7 +53,7 @@ Extended right needed to change the relative identifier (RID) master FSMO role o
 
 
 
-|                         |                                                |
+| Entry | Value |
 |-------------------------|------------------------------------------------|
 | Applies-To              | [**RID-Manager**](c-ridmanager.md)<br/> |
 | Localization-Display-ID | 29                                             |
@@ -64,7 +64,7 @@ Extended right needed to change the relative identifier (RID) master FSMO role o
 
 
 
-|                         |                                                |
+| Entry | Value |
 |-------------------------|------------------------------------------------|
 | Applies-To              | [**RID-Manager**](c-ridmanager.md)<br/> |
 | Localization-Display-ID | 29                                             |
@@ -75,7 +75,7 @@ Extended right needed to change the relative identifier (RID) master FSMO role o
 
 
 
-|                         |                                                |
+| Entry | Value |
 |-------------------------|------------------------------------------------|
 | Applies-To              | [**RID-Manager**](c-ridmanager.md)<br/> |
 | Localization-Display-ID | 29                                             |
@@ -86,7 +86,7 @@ Extended right needed to change the relative identifier (RID) master FSMO role o
 
 
 
-|                         |                                                |
+| Entry | Value |
 |-------------------------|------------------------------------------------|
 | Applies-To              | [**RID-Manager**](c-ridmanager.md)<br/> |
 | Localization-Display-ID | 29                                             |
@@ -97,7 +97,7 @@ Extended right needed to change the relative identifier (RID) master FSMO role o
 
 
 
-|                         |                                                |
+| Entry | Value |
 |-------------------------|------------------------------------------------|
 | Applies-To              | [**RID-Manager**](c-ridmanager.md)<br/> |
 | Localization-Display-ID | 29                                             |

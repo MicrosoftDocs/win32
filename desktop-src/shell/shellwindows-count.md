@@ -1,5 +1,5 @@
 ---
-Description: Contains the number of items in the collection.
+description: ShellWindows.Count property - Contains the number of items in the collection.
 ms.assetid: 0113cc32-2197-4004-99a1-89fe10828e5f
 title: ShellWindows.Count property (Exdisp.h)
 ms.topic: reference
@@ -115,7 +115,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

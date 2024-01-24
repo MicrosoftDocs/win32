@@ -3,10 +3,13 @@ title: Guidelines
 description: These sections comprise the detailed user experience guidelines for Windows-based desktop applications.
 ms.assetid: 0722fb7f-66a0-4c9d-9c9a-b86ba855a26b
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Guidelines
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 These sections comprise the detailed user experience guidelines for Windows-based desktop applications.
 
@@ -31,10 +34,4 @@ These sections comprise the detailed user experience guidelines for Windows-base
  
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Creating buffers requires defining the data that the buffer will store, providing initialization data, and setting up appropriate usage and binding flags. To create textures, see Creating Texture Resources (Direct3D 10).
+description: Creating buffers requires defining the data that the buffer will store, providing initialization data, and setting up appropriate usage and binding flags. To create textures, see Creating Texture Resources (Direct3D 10).
 ms.assetid: 9787b153-9301-4a0f-bd6f-21cc6f7fc650
 title: Creating Buffer Resources (Direct3D 10)
 ms.topic: article

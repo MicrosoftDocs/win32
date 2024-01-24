@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether a stroke should be analyzed as part of a drawing or as part of writing.
+description: Indicates whether a stroke should be analyzed as part of a drawing or as part of writing.
 ms.assetid: '3f4c4522-ada7-4759-bca7-88b2a71f36ea'
 title: StrokeType enumeration (IACom.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ if (top > drawingMargin)
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

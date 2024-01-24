@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPreviousVersionException properties"
 title: EsentPreviousVersionException properties
 TOCTitle: EsentPreviousVersionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentPreviousVersionException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentPreviousVersionException](dn319852\(v=exchg.10\).md) type exposes the following members.
+The [EsentPreviousVersionException](./esentpreviousversionexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentPreviousVersionException class](dn319852\(v=exchg.10\).md)
+[EsentPreviousVersionException class](./esentpreviousversionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

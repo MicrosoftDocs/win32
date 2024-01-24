@@ -22,7 +22,7 @@ Password-reversible encryption status for user accounts.
 
 
 
-|                   |                                              |
+| Entry | Value |
 |-------------------|----------------------------------------------|
 | CN                | ms-DS-Password-Reversible-Encryption-Enabled |
 | Ldap-Display-Name | msDS-PasswordReversibleEncryptionEnabled     |
@@ -45,7 +45,7 @@ Password-reversible encryption status for user accounts.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -66,7 +66,7 @@ Password-reversible encryption status for user accounts.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -87,7 +87,7 @@ Password-reversible encryption status for user accounts.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |

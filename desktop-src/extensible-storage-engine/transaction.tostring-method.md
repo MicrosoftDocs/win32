@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.ToString method"
 title: Transaction.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Transaction.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [Transaction](dn351174\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [Transaction](./transaction-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +53,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [Transaction](dn351174\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [Transaction](./transaction-class.md).  
 
 ## See also
 
 #### Reference
 
-[Transaction class](dn351174\(v=exchg.10\).md)
+[Transaction class](./transaction-class.md)
 
-[Transaction members](dn351240\(v=exchg.10\).md)
+[Transaction members](./transaction-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

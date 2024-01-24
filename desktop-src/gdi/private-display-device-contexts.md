@@ -1,5 +1,5 @@
 ---
-Description: A private device context enables an application to avoid retrieving and initializing a display device context each time the application must draw in a window.
+description: A private device context enables an application to avoid retrieving and initializing a display device context each time the application must draw in a window.
 ms.assetid: 8de5a14b-a8b3-42a5-81f3-bf3c357052cb
 title: Private Display Device Contexts
 ms.topic: article

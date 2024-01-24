@@ -1,5 +1,5 @@
 ---
-Description: Represents the area that the recognizer uses in which ink can be drawn. The area is known as the recognition guide.
+description: Represents the area that the recognizer uses in which ink can be drawn. The area is known as the recognition guide.
 ms.assetid: c4990aa5-8c8b-4206-8376-b5c0d0c8e0a7
 title: InkRecognizerGuide class (Msinkaut.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ The following figure shows a recognizer guide with four columns.
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: The shutter speed of the camera when the photo was taken. This is given in APEX units.
+description: The shutter speed of the camera when the photo was taken. This is given in APEX units.
 ms.assetid: 7f51b3b9-d701-4e7a-80bd-87c1a60e56f7
 title: System.Photo.ShutterSpeed
 ms.topic: article
@@ -51,7 +51,7 @@ See the Exchangeable Image File (EXIF) 2.2 specification, Annex C, for the conve
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

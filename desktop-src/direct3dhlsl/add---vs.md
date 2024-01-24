@@ -1,6 +1,6 @@
 ---
 title: add - vs
-description: Adds two vectors.
+description: Adds two vectors. | add - vs
 ms.assetid: f66d3264-68be-4a4f-84fc-cc0f6c4245c9
 ms.topic: reference
 ms.date: 05/31/2018

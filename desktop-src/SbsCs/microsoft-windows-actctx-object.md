@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft.Windows.ActCtx object references manifests and provides a way for scripting engines to access side-by-side assemblies. The Microsoft.Windows.ActCtx object can be used to create an instance of a side-by-side assembly with COM components.
+description: The Microsoft.Windows.ActCtx object references manifests and provides a way for scripting engines to access side-by-side assemblies. The Microsoft.Windows.ActCtx object can be used to create an instance of a side-by-side assembly with COM components.
 ms.assetid: 818e175e-2c58-4c44-87ce-4e97352fc3f3
 title: Microsoft.Windows.ActCtx object
 ms.topic: reference
@@ -60,7 +60,7 @@ The **Microsoft.Windows.ActCtx** object has these properties.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Installs the specified ActiveX object.
+description: Installs the specified ActiveX object.
 ms.assetid: c5d460d8-0df4-437a-a59e-707bf868a339
 title: IeAxiSystemInstaller::InitializeSystemInstaller method
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method fails, it returns an **HRESULT** value that indicates the error. F
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |

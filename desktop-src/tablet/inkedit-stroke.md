@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user draws a new IInkStrokeDisp object on any IInkTablet object.
+description: Occurs when the user draws a new IInkStrokeDisp object on any IInkTablet object.
 ms.assetid: fac5104d-d0da-40b1-a4a6-00a34718d09f
 title: InkEdit.Stroke event (Inked.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

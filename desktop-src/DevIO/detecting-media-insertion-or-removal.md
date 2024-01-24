@@ -1,5 +1,5 @@
 ---
-Description: Windows sends all top-level windows a set of default WM\_DEVICECHANGE messages when new devices or media (such as a CD or DVD) are added and become available, and when existing devices or media are removed.
+description: Windows sends all top-level windows a set of default WM\_DEVICECHANGE messages when new devices or media (such as a CD or DVD) are added and become available, and when existing devices or media are removed.
 ms.assetid: 26baa3aa-e54d-42fe-b2b2-a3fcca6dee91
 title: Detecting Media Insertion or Removal
 ms.topic: article

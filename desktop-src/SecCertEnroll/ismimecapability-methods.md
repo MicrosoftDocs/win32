@@ -1,5 +1,5 @@
 ---
-Description: The ISmimeCapability interface exposes the following methods.
+description: The ISmimeCapability interface exposes the following methods.
 ms.assetid: 0A15FEB1-C7D1-411A-9EE4-4CE5543A495F
 title: ISmimeCapability Methods
 ms.topic: reference

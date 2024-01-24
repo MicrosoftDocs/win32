@@ -1,5 +1,5 @@
 ---
-Description: The AVAILABLEFREEREG property specifies in kilobytes the total free space available in the registry after calling the AllocateRegistrySpace action.The maximum value of the AVAILABLEFREEREG property is 2000000 kilobytes.This property is set only on Windows 2000.
+description: The AVAILABLEFREEREG property specifies in kilobytes the total free space available in the registry after calling the AllocateRegistrySpace action.The maximum value of the AVAILABLEFREEREG property is 2000000 kilobytes.This property is set only on Windows 2000.
 ms.assetid: 95afc397-2f28-4ab9-8d95-d071c2f1f498
 title: AVAILABLEFREEREG property
 ms.topic: reference
@@ -26,7 +26,7 @@ If the AllocateRegistrySpace action can be authored into the action sequence aft
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

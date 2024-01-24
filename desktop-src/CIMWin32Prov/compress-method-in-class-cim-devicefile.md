@@ -1,5 +1,5 @@
 ---
-Description: The Compress method compresses the logical file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
+description: The Compress method compresses the logical file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
 ms.assetid: baafe82c-fe4d-49b2-8868-4495f573895a
 ms.tgt_platform: multiple
 title: Compress method of the CIM_DeviceFile class
@@ -147,7 +147,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

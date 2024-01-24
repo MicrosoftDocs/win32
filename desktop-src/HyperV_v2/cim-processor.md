@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities and management of a processor.
+description: Represents the capabilities and management of a processor.
 ms.assetid: 70cf9776-eeda-42c2-90c4-704ecf1cdafe
 title: CIM_Processor class (Hyper-V management)
 ms.topic: reference
@@ -28,7 +28,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Processor class
+# CIM_Processor class (Hyper-V management)
 
 Represents the capabilities and management of a processor.
 
@@ -1857,7 +1857,7 @@ The CPU socket information that includes data on how the processor can be upgrad
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

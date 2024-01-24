@@ -1,5 +1,5 @@
 ---
-Description: Windows allows for local definition of nonstandard characters in both double-byte character sets (DBCSs) and Unicode.
+description: Windows allows for local definition of nonstandard characters in both double-byte character sets (DBCSs) and Unicode.
 ms.assetid: 32d0ddab-4b3f-473e-bf92-3230b3746079
 title: Character Sets and Fonts
 ms.topic: article

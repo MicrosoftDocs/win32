@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt64ColumnValue constructor"
 title: UInt64ColumnValue constructor 
 TOCTitle: 'UInt64ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.UInt64ColumnValue.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # UInt64ColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public UInt64ColumnValue()
 
 #### Reference
 
-[UInt64ColumnValue class](dn351190\(v=exchg.10\).md)
+[UInt64ColumnValue class](./uint64columnvalue-class.md)
 
-[UInt64ColumnValue members](dn351254\(v=exchg.10\).md)
+[UInt64ColumnValue members](./uint64columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

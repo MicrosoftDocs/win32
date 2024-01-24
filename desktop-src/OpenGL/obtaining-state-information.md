@@ -14,18 +14,53 @@ ms.date: 05/31/2018
 
 OpenGL maintains many state variables that affect the behavior of many functions. Some of these variables have specialized query functions.
 
+:::row:::
+    :::column:::
+        [**glGetClipPlane**](glgetclipplane.md)
+    :::column-end:::
+    :::column:::
+        [**glGetPixelMap**](glgetpixelmap.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexImage**](glgetteximage.md)
+    :::column-end:::
+:::row-end:::
 
+:::row:::
+    :::column:::
+        [**glGetLight**](glgetlight.md)
+    :::column-end:::
+    :::column:::
+        [**glGetPolygonStipple**](glgetpolygonstipple.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexLevelParameter**](glgettexlevelparameter.md)
+    :::column-end:::
+:::row-end:::
 
-|                                          |                                                    |                                                          |
-|------------------------------------------|----------------------------------------------------|----------------------------------------------------------|
-| [**glGetClipPlane**](glgetclipplane.md) | [**glGetPixelMap**](glgetpixelmap.md)             | [**glGetTexImage**](glgetteximage.md)                   |
-| [**glGetLight**](glgetlight.md)         | [**glGetPolygonStipple**](glgetpolygonstipple.md) | [**glGetTexLevelParameter**](glgettexlevelparameter.md) |
-| [**glGetMap**](glgetmap.md)             | [**glGetTexEnv**](glgettexenv.md)                 | [**glGetTexParameter**](glgettexparameter.md)           |
-| [**glGetMaterial**](glgetmaterial.md)   | [**glGetTexGen**](glgettexgen.md)                 |                                                          |
+:::row:::
+    :::column:::
+        [**glGetMap**](glgetmap.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexEnv**](glgettexenv.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexParameter**](glgettexparameter.md)
+    :::column-end:::
+:::row-end:::
 
+:::row:::
+    :::column:::
+        [**glGetMaterial**](glgetmaterial.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexGen**](glgettexgen.md)
+    :::column-end:::
+    :::column:::
 
-
- 
+    :::column-end:::
+:::row-end:::
 
 To obtain the value of other state variables, use [**glGetBooleanv**](glgetbooleanv.md), [**glGetDoublev**](glgetdoublev.md), [**glGetFloatv**](glgetfloatv.md), or [**glGetIntegerv**](glgetintegerv.md), as appropriate. See [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) for information about how to use these functions. Other query functions you might want to use are [**glGetError**](glgeterror.md), [**glGetString**](glgetstring.md), and [**glIsEnabled**](glisenabled.md). (See [Handling Errors](handling-errors.md) for more information about functions related to error handling.) To save and restore sets of state variables, use [**glPushAttrib**](glpushattrib.md) and [**glPopAttrib**](glpopattrib.md).
 

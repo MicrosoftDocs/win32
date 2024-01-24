@@ -1,5 +1,5 @@
 ---
-Description: The PeriodicUpdatePicture method is called by an application to configure a timer in the stream that will ask for picture updates periodically. Picture updates cause high bandwidth usage, so this method will normally be used instead of UpdatePicture.
+description: The PeriodicUpdatePicture method is called by an application to configure a timer in the stream that will ask for picture updates periodically. Picture updates cause high bandwidth usage, so this method will normally be used instead of UpdatePicture.
 ms.assetid: 6ae3b5e9-bc11-4f3f-972b-21c9ac299987
 title: IKeyFrameControl::PeriodicUpdatePicture method (H323priv.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>H323priv.h</dt> </dl> |

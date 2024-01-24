@@ -1,5 +1,5 @@
 ---
-Description: The CNG API implements an extensible provider model that lets you load a provider by specifying the required cryptographic algorithm rather than a particular provider.
+description: The CNG API implements an extensible provider model that lets you load a provider by specifying the required cryptographic algorithm rather than a particular provider.
 ms.assetid: a88a089b-4afe-4201-96f7-97f19bce18a1
 title: Typical CNG Programming
 ms.topic: article

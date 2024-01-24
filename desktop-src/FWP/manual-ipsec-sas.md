@@ -24,6 +24,7 @@ To implement this example programmatically, use the following WFP configuration.
 **At FWPM\_LAYER\_INBOUND\_TRANSPORT\_V{4\|6} setup inbound per-packet filtering rules**  
 
 1.  Add a filter with the following properties. 
+
     | Filter property                                                   | Value                                                         |
     |-------------------------------------------------------------------|---------------------------------------------------------------|
     | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | [NlatUnicast](/windows/win32/api/nldef/ne-nldef-nl_address_type) |
@@ -34,6 +35,7 @@ To implement this example programmatically, use the following WFP configuration.
 
         
 2.  Exempt ICMP traffic from IPsec by adding a filter with the following properties. 
+
     | Filter property                                                   | Value                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
     | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | NlatUnicast                                                                |
@@ -46,6 +48,7 @@ To implement this example programmatically, use the following WFP configuration.
 **At FWPM\_LAYER\_OUTBOUND\_TRANSPORT\_V{4\|6} setup outbound per-packet filtering rules**  
 
 1.  Add a filter with the following properties. 
+
     | Filter property                                                   | Value                                                  |
     |-------------------------------------------------------------------|--------------------------------------------------------|
     | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | NlatUnicast                                            |
@@ -56,6 +59,7 @@ To implement this example programmatically, use the following WFP configuration.
 
         
 2.  Exempt ICMP traffic from IPsec by adding a filter with the following properties. 
+
     | Filter property                                                   | Value                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
     | **FWPM\_CONDITION\_IP\_LOCAL\_ADDRESS\_TYPE** filtering condition | NlatUnicast                                                                |

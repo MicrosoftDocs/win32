@@ -1,5 +1,5 @@
 ---
-Description: You can draw your own window background rather than having the system draw it for you.
+description: You can draw your own window background rather than having the system draw it for you.
 ms.assetid: 72a342dc-2766-4ec9-b4c6-5ac3c550ea25
 title: Drawing a Custom Window Background
 ms.topic: article

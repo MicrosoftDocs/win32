@@ -1,5 +1,5 @@
 ---
-Description: An identifier that can be set on an IMFOutputPolicy.
+description: An identifier that can be set on an IMFOutputPolicy.
 ms.assetid: 89da33c8-97af-4c56-8bdb-2ac588810d77
 title: MF_POLICY_ID (Mfidl.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ The value can be recieved from the [MEPolicySet](./mepolicyset.md) media event. 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 April 2020 Update   <br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

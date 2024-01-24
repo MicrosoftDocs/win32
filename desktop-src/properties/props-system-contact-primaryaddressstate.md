@@ -1,5 +1,5 @@
 ---
-Description: Primary address state name of the contact.
+description: Primary address state name of the contact.
 ms.assetid: df093aed-f427-41a1-b2be-f62118c3fb0f
 title: System.Contact.PrimaryAddressState
 ms.topic: article

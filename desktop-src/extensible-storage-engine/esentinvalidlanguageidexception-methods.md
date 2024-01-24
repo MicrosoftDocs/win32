@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLanguageIdException methods"
 title: EsentInvalidLanguageIdException methods
 TOCTitle: EsentInvalidLanguageIdException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidLanguageIdException](dn319529\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLanguageIdException](./esentinvalidlanguageidexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLanguageIdException class](dn319529\(v=exchg.10\).md)
+[EsentInvalidLanguageIdException class](./esentinvalidlanguageidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

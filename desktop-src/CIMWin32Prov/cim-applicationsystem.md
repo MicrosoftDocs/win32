@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ApplicationSystem class represents an application or software system that supports a particular business function that can be managed as an independent unit.
+description: The CIM\_ApplicationSystem class represents an application or software system that supports a particular business function that can be managed as an independent unit.
 ms.assetid: 42471863-ff6c-4464-8b0a-7dad2fd11934
 ms.tgt_platform: multiple
 title: CIM_ApplicationSystem class
@@ -341,7 +341,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

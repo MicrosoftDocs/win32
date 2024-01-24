@@ -1,5 +1,5 @@
 ---
-Description: The CryptoAPI message functions adhere to PKCS \#7 Cryptographic Message Syntax (CMS) Standard. Developers need to be familiar with this specification to most effectively use the low-level message functions. A few of its definitions are highlighted here.
+description: The CryptoAPI message functions adhere to PKCS \#7 Cryptographic Message Syntax (CMS) Standard. Developers need to be familiar with this specification to most effectively use the low-level message functions. A few of its definitions are highlighted here.
 ms.assetid: 99b633fe-9898-4570-ba8b-16ee78d351da
 title: PKCS \#7 Cryptographic Messaging Syntax Concepts
 ms.topic: article

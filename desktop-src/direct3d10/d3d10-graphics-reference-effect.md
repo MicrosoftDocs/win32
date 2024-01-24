@@ -1,12 +1,12 @@
 ---
-Description: The Direct3D API defines several API elements to help you create and manage the effect system.
+description: The Direct3D API defines several API elements to help you create and manage the effect system.
 ms.assetid: d3b0b7a2-0820-4bb1-8b9e-c6b55a039963
 title: Effect Reference (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Effect Reference
+# Effect Reference (Direct3D 10 Graphics)
 
 The Direct3D API defines several API elements to help you create and manage the effect system.
 

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the analysis hint IContextNode objects that are attached to the IInkAnalyzer and that have the specified name.
+description: Retrieves all of the analysis hint IContextNode objects that are attached to the IInkAnalyzer and that have the specified name.
 ms.assetid: 15269ee0-055c-424e-be49-945f47e8a77e
 title: IInkAnalyzer::GetAnalysisHintsByName method (IACom.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ To find which property values are set on a context node, use [**IContextNode::Ge
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

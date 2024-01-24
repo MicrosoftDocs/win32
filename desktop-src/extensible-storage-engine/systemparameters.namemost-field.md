@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.NameMost field"
 title: SystemParameters.NameMost field
 TOCTitle: NameMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.NameMost
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Maximum size of a table/column/index name.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const int NameMost
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Keyboard WMI class represents a keyboard installed on a computer system running Windows.
+description: The Win32\_Keyboard WMI class represents a keyboard installed on a computer system running Windows.
 ms.assetid: f42a8e4f-3db9-4f9a-88ca-336ec883e85b
 ms.tgt_platform: multiple
 title: Win32_Keyboard class
@@ -1272,8 +1272,6 @@ This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
 The **Win32\_Keyboard** class is derived from [**CIM\_Keyboard**](cim-keyboard.md).
 
-For more information about using Win32\_Keyboard, see [Use PowerShell and WMI to Find Wireless Keyboard & Mouse](https://blogs.technet.com/b/heyscriptingguy/archive/2012/11/30/use-powershell-and-wmi-to-find-wireless-keyboard-amp-mouse.aspx).
-
 ## Examples
 
 The following PowerShell code finds a wireless keyboard and mouse.
@@ -1317,7 +1315,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

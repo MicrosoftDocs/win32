@@ -6,11 +6,10 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Resource Reference
+# Resource Reference (Direct3D 11 Graphics)
 
 The Direct3D API defines several API elements to help you create and manage resources.
 
-## 
 
 ## In this section
 

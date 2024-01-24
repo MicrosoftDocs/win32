@@ -1,5 +1,5 @@
 ---
-Description: Contains the path of the icon file for the connection.
+description: Contains the path of the icon file for the connection.
 ms.assetid: 9daf4916-914b-4326-9933-b433cc00b4c1
 title: ICONFilePath (MBNProfile) Element
 ms.topic: reference
@@ -39,7 +39,7 @@ The **ICONFilePath** element is defined by the [**MBNProfile**](schema-mbnprofil
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

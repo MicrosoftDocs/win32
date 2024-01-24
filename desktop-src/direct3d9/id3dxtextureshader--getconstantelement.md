@@ -1,5 +1,5 @@
 ---
-Description: Get a constant from the constant table.
+description: Get a constant from the constant table.
 ms.assetid: ebb05a09-af20-4c71-8594-940fce3a97e7
 title: ID3DXTextureShader::GetConstantElement method (D3DX9Shader.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ To get a constant that is not part of an array, use [**ID3DXTextureShader::GetCo
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

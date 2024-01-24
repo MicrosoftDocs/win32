@@ -1,5 +1,5 @@
 ---
-Description: A restricted token is a primary or impersonation access token that has been modified by the CreateRestrictedToken function.
+description: A restricted token is a primary or impersonation access token that has been modified by the CreateRestrictedToken function.
 ms.assetid: 06580ab9-ff58-4aa9-bf88-9536a2e1981d
 title: Restricted Tokens
 ms.topic: article

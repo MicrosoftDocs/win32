@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 To disable a user account, set the AccountDisabled property to **TRUE** in the [**IADsUser**](/windows/desktop/api/Iads/nn-iads-iadsuser) interface. This is similar to the WinNT provider. The following code examples show how to disable a user account.
 
-## Example Code
+## Example 1
 
 
 ```VB
@@ -35,7 +35,7 @@ Cleanup:
 
 
 
-## Example Code
+## Example 2
 
 
 ```C++

@@ -1,5 +1,5 @@
 ---
-Description: The IAzScope interface exposes the following methods.
+description: The IAzScope interface exposes the following methods.
 ms.assetid: C9C6082C-1AD8-436F-8BC0-33CA579DD84C
 title: IAzScope Methods
 ms.topic: reference

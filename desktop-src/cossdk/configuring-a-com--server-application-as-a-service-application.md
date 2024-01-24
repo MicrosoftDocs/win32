@@ -1,5 +1,5 @@
 ---
-Description: A COM+ server application can be created as a service to start either automatically during the system startup or manually by activations.
+description: A COM+ server application can be created as a service to start either automatically during the system startup or manually by activations.
 ms.assetid: 56487746-328d-4435-af58-368aaa15b32a
 title: Configuring a COM+ Server Application as a Service Application
 ms.topic: article

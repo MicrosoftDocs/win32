@@ -41,7 +41,7 @@ A handle to the client window sending the message.
 *lParam* 
 </dt> <dd>
 
-The low-order word contains an atom that identifies the application with which a conversation is requested. The application name cannot contain slashes (/) or backslashes (\). These characters are reserved for network implementations. If this parameter is **NULL**, a conversation with all applications is requested.
+The low-order word contains an atom that identifies the application with which a conversation is requested. The application name cannot contain slashes (/) or backslashes (\\). These characters are reserved for network implementations. If this parameter is **NULL**, a conversation with all applications is requested.
 
 The high-order word contains an atom that identifies the topic for which a conversation is requested. If the topic is **NULL**, conversations for all available topics are requested.
 
@@ -69,7 +69,7 @@ To complete the initiation of a conversation, the server application must respon
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

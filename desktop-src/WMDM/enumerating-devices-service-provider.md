@@ -1,6 +1,6 @@
 ---
 title: Enumerating devices (WMDM)
-description: Enumerating Devices
+description: Windows Media Device Manager maintains a cache of connected devices. Learn how Windows Media Device Manager maintains or updates its cache.
 ms.assetid: 7602da65-4c98-4766-b206-2129dad4cc2a
 keywords:
 - Windows Media Device Manager,enumerating devices

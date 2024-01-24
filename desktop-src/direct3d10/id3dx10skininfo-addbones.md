@@ -1,5 +1,5 @@
 ---
-Description: Allocate space for more bones.
+description: Allocate space for more bones.
 ms.assetid: f2acd338-f2c2-4340-a673-f36940cf31d9
 title: ID3DX10SkinInfo::AddBones method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If this method succeeds, the return value is S\_OK. If the method fails, the ret
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

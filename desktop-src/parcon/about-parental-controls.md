@@ -1,5 +1,5 @@
 ---
-Description: About Parental Controls
+description: About Parental Controls
 ms.assetid: 667882e2-2b7d-42b6-8546-10b89af9d1ee
 title: About Parental Controls
 ms.topic: article

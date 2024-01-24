@@ -1,5 +1,5 @@
 ---
-Description: Defines the type of endpoints that can be used to connect to a service.
+description: Defines the type of endpoints that can be used to connect to a service.
 ms.assetid: 50397D25-7C71-4AA2-89BF-F90CBDCFFA91
 title: UpdateEndpointType enumeration (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ A reporting endpoint that is used when the client reports the results of scans, 
 
 In the case of public services (Windows Update and Microsoft Update), this is done for quality monitoring purposes.
 
-In the case of private services, such as a corporate WSUS server, thhis type of endpoint also allows the server to collect inventory and other information about the client computers under management.
+In the case of private services, such as a corporate WSUS server, this type of endpoint also allows the server to collect inventory and other information about the client computers under management.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ The secondary-service-authentication endpoint is used by a client to provide aut
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                              |

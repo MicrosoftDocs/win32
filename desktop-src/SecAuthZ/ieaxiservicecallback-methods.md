@@ -1,5 +1,5 @@
 ---
-Description: The IeAxiServiceCallback interface exposes the following methods.
+description: The IeAxiServiceCallback interface exposes the following methods.
 ms.assetid: D7D12E5C-A449-4999-9162-98F2F196135F
 title: IeAxiServiceCallback Methods
 ms.topic: reference

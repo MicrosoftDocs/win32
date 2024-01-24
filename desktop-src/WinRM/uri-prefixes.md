@@ -1,5 +1,5 @@
 ---
-title: URI Prefixes
+title: URI prefixes
 description: The resource URI prefix is different depending on which XML schema describes the resource.
 ms.assetid: 47c32da6-98c9-4f66-82ac-647976127cb7
 ms.tgt_platform: multiple
@@ -12,7 +12,7 @@ api_type:
 api_location: 
 ---
 
-# URI Prefixes
+# URI prefixes
 
 The [*resource URI*](windows-remote-management-glossary.md) prefix is different depending on which XML schema describes the resource.
 
@@ -44,7 +44,7 @@ A prefix alias is a shortcut that represents the long resource URI prefix. You c
 
 Be aware that an alias cannot be used inside an endpoint reference (EPR) when specifying a resource URI. Windows Remote Management is unable to expand the alias when it is embedded in XML.
 
-In the following code example, the winrm alias is used in an EPR instead of the complete resource URI, which is http://schemas.microsoft.com/wbem/wsman/1/config/Listener. In this case, WinRM returns an error that indicates the service cannot process the request.
+In the following code example, the winrm alias is used in an EPR instead of the complete resource URI, which is `http://schemas.microsoft.com/wbem/wsman/1/config/Listener`. In this case, WinRM returns an error that indicates the service cannot process the request.
 
 
 ```XML
@@ -65,42 +65,42 @@ The following lists defined aliases and resource URIs for which they substitute.
 <span id="wmi"></span><span id="WMI"></span>wmi
 </dt> <dd>
 
-http://schemas.microsoft.com/wbem/wsman/1/wmi
+`http://schemas.microsoft.com/wbem/wsman/1/wmi`
 
 </dd> <dt>
 
 <span id="wmicimv2"></span><span id="WMICIMV2"></span>wmicimv2
 </dt> <dd>
 
-http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2
+`http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2`
 
 </dd> <dt>
 
 <span id="cimv2"></span><span id="CIMV2"></span>cimv2
 </dt> <dd>
 
-https://schemas.dmtf.org/wbem/wscim/1/cim-schema/2
+`https://schemas.dmtf.org/wbem/wscim/1/cim-schema/2`
 
 </dd> <dt>
 
 <span id="winrm"></span><span id="WINRM"></span>winrm
 </dt> <dd>
 
-http://schemas.microsoft.com/wbem/wsman/1
+`http://schemas.microsoft.com/wbem/wsman/1`
 
 </dd> <dt>
 
 <span id="wsman"></span><span id="WSMAN"></span>wsman
 </dt> <dd>
 
-http://schemas.microsoft.com/wbem/wsman/1
+`http://schemas.microsoft.com/wbem/wsman/1`
 
 </dd> <dt>
 
 <span id="shell"></span><span id="SHELL"></span>shell
 </dt> <dd>
 
-http://schemas.microsoft.com/wbem/wsman/1/windows/shell
+`http://schemas.microsoft.com/wbem/wsman/1/windows/shell`
 
 </dd> </dl>
 
@@ -116,7 +116,3 @@ http://schemas.microsoft.com/wbem/wsman/1/windows/shell
 
 [Resource URIs](resource-uris.md)
 </dt> </dl>
-
- 
-
- 

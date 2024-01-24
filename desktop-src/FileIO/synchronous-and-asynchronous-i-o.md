@@ -1,12 +1,15 @@
 ---
-Description: 'There are two types of input/output (I/O) synchronization: synchronous I/O and asynchronous I/O. Asynchronous I/O is also referred to as overlapped I/O.'
+description: 'There are two types of input/output (I/O) synchronization: synchronous I/O and asynchronous I/O. Asynchronous I/O is also referred to as overlapped I/O.'
 ms.assetid: ade51d98-cc9d-4b33-9c52-559a9cb14707
 title: Synchronous and Asynchronous I/O
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: project-verbatim
 ---
 
 # Synchronous and Asynchronous I/O
+
+Also see [I/O-related sample applications](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winbase/io).
 
 There are two types of input/output (I/O) synchronization: synchronous I/O and asynchronous I/O. Asynchronous I/O is also referred to as overlapped I/O.
 

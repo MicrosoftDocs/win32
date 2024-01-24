@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentRecordException members"
 title: EsentNoCurrentRecordException members
 TOCTitle: EsentNoCurrentRecordException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.NoCurrentRecord exceptions.
 
-The [EsentNoCurrentRecordException](dn334730\(v=exchg.10\).md) type exposes the following members.
+The [EsentNoCurrentRecordException](./esentnocurrentrecordexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentNoCurrentRecordException class](dn334730\(v=exchg.10\).md)
+[EsentNoCurrentRecordException class](./esentnocurrentrecordexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the width of the texture, in pixels.
+description: ID3DXPRTCompBuffer::GetWidth method - Retrieves the width of the texture, in pixels.
 ms.assetid: 32a69449-327b-4f12-b3ff-fe9caeab783b
 title: ID3DXPRTCompBuffer::GetWidth method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the width of the texture, in pixels.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

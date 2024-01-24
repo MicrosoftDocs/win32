@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException constructor (String, JET_err)"
 title: EsentResourceException constructor (String, JET_err)
 TOCTitle: EsentResourceException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResourceException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentResourceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,7 @@ protected EsentResourceException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +71,10 @@ protected EsentResourceException(
 
 #### Reference
 
-[EsentResourceException class](dn350557\(v=exchg.10\).md)
+[EsentResourceException class](./esentresourceexception-class.md)
 
-[EsentResourceException members](dn350580\(v=exchg.10\).md)
+[EsentResourceException members](./esentresourceexception-members.md)
 
-[EsentResourceException overload](dn350556\(v=exchg.10\).md)
+[EsentResourceException overload](./esentresourceexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

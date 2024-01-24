@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Compute Shaders on Downlevel Hardware
 
-Direct3D 11 provides the ability to use [compute shaders](direct3d-11-advanced-stages-compute-shader.md) that operate on most Direct3D 10.x hardware, with some limitations to operation. The compute shader technology is also known as the [DirectCompute](https://blogs.msdn.com/b/chuckw/archive/2010/07/14/directcompute.aspx) technology. This topic discusses how to make use of [compute shaders](direct3d-11-advanced-stages-compute-shader.md) in a Direct3D 11 app on Direct3D 10 hardware.
+Direct3D 11 provides the ability to use [compute shaders](direct3d-11-advanced-stages-compute-shader.md) that operate on most Direct3D 10.x hardware, with some limitations to operation. The compute shader technology is also known as the DirectCompute technology. This topic discusses how to make use of [compute shaders](direct3d-11-advanced-stages-compute-shader.md) in a Direct3D 11 app on Direct3D 10 hardware.
 
 Support for compute shaders on downlevel hardware is only for devices compatible with Direct3D 10.x. Compute shaders cannot be used on Direct3D 9.x hardware.
 

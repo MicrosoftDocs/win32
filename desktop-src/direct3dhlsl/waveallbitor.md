@@ -17,7 +17,7 @@ api_location:
 
 # WaveActiveBitOr function
 
-Returns the bitwise OR of all the values of the expression across all active lanes in the current wave and replicates it back to all active lanes.
+Returns the bitwise OR of all the values of `<expr>` across all active non-helper lanes in the current wave, and replicates it back to all active non-helper lanes.
 
 ## Syntax
 
@@ -44,13 +44,7 @@ The bitwise OR value.
 
 ## Remarks
 
-This function is supported from shader model 6.0, in the following types of shaders:
-
-
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
+This function is supported from shader model 6.0 in all shader stages. 
 
 
 

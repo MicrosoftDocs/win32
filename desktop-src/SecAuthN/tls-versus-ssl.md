@@ -1,5 +1,5 @@
 ---
-Description: TLS is a standard closely related to SSL 3.0, and is sometimes referred to as &\#0034;SSL 3.1&\#0034;.
+description: TLS is a standard closely related to SSL 3.0, and is sometimes referred to as &\#0034;SSL 3.1&\#0034;.
 ms.assetid: 92b1b486-7e10-48a2-b1d2-56d4e472dbe4
 title: TLS vs. SSL
 ms.topic: article

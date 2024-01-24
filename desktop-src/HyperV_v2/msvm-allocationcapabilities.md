@@ -1,5 +1,5 @@
 ---
-Description: Defines the means by which a client can discover the valid range of default settings for a virtual resource.
+description: Defines the means by which a client can discover the valid range of default settings for a virtual resource.
 ms.assetid: AC516723-7CD2-4F10-B8BF-EF9D458D3E5B
 title: Msvm_AllocationCapabilities class
 ms.topic: reference
@@ -438,7 +438,7 @@ Access to the **Msvm\_AllocationCapabilities** class might be restricted by UAC 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

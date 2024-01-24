@@ -1,5 +1,5 @@
 ---
-Description: Generating Stream Samples from an Existing ASF Data Object
+description: Generating Stream Samples from an Existing ASF Data Object
 ms.assetid: eb27f122-d958-495d-98ea-8befd105a9a8
 title: Generating Stream Samples from an Existing ASF Data Object
 ms.topic: article

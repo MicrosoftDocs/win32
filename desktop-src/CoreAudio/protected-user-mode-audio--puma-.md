@@ -1,5 +1,5 @@
 ---
-Description: Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering.
+description: Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering.
 ms.assetid: 27a50026-9e48-48b1-9249-7528a97333c9
 title: Protected User Mode Audio (PUMA)
 ms.topic: article
@@ -505,7 +505,7 @@ int __cdecl wmain(int argc, char* argv[])
     hr = ClearOTAPolicy(pMFTrustedOutput,pMFOutputTrustAuthority,pMFOutputPolicy);
     IF_FAILED_JUMP(hr, Exit);
 
-    // After above release operations, the following Play() will succeed without without device-in-use error message 0x8889000A
+    // After above release operations, the following Play() will succeed without device-in-use error message 0x8889000A
     DSBuffer->SetCurrentPosition(0);
     hr = DSBuffer->Play(0, 0, DSBPLAY_LOOPING);
     IF_FAILED_JUMP(hr, Exit);

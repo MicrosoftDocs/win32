@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.IndexSegments property"
 title: IndexInfo.IndexSegments property 
 TOCTitle: 'IndexSegments property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.IndexSegments
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the segments of the index.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,14 +54,14 @@ public IList<IndexSegment> IndexSegments { get; }
 
 #### Property value
 
-Type: [System.Collections.Generic.IList](/dotnet/api/system.collections.generic.ilist-1)\<[IndexSegment](dn350912\(v=exchg.10\).md)\>  
+Type: [System.Collections.Generic.IList](/dotnet/api/system.collections.generic.ilist-1)\<[IndexSegment](./indexsegment-class.md)\>  
 
 ## See also
 
 #### Reference
 
-[IndexInfo class](dn350919\(v=exchg.10\).md)
+[IndexInfo class](./indexinfo-class.md)
 
-[IndexInfo members](dn350916\(v=exchg.10\).md)
+[IndexInfo members](./indexinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

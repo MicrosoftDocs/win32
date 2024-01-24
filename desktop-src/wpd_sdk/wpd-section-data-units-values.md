@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_SECTION\_DATA\_UNITS\_VALUES enumeration indicates the units for a referenced section of data.
+description: The WPD\_SECTION\_DATA\_UNITS\_VALUES enumeration indicates the units for a referenced section of data.
 ms.assetid: d787d8b4-b622-4370-baf9-a2783133260f
 title: WPD_SECTION_DATA_UNITS_VALUES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ The given units are specified in milliseconds.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

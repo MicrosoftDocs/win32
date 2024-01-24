@@ -1,5 +1,5 @@
 ---
-Description: GetCount is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: GetCount is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 1fe39f2d-f95e-4436-a780-40fe8bd41b74
 title: IEnumUserIdentity::GetCount method (Msident.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ If support for multiple user identities is disabled, *pnCount* will receive a va
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

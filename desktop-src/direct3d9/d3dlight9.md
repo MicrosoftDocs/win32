@@ -1,5 +1,5 @@
 ---
-Description: Defines a set of lighting properties.
+description: Defines a set of lighting properties.
 ms.assetid: 25ce9d72-949c-41fc-8e3b-146d6a2de0dc
 title: D3DLIGHT9 structure (D3D9Types.h)
 ms.topic: reference
@@ -195,7 +195,7 @@ Angle, in radians, defining the outer edge of the spotlight's outer cone. Points
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

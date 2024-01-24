@@ -16,10 +16,13 @@ keywords:
 - elements,VIEW
 - elements,THEME
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Start with THEME and VIEW
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Every skin must have exactly one **THEME** element and at least one **VIEW** element.
 
@@ -45,9 +48,9 @@ Leave some blank lines before the closing **VIEW** tag because you'll be adding 
 
 Save your file with any file name you wish, but be sure that the extension is .wms. For example, a typical file name might be skinone.wms.
 
-Every skin must start with <THEME> and end with </THEME>. You can only have one **THEME** element in your skin, but you must have one.
+Every skin must start with &lt;THEME&gt; and end with </THEME>. You can only have one **THEME** element in your skin, but you must have one.
 
-You must also have at least one **VIEW** element. You can have more than one **VIEW**, but this example only has one. You must have an opening <VIEW> and a closing <VIEW>. Notice that the opening </VIEW> tag does not close the tag right away, but includes several attributes before the closing angle bracket (>). The following attributes are used in the **THEME** element in this example:
+You must also have at least one **VIEW** element. You can have more than one **VIEW**, but this example only has one. You must have an opening &lt;VIEW&gt; and a closing &lt;VIEW&gt;. Notice that the opening &lt;/VIEW&gt; tag does not close the tag right away, but includes several attributes before the closing angle bracket (>). The following attributes are used in the **THEME** element in this example:
 
 **clippingColor**
 

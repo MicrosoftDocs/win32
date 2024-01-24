@@ -1,5 +1,5 @@
 ---
-Description: ICE20 validates the standard dialogs and dialog requirements of an installation package having an authored user interface. Installation packages with an authored user interface have a Dialog table and the LIMITUI property is not set.
+description: ICE20 validates the standard dialogs and dialog requirements of an installation package having an authored user interface. Installation packages with an authored user interface have a Dialog table and the LIMITUI property is not set.
 ms.assetid: 5bcd3cd4-e370-41ee-a09d-eec444fc620e
 title: ICE20
 ms.topic: article

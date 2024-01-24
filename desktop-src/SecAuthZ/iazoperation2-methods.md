@@ -1,5 +1,5 @@
 ---
-Description: The IAzOperation2 interface exposes the following methods.
+description: The IAzOperation2 interface exposes the following methods.
 ms.assetid: C2A96517-6328-401B-B018-6D8FE1DFD682
 title: IAzOperation2 Methods
 ms.topic: reference

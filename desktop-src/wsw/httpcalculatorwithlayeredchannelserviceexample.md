@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithLayeredChannelServiceExample
-description: This example shows how to use service host for hosting a calculator service with a custom channel and listener implementation that layer on top of HTTP.
+description: Review a Windows Web Services API (WWSAPI) C++ example of an HTTP calculator with layered channel service.
 ms.assetid: c5bc37bc-f242-4eda-abc4-510793d301d8
 keywords:
 - HttpCalculatorWithLayeredChannelServiceExample Native-Web-Services

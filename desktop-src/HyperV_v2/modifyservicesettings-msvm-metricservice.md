@@ -1,5 +1,5 @@
 ---
-Description: Modifies the setting data for the service.
+description: ModifyServiceSettings method of the Msvm_MetricService class - Modifies the setting data for the service.
 ms.assetid: E6133DA7-A137-42FA-A523-5B93E9C6DB79
 title: ModifyServiceSettings method of the Msvm_MetricService class
 ms.topic: reference
@@ -79,7 +79,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

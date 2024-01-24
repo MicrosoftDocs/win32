@@ -1,5 +1,5 @@
 ---
-Description: Runs a predefined script in an arbitrary scripting language when an event is delivered to it.
+description: Runs a predefined script in an arbitrary scripting language when an event is delivered to it.
 ms.assetid: 2c0aa216-4255-49ff-9bbd-d6c62b5b9139
 ms.tgt_platform: multiple
 title: ActiveScriptEventConsumer class
@@ -192,15 +192,11 @@ Either **ScriptText** or **ScriptFileName** must be not **NULL**. If both proper
 
 When WMI is run as a service, scripts run by **ActiveScriptEventConsumer** do not generate screen output. Scripts that use **MsgBox** do run, but they do not display information on the screen. Running the WMI service as an executable file is not supported, but WMI allows scripts that use the **MsgBox** function to display output or accept user input. None of the methods provided by the [WScript](/previous-versions//at5ydy31(v=vs.85)) object can be used because **ActiveScriptEventConsumer** does not use Windows Script Host (WSH).
 
-## Examples
-
-The [Create Permanent WMI Event registration to monitor files](https://Gallery.TechNet.Microsoft.Com/Create-Permenant-WMI-Event-f67ce5c2) PowerShell example on TechNet Gallery uses **ActiveScriptEventConsumer** as part of a complex script to set up a permanent WMI event registration.
-
 ## Requirements
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

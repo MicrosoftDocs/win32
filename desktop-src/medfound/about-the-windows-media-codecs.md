@@ -1,5 +1,5 @@
 ---
-Description: About the Windows Media Codecs
+description: About the Windows Media Codecs
 ms.assetid: C0B0265C-AD20-433B-A554-112AEB0208B9
 title: About the Windows Media Codecs
 ms.topic: article
@@ -34,7 +34,7 @@ WMA 9 is backward-compatible with previous Windows Media Audio-compatible decode
 
 ### Windows Media Audio 10 Professional
 
-Windows Media Audio 10 Professional (WMA 10 Pro) is the most flexible Windows Media audio codec available – supporting profiles that include everything from full-resolution 24-bit/96 kHz audio in stereo, 5.1 channel, or even 7.1 channel surround sound, to highly efficient mobile capabilities at 24 Kbps to 96 Kbps for stereo, and 128 Kbps to 256 Kbps for 5.1-channel sound. WMA 10 Pro offers incredible quality for consumers using high-fidelity hardware and 5.1 channel surround sound-equipped computers — and for consumers playing audio content on their mobile devices. WMA 10 Pro supports streaming, progressive download, or download-and-play delivery at 128 to 768 Kbps. For more information about the mobile capabilities in WMA Pro and how it compares to other audio codecs, download the [NSTL Test Report]( https://download.microsoft.com/download/4/b/0/4b0596b4-3601-4b78-9ed0-b6f5840eae22/WMAPro-vs-HE_AAC-v2%20final.pdf).
+Windows Media Audio 10 Professional (WMA 10 Pro) is the most flexible Windows Media audio codec available – supporting profiles that include everything from full-resolution 24-bit/96 kHz audio in stereo, 5.1 channel, or even 7.1 channel surround sound, to highly efficient mobile capabilities at 24 Kbps to 96 Kbps for stereo, and 128 Kbps to 256 Kbps for 5.1-channel sound. WMA 10 Pro offers incredible quality for consumers using high-fidelity hardware and 5.1 channel surround sound-equipped computers — and for consumers playing audio content on their mobile devices. WMA 10 Pro supports streaming, progressive download, or download-and-play delivery at 128 to 768 Kbps.
 
 When using 5.1 surround sound audio compressed at 384 Kbps with WMA 10 Pro, most listeners cannot discern any differences between the compressed music and the original pulse code modulation (PCM) files. WMA Pro also offers dynamic range control using the maximum and average audio amplitudes that are calculated during the encoding process. Using the Quiet Mode feature in Windows Media Player 9 and later, users can hear either the full dynamic range, a medium difference range up to 12 decibels (dB) above the average, or a little difference range up to 6 dB above the average.
 

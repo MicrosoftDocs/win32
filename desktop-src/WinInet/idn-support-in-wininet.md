@@ -46,7 +46,7 @@ InternetSetOption( hRequest,
                    sizeof(DWORD) );
 ```
 
-The following table defines the options that support IDN. For more information, see the [Option Flags](option-flags.md) topic.
+The following table defines the options that support IDN. For more information, see the [Option flags](option-flags.md) topic.
 
 
 

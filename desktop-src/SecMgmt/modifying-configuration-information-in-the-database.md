@@ -1,5 +1,5 @@
 ---
-Description: The attachment snap-in extension must enable users to change configuration information through its analysis node.
+description: The attachment snap-in extension must enable users to change configuration information through its analysis node.
 ms.assetid: 34e28b54-4f7b-4335-a6ca-08948559fa34
 title: Modifying Configuration Information in the Database
 ms.topic: article

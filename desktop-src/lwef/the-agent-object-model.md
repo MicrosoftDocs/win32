@@ -27,7 +27,7 @@ The Microsoft Agent Object Model consists of the following objects:
 
 These objects are organized in the following hierarchy. (The dotted line following an object indicates that multiple objects can exist.)
 
-![](images/pro358.gif)
+![Diagram that shows the hierarchy of the objects, starting with 'Request'.](images/pro358.gif)
 
  
 

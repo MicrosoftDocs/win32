@@ -1,6 +1,6 @@
 ---
 title: EM_SETRECTNP message (Winuser.h)
-description: Sets the formatting rectangle of a multiline edit control.
+description: EM_SETRECTNP message - Sets the formatting rectangle of a multiline edit control.
 ms.assetid: 1ab497ca-023f-4c26-b92d-b441a0d7b90c
 keywords:
 - EM_SETRECTNP message Windows Controls
@@ -40,7 +40,7 @@ This message is processed only by multiline edit controls. You can send this mes
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that specifies the new dimensions of the rectangle. If this parameter is **NULL**, the formatting rectangle is set to its default values.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that specifies the new dimensions of the rectangle. If this parameter is **NULL**, the formatting rectangle is set to its default values.
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ This message does not return a value.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
@@ -77,7 +77,7 @@ This message does not return a value.
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](/previous-versions//dd162897(v=vs.85))
+[**RECT**](/windows/win32/api/windef/ns-windef-rect)
 </dt> </dl>
 
  

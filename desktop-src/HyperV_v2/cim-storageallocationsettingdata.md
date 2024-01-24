@@ -1,5 +1,5 @@
 ---
-Description: Represents settings for the allocation of virtual storage.
+description: Represents settings for the allocation of virtual storage.
 ms.assetid: 128fd3e9-8759-4b2f-a881-d34e89c539ac
 title: CIM_StorageAllocationSettingData class
 ms.topic: reference
@@ -185,9 +185,7 @@ Serial Number/Vendor/Model (SNVM) SNVM is 3 strings representing the vendor name
 
 </dt> <dd>
 
-9 = NAA as a generic format. See
-
-https://standards.ieee.org/regauth/oui/tutorials/fibrecomp\_id.html. Formatted as 16 or 32 unseparated uppercase hex characters (2 per binary byte).
+9 = NAA as a generic format. Formatted as 16 or 32 unseparated uppercase hex characters (2 per binary byte).
 
 For example '21000020372D3C73'
 
@@ -478,7 +476,7 @@ The size, in bytes, of the blocks that form the storage allocation request. If t
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

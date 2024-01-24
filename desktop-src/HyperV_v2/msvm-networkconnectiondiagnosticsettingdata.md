@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings used to test the network connectivity of a virtual machine.
+description: Represents the settings used to test the network connectivity of a virtual machine.
 ms.assetid: d719d9c9-7ca9-40a0-ada8-185b8cd44c22
 title: Msvm_NetworkConnectionDiagnosticSettingData class
 ms.topic: reference
@@ -151,7 +151,7 @@ The sequence number.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedColumnMustBeTaggedException constructor"
 title: EsentMultiValuedColumnMustBeTaggedException constructor 
 TOCTitle: 'EsentMultiValuedColumnMustBeTaggedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedColumnMustBeTaggedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMultiValuedColumnMustBeTaggedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentMultiValuedColumnMustBeTaggedException()
 
 #### Reference
 
-[EsentMultiValuedColumnMustBeTaggedException class](dn334758\(v=exchg.10\).md)
+[EsentMultiValuedColumnMustBeTaggedException class](./esentmultivaluedcolumnmustbetaggedexception-class.md)
 
-[EsentMultiValuedColumnMustBeTaggedException members](dn334696\(v=exchg.10\).md)
+[EsentMultiValuedColumnMustBeTaggedException members](./esentmultivaluedcolumnmustbetaggedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Provides methods for getting and setting effect parameters such as constants, functions, shaders, and techniques.
+description: Provides methods for getting and setting effect parameters such as constants, functions, shaders, and techniques.
 ms.assetid: dd5e107d-2f09-4f6c-ad6c-52cbcbe0cbd1
 title: ID3DXBaseEffect interface (D3DX9Effect.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ typedef interface ID3DXBaseEffect *LPD3DXBASEEFFECT;
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

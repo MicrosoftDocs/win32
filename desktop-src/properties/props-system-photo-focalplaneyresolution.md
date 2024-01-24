@@ -1,5 +1,5 @@
 ---
-Description: Indicates the number of pixels in the image height (Y direction) per FocalPlaneResolutionUnit on the camera focal plane. Calculated from PKEY\_Photo\_FocalPlaneYResolutionNumerator and PKEY\_Photo\_FocalPlaneYResolutionDenominator.
+description: Indicates the number of pixels in the image height (Y direction) per FocalPlaneResolutionUnit on the camera focal plane. Calculated from PKEY\_Photo\_FocalPlaneYResolutionNumerator and PKEY\_Photo\_FocalPlaneYResolutionDenominator.
 ms.assetid: 926b6843-0d5b-46be-9608-291e609cf270
 title: System.Photo.FocalPlaneYResolution
 ms.topic: article
@@ -34,7 +34,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

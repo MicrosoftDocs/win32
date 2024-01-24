@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are used with fonts and text:'
+description: 'The following elements are used with fonts and text:'
 ms.assetid: ee1ec22a-c611-4b09-b600-85c0f7ceff73
 title: Font and Text Reference
 ms.topic: article

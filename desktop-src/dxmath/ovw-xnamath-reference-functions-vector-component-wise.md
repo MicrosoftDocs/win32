@@ -1,5 +1,5 @@
 ---
-Description: Lists the component-wise vector functions.
+description: Lists the component-wise vector functions.
 ms.assetid: f5464614-f6bb-427d-5488-3ba0fd4c6e8d
 title: Component-wise vector functions
 ms.topic: reference

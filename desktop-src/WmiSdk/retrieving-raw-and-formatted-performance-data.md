@@ -1,5 +1,5 @@
 ---
-Description: The following topic describes how to retrieve the on-line programming documentation for a dynamically-created raw or formatted data object.
+description: The following topic describes how to retrieve the on-line programming documentation for a dynamically-created raw or formatted data object.
 ms.assetid: B3CD7E2C-9FCF-42FB-8713-01A696E905B0
 ms.tgt_platform: multiple
 title: Retrieving Documentation for Raw and Formatted Performance Data Objects

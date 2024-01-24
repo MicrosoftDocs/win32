@@ -1,5 +1,5 @@
 ---
-Description: Audio Endpoint Devices
+description: Audio Endpoint Devices
 ms.assetid: 773714fb-3b00-4f03-988f-05c5835f87cf
 title: Audio Endpoint Devices
 ms.topic: article

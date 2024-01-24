@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an array containing the packet property identifiers for the specified stroke.
+description: Retrieves an array containing the packet property identifiers for the specified stroke.
 ms.assetid: 169e3ce3-fb81-4ed6-b380-ef0d12444ba7
 title: IContextNode::GetStrokePacketDescriptionById method (IACom.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

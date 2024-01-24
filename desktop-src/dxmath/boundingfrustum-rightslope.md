@@ -1,5 +1,5 @@
 ---
-Description: The slope of the right side of the BoundingFrustum.
+description: The slope of the right side of the BoundingFrustum.
 ms.assetid: 0392a81b-610f-4199-b32d-40d862ba4652
 title: BoundingFrustum.RightSlope (DirectXCollision.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXCollision.h</dt> </dl> |
 

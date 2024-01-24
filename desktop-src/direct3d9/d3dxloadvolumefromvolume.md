@@ -1,5 +1,5 @@
 ---
-Description: Loads a volume from another volume.
+description: Loads a volume from another volume.
 ms.assetid: bc162f91-feb7-4571-ae4a-abaa5e7953f6
 title: D3DXLoadVolumeFromVolume function (D3dx9tex.h)
 ms.topic: reference
@@ -128,7 +128,7 @@ Writing to a non-level-zero surface of the volume texture will not cause the dir
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

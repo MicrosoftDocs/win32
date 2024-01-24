@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAfterInitializationException constructor"
 title: EsentAfterInitializationException constructor 
 TOCTitle: 'EsentAfterInitializationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentAfterInitializationException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentAfterInitializationException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentAfterInitializationException()
 
 #### Reference
 
-[EsentAfterInitializationException class](dn334220\(v=exchg.10\).md)
+[EsentAfterInitializationException class](./esentafterinitializationexception-class.md)
 
-[EsentAfterInitializationException members](dn273985\(v=exchg.10\).md)
+[EsentAfterInitializationException members](./esentafterinitializationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

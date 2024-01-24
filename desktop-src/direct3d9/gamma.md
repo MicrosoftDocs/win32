@@ -1,5 +1,5 @@
 ---
-Description: Texture content is often stored in sRGB format.
+description: Texture content is often stored in sRGB format.
 ms.assetid: d076140d-3e91-412a-b099-9baa52f8d7d8
 title: Gamma (Direct3D 9)
 ms.topic: article
@@ -45,7 +45,7 @@ D3DUSAGE_QUERY_SRGBREAD
 
 ### Windowed Swap Chains
 
-It is valuable for applications to keep the back buffers of their swap chains in linear space in order to enable correct blending operations. Since the desktop is typically not in linear space, a gamma correction is required before the contents of the back buffer can be presented. The application can effect this correction itself by allocating an additional buffer and performing its own correcting copy from the linear buffer to the back buffer. This necessitates an extra copy which can be avoided if the driver performs gamma correction as part of the presentation blit.
+It is valuable for applications to keep the back buffers of their swap chains in linear space in order to enable correct blending operations. Since the desktop is typically not in linear space, a gamma correction is required before the contents of the back buffer can be presented. The application can affect this correction itself by allocating an additional buffer and performing its own correcting copy from the linear buffer to the back buffer. This necessitates an extra copy which can be avoided if the driver performs gamma correction as part of the presentation blit.
 
 In Direct3D 9 a new flag, [D3DPRESENT\_LINEAR\_CONTENT](d3dpresent.md), is available for [**Present**](/windows/desktop/api) that allows the presentation to implicitly convert from linear space to sRGB/gamma 2.2. Applications should specify this flag if the backbuffer format is 16-bit floating point in order to match windowed mode present to full screen gamma behavior, provided D3DCAPS3\_LINEAR\_TO\_SRGB\_PRESENTATION is returned for device capabilities retrieved through [**GetDeviceCaps**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getdevicecaps).
 

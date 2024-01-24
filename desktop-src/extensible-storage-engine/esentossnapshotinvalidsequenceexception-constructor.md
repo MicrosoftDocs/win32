@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSequenceException constructor"
 title: EsentOSSnapshotInvalidSequenceException constructor 
 TOCTitle: 'EsentOSSnapshotInvalidSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOSSnapshotInvalidSequenceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentOSSnapshotInvalidSequenceException()
 
 #### Reference
 
-[EsentOSSnapshotInvalidSequenceException class](dn319729\(v=exchg.10\).md)
+[EsentOSSnapshotInvalidSequenceException class](./esentossnapshotinvalidsequenceexception-class.md)
 
-[EsentOSSnapshotInvalidSequenceException members](dn319691\(v=exchg.10\).md)
+[EsentOSSnapshotInvalidSequenceException members](./esentossnapshotinvalidsequenceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

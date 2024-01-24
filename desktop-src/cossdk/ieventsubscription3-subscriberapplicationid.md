@@ -1,5 +1,5 @@
 ---
-Description: The application GUID of the subscriber.
+description: The application GUID of the subscriber.
 ms.assetid: 46c91cae-ca31-4eac-baa8-d36910917f0f
 title: IEventSubscription3::SubscriberApplicationID property
 ms.topic: reference
@@ -49,7 +49,7 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

@@ -1,5 +1,5 @@
 ---
-Description: The following material describes structures used by TAPI 3.x. Many TAPI 3.x operations also reference TAPI 2.x structures.
+description: The following material describes structures used by TAPI 3.x. Many TAPI 3.x operations also reference TAPI 2.x structures.
 ms.assetid: e0b5e28a-247c-41f5-83bb-8f8b0b485fbe
 title: Call and Media Controls Structures
 ms.topic: article

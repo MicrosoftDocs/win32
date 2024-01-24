@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the device supports NFC communications (NDEF).
+description: Indicates whether the device supports NFC communications (NDEF).
 ms.assetid: ce9c7b96-f2a3-4a64-8b5e-df46c479b619
 title: System.DeviceInterface.Proximity.SupportsNfc
 ms.topic: article

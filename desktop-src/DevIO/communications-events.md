@@ -1,5 +1,5 @@
 ---
-Description: A process can monitor a set of events that occur in a communications resource. For example, an application can use event monitoring to determine when the CTS (clear-to-send) and DSR (data-set-ready) signals change state.
+description: A process can monitor a set of events that occur in a communications resource. For example, an application can use event monitoring to determine when the CTS (clear-to-send) and DSR (data-set-ready) signals change state.
 ms.assetid: 5d2a7bf3-a972-474b-b8ca-da3351f1e59c
 title: Communications Events
 ms.topic: article

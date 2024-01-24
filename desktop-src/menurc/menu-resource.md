@@ -1,6 +1,6 @@
 ---
 title: MENU resource
-description: Defines the contents of a menu resource.
+description: Defines the contents of a menu resource. | MENU resource
 ms.assetid: fcb420b6-d42e-4044-89ee-028eed1f21ee
 keywords:
 - MENU resource Menus and Other Resources

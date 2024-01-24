@@ -1,5 +1,5 @@
 ---
-Description: The Create method creates a new ITTime component.
+description: The Create method creates a new ITTime component.
 ms.assetid: dee50454-8358-4898-b098-2de51505b658
 title: ITTimeCollection::Create method (Sdpblb.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

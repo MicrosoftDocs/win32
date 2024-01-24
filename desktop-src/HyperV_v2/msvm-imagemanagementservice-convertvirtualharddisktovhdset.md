@@ -1,5 +1,5 @@
 ---
-Description: Converts a virtual hard disk file by creating a new VHD Set file alongside the existing virtual hard disk.
+description: Converts a virtual hard disk file by creating a new VHD Set file alongside the existing virtual hard disk.
 ms.assetid: 04ae723e-e3c5-4640-a0e5-0e1b75bb2e6d
 title: ConvertVirtualHardDiskToVHDSet method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -101,7 +101,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Registering a file type is the first step in creating a file association, which makes that file type &\#0034;known&\#0034; to the Shell. However, without file type handlers, the Shell is unable to expose information to the user from and about the file.
+description: Registering a file type is the first step in creating a file association, which makes that file type &\#0034;known&\#0034; to the Shell. However, without file type handlers, the Shell is unable to expose information to the user from and about the file.
 ms.assetid: c0c5c3ef-35ff-4ab6-bb8a-1f0640109d50
 title: File Type Handlers
 ms.topic: article

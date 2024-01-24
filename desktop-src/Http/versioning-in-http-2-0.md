@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Versioning
+# Versioning (HTTP Server API)
 
 The HTTP Server version 2.0 API makes obsolete the version 1.0 request queues and URL associations with the request queue. Object-scoped versioning allows applications to supply application-specific version information. An applications can automatically call the correct version of structures for the operating system on which it is running.
 

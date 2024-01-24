@@ -75,7 +75,7 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and the
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -85,28 +85,14 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and the
 
 ## See also
 
-<dl> <dt>
+- [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
+- [**WM\_KEYDOWN**](wm-keydown.md)
+- [**WM\_KEYUP**](wm-keyup.md)
+- [**WM\_SYSDEADCHAR**](wm-sysdeadchar.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
 
-**Reference**
-</dt> <dt>
-
-[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
-</dt> <dt>
-
-[**WM\_KEYDOWN**](wm-keydown.md)
-</dt> <dt>
-
-[**WM\_KEYUP**](wm-keyup.md)
-</dt> <dt>
-
-[**WM\_SYSDEADCHAR**](wm-sysdeadchar.md)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
+ 
 
  
 

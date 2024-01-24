@@ -1,5 +1,5 @@
 ---
-Description: Gets the information required to read or save the properties in the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
+description: Gets the information required to read or save the properties in the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 ms.assetid: 1667b67d-9dd2-48a6-81dd-c8b06834cef0
 title: IItemPropertyBag::GetPropertyInfo method
 ms.topic: reference
@@ -78,7 +78,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

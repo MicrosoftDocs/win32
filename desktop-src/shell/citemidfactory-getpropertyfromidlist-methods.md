@@ -1,5 +1,5 @@
 ---
-Description: Returns a property from the IPropertyStore within the IDList.
+description: Returns a property from the IPropertyStore within the IDList.
 ms.assetid: D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D
 title: CItemIDFactory::GetPropertyFromIDList methods (Shidfact.h)
 ms.date: 07/02/2019
@@ -27,7 +27,7 @@ Returns a property from the [**IPropertyStore**](/windows/win32/api/propsys/nn-p
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

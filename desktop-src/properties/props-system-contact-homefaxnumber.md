@@ -1,5 +1,5 @@
 ---
-Description: Home fax number of the contact.
+description: Home fax number of the contact.
 ms.assetid: 0b2e9df1-4a06-4179-8cda-308d969f348b
 title: System.Contact.HomeFaxNumber
 ms.topic: article

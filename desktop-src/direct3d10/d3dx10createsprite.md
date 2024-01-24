@@ -1,5 +1,5 @@
 ---
-Description: Create a sprite for drawing a 2D texture.Note  Instead of using this function, we recommend that you use Direct2D and the DirectXTK library, SpriteBatch class.
+description: Create a sprite for drawing a 2D texture.Note  Instead of using this function, we recommend that you use Direct2D and the DirectXTK library, SpriteBatch class.
 ms.assetid: 64efb8e4-da0b-4e67-874a-e0bb0083961c
 title: D3DX10CreateSprite function (D3DX10.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLanguageIdException members"
 title: EsentInvalidLanguageIdException members
 TOCTitle: EsentInvalidLanguageIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidLanguageId exceptions.
 
-The [EsentInvalidLanguageIdException](dn319529\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLanguageIdException](./esentinvalidlanguageidexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLanguageIdException class](dn319529\(v=exchg.10\).md)
+[EsentInvalidLanguageIdException class](./esentinvalidlanguageidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

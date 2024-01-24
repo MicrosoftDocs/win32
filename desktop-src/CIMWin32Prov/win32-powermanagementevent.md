@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PowerManagementEvent &\#32; WMI class represents power management events resulting from power state changes.
+description: The Win32\_PowerManagementEvent &\#32; WMI class represents power management events resulting from power state changes.
 ms.assetid: b5781805-87c7-4eaf-afbb-a1770fcff41c
 ms.tgt_platform: multiple
 title: Win32_PowerManagementEvent class
@@ -182,9 +182,7 @@ The **Win32\_PowerManagementEvent** class can be used to monitor changes in powe
 
 The **Win32\_PowerManagementEvent** class has only two properties: EventType, used to indicate the type of power change event that occurred, and OEMEventType, which is used by some original equipment manufacturers to define additional power change events.
 
-For more information on responding to Windows power events, see the [Monitor and Respond to Windows Power Events with PowerShell](https://blogs.technet.com/b/heyscriptingguy/archive/2011/08/16/monitor-and-respond-to-windows-power-events-with-powershell.aspx) article on the Hey! Scripting Guy! blog.
-
-For more information on charging laptops, see [Hey, Scripting Guy! How Can I Retrieve Information About Laptops Changing from Full Power to Minimal Power Usage?](https://blogs.technet.com/b/heyscriptingguy/archive/2010/04/14/hey-scripting-guy-april-14-2010.aspx)
+For more information on responding to Windows power events, see the [Monitor and Respond to Windows Power Events with PowerShell](https://devblogs.microsoft.com/scripting/monitor-and-respond-to-windows-power-events-with-powershell/) article on the Hey! Scripting Guy! blog.
 
 ## Examples
 
@@ -206,7 +204,7 @@ Loop
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

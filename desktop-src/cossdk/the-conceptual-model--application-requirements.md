@@ -1,5 +1,5 @@
 ---
-Description: 'The Conceptual Model: Application Requirements'
+description: 'The Conceptual Model: Application Requirements'
 ms.assetid: 124b329b-f745-45b4-b266-7c177c76a5cd
 title: 'The Conceptual Model: Application Requirements'
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Network Monitor 3 (Netmon) is a packet analyzer used to inspect network traffic.
+description: Microsoft Network Monitor 3 (Netmon) is a packet analyzer used to inspect network traffic.
 ms.assetid: 015a6a6d-9e07-4f22-b931-dcce77051bef
 title: Downloading Netmon and Sample DPWS Filters
 ms.topic: article
@@ -12,11 +12,11 @@ Microsoft Network Monitor 3 (Netmon) is a packet analyzer used to inspect networ
 
 ## Downloading Netmon
 
-To download Netmon, go to [Microsoft Network Monitor](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=983b941d-06cb-4658-b7f6-3088333d062f) and follow the instructions. For more information about Netmon, see "Information about Network Monitor 3.0" in the Help and Support Knowledge Base at [https://support.microsoft.com/kb/933741](https://support.microsoft.com/kb/933741).
+To download Netmon, go to [Microsoft Network Monitor](https://www.microsoft.com/download/details.aspx?id=4865), and follow the instructions. For more information about Netmon, see [Information about Network Monitor 3.0](/troubleshoot/windows-server/networking/network-monitor-3).
 
 ## Sample DPWS Filters
 
-Sometimes, WS-Discovery and metadata exchange troubleshooting must take place on a busy network. The sample filters can be used to help limit the Netmon output to traffic of interest. For more information about using Netmon filters, see [https://support.microsoft.com/kb/933741](https://support.microsoft.com/kb/933741).
+Sometimes, WS-Discovery and metadata exchange troubleshooting must take place on a busy network. The sample filters can be used to help limit the Netmon output to traffic of interest. For more information about using Netmon filters, see [Information about Network Monitor 3.0](/troubleshoot/windows-server/networking/network-monitor-3).
 
 The following example shows a filter that limits output to all broadcast WS-Discovery traffic.
 

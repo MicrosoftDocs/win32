@@ -1,6 +1,6 @@
 ---
 title: GetDistinguishedName method of the MicrosoftDNS_Server class
-description: The GetDistinguishedName method retrieves the DS distinguished name for the zone.
+description: The GetDistinguishedName method retrieves the DS distinguished name for the zone. | GetDistinguishedName method of the MicrosoftDNS_Server class
 ms.assetid: b8c7fc18-87d6-4653-b837-760d6584d9e7
 keywords:
 - GetDistinguishedName method DNS
@@ -43,7 +43,7 @@ Returns the DS distinguished name for the zone.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for image events. The following syntax is simplified from MOF code.
+description: This class is the parent class for image events. The following syntax is simplified from MOF code.
 ms.assetid: a719a34c-7e32-4758-9031-6ca2b2873e3e
 title: Image class
 ms.topic: reference
@@ -56,7 +56,7 @@ Event trace consumers can implement special processing for image load events by 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

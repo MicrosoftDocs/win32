@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DirectorySpecification class captures the major directory structure of a software element. This class is used to organize the files of a software element into manageable units that can be relocated on a computer system.
+description: The CIM\_DirectorySpecification class captures the major directory structure of a software element. This class is used to organize the files of a software element into manageable units that can be relocated on a computer system.
 ms.assetid: faeab356-e470-477b-97d2-1a19ce1d8d21
 ms.tgt_platform: multiple
 title: CIM_DirectorySpecification class
@@ -955,8 +955,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from [**CIM\_Check**](cim-check.md).
 
@@ -972,7 +972,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

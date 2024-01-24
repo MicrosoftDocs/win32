@@ -1,5 +1,5 @@
 ---
-Description: Contains a collection of objects that implement the IAnalysisWarning interface and that are the result of an ink analysis operation.
+description: Contains a collection of objects that implement the IAnalysisWarning interface and that are the result of an ink analysis operation.
 ms.assetid: 2118c18b-d316-4e91-8652-62969115e8b5
 title: IAnalysisWarnings interface (IACom.h)
 ms.topic: reference
@@ -127,7 +127,7 @@ STDMETHODIMP CMyClass::Results(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

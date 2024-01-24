@@ -1,8 +1,9 @@
 ---
-Description: Sent as a signal that a window or an application should terminate.
+description: Sent as a signal that a window or an application should terminate.
 ms.assetid: 19500baf-e0ad-4dfa-804f-6a6e0652cffb
 title: WM_CLOSE message (Winuser.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +11,7 @@ ms.date: 05/31/2018
 
 Sent as a signal that a window or an application should terminate.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -80,7 +81,7 @@ By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defw
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

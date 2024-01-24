@@ -1,5 +1,5 @@
 ---
-Description: Setting the value of this per-machine system policy to &\#0034;1&\#0034; prevents nonadministrative users from using a Browse Dialog to locate sources of managed applications stored on media, such as CD-ROM.
+description: Setting the value of this per-machine system policy to &\#0034;1&\#0034; prevents nonadministrative users from using a Browse Dialog to locate sources of managed applications stored on media, such as CD-ROM.
 ms.assetid: 51806a4c-4ae5-42e9-9d58-8032108164cb
 title: DisableBrowse
 ms.topic: article

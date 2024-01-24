@@ -1,5 +1,5 @@
 ---
-Description: The FindNextPrinterChangeNotification function retrieves information about the most recent change notification for a change notification object associated with a printer or print server.
+description: The FindNextPrinterChangeNotification function retrieves information about the most recent change notification for a change notification object associated with a printer or print server.
 ms.assetid: ea7774ae-361f-41e4-bbc6-3f100028b22a
 title: FindNextPrinterChangeNotification function (Winspool.h)
 ms.topic: reference
@@ -179,7 +179,7 @@ if (chgObject != INVALID_HANDLE_VALUE) {
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

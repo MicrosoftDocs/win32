@@ -1,5 +1,5 @@
 ---
-Description: The Namespace property of the SWbemObjectPath object contains the name of the namespace that is part of the object path.
+description: The Namespace property of the SWbemObjectPath object contains the name of the namespace that is part of the object path.
 ms.assetid: be88670d-6f0d-4b9d-886f-3e70bf4758ed
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Namespace property (Wbemdisp.h)
@@ -69,7 +69,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

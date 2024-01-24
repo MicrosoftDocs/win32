@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MultiStateSensor class represents a multi-member set of binary sensors where each binary sensor reports a Boolean result.
+description: The CIM\_MultiStateSensor class represents a multi-member set of binary sensors where each binary sensor reports a Boolean result.
 ms.assetid: ebc90a57-b1ea-4cb4-a008-68b5f2db948c
 ms.tgt_platform: multiple
 title: CIM_MultiStateSensor class
@@ -1171,7 +1171,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The query-focused summary of the document.
+description: The query-focused summary of the document.
 ms.assetid: 99fb269a-fb14-43aa-b363-a7570ff5e3fb
 title: System.Search.QueryFocusedSummary
 ms.topic: article

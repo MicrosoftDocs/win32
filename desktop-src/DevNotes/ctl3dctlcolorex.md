@@ -1,5 +1,5 @@
 ---
-Description: Handles the WM\_CTLCOLOR message for applications that use CTL3D.
+description: Handles the WM\_CTLCOLOR message for applications that use CTL3D.
 ms.assetid: 8626a559-4856-4e7d-bf9c-edc48613b8f4
 title: Ctl3dCtlColorEx function
 ms.topic: reference
@@ -69,7 +69,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 

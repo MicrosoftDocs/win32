@@ -23,10 +23,10 @@ Texture2DMSArray type (as it exists in Shader Model 4) plus resource variables.
 
 | Method                                                                             | Description                                        |
 |------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**GetDimensions**](sm5-object-texture2dmsarray-getdimensions.md)                 | Gets the resource dimensions.                      |
-| [**GetSamplePosition**](sm5-object-texture2dmsarray-getsampleposition.md)         | Samples a texture and returns all four components. |
-| [**Load**](texture2dmsarray-load.md)                                              | Gets one value.                                    |
-| [**sample.Operator\[\]\[\]**](sm5-object-texture2dmsarray-sampleoperatorindex.md) | Gets a read-only resource variable.                |
+| [**GetDimensions**](sm5-object-texture2dmsarray-getdimensions.md)                  | Gets the resource dimensions.                      |
+| [**GetSamplePosition**](sm5-object-texture2dmsarray-getsampleposition.md)          | Gets the position of the specified sample.         |
+| [**Load**](texture2dmsarray-load.md)                                               | Gets one value.                                    |
+| [**sample.Operator\[\]\[\]**](sm5-object-texture2dmsarray-sampleoperatorindex.md)  | Gets a read-only resource variable.                |
 
 
 

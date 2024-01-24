@@ -1,5 +1,5 @@
 ---
-Description: The WriteBlobToFile function writes a BLOB to a file.
+description: The WriteBlobToFile function writes a BLOB to a file.
 ms.assetid: 0793dced-82c2-4553-90b2-acf594c6749e
 title: WriteBlobToFile function (Netmon.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

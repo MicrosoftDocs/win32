@@ -1,12 +1,12 @@
 ---
 title: FontSize Property (Commands Object)
-description: FontSize Property
+description: Learn about the FontSize Commands object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: a1113a3a-5da8-4077-8565-168963c503d2
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# FontSize Property
+# FontSize Property (Commands Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 

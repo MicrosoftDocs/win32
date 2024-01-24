@@ -1,5 +1,5 @@
 ---
-Description: Secures the volume's encryption key by using a Active Directory security identifier (SID).
+description: Secures the volume's encryption key by using a Active Directory security identifier (SID).
 ms.assetid: 881EEAF2-49C5-4BBD-B2AA-5E30B61E7D3A
 title: ProtectKeyWithAdSid method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -114,7 +114,7 @@ Perform steps 3 through 9 on the source computer.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 Enterprise, Windows 8 Pro \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

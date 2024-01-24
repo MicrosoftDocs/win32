@@ -1,22 +1,25 @@
 ---
-Description: Computes a bounding sphere for the mesh.
+description: D3DXComputeBoundingSphere function (D3DX9Mesh.h) - Computes a bounding sphere for the mesh.
 ms.assetid: efa1365b-fe3a-4165-a3cb-bc1cd2ba03c0
 title: D3DXComputeBoundingSphere function (D3DX9Mesh.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXComputeBoundingSphere
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXComputeBoundingSphere function
+# D3DXComputeBoundingSphere function (D3DX9Mesh.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Computes a bounding sphere for the mesh.
 
@@ -94,7 +97,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

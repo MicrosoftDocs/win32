@@ -1,5 +1,5 @@
 ---
-Description: Creates a virtual floppy disk file.
+description: Creates a virtual floppy disk file.
 ms.assetid: C7B5712C-55DD-4784-8B2E-A8DE02E4CFD8
 title: CreateVirtualFloppyDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -320,7 +320,7 @@ End Function
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

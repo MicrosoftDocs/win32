@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (Windows Animation)
 
 Reference documentation for interfaces defined by the Windows Animation Manager.
 

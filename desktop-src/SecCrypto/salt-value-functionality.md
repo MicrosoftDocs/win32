@@ -1,5 +1,5 @@
 ---
-Description: The Base Provider creates 40-bit symmetric keys created with eleven bytes of zero-value salt, eleven bytes of nonzero salt if CRYPT\_CREATE\_SALT is specified, or no salt value.
+description: The Base Provider creates 40-bit symmetric keys created with eleven bytes of zero-value salt, eleven bytes of nonzero salt if CRYPT\_CREATE\_SALT is specified, or no salt value.
 ms.assetid: f1af0af7-c64e-435a-aef0-7c4ed7bd1199
 title: Salt Value Functionality
 ms.topic: article

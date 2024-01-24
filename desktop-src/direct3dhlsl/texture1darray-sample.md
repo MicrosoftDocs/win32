@@ -1,6 +1,6 @@
 ---
 title: Texture1DArray::Texture1DArray Sample methods
-description: Samples a texture.
+description: Samples a texture. | Texture1DArray::Texture1DArray Sample methods
 ms.assetid: 3BCE2D4F-24F8-427C-A23B-18E26CCE6392
 keywords:
 - Sample methods HLSL

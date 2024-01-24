@@ -1,5 +1,5 @@
 ---
-Description: Control code retrieves the redirect context for a redirect record used by a Windows Filtering Platform redirect service.
+description: Control code retrieves the redirect context for a redirect record used by a Windows Filtering Platform redirect service.
 ms.assetid: 87DB11BB-E08D-49DF-A211-133D813373E0
 title: SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT Control Code
 ms.topic: reference
@@ -103,6 +103,8 @@ For overlapped operations, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-w
 Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 ### lpCompletionRoutine
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 

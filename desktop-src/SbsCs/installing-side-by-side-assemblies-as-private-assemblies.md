@@ -1,5 +1,5 @@
 ---
-Description: To install side-by-side assemblies as private assemblies, you can install the assembly as a component of an installer package.
+description: To install side-by-side assemblies as private assemblies, you can install the assembly as a component of an installer package.
 ms.assetid: 1cfd836f-a1b9-4339-8756-5488c88b3c2b
 title: Installing Side-by-side Assemblies as Private Assemblies
 ms.topic: article

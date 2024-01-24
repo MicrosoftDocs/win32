@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to specify the number of items in the folder view. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to specify the number of items in the folder view. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_DEFITEMCOUNT message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -46,7 +46,7 @@ The number of items in the folder view.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

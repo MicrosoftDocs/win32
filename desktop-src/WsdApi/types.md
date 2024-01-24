@@ -1,5 +1,5 @@
 ---
-Description: A list of XSD qualified names.
+description: A list of XSD qualified names.
 title: Types element
 ms.topic: article
 ms.date: 05/31/2018
@@ -38,7 +38,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

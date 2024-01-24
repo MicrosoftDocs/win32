@@ -1,5 +1,5 @@
 ---
-Description: Region Operations
+description: Region Operations
 ms.assetid: 347ed2ca-b842-44bd-9ea6-f00a6e5d7941
 title: Region Operations
 ms.topic: article

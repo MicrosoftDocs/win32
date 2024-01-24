@@ -1,5 +1,5 @@
 ---
-Description: Encoding refers to the process of converting digital media from one format into another. For example, converting MP3 audio into Windows Media Audio format as defined by the Advanced Systems Format (ASF) specification.
+description: Encoding refers to the process of converting digital media from one format into another. For example, converting MP3 audio into Windows Media Audio format as defined by the Advanced Systems Format (ASF) specification.
 ms.assetid: 4fe202d8-c8f5-4e9a-ad40-1aea8f767362
 title: 'Tutorial: 1-Pass Windows Media Encoding'
 ms.topic: article

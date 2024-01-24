@@ -1,5 +1,5 @@
 ---
-Description: The Configure method submits configuration information for a capture.
+description: The Configure method submits configuration information for a capture.
 ms.assetid: b8cbbae1-3c07-489f-8e8f-77c95ec03209
 title: IESP::Configure method (Netmon.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ The error BLOB returned by the *hErrorBlob* parameter contains entries that Netw
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

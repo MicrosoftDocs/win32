@@ -1,5 +1,5 @@
 ---
-Description: Access the mesh's index buffer after it has been committed to the device with ID3DX10Mesh::CommitToDevice. This is different from ID3DX10Mesh::GetIndexBuffer, which returns the index buffer before it has been committed to the device.
+description: Access the mesh's index buffer after it has been committed to the device with ID3DX10Mesh::CommitToDevice. This is different from ID3DX10Mesh::GetIndexBuffer, which returns the index buffer before it has been committed to the device.
 ms.assetid: 94d21f50-91b5-4f8d-ac73-7a851bba8685
 title: ID3DX10Mesh::GetDeviceIndexBuffer method (D3DX10.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ If the mesh's index buffer has not already been committed to the device, this AP
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

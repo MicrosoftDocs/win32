@@ -1,5 +1,5 @@
 ---
-Description: Wi-Fi Direct Device Address.
+description: Wi-Fi Direct Device Address.
 ms.assetid: 06f7d944-f94b-4afc-8381-f60a329cb689
 title: System.Devices.WiFiDirect.DeviceAddress
 ms.topic: article

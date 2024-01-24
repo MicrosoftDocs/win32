@@ -1,6 +1,6 @@
 ---
 title: Best Security Practices in Game Development
-description: This article discusses best practices to use in game development.
+description: Describes best security practices to use in game development and provides examples of insecure code.
 ms.assetid: 20956529-42ed-722b-cfa3-e3230d89fdd7
 ms.topic: article
 ms.date: 05/31/2018
@@ -23,7 +23,7 @@ The three most common mistakes made by a development team when releasing a produ
 
 -   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](./user-account-control-for-game-developers.md).
 -   Not using automated protection. Developers are generally not using **/GS**, **/SAFESEH**, or **/NX**. Using these compile/link flags can spot or eliminate many basic security holes without significantly increasing workload. These flags are discussed later in this article.
--   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](/archive/msdn-magazine/2005/may/repel-attacks-with-visual-studio-2005-safe-c-and-c-libraries) by Martyn Lovell. Also, you can get the [banned.h](https://www.microsoft.com/downloads/details.aspx?FamilyID=6aed14bd-4766-4d9d-9ee2-fa86aad1e3c9) header file that can help you remove banned functions from code.
+-   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](/archive/msdn-magazine/2005/may/repel-attacks-with-visual-studio-2005-safe-c-and-c-libraries) by Martyn Lovell. Also, you can get the `banned.h` header file that can help you remove banned functions from code (see [Microsoft’s Free Security Tools – banned.h](https://www.microsoft.com/security/blog/2012/08/30/microsofts-free-security-tools-banned-h/)).
 
 Each of the listed mistakes is not only common but is easily correctable with no significant change in development workload, coding standards, or functionality.
 
@@ -61,7 +61,7 @@ There are several ways to improve security in the development cycle. Here are so
 
 The book, *Writing Secure Code, Second Edition* by Michael Howard and David LeBlanc, provides an in-depth and clear explanation of strategies and methods of preventing attacks and mitigating exploits. Starting with methods of designing security into a release to techniques for securing network applications, the book covers all aspects that a game developer needs to help protect themselves, their products, and their customers from attackers. The book can be used to instill a culture of security in a development studio. Don't just think of code security as a developer's problem or a tester's problem. Think of security as something the whole team — from program manager to designer to developer to tester — should be thinking about when they work on a project. The more eyes that are part of the review process, the greater the chance of catching a security hole prior to release.
 
-*Writing Secure Code, Second Edition* can be found at [Microsoft Learning](https://www.microsoftpressstore.com/store/writing-secure-code-9780735617223) and more general security information can be found in [Fending Off Future Attacks by Reducing Attack Surface](/previous-versions/ms972812(v=msdn.10)) by Michael Howard.
+*Writing Secure Code, Second Edition* can be found at the [Microsoft Press Store](https://www.microsoftpressstore.com/store/writing-secure-code-9780735617223) and more general security information can be found in [Fending Off Future Attacks by Reducing Attack Surface](/previous-versions/ms972812(v=msdn.10)) by Michael Howard.
 
 Michael Howard, David LeBlanc, and John Viega have written another book on the subject that covers all common operating systems and programming languages entitled, *19 Deadly Sins of Software Security*.
 
@@ -107,7 +107,7 @@ Using the **/SAFESEH** flag will instruct the linker to only generate an executa
 
 More information about [Buffer Security Check](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) (**/GS**) and [Image has Safe Exception Handlers](https://msdn.microsoft.com/library/9a89h429(vs.71).aspx) (**/SAFESEH**) can be found in MSDN.
 
-See also info about Microsoft Visual Studio 2012's [**/SDL** flag](/cpp/build/reference/sdl-enable-additional-security-checks?view=vs-2019) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
+See also info about Microsoft Visual Studio 2012's [**/SDL** flag](/cpp/build/reference/sdl-enable-additional-security-checks) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
 
 </dd> <dt>
 

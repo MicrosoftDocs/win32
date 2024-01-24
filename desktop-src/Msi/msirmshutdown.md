@@ -1,5 +1,5 @@
 ---
-Description: The MSIRMSHUTDOWN property determines how applications or services that are currently using files affected by an update should be shut down to enable the installation of the update.
+description: The MSIRMSHUTDOWN property determines how applications or services that are currently using files affected by an update should be shut down to enable the installation of the update.
 ms.assetid: 6763a490-8d1a-42d2-a8cb-0743b7ba6866
 title: MSIRMSHUTDOWN property
 ms.topic: reference
@@ -32,7 +32,7 @@ The **MSIRMSHUTDOWN** property is ignored if the [Restart Manager](../rstmgr/res
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                          |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum service pack required by a Windows Installer version.<br/> |
 

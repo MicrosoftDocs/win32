@@ -1,5 +1,5 @@
 ---
-Description: Contains the pinhole camera intrinsics for the stream.
+description: Contains the pinhole camera intrinsics for the stream.
 ms.assetid: 7E5E7C60-9C3F-406B-A7DD-A953181CD314
 title: MFStreamExtension_PinholeCameraIntrinsics attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The value of the attribute is a [**MFPinholeCameraIntrinsics**](/windows/desktop
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

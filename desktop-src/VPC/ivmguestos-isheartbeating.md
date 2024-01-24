@@ -67,7 +67,7 @@ By default, a virtual machine produces ten heartbeat ticks per minute. If no hea
 
 | Configuration key                                            | Default       | Description                                                                                                                             |
 |--------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| integration/microsoft/heartbeat/time<br/>              | 60<br/> | The length of the block of time used to generate heartbeat ticks, in in seconds.<br/>                                             |
+| integration/microsoft/heartbeat/time<br/>              | 60<br/> | The length of the block of time used to generate heartbeat ticks, in seconds.<br/>                                             |
 | integration/microsoft/heartbeat/rate<br/>              | 10<br/> | The number of ticks generated in each heartbeat time block.<br/>                                                                  |
 | integration/microsoft/heartbeat/failure\_interval<br/> | 10<br/> | The number of seconds between restart attempts, once no heartbeat ticks are received within a specific heartbeat time block.<br/> |
 | integration/microsoft/heartbeat/failure\_attempts<br/> | 12<br/> | The number of restart attempts made.<br/>                                                                                         |
@@ -80,7 +80,7 @@ By default, a virtual machine produces ten heartbeat ticks per minute. If no hea
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

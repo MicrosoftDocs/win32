@@ -22,7 +22,7 @@ Contains the filter string that is used to filter files.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFSR-FileFilter                          |
 | Ldap-Display-Name | msDFSR-FileFilter                           |
@@ -46,7 +46,7 @@ Contains the filter string that is used to filter files.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -67,7 +67,7 @@ Contains the filter string that is used to filter files.
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
@@ -88,7 +88,7 @@ Contains the filter string that is used to filter files.
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
@@ -109,7 +109,7 @@ Contains the filter string that is used to filter files.
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: ICE43 validates that shortcuts that do not reference a feature as their Target (non-advertised shortcuts) are in components having a HKCU registry entry as their key path.
+description: ICE43 validates that shortcuts that do not reference a feature as their Target (non-advertised shortcuts) are in components having a HKCU registry entry as their key path.
 ms.assetid: 7e58e303-e512-4707-a0bf-2095ec8ec502
 title: ICE43
 ms.topic: article

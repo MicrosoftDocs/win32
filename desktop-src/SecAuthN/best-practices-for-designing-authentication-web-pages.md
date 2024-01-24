@@ -1,5 +1,5 @@
 ---
-Description: This topic describes best practices for designing web pages that use Web Authentication Broker for logging on.
+description: This topic describes best practices for designing web pages that use Web Authentication Broker for logging on.
 ms.assetid: 271EC68B-5E58-4C1C-B631-DED6A694E98F
 title: Best Practices for designing authentication web pages
 ms.topic: article
@@ -98,7 +98,7 @@ The following articles provide guidance for writing secure C++ code.
 [Considerations for the web page development](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[FAQ for Web Authentication Broker](faq-for-web-authentication-broker.md)
+[FAQ for Web Authentication Broker](faq-for-web-authentication-broker.yml)
 </dt> <dt>
 
 [Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)

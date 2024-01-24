@@ -1,5 +1,5 @@
 ---
-Description: Sets the BLOB Etype/Sap filter.
+description: Sets the BLOB Etype/Sap filter.
 ms.assetid: cd659c93-3415-4737-b848-936e80318544
 title: SetNPPEtypeSapFilter function (Netmon.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

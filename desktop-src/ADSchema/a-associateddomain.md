@@ -21,7 +21,7 @@ The associatedDomain attribute type specifies a DNS domain that is associated wi
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | associatedDomain                     |
 | Ldap-Display-Name | associatedDomain                     |
@@ -46,7 +46,7 @@ The associatedDomain attribute type specifies a DNS domain that is associated wi
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -67,7 +67,7 @@ The associatedDomain attribute type specifies a DNS domain that is associated wi
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -88,7 +88,7 @@ The associatedDomain attribute type specifies a DNS domain that is associated wi
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -109,7 +109,7 @@ The associatedDomain attribute type specifies a DNS domain that is associated wi
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -130,7 +130,7 @@ The associatedDomain attribute type specifies a DNS domain that is associated wi
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |

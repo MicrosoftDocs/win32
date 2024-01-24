@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.EnableAdvanced property"
 title: SystemParameters.EnableAdvanced property 
 TOCTitle: 'EnableAdvanced property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.EnableAdvanced
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # SystemParameters.EnableAdvanced property
 
-Gets or sets a value indicating whether the database engine accepts or rejects changes to a subset of the system parameters. This parameter is used in conjunction with [Configuration](dn351218\(v=exchg.10\).md) to prevent some system parameters from being set away from the selected configuration's defaults. Supported on Windows Vista and up. Ignored on Windows XP and Windows Server 2003.
+Gets or sets a value indicating whether the database engine accepts or rejects changes to a subset of the system parameters. This parameter is used in conjunction with [Configuration](./systemparameters.configuration-property.md) to prevent some system parameters from being set away from the selected configuration's defaults. Supported on Windows Vista and up. Ignored on Windows XP and Windows Server 2003.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,8 +63,8 @@ Type: [System.Boolean](/dotnet/api/system.boolean)
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

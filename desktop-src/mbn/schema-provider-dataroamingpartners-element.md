@@ -1,5 +1,5 @@
 ---
-Description: Identifies the name and provider ID for a cellular network.
+description: Identifies the name and provider ID for a cellular network.
 ms.assetid: 007ecad9-23a3-4352-b3e2-c22d0f3f449d
 title: Provider (DataRoamingPartners) Element
 ms.topic: reference
@@ -36,7 +36,7 @@ The **Provider** element is defined by the [**DataRoamingPartners**](schema-data
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

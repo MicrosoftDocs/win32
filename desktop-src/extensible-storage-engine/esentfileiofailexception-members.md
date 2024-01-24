@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOFailException members"
 title: EsentFileIOFailException members
 TOCTitle: EsentFileIOFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileIOFailException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.FileIOFail exceptions.
 
-The [EsentFileIOFailException](dn274360\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileIOFailException](./esentfileiofailexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentFileIOFailException class](dn274360\(v=exchg.10\).md)
+[EsentFileIOFailException class](./esentfileiofailexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

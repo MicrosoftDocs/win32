@@ -1,5 +1,5 @@
 ---
-Description: Compares two enumerated lists of scripts.
+description: Compares two enumerated lists of scripts.
 ms.assetid: 3500ce36-75e4-4d61-8449-a65c99532326
 title: DownlevelVerifyScripts function (Idndl.h)
 ms.topic: reference
@@ -120,13 +120,13 @@ The following are examples of the return of this function and a subsequent call 
 
  
 
-The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://www.microsoft.com/downloads/details.aspx?FamilyID=AD6158D7-DDBA-416A-9109-07607425A815&displaylang=en) download, available at the [MSDN Download Center](https://www.microsoft.com/?ref=go).
+The required header file and DLL are part of the ["Microsoft Internationalized Domain Name (IDN) Mitigation APIs"](https://archive.org/details/idndl.x86) download available from [archive.org](https://archive.org/).
 
 ## Requirements
 
 
 
-|                                     |                                                                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                  |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                         |

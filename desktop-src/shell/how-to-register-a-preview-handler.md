@@ -1,5 +1,5 @@
 ---
-Description: This topic explains how to register a preview handler associated with a given data type.
+description: This topic explains how to register a preview handler associated with a given data type.
 ms.assetid: 5f194d29-d09f-4426-a63e-911db65ce700
 title: How to Register a Preview Handler
 ms.topic: article

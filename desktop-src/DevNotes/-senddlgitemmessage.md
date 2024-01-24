@@ -1,5 +1,5 @@
 ---
-Description: Sends a message to the specified control in a dialog box.
+description: Sends a message to the specified control in a dialog box.
 ms.assetid: 7c91e432-662c-4dd0-980c-892ce1092077
 title: '_SendDlgItemMessage function'
 ms.topic: reference
@@ -43,7 +43,7 @@ LRESULT _SendDlgItemMessage(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 

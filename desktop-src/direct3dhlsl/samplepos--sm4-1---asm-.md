@@ -12,7 +12,7 @@ Queries the position of a sample in a given shader resource view or in the raste
 
 
 
-| samplepos dest\[.mask\], srcResource\[.swizzle\], sampleIndex (scalar operand) |
+| samplepos dest\[.mask\], srcResource\[.swizzle\], sampleIndex |
 |--------------------------------------------------------------------------------|
 
 
@@ -25,7 +25,7 @@ Queries the position of a sample in a given shader resource view or in the raste
 |--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                    | \[in\] The address of the results of the operation.<br/> |
 | <span id="srcResource"></span><span id="srcresource"></span><span id="SRCRESOURCE"></span>*srcResource*<br/> | \[in\] The shader resource.<br/>                         |
-| <span id="sampleIndex"></span><span id="sampleindex"></span><span id="SAMPLEINDEX"></span>*sampleIndex*<br/> | \[in\] The index of the sample.<br/>                     |
+| <span id="sampleIndex"></span><span id="sampleindex"></span><span id="SAMPLEINDEX"></span>*sampleIndex*<br/> | \[in\] The index of the sample (scalar operand).<br/>                     |
 
 
 

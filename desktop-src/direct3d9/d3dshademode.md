@@ -1,5 +1,5 @@
 ---
-Description: Defines constants that describe the supported shading modes.
+description: Defines constants that describe the supported shading modes.
 ms.assetid: ba4e0c62-b496-427b-a324-2fb560d153ba
 title: D3DSHADEMODE enumeration (D3d9types.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ The members of this enumerated type define the vales for the D3DRS\_SHADEMODE re
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

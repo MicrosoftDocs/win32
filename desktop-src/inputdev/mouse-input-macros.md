@@ -1,6 +1,6 @@
 ---
 title: Mouse Input Macros
-description: .
+description: Mouse Input Macros
 ms.assetid: 0c90dea6-18a9-4d6a-80a4-847d5c4e815b
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: The Import method copies into an open certificate store the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.
+description: The Import method copies into an open certificate store the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.
 ms.assetid: 22db8f1c-469b-4baf-9039-4da35c9c6aa0
 title: Store.Import method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Store.Import method
 
-\[The **Import** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/previous-versions/windows/embedded/hh424027(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[The **Import** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Store Class**](/previous-versions/windows/embedded/hh424027(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Import** method copies into an open [*certificate store*](../secgloss/c-gly.md) the contents of a previously exported certificate store. This method can only be used with a store that has been opened with read/write permission.
 
@@ -60,7 +60,7 @@ If the store is not opened with read/write permission, this method fails. Althou
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

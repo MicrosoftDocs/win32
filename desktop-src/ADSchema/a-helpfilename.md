@@ -22,7 +22,7 @@ This attribute was used for Exchange 4.0. It contained the name that should be u
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Help-File-Name                              |
 | Ldap-Display-Name | helpFileName                                |
@@ -48,7 +48,7 @@ This attribute was used for Exchange 4.0. It contained the name that should be u
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803B                                                   |
@@ -69,7 +69,7 @@ This attribute was used for Exchange 4.0. It contained the name that should be u
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803B                                                   |
@@ -90,7 +90,7 @@ This attribute was used for Exchange 4.0. It contained the name that should be u
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803B                                                   |
@@ -111,7 +111,7 @@ This attribute was used for Exchange 4.0. It contained the name that should be u
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803B                                                   |
@@ -132,7 +132,7 @@ This attribute was used for Exchange 4.0. It contained the name that should be u
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803B                                                   |
@@ -153,7 +153,7 @@ This attribute was used for Exchange 4.0. It contained the name that should be u
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x803B                                                   |

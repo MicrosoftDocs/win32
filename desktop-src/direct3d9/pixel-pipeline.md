@@ -1,5 +1,5 @@
 ---
-Description: This is a list of advanced topics that are implemented by pixel processing.
+description: This is a list of advanced topics that are implemented by pixel processing.
 ms.assetid: 4180698c-e254-4d83-88f6-f277c0929928
 title: Pixel Pipeline (Direct3D 9)
 ms.topic: article

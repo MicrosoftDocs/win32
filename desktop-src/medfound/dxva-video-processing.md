@@ -1,5 +1,5 @@
 ---
-Description: DXVA video processing encapsulates the functions of the graphics hardware that are devoted to processing uncompressed video images. Video processing services include deinterlacing and video mixing.
+description: DXVA video processing encapsulates the functions of the graphics hardware that are devoted to processing uncompressed video images. Video processing services include deinterlacing and video mixing.
 ms.assetid: bd688f81-4b7c-4016-b0bd-e40782131f8e
 title: DXVA Video Processing
 ms.topic: article
@@ -260,7 +260,7 @@ This method returns another array of **D3DFORMAT** values. Typical substream for
 
 ### Query the Device Capabilities
 
-To get the capabilities of a particular device, pass the device GUID, the format structure, and a render-target format to the [**IDirectXVideoProcessorService::GetVideoProcessorCaps**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorcaps) method. The method fills in a [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps) structure structure with the device capabilities.
+To get the capabilities of a particular device, pass the device GUID, the format structure, and a render-target format to the [**IDirectXVideoProcessorService::GetVideoProcessorCaps**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorcaps) method. The method fills in a [**DXVA2\_VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps) structure with the device capabilities.
 
 
 ```C++
@@ -423,7 +423,7 @@ The preceding diagram shows the following rectangles:
     -   Source rectangle: { 0, 0, 720, 480 }
     -   Destination rectangle: { 0, 0, 854, 480 }
 
-These values preserve the image height and scale both images horizontally. In the regions where both images appear, they are alpha blended. Where the substream picture exends beyond the primay video, the substream is alpha blended with the background color. This alpha blending accounts for the altered colors in the right-hand side of the diagram.
+These values preserve the image height and scale both images horizontally. In the regions where both images appear, they are alpha blended. Where the substream picture extends beyond the primay video, the substream is alpha blended with the background color. This alpha blending accounts for the altered colors in the right-hand side of the diagram.
 
 ### Example 3: Mismatched Stream Heights
 

@@ -1,5 +1,5 @@
 ---
-Description: Provides additional information to be used with the CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class.
+description: Provides additional information to be used with the CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class.
 ms.assetid: d4a025c4-6a3c-4ae0-8f2c-421c1aa1eb23
 title: Msvm_VirtualSystemSnapshotSettingData class
 ms.topic: reference
@@ -142,7 +142,7 @@ Specifies if non-snapshottable disks like passthrough disks and Fibre Channel Di
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

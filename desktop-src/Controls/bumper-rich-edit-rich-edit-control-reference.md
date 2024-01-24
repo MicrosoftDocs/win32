@@ -1,6 +1,6 @@
 ---
 title: Rich Edit Control Reference
-description: .
+description: Rich Edit Control Reference
 ms.assetid: 979e10fe-1844-4786-9aa8-d634526a6eb0
 ms.topic: article
 ms.date: 05/31/2018

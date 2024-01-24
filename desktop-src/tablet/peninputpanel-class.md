@@ -1,5 +1,5 @@
 ---
-Description: The PenInputPanel object enables you to easily add in-place pen input to your applications.
+description: The PenInputPanel object enables you to easily add in-place pen input to your applications.
 ms.assetid: 'ad63302e-b386-4b32-95bf-be1129839c33'
 title: PenInputPanel class (Msinkaut.h)
 ms.topic: reference
@@ -129,7 +129,7 @@ This object can be instantiated by calling the [**CoCreateInstance**](/windows/w
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

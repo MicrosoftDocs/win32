@@ -29,7 +29,7 @@ Address of a variable that receives the current page of the property sheet (last
 
 
 
-|                 |                        |
+|                 | Description            |
 |-----------------|------------------------|
 | **"Speech"**    | The Speech Input page. |
 | **"Output"**    | The Output page.       |

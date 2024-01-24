@@ -1,5 +1,5 @@
 ---
-Description: Sets the position of an item in the Shell view. Used by SHShellFolderView\_Message.
+description: Sets the position of an item in the Shell view. Used by SHShellFolderView\_Message.
 title: SFVM_SETITEMPOS message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -47,7 +47,7 @@ A pointer to an [**SFV\_SETITEMPOS**](/windows/desktop/api/Shlobj/ns-shlobj-sfv_
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

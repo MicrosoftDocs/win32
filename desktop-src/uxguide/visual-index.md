@@ -3,10 +3,13 @@ title: Visual Index
 description: Visual examples of many user interface elements discussed in UX Guide.
 ms.assetid: be99bf83-dcd7-44df-be0d-b1b17305a2d6
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Visual Index
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Here are visual examples of many user interface elements discussed in UX Guide.
 
@@ -23,7 +26,7 @@ This index is divided into the following sections:
 
 
 
-|                                                                                                                                                                             |
+|   &nbsp;  | 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [balloons](ctrl-balloons.md)<br/> ![screen shot of balloon indicating caps lock is on ](images/visual-index-image1.png)<br/>                                   |
 | [check boxes](ctrl-check-boxes.md)<br/> ![screen shot of four check boxes ](images/visual-index-image2.png)<br/>                                               |
@@ -56,7 +59,7 @@ This index is divided into the following sections:
 
 
 
-|                                                                                                                                 |
+|     &nbsp;                                                                                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------|
 | [menus](cmd-menus.md)<br/> ![screen shot of the view menu and its submenus ](images/visual-index-image23.png)<br/> |
 | [toolbars](cmd-toolbars.md)<br/> ![screen shot of a toolbar ](images/visual-index-image24.png)<br/>                |
@@ -70,7 +73,7 @@ This index is divided into the following sections:
 
 
 
-|                                                                                                                                                       |
+|            &nbsp;                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [working in background](inter-mouse.md)<br/> ![screen shot of doughnut-shaped pointer with arrow ](images/visual-index-image26.png)<br/> |
 | [busy](inter-mouse.md)<br/> ![screen shot of doughnut-shaped pointer ](images/visual-index-image27.png)<br/>                             |
@@ -84,7 +87,7 @@ This index is divided into the following sections:
 
 
 
-|                                                                                                                                                 |
+|     &nbsp;                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|
 | [dialog boxes](win-dialog-box.md)<br/> ![screen shot of the windows help dialog box ](images/visual-index-image29.png)<br/>        |
 | [property windows](win-property-win.md)<br/> ![screen shot of a new folder property window ](images/visual-index-image30.png)<br/> |
@@ -99,7 +102,7 @@ This index is divided into the following sections:
 
 
 
-|                                                                                                                                                                 |
+|    &nbsp;                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [taskbar](winenv-taskbar.md)<br/> ![screen shot of a taskbar ](images/visual-index-image35.png)<br/>                                               |
 | [user account control entry points](winenv-uac.md)<br/> ![screen shot of large, small security shield icons](images/visual-index-image36.png)<br/> |
@@ -115,15 +118,13 @@ This index is divided into the following sections:
 
 
 
-|                                                                                                                                                  |
+|         &nbsp;                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|
 | [window frames](win-window-frames.md)<br/> ![screen shot of a frame around a notepad window ](images/visual-index-image38.png)<br/> |
 | [fonts](vis-fonts.md)<br/> ![screen shot of alphabet in the windows system font ](images/visual-index-image39.png)<br/>             |
 | [standard icons](vis-std-icons.md)<br/> ![screen shot of error, warning, and other icons ](images/visual-index-image40.png)<br/>    |
 
 
-
- 
 
  
 

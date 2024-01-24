@@ -1,5 +1,5 @@
 ---
-Description: An application can set a comment during the initiation of a session. Comments are often used for logging purposes.
+description: An application can set a comment during the initiation of a session. Comments are often used for logging purposes.
 ms.assetid: 46201166-de07-47b8-8d9a-c8edb7fb6926
 title: Comment
 ms.topic: article

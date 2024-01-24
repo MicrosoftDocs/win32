@@ -1,5 +1,5 @@
 ---
-Description: Contains configuration properties for an encoder.
+description: Contains configuration properties for an encoder.
 ms.assetid: f9bd8a50-e43e-4668-86a0-c9d5f517f4cf
 title: MFT_PREFERRED_ENCODER_PROFILE attribute (Mftransform.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

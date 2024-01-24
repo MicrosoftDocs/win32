@@ -1,5 +1,5 @@
 ---
-Description: The package code of the upgrade package must be changed from that of the original product.
+description: The package code of the upgrade package must be changed from that of the original product.
 ms.assetid: 786e864a-93e0-4ea6-adab-e87afbdd6ac2
 title: Updating Summary Information for an Upgrade
 ms.topic: article

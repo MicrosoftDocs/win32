@@ -76,7 +76,7 @@ Figure 4 shows some different cameras and their respective partitions. When the 
 
 **Figure 4. Different configurations require different frustum splits**
 
-![different configurations require different frustum splits](images/different-configurations-require different-frustum-splits.png)
+![different configurations require different frustum splits](images/different-configurations-require-different-frustum-splits.png)
 
 (Left) When geometry has a high dynamic range in Z, lots of cascades are required. (Center) When the geometry has low dynamic range in Z, there is little benefit from multiple frustums. (Right) Only three partitions are needed when the dynamic range is medium.
 

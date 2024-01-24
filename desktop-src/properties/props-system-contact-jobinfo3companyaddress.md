@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.JobInfo3CompanyAddress
 ms.assetid: 824b4322-d3ce-4120-897e-e08dee8a824a
 title: System.Contact.JobInfo3CompanyAddress
 ms.topic: article

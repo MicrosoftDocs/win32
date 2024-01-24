@@ -1,5 +1,5 @@
 ---
-Description: Creates a new service.
+description: Creates a new service.
 ms.assetid: e000b896-3b49-4650-b706-548592cfe721
 ms.tgt_platform: multiple
 title: Create method of the Win32_BaseService class
@@ -535,7 +535,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

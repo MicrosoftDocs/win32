@@ -1,5 +1,5 @@
 ---
-Description: Shows how to register as a sync root provider and integrate a cloud storage provider into the root level of the Navigation Pane.
+description: Shows how to register as a sync root provider and integrate a cloud storage provider into the root level of the Navigation Pane.
 ms.assetid: BB177EDC-8C88-4540-B2F8-994C1C8BA91C
 title: Integrate a Cloud Storage Provider
 ms.topic: article
@@ -15,7 +15,7 @@ When you have a cloud storage provider, there are a couple of steps you should t
 
  
 
-The first thing is to register as a sync root provider. This lets the Windows Shell know about your application and that your application will be responsible for synchronizing files under your sync root. This will also let other applications know that you are synchronizing these files so that they can respond appropriately. Other applications can then use [**StorageFile.Provider**](/uwp/api/Windows.Storage.StorageFile?view=winrt-19041) to get the [**DisplayName**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) and [**Id**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) of your application.
+The first thing is to register as a sync root provider. This lets the Windows Shell know about your application and that your application will be responsible for synchronizing files under your sync root. This will also let other applications know that you are synchronizing these files so that they can respond appropriately. Other applications can then use [**StorageFile.Provider**](/uwp/api/Windows.Storage.StorageFile) to get the [**DisplayName**](/uwp/api/Windows.Storage.StorageProvider) and [**Id**](/uwp/api/Windows.Storage.StorageProvider) of your application.
 
 In order to register as a sync root provider, you will need to create multiple registry entries. Before providing the list of key-value pairs, here are some placeholders that you should replace with your own application data.
 

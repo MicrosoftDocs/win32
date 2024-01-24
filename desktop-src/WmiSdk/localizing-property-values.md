@@ -1,5 +1,5 @@
 ---
-Description: The CIM schema localization model provides a mechanism for localizing qualifiers. It does not support direct localization of property values.
+description: The CIM schema localization model provides a mechanism for localizing qualifiers. It does not support direct localization of property values.
 ms.assetid: a88bd873-7132-45b6-831e-64f9bb254c6e
 ms.tgt_platform: multiple
 title: Localizing Property Values

@@ -1,5 +1,5 @@
 ---
-title: BaseEapTypeParameters Complex Type
+title: BaseEapTypeParameters Complex Type - User properties
 description: Is a base element of the method-specific element that appears in the derived element of the baseeapuserpropertiesv1 schema.
 ms.assetid: ef67eec4-ecb2-4e1c-8d48-859ca7a4607b
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# BaseEapTypeParameters Complex Type
+# BaseEapTypeParameters Complex Type - User properties
 
 The **BaseEapTypeParameters** complex type is a base element of the method-specific element that appears in the derived element of the [baseeapuserpropertiesv1 schema](baseeapuserpropertiesv1schema-schema.md).
 
@@ -34,7 +34,7 @@ The **BaseEapTypeParameters** complex type is a base element of the method-speci
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

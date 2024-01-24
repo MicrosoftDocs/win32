@@ -1,5 +1,5 @@
 ---
-Description: Defines the algorithms to be used in encryption and decryption.
+description: Defines the algorithms to be used in encryption and decryption.
 ms.assetid: c7aacd1c-02f6-4cf5-9305-50e2330f243c
 title: CAPICOM_ENCRYPTION_ALGORITHM enumeration (Capicom.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ The **CAPICOM\_ENCRYPTION\_ALGORITHM** enumeration type is used by the [**Algori
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

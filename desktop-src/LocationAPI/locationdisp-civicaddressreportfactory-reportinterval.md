@@ -1,5 +1,5 @@
 ---
-Description: The current civic address report event interval in milliseconds.
+description: The current civic address report event interval in milliseconds.
 ms.assetid: 495dd8a1-4244-468f-b295-337b393aea8a
 title: LocationDisp.CivicAddressReportFactory.ReportInterval property
 ms.topic: reference
@@ -44,7 +44,7 @@ This value is a request for the location provider. The location provider is not 
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

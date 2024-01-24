@@ -1,5 +1,5 @@
 ---
-Description: Gets the certificate from the user credential.
+description: Gets the certificate from the user credential.
 ms.assetid: 3C79D049-89DC-4AF5-8C0A-5B7EBBBD69D3
 title: GetCertificateFromCred function (Lsaidprov.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ The identity provider can also cache the certificate locally as long as it is pr
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |

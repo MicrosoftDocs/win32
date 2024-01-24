@@ -39,58 +39,16 @@ The following table contains examples and describes how binding handles are assi
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Example</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre class="syntax" data-space="preserve"><code>void proc1( void );</code></pre></td>
-<td>No explicit handle is specified. The implicit binding handle, specified by [ <a href="/windows/desktop/Midl/implicit-handle">implicit_handle</a>] or [ <a href="/windows/desktop/Midl/auto-handle">auto_handle</a>], is used. When no ACF is present, an auto handle is used.</td>
-</tr>
-<tr class="even">
-<td><pre class="syntax" data-space="preserve"><code>void proc2([in] handle_t H,
-           [in] short s );</code></pre></td>
-<td>An explicit handle of type handle_t is specified. The parameter <em>H</em> is the binding handle for the procedure.</td>
-</tr>
-<tr class="odd">
-<td><pre class="syntax" data-space="preserve"><code>void proc3([in] short s,
-           [in] handle_t H );</code></pre></td>
-<td>The first parameter is not a handle. In default mode, the leftmost handle parameter, <em>H</em>, is the binding handle. In /osf mode, implicit binding is used. An error is reported because the second parameter is expected to be transmissible, and handle_t cannot be transmitted.</td>
-</tr>
-<tr class="even">
-<td><pre class="syntax" data-space="preserve"><code>typedef [handle] short * MY_HDL;
 
-void proc1([in] short s,
-           [in] MY_HDL H );</code></pre></td>
-<td>The first parameter is not a handle. In default mode, the leftmost handle parameter, <em>H</em>, is the binding handle. The stubs call the user-supplied routines MY_HDL_bind and MY_HDL_unbind. In/osf mode, implicit binding is used. The programmer-defined handle parameter <em>H</em> is treated as transmissible data.</td>
-</tr>
-<tr class="odd">
-<td><pre class="syntax" data-space="preserve"><code>Typedef [handle] short * MY_HDL;
+| Example | Description | 
+|---------|-------------|
+| <pre class="syntax" data-space="preserve"><code>void proc1( void );</code></pre> | No explicit handle is specified. The implicit binding handle, specified by [ <a href="/windows/desktop/Midl/implicit-handle">implicit_handle</a>] or [ <a href="/windows/desktop/Midl/auto-handle">auto_handle</a>], is used. When no ACF is present, an auto handle is used. | 
+| <pre class="syntax" data-space="preserve"><code>void proc2([in] handle_t H,           [in] short s );</code></pre> | An explicit handle of type handle_t is specified. The parameter <em>H</em> is the binding handle for the procedure. | 
+| <pre class="syntax" data-space="preserve"><code>void proc3([in] short s,           [in] handle_t H );</code></pre> | The first parameter is not a handle. In default mode, the leftmost handle parameter, <em>H</em>, is the binding handle. In /osf mode, implicit binding is used. An error is reported because the second parameter is expected to be transmissible, and handle_t cannot be transmitted. | 
+| <pre class="syntax" data-space="preserve"><code>typedef [handle] short * MY_HDL;void proc1([in] short s,           [in] MY_HDL H );</code></pre> | The first parameter is not a handle. In default mode, the leftmost handle parameter, <em>H</em>, is the binding handle. The stubs call the user-supplied routines MY_HDL_bind and MY_HDL_unbind. In/osf mode, implicit binding is used. The programmer-defined handle parameter <em>H</em> is treated as transmissible data. | 
+| <pre class="syntax" data-space="preserve"><code>Typedef [handle] short * MY_HDL;void proc1([in] MY_HDL H,            [in] MY_HDL p );</code></pre> | The first parameter is a binding handle. The parameter <em>H</em> is the binding-handle parameter. The second programmer-defined handle parameter is treated as transmissible data. | 
+| <pre class="syntax" data-space="preserve"><code>Typedef [context_handle] void * CTXT_HDL;void proc1([in] short s,           [in] long l,           [in] CTXT_HDL H ,           [in] char c);</code></pre> | The binding handle is a context handle. The parameter <em>H</em> is the binding handle. | 
 
-void proc1([in] MY_HDL H, 
-           [in] MY_HDL p );</code></pre></td>
-<td>The first parameter is a binding handle. The parameter <em>H</em> is the binding-handle parameter. The second programmer-defined handle parameter is treated as transmissible data.</td>
-</tr>
-<tr class="even">
-<td><pre class="syntax" data-space="preserve"><code>Typedef [context_handle] 
-void * CTXT_HDL;
-
-void proc1([in] short s,
-           [in] long l,
-           [in] CTXT_HDL H ,
-           [in] char c);</code></pre></td>
-<td>The binding handle is a context handle. The parameter <em>H</em> is the binding handle.</td>
-</tr>
-</tbody>
-</table>
 
 
 

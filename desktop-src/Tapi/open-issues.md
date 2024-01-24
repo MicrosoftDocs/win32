@@ -1,5 +1,5 @@
 ---
-Description: The following list contains issues with the TAPI 3 MSP base classes.
+description: The following list contains issues with the TAPI 3 MSP base classes.
 ms.assetid: 09fbcf3e-2d33-4888-ac8c-11809f18f16a
 title: Open Issues
 ms.topic: article

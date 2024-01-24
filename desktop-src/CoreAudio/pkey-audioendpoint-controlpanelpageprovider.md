@@ -1,5 +1,5 @@
 ---
-Description: The PKEY\_AudioEndpoint\_ControlPanelPageProvider property specifies the CLSID of the registered provider of the device-properties extension for the audio endpoint device.
+description: The PKEY\_AudioEndpoint\_ControlPanelPageProvider property specifies the CLSID of the registered provider of the device-properties extension for the audio endpoint device.
 ms.assetid: 429a7572-b609-46fd-946e-ee34ddd6cc5e
 title: PKEY_AudioEndpoint_ControlPanelPageProvider (Mmdeviceapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ The **pwszVal** member of the **PROPVARIANT** structure points to a null-termina
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

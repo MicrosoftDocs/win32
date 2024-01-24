@@ -1,5 +1,5 @@
 ---
-Description: The NETWORKINFO structure describes a NIC.
+description: The NETWORKINFO structure describes a NIC.
 ms.assetid: 40169409-7de5-44d1-8dff-dfa9f647edc9
 title: NETWORKINFO structure (Netmon.h)
 ms.topic: reference
@@ -139,7 +139,7 @@ Adapter comment field.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

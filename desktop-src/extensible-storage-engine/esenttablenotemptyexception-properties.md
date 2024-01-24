@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableNotEmptyException properties"
 title: EsentTableNotEmptyException properties
 TOCTitle: EsentTableNotEmptyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTableNotEmptyException](dn334941\(v=exchg.10\).md) type exposes the following members.
+The [EsentTableNotEmptyException](./esenttablenotemptyexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentTableNotEmptyException class](dn334941\(v=exchg.10\).md)
+[EsentTableNotEmptyException class](./esenttablenotemptyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

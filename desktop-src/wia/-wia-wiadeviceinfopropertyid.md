@@ -1,5 +1,5 @@
 ---
-Description: Device Information Properties are properties that describe the setup and installation of the device. These properties are available through the IWiaDevMgr interface and also through the root item.
+description: Device Information Properties are properties that describe the setup and installation of the device. These properties are available through the IWiaDevMgr interface and also through the root item.
 ms.assetid: bf789465-c98a-421f-9976-de4feb92465c
 title: WiaDeviceInfoPropertyId
 ms.topic: article

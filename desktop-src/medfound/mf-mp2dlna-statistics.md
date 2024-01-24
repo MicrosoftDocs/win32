@@ -1,5 +1,5 @@
 ---
-Description: Gets statistics from the Digital Living Network Alliance (DLNA) media sink.
+description: Gets statistics from the Digital Living Network Alliance (DLNA) media sink.
 ms.assetid: 1fa6ea9f-fd30-4fa2-a0e6-1647273bcc35
 title: MF_MP2DLNA_STATISTICS attribute (Mfmp2dlna.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Setting this attribute on the DLNA media sink has no effect.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

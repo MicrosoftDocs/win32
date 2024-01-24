@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of property IDs in a profile.
+description: Gets the number of property IDs in a profile.
 ms.assetid: fa587c8a-8d09-4dfc-938a-5ec8cc9265f5
 title: IScanProfile::GetNumPropIDS method (Scanprofile.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

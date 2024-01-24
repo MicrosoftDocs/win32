@@ -1,6 +1,6 @@
 ---
 title: IGatherNotify AddScope (Deprecated) method
-description: This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search ISearchPersistentItemsChangedSink API in the Windows SDK.
+description: This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search ISearchPersistentItemsChangedSink API in the Windows SDK. | IGatherNotify AddScope (Deprecated) method
 ms.assetid: 3b250818-1876-40b2-9a85-91f2bf6f52ec
 keywords:
 - AddScope (Deprecated) method Legacy Windows Environment Features

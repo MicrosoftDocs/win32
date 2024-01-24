@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch class"
 title: EsentStopwatch class
 TOCTitle: EsentStopwatch class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentStopwatch
@@ -28,14 +29,14 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentStopwatch class
 
-Provides a set of methods and properties that you can use to measure ESENT work statistics for a thread. If the current version of ESENT doesn't support [JetGetThreadStats(JET_THREADSTATS)](dn351264\(v=exchg.10\).md) then all ESENT statistics will be 0.
+Provides a set of methods and properties that you can use to measure ESENT work statistics for a thread. If the current version of ESENT doesn't support [JetGetThreadStats(JET_THREADSTATS)](./vistaapi.jetgetthreadstats-method.md) then all ESENT statistics will be 0.
 
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.EsentStopwatch  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentStopwatch members](dn334924\(v=exchg.10\).md)
+[EsentStopwatch members](./esentstopwatch-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

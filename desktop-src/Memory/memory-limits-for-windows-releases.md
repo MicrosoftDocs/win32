@@ -1,35 +1,16 @@
 ---
-Description: This topic describes the memory limits for supported Windows and Windows Server releases.
+description: Describes the memory limits for supported Windows and Windows Server releases and provides lists of memory limits.
 ms.assetid: de09c8af-0ed8-4fd4-b8e8-2c921aafe6f2
 title: Memory Limits for Windows and Windows Server Releases
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2021
 ---
 
 # Memory Limits for Windows and Windows Server Releases
 
 This topic describes the memory limits for supported Windows and Windows Server releases.
 
--   [Memory and Address Space Limits](#memory-limits-for-windows-and-windows-server-releases)
--   [Physical Memory Limits: Windows 10](#physical-memory-limits-windows-10)
--   [Physical Memory Limits: Windows Server 2016](#physical-memory-limits-windows-server-2016)
--   [Physical Memory Limits: Windows 8](#physical-memory-limits-windows-8)
--   [Physical Memory Limits: Windows Server 2012](#physical-memory-limits-windows-server-2012)
--   [Physical Memory Limits: Windows 7](#physical-memory-limits-windows-7)
--   [Physical Memory Limits: Windows Server 2008 R2](#physical-memory-limits-windows-server-2008-r2)
--   [Physical Memory Limits: Windows Server 2008](#physical-memory-limits-windows-server-2008-r2)
--   [Physical Memory Limits: Windows Vista](#physical-memory-limits-windows-vista)
--   [Physical Memory Limits: Windows Home Server](#physical-memory-limits-windows-home-server)
--   [Physical Memory Limits: Windows Server 2003 R2](#physical-memory-limits-windows-server-2003-r2)
--   [Physical Memory Limits: Windows Server 2003 with Service Pack 2 (SP2)](#physical-memory-limits-windows-server-2003-with-service-pack-2-sp2)
--   [Physical Memory Limits: Windows Server 2003 with Service Pack 1 (SP1)](#physical-memory-limits-windows-server-2003-with-service-pack-1-sp1)
--   [Physical Memory Limits: Windows Server 2003](#physical-memory-limits-windows-server-2003-r2)
--   [Physical Memory Limits: Windows XP](#physical-memory-limits-windows-xp)
--   [Physical Memory Limits: Windows Embedded](#physical-memory-limits-windows-embedded)
--   [How graphics cards and other devices affect memory limits](#how-graphics-cards-and-other-devices-affect-memory-limits)
--   [Related topics](#related-topics)
-
-Limits on memory and address space vary by platform, operating system, and by whether the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** value of the [**LOADED\_IMAGE**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) structure and [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) are in use. **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** is set or cleared by using the [/LARGEADDRESSAWARE](/cpp/build/reference/largeaddressaware-handle-large-addresses?view=vs-2019) linker option.
+Limits on memory and address space vary by platform, operating system, and by whether the **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** value of the [**LOADED\_IMAGE**](/windows/win32/api/dbghelp/ns-dbghelp-loaded_image) structure and [4-gigabyte tuning](4-gigabyte-tuning.md) (4GT) are in use. **IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE** is set or cleared by using the [/LARGEADDRESSAWARE](/cpp/build/reference/largeaddressaware-handle-large-addresses) linker option.
 
 4-gigabyte tuning (4GT), also known as application memory tuning, or the /3GB switch, is a technology (only applicable to 32 bit systems) that alters the amount of virtual address space available to user mode applications. Enabling this technology reduces the overall size of the system virtual address space and therefore system resource maximums. For more information, see [What is 4GT]( /previous-versions/windows/it-pro/windows-server-2003/cc786709(v=ws.10)).
 
@@ -51,8 +32,19 @@ The following table specifies the limits on memory and address space for support
 | System cache virtual address space (physical size limited only by physical memory)<br/> | Limited by available kernel-mode virtual address space or the [SystemCacheLimit](memory-management-registry-keys.md) registry key value.<br/> **Windows 8.1 and Windows Server 2012 R2:** 16 TB.<br/> **Windows Vista:** Limited only by kernel mode virtual address space. Starting with Windows Vista with SP1, system cache virtual address space can also be limited by the [SystemCacheLimit](memory-management-registry-keys.md) registry key value.<br/> **Windows Home Server, Windows Server 2003 and Windows XP:** 860 MB with [LargeSystemCache](/previous-versions/windows/it-pro/windows-server-2003/cc784562(v=ws.10)) registry key set and without 4GT; up to 448 MB with 4GT.<br/> <br/> | Always 1 TB regardless of physical RAM **Windows 8.1 and Windows Server 2012 R2:** 16 TB.<br/> **Windows Server 2003 and Windows XP:** Up to 1 TB depending on configuration and RAM.<br/> <br/>                                                                                                                                                                                                                                                                                            |
 
 
+## Physical Memory Limits: Windows 11
 
- 
+The following table specifies the limits on physical memory for Windows 11.
+
+
+
+| Version               | Limit on X64     | Limit on ARM64     |
+|-----------------------|-----------------|------------------|
+| Windows 11 Enterprise | 6 TB<br/>   | 6 TB<br/>   |
+| Windows 11 Education  | 2 TB<br/>   | 2 TB<br/>   |
+| Windows 11 Pro for Workstations  | 6 TB<br/>   | 6 TB<br/>   |
+| Windows 11 Pro        | 2 TB<br/>   | 2 TB<br/>   |
+| Windows 11 Home       | 128 GB<br/> | 128 GB<br/> |
 
 ## Physical Memory Limits: Windows 10
 
@@ -245,8 +237,8 @@ The following table specifies the limits on physical memory for Windows Server 
 
 | Version                                                                      | Limit on X86                                 | Limit on X64        | Limit on IA64   |
 |------------------------------------------------------------------------------|----------------------------------------------|---------------------|-----------------|
-| Windows Server 2003 with Service Pack 1 (SP1), Datacenter Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | X64 1 TB<br/> | 1 TB<br/> |
-| Windows Server 2003 with Service Pack 1 (SP1), Enterprise Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | X64 1 TB<br/> | 1 TB<br/> |
+| Windows Server 2003 with Service Pack 1 (SP1), Datacenter Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | 1 TB<br/> | 1 TB<br/> |
+| Windows Server 2003 with Service Pack 1 (SP1), Enterprise Edition<br/> | 64 GB<br/> (16 GB with 4GT)<br/> | 1 TB<br/> | 1 TB<br/> |
 | Windows Server 2003 with Service Pack 1 (SP1), Standard Edition<br/>   | 4 GB<br/>                              | 32 GB<br/>    |                 |
 
 

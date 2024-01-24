@@ -1,5 +1,5 @@
 ---
-Description: Skips the specified number of items during an enumeration of available IWiaItem2 objects.
+description: Skips the specified number of items during an enumeration of available IWiaItem2 objects.
 ms.assetid: 7a5e9e1c-1e6e-4de0-9499-bf89e35c19aa
 title: IEnumWiaItem2::Skip method (Wia.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

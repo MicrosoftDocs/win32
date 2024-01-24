@@ -1,5 +1,5 @@
 ---
-Description: Creates an enumerator object and passes back a pointer to its IEnumWiaItem2 interface for folders with items in the IWiaItem2 tree of a Windows Image Acquisition (WIA) 2.0 device.
+description: Creates an enumerator object and passes back a pointer to its IEnumWiaItem2 interface for folders with items in the IWiaItem2 tree of a Windows Image Acquisition (WIA) 2.0 device.
 ms.assetid: 0862bb6f-0464-491a-8cad-60b92d9609f1
 title: IWiaItem2::EnumChildItems method (Wia.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unkn
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

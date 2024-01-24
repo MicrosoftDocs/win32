@@ -1,5 +1,5 @@
 ---
-Description: The ReinstallFeature method of the Installer object reinstalls features or corrects problems with installed features.
+description: The ReinstallFeature method of the Installer object reinstalls features or corrects problems with installed features.
 ms.assetid: cfe2aef4-7742-49cd-b7a3-7d484e1f85e3
 title: Installer.ReinstallFeature method
 ms.topic: reference
@@ -84,7 +84,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

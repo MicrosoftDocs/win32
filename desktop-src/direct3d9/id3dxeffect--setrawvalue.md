@@ -1,5 +1,5 @@
 ---
-Description: Set a contiguous range of shader constants with a memory copy.
+description: Set a contiguous range of shader constants with a memory copy.
 ms.assetid: 8a3b5141-c67a-45b9-91c2-1877642164e3
 title: ID3DXEffect::SetRawValue method (D3DX9Effect.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ All values are expected to be either matrix4x4s or float4s and all matrices are 
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

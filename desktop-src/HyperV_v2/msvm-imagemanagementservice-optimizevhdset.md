@@ -1,5 +1,5 @@
 ---
-Description: Optimizes a VHD Set file to use less disk space.
+description: Optimizes a VHD Set file to use less disk space.
 ms.assetid: 2d2f4531-5d2d-4334-bcc2-d3d3c15b1f46
 title: OptimizeVHDSet method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -101,7 +101,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

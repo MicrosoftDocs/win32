@@ -1,5 +1,5 @@
 ---
-Description: Defines the degree of the variables in the equation that describes a curve.
+description: Defines the degree of the variables in the equation that describes a curve.
 ms.assetid: 52a9c57e-a48d-4d8a-a208-97a3d09e7abf
 title: D3DDEGREETYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ The values in this enumeration are used to describe the curves used by rectangle
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

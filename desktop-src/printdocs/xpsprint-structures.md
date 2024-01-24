@@ -1,5 +1,5 @@
 ---
-Description: .
+description: XPS Print API Structures
 ms.assetid: 13aa0d6b-8964-4d41-9fec-98c09b764a77
 title: XPS Print API Structures
 ms.topic: article
@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 [Documents](./jobbindalldocuments.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

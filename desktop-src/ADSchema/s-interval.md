@@ -21,7 +21,7 @@ Represents a time interval value. The actual time units depend on which attribut
 
 
 
-|              |                                                                                    |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------------------|
 | Name         | Interval                                                                           |
 | Syntax ID    | 2.5.5.16                                                                           |

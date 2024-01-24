@@ -1,6 +1,6 @@
 ---
 title: glTexCoord4dv function (Gl.h)
-description: Sets the current texture coordinates.
+description: Sets the current texture coordinates. | glTexCoord4dv function (Gl.h)
 ms.assetid: 43d3fb1c-c1cf-4f81-aac2-24a5b4c5b29d
 keywords:
 - glTexCoord4dv function OpenGL
@@ -56,7 +56,7 @@ The [**glTexCoord**](gltexcoord-functions.md) function sets the current texture 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

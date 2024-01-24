@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the SetResolution method.
+description: IWICBitmapFrameEncode_SetResolution_Proxy function - Proxy function for the SetResolution method.
 ms.assetid: dc8df5bb-c38b-4be3-a4c6-60e7d5e1cd1b
 title: IWICBitmapFrameEncode_SetResolution_Proxy function
 ms.topic: reference
@@ -76,7 +76,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

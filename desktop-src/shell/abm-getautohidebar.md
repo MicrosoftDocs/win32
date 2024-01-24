@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the handle to the autohide appbar associated with an edge of the screen. If the system has multiple monitors, the monitor that contains the primary taskbar is used.
+description: Retrieves the handle to the autohide appbar associated with an edge of the screen. If the system has multiple monitors, the monitor that contains the primary taskbar is used.
 title: ABM_GETAUTOHIDEBAR message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -51,7 +51,7 @@ Returns the handle to the autohide appbar. The return value is **NULL** if an er
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

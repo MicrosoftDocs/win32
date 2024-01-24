@@ -34,10 +34,10 @@ Represents a layout size for a group of controls in a custom template.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -183,12 +183,8 @@ The following code example illustrates a basic custom template that includes the
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: No
 
 
 

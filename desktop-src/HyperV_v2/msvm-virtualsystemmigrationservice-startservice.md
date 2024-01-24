@@ -1,5 +1,5 @@
 ---
-Description: Starts the service.
+description: StartService method of the Msvm_VirtualSystemMigrationService class - Starts the service.
 ms.assetid: 2803cc6f-64ea-4502-ae5a-075bdd3f8c96
 title: StartService method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

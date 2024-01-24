@@ -34,8 +34,8 @@ Pragma directive that specifies packing alignment for matrices.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -1,5 +1,5 @@
 ---
-Description: Modifies the setting data for the migration service.
+description: Modifies the setting data for the migration service.
 ms.assetid: 5162fe88-dd39-4fe0-b8e9-e9b70c2b6a5c
 title: ModifyServiceSettings method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

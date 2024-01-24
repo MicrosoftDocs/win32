@@ -1,5 +1,5 @@
 ---
-Description: Specifies the usage mode for a UVC H.264 encoder.
+description: Specifies the usage mode for a UVC H.264 encoder.
 ms.assetid: 05158F47-CE01-4C99-8FFA-6BBD4F829B59
 title: MF_MT_H264_USAGE attribute (Mfapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This attribute applies to media types for H.264 streams transmitted over USB. Th
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

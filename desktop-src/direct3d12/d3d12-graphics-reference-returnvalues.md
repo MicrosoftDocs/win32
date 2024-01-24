@@ -2,7 +2,6 @@
 title: Direct3D 12 Return Codes
 description: The following are return codes from API functions.
 ms.assetid: 5F6CC962-7DB7-489F-82A4-9388313014D3
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---

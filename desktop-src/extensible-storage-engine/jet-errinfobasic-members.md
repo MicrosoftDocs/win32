@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC members"
 title: JET_ERRINFOBASIC members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_ERRINFOBASIC members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC
@@ -15,7 +16,7 @@ Include inherited members
 
 Contains the information about an error.
 
-The [JET_ERRINFOBASIC](dn335334\(v=exchg.10\).md) type exposes the following members.
+The [JET_ERRINFOBASIC](./jet-errinfobasic-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -142,6 +143,6 @@ Top
 
 #### Reference
 
-[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](./jet-errinfobasic-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

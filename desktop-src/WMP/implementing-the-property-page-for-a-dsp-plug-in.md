@@ -9,10 +9,13 @@ keywords:
 - DSP plug-ins,audio properties
 - audio DSP plug-ins,properties
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Implementing the Property Page for a DSP Plug-in
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Windows Media Player can display a property page for each DSP plug-in to enable users to set values that change the behavior of the plug-in. Users can access the property page from the **Plug-ins** tab of the Options dialog box by clicking the name of the DSP plug-in to select it and then clicking **Properties**.
 

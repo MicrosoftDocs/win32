@@ -1,5 +1,5 @@
 ---
-Description: Opens a handle to a private key.
+description: Opens a handle to a private key.
 ms.assetid: 2406be2c-121c-4475-b193-d370a88641da
 title: SslOpenPrivateKey function (Sslprovider.h)
 ms.topic: reference
@@ -95,7 +95,7 @@ The private key obtained is part of a [*public/private key pair*](/windows/deskt
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

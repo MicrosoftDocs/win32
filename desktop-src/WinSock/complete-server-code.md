@@ -1,5 +1,5 @@
 ---
-Description: The following is the complete source code for the basic Winsock TCP/IP Server application.
+description: The following is the complete source code for the basic Winsock TCP/IP Server application.
 ms.assetid: 949dddec-840e-4f5a-9ab8-e1962a10b599
 title: Complete Winsock Server Code
 ms.topic: article
@@ -67,7 +67,7 @@ int __cdecl main(void)
         return 1;
     }
 
-    // Create a SOCKET for connecting to server
+    // Create a SOCKET for the server to listen for client connections.
     ListenSocket = socket(result->ai_family, result->ai_socktype, result->ai_protocol);
     if (ListenSocket == INVALID_SOCKET) {
         printf("socket failed with error: %ld\n", WSAGetLastError());

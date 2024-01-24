@@ -1,5 +1,5 @@
 ---
-Description: Initializing the ContentInfo Object of a New ASF File
+description: Initializing the ContentInfo Object of a New ASF File
 ms.assetid: a4f6c90e-1b38-4c70-8bc5-e2e16af3d87a
 title: Initializing the ContentInfo Object of a New ASF File
 ms.topic: article

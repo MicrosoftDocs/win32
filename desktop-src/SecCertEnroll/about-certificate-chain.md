@@ -1,5 +1,5 @@
 ---
-Description: A certificate chain is a hierarchal collection of certificates that leads from the end user or computer back to a root of trust, typically the root certification authority (CA) of an organization.
+description: A certificate chain is a hierarchal collection of certificates that leads from the end user or computer back to a root of trust, typically the root certification authority (CA) of an organization.
 ms.assetid: 53701ede-269c-4949-b839-3f2b64cb5510
 title: Certificate Chain
 ms.topic: article

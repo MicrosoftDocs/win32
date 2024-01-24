@@ -1,5 +1,5 @@
 ---
-Description: Defines an attribute of a counter that specifies how the counter data is displayed in a consumer application.
+description: Defines an attribute of a counter that specifies how the counter data is displayed in a consumer application.
 ms.assetid: 3749501b-4f3e-42e5-b1d5-2700b6d4a48a
 title: counterAttribute Complex Type
 ms.topic: reference
@@ -65,7 +65,7 @@ Defines an attribute of a counter that specifies how the counter data is display
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

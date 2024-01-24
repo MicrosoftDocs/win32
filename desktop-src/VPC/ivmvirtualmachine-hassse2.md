@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualMachine HasSSE2 property (VPCCOMInterfaces.h)
-description: Determines whether the processor supports the SSE2 instruction set.
+description: Determines whether the processor supports the SSE2 instruction set. | IVMVirtualMachine HasSSE2 property (VPCCOMInterfaces.h)
 ms.assetid: da9860cf-d1e4-4dc4-8c4c-1b83104ffbc6
 keywords:
 - HasSSE2 property Virtual PC
@@ -59,7 +59,7 @@ HRESULT get_HasSSE2(
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

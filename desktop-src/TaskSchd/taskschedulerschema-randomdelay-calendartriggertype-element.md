@@ -1,6 +1,6 @@
 ---
 title: RandomDelay (calendarTriggerType) Element
-description: Contains the delay time that is randomly added to the start time of the trigger.
+description: Contains the delay time that is randomly added to the start time of the trigger. | RandomDelay (calendarTriggerType) Element
 ms.assetid: 497fab4e-ad63-43e6-a086-2d77b43662d9
 keywords:
 - RandomDelay element Task Scheduler
@@ -43,7 +43,7 @@ The **RandomDelay** element is defined by the [**calendarTriggerType**](tasksche
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

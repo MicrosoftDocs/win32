@@ -1,5 +1,5 @@
 ---
-Description: Interfaces used with disk quotas.
+description: Interfaces used with disk quotas.
 ms.assetid: 422d93d9-f4aa-428d-94c1-fdf2dcf4c974
 title: Disk Quota Interfaces
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID class"
 title: JET_COMMIT_ID class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_COMMIT_ID class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID
@@ -35,7 +36,7 @@ Information context surrounded data emitted from JET_PFNEMITLOGDATA.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,6 +62,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](./jet-commit-id-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

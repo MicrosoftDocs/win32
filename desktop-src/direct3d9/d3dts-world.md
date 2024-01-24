@@ -1,5 +1,5 @@
 ---
-Description: Identifies the transformation matrix being set as the world transformation matrix.
+description: Identifies the transformation matrix being set as the world transformation matrix.
 ms.assetid: 2bf7ac8a-43d8-460e-a400-3b33e96441db
 title: D3DTS_WORLD macro (D3d9types.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This macro is provided to facilitate porting existing applications to Direct3D 9
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

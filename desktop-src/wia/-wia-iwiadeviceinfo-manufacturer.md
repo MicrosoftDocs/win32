@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the manufacturer of this hardware device.
+description: Retrieves the name of the manufacturer of this hardware device.
 ms.assetid: be8c91ea-eaf8-45d5-801d-ad02db3634f1
 title: DeviceInfo.Manufacturer property
 ms.topic: reference
@@ -38,7 +38,7 @@ String that receives the name.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

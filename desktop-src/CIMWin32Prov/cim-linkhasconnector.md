@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LinkHasConnector class associates cables and links used as physical connectors, which connect the physical elements. This association explicitly defines the relationship of connectors for CIM\_PhysicalLink.
+description: The CIM\_LinkHasConnector class associates cables and links used as physical connectors, which connect the physical elements. This association explicitly defines the relationship of connectors for CIM\_PhysicalLink.
 ms.assetid: c8244b93-749a-424a-ab40-ce5ce79c8b02
 ms.tgt_platform: multiple
 title: CIM_LinkHasConnector class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

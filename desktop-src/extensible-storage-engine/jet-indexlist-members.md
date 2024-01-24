@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST members"
 title: JET_INDEXLIST members
 TOCTitle: JET_INDEXLIST members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INDEXLIST
@@ -15,7 +16,7 @@ Include inherited members
 
 Information about a temporary table containing information about all indexes for a given table.
 
-The [JET_INDEXLIST](dn335123\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXLIST](./jet-indexlist-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -103,7 +104,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335170(v=exchg.10).md">columnidiColumn</a></td>
-<td>Gets the columnid of the column in the temporary table which stores the index of of this column in the index key. The column is of type <a href="hh577895(v=exchg.10).md">Long</a>.</td>
+<td>Gets the columnid of the column in the temporary table which stores the index of this column in the index key. The column is of type <a href="hh577895(v=exchg.10).md">Long</a>.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
@@ -187,6 +188,6 @@ Top
 
 #### Reference
 
-[JET_INDEXLIST class](dn335123\(v=exchg.10\).md)
+[JET_INDEXLIST class](./jet-indexlist-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

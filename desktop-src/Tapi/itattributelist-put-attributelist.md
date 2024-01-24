@@ -1,5 +1,5 @@
 ---
-Description: The put\_AttributeList method sets the list of attributes.
+description: The put\_AttributeList method sets the list of attributes.
 ms.assetid: f7d57c0c-9114-42a4-b2bc-c812334d8136
 title: ITAttributeList::put_AttributeList method (Sdpblb.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: A transaction is an object that defines a logical unit of work.
+description: A transaction is an object that defines a logical unit of work.
 ms.assetid: 29661a58-ada9-4b7c-8d85-ab65b824c7cd
 title: Transactions (Kernel Transaction Manager)
 ms.topic: article

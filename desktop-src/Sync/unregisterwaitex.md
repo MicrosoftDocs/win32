@@ -1,5 +1,5 @@
 ---
-Description: Cancels a registered wait operation issued by the RegisterWaitForSingleObject function.
+description: Cancels a registered wait operation issued by the RegisterWaitForSingleObject function.
 ms.assetid: ea700e55-fce7-46cd-bb96-0c129b429d46
 title: UnregisterWaitEx function (Threadpoollegacyapiset.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ To compile an application that uses this function, define **\_WIN32\_WINNT** as 
 
 
 
-|                                     |                                                                                                                                                                                                                                                                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                                                                                                                    |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                                                                                                           |

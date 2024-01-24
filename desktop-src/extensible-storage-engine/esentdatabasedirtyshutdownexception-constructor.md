@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseDirtyShutdownException constructor"
 title: EsentDatabaseDirtyShutdownException constructor 
 TOCTitle: 'EsentDatabaseDirtyShutdownException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseDirtyShutdownException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseDirtyShutdownException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseDirtyShutdownException()
 
 #### Reference
 
-[EsentDatabaseDirtyShutdownException class](dn334290\(v=exchg.10\).md)
+[EsentDatabaseDirtyShutdownException class](./esentdatabasedirtyshutdownexception-class.md)
 
-[EsentDatabaseDirtyShutdownException members](dn334398\(v=exchg.10\).md)
+[EsentDatabaseDirtyShutdownException members](./esentdatabasedirtyshutdownexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

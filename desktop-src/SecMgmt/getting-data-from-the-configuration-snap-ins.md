@@ -1,5 +1,5 @@
 ---
-Description: The attachment snap-in extension has no way to directly query the security database to retrieve information. Instead, it must query this information from the Security Configuration snap-ins using ISceSvcAttachmentData::GetData.
+description: The attachment snap-in extension has no way to directly query the security database to retrieve information. Instead, it must query this information from the Security Configuration snap-ins using ISceSvcAttachmentData::GetData.
 ms.assetid: 1171beed-5b28-4f31-b33f-533e3c631b0d
 title: Getting Data from the Configuration Snap-ins
 ms.topic: article

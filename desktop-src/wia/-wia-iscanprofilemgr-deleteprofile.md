@@ -1,5 +1,5 @@
 ---
-Description: Deletes the specified scan profile.
+description: Deletes the specified scan profile.
 ms.assetid: 31020528-3a96-492f-a3a1-e9075d4ffd14
 title: IScanProfileMgr::DeleteProfile method (Scanprofilemgr.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ Use the [**IScanProfileMgr::Refresh**](-wia-iscanprofilemgr-refresh.md) method w
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

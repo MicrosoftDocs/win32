@@ -1,5 +1,5 @@
 ---
-Description: Determines if a ray intersects with a mesh.
+description: Determines if a ray intersects with a mesh.
 ms.assetid: 325f5b40-80ba-4400-a143-bae41146ab07
 title: D3DXIntersect function (D3DX9Mesh.h)
 ms.topic: reference
@@ -154,7 +154,7 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

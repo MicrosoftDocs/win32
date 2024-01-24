@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Message and Message Queue Overviews
 ms.assetid: cbebf1e8-51aa-4c8d-9a3a-3024251ad5e5
 title: Message and Message Queue Overviews
 ms.topic: article

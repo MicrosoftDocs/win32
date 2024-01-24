@@ -1,5 +1,5 @@
 ---
-Description: These enumerations are used by the Windows Presentation Foundation to implement ink support.
+description: These enumerations are used by the Windows Presentation Foundation to implement ink support.
 ms.assetid: 4d78b2ea-517a-4c58-87ad-c6039d928a50
 title: Enumerations Used by WPF
 ms.topic: article

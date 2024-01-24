@@ -1,5 +1,5 @@
 ---
-Description: ICEM08 ensures that a module does not exclude another module that it depends on.
+description: ICEM08 ensures that a module does not exclude another module that it depends on.
 ms.assetid: 56d115b4-7410-4db2-a9af-bc6716f3358d
 title: ICEM08
 ms.topic: article
@@ -29,7 +29,7 @@ lists it as an exclusion.
 
 | ModuleID             | ModuleLanguage | RequiredID           | RequiredLanguage | RequiredVersion |
 |----------------------|----------------|----------------------|------------------|-----------------|
-| ModuleA.<GUID> | 1033           | ModuleB.<GUID> | 1033             | 1.0             |
+| ModuleA.&lt;GUID&gt; | 1033           | ModuleB.&lt;GUID&gt; | 1033             | 1.0             |
 
 
 
@@ -41,7 +41,7 @@ lists it as an exclusion.
 
 | ModuleID             | ModuleLanguage | ExcludedID           | ExcludedLanguage | ExcludedMinVersion | ExcludedMaxVersion |
 |----------------------|----------------|----------------------|------------------|--------------------|--------------------|
-| ModuleA.<GUID> | 1033           | ModuleB.<GUID> | 1033             |                    | 1.0                |
+| ModuleA.&lt;GUID&gt; | 1033           | ModuleB.&lt;GUID&gt; | 1033             |                    | 1.0                |
 
 
 

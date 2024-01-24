@@ -1,5 +1,5 @@
 ---
-Description: GetOrdinal is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: GetOrdinal is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 20b1c1d0-b09f-43a8-9026-9cdbac28c108
 title: IUserIdentity2::GetOrdinal method (Msident.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The ordinal determines the order of the identities in the identity list, but may
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

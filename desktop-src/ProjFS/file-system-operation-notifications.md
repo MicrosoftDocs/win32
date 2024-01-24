@@ -55,7 +55,7 @@ callbackTable.CancelCommandCallback = nullptr;
 //   pre- and post-deletes for C:\VirtRoot\foo
 // * No notifications for C:\VirtRoot\foo\subdir1
 PRJ_STARTVIRTUALIZING_OPTIONS startOpts = {};
-PRJ_VIRTUALIZATION_MAPPING notificationMappings[3];
+PRJ_NOTIFICATION_MAPPING notificationMappings[3];
 
 // Configure default notifications - notify of new files for most of the tree.
 notificationMappings[0].NotificationRoot = L"";

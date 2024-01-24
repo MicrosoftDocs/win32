@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Document.ClientID
 ms.assetid: 67a70bbc-3f4f-43ac-b886-88fc312b1aa1
 title: System.Document.ClientID
 ms.topic: article

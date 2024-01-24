@@ -21,7 +21,7 @@ A case-insensitive Unicode string.
 
 
 
-|              |                                                                        |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------|
 | Name         | String(Unicode)                                                        |
 | Syntax ID    | 2.5.5.12                                                               |

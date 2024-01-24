@@ -1,5 +1,5 @@
 ---
-Description: Indicates the encoding type used.
+description: Indicates the encoding type used.
 ms.assetid: 13e78a5e-3a31-44de-b249-28e360e1e087
 title: CAPICOM_ENCODING_TYPE enumeration (Capicom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This enumeration type is used by the following CAPICOM methods and properties:
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

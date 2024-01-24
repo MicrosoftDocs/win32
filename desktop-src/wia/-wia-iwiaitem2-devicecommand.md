@@ -1,5 +1,5 @@
 ---
-Description: Issues a command to a Windows Image Acquisition (WIA) 2.0 hardware device.
+description: Issues a command to a Windows Image Acquisition (WIA) 2.0 hardware device.
 ms.assetid: a077448f-2029-4fd3-8bce-c0291afd0b79
 title: IWiaItem2::DeviceCommand method (Wia.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unkn
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

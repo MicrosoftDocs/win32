@@ -1,5 +1,5 @@
 ---
-Description: Removes existing key-value pairs from a virtual machine.
+description: Removes existing key-value pairs from a virtual machine.
 ms.assetid: B2ECF609-89BB-4117-982B-EF56D51E1321
 title: RemoveKvpItems method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -342,7 +342,7 @@ End Function
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

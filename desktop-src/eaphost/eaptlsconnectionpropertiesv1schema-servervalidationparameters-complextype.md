@@ -1,6 +1,6 @@
 ---
 title: ServerValidationParameters Complex Type (TLS)
-description: Learn about the ServerValidationParameters complex type. This type contains information about how to perform server validation.
+description: Learn about the ServerValidationParameters complex type. This type contains information about how to perform server validation. | ServerValidationParameters Complex Type (TLS)
 ms.assetid: 7a35c7f5-4cab-43d5-87dc-a4020811d3a9
 keywords:
 - ServerValidationParameters complex type EAPHost

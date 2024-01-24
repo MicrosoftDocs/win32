@@ -1,6 +1,6 @@
 ---
 title: Device Access API
-description: .
+description: Use the Device Access API to write Windows Store device apps for specialized devices that use custom drivers.
 ms.assetid: 51329746-291e-4ac6-9029-ebe4727d5d7d
 ms.topic: article
 ms.date: 02/11/2020
@@ -28,4 +28,4 @@ The Device Access API is designed for independent hardware vendor (IHV) and OEM 
 
 ## Related topics
 
-[Custom Driver Access Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Hardware Dev Center](/windows/hardware/)
+[Custom Driver Access Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [UWP device apps for internal devices](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Hardware Dev Center](/windows-hardware/drivers/)

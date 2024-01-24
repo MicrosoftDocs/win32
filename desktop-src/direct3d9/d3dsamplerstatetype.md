@@ -1,5 +1,5 @@
 ---
-Description: Sampler states define texture sampling operations such as texture addressing and texture filtering.
+description: Sampler states define texture sampling operations such as texture addressing and texture filtering.
 ms.assetid: 03a6a5f1-5e4f-4ba8-be4a-74d78fbc85d0
 title: D3DSAMPLERSTATETYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -149,7 +149,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

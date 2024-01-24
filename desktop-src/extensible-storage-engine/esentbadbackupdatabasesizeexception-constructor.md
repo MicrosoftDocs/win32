@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBackupDatabaseSizeException constructor"
 title: EsentBadBackupDatabaseSizeException constructor 
 TOCTitle: 'EsentBadBackupDatabaseSizeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadBackupDatabaseSizeException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentBadBackupDatabaseSizeException()
 
 #### Reference
 
-[EsentBadBackupDatabaseSizeException class](dn273987\(v=exchg.10\).md)
+[EsentBadBackupDatabaseSizeException class](./esentbadbackupdatabasesizeexception-class.md)
 
-[EsentBadBackupDatabaseSizeException members](dn274040\(v=exchg.10\).md)
+[EsentBadBackupDatabaseSizeException members](./esentbadbackupdatabasesizeexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

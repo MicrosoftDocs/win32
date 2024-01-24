@@ -1,5 +1,5 @@
 ---
-Description: The DocumentProperties function retrieves or modifies printer initialization information or displays a printer-configuration property sheet for the specified printer.
+description: The DocumentProperties function retrieves or modifies printer initialization information or displays a printer-configuration property sheet for the specified printer.
 ms.assetid: 'e89a2f6f-2bac-4369-b526-f8e15028698b'
 title: DocumentProperties function (Winspool.h)
 ms.topic: reference
@@ -134,7 +134,7 @@ To create a handle to a printer-device context using the current printer setting
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

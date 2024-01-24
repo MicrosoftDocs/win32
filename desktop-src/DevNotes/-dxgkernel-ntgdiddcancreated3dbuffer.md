@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the driver can create a driver-level command or vertex buffer of the specified description.
+description: Determines whether the driver can create a driver-level command or vertex buffer of the specified description.
 ms.assetid: c67492d9-c4ba-4206-8beb-3d67235192f9
 title: NtGdiDdCanCreateD3DBuffer function (Ntgdi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to a [**DD\_CANCREATESURFACEDATA**](/windows/win32/api/ddrawint/ns-ddraw
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

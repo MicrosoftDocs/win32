@@ -1,5 +1,5 @@
 ---
-Description: Generates a set of Secure Sockets Layer protocol (SSL) session keys.
+description: Generates a set of Secure Sockets Layer protocol (SSL) session keys.
 ms.assetid: 88465f30-8591-411e-8618-8a381d4c22e9
 title: SslGenerateSessionKeys function (Sslprovider.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ A pointer to the returned write key handle.
 *pParameterList* \[in\]
 </dt> <dd>
 
-A pointer to an array of [**NCryptBuffer**](https://msdn.microsoft.com/library/Aa376245(v=VS.85).aspx) buffers that contain information used as part of the key exchange operation. The precise set of buffers is dependent on the protocol and cipher suite that is used. At the minimum, the list will contain buffers that contain the client and server supplied random values.
+A pointer to an array of **NCryptBuffer** buffers that contain information used as part of the key exchange operation. The precise set of buffers is dependent on the protocol and cipher suite that is used. At the minimum, the list will contain buffers that contain the client and server supplied random values.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

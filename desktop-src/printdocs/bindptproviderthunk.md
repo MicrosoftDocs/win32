@@ -1,5 +1,5 @@
 ---
-Description: Opens an instance of a print ticket provider.
+description: Opens an instance of a print ticket provider.
 ms.assetid: 815cc360-8dcd-4c58-a64d-5d77436a8623
 title: BindPTProviderThunk function
 ms.topic: reference
@@ -87,7 +87,7 @@ Before calling this function, the calling thread must initialize COM by calling 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

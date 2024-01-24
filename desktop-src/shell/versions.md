@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to determine which version of the Shell DLLs your application is running on and how to target your application for a specific version.
+description: This section describes how to determine which version of the Shell DLLs your application is running on and how to target your application for a specific version.
 title: Shell and Shlwapi DLL Versions
 ms.topic: article
 ms.date: 09/24/2020

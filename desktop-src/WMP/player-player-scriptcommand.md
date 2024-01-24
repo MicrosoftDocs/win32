@@ -1,6 +1,6 @@
 ---
 title: Player.ScriptCommand event
-description: The ScriptCommand event occurs when a synchronized command or URL is received.
+description: The ScriptCommand event occurs when a synchronized command or URL is received. | Player.ScriptCommand event
 ms.assetid: d3aec4e2-1b0e-414e-8113-0af4fcd37e3b
 keywords:
 - ScriptCommand event Windows Media Player
@@ -15,10 +15,13 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Player.ScriptCommand event
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **ScriptCommand** event occurs when a synchronized command or URL is received.
 
@@ -111,7 +114,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

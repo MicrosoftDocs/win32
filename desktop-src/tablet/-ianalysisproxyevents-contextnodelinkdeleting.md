@@ -1,7 +1,7 @@
 ---
-Description: Occurs before the IInkAnalyzer deletes a IContextLink object between two IContextNode objects.
+description: Occurs before the IInkAnalyzer deletes a IContextLink object between two IContextNode objects.
 ms.assetid: bc9716b8-8793-4886-aff4-d880024129a6
-title: '_IAnalysisProxyEvents::ContextNodeLinkDeleting event' (IACom.h)
+title: '_IAnalysisProxyEvents::ContextNodeLinkDeleting event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -63,7 +63,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Methods
+# Methods (_IManipulationEvents)
 
 This section contains the methods for the [**\_IManipulationEvents**](/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents) interface.
 

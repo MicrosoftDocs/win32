@@ -2,7 +2,6 @@
 title: Memory Aliasing and Data Inheritance
 description: Placed and reserved resource may alias physical memory within a heap. Placed resources enable more data inheritance scenarios than reserved resources when the heap has the shared flag set or when the aliased resources have fully defined memory layouts.
 ms.assetid: 53C5804B-0F81-41AF-83D2-A96DCDFDC94A
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -30,7 +29,7 @@ A buffer alignment granularity is 64KB, and larger alignment granularity takes p
 
 64KB\_TILE\_UNDEFINED\_SWIZZLE, 64KB\_TILE\_STANDARD\_SWIZZLE, and ROW\_MAJOR texture layouts inform the application which overlapping alignment granularities have become invalid. For example: An application can create a 2D render target texture array with 2 array slices, a single mip level, and the 64KB\_TILE\_UNDEFINED\_SWIZZLE layout. Assume the application understands each array slice occupies 100 64KB tiles. The application can forgo using array slice 0, and re-use that memory for either a ~6MB buffer, a ~6MB texture with undefined layout, etc. Going further, assume the application no longer required the first tile of array slice 1. Then, the application could also locate a 64KB buffer there until rendering would again require the first tile of array slice 1. The application would have to do a full tile clear or copy in order to re-use the first tile with the texture array again.
 
-However, even textures with defined layouts still have problematic cases. Texture resource sizes can significantly differ from what the application can calculate itself, because some adapter architectures allocate extra memory for textures to reduce the effective bandwidth during common rendering scenarios. Any invalidations into that extra memory region cause the entire resource to become invalidated. See [**GetResourceAllocationInfo**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo) for more details.
+However, even textures with defined layouts still have problematic cases. Texture resource sizes can significantly differ from what the application can calculate itself, because some adapter architectures allocate extra memory for textures to reduce the effective bandwidth during common rendering scenarios. Any invalidations into that extra memory region cause the entire resource to become invalidated. See [**GetResourceAllocationInfo**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo) for more details.
 
 ## Data Inheritance
 

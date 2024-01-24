@@ -27,7 +27,7 @@ Non Windows NT or LAN Manager workstations from which a user can log on.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Other-Login-Workstations                    |
 | Ldap-Display-Name | otherLoginWorkstations                      |
@@ -53,7 +53,7 @@ Non Windows NT or LAN Manager workstations from which a user can log on.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -74,7 +74,7 @@ Non Windows NT or LAN Manager workstations from which a user can log on.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -95,7 +95,7 @@ Non Windows NT or LAN Manager workstations from which a user can log on.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -116,7 +116,7 @@ Non Windows NT or LAN Manager workstations from which a user can log on.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -137,7 +137,7 @@ Non Windows NT or LAN Manager workstations from which a user can log on.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -158,7 +158,7 @@ Non Windows NT or LAN Manager workstations from which a user can log on.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

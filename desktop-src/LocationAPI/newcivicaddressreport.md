@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a new civic address report is generated.
+description: Occurs when a new civic address report is generated.
 ms.assetid: a8df870e-6744-4e8a-a103-56b446da135f
 title: NewCivicAddressReport event
 ms.topic: reference
@@ -54,7 +54,7 @@ For an example of how to use this event, see [Listening for Civic Address Report
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

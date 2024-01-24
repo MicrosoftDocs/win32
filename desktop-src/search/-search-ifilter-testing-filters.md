@@ -1,5 +1,5 @@
 ---
-Description: The IFilter test suite validates your filter handlers.
+description: The IFilter test suite validates your filter handlers.
 ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: Testing Filter Handlers
 ms.topic: article
@@ -58,8 +58,8 @@ For the preceding command to work, three files must be located in the current wo
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

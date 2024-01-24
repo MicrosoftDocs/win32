@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCCallbackUnexpectedErrorException constructor"
 title: EsentDTCCallbackUnexpectedErrorException constructor 
 TOCTitle: 'EsentDTCCallbackUnexpectedErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDTCCallbackUnexpectedErrorException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDTCCallbackUnexpectedErrorException()
 
 #### Reference
 
-[EsentDTCCallbackUnexpectedErrorException class](dn334500\(v=exchg.10\).md)
+[EsentDTCCallbackUnexpectedErrorException class](./esentdtccallbackunexpectederrorexception-class.md)
 
-[EsentDTCCallbackUnexpectedErrorException members](dn334503\(v=exchg.10\).md)
+[EsentDTCCallbackUnexpectedErrorException members](./esentdtccallbackunexpectederrorexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

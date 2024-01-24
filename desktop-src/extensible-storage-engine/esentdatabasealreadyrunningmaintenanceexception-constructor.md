@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseAlreadyRunningMaintenanceException constructor"
 title: EsentDatabaseAlreadyRunningMaintenanceException constructor 
 TOCTitle: 'EsentDatabaseAlreadyRunningMaintenanceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyRunningMaintenanceException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseAlreadyRunningMaintenanceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseAlreadyRunningMaintenanceException()
 
 #### Reference
 
-[EsentDatabaseAlreadyRunningMaintenanceException class](dn334266\(v=exchg.10\).md)
+[EsentDatabaseAlreadyRunningMaintenanceException class](./esentdatabasealreadyrunningmaintenanceexception-class.md)
 
-[EsentDatabaseAlreadyRunningMaintenanceException members](dn334356\(v=exchg.10\).md)
+[EsentDatabaseAlreadyRunningMaintenanceException members](./esentdatabasealreadyrunningmaintenanceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

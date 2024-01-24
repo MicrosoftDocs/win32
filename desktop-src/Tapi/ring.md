@@ -1,5 +1,5 @@
 ---
-Description: A single phone may be able to ring with different ring modes.
+description: A single phone may be able to ring with different ring modes.
 ms.assetid: 'c5ddcb3c-183c-4f97-9429-977d5cc32668'
 title: Ring
 ms.topic: article

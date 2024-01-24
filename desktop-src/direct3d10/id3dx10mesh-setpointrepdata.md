@@ -1,5 +1,5 @@
 ---
-Description: Set the point rep data for the mesh.
+description: Set the point rep data for the mesh.
 ms.assetid: 451a1ff0-68fa-48c4-b3f1-d41d7583cb3f
 title: ID3DX10Mesh::SetPointRepData method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

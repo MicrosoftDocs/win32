@@ -22,7 +22,7 @@ Contains the backward link for the [**ms-DFSR-ComputerReference**](a-msdfsr-comp
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DFSR-ComputerReferenceBL             |
 | Ldap-Display-Name | msDFSR-ComputerReferenceBL              |
@@ -46,7 +46,7 @@ Contains the backward link for the [**ms-DFSR-ComputerReference**](a-msdfsr-comp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2051                            |
 | MAPI-Id                | \-                              |
@@ -67,7 +67,7 @@ Contains the backward link for the [**ms-DFSR-ComputerReference**](a-msdfsr-comp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2051                            |
 | MAPI-Id                | \-                              |
@@ -88,7 +88,7 @@ Contains the backward link for the [**ms-DFSR-ComputerReference**](a-msdfsr-comp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2051                            |
 | MAPI-Id                | \-                              |
@@ -109,7 +109,7 @@ Contains the backward link for the [**ms-DFSR-ComputerReference**](a-msdfsr-comp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2051                            |
 | MAPI-Id                | \-                              |

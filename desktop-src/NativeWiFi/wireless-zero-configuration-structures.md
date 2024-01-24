@@ -1,5 +1,5 @@
 ---
-Description: The following structures enable software developers to use the functionality provided by the Wireless Zero Configuration module.
+description: The following structures enable software developers to use the functionality provided by the Wireless Zero Configuration module.
 ms.assetid: d9b8042e-5e06-43d1-9738-34d31f36f6db
 title: Wireless Zero Configuration Structures
 ms.topic: article

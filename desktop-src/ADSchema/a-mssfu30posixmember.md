@@ -22,7 +22,7 @@ Contains the DN display name of the user's part of a group.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | msSFU-30-Posix-Member                   |
 | Ldap-Display-Name | msSFU30PosixMember                      |
@@ -46,7 +46,7 @@ Contains the DN display name of the user's part of a group.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 2030                                |
 | MAPI-Id                | \-                                  |
@@ -67,7 +67,7 @@ Contains the DN display name of the user's part of a group.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 2030                                |
 | MAPI-Id                | \-                                  |
@@ -88,7 +88,7 @@ Contains the DN display name of the user's part of a group.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 2030                                |
 | MAPI-Id                | \-                                  |
@@ -109,7 +109,7 @@ Contains the DN display name of the user's part of a group.
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | 2030                                |
 | MAPI-Id                | \-                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Adds a MOF file to the list of files compiled during repository recovery.
+description: Adds a MOF file to the list of files compiled during repository recovery.
 ms.assetid: 8901c04e-f8c1-45b0-b69d-e2ebc948f088
 ms.tgt_platform: multiple
 title: pragma autorecover
@@ -54,7 +54,7 @@ However, you must observe the following restrictions when using this command:
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

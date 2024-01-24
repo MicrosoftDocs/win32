@@ -1,5 +1,5 @@
 ---
-Description: Opens a specified folder in a Windows Explorer window.
+description: Shell.Explore method - Opens a specified folder in a Windows Explorer window.
 ms.assetid: a788a3c4-f316-4fae-9294-3872eee8f46a
 title: Shell.Explore method (Shldisp.h)
 ms.topic: reference
@@ -123,7 +123,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: NtGdiDdDeleteSurfaceObject deletes a previously created kernel-mode surface object.
+description: NtGdiDdDeleteSurfaceObject deletes a previously created kernel-mode surface object.
 ms.assetid: 95ce6c73-7e41-4ac3-b849-9b8f53aa3ac3
 title: NtGdiDdDeleteSurfaceObject function (Ntgdi.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Applications are advised to use the DirectDraw and [Direct3D](../direct3d10/d3d1
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

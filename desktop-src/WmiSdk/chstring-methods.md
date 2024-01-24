@@ -1,5 +1,5 @@
 ---
-Description: The CHString class exposes the following methods.
+description: The CHString class exposes the following methods.
 ms.assetid: C064D6DE-14C4-4143-8164-B367C10CBF8E
 ms.tgt_platform: multiple
 title: CHString Methods
@@ -21,7 +21,7 @@ The [**CHString**](chstring.md) class exposes the following methods.
 -   [**Compare method**](/windows/desktop/api/ChString/nf-chstring-chstring-compare)
 -   [**CompareNoCase method**](/windows/desktop/api/ChString/nf-chstring-chstring-comparenocase)
 -   [**Empty method**](/windows/desktop/api/ChString/nf-chstring-chstring-empty)
--   [**Find methods**](/windows/desktop/api/ChString/nf-chstring-chstring-find)
+-   [**Find methods**](/windows/win32/api/chstring/nf-chstring-chstring-find(wchar))
 -   [**FindOneOf method**](/windows/desktop/api/ChString/nf-chstring-chstring-findoneof)
 -   [**Format methods**](/windows/desktop/api/ChString/nf-chstring-chstring-format(uint_---))
 -   [**FormatMessageW methods**](/windows/desktop/api/ChString/nf-chstring-chstring-formatmessagew(uint_---))
@@ -40,7 +40,7 @@ The [**CHString**](chstring.md) class exposes the following methods.
 -   [**MakeLower method**](/windows/desktop/api/ChString/nf-chstring-chstring-makelower)
 -   [**MakeReverse method**](/windows/desktop/api/ChString/nf-chstring-chstring-makereverse)
 -   [**MakeUpper method**](/windows/desktop/api/ChString/nf-chstring-chstring-makeupper)
--   [**Mid methods**](/windows/desktop/api/ChString/nf-chstring-chstring-mid)
+-   [**Mid methods**](/windows/win32/api/chstring/nf-chstring-chstring-mid(int))
 -   [**operator\[\] method**](/previous-versions/windows/desktop/legacy/aa386162(v=vs.85))
 -   [**CHString::operator+**](chstring--operator-plus.md)
 -   [**CHString::operator+=**](chstring--operator-plus-equal.md)

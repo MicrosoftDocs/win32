@@ -1,5 +1,5 @@
 ---
-Description: A generic association used to establish part of relationships between one instance of CIM\_VirtualSystemSettingData and one or more instances of CIM\_ResourceAllocationSettingData.
+description: A generic association used to establish part of relationships between one instance of CIM\_VirtualSystemSettingData and one or more instances of CIM\_ResourceAllocationSettingData.
 ms.assetid: 936B41E7-1B3B-4A7B-86F0-E2F4497CE610
 title: Msvm_VirtualSystemSettingDataComponent class
 ms.topic: reference
@@ -83,7 +83,7 @@ Access to the **Msvm\_VirtualSystemSettingDataComponent** class might be restric
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

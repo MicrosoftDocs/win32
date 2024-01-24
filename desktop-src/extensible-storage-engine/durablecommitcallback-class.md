@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallback class"
 title: DurableCommitCallback class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: DurableCommitCallback class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback
@@ -33,10 +34,10 @@ Wraps the callback dealing with durable commits.
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
-  [Microsoft.Isam.Esent.Interop.EsentResource](dn319890\(v=exchg.10\).md)  
+  [Microsoft.Isam.Esent.Interop.EsentResource](./esentresource-class.md)  
     Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,6 +62,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[DurableCommitCallback members](dn335441\(v=exchg.10\).md)
+[DurableCommitCallback members](./durablecommitcallback-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

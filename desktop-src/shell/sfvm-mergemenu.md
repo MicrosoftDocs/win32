@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to merge menu items into the Windows Explorer menus. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to merge menu items into the Windows Explorer menus. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_MERGEMENU message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ This message serves essentially the same purpose as the [**IShellBrowser::Insert
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

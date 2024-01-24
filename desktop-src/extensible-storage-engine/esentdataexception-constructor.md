@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentDataException constructor"
 title: EsentDataException constructor 
 TOCTitle: 'EsentDataException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentDataException.#ctor
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[EsentDataException class](dn334392\(v=exchg.10\).md)
+[EsentDataException class](./esentdataexception-class.md)
 
-[EsentDataException members](dn274228\(v=exchg.10\).md)
+[EsentDataException members](./esentdataexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

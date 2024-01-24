@@ -1,5 +1,5 @@
 ---
-Description: The metering mode used by the camera, taken from the Exchangeable Image File (EXIF) information.
+description: The metering mode used by the camera, taken from the Exchangeable Image File (EXIF) information.
 ms.assetid: 9dd031a8-f1fa-4753-a86b-18051c624a00
 title: System.Photo.MeteringMode
 ms.topic: article
@@ -115,7 +115,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

@@ -65,11 +65,11 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 > [!Note]  
 > If you request a [**D3D\_FEATURE\_LEVEL\_11\_1**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) device on a computer with only the Direct3D 11.0 runtime, [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain) immediately exits with **E\_INVALIDARG**. To safely request all possible feature levels on a computer with the DirectX 11.0 or DirectX 11.1 runtime, use this code:
 >
-> <span codelanguage=""></span>
+> 
 >
 > <table>
 > <colgroup>
-> <col style="width: 100%" />
+> <col  />
 > </colgroup>
 > <tbody>
 > <tr class="odd">
@@ -101,11 +101,11 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > Create a render-target view by calling [**ID3D11Device::CreateRenderTargetView**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createrendertargetview) and bind the back-buffer as a render target by calling [**ID3D11DeviceContext::OMSetRenderTargets**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets).
 >
-> <span codelanguage=""></span>
+> 
 >
 > <table>
 > <colgroup>
-> <col style="width: 100%" />
+> <col  />
 > </colgroup>
 > <tbody>
 > <tr class="odd">
@@ -129,11 +129,11 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > Create a viewport to define which parts of the render target will be visible. Define the viewport using the [**D3D11\_VIEWPORT**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_viewport) structure and set the viewport using the [**ID3D11DeviceContext::RSSetViewports**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-rssetviewports) method.
 >
-> <span codelanguage="ManagedCPlusPlus"></span>
+> 
 >
 > <table>
 > <colgroup>
-> <col style="width: 100%" />
+> <col  />
 > </colgroup>
 > <thead>
 > <tr class="header">

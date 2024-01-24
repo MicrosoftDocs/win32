@@ -43,7 +43,7 @@ EN_MAXTEXT
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the edit control. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](../winmsg/loword.md) contains the identifier of the edit control. The [**HIWORD**](../winmsg/hiword.md) specifies the notification code.
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ The parent window always receives a [**WM\_COMMAND**](/windows/desktop/menurc/wm
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

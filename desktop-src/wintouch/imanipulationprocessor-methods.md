@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Methods
+# Methods (IInertiaProcessor)
 
 This section contains the methods for the [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) interface.
 

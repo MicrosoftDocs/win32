@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the string data for the specified TAGID.
+description: Retrieves the string data for the specified TAGID.
 ms.assetid: c558e0bb-7e35-4298-93fb-400db00a2972
 title: SdbGetStringTagPtr function
 ms.topic: reference
@@ -57,7 +57,7 @@ The function returns a pointer to the string data or **NULL** if the **TAGID** i
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

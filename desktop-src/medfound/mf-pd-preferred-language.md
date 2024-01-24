@@ -1,5 +1,5 @@
 ---
-Description: Contains the preferred RFC 1766 language of the media source.
+description: Contains the preferred RFC 1766 language of the media source.
 ms.assetid: 30f99804-6aea-473b-9bbf-e8c715501391
 title: MF_PD_PREFERRED_LANGUAGE attribute (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                     |

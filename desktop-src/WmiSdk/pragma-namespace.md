@@ -1,5 +1,5 @@
 ---
-Description: Requests that the compiler load the MOF file into the namespace specified as namespacepath. If both the MOF compiler -n namespace switch and the \#pragma namespace&\#32;namespacepath command are used, the command takes priority over the switch.
+description: Requests that the compiler load the MOF file into the namespace specified as namespacepath. If both the MOF compiler -n namespace switch and the \#pragma namespace&\#32;namespacepath command are used, the command takes priority over the switch.
 ms.assetid: d280f67a-a798-47c0-b8de-071c290dd216
 ms.tgt_platform: multiple
 title: pragma namespace
@@ -51,7 +51,7 @@ The following example shows how place classes or instances in the "Root\\Test" n
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

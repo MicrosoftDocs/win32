@@ -1,5 +1,5 @@
 ---
-Description: A terminal base class applicable to both static and dynamic terminals.
+description: A terminal base class applicable to both static and dynamic terminals.
 ms.assetid: d2b2fc47-8237-44ed-bdf0-878b131dacba
 title: CBaseTerminal
 ms.topic: article

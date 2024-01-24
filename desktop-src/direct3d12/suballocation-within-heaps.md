@@ -2,7 +2,6 @@
 title: Suballocation Within Heaps
 description: Resource heaps transfer data from the CPU to the GPU (upload), and from the GPU to the CPU (read back).
 ms.assetid: 7E319BCF-FF3F-43CB-9C48-A9DD2A043592
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

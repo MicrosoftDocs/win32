@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_Check class evaluates a particular check.
+description: The Invoke method of the CIM\_Check class evaluates a particular check.
 ms.assetid: cf1adeb2-f8a2-4f84-978f-e801bce104ac
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_Check class
@@ -56,7 +56,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

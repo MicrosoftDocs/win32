@@ -1,5 +1,5 @@
 ---
-Description: Receives a texel class value that indicates texel class according to each texel's location.
+description: Receives a texel class value that indicates texel class according to each texel's location.
 ms.assetid: 450739a8-e30c-4e56-9560-8cb705a75672
 title: ID3DXTextureGutterHelper::GetGutterMap method (D3DX9Mesh.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ Texture width and height are returned by [**ID3DXTextureGutterHelper::GetWidth**
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

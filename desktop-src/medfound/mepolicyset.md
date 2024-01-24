@@ -1,5 +1,5 @@
 ---
-Description: Raised by an output trust authority (OTA) when the IMFOutputTrustAuthority::SetPolicy method completes asynchronously.
+description: Raised by an output trust authority (OTA) when the IMFOutputTrustAuthority::SetPolicy method completes asynchronously.
 ms.assetid: c5d8a88e-2864-45a0-97b7-051341116a4c
 title: MEPolicySet event (Mfobjects.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

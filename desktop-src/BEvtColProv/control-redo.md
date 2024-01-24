@@ -1,5 +1,5 @@
 ---
-Description: Reset the active configuration of the collector from the later backup file (determined by going forward from the current original timestamp). If the configuration has been undone, this means redoing the undone change.
+description: Reset the active configuration of the collector from the later backup file (determined by going forward from the current original timestamp). If the configuration has been undone, this means redoing the undone change.
 ms.assetid: bd153ea3-9148-4e65-a44e-3f9fa1855f2f
 ms.tgt_platform: multiple
 title: Redo method of the Control class
@@ -182,7 +182,7 @@ Success
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

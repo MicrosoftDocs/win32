@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIOException class"
 title: EsentIOException class
 TOCTitle: EsentIOException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIOException
@@ -34,17 +35,17 @@ Base class for IO exceptions.
 
 [System.Object](/dotnet/api/system.object)  
   [System.Exception](/dotnet/api/system.exception)  
-    [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
-        [Microsoft.Isam.Esent.Interop.EsentOperationException](dn319727\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.EsentException](./esentexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
+        [Microsoft.Isam.Esent.Interop.EsentOperationException](./esentoperationexception-class.md)  
           Microsoft.Isam.Esent.Interop.EsentIOException  
-            [Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException](dn274267\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentDiskIOException](dn274289\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentFileAccessDeniedException](dn274324\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentLogWriteFailException](dn334607\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentMakeBackupDirectoryFailException](dn334692\(v=exchg.10\).md)  
+            [Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException](./esentdeletebackupfilefailexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentDiskIOException](./esentdiskioexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentFileAccessDeniedException](./esentfileaccessdeniedexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentLogWriteFailException](./esentlogwritefailexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentMakeBackupDirectoryFailException](./esentmakebackupdirectoryfailexception-class.md)  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -71,6 +72,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentIOException members](dn334537\(v=exchg.10\).md)
+[EsentIOException members](./esentioexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

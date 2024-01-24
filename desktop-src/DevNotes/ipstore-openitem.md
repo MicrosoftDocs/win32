@@ -1,5 +1,5 @@
 ---
-Description: Opens an item for multiple accesses.
+description: Opens an item for multiple accesses.
 ms.assetid: b0602abd-dbda-40d0-befa-348c1179fa4f
 title: IPStore::OpenItem method (Pstore.h)
 ms.topic: reference
@@ -125,7 +125,7 @@ Using **OpenItem** to open an item in the protected storage database requires th
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

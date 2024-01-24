@@ -1,5 +1,5 @@
 ---
-Description: Draws formatted text. This method supports ANSI and Unicode strings.
+description: Draws formatted text. This method supports ANSI and Unicode strings.
 ms.assetid: c1c3657e-632e-46a5-91da-e102ac8ef9bb
 title: ID3DXFont::DrawText method (D3dx9core.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Specifies the number of characters in the string. If Count is -1, then the pStri
 
 Type: **[**LPRECT**](../winprog/windows-data-types.md)**
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. The coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted. The coordinate value of the rectangle's right side must be greater than that of its left side. Likewise, the coordinate value of the bottom must be greater than that of the top.
 
 </dd> <dt>
 
@@ -139,7 +139,7 @@ This method supports only fonts whose escapement and orientation are both zero.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

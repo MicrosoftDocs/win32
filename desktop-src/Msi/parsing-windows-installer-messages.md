@@ -1,5 +1,5 @@
 ---
-Description: An external UI handler can process the list of installer messages specified by the dwMessagedFilter parameter of the MsiSetExternalUI function.
+description: An external UI handler can process the list of installer messages specified by the dwMessagedFilter parameter of the MsiSetExternalUI function.
 ms.assetid: c4405803-9abd-40f4-9090-c075e7dcf293
 title: Parsing Windows Installer Messages
 ms.topic: article
@@ -137,7 +137,7 @@ Field 1 contains the value 0 to indicate this string contains language informati
 <span id="Caption"></span><span id="caption"></span><span id="CAPTION"></span>Caption
 </dt> <dd>
 
-Field 1 contains the value 1 to indicate this string contains the text of a caption or title. Field 2 contains text that an external UI handler can use as a caption of title for a dialog box. Field 3 is NULL or an empty ("") string. Field 3 can be absent from a the Caption message.
+Field 1 contains the value 1 to indicate this string contains the text of a caption or title. Field 2 contains text that an external UI handler can use as a caption of title for a dialog box. Field 3 is NULL or an empty ("") string. Field 3 can be absent from the Caption message.
 
 </dd> <dt>
 

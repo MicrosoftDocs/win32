@@ -1,5 +1,5 @@
 ---
-Description: The following is a sample service configuration program.
+description: The following is a sample service configuration program.
 ms.assetid: effb469a-020e-4c70-aad6-12a91bd36f68
 title: SvcConfig.cpp
 ms.topic: article
@@ -424,7 +424,6 @@ VOID __stdcall DoDeleteSvc()
 {
     SC_HANDLE schSCManager;
     SC_HANDLE schService;
-    SERVICE_STATUS ssStatus; 
 
     // Get a handle to the SCM database. 
  

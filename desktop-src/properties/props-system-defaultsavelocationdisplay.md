@@ -1,5 +1,5 @@
 ---
-Description: Helps display as an icon whether or not a location is the default save location for owner and/or non-owners of a library.
+description: Helps display as an icon whether or not a location is the default save location for owner and/or non-owners of a library.
 ms.assetid: 42375796-bf95-4092-bce0-c77e7b5bfeea
 title: System.DefaultSaveLocationDisplay
 ms.topic: article

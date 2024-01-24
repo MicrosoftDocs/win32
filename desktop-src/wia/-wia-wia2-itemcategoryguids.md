@@ -1,5 +1,5 @@
 ---
-Description: Windows Image Acquisition (WIA) 2.0 items are grouped into categories that define how a IWiaItem2 is to be treated or used.
+description: Windows Image Acquisition (WIA) 2.0 items are grouped into categories that define how a IWiaItem2 is to be treated or used.
 ms.assetid: 927f4957-aedf-4eef-8892-91cf9b56e1a2
 title: WIA 2.0 Item Category GUIDs (Wiadef.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Windows Image Acquisition (WIA) 2.0 items are grouped into categories that defi
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

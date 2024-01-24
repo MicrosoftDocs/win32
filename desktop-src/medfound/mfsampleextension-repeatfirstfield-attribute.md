@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether to repeat the first field in an interlaced frame. This attribute applies to media samples.
+description: Specifies whether to repeat the first field in an interlaced frame. This attribute applies to media samples.
 ms.assetid: c469f418-fa23-443f-8012-0d548ee98c17
 title: MFSampleExtension_RepeatFirstField attribute (Mfapi.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

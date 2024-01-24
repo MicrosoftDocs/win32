@@ -1,21 +1,24 @@
 ---
-Description: Returns a point in Barycentric coordinates, using the specified 4D vectors.
+description: D3DXVec4BaryCentric function (D3DX10Math.h) - Returns a point in Barycentric coordinates, using the specified 4D vectors.
 ms.assetid: 44406135-3270-4f2e-bb53-29affb2510f2
 title: D3DXVec4BaryCentric function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4BaryCentric
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVec4BaryCentric function
+# D3DXVec4BaryCentric function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns a point in Barycentric coordinates, using the specified 4D vectors.
 
@@ -122,7 +125,7 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCompressedException properties"
 title: EsentFileCompressedException properties
 TOCTitle: EsentFileCompressedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileCompressedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileCompressedException](dn274343\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileCompressedException](./esentfilecompressedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentFileCompressedException class](dn274343\(v=exchg.10\).md)
+[EsentFileCompressedException class](./esentfilecompressedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

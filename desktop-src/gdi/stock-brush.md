@@ -1,5 +1,5 @@
 ---
-Description: There are seven predefined logical stock brushes maintained by the graphics device interface (GDI). There are also 21 predefined logical stock brushes maintained by the window management interface (USER).
+description: There are seven predefined logical stock brushes maintained by the graphics device interface (GDI). There are also 21 predefined logical stock brushes maintained by the window management interface (USER).
 ms.assetid: ddbc6d54-47f6-4810-9d3a-feede80f2bed
 title: Stock Brush
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The IVssComponent interface enables a writer to fine-tune exactly how files are restored on a component-by-component basis.
+description: The IVssComponent interface enables a writer to fine-tune exactly how files are restored on a component-by-component basis.
 ms.assetid: 362c6f44-ca67-4043-8d2c-4e46b5c8edd3
 title: Setting VSS Restore Targets
 ms.topic: article

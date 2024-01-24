@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidPathException constructor"
 title: EsentDatabaseInvalidPathException constructor 
 TOCTitle: 'EsentDatabaseInvalidPathException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPathException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseInvalidPathException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseInvalidPathException()
 
 #### Reference
 
-[EsentDatabaseInvalidPathException class](dn334460\(v=exchg.10\).md)
+[EsentDatabaseInvalidPathException class](./esentdatabaseinvalidpathexception-class.md)
 
-[EsentDatabaseInvalidPathException members](dn334345\(v=exchg.10\).md)
+[EsentDatabaseInvalidPathException members](./esentdatabaseinvalidpathexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The IAzBizRuleInterfaces interface exposes the following properties.
+description: The IAzBizRuleInterfaces interface exposes the following properties.
 ms.assetid: 311C7539-A790-48F8-9835-8CDE0E20D8D5
 title: IAzBizRuleInterfaces Properties
 ms.topic: reference

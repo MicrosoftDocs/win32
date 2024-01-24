@@ -1,5 +1,5 @@
 ---
-Description: COM+ Object Constructor Strings
+description: COM+ Object Constructor Strings
 ms.assetid: 5e630812-b2cf-4512-af67-6e919a02bf95
 title: COM+ Object Constructor Strings
 ms.topic: article

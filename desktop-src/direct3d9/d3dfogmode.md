@@ -1,5 +1,5 @@
 ---
-Description: Defines constants that describe the fog mode.
+description: Defines constants that describe the fog mode.
 ms.assetid: cd83c914-bc1d-4f66-b5a6-7984b7ec52cd
 title: D3DFOGMODE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ Fog can be considered a measure of visibility: the lower the fog value produced 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

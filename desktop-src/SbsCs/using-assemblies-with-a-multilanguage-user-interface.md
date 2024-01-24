@@ -1,5 +1,5 @@
 ---
-Description: If you want users of your application, or core DLL, to be capable of changing the language of the user interface, you should consider placing language resources into separate satellite resource DLLs.
+description: If you want users of your application, or core DLL, to be capable of changing the language of the user interface, you should consider placing language resources into separate satellite resource DLLs.
 ms.assetid: fcadd7e8-cab8-43cb-9c67-af8ebe0e3a5b
 title: Using Assemblies with a Multilanguage User Interface
 ms.topic: article

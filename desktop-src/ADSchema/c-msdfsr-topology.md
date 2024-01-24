@@ -22,7 +22,7 @@ Contains the objects that form the replication topology.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-Topology                     |
 | Ldap-Display-Name | msDFSR-Topology                      |
@@ -45,7 +45,7 @@ Contains the objects that form the replication topology.
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -176,7 +176,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -319,7 +319,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |
@@ -469,7 +469,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                            |
 | Object-Category             | 1                                                                                                                                |

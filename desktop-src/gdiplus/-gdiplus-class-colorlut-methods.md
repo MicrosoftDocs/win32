@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the ColorLUT class. For a complete class listing, see ColorLUT.
+description: This topic lists the methods of the ColorLUT class. For a complete class listing, see ColorLUT.
 ms.assetid: 2592cbff-dea2-403f-823f-a78fd4638447
 title: ColorLUT Methods
 ms.topic: reference

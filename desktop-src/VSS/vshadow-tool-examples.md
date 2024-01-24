@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VShadow Tool Examples"
 ms.assetid: 6a69b75b-ee4a-4613-ba05-d2deb42759b7
 title: VShadow Tool Examples
 ms.topic: article

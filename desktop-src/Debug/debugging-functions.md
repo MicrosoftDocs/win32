@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with debugging.
+description: The following functions are used with debugging.
 ms.assetid: 95a838a2-f138-4682-b733-3f363b6c4a4b
 title: Debugging Functions
 ms.topic: article
@@ -30,9 +30,10 @@ The following functions are used with debugging.
 | [**ReadProcessMemory**](/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory)                     | Reads data from an area of memory in a specified process.                           |
 | [**SetThreadContext**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadcontext)                       | Sets the context for the specified thread.                                          |
 | [**WaitForDebugEvent**](/windows/win32/api/debugapi/nf-debugapi-waitfordebugevent)                     | Waits for a debugging event to occur in a process being debugged.                   |
-| [**Wow64GetThreadContext**](/windows/desktop/api/WinBase/nf-winbase-wow64getthreadcontext)             | Retrieves the context of the specified WOW64 thread.                                |
+| [**WaitForDebugEventEx**](/windows/win32/api/debugapi/nf-debugapi-waitfordebugeventex)                     | Waits for a debugging event to occur in a process being debugged, and enables support for Unicode strings from OutputDebugStringW.                   |
+| [**Wow64GetThreadContext**](/windows/win32/api/wow64apiset/nf-wow64apiset-wow64getthreadcontext)          | Retrieves the context of the specified WOW64 thread.                                |
 | [**Wow64GetThreadSelectorEntry**](/windows/desktop/api/WinBase/nf-winbase-wow64getthreadselectorentry) | Retrieves a descriptor table entry for the specified selector and WOW64 thread.     |
-| [**Wow64SetThreadContext**](/windows/desktop/api/WinBase/nf-winbase-wow64setthreadcontext)             | Sets the context of the specified WOW64 thread.                                     |
+| [**Wow64SetThreadContext**](/windows/win32/api/wow64apiset/nf-wow64apiset-wow64setthreadcontext)             | Sets the context of the specified WOW64 thread.                                     |
 | [**WriteProcessMemory**](/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory)                   | Writes data to an area of memory in a specified process.                            |
 
 

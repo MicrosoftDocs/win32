@@ -22,7 +22,7 @@ A container of this class can contain claim type objects.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Claim-Types                    |
 | Ldap-Display-Name | msDS-ClaimTypes                      |
@@ -42,7 +42,7 @@ A container of this class can contain claim type objects.
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

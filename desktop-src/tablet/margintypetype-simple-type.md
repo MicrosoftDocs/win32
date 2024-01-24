@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains valid values for the Type attribute for the Margin element.
+description: Defines the type that contains valid values for the Type attribute for the Margin element.
 ms.assetid: 5448ead5-0249-4cc7-9f2a-d2181e2af734
 title: MarginTypeType Simple Type
 ms.topic: reference
@@ -44,7 +44,7 @@ The valid values for the **Type** attribute for the [Margin element](margin-elem
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

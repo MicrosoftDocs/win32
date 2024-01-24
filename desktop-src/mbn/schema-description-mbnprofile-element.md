@@ -1,5 +1,5 @@
 ---
-Description: Contains a description of the profile.
+description: Contains a description of the profile.
 ms.assetid: 8251ed29-d5b9-4ab9-861e-9b265766303f
 title: Description (MBNProfile) Element
 ms.topic: reference
@@ -31,7 +31,7 @@ The **Description** element is defined by the [**MBNProfile**](schema-mbnprofile
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

@@ -1,6 +1,6 @@
 ---
 title: Menu Functions
-description: .
+description: Menu Functions
 ms.assetid: c40719aa-3735-4f46-88f7-6cc20b088ad4
 ms.topic: article
 ms.date: 05/31/2018

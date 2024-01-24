@@ -1,5 +1,5 @@
 ---
-Description: This section contains conceptual topics that describe the Windows Imaging Component (WIC) metadata system.
+description: This section contains conceptual topics that describe the Windows Imaging Component (WIC) metadata system.
 ms.assetid: 68f08f5a-eec6-4484-b901-dbe96c443a0d
 title: Processing Image Metadata
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The PropagatesToInstance property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be propagated to an instance.
+description: The PropagatesToInstance property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be propagated to an instance.
 ms.assetid: 5cab3498-f7ba-4d82-9f07-90a87e15f270
 ms.tgt_platform: multiple
 title: SWbemQualifier.PropagatesToInstance property (Wbemdisp.h)
@@ -42,7 +42,7 @@ SWbemQualifier.PropagatesToInstance As Boolean
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

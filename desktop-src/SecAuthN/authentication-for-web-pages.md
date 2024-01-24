@@ -1,5 +1,5 @@
 ---
-Description: Authentication is proving who you are.
+description: Authentication is proving who you are.
 ms.assetid: 5B058197-67B3-40DD-80D8-7BD8EE084CC9
 title: Authentication for web pages
 ms.topic: article
@@ -25,7 +25,7 @@ None
 Launch the setup file to install a Contoso website in Internet Information Services 8 on the local machine to host the sample HTML and CSS files.
 
 1.  Sample HTML and CSS files will be installed to the program files directory under Microsoft\\Contoso.
-2.  In addition a "Fabrikam Social"Windows Store app will be unpackaged to the desktop.
+2.  In addition a "Fabrikam Social" Microsoft Store app will be unpackaged to the desktop.
 
 ### 2. Getting familiar
 

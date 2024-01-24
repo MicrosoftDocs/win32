@@ -1,5 +1,5 @@
 ---
-Description: How digital certificates provide secure communications and how to use CryptoAPI to use and manage those certificates.
+description: How digital certificates provide secure communications and how to use CryptoAPI to use and manage those certificates.
 ms.assetid: e523b335-0156-4f47-b55c-b80495587c4f
 title: Digital Certificates
 ms.topic: article

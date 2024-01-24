@@ -1,5 +1,5 @@
 ---
-Description: The ICC\_Auth method allows an application to authenticate the smart card.
+description: The ICC\_Auth method allows an application to authenticate the smart card.
 ms.assetid: 98aea241-6bdc-4f47-b56c-a90f69fcd9a4
 title: ISCardAuth::ICC_Auth method
 ms.topic: reference
@@ -87,7 +87,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

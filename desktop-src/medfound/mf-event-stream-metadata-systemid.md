@@ -1,5 +1,5 @@
 ---
-Description: Specifies the system ID for which the key data is intended.
+description: Specifies the system ID for which the key data is intended.
 ms.assetid: 02B6CA71-103C-4639-8D07-7EAF6A814679
 title: MF_EVENT_STREAM_METADATA_SYSTEMID attribute (Mfapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies the system ID for which the key data is intended.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                     |

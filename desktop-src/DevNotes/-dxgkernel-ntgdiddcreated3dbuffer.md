@@ -1,5 +1,5 @@
 ---
-Description: Used to create a driver-level command or vertex buffer of the specified description.
+description: Used to create a driver-level command or vertex buffer of the specified description.
 ms.assetid: c65403a1-5686-4c7d-80a4-6e49417c11eb
 title: NtGdiDdCreateD3DBuffer function (Ntgdi.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Pointer to an array of surface handles. The caller can set these handles to the 
 *puSurfaceDescription* \[in, out\]
 </dt> <dd>
 
-Pointer to a [**DDSURFACEDESC**](/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)) structure describing the surface or buffer that the driver should create.
+Pointer to a [**DDSURFACEDESC**](/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc) structure describing the surface or buffer that the driver should create.
 
 </dd> <dt>
 
@@ -121,7 +121,7 @@ Is used by the DirectDraw  API and should not be filled in by the driver.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder uses average-controllable VBR encoding.
+description: Specifies whether the encoder uses average-controllable VBR encoding.
 ms.assetid: 2c150eb1-4ffe-4f77-8ef8-e3bf29b17b10
 title: MFPKEY_AVGCONSTRAINED Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ If this property and the [**MFPKEY\_VBRENABLED**](mfpkey-vbrenabledproperty.md) 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

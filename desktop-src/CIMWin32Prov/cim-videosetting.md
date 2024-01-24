@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VideoSetting class associates the CIM\_VideoControllerResolution setting object with the controller to which it applies.
+description: The CIM\_VideoSetting class associates the CIM\_VideoControllerResolution setting object with the controller to which it applies.
 ms.assetid: 1f6742ad-ab92-4723-b691-0c3e6c0d82fa
 ms.tgt_platform: multiple
 title: CIM_VideoSetting class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

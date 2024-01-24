@@ -1,5 +1,5 @@
 ---
-Description: BLOBs are used with the RSA/Schannel provider to export keys from, and import keys into, the cryptographic service provider (CSP).
+description: BLOBs are used with the RSA/Schannel provider to export keys from, and import keys into, the cryptographic service provider (CSP).
 ms.assetid: 97d5ee6d-4687-4cd2-b122-36f8ea3c93ca
 title: RSA/Schannel Key BLOBs
 ms.topic: article

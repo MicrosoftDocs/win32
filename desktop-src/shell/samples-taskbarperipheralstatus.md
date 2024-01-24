@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates taskbar icon overlays and progress bars.
+description: Demonstrates taskbar icon overlays and progress bars.
 title: Taskbar Peripheral Status Sample
 ms.topic: article
 ms.date: 05/31/2018

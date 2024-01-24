@@ -1,5 +1,5 @@
 ---
-Description: Describes the virtual aspects of a virtual system through a set of virtualization specific properties. CIM\_VirtualSystemSettingData is also used as the top level class of virtual system configurations.
+description: Describes the virtual aspects of a virtual system through a set of virtualization specific properties. CIM\_VirtualSystemSettingData is also used as the top level class of virtual system configurations.
 ms.assetid: 501e659d-f190-41f9-aafa-447048a60e7c
 title: CIM_VirtualSystemSettingData class
 ms.topic: reference
@@ -415,7 +415,7 @@ The value of the above ABNF format are:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

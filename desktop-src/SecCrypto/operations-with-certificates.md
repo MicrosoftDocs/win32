@@ -1,5 +1,5 @@
 ---
-Description: CryptoAPI provides functions to work with certificates, certificate revocation lists (CRLs) and certificate trust lists (CTLs).
+description: CryptoAPI provides functions to work with certificates, certificate revocation lists (CRLs) and certificate trust lists (CTLs).
 ms.assetid: 23460329-44ed-4bcb-9727-5c841070f093
 title: Operations with Certificates
 ms.topic: article

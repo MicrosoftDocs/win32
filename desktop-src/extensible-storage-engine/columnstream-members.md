@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream members"
 title: ColumnStream members
 TOCTitle: ColumnStream members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnStream
@@ -13,9 +14,9 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-This class provides a streaming interface to a long-value column (i.e. a column of type [LongBinary](hh577895\(v=exchg.10\).md) or [LongText](hh577895\(v=exchg.10\).md)).
+This class provides a streaming interface to a long-value column (i.e. a column of type [LongBinary](./jet-coltyp-enumeration.md) or [LongText](./jet-coltyp-enumeration.md)).
 
-The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members.
+The [ColumnStream](./columnstream-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -247,6 +248,6 @@ Top
 
 #### Reference
 
-[ColumnStream class](dn334143\(v=exchg.10\).md)
+[ColumnStream class](./columnstream-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

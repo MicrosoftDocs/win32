@@ -1,5 +1,5 @@
 ---
-Description: The Stop method stops the current capture.
+description: IDelaydC::Stop method - The Stop method stops the current capture.
 ms.assetid: 1b627137-e72d-4425-98d9-e296fb07e509
 title: IDelaydC::Stop method (Netmon.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ When you stop and start the capture, make sure you call the [IDelaydC::Configure
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

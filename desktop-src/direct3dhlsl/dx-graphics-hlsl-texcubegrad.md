@@ -1,6 +1,6 @@
 ---
 title: texCUBEgrad
-description: Samples a cube texture using a gradient to select the mip level.
+description: Samples a cube texture using a gradient to select the mip level. | texCUBEgrad
 ms.assetid: ebc5e38a-e314-43b0-9a00-7e4147e24bf0
 keywords:
 - texCUBEgrad HLSL

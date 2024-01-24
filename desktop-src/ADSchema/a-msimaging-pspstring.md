@@ -22,7 +22,7 @@ Schema Attribute that contains the XML sequence for this Post Scan Process.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Imaging-PSP-String                       |
 | Ldap-Display-Name | msImaging-PSPString                         |
@@ -44,7 +44,7 @@ Schema Attribute that contains the XML sequence for this Post Scan Process.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -65,7 +65,7 @@ Schema Attribute that contains the XML sequence for this Post Scan Process.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |

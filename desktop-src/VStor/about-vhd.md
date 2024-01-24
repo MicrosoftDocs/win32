@@ -1,5 +1,5 @@
 ---
-Description: The Virtual Hard Disk (VHD) format is a publicly-available image format specification that allows encapsulation of the hard disk into an individual file for use by the operating system as a virtual disk in all the same ways physical hard disks are used.
+description: The Virtual Hard Disk (VHD) format is a publicly-available image format specification that allows encapsulation of the hard disk into an individual file for use by the operating system as a virtual disk in all the same ways physical hard disks are used.
 MS-HAID: vhd.about\_vhd
 MSHAttr:
 - PreferredSiteName:MSDN

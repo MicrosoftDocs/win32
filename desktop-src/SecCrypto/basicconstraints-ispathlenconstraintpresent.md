@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the path length constraint is present.
+description: Retrieves a Boolean value that indicates whether the path length constraint is present.
 ms.assetid: 25840a62-13d1-4b54-9b09-64f77a465e06
 title: BasicConstraints.IsPathLenConstraintPresent property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # BasicConstraints.IsPathLenConstraintPresent property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**X509BasicConstraintsExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509basicconstraintsextension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/previous-versions/windows/) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**X509BasicConstraintsExtension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509basicconstraintsextension) in the [**System.Security.Cryptography.X509Certificates**](/previous-versions/windows/) namespace.\]
 
 The **IsPathLenConstraintPresent** property retrieves a Boolean value that indicates whether the path length constraint is present.
 
@@ -38,7 +38,7 @@ If **True**, the path length constraint is present.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

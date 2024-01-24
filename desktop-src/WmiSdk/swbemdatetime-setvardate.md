@@ -1,5 +1,5 @@
 ---
-Description: Converts a date in the VT\_DATE format to the CIM datetime format.
+description: Converts a date in the VT\_DATE format to the CIM datetime format.
 ms.assetid: 24c39d44-22ac-44ac-9e05-72a5b666ab19
 ms.tgt_platform: multiple
 title: SWbemDateTime.SetVarDate method (Wbemdisp.h)
@@ -82,13 +82,11 @@ The intrinsic Visual Basic or VBScript function [CDate](/previous-versions//2dt1
 
 For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to convert CIM [**DATETIME**](datetime.md) values to and from either the **FILETIME** format or the **VT\_DATE** format, see [WMI Tasks: Dates and Times](wmi-tasks--dates-and-times.md). For a description of the CIM **DATETIME** format, see [Date and Time Format](date-and-time-format.md).
 
-The [Convert Date to WMI Date-Time Format](https://Gallery.TechNet.Microsoft.Com/33beff76-1b5f-4ba1-a8ea-5e124eb74306) VBScript code sample in the TechNet Gallery uses SetVarDate to convert a regular date-time value into the UTC date-time format.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

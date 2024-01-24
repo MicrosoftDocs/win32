@@ -1,5 +1,5 @@
 ---
-Description: Counters are used to provide information as to how well the operating system or an application, service, or driver is performing.
+description: Counters are used to provide information as to how well the operating system or an application, service, or driver is performing.
 ms.assetid: d172a131-61d3-4fc1-8e0c-b07b2bd34f80
 title: About Performance Counters
 ms.topic: article
@@ -8,10 +8,10 @@ ms.date: 08/17/2020
 
 # About Performance Counters
 
-Windows Performance Counters provide a high-level abstraction layer with a consistent interface for collecting various kinds of system data such as CPU, memory, and disk usage statistics. System administrators use performance counters to monitor for performance or behavior problems. Software developers use performance counters to inspect the resource usage of their components.
+Windows Performance Counters provide a high-level abstraction layer with a consistent interface for collecting various kinds of system data such as processor, memory, and disk usage statistics. System administrators use performance counters to monitor for performance or behavior problems. Software developers use performance counters to inspect the resource usage of their components.
 
 > [!IMPORTANT]
-> Windows Performance Counters are optimized for administrative/diagnostic data discovery and collection. They are not appropriate for high-frequency data collection or for application profiling since they are not designed to be collected more than once per second. For lower-overhead access to system information, you might prefer more direct APIs such as [**Process Status Helper**](/windows/win32/psapi/process-status-helper), [**GlobalMemoryStatusEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex), [**GetSystemTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes), or [**GetProcessTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes). For profiling, you might collect ETW logs with system profiling data using [**tracelog.exe**](/windows-hardware/drivers/devtest/tracelog) with `-critsec`, `-dpcisr`, `-eflag`, or `-ProfileSource` options, or you might use [**Hardware Counter Profiling**](/previous-versions/windows/desktop/hcp/hcp-reference).
+> Windows Performance Counters are optimized for administrative/diagnostic data discovery and collection. They are not appropriate for high-frequency data collection or for application profiling since they are not designed to be collected more than once per second. For lower-overhead access to system information, you might prefer more direct APIs such as [**Process Status Helper**](../psapi/process-status-helper.md), [**GlobalMemoryStatusEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex), [**GetSystemTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes), or [**GetProcessTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes). For profiling, you might collect ETW logs with system profiling data using [**tracelog.exe**](/windows-hardware/drivers/devtest/tracelog) with `-critsec`, `-dpcisr`, `-eflag`, or `-ProfileSource` options, or you might use [**Hardware Counter Profiling**](/previous-versions/windows/desktop/hcp/hcp-reference).
 
 > [!NOTE]
 > Do not confuse Windows Performance Counters with the [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) API. Windows Performance Counters provide a high-level abstraction for many kinds of system information. The QueryPerformanceCounter function provides optimized access to a high-precision timestamp.
@@ -54,7 +54,8 @@ Consumers will periodically collect and record the data from a provider's counte
 Instance names should normally be unique within a sample, i.e. a provider should not return two instances with the same name as part of a single sample. Some older providers do not follow this rule, so [consumers must be able to tolerate non-unique instance names](handling-duplicate-instance-names.md). Instance names are not case-sensitive, so instances should not have names that differ only in case.
 
 > [!NOTE]
-> For backwards-compatibility reasons, the "Process" counterset returns non-unique instance names based on the EXE filename. This can cause confusing results, especially when a process with a non-unique name starts up or shuts down, as this will typically result in data glitches due to incorrect matching of instance names between samples. Consumers of of the "Process" counterset must be able to tolerate these non-unique instance names and the resulting data glitches.
+> For backwards-compatibility reasons, the "Process" counterset returns non-unique instance names based on the EXE filename. This can cause confusing results, especially when a process with a non-unique name starts up or shuts down, as this will typically result in data glitches due to incorrect matching of instance names between samples. Consumers of the "Process" counterset must be able to tolerate these non-unique instance names and the resulting data glitches.
+> In Windows 11 and later, you can use the `Process V2` counterset to avoid this problem.
 
 Instance names must be stable across samples, i.e. a provider should use the same instance name for the same entity each time the counterset is collected.
 

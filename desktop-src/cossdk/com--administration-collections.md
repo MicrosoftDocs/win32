@@ -1,5 +1,5 @@
 ---
-Description: The COM+ administration collections serve to hold and organize configuration data stored in the COM+ catalog.
+description: The COM+ administration collections serve to hold and organize configuration data stored in the COM+ catalog.
 ms.assetid: eed8ca97-39ad-4188-afc6-8670b5073fad
 title: COM+ Administration Collections
 ms.topic: article
@@ -25,7 +25,7 @@ For an introduction to programmatic administration of COM+, see [Automating COM+
 
 The following figure illustrates the relationships among the collections. The collections at the far left (in white and gray boxes) are top-level collections, which are accessed by calling the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection) method of an object created from the [**COMAdminCatalog**](comadmincatalog.md) class. The remaining collections (in yellow boxes) can only be accessed through their parent collection, by calling the [**GetCollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-getcollection) method of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object that represents their parent. The arrows point from a parent collection to its child collections.
 
-![](images/ab61b0ab-2368-4bd8-9cfc-b7adc5beaca3.png)
+![Diagram that shows the relationships among the collections.](images/ab61b0ab-2368-4bd8-9cfc-b7adc5beaca3.png)
 
 The following four collections are not illustrated in the figure: [**ErrorInfo**](errorinfo.md), [**PropertyInfo**](propertyinfo.md), [**RelatedCollectionInfo**](relatedcollectioninfo.md), and [**Root**](root.md). The **ErrorInfo** collection is a child of every collection in the figure except [**InprocServers**](inprocservers.md) and [**WOWInprocServers**](wowinprocservers.md) (in gray boxes). The **PropertyInfo** and **RelatedCollectionInfo** collections are children of every collection. The **Root** collection is a top-level collection that is the parent of all other top-level collections. However, it is not necessary to access the **Root** collection before accessing other top-level collections.
 

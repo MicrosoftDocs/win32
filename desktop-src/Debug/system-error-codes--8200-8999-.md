@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 8200-8999 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 8200-8999 defined in the WinError.h header file and is intended for developers.
 ms.assetid: f16fdfa3-b080-47ee-a7dd-241fe2d24278
 title: System Error Codes (8200-8999) (WinError.h)
 ms.topic: reference
@@ -5324,7 +5324,7 @@ The system is not authoritative for the specified account and therefore cannot c
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

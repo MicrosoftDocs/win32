@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities of a CIM\_VirtualSystemMigrationService object.
+description: Represents the capabilities of a CIM\_VirtualSystemMigrationService object.
 ms.assetid: 5fe3a10b-c075-4c45-838d-0b5c2e491584
 title: CIM_VirtualSystemMigrationCapabilities class
 ms.topic: reference
@@ -196,7 +196,7 @@ Enumeration of method identifiers whose implementation may be synchronous; that 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

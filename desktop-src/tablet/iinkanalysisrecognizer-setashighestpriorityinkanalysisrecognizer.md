@@ -1,5 +1,5 @@
 ---
-Description: Modifies this IInkAnalysisRecognizer to the highest priority in the IInkAnalyzer internal ordered list of recognizers.
+description: Modifies this IInkAnalysisRecognizer to the highest priority in the IInkAnalyzer internal ordered list of recognizers.
 ms.assetid: d11e66d3-7fd4-43ec-9123-0df27e5ddd10
 title: IInkAnalysisRecognizer::SetAsHighestPriorityInkAnalysisRecognizer method (IACom.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

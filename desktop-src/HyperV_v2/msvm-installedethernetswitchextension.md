@@ -1,5 +1,5 @@
 ---
-Description: Represents an instance of an extension component installed on a host system.
+description: Represents an instance of an extension component installed on a host system.
 ms.assetid: ad24fb08-36af-42a8-a910-63eae54fa5b8
 title: Msvm_InstalledEthernetSwitchExtension class
 ms.topic: reference
@@ -395,7 +395,7 @@ The version of the extension in a format of "major.minor", for example "2.0".
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

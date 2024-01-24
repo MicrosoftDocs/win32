@@ -1,5 +1,5 @@
 ---
-Description: A string representation of a GUID, in the usual format.
+description: A string representation of a GUID, in the usual format.
 MS-HAID: WWAN\_profile\_v4.simpleType\_guidType
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: The system creates a user profile the first time that a user logs on to a computer. At subsequent logons, the system loads the user's profile, and then other system components configure the user's environment according to the information in the profile.
+description: The system creates a user profile the first time that a user logs on to a computer. At subsequent logons, the system loads the user's profile, and then other system components configure the user's environment according to the information in the profile.
 title: About User Profiles
 ms.topic: article
 ms.date: 05/31/2018
@@ -46,7 +46,7 @@ In Windows 7 or later, each user profile has an associated image presented as a
 -   %ProgramData%\\Microsoft\\User Account Pictures\\Guest.bmp
 -   %ProgramData%\\Microsoft\\User Account Pictures\\User.bmp
 
-The user's tile image is stored in the %SystemDrive%\\Users\\<username>\\AppData\\Local\\Temp folder as <username>.bmp. Any slash characters (\\) are converted to plus sign characters (+). For example, DOMAIN\\user is converted to DOMAIN+user.
+The user's tile image is stored in the %SystemDrive%\\Users\\&lt;username&gt;\\AppData\\Local\\Temp folder as &lt;username&gt;.bmp. Any slash characters (\\) are converted to plus sign characters (+). For example, DOMAIN\\user is converted to DOMAIN+user.
 
 The image file appears in the user's **Temp** folder:
 

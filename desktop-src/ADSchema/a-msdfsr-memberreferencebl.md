@@ -22,7 +22,7 @@ Contains the backward link for the [**ms-DFSR-MemberReference**](a-msdfsr-member
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DFSR-MemberReferenceBL               |
 | Ldap-Display-Name | msDFSR-MemberReferenceBL                |
@@ -46,7 +46,7 @@ Contains the backward link for the [**ms-DFSR-MemberReference**](a-msdfsr-member
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2053                            |
 | MAPI-Id                | \-                              |
@@ -67,7 +67,7 @@ Contains the backward link for the [**ms-DFSR-MemberReference**](a-msdfsr-member
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2053                            |
 | MAPI-Id                | \-                              |
@@ -88,7 +88,7 @@ Contains the backward link for the [**ms-DFSR-MemberReference**](a-msdfsr-member
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2053                            |
 | MAPI-Id                | \-                              |
@@ -109,7 +109,7 @@ Contains the backward link for the [**ms-DFSR-MemberReference**](a-msdfsr-member
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2053                            |
 | MAPI-Id                | \-                              |

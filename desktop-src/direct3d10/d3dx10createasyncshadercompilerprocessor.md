@@ -1,5 +1,5 @@
 ---
-Description: Compile a shader and create a data processor asynchronously.
+description: Compile a shader and create a data processor asynchronously.
 ms.assetid: 842db48b-51a7-4f32-8ea6-44247f2619b0
 title: D3DX10CreateAsyncShaderCompilerProcessor function (D3DX10Async.h)
 ms.topic: reference
@@ -133,7 +133,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

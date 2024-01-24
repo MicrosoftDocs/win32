@@ -1,6 +1,6 @@
 ---
 title: IVMHostInfo SSE property (VPCCOMInterfaces.h)
-description: Determines whether the processor supports the SSE instruction set.
+description: Determines whether the processor supports the SSE instruction set. | IVMHostInfo SSE property (VPCCOMInterfaces.h)
 ms.assetid: 135704db-757a-45b1-884a-5e26ef7d65c7
 keywords:
 - SSE property Virtual PC
@@ -58,7 +58,7 @@ HRESULT get_SSE(
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

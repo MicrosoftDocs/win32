@@ -1,5 +1,5 @@
 ---
-Description: Specifies the certificate store used to sign a document.
+description: Specifies the certificate store used to sign a document.
 ms.assetid: aabad010-6fa3-4677-bd73-b8c52d68dbc8
 title: SIGNER_CERT_STORE_INFO structure
 ms.topic: reference
@@ -85,7 +85,7 @@ Optional. A handle to an additional certificate store.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

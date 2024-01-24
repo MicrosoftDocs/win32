@@ -1,5 +1,5 @@
 ---
-Description: The Manifest property is used to set or get the active activation context.
+description: The Manifest property is used to set or get the active activation context.
 ms.assetid: 5ad16c7b-3d66-4083-bc0f-f8294757764f
 title: ActCtx.Manifest property
 ms.topic: reference
@@ -46,7 +46,7 @@ If an activation context has previously been created or activated, the following
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

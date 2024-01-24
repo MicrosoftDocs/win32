@@ -1,5 +1,5 @@
 ---
-Description: The DefaultValue property of the ConfigurableItem object returns the value from the DefaultValue column of the ModuleConfiguration table.
+description: The DefaultValue property of the ConfigurableItem object returns the value from the DefaultValue column of the ModuleConfiguration table.
 ms.assetid: 2d99ee59-5dea-41ca-bd24-359195a37864
 title: ConfigurableItem.DefaultValue property (Mergemod.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ See [**get\_DefaultValue**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfig
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

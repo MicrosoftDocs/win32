@@ -1,5 +1,5 @@
 ---
-Description: Notifies the callback object of the container site. This is used only when IObjectWithSite::SetSite is not supported and SHCreateShellFolderViewEx is used. Used by IShellFolderViewCB::MessageSFVCB.
+description: Notifies the callback object of the container site. This is used only when IObjectWithSite::SetSite is not supported and SHCreateShellFolderViewEx is used. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: a4aa40f8-1d98-4686-86e2-87280e470aac
 title: SFVM_SETISFV message (Shlobj.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ A pointer to the container site's [**IUnknown**](/windows/win32/api/unknwn/nn-un
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

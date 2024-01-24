@@ -1,5 +1,5 @@
 ---
-Description: The SetReg tool sets the value of the registry keys that control the behavior of the Authenticode certificate verification process.
+description: The SetReg tool sets the value of the registry keys that control the behavior of the Authenticode certificate verification process.
 ms.assetid: 6c456a59-ee6c-420d-b075-7de8bd2fd8ff
 title: SetReg
 ms.topic: article
@@ -12,7 +12,7 @@ The SetReg tool sets the value of the registry keys that control the behavior of
 
 **SetReg** \[*Options*\] \[*Choice \#* {**TRUE**\|**FALSE**}\]
 
-The Set Registry tool only ships with the .NET Framework SDK version 1.0 and .1.1, which you can download from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=16217).
+The Set Registry tool only ships with the .NET Framework SDK version 1.0 and .1.1, which you can download from [here](https://dotnet.microsoft.com/download/dotnet/1.1).
 
 ## Options
 

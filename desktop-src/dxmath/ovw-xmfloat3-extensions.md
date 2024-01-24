@@ -1,5 +1,5 @@
 ---
-Description: XMFLOAT3 describes a structure containing a 3D vector consisting of three single-precision floating-point values.
+description: XMFLOAT3 describes a structure containing a 3D vector consisting of three single-precision floating-point values.
 ms.assetid: 43627e12-f997-431f-87c3-750ee68912fe
 title: XMFLOAT3 extensions
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: An InParameters object contains the parameter list for calling provider methods when using an ExecMethod type of call.
+description: An InParameters object contains the parameter list for calling provider methods when using an ExecMethod type of call.
 ms.assetid: 8cc65129-1698-4ada-b493-672772c94045
 ms.tgt_platform: multiple
 title: Constructing InParameters Objects

@@ -1,5 +1,5 @@
 ---
-Description: A mandatory user profile is a special type of pre-configured roaming user profile that administrators can use to specify settings for users.
+description: A mandatory user profile is a special type of pre-configured roaming user profile that administrators can use to specify settings for users.
 title: Mandatory User Profiles
 ms.topic: article
 ms.date: 05/31/2018

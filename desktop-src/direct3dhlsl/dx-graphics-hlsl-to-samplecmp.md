@@ -74,7 +74,7 @@ A floating-point value to use as a comparison value.
 <span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span>*Offset*
 </dt> <dd>
 
-\[in\] An optional texture coordinate offset, which can be used for any texture-object types. The offset is applied to the location before sampling. The argument type is dependent on the texture-object type. For more info, see [Applying Integer Offsets](dx-graphics-hlsl-to-sample.md).
+\[in\] An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the location before sampling. The texture offsets need to be static. The argument type is dependent on the texture-object type. For more info, see [Applying texture coordinate offsets](dx-graphics-hlsl-to-sample.md).
 
 | Texture-Object Type            | Parameter Type |
 |--------------------------------|----------------|
@@ -95,6 +95,8 @@ For each texel fetched (based on the sampler configuration of the filter mode), 
 Comparison filtering provides a basic filtering operation that is useful for percentage-closer-depth filtering.
 
 When using this method on a floating-point resource (Instead of a signed-normalized or unsigned-normalized format), the comparison value is not automatically clamped between 0.0 and 1.0. Therefore, a manual clamp of the comparison value may be necessary for common shadowing techniques.
+
+Use an offset only at an integer miplevel; otherwise, you may get different results depending on hardware implementation or driver settings.
 
 ## Minimum Shader Model
 

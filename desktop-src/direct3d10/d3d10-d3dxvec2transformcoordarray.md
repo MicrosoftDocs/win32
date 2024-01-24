@@ -1,22 +1,25 @@
 ---
-Description: Transforms an array (x, y, 0, 1) by a given matrix, and projects the result back into w = 1.
+description: D3DXVec2TransformCoordArray function (D3DX10Math.h) - Transforms an array (x, y, 0, 1) by a given matrix, and projects the result back into w = 1.
 ms.assetid: dba68678-2ab4-4f64-9975-5e9f2a20f66a
 title: D3DXVec2TransformCoordArray function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2TransformCoordArray
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXVec2TransformCoordArray function
+# D3DXVec2TransformCoordArray function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms an array (x, y, 0, 1) by a given matrix, and projects the result back into w = 1.
 
@@ -110,7 +113,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

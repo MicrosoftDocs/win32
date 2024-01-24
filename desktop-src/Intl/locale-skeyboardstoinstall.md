@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SKEYBOARDSTOINSTALL
+description: LOCALE\_SKEYBOARDSTOINSTALL
 ms.assetid: 67bb616f-319b-42ab-969e-009258ec458d
 title: LOCALE_SKEYBOARDSTOINSTALL
 ms.topic: article

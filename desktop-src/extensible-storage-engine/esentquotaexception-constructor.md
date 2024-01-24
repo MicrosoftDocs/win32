@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentQuotaException constructor"
 title: EsentQuotaException constructor 
 TOCTitle: 'EsentQuotaException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentQuotaException.#ctor
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[EsentQuotaException class](dn319806\(v=exchg.10\).md)
+[EsentQuotaException class](./esentquotaexception-class.md)
 
-[EsentQuotaException members](dn319869\(v=exchg.10\).md)
+[EsentQuotaException members](./esentquotaexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

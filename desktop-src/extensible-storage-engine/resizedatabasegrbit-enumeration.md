@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ResizeDatabaseGrbit enumeration"
 title: ResizeDatabaseGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: ResizeDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.ResizeDatabaseGrbit
@@ -32,11 +33,11 @@ ROBOTS: INDEX,FOLLOW
 
 # ResizeDatabaseGrbit enumeration
 
-Options for [JetResizeDatabase(JET_SESID, JET_DBID, Int32, Int32, ResizeDatabaseGrbit)](dn335496\(v=exchg.10\).md).
+Options for [JetResizeDatabase(JET_SESID, JET_DBID, Int32, Int32, ResizeDatabaseGrbit)](./windows8api.jetresizedatabase-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -83,4 +84,4 @@ public enum ResizeDatabaseGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

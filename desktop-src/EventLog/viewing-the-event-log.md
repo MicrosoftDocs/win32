@@ -1,5 +1,5 @@
 ---
-Description: When the user starts Event Viewer to view the event log entries, it calls the ReadEventLog function to obtain the EVENTLOGRECORD structures.
+description: When the user starts Event Viewer to view the event log entries, it calls the ReadEventLog function to obtain the EVENTLOGRECORD structures.
 ms.assetid: 1d5b62cb-cf5b-4f4c-8521-1c783ae3afc7
 title: Viewing the Event Log
 ms.topic: article

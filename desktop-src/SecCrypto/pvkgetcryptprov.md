@@ -1,5 +1,5 @@
 ---
-Description: Gets a handle to a cryptographic service provider (CSP) based on either a private key file or a key container name.
+description: Gets a handle to a cryptographic service provider (CSP) based on either a private key file or a key container name.
 ms.assetid: 82cdaa6f-e747-4c9d-8d2d-5fa206891eed
 title: PvkGetCryptProv function
 ms.topic: reference
@@ -131,7 +131,7 @@ When you have finished using the CSP, free the provider handle and temporary key
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

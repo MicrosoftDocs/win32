@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDensityInvalidException properties"
 title: EsentDensityInvalidException properties
 TOCTitle: EsentDensityInvalidException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDensityInvalidException](dn334433\(v=exchg.10\).md) type exposes the following members.
+The [EsentDensityInvalidException](./esentdensityinvalidexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDensityInvalidException class](dn334433\(v=exchg.10\).md)
+[EsentDensityInvalidException class](./esentdensityinvalidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

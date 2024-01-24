@@ -1,5 +1,5 @@
 ---
-Description: Represents the brightness parameters of a computer monitor.
+description: Represents the brightness parameters of a computer monitor.
 ms.assetid: 01fa3efc-2a1d-4405-989f-2c180842c6b9
 title: WmiMonitorBrightness class
 ms.topic: reference
@@ -122,13 +122,13 @@ Example: 101
 
 ## Examples
 
-For more information and code samples on using this class in PowerShell, see [Use PowerShell to Report and Set Monitor Brightness](https://blogs.technet.com/b/heyscriptingguy/archive/2013/07/25/use-powershell-to-report-and-set-monitor-brightness.aspx).
+For more information and code samples on using this class in PowerShell, see [Use PowerShell to Report and Set Monitor Brightness](https://devblogs.microsoft.com/scripting/use-powershell-to-report-and-set-monitor-brightness/).
 
 ## Requirements
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
@@ -146,9 +146,4 @@ For more information and code samples on using this class in PowerShell, see [Us
 </dt> </dl>
 
  
-
- 
-
-
-
 

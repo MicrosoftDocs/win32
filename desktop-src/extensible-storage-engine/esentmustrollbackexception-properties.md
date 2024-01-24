@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustRollbackException properties"
 title: EsentMustRollbackException properties
 TOCTitle: EsentMustRollbackException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMustRollbackException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMustRollbackException](dn319646\(v=exchg.10\).md) type exposes the following members.
+The [EsentMustRollbackException](./esentmustrollbackexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentMustRollbackException class](dn319646\(v=exchg.10\).md)
+[EsentMustRollbackException class](./esentmustrollbackexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

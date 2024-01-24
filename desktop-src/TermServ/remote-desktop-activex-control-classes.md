@@ -176,6 +176,34 @@ Microsoft RDP Client Control - version 11
 
 </dd> <dt>
 
+[**MsRdpClient11**](msrdpclient11.md)
+</dt> <dd>
+
+Microsoft RDP Client Control (redistributable) - version 12
+
+</dd> <dt>
+
+[**MsRdpClient11NotSafeForScripting**](msrdpclient11notsafeforscripting.md)
+</dt> <dd>
+
+Microsoft RDP Client Control - version 12
+
+</dd> <dt>
+
+[**MsRdpClient12**](msrdpclient12.md)
+</dt> <dd>
+
+Microsoft RDP Client Control (redistributable) - version 13
+
+</dd> <dt>
+
+[**MsRdpClient11NotSafeForScripting**](msrdpclient12notsafeforscripting.md)
+</dt> <dd>
+
+Microsoft RDP Client Control - version 13
+
+</dd><dt>
+
 [**MsTscAx**](mstscax.md)
 </dt> <dd>
 

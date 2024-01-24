@@ -24,7 +24,7 @@ You can have as many frames in an animation as you wish; however, a typical anim
 
 ### Image Design
 
-You can use any graphics or animation tool to create images for animation frames, provided that you store the final images in the Windows bitmap (.BMP) format. When the images are created, use the Microsoft Agent Character Editor (available in the [downloadable](https://www.microsoft.com/download/en/details.aspx?id=14765)) to assemble, sequence, and time the images, supply other character information, and compile all the information into a final character file.
+You can use any graphics or animation tool to create images for animation frames, provided that you store the final images in the Windows bitmap (.BMP) format. When the images are created, use the Microsoft Agent Character Editor to assemble, sequence, and time the images, supply other character information, and compile all the information into a final character file.
 
 Character images must be designed to a 256-color palette, preserving the 20 standard Windows system colors in their standard position in the palette (the first 10 and last 10 positions). That means your character's color palette can use the standard system colors and up to 236 other colors. When defining your palette, include any props your character uses in the animation. If your character's palette places colors in the system color positions, those character colors will be overwritten with the system colors when Microsoft Agent creates the palette.
 
@@ -80,13 +80,13 @@ The Microsoft Agent Character Editor enables you to define seven basic mouth pos
 
 | Mouth Position | Sample Image                       | Representation                                                                                                                     |
 |----------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Closed         | ![](images/g07ci01.gif)<br/> | Normal mouth closed shape. Also used for phonemes such as "m" as in "mom," "b" as in "bob," "f" as in "fife."<br/>           |
-| Open-wide 1    | ![](images/g07ci02.gif)<br/> | Mouth is slightly open, at full width. Used for phonemes such as "g" as in "gag," "l" as in "lull," "ear" as in "hear."<br/> |
-| Open-wide 2    | ![](images/g07ci03.gif)<br/> | Mouth is partially open, at full width. Used for phonemes such as "n" as in "nun," "d" as in "dad," "t" as in "tot."<br/>    |
-| Open-wide 3    | ![](images/g07ci04.gif)<br/> | Mouth is open, at full width. Used for phonemes such as "u" as in "hut," "ea" as in "head," "ur" as in "hurt."<br/>          |
-| Open-wide 4    | ![](images/g07ci05.gif)<br/> | Mouth is completely open, at full width. Used for phonemes such as "a" as in "hat," "ow" as in "how."<br/>                   |
-| Open-medium    | ![](images/g07ci06.gif)<br/> | Mouth is open at half width. Used for phonemes such as "oy" as in "ahoy," "o" as in "hot."<br/>                              |
-| Open-narrow    | ![](images/g07ci07.gif)<br/> | Mouth is open at narrow width. Used for phonemes such as "o" as in "hoop", "o" as in "hope," "w" as in "wet."<br/>           |
+| Closed         | :::image type="icon" source="images/g07ci01.gif":::<br/> | Normal mouth closed shape. Also used for phonemes such as "m" as in "mom," "b" as in "bob," "f" as in "fife."<br/>           |
+| Open-wide 1    | :::image type="icon" source="images/g07ci02.gif":::<br/> | Mouth is slightly open, at full width. Used for phonemes such as "g" as in "gag," "l" as in "lull," "ear" as in "hear."<br/> |
+| Open-wide 2    | :::image type="icon" source="images/g07ci03.gif":::<br/> | Mouth is partially open, at full width. Used for phonemes such as "n" as in "nun," "d" as in "dad," "t" as in "tot."<br/>    |
+| Open-wide 3    | :::image type="icon" source="images/g07ci04.gif":::<br/> | Mouth is open, at full width. Used for phonemes such as "u" as in "hut," "ea" as in "head," "ur" as in "hurt."<br/>          |
+| Open-wide 4    | :::image type="icon" source="images/g07ci05.gif":::<br/> | Mouth is completely open, at full width. Used for phonemes such as "a" as in "hat," "ow" as in "how."<br/>                   |
+| Open-medium    | :::image type="icon" source="images/g07ci06.gif":::<br/> | Mouth is open at half width. Used for phonemes such as "oy" as in "ahoy," "o" as in "hot."<br/>                              |
+| Open-narrow    | :::image type="icon" source="images/g07ci07.gif":::<br/> | Mouth is open at narrow width. Used for phonemes such as "o" as in "hoop", "o" as in "hope," "w" as in "wet."<br/>           |
 
 
 

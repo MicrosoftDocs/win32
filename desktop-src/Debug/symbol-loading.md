@@ -1,5 +1,5 @@
 ---
-Description: The symbol handler will load symbols when you call the SymInitialize function with the fInvadeProcess parameter set to TRUE or when you call the SymLoadModuleEx function to specify a module.
+description: The symbol handler will load symbols when you call the SymInitialize function with the fInvadeProcess parameter set to TRUE or when you call the SymLoadModuleEx function to specify a module.
 ms.assetid: 'fae1895e-9fed-45e3-8ecf-4c6cc67a6094'
 title: Symbol Loading
 ms.topic: article
@@ -16,7 +16,7 @@ It may not be necessary to keep a symbol module loaded through the duration of a
 
 ## Diagnosing Symbol Load Problems
 
-To view all attempts to load symbols, call [**SymSetOptions**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsetoptions) with SYMOPT\_DEBUG. This causes DbgHelp to call the [**OutputDebugString**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) function with detailed information on symbol searches, such as the directories it is searching and and error messages. If your code uses [**SymRegisterCallback64**](/windows/desktop/api/Dbghelp/nf-dbghelp-symregistercallback), DbgHelp will call your callback function instead of calling **OutputDebugString**. The *ActionCode* parameter is set to CBA\_DEBUG\_INFO and the *CallbackData* parameter is a string that can be displayed.
+To view all attempts to load symbols, call [**SymSetOptions**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsetoptions) with SYMOPT\_DEBUG. This causes DbgHelp to call the [**OutputDebugString**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) function with detailed information on symbol searches, such as the directories it is searching and error messages. If your code uses [**SymRegisterCallback64**](/windows/desktop/api/Dbghelp/nf-dbghelp-symregistercallback), DbgHelp will call your callback function instead of calling **OutputDebugString**. The *ActionCode* parameter is set to CBA\_DEBUG\_INFO and the *CallbackData* parameter is a string that can be displayed.
 
 To enable this debug output to be displayed to the console without changing your source code, set the DBGHELP\_DBGOUT environment variable to a non-**NULL** value before calling the [**SymInitialize**](/windows/desktop/api/Dbghelp/nf-dbghelp-syminitialize) function. To log the information to a file, set the DBGHELP\_LOG environment variable to the name of the log file to be used.
 

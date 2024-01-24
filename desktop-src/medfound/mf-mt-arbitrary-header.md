@@ -1,5 +1,5 @@
 ---
-Description: Type-specific data for a binary stream in an Advanced Systems Format (ASF) file.
+description: Type-specific data for a binary stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 45608dde-894b-4204-80dc-505f068fb158
 title: MF_MT_ARBITRARY_HEADER attribute (Mfapi.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

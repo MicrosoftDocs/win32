@@ -1,20 +1,9 @@
 ---
-Description: Defines the registered profiles to which the referenced system conforms.
+description: Defines the registered profiles to which the referenced system conforms.
 ms.assetid: F01E79BE-82D9-49E0-AB0C-FD1B48BC4A55
 title: Msvm_ElementConformsToProfile class
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
-- APIRef
-- kbSyntax
-api_name: 
-- Msvm_ElementConformsToProfile
-- Msvm_ElementConformsToProfile.ConformantStandard
-- Msvm_ElementConformsToProfile.ManagedElement
-api_type: 
-- DllExport
-api_location: 
-- vmms.exe
 topic_type: 
 - APIRef
 - kbSyntax
@@ -92,7 +81,7 @@ A reference to an instance of the [**Msvm\_ComputerSystem**](msvm-computersystem
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

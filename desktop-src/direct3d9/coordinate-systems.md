@@ -1,5 +1,5 @@
 ---
-Description: 'Typically 3D graphics applications use two types of Cartesian coordinate systems: left-handed and right-handed.'
+description: 'Typically 3D graphics applications use two types of Cartesian coordinate systems: left-handed and right-handed.'
 ms.assetid: 268c3024-85a5-4fd5-b575-e126dd4be97c
 title: Coordinate Systems (Direct3D 9)
 ms.topic: article

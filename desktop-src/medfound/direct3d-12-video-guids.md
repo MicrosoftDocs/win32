@@ -1,5 +1,5 @@
 ---
-Description: The following GUIDs support Direct3D 12 Video APIs.
+description: The following GUIDs support Direct3D 12 Video APIs.
 ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: Direct3D 12 Video GUIDs (D3d11.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following GUIDs support Direct3D 12 Video APIs.
 
-## D3D12\\_VIDEO\\_DECODE\\_PROFILE GUIDs
+## D3D12\_VIDEO\_DECODE\_PROFILE GUIDs
 
 The following table lists the GUIDs that identify Direct3D 12 video decoding profiles. The descriptions relate each Direct3D 12 video decode profile to the equivalent Direct3D 11 video or DXVA profile.
 
@@ -41,7 +41,7 @@ The following table lists the GUIDs that identify Direct3D 12 video decoding pro
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

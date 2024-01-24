@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_HANDLE operators"
 title: JET_HANDLE operators
 TOCTitle: JET_HANDLE operators
 ms:assetid: 5d3fcd9b-50a0-dfff-a38e-a6bfe82cf496
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_HANDLE](hh558081\(v=exchg.10\).md) type exposes the following members.
+The [JET_HANDLE](./jet-handle-structure.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_HANDLE structure](hh558081\(v=exchg.10\).md)
+[JET_HANDLE structure](./jet-handle-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

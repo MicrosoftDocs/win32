@@ -22,7 +22,7 @@ Contains the filter string that is applied to directories.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFSR-DirectoryFilter                     |
 | Ldap-Display-Name | msDFSR-DirectoryFilter                      |
@@ -46,7 +46,7 @@ Contains the filter string that is applied to directories.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -67,7 +67,7 @@ Contains the filter string that is applied to directories.
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
@@ -88,7 +88,7 @@ Contains the filter string that is applied to directories.
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
@@ -109,7 +109,7 @@ Contains the filter string that is applied to directories.
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |

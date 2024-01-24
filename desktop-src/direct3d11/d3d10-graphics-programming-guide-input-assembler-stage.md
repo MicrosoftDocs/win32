@@ -22,7 +22,6 @@ While assembling primitives, a secondary purpose of the IA is to attach [system-
 
 As shown in the [pipeline-block diagram](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages), once the IA stage reads data from memory (assembles the data into primitives and attaches system-generated values), the data is output to the [vertex shader stage](/previous-versions//bb205146(v=vs.85)).
 
-## 
 
 ## In this section
 

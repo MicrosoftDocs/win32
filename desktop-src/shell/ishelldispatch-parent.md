@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an object that represents the parent of the current object.
+description: Retrieves an object that represents the parent of the current object.
 ms.assetid: 2FDEF8D3-3F5B-43ae-9812-83B4249D9CBB
 title: IShellDispatch.Parent property (Shldisp.h)
 ms.topic: reference
@@ -123,7 +123,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

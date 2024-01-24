@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# EM\_GETLINECOUNT message
+# EM_GETLINECOUNT message (Winuser.h)
 
 Gets the number of lines in a multiline edit control. You can send this message to either an edit control or a rich edit control.
 
@@ -54,7 +54,7 @@ If the Wordwrap feature is enabled, the number of lines can change when the dime
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the device supports voicemail.
+description: Indicates whether the device supports voicemail.
 ms.assetid: f127ffb3-1d9f-4729-aec9-cb1fb8948df5
 title: System.Devices.Voicemail
 ms.topic: article

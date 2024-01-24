@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_Action class takes a particular action. The details of how the method performs the action is implementation-specific.
+description: The Invoke method of the CIM\_Action class takes a particular action. The details of how the method performs the action is implementation-specific.
 ms.assetid: 4f0be560-bd78-4c7f-b6e3-ca86837a84f9
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_Action class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

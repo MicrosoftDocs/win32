@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the Component Object Model (COM) interfaces provided by Microsoft Direct3D 9.
+description: This section contains reference information for the Component Object Model (COM) interfaces provided by Microsoft Direct3D 9.
 ms.assetid: f12facdc-5a3f-4f89-8ae3-a322ef3389b2
 title: Direct3D Interfaces
 ms.topic: article

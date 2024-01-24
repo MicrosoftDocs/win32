@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Architecture
+# Architecture (HTTP Server API)
 
 The server session, request queue, and URL group configuration objects enable applications to configure the HTTP service. The properties set on these objects override the HTTP Server API wide default configurations.
 

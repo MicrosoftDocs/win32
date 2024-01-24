@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Quality of Service
+# Quality of Service (RPC)
 
 Client programs can use the [**RpcBindingSetAuthInfoEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa) function rather than the [**RpcBindingSetAuthInfo**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo) function to create an authenticated binding. If they do, they pass a pointer to an [**RPC\_SECURITY\_QOS**](/windows/desktop/api/Rpcdce/ns-rpcdce-rpc_security_qos) structure as the final parameter of **RpcBindingSetAuthInfoEx**. This structure contains information about the quality of service. Client programs can also specify the identity tracking and select the impersonation type.
 

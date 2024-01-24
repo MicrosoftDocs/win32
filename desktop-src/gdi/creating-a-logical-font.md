@@ -1,5 +1,5 @@
 ---
-Description: You can use the Font common dialog box to display available fonts.
+description: You can use the Font common dialog box to display available fonts.
 ms.assetid: 317ea311-0592-432a-87b5-58296de003aa
 title: Creating a Logical Font
 ms.topic: article

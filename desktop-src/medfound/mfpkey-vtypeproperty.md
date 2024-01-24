@@ -1,5 +1,5 @@
 ---
-Description: Specifies the logic that the codec will use to detect interlaced source video.
+description: Specifies the logic that the codec will use to detect interlaced source video.
 ms.assetid: 29c7fc1c-2047-4562-ba14-48f9cfbfe68c
 title: MFPKEY_VTYPE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ When encoding mixed content (containing both progressive and interlaced frames),
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

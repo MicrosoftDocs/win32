@@ -1,5 +1,5 @@
 ---
-Description: Gets the ready state of the media source.
+description: Gets the ready state of the media source.
 ms.assetid: 155d9202-5598-467c-b4d0-d22424b13b9d
 title: IMFMediaSourceExtension::GetReadyState method
 ms.topic: reference
@@ -40,7 +40,7 @@ The ready state of the media source.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

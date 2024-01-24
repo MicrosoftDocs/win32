@@ -22,7 +22,7 @@ Geo-coordinates for location services, specifically, latitude (in microdegrees) 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-GeoCoordinates-Latitude        |
 | Ldap-Display-Name | msDS-GeoCoordinatesLatitude          |
@@ -43,7 +43,7 @@ Geo-coordinates for location services, specifically, latitude (in microdegrees) 
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |

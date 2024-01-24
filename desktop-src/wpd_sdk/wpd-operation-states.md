@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_OPERATION\_STATES enumeration values describe the current state of an operation in progress.
+description: The WPD\_OPERATION\_STATES enumeration values describe the current state of an operation in progress.
 ms.assetid: a002f735-e385-4c7c-b734-e70a9c6842ca
 title: WPD_OPERATION_STATES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ These values are received in the application-defined callback ([**IPortableDevic
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

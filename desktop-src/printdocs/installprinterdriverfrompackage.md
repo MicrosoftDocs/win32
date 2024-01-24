@@ -1,5 +1,5 @@
 ---
-Description: Installs a printer driver from a driver package that is in the print servers driver store.
+description: Installs a printer driver from a driver package that is in the print servers driver store.
 ms.assetid: 5906d9c6-9fbf-4ec6-81ce-112a9ef6d7c0
 title: InstallPrinterDriverFromPackage function (Winspool.h)
 ms.topic: reference
@@ -100,7 +100,7 @@ Only signed packages can be installed on a remote computer.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

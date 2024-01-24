@@ -1,5 +1,5 @@
 ---
-Description: Reports an instance deletion event, which is a type of intrinsic event generated when an instance is deleted from the namespace.
+description: Reports an instance deletion event, which is a type of intrinsic event generated when an instance is deleted from the namespace.
 ms.assetid: a370fc95-15e3-49c3-98de-2f40d742f207
 ms.tgt_platform: multiple
 title: '__InstanceDeletionEvent class'
@@ -101,15 +101,11 @@ Notification queries that request notification of the deletion of a resource and
 
 `SELECT * FROM __InstanceDeletionEvent WHERE TargetInstance ISA 'Win32_Process' and TargetInstance.Name = 'notepad.exe' `
 
-## Examples
-
-The [Monitor process deletion event](https://Gallery.TechNet.Microsoft.Com/060a9adb-f99b-4f34-ba65-19b5f5815a38) VBScript code sample on TechNet Gallery uses **\_\_InstanceDeletionEvent** to monitor the first occurrence of a WMI instance deletion event for [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process).
-
 ## Requirements
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Returns the local address, local port, remote address, remote port, socket type, and protocol used by a socket.
+description: Returns the local address, local port, remote address, remote port, socket type, and protocol used by a socket.
 ms.assetid: 2628f47e-3e73-4e02-91b8-ba4cb0800864
 title: SO_BSP_STATE socket option (Ws2def.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ Note that the *Ws2def.h* header file is automatically included in *Winsock2.h*, 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

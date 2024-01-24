@@ -1,5 +1,5 @@
 ---
-Description: Contains a list of all VideoRendererExtensionProfile entries in the VideoRendererExtensionProfiles tag of a UWP app manifest file.
+description: Contains a list of all VideoRendererExtensionProfile entries in the VideoRendererExtensionProfiles tag of a UWP app manifest file.
 ms.assetid: 2EFFA81C-5609-43FA-8151-D06C28A0FCC4
 title: MFT_ENUM_VIDEO_RENDERER_EXTENSION_PROFILE attribute (Mfapi.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Contains a list of all **VideoRendererExtensionProfile** entries in the **VideoR
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

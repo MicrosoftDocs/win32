@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to create a topology for audio or video playback.
+description: This topic describes how to create a topology for audio or video playback.
 ms.assetid: 9c536c4e-fbf8-4c16-932f-e5863b7652fe
 title: Creating Playback Topologies
 ms.topic: article

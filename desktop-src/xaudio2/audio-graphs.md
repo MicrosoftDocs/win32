@@ -1,5 +1,5 @@
 ---
-Description: This section lists the overview topics about the XAudio2 audio graph.
+description: This section lists the overview topics about the XAudio2 audio graph.
 ms.assetid: 252015f6-ea63-1a72-ce13-25a4fccdab0b
 title: Audio Graphs
 ms.topic: article

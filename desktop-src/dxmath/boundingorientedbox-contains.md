@@ -1,5 +1,5 @@
 ---
-Description: Tests whether the BoundingOrientedBox contains another object.
+description: Tests whether the BoundingOrientedBox contains another object.
 ms.assetid: e3df5999-021e-4360-901f-7c8790d6d12d
 title: BoundingOrientedBox.Contains methods
 ms.topic: reference

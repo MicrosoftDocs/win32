@@ -22,7 +22,7 @@ List of sites connected to this link object.
 
 
 
-|                   |                                              |
+| Entry | Value |
 |-------------------|----------------------------------------------|
 | CN                | Site-List                                    |
 | Ldap-Display-Name | siteList                                     |
@@ -49,7 +49,7 @@ List of sites connected to this link object.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 144                                        |
 | MAPI-Id                | \-                                         |
@@ -70,7 +70,7 @@ List of sites connected to this link object.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 144                                        |
 | MAPI-Id                | \-                                         |
@@ -91,7 +91,7 @@ List of sites connected to this link object.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 144                                        |
 | MAPI-Id                | \-                                         |
@@ -112,7 +112,7 @@ List of sites connected to this link object.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 144                                        |
 | MAPI-Id                | \-                                         |
@@ -133,7 +133,7 @@ List of sites connected to this link object.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 144                                        |
 | MAPI-Id                | \-                                         |
@@ -154,7 +154,7 @@ List of sites connected to this link object.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 144                                        |
 | MAPI-Id                | \-                                         |
@@ -175,7 +175,7 @@ List of sites connected to this link object.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 144                                        |
 | MAPI-Id                | \-                                         |

@@ -82,7 +82,7 @@ You can use the **LVS\_TYPESTYLEMASK** mask to isolate the window styles that co
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

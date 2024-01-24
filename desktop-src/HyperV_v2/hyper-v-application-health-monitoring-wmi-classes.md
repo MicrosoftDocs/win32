@@ -1,5 +1,5 @@
 ---
-Description: The Hyper-V application health monitoring API defines the following WMI classes.
+description: The Hyper-V application health monitoring API defines the following WMI classes.
 ms.assetid: C9A74F6A-F3DB-46FE-A9D5-ADAC185B5995
 title: Hyper-V application health monitoring WMI classes
 ms.topic: reference

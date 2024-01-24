@@ -1,5 +1,5 @@
 ---
-Description: This topic describes asynchronous data processing for Media Foundation transforms (MFTs).
+description: This topic describes asynchronous data processing for Media Foundation transforms (MFTs).
 ms.assetid: d438ffae-fc50-454f-8ce4-2d6676500fff
 title: Asynchronous MFTs
 ms.topic: article

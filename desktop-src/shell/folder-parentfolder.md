@@ -1,5 +1,5 @@
 ---
-Description: Contains the parent Folder object.
+description: Contains the parent Folder object.
 ms.assetid: b832948c-f599-4ada-8760-9280b86abfed
 title: Folder.ParentFolder property (Shldisp.h)
 ms.topic: reference
@@ -138,7 +138,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

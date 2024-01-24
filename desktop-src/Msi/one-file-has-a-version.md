@@ -1,5 +1,5 @@
 ---
-Description: If only one of the files has a version number, the Windows Installer uses the logic illustrated by the following flow diagram to determine whether to replace all of the installed files belonging to the component.
+description: If only one of the files has a version number, the Windows Installer uses the logic illustrated by the following flow diagram to determine whether to replace all of the installed files belonging to the component.
 ms.assetid: 1eda5521-6e23-49b8-9870-f5370def487e
 title: One File Has a Version
 ms.topic: article

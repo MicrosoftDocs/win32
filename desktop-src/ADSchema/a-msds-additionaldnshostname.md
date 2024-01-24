@@ -18,17 +18,17 @@ ms.date: 05/31/2018
 
 # ms-DS-Additional-Dns-Host-Name attribute
 
-The attribute is used to store the additional DNS host name of a computer object. This attribute is used at the time a DC is renamed.
+The attribute is used to store the additional DNS host name of a computer object. This attribute is used at the time a computer is renamed, or names are managed with "netdom computername".
 
 
 
-|                   |                                                                             |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------------|
 | CN                | ms-DS-Additional-Dns-Host-Name                                              |
 | Ldap-Display-Name | msDS-AdditionalDnsHostName                                                  |
-| Size              | Each segment can be 63 characters. The entire length can be 255 characters. |
+| Size              | Each value can be 2048 characters. The number of value is the database limit of about 1200 values. |
 | Update Privilege  | This value is set by the system.                                            |
-| Update Frequency  | When the DC is renamed.                                                     |
+| Update Frequency  | When a computer is renamed.                                                 |
 | Attribute-Id      | 1.2.840.113556.1.4.1717                                                     |
 | System-Id-Guid    | 80863791-dbe9-4eb8-837e-7f0ab55d9ac7                                        |
 | Syntax            | [**String(Unicode)**](s-string-unicode.md)                                 |
@@ -47,7 +47,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -68,7 +68,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -89,7 +89,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -110,7 +110,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -131,7 +131,7 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

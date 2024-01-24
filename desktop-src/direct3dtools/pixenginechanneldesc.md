@@ -1,5 +1,5 @@
 ---
-Description: Represents a description of a color (sample) channel.
+description: Represents a description of a color (sample) channel.
 MS-HAID: vspixengine.PixEngineChannelDesc
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -44,7 +44,7 @@ The number of bits to shift to extract the sample bits.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

@@ -1,5 +1,5 @@
 ---
-Description: The user-friendly form of System.FlagStatus. This value is not intended to be parsed programmatically.
+description: The user-friendly form of System.FlagStatus. This value is not intended to be parsed programmatically.
 ms.assetid: 68c6eb84-b7f8-42cb-9f1c-78c817cb9510
 title: System.FlagStatusText
 ms.topic: article

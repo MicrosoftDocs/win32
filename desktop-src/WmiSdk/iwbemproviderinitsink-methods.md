@@ -1,5 +1,5 @@
 ---
-Description: The IWbemProviderInitSink interface exposes the following methods.
+description: The IWbemProviderInitSink interface exposes the following methods.
 ms.assetid: 1922A598-47B5-4162-A0F2-130E75DAD5EA
 ms.tgt_platform: multiple
 title: IWbemProviderInitSink Methods

@@ -22,7 +22,7 @@ A computed attribute that is used in retrieving the membership list of a group, 
 
 
 
-|                   |                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------|
 | CN                | Primary-Group-Token                        |
 | Ldap-Display-Name | primaryGroupToken                          |
@@ -49,7 +49,7 @@ A computed attribute that is used in retrieving the membership list of a group, 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -70,7 +70,7 @@ A computed attribute that is used in retrieving the membership list of a group, 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -91,7 +91,7 @@ A computed attribute that is used in retrieving the membership list of a group, 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -112,7 +112,7 @@ A computed attribute that is used in retrieving the membership list of a group, 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -133,7 +133,7 @@ A computed attribute that is used in retrieving the membership list of a group, 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -154,7 +154,7 @@ A computed attribute that is used in retrieving the membership list of a group, 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -175,7 +175,7 @@ A computed attribute that is used in retrieving the membership list of a group, 
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |

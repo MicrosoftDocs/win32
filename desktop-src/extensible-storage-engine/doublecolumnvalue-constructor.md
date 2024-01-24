@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DoubleColumnValue constructor"
 title: DoubleColumnValue constructor 
 TOCTitle: 'DoubleColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.DoubleColumnValue.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # DoubleColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public DoubleColumnValue()
 
 #### Reference
 
-[DoubleColumnValue class](dn273972\(v=exchg.10\).md)
+[DoubleColumnValue class](./doublecolumnvalue-class.md)
 
-[DoubleColumnValue members](dn334200\(v=exchg.10\).md)
+[DoubleColumnValue members](./doublecolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

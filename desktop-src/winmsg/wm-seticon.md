@@ -1,5 +1,5 @@
 ---
-Description: Associates a new large or small icon with a window. The system displays the large icon in the ALT+TAB dialog box, and the small icon in the window caption.
+description: Associates a new large or small icon with a window. The system displays the large icon in the ALT+TAB dialog box, and the small icon in the window caption.
 ms.assetid: c86620f2-893b-46f8-8254-1d7c4c142f37
 title: WM_SETICON message (Winuser.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ The type of icon to be set. This parameter can be one of the following values.
 *lParam* 
 </dt> <dd>
 
-A handle to the new large or small icon. If this parameter is **NULL**, the icon indicated by *wParam*is removed.
+A handle to the new large or small icon. If this parameter is **NULL**, the icon indicated by *wParam* is removed.
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

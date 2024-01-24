@@ -1,5 +1,5 @@
 ---
-Description: The IWbemStatusCodeText interface exposes the following methods.
+description: The IWbemStatusCodeText interface exposes the following methods.
 ms.assetid: 21D52B18-F56D-4C9C-9920-48E471B94B9B
 ms.tgt_platform: multiple
 title: IWbemStatusCodeText Methods

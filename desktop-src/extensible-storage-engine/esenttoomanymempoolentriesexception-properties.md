@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyMempoolEntriesException properties"
 title: EsentTooManyMempoolEntriesException properties
 TOCTitle: EsentTooManyMempoolEntriesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyMempoolEntriesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManyMempoolEntriesException](dn350776\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyMempoolEntriesException](./esenttoomanymempoolentriesexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentTooManyMempoolEntriesException class](dn350776\(v=exchg.10\).md)
+[EsentTooManyMempoolEntriesException class](./esenttoomanymempoolentriesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

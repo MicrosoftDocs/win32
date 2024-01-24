@@ -1,5 +1,5 @@
 ---
-Description: The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.
+description: The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.
 audience: developer
 ms.assetid: 1d6355bc-7df2-4aa3-8e47-0239d726ed7d
 ms.tgt_platform: multiple
@@ -29,7 +29,7 @@ The **InsertAt** method inserts an element (or multiple copies of an element) or
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |

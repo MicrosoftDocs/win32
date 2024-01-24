@@ -1,6 +1,6 @@
 ---
 title: UserData (EventType) Element
-description: Contains the event data.
+description: Contains the event data. | UserData (EventType) Element
 ms.assetid: b267187b-cfce-4e33-aba2-cf46efdd174d
 keywords:
 - UserData element EventLog
@@ -31,7 +31,7 @@ The **UserData** element is defined by the [**EventType**](eventschema-eventtype
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

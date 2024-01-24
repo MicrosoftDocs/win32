@@ -1,5 +1,5 @@
 ---
-Description: Represents a keyboard device.
+description: Represents a keyboard device.
 ms.assetid: '2a59fe90-12e2-471c-b49e-dfb4f4a31e0c'
 title: Msvm_Keyboard class
 ms.topic: reference
@@ -938,7 +938,7 @@ Access to the **Msvm\_Keyboard** class might be restricted by UAC Filtering. For
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
@@ -949,17 +949,11 @@ Access to the **Msvm\_Keyboard** class might be restricted by UAC Filtering. For
 
 
 ## See also
-
-<dl> <dt>
-
-[**CIM\_UserDevice**](cim-userdevice.md)
-</dt> <dt>
-
-[**CIM\_UserDevice**](/windows/desktop/CIMWin32Prov/cim-userdevice)
-</dt> <dt>
-
-[Input Classes](input-classes.md)
-</dt> </dl>
+- [**CIM\_UserDevice**](cim-userdevice.md)
+- [**CIM\_UserDevice**](/windows/desktop/CIMWin32Prov/cim-userdevice)
+- [Input Classes](input-classes.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)
 
  
 

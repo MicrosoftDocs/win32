@@ -1,5 +1,5 @@
 ---
-Description: The LockSCard method claims exclusive access to the smart card.
+description: The LockSCard method claims exclusive access to the smart card.
 ms.assetid: 70af7c5a-ebe7-48ee-8a76-dfea7f73f45e
 title: ISCard::LockSCard method (Scardmgr.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

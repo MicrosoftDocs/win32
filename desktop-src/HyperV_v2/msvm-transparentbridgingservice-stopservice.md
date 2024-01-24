@@ -1,5 +1,5 @@
 ---
-Description: Stops the service.
+description: StopService method of the Msvm_TransparentBridgingService class - Stops the service.
 ms.assetid: ac6b8df2-e2f2-47df-8c1e-07460a15e8e2
 title: StopService method of the Msvm_TransparentBridgingService class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

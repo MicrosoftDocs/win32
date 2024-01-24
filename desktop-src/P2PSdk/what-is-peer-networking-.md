@@ -1,5 +1,5 @@
 ---
-Description: Peer-to-peer networking is a serverless networking technology that allows several network devices to share resources and communicate directly with each other.
+description: Peer-to-peer networking is a serverless networking technology that allows several network devices to share resources and communicate directly with each other.
 ms.assetid: d2a43d3b-2782-4777-8c65-05e2c52930d0
 title: What is Peer Networking?
 ms.topic: article
@@ -45,7 +45,6 @@ The Peer-to-Peer Infrastructure provides a Peer-to-Peer [Identity Manager API](i
 
 The Peer-to-Peer [Grouping API](grouping-api.md) combines the Peer-to-Peer Graphing, Identity Manager, and PNRP APIs to form a cohesive and convenient solution for peer-to-peer networking application development. The Peer-to-Peer Grouping API uses the Peer-to-Peer Identity Manager API and a self-signed certificate scheme to ensure security within the graphing infrastructure. Each group can be resolved and registered through PNRP, which allows for the name resolution of random peers within a registered peer-to-peer group. A group can be an endpoint in PNRP, just like a peer.
 
-For an overview of the Peer-to-Peer Infrastructure, see the article "[Introduction to Windows XP Peer-to-Peer Networking](https://www.microsoft.com/windowsxp/pro/techinfo/administration/p2p/introduction.asp)".
 
 For an overview of the APIs in the Peer-to-Peer Infrastructure, see the topic [What is the Peer Infrastructure?](what-is-the-peer-infrastructure-.md).
 

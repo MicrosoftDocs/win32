@@ -1,5 +1,5 @@
 ---
-Description: Specifies the device conformance profile for encoding Advanced Streaming Format (ASF) files.
+description: Specifies the device conformance profile for encoding Advanced Streaming Format (ASF) files.
 ms.assetid: 9a6b6402-ff53-4399-8616-06b7768a8737
 title: MF_TRANSCODE_ENCODINGPROFILE attribute (Mfidl.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

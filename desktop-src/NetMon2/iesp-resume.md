@@ -1,5 +1,5 @@
 ---
-Description: The Resume method restarts a paused capture.
+description: IESP::Resume method - The Resume method restarts a paused capture.
 ms.assetid: 047ea5f8-de3d-40db-ada3-fc0ef4deccef
 title: IESP::Resume method (Netmon.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ To stop the capture, call [**IESP::Stop**](iesp-stop.md).
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

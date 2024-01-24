@@ -1,5 +1,5 @@
 ---
-Description: An ink-enabled application communicates with the recognition system through the Tablet PC Platform APIs.
+description: An ink-enabled application communicates with the recognition system through the Tablet PC Platform APIs.
 ms.assetid: 0ea6881f-d2d7-4646-9c41-53d1c03ea55b
 title: Recognition API Architecture
 ms.topic: article

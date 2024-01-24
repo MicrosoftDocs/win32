@@ -1,5 +1,5 @@
 ---
-title: StopService method of the Win32_Service class (Sdoias.h)
+title: StopService method of the Win32_Service class (Sdoias.h) (Terminal Service)
 description: Places the service, represented by the Win32\_TerminalService object, in the stopped state.
 ms.assetid: 228711DC-369B-48B6-96EE-DF4026904E26
 ms.tgt_platform: multiple
@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# StopService method of the Win32\_Service class
+# StopService method of the Win32_Service class (Sdoias.h) for the Terminal service
 
 The **StopService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method places the service, represented by the [**Win32\_TerminalService**](win32-terminalservice.md) object, in the stopped state.
 
@@ -233,17 +233,11 @@ If you attempt to stop a service which has dependent services running, the **Sto
 
 If you stop a service, then immediately check the [**Win32\_TerminalService**](win32-terminalservice.md).**State** property, as the value may still show the service as running.
 
-## Examples
-
-[The Set-RemoteService](https://Gallery.TechNet.Microsoft.Com/79595ce9-bfc3-463e-9e84-d9e0b78590c1) PowerShell sample Sets service state for remote machines.
-
-The [Stop a Service and Its Dependents](https://Gallery.TechNet.Microsoft.Com/ae07e623-2cbd-4983-b991-aa4d1e6e2732) VBScript sample stops a service and all dependent services.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are used when working with enclaves that are used to create trusted execution environments:'
+description: 'The following elements are used when working with enclaves that are used to create trusted execution environments:'
 ms.assetid: 7AD4D05D-922F-4611-9709-CDB9872B433E
 title: Trusted Execution Reference
 ms.topic: article

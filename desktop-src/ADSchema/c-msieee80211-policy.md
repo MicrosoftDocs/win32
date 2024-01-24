@@ -22,7 +22,7 @@ Class to store Wireless Network Policy Object.
 
 
 
-|                   |                                                                                  |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | CN                | ms-ieee-80211-Policy                                                             |
 | Ldap-Display-Name | msieee80211-Policy                                                               |
@@ -46,7 +46,7 @@ Class to store Wireless Network Policy Object.
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |
@@ -174,7 +174,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |
@@ -305,7 +305,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |
@@ -447,7 +447,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |
@@ -596,7 +596,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |

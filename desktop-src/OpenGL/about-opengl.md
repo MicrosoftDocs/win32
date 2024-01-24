@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Appendix
+# Appendix (OpenGL)
 
 OpenGL, originally developed by Silicon Graphics Incorporated (SGI) for their graphics workstations, lets applications create high-quality color images independent of windowing systems, operating systems, and hardware.
 

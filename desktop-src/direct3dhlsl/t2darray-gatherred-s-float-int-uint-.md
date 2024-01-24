@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherRed(S,float,int,uint) function
-description: Samples a texture and returns the red component along with status about the operation.
+description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | Texture2DArray::GatherRed(S,float,int,uint) function
 ms.assetid: 9FAFB594-5844-4A2D-9B45-7973B5F85E13
 keywords:
 - GatherRed function HLSL
@@ -15,19 +15,19 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherRed(S,float,int,uint) function
+# Texture2DArray::GatherRed(S,float,int,uint) function
 
-Samples a texture and returns the red component along with status about the operation.
+Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 
 
 ``` syntax
 TemplateType GatherRed(
-  in  SamplerState S,
-  in  float        Location,
-  in  int          Offset,
-  out uint         Status
+  in  SamplerState S,
+  in  float3       Location,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 
@@ -93,7 +93,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -102,6 +102,6 @@ This function is supported for the following types of shaders:
 [GatherRed methods](texture2darray-gatherred.md)
 </dt> </dl>
 
- 
 
- 
+
+

@@ -34,8 +34,8 @@ Pragma directive that modifies the behavior of compiler warning messages.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -101,7 +101,7 @@ The HLSL warning pragma does not support the **push** and **pop** functionality 
 
 ## Examples
 
-The following example disables warnings 4507 and 4034, displays warning 4385 once once, and reports warning 4164 as an error.
+The following example disables warnings 4507 and 4034, displays warning 4385 once, and reports warning 4164 as an error.
 
 
 ```

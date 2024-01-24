@@ -1,5 +1,5 @@
 ---
-Description: People Near Me Stores
+description: People Near Me Stores
 ms.assetid: 3f2aa9bd-49ca-4fa6-b718-7cbeeef857c7
 title: People Near Me Stores
 ms.topic: article

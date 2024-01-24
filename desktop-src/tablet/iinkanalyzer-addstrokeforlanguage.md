@@ -1,5 +1,5 @@
 ---
-Description: Adds stroke data for a single stroke to the IInkAnalyzer and assigns a specific culture identifier to the stroke.
+description: Adds stroke data for a single stroke to the IInkAnalyzer and assigns a specific culture identifier to the stroke.
 ms.assetid: 65eb805e-05ed-4144-b17e-872c47ab33fa
 title: IInkAnalyzer::AddStrokeForLanguage method (IACom.h)
 ms.topic: reference
@@ -116,7 +116,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) already contains a stroke with the sa
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

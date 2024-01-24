@@ -22,9 +22,8 @@ SV\_StencilRef represents the current pixel shader stencil reference value.
 
 
 
-|      |
+| Type     |
 |------|
-| Type |
 | uint |
 
 

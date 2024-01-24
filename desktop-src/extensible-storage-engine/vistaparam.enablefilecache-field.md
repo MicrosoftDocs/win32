@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.EnableFileCache field"
 title: VistaParam.EnableFileCache field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: EnableFileCache field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.EnableFileCache
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Enable the use of the OS file cache for all managed files.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const JET_param EnableFileCache
 
 #### Reference
 
-[VistaParam class](dn335284\(v=exchg.10\).md)
+[VistaParam class](./vistaparam-class.md)
 
-[VistaParam members](dn335372\(v=exchg.10\).md)
+[VistaParam members](./vistaparam-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

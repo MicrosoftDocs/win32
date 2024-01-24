@@ -1,5 +1,5 @@
 ---
-Description: Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the ILoadFilter interface.
+description: Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the ILoadFilter interface.
 ms.assetid: 3478b948-73c7-4533-974a-d9b5186a651b
 title: Registering Filter Handlers
 ms.topic: article
@@ -54,12 +54,11 @@ When you register a new filter handler, we recommend that you use a descriptive 
     HKEY_LOCAL_MACHINE
        Software
           Classes
-             .txt
-                CLSID
-                   {PersistentHandlerGUID}
-                      PersistentAddinsRegistered
-                         {89BCB740-6119-101A-BCB7-00DD010655AF}l
-                            (Default) = {FilterHandlerCLSID}
+             CLSID
+                {PersistentHandlerGUID}
+                   PersistentAddinsRegistered
+                      {89BCB740-6119-101A-BCB7-00DD010655AF}l
+                         (Default) = {FilterHandlerCLSID}
 ```
 
 2. Register your filter handler with the following keys and values:
@@ -68,13 +67,12 @@ When you register a new filter handler, we recommend that you use a descriptive 
     HKEY_LOCAL_MACHINE
        Software
           Classes
-             .txt
-                CLSID
-                   {FilterHandlerCLSID}
-                      (Default) = {DescriptiveFilterHandlerName}
-                      InprocServer32
-                         (Default) = DLL Install Path
-                         ThreadingModel = Both
+             CLSID
+                {FilterHandlerCLSID}
+                   (Default) = {DescriptiveFilterHandlerName}
+                   InprocServer32
+                      (Default) = DLL Install Path
+                      ThreadingModel = Both
 ```
 
 ### Obsolete Approach for Registering Filters Handlers

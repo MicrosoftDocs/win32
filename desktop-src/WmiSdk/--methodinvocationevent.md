@@ -1,5 +1,5 @@
 ---
-Description: The \_\_MethodInvocationEvent system class is defined but is not implemented.
+description: The \_\_MethodInvocationEvent system class is defined but is not implemented.
 ms.assetid: ea736e44-a6bc-41e5-abc5-9e21a5504f44
 ms.tgt_platform: multiple
 title: '__MethodInvocationEvent class'
@@ -142,7 +142,7 @@ The **\_\_MethodInvocationEvent** class is derived from [**\_\_InstanceOperation
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

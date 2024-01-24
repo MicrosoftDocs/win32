@@ -1,5 +1,5 @@
 ---
-Description: When installed on an application server, COM+ automatically creates a partition, known as the global partition.
+description: When installed on an application server, COM+ automatically creates a partition, known as the global partition.
 ms.assetid: fbe894ae-5356-4522-884a-dc579a3a8dd3
 title: Partition Implementation
 ms.topic: article

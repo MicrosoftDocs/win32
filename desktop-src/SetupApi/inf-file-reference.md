@@ -1,5 +1,5 @@
 ---
-Description: INF File Reference
+description: INF File Reference
 ms.assetid: 4997D87E-D21B-4BC5-9CFE-298DDB6B9396
 title: INF File Reference
 ms.topic: article

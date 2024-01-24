@@ -1,5 +1,5 @@
 ---
-Description: 'MUI: Application-Specific Settings Sample (Pre-Windows Vista)'
+description: 'MUI: Application-Specific Settings Sample (Pre-Windows Vista)'
 ms.assetid: 932aa981-ddd9-4a5b-9003-7dafd98e3ae4
 title: 'MUI: Application-Specific Settings Sample (Pre-Windows Vista)'
 ms.topic: article

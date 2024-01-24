@@ -1,5 +1,5 @@
 ---
-Description: The lines of a listview are not treated as individual controls, but they are part of a listview that functions as a control. The ListView table defines the values for all listviews.
+description: The lines of a listview are not treated as individual controls, but they are part of a listview that functions as a control. The ListView table defines the values for all listviews.
 ms.assetid: 0da4eab9-cabc-4bcc-8267-4aa1cd79e78b
 title: ListView Table
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Stops a named service.
+description: IShellDispatch2.ServiceStop method - Stops a named service.
 ms.assetid: f4cd0e2c-4ecc-4e9f-a0b5-d2a8a739f0e2
 title: IShellDispatch2.ServiceStop method (Shldisp.h)
 ms.topic: reference
@@ -131,7 +131,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

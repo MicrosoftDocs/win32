@@ -12,7 +12,7 @@ Component-wise conversion from single-precision floating-point data to double-pr
 
 
 
-| ftod dest\[.mask\], \[-\]src\[.swizzle\], |
+| ftod dest\[.mask\], \[-\]src0\[.swizzle\], |
 |-------------------------------------------|
 
 
@@ -38,7 +38,7 @@ The valid *dest* masks are .xy, .zw, and .xyzw. .xy receives the result of the f
 
 *dest* is a double vec2 across (x 32LSB, y 32MSB) and (z 32LSB, w 32MSB).
 
-*src* is a float vec2 across x and y (zw ignored) (post swizzle).
+*src0* is a float vec2 across x and y (zw ignored) (post swizzle).
 
 For float32<->double conversions, implementations may either honor float32 denorms or may flush them.
 

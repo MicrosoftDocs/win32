@@ -1,5 +1,5 @@
 ---
-Description: The JOB\_INFO\_2 structure describes a full set of values associated with a job.
+description: The JOB\_INFO\_2 structure describes a full set of values associated with a job.
 ms.assetid: 0cc61e35-4ac9-47bd-bb0d-ff43854bdee5
 title: JOB_INFO_2 structure (Winspool.h)
 ms.topic: reference
@@ -271,7 +271,7 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

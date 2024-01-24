@@ -1,5 +1,5 @@
 ---
-Description: Device low battery notification.
+description: Device low battery notification.
 ms.assetid: d708eb0c-c64e-4d65-8c2b-959ee5194a08
 title: System.Devices.Notifications.LowBattery
 ms.topic: article

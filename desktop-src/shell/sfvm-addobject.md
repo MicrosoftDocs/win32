@@ -1,5 +1,5 @@
 ---
-Description: Adds an object to the Shell view. Used by SHShellFolderView\_Message.
+description: Adds an object to the Shell view. Used by SHShellFolderView\_Message.
 title: SFVM_ADDOBJECT message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -46,7 +46,7 @@ Returns the new listview item ID of the added object if the process was successf
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -11,11 +11,14 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # fragment Element
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **fragment** element specifies one condition of the query that selects items from the library. Conditions are specified by condition strings. A condition string typically has a name portion, a condition portion, and a value portion.
 
@@ -203,7 +206,7 @@ For condition strings of this type the following table shows the possible values
 
  
 
-When you use a fragment element to sort a playlist, you must sort on a metadata attribute that applies to the type of media items you are sorting. For example, if you are sorting music items you can not sort on Actor. The following table shows which metadata attributes you can use to sort which media types.
+When you use a fragment element to sort a playlist, you must sort on a metadata attribute that applies to the type of media items you are sorting. For example, if you are sorting music items you cannot sort on Actor. The following table shows which metadata attributes you can use to sort which media types.
 
 
 
@@ -223,7 +226,7 @@ When you use a fragment element to sort a playlist, you must sort on a metadata 
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

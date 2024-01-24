@@ -1,5 +1,5 @@
 ---
-Description: One major issue in porting applications from a Berkeley Sockets environment to a Windows environment involves blocking; that is, invoking a function that does not return until the associated operation is completed.
+description: One major issue in porting applications from a Berkeley Sockets environment to a Windows environment involves blocking; that is, invoking a function that does not return until the associated operation is completed.
 ms.assetid: 13aedad7-5f3b-4d73-b8e5-be3a095294bc
 title: Windows Sockets 1.1 Blocking Routines and EINPROGRESS
 ms.topic: article

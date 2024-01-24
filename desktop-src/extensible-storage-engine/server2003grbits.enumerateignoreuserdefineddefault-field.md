@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Grbits.EnumerateIgnoreUserDefinedDefault field"
 title: Server2003Grbits.EnumerateIgnoreUserDefinedDefault field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: EnumerateIgnoreUserDefinedDefault field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits.EnumerateIgnoreUserDefinedDefault
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 If a given column is not present in the record and it has a user defined default value then no column value will be returned. This option will prevent the callback that computes the user defined default value for the column from being called when enumerating the values for that column.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](hh557147\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](./microsoft.isam.esent.interop.server2003-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,9 +57,8 @@ This option is only available for Windows Server 2003 SP1 and later operating sy
 
 #### Reference
 
-[Server2003Grbits class](dn351281\(v=exchg.10\).md)
+[Server2003Grbits class](./server2003grbits-class.md)
 
-[Server2003Grbits members](dn351200\(v=exchg.10\).md)
+[Server2003Grbits members](./server2003grbits-members.md)
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

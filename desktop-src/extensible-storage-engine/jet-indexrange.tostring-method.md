@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE.ToString method"
 title: JET_INDEXRANGE.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_INDEXRANGE.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [JET_INDEXRANGE](dn335175\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_INDEXRANGE](./jet-indexrange-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +53,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [JET_INDEXRANGE](dn335175\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [JET_INDEXRANGE](./jet-indexrange-class.md).  
 
 ## See also
 
 #### Reference
 
-[JET_INDEXRANGE class](dn335175\(v=exchg.10\).md)
+[JET_INDEXRANGE class](./jet-indexrange-class.md)
 
-[JET_INDEXRANGE members](dn335176\(v=exchg.10\).md)
+[JET_INDEXRANGE members](./jet-indexrange-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

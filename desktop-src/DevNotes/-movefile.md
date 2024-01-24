@@ -1,5 +1,5 @@
 ---
-Description: Moves an existing file or directory, including its children.
+description: Moves an existing file or directory, including its children.
 ms.assetid: 1c533b02-6674-4390-bc49-6420403778a8
 title: '_MoveFile function'
 ms.topic: reference
@@ -44,7 +44,7 @@ BOOL _MoveFile(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 

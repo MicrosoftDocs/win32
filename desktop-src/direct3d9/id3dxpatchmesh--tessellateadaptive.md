@@ -1,5 +1,5 @@
 ---
-Description: Performs adaptive tessellation based on the z-based adaptive tessellation criterion.
+description: Performs adaptive tessellation based on the z-based adaptive tessellation criterion.
 ms.assetid: 9f8f5c18-e866-4893-ba07-2a3c0d26c028
 title: ID3DXPatchMesh::TessellateAdaptive method (D3DX9Mesh.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ This function will perform more efficiently if the patch mesh has been optimized
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

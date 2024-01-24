@@ -1,5 +1,5 @@
 ---
-Description: Sets the persisted group id list for all the profiles that are persisted by your app.
+description: Sets the persisted group id list for all the profiles that are persisted by your app.
 ms.assetid: EF83F295-CD53-45A4-B209-560B4069CA7C
 title: WFDDisplaySinkSetPersistedGroupIDList function (Wfdsink.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ A re-invoke for a group id that is not part of the provided list will fail with 
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                    |

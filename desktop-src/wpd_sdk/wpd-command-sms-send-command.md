@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_COMMAND\_SMS\_SEND command initiates the sending of a short message service (SMS) message by an SMS functional object.
+description: The WPD\_COMMAND\_SMS\_SEND command initiates the sending of a short message service (SMS) message by an SMS functional object.
 ms.assetid: 507d3237-f2dd-499c-85e4-3c6857a15f6f
 title: WPD_COMMAND_SMS_SEND Command (PortableDevice.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Can only be called directly using [**IPortableDevice::SendCommand**](/windows/de
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

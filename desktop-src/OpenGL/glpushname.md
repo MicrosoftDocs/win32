@@ -1,6 +1,6 @@
 ---
 title: glPushName function (Gl.h)
-description: The glPushName and glPopName functions push and pop the name stack.
+description: The glPushName and glPopName functions push and pop the name stack. | glPushName function (Gl.h)
 ms.assetid: e4319018-42c0-4567-b67f-31dbdbee9b13
 keywords:
 - glPushName function OpenGL
@@ -59,19 +59,6 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 
 
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_STACK\_OVERFLOW**</dt> </dl>    | The function was called while the current matrix stack was full.<br/>                                                           |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
-
-
-
 ## Remarks
 
 The **glPushName** function causes name to be pushed onto the name stack, which is initially empty. The [**glPopName**](glpopname.md) function pops one name off the top of the stack. The name stack is used during selection mode to allow sets of rendering commands to be uniquely identified. It consists of an ordered set of unsigned integers.
@@ -88,7 +75,7 @@ The following functions retrieve information related to **glPushName** and [**gl
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

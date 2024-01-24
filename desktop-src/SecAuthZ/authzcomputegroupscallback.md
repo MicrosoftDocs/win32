@@ -1,5 +1,5 @@
 ---
-Description: An application-defined function that creates a list of security identifiers (SIDs) that apply to a client. AuthzComputeGroupsCallback is a placeholder for the application-defined function name.
+description: An application-defined function that creates a list of security identifiers (SIDs) that apply to a client. AuthzComputeGroupsCallback is a placeholder for the application-defined function name.
 ms.assetid: c20a02a0-5303-4433-a484-5a89999b32b9
 title: AuthzComputeGroupsCallback callback function
 ms.topic: reference
@@ -96,7 +96,7 @@ Attribute variables must be in the form of an expression when used with logical 
 
 
 
-|                                     |                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |

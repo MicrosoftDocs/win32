@@ -1,5 +1,5 @@
 ---
-Description: The put\_Url method sets the URL.
+description: The put\_Url method sets the URL.
 ms.assetid: 538bb1dd-c7ad-446d-9df7-23363b466263
 title: ITSdp::put_Url method (Sdpblb.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

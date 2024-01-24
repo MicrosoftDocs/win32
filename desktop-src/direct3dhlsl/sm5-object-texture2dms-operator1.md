@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# Texture2DMS::Operator  function
 
 Retrieves a value from the resource at the location provided at sample index 0.
 

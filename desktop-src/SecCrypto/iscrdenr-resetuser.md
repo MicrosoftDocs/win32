@@ -1,5 +1,5 @@
 ---
-Description: Clears the user name from the smart card control.
+description: Clears the user name from the smart card control.
 ms.assetid: fff50db5-0610-4985-94c6-96d7ce990219
 title: ISCrdEnr::resetUser method
 ms.topic: reference
@@ -41,7 +41,7 @@ This method clears any existing user name and previously enrolled certificate fr
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

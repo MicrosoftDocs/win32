@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth device address.
+description: Bluetooth device address.
 ms.assetid: 41588629-d1cd-4274-989b-0e81cbdc1e87
 title: System.DeviceInterface.Bluetooth.DeviceAddress
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.DeviceInterface.Bluetooth.DeviceAddress
 
-Bluetooth device address.
+Bluetooth device address that represents the serial number for a particular instance of the device.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507
 

@@ -1,5 +1,5 @@
 ---
-Description: Suggestions for application security assessments for app development of Windows security software and secure software development, including application security testing.
+description: Suggestions for application security assessments for app development of Windows security software and secure software development, including application security testing.
 ms.assetid: bb0ddae2-f559-4785-97c7-182fc204fa60
 title: Best Practices for the Security APIs
 ms.topic: article
@@ -18,7 +18,7 @@ The [Security Development Life Cycle](/previous-versions/ms995349(v=msdn.10)) (S
 -   Using code-scanning tools
 -   Conducting code reviews and security testing
 
-For more information about the SDL, see the [SDL Blog](https://blogs.msdn.com/sdl/archive/2007/04/26/welcome-to-the-sdl-blog.aspx).
+For more information about the SDL, see the [Microsoft Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl).
 
 ## Threat Models
 

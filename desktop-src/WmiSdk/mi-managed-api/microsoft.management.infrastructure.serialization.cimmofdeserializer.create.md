@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CimMofDeserializer.Create method ()"
 title: CimMofDeserializer.Create method (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.Create method (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: M:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.Create

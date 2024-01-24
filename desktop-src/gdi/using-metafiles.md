@@ -1,5 +1,5 @@
 ---
-Description: 'This section explains how to perform the following tasks:'
+description: 'This section explains how to perform the following tasks:'
 ms.assetid: 7236489c-d3b0-4f1a-b452-e71b70ad7996
 title: Using Metafiles
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Contains battery information to be set.
+description: Contains battery information to be set.
 ms.assetid: 535e56cb-2bab-458a-84a8-2d9a4d96412b
 title: BATTERY_SET_INFORMATION structure (Poclass.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ The **BATTERY\_SET\_INFORMATION** structure is a variable-length structure, and 
 
 
 
-|                                     |                                                                                                                                                                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |

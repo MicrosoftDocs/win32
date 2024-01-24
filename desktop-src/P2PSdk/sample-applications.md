@@ -1,6 +1,6 @@
 ---
 title: Sample applications (Peer Infrastructure)
-Description: The following sample applications are included in the Windows XP Peer SDK.
+description: The following sample applications are included in the Windows XP Peer SDK.
 ms.assetid: 26c45360-f232-4e29-90b5-44ccacb5a9c3
 ms.topic: article
 ms.date: 05/31/2018

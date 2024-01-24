@@ -1,6 +1,6 @@
 ---
 title: Progress Bar Control Reference
-description: .
+description: Progress Bar Control Reference
 ms.assetid: 89468ecb-045a-4d30-8eb2-db33cbf0780e
 ms.topic: article
 ms.date: 05/31/2018

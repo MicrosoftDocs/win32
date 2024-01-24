@@ -1,5 +1,5 @@
 ---
-Description: This topic includes an example of how to write a script that obtains data through Microsoft Windows HTTP Services (WinHTTP) either synchronously or asynchronously.
+description: This topic includes an example of how to write a script that obtains data through Microsoft Windows HTTP Services (WinHTTP) either synchronously or asynchronously.
 ms.assetid: 84b847f8-4d9e-4fea-9e87-df4c65b54a02
 title: Retrieving Data Using Script
 ms.topic: article

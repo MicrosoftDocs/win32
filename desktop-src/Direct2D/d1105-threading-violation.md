@@ -30,9 +30,6 @@ The address of the interface that was accessed by multiple threads.
 
 </dd> </dl> 
 
-|             |       |
-|-------------|-------|
-| Error Level | Error |
 
 
 

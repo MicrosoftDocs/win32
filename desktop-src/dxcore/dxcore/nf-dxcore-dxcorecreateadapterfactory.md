@@ -1,9 +1,17 @@
 ---
 title: DXCoreCreateAdapterFactory
 description: Creates a DXCore adapter factory, which you can use to generate further DXCore objects.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ext-ms-win-dxcore-l1-1-0.dll
+api_name:
+ - DXCoreCreateAdapterFactory
 ---
 
 # DXCoreCreateAdapterFactory function

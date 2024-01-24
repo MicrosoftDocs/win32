@@ -1,5 +1,5 @@
 ---
-Description: The EnumMonitors function retrieves information about the port monitors installed on the specified server.
+description: The EnumMonitors function retrieves information about the port monitors installed on the specified server.
 ms.assetid: 4d4fbed2-193f-426c-8463-eeb6b1eaf316
 title: EnumMonitors function (Winspool.h)
 ms.topic: reference
@@ -106,7 +106,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

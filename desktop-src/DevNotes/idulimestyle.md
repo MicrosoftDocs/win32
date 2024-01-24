@@ -1,5 +1,5 @@
 ---
-Description: Identifies whether the specified non-color style has underline.
+description: Identifies whether the specified non-color style has underline.
 ms.assetid: 72056bf7-0a18-4ad3-a8c4-d2335a7218ae
 title: IdUlIMEStyle function
 ms.topic: reference
@@ -85,7 +85,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

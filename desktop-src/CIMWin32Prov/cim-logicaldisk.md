@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalDisk class represents a contiguous range of logical blocks that is identifiable by a file system through the disk's DeviceID (key) field.
+description: The CIM\_LogicalDisk class represents a contiguous range of logical blocks that is identifiable by a file system through the disk's DeviceID (key) field.
 ms.assetid: 1c2fd0bf-a1e3-4706-9f84-5dd4d371a167
 ms.tgt_platform: multiple
 title: CIM_LogicalDisk class (CIMWin32 WMI Providers)
@@ -42,7 +42,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_LogicalDisk class
+# CIM_LogicalDisk class (CIMWin32 WMI Providers)
 
 The **CIM\_LogicalDisk** class represents a contiguous range of logical blocks that is identifiable by a file system through the disk's **DeviceID** (key) field. For example, in a Windows environment, the **DeviceID** field contains a drive letter; in a UNIX environment, it contains the access path; and in a NetWare environment, it contains the volume name.
 
@@ -1357,7 +1357,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

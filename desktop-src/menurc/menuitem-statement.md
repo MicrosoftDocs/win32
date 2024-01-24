@@ -66,7 +66,7 @@ The appearance of the menu item. This optional parameter takes one or more of th
 <span id="MENUITEM_SEPARATOR"></span><span id="menuitem_separator"></span>**MENUITEM SEPARATOR**
 </dt> <dd>
 
-The **MENUITEM SEPARATOR** form of the **MENUITEM** statement creates an inactive menu item that serves as a dividing bar between two active menu items on a menu.
+The **MENUITEM SEPARATOR** form of the **MENUITEM** statement creates an inactive menu item that serves as a dividing bar between two active menu items on a menu. Note that this form works inside a **MENU** block, whereas **MENUITEM**'s inside a **MENUEX** instead require the form `MENUITEM "", -1, MFT_SEPARATOR`.
 
 </dd> </dl>
 

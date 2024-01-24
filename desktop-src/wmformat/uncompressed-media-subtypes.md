@@ -12,10 +12,13 @@ keywords:
 - media types,uncompressed media subtypes
 - uncompressed media subtypes
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Uncompressed Media Subtypes
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following table lists the uncompressed media subtypes. These are types used as input and output formats, and formats for uncompressed streams. Not all of the types in the following tables are supported in all ways. Supported input and output format types can be enumerated by codec in the writer and reader/synchronous reader, respectively. For information about the types supported for uncompressed streams, see [Using Uncompressed Audio and Video Streams](using-uncompressed-audio-and-video-streams.md).
 

@@ -1,5 +1,5 @@
 ---
-Description: The ITParticipant interface is implemented by the IPConf MSP. It allows an application to retrieve information on conference participants, and get pointers to the streams associated with those participants.
+description: The ITParticipant interface is implemented by the IPConf MSP. It allows an application to retrieve information on conference participants, and get pointers to the streams associated with those participants.
 ms.assetid: 8c3edfc1-3165-48b7-9d83-8892c192498b
 title: ITParticipant interface (Ipmsp.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The **ITParticipant** interface has these methods.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

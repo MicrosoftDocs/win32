@@ -1,5 +1,5 @@
 ---
-Description: Selects a client certificate to send to a Secure Hypertext Transfer Protocol (HTTPS) server.
+description: Selects a client certificate to send to a Secure Hypertext Transfer Protocol (HTTPS) server.
 ms.assetid: e76f1e76-5efe-46f2-9a21-064aa06fb3a8
 title: IWinHttpRequest::SetClientCertificate method
 ms.topic: reference
@@ -87,7 +87,7 @@ HttpReq.Send();
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

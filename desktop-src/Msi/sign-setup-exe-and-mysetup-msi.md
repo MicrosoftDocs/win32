@@ -1,5 +1,5 @@
 ---
-Description: Before you place Setup.exe and MySetup.msi on the Web server, you should sign the files with your digital certificate and private key, Mycert.cer and Mycert.pvk, using the SignTool utility.
+description: Before you place Setup.exe and MySetup.msi on the Web server, you should sign the files with your digital certificate and private key, Mycert.cer and Mycert.pvk, using the SignTool utility.
 ms.assetid: 0123c864-5d8f-4135-afea-9909faf3bb0f
 title: Sign Setup.exe and MySetup.msi
 ms.topic: article

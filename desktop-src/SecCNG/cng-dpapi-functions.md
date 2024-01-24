@@ -1,5 +1,5 @@
 ---
-Description: 'Cryptography API: Next Generation (CNG) defines the following functions for the CNG Data Protection API.'
+description: 'Cryptography API: Next Generation (CNG) defines the following functions for the CNG Data Protection API.'
 ms.assetid: 591C7361-334E-4A65-8616-C0ED3BBC2297
 title: CNG DPAPI Functions
 ms.topic: article

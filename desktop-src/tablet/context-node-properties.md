@@ -1,5 +1,5 @@
 ---
-Description: Defines globally unique identifiers (GUIDs) for properties of an IContextNode.
+description: Defines globally unique identifiers (GUIDs) for properties of an IContextNode.
 ms.assetid: 14992253-c384-43c1-9465-e015ea2348db
 title: Context Node Properties (Iaguid.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ To get or set properties specific to analysis hint nodes, see [**Analysis Hint P
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | None supported<br/>                                                           |

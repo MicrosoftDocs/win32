@@ -1,5 +1,5 @@
 ---
-Description: Locks or unlocks the media.
+description: Locks or unlocks the media.
 ms.assetid: 805efb2d-71a7-4c74-821f-942644928ff9
 title: LockMedia method of the Msvm_DiskDrive class
 ms.topic: reference
@@ -57,7 +57,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

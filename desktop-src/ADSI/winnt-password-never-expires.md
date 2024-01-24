@@ -20,7 +20,7 @@ To enable this option using the WinNT ADSI provider, set the **ADS\_UF\_DONT\_EX
 
  
 
-## Example Code
+## Example 1
 
 The following code example shows how to set the password never expires option using Visual Basic with ADSI.
 
@@ -38,7 +38,7 @@ usr.SetInfo
 
 
 
-## Example Code
+## Example 2
 
 The following code example shows how to set the password never expires option using C++ with ADSI.
 

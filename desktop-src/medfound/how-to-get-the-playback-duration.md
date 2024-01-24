@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to get the playback duration of a media file using MFPlay.
+description: This topic describes how to get the playback duration of a media file using MFPlay.
 ms.assetid: b1ea4f21-55d1-47b0-b6d3-8951dce79f7c
 title: How to Get the Playback Duration
 ms.topic: article

@@ -39,7 +39,7 @@ HRESULT DeducingStringSetter(
 
 
 
-|                   |                                                                                                |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1effecthelpers.h</dt> </dl> |
 

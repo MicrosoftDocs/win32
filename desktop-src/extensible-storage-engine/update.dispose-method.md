@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Update.Dispose method"
 title: Update.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Update.Dispose
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[Update class](dn351191\(v=exchg.10\).md)
+[Update class](./update-class.md)
 
-[Update members](dn351259\(v=exchg.10\).md)
+[Update members](./update-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Job class represents a unit of work for a system, such as a print job. A job is distinct from a process because a job can be scheduled.
+description: The CIM\_Job class represents a unit of work for a system, such as a print job. A job is distinct from a process because a job can be scheduled.
 ms.assetid: a689230e-2a62-4f0d-9961-9bbc055d3c6e
 ms.tgt_platform: multiple
 title: CIM_Job class (CIMWin32 WMI Providers)
@@ -29,7 +29,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Job class
+# CIM_Job class (CIMWin32 WMI Providers)
 
 The **CIM\_Job** class represents a unit of work for a system, such as a print job. A job is distinct from a process because a job can be scheduled.
 
@@ -370,7 +370,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

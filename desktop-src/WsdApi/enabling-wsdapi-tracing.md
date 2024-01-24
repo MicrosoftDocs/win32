@@ -1,5 +1,5 @@
 ---
-Description: WSDAPI logs contain debugging information that can be used to find the root cause of WSDAPI application failures.
+description: WSDAPI logs contain debugging information that can be used to find the root cause of WSDAPI application failures.
 ms.assetid: 28b4c032-1c9a-4b3a-9a6a-2948456572b2
 title: Enabling WSDAPI Tracing
 ms.topic: article

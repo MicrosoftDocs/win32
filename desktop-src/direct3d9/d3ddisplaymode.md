@@ -1,5 +1,5 @@
 ---
-Description: Describes the display mode.
+description: Describes the display mode.
 ms.assetid: e83c03ee-2067-45c9-8fd8-8c4db5558df4
 title: D3DDISPLAYMODE structure (D3D9Types.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ Member of the [D3DFORMAT](d3dformat.md) enumerated type, describing the surface 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

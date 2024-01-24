@@ -1,5 +1,5 @@
 ---
-Description: User interface objects support only one handle per object. Processes cannot inherit or duplicate handles to user objects. Processes in one session cannot reference a user handle in another session.
+description: User interface objects support only one handle per object. Processes cannot inherit or duplicate handles to user objects. Processes in one session cannot reference a user handle in another session.
 ms.assetid: 07edc049-26d9-4f42-a5e7-e1f4c8435a6c
 title: User Objects
 ms.topic: article

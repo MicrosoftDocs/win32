@@ -1,7 +1,7 @@
 ---
 title: File Replication Examples
 ms.assetid: cc15c17a-796f-4273-a534-e005d07cf05f
-description: 
+description: "Learn more about: File Replication Examples"
 ms.topic: article
 ms.date: 05/31/2018
 ---

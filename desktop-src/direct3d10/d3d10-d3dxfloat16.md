@@ -1,23 +1,26 @@
 ---
-Description: Describes a 16-bit floating point vector.
+description: D3DXFLOAT16 structure (D3DX10Math.h) - Describes a 16-bit floating point vector.
 ms.assetid: 2aaca07b-66eb-4845-9d22-692be02234ac
 title: D3DXFLOAT16 structure (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXFLOAT16
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXFLOAT16 structure
+# D3DXFLOAT16 structure (D3DX10Math.h)
 
-Describes a 16-bit floating point vector.
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
+
+Describes a 16-bit floating point value.
 
 ## Syntax
 
@@ -49,7 +52,7 @@ The 16-bit data.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

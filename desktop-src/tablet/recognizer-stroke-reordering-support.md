@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft recognizers of Latin script support stroke reordering.The Microsoft handwriting recognizers of Latin script do not depend upon the strokes in a line being written in a particular order.
+description: The Microsoft recognizers of Latin script support stroke reordering.The Microsoft handwriting recognizers of Latin script do not depend upon the strokes in a line being written in a particular order.
 ms.assetid: f2090018-489f-400c-ae44-a6ad60710196
 title: Recognizer Stroke Reordering Support
 ms.topic: article

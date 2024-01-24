@@ -1,5 +1,5 @@
 ---
-Description: The CommandLineEventConsumer class starts an arbitrary process in the local system when an event is delivered to it.
+description: The CommandLineEventConsumer class starts an arbitrary process in the local system when an event is delivered to it.
 ms.assetid: 0dcae783-1722-45a4-b5d4-3fcf455dacf8
 ms.tgt_platform: multiple
 title: CommandLineEventConsumer class
@@ -469,130 +469,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Window show state.
-
-<dt>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>**SW\_HIDE** (0 (0x0))
-
-
-</dt> <dd>
-
-Hides a window and activates a different window.
-
-</dd> <dt>
-
-<span id="SW_SHOWNORMAL"></span><span id="sw_shownormal"></span>
-
-<span id="SW_SHOWNORMAL"></span><span id="sw_shownormal"></span>**SW\_SHOWNORMAL** (1 (0x1))
-
-
-</dt> <dd>
-
-Activates and displays a window. If a window is minimized or maximized, the system restores it to its original size and position. An application should specify this flag when displaying a window for the first time.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>**SW\_SHOWMINIMIZED** (2 (0x2))
-
-
-</dt> <dd>
-
-Activates a window and displays it as a minimized window.
-
-</dd> <dt>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>**SW\_SHOWMAXIMIZED** (3 (0x3))
-
-
-</dt> <dd>
-
-Activates a window and displays it as a maximized window.
-
-</dd> <dt>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>**SW\_SHOWNOACTIVATE** (4 (0x4))
-
-
-</dt> <dd>
-
-Displays a window in its most recent size and position. This value is similar to SW\_SHOWNORMAL, except the window is not activated.
-
-</dd> <dt>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>**SW\_SHOW** (5 (0x5))
-
-
-</dt> <dd>
-
-Activates a window and displays it in its current size and position.
-
-</dd> <dt>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>**SW\_MINIMIZE** (6 (0x6))
-
-
-</dt> <dd>
-
-Minimizes a window and activates the next top-level window.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>**SW\_SHOWMINNOACTIVE** (7 (0x7))
-
-
-</dt> <dd>
-
-Displays a window as a minimized window.
-
-</dd> <dt>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>**SW\_SHOWNA** (8 (0x8))
-
-
-</dt> <dd>
-
-Displays a window in its current size and position. This value is similar to SW\_SHOW, except the window is not activated.
-
-</dd> <dt>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>**SW\_RESTORE** (9 (0x9))
-
-
-</dt> <dd>
-
-Activates and displays a window to its most recent size and position. An application should specify this value when restoring a minimized window.
-
-</dd> <dt>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>**SW\_SHOWDEFAULT** (10 (0xA))
-
-
-</dt> <dd>
-
-Sets the show state based on the **SW\_\*** value specified in the [**STARTUPINFO**](/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure passed to the [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) function by the program that starts an application.
-
-</dd> </dl>
+Window show state. It can be any of the values that can be specified in the *nCmdShow* parameter for the [ShowWindow](/windows/desktop/api/winuser/nf-winuser-showwindow) function.
 
 </dd> <dt>
 
@@ -765,7 +642,7 @@ For an example of using **CommandLineEventConsumer** to create a consumer, see [
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

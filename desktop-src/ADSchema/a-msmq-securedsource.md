@@ -22,7 +22,7 @@ This is part of an MSMQ object, it is set by calling API to MQCreateQueue or MQS
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | MSMQ-Secured-Source                  |
 | Ldap-Display-Name | MSMQ-SecuredSource                   |
@@ -47,7 +47,7 @@ This is part of an MSMQ object, it is set by calling API to MQCreateQueue or MQS
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -68,7 +68,7 @@ This is part of an MSMQ object, it is set by calling API to MQCreateQueue or MQS
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -89,7 +89,7 @@ This is part of an MSMQ object, it is set by calling API to MQCreateQueue or MQS
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -110,7 +110,7 @@ This is part of an MSMQ object, it is set by calling API to MQCreateQueue or MQS
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -131,7 +131,7 @@ This is part of an MSMQ object, it is set by calling API to MQCreateQueue or MQS
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

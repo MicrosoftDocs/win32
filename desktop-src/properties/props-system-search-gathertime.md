@@ -1,5 +1,5 @@
 ---
-Description: The Datetime value representing the time when the Windows Search Gatherer process last pushed properties of this document to the Windows Search Gatherer Plugins.
+description: The Datetime value representing the time when the Windows Search Gatherer process last pushed properties of this document to the Windows Search Gatherer Plugins.
 ms.assetid: 95474132-6d07-4575-961e-249ffafd65e4
 title: System.Search.GatherTime
 ms.topic: article

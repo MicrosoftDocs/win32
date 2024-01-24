@@ -30,7 +30,7 @@ Retrieves the minimum size required to display a full month in a month calendar 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive bounding rectangle information. This parameter must be a valid address and cannot be **NULL**.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that will receive bounding rectangle information. This parameter must be a valid address and cannot be **NULL**.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ The **top** and **left** members of the structure pointed to by *lParam* will al
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

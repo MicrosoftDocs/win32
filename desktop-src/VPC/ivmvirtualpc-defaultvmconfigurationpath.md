@@ -45,7 +45,7 @@ HRESULT get_DefaultVMConfigurationPath(
 
 ## Property value
 
-Specifies the directory path for the default virtual machine configuration files. In the path string, a backslash (\) may appear immediately before the terminating null character.
+Specifies the directory path for the default virtual machine configuration files. In the path string, a backslash (\\) may appear immediately before the terminating null character.
 
 ## Error codes
 
@@ -73,7 +73,7 @@ By default, this property value is set to the following directory: "%LocalAppDat
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

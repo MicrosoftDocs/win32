@@ -1,5 +1,5 @@
 ---
-Description: Smart Card Resource Manager
+description: Smart Card Resource Manager
 ms.assetid: 96434996-88fa-47d3-bb44-3ebb23610b27
 title: Smart Card Resource Manager
 ms.topic: article

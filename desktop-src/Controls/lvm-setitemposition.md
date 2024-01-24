@@ -34,7 +34,7 @@ Index of the list-view item.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the new x-position of the item's upper-left corner, in view coordinates. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the new y-position of the item's upper-left corner, in view coordinates.
+The [**LOWORD**](../winmsg/loword.md) specifies the new x-position of the item's upper-left corner, in view coordinates. The [**HIWORD**](../winmsg/hiword.md) specifies the new y-position of the item's upper-left corner, in view coordinates.
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ On Windows Vista, sending this message to a list-view control with the [**LVS\_A
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

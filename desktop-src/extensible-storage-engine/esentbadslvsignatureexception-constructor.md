@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadSLVSignatureException constructor"
 title: EsentBadSLVSignatureException constructor 
 TOCTitle: 'EsentBadSLVSignatureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadSLVSignatureException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentBadSLVSignatureException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentBadSLVSignatureException()
 
 #### Reference
 
-[EsentBadSLVSignatureException class](dn274107\(v=exchg.10\).md)
+[EsentBadSLVSignatureException class](./esentbadslvsignatureexception-class.md)
 
-[EsentBadSLVSignatureException members](dn274050\(v=exchg.10\).md)
+[EsentBadSLVSignatureException members](./esentbadslvsignatureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

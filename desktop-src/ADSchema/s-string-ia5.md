@@ -21,7 +21,7 @@ A case-sensitive string that contains characters from the IA5 character set.
 
 
 
-|              |                                                                        |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------|
 | Name         | String(IA5)                                                            |
 | Syntax ID    | 2.5.5.5                                                                |

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # round
 
-Rounds the specified value to the nearest integer.
+Rounds the specified value to the nearest integer. Halfway cases are rounded to the nearest even.
 
 
 
@@ -77,7 +77,7 @@ This function is supported in the following shader models.
 
 
 
-|                   |                                                                                            |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Corecrt\_math.h</dt> </dl> |
 

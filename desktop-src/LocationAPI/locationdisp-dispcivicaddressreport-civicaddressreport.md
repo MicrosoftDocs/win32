@@ -1,5 +1,5 @@
 ---
-Description: The current civic address report.
+description: The current civic address report.
 ms.assetid: a58dd612-bc54-42d1-9960-8c3de1c4fa83
 title: LocationDisp.CivicAddressReportFactory.CivicAddressReport property (Locationapi.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ For an example of how to use this property, see [A Simple Civic Address Report E
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | None supported<br/>                                                                |

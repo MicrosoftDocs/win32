@@ -1,5 +1,5 @@
 ---
-Description: Contains animation set data.
+description: Contains animation set data.
 ms.assetid: 8d29b9fe-cc6e-48e3-b754-f00f17e4c80a
 title: CompressedAnimationSet
 ms.topic: reference

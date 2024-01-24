@@ -1,5 +1,5 @@
 ---
-Description: The following example tries to change the DACL of a file object by taking ownership of that object.
+description: The following example tries to change the DACL of a file object by taking ownership of that object.
 ms.assetid: 0b309ac9-177d-425f-8b78-71fe73e41979
 title: Taking Object Ownership in C++
 ms.topic: article

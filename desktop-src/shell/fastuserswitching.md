@@ -1,5 +1,5 @@
 ---
-Description: Windows XP user accounts enable multiple users to be logged on simultaneously, each with his or her own settings and each running his or her own applications.
+description: Windows XP user accounts enable multiple users to be logged on simultaneously, each with his or her own settings and each running his or her own applications.
 ms.assetid: bc404afc-f73e-404d-854d-faab5cf205a5
 title: User Accounts with Fast User Switching and Remote Desktop
 ms.topic: article
@@ -30,7 +30,7 @@ Underlying infrastructure inherited from Windows 2000 supports state separation
 
 Temporary files, memory-mapped files, and documents should all be stored in the appropriate subdirectory of the user's profile directory. Use [**SHGetFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation) or [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) to determine the appropriate storage location for these files. Passing the [**CSIDL\_APPDATA**](csidl.md) flag to these functions returns the path of a file system directory that serves as a common repository for application-specific data. Use the flag [**CSIDL\_LOCAL\_APPDATA**](csidl.md) in place of **CSIDL\_APPDATA** for data that should change when the user changes, such as temporary files.
 
-The requirements listed above are a subset of those in the Microsoft Certification program. For more information, see the **Certified for Windows Program** page at https://www.microsoft.com/windowsserver2003/partners/isvs/cfw.mspx.
+The requirements listed above are a subset of those in the Microsoft Certification program. For more information, see the [Certification requirements for Windows Desktop Apps](../win_cert/certification-requirements-for-windows-desktop-apps.md) page.
 
 ## Compatibility with Existing Applications
 

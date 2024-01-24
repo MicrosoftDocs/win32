@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for driver major function call events. The following syntax is simplified from MOF code.
+description: This class is the event type class for driver major function call events. The following syntax is simplified from MOF code.
 ms.assetid: 8c913145-ac50-4d40-8519-5fed79d977ba
 title: DriverMajorFunctionCall class
 ms.topic: reference
@@ -153,7 +153,7 @@ Identifier that uniquely identifies request. Use this identifier to correlate wi
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

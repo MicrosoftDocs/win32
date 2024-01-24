@@ -1,5 +1,5 @@
 ---
-Description: Specifies custom color primaries for a video media type.
+description: Specifies custom color primaries for a video media type.
 ms.assetid: dc5df755-53cf-4910-af42-309f1f46b1ed
 title: MF_MT_CUSTOM_VIDEO_PRIMARIES attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

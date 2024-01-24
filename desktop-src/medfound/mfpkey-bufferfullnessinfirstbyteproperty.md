@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoded video bit stream contains a buffer fullness value with every key frame.
+description: Specifies whether the encoded video bit stream contains a buffer fullness value with every key frame.
 ms.assetid: 5574ee3c-ccb3-4ff6-8280-efe5626e6dd6
 title: MFPKEY_BUFFERFULLNESSINFIRSTBYTE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Having the buffer fullness in the first byte of all key frames enables you to de
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

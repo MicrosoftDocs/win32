@@ -1,5 +1,5 @@
 ---
-Description: This structure contains information about the device firmware.
+description: STORAGE_HW_FIRMWARE_INFO_QUERY structure - This structure contains information about the device firmware.
 ms.assetid: 1A2D30F3-F2DE-40CB-BFFC-8BAD19793AE1
 title: STORAGE_HW_FIRMWARE_INFO_QUERY structure (Winioctl.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ Reserved for future use.
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                        |

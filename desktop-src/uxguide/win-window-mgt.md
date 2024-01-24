@@ -3,10 +3,13 @@ title: Window Management
 description: This article covers default placement of windows when initially displayed on the screen, their stacking order relative to other windows (Z order), their initial size, and how their display affects input focus.
 ms.assetid: d81bd71c-6d8f-45a9-82cb-bdb9b8bcbb11
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Window Management
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 This article covers default placement of windows when initially displayed on the screen, their stacking order relative to other windows ([Z order](glossary.md)), their initial size, and how their display affects input focus.
 

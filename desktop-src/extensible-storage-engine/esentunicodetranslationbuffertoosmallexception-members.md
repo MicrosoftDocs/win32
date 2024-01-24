@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationBufferTooSmallException members"
 title: EsentUnicodeTranslationBufferTooSmallException members
 TOCTitle: EsentUnicodeTranslationBufferTooSmallException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationBufferTooSmallException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.UnicodeTranslationBufferTooSmall exceptions.
 
-The [EsentUnicodeTranslationBufferTooSmallException](dn350843\(v=exchg.10\).md) type exposes the following members.
+The [EsentUnicodeTranslationBufferTooSmallException](./esentunicodetranslationbuffertoosmallexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentUnicodeTranslationBufferTooSmallException class](dn350843\(v=exchg.10\).md)
+[EsentUnicodeTranslationBufferTooSmallException class](./esentunicodetranslationbuffertoosmallexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

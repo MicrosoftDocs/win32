@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseFailedIncrementalReseedException methods"
 title: EsentDatabaseFailedIncrementalReseedException methods
 TOCTitle: EsentDatabaseFailedIncrementalReseedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseFailedIncrementalReseedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseFailedIncrementalReseedException](dn334404\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseFailedIncrementalReseedException](./esentdatabasefailedincrementalreseedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseFailedIncrementalReseedException class](dn334404\(v=exchg.10\).md)
+[EsentDatabaseFailedIncrementalReseedException class](./esentdatabasefailedincrementalreseedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

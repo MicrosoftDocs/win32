@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupDirectoryNotEmptyException members"
 title: EsentBackupDirectoryNotEmptyException members
 TOCTitle: EsentBackupDirectoryNotEmptyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBackupDirectoryNotEmptyException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.BackupDirectoryNotEmpty exceptions.
 
-The [EsentBackupDirectoryNotEmptyException](dn273970\(v=exchg.10\).md) type exposes the following members.
+The [EsentBackupDirectoryNotEmptyException](./esentbackupdirectorynotemptyexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentBackupDirectoryNotEmptyException class](dn273970\(v=exchg.10\).md)
+[EsentBackupDirectoryNotEmptyException class](./esentbackupdirectorynotemptyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

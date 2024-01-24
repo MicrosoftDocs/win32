@@ -1,5 +1,5 @@
 ---
-Description: How symbolic links affect standard file functions that use path names to specify one or more files.
+description: How symbolic links affect standard file functions that use path names to specify one or more files.
 ms.assetid: afda53eb-d0db-4844-9dd0-8a7d93ca341f
 title: Symbolic Link Effects on File Systems Functions
 ms.topic: article
@@ -47,7 +47,7 @@ In the descriptions below, the following terms are used:
 
 If the source file is a symbolic link, the actual file copied is the target of the symbolic link.
 
-If the destination file already exists and is a symbolic link, the symbolic link is overwritten by the source file.
+If the destination file already exists and is a symbolic link, the target of the symbolic link is overwritten by the source file.
 
 ## CopyFileEx
 

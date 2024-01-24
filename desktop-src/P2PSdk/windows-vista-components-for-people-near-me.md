@@ -1,5 +1,5 @@
 ---
-Description: Windows Vista Components for People Near Me
+description: Windows Vista Components for People Near Me
 ms.assetid: 87d0cc0d-fbbb-4a22-9946-7296d53df773
 title: Windows Vista Components for People Near Me
 ms.topic: article
@@ -24,8 +24,4 @@ The Windows Sockets component is used by applications for communications over TC
 
 ### Next Generation TCP/IP Stack
 
-New TCP/IP stack in Windows Vista that has IPv6 built-in and enabled by default. For more information, see [Next Generation TCP/IP Stack in Windows Vista](https://www.microsoft.com/technet/itsolutions/network/tcpip/default.mspx).
-
- 
-
- 
+New TCP/IP stack in Windows Vista that has IPv6 built-in and enabled by default. For more info, see [TCP/IP Fundamentals for Microsoft Windows](https://www.microsoft.com/download/details.aspx?id=8781).

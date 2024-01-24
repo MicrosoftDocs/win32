@@ -1,5 +1,5 @@
 ---
-Description: Recovering from an Invalid-Device Error
+description: Recovering from an Invalid-Device Error
 ms.assetid: 1f5c3458-70ca-45ba-ac33-5c7b9f092320
 title: Recovering from an Invalid-Device Error
 ms.topic: article
@@ -9,6 +9,9 @@ ms.date: 05/31/2018
 # Recovering from an Invalid-Device Error
 
 Many of the methods in WASAPI return error code AUDCLNT\_E\_DEVICE\_INVALIDATED if the audio endpoint device that the client application is using becomes invalid. This error code indicates that the endpoint device has been unplugged, or that the audio hardware or associated hardware resources have been reconfigured, disabled, removed, or otherwise made unavailable for use. Frequently, the application can recover from this error.
+
+>[!NOTE]
+> For information on recovering from invalid device errors when using spatial audio APIs (ISAC), see [Recovering from an Invalid-Device Error (Spatial Sound)](recovering-from-an-invalid-device-error-spatial-sound.md)
 
 The strategy that an application should use to recover from an AUDCLNT\_E\_DEVICE\_INVALIDATED error depends on which of the following techniques the application uses to select an audio endpoint device:
 

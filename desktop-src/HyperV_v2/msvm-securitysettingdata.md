@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of the security settings for.
+description: Represents the configured state of the security settings for.
 ms.assetid: c57ab966-591e-4dd9-87be-0d2b81611d5d
 title: Msvm_SecuritySettingData class
 ms.topic: reference
@@ -154,7 +154,7 @@ Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

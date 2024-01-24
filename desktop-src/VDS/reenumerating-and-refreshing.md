@@ -1,5 +1,5 @@
 ---
-Description: Reenumerating and Refreshing
+description: Reenumerating and Refreshing
 ms.assetid: 67d34946-47df-43e2-8ca7-628d0671b869
 title: Reenumerating and Refreshing
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Reenumerating and Refreshing
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 The reenumeration operation discovers newly connected and newly disconnected devices. The refresh operation updates the configuration information of existing devices.
 

@@ -1,5 +1,5 @@
 ---
-Description: Defines the status of the Output Protection Manager (OPM).
+description: Defines the status of the Output Protection Manager (OPM).
 ms.assetid: 7C4D88F6-369B-4364-90C4-6D0F8DD1523B
 title: MF_MEDIA_ENGINE_OPM_STATUS enumeration
 ms.topic: reference
@@ -85,7 +85,7 @@ OPM failed for other reasons.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

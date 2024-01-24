@@ -1,5 +1,5 @@
 ---
-Description: Defines the various types of surface formats.
+description: Defines the various types of surface formats.
 ms.assetid: a222e3bb-310c-4019-93ee-6a2da2a46ded
 title: D3DFORMAT (D3D9Types.h)
 ms.topic: reference
@@ -357,7 +357,7 @@ This flag is used for undefined formats.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Obtains a reference to a TCP v4 driver object.
+description: Obtains a reference to a TCP v4 driver object.
 ms.assetid: 8f12fa58-1622-40d0-9a99-e7c8ede08b38
 title: ReferenceTcpDriver function
 ms.topic: reference
@@ -55,7 +55,7 @@ This function is implemented in Drvref.lib, which is available for download. See
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>Drvref.lib</dt> </dl> |
 

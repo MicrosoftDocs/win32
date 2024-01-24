@@ -1,12 +1,12 @@
 ---
-Description: The following functions are used with regions.
+description: The following functions are used with regions.
 ms.assetid: 3a42fc7a-4c07-4540-99a7-520f99532f33
 title: Region Functions (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Region Functions
+# Region Functions (Windows GDI)
 
 The following functions are used with regions.
 

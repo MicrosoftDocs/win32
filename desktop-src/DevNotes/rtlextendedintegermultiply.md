@@ -1,5 +1,5 @@
 ---
-Description: Multiplies extended integers.
+description: Multiplies extended integers.
 ms.assetid: 6a59d211-4baf-4c7c-af2a-ffb0c5773445
 title: RtlExtendedIntegerMultiply function
 ms.topic: reference
@@ -63,7 +63,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

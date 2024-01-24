@@ -1,5 +1,5 @@
 ---
-Description: Contains the execution context of the printer driver that calls GetPrintExecutionData.
+description: Contains the execution context of the printer driver that calls GetPrintExecutionData.
 ms.assetid: 1fd25ed9-6f28-48f9-8132-d48fffc956ec
 title: PRINT_EXECUTION_DATA structure (Winspool.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ If the value of **context** is **PRINT\_EXECUTION\_CONTEXT\_WOW64**, **clientApp
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                   |

@@ -1,5 +1,5 @@
 ---
-Description: The ProductLanguage property must be updated to the numeric language identifier (LANGID) for the new language.
+description: The ProductLanguage property must be updated to the numeric language identifier (LANGID) for the new language.
 ms.assetid: e00ef69b-c54b-41de-9230-a7582b260891
 title: Updating ProductLanguage and ProductCode Properties
 ms.topic: article

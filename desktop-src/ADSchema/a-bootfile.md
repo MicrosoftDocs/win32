@@ -21,7 +21,7 @@ Contains the name of the boot image for UNIX identity management support.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | bootFile                             |
 | Ldap-Display-Name | bootFile                             |
@@ -45,7 +45,7 @@ Contains the name of the boot image for UNIX identity management support.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -66,7 +66,7 @@ Contains the name of the boot image for UNIX identity management support.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -87,7 +87,7 @@ Contains the name of the boot image for UNIX identity management support.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -108,7 +108,7 @@ Contains the name of the boot image for UNIX identity management support.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |

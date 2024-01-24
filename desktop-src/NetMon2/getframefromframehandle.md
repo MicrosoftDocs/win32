@@ -1,5 +1,5 @@
 ---
-Description: The GetFrameFromFrameHandle function returns a pointer to a frame from a frame handle.
+description: The GetFrameFromFrameHandle function returns a pointer to a frame from a frame handle.
 ms.assetid: 790fe5fe-a857-4947-a471-d0538c0f0d61
 title: GetFrameFromFrameHandle function (Netmon.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ The **GetFrameFromFrameHandle** function retrieves data that cannot be retrieved
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

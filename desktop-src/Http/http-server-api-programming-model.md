@@ -16,7 +16,7 @@ The HTTP Server API programming model includes five groups of activities:
 -   [Processing requests](processing-requests.md)
 -   [Shutdown and cleanup](shutdown-and-cleanup.md)
 
-![](images/http-server-api-programming-model.png)
+![Diagram that shows the H T T P Server A P I programming model.](images/http-server-api-programming-model.png)
 
 For a sample application that shows how to handle the HTTP GET and POST request actions and how to send a 503 (**NOT\_IMPLEMENTED**) error if actions are present in the request that the application does not handle, see [HTTP Server Sample Application](http-server-sample-application.md).
 

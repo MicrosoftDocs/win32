@@ -1,6 +1,6 @@
 ---
 title: Using the Stroke Element
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This article describes using the Stroke element of VML, a feature that is deprecated as of Windows Internet Explorer 9.
 ms.assetid: e3d9dbe5-e087-4b6f-8318-c7d4485cd502
 keywords:
 - Web workshop,stroke element

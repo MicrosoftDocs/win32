@@ -18,7 +18,6 @@ With Direct3D 11, a new paradigm is introduced called feature levels. A feature 
 
 The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](/windows/desktop/api/D3D11/nn-d3d11-id3d11device) and [**ID3D11DeviceContext**](/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext) methods behave at various 10Level9 feature levels.
 
-## 
 
 ## In this section
 

@@ -1,5 +1,5 @@
 ---
-Description: Used to enable the user mode to gain a valid understanding of the clipping region for windows on the desktop. This clipping can change asynchronously from the point of view of user-mode threads.
+description: Used to enable the user mode to gain a valid understanding of the clipping region for windows on the desktop. This clipping can change asynchronously from the point of view of user-mode threads.
 ms.assetid: 286f1c06-c27b-42bd-aecc-3a6923e3df29
 title: NtGdiDdResetVisrgn function (Ntgdi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Applications are advised to use the [IDirectDrawClipper](/previous-versions/aa91
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

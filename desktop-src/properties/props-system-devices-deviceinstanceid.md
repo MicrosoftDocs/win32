@@ -1,5 +1,5 @@
 ---
-Description: Device instance Id.
+description: Device instance Id.
 ms.assetid: b7a670c8-977e-4577-af61-5a9639b2822a
 title: System.Devices.DeviceInstanceId
 ms.topic: article

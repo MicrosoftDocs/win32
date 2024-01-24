@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Software.ProductName
 ms.assetid: 6a2647c6-5996-4e83-b7b3-f727b9445dbc
 title: System.Software.ProductName
 ms.topic: article

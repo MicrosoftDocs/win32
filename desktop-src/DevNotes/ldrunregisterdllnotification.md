@@ -1,5 +1,5 @@
 ---
-Description: Cancels DLL load notification previously registered by calling the LdrRegisterDllNotification function.
+description: Cancels DLL load notification previously registered by calling the LdrRegisterDllNotification function.
 ms.assetid: 18c3a027-e3cb-4083-afdc-00f416a70d8c
 title: LdrUnregisterDllNotification function
 ms.topic: reference
@@ -61,7 +61,7 @@ This function has no associated header file. The associated import library, Ntdl
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

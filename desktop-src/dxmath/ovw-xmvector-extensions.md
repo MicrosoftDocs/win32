@@ -1,5 +1,5 @@
 ---
-Description: XMVECTOR is portable type used to represent a vector of four 32-bit floating-point or integer components, each aligned optimally and mapped to a hardware vector register.
+description: XMVECTOR is portable type used to represent a vector of four 32-bit floating-point or integer components, each aligned optimally and mapped to a hardware vector register.
 ms.assetid: 34c31b2f-7913-4eda-a47b-962c1ab68fc2
 title: XMVECTOR Extensions
 ms.topic: reference

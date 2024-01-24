@@ -9,10 +9,13 @@ keywords:
 - files for skins,skin definition
 - skin definition files,creating
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Creating the Skin Definition File
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The skin definition file is a simple text file. You can create skin definition files in any text editor that saves ASCII plain text files, such as Microsoft Notepad, Microsoft Visual InterDev®, or Microsoft Visual Studio. Since you will be writing XML, not HTML, you may not want to use an editor for HTML because it may add extra codes you do not want or may tell you about errors that you do not have. You will probably want to avoid word processors such as Microsoft Word; even though Word can save plain text files, you may not want to remember to save as text every time you save.
 

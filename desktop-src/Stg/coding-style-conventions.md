@@ -92,7 +92,6 @@ Some consistent conventions for comment header blocks are used in this sample se
              is not a change history but rather a reference to the
              editor-inheritance behind the content or other
              indications about the origin of the source.
-## 
 
   Copyright and Legal notices.
   Copyright and Legal notices.

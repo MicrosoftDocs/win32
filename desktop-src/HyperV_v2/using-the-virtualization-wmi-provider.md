@@ -1,5 +1,5 @@
 ---
-Description: The following topics describe how to use the Hyper-V WMI provider.
+description: The following topics describe how to use the Hyper-V WMI provider.
 ms.assetid: CFA20688-53A0-47F9-B64C-58A311160BDC
 title: Using the Hyper-V WMI provider
 ms.topic: article

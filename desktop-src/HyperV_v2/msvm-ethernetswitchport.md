@@ -1,5 +1,5 @@
 ---
-Description: Represents a port on the switch.
+description: Represents a port on the switch.
 ms.assetid: a2637e53-6b28-41ad-bef9-d3a14b6cf727
 title: Msvm_EthernetSwitchPort class
 ms.topic: reference
@@ -1218,7 +1218,7 @@ The current virtual machine queue (VMQ) offloading usage on this port. The usage
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

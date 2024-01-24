@@ -1,5 +1,5 @@
 ---
-Description: Support in Windows 7 and Windows Vista
+description: Support in Windows 7 and Windows Vista
 ms.assetid: 4c6cf5b5-db6a-4da0-b9c3-8ddbc867f29b
 title: Support in Windows 7 and Windows Vista
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 For all but the N SKUs of Windows 7 and Windows Vista, the WPD runtime is bundled as part of the operating system.
 
-### Suported API Elements
+### Supported API Elements
 
 The following table identifies the features supported for Windows 7, Windows Vista, and Windows Vista with the Platform Update.
 

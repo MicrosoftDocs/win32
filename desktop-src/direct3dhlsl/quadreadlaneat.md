@@ -57,13 +57,7 @@ The specified source value. The result of this function is uniform across the qu
 
 For more information on quads, refer to [Overview of Shader Model 6](hlsl-shader-model-6-0-features-for-direct3d-12.md).
 
-This function is supported from shader model 6.0, in the following types of shaders:
-
-
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     |         |
+This function is supported from shader model 6.0 only in pixel and compute shaders.
 
 
 

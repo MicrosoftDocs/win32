@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for thread end events. The following syntax is simplified from MOF code.
+description: This class is the event type class for thread end events. The following syntax is simplified from MOF code.
 ms.assetid: c495bf22-04ce-4285-8e7e-152e4ab65823
 title: Thread_V1_TypeGroup2 class
 ms.topic: reference
@@ -85,7 +85,7 @@ Thread identifier of the thread involved in the event.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

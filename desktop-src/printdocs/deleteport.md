@@ -1,5 +1,5 @@
 ---
-Description: The DeletePort function displays a dialog box that allows the user to delete a port name.
+description: The DeletePort function displays a dialog box that allows the user to delete a port name.
 ms.assetid: 5f5788c2-c781-4106-abd2-98556d0a22de
 title: DeletePort function (Winspool.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ The caller of the **DeletePort** function must have SERVER\_ACCESS\_ADMINISTER a
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

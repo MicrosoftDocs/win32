@@ -1,5 +1,5 @@
 ---
-Description: A service configuration program uses the OpenService function to get a handle to an installed service object. The program can then use the service object handle in the DeleteService function to delete the service from the SCM database.
+description: A service configuration program uses the OpenService function to get a handle to an installed service object. The program can then use the service object handle in the DeleteService function to delete the service from the SCM database.
 ms.assetid: 3bfe4d42-a8a0-4613-9b0f-a80eef54b622
 title: Deleting a Service
 ms.topic: article

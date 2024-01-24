@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenDatabasesException methods"
 title: EsentTooManyOpenDatabasesException methods
 TOCTitle: EsentTooManyOpenDatabasesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenDatabasesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManyOpenDatabasesException](dn350781\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyOpenDatabasesException](./esenttoomanyopendatabasesexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentTooManyOpenDatabasesException class](dn350781\(v=exchg.10\).md)
+[EsentTooManyOpenDatabasesException class](./esenttoomanyopendatabasesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

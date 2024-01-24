@@ -1,5 +1,5 @@
 ---
-Description: Represents the configuration of a virtual Fibre Channel switch.
+description: Represents the configuration of a virtual Fibre Channel switch.
 ms.assetid: da2918a9-6e7f-4fee-9c13-7e75bbc6821f
 title: Msvm_VirtualFcSwitchSettingData class
 ms.topic: reference
@@ -366,7 +366,7 @@ Specifies the type of virtual machine the setting data represents. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Contains the identifier for the item on the remote sync service. Used for comparing a file on the system to ones that are available in the cloud.
+description: Contains the identifier for the item on the remote sync service. Used for comparing a file on the system to ones that are available in the cloud.
 ms.assetid: 22d98d5c-58ac-4dfc-a7e7-74c2a58b730b
 title: System.Supplemental.ResourceId
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Condition table can be used to modify the selection state of any entry in the Feature table based on a conditional expression.
+description: The Condition table can be used to modify the selection state of any entry in the Feature table based on a conditional expression.
 ms.assetid: 8e2d7c8d-5734-49aa-ad29-16d4d32cccb4
 title: Condition Table
 ms.topic: article

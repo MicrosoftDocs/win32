@@ -1,5 +1,5 @@
 ---
-Description: Defines a vector.
+description: D3DVECTOR structure (D3D9Types.h) - Defines a vector.
 ms.assetid: 7091617b-935b-466e-8270-90240a1adaee
 title: D3DVECTOR structure (D3D9Types.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - D3D9Types.h
 ---
 
-# D3DVECTOR structure
+# D3DVECTOR structure (D3D9Types.h)
 
 Defines a vector.
 
@@ -73,7 +73,7 @@ Floating-point value describing the vector.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

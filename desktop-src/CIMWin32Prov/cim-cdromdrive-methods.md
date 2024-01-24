@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CDROMDrive class exposes the following methods.
+description: The CIM\_CDROMDrive class exposes the following methods.
 ms.assetid: 870B45C9-4027-4EC9-998D-6C9E8DE1A385
 ms.tgt_platform: multiple
 title: CIM_CDROMDrive Methods

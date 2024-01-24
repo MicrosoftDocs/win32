@@ -1,12 +1,12 @@
 ---
-Description: Describes how to add data-unit extensions when using Windows Media encoders.
+description: Describes how to add data-unit extensions when using Windows Media encoders.
 ms.assetid: fdadcb85-c564-4d05-a4d7-af53a0107455
 title: Using Data Unit Extensions (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Data Unit Extensions
+# Using Data Unit Extensions (Microsoft Media Foundation)
 
 The Windows Media Audio and Video codecs are designed to work well with the Advanced Systems Format (ASF) container. ASF is the structured format used for Windows Media Audio (WMA) files and Windows Media Video (WMV) files. It is an extensible format designed for streaming data. One of the unusual characteristics of the ASF structure is the ability to attach metadata to individual samples, and to embed that data with the samples in the bit stream. An item of metadata stored in this way is called a data *unit extension*, or *sample extension*.
 

@@ -1,5 +1,5 @@
 ---
-Description: Specifies when a presentation was last modified.
+description: Specifies when a presentation was last modified.
 ms.assetid: 12990de2-7656-4781-943b-c46f42a0e38d
 title: MF_PD_LAST_MODIFIED_TIME attribute (Mfidl.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

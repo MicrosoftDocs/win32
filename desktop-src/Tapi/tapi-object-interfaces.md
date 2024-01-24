@@ -1,5 +1,5 @@
 ---
-Description: The TAPI Object is the main object for TAPI 3.
+description: The TAPI Object is the main object for TAPI 3.
 ms.assetid: 046f2646-6043-4d68-a42a-8750c016b3c8
 title: TAPI Object Interfaces
 ms.topic: article

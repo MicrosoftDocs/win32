@@ -1,5 +1,5 @@
 ---
-Description: This topic describes sort order identifiers, which can be used in the preparation of locale identifiers.
+description: This topic describes sort order identifiers, which can be used in the preparation of locale identifiers.
 ms.assetid: abef64b5-ca3f-4cb3-92f0-1b7286bfb686
 title: Sort Order Identifiers
 ms.topic: article

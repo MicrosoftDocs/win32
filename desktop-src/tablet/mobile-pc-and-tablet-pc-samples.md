@@ -1,5 +1,5 @@
 ---
-Description: Overview of application programming interface (API) code samples for the Tablet PC and Windows Touch sections of the Windows SDK.
+description: Overview of application programming interface (API) code samples for the Tablet PC and Windows Touch sections of the Windows SDK.
 ms.assetid: 4ede7d0e-e826-4b3a-8a46-0f3162c19cb0
 title: Tablet and Touch Samples
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This section contains samples that show how applications can be developed with C\#, Microsoft Visual Basic .NET, and C++ to work with ink and touch.
 
-By default, the samples are installed in <system drive>:\\Program Files\\Microsoft Tablet PC Platform SDK\\Samples\\ when installing the Tablet PC SDK.
+By default, the samples are installed in \<system drive\>:\\Program Files\\Microsoft Tablet PC Platform SDK\\Samples\\ when installing the Tablet PC SDK.
 
 > [!Note]  
 > When installing the Windows SDK, the Windows Server SDK, or the .NET Framework SDK, the samples install in the default path for that particular SDK.

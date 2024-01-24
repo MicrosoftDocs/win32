@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Source Reader shuts down the media source.
+description: Specifies whether the Source Reader shuts down the media source.
 ms.assetid: c85f5994-8005-48c9-8a05-0316f48f4142
 title: MF_SOURCE_READER_DISCONNECT_MEDIASOURCE_ON_SHUTDOWN attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ If the application creates the source reader from a URL or from a byte stream, t
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

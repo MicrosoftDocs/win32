@@ -1,5 +1,5 @@
 ---
-Description: The get\_Item method returns the attribute specified by the index.
+description: The get\_Item method returns the attribute specified by the index.
 ms.assetid: 67e36587-0bf5-4586-ace9-ef107f0b6548
 title: ITAttributeList::get_Item method (Sdpblb.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleau
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

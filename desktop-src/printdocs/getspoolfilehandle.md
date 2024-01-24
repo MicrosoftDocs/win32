@@ -1,5 +1,5 @@
 ---
-Description: The GetSpoolFileHandle function retrieves a handle for the spool file associated with the job currently submitted by the application.
+description: The GetSpoolFileHandle function retrieves a handle for the spool file associated with the job currently submitted by the application.
 ms.assetid: df6f28b3-66a6-4fb7-bdde-40cd7d934c5f
 title: GetSpoolFileHandle function (Winspool.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ This function will fail if it is called before the print job has finished spooli
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

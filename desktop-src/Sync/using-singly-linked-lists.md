@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the InitializeSListHead function to initialize a singly linked list and the InterlockedPushEntrySList function to insert 10 items.
+description: The following example uses the InitializeSListHead function to initialize a singly linked list and the InterlockedPushEntrySList function to insert 10 items.
 ms.assetid: 5608f84f-9211-4043-bb53-60339191ee29
 title: Using Singly Linked Lists
 ms.topic: article

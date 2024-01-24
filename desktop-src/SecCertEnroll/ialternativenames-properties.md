@@ -1,5 +1,5 @@
 ---
-Description: The IAlternativeNames interface exposes the following properties.
+description: The IAlternativeNames interface exposes the following properties.
 ms.assetid: A0C56524-256E-4FDE-862A-40883235630D
 title: IAlternativeNames Properties
 ms.topic: reference

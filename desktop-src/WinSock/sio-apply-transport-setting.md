@@ -1,5 +1,5 @@
 ---
-Description: Control code applies one or more transport settings to a socket.
+description: Control code applies one or more transport settings to a socket.
 ms.assetid: FA0657EE-B65E-4EFA-AF1E-CA0EA7B27715
 title: SIO_APPLY_TRANSPORT_SETTING Control Code
 ms.topic: reference
@@ -103,6 +103,8 @@ For overlapped operations, the [**WSAIoctl**](/windows/desktop/api/winsock2/nf-w
 Otherwise, the function does not return until the operation has been completed or an error occurs.
 
 ### lpCompletionRoutine
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](/windows/win32/api/winsock2/nc-winsock2-lpwsaoverlapped_completion_routine)
 
 A pointer to the completion routine called when the operation has been completed (ignored for non-overlapped sockets).
 

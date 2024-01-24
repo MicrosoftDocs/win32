@@ -1,5 +1,5 @@
 ---
-Description: Unlock the vertex buffer.
+description: Unlock the vertex buffer.
 ms.assetid: 98b82fd1-56e8-45f3-bf26-a1e3b54c2979
 title: ID3DXPatchMesh::UnlockVertexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The vertex buffer is usually locked, written to, and then unlocked for reading.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

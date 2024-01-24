@@ -1,5 +1,5 @@
 ---
-Description: In Direct3D 10, texture resources are accessed with a view, which is a mechanism for hardware interpretation of a resource in memory.
+description: In Direct3D 10, texture resources are accessed with a view, which is a mechanism for hardware interpretation of a resource in memory.
 ms.assetid: ccfe6273-0dcf-4b42-9d74-665a0b4cd14a
 title: Texture Views (Direct3D 10)
 ms.topic: article
@@ -24,9 +24,9 @@ Create a view object for a render target by calling CreateRenderTargetView. Then
 
 
 
-|                                                                                                                                                                                                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10: In Direct3D 10, you no longer bind a resource directly to the pipeline, you create a view of a resource, and then set the view to the pipeline. This allows validation and mapping in the runtime and driver to occur at view creation, minimizing type checking at bind-time.<br/> |
+Differences between Direct3D 9 and Direct3D 10:
+
+- In Direct3D 10, you no longer bind a resource directly to the pipeline, you create a view of a resource, and then set the view to the pipeline. This allows validation and mapping in the runtime and driver to occur at view creation, minimizing type checking at bind-time.
 
 
 

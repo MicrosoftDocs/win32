@@ -1,5 +1,5 @@
 ---
-Description: Creates protected output objects for a display device.
+description: Creates protected output objects for a display device.
 ms.assetid: 616ffb38-173b-48d0-9352-422a61e5bb15
 title: CreateOPMProtectedOutputs function
 ms.topic: reference
@@ -95,7 +95,7 @@ This function has no associated import library. To call this function, you must 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

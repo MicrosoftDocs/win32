@@ -1,5 +1,5 @@
 ---
-Description: Returns a pointer to the comment of a capture.
+description: Returns a pointer to the comment of a capture.
 ms.assetid: 3ef5c5b3-5586-469f-8975-049713715403
 title: GetCaptureComment function (Netmon.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ To retrieve the comment of a capture from its capture file, call the [GetCapture
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

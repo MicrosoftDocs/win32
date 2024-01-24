@@ -1,5 +1,5 @@
 ---
-Description: Represents the corrected machine check (CMC) handling to be switched from the interrupt driver to polling. This class is available only in 64-bit Windows systems.
+description: Represents the corrected machine check (CMC) handling to be switched from the interrupt driver to polling. This class is available only in 64-bit Windows systems.
 ms.assetid: c5e99e13-0f65-40bc-8863-b2ca7ea221df
 title: MSMCAEvent_SwitchToCMCPolling class
 ms.topic: reference
@@ -84,7 +84,7 @@ The system abstraction layer (SAL) is code burned onto ROM that the operating sy
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

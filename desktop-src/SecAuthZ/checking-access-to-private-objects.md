@@ -1,5 +1,5 @@
 ---
-Description: A protected server application must check a clients access rights before allowing the client to access a protected private object.
+description: A protected server application must check a clients access rights before allowing the client to access a protected private object.
 ms.assetid: dce4dd10-1d5f-40a3-8a7e-ec708d3123c7
 title: Checking Access to Private Objects
 ms.topic: article

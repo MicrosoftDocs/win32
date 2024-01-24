@@ -1,5 +1,5 @@
 ---
-Description: Represents a virtual Fibre Channel switch.
+description: Represents a virtual Fibre Channel switch.
 ms.assetid: 4300747b-3ffc-4caf-8f0b-76cab6d2294e
 title: Msvm_VirtualFcSwitch class
 ms.topic: reference
@@ -738,7 +738,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

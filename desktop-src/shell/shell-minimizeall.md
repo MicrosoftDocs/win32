@@ -1,5 +1,5 @@
 ---
-Description: Minimizes all of the windows on the desktop.
+description: Minimizes all of the windows on the desktop.
 ms.assetid: 3af98a16-27d1-4c93-ac72-7c9e24e68c23
 title: Shell.MinimizeAll method (Shldisp.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: Signals that a media source has started to buffer data.
+description: Signals that a media source has started to buffer data.
 ms.assetid: 8637dfcd-2e0c-4cf4-a216-4089c201bfc6
 title: MEBufferingStarted event (Mfobjects.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ HRESULT GetBufferProgress(IMFMediaSession *pSession, DWORD *pProgress)
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Sets or gets the item's name.
+description: Sets or gets the item's name.
 ms.assetid: 079efc8d-3d08-48b1-bdb1-83f4b89fd633
 title: FolderItem.Name property (Shldisp.h)
 ms.topic: reference
@@ -140,7 +140,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

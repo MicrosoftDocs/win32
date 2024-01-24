@@ -1,5 +1,5 @@
 ---
-Description: Authentication is interactive when a user is prompted to supply logon information. The Local Security Authority (LSA) performs an interactive authentication when a user logs on through the GINA user interface.
+description: Authentication is interactive when a user is prompted to supply logon information. The Local Security Authority (LSA) performs an interactive authentication when a user logs on through the GINA user interface.
 ms.assetid: 86a318fa-4d7c-4191-a309-d25b492dd915
 title: Interactive Authentication
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStateException properties"
 title: EsentStateException properties
 TOCTitle: EsentStateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentStateException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentStateException](dn334920\(v=exchg.10\).md) type exposes the following members.
+The [EsentStateException](./esentstateexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentStateException class](dn334920\(v=exchg.10\).md)
+[EsentStateException class](./esentstateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

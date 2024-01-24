@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEntryPointNotFoundException constructor"
 title: EsentEntryPointNotFoundException constructor 
 TOCTitle: 'EsentEntryPointNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentEntryPointNotFoundException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentEntryPointNotFoundException()
 
 #### Reference
 
-[EsentEntryPointNotFoundException class](dn274309\(v=exchg.10\).md)
+[EsentEntryPointNotFoundException class](./esententrypointnotfoundexception-class.md)
 
-[EsentEntryPointNotFoundException members](dn274242\(v=exchg.10\).md)
+[EsentEntryPointNotFoundException members](./esententrypointnotfoundexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

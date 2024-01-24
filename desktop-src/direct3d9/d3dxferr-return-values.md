@@ -1,5 +1,5 @@
 ---
-Description: The methods used to work with DirectX .x files can return the following values in addition to the standard COM return values.
+description: The methods used to work with DirectX .x files can return the following values in addition to the standard COM return values.
 ms.assetid: b1d04fab-25cb-431d-942e-74092bc9c5c2
 title: D3DXFERR Return Values (D3dx9xof.h)
 ms.topic: reference
@@ -163,7 +163,7 @@ The .x file error facility code \_FACD3DXF is used to generate error codes. For 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9xof.h</dt> </dl> |
 

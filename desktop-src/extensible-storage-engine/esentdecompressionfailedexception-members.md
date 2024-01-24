@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDecompressionFailedException members"
 title: EsentDecompressionFailedException members
 TOCTitle: EsentDecompressionFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DecompressionFailed exceptions.
 
-The [EsentDecompressionFailedException](dn274251\(v=exchg.10\).md) type exposes the following members.
+The [EsentDecompressionFailedException](./esentdecompressionfailedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDecompressionFailedException class](dn274251\(v=exchg.10\).md)
+[EsentDecompressionFailedException class](./esentdecompressionfailedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

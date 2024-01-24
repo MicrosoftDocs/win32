@@ -22,7 +22,7 @@ For a central access rule, this attribute is an expression that identifies the s
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Authz-Resource-Condition                 |
 | Ldap-Display-Name | msAuthz-ResourceCondition                   |
@@ -43,7 +43,7 @@ For a central access rule, this attribute is an expression that identifies the s
 
 
 
-|                        |                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |

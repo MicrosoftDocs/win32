@@ -1,5 +1,5 @@
 ---
-Description: This is a per-machine system policy that can be used when the administrator only wants per-machine applications installed.
+description: This is a per-machine system policy that can be used when the administrator only wants per-machine applications installed.
 ms.assetid: 3afa1d89-b76b-4184-b0d7-25cbf6749c7f
 title: DisableUserInstalls
 ms.topic: article

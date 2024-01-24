@@ -1,5 +1,5 @@
 ---
-Description: Writes a NULL entry to the specified database.
+description: Writes a NULL entry to the specified database.
 ms.assetid: 2a29389b-d4f6-4527-a429-c9459b095f2f
 title: SdbWriteNULLTag function
 ms.topic: reference
@@ -57,7 +57,7 @@ The function returns **TRUE** on success or **FALSE** on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

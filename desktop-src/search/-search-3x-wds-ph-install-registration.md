@@ -1,12 +1,12 @@
 ---
-Description: Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry.
+description: Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry.
 ms.assetid: 07c40c0c-2729-462c-ba40-e05ffea2b889
 title: Installing and Registering Protocol Handlers (Windows Search)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Installing and Registering Protocol Handlers
+# Installing and Registering Protocol Handlers (Windows Search)
 
 Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry. The installation application can also add a search root and scope rules to define a default crawl scope for the Shell data source.
 
@@ -44,10 +44,10 @@ The URL syntax is described in the following table.
 
 | Syntax           | Description                                                                                                                                                                                                        |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <protocol> | Identifies which protocol handler to invoke for the URL.                                                                                                                                                           |
+| &lt;protocol&gt; | Identifies which protocol handler to invoke for the URL.                                                                                                                                                           |
 | {user SID}       | Identifies the user security context under which the protocol handler is called. If no user security identifier (SID) is identified, the protocol handler is called in the security context of the system service. |
-| <path>     | Defines the hierarchy of the store, where each forward slash ('/') is a separator between folder names.                                                                                                            |
-| <ItemID>   | Represents a unique string that identifies the child item (for example, the file name).                                                                                                                            |
+| &lt;path&gt;     | Defines the hierarchy of the store, where each forward slash ('/') is a separator between folder names.                                                                                                            |
+| &lt;ItemID&gt;   | Represents a unique string that identifies the child item (for example, the file name).                                                                                                                            |
 
 
 
@@ -308,7 +308,7 @@ You need to make fourteen entries in the registry to register the protocol handl
              (Default) = <Ver_Ind_ProgID>
     ```
 
-4.  Register the protocol handler with Windows Search. In the following example, <Protocol Name> is the name of the protocol itself, such as file, mapi, and so forth:
+4.  Register the protocol handler with Windows Search. In the following example, \<Protocol Name\> is the name of the protocol itself, such as file, mapi, and so forth:
 
     ```
     HKEY_LOCAL_MACHINE
@@ -374,7 +374,7 @@ You need to make two entries in the registry to register the protocol handler's 
 
 ## Ensuring that Your Items are Indexed
 
-After you have implemented your protocol handler, you must specify which Shell items your protocol handler is to index. You can use the Catalog Manager to initiate re-indexing (for more information, see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md)). Or you can also use the Crawl Scope Manager (CSM) to set up default rules indicating the URLs that you want the indexer to crawl (for more information, see [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md) and [Managing Scope Rules](-search-3x-wds-extidx-csm-scoperules.md)). You can also add a search root (for more information, see [Managing Search Roots](-search-3x-wds-extidx-csm-searchroots.md)). Another option available to you is to follow the procedure in the ReIndex sample in [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+After you have implemented your protocol handler, you must specify which Shell items your protocol handler is to index. You can use the Catalog Manager to initiate re-indexing (for more information, see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md)). Or you can also use the Crawl Scope Manager (CSM) to set up default rules indicating the URLs that you want the indexer to crawl (for more information, see [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md) and [Managing Scope Rules](-search-3x-wds-extidx-csm-scoperules.md)). You can also add a search root (for more information, see [Managing Search Roots](-search-3x-wds-extidx-csm-searchroots.md)). Another option available to you is to follow the procedure in the ReIndex sample in [Windows Search Code Samples](-search-samples-ovw.md).
 
 The [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) interface provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching. In Windows 7 and later, [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2) extends **ISearchCrawlScopeManager** with the [**ISearchCrawlScopeManager2::GetVersion**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion) method that gets the version, which informs clients whether the state of the CSM has changed.
 

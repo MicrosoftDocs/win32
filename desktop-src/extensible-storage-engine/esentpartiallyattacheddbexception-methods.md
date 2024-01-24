@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPartiallyAttachedDBException methods"
 title: EsentPartiallyAttachedDBException methods
 TOCTitle: EsentPartiallyAttachedDBException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPartiallyAttachedDBException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentPartiallyAttachedDBException](dn319835\(v=exchg.10\).md) type exposes the following members.
+The [EsentPartiallyAttachedDBException](./esentpartiallyattacheddbexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentPartiallyAttachedDBException class](dn319835\(v=exchg.10\).md)
+[EsentPartiallyAttachedDBException class](./esentpartiallyattacheddbexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

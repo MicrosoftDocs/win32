@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDatabaseSpaceException members"
 title: EsentOutOfDatabaseSpaceException members
 TOCTitle: EsentOutOfDatabaseSpaceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.OutOfDatabaseSpace exceptions.
 
-The [EsentOutOfDatabaseSpaceException](dn319717\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfDatabaseSpaceException](./esentoutofdatabasespaceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentOutOfDatabaseSpaceException class](dn319717\(v=exchg.10\).md)
+[EsentOutOfDatabaseSpaceException class](./esentoutofdatabasespaceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

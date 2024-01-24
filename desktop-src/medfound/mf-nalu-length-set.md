@@ -1,5 +1,5 @@
 ---
-Description: Indicates that NALU length information will be sent as a BLOB with each compressed H.264 sample.
+description: Indicates that NALU length information will be sent as a BLOB with each compressed H.264 sample.
 ms.assetid: 71B50B44-6025-4EEC-8B37-53D80CF37B07
 title: MF_NALU_LENGTH_SET attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The **BLOB** containing the NALU length information can be retrieved from [MF\_N
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

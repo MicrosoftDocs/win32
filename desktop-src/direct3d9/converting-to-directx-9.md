@@ -1,5 +1,5 @@
 ---
-Description: The following features were changed in Microsoft Direct3D 9. If you are using these features, see the changes listed below to help you port your application to Direct3D 9.
+description: The following features were changed in Microsoft Direct3D 9. If you are using these features, see the changes listed below to help you port your application to Direct3D 9.
 ms.assetid: 6f5b2cc1-5415-4af8-a964-051a5af42680
 title: Converting to Direct3D 9
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Asynchronous event notification is a technique that allows an application to constantly monitor events without monopolizing system resources.
+description: Asynchronous event notification is a technique that allows an application to constantly monitor events without monopolizing system resources.
 ms.assetid: 69ec8ead-9073-4689-bc66-5134728ab147
 ms.tgt_platform: multiple
 title: Receiving Asynchronous Event Notifications

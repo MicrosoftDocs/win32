@@ -1,5 +1,5 @@
 ---
-Description: WMI classes that represent files or directories, such as Win32\_CodecFile or CIM\_DataFile, contain an AccessMask property.
+description: WMI classes that represent files or directories, such as Win32\_CodecFile or CIM\_DataFile, contain an AccessMask property.
 ms.assetid: 9020b337-d44f-4247-b623-68a1bcf35abb
 ms.tgt_platform: multiple
 title: File and Directory Access Rights Constants (Winnt.h)
@@ -264,7 +264,7 @@ Grants the right to use the object for synchronization. This enables a process t
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winnt.h</dt> </dl> |
 

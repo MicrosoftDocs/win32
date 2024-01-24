@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for CPU configuration events.
+description: SystemConfig_CPU class - This class is the event type class for CPU configuration events.
 ms.assetid: 5a24be04-9e5e-4ba9-baaf-b58b79ad947b
 title: SystemConfig_CPU class
 ms.topic: reference
@@ -189,7 +189,7 @@ Size of a swap page, in bytes.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

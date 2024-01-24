@@ -1,5 +1,5 @@
 ---
-Description: The Page Count Summary property contains the minimum installer version required by the installation package.
+description: The Page Count Summary property contains the minimum installer version required by the installation package.
 ms.assetid: ee3aaeed-166c-4591-ae3e-642c1204a5ca
 title: Page Count Summary property
 ms.topic: reference
@@ -24,7 +24,7 @@ This property can be used to author a package that can be installed only by the 
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

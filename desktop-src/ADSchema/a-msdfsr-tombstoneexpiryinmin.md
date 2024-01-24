@@ -22,7 +22,7 @@ Contains the tombstone record lifetime, in minutes.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-TombstoneExpiryInMin         |
 | Ldap-Display-Name | msDFSR-TombstoneExpiryInMin          |
@@ -46,7 +46,7 @@ Contains the tombstone record lifetime, in minutes.
 
 
 
-|                        |                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------|
 | Link-Id                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
@@ -67,7 +67,7 @@ Contains the tombstone record lifetime, in minutes.
 
 
 
-|                        |                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------|
 | Link-Id                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
@@ -88,7 +88,7 @@ Contains the tombstone record lifetime, in minutes.
 
 
 
-|                        |                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------|
 | Link-Id                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
@@ -109,7 +109,7 @@ Contains the tombstone record lifetime, in minutes.
 
 
 
-|                        |                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------|
 | Link-Id                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |

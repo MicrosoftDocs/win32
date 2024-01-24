@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentFragmentationException constructor"
 title: EsentFragmentationException constructor 
 TOCTitle: 'EsentFragmentationException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentFragmentationException.#ctor
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[EsentFragmentationException class](dn350462\(v=exchg.10\).md)
+[EsentFragmentationException class](./esentfragmentationexception-class.md)
 
-[EsentFragmentationException members](dn350419\(v=exchg.10\).md)
+[EsentFragmentationException members](./esentfragmentationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

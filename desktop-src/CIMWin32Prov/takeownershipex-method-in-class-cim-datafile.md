@@ -1,5 +1,5 @@
 ---
-Description: Obtains ownership of the logical data file that is specified in the object path. This method is an extended version of the TakeOwnerShip method and is inherited from CIM\_LogicalFile.
+description: Obtains ownership of the logical data file that is specified in the object path. This method is an extended version of the TakeOwnerShip method and is inherited from CIM\_LogicalFile.
 ms.assetid: 3bc5a060-d805-46f6-802d-9ed16b52da59
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the CIM_DataFile class
@@ -174,7 +174,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

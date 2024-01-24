@@ -1,5 +1,5 @@
 ---
-Description: Creates a font object for a device and font.
+description: Creates a font object for a device and font.
 ms.assetid: 3e65dfdc-9608-420c-9672-c38289d13ab1
 title: D3DXCreateFont function (D3dx9core.h)
 ms.topic: reference
@@ -172,7 +172,7 @@ If you want more information about font parameters, see [The Logical Font](../gd
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

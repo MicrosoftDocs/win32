@@ -1,5 +1,5 @@
 ---
-Description: The ProductCode property of the Product object returns the ProductCode GUID of the product.
+description: The ProductCode property of the Product object returns the ProductCode GUID of the product.
 ms.assetid: f8edbaf3-1694-4049-8cbd-ded03bd5c336
 title: Product.ProductCode property
 ms.topic: reference
@@ -36,7 +36,7 @@ propVal = Product.ProductCode
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

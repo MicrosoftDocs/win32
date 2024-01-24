@@ -1,5 +1,5 @@
 ---
-Description: Primary address country name of the contact.
+description: Primary address country name of the contact.
 ms.assetid: 40566ff8-0a83-4834-8c27-2794ef5fc0c0
 title: System.Contact.PrimaryAddressCountry
 ms.topic: article

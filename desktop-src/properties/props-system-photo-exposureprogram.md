@@ -1,5 +1,5 @@
 ---
-Description: The Exposure Program mode of the camera at the time the photo was taken, as read from the Exchangeable Image File (EXIF) information.
+description: The Exposure Program mode of the camera at the time the photo was taken, as read from the Exchangeable Image File (EXIF) information.
 ms.assetid: d27003b4-f30a-4c48-b32f-933b2f29182a
 title: System.Photo.ExposureProgram
 ms.topic: article
@@ -133,7 +133,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

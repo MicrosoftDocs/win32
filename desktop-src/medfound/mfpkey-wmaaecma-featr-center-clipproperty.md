@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Voice Capture DSP performs center clipping.
+description: Specifies whether the Voice Capture DSP performs center clipping.
 ms.assetid: 6830cadd-fa8d-41e1-ac11-a6c8f2795941
 title: MFPKEY_WMAAECMA_FEATR_CENTER_CLIP Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The DSP uses this property only when AEC processing is enabled.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

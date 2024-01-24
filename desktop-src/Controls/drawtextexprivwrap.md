@@ -76,7 +76,7 @@ The length of the string pointed to by *lpchText*. If *cchText* is -1, then the 
 
 Type: **LPRECT**
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that contains the rectangle, in logical coordinates, in which the text is to be formatted.
 
 </dd> <dt>
 
@@ -118,7 +118,7 @@ For additional remarks, please see [**DrawTextEx**](/windows/desktop/api/winuser
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |

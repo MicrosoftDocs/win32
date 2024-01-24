@@ -1,5 +1,5 @@
 ---
-Description: About MMDevice API
+description: About MMDevice API
 ms.assetid: 3a8fd734-0761-4b5b-ba04-677c7c040988
 title: About MMDevice API
 ms.topic: article

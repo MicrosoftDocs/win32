@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ElementsLinked association represents physical elements that are cabled together by a physical link.
+description: The CIM\_ElementsLinked association represents physical elements that are cabled together by a physical link.
 ms.assetid: b9e1d11e-6f89-4d7a-9b5c-01161e7c1bdf
 ms.tgt_platform: multiple
 title: CIM_ElementsLinked class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

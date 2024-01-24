@@ -1,6 +1,6 @@
 ---
 title: PauseService method of the Win32_Service class (Remote Desktop Services)
-description: Attempts to place the service in the paused state.
+description: PauseService method of the Win32_Service class (Remote Desktop Services) - Attempts to place the service in the paused state.
 ms.assetid: 101987F6-FBAB-4E79-B1FA-346B1EF58DE1
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# PauseService method of the Win32\_Service class
+# PauseService method of the Win32_Service class (Remote Desktop Services)
 
 The **PauseService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the service in the paused state.
 
@@ -231,13 +231,11 @@ The scripting code required to stop a service is almost identical to the code re
 
 ## Examples
 
-The [Pause Services Running Under a Specific Account](https://Gallery.TechNet.Microsoft.Com/12a256dd-39da-4690-b3f0-f0adccaf25f1) VBScript sample Pauses all services running under the hypothetical service account Netsvc.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

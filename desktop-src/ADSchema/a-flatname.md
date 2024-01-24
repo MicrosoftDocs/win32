@@ -22,7 +22,7 @@ For Windows NT domains, the flat name is the NetBIOS name. For links with non Wi
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Flat-Name                                   |
 | Ldap-Display-Name | flatName                                    |
@@ -48,7 +48,7 @@ For Windows NT domains, the flat name is the NetBIOS name. For links with non Wi
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -69,7 +69,7 @@ For Windows NT domains, the flat name is the NetBIOS name. For links with non Wi
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -90,7 +90,7 @@ For Windows NT domains, the flat name is the NetBIOS name. For links with non Wi
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -111,7 +111,7 @@ For Windows NT domains, the flat name is the NetBIOS name. For links with non Wi
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -132,7 +132,7 @@ For Windows NT domains, the flat name is the NetBIOS name. For links with non Wi
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -153,7 +153,7 @@ For Windows NT domains, the flat name is the NetBIOS name. For links with non Wi
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |

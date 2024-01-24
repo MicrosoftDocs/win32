@@ -1,5 +1,5 @@
 ---
-Description: The SourceListInfo property of the Product object gets and sets the source information properties for a product. This property calls MsiSourceListGetInfo or MsiSourceListSetInfo. This is a read or write property.
+description: The SourceListInfo property of the Product object gets and sets the source information properties for a product. This property calls MsiSourceListGetInfo or MsiSourceListSetInfo. This is a read or write property.
 ms.assetid: 3a2c4af5-592f-4acd-b7d8-df163e00b1e2
 title: Product.SourceListInfo property
 ms.topic: reference
@@ -56,7 +56,7 @@ Not all properties that can be retrieved can be set. The *szProperty* parameter 
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

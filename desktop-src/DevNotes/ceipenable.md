@@ -1,5 +1,5 @@
 ---
-Description: HKLM\\Software\\Microsoft\\SQMClient\\Windows\\CEIPEnable.
+description: HKLM\\Software\\Microsoft\\SQMClient\\Windows\\CEIPEnable.
 ms.assetid: 68ba8219-7ed2-44a9-9fd5-f6dfa57891c0
 title: CEIPEnable
 ms.topic: article

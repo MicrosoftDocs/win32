@@ -1,5 +1,5 @@
 ---
-Description: Describes a rectangular high-order patch.
+description: Describes a rectangular high-order patch.
 ms.assetid: 5f195009-d047-4dc0-a386-e1a434914e34
 title: D3DRECTPATCH_INFO structure (D3D9Types.h)
 ms.topic: reference
@@ -160,7 +160,7 @@ RectInfo.StartVertexOffsetHeight = 4*i;  // The variable i is the index of the
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

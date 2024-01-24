@@ -22,7 +22,7 @@ The common names of the nonstandard classes that can be added to a security grou
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Security-Group-Extra-Classes          |
 | Ldap-Display-Name | msDS-Security-Group-Extra-Classes           |
@@ -47,7 +47,7 @@ The common names of the nonstandard classes that can be added to a security grou
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -68,7 +68,7 @@ The common names of the nonstandard classes that can be added to a security grou
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -89,7 +89,7 @@ The common names of the nonstandard classes that can be added to a security grou
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -110,7 +110,7 @@ The common names of the nonstandard classes that can be added to a security grou
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -131,7 +131,7 @@ The common names of the nonstandard classes that can be added to a security grou
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 <dl> <dt><span id="GL_PERSPECTIVE_CORRECTION_HINT"></span><span id="gl_perspective_correction_hint"></span>GL\_PERSPECTIVE\_CORRECTION\_HINT</dt> <dd> 
 
-|                  |                                        |
+| Property | Value |
 |------------------|----------------------------------------|
 | Description:     | Perspective correction hint            |
 | Attribute group: | hint                                   |
@@ -31,7 +31,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_POINT_SMOOTH_HINT"></span><span id="gl_point_smooth_hint"></span>GL\_POINT\_SMOOTH\_HINT</dt> <dd> 
 
-|                  |                                                                                  |
+| Property | Value |
 |------------------|----------------------------------------------------------------------------------|
 | Description:     | Point smooth hint                                                                |
 | Attribute group: | hint                                                                             |
@@ -44,7 +44,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_LINE_SMOOTH_HINT"></span><span id="gl_line_smooth_hint"></span>GL\_LINE\_SMOOTH\_HINT</dt> <dd> 
 
-|                  |                                                                                  |
+| Property | Value |
 |------------------|----------------------------------------------------------------------------------|
 | Description:     | Line smooth hint                                                                 |
 | Attribute group: | hint                                                                             |
@@ -57,7 +57,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_POLYGON_SMOOTH_HINT"></span><span id="gl_polygon_smooth_hint"></span>GL\_POLYGON\_SMOOTH\_HINT</dt> <dd> 
 
-|                  |                                                                                  |
+| Property | Value |
 |------------------|----------------------------------------------------------------------------------|
 | Description:     | Polygon smooth hint                                                              |
 | Attribute group: | hint                                                                             |
@@ -70,7 +70,7 @@ ms.date: 05/31/2018
 
 </dd> <dt><span id="GL_FOG_HINT"></span><span id="gl_fog_hint"></span>GL\_FOG\_HINT</dt> <dd> 
 
-|                  |                                                                                  |
+| Property | Value |
 |------------------|----------------------------------------------------------------------------------|
 | Description:     | Fog hint                                                                         |
 | Attribute group: | hint                                                                             |

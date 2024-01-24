@@ -27,7 +27,7 @@ The encryption algorithms supported by user, computer or trust accounts.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Supported-Encryption-Types     |
 | Ldap-Display-Name | msDS-SupportedEncryptionTypes        |
@@ -50,7 +50,7 @@ The encryption algorithms supported by user, computer or trust accounts.
 
 
 
-|                        |                                                                                        |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                     |
 | MAPI-Id                | \-                                                                                     |
@@ -71,7 +71,7 @@ The encryption algorithms supported by user, computer or trust accounts.
 
 
 
-|                        |                                                                                        |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                     |
 | MAPI-Id                | \-                                                                                     |
@@ -92,7 +92,7 @@ The encryption algorithms supported by user, computer or trust accounts.
 
 
 
-|                        |                                                                                        |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                     |
 | MAPI-Id                | \-                                                                                     |

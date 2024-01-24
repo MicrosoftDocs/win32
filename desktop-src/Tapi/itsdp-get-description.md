@@ -1,5 +1,5 @@
 ---
-Description: The get\_Description method gets the session description (BSTR).
+description: The get\_Description method gets the session description (BSTR).
 ms.assetid: 09a372fe-0dcd-4daf-8f13-c4c89b1ecd16
 title: ITSdp::get_Description method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleau
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

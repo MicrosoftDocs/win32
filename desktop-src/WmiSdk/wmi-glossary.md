@@ -1,5 +1,5 @@
 ---
-Description: Windows Management Instrumentation (WMI) uses its own collection of terms. Many of these terms are familiar to developers, but have new or altered definitions in the WMI environment.
+description: Windows Management Instrumentation (WMI) uses its own collection of terms. Many of these terms are familiar to developers, but have new or altered definitions in the WMI environment.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 880d35b7-3347-41e1-b057-49cd69407c21
 ms.tgt_platform: multiple

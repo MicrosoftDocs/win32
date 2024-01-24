@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Binding to Active Directory Domain Services
 
-In Active Directory Domain Services, the act of associating a programmatic object with a specific Active Directory Domain Services object is known as *binding*. When a programmatic object, such as an [**IADs**](/windows/desktop/api/iads/nn-iads-iads) or [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry?view=dotnet-plat-ext-3.1) object, is associated with a specific directory object, the programmatic object is considered to be *bound to* the directory object.
+In Active Directory Domain Services, the act of associating a programmatic object with a specific Active Directory Domain Services object is known as *binding*. When a programmatic object, such as an [**IADs**](/windows/desktop/api/iads/nn-iads-iads) or [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry?view=dotnet-plat-ext-3.1&preserve-view=true) object, is associated with a specific directory object, the programmatic object is considered to be *bound to* the directory object.
 
 ## Binding Functions and Methods
 
@@ -36,8 +36,8 @@ All bind functions and methods require a binding string. The form of the binding
 
 Beginning with Windows 2000, the LDAP provider is used to access Active Directory Domain Services. The LDAP binding string can take one of the following forms:
 
--   "LDAP://<host name>/<object name>"
--   "GC://<host name>/<object name>"
+-   "LDAP://\<host name\>/\<object name\>"
+-   "GC://\<host name\>/\<object name\>"
 
 In the examples above, "LDAP:" specifies the LDAP provider. "GC:" uses the LDAP provider to bind to the Global Catalog service to execute fast queries.
 

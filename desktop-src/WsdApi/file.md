@@ -1,5 +1,5 @@
 ---
-Description: Directs the code generator to generate a file and specifies the output file name.
+description: Directs the code generator to generate a file and specifies the output file name.
 ms.assetid: d2ee6886-995f-453d-8121-f849b2d910ec
 title: file element
 ms.topic: reference
@@ -135,7 +135,7 @@ The name of the file is determined by the value of the name attribute or child e
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |

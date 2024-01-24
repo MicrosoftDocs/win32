@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Identity.DisplayName
 ms.assetid: 17bf848f-6d45-4588-aaa7-50fe99579440
 title: System.Identity.DisplayName
 ms.topic: article

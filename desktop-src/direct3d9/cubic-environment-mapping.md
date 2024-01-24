@@ -1,5 +1,5 @@
 ---
-Description: Cubic environment maps - sometimes referred to as cube maps - are textures that contain image data representing the scene surrounding an object, as if the object were in the center of a cube.
+description: Cubic environment maps - sometimes referred to as cube maps - are textures that contain image data representing the scene surrounding an object, as if the object were in the center of a cube.
 ms.assetid: 4879d59b-e6d3-4811-ab2c-bcce8f214e1c
 title: Cubic Environment Mapping (Direct3D 9)
 ms.topic: article

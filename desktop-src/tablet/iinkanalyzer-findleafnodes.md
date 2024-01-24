@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the leaf nodes.
+description: Retrieves all of the leaf nodes.
 ms.assetid: 5534053c-c5b9-4576-857f-c8af39e821a7
 title: IInkAnalyzer::FindLeafNodes method (IACom.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Leaf nodes do not contain child nodes. Examples of ink leaf nodes are InkWord, T
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

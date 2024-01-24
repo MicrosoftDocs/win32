@@ -22,7 +22,7 @@ Stored credentials for use in authenticating. The encrypted version of the user'
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Supplemental-Credentials                              |
 | Ldap-Display-Name | supplementalCredentials                               |
@@ -49,7 +49,7 @@ Stored credentials for use in authenticating. The encrypted version of the user'
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -70,7 +70,7 @@ Stored credentials for use in authenticating. The encrypted version of the user'
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -91,7 +91,7 @@ Stored credentials for use in authenticating. The encrypted version of the user'
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -112,7 +112,7 @@ Stored credentials for use in authenticating. The encrypted version of the user'
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -133,7 +133,7 @@ Stored credentials for use in authenticating. The encrypted version of the user'
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -154,7 +154,7 @@ Stored credentials for use in authenticating. The encrypted version of the user'
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -175,7 +175,7 @@ Stored credentials for use in authenticating. The encrypted version of the user'
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

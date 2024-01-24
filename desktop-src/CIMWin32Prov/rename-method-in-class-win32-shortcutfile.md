@@ -1,5 +1,5 @@
 ---
-Description: Renames the shortcut file (or directory) specified in the object path.
+description: Renames the shortcut file (or directory) specified in the object path.
 ms.assetid: 6325fe96-19ee-4ccc-934c-ef0c0668f353
 ms.tgt_platform: multiple
 title: Rename method of the Win32_ShortcutFile class
@@ -147,7 +147,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

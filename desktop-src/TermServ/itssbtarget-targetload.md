@@ -55,34 +55,14 @@ This property is available on Windows Server 2012 R2 with [KB3091411](https://su
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Minimum supported client<br/></td>
-<td>None supported<br/></td>
-</tr>
-<tr class="even">
-<td>Minimum supported server<br/></td>
-<td>Windows Server 2016<br/></td>
-</tr>
-<tr class="odd">
-<td>IDL<br/></td>
-<td><dl> <dt>Sbtsv.idl</dt> </dl></td>
-</tr>
-<tr class="even">
-<td>IID<br/></td>
-<td>IID_ITsSbTarget is defined as:
-<ul>
-<li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|--------|-------|
+| Minimum supported client<br /> | None supported<br /> | 
+| Minimum supported server<br /> | Windows Server 2016<br /> | 
+| IDL<br /> | <dl><dt>Sbtsv.idl</dt></dl> | 
+| IID<br /> | IID_ITsSbTarget is defined as:<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li></ul> | 
+
 
 
 

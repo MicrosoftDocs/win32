@@ -1,5 +1,5 @@
 ---
-Description: The WM\_SPOOLERSTATUS message is sent from Print Manager whenever a job is added to or removed from the Print Manager queue.
+description: The WM\_SPOOLERSTATUS message is sent from Print Manager whenever a job is added to or removed from the Print Manager queue.
 ms.assetid: 6140c9d8-0e5b-49f2-a4a6-cc1f2a0bed0a
 title: WM_SPOOLERSTATUS message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_SPOOLERSTATUS** message is sent from Print Manager whenever a job is added to or removed from the Print Manager queue.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -56,7 +56,7 @@ The WM\_SPOOLERSTATUS message is not supported after Windows XP. To be notified 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

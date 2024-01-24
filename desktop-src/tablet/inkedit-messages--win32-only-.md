@@ -1,5 +1,5 @@
 ---
-Description: The InkEdit control is a super class of the RichEdit control.
+description: The InkEdit control is a super class of the RichEdit control.
 ms.assetid: 26023012-9ab1-4bd9-beff-41587bc74f5e
 title: InkEdit Messages (Win32 Only)
 ms.topic: article
@@ -14,26 +14,11 @@ To send these messages, call the SendMessage function with the following paramet
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre data-space="preserve"><code>LRESULT SendMessage(
-  HWND hWnd,      // handle to destination window
-  UINT Msg,       // message
-  WPARAM wParam,  // first message parameter
-  LPARAM lParam   // second message parameter
-);</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| C++ | 
+|-----|
+| <pre data-space="preserve"><code>LRESULT SendMessage(  HWND hWnd,      // handle to destination window  UINT Msg,       // message  WPARAM wParam,  // first message parameter  LPARAM lParam   // second message parameter);</code></pre> | 
+
 
 
 

@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Font and Text Functions
+# Font and Text Functions (OpenGL)
 
 The following functions can be used to manage fonts and text.
 

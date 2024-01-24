@@ -22,7 +22,7 @@ Found in a site computer object. Contains the distinguished name of the domain c
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Server-Reference                        |
 | Ldap-Display-Name | serverReference                         |
@@ -49,7 +49,7 @@ Found in a site computer object. Contains the distinguished name of the domain c
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 94                                                                                                                              |
 | MAPI-Id                | \-                                                                                                                              |
@@ -70,7 +70,7 @@ Found in a site computer object. Contains the distinguished name of the domain c
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 94                                                                                                                              |
 | MAPI-Id                | \-                                                                                                                              |
@@ -91,7 +91,7 @@ Found in a site computer object. Contains the distinguished name of the domain c
 
 
 
-|                        |                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------|
 | Link-Id                | 94                                                                             |
 | MAPI-Id                | \-                                                                             |
@@ -112,7 +112,7 @@ Found in a site computer object. Contains the distinguished name of the domain c
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 94                                                                                                                              |
 | MAPI-Id                | \-                                                                                                                              |
@@ -133,7 +133,7 @@ Found in a site computer object. Contains the distinguished name of the domain c
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 94                                                                                                                              |
 | MAPI-Id                | \-                                                                                                                              |
@@ -154,7 +154,7 @@ Found in a site computer object. Contains the distinguished name of the domain c
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 94                                                                                                                              |
 | MAPI-Id                | \-                                                                                                                              |
@@ -175,7 +175,7 @@ Found in a site computer object. Contains the distinguished name of the domain c
 
 
 
-|                        |                                                                                                                                 |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 94                                                                                                                              |
 | MAPI-Id                | \-                                                                                                                              |

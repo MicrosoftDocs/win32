@@ -1,5 +1,5 @@
 ---
-Description: The LINEGATHERTERM\_ bit-flag constants describe the conditions under which buffered digit gathering is terminated.
+description: The LINEGATHERTERM\_ bit-flag constants describe the conditions under which buffered digit gathering is terminated.
 ms.assetid: 409e1984-e5a4-4636-ab53-5973fe7b78ea
 title: LINEGATHERTERM_ Constants (Tapi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

@@ -71,7 +71,7 @@ Rules for using bem:
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Minimum operating system | Windows 98 |
 

@@ -1,5 +1,5 @@
 ---
-Description: An enhanced metafile is an array of records.
+description: An enhanced metafile is an array of records.
 ms.assetid: af3261c7-2113-4777-97c0-504f23022550
 title: Enhanced Metafile Records
 ms.topic: article

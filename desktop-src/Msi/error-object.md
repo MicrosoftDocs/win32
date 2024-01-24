@@ -1,5 +1,5 @@
 ---
-Description: The Error object returns the information of a single merge error.
+description: The Error object returns the information of a single merge error.
 ms.assetid: 38025e21-2d31-40f8-a088-2d3912c2893e
 title: Error object (Mergemod.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ interface **IMsmError : IDispatch**
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

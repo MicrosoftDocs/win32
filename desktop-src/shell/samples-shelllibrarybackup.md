@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to enumerate libraries as containers.
+description: Demonstrates how to enumerate libraries as containers.
 title: Shell Library Backup Sample
 ms.topic: article
 ms.date: 05/31/2018

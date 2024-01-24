@@ -1,5 +1,5 @@
 ---
-Description: Some protocols that your application depends on for certain services, such as Remote Procedure Call (RPC), may have IP-version dependent functions and structures that require you to modify your application in terms of their usage.
+description: Some protocols that your application depends on for certain services, such as Remote Procedure Call (RPC), may have IP-version dependent functions and structures that require you to modify your application in terms of their usage.
 ms.assetid: b1eac461-10c9-4077-b531-28b7c65a2e31
 title: Underlying Protocols for IPv6 Winsock Applications
 ms.topic: article
@@ -19,7 +19,7 @@ Part of the process to modify your code to support IPv6 should include determini
 [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[Changing Data Structures for IPv6 Winsock Appications](changing-data-structures-2.md)
+[Changing Data Structures for IPv6 Winsock Applications](changing-data-structures-2.md)
 </dt> <dt>
 
 [Dual-Stack Sockets for IPv6 Winsock Applications](dual-stack-sockets.md)

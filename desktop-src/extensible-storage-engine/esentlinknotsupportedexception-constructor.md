@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLinkNotSupportedException constructor"
 title: EsentLinkNotSupportedException constructor 
 TOCTitle: 'EsentLinkNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLinkNotSupportedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLinkNotSupportedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentLinkNotSupportedException()
 
 #### Reference
 
-[EsentLinkNotSupportedException class](dn334571\(v=exchg.10\).md)
+[EsentLinkNotSupportedException class](./esentlinknotsupportedexception-class.md)
 
-[EsentLinkNotSupportedException members](dn319626\(v=exchg.10\).md)
+[EsentLinkNotSupportedException members](./esentlinknotsupportedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

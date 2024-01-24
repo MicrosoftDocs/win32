@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithErrorsException constructor"
 title: EsentRecoveredWithErrorsException constructor 
 TOCTitle: 'EsentRecoveredWithErrorsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecoveredWithErrorsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentRecoveredWithErrorsException()
 
 #### Reference
 
-[EsentRecoveredWithErrorsException class](dn319863\(v=exchg.10\).md)
+[EsentRecoveredWithErrorsException class](./esentrecoveredwitherrorsexception-class.md)
 
-[EsentRecoveredWithErrorsException members](dn350530\(v=exchg.10\).md)
+[EsentRecoveredWithErrorsException members](./esentrecoveredwitherrorsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

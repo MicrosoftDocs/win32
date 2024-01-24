@@ -1,5 +1,5 @@
 ---
-Description: VirtualDesktopManager implements the IVirtualDesktopManager interface.
+description: VirtualDesktopManager implements the IVirtualDesktopManager interface.
 ms.assetid: '25e6c583-b91f-4eeb-90fb-34a7ebed7495'
 title: VirtualDesktopManager class (Shobjidl.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ Use this interface in order to interact with the virtual desktops and control wh
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Represents the definition aspects of a metric that is derived from another metric value.
+description: Represents the definition aspects of a metric that is derived from another metric value.
 ms.assetid: 642f53fe-e51c-4c73-babf-19adb2cf55f4
 title: Msvm_AggregationMetricDefinition class
 ms.topic: reference
@@ -410,7 +410,7 @@ Identifies the units of a value, for example, "megabytes". This property is inhe
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

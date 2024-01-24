@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SerialPortSetting association WMI class relates a serial port and its configuration settings.
+description: The Win32\_SerialPortSetting association WMI class relates a serial port and its configuration settings.
 ms.assetid: 57856207-abe5-4d93-9a34-acfe30ccd80c
 ms.tgt_platform: multiple
 title: Win32_SerialPortSetting class
@@ -87,7 +87,7 @@ The **Win32\_SerialPortSetting** class is derived from [**Win32\_DeviceSettings*
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

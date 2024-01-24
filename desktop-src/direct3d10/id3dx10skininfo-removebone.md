@@ -1,5 +1,5 @@
 ---
-Description: Remove a bone.
+description: Remove a bone.
 ms.assetid: efb88108-5c76-47c8-b8ce-1ba29cb18ba4
 title: ID3DX10SkinInfo::RemoveBone method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

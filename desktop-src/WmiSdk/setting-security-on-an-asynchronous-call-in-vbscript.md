@@ -1,5 +1,5 @@
 ---
-Description: The performance of semisynchronous calls is usually adequate for most situations.
+description: The performance of semisynchronous calls is usually adequate for most situations.
 ms.assetid: f665fc60-68bd-495d-a441-e3a9473f9d89
 ms.tgt_platform: multiple
 title: Setting Security on an Asynchronous Call in VBScript
@@ -16,7 +16,6 @@ api_location:
 
 The performance of [*semisynchronous*](gloss-s.md) calls is usually adequate for most situations. Asynchronous calls are generally not a recommended practice for scripts. However, if asynchronous calls must be made, a registry value can be set to force WMI to perform access checks on asynchronous calls.
 
-## 
 
 The **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**WBEM**\\**CIMOM**\\**UnsecAppAccessControlDefault** registry value controls whether WMI checks for an acceptable authentication level when returning data for an asynchronous call. The callback can be returned at a lower authentication level than that of the original asynchronous call. By default, this value is set to zero so that callbacks are not checked. To secure asynchronous calls in scripting, you must set the registry key to 1 (one).
 

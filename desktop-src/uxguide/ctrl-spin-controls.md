@@ -3,10 +3,13 @@ title: Spin Controls
 description: With a spin control, users can click arrow buttons to change incrementally the value within its associated numeric text box.
 ms.assetid: 5f791fb9-1354-41b9-a9de-ddab35302d50
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Spin Controls
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a spin control, users can click arrow buttons to change incrementally the value within its associated [numeric text box](ctrl-text-boxes.md). The term spin box refers to the combination of a text box and its associated spin control.
 

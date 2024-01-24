@@ -1,5 +1,5 @@
 ---
-Description: Large Memory Support
+description: Large Memory Support
 ms.assetid: a5faf0c7-52ff-402e-acaa-f16955fa9de8
 title: Large Memory Support
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: When a thread is actively communicating with a Windows Image Acquisition (WIA) device (for example, transferring data or writing device properties) WIA &\#0034;locks&\#0034; the device.
+description: When a thread is actively communicating with a Windows Image Acquisition (WIA) device (for example, transferring data or writing device properties) WIA &\#0034;locks&\#0034; the device.
 ms.assetid: 59533937-284a-4732-a73b-d2e0b5a9a370
 title: Communicating with a WIA Device in Multiple Threads or Applications
 ms.topic: article

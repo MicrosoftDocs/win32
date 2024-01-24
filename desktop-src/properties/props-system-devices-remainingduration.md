@@ -1,5 +1,5 @@
 ---
-Description: The remaining playing time on the device, in 100ns units.
+description: The remaining playing time on the device, in 100ns units.
 ms.assetid: 124357C9-32DC-4C81-8699-4C92A542A888
 title: System.Devices.RemainingDuration
 ms.topic: article

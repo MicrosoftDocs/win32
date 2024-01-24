@@ -18,43 +18,14 @@ The most important attributes of an SCP are **keywords**, **serviceDNSName**, **
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>keywords</strong><br/></td>
-<td>The <strong>keywords</strong> attribute can contain multiple string values that identify your service. This attribute is included in the Global Catalog, which means that clients in any domain of an enterprise forest can search the Global Catalog for keywords associated with your service. This attribute is also indexed, which improves query performance. The installer that creates the SCP sets the values of the <strong>keywords</strong> attribute. Typically, these values are not modified by the active service.<br/> The exact keywords you should include in your SCP depend on how clients search for your service. The best keywords to use are GUID strings because GUIDs are guaranteed to be unique in a forest. Use the GUID string format returned by the <a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring"><strong>UuidToString</strong></a> function in the RPC library. You can also include human-readable names, if clients may use them to search for your service. The keywords in an SCP should include GUID strings and/or names that identify the following data about your service:
-<ul>
-<li>Your company or organization: for example, Fabrikam.</li>
-<li>The product or service: for example, SQL Server. This enables client applications to find SCPs for services of that type.</li>
-<li>The specific version of the product or service, such as 7.5.</li>
-<li>For SCPs that publish a specific set of data or capabilities for a type of service, include a GUID string or name that identifies the specific instance. For example, a database service could publish an SCP for a specific database. In this case, the SCP would include a product GUID to identify the service and another GUID to identify the database.</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>serviceDNSName</strong> and <strong>serviceDNSNameType</strong><br/></td>
-<td>Client applications use the <strong>serviceDNSName</strong> and <strong>serviceDNSNameType</strong> attributes to determine the service's host computer. The <strong>serviceDNSNameType</strong> value indicates the type of DNS name specified by <strong>serviceDNSName</strong> usually &quot;A&quot; if <strong>serviceDNSName</strong> contains a host name or &quot;SRV&quot; if <strong>serviceDNSName</strong> contains a SRV record name.<br/> The <strong>serviceDNSName</strong> value is typically the DNS name of the service's host computer. Your service installer can call the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa"><strong>GetComputerNameEx</strong></a> function to get the DNS name of the local computer.<br/> For services that have DNS SRV records, <strong>serviceDNSName</strong> can be the name of the SRV record. A client application uses the DNS APIs to retrieve all the SRV records that match this name. The client then retrieves the DNS host name from one of the SRV records. This technique is useful for replicated services because SRV records also include data that enables the client to select the best replica.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>serviceBindingInformation</strong><br/></td>
-<td>A multi-value property that contains string values that store data required to bind to a service. This property is indexed and is replicated to the Global Catalog.<br/> The content of <strong>serviceBindingInformation</strong> is specific to the service that published the SCP; clients must interpret the binding data. In the most common case, the binding data consists of a port number on the service host computer.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>serviceClassName</strong><br/></td>
-<td>A single-value property that identifies the class of service represented by the SCP. This is a descriptive string specific to the service that published the SCP; for example, SqlServer. For services that support mutual authentication, clients can use this property, along with the DNS name of the service's host computer, to form a service principal name. For more information, see <a href="mutual-authentication-using-kerberos.md">Mutual Authentication Using Kerberos</a>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribute | Description | 
+|-----------|-------------|
+| <strong>keywords</strong><br /> | The <strong>keywords</strong> attribute can contain multiple string values that identify your service. This attribute is included in the Global Catalog, which means that clients in any domain of an enterprise forest can search the Global Catalog for keywords associated with your service. This attribute is also indexed, which improves query performance. The installer that creates the SCP sets the values of the <strong>keywords</strong> attribute. Typically, these values are not modified by the active service.<br /> The exact keywords you should include in your SCP depend on how clients search for your service. The best keywords to use are GUID strings because GUIDs are guaranteed to be unique in a forest. Use the GUID string format returned by the <a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring"><strong>UuidToString</strong></a> function in the RPC library. You can also include human-readable names, if clients may use them to search for your service. The keywords in an SCP should include GUID strings and/or names that identify the following data about your service:<ul><li>Your company or organization: for example, Fabrikam.</li><li>The product or service: for example, SQL Server. This enables client applications to find SCPs for services of that type.</li><li>The specific version of the product or service, such as 7.5.</li><li>For SCPs that publish a specific set of data or capabilities for a type of service, include a GUID string or name that identifies the specific instance. For example, a database service could publish an SCP for a specific database. In this case, the SCP would include a product GUID to identify the service and another GUID to identify the database.</li></ul><br /> | 
+| <strong>serviceDNSName</strong> and <strong>serviceDNSNameType</strong><br /> | Client applications use the <strong>serviceDNSName</strong> and <strong>serviceDNSNameType</strong> attributes to determine the service's host computer. The <strong>serviceDNSNameType</strong> value indicates the type of DNS name specified by <strong>serviceDNSName</strong> usually "A" if <strong>serviceDNSName</strong> contains a host name or "SRV" if <strong>serviceDNSName</strong> contains a SRV record name.<br /> The <strong>serviceDNSName</strong> value is typically the DNS name of the service's host computer. Your service installer can call the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa"><strong>GetComputerNameEx</strong></a> function to get the DNS name of the local computer.<br /> For services that have DNS SRV records, <strong>serviceDNSName</strong> can be the name of the SRV record. A client application uses the DNS APIs to retrieve all the SRV records that match this name. The client then retrieves the DNS host name from one of the SRV records. This technique is useful for replicated services because SRV records also include data that enables the client to select the best replica.<br /> | 
+| <strong>serviceBindingInformation</strong><br /> | A multi-value property that contains string values that store data required to bind to a service. This property is indexed and is replicated to the Global Catalog.<br /> The content of <strong>serviceBindingInformation</strong> is specific to the service that published the SCP; clients must interpret the binding data. In the most common case, the binding data consists of a port number on the service host computer.<br /> | 
+| <strong>serviceClassName</strong><br /> | A single-value property that identifies the class of service represented by the SCP. This is a descriptive string specific to the service that published the SCP; for example, SqlServer. For services that support mutual authentication, clients can use this property, along with the DNS name of the service's host computer, to form a service principal name. For more information, see <a href="mutual-authentication-using-kerberos.md">Mutual Authentication Using Kerberos</a>.<br /> | 
+
 
 
 

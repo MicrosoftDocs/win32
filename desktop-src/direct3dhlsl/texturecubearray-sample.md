@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray Sample methods
-description: Samples a texture.
+description: Samples a texture. | TextureCubeArray::TextureCubeArray Sample methods
 ms.assetid: D63751DB-68AB-4F62-8719-9232FA35F649
 keywords:
 - Sample methods HLSL

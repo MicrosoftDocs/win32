@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Tachometer class exposes the following methods.
+description: The CIM\_Tachometer class exposes the following methods.
 ms.assetid: 93E744E3-D68A-4F3B-B939-449657768A68
 ms.tgt_platform: multiple
 title: CIM_Tachometer Methods

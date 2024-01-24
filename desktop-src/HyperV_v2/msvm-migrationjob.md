@@ -1,5 +1,5 @@
 ---
-Description: This class represents a migration operation job created for storage or virtual system migration by the virtual system migration service.
+description: This class represents a migration operation job created for storage or virtual system migration by the virtual system migration service.
 ms.assetid: 'ea9437c4-a34c-4bb1-b2b0-d701fb5796e9'
 title: Msvm_MigrationJob class
 ms.topic: reference
@@ -986,7 +986,7 @@ The unique name of the affected virtual system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

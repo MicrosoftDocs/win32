@@ -1,5 +1,5 @@
 ---
-Description: Raised by a stream sink when the rate has changed.
+description: Raised by a stream sink when the rate has changed.
 ms.assetid: c61c71de-fd3c-429b-a29f-f9d2bbfcb531
 title: MEStreamSinkRateChanged event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ If a stream sink supports rate changes, it sends this event after the rate chang
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: 'The name resolution functions can be grouped into three categories: Service installation, client queries, and helper (with macros).'
+description: 'The name resolution functions can be grouped into three categories: Service installation, client queries, and helper (with macros).'
 ms.assetid: c16a7163-11f5-4ad6-9df1-9bad2a964e48
 title: Summary of Name Resolution Functions
 ms.topic: article

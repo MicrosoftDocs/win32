@@ -1,5 +1,5 @@
 ---
-Description: The presence of the MSIINSTANCEGUID property indicates that a product code&\#8211;changing transform is registered to the product.
+description: The presence of the MSIINSTANCEGUID property indicates that a product code&\#8211;changing transform is registered to the product.
 ms.assetid: c39be15d-e10a-4055-bd81-aa7510a19fe4
 title: MSIINSTANCEGUID property
 ms.topic: reference
@@ -16,7 +16,7 @@ Instance transforms are product code–changing transforms available with the in
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

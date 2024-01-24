@@ -1,12 +1,12 @@
 ---
-Description: TAPI 3.1 adds detailed phone device controls and a number of specialized terminal interfaces. The following table lists the new interfaces.
+description: TAPI 3.1 adds detailed phone device controls and a number of specialized terminal interfaces. The following table lists the new interfaces.
 ms.assetid: 71f87258-f8e1-466b-802e-a5ae22b38974
 title: What's New (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# What's New (Telephony API)
 
 TAPI 3.1 adds detailed phone device controls and a number of specialized terminal interfaces. The following table lists the new interfaces.
 

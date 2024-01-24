@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api members"
 title: Api members
 TOCTitle: Api members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Api
@@ -15,7 +16,7 @@ Include inherited members
 
 Managed versions of the ESENT API. This class contains static methods that correspond to the unmanaged ESENT API. These methods throw exceptions when errors are returned. Helper methods for the ESENT API. These wrap JetMakeKey. Internal-only methods of the API. Helper methods for the ESENT API. These do data conversion for JetMakeKey. Helper methods for the ESENT API. These methods deal with database metadata. Helper methods for the ESENT API. These aren't interop versions of the API, but encapsulate very common uses of the functions. API members that are marked as obsolete. Helper methods for the ESENT API. These aren't interop versions of the API, but encapsulate very common uses of the functions. Helper methods for the ESENT API. These do data conversion for setting columns.
 
-The [Api](dn292211\(v=exchg.10\).md) type exposes the following members.
+The [Api](./api-class.md) type exposes the following members.
 
 ## Methods
 
@@ -1198,7 +1199,6 @@ Top
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

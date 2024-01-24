@@ -1,5 +1,5 @@
 ---
-Description: Handles status and error messages during image data transfers and displays them to the user.
+description: Handles status and error messages during image data transfers and displays them to the user.
 ms.assetid: 23e85c63-80b9-4510-854d-289c8d23be2d
 title: IWiaErrorHandler::ReportStatus method (Wia.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ If *hrStatus* is SEVERITY\_SUCCESS, the user should be allowed to cancel the tra
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

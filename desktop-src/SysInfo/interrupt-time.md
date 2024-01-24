@@ -1,5 +1,5 @@
 ---
-Description: Interrupt time is the amount of time since the system was last started, in 100-nanosecond intervals.
+description: Interrupt time is the amount of time since the system was last started, in 100-nanosecond intervals.
 ms.assetid: 56fe322e-53ea-4186-9b5e-352f69b09109
 title: Interrupt Time
 ms.topic: article

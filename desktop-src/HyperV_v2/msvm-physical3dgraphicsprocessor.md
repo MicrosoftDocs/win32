@@ -1,5 +1,5 @@
 ---
-Description: Describes the physical 3-D graphics processing unit (GPU).
+description: Describes the physical 3-D graphics processing unit (GPU).
 ms.assetid: 24e3d141-cbfe-4d40-907c-9a467c586c46
 title: Msvm_Physical3dGraphicsProcessor class
 ms.topic: reference
@@ -1083,7 +1083,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

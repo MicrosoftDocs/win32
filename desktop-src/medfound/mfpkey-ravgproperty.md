@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average bit rate, in bits per second, used for 2-pass, variable-bit-rate (VBR) encoding.
+description: Specifies the average bit rate, in bits per second, used for 2-pass, variable-bit-rate (VBR) encoding.
 ms.assetid: 88a1888f-7bfb-4e24-9d48-92cfde02a14f
 title: MFPKEY_RAVG Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This property can also be read at the end of a 1-pass VBR encoding session.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

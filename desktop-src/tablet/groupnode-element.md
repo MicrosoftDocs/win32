@@ -1,5 +1,5 @@
 ---
-Description: Contains a set of elements&\#8212;Paragraph, InkWord, Drawing, Text, Image, or Flag&\#8212;that are grouped together in the Journal note.
+description: Contains a set of elements&\#8212;Paragraph, InkWord, Drawing, Text, Image, or Flag&\#8212;that are grouped together in the Journal note.
 ms.assetid: 59ee3037-7178-41c8-84d5-d5c68fa2cf9b
 title: GroupNode Element
 ms.topic: reference
@@ -53,7 +53,7 @@ Contains a set of elements—[**Paragraph**](paragraph-element.md), [**InkWord**
 
 
 
-|              |                                                                 |
+|  Element     | Value                                                     |
 |--------------|-----------------------------------------------------------------|
 | Element type | [**GroupNodeType**](groupnodetype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                      |

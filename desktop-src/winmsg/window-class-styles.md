@@ -1,8 +1,9 @@
 ---
-Description: The following are the window class styles.
+description: The class styles define additional elements of the window class. Two or more styles can be combined by using the bitwise or operator.
 ms.assetid: BE908D51-25DD-45d0-B6AA-28B4C627715B
 title: Window Class Styles (Winuser.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/29/2020
 ---
 
@@ -54,7 +55,7 @@ The following are the window class styles.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

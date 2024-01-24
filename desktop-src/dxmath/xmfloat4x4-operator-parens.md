@@ -1,5 +1,5 @@
 ---
-Description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT4X4.
+description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT4X4.
 ms.assetid: de367692-6974-4e54-9f1e-d8c56b3aa752
 title: XMFLOAT4X4 operator () operators
 ms.topic: reference
@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator () operators
+# XMFLOAT4X4 operator () operators
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT4X4`.
 
@@ -23,38 +23,12 @@ Accesses specific matrix elements referenced by row and column from the current 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Operator</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X4::operator () (size_t,size_t)</strong></a></td>
-<td style="text-align: left;">Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT4X4</code> as specified by row and column arguments.<br/>
-<blockquote>
-[!Note]<br />
-This operator is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X4::operator () (size_t,size_t)</strong></a></td>
-<td style="text-align: left;">Return the value of a matrix element in an instance <code>XMFLOAT4X4</code> as specified by row and column arguments. <br/> This operator returns the value of a matrix element of an instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4"><strong>XMFLOAT4X4</strong></a> as specified by row and column arguments. <br/>
-<blockquote>
-[!Note]<br />
-This operator is only available when developing with C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Operator | Description | 
+|----------|-------------|
+| [**XMFLOAT4X4::operator () (size_t,size_t)**](/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)) | Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT4X4</code> as specified by row and column arguments.<br> **Note:** This operator is only available under C++.<br> | 
+| [**XMFLOAT4X4::operator () (size_t,size_t)**](/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)) | Return the value of a matrix element in an instance <code>XMFLOAT4X4</code> as specified by row and column arguments. <br> This operator returns the value of a matrix element of an instance [**XMFLOAT4X4**](/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4) as specified by row and column arguments. <br> **Note:** This operator is only available when developing with C++.<br> | 
+
 
 
 

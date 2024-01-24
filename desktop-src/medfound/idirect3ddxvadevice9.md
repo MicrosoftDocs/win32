@@ -1,5 +1,5 @@
 ---
-Description: Represents a hardware accelerator for DirectX Video Acceleration (DXVA) 1.0.
+description: Represents a hardware accelerator for DirectX Video Acceleration (DXVA) 1.0.
 ms.assetid: 63f77cf9-4c04-4ddb-9582-cfcf86f66a2a
 title: IDirect3DDXVADevice9 interface (Dxva.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ To get a pointer to this interface, call [**IDirect3DVideoDevice9::CreateDXVADev
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |

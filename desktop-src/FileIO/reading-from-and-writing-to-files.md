@@ -1,5 +1,5 @@
 ---
-Description: An application reads from and writes to a file by using the ReadFile, ReadFileEx, WriteFile, and WriteFileEx functions.
+description: An application reads from and writes to a file by using the ReadFile, ReadFileEx, WriteFile, and WriteFileEx functions.
 ms.assetid: 14ecb06c-3f80-47b8-9964-6a2c3b572300
 title: Reading From and Writing to Files
 ms.topic: article

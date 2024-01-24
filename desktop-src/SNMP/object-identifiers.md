@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Object Identifiers
+# Object Identifiers (SNMP)
 
 An SNMP object identifier uniquely names an object and identifies its location within a Management Information Base (MIB) tree structure. Object identifiers are application-independent Abstract Syntax Notation One (ASN.1) data types that consist of a sequence of non-negative integers, or subidentifiers. Object identifiers must have a minimum of two subidentifiers and they must not exceed 128 subidentifiers.
 

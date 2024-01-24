@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LS.Inequality operator"
 title: JET_LS.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LS.op_Inequality(Microsoft.Isam.Esent.Interop.JET_LS,Microsoft.Isam.Esent.Interop.JET_LS)
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Determines whether two specified instances of JET_LS are not equal.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,14 +61,14 @@ public static bool operator !=(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_LS](hh557499\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LS](./jet-ls-structure.md)  
     
     The first instance to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_LS](hh557499\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LS](./jet-ls-structure.md)  
     
     The second instance to compare.
 
@@ -80,8 +81,8 @@ True if the two instances are not equal.
 
 #### Reference
 
-[JET_LS structure](hh557499\(v=exchg.10\).md)
+[JET_LS structure](./jet-ls-structure.md)
 
-[JET_LS members](hh596466\(v=exchg.10\).md)
+[JET_LS members](./jet-ls-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

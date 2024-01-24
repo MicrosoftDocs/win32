@@ -1,5 +1,5 @@
 ---
-Description: To establish a client context in C++, an application can create a client context with a handle to a token, a domain and user name, or a string representation of the security identifier of the client.
+description: To establish a client context in C++, an application can create a client context with a handle to a token, a domain and user name, or a string representation of the security identifier of the client.
 ms.assetid: 765cd702-a1a8-4ff6-bea5-54de9fb62c0b
 title: Establishing a Client Context with Authorization Manager in C++
 ms.topic: article

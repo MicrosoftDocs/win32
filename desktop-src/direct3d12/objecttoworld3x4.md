@@ -1,8 +1,7 @@
 ---
-Description: A matrix for transforming from object-space to world-space.
+description: ObjectToWorld3x4 - A matrix for transforming from object-space to world-space.
 ms.assetid: 
 title: ObjectToWorld3x4
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -21,7 +20,7 @@ A matrix for transforming from object-space to world-space. Object-space refers 
 ## Syntax
 
 ```
-void ObjectToWorld3x4();
+float3x4 ObjectToWorld3x4();
 
 ```
 

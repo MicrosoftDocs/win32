@@ -1,5 +1,5 @@
 ---
-Description: Restores back to the last known good key protector.
+description: Restores back to the last known good key protector.
 ms.assetid: 0d1ea5d8-d25e-400c-be65-afe1bd65b1f0
 title: RestoreLastKnownGoodKeyProtector method of the Msvm_SecurityService class
 ms.topic: reference
@@ -98,7 +98,7 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

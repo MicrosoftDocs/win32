@@ -1,5 +1,5 @@
 ---
-Description: Used by a ID3DX10ThreadPump Interface to destroy the processor after a work item completes.
+description: Used by a ID3DX10ThreadPump Interface to destroy the processor after a work item completes.
 ms.assetid: 0d688d7e-c8f5-4e9c-8878-09256ace20d8
 title: ID3DX10DataProcessor::Destroy method (D3DX10.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

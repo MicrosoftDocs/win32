@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmpRed(S,float,float,int) function
-description: Samples a texture, tests the samples against a compare value, and returns the red component.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value. | Texture2D::GatherCmpRed(S,float,float,int) function
 ms.assetid: bd5fdd3b-c1b0-4cb0-aec5-9fe020420e6c
 keywords:
 - GatherCmpRed function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpRed(S,float,float,int) function
+# Texture2D::GatherCmpRed(S,float,float,int) function
 
-Samples a texture, tests the samples against a compare value, and returns the red component.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value.
 
 ## Syntax
 

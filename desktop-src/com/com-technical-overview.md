@@ -1,7 +1,7 @@
 ---
 title: COM Technical Overview
 ms.assetid: 519c87cc-b442-4187-af2a-124a1e4e8b49
-description: 
+description: "Learn more about: COM Technical Overview"
 keywords:
 - COM Technical Overview COM
 ms.topic: article
@@ -78,7 +78,7 @@ You obtain a new CLSID by using the [**CoCreateGuid**](/windows/desktop/api/comb
 
 All COM interfaces inherit from the [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) interface. The **IUnknown** interface contains the fundamental COM operations for polymorphism and instance lifetime management. The **IUnknown** interface has three member functions, named [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)), [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref), and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release). All COM objects are required to implement the **IUnknown** interface.
 
-The [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) member function provides polymorphism for COM. Call **QueryInterface** to determine at run time whether a COM object supports a particular interface. The COM object returns an interface pointer in the `ppvObject``out` parameter if it implements the requested interface, otherwise it returns `NULL`. The **QueryInterface** member function enables navigation among all of the interfaces that a COM object supports.
+The [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) member function provides polymorphism for COM. Call **QueryInterface** to determine at run time whether a COM object supports a particular interface. The COM object returns an interface pointer in the `ppvObject` parameter if it implements the requested interface, otherwise it returns `NULL`. The **QueryInterface** member function enables navigation among all of the interfaces that a COM object supports.
 
 The lifetime of a COM object instance is controlled by its *reference count*. The [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) member functions [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) control the count. **AddRef** increments the count and **Release** decrements the count. When the reference count reaches zero, the **Release** member function may free the instance, because no callers are using it.
 
@@ -166,13 +166,13 @@ The [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) interfa
 
 During uniform data transfer, all protocols exchange a pointer to an [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) interface. The server is the source of the data and implements one data object, which is usable in any data exchange protocol. The client consumes the data and requests data from a data object when it receives an **IDataObject** pointer from any protocol. After the pointer exchange has occurred, both sides handle data exchange in a uniform fashion, through the **IDataObject** interface.
 
-COM defines two data structures that enable uniform data transfer. The [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure represents a generalized clipboard format, and the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure represents the transfer medium as a memory handle.
+COM defines two data structures that enable uniform data transfer. The [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure represents a generalized clipboard format, and the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure represents the transfer medium as a memory handle.
 
 The client creates a [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure to indicate the type of data that it requests from a data source, and it is used by the data source to describe what formats it provides. The client queries a data source for its available formats by requesting its [**IEnumFORMATETC**](/windows/desktop/api/ObjIdl/nn-objidl-ienumformatetc) interface. For more information, see [The FORMATETC Structure](the-formatetc-structure.md).
 
-The client creates a [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure and passes it to the [**GetData**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-getdata) method, and the data object returns the data in the provided **STGMEDIUM** structure.
+The client creates a [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure and passes it to the [**GetData**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-getdata) method, and the data object returns the data in the provided **STGMEDIUM** structure.
 
-The [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure enables both clients and data sources to choose the most efficient exchange medium. For example, if the data to be exchanged is very large, the data source can indicate a disk-based medium as its preferred format, instead of main memory. This flexibility enables efficient data exchanges that can be as fast as passing a pointer to an [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) or an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream). For more information, see [The STGMEDIUM Structure](the-stgmedium-structure.md).
+The [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure enables both clients and data sources to choose the most efficient exchange medium. For example, if the data to be exchanged is very large, the data source can indicate a disk-based medium as its preferred format, instead of main memory. This flexibility enables efficient data exchanges that can be as fast as passing a pointer to an [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) or an [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream). For more information, see [The STGMEDIUM Structure](the-stgmedium-structure.md).
 
 A client of a data source may require notification when the data changes. COM handles data-change notifications by using an *advise sink* object, which implements the [**IAdviseSink**](/windows/desktop/api/ObjIdl/nn-objidl-iadvisesink) interface. The advise sink object and the **IAdviseSink** interface are implemented by the client, which passes an **IAdviseSink** pointer to the data source. When the data source detects a change in the underlying data, it calls an **IAdviseSink** method to notify the client. For more information, see [Data Notification](data-notification.md).
 

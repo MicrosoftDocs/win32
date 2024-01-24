@@ -1,5 +1,5 @@
 ---
-Description: The SourcePath property of the Session object is a read-only property that provides the full path to the designated folder on the source media or server image.
+description: The SourcePath property of the Session object is a read-only property that provides the full path to the designated folder on the source media or server image.
 ms.assetid: ed8eea4f-e15e-4d56-ac0c-e18f9cb46d07
 title: Session.SourcePath property
 ms.topic: reference
@@ -42,7 +42,7 @@ If the property fails, you can obtain extended error information by using the [*
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: LSA User Logon Authentication
+description: LSA User Logon Authentication
 ms.assetid: 62606687-05f1-4757-9fcd-c1932412dcc4
 title: LSA User Logon Authentication
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Windows authentication packages provide authentication services by implementing package-specific functionality for the LsaLogonUser and LsaCallAuthenticationPackage functions provided by the LSA.
+description: Windows authentication packages provide authentication services by implementing package-specific functionality for the LsaLogonUser and LsaCallAuthenticationPackage functions provided by the LSA.
 ms.assetid: 71f7eccd-694d-475f-b6d0-1eaf9ac468f5
 title: Windows Authentication Packages
 ms.topic: article

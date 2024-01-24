@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.Cp property"
 title: ColumnInfo.Cp property 
 TOCTitle: 'Cp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Cp
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the code page of the column.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_CP Cp { get; private set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_CP](hh558581\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_CP](./jet-cp-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[ColumnInfo class](dn334128\(v=exchg.10\).md)
+[ColumnInfo class](./columninfo-class.md)
 
-[ColumnInfo members](dn334181\(v=exchg.10\).md)
+[ColumnInfo members](./columninfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

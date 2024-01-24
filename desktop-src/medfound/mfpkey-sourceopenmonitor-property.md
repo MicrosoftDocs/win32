@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the applications IMFSourceOpenMonitor interface.
+description: Contains a pointer to the applications IMFSourceOpenMonitor interface.
 ms.assetid: 5b94ae87-91fc-49d6-9355-83327cfdb3f3
 title: MFPKEY_SourceOpenMonitor property (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ Applications can pass this property to the source resolver to get event notifica
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

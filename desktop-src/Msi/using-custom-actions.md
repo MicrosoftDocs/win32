@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe using custom actions.
+description: The following sections describe using custom actions.
 ms.assetid: dd2a0681-f50d-4232-bdcc-8aee6bb121a1
 title: Using Custom Actions
 ms.topic: article

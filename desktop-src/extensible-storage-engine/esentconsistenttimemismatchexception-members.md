@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentConsistentTimeMismatchException members"
 title: EsentConsistentTimeMismatchException members
 TOCTitle: EsentConsistentTimeMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ConsistentTimeMismatch exceptions.
 
-The [EsentConsistentTimeMismatchException](dn274215\(v=exchg.10\).md) type exposes the following members.
+The [EsentConsistentTimeMismatchException](./esentconsistenttimemismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentConsistentTimeMismatchException class](dn274215\(v=exchg.10\).md)
+[EsentConsistentTimeMismatchException class](./esentconsistenttimemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

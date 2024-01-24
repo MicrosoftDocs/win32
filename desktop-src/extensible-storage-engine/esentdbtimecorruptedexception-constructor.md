@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeCorruptedException constructor"
 title: EsentDbTimeCorruptedException constructor 
 TOCTitle: 'EsentDbTimeCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDbTimeCorruptedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDbTimeCorruptedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDbTimeCorruptedException()
 
 #### Reference
 
-[EsentDbTimeCorruptedException class](dn274236\(v=exchg.10\).md)
+[EsentDbTimeCorruptedException class](./esentdbtimecorruptedexception-class.md)
 
-[EsentDbTimeCorruptedException members](dn334406\(v=exchg.10\).md)
+[EsentDbTimeCorruptedException members](./esentdbtimecorruptedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

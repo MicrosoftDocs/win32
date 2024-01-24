@@ -1,5 +1,5 @@
 ---
-Description: Represents a serial port associated with the serial controller.
+description: Represents a serial port associated with the serial controller.
 ms.assetid: 856823A5-7481-453A-8476-1CDAB1D84123
 title: Msvm_SerialPort class
 ms.topic: reference
@@ -940,7 +940,7 @@ Access to the **Msvm\_SerialPort** class might be restricted by UAC Filtering. F
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

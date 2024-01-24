@@ -1,5 +1,5 @@
 ---
-Description: The GetFrameStoredLength function returns the length of the frame.
+description: The GetFrameStoredLength function returns the length of the frame.
 ms.assetid: 7ac0e528-a45a-4c36-a99d-647347bdd143
 title: GetFrameStoredLength function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the function is unsuccessful, the return value is zero.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

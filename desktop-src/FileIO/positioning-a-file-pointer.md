@@ -1,5 +1,5 @@
 ---
-Description: Windows uses a file pointer to keep track of bytes read or written.
+description: Windows uses a file pointer to keep track of bytes read or written.
 ms.assetid: 21c75d96-0357-422d-b12b-74c56f64ecf1
 title: Positioning a File Pointer
 ms.topic: article

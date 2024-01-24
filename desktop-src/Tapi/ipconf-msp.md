@@ -1,5 +1,5 @@
 ---
-Description: The IPConf MSP (Confmsp.dll), when paired with its TSP (IPconf.tsp), provides conferencing access to Internet Protocol (IP) networks, such as the Internet and many corporate intranets.
+description: The IPConf MSP (Confmsp.dll), when paired with its TSP (IPconf.tsp), provides conferencing access to Internet Protocol (IP) networks, such as the Internet and many corporate intranets.
 ms.assetid: 598c8aed-af80-4b67-95af-12f5961e395e
 title: IPConf MSP
 ms.topic: article

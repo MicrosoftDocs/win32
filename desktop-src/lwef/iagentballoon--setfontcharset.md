@@ -29,7 +29,7 @@ The character set of the font. The following are some common settings for value:
 
 
 
-|     |                                                                                        |
+| Value    | Character set                                                                                       |
 |-----|----------------------------------------------------------------------------------------|
 | 0   | Standard Windows characters (ANSI).                                                    |
 | 1   | Default character set.                                                                 |

@@ -1,13 +1,12 @@
 ---
 title: Direct3D 12 Raytracing HLSL Shaders
-description: The following HLSL shaders support the Direct3D 12 raytracing pipeline.
+description: View links to articles describing high-level shader language (HLSL) shaders that support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Raytracing HLSL Enumerations
+# Direct3D 12 Raytracing HLSL Shaders
 
 The following HLSL shaders support the Direct3D 12 raytracing pipeline. These shaders are functions compiled into a library, with target model lib_6_3, and identified by an attribute *[shader("shadertype")]* on the shader function. See **Intrinsics** and **System Values** to see what is allowed for each shader type.
 

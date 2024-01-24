@@ -21,7 +21,7 @@ Extended right needed at the NC root to add an object with a specific GUID.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Add-GUID                             |
 | Display-Name | Add GUID                             |
@@ -42,7 +42,7 @@ Extended right needed at the NC root to add an object with a specific GUID.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 35                                           |
@@ -53,7 +53,7 @@ Extended right needed at the NC root to add an object with a specific GUID.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 35                                           |
@@ -64,7 +64,7 @@ Extended right needed at the NC root to add an object with a specific GUID.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 35                                           |
@@ -75,7 +75,7 @@ Extended right needed at the NC root to add an object with a specific GUID.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 35                                           |
@@ -86,7 +86,7 @@ Extended right needed at the NC root to add an object with a specific GUID.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 35                                           |
@@ -97,7 +97,7 @@ Extended right needed at the NC root to add an object with a specific GUID.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 35                                           |

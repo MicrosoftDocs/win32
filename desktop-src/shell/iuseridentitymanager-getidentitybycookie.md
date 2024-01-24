@@ -1,5 +1,5 @@
 ---
-Description: GetIdentityByCookie is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: GetIdentityByCookie is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: c2f549ac-e13d-4198-864f-7f5fbec30c72
 title: IUserIdentityManager::GetIdentityByCookie method (Msident.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ The result of the retrieval request. If successful, it returns S\_OK. Otherwise 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -36,7 +36,7 @@ The **CFSTR\_DSOP\_DS\_SELECTION\_LIST** clipboard format is provided by the [**
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                      |

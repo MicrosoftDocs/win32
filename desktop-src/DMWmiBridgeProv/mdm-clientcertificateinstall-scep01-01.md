@@ -29,7 +29,7 @@ Required for SCEP certificate installation.
 
 Supported operations are Get, Add and Delete.
 
-Calling Delete on the this node should delete the corresponding SCEP certificate.
+Calling Delete on this node should delete the corresponding SCEP certificate.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -142,7 +142,7 @@ Access type: Read/write
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |

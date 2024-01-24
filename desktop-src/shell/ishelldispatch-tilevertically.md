@@ -1,5 +1,5 @@
 ---
-Description: Tiles all of the windows on the desktop vertically. This method has the same effect as right-clicking the taskbar and selecting Show windows side by side.
+description: Tiles all of the windows on the desktop vertically. This method has the same effect as right-clicking the taskbar and selecting Show windows side by side.
 ms.assetid: 63CB7E20-48E6-4cfe-B0BA-0D28A7B151BD
 title: IShellDispatch.TileVertically method (Shldisp.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

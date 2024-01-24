@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCountryException properties"
 title: EsentInvalidCountryException properties
 TOCTitle: EsentInvalidCountryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidCountryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidCountryException](dn319498\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidCountryException](./esentinvalidcountryexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInvalidCountryException class](dn319498\(v=exchg.10\).md)
+[EsentInvalidCountryException class](./esentinvalidcountryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

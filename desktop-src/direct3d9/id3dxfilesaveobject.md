@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DXFileSaveObject interface to write a .x file to disk, and to add and save data objects and templates.
+description: Applications use the methods of the ID3DXFileSaveObject interface to write a .x file to disk, and to add and save data objects and templates.
 ms.assetid: 1131c151-fa21-4654-9776-484922d58487
 title: ID3DXFileSaveObject interface (D3DX9Xof.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ typedef interface ID3DXFileSaveObject *LPD3DXFILESAVEOBJECT;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

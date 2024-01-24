@@ -1,5 +1,5 @@
 ---
-Description: Sets the video select layer for a video encoder.
+description: Sets the video select layer for a video encoder.
 ms.assetid: 2CB83D5B-93BB-43F0-B231-5B773BDB4D5F
 title: CODECAPI_AVEncVideoSelectLayer property (Codecapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ This property is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-h
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

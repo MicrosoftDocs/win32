@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object has shown or hidden itself.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object has shown or hidden itself.
 ms.assetid: bf4651f4-2cf4-4952-a93e-3c6ba4846722
 title: PenInputPanel.VisibleChanged event (Msinkaut.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ The **VisibleChanged** event applies to the Tablet PC Input Panel hover target. 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

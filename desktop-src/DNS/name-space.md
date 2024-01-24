@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Namespace
 
-A namespace is a context within which the names of all objects must be unambiguously resolvable. For example, the internet is a single DNS name space, within which all network devices with a DNS name can be resolved to a particular address (for example, www.microsoft.com resolves to 207.46.131.13).
+A namespace is a context within which the names of all objects must be unambiguously resolvable. For example, the internet is a single DNS name space, within which all network devices with a DNS name can be resolved to a particular address (for example, `www.microsoft.com` resolves to 207.46.131.13).
 
 ## Flat namespace
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetLS method"
 title: Api.JetSetLS method 
 TOCTitle: 'JetSetLS method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetLS(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_LS,Microsoft.Isam.Esent.Interop.LsGrbit)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Enables the application to associate a context handle known as Local Storage with a cursor or the table associated with that cursor. This context handle can be used by the application to store auxiliary data that is associated with a cursor or table. The application is later notified using a runtime callback when the context handle must be released. This makes it possible to associate dynamically allocated state with a cursor or table.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,28 +64,28 @@ public static void JetSetLS(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor to use.
 
 <!-- end list -->
 
   - ls  
-    Type: [Microsoft.Isam.Esent.Interop.JET_LS](hh557499\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LS](./jet-ls-structure.md)  
     
     The context handle to be associated with the session or cursor.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.LsGrbit](hh579487\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.LsGrbit](./lsgrbit-enumeration.md)  
     
     Set options.
 
@@ -92,9 +93,8 @@ public static void JetSetLS(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

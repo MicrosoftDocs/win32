@@ -52,34 +52,13 @@ The resulting value is the result of *expr*. It will be uniform if *laneIndex* i
 
 ## Remarks
 
-This function is effectively a broadcast of the value in the laneIndex’th lane.
+If *laneIndex* is uniform, then this is effectively a broadcast operation; otherwise, it's a shuffle operation.
 
-This function is supported from shader model 6.0, in the following types of shaders:
+The result is undefined on a helper lane, or if the lane referred to by *laneIndex* is inactive or a helper lane.
 
-
-
-| Vertex | Hull | Domain | Geometry | Pixel | Compute |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
-
-
-
- 
+This function is supported from shader model 6.0 in all shader stages.
 
 ## See also
 
-<dl> <dt>
-
-[Overview of Shader Model 6](hlsl-shader-model-6-0-features-for-direct3d-12.md)
-</dt> <dt>
-
-[Shader Model 6](shader-model-6-0.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Overview of Shader Model 6](hlsl-shader-model-6-0-features-for-direct3d-12.md)
+* [Shader Model 6](shader-model-6-0.md)

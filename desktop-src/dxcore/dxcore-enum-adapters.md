@@ -1,22 +1,21 @@
 ---
 title: Using DXCore to enumerate adapters
 description: A look at the main features of DXCore with some code examples, as well as a full source code listing of a minimal DXCore application.
-ms.localizationpriority: high
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 08/17/2023
 ---
 
 # Using DXCore to enumerate adapters
 
 DXCore is an adapter enumeration API for DirectX devices, so some of its facilities overlap with those of [DXGI](../direct3ddxgi/dx-graphics-dxgi.md).
 
-DXCore enables the exposure of new device types to user mode, such as MCDM (Microsoft Compute Driver Model), for use with [Direct3D 12](../direct3d12/directx-12-programming-guide.md), [DirectML](../direct3d12/dml.md), and [Windows Machine Learning](/windows/ai/windows-ml/). DXCore, unlike DXGI, does not provide any information about display-related technology or properties
+DXCore enables the exposure of new device types to user mode, such as MCDM (Microsoft Compute Driver Model), for use with [Direct3D 12](../direct3d12/directx-12-programming-guide.md), [DirectML](/windows/ai/directml/dml), and [Windows Machine Learning](/windows/ai/windows-ml/). DXCore, unlike DXGI, does not provide any information about display-related technology or properties
 
 In the next few sections, we'll take a look at the main features of DXCore with some code examples (written in [C++/WinRT](/windows/uwp/cpp-and-winrt-apis)). The code examples shown below are extracted from the full source code listing that you can find in the topic [Minimal DXCore application](dxcore-source-code.md).
 
 ## Create an adapter factory
 
-You begin DXCore adapter enumeration by creating an adapter factory object, which is represented by the [**IDXCoreAdapterFactory**](./dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory.md) interface. To create a factory, include the `dxcore.h` header file, and call the [**DXCoreCreateAdapterFactory**](./dxcore/nf-dxcore-dxcorecreateadapterfactory.md) free function.
+You begin DXCore adapter enumeration by creating an adapter factory object, which is represented by the [**IDXCoreAdapterFactory**](./dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory.md) interface. To create a factory, include the `dxcore.h` header file, and call the [**DXCoreCreateAdapterFactory**](/windows/win32/api/dxcore/nf-dxcore-dxcorecreateadapterfactory) free function.
 
 ```cppwinrt
 #include <dxcore.h>
@@ -46,7 +45,7 @@ The [**IDXCoreAdapterList::GetAdapterCount**](./dxcore_interface/nf-dxcore_inter
 
 You can then query the properties of that adapter, by following these steps.
 
-- First, to confirm that it's valid to retrieve the value of a given property for this adapter on this operating system version, you call [**IDXCoreAdapter::IsPropertySupported**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported.md). Pass a value of the [**DXCoreAdapterProperty**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md) enumeration to identify which property you're querying about.
+- First, to confirm that it's valid to retrieve the value of a given property for this adapter on this operating system version, you call [**IDXCoreAdapter::IsPropertySupported**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported.md). Pass a value of the [**DXCoreAdapterProperty**](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) enumeration to identify which property you're querying about.
 - Optionally confirm the size of the property value with a call to [**IDXCoreAdapter::GetPropertySize**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize.md). For a property such as **DXCoreAdapterProperty::IsHardware**, which is a simple Boolean, this step isn't necessary.
 - And, finally, retrieve the property's value by calling [**IDXCoreAdapter::GetProperty**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md).
 
@@ -86,7 +85,7 @@ for (uint32_t i = 0; i < count; ++i)
 
 You can sort a DXCore adapter list by calling the [IDXCoreAdapterList::Sort](./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-sort.md) method.
 
-The [DXCoreAdapterPreference](./dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference.md) enumeration defines values that representing sort criteria. Pass an array of those values to **Sort**, and then read off the first adapter in the resulting sorted list.
+The [DXCoreAdapterPreference](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference) enumeration defines values that representing sort criteria. Pass an array of those values to **Sort**, and then read off the first adapter in the resulting sorted list.
 
 To determine whether a sort type is going to be understood by **Sort**, first call [IDXCoreAdapterList::IsAdapterPreferenceSupported](./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isadapterpreferencesupported.md).
 
@@ -155,7 +154,7 @@ In practice, before calling **QueryState** and **SetState**, you should call [Is
 
 Should an adapter list become stale due to changing system conditions, it will be marked as such. You can determine an adapter list's freshness by polling its [**IDXCoreAdapterList::IsStale**](./dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isstale.md) method.
 
-More conveniently, though, you can subscribe to notifications for conditions such as staleness. To do that, pass [**DXCoreNotificationType::AdapterListStale**](./dxcore_interface/ne-dxcore_interface-dxcorenotificationtype.md) to [**IDXCoreAdapterFactory::RegisterEventNotification**](./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification.md), and safely store the returned cookie for use later.
+More conveniently, though, you can subscribe to notifications for conditions such as staleness. To do that, pass [**DXCoreNotificationType::AdapterListStale**](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype) to [**IDXCoreAdapterFactory::RegisterEventNotification**](./dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification.md), and safely store the returned cookie for use later.
 
 ```cppwinrt
 uint32_t m_eventCookie = 0;
@@ -187,7 +186,7 @@ HRESULT hr = factory->UnregisterEventNotification(m_eventCookie);
 ## Display information
 
 > [!NOTE]
-> DXCore doesn't itself provide any display information. Where necessary, you should use the Windows Runtime [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor) class to retrieve this information. An adapter's [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) provides a common identifier that you can use to map a DXCore adapter to [**DisplayMonitor.DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) information. To obtain an adapter's LUID, pass [**DXCoreAdapterProperty::InstanceLuid**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md) to the [**IDXCoreAdapter::GetProperty**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md) method.
+> DXCore doesn't itself provide any display information. Where necessary, you should use the Windows Runtime [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor) class to retrieve this information. An adapter's [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) provides a common identifier that you can use to map a DXCore adapter to [**DisplayMonitor.DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) information. To obtain an adapter's LUID, pass [**DXCoreAdapterProperty::InstanceLuid**](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) to the [**IDXCoreAdapter::GetProperty**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md) method.
 
 ## See also
 

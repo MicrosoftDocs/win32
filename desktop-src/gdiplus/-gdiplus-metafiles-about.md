@@ -1,12 +1,12 @@
 ---
-Description: Windows GDI+ provides the Metafile class so that you can record and display metafiles.
+description: Windows GDI+ provides the Metafile class so that you can record and display metafiles.
 ms.assetid: a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077
 title: Metafiles (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Metafiles
+# Metafiles (GDI+)
 
 Windows GDI+ provides the [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) class so that you can record and display metafiles. A metafile, also called a vector image, is an image that is stored as a sequence of drawing commands and settings. The commands and settings recorded in a **Metafile** object can be stored in memory or saved to a file or stream.
 

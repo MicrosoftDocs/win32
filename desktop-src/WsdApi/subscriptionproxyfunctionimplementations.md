@@ -1,5 +1,5 @@
 ---
-Description: Generates implementations for subscribe/unsubscribe proxy functions for port type notification operations.
+description: Generates implementations for subscribe/unsubscribe proxy functions for port type notification operations.
 ms.assetid: aa26a3f1-df1e-4caa-9ada-6f4a6627b6b8
 title: subscriptionProxyFunctionImplementations element
 ms.topic: reference
@@ -67,7 +67,7 @@ Generates implementations for subscribe/unsubscribe proxy functions for port typ
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

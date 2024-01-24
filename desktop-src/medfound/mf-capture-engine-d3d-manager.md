@@ -1,5 +1,5 @@
 ---
-Description: Sets a pointer to the DXGI Device Manager on the capture engine.
+description: Sets a pointer to the DXGI Device Manager on the capture engine.
 ms.assetid: 1DFDE7AB-7DFF-4C39-9460-E42E37649AAC
 title: MF_CAPTURE_ENGINE_D3D_MANAGER attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The value of this attribute is a pointer to the [**IMFDXGIDeviceManager**](/wind
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRollbackRequiredException methods"
 title: EsentRollbackRequiredException methods
 TOCTitle: EsentRollbackRequiredException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRollbackRequiredException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRollbackRequiredException](dn350571\(v=exchg.10\).md) type exposes the following members.
+The [EsentRollbackRequiredException](./esentrollbackrequiredexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentRollbackRequiredException class](dn350571\(v=exchg.10\).md)
+[EsentRollbackRequiredException class](./esentrollbackrequiredexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

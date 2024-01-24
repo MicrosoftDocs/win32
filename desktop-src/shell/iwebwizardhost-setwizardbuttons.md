@@ -1,5 +1,5 @@
 ---
-Description: Updates the Back, Next, and Finish buttons in the client's wizard frame.
+description: Updates the Back, Next, and Finish buttons in the client's wizard frame.
 title: WebWizardHost.SetWizardButtons method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shldisp.h
 ms.assetid: 863aa667-454c-40cd-8091-9bb456047b6c
-api_name: 
- - WebWizardHost.SetWizardButtons
-api_type: 
- - COM
-api_location: 
- - Shldisp.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -81,7 +72,7 @@ Be sure to implement handler functions in each server-side page for OnBack() and
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

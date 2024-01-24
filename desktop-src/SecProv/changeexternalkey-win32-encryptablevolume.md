@@ -1,5 +1,5 @@
 ---
-Description: Changes an external key that is associated with an encrypted volume.
+description: Changes an external key that is associated with an encrypted volume.
 ms.assetid: 14c7e643-f685-40bb-be86-aabc5b883d7e
 title: ChangeExternalKey method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -93,7 +93,7 @@ This method can be used to change the external key for any key protector that us
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

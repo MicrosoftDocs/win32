@@ -1,5 +1,5 @@
 ---
-Description: The VarLenSmallIntToDword function converts a variable-length, small integer to a DWORD.
+description: The VarLenSmallIntToDword function converts a variable-length, small integer to a DWORD.
 ms.assetid: e26dc206-ac85-4346-9fcf-93ebc8948ced
 title: VarLenSmallIntToDword function (Netmon.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The return value is a pointer to the **DWORD**.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

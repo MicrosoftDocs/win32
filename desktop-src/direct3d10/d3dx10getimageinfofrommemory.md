@@ -1,5 +1,5 @@
 ---
-Description: Get information about an image already loaded into memory.
+description: Get information about an image already loaded into memory.
 ms.assetid: 6750116a-ad4f-4102-aba9-6ef32c367be4
 title: D3DX10GetImageInfoFromMemory function (D3DX10Tex.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>  |

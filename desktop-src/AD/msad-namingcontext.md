@@ -80,7 +80,7 @@ Gets the value that indicates whether the NC is read/write. **TRUE** if the NC i
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

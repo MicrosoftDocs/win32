@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices defines the following event values.
+description: Windows Portable Devices defines the following event values.
 ms.assetid: d73788a1-d0fe-4a69-b472-edf438a28f90
 title: Event Constants (PortableDevice.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ api_location:
 - PortableDevice.h
 ---
 
-# Event Constants
+# Event Constants (PortableDevice.h)
 
 Windows Portable Devices defines the following event values.
 
@@ -47,7 +47,7 @@ Windows Portable Devices defines the following event values.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

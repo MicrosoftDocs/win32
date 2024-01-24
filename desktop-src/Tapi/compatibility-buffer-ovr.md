@@ -1,5 +1,5 @@
 ---
-Description: The compatibility buffer is specific to the ISDN Q.931 standard. Please refer to your service providers documentation on the meaning and use of this data.
+description: The compatibility buffer is specific to the ISDN Q.931 standard. Please refer to your service providers documentation on the meaning and use of this data.
 ms.assetid: c4c87ca8-fbae-4275-9b69-7b32daf4c18f
 title: Compatibility Buffer
 ms.topic: article

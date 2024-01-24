@@ -1,5 +1,5 @@
 ---
-Description: Gets the XML format of an unattached reference to the token.
+description: Gets the XML format of an unattached reference to the token.
 ms.assetid: D5D61ED7-68FB-4FC0-9C2A-90D3B1219351
 title: IUpdateEndpointAuthToken::TokenReferenceUnattached method (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ An unattached reference refers a referece (such as the signiture that is using t
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>                |

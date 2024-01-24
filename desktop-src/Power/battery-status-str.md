@@ -1,5 +1,5 @@
 ---
-Description: Contains the current state of the battery.
+description: Contains the current state of the battery.
 ms.assetid: 514906a1-9d7a-40cb-9798-84f6b93d7bfe
 title: BATTERY_STATUS structure (Poclass.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ The BATTERY\_CRITICAL flag in the **PowerState** member of this structure indica
 
 
 
-|                                     |                                                                                                                                                                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |

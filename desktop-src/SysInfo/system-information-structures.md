@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used to retrieve or set system information.
+description: The following structures are used to retrieve or set system information.
 ms.assetid: 8fe2ef47-3bbc-4e9a-a503-29d89b389709
 title: System Information Structures
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Developers of Windows Installer packages may choose to use a custom action type 17 when the standard actions are insufficient to execute the installation.
+description: Developers of Windows Installer packages may choose to use a custom action type 17 when the standard actions are insufficient to execute the installation.
 ms.assetid: 99efd6d5-e0a3-4e66-ae55-252d19090d31
 title: Custom Action Type 17
 ms.topic: article

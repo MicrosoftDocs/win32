@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type Win32\_SecurityDescriptor.
+description: Represents a PnP device property of type Win32\_SecurityDescriptor.
 ms.assetid: 05D94627-0B1F-443E-A5C0-D7FC95318250
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySecurityDescriptor class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

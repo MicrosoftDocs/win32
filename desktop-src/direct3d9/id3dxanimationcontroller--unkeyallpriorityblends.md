@@ -1,5 +1,5 @@
 ---
-Description: Removes all scheduled priority blend events from the animation controller.
+description: Removes all scheduled priority blend events from the animation controller.
 ms.assetid: 4dea1998-4081-4c2c-929e-6fb440806c2a
 title: ID3DXAnimationController::UnkeyAllPriorityBlends method (D3dx9anim.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: This sample application demonstrates opening and closing communication streams and causing ducking events that an application can get to implement stream attenuation.
+description: This sample application demonstrates opening and closing communication streams and causing ducking events that an application can get to implement stream attenuation.
 ms.assetid: 9a2131b2-ec4a-492a-a277-bd26ec8d67e5
 title: DuckingCaptureSample
 ms.topic: article

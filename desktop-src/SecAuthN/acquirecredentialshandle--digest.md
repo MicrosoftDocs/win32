@@ -1,5 +1,5 @@
 ---
-Description: Acquires a handle to preexisting credentials of a security principal that is using Digest.
+description: Acquires a handle to preexisting credentials of a security principal that is using Digest.
 ms.assetid: 79f49240-e394-4584-8db7-ef721672ba6b
 title: AcquireCredentialsHandle (Digest) function (Sspi.h)
 ms.topic: reference
@@ -165,7 +165,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

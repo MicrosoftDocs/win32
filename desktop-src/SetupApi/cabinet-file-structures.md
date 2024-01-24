@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used with cabinets.
+description: The following structures are used with cabinets.
 ms.assetid: dafa7a7c-0d5c-4cec-a1fc-6bb7181c1374
 title: Cabinet File Structures
 ms.topic: article

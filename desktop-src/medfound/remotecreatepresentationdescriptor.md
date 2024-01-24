@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFMediaSource::CreatePresentationDescriptor method.
+description: Remotable version of the IMFMediaSource::CreatePresentationDescriptor method.
 ms.assetid: 9ad6793e-32ca-471b-8639-41098b3e8216
 title: RemoteCreatePresentationDescriptor (Mfobjects.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

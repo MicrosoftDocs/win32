@@ -12,7 +12,7 @@ Declare the maxTessFactor for the patch.
 
 
 
-| dcl\_hs\_max\_tessfactor n |
+| dcl\_hs\_max\_tessfactor N |
 |----------------------------|
 
 
@@ -23,7 +23,7 @@ Declare the maxTessFactor for the patch.
 
 | Item                                                   | Description                          |
 |--------------------------------------------------------|--------------------------------------|
-| <span id="n"></span><span id="N"></span>*n*<br/> | \[in\] The maxTessFactor.<br/> |
+| <span id="N"></span><span id="N"></span>*N*<br/> | \[in\] The maxTessFactor.<br/> |
 
 
 

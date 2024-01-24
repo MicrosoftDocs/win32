@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the three stages of the indexing process and the primary components involved in each, explains the timing of indexing activity, and provides some notes for third-party developers who want their data stores or file formats indexed.
+description: This topic describes the three stages of the indexing process and the primary components involved in each, explains the timing of indexing activity, and provides some notes for third-party developers who want their data stores or file formats indexed.
 ms.assetid: cfba12eb-4123-4b57-8311-d4fc8f9f514e
 title: Indexing Process in Windows Search
 ms.topic: article
@@ -96,14 +96,14 @@ The following table lists the results that the gatherer receives from a filter (
 
 |                            | [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) | [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) |
 |----------------------------|------------------------------------|-------------------------------------------------|
-| Allow write                | No                                 | Yes                                             |
-| Mix content and properties | Yes                                | No                                              |
-| Multilingual               | Yes                                | No                                              |
-| Emit links                 | Yes                                | No                                              |
-| MIME                       | Yes                                | No                                              |
-| Text boundaries            | Sentence, paragraph, chapter       | None                                            |
-| Client / server            | Both                               | Client                                          |
-| Implementation             | Complex                            | Simple                                          |
+| **Allow write**                | No                                 | Yes                                             |
+| **Mix content and properties** | Yes                                | No                                              |
+| **Multilingual**               | Yes                                | No                                              |
+| **Emit links**                 | Yes                                | No                                              |
+| **MIME**                       | Yes                                | No                                              |
+| **Text boundaries**            | Sentence, paragraph, chapter       | None                                            |
+| **Client / server**            | Both                               | Client                                          |
+| **Implementation**             | Complex                            | Simple                                          |
 
 **Property Handlers**  Property handlers are components that read and write properties for a particular file format. They access items and emit properties for the gatherer in the same way that filters do for content. Property handlers are easier to implement than filters. If a text-based file format is very simple or the files are expected to be very small, the property handler can emit both properties and content.
 

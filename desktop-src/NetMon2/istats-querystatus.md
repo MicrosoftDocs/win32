@@ -1,5 +1,5 @@
 ---
-Description: The QueryStatus method retrieves the status of the NPP.
+description: IStats::QueryStatus method - The QueryStatus method retrieves the status of the NPP.
 ms.assetid: 86b1c1ee-3a35-4603-9e93-fe09f886c32f
 title: IStats::QueryStatus method (Netmon.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ This method can be called at any time after the [CreateNPPInterface](createnppin
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

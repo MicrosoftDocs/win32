@@ -1,5 +1,5 @@
 ---
-Description: Specifies the nominal range of the color information in a video media type.
+description: Specifies the nominal range of the color information in a video media type.
 ms.assetid: 7b2b809e-aae4-401c-816a-626fb88f5f87
 title: MF_MT_VIDEO_NOMINAL_RANGE attribute (Mfapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ H.264/AVC encoder shall reject a output media type when MF\_MT\_VIDEO\_NOMINAL\_
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

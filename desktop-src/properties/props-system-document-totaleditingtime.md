@@ -1,5 +1,5 @@
 ---
-Description: This property represents the total time between each open and save, accumulated since the creation of the document. This is measured in 100ns units, not milliseconds. VT\_FILETIME for IPropertySetStorage handlers (legacy).
+description: This property represents the total time between each open and save, accumulated since the creation of the document. This is measured in 100ns units, not milliseconds. VT\_FILETIME for IPropertySetStorage handlers (legacy).
 ms.assetid: 27d374ae-366c-4b2c-88a8-93e760db6fba
 title: System.Document.TotalEditingTime
 ms.topic: article

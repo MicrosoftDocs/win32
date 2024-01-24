@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.
+description: Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.
 ms.assetid: ca9060e5-4434-4302-a840-a7d9cf5db714
 title: CIM_ResourceAllocationFromPool class
 ms.topic: reference
@@ -80,7 +80,7 @@ The resource allocation data.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

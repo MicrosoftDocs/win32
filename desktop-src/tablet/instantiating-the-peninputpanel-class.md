@@ -1,5 +1,5 @@
 ---
-Description: Describes of instantiating the Pen Input Panel.
+description: Describes of instantiating the Pen Input Panel.
 ms.assetid: 185dbed4-8e2c-49a5-a1c8-23a9787ae2f0
 title: Instantiating the PenInputPanel Class
 ms.topic: article

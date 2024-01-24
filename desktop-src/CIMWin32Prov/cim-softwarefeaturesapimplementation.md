@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SoftwareFeatureSAPImplementation class represents an association between a service access point (SAP) and how it is implemented in software.
+description: The CIM\_SoftwareFeatureSAPImplementation class represents an association between a service access point (SAP) and how it is implemented in software.
 ms.assetid: d9a5a747-b37b-4005-a661-2bfc6a83bbb2
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeatureSAPImplementation class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

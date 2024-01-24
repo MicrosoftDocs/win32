@@ -1,5 +1,5 @@
 ---
-Description: IdentityInformationChanged is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IdentityInformationChanged is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 3aca8a98-3d12-482d-9991-d6b53adde522
 title: IIdentityChangeNotify::IdentityInformationChanged method (Msident.h)
 ms.topic: reference
@@ -103,7 +103,7 @@ You may implement this method to provide custom behavior for your application wh
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

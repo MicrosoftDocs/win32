@@ -21,7 +21,7 @@ Property set containing user attributes that describe group membership informati
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Membership                           |
 | Display-Name | Group Membership                     |
@@ -43,7 +43,7 @@ Property set containing user attributes that describe group membership informati
 
 
 
-|                         |                                       |
+| Entry | Value |
 |-------------------------|---------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/>     |
 | Localization-Display-ID | 11                                    |
@@ -55,7 +55,7 @@ Property set containing user attributes that describe group membership informati
 
 
 
-|                         |                                                                                        |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Localization-Display-ID | 11                                                                                     |
@@ -67,7 +67,7 @@ Property set containing user attributes that describe group membership informati
 
 
 
-|                         |                                                                                        |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------|
 | Applies-To              | \-                                                                                     |
 | Localization-Display-ID | 11                                                                                     |
@@ -79,7 +79,7 @@ Property set containing user attributes that describe group membership informati
 
 
 
-|                         |                                                                                        |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Localization-Display-ID | 11                                                                                     |
@@ -91,7 +91,7 @@ Property set containing user attributes that describe group membership informati
 
 
 
-|                         |                                                                                        |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Localization-Display-ID | 11                                                                                     |
@@ -103,7 +103,7 @@ Property set containing user attributes that describe group membership informati
 
 
 
-|                         |                                                                                        |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Localization-Display-ID | 11                                                                                     |
@@ -115,7 +115,7 @@ Property set containing user attributes that describe group membership informati
 
 
 
-|                         |                                                                                        |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Localization-Display-ID | 11                                                                                     |

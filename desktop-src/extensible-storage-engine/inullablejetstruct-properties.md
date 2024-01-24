@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INullableJetStruct properties"
 title: INullableJetStruct properties
 TOCTitle: INullableJetStruct properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.INullableJetStruct
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [INullableJetStruct](hh578599\(v=exchg.10\).md) type exposes the following members.
+The [INullableJetStruct](./inullablejetstruct-interface.md) type exposes the following members.
 
 ## Properties
 
@@ -41,7 +42,6 @@ Top
 
 #### Reference
 
-[INullableJetStruct interface](hh578599\(v=exchg.10\).md)
+[INullableJetStruct interface](./inullablejetstruct-interface.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

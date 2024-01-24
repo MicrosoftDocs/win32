@@ -1,5 +1,5 @@
 ---
-Description: Building Topologies by Using TopoEdit
+description: Building Topologies by Using TopoEdit
 ms.assetid: 04173f3d-3722-48ee-a6fb-9cdb2a897a33
 title: Building Topologies by Using TopoEdit
 ms.topic: article

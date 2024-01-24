@@ -1,5 +1,5 @@
 ---
-Description: ICE84 checks the AdvtExecuteSequence table, AdminExecuteSequence table, and the InstallExecuteSequence table to verify that the following standard actions have not been set with conditions in the Condition field.
+description: ICE84 checks the AdvtExecuteSequence table, AdminExecuteSequence table, and the InstallExecuteSequence table to verify that the following standard actions have not been set with conditions in the Condition field.
 ms.assetid: 0d1bbf4b-ffab-409e-a292-891dfa823433
 title: ICE84
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The following example adds an access control entry (ACE) to the discretionary access control list (DACL) of an object.
+description: The following example adds an access control entry (ACE) to the discretionary access control list (DACL) of an object.
 ms.assetid: 0c168bb7-996f-42a8-96cd-2ba7870a3333
 title: Modifying the ACLs of an Object in C++
 ms.topic: article

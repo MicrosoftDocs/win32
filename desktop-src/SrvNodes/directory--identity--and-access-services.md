@@ -1,5 +1,5 @@
 ---
-Description: Directory, Identity, and Access Services
+description: Directory, Identity, and Access Services
 ms.assetid: c9b0826d-a458-4962-bcce-e5d3d994ff18
 title: Directory, Identity, and Access Services
 ms.topic: reference

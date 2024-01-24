@@ -1,5 +1,5 @@
 ---
-Description: Gets a constant by looking up its name.
+description: ID3DXConstantTable::GetConstantByName method - Gets a constant by looking up its name.
 ms.assetid: 785a2d4f-6391-4419-a0b8-d8244a03ceae
 title: ID3DXConstantTable::GetConstantByName method (D3DX9Shader.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Returns a unique identifier to the constant.
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

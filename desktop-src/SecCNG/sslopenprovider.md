@@ -1,5 +1,5 @@
 ---
-Description: Opens a handle to the specified Secure Sockets Layer protocol (SSL) protocol provider.
+description: Opens a handle to the specified Secure Sockets Layer protocol (SSL) protocol provider.
 ms.assetid: 0d5c4da3-12d6-4a53-a4d0-f0f174a4c8d8
 title: SslOpenProvider function (Sslprovider.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

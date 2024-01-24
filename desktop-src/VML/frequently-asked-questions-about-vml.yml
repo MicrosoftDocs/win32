@@ -1,0 +1,83 @@
+### YamlMime:FAQ
+metadata:
+  title: Frequently Asked Questions About VML
+  description: Frequently Asked Questions About VML
+  ms.assetid: f7f2ce12-facf-4042-b2a7-acaa3e25816a
+  keywords:
+  - Vector Markup Language (VML),FAQs
+  - VML (Vector Markup Language),FAQs
+  - vector graphics,FAQs
+  - Vector Markup Language (VML),frequently asked questions
+  - VML (Vector Markup Language),frequently asked questions
+  - vector graphics,frequently asked questions
+  - Vector Markup Language (VML),GIF differences
+  - VML (Vector Markup Language),GIF differences
+  - Vector Markup Language (VML),PNG differences
+  - VML (Vector Markup Language),PNG differences
+  - vector graphics,raster format differences
+  - Vector Markup Language (VML),XML
+  - VML (Vector Markup Language),XML
+  - vector graphics,XML
+  - Vector Markup Language (VML),animation
+  - VML (Vector Markup Language),animation
+  - vector graphics,animation
+  - Vector Markup Language (VML),Macromedia Flash
+  - VML (Vector Markup Language),Macromedia Flash
+  - vector graphics,Macromedia Flash
+  - raster formats
+  - animation
+  - Macromedia Flash
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: Frequently Asked Questions About VML
+summary: |
+  This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+  
+  > [!Note]  
+  > As of December 2011, this topic has been archived. As a result, it is no longer actively maintained. For more information, see [Archived Content](/previous-versions/windows/internet-explorer/ie-developer/). For information, recommendations, and guidance regarding the current version of Windows Internet Explorer, see [Internet Explorer Developer Center](https://msdn.microsoft.com/ie/).
+  
+   
+  
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          Does VML compete with GIF and PNG?
+        answer: |
+          No. Both GIF and PNG are raster (or bit-mapped) formats that can be used to store vector graphics. Raster formats store every pixel, whereas vector formats such as VML use mathematical descriptions or outlines to describe the graphics. Vector graphics stored in a vector-based format are more compact than those stored in raster formats, resulting in faster download times for Web users.
+          
+          In addition, VML graphics are delivered inline to the HTML page rather than relying on external files, as is the case with GIF and PNG today. This allows VML graphics to scale and interact with other Web page elements as the page is resized, thus improving the end-user experience.
+          
+          [![back to top](images/top.gif) Back to top](#top)
+          
+      - question: |
+          Why is Microsoft supporting another XML-based standard when XML is hardly in use and is young enough as it is?
+        answer: |
+          XML is a powerful yet simple way to represent structured data on the Web, and fully complements HTML for display. VML is one example of the many application-specific, XML-based formats that will be developed and implemented in the coming months. For instance, in the next version of Office, VML will be used to annotate HTML documents -- to preserve formatting information of Office Art graphics between the native Office file format and HTML, thus enabling Office users to switch seamlessly between the two formats.
+          
+          [![back to top](images/top.gif) Back to top](#top)
+          
+      - question: |
+          Who will support VML?
+        answer: |
+          We expect many vendors to support VML. For example, Autodesk, Hewlett-Packard, Macromedia, and VISIO have pledged support for VML in future versions of their products. Microsoft has pledged support for VML in future versions of its platforms such as Internet Explorer. In addition, VML will be used in the next generation of Office to enable "round-tripping" between the Office format and HTML.
+          
+          [![back to top](images/top.gif) Back to top](#top)
+          
+      - question: |
+          Does VML support animation?
+        answer: |
+          No, it currently doesn't. However, we are working with our VML partners to add animation capability into the VML format. Since VML is based on XML, the tag set can be easily extended for additional functionality.
+          
+          [![back to top](images/top.gif) Back to top](#top)
+          
+      - question: |
+          Does VML replace Macromedia Flash? Didn't Macromedia just submit their Flash format for vector graphics to the W3C?
+        answer: |
+          No. VML is a text-based interchange and delivery format for vector graphics, whereas Flash is a binary format for the delivery of vector-based graphics and animation.
+          
+          Macromedia did not submit their file format to the W3C. However, they did open their file format up for application developers, Web developers and end users. See <https://www.macromedia.com> for more information.
+          
+          [Back to the VML overview](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md)
+ 

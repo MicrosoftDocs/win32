@@ -1,5 +1,5 @@
 ---
-Description: Lists compile and link requirements for cryptography sample programs.
+description: Lists compile and link requirements for cryptography sample programs.
 ms.assetid: 27e92c9f-27ab-4910-9d5e-7a46980f345e
 title: Compile and Link Considerations
 ms.topic: article

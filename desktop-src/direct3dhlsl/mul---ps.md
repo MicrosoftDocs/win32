@@ -1,6 +1,6 @@
 ---
 title: mul - ps
-description: Multiplies sources into the destination.
+description: Multiplies sources into the destination. | mul - ps
 ms.assetid: 03823c10-9631-4468-8488-4bd17224d16c
 ms.topic: reference
 ms.date: 05/31/2018

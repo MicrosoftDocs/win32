@@ -1,5 +1,5 @@
 ---
-Description: The following table shows the sequence of actions and events that are required for a backup operation to be terminated. For more information, see Overview of Processing a Backup Under VSS.
+description: The following table shows the sequence of actions and events that are required for a backup operation to be terminated. For more information, see Overview of Processing a Backup Under VSS.
 ms.assetid: 12dcb2d1-614b-4c4c-a47c-342f79b20a62
 title: Overview of Backup Termination
 ms.topic: article

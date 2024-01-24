@@ -1,22 +1,25 @@
 ---
-Description: Builds a quaternion with the given yaw, pitch, and roll.
+description: D3DXQuaternionRotationYawPitchRoll function (D3dx9math.h) - Builds a quaternion with the given yaw, pitch, and roll.
 ms.assetid: be4a3bd5-114b-4652-8e0a-e51338317c16
 title: D3DXQuaternionRotationYawPitchRoll function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionRotationYawPitchRoll
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXQuaternionRotationYawPitchRoll function
+# D3DXQuaternionRotationYawPitchRoll function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a quaternion with the given yaw, pitch, and roll.
 
@@ -90,7 +93,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

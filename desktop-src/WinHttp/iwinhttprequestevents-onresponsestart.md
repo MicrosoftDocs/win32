@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the response data starts to be received.
+description: Occurs when the response data starts to be received.
 ms.assetid: 7245725b-40dd-4282-b681-f0b2c191db94
 title: IWinHttpRequestEvents::OnResponseStart event
 ms.topic: reference
@@ -59,7 +59,7 @@ This is the first WinHTTP event to occur after the [**Send**](iwinhttprequest-se
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

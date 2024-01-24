@@ -1,5 +1,5 @@
 ---
-Description: Represents the runtime security settings of a CIM\_ComputerSystem.
+description: Represents the runtime security settings of a CIM\_ComputerSystem.
 ms.assetid: fa4448dc-9353-475f-ac9b-5c50f36360d8
 title: Msvm_SecurityElement class
 ms.topic: reference
@@ -130,7 +130,7 @@ The name of the scoping system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

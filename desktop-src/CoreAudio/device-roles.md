@@ -1,5 +1,5 @@
 ---
-Description: Device Roles
+description: Device Roles
 ms.assetid: aa787004-0d3e-448b-80dd-92055f841aee
 title: Device Roles
 ms.topic: article

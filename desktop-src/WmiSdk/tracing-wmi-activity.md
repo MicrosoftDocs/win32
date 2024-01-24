@@ -1,5 +1,5 @@
 ---
-Description: Starting with Windows Vista, the WMI service does not use the WMI Log Files. Instead, it uses Event Tracing for Windows (ETW) and events are available through Event Viewer or the Wevtutil command-line tool.
+description: Starting with Windows Vista, the WMI service does not use the WMI Log Files. Instead, it uses Event Tracing for Windows (ETW) and events are available through Event Viewer or the Wevtutil command-line tool.
 ms.assetid: bb6401e8-caf7-4f39-ab64-b7532723ce9a
 ms.tgt_platform: multiple
 title: Tracing WMI Activity
@@ -84,9 +84,9 @@ You can also enable WMI event tracing through the Wevtutil command-line tool. Us
 
 In Windows operating systems starting with Windows Vista, WMI creates an active trace channel during the boot process. The name of the channel is WMI\_Trace\_Session. Only errors are logged to the channel.
 
-The Windows software trace preprocessor (WPP) records information in a binary file. To read the file, you must first translate it into a readable, text format. You use a tool called tracefmt.exe from the [Windows Driver Kit (WDK)](https://www.microsoft.com/whdc/DevTools/WDK/WDKpkg.mspx) to do the translation. The tool requires information stored in some associated files. The files are located in the %SystemRoot%\\System32\\wbem\\tmf directory and have a .tmf file name extension. The tool actually requires a single .tmf file . You make that single file by concatenating all of the .tmf files into another .tmf file. For more information about .tmf files, see [Trace Message Format File](/windows-hardware/drivers/devtest/trace-message-format-file).
+The Windows software trace preprocessor (WPP) records information in a binary file. To read the file, you must first translate it into a readable, text format. You use a tool called tracefmt.exe from the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk) to do the translation. The tool requires information stored in some associated files. The files are located in the %SystemRoot%\\System32\\wbem\\tmf directory and have a .tmf file name extension. The tool actually requires a single .tmf file . You make that single file by concatenating all of the .tmf files into another .tmf file. For more information about .tmf files, see [Trace Message Format File](/windows-hardware/drivers/devtest/trace-message-format-file).
 
-After installing the [Windows Driver Kit (WDK)](https://www.microsoft.com/whdc/DevTools/WDK/WDKpkg.mspx) to get the tracelog.exe and tracefmt.exe command-line tools, perform the following steps to collect a WPP-based WMI trace.
+After installing the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk) to get the tracelog.exe and tracefmt.exe command-line tools, perform the following steps to collect a WPP-based WMI trace.
 
 **To view a WPP-based WMI trace**
 

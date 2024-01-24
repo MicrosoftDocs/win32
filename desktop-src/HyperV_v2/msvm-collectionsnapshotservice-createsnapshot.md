@@ -1,5 +1,5 @@
 ---
-Description: Creates a snapshot of a virtual system collection.
+description: Creates a snapshot of a virtual system collection.
 ms.assetid: 2512d82f-06b9-4613-b920-d3a9be884a75
 title: CreateSnapshot method of the Msvm_CollectionSnapshotService class
 ms.topic: reference
@@ -159,7 +159,7 @@ On success, returns either 0 (Complete) or 4096 (Job Started); otherwise, return
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

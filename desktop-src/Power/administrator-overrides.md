@@ -1,5 +1,5 @@
 ---
-Description: Administrator Overrides
+description: Administrator Overrides
 ms.assetid: 25b6ce86-52c8-4f7f-97af-86b2eaf3e9af
 title: Administrator Overrides
 ms.topic: article

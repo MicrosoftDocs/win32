@@ -1,5 +1,5 @@
 ---
-Description: To publish a product, component, or feature, use one of the publishing actions.
+description: To publish a product, component, or feature, use one of the publishing actions.
 ms.assetid: 2c395d81-4f46-444e-a275-7a5d806e473c
 title: Publishing Products, Features, and Components
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the aspect ratio of the output rectangle for a video media type.
+description: Specifies the aspect ratio of the output rectangle for a video media type.
 ms.assetid: d7fec5fb-a1fe-4cc9-aa27-a3af0456ea8d
 title: MF_MT_PAD_CONTROL_FLAGS attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

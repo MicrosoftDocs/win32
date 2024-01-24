@@ -1,5 +1,5 @@
 ---
-Description: Queries for the amount of scratch memory that the hardware abstraction layer (HAL) will allocate for its private use.
+description: Queries for the amount of scratch memory that the hardware abstraction layer (HAL) will allocate for its private use.
 ms.assetid: 20e3dbef-daf5-487a-8d50-e2ebdb712cc0
 title: IDirect3DVideoDevice9::GetDXVAInternalInfo method (Dxva.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |

@@ -41,8 +41,8 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -76,8 +76,8 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 <td>[in] Set one or more state groups such as: <br/> 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -91,7 +91,7 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -108,7 +108,7 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -126,7 +126,7 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -144,7 +144,7 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -160,7 +160,7 @@ TechniqueVersion *TechniqueName* \[ <*Annotations* > \]
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -185,7 +185,7 @@ SetGeometryShader( ConstructGSWithSO( Shader, strStream0, strStream1, strStream2
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

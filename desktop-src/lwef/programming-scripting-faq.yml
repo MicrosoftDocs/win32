@@ -1,0 +1,189 @@
+### YamlMime:FAQ
+metadata:
+  title: Programming Scripting FAQ
+  description: Programming Scripting FAQ
+  ms.assetid: 84078c5b-7b04-48fa-9d0a-d95393c323eb
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: Programming Scripting FAQ
+summary: |
+  \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
+  
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          When I use Microsoft Visual Basic (or other development tools) for scripting Microsoft Agent, I do not see all the properties and events used in your samples. How do I access them?
+        answer: |
+          Most of the events, methods, and properties supported by the Microsoft Agent control are exposed only at run time. Consult [Programming the Microsoft Agent Control](programming-the-microsoft-agent-control.md) for further information.
+          
+      - question: |
+          The Map tag (or some other tag) doesn't seem to work.
+        answer: |
+          Some tags include quoted strings. For some programming languages, such as Microsoft Visual Basic and Visual Basic Scripting Edition, you may have to use two quote marks to designate the tag's parameter or concatenate a double-quote character as part of the string. The latter is shown in this Visual Basic example:
+          
+          Agent1.Characters("Genie").Speak "This is \\map=" + chr(34) + "Spoken text" \_ + chr(34) + "=" + chr(34) + "Balloon text" + chr(34) + "\\."
+          
+          For C, C++, and Java programming, precede backslashes and double quotes with a backslash. For example:
+          
+          BSTR bszSpeak = SysAllocString(L"This is \\\\map=\\"Spoken text\\"=\\"Balloon text\\"\\\\");
+          
+          pCharacter->Speak(bszSpeak, ......);
+          
+          > [!Note]  
+          > Microsoft Agent does not support all the tags specified in the Microsoft Speech API. In addition, support for some parameters may depend on the text-to-speech engine installed. For further information, see [Microsoft Agent Speech Output Tags](microsoft-agent-speech-output-tags.md).
+          
+           
+          
+      - question: |
+          I don't seem to get RequestStart and RequestComplete events in my script (or program).
+        answer: |
+          This could be caused by one of the following problems:
+          
+          -   Your programming language doesn't fully support ActiveX controls. Check your documentation to ensure that it supports the ActiveX interface and events for ActiveX objects.
+          -   On a scripted webpage, another control has failed to install or load. Check to ensure that all other controls are installed and loading properly without Microsoft Agent.
+          -   On a scripted webpage with frames, you have the `<OBJECT>` tag for the Microsoft Agent control on one page, and the events scripted on another page. Events are sent only to the page that hosts the control.
+          
+      - question: |
+          I am using the Microsoft Agent control with other ActiveX controls on my webpage, and I don't seem to get any events.
+        answer: |
+          Check to see if the other controls are correctly installed. If another ActiveX control fails to correctly register itself, the Microsoft Agent control may receive its events.
+
+      - question: |
+          What programming languages can I use to program the Microsoft Agent control?
+        answer: |
+          Microsoft Agent should be supportable from any language that supports the ActiveX interface. It includes code samples for Visual Basic, VBScript, JScript, C/C++, and Java.
+
+      - question: |
+          Can I access the parameters returned from Microsoft Agent using JScript?
+        answer: |
+          Yes, but currently the only way to do this is using the `<SCRIPT LANGUAGE="JScript" FOR="*object*" EVENT="event()">` syntax. Although this syntax is supported for Microsoft Internet Explorer, other browsers do not support it, so you may want to avoid using JScript for this part of your page's script.
+
+      - question: |
+          Can Microsoft Agent be used with speech recognition or speech synthesis (text-to-speech, or TTS) engines other than those supplied by Microsoft?
+        answer: |
+          Yes, provided that the engine supports the Microsoft Speech API (SAPI) 4.0 interfaces required by Microsoft Agent. Check with the engine supplier. For complete details on the SAPI interfaces required by Microsoft Agent, see [Speech Engine Support Requirements](speech-engine-support-requirements.md).
+          
+      - question: |
+          My page includes HTML Object tags for Microsoft Agent, the Lernout & Hauspie TruVoice TTS engine, and the Microsoft Command and Control speech recognition engine, but not all the components install.
+        answer: |
+          Typically, the problem can be corrected by refreshing the page. As a general practice, it is best to specify the Microsoft Agent Control `<OBJECT>` tag first, then the Lernout & Hauspie TruVoice engine, then the Command and Control speech recognition engine.
+
+      - question: |
+          After calling the MoveTo method, my character seems to freeze even though I have Return animations assigned to Moving state animations.
+        answer: |
+          When you play an animation, the animation services continue to display its last frame until another animation is called. Therefore, you should play another animation after calling [**MoveTo**](moveto-method.md). If you defined a **Return** animation for the **Moving** state animation, the server will play it first.
+          
+      - question: |
+          When I query the character's Pitch property, it returns a value of -1.
+        answer: |
+          This occurs if the character has been compiled using a speech engine's default pitch property; that is, the pitch was not changed when the character was built.
+
+      - question: |
+          When my code attempts to set the TTS mode ID for a text-to-speech engine, I get the following error: An outgoing call cannot be made since the application is dispatching an input-synchronous call.
+        answer: |
+          To set the TTSModeID property, you must have Speech.dll installed. This is typically a part of the speech engine's installation code. You may also install this by installing the Speech object control panel , available from the Microsoft Agent Downloads page.
+
+      - question: |
+          When I retry loading a character that failed to load, the call fails with a "Character already loaded" error.
+        answer: |
+          The Microsoft Agent control does not unload a character object (release the reference) when its associated character file fails to load. If you want to retry loading the character, you must explicitly call [**Unload**](unload-method.md) before you call [**Load**](load-method.md) the second time. If you attempt this from a webpage script, you also need to precede the **Unload** call with an On Error Resume Next statement, or the **Unload** call will also fail. (Note that JScript has no On Error Resume Next statement.)
+          
+          However, you may not need to include code to immediately retry loading a character when the file fails to load. Microsoft Internet Explorer and the Microsoft Agent server component automatically attempt to retry several times, so the chances that your retry will result in a successful load are remote. A better strategy is to wait (set a timer) a few seconds before you retry.
+          
+      - question: |
+          How can I install Microsoft Agent as part of my application or from my web server?
+        answer: |
+          You can install Agent from the Microsoft website by including its *CLSID in an HTML Object tag*. However, if you want to include and install Agent from your own application installation program or from your own server, you must download the Microsoft Agent self-installing cabinet file, by downloading it from the Downloads page. When downloading, choose the browser's Save rather than Run option. Whenever this file is run, it automatically will install Microsoft Agent on the target machine. Therefore you can specify the file in your installation script.
+          
+          Do not attempt to install Microsoft Agent by copying its various .DLLs and attempting to register it yourself. Attempting to install Agent by any other means then executing its self-installing cabinet file is not supported.
+          
+          The target system must also include recent versions of MSVCRT.DLL (VC++ runtime), REGSVR32.EXE (registration tool included with Microsoft VC++), and COM. The best way to ensure that the correct versions are installed is to require that Microsoft Internet Explorer 3.02 or later is installed. However, you can also license these runtime requirements. (For the latest version of COM, access the DCOM update from the Microsoft website.)
+          
+          Microsoft Agent 2.0 will not install on Microsoft Windows 2000 since this version of the operating system already includes Agent.
+          
+      - question: |
+          Can I use the Visual Basic Setup Wizard to install Microsoft Agent?
+        answer: |
+          While you can create your own installation program using Visual Basic (VB) code you can't use the Visual Basic Setup Wizard to do this. To install Agent from VB, you can use Shell command, specifying the Microsoft Agent self-installing cabinet file.
+
+      - question: |
+          How do I install Microsoft Agent on Windows 2000?
+        answer: |
+          Microsoft Agent 2.0 does not install on Windows 2000 because it is already included as a part of the operating system.
+
+      - question: |
+          AgentSvr crashes when Speak is called with a WAV file.
+        answer: |
+          This may result when the character has been using TTS for spoken output, then changes to use a WAV file. Text was not supplied in the first parameter of the Speak method.
+          
+          To avoid the crash, include a space character in the first parameter of the Speak method, even if you have no text output.
+          
+      - question: |
+          Even though I have already installed the Agent language component (DLL) for a particular language, I still got an error that the component is missing when I set the character's language to that language.
+        answer: |
+          This usually happens when you have Agent applications such as Microsoft Office 2000 open when you install the Agent language component. Close all applications and try again. If the problem persists, restart your computer and you should be able to set the language ID now.
+
+      - question: |
+          When I use the ampersand "&" symbol, the text around the symbol in the character's word balloons is truncated.
+        answer: |
+          This is a known issue. You can work around this by using the map tag. For example to display "A & B" in the character's word balloon, use "A \\map="and"="&&"\\ B" in the Speak statement.
+
+      - question: |
+          My application allows users to change the default character and when they do, the program crashes.
+        answer: |
+          There are two possible causes:
+          
+          If you change the TTS Mode ID of the default character and then allow the user to change the default character through ShowDefaultCharacterProperties, AgentSvr will crash.
+          
+          This problem has been fixed in the Windows 2000 and Windows XP operating systems. To avoid the crash on other platforms, you should either not allow the user to change the default character after you change the default character's TTS Mode ID, or do not use the default character in your application or webpage.
+          
+          If your application does not use Microsoft-supplied Agent characters, make sure that your customized character uses a palette with a full palette of 256 colors. For more information see the Designing Characters for Microsoft Agent document.
+          
+      - question: |
+          My page loads the Agent character from multiple frames. With IE 5, I get the Microsoft Agent failed to load error.
+        answer: |
+          This is a known issue with IE 5. There was a change in how the browser handles a certain event, which causes the HTML script to begin running before AgentSvr is started. In order to make your page work with all versions of the browser, you need to add this line to your script:
+          
+          AgentControl.Connected = True
+          
+          which explicitly creates a connection to the AgentSvr. Note that you only need to do this if your page loads Agent from multiple frames.
+          
+      - question: |
+          When my application tries to install Microsoft Agent on Windows 2000 (or Windows XP), I get the error that Agent is not compatible with Windows 2000 (or Windows XP).
+        answer: |
+          A previous version of the Agent core component cabinet file MSAGENT.exe, when executed on Windows 2000 (and Windows XP), will block installation and display an inaccurate error message that Agent is not compatible with the version of the operating system you are running. In fact, Microsoft Agent 2.0 core components are included as part of Windows 2000 (and Windows XP), and are already installed by default through Windows setup.
+          
+          In this version, the check is removed and the installation file will not display the aforementioned error message under Windows 2000 (or Windows XP). Note that this is the only change to the installation file, and there are no code changes to the Agent core components themselves. Therefore, you are not affected by this update if you already have Agent 2.0 installed, or if your website uses an object tag to trigger automatic downloads of the Agent core components from the Microsoft Object Store.
+          
+          If you include the Agent core component installation file with your application, or if you post the installation file on your server, you may want to download this update. To do so, click here and select the "Save this program to disk" option. You must have a valid and current Agent distribution license for these circumstances.
+          
+          Alternately, you can also work around this problem by using the silent option when installing the previous version of the MSAGENT.exe installation file. The shell command is:
+          
+          **MSAGENT.exe /q:a**
+          
+          The same applies to the Agent language components that were originally released in October 1998. There was a check that would prevent the Arabic, French, German, Hebrew, Italian, Japanese, Korean, Simplified Chinese, Spanish, and Traditional Chinese language components from installing under Windows 2000 (and Windows XP). The newer versions of these installation files, along with the additional 19 languages added in March 2000, do not contain this check and will install successfully on Windows 2000 (and Windows XP).
+          
+      - question: |
+          My customized character exhibits some unexpected behavior with its transparency color on Windows 2000 (and Windows XP).
+        answer: |
+          This is a known issue for characters created with a palette of less than 256 colors. Issues with these characters include the transparency color showing in the background, transparent balloon text, transparent balloon border, or transparent balloon background. Note that such characters may cause your applications to crash when loaded in the Agent character picker dialog or the Microsoft Office Assistant gallery. Your customized characters must use a full palette with 256 colors. You can use the sample palette provided for Office Assistant characters as a starting point with a full 256 color palette.
+
+      - question: |
+          The character does not use the British English TTS engine even though I have set its language ID to British English &h0809.
+        answer: |
+          First make sure you have all the necessary components installed—Agent core components, the SAPI runtime binaries, and a SAPI4 compliant British English TTS engine like the TTS3000 British English engine, available for download on the Agent Downloads page. If your character is still not using the British English TTS engine, it's likely you also have an American English TTS engine installed. Since both British and American English share the same primary language (English) and American English is the default, Agent will pick the first available American English TTS engine as returned by SAPI. To use a British English TTS engine, use the character's TTSModeID property instead. For example, the TTSModeID for the TTS3000 British English male voice is {227A0E41-A92A-11d1-B17B-0020AFED142E}. In Microsoft Visual Basic you can use this engine by setting Merlin's TTSModeID as follows:
+          
+          AgentControl.Characters("Merlin").TTSModeID = {227A0E41-A92A-11d1-B17B-0020AFED142E}
+          
+      - question: |
+          When the character's volume is set to zero using the speech tag \Vol=0\, it either has no effects or crashes the AgentSvr.
+        answer: |
+          This is a known problem. On Windows 95, Windows 98, and Windows Me operating systems, the character's volume does not change but will remain at the previously set level. On Windows NT 4.0, Windows 2000 and Windows XP platforms, this will cause AgentSvr to crash, even when a TTS engine is not installed. Since the range of the character's volume, from 0 (silence) to 65535 (maximum volume), is large and the difference between successive levels is hardly discernable, the easy workaround is to set the volume to 1 instead of 0 when you want the character's voice to be inaudible.
+
+      - question: |
+          My customized character's Return animation does not play correctly after the MoveDown, MoveLeft, MoveRight and/or MoveUp animations.
+        answer: |
+          Make sure a simple speaking animation is assigned to the Speaking State. For example, you can use a single frame consisting of the character's neutral position with mouth overlays.
+          

@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the Microsoft Direct3D Device Manager for the Source Reader.
+description: Contains a pointer to the Microsoft Direct3D Device Manager for the Source Reader.
 ms.assetid: 507d350e-da0c-42d0-8a8d-77618ee5a1dd
 title: MF_SOURCE_READER_D3D_MANAGER attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ You would not set this attribute if:
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FloatColumnValue constructor"
 title: FloatColumnValue constructor 
 TOCTitle: 'FloatColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.FloatColumnValue.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # FloatColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public FloatColumnValue()
 
 #### Reference
 
-[FloatColumnValue class](dn350880\(v=exchg.10\).md)
+[FloatColumnValue class](./floatcolumnvalue-class.md)
 
-[FloatColumnValue members](dn350882\(v=exchg.10\).md)
+[FloatColumnValue members](./floatcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

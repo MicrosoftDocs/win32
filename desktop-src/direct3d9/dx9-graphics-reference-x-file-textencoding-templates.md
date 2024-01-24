@@ -1,5 +1,5 @@
 ---
-Description: Templates define how the data stream is interpreted - the data is modulated by the template definition. This section discusses the following aspects of a template and provides an example template.
+description: Templates define how the data stream is interpreted - the data is modulated by the template definition. This section discusses the following aspects of a template and provides an example template.
 ms.assetid: f84978a8-8315-4626-be68-f00f3a72e5ac
 title: Templates (X file format, text encoding)
 ms.topic: article
@@ -65,7 +65,7 @@ array <data-type> <name>[<dimension-size>];
 
 
 
-<dimension-size> can either be an integer or a named reference to another template member whose value is then substituted. Arrays can be n-dimensional, where n is determined by the number of paired square brackets trailing the statement, as in the following example.
+&lt;dimension-size&gt; can either be an integer or a named reference to another template member whose value is then substituted. Arrays can be n-dimensional, where n is determined by the number of paired square brackets trailing the statement, as in the following example.
 
 
 ```

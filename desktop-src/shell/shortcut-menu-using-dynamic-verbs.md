@@ -1,5 +1,5 @@
 ---
-Description: Shortcut menu handlers are also known as context menu handlers or verb handlers. A shortcut menu handler is a type of file type handler.
+description: Shortcut menu handlers are also known as context menu handlers or verb handlers. A shortcut menu handler is a type of file type handler.
 ms.assetid: 7FC65C6F-3798-404c-B359-2BC75D3F54E7
 title: Customizing a Shortcut Menu Using Dynamic Verbs
 ms.topic: article
@@ -82,7 +82,7 @@ HKEY_CLASSES_ROOT
          ContextMenuHandlers
 ```
 
-For more information about about which folder types you can register handlers for, see [Registering Shell Extension Handlers](handlers.md).
+For more information about which folder types you can register handlers for, see [Registering Shell Extension Handlers](handlers.md).
 
 If a file type has a shortcut menu associated with it, then double-clicking an object normally launches the default command, and the handler's [**IContextMenu::QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) method is not called. To specify that the handler's **IContextMenu::QueryContextMenu** method should be called when an object is double-clicked, create a subkey under the handler's **CLSID** subkey as shown here.
 

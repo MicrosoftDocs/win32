@@ -1,6 +1,6 @@
 ---
 title: Typed Unordered Access View Loads
-description: Unordered Access View (UAV) Typed Load is the ability for a shader to read from a UAV with a specific DXGI\_FORMAT.
+description: Learn about Unordered Access View (UAV) Typed Load in Direct3D 11. UAV Typed Load is the ability for a shader to read from a UAV with a specific DXGI_FORMAT.
 ms.assetid: BA72BF21-8621-461D-8677-9DFB7D5BC6AA
 ms.topic: article
 ms.date: 05/31/2018
@@ -87,7 +87,7 @@ if (SUCCEEDED(hr))
     if (FeatureData.TypedUAVLoadAdditionalFormats)
     {
         // Can assume “all-or-nothing” subset is supported (e.g. R32G32B32A32_FLOAT)
-        // Can not assume other formats are supported, so we check:
+        // Cannot assume other formats are supported, so we check:
         D3D11_FEATURE_DATA_FORMAT_SUPPORT2 FormatSupport;
         ZeroMemory(&FormatSupport, sizeof(FormatSupport));
         FormatSupport.InFormat = DXGI_FORMAT_R32G32_FLOAT;

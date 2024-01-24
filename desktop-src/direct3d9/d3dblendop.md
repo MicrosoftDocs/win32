@@ -1,5 +1,5 @@
 ---
-Description: Defines the supported blend operations. See Remarks for definitions of terms.
+description: Defines the supported blend operations. See Remarks for definitions of terms.
 ms.assetid: ae750d84-ed7d-4a76-bf64-eae8828c66c7
 title: D3DBLENDOP enumeration (D3D9Types.h)
 ms.topic: reference
@@ -106,7 +106,7 @@ This enumerated type defines values used by the following render states:
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

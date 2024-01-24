@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INSTANCE operators"
 title: JET_INSTANCE operators
 TOCTitle: JET_INSTANCE operators
 ms:assetid: 45e2b5a4-498a-9de3-014f-2c3104658669
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_INSTANCE](hh564593\(v=exchg.10\).md) type exposes the following members.
+The [JET_INSTANCE](./jet-instance-structure.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_INSTANCE structure](hh564593\(v=exchg.10\).md)
+[JET_INSTANCE structure](./jet-instance-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

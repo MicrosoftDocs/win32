@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFMediaStream::RequestSample method.
+description: Remotable version of the IMFMediaStream::RequestSample method.
 ms.assetid: 05ed4de0-fe5c-4183-8f1d-55d5a27e436a
 title: RemoteRequestSample (Mfobjects.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

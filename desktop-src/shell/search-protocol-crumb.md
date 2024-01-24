@@ -1,5 +1,5 @@
 ---
-Description: The crumb argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search.
+description: Understand how to use the CRUMB argument in the Windows Shell UI as a means of controlling the scope of a search.
 title: CRUMB Argument (The Windows Shell)
 ms.topic: article
 ms.date: 05/31/2018
@@ -12,7 +12,7 @@ topic_type:
 
 ---
 
-# CRUMB Argument
+# CRUMB Argument (The Windows Shell)
 
 The `crumb` argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search. In addition to AQS statments, the `crumb` argument can take a special `location` parameter on Windows Vista and `kind` and `store` parameters on Windows XP, as described later in this topic.
 
@@ -36,7 +36,7 @@ crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&
 
 
 
-The <column> portion is any property in the property system, and the <value> portion is a valid value for that property. The <label> portion is an optional alias for the property that displays as a user interface hint.
+The &lt;column&gt; portion is any property in the property system, and the &lt;value&gt; portion is a valid value for that property. The <label> portion is an optional alias for the property that displays as a user interface hint.
 
 ### General Examples
 
@@ -62,7 +62,7 @@ When you specify a `location` property, two additional parameters are supported 
 | Parameter | Values                  | Description                                                                                                                                                                       |
 |-----------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | inclusion | include, exclude        | Specifies whether the query should include or exclude items from that path. "Include" is the default. Windows Vista does not support exclusions without inclusions. (See example) |
-| recursion | recursive, nonrecursive | Specifies whether the search should recurse all subfolders starting from the value defined in the location:<value>. "Recursive" is the default.                             |
+| recursion | recursive, nonrecursive | Specifies whether the search should recurse all subfolders starting from the value defined in the location:&lt;value&gt;. "Recursive" is the default.                             |
 
 
 
@@ -72,17 +72,17 @@ To scope a search using the **search:** protocol, you have different options dep
 
 Folder on a local machine:
 
--   Use AQS (crumb=folder:<URL-encoded path>)
--   Use location argument (crumb=location:<URL-encoded path>)
+-   Use AQS (crumb=folder:\<URL-encoded path\>)
+-   Use location argument (crumb=location:\<URL-encoded path\>)
 
 Folder on a remote machine/network:
 
--   Use location argument (crumb=location:<URL-encoded path>)
+-   Use location argument (crumb=location:\<URL-encoded path\>)
 
 Folder accessed through a known Universal Naming Convention (UNC) protocol handler:
 
--   Use AQS (crumb=store:<UNC protocol handler name>)
--   Use location argument (crumb=location:<URL-encoded path>)
+-   Use AQS (crumb=store:\<UNC protocol handler name\>)
+-   Use location argument (crumb=location:\<URL-encoded path\>)
 
 ### Vista Examples
 
@@ -182,9 +182,9 @@ The following table lists the CSIDL values. Refer to [**ShellSpecialFolderConsta
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Minimum Operating System | Windows Vista with Service Pack 1 (SP1) |
+|                              | Value                                   |
+|------------------------------|-----------------------------------------|
+| **Minimum Operating System** | Windows Vista with Service Pack 1 (SP1) |
 
 
 

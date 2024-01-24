@@ -1,5 +1,5 @@
 ---
-Description: XMUDECN4A 4D vector for storing unsigned, normalized values as 10 bit unsigned x-,y-, and z- components and a 2 bit unsigned w-component.
+description: XMUDECN4A 4D vector for storing unsigned, normalized values as 10 bit unsigned x-,y-, and z- components and a 2 bit unsigned w-component.
 ms.assetid: b788f66d-43e0-4300-b546-b6a710bee7e8
 title: XMUDECN4 Extensions
 ms.topic: reference

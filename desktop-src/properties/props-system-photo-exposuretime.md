@@ -1,5 +1,5 @@
 ---
-Description: The exposure time for the photo, in seconds, as read from the Exchangeable Image File (EXIF) information.
+description: The exposure time for the photo, in seconds, as read from the Exchangeable Image File (EXIF) information.
 ms.assetid: 44f7e6d5-c4d9-4b41-b6c6-15145abb7983
 title: System.Photo.ExposureTime
 ms.topic: article
@@ -54,7 +54,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

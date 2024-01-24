@@ -36,7 +36,7 @@ lParam = (LPARAM) (LPRECT) prc;
 <span id="prc"></span><span id="PRC"></span>*prc*
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure to contain the coordinates of the source rectangle.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure to contain the coordinates of the source rectangle.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ Returns zero if successful or an error otherwise.
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

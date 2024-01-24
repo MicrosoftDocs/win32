@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PCMCIAController &\#32; WMI class manages the capabilities of a Personal Computer Memory Card Interface Adapter (PCMCIA of a PC Card) controller device.
+description: The Win32\_PCMCIAController &\#32; WMI class manages the capabilities of a Personal Computer Memory Card Interface Adapter (PCMCIA of a PC Card) controller device.
 ms.assetid: 541f8ebd-e976-425a-817a-72ab151e8b93
 ms.tgt_platform: multiple
 title: Win32_PCMCIAController class
@@ -1578,7 +1578,7 @@ The **Win32\_PCMCIAController** class is derived from [**CIM\_PCMCIAController**
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

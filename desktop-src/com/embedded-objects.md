@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Embedded Objects
+# Embedded Objects (COM)
 
 An embedded object is physically stored in the compound document, along with all the information needed to manage the object. In other words, the embedded object is actually a part of the compound document in which it resides. This arrangement has a couple of disadvantages. First, a compound document containing embedded objects will be larger than one containing the same objects as links. Second, changes made to the source of an embedded object will not be automatically replicated in the embedded copy, and changes in the embedded copy will not be reflected in the source, as they are with a link.
 

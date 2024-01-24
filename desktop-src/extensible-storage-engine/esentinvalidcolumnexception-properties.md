@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException properties"
 title: EsentInvalidColumnException properties
 TOCTitle: EsentInvalidColumnException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidColumnException](dn319487\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidColumnException](./esentinvalidcolumnexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidColumnException class](dn319487\(v=exchg.10\).md)
+[EsentInvalidColumnException class](./esentinvalidcolumnexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

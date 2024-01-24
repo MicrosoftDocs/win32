@@ -1,5 +1,5 @@
 ---
-Description: The InstallFiles action copies files specified in the File table from the source directory to the destination directory.
+description: The InstallFiles action copies files specified in the File table from the source directory to the destination directory.
 ms.assetid: 187ad82f-13f5-4ea3-913c-2ae7561a6ee6
 title: InstallFiles Action
 ms.topic: article

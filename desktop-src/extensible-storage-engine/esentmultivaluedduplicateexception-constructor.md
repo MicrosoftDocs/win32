@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateException constructor"
 title: EsentMultiValuedDuplicateException constructor 
 TOCTitle: 'EsentMultiValuedDuplicateException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMultiValuedDuplicateException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentMultiValuedDuplicateException()
 
 #### Reference
 
-[EsentMultiValuedDuplicateException class](dn319652\(v=exchg.10\).md)
+[EsentMultiValuedDuplicateException class](./esentmultivaluedduplicateexception-class.md)
 
-[EsentMultiValuedDuplicateException members](dn334704\(v=exchg.10\).md)
+[EsentMultiValuedDuplicateException members](./esentmultivaluedduplicateexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

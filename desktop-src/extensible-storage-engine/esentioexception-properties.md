@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIOException properties"
 title: EsentIOException properties
 TOCTitle: EsentIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIOException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIOException](dn319595\(v=exchg.10\).md) type exposes the following members.
+The [EsentIOException](./esentioexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentIOException class](dn319595\(v=exchg.10\).md)
+[EsentIOException class](./esentioexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

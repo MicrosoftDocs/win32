@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.TruncateLogsAfterRecovery field"
 title: VistaGrbits.TruncateLogsAfterRecovery field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: TruncateLogsAfterRecovery field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.TruncateLogsAfterRecovery
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 On successful soft recovery, truncate log files.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const InitGrbit TruncateLogsAfterRecovery
 
 #### Reference
 
-[VistaGrbits class](dn335350\(v=exchg.10\).md)
+[VistaGrbits class](./vistagrbits-class.md)
 
-[VistaGrbits members](dn351282\(v=exchg.10\).md)
+[VistaGrbits members](./vistagrbits-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

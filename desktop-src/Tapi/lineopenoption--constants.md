@@ -1,5 +1,5 @@
 ---
-Description: The LINEOPENOPTION\_ constants list the available options for opening a line.
+description: The LINEOPENOPTION\_ constants list the available options for opening a line.
 ms.assetid: 361ae90c-a2cf-4107-a2da-80f561a82c56
 title: LINEOPENOPTION_ Constants (Tapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ See [**lineOpen**](/windows/desktop/api/Tapi/nf-tapi-lineopen) for further detai
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

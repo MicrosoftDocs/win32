@@ -1,5 +1,5 @@
 ---
-Description: To help prevent malicious attack, determine whether your application requires administrator privileges. For functions that require administrator permissions, create a separate application and use the Windows RunAs command line command.
+description: To help prevent malicious attack, determine whether your application requires administrator privileges. For functions that require administrator permissions, create a separate application and use the Windows RunAs command line command.
 ms.assetid: afa520fc-c206-49de-8d73-8f6566ec4fb6
 title: Running with Administrator Privileges
 ms.topic: article

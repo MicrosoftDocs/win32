@@ -1,5 +1,5 @@
 ---
-Description: This property identifies the retention policy applied to the item.
+description: This property identifies the retention policy applied to the item.
 ms.assetid: 17bd4f09-675f-4e3b-989b-40a0a775e6ba
 title: System.Communication.PolicyTag
 ms.topic: article

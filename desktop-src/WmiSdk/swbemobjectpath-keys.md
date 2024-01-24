@@ -1,5 +1,5 @@
 ---
-Description: The Keys property of the SWbemObjectPath object is an SWbemNamedValueSet object that contains the key value bindings. This property is read-only.
+description: The Keys property of the SWbemObjectPath object is an SWbemNamedValueSet object that contains the key value bindings. This property is read-only.
 ms.assetid: 1919403d-6dea-4d41-9bc7-a622a9c9c2c8
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Keys property (Adoctint.h)
@@ -54,7 +54,7 @@ The feature or operation is not supported. This error is returned if a script at
 
 
 
-|                                     |                                                                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                   |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                             |

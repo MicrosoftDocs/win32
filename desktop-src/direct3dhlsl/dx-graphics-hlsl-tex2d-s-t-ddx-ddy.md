@@ -1,6 +1,6 @@
 ---
-title: tex2D (HLSL reference)
-description: Samples a 2D texture using a gradient to select the mip level.
+title: tex2D (HLSL reference) - Select the mip level
+description: Samples a 2D texture using a gradient to select the mip level. | tex2D (HLSL reference)
 ms.assetid: 0e8c32ed-d174-4045-9cbf-6c04586ea5bb
 keywords:
 - tex2D HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# tex2D (HLSL reference)
+# tex2D (HLSL reference) - Select the mip level
 
 Samples a 2D texture using a gradient to select the mip level.
 

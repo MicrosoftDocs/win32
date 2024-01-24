@@ -1,5 +1,5 @@
 ---
-Description: Raised when a media source seeks to a new position. A media source raises this event if the source is running or paused and the application calls IMFMediaSource::Start with a start time that does not equal the current position.
+description: Raised when a media source seeks to a new position. A media source raises this event if the source is running or paused and the application calls IMFMediaSource::Start with a start time that does not equal the current position.
 ms.assetid: 51ce770e-ddc7-41c1-8e31-59481cafe2b0
 title: MESourceSeeked event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

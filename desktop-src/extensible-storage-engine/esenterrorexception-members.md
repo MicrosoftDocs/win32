@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException members"
 title: EsentErrorException members
 TOCTitle: EsentErrorException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentErrorException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for ESENT error exceptions.
 
-The [EsentErrorException](dn274314\(v=exchg.10\).md) type exposes the following members.
+The [EsentErrorException](./esenterrorexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentErrorException class](dn274314\(v=exchg.10\).md)
+[EsentErrorException class](./esenterrorexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

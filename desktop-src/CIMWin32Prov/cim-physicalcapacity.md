@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalCapacity class is an abstract class that represents a physical element's minimum and maximum requirements and its ability to support different types of hardware.
+description: The CIM\_PhysicalCapacity class is an abstract class that represents a physical element's minimum and maximum requirements and its ability to support different types of hardware.
 ms.assetid: e422aec0-1830-464e-ac52-2911652165a2
 ms.tgt_platform: multiple
 title: CIM_PhysicalCapacity class
@@ -109,7 +109,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The BERGetInteger function decodes a BER-encoded integer.
+description: The BERGetInteger function decodes a BER-encoded integer.
 ms.assetid: 1ab0dcec-05cf-4322-a44e-28aa9131495a
 title: BERGetInteger function (Netmon.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If function is unsuccessful, the return value is **FALSE**.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

@@ -1,6 +1,6 @@
 ---
 title: StructuredBuffer::Load(int) function
-description: Reads buffer data.
+description: Reads buffer data. | StructuredBuffer::Load(int) function
 ms.assetid: 'ef08d360-0494-49f7-9481-cb802e14aeee'
 keywords:
 - Load function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int) function
+# StructuredBuffer::Load(int) function
 
 Reads buffer data.
 

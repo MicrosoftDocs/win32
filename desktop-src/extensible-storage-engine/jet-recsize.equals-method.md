@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.Equals method"
 title: JET_RECSIZE.Equals method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.Equals
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](./jet-recsize-structure2.md)
 
-[JET_RECSIZE members](hh557127\(v=exchg.10\).md)
+[JET_RECSIZE members](./jet-recsize-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

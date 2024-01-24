@@ -1,5 +1,5 @@
 ---
-Description: An application should be able to produce and consume data from multiple formats.
+description: An application should be able to produce and consume data from multiple formats.
 ms.assetid: bf60fab7-866b-4659-8316-653509ac5112
 title: Persistence Formats
 ms.topic: article

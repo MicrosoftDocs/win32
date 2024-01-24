@@ -1,5 +1,5 @@
 ---
-Description: Subdivides faces on a mesh, allowing for conservative adaptive sampling that will not eliminate features on the mesh.
+description: Subdivides faces on a mesh, allowing for conservative adaptive sampling that will not eliminate features on the mesh.
 ms.assetid: 0d74a01a-de67-4607-99eb-ed98e239f199
 title: ID3DXPRTEngine::RobustMeshRefine method (D3DX9Mesh.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

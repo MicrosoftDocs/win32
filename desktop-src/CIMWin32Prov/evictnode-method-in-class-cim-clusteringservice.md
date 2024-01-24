@@ -1,5 +1,5 @@
 ---
-Description: The EvictNode method removes a computer system from a cluster. The node to be evicted is specified as a parameter to the method.
+description: The EvictNode method removes a computer system from a cluster. The node to be evicted is specified as a parameter to the method.
 ms.assetid: 4691d536-ade3-4a02-bc28-e31ebaf5d9e4
 ms.tgt_platform: multiple
 title: EvictNode method of the CIM_ClusteringService class
@@ -63,7 +63,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

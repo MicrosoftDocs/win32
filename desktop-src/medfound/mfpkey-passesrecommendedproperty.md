@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum number of passes supported by the encoder.
+description: Specifies the maximum number of passes supported by the encoder.
 ms.assetid: 7e21cd0f-f13f-4321-b246-f1adaa5c6094
 title: MFPKEY_PASSESRECOMMENDED Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ You can get the value of this property calling [IWMCodecProps::GetCodecProp](/wi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

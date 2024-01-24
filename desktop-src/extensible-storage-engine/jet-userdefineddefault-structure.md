@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_USERDEFINEDDEFAULT Structure"
 title: JET_USERDEFINEDDEFAULT Structure
 TOCTitle: JET_USERDEFINEDDEFAULT Structure
 ms:assetid: 1f0a5419-9fae-4a93-a271-2f9772ecc996
@@ -75,34 +76,18 @@ This member should always be set to NULL.
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JET_ USERDEFINEDDEFAULT_W</strong> (Unicode) and <strong>JET_ USERDEFINEDDEFAULT_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JET_ USERDEFINEDDEFAULT_W</strong> (Unicode) and <strong>JET_ USERDEFINEDDEFAULT_A</strong> (ANSI).</p> | 
+
 
 
 ### See Also
 
-[JET_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)
+[JET_CBTYP](./jet-cbtyp.md)  
+[JET_COLUMNCREATE](./jet-columncreate-structure.md)  
+[JET_COLUMNDEF](./jet-columndef-structure.md)

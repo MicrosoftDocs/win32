@@ -1,5 +1,5 @@
 ---
-Description: Wi-Fi Direct Services Configuration Methods.
+description: Wi-Fi Direct Services Configuration Methods.
 ms.assetid: 8c1589c9-55ca-449a-81ab-53be38f0e9f6
 title: System.Devices.WiFiDirectServices.ServiceConfigMethods
 ms.topic: reference

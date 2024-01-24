@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObsoleteException constructor (SerializationInfo, StreamingContext)"
 title: EsentObsoleteException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentObsoleteException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentObsoleteException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentObsoleteException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +70,10 @@ protected EsentObsoleteException(
 
 #### Reference
 
-[EsentObsoleteException class](dn319668\(v=exchg.10\).md)
+[EsentObsoleteException class](./esentobsoleteexception-class.md)
 
-[EsentObsoleteException members](dn319669\(v=exchg.10\).md)
+[EsentObsoleteException members](./esentobsoleteexception-members.md)
 
-[EsentObsoleteException overload](dn319672\(v=exchg.10\).md)
+[EsentObsoleteException overload](./esentobsoleteexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The GetDwordFromBlob function retrieves the named DWORD value from a BLOB.
+description: The GetDwordFromBlob function retrieves the named DWORD value from a BLOB.
 ms.assetid: edad74a7-b726-46d9-b49f-9984272d0a29
 title: GetDwordFromBlob function (Netmon.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

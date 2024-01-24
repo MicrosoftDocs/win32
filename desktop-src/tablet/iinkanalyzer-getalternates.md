@@ -1,5 +1,5 @@
 ---
-Description: Retrieves 10 analysis alternates for all ink associated with the IInkAnalyzer.
+description: Retrieves 10 analysis alternates for all ink associated with the IInkAnalyzer.
 ms.assetid: 42b702cf-54a3-413b-9f3a-dcdae7c2e89b
 title: IInkAnalyzer::GetAlternates method (IACom.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The top alternate is returned as the first alternate of the collection.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

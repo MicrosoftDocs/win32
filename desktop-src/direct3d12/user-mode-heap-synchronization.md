@@ -2,7 +2,6 @@
 title: Multi-engine synchronization
 description: This topic discusses synchronizing access to the multiple independent engines found in most modern GPUs.
 ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 09/25/2019
 ---
@@ -174,6 +173,7 @@ Compute command lists can also use the following methods.
 -   [**SetDescriptorHeaps**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps)
 -   [**SetPipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate)
 -   [**SetPredication**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication)
+-   [**EndQuery**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery)
 
 Compute command lists must set a compute PSO when calling [**SetPipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate).
 

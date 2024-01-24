@@ -1,5 +1,5 @@
 ---
-Description: The Close method closes the specified file. No further access to file is allowed.
+description: The Close method closes the specified file. No further access to file is allowed.
 ms.assetid: fecce23e-8604-4a87-9efb-a26e2498c2f3
 title: ISCardFileAccess::Close method
 ms.topic: reference
@@ -70,7 +70,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

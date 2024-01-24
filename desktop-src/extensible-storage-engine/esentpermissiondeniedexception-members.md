@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPermissionDeniedException members"
 title: EsentPermissionDeniedException members
 TOCTitle: EsentPermissionDeniedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPermissionDeniedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.PermissionDenied exceptions.
 
-The [EsentPermissionDeniedException](dn319785\(v=exchg.10\).md) type exposes the following members.
+The [EsentPermissionDeniedException](./esentpermissiondeniedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentPermissionDeniedException class](dn319785\(v=exchg.10\).md)
+[EsentPermissionDeniedException class](./esentpermissiondeniedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

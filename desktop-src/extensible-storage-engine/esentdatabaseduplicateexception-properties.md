@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseDuplicateException properties"
 title: EsentDatabaseDuplicateException properties
 TOCTitle: EsentDatabaseDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseDuplicateException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseDuplicateException](dn334296\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseDuplicateException](./esentdatabaseduplicateexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseDuplicateException class](dn334296\(v=exchg.10\).md)
+[EsentDatabaseDuplicateException class](./esentdatabaseduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

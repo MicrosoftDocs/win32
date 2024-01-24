@@ -1,5 +1,5 @@
 ---
-Description: Winlogon, the GINA, and network providers are the parts of the interactive logon model.
+description: Winlogon, the GINA, and network providers are the parts of the interactive logon model.
 ms.assetid: 'd049d83f-b962-4c47-a79a-da556831e319'
 title: Winlogon and GINA
 ms.topic: article

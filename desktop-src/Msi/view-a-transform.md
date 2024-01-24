@@ -1,5 +1,5 @@
 ---
-Description: The VBScript file WiLstXfm.vbs is provided in the Windows SDK Components for Windows Installer Developers. This script sample can be used to view a transform file.
+description: The VBScript file WiLstXfm.vbs is provided in the Windows SDK Components for Windows Installer Developers. This script sample can be used to view a transform file.
 ms.assetid: c2e3dd56-b0e5-481a-b7b8-5000fa686850
 title: View a Transform
 ms.topic: article

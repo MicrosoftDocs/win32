@@ -1,5 +1,5 @@
 ---
-Description: The Sensor and Location platform defines constants that identify properties for sensors. Sensor manufacturers can also define their own properties.
+description: The Sensor and Location platform defines constants that identify properties for sensors. Sensor manufacturers can also define their own properties.
 ms.assetid: 2fb739a0-9af5-4784-94b2-f8d10b9e21ca
 title: Sensor Properties (Sensors.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The following Windows Portable Devices (WPD) property must be supported by all s
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

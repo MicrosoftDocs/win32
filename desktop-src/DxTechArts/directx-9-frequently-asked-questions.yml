@@ -1,0 +1,999 @@
+### YamlMime:FAQ
+metadata:
+  title: DirectX Frequently Asked Questions
+  description: This article contains a collection of Frequently Asked Questions (FAQ) about Microsoft DirectX.
+  ms.assetid: 58d9fe45-a2c7-8280-2826-e2e14ecea983
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: DirectX Frequently Asked Questions
+summary: |
+  This article contains a collection of Frequently Asked Questions (FAQ) about Microsoft DirectX.
+  
+sections:
+  - name: General DirectX Development Issues
+    questions:
+      - question: |
+          Should game developers really care about supporting x64 editions?
+        answer: |
+          Absolutely. x64 technology is widely available in the market. The majority of new CPUs sold in the past few years, and almost all processor lines in development from AMD and Intel, are x64-capable. Windows XP Professional x64 Edition introduced the OS enabling technology for x64 released in April of 2005. Because x64 editions require a new generation of 64-bit native drivers, this first release was limited to OEM distribution.
+          
+          With Windows Vista, customers are free to choose either 32-bit or 64-bit editions when purchasing Windows-based computers, and licenses for Windows Vista are valid for both 32-bit or 64-bit editions of the OS. In addition, many 64-bit drivers are available in the box, and device manufactures are required to provide both 32-bit and 64-bit native drivers as part the Windows Certification Program.
+          
+          All of these factors will greatly increase the deployments of 64-bit editions of Windows. As new computers start shipping with more than 2 GB of physical RAM, the incentive to use a 32-bit operating system greatly diminishes in favor of 64-bit editions. Sixty-four-bit technology fully supports 32-bit native code, although 64-bit native implementations are required to take full advantage of the new 64-bit memory space. Every 32-bit application should have 64-bit compatibility as a minimum shipping requirement, and meeting that requirement is a baseline requirement for Windows Vista compatibility. Incompatibilities typically arise from use of 16-bit code designed for the Windows 3.1 operating system or installing drivers that are not provided in both 32-bit and 64-bit native forms.
+          
+          For more details on 64-bit technology, see [64-bit programming for Game Developers](/windows/desktop/DxTechArts/sixty-four-bit-programming-for-game-developers).
+          
+          
+          
+      - question: |
+          Should game developers still be publishing games for Windows 95, Windows 98 or Windows ME?
+        answer: |
+          Not anymore for two reasons: performance and feature set.
+          
+          If the minimum CPU speed required for your game is 1.2GHz or above (which is more common for high performance titles), then the vast majority of eligible computers will be running Windows XP. By the time computers with CPU speeds above 1.2GHz were being sold, Windows XP was installed as the default operating system by almost all manufacturers. This means that there are many features found in Windows XP that today's game developers should be taking advantage of including:
+          
+          -   Improved multitasking - which results in a better, smoother experience for video, audio and gaming.
+          -   More stable video driver model - which allows easier debugging, smoother game play and better performance.
+          -   Easier configuration for networking - which allows easier access to multi-player games.
+          -   Support for DMA transfers by default from hard drives - which results in smoother, faster loading applications.
+          -   Windows error reporting - which results in a more stable OS, drivers and applications.
+          -   Unicode support - which greatly simplifies localization issues.
+          -   Better security and stability - which results in better consumer experiences.
+          -   Better support for modern hardware - most of which no longer uses Windows 98 drivers.
+          -   Improved memory management - which results in better stability and security.
+          -   Improved NTFS file system - which is more resistant to failure, and has better performance with security features.
+          
+          
+          
+      - question: |
+          Should game developers still be publishing games for Windows 2000?
+        answer: |
+          Not anymore. In addition to the reasons listed in **Should game developers still be publishing games for Windows 95, Windows 98 or Windows ME?**, Windows 2000 does not have these features:
+          
+          -   Windows XP supports advanced processor features such as Hyper-Threading, Multi-Core and x64.
+          -   Windows XP supports side-by-side components which significantly reduces application versioning conflicts.
+          -   Windows XP supports no-execute memory protection which helps prevent malicious programs and can aid debugging.
+          -   Windows XP has improved support for advanced AGP and PCI Express based video cards.
+          -   Windows XP supports fast user switching, remote desktop and remote assistance which can help lower product support costs.
+          -   Performance tools like PIX (in the DirectX Developer SDK) no longer support Windows 2000.
+          
+          In short, Windows 2000 was never designed or marketed as a consumer operating system.
+          
+          
+          
+      - question: |
+          What are the differences between the various editions of Windows Vista? How do they impact my DirectX application?
+        answer: |
+          The Windows Vista family includes five editions:
+          
+          -   Windows Vista Home Basic
+          -   Windows Vista Home Premium
+          -   Windows Vista Business
+          -   Windows Vista Enterprise
+          -   Windows Vista Ultimate
+          
+          Home Basic and Home Premium are consumer-focused versions, with features like Family Safety (formerly known as Parental Controls), and Home Premium includes Media Center. Business and Enterprise are corporate-focused editions, with features like Domain join and Remote Desktop/Terminal Services. The Ultimate edition combines all features of both the consumer and corporate editions into one version. All editions come in both 32-bit (x86) and 64-bit (x64) editions, and users are free to use the same product identifier for both platforms.
+          
+          The technology underlying the various editions is identical, and they all have the same version of the DirectX runtime and other components. However, the editions do have some minor differences with respect to gaming:
+          
+          -   Games Explorer exists on all editions, but the Games shortcut on the Start menu is only in Home Basic, Home Premium, and Ultimate. Games Explorer can still be found on all editions (by clicking Start, pointing to All Programs, and then clicking Games), and the IGameExplorer interface functions on all editions.
+          -   The games that are included with Windows are not available by default on Business and Enterprise, but they can be enabled by the administrator.
+          -   Family Safety and game ratings do not display or have any influence on the behavior of Business or Enterprise, and they are disabled on Ultimate when a domain is joined.
+          
+          User Account Control settings have the same defaults on all editions, but they can be overridden by Group Policy settings for the domain on Business, Enterprise, and Ultimate. For example, the policy setting User Account Control: Behavior of the elevation prompt for standard users may well be set to Automatically deny elevation requests in many business settings to enhance security, and many users in those environments will always be running as standard users without the ability to even choose to run as Administrator. Any program (such as an installer) that requires administrative rights, either due to legacy setup detection or to having a manifest that specifies the requested execution level as "requireAdministrator", will always fail to start in such situations. Other policy settings, such as User Account Control: Only elevate executables that are signed and validated, can also prevent your installer from functioning if you do not sign your executable file using Authenticode.
+          
+          These types of policy changes can be applied to any edition of Windows Vista, but are more likely on computers that are joined to a domain.
+          
+          
+          
+      - question: |
+          What are the differences between the various editions of Windows 7? How do they impact my DirectX application? 
+        answer: |
+          The majority of Windows 7 users will likely have one of two editions: Windows 7 Home Premium, for home users, or Windows 7 Professional, for business users and developers. For large corporations, there is the volume-licensed Windows 7 Enterprise edition, which includes all of Windows 7 features; Windows 7 Ultimate is the retail equivalent of that edition.
+          
+          Windows 7 Starter Edition is available world-wide to OEMs, and it is expected to be deployed primarly with netbooks, ultra-low-power notebook computers. Windows 7 Home Basic is available only in emerging markets.
+          
+          Note that all editions of Windows 7 (except Starter Edition) are available for both 32-bit (x86) and 64-bit (x64) versions, and all retail packages of Windows 7 include media for both versions. As with Windows Vista, users are free to use the same retail product identifier on either platform.
+          
+          The underlying technology in the various editions is identical, and all editions have the same version of the DirectX runtime and other components. They do have some differences with respect to gaming features:
+          
+          -   Games Explorer exists in all editions, but the Games shortcut on the Start menu is hidden by default in Windows 7 Professional and Enterprise. Games Explorer can still be found on the Start menu (by clicking All Programs and then double-clicking Games), and the direct Games shortcut can be enabled by the user.
+          -   The games that are included with Windows are not available by default on Windows 7 Professional and Enterprise, but they can be enabled by the administrator.
+          -   Family Safety and game ratings are available on all editions, but they are disabled on Windows 7 Professional, Enterprise, and Ultimate when the operating system joins a domain. As with Windows Vista Ultimate, this feature can be re-enabled on computer that has joined a domain.
+          
+          User account control (UAC) settings can be affected by Group Policy settings on Windows 7 Professional, Enterprise, and Ultimate editions, much like Windows Vista. For more information, see **What are the differences between the various editions of Windows Vista? How do they impact my DirectX application?**
+          
+          
+          
+      - question: |
+          Will DirectX 10 be available for Windows XP? 
+        answer: |
+          No. Windows Vista, which has DirectX 10, includes an updated DirectX runtime based on the runtime in Windows XP SP2 (DirectX 9.0c) with changes to work with the new Windows Display Driver Model (WDDM) and the new audio driver stack, and with other updates in the operating system. In addition to Direct3D 9, Windows Vista supports two new interfaces when the correct video hardware and drivers are present: Direct3D9Ex and Direct3D10.
+          
+          Since these new interfaces rely on the WDDM technology, they will never be available on earlier versions of Windows. All the other changes made to DirectX technologies for Windows Vista are also specific to the new version of Windows. The name DirectX 10 is misleading in that many technologies shipping in the DirectX SDK (XACT, XINPUT, D3DX) are not encompassed by this version number. So, referring to the version number of the DirectX runtime as a whole has lost much of its meaning, even for 9.0c. The DirectX Diagnostic Tool (DXdiag.exe) on Windows Vista does report DirectX 10, but this really only refers to Direct3D 10.
+          
+          
+          
+      - question: |
+          Will DirectX 11 be available for Windows Vista or Windows XP? 
+        answer: |
+          DirectX 11 is built into Windows 7, and it is available as an update for Windows Vista (see <https://go.microsoft.com/fwlink/p/?linkid=160189>). This includes the Direct3D 11 API, DirectX Graphics Infrastructure (DXGI) 1.1, 10Level9 feature levels, Windows Advanced Rasterization Platform (WARP) 10 software rendering device, Direct2D, DirectWrite, and an update to the Direct3D 10.1 API to support 10Level9 and WARP 10.
+          
+          For the same reasons noted in the preceding question (**Will DirectX 10 be available for Windows XP?** ), Direct3D 11 and related APIs are not available on Windows XP.
+          
+          
+          
+      - question: |
+          What Happened to DirectShow? I can't find it in the DirectX SDK. 
+        answer: |
+          DirectShow was removed from the DirectX SDK as of April 2005. You can obtain the headers, libraries, tools, and samples for DirectShow in the Windows Software Development Kit (formerly known as the Platform SDK). DirectSetup in the DirectX SDK continues to support the redistribution of DirectShow's system components, and the latest components are already installed on the following operating systems: Microsoft Windows XP Service Pack 2, Windows XP Professional x64 Edition, Windows Server 2003 Service Pack 1, and Windows Vista.
+          
+          
+          
+      - question: |
+          What changes were made to the DirectX runtime for Windows Vista? 
+        answer: |
+          The primary changes were made to support the new WDDM. For details on the new driver model, on the impacts on Direct3D 9, and on the two new graphics interfaces, Direct3D 9Ex and Direct3D 10, please review [Graphics APIs in Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista). New graphics APIs for Windows 7—Direct3D 11, Direct2D, DirectWrite, DXGI 1.1, and an updated Direct3D 10.1—are available as an update for Windows Vista (see <https://go.microsoft.com/fwlink/p/?linkid=160189>).
+          
+          Windows Vista Service Pack 1 includes an updated version of the DirectX runtime. This update extends support of Windows Vista to include Direct3D 10.1, exposing new optional hardware features. (All hardware that is capable of supporting Direct3D 10.1 also fully supports all of the features of Direct3D 10.)
+          
+          DirectSound was updated to expose the capabilities of the new Windows Vista audio driver stack, which supports multi-channel software buffers. The Direct3D Retained Mode API was completely removed from Windows Vista. DirectPlay Voice was also removed, as well as DirectPlay's NAT Helper and DirectInput's action-mapper UI. Support for the DirectX 7 and DirectX 8 interfaces for Visual Basic 6.0 is not available on Windows Vista.
+          
+          
+          
+      - question: |
+          What changes were made to the DirectX runtime for Windows 7? 
+        answer: |
+          Windows 7 includes all of the DirectX runtime components found in Windows Vista, and adds Direct3D 11, DXGI 1.1, 10Level9 feature levels, the WARP10 software device, Direct2D, DirectWrite, and an update to Direct3D 10.1 to support 10Level9 and WARP10. For more information, see [Graphics APIs in Windows](/windows/desktop/direct3darticles/graphics-apis-in-windows-vista).
+          
+          All other components are identical to Windows Vista, with the addition of 64-bit (x64) native support for the core DirectMusic API related to timestamped MIDI. The performance layer of DirectMusic remains deprecated, and it is only available to 32-bit applications on Windows 7 for application compatibility. Note that 64-bit native support of DirectMusic is not available on Windows Vista.
+          
+          
+          
+      - question: |
+          I think I have found a driver bug, what do I do? 
+        answer: |
+          First, ensure you have checked the results with the Reference Rasterizer. Then check the results with the latest WHQL certified version of the IHVs driver. You can programmatically check the WHQL status using the GetAdapterIdentifier() method on the IDirect3D9 interface passing the D3DENUM\_WHQL\_LEVEL flag.
+          
+          
+          
+      - question: |
+          Why do I get so many error messages when I try to compile the samples? 
+        answer: |
+          You probably don't have your include path set correctly. Many compilers, including Microsoft Visual C++, include an earlier version of the SDK, so if your include path searches the standard compiler include directories first, you'll get incorrect versions of the header files. To remedy this issue, make sure the include path and library paths are set to search the Microsoft DirectX include and library paths first. See also the dxreadme.txt file in the SDK. If you install the DirectX SDK and you are using Visual C++, the installer can optionally set up the include paths for you.
+          
+          
+          
+      - question: |
+          I get linker errors about multiple or missing symbols for globally unique identifiers (GUIDs), what do I do? 
+        answer: |
+          The various GUIDs you use should be defined once and only once. The definition for the GUID will be inserted if you \#define the INITGUID symbol before including the DirectX header files. Therefore, you should make sure that this only occurs for one compilation unit. An alternative to this method is to link with the dxguid.lib library, which contains definitions for all of the DirectX GUIDs. If you use this method (which is recommended), then you should never \#define the INITGUID symbol.
+          
+          
+          
+      - question: |
+          Can I cast a pointer to a DirectX interface to a lower version number? 
+        answer: |
+          No. DirectX interfaces are COM interfaces. This means that there is no requirement for higher numbered interfaces to be derived from corresponding lower numbered ones. Therefore, the only safe way to obtain a different interface to a DirectX object is to use the QueryInterface method of the interface. This method is part of the standard IUnknown interface, from which all COM interfaces must derive.
+          
+          
+          
+      - question: |
+          Can I mix the use of DirectX 9 components and DirectX 8 or earlier components within the same application? 
+        answer: |
+          You can freely mix different components of differing version; for example, you could use DirectInput 8 with Direct3D 9 in the same application. However, you generally cannot mix different versions of the same component within the same application; for example, you cannot mix DirectDraw 7 with Direct3D 9 (since these are effectively the same component as DirectDraw has been subsumed into Direct3D as of DirectX 8). There are exceptions, however, such as the use of Direct3D 9 and Direct3D 10 together in the same application, which is allowed.
+          
+          
+          
+      - question: |
+          Can I mix the use of Direct3D 9 and Direct3D 10 within the same application? 
+        answer: |
+          Yes, you may use these versions of Direct3D together in the same application.
+          
+          
+          
+      - question: |
+          What do the return values from the Release or AddRef methods mean? 
+        answer: |
+          The return value will be the current reference count of the object. However, the COM specification states that you should not rely on this and the value is generally only available for debugging purposes. The values you observe may be unexpected since various other system objects may be holding references to the DirectX objects you create. For this reason, you should not write code that repeatedly calls Release until the reference count is zero, as the object may then be freed even though another component may still be referencing it.
+          
+          
+          
+      - question: |
+          Does it matter in which order I release DirectX interfaces? 
+        answer: |
+          It shouldn't matter because COM interfaces are reference counted. However, there are some known bugs with the release order of interfaces in some versions of DirectX. For safety, you are advised to release interfaces in reverse creation order when possible.
+          
+          
+          
+      - question: |
+          What is a smart pointer and should I use it? 
+        answer: |
+          A smart pointer is a C++ template class designed to encapsulate pointer functionality. In particular, there are standard smart pointer classes designed to encapsulate COM interface pointers. These pointers automatically perform QueryInterface instead of a cast and they handle AddRef and Release for you. Whether you should use them is largely a matter of taste. If your code contains lots of copying of interface pointers, with multiple AddRefs and Releases, then smart pointers can probably make your code neater and less error prone. Otherwise, you can do without them. Visual C++ includes a standard Microsoft COM smart pointer, defined in the "comdef.h" header file (look up com\_ptr\_t in the help).
+          
+          
+          
+      - question: |
+          I have trouble debugging my DirectX application, any tips? 
+        answer: |
+          The most common problem with debugging DirectX applications is attempting to debug while a DirectDraw surface is locked. This situation can cause a "Win16 Lock" on Microsoft Windows 9x systems, which prevents the debugger window from painting. Specifying the D3DLOCK\_NOSYSLOCK flag when locking the surface can usually eliminate this. Windows 2000 does not suffer from this problem. When developing an application, it is useful to be running with the debugging version of the DirectX runtime (selected when you install the SDK), which performs some parameter validation and outputs useful messages to the debugger output.
+          
+          
+          
+      - question: |
+          What's the correct way to check return codes? 
+        answer: |
+          Use the SUCCEEDED and FAILED macros. DirectX methods can return multiple success and failure codes, so a simple:
+          
+          ``` syntax
+          == D3D_OK
+          ```
+          
+          or similar test will not always suffice.
+          
+          
+          
+      - question: |
+          How do I disable ALT+TAB and other task switching? 
+        answer: |
+          You don't! Games need to be able to handle task switching gracefully, as many things cause it to happen: ALT+TAB, remote desktop connections, Fast User Switching, Parental Controls usage limits, and many other events.
+          
+          At the same time, two common sources of accidental task switching on games with keyboard-centric control schemes are pressing the Windows logo key and activating the accessibility feature StickyKeys with the SHIFT key. To address these cases by disabling the functionality, see the techniques described in [Disabling Shortcut Keys in Games](/windows/desktop/DxTechArts/disabling-shortcut-keys-in-games).
+          
+          
+          
+      - question: |
+          Is there a recommended book explaining COM? 
+        answer: |
+          *Inside COM* by Dale Rogerson, published by Microsoft Press, is an excellent introduction to COM. For a more detailed look at COM, the book *Essential COM* by Don Box, published by Longman, is also highly recommended.
+          
+          
+          
+      - question: |
+          What is managed code? 
+        answer: |
+          Managed code is code that has its execution managed by the .NET Framework Common Language Runtime (CLR). It refers to a contract of cooperation between natively executing code and the runtime. This contract specifies that at any point of execution, the runtime may stop an executing CPU and retrieve information specific to the current CPU instruction address. Information that must be query-able generally pertains to runtime state, such as register or stack memory contents.
+          
+          Before the code is run, the IL is compiled into native executable code. And, since this compilation happens by the managed execution environment (or, more correctly, by a runtime-aware compiler that knows how to target the managed execution environment), the managed execution environment can make guarantees about what the code is going to do. It can insert traps and appropriate garbage collection hooks, exception handling, type safety, array bounds and index checking, and so forth. For example, such a compiler makes sure to lay out stack frames and everything just right so that the garbage collector can run in the background on a separate thread, constantly walking the active call stack, finding all the roots, chasing down all the live objects. In addition because the IL has a notion of type safety the execution engine will maintain the guarantee of type safety eliminating a whole class of programming mistakes that often lead to security holes.
+          
+          In contrast this to the unmanaged world: Unmanaged executable files are basically a binary image, x86 code, loaded into memory. The program counter gets put there and that's the last the OS knows. There are protections in place around memory management and port I/O and so forth, but the system doesn't actually know what the application is doing. Therefore, it can't make any guarantees about what happens when the application runs.
+          
+          
+          
+      - question: |
+          What books are there about general Windows programming? 
+        answer: |
+          Lots. However, the two that are highly recommended are:
+          
+          -   Programming Windows by Charles Petzold (Microsoft Press)
+          -   Programming Applications for Windows by Jeffrey Richter (Microsoft Press)
+          
+          
+          
+      - question: |
+          How do I debug using the Windows symbol files? 
+        answer: |
+          Microsoft publish stripped symbols for all system DLLs (plus a few others). To access them add the following to your symbol path in the project settings inside Visual Studio:
+          
+          ``` syntax
+          srv*https://msdl.microsoft.com/download/symbols
+          ```
+          
+          for caching symbols locally use the following syntax:
+          
+          ``` syntax
+          srv*c:\cache*https://msdl.microsoft.com/download/symbols
+          ```
+          
+          Where c:\\cache is a local directory for caching symbol files.
+          
+          ## Direct3D Questions
+          
+          ### General Direct3D Questions
+      - question: |
+          Where can I find information about 3D graphics techniques? 
+        answer: |
+          The standard book on the subject is Computer Graphics: Principles and Practice by Foley, Van Dam et al. It is a valuable resource for anyone wanting to understand the mathematical foundations of geometry, rasterization and lighting techniques. The FAQ for the comp.graphics.algorithms Usenet group also contains useful material.
+          
+          
+          
+      - question: |
+          Does Direct3D emulate functionality not provided by hardware? 
+        answer: |
+          It depends. Direct3D has a fully featured software vertex-processing pipeline (including support for custom vertex shaders). However, no emulation is provided for pixel level operations; applications must check the appropriate caps bits and use the ValidateDevice API to determine support.
+          
+          
+          
+      - question: |
+          Is there a software rasterizer included with Direct3D? 
+        answer: |
+          Not for performance applications. A reference rasterizer is supplied for driver validation but the implementation is designed for accuracy and not performance. Direct3D does support plug-in software rasterizers.
+          
+          
+          
+      - question: |
+          How can I perform color keying with DirectX graphics? 
+        answer: |
+          Color keying is not directly supported, instead you will have to use alpha blending to emulate color keying. The D3DXCreateTextureFromFileEx() function can be used to facilitate this. This function accepts a key color parameter and will replace all pixels from the source image containing the specified color with transparent black pixels in the created texture.
+          
+          
+          
+      - question: |
+          Does the Direct3D geometry code utilize 3DNow! and/or Pentium III SIMD instructions? 
+        answer: |
+          Yes. The Direct3D geometry pipeline has several different code paths, depending on the processor type, and it will utilize the special floating-point operations provided by the 3DNow! or Pentium III SIMD instructions where these are available. This includes processing of custom vertex shaders.
+          
+          
+          
+      - question: |
+          How do I prevent transparent pixels being written to the z-buffer? 
+        answer: |
+          You can filter out pixels with an alpha value above or below a given threshold. You control this behavior by using the renderstates ALPHATESTENABLE, ALPHAREF and ALPHAFUNC.
+          
+          
+          
+      - question: |
+          What is a stencil buffer? 
+        answer: |
+          A stencil buffer is an additional buffer of per-pixel information, much like a z-buffer. In fact, it resides in some of the bits of a z-buffer. Common stencil/z-buffer formats are 15-bit z and 1-bit stencil, or 24-bit z and 8-bit stencil. It is possible to perform simple arithmetic operations on the contents of the stencil buffer on a per-pixel basis as polygons are rendered. For example, the stencil buffer can be incremented or decremented, or the pixel can be rejected if the stencil value fails a simple comparison test. This is useful for effects that involve marking out a region of the frame buffer and then performing rendering only the marked (or unmarked) region. Good examples are volumetric effects like shadow volumes.
+          
+          
+          
+      - question: |
+          How do I use a stencil buffer to render shadow volumes? 
+        answer: |
+          The key to this and other volumetric stencil buffer effects, is the interaction between the stencil buffer and the z-buffer. A scene with a shadow volume is rendered in three stages. First, the scene without the shadow is rendered as usual, using the z-buffer. Next, the shadow is marked out in the stencil buffer as follows. The front faces of the shadow volume are drawn using invisible polygons, with z-testing enabled but z-writes disabled and the stencil buffer incremented at every pixel passing the z-test. The back faces of the shadow volume are rendered similarly, but decrementing the stencil value instead.
+          
+          Now, consider a single pixel. Assuming the camera is not in the shadow volume there are four possibilities for the corresponding point in the scene. If the ray from the camera to the point does not intersect the shadow volume, then no shadow polygons will have been drawn there and the stencil buffer is still zero. Otherwise, if the point lies in front of the shadow volume the shadow polygons will be z-buffered out and the stencil again remains unchanged. If the points lies behind the shadow volume then the same number of front shadow faces as back faces will have been rendered and the stencil will be zero, having been incremented as many times as decremented.
+          
+          The final possibility is that the point lies inside the shadow volume. In this case the back face of the shadow volume will be z-buffered out, but not the front face, so the stencil buffer will be a non-zero value. The result is portions of the frame buffer lying in shadow have non-zero stencil value. Finally, to actually render the shadow, the whole scene is washed over with an alpha-blended polygon set to only affect pixels with non-zero stencil value. An example of this technique can been seen in the "Shadow Volume" sample that comes with the DirectX SDK.
+          
+          
+          
+      - question: |
+          What are the texel alignment rules? How do I get a one-to-one mapping? 
+        answer: |
+          This is explained fully in the Direct3D 9 documentation. However, the executive summary is that you should bias your screen coordinates by -0.5 of a pixel in order to align properly with texels. Most cards now conform properly to the texel alignment rules, however there are some older cards or drivers that do not. To handle these cases, the best advice is to contact the hardware vendor in question and request updated drivers or their suggested workaround. Note that in Direct3D 10, this rule no longer holds.
+          
+          
+          
+      - question: |
+          What is the purpose of the D3DCREATE\_PUREDEVICE flag? 
+        answer: |
+          Use the D3DCREATE\_PUREDEVICE flag during device creation to create a pure device. A pure device does not save the current state (during state changes), which often improves performance; this device also requires hardware vertex processing. A pure device is typically used when development and debugging are completed, and you want to achieve the best performance.
+          
+          One drawback of a pure device is that it does not support all Get\* API calls; this means you can not use a pure device to query the pipeline state. This makes it more difficult to debug while running an application. Below is a list of all the methods that are disabled by a pure device.
+          
+          -   [**IDirect3DDevice9::GetClipPlane**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipplane)
+          -   [**IDirect3DDevice9::GetClipStatus**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipstatus)
+          -   [**IDirect3DDevice9::GetLight**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlight)
+          -   [**IDirect3DDevice9::GetLightEnable**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable)
+          -   [**IDirect3DDevice9::GetMaterial**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getmaterial)
+          -   [**IDirect3DDevice9::GetPixelShaderConstantF**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantf)
+          -   [**IDirect3DDevice9::GetPixelShaderConstantI**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstanti)
+          -   [**IDirect3DDevice9::GetPixelShaderConstantB**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getpixelshaderconstantb)
+          -   [**IDirect3DDevice9::GetRenderState**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrenderstate)
+          -   [**IDirect3DDevice9::GetSamplerState**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsamplerstate)
+          -   [**IDirect3DDevice9::GetTextureStageState**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate)
+          -   [**IDirect3DDevice9::GetTransform**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettransform)
+          -   [**IDirect3DDevice9::GetVertexShaderConstantF**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantf)
+          -   [**IDirect3DDevice9::GetVertexShaderConstantI**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstanti)
+          -   [**IDirect3DDevice9::GetVertexShaderConstantB**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexshaderconstantb)
+          
+          A second drawback of a pure device is that it does not filter any redundant state changes. When using a pure device, your application should reduce the number of state changes in the render loop to a minimum; this may include filtering state changes to make sure that states do not get set more than once. This trade-off is application dependent; if you use more than a 1000 Set calls per frame, you should consider taking advantage of the redundancy filtering that is done automatically by a non-pure device.
+          
+          As with all performance issues, the only way to know whether or not your application will perform better with a pure device is to compare your application's performance with a pure vs. non-pure device. A pure device has the potential to speed up an application by reducing the CPU overhead of the API. But be careful! For some scenarios, a pure device will slow down your application (due to the additional CPU work caused by redundant state changes). If you are not sure which type of device will work best for your application, and you do not filter redundant changes in the application, use a non-pure device.
+          
+          
+          
+      - question: |
+          How do I enumerate the display devices in a multi-monitor system? 
+        answer: |
+          Enumeration can be performed through a simple iteration by the application using methods of the IDirect3D9 interface. Call GetAdapterCount to determine the number of display adapters in the system. Call GetAdapterMonitor to determine which physical monitor an adapter is connected to (this method returns an HMONITOR, which you can then use in the Win32 API GetMonitorInfo to determine information about the physical monitor). Determining the characteristics of a particular display adapter or creating a Direct3D device on that adapter is as simple as passing the appropriate adapter number in place of D3DADAPTER\_DEFAULT when calling GetDeviceCaps, CreateDevice, or other methods.
+          
+          
+          
+      - question: |
+          What happened to Fixed Function Bumpmapping in D3D9? 
+        answer: |
+          As of Direct3D 9 we tightened the validation on cards that could only support > 2 simultaneous textures. Certain older cards only have 3 texture stages available when you use a specific alpha modulate operation. The most common usage that people use the 3 stages for is emboss bumpmapping, and you can still do this with D3D9.
+          
+          The height field has to be stored in the alpha channel and is used to modulate the lights contribution, that is:
+          
+          ``` syntax
+          // Stage 0 is the base texture, with the height map in the alpha channel
+          m_pd3dDevice->SetTexture(0, m_pEmbossTexture );
+          m_pd3dDevice->SetTextureStageState(0, D3DTSS_TEXCOORDINDEX, 0 );
+          m_pd3dDevice->SetTextureStageState(0, D3DTSS_COLOROP,   D3DTOP_MODULATE );
+          m_pd3dDevice->SetTextureStageState(0, D3DTSS_COLORARG1, D3DTA_TEXTURE );
+          m_pd3dDevice->SetTextureStageState(0, D3DTSS_COLORARG2, D3DTA_DIFFUSE );
+          m_pd3dDevice->SetTextureStageState(0, D3DTSS_ALPHAOP,   D3DTOP_SELECTARG1 );
+          m_pd3dDevice->SetTextureStageState(0, D3DTSS_ALPHAARG1, D3DTA_TEXTURE );
+          if( m_bShowEmbossMethod )
+          {
+           // Stage 1 passes through the RGB channels (SELECTARG2 = CURRENT), and 
+           // does a signed add with the inverted alpha channel. 
+           // The texture coords associated with Stage 1 are the shifted ones, so 
+           // the result is:
+           //    (height - shifted_height) * tex.RGB * diffuse.RGB
+             m_pd3dDevice->SetTexture( 1, m_pEmbossTexture );
+             m_pd3dDevice->SetTextureStageState( 1, D3DTSS_TEXCOORDINDEX, 1 );
+             m_pd3dDevice->SetTextureStageState( 1, D3DTSS_COLOROP, D3DTOP_SELECTARG2 );
+             m_pd3dDevice->SetTextureStageState( 1, D3DTSS_COLORARG1, D3DTA_TEXTURE );
+             m_pd3dDevice->SetTextureStageState( 1, D3DTSS_COLORARG2, D3DTA_CURRENT );
+             m_pd3dDevice->SetTextureStageState( 1, D3DTSS_ALPHAOP, D3DTOP_ADDSIGNED );
+             m_pd3dDevice->SetTextureStageState( 1, D3DTSS_ALPHAARG1, D3DTA_TEXTURE|D3DTA_COMPLEMENT );
+             m_pd3dDevice->SetTextureStageState( 1, D3DTSS_ALPHAARG2, D3DTA_CURRENT );
+          
+             // Set up the alpha blender to multiply the alpha channel 
+             // (monochrome emboss) with the src color (lighted texture)
+             m_pd3dDevice->SetRenderState( D3DRS_ALPHABLENDENABLE, TRUE );
+             m_pd3dDevice->SetRenderState( D3DRS_SRCBLEND,  D3DBLEND_SRCALPHA );
+             m_pd3dDevice->SetRenderState( D3DRS_DESTBLEND, D3DBLEND_ZERO );
+          }
+          ```
+          
+          This sample, along with other older samples, are no longer shipped in the current SDK release, and will not be shipped in future SDK releases.
+          
+          ### Geometry (Vertex) Processing
+          
+      - question: |
+          Vertex streams confuse me how do they work? 
+        answer: |
+          Direct3D assembles each vertex that is fed into the processing portion of the pipeline from one or more vertex streams. Having only one vertex stream corresponds to the old pre-DirectX 8 model, in which vertices come from a single source. With DirectX 8, different vertex components can come from different sources; for example, one vertex buffer could hold positions and normals, while a second held color values and texture coordinates.
+          
+          
+          
+      - question: |
+          What is a vertex shader? 
+        answer: |
+          A vertex shader is a procedure for processing a single vertex. It is defined using a simple assembly-like language that is assembled by the D3DX utility library into a token stream that Direct3D accepts. The vertex shader takes as input a single vertex and a set of constant values; it outputs a vertex position (in clip-space) and optionally a set of colors and texture coordinates, which are used in rasterization. Notice that when you have a custom vertex shader, the vertex components no longer have any semantics applied to them by Direct3D and vertices are simply arbitrary data that is interpreted by the vertex shader you create.
+          
+          
+          
+      - question: |
+          Does a vertex shader perform perspective division or clipping? 
+        answer: |
+          No. The vertex shader outputs a homogenous coordinate in clip-space for the transformed vertex position. Perspective division and clipping is performed automatically post-shader.
+          
+          
+          
+      - question: |
+          Can I generate geometry with a vertex shader? 
+        answer: |
+          A vertex shader cannot create or destroy vertices; it operates on a single vertex at a time, taking one unprocessed vertex as input and outputting a single processed vertex. It can therefore be used to manipulate existing geometry (applying deformations, or performing skinning operations) but cannot actually generate new geometry per se.
+          
+          
+          
+      - question: |
+          Can I apply a custom vertex shader to the results of the fixed-function geometry pipeline (or vice-versa)? 
+        answer: |
+          No. You have to choose one or the other. If you are using a custom vertex shader, you are responsible for performing the entire vertex transformation.
+          
+          
+          
+      - question: |
+          Can I use a custom vertex shader if my hardware does not support it? 
+        answer: |
+          Yes. The Direct3D software vertex-processing engine fully supports custom vertex shaders with a surprisingly high level of performance.
+          
+          
+          
+      - question: |
+          How do I determine if the hardware supports my custom vertex shader? 
+        answer: |
+          Devices capable of supporting vertex shaders in hardware are required to fill out the D3DCAPS9::VertexShaderVersion field to indicate the version level of vertex shader they support. Any device claiming to support a particular level of vertex shader must support all legal vertex shaders that meet the specification for that level or below.
+          
+          
+          
+      - question: |
+          How many constant registers are available for vertex shaders? 
+        answer: |
+          Devices supporting vs 1.0 vertex shaders are required to support a minimum of 96 constant registers. Devices may support more than this minimum number and can report this through the D3DCAPS9::MaxVertexShaderConst field.
+          
+          
+          
+      - question: |
+          Can I share position data between vertices with different texture coordinates? 
+        answer: |
+          The usual example of this situation is a cube in which you want to use a different texture for each face. Unfortunately the answer is no, it's not currently possible to index the vertex components independently. Even with multiple vertex streams, all streams are indexed together.
+          
+          
+          
+      - question: |
+          When I submit an indexed list of primitives, does Direct3D process all of the vertices in the buffer, or just the ones I indexed? 
+        answer: |
+          When using the software geometry pipeline, Direct3D first transforms all of the vertices in the range you submitted, rather than transforming them "on demand" as they are indexed. For densely packed data (that is, where most of the vertices are used) this is more efficient, particularly when SIMD instructions are available. If your data is sparsely packed (that is, many vertices are not used) then you may want to consider rearranging your data to avoid too many redundant transformations. When using the hardware geometry acceleration, vertices are typically transformed on demand as they are required.
+          
+          
+          
+      - question: |
+          What is an index buffer? 
+        answer: |
+          An index buffer is exactly analogous to a vertex buffer, but instead it contains indices for use in DrawIndexedPrimitive calls. It is highly recommended that you use index buffers rather than raw application-allocated memory when possible, for the same reasons as vertex buffers.
+          
+          
+          
+      - question: |
+          I notice that 32-bit indices are a supported type; can I use them on all devices? 
+        answer: |
+          No. You must check the D3DCAPS9::MaxVertexIndex field to determine the maximum index value that is supported by the device. This value must be greater than 2 to the 16th power -1 (0xffff) in order for index buffers of type D3DFMT\_INDEX32 to be supported. In addition, note that some devices may support 32-bit indices but support a maximum index value less than 2 to the 32nd power -1 (0xffffffff); in this case the application must respect the limit reported by the device.
+          
+          
+          
+      - question: |
+          Does S/W vertex processing support 64 bit? 
+        answer: |
+          There is an optimized s/w vertex pipeline for x64, but it does not exist for IA64.
+          
+          ### Performance Tuning
+          
+
+      - question: |
+          How can I improve the performance of my Direct3D application? 
+        answer: |
+          The following are key areas to look at when optimizing performance:
+          
+          
+          
+      - question: |
+          Batch size 
+        answer: |
+          Direct3D is optimized for large batches of primitives. The more polygons that can be sent in a single call, the better. A good rule of thumb is to aim to average 1000 vertices per primitive call. Below that level you're probably not getting optimal performance, above that and you're into diminishing returns and potential conflicts with concurrency considerations (see below).
+          
+          
+          
+      - question: |
+          State changes 
+        answer: |
+          Changing render state can be an expensive operation, particularly when changing texture. For this reason, it is important to minimize as much as possible the number of state changes made per frame. Also, try to minimize changes of vertex or index buffer.
+          
+          > [!Note]  
+          > As of DirectX 8, the cost of changing vertex buffer is no longer as expensive as it was with previous versions, but it is still good practice to avoid vertex buffer changes where possible.
+          
+           
+          
+          
+          
+      - question: |
+          Concurrency
+        answer: |
+          If you can arrange to perform rendering concurrently with other processing, then you will be taking full advantage of system performance. This goal can conflict with the goal of reducing renderstate changes. You need to strike a balance between batching to reduce state changes and pushing data out to the driver early to help achieve concurrency. Using multiple vertex buffers in round-robin fashion can help with concurrency.
+          
+          
+          
+      - question: |
+          Texture uploads 
+        answer: |
+          Uploading textures to the device consumes bandwidth and causes a bandwidth competition with vertex data. Therefore, it is important to not over commit texture memory, which would force your caching scheme to upload excessive quantities of textures each frame.
+          
+          
+          
+      - question: |
+          Vertex and index buffers 
+        answer: |
+          You should always use vertex and index buffers, rather than plain blocks of application allocated memory. At a minimum, the locking semantics for vertex and index buffers can avoid a redundant copy operation. With some drivers, the vertex or index buffer may be placed in more optimal memory (perhaps in video or AGP memory) for access by the hardware.
+          
+          
+          
+      - question: |
+          State macro blocks 
+        answer: |
+          These were introduced in DirectX 7.0. They provide a mechanism for recording a series of state changes (including lighting, material and matrix changes) into a macro, which can then be replayed by a single call. This has two advantages:
+          
+          -   You reduce the call overhead by making one call instead of many.
+          -   An aware driver can pre-parse and pre-compile the state changes, making it much faster to submit to the graphics hardware.
+          
+          State changes can still be expensive, but using state macros can help reduce at least some of the cost. Use only a single Direct3D device. If you need to render to multiple targets, use SetRenderTarget. If you are creating a windowed application with multiple 3D windows, use the CreateAdditionalSwapChain API. The runtime is optimized for a single device and there is a considerable speed penalty for using multiple devices.
+          
+           
+          
+      - question: |
+          Which primitive types (strips, fans, lists and so on) should I use? 
+        answer: |
+          Many meshes encountered in real data feature vertices that are shared by multiple polygons. To maximize performance it is desirable to reduce the duplication in vertices transformed and sent across the bus to the rendering device. It is clear that using simple triangle lists achieves no vertex sharing, making it the least optimal method. The choice is then between using strips and fans, which imply a specific connectivity relationship between polygons and using indexed lists. Where the data naturally falls into strips and fans, these are the most appropriate choice, since they minimize the data sent to the driver. However, decomposing meshes into strips and fans often results in a large number of separate pieces, implying a large number of DrawPrimitive calls. For this reason, the most efficient method is usually to use a single DrawIndexedPrimitive call with a triangle list. An additional advantage of using an indexed list is that a benefit can be gained even when consecutive triangles only share a single vertex. In summary, if your data naturally falls into large strips or fans, use strips or fans; otherwise use indexed lists.
+          
+          
+          
+      - question: |
+          How do you determine the total texture memory a card has, excluding AGP memory? 
+        answer: |
+          [**IDirect3DDevice9::GetAvailableTextureMem**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getavailabletexturemem) returns the total available memory, including AGP. Allocating resources based on an assumption of how much video memory you have is not a great idea. For example, what if the card is running under a Unified Memory Architecture (UMA) or is able to compress the textures? There might be more space available than you might have thought. You should create resources and check for 'out of memory' errors, then scale back on the textures. For example, you could remove the top mip-levels of your textures.
+          
+          
+          
+      - question: |
+          What's a good usage pattern for vertex buffers if I'm generating dynamic data? 
+        answer: |
+          1.  Create a vertex buffer using the D3DUSAGE\_DYNAMIC and D3DUSAGE\_WRITEONLY usage flags and the D3DPOOL\_DEFAULT pool flag. (Also specify D3DUSAGE\_SOFTWAREPROCESSING if you are using software vertex processing.)
+          2.  I = 0.
+          3.  Set state (textures, renderstates and so on).
+          4.  Check if there is space in the buffer, that is, for example, I + M <= N? (Where M is the number of new vertices).
+          5.  If yes, then Lock the VB with D3DLOCK\_NOOVERWRITE. This tells Direct3D and the driver that you will be adding vertices and won't be modifying the ones that you previously batched. Therefore, if a DMA operation was in progress, it isn't interrupted. If no, goto 11.
+          6.  Fill in the M vertices at I.
+          7.  Unlock.
+          8.  Call Draw\[Indexed\]Primitive. For non-indexed primitives use I as the StartVertex parameter. For indexed primitives, ensure the indices point to the correct portion of the vertex buffer (it may be easiest to use the BaseVertexIndex parameter of the SetIndices call to achieve this).
+          9.  I += M.
+          10. Goto 3.
+          11. Ok, so we are out of space, so let us start with a new VB. We don't want to use the same one because there might be a DMA operation in progress. We communicate to this to Direct3D and the driver by locking the same VB with the D3DLOCK\_DISCARD flag. What this means is "you can give me a new pointer because I am done with the old one and don't really care about the old contents any more."
+          12. I = 0.
+          13. Goto 4 (or 6).
+          
+          
+          
+      - question: |
+          Why do I have to specify more information in the D3DVERTEXELEMENT9 structure? 
+        answer: |
+          As of Direct3D 9, the vertex stream declaration is no longer just a DWORD array, it is now an array of D3DVERTEXELEMENT9 structures. The runtime makes use of the additional semantic and usage information to bind the contents of vertex streams to vertex shaders input registers/variables. For Direct3D 9, vertex declarations are decoupled from vertex shaders, which makes it easier to use shaders with geometries of different formats as the runtime only binds the data that the shader needs.
+          
+          The new vertex declarations can be used with either the fixed function pipeline or with shaders. For the fixed function pipeline, there is no need to call SetVertexShader. If however, you want to switch to the fixed function pipeline and have previously used a vertex shader, call SetVertexShader(NULL). When this is done, you will still need to call SetFVF to declare the FVF code.
+          
+          When using vertex shaders, call SetVertexShader with the vertex shader object. Additionally, call SetFVF to set up a vertex declaration. This uses the information implicit in the FVF. SetVertexDeclaration can be called in place of SetFVF because it supports vertex declarations that cannot be expressed with an FVF.
+          
+  - name: D3DX Utility Library
+    questions:
+          
+      - question: |
+          What file formats are supported by the D3DX image file loader functions? 
+        answer: |
+          The D3DX image file loader functions support BMP, TGA, JPG, DIB, PPM and DDS files.
+          
+          
+          
+      - question: |
+          The text rendering functions in D3DX don't seem to work, what am I doing wrong? 
+        answer: |
+          A common mistake when using the ID3DXFont::DrawText functions is to specify a zero alpha component for the color parameter; resulting in completely transparent (that is, invisible) text. For fully opaque text, ensure that the alpha component of the color parameter is fully saturated (255).
+          
+          
+          
+      - question: |
+          How can I save the contents of a surface or texture to a file? 
+        answer: |
+          The DirectX 8.1 SDK added two functions to the D3DX library specifically for this purpose: D3DXSaveSurfaceToFile() and D3DXSaveTextureToFile(). These functions support saving an image to file in either BMP or DDS format. In previous versions you will have to lock the surface and read the image data, then write it to a bitmap file. For info about writing a function to store bitmaps, see [Storing an Image](/windows/desktop/gdi/storing-an-image).
+          
+          Alternatively, GDI+ could be used to save the image in a wide variety of formats, though this requires additional support files to be distributed with your application.
+          
+          
+          
+      - question: |
+          How can I make use of the High Level Shader Language (HLSL) in my game? 
+        answer: |
+          There are three ways that the Microsoft High Level Shader Language (HLSL) can be incorporated into your game engine:
+          
+          -   Compile your shader source into vertex or pixel shading assembly (using the command line utility fxc.exe) and use D3DXAssembleShader() at run time. This way even a DirectX 8 game can even take advantage of the power of the HLSL.
+          -   Use D3DXCompileShader() to compile your shader source into token stream and constant table form. At run time load the token stream and constant table and call CreateVertexShader() or CreatePixelShader() on the device to create your shaders.
+          -   The easiest way to get up and running is to take advantage of the D3DX Effects system by calling D3DXCreateEffectFromFile() or D3DXCreateEffectFromResource() with your effect file.
+          
+          
+          
+      - question: |
+          What is the purpose of the new shader compiler flag? 
+        answer: |
+          Beginning with the December 2006 DirectX SDK, the new HLSL compiler that was developed for Direct3D 10 has been enabled for Direct3D 9 targets. The new compiler has no support for ps\_1\_x targets, and is now the default compiler for all Direct3D HLSL shaders. A flag for backwards compatibility can be used to force ps\_1\_x targets to compile as ps\_2\_0 targets.
+          
+          Applications that do wish to use the legacy compiler can continue to do so by supplying a flag at runtime (see [**compiler flags**](/windows/desktop/direct3d9/d3dxshader-flags)) or by supplying a switch when using fxc.
+          
+          
+          
+      - question: |
+          What is the correct way to get shaders from an Effect? 
+        answer: |
+          Use D3DXCreateEffect to create an ID3DXEffect and then use GetPassDesc to retrieve a D3DXPASS\_DESC. This structure contains pointers to vertex and pixel shaders.
+          
+          Do not use ID3DXEffectCompiler::GetPassDesc. Vertex and pixel shader handles returned from this method are NULL.
+          
+          
+          
+      - question: |
+          What is the HLSL noise() intrinsic for? 
+        answer: |
+          The noise intrinsic function generates perlin noise as defined by Ken Perlin. The HLSL function can currently only be used to fill textures in texture shaders as current h/w does not support the method natively. Texture shaders are used in conjuction with the D3DXFill\*Texture() functions which are useful helper functions to generate procedurally defined textures during load time.
+          
+          
+          
+      - question: |
+          How do I detect whether to use pixel shader model 2.0 or 2.a? 
+        answer: |
+          You can use the D3DXGetPixelShaderProfile() and D3DXGetPixelShaderProfile() functions which return a string determining what HLSL profile is best suited to the device being ran.
+          
+          
+          
+      - question: |
+          How do I access the Parameters in my Precompiled Effects Shaders? 
+        answer: |
+          Through the ID3DXConstantTable interface which is used to access the constant table. This table contains the variables that are used by high-level language shaders and effects.
+          
+          
+          
+      - question: |
+          Is there a way to add user data to an effect or other resource? 
+        answer: |
+          Yes, to set private data you call SetPrivateData (pReal is the D3D texture object, pSpoof is the wrapped texture object).
+          
+          ``` syntax
+          hr = pReal->SetPrivateData(IID_Spoof, &pSpoof, 
+                      sizeof(IDirect3DResource9*), 0)));
+          ```
+          
+          To look up the wrapped pointer:
+          
+          ``` syntax
+              IDirect3DResource9* pSpoof;
+              DWORD dwSize = sizeof(pSpoof);
+              hr = pReal->GetPrivateData(IID_Spoof, (void*) &pSpoof, &dwSize);
+          ```
+          
+          
+          
+      - question: |
+          Why does rendering of an ID3DXMesh object slow down significantly after I define subsets? 
+        answer: |
+          You probably have not optimized the mesh after defining the face attributes. If you specify attributes and then call ID3DXMesh::DrawSubset(), this method must perform a search of the mesh for all faces containing the requested attributes. In addition, the rendered faces are likely in a random access pattern, thus not utilizing vertex cache. After defining the face attributes for your subsets, call the ID3DXMesh::Optimize or ID3DXMesh::OptimizeInPlace methods and specifying an optimization method of D3DXMESHOPT\_ATTRSORT or stronger. Note that for optimum performance you should optimize with the D3DXMESHOPT\_VERTEXCACHE flag, which will also reorder vertices for optimum vertex cache utilization. The adjacency array generated for a D3DX Mesh has three entries per face, but some faces may not have adjacent faces on all three edges. How is this encoded? Entries where there are no adjacent faces are encoded as 0xffffffff.
+          
+          
+          
+      - question: |
+          I've heard a lot about Pre-computed Radiance Transfer (PRT), where can I learn more? 
+        answer: |
+          PRT is a new feature of D3DX added in the Summer 2003 SDK Update. It enables rendering of complex lighting scenarios such as global -llumination, soft shadowing and sub-surface scatter in real time. The SDK contains documentation and samples of how to integrate the technology into your game. The PRT Demo Sample and LocalDeformablePRT Sample samples demonstrate how to use the simulator for per vertex and per pixel lighting scenarios respectively. Further information about this and other topics can also be found at Peter Pike Sloan's Web page.
+          
+          
+          
+      - question: |
+          How can I render to a texture and make use of Anti Aliasing? 
+        answer: |
+          Create a multisampled render target using Direct3DDevice9::CreateRenderTarget. After rendering the scene to that render target, StretchRect from it to a render target texture. If you make any changed to the offscreen textre (such as blurring or blooming it), copy it back to the back buffer before you present().
+          
+          
+          
+  - name: DirectSound Questions
+    questions:
+      - question: |
+          Why do I get a burst of static when my application starts up? I notice this problem with other applications too. 
+        answer: |
+          You probably installed the debug DirectX runtime. The debug version of the runtime fills buffers with static in order to help developers catch bugs with uninitialized buffers. You cannot guarantee the contents of a DirectSound buffer after creation; in particular, you cannot assume that a buffer with be zeroed out.
+          
+          
+          
+      - question: |
+          Why I am experiencing a delay in between changing an effects parameters and hearing the results? 
+        answer: |
+          Changes in effect parameters do not always take place immediately on DirectX 8. For efficiency, DirectSound processes 100 milliseconds of sound data in a buffer, starting at the play cursor, before the buffer is played. This preprocessing happens after all of the following calls:
+          
+          ``` syntax
+          IDirectSoundBuffer8::SetCurrentPosition
+          IDirectSoundBuffer8::SetFX
+          IDirectSoundBuffer8::Stop
+          IDirectSoundBuffer8::Unlock
+          ```
+          
+          As of DirectX 9, a new FX processing algorithm that processes effects just-in-time addresses this problem and has reduced the latency. The algorithm has been added to the IDirectSoundBuffer8::Play() call, along with an additional thread that processes effects just ahead of the write cursor. So you can set parameters at any time and they'll work as expected. However, note that on a playing buffer there'll be a small delay (usually 100ms) before you hear the parameter change, because the audio between the play and write cursors (and a bit more padding) has already been processed at that time.
+          
+          
+          
+      - question: |
+          How do I detect if DSound is installed? 
+        answer: |
+          If you do not need to use DirectSoundEnumerate() to list the available DSound devices, don't link your application with dsound.lib and instead use it via COMs CoCreateInstance(CLSID\_DirectSound...) then initialize the DSound object using Initialize(NULL). If you need to use DirectSoundEnumerate(), you can dynamically load dsound.dll using LoadLibrary("dsound.dll"); and access its methods using GetProcAddress("DirectSoundEnumerateA/W") and GetProcAddress("DirectSoundCreateA/W") and so on.
+          
+          
+          
+      - question: |
+          How do I create multichannel audio with WAVEFORMATEXTENSIBLE? 
+        answer: |
+          If you can't find an answer to your question in the DirectSound help files, there is a good article with more information available at Multiple Channel Audio Data and WAVE Files.
+          
+          
+          
+      - question: |
+          How can I use the DirectSound Voice Manager with property sets like EAX? 
+        answer: |
+          In DirectSound 9.0 when you duplicate a buffer it is now possible to get the IDirectSoundBuffer8 interface on the duplicate buffer, which will give you access to the AcquireResources method. This will allow you to associate a buffer with the DSBCAPS\_LOCDEFER flag with a hardware resource. You can then set your EAX parameters on this buffer before having to call Play().
+          
+          
+          
+      - question: |
+          I am having problems with unreliable behavior when using cursor position notifications. How can I get more accurate information? 
+        answer: |
+          There are some subtle bugs in various versions of DirectSound, the core Windows audio stack, and audio drivers which make cursor positions notifications unreliable. Unless you're targeting a known HW/SW configuration on which you know that notifications are well-behaved, avoid cursor position notifications. For position tracking GetCurrentPosition() is a safer technique.
+          
+          
+          
+      - question: |
+          I am suffering from performance degradation when using GetCurrentPosition(). What can I do to improve performance? 
+        answer: |
+          Each GetCurrentPosition() call on each buffer causes a system call, and system calls should be minimized as they are a large component of DSound's CPU footprint. On NT (Win2K and XP) the cursors in SW buffers (and HW buffers on some devices) move in 10ms increments, so calling GetCurrentPosition() every 10ms is ideal. Calling it more often than every 5ms will cause some performance degradation.
+          
+          
+          
+      - question: |
+          My DirectSound application is taking up too much CPU time or is performing slowly. Is there anything I can do to optimize my code? 
+        answer: |
+          There are several things you can do to improve the performance of your audio code:
+          
+          -   Don't call GetCurrentPosition too often. Each GetCurrentPosition() call on each buffer causes a system call, and system calls should be minimized as they are a large component of DSound's CPU footprint. On NT (Win2K and XP) the cursors in SW buffers (and HW buffers on some devices) move in 10ms increments, so calling GetCurrentPosition() every 10ms is ideal. Calling it more often than every 5ms will cause some perf degradation.
+          -   Utilize a separate, lower frame-rate for audio. Nowadays many Windows games can exceed 100 Frames per Second and it is not necessary in most cases to update your 3D audio parameters at the same frame rate. Processing your audio every second or third graphics frame, or every 30ms or so, can reduce the number of audio calls significantly throughout your application without reducing audio quality.
+          -   Use DS3D\_DEFERRED for 3D objects. Most sound cards respond immediately to parameter changes and in a single frame much can change, especially if you change the position or orientation of the listener. This causes the soundcard / CPU to perform many unnecessary calculations, so another quick and universal optimization is to defer some parameter changes and commit them at the end of the frame.
+          
+              or at least use SetAllParameters rather than individual Set3DParamX calls on buffers.
+          
+              Similarly, you should use at least use SetAllParamenters calls on 3D buffers rather the individual Set3DParamX calls. Just try to minimize system calls whenever possible.
+          
+          -   Don't make redundant calls; store and sort a list of play calls. Often, in one audio update frame, there are 2 requests to play new sounds. If the requests are processed as they arrive, then the first new sound could be started and then immediately replaced the second requested sound. This results in redundant calculations, an unnecessary play call, and an unnecessary stop call. It is better to store a list of requests for new sounds to be played, so that the list can be sorted, and only those voices that should start playing, are actually ever played.
+          
+              Also, you should store local copies of the 3D and EAX parameters for each sound source. If a request is made to set a parameter to a particular value, you can check to see if the value is actually different from the last value set. If it isn't, the call does not need to be made.
+          
+              Although the sound card driver will probably detect this scenario and not perform the (same) calculation again, the audio call will have to reach the audio driver (via a ring transition) and this is already a slow operation.
+          
+          
+          
+      - question: |
+          When I stream a buffer it tends to glitch and perform poorly. What's the best way to stream a buffer? 
+        answer: |
+          When streaming audio into a buffer there are two basic algorithms: After-Write-Cursor (AWC) and Before-Play-Cursor (BPC). AWC minimizes latency at the cost of glitching, whereas BPC is the opposite. Because there are usually no interactive changes to the streamed sound this sort of latency is rarely a problem for games and similar applications, so BPC is the more appropriate algorithm. In AWC, each time your streaming thread runs you "top up" the data in your looping buffers up to N ms beyond their write cursors (typically N=40 or so, to allow for Windows scheduling jitter). In BPC, you always write as much data to the buffers as possible, filling them right up to their play cursors (or perhaps 32 bytes before to allow for drivers that incorrectly report their play cursor progress).
+          
+          Use BPC to mimimize glitching, and use buffers 100ms or larger even if your games doesn't glitch on your test hardware, it will glitch on some machine out there.
+          
+          
+          
+      - question: |
+          I am playing the same sounds over and over very often and very quickly and sometimes they don't play properly, or the Play() call takes a long time. What should I do? 
+        answer: |
+          Startup latency (which is different from streaming latency mentioned above) can be an issue in the case of some hardware (the Play() call just takes a long time sometimes on certain sound cards). If you really want to reduce this latency, for twitch sounds (gun shots, footsteps, and so on.) a handy trick is to keep some buffers always looping and playing silence. When you need to play a twitch sound, pick a free buffer, see where its write cursor is, and put the sound into the buffer just beyond the write cursor. Some soundcards fail QuerySupport for deferred properties that I know they support. Is there a workaround? You could just QuerySupport for the non-deferred versions of the properties and use deferred settings anyway. The most recent soundcard drivers may also fix this issue.
+          
+          
+          
+      - question: |
+          How do I encode WAV files into WMA? 
+        answer: |
+          Refer to the documentation on the Windows Media Encoder at: Windows Media Encoder 9 Series.
+          
+          
+          
+      - question: |
+          How do I decode MP3 files with DirectSound? 
+        answer: |
+          DirectSound does not natively support MP3 decoding. You can decode the files in advance yourself (using an ACM codec of a DirectShow filter), or else just use DirectShow itself, which can do the decode for you; you can then copy the resulting PCM audio data into your DirectSound buffers.
+          
+  - name: DirectX Extensions for Alias Maya
+    questions:
+      - question: |
+          Why aren't my NURBS showing up? 
+        answer: |
+          NURBS are not supported. You can convert them to polygon meshes.
+          
+          
+          
+      - question: |
+          Why aren't my SUBDs showing up?
+        answer: |
+          SUBDs are not supported. You can convert them to polygon meshes.
+          
+          
+          
+      - question: |
+          Why does my animation in the X file look different than the animation in the preview window? 
+        answer: |
+          The preview window is not animating in the strictest sense of the matter. It is not playing animation but instead is synchronizing to the most current state of Maya's scene. When animation is exported the matrices at each transform are decomposed into scale, rotation (quaternion), and translation components (often referred to as SRTs). SRTs are more desirable than matrices because they interpolate well, provide a more compact form of the data, and can be compressed independently. Not all matrices can break down into SRTs. If they cannot decompose, the resulting SRTs will be unknown, so small errors in animation may be detected. The two features in Maya that most often cause problems during decomposition are shears and off-center rotations or scales. If you are encountering this problem, because you are using off-center rotations or scales, consider adding additional transforms increasing your level of hierarchy.
+          
+          Where D3DX animation supports SRTs, it looks like this:
+          
+          ``` syntax
+          [S]x[R]x[T]
+          ```
+          
+          Maya's matrices are much more complicated and require a significant amount of additional process, which looks like this:
+          
+          ``` syntax
+          [SpInv]x[S]x[Sh]x[Sp]x[St]x[RpInv]x[Ro]x[R]x[Rp]x[Rt]x[T]
+          ```
+          
+          
+          
+      - question: |
+          I skinned my mesh with RigidSkin but the mesh (or portion) isn't moving. Why? 
+        answer: |
+          Maya's Rigid Skin is not supported at this time. Please use Smooth Skin.
+          
+          
+          
+      - question: |
+          Where has all of my IK gone in the X-file? 
+        answer: |
+          X-files do not support IK. Instead, the IK solutions are baked into the frames stored in the X-file.
+          
+          
+          
+      - question: |
+          Why do none of my materials colors show up except DirectXShaders? 
+        answer: |
+          The DirectX Extensions for Maya currently only support DirectXShader materials for preview and export. In a future version other materials may be supported.
+          
+          
+          
+  - name: XInput Questions
+    questions:
+      - question: |
+          Can I use DirectInput to read the triggers? 
+        answer: |
+          Yes, but they act as the same axis. So you can not read the triggers independently with DirectInput. Using XInput, the triggers return separate values.
+          
+          For more information on why DirectInput interprets the triggers as one axis, see [Using the a controller with DirectInput](/windows/desktop/xinput/xinput-and-directinput).
+          
+          
+          
+      - question: |
+          How many controllers does XInput support? 
+        answer: |
+          XInput supports 4 controllers plugged in at a time.
+          
+          
+          
+      - question: |
+          Does XInput support non-common controllers? 
+        answer: |
+          No, it does not.
+          
+          
+          
+      - question: |
+          Are common controllers available through DirectInput? 
+        answer: |
+          Yes, you may access common controllers through DirectInput.
+          
+          
+          
+      - question: |
+          How do I get force feedback on the common controllers? 
+        answer: |
+          Use the [**XInputSetState**](/windows/desktop/api/xinput/nf-xinput-xinputsetstate) function.
+          
+          
+          
+      - question: |
+          Why does my default audio device change? 
+        answer: |
+          When connecting the headset, the controller's headset acts as a standard USB audio device, so when it is connected, Windows automatically changes to use this USB audio device as the default. Since the user likely does not want all audio to go through the headset, they will need to manually adjust it back to the original setting.
+          
+          
+          
+      - question: |
+          How do I control the lights on the controller? 
+        answer: |
+          The lights on the controller are predetermined by the operating system and can't be changed.
+          
+          
+          
+      - question: |
+          How do I access the Xbox 360 button in my applications? 
+        answer: |
+          Sorry, this button is reserved for future use.
+          
+          
+          
+      - question: |
+          Where do I get drivers? 
+        answer: |
+          The drivers will be available via Windows Update.
+          
+          
+          
+      - question: |
+          How is controller ID determined? 
+        answer: |
+          At XInput startup, the ID is determined non-deterministically by the XInput engine and the controllers that are plugged in. If controllers are plugged in while an XInput application is running, the system will assign the new controller the lowest available number. If a controller is disconnected, its number will be made available again.
+          
+          
+          
+      - question: |
+          How do I get the audio devices for the controller? 
+        answer: |
+          Use the [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/xinput/nf-xinput-xinputgetdsoundaudiodeviceguids) function. See the AudioController sample for details.
+          
+          
+          
+      - question: |
+          What should I do when a controller is unplugged? 
+        answer: |
+          If the controller was in use by a player, you should pause the game until the controller is reconnected and the player presses a button to signal that they are ready to unpause.

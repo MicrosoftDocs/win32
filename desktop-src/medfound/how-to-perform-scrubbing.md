@@ -1,5 +1,5 @@
 ---
-Description: How to Perform Scrubbing
+description: How to Perform Scrubbing
 ms.assetid: 3cf56caf-5c6d-4318-811a-c8bdc1959148
 title: How to Perform Scrubbing
 ms.topic: article

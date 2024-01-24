@@ -1,5 +1,5 @@
 ---
-Description: Represents an environment or system environment setting on a Windows computer system.
+description: Represents an environment or system environment setting on a Windows computer system.
 ms.assetid: da7ee891-c759-4046-a9d8-d3caf66ab5a9
 ms.tgt_platform: multiple
 title: Win32_Environment class
@@ -273,7 +273,7 @@ Access type: Read-only
 Qualifiers: [**key**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (260), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry\|System\\\\CurrentControlSet\\\\Control\\\\Session Manager\\\\Environment")
 </dt> </dl>
 
-Name of the owner of the environment setting. It is set to <SYSTEM> for settings that are specific to the Windows-based system (as opposed to a specific user) and <DEFAULT> for default user settings.
+Name of the owner of the environment setting. It is set to &lt;SYSTEM&gt; for settings that are specific to the Windows-based system (as opposed to a specific user) and &lt;DEFAULT&gt; for default user settings.
 
 Example: "JSmith"
 
@@ -310,8 +310,6 @@ and
 The calling process that uses this class must have the **SE\_RESTORE\_NAME** privilege on the computer in which the registry resides. For example, if you enumerate this class on the local computer, the account under which your application runs must have this privilege. For more information, see [Executing Privileged Operations](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## Examples
-
-The [List Environment Variables on a Computer](https://Gallery.TechNet.Microsoft.Com/79ae998e-2e29-4a6d-b0a6-34ed5b709d49) Perl sample uses WMI to return information about all the environment variables on a computer.
 
 The following VBScript code example enumerates the environment variables on the local computer.
 
@@ -365,7 +363,7 @@ End If
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The Item property is a read-only property that returns a record in a RecordList Object collection.
+description: The Item property is a read-only property that returns a record in a RecordList Object collection.
 ms.assetid: 59646aa8-811c-4658-8b47-42f70abfdfdb
 title: RecordList.Item property
 ms.topic: reference
@@ -42,7 +42,7 @@ The client must verify that the [**RecordList**](recordlist-object.md) object ex
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

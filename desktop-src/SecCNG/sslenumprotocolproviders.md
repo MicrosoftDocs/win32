@@ -1,5 +1,5 @@
 ---
-Description: Returns an array of installed Secure Sockets Layer protocol (SSL) protocol providers.
+description: Returns an array of installed Secure Sockets Layer protocol (SSL) protocol providers.
 ms.assetid: a61ddcf5-b7e3-40b2-82fc-1cf87eb963ec
 title: SslEnumProtocolProviders function (Sslprovider.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ When you have finished using the array of [**NCryptProviderName**](/windows/desk
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

@@ -50,51 +50,16 @@ Active Directory Domain Services provides the features listed in the following t
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Feature</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Support for Internet standards</td>
-<td>Active Directory Domain Services implements its features in accordance with published Internet standards such as LDAP and DNS.</td>
-</tr>
-<tr class="even">
-<td>Tightly integrated and flexible security</td>
-<td>Advantages include:<br/>
-<ul>
-<li>Choice of authentication packages. Kerberos, Secure Sockets Layer (SSL), or a combination; for example, establish an SSL channel for encryption and then use Kerberos for authentication.</li>
-<li>Central management of service and resource access by using the users and groups in Active Directory Domain Services.</li>
-<li>Delegation of administration so that central administrators can delegate administrative tasks such as password changing or specific object creation and deletion.</li>
-<li>The Active Directory server uses the same access control mechanisms used on file systems in the Windows operating systems. Thus, the same tools that manage access control on a file system work for Active Directory Domain Services.</li>
-<li>Comprehensive Public Key infrastructure. The Microsoft Certificate Server and Smart Card support are integrated with Active Directory Domain Services to provide Smart Card logon and Certificate management.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Easily programmable</td>
-<td>The Active Directory server can be programmatically accessed and administered using the <a href="/windows/desktop/ADSI/active-directory-service-interfaces-adsi">Active Directory Service Interfaces</a> API, <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol</a> API, or the <a href="/dotnet/api/system.directoryservices">System.DirectoryServices</a> namespace.</td>
-</tr>
-<tr class="even">
-<td>Directory enabled system services</td>
-<td>Your client application can be easily deployed to distributed desktops by creating a Windows Installer package and using the application deployment feature available in the Windows operating systems.</td>
-</tr>
-<tr class="odd">
-<td>Key application integration</td>
-<td>Key distributed applications, such as Exchange, are integrated with Active Directory Domain Services. Thus, companies can reduce the number of directory services to be managed.</td>
-</tr>
-<tr class="even">
-<td>Rich and extensible schema</td>
-<td>The schema defines what objects and properties can be written and read from a directory service. The Active Directory Schema is rich. Most of the objects and properties a service requires are available. If not, a distributed application can extend the schema to support the application requirements.</td>
-</tr>
-</tbody>
-</table>
+
+| Feature | Description | 
+|---------|-------------|
+| Support for Internet standards | Active Directory Domain Services implements its features in accordance with published Internet standards such as LDAP and DNS. | 
+| Tightly integrated and flexible security | Advantages include:<br /><ul><li>Choice of authentication packages. Kerberos, Secure Sockets Layer (SSL), or a combination; for example, establish an SSL channel for encryption and then use Kerberos for authentication.</li><li>Central management of service and resource access by using the users and groups in Active Directory Domain Services.</li><li>Delegation of administration so that central administrators can delegate administrative tasks such as password changing or specific object creation and deletion.</li><li>The Active Directory server uses the same access control mechanisms used on file systems in the Windows operating systems. Thus, the same tools that manage access control on a file system work for Active Directory Domain Services.</li><li>Comprehensive Public Key infrastructure. The Microsoft Certificate Server and Smart Card support are integrated with Active Directory Domain Services to provide Smart Card logon and Certificate management.</li></ul> | 
+| Easily programmable | The Active Directory server can be programmatically accessed and administered using the <a href="/windows/desktop/ADSI/active-directory-service-interfaces-adsi">Active Directory Service Interfaces</a> API, <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol</a> API, or the <a href="/dotnet/api/system.directoryservices">System.DirectoryServices</a> namespace. | 
+| Directory enabled system services | Your client application can be easily deployed to distributed desktops by creating a Windows Installer package and using the application deployment feature available in the Windows operating systems. | 
+| Key application integration | Key distributed applications, such as Exchange, are integrated with Active Directory Domain Services. Thus, companies can reduce the number of directory services to be managed. | 
+| Rich and extensible schema | The schema defines what objects and properties can be written and read from a directory service. The Active Directory Schema is rich. Most of the objects and properties a service requires are available. If not, a distributed application can extend the schema to support the application requirements. | 
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves additional information about an error.
+description: GetErrorEx method of the Msvm_CollectionReferencePointExportJob class - Retrieves additional information about an error.
 ms.assetid: 64a90f18-3ae7-4021-857f-64adf8c40430
 title: GetErrorEx method of the Msvm_CollectionReferencePointExportJob class
 ms.topic: reference
@@ -87,7 +87,7 @@ On success, returns 0; otherwise, returns one of the following error values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

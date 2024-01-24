@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInTransactionException members"
 title: EsentInTransactionException members
 TOCTitle: EsentInTransactionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInTransactionException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InTransaction exceptions.
 
-The [EsentInTransactionException](dn319457\(v=exchg.10\).md) type exposes the following members.
+The [EsentInTransactionException](./esentintransactionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInTransactionException class](dn319457\(v=exchg.10\).md)
+[EsentInTransactionException class](./esentintransactionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Represents a service that manages virtual systems.
+description: Represents a service that manages virtual systems.
 ms.assetid: b2645546-3c04-4d3f-8d53-019a6db08e24
 title: CIM_VirtualSystemManagementService class
 ms.topic: reference
@@ -57,7 +57,7 @@ The **CIM\_VirtualSystemManagementService** class has these methods.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: An object namespace protects named objects from unauthorized access.
+description: An object namespace protects named objects from unauthorized access.
 ms.assetid: 6a84ec16-fa65-4cdd-861a-eccf5d0eee2b
 title: Object Namespaces
 ms.topic: article

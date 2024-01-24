@@ -1,5 +1,5 @@
 ---
-Description: Model name of the device.
+description: Model name of the device.
 ms.assetid: 661a58ed-3efd-465f-9a48-db3302794792
 title: System.Devices.ModelName
 ms.topic: article

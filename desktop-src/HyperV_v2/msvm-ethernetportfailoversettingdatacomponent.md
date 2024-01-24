@@ -1,5 +1,5 @@
 ---
-Description: An association used to establish relationships between one instance of an Msvm\_EmulatedEthernetPortSettingData and one or more instances of an Msvm\_EthernetSwitchFeatureSettingData.
+description: An association used to establish relationships between one instance of an Msvm\_EmulatedEthernetPortSettingData and one or more instances of an Msvm\_EthernetSwitchFeatureSettingData.
 ms.assetid: A2929D81-ED86-4C5A-9280-276204EDE89B
 title: Msvm_EthernetPortFailoverSettingDataComponent class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_FailoverNetworkAdapterSettingData**](
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

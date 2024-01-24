@@ -1,5 +1,5 @@
 ---
-Description: Indicates to the video sample allocator to create textures as shareable using keyed-mutex.
+description: Indicates to the video sample allocator to create textures as shareable using keyed-mutex.
 ms.assetid: 798CA474-3B1A-4795-81B7-563749197104
 title: MF_SA_D3D11_SHARED attribute (Mftransform.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This attribute can be set on the video sample allocator, in the [**IMFVideoSampl
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |

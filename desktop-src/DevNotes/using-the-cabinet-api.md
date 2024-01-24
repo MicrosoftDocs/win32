@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the Cabinet API"
 ms.assetid: facbcbee-46c2-4fb5-85f9-5d08244dcf86
 title: Using the Cabinet API
 ms.topic: article

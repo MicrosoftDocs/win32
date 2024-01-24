@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_CONDITIONALCOLUMN properties"
 title: JET_CONDITIONALCOLUMN properties
 TOCTitle: JET_CONDITIONALCOLUMN properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_CONDITIONALCOLUMN](dn335053\(v=exchg.10\).md) type exposes the following members.
+The [JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-class.md) type exposes the following members.
 
 ## Properties
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_CONDITIONALCOLUMN class](dn335053\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN class](./jet-conditionalcolumn-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

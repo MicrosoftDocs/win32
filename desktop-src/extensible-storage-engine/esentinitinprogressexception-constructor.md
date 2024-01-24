@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInitInProgressException constructor"
 title: EsentInitInProgressException constructor 
 TOCTitle: 'EsentInitInProgressException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInitInProgressException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInitInProgressException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInitInProgressException()
 
 #### Reference
 
-[EsentInitInProgressException class](dn350503\(v=exchg.10\).md)
+[EsentInitInProgressException class](./esentinitinprogressexception-class.md)
 
-[EsentInitInProgressException members](dn319433\(v=exchg.10\).md)
+[EsentInitInProgressException members](./esentinitinprogressexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

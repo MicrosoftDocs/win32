@@ -1,5 +1,5 @@
 ---
-Description: Provides detailed information about a manually mounted storage image.
+description: Provides detailed information about a manually mounted storage image.
 ms.assetid: '40b94c5f-c277-40c8-a55d-ebc64cb231ca'
 title: Msvm_MountedStorageImage class
 ms.topic: reference
@@ -429,7 +429,7 @@ Access to the **Msvm\_MountedStorageImage** class might be restricted by UAC Fil
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Clears stroke packet data from the IInkAnalyzer.
+description: Clears stroke packet data from the IInkAnalyzer.
 ms.assetid: c87a1e73-5e3f-4d27-93e9-e30d9ec5d9e3
 title: IInkAnalyzer::ClearStrokeData method (IACom.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Use this method when packet data for a stroke changes, such as when a stroke is 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: OPM Status Requests
+description: OPM Status Requests
 ms.assetid: 428d08c6-e9f0-49fb-9ef9-d0f95416669d
 title: OPM Status Requests
 ms.topic: article
@@ -12,7 +12,7 @@ This section lists the available status requests for [Output Protection Manager]
 
 
 
-|              |                                                                                                                                                            |
+| Value             | Description                                                                                                                                                           |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Request GUID | Identifies the request. Set the **guidSetting** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure equal to this value. |
 | Input data   | Specifies how to interpret the **abParameters** array in the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters) structure.                      |

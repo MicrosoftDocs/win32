@@ -1,5 +1,5 @@
 ---
-Description: An imaging device is represented in Windows Image Acquisition (WIA) as a hierarchical tree of WIA item objects (IWiaItem interfaces).
+description: An imaging device is represented in Windows Image Acquisition (WIA) as a hierarchical tree of WIA item objects (IWiaItem interfaces).
 ms.assetid: 5f3e56aa-8616-4574-882c-619caf54ca04
 title: Using WIA Device Objects
 ms.topic: article

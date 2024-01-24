@@ -1,5 +1,5 @@
 ---
-Description: The advanced recognition sample demonstrates advanced features of the Microsoft Tablet PC Automation application programming interface (API) used for handwriting recognition.
+description: The advanced recognition sample demonstrates advanced features of the Microsoft Tablet PC Automation application programming interface (API) used for handwriting recognition.
 ms.assetid: 4c9b9f31-c317-43fd-8404-35295b41d093
 title: Advanced Recognition Sample
 ms.topic: article

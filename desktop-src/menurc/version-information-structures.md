@@ -1,6 +1,6 @@
 ---
 title: Version Information Structures
-description: .
+description: Version Information Structures
 ms.assetid: 44252d74-abb6-4ff3-9d4c-969bbc25439e
 ms.topic: article
 ms.date: 05/31/2018

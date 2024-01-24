@@ -72,7 +72,7 @@ D2D_PS_ENTRY(CircularWrapPS)
 
 
 
-|                   |                                                                                                    |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1effecthelpers.hlsli</dt> </dl> |
 | DLL<br/>    | <dl> <dt>D2d1.dll</dt> </dl>                |

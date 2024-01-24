@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Samples
+# Samples (Structured Storage)
 
 Several sample applications are included with the Structured Storage documentation. The samples include:
 

@@ -1,5 +1,5 @@
 ---
-Description: The GetEnabledProtocols function returns a table of all protocols that are marked Enabled.
+description: The GetEnabledProtocols function returns a table of all protocols that are marked Enabled.
 ms.assetid: 11feac64-c770-47b2-a740-fc372e97b8ed
 title: GetEnabledProtocols function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

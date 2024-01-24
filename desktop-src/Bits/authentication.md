@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 10/09/2018
 ---
 
-# Authentication
+# Authentication (BITS)
 
 BITS supports Basic authentication, Passport authentication, and several challenge/response authentication schemes. If the server or proxy requires user authentication, use the [**IBackgroundCopyJob2::SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) function to specify the user's credentials. BITS uses the [CryptoAPI](/windows/desktop/SecCrypto/cryptography-portal) to protect the credentials.
 
@@ -30,7 +30,7 @@ You could also change the **LMCompatibilityLevel** or **UseLMCompat** registry v
 
 BITS will use implicit credentials for authentication if the **LMCompatibilityLevel** registry value is two or greater, and you have not called the [**SetCredentials**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials) method. The full path to the **LMCompatibilityLevel** registry value is **HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Control**\\**LSA**\\**LmCompatibilityLevel**.
 
-Note that changing the **LMCompatibilityLevel** registry value can affect other applications and services running on the computer. For more information about using the **LMCompatibilityLevel** registry value, see [KB147706](https://support.microsoft.com/kb/147706).
+Note that changing the **LMCompatibilityLevel** registry value can affect other applications and services running on the computer.
 
 If setting the **LMCompatibilityLevel** registry value is an issue, you can create the **UseLMCompat** registry value under **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**BITS**. The registry value is a DWORD. The following table lists the possible values for **UseLMCompat**:
 

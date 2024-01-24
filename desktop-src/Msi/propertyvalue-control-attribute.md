@@ -1,5 +1,5 @@
 ---
-Description: This attribute is the present value of the property displayed or changed by this control.
+description: This attribute is the present value of the property displayed or changed by this control.
 ms.assetid: dda67da0-05f7-4584-9a1e-e9b8e8f7ff8b
 title: PropertyValue Control Attribute
 ms.topic: article

@@ -22,7 +22,7 @@ The **ms-DS-Site-Affinity** attribute is used by the Security Accounts Manager f
 
 
 
-|                   |                                                                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | CN                | ms-DS-Site-Affinity                                                                     |
 | Ldap-Display-Name | msDS-Site-Affinity                                                                      |
@@ -47,7 +47,7 @@ The **ms-DS-Site-Affinity** attribute is used by the Security Accounts Manager f
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ The **ms-DS-Site-Affinity** attribute is used by the Security Accounts Manager f
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ The **ms-DS-Site-Affinity** attribute is used by the Security Accounts Manager f
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ The **ms-DS-Site-Affinity** attribute is used by the Security Accounts Manager f
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ The **ms-DS-Site-Affinity** attribute is used by the Security Accounts Manager f
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

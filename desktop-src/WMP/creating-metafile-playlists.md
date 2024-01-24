@@ -8,15 +8,18 @@ keywords:
 - metafile playlists,creating
 - creating Windows Media metafile playlists
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - kbArticle
 api_name: 
 api_type: 
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # Creating Metafile Playlists
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can create a playlist using any text editor, such as Microsoft Notepad. Open your text editor. Type the script entries you want to implement. After you have finished typing into Notepad, save the file with an appropriate file name and file name extension. For more information about extensions, see [Metafile Extension Guidelines](metafile-extension-guidelines.md). Typically the file name is the name of the Windows Media file or stream followed by an extension of .wax, .wvx, or .asx. For example, if your media content is a Windows Media audio file that has a .wma extension, use the .wax extension when naming the playlist. Playlists must not include any formatting codes from a word processor, such as Microsoft Word. To be sure no formatting codes are included in the playlist, save the file as a plain text or ASCII file.
 

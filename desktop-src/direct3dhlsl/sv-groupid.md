@@ -25,9 +25,8 @@ Defines the group offset within a [**Dispatch**](/windows/desktop/api/d3d11/nf-d
 
 
 
-|       |
+| Type      |
 |-------|
-| Type  |
 | uint3 |
 
 
@@ -46,9 +45,8 @@ This function is supported in the following types of shaders:
 
 
 
-|        |      |        |          |       |         |
-|--------|------|--------|----------|-------|---------|
 | Vertex | Hull | Domain | Geometry | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
 

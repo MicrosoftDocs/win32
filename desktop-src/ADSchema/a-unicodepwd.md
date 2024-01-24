@@ -22,7 +22,7 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 
 
-|                   |                                                                              |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------------|
 | CN                | Unicode-Pwd                                                                  |
 | Ldap-Display-Name | unicodePwd                                                                   |
@@ -49,7 +49,7 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -70,7 +70,7 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -91,7 +91,7 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -112,7 +112,7 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -133,7 +133,7 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -154,7 +154,7 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -175,7 +175,7 @@ The password of the user in Windows NT one-way format (OWF). Windows 2000 uses t
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

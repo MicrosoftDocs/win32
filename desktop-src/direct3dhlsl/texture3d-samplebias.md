@@ -1,6 +1,6 @@
 ---
 title: Texture3D::Texture3D SampleBias methods
-description: Samples a texture, after applying the bias value to the mipmap level.
+description: Samples a texture, after applying the bias value to the mipmap level. | Texture3D::Texture3D SampleBias methods
 ms.assetid: 60561260-671A-4275-BAED-D854DAB8FFDE
 keywords:
 - SampleBias methods HLSL

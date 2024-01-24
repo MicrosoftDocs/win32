@@ -1,5 +1,5 @@
 ---
-Description: Used to control the ambient light sensor brightness state.
+description: Used to control the ambient light sensor brightness state.
 ms.assetid: ff400d4e-be8c-450b-ad53-d43b0ab84ab3
 title: WmiSetALSBrightnessState method of the WmiMonitorBrightnessMethods class
 ms.topic: reference
@@ -49,7 +49,7 @@ Returns zero (0) to indicate success. Any other number indicates an error. For m
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

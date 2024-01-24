@@ -98,7 +98,7 @@ For Shell version 4.72 and earlier, both window and button style flags had the f
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

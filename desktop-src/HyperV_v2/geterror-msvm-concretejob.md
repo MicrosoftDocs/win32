@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the error object for the job, if one exists.
+description: GetError method of the Msvm_ConcreteJob class - Retrieves the error object for the job, if one exists.
 ms.assetid: 7E810CBE-F18F-4EFA-B52E-631CD071D136
 title: GetError method of the Msvm_ConcreteJob class
 ms.topic: reference
@@ -95,7 +95,7 @@ Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restri
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

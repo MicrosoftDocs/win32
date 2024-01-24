@@ -1,7 +1,7 @@
 ---
 title: Teredo Addresses
 ms.assetid: e2e185c2-e53d-471d-aedb-54d75f9db0bb
-description: 
+description: "Learn more about: Teredo Addresses"
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,0 +1,48 @@
+---
+title: UPDATE_ORCHESTRATOR_ACTION_KIND Enumeration
+description: Enumeration that indicates the action to be performed in the scheduled update.
+ms.topic: reference
+ms.date: 01/29/2020
+---
+
+# UPDATE_ORCHESTRATOR_ACTION_KIND enumeration
+
+
+## -description
+Enumeration that indicates the action to be performed in the scheduled update.
+        
+## Syntax
+
+```cpp
+typedef enum tagUPDATE_ORCHESTRATOR_ACTION_KIND
+{
+    UPDATE_ORCHESTRATOR_ACTION_KIND_NONE,
+    UPDATE_ORCHESTRATOR_ACTION_KIND_DOWNLOAD,
+    UPDATE_ORCHESTRATOR_ACTION_KIND_INSTALL,
+    UPDATE_ORCHESTRATOR_ACTION_KIND_UNINSTALL,
+    UPDATE_ORCHESTRATOR_ACTION_KIND_PREREBOOT,
+    UPDATE_ORCHESTRATOR_ACTION_KIND_COMPLETE,
+} UPDATE_ORCHESTRATOR_ACTION_KIND;
+```
+## Constants
+
+### UPDATE_ORCHESTRATOR_ACTION_KIND_NONE
+
+
+### UPDATE_ORCHESTRATOR_ACTION_KIND_DOWNLOAD
+
+
+### UPDATE_ORCHESTRATOR_ACTION_KIND_INSTALL
+
+
+### UPDATE_ORCHESTRATOR_ACTION_KIND_UNINSTALL
+
+
+### UPDATE_ORCHESTRATOR_ACTION_KIND_PREREBOOT
+
+
+### UPDATE_ORCHESTRATOR_ACTION_KIND_COMPLETE
+
+## Remarks
+
+This is only going to be used for telemetry.

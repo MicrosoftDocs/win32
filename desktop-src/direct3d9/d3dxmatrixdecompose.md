@@ -1,22 +1,25 @@
 ---
-Description: Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
+description: D3DXMatrixDecompose function (D3dx9math.h) - Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
 ms.assetid: 73d3c248-1254-444e-9fd8-4f144424ddb7
 title: D3DXMatrixDecompose function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixDecompose
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixDecompose function
+# D3DXMatrixDecompose function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
 
@@ -84,7 +87,7 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -101,7 +104,3 @@ If the function succeeds, the return value is S\_OK. If the function fails, the 
  
 
  
-
-
-
-

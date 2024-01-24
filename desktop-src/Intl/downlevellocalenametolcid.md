@@ -1,5 +1,5 @@
 ---
-Description: Converts a locale name to a locale identifier that can be used to get information from the operating system.
+description: Converts a locale name to a locale identifier that can be used to get information from the operating system.
 ms.assetid: dc776c41-0376-4222-bebf-86be7e4be122
 title: DownlevelLocaleNameToLCID function (Nlsdl.h)
 ms.topic: reference
@@ -70,13 +70,13 @@ The function returns 0 if it does not succeed. To get extended error information
 
  
 
-The required header file and DLL are part of the "Microsoft NLS Downlevel Data Mapping APIs" download, available at the [Microsoft Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&DisplayLang=en).
+The required header file and DLL are part of the "Microsoft NLS Downlevel Data Mapping APIs" download, which is no longer available from the [Microsoft Download Center](https://www.microsoft.com/downloads). Use [ICU globalization APIs](/dotnet/core/compatibility/globalization/5.0/icu-globalization-api) on Windows 10 May 2019 Update and later versions.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                |

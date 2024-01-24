@@ -22,7 +22,7 @@ The Per Recipient options MAPI display table.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Per-Recip-Dialog-Display-Table                        |
 | Ldap-Display-Name | perRecipDialogDisplayTable                            |
@@ -48,7 +48,7 @@ The Per Recipient options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
@@ -69,7 +69,7 @@ The Per Recipient options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
@@ -90,7 +90,7 @@ The Per Recipient options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
@@ -111,7 +111,7 @@ The Per Recipient options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
@@ -132,7 +132,7 @@ The Per Recipient options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |
@@ -153,7 +153,7 @@ The Per Recipient options MAPI display table.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8109                                                   |

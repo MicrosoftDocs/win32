@@ -1,5 +1,5 @@
 ---
-Description: Deletes the given CIM\_CollectionOfMSEs object.
+description: Deletes the given CIM\_CollectionOfMSEs object.
 ms.assetid: 2c79e281-44c3-4a91-98d5-fdf973d149c3
 title: DestroyCollection method of the Msvm_CollectionManagementService class
 ms.topic: reference
@@ -101,7 +101,7 @@ Returns 0 if successful, or 4096 if the job started; otherwise, returns an error
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

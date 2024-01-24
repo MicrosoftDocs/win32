@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int, uint) function
+# ByteAddressBuffer::Load(int, uint) function
 
 Gets one value and the status of the operation.
 

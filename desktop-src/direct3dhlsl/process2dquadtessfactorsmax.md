@@ -1,6 +1,6 @@
 ---
 title: Process2DQuadTessFactorsMax function
-description: Generates the corrected tessellation factors for a quad patch.
+description: Generates the corrected tessellation factors for a quad patch. | Process2DQuadTessFactorsMax function
 ms.assetid: 1de95946-d82d-42ba-93d7-ab8383fd5018
 keywords:
 - Process2DQuadTessFactorsMax function HLSL

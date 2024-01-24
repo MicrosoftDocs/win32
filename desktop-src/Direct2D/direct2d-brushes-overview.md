@@ -13,7 +13,7 @@ This overview describes how to create and use [**ID2D1SolidColorBrush**](/window
 
 ## Prerequisites
 
-This overview assumes that you are familiar with the structure of a basic Direct2D application, as described in [Creating a Simple Direct2D Application](direct2d-quickstart.md).
+This overview assumes that you are familiar with the structure of a basic Direct2D application, as described in [Create a simple Direct2D application](direct2d-quickstart.md).
 
 ## Brush types
 
@@ -38,7 +38,7 @@ Starting in Windows 8, [**D2D1\_COLOR\_F**](d2d1-color-f.md) also accepts scRGB
 
 To define a color, you can use the [**D2D1\_COLOR\_F**](d2d1-color-f.md) structure and initialize its fields yourself, or you can use the [**D2D1::ColorF**](/windows/win32/api/d2d1helper/nl-d2d1helper-colorf) class to help you create the color. The **ColorF** class provides several constructors for defining colors. If the alpha value is not specified in the constructors, it defaults to 1.0.
 
--   Use the [**ColorF(Enum, FLOAT)**](/previous-versions/windows/win32/legacy/dd370909(v=vs.85)) constructor to specify a predefined color and an alpha channel value. An alpha channel value ranges from 0.0 to 1.0, where 0.0 represents a fully transparent color and 1.0 represents a fully opaque color. The following illustration shows several predefined colors and their hexadecimal equivalents. For a complete list of predefined colors, see the Color constants section of the [**ColorF**](/windows/win32/api/d2d1helper/nl-d2d1helper-colorf) class.
+-   Use the [**ColorF(Enum, FLOAT)**](/previous-versions/windows/desktop/legacy/dd370909(v=vs.85)) constructor to specify a predefined color and an alpha channel value. An alpha channel value ranges from 0.0 to 1.0, where 0.0 represents a fully transparent color and 1.0 represents a fully opaque color. The following illustration shows several predefined colors and their hexadecimal equivalents. For a complete list of predefined colors, see the Color constants section of the [**ColorF**](/windows/win32/api/d2d1helper/nl-d2d1helper-colorf) class.
 
     ![illustration of predefined colors](images/brushes-ovw-colors.png)
 

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a non-color style has the italic style.
+description: Specifies whether a non-color style has the italic style.
 ms.assetid: 4295c0b1-6e37-4fa9-9015-68bcc4784cda
 title: FItalicIMEStyle function
 ms.topic: reference
@@ -53,7 +53,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

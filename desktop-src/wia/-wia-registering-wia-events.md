@@ -1,5 +1,5 @@
 ---
-Description: 'Applications can register to be notified of Windows Image Acquisition (WIA) hardware device events by calling one of the following IWiaDevMgr or IWiaDevMgr2 interface methods: IWiaDevMgr::RegisterEventCallbackCLSID or IWiaDevMgr2::RegisterEventCallbackCLSIDIWiaDevMgr::RegisterEventCallbackInterface or IWiaDevMgr2::RegisterEventCallbackInterfaceIWiaDevMgr::RegisterEventCallbackProgram or IWiaDevMgr2::RegisterEventCallbackProgram'
+description: 'Applications can register to be notified of Windows Image Acquisition (WIA) hardware device events by calling one of the following IWiaDevMgr or IWiaDevMgr2 interface methods: IWiaDevMgr::RegisterEventCallbackCLSID or IWiaDevMgr2::RegisterEventCallbackCLSIDIWiaDevMgr::RegisterEventCallbackInterface or IWiaDevMgr2::RegisterEventCallbackInterfaceIWiaDevMgr::RegisterEventCallbackProgram or IWiaDevMgr2::RegisterEventCallbackProgram'
 ms.assetid: 0c142083-835f-4bbd-ab32-eb6130f99c59
 title: Registering WIA Events
 ms.topic: article

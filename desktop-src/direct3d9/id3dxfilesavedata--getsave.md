@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a pointer to this ID3DXFileSaveObject file data node.
+description: Retrieves a pointer to this ID3DXFileSaveObject file data node.
 ms.assetid: 092d1c6f-0a53-4b8e-84ec-bc76f3f647ac
 title: ID3DXFileSaveData::GetSave method (D3DX9Xof.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

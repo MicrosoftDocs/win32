@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the validity status of the chain or a specific certificate in the chain.
+description: Retrieves the validity status of the chain or a specific certificate in the chain.
 title: IChain2::Status property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -18,7 +18,7 @@ api_location:
 
 # IChain2::Status property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](/dotnet/api/system.security.cryptography.x509certificates.x509chain?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Chain Class**](/dotnet/api/system.security.cryptography.x509certificates.x509chain) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Status** property retrieves the validity status of the chain or a specific certificate in the chain.
 
@@ -289,7 +289,7 @@ A CTL used to create this chain is not valid for this usage.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: WMI defines a set of system properties that are associated with all classes and instances of classes in addition to class-specific properties.
+description: WMI defines a set of system properties that are associated with all classes and instances of classes in addition to class-specific properties.
 ms.assetid: ea8ca4e4-9969-48fc-9b9f-5a5c8442006d
 ms.tgt_platform: multiple
 title: CIM System Properties for MIB Objects

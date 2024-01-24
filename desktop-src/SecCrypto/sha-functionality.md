@@ -1,5 +1,5 @@
 ---
-Description: The original Base Provider incorrectly reported that the SHA hash algorithm enumerating algorithms by calls to CryptGetProvParam with parameter PP\_ENUMALGS specified.
+description: The original Base Provider incorrectly reported that the SHA hash algorithm enumerating algorithms by calls to CryptGetProvParam with parameter PP\_ENUMALGS specified.
 ms.assetid: 75128a4f-273a-4195-b206-30fc8bc589e9
 title: SHA Functionality
 ms.topic: article

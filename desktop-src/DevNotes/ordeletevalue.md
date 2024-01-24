@@ -1,5 +1,5 @@
 ---
-Description: Removes a named value from the specified registry key in an offline registry hive.
+description: Removes a named value from the specified registry key in an offline registry hive.
 ms.assetid: d2192607-34b8-4915-ac86-8ee206993071
 title: ORDeleteValue function (Offreg.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ If the function fails, the return value is a nonzero error code defined in Winer
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

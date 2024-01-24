@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.PeopleNames property.
+description: The photo metadata policy for the System.Photo.PeopleNames property.
 ms.assetid: 567d5542-fc7b-4d19-bc3c-b9d6e26e3387
 title: System.Photo.PeopleNames Photo Metadata Policy
 ms.topic: article
@@ -42,7 +42,7 @@ Values from different schemas are reconciled.
 
 | Order | Path                                                           | Disk Format |
 |-------|----------------------------------------------------------------|-------------|
-| 1     | /xmp/<xmpstruct>MP:RegionInfo/<xmpbag>MPRI:Regions | ushort      |
+| 1     | /xmp/&lt;xmpstruct&gt;MP:RegionInfo/&lt;xmpbag&gt;MPRI:Regions | ushort      |
 
 
 
@@ -58,7 +58,7 @@ This property cannot be written using the metadata policy.
 
 | Order | Path                                |
 |-------|-------------------------------------|
-| 1     | /xmp/<xmpstruct>MP:RegionInfo |
+| 1     | /xmp/&lt;xmpstruct&gt;MP:RegionInfo |
 
 
 
@@ -72,7 +72,7 @@ This property cannot be written using the metadata policy.
 
 | Order | Path                                                               | Disk Format |
 |-------|--------------------------------------------------------------------|-------------|
-| 1     | /ifd/xmp/<xmpstruct>MP:RegionInfo/<xmpbag>MPRI:Regions | ushort      |
+| 1     | /ifd/xmp/&lt;xmpstruct&gt;MP:RegionInfo/&lt;xmpbag&gt;MPRI:Regions | ushort      |
 
 
 
@@ -88,7 +88,7 @@ This property cannot be written using the metadata policy.
 
 | Order | Path                                    |
 |-------|-----------------------------------------|
-| 1     | /ifd/xmp/<xmpstruct>MP:RegionInfo |
+| 1     | /ifd/xmp/&lt;xmpstruct&gt;MP:RegionInfo |
 
 
 

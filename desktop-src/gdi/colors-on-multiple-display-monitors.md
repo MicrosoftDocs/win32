@@ -1,5 +1,5 @@
 ---
-Description: Each monitor can have its own color depth.
+description: Each monitor can have its own color depth.
 ms.assetid: 8d1ba8d2-b43d-498d-be5a-100fe9fc0f61
 title: Colors on Multiple Display Monitors
 ms.topic: article

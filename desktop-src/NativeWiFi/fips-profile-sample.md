@@ -1,7 +1,7 @@
 ---
-Description: Used to connect to a network that requires security settings that comply with Federal Information Processing Standards (FIPS) 140-2 standard.
+description: Used to connect to a network that requires security settings that comply with Federal Information Processing Standards (FIPS) 140-2 standard.
 ms.assetid: 169df4a3-e8b9-4f05-874f-a7eef6658d01
-title: FIPS Profile Sample
+title: FIPS profile sample
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -11,13 +11,13 @@ api_type:
 api_location: 
 ---
 
-# FIPS Profile Sample
+# FIPS profile sample
 
-The FIPS profile sample can be used to connect to a network that requires security settings that comply with Federal Information Processing Standards (FIPS) 140-2 standard. For more information about FIPS, see [**FIPSMode**](wlan-profileschema-fipsmode-authencryption-element.md).
+The FIPS profile sample can be used to connect to a network that requires security settings that comply with Federal Information Processing Standards (FIPS) 140-2 standard. For more information about FIPS, see [**FIPSMode**](wlan-profileschema-authencryption-security-element.md#fipsmode).
 
-**Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed:** Changes are implemented on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed to optimize wireless networking performance. The default setting for [**autoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) when this element is not set in a wireless LAN profile has changed. The default setting is changed to "false" on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed. The default setting was "true" on Windows Server 2008 and Windows Vista. Please refer to the [**autoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) schema element description for more information.
+**Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed:** Changes are implemented on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed to optimize wireless networking performance. The default setting for [**autoSwitch**](wlan-profileschema-wlanprofile-element.md#autoswitch) when this element is not set in a wireless LAN profile has changed. The default setting is changed to "false" on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed. The default setting was "true" on Windows Server 2008 and Windows Vista. Please refer to the [**autoSwitch**](wlan-profileschema-wlanprofile-element.md#autoswitch) schema element description for more information.
 
-**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-name-wlanprofile-element.md) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored. The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-name-ssid-element.md) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element. The [**FIPSMode**](wlan-profileschema-fipsmode-authencryption-element.md) element is not supported.
+**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-wlanprofile-element.md#name) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored. The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-ssid-ssidconfig-element.md#name) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element. The [**FIPSMode**](wlan-profileschema-authencryption-security-element.md#fipsmode) element is not supported.
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
@@ -63,7 +63,7 @@ The FIPS profile sample can be used to connect to a network that requires securi
 
 <dl> <dt>
 
-[Wireless Profile Samples](wireless-profile-samples.md)
+[Wireless profile samples](wireless-profile-samples.md)
 </dt> </dl>
 
  

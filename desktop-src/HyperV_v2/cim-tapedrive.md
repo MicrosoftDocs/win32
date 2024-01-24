@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities and management of a tape drive.
+description: Represents the capabilities and management of a tape drive.
 ms.assetid: 8140fd9a-8a12-43b4-bc61-ec143e5d754c
 title: CIM_TapeDrive class (Hyper-V management)
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_TapeDrive class
+# CIM_TapeDrive class (Hyper-V management)
 
 Represents the capabilities and management of a tape drive.
 
@@ -113,7 +113,7 @@ The number of bytes inserted between blocks on tape media.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

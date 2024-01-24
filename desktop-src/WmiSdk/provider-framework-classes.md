@@ -1,5 +1,5 @@
 ---
-Description: WMI C++ classes that are part of the WMI Provider Framework are now considered in final state.
+description: Learn about the WMI C++ classes that are part of the WMI Provider Framework and are now considered in final state.
 ms.assetid: 062a7724-0589-4e9d-af7a-39fd9c08e40b
 ms.tgt_platform: multiple
 title: Provider Framework Classes
@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Provider Framework Classes
 
-\[WMI C++ classes that are part of the WMI Provider Framework are are now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
+\[WMI C++ classes that are part of the WMI Provider Framework are now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries. The [MI APIs](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure) should be used for all new development.\]
 
 The provider framework implements the following classes.
 

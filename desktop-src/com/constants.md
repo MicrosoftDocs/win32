@@ -1,12 +1,12 @@
 ---
 title: Constants (COM)
 ms.assetid: 'ec12a8ae-bdd6-473c-b72b-2ba5fe5fc9c0'
-description: 
+description: "Learn more about: Constants (COM)"
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Constants
+# Constants (COM)
 
 The following constants are provided by COM:
 

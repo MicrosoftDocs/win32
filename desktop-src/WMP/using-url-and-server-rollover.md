@@ -19,15 +19,18 @@ keywords:
 - server rollovers
 - protocol rollovers
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - kbArticle
 api_name: 
 api_type: 
 api_location: 
+ms.custom: UpdateFrequency5
 ---
 
 # Using URL and Server Rollover
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can use metafile playlists to provide a means of automatically rolling over to alternate content sources when a stream cannot be accessed or played. You can use this rollover method to specify sources of the same content on different servers or different types of servers. You can, for example, specify a first alternate on a different Windows Media server. If that content fails to play, the client can roll over to a second alternate on a web server. Windows Media Player automatically tries to roll over to different protocols according to its Windows Media property settings before trying the rollover URLs in the playlist.
 

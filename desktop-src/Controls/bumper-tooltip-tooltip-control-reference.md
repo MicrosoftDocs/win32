@@ -1,6 +1,6 @@
 ---
 title: Tooltip Control Reference
-description: .
+description: Tooltip Control Reference
 ms.assetid: a6e5dc44-7878-462f-b2cb-4c3213f6b924
 ms.topic: article
 ms.date: 05/31/2018

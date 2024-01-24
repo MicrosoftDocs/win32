@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer is the recommended solution for the installation and setup of applications on Windows.
+description: Windows Installer is the recommended solution for the installation and setup of applications on Windows.
 ms.assetid: 13f41020-5275-44cd-b26b-f45483700d8a
 title: Role-based Guide to Windows Installer Documentation
 ms.topic: article

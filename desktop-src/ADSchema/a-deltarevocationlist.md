@@ -22,7 +22,7 @@ List of certificates that have been revoked since the last delta update.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Delta-Revocation-List                                 |
 | Ldap-Display-Name | deltaRevocationList                                   |
@@ -48,7 +48,7 @@ List of certificates that have been revoked since the last delta update.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8C46                                                                                                                                     |
@@ -69,7 +69,7 @@ List of certificates that have been revoked since the last delta update.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8C46                                                                                                                                     |
@@ -90,7 +90,7 @@ List of certificates that have been revoked since the last delta update.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8C46                                                                                                                                     |
@@ -111,7 +111,7 @@ List of certificates that have been revoked since the last delta update.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8C46                                                                                                                                     |
@@ -132,7 +132,7 @@ List of certificates that have been revoked since the last delta update.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8C46                                                                                                                                     |
@@ -153,7 +153,7 @@ List of certificates that have been revoked since the last delta update.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | 0x8C46                                                                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The PROPERTYINFO data structure defines one property of the protocol.
+description: The PROPERTYINFO data structure defines one property of the protocol.
 ms.assetid: '878777ab-141d-4cc5-b0c1-f2ac8f770bf0'
 title: PROPERTYINFO structure (Netmon.h)
 ms.topic: reference
@@ -200,7 +200,7 @@ The **PROPERTYINFO** structure is used in calls to the [AddProperty](/previous-v
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

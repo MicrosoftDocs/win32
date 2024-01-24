@@ -1,5 +1,5 @@
 ---
-Description: Specifies the list of preferred network providers at the time of roaming.
+description: Specifies the list of preferred network providers at the time of roaming.
 ms.assetid: 5873fcd7-8e89-4edd-8dc5-f43675919c55
 title: DataRoamingPartners (MBNProfile) Element
 ms.topic: reference
@@ -56,7 +56,7 @@ The **DataRoamingPartners** element is defined by the [**MBNProfile**](schema-mb
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

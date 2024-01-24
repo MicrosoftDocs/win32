@@ -1,5 +1,5 @@
 ---
-Description: Setting the Synchronization Attribute
+description: Setting the Synchronization Attribute
 ms.assetid: e7983732-b206-4e9e-8446-9412832f4712
 title: Setting the Synchronization Attribute
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Texture filtering flags.
+description: Texture filtering flags.
 ms.assetid: bc73d916-fe18-4b15-b507-7954e157ab9a
 title: D3DX10_FILTER_FLAG enumeration (D3DX10Tex.h)
 ms.topic: reference
@@ -153,7 +153,7 @@ D3DX10 automatically performs gamma correction (to convert color data from RGB s
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

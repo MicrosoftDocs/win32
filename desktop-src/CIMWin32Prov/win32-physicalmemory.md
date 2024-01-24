@@ -1,5 +1,5 @@
 ---
-Description: Represents a physical memory device located on a computer system and available to the operating system.
+description: Represents a physical memory device located on a computer system and available to the operating system.
 ms.assetid: 34baca53-ab85-4e06-9853-71b904ede4ab
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemory class
@@ -903,7 +903,7 @@ This property is inherited from [**CIM\_PhysicalMemory**](cim-physicalmemory.md)
 
 </dt> <dd>
 
-DDR2—May not be available; see note above.
+DDR2—May not be available.
 
 </dd> <dt>
 
@@ -914,14 +914,14 @@ DDR2—May not be available; see note above.
 
 </dt> <dd>
 
-DDR2—FB-DIMM,May not be available; see note above.
+DDR2—FB-DIMM,May not be available.
 
 </dd> <dt>
 
 24
 </dt> <dd>
 
-DDR3—May not be available; see note above.
+DDR3—May not be available.
 
 </dd> <dt>
 
@@ -929,6 +929,10 @@ DDR3—May not be available; see note above.
 </dt> <dd>
 
 FBD2
+
+</dt> <dd></dd> <dt>
+
+<span id="DDR4"></span><span id="DDR4"></span>**DDR4** (26)
 
 </dd> </dl>
 
@@ -1447,10 +1451,6 @@ The **Win32\_PhysicalMemory** class is derived from [**CIM\_PhysicalMemory**](ci
 
 ## Examples
 
-The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software, including **Win32\_PhysicalMemory**, to display information about a local or remote system.
-
-The [Server Report](https://Gallery.TechNet.Microsoft.Com/Server-Report-7b4ac2fb) PowerShell sample on TechNet gallery uses a number of calls to hardware and software, including **Win32\_PhysicalMemory**, to gather server information and publish in Word document.
-
 The following PowerShell code sample retrieves information regarding the physical memory of the local computer.
 
 
@@ -1609,7 +1609,7 @@ $mt=get-WMIMemoryType($stick.MemoryType)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

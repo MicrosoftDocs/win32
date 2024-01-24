@@ -1,5 +1,5 @@
 ---
-Description: Represents a guest file service operation job.
+description: Represents a guest file service operation job.
 ms.assetid: '3750707e-e8c8-4188-aed8-1a394d142140'
 title: Msvm_CopyFileToGuestJob class
 ms.topic: reference
@@ -331,7 +331,7 @@ GUID of the affected virtual system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

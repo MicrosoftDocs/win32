@@ -1,5 +1,5 @@
 ---
-Description: Renames the directory entry file specified in the object path.
+description: Renames the directory entry file specified in the object path.
 ms.assetid: 8bfe1b69-5f93-4408-a742-f03a9cb16bfe
 ms.tgt_platform: multiple
 title: Rename method of the Win32_Directory class
@@ -155,8 +155,7 @@ The one exception to this two-step process involves moving a folder to a new loc
 
 ## Examples
 
-The following code, from the [Move a Folder Using WMI](https://Gallery.TechNet.Microsoft.Com/f4f9643c-d7ed-4f54-b155-c6515396431f) VBScript sample on TechNet Gallery, uses the Rename method to move the folder C:\\Scripts to C:\\Admins\\Documents\\Archive\\VBScript.
-
+The following code uses the Rename method to move the folder C:\\Scripts to C:\\Admins\\Documents\\Archive\\VBScript.
 
 ```VB
 strComputer = "." 
@@ -177,7 +176,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

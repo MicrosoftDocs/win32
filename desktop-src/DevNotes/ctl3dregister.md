@@ -1,5 +1,5 @@
 ---
-Description: Registers an application as a client of CTL3D.
+description: Registers an application as a client of CTL3D.
 ms.assetid: 38a4a04a-6322-4eb8-b272-ae9b90f84e0f
 title: Ctl3dRegister function
 ms.topic: reference
@@ -57,7 +57,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 

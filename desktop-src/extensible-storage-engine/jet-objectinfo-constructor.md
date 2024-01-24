@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO constructor"
 title: JET_OBJECTINFO constructor 
 TOCTitle: 'JET_OBJECTINFO constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_OBJECTINFO constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_OBJECTINFO()
 
 #### Reference
 
-[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](./jet-objectinfo-class.md)
 
-[JET_OBJECTINFO members](dn335195\(v=exchg.10\).md)
+[JET_OBJECTINFO members](./jet-objectinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

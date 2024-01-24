@@ -1,5 +1,5 @@
 ---
-Description: The UpgradedImages table contains information about the upgraded images of the product.
+description: The UpgradedImages table contains information about the upgraded images of the product.
 ms.assetid: f4ee2cc8-8a49-4e4a-b8cf-b4ae2bc7e753
 title: UpgradedImages Table (Patchwiz.dll)
 ms.topic: article

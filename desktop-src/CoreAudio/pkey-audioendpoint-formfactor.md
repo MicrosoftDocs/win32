@@ -1,5 +1,5 @@
 ---
-Description: The PKEY\_AudioEndpoint\_FormFactor property specifies the form factor of the audio endpoint device. The form factor indicates the physical attributes of the audio endpoint device that the user manipulates.
+description: The PKEY\_AudioEndpoint\_FormFactor property specifies the form factor of the audio endpoint device. The form factor indicates the physical attributes of the audio endpoint device that the user manipulates.
 ms.assetid: f49cb7da-3b50-47e2-90b4-1a885001b5d7
 title: PKEY_AudioEndpoint_FormFactor (Mmdeviceapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The **uintVal** member of the **PROPVARIANT** structure contains an enumeration 
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

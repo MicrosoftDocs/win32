@@ -34,7 +34,7 @@ Index of the list-view item.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure that receives the position of the item's upper-left corner, in view coordinates.
+Pointer to a [**POINT**](/windows/win32/api/windef/ns-windef-point) structure that receives the position of the item's upper-left corner, in view coordinates.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

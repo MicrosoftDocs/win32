@@ -22,7 +22,7 @@ In MSMQ mixed-mode, default replication time between sites.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | MSMQ-Interval2                       |
 | Ldap-Display-Name | mSMQInterval2                        |
@@ -48,7 +48,7 @@ In MSMQ mixed-mode, default replication time between sites.
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -69,7 +69,7 @@ In MSMQ mixed-mode, default replication time between sites.
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -90,7 +90,7 @@ In MSMQ mixed-mode, default replication time between sites.
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -111,7 +111,7 @@ In MSMQ mixed-mode, default replication time between sites.
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -132,7 +132,7 @@ In MSMQ mixed-mode, default replication time between sites.
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -153,7 +153,7 @@ In MSMQ mixed-mode, default replication time between sites.
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |

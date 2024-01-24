@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDerivedColumnCorruptionException constructor"
 title: EsentDerivedColumnCorruptionException constructor 
 TOCTitle: 'EsentDerivedColumnCorruptionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDerivedColumnCorruptionException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDerivedColumnCorruptionException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDerivedColumnCorruptionException()
 
 #### Reference
 
-[EsentDerivedColumnCorruptionException class](dn274270\(v=exchg.10\).md)
+[EsentDerivedColumnCorruptionException class](./esentderivedcolumncorruptionexception-class.md)
 
-[EsentDerivedColumnCorruptionException members](dn334438\(v=exchg.10\).md)
+[EsentDerivedColumnCorruptionException members](./esentderivedcolumncorruptionexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

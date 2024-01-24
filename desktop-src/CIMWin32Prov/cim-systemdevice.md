@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SystemDevice association represents an explicit relationship in which logical devices can be aggregated by a system.
+description: The CIM\_SystemDevice association represents an explicit relationship in which logical devices can be aggregated by a system.
 ms.assetid: df624a9f-0c10-44a3-8075-908e5e481e3c
 ms.tgt_platform: multiple
 title: CIM_SystemDevice class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_SystemDevice class
+# CIM_SystemDevice class (CIMWin32 WMI Providers)
 
 The **CIM\_SystemDevice** association represents an explicit relationship in which logical devices can be aggregated by a system.
 
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

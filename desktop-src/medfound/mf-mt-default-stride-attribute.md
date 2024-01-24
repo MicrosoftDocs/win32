@@ -1,5 +1,5 @@
 ---
-Description: Default surface stride, for an uncompressed video media type. Stride is the number of bytes needed to go from one row of pixels to the next.
+description: Default surface stride, for an uncompressed video media type. Stride is the number of bytes needed to go from one row of pixels to the next.
 ms.assetid: 71fda231-3497-49db-b82e-2fd79f6ade66
 title: MF_MT_DEFAULT_STRIDE attribute (Mfapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

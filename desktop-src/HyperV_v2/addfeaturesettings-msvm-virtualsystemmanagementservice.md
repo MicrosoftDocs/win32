@@ -1,5 +1,5 @@
 ---
-Description: Adds Ethernet feature settings to the configuration of a virtual machine Ethernet connection.
+description: Adds Ethernet feature settings to the configuration of a virtual machine Ethernet connection.
 ms.assetid: f233bf2f-5201-4b02-8384-bb7e2d1e7dee
 title: AddFeatureSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -102,7 +102,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

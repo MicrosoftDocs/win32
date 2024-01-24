@@ -22,7 +22,7 @@ Scopes where this optional feature is enabled.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Enabled-Feature-BL                |
 | Ldap-Display-Name | msDS-EnabledFeatureBL                   |
@@ -44,7 +44,7 @@ Scopes where this optional feature is enabled.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2169                            |
 | MAPI-Id                | \-                              |
@@ -65,7 +65,7 @@ Scopes where this optional feature is enabled.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2169                            |
 | MAPI-Id                | \-                              |

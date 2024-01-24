@@ -1,5 +1,5 @@
 ---
-Description: The System Registry provider is registered as part of the WMI installation process on Windows.
+description: The System Registry provider is registered as part of the WMI installation process on Windows.
 ms.assetid: ce5d0785-6e1b-411c-91df-f25767310530
 ms.tgt_platform: multiple
 title: Registering the System Registry Provider

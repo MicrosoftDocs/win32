@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.IndexDisallowTruncation field"
 title: VistaGrbits.IndexDisallowTruncation field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: IndexDisallowTruncation field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.IndexDisallowTruncation
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # VistaGrbits.IndexDisallowTruncation field
 
-Specifying this flag will cause any update to the index that would result in a truncated key to fail with [KeyTruncated](hh564840\(v=exchg.10\).md). Otherwise, keys will be silently truncated.
+Specifying this flag will cause any update to the index that would result in a truncated key to fail with [KeyTruncated](./jet-err-enumeration.md). Otherwise, keys will be silently truncated.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const CreateIndexGrbit IndexDisallowTruncation
 
 #### Reference
 
-[VistaGrbits class](dn335350\(v=exchg.10\).md)
+[VistaGrbits class](./vistagrbits-class.md)
 
-[VistaGrbits members](dn351282\(v=exchg.10\).md)
+[VistaGrbits members](./vistagrbits-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

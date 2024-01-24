@@ -1,5 +1,5 @@
 ---
-Description: Displays the Windows Help and Support Center. This method has the same effect as clicking the Start menu and selecting Help and Support.
+description: Displays the Windows Help and Support Center. This method has the same effect as clicking the Start menu and selecting Help and Support.
 ms.assetid: fc13fef8-dac8-4c59-936d-8da0e63e06d4
 title: Shell.Help method (Shldisp.h)
 ms.topic: reference
@@ -108,7 +108,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

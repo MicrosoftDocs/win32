@@ -42,7 +42,7 @@ Pointer to a [**NMTRBTHUMBPOSCHANGING**](/windows/win32/api/commctrl/ns-commctrl
 
 ## Return value
 
-The return value is ignored.
+Return **TRUE** to prevent the thumb from moving to the specified position.
 
 ## Remarks
 
@@ -52,7 +52,7 @@ Send this notification to clients that do not listen for [**WM\_HSCROLL**](wm-hs
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

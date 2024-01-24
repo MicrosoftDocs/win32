@@ -89,7 +89,7 @@ This method is identical to [**ISCPSecureExchange::ObjectData**](/windows/deskto
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>WMSCP.idl</dt> </dl>    |
 | Library<br/> | <dl> <dt>Mssachlp.lib</dt> </dl> |

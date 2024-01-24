@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the codec file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
+description: Changes the security permissions for the codec file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
 ms.assetid: 3eac4ae1-3c0e-4e81-8b23-9ad8698f723c
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the Win32_CodecFile class
@@ -253,7 +253,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Sent to a child window when the user clicks the window's title bar or when the window is activated, moved, or sized.
+description: Sent to a child window when the user clicks the window's title bar or when the window is activated, moved, or sized.
 ms.assetid: 6e60725d-aa01-48bb-86a5-f17f56b97d35
 title: WM_CHILDACTIVATE message (Winuser.h)
 ms.topic: reference
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Sent to a child window when the user clicks the window's title bar or when the window is activated, moved, or sized.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -47,7 +47,7 @@ If an application processes this message, it should return zero.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical paging file specified in the object path.
+description: Changes the security permissions for the logical paging file specified in the object path.
 ms.assetid: 3abdfa1d-49d8-4676-b7a5-3be528938ec4
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the Win32_PageFile class
@@ -229,7 +229,7 @@ A specified parameter is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

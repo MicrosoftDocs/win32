@@ -28,9 +28,8 @@ Registers hold data for use by the pixel shader. Registers are fully described i
 
 
 
-|      |                    | Versions |      |      |              |
+| Name |  Type              | Version 1\_1 | Version 1\_2      | Version 1\_3     | Version 1\_4             |
 |------|--------------------|----------|------|------|--------------|
-| Name | Type               | 1\_1     | 1\_2 | 1\_3 | 1\_4         |
 | c\#  | Constant register  | 8        | 8    | 8    | 8            |
 | r\#  | Temporary register | 2        | 2    | 2    | 6            |
 | t\#  | Texture register   | 4        | 4    | 4    | 6            |
@@ -69,9 +68,8 @@ The read port limit specifies the number of different registers of each register
 
 
 
-|      |                    | Versions |      |      |              |
+| Name     | Type                   | Version 1\_1 | Version 1\_2      | Version 1\_3     | Version 1\_4             |
 |------|--------------------|----------|------|------|--------------|
-| Name | Type               | 1\_1     | 1\_2 | 1\_3 | 1\_4         |
 | c\#  | Constant register  | 2        | 2    | 2    | 2            |
 | r\#  | Temporary register | 2        | 2    | 2    | 3            |
 | t\#  | Texture register   | 2        | 3    | 3    | 1            |
@@ -96,7 +94,7 @@ The register types are identified according to read-only (RO) capability or read
 
 
 
-|      |                    | Versions |      |      |                    |
+| Name     |  Type                  | Version 1\_1 | Version 1\_2     | Version 1\_3     | Version 1\_4 |
 |------|--------------------|----------|------|------|--------------------|
 | Name | Type               | 1\_1     | 1\_2 | 1\_3 | 1\_4               |
 | c\#  | Constant register  | RO       | RO   | RO   | RO                 |

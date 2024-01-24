@@ -1,5 +1,5 @@
 ---
-Description: To publish an event, simply instantiate an event class object and invoke the desired method; for detailed instructions on how to do this in code, see Publishing an Event.
+description: To publish an event, simply instantiate an event class object and invoke the desired method; for detailed instructions on how to do this in code, see Publishing an Event.
 ms.assetid: 835c3753-fdcc-4afe-94c3-c954aaf1c832
 title: Publishing and Delivering Events in COM+
 ms.topic: article

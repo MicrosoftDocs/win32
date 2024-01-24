@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of pointers to nontransposed matrices.
+description: ID3DXBaseEffect::SetMatrixPointerArray method - Sets an array of pointers to nontransposed matrices.
 ms.assetid: f2e62470-6882-49d8-ae12-6c5b79dd5c99
 title: ID3DXBaseEffect::SetMatrixPointerArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ If the destination matrices are smaller than the source matrices, the additional
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

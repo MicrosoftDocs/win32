@@ -1,5 +1,5 @@
 ---
-Description: Asymmetric keys, also known as public/private key pairs, are used for asymmetric encryption. Asymmetric encryption is used mainly to encrypt and decrypt session keys and digital signatures. Asymmetric encryption uses public key encryption algorithms.
+description: Asymmetric keys, also known as public/private key pairs, are used for asymmetric encryption. Asymmetric encryption is used mainly to encrypt and decrypt session keys and digital signatures. Asymmetric encryption uses public key encryption algorithms.
 ms.assetid: f75e5e6c-0a84-47ac-97db-5063327f7931
 title: Asymmetric Keys
 ms.topic: article

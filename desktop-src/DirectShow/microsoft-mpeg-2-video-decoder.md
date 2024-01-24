@@ -1,12 +1,15 @@
 ---
-Description: This filter decodes MPEG-1, MPEG-2, H.264 video.
+description: This filter decodes MPEG-1, MPEG-2, H.264 video.
 ms.assetid: d8195c3a-97ac-4ad1-a097-18878c8fda6f
 title: Microsoft MPEG-2 Video Decoder (Wmcodecdsp.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Microsoft MPEG-2 Video Decoder
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This filter decodes MPEG-1, MPEG-2, H.264 video.
 
@@ -130,34 +133,14 @@ For MPEG-1 and MPEG-2, the decoder supports the following formats:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Profiles/Levels</td>
-<td>Any combination of the following profiles and levels:<br/>
-<ul>
-<li>Profiles: Simple, Main</li>
-<li>Levels: Low, Main, High, High 1440</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Chroma Formats</td>
-<td>4:2:0 chroma</td>
-</tr>
-<tr class="odd">
-<td>Maximum Resolution</td>
-<td>1920 × 1088 pixels</td>
-</tr>
-<tr class="even">
-<td>DXVA</td>
-<td>The decoder supports DirectX Video Acceleration (DXVA) version 1 and version 2.</td>
-</tr>
-</tbody>
-</table>
+
+| Label | Value |
+|--------|-------|
+| Profiles/Levels | Any combination of the following profiles and levels:<br /><ul><li>Profiles: Simple, Main</li><li>Levels: Low, Main, High, High 1440</li></ul> | 
+| Chroma Formats | 4:2:0 chroma | 
+| Maximum Resolution | 1920 × 1088 pixels | 
+| DXVA | The decoder supports DirectX Video Acceleration (DXVA) version 1 and version 2. | 
+
 
 
 
@@ -173,7 +156,7 @@ For H.264, the decoder supports the following formats:
 
 
 
-|                    |                                                                                                                                                                                                                                                                           |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Profiles/Levels    | Baseline, Main, and High profiles, up to level 5.1. (See ITU-T H.264 specification for details.)                                                                                                                                                                          |
 | Chroma Formats     | 4:2:0 chroma or monochrome                                                                                                                                                                                                                                                |
@@ -233,7 +216,7 @@ The filter supports the following properties through [**ICodecAPI**](/windows/de
 
 
 
-|                                     |                                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Home Premium, Windows Vista Ultimate, Windows 7 Home Premium, Windows 7 Professional, Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                                     |

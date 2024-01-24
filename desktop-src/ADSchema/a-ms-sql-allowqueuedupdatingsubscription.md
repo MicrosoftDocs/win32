@@ -22,7 +22,7 @@ True to allow queued transactions when updating subscriptions.
 
 
 
-|                   |                                        |
+| Entry | Value |
 |-------------------|----------------------------------------|
 | CN                | MS-SQL-AllowQueuedUpdatingSubscription |
 | Ldap-Display-Name | mS-SQL-AllowQueuedUpdatingSubscription |
@@ -48,7 +48,7 @@ True to allow queued transactions when updating subscriptions.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -69,7 +69,7 @@ True to allow queued transactions when updating subscriptions.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -90,7 +90,7 @@ True to allow queued transactions when updating subscriptions.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -111,7 +111,7 @@ True to allow queued transactions when updating subscriptions.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -132,7 +132,7 @@ True to allow queued transactions when updating subscriptions.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -153,7 +153,7 @@ True to allow queued transactions when updating subscriptions.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the Size class. For a complete class listing, see Size Class.
+description: This topic lists the methods of the Size class. For a complete class listing, see Size Class.
 ms.assetid: 617626ed-9272-418a-815d-39d10b18df99
 title: Size Methods
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings for a network adapter within the guest operating system, which will be applied at the time of a failover.
+description: Represents the settings for a network adapter within the guest operating system, which will be applied at the time of a failover.
 ms.assetid: d7f2d471-7328-4181-b94e-b9127814706e
 title: Msvm_FailoverNetworkAdapterSettingData class
 ms.topic: reference
@@ -252,7 +252,7 @@ An array of strings that specify the subnets configured on the network adapter w
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

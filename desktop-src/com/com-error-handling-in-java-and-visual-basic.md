@@ -14,7 +14,7 @@ The three interfaces that provide support for **HRESULT**s are listed and descri
 
 
 
-|                                                                          |                                                                                                                      |
+|  Interface                                                                        |  Description                                                                                                                    |
 |--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [**ICreateErrorInfo**](/windows/win32/api/oaidl/nn-oaidl-icreateerrorinfo)<br/>  | Sets error information.<br/>                                                                                   |
 | [**IErrorInfo**](/windows/win32/api/oaidl/nn-oaidl-ierrorinfo)<br/>        | Returns information from an error object.<br/>                                                                 |
@@ -28,7 +28,7 @@ The three functions that provide support for **HRESULT**s are listed and describ
 
 
 
-|                                                                        |                                                                                                                                                                      |
+|    Interface       |       Description       |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CreateErrorInfo**](/windows/win32/api/oleauto/nf-oleauto-createerrorinfo)<br/> | Creates an instance of a generic error object.<br/>                                                                                                            |
 | [**GetErrorInfo**](/windows/win32/api/oleauto/nf-oleauto-geterrorinfo)<br/>    | Obtains the error information pointer set by the previous call to [**SetErrorInfo**](/windows/win32/api/oleauto/nf-oleauto-seterrorinfo) in the current logical thread.<br/> |

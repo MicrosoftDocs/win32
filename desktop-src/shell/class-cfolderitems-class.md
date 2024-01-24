@@ -1,5 +1,5 @@
 ---
-Description: 'CFolderItems is a collection of FolderItems. It implements the following interfaces: IPersistFolder, IObjectWithSite, FolderItems3, IObjectSafety, IDispatch.'
+description: 'CFolderItems is a collection of FolderItems. It implements the following interfaces: IPersistFolder, IObjectWithSite, FolderItems3, IObjectSafety, IDispatch.'
 ms.assetid: 18c12d3a-75aa-4218-98ba-b5ac65568fab
 title: CFolderItems class
 ms.topic: reference

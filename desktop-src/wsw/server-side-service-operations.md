@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 This section describes service side service operations.
 
-## 
 
 The following is the layout of a server side service operation
 
@@ -77,7 +76,7 @@ HRESULT CALLBACK ProcessOrder (const WS_OPERATION_CONTEXT* context, const ULONG 
 
 -   WS\_S\_ASYNC: Call will be completed async.
 -   WS\_S\_END: Call completed successfully, the server is not expecting any [WS\_MESSAGE](ws-message.md) from the client beyond this call. If another WS\_MESSAGE comes in then the server should abort the channel.
--   NOERROR/All other success HRESULTS: Call completed successfully. Note that it is recommended that the application should not return HRESULT other then NOERROR for successful completion of service operation.
+-   NOERROR/All other success HRESULTS: Call completed successfully. Note that it is recommended that the application should not return HRESULT other than NOERROR for successful completion of service operation.
 -   Everything with a failure HRESULT: A fault is send back to the client if one is available in WS\_ERROR. Otherwise a generic fault is send back to the client. See fault discussion above.
 
 See, [Call cancellation](call-cancellation.md).

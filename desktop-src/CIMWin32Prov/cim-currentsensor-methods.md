@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CurrentSensor class exposes the following methods.
+description: The CIM\_CurrentSensor class exposes the following methods.
 ms.assetid: 749A568A-EE02-4F50-BEF5-F6B5B795051C
 ms.tgt_platform: multiple
 title: CIM_CurrentSensor Methods

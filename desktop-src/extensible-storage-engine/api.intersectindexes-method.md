@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.IntersectIndexes method"
 title: Api.IntersectIndexes method 
 TOCTitle: 'IntersectIndexes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.IntersectIndexes(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID[])
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.IntersectIndexes method
 
-Intersect a group of index ranges and return the bookmarks of the records which are found in all the index ranges. Also see [JetIntersectIndexes(JET_SESID, \[\], Int32, JET_RECORDLIST, IntersectIndexesGrbit)](dn292212\(v=exchg.10\).md).
+Intersect a group of index ranges and return the bookmarks of the records which are found in all the index ranges. Also see [JetIntersectIndexes(JET_SESID, \[\], Int32, JET_RECORDLIST, IntersectIndexesGrbit)](./api.jetintersectindexes-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,7 +61,7 @@ public static IEnumerable<byte[]> IntersectIndexes(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
@@ -69,7 +70,7 @@ public static IEnumerable<byte[]> IntersectIndexes(
   - tableids  
     Type: \[\]  
     
-    The tableids to use. Each tableid must be from a different index on the same table and have an active index range. Use [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md) to create an index range.
+    The tableids to use. Each tableid must be from a different index on the same table and have an active index range. Use [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](./api.jetsetindexrange-method.md) to create an index range.
 
 #### Return value
 
@@ -80,8 +81,8 @@ The bookmarks of the records which are found in all the index ranges. The bookma
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

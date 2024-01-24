@@ -18,9 +18,9 @@
   - name: "Debugging with Symbols"
     href: debugging-with-symbols.md
   - name: "Direct3D 10 Frequently Asked Questions"
-    href: direct3d10-frequently-asked-questions.md
+    href: direct3d10-frequently-asked-questions.yml
   - name: "DirectX Frequently Asked Questions"
-    href: directx-9-frequently-asked-questions.md
+    href: directx-9-frequently-asked-questions.yml
   - name: "DirectX Installation for Game Developers"
     href: directx-setup-for-game-developers.md
   - name: "Disabling Shortcut Keys in Games"

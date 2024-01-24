@@ -22,7 +22,7 @@ The RPC tools achieve model, calling, and naming-convention independence by asso
 
 The following figure shows the macro definitions that the MIDL compiler applies to function calls between RPC components:
 
-![](images/prog-a29.png)
+![Diagram showing the macro definitions MIDL applies to function calls.](images/prog-a29.png)
 
 RPC macros are defined as follows.
 
@@ -89,7 +89,7 @@ To link correctly with the Microsoft RPC run-time libraries, stubs, and support 
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# What's New
+# What's New (Windows Controls)
 
 This topic describes the differences in support for theming and visual styles between Windows 8 and previous versions of Windows .
 

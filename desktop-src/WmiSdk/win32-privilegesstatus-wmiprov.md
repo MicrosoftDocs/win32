@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PrivilegesStatus &\#8194; WMI class reports information about privileges required to complete an operation. It may be returned when an operation failed or when a partially populated instance has been returned.
+description: The Win32\_PrivilegesStatus &\#8194; WMI class reports information about privileges required to complete an operation. It may be returned when an operation failed or when a partially populated instance has been returned.
 ms.assetid: 85bda855-1488-4d7a-99ed-798e9859fef7
 ms.tgt_platform: multiple
 title: Win32_PrivilegesStatus class (WMI)
@@ -23,7 +23,7 @@ api_location:
 - Root\WMI
 ---
 
-# Win32\_PrivilegesStatus class
+# Win32_PrivilegesStatus class (WMI)
 
 The **Win32\_PrivilegesStatus**   [WMI class](retrieving-a-class.md) reports information about privileges required to complete an operation. It may be returned when an operation failed or when a partially populated instance has been returned.
 
@@ -168,7 +168,7 @@ The **Win32\_PrivilegesStatus** class is derived from [**\_\_ExtendedStatus**](-
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                     |

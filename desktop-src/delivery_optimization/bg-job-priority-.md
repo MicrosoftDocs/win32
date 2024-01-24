@@ -57,14 +57,14 @@ Transfers the job in the background. Background transfers use a small percentage
 <span id="BG_JOB_PRIORITY_NORMAL"></span><span id="bg_job_priority_normal"></span>**BG_JOB_PRIORITY_NORMAL**
 </dt> <dd>
 
-DO behavior is same for all non foreground job. See comments in BG_JOB_PRIORITY_HIGH for details.
+Delivery Optimization behavior is same for all non foreground job. See comments in BG_JOB_PRIORITY_HIGH for details.
 
 </dd> <dt>
 
 <span id="BG_JOB_PRIORITY_LOW"></span><span id="bg_job_priority_low"></span>**BG_JOB_PRIORITY_LOW**
 </dt> <dd>
 
-DO behavior is same for all non foreground job. See comments in BG_JOB_PRIORITY_HIGH for details.
+Delivery Optimization behavior is same for all non foreground job. See comments in BG_JOB_PRIORITY_HIGH for details.
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ Multiple foreground and background transfers can take place simultaneously.
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |

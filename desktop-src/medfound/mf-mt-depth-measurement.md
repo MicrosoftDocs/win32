@@ -1,5 +1,5 @@
 ---
-Description: A value that defines the measurement system for a depth value in a video frame.
+description: A value that defines the measurement system for a depth value in a video frame.
 ms.assetid: 7BFA846B-E614-4117-A196-298E065CB7F8
 title: MF_MT_DEPTH_MEASUREMENT attribute (Mfapi.h)
 ms.topic: reference
@@ -18,9 +18,9 @@ A value that defines the measurement system for a depth value in a video frame.
 
 ## Remarks
 
-This value is a member of the [**\_MFDepthMeasurement**](/windows/desktop/api/mfapi/ne-mfapi-_mfdepthmeasurement) enumeration
+This value is a member of the [**\_MFDepthMeasurement**](/windows/win32/api/mfapi/ne-mfapi-mfdepthmeasurement) enumeration
 
-If this attribute is not present it is assumed to be **DistanceToFocalPlane**. The distance to focal plane is typically easier to consume in a 3D Euclidian coordinate system.
+If this attribute is not present it is assumed to be **DistanceToFocalPlane**. The distance to focal plane is typically easier to consume in a 3D Euclidean coordinate system.
 
 ![illustration of distancetofocalplane](images/distance-to-focal-plane.png)
 
@@ -38,7 +38,7 @@ Some depth cameras attach bitmask metadata for each pixel in addition to the dep
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                      |

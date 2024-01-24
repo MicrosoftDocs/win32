@@ -1,5 +1,5 @@
 ---
-Description: Example programs in the following sections perform operations that require public/private key pairs to be available for encrypting and decrypting files, messages, and signatures.
+description: Example programs in the following sections perform operations that require public/private key pairs to be available for encrypting and decrypting files, messages, and signatures.
 ms.assetid: b03528ff-0170-4dde-ae35-f5c3951d6b1f
 title: Necessary Key Containers, Keys, and Certificates
 ms.topic: article

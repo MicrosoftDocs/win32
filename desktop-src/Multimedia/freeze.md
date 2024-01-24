@@ -48,43 +48,13 @@ Flag that identifies what to freeze. The following table lists device types that
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Meaning</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>digitalvideo</td>
-<td>at <em>rectangle</em></td>
-<td>outside</td>
-</tr>
-<tr class="even">
-<td>overlay</td>
-<td>at <em>rectangle</em></td>
 
-</tr>
-<tr class="odd">
-<td>vcr</td>
-<td><ul>
-<li>field</li>
-<li>frame</li>
-</ul></td>
-<td><ul>
-<li>input</li>
-<li>output</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+| Value | Meaning | Meaning | 
+|-------|---------|---------|
+| digitalvideo | at <em>rectangle</em> | outside | 
+| overlay | at <em>rectangle</em> | 
+| vcr | <ul><li>field</li><li>frame</li></ul> | <ul><li>input</li><li>output</li></ul> | 
+
 
 
 
@@ -140,7 +110,7 @@ freeze vboard at 0 0 100 100
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

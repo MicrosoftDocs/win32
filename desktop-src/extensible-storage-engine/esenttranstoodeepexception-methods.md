@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransTooDeepException methods"
 title: EsentTransTooDeepException methods
 TOCTitle: EsentTransTooDeepException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTransTooDeepException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTransTooDeepException](dn350808\(v=exchg.10\).md) type exposes the following members.
+The [EsentTransTooDeepException](./esenttranstoodeepexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentTransTooDeepException class](dn350808\(v=exchg.10\).md)
+[EsentTransTooDeepException class](./esenttranstoodeepexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

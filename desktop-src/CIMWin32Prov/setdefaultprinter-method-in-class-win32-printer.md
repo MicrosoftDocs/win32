@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultPrinter WMI class method sets the default system printer for the user calling the method.
+description: The SetDefaultPrinter WMI class method sets the default system printer for the user calling the method.
 ms.assetid: 7e896961-363d-4b8b-9d22-bbfc9681e97b
 ms.tgt_platform: multiple
 title: SetDefaultPrinter method of the Win32_Printer class
@@ -41,8 +41,6 @@ Returns 0 (zero) if successful, and some other value if an error occurs. For add
 
 ## Examples
 
-The [Install a TCP/IP Printer Port and Printer](https://Gallery.TechNet.Microsoft.Com/41a4c996-b7f7-4d58-808d-2acac20ddbf7) VBScript sample installs a TCP/IP printer port, installs a printer, and then sets the printer to be default.
-
 The following VBScript code sample sets the default printer on a computer.
 
 
@@ -65,7 +63,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

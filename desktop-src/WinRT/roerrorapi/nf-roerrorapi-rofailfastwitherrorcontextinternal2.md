@@ -1,7 +1,6 @@
 ---
 title: RoFailFastWithErrorContextInternal2 function
 description: Raises a non-continuable exception in the current process, and also allows you to include additional error context not already captured by the OS.
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 03/13/2020
 req.lib: RuntimeObject.lib

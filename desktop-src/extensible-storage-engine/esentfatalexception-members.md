@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFatalException members"
 title: EsentFatalException members
 TOCTitle: EsentFatalException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFatalException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for Fatal exceptions.
 
-The [EsentFatalException](dn274321\(v=exchg.10\).md) type exposes the following members.
+The [EsentFatalException](./esentfatalexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +168,6 @@ Top
 
 #### Reference
 
-[EsentFatalException class](dn274321\(v=exchg.10\).md)
+[EsentFatalException class](./esentfatalexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

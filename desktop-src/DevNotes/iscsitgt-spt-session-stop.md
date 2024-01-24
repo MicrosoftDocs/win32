@@ -1,5 +1,5 @@
 ---
-Description: Used with the IOCTL\_SCSI\_MINIPORT IOCTL and the CTLCODE\_ISCSITGT\_SPT\_SESSION\_END (0x101) control code to stop a session.
+description: Used with the IOCTL\_SCSI\_MINIPORT IOCTL and the CTLCODE\_ISCSITGT\_SPT\_SESSION\_END (0x101) control code to stop a session.
 ms.assetid: 74DAA560-A5BA-475C-AA36-7E6F0EA82EFE
 title: ISCSITGT_SPT_SESSION_STOP structure
 ms.topic: reference
@@ -54,7 +54,7 @@ An opaque handle representing a session.
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                               |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/> |
@@ -67,7 +67,7 @@ An opaque handle representing a session.
 
 <dl> <dt>
 
-[iSCSI Target Pass-Through](iscsi-target-pass-through.md)
+[iSCSI Target Pass-Through](/powershell/module/iscsi)
 </dt> <dt>
 
 [**SRB\_IO\_CONTROL**](/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control)

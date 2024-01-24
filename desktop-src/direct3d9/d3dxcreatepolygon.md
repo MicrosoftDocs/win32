@@ -1,5 +1,5 @@
 ---
-Description: Uses a left-handed coordinate system to create a mesh containing an n-sided polygon.
+description: Uses a left-handed coordinate system to create a mesh containing an n-sided polygon.
 ms.assetid: f3313f55-3e60-4440-8bea-d2886b636c9a
 title: D3DXCreatePolygon function (D3dx9shape.h)
 ms.topic: reference
@@ -100,7 +100,7 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9shape.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>    |

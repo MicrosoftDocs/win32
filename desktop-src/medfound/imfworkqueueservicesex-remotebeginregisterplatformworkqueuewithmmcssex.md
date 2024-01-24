@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx.
+description: Remotable version of IMFWorkQueueServicesEX::BeginRegisterPlatformWorkQueueWithMMCSSEx.
 ms.assetid: 75af7ce6-9b74-4d61-b7f2-5d07538f91cf
 title: RemoteBeginRegisterPlatformWorkQueueWithMMCSSEx
 ms.topic: reference
@@ -29,7 +29,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |

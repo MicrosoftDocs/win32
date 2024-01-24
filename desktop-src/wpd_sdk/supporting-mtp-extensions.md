@@ -1,5 +1,5 @@
 ---
-Description: Supporting MTP Extensions
+description: Supporting MTP Extensions
 ms.assetid: 9e5f3da6-346a-4eca-bc85-2755c569986d
 title: Supporting MTP Extensions
 ms.topic: article
@@ -28,9 +28,8 @@ Be aware that these commands are specific to MTP; and are therefore, only implem
 
 
 
-|                                                                                                                                      |                                                                                                   |
+| Command  | Description  |
 |--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| Command                                                                                                                              | Description                                                                                       |
 | [**WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-end-data-transfer)                                      | Issues an MTP command that signals the conclusion of a data read or write operation.              |
 | [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITHOUT\_DATA\_PHASE**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-without-data-phase)  | Issues an MTP command without a corresponding data phase.                                         |
 | [**WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_WRITE**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-write) | Issues an MTP command that is followed by accompanying data, which will be written to the device. |

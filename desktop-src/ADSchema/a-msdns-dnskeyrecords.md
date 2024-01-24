@@ -22,7 +22,7 @@ An attribute that contains the DNSKEY record set for the root of the DNS zone an
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DNS-DNSKEY-Records                                 |
 | Ldap-Display-Name | msDNS-DNSKEYRecords                                   |
@@ -43,7 +43,7 @@ An attribute that contains the DNSKEY record set for the root of the DNS zone an
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

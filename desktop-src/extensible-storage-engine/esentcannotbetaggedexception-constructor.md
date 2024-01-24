@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotBeTaggedException constructor"
 title: EsentCannotBeTaggedException constructor 
 TOCTitle: 'EsentCannotBeTaggedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotBeTaggedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotBeTaggedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentCannotBeTaggedException()
 
 #### Reference
 
-[EsentCannotBeTaggedException class](dn274074\(v=exchg.10\).md)
+[EsentCannotBeTaggedException class](./esentcannotbetaggedexception-class.md)
 
-[EsentCannotBeTaggedException members](dn274131\(v=exchg.10\).md)
+[EsentCannotBeTaggedException members](./esentcannotbetaggedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

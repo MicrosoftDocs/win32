@@ -1,5 +1,5 @@
 ---
-Description: Specifies the PnP-X Hardware Identifier of the service.
+description: Specifies the PnP-X Hardware Identifier of the service.
 ms.assetid: aa4c935f-0d60-4603-ae96-d5cabdf9af00
 title: PnPXHardwareId element
 ms.topic: reference
@@ -42,7 +42,7 @@ To specify more than one hardware ID, separate the identifiers with a space char
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

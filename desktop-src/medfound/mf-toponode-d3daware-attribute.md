@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the transform associated with a topology node supports DirectX Video Acceleration (DXVA).
+description: Specifies whether the transform associated with a topology node supports DirectX Video Acceleration (DXVA).
 ms.assetid: b9e393be-0bc0-4cf6-be44-e9e95339c434
 title: MF_TOPONODE_D3DAWARE attribute (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

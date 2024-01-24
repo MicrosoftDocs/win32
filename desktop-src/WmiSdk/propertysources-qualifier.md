@@ -1,5 +1,5 @@
 ---
-Description: Every property in a view class must have a string array qualifier called PropertySources.
+description: Every property in a view class must have a string array qualifier called PropertySources.
 ms.assetid: df89680b-8ea7-4f38-81ba-c4132b944f37
 ms.tgt_platform: multiple
 title: PropertySources Qualifier
@@ -51,7 +51,7 @@ If the two source classes are being joined by a common property, you can only de
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

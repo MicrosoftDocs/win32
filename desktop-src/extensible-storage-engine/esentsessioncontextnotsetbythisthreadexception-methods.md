@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextNotSetByThisThreadException methods"
 title: EsentSessionContextNotSetByThisThreadException methods
 TOCTitle: EsentSessionContextNotSetByThisThreadException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSessionContextNotSetByThisThreadException](dn350627\(v=exchg.10\).md) type exposes the following members.
+The [EsentSessionContextNotSetByThisThreadException](./esentsessioncontextnotsetbythisthreadexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSessionContextNotSetByThisThreadException class](dn350627\(v=exchg.10\).md)
+[EsentSessionContextNotSetByThisThreadException class](./esentsessioncontextnotsetbythisthreadexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

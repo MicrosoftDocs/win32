@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointCorruptException constructor"
 title: EsentCheckpointCorruptException constructor 
 TOCTitle: 'EsentCheckpointCorruptException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCheckpointCorruptException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCheckpointCorruptException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentCheckpointCorruptException()
 
 #### Reference
 
-[EsentCheckpointCorruptException class](dn274132\(v=exchg.10\).md)
+[EsentCheckpointCorruptException class](./esentcheckpointcorruptexception-class.md)
 
-[EsentCheckpointCorruptException members](dn274134\(v=exchg.10\).md)
+[EsentCheckpointCorruptException members](./esentcheckpointcorruptexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

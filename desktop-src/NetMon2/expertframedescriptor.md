@@ -1,5 +1,5 @@
 ---
-Description: The EXPERTFRAMEDESCRIPTOR structure contains information about a frame. When the expert calls the ExpertGetFrame function successfully, Network Monitor passes the EXPERTFRAMEDESCRIPTOR structure back to the expert.
+description: The EXPERTFRAMEDESCRIPTOR structure contains information about a frame. When the expert calls the ExpertGetFrame function successfully, Network Monitor passes the EXPERTFRAMEDESCRIPTOR structure back to the expert.
 ms.assetid: 6cf99498-3cf9-46da-b6a0-3012229f6908
 title: EXPERTFRAMEDESCRIPTOR structure (Netmon.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If the expert does not specify FLAGS\_ATTACH\_PROPERTIES when calling the [**Exp
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

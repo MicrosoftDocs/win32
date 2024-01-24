@@ -1,5 +1,5 @@
 ---
-Description: Unlocks a vertex buffer.
+description: Unlocks a vertex buffer.
 ms.assetid: 31f9529c-f5ec-41f8-bd3a-a4484f95caf7
 title: ID3DXBaseMesh::UnlockVertexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

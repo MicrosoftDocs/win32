@@ -5,10 +5,13 @@ ms.assetid: '0026eb1d-5be1-4090-801b-f1c65c179f42'
 keywords:
 - MCI_RECORD command
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Recording
+
+\[The feature associated with this page, [MCI](/windows/win32/multimedia/mci), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCI**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The general MCI specification supports recording with digital-video, MIDI sequencer, video-cassette recorder (VCR), and waveform-audio devices; however, only waveform-audio and VCR devices currently implement recording capabilities. You can insert or overwrite recorded information into an existing file or record into a new file. To record to an existing file, open a waveform-audio device and file as you would normally. To record into a new file, when you open the device specify "new" as the device name if you are using the command-string interface. If you are using the command-message interface, specify a zero-length filename.
 

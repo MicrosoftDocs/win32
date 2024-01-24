@@ -1,5 +1,5 @@
 ---
-Description: Computes a transfer vector that maps source radiance to exit radiance resulting from subsurface scattering, using adaptive sampling and material properties set by ID3DXPRTEngine::SetMeshMaterials.
+description: Computes a transfer vector that maps source radiance to exit radiance resulting from subsurface scattering, using adaptive sampling and material properties set by ID3DXPRTEngine::SetMeshMaterials.
 ms.assetid: 34e42271-703b-4b67-8153-2eca3f8dde92
 title: ID3DXPRTEngine::ComputeSSAdaptive method (D3DX9Mesh.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ Call [**ID3DXPRTEngine::MultiplyAlbedo**](id3dxprtengine--multiplyalbedo.md) to 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: The Name property of the SWbemMethod object is a string that describes the name of this method. This property is read-only.
+description: The Name property of the SWbemMethod object is a string that describes the name of this method. This property is read-only.
 ms.assetid: 207fb17c-cc64-415e-8ce4-590ad78a911e
 ms.tgt_platform: multiple
 title: SWbemMethod.Name property (Wbemdisp.h)
@@ -39,7 +39,7 @@ SWbemMethod.Name As String
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

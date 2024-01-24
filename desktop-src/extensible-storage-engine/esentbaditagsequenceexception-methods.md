@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadItagSequenceException methods"
 title: EsentBadItagSequenceException methods
 TOCTitle: EsentBadItagSequenceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadItagSequenceException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadItagSequenceException](dn274018\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadItagSequenceException](./esentbaditagsequenceexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentBadItagSequenceException class](dn274018\(v=exchg.10\).md)
+[EsentBadItagSequenceException class](./esentbaditagsequenceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

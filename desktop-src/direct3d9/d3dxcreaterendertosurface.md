@@ -1,5 +1,5 @@
 ---
-Description: Creates a render surface.
+description: Creates a render surface.
 ms.assetid: 35e0007e-c405-46e1-a52b-625adc84732b
 title: D3DXCreateRenderToSurface function (D3dx9core.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

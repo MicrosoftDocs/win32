@@ -1,5 +1,5 @@
 ---
-Description: Returns information on the storage provider.
+description: Returns information on the storage provider.
 ms.assetid: bdacb5bb-a37a-4970-add7-57625bec1ce0
 title: IPStore::GetInfo method (Pstore.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

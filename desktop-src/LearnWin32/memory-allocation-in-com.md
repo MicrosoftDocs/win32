@@ -1,6 +1,6 @@
 ---
 title: Memory Allocation in COM
-description: .
+description: Memory Allocation in COM
 ms.assetid: b3c318d2-1273-430e-8aca-5bd5c95c138e
 ms.topic: article
 ms.date: 05/31/2018

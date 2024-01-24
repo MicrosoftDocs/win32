@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use the interfaces that provide access to page references in an XPS OM.
+description: This topic describes how to use the interfaces that provide access to page references in an XPS OM.
 ms.assetid: bb227536-3b29-4221-b2d5-bab5e9d91448
 title: Working with IXpsOMPageReference Interfaces
 ms.topic: article
@@ -141,7 +141,7 @@ The following code example gets the lists of the different resources that are us
 [**IXpsOMPartResources**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompartresources)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

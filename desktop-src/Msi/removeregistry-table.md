@@ -1,5 +1,5 @@
 ---
-Description: The RemoveRegistry table contains the registry information the application needs to delete from the system registry.
+description: The RemoveRegistry table contains the registry information the application needs to delete from the system registry.
 ms.assetid: 8be382f1-f5ab-4a9d-bf0e-05275310c5b5
 title: RemoveRegistry Table
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Allows client applications to access SNMP information through WMI.
+description: Allows client applications to access SNMP information through WMI.
 ms.assetid: d9e3fd1d-8320-4407-9a9e-e2eb5dd62fef
 ms.tgt_platform: multiple
 title: Accessing SNMP Devices

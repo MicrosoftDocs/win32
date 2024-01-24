@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidGrbitException constructor"
 title: EsentInvalidGrbitException constructor 
 TOCTitle: 'EsentInvalidGrbitException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidGrbitException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidGrbitException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidGrbitException()
 
 #### Reference
 
-[EsentInvalidGrbitException class](dn319518\(v=exchg.10\).md)
+[EsentInvalidGrbitException class](./esentinvalidgrbitexception-class.md)
 
-[EsentInvalidGrbitException members](dn319521\(v=exchg.10\).md)
+[EsentInvalidGrbitException members](./esentinvalidgrbitexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

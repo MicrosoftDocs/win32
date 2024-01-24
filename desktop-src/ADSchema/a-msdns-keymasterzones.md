@@ -22,7 +22,7 @@ A list of Active Directory-integrated zones for which the DNS server is the keym
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DNS-Keymaster-Zones                      |
 | Ldap-Display-Name | msDNS-KeymasterZones                        |
@@ -43,7 +43,7 @@ A list of Active Directory-integrated zones for which the DNS server is the keym
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

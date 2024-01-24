@@ -1,5 +1,5 @@
 ---
-Description: The IAzScope2 interface exposes the following properties.
+description: The IAzScope2 interface exposes the following properties.
 ms.assetid: 39414A0F-9CDF-4F83-83FA-81F2DA9AE319
 title: IAzScope2 Properties
 ms.topic: reference

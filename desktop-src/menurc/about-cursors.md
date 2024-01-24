@@ -23,19 +23,40 @@ keywords:
 - cursors,duplicating
 - cursors,class
 - cursors,confining
+- IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_ICON, IDC_NO, IDC_SIZE, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
 # About Cursors
 
-Windows provides a set of standard cursors that are available for any application to use at any time. The SDK header files contain identifiers for the standard cursors—the identifiers begin with the **IDC\_** prefix.
+Windows provides a set of standard cursors that are available for any application to use at any time. The SDK header files contain identifiers for the **standard cursors** — the identifiers begin with the **IDC\_** prefix:
 
-Each standard cursor has a corresponding default image associated with it. The user or an application can replace the default image associated with any standard cursor at any time. An application replaces a default image by using the [**SetSystemCursor**](/windows/desktop/api/Winuser/nf-winuser-setsystemcursor) function. The following image shows several standard cursors from Windows Vista:
+| Value | Meaning |
+|---|---|
+| **IDC\_ARROW**<br/>MAKEINTRESOURCE(32512) | :::image type="icon" source="./images/IDC_ARROW.png"::: Normal select |
+| **IDC\_IBEAM**<br/>MAKEINTRESOURCE(32513) | :::image type="icon" source="./images/IDC_IBEAM.png"::: Text select |
+| **IDC\_WAIT**<br/>MAKEINTRESOURCE(32514) | :::image type="icon" source="./images/IDC_WAIT.png"::: Busy |
+| **IDC\_CROSS**<br/>MAKEINTRESOURCE(32515) | :::image type="icon" source="./images/IDC_CROSS.png"::: Precision select |
+| **IDC\_UPARROW**<br/>MAKEINTRESOURCE(32516) | :::image type="icon" source="./images/IDC_UPARROW.png"::: Alternate select |
+| MAKEINTRESOURCE(32631) | :::image type="icon" source="./images/IDC_PEN.png"::: Handwriting |
+| **IDC\_SIZENWSE**<br/>MAKEINTRESOURCE(32642) | :::image type="icon" source="./images/IDC_SIZENWSE.png"::: Diagonal resize 1 |
+| **IDC\_SIZENESW**<br/>MAKEINTRESOURCE(32643) | :::image type="icon" source="./images/IDC_SIZENESW.png"::: Diagonal resize 2 |
+| **IDC\_SIZEWE**<br/>MAKEINTRESOURCE(32644) | :::image type="icon" source="./images/IDC_SIZEWE.png"::: Horizontal resize |
+| **IDC\_SIZENS**<br/>MAKEINTRESOURCE(32645) | :::image type="icon" source="./images/IDC_SIZENS.png"::: Vertical resize |
+| **IDC\_SIZEALL**<br/>MAKEINTRESOURCE(32646) | :::image type="icon" source="./images/IDC_SIZEALL.png"::: Move |
+| **IDC\_NO**<br/>MAKEINTRESOURCE(32648) | :::image type="icon" source="./images/IDC_NO.png"::: Unavailable |
+| **IDC\_HAND**<br/>MAKEINTRESOURCE(32649) | :::image type="icon" source="./images/IDC_HAND.png"::: Link select |
+| **IDC\_APPSTARTING**<br/>MAKEINTRESOURCE(32650) | :::image type="icon" source="./images/IDC_APPSTARTING.png"::: Working in background |
+| **IDC\_HELP**<br/>MAKEINTRESOURCE(32651) | :::image type="icon" source="./images/IDC_HELP.png"::: Help select |
+| **IDC\_PIN**<br/>MAKEINTRESOURCE(32671) | :::image type="icon" source="./images/IDC_PIN.png"::: Location select |
+| **IDC\_PERSON**<br/>MAKEINTRESOURCE(32672) | :::image type="icon" source="./images/IDC_PERSON.png"::: Person select |
 
-![standard cursors, including hand, four-arrow plus sign, arrow with question mark, circle, pen](images/cursorsstandard.png)
+See [Guidelines](/windows/win32/uxguide/inter-mouse) for information on recommended usage of standard cursors.
 
-An application can use the [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function to retrieve the current image for a cursor and can draw the cursor by using the [**DrawIconEx**](/windows/desktop/api/Winuser/nf-winuser-drawiconex) function. To draw the default image for a standard cursor, specify the **DI\_COMPAT** flag in the call to **DrawIconEx**. If you do not specify the **DI\_COMPAT** flag, **DrawIconEx** draws the standard cursor using the image that the user specified.
+Each standard cursor has a corresponding default image associated with it. The user or an application can replace the default image associated with any standard cursor at any time. An application replaces a default image by using the [**SetSystemCursor**](/windows/desktop/api/Winuser/nf-winuser-setsystemcursor) function.
+
+An application can use the [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function to retrieve the current image for a cursor and can draw the cursor by using the [**DrawIconEx**](/windows/desktop/api/Winuser/nf-winuser-drawiconex) function.
 
 Custom cursors are designed for use in a specific application and can be any design the developer defines. The following illustration shows several custom cursors.
 

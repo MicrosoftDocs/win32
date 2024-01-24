@@ -1,5 +1,5 @@
 ---
-Description: Describes how to creates a PenInputPanel object.
+description: Describes how to creates a PenInputPanel object.
 ms.assetid: fd9ce912-5cec-4bec-b7d8-5a4f71000c95
 title: Creating a PenInputPanel Object
 ms.topic: article

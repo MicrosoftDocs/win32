@@ -17,7 +17,6 @@ api_location:
 
 The scripting objects that are described in the following topics provide programmatic access to the functionality that is available within the Task Scheduler for Visual Basic and Visual Basic script developers.
 
-## 
 
 The following objects are introduced in Task Scheduler 2.0.
 

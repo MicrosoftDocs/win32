@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when a selected IME needs information about the composition window. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.
+description: Notifies an application when a selected IME needs information about the composition window. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.
 ms.assetid: 08fd7119-d225-4a78-b2cd-8b58887c9139
 title: IMR_COMPOSITIONWINDOW notification code (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This command can be sent by the IME to a window that has cleared the ISC\_SHOWUI
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

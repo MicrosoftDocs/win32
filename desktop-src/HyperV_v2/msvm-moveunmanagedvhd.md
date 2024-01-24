@@ -1,5 +1,5 @@
 ---
-Description: Moves a virtual hard drive from the source to the destination path.
+description: Moves a virtual hard drive from the source to the destination path.
 ms.assetid: f51f7bf3-585a-442d-b84d-51d633c38dea
 title: Msvm_MoveUnmanagedVhd class
 ms.topic: reference
@@ -76,7 +76,7 @@ The source path of the virtual hard drive to move.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

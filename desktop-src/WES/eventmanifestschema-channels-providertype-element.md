@@ -1,6 +1,6 @@
 ---
 title: channels (ProviderType) Element
-description: Defines a list of channels to which providers can log events.
+description: Defines a list of channels to which providers can log events. | channels (ProviderType) Element
 ms.assetid: f30e9b0e-71f3-41a9-9457-403ca9a4fbab
 keywords:
 - channels element EventLog
@@ -31,7 +31,7 @@ The **channels** element is defined by the [**ProviderType**](eventmanifestschem
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPOwnExtCorruptedException constructor"
 title: EsentSPOwnExtCorruptedException constructor 
 TOCTitle: 'EsentSPOwnExtCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSPOwnExtCorruptedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSPOwnExtCorruptedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentSPOwnExtCorruptedException()
 
 #### Reference
 
-[EsentSPOwnExtCorruptedException class](dn334917\(v=exchg.10\).md)
+[EsentSPOwnExtCorruptedException class](./esentspownextcorruptedexception-class.md)
 
-[EsentSPOwnExtCorruptedException members](dn334919\(v=exchg.10\).md)
+[EsentSPOwnExtCorruptedException members](./esentspownextcorruptedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

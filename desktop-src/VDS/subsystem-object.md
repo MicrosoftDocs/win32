@@ -1,5 +1,5 @@
 ---
-Description: Subsystem Object
+description: Subsystem Object
 ms.assetid: f605a5de-9256-4b43-8e12-3d78fd6cd9f1
 title: Subsystem Object
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Subsystem Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A subsystem object models a storage subsystem. A subsystem is either a RAID enclosure or a PCI RAID card. A single host computer can be connected to any number of subsystems. Each subsystem is managed by exactly one hardware provider. In a SAN configuration, the subsystem class represents a SAN storage enclosure.
 
@@ -16,7 +16,7 @@ A subsystem can contain any number of controllers and drives, and can surface (u
 
 The illustration that follows shows the physical devices contained in a subsystem (LUNs are not shown) and the relationships among them.
 
-![](images/vdssubsystem.png)
+![Diagram that shows a subsystem starting with 'Ports' on the left, moving to 'Controllers', and then a 'Bus' with 'Slots' leading to individual 'Drives'.](images/vdssubsystem.png)
 
 VDS applications use the [**IVdsHwProvider::QuerySubSystems**](/windows/desktop/api/Vds/nf-vds-ivdshwprovider-querysubsystems) method to query the subsystems that belong to a specific hardware provider. Callers can get a pointer to a specific subsystem by selecting the desired subsystem object from the enumeration that is returned by the **QuerySubSystems** method. With a subsystem object, you can set the subsystem status, create LUNs, replace drives, and query for controllers, drives, and LUNs.
 

@@ -34,7 +34,7 @@ Represents the top-level element in the Windows Ribbon framework markup specific
 
 | Attribute            | Type                 | Required       | Description                                                                                                                                                                                                       |
 |----------------------|----------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **xmlns**<br/> | xs:string<br/> | Yes<br/> | <dt> (http://schemas.microsoft.com/windows/2009/Ribbon)<br/> </dt> <dd> The URI for the Ribbon markup namespace binding. <br/> </dd> </dl> |
+| **xmlns**<br/> | xs:string<br/> | Yes<br/> | <dt>`http://schemas.microsoft.com/windows/2009/Ribbon`<br/> </dt> <dd> The URI for the Ribbon markup namespace binding. <br/> </dd> </dl> |
 
 
 
@@ -81,7 +81,7 @@ The following example shows an **Application** element declaration.
 
 
 
-|                                     |           |
+|     Requirement                                |   Details        |
 |-------------------------------------|-----------|
 | Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |

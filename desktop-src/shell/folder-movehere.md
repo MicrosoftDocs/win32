@@ -1,5 +1,5 @@
 ---
-Description: Moves an item or items to this folder.
+description: Moves an item or items to this folder.
 ms.assetid: 07723dc1-5d9d-4f32-ab18-52617b0988c4
 title: Folder.MoveHere method (Shldisp.h)
 ms.topic: reference
@@ -266,7 +266,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

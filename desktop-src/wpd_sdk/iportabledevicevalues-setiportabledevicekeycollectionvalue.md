@@ -1,5 +1,5 @@
 ---
-Description: The SetIPortableDeviceKeyCollectionValue method adds a new SetIPortableDeviceKeyCollectionValue value (type VT\_UNKNOWN) or overwrites an existing one.
+description: The SetIPortableDeviceKeyCollectionValue method adds a new SetIPortableDeviceKeyCollectionValue value (type VT\_UNKNOWN) or overwrites an existing one.
 ms.assetid: f470cb89-e7a0-470d-83d1-eb643b062e45
 title: IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If an existing value has the same key that is specified by the *key* parameter, 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

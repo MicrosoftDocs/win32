@@ -1,5 +1,5 @@
 ---
-Description: Represents the switch nic teaming settings.
+description: Represents the switch nic teaming settings.
 ms.assetid: 7a48bdae-1953-4011-aaa8-1e3ca73494ff
 title: Msvm_VirtualEthernetSwitchNicTeamingSettingData class
 ms.topic: reference
@@ -82,7 +82,7 @@ The teaming mode.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

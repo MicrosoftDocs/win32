@@ -21,7 +21,7 @@ Allows peeking at messages in the queue.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | msmq-Peek                            |
 | Display-Name | Peek Message                         |
@@ -42,7 +42,7 @@ Allows peeking at messages in the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 43                                           |
@@ -53,7 +53,7 @@ Allows peeking at messages in the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 43                                           |
@@ -64,7 +64,7 @@ Allows peeking at messages in the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 43                                           |
@@ -75,7 +75,7 @@ Allows peeking at messages in the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 43                                           |
@@ -86,7 +86,7 @@ Allows peeking at messages in the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 43                                           |
@@ -97,7 +97,7 @@ Allows peeking at messages in the queue.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 43                                           |

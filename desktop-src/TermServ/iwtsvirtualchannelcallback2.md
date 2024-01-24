@@ -1,6 +1,6 @@
 ---
 title: IWTSVirtualChannelCallback2 interface
-description: This interface is not supported.
+description: This interface is not supported. | IWTSVirtualChannelCallback2 interface
 ms.assetid: 7609d6cd-217d-4fdc-993a-f0e907ec8f4f
 ms.tgt_platform: multiple
 keywords:

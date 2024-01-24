@@ -1,5 +1,5 @@
 ---
-Description: Synchronizes all offline files in the folder.
+description: Synchronizes all offline files in the folder.
 ms.assetid: b149df96-0c8e-47b9-b71e-2ad5dcfdeb8f
 title: Folder2.Synchronize method (Shldisp.h)
 ms.topic: reference
@@ -111,7 +111,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

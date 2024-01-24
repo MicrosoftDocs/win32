@@ -1,5 +1,5 @@
 ---
-Description: .
+description: PropList
 ms.assetid: b6696577-b67f-4cfb-a140-34ac3fb68eb7
 title: PropList
 ms.topic: article

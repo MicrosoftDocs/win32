@@ -1,5 +1,5 @@
 ---
-Description: The Win32Shutdown &\#8194; WMI class method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
+description: The Win32Shutdown &\#8194; WMI class method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
 ms.assetid: 7108570a-81ba-46d5-8b05-de6194f93f18
 ms.tgt_platform: multiple
 title: Win32Shutdown method of the Win32_OperatingSystem class
@@ -144,10 +144,6 @@ The Win32Shutdown method does not have a parameter for locking a workstation, le
 
 ## Examples
 
-The [Log Out, Reboot, or Shut Down Multiple Computers](https://Gallery.TechNet.Microsoft.Com/2e88d504-a4e5-499b-b09a-f90617a6d87d) VBScript sample on TechNet Gallery uses Win32Shutdown to log off, shut down, reboot, or power off (depending on the selection) the computers listed in the Server array.
-
-The [ComputerManagement.ps1](https://Gallery.TechNet.Microsoft.Com/ef8de213-45b6-4751-8c77-01d1b6623e16) PowerShell sample on TechNet Gallery includes a method that calls Win32Shutdown on a remote computer.
-
 The following PowerShell example uses the Win32Shutdown method to shut down the specified computer.
 
 
@@ -209,7 +205,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

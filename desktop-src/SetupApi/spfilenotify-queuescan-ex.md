@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_QUEUESCAN\_EX notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue.
+description: The SPFILENOTIFY\_QUEUESCAN\_EX notification is sent to a callback routine by SetupScanFileQueue for each node in the copy subqueue of the file queue.
 ms.assetid: 293e63f9-9567-4ea7-b7e5-e5046c8a704b
 title: SPFILENOTIFY_QUEUESCAN_EX message (Setupapi.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ If the callback routine returns NO\_ERROR, the queue scan continues. If the rout
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

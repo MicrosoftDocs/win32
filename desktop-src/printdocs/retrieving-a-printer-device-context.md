@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to retrieve a printer device context.
+description: This topic describes how to retrieve a printer device context.
 ms.assetid: b3eb9c48-f4c4-42f1-b189-1fa42670008e
 title: 'How To: Retrieve a Printer Device Context'
 ms.topic: article

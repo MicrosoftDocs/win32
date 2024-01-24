@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListCorruptException constructor"
 title: EsentSLVEAListCorruptException constructor 
 TOCTitle: 'EsentSLVEAListCorruptException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVEAListCorruptException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVEAListCorruptException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVEAListCorruptException()
 
 #### Reference
 
-[EsentSLVEAListCorruptException class](dn350681\(v=exchg.10\).md)
+[EsentSLVEAListCorruptException class](./esentslvealistcorruptexception-class.md)
 
-[EsentSLVEAListCorruptException members](dn350682\(v=exchg.10\).md)
+[EsentSLVEAListCorruptException members](./esentslvealistcorruptexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The IOCSPProperty interface exposes the following properties.
+description: The IOCSPProperty interface exposes the following properties.
 ms.assetid: 9621CA21-907B-4543-AB99-14860AFE8337
 title: IOCSPProperty Properties
 ms.topic: reference

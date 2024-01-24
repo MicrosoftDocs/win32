@@ -1,5 +1,5 @@
 ---
-Description: Brings up the key manager dialog into the user interface.
+description: Brings up the key manager dialog into the user interface.
 ms.assetid: 65c2763f-42d5-4534-94f7-e753f6486014
 title: KRShowKeyMgr function
 ms.topic: reference
@@ -79,7 +79,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Keymgr.dll</dt> </dl> |
 

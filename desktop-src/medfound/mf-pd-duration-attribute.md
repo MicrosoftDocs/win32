@@ -1,5 +1,5 @@
 ---
-Description: Specifies the duration of a presentation, in 100-nanosecond units.
+description: Specifies the duration of a presentation, in 100-nanosecond units.
 ms.assetid: abc21696-ea97-41ff-9341-6d9e9dcb19ec
 title: MF_PD_DURATION attribute (Mfidl.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ HRESULT GetSourceDuration(IMFMediaSource *pSource, MFTIME *pDuration)
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

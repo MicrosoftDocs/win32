@@ -1,6 +1,6 @@
 ---
 title: Property Sheet Reference
-description: .
+description: Property Sheet Reference
 ms.assetid: d012ebe3-26cd-44b6-b6c5-89f51af60743
 ms.topic: article
 ms.date: 05/31/2018

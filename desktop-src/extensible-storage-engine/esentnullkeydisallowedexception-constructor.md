@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullKeyDisallowedException constructor"
 title: EsentNullKeyDisallowedException constructor 
 TOCTitle: 'EsentNullKeyDisallowedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentNullKeyDisallowedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentNullKeyDisallowedException()
 
 #### Reference
 
-[EsentNullKeyDisallowedException class](dn319701\(v=exchg.10\).md)
+[EsentNullKeyDisallowedException class](./esentnullkeydisallowedexception-class.md)
 
-[EsentNullKeyDisallowedException members](dn319651\(v=exchg.10\).md)
+[EsentNullKeyDisallowedException members](./esentnullkeydisallowedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

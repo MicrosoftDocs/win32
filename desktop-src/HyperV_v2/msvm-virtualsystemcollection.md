@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of virtual systems.
+description: Represents a collection of virtual systems.
 ms.assetid: acf51beb-1103-43a4-8dc5-1a7f2a0482be
 title: Msvm_VirtualSystemCollection class
 ms.topic: reference
@@ -418,7 +418,7 @@ Replication state for the virtual system collection.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

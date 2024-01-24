@@ -1,5 +1,5 @@
 ---
-Description: Creates an Authenticode time stamp signature on the signed executable file specified in the SignedCode.FileName property.
+description: Creates an Authenticode time stamp signature on the signed executable file specified in the SignedCode.FileName property.
 ms.assetid: 8f4c9901-b509-4e4c-82f9-a802b0896a11
 title: SignedCode.Timestamp method
 ms.topic: reference
@@ -59,7 +59,7 @@ If the signed executable file is already time stamped, this method overwrites th
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeNormalizationNotSupportedException properties"
 title: EsentUnicodeNormalizationNotSupportedException properties
 TOCTitle: EsentUnicodeNormalizationNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUnicodeNormalizationNotSupportedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentUnicodeNormalizationNotSupportedException](dn350818\(v=exchg.10\).md) type exposes the following members.
+The [EsentUnicodeNormalizationNotSupportedException](./esentunicodenormalizationnotsupportedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentUnicodeNormalizationNotSupportedException class](dn350818\(v=exchg.10\).md)
+[EsentUnicodeNormalizationNotSupportedException class](./esentunicodenormalizationnotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

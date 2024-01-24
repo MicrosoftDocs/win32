@@ -1,0 +1,138 @@
+### YamlMime:FAQ
+metadata:
+  title: General Frequently Asked Questions
+  description: "Read answers to commonly-asked questions about the EAPHost APIs, such as 'What is the lifetime of an authentication?'."
+  ms.assetid: 4025e8da-8cb1-477b-86bb-7756d9636224
+  ms.topic: faq
+  ms.date: 05/31/2018
+title: General Frequently Asked Questions
+summary: The following topic provides answers to commonly-asked questions about the EAPHost APIs.
+
+
+sections:
+  - name: Ignored
+    questions:
+      - question: |
+          What is a supplicant?
+        answer: |
+          The supplicant is the entity to be authenticated using EAPHost. Typical supplicants are [802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) clients, 802.3 clients, and Routing and Remote Access Service (RRAS), Point-to-Point (PPP) clients.
+          
+      - question: |
+          What is a peer?
+        answer: |
+          The peer is the client side of an EAP authentication.
+
+      - question: |
+          How does a peer differ from a supplicant?
+        answer: |
+          The supplicant transports packets, whereas a peer does not. Nonetheless, the terms peer, supplicant and client are largely synonymous.
+
+      - question: |
+          What is an authenticator?
+        answer: |
+          The authenticator is the wireless access point, network access server (NAS), or network access device (NAD) that authenticates the supplicant. The authenticator is also known as the EAP server.
+
+      - question: |
+          What is the lifetime of an authentication?
+        answer: |
+          The lifetime of a single authentication session on the client side is everything that occurs between the [<strong>EapHostPeerBeginSession</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession) and [<strong>EapHostPeerEndSession</strong>](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerendsession) functions being called. The lifetime on the authenticator side is everything that occurs between the [<strong>EapPeerBeginSession</strong>](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession) and [<strong>EapPeerEndSession</strong>](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession) functions.
+          
+      - question: |
+          What is a BLOB? Why would I convert a configuration (binary) BLOB to XML?
+        answer: |
+          A BLOB is a binary large object. XML has several advantages over a binary configuration BLOB. Configuration data that is stored in XML is human-readable, human-editable, and cross-platform.
+
+      - question: |
+          When do I convert a stored XML BLOB back to a binary BLOB?
+        answer: |
+          It's possible to store a binary BLOB or XML BLOB, but you must always convert the XML BLOB back to a binary BLOB before use with run-time APIs; the run-time APIs cannot accept an XML directory.
+
+      - question: |
+          What are native methods?
+        answer: |
+          Native EAP methods use the new EAPHost API.
+
+      - question: |
+          What are legacy methods?
+        answer: |
+          Legacy EAP methods are defined in the [Extensible Authentication Protocol Reference](/windows/win32/eap/eap-start-page). The legacy EAP methods are available for use in Windows Vista and Windows Server 2008. These methods may not be available for use in subsequent versions of the operating system.
+          
+      - question: |
+          What's the difference between legacy and native methods?
+        answer: |
+          The native APIs are simpler and have fewer features. All new EAP methods should be written using the EAPHost API.
+
+      - question: |
+          What is "group policy"?
+        answer: |
+          For a description of group policy, see [Group Policy Collection](/previous-versions/windows/it-pro/windows-server-2003/cc779838(v=ws.10)).
+          
+      - question: |
+          Can EAPHost functions override configuration policy specified by group policy?
+        answer: |
+          No, never. If group policy is in use, group policy settings will always override EAPHost configuration settings.
+
+      - question: |
+          What is Single-Sign-On (SSO)?
+        answer: |
+          [802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) is a layer 2 authentication mechanism. Depending on the SSO configuration, SSO enables users to authenticate to the network using [802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) authentication before or immediately after logging on to Windows. SSO can be configured to use Windows credentials for network authentication (in which case users enter their credentials only once) or use different credentials for Windows and network authentication. For more information, see [SSO and PLAP](understanding-sso-and-plap.md).<br/>
+          
+      - question: |
+          What is Pre-Logon Access Provider (PLAP)
+        answer: |
+          For more information, see [SSO and PLAP](understanding-sso-and-plap.md).
+          
+      - question: |
+          What is Protected Extensible Authentication Protocol (PEAP)?
+        answer: |
+          For more information, see [PEAP](/previous-versions/windows/it-pro/windows-server-2003/cc757996(v=ws.10)) and [About Extensible Authentication Protocol](/windows/win32/eap/eap-start-page).
+          
+      - question: |
+          How does PEAP deal with session resumption and re-authentication?
+        answer: |
+          Session resumption and re-authentication typically occurs while roaming on a wireless network. Windows Data Protection API (DPAPI) provides a way to protect and bind data to a user and optionally the logon session. The caller gives [<strong>CryptProtectMemory</strong>](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory) an unencrypted buffer and DPAPI will encrypt the memory in place. Later, the caller can pass in the encrypted buffer to [<strong>CryptUnprotectMemory</strong>](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory) and DPAPI will decrypt the memory, once again in place. For more information, see [TLS Inner Application Extension (TSL/IA)](https://go.microsoft.com/fwlink/p/?linkid=84011) and [PEAP](/previous-versions/windows/it-pro/windows-server-2003/cc757996(v=ws.10)).<br/>
+          
+      - question: |
+          What is EAP-Transport Level Security (EAP-TLS)?
+        answer: |
+          EAP-TLS is a client-server protocol in which distinct certificate profiles are typically used for the client and server.For more information, see [IETF RTC 2716](/previous-versions/windows/embedded/ms885336(v=msdn.10)).<br/>
+          
+      - question: |
+          How do I implement a password change using the Local Security Authority (LSA) API?
+        answer: |
+          Use the [<strong>LsaCallAuthenticationPackage</strong>](/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage) function to implement a password change.
+          
+      - question: |
+          Why would I want to enable tracing in EAPHost?
+        answer: |
+          The trace logs contain debugging information (available in English only) that may assist Microsoft developers and partners in finding the root causes of any issues being experienced with the authentication process. For more information, see [Enabling Tracing](enabling-tracing.md).<br/>
+          
+      - question: |
+          Why do I encounter the error code, NTE_BAD_KEY_STATE (0x8009000BL) when I use the Cryptography API to sign into the EAP-TLS exchange?
+        answer: |
+          In Winerror.h NTE_BAD_KEY_STATE (0x8009000BL) is defined as a &quot;key not valid for use in specified state&quot;. This error is typically returned in the following scenarios.
+          <ul>
+          <li>When attempting to export a non-exportable private key BLOB</li>
+          <li>When unsuccessfully attempting to generate a pseudo-random function (PRF) hash handle using [<strong>CryptCreateHash</strong>](/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash)</li>
+          </ul>
+          For more information, see [Finish Messages in the TLS 1.0 Protocol](/windows/desktop/SecCrypto/finish-messages-in-the-tls-1-0-protocol).
+          
+      - question: |
+          What is a pseudo-random function (PRF)?
+        answer: |
+          A function that takes a key, label, and seed as input, then produces an output of arbitrary length. For more information, see [Finish Messages in the TLS 1.0 Protocol](/windows/desktop/SecCrypto/finish-messages-in-the-tls-1-0-protocol).<br/>
+          
+      - question: |
+          How does EAPHost bind to network adapters?
+        answer: |
+          EAPHost allows multiple supplicants to operate simultaneously, and each supplicant can bind to multiple network adapters. EAPHost supplicants provide binding to the network layers and drive the authentication process. Supplicants contain authentication configuration. Supplicants also save the state and provide subsequent connection security. Because EAPHost doesn't directly bind to any network mechanism, supplicant extensibility is possible.
+
+additionalContent: |
+
+  ## Related topics
+  
+  [EAPHost Supplicant FAQs](eaphost-supplicant-frequently-asked-questions.yml)
+ 
+   [EAPHost Method FAQs](eap-method-frequently-asked-questions.yml)
+   
+   [EAPHost Development FAQs](eaphost-development-frequently-asked-questions.md)

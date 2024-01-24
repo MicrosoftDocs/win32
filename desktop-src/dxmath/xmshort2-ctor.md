@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMSHORT2.
+description: Constructors exposed by XMSHORT2.
 ms.assetid: f0b5c9b3-9c3c-453d-b2a1-4b9a7e80107e
 title: XMSHORT2 constructors
 ms.topic: reference
@@ -28,65 +28,15 @@ Constructs instances of the [**XMSHORT2**](/windows/desktop/api/DirectXPackedVec
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(constfloat)"><strong>XMSHORT2 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMSHORT2</code>. <br/> Default constructor for <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2"><strong>XMSHORT2</strong></a>. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(float_float)"><strong>XMSHORT2 (float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from two <code>float</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2"><strong>XMSHORT2</strong></a> from two <code>float</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(constfloat)"><strong>XMSHORT2 (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from a two element <code>float</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2"><strong>XMSHORT2</strong></a> from a from a two element <code>float</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(constint16_t)"><strong>XMSHORT2 (const int16_t*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from a two element <code>int16_t</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2"><strong>XMSHORT2</strong></a> from a from a two element <code>int16_t</code> array argument. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(int16_t_int16_t)"><strong>XMSHORT2 (int16_t,int16_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMSHORT2</code> from two <code>int16_t</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2"><strong>XMSHORT2</strong></a> from two <code>int16_t</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| [**XMSHORT2 ()**](/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(constfloat)) | Default constructor for <code>XMSHORT2</code>. <br> Default constructor for [**XMSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2). <br> **Note:** This constructor is only available under C++.<br> | 
+| [**XMSHORT2 (float,float)**](/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(float_float)) | Initializes a new instance of <code>XMSHORT2</code> from two <code>float</code> arguments. <br> This constructor initializes a new instance of [**XMSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2) from two <code>float</code> arguments. <br> **Note:** This constructor is only available under C++.<br> | 
+| [**XMSHORT2 (const float*)**](/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(constfloat)) | Initializes a new instance of <code>XMSHORT2</code> from a two element <code>float</code> array argument. <br> This constructor initializes a new instance of [**XMSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2) from a from a two element <code>float</code> array argument. <br> **Note:** This constructor is only available under C++.<br> | 
+| [**XMSHORT2 (const int16_t*)**](/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(constint16_t)) | Initializes a new instance of <code>XMSHORT2</code> from a two element <code>int16_t</code> array argument. <br> This constructor initializes a new instance of [**XMSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2) from a from a two element <code>int16_t</code> array argument. <br> **Note:** This constructor is only available under C++.<br> | 
+| [**XMSHORT2 (int16_t,int16_t)**](/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmshort2-xmshort2(int16_t_int16_t)) | Initializes a new instance of <code>XMSHORT2</code> from two <code>int16_t</code> arguments. <br> This constructor initializes a new instance of [**XMSHORT2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshort2) from two <code>int16_t</code> arguments. <br> **Note:** This constructor is only available under C++.<br> | 
+
 
 
 

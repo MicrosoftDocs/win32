@@ -1,5 +1,5 @@
 ---
-Description: The CCHeapReAlloc function reallocates memory allocated by the CCHeapAlloc function.
+description: The CCHeapReAlloc function reallocates memory allocated by the CCHeapAlloc function.
 ms.assetid: 82365ce2-3980-44ff-be0f-062a65f676fc
 title: CCHeapReAlloc function (Netmon.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

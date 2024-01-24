@@ -1,5 +1,5 @@
 ---
-Description: Represents the properties that are associated with a physical system enclosure.
+description: Represents the properties that are associated with a physical system enclosure.
 ms.assetid: a8244dc0-a95e-4940-9b92-7820bdf14916
 ms.tgt_platform: multiple
 title: Win32_SystemEnclosure class
@@ -1200,13 +1200,13 @@ The **Win32\_SystemEnclosure** class is derived from [**CIM\_Chassis**](cim-chas
 
 ## Examples
 
-The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechNet.Microsoft.Com/Multithreaded-System-Asset-856a8f7c) PowerShell example on TechNet gallery uses a number of classes, including **Win32\_SystemEnclosure**, to retrieve data from a system.
+The "Multithreaded System Asset Gathering with PowerShell" PowerShell sample uses a number of classes, including **Win32\_SystemEnclosure**, to retrieve data from a system.
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

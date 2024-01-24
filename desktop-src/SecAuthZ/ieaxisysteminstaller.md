@@ -1,5 +1,5 @@
 ---
-Description: Installs an ActiveX object.
+description: Installs an ActiveX object.
 ms.assetid: 0eb725a9-ceb8-40e5-808d-ac2b286a48b6
 title: IeAxiSystemInstaller interface
 ms.topic: reference
@@ -61,7 +61,7 @@ The **IeAxiSystemInstaller** interface has these methods.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |

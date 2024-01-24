@@ -1,5 +1,5 @@
 ---
-Description: The Security WMI providers can be used for wmi scripting and to create a managed security provider.
+description: The Security WMI providers can be used for wmi scripting and to create a managed security provider.
 ms.assetid: c3f7bd91-6cea-43ee-b8a7-1506dbd7926d
 title: Security WMI Providers
 ms.topic: article
@@ -39,9 +39,9 @@ The following are additional resources.
 
 
 
-|                    |                                                                                                                                                                        |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Classes<br/> | For more information about the Security WMI providers, see [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) and [**Win32\_Tpm**](win32-tpm.md).<br/> |
+| Resource     | Description                                                                                                                                               |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Classes      | For more information about the Security WMI providers, see [**Win32\_EncryptableVolume**](win32-encryptablevolume.md) and [**Win32\_Tpm**](win32-tpm.md). |
 
 
 

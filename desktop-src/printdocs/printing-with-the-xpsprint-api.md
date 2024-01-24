@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use the XPS Print API to print from a Windows application.
+description: This topic describes how to use the XPS Print API to print from a Windows application.
 ms.assetid: 3d7ab169-412c-434f-a865-4da4af370eaf
 title: 'How To: Print with the XPS Print API'
 ms.topic: article

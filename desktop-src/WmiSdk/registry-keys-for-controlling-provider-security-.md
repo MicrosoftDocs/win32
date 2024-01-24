@@ -1,5 +1,5 @@
 ---
-Description: To enhance the security of the Windows Management Instrumentation (WMI) shared provider host process (wmiprvse.exe), changes were made to Windows platforms that secure the provider host process with a service security identifier (SID).
+description: To enhance the security of the Windows Management Instrumentation (WMI) shared provider host process (wmiprvse.exe), changes were made to Windows platforms that secure the provider host process with a service security identifier (SID).
 ms.assetid: f93ac155-512c-4efa-8168-ca2d56fe6f01
 ms.tgt_platform: multiple
 title: Registry Keys and Values for Controlling Provider Security
@@ -37,7 +37,7 @@ The WMI shared provider host process is not secured with a [*service SID*](gloss
 
 </dd> </dl>
 
-**Windows Vista and Windows Server 2008:** To access the registry keys and values for controlling secure and compatible modes for the provider host process, you must install the security update in [KB 959454](https://support.microsoft.com/kb/959454). For more information, see the [Microsoft Security Bulletin MS09-012](https://www.microsoft.com/technet/security/bulletin/ms09-012.mspx).
+**Windows Vista and Windows Server 2008:** To access the registry keys and values for controlling secure and compatible modes for the provider host process, you must install the security update in [KB 959454](https://support.microsoft.com/kb/959454). For more information, see the [Microsoft Security Bulletin MS09-012](/security-updates/securitybulletins/2009/ms09-012).
 
 ## Registry Keys and Values
 
@@ -137,7 +137,7 @@ The following procedures illustrate how to manage secure and compatible mode set
 
     **Compatible Mode:  HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**\\**WBEM**\\**CIMOM**\\**CompatibleHostProviders**
 
-8.  In the **name** field, enter the name of the provider you want to add to this key. The provider name must be in the following format: <namespace>:<\_\_RELPATH>. For example, root\\cimv2:\_\_win32provider.name="MyProvider".
+8.  In the **name** field, enter the name of the provider you want to add to this key. The provider name must be in the following format: &lt;namespace&gt;:<\_\_RELPATH>. For example, root\\cimv2:\_\_win32provider.name="MyProvider".
 9.  In the **data** field, enter 0.
 10. Click OK.
 

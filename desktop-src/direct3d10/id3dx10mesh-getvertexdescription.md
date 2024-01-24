@@ -1,5 +1,5 @@
 ---
-Description: Access the vertex description passed into D3DX10CreateMesh. The vertex description describes the layout of the mesh's vertex buffers.
+description: Access the vertex description passed into D3DX10CreateMesh. The vertex description describes the layout of the mesh's vertex buffers.
 ms.assetid: e4a4a98a-e131-414c-ad98-21288ff0c61b
 title: ID3DX10Mesh::GetVertexDescription method (D3DX10.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: When a media source requests a new playback rate, this attribute specifies whether the source also requests thinning. For a definition of thinning, see About Rate Control.
+description: When a media source requests a new playback rate, this attribute specifies whether the source also requests thinning. For a definition of thinning, see About Rate Control.
 ms.assetid: 42b6d0b3-e5af-4a48-969c-53628d1b7c31
 title: MF_EVENT_DO_THINNING attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

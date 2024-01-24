@@ -1,5 +1,5 @@
 ---
-Description: There are several functions an application must call to request features.
+description: There are several functions an application must call to request features.
 ms.assetid: 5253c6f0-316f-4f24-b0c0-951db8d16745
 title: Requesting a Feature
 ms.topic: article

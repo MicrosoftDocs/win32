@@ -4,11 +4,11 @@ title: Build desktop Windows apps using the Win32 API
 summary: Learn how to build desktop apps for Windows PCs using C++ and the Win32 API.
 
 metadata: 
-  author: mcleanbyron
+  author: stevewhims
   description: Learn how to build desktop apps for Windows PCs using C++ and the Win32 API.
   manager: jken
-  ms.author: mcleans
-  ms.date: 09/15/2019
+  ms.author: stwhi
+  ms.date: 09/10/2021
   ms.topic: landing-page
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
@@ -29,8 +29,8 @@ landingContent:
         links:
           - text: Development tools
             url: https://developer.microsoft.com/windows/downloads
-          - text: Windows code samples
-            url: https://developer.microsoft.com/windows/samples
+          - text: Windows sample apps
+            url: /windows/apps/get-started/samples
 
   # Card
   - title: Develop
@@ -59,14 +59,14 @@ landingContent:
         links:
           - text: Windows Desktop Application Program
             url: /windows/desktop/appxpkg/windows-desktop-application-program
-          - text: Stay compatible with Windows 10
-            url: https://developer.microsoft.com/windows/desktop/app-compatibility
+          - text: Stay compatible with Windows
+            url: /windows/apps/get-started/windows-developer-faq#compatibility
           - text: Windows developer support
             url: https://developer.microsoft.com/windows/support
           - text: "@WindowsDocs on Twitter"
             url: https://developer.microsoft.com/games
           - text: OneDevMinute on YouTube
-            url: https://aka.ms/OneDevMinute
+            url: /shows/One-Dev-Minute/?WT.mc_id=odm-c9-niner
 
 
   # Card
@@ -74,8 +74,10 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Choose your desktop platform
+          - text: Build desktop apps for Windows
             url: /windows/apps/desktop/choose-your-platform
+          - text: Windows App SDK
+            url: /windows/apps/windows-app-sdk/
           - text: C++/WinRT
             url: /windows/uwp/cpp-and-winrt-apis/
           - text: MSIX packaging and deployment
@@ -83,7 +85,7 @@ landingContent:
           - text: UWP
             url: /windows/uwp/
           - text: .NET
-            url: //docs.microsoft.com/dotnet/
+            url: /dotnet/
           - text: Docs archive for Windows 8.x and earlier
             url: /previous-versions/windows/
 

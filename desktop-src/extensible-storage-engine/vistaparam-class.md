@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam class"
 title: VistaParam class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaParam class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaParam
@@ -35,7 +36,7 @@ System parameters that have been added to the Vista version of ESENT.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Vista.VistaParam  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[VistaParam members](dn335372\(v=exchg.10\).md)
+[VistaParam members](./vistaparam-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

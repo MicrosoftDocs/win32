@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a stream is mutually exclusive with other streams of the same type.
+description: Specifies whether a stream is mutually exclusive with other streams of the same type.
 ms.assetid: 00a426ae-297c-4fcb-8132-d9c538bc9f1a
 title: MF_SD_MUTUALLY_EXCLUSIVE attribute (Mfidl.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                     |

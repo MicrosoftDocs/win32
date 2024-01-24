@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLanguageIdException constructor"
 title: EsentInvalidLanguageIdException constructor 
 TOCTitle: 'EsentInvalidLanguageIdException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidLanguageIdException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidLanguageIdException()
 
 #### Reference
 
-[EsentInvalidLanguageIdException class](dn319529\(v=exchg.10\).md)
+[EsentInvalidLanguageIdException class](./esentinvalidlanguageidexception-class.md)
 
-[EsentInvalidLanguageIdException members](dn319531\(v=exchg.10\).md)
+[EsentInvalidLanguageIdException members](./esentinvalidlanguageidexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

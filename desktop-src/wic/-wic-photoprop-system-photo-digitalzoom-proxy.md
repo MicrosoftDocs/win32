@@ -1,5 +1,5 @@
 ---
-Description: The property proxy for the System.Photo.DigitalZoom photo metadata policy.
+description: The property proxy for the System.Photo.DigitalZoom photo metadata policy.
 ms.assetid: 38e3d462-ad70-4fde-b239-8fef0ab95656
 title: System.Photo.DigitalZoom Proxy
 ms.topic: article

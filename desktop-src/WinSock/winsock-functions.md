@@ -1,5 +1,5 @@
 ---
-Description: The following list provides concise descriptions of each Winsock function. For additional information on any function, click the function name.
+description: The following list provides concise descriptions of each Winsock function. For additional information on any function, click the function name.
 ms.assetid: edafb5f9-09fe-4f8e-9651-4002b6f622f4
 title: Winsock functions
 ms.topic: article
@@ -146,7 +146,7 @@ The following list provides concise descriptions of each Winsock function. For a
 | [**WSARecvDisconnect**](/windows/win32/api/Winsock2/nf-winsock2-wsarecvdisconnect) | Terminates reception on a socket, and retrieves the disconnect data if the socket is connection oriented. |
 | [**WSARecvEx**](/windows/win32/api/mswsock/nf-mswsock-wsarecvex) | Receives data from a connected socket. |
 | [**WSARecvFrom**](/windows/win32/api/Winsock2/nf-winsock2-wsarecvfrom) | Receives a datagram and stores the source address. |
-| [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)) | Receives data and optional control information from connected and unconnected sockets. |
+| [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) | Receives data and optional control information from connected and unconnected sockets. |
 | [**WSARemoveServiceClass**](/windows/win32/api/Winsock2/nf-winsock2-wsaremoveserviceclass) | Permanently removes the service class schema from the registry. |
 | [**WSAResetEvent**](/windows/win32/api/Winsock2/nf-winsock2-wsaresetevent) | Resets the state of the specified event object to nonsignaled. |
 | [**WSARevertImpersonation**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-wsarevertimpersonation) | Terminates the impersonation of a socket peer. |

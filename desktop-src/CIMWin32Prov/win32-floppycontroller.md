@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_FloppyController WMI class represents the capabilities and management capacity of a floppy disk drive controller.
+description: The Win32\_FloppyController WMI class represents the capabilities and management capacity of a floppy disk drive controller.
 ms.assetid: 8c02847c-8329-4adc-b2a5-149b36aead88
 ms.tgt_platform: multiple
 title: Win32_FloppyController class
@@ -1584,7 +1584,7 @@ The **Win32\_FloppyController** class is derived from [**CIM\_Controller**](cim-
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

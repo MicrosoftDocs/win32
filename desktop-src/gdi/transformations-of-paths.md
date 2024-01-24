@@ -1,5 +1,5 @@
 ---
-Description: Paths are defined using logical units and current transformations.
+description: Paths are defined using logical units and current transformations.
 ms.assetid: a5a426ec-25e8-4fe1-985c-d078227e8aba
 title: Transformations of Paths
 ms.topic: article

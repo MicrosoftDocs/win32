@@ -1,5 +1,5 @@
 ---
-Description: 'Other D3DX constants include the following:'
+description: 'Other D3DX constants include the following:'
 ms.assetid: 4f868a80-ad86-4598-9de3-a026e03aab93
 title: Other D3DX Constants
 ms.topic: article
@@ -14,9 +14,8 @@ Other D3DX constants include the following:
 
 
 
-|                         |                                         |
-|-------------------------|-----------------------------------------|
 | \#define                | Description                             |
+|-------------------------|-----------------------------------------|
 | D3DX\_16F\_DIG          | Number of decimal digits of precision   |
 | D3DX\_16F\_EPSILON      | Smallest such that 1.0 + epsilon != 1.0 |
 | D3DX\_16F\_MANT\_DIG    | Number of bits in mantissa              |
@@ -42,9 +41,8 @@ These \#defines are declared in d3dx9.h and d3dx9math.h.
 
 
 
-|                  |                                            |
-|------------------|--------------------------------------------|
 | \#define         | Description                                |
+|------------------|--------------------------------------------|
 | D3DXSH\_MINORDER | Lowest allowable order of the simulation.  |
 | D3DXSH\_MAXORDER | Highest allowable order of the simulation. |
 
@@ -58,9 +56,8 @@ These \#defines are declared in d3dx9math.h. For more about PRT, see [Precompute
 
 
 
-|                        |                                                                    |
-|------------------------|--------------------------------------------------------------------|
 | \#define               | Description                                                        |
+|------------------------|--------------------------------------------------------------------|
 | D3DFMT\_FROM\_FILE     | Take the format exactly from a file.                               |
 | D3DX\_DEFAULT          | A default value.                                                   |
 | D3DX\_DEFAULT\_NONPOW2 | Do not round up numbers such as width or height to a power of two. |

@@ -22,7 +22,7 @@ An attribute that defines the time-to-live (TTL) value assigned to DS records wh
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-DS-Record-Set-TTL             |
 | Ldap-Display-Name | msDNS-DSRecordSetTTL                 |
@@ -43,7 +43,7 @@ An attribute that defines the time-to-live (TTL) value assigned to DS records wh
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

@@ -1,6 +1,6 @@
 ---
 title: glColor3ubv function (Gl.h)
-description: Sets the current color from an already existing array of color values.
+description: Sets the current color from an already existing array of color values. | glColor3ubv function (Gl.h)
 ms.assetid: 029ef387-c98e-4d90-b046-c0f81f97b54e
 keywords:
 - glColor3ubv function OpenGL
@@ -60,7 +60,7 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

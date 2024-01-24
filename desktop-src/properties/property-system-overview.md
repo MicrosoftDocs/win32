@@ -1,5 +1,5 @@
 ---
-Description: The Windows Property System is an extensible read/write system of data definitions that provides a uniform way of expressing metadata about Shell items.
+description: The Windows Property System is an extensible read/write system of data definitions that provides a uniform way of expressing metadata about Shell items.
 ms.assetid: eb2dc2be-fc53-40aa-81f6-f353ab1d3a57
 title: Property System Overview
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Some HTTP servers and proxies require authentication before allowing access to resources on the Internet. The Microsoft Windows HTTP Services (WinHTTP) functions support server and proxy authentication for HTTP sessions.
+description: Some HTTP servers and proxies require authentication before allowing access to resources on the Internet. The Microsoft Windows HTTP Services (WinHTTP) functions support server and proxy authentication for HTTP sessions.
 ms.assetid: 077d6275-8600-4091-b78e-419a41a2101a
 title: Authentication in WinHTTP
 ms.topic: article
@@ -16,7 +16,7 @@ If authentication is required, the HTTP application receives a status code of 40
 
 Each authenticate header contains a supported authentication scheme and, for the Basic and Digest schemes, a realm. If multiple authentication schemes are supported, the server returns multiple authenticate headers. The realm value is case-sensitive and defines a set of servers or proxies for which the same credentials are accepted. For example, the header "WWW-Authenticate: Basic Realm="example"" might be returned when server authentication is required. This header specifies that user credentials must be supplied for the "example" domain.
 
-An HTTP application can include an authorization header field with a request it sends to the server. The authorization header contains the authentication scheme and the appropriate response required by that scheme. For example, the header "Authorization: Basic <username:password>" would be added to the request and sent to the server if the client received the response header "WWW-Authenticate: Basic Realm="example"".
+An HTTP application can include an authorization header field with a request it sends to the server. The authorization header contains the authentication scheme and the appropriate response required by that scheme. For example, the header "Authorization: Basic \<username:password>" would be added to the request and sent to the server if the client received the response header "WWW-Authenticate: Basic Realm="example"".
 
 > [!Note]  
 > Although they are shown here as plain text, the username and password are actually [*base64 encoded*](glossary.md).

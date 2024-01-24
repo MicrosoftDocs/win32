@@ -1,5 +1,5 @@
 ---
-Description: Sets the value of the secret used to derive the cryptographic session key used to encrypt and decrypt data.
+description: Sets the value of the secret used to derive the cryptographic session key used to encrypt and decrypt data.
 ms.assetid: d940ae0b-a697-4529-b494-0051b9a6db5e
 title: EncryptedData.SetSecret method
 ms.topic: reference
@@ -75,7 +75,7 @@ If appropriate for your application, consider using [**CryptProtectMemory**](/wi
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

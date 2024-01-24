@@ -1,5 +1,5 @@
 ---
-Description: Using the Credential Cache
+description: Using the Credential Cache
 ms.assetid: b58d0a6e-ecae-48a1-a3af-d4246caa272b
 title: Using the Credential Cache
 ms.topic: article

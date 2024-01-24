@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of objects in the Recipients collection.
+description: Retrieves the number of objects in the Recipients collection.
 ms.assetid: 451ec6af-84d8-4664-9f79-bf017a78071e
 title: Recipients.Count property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Recipients.Count property
 
-\[The **Count** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](/dotnet/api/system.security.cryptography.pkcs.cmsrecipientcollection?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Count** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](/dotnet/api/system.security.cryptography.pkcs.cmsrecipientcollection?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Count** property retrieves the number of objects in the [**Recipients**](recipients.md) collection.
 
@@ -38,7 +38,7 @@ The number of objects in the collection.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

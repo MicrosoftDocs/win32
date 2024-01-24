@@ -1,5 +1,5 @@
 ---
-Description: The EnableDNS WMI class static method enables the Domain Name System (DNS) for service.
+description: The EnableDNS WMI class static method enables the Domain Name System (DNS) for service.
 ms.assetid: 083dccb1-eb38-4ae5-a252-0001759c0f50
 ms.tgt_platform: multiple
 title: EnableDNS method of the Win32_NetworkAdapterConfiguration class
@@ -429,7 +429,7 @@ DHCP not enabled on adapter.
 
 ## Examples
 
-The following code sample, taken from the [Enable DNS on All Network Adapters](https://Gallery.TechNet.Microsoft.Com/c5736a48-71cc-4483-9605-d71d222740ac) VBScript code sample on TechNet Gallery, enables DNS for all network adapters on a computer.
+The following code sample enables DNS for all network adapters on a computer.
 
 
 ```VB
@@ -451,7 +451,7 @@ objNetworkSettings.EnableDNS strHostName, , , arrDNSSuffixes
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

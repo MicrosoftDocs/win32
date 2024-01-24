@@ -1,6 +1,6 @@
 ---
 title: MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object
-description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
+description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library. | MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object
 ms.assetid: 66dae2be-2a71-4d53-b2e2-f106426d4eea
 keywords:
 - MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -13,10 +13,13 @@ api_location:
 api_type:
 - Assembly
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
 
@@ -56,7 +59,7 @@ This event occurs only for the local library.
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11<br/>                                                                                         |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

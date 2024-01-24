@@ -1,5 +1,5 @@
 ---
-Description: The name of the interface to be returned by QueryInterface.
+description: The name of the interface to be returned by QueryInterface.
 ms.assetid: 3db34c89-a97d-47a2-97dd-4bb80da09e82
 title: interface element
 ms.topic: reference
@@ -38,7 +38,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

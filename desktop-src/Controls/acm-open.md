@@ -36,7 +36,7 @@ Opens an AVI clip and displays its first frame in an animation control. You can 
 *lParam* 
 </dt> <dd>
 
-A pointer to a buffer that contains the path of the AVI file or the name of an AVI resource. Alternatively, this parameter can consist of the AVI resource identifier in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and zero in the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)). To create this value, use the [**MAKEINTRESOURCE**](/windows/desktop/api/winuser/nf-winuser-makeintresourcea) macro. The control loads the AVI resource from the module specified by the instance handle passed to the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function, the [**Animate\_Create**](/windows/desktop/api/Commctrl/nf-commctrl-animate_create) macro, or the dialog box creation function that created the control. In [Version 4.71](common-control-versions.md) and later, the resource is loaded from the module specified by *wParam*. An AVI resource must have the "AVI" type. If this parameter is **NULL**, the system closes the AVI file that was previously opened for the specified animation control, if any.
+A pointer to a buffer that contains the path of the AVI file or the name of an AVI resource. Alternatively, this parameter can consist of the AVI resource identifier in the [**LOWORD**](../winmsg/loword.md) and zero in the [**HIWORD**](../winmsg/hiword.md). To create this value, use the [**MAKEINTRESOURCE**](/windows/desktop/api/winuser/nf-winuser-makeintresourcea) macro. The control loads the AVI resource from the module specified by the instance handle passed to the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function, the [**Animate\_Create**](/windows/desktop/api/Commctrl/nf-commctrl-animate_create) macro, or the dialog box creation function that created the control. In [Version 4.71](common-control-versions.md) and later, the resource is loaded from the module specified by *wParam*. An AVI resource must have the "AVI" type. If this parameter is **NULL**, the system closes the AVI file that was previously opened for the specified animation control, if any.
 
 </dd> </dl>
 
@@ -58,7 +58,7 @@ You can use [**Animate\_Close**](/windows/desktop/api/Commctrl/nf-commctrl-anima
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

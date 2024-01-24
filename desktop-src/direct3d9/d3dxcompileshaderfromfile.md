@@ -1,5 +1,5 @@
 ---
-Description: Compile a shader file.
+description: D3DXCompileShaderFromFile function - Compile a shader file.
 ms.assetid: 2ad6042f-3601-4f4a-9624-6319a3372355
 title: D3DXCompileShaderFromFile function (D3DX9Shader.h)
 ms.topic: reference
@@ -141,7 +141,7 @@ E\_NOTIMPL is returned if you're using 1.1 shaders (vs\_1\_1 and ps\_1\_1).
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

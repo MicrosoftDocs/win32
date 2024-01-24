@@ -1,5 +1,5 @@
 ---
-Description: Mesh patch types.
+description: Mesh patch types.
 ms.assetid: 229d01b2-781c-48a8-93f2-9dd9dbd67f3e
 title: D3DXPATCHMESHTYPE enumeration (D3dx9mesh.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Triangle patches have three sides and are described in [**D3DTRIPATCH\_INFO**](d
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

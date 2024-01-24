@@ -1,5 +1,5 @@
 ---
-Description: Searches through a shader for a particular comment. The comment is identified by a four-character code (FOURCC) in the first DWORD of the comment.
+description: Searches through a shader for a particular comment. The comment is identified by a four-character code (FOURCC) in the first DWORD of the comment.
 ms.assetid: 86ab8330-fd48-4d14-835c-92399c6c8a38
 title: D3DXFindShaderComment function (D3DX9Shader.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ If the function succeeds, the return value is D3D\_OK. If the comment is not fou
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

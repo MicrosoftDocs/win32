@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_OSVersionCheck class specifies the versions of the operating system that can support a software element.
+description: The CIM\_OSVersionCheck class specifies the versions of the operating system that can support a software element.
 ms.assetid: 6796cfc4-3b6f-43a4-b5f0-854a95284238
 ms.tgt_platform: multiple
 title: CIM_OSVersionCheck class
@@ -171,8 +171,8 @@ Maximum version of the required operating system.
 
 The value is encoded in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 </dd> <dt>
 
@@ -192,8 +192,8 @@ Minimum version of the required operating system.
 
 The value is encoded in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 </dd> <dt>
 
@@ -839,8 +839,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from [**CIM\_Check**](cim-check.md).
 
@@ -856,7 +856,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

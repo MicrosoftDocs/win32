@@ -22,7 +22,7 @@ Used during domain rename. This value cannot be written to or read from by using
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-ExecuteScriptPassword                           |
 | Ldap-Display-Name | msDS-ExecuteScriptPassword                            |
@@ -48,7 +48,7 @@ Used during domain rename. This value cannot be written to or read from by using
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -69,7 +69,7 @@ Used during domain rename. This value cannot be written to or read from by using
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -90,7 +90,7 @@ Used during domain rename. This value cannot be written to or read from by using
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -111,7 +111,7 @@ Used during domain rename. This value cannot be written to or read from by using
 
 
 
-|                        |                                                                                                         |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                      |
 | MAPI-Id                | \-                                                                                                      |
@@ -132,7 +132,7 @@ Used during domain rename. This value cannot be written to or read from by using
 
 
 
-|                        |                                                                                                         |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                      |
 | MAPI-Id                | \-                                                                                                      |
@@ -153,7 +153,7 @@ Used during domain rename. This value cannot be written to or read from by using
 
 
 
-|                        |                                                                                                         |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                      |
 | MAPI-Id                | \-                                                                                                      |

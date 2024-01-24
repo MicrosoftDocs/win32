@@ -1,5 +1,5 @@
 ---
-Description: The SetMacAddressInBlob function sets the requested MAC address of a BLOB.
+description: The SetMacAddressInBlob function sets the requested MAC address of a BLOB.
 ms.assetid: f44d0cec-ced7-4d2a-a58e-aeb476bfe800
 title: SetMacAddressInBlob function (Netmon.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

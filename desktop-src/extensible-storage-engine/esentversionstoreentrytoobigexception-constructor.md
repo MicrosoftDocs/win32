@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreEntryTooBigException constructor"
 title: EsentVersionStoreEntryTooBigException constructor 
 TOCTitle: 'EsentVersionStoreEntryTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentVersionStoreEntryTooBigException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentVersionStoreEntryTooBigException()
 
 #### Reference
 
-[EsentVersionStoreEntryTooBigException class](dn350862\(v=exchg.10\).md)
+[EsentVersionStoreEntryTooBigException class](./esentversionstoreentrytoobigexception-class.md)
 
-[EsentVersionStoreEntryTooBigException members](dn350864\(v=exchg.10\).md)
+[EsentVersionStoreEntryTooBigException members](./esentversionstoreentrytoobigexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

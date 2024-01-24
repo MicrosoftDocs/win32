@@ -2,7 +2,6 @@
 title: Queries
 description: In Direct3D 12, queries are grouped into arrays of queries called a query heap. A query heap has a type which defines the valid types of queries that can be used with that heap.
 ms.assetid: 'd7403b5d-7e1b-4dd2-ae45-52e1153233c6'
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -26,7 +25,7 @@ The following query types are no longer present in Direct3D 12, their functional
 -   **Stream output statistics queries** - in Direct3D 12 there is no single stream output (SO) overflow query for all the output streams. Apps need to issue multiple single-stream queries, and then correlate the results.
 -   **Stream output statistics predicate and occlusion predicate queries** - queries (which write to memory) and [Predication](predication.md) (which reads from memory) are no longer coupled, and so these query types are not needed.
 
-A new binary occlusion query type has been added to Direct3D 12.
+A new binary occlusion query type has been added to Direct3D 12. This allows predication strategies that care only whether an object was fully occluded or not (rather than how many pixels were occluded) to indicate this to the device, which might be able to more efficiently perform the queries.
 
 ## Query Heaps
 
@@ -48,7 +47,8 @@ D3D12\_QUERY\_TYPE\_TIMESTAMP is the only query that supports [**EndQuery**](/wi
 
 The debug layer will validate the following:
 
--   It is illegal to begin a query twice without ending it (for a given element). For queries which require both begin and end, it is illegal to end a query before the corresponding begin (for a given element).
+-   It is illegal to begin a timestamp query&mdash;you can only end it
+-   It is illegal to begin a query twice without ending it (for a given element). For queries that require both begin and end, it is illegal to end a query before the corresponding begin (for a given element).
 -   The query type passed to [**BeginQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery) must match the query type passed to [**EndQuery**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery).
 
 The core runtime will validate the following:
@@ -61,16 +61,16 @@ The core runtime will validate the following:
 
     
 
-    | Query Type                                  | Query Heap type                                      |
-    |---------------------------------------------|------------------------------------------------------|
-    | D3D12\_QUERY\_TYPE\_OCCLUSION               | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_OCCLUSION            |
-    | D3D12\_QUERY\_TYPE\_BINARY\_OCCLUSION       | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_OCCLUSION            |
-    | D3D12\_QUERY\_TYPE\_TIMESTAMP               | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_TIMESTAMP            |
-    | D3D12\_QUERY\_TYPE\_PIPELINE\_STATISTICS    | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_PIPELINE\_STATISTICS |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM0 | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_SO\_STATISTICS       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM1 | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_SO\_STATISTICS       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM2 | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_SO\_STATISTICS       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM3 | D3D12\_QUERY\_TYPE\_HEAP\_TYPE\_SO\_STATISTICS       |
+    | Query Type                                  | Query Heap type                                |
+    |---------------------------------------------|------------------------------------------------|
+    | D3D12\_QUERY\_TYPE\_OCCLUSION               | D3D12\_QUERY\_HEAP\_TYPE\_OCCLUSION            |
+    | D3D12\_QUERY\_TYPE\_BINARY\_OCCLUSION       | D3D12\_QUERY\_HEAP\_TYPE\_OCCLUSION            |
+    | D3D12\_QUERY\_TYPE\_TIMESTAMP               | D3D12\_QUERY\_HEAP\_TYPE\_TIMESTAMP            |
+    | D3D12\_QUERY\_TYPE\_PIPELINE\_STATISTICS    | D3D12\_QUERY\_HEAP\_TYPE\_PIPELINE\_STATISTICS |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM0 | D3D12\_QUERY\_HEAP\_TYPE\_SO\_STATISTICS       |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM1 | D3D12\_QUERY\_HEAP\_TYPE\_SO\_STATISTICS       |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM2 | D3D12\_QUERY\_HEAP\_TYPE\_SO\_STATISTICS       |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM3 | D3D12\_QUERY\_HEAP\_TYPE\_SO\_STATISTICS       |
 
     
 
@@ -80,16 +80,16 @@ The core runtime will validate the following:
 
     
 
-    | Query Type                                  | Supported Command List Types |
-    |---------------------------------------------|------------------------------|
-    | D3D12\_QUERY\_TYPE\_OCCLUSION               | Direct                       |
-    | D3D12\_QUERY\_TYPE\_BINARY\_OCCLUSION       | Direct                       |
-    | D3D12\_QUERY\_TYPE\_TIMESTAMP               | Direct and Compute           |
-    | D3D12\_QUERY\_TYPE\_PIPELINE\_STATISTICS    | Direct                       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM0 | Direct                       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM1 | Direct                       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM2 | Direct                       |
-    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM3 | Direct                       |
+    | Query Type                                  | Supported Command List Types         |
+    |---------------------------------------------|--------------------------------------|
+    | D3D12\_QUERY\_TYPE\_OCCLUSION               | Direct                               |
+    | D3D12\_QUERY\_TYPE\_BINARY\_OCCLUSION       | Direct                               |
+    | D3D12\_QUERY\_TYPE\_TIMESTAMP               | Direct, Compute, and optionally Copy |
+    | D3D12\_QUERY\_TYPE\_PIPELINE\_STATISTICS    | Direct                               |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM0 | Direct                               |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM1 | Direct                               |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM2 | Direct                               |
+    | D3D12\_QUERY\_TYPE\_SO\_STATISTICS\_STREAM3 | Direct                               |
 
     
 
@@ -97,22 +97,9 @@ The core runtime will validate the following:
 
 ## Extracting data from a query
 
-The way to extract data from a query is to use the [**ResolveQueryData**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata) method. **ResolveQueryData** works with all heap types (default, upload, and readback).
+The way to extract data from a query is to use the [**ResolveQueryData**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata) method. **ResolveQueryData** works with all memory types (whether they are system memory or device local memory), but requires the destination resource to be in [**D3D12_RESOURCE_STATE_COPY_DEST**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states). 
 
 ## Related topics
 
-<dl> <dt>
-
-[Counters and Queries](counters-and-queries.md)
-</dt> <dt>
-
-[Predication queries walk-through](predication-queries.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Counters and Queries](counters-and-queries.md)
+* [Predication queries walk-through](predication-queries.md)

@@ -2,7 +2,6 @@
 title: Copying Descriptors
 description: The ID3D12Device CopyDescriptors and ID3D12Device CopyDescriptorsSimple methods on the device interface use the CPU to immediately copy descriptors.
 ms.assetid: 65AE4D96-6221-46B5-BF55-F86479FCF97C
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

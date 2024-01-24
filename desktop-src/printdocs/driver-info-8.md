@@ -1,5 +1,5 @@
 ---
-Description: Contains printer driver information.
+description: Contains printer driver information.
 ms.assetid: 6237def2-ffd4-4d93-b3a4-56f225793457
 title: DRIVER_INFO_8 structure (Winspool.h)
 ms.topic: reference
@@ -263,7 +263,7 @@ The strings for these members are contained in the .inf file that is used to add
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

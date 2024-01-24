@@ -1,5 +1,5 @@
 ---
-Description: Manages the capabilities of the CIM\_ResourcePoolConfigurationService instance for a CIM\_ResourcePool object.
+description: Manages the capabilities of the CIM\_ResourcePoolConfigurationService instance for a CIM\_ResourcePool object.
 ms.assetid: bd2eb4da-8ecd-4adb-b657-837c8da4dcdc
 title: CIM_ResourcePoolConfigurationCapabilities class
 ms.topic: reference
@@ -190,7 +190,7 @@ The methods of the configuration service that are supported for synchronous oper
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

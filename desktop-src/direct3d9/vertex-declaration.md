@@ -1,5 +1,5 @@
 ---
-Description: A vertex declaration defines the vertex buffer layout and programs the tessellation engine.
+description: A vertex declaration defines the vertex buffer layout and programs the tessellation engine.
 ms.assetid: 09dae498-3b33-4c33-bc7e-47f2bf784e4c
 title: Vertex Declaration (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.
+description: The IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.
 ms.assetid: 8b4e32cc-5eeb-4a0d-a1b7-f6edb99ed8d8
 title: IsValidDevmode function (Winspool.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -22,7 +22,7 @@ Used to uniquely identify each Microsoft Exchange Server directory in the organi
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Invocation-Id                                         |
 | Ldap-Display-Name | invocationId                                          |
@@ -49,7 +49,7 @@ Used to uniquely identify each Microsoft Exchange Server directory in the organi
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | 0x80BF                                   |
@@ -70,7 +70,7 @@ Used to uniquely identify each Microsoft Exchange Server directory in the organi
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | 0x80BF                                   |
@@ -91,7 +91,7 @@ Used to uniquely identify each Microsoft Exchange Server directory in the organi
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | 0x80BF                                   |
@@ -112,7 +112,7 @@ Used to uniquely identify each Microsoft Exchange Server directory in the organi
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | 0x80BF                                   |
@@ -133,7 +133,7 @@ Used to uniquely identify each Microsoft Exchange Server directory in the organi
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | 0x80BF                                   |
@@ -154,7 +154,7 @@ Used to uniquely identify each Microsoft Exchange Server directory in the organi
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | 0x80BF                                   |
@@ -175,7 +175,7 @@ Used to uniquely identify each Microsoft Exchange Server directory in the organi
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | 0x80BF                                   |

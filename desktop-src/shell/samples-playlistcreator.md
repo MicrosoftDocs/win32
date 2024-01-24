@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to create a verb that operates on a selected Shell item or container to create a playlist.
+description: Demonstrates how to create a verb that operates on a selected Shell item or container to create a playlist.
 title: Playlist Creator Sample
 ms.topic: article
 ms.date: 05/31/2018
@@ -60,7 +60,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 2.  Double-click the icon for the PlaylistCreator.sln file to open the project in Visual Studio.
 3.  From the **Build** menu, select **Build Solution**.
     > [!Note]  
-    > If you are compiling 64-bit using the Visual C++ Express Edition, you must to use the x64 cross-compiler supplied with the Windows SDK.
+    > If you are compiling 64-bit using the Visual C++ Express Edition, you must use the x64 cross-compiler supplied with the Windows SDK.
 
      
 

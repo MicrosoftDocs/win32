@@ -23,7 +23,6 @@ This topic demonstrates how to process a [DTN\_WMKEYDOWN](dtn-wmkeydown.md) noti
 
 ## Instructions
 
-### 
 
 Date and time picker (DTP) controls send the [DTN\_WMKEYDOWN](dtn-wmkeydown.md) message to report that the user has typed input in a callback field. If you want to emulate the same keyboard responses that are supported for standard DTP fields or provide custom responses, your application must include code to handle this notification.
 
@@ -31,7 +30,6 @@ The following C++ code example is an application-defined function that processes
 
 **Security Warning:** Using **lstrcmp** incorrectly can compromise the security of your application. For example, before calling **lstrcmp** in the following code example, you should make sure the two strings are null-terminated. You should review [Security Considerations: Microsoft Windows Controls](sec-comctls.md) before continuing.
 
-## 
 
 
 ```C++

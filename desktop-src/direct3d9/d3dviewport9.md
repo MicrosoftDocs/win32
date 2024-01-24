@@ -1,5 +1,5 @@
 ---
-Description: Defines the window dimensions of a render-target surface onto which a 3D volume projects.
+description: Defines the window dimensions of a render-target surface onto which a 3D volume projects.
 ms.assetid: fb2c6048-f837-497d-8e4f-e18942d37899
 title: D3DVIEWPORT9 structure (D3D9Types.h)
 ms.topic: reference
@@ -115,7 +115,7 @@ When the viewport parameters for a device change (because of a call to the [**Se
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

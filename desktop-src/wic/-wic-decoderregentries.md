@@ -1,5 +1,5 @@
 ---
-Description: Decoder-Specific Registry Entries
+description: Decoder-Specific Registry Entries
 ms.assetid: 64ef260a-ed7f-4253-a644-bd3352b0ee41
 title: Decoder-Specific Registry Entries
 ms.topic: article
@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Decoder-Specific Registry Entries
 
-## 
 
 In addition to the registry entries required for all encoders and decoders, the following registry entries are required specifically for decoders.
 

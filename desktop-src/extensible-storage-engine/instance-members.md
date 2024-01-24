@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance members"
 title: Instance members
 TOCTitle: Instance members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Instance
@@ -13,9 +14,9 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-A class that encapsulates a [JET_INSTANCE](hh564593\(v=exchg.10\).md) in a disposable object. The instance must be closed last and closing the instance releases all other resources for the instance.
+A class that encapsulates a [JET_INSTANCE](./jet-instance-structure.md) in a disposable object. The instance must be closed last and closing the instance releases all other resources for the instance.
 
-The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
+The [Instance](./instance-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -216,7 +217,7 @@ Top
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
-<td><a href="dn350950(v=exchg.10).md">Implicit(Instance to JET_INSTANCE)</a></td>
+<td><a href="/windows/win32/extensible-storage-engine/instance-implicit-conversion-instance-to-jet-instance">Implicit(Instance to JET_INSTANCE)</a></td>
 <td>Provide implicit conversion of an Instance object to a JET_INSTANCE structure. This is done so that an Instance can be used anywhere a JET_INSTANCE is required.</td>
 </tr>
 </tbody>
@@ -251,6 +252,6 @@ Top
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

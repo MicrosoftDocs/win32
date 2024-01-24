@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_JobDestination class represents where a job is submitted for processing.
+description: The CIM\_JobDestination class represents where a job is submitted for processing.
 ms.assetid: ad2a037d-a5d3-4422-972d-8ef10699bb60
 ms.tgt_platform: multiple
 title: CIM_JobDestination class
@@ -304,7 +304,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

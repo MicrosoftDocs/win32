@@ -1,5 +1,5 @@
 ---
-Description: Gets a 128-bit, cryptographically secure random number from a protected output object.
+description: Gets a 128-bit, cryptographically secure random number from a protected output object.
 ms.assetid: d5adfa5c-ae61-43d5-916d-05085abea38b
 title: GetOPMRandomNumber function
 ms.topic: reference
@@ -66,7 +66,7 @@ This function has no associated import library. To call this function, you must 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

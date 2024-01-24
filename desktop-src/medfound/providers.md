@@ -1,5 +1,5 @@
 ---
-Description: Contains a list of trace providers for MFTrace.
+description: Contains a list of trace providers for MFTrace.
 ms.assetid: ee483f0a-5a90-4150-ada4-0b63ae312523
 title: providers element
 ms.topic: reference
@@ -48,13 +48,14 @@ There are no parent elements.
 
 ## Element information
 
-
-
-|              |     |
-|--------------|-----|
-| Can be empty | Yes |
-
-
+:::row:::
+    :::column:::
+        Can be empty
+    :::column-end:::
+    :::column span="2":::
+        Yes
+    :::column-end:::
+:::row-end:::
 
 ## See also
 

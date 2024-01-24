@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_TapeDrive class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_TapeDrive class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 73f98d08-49da-4b21-91c4-cbe420c648e4
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_TapeDrive class
@@ -106,7 +106,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

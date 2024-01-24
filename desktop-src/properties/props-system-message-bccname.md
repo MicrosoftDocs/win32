@@ -1,5 +1,5 @@
 ---
-Description: 'The names of people in the Bcc: field.'
+description: 'The names of people in the Bcc: field.'
 ms.assetid: ad888d32-956d-45c1-a73d-4799cc3ed320
 title: System.Message.BccName
 ms.topic: article

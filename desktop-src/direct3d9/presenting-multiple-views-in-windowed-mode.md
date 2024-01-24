@@ -1,5 +1,5 @@
 ---
-Description: In addition to the swap chain that is owned and manipulated through the IDirect3DDevice9 interface, an application can create additional swap chains in order to present multiple views from the same device.
+description: In addition to the swap chain that is owned and manipulated through the IDirect3DDevice9 interface, an application can create additional swap chains in order to present multiple views from the same device.
 ms.assetid: 4fc09b9c-7adb-4f5d-80e0-2d39bc10420e
 title: Presenting Multiple Views in Windowed Mode (Direct3D 9)
 ms.topic: article

@@ -43,7 +43,7 @@ For an example, see the [How to Clip with an Axis-Aligned Clip Rectangle](how-to
 
 
 
-|                    |                                                                                                       |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1\_1.h (include D2d1.h)</dt> </dl> |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl>                   |

@@ -51,7 +51,7 @@ Returns one of these values:
 
 
 
-|                 |                                                                                            |
+| Requirement | Value |
 |-----------------|--------------------------------------------------------------------------------------------|
 | DRVCNF\_OK      | The installation is successful; no further action is required.                             |
 | DRVCNF\_CANCEL  | The installation failed..                                                                  |
@@ -71,7 +71,7 @@ Some installable drivers append configuration information to the value assigned 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: MTP Extension Formats
+description: MTP Extension Formats
 ms.assetid: 318b7267-f4ba-43ad-aa24-8cfacf056558
 title: MTP Extension Formats
 ms.topic: article

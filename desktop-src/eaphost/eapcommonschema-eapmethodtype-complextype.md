@@ -68,7 +68,7 @@ The [**AuthorId**](eapcommonschema-authorid-eapmethodtype-element.md), [**Type**
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

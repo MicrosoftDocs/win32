@@ -1,5 +1,5 @@
 ---
-Description: Installing new functionality into memory can improve performance. CryptoAPI functions search memory for the functionality before searching the registry for the DLL. The DLL must be loaded before installing the functionality.
+description: Installing new functionality into memory can improve performance. CryptoAPI functions search memory for the functionality before searching the registry for the DLL. The DLL must be loaded before installing the functionality.
 ms.assetid: f6e5fc6a-a186-4648-af63-0555307f53d8
 title: Installing the New Functionality
 ms.topic: article

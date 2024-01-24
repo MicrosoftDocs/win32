@@ -1,5 +1,5 @@
 ---
-Description: Returns an interface for enumerating subtypes of the types currently registered in the protected database.
+description: Returns an interface for enumerating subtypes of the types currently registered in the protected database.
 ms.assetid: 07cc43ce-2191-4b20-b23d-d96d15aa8dea
 title: IPStore::EnumSubtypes method (Pstore.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ The return value is an **HRESULT** value. A value of **PST\_E\_OK** indicates th
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

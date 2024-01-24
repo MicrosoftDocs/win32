@@ -1,5 +1,5 @@
 ---
-Description: The Terminate&\#32;WMI class method terminates a process and all of its threads.
+description: The Terminate&\#32;WMI class method terminates a process and all of its threads.
 ms.assetid: 6c6b27d4-cf9b-42d7-9136-42641ea56ee8
 ms.tgt_platform: multiple
 title: Terminate method of the Win32_Process class
@@ -111,8 +111,6 @@ objLoc.Security_.privileges.addasstring "sedebugprivilege", true
 For more information about enabling this privilege in C++, see [Enabling and Disabling Privileges in C++](/windows/desktop/SecAuthZ/enabling-and-disabling-privileges-in-c--).
 
 ## Examples
-
-The [Terminate running process on multiple servers](https://Gallery.TechNet.Microsoft.Com/698c2512-2bbd-40ee-b3bf-a9cebdad2faf) PowerShell code sample on TechNet Gallery terminates a process running on a single or multiple computers.
 
 The following VBScript sample terminates the process in which the application Diagnose.exe is currently running.
 
@@ -383,7 +381,7 @@ int main(int iArgCnt, char ** argv)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

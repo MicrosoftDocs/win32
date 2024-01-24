@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableDuplicateException properties"
 title: EsentTableDuplicateException properties
 TOCTitle: EsentTableDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTableDuplicateException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTableDuplicateException](dn334948\(v=exchg.10\).md) type exposes the following members.
+The [EsentTableDuplicateException](./esenttableduplicateexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentTableDuplicateException class](dn334948\(v=exchg.10\).md)
+[EsentTableDuplicateException class](./esenttableduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

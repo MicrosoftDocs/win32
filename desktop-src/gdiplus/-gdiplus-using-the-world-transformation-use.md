@@ -1,5 +1,5 @@
 ---
-Description: The world transformation is a property of the Graphics class.
+description: The world transformation is a property of the Graphics class.
 ms.assetid: 22f43b29-ea7b-4faf-9795-2242bf704ed3
 title: Using the World Transformation
 ms.topic: article

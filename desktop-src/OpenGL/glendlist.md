@@ -1,6 +1,6 @@
 ---
 title: glEndList function (Gl.h)
-description: The glNewList and glEndList functions create or replace a display list.
+description: The glNewList and glEndList functions create or replace a display list. | glEndList function (Gl.h)
 ms.assetid: dd749932-7b3c-47e5-8d91-90d272a7dc41
 keywords:
 - glEndList function OpenGL
@@ -49,18 +49,6 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 
 
-## Error codes
-
-The following error code can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                                       |
-|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | **glEndList** was called without a preceding **glNewList**, or if **glnewlist** was called while a display list was being defined.<br/> |
-
-
-
 ## Remarks
 
 Display lists are groups of OpenGL commands that have been stored for subsequent execution. The display lists are created with [**glNewList**](glnewlist.md). All subsequent commands are placed in the display list, in the order issued, until **glEndList** is called.
@@ -83,7 +71,7 @@ The following function retrieves information related to [**glNewList**](glnewlis
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

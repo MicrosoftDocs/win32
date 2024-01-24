@@ -1,5 +1,5 @@
 ---
-Description: Export setting data to be passed in to the ExportSnapshot method of Msvm\_CollectionSnapshotService class.
+description: Export setting data to be passed in to the ExportSnapshot method of Msvm\_CollectionSnapshotService class.
 ms.assetid: 03b448ed-72bc-485e-bb31-4445c53baa1c
 title: Msvm_CollectionSnapshotExportSettingData class
 ms.topic: reference
@@ -115,7 +115,7 @@ Base for differential export. This is either path to an [**Msvm\_ReferencePointC
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt32ColumnValue methods"
 title: UInt32ColumnValue methods
 TOCTitle: UInt32ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.UInt32ColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [UInt32ColumnValue](dn351251\(v=exchg.10\).md) type exposes the following members.
+The [UInt32ColumnValue](./uint32columnvalue-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[UInt32ColumnValue class](dn351251\(v=exchg.10\).md)
+[UInt32ColumnValue class](./uint32columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

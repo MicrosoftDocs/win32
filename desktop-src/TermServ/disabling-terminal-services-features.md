@@ -16,6 +16,7 @@ For enhanced security, you might choose to disable Remote Desktop Services featu
 1.  Edit the registry of the client computer and add the following keys:
 
     -   **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Terminal Server\\DisableClipboardRedirection**
+    -   **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Terminal Server\\DisableDriveRedirection**
     -   **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Terminal Server\\DisablePrinterRedirection**
 
 2.  Set the value of both keys to **REG\_DWORD** 1.

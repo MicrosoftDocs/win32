@@ -1,5 +1,5 @@
 ---
-Description: The TUISPIDLL\_OBJECT is defined below.
+description: The TUISPIDLL\_OBJECT is defined below.
 ms.assetid: bc0f876d-2443-4c3c-b723-3f82dc6bf849
 title: TUISPIDLL_OBJECT_ (Tspi.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tspi.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Local Partitions
+description: Local Partitions
 ms.assetid: 629c4915-00b8-46da-b52a-2d274056eb6c
 title: Local Partitions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_MagnetoOpticalDrive class requests a reset of the logical device.
+description: The Reset method of the CIM\_MagnetoOpticalDrive class requests a reset of the logical device.
 ms.assetid: a2a9d58a-2c20-4edc-8700-eebc7e5826f9
 ms.tgt_platform: multiple
 title: Reset method of the CIM_MagnetoOpticalDrive class
@@ -52,7 +52,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

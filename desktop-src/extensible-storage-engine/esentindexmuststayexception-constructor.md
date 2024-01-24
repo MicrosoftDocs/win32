@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexMustStayException constructor"
 title: EsentIndexMustStayException constructor 
 TOCTitle: 'EsentIndexMustStayException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexMustStayException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexMustStayException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentIndexMustStayException()
 
 #### Reference
 
-[EsentIndexMustStayException class](dn319399\(v=exchg.10\).md)
+[EsentIndexMustStayException class](./esentindexmuststayexception-class.md)
 
-[EsentIndexMustStayException members](dn350454\(v=exchg.10\).md)
+[EsentIndexMustStayException members](./esentindexmuststayexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

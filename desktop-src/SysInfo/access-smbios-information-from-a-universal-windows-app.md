@@ -1,5 +1,5 @@
 ---
-Description: How to access System Management BIOS (SMBIOS) information from a Universal Windows app.
+description: How to access System Management BIOS (SMBIOS) information from a Universal Windows app.
 ms.assetid: 4D185319-C093-4B1B-A182-E845E72FEA5D
 title: Access SMBIOS information from a Universal Windows App
 ms.topic: article
@@ -40,7 +40,7 @@ To declare the **smbios** restricted capability in the app manifest, add the **r
 
 <dl> <dt>
 
-[Special and restricted capabilities](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities)
+[Restricted capabilities](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities)
 </dt> <dt>
 
 [GetSystemFirmwareTable](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable)

@@ -1,5 +1,5 @@
 ---
-Description: The InParameters property of the SWbemMethod object is an SWbemObject object whose properties define the input parameters for this method.
+description: The InParameters property of the SWbemMethod object is an SWbemObject object whose properties define the input parameters for this method.
 ms.assetid: fba1bb97-29f9-41d3-8ecc-f283989118c1
 ms.tgt_platform: multiple
 title: SWbemMethod.InParameters property (Wbemdisp.h)
@@ -45,7 +45,7 @@ For more information, see [Constructing InParameters Objects and Parsing OutPara
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

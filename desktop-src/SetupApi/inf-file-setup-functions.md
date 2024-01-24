@@ -1,5 +1,5 @@
 ---
-Description: The following Setup API functions are used with INF Files.
+description: The following Setup API functions are used with INF Files.
 ms.assetid: fb4263fc-5f59-460a-a7d9-93f10729c02a
 title: INF File Setup Functions
 ms.topic: article

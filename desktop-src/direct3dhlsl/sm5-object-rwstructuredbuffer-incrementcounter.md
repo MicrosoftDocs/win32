@@ -50,20 +50,6 @@ This function is supported for the following types of shaders:
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
-
-
- 
-
-## Requirements
-
-
-
-|                   |                                                                                       |
-|-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Httpserv.h</dt> </dl> |
-
-
-
 ## See also
 
 <dl> <dt>

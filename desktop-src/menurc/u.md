@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# U
+# U (Menus and Other Resources)
 
 [A](a.md) [B](b.md) [C](c.md) D [E](e.md) [F](f.md) G H [I](i.md) J K L M [N](n.md) [O](o.md) P Q [R](r.md) S [T](t.md) U [V](v.md) [W](w.md) X Y Z
 
@@ -44,7 +44,7 @@ A statement contained information with a format or size different from the expec
 <span id="tools.u_5_gly"></span><span id="TOOLS.U_5_GLY"></span>**Unknown DIB header format**
 </dt> <dd>
 
-The device-independent bitmap (DIB) header is not a [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader) or [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85)) structure.
+The device-independent bitmap (DIB) header is not a [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader) or [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) structure.
 
 </dd> <dt>
 

@@ -1,5 +1,5 @@
 ---
-Description: Lists the examples for writing SSPI server and client applications.
+description: Lists the examples for writing SSPI server and client applications.
 ms.assetid: edd5c6ad-7103-4486-bd11-16ff02b68be4
 title: Sample SSPI Code
 ms.topic: article

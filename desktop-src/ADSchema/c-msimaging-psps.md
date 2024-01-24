@@ -22,7 +22,7 @@ Container for all Enterprise Scan Post Scan Process objects.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Imaging-PSPs                      |
 | Ldap-Display-Name | msImaging-PSPs                       |
@@ -43,7 +43,7 @@ Container for all Enterprise Scan Post Scan Process objects.
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -192,7 +192,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |

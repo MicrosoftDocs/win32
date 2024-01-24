@@ -1,5 +1,5 @@
 ---
-Description: Virtualization WMI classes related to the virtual machine.
+description: Virtualization WMI classes related to the virtual machine.
 ms.assetid: 1BD64741-C316-4E74-B0AB-4E595C77FD91
 title: Virtual system classes
 ms.topic: reference

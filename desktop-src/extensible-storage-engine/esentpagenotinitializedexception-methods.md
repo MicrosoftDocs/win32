@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageNotInitializedException methods"
 title: EsentPageNotInitializedException methods
 TOCTitle: EsentPageNotInitializedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentPageNotInitializedException](dn319771\(v=exchg.10\).md) type exposes the following members.
+The [EsentPageNotInitializedException](./esentpagenotinitializedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentPageNotInitializedException class](dn319771\(v=exchg.10\).md)
+[EsentPageNotInitializedException class](./esentpagenotinitializedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

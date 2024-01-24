@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all HTTP response headers.
+description: Retrieves all HTTP response headers.
 ms.assetid: 68b13d4c-5afd-486d-8b78-a7eef0f59a24
 title: IWinHttpRequest::GetAllResponseHeaders method
 ms.topic: reference
@@ -172,7 +172,7 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

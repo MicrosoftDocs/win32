@@ -1,5 +1,5 @@
 ---
-Description: The Winternl.h header file exposes prototypes of internal Windows APIs. There is no associated import library, so developers must use run-time dynamic linking to call the functions described in this header file.
+description: The Winternl.h header file exposes prototypes of internal Windows APIs. There is no associated import library, so developers must use run-time dynamic linking to call the functions described in this header file.
 ms.assetid: 11f09479-e04b-4e5e-bc46-a2d0daf13785
 title: Calling Internal APIs
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Side-by-Side Assembly API installs, removes, or queries side-by-side assemblies from the systems side-by-side assembly store.
+description: The Side-by-Side Assembly API installs, removes, or queries side-by-side assemblies from the systems side-by-side assembly store.
 ms.assetid: 70c1cdc4-7e8c-4d13-b371-c085f6c6eafe
 title: Side-by-Side Assembly API
 ms.topic: article

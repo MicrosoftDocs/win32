@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOperationException methods"
 title: EsentInvalidOperationException methods
 TOCTitle: EsentInvalidOperationException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidOperationException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidOperationException](dn319571\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidOperationException](./esentinvalidoperationexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidOperationException class](dn319571\(v=exchg.10\).md)
+[EsentInvalidOperationException class](./esentinvalidoperationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

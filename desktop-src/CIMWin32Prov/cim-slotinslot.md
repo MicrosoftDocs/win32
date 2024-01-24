@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SlotInSlot relationship represents the ability of a special adapter to extend the existing slot structure to enable otherwise incompatible cards to be plugged into a frame or hosting board.
+description: The CIM\_SlotInSlot relationship represents the ability of a special adapter to extend the existing slot structure to enable otherwise incompatible cards to be plugged into a frame or hosting board.
 ms.assetid: 688231de-49fd-415d-b2c8-ef0dd4dcaee4
 ms.tgt_platform: multiple
 title: CIM_SlotInSlot class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

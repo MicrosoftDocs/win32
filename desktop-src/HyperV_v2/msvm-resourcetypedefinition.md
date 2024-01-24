@@ -1,5 +1,5 @@
 ---
-Description: Defines a mapping of a resource type to its implementation classes.
+description: Defines a mapping of a resource type to its implementation classes.
 ms.assetid: 0911454D-2494-49D5-8480-212E9ADD1B45
 title: Msvm_ResourceTypeDefinition class
 ms.topic: reference
@@ -228,7 +228,7 @@ Access to the **Msvm\_ResourceTypeDefinition** class might be restricted by UAC 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

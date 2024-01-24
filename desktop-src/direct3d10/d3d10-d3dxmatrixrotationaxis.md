@@ -1,22 +1,25 @@
 ---
-Description: Builds a matrix that rotates around an arbitrary axis.
+description: D3DXMatrixRotationAxis function (D3DX10Math.h) - Builds a matrix that rotates around an arbitrary axis.
 ms.assetid: dc4b8b3f-e1d2-475f-9dcb-622ada9fae6b
 title: D3DXMatrixRotationAxis function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixRotationAxis
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixRotationAxis function
+# D3DXMatrixRotationAxis function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a matrix that rotates around an arbitrary axis.
 
@@ -78,7 +81,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: Get the number of vertex buffers in the mesh.
+description: Get the number of vertex buffers in the mesh.
 ms.assetid: 22e6cf53-9347-4570-86a1-09d06bfdf592
 title: ID3DX10Mesh::GetVertexBufferCount method (D3DX10.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The number of vertex buffers in the mesh.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

@@ -46,7 +46,7 @@ Clients are generally in good shape. Their outgoing Transmission Control Protoco
 
 The Internet Connection Firewall (ICF) in Windows XP and Windows Server 2003 is a stateful packet filter, and handles both Internet Protocol, version 4 (IPv4) and Internet Protocol, version 6 (IPv6). However, it is not on by default and does not support 3rd party network stacks, of which there are a significant number in the world, such as large internet providers including national telephone companies.
 
-For those not on Windows XP SP2, turning on the ICF is highly recommended. See the instructions "Use an Internet Firewall" on https://www.microsoft.com/security/protect as the first step to securing your PC. The Internet Connection Firewall (ICF) provides port mapping to override the packet filter. Essentially, you specify the port to open and it remains opened until you close it. If the user reboots before it is closed, it will remain open until specifically closed. The control of the firewall and the management of the port mappings is done via [**INetSharingManager**](/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager) (IPv4) and [**INetFwV6Mgr**](/previous-versions/windows/desktop/ics/inetfwv6mgr) (IPv6).
+For those not on Windows XP SP2, turning on the ICF is highly recommended. The Internet Connection Firewall (ICF) provides port mapping to override the packet filter. Essentially, you specify the port to open and it remains opened until you close it. If the user reboots before it is closed, it will remain open until specifically closed. The control of the firewall and the management of the port mappings is done via [**INetSharingManager**](/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager) (IPv4) and [**INetFwV6Mgr**](/previous-versions/windows/desktop/ics/inetfwv6mgr) (IPv6).
 
 The Windows Firewall for Windows XP SP2 is a more comprehensive solution that does support 3rd party network stacks, and handles ports more intelligently: ports are kept open only so long as the application that needs them is still active.
 
@@ -94,10 +94,10 @@ Again, most games only need to be added to the firewall exception list if they c
 
 
 
-|             |                                                                              |
+|             | File                                                                             |
 |-------------|------------------------------------------------------------------------------|
-| Source:     | (SDK root)\\Samples\\C++\\Misc\\FirewallInstallHelper                        |
-| Executable: | (SDK root)\\Samples\\C++\\Misc\\Bin\\<arch>\\FirewallInstallHelper.dll |
+| **Source:**     | (SDK root)\\Samples\\C++\\Misc\\FirewallInstallHelper                        |
+| **Executable:** | (SDK root)\\Samples\\C++\\Misc\\Bin\\&lt;arch&gt;\\FirewallInstallHelper.dll |
 
 
 
@@ -189,37 +189,37 @@ An alternate method of using the Firewall APIs is to add the function calls to a
     2.  Click on the InstallScript file (usually setup.rul) to open it in the editor
     3.  Paste the following code into the InstallScript file:
 
-        ``` syntax
-#include "ifx.h"
+    ``` syntax
+    #include "ifx.h"
 
-        prototype BOOL FirewallInstallHelper.AddApplicationToExceptionListW( WSTRING, WSTRING );
-        prototype BOOL FirewallInstallHelper.RemoveApplicationFromExceptionListW( WSTRING );
+    prototype BOOL FirewallInstallHelper.AddApplicationToExceptionListW( WSTRING, WSTRING );
+    prototype BOOL FirewallInstallHelper.RemoveApplicationFromExceptionListW( WSTRING );
 
-        function OnMoved()
-            WSTRING path[256];
-        begin
-            // The DLL has been installed into the TARGETDIR
-            if !MAINTENANCE then // TRUE when installing
-                UseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
-                path = TARGETDIR ^ "TODO: change to relative path to executable from install directory";
-                FirewallInstallHelper.AddApplicationToExceptionListW( path, "TODO: change to friendly app name" );
-                UnUseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
-            endif;
-        end;
-              
+    function OnMoved()
+        WSTRING path[256];
+    begin
+        // The DLL has been installed into the TARGETDIR
+        if !MAINTENANCE then // TRUE when installing
+            UseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
+            path = TARGETDIR ^ "TODO: change to relative path to executable from install directory";
+            FirewallInstallHelper.AddApplicationToExceptionListW( path, "TODO: change to friendly app name" );
+            UnUseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
+        endif;
+    end;
+          
 
-        function OnMoving()
-            WSTRING path[256];
-        begin
-            // The DLL is about to be removed from TARGETDIR
-            if MAINTENANCE && UNINST != "" then // TRUE when uninstalling
-                UseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
-                path = TARGETDIR ^ "TODO: change to relative path to executable from install directory";
-                FirewallInstallHelper.RemoveApplicationFromExceptionListW( path );
-                UnUseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
-            endif;
-        end;
-        ```
+    function OnMoving()
+        WSTRING path[256];
+    begin
+        // The DLL is about to be removed from TARGETDIR
+        if MAINTENANCE && UNINST != "" then // TRUE when uninstalling
+            UseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
+            path = TARGETDIR ^ "TODO: change to relative path to executable from install directory";
+            FirewallInstallHelper.RemoveApplicationFromExceptionListW( path );
+            UnUseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
+        endif;
+    end;
+    ```
 
     4.  Change the TODO comments with the application name that will be shown in the Firewall Exception List and the path to the game executable relative to the installation directory.
 

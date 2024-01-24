@@ -1,5 +1,5 @@
 ---
-Description: Specifies the x-coordinate of the upper-left corner of the minimum display aperture.
+description: Specifies the x-coordinate of the upper-left corner of the minimum display aperture.
 ms.assetid: eb9e5330-fd89-4bca-ae8c-62985f9b2373
 title: MFPKEY_RESIZE_MINAPX Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The value is a fixed-point real number. The integer portion of the number is sto
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

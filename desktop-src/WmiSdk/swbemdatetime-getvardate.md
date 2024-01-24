@@ -1,5 +1,5 @@
 ---
-Description: Converts a date and time value in the CIM DATETIME format to the VT\_DATE format.
+description: Converts a date and time value in the CIM DATETIME format to the VT\_DATE format.
 ms.assetid: e63e7acc-89d4-458a-a1ab-4d4a65cf7f8b
 ms.tgt_platform: multiple
 title: SWbemDateTime.GetVarDate method (Wbemdisp.h)
@@ -83,7 +83,7 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

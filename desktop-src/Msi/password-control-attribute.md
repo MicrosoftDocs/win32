@@ -1,5 +1,5 @@
 ---
-Description: This attribute creates an edit control for entering passwords. The control displays each character as an asterisk (\*) as they are typed into the control.
+description: This attribute creates an edit control for entering passwords. The control displays each character as an asterisk (\*) as they are typed into the control.
 ms.assetid: 65489f19-2b9d-48c7-80fa-e2c4be2a0cc3
 title: Password Control Attribute
 ms.topic: article

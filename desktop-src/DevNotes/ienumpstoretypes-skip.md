@@ -1,5 +1,5 @@
 ---
-Description: Skips over the next specified number of items in the enumeration sequence.
+description: IEnumPStoreTypes::Skip method - Skips over the next specified number of items in the enumeration sequence.
 ms.assetid: 4c02aac8-0496-4ad9-9863-2074b2c71902
 title: IEnumPStoreTypes::Skip method (Pstore.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The return value is an **HRESULT** value.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

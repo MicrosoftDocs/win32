@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Parameters property"
 title: Instance.Parameters property 
 TOCTitle: 'Parameters property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Instance.Parameters
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the InstanceParameters for this instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,15 +54,14 @@ public InstanceParameters Parameters { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.InstanceParameters](dn350942\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.InstanceParameters](./instanceparameters-class.md)  
 
 ## See also
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Instance members](dn350944\(v=exchg.10\).md)
+[Instance members](./instance-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -22,7 +22,7 @@ Filter string that contains extensions of file types not to be compressed.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFSR-DefaultCompressionExclusionFilter   |
 | Ldap-Display-Name | msDFSR-DefaultCompressionExclusionFilter    |
@@ -45,7 +45,7 @@ Filter string that contains extensions of file types not to be compressed.
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
@@ -66,7 +66,7 @@ Filter string that contains extensions of file types not to be compressed.
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
@@ -87,7 +87,7 @@ Filter string that contains extensions of file types not to be compressed.
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |

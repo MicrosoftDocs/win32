@@ -1,5 +1,5 @@
 ---
-Description: Implements the IInkAnalyzer interface.
+description: Implements the IInkAnalyzer interface.
 ms.assetid: 'f17de375-a0fe-4024-bf2a-60f8de8b0345'
 title: InkAnalyzer class (IACom.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ This class implements the [**IInkAnalyzer**](iinkanalyzer.md) COM interface.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

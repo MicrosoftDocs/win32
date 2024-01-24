@@ -1,5 +1,5 @@
 ---
-Description: The Register export function must be implemented in all parser DLLs. The implementation of Register creates and fills-in a property database for a protocol. Network Monitor uses the database to determine which properties the protocol supports.
+description: The Register export function must be implemented in all parser DLLs. The implementation of Register creates and fills-in a property database for a protocol. Network Monitor uses the database to determine which properties the protocol supports.
 ms.assetid: b8a2752d-30a6-48f2-90b3-b1430ae983d2
 title: Register Parser callback function (Netmon.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If the parser DLL contains multiple parsers, and the parser can detect more than
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: Associates a logical device with the parent system.
+description: Associates a logical device with the parent system.
 ms.assetid: 2BEAAEC8-F8F2-4CC7-A209-EE3EE3C6FA90
 title: Msvm_SystemDevice class
 ms.topic: reference
@@ -83,7 +83,7 @@ Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

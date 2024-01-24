@@ -7,10 +7,13 @@ keywords:
 - MCIWndSetPalette macro
 - MCIWndRealize macro
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using MCIWnd Palettes
+
+\[The feature associated with this page, [MCIWnd Window Class](/windows/win32/multimedia/mciwnd-window-class), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCIWnd Window Class**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Playing video clips with 8-bit color depth (256-color capacity) requires a palette to define the colors being used. Sometimes, the palette included with a video clip is not the most appropriate palette to use during playback. In this case, MCIWnd provides three ways to manage palettes for playback:
 

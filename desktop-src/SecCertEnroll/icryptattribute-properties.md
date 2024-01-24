@@ -1,5 +1,5 @@
 ---
-Description: The ICryptAttribute interface exposes the following properties.
+description: The ICryptAttribute interface exposes the following properties.
 ms.assetid: 20026A6A-82DE-46F0-A903-BAAA414B4F0B
 title: ICryptAttribute Properties
 ms.topic: reference

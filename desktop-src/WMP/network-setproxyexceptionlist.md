@@ -1,6 +1,6 @@
 ---
 title: Network.setProxyExceptionList method
-description: The setProxyExceptionList method specifies the proxy exception list.
+description: The setProxyExceptionList method specifies the proxy exception list. | Network.setProxyExceptionList method
 ms.assetid: 'c9eeb058-5ffb-4405-9bf2-776f120e2db4'
 keywords:
 - setProxyExceptionList method Windows Media Player
@@ -15,10 +15,13 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Network.setProxyExceptionList method
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The **setProxyExceptionList** method specifies the proxy exception list.
 
@@ -97,7 +100,7 @@ alert("Proxy settings must be manual!");
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

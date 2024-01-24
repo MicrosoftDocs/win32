@@ -1,5 +1,5 @@
 ---
-Description: The IWiaTransferCallback interface receives callbacks during a data transfer.
+description: The IWiaTransferCallback interface receives callbacks during a data transfer.
 ms.assetid: 8fcaccf5-4d7b-4984-97ec-ec8c838a8360
 title: IWiaTransferCallback interface (Wia.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ The **IWiaTransferCallback** interface, like all Component Object Model (COM) in
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

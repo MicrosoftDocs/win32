@@ -1,5 +1,5 @@
 ---
-Description: Returns a uint32 bitmap with the access rights to the share held by the user or group on whose behalf the instance is returned.
+description: GetAccessMask method of the Win32_Share class - Returns a uint32 bitmap with the access rights to the share held by the user or group on whose behalf the instance is returned.
 ms.assetid: 234f44a4-ffff-431d-a973-98f2bd313c7d
 ms.tgt_platform: multiple
 title: GetAccessMask method of the Win32_Share class
@@ -201,7 +201,7 @@ WScript.Echo Return
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

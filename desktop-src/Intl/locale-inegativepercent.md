@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_INEGATIVEPERCENT
+description: LOCALE\_INEGATIVEPERCENT
 ms.assetid: 3518bd71-631d-48f2-b17f-b2ed41d44484
 title: LOCALE_INEGATIVEPERCENT
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This event notifies the installer that it has to verify that the selected path is writable. If the path is cannot be written, then the event blocks further ControlEvents associated with the control.
+description: This event notifies the installer that it has to verify that the selected path is writable. If the path is cannot be written, then the event blocks further ControlEvents associated with the control.
 ms.assetid: 4672e2e4-a789-4050-81b9-92ec491745ac
 title: CheckExistingTargetPath ControlEvent
 ms.topic: article

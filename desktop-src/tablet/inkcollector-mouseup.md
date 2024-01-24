@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the mouse pointer is over the InkCollector or InkOverlay object and a mouse button is released.
+description: InkCollector.MouseUp event - Occurs when the mouse pointer is over the InkCollector or InkOverlay object and a mouse button is released.
 ms.assetid: 6dcc6c68-89f7-4020-b378-56df9d46974b
 title: InkCollector.MouseUp event (Msinkaut.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

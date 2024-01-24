@@ -1,5 +1,5 @@
 ---
-Description: The DeleteAll method of the SWbemPrivilegeSet object removes all privileges from the collection, thus emptying it.
+description: The DeleteAll method of the SWbemPrivilegeSet object removes all privileges from the collection, thus emptying it.
 ms.assetid: 368caa14-1c53-4090-8569-97ea743905de
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.DeleteAll method (Wbemdisp.h)
@@ -56,7 +56,7 @@ Unspecified error.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

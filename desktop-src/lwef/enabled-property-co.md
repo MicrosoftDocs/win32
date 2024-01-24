@@ -1,12 +1,12 @@
 ---
 title: Enabled Property (Command Object)
-description: Enabled Property
+description: Learn about the Enabled Command object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: d9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enabled Property
+# Enabled Property (Command Object)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 

@@ -1,5 +1,5 @@
 ---
-Description: Returns the EKU object used to build the Chain object.
+description: Returns the EKU object used to build the Chain object.
 ms.assetid: d02f1614-6a4f-4c60-b406-ce174a99e9a5
 title: CertificateStatus.EKU method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # CertificateStatus.EKU method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509ChainStatus Structure**](/dotnet/api/system.security.cryptography.x509certificates.x509chainstatus) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **EKU** method returns the [**EKU**](eku.md) object used to build the [**Chain**](chain.md) object.
 
@@ -46,7 +46,7 @@ The [**CertificateStatus.ApplicationPolicies**](certificatestatus-applicationpol
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

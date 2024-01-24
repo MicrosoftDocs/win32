@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 1000-1299 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 1000-1299 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 0061feb6-e1a0-4fcd-8f80-954087c799d7
 title: System Error Codes (1000-1299) (WinError.h)
 ms.topic: reference
@@ -2869,7 +2869,7 @@ Indicates a particular Security ID may not be assigned as the label of an object
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

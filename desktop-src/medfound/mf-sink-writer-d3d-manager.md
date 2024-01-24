@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the DXGI Device Manager for the Sink Writer.
+description: Contains a pointer to the DXGI Device Manager for the Sink Writer.
 ms.assetid: 0328FC02-2D32-480B-BB03-9C78BF317AF5
 title: MF_SINK_WRITER_D3D_MANAGER attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ Use this attribute with the following functions:
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |

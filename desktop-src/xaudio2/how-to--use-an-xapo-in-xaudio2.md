@@ -1,5 +1,5 @@
 ---
-Description: This topic shows you how to use an effect created with the XAPO API in an XAudio2 effect chain.
+description: This topic shows you how to use an effect created with the XAPO API in an XAudio2 effect chain.
 ms.assetid: d4d24177-25eb-13ca-0e38-0c876a273e0d
 title: 'How to: Use an XAPO in XAudio2'
 ms.topic: article

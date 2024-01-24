@@ -1,5 +1,5 @@
 ---
-Description: Loads a skin mesh from a DirectX .x file data object.
+description: Loads a skin mesh from a DirectX .x file data object.
 ms.assetid: db284061-2996-4a5f-972d-24577dd1a6d7
 title: D3DXLoadSkinMeshFromXof function (D3DX9Mesh.h)
 ms.topic: reference
@@ -142,7 +142,7 @@ The default texture name is also filled in, but is handled differently. The name
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

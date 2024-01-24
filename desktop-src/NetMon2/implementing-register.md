@@ -1,5 +1,5 @@
 ---
-Description: Network Monitor loads a capture from the capture file, and then starts calling the Register function for all the protocols that it can identify. Each parser DLL must implement a Register function for each protocol that the parser DLL supports.
+description: Network Monitor loads a capture from the capture file, and then starts calling the Register function for all the protocols that it can identify. Each parser DLL must implement a Register function for each protocol that the parser DLL supports.
 ms.assetid: a53c64cb-569f-454b-ae85-7b850228c954
 title: Implementing Register
 ms.topic: article

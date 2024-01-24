@@ -1,5 +1,5 @@
 ---
-Description: The following GUIDs support Direct3D 11 Video APIs.
+description: The following GUIDs support Direct3D 11 Video APIs.
 ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: Direct3D 11 Video GUIDs (D3d11.h)
 ms.topic: article
@@ -45,7 +45,7 @@ Setting this GUID in the **guidConfigBitstreamEncryption** member of the [**D3D1
 
 
 
-|                  |                                                                                                                                                                                                                                                     |
+| Value                 | Description                                                                                                                                                                                                                                                    |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *ContentKeySize* | Contains the size of the [**D3D11\_VIDEO\_DECODER\_BEGIN\_FRAME\_CRYPTO\_SESSION**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_begin_frame_crypto_session) structure.                                                                                                  |
 | *pContentKey*    | A pointer to a [**D3D11\_VIDEO\_DECODER\_BEGIN\_FRAME\_CRYPTO\_SESSION**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_begin_frame_crypto_session) providing the [**ID3D11CryptoSession**](/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession) and the key information needed to decrypt the frame. |
@@ -61,7 +61,7 @@ Setting this GUID in the **guidConfigBitstreamEncryption** member of the [**D3D1
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

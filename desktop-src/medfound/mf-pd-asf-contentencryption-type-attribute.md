@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of protection mechanism used in an Advanced Systems Format (ASF) file.
+description: Specifies the type of protection mechanism used in an Advanced Systems Format (ASF) file.
 ms.assetid: 91ceb610-6ff4-4133-beab-6debb94eec2c
 title: MF_PD_ASF_CONTENTENCRYPTION_TYPE attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

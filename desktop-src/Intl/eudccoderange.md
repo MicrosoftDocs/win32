@@ -1,5 +1,5 @@
 ---
-Description: The EUDCCodeRange registry key defines end-user-defined character (EUDC) code ranges for various code pages (character sets).
+description: The EUDCCodeRange registry key defines end-user-defined character (EUDC) code ranges for various code pages (character sets).
 ms.assetid: 11a167a0-f2a3-4b8b-a38c-70cf14c895be
 title: EUDCCodeRange
 ms.topic: article
@@ -20,7 +20,7 @@ where:
 
 
 
-|          |                                                                                                                                                                                                          |
+| Value         | Description                                                                                                                                                                                                         |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CodePage | One of the strings "932" (Japanese), "936" (Simplified Chinese), "949" (Korean), "950" (Traditional Chinese), or "Unicode" (Unicode). No other values are supported.                                     |
 | FromTo   | String value consisting of a pair of 4-digit hexadecimal values separated by a hyphen (-). Up to four FromTo values can be specified, but each must be separated from the previous value by a comma (,). |

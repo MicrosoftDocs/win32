@@ -1,5 +1,5 @@
 ---
-Description: This topic describes optimization considerations and strategies with the DirectXMath Library.
+description: This topic describes optimization considerations and strategies with the DirectXMath Library.
 ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: Code Optimization with the DirectXMath Library
 ms.topic: article
@@ -50,7 +50,7 @@ The SIMD instruction sets on versions of windows supporting SSE2 typically have 
 
 The DirectXMath Library provides access aligned and unaligned functionality through variant vector types, structure, and functions. These variants are indicated by an "A" at the end of the name.
 
-For example, there are an unaligned [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) structure and an aligned [**XMFLOAT4X4A**](/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)) structure, which are used by the [**XMStoreFloat4**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4) and [**XMStoreFloat4A**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4a) functions respectively.
+For example, there are an unaligned [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) structure and an aligned [**XMFLOAT4X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a) structure, which are used by the [**XMStoreFloat4**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4) and [**XMStoreFloat4A**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4a) functions respectively.
 
 ## Properly Align Allocations
 
@@ -58,12 +58,12 @@ The aligned versions of the [SSE](/previous-versions/visualstudio/visual-studio-
 
 For this reason, DirectXMath operations using [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) objects assume those objects are 16-byte aligned. This is automatic for stack based allocations, if code is compiled against the DirectXMath Library using the recommended Windows (see [Use Correct Compilation Settings](#use-correct-compilation-settings)) compiler settings. However, it is important to ensure that heap-allocation containing **XMVECTOR** and **XMMATRIX** objects, or casts to these types, meet these alignment requirements.
 
-While 64-bit Windows memory allocations are 16-byte aligned, by default on 32 bit versions of Windows memory allocated is only 8-byte aligned. For information on controlling memory alignment, see [\_aligned\_malloc](https://msdn.microsoft.com/library/8z34s9c6(VS.80).aspx).
+While 64-bit Windows memory allocations are 16-byte aligned, by default on 32 bit versions of Windows memory allocated is only 8-byte aligned. For information on controlling memory alignment, see [\_aligned\_malloc](/cpp/c-runtime-library/reference/aligned-malloc).
 
 When using aligned DirectXMath types with the Standard Template Library (STL), you will need to provide a custom allocator that ensures the 16-byte alignment. See the Visual C++ Team [blog](https://devblogs.microsoft.com/cppblog/the-mallocator/) for an example of writing a custom allocator (instead of malloc/free you'll want to use \_aligned\_malloc and \_aligned\_free in your implementation).
 
 > [!Note]  
-> Some STL templates modify the provided type's alignment. For example, [make\_shared<>](/cpp/standard-library/memory-functions?view=vs-2017) adds some internal tracking information which may or may not respect the alignment of the provided user type, resulting in unaligned data members. In this case, you need to use unaligned types instead of aligned types. If you derive from existing classes, including many Windows Runtime objects, you can also modify the alignment of a class or structure.
+> Some STL templates modify the provided type's alignment. For example, [make\_shared<>](/cpp/standard-library/memory-functions?view=vs-2017&preserve-view=true) adds some internal tracking information which may or may not respect the alignment of the provided user type, resulting in unaligned data members. In this case, you need to use unaligned types instead of aligned types. If you derive from existing classes, including many Windows Runtime objects, you can also modify the alignment of a class or structure.
 
  
 
@@ -97,7 +97,7 @@ DirectXMath supports vectors of 4 single-precision floating-point or four 32-bit
 
 Because the instruction sets used to implement the DirectXMath Library have the ability to treat the same data as multiple different types-for example, treat the same vector as floating-point and integer data-certain optimizations can be achieved. You can get these optimizations by using the integer vector initialization routines and bit-wise operators to manipulate floating-point values.
 
-The binary format of single-precision floating-point numbers used by the DirectXMath Library completely conforms to the IEEE 764 standard:
+The binary format of single-precision floating-point numbers used by the DirectXMath Library completely conforms to the IEEE 754 standard:
 
 ``` syntax
      SIGN    EXPONENT   MANTISSA
@@ -105,7 +105,7 @@ The binary format of single-precision floating-point numbers used by the DirectX
      1 bit   8 bits     23 bits
 ```
 
-When working with the IEEE 764 single precision floating-point number, it is important to keep in mind, that some representations have special meaning (that is, they do not conform to the preceding description). Examples include:
+When working with the IEEE 754 single precision floating-point number, it is important to keep in mind, that some representations have special meaning (that is, they do not conform to the preceding description). Examples include:
 
 -   Positive zero is 0
 -   Negative zero is 0x80000000
@@ -136,7 +136,3 @@ A common use for DirectXMath is to perform graphics computations for use with Di
 
 [DirectXMath Programming Guide](ovw-xnamath-progguide.md)
 </dt> </dl>
-
- 
-
- 

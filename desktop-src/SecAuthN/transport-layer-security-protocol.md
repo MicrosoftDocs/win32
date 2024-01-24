@@ -1,5 +1,5 @@
 ---
-Description: Schannel supports versions 1.0, 1.1, and 1.2 of the Transport Layer Security (TLS) protocol.
+description: Schannel supports versions 1.0, 1.1, and 1.2 of the Transport Layer Security (TLS) protocol.
 ms.assetid: af541a51-fabc-4abd-ae67-268bd984ab92
 title: Transport Layer Security Protocol
 ms.topic: article
@@ -44,7 +44,7 @@ For details about the SSPI functions and SSP functions, see [Authentication Func
 
 <dl> <dt>
 
-[TLS Cipher Suites](tls-cipher-suites.md)
+[TLS Cipher Suites](/windows/win32/secauthn/cipher-suites-in-schannel)
 </dt> <dt>
 
 [TLS vs. SSL](tls-versus-ssl.md)

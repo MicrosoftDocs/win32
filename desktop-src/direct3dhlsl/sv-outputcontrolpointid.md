@@ -23,9 +23,8 @@ Defines the index of the control point ID being operated on by an invocation of 
 
 
 
-|      |
+| Type     |
 |------|
-| Type |
 | uint |
 
 
@@ -40,9 +39,8 @@ This function is supported in the following types of shaders:
 
 
 
-|        |      |        |          |       |         |
-|--------|------|--------|----------|-------|---------|
 | Vertex | Hull | Domain | Geometry | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 
 

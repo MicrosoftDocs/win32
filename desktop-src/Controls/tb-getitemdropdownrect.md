@@ -32,7 +32,7 @@ The zero-based index of the toolbar control item for which to retrieve the bound
 </dd> <dt>
 
 *lParam* \[in, out\]
-</dt> <dd>A pointer to a <a href="/previous-versions//dd162897(v=vs.85)">**RECT**</a> structure to receive the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the **RECT** structure are expressed as client coordinates.</dd> </dl>
+</dt> <dd>A pointer to a <a href="/windows/win32/api/windef/ns-windef-rect">**RECT**</a> structure to receive the bounding rectangle information. The message sender is responsible for allocating this structure. The coordinates returned in the **RECT** structure are expressed as client coordinates.</dd> </dl>
 
 ## Return value
 
@@ -46,7 +46,7 @@ The item must have the [**BTNS\_DROPDOWN**](toolbar-control-and-button-styles.md
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

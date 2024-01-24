@@ -1,5 +1,5 @@
 ---
-Description: The HANDOFFTABLE structure defines the protocols of a handoff table.
+description: The HANDOFFTABLE structure defines the protocols of a handoff table.
 ms.assetid: '6bb7465b-c1ba-4ffe-aecf-8125993c309a'
 title: HANDOFFTABLE structure (Netmon.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ The protocol information that is used when creating a handoff table is provided 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

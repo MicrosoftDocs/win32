@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInitInProgressException members"
 title: EsentInitInProgressException members
 TOCTitle: EsentInitInProgressException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInitInProgressException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InitInProgress exceptions.
 
-The [EsentInitInProgressException](dn350503\(v=exchg.10\).md) type exposes the following members.
+The [EsentInitInProgressException](./esentinitinprogressexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInitInProgressException class](dn350503\(v=exchg.10\).md)
+[EsentInitInProgressException class](./esentinitinprogressexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

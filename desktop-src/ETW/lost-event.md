@@ -1,5 +1,5 @@
 ---
-Description: This is the parent class for events lost in a real-time session. The following syntax is simplified from MOF code.
+description: This is the parent class for events lost in a real-time session. The following syntax is simplified from MOF code.
 ms.assetid: 09ffcc4d-916f-458d-91c6-a261776092d2
 title: Lost_Event class
 ms.topic: reference
@@ -37,7 +37,7 @@ The **Lost\_Event** class does not define any members.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

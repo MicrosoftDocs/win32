@@ -22,7 +22,7 @@ List of Distinguished Names of principals granted this privilege.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Privilege-Holder                        |
 | Ldap-Display-Name | privilegeHolder                         |
@@ -48,7 +48,7 @@ List of Distinguished Names of principals granted this privilege.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 70           |
 | MAPI-Id                | \-           |
@@ -69,7 +69,7 @@ List of Distinguished Names of principals granted this privilege.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 70           |
 | MAPI-Id                | \-           |
@@ -90,7 +90,7 @@ List of Distinguished Names of principals granted this privilege.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 70           |
 | MAPI-Id                | \-           |
@@ -111,7 +111,7 @@ List of Distinguished Names of principals granted this privilege.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 70           |
 | MAPI-Id                | \-           |
@@ -132,7 +132,7 @@ List of Distinguished Names of principals granted this privilege.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 70           |
 | MAPI-Id                | \-           |
@@ -153,7 +153,7 @@ List of Distinguished Names of principals granted this privilege.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 70           |
 | MAPI-Id                | \-           |

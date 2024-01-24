@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVColumnCannotDeleteException constructor"
 title: EsentSLVColumnCannotDeleteException constructor 
 TOCTitle: 'EsentSLVColumnCannotDeleteException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVColumnCannotDeleteException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVColumnCannotDeleteException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVColumnCannotDeleteException()
 
 #### Reference
 
-[EsentSLVColumnCannotDeleteException class](dn350654\(v=exchg.10\).md)
+[EsentSLVColumnCannotDeleteException class](./esentslvcolumncannotdeleteexception-class.md)
 
-[EsentSLVColumnCannotDeleteException members](dn350658\(v=exchg.10\).md)
+[EsentSLVColumnCannotDeleteException members](./esentslvcolumncannotdeleteexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

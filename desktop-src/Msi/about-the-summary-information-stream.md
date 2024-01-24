@@ -1,5 +1,5 @@
 ---
-Description: The summary information stream contains information about the package that can be viewed through Microsoft Windows Explorer.
+description: The summary information stream contains information about the package that can be viewed through Microsoft Windows Explorer.
 ms.assetid: b909955f-ddd6-4cf1-8e86-fcf89be80b41
 title: About the Summary Information Stream
 ms.topic: article

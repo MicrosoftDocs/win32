@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following illustration shows the format of an [**HRESULT**](/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a) (or SCODE); the numbers indicate bit positions:
 
-![](images/a5a947d1-7b5a-4474-afed-2a1c58fe2421.png)
+![Shows the format of an 'H RESULT' or 'S CODE' with numbers indicating bit positions.](images/a5a947d1-7b5a-4474-afed-2a1c58fe2421.png)
 
 The high-order bit in the **HRESULT** or SCODE indicates whether the return value represents success or failure. If set to 0, SEVERITY\_SUCCESS, the value indicates success. If set to 1, SEVERITY\_ERROR, it indicates failure.
 

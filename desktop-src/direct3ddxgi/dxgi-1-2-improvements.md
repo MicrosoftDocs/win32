@@ -1,5 +1,5 @@
 ---
-Description: The following functionality has been added in Microsoft DirectX Graphics Infrastructure (DXGI) 1.2.
+description: The following functionality has been added in Microsoft DirectX Graphics Infrastructure (DXGI) 1.2.
 ms.assetid: E2D8DA99-4EA2-4847-B699-80A6994C66C0
 title: DXGI 1.2 improvements
 ms.topic: article

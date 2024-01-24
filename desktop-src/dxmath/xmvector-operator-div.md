@@ -1,5 +1,5 @@
 ---
-Description: Division operator.
+description: Division operator.
 ms.assetid: 2cb92c4f-883f-402f-bde7-2b77a0bca1fc
 title: operator / operators
 ms.topic: reference
@@ -21,38 +21,12 @@ Division operator.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Operator</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421381(v=vs.85)"><strong>XMVECTOR::operator / (XMVECTOR,float)</strong></a></td>
-<td style="text-align: left;">Divides an <code>XMVECTOR</code> instance by a floating point value, returning the result a new instance of <code>XMVECTOR</code>. <br/> The <code>operator /</code> divides each component of an instance of <a href="xmvector-data-type.md"><strong>XMVECTOR Data Type</strong></a> by a floating point value, returning a new <code>XMVECTOR</code> instance containing the result. <br/>
-<blockquote>
-[!Note]<br />
-This operator is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421380(v=vs.85)"><strong>XMVECTOR::operator / (XMVECTOR,XMVECTOR)</strong></a></td>
-<td style="text-align: left;">Divides one instance of <code>XMVECTOR</code> by a second instance, returning the result in a third instance. <br/> The <code>operator /</code> divides each component of an instance of <a href="xmvector-data-type.md"><strong>XMVECTOR Data Type</strong></a> by the corresponding component in a second instance of <code>XMVECTOR</code>, returning a new <code>XMVECTOR</code> instance containing the result. <br/>
-<blockquote>
-[!Note]<br />
-This operator is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Operator | Description | 
+|----------|-------------|
+| [**XMVECTOR::operator / (XMVECTOR,float)**](/previous-versions/windows/desktop/legacy/ee421381(v=vs.85)) | Divides an <code>XMVECTOR</code> instance by a floating point value, returning the result a new instance of <code>XMVECTOR</code>. <br> The <code>operator /</code> divides each component of an instance of [**XMVECTOR Data Type**](xmvector-data-type.md) by a floating point value, returning a new <code>XMVECTOR</code> instance containing the result. <br> **Note:** This operator is only available under C++.<br> | 
+| [**XMVECTOR::operator / (XMVECTOR,XMVECTOR)**](/previous-versions/windows/desktop/legacy/ee421380(v=vs.85)) | Divides one instance of <code>XMVECTOR</code> by a second instance, returning the result in a third instance. <br> The <code>operator /</code> divides each component of an instance of [**XMVECTOR Data Type**](xmvector-data-type.md) by the corresponding component in a second instance of <code>XMVECTOR</code>, returning a new <code>XMVECTOR</code> instance containing the result. <br> **Note:** This operator is only available under C++.<br> | 
+
 
 
 

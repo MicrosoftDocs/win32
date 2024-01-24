@@ -1,14 +1,17 @@
 ---
-title: Command Buttons
-description: With a command button, users initiate an immediate action.
-ms.assetid: 0e2ff31a-657b-4e4c-afee-2a6bd742f46c
+title: Command Buttons in Windows 7
+description: With command buttons in Windows 7, users initiate immediate actions.
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/11/2022
+ms.custom: seo-windows-dev
 ---
 
-# Command Buttons
+# Command Buttons in Windows 7
 
-With a command button, users initiate an immediate action.
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
+
+With command buttons in Windows 7, users initiate immediate actions.
 
 ![screen shot of ok command button ](images/ctrl-command-buttons-image1.png)
 
@@ -62,9 +65,9 @@ By contrast, in this example the Print command prints a single copy of a documen
 
 **Proper use of ellipses is important to indicate that users can make further choices before performing the action, or even cancel the action entirely**. The visual cue offered by an ellipsis allows users to explore your software without fear.
 
-**This doesn't mean you should use an ellipsis whenever an action displays another window** only when additional information is required to perform the action. Consequently, **any command button whose implicit verb is to "show another window" doesn't take an ellipsis**, such as with the commands About, Advanced, Help (or any other command linking to a Help topic), Options, Properties, or Settings.
+**This doesn't mean you should use an ellipsis whenever an action displays another window**. Use an ellipsis only when additional information is required to perform the action. Consequently, **any command button whose implicit verb is to "show another window" doesn't take an ellipsis**, such as with the commands About, Advanced, Help (or any other command linking to a Help topic), Options, Properties, or Settings.
 
-Generally, ellipses are used in user interfaces to indicate incompleteness. Commands that show other windows aren't incomplete they must display another window and additional information isn't needed to perform their action. This approach eliminates screen clutter in situations where ellipses have little value.
+Generally, ellipses are used in user interfaces to indicate incompleteness. Commands that show other windows aren't incomplete; they must display another window and additional information isn't needed to perform their action. This approach eliminates screen clutter in situations where ellipses have little value.
 
 **Note:** When determining if a command button needs an ellipsis, don't use the need to [elevate privileges](winenv-uac.md) as a factor. Elevation isn't information needed to perform a command (rather, it's for permission) and the need to elevate is indicated with the security shield.
 
@@ -76,7 +79,7 @@ Command buttons have several usage patterns:
 
 
 
-|                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|     Usage                                                                                                                                                                    |    Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Standard command buttons** You can use standard command buttons to initiate an immediate action.<br/>                                                           | ![screen shot of standard (gray) command button ](images/ctrl-command-buttons-image6.png)<br/> A standard command button.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Default command buttons** The default command button in a window indicates the command button that will be activated when users press the Enter key.<br/>       | ![screen shot of default (blue) command button ](images/ctrl-command-buttons-image7.png)<br/> A default command button.<br/> Any command button becomes the default when users tab to it. If the input focus is on a control that isn't a command button, the command button with the default button attribute becomes the default. Only one command button in a window can be the default.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -175,7 +178,7 @@ Recommended sizing and spacing for command buttons.
 
     **Acceptable:**
 
-    ![screen shot of ok and cancel buttons ](images/ctrl-command-buttons-image26.png)
+    ![Screenshot that shows the 'OK' and 'Cancel' buttons.](images/ctrl-command-buttons-image26.png)
 
     In this example, OK and Cancel are acceptable but unspecific labels.
 
@@ -301,9 +304,8 @@ The following table shows some common command button labels and their usage.
 
 
 
-|                             |                                                                                                              |                             |
+| Button label | Meaning              | Access key   |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------|
-| **Button label**<br/> | **Meaning**<br/>                                                                                       | **Access key**<br/>   |
 | **Back**<br/>         | In wizards and task flows, go to the previous page.<br/>                                               | 'B'<br/>              |
 | **Browse...**<br/>    | Display a dialog box to look for a file or object.<br/>                                                | 'B' or 'r'<br/>       |
 | **Options**<br/>      | Display the choices available to users for customizing a program.<br/>                                 | 'O'<br/>              |
@@ -333,10 +335,4 @@ When referring to command buttons:
 Example: Click **Print** to print the document.
 
  
-
- 
-
-
-
-
 

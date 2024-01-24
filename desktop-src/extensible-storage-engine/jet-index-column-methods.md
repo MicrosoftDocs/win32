@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_COLUMN methods"
 title: JET_INDEX_COLUMN methods (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_INDEX_COLUMN methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_INDEX_COLUMN](dn335349\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEX_COLUMN](./jet-index-column-class.md) type exposes the following members.
 
 ## Methods
 
@@ -66,6 +67,6 @@ Top
 
 #### Reference
 
-[JET_INDEX_COLUMN class](dn335349\(v=exchg.10\).md)
+[JET_INDEX_COLUMN class](./jet-index-column-class.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

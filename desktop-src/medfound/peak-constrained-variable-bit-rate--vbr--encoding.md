@@ -1,5 +1,5 @@
 ---
-Description: 'In the peak-constrained variable bit rate (VBR), the content is encoded to a specified bit rate and peak values: a peak bit rate and a peak buffer window.'
+description: 'In the peak-constrained variable bit rate (VBR), the content is encoded to a specified bit rate and peak values: a peak bit rate and a peak buffer window.'
 ms.assetid: bc37362e-d66d-4552-8357-d22093d5d0ad
 title: Peak-Constrained Variable Bit Rate Encoding
 ms.topic: article

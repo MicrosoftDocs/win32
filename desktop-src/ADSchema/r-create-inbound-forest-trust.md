@@ -21,7 +21,7 @@ Extended control access right that enables users to create an inbound-only trust
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Create-Inbound-Forest-Trust          |
 | Display-Name | Create Inbound Forest Trust          |
@@ -41,7 +41,7 @@ Extended control access right that enables users to create an inbound-only trust
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 61                                           |
@@ -52,7 +52,7 @@ Extended control access right that enables users to create an inbound-only trust
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 61                                           |
@@ -63,7 +63,7 @@ Extended control access right that enables users to create an inbound-only trust
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 61                                           |
@@ -74,7 +74,7 @@ Extended control access right that enables users to create an inbound-only trust
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 61                                           |
@@ -85,7 +85,7 @@ Extended control access right that enables users to create an inbound-only trust
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 61                                           |

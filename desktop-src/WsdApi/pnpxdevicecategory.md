@@ -1,5 +1,5 @@
 ---
-Description: Specifies the PnP-X category to which the device belongs. More than one category can be specified.
+description: Specifies the PnP-X category to which the device belongs. More than one category can be specified.
 ms.assetid: 1ca46000-4700-4326-8f49-1b9a22d45bfa
 title: PnPXDeviceCategory element
 ms.topic: reference
@@ -46,7 +46,7 @@ If a **PnPXDeviceCategory** element is present, then at least one [**hosted**](h
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

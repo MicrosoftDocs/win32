@@ -1,5 +1,5 @@
 ---
-Description: Cancels the current transfer operation.
+description: Cancels the current transfer operation.
 ms.assetid: 42c6b2c3-7b6a-45d2-a7ce-844e95fe277b
 title: IWiaTransfer::Cancel method (Wia.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: The data object is central to all Shell data transfers.
+description: The data object is central to all Shell data transfers.
 ms.assetid: c63d339e-ac62-4da1-b5ce-22d45a6a3413
 title: Shell Data Object
 ms.topic: article
@@ -55,11 +55,11 @@ For these reasons, all Shell data transfers use data objects. With data objects,
 The [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure is an extended version of a clipboard format. As used for Shell data transfers, the **FORMATETC** structure has the following characteristics:
 
 -   A data item is still identified by its clipboard format, in the **cfFormat** member.
--   Data transfer is not limited to global memory objects. The **tymed** member is used to indicate the data transfer mechanism contained in the associated [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure. It is set to one of the [**TYMED\_XXX**](/windows/win32/api/objidl/ne-objidl-tymed) values.
+-   Data transfer is not limited to global memory objects. The **tymed** member is used to indicate the data transfer mechanism contained in the associated [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure. It is set to one of the [**TYMED\_XXX**](/windows/win32/api/objidl/ne-objidl-tymed) values.
 -   The Shell uses the **lIndex** member with its [CFSTR\_FILECONTENTS](clipboard.md) format to allow a data object to contain more than one data item per format. For a discussion of how to use this format, see the *Using the CFSTR\_FILECONTENTS Format to Extract Data from a File* section of [Handling Shell Data Transfer Scenarios](datascenarios.md).
 -   The **dwAspect** member is typically set to DVASPECT\_CONTENT. However, there are three values defined in Shlobj.h that can be used for Shell data transfer. 
 
-    |                     |                                                                                                   |
+    | Value               | Description                                                                                       |
     |---------------------|---------------------------------------------------------------------------------------------------|
     | DVASPECT\_COPY      | Used to indicate that the format represents a copy of the data.                                   |
     | DVASPECT\_LINK      | Used to indicate that the format represents a shortcut to the data.                               |
@@ -73,13 +73,13 @@ The [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure is 
 
 ### STGMEDIUM structure
 
-The [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure provides access to the data being transferred. Three data transfer mechanisms are supported for Shell data:
+The [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure provides access to the data being transferred. Three data transfer mechanisms are supported for Shell data:
 
 -   A global memory object.
 -   An [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) interface.
 -   An [**IStorage**](/windows/win32/api/objidl/nn-objidl-istorage) interface.
 
-The **tymed** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure is a [**TYMED\_XXX**](/windows/win32/api/objidl/ne-objidl-tymed) value that identifies the data transfer mechanism. The second member is a pointer that is used by the target to extract the data. The pointer can be one of a variety of types, depending on the **tymed** value. The three **tymed** values that are used for Shell data transfers are summarized in the following table, along with their corresponding **STGMEDIUM** member name.
+The **tymed** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure is a [**TYMED\_XXX**](/windows/win32/api/objidl/ne-objidl-tymed) value that identifies the data transfer mechanism. The second member is a pointer that is used by the target to extract the data. The pointer can be one of a variety of types, depending on the **tymed** value. The three **tymed** values that are used for Shell data transfers are summarized in the following table, along with their corresponding **STGMEDIUM** member name.
 
 
 
@@ -99,9 +99,9 @@ When a user initiates a Shell data transfer, the source is responsible for creat
 
 1.  Call [RegisterClipboardFormat](/windows/win32/api/winuser/nf-winuser-registerclipboardformata) to obtain a valid clipboard format value for each Shell format that will be included in the data object. Remember that [CF\_HDROP](clipboard.md) is already a valid clipboard format and does not need to be registered.
 2.  For each format to be transferred, either put the associated data into a global memory object or create an object that provides access to that data through an [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) or [**IStorage**](/windows/win32/api/objidl/nn-objidl-istorage) interface. The **IStream** and **IStorage** interfaces are created using standard COM techniques. For a discussion of how to handle global memory objects, see [How to Add a Global Memory Object to a Data Object](#how-to-add-a-global-memory-object-to-a-data-object).
-3.  Create [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) and [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structures for each format.
+3.  Create [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) and [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structures for each format.
 4.  Instantiate a data object.
-5.  Load the data into the data object by calling the [**IDataObject::SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) method for each supported format and passing in the format's [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) and [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structures.
+5.  Load the data into the data object by calling the [**IDataObject::SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) method for each supported format and passing in the format's [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) and [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structures.
 6.  With clipboard data transfers, call [**OleSetClipboard**](/windows/win32/api/ole2/nf-ole2-olesetclipboard) to place a pointer to the data object's [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) interface on the Clipboard. For drag-and-drop transfers, initiate a *drag loop* by calling [**DoDragDrop**](/windows/win32/api/ole2/nf-ole2-dodragdrop). The **IDataObject** pointer will be passed to the drop target when the data is dropped, ending the drag loop.
 
 The data object is now ready to be transferred to the target. For clipboard data transfers, the object is simply held until the target requests it by calling [**OleGetClipboard**](/windows/win32/api/ole2/nf-ole2-olegetclipboard). For drag-and-drop data transfers, the data object is responsible for creating an icon to represent the data and moving it as the user moves the cursor. While the object is in the drag loop, the source receives status information through its [**IDropSource**](/windows/win32/api/oleidl/nn-oleidl-idropsource) interface. For further discussion, see [Implementing IDropSource](#implementing-idropsource).
@@ -113,11 +113,11 @@ The source receives no notification if the data object is retrieved from the Cli
 Many of the Shell data formats are in the form of a global memory object. Use the following procedure to create a format containing a global memory object and load it into the data object:
 
 1.  Create a [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure. Set the **cfFormat** member to the appropriate clipboard format value and the **tymed** member to TYMED\_HGLOBAL.
-2.  Create an [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure. Set the **tymed** member to TYMED\_HGLOBAL.
+2.  Create an [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure. Set the **tymed** member to TYMED\_HGLOBAL.
 3.  Create a global memory object by calling [**GlobalAlloc**](/windows/win32/api/winbase/nf-winbase-globalalloc) to allocate a suitably sized block of memory.
 4.  Assign the block of data to be transferred to the address returned by [**GlobalAlloc**](/windows/win32/api/winbase/nf-winbase-globalalloc).
-5.  Assign the global memory object's address to the **hGlobal** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure.
-6.  Load the format into the data object by calling [**IDataObject::SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) and passing in the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) and [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structures created in the previous steps.
+5.  Assign the global memory object's address to the **hGlobal** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure.
+6.  Load the format into the data object by calling [**IDataObject::SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) and passing in the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) and [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structures created in the previous steps.
 
 The following sample function creates a global memory object containing a **DWORD** value and loads it into a data object. The **pdtobj** parameter is a pointer to the data object's [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject) interface, **cf** is the clipboard format value, and **dw** is the data value.
 
@@ -166,7 +166,7 @@ STDAPI DataObj_SetDWORD(IDataObject *pdtobj, UINT cf, DWORD dw)
 
 ### SetData method
 
-The primary function of the [**IDataObject::SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) method is to allow the source to load data into the data object. For each format to be included, the source creates a [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure to identify the format and an [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure to hold a pointer to the data. The source then calls the object's **IDataObject::SetData** method and passes in the format's **FORMATETC** and **STGMEDIUM** structures. The method must store this information so that it is available when the target calls [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) to extract data from the object.
+The primary function of the [**IDataObject::SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) method is to allow the source to load data into the data object. For each format to be included, the source creates a [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure to identify the format and an [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure to hold a pointer to the data. The source then calls the object's **IDataObject::SetData** method and passes in the format's **FORMATETC** and **STGMEDIUM** structures. The method must store this information so that it is available when the target calls [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) to extract data from the object.
 
 However, when transferring files, the Shell often puts the information for each file to be transferred into a separate [CFSTR\_FILECONTENTS](clipboard.md) format. To distinguish the different files, the **lIndex** member of each file's [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure is set to an index value that identifies the particular file. Your [**IDataObject::SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) implementation must be capable of storing multiple CFSTR\_FILECONTENTS formats that differ only by their **lIndex** members.
 
@@ -186,12 +186,12 @@ Because the purpose of [**IDataObject::EnumFormatEtc**](/windows/win32/api/objid
 
 ### GetData method
 
-The target calls [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) to extract a particular data format. The target specifies the format by passing in the appropriate [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure. **IDataObject::GetData** returns the format's [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure.
+The target calls [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) to extract a particular data format. The target specifies the format by passing in the appropriate [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure. **IDataObject::GetData** returns the format's [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure.
 
-The target can set the **tymed** member of the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure to a specific TYMED\_*XXX* value to specify which data transfer mechanism it will use to extract the data. However, the target can also make a more generic request and let the data object decide. To ask the data object to select the data transfer mechanism, the target sets all the TYMED\_*XXX* values that it supports. [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) selects one of these data transfer mechanisms and returns the appropriate [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure. For instance, **tymed** is commonly set to TYMED\_HGLOBAL \| TYMED\_ISTREAM \| TYMED\_ISTORAGE to request any of the three Shell data transfer mechanisms.
+The target can set the **tymed** member of the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure to a specific TYMED\_*XXX* value to specify which data transfer mechanism it will use to extract the data. However, the target can also make a more generic request and let the data object decide. To ask the data object to select the data transfer mechanism, the target sets all the TYMED\_*XXX* values that it supports. [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) selects one of these data transfer mechanisms and returns the appropriate [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure. For instance, **tymed** is commonly set to TYMED\_HGLOBAL \| TYMED\_ISTREAM \| TYMED\_ISTORAGE to request any of the three Shell data transfer mechanisms.
 
 > [!Note]  
-> Because there can be multiple [CFSTR\_FILECONTENTS](clipboard.md) formats, the **cfFormat** and **tymed** members of the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure are not sufficient to indicate which [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) should return. For the CFSTR\_FILECONTENTS format, **IDataObject::GetData** must also examine the **FORMATETC** structure's **lIndex** member in order to return the correct **STGMEDIUM** structure.
+> Because there can be multiple [CFSTR\_FILECONTENTS](clipboard.md) formats, the **cfFormat** and **tymed** members of the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure are not sufficient to indicate which [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) should return. For the CFSTR\_FILECONTENTS format, **IDataObject::GetData** must also examine the **FORMATETC** structure's **lIndex** member in order to return the correct **STGMEDIUM** structure.
 
  
 
@@ -245,23 +245,23 @@ Once a data object has been dropped or retrieved from the Clipboard, the target 
 -   Use the [**IEnumFORMATETC**](/windows/win32/api/objidl/nn-objidl-ienumformatetc) methods to enumerate the formats contained by the data object. This operation usually retrieves one [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure for each format that the object contains. However, the enumeration object normally returns only a single **FORMATETC** structure for the [CFSTR\_FILECONTENTS](clipboard.md) format, regardless of how many such formats are contained by the data object.
 -   Select one or more formats to be extracted, and store their [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structures.
 
-To retrieve a particular format, pass the associated [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure to [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata). This method returns an [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure that provides access to the data. To specify a particular data transfer mechanism, set the **tymed** value of the **FORMATETC** structure to the corresponding TYMED\_*XXX* value. To ask the data object to select a data transfer mechanism, the target sets the TYMED\_*XXX* values for every data transfer mechanism that the target can handle. The data object selects one of these data transfer mechanisms and returns the appropriate **STGMEDIUM** structure.
+To retrieve a particular format, pass the associated [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure to [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata). This method returns an [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure that provides access to the data. To specify a particular data transfer mechanism, set the **tymed** value of the **FORMATETC** structure to the corresponding TYMED\_*XXX* value. To ask the data object to select a data transfer mechanism, the target sets the TYMED\_*XXX* values for every data transfer mechanism that the target can handle. The data object selects one of these data transfer mechanisms and returns the appropriate **STGMEDIUM** structure.
 
 For most formats, the target can retrieve the data by passing the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure that it received when it enumerated the available formats. One exception to this rule is [CFSTR\_FILECONTENTS](clipboard.md). Because a data object can contain multiple instances of this format, the **FORMATETC** structure returned by the enumerator might not correspond to the particular format you want to extract. In addition to specifying the **cfFormat** and **tymed** members, you must also set the **lIndex** member to the file's index value. For further discussion, see the *Using the CFSTR\_FILECONTENTS Format to Extract Data from a File* section of [Handling Shell Data Transfer Scenarios](datascenarios.md)
 
-The data extraction process depends on the type of pointer contained by the returned [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure. If the structure contains a pointer to an [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) or [**IStorage**](/windows/win32/api/objidl/nn-objidl-istorage) interface, use the interface methods to extract the data. The process of extracting data from a global memory object is discussed in the next section.
+The data extraction process depends on the type of pointer contained by the returned [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure. If the structure contains a pointer to an [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) or [**IStorage**](/windows/win32/api/objidl/nn-objidl-istorage) interface, use the interface methods to extract the data. The process of extracting data from a global memory object is discussed in the next section.
 
 ### Extracting a global memory object from a data object
 
 Many of the Shell data formats are in the form of a global memory object. Use the following procedure to extract a format containing a global memory object from a data object and assign its data to a local variable:
 
 1.  Create a [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure. Set the **cfFormat** member to the appropriate clipboard format value and the **tymed** member to TYMED\_HGLOBAL.
-2.  Create an empty [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure.
-3.  Call [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata), and pass in pointers to the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) and [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structures.
+2.  Create an empty [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure.
+3.  Call [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata), and pass in pointers to the [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) and [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structures.
 
-    When [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) returns, the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure will contain a pointer to the global memory object that contains the data.
+    When [**IDataObject::GetData**](/windows/win32/api/objidl/nf-objidl-idataobject-getdata) returns, the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure will contain a pointer to the global memory object that contains the data.
 
-4.  Assign the data to a local variable by calling [**GlobalLock**](/windows/win32/api/winbase/nf-winbase-globallock) and passing in the **hGlobal** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium~r1) structure.
+4.  Assign the data to a local variable by calling [**GlobalLock**](/windows/win32/api/winbase/nf-winbase-globallock) and passing in the **hGlobal** member of the [**STGMEDIUM**](/windows/win32/api/objidl/ns-objidl-ustgmedium-r1) structure.
 5.  Call [**GlobalUnlock**](/windows/win32/api/winbase/nf-winbase-globalunlock) to release the lock on the global memory object.
 6.  Call [**ReleaseStgMedium**](/windows/win32/api/ole2/nf-ole2-releasestgmedium) to release the global memory object.
 

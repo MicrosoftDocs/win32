@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCacheOutOfSyncException members"
 title: EsentSPAvailExtCacheOutOfSyncException members
 TOCTitle: EsentSPAvailExtCacheOutOfSyncException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfSyncException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.SPAvailExtCacheOutOfSync exceptions.
 
-The [EsentSPAvailExtCacheOutOfSyncException](dn334808\(v=exchg.10\).md) type exposes the following members.
+The [EsentSPAvailExtCacheOutOfSyncException](./esentspavailextcacheoutofsyncexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentSPAvailExtCacheOutOfSyncException class](dn334808\(v=exchg.10\).md)
+[EsentSPAvailExtCacheOutOfSyncException class](./esentspavailextcacheoutofsyncexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

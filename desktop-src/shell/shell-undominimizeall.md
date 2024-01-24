@@ -1,5 +1,5 @@
 ---
-Description: Restores all desktop windows to the same state they were in before the last MinimizeAll command.
+description: Restores all desktop windows to the same state they were in before the last MinimizeAll command.
 ms.assetid: dcedfa18-6dde-4fb8-9679-4d6ff80249e4
 title: Shell.UndoMinimizeALL method (Shldisp.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

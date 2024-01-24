@@ -1,5 +1,5 @@
 ---
-Description: Enables the use of an asynchronous Media Foundation transform (MFT).
+description: Enables the use of an asynchronous Media Foundation transform (MFT).
 ms.assetid: e12ab57e-ebc2-46af-afdf-d78d4db16fcf
 title: MF_TRANSFORM_ASYNC_UNLOCK attribute (Mftransform.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ HRESULT UnlockAsyncMFT(IMFTransform *pMFT)
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

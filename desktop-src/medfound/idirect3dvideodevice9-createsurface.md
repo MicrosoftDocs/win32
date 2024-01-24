@@ -1,5 +1,5 @@
 ---
-Description: Creates a compressed surface for DirectX Video Acceleration (DXVA) decoding.
+description: Creates a compressed surface for DirectX Video Acceleration (DXVA) decoding.
 ms.assetid: 2bb8c99d-1151-4f6d-869f-2c1a592e76af
 title: IDirect3DVideoDevice9::CreateSurface method (Dxva.h)
 ms.topic: reference
@@ -107,7 +107,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |

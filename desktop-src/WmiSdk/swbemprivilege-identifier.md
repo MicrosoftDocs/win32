@@ -1,5 +1,5 @@
 ---
-Description: The Identifier property of an SWbemPrivilege object is an WbemPrivilegeEnum integer that represents the privilege that is being set or retrieved. This property is read-only.
+description: The Identifier property of an SWbemPrivilege object is an WbemPrivilegeEnum integer that represents the privilege that is being set or retrieved. This property is read-only.
 ms.assetid: d370c3ae-6acf-409a-846a-42a74f1a3c02
 ms.tgt_platform: multiple
 title: SWbemPrivilege.Identifier property (Wbemdisp.h)
@@ -42,7 +42,7 @@ SWbemPrivilege.Identifier As Integer
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

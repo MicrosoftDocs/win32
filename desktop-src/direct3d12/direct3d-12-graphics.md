@@ -2,7 +2,6 @@
 title: Direct3D 12 graphics
 description: This programming guide contains information about how to use the Direct3D 12 programmable pipeline to create a customized graphics engine.
 ms.assetid: 52094AE3-3B44-4689-9EE7-1BA1B3A779CB
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/27/2018
 ---

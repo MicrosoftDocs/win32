@@ -1,5 +1,5 @@
 ---
-Description: Sent by an asynchronous Media Foundation transform (MFT) when new output data is available from the MFT.
+description: Sent by an asynchronous Media Foundation transform (MFT) when new output data is available from the MFT.
 ms.assetid: a9403ad3-81bf-4cd7-ba7f-816b901bb02c
 title: METransformHaveOutput event (Mfobjects.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ When the client of the MFT receives this event, it should call [**IMFTransform::
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |

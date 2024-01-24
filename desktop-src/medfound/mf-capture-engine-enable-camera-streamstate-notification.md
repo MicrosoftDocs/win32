@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether stream state notifications should be enabled.
+description: Indicates whether stream state notifications should be enabled.
 ms.assetid: 97CCEBB6-9634-4BA6-966A-621F9023B59F
 title: MF_CAPTURE_ENGINE_ENABLE_CAMERA_STREAMSTATE_NOTIFICATION attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -20,7 +20,7 @@ A non-zero value specifies that notifications should be enabled. If the attribut
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfcaptureengine.h</dt> </dl> |
 

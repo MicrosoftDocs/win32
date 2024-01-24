@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media Video 9 encoder encodes video streams.
+description: The Windows Media Video 9 encoder encodes video streams.
 ms.assetid: 1d0a41bc-7f7c-4e25-860c-1108ab292951
 title: Windows Media Video 9 Encoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -524,7 +524,7 @@ Read-only<br />
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

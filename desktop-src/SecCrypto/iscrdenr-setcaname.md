@@ -1,5 +1,5 @@
 ---
-Description: Specifies the name of the certification authority (CA).
+description: Specifies the name of the certification authority (CA).
 ms.assetid: 224c2a51-8a25-4b66-b86b-c87531475145
 title: ISCrdEnr::setCAName method
 ms.topic: reference
@@ -84,7 +84,7 @@ Use this method to specify a CA for a certificate template.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

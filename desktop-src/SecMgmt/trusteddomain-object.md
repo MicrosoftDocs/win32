@@ -1,5 +1,5 @@
 ---
-Description: The TrustedDomain object stores information about a trust relationship with a domain.
+description: The TrustedDomain object stores information about a trust relationship with a domain.
 ms.assetid: fab69367-2143-49ef-a1b9-9c1d846fd4e1
 title: TrustedDomain Object
 ms.topic: article

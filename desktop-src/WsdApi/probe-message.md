@@ -1,5 +1,5 @@
 ---
-Description: A WS-Discovery message used by a client to search for services on the network by service type.
+description: A WS-Discovery message used by a client to search for services on the network by service type.
 ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: Probe Message
 ms.topic: article
@@ -57,9 +57,9 @@ A Probe message has the following focus points.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -71,21 +71,21 @@ A Probe message has the following focus points.
 <tbody>
 <tr class="odd">
 <td>Probe</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2005/04/discovery/Probe
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>The Probe SOAP action identifies the message as a Probe message.</td>
 </tr>
 <tr class="even">
 <td>MessageID</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:MessageID&gt;
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
-</wsa:MessageID></code></pre></td>
+&lt;/wsa:MessageID&gt;</code></pre></td>
 <td>Contains the message identifier, which is referenced by the RelatesTo element in a <a href="probematches-message.md">ProbeMatches</a> message.</td>
 </tr>
 <tr class="odd">
 <td>Types</td>
-<td><pre class="syntax" data-space="preserve"><code><wsd:Types>wsdp:Device</wsd:Types></code></pre></td>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:Types&gt;wsdp:Device</wsd:Types></code></pre></td>
 <td>Contains the WS-Discovery types for which the client is searching. This element should not be empty.</td>
 </tr>
 </tbody>

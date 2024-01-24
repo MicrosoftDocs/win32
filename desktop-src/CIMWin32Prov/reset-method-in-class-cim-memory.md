@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_Memory class requests a reset of the logical device.
+description: The Reset method of the CIM\_Memory class requests a reset of the logical device.
 ms.assetid: e3091f03-65cb-41f5-9cf7-531402993d80
 ms.tgt_platform: multiple
 title: Reset method of the CIM_Memory class
@@ -52,7 +52,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherCmpRed(S,float,float,int,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status. | Texture2DArray::GatherCmpRed(S,float,float,int,uint) function
 ms.assetid: 83974A85-26CB-4724-A60F-64F214800723
 keywords:
 - GatherCmpRed function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpRed(S,float,float,int,uint) function
+# Texture2DArray::GatherCmpRed(S,float,float,int,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns the red component along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value along with tile-mapping status.
 
 ## Syntax
 

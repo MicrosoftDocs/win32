@@ -1,5 +1,5 @@
 ---
-Description: Returns the external key from a file.
+description: Returns the external key from a file.
 ms.assetid: b61b71fb-af6f-4fe3-859b-a9f2f42ca6d2
 title: GetExternalKeyFromFile method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -79,7 +79,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

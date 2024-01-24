@@ -1,5 +1,5 @@
 ---
-Description: Instructs an IME window to get the position of the candidate window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+description: Instructs an IME window to get the position of the candidate window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: e582dbc2-8081-424c-a972-1a182a477293
 title: IMC_GETCANDIDATEPOS command (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Because the IME might adjust the position of a candidate window, an application 
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

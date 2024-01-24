@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRfsNotArmedException methods"
 title: EsentRfsNotArmedException methods
 TOCTitle: EsentRfsNotArmedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRfsNotArmedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRfsNotArmedException](dn350589\(v=exchg.10\).md) type exposes the following members.
+The [EsentRfsNotArmedException](./esentrfsnotarmedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentRfsNotArmedException class](dn350589\(v=exchg.10\).md)
+[EsentRfsNotArmedException class](./esentrfsnotarmedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

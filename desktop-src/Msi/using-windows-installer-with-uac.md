@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer complies with User Account Control (UAC) in Windows Vista.
+description: Windows Installer complies with User Account Control (UAC) in Windows Vista.
 ms.assetid: 13955ded-6b7f-475f-bb0f-6530a0b4963f
 title: Using Windows Installer with UAC
 ms.topic: article

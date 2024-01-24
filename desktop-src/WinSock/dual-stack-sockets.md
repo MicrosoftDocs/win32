@@ -1,5 +1,5 @@
 ---
-Description: In order to support both IPv4 and IPv6 on Windows XP with Service Pack 1 (SP1) and on Windows Server 2003, an application has to create two sockets, one socket for use with IPv4 and one socket for use with IPv6.
+description: In order to support both IPv4 and IPv6 on Windows XP with Service Pack 1 (SP1) and on Windows Server 2003, an application has to create two sockets, one socket for use with IPv4 and one socket for use with IPv6.
 ms.assetid: 7ae49081-ffb5-4eee-b488-2541398e7acc
 title: Dual-Stack Sockets for IPv6 Winsock Applications
 ms.topic: article
@@ -26,7 +26,7 @@ If the underlying protocol is actually IPv4, then the IPv4 address is mapped int
 
 A potential pitfall for applications is getting an IPv4-mapped IPv6 address on a dual-stack socket and then trying to use the returned IP address on a different IPv6 only socket. For example, the [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname) or [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername) functions can return an IPv4-mapped IPv6 address when used on a dual-stack socket. If the returned IPv4-mapped IPv6 address is then subsequently used on a different socket that was not set to dual-stack (an IPv6 only socket which is the default behavior when a socket is created), any use of this IPv6 only socket with an IPv4-mapped IPv6 address will fail. The IPv4-mapped IPv6 address format can only be used on a dual-stack socket.
 
-On a dual-stack datagram socket, if an application requires the [**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)) function to return packet information in a [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) structure for datagrams received over IPv4, then [IP\_PKTINFO](ip-pktinfo.md) socket option must be set to true on the socket. If only the [IPV6\_PKTINFO](ipv6-pktinfo.md) option is set to true on the socket, packet information will be provided for datagrams received over IPv6 but may not be provided for datagrams received over IPv4.
+On a dual-stack datagram socket, if an application requires the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function to return packet information in a [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) structure for datagrams received over IPv4, then [IP\_PKTINFO](ip-pktinfo.md) socket option must be set to true on the socket. If only the [IPV6\_PKTINFO](ipv6-pktinfo.md) option is set to true on the socket, packet information will be provided for datagrams received over IPv6 but may not be provided for datagrams received over IPv4.
 
 If an application tries to set the [IP\_PKTINFO](ip-pktinfo.md) socket option on a dual-stack datagram socket and IPv4 is disabled on the system, then the [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) function will fail and [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror) will return with an error of [WSAEINVAL](windows-sockets-error-codes-2.md). This same error is also returned by the **setsockopt** function as a result of other errors. If an application tries to set an IPPROTO\_IP level socket option on a dual-stack socket and it fails with [WSAEINVAL](windows-sockets-error-codes-2.md), then the application should determine if IPv4 is disabled on the local computer. One method that can be used to detect if IPv4 is enabled or disabled is to call the [**socket**](/windows/desktop/api/Winsock2/nf-winsock2-socket) function with the *af* parameter set to AF\_INET to try and create an IPv4 socket. If the **socket** function fails and **WSAGetLastError** returns an error of [WSAEAFNOSUPPORT](windows-sockets-error-codes-2.md), then it means IPv4 is not enabled. In this case, a **setsockopt** function failure when attempting to set the IP\_PKTINFO socket option can be ignored by the application. Otherwise a failure when attempting to set the IP\_PKTINFO socket option should be treated as an unexpected error.
 
@@ -75,7 +75,7 @@ For a dual-stack socket when sending datagrams with the [**WSASendMsg**](/window
 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt)
 </dt> <dt>
 
-[**WSARecvMsg**](/previous-versions/windows/desktop/legacy/ms741687(v=vs.85))
+[**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg)
 </dt> <dt>
 
 [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg)

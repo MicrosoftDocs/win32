@@ -1,5 +1,5 @@
 ---
-Description: Occurs when an in-air packet is seen.
+description: InkCollector.NewInAirPackets event - Occurs when an in-air packet is seen.
 ms.assetid: e8eacdec-0381-435f-b453-24dca1c507c9
 title: InkCollector.NewInAirPackets event (Msinkaut.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ To set which properties are contained in this array, use the [**DesiredPacketDes
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

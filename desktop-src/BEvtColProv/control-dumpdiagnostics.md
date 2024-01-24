@@ -1,5 +1,5 @@
 ---
-Description: Dumps the diagnostic information into the log.
+description: Dumps the diagnostic information into the log.
 ms.assetid: eca07cc3-ff34-458b-a0f0-a8829862044d
 ms.tgt_platform: multiple
 title: DumpDiagnostics method of the Control class
@@ -41,7 +41,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

@@ -1,5 +1,5 @@
 ---
-Description: Following a restore, writers check the status of the operation so that they can make use of the restored data and deal with errors.
+description: Following a restore, writers check the status of the operation so that they can make use of the restored data and deal with errors.
 ms.assetid: f9def67a-c4ea-4014-929f-51fbd10d770a
 title: Overview of Restore Clean up and Termination
 ms.topic: article

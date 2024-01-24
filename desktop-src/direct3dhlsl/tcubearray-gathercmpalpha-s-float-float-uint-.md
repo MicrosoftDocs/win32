@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::GatherCmpAlpha(S,float,float,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns the alpha component along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value along with tile-mapping status. | TextureCubeArray::GatherCmpAlpha(S,float,float,uint) function
 ms.assetid: EA1D7176-3F70-4867-9854-80206A871B23
 keywords:
 - GatherCmpAlpha function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpAlpha(S,float,float,uint) function
+# TextureCubeArray::GatherCmpAlpha(S,float,float,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns the alpha component along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value along with tile-mapping status.
 
 ## Syntax
 

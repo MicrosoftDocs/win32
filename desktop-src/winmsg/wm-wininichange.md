@@ -1,5 +1,5 @@
 ---
-Description: An application sends the WM\_WININICHANGE message to all top-level windows after making a change to the WIN.INI file. The SystemParametersInfo function sends this message after an application uses the function to change a setting in WIN.INI.
+description: An application sends the WM\_WININICHANGE message to all top-level windows after making a change to the WIN.INI file. The SystemParametersInfo function sends this message after an application uses the function to change a setting in WIN.INI.
 ms.assetid: 402f8d71-ad52-486d-be26-8b41a3f22045
 title: WM_WININICHANGE message (Winuser.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ An application sends the **WM\_WININICHANGE** message to all top-level windows a
 
  
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -62,7 +62,7 @@ The change in the storage location has no effect on the behavior of this message
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

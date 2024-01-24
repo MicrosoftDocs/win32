@@ -1,5 +1,5 @@
 ---
-Description: The following are the run-time error codes, defined in Cryptxml.h, that may be returned by the CryptXML functions.
+description: The following are the run-time error codes, defined in Cryptxml.h, that may be returned by the CryptXML functions.
 ms.assetid: c3678767-aab3-4771-b2f2-8d79545d420d
 title: CryptXML Error Codes (Cryptxml.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The following are the run-time error codes, defined in Cryptxml.h, that may be r
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |

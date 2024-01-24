@@ -1,5 +1,5 @@
 ---
-Description: The AddPrintProvidor function installs a local print provider and links the configuration, data, and provider files.
+description: The AddPrintProvidor function installs a local print provider and links the configuration, data, and provider files.
 ms.assetid: f34549c3-0474-48ba-9307-5b36f02dbe1c
 title: AddPrintProvidor function (Winspool.h)
 ms.topic: reference
@@ -18,6 +18,11 @@ api_location:
 ---
 
 # AddPrintProvidor function
+
+> [!IMPORTANT]
+> On July 6, 2021, [KB5005010](https://support.microsoft.com/topic/kb5005010-restricting-installation-of-new-printer-drivers-after-applying-the-july-6-2021-updates-31b91c02-05bc-4ada-a7ea-183b129578a7) introduced an optional registry-based configuration option to restrict access to this API to admin users only. This option was off be default.
+>
+> On August 10, 2021, [KB5005652](https://aka.ms/print_install_kb) changes this configuration's default value to require admin rights to install new printer drivers.
 
 The **AddPrintProvidor** function installs a local print provider and links the configuration, data, and provider files.
 
@@ -91,7 +96,7 @@ A provider added by **AddPrintProvidor** may be removed by calling [**DeletePrin
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

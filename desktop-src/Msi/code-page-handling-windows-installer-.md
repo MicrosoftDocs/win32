@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer stores all database strings in a single shared string pool to reduce the size of the database, and to improve performance. For a list of numeric code pages, see Localizing the Error and ActionText Tables.
+description: The Windows Installer stores all database strings in a single shared string pool to reduce the size of the database, and to improve performance. For a list of numeric code pages, see Localizing the Error and ActionText Tables.
 ms.assetid: 5d413fb7-99da-49f3-ace3-ec285df2e634
 title: Code Page Handling (Windows Installer)
 ms.topic: article

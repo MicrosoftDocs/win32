@@ -1,5 +1,5 @@
 ---
-Description: Contains information that File Manager uses to add a Help string for a menu or toolbar command item.
+description: Contains information that File Manager uses to add a Help string for a menu or toolbar command item.
 title: FMS_HELPSTRING structure (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: b3ae7f86-5d58-47fa-87bd-e4e6a3541a93
-api_name: 
- - FMS_HELPSTRING
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -83,7 +74,7 @@ The null-terminated string that receives the Help text.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

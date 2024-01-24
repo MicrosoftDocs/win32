@@ -1,5 +1,5 @@
 ---
-Description: An application sends the WM\_MDIACTIVATE message to a multiple-document interface (MDI) client window to instruct the client window to activate a different MDI child window.
+description: An application sends the WM\_MDIACTIVATE message to a multiple-document interface (MDI) client window to instruct the client window to activate a different MDI child window.
 ms.assetid: c5de18b5-fac3-4e55-9eca-3b6672df0e7b
 title: WM_MDIACTIVATE message (Winuser.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ An MDI child window is activated independently of the MDI frame window. When the
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

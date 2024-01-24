@@ -1,5 +1,5 @@
 ---
-Description: Represents the ability to analyze the layout of a collection of strokes and divide them into text and graphics.
+description: Represents the ability to analyze the layout of a collection of strokes and divide them into text and graphics.
 ms.assetid: 2c8e67fb-1032-4fcc-b419-82bae978daf8
 title: InkDivider class (Msinkaut15.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ The **InkDivider** does not currently support vertical languages. For the **InkD
 
 
 
-|                                     |                                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                                               |

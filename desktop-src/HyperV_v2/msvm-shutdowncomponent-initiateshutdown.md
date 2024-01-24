@@ -1,5 +1,5 @@
 ---
-Description: Initiates an operating system shutdown operation on the associated child virtual machine. If zero (0) is returned, then the shutdown was initiated successfully. Any other return code indicates an error condition.
+description: Initiates an operating system shutdown operation on the associated child virtual machine. If zero (0) is returned, then the shutdown was initiated successfully. Any other return code indicates an error condition.
 ms.assetid: 946BBC62-5479-4AE0-8870-D0A07827B902
 title: InitiateShutdown method of the Msvm_ShutdownComponent class (Winreg.h)
 ms.topic: reference
@@ -118,7 +118,7 @@ Access to the [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md) class mig
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

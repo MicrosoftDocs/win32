@@ -25,14 +25,10 @@ show urlacl [url=]string
 
 ## Parameters
 
-<dl> <dt>
-
-<span id="_url__string"></span><span id="_URL__STRING"></span>**\[url=\]***string*
-</dt> <dd>
+__\[url=\]__*string*
 
 Specifies the fully qualified URL. If unspecified, implies all URLs.
 
-</dd> </dl>
 
 ## Examples
 

@@ -1,5 +1,5 @@
 ---
-Description: The line concept has evolved over time and been partly superseded by the Address and Terminal concepts. TAPI 3 does not directly use the concept of line, but TAPI 2 continues to incorporate this paradigm.
+description: The line concept has evolved over time and been partly superseded by the Address and Terminal concepts. TAPI 3 does not directly use the concept of line, but TAPI 2 continues to incorporate this paradigm.
 ms.assetid: 3e457c7d-da2e-4667-aade-053610abbb8a
 title: Line
 ms.topic: article

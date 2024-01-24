@@ -1,5 +1,5 @@
 ---
-Description: By default, the Direct3D system is allowed to write to the depth buffer. Most applications leave writing to the depth buffer enabled, but you can achieve some special effects by not allowing the Direct3D system to write to the depth buffer.
+description: By default, the Direct3D system is allowed to write to the depth buffer. Most applications leave writing to the depth buffer enabled, but you can achieve some special effects by not allowing the Direct3D system to write to the depth buffer.
 ms.assetid: d426ebff-bfce-4e5b-a97b-7b2539b4a9de
 title: Changing Depth Buffer Write Access (Direct3D 9)
 ms.topic: article

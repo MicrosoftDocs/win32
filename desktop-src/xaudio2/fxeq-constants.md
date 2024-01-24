@@ -1,5 +1,5 @@
 ---
-Description: Defines values for use with the FXEQ\_PARAMETERS structure.
+description: Defines values for use with the FXEQ\_PARAMETERS structure.
 ms.assetid: 2e77ac36-95e7-3a15-f5a6-6576e3c69d75
 title: FXEQ Constants (XAPOFX.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>XAPOFX.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: CNG allows you to encrypt data by using a minimum number of function calls and allows you to perform all of the memory management.
+description: CNG allows you to encrypt data by using a minimum number of function calls and allows you to perform all of the memory management.
 ms.assetid: 40622282-e190-40d0-80d4-cab9eddc2091
 title: Encrypting Data with CNG
 ms.topic: article

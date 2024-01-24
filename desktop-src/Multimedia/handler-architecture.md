@@ -3,10 +3,13 @@ title: Handler Architecture
 description: Handler Architecture
 ms.assetid: 93839b82-09cb-41af-ac0e-a8e9448bf04b
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Handler Architecture
+
+\[The feature associated with this page, [Custom File and Stream Handlers](/windows/win32/multimedia/custom-file-and-stream-handlers), is a legacy feature. It has been superseded by [MediaStreamSource class](/uwp/api/Windows.Media.Core.MediaStreamSource). **MediaStreamSource class** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaStreamSource class** instead of **Custom File and Stream Handlers**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The internal function of a file or stream handler is defined by the handler itself. To an application, a file handler typically appears as a module to read and write AVI files. Similarly, a stream handler appears as a module to read and write a specific type of data stream. The consistent stream interface makes the source and destination of the stream unimportant to the application that uses the handler.
 

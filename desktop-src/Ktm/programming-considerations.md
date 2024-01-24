@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Programming Considerations For Writing Resource Managers"
 ms.assetid: 7f1e61e8-15e1-4a25-b864-eeadcac61108
 title: Programming Considerations For Writing Resource Managers
 ms.topic: article

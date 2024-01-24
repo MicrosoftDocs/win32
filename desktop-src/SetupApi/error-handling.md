@@ -1,12 +1,12 @@
 ---
-Description: 'There are three functions that generate dialog boxes to handle errors: SetupCopyError, SetupDeleteError, and SetupRenameError.'
+description: 'There are three functions that generate dialog boxes to handle errors: SetupCopyError, SetupDeleteError, and SetupRenameError.'
 ms.assetid: 'fcb310e1-5db7-47f3-b3d6-d528eb17e19a'
 title: Error Handling (Setup API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Handling
+# Error Handling (Setup API)
 
 There are three functions that generate dialog boxes to handle errors: [**SetupCopyError**](/windows/desktop/api/Setupapi/nf-setupapi-setupcopyerrora), [**SetupDeleteError**](/windows/desktop/api/Setupapi/nf-setupapi-setupdeleteerrora), and [**SetupRenameError**](/windows/desktop/api/Setupapi/nf-setupapi-setuprenameerrora).
 

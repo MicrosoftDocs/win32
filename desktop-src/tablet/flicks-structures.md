@@ -1,5 +1,5 @@
 ---
-Description: This section contains the structures used in the WM\_TABLET\_FLICK Message.
+description: This section contains the structures used in the WM\_TABLET\_FLICK Message.
 ms.assetid: 47f03f17-6019-4586-a765-a1c3a6dadbf8
 title: Flicks Structures
 ms.topic: article

@@ -56,7 +56,7 @@ For more information and examples of LDAP binding strings, as well as a descript
 
 ## LDAP Special Characters
 
-LDAP has several special characters which are reserved for use by the LDAP API. The list of special characters can be found in [Distinguished Names](/previous-versions/windows/desktop/ldap/distinguished-names). To use one of these characters in an ADsPath without generating an error, the character must be preceded by a backslash (\\) character. This is known as *escaping* the character. For example, if a user name is given in the form of "<last name>,<first name>", the comma in the name value must be escaped. The resulting string would look like this:
+LDAP has several special characters which are reserved for use by the LDAP API. The list of special characters can be found in [Distinguished Names](/previous-versions/windows/desktop/ldap/distinguished-names). To use one of these characters in an ADsPath without generating an error, the character must be preceded by a backslash (\\) character. This is known as *escaping* the character. For example, if a user name is given in the form of "\<last name\>,\<first name\>", the comma in the name value must be escaped. The resulting string would look like this:
 
 
 ```C++

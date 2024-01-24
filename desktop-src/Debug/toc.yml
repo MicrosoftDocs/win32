@@ -49,6 +49,8 @@
         href: /windows/desktop/api/WinUser/nf-winuser-messagebeep
       - name: "RtlLookupFunctionEntry"
         href: /windows/desktop/api/WinNT/nf-winnt-rtllookupfunctionentry
+      - name: "RtlSetImageMitigationPolicy"
+        href: rtlsetimagemitigationpolicy-function.md
       - name: "RtlNtStatusToDosError"
         href: /windows/desktop/api/Winternl/nf-winternl-rtlntstatustodoserror
       - name: "RtlNtStatusToDosErrorNoTeb"
@@ -81,7 +83,7 @@
       items: 
       - name: "FLASHWINFO"
         href: /windows/desktop/api/Winuser/ns-winuser-flashwinfo
-    - name: "System Error Codes"
+    - name: "Debug system error codes"
       href: system-error-codes.md
       items: 
       - name: "Download and use the Microsoft Error Lookup Tool"
@@ -180,11 +182,11 @@
       - name: "WaitForDebugEventEx"
         href: /windows/desktop/api/debugapi/nf-debugapi-waitfordebugeventex
       - name: "Wow64GetThreadContext"
-        href: /windows/desktop/api/WinBase/nf-winbase-wow64getthreadcontext
+        href: /windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadcontext
       - name: "Wow64GetThreadSelectorEntry"
         href: /windows/desktop/api/WinBase/nf-winbase-wow64getthreadselectorentry
       - name: "Wow64SetThreadContext"
-        href: /windows/desktop/api/WinBase/nf-winbase-wow64setthreadcontext
+        href: /windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadcontext
       - name: "WriteProcessMemory"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-writeprocessmemory
     - name: "Debugging Structures"

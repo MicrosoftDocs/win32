@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about a VHD Snapshot within a VHD Set file.
+description: Retrieves information about a VHD Snapshot within a VHD Set file.
 ms.assetid: 43745935-9bc3-4a87-8762-54693b2cdef6
 title: GetVHDSnapshotInformation method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -146,7 +146,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

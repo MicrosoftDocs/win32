@@ -1,5 +1,5 @@
 ---
-Description: The IX509ExtensionMSApplicationPolicies interface exposes the following methods.
+description: The IX509ExtensionMSApplicationPolicies interface exposes the following methods.
 ms.assetid: 71D61D13-28A3-4349-96D4-212039AE33D7
 title: IX509ExtensionMSApplicationPolicies Methods
 ms.topic: reference

@@ -1,8 +1,7 @@
 ---
-Description: Returns the value passed as the HitKind parameter to ReportHit.
+description: Returns the value passed as the HitKind parameter to ReportHit.
 ms.assetid: 
 title: HitKind
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

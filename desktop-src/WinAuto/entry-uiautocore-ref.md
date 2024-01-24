@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reference
+# Reference (UI Automation)
 
 This section provides reference information about the Microsoft UI Automation API. It contains the following topics.
 

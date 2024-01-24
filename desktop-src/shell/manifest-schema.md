@@ -1,5 +1,5 @@
 ---
-Description: These elements make up the XML schema used in the Web Publishing and Online Print Ordering wizards' transfer manifest.
+description: These elements make up the XML schema used in the Web Publishing and Online Print Ordering wizards' transfer manifest.
 title: Transfer Manifest Schema
 ms.topic: article
 ms.date: 05/31/2018

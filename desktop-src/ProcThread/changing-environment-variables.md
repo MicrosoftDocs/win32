@@ -1,5 +1,5 @@
 ---
-Description: Each process has an environment block associated with it.
+description: Each process has an environment block associated with it.
 ms.assetid: b428688c-7b16-48c7-8d89-55d066496d1c
 title: Changing Environment Variables
 ms.topic: article

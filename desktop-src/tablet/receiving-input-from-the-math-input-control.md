@@ -1,5 +1,5 @@
 ---
-Description: This section explains how to retrieve the MathML markup from the math input control using the Active Template Library (ATL) and the Component Object Model (COM).
+description: This section explains how to retrieve the MathML markup from the math input control using the Active Template Library (ATL) and the Component Object Model (COM).
 ms.assetid: 352d2a0c-8275-4fe4-b523-4c74126ffadf
 title: Receiving Input from the Math Input Control
 ms.topic: article

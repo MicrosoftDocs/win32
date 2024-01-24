@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogVersionException methods"
 title: EsentBadLogVersionException methods
 TOCTitle: EsentBadLogVersionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadLogVersionException](dn274023\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadLogVersionException](./esentbadlogversionexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentBadLogVersionException class](dn274023\(v=exchg.10\).md)
+[EsentBadLogVersionException class](./esentbadlogversionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

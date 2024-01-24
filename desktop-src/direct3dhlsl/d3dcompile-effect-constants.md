@@ -58,7 +58,7 @@ By default, performance mode is enabled. Performance mode disallows mutable stat
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DCompiler.h</dt> </dl> |
 

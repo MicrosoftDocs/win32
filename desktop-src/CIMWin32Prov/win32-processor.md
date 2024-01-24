@@ -1,5 +1,5 @@
 ---
-Description: Represents a device that can interpret a sequence of instructions on a computer running on a Windows operating system.
+description: Represents a device that can interpret a sequence of instructions on a computer running on a Windows operating system.
 ms.assetid: 26f3c7bf-c56a-4cf3-98d4-92ab05b8d244
 ms.tgt_platform: multiple
 title: Win32_Processor class
@@ -195,6 +195,7 @@ This property is inherited from [<b>CIM_Processor</b>](cim-processor.md).
       <dt><b>ia64</b> (6)</dt>
       <dd>Itanium-based systems</dd>
       <dt><b>x64</b> (9)</dt>
+      <dt><b>ARM64</b> (12)</dt>
     </dl>
   </dd>
   <dt><b>AssetTag</b></dt>
@@ -630,6 +631,7 @@ This property is inherited from [<b>CIM_Processor</b>](cim-processor.md).
       <dt><b>z/Architectur base</b> (204)</dt>
       <dt><b>Intel(R) Core(TM) i5 processor</b> (205)</dt>
       <dt><b>Intel(R) Core(TM) i3 processor</b> (206)</dt>
+      <dt><b>Intel(R) Core(TM) i9 processor</b> (207)</dt>
       <dt><b>VIA C7(TM)-M Processor Family</b> (210)</dt>
       <dt><b>VIA C7(TM)-D Processor Family</b> (211)</dt>
       <dt><b>VIA C7(TM) Processor Family</b> (212)</dt>
@@ -1132,11 +1134,7 @@ The **Win32_Processor** class is derived from [**CIM_Processor**](cim-processor.
 
 ## Examples
 
-The [WMI Information Retriever](https://Gallery.TechNet.Microsoft.Com/e493376c-1286-456b-bd4b-4ac3b0e9bb45) VBScript code example on the TechNet Gallery uses the [**Win32_ComputerSystemProcessor**](win32-computersystemprocessor.md) class to retrieve processor information from a number of remote computers.
-
-The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software, including [**Win32_ComputerSystemProcessor**](win32-computersystemprocessor.md), to display information about a local or remote system.
-
-The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechNet.Microsoft.Com/Multithreaded-System-Asset-856a8f7c) PowerShell example on TechNet gallery uses a number of classes, including [**Win32_ComputerSystemProcessor**](win32-computersystemprocessor.md), to retrieve data from a system.
+The "Multithreaded System Asset Gathering with PowerShell" PowerShell sample uses a number of classes, including [**Win32_ComputerSystemProcessor**](win32-computersystemprocessor.md), to retrieve data from a system.
 
 The following VBScript code example retrieves data about the operating system version and the processor it is running on from **Win32_Processor**, [**Win32_ComputerSystem**](win32-computersystem.md), and [**Win32_OperatingSystem**](win32-operatingsystem.md). This example requires Windows Vista or later.
 
@@ -1207,7 +1205,7 @@ End If
 
 ## Requirements
 
-|                          |                                  |
+| Requirement | Value |
 |--------------------------|----------------------------------|
 | Minimum supported client | Windows Vista                    |
 | Minimum supported server | Windows Server 2008              |

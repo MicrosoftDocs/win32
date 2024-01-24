@@ -1,5 +1,5 @@
 ---
-Description: Control of the collector instance. Requires the Administrator (BA) privileges.
+description: Control of the collector instance. Requires the Administrator (BA) privileges.
 ms.assetid: 83b485b2-b03b-4882-a3ff-187eac299755
 ms.tgt_platform: multiple
 title: Control class
@@ -68,7 +68,7 @@ The **Control** class has these methods.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

@@ -1,5 +1,5 @@
 ---
-Description: Contains the Synchronized Accessible Media Interchange (SAMI) language name that is defined for the stream.
+description: Contains the Synchronized Accessible Media Interchange (SAMI) language name that is defined for the stream.
 ms.assetid: 3151c369-9d2b-4f03-9a4a-9b9267314dc1
 title: MF_SD_SAMI_LANGUAGE attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

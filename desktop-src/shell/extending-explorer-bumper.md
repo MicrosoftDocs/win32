@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Extending Windows Explorer
 ms.assetid: 0a0d5e74-d1ee-4a90-abf1-809698d215e2
 title: Extending Windows Explorer
 ms.topic: article

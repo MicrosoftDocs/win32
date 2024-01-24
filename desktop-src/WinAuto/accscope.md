@@ -57,7 +57,7 @@ Changing the **Element Mode** setting triggers a refresh of the visualization. F
 You can select either **Visual** or **List** as the visualization mode for the **AccScope** layout. **Visual** places the elements in coordinate space in the same relationship as the target window. **List** orders the elements in a descending list that's left-aligned in the **AccScope** window and the list order is equivalent to tab order or reading order.
 
 - Select an option from **Show Images** to control when the simple rectangles for image elements are replaced by the actual image (or a small viewport of that image, since often the rectangles are smaller than the actual image). The default is **On Hover**, which displays the image when you navigate within **AccScope** and hover the mouse over the rectangle for an image element. Alternate choices are **Always** or **Never**.
-- Select **Show Tooltip** to show basic element info whenever you hover the mouse over the an element in the **AccScope** visualization. If the **Element Mode** is **Leaf Control** or **Text Pattern** the info shown in the tooltip is the highest-priority element-level UI Automation properties. If the **Element Mode** is **Narrator** the info includes the text that Narrator would read for the element.
+- Select **Show Tooltip** to show basic element info whenever you hover the mouse over an element in the **AccScope** visualization. If the **Element Mode** is **Leaf Control** or **Text Pattern** the info shown in the tooltip is the highest-priority element-level UI Automation properties. If the **Element Mode** is **Narrator** the info includes the text that Narrator would read for the element.
 - Select **Show Numbers** to display sequence numbers that indicate control render order in layout. The number scheme is based on the **Element Mode** setting:
     - **Leaf Control**: the numbers indicates the order in which leaf controls appear in the UI Automation tree.
     - **Text Pattern**: the numbers indicate the order in which text ranges appear in a document range.
@@ -105,7 +105,7 @@ Here are some specific areas of your app to test for the Narrator scenario:
 ## Related topics
 
 - [Accessible Event Watcher](accessible-event-watcher.md)
-- [Testing Tools](testing-tools.md)
+- [Testing for accessibility](accessibility-testingtools.md)
 - [UI Accessibility Checker](ui-accessibility-checker.md)
 - [UI Automation Verify](ui-automation-verify.md)
 - [Microsoft Accessibility](https://www.microsoft.com/accessibility/)

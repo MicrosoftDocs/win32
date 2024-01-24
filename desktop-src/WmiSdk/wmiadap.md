@@ -1,5 +1,5 @@
 ---
-Description: Wmiadap is a application that runs on Windows that can update performance information in the WMI repository.
+description: Wmiadap is a application that runs on Windows that can update performance information in the WMI repository.
 ms.assetid: 459fe19e-3e2e-4a58-b3e7-75fd285f7389
 ms.tgt_platform: multiple
 title: wmiadap

@@ -1,5 +1,5 @@
 ---
-Description: Provides read access to a Windows Journal file, returning a stream containing an XML version of the file's contents.
+description: Provides read access to a Windows Journal file, returning a stream containing an XML version of the file's contents.
 ms.assetid: e4e19f69-6377-4f06-856d-7f9b453e7656
 title: IJournalReader interface (Journal.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ The **JournalReader** class enables you to load a Journal document stream and to
 
 ## Examples
 
-The following example of a handler for a button's [**Click**](/dotnet/api/system.windows.forms.control.click?view=netcore-3.1) event creates an instance of the **JournalReader** class and uses it to read an existing Journal file.
+The following example of a handler for a button's [**Click**](/dotnet/api/system.windows.forms.control.click?view=netcore-3.1&preserve-view=true) event creates an instance of the **JournalReader** class and uses it to read an existing Journal file.
 
 > [!Note]  
 > The **DisplayXml** method called from this example is not shown. The specific implementation of such a method is dependent on your application's needs.
@@ -150,7 +150,7 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 
 
 
-|                                     |                                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                                         |

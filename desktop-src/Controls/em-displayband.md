@@ -34,7 +34,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-A [**RECT**](/previous-versions//dd162897(v=vs.85)) structure specifying the display area of the device.
+A [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure specifying the display area of the device.
 
 </dd> </dl>
 
@@ -54,7 +54,7 @@ Banding is the process by which a single page of output is generated using one o
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

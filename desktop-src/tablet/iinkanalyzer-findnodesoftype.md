@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the IContextNode objects of the specified type.
+description: Retrieves all of the IContextNode objects of the specified type.
 ms.assetid: e6e68d78-9697-40e6-a4ae-a187ef01a769
 title: IInkAnalyzer::FindNodesOfType method (IACom.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

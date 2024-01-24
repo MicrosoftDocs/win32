@@ -1,6 +1,6 @@
 ---
 title: glVertex2s function (Gl.h)
-description: Specifies a vertex.
+description: Specifies a vertex. | glVertex2s function (Gl.h)
 ms.assetid: e964d7b0-1cb7-4334-8861-1cc2ee37a71a
 keywords:
 - glVertex2s function OpenGL
@@ -62,7 +62,7 @@ The glVertex function commands are used within [**glBegin**](glbegin.md)/[**glEn
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

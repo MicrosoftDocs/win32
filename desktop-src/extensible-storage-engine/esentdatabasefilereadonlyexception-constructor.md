@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseFileReadOnlyException constructor"
 title: EsentDatabaseFileReadOnlyException constructor 
 TOCTitle: 'EsentDatabaseFileReadOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseFileReadOnlyException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseFileReadOnlyException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseFileReadOnlyException()
 
 #### Reference
 
-[EsentDatabaseFileReadOnlyException class](dn334306\(v=exchg.10\).md)
+[EsentDatabaseFileReadOnlyException class](./esentdatabasefilereadonlyexception-class.md)
 
-[EsentDatabaseFileReadOnlyException members](dn334411\(v=exchg.10\).md)
+[EsentDatabaseFileReadOnlyException members](./esentdatabasefilereadonlyexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

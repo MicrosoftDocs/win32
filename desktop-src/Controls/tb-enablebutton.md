@@ -34,7 +34,7 @@ Command identifier of the button to enable or disable.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **BOOL** that indicates whether to enable or disable the specified button. If **TRUE**, the button is enabled. If **FALSE**, the button is disabled.
+The [**LOWORD**](../winmsg/loword.md) is a **BOOL** that indicates whether to enable or disable the specified button. If **TRUE**, the button is enabled. If **FALSE**, the button is disabled.
 
 </dd> </dl>
 
@@ -50,7 +50,7 @@ When a button has been enabled, it can be pressed and checked.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

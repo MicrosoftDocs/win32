@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to play a segment of a media file in MFPlay, by setting the start and stop times for playback.
+description: This topic describes how to play a segment of a media file in MFPlay, by setting the start and stop times for playback.
 ms.assetid: cd761a4a-42ad-4994-b1b8-0946d29c3d8b
 title: How to Play a File Clip
 ms.topic: article

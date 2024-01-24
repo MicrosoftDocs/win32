@@ -85,7 +85,7 @@ When the host computer receives the metering data, it sends the data over the In
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>WMDDRMSP.idl</dt> </dl> |
 | Library<br/> | <dl> <dt>Mssachlp.lib</dt> </dl> |

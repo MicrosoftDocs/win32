@@ -1,5 +1,5 @@
 ---
-Description: The information in this topic identifies the recommended guidelines for updating assemblies using Windows Installer patches.
+description: The information in this topic identifies the recommended guidelines for updating assemblies using Windows Installer patches.
 ms.assetid: 60c70d48-aae2-4ea5-a880-ac9e2c83c28c
 title: Updating Assemblies
 ms.topic: article

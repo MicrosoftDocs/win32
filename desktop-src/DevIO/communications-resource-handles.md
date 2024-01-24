@@ -1,5 +1,5 @@
 ---
-Description: A process uses the CreateFile function to open a handle to a communications resource.
+description: A process uses the CreateFile function to open a handle to a communications resource.
 ms.assetid: eaef6067-97a6-40c4-84ec-c0d86af6bb4a
 title: Communications Resource Handles
 ms.topic: article

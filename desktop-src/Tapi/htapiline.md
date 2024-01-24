@@ -1,5 +1,5 @@
 ---
-Description: The HTAPILINE datatype represents the TAPI opaque handle for a line data structure.
+description: The HTAPILINE datatype represents the TAPI opaque handle for a line data structure.
 ms.assetid: 732f0990-cbad-4ce0-873f-7b025603466e
 title: HTAPILINE
 ms.topic: article

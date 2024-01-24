@@ -1,5 +1,5 @@
 ---
-Description: The Authorization Manager API provides interfaces that represent collections of other objects. For example, the IAzRoles interface represents a collection of IAzRole objects.
+description: The Authorization Manager API provides interfaces that represent collections of other objects. For example, the IAzRoles interface represents a collection of IAzRole objects.
 ms.assetid: dfc21263-dbb6-424c-9e1f-56bd4dda1314
 title: Collections (Authorization)
 ms.topic: article

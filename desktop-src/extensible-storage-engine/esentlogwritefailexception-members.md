@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogWriteFailException members"
 title: EsentLogWriteFailException members
 TOCTitle: EsentLogWriteFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogWriteFail exceptions.
 
-The [EsentLogWriteFailException](dn334607\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogWriteFailException](./esentlogwritefailexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogWriteFailException class](dn334607\(v=exchg.10\).md)
+[EsentLogWriteFailException class](./esentlogwritefailexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

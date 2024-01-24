@@ -1,5 +1,5 @@
 ---
-Description: The purpose of a deferred execution custom action is to delay the execution of a system change to the time when the installation script is executed.
+description: The purpose of a deferred execution custom action is to delay the execution of a system change to the time when the installation script is executed.
 ms.assetid: 79bf4d0b-624d-4652-8c4f-0ecd928a88e3
 title: Deferred Execution Custom Actions
 ms.topic: article

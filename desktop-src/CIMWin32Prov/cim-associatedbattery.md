@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AssociatedBattery dependency associates a battery with a logical device. Use this association to model individual batteries that make up an uninterruptible power supply (UPS).
+description: The CIM\_AssociatedBattery dependency associates a battery with a logical device. Use this association to model individual batteries that make up an uninterruptible power supply (UPS).
 ms.assetid: f8d8b3d3-edc5-438a-8be6-3ea4d765085b
 ms.tgt_platform: multiple
 title: CIM_AssociatedBattery class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

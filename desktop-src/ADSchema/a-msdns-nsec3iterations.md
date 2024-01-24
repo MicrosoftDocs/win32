@@ -22,7 +22,7 @@ An attribute that defines how many NSEC3 hash iterations to perform when signing
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-NSEC3-Iterations              |
 | Ldap-Display-Name | msDNS-NSEC3Iterations                |
@@ -43,7 +43,7 @@ An attribute that defines how many NSEC3 hash iterations to perform when signing
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

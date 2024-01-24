@@ -1,6 +1,6 @@
 ---
 title: glVertex4dv function (Gl.h)
-description: Specifies a vertex.
+description: Specifies a vertex. | glVertex4dv function (Gl.h)
 ms.assetid: af0a3c69-0d71-4cbb-9494-561033d99ac1
 keywords:
 - glVertex4dv function OpenGL
@@ -50,7 +50,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

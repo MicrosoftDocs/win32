@@ -1,5 +1,5 @@
 ---
-Description: Outlines the introduction of libraries for Windows 7.
+description: Outlines the introduction of libraries for Windows 7.
 ms.assetid: 83c47963-4c8e-45ee-b707-bd45cfe048cd
 title: Windows Shell Libraries in Windows 7
 ms.topic: article
@@ -67,7 +67,7 @@ Library description files are XML files with the file name extension .library-ms
 
 ## Related topics
 
-[Windows 7 Search](-search-new-for-win7.md)
+[Windows 7 Search](./-search-3x-wds-overview.md)
 
 [New for Windows 7 Search](new-for-windows-7-search.md)
 

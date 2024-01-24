@@ -1,5 +1,5 @@
 ---
-Description: The topic introduces the bitmap decoder, a core Windows Imaging Component (WIC) codec component used to decode image files from a stream.
+description: The topic introduces the bitmap decoder, a core Windows Imaging Component (WIC) codec component used to decode image files from a stream.
 ms.assetid: 9dc8d2ec-5cc5-45fa-8a4d-5bdc3072c90c
 title: Decoding Overview
 ms.topic: article

@@ -12,15 +12,15 @@ This sample is an instance of the [eaptlsconnectionpropertiesv1](eaptlsconnectio
 
 ``` syntax
   <?xml version="1.0" ?>
-  <EapHostConfig xmlns="https://www.microsoft.com/provisioning/EapHostConfig" 
-    xmlns:eapCommon="https://www.microsoft.com/provisioning/EapCommon" 
-    xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapMethodConfig">
+  <EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig" 
+    xmlns:eapCommon="http://www.microsoft.com/provisioning/EapCommon" 
+    xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapMethodConfig">
     <EapMethod>
       <eapCommon:Type>13</eapCommon:Type> 
       <eapCommon:AuthorId>0</eapCommon:AuthorId> 
     </EapMethod>
-    <Config xmlns:baseEap="https://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1" 
-      xmlns:eapTls="https://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV1">
+    <Config xmlns:baseEap="http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1" 
+      xmlns:eapTls="http://www.microsoft.com/provisioning/EapTlsConnectionPropertiesV1">
       <baseEap:Eap>
         <baseEap:Type>13</baseEap:Type> 
         <eapTls:EapType>

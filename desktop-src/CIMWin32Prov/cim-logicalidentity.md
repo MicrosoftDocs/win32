@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalIdentity class is an abstract and generic association that indicates that two logical elements represent different aspects of the same underlying entity.
+description: The CIM\_LogicalIdentity class is an abstract and generic association that indicates that two logical elements represent different aspects of the same underlying entity.
 ms.assetid: 624a52bf-001d-4f18-af77-87a5d1cfa1ff
 ms.tgt_platform: multiple
 title: CIM_LogicalIdentity class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_LogicalIdentity class
+# CIM_LogicalIdentity class (CIMWin32 WMI Providers)
 
 The **CIM\_LogicalIdentity** class is an abstract and generic association that indicates that two logical elements represent different aspects of the same underlying entity. The association conveys what can be defined with multiple inheritance and is restricted to the logical aspects of a managed system element. In most scenarios, the identity relationship is determined by the equivalence of keys, or some other identifying properties of the related elements.
 
@@ -89,7 +89,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

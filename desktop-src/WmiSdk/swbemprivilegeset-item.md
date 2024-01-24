@@ -1,5 +1,5 @@
 ---
-Description: The Item method of the SWbemPrivilegeSet object returns an SWbemPrivilege object from the collection. The Item method is the default method of an SWbemPrivilegeSet object.
+description: The Item method of the SWbemPrivilegeSet object returns an SWbemPrivilege object from the collection. The Item method is the default method of an SWbemPrivilegeSet object.
 ms.assetid: 93a35e65-99ee-40da-9415-4151ac635091
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.Item method (Wbemdisp.h)
@@ -93,7 +93,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

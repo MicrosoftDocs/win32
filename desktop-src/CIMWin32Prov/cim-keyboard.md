@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Keyboard class represents the capabilities and management of the keyboard logical device.
+description: The CIM\_Keyboard class represents the capabilities and management of the keyboard logical device.
 ms.assetid: c465a731-03dd-4418-8b16-96dc2c8b60b5
 ms.tgt_platform: multiple
 title: CIM_Keyboard class
@@ -1273,7 +1273,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The gethostname function uses the WSALookupServiceBegin function to query SVCID\_HOSTNAME as the service class GUID.
+description: The gethostname function uses the WSALookupServiceBegin function to query SVCID\_HOSTNAME as the service class GUID.
 ms.assetid: 39498c2f-6047-484d-a8ea-253461e5b0f5
 title: gethostname Function in the API
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This section examines a portion of a sample application that operates over the network very slowly. Throughout this section, modifications are made to the initial code to improve its performance.
+description: This section examines a portion of a sample application that operates over the network very slowly. Throughout this section, modifications are made to the initial code to improve its performance.
 ms.assetid: 29b96540-1b45-46b7-871a-e728aa50ad24
 title: Improving a Slow Application
 ms.topic: article

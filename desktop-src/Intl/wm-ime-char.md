@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application when the IME gets a character of the conversion result. A window receives this message through its WindowProc function.
+description: Sent to an application when the IME gets a character of the conversion result. A window receives this message through its WindowProc function.
 ms.assetid: 1e1353c3-5215-4829-a00a-2fee47a430eb
 title: WM_IME_CHAR message (Winuser.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_CHAR message
 
-Sent to an application when the IME gets a character of the conversion result. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+Sent to an application when the IME gets a character of the conversion result. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -75,7 +75,7 @@ For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte ch
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -84,14 +84,10 @@ For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte ch
 
 
 ## See also
-
-<dl> <dt>
-
-[Input Method Manager](input-method-manager.md)
-</dt> <dt>
-
-[Input Method Manager Messages](input-method-manager-messages.md)
-</dt> </dl>
+- [Input Method Manager](input-method-manager.md)
+- [Input Method Manager Messages](input-method-manager-messages.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)
 
  
 

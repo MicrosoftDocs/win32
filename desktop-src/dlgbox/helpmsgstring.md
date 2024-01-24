@@ -43,7 +43,7 @@ A handle to the common dialog box.
 *lParam* 
 </dt> <dd>
 
-A pointer to the initialization structure for the common dialog box. This structure can be a [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1), [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta), [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea), [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea), [**PRINTDLG**](/windows/win32/api/commdlg/ns-commdlg-printdlga) or [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure.
+A pointer to the initialization structure for the common dialog box. This structure can be a [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1), [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta), [**FINDREPLACE**](/windows/win32/api/commdlg/ns-commdlg-findreplacea), [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea), [**PRINTDLG**](/windows/win32/api/commdlg/ns-commdlg-printdlga) or [**PAGESETUPDLG**](/windows/win32/api/commdlg/ns-commdlg-pagesetupdlga) structure.
 
 </dd> </dl>
 
@@ -61,7 +61,7 @@ When you create the dialog box, use the **hwndOwner** member of the initializati
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -80,7 +80,7 @@ When you create the dialog box, use the **hwndOwner** member of the initializati
 [**CDN\_HELP**](cdn-help.md)
 </dt> <dt>
 
-[**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1)
+[**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1)
 </dt> <dt>
 
 [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)

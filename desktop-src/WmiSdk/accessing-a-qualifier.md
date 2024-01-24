@@ -1,13 +1,13 @@
 ---
-Description: A qualifier is a tag that provides more information about a WMI object, method, or property.
+description: Describes how to retrieve a WMI qualifier using Powershell, C#, VBScript, and C++; and provides examples.
 ms.assetid: 53a307da-2e81-4361-876a-16b51484512e
 ms.tgt_platform: multiple
-title: Accessing a WMI Qualifier
+title: Accessing a WMI qualifier
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Accessing a WMI Qualifier
+# Accessing a WMI qualifier
 
 A qualifier is a tag that provides more information about a WMI object, method, or property. At times, you may need to access the data stored in a qualifier. For example, a common task is to determine if a provider implements a method by attempting to retrieve the **Implemented** qualifier for that method. For more information, see [WMI Qualifiers](wmi-qualifiers.md) and [Adding a Qualifier](adding-a-qualifier.md).
 
@@ -15,7 +15,7 @@ You can retrieve the qualifiers on a WMI object in PowerShell by first retrievin
 
 **To retrieve a qualifier using PowerShell**
 
--   Retrieve the object whose qualifiers you want to view using [Get-WmiObject](https://technet.microsoft.com/library/dd315379.aspx), and then access the qualifiers through the **Qualifiers** property:
+-   Retrieve the object whose qualifiers you want to view using [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject), and then access the qualifiers through the **Qualifiers** property:
 
     ```PowerShell
     $myDisk = get-wmiObject Win32_LogicalDisk
@@ -184,11 +184,3 @@ The following procedure describes how to retrieve a qualifier using C++.
 2.  Retrieve the qualifier set for a given property with a call to [**IWbemClassObject::GetPropertyQualifierSet**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getpropertyqualifierset) or [**IWbemClassObject::GetMethodQualifierSet**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethodqualifierset) methods.
 
 3.  Access the qualifiers of the object through the returned [**IWbemQualifierSet**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemqualifierset) interface.
-
-## Examples
-
-For more information on retrieving qualifiers, see the [Get-WmiClassMethodsAndWritableWmiProperties](https://Gallery.TechNet.Microsoft.Com/10670e14-4cf1-4ce5-99d0-fc4ca80dac2c) PowerShell code sample on the TechNet Gallery.
-
- 
-
- 

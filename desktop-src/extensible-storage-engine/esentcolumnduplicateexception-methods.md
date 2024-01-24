@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDuplicateException methods"
 title: EsentColumnDuplicateException methods
 TOCTitle: EsentColumnDuplicateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnDuplicateException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnDuplicateException](dn274156\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnDuplicateException](./esentcolumnduplicateexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentColumnDuplicateException class](dn274156\(v=exchg.10\).md)
+[EsentColumnDuplicateException class](./esentcolumnduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

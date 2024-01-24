@@ -1,5 +1,5 @@
 ---
-Description: Creates an ID3DXEffectCompiler from an ASCII effect description.
+description: Creates an ID3DXEffectCompiler from an ASCII effect description.
 ms.assetid: 041e0a3f-3dc6-4cc3-8380-d4a79a3f647a
 title: D3DXCreateEffectCompilerFromResource function (D3DX9Effect.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ The compiler setting also determines the function version. If Unicode is defined
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

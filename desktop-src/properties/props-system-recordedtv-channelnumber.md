@@ -1,5 +1,5 @@
 ---
-Description: The recorded TV channels. For example, 42, 5, 53.
+description: The recorded TV channels. For example, 42, 5, 53.
 ms.assetid: daa738a0-b4db-4b8d-bd88-6ae66c10f7d1
 title: System.RecordedTV.ChannelNumber
 ms.topic: article

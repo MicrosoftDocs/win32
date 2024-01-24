@@ -1,21 +1,24 @@
 ---
-Description: Describes a plane.
+description: D3DXPLANE structure (D3DX10Math.h) - Describes a plane.
 ms.assetid: c6da7343-a4f3-4cac-855b-14bd70c0d3c2
 title: D3DXPLANE structure (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPLANE
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
-# D3DXPLANE structure
+# D3DXPLANE structure (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Describes a plane.
 
@@ -89,7 +92,7 @@ The members of the **D3DXPLANE** structure take the form of the general plane eq
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

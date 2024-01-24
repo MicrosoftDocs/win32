@@ -1,5 +1,5 @@
 ---
-Description: Sent when the window background must be erased (for example, when a window is resized). The message is sent to prepare an invalidated portion of a window for painting.
+description: Sent when the window background must be erased (for example, when a window is resized). The message is sent to prepare an invalidated portion of a window for painting.
 ms.assetid: 3bdc37da-227c-4be1-bf0b-99704b8acbe1
 title: WM_ERASEBKGND message (Winuser.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ An application should return nonzero in response to **WM\_ERASEBKGND** if it pro
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

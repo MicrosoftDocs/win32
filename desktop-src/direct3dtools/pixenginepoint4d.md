@@ -1,5 +1,5 @@
 ---
-Description: Represents a 4D point with 64-bit floating-point (double) coordinates.
+description: Represents a 4D point with 64-bit floating-point (double) coordinates.
 MS-HAID: vspixengine.PixEnginePoint4D
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -47,7 +47,7 @@ The value of the homogenous W component.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

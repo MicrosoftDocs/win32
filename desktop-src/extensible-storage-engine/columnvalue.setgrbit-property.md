@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue.SetGrbit property"
 title: ColumnValue.SetGrbit property 
 TOCTitle: 'SetGrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.SetGrbit
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets column update options.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public SetColumnGrbit SetGrbit { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.SetColumnGrbit](hh538951\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.SetColumnGrbit](./setcolumngrbit-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[ColumnValue class](dn334206\(v=exchg.10\).md)
+[ColumnValue class](./columnvalue-class.md)
 
-[ColumnValue members](dn334156\(v=exchg.10\).md)
+[ColumnValue members](./columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

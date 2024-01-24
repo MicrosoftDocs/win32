@@ -34,7 +34,7 @@ Index of the list-view item for which to set the position.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure that contains the new position of the item, in list-view coordinates.
+Pointer to a [**POINT**](/windows/win32/api/windef/ns-windef-point) structure that contains the new position of the item, in list-view coordinates.
 
 </dd> </dl>
 
@@ -46,7 +46,7 @@ No return value.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

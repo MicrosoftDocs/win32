@@ -1,5 +1,5 @@
 ---
-Description: To make it more difficult for an interloper to substitute a bogus certificate trust list (CTL) for an existing one, verify the signature on the CTL each time the CTL is used.
+description: To make it more difficult for an interloper to substitute a bogus certificate trust list (CTL) for an existing one, verify the signature on the CTL each time the CTL is used.
 ms.assetid: 24ba6955-f6d1-4123-ab39-50385f6e03a0
 title: Verifying a CTL
 ms.topic: article

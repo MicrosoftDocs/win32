@@ -1,5 +1,5 @@
 ---
-Description: The certificate store is central to all certificate management operations.
+description: The certificate store is central to all certificate management operations.
 ms.assetid: e5c7c882-cbfc-4343-952c-b13c67326756
 title: Extending CertOpenStore Functionality
 ms.topic: article
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 The [*certificate store*](../secgloss/c-gly.md) is central to all certificate management operations. The functionality of the [**CertOpenStore**](/windows/win32/api/Wincrypt/nf-wincrypt-certopenstore) function can be extended through the use of an installable (or registered) certificate-store-provider function. For an overview of how to install or register functions for use with the CryptoAPI, see [OID Overview](oid-overview.md).
 
 > [!Note]  
-> Custom certificate stores are not automatically migrated when performing automated deployments. To migrate custom certificate stores, you must create a manifest for migrating the custom stores and use the Windows User State Migration Tool (USMT). The USMT is available for download from the Microsoft Download Center at <https://www.microsoft.com/download/details.aspx?id=10837>.
+> Custom certificate stores are not automatically migrated when performing automated deployments. To migrate custom certificate stores, you must create a manifest for migrating the custom stores and use the Windows User State Migration Tool (USMT).
 
  
 

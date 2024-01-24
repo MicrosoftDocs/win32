@@ -1,6 +1,6 @@
 ---
 title: RWBuffer::Load(int,uint) function
-description: Reads buffer data and returns status of the operation.
+description: Reads buffer data and returns status of the operation. | RWBuffer::Load(int,uint) function
 ms.assetid: 90C9ECE8-2068-47C7-B87A-941B2D4F221D
 keywords:
 - Load function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,uint) function
+# RWBuffer::Load(int,uint) function
 
 Reads buffer data and returns status of the operation.
 

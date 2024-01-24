@@ -1,5 +1,5 @@
 ---
-Description: The IDirect3DDevice9::SetStreamSource method binds a vertex buffer to a device data stream, creating an association between the vertex data and one of several data stream ports that feed the primitive processing functions.
+description: The IDirect3DDevice9::SetStreamSource method binds a vertex buffer to a device data stream, creating an association between the vertex data and one of several data stream ports that feed the primitive processing functions.
 ms.assetid: ef317537-3095-435d-b0f2-83cb3b385da2
 title: Setting the Stream Source (Direct3D 9)
 ms.topic: article

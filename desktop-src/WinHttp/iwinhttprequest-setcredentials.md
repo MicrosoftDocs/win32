@@ -1,5 +1,5 @@
 ---
-Description: Sets credentials to be used with an HTTP server, whether it is a proxy server or an originating server.
+description: Sets credentials to be used with an HTTP server, whether it is a proxy server or an originating server.
 ms.assetid: d96c6e76-92b8-4ad7-8ca7-a9acbed523ff
 title: IWinHttpRequest::SetCredentials method
 ms.topic: reference
@@ -278,7 +278,7 @@ WScript.Echo(WinHttpReq.GetAllResponseHeaders());
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

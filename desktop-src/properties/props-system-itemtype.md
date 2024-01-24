@@ -1,5 +1,5 @@
 ---
-Description: The canonical type of the item.
+description: The canonical type of the item.
 ms.assetid: 530ba98a-09fd-438b-8872-9eee47f0cf54
 title: System.ItemType
 ms.topic: article
@@ -32,8 +32,8 @@ PKEY values are defined in Propkey.h.
 
 The value for System.ItemType is intended to be programmatically parsed, and can be either:
 
--   A file extension that points to a ProgID value (HKEY\_CLASSES\_ROOT\\<ProgID>) holding the display name for the type.
--   A ProgID value (HKEY\_CLASSES\_RROOT\\<ProgID>), containing the display name for the type.
+-   A file extension that points to a ProgID value (HKEY\_CLASSES\_ROOT\\&lt;ProgID&gt;) holding the display name for the type.
+-   A ProgID value (HKEY\_CLASSES\_RROOT\\&lt;ProgID&gt;), containing the display name for the type.
 
 The FriendlyTypeName element of a ProgID should be a localized version of the application name (@winword.dll,-42), while the default value of the ProgID key is a non-localized name (Word.Document.12).
 

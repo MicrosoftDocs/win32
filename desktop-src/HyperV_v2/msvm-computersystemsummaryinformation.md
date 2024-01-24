@@ -1,5 +1,5 @@
 ---
-Description: Contains an information summary about the specified virtual computer system.
+description: Contains an information summary about the specified virtual computer system.
 ms.assetid: ab31d5db-a8d3-47bc-a024-0f4c4b93a34b
 title: Msvm_ComputerSystemSummaryInformation class
 ms.topic: reference
@@ -94,7 +94,7 @@ An instance of [**Msvm\_SummaryInformation**](msvm-summaryinformation.md) that r
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

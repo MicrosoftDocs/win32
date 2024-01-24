@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_TABLECREATE properties"
 title: JET_TABLECREATE properties
 TOCTitle: JET_TABLECREATE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_TABLECREATE
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_TABLECREATE](dn351072\(v=exchg.10\).md) type exposes the following members.
+The [JET_TABLECREATE](./jet-tablecreate-class.md) type exposes the following members.
 
 ## Properties
 
@@ -116,7 +117,6 @@ Top
 
 #### Reference
 
-[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](./jet-tablecreate-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

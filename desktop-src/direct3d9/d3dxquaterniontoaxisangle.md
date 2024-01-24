@@ -1,22 +1,25 @@
 ---
-Description: Computes a quaternion's axis and angle of rotation.
+description: D3DXQuaternionToAxisAngle function (D3dx9math.h) - Computes a quaternion's axis and angle of rotation.
 ms.assetid: 6efd0a68-7641-403e-8ae2-c715b705b36e
 title: D3DXQuaternionToAxisAngle function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionToAxisAngle
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXQuaternionToAxisAngle function
+# D3DXQuaternionToAxisAngle function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Computes a quaternion's axis and angle of rotation.
 
@@ -76,7 +79,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

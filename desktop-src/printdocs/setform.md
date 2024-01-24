@@ -1,5 +1,5 @@
 ---
-Description: The SetForm function sets the form information for the specified printer.
+description: The SetForm function sets the form information for the specified printer.
 ms.assetid: 05d5d495-952c-4a1d-8694-1004d0c2bcf6
 title: SetForm function (Winspool.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ If the caller is remote and the *Level* is 2, the **StringType** value of the [*
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

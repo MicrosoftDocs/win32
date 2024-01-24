@@ -1,5 +1,5 @@
 ---
-Description: Uses the passphrase to obtain the derived key.
+description: UnlockWithPassphrase method of the Win32_EncryptableVolume class - Uses the passphrase to obtain the derived key.
 ms.assetid: 09b4ae7f-7084-42bd-8bbe-da686d6280e9
 title: UnlockWithPassphrase method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -74,7 +74,7 @@ This method returns one of the following codes or another error code if it fails
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

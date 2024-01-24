@@ -1,5 +1,5 @@
 ---
-Description: You can use a namespace extension to allow users to browse the contents of a file rather than have it presented as a folder. Extensions of this sort are typically used to display the contents of the members of a file type.
+description: You can use a namespace extension to allow users to browse the contents of a file rather than have it presented as a folder. Extensions of this sort are typically used to display the contents of the members of a file type.
 title: How to Display a Rooted View of a File
 ms.topic: article
 ms.date: 05/31/2018
@@ -13,7 +13,6 @@ You must use a rooted view in order to have an extension display the contents of
 
 ## Instructions
 
-### 
 
 The following example illustrates how to use the registry to provide a rooted view of the members of a file type by modifying the registry. The sample registry entry is a modification of one of the examples in [Extending Shortcut Menus](context.md). The registry entries define files with an .myp file name extension as a file type, and use the **browse** verb to launch a rooted view of members of that type.
 

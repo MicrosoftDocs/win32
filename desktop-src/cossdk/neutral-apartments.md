@@ -1,5 +1,5 @@
 ---
-Description: COM+ introduces neutral apartments to simplify programming in multithreaded environments. The neutral apartment is the preferred model for COM+ for components with no user interface.
+description: COM+ introduces neutral apartments to simplify programming in multithreaded environments. The neutral apartment is the preferred model for COM+ for components with no user interface.
 ms.assetid: 679742af-7c04-4b0e-822a-a43e1aafa936
 title: Neutral Apartments
 ms.topic: article

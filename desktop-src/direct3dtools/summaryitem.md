@@ -1,5 +1,5 @@
 ---
-Description: Represents summary information about an event.
+description: Represents summary information about an event.
 MS-HAID: vspixengine.SummaryItem
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -47,7 +47,7 @@ The ID of the Parent event, if any.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

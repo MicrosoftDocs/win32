@@ -1,5 +1,5 @@
 ---
-Description: You can use the WMI scripting type library to call WMI Scripting API methods from Microsoft Visual Studio and in Windows Script Host WSF files.
+description: You can use the WMI scripting type library to call WMI Scripting API methods from Microsoft Visual Studio and in Windows Script Host WSF files.
 ms.assetid: 6ef4e210-0733-4f2a-89c1-1a7aca5a19d9
 ms.tgt_platform: multiple
 title: Using the WMI Scripting Type Library
@@ -63,7 +63,7 @@ Scripts can connect with the Scripting API for WMI type library using the follow
 
     
 
--   Referencing the WMI type library using the <reference> tag of the WSH 2.0 XML file format. If you use the <reference> tag, the tag must have either a **uuid** attribute whose value is the **GUID** of the WMI type library, or (recommended) an object attribute whose value is the **PROGID** of any of the WMI scripting objects you can create.
+-   Referencing the WMI type library using the &lt;reference&gt; tag of the WSH 2.0 XML file format. If you use the &lt;reference&gt; tag, the tag must have either a **uuid** attribute whose value is the **GUID** of the WMI type library, or (recommended) an object attribute whose value is the **PROGID** of any of the WMI scripting objects you can create.
 
     The following VBScript code example uses the PROGID of "WbemScripting" . To run the script, save the text in a file with a .wsf extension.
 

@@ -1,5 +1,5 @@
 ---
-Description: The system loads a time provider based on its configuration information stored in the registry.
+description: The system loads a time provider based on its configuration information stored in the registry.
 ms.assetid: 67f79c31-9dd7-4e3f-bfe1-701b10611f91
 title: Registering a Time Provider
 ms.topic: article

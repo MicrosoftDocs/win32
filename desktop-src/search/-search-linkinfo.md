@@ -1,5 +1,5 @@
 ---
-Description: Stores information about link types, and is used by the IItemPreviewerExt interface.
+description: Stores information about link types, and is used by the IItemPreviewerExt interface.
 ms.assetid: c1d525ea-ee80-49fb-9447-20465b8f8654
 title: LINKINFO structure
 ms.topic: reference
@@ -138,7 +138,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

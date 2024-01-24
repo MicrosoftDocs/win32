@@ -1,5 +1,5 @@
 ---
-Description: Establish a relationship between an instance of the Msvm\_EmulatedEthernetPortSettingData or Msvm\_SyntheticEthernetPortSettingData class with an instance of the Msvm\_GuestNetworkAdapterConfiguration class.
+description: Establish a relationship between an instance of the Msvm\_EmulatedEthernetPortSettingData or Msvm\_SyntheticEthernetPortSettingData class with an instance of the Msvm\_GuestNetworkAdapterConfiguration class.
 ms.assetid: 82262e67-1e72-4bad-974e-f18d00a94c3d
 title: Msvm_SettingDataComponent class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_GuestNetworkAdapterConfiguration**](m
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

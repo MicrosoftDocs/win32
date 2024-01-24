@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves a Boolean value that specifies whether user interface prompts for a signer or sender's identity can be used.
+description: Sets or retrieves a Boolean value that specifies whether user interface prompts for a signer or sender's identity can be used.
 ms.assetid: b9765de4-0b94-4006-aaa8-9ad6858da1f4
 title: Settings.EnablePromptForCertificateUI property
 ms.topic: reference
@@ -43,7 +43,7 @@ If **true**, user interface prompts for a signer or sender's identity can be use
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

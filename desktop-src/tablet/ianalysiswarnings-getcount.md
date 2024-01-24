@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of IAnalysisWarning objects contained in the IAnalysisWarnings collection.
+description: Gets the number of IAnalysisWarning objects contained in the IAnalysisWarnings collection.
 ms.assetid: a0ad46d5-fb1b-40f6-bfc1-28ea1bf4eb44
 title: IAnalysisWarnings::GetCount method (IACom.h)
 ms.topic: reference
@@ -132,7 +132,7 @@ STDMETHODIMP CMyClass::Results(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

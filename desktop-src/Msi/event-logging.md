@@ -1,12 +1,12 @@
 ---
-Description: Windows Events provides a standard, centralized way for applications (and the operating system) to record important software and hardware events.
+description: Windows Events provides a standard, centralized way for applications (and the operating system) to record important software and hardware events.
 ms.assetid: 1f28cbce-b759-4293-8af2-15f86f23228c
 title: Event Logging (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Event Logging
+# Event Logging (Windows Installer)
 
 [Windows Events](../events/windows-events.md) provides a standard, centralized way for applications (and the operating system) to record important software and hardware events. The event-logging service stores events from various sources in a single collection called an *event log*. Prior to Windows Vista, you would use either [Event Tracing for Windows](../etw/event-tracing-portal.md) (ETW) or [Event Logging](../eventlog/event-logging.md) to log events. Windows Vista introduced a new eventing model that unifies both ETW and the [Windows Event Log](../wes/windows-event-log.md) API.
 
@@ -214,6 +214,11 @@ For information about how to enable verbose logging on a user's computer when tr
 <strong>msirbRebootForceRebootReason</strong> (3)- The package contains a <a href="forcereboot-action.md">ForceReboot</a> action.<br />
 <strong>msirbRebootCustomActionReason</strong> (4)- A custom action called the <a href="/windows/desktop/api/Msiquery/nf-msiquery-msisetmode"><strong>MsiSetMode</strong></a> function.<br />
 </dl> </dd> </dl> <strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3.1 and earlier</a>:</strong> Not available.<br/> Field 6 - <a href="manufacturer.md"><strong>Manufacturer</strong></a><br/> <strong><a href="not-supported-in-windows-installer-4-5.md">Windows Installer 4.5 and earlier</a>:</strong> Field 6 not available.<br/></td>
+</tr>
+<tr class="odd">
+<td>1044</td>
+<td>%1 is not Microsoft signed. So, rejecting per the Windows Lockdown Policy.</td>
+<td>Error message indicating that binary is not signed by Microsoft and is not allowed as per Windows Lockdown Policy.</td>
 </tr>
 <tr class="even">
 <td>10005</td>

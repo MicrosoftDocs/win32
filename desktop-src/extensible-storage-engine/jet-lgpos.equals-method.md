@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.Equals method"
 title: JET_LGPOS.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_LGPOS.Equals
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](./jet-lgpos-structure2.md)
 
-[JET_LGPOS members](hh566576\(v=exchg.10\).md)
+[JET_LGPOS members](./jet-lgpos-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

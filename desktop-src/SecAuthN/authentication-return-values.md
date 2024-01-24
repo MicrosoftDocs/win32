@@ -1,5 +1,5 @@
 ---
-Description: Lists the values returned by functions in authentication APIs.
+description: Lists the values returned by functions in authentication APIs.
 ms.assetid: ea519e5c-98b0-4a01-b2cc-e5ff736a5396
 title: Authentication Return Values
 ms.topic: article

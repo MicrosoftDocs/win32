@@ -1,5 +1,5 @@
 ---
-Description: The first line of a street address.
+description: The first line of a street address.
 ms.assetid: 93a105ca-66be-4f4f-bb81-945b061c5d7d
 title: LocationDisp.DispCivicAddressReport.AddressLine1 property
 ms.topic: reference
@@ -43,7 +43,7 @@ For an example of how to use this property, see [A Simple Civic Address Report E
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

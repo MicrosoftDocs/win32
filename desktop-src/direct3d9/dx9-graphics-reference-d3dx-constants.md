@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the constants defined in D3DX.
+description: This section contains reference information for the constants defined in D3DX.
 ms.assetid: 255162c5-ad12-4236-81df-7ed43d75854d
 title: D3DX Constants
 ms.topic: article

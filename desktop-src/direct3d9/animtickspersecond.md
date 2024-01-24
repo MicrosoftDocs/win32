@@ -1,5 +1,5 @@
 ---
-Description: Describes an animation scale factor.
+description: Describes an animation scale factor.
 ms.assetid: 54cb0e81-31e0-4b0f-a5f9-e2807ce373d5
 title: AnimTicksPerSecond
 ms.topic: reference

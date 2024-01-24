@@ -1,6 +1,6 @@
 ---
 title: levels (MetadataType) Element
-description: Defines a list of levels that specify the severity of an event.
+description: Defines a list of levels that specify the severity of an event. | levels (MetadataType) Element
 ms.assetid: 710a4c7e-d37e-4543-8fdf-44688085b996
 keywords:
 - levels element EventLog
@@ -31,7 +31,7 @@ The **levels** element is defined by the [**MetadataType**](eventmanifestschema-
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

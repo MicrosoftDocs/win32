@@ -19,7 +19,6 @@ api_location:
 
 Generates a random value using the Perlin-noise algorithm.
 
-## 
 
 
 

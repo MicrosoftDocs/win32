@@ -1,5 +1,5 @@
 ---
-Description: Using the Video Display Controls
+description: Using the Video Display Controls
 ms.assetid: 09501d67-effb-41ce-a7b7-d2415acdf3ac
 title: Using the Video Display Controls
 ms.topic: article
@@ -7,6 +7,9 @@ ms.date: 05/31/2018
 ---
 
 # Using the Video Display Controls
+
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
+
 
 The [**IMFVideoDisplayControl**](/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol) interface controls how the enhanced video renderer (EVR) displays video inside an application window. This interface can be used in either DirectShow or Media Foundation. Internally, the video display controls are provided by the EVR's default presenter. If you write a custom presenter, you can provide the same interface or define a custom interface.
 

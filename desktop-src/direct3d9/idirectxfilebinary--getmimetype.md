@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the Multipurpose Internet Mail Extensions (MIME) type for the binary data. Deprecated.
+description: Retrieves the Multipurpose Internet Mail Extensions (MIME) type for the binary data. Deprecated.
 ms.assetid: 57c42ace-4313-40d8-9992-eaf12edf3a30
 title: IDirectXFileBinary::GetMimeType method (DXFile.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ When there is no MIME type specified in a DirectX file for a binary object, the 
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Posted to the window with the keyboard focus when the user releases a key that was pressed while the ALT key was held down. It also occurs when no window currently has the keyboard focus; in this case, the **WM\_SYSKEYUP** message is sent to the active window. The window that receives the message can distinguish between these two contexts by checking the context code in the *lParam* parameter.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -53,7 +53,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 | 16-23 | The scan code. The value depends on the OEM.                                                                                                                                                                                  |
 | 24    | Indicates whether the key is an extended key, such as the right-hand ALT and CTRL keys that appear on an enhanced 101- or 102-key keyboard. The value is 1 if it is an extended key; otherwise, it is zero.                   |
 | 25-28 | Reserved; do not use.                                                                                                                                                                                                         |
-| 29    | The context code. The value is 1 if the ALT key is down while the key is released; it is zero if the [**WM\_SYSKEYDOWN**](wm-syskeydown.md) message is posted to the active window because no window has the keyboard focus. |
+| 29    | The context code. The value is 1 if the ALT key is down while the key is released; it is zero if the **WM\_SYSKEYUP** message is posted to the active window because no window has the keyboard focus. |
 | 30    | The previous key state. The value is always 1 for a **WM\_SYSKEYUP** message.                                                                                                                                                 |
 | 31    | The transition state. The value is always 1 for a **WM\_SYSKEYUP** message.                                                                                                                                                   |
 
@@ -92,7 +92,7 @@ For non-U.S. enhanced 102-key keyboards, the right ALT key is handled as a CTRL+
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -101,29 +101,12 @@ For non-U.S. enhanced 102-key keyboards, the right ALT key is handled as a CTRL+
 
 
 ## See also
-
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
-</dt> <dt>
-
-[**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
-</dt> <dt>
-
-[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
-</dt> <dt>
-
-[**WM\_SYSKEYDOWN**](wm-syskeydown.md)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
+- [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+- [**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
+- [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
+- [**WM\_SYSKEYDOWN**](wm-syskeydown.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
 
  
 

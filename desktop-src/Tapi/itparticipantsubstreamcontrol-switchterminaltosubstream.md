@@ -1,5 +1,5 @@
 ---
-Description: The SwitchTerminalToSubStream method sets a terminal to the participant substream.
+description: The SwitchTerminalToSubStream method sets a terminal to the participant substream.
 ms.assetid: 39e1d4b9-2e39-4b36-9a6a-89e41cd59153
 title: ITParticipantSubStreamControl::SwitchTerminalToSubStream method (Confpriv.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

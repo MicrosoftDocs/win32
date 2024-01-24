@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are used by time providers:'
+description: 'The following elements are used by time providers:'
 ms.assetid: c5f4c7fb-d45a-4a28-9d20-a8e91fc2b857
 title: Time Provider Reference
 ms.topic: article

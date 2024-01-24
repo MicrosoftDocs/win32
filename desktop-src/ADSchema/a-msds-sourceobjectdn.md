@@ -22,7 +22,7 @@ Contains the string representation of the distinguished name of the object in an
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Source-Object-DN                      |
 | Ldap-Display-Name | msDS-SourceObjectDN                         |
@@ -46,7 +46,7 @@ Contains the string representation of the distinguished name of the object in an
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -67,7 +67,7 @@ Contains the string representation of the distinguished name of the object in an
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -88,7 +88,7 @@ Contains the string representation of the distinguished name of the object in an
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -109,7 +109,7 @@ Contains the string representation of the distinguished name of the object in an
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

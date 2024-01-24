@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch.IsRunning property"
 title: EsentStopwatch.IsRunning property 
 TOCTitle: 'IsRunning property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentStopwatch.IsRunning
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a value indicating whether the EsentStopwatch timer is running.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Boolean](/dotnet/api/system.boolean)
 
 #### Reference
 
-[EsentStopwatch class](dn334867\(v=exchg.10\).md)
+[EsentStopwatch class](./esentstopwatch-class.md)
 
-[EsentStopwatch members](dn334924\(v=exchg.10\).md)
+[EsentStopwatch members](./esentstopwatch-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

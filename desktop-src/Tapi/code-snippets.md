@@ -1,5 +1,5 @@
 ---
-Description: The following code examples briefly illustrate some basic operations. The examples are written in C++. The samples section of the Platform Software Development Kit (SDK) contains full programs that can be compiled.
+description: The following code examples briefly illustrate some basic operations. The examples are written in C++. The samples section of the Platform Software Development Kit (SDK) contains full programs that can be compiled.
 ms.assetid: 78a690d2-ccb9-48e0-b137-fb102017fa6a
 title: Code Examples
 ms.topic: article

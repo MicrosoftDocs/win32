@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetMetadataQueryWriter method.
+description: IWICBitmapEncoder_GetMetadataQueryWriter_Proxy function - Proxy function for the GetMetadataQueryWriter method.
 ms.assetid: 3186d473-f8a7-405a-8429-3f50104bee4a
 title: IWICBitmapEncoder_GetMetadataQueryWriter_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

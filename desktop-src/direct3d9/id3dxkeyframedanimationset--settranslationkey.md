@@ -1,5 +1,5 @@
 ---
-Description: Set translation information for a specific key frame in the animation set.
+description: Set translation information for a specific key frame in the animation set.
 ms.assetid: 4a926c0f-6d57-48d4-bb3b-60766fc78e40
 title: ID3DXKeyframedAnimationSet::SetTranslationKey method (D3dx9anim.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

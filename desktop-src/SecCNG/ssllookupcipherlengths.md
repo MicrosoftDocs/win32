@@ -1,5 +1,5 @@
 ---
-Description: Returns an NCRYPT\_SSL\_CIPHER\_LENGTHS structure that contains the header and trailer lengths of the input protocol, cipher suite, and key type.
+description: Returns an NCRYPT\_SSL\_CIPHER\_LENGTHS structure that contains the header and trailer lengths of the input protocol, cipher suite, and key type.
 ms.assetid: 44d0d803-16d7-4bdf-9638-afbdaf9e1802
 title: SslLookupCipherLengths function (Sslprovider.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ The **SslLookupCipherLengths** function is called for [*Transport Layer Security
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |

@@ -22,7 +22,7 @@ Backlink to TDO Egress rules link on object.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-TDO-Egress-BL                     |
 | Ldap-Display-Name | msDS-TDOEgressBL                        |
@@ -43,7 +43,7 @@ Backlink to TDO Egress rules link on object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2193                            |
 | MAPI-Id                | \-                              |

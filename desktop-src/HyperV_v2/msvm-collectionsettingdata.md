@@ -1,5 +1,5 @@
 ---
-Description: The class that represents configured settings for an Msvm\_VirtualSystemCollection.
+description: The class that represents configured settings for an Msvm\_VirtualSystemCollection.
 ms.assetid: 6592a551-e80a-4bf5-8808-c859cb6c2b4f
 title: Msvm_CollectionSettingData class
 ms.topic: reference
@@ -38,7 +38,7 @@ The **Msvm\_CollectionSettingData** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

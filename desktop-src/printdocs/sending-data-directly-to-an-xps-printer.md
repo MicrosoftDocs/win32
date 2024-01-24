@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to send printer control data directly to printers that use XPSDrv printer drivers.
+description: This topic describes how to send printer control data directly to printers that use XPSDrv printer drivers.
 ms.assetid: 7e98e08a-d572-451d-befb-18fc86f0e505
 title: 'How To: Send Data Directly to an XPS Printer'
 ms.topic: article

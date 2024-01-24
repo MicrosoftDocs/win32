@@ -1,5 +1,5 @@
 ---
-Description: Sets the sample for the media stream source.
+description: Sets the sample for the media stream source.
 ms.assetid: a35c5e18-f307-4e40-bc92-f91aa9eb80ba
 title: IMFMediaStreamSourceSampleRequest::SetSample method
 ms.topic: reference
@@ -49,7 +49,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                       |

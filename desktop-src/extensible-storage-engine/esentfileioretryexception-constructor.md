@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIORetryException constructor"
 title: EsentFileIORetryException constructor 
 TOCTitle: 'EsentFileIORetryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIORetryException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFileIORetryException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentFileIORetryException()
 
 #### Reference
 
-[EsentFileIORetryException class](dn274364\(v=exchg.10\).md)
+[EsentFileIORetryException class](./esentfileioretryexception-class.md)
 
-[EsentFileIORetryException members](dn274365\(v=exchg.10\).md)
+[EsentFileIORetryException members](./esentfileioretryexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

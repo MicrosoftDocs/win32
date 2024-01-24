@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesCannotRetrieveFromIndexException methods"
 title: EsentIndexTuplesCannotRetrieveFromIndexException methods
 TOCTitle: EsentIndexTuplesCannotRetrieveFromIndexException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesCannotRetrieveFromIndexException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexTuplesCannotRetrieveFromIndexException](dn319401\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesCannotRetrieveFromIndexException](./esentindextuplescannotretrievefromindexexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesCannotRetrieveFromIndexException class](dn319401\(v=exchg.10\).md)
+[EsentIndexTuplesCannotRetrieveFromIndexException class](./esentindextuplescannotretrievefromindexexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

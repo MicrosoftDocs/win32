@@ -1,12 +1,15 @@
 ---
-Description: Negotiating Allocators
+description: Negotiating Allocators
 ms.assetid: fe13477c-1a7b-4098-9d0f-c54783102bc9
 title: Negotiating Allocators
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Negotiating Allocators
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When two pins connect, they need a mechanism for exchanging media data. This mechanism is called the *transport*. In general, the DirectShow architecture is neutral about transports. Two filters can agree to connect using any transport that both support.
 
@@ -32,7 +35,7 @@ In an **IAsyncReader** connection, allocator negotiation works as follows:
 2.  The output pin selects an allocator. It can use the one provided by the input pin, if any, or create its own.
 3.  The output pin returns the allocator as an outgoing parameter in the **RequestAllocator** method. The input pin should check the allocator properties.
 4.  The input pin is responsible for committing and decommitting the allocator.
-5.  At any time during the allocator negoriation process, either pin can fail the connection.
+5.  At any time during the allocator negotiation process, either pin can fail the connection.
 6.  If the output pin uses the input pin's allocator, it can use that allocator only to deliver samples to that input pin. The owning filter must not use the allocator to deliver samples to other pins.
 
 ## Related topics

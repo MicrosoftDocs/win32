@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LOGTIME properties"
 title: JET_LOGTIME properties
 TOCTitle: JET_LOGTIME properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_LOGTIME
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_LOGTIME](hh557188\(v=exchg.10\).md) type exposes the following members.
+The [JET_LOGTIME](./jet-logtime-structure2.md) type exposes the following members.
 
 ## Properties
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](./jet-logtime-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

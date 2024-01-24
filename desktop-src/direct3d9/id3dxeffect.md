@@ -1,5 +1,5 @@
 ---
-Description: Used to set and query effects, and to choose techniques. An effect object can contain multiple techniques to render the same effect.
+description: Used to set and query effects, and to choose techniques. An effect object can contain multiple techniques to render the same effect.
 ms.assetid: bffc64ab-12e7-44e9-b296-262b0459a68a
 title: ID3DXEffect interface (D3DX9Effect.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ typedef interface ID3DXEffect *LPD3DXEFFECT;
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

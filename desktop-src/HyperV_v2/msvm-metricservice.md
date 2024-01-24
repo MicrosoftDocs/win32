@@ -1,5 +1,5 @@
 ---
-Description: Provides the ability to manage metrics.
+description: Provides the ability to manage metrics.
 ms.assetid: '39dee432-995d-472a-84c3-eede95dccb43'
 title: Msvm_MetricService class
 ms.topic: reference
@@ -621,7 +621,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

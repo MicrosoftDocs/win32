@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the applications callback interface for the Source Reader.
+description: Contains a pointer to the applications callback interface for the Source Reader.
 ms.assetid: de226a5a-03c0-4bfe-bb20-8969ce43cf53
 title: MF_SOURCE_READER_ASYNC_CALLBACK attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ Use this attribute with the following functions:
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,12 +1,12 @@
 ---
-Description: Installation
+description: This article contains links to installation articles in Developer Notes. Use these articles to install components.
 ms.assetid: 02A7866F-0F72-4437-A882-EEE9C2E28EC7
 title: Installation (Developer Notes)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Installation
+# Installation (Developer Notes)
 
 ## In this section
 

@@ -1,5 +1,5 @@
 ---
-Description: When a file is opened by a process using the CreateFile function, a file handle is associated with it until either the process terminates or the handle is closed using the CloseHandle function.
+description: When a file is opened by a process using the CreateFile function, a file handle is associated with it until either the process terminates or the handle is closed using the CloseHandle function.
 ms.assetid: c8188e28-ec1b-4746-86f6-5996ff271677
 title: File Handles
 ms.topic: article

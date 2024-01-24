@@ -1,5 +1,5 @@
 ---
-Description: XPS Digital Signature API Enumerations
+description: XPS Digital Signature API Enumerations
 ms.assetid: e03cfb39-7d4f-4bbf-bf05-21165caf7f48
 title: XPS Digital Signature API Enumerations
 ms.topic: article
@@ -28,7 +28,7 @@ ms.date: 05/31/2018
 
 <dl> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

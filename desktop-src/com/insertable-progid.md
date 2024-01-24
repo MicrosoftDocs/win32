@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Insertable
+# Insertable (ProgID Key)
 
 Indicates that this class is insertable in OLE 2 containers.
 

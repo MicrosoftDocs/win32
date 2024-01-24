@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySortsException members"
 title: EsentTooManySortsException members
 TOCTitle: EsentTooManySortsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManySortsException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TooManySorts exceptions.
 
-The [EsentTooManySortsException](dn350779\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManySortsException](./esenttoomanysortsexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTooManySortsException class](dn350779\(v=exchg.10\).md)
+[EsentTooManySortsException class](./esenttoomanysortsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

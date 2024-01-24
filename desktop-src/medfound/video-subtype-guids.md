@@ -1,5 +1,5 @@
 ---
-Description: The following video subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.
+description: The following video subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.
 ms.assetid: 7dfd85e6-936e-4b78-a2cb-a5d59153e1c4
 title: Video Subtype GUIDs
 ms.topic: article
@@ -56,6 +56,7 @@ When these subtypes are used, set the [MF\_MT\_MAJOR\_TYPE](mf-mt-major-type-att
 | **MFVideoFormat\_IYUV** | IYUV   | 4:2:0    | Planar           | 8                |
 | **MFVideoFormat\_NV11** | NV11   | 4:1:1    | Planar           | 8                |
 | **MFVideoFormat\_NV12** | NV12   | 4:2:0    | Planar           | 8                |
+| **MFVideoFormat\_NV21** | NV21   | 4:2:0    | Planar           | 8                |
 | **MFVideoFormat\_UYVY** | UYVY   | 4:2:2    | Packed           | 8                |
 | **MFVideoFormat\_Y41P** | Y41P   | 4:1:1    | Packed           | 8                |
 | **MFVideoFormat\_Y41T** | Y41T   | 4:1:1    | Packed           | 8                |
@@ -176,7 +177,7 @@ The **D3DFORMAT** enumeration is defined in the header file d3d9types.h. The fol
 | 32-bit RGB with alpha channel                                           | **D3DFMT\_A8R8G8B8**    |
 | 24-bit RGB                                                              | **D3DFMT\_R8G8B8**      |
 | RGB 555 (16-bit RGB)                                                    | **D3DFMT\_X1R5G5B5**    |
-| RGB 555 with alpha channel                                              | **D3DFMT\_A4R4G4B4**    |
+| RGB 555 with alpha channel                                              | **D3DFMT\_A1R5G5B5**    |
 | RGB 565 (16-bit RGB)                                                    | **D3DFMT\_R5G6B5**      |
 | 8-bit palettized RGB                                                    | **D3DFMT\_P8**          |
 | A2 R10 G10 B10 (32-bit RGB with alpha channel; 10 bits per RGB channel) | **D3DFMT\_A2R10G10B10** |

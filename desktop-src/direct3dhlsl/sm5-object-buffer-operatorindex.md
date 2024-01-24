@@ -1,6 +1,6 @@
 ---
 title: Buffer::Operator  function
-description: Returns a read-only resource variable.
+description: Returns a read-only resource variable. | Buffer::Operator  function
 ms.assetid: 6a9e1176-439b-4565-9c7e-957d7c4045f0
 keywords:
 - Operator function Direct Write
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# Buffer::Operator  function
 
 Returns a read-only resource variable.
 

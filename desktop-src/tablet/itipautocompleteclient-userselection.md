@@ -1,5 +1,5 @@
 ---
-Description: Notifies the Input Panel that the user has selected something in the auto complete list and to discard all remaining text that has not yet been inserted.
+description: Notifies the Input Panel that the user has selected something in the auto complete list and to discard all remaining text that has not yet been inserted.
 ms.assetid: 2e6fabe1-7984-4908-bf90-0603d0dad268
 title: ITipAutocompleteClient::UserSelection method (TipAutoComplete.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ This method is called from the provider to notify the client that a selection ha
 
 
 
-|                                     |                                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |

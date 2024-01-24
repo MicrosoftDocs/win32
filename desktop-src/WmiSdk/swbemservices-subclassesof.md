@@ -1,5 +1,5 @@
 ---
-Description: Returns an SWbemObjectSet object.
+description: Returns an SWbemObjectSet object.
 ms.assetid: cfe08956-7215-4e2e-a279-6e86f14e5c27
 ms.tgt_platform: multiple
 title: SWbemServices.SubclassesOf method (Wbemdisp.h)
@@ -191,7 +191,7 @@ $WbemClasses
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

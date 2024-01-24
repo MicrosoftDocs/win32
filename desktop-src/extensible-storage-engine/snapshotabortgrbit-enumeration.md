@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SnapshotAbortGrbit enumeration"
 title: SnapshotAbortGrbit enumeration (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: SnapshotAbortGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit
@@ -30,11 +31,11 @@ ROBOTS: INDEX,FOLLOW
 
 # SnapshotAbortGrbit enumeration
 
-Options for [JetOSSnapshotAbort(JET_OSSNAPID, SnapshotAbortGrbit)](dn351279\(v=exchg.10\).md).
+Options for [JetOSSnapshotAbort(JET_OSSNAPID, SnapshotAbortGrbit)](./server2003api.jetossnapshotabort-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](hh557147\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](./microsoft.isam.esent.interop.server2003-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -76,4 +77,4 @@ public enum SnapshotAbortGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

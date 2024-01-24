@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the file title for the specified file path.
+description: Retrieves the file title for the specified file path.
 ms.assetid: 9a559d71-4883-4905-b3ad-64b256a2f51e
 title: pSetupGetFileTitle function
 ms.topic: reference
@@ -55,7 +55,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 

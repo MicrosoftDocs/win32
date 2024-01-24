@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Document.ParagraphCount
 ms.assetid: feb712fb-3125-4f5d-b428-97d3586d41e8
 title: System.Document.ParagraphCount
 ms.topic: article

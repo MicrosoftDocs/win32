@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetColors method.
+description: Proxy function for the GetColors method.
 ms.assetid: 31590de3-f35c-4253-9a80-2f59c795bf3f
 title: IWICPalette_GetColors_Proxy function
 ms.topic: reference
@@ -86,7 +86,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

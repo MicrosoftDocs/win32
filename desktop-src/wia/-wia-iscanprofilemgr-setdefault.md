@@ -1,5 +1,5 @@
 ---
-Description: Sets the specified scan profile as the default profile.
+description: Sets the specified scan profile as the default profile.
 ms.assetid: c680be8b-88f0-4f7f-b1a3-e12711dba870
 title: IScanProfileMgr::SetDefault method (Scanprofilemgr.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ Use the [**ScanProfileDialog**](-wia-iscanprofileui-scanprofiledialog.md) method
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

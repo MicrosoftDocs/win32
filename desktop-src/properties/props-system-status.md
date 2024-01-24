@@ -1,5 +1,5 @@
 ---
-Description: Generic status information applicable to the item.
+description: Generic status information applicable to the item.
 ms.assetid: 49dd23af-6169-4e9b-a1bc-0ae4d5f46e38
 title: System.Status
 ms.topic: article

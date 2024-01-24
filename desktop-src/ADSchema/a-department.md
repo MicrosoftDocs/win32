@@ -22,7 +22,7 @@ Contains the name for the department in which the user works.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Department                                  |
 | Ldap-Display-Name | department                                  |
@@ -48,7 +48,7 @@ Contains the name for the department in which the user works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A18                                                             |
@@ -69,7 +69,7 @@ Contains the name for the department in which the user works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A18                                                             |
@@ -90,7 +90,7 @@ Contains the name for the department in which the user works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A18                                                             |
@@ -111,7 +111,7 @@ Contains the name for the department in which the user works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A18                                                             |
@@ -132,7 +132,7 @@ Contains the name for the department in which the user works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A18                                                             |
@@ -153,7 +153,7 @@ Contains the name for the department in which the user works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A18                                                             |

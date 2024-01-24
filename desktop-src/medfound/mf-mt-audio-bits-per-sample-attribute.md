@@ -1,5 +1,5 @@
 ---
-Description: Number of bits per audio sample in an audio media type.
+description: Number of bits per audio sample in an audio media type.
 ms.assetid: d78a8c4d-377e-45eb-9cf6-2d61b34e82d6
 title: MF_MT_AUDIO_BITS_PER_SAMPLE attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

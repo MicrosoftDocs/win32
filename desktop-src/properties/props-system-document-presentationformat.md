@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Document.PresentationFormat
 ms.assetid: e5f91abd-6a3e-4492-9342-63518aa1ca6f
 title: System.Document.PresentationFormat
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Describes a matrix.
+description: Describes a matrix.
 ms.assetid: d6b98a32-e745-4724-b8ce-a81a3f5416f3
 title: D3DMATRIX (D3D9Types.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ In Direct3D, the \_34 element of a projection matrix cannot be a negative number
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

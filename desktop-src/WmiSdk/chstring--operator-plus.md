@@ -1,5 +1,5 @@
 ---
-Description: The + concatenation operator joins two strings and returns a CHString object.
+description: The + concatenation operator joins two strings and returns a CHString object.
 ms.assetid: b7ed6379-ccfa-40f9-9607-d9033179b674
 ms.tgt_platform: multiple
 title: CHString::operator+ (ChString.h)
@@ -104,7 +104,7 @@ s3 = "abc" + "def"; // Wrong. The first argument must be a CHString.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |

@@ -1,5 +1,5 @@
 ---
-Description: List of applications supporting DIAL protocol on the Device Association End Point.
+description: List of applications supporting DIAL protocol on the Device Association End Point.
 ms.assetid: a2867ae5-67cf-4b17-a282-cee8a7f42f23
 title: System.Devices.DialProtocol.InstalledApplications
 ms.topic: article

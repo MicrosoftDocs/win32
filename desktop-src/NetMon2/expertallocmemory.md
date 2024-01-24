@@ -1,5 +1,5 @@
 ---
-Description: The ExpertAllocMemory function allocates memory for the expert.
+description: The ExpertAllocMemory function allocates memory for the expert.
 ms.assetid: 9ada5d3f-5f1d-4d3a-b79a-d51e021240f6
 title: ExpertAllocMemory function (Netmon.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ It is important to note that an expert should use the Network Monitor memory all
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

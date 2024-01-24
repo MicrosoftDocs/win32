@@ -1,5 +1,5 @@
 ---
-Description: Notifies an appbar that the user has selected the Cascade, Tile Horizontally, or Tile Vertically command from the taskbar's shortcut menu.
+description: Notifies an appbar that the user has selected the Cascade, Tile Horizontally, or Tile Vertically command from the taskbar's shortcut menu.
 title: ABN_WINDOWARRANGE message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -54,7 +54,7 @@ The system sends this notification message twice first with *lParam* set to **TR
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

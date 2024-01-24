@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_STARTDELETE notification is sent to the callback function when the queue starts a file delete operation.
+description: The SPFILENOTIFY\_STARTDELETE notification is sent to the callback function when the queue starts a file delete operation.
 ms.assetid: 244714ad-dde7-4b5a-b3f3-78aa4cc901f5
 title: SPFILENOTIFY_STARTDELETE message (Setupapi.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The callback routine should return one of the following values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

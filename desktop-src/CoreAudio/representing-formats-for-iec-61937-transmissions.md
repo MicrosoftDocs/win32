@@ -1,5 +1,5 @@
 ---
-Description: With the increase in media storage devices that require compressed audio formats, applications must identify, describe, and use a variety of new encoded audio content for transmitting content from PCs to devices such as HDMI or DisplayPort receiver.
+description: With the increase in media storage devices that require compressed audio formats, applications must identify, describe, and use a variety of new encoded audio content for transmitting content from PCs to devices such as HDMI or DisplayPort receiver.
 ms.assetid: 86f3396c-b32a-4d70-9f21-e38a745f78bf
 title: Representing Formats for IEC 61937 Transmissions
 ms.topic: article
@@ -69,6 +69,9 @@ The GUIDs for the compressed audio formats that are transmitted in high bit-rate
 | 0x0c         | 0000010c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DOLBY\_MAT20<br/> | Dolby MAT 2.0: <br/> Dolby TrueHD – 24-bit 192KHz/up to 18 Mbps, 8 channels, or LPCM up to 24 Mbps. <br/>           |
 | 0x0c         | 0000030c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DOLBY\_MAT21<br/> | Dolby MAT 2.1: <br/> Dolby TrueHD – 24-bit 192KHz/up to 18 Mbps, 8 channels, or LPCM up to 24 Mbps. <br/>           |
 | 0x0e         | 00000164-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_WMA\_PRO<br/>     | Windows Media Audio (WMA) Pro                                                                                                   |
+| 0x0b         | 0000000b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTS\_HD<br/> | DTS HD  |
+| 0x0b         | 0000010b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTSX\_E1<br/> | DTS:X E1  |
+| 0x0b         | 0000030b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT\_SUBTYPE\_IEC61937\_DTSX\_E2<br/> | DTS:X E2  |
 
 
 

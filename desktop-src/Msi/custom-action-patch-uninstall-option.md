@@ -1,5 +1,5 @@
 ---
-Description: Use the following option flag to specify that the installer run the custom action only when a patch is being uninstalled. To set the option, add the value in this table to the value in the ExtendedType field of the CustomAction table.
+description: Use the following option flag to specify that the installer run the custom action only when a patch is being uninstalled. To set the option, add the value in this table to the value in the ExtendedType field of the CustomAction table.
 ms.assetid: aa4d9e21-5316-42b5-a22e-c7a5becd3cae
 title: Custom Action Patch Uninstall Option
 ms.topic: article
@@ -26,7 +26,7 @@ Use the following option flag to specify that the installer run the custom actio
 
 This attribute can be added to a custom action by authoring it in the Windows Installer package (.msi file). A new custom action with this attribute can be added by a patch. A custom action having this attribute can be updated by a patch. This attribute cannot be added or removed by a patch to an existing custom action.
 
-If a patch adds or updates a custom action with this attribute, Windows Installer runs the new or updated custom action when the patch is uninstalled. Windows Installer makes the updates within the patch being uninstalled available to the patch uninstall custom action. The patch must include a [MsiTransformView*<PatchGUID>*](msitransformview.md) table to provide this information to Windows Installer.
+If a patch adds or updates a custom action with this attribute, Windows Installer runs the new or updated custom action when the patch is uninstalled. Windows Installer makes the updates within the patch being uninstalled available to the patch uninstall custom action. The patch must include a [MsiTransformView*&lt;PatchGUID&gt;*](msitransformview.md) table to provide this information to Windows Installer.
 
 When a package that contains a custom action with the **msidbCustomActionTypePatchUninstall** attribute is installed using an installer version earlier than Windows Installer 4.0, the installer does not call the custom action when the patch is uninstalled. The install can run the custom action during the installation, repair, or update of the package.
 
@@ -50,7 +50,7 @@ For information about running a custom action during the uninstallation of a pat
 [Using Custom Actions](using-custom-actions.md)
 </dt> <dt>
 
-[MsiTransformView*<PatchGUID>*](msitransformview.md)
+[MsiTransformView*&lt;PatchGUID&gt;*](msitransformview.md)
 </dt> </dl>
 
  

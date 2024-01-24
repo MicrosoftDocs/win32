@@ -1,5 +1,5 @@
 ---
-Description: You reference an ink recognizer with an HRECOGNIZER handle and a recognizer context as an HRECOCONTEXT handle.A recognizer dynamic-link library (DLL) can implement recognizers for more than one language.
+description: You reference an ink recognizer with an HRECOGNIZER handle and a recognizer context as an HRECOCONTEXT handle.A recognizer dynamic-link library (DLL) can implement recognizers for more than one language.
 ms.assetid: 23002d02-cf8f-489b-a50f-4a18ac091825
 title: HRECOGNIZER and HRECOCONTEXT
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Creates a hash of the specified string.
+description: Creates a hash of the specified string.
 ms.assetid: 8d3e16e7-7b93-410c-b771-7684d1bf2160
 title: HashedData.Hash method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # HashedData.Hash method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](/previous-versions/windows/) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](/previous-versions/windows/) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Hash** method creates a hash of the specified string.
 
@@ -55,7 +55,7 @@ To create the hash of a large amount of data, call the **Hash** method for each 
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

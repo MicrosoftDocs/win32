@@ -1,5 +1,5 @@
 ---
-Description: The following table lists formats that are available for each factoid used in French.
+description: The following table lists formats that are available for each factoid used in French.
 ms.assetid: c4fef6b9-b770-4e2d-a8f2-634206dccb2e
 title: French Factoids
 ms.topic: article
@@ -14,9 +14,9 @@ The following table lists formats that are available for each factoid used in Fr
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -30,10 +30,10 @@ The following table lists formats that are available for each factoid used in Fr
 <td><strong>Currency</strong></td>
 <td>Currency in euros, dollars, pounds, and yen as written in French.<br/></td>
 <td>1.234  <br/> 1.234,50  <br/> 123  <br/> 0,25  <br/> 1 234,50  <br/>   1.234<br/>   1.234,50<br/>   123<br/>   0,25<br/>   1 234,50<br/> 123.456.789,00 EUR<br/> 1.234 $<br/> 1.234,50 $<br/> 123 $<br/> 0,25 $<br/> 123 456 789,00 EUR<br/> 1 234 $<br/> 1 234,50 $<br/> EUR 123.456.789,00<br/> $ 1.234<br/> $ 1.234,50<br/> $ 123<br/> $ 0,25<br/> EUR 123 456 789,00<br/> $ 1 234<br/> $ 1 234,50<br/> 12 K <br/>   12 K<br/> 12 cts<br/> 1 ct<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The examples above that use $ will also work with   and  .
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -54,10 +54,10 @@ The examples above that use $ will also work with   and  .
 <tr class="odd">
 <td><strong>Percent</strong></td>
 <td>A number followed by the percent symbol.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 In the United States there is no space between the number and the % symbol; however, in European locales there is a space.
-</blockquote>
+
 <br/></td>
 <td>87 %<br/> 5 %<br/></td>
 </tr>

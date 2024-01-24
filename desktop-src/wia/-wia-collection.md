@@ -1,5 +1,5 @@
 ---
-Description: Collection Class
+description: Collection Class
 ms.assetid: 2b2a70ff-2b49-44b2-b506-b0b2cc953ec4
 title: Collection object
 ms.topic: reference
@@ -62,7 +62,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

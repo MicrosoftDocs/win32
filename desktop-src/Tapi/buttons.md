@@ -1,12 +1,12 @@
 ---
-Description: Microsoft Telephony models a phones buttons and lamps as button-lamp pairs.
+description: Microsoft Telephony models a phones buttons and lamps as button-lamp pairs.
 ms.assetid: 6ac912bb-8d2b-4aa3-a6e8-af86fbaabd58
 title: Buttons (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Buttons
+# Buttons (Telephony API)
 
 Microsoft Telephony models a phone's buttons and lamps as button-lamp pairs. A button with no lamp next to it, or a lamp with no button is specified using a dummy indicator for the missing lamp or button. A button with multiple lamps is modeled by using multiple button-lamp pairs.
 

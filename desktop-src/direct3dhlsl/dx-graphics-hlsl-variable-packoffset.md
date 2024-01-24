@@ -19,11 +19,7 @@ api_location:
 
 Optional shader constant packing keyword, which uses the following syntax:
 
-
-
-|                                                 |
-|-------------------------------------------------|
-| : packoffset( c\[Subcomponent\]\[.component\] ) |
+: packoffset( c\[Subcomponent\]\[.component\] )
 
 
 

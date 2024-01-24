@@ -1,5 +1,5 @@
 ---
-Description: Gets the effect description.
+description: Gets the effect description.
 ms.assetid: 96b53b8a-0c20-4bfd-af45-626f6e0305d2
 title: ID3DXBaseEffect::GetDesc method (D3DX9Effect.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

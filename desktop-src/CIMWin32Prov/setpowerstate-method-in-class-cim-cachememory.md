@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
+description: SetPowerState method of the CIM_CacheMemory class - The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
 ms.assetid: f9482bc4-d657-4e31-b6b1-aff6519e8a55
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_CacheMemory class
@@ -111,7 +111,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

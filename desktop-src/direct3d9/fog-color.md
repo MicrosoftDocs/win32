@@ -1,5 +1,5 @@
 ---
-Description: Fog color for both pixel and vertex fog is set through the D3DRS\_FOGCOLOR render state. The render state values can be any RGB color, specified as an RGBA color. The alpha component is ignored.
+description: Fog color for both pixel and vertex fog is set through the D3DRS\_FOGCOLOR render state. The render state values can be any RGB color, specified as an RGBA color. The alpha component is ignored.
 ms.assetid: 76366496-553d-4dbf-868d-d58b5377d36a
 title: Fog Color (Direct3D 9)
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Using Predefined Shapes
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This article describes using predefined shapes in VML, a feature that is deprecated as of Windows Internet Explorer 9.
 ms.assetid: 9a2e8b5a-b1d0-4a73-b058-24dac1f0b655
 keywords:
 - Web workshop,predefined shapes

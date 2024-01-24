@@ -1,5 +1,5 @@
 ---
-Description: A 3D vector.
+description: A 3D vector.
 ms.assetid: de0dd889-a7c6-47a4-af65-a77ae1d8d014
 title: D3DVECTOR structure (D3DX10Math.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DVECTOR structure
+# D3DVECTOR structure (D3DX10Math.h)
 
 A 3D vector.
 
@@ -73,7 +73,7 @@ The z component.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

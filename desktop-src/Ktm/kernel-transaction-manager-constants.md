@@ -1,5 +1,5 @@
 ---
-Description: 'KTM uses the following constants:'
+description: 'KTM uses the following constants:'
 ms.assetid: e0284716-fc21-403f-8188-70a08595dd2a
 title: Kernel Transaction Manager Constants
 ms.topic: article

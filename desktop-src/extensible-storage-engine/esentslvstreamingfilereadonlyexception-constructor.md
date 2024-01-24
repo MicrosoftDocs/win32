@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileReadOnlyException constructor"
 title: EsentSLVStreamingFileReadOnlyException constructor 
 TOCTitle: 'EsentSLVStreamingFileReadOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileReadOnlyException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVStreamingFileReadOnlyException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVStreamingFileReadOnlyException()
 
 #### Reference
 
-[EsentSLVStreamingFileReadOnlyException class](dn334778\(v=exchg.10\).md)
+[EsentSLVStreamingFileReadOnlyException class](./esentslvstreamingfilereadonlyexception-class.md)
 
-[EsentSLVStreamingFileReadOnlyException members](dn334885\(v=exchg.10\).md)
+[EsentSLVStreamingFileReadOnlyException members](./esentslvstreamingfilereadonlyexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

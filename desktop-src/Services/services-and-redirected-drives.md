@@ -1,5 +1,5 @@
 ---
-Description: A service (or any process running in a different security context) that must access a remote resource should use the Universal Naming Convention (UNC) name to access the resource.
+description: A service (or any process running in a different security context) that must access a remote resource should use the Universal Naming Convention (UNC) name to access the resource.
 ms.assetid: 2582259d-077c-4089-9a87-1a377994f0bd
 title: Services and Redirected Drives
 ms.topic: article
@@ -22,7 +22,7 @@ Additionally, a service should not use the [Windows Networking Functions](/windo
 
 If a service is configured to run under a user account, the system always creates a new logon session for the user and starts the service in that new logon session. Therefore, a service cannot manage the drive mappings established within the user's other sessions.
 
-**Windows Server 2003:** On a computer that has multiple network interfaces (that is, a multihomed computer), delays up to 60 seconds may occur when using UNC paths to access files that are stored on a remote server message block (SMB) server. For more information, see [article 890553](https://support.microsoft.com/kb/890553) in the Help and Support Knowledge Base.
+**Windows Server 2003:** On a computer that has multiple network interfaces (that is, a multihomed computer), delays up to 60 seconds may occur when using UNC paths to access files that are stored on a remote server message block (SMB) server.
 
  
 

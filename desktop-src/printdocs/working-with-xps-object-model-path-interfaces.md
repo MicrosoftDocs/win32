@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to use the path-related interfaces of the XPS Document API in an XPS OM.
+description: This section describes how to use the path-related interfaces of the XPS Document API in an XPS OM.
 ms.assetid: 4e76355a-ad53-4177-b8c7-3e768a1d4e3f
 title: Working with XPS OM Path Interfaces
 ms.topic: article

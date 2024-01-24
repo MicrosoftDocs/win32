@@ -1,5 +1,5 @@
 ---
-Description: Enumerates all certificates on the system that match the indicated criteria and returns a list of thumbprints.
+description: Enumerates all certificates on the system that match the indicated criteria and returns a list of thumbprints.
 ms.assetid: 69522afe-9870-4ae9-8c69-cf8787913615
 title: FindValidCertificates method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -24,7 +24,7 @@ The **FindValidCertificates** method of the [**Win32\_EncryptableVolume**](win32
 
 ```mof
 uint32 FindValidCertificates(
-  [out] string CertificateThumbprint[]
+  [out] string CertThumbprint[]
 );
 ```
 
@@ -34,7 +34,7 @@ uint32 FindValidCertificates(
 
 <dl> <dt>
 
-*CertificateThumbprint* \[out\]
+*CertThumbprint* \[out\]
 </dt> <dd>
 
 Type: **string\[\]**
@@ -64,7 +64,7 @@ This method returns one of the following codes or another error code if it fails
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS methods"
 title: JET_RECPOS methods
 TOCTitle: JET_RECPOS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_RECPOS
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_RECPOS](dn335256\(v=exchg.10\).md) type exposes the following members.
+The [JET_RECPOS](./jet-recpos-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[JET_RECPOS class](dn335256\(v=exchg.10\).md)
+[JET_RECPOS class](./jet-recpos-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

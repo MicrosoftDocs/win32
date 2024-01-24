@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between an instance of the CIM\_ComputerSystem class that represents the virtual machine replica and an instance of the CIM\_ComputerSystem class that represents the test virtual machine replica.
+description: Represents an association between an instance of the CIM\_ComputerSystem class that represents the virtual machine replica and an instance of the CIM\_ComputerSystem class that represents the test virtual machine replica.
 ms.assetid: c3216ddd-7f70-4287-9f7e-1fd7a60b1a0a
 title: Msvm_ReplicaSystemDependency class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to an instance of the [**CIM\_ComputerSystem**](/windows/desktop/CIM
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Windows Search uses language resources such as word breakers and stemmers to break text in its native locale during index creation and query processing.
+description: Windows Search uses language resources such as word breakers and stemmers to break text in its native locale during index creation and query processing.
 ms.assetid: 6e8ab091-c22c-4425-b8b9-211d53816304
 title: Extending Language Resources
 ms.topic: article

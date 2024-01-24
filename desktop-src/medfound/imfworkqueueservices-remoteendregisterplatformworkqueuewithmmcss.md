@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS method.
+description: Remotable version of the IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS method.
 ms.assetid: cb15129e-a3ad-4351-a7d6-dd4b883437bd
 title: RemoteEndRegisterPlatformWorkQueueWithMMCSS (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

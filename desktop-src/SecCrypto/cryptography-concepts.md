@@ -1,5 +1,5 @@
 ---
-Description: 'Secure communication over nonsecure networks generally involves three major areas of concern: privacy, authentication, and integrity.'
+description: 'Secure communication over nonsecure networks generally involves three major areas of concern: privacy, authentication, and integrity.'
 ms.assetid: bfffe87d-8392-4b4a-8bbc-01b9c13fba47
 title: Cryptography Concepts
 ms.topic: article

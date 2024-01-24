@@ -1,12 +1,12 @@
 ---
-Description: Using High-Definition Audio
+description: Using High-Definition Audio
 ms.assetid: 5e21943f-363c-4831-bc09-aadf6f4a0ad5
 title: Using High-Definition Audio (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using High-Definition Audio
+# Using High-Definition Audio (Microsoft Media Foundation)
 
 High-definition audio, in the context of the Windows Media Audio codecs, is any audio type with more than two channels or more than 16 bits per sample. High-definition audio is supported by the Professional and Lossless categories of the [Windows Media Audio Encoder](windowsmediaaudioencoder.md).
 

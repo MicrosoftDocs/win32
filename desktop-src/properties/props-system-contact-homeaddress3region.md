@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.HomeAddress3Region
 ms.assetid: 07af228c-c1d6-48f0-929c-9adc67829ace
 title: System.Contact.HomeAddress3Region
 ms.topic: article

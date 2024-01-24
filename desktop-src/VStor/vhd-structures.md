@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: <span id=vhd.vhd_structures></span>VHD Structures"
 MS-HAID: vhd.vhd\_structures
 MSHAttr:
 - PreferredSiteName:MSDN

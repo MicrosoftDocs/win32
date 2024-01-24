@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the stylus is moving on the digitizer.
+description: Occurs when the stylus is moving on the digitizer.
 ms.assetid: 67d55dbc-6119-45d9-8016-a2a59f5f04ea
 title: ITabletEventSink::Packets method
 ms.topic: reference
@@ -101,7 +101,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

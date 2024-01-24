@@ -22,7 +22,7 @@ Backward link attribute for [**ms-DS-NC-RO-Replica-Locations**](a-msds-nc-ro-rep
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-NC-RO-Replica-Locations-BL        |
 | Ldap-Display-Name | msDS-NC-RO-Replica-Locations-BL         |
@@ -45,7 +45,7 @@ Backward link attribute for [**ms-DS-NC-RO-Replica-Locations**](a-msds-nc-ro-rep
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2115                            |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Backward link attribute for [**ms-DS-NC-RO-Replica-Locations**](a-msds-nc-ro-rep
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2115                            |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Backward link attribute for [**ms-DS-NC-RO-Replica-Locations**](a-msds-nc-ro-rep
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2115                            |
 | MAPI-Id                | \-                              |

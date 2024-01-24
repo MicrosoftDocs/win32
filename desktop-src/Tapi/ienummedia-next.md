@@ -1,5 +1,5 @@
 ---
-Description: The Next method gets the next specified number of elements in the enumeration sequence.
+description: IEnumMedia::Next method - The Next method gets the next specified number of elements in the enumeration sequence.
 ms.assetid: 39c6d082-415f-4375-8cad-6d4c734d277f
 title: IEnumMedia::Next method (Sdpblb.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ TAPI calls the **AddRef** method on the [**ITMedia**](itmedia.md) interface retu
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -28,7 +28,7 @@ If a bit is set, then the user has write access to the corresponding part of the
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | SD-Rights-Effective                  |
 | Ldap-Display-Name | sDRightsEffective                    |
@@ -55,7 +55,7 @@ If a bit is set, then the user has write access to the corresponding part of the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -76,7 +76,7 @@ If a bit is set, then the user has write access to the corresponding part of the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -97,7 +97,7 @@ If a bit is set, then the user has write access to the corresponding part of the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -118,7 +118,7 @@ If a bit is set, then the user has write access to the corresponding part of the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -139,7 +139,7 @@ If a bit is set, then the user has write access to the corresponding part of the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -160,7 +160,7 @@ If a bit is set, then the user has write access to the corresponding part of the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -181,7 +181,7 @@ If a bit is set, then the user has write access to the corresponding part of the
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

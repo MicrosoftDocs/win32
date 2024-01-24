@@ -1,5 +1,5 @@
 ---
-Description: The following example illustrates the use of object names by creating and opening a named mutex.
+description: The following example illustrates the use of object names by creating and opening a named mutex.
 ms.assetid: 06199f83-8fe0-42b9-9db1-58fe1443db4e
 title: Using Named Objects
 ms.topic: article

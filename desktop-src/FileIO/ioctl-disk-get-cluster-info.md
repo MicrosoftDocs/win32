@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the attributes of the specified disk device.
+description: Retrieves the attributes of the specified disk device.
 ms.assetid: 2FF81F67-9E70-43C6-A504-0D60382E0945
 title: IOCTL_DISK_GET_CLUSTER_INFO control code (Ntdddisk.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ If the operation fails or is pending, [**DeviceIoControl**](/windows/desktop/api
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |

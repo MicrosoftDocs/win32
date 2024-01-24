@@ -1,12 +1,15 @@
 ---
-Description: The effect element defines an audio or video effect object. An effect is applied to a single stream (such as a composition, track, or source).
+description: The effect element defines an audio or video effect object. An effect is applied to a single stream (such as a composition, track, or source).
 ms.assetid: aedb4491-f1f0-44b3-ad88-3fac8c90144d
 title: effect Element (Gdipluseffects.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # effect Element
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
@@ -23,7 +26,7 @@ The `effect` element defines an audio or video effect object. An effect is appli
 
 
 
-|          |                                                                                                                                      |
+| Label | Value |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Parent   | [**composite**](composite-element.md), [**group**](group-element.md), [**clip**](clip-element.md), [**track**](track-element.md) |
 | Children | [**param**](param-element.md)                                                                                                       |
@@ -49,7 +52,7 @@ The **clsid** attribute specifies the subobject that creates the effect.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluseffects.h</dt> </dl> |
 

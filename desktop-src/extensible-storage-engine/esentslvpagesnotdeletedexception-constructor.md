@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotDeletedException constructor"
 title: EsentSLVPagesNotDeletedException constructor 
 TOCTitle: 'EsentSLVPagesNotDeletedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVPagesNotDeletedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVPagesNotDeletedException()
 
 #### Reference
 
-[EsentSLVPagesNotDeletedException class](dn350724\(v=exchg.10\).md)
+[EsentSLVPagesNotDeletedException class](./esentslvpagesnotdeletedexception-class.md)
 
-[EsentSLVPagesNotDeletedException members](dn350730\(v=exchg.10\).md)
+[EsentSLVPagesNotDeletedException members](./esentslvpagesnotdeletedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

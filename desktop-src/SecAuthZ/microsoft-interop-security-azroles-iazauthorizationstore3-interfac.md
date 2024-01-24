@@ -1,5 +1,5 @@
 ---
-Description: Links to documentation for the IAzAuthorizationStore3 interoperability wrapper methods and properties.
+description: Links to documentation for the IAzAuthorizationStore3 interoperability wrapper methods and properties.
 ms.assetid: 656b9585-b956-485d-93d5-6a6b7695fe21
 title: Microsoft.Interop.Security.AzRoles.IAzAuthorizationStore3 interface
 ms.topic: reference
@@ -256,7 +256,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzAuthorizationStore3** interface has 
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesKeyTooSmallException methods"
 title: EsentIndexTuplesKeyTooSmallException methods
 TOCTitle: EsentIndexTuplesKeyTooSmallException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexTuplesKeyTooSmallException](dn350474\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesKeyTooSmallException](./esentindextupleskeytoosmallexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesKeyTooSmallException class](dn350474\(v=exchg.10\).md)
+[EsentIndexTuplesKeyTooSmallException class](./esentindextupleskeytoosmallexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Represents a Certification Practice Statement (CPS) pointer or user notice qualifier.
+description: Represents a Certification Practice Statement (CPS) pointer or user notice qualifier.
 ms.assetid: 857af3d6-aa7b-429a-a056-72573232f72c
 title: Qualifier object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Qualifier object
 
-\[The **Qualifier** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension?view=netcore-3.1) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
+\[The **Qualifier** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**X509Extension Class**](/dotnet/api/system.security.cryptography.x509certificates.x509extension) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace by calling the constructor that takes an OID as a parameter, and then use the OID for Certificate Policies to process qualifiers that are part of the policy information in the Certificate Policies extension.\]
 
 The **Qualifier** object represents a Certification Practice Statement (CPS) pointer or user notice qualifier.
 
@@ -62,7 +62,7 @@ The **Qualifier** object cannot be created.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the proxy locator should use a proxy server for local addresses.
+description: Specifies whether the proxy locator should use a proxy server for local addresses.
 ms.assetid: 384343f5-5919-44da-b8ea-0c994b4743a8
 title: MFNETSOURCE_PROXYBYPASSFORLOCAL property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the proxy locator when creating 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

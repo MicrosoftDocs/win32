@@ -1,5 +1,5 @@
 ---
-Description: The GetOwner&\#8194;WMI class method retrieves the user name and domain name under which the process is running.
+description: The GetOwner&\#8194;WMI class method retrieves the user name and domain name under which the process is running.
 ms.assetid: bbd6d22b-ca54-42f3-8098-d3034048ec4d
 ms.tgt_platform: multiple
 title: GetOwner method of the Win32_Process class
@@ -81,10 +81,6 @@ Returns zero (0) to indicate success. Any other number indicates an error. For a
 
 ## Examples
 
-[The Monitor Process CPU Pct by Name with Owner](https://Gallery.TechNet.Microsoft.Com/Monitor-Process-CPU-Pct-by-0f3a5a1c) VBScript sample collects the CPU or Processor utilization percent and looks up the process owner.
-
-The [Get all servers that a list of users is logged onto](https://Gallery.TechNet.Microsoft.Com/Get-all-servers-that-a-aecc07ef) PowerShell sample querys WMI for the owner of all explorer.exe processes.
-
 The following VBScript code example obtains the owner for each running process.
 
 
@@ -115,7 +111,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -226,6 +226,8 @@
       href: -cpp-cmd.md
     - name: "/cpp_opt"
       href: -cpp-opt.md
+    - name: "/cstruct_out"
+      href: -cstruct-out.md
     - name: "/cstub"
       href: -cstub.md
     - name: "/D"
@@ -407,6 +409,8 @@
       href: cpp-quote.md
     - name: "custom"
       href: custom.md
+    - name: "declare_guid"
+      href: declare-guid.md
     - name: "decode"
       href: decode.md
     - name: "default"
@@ -621,6 +625,32 @@
       href: restricted.md
     - name: "retval"
       href: retval.md
+    - name: "sh_composition"
+      href: sh-composition.md
+    - name: "sh_event"
+      href: sh-event.md
+    - name: "sh_file"
+      href: sh-file.md
+    - name: "sh_job"
+      href: sh-job.md
+    - name: "sh_mutex"
+      href: sh-mutex.md
+    - name: "sh_pipe"
+      href: sh-pipe.md
+    - name: "sh_process"
+      href: sh-process.md
+    - name: "sh_reg_key"
+      href: sh-reg-key.md
+    - name: "sh_section"
+      href: sh-section.md
+    - name: "sh_semaphore"
+      href: sh-semaphore.md
+    - name: "sh_socket"
+      href: sh-socket.md
+    - name: "sh_thread"
+      href: sh-thread.md
+    - name: "sh_token"
+      href: sh-token.md
     - name: "shape"
       href: shape.md
     - name: "short"
@@ -645,6 +675,8 @@
       href: switch-is.md
     - name: "switch_type"
       href: switch-type.md
+    - name: "system_handle"
+      href: system-handle.md
     - name: "transmit_as"
       href: transmit-as.md
     - name: "typedef"

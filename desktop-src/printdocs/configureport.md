@@ -1,5 +1,5 @@
 ---
-Description: The ConfigurePort function displays the port-configuration dialog box for a port on the specified server.
+description: The ConfigurePort function displays the port-configuration dialog box for a port on the specified server.
 ms.assetid: a65e9876-d6af-48c2-9e6b-8bd8695db130
 title: ConfigurePort function (Winspool.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ Before calling the **ConfigurePort** function, an application should call the [*
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

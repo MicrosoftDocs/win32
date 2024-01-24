@@ -1,5 +1,5 @@
 ---
-Description: Gets the maximum number of animation sets the animation controller can support.
+description: Gets the maximum number of animation sets the animation controller can support.
 ms.assetid: c4102fc6-2e4e-4e4d-b0ef-989344eb3855
 title: ID3DXAnimationController::GetMaxNumAnimationSets method (D3dx9anim.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The maximum number of animation sets the controller can manage.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

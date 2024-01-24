@@ -1,5 +1,5 @@
 ---
-Description: Queue-length algorithm counter types increment the number of items in a queue at each sample interval as specified by the appropriate frequency property&\#8212;Frequency\_PerfTime, and so on.
+description: Queue-length algorithm counter types increment the number of items in a queue at each sample interval as specified by the appropriate frequency property&\#8212;Frequency\_PerfTime, and so on.
 ms.assetid: 514b1a79-ed9d-4ec6-a6ea-b3490291ce18
 ms.tgt_platform: multiple
 title: Queue-length Algorithm Counter Types

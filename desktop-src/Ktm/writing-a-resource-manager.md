@@ -1,5 +1,5 @@
 ---
-Description: If you are writing a service or component and need to use transactional services or if you need to monitor the state of a kernel transaction, you need to create a resource manager (RM).
+description: If you are writing a service or component and need to use transactional services or if you need to monitor the state of a kernel transaction, you need to create a resource manager (RM).
 ms.assetid: 9b62ef58-9897-4573-bda4-8c3ec952b6d2
 title: Writing a Resource Manager
 ms.topic: article

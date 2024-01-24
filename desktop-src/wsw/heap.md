@@ -16,7 +16,6 @@ A heap tracks a group of allocations that are freed as a unit.
 
 This allows you to avoid complex patterns of allocating and deallocating memory when you use the WWSAPI.
 
-## 
 
 There is a heap associated with every message. As a message is being sent, or as a message is being received, the heap of the message is used for any allocations relating to that particular message. After a message is sent or received, the heap is reset (which cleans up any allocations related to the particular message).
 

@@ -1,5 +1,5 @@
 ---
-Description: A list of the functions that create dialog boxes for basic disk prompting and error handling.
+description: A list of the functions that create dialog boxes for basic disk prompting and error handling.
 ms.assetid: f058cd73-45bf-45db-9234-268e9060d46f
 title: Disk Prompting and Error Handling Reference
 ms.topic: article

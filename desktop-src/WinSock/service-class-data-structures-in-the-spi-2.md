@@ -1,5 +1,5 @@
 ---
-Description: When a new service class is installed, a WSASERVICECLASSINFO structure must be prepared and supplied. This structure also consists of substructures that contain a series of parameters that apply to specific namespaces.
+description: When a new service class is installed, a WSASERVICECLASSINFO structure must be prepared and supplied. This structure also consists of substructures that contain a series of parameters that apply to specific namespaces.
 ms.assetid: fb225e0c-a0c7-44e1-80fb-7b924b371afa
 title: Service Class Data Structures in the SPI
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 When a new service class is installed, a [**WSASERVICECLASSINFO**](/windows/desktop/api/Winsock2/ns-winsock2-wsaserviceclassinfow) structure must be prepared and supplied. This structure also consists of substructures that contain a series of parameters that apply to specific namespaces.
 
-![](images/ovrvw3-3.png)
+![Diagram showing the WSASERVICECLASSINFO structure, substructures, and parameters that apply to specific namespaces.](images/ovrvw3-3.png)
 
 For each service class, there is a single [**WSASERVICECLASSINFO**](/windows/desktop/api/Winsock2/ns-winsock2-wsaserviceclassinfow) structure. Within the **WSASERVICECLASSINFO** structure, the service class's unique identifier is contained in **lpServiceClassId**, and an associated display string is referenced by **lpServiceClassName**.
 

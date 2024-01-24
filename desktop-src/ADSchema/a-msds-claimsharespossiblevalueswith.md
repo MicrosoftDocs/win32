@@ -22,7 +22,7 @@ For a resource property object, this attribute indicates that the suggested valu
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Claim-Shares-Possible-Values-With |
 | Ldap-Display-Name | msDS-ClaimSharesPossibleValuesWith      |
@@ -43,7 +43,7 @@ For a resource property object, this attribute indicates that the suggested valu
 
 
 
-|                        |                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------|
 | Link-Id                | 2178                                                                              |
 | MAPI-Id                | \-                                                                                |

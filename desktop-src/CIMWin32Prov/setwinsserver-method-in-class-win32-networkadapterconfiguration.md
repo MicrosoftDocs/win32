@@ -1,5 +1,5 @@
 ---
-Description: The SetWINSServer WMI class method sets the primary and secondary Windows Internet Naming Service (WINS) servers on this TCP/IP-bound network adapter. This method is applied independently of the network adapter.
+description: The SetWINSServer WMI class method sets the primary and secondary Windows Internet Naming Service (WINS) servers on this TCP/IP-bound network adapter. This method is applied independently of the network adapter.
 ms.assetid: fa8ce436-b67e-4975-a5c5-1a7d6aab4c8e
 ms.tgt_platform: multiple
 title: SetWINSServer method of the Win32_NetworkAdapterConfiguration class
@@ -423,8 +423,6 @@ If both *WINSPrimaryServer* and *WINSSecondaryServer* are set to "" (an empty st
 
 ## Examples
 
-[The Assign an IP Address Retrieved from a Database](https://Gallery.TechNet.Microsoft.Com/d4526355-e682-4116-a79a-8bba569b084d) VBScript code sample looks up a computer in a database and assigns that computer the specified IP address.
-
 The following VBScript code sample sets the primary and secondary WINS server for a TCP/IP-bound network adapter.
 
 
@@ -451,7 +449,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

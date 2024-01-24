@@ -1,5 +1,5 @@
 ---
-Description: The Delete&\#8194;WMI class method deletes an existing service.
+description: Delete method of the Win32_SystemDriver class - The Delete&\#8194;WMI class method deletes an existing service.
 ms.assetid: 5e437d36-3582-448c-b568-45f7fb13b096
 ms.tgt_platform: multiple
 title: Delete method of the Win32_SystemDriver class
@@ -43,7 +43,7 @@ Returns a value of 0 (zero) if the service was successfully deleted, 1 (one) if 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

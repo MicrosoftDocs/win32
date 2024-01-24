@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table Implicit conversion (Table to JET_TABLEID)"
 title: Table Implicit conversion (Table to JET_TABLEID)
 TOCTitle: Implicit conversion (Table to JET_TABLEID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Table.op_Implicit(Microsoft.Isam.Esent.Interop.Table)~Microsoft.Isam.Esent.Interop.JET_TABLEID
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Implicit conversion operator from a Table to a JET_TABLEID. This allows a Table to be used with APIs which expect a JET_TABLEID.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,22 +58,21 @@ public static implicit operator JET_TABLEID (
 #### Parameters
 
   - table  
-    Type: [Microsoft.Isam.Esent.Interop.Table](dn351163\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Table](./table-class.md)  
     
     The table to convert.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
 The JET_TABLEID of the table.  
 
 ## See also
 
 #### Reference
 
-[Table class](dn351163\(v=exchg.10\).md)
+[Table class](./table-class.md)
 
-[Table members](dn351162\(v=exchg.10\).md)
+[Table members](./table-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

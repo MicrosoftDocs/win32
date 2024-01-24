@@ -1,5 +1,5 @@
 ---
-Description: Parental Controls Samples
+description: Parental Controls Samples
 ms.assetid: 19dac95c-2279-4bf9-a58c-dd30177c0c9d
 title: Parental Controls Samples
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Parental Controls Samples
 
-Sample code for Parental Controls is available under path <installation directory>\\Windows\\<version number>\\Samples\\Security\\ParentalControls. The samples are as follows:
+Sample code for Parental Controls is available under path \<installation directory\>\\Windows\\\<version number\>\\Samples\\Security\\ParentalControls. The samples are as follows:
 
 ## Utilities
 

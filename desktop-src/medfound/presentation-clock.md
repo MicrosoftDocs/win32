@@ -1,5 +1,5 @@
 ---
-Description: Presentation Clock
+description: Presentation Clock
 ms.assetid: cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5
 title: Presentation Clock
 ms.topic: article

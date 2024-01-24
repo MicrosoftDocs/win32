@@ -1,5 +1,5 @@
 ---
-Description: When the Shell detects the insertion of new media or the attachment of a hot-plug device, the contents of the device or media are determined. AutoPlay, depending on its current settings, does one of the following.
+description: When the Shell detects the insertion of new media or the attachment of a hot-plug device, the contents of the device or media are determined. AutoPlay, depending on its current settings, does one of the following.
 title: Using and Configuring AutoPlay
 ms.topic: article
 ms.date: 05/31/2018
@@ -101,43 +101,13 @@ A fresh installation of Windows finds AutoPlay with a set of registered handler 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Media Type</th>
-<th>Applications</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pictures</td>
-<td><ul>
-<li>Slide Show (default)</li>
-<li>Camera and Scanner Wizard</li>
-<li>Printing Wizard</li>
-<li>Open folder</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Music</td>
-<td><ul>
-<li>Windows Media Player (default)</li>
-<li>Open folder</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Video</td>
-<td><ul>
-<li>Windows Media Player (default)</li>
-<li>Open folder</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Media Type | Applications | 
+|------------|--------------|
+| Pictures | <ul><li>Slide Show (default)</li><li>Camera and Scanner Wizard</li><li>Printing Wizard</li><li>Open folder</li></ul> | 
+| Music | <ul><li>Windows Media Player (default)</li><li>Open folder</li></ul> | 
+| Video | <ul><li>Windows Media Player (default)</li><li>Open folder</li></ul> | 
+
 
 
 

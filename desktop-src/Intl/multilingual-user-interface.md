@@ -1,5 +1,5 @@
 ---
-Description: Multilingual User Interface
+description: Multilingual User Interface
 ms.assetid: '2980365c-5a83-4c0f-aa37-e212ec9f0408'
 title: Multilingual User Interface
 ms.topic: article

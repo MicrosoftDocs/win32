@@ -22,7 +22,7 @@ For a claim type object, specifies the value type of the claims issued.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Claim-Value-Type               |
 | Ldap-Display-Name | msDS-ClaimValueType                  |
@@ -43,7 +43,7 @@ For a claim type object, specifies the value type of the claims issued.
 
 
 
-|                        |                                                                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |

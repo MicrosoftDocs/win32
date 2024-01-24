@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the ink collector receives a packet.
+description: InkCollector.NewPackets event - Occurs when the ink collector receives a packet.
 ms.assetid: 2682e7ba-dabd-497e-aea4-6d3f837f4f10
 title: InkCollector.NewPackets event (Msinkaut.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ To set which properties are contained in this array, use the [**DesiredPacketDes
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

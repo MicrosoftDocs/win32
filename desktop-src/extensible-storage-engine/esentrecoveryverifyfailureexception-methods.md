@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveryVerifyFailureException methods"
 title: EsentRecoveryVerifyFailureException methods
 TOCTitle: EsentRecoveryVerifyFailureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecoveryVerifyFailureException](dn319891\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecoveryVerifyFailureException](./esentrecoveryverifyfailureexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentRecoveryVerifyFailureException class](dn319891\(v=exchg.10\).md)
+[EsentRecoveryVerifyFailureException class](./esentrecoveryverifyfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

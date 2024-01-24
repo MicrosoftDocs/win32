@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Init method"
 title: Instance.Init method 
 TOCTitle: 'Init method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Init
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initialize the JET_INSTANCE.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -50,11 +51,10 @@ public void Init()
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Instance members](dn350944\(v=exchg.10\).md)
+[Instance members](./instance-members.md)
 
-[Init overload](dn350952\(v=exchg.10\).md)
+[Init overload](./instance.init-method2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

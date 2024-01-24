@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Spell Checking Enumerations"
 ms.assetid: C4CBE404-DC56-4099-B8B5-F5A32F32701C
 title: Spell Checking Enumerations
 ms.topic: article

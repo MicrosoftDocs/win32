@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentGivenLogFileHasBadSignatureException constructor"
 title: EsentGivenLogFileHasBadSignatureException constructor 
 TOCTitle: 'EsentGivenLogFileHasBadSignatureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentGivenLogFileHasBadSignatureException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentGivenLogFileHasBadSignatureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentGivenLogFileHasBadSignatureException()
 
 #### Reference
 
-[EsentGivenLogFileHasBadSignatureException class](dn350421\(v=exchg.10\).md)
+[EsentGivenLogFileHasBadSignatureException class](./esentgivenlogfilehasbadsignatureexception-class.md)
 
-[EsentGivenLogFileHasBadSignatureException members](dn350473\(v=exchg.10\).md)
+[EsentGivenLogFileHasBadSignatureException members](./esentgivenlogfilehasbadsignatureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

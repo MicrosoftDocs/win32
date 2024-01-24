@@ -1,5 +1,5 @@
 ---
-Description: When a new communications session arrives, TAPI applications that registered an interest in the address and media type will be sent an event notification.
+description: When a new communications session arrives, TAPI applications that registered an interest in the address and media type will be sent an event notification.
 ms.assetid: 6074619c-6aa0-4b03-9208-10268682e704
 title: Respond to Session Initiated Elsewhere
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: An application can decompress a single compressed file by using the LZOpenFile, LZCopy, and LZClose functions.
+description: An application can decompress a single compressed file by using the LZOpenFile, LZCopy, and LZClose functions.
 ms.assetid: e43df292-ed56-4023-92e8-de261e3b58a1
 title: Decompressing a Single File
 ms.topic: article

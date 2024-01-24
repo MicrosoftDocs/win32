@@ -22,7 +22,7 @@ DFS Partition Knowledge Table. Describes the structure of a Distributed File Sys
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | PKT                                                   |
 | Ldap-Display-Name | pKT                                                   |
@@ -48,7 +48,7 @@ DFS Partition Knowledge Table. Describes the structure of a Distributed File Sys
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -69,7 +69,7 @@ DFS Partition Knowledge Table. Describes the structure of a Distributed File Sys
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -90,7 +90,7 @@ DFS Partition Knowledge Table. Describes the structure of a Distributed File Sys
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -111,7 +111,7 @@ DFS Partition Knowledge Table. Describes the structure of a Distributed File Sys
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -132,7 +132,7 @@ DFS Partition Knowledge Table. Describes the structure of a Distributed File Sys
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -153,7 +153,7 @@ DFS Partition Knowledge Table. Describes the structure of a Distributed File Sys
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |

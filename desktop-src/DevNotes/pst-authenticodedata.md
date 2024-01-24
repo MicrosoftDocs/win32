@@ -1,5 +1,5 @@
 ---
-Description: Defines data to be used in Microsoft Authenticode verification of item data.
+description: Defines data to be used in Microsoft Authenticode verification of item data.
 ms.assetid: 73c0e84f-7d59-4efa-927d-af8d7305bc9d
 title: PST_AUTHENTICODEDATA structure (Pstore.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ A pointer to a wide character string that represents the program name; use **NUL
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl> |
 

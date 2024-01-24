@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the index of the bone influence affecting a single vertex.
+description: Retrieves the index of the bone influence affecting a single vertex.
 ms.assetid: 'vs|directx_sdk|~\id3dxskininfo__findbonevertexinfluenceindex.htm'
 title: ID3DXSkinInfo::FindBoneVertexInfluenceIndex method (D3DX9Mesh.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the specified bone does no
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

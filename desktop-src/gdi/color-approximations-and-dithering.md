@@ -1,5 +1,5 @@
 ---
-Description: Although an application can use color without regard to the color capabilities of the device, the resulting output may not be as informative and pleasing as output for which color is carefully chosen.
+description: Although an application can use color without regard to the color capabilities of the device, the resulting output may not be as informative and pleasing as output for which color is carefully chosen.
 ms.assetid: 008c8a8e-3456-4727-9b27-00b20ae880a2
 title: Color Approximations and Dithering
 ms.topic: article

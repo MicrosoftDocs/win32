@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnCannotBeCompressedException members"
 title: EsentColumnCannotBeCompressedException members
 TOCTitle: EsentColumnCannotBeCompressedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnCannotBeCompressedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ColumnCannotBeCompressed exceptions.
 
-The [EsentColumnCannotBeCompressedException](dn274217\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnCannotBeCompressedException](./esentcolumncannotbecompressedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentColumnCannotBeCompressedException class](dn274217\(v=exchg.10\).md)
+[EsentColumnCannotBeCompressedException class](./esentcolumncannotbecompressedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

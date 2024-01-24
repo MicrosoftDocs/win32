@@ -1,5 +1,5 @@
 ---
-Description: Each service executes in the security context of a user account.
+description: Each service executes in the security context of a user account.
 ms.assetid: a0e48918-6957-4288-a188-d65198b38c16
 title: Service User Accounts
 ms.topic: article

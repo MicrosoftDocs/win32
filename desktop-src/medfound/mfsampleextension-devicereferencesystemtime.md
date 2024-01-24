@@ -1,5 +1,5 @@
 ---
-Description: Specifies the original device timestamp on the sample.
+description: Specifies the original device timestamp on the sample.
 ms.assetid: 93BB6E41-308E-4527-A04B-C685C818FEC4
 title: MFSampleExtension_DeviceReferenceSystemTime attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -16,13 +16,13 @@ Specifies the original device timestamp on the sample.
 
 ## Remarks
 
-This is the a device reference time stamp of media samples in 100ns resolution. This time stamp may or may not carry the actual value of the query performance counter (QPC), depending on the source producing the samples. This value may be modified by other components in the media pipeline. This value is not available to MFTs inserted into the capture pipeline.
+This is the device reference time stamp of media samples in 100ns resolution. This time stamp may or may not carry the actual value of the query performance counter (QPC), depending on the source producing the samples. This value may be modified by other components in the media pipeline. This value is not available to MFTs inserted into the capture pipeline.
 
 ## Requirements
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                        |

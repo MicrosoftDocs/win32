@@ -16,7 +16,7 @@ The MIDL keywords [**include**](include.md), [**import**](import.md), and [**imp
 
 The ACF [**include**](include.md) directive lets you specify in an ACF file one or more C-language header files to be included in the MIDL-generated stub code. The generated file will have a line with a **\#include** C-preprocessor directive with the indicated header file. Use this **include** directive to bring in header files that are specific to a particular operating environment and that do not contain information necessary for the interface between client and server. Do not use **include** for header files containing data types that you want available to the IDL file; instead, use the [**import**](import.md) directive.
 
-## Example
+## Example 1
 
 ``` syntax
 [
@@ -35,7 +35,7 @@ Like the C-language preprocessor directive **\#include**, the [**import**](impor
 
 For additional information on using [**import**](import.md) to include system header files in an IDL file, see [Importing System Header Files](importing-system-header-files.md).
 
-## Example
+## Example 2
 
 ``` syntax
 [
@@ -50,7 +50,7 @@ interface IKnown : IUnknown
 
 The ODL [**importlib**](importlib.md) directive lets you reference a compiled type library in your IDL or ODL file. The **importlib** directive must be inside a [**library**](library.md) statement, and must precede other type descriptions in the library. The imported library, as well as the generated library, must be available to the application at runtime.
 
-## Example
+## Example 3
 
 ``` syntax
 library NewBrowser

@@ -1,5 +1,5 @@
 ---
-Description: The digital zoom ratio when the image was shot.
+description: The digital zoom ratio when the image was shot.
 ms.assetid: 1164e2c9-0864-4520-a3be-0c29a5b70ba4
 title: System.Photo.DigitalZoom
 ms.topic: article
@@ -34,7 +34,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

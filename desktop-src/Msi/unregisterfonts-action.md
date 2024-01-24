@@ -1,5 +1,5 @@
 ---
-Description: The UnregisterFonts action removes registration information about installed fonts from the system.
+description: The UnregisterFonts action removes registration information about installed fonts from the system.
 ms.assetid: 97cbbcbe-eb1c-45f0-91d2-4b17984498ae
 title: UnregisterFonts Action
 ms.topic: article

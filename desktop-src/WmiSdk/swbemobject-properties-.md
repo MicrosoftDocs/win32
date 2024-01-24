@@ -1,5 +1,5 @@
 ---
-Description: The Properties\_ property of the SWbemObject object returns an SWbemPropertySet object that is a collection of the properties for the current class or instance. This property is read-only.
+description: The Properties\_ property of the SWbemObject object returns an SWbemPropertySet object that is a collection of the properties for the current class or instance. This property is read-only.
 ms.assetid: 8dd49678-47e7-4c6b-ab12-42532065eaf2
 ms.tgt_platform: multiple
 title: SWbemObject.Properties_ property (Wbemdisp.h)
@@ -39,10 +39,7 @@ SWbemObject.Properties_ As Object
 
 ## Examples
 
-The [Generate Powershell WMI Class Scripts](https://Gallery.TechNet.Microsoft.Com/b435aa68-a1df-4f62-af05-1f504f683146) PowerShell code example on TechNet Gallery uses the Properties\_ property to generate a script for each of the WMI classes that will list the WMI class name and the properties.
-
-The following code, taken from the [List All the Properties for a WMI Class](https://Gallery.TechNet.Microsoft.Com/0f66f392-05b6-4431-b596-9379124d7a32) VBScript code example on TechNet Gallery, Lists the properties for a specified WMI class.
-
+The following VBScript code example lists the properties for a specified WMI class.
 
 ```VB
 strComputer = "." 
@@ -66,7 +63,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

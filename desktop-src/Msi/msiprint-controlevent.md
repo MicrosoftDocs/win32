@@ -1,5 +1,5 @@
 ---
-Description: This event is published by the ScrollableText Control to enable the user to print the contents of that control.
+description: This event is published by the ScrollableText Control to enable the user to print the contents of that control.
 ms.assetid: 8cb91b21-f6db-4f49-827d-1ec739ff4f45
 title: MsiPrint ControlEvent
 ms.topic: article

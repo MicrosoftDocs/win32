@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO Structure"
 title: JET_INSTANCE_INFO Structure
 TOCTitle: JET_INSTANCE_INFO Structure
 ms:assetid: 8cdd2e48-f1bb-465b-aefc-ffe441bf88a1
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_INSTANCE_INFO Structure
 
-The **JET_INSTANCE_INFO** structure receives information about running database instances when used with the [JetGetInstanceInfo](gg294149\(v=exchg.10\).md) and [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md) functions.
+The **JET_INSTANCE_INFO** structure receives information about running database instances when used with the [JetGetInstanceInfo](./jetgetinstanceinfo-function.md) and [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md) functions.
 
 ```cpp
     typedef struct _JET_INSTANCE_INFO {
@@ -41,7 +42,7 @@ The **JET_INSTANCE_INFO** structure receives information about running database 
 
 **hInstanceId**
 
-The [JET_INSTANCE](gg294048\(v=exchg.10\).md) of the given instance.
+The [JET_INSTANCE](./jet-instance.md) of the given instance.
 
 **szInstanceName**
 
@@ -71,36 +72,19 @@ For a given **JET_INSTANCE_INFO** structure, the array of strings that is return
 
 ### Requirements
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Declared in Esent.h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implemented as <strong>JET_INSTANCE_INFO_W</strong> (Unicode) and <strong>JET_INSTANCE_INFO _A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Requirement | Value |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JET_INSTANCE_INFO_W</strong> (Unicode) and <strong>JET_INSTANCE_INFO _A</strong> (ANSI).</p> | 
+
 
 
 ### See Also
 
-[JET_API_PTR](gg269209\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetGetInstanceInfo](gg294149\(v=exchg.10\).md)  
-[JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)
-
+[JET_API_PTR](./jet-api-ptr.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetGetInstanceInfo](./jetgetinstanceinfo-function.md)  
+[JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)

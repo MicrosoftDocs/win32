@@ -1,7 +1,7 @@
 ---
 title: HTTP Server API Version 1.0 Enumeration Types
 ms.assetid: 8f2f2361-3251-4e2a-9cac-8f678c8f5007
-description: 
+description: "Learn more about: HTTP Server API Version 1.0 Enumeration Types"
 ms.topic: article
 ms.date: 05/31/2018
 ---

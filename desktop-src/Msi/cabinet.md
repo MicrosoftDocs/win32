@@ -1,5 +1,5 @@
 ---
-Description: The Cabinet data type must be used in the Cabinet column of the Media table.
+description: The Cabinet data type must be used in the Cabinet column of the Media table.
 ms.assetid: 149c74ea-4342-45dd-8da4-4dfa7f4317a0
 title: Cabinet
 ms.topic: article

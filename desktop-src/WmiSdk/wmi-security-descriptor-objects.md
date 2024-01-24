@@ -1,5 +1,5 @@
 ---
-Description: WMI has objects and methods that allow you to read and manipulate security descriptors to determine who has access to securable objects.
+description: WMI has objects and methods that allow you to read and manipulate security descriptors to determine who has access to securable objects.
 ms.assetid: ce4b7c9e-2c16-40d4-8839-76e69ddb2d8c
 ms.tgt_platform: multiple
 title: WMI Security Descriptor Objects

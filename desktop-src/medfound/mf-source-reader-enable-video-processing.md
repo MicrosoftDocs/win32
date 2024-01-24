@@ -1,5 +1,5 @@
 ---
-Description: Enables video processing by the Source Reader.
+description: Enables video processing by the Source Reader.
 ms.assetid: b1ec1c0e-8042-4486-822f-eb106577c0b1
 title: MF_SOURCE_READER_ENABLE_VIDEO_PROCESSING attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If this attribute is **TRUE**, the following attributes must be **FALSE**:
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

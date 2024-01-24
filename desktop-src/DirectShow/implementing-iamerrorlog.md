@@ -1,12 +1,15 @@
 ---
-Description: Implementing IAMErrorLog
+description: Implementing IAMErrorLog
 ms.assetid: 0a380854-f3a9-4077-a481-dda67737d4c8
 title: Implementing IAMErrorLog
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Implementing IAMErrorLog
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 \[This API is not supported and may be altered or unavailable in the future.\]
 
@@ -60,18 +63,13 @@ if( pExtraInfo )    // Report extra information, if any.
 > [!Note]  
 > Do not free the VARIANT pointed to by
 >
-> <span codelanguage=""></span>
+> 
 >
-> <table>
-> <colgroup>
-> <col style="width: 100%" />
-> </colgroup>
-> <tbody>
-> <tr class="odd">
-> <td><pre><code>pExtraInfo</code></pre></td>
-> </tr>
-> </tbody>
-> </table>
+> 
+| Label | Value |
+|--------|-------|
+| <pre><code>pExtraInfo</code></pre> | 
+
 >
 > 
 >

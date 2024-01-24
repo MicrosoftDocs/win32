@@ -1,5 +1,5 @@
 ---
-Description: An application can monitor the contents of a directory and its subdirectories by using change notifications.
+description: An application can monitor the contents of a directory and its subdirectories by using change notifications.
 ms.assetid: ad884b15-e040-478b-aa99-d8622198f62a
 title: Obtaining Directory Change Notifications
 ms.topic: article

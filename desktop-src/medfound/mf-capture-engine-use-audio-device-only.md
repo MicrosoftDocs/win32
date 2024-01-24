@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the capture engine captures audio but not video.
+description: Specifies whether the capture engine captures audio but not video.
 ms.assetid: 0A905D55-CEE5-44FC-97A5-9474872D5724
 title: MF_CAPTURE_ENGINE_USE_AUDIO_DEVICE_ONLY attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ If this attribute is **TRUE**, the capture engine does not select or use a video
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                         |

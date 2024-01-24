@@ -1,5 +1,5 @@
 ---
-Description: The GetFrameMacType function returns the MAC type of the frame.
+description: The GetFrameMacType function returns the MAC type of the frame.
 ms.assetid: 8d3da770-1392-4638-a267-32c2dae289b0
 title: GetFrameMacType function (Netmon.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The function returns the MAC type of the frame, which can have one of the follow
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

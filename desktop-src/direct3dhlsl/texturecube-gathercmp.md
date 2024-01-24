@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube GatherCmp methods
-description: Samples and compares a texture and returns all components.
+description: Samples and compares a texture and returns all components. | TextureCube::TextureCube GatherCmp methods
 ms.assetid: EEC90CF8-9479-45D7-A9CE-74FC8DC3B1B5
 keywords:
 - GatherCmp methods HLSL
@@ -16,7 +16,9 @@ api_location:
 
 # TextureCube::GatherCmp methods
 
-Samples and compares a texture and returns all components.
+For four texel values of a [**TextureCube**](texturecube.md) that would be used in a bi-linear filtering operation, returns their comparison against a compare value.
+
+See the documentation on [gather4_c](./gather4-c--sm5---asm-.md) for more information describing the underlying DXBC instruction.
 
 ### Overload list
 
@@ -36,10 +38,4 @@ Samples and compares a texture and returns all components.
 </dt> </dl>
 
  
-
- 
-
-
-
-
 

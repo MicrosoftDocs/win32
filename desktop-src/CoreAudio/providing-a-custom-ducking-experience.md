@@ -1,5 +1,5 @@
 ---
-Description: An application can opt out of the Default Ducking Experience handled by the system and replace it with a custom implementation.
+description: An application can opt out of the Default Ducking Experience handled by the system and replace it with a custom implementation.
 ms.assetid: 18290d05-b114-476b-8365-6bbb5fe6cffc
 title: Providing a Custom Ducking Behavior
 ms.topic: article
@@ -18,7 +18,7 @@ A media application that plays sounds to be attenuated must be aware of the comm
 
 1.  Register to receive ducking events from the *ducking manager*—a component of the audio system that handles notifications related to communication stream changes. For more information, [Getting Ducking Events](handling-audio-ducking-events-from-communication-devices.md).
     > [!Note]  
-    > If the client is gets registered to receive ducking notifications, the ducking manager disables the default behavior provided by the system. If the default behavior is disabled explictly (see [Disabling the Default Ducking Experience](disabling-the-ducking-experience.md)) and the client does not provide a substitute behavior, the application does not experience any ducking behavior.
+    > If the client is registered to receive ducking notifications, the ducking manager disables the default behavior provided by the system. If the default behavior is disabled explictly (see [Disabling the Default Ducking Experience](disabling-the-ducking-experience.md)) and the client does not provide a substitute behavior, the application does not experience any ducking behavior.
 
      
 

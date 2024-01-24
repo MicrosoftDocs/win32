@@ -22,7 +22,7 @@ A list of alternate home phone numbers.
 
 
 
-|                   |                                                                                  |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | CN                | Phone-Home-Other                                                                 |
 | Ldap-Display-Name | otherHomePhone                                                                   |
@@ -48,7 +48,7 @@ A list of alternate home phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A2F                                                             |
@@ -69,7 +69,7 @@ A list of alternate home phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A2F                                                             |
@@ -90,7 +90,7 @@ A list of alternate home phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A2F                                                             |
@@ -111,7 +111,7 @@ A list of alternate home phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A2F                                                             |
@@ -132,7 +132,7 @@ A list of alternate home phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A2F                                                             |
@@ -153,7 +153,7 @@ A list of alternate home phone numbers.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A2F                                                             |

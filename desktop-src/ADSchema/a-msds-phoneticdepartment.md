@@ -22,7 +22,7 @@ Contains the phonetic department name where the person works.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Phonetic-Department                   |
 | Ldap-Display-Name | msDS-PhoneticDepartment                     |
@@ -45,7 +45,7 @@ Contains the phonetic department name where the person works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C90                                                             |
@@ -66,7 +66,7 @@ Contains the phonetic department name where the person works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C90                                                             |
@@ -87,7 +87,7 @@ Contains the phonetic department name where the person works.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C90                                                             |

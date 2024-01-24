@@ -1,5 +1,5 @@
 ---
-Description: Describes the basic syntax of a SELECT statement for event queries.
+description: Describes the basic syntax of a SELECT statement for event queries.
 ms.assetid: 8882fdcb-3768-41e3-82ab-3006d903f3a0
 ms.tgt_platform: multiple
 title: SELECT Statement for Event Queries
@@ -99,13 +99,3 @@ SELECT * FROM __InstanceModificationEvent WITHIN 600
     WHERE TargetInstance ISA "Win32_LogicalDisk" 
     AND   TargetInstance.FreeSpace < 1000000
 ```
-
-
-
-## Examples
-
-The [Monitor creation event for specific process name](https://Gallery.TechNet.Microsoft.Com/52716121-f386-49de-86cd-46ca54d1714f) VBScript sample on TechNet uses the SELECT statement to monitor WMI instance creation events for Win32\_Process, filtering for a specific process name.
-
- 
-
- 

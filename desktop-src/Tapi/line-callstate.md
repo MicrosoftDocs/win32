@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_CALLSTATE message is sent when the status of the specified call has changed.
+description: The TAPI LINE\_CALLSTATE message is sent when the status of the specified call has changed.
 ms.assetid: 7b24e3c3-bc69-488b-a698-cf17875bc3c5
 title: LINE_CALLSTATE message (Tapi.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ The new call state. This parameter must be one and only one of the following [**
 Call-state-dependent information. See *dwParam1*.
 
 > [!Note]  
-> In circumstances where a *delayed* response is appropriate, use LINEDISCONNECTMODE\_TEMPFAILURE. Where a *blacklisted* response is appropriate, use LINEDISCONNECT\_BLOCKED. For further information, see [**LINEDISCONNECTMODE\_ Constants**](linedisconnectmode--constants.md).
+> In circumstances where a *delayed* response is appropriate, use LINEDISCONNECTMODE\_TEMPFAILURE. Where a *blocklisted* response is appropriate, use LINEDISCONNECT\_BLOCKED. For further information, see [**LINEDISCONNECTMODE\_ Constants**](linedisconnectmode--constants.md).
 
  
 
@@ -100,7 +100,7 @@ This message cannot be disabled.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Determines whether a volume is a CSV volume.
+description: Determines whether a volume is a CSV volume.
 ms.assetid: 6B09B519-1E2F-4757-AAD5-1E4C81023E14
 title: IOCTL_VOLUME_IS_CSV control code (Ntddvol.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ If the operation fails or is pending, [**DeviceIoControl**](/windows/desktop/api
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |

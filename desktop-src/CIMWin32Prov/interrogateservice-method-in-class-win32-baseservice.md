@@ -1,5 +1,5 @@
 ---
-Description: Requests that the service update its state to the service manager.
+description: Requests that the service update its state to the service manager.
 ms.assetid: 118156ef-ee43-4f73-af41-e295a0a850b9
 ms.tgt_platform: multiple
 title: InterrogateService method of the Win32_BaseService class
@@ -277,7 +277,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

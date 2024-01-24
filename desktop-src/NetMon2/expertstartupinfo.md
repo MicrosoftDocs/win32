@@ -1,5 +1,5 @@
 ---
-Description: Contains data that describes an expert when it starts.
+description: Contains data that describes an expert when it starts.
 ms.assetid: 9ecd5395-d10c-411b-a6bd-fbac724d8603
 title: EXPERTSTARTUPINFO structure (Netmon.h)
 ms.topic: reference
@@ -106,7 +106,7 @@ Used only if the **DataQualifier** member of the [**PROPERTYINST**](propertyinst
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

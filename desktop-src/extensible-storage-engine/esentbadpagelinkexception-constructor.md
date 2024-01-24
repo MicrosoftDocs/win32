@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPageLinkException constructor"
 title: EsentBadPageLinkException constructor 
 TOCTitle: 'EsentBadPageLinkException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadPageLinkException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadPageLinkException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentBadPageLinkException()
 
 #### Reference
 
-[EsentBadPageLinkException class](dn274083\(v=exchg.10\).md)
+[EsentBadPageLinkException class](./esentbadpagelinkexception-class.md)
 
-[EsentBadPageLinkException members](dn274028\(v=exchg.10\).md)
+[EsentBadPageLinkException members](./esentbadpagelinkexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

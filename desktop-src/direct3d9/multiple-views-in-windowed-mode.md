@@ -1,5 +1,5 @@
 ---
-Description: In addition to the swap chain that is owned and manipulated through the Direct3DDevice object, an application can use the IDirect3DDevice9::CreateAdditionalSwapChain method to create additional swap chains to present multiple views from the same device.
+description: In addition to the swap chain that is owned and manipulated through the Direct3DDevice object, an application can use the IDirect3DDevice9::CreateAdditionalSwapChain method to create additional swap chains to present multiple views from the same device.
 ms.assetid: f0d01dfb-d1de-4d16-8c64-4ae56d7fed06
 title: Multiple Views in Windowed Mode (Direct3D 9)
 ms.topic: article

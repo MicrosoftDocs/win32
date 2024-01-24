@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Constants
+# Constants (Windows Touch Gestures)
 
 The topics in this section provide the reference specifications for [Windows Touch Gestures](guide-multi-touch-gestures.md) constants.
 

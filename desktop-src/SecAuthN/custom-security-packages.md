@@ -1,5 +1,5 @@
 ---
-Description: Explains how to create custom security packages by using the custom security package API.
+description: Explains how to create custom security packages by using the custom security package API.
 ms.assetid: '915ef590-c427-4ac2-a2f7-aed328776cb7'
 title: Custom Security Packages
 ms.topic: article

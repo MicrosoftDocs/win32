@@ -1,5 +1,5 @@
 ---
-Description: To add installer functionality to your application, you can use the Windows Installer database tables and the installer database functions. The topics in this section describe each of the database functions and database tables.
+description: To add installer functionality to your application, you can use the Windows Installer database tables and the installer database functions. The topics in this section describe each of the database functions and database tables.
 ms.assetid: 95a8125b-f297-49aa-8424-d568d786ee97
 title: Installer Database Reference
 ms.topic: article

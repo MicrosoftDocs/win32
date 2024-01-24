@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.SyncTransferStatus
 ms.assetid: d82b93b3-2d33-4f89-8144-1f1b040a4d8b
 title: System.SyncTransferStatus
 ms.topic: article

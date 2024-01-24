@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7ExceptionAction class"
 title: Windows7ExceptionAction class (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7ExceptionAction class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.Windows7ExceptionAction
@@ -35,7 +36,7 @@ Exception action that have been added to the Windows 7 version of ESENT.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Windows7.Windows7ExceptionAction  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,4 +60,4 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows7 namespace](./microsoft.isam.esent.interop.windows7-namespace.md)

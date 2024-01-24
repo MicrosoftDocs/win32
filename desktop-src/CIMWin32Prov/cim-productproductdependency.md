@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ProductProductDependency class represents an association between two products, which indicates that one must be installed or absent for the other to function. This is conceptually equivalent to the CIM\_ServiceServiceDependency association.
+description: The CIM\_ProductProductDependency class represents an association between two products, which indicates that one must be installed or absent for the other to function. This is conceptually equivalent to the CIM\_ServiceServiceDependency association.
 ms.assetid: 898b9993-3bdc-4a7c-98c1-ed960014ace8
 ms.tgt_platform: multiple
 title: CIM_ProductProductDependency class
@@ -149,7 +149,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

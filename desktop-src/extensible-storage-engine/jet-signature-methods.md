@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE methods"
 title: JET_SIGNATURE methods
 TOCTitle: JET_SIGNATURE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SIGNATURE
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_SIGNATURE](hh564644\(v=exchg.10\).md) type exposes the following members.
+The [JET_SIGNATURE](./jet-signature-structure2.md) type exposes the following members.
 
 ## Methods
 
@@ -71,6 +72,6 @@ Top
 
 #### Reference
 
-[JET_SIGNATURE structure](hh564644\(v=exchg.10\).md)
+[JET_SIGNATURE structure](./jet-signature-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

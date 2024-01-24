@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVProviderNotLoadedException members"
 title: EsentSLVProviderNotLoadedException members
 TOCTitle: EsentSLVProviderNotLoadedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVProviderNotLoadedException](dn334827\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVProviderNotLoadedException](./esentslvprovidernotloadedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +161,6 @@ Top
 
 #### Reference
 
-[EsentSLVProviderNotLoadedException class](dn334827\(v=exchg.10\).md)
+[EsentSLVProviderNotLoadedException class](./esentslvprovidernotloadedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

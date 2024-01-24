@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Performing the DXVA-HD Blit
 ms.assetid: fc68704e-68d5-4767-b464-e45ab4c86058
 title: Performing the DXVA-HD Blit
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents the type of monitor or display device attached to the computer system.
+description: Represents the type of monitor or display device attached to the computer system.
 ms.assetid: 922be3c1-3c7b-4418-a72f-ab5ada91a7a4
 ms.tgt_platform: multiple
 title: Win32_DesktopMonitor class
@@ -1376,15 +1376,11 @@ This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
 The **Win32\_DesktopMonitor** class is derived from [**CIM\_DesktopMonitor**](cim-desktopmonitor.md), which derives from [**CIM\_Display**](cim-display.md). **CIM\_Display** is derived from [**CIM\_UserDevice**](cim-userdevice.md), which derives from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
-## Examples
-
-The [PS Create a Computer Configuration Drawing using Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell sample on TechNet Gallery uses **Win32\_DesktopMonitor** to interact with the Visio automation model to create a Visio drawing.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMFLOAT4X3.
+description: Constructors exposed by XMFLOAT4X3.
 ms.assetid: 1b709942-e395-4867-b402-413b6292e511
 title: XMFLOAT4X3 constructors
 ms.topic: reference
@@ -28,47 +28,13 @@ Constructs instances of the [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-d
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructor</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3"><strong>XMFLOAT4X3 ()</strong></a></td>
-<td style="text-align: left;">Default constructor for <code>XMFLOAT4X3</code><br/> Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a><br/>
-<blockquote>
-[!Note]<br />
-This is only available for C++ based development.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3(constfloat)"><strong>XMFLOAT4X3 (const float*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X3</code> structure from a twelve element <code>float</code> array. <br/> Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> structure from a twelve element <code>float</code> array. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3(float_float_float_float_float_float_float_float_float_float_float_float)"><strong>XMFLOAT4X3 (float,float,float,float,float,float,float,float,float,float,float,float)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of the <code>XMFLOAT4X3</code> structure from twelve scalar <code>float</code> values. <br/> Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3"><strong>XMFLOAT4X3</strong></a> structure from twelve scalar <code>float</code> values. <br/>
-<blockquote>
-[!Note]<br />
-This constructor is only available under C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructor | Description | 
+|-------------|-------------|
+| [**XMFLOAT4X3 ()**](/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3) | Default constructor for <code>XMFLOAT4X3</code><br> Default constructor for [**XMFLOAT4X3**](/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3)<br> **Note:** This is only available for C++ based development.<br> | 
+| [**XMFLOAT4X3 (const float*)**](/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3(constfloat)) | Initializes a new instance of the <code>XMFLOAT4X3</code> structure from a twelve element <code>float</code> array. <br> Initializes a new instance of the [**XMFLOAT4X3**](/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3) structure from a twelve element <code>float</code> array. <br> **Note:** This constructor is only available under C++.<br> | 
+| [**XMFLOAT4X3 (float,float,float,float,float,float,float,float,float,float,float,float)**](/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x3-xmfloat4x3(float_float_float_float_float_float_float_float_float_float_float_float)) | Initializes a new instance of the <code>XMFLOAT4X3</code> structure from twelve scalar <code>float</code> values. <br> Initializes a new instance of the [**XMFLOAT4X3**](/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x3) structure from twelve scalar <code>float</code> values. <br> **Note:** This constructor is only available under C++.<br> | 
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Windows Search Structures
 ms.assetid: 11c84bd0-9314-4c57-9466-57bcce7c2883
 title: Windows Search Structures
 ms.topic: article
@@ -8,7 +8,6 @@ ms.date: 05/31/2018
 
 # Windows Search Structures
 
-## 
 
 This section documents the following structures:
 

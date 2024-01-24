@@ -1,5 +1,5 @@
 ---
-Description: In Windows 7 and later, you can use the ExtendedSubCommandsKey subkey to create extended cascading menus.
+description: In Windows 7 and later, you can use the ExtendedSubCommandsKey subkey to create extended cascading menus.
 ms.assetid: 6E8B4FB7-D4DB-4DBC-AF6F-59D02CB6AB13
 title: Create Cascading Menus with the ExtendedSubCommandsKey Registry Entry
 ms.topic: article

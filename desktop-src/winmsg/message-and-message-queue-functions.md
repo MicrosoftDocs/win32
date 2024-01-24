@@ -1,12 +1,12 @@
 ---
-Description: .
+description: Message Functions (Windows and Messages)
 ms.assetid: 753d1c5b-e824-4fc3-b731-ae9cb16c0e16
 title: Message Functions (Windows and Messages)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Message Functions
+# Message Functions (Windows and Messages)
 
 -   [**BroadcastSystemMessage**](/windows/win32/api/winuser/nf-winuser-broadcastsystemmessage)
 -   [**BroadcastSystemMessageEx**](/windows/win32/api/winuser/nf-winuser-broadcastsystemmessageexa)

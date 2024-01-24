@@ -1,5 +1,5 @@
 ---
-Description: The CopyTo method copies a specified number of bytes from the current seek pointer in the object to the current seek pointer in another object.
+description: The CopyTo method copies a specified number of bytes from the current seek pointer in the object to the current seek pointer in another object.
 ms.assetid: 2044965f-665f-4aa1-abc0-42f5278dd647
 title: IByteBuffer::CopyTo method (Scardssp.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ This method copies the specified bytes from one stream to another. It can also b
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

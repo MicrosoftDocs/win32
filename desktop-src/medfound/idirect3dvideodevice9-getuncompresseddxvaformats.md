@@ -1,5 +1,5 @@
 ---
-Description: Gets a list of uncompressed pixel formats that can be rendered using a specified DirectX Video Acceleration (DXVA) profile.
+description: Gets a list of uncompressed pixel formats that can be rendered using a specified DirectX Video Acceleration (DXVA) profile.
 ms.assetid: 7c69ea5f-6054-4430-95b5-820db6854fc0
 title: IDirect3DVideoDevice9::GetUncompressedDXVAFormats method (Dxva.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The driver should return the formats in decreasing order of preference, with the
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |

@@ -1,5 +1,5 @@
 ---
-Description: Create an effect pool from a resource.
+description: Create an effect pool from a resource.
 ms.assetid: 594ab788-fd96-4ea9-ad93-ef02fefa5d61
 title: D3DX10CreateEffectPoolFromResource function (D3DX10Async.h)
 ms.topic: reference
@@ -173,7 +173,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer determines whether to allow the removal of a common language runtime assembly based upon a client list it keeps independently of the assembly.
+description: The Windows Installer determines whether to allow the removal of a common language runtime assembly based upon a client list it keeps independently of the assembly.
 ms.assetid: 3f83ad88-e6a4-484b-bcf5-8e2e65f1f41f
 title: Removal of Assemblies from the Global Assembly Cache
 ms.topic: article

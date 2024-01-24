@@ -1,18 +1,17 @@
 ---
-Description: This topic explains the use of the Microsoft Windows HTTP Services (WinHTTP) proxy configuration tool, &\#0034;ProxyCfg.exe&\#0034;.
+title: ProxyCfg.exe proxy configuration tool
+description: This topic explains the use of the Microsoft Windows HTTP Services (WinHTTP) proxy configuration tool ProxyCfg.exe.
 ms.assetid: f96adf59-59be-414e-ad6f-9eac05f4b975
-title: Netsh.exe and ProxyCfg.exe Proxy Configuration Tools
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/06/2023
 ---
 
-# Netsh.exe and ProxyCfg.exe Proxy Configuration Tools
+# ProxyCfg.exe proxy configuration tool
 
-**Windows Vista and Windows Server 2008:  **
+> [!IMPORTANT]
+> `ProxyCfg.exe` has been deprecated since Windows Vista and Windows Server 2008. It's replaced by `Netsh.exe` (see [Netsh.exe commands](./netsh-exe-commands.md)).
 
-ProxyCfg.exe has been deprecated. It is replaced by the [Netsh.exe winhttp](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731131(v=ws.10)) commands.
-
-This topic explains the use of the [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md) proxy configuration tool, "ProxyCfg.exe".
+This topic explains the use of the [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md) proxy configuration tool `ProxyCfg.exe`.
 
 There are two ways to access HTTP and Secure Hypertext Transfer Protocol (HTTPS) servers through a proxy using Microsoft Windows HTTP Services (WinHTTP). First, you can specify proxy settings from within your WinHTTP application. Second, you can specify default proxy settings from outside your application using the proxy configuration utility located in the %windir%\\system32 directory.
 
@@ -60,13 +59,9 @@ The proxy settings for WinHTTP are not the proxy settings for Microsoft Internet
 > [!Note]  
 > If you attempt to open and send an HTTP request using WinHTTP and the proxy settings are incorrect, an error occurs.
 
- 
+## Command-line parameters
 
-## Command Line Parameters
-
-The following table lists the command line parameters available for use with the ProxyCfg.exe tool.
-
-
+The following table lists the command line parameters available for use with the `ProxyCfg.exe`` tool.
 
 | Parameter | Description                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,30 +72,24 @@ The following table lists the command line parameters available for use with the
 | u         | Specifies that WinHTTP applications use the current user's proxy settings for Internet Explorer. This parameter does not work if Internet Explorer is automatically detecting proxy settings, or if it is using an automatic configuration URL to set the proxy information.                                                                                                                                                      |
 | i         | Specifies that WinHTTP applications use the current user's proxy settings for Internet Explorer. This only works when ProxyCfg.exe was not previously used. If ProxyCfg.exe is installed, specify that the "u" command line parameter use the manual settings. This parameter does not work if Internet Explorer automatically detects proxy settings, or if it uses an automatic configuration URL to set the proxy information. |
 
+You can specify proxies in a space-delimited string. The proxy listings can contain the port number that is used to access the proxy. To list a proxy for a specific protocol, the string must follow the format, &lt;protocol&gt;=https://<proxy\_name>. The valid protocols are HTTP and HTTPS. For example, to list an HTTP proxy, a valid string is http=https://http\_proxy\_name:80, where http\_proxy\_name is the name of the proxy server and 80 is the port number that you must use to access the proxy. If the proxy uses the default port number for that protocol, then you can omit the port number. If a proxy name is listed by itself, you can use it as the default proxy for any protocols that do not have a specified proxy. For example, http=https://http\_proxy other\_proxy uses http\_proxy for any HTTP operations, while the HTTPS protocol uses the proxy named other\_proxy.
 
-
- 
-
-You can specify proxies in a space-delimited string. The proxy listings can contain the port number that is used to access the proxy. To list a proxy for a specific protocol, the string must follow the format, <protocol>=https://<proxy\_name>. The valid protocols are HTTP and HTTPS. For example, to list an HTTP proxy, a valid string is http=https://http\_proxy\_name:80, where http\_proxy\_name is the name of the proxy server and 80 is the port number that you must use to access the proxy. If the proxy uses the default port number for that protocol, then you can omit the port number. If a proxy name is listed by itself, you can use it as the default proxy for any protocols that do not have a specified proxy. For example, http=https://http\_proxy other\_proxy uses http\_proxy for any HTTP operations, while the HTTPS protocol uses the proxy named other\_proxy.
-
-You can list locally known host names or IP addresses in the proxy bypass list. This list can contain wildcards, such as "\*", that cause the application to bypass the proxy server for addresses that fit the specified pattern, for example, "\*.microsoft.com" or "\*.org". Wildcard characters must be the left-most characters in the list. For example, "aaa.\*" is not supported. To list multiple addresses and host names, separate them with blank spaces or semicolons in the proxy bypass string. If you specify the <local> macro, the function bypasses any host name that does not contain a period.
+You can list locally known host names or IP addresses in the proxy bypass list. This list can contain wildcards, such as "\*", that cause the application to bypass the proxy server for addresses that fit the specified pattern, for example, "\*.microsoft.com" or "\*.org". Wildcard characters must be the left-most characters in the list. For example, "aaa.\*" is not supported. To list multiple addresses and host names, separate them with blank spaces or semicolons in the proxy bypass string. If you specify the &lt;local&gt; macro, the function bypasses any host name that does not contain a period.
 
 > [!WARNING]
 > After Proxycfg.exe runs, you cannot restore the previous proxy settings. However, you can remove the proxy settings entirely.
-
- 
 
 ## Usage
 
 To use the proxy configuration tool, open a command prompt window and run the proxy configuration utility with the appropriate command line parameters. The following section provides syntax examples.
 
-## Example Syntax
+## Example syntax
 
 ### Example 1: Use a proxy only for external resources
 
 The following is the most common use for Proxycfg.exe. This command specifies that both HTTP and HTTPS servers are accessed through the proxy server named "proxy\_server", except for host names that do not contain a period.
 
-**proxycfg -p proxy\_server "<local>"**
+**proxycfg -p proxy\_server "&lt;local&gt;"**
 
 ### Example 2: Use a proxy for all resources
 
@@ -112,7 +101,7 @@ The following example specifies that both HTTP and HTTPS servers are accessed th
 
 The following example specifies that HTTP servers are accessed through the http\_proxy proxy and HTTPS servers are accessed through https\_proxy. Local intranet sites and any site in the \*.microsoft.com domain bypass the proxy.
 
-**proxycfg -p "http=http\_proxy https=https\_proxy" "<local>;\*.microsoft.com"**
+**proxycfg -p "http=http\_proxy https=https\_proxy" "&lt;local&gt;;\*.microsoft.com"**
 
 ## Removing ProxyCfg.exe
 
@@ -122,12 +111,8 @@ After using the proxy configuration tool, you cannot restore your original proxy
 
 Deleting the *WinHttpSettings* value removes all proxy configurations.
 
-## ProxyCfg.exe and Authentication
+## ProxyCfg.exe and authentication
 
 The proxy configuration utility sets the default authentication policy. Because you should not perform NTLM authentication with untrusted hosts, by default, NTLM authentication only occurs automatically with hosts on the proxy bypass list. If there is no proxy, you can still use ProxyCfg.exe to specify a bypass list of hosts that you trust to perform NTLM authentication. A proxy name is required when using ProxyCfg.exe for this purpose, but you can use any valid string in place of a real proxy name.
 
 For more information about the auto-logon policy, see [Automatic Logon Policy](authentication-in-winhttp.md).
-
- 
-
- 

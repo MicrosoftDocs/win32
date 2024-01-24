@@ -1,5 +1,5 @@
 ---
-Description: The SWbemQualifier object exposes the following properties.
+description: The SWbemQualifier object exposes the following properties.
 ms.assetid: 0677B63F-930A-4C3D-9C29-CF02708105A2
 ms.tgt_platform: multiple
 title: SWbemQualifier Properties

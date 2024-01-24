@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the value of the PrimaryVolumeSpaceRequired property to a string representing the total number of bytes required by all selected features on the volume referenced by the PrimaryVolumePath property.
+description: The installer sets the value of the PrimaryVolumeSpaceRequired property to a string representing the total number of bytes required by all selected features on the volume referenced by the PrimaryVolumePath property.
 ms.assetid: 44c89bd8-774a-4b4f-9608-9a1926ef3b7d
 title: PrimaryVolumeSpaceRequired property
 ms.topic: reference
@@ -18,7 +18,7 @@ Note if this value is to be displayed within a static [Text control](text-contro
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

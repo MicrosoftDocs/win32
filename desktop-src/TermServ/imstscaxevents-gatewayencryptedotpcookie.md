@@ -50,7 +50,7 @@ Specifies or retrieves the encrypted OTP cookie.
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |

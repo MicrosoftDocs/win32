@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Copyright property.
+description: The photo metadata policy for the System.Copyright property.
 ms.assetid: 84d2f55b-5ca4-4912-b038-c18a72e6fc34
 title: System.Copyright Photo Metadata Policy
 ms.topic: article
@@ -44,7 +44,7 @@ Values from different schemas are reconciled.
 |-------|-------------------------------------------|-------------|
 |       | /app1/ifd/{ushort=33432}                  | ascii       |
 |       | /app13/irb/8bimiptc/iptc/copyright notice |             |
-|       | /xmp/<xmpalt>dc:rights              | unicode     |
+|       | /xmp/&lt;xmpalt&gt;dc:rights              | unicode     |
 |       | /xmp/dc:rights                            | unicode     |
 |       | /app13/irb/8bimiptc/iptc/copyright notice |             |
 
@@ -59,7 +59,7 @@ Values from different schemas are reconciled.
 | Order | Path                                      | Disk Format |
 |-------|-------------------------------------------|-------------|
 |       | /xmp/dc:rights                            | unicode     |
-|       | /xmp/<xmpalt>dc:rights              | unicode     |
+|       | /xmp/&lt;xmpalt&gt;dc:rights              | unicode     |
 |       | /app13/irb/8bimiptc/iptc/copyright notice |             |
 |       | /app1/ifd/{ushort=33432}                  | ascii       |
 
@@ -91,7 +91,7 @@ Values from different schemas are reconciled.
 |-------|-----------------------------------------|-------------|
 |       | /ifd/{ushort=33432}                     | ascii       |
 |       | /ifd/iptc/copyright notice              |             |
-|       | /ifd/xmp/<xmpalt>dc:rights        | unicode     |
+|       | /ifd/xmp/&lt;xmpalt&gt;dc:rights        | unicode     |
 |       | /ifd/xmp/dc:rights                      | unicode     |
 |       | /ifd/iptc/copyright notice              |             |
 |       | /ifd/irb/8bimiptc/iptc/copyright notice |             |
@@ -107,7 +107,7 @@ Values from different schemas are reconciled.
 | Order | Path                                    | Disk Format |
 |-------|-----------------------------------------|-------------|
 |       | /ifd/xmp/dc:rights                      | unicode     |
-|       | /ifd/xmp/<xmpalt>dc:rights        | unicode     |
+|       | /ifd/xmp/&lt;xmpalt&gt;dc:rights        | unicode     |
 |       | /ifd/iptc/copyright notice              |             |
 |       | /ifd/irb/8bimiptc/iptc/copyright notice |             |
 |       | /ifd/{ushort=33432}                     | ascii       |

@@ -1,5 +1,5 @@
 ---
-Description: The GetObject method gets an instance of an existing Microsoft.Windows.ActCtx object.
+description: The GetObject method gets an instance of an existing Microsoft.Windows.ActCtx object.
 ms.assetid: 547525f3-afef-463b-823a-df8ccd954f36
 title: ActCtx.GetObject method
 ms.topic: reference
@@ -37,7 +37,7 @@ ActCtx.GetObject(
 *bstrName* 
 </dt> <dd>
 
-Required string that indicates the object. The name must be in the registry under **HKEY\_LOCAL\_MACHINE**\\**Microsoft**\\**Visual Studio**\\**6.0**\\**<package>**\\**Automation**.
+Required string that indicates the object. The name must be in the registry under **HKEY\_LOCAL\_MACHINE**\\**Microsoft**\\**Visual Studio**\\**6.0**\\**&lt;package&gt;**\\**Automation**.
 
 </dd> </dl>
 
@@ -49,7 +49,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

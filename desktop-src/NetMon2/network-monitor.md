@@ -1,5 +1,5 @@
 ---
-Description: Network Monitor captures network traffic for display and analysis. It enables you to perform tasks such as analyzing previously captured data in user-defined methods and extract data from defined protocol parsers.
+description: Network Monitor captures network traffic for display and analysis. It enables you to perform tasks such as analyzing previously captured data in user-defined methods and extract data from defined protocol parsers.
 ms.assetid: 'a70b6e22-e744-4760-b878-9ee35428fed5'
 title: Network Monitor
 ms.topic: article

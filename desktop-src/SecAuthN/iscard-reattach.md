@@ -1,5 +1,5 @@
 ---
-Description: The ReAttach method resets, or reinitializes, the smart card.
+description: The ReAttach method resets, or reinitializes, the smart card.
 ms.assetid: c9cd9cd7-5ee6-48dc-8460-deb9c827fcc4
 title: ISCard::ReAttach method (Scardmgr.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

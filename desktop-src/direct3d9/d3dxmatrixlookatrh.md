@@ -1,22 +1,25 @@
 ---
-Description: Builds a right-handed, look-at matrix.
+description: D3DXMatrixLookAtRH function (D3dx9math.h) - Builds a right-handed, look-at matrix.
 ms.assetid: 10198bb9-a77e-4482-be6e-cc5f76eff30b
 title: D3DXMatrixLookAtRH function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixLookAtRH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
-# D3DXMatrixLookAtRH function
+# D3DXMatrixLookAtRH function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a right-handed, look-at matrix.
 
@@ -91,11 +94,11 @@ This function uses the following formula to compute the returned matrix.
 zaxis = normal(Eye - At)
 xaxis = normal(cross(Up, zaxis))
 yaxis = cross(zaxis, xaxis)
-    
- xaxis.x           yaxis.x           zaxis.x          0
- xaxis.y           yaxis.y           zaxis.y          0
- xaxis.z           yaxis.z           zaxis.z          0
- dot(xaxis, eye)   dot(yaxis, eye)   dot(zaxis, eye)  1
+
+ xaxis.x            yaxis.x            zaxis.x           0
+ xaxis.y            yaxis.y            zaxis.y           0
+ xaxis.z            yaxis.z            zaxis.z           0
+ -dot(xaxis, eye)   -dot(yaxis, eye)   -dot(zaxis, eye)  1
 ```
 
 
@@ -104,7 +107,7 @@ yaxis = cross(zaxis, xaxis)
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |
@@ -124,7 +127,3 @@ yaxis = cross(zaxis, xaxis)
  
 
  
-
-
-
-

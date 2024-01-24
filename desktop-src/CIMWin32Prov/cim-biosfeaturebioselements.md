@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_BIOSFeatureBIOSElements class associates a BIOS feature and its aggregated BIOS elements.
+description: The CIM\_BIOSFeatureBIOSElements class associates a BIOS feature and its aggregated BIOS elements.
 ms.assetid: 84ebd6d0-af42-4e82-bad3-1f934789cbfe
 ms.tgt_platform: multiple
 title: CIM_BIOSFeatureBIOSElements class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

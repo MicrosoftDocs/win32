@@ -1,5 +1,5 @@
 ---
-Description: To access a COM+ server application remotely from another (client) computer, the client computer must have a subset of the attributes of the server application installed, including proxy/stub DLLs and type libraries for DCOM/QC interface remoting.
+description: To access a COM+ server application remotely from another (client) computer, the client computer must have a subset of the attributes of the server application installed, including proxy/stub DLLs and type libraries for DCOM/QC interface remoting.
 ms.assetid: 293b424c-4cd4-43a9-9b56-687c753a34f2
 title: Deploying Application Proxies
 ms.topic: article

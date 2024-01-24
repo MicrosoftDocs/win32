@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the IMFNetProxyLocatorFactory interface.
+description: Contains a pointer to the IMFNetProxyLocatorFactory interface.
 ms.assetid: 455325c0-5116-4e81-9729-fab9c6a367c7
 title: MFNETSOURCE_PROXYLOCATORFACTORY property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to provide a custom proxy locator for the net
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

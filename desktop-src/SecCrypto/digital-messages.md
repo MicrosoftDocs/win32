@@ -1,5 +1,5 @@
 ---
-Description: A message will be defined as any data that has been encoded.
+description: A message will be defined as any data that has been encoded.
 ms.assetid: f48f0458-6e27-4ef4-8bf2-949b41d414a2
 title: Digital Messages
 ms.topic: article

@@ -11,7 +11,6 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
 ---
@@ -30,7 +29,7 @@ The **ID3D12CommandQueueDownlevel** interface has these methods.
 
 ## Requirements
 
-|        |                  |
+| Requirement | Value |
 |--------|------------------|
 | Header | d3d12downlevel.h |
 | DLL    | D3D12.dll (Windows 7 only) |

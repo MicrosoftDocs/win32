@@ -1,5 +1,5 @@
 ---
-Description: Adds an Attribute object to the collection.
+description: Adds an Attribute object to the collection.
 ms.assetid: dc2fe542-7168-4ffa-a10d-b2c051c4d42c
 title: Attributes.Add method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Attributes.Add method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography**](/previous-versions/windows/) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography**](/previous-versions/windows/) namespace.\]
 
 The **Add** method adds an [**Attribute**](attribute.md) object to the collection.
 
@@ -51,7 +51,7 @@ This method does not return a value. An application that uses this method must c
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

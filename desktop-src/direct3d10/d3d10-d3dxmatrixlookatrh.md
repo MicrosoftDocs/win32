@@ -1,22 +1,25 @@
 ---
-Description: Builds a right-handed, look-at matrix.
+description: D3DXMatrixLookAtRH function (D3DX10Math.h) - Builds a right-handed, look-at matrix.
 ms.assetid: 98c8932f-f179-42ed-a361-a89065b71876
 title: D3DXMatrixLookAtRH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixLookAtRH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixLookAtRH function
+# D3DXMatrixLookAtRH function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a right-handed, look-at matrix.
 
@@ -91,7 +94,7 @@ This function uses the following formula to compute the returned matrix.
 zaxis = normal(Eye - At)
 xaxis = normal(cross(Up, zaxis))
 yaxis = cross(zaxis, xaxis)
-    
+
  -xaxis.x           yaxis.x           -zaxis.x          0
  -xaxis.y           yaxis.y           -zaxis.y          0
  -xaxis.z           yaxis.z           -zaxis.z          0
@@ -104,7 +107,7 @@ dot(xaxis, eye)  -dot(yaxis, eye)  -dot(zaxis, eye)  1
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

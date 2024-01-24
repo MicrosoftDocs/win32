@@ -1,5 +1,5 @@
 ---
-Description: .
+description: JavaScript Object Notation (JSON)
 ms.assetid: 2F6FDE88-C852-46BC-B6B1-630C266AF0AA
 title: JavaScript Object Notation (JSON)
 ms.topic: article

@@ -41,7 +41,7 @@ Identifies the buttons that are pressed. It can be one or more of the following 
 
 
 
-|              |                                    |
+| Requirement | Value |
 |--------------|------------------------------------|
 | JOY\_BUTTON1 | First joystick button is pressed.  |
 | JOY\_BUTTON2 | Second joystick button is pressed. |
@@ -72,7 +72,7 @@ The y-coordinate of the joystick relative to the upper left corner of the client
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

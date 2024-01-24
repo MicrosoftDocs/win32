@@ -1,5 +1,5 @@
 ---
-Description: The PF\_FOLLOWENTRY structure defines a protocol that Network Monitor adds to the follow set of a parser.
+description: The PF\_FOLLOWENTRY structure defines a protocol that Network Monitor adds to the follow set of a parser.
 ms.assetid: 931ae70f-8c5e-4b7a-aae6-64a33dac3b23
 title: PF_FOLLOWENTRY structure (Netmon.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The [PF\_FOLLOWSET](pf-followset.md) structure uses an array of **PF\_FOLLOWENTR
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

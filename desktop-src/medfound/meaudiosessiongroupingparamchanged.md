@@ -1,5 +1,5 @@
 ---
-Description: Raised by the audio renderer when the grouping parameters change for the audio session.
+description: Raised by the audio renderer when the grouping parameters change for the audio session.
 ms.assetid: d6f7757c-fd91-40bd-b2b5-a3e808445250
 title: MEAudioSessionGroupingParamChanged event (Mfobjects.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ To get the new grouping parameters, call [**IMFAudioPolicy::GetGroupingParam**](
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

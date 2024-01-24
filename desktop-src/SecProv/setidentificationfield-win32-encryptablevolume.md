@@ -1,5 +1,5 @@
 ---
-Description: Sets the specified identifier string in the volume's metadata.
+description: Sets the specified identifier string in the volume's metadata.
 ms.assetid: 21355669-2052-4e7a-9c9d-aaa67533dd5e
 title: SetIdentificationField method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -65,7 +65,7 @@ This method returns one of the following codes or another error code if it fails
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_UNSPECIFIED
+description: WPD\_CONTENT\_TYPE\_UNSPECIFIED
 ms.assetid: 0175940e-2de2-4e2b-a98e-8dcc59e7020f
 title: WPD_CONTENT_TYPE_UNSPECIFIED
 ms.topic: article
@@ -14,9 +14,8 @@ This type of object supports the following properties.
 
 
 
-|                                                                                                                       |                                                                               |
+| Property Name       | Required or Optional         |
 |-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **Property Name**                                                                                                     | **Required or Optional**                                                      |
 | [WPD\_OBJECT\_ID](object-properties.md)                                                                | Required, read-only. A client cannot set this property even at creation time. |
 | [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                                                 | Required.                                                                     |
 | [WPD\_OBJECT\_NAME](object-properties.md)                                                            | Required if the object represents a file.                                     |

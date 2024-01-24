@@ -1,5 +1,5 @@
 ---
-Description: The CreateShortcuts action manages the creation of shortcuts.
+description: The CreateShortcuts action manages the creation of shortcuts.
 ms.assetid: 2e8a30ec-e8e7-4855-addb-2501bf85ab54
 title: CreateShortcuts Action
 ms.topic: article

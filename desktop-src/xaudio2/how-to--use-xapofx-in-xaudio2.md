@@ -1,5 +1,5 @@
 ---
-Description: This topic shows you how to use one of the effects included in XAPOFX in an XAudio2 effect chain.
+description: This topic shows you how to use one of the effects included in XAPOFX in an XAudio2 effect chain.
 ms.assetid: dc325584-13f7-231a-e0c7-17f38d54ae11
 title: 'How to: Use XAPOFX in XAudio2'
 ms.topic: article

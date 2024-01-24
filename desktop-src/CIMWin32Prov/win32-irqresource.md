@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_IRQResource &\#160;WMI class represents an interrupt request line (IRQ) number on a computer system running Windows.
+description: The Win32\_IRQResource &\#160;WMI class represents an interrupt request line (IRQ) number on a computer system running Windows.
 ms.assetid: bae0c28e-2b66-40ac-9679-b2dfe9269306
 ms.tgt_platform: multiple
 title: Win32_IRQResource class
@@ -563,7 +563,7 @@ The **Win32\_IRQResource** class is derived from [**CIM\_IRQ**](cim-irq.md).
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

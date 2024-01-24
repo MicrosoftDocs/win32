@@ -17,11 +17,7 @@ Declare a pixel shader input register.
 
 ## Syntax
 
-
-
-|                           |
-|---------------------------|
-| dcl\[\_pp\] dest\[.mask\] |
+dcl\[\_pp\] dest\[.mask\]
 
 
 

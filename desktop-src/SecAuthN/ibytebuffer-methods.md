@@ -1,5 +1,5 @@
 ---
-Description: The IByteBuffer interface exposes the following methods.
+description: The IByteBuffer interface exposes the following methods.
 ms.assetid: 1FB8CBD5-973D-466E-B44D-D1E2B97E3B93
 title: IByteBuffer Methods
 ms.topic: reference

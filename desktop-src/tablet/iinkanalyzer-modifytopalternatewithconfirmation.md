@@ -1,5 +1,5 @@
 ---
-Description: Changes the current top alternate to the specified IAnalysisAlternate.
+description: Changes the current top alternate to the specified IAnalysisAlternate.
 ms.assetid: 0867a662-d172-4ca2-a41f-49c0ea454768
 title: IInkAnalyzer::ModifyTopAlternateWithConfirmation method (IACom.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ To change the confirmation type for a context node, use [**IContextNode::Confirm
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

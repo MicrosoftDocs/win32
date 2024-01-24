@@ -1,5 +1,5 @@
 ---
-Description: Retrieves replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
+description: Retrieves replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
 ms.assetid: 24f3f572-fa85-4680-be77-7e835e6471c5
 title: GetReplicationStatistics method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -122,7 +122,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

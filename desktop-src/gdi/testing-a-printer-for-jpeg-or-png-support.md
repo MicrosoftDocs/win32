@@ -1,5 +1,5 @@
 ---
-Description: The SetDIBitsToDevice function uses color data from a DIB to set the pixels in the specified rectangle on the device that is associated with the destination device context.
+description: The SetDIBitsToDevice function uses color data from a DIB to set the pixels in the specified rectangle on the device that is associated with the destination device context.
 ms.assetid: 7cbb2b7a-2d95-4352-9e75-aa814e8f01bd
 title: Testing a Printer for JPEG or PNG Support
 ms.topic: article

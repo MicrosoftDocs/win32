@@ -1,5 +1,5 @@
 ---
-Description: 'The second step in a COM+ application design process is to break the conceptual model out into the logical tiers of the three-tier architecture: the presentation tier, or user services; the middle tier, or business services; and the data tier, or data services. If you are unfamiliar with three-tier architecture, see Using a Three-Tier Architecture Model.'
+description: 'The second step in a COM+ application design process is to break the conceptual model out into the logical tiers of the three-tier architecture: the presentation tier, or user services; the middle tier, or business services; and the data tier, or data services. If you are unfamiliar with three-tier architecture, see Using a Three-Tier Architecture Model.'
 ms.assetid: 6dc0a0ab-2cfa-4cc9-92a6-0d7554dd3397
 title: 'The Logical Model: Application Definition and Planning'
 ms.topic: article

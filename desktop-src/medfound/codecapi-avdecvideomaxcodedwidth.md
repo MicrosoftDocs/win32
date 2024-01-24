@@ -1,5 +1,5 @@
 ---
-Description: Sets the maximum picture width that a video decoder will accept as an input type.
+description: Sets the maximum picture width that a video decoder will accept as an input type.
 ms.assetid: A6D70AD0-0B40-4AC8-A25A-89865BF5F5C1
 title: CODECAPI_AVDecVideoMaxCodedWidth property (Codecapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ CODECAPI\_AVDecVideoMaxCodedWidth
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

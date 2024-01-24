@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogSequenceException methods"
 title: EsentInvalidLogSequenceException methods
 TOCTitle: EsentInvalidLogSequenceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogSequenceException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidLogSequenceException](dn319554\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLogSequenceException](./esentinvalidlogsequenceexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLogSequenceException class](dn319554\(v=exchg.10\).md)
+[EsentInvalidLogSequenceException class](./esentinvalidlogsequenceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

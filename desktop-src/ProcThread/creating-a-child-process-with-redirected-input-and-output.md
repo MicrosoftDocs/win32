@@ -1,5 +1,5 @@
 ---
-Description: The example in this topic demonstrates how to create a child process using the CreateProcess function from a console process.
+description: The example in this topic demonstrates how to create a child process using the CreateProcess function from a console process.
 ms.assetid: a4e37069-2b3a-4b6d-9cfd-eb1700ab3bc6
 title: Creating a Child Process with Redirected Input and Output
 ms.topic: article
@@ -12,7 +12,7 @@ The example in this topic demonstrates how to create a child process using the [
 
 The [**CreatePipe**](/windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe) function uses the [**SECURITY\_ATTRIBUTES**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure to create inheritable handles to the read and write ends of two pipes. The read end of one pipe serves as standard input for the child process, and the write end of the other pipe is the standard output for the child process. These pipe handles are specified in the [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure, which makes them the standard handles inherited by the child process.
 
-The parent process uses the opposite ends of these two pipes to write to the child process's input and read from the child process's output. As specified in the [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) structure, these handles are also inheritable. However, these handles must not be inherited. Therefore, before creating the child process, the parent process uses the [**SetHandleInformation**](/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation) function to ensure that the write handle for the child process's standard input and the read handle for the child process's standard output cannot be inherited. For more information, see [Pipes](/windows/desktop/ipc/pipes).
+The parent process uses the opposite ends of these two pipes to write to the child process's input and read from the child process's output. As specified in the [**SECURITY\_ATTRIBUTES**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure, these handles are also inheritable. However, these handles must not be inherited. Therefore, before creating the child process, the parent process uses the [**SetHandleInformation**](/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation) function to ensure that the write handle for the child process's standard input and the read handle for the child process's standard output cannot be inherited. For more information, see [Pipes](/windows/desktop/ipc/pipes).
 
 The following is the code for the parent process. It takes a single command-line argument: the name of a text file.
 

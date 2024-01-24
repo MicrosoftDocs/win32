@@ -21,7 +21,7 @@ Contains one map entry for a nonstandard map.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | nisMapEntry                          |
 | Ldap-Display-Name | nisMapEntry                          |
@@ -45,7 +45,7 @@ Contains one map entry for a nonstandard map.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -66,7 +66,7 @@ Contains one map entry for a nonstandard map.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -87,7 +87,7 @@ Contains one map entry for a nonstandard map.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -108,7 +108,7 @@ Contains one map entry for a nonstandard map.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |

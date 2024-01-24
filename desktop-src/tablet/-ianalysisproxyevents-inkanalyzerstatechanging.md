@@ -1,7 +1,7 @@
 ---
-Description: Occurs before the IInkAnalyzer reconciles analysis results so that an application can synchronize data with the IInkAnalyzer.
+description: Occurs before the IInkAnalyzer reconciles analysis results so that an application can synchronize data with the IInkAnalyzer.
 ms.assetid: 9daa8723-5234-40d9-ac41-6dcca988a8b4
-title: '_IAnalysisProxyEvents::InkAnalyzerStateChanging event' (IACom.h)
+title: '_IAnalysisProxyEvents::InkAnalyzerStateChanging event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -59,7 +59,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

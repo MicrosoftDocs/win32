@@ -1,5 +1,5 @@
 ---
-Description: Transferring an Image or Music File to the Device
+description: Transferring an Image or Music File to the Device
 ms.assetid: bace274c-512a-46da-80a7-84734ee880b7
 title: Transferring an Image or Music File to the Device
 ms.topic: article
@@ -156,7 +156,7 @@ if (SUCCEEDED(hr))
                                                      &cbOptimalTransferSize,    // Returned optimal buffer size to use during transfer
                                                      NULL);
 
-    // Once we have a the IStream returned from CreateObjectWithPropertiesAndData,
+    // Once we have the IStream returned from CreateObjectWithPropertiesAndData,
     // QI for IPortableDeviceDataStream so we can use the additional methods
     // to get more information about the object (i.e. The newly created object
     // identifier on the device)

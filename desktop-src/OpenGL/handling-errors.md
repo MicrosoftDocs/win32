@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Handling Errors
+# Handling Errors (OpenGL)
 
 The **gluErrorString** function retrieves error strings that correspond to OpenGL or GLU error codes. The currently defined OpenGL error codes are described in [**glGetError**](glgeterror.md). The GLU error codes are listed in [**gluErrorString**](gluerrorstring.md), [*gluTessCallback*](glutess.md), [*gluQuadricCallback*](gluquadric.md), and [*gluNurbsCallback*](glunurbs.md).
 

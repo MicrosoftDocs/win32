@@ -1,12 +1,12 @@
 ---
 title: Constants (Active Accessibility User Interface Services)
-description: Constants
+description: These articles contain information about the constants that are used with Microsoft Active Accessibility.
 ms.assetid: a6325361-ea7b-472d-85d7-bc1544b57352
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Constants
+# Constants (Active Accessibility User Interface Services)
 
 This section contains information about the constants used with Microsoft Active Accessibility.
 

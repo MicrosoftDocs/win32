@@ -1,5 +1,5 @@
 ---
-Description: Defines the Network Monitor header file structure.
+description: Defines the Network Monitor header file structure.
 ms.assetid: 944980c9-ebaa-4042-a112-d32b7a28ba21
 title: CAPTUREFILE_HEADER_VALUES structure (Netmon.h)
 ms.topic: reference
@@ -173,7 +173,7 @@ This member is not used.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

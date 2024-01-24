@@ -1,6 +1,6 @@
 ---
 title: Enumerating Groups That Contain Many Members
-description: The members of a group are stored in a multi-value attribute called member.
+description: Learn about enumerating Azure Active Directory groups that contain many members by using the incremental retrieval of data (range retrieval).
 ms.assetid: 78f81b09-2223-4b74-b8d5-7a97494c0324
 ms.tgt_platform: multiple
 keywords:

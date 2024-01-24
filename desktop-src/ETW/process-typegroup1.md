@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for process events. The following syntax is simplified from MOF code.
+description: Process_TypeGroup1 class - This class is the event type class for process events. The following syntax is simplified from MOF code.
 ms.assetid: 4f06e1af-3f9a-4346-aa50-50f3ee82cd98
 title: Process_TypeGroup1 class
 ms.topic: reference
@@ -211,7 +211,7 @@ The DCStart and DCEnd event types enumerate the process that are currently runni
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

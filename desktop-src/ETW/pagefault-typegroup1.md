@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for page fault events. The following syntax is simplified from MOF code.
+description: PageFault_TypeGroup1 class - This class is the event type class for page fault events. The following syntax is simplified from MOF code.
 ms.assetid: 59cb1091-af21-4fe6-87b8-17a262cc4467
 title: PageFault_TypeGroup1 class
 ms.topic: reference
@@ -85,7 +85,7 @@ A page fault occurs when a page sought in the memory cache is not found there an
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

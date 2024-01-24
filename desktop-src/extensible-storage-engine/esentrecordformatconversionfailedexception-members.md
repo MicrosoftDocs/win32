@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordFormatConversionFailedException members"
 title: EsentRecordFormatConversionFailedException members
 TOCTitle: EsentRecordFormatConversionFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordFormatConversionFailedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.RecordFormatConversionFailed exceptions.
 
-The [EsentRecordFormatConversionFailedException](dn319884\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordFormatConversionFailedException](./esentrecordformatconversionfailedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentRecordFormatConversionFailedException class](dn319884\(v=exchg.10\).md)
+[EsentRecordFormatConversionFailedException class](./esentrecordformatconversionfailedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

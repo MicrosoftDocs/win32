@@ -1,5 +1,5 @@
 ---
-Description: Represents information about call targets for Control Flow Guard (CFG).
+description: Represents information about call targets for Control Flow Guard (CFG).
 ms.assetid: 8DEF907F-3F23-4122-95CE-F413FC7FD96B
 title: CFG_CALL_TARGET_INFO structure (Ntmmapi.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Flags describing the operation to be performed on the address. If **CFG\_CALL\_T
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |

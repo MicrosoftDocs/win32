@@ -1,6 +1,6 @@
 ---
 title: Routing Protocols Request for Comments
-description: Requests for Comments (RFCs) are an ongoing series of documents that discuss the Internet and Internet-related technologies.
+description: This article lists Requests for Comments (RFCs) for Routing Protocols. RFCs are an ongoing series of documents that discuss Internet-related technologies.
 ms.assetid: d972ae22-177d-4320-8939-47eae8675aa2
 keywords:
 - RFCs, Routing Protocols

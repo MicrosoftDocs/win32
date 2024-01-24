@@ -1,5 +1,5 @@
 ---
-Description: Determines whether components marked in the options are installed on the system.
+description: Determines whether components marked in the options are installed on the system.
 ms.assetid: 5fda917a-9c4b-42a3-8f79-9c609f56eb9f
 title: IcfgNeedInetComponents function
 ms.topic: reference
@@ -73,7 +73,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Icfgnt5.dll</dt> </dl> |
 

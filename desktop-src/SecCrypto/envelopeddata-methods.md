@@ -1,5 +1,5 @@
 ---
-Description: The EnvelopedData object exposes the following methods.
+description: The EnvelopedData object exposes the following methods.
 ms.assetid: A3A0317E-D880-41A8-BB70-D08E72E5D956
 title: EnvelopedData Methods
 ms.topic: reference

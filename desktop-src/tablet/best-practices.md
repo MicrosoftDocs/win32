@@ -1,12 +1,12 @@
 ---
-Description: Overview of best practices when using the pen input panel object.
+description: Overview of best practices when using the pen input panel object.
 ms.assetid: 5b127743-0c88-4c4c-bcb6-5a91690cd2a1
 title: Best Practices (Tablet PC)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Best Practices
+# Best Practices (Tablet PC)
 
 There are a few guidelines to keep in mind when using the [**PenInputPanel**](peninputpanel-class.md) object.
 
@@ -29,7 +29,7 @@ When a [**PenInputPanel**](peninputpanel-class.md) object is attached to a paren
 
 To use the [**PenInputPanel**](peninputpanel-class.md) object in a windowless environment, the following technique can be used:
 
-1.  Instantiate a [TextBox](/dotnet/api/system.windows.forms.textbox?view=netcore-3.1) control and position it over the windowless control.
+1.  Instantiate a [TextBox](/dotnet/api/system.windows.forms.textbox?view=netcore-3.1&preserve-view=true) control and position it over the windowless control.
 2.  Attach the [**PenInputPanel**](peninputpanel-class.md) object to the new text box control.
 3.  Let the text box control collect the recognized text from the [**PenInputPanel**](peninputpanel-class.md) object.
 4.  When focus changes away from the text box control, call the [**CommitPendingInput**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-commitpendinginput) method of the [**PenInputPanel**](peninputpanel-class.md) object.

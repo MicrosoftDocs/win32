@@ -22,7 +22,7 @@ This attribute lists the auxiliary classes that have been dynamically attached t
 
 
 
-|                   |                                                                 |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------|
 | CN                | ms-DS-Auxiliary-Classes                                         |
 | Ldap-Display-Name | msDS-Auxiliary-Classes                                          |
@@ -48,7 +48,7 @@ This attribute lists the auxiliary classes that have been dynamically attached t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -69,7 +69,7 @@ This attribute lists the auxiliary classes that have been dynamically attached t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -90,7 +90,7 @@ This attribute lists the auxiliary classes that have been dynamically attached t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -111,7 +111,7 @@ This attribute lists the auxiliary classes that have been dynamically attached t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -132,7 +132,7 @@ This attribute lists the auxiliary classes that have been dynamically attached t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -153,7 +153,7 @@ This attribute lists the auxiliary classes that have been dynamically attached t
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

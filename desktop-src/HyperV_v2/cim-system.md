@@ -1,5 +1,5 @@
 ---
-Description: Represents a set of components that function as a single high-level entity.
+description: Represents a set of components that function as a single high-level entity.
 ms.assetid: 784cee32-e0ae-4632-8dac-e5110513f5c9
 title: CIM_System class (Hyper-V management)
 ms.topic: reference
@@ -23,7 +23,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_System class
+# CIM_System class (Hyper-V management)
 
 Represents a set of components that function as a single high-level entity.
 
@@ -185,7 +185,7 @@ An array that contains the roles carried out by the system in an enterprise envi
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

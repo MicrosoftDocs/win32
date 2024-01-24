@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the IInkAnalyzer performs ink analysis.
+description: Specifies how the IInkAnalyzer performs ink analysis.
 ms.assetid: bc526445-0c9c-4c53-8b02-32cf758266e6
 title: AnalysisModes enumeration (IACom.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ This enumeration allows a bitwise combination of its member values.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

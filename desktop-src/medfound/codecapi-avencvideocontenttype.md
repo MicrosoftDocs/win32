@@ -1,5 +1,5 @@
 ---
-Description: Indicates the type of video content for a video encoder.
+description: Indicates the type of video content for a video encoder.
 ms.assetid: 2BCAA6F3-E08A-4387-BD48-038A7A3B1ADB
 title: CODECAPI_AVEncVideoContentType property (Codecapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This property is a hint to the encoder to optimize its encoding settings.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: Winsock catalog change event for a layered service provider (LSP) disable operation.
+description: Winsock catalog change event for a layered service provider (LSP) disable operation.
 ms.assetid: 6BCEECB1-92AD-47D8-952B-D0FD2A78EB45
 title: WINSOCK_WS2HELP_LSP_DISABLE event
 ms.topic: reference
@@ -79,7 +79,7 @@ The **WINSOCK\_WS2HELP\_LSP\_DISABLE** event is traced for an LSP disable operat
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDefaultValueTooBigException properties"
 title: EsentDefaultValueTooBigException properties
 TOCTitle: EsentDefaultValueTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDefaultValueTooBigException](dn334424\(v=exchg.10\).md) type exposes the following members.
+The [EsentDefaultValueTooBigException](./esentdefaultvaluetoobigexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDefaultValueTooBigException class](dn334424\(v=exchg.10\).md)
+[EsentDefaultValueTooBigException class](./esentdefaultvaluetoobigexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

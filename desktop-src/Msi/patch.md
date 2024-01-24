@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the PATCH property to a list of patches being applied by calling MsiApplyPatch, MsiApplyMultiplePatches or the /p Command Line Option.
+description: The installer sets the PATCH property to a list of patches being applied by calling MsiApplyPatch, MsiApplyMultiplePatches or the /p Command Line Option.
 ms.assetid: 'f2993544-2124-4fb0-8bb3-59f5d8e76b83'
 title: PATCH property
 ms.topic: article
@@ -46,7 +46,7 @@ If test.msp is not being applied, the installer does not include it in the **PAT
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

@@ -22,7 +22,7 @@ A character string that describes the format of the user's address. Address type
 
 
 
-|                   |                                                                                                                           |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------|
 | CN                | Address-Type                                                                                                              |
 | Ldap-Display-Name | addressType                                                                                                               |
@@ -48,7 +48,7 @@ A character string that describes the format of the user's address. Address type
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
@@ -69,7 +69,7 @@ A character string that describes the format of the user's address. Address type
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
@@ -90,7 +90,7 @@ A character string that describes the format of the user's address. Address type
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
@@ -111,7 +111,7 @@ A character string that describes the format of the user's address. Address type
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
@@ -132,7 +132,7 @@ A character string that describes the format of the user's address. Address type
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
@@ -153,7 +153,7 @@ A character string that describes the format of the user's address. Address type
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |

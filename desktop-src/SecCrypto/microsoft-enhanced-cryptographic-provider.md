@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Enhanced Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, but supports stronger security through longer keys and additional algorithms.
+description: The Microsoft Enhanced Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, but supports stronger security through longer keys and additional algorithms.
 ms.assetid: 87d0c865-8b29-439c-81aa-a40dc0034e3b
 title: Microsoft Enhanced Cryptographic Provider
 ms.topic: article
@@ -12,10 +12,10 @@ The Microsoft Enhanced Cryptographic Provider, called the Enhanced Provider, sup
 
 To maintain backward compatibility with earlier provider versions, the provider name, as defined in the Wincrypt.h header file, retains the version 1.0 designation. However, version 2.0 of this provider is currently shipping. To determine the version of the provider in use, call [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) with the *dwParam* argument set to **PP\_VERSION**. Version 2.0 is in use if 0x0200 is returned.
 
-|                |                        |
-|----------------|------------------------|
-| Provider type: | **PROV\_RSA\_FULL**    |
-| Provider name: | **MS\_ENHANCED\_PROV** |
+|                   | Value               |
+|-------------------|---------------------|
+| **Provider type** | PROV\_RSA\_FULL     |
+| **Provider name** | MS\_ENHANCED\_PROV  |
 
 
 

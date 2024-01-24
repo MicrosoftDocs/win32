@@ -1,5 +1,5 @@
 ---
-Description: Contains a DirectShow format GUID for a media type.
+description: Contains a DirectShow format GUID for a media type.
 ms.assetid: dc532791-39e1-4acb-9e62-21d8f25be870
 title: MF_MT_AM_FORMAT_TYPE attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

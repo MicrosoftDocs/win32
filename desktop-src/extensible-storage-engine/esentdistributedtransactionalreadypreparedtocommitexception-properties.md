@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDistributedTransactionAlreadyPreparedToCommitException properties"
 title: EsentDistributedTransactionAlreadyPreparedToCommitException properties
 TOCTitle: EsentDistributedTransactionAlreadyPreparedToCommitException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDistributedTransactionAlreadyPreparedToCommitException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDistributedTransactionAlreadyPreparedToCommitException](dn334490\(v=exchg.10\).md) type exposes the following members.
+The [EsentDistributedTransactionAlreadyPreparedToCommitException](./esentdistributedtransactionalreadypreparedtocommitexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDistributedTransactionAlreadyPreparedToCommitException class](dn334490\(v=exchg.10\).md)
+[EsentDistributedTransactionAlreadyPreparedToCommitException class](./esentdistributedtransactionalreadypreparedtocommitexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

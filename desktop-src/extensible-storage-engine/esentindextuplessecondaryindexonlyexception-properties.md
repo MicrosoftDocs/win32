@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesSecondaryIndexOnlyException properties"
 title: EsentIndexTuplesSecondaryIndexOnlyException properties
 TOCTitle: EsentIndexTuplesSecondaryIndexOnlyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesSecondaryIndexOnlyException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexTuplesSecondaryIndexOnlyException](dn350485\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesSecondaryIndexOnlyException](./esentindextuplessecondaryindexonlyexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesSecondaryIndexOnlyException class](dn350485\(v=exchg.10\).md)
+[EsentIndexTuplesSecondaryIndexOnlyException class](./esentindextuplessecondaryindexonlyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

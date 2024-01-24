@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between an instance of Msvm\_GuestServiceInterfaceComponent and an instance of Msvm\_GuestService, which represents a service running in the guest.
+description: Represents an association between an instance of Msvm\_GuestServiceInterfaceComponent and an instance of Msvm\_GuestService, which represents a service running in the guest.
 ms.assetid: 246CFAC1-7D83-4DE7-B9D3-96326511E08B
 title: Msvm_RegisteredGuestService class
 ms.topic: reference
@@ -82,7 +82,7 @@ Reference to the registered guest service that is dependent on the **Antecedent*
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

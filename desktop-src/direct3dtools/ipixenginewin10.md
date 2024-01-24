@@ -1,5 +1,5 @@
 ---
-Description: Determines if the engine is from Windows 10.
+description: Determines if the engine is from Windows 10.
 MS-HAID: vspixengine.IPixEngineWin10
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -30,7 +30,7 @@ The **IPixEngineWin10** interface inherits from the [**IUnknown**](/windows/desk
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

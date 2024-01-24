@@ -1,5 +1,5 @@
 ---
-Description: Validate a configuration text for correctness without setting it active. Returns 1 on success, 0 on error.
+description: Validate a configuration text for correctness without setting it active. Returns 1 on success, 0 on error.
 ms.assetid: baeabed0-7717-498a-9886-e49e4a101711
 ms.tgt_platform: multiple
 title: ValidateConfiguration method of the Control class
@@ -125,7 +125,7 @@ Success
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

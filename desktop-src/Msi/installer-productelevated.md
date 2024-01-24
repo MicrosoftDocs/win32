@@ -1,5 +1,5 @@
 ---
-Description: The ProductElevated property of the Installer object returns True if the product is managed or False if the product is not managed.
+description: The ProductElevated property of the Installer object returns True if the product is managed or False if the product is not managed.
 ms.assetid: 8126f5a0-751f-46c3-9014-208e9c2db34c
 title: Installer::ProductElevated property
 ms.topic: reference
@@ -74,7 +74,7 @@ End If
 
 
 
-|                    |                                                                                                                                                                                                                                                              |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 4.5 on Windows Server 2003 and Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                           |

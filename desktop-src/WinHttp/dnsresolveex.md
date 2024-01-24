@@ -1,5 +1,5 @@
 ---
-Description: Resolve a host string to its IP address
+description: Resolve a host string to its IP address
 ms.assetid: 32d70f10-803b-484d-a9e0-d4c61a8d897f
 title: dnsResolveEx function
 ms.topic: reference

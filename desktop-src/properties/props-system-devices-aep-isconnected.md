@@ -1,5 +1,5 @@
 ---
-Description: Whether the device is currently connected to the system or or not.
+description: Whether the device is currently connected to the system or not.
 ms.assetid: 67562a20-19d3-495b-9618-f13603946ecc
 title: System.Devices.Aep.IsConnected
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Devices.Aep.IsConnected
 
-Whether the device is currently connected to the system or or not
+Whether the device is currently connected to the system or not
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507
 

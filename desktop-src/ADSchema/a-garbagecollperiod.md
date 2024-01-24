@@ -22,7 +22,7 @@ This attribute is located on the CN=Directory Service,CN=Windows NT,CN=Services,
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Garbage-Coll-Period                  |
 | Ldap-Display-Name | garbageCollPeriod                    |
@@ -49,7 +49,7 @@ This attribute is located on the CN=Directory Service,CN=Windows NT,CN=Services,
 
 
 
-|                        |                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                    |
 | MAPI-Id                | 0x80AF                                                                                                |
@@ -70,7 +70,7 @@ This attribute is located on the CN=Directory Service,CN=Windows NT,CN=Services,
 
 
 
-|                        |                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                    |
 | MAPI-Id                | 0x80AF                                                                                                |
@@ -91,7 +91,7 @@ This attribute is located on the CN=Directory Service,CN=Windows NT,CN=Services,
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x80AF                                           |
@@ -112,7 +112,7 @@ This attribute is located on the CN=Directory Service,CN=Windows NT,CN=Services,
 
 
 
-|                        |                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                    |
 | MAPI-Id                | 0x80AF                                                                                                |
@@ -133,7 +133,7 @@ This attribute is located on the CN=Directory Service,CN=Windows NT,CN=Services,
 
 
 
-|                        |                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                    |
 | MAPI-Id                | 0x80AF                                                                                                |
@@ -154,7 +154,7 @@ This attribute is located on the CN=Directory Service,CN=Windows NT,CN=Services,
 
 
 
-|                        |                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                    |
 | MAPI-Id                | 0x80AF                                                                                                |
@@ -175,7 +175,7 @@ This attribute is located on the CN=Directory Service,CN=Windows NT,CN=Services,
 
 
 
-|                        |                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                    |
 | MAPI-Id                | 0x80AF                                                                                                |

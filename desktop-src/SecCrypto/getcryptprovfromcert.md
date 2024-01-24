@@ -1,5 +1,5 @@
 ---
-Description: Gets a handle to a cryptographic service provider (CSP) and a key specification for a certificate context.
+description: Gets a handle to a cryptographic service provider (CSP) and a key specification for a certificate context.
 ms.assetid: ff72231f-e10f-49d2-b0e0-0008923803cc
 title: GetCryptProvFromCert function
 ms.topic: reference
@@ -123,7 +123,7 @@ When you have finished using the CSP, free it by calling the [**FreeCryptProvFro
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

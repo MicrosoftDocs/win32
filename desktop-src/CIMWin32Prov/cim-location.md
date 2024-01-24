@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Location class represents the position and address of a physical element.
+description: The CIM\_Location class represents the position and address of a physical element.
 ms.assetid: c1ec467c-a338-4beb-a8fe-1ebc5b05c754
 ms.tgt_platform: multiple
 title: CIM_Location class
@@ -112,7 +112,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

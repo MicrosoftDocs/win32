@@ -297,14 +297,15 @@ void Renderer::CreateViewAndPerspective()
             )
         );
 
-    float aspectRatio = m_deviceResources->GetAspectRatio();
+    float aspectRatioX = m_deviceResources->GetAspectRatio();
+    float aspectRatioY = aspectRatioX < (16.0f / 9.0f) ? aspectRatioX / (16.0f / 9.0f) : 1.0f;
 
     DirectX::XMStoreFloat4x4(
         &m_constantBufferData.projection,
         DirectX::XMMatrixTranspose(
             DirectX::XMMatrixPerspectiveFovRH(
-                DirectX::XMConvertToRadians(70),
-                aspectRatio,
+                2.0f * std::atan(std::tan(DirectX::XMConvertToRadians(70) * 0.5f) / aspectRatioY),
+                aspectRatioX,
                 0.01f,
                 100.0f
                 )

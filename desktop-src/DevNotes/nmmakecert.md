@@ -1,5 +1,5 @@
 ---
-Description: Creates a user certificate for use with NetMeeting conferencing.
+description: Creates a user certificate for use with NetMeeting conferencing.
 ms.assetid: 22acdcbe-c9c9-4f1b-a62d-44a35e101eec
 title: NmMakeCert function
 ms.topic: reference
@@ -105,7 +105,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Nmmkcert.dll</dt> </dl> |
 

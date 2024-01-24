@@ -1,5 +1,5 @@
 ---
-Description: The GetDefaultPrinter function retrieves the printer name of the default printer for the current user on the local computer.
+description: The GetDefaultPrinter function retrieves the printer name of the default printer for the current user on the local computer.
 ms.assetid: 8ec06743-43ce-4fac-83c4-f09eac7ee333
 title: GetDefaultPrinter function (Winspool.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

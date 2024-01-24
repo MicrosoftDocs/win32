@@ -6,7 +6,7 @@ keywords:
 - context handles MIDL
 - mixed mode serialization MIDL
 ms.topic: article
-ms.date: 07/10/2018
+ms.date: 02/05/2021
 ---
 
 # Reserved keywords

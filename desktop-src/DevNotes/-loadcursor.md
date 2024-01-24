@@ -1,5 +1,5 @@
 ---
-Description: Loads the specified cursor.
+description: Loads the specified cursor.
 ms.assetid: 36caac30-0121-4866-9eac-5bb4e64ba517
 title: '_LoadCursor function'
 ms.topic: reference
@@ -43,7 +43,7 @@ HCURSOR _LoadCursor(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 

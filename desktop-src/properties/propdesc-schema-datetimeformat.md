@@ -1,5 +1,5 @@
 ---
-Description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if <displayInfo displayType=&\#0034;DateTime&\#0034;>.
+description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if <displayInfo displayType=&\#0034;DateTime&\#0034;>.
 ms.assetid: c290fb2e-ef5b-4dea-ba42-7c9e273a89dc
 title: dateTimeFormat
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # dateTimeFormat
 
-Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. This is applicable only if <displayInfo displayType="DateTime">. There should be only one [dateTimeFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
+Specifies how [**IPropertyDescription::FormatForDisplay**](/windows/win32/api/propsys/nf-propsys-ipropertydescription-formatfordisplay) should format the property's value as a string. This is applicable only if \<displayInfo displayType="DateTime"\>. There should be only one [dateTimeFormat]() element for each [displayInfo](./propdesc-schema-displayinfo.md) element.
 
 If there are multiple elements, the last one is used. If no [dateTimeFormat]() element is provided, then the default attribute settings are applied to the property description.
 
@@ -73,8 +73,8 @@ If there are multiple elements, the last one is used. If no [dateTimeFormat]() e
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

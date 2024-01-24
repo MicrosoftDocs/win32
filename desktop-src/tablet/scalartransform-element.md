@@ -1,5 +1,5 @@
 ---
-Description: Scalar transform used by the Drawing or InkWord.
+description: Scalar transform used by the Drawing or InkWord.
 ms.assetid: 88fc3b90-9ec6-41c0-9267-ed5b585ea07b
 title: ScalarTransform Element
 ms.topic: reference
@@ -50,7 +50,7 @@ None.
 
 
 
-|              |                                                                             |
+| Element      | Value                                                                       |
 |--------------|-----------------------------------------------------------------------------|
 | Element type | [**ScalarTransformType**](scalartransformtype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                                  |

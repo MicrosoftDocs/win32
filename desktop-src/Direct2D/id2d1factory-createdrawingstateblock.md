@@ -35,7 +35,7 @@ Creates an [**ID2D1DrawingStateBlock**](/windows/win32/api/d2d1/nn-d2d1-id2d1dra
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl> |

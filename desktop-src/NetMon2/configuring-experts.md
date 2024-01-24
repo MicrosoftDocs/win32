@@ -1,5 +1,5 @@
 ---
-Description: To configure experts, use the custom dialog boxes and the Configure function.
+description: To configure experts, use the custom dialog boxes and the Configure function.
 ms.assetid: 6298fa7b-ddc8-4924-9616-6eed67ec48db
 title: Configuring Experts
 ms.topic: article

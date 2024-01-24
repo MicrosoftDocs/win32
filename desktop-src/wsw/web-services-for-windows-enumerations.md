@@ -1,7 +1,7 @@
 ---
 title: Windows Web Services Enumerations
 ms.assetid: e54df9d6-87ff-4901-a662-5198132ceb18
-description: 
+description: "Learn more about: Windows Web Services Enumerations"
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -15,7 +15,6 @@ The Windows Web Services API includes the following enumerations:
 -   [**WS\_CALLBACK\_MODEL**](/windows/desktop/api/WebServices/ne-webservices-ws_callback_model)
 -   [**WS\_CALL\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_call_property_id)
 -   [**WS\_CERT\_CREDENTIAL\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_cert_credential_type)
--   [**WS\_CERT\_FAILURE**](/windows/win32/api/webservices/ne-webservices-)
 -   [**WS\_CHANNEL\_BINDING**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding)
 -   [**WS\_CHANNEL\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_property_id)
 -   [**WS\_CHANNEL\_STATE**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_state)
@@ -38,12 +37,12 @@ The Windows Web Services API includes the following enumerations:
 -   [**WS\_HEADER\_ATTRIBUTES**](/windows/win32/api/webservices/ne-webservices-ws_xml_text_type)
 -   [**WS\_HEADER\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_header_type)
 -   [**WS\_HEAP\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_heap_property_id)
--   [**WS\_HTTP\_HEADER\_AUTH\_SCHEME**](https://technet.microsoft.com/windows/dd401907(v=vs.60)
+-   **WS\_HTTP\_HEADER\_AUTH\_SCHEME**
 -   [**WS\_HTTP\_HEADER\_AUTH\_TARGET**](/windows/desktop/api/WebServices/ne-webservices-ws_http_header_auth_target)
 -   [**WS\_HTTP\_HEADER\_MAPPING\_OPTIONS**](/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id)
 -   [**WS\_HTTP\_PROXY\_SETTING\_MODE**](/windows/desktop/api/WebServices/ne-webservices-ws_http_proxy_setting_mode)
 -   [**WS\_HTTP\_REQUEST\_MAPPING\_OPTIONS**](/windows/win32/api/webservices/ne-webservices-ws_xml_writer_property_id)
--   [**WS\_HTTP\_RESPONSE\_MAPPING\_OPTIONS**](https://msdn.microsoft.com/library/Dd401921(v=VS.85).aspx)
+-   **WS_HTTP_RESPONSE_MAPPING_OPTIONS**
 -   [**WS\_IP\_VERSION**](/windows/desktop/api/WebServices/ne-webservices-ws_ip_version)
 -   [**WS\_LISTENER\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_listener_property_id)
 -   [**WS\_LISTENER\_STATE**](/windows/desktop/api/WebServices/ne-webservices-ws_listener_state)
@@ -92,14 +91,14 @@ The Windows Web Services API includes the following enumerations:
 -   [**WS\_SERVICE\_OPERATION\_MESSAGE\_OPTION**](/windows/win32/api/webservices/ne-webservices-ws_charset)
 -   [**WS\_SERVICE\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_service_property_id)
 -   [**WS\_SERVICE\_PROXY\_STATE**](/windows/desktop/api/WebServices/ne-webservices-ws_service_proxy_state)
--   [**WS\_STRUCT\_OPTIONS**](https://msdn.microsoft.com/library/Dd323454(v=VS.85).aspx)
+-   **WS\_STRUCT\_OPTIONS**
 -   [**WS\_TRACE\_API**](/windows/desktop/api/WebServices/ne-webservices-ws_trace_api)
 -   [**WS\_TRANSFER\_MODE**](/windows/desktop/api/WebServices/ne-webservices-ws_transfer_mode)
 -   [**WS\_TRUST\_VERSION**](/windows/desktop/api/WebServices/ne-webservices-ws_trust_version)
 -   [**WS\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_type)
 -   [**WS\_TYPE\_MAPPING**](/windows/desktop/api/WebServices/ne-webservices-ws_type_mapping)
 -   [**WS\_URL\_FLAGS**](/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type)
--   [**WS\_URL\_MATCHING\_OPTIONS**](https://msdn.microsoft.com/library/Dd323493(v=VS.85).aspx)
+-   **WS_URL_MATCHING_OPTIONS**
 -   [**WS\_URL\_SCHEME\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_url_scheme_type)
 -   [**WS\_USERNAME\_CREDENTIAL\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_username_credential_type)
 -   [**WS\_VALUE\_TYPE**](/windows/desktop/api/WebServices/ne-webservices-ws_value_type)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseFailedIncrementalReseedException constructor"
 title: EsentDatabaseFailedIncrementalReseedException constructor 
 TOCTitle: 'EsentDatabaseFailedIncrementalReseedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseFailedIncrementalReseedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseFailedIncrementalReseedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseFailedIncrementalReseedException()
 
 #### Reference
 
-[EsentDatabaseFailedIncrementalReseedException class](dn334404\(v=exchg.10\).md)
+[EsentDatabaseFailedIncrementalReseedException class](./esentdatabasefailedincrementalreseedexception-class.md)
 
-[EsentDatabaseFailedIncrementalReseedException members](dn334302\(v=exchg.10\).md)
+[EsentDatabaseFailedIncrementalReseedException members](./esentdatabasefailedincrementalreseedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The Seek method selects the object from which (read/write) access will be done.
+description: The Seek method selects the object from which (read/write) access will be done.
 ms.assetid: 9e06df70-6415-46dd-b34f-59614d1cbee7
 title: ISCardFileAccess::Seek method
 ms.topic: reference
@@ -98,7 +98,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

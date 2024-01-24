@@ -1,5 +1,5 @@
 ---
-Description: Represents the storage-specific settings for a virtual system.
+description: Represents the storage-specific settings for a virtual system.
 ms.assetid: 0b3fcd78-7e9a-4a94-ad18-0ca72b3cfd73
 title: Msvm_StorageSettingData class
 ms.topic: reference
@@ -143,7 +143,7 @@ This is a read-only property, but it can be changed using the [**ModifySystemCom
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

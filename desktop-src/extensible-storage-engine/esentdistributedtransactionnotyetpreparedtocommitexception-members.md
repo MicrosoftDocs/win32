@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDistributedTransactionNotYetPreparedToCommitException members"
 title: EsentDistributedTransactionNotYetPreparedToCommitException members
 TOCTitle: EsentDistributedTransactionNotYetPreparedToCommitException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDistributedTransactionNotYetPreparedToCommitException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DistributedTransactionNotYetPreparedToCommit exceptions.
 
-The [EsentDistributedTransactionNotYetPreparedToCommitException](dn274293\(v=exchg.10\).md) type exposes the following members.
+The [EsentDistributedTransactionNotYetPreparedToCommitException](./esentdistributedtransactionnotyetpreparedtocommitexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDistributedTransactionNotYetPreparedToCommitException class](dn274293\(v=exchg.10\).md)
+[EsentDistributedTransactionNotYetPreparedToCommitException class](./esentdistributedtransactionnotyetpreparedtocommitexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

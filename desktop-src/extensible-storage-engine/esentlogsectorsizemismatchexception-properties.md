@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSectorSizeMismatchException properties"
 title: EsentLogSectorSizeMismatchException properties
 TOCTitle: EsentLogSectorSizeMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogSectorSizeMismatchException](dn334646\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogSectorSizeMismatchException](./esentlogsectorsizemismatchexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentLogSectorSizeMismatchException class](dn334646\(v=exchg.10\).md)
+[EsentLogSectorSizeMismatchException class](./esentlogsectorsizemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

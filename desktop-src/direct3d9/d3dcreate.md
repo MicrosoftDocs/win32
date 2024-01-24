@@ -1,5 +1,5 @@
 ---
-Description: A combination of one or more flags that control the device create behavior.
+description: See a combination of one or more flags that control the device create behavior in the D3DCREATE constant.
 ms.assetid: 91387a2d-3927-4285-a09b-9ce247e6bfdd
 title: D3DCREATE
 ms.topic: article
@@ -14,8 +14,8 @@ A combination of one or more flags that control the device create behavior.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -93,10 +93,10 @@ A combination of one or more flags that control the device create behavior.
 <td>D3DCREATE_SOFTWARE_VERTEXPROCESSING</td>
 <td>Specifies software vertex processing. For Windows 10, version 1607 and later, use of this setting is not recommended. Use D3DCREATE_HARDWARE_VERTEXPROCESSING.
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Unless hardware vertex processing is not available, the usage of software vertex processing is not recommended in Windows 10, version 1607 (and later versions) because the efficiency of software vertex processing was significantly reduced while improving the security of the implementation.
-</blockquote>
+
 </div>
 <div>
  
@@ -110,10 +110,10 @@ Unless hardware vertex processing is not available, the usage of software vertex
 <td>D3DCREATE_NOWINDOWCHANGES</td>
 <td>Indicates that Direct3D must not alter the focus window in any way.
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If this flag is set, the application must fully support all focus management events, such as ALT+TAB and mouse click events.
-</blockquote>
+
 </div>
 <div>
  
@@ -149,7 +149,7 @@ D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D
 
 
 
-|                          |            |
+| Requirement                         |  Value          |
 |--------------------------|------------|
 | Header                   | D3D9.h     |
 | Minimum operating system | Windows 98 |

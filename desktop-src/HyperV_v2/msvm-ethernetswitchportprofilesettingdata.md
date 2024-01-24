@@ -1,5 +1,5 @@
 ---
-Description: Represents the port profile settings.
+description: Represents the port profile settings.
 ms.assetid: 43ddb0a3-8621-4993-b0a9-8ddcfb0eaad5
 title: Msvm_EthernetSwitchPortProfileSettingData class
 ms.topic: reference
@@ -325,7 +325,7 @@ The name of the vendor defining the profile.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

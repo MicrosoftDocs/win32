@@ -1,5 +1,5 @@
 ---
-Description: Generates an optimized face remapping for a triangle list.
+description: Generates an optimized face remapping for a triangle list.
 ms.assetid: 428c2af8-43e7-4cf7-8b9b-04ba5cff82c8
 title: D3DXOptimizeFaces function (D3DX9Mesh.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ This function's optimization procedure is functionally equivalent to calling [**
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

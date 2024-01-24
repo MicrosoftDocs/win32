@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Guide
+# Guide (Controls and Property Pages)
 
 This guide describes ActiveX controls, property pages, and property sheets.
 

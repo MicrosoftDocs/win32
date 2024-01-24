@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_USBHub class represents the capabilities and management of a USB hub.
+description: The CIM\_USBHub class represents the capabilities and management of a USB hub.
 ms.assetid: 33618963-3053-4c01-992e-aa6d9774f84b
 ms.tgt_platform: multiple
 title: CIM_USBHub class
@@ -1331,7 +1331,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: This method is obsolete. Applications should use the Quality of Service (QoS) API to manipulate Type of Service (TOS) bits.
+description: This method is obsolete. Applications should use the Quality of Service (QoS) API to manipulate Type of Service (TOS) bits.
 ms.assetid: 18860c13-7324-4a37-b83c-f3d15c425acb
 ms.tgt_platform: multiple
 title: SetDefaultTOS method of the Win32_NetworkAdapterConfiguration class
@@ -407,7 +407,7 @@ The **SetDefaultTOS** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) st
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

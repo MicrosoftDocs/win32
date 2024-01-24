@@ -1,5 +1,5 @@
 ---
-Description: Describes the capabilities of the associated Msvm\_VirtualEthernetSwitchManagementService.
+description: Describes the capabilities of the associated Msvm\_VirtualEthernetSwitchManagementService.
 ms.assetid: daed7a02-bae8-4bda-abc6-0657df7dc4f8
 title: Msvm_VirtualEthernetSwitchManagementCapabilities class
 ms.topic: reference
@@ -424,7 +424,7 @@ An array of strings, each designating a type of virtual system that the implemen
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

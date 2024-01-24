@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for advanced local procedure call events. The following syntax is simplified from MOF code.
+description: This class is the parent class for advanced local procedure call events. The following syntax is simplified from MOF code.
 ms.assetid: 5380fada-50e7-4eb2-8549-6d738a56d2cd
 title: ALPC class
 ms.topic: reference
@@ -57,7 +57,7 @@ Event trace consumers can implement special processing for ALPC events by callin
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

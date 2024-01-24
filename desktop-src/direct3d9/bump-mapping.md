@@ -1,5 +1,5 @@
 ---
-Description: Bump mapping is a special form of specular or diffuse environment mapping that simulates the reflections of finely tessellated objects without requiring extremely high polygon counts.
+description: Bump mapping is a special form of specular or diffuse environment mapping that simulates the reflections of finely tessellated objects without requiring extremely high polygon counts.
 ms.assetid: 3e195e4f-3fa9-43c4-b2e5-42a6b3aaccf2
 title: Bump Mapping (Direct3D 9)
 ms.topic: article

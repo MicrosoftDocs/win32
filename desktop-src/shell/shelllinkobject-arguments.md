@@ -1,5 +1,5 @@
 ---
-Description: Contains a link's arguments.
+description: Contains a link's arguments.
 ms.assetid: 938db958-4b59-4dd6-ac56-f21db05ec989
 title: ShellLinkObject.Arguments property (Shldisp.h)
 ms.topic: reference
@@ -175,7 +175,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

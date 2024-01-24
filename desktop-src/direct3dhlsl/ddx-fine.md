@@ -1,6 +1,6 @@
 ---
 title: ddx_fine function
-description: Computes a high precision partial derivative with respect to the screen-space x-coordinate.
+description: Computes a high precision partial derivative with respect to the screen-space x-coordinate. | ddx_fine function
 ms.assetid: 41062d6f-2b7f-4594-a6de-da37ded5d444
 keywords:
 - ddx_fine function HLSL

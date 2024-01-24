@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileNotFoundException members"
 title: EsentFileNotFoundException members
 TOCTitle: EsentFileNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileNotFoundException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.FileNotFound exceptions.
 
-The [EsentFileNotFoundException](dn274377\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileNotFoundException](./esentfilenotfoundexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentFileNotFoundException class](dn274377\(v=exchg.10\).md)
+[EsentFileNotFoundException class](./esentfilenotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

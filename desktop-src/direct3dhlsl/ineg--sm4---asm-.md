@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 
 
-| ineg dest\[.mask\], src0\[.swizzle |
+| ineg dest\[.mask\], src0\[.swizzle\] |
 |------------------------------------|
 
 

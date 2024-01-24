@@ -1,5 +1,5 @@
 ---
-Description: Grants access to the interactive session of the virtual machine to the specified list of trustees.
+description: Grants access to the interactive session of the virtual machine to the specified list of trustees.
 ms.assetid: 8a82170d-067b-47e5-a15f-21d6c04128d2
 title: GrantInteractiveSessionAccess method of the Msvm_TerminalService class
 ms.topic: reference
@@ -100,7 +100,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

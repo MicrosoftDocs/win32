@@ -1,5 +1,5 @@
 ---
-Description: The application GUID of the event class object.
+description: The application GUID of the event class object.
 ms.assetid: 0d19183a-429c-4564-b6a5-f06481d27e00
 title: IEventSubscription3::EventClassApplicationID property
 ms.topic: reference
@@ -49,7 +49,7 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

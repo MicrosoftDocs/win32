@@ -1,5 +1,5 @@
 ---
-Description: Identifiers specify the names of columns (sometimes referred to as properties), catalogs, and aliases.
+description: Identifiers specify the names of columns (sometimes referred to as properties), catalogs, and aliases.
 ms.assetid: 799afe2c-9217-4006-a4a3-644e5393993c
 title: Identifiers
 ms.topic: article
@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 Identifiers specify the names of columns (sometimes referred to as properties), catalogs, and aliases. For example, System.ItemName and System.DateCreated are the identifiers of two system-defined property columns. Literals, by contrast, specify string and numeric values.
 
-## 
 
 You can create identifiers that are up to 128 characters long, and in one of two types, distinguished by the characters used in the identifier name:
 

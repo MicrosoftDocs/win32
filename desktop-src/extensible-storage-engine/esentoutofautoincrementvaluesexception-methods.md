@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfAutoincrementValuesException methods"
 title: EsentOutOfAutoincrementValuesException methods
 TOCTitle: EsentOutOfAutoincrementValuesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfAutoincrementValuesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfAutoincrementValuesException](dn319752\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfAutoincrementValuesException](./esentoutofautoincrementvaluesexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentOutOfAutoincrementValuesException class](dn319752\(v=exchg.10\).md)
+[EsentOutOfAutoincrementValuesException class](./esentoutofautoincrementvaluesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

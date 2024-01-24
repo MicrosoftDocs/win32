@@ -143,27 +143,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 | <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was not a *type* constant.<br/>                                                                                                                                                                                   |
 | <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was GL\_BITMAP and *format* was not GL\_COLOR\_INDEX.<br/>                                                                                                                                                        |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than log2 *max*, where *max* was the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                                                                                                |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *internalformat* was was not 1, 2, 3, or 4.<br/>                                                                                                                                                                         |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* or height was less than zero or greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or it could not be represented as 2*n* + 2(border) for some integer value of *n*.<br/>                                                  |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *border* was not 0 or 1.<br/>                                                                                                                                                                                            |
-| <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/>                                                                                          |
-
-
-
-## Error codes
-
-The following error codes can be retrieved by the [**glGetError**](glgeterror.md) function.
-
-
-
-| Name                                                                                                  | Meaning                                                                                                                                                                                                                        |
-|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* was not an GL\_TEXTURE\_2D.<br/>                                                                                                                                                                                |
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *format* was not an accepted *format* constant. Only format constants other than GL\_STENCIL\_INDEX and GL\_DEPTH\_COMPONENT are accepted. See the parameter description of *format* for a list of possible values.<br/> |
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was not a *type* constant.<br/>                                                                                                                                                                                   |
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *type* was GL\_BITMAP and *format* was not GL\_COLOR\_INDEX.<br/>                                                                                                                                                        |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than log2 *max*, where *max* was the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                                                                                                |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *internalformat* was was not 1, 2, 3, or 4.<br/>                                                                                                                                                                         |
+| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *internalformat* was not 1, 2, 3, or 4.<br/>                                                                                                                                                                         |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* or height was less than zero or greater than 2 + GL\_MAX\_TEXTURE\_SIZE, or it could not be represented as 2*n* + 2(border) for some integer value of *n*.<br/>                                                  |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *border* was not 0 or 1.<br/>                                                                                                                                                                                            |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/>                                                                                          |
@@ -196,7 +176,7 @@ The following functions retrieve information related to **glTexImage2D**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

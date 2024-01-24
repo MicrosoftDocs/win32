@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTooBigException methods"
 title: EsentKeyTooBigException methods
 TOCTitle: EsentKeyTooBigException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentKeyTooBigException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentKeyTooBigException](dn319610\(v=exchg.10\).md) type exposes the following members.
+The [EsentKeyTooBigException](./esentkeytoobigexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentKeyTooBigException class](dn319610\(v=exchg.10\).md)
+[EsentKeyTooBigException class](./esentkeytoobigexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

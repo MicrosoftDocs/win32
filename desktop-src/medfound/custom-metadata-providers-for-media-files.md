@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to write a custom Shell property handler for a Microsoft Media Foundation media source.
+description: This topic describes how to write a custom Shell property handler for a Microsoft Media Foundation media source.
 ms.assetid: f8cf70ff-8324-4308-8adf-a145aa351ca9
 title: Custom Metadata Providers for Media Files
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the AddEllipse methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the AddEllipse methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: 39074cd8-267d-485a-8175-d0a25dcf9097
 title: GraphicsPath.AddEllipse methods (Gdipluspath.h)
 ms.date: 07/02/2019
@@ -27,7 +27,7 @@ This topic lists the AddEllipse methods of the [**GraphicsPath**](/windows/win32
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

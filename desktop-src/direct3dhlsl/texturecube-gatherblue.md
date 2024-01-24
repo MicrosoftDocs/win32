@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube GatherBlue methods
-description: Samples a texture and returns the blue component.
+description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation. | TextureCube::TextureCube GatherBlue methods
 ms.assetid: 933B1358-DD7D-477B-AC12-488C94127C92
 keywords:
 - GatherBlue methods HLSL
@@ -16,15 +16,15 @@ api_location:
 
 # TextureCube::GatherBlue methods
 
-Samples a texture and returns the blue component.
+Returns the blue components of the four texel values that would be used in a bi-linear filtering operation.
 
 ### Overload list
 
 
 
-| Method                                                             | Description                                                                                        |
-|:-------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**GatherBlue(S,float,uint)**](tcube-gatherblue-s-float-uint-.md) | Samples a texture and returns the blue component along with status about the operation.<br/> |
+| Method                                                             | Description                                                                                                                                      |
+|:-------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**GatherBlue(S,float,uint)**](tcube-gatherblue-s-float-uint-.md)  | Returns the blue components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.<br/> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-Description: The InstallInitialize action and InstallFinalize action mark the beginning and end of a sequence of actions that change the system.
+description: The InstallInitialize action and InstallFinalize action mark the beginning and end of a sequence of actions that change the system.
 ms.assetid: c2637070-3fd9-422c-9252-cf15045c6485
 title: InstallInitialize Action
 ms.topic: article

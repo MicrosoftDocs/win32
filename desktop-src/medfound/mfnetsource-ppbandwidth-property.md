@@ -1,5 +1,5 @@
 ---
-Description: Specifies the packet-pair bandwidth and run-time bandwidth detected by the network source.
+description: Specifies the packet-pair bandwidth and run-time bandwidth detected by the network source.
 ms.assetid: 430de7fc-fe62-4b89-b3fc-7cd956e40892
 title: MFNETSOURCE_PPBANDWIDTH property (Mfidl.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This property is read-only. To retrieve this property, query the network source 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

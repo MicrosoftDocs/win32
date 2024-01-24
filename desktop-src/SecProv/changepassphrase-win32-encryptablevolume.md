@@ -1,5 +1,5 @@
 ---
-Description: Uses the new passphrase to obtain a new derived key.
+description: Uses the new passphrase to obtain a new derived key.
 ms.assetid: 89398bae-a2a2-466c-8a1e-a702018d679f
 title: ChangePassphrase method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -89,7 +89,7 @@ This method returns one of the following codes or another error code if it fails
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

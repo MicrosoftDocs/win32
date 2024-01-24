@@ -1,5 +1,5 @@
 ---
-Description: Driver capability flag.
+description: Driver capability flag.
 ms.assetid: 78ff4433-f0b5-4bbb-b2c0-bd389fbc31ce
 title: D3DENUM
 ms.topic: article
@@ -14,9 +14,9 @@ Driver capability flag.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -49,7 +49,7 @@ Driver capability flag.
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3d9.h     |
 | Minimum operating system | Windows 98 |

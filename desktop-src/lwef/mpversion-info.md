@@ -128,7 +128,7 @@ Type: **[**MPCOMPONENT\_VERSION**](mpcomponent-version.md)**
 
 </dd> <dd>
 
-NIS Signature signature component version.
+NIS Signature component version.
 
 </dd> <dt>
 
@@ -147,7 +147,7 @@ Reserved fields.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: The GetData method constructs an application protocol data unit (APDU) command that retrieves either a single primitive data object or a set of data objects (contained in a constructed data object), depending on the type of file selected.
+description: The GetData method constructs an application protocol data unit (APDU) command that retrieves either a single primitive data object or a set of data objects (contained in a constructed data object), depending on the type of file selected.
 ms.assetid: d764a765-f451-4bf7-9d06-f5901062dcac
 title: ISCardISO7816::GetData method (Scardssp.h)
 ms.topic: reference
@@ -130,7 +130,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

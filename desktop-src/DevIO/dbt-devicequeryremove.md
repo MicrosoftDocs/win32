@@ -1,5 +1,5 @@
 ---
-Description: The system broadcasts the DBT\_DEVICEQUERYREMOVE device event to request permission to remove a device or piece of media.
+description: The system broadcasts the DBT\_DEVICEQUERYREMOVE device event to request permission to remove a device or piece of media.
 ms.assetid: a0e9aa57-da0e-4e9c-99d0-5502040d2664
 title: DBT_DEVICEQUERYREMOVE event (Dbt.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ For an example, see [Processing a Request to Remove a Device](processing-a-reque
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                   |

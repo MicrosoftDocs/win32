@@ -1,5 +1,5 @@
 ---
-Description: The DoAction method of the Session object executes the action function corresponding to the name supplied.
+description: The DoAction method of the Session object executes the action function corresponding to the name supplied.
 ms.assetid: 6cff1cf1-1c8f-4c43-a687-e927e8573e55
 title: Session.DoAction method (Photoacquire.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Actions that update the system, such as the [InstallFiles](installfiles-action.m
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | Header<br/>  | <dl> <dt>Photoacquire.h</dt> </dl>                                                                                                                                                               |

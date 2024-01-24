@@ -1,5 +1,5 @@
 ---
-Description: Specifies the pixel aspect ratio of the output media type.
+description: Specifies the pixel aspect ratio of the output media type.
 ms.assetid: cc259ab4-6371-4309-99a3-51bb1aa3d63a
 title: MFPKEY_PIXELASPECTRATIO Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Stores the numerator in the higher 4 bytes and the denominator in the lower 4 by
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

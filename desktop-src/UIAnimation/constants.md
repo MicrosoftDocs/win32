@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Constants
+# Constants (Windows Animation Reference)
 
 Reference documentation for constants and enumerations defined by the Windows Animation Manager.
 

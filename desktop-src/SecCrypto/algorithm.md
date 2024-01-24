@@ -1,5 +1,5 @@
 ---
-Description: Specifies the algorithm used for signing, enveloping, and encrypting operations.
+description: Specifies the algorithm used for signing, enveloping, and encrypting operations.
 ms.assetid: 9a3071a3-e62d-43d3-acd7-0685592c78b4
 title: Algorithm object (Capicom.h)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Algorithm object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**AlgorithmIdentifier Class**](/dotnet/api/system.security.cryptography.pkcs.algorithmidentifier?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**AlgorithmIdentifier Class**](/dotnet/api/system.security.cryptography.pkcs.algorithmidentifier?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Algorithm** object specifies the algorithm used for signing, enveloping, and encrypting operations.
 
@@ -62,7 +62,7 @@ The **Algorithm** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

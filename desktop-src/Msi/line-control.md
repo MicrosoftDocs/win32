@@ -1,5 +1,5 @@
 ---
-Description: The Line control is a horizontal line.
+description: The Line control is a horizontal line.
 ms.assetid: 8b180b71-1e80-47c0-bb44-d5fcecabaed2
 title: Line Control
 ms.topic: article

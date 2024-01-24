@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical codec file specified in the object path.
+description: Changes the security permissions for the logical codec file specified in the object path.
 ms.assetid: d7945666-e514-4bfc-81bc-8e98aa90bcf0
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissions method of the Win32_CodecFile class
@@ -229,7 +229,7 @@ A specified parameter is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

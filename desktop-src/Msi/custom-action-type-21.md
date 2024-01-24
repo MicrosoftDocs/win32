@@ -1,5 +1,5 @@
 ---
-Description: Developers of Windows Installer packages may choose to use a custom action type 21 when the standard actions are insufficient to execute the installation.
+description: Developers of Windows Installer packages may choose to use a custom action type 21 when the standard actions are insufficient to execute the installation.
 ms.assetid: 0b28ad22-4e3a-49f2-8eed-2341a91eb67c
 title: Custom Action Type 21
 ms.topic: article

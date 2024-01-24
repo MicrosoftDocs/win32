@@ -1,5 +1,5 @@
 ---
-Description: Application-specific information allows applications to pass each other information concerning a session through TAPI. This information is not interpreted by TAPI and usage is entirely defined by the applications.
+description: Application-specific information allows applications to pass each other information concerning a session through TAPI. This information is not interpreted by TAPI and usage is entirely defined by the applications.
 ms.assetid: e72e4164-3578-4e18-aea0-09d47d385b57
 title: Application-specific Information
 ms.topic: article

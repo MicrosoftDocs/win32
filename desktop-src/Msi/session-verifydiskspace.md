@@ -1,5 +1,5 @@
 ---
-Description: The VerifyDiskSpace property is a read-only property.
+description: The VerifyDiskSpace property is a read-only property.
 ms.assetid: 62f11f71-00b0-4e04-8c45-d6d670238886
 title: Session.VerifyDiskSpace property
 ms.topic: reference
@@ -36,7 +36,7 @@ propVal = Session.VerifyDiskSpace
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

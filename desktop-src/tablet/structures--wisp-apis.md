@@ -1,5 +1,5 @@
 ---
-Description: These structures are used by the Windows Presentation Foundation to implement ink support.
+description: These structures are used by the Windows Presentation Foundation to implement ink support.
 ms.assetid: 59d78d11-268e-460f-a889-5147ebde8bfb
 title: Structures Used by WPF
 ms.topic: article

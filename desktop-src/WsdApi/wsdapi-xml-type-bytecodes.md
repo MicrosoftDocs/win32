@@ -1,5 +1,5 @@
 ---
-Description: Used by WSDAPI to parse and generate XML using bytecode tables which describe complex types.
+description: Used by WSDAPI to parse and generate XML using bytecode tables which describe complex types.
 ms.assetid: 33fc9af3-c5e9-444d-bc3e-101830772aac
 title: WSDAPI XML Type Bytecodes
 ms.topic: article

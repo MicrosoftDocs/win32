@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.IsFlaggedComplete
 ms.assetid: a75660e7-d417-46ba-8222-bc827ebb5d75
 title: System.IsFlaggedComplete
 ms.topic: article

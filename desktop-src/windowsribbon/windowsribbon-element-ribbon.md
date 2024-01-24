@@ -35,10 +35,10 @@ Represents the ribbon control in the Ribbon View.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -132,10 +132,9 @@ The following example demonstrates the basic markup for a **Ribbon** View.
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+
+* **Minimum supported system**: Windows 7
+* **Can be empty**: No
 
 
 

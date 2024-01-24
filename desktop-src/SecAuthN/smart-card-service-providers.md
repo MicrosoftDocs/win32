@@ -1,5 +1,5 @@
 ---
-Description: Smart Card Service Providers (SCSP) provide access to Smart Card capabilities.
+description: Smart Card Service Providers (SCSP) provide access to Smart Card capabilities.
 ms.assetid: f214385f-3e65-4175-925c-3d1dc4060185
 title: Smart Card Service Providers
 ms.topic: article

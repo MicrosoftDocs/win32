@@ -1,5 +1,5 @@
 ---
-Description: Specifies a friendly name for the identification of the client.
+description: Specifies a friendly name for the identification of the client.
 ms.assetid: 04DEFC2A-6870-4C22-B55D-5514C87C1908
 title: MFNETSOURCE_PEERMANAGER property (Mfidl.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ VT\_LPWSTR
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: The SWbemLastError object exposes the following methods.
+description: The SWbemLastError object exposes the following methods.
 ms.assetid: B05393B8-9C04-4DD4-AF2A-6A897677C739
 ms.tgt_platform: multiple
 title: SWbemLastError Methods

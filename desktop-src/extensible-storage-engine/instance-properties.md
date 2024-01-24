@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance properties"
 title: Instance properties
 TOCTitle: Instance properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Instance
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Instance](dn350923\(v=exchg.10\).md) type exposes the following members.
+The [Instance](./instance-class.md) type exposes the following members.
 
 ## Properties
 
@@ -61,6 +62,6 @@ Top
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

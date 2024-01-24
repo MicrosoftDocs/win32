@@ -1,5 +1,5 @@
 ---
-Description: The Local Security Authority (LSA) provides functions to translate between user, group, and local group names and their corresponding security identifier (SID) values.
+description: The Local Security Authority (LSA) provides functions to translate between user, group, and local group names and their corresponding security identifier (SID) values.
 ms.assetid: 8845b709-a8f9-4d0f-a4a6-86d23d6b01d5
 title: Translating Between Names and SIDs
 ms.topic: article

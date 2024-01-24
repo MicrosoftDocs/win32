@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for system call enter events. The following syntax is simplified from MOF code.
+description: This class is the event type class for system call enter events. The following syntax is simplified from MOF code.
 ms.assetid: 1ab32977-3f59-4816-b311-67142475dff2
 title: SysCallEnter class
 ms.topic: reference
@@ -63,7 +63,7 @@ Address of the NT function call that is being entered.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

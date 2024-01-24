@@ -1,5 +1,5 @@
 ---
-Description: The GetFrameMacHeaderLength function returns the length, in bytes, of the MAC header of the frame.
+description: The GetFrameMacHeaderLength function returns the length, in bytes, of the MAC header of the frame.
 ms.assetid: 4a0f6a8c-04e0-47cb-abd1-b4011cd2d062
 title: GetFrameMacHeaderLength function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the function is not successful, or an unknown MAC type is encountered, the re
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

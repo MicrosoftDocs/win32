@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedIndexViolationException properties"
 title: EsentMultiValuedIndexViolationException properties
 TOCTitle: EsentMultiValuedIndexViolationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedIndexViolationException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMultiValuedIndexViolationException](dn334706\(v=exchg.10\).md) type exposes the following members.
+The [EsentMultiValuedIndexViolationException](./esentmultivaluedindexviolationexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentMultiValuedIndexViolationException class](dn334706\(v=exchg.10\).md)
+[EsentMultiValuedIndexViolationException class](./esentmultivaluedindexviolationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

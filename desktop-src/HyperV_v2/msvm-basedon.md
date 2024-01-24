@@ -1,5 +1,5 @@
 ---
-Description: An association that describes how storage extents can be assembled from lower level extents.
+description: An association that describes how storage extents can be assembled from lower level extents.
 ms.assetid: 8be9bb2c-ef46-454b-bfc3-0398c64d17b7
 title: Msvm_BasedOn class
 ms.topic: reference
@@ -121,7 +121,7 @@ The starting address where, in lower level storage, the higher level extent begi
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,6 +1,6 @@
 ---
 title: Month Calendar Structures
-description: .
+description: Month Calendar Structures
 ms.assetid: 8011fc1b-0266-41be-b4f5-24f351810fe2
 ms.topic: article
 ms.date: 05/31/2018

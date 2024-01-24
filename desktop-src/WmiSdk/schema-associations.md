@@ -1,5 +1,5 @@
 ---
-Description: 'Schema association queries use the same statements as are used in data association queries: ASSOCIATORS OF and REFERENCES OF.'
+description: 'Schema association queries use the same statements as are used in data association queries: ASSOCIATORS OF and REFERENCES OF.'
 ms.assetid: b5fc2d86-702a-42cd-82e6-f15c905ba6aa
 ms.tgt_platform: multiple
 title: Schema Associations

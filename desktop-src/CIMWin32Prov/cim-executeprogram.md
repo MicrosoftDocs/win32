@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ExecuteProgram class represents files that can be executed on the system where the software element is installed.
+description: The CIM\_ExecuteProgram class represents files that can be executed on the system where the software element is installed.
 ms.assetid: 4329d228-4069-4a5a-b1eb-2dbad9644118
 ms.tgt_platform: multiple
 title: CIM_ExecuteProgram class
@@ -838,8 +838,8 @@ Version of the operation.
 
 The version of the operation should be in one of the following forms:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;
+-   &lt;major&gt;.&lt;minor&gt;&lt;letter&gt;&lt;revision&gt;
 
 This property is inherited from [**CIM\_Action**](cim-action.md).
 
@@ -855,7 +855,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

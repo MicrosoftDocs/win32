@@ -9,10 +9,13 @@ keywords:
 - buttons in skins,image source
 - image source for skins,buttons
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Pushed Image Source
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You must define the source of the image you want to display when the user pushes a button. The image comes from the file you defined as Pushed in the Bitmaps section. You must enter the image type followed by a space and the @ symbol and another space. You must then enter two positive integers that define the top and left coordinates (in pixels) of the image you want to use inside the Pushed image file. The location at which the image will be displayed comes from the coordinates defined for the button relative to the Background image; but the location it comes from is defined by the two numbers following "Pushed @" and is relative to the Pushed image you are reading the image from.
 

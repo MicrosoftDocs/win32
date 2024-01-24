@@ -15,25 +15,10 @@ api_location:
 
 The eaptlsconnectionpropertiesv2 schema defines the following complex types.
 
--   [**TLSExtensionsType**](eaptlsconnectionpropertiesv2schema-tlsextensionstype-complextype.md)
+- [**TLSExtensionsType**](eaptlsconnectionpropertiesv2schema-tlsextensionstype-complextype.md)
 
 ## Related topics
 
-<dl> <dt>
-
-[EAPHost and Legacy Schema](eaphost-schemas.md)
-</dt> <dt>
-
-[eaptlsconnectionpropertiesv1 Schema](eaptlsconnectionpropertiesv1schema-schema.md)
-</dt> <dt>
-
-[eaptlsconnectionpropertiesv2 Schema](eaptlsconnectionpropertiesv2schema-schema.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [EAPHost and Legacy Schema](eaphost-schemas.md)
+- [eaptlsconnectionpropertiesv1 Schema](eaptlsconnectionpropertiesv1schema-schema.md)
+- [eaptlsconnectionpropertiesv2 Schema](eaptlsconnectionpropertiesv2schema-schema.md)

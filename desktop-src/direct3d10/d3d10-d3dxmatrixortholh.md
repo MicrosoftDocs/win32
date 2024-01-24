@@ -1,22 +1,25 @@
 ---
-Description: Builds a left-handed orthographic projection matrix.
+description: D3DXMatrixOrthoLH function (D3DX10Math.h) - Builds a left-handed orthographic projection matrix.
 ms.assetid: 67bec4a3-2126-4f5a-9301-97faa6dc6e84
 title: D3DXMatrixOrthoLH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixOrthoLH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
-# D3DXMatrixOrthoLH function
+# D3DXMatrixOrthoLH function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a left-handed orthographic projection matrix.
 
@@ -112,7 +115,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

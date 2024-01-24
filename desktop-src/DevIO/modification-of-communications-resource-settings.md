@@ -1,5 +1,5 @@
 ---
-Description: When the CreateFile function opens a handle to a serial communications resource, the system initializes and configures the resource according to the values set up the last time the resource was opened.
+description: When the CreateFile function opens a handle to a serial communications resource, the system initializes and configures the resource according to the values set up the last time the resource was opened.
 ms.assetid: a39881d8-32af-4846-a2d3-508f1945b666
 title: Modification of Communications Resource Settings
 ms.topic: article

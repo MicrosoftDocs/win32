@@ -1,5 +1,5 @@
 ---
-Description: The property system contains a property called System.Kind, which divides items into types according to the file name extension, and which end users can easily identify with.
+description: The property system contains a property called System.Kind, which divides items into types according to the file name extension, and which end users can easily identify with.
 ms.assetid: 1466b4c7-49ea-417a-ac94-7b45515ccb96
 title: Using Kind Names
 ms.topic: article
@@ -92,7 +92,7 @@ Note that the `Kind` can be a single value or multiple values in a semi-colon de
 [Registering and Distributing Property Handlers](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
+[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

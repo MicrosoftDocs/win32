@@ -1,5 +1,5 @@
 ---
-Description: The get\_Count method gets the number of attributes.
+description: The get\_Count method gets the number of attributes.
 ms.assetid: dc607f09-4cca-4ef0-8b86-dbc5e6edcfdd
 title: ITAttributeList::get_Count method (Sdpblb.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

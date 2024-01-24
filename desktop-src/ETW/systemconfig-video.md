@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for video configuration events.
+description: SystemConfig_Video class - This class is the event type class for video configuration events.
 ms.assetid: ddb5924b-70d9-4693-bf68-0536c3c3fa8d
 title: SystemConfig_Video class
 ms.topic: reference
@@ -258,7 +258,7 @@ Current number of vertical pixels.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -2,7 +2,6 @@
 title: Core Reference (Direct3D 12)
 description: This section covers Direct3D 12 APIs declared in d3d12.h, including APIs for buffers, textures, and views.
 ms.assetid: 588202FB-A187-4727-BF53-31BEA6CFB9E9
-ms.localizationpriority: low
 ms.topic: article
 ms.date: 11/27/2018
 ---

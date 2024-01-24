@@ -1,5 +1,5 @@
 ---
-Description: Called by the IeAxiSystemInstaller interface to verify that an ActiveX object can be installed.
+description: Called by the IeAxiSystemInstaller interface to verify that an ActiveX object can be installed.
 ms.assetid: d5cd6263-d07e-4261-9463-b9a06e883f16
 title: IeAxiServiceCallback interface
 ms.topic: reference
@@ -64,7 +64,7 @@ The **IeAxiServiceCallback** interface has these methods.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |

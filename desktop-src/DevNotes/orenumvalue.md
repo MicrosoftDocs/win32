@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the values for the specified open registry key in an offline registry hive. The function retrieves information for one value under the specified key each time the function is called.
+description: Enumerates the values for the specified open registry key in an offline registry hive. The function retrieves information for one value under the specified key each time the function is called.
 ms.assetid: 592a404f-a35d-4d89-ad1e-d572787bcb12
 title: OREnumValue function (Offreg.h)
 ms.topic: reference
@@ -125,7 +125,7 @@ To determine the maximum size of the name and data buffers, use the [**ORQueryIn
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

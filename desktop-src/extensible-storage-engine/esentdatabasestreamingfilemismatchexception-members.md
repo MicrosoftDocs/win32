@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseStreamingFileMismatchException members"
 title: EsentDatabaseStreamingFileMismatchException members
 TOCTitle: EsentDatabaseStreamingFileMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseStreamingFileMismatchException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseStreamingFileMismatch exceptions.
 
-The [EsentDatabaseStreamingFileMismatchException](dn334493\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseStreamingFileMismatchException](./esentdatabasestreamingfilemismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseStreamingFileMismatchException class](dn334493\(v=exchg.10\).md)
+[EsentDatabaseStreamingFileMismatchException class](./esentdatabasestreamingfilemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

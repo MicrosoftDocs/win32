@@ -1,6 +1,6 @@
 ---
 title: Using the Image Element
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This article describes using the Image element in VML, a feature that is deprecated as of Windows Internet Explorer 9.
 ms.assetid: 444c0b21-35f0-4e2d-ab6d-87a88229d9d2
 keywords:
 - Web workshop,image element

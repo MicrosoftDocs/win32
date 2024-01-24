@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_OUTPUTIDCOUNT query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_OUTPUTIDCOUNT query.
 ms.assetid: 8b9fa0dc-bbe5-4382-8acc-59aeadfca825
 title: D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTIDCOUNT_OUTPUT structure (D3d9types.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ The number of output IDs associated with the specified device and cryptographic 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

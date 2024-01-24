@@ -1,5 +1,5 @@
 ---
-Description: The Exchangeable Image File (EXIF) extensibility mechanism that allows camera manufacturers to provide custom information.
+description: The Exchangeable Image File (EXIF) extensibility mechanism that allows camera manufacturers to provide custom information.
 ms.assetid: 7472fdc6-683c-41cc-a008-f5be77521901
 title: System.Photo.MakerNote
 ms.topic: article
@@ -33,7 +33,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a computer system and its most recently applied virtual system snapshot.
+description: Represents an association between a computer system and its most recently applied virtual system snapshot.
 ms.assetid: 722491a3-1c46-4d37-8bd6-7c7d6648a806
 title: CIM_LastAppliedSnapshot class
 ms.topic: reference
@@ -80,7 +80,7 @@ The computer system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

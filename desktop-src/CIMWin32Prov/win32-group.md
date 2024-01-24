@@ -1,5 +1,5 @@
 ---
-Description: Represents data about a group account.
+description: Represents data about a group account.
 ms.assetid: a53d1276-3dc9-419a-bbb8-5dd07794a971
 ms.tgt_platform: multiple
 title: Win32_Group class
@@ -397,7 +397,7 @@ The **Win32\_Group** class is derived from [**Win32\_Account**](win32-account.md
 
 ## Examples
 
-The following code, taken from the [List Local Groups Using WMI](https://Gallery.TechNet.Microsoft.Com/4474e390-776d-428e-906d-20668ce5933f) VBScript code example on TechNet Gallery, uses **Win32\_Group** to return information about the local groups found on a computer.
+The following code uses **Win32\_Group** to return information about the local groups found on a computer.
 
 
 ```VB
@@ -428,7 +428,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLFEATURE\_ constants indicate operations that can be invoked for a given address or call.
+description: The LINECALLFEATURE\_ constants indicate operations that can be invoked for a given address or call.
 ms.assetid: 8bb1d678-079c-4c83-b4a2-08fd7afdca9b
 title: LINECALLFEATURE_ Constants (Tapi.h)
 ms.topic: reference
@@ -344,7 +344,7 @@ The LINECALLFEATURE\_RELEASEUSERUSERINFO value is new to TAPI 1.4. There are no 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

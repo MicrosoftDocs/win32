@@ -22,7 +22,7 @@ Updated each time the entry that contains this attribute is modified.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DFS-Generation-GUID-v2                             |
 | Ldap-Display-Name | msDFS-GenerationGUIDv2                                |
@@ -45,7 +45,7 @@ Updated each time the entry that contains this attribute is modified.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
@@ -66,7 +66,7 @@ Updated each time the entry that contains this attribute is modified.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
@@ -87,7 +87,7 @@ Updated each time the entry that contains this attribute is modified.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |

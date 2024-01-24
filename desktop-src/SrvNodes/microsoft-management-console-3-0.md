@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Management Console 3.0
+description: Microsoft Management Console 3.0
 ms.assetid: 032c0bab-91d1-4468-97d7-f5c2e74ad5ea
 title: Microsoft Management Console 3.0
 ms.topic: reference

@@ -22,7 +22,7 @@ Auxiliary class to represent a bindable object. Any user-defined class that repr
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Bindable-Object                |
 | Ldap-Display-Name | msDS-BindableObject                  |
@@ -42,7 +42,7 @@ Auxiliary class to represent a bindable object. Any user-defined class that repr
 
 
 
-|                             |                                                              |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------|
 | System-Only                 | False                                                        |
 | Object-Category             | 3                                                            |

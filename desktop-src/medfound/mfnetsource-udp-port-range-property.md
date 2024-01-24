@@ -1,5 +1,5 @@
 ---
-Description: The range of valid UDP ports that the network source can use to receive streaming content.
+description: The range of valid UDP ports that the network source can use to receive streaming content.
 ms.assetid: 97fe2d11-70f7-4baa-b49f-513d90146591
 title: MFNETSOURCE_UDP_PORT_RANGE property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

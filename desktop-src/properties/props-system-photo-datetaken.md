@@ -1,5 +1,5 @@
 ---
-Description: The date when the photo was taken, as read from the camera in the file's Exchangeable Image File (EXIF) tag.
+description: The date when the photo was taken, as read from the camera in the file's Exchangeable Image File (EXIF) tag.
 ms.assetid: 197fb739-7fe6-47e8-908f-54e75cb47ec4
 title: System.Photo.DateTaken
 ms.topic: article
@@ -47,7 +47,7 @@ PKEY values are defined in Propkey.h.
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

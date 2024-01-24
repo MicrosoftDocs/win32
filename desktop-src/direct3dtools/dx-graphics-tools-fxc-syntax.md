@@ -58,7 +58,7 @@ Decompress DX10 shader bytecode from first file. Output files should be listed i
 ##### /dumpbin
 Loads a binary file rather than compiling a shader.
 
-##### /E <name>
+##### /E &lt;name&gt;
 Shader entry point. If no entry point is given, **main** is considered to be the shader entry name.
 
 ##### /enable_unbounded_descriptor_tables

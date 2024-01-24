@@ -1,5 +1,5 @@
 ---
-Description: The installer supplies functions that manipulate the records in an installation database. These functions can be used in conjunction with the functions described in Working with Queries to make actual changes in a database.
+description: The installer supplies functions that manipulate the records in an installation database. These functions can be used in conjunction with the functions described in Working with Queries to make actual changes in a database.
 ms.assetid: 5ea3fb1d-ddcb-4013-84dc-dd6f90c5751a
 title: Working with Records
 ms.topic: article

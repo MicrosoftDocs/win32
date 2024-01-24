@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Guide
+# Guide (OLE and Data Transfer)
 
 This guide describes compound documents and the COM data transfer mechanism.
 

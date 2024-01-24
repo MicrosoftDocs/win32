@@ -1,5 +1,5 @@
 ---
-Description: This tutorial demonstrates how to take a monolingual application and make it world-ready. This application is in the form of a complete solution that is built within Microsoft Visual Studio.
+description: This tutorial demonstrates how to take a monolingual application and make it world-ready. This application is in the form of a complete solution that is built within Microsoft Visual Studio.
 ms.assetid: 6d71aa90-8444-4f30-a2f8-f1a2aab015b0
 title: Adding Multilingual User Interface Support to an Application
 ms.topic: article
@@ -89,9 +89,7 @@ All code samples in this tutorial are designed to be executed on x86 and x64 ver
     > [!Note]  
     > In the context of this tutorial, this package is necessary only if you will be customizing the application to run on Windows versions prior to Windows Vista. See [Step 5: Customizing Hello MUI](#step-5-customizing-hello-mui).
 
-     
-
-    1.  Download and install the package from its [download site](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en).
+    1.  Download and install the package, which is no longer available from the [Microsoft Download Center](https://www.microsoft.com/downloads). Use [ICU globalization APIs](/dotnet/core/compatibility/globalization/5.0/icu-globalization-api) on Windows 10 May 2019 Update and later versions.
     2.  As with the Windows SDK, if you are not installing the package to the default location, or if you are not installing on the system drive, which is usually the C drive, make note of the install path.
     3.  If your development platform is Windows XP or Windows Server 2003, confirm that Nlsdl.dll is installed and registered correctly.
 
@@ -985,8 +983,8 @@ Create a project that can use the localized resource modules on any version of W
 4.  Create or copy langs.txt to the appropriate directory, as previously described in [Step 4: Globalizing "Hello MUI"](#step-4-globalizing-hello-mui).
 5.  Build and run the project.
 
-> [!Note]  
-> If the application should run on Windows versions prior to Windows Vista, be sure to read the documents that came with the [Microsoft NLS downlevel APIs](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&amp;DisplayLang=en) package on how to redistribute Nlsdl.dll.
+> [!NOTE]  
+> If the application should run on Windows versions prior to Windows Vista, be sure to read the documents that came with the Microsoft NLS downlevel APIs package on how to redistribute Nlsdl.dll. (**This is no longer available from the [Microsoft Download Center](https://www.microsoft.com/downloads). Use [ICU globalization APIs](/dotnet/core/compatibility/globalization/5.0/icu-globalization-api) on Windows 10 May 2019 Update and later versions.**)
 
  
 

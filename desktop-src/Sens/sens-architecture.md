@@ -1,5 +1,5 @@
 ---
-Description: The System Event Notification Service works with the COM+ Event System.
+description: The System Event Notification Service works with the COM+ Event System.
 ms.assetid: c51d1f61-6087-4480-b989-31241829781b
 title: SENS Architecture
 ms.topic: article

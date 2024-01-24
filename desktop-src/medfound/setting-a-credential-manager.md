@@ -1,5 +1,5 @@
 ---
-Description: Setting a Credential Manager
+description: Setting a Credential Manager
 ms.assetid: a20c2e6c-e9d9-438f-a57a-e3080587c11c
 title: Setting a Credential Manager
 ms.topic: article

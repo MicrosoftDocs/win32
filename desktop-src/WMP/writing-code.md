@@ -12,10 +12,13 @@ keywords:
 - events,writing code
 - writing code for skins,about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Writing Code
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The real power of skins comes from being able to respond to events. You want your skin to be able to do something when the user clicks on a button, and you will also want to respond to changes that happen to Windows Media Player, such as the progress of the digital media file or stream that is playing.
 

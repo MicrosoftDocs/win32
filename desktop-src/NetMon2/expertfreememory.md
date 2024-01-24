@@ -1,5 +1,5 @@
 ---
-Description: The ExpertFreeMemory function frees memory acquired by calls to the ExpertAllocMemory and ExpertReallocMemory functions.
+description: The ExpertFreeMemory function frees memory acquired by calls to the ExpertAllocMemory and ExpertReallocMemory functions.
 ms.assetid: 0e7cc791-98dd-4522-afab-76ac9e74c715
 title: ExpertFreeMemory function (Netmon.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ It is important to note that an expert should use the Network Monitor memory all
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

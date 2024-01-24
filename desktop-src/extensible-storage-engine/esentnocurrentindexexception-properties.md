@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentIndexException properties"
 title: EsentNoCurrentIndexException properties
 TOCTitle: EsentNoCurrentIndexException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentIndexException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNoCurrentIndexException](dn334726\(v=exchg.10\).md) type exposes the following members.
+The [EsentNoCurrentIndexException](./esentnocurrentindexexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentNoCurrentIndexException class](dn334726\(v=exchg.10\).md)
+[EsentNoCurrentIndexException class](./esentnocurrentindexexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,6 +1,6 @@
 ---
 title: Texture1D::Load(int,int,uint) function
-description: Reads texture data and returns status of the operation.
+description: Reads texture data and returns status of the operation. | Texture1D::Load(int,int,uint) function
 ms.assetid: 5C489CBD-E4F6-4CB5-8E7E-EC34633D75B0
 keywords:
 - Load function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,int,uint) function
+# Texture1D::Load(int,int,uint) function
 
 Reads texture data and returns status of the operation.
 

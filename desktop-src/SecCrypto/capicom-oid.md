@@ -1,5 +1,5 @@
 ---
-Description: Provides the names for CAPICOM object identifiers.
+description: Provides the names for CAPICOM object identifiers.
 ms.assetid: 6c1eb2cc-84ac-4920-99ba-56ac8de4a851
 title: CAPICOM_OID enumeration (Capicom.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ This enumeration is used by the [**OID.Name**](oid-name.md) property.
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

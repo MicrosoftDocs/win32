@@ -40,10 +40,10 @@ Represents a [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md) cont
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -73,10 +73,10 @@ Represents a [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md) cont
 <td>Boolean<br/></td>
 <td>No<br/></td>
 <td>Determines whether the large or small image resource of the Command is displayed in the gallery control. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Applies only to galleries where the value of the <em>Type</em> attribute is equal to <code>Command</code>.
-</blockquote>
+
 <br/> Restricted to one of the following values (0 and 1 are not valid):<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd> Default. <br/> </dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -132,8 +132,8 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -156,10 +156,10 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>QuickAccessToolbar.ApplicationDefaults</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 Windows 8 and newer.
-</blockquote>
+
 <br/> <br/></td>
 </tr>
 <tr class="odd">
@@ -237,12 +237,8 @@ This section of code shows the **DropDownGallery** control declarations.
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: No
 
 
 

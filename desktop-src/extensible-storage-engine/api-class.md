@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api class"
 title: Api class
 TOCTitle: Api class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Api
@@ -35,7 +36,7 @@ Managed versions of the ESENT API. This class contains static methods that corre
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Api  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

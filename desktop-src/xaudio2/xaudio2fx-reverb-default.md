@@ -1,5 +1,5 @@
 ---
-Description: Default values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
+description: Default values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
 ms.assetid: a7e579ae-5390-ebac-27e4-bbdd71a82181
 title: XAUDIO2FX_REVERB_DEFAULT (Xaudio2fx.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Xaudio2fx.h</dt> </dl> |
 

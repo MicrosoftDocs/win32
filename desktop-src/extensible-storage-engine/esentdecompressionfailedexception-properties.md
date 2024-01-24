@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDecompressionFailedException properties"
 title: EsentDecompressionFailedException properties
 TOCTitle: EsentDecompressionFailedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDecompressionFailedException](dn274251\(v=exchg.10\).md) type exposes the following members.
+The [EsentDecompressionFailedException](./esentdecompressionfailedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDecompressionFailedException class](dn274251\(v=exchg.10\).md)
+[EsentDecompressionFailedException class](./esentdecompressionfailedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

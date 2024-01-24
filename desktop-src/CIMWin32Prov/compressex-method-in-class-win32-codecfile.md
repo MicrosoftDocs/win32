@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical codec file (or directory) specified in the object path (this method is an extended version of the Compress method).
+description: Compresses the logical codec file (or directory) specified in the object path (this method is an extended version of the Compress method).
 ms.assetid: e1ecf0de-3b81-443e-9936-326d7d2d9210
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_CodecFile class
@@ -161,7 +161,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

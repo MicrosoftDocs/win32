@@ -1,5 +1,5 @@
 ---
-Description: Prints a test page.
+description: Prints a test page.
 ms.assetid: 7968e637-9817-4111-89f5-d3c6961395e5
 ms.tgt_platform: multiple
 title: PrintTestPage method of the Win32_Printer class
@@ -82,7 +82,7 @@ $printer.PrintTestPage()
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

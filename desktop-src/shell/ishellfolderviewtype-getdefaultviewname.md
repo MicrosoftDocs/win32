@@ -1,5 +1,5 @@
 ---
-Description: Gets the name of the default view. Call GetDisplayNameOf to retrieve the names of the other views.
+description: Gets the name of the default view. Call GetDisplayNameOf to retrieve the names of the other views.
 title: IShellFolderViewType::GetDefaultViewName method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 99229d13-40dc-4750-81a7-48a2f608b778
-api_name: 
- - IShellFolderViewType.GetDefaultViewName
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -73,7 +64,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

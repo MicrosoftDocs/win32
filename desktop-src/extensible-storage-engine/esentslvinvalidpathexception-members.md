@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVInvalidPathException members"
 title: EsentSLVInvalidPathException members
 TOCTitle: EsentSLVInvalidPathException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVInvalidPathException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVInvalidPathException](dn334798\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVInvalidPathException](./esentslvinvalidpathexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +161,6 @@ Top
 
 #### Reference
 
-[EsentSLVInvalidPathException class](dn334798\(v=exchg.10\).md)
+[EsentSLVInvalidPathException class](./esentslvinvalidpathexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

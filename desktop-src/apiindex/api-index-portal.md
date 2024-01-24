@@ -1,5 +1,5 @@
 ﻿---
-Description: The Windows application programming interface (API) lets you develop desktop and server applications that run successfully on all versions of Windows while taking advantage of the features and capabilities unique to each version.
+description: The Windows application programming interface (API) lets you develop desktop and server applications that run successfully on all versions of Windows while taking advantage of the features and capabilities unique to each version.
 ms.assetid: 00b345ad-4c53-4fa5-8b7a-d3b3377cb30a
 title: API Index
 ms.topic: article
@@ -21,15 +21,15 @@ The Win32 API (also called the Windows API) is the native platform for Windows a
 * [Windows umbrella libraries](windows-umbrella-libraries.md)
 * [Windows API Sets](windows-apisets.md)
 
-## Universal Windows Platform (UWP)
+## Windows Runtime (WinRT)
 
-The UWP is the leading edge platform for Windows 10 apps and games, including desktop apps. The UWP API is suitable for both native C++ and managed desktop apps that require a sophisticated UI, styles customization, and graphics-intensive scenarios.
+WinRT is the leading edge platform for Windows 10 apps and games, including desktop apps. The WinRT API is suitable for both native C++ and managed desktop apps that require a sophisticated UI, styles customization, and graphics-intensive scenarios.
 
-* [UWP API reference](/uwp/api/)
-* [UWP APIs callable from Win32, WPF, and Windows Forms desktop apps](uwp-apis-callable-from-a-classic-desktop-app.md)
+* [WinRT API reference](/uwp/api/)
+* [WinRT APIs callable from a desktop app](uwp-apis-callable-from-a-classic-desktop-app.md)
 
 ## .NET
 
-The .NET Framework and .NET Core class libraries provide access to Windows system and UI features for managed desktop apps, including WPF and Windows Forms apps.
+The .NET class libraries provide access to Windows system and UI features for managed desktop apps, including WPF and Windows Forms apps.
 
 * [.NET API](/dotnet/api/index)

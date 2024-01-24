@@ -1,5 +1,5 @@
 ---
-Description: This tutorial shows how to play media files using the Media Session object.
+description: This tutorial shows how to play media files using the Media Session object.
 ms.assetid: cdd67082-8153-4f48-abc5-278be82ae082
 title: How to Play Media Files with Media Foundation
 ms.topic: article

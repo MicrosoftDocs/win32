@@ -1,5 +1,5 @@
 ---
-Description: When a Private Data object is created, it is assigned a standard protection.
+description: When a Private Data object is created, it is assigned a standard protection.
 ms.assetid: 7aed8c42-ffa8-43ea-b36e-d894c2ed6bf9
 title: Private Data Object Initial Protection
 ms.topic: article

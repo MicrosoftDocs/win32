@@ -1,5 +1,5 @@
 ---
-Description: The ComponentPath property is a read-only property that returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
+description: The ComponentPath property is a read-only property that returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
 ms.assetid: 6e53419d-f28a-45cd-abc8-0f451177f3fc
 title: Installer.ComponentPath property
 ms.topic: reference
@@ -54,7 +54,7 @@ If the component is a registry key, the registry roots are represented numerical
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

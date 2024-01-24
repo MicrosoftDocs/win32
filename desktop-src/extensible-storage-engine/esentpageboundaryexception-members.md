@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageBoundaryException members"
 title: EsentPageBoundaryException members
 TOCTitle: EsentPageBoundaryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPageBoundaryException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.PageBoundary exceptions.
 
-The [EsentPageBoundaryException](dn319768\(v=exchg.10\).md) type exposes the following members.
+The [EsentPageBoundaryException](./esentpageboundaryexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentPageBoundaryException class](dn319768\(v=exchg.10\).md)
+[EsentPageBoundaryException class](./esentpageboundaryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

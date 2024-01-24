@@ -2,7 +2,6 @@
 title: Direct3D 12 Conservative Rasterization
 description: Conservative Rasterization adds some certainty to pixel rendering, which is helpful in particular to collision detection algorithms.
 ms.assetid: 081199AD-1702-4EC8-95AD-B1148C676199
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---

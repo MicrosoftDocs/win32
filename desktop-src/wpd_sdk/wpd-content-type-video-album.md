@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_VIDEO\_ALBUM
+description: WPD\_CONTENT\_TYPE\_VIDEO\_ALBUM
 ms.assetid: 0445a7de-1a2d-4369-b1f6-588fd6f2c999
 title: WPD_CONTENT_TYPE_VIDEO_ALBUM
 ms.topic: article
@@ -14,9 +14,8 @@ This type of object supports the following properties.
 
 
 
-|                                                                                                                       |                                                                                |
+|  Property Name                             | Required or Optional              |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **Property Name**                                                                                                     | **Required or Optional**                                                       |
 | [WPD\_OBJECT\_ID](object-properties.md)                                                                | Required, read-only. A client cannot set this property, even at creation time. |
 | [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                                                 | Required.                                                                      |
 | [WPD\_OBJECT\_NAME](object-properties.md)                                                            | Required if the object represents a file.                                      |

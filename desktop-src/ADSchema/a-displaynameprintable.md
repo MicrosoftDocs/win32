@@ -22,7 +22,7 @@ The printable display name for an object. The printable display name is usually 
 
 
 
-|                   |                                        |
+| Entry | Value |
 |-------------------|----------------------------------------|
 | CN                | Display-Name-Printable                 |
 | Ldap-Display-Name | displayNamePrintable                   |
@@ -48,7 +48,7 @@ The printable display name for an object. The printable display name is usually 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x39FF                          |
@@ -69,7 +69,7 @@ The printable display name for an object. The printable display name is usually 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x39FF                          |
@@ -90,7 +90,7 @@ The printable display name for an object. The printable display name is usually 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x39FF                          |
@@ -111,7 +111,7 @@ The printable display name for an object. The printable display name is usually 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x39FF                          |
@@ -132,7 +132,7 @@ The printable display name for an object. The printable display name is usually 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x39FF                          |
@@ -153,7 +153,7 @@ The printable display name for an object. The printable display name is usually 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x39FF                          |

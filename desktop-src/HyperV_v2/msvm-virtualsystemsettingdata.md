@@ -1,5 +1,5 @@
 ---
-Description: Represents the virtualization-specific settings for a virtual machine.
+description: Represents the virtualization-specific settings for a virtual machine.
 ms.assetid: BE81405E-E773-41CE-9441-33D60B63550E
 title: Msvm_VirtualSystemSettingData class
 ms.topic: reference
@@ -1397,7 +1397,7 @@ Access to the **Msvm\_VirtualSystemSettingData** class might be restricted by UA
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

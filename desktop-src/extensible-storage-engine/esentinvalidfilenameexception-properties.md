@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidFilenameException properties"
 title: EsentInvalidFilenameException properties
 TOCTitle: EsentInvalidFilenameException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidFilenameException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidFilenameException](dn319520\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidFilenameException](./esentinvalidfilenameexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInvalidFilenameException class](dn319520\(v=exchg.10\).md)
+[EsentInvalidFilenameException class](./esentinvalidfilenameexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

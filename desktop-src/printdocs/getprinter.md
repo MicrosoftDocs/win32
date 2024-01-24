@@ -1,5 +1,5 @@
 ---
-Description: The GetPrinter function retrieves information about a specified printer.
+description: The GetPrinter function retrieves information about a specified printer.
 ms.assetid: f162edbb-83ee-40c3-8710-9c867301d652
 title: GetPrinter function (Winspool.h)
 ms.topic: reference
@@ -149,7 +149,7 @@ Starting with Windows Vista, the printer data returned by **GetPrinter** is retr
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

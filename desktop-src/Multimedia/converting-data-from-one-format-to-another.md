@@ -14,10 +14,13 @@ keywords:
 - acmStreamUnprepareHeader function
 - acmStreamClose function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Converting Data from One Format to Another
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The ACM uses stream functions to support data format conversion. Converters in the ACM change the format, but not the data type. For example, a converter module can change 44-kHz, 16-bit data to 44-kHz, 8-bit data.
 

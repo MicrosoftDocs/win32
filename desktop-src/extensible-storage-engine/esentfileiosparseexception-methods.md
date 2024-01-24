@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOSparseException methods"
 title: EsentFileIOSparseException methods
 TOCTitle: EsentFileIOSparseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileIOSparseException](dn274375\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileIOSparseException](./esentfileiosparseexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentFileIOSparseException class](dn274375\(v=exchg.10\).md)
+[EsentFileIOSparseException class](./esentfileiosparseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

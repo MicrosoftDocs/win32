@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the referenced service into its startup state.
+description: StartService method of the Win32_Service class (CIMWin32 WMI Providers) - Attempts to place the referenced service into its startup state.
 ms.assetid: b7a815a2-7bf6-436f-b3b4-de55eeb2de0e
 ms.tgt_platform: multiple
 title: StartService method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# StartService method of the Win32\_Service class
+# StartService method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **StartService** method attempts to place the referenced service into its startup state.
 
@@ -229,10 +229,6 @@ If you start a stopped service that depends on another service, then both servic
 
 ## Examples
 
-The [Remotely Enable RDP](https://Gallery.TechNet.Microsoft.Com/Remotely-Enable-RDP-855c3842) PowerShell sample remotely enables the Remote Desktop service.
-
-The [Stop, Start, Enable or Disable Service](https://Gallery.TechNet.Microsoft.Com/212e68f0-5279-4499-8e9e-6aa1807719c0) PowerShell sample starts, stops, enables, or disables a service.
-
 The following VBSScript code sample demonstrates how to start a specific service from instances of [**Win32\_Service**](win32-service.md).
 
 
@@ -322,7 +318,7 @@ WScript.Echo "Dependent NetDDE service is " & objNetDDEService.State
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

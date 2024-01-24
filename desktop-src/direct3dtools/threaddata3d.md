@@ -1,5 +1,5 @@
 ---
-Description: Represents a 3D index into thread data.
+description: Represents a 3D index into thread data.
 MS-HAID: vspixengine.ThreadData3D
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -44,7 +44,7 @@ The index of the thread on the Z axis.
 
 ## Requirements
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Vspixengine.h</td></tr></tbody></table>
 
  
 

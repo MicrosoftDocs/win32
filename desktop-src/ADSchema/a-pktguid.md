@@ -22,7 +22,7 @@ Unique ID of a given Distributed File System Partition Knowledge Table.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | PKT-Guid                                              |
 | Ldap-Display-Name | pKTGuid                                               |
@@ -48,7 +48,7 @@ Unique ID of a given Distributed File System Partition Knowledge Table.
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -69,7 +69,7 @@ Unique ID of a given Distributed File System Partition Knowledge Table.
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -90,7 +90,7 @@ Unique ID of a given Distributed File System Partition Knowledge Table.
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -111,7 +111,7 @@ Unique ID of a given Distributed File System Partition Knowledge Table.
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -132,7 +132,7 @@ Unique ID of a given Distributed File System Partition Knowledge Table.
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |
@@ -153,7 +153,7 @@ Unique ID of a given Distributed File System Partition Knowledge Table.
 
 
 
-|                        |                                      |
+| Entry | Value |
 |------------------------|--------------------------------------|
 | Link-Id                | \-                                   |
 | MAPI-Id                | \-                                   |

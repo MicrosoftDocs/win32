@@ -1,18 +1,21 @@
 ---
-Description: The Rate Change property set enables MPEG-2 source/parser filters to change the playback rate. MPEG-2 decoders should support this property set. The DVD Navigator and the Stream Buffer Engine both use this property set to control playback rates.
+description: The Rate Change property set enables MPEG-2 source/parser filters to change the playback rate. MPEG-2 decoders should support this property set. The DVD Navigator and the Stream Buffer Engine both use this property set to control playback rates.
 ms.assetid: f88c64ce-af76-49fe-8ebd-029928506243
 title: Rate Change Property Set (Dvdmedia.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Rate Change Property Set
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Rate Change property set enables MPEG-2 source/parser filters to change the playback rate. MPEG-2 decoders should support this property set. The DVD Navigator and the Stream Buffer Engine both use this property set to control playback rates.
 
 
 
-|                   |                               |
+| Label | Value |
 |-------------------|-------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange |
 
@@ -72,7 +75,7 @@ Version 1.1 of the Rate Change property set follows the same basic principles as
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with coordinate spaces and transformations.
+description: The following functions are used with coordinate spaces and transformations.
 ms.assetid: 3ebcabf2-9718-47b2-aba0-7cc28fa42e5a
 title: Coordinate Space and Transformation Functions
 ms.topic: article

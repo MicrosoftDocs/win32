@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Using the Sample Grabber Sink
 ms.assetid: AC5970A2-6F12-448D-A444-40020C5C2607
 title: Using the Sample Grabber Sink
 ms.topic: article

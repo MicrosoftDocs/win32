@@ -1,5 +1,5 @@
 ---
-Description: The Policy object is used to control access to the Local Security Authority (LSA) database and contains information that applies to the entire system or establishes defaults for the system.
+description: The Policy object is used to control access to the Local Security Authority (LSA) database and contains information that applies to the entire system or establishes defaults for the system.
 ms.assetid: 4253c7fb-85f5-441d-90bf-492e802ad0f8
 title: Policy Object
 ms.topic: article

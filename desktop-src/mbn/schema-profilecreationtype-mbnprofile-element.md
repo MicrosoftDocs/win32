@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the creator of the profile.
+description: Contains information about the creator of the profile.
 ms.assetid: a3adb323-d1de-4026-976e-a106007f4cc2
 title: ProfileCreationType (MBNProfile) Element
 ms.topic: reference
@@ -63,7 +63,7 @@ The **ProfileCreationType** element is defined by the [**MBNProfile**](schema-mb
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

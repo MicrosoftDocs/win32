@@ -1,6 +1,6 @@
 ---
 title: Image List Structures
-description: .
+description: Image List Structures
 ms.assetid: f0e19bf4-931e-4468-b8bc-66ad0d431813
 ms.topic: article
 ms.date: 05/31/2018

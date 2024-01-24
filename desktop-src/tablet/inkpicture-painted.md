@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the InkPicture control has completed redrawing itself.
+description: Occurs when the InkPicture control has completed redrawing itself.
 ms.assetid: a8194cff-ed94-402e-8564-08d370f958b4
 title: InkPicture.Painted event (Msinkaut.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

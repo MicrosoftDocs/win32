@@ -1,6 +1,6 @@
 ---
 title: gluEndSurface function (Glu.h)
-description: The gluBeginSurface and gluEndSurface functions delimit a Non-Uniform Rational B-Spline (NURBS) surface definition.
+description: The gluBeginSurface and gluEndSurface functions delimit a Non-Uniform Rational B-Spline (NURBS) surface definition. | gluEndSurface function (Glu.h)
 ms.assetid: beaa0340-c67d-4376-bedd-7f73c5c6d742
 keywords:
 - gluEndSurface function OpenGL
@@ -77,7 +77,7 @@ gluEndSurface(nobj);
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

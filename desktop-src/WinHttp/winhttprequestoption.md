@@ -1,5 +1,5 @@
 ---
-Description: Includes options that can be set or retrieved for the current Microsoft Windows HTTP Services (WinHTTP) session.
+description: Includes options that can be set or retrieved for the current Microsoft Windows HTTP Services (WinHTTP) session.
 ms.assetid: 8464d794-b4a8-4c83-9e26-69257000102a
 title: WinHttpRequestOption enumeration
 ms.topic: reference
@@ -154,7 +154,7 @@ The default value of this option is 0x0028, which indicates that SSL 2.0 or SSL 
 <span id="WinHttpRequestOption_EnableTracing"></span><span id="winhttprequestoption_enabletracing"></span><span id="WINHTTPREQUESTOPTION_ENABLETRACING"></span>**WinHttpRequestOption\_EnableTracing**
 </dt> <dd>
 
-Sets or retrieves a **VARIANT** that indicates whether tracing is currently enabled. For more information about the trace facility in Microsoft Windows HTTP Services (WinHTTP), see [WinHTTP Trace Facility](winhttptracecfg-exe--a-trace-configuration-tool.md).
+Sets or retrieves a **VARIANT** that indicates whether tracing is currently enabled. Also see [Collect WinHTTP traces](collect-traces.md).
 
 </dd> <dt>
 
@@ -237,7 +237,7 @@ Set an option by specifying one of the preceding constants as the parameter of t
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

@@ -1,6 +1,6 @@
 ---
 title: BITS_FILE_PROPERTY_VALUE structure (Deliveryoptimization.h)
-description: The BITS_FILE_PROPERTY_VALUE union provides the property value of the DO file based on a value from the BITS_FILE_PROPERTY_ID enumeration.
+description: The BITS_FILE_PROPERTY_VALUE union provides the property value of the Delivery Optimization file based on a value from the BITS_FILE_PROPERTY_ID enumeration.
 ms.assetid: 56A634F9-FB30-49D5-BD03-DD59AEF702C1
 keywords:
 - BITS_FILE_PROPERTY_VALUE structure
@@ -19,7 +19,7 @@ ROBOTS: INDEX,FOLLOW
 
 # BITS_FILE_PROPERTY_VALUE structure
 
-The **BITS_FILE_PROPERTY_VALUE** union provides the property value of the DO file based on a value from the [**BITS_FILE_PROPERTY_ID**](bits-file-property-id-.md) enumeration.
+The **BITS_FILE_PROPERTY_VALUE** union provides the property value of the Delivery Optimization file based on a value from the [**BITS_FILE_PROPERTY_ID**](bits-file-property-id-.md) enumeration.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ This value is used when using the property ID enum value **BITS_FILE_PROPERTY_ID
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |

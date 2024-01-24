@@ -1,5 +1,5 @@
 ---
-Description: Flags used by the WICJpegScanHeader and WICJpegFrameHeader.
+description: Flags used by the WICJpegScanHeader and WICJpegFrameHeader.
 ms.assetid: 6C0139F3-DA3E-4D7C-80D5-BC8C2D76C6A9
 title: IWICJpegFrameDecode Constants (Wincodec.h)
 ms.topic: reference
@@ -159,7 +159,7 @@ Huffman indices use baseline 3.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wincodec.h</dt> </dl> |
 

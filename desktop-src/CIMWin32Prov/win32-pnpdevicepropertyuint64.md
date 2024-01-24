@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type Uint64.
+description: Represents a PnP device property of type Uint64.
 ms.assetid: 2B81904F-6E40-4670-A829-F00E1B0A02B4
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint64 class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

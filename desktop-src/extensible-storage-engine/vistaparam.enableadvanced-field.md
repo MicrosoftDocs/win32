@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.EnableAdvanced field"
 title: VistaParam.EnableAdvanced field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: EnableAdvanced field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.EnableAdvanced
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # VistaParam.EnableAdvanced field
 
-This parameter is used to control when the database engine accepts or rejects changes to a subset of the system parameters. This parameter is used in conjunction with [Configuration](dn335289\(v=exchg.10\).md) to prevent some system parameters from being set away from the selected configuration's defaults.
+This parameter is used to control when the database engine accepts or rejects changes to a subset of the system parameters. This parameter is used in conjunction with [Configuration](./vistaparam.configuration-field.md) to prevent some system parameters from being set away from the selected configuration's defaults.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const JET_param EnableAdvanced
 
 #### Reference
 
-[VistaParam class](dn335284\(v=exchg.10\).md)
+[VistaParam class](./vistaparam-class.md)
 
-[VistaParam members](dn335372\(v=exchg.10\).md)
+[VistaParam members](./vistaparam-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

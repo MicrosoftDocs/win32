@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type Sint8.
+description: Represents a PnP device property of type Sint8.
 ms.assetid: D7EA2F77-47F5-47E9-9696-C8D013815D5B
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySint8 class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

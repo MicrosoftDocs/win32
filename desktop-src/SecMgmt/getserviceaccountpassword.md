@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the service account password.
+description: Retrieves the service account password.
 ms.assetid: B3D3842F-ACEB-4979-B336-BA3D0143044C
 title: GetServiceAccountPassword function (Secpkg.h)
 ms.topic: reference
@@ -46,8 +46,8 @@ NTSTATUS NTAPI GetServiceAccountPassword(
 Null-terminated account name of the Group Managed Service Account (gMSA) account. The user name can be one of the following forms:
 
 -   SAM account name of the gMSA.
--   User name in a fully qualified domain name (FQDN), such as *DomainName***\\***UserName* or **www.***domain***.com\\***name*. The user name must be a SAM name only. The domain name can be a DNS name or a NetBIOS name.
--   Implicit user principal name (UPN) for the gMSA account, for example, *SomeName***@***Domain***.com** where, according to the definition of an implicit UPN, the *Domain***.com** is the actual domain DNS name.
+-   User name in a fully qualified domain name (FQDN), such as *DomainName*__\\__*UserName* or __www.__*domain*__.com\\__*name*. The user name must be a SAM name only. The domain name can be a DNS name or a NetBIOS name.
+-   Implicit user principal name (UPN) for the gMSA account, for example, *SomeName*__@__*Domain*__.com__ where, according to the definition of an implicit UPN, the *Domain*__.com__ is the actual domain DNS name.
 
 </dd> <dt>
 
@@ -127,7 +127,7 @@ The **GetServiceAccountPassword** function can be called in the following scenar
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |

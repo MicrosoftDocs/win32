@@ -1,5 +1,5 @@
 ---
-Description: The SubclassesAsync\_ method of SWbemObject asynchronously supplies the subclasses of the current object, which must be a class.
+description: The SubclassesAsync\_ method of SWbemObject asynchronously supplies the subclasses of the current object, which must be a class.
 ms.assetid: 14d4a609-3aa4-49bd-bea4-6a71bc24d9dd
 ms.tgt_platform: multiple
 title: SWbemObject.SubclassesAsync_ method (Wbemdisp.h)
@@ -184,7 +184,7 @@ It is not an error for the returned collection to have zero elements if there ar
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

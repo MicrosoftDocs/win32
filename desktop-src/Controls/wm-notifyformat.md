@@ -77,7 +77,7 @@ All common controls will send **WM\_NOTIFYFORMAT** messages. However, the standa
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

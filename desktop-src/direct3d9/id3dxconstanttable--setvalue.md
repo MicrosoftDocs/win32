@@ -1,5 +1,5 @@
 ---
-Description: Sets the contents of the buffer to the constant table.
+description: Sets the contents of the buffer to the constant table.
 ms.assetid: 6058795c-fa32-42aa-9a36-af0b7f6eed1d
 title: ID3DXConstantTable::SetValue method (D3DX9Shader.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -30,7 +30,7 @@ Learn about the package deployment API, which you can use to install, update, an
 [Enumerate app packages by name and publisher sample (FindPackagesByNameAndPublisher)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByNameAndPublisher)
 </dt> <dt>
 
-[Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerFindPackagesByUserSecurityIda)
+[Enumerate app packages by user SID sample (FindPackagesByUserSecurityId)](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/PackageManagerFindPackagesByUserSecurityId)
 </dt> <dt>
 
 [Remove app package sample (RemovePackage)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PackageManagerRemovePackage)

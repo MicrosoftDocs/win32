@@ -1,5 +1,5 @@
 ---
-Description: The User\_Auth method allows access to user authentication services.
+description: The User\_Auth method allows access to user authentication services.
 ms.assetid: 110da052-c581-46bc-8e81-5be112ee9b43
 title: ISCardAuth::User_Auth method
 ms.topic: reference
@@ -85,7 +85,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

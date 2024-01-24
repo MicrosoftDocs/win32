@@ -1,12 +1,12 @@
 ---
-Description: The example in this section illustrates how to use the rectangle functions. It consists of the main window procedure from an application that enables the user to move and size a bitmap.
+description: The example in this section illustrates how to use the rectangle functions. It consists of the main window procedure from an application that enables the user to move and size a bitmap.
 ms.assetid: e8861240-9345-43e6-820d-d237247d1bd7
 title: Using Rectangles (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Rectangles
+# Using Rectangles (Windows GDI)
 
 The example in this section illustrates how to use the rectangle functions. It consists of the main window procedure from an application that enables the user to move and size a bitmap.
 

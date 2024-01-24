@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth device vendor identifier.
+description: Bluetooth device vendor identifier.
 ms.assetid: 8dec8338-ee12-493e-8b12-92a6d3a46400
 title: System.DeviceInterface.Bluetooth.VendorId
 ms.topic: article

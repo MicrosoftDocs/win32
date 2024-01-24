@@ -1,5 +1,5 @@
 ---
-Description: This section discusses window properties. A window property is any data assigned to a window.
+description: This section discusses window properties. A window property is any data assigned to a window.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windowproperties.htm'
 title: Window Properties
 ms.topic: article

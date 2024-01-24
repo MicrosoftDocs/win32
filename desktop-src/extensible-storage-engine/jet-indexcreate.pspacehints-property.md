@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.pSpaceHints property"
 title: JET_INDEXCREATE.pSpaceHints property 
 TOCTitle: 'pSpaceHints property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.pSpaceHints
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets space allocation, maintenance, and usage hints.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public JET_SPACEHINTS pSpaceHints { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_SPACEHINTS](dn351095\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_SPACEHINTS](./jet-spacehints-class.md)  
 
 ## See also
 
 #### Reference
 
-[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](./jet-indexcreate-class.md)
 
-[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](./jet-indexcreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

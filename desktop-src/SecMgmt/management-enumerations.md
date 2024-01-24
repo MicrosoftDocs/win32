@@ -1,5 +1,5 @@
 ---
-Description: Lists the enumerations used by the LSA policy management functions.
+description: Lists the enumerations used by the LSA policy management functions.
 ms.assetid: f4fd2a61-61bc-44d2-b01f-3ca07699bcb8
 title: Security Management Enumerations
 ms.topic: article

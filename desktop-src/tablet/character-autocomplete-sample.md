@@ -1,5 +1,5 @@
 ---
-Description: The Autocomplete sample demonstrates how to implement character Autocomplete in Japanese by using the recognition application programming interfaces (APIs).
+description: The Autocomplete sample demonstrates how to implement character Autocomplete in Japanese by using the recognition application programming interfaces (APIs).
 ms.assetid: 237e33bc-3708-4128-8749-d3d031f7237a
 title: Character Autocomplete Sample
 ms.topic: article

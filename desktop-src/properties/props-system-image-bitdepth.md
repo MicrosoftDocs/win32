@@ -1,5 +1,5 @@
 ---
-Description: Indicates how many bits are used in each pixel of the image. (Usually 8, 16, 24, or 32).
+description: Indicates how many bits are used in each pixel of the image. (Usually 8, 16, 24, or 32).
 ms.assetid: 779a19e4-fb4e-4229-a390-5fd7007c3eae
 title: System.Image.BitDepth
 ms.topic: article

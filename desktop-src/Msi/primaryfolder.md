@@ -1,5 +1,5 @@
 ---
-Description: The PRIMARYFOLDER is a global property that allows the author to designate a primary folder for the installation.
+description: The PRIMARYFOLDER is a global property that allows the author to designate a primary folder for the installation.
 ms.assetid: 7ba776de-53e5-491a-917b-37778fe0c438
 title: PRIMARYFOLDER property
 ms.topic: reference
@@ -18,7 +18,7 @@ The value for this property must be the key name of a directory record found in 
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

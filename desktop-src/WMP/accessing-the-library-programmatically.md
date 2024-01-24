@@ -27,10 +27,13 @@ keywords:
 - library,retrieving metadata from media items
 - metadata,retrieving
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Accessing the Library Programmatically
+
+\[The feature associated with this page, [Windows Media Player SDK](/windows/win32/wmp/windows-media-player-sdk), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **Windows Media Player SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 In code, the library is represented by the **MediaCollection** object (or the **IWMPMediaCollection** interface). Media items are represented as **Media** objects (or by the **IWMPMedia** interface). Playlist items are represented as **Playlist** objects (or by the **IWMPPlaylist** interface). For simplicity, this section will simply refer to object names, when possible.
 

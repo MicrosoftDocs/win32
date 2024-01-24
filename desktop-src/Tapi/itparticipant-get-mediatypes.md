@@ -1,5 +1,5 @@
 ---
-Description: The get\_MediaTypes method gets the media types associated with a participant.
+description: The get\_MediaTypes method gets the media types associated with a participant.
 ms.assetid: a2323d16-8eec-4c17-b5f2-b6fbd910ba60
 title: ITParticipant::get_MediaTypes method (Ipmsp.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

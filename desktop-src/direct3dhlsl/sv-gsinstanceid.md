@@ -23,9 +23,8 @@ Defines the [instance](sm5-attributes-instance.md) of the geometry shader.
 
 
 
-|      |
+| Type     |
 |------|
-| Type |
 | uint |
 
 
@@ -40,9 +39,8 @@ This function is supported in the following types of shaders:
 
 
 
-|        |      |        |          |       |         |
-|--------|------|--------|----------|-------|---------|
 | Vertex | Hull | Domain | Geometry | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
 |        |      |        | x        |       |         |
 
 

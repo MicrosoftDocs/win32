@@ -1,5 +1,5 @@
 ---
-Description: Indicates the status of the attendee during the event. User can choose to set the status as free, busy, tentative or out of office.
+description: Indicates the status of the attendee during the event. User can choose to set the status as free, busy, tentative or out of office.
 ms.assetid: ce2a1ab8-2937-446e-ac84-313649a4134d
 title: System.Calendar.ShowTimeAs
 ms.topic: article

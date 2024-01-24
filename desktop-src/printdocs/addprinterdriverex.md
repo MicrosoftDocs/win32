@@ -1,5 +1,5 @@
 ---
-Description: The AddPrinterDriverEx function installs a local or remote printer driver and links the configuration, data, and driver files.
+description: The AddPrinterDriverEx function installs a local or remote printer driver and links the configuration, data, and driver files.
 ms.assetid: 472adb7d-39cc-4c76-b96c-610ff9d276ad
 title: AddPrinterDriverEx function (Winspool.h)
 ms.topic: reference
@@ -146,7 +146,7 @@ The files that are referenced in the [**DRIVER\_INFO\_6**](driver-info-6.md) str
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

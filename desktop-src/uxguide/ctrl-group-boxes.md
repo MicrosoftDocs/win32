@@ -3,10 +3,13 @@ title: Group Boxes
 description: A group box is a labeled rectangular frame that surrounds a set of related controls. A group box is a way to show relationships visually; aside from possibly providing an access key for a group of controls, it provides no functionality.
 ms.assetid: 5b5ffb36-3ed1-44cd-af87-5cddf46c56a6
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/20/2020
 ---
 
 # Group Boxes
+
+> [!NOTE]
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A group box is a labeled rectangular frame that surrounds a set of related controls. A group box is a way to show relationships visually; aside from possibly providing an access key for a group of controls, it provides no functionality.
 
@@ -49,7 +52,7 @@ In this example, layout alone is used to show control relationships.
 -   **Can you effectively communicate the relationships using a separator?** If so, use a separator instead. A separator is a horizontal line that unifies the controls below it. Separators provide a simpler, cleaner look. However, unlike group boxes, they work best when they span the full width of the surface.
     -   **Developers:** You can implement a separator with an etched rectangle with a height of one.
 
-![screen shot of controls set apart by separators ](images/ctrl-group-boxes-image5.png)
+![Screenshot that shows e-mail controls set apart by etched rectangle separators.](images/ctrl-group-boxes-image5.png)
 
 In this example, labeled separators are used to show control relationships.
 
@@ -105,7 +108,3 @@ Example: Under **Effects**, select **Hidden**.
  
 
  
-
-
-
-

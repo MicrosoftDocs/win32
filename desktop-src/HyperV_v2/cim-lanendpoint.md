@@ -1,5 +1,5 @@
 ---
-Description: A communication endpoint that can connect to a LAN to send and receive data frames. LAN endpoints include ethernet, token Ring, and FDDI interfaces.
+description: A communication endpoint that can connect to a LAN to send and receive data frames. LAN endpoints include ethernet, token Ring, and FDDI interfaces.
 ms.assetid: c69464cf-00a9-476d-a494-2d7d65776334
 title: CIM_LANEndpoint class
 ms.topic: reference
@@ -217,7 +217,7 @@ This property is deprecated. Instead we recommend that you use the **OtherTypeDe
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -1,6 +1,6 @@
 ---
 title: WMDM Programming guide
-description: Programming Guide
+description: Learn about actions that an application or service provider built on Windows Media Device Manager should perform.
 ms.assetid: 8834cc4e-0e2d-4776-8676-f4b6e1614a4b
 keywords:
 - Windows Media Device Manager,programming guide

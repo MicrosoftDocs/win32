@@ -1,5 +1,5 @@
 ---
-Description: The GetAt method retrieves an item from the collection by a zero-based index.
+description: IPortableDeviceValuesCollection::GetAt method - The GetAt method retrieves an item from the collection by a zero-based index.
 ms.assetid: b219b052-a74b-466a-a2ee-d2e9c466f393
 title: IPortableDeviceValuesCollection::GetAt method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ Any changes that are made to values in the retrieved interface will be made to t
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

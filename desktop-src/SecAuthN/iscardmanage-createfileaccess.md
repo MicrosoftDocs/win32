@@ -1,5 +1,5 @@
 ---
-Description: Creates an ISCardFileAccess interface.
+description: Creates an ISCardFileAccess interface.
 ms.assetid: 06a5948f-c7bd-49bf-9032-f40f3d0d330c
 title: ISCardManage::CreateFileAccess method
 ms.topic: reference
@@ -69,7 +69,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Forces the Enhanced Video Renderer (EVR) to skip the second field of every interlaced frame.
+description: Forces the Enhanced Video Renderer (EVR) to skip the second field of every interlaced frame.
 ms.assetid: b79d9230-b127-4e9b-b73b-685ce27aefa9
 title: EVRConfig_ForceHalfInterlace attribute (Uuids.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from strmiids.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

@@ -1,5 +1,5 @@
 ---
-Description: Average number of bytes per second in an audio media type.
+description: Average number of bytes per second in an audio media type.
 ms.assetid: 0ee371fb-d980-44de-a9bd-201e2b72e874
 title: MF_MT_AUDIO_AVG_BYTES_PER_SECOND attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

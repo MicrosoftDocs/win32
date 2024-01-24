@@ -1,5 +1,5 @@
 ---
-Description: This event notifies the DirectoryList control that the user wants to select the parent of the present directory. For related information, see Browse Dialog.
+description: This event notifies the DirectoryList control that the user wants to select the parent of the present directory. For related information, see Browse Dialog.
 ms.assetid: 83fdb160-ce3b-42e1-8688-42d3ba39d6dd
 title: DirectoryListUp ControlEvent
 ms.topic: article

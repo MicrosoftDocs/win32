@@ -1,5 +1,5 @@
 ---
-Description: A timed or repeating event is an event that occurs at one specific time and date, or repeatedly at regular intervals. For example, an event can occur at midnight on only December 2, 2015, or one time each week on Tuesdays at 2:31 PM.
+description: A timed or repeating event is an event that occurs at one specific time and date, or repeatedly at regular intervals. For example, an event can occur at midnight on only December 2, 2015, or one time each week on Tuesdays at 2:31 PM.
 ms.assetid: 369bf2d7-8350-4089-8e11-28e2b641f792
 ms.tgt_platform: multiple
 title: Receiving a Timed or Repeating Event

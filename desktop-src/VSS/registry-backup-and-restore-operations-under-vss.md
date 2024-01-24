@@ -1,9 +1,9 @@
 ---
-Description: The Windows Registry Service supports a VSS writer, called the registry writer, which allows requesters to back up a system registry using data stored on a shadow copied volume.
+description: The Windows Registry Service supports a VSS writer, called the registry writer, which allows requesters to back up a system registry using data stored on a shadow copied volume.
 ms.assetid: 94a45b04-0bdc-4211-bed0-caeabba774af
 title: Registry Backup and Restore Operations Under VSS
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/03/2023
 ---
 
 # Registry Backup and Restore Operations Under VSS
@@ -46,6 +46,9 @@ When backing up the registry hives, a requester would replace \\Device\\*Harddis
  
 
 ## Registry Restore Using Non-VSS Win32 APIs
+
+> [!Note]  
+> Registry Restore is not supported on Windows Server 2016 and later.
 
 For an online (safe mode or full operating system) restore, the subkeys in the **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Control**\\**Session Manager**\\**PendingFileRenameOperations** registry key must be preserved.
 

@@ -1,5 +1,5 @@
 ---
-Description: The radius of the BoundingSphere.
+description: The radius of the BoundingSphere.
 ms.assetid: baa212ac-81f6-4765-a484-f1a98c431474
 title: BoundingSphere.Radius (DirectXCollision.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                      |                                                                                               |
+| Requirement | Value |
 |----------------------|-----------------------------------------------------------------------------------------------|
 | Namespace<br/> | Use DirectX.<br/>                                                                       |
 | Header<br/>    | <dl> <dt>DirectXCollision.h</dt> </dl> |

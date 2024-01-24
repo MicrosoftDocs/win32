@@ -14,7 +14,6 @@ ms.date: 05/31/2018
 
 All functions in this API are safe to call concurrently from different threads. However, each object passed as a parameter to the functions have specific threading behavior, as described below.
 
-## 
 
 The following handles are single threaded and do not support concurrent operations for a particular instance:
 

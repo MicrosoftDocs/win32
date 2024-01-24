@@ -1,5 +1,5 @@
 ---
-Description: Represents the VFP QOS settings.
+description: Represents the VFP QOS settings.
 ms.assetid: e58a7a8d-0301-43ea-9338-18bc8c458e2d
 title: Msvm_EthernetSwitchPortMigrationQosSettingData class
 ms.topic: reference
@@ -242,7 +242,7 @@ The QOS reservation mode on the switch.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

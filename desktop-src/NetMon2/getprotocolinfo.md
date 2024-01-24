@@ -1,5 +1,5 @@
 ---
-Description: The GetProtocolInfo function returns a pointer to a protocol information value.
+description: The GetProtocolInfo function returns a pointer to a protocol information value.
 ms.assetid: 1ba47889-b2ed-47ba-94f9-1b781af6d01f
 title: GetProtocolInfo function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

@@ -22,7 +22,7 @@ Installation ID (IID) used for phone activation of the Active Directory forest
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-SPP-Installation-Id                      |
 | Ldap-Display-Name | msSPP-InstallationId                        |
@@ -43,7 +43,7 @@ Installation ID (IID) used for phone activation of the Active Directory forest
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

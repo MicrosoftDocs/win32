@@ -1,5 +1,5 @@
 ---
-Description: Saves the Certificate objects in the collection.
+description: Saves the Certificate objects in the collection.
 ms.assetid: 1d4b7bd5-3ed3-4ace-9894-4e89c5cf844f
 title: Certificates.Save method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Certificates.Save method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](/previous-versions/windows/embedded/hh424013(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**X509Certificate2Collection Class**](/previous-versions/windows/embedded/hh424013(v=msdn.10)) in the [**System.Security.Cryptography.X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor) namespace.\]
 
 The **Save** method saves the [**Certificate**](certificate.md) objects in the collection.
 
@@ -104,7 +104,7 @@ The [**Certificate**](certificate.md) objects can be retrieved by using the [**S
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

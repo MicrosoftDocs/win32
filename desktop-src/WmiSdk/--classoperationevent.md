@@ -1,5 +1,5 @@
 ---
-Description: Is a base class for all intrinsic events that relate to a class.
+description: Is a base class for all intrinsic events that relate to a class.
 ms.assetid: 554bbabd-2639-40f5-8786-6df2188db0ec
 ms.tgt_platform: multiple
 title: '__ClassOperationEvent class'
@@ -105,7 +105,7 @@ Instances of **\_\_ClassOperationEvent** are not created; only instances of its 
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

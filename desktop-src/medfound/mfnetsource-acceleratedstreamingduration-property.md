@@ -1,5 +1,5 @@
 ---
-Description: Duration of accelerated streaming for the network source, in milliseconds.
+description: Duration of accelerated streaming for the network source, in milliseconds.
 ms.assetid: 3f9cd762-f393-4130-ba25-d16da0642093
 title: MFNETSOURCE_ACCELERATEDSTREAMINGDURATION property (Mfidl.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The default value of this property is 10,000 milliseconds.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

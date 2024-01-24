@@ -1,5 +1,5 @@
 ---
-Description: Other address street of the contact.
+description: Other address street of the contact.
 ms.assetid: ab346da5-4b13-489e-be6d-27cece52cd09
 title: System.Contact.OtherAddressStreet
 ms.topic: article

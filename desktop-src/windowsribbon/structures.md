@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Structures (Ribbon Framework)
 
 The topics in this section provide the reference specifications for [Windows Ribbon Framework](-uiplat-windowsribbon-entry.md) structures.
 

@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for file I/O events. The following syntax is simplified from MOF code.
+description: FileIo_V1 class - This class is the parent class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: da64a02d-4bde-4ee9-81fa-8a67d53cd62e
 title: FileIo_V1 class
 ms.topic: reference
@@ -37,7 +37,7 @@ The **FileIo\_V1** class does not define any members.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

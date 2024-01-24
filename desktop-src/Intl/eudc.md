@@ -1,5 +1,5 @@
 ---
-Description: The EUDC registry key contains one or more subkeys containing values defining the fonts associated with end-user-defined characters (EUDCs) for a given code page.
+description: The EUDC registry key contains one or more subkeys containing values defining the fonts associated with end-user-defined characters (EUDCs) for a given code page.
 ms.assetid: d78a1d8f-a239-4388-aa21-c162953fe355
 title: EUDC
 ms.topic: article
@@ -20,7 +20,7 @@ where:
 
 
 
-|                          |                                                                                                                                          |
+| Value                         | Description                                                                                                                                         |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | SystemDefaultEUDCFont    | Predefined name used to set the system default font. There is no system default EUDC font unless this entry is explicitly specified.     |
 | TrueTypeFontTypeface     | User-defined name associated with a non-EUDC TrueType font.                                                                              |

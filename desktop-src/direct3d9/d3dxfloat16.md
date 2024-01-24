@@ -1,21 +1,24 @@
 ---
-Description: Describes a 16-bit floating point vector.
+description: D3DXFLOAT16 structure (D3dx9math.h) - Describes a 16-bit floating point vector.
 ms.assetid: f823a327-f07a-44e9-b58a-7865e11e80eb
 title: D3DXFLOAT16 structure (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXFLOAT16
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
-# D3DXFLOAT16 structure
+# D3DXFLOAT16 structure (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Describes a 16-bit floating point vector.
 
@@ -53,7 +56,7 @@ C++ programmers can take advantage of operator overloading and type casting with
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

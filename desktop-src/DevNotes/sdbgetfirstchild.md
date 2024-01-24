@@ -1,5 +1,5 @@
 ---
-Description: Searches for a child TAG within the specified parent and returns the TAGID of the first child.
+description: Searches for a child TAG within the specified parent and returns the TAGID of the first child.
 ms.assetid: 67538c7e-6360-40fa-b50f-dcbc7a6a147d
 title: SdbGetFirstChild function
 ms.topic: reference
@@ -57,7 +57,7 @@ The **TAGID** of the first child or **TAGID\_NULL** is no child is found.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

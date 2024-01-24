@@ -1,5 +1,5 @@
 ---
-Description: Specification of the exFat file system.
+description: Specification of the exFat file system.
 title: exFAT file system specification
 ms.topic: article
 ms.date: 08/27/2019
@@ -529,11 +529,11 @@ The valid range of values for this field shall be:
 
 - At least 2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>, which ensures the smallest volume is no less than 1MB
 
-- At most 2<sup>64</sup>- 1, the largest value this field can describe
+- At most 2<sup>64</sup>- 1, the largest value this field can describe.
 
-However, if the size of the Excess Space sub-region is 0, then the value
-of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*
-2<sup>SectorsPerClusterShift</sup>.
+  However, if the size of the Excess Space sub-region is 0, then the largest value
+  of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*
+  2<sup>SectorsPerClusterShift</sup>.
 
 #### 3.1.6 FatOffset Field
 
@@ -1332,7 +1332,7 @@ entry in a FAT represents exactly one cluster.
 <td>FatEntry[0]</td>
 <td>0</td>
 <td>4</td>
-<td>This field is mandatory and <a href="#412-fatentry1-field">Section 4.1.2</a> defines its contents.</td>
+<td>This field is mandatory and <a href="#411-fatentry0-field">Section 4.1.1</a> defines its contents.</td>
 </tr>
 <tr class="even">
 <td>FatEntry[1]</td>
@@ -2713,11 +2713,10 @@ name does not collide with the name under comparison.
 
 <div id="table-24-mandatory-first-128-up-case-table-entries" />
 
-**Table 24 Mandatory First 128 Up-case Table Entries**
+**Table 24 Mandatory first 128 up-case table entries**
 
-| **Table Index** | **Table Entries** |           |           |           |           |           |           |           |
+| Table index | + 0 | + 1 | + 2 | + 3 | + 4 | + 5 | + 6 | + 7 |
 |-----------------|-------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|                 | **+ 0**           | **+ 1**   | **+ 2**   | **+ 3**   | **+ 4**   | **+ 5**   | **+ 6**   | **+ 7**   |
 | **0000h**       | 0000h             | 0001h     | 0002h     | 0003h     | 0004h     | 0005h     | 0006h     | 0007h     |
 | **0008h**       | 0008h             | 0009h     | 000Ah     | 000Bh     | 000Ch     | 000Dh     | 000Eh     | 000Fh     |
 | **0010h**       | 0010h             | 0011h     | 0012h     | 0013h     | 0014h     | 0015h     | 0016h     | 0017h     |
@@ -2773,11 +2772,10 @@ range (from character codes 0000h to FFFFh inclusive).
 
 <div id="table-25-recommended-up-case-table-in-compressed-format" />
 
-**Table 25 Recommended Up-case Table in Compressed Format**
+**Table 25 Recommended up-case table in compressed format**
 
-| **Raw Offset** | **Compressed Table Entries** |         |         |         |         |         |         |         |
+| Raw offset | + 0 |  + 1       |  + 2       |  + 3       |  + 4       | + 5        |  + 6       | + 7        |
 |----------------|------------------------------|---------|---------|---------|---------|---------|---------|---------|
-|                | **+ 0**                      | **+ 1** | **+ 2** | **+ 3** | **+ 4** | **+ 5** | **+ 6** | **+ 7** |
 | **0000h**      | 0000h                        | 0001h   | 0002h   | 0003h   | 0004h   | 0005h   | 0006h   | 0007h   |
 | **0008h**      | 0008h                        | 0009h   | 000Ah   | 000Bh   | 000Ch   | 000Dh   | 000Eh   | 000Fh   |
 | **0010h**      | 0010h                        | 0011h   | 0012h   | 0013h   | 0014h   | 0015h   | 0016h   | 0017h   |
@@ -4226,7 +4224,7 @@ Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-fi
 The TypeCode field shall conform to the definition provided in the
 Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
 
-For the Stream Extension directory entry, the valid value for this field
+For the File Name directory entry, the valid value for this field
 is 1.
 
 ##### 7.7.1.2 TypeImportance Field
@@ -4234,7 +4232,7 @@ is 1.
 The TypeImportance field shall conform to the definition provided in the
 Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
 
-For the Stream Extension directory entry, the valid value for this field
+For the File Name directory entry, the valid value for this field
 is 0.
 
 ##### 7.7.1.3 TypeCategory Field
@@ -4872,7 +4870,7 @@ to, removals from, and clarifications of this document.
 <tr class="odd">
 <td>08-Jan-2008</td>
 <td><p>First release of the Basic Specification, which includes:</p>
-<blockquote>
+
 <p>Section 1, Introduction</p>
 <p>Section 2,<br />
 Volume Structure</p>
@@ -4884,12 +4882,12 @@ Volume Structure</p>
 <p>Section 8, Implementation Notes</p>
 <p>Section 9, File System Limits</p>
 <p>Section 10, Appendix</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
 <td>08-Jun-2008</td>
 <td><p>Second release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Addition of Section 11,<br />
 Documentation Change History</p>
 <p>Addition of the Vendor Extension and Vendor Allocation directory entries in Sections 7.8 and 7.9</p>
@@ -4903,12 +4901,12 @@ Documentation Change History</p>
 <p>Clarification of the meaning of the values of the DataLength field in Section 6.2.3</p>
 <p>Clarification of the VolumeDirty field in Section 3.1.13.2 and recommended write ordering in Section 8.1</p>
 <p>Clarification of the MediaFailure field in Section 3.1.13.3</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td>01-Oct-2008</td>
 <td><p>Third release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Addition of SHALL, SHOULD and MAY to field explanations</p>
 <p>Addition of UTC definition in Table 2 Section 1.3</p>
 <p>Modified sections 1.5, to ensure alignment with the TexFAT specification document.</p>
@@ -4917,41 +4915,41 @@ Documentation Change History</p>
 <p>Clarified requirements for valid file directory entries in Section 7.4</p>
 <p>Added requirement for unique file and directory names to Section 7.7</p>
 <p>Added implementation note for ASCII to the end of Section 7.7.3</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
 <td>01-Jan-2009</td>
 <td><p>Fourth release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Removed references to Windows CE Access Control entries</p>
 <p>Added clarification to Section 7.2.5.1 to explicitly require a full up-case table</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td>02-Sep-2009</td>
 <td><p>Fifth release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Document formatting changes to allow better PDF conversion</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
 <td>24-Feb-2010</td>
 <td><p>Sixth release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Amended incorrect statement: “FirstCluster Field shall be zero if the DataLength is zero and NoFatChain is set” in Section 6.3.5 and Section 6.4.3 to “If the NoFatChain bit is 1 then FirstCluster must point to a valid cluster in the cluster heap“ to clarify that there must be valid allocation if the NoFatChain bit is set.</p>
 <p>Added “If the NoFatChain bit is 1 then DataLength must not be zero. If the FirstCluster field is zero, then DataLength must also be zero” to Section 6.3.6 and Section 6.4.4 to clarify that there must be valid allocation if the NoFatChain bit is set.</p>
 <p>Updated copyright notice to 2010</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td>26-Aug-2019</td>
 <td><p>Seventh release of the Basic Specification, which includes the following changes:</p>
-<blockquote>
+
 <p>Updated legal terms pertaining to the specification, including:</p>
 <p>Removal of Microsoft Confidential notice</p>
 <p>Removal of Microsoft Corporation Technical Documentation License Agreement section</p>
 <p>Updated copyright notice to 2019</p>
-</blockquote></td>
+</td>
 </tr>
 </tbody>
 </table>

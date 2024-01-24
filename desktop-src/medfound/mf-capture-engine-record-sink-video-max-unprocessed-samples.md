@@ -1,5 +1,5 @@
 ---
-Description: Sets the maximum number of unprocessed samples that can be buffered for processing in the record sink video path.
+description: Sets the maximum number of unprocessed samples that can be buffered for processing in the record sink video path.
 ms.assetid: B3B5C547-1F06-45B1-BFCB-513AD7B6A9B6
 title: MF_CAPTURE_ENGINE_RECORD_SINK_VIDEO_MAX_UNPROCESSED_SAMPLES attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Once the record has buffered the maximum number of unprocessed samples, specifie
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                         |

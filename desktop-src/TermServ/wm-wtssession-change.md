@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 Notifies applications of changes in session state.
 
-The window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+The window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -202,7 +202,7 @@ Examples of how applications can respond to this message include releasing or ac
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: Describes the capabilities of the associated Msvm\_MetricService instance.
+description: Describes the capabilities of the associated Msvm\_MetricService instance.
 ms.assetid: 4E24D675-8265-4B5E-9551-550510B138FE
 title: Msvm_MetricServiceCapabilities class
 ms.topic: reference
@@ -324,7 +324,7 @@ Specifies the methods supported by the metric service. This property is inherite
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The Windows security model enables callers of Kernel Transaction Manager (KTM) to control access to transaction, transaction manager, resource manager, and enlistment objects.
+description: The Windows security model enables callers of Kernel Transaction Manager (KTM) to control access to transaction, transaction manager, resource manager, and enlistment objects.
 ms.assetid: c9d51d4d-9f07-44d6-a2e1-4a47367cc4ae
 title: KTM Security and Access Rights
 ms.topic: article

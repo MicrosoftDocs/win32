@@ -1,5 +1,5 @@
 ---
-Description: Gets the handle of an annotation by looking up its name.
+description: Gets the handle of an annotation by looking up its name.
 ms.assetid: da4e2805-5f06-4a9b-836f-85a8c154c502
 title: ID3DXBaseEffect::GetAnnotationByName method (D3DX9Effect.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Returns the handle of the specified annotation, or **NULL** if the name was not 
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

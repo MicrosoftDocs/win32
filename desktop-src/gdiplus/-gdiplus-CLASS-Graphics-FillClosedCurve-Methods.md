@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the FillClosedCurve methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the FillClosedCurve methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: 378f0d34-7328-45e5-9f55-826bdaed3aab
 title: Graphics.FillClosedCurve methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
@@ -27,7 +27,7 @@ This topic lists the FillClosedCurve methods of the [**Graphics**](/windows/win3
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

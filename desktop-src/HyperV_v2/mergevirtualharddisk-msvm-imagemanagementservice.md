@@ -1,5 +1,5 @@
 ---
-Description: Merges a child virtual hard disk in a differencing chain with one or more parent virtual hard disks in the chain.
+description: Merges a child virtual hard disk in a differencing chain with one or more parent virtual hard disks in the chain.
 ms.assetid: 10633176-F0C3-4CA0-8E7B-2B11FF93B0EA
 title: MergeVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -171,7 +171,7 @@ public static void MergeVirtualHardDisk(string ChildPath, string ParentPath)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

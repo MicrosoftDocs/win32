@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_WORMDrive class exposes the following methods.
+description: The CIM\_WORMDrive class exposes the following methods.
 ms.assetid: 877CC484-EBBE-4719-85B9-50C04A8A61FE
 ms.tgt_platform: multiple
 title: CIM_WORMDrive Methods

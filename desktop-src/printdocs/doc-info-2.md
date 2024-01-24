@@ -1,5 +1,5 @@
 ---
-Description: The DOC\_INFO\_2 structure describes a document that will be printed.
+description: The DOC\_INFO\_2 structure describes a document that will be printed.
 ms.assetid: d62333f3-cc39-4c9b-8fb3-02a2d24bbbad
 title: DOC_INFO_2 structure (Winspool.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ Reserved for internal use; should be zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

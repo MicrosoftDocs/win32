@@ -1,5 +1,5 @@
 ---
-Description: The lines of a list box are not treated as individual controls, but they are part of a list box that functions as a control. The ListBox table defines the values for all list boxes.
+description: The lines of a list box are not treated as individual controls, but they are part of a list box that functions as a control. The ListBox table defines the values for all list boxes.
 ms.assetid: 1963adcf-f682-4371-ab44-f91e90105dc0
 title: ListBox Table
 ms.topic: article

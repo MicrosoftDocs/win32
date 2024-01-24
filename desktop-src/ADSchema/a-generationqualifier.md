@@ -22,7 +22,7 @@ Indicates a person generation. For example, Jr. or II.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Generation-Qualifier                        |
 | Ldap-Display-Name | generationQualifier                         |
@@ -48,7 +48,7 @@ Indicates a person generation. For example, Jr. or II.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C53                                                             |
@@ -69,7 +69,7 @@ Indicates a person generation. For example, Jr. or II.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C53                                                             |
@@ -90,7 +90,7 @@ Indicates a person generation. For example, Jr. or II.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C53                                                             |
@@ -111,7 +111,7 @@ Indicates a person generation. For example, Jr. or II.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C53                                                             |
@@ -132,7 +132,7 @@ Indicates a person generation. For example, Jr. or II.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C53                                                             |
@@ -153,7 +153,7 @@ Indicates a person generation. For example, Jr. or II.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C53                                                             |

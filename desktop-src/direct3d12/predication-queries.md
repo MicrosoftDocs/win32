@@ -2,7 +2,6 @@
 title: Predication queries
 description: The D3D12PredicationQueries sample demonstrates occlusion culling using DirectX 12 query heaps and predication. The walkthrough describes the additional code needed to extend the HelloConstBuffer sample to handle predication queries.
 ms.assetid: F61817BB-45BC-4977-BE4A-EE0FDAFBCB57
-ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -154,10 +153,12 @@ In the **LoadAssets** method a buffer needs to be created to store the results o
 
 ``` syntax
  // Create the query result buffer.
+              CD3DX12_HEAP_PROPERTIES heapProps(D3D12_HEAP_TYPE_DEFAULT);
+              auto queryBufferDesc = CD3DX12_RESOURCE_DESC::Buffer(8);
               ThrowIfFailed(m_device->CreateCommittedResource(
-                     &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+                     &heapProps,
                      D3D12_HEAP_FLAG_NONE,
-                     &CD3DX12_RESOURCE_DESC::Buffer(8),
+                     &queryBufferDesc,
                      D3D12_RESOURCE_STATE_GENERIC_READ,
                      nullptr,
                      IID_PPV_ARGS(&m_queryResult)

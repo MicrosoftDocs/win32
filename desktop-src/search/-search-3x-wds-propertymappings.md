@@ -1,5 +1,5 @@
 ---
-Description: This table maps the 2.6.5 schema PROPERTYKEY structures to the 3.01 schema PROPERTYKEY structures.
+description: This table maps the 2.6.5 schema PROPERTYKEY structures to the 3.01 schema PROPERTYKEY structures.
 ms.assetid: 5daee939-a6b7-4746-9821-15f4169042e6
 title: Property Mappings (from WDS 2.x to 3.x)
 ms.topic: article
@@ -10,7 +10,6 @@ ms.date: 05/31/2018
 
 This table maps the 2.6.5 schema PROPERTYKEY structures to the 3.01 schema PROPERTYKEY structures.
 
-## 
 
  
 

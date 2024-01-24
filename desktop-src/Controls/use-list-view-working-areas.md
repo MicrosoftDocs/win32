@@ -1,6 +1,6 @@
 ---
 title: How to Use List-View Working Areas
-description: This topic demonstrates how to work with list-view working areas. Working areas are rectangular virtual areas that can be used to arrange items in a list-vew control.
+description: This topic demonstrates how to work with list-view working areas. Working areas are rectangular virtual areas that can be used to arrange items in a list-view control.
 ms.assetid: 7A803B66-7827-49A3-8D87-6A037C09A19A
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Use List-View Working Areas
 
-This topic demonstrates how to work with list-view working areas. Working areas are rectangular virtual areas that can be used to arrange items in a list-vew control. A working area is not a window and cannot have a visible border. By default, the list-view control has no working areas. By creating a working area, you can create an empty border on the left, top, or right of the items or cause a horizontal scroll bar to be displayed when there normally would not be one.
+This topic demonstrates how to work with list-view working areas. Working areas are rectangular virtual areas that can be used to arrange items in a list-view control. A working area is not a window and cannot have a visible border. By default, the list-view control has no working areas. By creating a working area, you can create an empty border on the left, top, or right of the items or cause a horizontal scroll bar to be displayed when there normally would not be one.
 
 ## What you need to know
 

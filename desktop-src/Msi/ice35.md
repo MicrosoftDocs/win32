@@ -1,5 +1,5 @@
 ---
-Description: ICE35 validates that components containing compressed files stored in a cabinet file are not set to run from source. With Windows Installer 2.0 or later, this restriction has been removed.
+description: ICE35 validates that components containing compressed files stored in a cabinet file are not set to run from source. With Windows Installer 2.0 or later, this restriction has been removed.
 ms.assetid: b4df27e2-9790-4b18-a173-25fa8b0ecd4d
 title: ICE35
 ms.topic: article

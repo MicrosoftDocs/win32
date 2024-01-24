@@ -1,5 +1,5 @@
 ---
-Description: Provide services that enable application developers to add encryption/decryption of data, authentication using digital certificates, and encoding to and decoding from Abstract Syntax Notation One (ASN.1) to their Windows-based applications.
+description: Provide services that enable application developers to add encryption/decryption of data, authentication using digital certificates, and encoding to and decoding from Abstract Syntax Notation One (ASN.1) to their Windows-based applications.
 ms.assetid: 99aa4130-42d3-4fe7-ab20-dbe821be5b5f
 title: Cryptography, CryptoAPI, and CAPICOM
 ms.topic: article

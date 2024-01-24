@@ -1,5 +1,5 @@
 ---
-Description: Parental Controls provides the following logging enumerations.
+description: Parental Controls provides the following logging enumerations.
 ms.assetid: 617e103c-a24f-4576-acde-1ddec0dc7062
 title: Parental Controls Logging Enumerations
 ms.topic: article

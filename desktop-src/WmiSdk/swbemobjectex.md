@@ -1,5 +1,5 @@
 ---
-Description: Provides extended functionality for SWbemObject. Like SWbemObject, the methods of this extended object can be used by all WMI objects.
+description: Provides extended functionality for SWbemObject. Like SWbemObject, the methods of this extended object can be used by all WMI objects.
 ms.assetid: 944d4cdc-ad35-4b53-b755-f10131a087fb
 ms.tgt_platform: multiple
 title: SWbemObjectEx object (Wbemdisp.h)
@@ -63,7 +63,7 @@ The **SWbemObjectEx** object has these properties.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

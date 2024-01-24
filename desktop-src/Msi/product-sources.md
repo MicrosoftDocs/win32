@@ -1,5 +1,5 @@
 ---
-Description: The Sources property enumerates all the sources for the product instance.
+description: The Sources property enumerates all the sources for the product instance.
 ms.assetid: 26602099-d0e0-4269-91d9-82943859811a
 title: Product.Sources property
 ms.topic: reference
@@ -38,7 +38,7 @@ The type of source to enumerate. The value can be *msiInstallSourceTypeNetwork* 
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

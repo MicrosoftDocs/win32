@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the EnumerateMetafile methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the EnumerateMetafile methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: 167a04d5-24f4-4885-b97c-b4536e41e125
 title: Graphics.EnumerateMetafile methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
@@ -33,7 +33,7 @@ This topic lists the EnumerateMetafile methods of the [**Graphics**](/windows/wi
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

@@ -1,6 +1,6 @@
 ---
 title: Date and Time Picker Messages
-description: .
+description: Date and Time Picker Messages
 ms.assetid: ace058fa-7410-4de9-b4c4-5dde88bbb8c8
 ms.topic: article
 ms.date: 05/31/2018

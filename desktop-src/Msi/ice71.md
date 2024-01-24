@@ -1,5 +1,5 @@
 ---
-Description: ICE71 verifies that the Media table contains an entry with DiskId equal to 1.
+description: ICE71 verifies that the Media table contains an entry with DiskId equal to 1.
 ms.assetid: b48c2f3f-24ef-48a8-849f-7abed69c0fc9
 title: ICE71
 ms.topic: article

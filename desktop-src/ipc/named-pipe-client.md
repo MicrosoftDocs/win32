@@ -1,5 +1,5 @@
 ---
-Description: Code example shows a pipe client that opens a named pipe, sets the pipe handle to message-read mode, uses the WriteFile function to send a request to the server, and uses the ReadFile function to read the servers reply.
+description: Code example shows a pipe client that opens a named pipe, sets the pipe handle to message-read mode, uses the WriteFile function to send a request to the server, and uses the ReadFile function to read the servers reply.
 ms.assetid: '0779242c-45f4-4cd9-9c9f-36cff54c8dee'
 title: Named Pipe Client
 ms.topic: article

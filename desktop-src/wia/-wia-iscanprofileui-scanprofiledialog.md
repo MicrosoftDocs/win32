@@ -1,5 +1,5 @@
 ---
-Description: Displays a dialog box that enables users to create, modify, and delete scan profiles.
+description: Displays a dialog box that enables users to create, modify, and delete scan profiles.
 ms.assetid: 208ec527-f7ad-4d45-b433-6d7d3658ca26
 title: IScanProfileUI::ScanProfileDialog method (Scanprofileui.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The values of the `<ProfileName>` element and the `<WiaItem>` element can be cha
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

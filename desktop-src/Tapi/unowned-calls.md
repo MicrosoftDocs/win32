@@ -1,5 +1,5 @@
 ---
-Description: To prevent unowned calls from being in the telephony system, TAPI drops calls that have been signaled up from a service provider if it cannot identify an application to be the initial owner of the call.
+description: To prevent unowned calls from being in the telephony system, TAPI drops calls that have been signaled up from a service provider if it cannot identify an application to be the initial owner of the call.
 ms.assetid: 6aa9ceb8-4dc7-46b9-979c-bf59a92cdf27
 title: Unowned Calls
 ms.topic: article

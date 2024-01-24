@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_TARGETEXISTS notification is sent to the callback routine if the file to be copied was queued with the SP\_COPY\_NOOVERWRITE flag and that file already exists in the target directory.
+description: The SPFILENOTIFY\_TARGETEXISTS notification is sent to the callback routine if the file to be copied was queued with the SP\_COPY\_NOOVERWRITE flag and that file already exists in the target directory.
 ms.assetid: 5c6e0c59-0340-4aa6-94db-8d9a5d202758
 title: SPFILENOTIFY_TARGETEXISTS message (Setupapi.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The callback routine should return one of the following values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

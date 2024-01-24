@@ -1,5 +1,5 @@
 ---
-Description: Shows how to use Wi-Fi Direct functions in desktop apps.
+description: Shows how to use Wi-Fi Direct functions in desktop apps.
 ms.assetid: 50B95B7D-B860-44DF-8E78-1E7D2DC5A9B6
 title: Using the Wi-Fi Direct functions
 ms.topic: article
@@ -36,7 +36,7 @@ The [**WFDStartOpenSession**](/windows/desktop/api/wlanapi/nf-wlanapi-wfdstartop
 
 Once an application is done using the Wi-Fi Direct service, the application should call the [**WFDCloseHandle**](/windows/desktop/api/wlanapi/nf-wlanapi-wfdclosehandle) function to signal to the Wi-Fi Direct service that the application is done using the service. This allows the Wi-Fi Direct service to release resources used by the application.
 
-For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerFinder**](/uwp/api/Windows.Networking.Proximity.PeerFinder?view=winrt-19041) and related classes in the [**Windows.Networking.Proximity**](/uwp/api/Windows.Networking.Proximity?view=winrt-19041) namespace.
+For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerFinder**](/uwp/api/Windows.Networking.Proximity.PeerFinder) and related classes in the [**Windows.Networking.Proximity**](/uwp/api/Windows.Networking.Proximity) namespace.
 
 ## Related topics
 
@@ -57,7 +57,7 @@ For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerF
 **Reference**
 </dt> <dt>
 
-[**PeerFinder**](/uwp/api/Windows.Networking.Proximity.PeerFinder?view=winrt-19041)
+[**PeerFinder**](/uwp/api/Windows.Networking.Proximity.PeerFinder)
 </dt> <dt>
 
 [**WFD\_OPEN\_SESSION\_COMPLETE\_CALLBACK**](/windows/desktop/api/wlanapi/nc-wlanapi-wfd_open_session_complete_callback)
@@ -84,7 +84,7 @@ For more information on Wi-Fi Direct for use in Windows Store apps, see [**PeerF
 [**WFDUpdateDeviceVisibility**](/windows/desktop/api/wlanapi/nf-wlanapi-wfdupdatedevicevisibility)
 </dt> <dt>
 
-[**Windows.Networking.Proximity**](/uwp/api/Windows.Networking.Proximity?view=winrt-19041)
+[**Windows.Networking.Proximity**](/uwp/api/Windows.Networking.Proximity)
 </dt> </dl>
 
  

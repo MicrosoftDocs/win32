@@ -1,5 +1,5 @@
 ---
-Description: Applies a virtual machine snapshot to the virtual machine that it was created from.
+description: Applies a virtual machine snapshot to the virtual machine that it was created from.
 ms.assetid: 45f1ec8f-aa96-4060-8f8c-0471d0ad4a21
 title: ApplySnapshot method of the Msvm_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -101,7 +101,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

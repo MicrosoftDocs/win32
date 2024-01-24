@@ -1,5 +1,5 @@
 ---
-Description: The following is a list of error codes that TAPI can return when invoking operations on lines, addresses, or calls.
+description: The following is a list of error codes that TAPI can return when invoking operations on lines, addresses, or calls.
 ms.assetid: bdaf60d1-6ff2-4bd6-b246-8556d6cae644
 title: LINEERR_ Constants (Tapi.h)
 ms.topic: reference
@@ -1054,7 +1054,7 @@ When invoking the LINEERR\_constants which are new with TAPI 3.0, the Tapierr.mc
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

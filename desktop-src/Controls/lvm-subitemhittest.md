@@ -25,12 +25,12 @@ Determines which list-view item or subitem is at a given position. You can send 
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Must be 0. **Windows Vista.** Should be -1 if the **iGroup** member of *lParam* is to be retrieved.</dd> <dt>
+ </dt> <dd>Must be 0. <b>Windows Vista.</b> Should be -1 if the <b>iGroup</b> member of <i>lParam</i> is to be retrieved.</dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-lvhittestinfo) structure. The [**POINT**](/previous-versions//dd162805(v=vs.85)) structure within **LVHITTESTINFO** should be set to the client coordinates to be hit-tested.
+Pointer to an [**LVHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-lvhittestinfo) structure. The [**POINT**](/windows/win32/api/windef/ns-windef-point) structure within **LVHITTESTINFO** should be set to the client coordinates to be hit-tested.
 
 </dd> </dl>
 
@@ -42,7 +42,7 @@ Returns the index of the item or subitem tested, if any, or -1 otherwise. If an 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

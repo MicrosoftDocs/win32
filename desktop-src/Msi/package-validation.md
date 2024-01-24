@@ -1,5 +1,5 @@
 ---
-Description: It is strongly recommended that you run validation on every new or newly modified installation package before attempting to install the package for the first time.
+description: It is strongly recommended that you run validation on every new or newly modified installation package before attempting to install the package for the first time.
 ms.assetid: 47168c0b-82ab-4f1b-84d7-98c8f64d6da0
 title: Package Validation
 ms.topic: article

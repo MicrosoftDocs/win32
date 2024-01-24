@@ -1,5 +1,5 @@
 ---
-Description: Sent to an extension DLL when File Manager is loading its toolbar. This message allows an extension DLL to add a button to the File Manager toolbar.
+description: Sent to an extension DLL when File Manager is loading its toolbar. This message allows an extension DLL to add a button to the File Manager toolbar.
 title: FMEVENT_TOOLBARLOAD message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: c5daab49-4ed5-439b-b1b7-a87f70c379f0
-api_name: 
- - FMEVENT_TOOLBARLOAD
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -51,7 +42,7 @@ An extension DLL must return **TRUE** to add the button to the toolbar. If the D
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

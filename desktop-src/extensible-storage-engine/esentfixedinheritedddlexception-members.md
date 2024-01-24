@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFixedInheritedDDLException members"
 title: EsentFixedInheritedDDLException members
 TOCTitle: EsentFixedInheritedDDLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFixedInheritedDDLException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.FixedInheritedDDL exceptions.
 
-The [EsentFixedInheritedDDLException](dn350413\(v=exchg.10\).md) type exposes the following members.
+The [EsentFixedInheritedDDLException](./esentfixedinheritedddlexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentFixedInheritedDDLException class](dn350413\(v=exchg.10\).md)
+[EsentFixedInheritedDDLException class](./esentfixedinheritedddlexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

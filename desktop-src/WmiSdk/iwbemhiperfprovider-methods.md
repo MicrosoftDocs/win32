@@ -1,5 +1,5 @@
 ---
-Description: The IWbemHiPerfProvider interface exposes the following methods.
+description: The IWbemHiPerfProvider interface exposes the following methods.
 ms.assetid: 5853448A-CDF6-42C8-9B30-AC9F3275FD4B
 ms.tgt_platform: multiple
 title: IWbemHiPerfProvider Methods

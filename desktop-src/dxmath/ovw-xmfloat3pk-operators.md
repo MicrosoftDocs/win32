@@ -1,5 +1,5 @@
 ---
-Description: The XMFLOAT3PK structure exposes the following operators.
+description: The XMFLOAT3PK structure exposes the following operators.
 ms.assetid: eb6e7bd8-3ce8-4137-9592-9f278c36cdd6
 title: XMFLOAT3PK operators
 ms.topic: reference

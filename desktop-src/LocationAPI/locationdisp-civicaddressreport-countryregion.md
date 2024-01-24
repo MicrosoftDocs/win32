@@ -1,5 +1,5 @@
 ---
-Description: The country or region name.
+description: The country or region name.
 ms.assetid: 54c00418-42ef-45f8-bd82-51e287208b12
 title: LocationDisp.CivicAddressReport.CountryRegion property
 ms.topic: reference
@@ -43,7 +43,7 @@ For an example of how to use this property, see [A Simple Civic Address Report E
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

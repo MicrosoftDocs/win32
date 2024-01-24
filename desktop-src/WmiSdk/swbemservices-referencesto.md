@@ -1,5 +1,5 @@
 ---
-Description: Returns a collection of all association classes or instances that refer to a specific source class or instance.
+description: Returns a collection of all association classes or instances that refer to a specific source class or instance.
 ms.assetid: 33425b1c-13f5-4c3d-8f8a-2922f3e95264
 ms.tgt_platform: multiple
 title: SWbemServices.ReferencesTo method (Wbemdisp.h)
@@ -217,7 +217,7 @@ For more information about the REFERENCES OF associated WQL query, source instan
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

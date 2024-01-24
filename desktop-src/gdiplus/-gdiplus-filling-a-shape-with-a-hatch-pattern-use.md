@@ -1,5 +1,5 @@
 ---
-Description: 'A hatch pattern is made from two colors: one for the background and one for the lines that form the pattern over the background.'
+description: 'A hatch pattern is made from two colors: one for the background and one for the lines that form the pattern over the background.'
 ms.assetid: 7c2bfe54-3259-40d6-9eb4-1a8ad3dda477
 title: Filling a Shape with a Hatch Pattern
 ms.topic: article

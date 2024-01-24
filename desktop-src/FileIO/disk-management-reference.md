@@ -1,5 +1,5 @@
 ---
-Description: Elements used in disk management.
+description: Elements used in disk management.
 ms.assetid: baff3cae-d869-456b-981c-452973d0914d
 title: Disk Management Reference
 ms.topic: article

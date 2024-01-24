@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ColumnInfo properties"
 title: ColumnInfo properties
 TOCTitle: ColumnInfo properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.ColumnInfo
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [ColumnInfo](dn334128\(v=exchg.10\).md) type exposes the following members.
+The [ColumnInfo](./columninfo-class.md) type exposes the following members.
 
 ## Properties
 
@@ -71,7 +72,6 @@ Top
 
 #### Reference
 
-[ColumnInfo class](dn334128\(v=exchg.10\).md)
+[ColumnInfo class](./columninfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

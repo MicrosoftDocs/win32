@@ -1,5 +1,5 @@
 ---
-Description: The SetArpAlwaysSourceRoute WMI class static method is used to set the transmission of ARP queries by TCP/IP.
+description: The SetArpAlwaysSourceRoute WMI class static method is used to set the transmission of ARP queries by TCP/IP.
 ms.assetid: bbff4e2e-aea6-400e-8bd8-f62aaa9fa601
 ms.tgt_platform: multiple
 title: SetArpAlwaysSourceRoute method of the Win32_NetworkAdapterConfiguration class
@@ -399,15 +399,12 @@ DHCP not enabled on adapter.
 
 </dd> </dl>
 
-## Examples
-
-The [Modify ARP Queries to Use Source Routing](https://Gallery.TechNet.Microsoft.Com/e0298c96-acc2-4809-9365-fce3000db00e) VBScript sample on TechNet Gallery uses **SetArpAlwaysSourceRoute** to configure TCP/IP to always use source routing on all Token Ring networks.
 
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

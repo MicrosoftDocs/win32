@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Document.LastAuthor
 ms.assetid: a040a5cc-17eb-4a43-aeee-3e7ebbeac034
 title: System.Document.LastAuthor
 ms.topic: article

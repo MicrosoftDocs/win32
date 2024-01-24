@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical directory entry file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
+description: Uncompresses the logical directory entry file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
 ms.assetid: cd18d8b7-ab63-475c-a3a6-79611c9e032d
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_Directory class
@@ -163,7 +163,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

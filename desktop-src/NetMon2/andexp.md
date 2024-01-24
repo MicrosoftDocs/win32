@@ -1,5 +1,5 @@
 ---
-Description: The ANDEXP structure contains an array of pattern matches used to evaluate frame data.
+description: The ANDEXP structure contains an array of pattern matches used to evaluate frame data.
 ms.assetid: e5f4c030-eb2b-4cc9-9032-9ad4701b6503
 title: ANDEXP structure (Netmon.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ For more information about implementing this structure, see [Capture Filters](ca
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

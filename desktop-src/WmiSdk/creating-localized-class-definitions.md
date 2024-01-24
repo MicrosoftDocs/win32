@@ -1,5 +1,5 @@
 ---
-Description: Creating localized class definitions is a three-step process.
+description: Creating localized class definitions is a three-step process.
 ms.assetid: e303b894-07c4-44e3-9c57-58b1db16ae9a
 ms.tgt_platform: multiple
 title: Creating Localized Class Definitions
@@ -21,15 +21,15 @@ The following steps describe how to create and store a localized class definitio
 
     Save this MOF code in a file called Mastermof.mof.
 
-    ``` syntax
-#pragma namespace("\\\\.\\root")
+    ```syntax
+    #pragma namespace("\\\\.\\root")
 
     instance of __Namespace
     {
         Name = "TEST" ;
     } ;
 
-#pragma namespace("\\\\.\\root\\TEST")
+    #pragma namespace("\\\\.\\root\\TEST")
 
     [Description("Localized version of MyClass for American English") 
         : Amended, LOCALE(0x409)] 

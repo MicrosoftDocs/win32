@@ -1,6 +1,6 @@
 ---
 title: Tooltip Control Messages
-description: .
+description: Tooltip Control Messages
 ms.assetid: 0ca52be0-ccce-4814-8aab-14a602304d73
 ms.topic: article
 ms.date: 05/31/2018

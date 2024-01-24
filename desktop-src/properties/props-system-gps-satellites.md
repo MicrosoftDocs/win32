@@ -1,5 +1,5 @@
 ---
-Description: Indicates the GPS satellites used for measurements.
+description: Indicates the GPS satellites used for measurements.
 ms.assetid: 1772cb6a-3650-4b12-ac80-c8f8d941d206
 title: System.GPS.Satellites
 ms.topic: article

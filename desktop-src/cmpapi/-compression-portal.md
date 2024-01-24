@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Compression API
 ms.assetid: 3ef35cd0-3742-4fc2-9c06-e0485d3538f2
 title: Compression API
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Mapping Certificates
+description: Mapping Certificates
 ms.assetid: 4139f927-54f4-4968-a9eb-020401bb536d
 title: Mapping Certificates
 ms.topic: article

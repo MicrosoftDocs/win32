@@ -1,5 +1,5 @@
 ---
-Description: The order in which transport service providers are initially installed governs the order in which they are enumerated through WSCEnumProtocols and WSCEnumProtocols32 at the service provider interface, or through WSAEnumProtocols at the application interface. More importantly, this order also governs the order in which protocols and service providers are considered when a client requests creation of a socket based on its address family, type, and protocol identifier.
+description: The order in which transport service providers are initially installed governs the order in which they are enumerated through WSCEnumProtocols and WSCEnumProtocols32 at the service provider interface, or through WSAEnumProtocols at the application interface. More importantly, this order also governs the order in which protocols and service providers are considered when a client requests creation of a socket based on its address family, type, and protocol identifier.
 ms.assetid: f76c63b3-9952-4aaf-813f-152f4838d3c4
 title: Service Provider Ordering
 ms.topic: article

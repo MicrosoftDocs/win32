@@ -1,5 +1,5 @@
 ---
-Description: The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed pen gestures is detected.
+description: The following constants are used by applications or UI frameworks to identify how UI feedback is processed when one of the listed pen gestures is detected.
 ms.assetid: 434DC272-DC1C-4091-BB38-DDCB1A635D8D
 title: Pen Visualization (Winuser.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ Specifies UI feedback for the pen cursor.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |

@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type real32.
+description: Represents a PnP device property of type real32.
 ms.assetid: 06DFAFDA-6C6E-40BA-819D-50D2E1C1B524
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyReal32 class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

@@ -1,7 +1,6 @@
 ---
 title: IDXCoreAdapterFactory::IsNotificationTypeSupported
 description: Determines whether a specified notification type is supported by the operating system (OS).
-ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
 ---
@@ -21,9 +20,9 @@ virtual bool STDMETHODCALLTYPE IsNotificationTypeSupported(
 
 ### notificationType
 
-Type: **[DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md)**
+Type: **[DXCoreNotificationType](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype)**
 
-The type of notification that you're querying about support for. See the table in [DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md) for info about the notification types.
+The type of notification that you're querying about support for. See the table in [DXCoreNotificationType](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype) for info about the notification types.
 
 ## Returns
 

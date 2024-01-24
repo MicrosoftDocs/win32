@@ -1,5 +1,5 @@
 ---
-Description: The Component object represents a unique instance of a component that is available for enumeration.
+description: The Component object represents a unique instance of a component that is available for enumeration.
 ms.assetid: 'cdc99bc3-9e2a-49db-8c01-b9634aefac38'
 title: Component object
 ms.topic: reference
@@ -47,7 +47,7 @@ The **Component** object has these properties.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 or later.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |

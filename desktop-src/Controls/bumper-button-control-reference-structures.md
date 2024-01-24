@@ -1,6 +1,6 @@
 ---
 title: Button Control Structures
-description: .
+description: Button Control Structures
 ms.assetid: 88ac780d-78b3-4c77-99c2-bf6b1fab3913
 ms.topic: article
 ms.date: 05/31/2018

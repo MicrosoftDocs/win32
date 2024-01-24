@@ -1,5 +1,5 @@
 ---
-Description: COM+ provides an administration object model that exposes all of the functionality of the Component Services administrative tool, itself a graphical front end written on top of the administrative objects.
+description: COM+ provides an administration object model that exposes all of the functionality of the Component Services administrative tool, itself a graphical front end written on top of the administrative objects.
 ms.assetid: f302eb02-2ef5-42ee-a18f-59f7e60b38df
 title: Automating COM+ Administration
 ms.topic: article

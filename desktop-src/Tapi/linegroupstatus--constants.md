@@ -1,5 +1,5 @@
 ---
-Description: The LINEGROUPSTATUS\_ constants specify the ACD group status.
+description: The LINEGROUPSTATUS\_ constants specify the ACD group status.
 ms.assetid: 18afe11d-24cc-4897-ad59-a47598fe507f
 title: LINEGROUPSTATUS_ Constants (Tapi.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ A group has been added to the list of those available.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.2<br/>                                                      |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

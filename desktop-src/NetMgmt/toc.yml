@@ -331,7 +331,7 @@
         href: /windows/desktop/api/Lmwksta/nf-lmwksta-netwkstausersetinfo
       - name: "SetNetScheduleAccountInformation"
         href: /windows/desktop/api/AtAcct/nf-atacct-setnetscheduleaccountinformation
-    - name: "Network Management Structures"
+    - name: "Network Management structures"
       href: network-management-structures.md
       items: 
       - name: "ADMIN_OTHER_INFO"
@@ -402,6 +402,48 @@
         href: /windows/win32/api/Lmaccess/ns-lmaccess-net_validate_persisted_fields
       - name: "NETSETUP_PROVISIONING_PARAMS"
         href: /windows/win32/api/Lmjoin/ns-lmjoin-netsetup_provisioning_params
+      - name: "Offline Domain Join IDL Definitions"
+        href: ./odj-idl.md
+      - name: "ODJ_BLOB"
+        href: ./odj-odj_blob.md
+      - name: "ODJ_POLICY_DNS_DOMAIN_INFO"
+        href: ./odj-odj_policy_dns_domain_info.md
+      - name: "ODJ_PROVISION_DATA"
+        href: ./odj-odj_provision_data.md
+      - name: "ODJ_SID"
+        href: ./odj-odj_sid.md
+      - name: "ODJ_SID_IDENTIFIER_AUTHORITY"
+        href: ./odj-sid_identifier_authority.md
+      - name: "ODJ_UNICODE_STRING"
+        href: ./odj-odj_unicode_string.md
+      - name: "ODJ_WIN7BLOB"
+        href: ./odj-odj_win7blob.md
+      - name: "OP_BLOB"
+        href: ./odj-op_blob.md
+      - name: "OP_CERT_PART"
+        href: ./odj-op_cert_part.md
+      - name: "OP_CERT_PFX_STORE"
+        href: ./odj-op_cert_pfx_store.md
+      - name: "OP_CERT_SST_STORE"
+        href: ./odj-op_cert_sst_store.md
+      - name: "OP_JOIN_PROV2_PART"
+        href: ./odj-op_join_prov2_part.md
+      - name: "OP_JOIN_PROV3_PART"
+        href: ./odj-op_join_prov3_part.md
+      - name: "OP_JOIN_PROV4_PART"
+        href: ./odj-op_join_prov4_part.md
+      - name: "OP_PACKAGE"
+        href: ./odj-op_package.md
+      - name: "OP_PACKAGE_COLLECTION"
+        href: ./odj-op_package_collection.md
+      - name: "OP_PACKAGE_PART"
+        href: ./odj-op_package_part.md
+      - name: "OP_POLICY_ELEMENT"
+        href: ./odj-op_policy_element.md
+      - name: "OP_POLICY_ELEMENT_LIST"
+        href: ./odj-op_policy_element_list.md
+      - name: "OP_POLICY_PART"
+        href: ./odj-op_policy_part.md
       - name: "PRINT_OTHER_INFO"
         href: /windows/win32/api/Lmalert/ns-lmalert-print_other_info
       - name: "SERVER_INFO_100"

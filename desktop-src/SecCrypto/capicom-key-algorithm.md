@@ -1,5 +1,5 @@
 ---
-Description: The CAPICOM\_KEY\_ALGORITHM enumeration defines key algorithms.
+description: The CAPICOM\_KEY\_ALGORITHM enumeration defines key algorithms.
 ms.assetid: 2274c0ae-fa92-4059-a638-94a5f982c0c7
 title: CAPICOM_KEY_ALGORITHM enumeration (Capicom.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This enumeration is reserved for future use.
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

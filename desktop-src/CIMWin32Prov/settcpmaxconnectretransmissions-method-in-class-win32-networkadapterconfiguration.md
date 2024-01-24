@@ -1,5 +1,5 @@
 ---
-Description: The SetTcpMaxConnectRetransmissions WMI class static method is used to set the number of attempts TCP will retransmit a connect request before aborting.
+description: The SetTcpMaxConnectRetransmissions WMI class static method is used to set the number of attempts TCP will retransmit a connect request before aborting.
 ms.assetid: cb0dfba3-4ef5-4052-94f3-f688a1c55d90
 ms.tgt_platform: multiple
 title: SetTcpMaxConnectRetransmissions method of the Win32_NetworkAdapterConfiguration class
@@ -403,15 +403,11 @@ DHCP not enabled on adapter.
 
 The initial retransmission timeout is three seconds, and doubles for each successive attempt.
 
-## Examples
-
-The [Modify the Maximum Allowed TCP Connection Retransmissions](https://Gallery.TechNet.Microsoft.Com/e599c6bc-fa37-457d-b7e3-3c003517ed46) VBScript sample configures the number of times TCP will retransmit a connection attempt before abandoning the effort.
-
 ## Requirements
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows Vista<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |

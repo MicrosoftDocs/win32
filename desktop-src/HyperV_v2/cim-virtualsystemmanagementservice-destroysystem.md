@@ -1,5 +1,5 @@
 ---
-Description: Destroys a virtual system.
+description: Destroys a virtual system.
 ms.assetid: 8d2504dc-ce23-4257-9dfd-6a35dfd84b2d
 title: DestroySystem method of the CIM_VirtualSystemManagementService class
 ms.topic: reference
@@ -91,7 +91,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

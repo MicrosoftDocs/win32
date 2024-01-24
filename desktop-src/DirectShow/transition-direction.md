@@ -1,5 +1,5 @@
 ---
-Description: Transition Direction
+description: Transition Direction
 ms.assetid: d18525de-bb75-4c5e-b387-cfec7ba03df7
 title: Transition Direction
 ms.topic: article

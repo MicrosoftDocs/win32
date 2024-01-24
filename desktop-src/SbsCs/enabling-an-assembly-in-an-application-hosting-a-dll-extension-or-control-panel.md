@@ -1,5 +1,5 @@
 ---
-Description: If your application hosts a third-party DLL, extension, plug-in, or control panel, you may want to enable an assembly in your application&\#8212;without also enabling this assembly for the hosted components.
+description: If your application hosts a third-party DLL, extension, plug-in, or control panel, you may want to enable an assembly in your application&\#8212;without also enabling this assembly for the hosted components.
 ms.assetid: 832957ca-82fc-4600-b469-512621dde921
 title: Enabling an Assembly in an Application Hosting a DLL, Extension, or Control Panel
 ms.topic: article

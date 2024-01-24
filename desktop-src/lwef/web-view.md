@@ -213,7 +213,7 @@ The Web view template controls what is displayed in a Web view and how. It uses 
 
         <!-- The Info region. This displays the information
          associated with a folder or file. Javascript in the header
-         is used to generate the regions contents by by assigning
+         is used to generate the regions contents by assigning
          a text block to TextBlock.innerHTML -->
         <div id="Info">
             <p style="margin-top: 16px");
@@ -360,7 +360,7 @@ As a Web view is resized, the width of the Info region will change to maintain t
 
 ### Loading and Initializing the Web View
 
-When a Web view is loaded, the layout needs to be adjusted to fit the available display area. Because no item has been selected yet, Web views normally display some default information that applies to the whole folder. To handle initialization, the <BODY> tag for Generic.htt detects the [onload](/previous-versions//ms531409(v=vs.85)) event and calls the **Init** function.
+When a Web view is loaded, the layout needs to be adjusted to fit the available display area. Because no item has been selected yet, Web views normally display some default information that applies to the whole folder. To handle initialization, the &lt;BODY&gt; tag for Generic.htt detects the [onload](/previous-versions//ms531409(v=vs.85)) event and calls the **Init** function.
 
 
 ```

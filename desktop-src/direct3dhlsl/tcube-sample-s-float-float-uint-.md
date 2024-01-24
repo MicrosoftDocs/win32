@@ -1,6 +1,6 @@
 ---
 title: TextureCube::Sample(S,float,float,uint) function
-description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
+description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation. | TextureCube::Sample(S,float,float,uint) function
 ms.assetid: 8FA17583-9002-4DEC-A6D5-85B25DEA19B7
 keywords:
 - Sample function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Sample(S,float,float,uint) function
+# TextureCube::Sample(S,float,float,uint) function
 
 Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSectorSizeNotSupportedException methods"
 title: EsentSectorSizeNotSupportedException methods
 TOCTitle: EsentSectorSizeNotSupportedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSectorSizeNotSupportedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSectorSizeNotSupportedException](dn350610\(v=exchg.10\).md) type exposes the following members.
+The [EsentSectorSizeNotSupportedException](./esentsectorsizenotsupportedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSectorSizeNotSupportedException class](dn350610\(v=exchg.10\).md)
+[EsentSectorSizeNotSupportedException class](./esentsectorsizenotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The MSINEWINSTANCE property indicates the installation of a new instance of a product with instance transforms.
+description: The MSINEWINSTANCE property indicates the installation of a new instance of a product with instance transforms.
 ms.assetid: 35d41fa9-79d3-4baa-b177-5a32239b5051
 title: MSINEWINSTANCE property
 ms.topic: reference
@@ -16,7 +16,7 @@ This property is available with the installer running a system in the Windows Se
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Marks a point in the stream. This message applies only to Asynchronous MFTs.
+description: Marks a point in the stream. This message applies only to Asynchronous MFTs.
 ms.assetid: eae1d066-64af-45e2-b8bb-eddf9147ad8b
 title: MFT_MESSAGE_COMMAND_MARKER (Mftransform.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ An arbitrary value. The MFT returns the value to the client in the [METransformM
 
 To send this message, call [**IMFTransform::ProcessMessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage).
 
-The MFT responds to this messageas follows:
+The MFT responds to this message as follows:
 
 1.  The MFT generates as many output samples as it can from the existing input data, sending an [METransformHaveOutput](metransformhaveoutput.md) event for each output sample.
 2.  After all of the output is generated, the MFT sends an [METransformMarker](metransformmarker.md) event. This event must be sent after all of the [METransformHaveOutput](metransformhaveoutput.md) events.
@@ -33,7 +33,7 @@ Asynchronous MFTs must respond to this message as described. Synchronous MFTs sh
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |

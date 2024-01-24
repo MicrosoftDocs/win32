@@ -1,6 +1,6 @@
 ---
 title: SampleGrad (DirectX HLSL Texture Object)
-description: Samples a texture using a gradient to influence the way the sample location is calculated.
+description: Samples a texture using a gradient to influence the way the sample location is calculated. | SampleGrad (DirectX HLSL Texture Object)
 ms.assetid: f3d73296-23c4-4178-b89e-6f84cfcb48a5
 ms.topic: reference
 ms.date: 05/31/2018
@@ -15,11 +15,7 @@ api_location:
 
 Samples a texture using a gradient to influence the way the sample location is calculated.
 
-
-
-|                                                                                                            |
-|------------------------------------------------------------------------------------------------------------|
-| &lt;Template Type&gt; Object.SampleGrad( sampler\_state S, float Location, float DDX, float DDY \[, int Offset\] ); |
+&lt;Template Type&gt; Object.SampleGrad( sampler\_state S, float Location, float DDX, float DDY \[, int Offset\] );
 
 
 
@@ -31,8 +27,8 @@ Samples a texture using a gradient to influence the way the sample location is c
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

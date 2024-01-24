@@ -1,5 +1,5 @@
 ---
-Description: The put\_LocalParticipantTypedInfo method sets participant information.
+description: The put\_LocalParticipantTypedInfo method sets participant information.
 ms.assetid: c4afd1d3-6fe4-4e5b-a9bf-81b7dffa9914
 title: ITLocalParticipant::put_LocalParticipantTypedInfo method (Confpriv.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ The application must use [SysAllocString](/windows/win32/api/oleauto/nf-oleauto-
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigException members"
 title: EsentRecordTooBigException members
 TOCTitle: EsentRecordTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.RecordTooBig exceptions.
 
-The [EsentRecordTooBigException](dn319857\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordTooBigException](./esentrecordtoobigexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentRecordTooBigException class](dn319857\(v=exchg.10\).md)
+[EsentRecordTooBigException class](./esentrecordtoobigexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

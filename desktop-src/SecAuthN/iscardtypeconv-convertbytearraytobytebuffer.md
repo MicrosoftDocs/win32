@@ -1,5 +1,5 @@
 ---
-Description: Converts a typical C/C++ byte array into a universal buffer of bytes (IStream object).
+description: Converts a typical C/C++ byte array into a universal buffer of bytes (IStream object).
 ms.assetid: 512c561a-63f1-463e-9bae-9bec1ebdbe9b
 title: ISCardTypeConv::ConvertByteArrayToByteBuffer method (Scarddat.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ Memory allocated is movable. Use the **IStream::Release** method to free the mem
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

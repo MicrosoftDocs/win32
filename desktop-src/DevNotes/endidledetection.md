@@ -1,5 +1,5 @@
 ---
-Description: Ends monitoring of inactivity.
+description: Ends monitoring of inactivity.
 ms.assetid: 26e52341-77cd-46cd-8b32-e786dfac870e
 title: EndIdleDetection function
 ms.topic: reference
@@ -55,7 +55,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msidle.dll</dt> </dl> |
 

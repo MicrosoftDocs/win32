@@ -1,6 +1,6 @@
 ---
 title: HttpPurchaseOrderServiceExample
-description: This example shows how to use service host for hosting a PurchaseOrder service over HTTP.
+description: Review a Windows Web Services API (WWSAPI) C++ example of how to use service host for hosting a purchase order service over HTTP.
 ms.assetid: 03da84b6-082f-41cd-810d-b593a55fa563
 keywords:
 - HttpPurchaseOrderServiceExample Native-Web-Services

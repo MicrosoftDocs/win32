@@ -1,5 +1,5 @@
 ---
-Description: The client product of the component in question.
+description: The client product of the component in question.
 ms.assetid: 14538e8b-3a7f-4d73-8c54-a0f83b013a42
 title: Client.ProductCode property
 ms.topic: reference
@@ -29,7 +29,7 @@ The client product of the component in question. This property calls the [**MsiE
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 or later.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |

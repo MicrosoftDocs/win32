@@ -60,7 +60,7 @@ Access type: Read-only
 
 The maximum amount of disk space on each drive that can be used by System Restore. This value is specified as a percentage of the total drive space. The default value is 12 percent.
 
-**Windows Vista:** Receives a value from the Volume Shadow Copy Service (VSS). This this is the maximum amount of disk space on each drive that can be used by System Restore. The default value is 15 percent of the total drive space or 30 percent of the available free space, whichever is smaller.
+**Windows Vista:** Receives a value from the Volume Shadow Copy Service (VSS). This is the maximum amount of disk space on each drive that can be used by System Restore. The default value is 15 percent of the total drive space or 30 percent of the available free space, whichever is smaller.
 
 </dd> <dt>
 
@@ -175,7 +175,7 @@ End If
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                         |

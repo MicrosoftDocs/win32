@@ -1,5 +1,5 @@
 ---
-Description: Extends the IShellDispatch2 object.
+description: Extends the IShellDispatch2 object.
 ms.assetid: 89d0aa4d-844d-497d-82bb-bcc2bcf9c78b
 title: IShellDispatch3 object (Shldisp.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ For a discussion of Windows services, see the [Services](../services/services.md
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

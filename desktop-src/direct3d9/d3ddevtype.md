@@ -1,5 +1,5 @@
 ---
-Description: Defines device types.
+description: Defines device types.
 ms.assetid: 2bcdc476-7c42-4152-b107-58366faf2abd
 title: D3DDEVTYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ typedef enum D3DDEVTYPE {
   D3DDEVTYPE_NULLREF      = 4,
   D3DDEVTYPE_REF          = 2,
   D3DDEVTYPE_SW           = 3,
-  D3DDEVTYPE_FORCE_DWORD  = 0xffffffff
+  D3DDEVTYPE_FORCE_DWORD  = 0x7fffffff
 } D3DDEVTYPE, *LPD3DDEVTYPE;
 ```
 
@@ -87,7 +87,7 @@ If D3dref9.dll is installed, Direct3D will use the reference rasterizer to creat
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

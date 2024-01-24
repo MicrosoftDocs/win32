@@ -1,5 +1,5 @@
 ---
-Description: The trustworthiness of a digital certificate is established by using a hierarchy of trust.
+description: The trustworthiness of a digital certificate is established by using a hierarchy of trust.
 ms.assetid: 13ee08b4-9c8e-480b-b78d-9472a2d7b566
 title: Hierarchy of Trust
 ms.topic: article

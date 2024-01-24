@@ -1,5 +1,5 @@
 ---
-Description: Association of Account Identities for Parental Controls
+description: Association of Account Identities for Parental Controls
 ms.assetid: b2b3830e-7030-4d55-a5af-084c3c388af0
 title: Association of Account Identities for Parental Controls
 ms.topic: article

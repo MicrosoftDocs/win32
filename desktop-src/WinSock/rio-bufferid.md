@@ -1,5 +1,5 @@
 ---
-Description: Specifies a registered buffer descriptor used with the Winsock registered I/O extensions.
+description: Specifies a registered buffer descriptor used with the Winsock registered I/O extensions.
 ms.assetid: 87D0A3F6-A44C-4D7F-B276-7FD5DC2DE7A3
 title: RIO_BUFFERID (Mswsockdef.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The **RIO\_BUFFERID** typedef is defined in the *Mswsockdef.h* header file which
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                        |

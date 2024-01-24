@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_1394ControllerDevice association WMI class relates the high-speed serial bus (IEEE 1394 Firewire) Controller and the CIM\_LogicalDevice instance connected to it.
+description: The Win32\_1394ControllerDevice association WMI class relates the high-speed serial bus (IEEE 1394 Firewire) Controller and the CIM\_LogicalDevice instance connected to it.
 ms.assetid: 327fbced-4637-4402-a06f-6ac352da920c
 ms.tgt_platform: multiple
 title: Win32_1394ControllerDevice class
@@ -267,7 +267,7 @@ Number of Soft Resets :
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

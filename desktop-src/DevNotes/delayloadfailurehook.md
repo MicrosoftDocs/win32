@@ -1,5 +1,5 @@
 ---
-Description: Returns the address of a delay-load failure callback function for the specified DLL and process.
+description: Returns the address of a delay-load failure callback function for the specified DLL and process.
 ms.assetid: db1d34cb-800a-4984-b4a3-d1ce1c6ee86c
 title: DelayLoadFailureHook function
 ms.topic: reference
@@ -50,7 +50,7 @@ The name of the DLL.
 *pszProcName* \[in\]
 </dt> <dd>
 
-The name of the process.
+The name of the procedure.
 
 </dd> </dl>
 
@@ -62,8 +62,10 @@ The address of the callback function.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 8<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                    |
 | Library<br/> | <dl> <dt>Kernel32.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Kernel32.dll</dt> </dl> |
 

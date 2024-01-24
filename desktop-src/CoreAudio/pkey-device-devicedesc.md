@@ -1,5 +1,5 @@
 ---
-Description: The PKEY\_Device\_DeviceDesc property contains the device description of the endpoint device (for example, &\#0034;Speakers&\#0034;).
+description: The PKEY\_Device\_DeviceDesc property contains the device description of the endpoint device (for example, &\#0034;Speakers&\#0034;).
 ms.assetid: 23715497-a74d-4dab-aade-c7779fe80aa6
 title: PKEY_Device_DeviceDesc (Functiondiscoverykeys\_devpkey.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ The **pwszVal** member of the **PROPVARIANT** structure points to a null-termina
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                        |

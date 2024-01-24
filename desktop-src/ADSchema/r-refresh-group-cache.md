@@ -21,7 +21,7 @@ This is for no GC logon. No GC logon relies on caching group memberships, and th
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Refresh-Group-Cache                  |
 | Display-Name | Refresh Group Cache for Logons       |
@@ -41,7 +41,7 @@ This is for no GC logon. No GC logon relies on caching group memberships, and th
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 56                                       |
@@ -52,7 +52,7 @@ This is for no GC logon. No GC logon relies on caching group memberships, and th
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 56                                       |
@@ -63,7 +63,7 @@ This is for no GC logon. No GC logon relies on caching group memberships, and th
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 56                                       |
@@ -74,7 +74,7 @@ This is for no GC logon. No GC logon relies on caching group memberships, and th
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 56                                       |
@@ -85,7 +85,7 @@ This is for no GC logon. No GC logon relies on caching group memberships, and th
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 56                                       |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalPackage class represents physical elements that contain or host other components. Examples are a rack enclosure or an adapter card.
+description: The CIM\_PhysicalPackage class represents physical elements that contain or host other components. Examples are a rack enclosure or an adapter card.
 ms.assetid: 9182d413-aa7e-4c2f-94fe-12e99980520c
 ms.tgt_platform: multiple
 title: CIM_PhysicalPackage class
@@ -574,7 +574,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

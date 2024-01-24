@@ -42,7 +42,7 @@ A handle to the device context for the sample page.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that contains the coordinates, in pixels, of the minimum margin rectangle.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that contains the coordinates, in pixels, of the minimum margin rectangle.
 
 </dd> </dl>
 
@@ -60,7 +60,7 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the various ways that you can instantiate an InkEdit control.
+description: This topic describes the various ways that you can instantiate an InkEdit control.
 ms.assetid: 3ab0f10e-1a0d-4d0b-b5b2-69dc96570b33
 title: Instantiating InkEdit
 ms.topic: article

@@ -22,7 +22,7 @@ KMS IDs enabled by the Activation Object
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-SPP-KMS-Ids                                        |
 | Ldap-Display-Name | msSPP-KMSIds                                          |
@@ -43,7 +43,7 @@ KMS IDs enabled by the Activation Object
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

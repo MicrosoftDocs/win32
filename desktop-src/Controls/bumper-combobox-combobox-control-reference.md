@@ -1,6 +1,6 @@
 ---
 title: ComboBox Control Reference
-description: .
+description: ComboBox Control Reference
 ms.assetid: fec35572-0ac4-4b01-8f56-d60755f5aad6
 ms.topic: article
 ms.date: 05/31/2018

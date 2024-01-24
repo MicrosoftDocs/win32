@@ -1,8 +1,8 @@
 ---
-Description: Learn how to build a cloud files sync engine that uses placeholder files using the cloud files API.
+description: Learn how to build a cloud files sync engine that uses placeholder files using the cloud files API.
 title: Build a Cloud Sync Engine that Supports Placeholder Files
 ms.topic: article
-ms.date: 02/06/2019
+ms.date: 11/12/2020
 ---
 
 # Build a Cloud Sync Engine that Supports Placeholder Files
@@ -11,10 +11,13 @@ A sync engine is a service that syncs files, typically between a remote host and
 
 Windows 10 version 1709 (also called the Fall Creators Update) introduced the *cloud files API*. This API is a new platform that formalizes support for sync engines. The cloud files API provides support for sync engines in a way that offers many new benefits to developers and end users.
 
-The cloud files API contains the following native Win32 APIs and Universal Windows Platform (UWP) APIs:
+The cloud files API contains the following native Win32 APIs and Windows Runtime (WinRT) APIs:
 
 * [Cloud Filter API](cloud-filter-reference.md): This native Win32 API provides functionality at the boundary between the user mode and the file system. This API handles the creation and management of placeholder files and directories.
-* [Windows.Storage.Provider namespace](/uwp/api/windows.storage.provider): This WinRT API enables applications to configure and register a cloud storage provider's sync root with the operating system.
+* [Windows.Storage.Provider namespace](/uwp/api/windows.storage.provider): This WinRT API enables applications to configure the cloud storage provider and register the sync root with the operating system.
+
+> [!NOTE]
+> The cloud files API does not currently support implementing cloud sync engines in UWP apps. Cloud sync engines must be implemented in desktop apps.
 
 ## Supported features
 
@@ -59,12 +62,15 @@ The following image demonstrates how the placeholder, full, and pinned full file
   * Additional verbs can be added to this section of the context menu using Desktop Bridge-compatible APIs.
 * User control of file hydration:
   * Users are always in control of file hydration, even when the files are not hydrated explicitly by the user. An interactive toast is shown for background hydration to alert the user and provide options. The following image demonstrates a toast notification for a hydrating file.
-      
     ![Example of an interactive toast shown for background file hydration](images/file-hydration-interactive-toast.png)
-
   * If a user blocks an app from hydrating files through an interactive toast, they can unblock the app in the **Automatic file downloads** page in **Settings**.
-    
     ![Screenshot of the automatic file downloads setting](images/allow-automatic-file-downloads-setting.png)
+* Hooking copy engine operations (supported in Windows 10 Insider Preview Build 19624 and later versions):
+  * Cloud storage providers can register a shell copy hook for monitoring file operations within their sync root.
+  * The provider registers their copy hook by setting the **CopyHook** registry value under their sync root registry key to the CLSID of their COM local server object. This local server object implements the [IStorageProviderCopyHook](../shell/nn-shobjidl-istorageprovidercopyhook.md) interface.
+* File sharing (supported in Windows 11 version 21H2 and later versions):
+  * Cloud storage providers can register a share handler that will be invoked when the user selects the "Share" command on a cloud file under their sync root.
+  * The provider registers their share handler by setting the **ShareHandler** registry value under their sync root registry key to the CLSID of their COM local server object. This local server object implements the [IExplorerCommand](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) interface.
 
 ### Desktop Bridge
 
@@ -84,7 +90,7 @@ When it comes to syncing, these are the things that a fully-developed cloud file
 
 1. Create two folders on your local hard drive. One of them will act as the server and the other as the client.
 2. Add some files to the server folder. Make sure the client folder is empty.
-3. Open the Cloud Mirror sample in Visual Studio 2017. Set the **CloudMirrorPackage** project as your startup project and then build and run the sample. When prompted by the sample, enter the two paths to your server and client folders. After this you will see a console window with diagnostic information.
+3. Open the Cloud Mirror sample in Visual Studio. Set the **CloudMirrorPackage** project as your startup project and then build and run the sample. When prompted by the sample, enter the two paths to your server and client folders. After this you will see a console window with diagnostic information.
 4. Open File Explorer and confirm that you see the **TestStorageProviderDisplayName** node and the placeholders for all the files that you copied into the server folder. To simulate an application that tries to open files without using the picker, copy several images to the server folder. Double-click one of them in your sync root folder and confirm that it hydrates. Then, open the Photos app. The app will pre-load adjacent files in the background to make it more likely the user does not experience delays when looking through the other pictures. You can observe the background dehydration happen via toasts or in File Explorer.
 5. Right-click a file in File Explorer to bring up a context menu, and confirm that you see the **TestCommand** menu item. Clicking this menu item will display a message box.
 6. To stop the sample, set focus to the console output and press **Ctrl-C**. This will cleanup the sync root registration so that the provider is uninstalled. If the sample crashes, it’s possible that the sync root will remain registered. This will cause File Explorer to relaunch every time you click on anything, and you would get prompted for the fake client and server locations. If this occurs, uninstall the **CloudMirrorPackage** sample application from your computer.

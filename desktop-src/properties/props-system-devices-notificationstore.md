@@ -1,5 +1,5 @@
 ---
-Description: Device notification store.
+description: Device notification store.
 ms.assetid: e26910d3-b111-4a55-bc82-0db5e2fe1f34
 title: System.Devices.NotificationStore
 ms.topic: article

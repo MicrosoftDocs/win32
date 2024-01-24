@@ -1,5 +1,5 @@
 ---
-Description: Identifies the topology node for a stream sink.
+description: Identifies the topology node for a stream sink.
 ms.assetid: 9aa6ca66-5122-4d05-94b9-32be194e9eb3
 title: MF_EVENT_OUTPUT_NODE attribute (Mfapi.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

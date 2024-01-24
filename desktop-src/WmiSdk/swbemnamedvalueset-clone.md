@@ -1,5 +1,5 @@
 ---
-Description: The Clone method of the SWbemNamedValueSet object returns a new object that is a clone of the current collection.
+description: The Clone method of the SWbemNamedValueSet object returns a new object that is a clone of the current collection.
 ms.assetid: 0e7fab2e-8175-45e5-aa70-1109502e2b3f
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.Clone method (Wbemdisp.h)
@@ -70,7 +70,7 @@ Use this method to duplicate an [**SWbemNamedValueSet**](swbemnamedvalueset.md) 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

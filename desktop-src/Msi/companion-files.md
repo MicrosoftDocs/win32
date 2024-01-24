@@ -1,5 +1,5 @@
 ---
-Description: The installation state of a companion file depends not on its own file versioning information, but on the versioning of its companion parent.
+description: The installation state of a companion file depends not on its own file versioning information, but on the versioning of its companion parent.
 ms.assetid: 3c1e3507-8ed9-4ce8-8d38-6c8248a9e883
 title: Companion Files
 ms.topic: article

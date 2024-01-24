@@ -1,5 +1,5 @@
 ---
-Description: The Kernel-mode TSP (Kmddsp.tsp) allows an application to handle legacy WAN miniports (for example, NDIS 4.0 drivers) as TAPI devices.
+description: The Kernel-mode TSP (Kmddsp.tsp) allows an application to handle legacy WAN miniports (for example, NDIS 4.0 drivers) as TAPI devices.
 ms.assetid: 1a8b3ce5-52e5-4367-8644-6c779f73858e
 title: Kernel-Mode Device Driver TSP
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Returns the locale identifier of the specified stroke.
+description: Returns the locale identifier of the specified stroke.
 ms.assetid: a5fb9b7a-ed3e-4552-9412-39529203bd81
 title: IInkAnalyzer::GetStrokeLanguageId method (IACom.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The stroke's locale is set when you add the stroke by calling [**IInkAnalyzer::A
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

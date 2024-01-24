@@ -1,5 +1,5 @@
 ---
-Description: Sets a wildcard filter to apply to the items returned.
+description: Sets a wildcard filter to apply to the items returned.
 ms.assetid: 19ca82c5-16ff-46c7-8ea1-ddbfc2ce3ac9
 title: FolderItems3.Filter method (Shldisp.h)
 ms.topic: reference
@@ -164,7 +164,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

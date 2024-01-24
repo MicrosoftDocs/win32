@@ -1,5 +1,5 @@
 ---
-Description: Developers of Windows Installer packages may choose to use a custom action type 2 when the standard actions are insufficient to execute the installation.
+description: Developers of Windows Installer packages may choose to use a custom action type 2 when the standard actions are insufficient to execute the installation.
 ms.assetid: 79ae0582-c991-4c0a-860b-0f5197ad0c7c
 title: Custom Action Type 2
 ms.topic: article

@@ -1,12 +1,12 @@
 ---
-Description: Client Logging
+description: Learn about client logging for Microsoft Media Foundation. Logging provides a way for the media server to track the activity of the clients that connect to it.
 ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Client Logging (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Client Logging
+# Client Logging (Microsoft Media Foundation)
 
 The network source supports client logging, which provides a way for the media server to track the activity of the clients that connect to it. Client logs enable a server to record connection, rendering, and streaming statistics. These logs can be used by content providers in various scenarios, such as, to trace media server usage and generate billing, or to deliver suitable-quality content depending on the speed of the client's network.
 
@@ -18,7 +18,7 @@ If the content is stored in a temporary local cache file on the computer that is
 
 The client sends streaming log data to the server to indicate how the client received the content, but not how it was rendered. The client can send the streaming log long before the client finishes rendering the content.
 
-This topic does not provide information about all the log fields. For a complete reference, see [Logging Model for Windows Media Services 9 Series](https://www.microsoft.com/windows/windowsmedia/howto/articles/LoggingModel.aspx).
+This topic does not provide information about all the log fields. For a complete reference, see [Windows Media Log Data Structure](/openspecs/windows_protocols/ms-wmlog/42c620eb-0d77-4350-b070-bcd1e182fe84).
 
 ## Configuring Log Fields
 
@@ -28,48 +28,16 @@ The following table describes the log fields and the corresponding properties th
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Logging field</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>c-playerid</td>
-<td>Unique identification of the player. This information is sent at the beginning of the connection. Typically, this is a GUID of the client. The client can send this information to the server in the <a href="mfnetsource-playerid-property.md"><strong>MFNETSOURCE_PLAYERID</strong></a> property.<br/> The client sends this information to the server at the beginning of the connection.<br/> Sample value: &quot;{c579d042-cecc-11d1-bb31-00a0c9603954}&quot;<br/></td>
-</tr>
-<tr class="even">
-<td>c-playerversion</td>
-<td>The version number of the player that is sent at the beginning of the connection. The client can send this information to the server in the <a href="mfnetsource-playerversion-property.md"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> property.<br/> The client sends this information to the server at the beginning of the connection.<br/></td>
-</tr>
-<tr class="odd">
-<td>cs(User-Agent)</td>
-<td>Browser type used if the player was embedded in a browser. This value can be set by the client in the <a href="mfnetsource-browseruseragent-property.md"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> property.<br/> If the player was not embedded, this field refers to the user agent of the client that generated the log. In this case, the client must set the <a href="mfnetsource-playeruseragent-property.md"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> property.<br/> The client sends this information to the server at the beginning of the connection.<br/> Sample value: &quot;Mozilla/4.0_(compatible;_MSIE_4.01;_Windows_98)&quot;<br/></td>
-</tr>
-<tr class="even">
-<td>cs(Referer)</td>
-<td>URL of the webpage in which the player was embedded (if it was embedded). The client can send this information to the server in the <a href="mfnetsource-browserwebpage-property.md"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/> Sample value: &quot;https://www.example.microsoft.com&quot;<br/></td>
-</tr>
-<tr class="odd">
-<td>c-hostexe</td>
-<td>For player log entries, the host program (.exe) that was run. For example, a webpage in a browser, a Microsoft Visual Basic applet, or a stand-alone player. The client can send this information to the server in the <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/> Sample values:<br/>
-<ul>
-<li>&quot;iexplore.exe&quot;</li>
-<li>&quot;myplayer.exe&quot;</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>c-hostexever</td>
-<td>Host program (.exe) version number. The client can send this information to the server in the <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> property.<br/> The client sends this information to the server at the end of the connection.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Logging field | Description | 
+|---------------|-------------|
+| c-playerid | Unique identification of the player. This information is sent at the beginning of the connection. Typically, this is a GUID of the client. The client can send this information to the server in the <a href="mfnetsource-playerid-property.md"><strong>MFNETSOURCE_PLAYERID</strong></a> property.<br /> The client sends this information to the server at the beginning of the connection.<br /> Sample value: "{c579d042-cecc-11d1-bb31-00a0c9603954}"<br /> | 
+| c-playerversion | The version number of the player that is sent at the beginning of the connection. The client can send this information to the server in the <a href="mfnetsource-playerversion-property.md"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> property.<br /> The client sends this information to the server at the beginning of the connection.<br /> | 
+| cs(User-Agent) | Browser type used if the player was embedded in a browser. This value can be set by the client in the <a href="mfnetsource-browseruseragent-property.md"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> property.<br /> If the player was not embedded, this field refers to the user agent of the client that generated the log. In this case, the client must set the <a href="mfnetsource-playeruseragent-property.md"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> property.<br /> The client sends this information to the server at the beginning of the connection.<br /> Sample value: "Mozilla/4.0_(compatible;_MSIE_4.01;_Windows_98)"<br /> | 
+| cs(Referer) | URL of the webpage in which the player was embedded (if it was embedded). The client can send this information to the server in the <a href="mfnetsource-browserwebpage-property.md"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> property.<br /> The client sends this information to the server at the end of the connection.<br /> Sample value: "https://www.example.microsoft.com"<br /> | 
+| c-hostexe | For player log entries, the host program (.exe) that was run. For example, a webpage in a browser, a Microsoft Visual Basic applet, or a stand-alone player. The client can send this information to the server in the <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> property.<br /> The client sends this information to the server at the end of the connection.<br /> Sample values:<br /><ul><li>"iexplore.exe"</li><li>"myplayer.exe"</li></ul> | 
+| c-hostexever | Host program (.exe) version number. The client can send this information to the server in the <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> property.<br /> The client sends this information to the server at the end of the connection.<br /> | 
+
 
 
 
@@ -200,9 +168,4 @@ The following list describes some of the network statistics identifiers defined 
 </dt> </dl>
 
  
-
- 
-
-
-
 
