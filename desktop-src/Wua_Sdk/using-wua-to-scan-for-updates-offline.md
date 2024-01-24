@@ -24,10 +24,10 @@ After you download the latest Wsusscn2.cab, the file can be provided to the [**A
 The following example uses the Wsusscn2.cab file to scan a computer and displays updates that are missing.
 
 > [!IMPORTANT]
-> This script is intended to demonstrate the use of the Windows Update Agent APIs, and provide an example of how developers can use these APIs to solve problems. This script is not intended as production code, and the script itself is not supported by Microsoft (though the underlying Windows Update Agent APIs are supported).
+> These scripts are intended to demonstrate the use of the Windows Update Agent APIs, and provide an example of how developers can use these APIs to solve problems. These scripts are not intended as production code, and the scripts are not supported by Microsoft (though the underlying Windows Update Agent APIs are supported).
 
- 
 
+### [VbScript](#tab/vbscript)
 
 ```VB
 Set UpdateSession = CreateObject("Microsoft.Update.Session")
@@ -60,11 +60,28 @@ Next
 WScript.Quit
 ```
 
+### [PowerShell](#tab/powershell)
 
+```PowerShell
+$UpdateSession = New-Object -ComObject Microsoft.Update.Session
+$UpdateServiceManager = New-Object -ComObject Microsoft.Update.ServiceManager
+$UpdateService = $UpdateServiceManager.AddScanPackageService("Offline Sync Service", "c:\wsusscn2.cab")
+$UpdateSearcher = $UpdateSession.CreateUpdateSearcher()
 
- 
+Write-Host "Searching for updates..."
+$UpdateSearcher.ServerSelection = 3 # ssOthers
+$UpdateSearcher.ServiceID = [string] $UpdateService.ServiceID
+$SearchResult = $UpdateSearcher.Search("IsInstalled=0")
+$Updates = $SearchResult.Updates
+If ($SearchResult.Updates.Count -eq 0) {
+    Write-Host "There are no applicable updates."
+    Exit
+}
+Write-Host "List of applicable items on the machine when using wssuscan.cab:"
+For ($i = 0; $i -lt $SearchResult.Updates.Count; $i++) {
+    $update = $SearchResult.Updates.Item($i)
+    Write-Host ($i + 1) "> " $update.Title
+}
+```
 
- 
-
-
-
+---
