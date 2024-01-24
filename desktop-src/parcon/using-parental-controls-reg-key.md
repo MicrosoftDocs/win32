@@ -1,8 +1,8 @@
 ---
-description: Using the Parental Controls Registry Key
-title: Using the Parental Controls Registry Key
+description: Using the parental controls registry keys.
+title: Using the Parental Controls Registry Keys
 ms.topic: article
-ms.date: 08/17/2023
+ms.date: 01/19/2024
 ---
 
 # Using the Parental Controls Registry Key
@@ -10,11 +10,8 @@ ms.date: 08/17/2023
 The following registry key can be used to determine if a user is a child. If this is the case, safety precautions need to be applied.
 
 ```
-HKLM\Software\Microsoft\Windows\CurrentVersion\Parental Controls\Users\{user-sid-here}\Web
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Parental Controls\Users\{user-sid-here}\Web
 ```
-
-
- 
 
 ## Example code
 
@@ -40,3 +37,7 @@ if (hresult == ERROR_SUCCESS) {
     // Registry key exists for user
 }
 ```
+
+## See also
+
+- [Unblocking blocked browser](using-parental-controls-unblocking-browser.md)
