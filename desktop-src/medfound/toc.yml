@@ -3379,6 +3379,8 @@
           href: mf-source-reader-mediasource-characteristics.md
         - name: "MF_SOURCE_READER_MEDIASOURCE_CONFIG"
           href: mf-source-reader-mediasource-config.md
+        - name: "MF_SOURCE_READER_PASSTHROUGH_MODE"
+          href: mf-source-reader-passthrough-mode.md
         - name: "MF_SOURCE_STREAM_SUPPORTS_HW_CONNECTION"
           href: mf-source-stream-supports-hw-connection.md
         - name: "MF_STF_VERSION_DATE"

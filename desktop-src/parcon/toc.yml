@@ -42,6 +42,8 @@
       href: parental-controls-and-user-account-control.md
     - name: "Using the Parental Controls Registry Key"
       href: using-parental-controls-reg-key.md
+    - name: "Unblocking blocked browser"
+      href: using-parental-controls-unblocking-browser.md
     - name: "Using Parental Controls APIs"
       href: using-parental-controls-apis.md
       items: 

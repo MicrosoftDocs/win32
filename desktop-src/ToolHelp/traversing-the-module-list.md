@@ -1,26 +1,27 @@
 ---
-title: Traversing the Module List
-description: The following example obtains a list of modules for the specified process.
+title: Traversing the module list
+description: This code example obtains a list of modules for a specified process.
 ms.assetid: 8efe1e13-6222-496a-bff3-90f53b03c750
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/19/2023
 ---
 
-# Traversing the Module List
+# Traversing the module list
 
-The following example obtains a list of modules for the specified process. The `ListProcessModules` function takes a snapshot of the modules associated with a given process using the [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) function, and then walks through the list using the [**Module32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-module32first) and [**Module32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-module32next) functions. The `dwPID` parameter of `ListProcessModules` identifies the process for which modules are to be enumerated, and is usually obtained by calling **CreateToolhelp32Snapshot** to enumerate the processes running on the system. See [Taking a Snapshot and Viewing Processes](taking-a-snapshot-and-viewing-processes.md) for a simple console application that uses this function.
+This code example retrieves a list of modules for a specified process (by default, the current process). The **ListProcessModules** function takes a snapshot of the modules associated with a given process. To do that, it uses the [**CreateToolhelp32Snapshot**](/windows/win32/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) function, and then it walks through the list using the [**Module32First**](/windows/win32/api/TlHelp32/nf-tlhelp32-module32first) and [**Module32Next**](/windows/win32/api/TlHelp32/nf-tlhelp32-module32next) functions. The *dwPID* parameter of **ListProcessModules** identifies the process for which modules are to be enumerated, and that's usually obtained by calling **CreateToolhelp32Snapshot** to enumerate the processes running on the system. See [Taking a snapshot and viewing processes](taking-a-snapshot-and-viewing-processes.md) for a simple console application that uses this function.
 
-A simple error-reporting function, `printError`, displays the reason for any failures, which usually result from security restrictions.
+A simple error-reporting function, **printError**, displays the reason for any failures (which typically result from security restrictions).
 
+To follow along with the code example, use Visual Studio to create a new project from the C++ **Console App** project template, and add the code below to it.
 
-```C++
+```cpp
 #include <windows.h> 
 #include <tlhelp32.h> 
 #include <tchar.h> 
- 
+
 //  Forward declarations: 
-BOOL ListProcessModules( DWORD dwPID ); 
-void printError( TCHAR* msg ); 
+BOOL ListProcessModules(DWORD dwPID ); 
+void printError(TCHAR const* msg ); 
  
 int main( void )
 {
@@ -74,8 +75,7 @@ BOOL ListProcessModules( DWORD dwPID )
   return( TRUE ); 
 } 
  
- 
-void printError( TCHAR* msg )
+void printError(TCHAR const* msg )
 {
   DWORD eNum;
   TCHAR sysMsg[256];
@@ -99,19 +99,6 @@ void printError( TCHAR* msg )
 }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Module Walking](module-walking.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Module-walking](module-walking.md)

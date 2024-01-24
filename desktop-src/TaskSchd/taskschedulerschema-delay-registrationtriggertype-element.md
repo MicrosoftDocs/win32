@@ -55,7 +55,7 @@ The following XML defines a registration trigger delay that allows a 5 minute de
     <Enabled></Enabled>
     <Repetition></Repetition>
     <ExecutionTimeLimit></ExecutionTimeLimit>
-    <Delay>PT5M<Delay>
+    <Delay>PT5M</Delay>
  </BootTrigger>
 ```
 

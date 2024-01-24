@@ -67,7 +67,7 @@ where *EventName* is the name of a Windows Media Player event, and *Params* is a
 
 
 
-If you have several instances of the Player control on a webpage and if you use the format shown in the preceeding example, then each event handler is tied to a specific instance of the Player control. In the preceeding example, the event handler is called only when the play state changes for the control that has id="Player".
+If you have several instances of the Player control on a webpage and if you use the format shown in the preceding example, then each event handler is tied to a specific instance of the Player control. In the preceeding example, the event handler is called only when the play state changes for the control that has id="Player".
 
 If the mime type associated with an embedded Player control is not application/x-ms-wmp, you can write event handlers that have the following format:
 
@@ -102,7 +102,7 @@ where *EventName* is the name of a Windows Media Player event, and *Params* is a
 
 
 
-If you have several instances of the Player control on a webpage and if you use the format shown in the preceeding example, then each event handler is tied to all instances of the Player control and the event handler is called when the play state changes for any Player control on the page.
+If you have several instances of the Player control on a webpage and if you use the format shown in the preceding example, then each event handler is tied to all instances of the Player control and the event handler is called when the play state changes for any Player control on the page.
 
 > [!Note]  
 > If the mime type is not application/x-ms-wmp, the **DoubleClick** event is sent as OnDSDblClickEvt (not OnDSDoubleClickEvt) for compatibility with version 6.4 of the Player control.

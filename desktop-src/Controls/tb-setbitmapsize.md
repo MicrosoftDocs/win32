@@ -34,7 +34,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the width, in pixels, of the bitmapped images. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the height, in pixels, of the bitmapped images.
+The [**LOWORD**](../winmsg/loword.md) specifies the width, in pixels, of the bitmapped images. The [**HIWORD**](../winmsg/hiword.md) specifies the height, in pixels, of the bitmapped images.
 
 </dd> </dl>
 

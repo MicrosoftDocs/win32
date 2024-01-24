@@ -847,6 +847,8 @@
       href: /windows/win32/api/Winternl/nf-winternl-rtlfreeunicodestring
     - name: "RtlGetDeviceFamilyInfoEnum"
       href: rtlgetdevicefamilyinfoenum.md
+    - name: "RtlGetReturnAddressHijackTarget"
+      href: rtlgetreturnaddresshijacktarget.md
     - name: "RtlGetVersion"
       href: rtlgetversion.md
     - name: "RtlInitString"
