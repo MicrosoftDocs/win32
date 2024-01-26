@@ -118,8 +118,12 @@
         href: /windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma
       - name: "BadMemoryCallbackRoutine"
         href: /previous-versions/windows/desktop/legacy/hh691011(v=vs.85)
+      - name: "CopyDeviceMemory"
+        href: winbase-copydevicememory.md
       - name: "CopyMemory"
         href: /previous-versions/windows/desktop/legacy/aa366535(v=vs.85)
+      - name: "CopyVolatileMemory"
+        href: winbase-copyvolatilememory.md
       - name: "CreateEnclave"
         href: /windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave
       - name: "CreateFileMappingA"
@@ -136,8 +140,12 @@
         href: /windows/desktop/api/memoryapi/nf-memoryapi-creatememoryresourcenotification
       - name: "DiscardVirtualMemory"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-discardvirtualmemory
+      - name: "FillDeviceMemory"
+        href: winbase-filldevicememory.md
       - name: "FillMemory"
         href: /previous-versions/windows/desktop/legacy/aa366561(v=vs.85)
+      - name: "FillVolatileMemory"
+        href: winbase-fillvolatilememory.md
       - name: "FlushViewOfFile"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-flushviewoffile
       - name: "FreeUserPhysicalPages"
@@ -264,6 +272,8 @@
         href: /windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter
       - name: "MoveMemory"
         href: /previous-versions/windows/desktop/legacy/aa366788(v=vs.85)
+      - name: "MoveVolatileMemory"
+        href: winbase-movevolatilememory.md
       - name: "OpenFileMapping"
         href: /windows/desktop/api/WinBase/nf-winbase-openfilemappinga
       - name: "OpenFileMappingFromApp"
@@ -290,6 +300,8 @@
         href: /windows/desktop/api/WinNT/nc-winnt-psecure_memory_cache_callback
       - name: "SecureZeroMemory"
         href: /previous-versions/windows/desktop/legacy/aa366877(v=vs.85)
+      - name: "SecureZeroMemory2"
+        href: winbase-securezeromemory2.md
       - name: "SetProcessDEPPolicy"
         href: /windows/desktop/api/WinBase/nf-winbase-setprocessdeppolicy
       - name: "SetProcessValidCallTargets"
@@ -336,8 +348,12 @@
         href: /windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock
       - name: "WriteProcessMemory"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-writeprocessmemory
+      - name: "ZeroDeviceMemory"
+        href: winbase-zerodevicememory.md
       - name: "ZeroMemory"
         href: /previous-versions/windows/desktop/legacy/aa366920(v=vs.85)
+      - name: "ZeroVolatileMemory"
+        href: winbase-zerovolatilememory.md
       - name: "AtlThunk_AllocateData"
         href: /windows/desktop/api/atlthunk/nf-atlthunk-atlthunk_allocatedata
       - name: "AtlThunk_InitData"
