@@ -71,4 +71,9 @@ This API is not defined in a Windows SDK header file and must be manually declar
 
 ## Requirements
 
+| Requirement | Value |
+|-------------------------------------|--------------------------------------------------------------------------------------|
+| Minimum supported client | Windows 10, version 1709 |
+| DLL                      | Ntdll.dll |
+
 ## See also
