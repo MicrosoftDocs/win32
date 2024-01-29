@@ -51,28 +51,30 @@
       items: 
       - name: "Image Encoding Overview"
         href: -wic-creating-encoder.md
-    - name: "Native WIC Codecs"
+    - name: "Native WIC codecs"
       href: native-wic-codecs.md
       items: 
-      - name: "BMP Format Overview"
+      - name: "BMP format overview"
         href: bmp-format-overview.md
-      - name: "DDS Format Overview"
+      - name: "DDS format overview"
         href: dds-format-overview.md
-      - name: "DNG Format Overview"
+      - name: "DNG format overview"
         href: dng-format-overview.md
-      - name: "GIF Format Overview"
+      - name: "GIF format overview"
         href: gif-format-overview.md
-      - name: "HD Photo Format Overview"
+      - name: "HD Photo format overview"
         href: hdphoto-format-overview.md
-      - name: "ICO Format Overview"
+      - name: "HEIF extension codec"
+        href: heif-codec.md
+      - name: "ICO format overview"
         href: ico-format-overview.md
-      - name: "JPEG Format Overview"
+      - name: "JPEG format overview"
         href: jpeg-format-overview.md
-      - name: "JPEG XR Codec"
+      - name: "JPEG XR codec"
         href: jpeg-xr-codec.md
-      - name: "PNG Format Overview"
+      - name: "PNG format overview"
         href: png-format-overview.md
-      - name: "TIFF Format Overview"
+      - name: "TIFF format overview"
         href: tiff-format-overview.md
     - name: "Processing Image Metadata"
       href: -wic-metadata-portal.md
@@ -883,7 +885,7 @@
         href: -wic-codec-error-codes.md
       - name: "Native Pixel Formats"
         href: -wic-codec-native-pixel-formats.md
-      - name: "Native WIC Codecs"
+      - name: "WIC codecs from Microsoft"
         href: native-wic-codecs.md
       - name: "IWICDevelopRawNotificationCallback Constants"
         href: -wic-codec-iwicdeveloprawnotification-constants.md

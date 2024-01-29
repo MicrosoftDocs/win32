@@ -3,7 +3,7 @@ title: Native pixel formats overview
 description: This topic introduces the pixel formats provided by the Windows Imaging Component (WIC).
 ms.assetid: 348b6d15-e339-4dce-99f3-4d639ee9bf7d
 ms.topic: article
-ms.date: 01/11/2024
+ms.date: 01/23/2024
 ---
 
 # Native pixel formats overview
@@ -120,7 +120,7 @@ The following table lists the indexed pixel formats provided by WIC. In these fo
 | GUID\_WICPixelFormat4bppIndexed | 1 | 4 | UINT |
 | GUID\_WICPixelFormat8bppIndexed | 1 | 8 | UINT |
 
-### Packed Bit pixel formats
+### Packed bit pixel formats
 
 The following table lists the packed bit formats provided by WIC. In these formats, color-channel data is not byte-aligned.
 
@@ -155,7 +155,7 @@ The following table lists the grayscale formats provided by WIC. In these format
 | GUID\_WICPixelFormat32bppGrayFloat | 1 | 32 | 32 | Float |
 | GUID\_WICPixelFormat32bppGrayFixedPoint | 1 | 32 | 32 | FixedPoint |
 
-### RGB/BGR Pixel formats
+### RGB/BGR pixel formats
 
 The following table lists the RGB/BGR formats provided by WIC. These formats separate the primary color data into red (R), green (G), and blue (B) channels. An additional alpha (A) channel is provided for opacity information in some formats.
 
@@ -298,7 +298,7 @@ The following tables show the pixel formats supported by each of the Windows pro
 | | GUID\_WICPixelFormat64bppBGRAFixedPoint |
 
 > [!NOTE]
-> GUID\_WICPixelFormat32bppBGRA is supported only in Windows 8, the [Platform Update for Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), and above.
+> GUID\_WICPixelFormat32bppBGRA is supported in Windows 8, and in the [Platform Update for Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), and above.
 >
 > - To encode to this format, use the **EnableV5Header32bppBGRA** encoder option. The BMP will be written with a BITMAPV5HEADER header.
 > - If a file has a BITMAPV5HEADER, it decodes as GUID\_WICPixelFormat32bppBGRA.
@@ -381,7 +381,7 @@ Depth-only and gain-only formats. These pixel format GUIDs allow photo viewers t
 | GUID_WICPixelFormat8bppDepth | GUID_WICPixelFormat8bppDepth |
 | GUID_WICPixelFormat8bppGain | GUID_WICPixelFormat8bppGain |
 
-### JPEG-XR native codec
+### JPEG XR native codec
 
 | Decoder pixel formats | Encoder pixel formats |
 |-|-|
