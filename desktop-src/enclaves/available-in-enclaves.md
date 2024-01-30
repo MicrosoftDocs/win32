@@ -1,0 +1,21 @@
+---
+description: Enclaves are used to create trusted execution environments. These APIs are available to developers in VBS enclaves.
+ms.assetid: d9493d81-565f-4451-a888-7eabc8498d1d
+title: APIs available in VBS enclaves
+titleSuffix: Secure Enclaves
+ms.topic: article
+ms.date: 08/02/2023
+---
+
+# APIs available in VBS enclaves
+
+Enclaves are used to create trusted execution environments. These APIs are available to developers in VBS enclaves.
+
+- [Bcrypt APIs available in VBS enclaves](enclaves-available-in-bcrypt.md)
+- [UCRT APIs available in VBS enclaves](enclaves-available-in-ucrt.md)
+- [Vertdll APIs available in VBS enclaves](enclaves-available-in-vertdll.md)
+- [libvcruntime APIs available in VBS enclaves](enclaves-available-in-libvcruntime.md)
+
+## See also
+
+- [Secure Enclaves (Trusted Execution)](trusted-execution.md)

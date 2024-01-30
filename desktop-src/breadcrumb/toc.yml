@@ -616,6 +616,9 @@
                     - name: Dynamic-Link Libraries
                       tocHref: /windows/win32/dlls/
                       topicHref: /windows/win32/dlls/dynamic-link-libraries
+                    - name: Enclaves
+                      tocHref: /windows/win32/enclaves/
+                      topicHref: /windows/win32/enclaves/trusted-execution
                     - name: Interprocess Communications
                       tocHref: /windows/win32/ipc/
                       topicHref: /windows/win32/ipc/interprocess-communications

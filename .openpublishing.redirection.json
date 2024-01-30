@@ -42799,6 +42799,31 @@
       "source_path": "desktop-src/msi/msizap-exe.md",
       "redirect_url": "/windows/win32/msi/windows-installer-development-tools",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution.md",
+      "redirect_url": "/windows/win32/enclaves/trusted-execution",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution-enumerations.md",
+      "redirect_url": "/windows/win32/enclaves/trusted-execution-enumerations",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution-functions.md",
+      "redirect_url": "/windows/win32/enclaves/trusted-execution-functions",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution-reference.md",
+      "redirect_url": "/windows/win32/enclaves/trusted-execution-reference",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution-structures.md",
+      "redirect_url": "/windows/win32/enclaves/trusted-execution-structures",
+      "redirect_document_id": false
 }
   ]
 }

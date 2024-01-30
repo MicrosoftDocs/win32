@@ -1448,6 +1448,8 @@
     - name: "DLL Load Notification"
       href: dll-load-notification.md
       items: 
+      - name: "LdrDisableThreadCalloutsForDll"
+        href: ldrdisablethreadcalloutsfordll.md
       - name: "LdrDllNotification"
         href: ldrdllnotification.md
       - name: "LdrFastFailInLoaderCallout"
@@ -1551,6 +1553,8 @@
         href: /windows/win32/api/Winternl/nf-winternl-ntsetinformationkey
       - name: "RtlGetFunctionTableListHead"
         href: rtlgetfunctiontablelisthead.md
+      - name: "RtlGetSystemGlobalData"
+        href: rtlgetsystemglobaldata.md
       - name: "RtlGetUnloadEventTrace"
         href: rtlgetunloadeventtrace.md
       - name: "RtlGetUnloadEventTraceEx"
