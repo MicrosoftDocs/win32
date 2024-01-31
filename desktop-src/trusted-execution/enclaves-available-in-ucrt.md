@@ -1468,7 +1468,7 @@ These [functions and function macros](/cpp/c-runtime-library/internal-crt-global
 
 ## See also
 
-- [Secure Enclaves (Trusted Execution)](trusted-execution.md)
+- [Secure Enclaves (Trusted Execution)](enclaves.md)
 - [Vertdll APIs Available in VBS Enclaves](enclaves-available-in-vertdll.md)
 - [Bcrypt APIs Available in VBS Enclaves](enclaves-available-in-bcrypt.md)
 - [libvcruntime APIs Available in VBS Enclaves](enclaves-available-in-libvcruntime.md)

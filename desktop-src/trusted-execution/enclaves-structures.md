@@ -31,5 +31,5 @@ The following structures are used when working with enclaves that are used to cr
 
 ## See also
 
-- [Enclave Enumerations](trusted-execution-enumerations.md)
-- [Enclave Functions](trusted-execution-functions.md)
+- [Enclave Enumerations](enclaves-enumerations.md)
+- [Enclave Functions](enclaves-functions.md)

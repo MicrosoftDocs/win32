@@ -13,9 +13,9 @@ This section contains the reference for the system APIs and services offered by 
 - The Component Object Model (COM).
 - File compression.
 - Dynamic-link libraries.
-- Enclaves.
 - Memory management.
 - Power management.
+- Secure Enclaves (Trusted Execution).
 - The creation and coordination of multiple threads of execution.
 - The development of service applications.
 - Windows messaging.
@@ -34,7 +34,6 @@ This section contains the reference for the system APIs and services offered by 
 | [Microsoft.Dtc.PowerShell.Diagnostics](/previous-versions//hh438328(v=vs.85)) | Provides information about the PowerShell cmdlets provided with Microsoft Distributed Transaction Coordinator (MSDTC) for diagnostics. |
 | [Microsoft.MsDtcManagement.Commands](/previous-versions//hh438356(v=vs.85)) | Provides information about the PowerShell cmdlets provided with Microsoft Distributed Transaction Coordinator (MSDTC) for management. |
 | [Dynamic Link Libraries](./dlls/dynamic-link-libraries.md) | How to create and manage DLLs. |
-| [Enclaves](./enclaves/trusted-execution.md) | Enclaves are used to create trusted execution environments. |
 | [Help API](/previous-versions/windows/desktop/helpapi/helpapi-portal) | The Help API allows the opening of help catalogs and the retrieval of help content items. |
 | [Interprocess Communications](./ipc/interprocess-communications.md) | How to use mailslots and pipes. |
 | [Kernel Transaction Manager](./ktm/kernel-transaction-manager-portal.md) | How to use transacted file and registry operations, or define transactions for other resources. |
@@ -44,6 +43,7 @@ This section contains the reference for the system APIs and services offered by 
 | [Power Management](./power/power-management-portal.md) | Core power management services. |
 | [Processes and Threads](./procthread/processes-and-threads.md) | How to create and manage processes and threads. |
 | [Remote Desktop Services](./termserv/terminal-services-portal.md) | How to programmatically interact with Remote Desktop Services. |
+| [Secure Enclaves](./trusted-execution/enclaves.md) | Secure enclaves are used to create trusted execution environments. |
 | [Services](./services/services.md) | How to create and manage services. |
 | [Synchronization](./sync/synchronization.md) | How to coordinate multiple threads of execution. |
 | [Windows Desktop Sharing](/previous-versions/windows/desktop/rdp/rdp-portal) | Windows Desktop Sharing is a multiple-party screen-sharing technology. Key scenarios include remote assistance, real-time collaboration and conferencing, and video communication. |

@@ -18,4 +18,4 @@ Enclaves are used to create trusted execution environments. These APIs are avail
 
 ## See also
 
-- [Secure Enclaves (Trusted Execution)](trusted-execution.md)
+- [Secure Enclaves (Trusted Execution)](enclaves.md)

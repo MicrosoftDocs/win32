@@ -11,9 +11,9 @@ ms.date: 08/02/2023
 
 The following elements are used when working with enclaves that are used to create trusted execution environments:
 
-- [Enclave Enumerations](trusted-execution-enumerations.md)
-- [Enclave Functions](trusted-execution-functions.md)
-- [Enclave Structures](trusted-execution-structures.md)
+- [Enclave Enumerations](enclaves-enumerations.md)
+- [Enclave Functions](enclaves-functions.md)
+- [Enclave Structures](enclaves-structures.md)
 
 ## See also
 

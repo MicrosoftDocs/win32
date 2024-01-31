@@ -489,7 +489,7 @@
         - name: "Dynamic-Link Libraries"
           href: ./dlls/dynamic-link-libraries.md
         - name: "Enclaves"
-          href: ./enclaves/trusted-execution.md
+          href: ./trusted-execution/enclaves.md
         - name: "Hardware Requirement Evaluator"
           href: ./hwreqchkapi/index.md
         - name: "Interprocess Communications"

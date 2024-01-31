@@ -19,5 +19,5 @@ The following enumerations are used when working with enclaves that are used to 
 
 ## See also
 
-- [Enclave Functions](trusted-execution-functions.md)
-- [Enclave Structures](trusted-execution-structures.md)
+- [Enclave Functions](enclaves-functions.md)
+- [Enclave Structures](enclaves-structures.md)

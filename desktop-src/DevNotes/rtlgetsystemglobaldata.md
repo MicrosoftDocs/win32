@@ -60,4 +60,4 @@ Returns an `NTSTATUS` value indicating success or failure of the function.
 
 ## See also
 
-[Enclaves APIs available in Vertdll](../enclaves/enclaves-available-in-vertdll.md)
+[Enclaves APIs available in Vertdll](../trusted-execution/enclaves-available-in-vertdll.md)

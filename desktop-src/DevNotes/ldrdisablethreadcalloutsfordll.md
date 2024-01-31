@@ -52,4 +52,4 @@ This function should not be called with the data table lock held with shared acc
 
 ## See also
 
-[Enclaves APIs available in Vertdll](../Enclaves/enclaves-available-in-vertdll.md)
+[Enclaves APIs available in Vertdll](../trusted-execution/enclaves-available-in-vertdll.md)

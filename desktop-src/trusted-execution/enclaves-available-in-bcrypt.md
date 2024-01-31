@@ -76,7 +76,7 @@ The following APIs in the [bcrypt.h](/windows/win32/api/bcrypt/) header file are
 
 ## See also
 
-- [Secure Enclaves (Trusted Execution)](trusted-execution.md)
+- [Secure Enclaves (Trusted Execution)](enclaves.md)
 - [UCRT APIs Available in VBS Enclaves](enclaves-available-in-ucrt.md)
 - [Vertdll APIs Available in VBS Enclaves](enclaves-available-in-vertdll.md)
 - [libvcruntime APIs Available in VBS Enclaves](enclaves-available-in-libvcruntime.md)

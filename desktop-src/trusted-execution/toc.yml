@@ -1,16 +1,16 @@
 - name: "Enclaves"
-  href: trusted-execution.md
+  href: enclaves.md
   items: 
   - name: "Enclave Reference"
-    href: trusted-execution-reference.md
+    href: enclaves-reference.md
     items: 
     - name: "Enclave Enumerations"
-      href: trusted-execution-enumerations.md
+      href: enclaves-enumerations.md
       items: 
       - name: "ENCLAVE_SEALING_IDENTITY_POLICY"
         href: /windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy
     - name: "Enclave Functions"
-      href: trusted-execution-functions.md
+      href: enclaves-functions.md
       items: 
       - name: "CallEnclave"
         href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-callenclave
@@ -39,7 +39,7 @@
       - name: "TerminateEnclave"
         href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-terminateenclave
     - name: "Enclave Structures"
-      href: trusted-execution-structures.md
+      href: enclaves-structures.md
       items: 
       - name: "ENCLAVE_CREATE_INFO_SGX"
         href: /windows/win32/api/winnt/ns-winnt-enclave_create_info_sgx

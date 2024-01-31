@@ -15,7 +15,7 @@ Virtualization-based security (VBS) enclaves are used to create trusted executio
 
 ## See also
 
-- [Secure Enclaves (Trusted Execution)](trusted-execution.md)
+- [Secure Enclaves (Trusted Execution)](enclaves.md)
 - [System services](../system-services.md)
 - [Always Encrypted with secure enclaves documentation](/azure/azure-sql/database/always-encrypted-with-secure-enclaves-landing)
 - [Virtualization-based Security (VBS)](/windows-hardware/design/device-experiences/oem-vbs)

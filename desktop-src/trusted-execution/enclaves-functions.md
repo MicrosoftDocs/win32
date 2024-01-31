@@ -31,5 +31,5 @@ The following functions are used when working with enclaves that are used to cre
 
 ## See also
 
-- [Enclave Enumerations](trusted-execution-enumerations.md)
-- [Enclave Structures](trusted-execution-structures.md)
+- [Enclave Enumerations](enclaves-enumerations.md)
+- [Enclave Structures](enclaves-structures.md)

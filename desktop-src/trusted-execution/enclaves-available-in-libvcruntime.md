@@ -113,3 +113,4 @@ These internal [functions and function macros](/cpp/c-runtime-library/internal-c
 - [UCRT APIs Available in VBS Enclaves](enclaves-available-in-ucrt.md)
 - [Bcrypt APIs Available in VBS Enclaves](enclaves-available-in-bcrypt.md)
 - [Vertdll APIs Available in VBS Enclaves](enclaves-available-in-vertdll.md)
+- [Secure Enclaves (Trusted Execution)](enclaves.md)
