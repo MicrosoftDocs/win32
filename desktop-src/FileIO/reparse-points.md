@@ -25,7 +25,7 @@ The following restrictions apply to reparse points:
 
   **Windows Server 2003 and Windows XP:** There is a limit of 31 reparse points on any given path.
 
-  **NOTE:** When the directory bit (`D`) is set to `1`, it indicates that any directory with this reparse tag can have children. Has no special meaning when used on a non-directory file. The directory bit is not compatible with the name surrogate bit.
+  **NOTE:** When the directory bit (`D`) is set to `1`, it indicates that any directory with this reparse tag can have children. It has no special meaning when used on a non-directory file. The directory bit isn't compatible with the name surrogate bit.
 
 ## In this section
 
