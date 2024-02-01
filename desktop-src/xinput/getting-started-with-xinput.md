@@ -3,7 +3,6 @@ title: Getting Started With XInput in Windows applications
 description: Overview of how XInput enables Windows applications to process controller interactions (including controller rumble effects and voice input and output).
 ms.topic: article
 ms.date: 10/23/2023
-ms.custom: seo-windows-dev
 ---
 
 # Getting Started With XInput in Windows applications
