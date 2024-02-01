@@ -3,7 +3,7 @@ description: Learn about TLS 1.0 and TLS 1.1 deprecation in Windows and how to e
 title: TLS 1.0 and TLS 1.1 deprecation in Windows
 ms.author: alalve
 ms.topic: article
-ms.date: 01/16/2024
+ms.date: 01/31/2024
 ms.contributor: jekrynit
 ---
 
@@ -15,70 +15,42 @@ TLS 1.0 and TLS 1.1 have already been disabled by Microsoft 365 products as well
 
 To learn more about this deprecation, see [RFC 8996](https://www.ietf.org/rfc/rfc8996.html).
 
-## Reenable TLS 1.0 and TLS 1.1 for legacy compatibility
+## Re-enabling TLS 1.0 and 1.1
 
-Best practice is to check for an updated application version before re-enabling legacy TLS versions.
+> [!CAUTION]
+> Directly editing the registry isn't recommended unless there is no other alternative. Modifications to the registry are not validated by the Registry Editor or by the Windows operating system before they are applied. As a result, incorrect values can be stored, and this can result in unrecoverable errors in the system. When possible, instead of editing the registry directly, use Group Policy or other Windows tools such as the Microsoft Management Console (MMC). If you must edit the registry, use extreme caution.
 
-> [!NOTE]
-> Re-enabling TLS 1.0 or TLS 1.1 on devices is a temporary solution until incompatible applications can be updated or replaced. Support for these legacy TLS versions may be removed completely in the future.
-
-You can enable TLS 1.0 or TLS 1.1 using the registry editor (regedit.exe), the command prompt (CMD), or PowerShell. When editing the registry, an entry with a value of **0** is the same as **disabled** and a value of **1** is the same as **enabled**. The registry path for these entries are stored in:
+The following **DWORD** registry values can be created to enable TLS 1.0 and 1.1 versions system-wide:
 
 ```registry
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client\Enabled
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client\Enabled
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server\Enabled
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server\Enabled
 ```
 
-# [Registry Editor](#tab/registry-editor)
+Setting these **DWORD** values to **1** enables TLS 1.0 and 1.1 for TLS clients and servers. To revert these changes, delete the above registry values.
 
-To override a system default, follow these steps to enable TLS 1.0 or TLS 1.1 on either the server or client device:
-
-1. On your desktop, select **Start**, type **Registry Editor**, right-click on **Registry Editor** and select **Run as administrator**.
-1. In the **Registry Editor**, navigate to the TLS path you want to edit previously referenced.
-1. In the top pane, select **Edit** > **New** > **DWORD** > type **Enabled**, then hit **Enter**.
-1. Double-click on your **Enabled** registry entry, change the value to **1**, then select **OK**.
-
-# [Command Prompt](#tab/command-promt)
-
-To enable TLS 1.0 for server using the command prompt or Windows Terminal, run the following as admin:
-
-```cmd
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server" /v "Enabled" /t REG_DWORD /d 1 /f
-```
-
-To enable TLS 1.0 for client using the command prompt or Windows Terminal, run the following as admin:
-
-```cmd
-reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client" /v "Enabled" /t REG_DWORD /d 1 /f
-```
-
-# [PowerShell](#tab/powershell)
-
-To enable TLS 1.0 for server using PowerShell, run the following as admin:
+The following Powershell script can be used to re-enable TLS 1.0 and 1.1:
 
 ```powershell
-Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server" -Name "Enabled" -Value 1
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client" -Name "Enabled" -Value 1 -Type DWord
+
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Client" -Name "Enabled" -Value 1 -Type DWord
+
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Server" -Name "Enabled" -Value 1 -Type DWord
+
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.1\Server" -Name "Enabled" -Value 1 -Type DWord
 ```
 
-To enable TLS 1.0 for client using PowerShell, run the following as admin:
+To learn more about TLS registry settings, see [Transport Layer Security (TLS) registry settings](/windows-server/security/tls/tls-registry-settings).
 
-```powershell
-Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0\Client" -Name "Enabled" -Value 1
-```
-
----
+> [!NOTE]
+> Support for legacy TLS versions 1.0 and 1.1 may be removed completely in the future.
 
 ## Known issues
 
-The following Windows applications rely on TLS 1.0 or TLS 1.1 and are expected to fail or lose some functionality.
-
-> [!NOTE]
-> The provided list is not exhaustive. If other applications show issues, check with the software vendor for an updated version or leave feedback under "Network and Internet" and "Secure Channel" in the [Windows Feedback Hub](https://aka.ms/WIPFeedbackHub).
+The following Windows applications rely on TLS 1.0 or TLS 1.1 and are expected to fail or lose some functionality. The provided list is not exhaustive. If other applications show issues, we recommend checking with the software vendor for an updated version.
 
 |Application|Impacted Version|Fixed Version|
 |-|-|-|
