@@ -147,7 +147,7 @@ The following functions are obsolete.
 
 
 ## See also
-- [Keyboard Input](keyboard-input.md)
+
 - [About Keyboard Input](about-keyboard-input.md)
 
  
