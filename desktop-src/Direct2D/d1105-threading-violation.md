@@ -12,7 +12,6 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # D1105: Threading Violation
@@ -42,7 +41,3 @@ Using an object instance from the same single-threaded factory from two differen
  
 
  
-
-
-
-

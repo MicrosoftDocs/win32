@@ -4,7 +4,6 @@ description: Describes the basics of compatible A8 render targets and provide ex
 ms.assetid: 218c0123-8da9-4d73-9882-cbf7f205001f
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # Compatible A8 render targets overview
