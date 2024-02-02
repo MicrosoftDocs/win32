@@ -4,7 +4,6 @@ ms.assetid: cb431700-f10f-4c53-9944-d6769895595d
 title: Microsoft XPS Document Writer (MXDW)
 ms.topic: article
 ms.date: 10/26/2021
-ms.custom: seo-windows-dev
 ---
 
 # Microsoft XPS Document Writer (MXDW)

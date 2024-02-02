@@ -4,7 +4,6 @@ description: The service control manager (SCM) is started at system boot. It's a
 ms.assetid: 56ad011d-17c4-4410-b598-6ef47fb3638f
 ms.topic: article
 ms.date: 01/25/2022
-ms.custom: seo-windows-dev
 ---
 
 # Service control manager

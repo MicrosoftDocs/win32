@@ -2,7 +2,6 @@
 title: Windows 7 Ribbons
 description: Windows 7 Ribbons were a way to help users find, understand, and use commands efficiently.
 ms.assetid: 8a4699da-9840-4622-9e94-d6d5c4e7708c
-ms.custom: contperf-fy21q1, seo-windows-dev
 ms.topic: article
 ms.date: 01/25/2022
 ---

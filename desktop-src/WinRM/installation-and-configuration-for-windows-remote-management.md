@@ -4,7 +4,6 @@ description: Learn how to install and configure Windows Remote Management in ord
 ms.date: 02/08/2023
 ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
 ms.topic: conceptual
-ms.custom: contperf-fy21q1
 ---
 
 # Installation and configuration for Windows Remote Management

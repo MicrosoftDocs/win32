@@ -4,7 +4,6 @@ description: A Windows 7 dialog box is a secondary window that allows users to p
 ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
 ms.topic: article
 ms.date: 01/25/2022
-ms.custom: seo-windows-dev
 ---
 
 # Windows 7 Dialog Boxes (Design basics)
@@ -923,4 +922,3 @@ When referring to dialog boxes:
 -   When possible, format the title using bold text. Otherwise, put the title in quotation marks only if required to prevent confusion.
 
 Example: In **Windows Security**, click **More Options**.
-

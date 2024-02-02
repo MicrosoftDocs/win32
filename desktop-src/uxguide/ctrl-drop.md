@@ -4,7 +4,6 @@ description: Windows 7 drop-down lists help users make a choice among a list of 
 ms.assetid: dbe88cf1-7946-4343-bc16-ce12be7ce205
 ms.topic: article
 ms.date: 01/25/2022
-ms.custom: seo-windows-dev
 ---
 
 # Windows 7 Drop-down Lists & Combo Boxes
@@ -277,4 +276,3 @@ When referring to combo boxes:
 Example: In the **Font** box, enter the font you want to use.
 
  
-

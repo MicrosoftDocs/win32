@@ -4,7 +4,6 @@ ms.assetid: 116EAD64-7CAE-455C-BA43-9492F78DE873
 title: Control Flow Guard
 ms.topic: article
 ms.date: 01/25/2022
-ms.custom: seo-windows-dev
 ---
 
 # Control Flow Guard for platform security
