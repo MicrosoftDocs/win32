@@ -104,7 +104,7 @@ The state of the lid has changed (open vs. closed). The callback won't be called
 <span id="guid_monitor_power_on"></span>
 **GUID\_MONITOR\_POWER\_ON** (02731015-4510-4526-99E6-E5A17EBD1AEA)
 
-The primary system monitor has been powered on or off. This notification is useful for components that actively render content to the display device, such as media visualization. These applications should register for this notification and stop rendering graphics content when the monitor is off to reduce system power consumption.
+The primary system monitor has been powered on or off. This notification is useful for components that actively render content to the display device, such as media visualization. Applications should register for this notification and stop rendering graphics content when the monitor is off to reduce system power consumption.
 
 The **Data** member is a **DWORD** that indicates the current monitor state:
 
@@ -120,7 +120,7 @@ The **Data** member is a **DWORD** that indicates the current monitor state:
 <span id="guid_power_saving_status"></span>
 **GUID\_POWER\_SAVING\_STATUS** (E00958C0-C213-4ACE-AC77-FECCED2EEEA5)
 
-Battery saver has been turned off or on in response to changing power conditions. This notification is useful for components that participate in energy conservation. These applications should register for this notification and save power when battery saver is on.
+Battery saver has been turned off or on in response to changing power conditions. This notification is useful for components that participate in energy conservation. Applications should register for this notification and save power when battery saver is on.
 
 The **Data** member is a **DWORD** that indicates battery saver state:
 
@@ -136,15 +136,18 @@ For general information about battery saver, see [battery saver (in the hardware
 <span id="guid_energy_saver_status"></span>
 **GUID\_ENERGY\_SAVER\_STATUS** (550E8400-E29B-41D4-A716-446655440000)
 
-Energy saver status has changed between off, Standard, or High Savings mode. This notification is useful for components that participate in energy conservation. These applications should register for this notification and save power to different degrees depending on what energy saver mode is in effect.
+> [!IMPORTANT]
+> This information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-The **Data** member is a **DWORD** with values from the ENERGY_SAVER_STATUS enumeration that indicates the current energy saver status:
+Energy saver status has changed. This notification is useful for components that participate in energy conservation. Applications that register for this notification can save varying degrees of power depending on what energy-saver mode is in effect.
+
+The **Data** member is a **DWORD** with values from the ENERGY_SAVER_STATUS enumeration that indicate the current energy saver status.
 
 ENERGY_SAVER_OFF - Energy saver is off.
 
-ENERGY_SAVER_STANDARD - Energy saver is in Standard mode. Save energy if the user experience impact is minimal. 
+ENERGY_SAVER_STANDARD - Energy saver is in standard mode. Save energy if the user experience impact is minimal. 
 
-ENERGY_SAVER_HIGH_SAVINGS - Energy saver is in High Savings mode. Save energy where possible. 
+ENERGY_SAVER_HIGH_SAVINGS - Energy saver is in high savings mode. Save energy where possible. 
 
 ---
 
