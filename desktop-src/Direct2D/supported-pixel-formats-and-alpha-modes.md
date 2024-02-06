@@ -7,7 +7,6 @@ keywords:
 - Direct2D,alpha modes
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # Supported Pixel Formats and Alpha Modes

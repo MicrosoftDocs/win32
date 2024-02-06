@@ -7,7 +7,6 @@ keywords:
 - Direct2D device context
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # How to render by using a Direct2D device context
