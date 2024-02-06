@@ -656,6 +656,8 @@
       href: /windows/win32/api/Ddrawgdi/nf-ddrawgdi-ddswaptexturehandles
     - name: "DdUnattachSurface"
       href: /windows/win32/api/Ddrawgdi/nf-ddrawgdi-ddunattachsurface
+    - name: GetVmWorkerProcess
+      href: getvmworkerprocess.md
     - name: "NtGdiD3DContextCreate"
       href: -dxgkernel-ntgdid3dcontextcreate.md
     - name: "NtGdiD3DContextDestroy"
