@@ -6,7 +6,6 @@ keywords:
 - Direct2D,interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # Direct2D interfaces
@@ -136,4 +135,3 @@ Direct2D provides the following interfaces.
  
 
  
-

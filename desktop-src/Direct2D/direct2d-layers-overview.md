@@ -6,7 +6,6 @@ keywords:
 - Direct2D,layers
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # Layers Overview
