@@ -53,7 +53,7 @@ The **IVmFiovGuestMemoryFastNotification** interface has these methods.
 | Method                                                   | Description                                                                                                           |
 |:---------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------|
 | [**RegisterDoorbell**](ivmfiovguestmemoryfastnotification-registerdoorbell.md)                   | Triggers an event when a guest physical address is accessed. |
-| [**UnregisterDoorbell**](ivmfiovguestmemoryfastnotification-unregisterdoorbell.md)                   | Stops notifications registered via **RegisterDoorbell** |
+| [**UnregisterDoorbell**](ivmfiovguestmemoryfastnotification-unregisterdoorbell.md)                   | Stops notifications registered via **RegisterDoorbell**. |
 
 ## Remarks
 

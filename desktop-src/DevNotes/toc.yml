@@ -884,29 +884,28 @@
     - name: "WINNLSEnableIME"
       href: /windows/win32/api/Winnls32/nf-winnls32-winnlsenableime
   - name: "Miscellaneous Virtualization APIs"
-  items:
+    items:
     - name: GetVmWorkerProcess
-    href: getvmworkerprocess.md
+      href: getvmworkerprocess.md
     - name: IVmFiovGuestMemoryFastNotification
-    href: ivmfiovguestmemoryfastnotification.md
-    items:
+      href: ivmfiovguestmemoryfastnotification.md
+      items:
       - name: RegisterDoorbell
-      href: ivmfiovguestmemoryfastnotification-registerdoorbell.md
+        href: ivmfiovguestmemoryfastnotification-registerdoorbell.md
       - name: UnregisterDoorbell
-      href: ivmfiovguestmemoryfastnotification-unregisterdoorbell.md
-    - name: IVmFiovGuestMemoryFastNotification
-    -name: IVmFiovGuestMmioMappings
-    href: ivmfiovguestmmiomappings.md
-    items:
+        href: ivmfiovguestmemoryfastnotification-unregisterdoorbell.md
+    - name: IVmFiovGuestMmioMappings
+      href: ivmfiovguestmmiomappings.md
+      items:
       - name: CreateSectionBackedMmioRange
-      href: ivmfiovguestmmiomappings-createsectionbackedmmiorange.md
+        href: ivmfiovguestmmiomappings-createsectionbackedmmiorange.md
       - name: DestroySectionBackedMmioRange
-      href: ivmfiovguestmmiomappings-destroysectionbackedmmiorange.md
-    -name: IVmVirtualDeviceAccess
-    href: ivmvirtualdeviceaccess.md
-    items:
+        href: ivmfiovguestmmiomappings-destroysectionbackedmmiorange.md
+    - name: IVmVirtualDeviceAccess
+      href: ivmvirtualdeviceaccess.md
+      items:
       - name: RemoteGetDevice
-      href: ivmvirtualdeviceaccess-remotegetdevice.md
+        href: ivmvirtualdeviceaccess-remotegetdevice.md
   - name: "MSHTML"
     href: mshtml2.md
     items: 
