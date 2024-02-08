@@ -795,8 +795,6 @@
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-getmediaextensioncommunicationfactory
     - name: "GetServerForPMP"
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-getserverforpmp
-    - name: GetVmWorkerProcess
-      href: getvmworkerprocess.md
     - name: "IMESTRUCT"
       href: /windows/win32/api/Ime/ns-ime-imestruct
     - name: "InstantiateComponentFromPackage"
@@ -885,6 +883,30 @@
       href: vbagetexprsrv.md
     - name: "WINNLSEnableIME"
       href: /windows/win32/api/Winnls32/nf-winnls32-winnlsenableime
+  - name: "Miscellaneous Virtualization APIs"
+    items:
+      - name: GetVmWorkerProcess
+      href: getvmworkerprocess.md
+      - name: IVmFiovGuestMemoryFastNotification
+      href: ivmfiovguestmemoryfastnotification.md
+      items:
+        - name: RegisterDoorbell
+        href: ivmfiovguestmemoryfastnotification-registerdoorbell.md
+        - name: UnregisterDoorbell
+        href: ivmfiovguestmemoryfastnotification-unregisterdoorbell.md
+      - name: IVmFiovGuestMemoryFastNotification
+      -name: IVmFiovGuestMmioMappings
+      href: ivmfiovguestmmiomappings.md
+      items:
+        - name: CreateSectionBackedMmioRange
+        href: ivmfiovguestmmiomappings-createsectionbackedmmiorange.md
+        - name: DestroySectionBackedMmioRange
+        href: ivmfiovguestmmiomappings-destroysectionbackedmmiorange.md
+      -name: IVmVirtualDeviceAccess
+      href: ivmvirtualdeviceaccess.md
+      items:
+        - name: RemoteGetDevice
+        href: ivmvirtualdeviceaccess-remotegetdevice.md
   - name: "MSHTML"
     href: mshtml2.md
     items: 
