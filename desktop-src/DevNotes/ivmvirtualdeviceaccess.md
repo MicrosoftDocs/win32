@@ -48,7 +48,7 @@ The **IVmVirtualDeviceAccess** interface has these methods.
 |:---------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------|
 | **ReservedMethod1** |  This method is reserved and is listed here to indicate the offset of other methods in the virtual method table for the interface. |
 | **ReservedMethod2** |  This method is reserved and is listed here to indicate the offset of other methods in the virtual method table for the interface. |
-| [**RemoteGetDevice**](ivmvirtualdeviceaccess-remotegetdevice.md)                   | TBD |
+| [**GetDevice**](ivmvirtualdeviceaccess-getdevice.md)                   | TBD |
 
 ## Remarks
 

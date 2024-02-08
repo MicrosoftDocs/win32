@@ -71,6 +71,19 @@ This function has no associated import library or header file; you must call it 
 
 The **FIOV_BAR_SELECTOR** enumeration that provides values for the *BarIndex* is documented in the remarks of [RegisterDoorbell](ivmfiovguestmemoryfastnotification-registerdoorbell.md).
 
+The **FiovMmioMappingFlags** enumeration that provides values for the *MappingFlags* has the following definition:
+
+
+```c++
+typedef [v1_enum] enum
+{
+    FiovMmioMappingFlagNone = 0x00000000,
+    FiovMmioMappingFlagWriteable = 0x00000001,
+    FiovMmioMappingFlagExecutable = 0x00000002
+ 
+} FiovMmioMappingFlags;
+``````
+
 ## Requirements
 
 

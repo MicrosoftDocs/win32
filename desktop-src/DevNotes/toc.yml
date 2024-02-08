@@ -904,8 +904,8 @@
     - name: IVmVirtualDeviceAccess
       href: ivmvirtualdeviceaccess.md
       items:
-      - name: RemoteGetDevice
-        href: ivmvirtualdeviceaccess-remotegetdevice.md
+      - name: GetDevice
+        href: ivmvirtualdeviceaccess-getdevice.md
   - name: "MSHTML"
     href: mshtml2.md
     items: 
