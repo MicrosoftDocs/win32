@@ -14,7 +14,7 @@ api_location:
 - ntdll.dllvmwpctrl.dll
 ---
 
-# NtCreateWaitCompletionPacket function
+# GetVmWorkerProcess function
 
 TBD
 
