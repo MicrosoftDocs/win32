@@ -1,5 +1,5 @@
 ---
-description: TBD
+description: Returns the specified COM interface from a running worker process.
 title: GetVmWorkerProcess function
 ms.topic: reference
 ms.date: 02/06/2024
@@ -16,7 +16,7 @@ api_location:
 
 # GetVmWorkerProcess function
 
-TBD
+Returns the specified COM interface from a running worker process.
 
 ## Syntax
 
@@ -34,15 +34,15 @@ GetVmWorkerProcess(
 
 ### VirtualMachineId [in]
 
-TBD
+Returns the specified COM interface from a running worker rocess.
 
 ### InterfaceId [in]
 
-TBD
+The REFIID of the COM interface to be retrieved.
 
 ### Object [out]
 
-TBD
+The address of an interface pointer variable that receives the  interface pointer of the Worker Process. Upon successful return, *Object* contains the requested interface pointer to the object. This method calls AddRef on the returned interface pointer. If the requested interface is not supported, this function sets *Object to NULL.
 
 ## Return value
 
