@@ -67,8 +67,6 @@ An HRESULT.
 
 ## Remarks 
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from vmidl.dll.
-
 The **FIOV_BAR_SELECTOR** enumeration that provides values for the *BarIndex* is documented in the remarks of [RegisterDoorbell](ivmfiovguestmemoryfastnotification-registerdoorbell.md).
 
 The **FiovMmioMappingFlags** enumeration that provides values for the *MappingFlags* has the following definition:
@@ -91,7 +89,6 @@ typedef [v1_enum] enum
 | Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header | N/A    |
-| DLL  | vmidl.dll |
 
 
 

@@ -11,7 +11,7 @@ api_name:
 api_type: 
 - COM
 api_location: 
-- vmprox.dll
+- NA
 ---
 
 # IVmVirtualDeviceAccess::GetDevice method
@@ -53,7 +53,6 @@ An HRESULT.
 
 ## Remarks 
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from TBD.
 
 
 
@@ -64,7 +63,7 @@ This function has no associated import library or header file; you must call it 
 | Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header | N/A    |
-| DLL  | vmprox.dll |
+
 
 
 

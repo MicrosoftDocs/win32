@@ -1,5 +1,5 @@
 ---
-description: TBD.
+description: Provides a management interface for managing VM virtual devices.
 title: IVmVirtualDeviceAccess interface
 ms.topic: reference
 ms.date: 02/08/2024
@@ -11,12 +11,12 @@ api_name:
 api_type: 
 - COM
 api_location: 
-- vmprox.dll
+- NA
 ---
 
 # IVmVirtualDeviceAccess interface
 
-TBD
+Provides a management interface for managing VM virtual devices.
 
 ## Syntax
 
@@ -52,14 +52,12 @@ The **IVmVirtualDeviceAccess** interface has these methods.
 
 ## Remarks
 
-These functions have no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from TBD.
 
 ## Requirements
 
 | Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header | N/A    |
-| DLL    | vmprox.dll |
 
 
 

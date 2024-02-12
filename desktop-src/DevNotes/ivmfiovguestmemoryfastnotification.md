@@ -11,7 +11,7 @@ api_name:
 api_type: 
 - COM
 api_location: 
-- vmidl.dll
+- NA
 ---
 
 # IVmFiovGuestMemoryFastNotification interface
@@ -57,14 +57,14 @@ The **IVmFiovGuestMemoryFastNotification** interface has these methods.
 
 ## Remarks
 
-These functions have no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from vmidl.dll.
+
 
 ## Requirements
 
 | Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header | N/A    |
-| DLL    | vmidl.dll |
+
 
 
 
