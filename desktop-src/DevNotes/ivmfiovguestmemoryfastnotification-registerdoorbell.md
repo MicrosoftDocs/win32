@@ -7,11 +7,11 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- IPStore.GetInfo
+- IVmFiovGuestMemoryFastNotification::RegisterDoorbell
 api_type: 
 - COM
 api_location: 
-- TBD
+- vmidl.dll
 ---
 
 # IVmFiovGuestMemoryFastNotification::RegisterDoorbell method
@@ -61,7 +61,7 @@ An HRESULT.
 
 ## Remarks 
 
-This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from TBD.
+This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from vmidl.dll.
 
 The **FIOV_BAR_SELECTOR** enumeration that provides values for the *BarIndex* has the following definition:
 
@@ -85,7 +85,7 @@ The **FIOV_BAR_SELECTOR** enumeration that provides values for the *BarIndex* ha
 | Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header | N/A    |
-| DLL  | TBD |
+| DLL  | vmidl.dll |
 
 
 

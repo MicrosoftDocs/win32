@@ -7,11 +7,11 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- NtCreateWaitCompletionPacket
+- GetVmWorkerProcess
 api_type: 
 - DllExport
 api_location: 
-- ntdll.dllvmwpctrl.dll
+- vmwpctrl.dll
 ---
 
 # GetVmWorkerProcess function

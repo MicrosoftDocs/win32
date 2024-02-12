@@ -7,11 +7,11 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- IPStore
+- IVmFiovGuestMmioMappings
 api_type: 
 - COM
 api_location: 
-- TBD
+- vmidl.dll
 ---
 
 # IVmFiovGuestMmioMappings interface
@@ -52,14 +52,14 @@ The **IVmFiovGuestMmioMappings** interface has these methods.
 
 ## Remarks
 
-These functions have no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from TBD.
+These functions have no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from vmidl.dll.
 
 ## Requirements
 
 | Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header | N/A    |
-| DLL    | TBD |
+| DLL    | vmidl.dll |
 
 
 

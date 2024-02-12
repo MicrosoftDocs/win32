@@ -1,5 +1,5 @@
 ---
-description: TBD
+description: Causes the Virtual Machine Worker to return the specified virtual device.
 title: IVmVirtualDeviceAccess::GetDevice method
 ms.topic: reference
 ms.date: 02/08/2024
@@ -7,16 +7,16 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- IPStore.GetInfo
+- IVmVirtualDeviceAccess::GetDevice
 api_type: 
 - COM
 api_location: 
-- TBD
+- vmprox.dll
 ---
 
 # IVmVirtualDeviceAccess::GetDevice method
 
-TBD
+Causes the Virtual Machine Worker to return the specified virtual device.
 
 ## Syntax
 
@@ -36,17 +36,15 @@ HRESULT GetDevice(
 
 ### CategoryID [in]
 
-TBD
+The device category ID.
 
 ### DeviceID [in]
 
-TBD
+The device instance ID.
 
 ### Device [out, retval]
 
-TBD
-
-
+Receives a pointer to an **IUnknown** interface representing the device.
 
 
 ## Return value
@@ -66,7 +64,7 @@ This function has no associated import library or header file; you must call it 
 | Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header | N/A    |
-| DLL  | TBD |
+| DLL  | vmprox.dll |
 
 
 

@@ -7,11 +7,11 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- IPStore
+- IVmVirtualDeviceAccess
 api_type: 
 - COM
 api_location: 
-- TBD
+- vmprox.dll
 ---
 
 # IVmVirtualDeviceAccess interface
@@ -48,7 +48,7 @@ The **IVmVirtualDeviceAccess** interface has these methods.
 |:---------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------|
 | **ReservedMethod1** |  This method is reserved and is listed here to indicate the offset of other methods in the virtual method table for the interface. |
 | **ReservedMethod2** |  This method is reserved and is listed here to indicate the offset of other methods in the virtual method table for the interface. |
-| [**GetDevice**](ivmvirtualdeviceaccess-getdevice.md)                   | TBD |
+| [**GetDevice**](ivmvirtualdeviceaccess-getdevice.md)                   | vmprox.dll |
 
 ## Remarks
 
@@ -59,7 +59,7 @@ These functions have no associated import library or header file; you must call 
 | Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header | N/A    |
-| DLL    | TBD |
+| DLL    | vmprox.dll |
 
 
 
