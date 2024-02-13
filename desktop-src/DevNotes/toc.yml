@@ -883,6 +883,29 @@
       href: vbagetexprsrv.md
     - name: "WINNLSEnableIME"
       href: /windows/win32/api/Winnls32/nf-winnls32-winnlsenableime
+  - name: "Miscellaneous Virtualization APIs"
+    items:
+    - name: GetVmWorkerProcess
+      href: getvmworkerprocess.md
+    - name: IVmFiovGuestMemoryFastNotification
+      href: ivmfiovguestmemoryfastnotification.md
+      items:
+      - name: RegisterDoorbell
+        href: ivmfiovguestmemoryfastnotification-registerdoorbell.md
+      - name: UnregisterDoorbell
+        href: ivmfiovguestmemoryfastnotification-unregisterdoorbell.md
+    - name: IVmFiovGuestMmioMappings
+      href: ivmfiovguestmmiomappings.md
+      items:
+      - name: CreateSectionBackedMmioRange
+        href: ivmfiovguestmmiomappings-createsectionbackedmmiorange.md
+      - name: DestroySectionBackedMmioRange
+        href: ivmfiovguestmmiomappings-destroysectionbackedmmiorange.md
+    - name: IVmVirtualDeviceAccess
+      href: ivmvirtualdeviceaccess.md
+      items:
+      - name: GetDevice
+        href: ivmvirtualdeviceaccess-getdevice.md
   - name: "MSHTML"
     href: mshtml2.md
     items: 
