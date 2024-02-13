@@ -3,16 +3,16 @@ description: A cipher suite is a set of cryptographic algorithms.
 ms.assetid: 513e5e73-12f8-4b64-86e4-179518c3582d
 title: Cipher Suites in TLS/SSL (Schannel SSP)
 ms.topic: article
-ms.date: 07/13/2023
+ms.date: 02/13/2024
 ---
 
 # Cipher Suites in TLS/SSL (Schannel SSP)
 
 A cipher suite is a set of cryptographic algorithms. The schannel SSP implementation of the TLS/SSL protocols use algorithms from a cipher suite to create keys and encrypt information. A cipher suite specifies one algorithm for each of the following tasks:
 
--   Key exchange
--   Bulk encryption
--   Message authentication
+- Key exchange
+- Bulk encryption
+- Message authentication
 
 [*Key exchange algorithms*](/windows/desktop/SecGloss/k-gly) protect information required to create shared keys. These algorithms are asymmetric ([*public key algorithms*](/windows/desktop/SecGloss/p-gly)) and perform well for relatively small amounts of data.
 
@@ -62,14 +62,5 @@ Different Windows versions support different TLS cipher suites and priority orde
 
 **Windows Server 2008 and Windows Vista:** For information about supported cipher suites, see [TLS Cipher Suites in Windows Vista](schannel-cipher-suites-in-windows-vista.md)
 
-**Windows Server 2003 and Windows XP:** For information about supported cipher suites, see the following topics.
-
-| Topic | Description |
-| ----- | ----- |
-| [TLS Cipher Suites](/windows/win32/secauthn/cipher-suites-in-schannel) | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP. |
-| [Secure Sockets Layer Protocol](secure-sockets-layer-protocol.md) | General information about SSL 2.0 and 3.0, including the available cipher suites in Windows Server 2003 and Windows XP. |
-
-
-> [!Note]  
+> [!NOTE]
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.
-

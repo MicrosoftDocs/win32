@@ -13,10 +13,8 @@ ms.date: 02/19/2021
 
 To extend the Active Directory schema successfully you can obtain a root OID from a script shown below. The OIDs generated from the script are unique; they are mapped from a unique GUID. Please read the best practices carefully as poorly handled OIDs can result in data loss.
 
-> [!Note]  
+> [!NOTE]
 > For instructions on obtaining a link-Id from Microsoft, please visit the [Linked Attributes](linked-attributes.md) topic.
-
- 
 
 ## After You Have Obtained a Base OID
 
@@ -26,12 +24,10 @@ You can create subsequent OIDs for new schema classes and attributes by appendin
 
 If your assigned base OID was 1.2.840.113556.1.8000.999999, you might create categories as follows.
 
-
-
-| OID base value                            | Description                                                                                                                                                                                        |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.2.840.113556.1.8000.999999.1<br/> | Application Classes<br/> The first class would have the OID 1.2.840.113556.1.8000.999999.1.1, the second class would have the OID 1.2.840.113556.1.8000.999999.1.2, and so on.<br/>    |
-| 1.2.840.113556.1.8000.999999.2<br/> | Application Attributes<br/> The first attribute's OID would be 1.2.840.113556.1.8000.999999.2.1, the second attribute's OID would be 1.2.840.113556.1.8000.999999.2.2, and so on.<br/> |
+| OID base value | Description |
+|--------|--------|
+| 1.2.840.113556.1.8000.999999.1 | Application Classes<br/> The first class would have the OID 1.2.840.113556.1.8000.999999.1.1, the second class would have the OID 1.2.840.113556.1.8000.999999.1.2, and so on. |
+| 1.2.840.113556.1.8000.999999.2 | Application Attributes<br/> The first attribute's OID would be 1.2.840.113556.1.8000.999999.2.1, the second attribute's OID would be 1.2.840.113556.1.8000.999999.2.2, and so on. |
 
 ## Script
 
@@ -95,8 +91,6 @@ Function GenerateOID()
     GenerateOID = oidPrefix & "." & oidPart0 & "." & oidPart1 & "." & oidPart2 & "." & oidPart3 & _ 
         "." & oidPart4 & "." & oidPart5 & "." & oidPart6 
 End Function 
-
-
 
 Set oShell = WScript.CreateObject ("WScript.Shell")
 oShell.run "cmd /c Regsvr32 Schmmgmt.dll"
