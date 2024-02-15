@@ -3691,6 +3691,8 @@
         href: asf-attributes.md
       - name: "Audio Renderer Attributes"
         href: audio-renderer-attributes.md
+      - name: "Audio Decoder Attributes"
+        href: audio-decoder-attributes.md
       - name: "Byte Stream Attributes"
         href: byte-stream-attributes.md
       - name: "Capture Device Attributes"
