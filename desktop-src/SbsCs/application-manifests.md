@@ -55,6 +55,7 @@ Application manifests have the following elements and attributes.
 | [**ultraHighResolutionScrollingAware**](#ultraHighResolutionScrollingAware) |                           | No       |
 | [**msix**](#msix)                                                           |                           | No       |
 | [**heapType**](#heaptype)                                                   |                           | No       |
+| [**supportedArchitectures**](#supportedarchitectures)                       |                           | No       |
 | [**trustInfo**](#trustinfo)                                                 |                           | No       |
 
 ## File location
@@ -487,6 +488,29 @@ This element has no attributes.
   <asmv3:application>
     <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2020/WindowsSettings">
       <heapType>SegmentHeap</heapType>
+    </asmv3:windowsSettings>
+  </asmv3:application>
+ ...
+</assembly>
+```
+
+### supportedArchitectures
+
+For IL-only .NET executables, specifies a list of native processor architectures the application is compatible with. Can contain one or more of the following values, separated by spaces:
+
+* **amd64**
+* **arm64**
+
+This element has no attributes.
+
+This element is supported in Windows 11, version 24H2 and later.
+
+```XML
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+ ...
+  <asmv3:application>
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2024/WindowsSettings">
+      <supportedArchitectures>amd64 arm64</supportedArchitectures>
     </asmv3:windowsSettings>
   </asmv3:application>
  ...
