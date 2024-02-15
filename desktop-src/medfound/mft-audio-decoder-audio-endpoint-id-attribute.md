@@ -25,8 +25,8 @@ An example usage scenario for this attribute is an audio decoder MFT using the a
 
 | Requirement | Value |
 |-------------------------------------|---------------------|
-| Minimum supported client | Windows Version 24H1 |
-| Minimum supported server | Windows Server Version 24H1 |
+| Minimum supported client | Windows Version 24H2 |
+| Minimum supported server | Windows Server Version 24H2 |
 | Header | mftransform.h |
 
 

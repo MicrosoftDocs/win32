@@ -21,8 +21,8 @@ This attribute is set on components via the attribute store obtained from [IMFTr
 
 | Requirement | Value |
 |-------------------------------------|---------------------|
-| Minimum supported client | Windows Version 24H1 |
-| Minimum supported server | Windows Server Version 24H1 |
+| Minimum supported client | Windows Version 24H2 |
+| Minimum supported server | Windows Server Version 24H2 |
 | Header | mftransform.h |
 
 
