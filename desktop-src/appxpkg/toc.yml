@@ -19,7 +19,7 @@
     href: how-to-query-package-identity-information.md
   - name: "Troubleshooting"
     href: troubleshooting.md
-  - name: "Reference"
+  - name: "API reference"
     href: api-reference.md
     items: 
     - name: "Packaging API"
@@ -700,6 +700,45 @@
       href: appx-packaging-glossary.md
     - name: "Windows Package Manager COM API"
       href: windows-package-manager-com-api.md
+    - name: "MSIXVC API reference"
+      href: msixvc-api-reference.md
+      items: 
+      - name: "MoveOptions enumeration"
+        href: /windows/win32/appxpkg/appxdatasource/ne-appxdatasource-moveoptions
+      - name: "RunOptions enumeration"
+        href: /windows/win32/appxpkg/appxdatasource/ne-appxdatasource-runoptions
+      - name: "SignatureStreamFlags enumeration"
+        href: /windows/win32/appxpkg/appxdatasource/ne-appxdatasource-signaturestreamflags
+      - name: "IAppxStreamingDataSource"
+        href: /windows/win32/appxpkg/appxdatasource/nn-appxdatasource-iappxstreamingdatasource
+        items: 
+        - name: "CreateRangeRequestJob"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource-createrangerequestjob
+        - name: "GetAttributes"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource-getattributes
+        - name: "GetRangeData"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource-getrangedata
+      - name: "IAppxStreamingDataSource4"
+        href: /windows/win32/appxpkg/appxdatasource/nn-appxdatasource-iappxstreamingdatasource4
+        items: 
+        - name: "Apply"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource4-apply
+        - name: "GetDiskSpace"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource4-getdiskspace
+        - name: "GetManifestStream"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource4-getmanifeststream
+        - name: "GetSignatureFileStream"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource4-getsignaturefilestream
+        - name: "GetTotalSize"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource4-gettotalsize
+        - name: "Move"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource4-move
+        - name: "Pause"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource4-pause
+        - name: "Remove"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource4-remove
+        - name: "Run"
+          href: /windows/win32/appxpkg/appxdatasource/nf-appxdatasource-iappxstreamingdatasource4-run
   - name: "Tools and PowerShell cmdlets"
     href: appx-packaging-tools.md
     items: 
