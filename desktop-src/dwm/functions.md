@@ -53,6 +53,8 @@ This section contains information about the Desktop Window Manager (DWM) functio
 | <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmtransitionownedwindow"><strong>DwmTransitionOwnedWindow</strong></a><br /> | Coordinates the animations of tool windows with the DWM.<br /> | 
 | <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmunregisterthumbnail"><strong>DwmUnregisterThumbnail</strong></a><br /> | Removes a DWM thumbnail relationship created by the <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmregisterthumbnail"><strong>DwmRegisterThumbnail</strong></a> function.<br /> | 
 | <a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmupdatethumbnailproperties"><strong>DwmUpdateThumbnailProperties</strong></a><br /> | Updates the properties for a DWM thumbnail.<br /> | 
+| [GetWindowCompositionAttribute](getwindowcompositionattribute.md) | Retrieves the current value of a specified Desktop Window Manager (DWM) attribute applied to a window. | 
+| [SetWindowCompositionAttribute](setwindowcompositionattribute.md) | Sets the current value of a specified Desktop Window Manager (DWM) attribute applied to a window. | 
 
 
 
