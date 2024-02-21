@@ -35,7 +35,7 @@ An [**HWND**](/windows/desktop/winprog/windows-data-types) specifying the handle
 
 `pwcad`
 
-A pointer to a [WINDOWCOMPOSITIONATTRIBDATA](windowscompositionattribdata.md) structure describing which attribute to retrieve and a memory location to hold its value.
+A pointer to a [WINDOWCOMPOSITIONATTRIBDATA](windowcompositionattribdata.md) structure describing which attribute to retrieve and a memory location to hold its value.
 
 
 

@@ -27,7 +27,7 @@ This section contains information about the Desktop Window Manager (DWM) structu
 | [**DWM\_TIMING\_INFO**](/windows/desktop/api/Dwmapi/ns-dwmapi-dwm_timing_info)<br/>                   | Specifies DWM composition timing information. Used by the [**DwmGetCompositionTimingInfo**](/windows/desktop/api/Dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo) function.<br/>         |
 | [**MilMatrix3x2D**](/windows/desktop/api/Dwmapi/ns-dwmapi-milmatrix3x2d)<br/>                         | Specifies a 3x2 matrix that describes a transform. <br/>                                                                                            |
 | [**UNSIGNED\_RATIO**](/windows/desktop/api/Dwmapi/ns-dwmapi-unsigned_ratio)<br/>                      | Defines a data type used by the DWM APIs. It represents a generic ratio and is used for different purposes and units even within a single API.<br/> |
-| [**WINDOWCOMPOSITIONATTRIBDATA**](windowscompositionattribdata.md)<br/>                      | Describes a key/value pair that specifies a window composition attribute and its value. This structure is used with the [GetWindowCompositionAttribute](getwindowcompositionattribute.md) and [SetWindowCompositionAttribute](setwindowcompositionattribute.md) functions.<br/> |
+| [**WINDOWCOMPOSITIONATTRIBDATA**](windowcompositionattribdata.md)<br/>                      | Describes a key/value pair that specifies a window composition attribute and its value. This structure is used with the [GetWindowCompositionAttribute](getwindowcompositionattribute.md) and [SetWindowCompositionAttribute](setwindowcompositionattribute.md) functions.<br/> |
 
 
 

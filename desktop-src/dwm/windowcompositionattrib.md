@@ -16,7 +16,7 @@ api_name:
 
 # WINDOWCOMPOSITIONATTRIB enumeration
 
-SPecifies options used by the [WINDOWCOMPOSITIONATTRIBDATA](windowscompositionattribdata.md) structure.
+SPecifies options used by the [WINDOWCOMPOSITIONATTRIBDATA](windowcompositionattribdata.md) structure.
 
 ## Syntax
 

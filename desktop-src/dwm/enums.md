@@ -32,4 +32,4 @@ This section contains information about the constants and enumerations used in t
 | [**DWMTRANSITION_OWNEDWINDOW_TARGET**](/windows/win32/api/dwmapi/ne-dwmapi-dwmtransition_ownedwindow_target) | Identifies the target. |
 | [**DWMWINDOWATTRIBUTE**](/windows/win32/api/dwmapi/ne-dwmapi-dwmwindowattribute) | Flags used by the [**DwmGetWindowAttribute**](/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) and [**DwmSetWindowAttribute**](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) functions to specify window attributes for non-client rendering. |
 | [**GESTURE_TYPE**](/windows/win32/api/dwmapi/ne-dwmapi-gesture_type) | Identifies the gesture type specified in [**DwmRenderGesture**](/windows/win32/api/dwmapi/nf-dwmapi-dwmrendergesture). |
-| [**WINDOWCOMPOSITIONATTRIB**](windowscompositionattrib.md) | Specifies options used by the [WINDOWCOMPOSITIONATTRIBDATA](windowscompositionattribdata.md) structure. |
+| [**WINDOWCOMPOSITIONATTRIB**](windowcompositionattrib.md) | Specifies options used by the [WINDOWCOMPOSITIONATTRIBDATA](windowcompositionattribdata.md) structure. |

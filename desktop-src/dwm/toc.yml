@@ -49,8 +49,8 @@
         href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmwindowattribute
       - name: "GESTURE_TYPE"
         href: /windows/desktop/api/Dwmapi/ne-dwmapi-gesture_type
-      - name: "WINDOWSCOMPOSITIONATTRIB"
-        href: windowscompositionattrib.md
+      - name: "WINDOWCOMPOSITIONATTRIB"
+        href: windowcompositionattrib.md
     - name: "DWM Functions"
       href: functions.md
       items: 
