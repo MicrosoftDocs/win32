@@ -1,5 +1,5 @@
 ---
-description: Retrieves the current value of a specified Desktop Window Manager (DWM) attribute applied to a window.
+description: Describes a key/value pair that specifies a window composition attribute and its value.
 title: WINDOWCOMPOSITIONATTRIBDATA structure
 ms.topic: reference
 ms.date: 02/20/2024
