@@ -31,7 +31,8 @@ typedef enum _RemoteSessionActionType {
   RemoteSessionActionSnap          = 2,
   RemoteSessionActionStartScreen   = 3,
   RemoteSessionActionAppSwitch     = 4,
-  RemoteSessionActionActionCenter  = 4
+  RemoteSessionActionActionCenter  = 5,
+  RemoteSessionActionTaskManager   = 6
 } RemoteSessionActionType;
 ```
 
@@ -39,51 +40,36 @@ typedef enum _RemoteSessionActionType {
 
 ## Constants
 
-<dl> <dt>
 
-<span id="RemoteSessionActionCharms"></span><span id="remotesessionactioncharms"></span><span id="REMOTESESSIONACTIONCHARMS"></span>**RemoteSessionActionCharms**
-</dt> <dd>
+### RemoteSessionActionCharms
 
 Displays the charms in the remote session.
 
-</dd> <dt>
-
-<span id="RemoteSessionActionAppbar"></span><span id="remotesessionactionappbar"></span><span id="REMOTESESSIONACTIONAPPBAR"></span>**RemoteSessionActionAppbar**
-</dt> <dd>
+### RemoteSessionActionAppbar
 
 Displays the app bar in the remote session.
 
-</dd> <dt>
-
-<span id="RemoteSessionActionSnap"></span><span id="remotesessionactionsnap"></span><span id="REMOTESESSIONACTIONSNAP"></span>**RemoteSessionActionSnap**
-</dt> <dd>
+### RemoteSessionActionSnap
 
 Docks the application in the remote session. This option has been deprecated and should not be used.
 
-</dd> <dt>
-
-<span id="RemoteSessionActionStartScreen"></span><span id="remotesessionactionstartscreen"></span><span id="REMOTESESSIONACTIONSTARTSCREEN"></span>**RemoteSessionActionStartScreen**
-</dt> <dd>
+### RemoteSessionActionStartScreen
 
 Causes the start screen to be displayed in the remote session.
 
-</dd> <dt>
-
-<span id="RemoteSessionActionAppSwitch"></span><span id="remotesessionactionappswitch"></span><span id="REMOTESESSIONACTIONAPPSWITCH"></span>**RemoteSessionActionAppSwitch**
-</dt> <dd>
+### RemoteSessionActionAppSwitch
 
 Causes the application switch window to be displayed in the remote session. This is the same as the user pressing Alt+Tab.
 
-</dd> <dt>
-
-<span id="RemoteSessionActionActionCenter"></span><span id="remotesessionactionactioncenter"></span><span id="REMOTESESSIONACTIONACTIONCENTER"></span>**RemoteSessionActionActionCenter**
-</dt> <dd>
+### RemoteSessionActionActionCenter
 
 Causes the Action Center to be displayed in the remote session. This is the same as the user pressing Win+A.
 
 **Windows Server 2012 R2, Windows 8.1, Windows Server 2012 and Windows 8:** This value is not supported before Windows Server 2016 and Windows 10.
 
-</dd> </dl>
+### RemoteSessionActionTaskManager
+
+Causes the Task Manager to be displayed in the remote session. Introduced in Windows 11, version 24H2.
 
 ## Requirements
 
