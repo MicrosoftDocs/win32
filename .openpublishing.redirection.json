@@ -42879,6 +42879,11 @@
       "source_path": "desktop-src/enclaves/enclaves-available-in-vertdll.md",
       "redirect_url": "/windows/win32/trusted-execution/enclaves-available-in-vertdll",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/srvnodes/what-s-new-for-windows-server-2012-r2.md",
+      "redirect_url": "/windows-server/get-started/whats-new-in-windows-server-2022",
+      "redirect_document_id": false
 }
   ]
 }
