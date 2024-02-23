@@ -52,6 +52,9 @@
       "ms.author": "jken",
       "author": "GrantMeStrength",
       "feedback_system": "Standard",
+      "feedback_product_url": "https://www.microsoft.com/en-us/windowsinsider/feedbackhub/fb",
+      "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/224/windows-api-win32/",
+      "feedback_help_link_type": "get-help-at-qna",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "MSDN.desktop",
