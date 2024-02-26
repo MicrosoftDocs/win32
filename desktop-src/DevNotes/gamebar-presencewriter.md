@@ -66,7 +66,33 @@ namespace Windows.Gaming.GameBar.PresenceServer.Internal
     }
 }
 ```
-When a game is ran on the user's machine, UpdatePresence will be called.
+When a game is ran on the user's machine, UpdatePresence will be called with the following parameters:
+
+<dl> <dt>
+
+*hWnd* \[in\]
+</dt> <dd>
+
+A handle to the window of the running game.
+</dd> <dt>
+
+*event* \[in\]
+</dt> <dd>
+
+Event that correpsonds to whether the game got focus (**GotFoucs**), lost focus (**LostFocus**), or the game as was closed (**AppClose**).
+</dd> <dt>
+
+*appId* \[in\]
+</dt> <dd>
+
+Application Identifier of the game.  If *appIdType* is **Aumid** then *appId* is the Application User Model Id.  If *appId* is **TitleId** then *appId* is the Xbox Live Title Id.
+</dd> <dt>
+
+*appIdType* \[in\]
+</dt> <dd>
+
+Specifies if *appId* corresponds to the Application User Model Id (**Aumid**) of the game of the Xbox Live Title Id (**TitleId**) of the game.
+</dd></dl>
 
 ## Register COM server implementation for Presence Writer
 
@@ -79,11 +105,4 @@ In order for your implementation of Game Bar Presence Writer to run, it must ens
 | Data type | Range                    | Default value |
 |-----------|--------------------------|---------------|
 | REG\_SZ   | *Path to the executable* |               |
-
-
-
- 
-
-
-
 
