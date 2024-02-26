@@ -42,36 +42,38 @@ Character count limitations can also be different and can vary depending on the 
 
 The following fundamental rules enable applications to create and process valid names for files and directories, regardless of the file system:
 
--   Use a period to separate the base file name from the extension in the name of a directory or file.
--   Use a backslash (\\) to separate the *components* of a *path*. The backslash divides the file name from the path to it, and one directory name from another directory name in a path. You cannot use a backslash in the name for the actual file or directory because it is a reserved character that separates the names into components.
--   Use a backslash as required as part of [volume names](naming-a-volume.md), for example, the "C:\\" in "C:\\path\\file" or the "\\\\server\\share" in "\\\\server\\share\\path\\file" for Universal Naming Convention (UNC) names. For more information about UNC names, see the [Maximum Path Length Limitation](#maximum-path-length-limitation) section.
--   Do not assume case sensitivity. For example, consider the names OSCAR, Oscar, and oscar to be the same, even though some file systems (such as a POSIX-compliant file system) may consider them as different. Note that NTFS supports POSIX semantics for case sensitivity but this is not the default behavior. For more information, see [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea).
--   Volume designators (drive letters) are similarly case-insensitive. For example, "D:\\" and "d:\\" refer to the same volume.
--   Use any character in the current code page for a name, including Unicode characters and characters in the extended character set (128–255), except for the following:
+- Use a period to separate the base file name from the extension in the name of a directory or file.
+- Use a backslash (\\) to separate the *components* of a *path*. The backslash divides the file name from the path to it, and one directory name from another directory name in a path. You cannot use a backslash in the name for the actual file or directory because it is a reserved character that separates the names into components.
+- Use a backslash as required as part of [volume names](naming-a-volume.md), for example, the "C:\\" in "C:\\path\\file" or the "\\\\server\\share" in "\\\\server\\share\\path\\file" for Universal Naming Convention (UNC) names. For more information about UNC names, see the [Maximum Path Length Limitation](#maximum-path-length-limitation) section.
+- Do not assume case sensitivity. For example, consider the names OSCAR, Oscar, and oscar to be the same, even though some file systems (such as a POSIX-compliant file system) may consider them as different. Note that NTFS supports POSIX semantics for case sensitivity but this is not the default behavior. For more information, see [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea).
+- Volume designators (drive letters) are similarly case-insensitive. For example, "D:\\" and "d:\\" refer to the same volume.
+- Use any character in the current code page for a name, including Unicode characters and characters in the extended character set (128–255), except for the following:
 
-    -   The following reserved characters:
+  - The following reserved characters:
+    - < (less than)
+    - \> (greater than)
+    - : (colon)
+    - " (double quote)
+    - / (forward slash)
+    - \\ (backslash)
+    - \| (vertical bar or pipe)
+    - ? (question mark)
+    - \* (asterisk)
 
-        -   < (less than)
-        -   \> (greater than)
-        -   : (colon)
-        -   " (double quote)
-        -   / (forward slash)
-        -   \\ (backslash)
-        -   \| (vertical bar or pipe)
-        -   ? (question mark)
-        -   \* (asterisk)
+  - Integer value zero, sometimes referred to as the ASCII *NUL* character.
+  - Characters whose integer representations are in the range from 1 through 31, except for alternate data streams where these characters are allowed. For more information about file streams, see [File Streams](file-streams.md).
+  - Any other character that the target file system does not allow.
 
-    -   Integer value zero, sometimes referred to as the ASCII *NUL* character.
-    -   Characters whose integer representations are in the range from 1 through 31, except for alternate data streams where these characters are allowed. For more information about file streams, see [File Streams](file-streams.md).
-    -   Any other character that the target file system does not allow.
+- Use a period as a directory *component* in a path to represent the current directory, for example ".\\temp.txt". For more information, see [Paths](#fully-qualified-vs-relative-paths).
+- Use two consecutive periods (..) as a directory *component* in a path to represent the parent of the current directory, for example "..\\temp.txt". For more information, see [Paths](#fully-qualified-vs-relative-paths).
+- Do not use the following reserved names for the name of a file:
 
--   Use a period as a directory *component* in a path to represent the current directory, for example ".\\temp.txt". For more information, see [Paths](#fully-qualified-vs-relative-paths).
--   Use two consecutive periods (..) as a directory *component* in a path to represent the parent of the current directory, for example "..\\temp.txt". For more information, see [Paths](#fully-qualified-vs-relative-paths).
--   Do not use the following reserved names for the name of a file:
+  CON, PRN, AUX, NUL, COM0, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, COM¹, COM², COM³, LPT0, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, LPT9, LPT¹, LPT², and LPT³. Also avoid these names followed immediately by an extension; for example, NUL.txt and NUL.tar.gz are both equivalent to NUL. For more information, see [Namespaces](#win32-file-namespaces).
 
-    CON, PRN, AUX, NUL, COM, COM0, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT, LPT0, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9. Also avoid these names followed immediately by an extension; for example, NUL.txt and NUL.tar.gz are both equivalent to NUL. For more information, see [Namespaces](#win32-file-namespaces).
+  > [!NOTE]
+  > Windows recognizes the 8-bit [ISO/IEC 8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) superscript digits ¹, ², and ³ as digits and treats them as valid parts of COM\# and LPT\# device names, making them reserved in every directory. For example, `echo test > COM¹` fails to create a file.
 
--   Do not end a file or directory name with a space or a period. Although the underlying file system may support such names, the Windows shell and user interface does not. However, it is acceptable to specify a period as the first character of a name. For example, ".temp".
+- Do not end a file or directory name with a space or a period. Although the underlying file system may support such names, the Windows shell and user interface does not. However, it is acceptable to specify a period as the first character of a name. For example, ".temp".
 
 ### Short vs. Long Names
 
