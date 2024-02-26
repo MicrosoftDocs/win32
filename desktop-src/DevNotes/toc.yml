@@ -573,7 +573,7 @@
     - name: "RtlIsNameLegalDOS8Dot3"
       href: /windows/win32/api/Winternl/nf-winternl-rtlisnamelegaldos8dot3
   - name: "Game Bar Presence Writer"
-      href: gamebar-presencewriter.md
+    href: gamebar-presencewriter.md
   - name: "IME Share"
     href: ime-share.md
     items: 
