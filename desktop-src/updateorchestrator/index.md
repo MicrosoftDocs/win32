@@ -16,12 +16,12 @@ Windows 20H1 includes a first-generation solution for automatic software update 
 - Dynamically registers software updaters
  
 - Invokes registered software updaters during optimal times, such as during user absence, to update 'user mode apps'.
-    - Includes the ability to 'keep awake' on AC power to further reduce user-away impact.
+- Includes the ability to 'keep awake' on AC power to further reduce user-away impact.
 
 ## Developer Audience
 
 > [!IMPORTANT]
-> The UpdateOrchestrator API is currently a [limited access feature](/uwp/api/windows.applicationmodel.limitedaccessfeatures). This API will become publicly available in a future release.
+> The **UpdateOrchestrator** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d15d3aa2-0512-7cb8-1df9-86221f5cbfde).
 
 Use UpdateOrchestrator API if you already have background software updaters for Win32 'user mode' applications such as Adobe's updater for Acrobat Reader or Valve's Steam. This interface is not needed for UWP/Store applications as the Microsoft Store already takes advantage of this functionality for software updates.
 
