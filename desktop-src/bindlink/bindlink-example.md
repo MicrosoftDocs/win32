@@ -3,16 +3,10 @@ description: These examples for the bind link API demonstrates how it can be lev
 ms.assetid: c869d763-3771-4cbd-911c-f670a0bee4ab
 title: Bind link API examples
 ms.topic: article
-ms.date: 05/11/2023
+ms.date: 02/27/2024
 ---
 
 # Bind link API examples
-
-> [!NOTE]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these features appear is Windows Insider Preview, version 10.0.25314.0.
 
 These examples for the bind link API demonstrates how it can be leveraged to create and remove bind links.
 

@@ -3,16 +3,10 @@ description: Bindlink library.
 ms.assetid: d38b3a2b-0526-4ce7-8f18-7b5d845e4d01
 title: Bindlink API (bindlink.h)
 ms.topic: article
-ms.date: 05/11/2023
+ms.date: 02/27/2024
 ---
 
 # Bindlink API
-
-> [!NOTE]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK). The earliest version in which these features appear is Windows Insider Preview, version 10.0.25314.0.
 
 ## Purpose
 
