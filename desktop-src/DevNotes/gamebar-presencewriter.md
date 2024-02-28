@@ -13,11 +13,11 @@ ms.date: 02/22/2024
 Game Bar Presence Writer is a component that is notified when a game's "presence" state (i.e. is a game running in the foreground) changes.  This functionality is available in Windows 10 and later operating systems.  By default, the existing Game Bar Presence Writer will set a user's Xbox Live presence state for a running game if the Xbox App is installed, the user is signed into their Xbox account, and the user has enabled Xbox Live presence to be set when they run a game on their PC.  It is possible for Windows Application developers to override this default behavior with their own implemention.
 
 > [!Important]
-> By providing a custom impelemtation of the Game Bar Presence Writer, the default behavior of a user's Xbox Live presence state being set when they run a game will no longer be available.
+> By providing a custom implementation of the Game Bar Presence Writer, the default behavior of a user's Xbox Live presence state being set when they run a game will no longer be available.
 
 ## Implement an out of proc COM server that implements Game Bar Presence Writer functionality
 
-In order to provide a Game Bar Presence Writer implementation, you must implemented an out of proc COM server that implemented the following COM interfaces:
+In order to provide a Game Bar Presence Writer implementation, you must implement an out of proc COM server that implemented the following COM interfaces:
 
 ``` syntax
 import "oaidl.idl";
@@ -79,7 +79,7 @@ A handle to the window of the running game.
 *event* \[in\]
 </dt> <dd>
 
-Event that correpsonds to whether the game got focus (**GotFoucs**), lost focus (**LostFocus**), or the game as was closed (**AppClose**).
+Event that correpsonds to whether the game got focus (**GotFocus**), lost focus (**LostFocus**), or the game as was closed (**AppClose**).
 </dd> <dt>
 
 *appId* \[in\]
