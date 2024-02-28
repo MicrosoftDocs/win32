@@ -1,6 +1,6 @@
 ---
 title: DirectInput and XUSB Devices
-description: The driver for the Xbox Common Controller class (XUSB) on Windows implements the kernel-mode interface for the XINPUT DLL.
+description: The driver for XUSB on Windows implements the kernel-mode interface for the XINPUT DLL.
 ms.assetid: 8bf47b07-a1b6-7721-2136-3853e72c71ad
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DirectInput and XUSB Devices
 
-The driver for the Xbox Common Controller class (XUSB) on Windows implements the kernel-mode interface for the XINPUT DLL. To provide a good experience for legacy titles that use the [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) API with the common controller device, the driver also exports a Human Interface Device (HID) class interface, which is picked up by DirectInput. We chose the mapping of XUSB to HID based on typical behavior in a set of gaming applications for the original XINPUT version, and we updated the mapping for newer subtypes. This topic describes the mapping.
+The driver for XUSB on Windows implements the kernel-mode interface for the XINPUT DLL. To provide a good experience for legacy titles that use the [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) API with the common controller device, the driver also exports a Human Interface Device (HID) class interface, which is picked up by DirectInput. We chose the mapping of XUSB to HID based on typical behavior in a set of gaming applications for the original XINPUT version, and we updated the mapping for newer subtypes. This topic describes the mapping.
 
 ## Human Interface Device (HID)
 
