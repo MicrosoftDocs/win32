@@ -3,7 +3,7 @@ description: This specification describes the structure of executable (image) fi
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: article
-ms.date: 03/31/2021
+ms.date: 02/29/2024
 ---
 
 # PE Format
@@ -1823,9 +1823,12 @@ To support this programming construct, the PE and COFF .tls section specifies th
 
 > [!Note]
 >
-> Statically declared TLS data objects can be used only in statically loaded image files. This fact makes it unreliable to use static TLS data in a DLL unless you know that the DLL, or anything statically linked with it, will never be loaded dynamically with the LoadLibrary API function.
+> Before Windows Vista, statically declared TLS data objects can be used only in statically loaded image files. This fact makes it unreliable to use static TLS data in a DLL unless you know that the DLL, or anything statically linked with it, will never be loaded dynamically with the LoadLibrary API function. However, starting with Windows Vista, improvements were made to the Windows loader to better support the dynamic loading of DLLs with static TLS. This change means that DLLs with statically declared TLS data objects can now be used more reliably, even if they are loaded dynamically using LoadLibrary. The loader is capable of allocating TLS slots for such DLLs at load time, mitigating the limitations present in earlier versions of Windows.
 
  
+> [!Note]
+>
+> References to 32-bit offsets and index multipliers of 4 apply to systems with 32-bit architectures. In a system based on 64-bit architectures, adjust them as necessary.
 
 Executable code accesses a static TLS data object through the following steps:
 
