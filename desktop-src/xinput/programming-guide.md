@@ -6,14 +6,6 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
----
-title: Programming Guide (XInput Game Controller APIs)
-description: This guide contains information on how to use the XInput API to interact with a controller when it is connected to a Windows PC.
-ms.assetid: 5eca9b7f-b3a8-6ee7-fbfb-69cfcc73a8e8
-ms.topic: article
-ms.date: 05/31/2018
----
-
 # Programming Guide (XInput Game Controller APIs)
 
 This guide contains information on how to use the XInput API to interact with a controller when it is connected to a Windows PC.
