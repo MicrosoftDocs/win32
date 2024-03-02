@@ -88,6 +88,7 @@ The debug layer provides extensive additional parameter and consistency validati
 
 > [!Note]
 > For Windows 10, to create a device that supports the debug layer, enable the "Graphics Tools" optional feature. On Windows 10 22H2, go to the Settings panel, under System. On older versions of Windows 10, go to the Settings panel, under Apps > Apps & features. Go to Optional Features > Add a feature, and then look for "Graphics Tools".
+
 The header required to support the debugging layer, D3D12SDKLayers.h, is included by default from d3d12.h.
 
 When the debug layer lists memory leaks, it outputs a list of object interface pointers along with their friendly names. The default friendly name is "&lt;unnamed&gt;". You can set the friendly name by using the [**ID3D12Object::SetName**](/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setname) method. Typically, you should compile these calls out of your production version.
