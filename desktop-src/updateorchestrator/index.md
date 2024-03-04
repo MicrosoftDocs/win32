@@ -68,6 +68,7 @@ Under the Subkey for the expedite app registration, OEMs need to create two valu
   Data: A string representing a valid JSON blob with options for this specific updater  
 
 Overview of contents of the JSON blob: 
+
 | State  | Type | Key name | Description | 
 | ------ | ---- | -------- | ----------- |
 | Required | String | PFN | The Package Family Name of the app (ex: Microsoft.WindowsStore_8wekyb3d8bbwe) |
