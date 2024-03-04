@@ -52,7 +52,7 @@ You can read white papers that describe the Windows Installer:
 
 -   [New Features and Design Changes in Windows Installer 2.0](/previous-versions/windows/it-pro/windows-xp/bb457094(v=technet.10))
 -   [Using Software Restriction Policies to Protect Against Unauthorized Software](/previous-versions/windows/it-pro/windows-xp/bb457006(v=technet.10))
--   [Patch Sequencing in Windows Installer version 3.0](https://www.microsoft.com/downloads/details.aspx?FamilyID=ad7ac91e-2493-4549-ae6f-bf5e007c12a3)
+-   [Patch Sequencing in Windows Installer version 3.0](https://archive.org/download/windows-installer-3.0/WindowsInstaller-KB884016-v2-x86.exe)
 -   [Delta Compression Application Programming Interface](https://msdn.microsoft.com/library/ms811406.aspx)
 
 ## Online Windows Installer SDK

@@ -2523,7 +2523,7 @@ The following list describes a check list for testing the encoded file. These va
 -   For the video stream, check the frame width and height, frame rate. These values should match the values that you specified in the ASF profile that you created in the step described in the section "Create the ASF Profile Object".
 -   For the audio stream, the bit rate must be close to the value you specified on the target media type.
 -   Open the file in Windows Media Player and check the quality of the encoding.
--   Open the ASF file in ASFViewer to see the structure of an ASF file. This tool can be downloaded from this [Microsoft website](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea).
+-   Open the ASF file in ASFViewer to see the structure of an ASF file. This tool can be downloaded from this [Microsoft website](https://download.microsoft.com/download/7/9/0/790fecaa-f64a-4a5e-a430-0bccdab3f1b4/asf_specification.doc).
 
 ## Common Error Codes and Debugging Tips
 
