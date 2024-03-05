@@ -46,8 +46,7 @@ The size of the object pointed to by the *pvData* member, in bytes.
 
 | Requirement | Value |
 |-|-|
-| Minimum supported client | Windows 7 \[desktop apps only\] |
+| Minimum supported client | Windows 10 version 1709 (build 16299) |
 | Minimum supported server | None supported |
-| End of client support | Windows 7 |
 | Header | N/A |
 
