@@ -44,6 +44,5 @@ Prevents a window from being captured by the Desktop Duplication API. The pvData
 |-|-|
 | Minimum supported client | Windows 10 version 1709 (build 16299)] |
 | Minimum supported server | None supported |
-| End of client support | Windows 7 |
 | Header | N/A |
 
