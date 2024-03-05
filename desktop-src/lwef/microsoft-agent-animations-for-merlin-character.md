@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-The [Microsoft Agent Merlin Character](https://www.microsoft.com/downloads/details.aspx?FamilyID=fee1dadd-2f23-41d0-8a81-2affd74c0aa5) is a copyrighted work of Microsoft Corporation.
+The [Microsoft Agent Merlin Character](https://download.cnet.com/agent-2-0-character-merlin-character-file/3000-2206_4-10728306.html) is a copyrighted work of Microsoft Corporation.
 
 Merlin supports the animations listed in the table below. Refer to [Programming the Microsoft Agent Server Interface](/windows/desktop/lwef/programming-the-microsoft-agent-server-interface) and [Programming the Microsoft Agent Control](programming-the-microsoft-agent-control.md) for information on how to call the character's animations.
 
