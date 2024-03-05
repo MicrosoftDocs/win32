@@ -76,7 +76,7 @@ Overview of contents of the JSON blob:
 | Optional | Boolean | AllowedInOobe | Whether this expedited app should run during user OOBE |
 | Optional | Number | MaxRetryCount | The number of times this updater is allowed to retry after failure.  Default is 1.  Maximum is 5. |
 | Optional | Number | TimeoutDurationInMinutes | The duration in minutes to wait for this updater to complete work.  Default is 15.  Maximum is 30 | 
-| Optional | Array (String) | ExcludedRegions | A JSON array of strings for regions where this app should not be expedited. Each entry in the array corresponds to the 2 letter ISO 3166-1 country code of the desired region. For example, US would prevent this flow on devices where the region is United States. | 
+| Optional | Array (String) | ExcludedRegions | A JSON array of strings for regions where this app should not be expedited. Each entry in the array corresponds to the 2 letter ISO 3166-1 country code of the desired region. For example, `["US"]` would prevent this flow on devices where the region is United States. | 
 
 Sample JSON payload:
 ````
