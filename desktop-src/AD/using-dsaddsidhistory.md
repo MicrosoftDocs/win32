@@ -30,7 +30,7 @@ This operation facilitates certain Windows 2000 deployment scenarios. In particu
 
 ## Authorization Requirements
 
-[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) requires administrator privileges in the source and destination domains. Specifically, the caller of this API must be a member of the Domain Administrators group in the destination domain. A hard-coded check for this membership is performed. Also, the caller or the account provided in the *SrcDomainCreds* parameter, if not **NULL**, must be a member of either the Administrators or Domain Administrators group in the source domain.
+[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) requires administrator privileges in the source and destination domains. Specifically, the caller of this API must be a member of the Domain Administrators group in the destination domain. A hard-coded check for this membership is performed. Also, the account provided in the *SrcDomainCreds* parameter must be a member of either the Administrators or Domain Administrators group in the source domain. If **NULL** is passed in *SrcDomainCreds*, the caller of the API must be member of either the Administrators or Domain Administrators group in the source domain.
 
 ## Domain and Trust Requirements
 
