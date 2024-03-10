@@ -56,7 +56,7 @@ A pointer to a null-terminated string that specifies the environment (for exampl
 *pPathName* \[in\]
 </dt> <dd>
 
-A pointer to a null-terminated string that specifies the name of the file that contains the print processor. This file must be in the system print-processor directory.
+A pointer to a null-terminated string that specifies the name of the file that contains the print processor.
 
 </dd> <dt>
 
@@ -81,8 +81,6 @@ If the function fails, the return value is zero.
  
 
 The caller must have the [SeLoadDriverPrivilege](/windows/desktop/SecAuthZ/authorization-constants).
-
-Before calling the **AddPrintProcessor** function, an application should verify that the file containing the print processor is stored in the system print-processor directory. An application can retrieve the name of the system print-processor directory by calling the [**GetPrintProcessorDirectory**](getprintprocessordirectory.md) function.
 
 An application can determine the name of existing print processors by calling the [**EnumPrintProcessors**](enumprintprocessors.md) function.
 
