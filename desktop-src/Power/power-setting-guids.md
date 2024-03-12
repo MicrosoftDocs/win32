@@ -75,9 +75,9 @@ The **Data** member is a **DWORD** with a value from the **USER_ACTIVITY_PRESENC
 
 **PowerUserPresent** (0) - The user is present in any local or remote session on the system.
 
-**PowerUserNotPresent** (1)
+**PowerUserNotPresent** (1) - The user is not present in any local or remote session on the system.
 
-**PowerUserInactive** (2) - The user is not present in any local or remote session on the system.
+**PowerUserInactive** (2) - The user is not active in any local or remote session on the system.
 
 ---
 
