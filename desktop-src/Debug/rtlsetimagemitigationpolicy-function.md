@@ -11,12 +11,12 @@ api_location:
 api_type:
 - DllExport
 ms.topic: reference
-ms.date: 01/20/2023
+ms.date: 03/12/2024
 ---
 
 # RtlSetImageMitigationPolicy
 
-Sets the specified mitigation policy for specified image.
+Sets the specified mitigation policy for the specified image.
 
 
 ```C++
@@ -33,7 +33,7 @@ NTSYSAPI NTSTATUS NTAPI RtlSetImageMitigationPolicy(
 
 ### ImagePathName
 
-The name of the image whose mitigation policy is set. If *ImagePathName* is NULL, the system mitigation policy is being set.
+The name of the image on which mitigation policy is set. If *ImagePathName* is NULL, the system mitigation policy is being set.
 
 ### MitigationPolicy
 
@@ -41,7 +41,7 @@ The mitigation policy that is to be set. This parameter supports the following e
 
 | Field name | Value | Description |
 |------------|-------|-------------|
-| ImageUserShadowStackPolicy | 15 | The policy regarding user-mode Hardware-enforced Stack Protection for the process. The [SetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy) function sets the policy flags for user-mode Hardware-enforced Stack Protection when a [PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY](/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy) structure is provided. |
+| ImageUserShadowStackPolicy | 15 | The policy regarding user-mode, hardware-enforced, stack protection for the process. The [SetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy) function sets the policy flags for user-mode, hardware-enforced, stack protection when a [PROCESS_MITIGATION_USER_SHADOW_STACK_POLICY](/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy) structure is provided. |
 
 ### Flags
 
@@ -70,5 +70,10 @@ Returns an  NTSTATUS success or error code.
 This API is not defined in a Windows SDK header file and must be manually declared. The API is exported from ntdll.dll.
 
 ## Requirements
+
+| Requirement | Value |
+|-------------------------------------|--------------------------------------------------------------------------------------|
+| Minimum supported client | Windows 10, version 1709 |
+| DLL                      | Ntdll.dll |
 
 ## See also
