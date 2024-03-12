@@ -144,7 +144,11 @@ case WM_TOUCH:
           
           if (ti.dwFlags & TOUCHEVENTF_UP){                      
             points[index][0] = -1;
-            points[index][1] = -1;                
+            points[index][1] = -1;
+
+            // Remove the old contact index to make it available for the new incremented dwID.
+            // On some touch devices, the dwID value is continuously incremented.
+            RemoveContactIndex(index);                
           }else{
             points[index][0] = ptInput.x;
             points[index][1] = ptInput.y;                
@@ -172,18 +176,30 @@ To address the issue of the dwID member being dependent on hardware, the [**WM\_
 ```C++
 // This function is used to return an index given an ID
 int GetContactIndex(int dwID){
-  for (int i=0; i < MAXPOINTS; i++){
-    if (idLookup[i] == -1){
-      idLookup[i] = dwID;
-      return i;
-    }else{
-      if (idLookup[i] == dwID){
-        return i;
+  for (int i = 0; i < MAXPOINTS; i++) {
+      if (idLookup[i] == dwID) {
+          return i;
       }
-    }
+  }
+
+  for (int i = 0; i < MAXPOINTS; i++) {
+      if (idLookup[i] == -1) {
+          idLookup[i] = dwID;
+          return i;
+      }
   }
   // Out of contacts
   return -1;
+}
+
+// Mark the specified index as initialized for new use
+BOOL RemoveContactIndex(int index) {
+    if (index >= 0 && index < MAXPOINTS) {
+        idLookup[index] = -1;
+        return true;
+    }
+
+    return false;
 }
 ```
 
