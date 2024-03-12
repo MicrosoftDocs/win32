@@ -39,7 +39,7 @@ Windows provides a set of standard cursors that are available for any applicatio
 | **IDC\_WAIT**<br/>MAKEINTRESOURCE(32514) | :::image type="icon" source="./images/IDC_WAIT.png"::: Busy |
 | **IDC\_CROSS**<br/>MAKEINTRESOURCE(32515) | :::image type="icon" source="./images/IDC_CROSS.png"::: Precision select |
 | **IDC\_UPARROW**<br/>MAKEINTRESOURCE(32516) | :::image type="icon" source="./images/IDC_UPARROW.png"::: Alternate select |
-| MAKEINTRESOURCE(32631) | :::image type="icon" source="./images/IDC_PEN.png"::: Handwriting |
+| **IDC\_PEN**<br/>MAKEINTRESOURCE(32631) | :::image type="icon" source="./images/IDC_PEN.png"::: Handwriting |
 | **IDC\_SIZENWSE**<br/>MAKEINTRESOURCE(32642) | :::image type="icon" source="./images/IDC_SIZENWSE.png"::: Diagonal resize 1 |
 | **IDC\_SIZENESW**<br/>MAKEINTRESOURCE(32643) | :::image type="icon" source="./images/IDC_SIZENESW.png"::: Diagonal resize 2 |
 | **IDC\_SIZEWE**<br/>MAKEINTRESOURCE(32644) | :::image type="icon" source="./images/IDC_SIZEWE.png"::: Horizontal resize |
