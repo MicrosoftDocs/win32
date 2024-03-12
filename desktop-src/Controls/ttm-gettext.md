@@ -24,19 +24,13 @@ Retrieves the information a tooltip control maintains about a tool.
 
 ## Parameters
 
-<dl> <dt>
-
 *wParam* 
-</dt> <dd>
+
 The number of **TCHARs**, including the terminating **NULL**, to copy to the buffer pointed to by **lpszText**.
-</dd> <dt>
 
 *lParam* 
-</dt> <dd>
 
 Pointer to a [**TOOLINFO**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) structure. Set the **cbSize** member of this structure to `sizeof(TOOLINFO)` before sending this message. Set the **hwnd** and **uId** members to identify the tool for which to retrieve information. Allocate a buffer of size specified by *wParam*. Set the **lpszText** member to point to the buffer to receive the tool text.
-
-</dd> </dl>
 
 ## Return value
 
