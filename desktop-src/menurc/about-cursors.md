@@ -28,7 +28,7 @@ Windows provides a set of **standard cursors** that can be used by applications.
 | **IDC\_PIN**<br/>MAKEINTRESOURCE(32671) | :::image type="icon" source="./images/IDC_PIN.png"::: Location select |
 | **IDC\_PERSON**<br/>MAKEINTRESOURCE(32672) | :::image type="icon" source="./images/IDC_PERSON.png"::: Person select |
 
-A number of additional cursors are also available that do not have identifiers defined in WinUser.h:
+A number of additional cursors are also available that do not have identifiers defined in WinUser.h (or are considered obsolete):
 
 | Value | Meaning |
 |---|---|
