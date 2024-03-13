@@ -11,7 +11,7 @@ ms.date: 07/14/2023
 | Feature | Applies to |
 |--------|--------|
 | EPA | all supported Windows OS |
-| EPA Audit Mode | Windows Server 23H2 |
+| EPA Audit Mode | Windows Server 2019<br/>Windows Server 2022<br/>Windows Server 23H2 |
 
 ## What is the problem?
 

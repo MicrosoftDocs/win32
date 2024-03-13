@@ -33,7 +33,7 @@ The Direct3D 11 API builds on the infrastructural improvements made in Direct3D 
 -   State management based on immutable objects rather than individual state toggles.
 -   Updating to comply with strict linkage requirements of vertex buffer input layouts and shader signatures.
 -   Associating shader resource views with all texture resources.
--   Mapping all image content to a DXGI\_FORMAT, including the removal of all 16-bit color formats (5/5/5/1, 5/6/5, 4/4/4/4), removal of all 24-bit color formats (8/8/8), and strict RGB color ordering.
+-   Mapping all image content to a DXGI\_FORMAT, including the removal of all 24-bit color formats (8/8/8), and strict RGB color ordering for most scenarios.
 -   Breaking up global constant state usage into several small, more efficiently updated constant buffers.
 
 For more information about moving from Direct3D 9 to Direct3D 10, see [Direct3D 9 to Direct3D 10 Considerations](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-d3d9-to-d3d10-considerations).

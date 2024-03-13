@@ -118,7 +118,7 @@ The MPEG-4 file sink creates the MPEG-4 variant of the MP3 sample description bo
 
 -   Furigana metadata support added in Windows 8 MPEG-4 source.
 
-    MPEG-4 source reads Furigana metadata from ’soal’, ‘soar’, ‘soaa’, ‘sonm’, and ‘soco’. IPropertyStore reads Furignana metadata through the set of corresponding PKEYs.
+    MPEG-4 source reads Furigana metadata from ’soal’, ‘soar’, ‘soaa’, ‘sonm’, and ‘soco’. IPropertyStore reads Furigana metadata through the set of corresponding PKEYs.
 
     The following table shows the mapping between the shell canonical name, the property key, and the box/tag ID in MPEG-4 file format.
 

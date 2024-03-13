@@ -25,7 +25,7 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/api/mf
 
 ## Remarks
 
-This attributet can be used by an **IMFInputTrustAuthority** decrypter. An implementation of a Content Decryption Module (CDM) may include an implementation of 
+This attributes can be used by an **IMFInputTrustAuthority** decrypter. An implementation of a Content Decryption Module (CDM) may include an implementation of 
 **IMFInputTrustAuthority**. The **IMFInputTrustAuthority** object is accessed through [IMFContentDecryptionModule::CreateTrustedInput](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createtrustedinput).
 
 

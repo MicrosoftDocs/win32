@@ -572,6 +572,8 @@
       href: ntreadfile.md
     - name: "RtlIsNameLegalDOS8Dot3"
       href: /windows/win32/api/Winternl/nf-winternl-rtlisnamelegaldos8dot3
+  - name: "Game Bar Presence Writer"
+    href: gamebar-presencewriter.md
   - name: "IME Share"
     href: ime-share.md
     items: 
@@ -847,6 +849,8 @@
       href: /windows/win32/api/Winternl/nf-winternl-rtlfreeunicodestring
     - name: "RtlGetDeviceFamilyInfoEnum"
       href: rtlgetdevicefamilyinfoenum.md
+    - name: "RtlGetReturnAddressHijackTarget"
+      href: rtlgetreturnaddresshijacktarget.md
     - name: "RtlGetVersion"
       href: rtlgetversion.md
     - name: "RtlInitString"
@@ -881,6 +885,29 @@
       href: vbagetexprsrv.md
     - name: "WINNLSEnableIME"
       href: /windows/win32/api/Winnls32/nf-winnls32-winnlsenableime
+  - name: "Miscellaneous Virtualization APIs"
+    items:
+    - name: GetVmWorkerProcess
+      href: getvmworkerprocess.md
+    - name: IVmFiovGuestMemoryFastNotification
+      href: ivmfiovguestmemoryfastnotification.md
+      items:
+      - name: RegisterDoorbell
+        href: ivmfiovguestmemoryfastnotification-registerdoorbell.md
+      - name: UnregisterDoorbell
+        href: ivmfiovguestmemoryfastnotification-unregisterdoorbell.md
+    - name: IVmFiovGuestMmioMappings
+      href: ivmfiovguestmmiomappings.md
+      items:
+      - name: CreateSectionBackedMmioRange
+        href: ivmfiovguestmmiomappings-createsectionbackedmmiorange.md
+      - name: DestroySectionBackedMmioRange
+        href: ivmfiovguestmmiomappings-destroysectionbackedmmiorange.md
+    - name: IVmVirtualDeviceAccess
+      href: ivmvirtualdeviceaccess.md
+      items:
+      - name: GetDevice
+        href: ivmvirtualdeviceaccess-getdevice.md
   - name: "MSHTML"
     href: mshtml2.md
     items: 
@@ -1446,6 +1473,8 @@
     - name: "DLL Load Notification"
       href: dll-load-notification.md
       items: 
+      - name: "LdrDisableThreadCalloutsForDll"
+        href: ldrdisablethreadcalloutsfordll.md
       - name: "LdrDllNotification"
         href: ldrdllnotification.md
       - name: "LdrFastFailInLoaderCallout"
@@ -1549,6 +1578,8 @@
         href: /windows/win32/api/Winternl/nf-winternl-ntsetinformationkey
       - name: "RtlGetFunctionTableListHead"
         href: rtlgetfunctiontablelisthead.md
+      - name: "RtlGetSystemGlobalData"
+        href: rtlgetsystemglobaldata.md
       - name: "RtlGetUnloadEventTrace"
         href: rtlgetunloadeventtrace.md
       - name: "RtlGetUnloadEventTraceEx"

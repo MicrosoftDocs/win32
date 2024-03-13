@@ -4,7 +4,6 @@ description: Describes how block compression works and how to use it in WIC and 
 ms.assetid: 52AF86A5-16E8-4AC8-BB67-CC2F1A3635B5
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # Block compression

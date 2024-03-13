@@ -66,7 +66,7 @@ The following examples show how to embed the Player control using an OBJECT elem
 
 
 
-The preceeding examples work in Firefox but not in Internet Explorer. To embed the Player control in a webpage that can be displayed by Internet Explorer, you must create an OBJECT element that has a **classid** attribute set to the class ID of the Windows Media Player control.
+The preceding examples work in Firefox but not in Internet Explorer. To embed the Player control in a webpage that can be displayed by Internet Explorer, you must create an OBJECT element that has a **classid** attribute set to the class ID of the Windows Media Player control.
 
 The following example shows how to embed the Windows Media Player control in a webpage that can be displayed correctly by both Internet Explorer and Firefox. Script on the page detects the browser type and generates the appropriate OBJECT tag.
 

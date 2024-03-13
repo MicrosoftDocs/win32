@@ -47,11 +47,14 @@
         "Desktop"
       ],
       "titleSuffix": "Win32 apps",
-      "ms.prod": "desktop",
-      "ms.technology": "desktop-environment",
+      "ms.service": "windows-api-desktop-tech",
+      "ms.subservice": "desktop-environment",
       "ms.author": "jken",
       "author": "GrantMeStrength",
       "feedback_system": "Standard",
+      "feedback_product_url": "https://www.microsoft.com/en-us/windowsinsider/feedbackhub/fb",
+      "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/224/windows-api-win32/",
+      "feedback_help_link_type": "get-help-at-qna",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "MSDN.desktop",
@@ -232,6 +235,7 @@
           "TermServ/*.md": "quradic",
           "ToolHelp/*.md": "kbridge",
           "tracelogging/*.md": "kbridge",
+          "trusted-execution/*.md": "aashcraft",
           "TSF/*.md": "kbridge",
           "UIAnimation/*.md": "kbridge",
           "updateorchestrator/*.md": "jken",
@@ -450,6 +454,7 @@
           "TermServ/*.md": "QuinnRadich",
           "ToolHelp/*.md": "Karl-Bridge-Microsoft",
           "tracelogging/*.md": "Karl-Bridge-Microsoft",
+          "trusted-execution/*.md": "alvinashcraft",
           "TSF/*.md": "Karl-Bridge-Microsoft",
           "UIAnimation/*.md": "Karl-Bridge-Microsoft",
           "updateorchestrator/*.md": "GrantMeStrength",
@@ -503,7 +508,7 @@
           "xaudio2/*.md": "drewbatgit",
           "xinput/*.md": "Karl-Bridge-Microsoft"	    
         },
-        "ms.technology":
+        "ms.subservice":
         {
           "audio-and-video.md": "audio-video",
           "devices.md": "devices",
@@ -665,6 +670,7 @@
           "TermServ/*.md": "system-services",
           "ToolHelp/*.md": "diagnostics",
           "tracelogging/*.md": "diagnostics",
+          "trusted-execution/*.md": "system-services",
           "TSF/*.md": "desktop-app-ui",
           "UIAnimation/*.md": "desktop-app-ui",
           "updateorchestrator/*.md": "installation-servicing",

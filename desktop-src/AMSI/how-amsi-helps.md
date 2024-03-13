@@ -1,6 +1,6 @@
 ---
 title: How AMSI helps you defend against malware
-description: As an application developer, you can actively participate in malware defense. Specifically, you can help protect your customers from dynamic script-based malware, and from non-traditional avenues of cyberattack.
+description: As an application developer, you can actively participate in malware defense. Specifically, you can help protect your customers from dynamic script-based malware, and from non-traditional avenues of cyber attack.
 ms.topic: article
 ms.date: 02/27/2019
 ---
@@ -9,7 +9,7 @@ ms.date: 02/27/2019
 
 For an introduction to the Windows Antimalware Scan Interface (AMSI), see [Antimalware Scan Interface (AMSI)](antimalware-scan-interface-portal.md).
 
-As an application developer, you can actively participate in malware defense. Specifically, you can help protect your customers from dynamic script-based malware, and from non-traditional avenues of cyberattack.
+As an application developer, you can actively participate in malware defense. Specifically, you can help protect your customers from dynamic script-based malware, and from non-traditional avenues of cyber attack.
 
 By way of an example, let's say that your application is scriptable: it accepts arbitrary script, and executes it via a scripting engine. At the point when a script is ready to be supplied to the scripting engine, your application can call the Windows AMSI APIs to request a scan of the content. That way, you can safely determine whether or not the script is malicious before you decide to go ahead and execute it.
 
@@ -19,7 +19,7 @@ Here's an illustration of the AMSI architecture, where your own application is r
 
 ![the AMSI architecture](images/AMSI7Archi.jpg)
 
-The Windows AMSI interface is open. Which means that any application can call it; and any registered Antimalware engine can process the content submitted to it.
+The Windows AMSI interface is open. Which means that any application can call it; and any registered anti-malware engine can process the content submitted to it.
 
 We needn't limit the discussion to scripting engines, either. Perhaps your application is a communication app, and it scans instant messages for viruses before it shows them to your customers. Or maybe your software is a game that validates plugins before installing them. There are plenty of opportunities and scenarios for using AMSI.
 
@@ -54,11 +54,11 @@ The illustrated workflow below describes the end-to-end flow of another example,
 
 ## What does this mean for you?
 
-For Windows users, any malicious software that uses obfuscation and evasion techniques on Windows 10's built-in scripting hosts is automatically inspected at a much deeper level than ever before, providing additional levels of protection.
+For Windows users, any malicious software that uses obfuscation and evasion techniques on Windows' built-in scripting hosts is automatically inspected at a much deeper level than ever before, providing additional levels of protection.
 
 For you as an application developer, consider having your application call the Windows AMSI interface if you want to benefit from (and protect your customers with) extra scanning and analysis of potentially malicious content.
 
-As an antivirus software vendor, you can consider implementing support for the AMSI interface. When you do, your engine will have much deeper insight into the data that applications (including Windows 10's built-in scripting hosts) consider to be potentially malicious.
+As an antivirus software vendor, you can consider implementing support for the AMSI interface. When you do, your engine will have much deeper insight into the data that applications (including Windows' built-in scripting hosts) consider to be potentially malicious.
 
 ## More background info about fileless threats
 
@@ -80,7 +80,7 @@ In that scenario, malware authors create a string representing the PowerShell sc
 
 Finally, the malware author passes this concatenated string to the `Invoke-Expression` cmdlet&mdash;PowerShell's mechanism to evaluate scripts that are composed or created at runtime.
 
-In response, antimalware software starts to do basic language emulation. For example, if we see two strings being concatenated, then we emulate the concatenation of those two strings, and then run our signatures on the result. Unfortunately, this is a fairly fragile approach, because languages tend to have a lot of ways to represent and concatenate strings.
+In response, anti-malware software starts to do basic language emulation. For example, if we see two strings being concatenated, then we emulate the concatenation of those two strings, and then run our signatures on the result. Unfortunately, this is a fairly fragile approach, because languages tend to have a lot of ways to represent and concatenate strings.
 
 So, after being caught by this signature, malware authors will move to something more complicated&mdash;for example, encoding script content in Base64, as in this next example.
 
@@ -104,10 +104,10 @@ In that example, we're downloading a web page, and invoking some content from it
 
 What makes things worse in both of these examples is that the antivirus engine inspects files being opened by the user. If the malicious content lives only in memory, then the attack can potentially go undetected.
 
-This section showed the limitations of detection using traditional signatures. But, while a malicious script might go through several passes of de-obfuscation, it ultimately needs to supply the scripting engine with plain, unobfuscated code. And at that point&mdash;as we described in the first section above&mdash;Windows 10's built-in scripting hosts call the AMSI APIs to request a scan of this unprotected content. And your application can do the same thing.
+This section showed the limitations of detection using traditional signatures. But, while a malicious script might go through several passes of de-obfuscation, it ultimately needs to supply the scripting engine with plain, un-obfuscated code. And at that point&mdash;as we described in the first section above&mdash;Windows' built-in scripting hosts call the AMSI APIs to request a scan of this unprotected content. And your application can do the same thing.
 
 ## Related resources
 
-* [Fileless threats](/windows/security/threat-protection/intelligence/fileless-threats)
-* [Office VBA + AMSI: Parting the veil on malicious macros](https://cloudblogs.microsoft.com/microsoftsecure/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/)
-* [Out of sight but not invisible: Defeating fileless malware with behavior monitoring, AMSI, and next-gen AV](https://cloudblogs.microsoft.com/microsoftsecure/2018/09/27/out-of-sight-but-not-invisible-defeating-fileless-malware-with-behavior-monitoring-amsi-and-next-gen-av/)
+- [Fileless threats](/microsoft-365/security/defender-endpoint/malware/fileless-threats)
+- [Office VBA + AMSI: Parting the veil on malicious macros](https://cloudblogs.microsoft.com/microsoftsecure/2018/09/12/office-vba-amsi-parting-the-veil-on-malicious-macros/)
+- [Out of sight but not invisible: Defeating fileless malware with behavior monitoring, AMSI, and next-gen AV](https://cloudblogs.microsoft.com/microsoftsecure/2018/09/27/out-of-sight-but-not-invisible-defeating-fileless-malware-with-behavior-monitoring-amsi-and-next-gen-av/)

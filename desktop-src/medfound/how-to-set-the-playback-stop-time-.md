@@ -82,7 +82,7 @@ To set the stop time using the [**IMFTopologyNodeAttributeEditor**](/windows/des
 
     | Member               | Value                                                                                                               |
     |----------------------|---------------------------------------------------------------------------------------------------------------------|
-    | **NodeId**           | The node ID. To get the node ID, call call [**IMFTopologyNode::GetTopoNodeID**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-gettoponodeid). |
+    | **NodeId**           | The node ID. To get the node ID, call [**IMFTopologyNode::GetTopoNodeID**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-gettoponodeid). |
     | **guidAttributeKey** | **MF\_TOPONODE\_MEDIASTOP**                                                                                         |
     | **attrType**         | **MF\_ATTRIBUTE\_UINT64**                                                                                           |
     | **u64**              | The stop time, in 100-nanosecond units.                                                                             |

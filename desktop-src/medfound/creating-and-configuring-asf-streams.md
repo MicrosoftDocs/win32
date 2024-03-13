@@ -32,7 +32,7 @@ An ASF profile object must contain configuration settings for at least one ASF s
 
 To add a stream to an ASF profile, perform the following steps:
 
-1.  Create an empty stream stream configuration object.
+1.  Create an empty stream configuration object.
 2.  Configure the stream according to the application's requirements.
 3.  Add the stream to the profile.
 
@@ -55,7 +55,7 @@ Each stream configuration object that represents a stream must have associated l
 
 These values are available to the application through the [**MF\_ASFSTREAMCONFIG\_LEAKYBUCKET1**](mf-asfstreamconfig-leakybucket1-attribute.md) attribute and the [**MF\_ASFSTREAMCONFIG\_LEAKYBUCKET2**](mf-asfstreamconfig-leakybucket2-attribute.md) attribute. For file encoding, the actual values depend on the type of encoding and are decided by the encoder. If you already have a configured encoder and the output type is set on the encoder, the application must query the encoder for the leaky bucket parameters and set the values in these attributes.
 
-If you are using the pipeline layer components and configuring the streams for the ASF media sink, most likely, you do not have a configured encoder. In this case, you must query the encoder post-media type negotiations and set the updated value in the [**MFPKEY\_ASFSTREAMSINK\_CORRECTED\_LEAKYBUCKET**](mfpkey-asfstreamsink-corrected-leakybucket-property.md) property of the ASF media sink's property store. The encoding property store is retrieved through the of the ContentInfo object associated with the profile. The updated values are reflected in the stream's leaky bucket attribute values automatically. For general information about leaky buckets and how to get the leaky bucket value from the encoder, see the [The Leaky Bucket Buffer Model](the-leaky-bucket-buffer-model.md).
+If you are using the pipeline layer components and configuring the streams for the ASF media sink, most likely, you do not have a configured encoder. In this case, you must query the encoder post-media type negotiations and set the updated value in the [**MFPKEY\_ASFSTREAMSINK\_CORRECTED\_LEAKYBUCKET**](mfpkey-asfstreamsink-corrected-leakybucket-property.md) property of the ASF media sink's property store. The encoding property store is retrieved through the of the ContentInfo object associated with the profile. The updated values are reflected in the stream's leaky bucket attribute values automatically. For general information about leaky buckets and how to get the leaky bucket value from the encoder, see the [Leaky Bucket Buffer Model](the-leaky-bucket-buffer-model.md).
 
 ## Payload Extensions
 

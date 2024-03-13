@@ -1099,7 +1099,7 @@ Too many attributes have been used.
 
 
 
-The connection can not be found.
+The connection cannot be found.
 
 
 </dt> </dl> </dd> <dt>

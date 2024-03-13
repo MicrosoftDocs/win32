@@ -4,7 +4,7 @@ title: InterlockedPushListSList function
 description: Inserts a singly-linked list at the front of another singly linked list.
 old-location: 
 ms.assetid: na
-ms.date: 04/10/2019
+ms.date: 02/05/2024
 ms.keywords: InterlockedPushListSListEx
 ms.topic: reference
 req.header:
@@ -31,6 +31,7 @@ topic_type:
 api_type: 
 api_location:
 - API-MS-Win-Core-interlocked-l1-1-0.dll
+- vertdll.dll
 api_name:
 - InterlockedPushListSList
 targetos: Windows
@@ -43,6 +44,7 @@ req.redist:
 ## Description
 
 Inserts a singly-linked list at the front of another singly linked list.
+
 Access to the lists is synchronized on a multiprocessor system.
 
 ```cpp
@@ -83,21 +85,24 @@ If the list was previously empty, the return value is **NULL**.
 All list items must be aligned on a **MEMORY_ALLOCATION_ALIGNMENT** boundary; otherwise, this function will behave unpredictably.
 See **_aligned_malloc**.
 
-**Windows 8 and Windows Server 2012:**  This function has been superceded by [InterlockedPushListSListEx](/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex).
+**Windows 8 and Windows Server 2012:**  This function has been superceded by [InterlockedPushListSListEx](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex).
+
 When compiling with **NTDDI_VERSION** set to **NTDDI_WIN8** or greater, calls to **InterlockedPushListSList** will go to **InterlockedPushListSListEx** instead.
 
 ## See also
 
-[Interlocked Singly Linked Lists](/windows/desktop/Sync/interlocked-singly-linked-lists)
+[Interlocked Singly Linked Lists](interlocked-singly-linked-lists.md)
 
-[InterlockedPopEntrySList](/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist)
+[InterlockedPopEntrySList](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist)
 
-[InterlockedPushEntrySList](/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist)
+[InterlockedPushEntrySList](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist)
 
-[InterlockedPushListSListEx](/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex)
+[InterlockedPushListSListEx](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex)
 
-[InterlockedFlushSList](/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist)
+[InterlockedFlushSList](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedflushslist)
 
 [SLIST_ENTRY](/windows/win32/api/winnt/ns-winnt-slist_entry)
 
-[Using Singly Linked Lists](/windows/desktop/Sync/using-singly-linked-lists)
+[Using Singly Linked Lists](using-singly-linked-lists.md)
+
+[Vertdll APIs available in VBS enclaves](../trusted-execution/enclaves-available-in-vertdll.md)

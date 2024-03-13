@@ -206,7 +206,7 @@ For condition strings of this type the following table shows the possible values
 
  
 
-When you use a fragment element to sort a playlist, you must sort on a metadata attribute that applies to the type of media items you are sorting. For example, if you are sorting music items you can not sort on Actor. The following table shows which metadata attributes you can use to sort which media types.
+When you use a fragment element to sort a playlist, you must sort on a metadata attribute that applies to the type of media items you are sorting. For example, if you are sorting music items you cannot sort on Actor. The following table shows which metadata attributes you can use to sort which media types.
 
 
 

@@ -16,7 +16,7 @@ api_location:
 
 Although Windows Remote Management and WS-Management protocol are explicitly designed for remote communication, establishing a session on the local computer is the simplest case. Some scripts may require access data on the local computer as well as remote computers.
 
-**WinRM version 2.0:  **
+**WinRM version 2.0:**
 
 All operations are considered remote and the WinRM service must be started before any operation is performed. If a remote destination is not specified, then the localhost is used by default, and all operations will be sent to the local WinRM service. For more information about starting the WinRM service, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 

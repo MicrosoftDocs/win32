@@ -6,7 +6,6 @@ keywords:
 - Direct2D,enumerations
 ms.topic: article
 ms.date: 01/31/2019
-ms.custom: "seodec18"
 ---
 
 # Direct2D enumerations

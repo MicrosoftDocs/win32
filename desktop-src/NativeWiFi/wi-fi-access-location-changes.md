@@ -2,7 +2,7 @@
 title: Changes to API behavior for Wi-Fi access and location
 description: In order to better manage which apps have access to location, Windows is adding new privacy controls.
 ms.topic: article
-ms.date: 10/12/2023
+ms.date: 01/29/2024
 ---
 
 # Changes to API behavior for Wi-Fi access and location
@@ -65,6 +65,8 @@ Your app will be affected if it calls any of these APIs:
   * [WlanScan](/windows/win32/api/wlanapi/nf-wlanapi-wlanscan)
 * If the user hasn't given consent to precise location access, then the [Windows.Devices.WiFi.WiFiAdapter.RequestAccessAsync](/uwp/api/windows.devices.wifi.wifiadapter.requestaccessasync) API will return **DeniedBySystem**. And other APIs in the [Windows.Devices.WiFi namespace](/uwp/api/windows.devices.wifi) Windows.Devices.WiFi namespace will throw an "Access is denied" exception.
 * Calls to these APIs will appear in the in-use system tray and location recent activity.
+
+[WlanRegisterNotification](/windows/win32/api/wlanapi/nf-wlanapi-wlanregisternotification) is also affected, depending on the arguments that you pass to it. If the **WLAN_NOTIFICATION_SOURCE_MSM** flag is set in *dwNotifSource*, then the **wiFiControl** device capability is required (see [App capability declarations](/windows/uwp/packaging/app-capability-declarations)). If that capability is not granted, then the function returns **ERROR_ACCESS_DENIED**. Requesting the **wiFiControl** device capability will require consent from the user regarding access to location.
 
 ### Action needed for the Wi-Fi APIs
 

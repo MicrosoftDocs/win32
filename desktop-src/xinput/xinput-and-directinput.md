@@ -4,7 +4,6 @@ description: Compares XInput and DirectInput APIs and features.
 ms.assetid: 0f29a47b-24ed-c0fa-e9e9-8a061619845c
 ms.topic: article
 ms.date: 11/24/2021
-ms.custom: seo-windows-dev
 ---
 
 # Comparison of XInput and DirectInput features
@@ -60,7 +59,7 @@ To do this, insert this code into your DirectInput enumeration callback:
 //-----------------------------------------------------------------------------
 // Enum each PNP device using WMI and check each device ID to see if it contains 
 // "IG_" (ex. "VID_0000&PID_0000&IG_00"). If it does, then it's an XInput device
-// Unfortunately this information can not be found by just using DirectInput 
+// Unfortunately this information cannot be found by just using DirectInput 
 //-----------------------------------------------------------------------------
 BOOL IsXInputDevice( const GUID* pGuidProductFromDirectInput )
 {
@@ -129,7 +128,7 @@ BOOL IsXInputDevice( const GUID* pGuidProductFromDirectInput )
             if (SUCCEEDED(hr) && var.vt == VT_BSTR && var.bstrVal != nullptr)
             {
                 // Check if the device ID contains "IG_".  If it does, then it's an XInput device
-                // This information can not be found from DirectInput 
+                // This information cannot be found from DirectInput 
                 if (wcsstr(var.bstrVal, L"IG_"))
                 {
                     // If it does, then get the VID/PID from var.bstrVal

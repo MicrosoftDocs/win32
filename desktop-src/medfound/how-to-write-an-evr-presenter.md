@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # How to Write an EVR Presenter
 
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
+
+
 This article describes how to write a custom presenter for the enhanced video renderer (EVR). A custom presenter can be used with both DirectShow and Media Foundation; the interfaces and object model are the same for both technologies, although the exact sequence of operations might vary.
 
 The example code in this topic is adapted from the [EVRPresenter Sample](evrpresenter-sample.md), which is provided in the Windows SDK.
@@ -1189,7 +1192,7 @@ To get the duration of each sample, call [**IMFSample::GetSampleDuration**](/win
 
 When you schedule samples, keep in mind the following:
 
--   If the playback rate is faster or slower than normal speed, the clock runs at a faster or slower rate. That means the time stamp on a sample always gives the correct target time relative to the presentation clock. However, if you translate presentation times into some other clock time (for example, the high-resolution performace counter), then you must scale the times based on the clock speed. If the clock speed changes, the EVR calls the presenter's [**IMFClockStateSink::OnClockSetRate**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate) method.
+-   If the playback rate is faster or slower than normal speed, the clock runs at a faster or slower rate. That means the time stamp on a sample always gives the correct target time relative to the presentation clock. However, if you translate presentation times into some other clock time (for example, the high-resolution performance counter), then you must scale the times based on the clock speed. If the clock speed changes, the EVR calls the presenter's [**IMFClockStateSink::OnClockSetRate**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate) method.
 -   The playback rate can be negative for reverse playback. When the playback rate is negative, the presentation clock runs backward. In other words, time *N* + 1 occurs before time *N*.
 
 The following example calculates how early or late a sample is, relative to the presentation clock:

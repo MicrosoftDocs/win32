@@ -376,7 +376,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**true** if the media is locked in the device and can not be ejected; otherwise, **false**. For non-removable devices, this value should be **true**.
+**true** if the media is locked in the device and cannot be ejected; otherwise, **false**. For non-removable devices, this value should be **true**.
 
 </dd> <dt>
 

@@ -4,7 +4,6 @@ ms.assetid: d266a663-b101-4936-9574-f6ce223419ae
 title: Wait chain traversal
 ms.topic: article
 ms.date: 02/06/2023
-ms.custom: contperf-fy21q1
 ---
 
 # Wait chain traversal

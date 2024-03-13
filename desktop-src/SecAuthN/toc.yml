@@ -219,6 +219,8 @@
         - name: "Secure Channel"
           href: secure-channel.md
           items: 
+          - name: "TLS 1.0 and 1.1 deprecation in Windows"
+            href: tls-10-11-deprecation-in-windows.md
           - name: "Protocols in TLS/SSL (Schannel SSP)"
             href: protocols-in-tls-ssl--schannel-ssp-.md
             items: 

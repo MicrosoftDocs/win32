@@ -37,7 +37,7 @@ WM_VKEYTOITEM
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the virtual-key code of the key the user pressed. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the current position of the caret.
+The [**LOWORD**](../winmsg/loword.md) specifies the virtual-key code of the key the user pressed. The [**HIWORD**](../winmsg/hiword.md) specifies the current position of the caret.
 
 </dd> <dt>
 
@@ -89,10 +89,10 @@ If a dialog box procedure handles this message, it should cast the desired retur
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](../winmsg/loword.md)
 </dt> <dt>
 
 [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown)

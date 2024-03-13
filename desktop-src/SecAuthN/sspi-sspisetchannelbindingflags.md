@@ -52,7 +52,7 @@ Returns **SEC_E_OK** if the function succeeds; otherwise, returns a nonzero erro
 | Requirement | Value |
 |--------|--------|
 | Minimum supported client | Not supported |
-| Minimum supported server | Windows Server 23H2 |
+| Minimum supported server | Windows Server 2019<br/>Windows Server 2022<br/>Windows Server 23H2 |
 | Header | Sspi.h |
 
 ## See also

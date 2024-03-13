@@ -12,7 +12,7 @@ This article contains guidance for generating histograms while decoding video us
 
 ## Checking the video device for histogram capabilities
 
-Before attempting to generated histograms, you must check to see if the current video device supports the video decode histogram feature.
+Before attempting to generate histograms, you must check to see if the current video device supports the video decode histogram feature.
 
 ### Direct3D 12
 

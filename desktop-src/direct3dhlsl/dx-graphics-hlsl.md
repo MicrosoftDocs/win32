@@ -6,10 +6,9 @@ ms.topic: article
 ms.date: 01/11/2021
 topic_type: 
 - kbArticle
-api_name: 
-api_type: 
-api_location: 
-ms.custom: contperf-fy21q3
+api_name:
+api_type:
+api_location:
 ---
 
 # High-level shader language (HLSL)

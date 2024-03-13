@@ -42799,6 +42799,91 @@
       "source_path": "desktop-src/msi/msizap-exe.md",
       "redirect_url": "/windows/win32/msi/windows-installer-development-tools",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution-enumerations.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-enumerations",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution-functions.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-functions",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution-reference.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-reference",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/Memory/trusted-execution-structures.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-structures",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/trusted-execution.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/trusted-execution-enumerations.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-enumerations",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/trusted-execution-functions.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-functions",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/trusted-execution-reference.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-reference",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/trusted-execution-structures.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-structures",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/available-in-enclaves.md",
+      "redirect_url": "/windows/win32/trusted-execution/available-in-enclaves",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/vbs-enclaves.md",
+      "redirect_url": "/windows/win32/trusted-execution/vbs-enclaves",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/enclaves-available-in-bcrypt.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-available-in-bcrypt",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/enclaves-available-in-libvcruntime.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-available-in-libvcruntime",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/enclaves-available-in-ucrt.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-available-in-ucrt",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/enclaves/enclaves-available-in-vertdll.md",
+      "redirect_url": "/windows/win32/trusted-execution/enclaves-available-in-vertdll",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/srvnodes/what-s-new-for-windows-server-2012-r2.md",
+      "redirect_url": "/windows-server/get-started/whats-new-in-windows-server-2022",
+      "redirect_document_id": false
 }
   ]
 }

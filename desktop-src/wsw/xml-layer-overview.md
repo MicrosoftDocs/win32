@@ -30,7 +30,7 @@ The XML API supports processing documents stored as:
 -   A stream
 -   An [XML Buffer](xml-buffer.md)
 
-An [XML Buffer](xml-buffer.md) is a structured in-memory representation of an XML document. This is a more efficient representation than a document encoded as bytes. An XML document stored in an An XML Buffer can be navigated, read, or written.
+An [XML Buffer](xml-buffer.md) is a structured in-memory representation of an XML document. This is a more efficient representation than a document encoded as bytes. An XML document stored in an XML Buffer can be navigated, read, or written.
 
 ## I/O
 

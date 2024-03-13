@@ -45,7 +45,7 @@ For scripting, **Adj** uses the [IVgAdjustments](msdn-online-vml-ivgadjustments-
 
 **Example**
 
-A simple square is created with adjustments. First the **Adj** string is created to define eight adjustment values. Then each adjustment value is referenced by one of the eight formulas, with each adjustment value preceeded by a number sign (\#) symbol. Finally a path is defined by a string that references the formulas, with each formula preceeded by the "at" sign (@) symbol.
+A simple square is created with adjustments. First the **Adj** string is created to define eight adjustment values. Then each adjustment value is referenced by one of the eight formulas, with each adjustment value preceded by a number sign (\#) symbol. Finally a path is defined by a string that references the formulas, with each formula preceeded by the "at" sign (@) symbol.
 
 
 ```HTML

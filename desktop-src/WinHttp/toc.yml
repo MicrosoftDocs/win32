@@ -89,9 +89,11 @@
     - name: "Using WinHTTP Tools"
       href: using-winhttp-tools.md
       items: 
-      - name: "WinHttpCertCfg.exe, a Certificate Configuration Tool"
+      - name: "WinHttpCertCfg.exe, a certificate configuration tool"
         href: winhttpcertcfg-exe--a-certificate-configuration-tool.md
-      - name: "Netsh.exe and ProxyCfg.exe Proxy Configuration Tools"
+      - name: "Netsh.exe commands"
+        href: netsh-exe-commands.md
+      - name: "ProxyCfg.exe proxy configuration tool"
         href: proxycfg-exe--a-proxy-configuration-tool.md
       - name: "Collect WinHTTP traces"
         href: collect-traces.md

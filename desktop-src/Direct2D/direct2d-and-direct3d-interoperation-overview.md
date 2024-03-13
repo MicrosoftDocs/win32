@@ -13,7 +13,6 @@ keywords:
 - DXGI
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # Direct2D and Direct3D interoperability overview

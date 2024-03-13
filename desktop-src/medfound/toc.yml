@@ -3379,6 +3379,8 @@
           href: mf-source-reader-mediasource-characteristics.md
         - name: "MF_SOURCE_READER_MEDIASOURCE_CONFIG"
           href: mf-source-reader-mediasource-config.md
+        - name: "MF_SOURCE_READER_PASSTHROUGH_MODE"
+          href: mf-source-reader-passthrough-mode.md
         - name: "MF_SOURCE_STREAM_SUPPORTS_HW_CONNECTION"
           href: mf-source-stream-supports-hw-connection.md
         - name: "MF_STF_VERSION_DATE"
@@ -3627,6 +3629,12 @@
           href: mfstreamextension-cameraextrinsics.md
         - name: "MFStreamExtension_PinholeCameraIntrinsics"
           href: mfstreamextension-pinholecameraintrinsics.md
+        - name: "MFT_AUDIO_DECODER_AUDIO_ENDPOINT_FORMFACTOR"
+          href: mft-audio-decoder-audio-endpoint-formfactor-attribute.md
+        - name: "MFT_AUDIO_DECODER_AUDIO_ENDPOINT_ID"
+          href: mft-audio-decoder-audio-endpoint-id-attribute.md
+        - name: "MFT_AUDIO_DECODER_AUDIO_ENDPOINT_DIGITAL_STEREO_ONLY"
+          href: mft-audio-decoder-audio-endpoint-is-digital-stereo-only-attribute.md
         - name: "MFT_CODEC_MERIT_Attribute"
           href: mft-codec-merit-attribute.md
         - name: "MFT_CONNECTED_STREAM_ATTRIBUTE"
@@ -3683,6 +3691,8 @@
         href: asf-attributes.md
       - name: "Audio Renderer Attributes"
         href: audio-renderer-attributes.md
+      - name: "Audio Decoder Attributes"
+        href: audio-decoder-attributes.md
       - name: "Byte Stream Attributes"
         href: byte-stream-attributes.md
       - name: "Capture Device Attributes"

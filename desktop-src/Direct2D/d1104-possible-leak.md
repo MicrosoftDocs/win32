@@ -12,7 +12,6 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # D1104: Possible Leak
@@ -52,7 +51,3 @@ The factory was released but the interface created from it is still alive.
  
 
  
-
-
-
-

@@ -17,11 +17,20 @@ Specifying **NULL** as the second parameter of [**SymInitialize**](/windows/desk
 
 ```C++
 DWORD  error;
+HANDLE hCurrentProcess;
 HANDLE hProcess;
 
 SymSetOptions(SYMOPT_UNDNAME | SYMOPT_DEFERRED_LOADS);
 
-hProcess = GetCurrentProcess();
+hCurrentProcess = GetCurrentProcess();
+
+if (!DuplicateHandle(hCurrentProcess, hCurrentProcess, hCurrentProcess, &hProcess, 0, FALSE, DUPLICATE_SAME_ACCESS))
+{
+    // DuplicateHandle failed
+    error = GetLastError();
+    printf("DuplicateHandle returned error : %d\n", error);
+    return FALSE;
+}
 
 if (!SymInitialize(hProcess, NULL, TRUE))
 {

@@ -34,7 +34,7 @@ The **IUpdateEndpointAuthToken** interface has these methods.
 | Method                                                                                | Description                                                                                                                 |
 |:--------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
 | [**ServiceID**](iupdateendpointauthtoken-serviceid.md)                               | Gets the identifier of the service to be authenticated.<br/>                                                          |
-| [**SigningKey**](iupdateendpointauthtoken-signingkey.md)                             | Gets the key used to sign outgoing messages between the client computer and the sercvice.<br/>                        |
+| [**SigningKey**](iupdateendpointauthtoken-signingkey.md)                             | Gets the key used to sign outgoing messages between the client computer and the service.<br/>                        |
 | [**TokenData**](iupdateendpointauthtoken-tokendata.md)                               | Gets the XML data (sent over the wire) that represents the token. <br/>                                               |
 | [**TokenReferenceAttached**](iupdateendpointauthtoken-tokenreferenceattached.md)     | Gets the XML format of an attached reference to the token.<br/>                                                       |
 | [**TokenReferenceUnattached**](iupdateendpointauthtoken-tokenreferenceunattached.md) | Gets the XML format of an unattached reference to the token.<br/>                                                     |

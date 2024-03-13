@@ -4,7 +4,6 @@ ms.assetid: 672fc2e4-c35c-4d5d-98fa-85f2ad56d9b0
 title: Capturing an Image
 ms.topic: article
 ms.date: 12/03/2020
-ms.custom: contperf-fy21q2
 ---
 
 # Capturing an Image

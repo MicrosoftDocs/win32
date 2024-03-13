@@ -3,7 +3,6 @@ title: Getting Started With XInput in Windows applications
 description: Overview of how XInput enables Windows applications to process controller interactions (including controller rumble effects and voice input and output).
 ms.topic: article
 ms.date: 10/23/2023
-ms.custom: seo-windows-dev
 ---
 
 # Getting Started With XInput in Windows applications
@@ -89,7 +88,7 @@ For performance reasons, don't call [**XInputGetState**](/windows/desktop/api/XI
 In order for users to have a consistent gameplay experience, your game must implement dead zone correctly. The dead zone is "movement" values reported by the controller even when the analog thumbsticks are untouched and centered. There is also a dead zone for the 2 analog triggers.
 
 > [!Note]  
-> Games that use XInput that do not filter dead zone at all will experience poor gameplay. Please note that some controllers are more sensitive than others, thus the dead zone may vary from unit to unit. It is recommended that you test your games with several Xbox controllers on different systems.
+> Games that use XInput that do not filter dead zone at all will experience poor gameplay. Please note that some controllers are more sensitive than others, thus the dead zone may vary from unit to unit. It is recommended that you test your games with several different controllers on different systems.
 
 Applications should use "dead zones" on analog inputs (triggers, sticks) to indicate when a movement has been made sufficiently on the stick or trigger to be considered valid.
 
