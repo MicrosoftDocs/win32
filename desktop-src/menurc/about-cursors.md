@@ -1,36 +1,13 @@
 ---
 title: About Cursors
 description: This topic discusses the standard cursors.
-ms.assetid: 0ca8e51c-1159-47e9-ba3f-5ced0667cadb
-keywords:
-- resources,cursors
-- cursors,about
-- cursors,standard
-- standard cursors
-- SetSystemCursor function
-- cursors,custom
-- custom cursors
-- cursors,hot spots
-- cursors,creating
-- creating cursors
-- cursors,location
-- cursors,appearance
-- destroying cursors
-- duplicating cursors
-- class cursor
-- confining cursors
-- cursors,destroying
-- cursors,duplicating
-- cursors,class
-- cursors,confining
-- IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_ICON, IDC_NO, IDC_SIZE, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/13/2024
 ---
 
 # About Cursors
 
-Windows provides a set of standard cursors that are available for any application to use at any time. The SDK header files contain identifiers for the **standard cursors** — the identifiers begin with the **IDC\_** prefix:
+Windows provides a set of **standard cursors** that can be used by applications. The following cursor identifiers are defined in WinUser.h:
 
 | Value | Meaning |
 |---|---|
@@ -51,7 +28,7 @@ Windows provides a set of standard cursors that are available for any applicatio
 | **IDC\_PIN**<br/>MAKEINTRESOURCE(32671) | :::image type="icon" source="./images/IDC_PIN.png"::: Location select |
 | **IDC\_PERSON**<br/>MAKEINTRESOURCE(32672) | :::image type="icon" source="./images/IDC_PERSON.png"::: Person select |
 
-Additional cursors that are available for any application:
+A number of additional cursors are also available that do not have identifiers defined in WinUser.h:
 
 | Value | Meaning |
 |---|---|
@@ -69,7 +46,7 @@ Additional cursors that are available for any application:
 | MAKEINTRESOURCE(32662) | :::image type="icon" source="./images/OCR_RDRSOUTHEAST.png"::: A scrolling cursor with arrows pointing south and east. |
 | MAKEINTRESOURCE(32663) | :::image type="icon" source="./images/OCR_AUTORUN.png"::: An arrow cd cursor. |
 
-See [Guidelines](/windows/win32/uxguide/inter-mouse) for information on recommended usage of standard cursors.
+See [Guidelines](/windows/win32/uxguide/inter-mouse) for information on using standard cursors.
 
 Each standard cursor has a corresponding default image associated with it. The user or an application can replace the default image associated with any standard cursor at any time. An application replaces a default image by using the [**SetSystemCursor**](/windows/desktop/api/Winuser/nf-winuser-setsystemcursor) function.
 
