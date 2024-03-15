@@ -34,7 +34,7 @@ For examples of how to access the digital signatures of an XPS document, see [Co
 [XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> <dt>
 
-[Standard ECMA-376, Office Open XML File Formats](https://www.ecma-international.org/publications/standards/Ecma-376.htm)
+[Standard ECMA-376, Office Open XML File Formats](https://ecma-international.org/publications-and-standards/standards/ecma-376/)
 </dt> </dl>
 
  
