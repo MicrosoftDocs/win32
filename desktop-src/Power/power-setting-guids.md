@@ -56,6 +56,9 @@ The **Data** member is a **DWORD** with a value from the **MONITOR_DISPLAY_STATE
 
 **PowerMonitorDim** (2) - The display is dimmed.
 
+> [!Note]
+> See also **GUID\_SESSION\_DISPLAY\_STATUS**.
+
 ---
 
 <span id="GUID_GLOBAL_USER_PRESENCE"></span>
@@ -68,11 +71,13 @@ This notification is sent only services and other programs running in session 0.
 
 **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
-The **Data** member is a **DWORD** with one of the following values from the **USER_ACTIVITY_PRESENCE** enumeration:
+The **Data** member is a **DWORD** with a value from the **USER_ACTIVITY_PRESENCE** enumeration:
 
 **PowerUserPresent** (0) - The user is present in any local or remote session on the system.
 
-**PowerUserInactive** (2) - The user is not present in any local or remote session on the system.
+**PowerUserNotPresent** (1) - The user is not present in any local or remote session on the system.
+
+**PowerUserInactive** (2) - The user is not active in any local or remote session on the system.
 
 ---
 
@@ -93,6 +98,8 @@ The **Data** member has no information and can be ignored.
 **GUID\_LIDSWITCH\_STATE\_CHANGE** (BA3E0F4D-B817-4094-A2D1-D56379E6A0F3)
 
 The state of the lid has changed (open vs. closed). The callback won't be called until a lid device is found and its current state is known.
+
+The **Data** member is a **DWORD** that indicates the current lid state:
 
 0x0 - The lid is closed.
 
@@ -192,7 +199,7 @@ The **Data** member is a **DWORD** with a value from the **MONITOR_DISPLAY_STATE
 **PowerMonitorDim** (2) - The display is dimmed.
 
 > [!Note]
-> All applications that run in an interactive user-mode session should use this setting. When kernel-mode applications register for monitoring the status, they should use **GUID\_CONSOLE\_DISPLAY\_STATUS** instead.
+> All applications that run in an interactive user-mode session should use this setting. When kernel-mode applications register for monitoring the status, they should use **GUID\_CONSOLE\_DISPLAY\_STATE** instead.
 
 ---
 
@@ -206,9 +213,11 @@ The user status associated with the application's session has changed.
 
 This notification is sent only to user-mode applications running in an interactive session. Services and other programs running in session 0 should register for **GUID\_GLOBAL\_USER\_PRESENCE**.
 
-The **Data** member is a **DWORD** with one of the following values from the **USER_ACTIVITY_PRESENCE** enumeration:
+The **Data** member is a **DWORD** with a value from the **USER_ACTIVITY_PRESENCE** enumeration:
 
 **PowerUserPresent** (0) - The user is providing input to the session.
+
+**PowerUserNotPresent** (1)
 
 **PowerUserInactive** (2) - The user activity timeout has elapsed with no interaction from the user.
 

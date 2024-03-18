@@ -3,18 +3,20 @@ description: Priority inversion occurs when two or more threads with different p
 ms.assetid: 1cb2f3c9-4641-40d8-892c-768abaf6affb
 title: Priority Inversion
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/12/2024
 ---
 
 # Priority Inversion
 
-Priority inversion occurs when two or more threads with different priorities are in contention to be scheduled. Consider a simple case with three threads: thread 1, thread 2, and thread 3. Thread 1 is high priority and becomes ready to be scheduled. Thread 2, a low-priority thread, is executing code in a critical section. Thread 1, the high-priority thread, begins waiting for a shared resource from thread 2. Thread 3 has medium priority. Thread 3 receives all the processor time, because the high-priority thread (thread 1) is waiting for shared resources from the low-priority thread (thread 2). Thread 2 will not leave the critical section, because it does not have the highest priority and will not be scheduled.
+A phenomenon known as **priority inversion** occurs when a high–priority thread is indefinitely delayed while awaiting a resource held by a low–priority thread that cannot proceed due to the presence of an unrelated medium–priority thread. As a result, the high–priority thread is effectively denied access to the CPU by the lower medium–priority thread.
 
-The scheduler solves this problem by randomly boosting the priority of the ready threads (in this case, the low priority lock-holders). The low priority threads run long enough to exit the critical section, and the high-priority thread can enter the critical section. If the low-priority thread does not get enough CPU time to exit the critical section the first time, it will get another chance during the next round of scheduling.
+For example, a thread T1 running at priority 4 gets preempted by a higher-priority thread T2 with a priority of 8 after acquiring a lock. Subsequently, a thread T3 with a priority of 12 arrives, preempts T2, and gets blocked trying to acquire the lock held by T1. At this point, both T1 and T2 are ready to run, but since T2 has a higher priority, it continues to execute, effectively preventing T3, a higher–priority thread, from making progress because T1 is unable to run and release the lock.
 
- 
+The thread scheduler addresses this issue through a feature called AutoBoost. AutoBoost automatically tracks resource reservations and adjusts thread priorities by applying priority floors that a thread must never fall below. For example, if a low–priority thread acquires a critical section and a higher–priority thread is blocked waiting for the critical section, the priority of the owner is raised to the maximum priority of the waiter until it releases the resource.
 
- 
+
+
+ 
 
 
 

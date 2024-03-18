@@ -49,6 +49,8 @@
         href: /windows/desktop/api/Dwmapi/ne-dwmapi-dwmwindowattribute
       - name: "GESTURE_TYPE"
         href: /windows/desktop/api/Dwmapi/ne-dwmapi-gesture_type
+      - name: "WINDOWCOMPOSITIONATTRIB"
+        href: windowcompositionattrib.md
     - name: "DWM Functions"
       href: functions.md
       items: 
@@ -118,6 +120,10 @@
         href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmunregisterthumbnail
       - name: "DwmUpdateThumbnailProperties"
         href: /windows/desktop/api/Dwmapi/nf-dwmapi-dwmupdatethumbnailproperties
+      - name: "GetWindowCompositionAttribute"
+        href: getwindowcompositionattribute.md
+      - name: "SetWindowCompositionAttribute"
+        href: setwindowcompositionattribute.md
     - name: "DWM Messages"
       href: dwm-messages.md
       items: 
@@ -148,3 +154,5 @@
         href: /windows/win32/api/Dwmapi/ns-dwmapi-milmatrix3x2d
       - name: "UNSIGNED_RATIO"
         href: /windows/win32/api/Dwmapi/ns-dwmapi-unsigned_ratio
+      - name: "WINDOWCOMPOSITIONATTRIBDATA"
+        href: windowcompositionattribdata.md

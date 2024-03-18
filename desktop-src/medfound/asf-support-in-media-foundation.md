@@ -39,7 +39,7 @@ Second, the WM Container layer provides low-level control over parsing and writi
 
  
 
-For detailed information about the structure of an ASF file, see the ASF specification, which can be downloaded from this [Microsoft website](https://download.microsoft.com/download/7/9/0/790fecaa-f64a-4a5e-a430-0bccdab3f1b4/asf_specification.doc).
+For detailed information about the structure of an ASF file, see the ASF specification, which can be downloaded from this [Microsoft website](https://en.wikipedia.org/wiki/Advanced_Systems_Format).
 
 ## Related topics
 
