@@ -16,7 +16,7 @@ api_name:
 
 # WINDOWCOMPOSITIONATTRIB enumeration
 
-SPecifies options used by the [WINDOWCOMPOSITIONATTRIBDATA](windowcompositionattribdata.md) structure.
+Specifies options used by the [WINDOWCOMPOSITIONATTRIBDATA](windowcompositionattribdata.md) structure.
 
 ## Syntax
 
@@ -29,7 +29,7 @@ typedef enum {
 
 ## Fields
 
-`WCA\_EXCLUDED\_FROM\_DDA`
+`WCA_EXCLUDED_FROM_DDA`
 
 Prevents a window from being captured by the Desktop Duplication API. The pvData member of the [WINDOWCOMPOSITIONATTRIBDATA](/windows/win32/direct3ddxgi/desktop-dup-api) structure points to a value of type BOOL. If the value is TRUE, the window is not captured. Otherwise, the window exhibits normal behavior.\
 
@@ -42,8 +42,7 @@ Prevents a window from being captured by the Desktop Duplication API. The pvData
 
 | Requirement | Value |
 |-|-|
-| Minimum supported client | Windows 7 \[desktop apps only\] |
+| Minimum supported client | Windows 10 version 1709 (build 16299)] |
 | Minimum supported server | None supported |
-| End of client support | Windows 7 |
 | Header | N/A |
 

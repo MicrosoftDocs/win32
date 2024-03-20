@@ -1,15 +1,15 @@
 ---
-description: Learn about TLS 1.0 and TLS 1.1 deprecation in Windows and how to enable compatibility support for legacy TLS.
 title: TLS 1.0 and TLS 1.1 deprecation in Windows
+description: Learn about TLS 1.0 and TLS 1.1 deprecation in Windows and how to enable compatibility support for legacy TLS.
 ms.author: alalve
 ms.topic: article
-ms.date: 01/31/2024
+ms.date: 03/14/2024
 ms.contributor: jekrynit
 ---
 
 # TLS 1.0 and TLS 1.1 deprecation in Windows
 
-The internet standards and regulatory bodies have deprecated or disallowed TLS versions 1.0 and 1.1 due to several security issues. Starting with Windows 11 Insider Preview releases in 2024, they will be disabled by default. This change applies to both server and client devices but won't impact in-market Operating System versions.
+The internet standards and regulatory bodies have deprecated or disallowed TLS versions 1.0 and 1.1 due to several security issues. Starting with Windows 11 Insiders Preview and Windows Server Insiders Preview releases in 2024, they will be disabled by default. This change applies to both client and server devices but won't impact in-market Operating System versions.
 
 TLS 1.0 and TLS 1.1 have already been disabled by Microsoft 365 products as well as WinHTTP and WinINet API surfaces. Most newer versions of applications support TLS 1.2 or higher protocol versions. Therefore, if an application starts failing after this change, the first step is to look for a newer version of the application that has TLS 1.2 or TLS 1.3 support.
 

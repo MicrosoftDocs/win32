@@ -35,7 +35,7 @@ HANDLE g_hInputFile = NULL;
 void CreateChildProcess(void); 
 void WriteToPipe(void); 
 void ReadFromPipe(void); 
-void ErrorExit(PTSTR); 
+void ErrorExit(PCTSTR); 
  
 int _tmain(int argc, TCHAR *argv[]) 
 { 
@@ -212,7 +212,7 @@ void ReadFromPipe(void)
    } 
 } 
  
-void ErrorExit(PTSTR lpszFunction) 
+void ErrorExit(PCTSTR lpszFunction) 
 
 // Format a readable error message, display a message box, 
 // and exit from the application.

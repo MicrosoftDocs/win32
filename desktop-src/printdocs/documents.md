@@ -22,7 +22,7 @@ Microsoft provides several different document technologies to support a variety 
 
 -   **XPS and OpenXPS**
 
-    XPS and OpenXPS are supported in Windows 8 and later versions of Windows. See the preceding diagram to determine the correct usage scenario for XPS and OpenXPS. For more information about these document technologies, see [Open XML Paper Specification (OpenXPS)](https://www.ecma-international.org/publications/standards/Ecma-388.htm).
+    XPS and OpenXPS are supported in Windows 8 and later versions of Windows. See the preceding diagram to determine the correct usage scenario for XPS and OpenXPS. For more information about these document technologies, see [Open XML Paper Specification (OpenXPS)](https://ecma-international.org/publications-and-standards/standards/ecma-388/).
 
     In the case of using OpenXPS with Windows 8 and Windows Server 2012, support is only provided via the [XPS Document API](documents-xps.md)
 

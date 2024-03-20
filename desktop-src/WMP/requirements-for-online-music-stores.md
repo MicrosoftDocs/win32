@@ -22,7 +22,7 @@ All of the requirements that your online store must meet are detailed in the Onl
 -   Discrete actions such as log-in, billing, purchase of physical CDs, or other related features outside of the primary digital media service may link to a browser instance outside of the player for the non-digital-media feature.
 -   Licenses provided by the store must remain valid regardless of the store's connection to Windows Media Player. For details see the Term and Termination section of the Online Media Service Listing Agreement for Windows Media Player.
 
-From time to time Microsoft may update the Eligibility and On-Boarding Requirements and post them on the [Windows Media website](https://www.microsoft.com/windows/windowsmedia/default.mspx) (https://www.microsoft.com/windows/windowsmedia/default.mspx).
+From time to time Microsoft may update the Eligibility and On-Boarding Requirements.
 
 ## Related topics
 

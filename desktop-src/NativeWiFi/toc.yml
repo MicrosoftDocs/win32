@@ -128,7 +128,7 @@
       - name: "WLAN_INTERFACE_TYPE"
         href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_type
       - name: "WLAN_INTF_OPCODE"
-        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode-r1
+        href: /windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode
       - name: "WLAN_NOTIFICATION_ACM"
         href: /windows/win32/api/Wlanapi/ne-wlanapi-wlan_notification_acm-r1
       - name: "WLAN_NOTIFICATION_MSM"

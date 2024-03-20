@@ -97,8 +97,14 @@ The named property value.
 | HvSocketEnabled  |VT_BOOL  |W  |No  |If **True**, the remote server’s name, if it is a GUID, is interpreted as the VmId field of the Hyper-V socket's address where the RDP traffic is to be sent. By default, this is set to **False**.<br>For more information about Hyper-V socket's addresses, refer to [Bind to a Hyper-V socket](/virtualization/hyper-v-on-windows/user-guide/make-integration-service#bind-to-a-hyper-v-socket).  |
 | MultipenRemotingSupported  |VT_BOOL  |W  |No  |If **True**, the simultaneous injection of input from up to four pen devices is supported in the remote session. By default, this is set to **False**.  |
 | ShowGatewayInformation  |VT_BOOL  |W  |Yes  |Writing **True** to this property shows a dialog showing information about the Remote Desktop gateway.<br>Windows 11 22H2 and above: this property is no longer supported and was replaced by the **ShowConnectionInformation** property. |
+| DisableAutoReconnectComponent | VT_BOOL |W |No | If **True**, the server connection will not be disconnected and reconnected automatically when network configuration is changed. By default, this is set to **False**.
+| RedirectUsbDrive  |VT_UI4   |R/W  | No  | Introduced in Windows 11 version 24H2. When not set or set to 0, the USB thumb drive redirects as drive direction. When set to 1, all USB thumb drives are redirected as USB devices automatically. When set to 2, USB thumb drives are listed as USB devices, users can choose to redirect them through USB redirection from the UI (device dialog in the connection bar) or RDP file entry "UsbDevicesToRedirect". |
+| allowed security protocols | VT_BSTR | W | No | Introduced in Windows 11 version 24H2. This property is used to restrict the list of security protocols the client can negotiate. The actual list of negotiated protocols is determined by other configuration settings and the connection scenario, and can be smaller than the list specified in this property. The value must contain the list of protocol names separated by ';' or the value can be set to "*" which means that all normally negotiated protocols are allowed. Supported protocol names are: "TLS", "CredSSP", "RDSTLS" and "RDS AAD Auth" The default value is "*". |
+| AllowRelativeMouseMode | VT_BOOL | R/W | No | Introduced in Windows 11 version 24H2. If True, mouse movements are represented relative to the current mouse position. |
+| RemoteAppMouseMoveInject | VT_BOOL | W |No | Introduced in Windows 11 version 24H2. Writing True to this property forces the injection of a mouse move when the cursor leaves a RemoteApp window. This is intended to be a workaround for a tooltip bug. |
 
 
+ 
 ## Requirements
 
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic describes the structure of an Advanced Systems Format (ASF) file.
 
-For detailed information about ASF files, download the [ASF Specification](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea).
+For detailed information about ASF files, download the [ASF Specification](https://en.wikipedia.org/wiki/Advanced_Systems_Format).
 
 The base unit of organization for ASF files is called an *object*. An ASF file object contains the following data.
 
