@@ -245,7 +245,7 @@ A few of the Direct3D 10 and later semantics map directly to Direct3D 9 semantic
 | SV\_Target | COLOR |
 
 > [!]
-> Note to Direct3D 9 developers: For Direct3D 9 targets, shader semantics must map to valid Direct3D 9 semantics. For backwards compatibility, FXC treats POSITION0 (and its variant names) as SV\_Position. FXC treats COLOR as SV\_TARGET. DXC and newer compilers consider POSITION[n] and COLOR as user-defined semantics.
+> Note to Direct3D 9 developers: For Direct3D 9 targets, shader semantics must map to valid Direct3D 9 semantics. For backwards compatibility, FXC treats POSITION0 (and its variant names) as SV\_Position. FXC treats COLOR as SV\_TARGET. DXC and newer compilers consider POSITION\[n\] and COLOR as user-defined semantics.
 
 - [Mapping to Direct3D 9 Semantics](#mapping-to-direct3d-9-semantics)
 - [Direct3D 9 VPOS and Direct3D 10 SV\_Position](#direct3d-9-vpos-and-direct3d-10-sv_position)
