@@ -18,7 +18,7 @@ This topic describes how to detect device loss when using a video capture device
 
 ## Register For Device Notification
 
-Before you start capturing from the device, call the [**RegisterDeviceNotification**](/windows/win32/api/winuser/nf-winuser-registerdevicenotificationa) function to register for device notifications. Register for the **KSCATEGORY\_CAPTURE** device class, as shown in the following code.
+Before you start capturing from the device, call the [**RegisterDeviceNotification**](/windows/win32/api/winuser/nf-winuser-registerdevicenotificationa) function to register for device notifications. Register for the **KSCATEGORY\_VIDEO\_CAMERA** device class, as shown in the following code.
 
 
 ```C++
@@ -33,7 +33,7 @@ BOOL RegisterForDeviceNotification(HWND hwnd)
     DEV_BROADCAST_DEVICEINTERFACE di = { 0 };
     di.dbcc_size = sizeof(di);
     di.dbcc_devicetype  = DBT_DEVTYP_DEVICEINTERFACE;
-    di.dbcc_classguid  = KSCATEGORY_CAPTURE; 
+    di.dbcc_classguid  = KSCATEGORY_VIDEO_CAMERA; 
 
     g_hdevnotify = RegisterDeviceNotification(
         hwnd,
@@ -80,7 +80,7 @@ In your message loop, listen for [**WM\_DEVICECHANGE**](../devio/wm-devicechange
 
 ```C++
     case WM_DEVICECHANGE:
-        if (lParam != 0)
+        if (lParam != 0 && wParam = DBT_DEVICEREMOVECOMPLETE)
         {
             HRESULT hr = S_OK;
             BOOL bDeviceLost = FALSE;
