@@ -717,6 +717,9 @@
                     - name: Windows Deployment Services
                       tocHref: /windows/win32/wds/
                       topicHref: /windows/win32/wds/windows-deployment-services-portal
+                    - name: What's New
+                      tocHref: /windows-server/get-started/
+                      topicHref: /windows-server/get-started/whats-new-in-windows-server-2022
                     - name: Windows Management Instrumentation
                       tocHref: /windows/win32/wmisdk/
                       topicHref: /windows/win32/wmisdk/wmi-start-page

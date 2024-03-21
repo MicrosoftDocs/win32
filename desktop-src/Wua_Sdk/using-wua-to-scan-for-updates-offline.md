@@ -17,6 +17,9 @@ The Wsusscn2.cab file is a cabinet file that is signed by Microsoft. This file c
 After you download the latest Wsusscn2.cab, the file can be provided to the [**AddScanPackageService**](/windows/desktop/api/Wuapi/nf-wuapi-iupdateservicemanager-addscanpackageservice) method, and the WUA API can be used to search the offline computer for security updates. WUA validates that the Wsusscn2.cab is signed by a valid Microsoft certificate before running an offline scan.
 
 > [!NOTE]
+> When conducting offline scans of CAB files, you may experience higher than normal memory usage. It is recommended to make necessary adjustments to your system to allocate sufficient memory resources for the scanning process. This may include configuring additional processors and modifying the pagefile.  Ensuring adequate memory allocation will help in completing the scan efficiently and effectively.
+
+> [!NOTE]
 > In accordance with our [SHA-1 deprecation initiative](https://aka.ms/sha1deprecation), the Wsusscn2.cab file is no longer dual-signed using both SHA-1 and the SHA-2 suite of hash algorithms (specifically SHA-256). This file is now signed using only SHA-256. Administrators who verify digital signatures on this file should now expect only single SHA-256 signatures.
 
 ## Example

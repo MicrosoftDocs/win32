@@ -151,13 +151,13 @@ Unmarshaling is symmetrical to marshaling; the first operation it performs for c
 
 The flags used to perform marshaling and unmarshaling correctly are used in the same way in bufsizing and freeing to make sure that pointees are walked exactly once.
 
-**Endianess pass**
+**Endianness pass**
 
-At first, the endianess pass is somewhat similar to marshaling/unmarshaling; two passes are required to process complex structures. First pass converts the flat part and finds the pointees' location in the buffer similar to how bufsizing performs this operation for unmarshaling. The second pass then converts the pointees.
+At first, the endianness pass is somewhat similar to marshaling/unmarshaling; two passes are required to process complex structures. First pass converts the flat part and finds the pointees' location in the buffer similar to how bufsizing performs this operation for unmarshaling. The second pass then converts the pointees.
 
-Endianess passes differ in the following manner: every structure and every member has to be stepped until the leaf member or element is a simple type. This is different from unmarshaling; in unmarshaling, for example, there is never a need to process conformant structures embedded in conformant structures, or any member of the conformant structure, for that matter. Another issue is that the conversion is not an idempotent operation—hence the unmarshaling pass could redo unmarshaling of some pieces without harm, while conversion has to be performed on a strictly once-per-any-simple-type basis.
+Endianness passes differ in the following manner: every structure and every member has to be stepped until the leaf member or element is a simple type. This is different from unmarshaling; in unmarshaling, for example, there is never a need to process conformant structures embedded in conformant structures, or any member of the conformant structure, for that matter. Another issue is that the conversion is not an idempotent operation—hence the unmarshaling pass could redo unmarshaling of some pieces without harm, while conversion has to be performed on a strictly once-per-any-simple-type basis.
 
-Hence, the endianess algorithm can be summarized as the following. NDR has a notion of the top-level conformant structure and a flag to mark that, as appropriate. When walking the first time, such as to convert the flat portion and to obtain the location of the pointees, this notion would not be used. NDR would descend through the flat parts of all levels of structures and never venture into pointer processing. Finally, NDR would flat convert the array at the top-level.
+Hence, the endianness algorithm can be summarized as the following. NDR has a notion of the top-level conformant structure and a flag to mark that, as appropriate. When walking the first time, such as to convert the flat portion and to obtain the location of the pointees, this notion would not be used. NDR would descend through the flat parts of all levels of structures and never venture into pointer processing. Finally, NDR would flat convert the array at the top-level.
 
 When walking the second time, the flag would be used to mark the embedded pointer's pass to avoid entering deeper levels of the conformant structures, then the top-most conformant structure. In this way, the flag would force the common marshaling/unmarshaling behavior, which is to avoid descending into deeper levels of conformant structures.
 
@@ -165,14 +165,6 @@ The second pass for complex structures with conformant arrays works as follows: 
 
 For complex structures with conformant structures, the conformant structure must be aware whether it is top level, and whether it is in a complex structure. The flat portion of the array is processed by the top-most conformant structure. On the second pass, the top-most conformant structure would skip the flat portion and go through the pointer layout and return. The top-most complex structure would skip its flat portion, and would also skip the pointer layout.
 
-**The robust aspect of the endianess walks**
+**The robust aspect of the endianness walks**
 
-The endianess walk checks for the usual out-of-the-buffer conditions and performs other checks of an uncorrelated nature. The checks aimed at correlated values (such as the sizing argument versus the conformant size) cannot be performed using this step; they are performed later, when unmarshaling.
-
- 
-
- 
-
-
-
-
+The endianness walk checks for the usual out-of-the-buffer conditions and performs other checks of an uncorrelated nature. The checks aimed at correlated values (such as the sizing argument versus the conformant size) cannot be performed using this step; they are performed later, when unmarshaling.
