@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 # Private-Information property set
 
-
+Property set containing user attributes that describe user private information.
 
 | Entry | Value |
 |--------------|--------------------------------------|
