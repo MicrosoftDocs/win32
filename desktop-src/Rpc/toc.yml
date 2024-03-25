@@ -827,6 +827,8 @@
         items: 
         - name: "RPC_ASYNC_EVENT"
           href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_async_event
+        - name: "RPC_HTTP_REDIRECTOR_STAGE"
+          href: rpc-http-redirector-stage.md
         - name: "RPC_NOTIFICATION_TYPES"
           href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_notification_types
         - name: "RPC_NOTIFICATIONS"
@@ -1005,6 +1007,8 @@
           href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcfreeauthorizationcontext
         - name: "RpcGetAuthorizationContextForClient"
           href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient
+        - name: "RpcHttpProxyFreeString"
+          href: rpc-http-proxy-free-string.md
         - name: "RpcIfInqId"
           href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcifinqid
         - name: "RpcImpersonateClient"
@@ -1053,6 +1057,8 @@
           href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnetworkinqprotseqs
         - name: "RpcNetworkIsProtseqValid"
           href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid
+        - name: "RpcNewHttpProxyChannel"
+          href: rpc-new-http-proxy-channel.md
         - name: "RpcNsBindingExport"
           href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingexporta
         - name: "RpcNsBindingExportPnP"
