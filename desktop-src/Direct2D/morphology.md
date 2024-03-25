@@ -69,8 +69,8 @@ m_d2dContext->EndDraw();
 
 | Name                           | Description                                                    |
 |--------------------------------|----------------------------------------------------------------|
-| D2D1\_MORPHOLOGY\_MODE\_ERODE  | The maximum value from each RGB channel in the kernel is used. |
-| D2D1\_MORPHOLOGY\_MODE\_DILATE | The minimum value from each RGB channel in the kernel is used. |
+| D2D1\_MORPHOLOGY\_MODE\_ERODE  | The minimum value from each RGB channel in the kernel is used. |
+| D2D1\_MORPHOLOGY\_MODE\_DILATE | The maximum value from each RGB channel in the kernel is used. |
 
 
 

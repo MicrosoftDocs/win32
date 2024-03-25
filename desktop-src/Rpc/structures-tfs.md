@@ -59,7 +59,7 @@ FC_END
 
 ## Simple Structure with Pointers
 
-A simple structure with pointers contains only base types, pointers, fixed arrays, simple structures, and other simple structures with pointers. Because the layout<> will only have to be visited when doing an endianess conversion, it is placed at the end of the description.
+A simple structure with pointers contains only base types, pointers, fixed arrays, simple structures, and other simple structures with pointers. Because the layout<> will only have to be visited when doing an endianness conversion, it is placed at the end of the description.
 
 ``` syntax
 FC_PSTRUCT alignment<1> 
@@ -200,7 +200,3 @@ A structure's layout description contains one or more of the following format ch
     offset\_to\_description<2> is a relative type offset to the embedded type.
 
 There may also be an FC\_PAD before the terminating FC\_END if needed to ensure that the format string will be aligned at a 2-byte boundary following the FC\_END.
-
- 
-
- 
