@@ -30,7 +30,7 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Vect
 | `float4(float x, float y, float z, float w)` | Creates a float4 with the specified values. |
 | `float4(float2 value, float z, float w)` | Creates a float4 with x and y copied from a float2 plus the specified z and w values. |
 | `float4(float3 value, float w)` | Creates a float4 with x, y and z copied from a float3 plus the specified w value. |
-| `explicit float4(float value)` | Creates a float4 with all com.ents set to the specified value. |
+| `explicit float4(float value)` | Creates a float4 with all compoents set to the specified value. |
 | `float4(Microsoft::?Graphics::?Canvas::?Numerics::?Vector4 const& value)` | Converts a **Microsoft.Graphics.Canvas.Numerics.Vector4** to a float4. |
 
 ## Functions
