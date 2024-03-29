@@ -617,6 +617,8 @@
         items: 
         - name: "GetFileVersionInfo"
           href: /windows/desktop/api/Winver/nf-winver-getfileversioninfoa
+        - name: "GetFileVersionInfoByHandle"
+          href: getfileversioninfobyhandle.md
         - name: "GetFileVersionInfoEx"
           href: /windows/desktop/api/Winver/nf-winver-getfileversioninfoexa
         - name: "GetFileVersionInfoSize"
