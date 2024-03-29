@@ -3587,6 +3587,8 @@
           href: mfsampleextension-encryption-skipbyteblock.md
         - name: "MFSampleExtension_Encryption_SubSampleMappingSplit"
           href: mfsampleextension-encryption-subsamplemappingsplit.md
+        - name: "MFSampleExtension_FeatureMap"
+          href: mfsampleextension-featuremap.md
         - name: "MFSampleExtension_ForwardedDecodeUnits"
           href: mfsampleextension-forwardeddecodeunits.md
         - name: "MFSampleExtension_ForwardedDecodeUnitType"
@@ -3615,8 +3617,12 @@
           href: mfsampleextension-roirectangle.md
         - name: "MFSampleExtension_SingleField"
           href: mfsampleextension-singlefield-attribute.md
+        - name: "MFSampleExtension_SpatialLayerId"
+          href: mfsampleextension-spatiallayerid.md
         - name: "MFSampleExtension_TargetGlobalLuminance"
           href: mfsampleextension-targetgloballuminance.md
+        - name: "MFSampleExtension_TemporalLayerId"
+          href: mfsampleextension-temporallayerid.md
         - name: "MFSampleExtension_Token"
           href: mfsampleextension-token-attribute.md
         - name: "MFSampleExtension_VideoDSPMode"
@@ -3641,10 +3647,14 @@
           href: mft-connected-stream-attribute.md
         - name: "MFT_CONNECTED_TO_HW_STREAM"
           href: mft-connected-to-hw-stream.md
+        - name: "MFT_DECODER_AUTOMATIC_SOFTWARE_FALLBACK"
+          href: mft-decoder-automatic-software-fallback.md
         - name: "MFT_DECODER_EXPOSE_OUTPUT_TYPES_IN_NATIVE_ORDER"
           href: mft-decoder-expose-output-types-in-native-order.md
         - name: "MFT_DECODER_FINAL_VIDEO_RESOLUTION_HINT"
           href: mft-decoder-final-video-resolution-hint.md
+        - name: "MFT_DECODER_OPERATING_POINT"
+          href: mft-decoder-operating-point.md
         - name: "MFT_ENCODER_SUPPORTS_CONFIG_EVENT"
           href: mft-encoder-supports-config-event.md
         - name: "MFT_ENUM_ADAPTER_LUID"
@@ -8287,6 +8297,8 @@
         href: codecapi-avencvideouseltrframe.md
       - name: "CODECAPI_AVLowLatencyMode"
         href: codecapi-avlowlatencymode.md
+      - name: "CODECAPI_FeatureMapFlagsUsed"
+        href: codecapi-featuremapflagsused.md
       - name: "CODECAPI_VideoEncoderDisplayContentType"
         href: codecapi-videoencoderdisplaycontenttype.md
       - name: "MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH"
