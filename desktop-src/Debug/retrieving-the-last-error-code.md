@@ -17,7 +17,7 @@ The following example includes an error-handling function that prints the error 
 #include <windows.h>
 #include <strsafe.h>
 
-void ErrorExit(LPTSTR lpszFunction) 
+void ErrorExit(LPCTSTR lpszFunction) 
 { 
     // Retrieve the system error message for the last-error code
 
