@@ -2,7 +2,7 @@
 description: Provides the encoder a hint as to what feature map capabilities will be used during the encode sequence.
 title: CODECAPI_FeatureMapFlagsUsed property (Codecapi.h)
 ms.topic: reference
-ms.date: 05/29/2024
+ms.date: 03/29/2024
 ---
 
 # CODECAPI\_FeatureMapFlagsUsed property
@@ -23,7 +23,7 @@ A bitwise OR combination of any of the flag values that are valid to set on the 
 
 ## Remarks
 
-**CODECAPI_FeatureMapFlagsUsed** is a UINT32 property that can be set on an encoder MFT using the [ICodecAPI::SetValue](https://learn.microsoft.com/en-us/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue) method to provide the encoder a hint as to what feature map capabilities will be used during the encode sequence. In this context, “sequence” means all frames processed between [MFT_MESSAGE_NOTIFY_BEGIN_STREAMING](/windows/win32/api/mftransform/ne-mftransform-mft_message_type) and [MF_MESSAGE_NOTIFY_END_STREAMING](/windows/win32/api/mftransform/ne-mftransform-mft_message_type). This enables encoders that support the property to make stream level optimizations based on the specified set of unused capabilities, if any.
+**CODECAPI_FeatureMapFlagsUsed** is a UINT32 property that can be set on an encoder MFT using the [ICodecAPI::SetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue) method to provide the encoder a hint as to what feature map capabilities will be used during the encode sequence. In this context, “sequence” means all frames processed between [MFT_MESSAGE_NOTIFY_BEGIN_STREAMING](/windows/win32/api/mftransform/ne-mftransform-mft_message_type) and [MF_MESSAGE_NOTIFY_END_STREAMING](/windows/win32/api/mftransform/ne-mftransform-mft_message_type). This enables encoders that support the property to make stream level optimizations based on the specified set of unused capabilities, if any.
 
 The encoder MFT should assume that any flag specified this way may be used in the feature map passed to the encoder, and alternately, any flag not present will never appear in the feature map.  If **CODECAPI_FeatureMapFlagsUsed** is not set, then the encoder will use the default value, 0xFFFFFFFF, and  assume that all feature map flags may be used.
 
