@@ -15,7 +15,7 @@ Contains one MACROBLOCK_DATA structure for each macroblock in the input frame.
 
 ## Remarks
 
-Applications can retrieve this value from an **IMFSample** by invoking the [IMFAttributes::GetBlob](/windows/win32/api/mfobjects/nf-mfobjects-imfattributes-getblob) method.
+Applications can set this value on an **IMFSample** by invoking the [IMFAttributes::SetBlob](/windows/win32/api/mfobjects/nf-mfobjects-imfattributes-setblob) method.
 
 ## Requirements
 
