@@ -2,7 +2,7 @@
 title: Changes to API behavior for Wi-Fi access and location
 description: In order to better manage which apps have access to location, Windows is adding new privacy controls.
 ms.topic: article
-ms.date: 01/29/2024
+ms.date: 04/01/2024
 ---
 
 # Changes to API behavior for Wi-Fi access and location
@@ -57,7 +57,7 @@ Your app will be affected if it calls any of these APIs:
 
 ## The Wi-Fi APIs in either Win32's wlanapi.h or in WinRT's Windows.Devices.WiFi
 
-* If the user hasn't given your app consent to precise location access, then the first time your app calls an affected API, a one-time-per-app system prompt will be displayed. Depending on how your app calls those APIs, the prompt could manifest in different ways in your app's user interface.
+* If the user hasn't given your app consent to precise location access, then the first time your app calls an affected API, a one-time-per-app system prompt will be displayed if the process is running within the user's context and outside of the `C:\Windows\System32` folder. Depending on how your app calls those APIs, the prompt could manifest in different ways in your app's user interface.
 * If the user hasn't given consent to precise location access, then the following Win32 APIs in the [wlanapi.h header](/windows/win32/api/wlanapi/) will return **ERROR_ACCESS_DENIED**:
   * [WlanGetAvailableNetworkList](/windows/win32/api/wlanapi/nf-wlanapi-wlangetavailablenetworklist)
   * [WlanGetNetworkBssList](/windows/win32/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist)
@@ -73,7 +73,7 @@ Your app will be affected if it calls any of these APIs:
 To create a better experience for your app's users, and to ensure smooth operation, you should make the following changes to your app's behavior in order to control when system prompts are shown:
 
 * If your app needs to know the host device's location, then it should call the Geolocation APIs, rather than use a Wi-Fi scan.
-* In order to cause the one-time-per-app system prompt to be displayed at a suitable point in the user-experience, your app should call [WiFiAdapter.RequestAccessAsync](/uwp/api/windows.devices.wifi.wifiadapter.requestaccessasync). The call should align to a user action that requires Wi-Fi or location (resulting in higher consent rates than prompting the user immediately after installation).
+* In order to cause the one-time-per-app system prompt to be displayed at a suitable point in the user-experience, your app should call [WiFiAdapter.RequestAccessAsync](/uwp/api/windows.devices.wifi.wifiadapter.requestaccessasync). The process must be running within the user's context and outside of the `C:\Windows\System32` folder. The call should align to a user action that requires Wi-Fi or location (resulting in higher consent rates than prompting the user immediately after installation).
 * Your app can query its location access status by using the [AppCapability.CheckAccess](/uwp/api/windows.security.authorization.appcapabilityaccess.appcapability.checkaccess) API with the **wiFiControl** device capability. If the following access will trigger a dialog, then the API will return [AppCapabilityAccessStatus.UserPromptRequired](/uwp/api/windows.security.authorization.appcapabilityaccess.appcapabilityaccessstatus).
 * In order to be notified and respond accordingly whenever the user changes location consent, your app should subscribe to the [AppCapability.AccessChanged](/uwp/api/windows.security.authorization.appcapabilityaccess.appcapability.accesschanged) event.
 * You should add an in-app app experience for the access-denied scenario. In that scenario, your app should redirect users to Windows **Settings** so that the user can allow your app to access their precise location. You can do that by passing the string "ms-settings:privacy-location" to the [Launcher.LaunchUriAsync](/uwp/api/windows.system.launcher.launchuriasync) method.
@@ -96,7 +96,7 @@ In the same way as described above for the Wi-Fi APIs, your app should request/q
 
 To create a better experience for your app's users, and to ensure smooth operation, you should make the following changes to your app's behavior in order to control when system prompts are shown:
 
-* In order to cause the one-time-per-app system prompt to be displayed at a suitable point in the user-experience, your app should call [Geolocator.RequestAccessAsync](/uwp/api/windows.devices.geolocation.geolocator.requestaccessasync). The call should typically align to a user action that requires precise location (resulting in higher consent rates than prompting the user immediately after installation).
+* In order to cause the one-time-per-app system prompt to be displayed at a suitable point in the user-experience, your app should call [Geolocator.RequestAccessAsync](/uwp/api/windows.devices.geolocation.geolocator.requestaccessasync). The process must be running within the user's context and outside of the `C:\Windows\System32` folder. The call should typically align to a user action that requires precise location (resulting in higher consent rates than prompting the user immediately after installation).
 * In order to be notified and respond accordingly whenever the user changes location consent, your app should subscribe to the [Geolocator.StatusChangedevent](/uwp/api/windows.devices.geolocation.geolocator.statuschanged) event, and retrieve location permission status from the [StatusChangedEventArgs.Status](/uwp/api/windows.devices.geolocation.statuschangedeventargs.status) property.
 * You should add an in-app app experience for the access-denied scenario. In that scenario, your app should redirect users to Windows **Settings** so that the user can allow your app to access their precise location. You can do that by passing the string "ms-settings:privacy-location" to the [Launcher.LaunchUriAsync](/uwp/api/windows.system.launcher.launchuriasync) method.
 
