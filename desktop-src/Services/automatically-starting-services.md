@@ -12,19 +12,19 @@ During system boot, the SCM starts all auto-start services and the services on w
 
 The load order is determined by the following:
 
-1.  The order of groups in the load ordering group list. This information is stored in the **ServiceGroupOrder** value in the following registry key:
+1.  The order of groups in the load ordering group list. This information is stored in the **List** value in the following registry key:
 
-    **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control**
+    **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\ServiceGroupOrder**
 
     To specify the load ordering group for a service, use the *lpLoadOrderGroup* parameter of the [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) or [**ChangeServiceConfig**](/windows/desktop/api/Winsvc/nf-winsvc-changeserviceconfiga) function.
 
-2.  The order of services within a group specified in the tags order vector. This information is stored in the **GroupOrderList** value in the following registry key:
+2.  The order of services within a group specified in the tags order vector. This information is stored in the following registry key:
 
-    **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control**
+    **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\GroupOrderList**
 
 3.  The dependencies listed for each service.
 
-When the boot is complete, the system executes the boot verification program specified by the **BootVerificationProgram** value of the following registry key: **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control**.
+When the boot is complete, the system executes the boot verification program specified by the **ImagePath** value of the following registry key: **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\BootVerificationProgram**.
 
 By default, this value is not set. The system simply reports that the boot was successful after the first user has logged on. You can supply a boot verification program that checks the system for problems and reports the boot status to the SCM using the [**NotifyBootConfigStatus**](/windows/desktop/api/Winsvc/nf-winsvc-notifybootconfigstatus) function.
 
