@@ -34,7 +34,7 @@ BOOL GetFileVersionInfoByHandle(
 
 ### dwFlags [in]
 
-Controls the MUI DLLs (if any) from which the version resource is extracted. The value of this flag must match the flags passed to the corresponding GetFileVersionInfoSizeEx call, which was used to determine the buffer size that is passed in the dwLen parameter. Zero or more of the following flags.
+Controls the MUI DLLs (if any) from which the version resource is extracted. Zero or more of the following flags.
 
 | Flag | Value | Meaning |
 |------|-------|---------|
@@ -52,9 +52,11 @@ When this function returns, contains a pointer to a buffer that contains the fil
 
 You can use this value in a subsequent call to the [VerQueryValue](/windows/desktop/api/winver/nf-winver-verqueryvaluea) function to retrieve data from the buffer.
 
+The caller is responsible for freeing this buffer by [LocalFree](/windows/win32/api/winbase/nf-winbase-localfree) when it is no longer being used.
+
 ### pdwLen [out]
 
-The link of the buffer returned in *lplpData*.
+The size of the buffer returned in *lplpData*.
 
 ## Return value
 
@@ -65,6 +67,8 @@ If the function fails, the return value is zero. To get extended error informati
 ## Remarks
 
 This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from version.dll.
+
+This function should be called with `*lplpdata = NULL`. If the function returns a non-NULL value the caller is responsible for freeing it with **LocalFree**. It is possible for this function to fail but still return an allocated buffer.
 
 
 ## Requirements
