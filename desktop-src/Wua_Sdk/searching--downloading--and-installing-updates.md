@@ -22,6 +22,9 @@ Before you attempt to run this sample, note the following:
 
     **cscript WUA\_SearchDownloadInstall.vbs**
 
+> [!NOTE]
+> When conducting scans, you may experience higher than normal memory usage. It is recommended to make necessary adjustments to your system to allocate sufficient memory resources for the scanning process. This may include configuring additional processors and modifying the pagefile.  Ensuring adequate memory allocation will help in completing the scan efficiently and effectively.
+
 ## Example
 
 > [!IMPORTANT]
