@@ -139,6 +139,8 @@
         href: wm-dwmsendiconicthumbnail.md
       - name: "WM_DWMWINDOWMAXIMIZEDCHANGE"
         href: wm-dwmwindowmaximizedchange.md
+    - name: "DWM Registry Values"
+      href: registry-values.md
     - name: "DWM Structures"
       href: structs.md
       items: 
