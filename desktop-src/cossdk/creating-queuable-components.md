@@ -33,8 +33,8 @@ To specify a COM+ interface as queuable, use the following steps:
 
     A queuable component can be identified as such by adding the QUEUEABLE attribute macro to the Interface section of the Interface Definition Language (IDL) source file for all interfaces that are queuable.
 
-    ``` syntax
-#include "mtxattr.h"
+    ```syntax
+    #include "mtxattr.h"
     [ object, dual, uuid(), helpstring(IShiphip"), QUEUEABLE ]
     interface IShip:IDispatch{
        [propput, id(1)] HRESULT CustomerId ([in] long CustId);
