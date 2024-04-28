@@ -32,7 +32,7 @@ The following example uses an [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d
 
 ```C++
 // This method discards device-specific
-// resources if the Direct3D device dissapears during execution and
+// resources if the Direct3D device disappears during execution and
 // recreates the resources the next time it's invoked.
 HRESULT DemoApp::OnRender()
 {
