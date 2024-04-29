@@ -48,7 +48,7 @@ D2D_PS_ENTRY(BlendDissolve)
   
     if ((source.a > 0.0) && (source.a >= Rand((min16float2)D2DGetScenePosition().xy)))  
     {  
-        // TODO: perform  dissovlve math
+        // TODO: perform  dissolve math
     }  
   
     return color;  

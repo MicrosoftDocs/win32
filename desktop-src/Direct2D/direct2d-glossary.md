@@ -179,7 +179,7 @@ A specific color that is defined for a location within the gradient region. Grad
 
 </dd> <dt>
 
-<span id="direct2d.direct2d_glossary_grahics_primitive"></span><span id="DIRECT2D.DIRECT2D_GLOSSARY_GRAHICS_PRIMITIVE"></span>**grahics primitive**
+<span id="direct2d.direct2d_glossary_grahics_primitive"></span><span id="DIRECT2D.DIRECT2D_GLOSSARY_GRAHICS_PRIMITIVE"></span>**graphics primitive**
 </dt> <dd>
 
 In computer graphics, a shape such as a line, circle, curve, or polygon that a graphics adapter can draw, store, and manipulate as a discrete entity.
