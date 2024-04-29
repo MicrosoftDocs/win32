@@ -1,6 +1,6 @@
 ---
 title: 2D affine transform effect
-description: The 2D affine transform effect applies a spatial transform to a image based on a 3X2 matrix using the Direct2D matrix transform and any of six interpolation modes.
+description: The 2D affine transform effect applies a spatial transform to an image based on a 3X2 matrix using the Direct2D matrix transform and any of six interpolation modes.
 ms.assetid: E8973EBE-764C-4220-BB1E-3BFD4853582D
 keywords:
 - 2D affine transform effect
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # 2D affine transform effect
 
-The 2D affine transform effect applies a spatial transform to a image based on a 3X2 matrix using the Direct2D matrix [transform](direct2d-transforms-overview.md) and any of six interpolation modes. You can use this effect to rotate, scale, skew, or translate an image. Or, you can combine these operations. Affine transfers preserve parallel lines and the ratio of distances between any three points in an image.
+The 2D affine transform effect applies a spatial transform to an image based on a 3X2 matrix using the Direct2D matrix [transform](direct2d-transforms-overview.md) and any of six interpolation modes. You can use this effect to rotate, scale, skew, or translate an image. Or, you can combine these operations. Affine transfers preserve parallel lines and the ratio of distances between any three points in an image.
 
 The CLSID for this effect is CLSID\_D2D12DAffineTransform.
 

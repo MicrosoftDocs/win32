@@ -76,7 +76,7 @@ HRESULT DrawBitmapExample::OnRender()
         upperLeftCorner.y = upperLeftCorner.y + size.height + 10.f;
 
         // Scale the bitmap to half its size using the linear
-        // interoplation mode and draw it.
+        // interpolation mode and draw it.
         float scaledWidth = size.width / 2.f;
         float scaledHeight = size.height / 2.f;
         m_pRenderTarget->DrawBitmap(

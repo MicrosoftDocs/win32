@@ -174,7 +174,7 @@ In this part, you implement the **DemoApp** constructor and destructor, its init
     {
         HRESULT hr;
 
-        // Initialize device-indpendent resources, such
+        // Initialize device-independent resources, such
         // as the Direct2D factory.
         hr = CreateDeviceIndependentResources();
 

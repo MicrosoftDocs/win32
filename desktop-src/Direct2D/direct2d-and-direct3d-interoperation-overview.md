@@ -261,7 +261,7 @@ The following examples show how to create a DXGI surface render target that rend
 1.  First, use a Direct3D device to create a 2-D texture. The texture uses the [**D3D10\_BIND\_RENDER\_TARGET**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_bind_flag) and **D3D10\_BIND\_SHADER\_RESOURCE** bind flags, and it uses the [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) DXGI format, one of the DXGI formats supported by Direct2D.
 
     ```cpp
-    // Allocate a offscreen D3D surface for D2D to render our 2D content into
+    // Allocate an offscreen D3D surface for D2D to render our 2D content into
     D3D10_TEXTURE2D_DESC texDesc;
     texDesc.ArraySize = 1;
     texDesc.BindFlags = D3D10_BIND_RENDER_TARGET | D3D10_BIND_SHADER_RESOURCE;

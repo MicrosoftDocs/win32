@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Use a Bitmap as an Opacity Mask
 
-This topic describes how to use a bitmap as an opacty mask by calling the [**ID2D1Factory::FillOpacityMask**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillopacitymask(id2d1bitmap_id2d1brush_d2d1_opacity_mask_content_constd2d1_rect_f__constd2d1_rect_f_)) method. The opacity mask is a bitmap that supplies the coverage information that is represented by the alpha channel, which controls the transparency of the content that is rendered. This approach is more efficient than using layers with an opacity mask. For more information, see [Layers Overview](direct2d-layers-overview.md).
+This topic describes how to use a bitmap as an opacity mask by calling the [**ID2D1Factory::FillOpacityMask**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillopacitymask(id2d1bitmap_id2d1brush_d2d1_opacity_mask_content_constd2d1_rect_f__constd2d1_rect_f_)) method. The opacity mask is a bitmap that supplies the coverage information that is represented by the alpha channel, which controls the transparency of the content that is rendered. This approach is more efficient than using layers with an opacity mask. For more information, see [Layers Overview](direct2d-layers-overview.md).
 
 **To clip a region**
 
