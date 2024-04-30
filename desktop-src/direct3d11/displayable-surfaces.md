@@ -2,7 +2,7 @@
 title: Displayable surfaces
 description: The displayable surfaces feature means that buffers that are presented may have varying properties, and you may present them in any order.
 ms.topic: article
-ms.date: 07/05/2022
+ms.date: 04/30/2024
 ---
 
 # Displayable surfaces
@@ -35,6 +35,24 @@ The [**D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE**](/windows/win32/api/d3d11/ne-d3d
 - **DXGI_FORMAT_R10G10B10A2_UNORM**
 - **DXGI_FORMAT_NV12**
 - **DXGI_FORMAT_YUY2**
+
+A driver might also, optionally, support the following formats:
+
+- **DXGI_FORMAT_P010**
+
+You can use the following code example to check for displayable surfaces support for the optional formats above. The example involves calling [ID3D11Device::CheckFeatureSupport](/windows/win32/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport), and checking for [D3D11_FEATURE_FORMAT_SUPPORT2](/windows/win32/api/d3d11/ne-d3d11-d3d11_feature).
+
+```cpp
+D3D11_FEATURE_DATA_FORMAT_SUPPORT2 FormatSupport2;
+FormatSupport2.InFormat = DXGI_FORMAT_P010;
+if (SUCCEEDED (hr = GetDevice()->CheckFeatureSupport(D3D11_FEATURE_FORMAT_SUPPORT2, &FormatSupport2, sizeof(FormatSupport2))))
+{
+    if (FormatSupport2.OutFormatSupport2 & D3D11_FORMAT_SUPPORT2_DISPLAYABLE)
+    {
+        // optional displayable format is supported
+    }
+}
+```
 
 ## Flags
 
