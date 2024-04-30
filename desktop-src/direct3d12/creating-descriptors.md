@@ -155,7 +155,7 @@ m_device->CreateConstantBufferView(&cbvDesc, m_cbvHeap->GetCPUDescriptorHandleFo
 
 ## Sampler
 
-To create a sample, fill out a [**D3D12_SAMPLER_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_sampler_desc) structure:
+To create a sampler, fill out a [**D3D12_SAMPLER_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_sampler_desc) structure:
 
 ``` syntax
 typedef struct D3D12_SAMPLER_DESC
