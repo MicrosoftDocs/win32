@@ -436,9 +436,11 @@ Reverts any thread impersonation when building the server cert chain, forcing th
 
 ## WINHTTP_OPTION_SECURE_PROTOCOLS
 
-Sets an unsigned long integer value that specifies which secure protocols are acceptable.
+Sets an unsigned long integer value that specifies which Secure (HTTPS) protocols are acceptable. The
+default value for this setting varies by operating system version and may be impacted by installed updates.
 
-* Windows 11, Windows 10, and Windows 8.1. By default, only SSL3, TLS1.0, TLS1.1, and TLS1.2 are enabled.
+* Windows 11. By default, only TLS1.2 and TLS1.3 are enabled.
+* Windows 10, and Windows 8.1. By default, only SSL3, TLS1.0, TLS1.1, and TLS1.2 are enabled.
 * Windows 8 and Windows 7. By default, only SSL3 and TLS1 are enabled.
 
 The value can be a combination of one or more of the following values.
@@ -453,12 +455,12 @@ The value can be a combination of one or more of the following values.
 | WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1\_2 | The TLS 1.2 protocol can be used. |
 | WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1\_3 | The TLS 1.3 protocol can be used. |
 
-If you need to add support for TLS 1.1 or TLS 1.2 protocols, but you're unable to recompile your application to use the appropriate values of **WINHTTP_OPTION_SECURE_PROTOCOLS**, then you can instead add the `DefaultSecureProtocols` registry entry. That registry entry allows you to specify which SSL protocols should be used when the **WINHTTP_OPTION_SECURE_PROTOCOLS** flag is used.
+If you need to enable support for newer protocols but are unable to recompile your application to use the appropriate values of **WINHTTP_OPTION_SECURE_PROTOCOLS**, then you can instead add the `DefaultSecureProtocols` registry entry. That registry entry allows you to specify which secure protocols should be used when the **WINHTTP_OPTION_SECURE_PROTOCOLS** option is not set.
 
 > [!IMPORTANT]
 > The instructions below involve modifying the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these instructions carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see [How to back up and restore the registry in Windows](https://support.microsoft.com/topic/how-to-back-up-and-restore-the-registry-in-windows-855140ad-e318-2a13-2829-d428a2ab0692).
 
-When an application specifies **WINHTTP_OPTION_SECURE_PROTOCOLS**, the system checks for the `DefaultSecureProtocols` registry entry and, if it's present, overrides the default protocols specified by **WINHTTP_OPTION_SECURE_PROTOCOLS** with the protocols specified in the `DefaultSecureProtocols` registry entry. If the registry entry is not present, then WinHTTP uses the existing operating system defaults for **WINHTTP_OPTION_SECURE_PROTOCOLS**. These WinHTTP defaults follow the existing precedence rules, and are overruled by Secure Channel (Schannel) disabled protocols and protocols set per application by [**WinHttpSetOption**](/windows/win32/api/winhttp/nf-winhttp-winhttpsetoption).
+If an application does not call [**WinHttpSetOption**](/windows/win32/api/winhttp/nf-winhttp-winhttpsetoption)(**WINHTTP_OPTION_SECURE_PROTOCOLS**), the system checks for the `DefaultSecureProtocols` registry entry and, if it's present, overrides the existing operating system defaults with the protocols specified in the `DefaultSecureProtocols` registry entry. The WinHTTP-specified protocols can be overruled by Secure Channel (Schannel) configuration settings that may disable protocols.
 
 You can add the `DefaultSecureProtocols` registry entry in the following path:
 
@@ -477,6 +479,7 @@ The registry value is a DWORD bitmap. The value to use is determined by adding t
 | 0x00000080 | Enable TLS 1.0 by default |
 | 0x00000200 | Enable TLS 1.1 by default |
 | 0x00000800 | Enable TLS 1.2 by default |
+| 0x00002000 | Enable TLS 1.3 by default |
 
 For example, if you want to override the default values for **WINHTTP_OPTION_SECURE_PROTOCOLS** to specify TLS 1.1 and TLS 1.2. In that case, take the value for TLS 1.1 (0x00000200) and the value for TLS 1.2 (0x00000800), add them together in calculator (in programmer mode), and the resulting registry value would be 0x00000A00.
 
