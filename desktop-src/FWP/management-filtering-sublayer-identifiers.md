@@ -1,5 +1,5 @@
 ---
-title: Filtering Sublayer Identifiers (Fwpmu.h)
+title: Filtering sublayer identifiers (Fwpmu.h)
 description: WFP API management filtering sublayer identifier constants.
 ms.assetid: 4c8dbe35-e84b-4490-bf7a-7ff8b94e2022
 topic_type:
@@ -21,10 +21,10 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/02/2024
 ---
 
-# Filtering Sublayer Identifiers
+# Filtering sublayer identifiers
 
 The Windows Filtering Platform (WFP) sublayer identifiers are each represented by a GUID.
 
@@ -162,23 +162,38 @@ This sublayer hosts all filters that are not assigned to any of the other sublay
 
 </dt> </dl> </dd> </dl>
 
+**FWPM_SUBLAYER_IPSEC_SECURITY_REALM**
+
+Microsoft IPsec security realm filters are added to this layer. See [IPsec security realm](/openspecs/windows_protocols/ms-ikee/1ebd9e40-e671-45f3-b019-fd42e6be80ea).
+
+**FWPM_SUBLAYER_MPSSVC_WSH**
+
+Windows Service Hardening filters are added to this sublayer.
+
+**FWPM_SUBLAYER_MPSSVC_WF**
+
+Windows Firewall filters are added to this layer. These filters include those from rules added through Windows Firewall.
+
+**FWPM_SUBLAYER_MPSSVC_QUARANTINE**
+
+Windows Quarantine filters are added to this sublayer. Quarantine layer filters apply when an IP Interfaces is ‘quarantined’ – when the IP Interface is changing state and Windows is resolving its Firewall Profile.
+
+**FWPM_SUBLAYER_MPSSVC_EDP**
+
+Windows Enterprise Data Protection filters are added to this sublayer. This is now called Windows Information Protection. See [Protect your enterprise data by using WIP](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
+
+**FWPM_SUBLAYER_MPSSVC_TENANT_RESTRICTIONS**
+
+Microsoft Tenant Restrictions version 2 filters are added to this sublayer. See [Set up tenant restrictions v2](/entra/external-id/tenant-restrictions-v2).
+
+**FWPM_SUBLAYER_MPSSVC_APP_ISOLATION**
+
+Windows Application Isolation filters are added to this sublayer. These filters apply to applications running in an App-Container and requires App-Container network capabilities.
+
 ## Requirements
-
-
 
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
-
-
-
- 
-
- 
-
-
-
-
-

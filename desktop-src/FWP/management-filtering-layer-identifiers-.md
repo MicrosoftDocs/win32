@@ -1,5 +1,5 @@
 ---
-title: Filtering Layer Identifiers (Fwpmu.h)
+title: Filtering layer identifiers (Fwpmu.h)
 description: WFP API management filtering layer identifier constants.
 ms.assetid: 3b2daef1-558b-4e3a-a98a-f4dfa80a29c0
 topic_type:
@@ -61,10 +61,10 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/02/2024
 ---
 
-# Filtering Layer Identifiers
+# Filtering layer identifiers
 
 The Windows Filtering Platform (WFP) layer identifiers are each represented by a GUID. These identifiers are defined as follows.
 
@@ -653,6 +653,30 @@ See [ALE Layers](ale-layers.md) for more information.
 
 
 </dt> </dl> </dd> </dl>
+
+**FWPM_LAYER_INBOUND_TRANSPORT_FAST**
+
+We advise that you don't use this layer, because it's intended for Microsoft's internal use. Attempting to use static filtering will yield  when adding the filter.
+
+**FWPM_LAYER_OUTBOUND_TRANSPORT_FAST**
+
+We advise that you don't use this layer, because it's intended for Microsoft's internal use. Attempting to use static filtering will yield  when adding the filter.
+
+**FWPM_LAYER_INBOUND_MAC_FRAME_NATIVE_FAST**
+
+We advise that you don't use this layer, because it's intended for Microsoft's internal use. Attempting to use static filtering will yield  when adding the filter.
+
+**FWPM_LAYER_OUTBOUND_MAC_FRAME_NATIVE_FAST**
+
+We advise that you don't use this layer, because it's intended for Microsoft's internal use. Attempting to use static filtering will yield  when adding the filter.
+
+**FWPM_LAYER_OUTBOUND_NETWORK_CONNECTION_POLICY_V4**
+
+A callout layer where a WFP filter driver can inspect an outgoing IPv4 connection and read/write the routing policy that was configured for this connection. See [FwpmConnectionPolicyAdd0](/windows/win32/api/fwpmu/nf-fwpmu-fwpmconnectionpolicyadd0).
+
+**FWPM_LAYER_OUTBOUND_NETWORK_CONNECTION_POLICY_V6**
+
+A callout layer where a WFP filter driver can inspect an outgoing IPv6 connection and read/write the routing policy that was configured for this connection. See [FwpmConnectionPolicyAdd0](/windows/win32/api/fwpmu/nf-fwpmu-fwpmconnectionpolicyadd0).
 
 ## Remarks
 
