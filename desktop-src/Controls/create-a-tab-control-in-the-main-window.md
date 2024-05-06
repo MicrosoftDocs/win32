@@ -90,6 +90,12 @@ HWND DoCreateTabControl(HWND hwndParent)
 
 The following function creates the static control that resides in the tab control's display area. The application's initialization function calls this function after creating the main window and the tab control.
 
+Note that the static control is positioned in the tab control's display area,
+but it is itself a sibling of the tab control, not a child.
+This allows the static control to participate in the shared parent window's tab order.
+This is not significant for a static control,
+but it is a good practice in case it is replaced with a keyboard-accessible
+control like a button.
 
 ```C++
 // Creates a child window (a static control) to occupy the tab control's 
@@ -102,7 +108,7 @@ HWND DoCreateDisplayWindow(HWND hwndTab)
     HWND hwndStatic = CreateWindow(WC_STATIC, L"", 
         WS_CHILD | WS_VISIBLE | WS_BORDER, 
         100, 100, 100, 100,        // Position and dimensions; example only.
-        hwndTab, NULL, g_hInst,    // g_hInst is the global instance handle
+        GetParent(hwndTab), NULL, g_hInst, // g_hInst is the global instance handle
         NULL); 
     return hwndStatic; 
 }
