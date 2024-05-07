@@ -135,8 +135,8 @@ Here is an alternate way to get the DPI setting if you are not using Direct2D:
 void InitializeDPIScale(HWND hwnd)
 {
     HDC hdc = GetDC(hwnd);
-    g_DPIScaleX = GetDeviceCaps(hdc, LOGPIXELSX) / USER_DEFAULT_SCREEN_DPI;
-    g_DPIScaleY = GetDeviceCaps(hdc, LOGPIXELSY) / USER_DEFAULT_SCREEN_DPI;
+    g_DPIScaleX = (float)GetDeviceCaps(hdc, LOGPIXELSX) / USER_DEFAULT_SCREEN_DPI;
+    g_DPIScaleY = (float)GetDeviceCaps(hdc, LOGPIXELSY) / USER_DEFAULT_SCREEN_DPI;
     ReleaseDC(hwnd, hdc);
 }
 ```
