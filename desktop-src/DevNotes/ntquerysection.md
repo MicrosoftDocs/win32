@@ -32,23 +32,23 @@ NTSTATUS NTAPI NtQuerySection (
 
 ## Parameters
 
-### SectionHandle [in]
+### -param SectionHandle [in]
 
 An open handle to a section object.
 
-### SectionInformationClass [in]
+### -param SectionInformationClass [in]
 
 The section information class about which to retrieve information.
 
-### SectionInformation [out]
+### -param SectionInformation [out]
 
 A pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the specified section class.
 
-### SectionInformationLength [in]
+### -param SectionInformationLength [in]
 
 Specifies the length in bytes of the section information buffer.
 
-### ReturnLength [out]
+### -param ReturnLength [out]
 
 An optional pointer which, if specified, receives the number of bytes placed in the section information buffer.
 
@@ -61,20 +61,25 @@ An NTSTATUS code. For more information, see [Using NTSTATUS values](/windows-har
 This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions. The API is exported from ntdll.dll.
 
 
-The type of the **SectionInformation** parameter is **PSECTION_BASIC_INFORMATION**
+The type of the **SectionInformation** parameter is **PSECTION_BASIC_INFORMATION** if **SectionInformationClass** is **SectionBasicInformation**.
 
 ```cpp
-typedef struct _SECTIONBASICINFO {
+typedef enum _SECTION_INFORMATION_CLASS
+{
+    SectionBasicInformation
+} SECTION_INFORMATION_CLASS;
+
+typedef struct _SECTION_BASIC_INFORMATION {
     PVOID BaseAddress;
     ULONG AllocationAttributes;
     LARGE_INTEGER MaximumSize;
 } SECTION_BASIC_INFORMATION, *PSECTION_BASIC_INFORMATION;
 ```
-#### PVOID BaseAddress
+### -param PVOID BaseAddress
 
 The base virtual address of the section if the section is based.
 
-#### ULONG AllocationAttributes
+### -param ULONG AllocationAttributes
 
 The allocation attributes flags.
 
@@ -86,7 +91,7 @@ The allocation attributes flags.
 | SEC_COMMIT |  0x8000000 | All pages of the section were initially set to the committed state. |
 | SEC_IMAGE | 0x1000000 | The section was mapped as an executable image file. |
 
-### LARGE_INTEGER MaximumSize
+### -param LARGE_INTEGER MaximumSize
 
 The maximum size of the section in bytes.
 
