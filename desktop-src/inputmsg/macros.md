@@ -26,7 +26,7 @@ The topics in this section provide the reference specifications for [Pointer Inp
 | [**IS_POINTER_INCONTACT_WPARAM**](/windows/win32/api/winuser/nf-winuser-is_pointer_incontact_wparam)<br/>       | Checks whether the specified pointer is in contact. <br/>                                                                     |
 | [**IS_POINTER_INRANGE_WPARAM**](/windows/win32/api/winuser/nf-winuser-is_pointer_inrange_wparam)<br/>           | Checks whether the specified pointer is in range. <br/>                                                                       |
 | [**IS_POINTER_NEW_WPARAM**](/windows/win32/api/winuser/nf-winuser-is_pointer_new_wparam)<br/>                   | Checks whether the specified pointer is a new pointer. <br/>                                                                  |
-| [**IS_POINTER_PRIMARY_WPARAM**](/previous-versions/windows/desktop/api)<br/>           | Checks whether the specified pointer is the primary pointer. <br/>                                                            |
+| [**IS_POINTER_PRIMARY_WPARAM**](/windows/win32/api/winuser/nf-winuser-is_pointer_primary_wparam)<br/>           | Checks whether the specified pointer is the primary pointer. <br/>                                                            |
 | [**IS_POINTER_SECONDBUTTON_WPARAM**](/windows/win32/api/winuser/nf-winuser-is_pointer_secondbutton_wparam)<br/> | Checks whether the specified pointer took second action. <br/>                                                                |
 | [**IS_POINTER_THIRDBUTTON_WPARAM**](/windows/win32/api/winuser/nf-winuser-is_pointer_thirdbutton_wparam)<br/>   | Checks whether the specified pointer took third action. <br/>                                                                 |
 
