@@ -19,7 +19,7 @@ This topic is organized as follows:
 -   [Best Practices](#best-practices-for-shortcut-menu-handlers-and-multiple-verbs)
     -   [Best Practices for Verb Implementations](#best-practices-for-verb-implementations)
 -   [Best Practices for Multiple Selection Verbs](#best-practices-for-multiple-selection-verbs)
-    -   [Heterogenous Selections](#heterogenous-selections)
+    -   [Heterogeneous Selections](#heterogenous-selections)
 -   [Related topics](#related-topics)
 
 ## Best Practices
@@ -55,7 +55,7 @@ In Windows 7 and later, the number of items passed to a verb is limited to 16 w
 
 It is appropriate in some cases to consider a small number of fixed items. For example, it is appropriate for a "diff" verb to consider only the first two items. Generally, you need not test every item in the selection to see if it is a certain type, or query every item in the selection for its properties. Look rather at the first item and decide if it is appropriate to add your verb.
 
-### Heterogenous Selections
+### Heterogeneous Selections
 
 Optimistic verbs are automatically added in the multi-selection case, assuming that uninspected items can be handled by the verb. In contrast, pessimistic verbs are not added when the selection contains uninspected items, and are only added in cases where the number of items is small.
 

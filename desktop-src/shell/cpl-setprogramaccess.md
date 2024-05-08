@@ -39,7 +39,7 @@ This tool is used for the following five client types.
 
 -   Browser
 -   Email
--   Instant messenging program
+-   Instant messaging program
 -   Media player
 -   Virtual machine for Java
 
