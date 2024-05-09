@@ -1,5 +1,5 @@
 ---
-Description: An abstract class defining the common properties of the policy managed elements derived from CIM\_Policy.
+description: An abstract class defining the common properties of the policy managed elements derived from CIM\_Policy.
 ms.assetid: a87d754a-5e32-4f36-aabb-83ffcd113a9d
 title: CIM\_Policy class
 

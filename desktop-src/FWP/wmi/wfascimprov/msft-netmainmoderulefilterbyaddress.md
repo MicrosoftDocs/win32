@@ -1,5 +1,5 @@
 ---
-Description: Filters a main mode rule by address.
+description: Filters a main mode rule by address.
 ms.assetid: fd4e2bfd-8fd3-4744-8f4c-1e6c40ee0637
 title: MSFT\_NetMainModeRuleFilterByAddress class
 

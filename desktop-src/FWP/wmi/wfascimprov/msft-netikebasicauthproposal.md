@@ -1,5 +1,5 @@
 ---
-Description: Represents an auth proposal. Instances of this class only exist as embedded instances within a MSFT\_NetIKEP1AuthSet and MSFT\_NetIKEP2AuthSet.
+description: Represents an auth proposal. Instances of this class only exist as embedded instances within a MSFT\_NetIKEP1AuthSet and MSFT\_NetIKEP2AuthSet.
 ms.assetid: c2bebf7d-8114-4f14-b214-1ad6af0abd5e
 title: MSFT\_NetIKEBasicAuthProposal class
 

@@ -1,5 +1,5 @@
 ---
-Description: Copy this set.
+description: Copy this set.
 ms.assetid: dd3d7786-3d33-4440-a04b-8a9b6af69937
 title: CloneObject method of the MSFT\_NetIKEP1AuthSet class
 

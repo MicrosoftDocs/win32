@@ -1,5 +1,5 @@
 ---
-Description: Associates a FirewallRule to its AddressFilter.
+description: Associates a FirewallRule to its AddressFilter.
 ms.assetid: 3dcc0d87-da52-43f9-8323-21a795676051
 title: MSFT\_NetFirewallRuleFilterByAddress class
 

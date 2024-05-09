@@ -1,5 +1,5 @@
 ---
-Description: Serves as a base class for classes that provide access to network settings, including MSFT\_NetCompartment and MSFT\_NetOffloadGlobalSetting.
+description: Serves as a base class for classes that provide access to network settings, including MSFT\_NetCompartment and MSFT\_NetOffloadGlobalSetting.
 ms.assetid: eef60c3e-4481-49f8-8dc7-73804e92f1b5
 title: MSFT\_NetSettingData class
 

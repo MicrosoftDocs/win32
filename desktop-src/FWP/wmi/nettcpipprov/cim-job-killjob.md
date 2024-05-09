@@ -1,5 +1,5 @@
 ---
-Description: KillJob is being deprecated because there is no distinction made between an orderly shutdown and an immediate kill. RequestStateChange provides Terminate and Kill options to allow this distinction.
+description: KillJob is being deprecated because there is no distinction made between an orderly shutdown and an immediate kill. RequestStateChange provides Terminate and Kill options to allow this distinction.
 ms.assetid: 142fadc7-2afe-4da9-a2cf-33b98afbb134
 title: KillJob method of the CIM\_Job class
 

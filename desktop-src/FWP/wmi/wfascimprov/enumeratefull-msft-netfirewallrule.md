@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the dependent parts of every Windows firewall rule.
+description: Enumerates the dependent parts of every Windows firewall rule.
 ms.assetid: ccd1ae3e-6ad9-4287-983d-673f8ea58e57
 title: EnumerateFull method of the MSFT\_NetFirewallRule class
 

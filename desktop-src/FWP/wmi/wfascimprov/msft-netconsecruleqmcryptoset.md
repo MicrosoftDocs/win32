@@ -1,5 +1,5 @@
 ---
-Description: Relates a connection security rule to its Quick Mode Crypto Set.
+description: Relates a connection security rule to its Quick Mode Crypto Set.
 ms.assetid: d6e6f654-09ac-4666-a8f5-f364a5045514
 title: MSFT\_NetConSecRuleQMCryptoSet class
 

@@ -1,5 +1,5 @@
 ---
-Description: Associates a firewall rule with its filters. Instances of this class can be traversed and the values in the associated filters can be modified, but instances of this class may not be created or deleted.
+description: Associates a firewall rule with its filters. Instances of this class can be traversed and the values in the associated filters can be modified, but instances of this class may not be created or deleted.
 ms.assetid: 99f07c0b-e30d-4cbf-8f78-b52c9832b0a8
 title: MSFT\_NetFirewallRuleFilters class
 

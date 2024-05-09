@@ -1,5 +1,5 @@
 ---
-Description: Represents an auth proposal for Kerberos.
+description: Represents an auth proposal for Kerberos.
 ms.assetid: a1a8b0a7-5180-4cf3-aff9-fab556b9730a
 title: MSFT\_NetIKEKerbAuthProposal class
 

@@ -1,5 +1,5 @@
 ---
-Description: Associates a logical port with one or more protocol endpoints that are implemented on it.
+description: Associates a logical port with one or more protocol endpoints that are implemented on it.
 ms.assetid: 80f294fc-1427-489a-a47e-f4811d0b35fd
 title: CIM\_PortImplementsEndpoint class
 

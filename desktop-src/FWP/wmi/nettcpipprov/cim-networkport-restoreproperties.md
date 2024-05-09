@@ -1,5 +1,5 @@
 ---
-Description: Requests that the Device re-establish its configuration, setup and/or state information from a backing store.
+description: Requests that the Device re-establish its configuration, setup and/or state information from a backing store.
 ms.assetid: c6ac4e12-59aa-42b8-9b07-a017ad185b48
 title: RestoreProperties method of the CIM\_NetworkPort class
 

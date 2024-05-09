@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the specified connection security rule.
+description: Retrieves the specified connection security rule.
 ms.assetid: ffbd2a3c-d84b-41db-99ff-70cbf680802d
 title: Find method of the MSFT\_NetConSecRule class
 

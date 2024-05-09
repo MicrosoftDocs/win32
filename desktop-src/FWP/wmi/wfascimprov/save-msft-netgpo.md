@@ -1,5 +1,5 @@
 ---
-Description: Writes the local cached group policy object (GPO) information back to Active Directory Domain Services (AD DS).
+description: Writes the local cached group policy object (GPO) information back to Active Directory Domain Services (AD DS).
 ms.assetid: 7616de2f-cc19-425f-8c0c-90e5a018d909
 title: Save method of the MSFT\_NetGPO class
 

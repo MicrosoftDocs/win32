@@ -1,5 +1,5 @@
 ---
-Description: Represents an auth proposal.
+description: Represents an auth proposal.
 ms.assetid: facf76ef-22bb-427f-b092-29b54615a823
 title: MSFT\_NetIKEAuthProposal class
 

@@ -1,5 +1,5 @@
 ---
-Description: Filters a Windows firewall rule by protocol or port.
+description: Filters a Windows firewall rule by protocol or port.
 ms.assetid: 3545aa9a-f949-4e7f-8e98-a82a72a997ff
 title: MSFT\_NetFirewallRuleFilterByProtocolPort class
 

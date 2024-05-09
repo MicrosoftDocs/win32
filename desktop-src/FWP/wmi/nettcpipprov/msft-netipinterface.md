@@ -1,5 +1,5 @@
 ---
-Description: Represents a TCP/IP (Internet Protocol Suite) network Interface.
+description: Represents a TCP/IP (Internet Protocol Suite) network Interface.
 ms.assetid: 0723efd6-2c98-477b-b4de-f0965675fe05
 title: MSFT\_NetIPInterface class
 

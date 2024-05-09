@@ -1,5 +1,5 @@
 ---
-Description: Represents the UDP connection for the Microsoft TCP/IP WMI v2 provider.
+description: Represents the UDP connection for the Microsoft TCP/IP WMI v2 provider.
 ms.assetid: 894d72a3-eeda-45e9-a868-67cae8c7f34a
 title: MSFT\_NetUDPEndpoint class
 

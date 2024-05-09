@@ -1,5 +1,5 @@
 ---
-Description: An identity used by IPsec.
+description: An identity used by IPsec.
 ms.assetid: 64ba4a6f-abc8-4cc7-912d-730f80b8c7b4
 title: MSFT\_NetIPsecIdentity class
 

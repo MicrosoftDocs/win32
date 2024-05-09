@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an IP route to the specified remote address.
+description: Retrieves an IP route to the specified remote address.
 ms.assetid: 419427b0-199f-4d52-806b-d1e1f98f28c0
 title: Find method of the MSFT\_NetRoute class
 

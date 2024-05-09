@@ -1,5 +1,5 @@
 ---
-Description: Relates an IPsec rule to its Main Mode crypto set.
+description: Relates an IPsec rule to its Main Mode crypto set.
 ms.assetid: 0d821c6f-ea2f-4063-9b3e-4d2461ac7884
 title: MSFT\_NetSARuleMMCrypto class
 

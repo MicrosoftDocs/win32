@@ -1,5 +1,5 @@
 ---
-Description: The base class for the MSFT\_NetIPv4Protocol and MSFT\_NetIPv6Protocol classes for the Microsoft TCP/IP WMI v. 2 provider.
+description: The base class for the MSFT\_NetIPv4Protocol and MSFT\_NetIPv6Protocol classes for the Microsoft TCP/IP WMI v. 2 provider.
 ms.assetid: c1f6cfc8-56dc-4b9a-a955-da4638bb2e95
 title: MSFT\_NetBaseIPProtocol class
 

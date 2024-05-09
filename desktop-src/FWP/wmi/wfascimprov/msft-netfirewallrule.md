@@ -1,5 +1,5 @@
 ---
-Description: Represents a Windows firewall rule.
+description: Represents a Windows firewall rule.
 ms.assetid: f16e26ee-3072-4254-b905-0c584b607297
 title: MSFT\_NetFirewallRule class
 

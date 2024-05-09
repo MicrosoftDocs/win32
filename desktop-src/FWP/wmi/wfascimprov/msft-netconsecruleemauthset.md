@@ -1,5 +1,5 @@
 ---
-Description: Relates a connection security rule to its Phase 2 Authentication Set.
+description: Relates a connection security rule to its Phase 2 Authentication Set.
 ms.assetid: b55ed17f-51d1-404a-8cfc-765db3ba32ae
 title: MSFT\_NetConSecRuleEMAuthSet class
 

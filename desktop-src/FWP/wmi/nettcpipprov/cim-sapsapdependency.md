@@ -1,5 +1,5 @@
 ---
-Description: CIM\_SAPSAPDependency is an association between one ServiceAccessPoint and another ServiceAccessPoint that indicates that the latter is required for the former to utilize or connect with its Service.
+description: CIM\_SAPSAPDependency is an association between one ServiceAccessPoint and another ServiceAccessPoint that indicates that the latter is required for the former to utilize or connect with its Service.
 ms.assetid: 0b806e1e-2536-4c68-8a69-acedbb929023
 title: CIM\_SAPSAPDependency class
 

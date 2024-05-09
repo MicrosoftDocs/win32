@@ -1,5 +1,5 @@
 ---
-Description: Apply IPsec policy deltas.
+description: Apply IPsec policy deltas.
 ms.assetid: e4a0e32e-826e-4f09-95e3-14da3c8b3aa2
 title: SetPolicyDelta method of the MSFT\_NetConSecRule class
 

@@ -1,5 +1,5 @@
 ---
-Description: Filters traffic based on which local application is sending or receiving the traffic.
+description: Filters traffic based on which local application is sending or receiving the traffic.
 ms.assetid: 5505bd0d-16a9-4251-a0aa-a82c8896d8c3
 title: MSFT\_NetApplicationFilter class
 

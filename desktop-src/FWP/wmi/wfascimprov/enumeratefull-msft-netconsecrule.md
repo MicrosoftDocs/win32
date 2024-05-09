@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the dependent parts of every connection security rule.
+description: Enumerates the dependent parts of every connection security rule.
 ms.assetid: 41919dc0-5603-4c07-9471-38ff00d24490
 title: EnumerateFull method of the MSFT\_NetConSecRule class
 

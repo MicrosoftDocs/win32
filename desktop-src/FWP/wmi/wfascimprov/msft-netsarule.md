@@ -1,5 +1,5 @@
 ---
-Description: Represents an IPsec Rule. Subtypes differentiate between Connection Security Rules (MSFT\_NetConSecRule) and Main Mode Rules (MSFT\_NetMainModeRule).
+description: Represents an IPsec Rule. Subtypes differentiate between Connection Security Rules (MSFT\_NetConSecRule) and Main Mode Rules (MSFT\_NetMainModeRule).
 ms.assetid: 6852040f-ba00-4f48-b468-d4a204370d3a
 title: MSFT\_NetSARule class
 

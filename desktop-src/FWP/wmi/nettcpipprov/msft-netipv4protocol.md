@@ -1,5 +1,5 @@
 ---
-Description: Represents the IPv4 protocol of the Microsoft TCP/IP WMI v2 provider.
+description: Represents the IPv4 protocol of the Microsoft TCP/IP WMI v2 provider.
 ms.assetid: 43e09d6e-9fc4-4b67-a5fc-54ad0785a07f
 title: MSFT\_NetIPv4Protocol class
 

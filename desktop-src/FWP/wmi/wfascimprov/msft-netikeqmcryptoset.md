@@ -1,5 +1,5 @@
 ---
-Description: Specifies parameters for the quick mode negotiation as well as dictating the crypto sets that should be proposed during the exchange.
+description: Specifies parameters for the quick mode negotiation as well as dictating the crypto sets that should be proposed during the exchange.
 ms.assetid: ec5f1d79-5c20-4a79-9ffd-d31c9e61c131
 title: MSFT\_NetIKEQMCryptoSet class
 

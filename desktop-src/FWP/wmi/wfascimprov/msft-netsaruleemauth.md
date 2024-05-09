@@ -1,5 +1,5 @@
 ---
-Description: Relates an IPsec rule to its Phase 2 Authentication Set.
+description: Relates an IPsec rule to its Phase 2 Authentication Set.
 ms.assetid: 3f75cdcb-5387-4187-889e-5f46a4657d66
 title: MSFT\_NetSARuleEMAuth class
 

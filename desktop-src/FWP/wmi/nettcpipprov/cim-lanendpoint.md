@@ -1,5 +1,5 @@
 ---
-Description: A communication endpoint which, when its associated interface device is connected to a LAN, may send and receive data frames. LAN endpoints include Ethernet, Token Ring and FDDI interfaces.
+description: A communication endpoint which, when its associated interface device is connected to a LAN, may send and receive data frames. LAN endpoints include Ethernet, Token Ring and FDDI interfaces.
 ms.assetid: 92c36001-6576-4daa-9b1c-d29b6ca5a48e
 title: CIM\_LANEndpoint class
 

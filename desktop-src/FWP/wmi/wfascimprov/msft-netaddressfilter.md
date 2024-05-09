@@ -1,5 +1,5 @@
 ---
-Description: Represents a network address filter.
+description: Represents a network address filter.
 ms.assetid: 4248904f-2b92-4407-a808-0d24eb629a41
 title: MSFT\_NetAddressFilter class
 

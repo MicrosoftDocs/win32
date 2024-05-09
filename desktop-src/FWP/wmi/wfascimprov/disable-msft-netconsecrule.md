@@ -1,5 +1,5 @@
 ---
-Description: Disable this rule.
+description: Disable this rule.
 ms.assetid: 7aaa8189-6f67-4478-b028-3fe3a82f9313
 title: Disable method of the MSFT\_NetConSecRule class
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents a TCIP/IP (Internet Protocol Suite) neighbor.
+description: Represents a TCIP/IP (Internet Protocol Suite) neighbor.
 ms.assetid: 31e7a7bd-83b0-4da0-809d-a5ba8940a9fc
 title: MSFT\_NetNeighbor class
 

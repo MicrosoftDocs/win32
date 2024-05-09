@@ -1,5 +1,5 @@
 ---
-Description: Global settings for IPsec.
+description: Global settings for IPsec.
 ms.assetid: b053b16b-97ec-457f-92ed-e8051efe9177
 title: MSFT\_NetSecuritySettingData class
 

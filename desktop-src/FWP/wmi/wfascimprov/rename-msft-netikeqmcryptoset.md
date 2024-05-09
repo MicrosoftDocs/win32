@@ -1,5 +1,5 @@
 ---
-Description: Rename this set.
+description: Rename this set.
 ms.assetid: 77e3d263-423e-425d-8b24-521b9001424b
 title: Rename method of the MSFT\_NetIKEQMCryptoSet class
 

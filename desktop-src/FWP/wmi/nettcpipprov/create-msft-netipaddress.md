@@ -1,5 +1,5 @@
 ---
-Description: Creates the IPAddress.
+description: Creates the IPAddress.
 ms.assetid: 5c4657fd-9cf6-4538-90ee-5aaa881e945b
 title: Create method of the MSFT\_NetIPAddress class
 

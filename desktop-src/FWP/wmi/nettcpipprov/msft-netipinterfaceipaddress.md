@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a TCP/IP network interface and an IP address.
+description: Represents an association between a TCP/IP network interface and an IP address.
 ms.assetid: 953aa139-23d8-4685-9f5e-6524f15827f0
 title: MSFT\_NetIPInterfaceIPAddress class
 

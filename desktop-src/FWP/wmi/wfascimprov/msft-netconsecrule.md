@@ -1,5 +1,5 @@
 ---
-Description: A Connection Security Rule.
+description: A Connection Security Rule.
 ms.assetid: b418de78-1e79-4048-81ad-8f1809038cd7
 title: MSFT\_NetConSecRule class
 

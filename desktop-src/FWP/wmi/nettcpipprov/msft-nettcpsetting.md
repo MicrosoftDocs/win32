@@ -1,5 +1,5 @@
 ---
-Description: Represents the TCP parameter setting for the Microsoft TCP/IP (Internet Protocol Suite) WMIv2 provider.
+description: Represents the TCP parameter setting for the Microsoft TCP/IP (Internet Protocol Suite) WMIv2 provider.
 ms.assetid: 408e1916-7aee-49c7-84e0-4c675ba2cf8d
 title: MSFT\_NetTCPSetting class
 

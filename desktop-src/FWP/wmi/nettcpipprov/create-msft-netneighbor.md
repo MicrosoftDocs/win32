@@ -1,5 +1,5 @@
 ---
-Description: Creates a MSFT\_NetNeighbor object for a new TCP/IP neighbor.
+description: Creates a MSFT\_NetNeighbor object for a new TCP/IP neighbor.
 ms.assetid: 31e7a7bd-83b0-4da0-809d-a5ba8940a9fc
 title: Create method of the MSFT\_NetNeighbor class
 

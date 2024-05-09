@@ -1,5 +1,5 @@
 ---
-Description: NetworkPort is the logical representation of network communications hardware such as a physical connector and the setup or operation of the network chips, at the lowest layers of a network stack.
+description: NetworkPort is the logical representation of network communications hardware such as a physical connector and the setup or operation of the network chips, at the lowest layers of a network stack.
 ms.assetid: 764d156c-004a-4337-b1c4-1a42deab9755
 title: CIM\_NetworkPort class
 

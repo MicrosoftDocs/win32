@@ -1,5 +1,5 @@
 ---
-Description: A set of authentication proposals that can be used in Phase 2 of authentication.
+description: A set of authentication proposals that can be used in Phase 2 of authentication.
 ms.assetid: fcc03491-930c-4788-993d-862b2e29216c
 title: MSFT\_NetIKEP2AuthSet class
 

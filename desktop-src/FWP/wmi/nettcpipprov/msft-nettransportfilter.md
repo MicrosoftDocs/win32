@@ -1,5 +1,5 @@
 ---
-Description: Represents the filter for the transport protocol parameter setting for the Microsoft TCP/IP WMI v2 provider.
+description: Represents the filter for the transport protocol parameter setting for the Microsoft TCP/IP WMI v2 provider.
 ms.assetid: 74af2dae-b298-4752-ab1c-5b43b737a929
 title: MSFT\_NetTransportFilter class
 

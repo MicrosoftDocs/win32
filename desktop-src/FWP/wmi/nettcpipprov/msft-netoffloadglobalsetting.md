@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings for offloading features for Microsoft TCP/IP WMI v2 provider.
+description: Represents the settings for offloading features for Microsoft TCP/IP WMI v2 provider.
 ms.assetid: e9e57c03-097e-4df2-9cc6-82fef81cb056
 title: MSFT\_NetOffloadGlobalSetting class
 

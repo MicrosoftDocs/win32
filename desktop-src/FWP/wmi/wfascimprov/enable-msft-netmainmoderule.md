@@ -1,5 +1,5 @@
 ---
-Description: Enable this rule.
+description: Enable this rule.
 ms.assetid: 4a78eb15-3cbe-4ac1-9d96-8fee043602f8
 title: Enable method of the MSFT\_NetMainModeRule class
 

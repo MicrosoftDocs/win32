@@ -1,5 +1,5 @@
 ---
-Description: Filters a connection security rule by interface type.
+description: Filters a connection security rule by interface type.
 ms.assetid: 2176940d-1cac-4fe0-aa0d-7e93e490d360
 title: MSFT\_NetConSecRuleFilterByInterfaceType class
 

@@ -1,5 +1,5 @@
 ---
-Description: Associates a connection security rule with its filters. Instances of this class can be traversed and the values in the associated filters can be modified, but instances of this class may not be created or deleted.
+description: Associates a connection security rule with its filters. Instances of this class can be traversed and the values in the associated filters can be modified, but instances of this class may not be created or deleted.
 ms.assetid: 09b65154-8fae-4be3-91e2-a8c7ae223adb
 title: MSFT\_NetConSecRuleFilters class
 

@@ -1,5 +1,5 @@
 ---
-Description: Copy this set.
+description: Copy this set.
 ms.assetid: ec5f1d79-5c20-4a79-9ffd-d31c9e61c131
 title: CloneObject method of the MSFT\_NetIKEQMCryptoSet class
 

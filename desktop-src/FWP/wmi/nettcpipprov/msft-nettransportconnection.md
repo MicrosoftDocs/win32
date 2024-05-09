@@ -1,5 +1,5 @@
 ---
-Description: Represents the transport connection for the Microsoft TCP/IP WMI v2 provider.
+description: Represents the transport connection for the Microsoft TCP/IP WMI v2 provider.
 ms.assetid: d92075e3-53db-4bf0-b149-b8d6352b6f0b
 title: MSFT\_NetTransportConnection class
 

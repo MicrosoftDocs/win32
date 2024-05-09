@@ -1,5 +1,5 @@
 ---
-Description: Represents the IPv6 protocol for the Microsoft TCP/IP WMI v2 provider.
+description: Represents the IPv6 protocol for the Microsoft TCP/IP WMI v2 provider.
 ms.assetid: 2e21807f-db8c-4398-b5a5-1f5863c35e40
 title: MSFT\_NetIPv6Protocol class
 

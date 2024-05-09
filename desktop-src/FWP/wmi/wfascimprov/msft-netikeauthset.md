@@ -1,5 +1,5 @@
 ---
-Description: A list of auth suites, in preferential order, to use when negotiating an SA.
+description: A list of auth suites, in preferential order, to use when negotiating an SA.
 ms.assetid: f2712e04-c1c6-4445-8a47-3f8461eeae97
 title: MSFT\_NetIKEAuthSet class
 

@@ -1,5 +1,5 @@
 ---
-Description: IPSec policy delta.
+description: IPSec policy delta.
 ms.assetid: 21fcb024-f7f9-4fda-a760-0268f0d7855c
 title: MSFT\_NetSecDeltaCollection class
 

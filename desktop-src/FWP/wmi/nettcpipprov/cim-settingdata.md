@@ -1,5 +1,5 @@
 ---
-Description: Represents configuration and operational parameters for CIM\_ManagedElement instances.
+description: Represents configuration and operational parameters for CIM\_ManagedElement instances.
 ms.assetid: d3ba60a7-ec27-4adf-a6be-dceb680cb281
 title: CIM\_SettingData class
 

@@ -1,5 +1,5 @@
 ---
-Description: Copy this rule.
+description: Copy this rule.
 ms.assetid: f16e26ee-3072-4254-b905-0c584b607297
 title: CloneObject method of the MSFT\_NetFirewallRule class
 

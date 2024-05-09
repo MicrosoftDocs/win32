@@ -1,5 +1,5 @@
 ---
-Description: Relates a main mode rule to its Main Mode Crypto Set.
+description: Relates a main mode rule to its Main Mode Crypto Set.
 ms.assetid: 8aef3a12-721e-4167-8a2b-c31fb68d1818
 title: MSFT\_NetMainModeRuleMMCryptoSet class
 

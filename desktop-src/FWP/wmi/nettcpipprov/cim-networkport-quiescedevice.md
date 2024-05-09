@@ -1,5 +1,5 @@
 ---
-Description: The QuiesceDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
+description: The QuiesceDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
 ms.assetid: 9da57956-978c-4a83-8e5c-c32b27a51fd0
 title: QuiesceDevice method of the CIM\_NetworkPort class
 

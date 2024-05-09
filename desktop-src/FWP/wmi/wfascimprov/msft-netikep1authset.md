@@ -1,5 +1,5 @@
 ---
-Description: A set of authentication proposals used in Phase 1 of authentication.
+description: A set of authentication proposals used in Phase 1 of authentication.
 ms.assetid: dd3d7786-3d33-4440-a04b-8a9b6af69937
 title: MSFT\_NetIKEP1AuthSet class
 

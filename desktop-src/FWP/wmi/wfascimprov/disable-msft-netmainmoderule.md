@@ -1,5 +1,5 @@
 ---
-Description: Disable this rule.
+description: Disable this rule.
 ms.assetid: 0fcf95cb-df8e-4284-92a2-c6af5b1c4a0c
 title: Disable method of the MSFT\_NetMainModeRule class
 

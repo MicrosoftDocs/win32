@@ -1,5 +1,5 @@
 ---
-Description: Filters traffic based on which Windows service it is sent or received by.
+description: Filters traffic based on which Windows service it is sent or received by.
 ms.assetid: 9cc1275f-92f1-4bfc-8c97-eda5b0f80be5
 title: MSFT\_NetServiceFilter class
 

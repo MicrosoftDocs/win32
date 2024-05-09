@@ -1,5 +1,5 @@
 ---
-Description: Relates an IPsec rule to its Quick Mode crypto set.
+description: Relates an IPsec rule to its Quick Mode crypto set.
 ms.assetid: 583566c2-d91d-4301-a4ee-ac6aa639c274
 title: MSFT\_NetSARuleQMCrypto class
 

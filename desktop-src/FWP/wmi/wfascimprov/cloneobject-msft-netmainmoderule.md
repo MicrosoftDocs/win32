@@ -1,5 +1,5 @@
 ---
-Description: Copy this rule.
+description: Copy this rule.
 ms.assetid: f917a0fc-8ac1-41ab-b2e7-28180ec88d09
 title: CloneObject method of the MSFT\_NetMainModeRule class
 

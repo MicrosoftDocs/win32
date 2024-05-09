@@ -1,5 +1,5 @@
 ---
-Description: Represents a TCP connection for the Microsoft TCP/IP WMI v2 provider.
+description: Represents a TCP connection for the Microsoft TCP/IP WMI v2 provider.
 ms.assetid: 88d3be0b-07ea-4a6e-a26d-06e714646b18
 title: MSFT\_NetTCPConnection class
 

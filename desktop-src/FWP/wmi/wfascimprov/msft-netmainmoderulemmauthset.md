@@ -1,5 +1,5 @@
 ---
-Description: Relates a main mode rule to its Phase 1 Authentication Set.
+description: Relates a main mode rule to its Phase 1 Authentication Set.
 ms.assetid: 50f57e68-2a79-4a21-9465-cf70d236b9da
 title: MSFT\_NetMainModeRuleMMAuthSet class
 

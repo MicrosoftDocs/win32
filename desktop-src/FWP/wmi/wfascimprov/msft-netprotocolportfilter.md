@@ -1,5 +1,5 @@
 ---
-Description: Filters traffic based on its protocol and port.
+description: Filters traffic based on its protocol and port.
 ms.assetid: 66b3779a-aef3-4079-8a2f-7dfdd9924d27
 title: MSFT\_NetProtocolPortFilter class
 

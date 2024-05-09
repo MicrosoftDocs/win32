@@ -1,5 +1,5 @@
 ---
-Description: Create an IP route.
+description: Create an IP route.
 ms.assetid: 06dfd275-25f9-48bc-8361-87ab1c905c17
 title: Create method of the MSFT\_NetRoute class
 

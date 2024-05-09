@@ -1,5 +1,5 @@
 ---
-Description: Represents the state and management of a connection or trail between endpoints.
+description: Represents the state and management of a connection or trail between endpoints.
 ms.assetid: 2dc4600b-b3fa-4459-b4e5-29db54252f8f
 title: CIM\_NetworkPipe class
 

@@ -1,5 +1,5 @@
 ---
-Description: Serves as a base class for classes that provice access to network settings data, such as MSFT\_NetIPsecDoSPSetting and MSFT\_NetSecuritySettingData.
+description: Serves as a base class for classes that provice access to network settings data, such as MSFT\_NetIPsecDoSPSetting and MSFT\_NetSecuritySettingData.
 ms.assetid: 33499cab-f593-47b6-852a-fb20278e1339
 title: MSFT\_NetSettingData class
 

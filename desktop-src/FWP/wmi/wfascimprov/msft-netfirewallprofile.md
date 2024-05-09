@@ -1,5 +1,5 @@
 ---
-Description: Represents a particular firewall profile. Multiple profiles may be in effect on any interface at any given time.
+description: Represents a particular firewall profile. Multiple profiles may be in effect on any interface at any given time.
 ms.assetid: 655385bd-9836-4645-b4b8-f61451e0a25f
 title: MSFT\_NetFirewallProfile class
 

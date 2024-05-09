@@ -1,5 +1,5 @@
 ---
-Description: Associates a firewall rule with a profile that it is in.
+description: Associates a firewall rule with a profile that it is in.
 ms.assetid: c5dae148-e59e-4d76-9544-8d49ed234adc
 title: MSFT\_NetFirewallRuleInProfile class
 

@@ -1,5 +1,5 @@
 ---
-Description: Requests that the Device capture its current configuration, setup and/or state information in a backing store.
+description: Requests that the Device capture its current configuration, setup and/or state information in a backing store.
 ms.assetid: 829198fc-3af7-4121-a908-536838dd0fb0
 title: SaveProperties method of the CIM\_NetworkPort class
 

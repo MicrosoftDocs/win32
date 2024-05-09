@@ -1,5 +1,5 @@
 ---
-Description: Reads a group policy object (GPO) and caches the results locally.
+description: Reads a group policy object (GPO) and caches the results locally.
 ms.assetid: e2f3b0d1-7294-4fec-ad4f-d757eb64f5c3
 title: Open method of the MSFT\_NetGPO class
 

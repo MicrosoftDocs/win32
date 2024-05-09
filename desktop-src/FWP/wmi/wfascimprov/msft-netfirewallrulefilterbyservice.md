@@ -1,5 +1,5 @@
 ---
-Description: Filters a Windows firewall rule by Windows service.
+description: Filters a Windows firewall rule by Windows service.
 ms.assetid: bccf6766-6beb-428b-90c2-1002b20eb244
 title: MSFT\_NetFirewallRuleFilterByService class
 

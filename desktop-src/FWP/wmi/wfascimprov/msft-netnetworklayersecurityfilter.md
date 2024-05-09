@@ -1,5 +1,5 @@
 ---
-Description: Filters traffic based on certain high-level security constraints, like whether or not the traffic is encrypted. Connection Security rules will have to be created in order for traffic to pass the rule.
+description: Filters traffic based on certain high-level security constraints, like whether or not the traffic is encrypted. Connection Security rules will have to be created in order for traffic to pass the rule.
 ms.assetid: c15bbfa6-5f0f-4500-b717-9522f05c67bb
 title: MSFT\_NetNetworkLayerSecurityFilter class
 

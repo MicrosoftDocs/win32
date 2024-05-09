@@ -1,5 +1,5 @@
 ---
-Description: Links an IPsec rule to its auth and crypto sets.
+description: Links an IPsec rule to its auth and crypto sets.
 ms.assetid: 10a0bd87-3762-4f43-b67d-22ac30db0eb1
 title: MSFT\_NetSAActionInSARule class
 

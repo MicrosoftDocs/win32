@@ -1,5 +1,5 @@
 ---
-Description: Rename this rule.
+description: Rename this rule.
 ms.assetid: d3dd0f43-1814-4856-b0af-991088497753
 title: Rename method of the MSFT\_NetMainModeRule class
 

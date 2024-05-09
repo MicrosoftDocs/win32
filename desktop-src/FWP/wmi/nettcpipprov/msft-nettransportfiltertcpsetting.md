@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a.
+description: Represents an association between a.
 ms.assetid: 6b602398-2e04-42e4-a7b1-1e48afdb7465
 title: MSFT\_NetTransportFilterTCPSetting class
 

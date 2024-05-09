@@ -1,5 +1,5 @@
 ---
-Description: Denial of Service Prevention Settings for IPsec.
+description: Denial of Service Prevention Settings for IPsec.
 ms.assetid: 53e414c1-aab1-468e-8795-2c63878ca4bb
 title: MSFT\_NetIPsecDoSPSetting class
 

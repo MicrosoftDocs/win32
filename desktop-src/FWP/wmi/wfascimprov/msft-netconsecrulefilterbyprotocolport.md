@@ -1,5 +1,5 @@
 ---
-Description: Filters a connection security rule by protocol or port.
+description: Filters a connection security rule by protocol or port.
 ms.assetid: 21e3c3ef-d543-4e76-9987-3fca2d2e8b85
 title: MSFT\_NetConSecRuleFilterByProtocolPort class
 

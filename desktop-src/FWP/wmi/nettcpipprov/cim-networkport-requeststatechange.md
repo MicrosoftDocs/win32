@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
+description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
 ms.assetid: 4af011bf-605d-4a19-969e-54463f90bb37
 title: RequestStateChange method of the CIM\_NetworkPort class
 

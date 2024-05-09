@@ -1,5 +1,5 @@
 ---
-Description: Rename this rule.
+description: Rename this rule.
 ms.assetid: f1544764-f92d-41d2-ad64-f1294c2a5c95
 title: Rename method of the MSFT\_NetConSecRule class
 

@@ -1,5 +1,5 @@
 ---
-Description: The OnlineDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
+description: The OnlineDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
 ms.assetid: 2a5b92b2-9138-42a4-ac32-c6bd4917c0e2
 title: OnlineDevice method of the CIM\_LogicalPort class
 

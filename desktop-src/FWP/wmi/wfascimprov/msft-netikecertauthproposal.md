@@ -1,5 +1,5 @@
 ---
-Description: Represents an auth proposal that uses certificates to authenticate the remote peer. Instances of this class only exist as embedded instances within a MSFT\_NetIKEP1AuthSet and MSFT\_NetIKEP2AuthSet.
+description: Represents an auth proposal that uses certificates to authenticate the remote peer. Instances of this class only exist as embedded instances within a MSFT\_NetIKEP1AuthSet and MSFT\_NetIKEP2AuthSet.
 ms.assetid: f1cde1bf-3e6d-403a-bdb8-49e1ad70e36d
 title: MSFT\_NetIKECertAuthProposal class
 

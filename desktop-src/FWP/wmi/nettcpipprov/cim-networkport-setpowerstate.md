@@ -1,5 +1,5 @@
 ---
-Description: Sets the power state of the Device. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
+description: Sets the power state of the Device. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
 ms.assetid: 17af9dd8-a473-4f99-b439-1d0174d1d22a
 title: SetPowerState method of the CIM\_NetworkPort class
 

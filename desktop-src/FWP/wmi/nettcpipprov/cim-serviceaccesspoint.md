@@ -1,5 +1,5 @@
 ---
-Description: CIM\_ServiceAccessPoint represents the ability to utilize or invoke a Service. Access points represent that a Service is made available for other entities to use.
+description: CIM\_ServiceAccessPoint represents the ability to utilize or invoke a Service. Access points represent that a Service is made available for other entities to use.
 ms.assetid: e0c1b09b-607d-4b75-a6eb-d1205b776f06
 title: CIM\_ServiceAccessPoint class
 

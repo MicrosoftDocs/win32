@@ -1,5 +1,5 @@
 ---
-Description: The representation of IPv4 address and IPv6 address.
+description: The representation of IPv4 address and IPv6 address.
 ms.assetid: 5c4657fd-9cf6-4538-90ee-5aaa881e945b
 title: MSFT\_NetIPAddress class
 

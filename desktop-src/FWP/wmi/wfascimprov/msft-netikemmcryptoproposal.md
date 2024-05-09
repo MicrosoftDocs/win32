@@ -1,5 +1,5 @@
 ---
-Description: Represents a crypto suite to propose in main mode.
+description: Represents a crypto suite to propose in main mode.
 ms.assetid: dcb539e6-1ec3-4224-a479-0dd636e28fb1
 title: MSFT\_NetIKEMMCryptoProposal class
 

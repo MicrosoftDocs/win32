@@ -1,5 +1,5 @@
 ---
-Description: The base class for the System Element hierarchy.
+description: The base class for the System Element hierarchy.
 ms.assetid: 8f629bb9-c388-4626-ae14-85489d79f9f5
 title: CIM\_ManagedSystemElement class
 

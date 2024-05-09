@@ -1,5 +1,5 @@
 ---
-Description: Filters a Windows firewall rule by application.
+description: Filters a Windows firewall rule by application.
 ms.assetid: 42a0512b-2ba6-4557-b2e4-4a74c1049977
 title: MSFT\_NetFirewallRuleFilterByApplication class
 

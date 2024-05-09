@@ -1,5 +1,5 @@
 ---
-Description: Aggregates instances of (subclasses of) FilterEntryBase via the aggregation EntriesInFilterList.
+description: Aggregates instances of (subclasses of) FilterEntryBase via the aggregation EntriesInFilterList.
 ms.assetid: 2829725a-9061-4753-a4ed-e19b39d6f542
 title: CIM\_FilterEntryBase class
 

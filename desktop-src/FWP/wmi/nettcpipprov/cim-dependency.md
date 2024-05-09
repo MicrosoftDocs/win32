@@ -1,5 +1,5 @@
 ---
-Description: A generic association used to establish dependency relationships between managed elements.
+description: A generic association used to establish dependency relationships between managed elements.
 ms.assetid: dce968b1-9ec3-4f59-8267-78dd0002a780
 title: CIM\_Dependency class
 

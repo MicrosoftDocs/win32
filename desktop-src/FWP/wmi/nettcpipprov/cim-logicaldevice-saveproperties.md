@@ -1,5 +1,5 @@
 ---
-Description: Requests that the Device capture its current configuration, setup and/or state information in a backing store.
+description: Requests that the Device capture its current configuration, setup and/or state information in a backing store.
 ms.assetid: dda58426-b7fa-4abe-9127-12cc03ce377c
 title: SaveProperties method of the CIM\_LogicalDevice class
 

@@ -1,5 +1,5 @@
 ---
-Description: RemoteServiceAccessPoint describes access or addressing information or a combination of this information for a remote connection that is known to a local network element.
+description: RemoteServiceAccessPoint describes access or addressing information or a combination of this information for a remote connection that is known to a local network element.
 ms.assetid: d50ce1c9-f7b4-41d4-88d2-8a22800a0a74
 title: CIM\_RemoteServiceAccessPoint class
 

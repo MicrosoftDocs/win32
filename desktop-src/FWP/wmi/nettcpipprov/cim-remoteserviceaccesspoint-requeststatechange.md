@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
+description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
 ms.assetid: 537c84ce-b6b4-42d2-868e-e6c717210b74
 title: RequestStateChange method of the CIM\_RemoteServiceAccessPoint class
 

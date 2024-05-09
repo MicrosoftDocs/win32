@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
+description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
 ms.assetid: e7abe051-c834-450d-83a1-7b6e58fe90f2
 title: RequestStateChange method of the CIM\_LogicalDevice class
 

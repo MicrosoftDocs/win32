@@ -1,5 +1,5 @@
 ---
-Description: A communication point from which data can be sent or received.
+description: A communication point from which data can be sent or received.
 ms.assetid: 2e99bcb6-3fa1-4263-90a2-db702af50da8
 title: CIM\_ProtocolEndpoint class
 

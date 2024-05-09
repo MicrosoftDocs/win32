@@ -1,5 +1,5 @@
 ---
-Description: A rule that alters the behavior of main-mode authentications.
+description: A rule that alters the behavior of main-mode authentications.
 ms.assetid: f917a0fc-8ac1-41ab-b2e7-28180ec88d09
 title: MSFT\_NetMainModeRule class
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents a suite of crypto algorithms to propose.
+description: Represents a suite of crypto algorithms to propose.
 ms.assetid: 782c9a8b-6b8b-4e4e-b510-5cfe378fba53
 title: MSFT\_NetIKECryptoProposal class
 

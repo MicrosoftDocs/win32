@@ -1,5 +1,5 @@
 ---
-Description: An abstraction or emulation of a hardware entity, that may or may not be Realized in physical hardware.
+description: An abstraction or emulation of a hardware entity, that may or may not be Realized in physical hardware.
 ms.assetid: 11d8cbf9-264f-42b1-a0fa-be0b3a6065b9
 title: CIM\_LogicalDevice class
 

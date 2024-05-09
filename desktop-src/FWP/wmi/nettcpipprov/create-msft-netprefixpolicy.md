@@ -1,5 +1,5 @@
 ---
-Description: Creates a prefix policy.
+description: Creates a prefix policy.
 ms.assetid: a6205f16-a30b-43ee-9587-e7d721f04e44
 title: Create method of the MSFT\_NetPrefixPolicy class
 

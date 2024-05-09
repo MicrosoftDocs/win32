@@ -1,5 +1,5 @@
 ---
-Description: Represents an IP route for the TCP/IP (Internet Protocol Suite) WMIv2 provider.
+description: Represents an IP route for the TCP/IP (Internet Protocol Suite) WMIv2 provider.
 ms.assetid: 06dfd275-25f9-48bc-8361-87ab1c905c17
 title: MSFT\_NetRoute class
 

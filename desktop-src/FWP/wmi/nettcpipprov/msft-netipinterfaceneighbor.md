@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a TCP/IP network interface and a TCP/IP neighbor.
+description: Represents an association between a TCP/IP network interface and a TCP/IP neighbor.
 ms.assetid: 5a52e983-70c5-4e00-9220-6f5cf26484e0
 title: MSFT\_NetIPInterfaceNeighbor class
 

@@ -1,5 +1,5 @@
 ---
-Description: This section provides reference information for NetTCPIP provider classes.
+description: This section provides reference information for NetTCPIP provider classes.
 ms.assetid: 5767766E-5EAB-4606-B2AE-7245BAF655D4
 title: NetTCPIP Provider
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents the prefix policy for the Microsoft TCP/IP WMI v2 provider.
+description: Represents the prefix policy for the Microsoft TCP/IP WMI v2 provider.
 ms.assetid: a6205f16-a30b-43ee-9587-e7d721f04e44
 title: MSFT\_NetPrefixPolicy class
 

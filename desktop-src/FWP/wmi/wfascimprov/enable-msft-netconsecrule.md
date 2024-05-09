@@ -1,5 +1,5 @@
 ---
-Description: Enable this rule.
+description: Enable this rule.
 ms.assetid: 5dea20ee-a352-457a-a7ba-e110145eb636
 title: Enable method of the MSFT\_NetConSecRule class
 

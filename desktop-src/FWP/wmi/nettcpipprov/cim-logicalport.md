@@ -1,5 +1,5 @@
 ---
-Description: The abstraction of a port or connection point of a Device. This object should be instantiated when the Port has independent management characteristics from the Device that includes it. Examples are a Fibre Channel Port and a USB Port.
+description: The abstraction of a port or connection point of a Device. This object should be instantiated when the Port has independent management characteristics from the Device that includes it. Examples are a Fibre Channel Port and a USB Port.
 ms.assetid: a28d16e6-cd48-4377-a32d-0551e0de936d
 title: CIM\_LogicalPort class
 

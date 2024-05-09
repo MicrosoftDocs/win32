@@ -1,5 +1,5 @@
 ---
-Description: Associates a main mode rule with its filters. Instances of this class can be traversed and the values in the associated filters can be modified, but instances of this class may not be created or deleted.
+description: Associates a main mode rule with its filters. Instances of this class can be traversed and the values in the associated filters can be modified, but instances of this class may not be created or deleted.
 ms.assetid: 1bfef69c-2a5c-46f0-955a-8243fd61bbe4
 title: MSFT\_NetMainModeRuleFilters class
 

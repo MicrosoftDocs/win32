@@ -1,5 +1,5 @@
 ---
-Description: Requests that the Device re-establish its configuration, setup and/or state information from a backing store.
+description: Requests that the Device re-establish its configuration, setup and/or state information from a backing store.
 ms.assetid: c3bdb957-a2ca-478f-a393-2efac38d031f
 title: RestoreProperties method of the CIM\_LogicalPort class
 

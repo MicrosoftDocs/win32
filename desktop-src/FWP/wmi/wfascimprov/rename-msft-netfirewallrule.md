@@ -1,5 +1,5 @@
 ---
-Description: Rename this rule.
+description: Rename this rule.
 ms.assetid: 7bf451ff-f6c7-4dd1-a23b-e140daa443d3
 title: Rename method of the MSFT\_NetFirewallRule class
 

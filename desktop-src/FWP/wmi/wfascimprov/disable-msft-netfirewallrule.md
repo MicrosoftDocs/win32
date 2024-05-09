@@ -1,5 +1,5 @@
 ---
-Description: Disable this rule.
+description: Disable this rule.
 ms.assetid: 32b5e70e-a257-4f28-ae4b-6cdc4f3f8f77
 title: Disable method of the MSFT\_NetFirewallRule class
 

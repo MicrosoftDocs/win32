@@ -1,5 +1,5 @@
 ---
-Description: The EnableDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
+description: The EnableDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
 ms.assetid: af9601df-d6ee-445a-8ca5-784fd774713b
 title: EnableDevice method of the CIM\_LogicalPort class
 

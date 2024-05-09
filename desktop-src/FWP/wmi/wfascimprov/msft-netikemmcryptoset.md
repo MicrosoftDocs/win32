@@ -1,5 +1,5 @@
 ---
-Description: For a Main Mode or Connection Security rule, sets parameters for the main mode negotiation and describes the crypto proposals that should be negotiated.
+description: For a Main Mode or Connection Security rule, sets parameters for the main mode negotiation and describes the crypto proposals that should be negotiated.
 ms.assetid: d8f8d4ac-f3e9-41d7-94c1-4724630d4374
 title: MSFT\_NetIKEMMCryptoSet class
 

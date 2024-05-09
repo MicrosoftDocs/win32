@@ -1,5 +1,5 @@
 ---
-Description: A list of crypto suites, in preferential order, to use when negotiating an SA.
+description: A list of crypto suites, in preferential order, to use when negotiating an SA.
 ms.assetid: 8d52f54c-0747-457a-9947-dcfee77b904d
 title: MSFT\_NetIKECryptoSet class
 

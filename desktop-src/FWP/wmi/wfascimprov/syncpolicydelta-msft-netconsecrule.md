@@ -1,5 +1,5 @@
 ---
-Description: Synchronize IPsec policy.
+description: Synchronize IPsec policy.
 ms.assetid: b5e51ada-736f-41e8-beed-66dd4de41fc2
 title: SyncPolicyDelta method of the MSFT\_NetConSecRule class
 

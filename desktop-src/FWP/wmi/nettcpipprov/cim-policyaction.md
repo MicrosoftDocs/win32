@@ -1,5 +1,5 @@
 ---
-Description: A class representing a rule-specific or reusable policy action to be performed if the policy conditions for a policy rule evaluate to TRUE.
+description: A class representing a rule-specific or reusable policy action to be performed if the policy conditions for a policy rule evaluate to TRUE.
 ms.assetid: 13e2f421-00d7-44d3-804b-8ff6c5d286e9
 title: CIM\_PolicyAction class
 

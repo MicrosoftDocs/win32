@@ -1,5 +1,5 @@
 ---
-Description: Represents the UDP parameter setting for the Microsoft TCP/IP WMI v2 provider.
+description: Represents the UDP parameter setting for the Microsoft TCP/IP WMI v2 provider.
 ms.assetid: 84f51eec-7acf-4f54-b591-0e09971358ff
 title: MSFT\_NetUDPSetting class
 

@@ -1,5 +1,5 @@
 ---
-Description: Filters traffic based on what interface it is sent or received on.
+description: Filters traffic based on what interface it is sent or received on.
 ms.assetid: 0c5a8cca-ca8e-4d69-9f53-cab91a40cefa
 title: MSFT\_NetInterfaceFilter class
 

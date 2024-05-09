@@ -1,5 +1,5 @@
 ---
-Description: A MainMode SA.
+description: A MainMode SA.
 ms.assetid: 064fcd6b-3bf9-4a41-bd01-221aa5a15772
 title: MSFT\_NetSAAssociation class
 

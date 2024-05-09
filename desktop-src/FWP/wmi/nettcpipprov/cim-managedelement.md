@@ -1,5 +1,5 @@
 ---
-Description: An abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
+description: An abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
 ms.assetid: b511459a-01a8-406f-ae93-94c9097748c5
 title: CIM\_ManagedElement class
 

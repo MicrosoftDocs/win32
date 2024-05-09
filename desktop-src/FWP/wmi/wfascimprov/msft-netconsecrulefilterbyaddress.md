@@ -1,5 +1,5 @@
 ---
-Description: Filters a connection security rule by address.
+description: Filters a connection security rule by address.
 ms.assetid: 4675c606-abed-4906-b5b9-932c990e413e
 title: MSFT\_NetConSecRuleFilterByAddress class
 

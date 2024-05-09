@@ -1,5 +1,5 @@
 ---
-Description: This class does not have any instances. It is used to manage locally-cached Group Policy Objects.
+description: This class does not have any instances. It is used to manage locally-cached Group Policy Objects.
 ms.assetid: 827f9188-6115-4dd7-b3f0-678025ec6635
 title: MSFT\_NetGPO class
 

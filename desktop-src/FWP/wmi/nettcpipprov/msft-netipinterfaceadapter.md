@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a TCP/IP network interface and a network port.
+description: Represents an association between a TCP/IP network interface and a network port.
 ms.assetid: 0a9ffc0f-15f4-4d5a-b7c8-77534a285dc7
 title: MSFT\_NetIPInterfaceAdapter class
 

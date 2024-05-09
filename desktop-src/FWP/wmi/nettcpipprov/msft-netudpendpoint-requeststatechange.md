@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
+description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
 ms.assetid: c13ec808-bc03-4440-a162-cc415384dd8b
 title: RequestStateChange method of the MSFT\_NetUDPEndpoint class
 

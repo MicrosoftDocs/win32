@@ -1,5 +1,5 @@
 ---
-Description: Associates a policy rule to its filters.
+description: Associates a policy rule to its filters.
 ms.assetid: 368b7ec6-d310-4e11-8ccc-abb091705222
 title: MSFT\_NetPolicyRuleFilters class
 

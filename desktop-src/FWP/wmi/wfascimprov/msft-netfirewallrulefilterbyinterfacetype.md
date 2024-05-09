@@ -1,5 +1,5 @@
 ---
-Description: Filters a Windows firewall rule by interface type.
+description: Filters a Windows firewall rule by interface type.
 ms.assetid: 0adf2432-0fa1-449c-adaf-22943e3d650c
 title: MSFT\_NetFirewallRuleFilterByInterfaceType class
 

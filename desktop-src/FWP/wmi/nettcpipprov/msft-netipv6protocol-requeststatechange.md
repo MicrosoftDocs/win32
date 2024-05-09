@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
+description: Requests that the state of the element be changed to the value specified in the RequestedState parameter.
 ms.assetid: 7f2aaa23-aca8-4fe0-9c50-bbccd96a9e9a
 title: RequestStateChange method of the MSFT\_NetIPv6Protocol class
 

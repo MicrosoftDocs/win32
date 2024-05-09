@@ -1,5 +1,5 @@
 ---
-Description: Indicates that a rule applies to a particular firewall profile.
+description: Indicates that a rule applies to a particular firewall profile.
 ms.assetid: a48ed98c-2161-439d-a361-ecdd1ca76477
 title: MSFT\_NetConSecRuleInProfile class
 

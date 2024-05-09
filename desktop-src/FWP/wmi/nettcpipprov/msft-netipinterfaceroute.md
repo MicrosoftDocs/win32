@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a TCP/IP network interface and an IP route.
+description: Represents an association between a TCP/IP network interface and an IP route.
 ms.assetid: 52b4b78f-5648-4a70-9da5-49eff23518ca
 title: MSFT\_NetIPInterfaceRoute class
 

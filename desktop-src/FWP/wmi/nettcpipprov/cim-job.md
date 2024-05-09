@@ -1,5 +1,5 @@
 ---
-Description: A logical element that represents an executing unit of work, such as a script or a print job. A Job is distinct from a Process in that a Job can be scheduled or queued, and its execution is not limited to a single system.
+description: A logical element that represents an executing unit of work, such as a script or a print job. A Job is distinct from a Process in that a Job can be scheduled or queued, and its execution is not limited to a single system.
 ms.assetid: 7371d44f-0bcb-44c5-97a1-4df96e09348c
 title: CIM\_Job class
 

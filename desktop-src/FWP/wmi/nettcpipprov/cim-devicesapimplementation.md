@@ -1,5 +1,5 @@
 ---
-Description: An association between a service access point (SAP) and how it is implemented.
+description: An association between a service access point (SAP) and how it is implemented.
 ms.assetid: 7fd1bafd-2890-4972-812e-23f50e62afe7
 title: CIM\_DeviceSAPImplementation class
 

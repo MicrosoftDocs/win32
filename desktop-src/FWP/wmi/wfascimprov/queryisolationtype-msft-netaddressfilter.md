@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the specified network address points to an intranet or Internet network.
+description: Determines whether the specified network address points to an intranet or Internet network.
 ms.assetid: 5479bf61-9539-4c62-be06-2597193cacf2
 title: QueryIsolationType method of the MSFT\_NetAddressFilter class
 

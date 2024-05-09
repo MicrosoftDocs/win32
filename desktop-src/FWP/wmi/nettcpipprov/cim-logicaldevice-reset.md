@@ -1,5 +1,5 @@
 ---
-Description: Requests a reset of the LogicalDevice.
+description: Requests a reset of the LogicalDevice.
 ms.assetid: 809d81b7-d646-485f-a9c4-90957fa9546d
 title: Reset method of the CIM\_LogicalDevice class
 

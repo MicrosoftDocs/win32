@@ -1,5 +1,5 @@
 ---
-Description: A Quick Mode SA.
+description: A Quick Mode SA.
 ms.assetid: f85e0547-79d9-4c4a-970d-f0b37453dcb6
 title: MSFT\_NetQuickModeSA class
 

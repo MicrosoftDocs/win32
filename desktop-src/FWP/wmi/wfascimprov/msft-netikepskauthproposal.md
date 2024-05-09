@@ -1,5 +1,5 @@
 ---
-Description: A Pre-shared Key authentication proposal.
+description: A Pre-shared Key authentication proposal.
 ms.assetid: 1c0ba1ea-4020-44cf-a4f1-496159e21e2c
 title: MSFT\_NetIKEPSKAuthProposal class
 

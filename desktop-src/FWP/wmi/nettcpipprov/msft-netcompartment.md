@@ -1,5 +1,5 @@
 ---
-Description: Represents a routing compartment for the TCP/IP (Internet Protocol Suite) provider.
+description: Represents a routing compartment for the TCP/IP (Internet Protocol Suite) provider.
 ms.assetid: 5a6cc84c-a879-4c3a-bf1c-a9e6ff35c350
 title: MSFT\_NetCompartment class
 

@@ -1,5 +1,5 @@
 ---
-Description: Filters a Windows firewall rule by network layer security.
+description: Filters a Windows firewall rule by network layer security.
 ms.assetid: 8631503b-4180-4ca8-91ae-7eda95fd9c11
 title: MSFT\_NetFirewallRuleFilterBySecurity class
 

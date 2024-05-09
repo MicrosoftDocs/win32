@@ -1,5 +1,5 @@
 ---
-Description: Represents a crypto suite to propose in quick mode.
+description: Represents a crypto suite to propose in quick mode.
 ms.assetid: 4ee6e39c-2358-4e27-a480-e9922770e891
 title: MSFT\_NetIKEQMCryptoProposal class
 

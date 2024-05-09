@@ -1,5 +1,5 @@
 ---
-Description: The base class for all the components of a System that represent abstract system components, such as files, processes, or logical devices.
+description: The base class for all the components of a System that represent abstract system components, such as files, processes, or logical devices.
 ms.assetid: 35d9b309-5558-483a-b2aa-8a76dcf7c464
 title: CIM\_LogicalElement class
 

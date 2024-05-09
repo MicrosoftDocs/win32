@@ -1,5 +1,5 @@
 ---
-Description: Rename this set.
+description: Rename this set.
 ms.assetid: a2ae7eca-dba3-4455-a0a1-9011d73e226c
 title: Rename method of the MSFT\_NetIKEP2AuthSet class
 

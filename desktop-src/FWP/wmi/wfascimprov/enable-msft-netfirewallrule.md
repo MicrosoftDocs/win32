@@ -1,5 +1,5 @@
 ---
-Description: Enable this rule.
+description: Enable this rule.
 ms.assetid: 6c6f635f-de50-4e01-85f1-2f44077f6bdc
 title: Enable method of the MSFT\_NetFirewallRule class
 
