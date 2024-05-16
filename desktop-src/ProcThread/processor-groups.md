@@ -59,6 +59,8 @@ For compatibility reasons, the OS uses a new **Primary Group** concept for both 
 
 Applications can use [**CPU Sets**](/windows/win32/procthread/cpu-sets) to effectively manage a process' or thread's affinity over multiple processor groups.
 
+Some recent processors may show processor groups in an incorrect manner in task manager but this does not affect the performance or usage of the system. When a user right-clicks on a process and chooses ‘Set affinity’, this is when they will see the unusual CPU list. For instance, in Windows Server 2022, a system with 64 logical processors and 2 NUMA nodes may show 4 sets of CPU nodes numbered repeatedly. The list may display CPUs 0 - 15 (Node 0), CPUs 0 - 15 (Node 1), CPUs 0 - 15 (Node 0) again, and CPUs 0 - 15 (Node 1) again. This issue has been resolved in the upcoming version of Windows Server.
+
 ## Related topics
 
 <dl> <dt>
