@@ -1702,9 +1702,9 @@
           href: wmi/netttcimprov/msft-netteredoconfiguration.md
           items: 
           - name: "Reset method"
-            href: wmi/netttcimprov/reset-msft-netteredoconfiguration
+            href: wmi/netttcimprov/reset-msft-netteredoconfiguration.md
         - name: "MSFT_NetTeredoState"
-          href: wmi/netttcimprov/msft-netteredostate
+          href: wmi/netttcimprov/msft-netteredostate.md
       - name: "WFasCim provider"
         href: wmi/wfascimprov/network-security-classes.md
         items: 
@@ -1752,6 +1752,37 @@
           href: wmi/wfascimprov/msft-netconsecrulemmauthset.md
         - name: "MSFT_NetConSecRuleQMCryptoSet"
           href: wmi/wfascimprov/msft-netconsecruleqmcryptoset.md
+        - name: "MSFT_NetFirewallDynamicKeywordAddress"
+          href: wmi/wfascimprov/msft-netfirewalldynamickeywordaddress.md
+          items: 
+          - name: "UpdateDynamicKeywordAddress method"
+            href: wmi/wfascimprov/updatedynamickeywordaddress-msft-netfirewalldynamickeywordaddress.md
+        - name: "MSFT_NetFirewallHyperVPort"
+          href: wmi/wfascimprov/msft-netfirewallhypervport.md
+        - name: "MSFT_NetFirewallHyperVProfile"
+          href: wmi/wfascimprov/msft-netfirewallhypervprofile.md
+        - name: "MSFT_NetFirewallHyperVRule"
+          href: wmi/wfascimprov/msft-netfirewallhypervrule.md
+          items: 
+          - name: "Enable method"
+            href: wmi/wfascimprov/enable-msft-netfirewallhypervrule.md
+          - name: "Disable method"
+            href: wmi/wfascimprov/disable-msft-netfirewallhypervrule.md
+          - name: "Rename method"
+            href: wmi/wfascimprov/rename-msft-netfirewallhypervrule.md
+          - name: "EnumerateFull method"
+            href: wmi/wfascimprov/enumeratefull-msft-netfirewallhypervrule.md
+        - name: "MSFT_NetFirewallHyperVRulePortStatus"
+          href: wmi/wfascimprov/msft-netfirewallhypervruleportstatus.md
+        - name: "MSFT_NetFirewallHyperVVMCreator"
+          href: wmi/wfascimprov/msft-netfirewallhypervvmcreator.md
+          items: 
+          - name: "RegisterHyperVVMCreator method"
+            href: wmi/wfascimprov/registerhypervvmcreator-msft-netfirewallhypervvmcreator.md
+          - name: "UnregisterHyperVVMCreator method"
+            href: wmi/wfascimprov/unregisterhypervvmcreator-msft-netfirewallhypervvmcreator.md
+        - name: "MSFT_NetFirewallHyperVVMSetting"
+          href: wmi/wfascimprov/msft-netfirewallhypervvmsetting.md
         - name: "MSFT_NetFirewallProfile"
           href: wmi/wfascimprov/msft-netfirewallprofile.md
         - name: "MSFT_NetFirewallRule"
