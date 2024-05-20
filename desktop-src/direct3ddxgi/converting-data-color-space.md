@@ -10,6 +10,8 @@ ms.date: 05/31/2018
 
 To compose to the screen or perform floating-point operations, you need to work in the correct color space. We recommend that you perform floating point operations in a linear color space. Then, to present your images to the screen, convert the data to standard RGB data (sRGB, gamma 2.2-corrected) color space. Presenting to the screen in sRGB color space is important for color accuracy. If images are not gamma 2.2-corrected, they allocate too many bits or too much bandwidth to highlights that people can't differentiate, and too few bits or bandwidth to shadow values that people are sensitive to, and so would require more bits or bandwidth to maintain the same visual quality. Therefore, to ensure the best color accuracy, present images to the screen that are gamma 2.2-corrected.
 
+Strictly speaking, the actual sRGB transfer function is a piecewise formula (linear segment + 2.4 power), which is slightly different from a raw 2.2 power gamma. But for simplicity, we'll use them interchangeably.
+
 -   [Color accuracy](#color-accuracy)
 -   [Related topics](#related-topics)
 
