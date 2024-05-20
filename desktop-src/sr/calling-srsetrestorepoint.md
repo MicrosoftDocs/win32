@@ -26,7 +26,7 @@ When an application calls the **SRSetRestorePoint** function to create a restore
 
 System Restore running on Windows 8 monitors files in the boot volume that are relevant for system restore only. Snapshots of the boot volume created by System Restore running on Windows 8 may be deleted if the snapshot is subsequently exposed by an earlier version of Windows. Note that although there is only one system volume, there is one boot volume for each operating system in a multi-boot system.
 
-Developers can write applications that create the DWORD value **ScopeSnapshots** under `HKLM\Software\Microsoft\Windows NT\CurrentVersion\SystemRestore` the registry key. If this registry key value is 0, System Restore creates snapshots of the boot volume in the same way as in earlier versions of Windows. If this value is deleted, System Restore running on Windows 8 resumes creating snapshots that monitor files in the boot volume that are relevant for system restore only.
+Developers can write applications that create the DWORD value **ScopeSnapshots** under the `HKLM\Software\Microsoft\Windows NT\CurrentVersion\SystemRestore` registry key. If this registry key value is 0, System Restore creates snapshots of the boot volume in the same way as in earlier versions of Windows. If this value is deleted, System Restore running on Windows 8 resumes creating snapshots that monitor files in the boot volume that are relevant for system restore only.
 
 For an example, see [Using System Restore](using-system-restore.md).
 
