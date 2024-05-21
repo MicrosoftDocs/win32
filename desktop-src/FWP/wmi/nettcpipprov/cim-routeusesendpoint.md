@@ -1,7 +1,7 @@
 ---
-description: 'RouteUsesEndpoint depicts the relationship between a next hop route and the local Endpoint that is used to transmit the traffic to the \\'next hop\\'.'
+description: "RouteUsesEndpoint depicts the relationship between a next hop route and the local Endpoint that is used to transmit the traffic to the \\'next hop\\'."
 ms.assetid: '800282ae-45a7-4be8-a02b-c6b553348caa'
-title: 'CIM\_RouteUsesEndpoint class'
+title: "CIM\_RouteUsesEndpoint class"
 
 
 ms.author: windowssdkdev
