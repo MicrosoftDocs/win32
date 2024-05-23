@@ -29,9 +29,13 @@ At startup, an app creates a small set of **command signatures**. At runtime, th
 
 If the command signature changes any root arguments, this is stored within the command signature as a subset of a root signature.
 
-Note that no command signature state leaks back to the command list when the execution is complete.
+Note that no command signature state leaks back to the command list when the execution is complete. That said, after ExecuteIndirect, all bindings are reset to known values. In particular:
+* If the command signature binds a vertex buffer to a particular slot, then after ExecuteIndirect is called, a NULL vertex buffer is bound to that slot
+* If the command signature binds an index buffer, then after ExecuteIndirect, a NULL index buffer is bound.
+* If the command signature sets a root constant, then after ExecuteIndirect is called, the root constant value is set to 0
+* If the command signature sets a root view (CBV/SRV/UAV), then after ExecuteIndirect is called, the root view is set to a NULL view.
 
-For example, suppose an app developer wants a unique root constant to be specified per-draw call in the indirect argument buffer. The app would create a command signature that enables the indirect argument buffer to specify the following parameters per draw call:
+As an example of using command signatures: suppose an app developer wants a unique root constant to be specified per-draw call in the indirect argument buffer. The app would create a command signature that enables the indirect argument buffer to specify the following parameters per draw call:
 
 -   The value of one root constant.
 -   The draw arguments (vertex count, instance count, etc).
