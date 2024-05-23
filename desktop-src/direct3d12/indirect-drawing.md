@@ -27,13 +27,13 @@ The command signature object ([**ID3D12CommandSignature**](/windows/win32/api/d3
 
 At startup, an app creates a small set of **command signatures**. At runtime, the application fills a buffer with commands (via whatever means the app developer chooses). The commands optionally containing state to set for vertex buffer views, index buffer views, root constants and root descriptors (raw or structured SRV/UAV/CBVs). These argument layouts are not hardware specific so apps can generate the buffers directly. The command signature inherits the remaining state from the command list. Then the app calls [**ExecuteIndirect**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect) to instruct the GPU to interpret the contents of the indirect argument buffer according to the format defined by a particular command signature.
 
-If the command signature changes any root arguments, this is stored within the command signature as a subset of a root signature.
+If the command signature changes any root arguments, then that's stored within the command signature as a subset of a root signature.
 
-Note that no command signature state leaks back to the command list when the execution is complete. That said, after ExecuteIndirect, all bindings are reset to known values. In particular:
-* If the command signature binds a vertex buffer to a particular slot, then after ExecuteIndirect is called, a NULL vertex buffer is bound to that slot
-* If the command signature binds an index buffer, then after ExecuteIndirect, a NULL index buffer is bound.
-* If the command signature sets a root constant, then after ExecuteIndirect is called, the root constant value is set to 0
-* If the command signature sets a root view (CBV/SRV/UAV), then after ExecuteIndirect is called, the root view is set to a NULL view.
+No command signature state leaks back to the command list after the execution is complete. But, after **ExecuteIndirect**, all bindings are reset to known values. In particular:
+* If the command signature binds a vertex buffer to a particular slot, then after **ExecuteIndirect** is called, a NULL vertex buffer is bound to that slot.
+* If the command signature binds an index buffer, then after **ExecuteIndirect**, a NULL index buffer is bound.
+* If the command signature sets a root constant, then after **ExecuteIndirect** is called, the root constant value is set to 0.
+* If the command signature sets a root view (CBV/SRV/UAV), then after **ExecuteIndirect** is called, the root view is set to a NULL view.
 
 As an example of using command signatures: suppose an app developer wants a unique root constant to be specified per-draw call in the indirect argument buffer. The app would create a command signature that enables the indirect argument buffer to specify the following parameters per draw call:
 
