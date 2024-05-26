@@ -140,7 +140,7 @@ You can check the repeat count to determine whether a keystroke message represen
 
 The scan code is the value that the system generates when the user presses a key. It is a value that identifies the key pressed regardless of the active [keyboard layout](/globalization/windows-keyboard-layouts), as opposed to the character represented by the key. An application typically ignores scan codes. Instead, it uses the virtual-key codes to interpret keystroke messages.
 
-Modern keyboards are using [Human Interface Devices (HID)](https://www.usb.org/hid) specification to communicate with a computer. [Keyboard driver](/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers) converts reported HID Usage values sent from the keyboard to scan сodes and passes them on to applications.
+Modern keyboards are using [Human Interface Devices (HID)](https://www.usb.org/hid) specification to communicate with a computer. [Keyboard driver](/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers) converts reported HID Usage values sent from the keyboard to scan codes and passes them on to applications.
 
 > [!NOTE]
 > While virtual key codes are typically more useful to desktop applications, scan codes might be required in specific cases when you need to know which key is pressed regardless of the current [keyboard layout](/globalization/windows-keyboard-layouts). For example, the WASD (W is up, A is left, S is down, and D is right) key bindings for games, which ensure a consistent key formation across [US QWERTY](/globalization/keyboards/kbdus_7) or [French AZERTY](/globalization/keyboards/kbdfr) keyboard layouts.
