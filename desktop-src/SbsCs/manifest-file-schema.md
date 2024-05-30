@@ -82,7 +82,7 @@ The following is the complete listing of the manifest file schema.
   </ElementType>
   <ElementType name="assemblyIdentity" model="closed">
   <attribute type="name" required="yes" /> 
-  <attribute type="version" required="no" /> 
+  <attribute type="version" required="yes" /> 
   <attribute type="type" required="no" /> 
   <attribute type="processorArchitecture" required="no" /> 
   <attribute type="publicKeyToken" required="no" /> 
