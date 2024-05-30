@@ -498,7 +498,7 @@ This element has no attributes.
 
 ### supportedArchitectures
 
-For IL-only .NET executables, specifies a list of native processor architectures the application is compatible with. Can contain one or more of the following values, separated by spaces:
+For IL-only .NET Framework executables, specifies a list of native processor architectures the application is compatible with. Can contain one or more of the following values, separated by spaces:
 
 * **amd64**
 * **arm64**
