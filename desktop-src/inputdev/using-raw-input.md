@@ -95,10 +95,6 @@ case WM_INPUT:
 
     GetRawInputData((HRAWINPUT)lParam, RID_INPUT, NULL, &dwSize, sizeof(RAWINPUTHEADER));
     LPBYTE lpb = new BYTE[dwSize];
-    if (lpb == NULL) 
-    {
-        return 0;
-    } 
 
     if (GetRawInputData((HRAWINPUT)lParam, RID_INPUT, lpb, &dwSize, sizeof(RAWINPUTHEADER)) != dwSize)
          OutputDebugString (TEXT("GetRawInputData does not return correct size !\n")); 
