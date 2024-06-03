@@ -29,7 +29,7 @@ Contains a unique value that can be used to make the X.500 name of the certifica
 
 ``` syntax
 ---------------------------------------------------------------------
--- Issuer Unique identifier
+-- Subject Unique identifier
 ---------------------------------------------------------------------
 subjectUniqueIdentifier ::= [2] IMPLICIT UniqueIdentifier OPTIONAL
 
