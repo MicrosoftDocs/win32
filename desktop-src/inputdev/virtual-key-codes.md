@@ -347,6 +347,10 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_PA1` | 0xFD | PA1 key |
 | `VK_OEM_CLEAR` | 0xFE | Clear key |
 
+## Remarks
+
+Do not rely on the K_LWIN (0x5B) + VK_F17 (0x80) keys to permanently switch graphics modes. At shutdown, the system uses these keys to reset the graphics stack and related settings.
+
 ## Requirements
 
 | Requirement              | Value                                           |
