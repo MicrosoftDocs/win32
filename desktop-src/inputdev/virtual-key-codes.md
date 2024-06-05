@@ -347,8 +347,9 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_PA1` | 0xFD | PA1 key |
 | `VK_OEM_CLEAR` | 0xFE | Clear key |
 
-## Remark
-VK_F17 (0x80) + VK_LWIN (0x5B) keys are sent by Windows at shutdown to reset the graphic stack, so these keys shouldn't be used by apps as a permanent switch - if they are used, the switch will be reversed in the next run.
+## Remarks
+
+Do not rely on the K_LWIN (0x5B) + VK_F17 (0x80) keys to permanently switch graphics modes. At shutdown, the system uses these keys to reset the graphics stack and related settings.
 
 ## Requirements
 
