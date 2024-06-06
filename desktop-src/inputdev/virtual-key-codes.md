@@ -147,7 +147,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 11/06/2021
+ms.date: 06/06/2024
 ---
 
 # Virtual-Key Codes
@@ -349,7 +349,7 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 
 ## Remarks
 
-Do not rely on the K_LWIN (0x5B) + VK_F17 (0x80) keys to permanently switch graphics modes. At shutdown, the system uses these keys to reset the graphics stack and related settings.
+Do not rely on the K_LWIN (0x5B) + VK_F17 (0x80) keys to permanently switch a setting. At shutdown, the system uses these keys to reset various settings, which could include those set by your app.
 
 ## Requirements
 
