@@ -1,7 +1,7 @@
 ---
-description: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket defines settings for 'Wake on Magic Packet'.'
+description: "MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket defines settings for 'Wake on Magic Packet'."
 ms.assetid: '77d76532-7345-48ca-9aa3-4ff387d8d444'
-title: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket class'
+title: "MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket class"
 
 
 ms.author: windowssdkdev

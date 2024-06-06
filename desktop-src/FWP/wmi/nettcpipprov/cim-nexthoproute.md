@@ -1,7 +1,7 @@
 ---
-description: 'Represents one of a series of 'hops' to reach a network destination. A route is administratively defined, or calculated/learned by a particular routing process.'
+description: "Represents one of a series of 'hops' to reach a network destination. A route is administratively defined, or calculated/learned by a particular routing process."
 ms.assetid: '2c1d0fdd-0914-4c81-a1ff-d8104c5c734d'
-title: 'CIM\_NextHopRoute class'
+title: "CIM\_NextHopRoute class"
 
 
 ms.author: windowssdkdev
