@@ -1,7 +1,7 @@
 ---
-description: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard defines settings for 'Wake on any Packet'.'
+description: "MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard defines settings for 'Wake on any Packet'."
 ms.assetid: '9acf5453-117c-4621-90ca-eb55ad8b69d9'
-title: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard class'
+title: "MSFT\_NetAdapterPowerManagement\_WakePattern\_WildCard class"
 
 
 ms.author: windowssdkdev
