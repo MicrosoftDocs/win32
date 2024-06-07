@@ -3123,6 +3123,8 @@
           href: mf-mt-pan-scan-enabled-attribute.md
         - name: "MF_MT_PIXEL_ASPECT_RATIO"
           href: mf-mt-pixel-aspect-ratio-attribute.md
+        - name: "MF_MT_REALTIME_CONTENT"
+          href: mf-mt-realtime-content.md
         - name: "MF_MT_SAMPLE_SIZE"
           href: mf-mt-sample-size-attribute.md
         - name: "MF_MT_SOURCE_CONTENT_HINT"
