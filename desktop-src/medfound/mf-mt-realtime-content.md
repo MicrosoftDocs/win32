@@ -23,8 +23,8 @@ Specifies the real time media content type.
 
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 10 version 1607<br/>                                       |
+| Minimum supported server<br/> | Windows Server version 1607<br/>                            |
 | Header<br/>                   | <dl> <dt>Mfapi.h</dt> </dl> |
 
 
