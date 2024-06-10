@@ -858,6 +858,8 @@
           href: rpc-ns-handle.md
         - name: "RPC_STATUS"
           href: rpc-status.md
+        - name: "RPC_WSTR"
+          href: rpc-wstr.md
         - name: "String Binding"
           href: string-binding.md
         - name: "String UUID"
