@@ -7,13 +7,15 @@ ms.date: 06/07/2024
 
 # MF\_MT\_REALTIME\_CONTENT attribute
 
-Specifies the real time media content type.
+Specifies the real time media content type for low-latency rendering.
 
 ## Data type
 
 **UINT32**
 
 ## Remarks
+
+This attribute will enable the adaptive low-latency rendering feature.  It will minimize the latency to all of the monitors that the video is currently displayed on, while ensuring high quality output. A media source should set this attribute on its output video stream.
 
 
 
