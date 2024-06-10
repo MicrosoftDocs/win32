@@ -2,7 +2,7 @@
 description: You can obtain or modify registry data by using the WMI StdRegProv class and its methods.
 ms.assetid: 7cba9dcb-741b-4118-9769-8830c6dc0752
 ms.tgt_platform: multiple
-title: Obtaining Registry Data
+title: Obtaining registry data
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -12,7 +12,7 @@ api_type:
 api_location: 
 ---
 
-# Obtaining Registry Data
+# Obtaining registry data
 
 You can obtain or modify registry data by using the WMI [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) class and its methods. While using the Regedit utility to view and change registry values on the local computer, **StdRegProv** allows you to use a script or application to automate such activities on the local computer and remote computers.
 
@@ -59,24 +59,27 @@ Wscript.Echo subkey
 Next
 ```
 
+> [!NOTE]
+> VBScript is deprecated. For details, see the blog post [VBScript deprecation: Timelines and next steps](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/vbscript-deprecation-timelines-and-next-steps/ba-p/4148301).
 
 ```PowerShell
 
-$HKEY_LOCAL_MACHINE = 2147483650
-$strKeyPath = &quot;SOFTWARE\Microsoft&quot;
+# The signature for EnumKey method of StdRegProv class:
+#
+# uint32 EnumKey(
+#  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
+#  [in]  string sSubKeyName,
+#  [out] string sNames[]
+# );
 
-$objReg = [WMIClass]&quot;root\default:StdRegProv&quot;
-
-$arrSubKeys = $objReg.EnumKey($HKEY_LOCAL_MACHINE, $strKeyPath)
-foreach ($subKey in ($arrSubKeys.sNames))
-{
-    $subKey
+$arguments = @{
+    hDefKey = [uint32]2147483650 # HKEY_LOCAL_MACHINE
+    sSubKeyName = 'SOFTWARE\Microsoft'
 }
+
+$subkeys = Invoke-CimMethod -ClassName StdRegProv -MethodName EnumKey -Arguments $arguments
+subkeys.sNames
 ```
-
-
-
-
 
 [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) has different methods for reading the various registry entry value data types. If the entry has unknown values, then you can call [**StdRegProv.EnumValues**](/previous-versions/windows/desktop/regprov/enumvalues-method-in-class-stdregprov) to list them. The following table lists the correspondence between **StdRegProv** methods and the data types.
 
@@ -121,10 +124,9 @@ Note that the items in the multistring value are treated as a collection or arra
 const HKEY_LOCAL_MACHINE = &H80000002
 strComputer = "."
 
-Set objReg=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" _ 
-    & strComputer & "\root\default:StdRegProv")
+Set objReg=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" & strComputer & "\root\default:StdRegProv")
 
-strKeyPath = "SOFTWARE\Microsoft"
+strKeyPath = "SYSTEM\CurrentControlSet\Services\Eventlog\System"
 objReg.EnumKey HKEY_LOCAL_MACHINE, strKeyPath, arrSubKeys
 
 For Each subkey In arrSubKeys
@@ -133,7 +135,27 @@ Wscript.Echo subkey
 Next
 ```
 
+> [!NOTE]
+> VBScript is deprecated. For details, see the blog post [VBScript deprecation: Timelines and next steps](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/vbscript-deprecation-timelines-and-next-steps/ba-p/4148301).
 
+```PowerShell
+
+# The signature for EnumKey method of StdRegProv class:
+#
+# uint32 EnumKey(
+#  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
+#  [in]  string sSubKeyName,
+#  [out] string sNames[]
+# );
+
+$arguments = @{
+    hDefKey = [uint32]2147483650 # HKEY_LOCAL_MACHINE
+    sSubKeyName = 'SYSTEM\CurrentControlSet\Services\Eventlog\System'
+}
+
+$subkeys = Invoke-CimMethod -ClassName StdRegProv -MethodName EnumKey -Arguments $arguments
+subkeys.sNames
+```
 
 The registry provider is hosted in LocalService—not the LocalSystem. Therefore, obtaining information remotely from the subtree **HKEY\_CURRENT\_USER** is not possible. However, scripts run on the local computer can still access **HKEY\_CURRENT\_USER**. You can set the hosting model to LocalSystem on a remote machine, but that is a security risk because the registry on the remote machine is vulnerable to hostile access. For more information, see [Provider Hosting and Security](provider-hosting-and-security.md).
 
