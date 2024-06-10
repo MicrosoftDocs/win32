@@ -26,3 +26,4 @@ The Activity Coordinator API is available beginning with Windows 11, version 22H
 - [Activity Coordinator API functions](activity-coordinator-api-functions.md)
 - [Activity Coordinator API enumerations](activity-coordinator-api-enumerations.md)
 - [Activity Coordinator example project](activity-coordinator-example-project.md)
+- [Checking for Activity Coordinator resource support](checking-for-resource-support-example.md)
