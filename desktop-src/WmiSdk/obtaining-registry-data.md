@@ -2,7 +2,7 @@
 description: You can obtain or modify registry data by using the WMI StdRegProv class and its methods.
 ms.assetid: 7cba9dcb-741b-4118-9769-8830c6dc0752
 ms.tgt_platform: multiple
-title: Obtaining Registry Data
+title: Obtaining registry data
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 
@@ -12,7 +12,7 @@ api_type:
 api_location: 
 ---
 
-# Obtaining Registry Data
+# Obtaining registry data
 
 You can obtain or modify registry data by using the WMI [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) class and its methods. While using the Regedit utility to view and change registry values on the local computer, **StdRegProv** allows you to use a script or application to automate such activities on the local computer and remote computers.
 
@@ -59,9 +59,8 @@ Wscript.Echo subkey
 Next
 ```
 
-> [!Note]
-> Note that VBScript is no longer supported. See the [VBScript deprecation: Timelines and next steps](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/vbscript-deprecation-timelines-and-next-steps/ba-p/4148301) for details.
-
+> [!NOTE]
+> VBScript is deprecated. For details, see the blog post [VBScript deprecation: Timelines and next steps](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/vbscript-deprecation-timelines-and-next-steps/ba-p/4148301).
 
 ```PowerShell
 
@@ -136,9 +135,8 @@ Wscript.Echo subkey
 Next
 ```
 
-> [!Note]
-> Note that VBScript is no longer supported. See the [VBScript deprecation: Timelines and next steps](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/vbscript-deprecation-timelines-and-next-steps/ba-p/4148301) for details.
-
+> [!NOTE]
+> VBScript is deprecated. For details, see the blog post [VBScript deprecation: Timelines and next steps](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/vbscript-deprecation-timelines-and-next-steps/ba-p/4148301).
 
 ```PowerShell
 
