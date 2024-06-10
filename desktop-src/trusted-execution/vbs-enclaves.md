@@ -37,3 +37,4 @@ In addition to the device requirements, the following are required to develop VB
 - [Secure Enclaves (Trusted Execution) overview](enclaves.md)
 - [Always Encrypted with secure enclaves documentation](/azure/azure-sql/database/always-encrypted-with-secure-enclaves-landing)
 - [Virtualization-based Security (VBS) | Windows Hardware Developer](/windows-hardware/design/device-experiences/oem-vbs)
+- [New Windows 11 features strengthen security to address evolving cyberthreat landscape](https://www.microsoft.com/security/blog/2024/05/20/new-windows-11-features-strengthen-security-to-address-evolving-cyberthreat-landscape/)
