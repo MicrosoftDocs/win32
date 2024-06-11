@@ -35,7 +35,17 @@ Specifies a valid MIDL identifier. Valid MIDL identifiers consist of up to 31 al
 
 ## Remarks
 
-The **wchar\_t** type is defined by MIDL as an [**unsigned**](unsigned.md) [**short**](short.md) (16-bit) data object.
+The **wchar\_t** type is defined by MIDL as an [**unsigned**](unsigned.md) [**short**](short.md) (16-bit) data object. The following line of code disables **wchar\_t** as a typedef for unsigned short, allowing it to be defined as a distinct type.
+
+```cpp
+NO_WCHAR_T=1
+```
+
+If you are using RDP, you should also use the following line to use the distinct type for **wchar\_t**. For more information, see [RPC_WSTR](../Rpc/rpc-wstr.md).
+
+```cpp
+C_DEFINES=$(C_DEFINES) /DRPC_USE_NATIVE_WCHAR=1
+```
 
 The MIDL compiler allows redefinition of **wchar\_t**, but only if it is consistent with the preceding definition.
 
