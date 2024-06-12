@@ -2,12 +2,12 @@
 description: An example that shows how apps can use IsActivityCoordinatorResourceSupported to detect support for resources.
 title: Checking for Activity Coordinator resource support
 ms.topic: article
-ms.date: 05/07/2024
+ms.date: 06/12/2024
 ---
 
 # Checking for Activity Coordinator resource support
 
-This example shows how apps can use [IsActivityCoordinatorResourceSupported](/windows/win32/api/activitycoordinator/nf-activitycoordinator-isactivitycoordinatorresourcesupported) to detect support for resources prior to creating a policy. This allows apps to check for supported resource types at runtime. You can use the `IsActivityCoordinatorResourceSupported` to check for any supported resource type.
+This example shows how apps can use [IsActivityCoordinatorResourceSupported](/windows/win32/api/activitycoordinator/nf-activitycoordinator-isactivitycoordinatorresourcesupported) to detect support for resources prior to creating a policy. You can use the `IsActivityCoordinatorResourceSupported` to check for any supported [ACTIVITY_COORDINATOR_RESOURCE](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_resource) at runtime.
 
 ## Check for NPU support example
 
@@ -82,3 +82,4 @@ wmain()
 - [IsActivityCoordinatorResourceSupported](/windows/win32/api/activitycoordinator/nf-activitycoordinator-isactivitycoordinatorresourcesupported)
 - [SetActivityCoordinatorPolicyResourceCondition](/windows/win32/api/activitycoordinator/nf-activitycoordinator-setactivitycoordinatorpolicyresourcecondition)
 - [Activity Coordinator example project](activity-coordinator-example-project.md)
+- [ACTIVITY_COORDINATOR_RESOURCE](/windows/win32/api/activitycoordinatortypes/ne-activitycoordinatortypes-activity_coordinator_resource)
