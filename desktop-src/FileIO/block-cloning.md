@@ -3,7 +3,7 @@ description: A block clone operation instructs the file system to copy a range o
 ms.assetid: E18E8D79-3985-40B8-A4C5-A73A21E5C527
 title: Block Cloning
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 06/12/2024
 ---
 
 # Block Cloning
@@ -14,7 +14,7 @@ A file system manages the mappings of [Clusters and Extents](clusters-and-extent
 
 A block clone operation does not break the isolation provided between files. After a block clone completes, writes to the source file do not appear in the destination, or vice versa.
 
-Block cloning is available only on the [ReFS file system](/windows/desktop/w8cookbook/resilient-file-system--refs-) type beginning with Windows Server 2016.
+Block cloning is available only on the [ReFS file system](/windows/desktop/w8cookbook/resilient-file-system--refs-) type beginning with Windows Server 2016. Starting with the Windows 11 Moment 5 update (KB5034848) and later releases of Windows client and Windows Server builds, block cloning occurs natively in supported Windows copy operations.
 
 ## Block Cloning on ReFS
 
@@ -24,15 +24,15 @@ This implementation requires that the starting and ending file offsets be aligne
 
 ## Restrictions and Remarks
 
--   The source and destination regions must begin and end at a cluster boundary.
--   The cloned region must be less than 4GB in length.
--   The destination region must not extend past the end of file. If the application wishes to extend the destination with cloned data, it must first call [**SetEndOfFile**](/windows/desktop/api/FileAPI/nf-fileapi-setendoffile).
--   If the source and destination regions are in the same file, they must not overlap. (The application may able to proceed by splitting up the block clone operation into multiple block clones that no longer overlap.)
--   The source and destination files must be on the same ReFS volume.
--   The source and destination files must have the same [**Integrity Streams**](file-attribute-constants.md) setting (that is, Integrity Streams must be enabled in both files, or disabled in both files).
--   If the source file is sparse, the destination file must also be sparse.
--   The block clone operation will break Shared Opportunistic Locks (also known as [Level 2 Opportunistic Locks](types-of-opportunistic-locks.md)).
--   The ReFS volume must have been formatted with Windows Server 2016, and if Windows Failover Clustering is in use, the Clustering Functional Level must have been Windows Server 2016 or later at format time.
+- The source and destination regions must begin and end at a cluster boundary.
+- The cloned region must be less than 4GB in length.
+- The destination region must not extend past the end of file. If the application wishes to extend the destination with cloned data, it must first call [**SetEndOfFile**](/windows/desktop/api/FileAPI/nf-fileapi-setendoffile).
+- If the source and destination regions are in the same file, they must not overlap. (The application may able to proceed by splitting up the block clone operation into multiple block clones that no longer overlap.)
+- The source and destination files must be on the same ReFS volume.
+- The source and destination files must have the same [**Integrity Streams**](file-attribute-constants.md) setting (that is, Integrity Streams must be enabled in both files, or disabled in both files).
+- If the source file is sparse, the destination file must also be sparse.
+- The block clone operation will break Shared Opportunistic Locks (also known as [Level 2 Opportunistic Locks](types-of-opportunistic-locks.md)).
+- The ReFS volume must have been formatted with Windows Server 2016, and if Windows Failover Clustering is in use, the Clustering Functional Level must have been Windows Server 2016 or later at format time.
 
 ## Example
 
@@ -63,7 +63,3 @@ After the modifying write, region B is still shared on disk. Note that if region
 
 [**FSCTL\_DUPLICATE\_EXTENTS\_TO\_FILE**](/windows/win32/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file)
 </dt> </dl>
-
- 
-
- 
