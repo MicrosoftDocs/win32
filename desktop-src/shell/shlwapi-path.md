@@ -61,7 +61,7 @@ This section describes the Windows Shell path handling functions. The programmin
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-pathisurla"><strong>PathIsURL</strong></a><br /> | Tests a given string to determine if it conforms to a valid URL format.<br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-pathmakeprettya"><strong>PathMakePretty</strong></a><br /> | Converts an all-uppercase path to all lowercase characters to give the path a consistent appearance.<br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-pathmakesystemfoldera"><strong>PathMakeSystemFolder</strong></a><br /> | Gives an existing folder the proper attributes to become a system folder.<br /> | 
-| <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-pathmatchspeca"><strong>PathMatchSpec</strong></a><br /> | Searches a string using a MS-DOS wildcard match type.<br /> | 
+| <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-pathmatchspeca"><strong>PathMatchSpec</strong></a><br /> | Searches a string using an MS-DOS wildcard match type.<br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-pathmatchspecexa"><strong>PathMatchSpecEx</strong></a><br /> | Matches a file name from a path against one or more file name patterns.<br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-pathparseiconlocationa"><strong>PathParseIconLocation</strong></a><br /> | Parses a file location string that contains a file location and icon index, and returns separate values.<br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-pathquotespacesa"><strong>PathQuoteSpaces</strong></a><br /> | Searches a path for spaces. If spaces are found, the entire path is enclosed in quotation marks.<br /> | 
@@ -86,7 +86,7 @@ This section describes the Windows Shell path handling functions. The programmin
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlcanonicalizea"><strong>UrlCanonicalize</strong></a><br /> | Converts a URL string into canonical form.<br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlcombinea"><strong>UrlCombine</strong></a><br /> | When provided with a relative URL and its base, returns a URL in canonical form.<br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlcomparea"><strong>UrlCompare</strong></a><br /> | Makes a case-sensitive comparison of two URL strings.<br /> | 
-| <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlcreatefrompatha"><strong>UrlCreateFromPath</strong></a><br /> | Converts a MS-DOS path to a canonicalized URL.<br /> | 
+| <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlcreatefrompatha"><strong>UrlCreateFromPath</strong></a><br /> | Converts an MS-DOS path to a canonicalized URL.<br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlescapea"><strong>UrlEscape</strong></a><br /> | Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet ("unsafe" characters) into their corresponding escape sequences. Surrogate pairs are characters between U+10000 to U+10FFFF (in UTF-32) or between DC00 to DFFF (in UTF-16). <br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlescapespaces"><strong>UrlEscapeSpaces</strong></a><br /> | A macro that converts space characters into their corresponding escape sequence.<br /> | 
 | <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-urlgetlocationa"><strong>UrlGetLocation</strong></a><br /> | Retrieves the location from a URL.<br /> | 

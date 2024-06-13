@@ -26,7 +26,7 @@ This topic contains the following sections.
 
 ## Description
 
-CreateProcess-based verbs depend on running a executable and passing it a command-line argument. This method is not as powerful as the DropTarget and ExecuteCommand methods but it does achieve the desirable out-of-process behavior.
+CreateProcess-based verbs depend on running an executable and passing it a command-line argument. This method is not as powerful as the DropTarget and ExecuteCommand methods but it does achieve the desirable out-of-process behavior.
 
 ## Requirements
 

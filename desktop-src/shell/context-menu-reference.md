@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic lists the main programming elements used with shortcut (context) menus, and shortcut menu handlers. Shortcut menu handlers, which also known as context menu handlers or verb handlers, are a type of file type handler.
 
-## About Shortcut Menu Implemetation
+## About Shortcut Menu Implementation
 
 It is strongly encouraged that you implement a shortcut menu using one of the static verb methods. Please review the following instructions:
 

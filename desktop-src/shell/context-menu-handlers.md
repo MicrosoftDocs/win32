@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Creating Shortcut Menu Handlers
 
-Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be impelmented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
+Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be implemented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
 
 > [!Note]  
 > There are special considerations for 64-bit based versions of Windows when registering handlers that work in the context of 32-bit applications: when invoked in the context of an application of different bitness, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
@@ -204,7 +204,7 @@ In Windows 7 and later, you can use the SubCommands entry to create cascading m
                 MUIVerb = Test Cascade Menu
     ```
 
-3.  To your *CascadeTest* subkey, add a SubCommands entry of type **REG\_SZ** that is assigned list, demlimited by semi-colons, of the verbs that should appear on the menu, in the order of appearance. For example, here we assign a number of system-provided verbs:
+3.  To your *CascadeTest* subkey, add a SubCommands entry of type **REG\_SZ** that is assigned list, delimited by semi-colons, of the verbs that should appear on the menu, in the order of appearance. For example, here we assign a number of system-provided verbs:
 
     ```
     HKEY_CLASSES_ROOT

@@ -116,7 +116,7 @@ Note that this call to [**Shell\_NotifyIcon**](/windows/desktop/api/Shellapi/nf-
 
 ### Define the Notification Look and Contents
 
-A notification is a special type of balloon tooltip control. It contains a title, body text, and an icon. Like a window, it has a **Close** button in its upper right corner. It also contains a **Options** button that opens the Notification Area Icons item in the Control Panel, which allows the user to show or hide the icon or show only notifications without an icon.
+A notification is a special type of balloon tooltip control. It contains a title, body text, and an icon. Like a window, it has a **Close** button in its upper right corner. It also contains an **Options** button that opens the Notification Area Icons item in the Control Panel, which allows the user to show or hide the icon or show only notifications without an icon.
 
 ![screen shot of notification balloon indicating that battery power is low](images/taskbar/notificationballoon.png)
 
