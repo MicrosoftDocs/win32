@@ -23,6 +23,8 @@ Additional information is available here:
 
 -   [How To Define Extended Verbs](how-to-define-extended-verbs.md)
 -   [How To Associate Verbs with DDE Commands](how-to-associate-verbs-with-dde-commands.md)
+-   [Verbs and File Associations](fa-verbs.md)
+-   [Old version of this article - The "Community Additions" contain information about possible `%...` replacement tokens](https://web.archive.org/web/20111002101214/http://msdn.microsoft.com/en-us/library/windows/desktop/cc144101(v=vs.85).aspx#contentFeedbackContainer)
 
 ## Shortcut Menus for File System Objects
 
