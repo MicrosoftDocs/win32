@@ -13,8 +13,6 @@ topic_type:
 
 # Shell Functions
 
-\[This function is no longer implemented.\]
-
 This section describes the Windows Shell functions.
 
 ## In this section
