@@ -58,7 +58,7 @@ Flags that control the calling function's behavior. Used by [**SHCreateThread**]
 
 ## Remarks
 
-If no CTF\_WAIT\_ flag is specified, the calling thread will wait and send [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) messages. If the synchronous procedure attempts to send a Windows message with **SendMessage** to a window hosted on the calling thread, the message will get to the intended window. If the synchronous procedure attempts to use COM to talk to an STA object hosted on the calling thread, the synchronous procedure will deadlock. The calling thread is open to re-entrance fragility. While the calling thread can handle the synchronous procedure's use of **SendMessage**, if other threads use **SendMessage** to communicate to an window hosted on the calling thread, then these messages might be unexpected. This can cause them to be processed while the synchronous procedure is completing.
+If no CTF\_WAIT\_ flag is specified, the calling thread will wait and send [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) messages. If the synchronous procedure attempts to send a Windows message with **SendMessage** to a window hosted on the calling thread, the message will get to the intended window. If the synchronous procedure attempts to use COM to talk to an STA object hosted on the calling thread, the synchronous procedure will deadlock. The calling thread is open to re-entrance fragility. While the calling thread can handle the synchronous procedure's use of **SendMessage**, if other threads use **SendMessage** to communicate to a window hosted on the calling thread, then these messages might be unexpected. This can cause them to be processed while the synchronous procedure is completing.
 
 ## Requirements
 

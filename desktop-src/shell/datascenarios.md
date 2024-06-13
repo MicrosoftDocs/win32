@@ -17,7 +17,7 @@ The [Shell Data Object](dataobject.md) document discussed the general approach t
     -   [Using the CFSTR\_FILECONTENTS Format to Extract Data from a File](/windows)
 -   [Handling Optimized Move Operations](#handling-optimized-move-operations)
 -   [Handling Delete-on-Paste Operations](#handling-delete-on-paste-operations)
--   [Transfering Data to and from Virtual Folders](#transfering-data-to-and-from-virtual-folders)
+-   [Transferring Data to and from Virtual Folders](#transfering-data-to-and-from-virtual-folders)
     -   [Accepting Data from a Virtual Folder](#accepting-data-from-a-virtual-folder)
     -   [Transferring Data to and from a NameSpace Extension](#transferring-data-to-and-from-a-namespace-extension)
 -   [Dropping Files on the Recycle Bin](#dropping-files-on-the-recycle-bin)
@@ -203,7 +203,7 @@ The basic procedure for a delete-on-paste operation is as follows:
 7.  When the paste is complete, the target calls the [**IDataObject::SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) method with the [CFSTR\_PASTESUCCEEDED](clipboard.md) format set to DROPEFFECT\_MOVE.
 8.  When the source's [**IDataObject::SetData**](/windows/win32/api/objidl/nf-objidl-idataobject-setdata) method is called with the [CFSTR\_PASTESUCCEEDED](clipboard.md) format set to DROPEFFECT\_MOVE, it must check to see if it also received the [CFSTR\_PERFORMEDDROPEFFECT](clipboard.md) format set to DROPEFFECT\_MOVE. If both formats are sent by the target, the source will have to delete the data. If only the [CFSTR\_PASTESUCCEEDED](clipboard.md) format is received, the source can simply remove the data from its display. If the transfer fails, the source updates the display to its original appearance.
 
-## Transfering Data to and from Virtual Folders
+## Transferring Data to and from Virtual Folders
 
 **Scenario:** A user drags an object from or drops it on a virtual folder.
 
