@@ -36,7 +36,7 @@ is a native type
 compiler option),
 you can define the preprocessor macro **RPC_USE_NATIVE_WCHAR**
 to change the definitions of **RPC_WSTR** and **RPC_CWSTR** to use the native `wchar_t` type
-instead of [`unsigned short`](/cpp/cpp/fundamental-types-cpp#character-types).
+instead of [`unsigned short`](/cpp/cpp/fundamental-types-cpp##sizes-of-built-in-types).
 
 ## Requirements
 
