@@ -25,7 +25,7 @@ User-defined content providers can expose the following callback functions to th
 | [*WdsTransportProviderOpenContent*](/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent)               | Opens a new static view of a content stream.                                                                            |
 | [*WdsTransportProviderReadContent*](/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderreadcontent)               | Reads content from an open content stream.                                                                              |
 | [*WdsTransportProviderRefreshSettings*](/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderrefreshsettings)       | Instructs the transport provider to reread any relevant settings.                                                       |
-| [*WdsTransportProviderShutdown*](/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidershutdown)                     | Shutsdown the content provider.                                                                                         |
+| [*WdsTransportProviderShutdown*](/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovidershutdown)                     | Shuts down the content provider.                                                                                         |
 | [*WdsTransportProviderUserAccessCheck*](/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideruseraccesscheck)       | Specifies access to a content stream based on a user's token.                                                           |
 
 

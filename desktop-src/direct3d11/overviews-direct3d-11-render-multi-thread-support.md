@@ -26,7 +26,7 @@ The runtime supports multithreading and command lists regardless of driver and h
 
         If **DriverCommandLists** is **TRUE**, the driver supports command lists. That is, rendering commands issued by an immediate context can be concurrent with object creation on separate threads with low risk of a frame rate stutter.
 
-    -   If **DriverConcurrentCreates** is **FALSE**, a driver does not support concurrent creation, which means the amount of concurrency possible is extremely limited. The graphics hardware cannot create objects of different types on different threads simultanueously. Additionally, the graphics hardware cannot use an immediate context to issue render commands while the graphics hardware attempts to create a resource on another thread.
+    -   If **DriverConcurrentCreates** is **FALSE**, a driver does not support concurrent creation, which means the amount of concurrency possible is extremely limited. The graphics hardware cannot create objects of different types on different threads simultaneously. Additionally, the graphics hardware cannot use an immediate context to issue render commands while the graphics hardware attempts to create a resource on another thread.
 
 ## Related topics
 

@@ -481,7 +481,7 @@ textual representation of its paint tree. Following is an example of the output:
 ```
 
 For convenience, the sample defines **Indent** and **PropName** helper types with associated stream
-output opreators. It also defines stream output operators for various API types. These helper types
+output operators. It also defines stream output operators for various API types. These helper types
 and operators are shown at the end of this section.
 
 The **DumpPaintTree** function creates an **IDWritePaintReader** object, sets the current glyph, outputs

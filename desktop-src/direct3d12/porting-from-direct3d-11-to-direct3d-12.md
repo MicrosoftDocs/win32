@@ -113,7 +113,7 @@ In Direct3D 11 there is no explicit concept of a command queue. In the common se
 | CopyResource                        | CopyResource                   |
 
 > [!NOTE]
-> A command list created with **D3D12_COMMAND_LIST_TYPE_BUNDLE** is simliar to a deferred context. Direct3D 12 also supports the abiilty to access some features of an *immediate context* simultaneous to rendering via **D3D12_COMMAND_LIST_TYPE_COPY** and **D3D12_COMMAND_LIST_TYPE_COMPUTE** command list types.
+> A command list created with **D3D12_COMMAND_LIST_TYPE_BUNDLE** is simliar to a deferred context. Direct3D 12 also supports the ability to access some features of an *immediate context* simultaneous to rendering via **D3D12_COMMAND_LIST_TYPE_COPY** and **D3D12_COMMAND_LIST_TYPE_COMPUTE** command list types.
 
 ## CPU/GPU Synchronization
 

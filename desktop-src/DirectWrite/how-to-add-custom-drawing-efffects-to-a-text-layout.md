@@ -210,7 +210,7 @@ if (clientDrawingEffect != NULL)
 
     colorDrawingEffect->GetColor(&color);
 
-    // Create the brush using the color pecified by our ColorDrawingEffect object.
+    // Create the brush using the color specified by our ColorDrawingEffect object.
     if (SUCCEEDED(hr))
     {
         hr = pRT_->CreateSolidColorBrush(

@@ -74,7 +74,7 @@ if (SUCCEEDED(hr))
 
 
 
-Applications should not use any of the **IWMWriterAdvanced** methods that the **IWMWriterAdvanced2** interface inherits. Calling any these methods could interere with the operation of the filter.
+Applications should not use any of the **IWMWriterAdvanced** methods that the **IWMWriterAdvanced2** interface inherits. Calling any these methods could interfere with the operation of the filter.
 
 The only file-writing mode supported by this filter is AM\_FILE\_OVERWRITE. See [**IFileSinkFilter2::GetMode**](/windows/desktop/api/Strmif/nf-strmif-ifilesinkfilter2-getmode).
 

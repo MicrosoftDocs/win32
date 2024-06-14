@@ -18,7 +18,7 @@ Predication is a feature that enables the GPU rather than the CPU to determine t
 
 The typical use of predication is with occlusion; if a bounding box is drawn and is occluded, there is obviously no point in drawing the object itself. In this situation, the drawing of the object can be "predicated", enabling its removal from actual rendering by the GPU.
 
-At first, this might seem redudant over and above the standard depth test plus an early depth pass. But predication can remove the overhead of the draw command state itself, plus the rasterization. While an early depth pass removes unnecessary pixels, it can still execute vertex, hull, domain, and geometry shaders, and invoke the fixed-function input assembler, tesselator, and rasterizer. By drawing a simple bounding box or similar bounding volume&mdash;which is simpler to process and rasterize than the real model&mdash;you avoid unnecessary rasterization and processing.
+At first, this might seem redundant over and above the standard depth test plus an early depth pass. But predication can remove the overhead of the draw command state itself, plus the rasterization. While an early depth pass removes unnecessary pixels, it can still execute vertex, hull, domain, and geometry shaders, and invoke the fixed-function input assembler, tesselator, and rasterizer. By drawing a simple bounding box or similar bounding volume&mdash;which is simpler to process and rasterize than the real model&mdash;you avoid unnecessary rasterization and processing.
 
 Unlike Direct3D 11, predication is decoupled from queries, and is expanded in Direct3D 12 to enable an application to predicate objects based on any reasoning the app developer may decide on (not just occlusion).
 

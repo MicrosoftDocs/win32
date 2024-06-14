@@ -51,7 +51,7 @@ The logic of BITWISE tests is listed in the following table.
 
  
 
-The following truth table uses example binary and hex values to demonstate the logic of BITWISE tests.
+The following truth table uses example binary and hex values to demonstrate the logic of BITWISE tests.
 
 
 
