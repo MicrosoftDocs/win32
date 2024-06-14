@@ -24,11 +24,19 @@ typedef _Null_terminated_ const unsigned short * RPC_CWSTR;
 
 ```
 
-
-
 ## Remarks
 
-If the preprocessor macros **RPC_USE_NATIVE_WCHAR** and **_NATIVE_WCHAR_T_DEFINED** are defined, **RPC_WSTR** and **RPC_CWSTR** are defined to use [wchar_t](/windows/win32/midl/wchar-t) as the underlying type. Otherwise, the underlying type used is unsigned short.
+By default, the **RPC_WSTR** type is a pointer to a null-terminated UTF-16 Unicode string represented
+as a sequence of unsigned short values,
+and the **RPC_CWSTR** type is a pointer to a non-modifiable string in the same format.
+
+When compiling for C++ where [`wchar_t`](/cpp/cpp/fundamental-types-cpp#character-types)
+is a native type
+(by using the [/Zc:wchar_t](/cpp/build/reference/zc-wchar-t-wchar-t-is-native-type)
+compiler option),
+you can define the preprocessor macro **RPC_USE_NATIVE_WCHAR**
+to change the definitions of **RPC_WSTR** and **RPC_CWSTR** to use the native `wchar_t` type
+instead of [`unsigned short`](/cpp/cpp/fundamental-types-cpp#character-types).
 
 ## Requirements
 
