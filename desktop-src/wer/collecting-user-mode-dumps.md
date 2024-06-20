@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Collecting User-Mode Dumps
 
-Starting with **Windows Server 2008** and **Windows Vista with Service Pack 1 (SP1)**, Windows Error Reporting (WER) can be configured so that full user-mode dumps are collected and stored locally after a user-mode application crashes. Applications that do their own custom crash reporting, including .NET applications, are not supported by this feature.
+Starting with **Windows Server 2008** and **Windows Vista with Service Pack 1 (SP1)**, Windows Error Reporting (WER) can be configured so that full user-mode dumps are collected and stored locally after a user-mode application crashes. Applications that do their own custom crash reporting are not supported by this feature.
 
 This feature is not enabled by default. Enabling the feature requires administrator privileges. To enable and configure the feature, use the following registry values under the **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting\\LocalDumps** key.
 
