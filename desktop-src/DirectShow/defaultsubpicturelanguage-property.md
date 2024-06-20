@@ -24,7 +24,7 @@ The `DefaultSubpictureLanguage` property retrieves the default subpicture langua
 
 ## Return Value
 
-Returrn an LCID value containing the primary language ID for the default audio language.
+Return an LCID value containing the primary language ID for the default audio language.
 
 ## Remarks
 

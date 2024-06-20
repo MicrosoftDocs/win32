@@ -75,7 +75,7 @@ For general information about playback rates, see [About Rate Control](about-rat
 
     The example queries whether a playback rate of 4.0 is supported with thinning. This is indicated by passing **TRUE** in the *fThin* parameter of [**IsRateSupported**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-isratesupported). If this rate is supported, *actualRate* contains the playback rate of 4.0, and the call succeeds with a return value of S\_OK. If the exact playback rate is not supported, the nearest supported rate is received in *actualRate*. If the rate is not supported and there is no available nearest playback rate, the call returns an appropriate error code.
 
-    These values can change depending on which pipeline components are loaded. Therefore, you should query the values again whenever you load a new topololgy.
+    These values can change depending on which pipeline components are loaded. Therefore, you should query the values again whenever you load a new topology.
 
     If the desired playback rate is not supported, one option is to query each object in the topology individually, to find out if a particular component does not support the rate. You might be able to rebuild the topology without this component and then play at the desired rate. For example, if every component except the audio renderer supports a given rate, you could rebuild the topology without the audio branch and play at the desired rate without audio.
 

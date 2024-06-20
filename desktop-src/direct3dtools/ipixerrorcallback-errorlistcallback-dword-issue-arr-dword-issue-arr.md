@@ -45,7 +45,7 @@ The number of errors.
 The errors.
 
 *count*   
-The number of warningns.
+The number of warnings.
 
 *count0\_warningList*   
 The warnings.

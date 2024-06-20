@@ -19,7 +19,7 @@ Filters in this graph include:
 
 -   The [Smart Tee](smart-tee-filter.md) filter splits the interleaved DV into a capture stream and a preview stream. Both streams contain the same interleaved data.
 -   The [AVI Mux](avi-mux-filter.md) and [File Writer](file-writer-filter.md) write the interleaved stream to disk.
--   The [DV Splitter](dv-splitter-filter.md) splits the interleaved stream into a DV video stream and an audio stream. Both streams are rendererd for preview.
+-   The [DV Splitter](dv-splitter-filter.md) splits the interleaved stream into a DV video stream and an audio stream. Both streams are rendered for preview.
 -   The [DV Video Decoder](dv-video-decoder-filter.md) decodes the DV video stream for previewing.
 
 Build this graph as follows:

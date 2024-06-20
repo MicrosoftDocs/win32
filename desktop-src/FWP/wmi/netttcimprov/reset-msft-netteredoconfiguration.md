@@ -97,7 +97,7 @@ Specifies whether the method should output the an object that represents the res
 *OutputObject* \[out\]
 </dt> <dd>
 
-Receives the reset [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguration.md) ojbect.
+Receives the reset [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguration.md) object.
 
 </dd> </dl>
 

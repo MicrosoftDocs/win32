@@ -41,7 +41,7 @@ HRESULT get_Icon(
 
 ## Property value
 
-hicon is a pointer to the handle of the optional icon assocuated with the verb.
+hicon is a pointer to the handle of the optional icon associated with the verb.
 
 ## Requirements
 
