@@ -7,7 +7,10 @@ ms.date: 06/13/2024
 
 # How to use the Appx module in a netfx host other than powershell.exe
 
-The Appx PowerShell Module has been retargeted to netstandard2.0 in order to make sure it aligns with the .netcore future while continuing to support .netfx. The result of this retargeting is a breaking change that means that Appx PS Module cmdlets (when running under a netfx runtime) won’t work when running from processes other than powershell.exe.
+The Appx PowerShell Module has been retargeted to netstandard2.0 in order to make sure it aligns
+with the .netcore future while continuing to support .netfx.
+The result of this retargeting is a breaking change that means that Appx PS Module
+cmdlets (when running under a netfx runtime) won’t work when running from processes other than powershell.exe.
 
 There are two ways to mitigate this change to use the Appx module in a netfx host other than powershell.exe.
 
