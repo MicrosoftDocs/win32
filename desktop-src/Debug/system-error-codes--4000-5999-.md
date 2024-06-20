@@ -244,7 +244,7 @@ Cannot cancel the requested operation as it has already been completed.
 
 
 
-Can not perform the reqested operation because it has already been carried out.
+Can not perform the requested operation because it has already been carried out.
 
 
 </dt> </dl> </dd> <dt>

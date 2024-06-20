@@ -46,7 +46,7 @@ The `CImageDisplay` class is a helper class for GDI video renderers to manage th
 | [**GetColourMask**](cimagedisplay-getcolourmask.md)             | Retrieves the color masks for the current display format.                              |
 | [**GetDisplayDepth**](cimagedisplay-getdisplaydepth.md)         | Retrieves the bit depth of the current display mode.                                   |
 | [**GetDisplayFormat**](cimagedisplay-getdisplayformat.md)       | Retrieves a video format that describes the current display mode.                      |
-| [**IsPalettised**](cimagedisplay-ispalettised.md)               | Retermines whether the current display format is palettized.                           |
+| [**IsPalettised**](cimagedisplay-ispalettised.md)               | Determines whether the current display format is palettized.                           |
 | [**RefreshDisplayType**](cimagedisplay-refreshdisplaytype.md)   | Updates the object's video format to match the specified display                       |
 
 

@@ -170,7 +170,7 @@ int gp : SasGlobal
   string SasEffectAuthoringSoftware = "fxe 2.5.4";
   string SasEffectCategory = "/surface/procedural/wood";
   string SasEffectCompany = "Microsoft Corporation";
-  string SasEffectDescription = "Renders an irridescent surface.";
+  string SasEffectDescription = "Renders an iridescent surface.";
   string SasEffectHelp = "For more information, see https://somelocation/skin.htm";    
   string SasEffectRevision = "$Revision$";  
 >;

@@ -74,7 +74,7 @@ HRESULT GetASFProfile(PCWSTR pszFileName, IMFASFProfile** ppProfile)
         hr = pSourceUnk->QueryInterface(IID_PPV_ARGS(&pSource));
     }
 
-    // Get the presentation desccriptor.
+    // Get the presentation descriptor.
     if (SUCCEEDED(hr))
     {
         hr = pSource->CreatePresentationDescriptor(&pPD);

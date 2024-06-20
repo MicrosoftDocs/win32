@@ -47,7 +47,7 @@ Sync: Optional. When set, the request completes synchronously. Otherwise the req
 #include "assert.h"
 #include "intsafe.h"
 
-// This function closes the channel if it was openend and then frees it.
+// This function closes the channel if it was opened and then frees it.
 void CleanupChannel(WS_CHANNEL* channel)
 {
     ULONG state = 0;
@@ -66,7 +66,7 @@ void CleanupChannel(WS_CHANNEL* channel)
         
     if (WS_CHANNEL_STATE_OPEN == state || WS_CHANNEL_STATE_FAULTED == state)
     {
-        // CloseChannel will close the channel even if it encouters an error. So ignore the error here
+        // CloseChannel will close the channel even if it encounters an error. So ignore the error here
         // as this is called only when we destroy the channel.
         WsCloseChannel(channel, NULL, NULL);
     }

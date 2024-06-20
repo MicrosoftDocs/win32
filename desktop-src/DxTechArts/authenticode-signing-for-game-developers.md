@@ -183,6 +183,6 @@ More information about tools and processes related to signing code, see the foll
 
 -   [Cryptography Tools](/windows/desktop/SecCrypto/cryptography-tools)
 -   [Crypto API Tools Reference](/windows/desktop/SecCrypto/cryptoapi-tools-reference)
--   [Authenticode Overview and Turtorials](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537360(v=vs.85))
+-   [Authenticode Overview and Tutorials](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537360(v=vs.85))
 -   [Digital Certificates](/windows/desktop/SecCrypto/digital-certificates)
 -   [How To: Create Temporary Certificates for Use During Development](/dotnet/framework/wcf/feature-details/how-to-create-temporary-certificates-for-use-during-development)

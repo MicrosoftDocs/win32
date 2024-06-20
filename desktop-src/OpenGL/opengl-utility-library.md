@@ -19,7 +19,7 @@ The OpenGL Utility (GLU) library contains several groups of functions that compl
 
  
 
-Many of these functions are described in preceding sections of the documenation as their topics arise. These functions are listed here for completeness. GLU functions that aren't discussed in preceding sections are described here. For more detailed descriptions of these functions, see the *OpenGL Reference Manual*. This section groups related GLU functions, as follows:
+Many of these functions are described in preceding sections of the documentation as their topics arise. These functions are listed here for completeness. GLU functions that aren't discussed in preceding sections are described here. For more detailed descriptions of these functions, see the *OpenGL Reference Manual*. This section groups related GLU functions, as follows:
 
 -   [Initializing](initializing.md)
 -   [Manipulating Images for Use in Texturing](manipulating-images-for-use-in-texturing.md)

@@ -33,7 +33,7 @@ The playback rate does not affect the presentation times of the samples, so the 
 
 The *fThin* parameter of the [**IMFRateControl::SetRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratecontrol-setrate) method indicates whether media source should *thin* the content. Thinning applies primarily to video streams. In thinned mode, the source drops delta frames and deliver only key frames. At very high playback rates, the source might skip some key frames (for example, deliver every other key frame).
 
-The source does not have to drop audio samples in thinned mode. At very high playback rates, however, the source might not be able to read data fast nough to fill the pipeline's sample requests. In that case, the source might need to drop some audio data. If so, it should attempt to deliver audio samples that are close in time to the video samples (assuming that the source has both types of stream).
+The source does not have to drop audio samples in thinned mode. At very high playback rates, however, the source might not be able to read data fast enough to fill the pipeline's sample requests. In that case, the source might need to drop some audio data. If so, it should attempt to deliver audio samples that are close in time to the video samples (assuming that the source has both types of stream).
 
 When a stream transitions between thinned and non-thinned mode, it sends an [MEStreamThinMode](mestreamthinmode.md) event.
 
