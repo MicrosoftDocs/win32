@@ -129,6 +129,7 @@ void DisplayError(LPTSTR lpszFunction)
 
     LocalFree(lpMsgBuf);
     LocalFree(lpDisplayBuf);
+}
 ```
 
 
