@@ -17,6 +17,9 @@ In a DirectShow filter graph, any WDM capture device appears as the [WDM Video C
 
 Some older capture devices still use Video for Windows (VFW) drivers. Although these drivers are now obsolete, they are supported in DirectShow through the [VFW Capture](vfw-capture-filter.md) filter.
 
+> [!NOTE]
+> Windows allows users to grant or deny access to the device's camera in the Windows Settings app, under **Privacy & Security -> Camera**. When initializing the capture device, apps should check whether they have access to the camera and handle the case where access is denied by the user. For more information, see [Handle the Windows camera privacy setting](/windows/uwp/audio-video-camera/camera-privacy-setting).
+
 ## Related topics
 
 <dl> <dt>
