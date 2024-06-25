@@ -23,7 +23,6 @@ The page you requested belongs to an old version of the Windows Media Player SDK
 -   [Windows Media Player Plug-ins](windows-media-player-plug-ins.md)
 -   [Windows Media Metafiles](windows-media-metafiles.md)
 -   [Windows Media Playlists](windows-media-playlists.md)
--   [Windows Media Player Online Stores](windows-media-player-online-stores.md)
 -   [Windows Media Player](windows-media-player.md)
 
  

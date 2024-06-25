@@ -40,7 +40,7 @@ To enable remote embedding of the Windows Media Player control, your program mus
 
 ## Specifying an Exclusive Online Store
 
-With Windows Media Player 11, an application that embeds the Player control remotely can specify an exclusive online store. In that case, the service selector in Windows Media Player is disabled and only the specified online store is available to the user. For detailed information about how to specify an exclusive online store, see [Exclusive Online Stores](exclusive-online-stores.md).
+With Windows Media Player 11, an application that embeds the Player control remotely can specify an exclusive online store. In that case, the service selector in Windows Media Player is disabled and only the specified online store is available to the user. 
 
 ## Docking and Undocking
 
