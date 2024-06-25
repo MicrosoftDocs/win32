@@ -4592,16 +4592,10 @@
     - name: "Online Stores Welcome Kit"
       href: online-stores-welcome-kit.md
       items: 
-      - name: "Introduction to the Online Stores Welcome Kit"
-        href: introduction-to-the-online-stores-welcome-kit.md
-      - name: "Getting an Online Music Store On Board"
-        href: getting-an-online-music-store-on-board.md
       - name: "Requirements for Online Music Stores"
         href: requirements-for-online-music-stores.md
       - name: "Contracts and Licenses for Online Music Stores"
         href: contracts-and-licenses-for-online-music-stores.md
-      - name: "Contact Information Form for an Online Music Store"
-        href: contact-information-form-for-an-online-music-store.md
       - name: "Startup Information Form for an Online Music Store"
         href: startup-information-form-for-an-online-music-store.md
       - name: "Validation Tests for Type 2 Online Music Stores"
