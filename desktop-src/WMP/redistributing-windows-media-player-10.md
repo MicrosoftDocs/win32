@@ -33,7 +33,7 @@ The following table shows additional parameters that you can use with the Window
 | /NoMigrate             | Prevent library migration.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | /NestedRestore         | Create a nested system restore point. Use this if your application creates a system restore point to nest the Windows Media Player restore point within your application restore point.                                                                                                                                                                                                                                                                                                                             |
 | /DisallowSystemRestore | Disallow the creation of a system restore point. This flag will disable the creation of a system restore point. Under most circumstances this flag should not be used for general software redistribution. This should be used only when you can make an explicit choice on behalf of the end user not to support the rollback of the Windows Media Player files to an earlier version of the Player. This flag should be used only for corporate deployment or original equipment manufacturer (OEM) installation. |
-| /DefaultService        | Set the initial online store. For more information, see [Setup Command-line Parameters for Online Stores](setup-command-line-parameters-for-online-stores.md).                                                                                                                                                                                                                                                                                                                                                     |
+| /DefaultService        | Set the initial online store.                                                                                                                                                                                                                                                                                                                                                   |
 
 
 
@@ -44,9 +44,6 @@ The following table shows additional parameters that you can use with the Window
 <dl> <dt>
 
 [**Redistributing Windows Media Player Software**](redistributing-windows-media-player-software.md)
-</dt> <dt>
-
-[**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
  

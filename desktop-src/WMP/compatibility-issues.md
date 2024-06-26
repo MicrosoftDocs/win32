@@ -40,10 +40,6 @@ Currently, only Windows Media Player 9 Series or later supports the HTMLView fea
 
 ## Related topics
 
-<dl> <dt>
-
-[**Building the Plug-in for a Type 2 Online Store**](building-the-plug-in-for-a-type-2-online-store.md)
-</dt> </dl>
 
  
 

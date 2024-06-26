@@ -73,7 +73,7 @@ The Windows Media Player plug-in wizard was updated to create DSP plug-ins that 
 
 ## Windows Media Player Online Stores
 
-Windows Media Player 11 introduced a new model for integrating online store catalogs into the Windows Media Player library feature. See [Type 1 Online Stores](type-1-online-stores.md).
+Windows Media Player 11 introduced a new model for integrating online store catalogs into the Windows Media Player library feature. 
 
 ## Windows Media Player
 
