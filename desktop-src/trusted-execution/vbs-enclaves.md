@@ -32,6 +32,7 @@ In addition to the device requirements, the following are required to develop VB
 
 ## Additional resources
 
+- [VBS Enclaves development guide](vbs-enclaves-dev-guide.md)
 - [APIs available in VBS enclaves](available-in-enclaves.md)
 - [Securing your sensitive workloads with VBS Enclaves](https://aka.ms/VBSEnclavesBlog)
 - [Secure Enclaves (Trusted Execution) overview](enclaves.md)

@@ -19,4 +19,5 @@ The following enclave technologies (or enclave types) are currently supported:
 
 - [Enclave Reference](enclaves-reference.md)
 - [VBS Enclaves](vbs-enclaves.md)
+- [VBS Enclaves development guide](vbs-enclaves-dev-guide.md)
 - [APIs Available in VBS Enclaves](available-in-enclaves.md)

@@ -1,15 +1,15 @@
 - name: "Enclaves"
   href: enclaves.md
   items: 
-  - name: "Enclave Reference"
+  - name: "Enclaves reference"
     href: enclaves-reference.md
     items: 
-    - name: "Enclave Enumerations"
+    - name: "Enclaves enumerations"
       href: enclaves-enumerations.md
       items: 
       - name: "ENCLAVE_SEALING_IDENTITY_POLICY"
         href: /windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy
-    - name: "Enclave Functions"
+    - name: "Enclaves functions"
       href: enclaves-functions.md
       items: 
       - name: "CallEnclave"
@@ -38,7 +38,7 @@
         href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-loadenclaveimagew
       - name: "TerminateEnclave"
         href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-terminateenclave
-    - name: "Enclave Structures"
+    - name: "Enclaves structures"
       href: enclaves-structures.md
       items: 
       - name: "ENCLAVE_CREATE_INFO_SGX"
@@ -67,9 +67,11 @@
         href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_pkg_header
       - name: "VBS_ENCLAVE_REPORT_VARDATA_HEADER"
         href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header
-  - name: "VBS Enclaves"
+  - name: "VBS enclaves"
     href: vbs-enclaves.md
     items:
+    - name: "VBS enclaves development guide"
+      href: vbs-enclaves-dev-guide.md
     - name: "APIs available in VBS enclaves"
       href: available-in-enclaves.md
       items: 
