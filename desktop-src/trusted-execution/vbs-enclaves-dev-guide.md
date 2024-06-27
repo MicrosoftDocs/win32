@@ -9,7 +9,7 @@ ms.date: 06/24/2024
 
 # Development guide for Virtualization-based security (VBS) Enclaves
 
-This development guide will describe how to build a basic VBS enclave.
+This development guide describes how to build, sign, and debug a basic VBS enclave.
 
 ## Prerequisites
 
@@ -23,9 +23,9 @@ To get started with VBS Enclaves, you need to meet the following requirements:
 
 ## Getting started
 
-After satisfying the prerequisites above, you should be able to open the solution file from the **VbsEnclave** sample in Visual Studio and compile it. It will create a test application along with the corresponding enclave. However, you won't be able to run your application successfully until the enclave is signed with a valid certificate.
+After satisfying the prerequisites above, you should be able to open the solution file from the **VbsEnclave** sample in Visual Studio and compile it. It creates a test application along with the corresponding enclave. However, you can't run your application successfully until the enclave is signed with a valid certificate.
 
-This guide detail how to build a basic VBS enclave on your development machine. The steps to building a VBS enclave are:
+This guide details how to build a basic VBS enclave on your development machine. The steps to building a VBS enclave are:
 
 1. Write a VBS enclave DLL and a corresponding host application
 1. Compile the DLL and host
@@ -48,9 +48,9 @@ Remember that a VBS enclave DLL is simply a DLL, and so it requires a host appli
 
 *Refer to sample code in the **Test enclave** project to follow along with the steps below.*
 
-In our enclave Sample we create a simple enclave which XORs the input with `0xDADAF00D` and returns the result. Let’s break down how we do that:
+In our enclave Sample, we create a simple enclave which XORs the input with `0xDADAF00D` and returns the result. Let’s break down how we do that:
 
-1. We start by including `winenclave.h`. In the sample code refer to `Samples/VbsEnclave/Test enclave/precomp.h`:
+1. Start by including `winenclave.h`. In the sample code, refer to `Samples/VbsEnclave/Test enclave/precomp.h`:
 
     ```cpp
     #include <winenclave.h>
@@ -58,7 +58,7 @@ In our enclave Sample we create a simple enclave which XORs the input with `0xDA
 
     `winenclave.h` is the central include file for VBS enclaves and itself includes `windows.h`, `ntenclv.h`, `winenclaveapi.h`.
 
-1. Every DLL loaded in an enclave requires a configuration. This configuration is defined using a global `const` variable named `__enclave_config` of type [IMAGE_ENCLAVE_CONFIG](/windows/win32/api/winnt/ns-winnt-image_enclave_config64). In the sample code refer to `Samples/VbsEnclave/Test enclave/enclave.c`:
+1. Every DLL loaded in an enclave requires a configuration. This configuration is defined using a global `const` variable named `__enclave_config` of type [IMAGE_ENCLAVE_CONFIG](/windows/win32/api/winnt/ns-winnt-image_enclave_config64). In the sample code, refer to `Samples/VbsEnclave/Test enclave/enclave.c`:
 
     ```cpp
     const IMAGE_ENCLAVE_CONFIG __enclave_config = {
@@ -79,9 +79,9 @@ In our enclave Sample we create a simple enclave which XORs the input with `0xDA
     ```
 
     > [!NOTE]
-    > There will be only one primary image per enclave. If you load multiple primary images, the one loaded first will be treated as primary and the rest will be treated as dependencies. In this sample, there are no dependencies other than the enclave platform DLLs.
+    > There can be only one primary image per enclave. If you load multiple primary images, the one loaded first is treated as primary and the rest are treated as dependencies. In this sample, there are no dependencies other than the enclave platform DLLs.
 
-1. The `DllMain()` function is mandatory and defines the entry point into the enclave. It is called during `InitializeEnclave()`. In the sample code refer to `Samples/VbsEnclave/Test enclave/enclave.c`.
+1. The `DllMain()` function is mandatory and defines the entry point into the enclave. It's called during `InitializeEnclave()`. In the sample code, refer to `Samples/VbsEnclave/Test enclave/enclave.c`.
 
     ```cpp
     BOOL
@@ -102,13 +102,13 @@ In our enclave Sample we create a simple enclave which XORs the input with `0xDA
     }
     ```
 
-1. Any functions inside the enclave that will be called from the host application must be exported and be of type **LPENCLAVE_ROUTINE**. The function signature will look like this:
+1. Any functions inside the enclave that are called from the host application must be exported and be of type **LPENCLAVE_ROUTINE**. The function signature looks like this:
 
     ```cpp
     void* CALLBACK enclaveFunctionName(_In_ void* Context)
     ```
 
-    In the sample code refer to `Samples/VbsEnclave/Test enclave/enclave.c`.
+    In the sample code, refer to `Samples/VbsEnclave/Test enclave/enclave.c`.
 
     ```cpp
     void*
@@ -128,7 +128,7 @@ In our enclave Sample we create a simple enclave which XORs the input with `0xDA
     > [!NOTE]
     > Only the functions exported by the primary enclave image can be accessed from the host application.
 
-    You can then export the function using a `.DEF` file. In the sample code refer to `Samples/VbsEnclave/Test enclave/vbsenclave.def`. For more information, refer to [Exporting from a DLL Using DEF Files](/cpp/build/exporting-from-a-dll-using-def-files).
+    You can then export the function using a `.DEF` file. In the sample code, refer to `Samples/VbsEnclave/Test enclave/vbsenclave.def`. For more information, refer to [Exporting from a DLL Using DEF Files](/cpp/build/exporting-from-a-dll-using-def-files).
 
 And that’s how you write a basic VBS enclave.
 
@@ -138,7 +138,7 @@ Now that we’ve written our VBS enclave, let’s compile it.
 
 ### Compiling the enclave host
 
-Compiling the host app is the same as any Windows application, but with the addition of `onecore.lib` to the list of dependencies while linking.
+Compiling the host app is the same as compiling any Windows application, but with the addition of `onecore.lib` to the list of dependencies while linking.
 
 ### Compiling the test enclave
 
@@ -148,8 +148,8 @@ Before we can build the test enclave, some changes to the compiler and linker co
 1. *[Debug config only]* `/EDITANDCONTINUE` is incompatible with `/INCREMENTAL:NO`, so we use `/Zi` instead of `/ZI` for **Debug Information Format** in the compiler.
 1. *[Debug config only]* The **Basic Runtime Checks** configuration needs to be set to **Default**. Runtime error checks are not supported in VBS enclaves.
 1. An enclave's digital signature must be checked at load time and requires setting the `/INTEGRITYCHECK` flag in the linker.
-1. Enclave DLLs must be instrumented for **Control Flow Guard (CFG)** for which we use the `/GUARD:MIXED` flag in the linker.
-1. Enclaves have their own versions of platform, startup, runtime and UCRT libs. To ensure we don't end up linking the non-enclave versions, use the `/NODEFAULTLIB` flag. We then add the correct libs under `AdditionalDependencies`. In the sample code, these libraries are encapsulated under the **VBS_Enclave_Dependencies** macro. The following are the VBS enclave libraries:
+1. Enclave DLLs must be instrumented for **Control Flow Guard (CFG)**, for which we use the `/GUARD:MIXED` flag in the linker.
+1. Enclaves have their own versions of platform, startup, runtime and UCRT libs. To ensure that we don't link the non-enclave versions, use the `/NODEFAULTLIB` flag. Subsequently, add the correct libs under `AdditionalDependencies`. In the sample code, these libraries are encapsulated under the **VBS_Enclave_Dependencies** macro. The following are the VBS enclave libraries:
 
     1. `libcmt.lib` and `libvcruntime.lib` - Found in the `enclave` folder with the Visual C++ build tools, see [C runtime (CRT) and C++ standard library (STL) .lib files](/cpp/c-runtime-library/crt-library-features).
     1. `vertdll.lib` and `bcrypt.lib` - Found in the `um` folder with the Windows SDK libraries.
@@ -173,7 +173,7 @@ In summary, the following changes are required:
 - `/INTEGRITYCHECK`
 - `/GUARD:MIXED`
 
-Now you can compile the enclave DLL.
+You can now compile the enclave DLL.
 
 ### Securing with VEIID
 
@@ -186,7 +186,7 @@ In the sample code, this is done automatically as a post-build event.
 
 ## Step 3: Signing VBS enclaves
 
-VBS enclaves must be signed to be successfully loaded. The signature on an enclave contains information about the enclave author which is used to derive the Author ID for an enclave. You can test-sign your enclave before you sign it for production.
+VBS enclaves must be signed to be successfully loaded. The signature on an enclave contains information about the enclave author. This is used to derive the Author ID for an enclave. You can test-sign your enclave before you sign it for production.
 
 ### Test Signing – Local
 
@@ -196,11 +196,11 @@ Each enclave signing certificate requires at least 3 EKUs:
 1. Enclave EKU - `1.3.6.1.4.1.311.76.57.1.15`
 1. Author EKU - The EKU is of the form `1.3.6.1.4.1.311.97.X.Y.Z`, where `X` is greater than `999`.
 
-    For testing you can choose to use any Author EKU you want which matches this pattern. For production, an Author EKU will be provided to you as part of the production certificate (more details on production signing [below](#production-signing--trusted-signing-formerly-azure-code-signing)).
+    For testing, you can choose to use any Author EKU that matches this pattern. For production, an Author EKU will be provided as part of the production certificate (more details on production signing are [below](#production-signing--trusted-signing-formerly-azure-code-signing)).
 
     Example: `1.3.6.1.4.1.311.97.814040577.346743379.4783502.105532346`
 
-If you would like to sign your enclave DLL while developing it, [enable test signing](/windows-hardware/drivers/install/the-testsigning-boot-configuration-option). With test signing enabled, you can create a certificate containing these three EKUs and sign your enclave with it. You can use the [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps&preserve-view=true) cmdlet to create a certificate. **Note that Enclave DLLs must be page hash signed.**
+If you want to sign your enclave DLL while developing it, [enable test signing](/windows-hardware/drivers/install/the-testsigning-boot-configuration-option). With test signing enabled, you can create a certificate containing these three EKUs and sign your enclave with it. You can use the [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps&preserve-view=true) cmdlet to create a certificate. **Note that Enclave DLLs must be page hash signed.**
 
 > [!NOTE]
 > Once you have a certificate, you can automate the signing process in the post-build event.
@@ -219,11 +219,11 @@ With your enclave DLL signed, you can now load it in an environment that has tes
 
 Production signing for enclaves is provided through the **VBS enclave certificate profile** in [Trusted Signing](https://azure.microsoft.com/products/trusted-signing). For details on how to use **Trusted Signing**, please see the [documentation](/azure/trusted-signing/).
 
-Trusted Signing also allows you to sign your enclave through the command line. This will output a ready-to-run, signed enclave when you build your enclave in Visual Studio.
+Trusted Signing also allows you to sign your enclave at the command line. This outputs a ready-to-run, signed enclave when you build your enclave in Visual Studio.
 
 ## Step 4: Debugging VBS enclaves
 
-Normally, an enclave’s memory is hidden from debuggers and is protected from VTL0. However, if you wish to debug your VBS enclave, you can build them to be debugged during development. Enclaves are a VTL1 user-mode process, and therefore can be debugged with a user-mode debugger.
+Typically, an enclave’s memory is hidden from debuggers and is protected from VTL0. However, if you wish to debug your VBS enclave, you can build them to be debugged during development. Enclaves are a VTL1 user-mode process, and therefore can be debugged with a user-mode debugger.
 
 To make your enclave debuggable:
 
@@ -234,14 +234,14 @@ To debug your enclave:
 
 1. Attach the user-mode debugger to the enclave host process.
 1. Reload the enclave symbols after the host process has loaded the enclave image in memory.
-1. Set breakpoints on the functions inside the enclave. The debugger will break into it on an enclave call.
+1. Set breakpoints on the functions inside the enclave. The debugger breaks into it on an enclave call.
 
-You can also break on the user-mode breakpoints for **CreateEnclave**, **InitializeEnclave**, etc. which further jump into the corresponding code in `ntdll.dll`.
+You can also break on the user-mode breakpoints for **CreateEnclave**, **InitializeEnclave**, etc. which further step into the corresponding code in `ntdll.dll`.
 
 > [!NOTE]
 > Never use debuggable enclaves in production environments.
 
-With that, you should now be able to build and deploy your first VBS enclave If you have any questions, please reach out to [Windows developer support](https://developer.microsoft.com/windows/support/?tabs=Contact-us).
+With that, you can now build and deploy your first VBS enclave. If you have any questions, please reach out to [Windows developer support](https://developer.microsoft.com/windows/support/?tabs=Contact-us).
 
 ## Related content
 
