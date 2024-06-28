@@ -41,9 +41,6 @@ void CreateToolTipForRect(HWND hwndParent)
                                  CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 
                                  hwndParent, NULL, g_hInst,NULL);
 
-    SetWindowPos(hwndTT, HWND_TOPMOST, 0, 0, 0, 0, 
-                 SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE);
-
     // Set up "tool" information. In this case, the "tool" is the entire parent window.
     
     TOOLINFO ti = { 0 };
@@ -51,7 +48,7 @@ void CreateToolTipForRect(HWND hwndParent)
     ti.uFlags   = TTF_SUBCLASS;
     ti.hwnd     = hwndParent;
     ti.hinst    = g_hInst;
-    ti.lpszText = TEXT("This is your tooltip string.");
+    ti.lpszText = (LPWSTR)L"This is your tooltip string.";
     
     GetClientRect (hwndParent, &ti.rect);
 
