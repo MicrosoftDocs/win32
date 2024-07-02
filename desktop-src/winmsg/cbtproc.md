@@ -149,8 +149,6 @@ The system has retrieved a [**WM_QUEUESYNC**](wm-queuesync.md) message from the 
 
 ## Return value
 
-Type: ****
-
 Type: LRESULT
 
 The value returned by the hook procedure determines whether the system allows or prevents one of these operations. For operations corresponding to the following CBT hook codes, the return value must be 0 to allow the operation, or 1 to prevent it.
