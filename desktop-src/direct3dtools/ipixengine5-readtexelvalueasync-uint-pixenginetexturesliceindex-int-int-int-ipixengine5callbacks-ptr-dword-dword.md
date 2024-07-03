@@ -1,5 +1,5 @@
 ---
-description: Reads a texel value and returns the result to the host asynchrnously.
+description: Reads a texel value and returns the result to the host asynchronously.
 MS-HAID: vspixengine.IPixEngine5\_ReadTexelValueAsync\_UINT\_PixEngineTextureSliceIndex\_int\_int\_int\_IPixEngine5Callbacks\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -22,7 +22,7 @@ topic_type:
 
 # <span id="vspixengine.ipixengine5_readtexelvalueasync_uint_pixenginetexturesliceindex_int_int_int_ipixengine5callbacks_ptr_dword_dword"></span>IPixEngine5::ReadTexelValueAsync method
 
-Reads a texel value and returns the result to the host asynchrnously.
+Reads a texel value and returns the result to the host asynchronously.
 
 ## Syntax
 

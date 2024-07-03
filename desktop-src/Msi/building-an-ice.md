@@ -35,7 +35,7 @@ ICE custom actions are limited to the following custom action types.
 
 When authoring an ICE custom action, do not do the following:
 
--   Do not assume that the handle to the engine that the ICE receives is an installation instance of the installer database. If it is not a installation instance, certain properties are not defined, the source and target directories are not resolved, and current feature states are not defined.
+-   Do not assume that the handle to the engine that the ICE receives is an installation instance of the installer database. If it is not an installation instance, certain properties are not defined, the source and target directories are not resolved, and current feature states are not defined.
 -   Do not rely on the prior execution, or non-execution, of any installer action, custom action, or another ICE. Because a prior ICE may have created temporary columns in any table, authors should reference columns by name whenever possible. ICEs should cleanup any temporary columns or tables before they exit.
 -   Do not assume that authors have access to an image of the source directory of the database.
 -   Do not assume that changes made to the database do not persist.

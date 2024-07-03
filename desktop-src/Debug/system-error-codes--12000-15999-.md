@@ -3806,7 +3806,7 @@ The channel fails to activate.
 
 
 
-The xpath expression exceeded supported complexity. Please symplify it or split it into two or more simple expressions.
+The xpath expression exceeded supported complexity. Please simplify it or split it into two or more simple expressions.
 
 
 </dt> </dl> </dd> <dt>

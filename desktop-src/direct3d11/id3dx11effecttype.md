@@ -38,7 +38,7 @@ The **ID3DX11EffectType** interface has these methods.
 | [**GetMemberName**](id3dx11effecttype-getmembername.md)                     | Get the name of a member.<br/>              |
 | [**GetMemberSemantic**](id3dx11effecttype-getmembersemantic.md)             | Get the semantic attached to a member.<br/> |
 | [**GetMemberTypeByIndex**](id3dx11effecttype-getmembertypebyindex.md)       | Get a member type by index.<br/>            |
-| [**GetMemberTypeByName**](id3dx11effecttype-getmembertypebyname.md)         | Get an member type by name.<br/>            |
+| [**GetMemberTypeByName**](id3dx11effecttype-getmembertypebyname.md)         | Get a member type by name.<br/>            |
 | [**GetMemberTypeBySemantic**](id3dx11effecttype-getmembertypebysemantic.md) | Get a member type by semantic.<br/>         |
 | [**IsValid**](id3dx11effecttype-isvalid.md)                                 | Tests that the effect type is valid.<br/>   |
 

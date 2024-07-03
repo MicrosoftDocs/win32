@@ -90,4 +90,4 @@ This section provides reference information for Windows Firewall and advanced se
 | [**MSFT_NetSecDeltaCollection**](msft-netsecdeltacollection.md) | IPSec policy delta |
 | [**MSFT_NetSecuritySettingData**](msft-netsecuritysettingdata.md) | Global settings for IPsec. |
 | [**MSFT_NetServiceFilter**](msft-netservicefilter.md) | Filters traffic based on which Windows service it is sent or received by. |
-| [**MSFT_NetSettingData**](msft-netsettingdata-wfascim.md) | Serves as a base class for classes that provice access to network settings data, such as [**MSFT_NetIPsecDoSPSetting**](msft-netipsecdospsetting.md) and [**MSFT_NetSecuritySettingData**](msft-netsecuritysettingdata.md). |
+| [**MSFT_NetSettingData**](msft-netsettingdata-wfascim.md) | Serves as a base class for classes that provide access to network settings data, such as [**MSFT_NetIPsecDoSPSetting**](msft-netipsecdospsetting.md) and [**MSFT_NetSecuritySettingData**](msft-netsecuritysettingdata.md). |

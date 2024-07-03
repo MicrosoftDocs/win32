@@ -31,7 +31,7 @@ The performance of index processing operations depends heavily on where the inde
 
 Setting the D3DUSAGE\_SOFTWAREPROCESSING behavior flag when calling the [**IDirect3DDevice9::CreateIndexBuffer**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createindexbuffer) method specifies that the index buffer is to be used with software vertex processing. This flag is required in mixed mode vertex processing (D3DCREATE\_MIXED\_VERTEXPROCESSING) when software vertex processing is used.
 
-The application can directly write indices to a index buffer allocated in driver-optimal memory. This technique prevents a redundant copy operation later. This technique does not work well if your application reads data back from an index buffer, because read operations done by the host from driver-optimal memory can be very slow. Therefore, if your application needs to read during processing or writes data to the buffer erratically, a system-memory index buffer is a better choice.
+The application can directly write indices to an index buffer allocated in driver-optimal memory. This technique prevents a redundant copy operation later. This technique does not work well if your application reads data back from an index buffer, because read operations done by the host from driver-optimal memory can be very slow. Therefore, if your application needs to read during processing or writes data to the buffer erratically, a system-memory index buffer is a better choice.
 
 > [!Note]  
 > Always use D3DPOOL\_DEFAULT, except when you don't want to use video memory or use large amounts of page-locked RAM when the driver is putting vertex or index buffers into AGP memory.
