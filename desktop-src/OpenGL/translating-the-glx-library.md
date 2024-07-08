@@ -9,7 +9,7 @@ keywords:
 - GLX library OpenGL
 - Xlib functions OpenGL
 ms.topic: article
-ms.date: 04/28/2024
+ms.date: 07/06/2024
 ---
 
 # Translating the GLX Library
@@ -18,25 +18,28 @@ OpenGL X Window System programs use the OpenGL Extension with the X Window Syste
 
 
 
-| GLX/Xlib function         | Windows function                                                                                                                                       |
+| GLX/Xlib function         | WGL/Windows function                                                                                                                                   |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **glXChooseVisual**       | [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat)                                                                       |
 | **glXCopyContext**        | [**wglCopyContext**](/windows/desktop/api/wingdi/nf-wingdi-wglcopycontext)                                                                             |
-| **glXCreateContext**      | [**wglCreateContext**](/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext)                                                                         |
-| **glXCreateGLXPixmap**    | [**CreateDIBitmap**](/windows/desktop/api/wingdi/nf-wingdi-createdibitmap)[**CreateDIBSection**](/windows/desktop/api/wingdi/nf-wingdi-createdibsection) |
+| **glXCreateContext**      | [**wglCreateContext**](/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext), [**wglShareLists**](/windows/desktop/api/wingdi/nf-wingdi-wglsharelists) |
+| **glXCreateGLXPixmap**    | [**CreateDIBitmap**](/windows/desktop/api/wingdi/nf-wingdi-createdibitmap) / [**CreateDIBSection**](/windows/desktop/api/wingdi/nf-wingdi-createdibsection) |
 | **glXDestroyContext**     | [**wglDeleteContext**](/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext)                                                                         |
 | **glXDestroyGLXPixmap**   | [**DeleteObject**](/windows/desktop/api/wingdi/nf-wingdi-deleteobject)                                                                                 |
 | **glXGetConfig**          | [**DescribePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-describepixelformat)                                                                   |
 | **glXGetCurrentContext**  | [**wglGetCurrentContext**](/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentcontext)                                                                 |
 | **glXGetCurrentDrawable** | [**wglGetCurrentDC**](/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentdc)                                                                           |
+| **glXGetProcAddress**     | [**wglGetProcAddress**](/windows/desktop/api/wingdi/nf-wingdi-wglgetprocaddress)                                                                       |
 | **glXIsDirect**           | Not applicable.                                                                                                                                        |
 | **glXMakeCurrent**        | [**wglMakeCurrent**](/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent)                                                                             |
 | **glXQueryExtension**     | [**GetVersion**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversion)                                                                             |
 | **glXQueryVersion**       | [**GetVersion**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversion)                                                                             |
 | **glXSwapBuffers**        | [**SwapBuffers**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers)                                                                                   |
-| **glXUseXFont**           | [**wglUseFontBitmaps**](/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa)                                                                      |
+| **glXUseXFont**           | [**wglUseFontBitmaps**](/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa) / [**wglUseFontOutlines**](/windows/desktop/api/wingdi/nf-wingdi-wglusefontoutlinesa) |
+| **glXWaitGL**             | Not applicable.                                                                                                                                        |
+| **glXWaitX**              | Not applicable.                                                                                                                                        |
+| **XCreateWindow**         | [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa) / [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) and [**GetDC**](/windows/desktop/api/winuser/nf-winuser-getdc) / [**BeginPaint**](/windows/desktop/api/winuser/nf-winuser-beginpaint) |
 | **XGetVisualInfo**        | [**GetPixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-getpixelformat)                                                                             |
-| **XCreateWindow**         | [**CreateWindow**](/windows/win32/api/winuser/nf-winuser-createwindowa), [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa), [**GetDC**](/windows/desktop/api/winuser/nf-winuser-getdc), [**BeginPaint**](/windows/desktop/api/winuser/nf-winuser-beginpaint) |
 | **XSync**                 | [**GdiFlush**](/windows/desktop/api/wingdi/nf-wingdi-gdiflush)                                                                                         |
 | Not applicable.           | [**SetPixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-setpixelformat)                                                                             |
 

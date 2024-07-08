@@ -5,7 +5,7 @@ ms.assetid: e03ec03d-2a85-49de-a2be-fe81a5ec5f7f
 keywords:
 - WGL functions,rendering contexts
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/06/2024
 ---
 
 # Rendering Context Functions
@@ -14,13 +14,13 @@ Five WGL functions manage rendering contexts, as described in the following tabl
 
 
 
-| WGL Function                                         | Description                                                                                  |
-|------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| WGL Function                                                                           | Description                                                                                  |
+|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [**wglCreateContext**](/windows/desktop/api/wingdi/nf-wingdi-wglcreatecontext)         | Creates a new rendering context.                                                             |
-| [**WglMakeCurrent**](/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent)             | Sets a thread's current rendering context.                                                   |
-| [**WglGetCurrentContext**](/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentcontext) | Obtains a handle to a thread's current rendering context.                                    |
-| [**WglGetCurrentDC**](/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentdc)           | Obtains a handle to the device context associated with a thread's current rendering context. |
-| [**WglDeleteContext**](/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext)         | Deletes a rendering context.                                                                 |
+| [**wglMakeCurrent**](/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent)             | Sets a thread's current rendering context.                                                   |
+| [**wglGetCurrentContext**](/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentcontext) | Obtains a handle to a thread's current rendering context.                                    |
+| [**wglGetCurrentDC**](/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentdc)           | Obtains a handle to the device context associated with a thread's current rendering context. |
+| [**wglDeleteContext**](/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext)         | Deletes a rendering context.                                                                 |
 
 
 
