@@ -109,8 +109,8 @@ struct CpuPerfTimestamp
 // Contains the raw data from a Processor Information sample.
 // Note that the values returned are raw data. Converting from raw data to a
 // friendly value may require computation, and the computation may require
-// two samples of data. The computation depends on the Type, and the formula
-// to use for each type can be found on MSDN.
+// two samples of data. The computation depends on the Type and the formula
+// to use for each type.
 // For example, ProcessorTime contains raw data of type PERF_100NSEC_TIMER_INV.
 // Given two samples of data, s0 at time t0 and s1 at time t1, the friendly
 // "% Processor Time" value is computed as:

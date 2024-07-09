@@ -20,7 +20,7 @@ Centralized binary logging is a server session property that, when enabled, conf
 
 The following steps are performed to extract data from a raw log file:
 
--   Create a tool that locates and extracts the data that you want from the raw file and converts the data into formatted text. You can view a header file and log file format descriptions in the IIS 6.0 Software Development Kit on MSDN.
+-   Create a tool that locates and extracts the data that you want from the raw file and converts the data into formatted text. You can view a header file and log file format descriptions in the [IIS 6.0 Software Development Kit](/previous-versions/iis/6.0-sdk/ms525568(v=vs.90)).
 -   Use the Log Parser tool to extract data from the raw file. The Log Parser tool and its accompanying user documentation are included in the IIS 6.0 Resource Kit Tools.
 
 ## Centralized Binary Logging File Format

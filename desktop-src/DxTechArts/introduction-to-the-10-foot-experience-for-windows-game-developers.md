@@ -43,7 +43,7 @@ During the average 2-foot experience, the user is within reaching distance of th
 
 ### User Input
 
-Another feature of Windows Media Center is support for a standard remote control, which is the generally preferred input device. Although the genre of your game title largely decides whether the remote control is suitable for providing game input, you still might want to allow the user to pause the game and access in-game menus by using the remote control; however, make certain that you also allow the user to control the menus by using the primary game input device. For more information about designing and developing for Windows Media Center and its devices, see [Windows Media Center Software Development Kit](/previous-versions/msdn10/bb895967(v=msdn.10)) on MSDN.
+Another feature of Windows Media Center is support for a standard remote control, which is the generally preferred input device. Although the genre of your game title largely decides whether the remote control is suitable for providing game input, you still might want to allow the user to pause the game and access in-game menus by using the remote control; however, make certain that you also allow the user to control the menus by using the primary game input device. For more information about designing and developing for Windows Media Center and its devices, see [Windows Media Center Software Development Kit](/previous-versions/msdn10/bb895967(v=msdn.10)).
 
 Avoid any physical interaction between the user and the computer or its peripherals. Requiring the user to change input controllers during gameplay is undesirable, since he or she is likely to be near only the primary input device.
 

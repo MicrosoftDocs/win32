@@ -29,7 +29,7 @@ Applications register handler-specific information by writing entries to the **H
 
  
 
-For more information about the AutoPlay registry keys and values found under the **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\AutoplayHandlers\\Handlers** key, see the corresponding documentation on MSDN.
+For more information, see [DesktopAutoplayHandler](/windows-hardware/drivers/mobilebroadband/desktopautoplayhandler).
 
 ### The WPD AutoPlay Scheme
 
