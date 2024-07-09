@@ -1,11 +1,14 @@
 ---
-title: Instrumenting your Application
+title: Instrument your app
+description: Documenting how to instrument applications for use with PIX.
 ms.topic: article
-description: Documentation on how to instrument applications for use with PIX.
+ms.date: 07/09/2024
 ---
 
-# Instrumenting your Application
-To take full advantage of PIX's functionality and enable you to have the best possible experience, you will need to instrument your application.
+# Instrument your app
 
-## Annotating your code with PixEvents
-See [WinPixEventRuntime](https://devblogs.microsoft.com/pix/winpixeventruntime/) for installation and usage information. The source code is also available on the [PixEvents GitHub repo](https://github.com/microsoft/PixEvents).
+To take full advantage of PIX's functionality, and enable you to have the best possible experience, you will need to instrument your application.
+
+## Annotate your code with PixEvents
+
+For installation and usage information, see [WinPixEventRuntime](https://devblogs.microsoft.com/pix/winpixeventruntime/). The source code is also available in the GitHub reposirory [PixEvents](https://github.com/microsoft/PixEvents).
