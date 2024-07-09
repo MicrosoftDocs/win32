@@ -1,6 +1,8 @@
 - name: "Tools for DirectX Graphics"
   href: dx-graphics-tools.md
   items: 
+  - name: "PIX: Debugger and Profiler for Direct3D 12"
+    href: ./pix/toc.yml
   - name: "Debugging DirectX apps remotely"
     href: debugging-directx-apps-remotely.md
   - name: "Effect-Compiler Tool"

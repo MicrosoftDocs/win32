@@ -1,0 +1,11 @@
+items:
+  - name: "Getting Started with PIX"
+    href: pix-overview.md
+  - name: "Configuring PIX"
+    href: pix-configuring.md
+  - name: "Instrumenting your Application"
+    href: pix-instrumenting.md
+  - name: "Analyzing Frames with GPU Captures"
+    href: pix-gpu-captures.md
+  - name: "CPU and GPU Profiling with Timing Captures"
+    href: pix-timing-captures.md
