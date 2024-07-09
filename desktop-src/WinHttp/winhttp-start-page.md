@@ -29,7 +29,7 @@ A basic understanding of the HTTP protocol is important to use either interface.
 WinHTTP 5.1 offers improvements over version 5.0. It is included in the operating system. For more information about new features, see [What's New in WinHTTP 5.1](what-s-new-in-winhttp-5-1.md) and [What's New in Windows Server 2008 and Windows Vista](what-s-new-in-windows-longhorn.md).
 
 > [!IMPORTANT]
-> The WinHTTP 5.0 download is no longer available. As of October 1, 2004, Microsoft removed the WinHTTP 5.0 SDK download from MSDN and terminated product support for version 5.0.
+> The WinHTTP 5.0 download is no longer available. As of October 1, 2004, Microsoft removed the WinHTTP 5.0 SDK download and terminated product support for version 5.0.
 
  
 

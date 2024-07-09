@@ -12,7 +12,7 @@ Windows 7 includes new and improved security features that make it easier for d
 
 Enhancements to the Windows Filtering Platform allow developers to create applications that interact with the packet processing in the networking stack of the operating system. Network data can be filtered and also modified before it reaches its destination.
 
-Also, due to changes to the Windows privilege model, system security is more manageable by both developers and their end users. New improvements make it easy to identify critical prompts to ensure that users can access the applications and features they need without compromising their systems. (See the [MSDN Security Developer Center](https://msdn.microsoft.com/security/default.aspx).)
+Also, due to changes to the Windows privilege model, system security is more manageable by both developers and their end users. New improvements make it easy to identify critical prompts to ensure that users can access the applications and features they need without compromising their systems. See the [Microsoft Security documentation](/security/).
 
 ## Windows Filtering Platform
 

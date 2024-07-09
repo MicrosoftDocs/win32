@@ -41,4 +41,4 @@ For an example of wait chain traversal, see [Using WCT](using-wct.md).
 
 - [Using WCT](using-wct.md)
 - [WCT reference](wct-reference.md)
-- [Bugslayer: Wait Chain Traversal](/archive/msdn-magazine/2007/july/bugslayer-wait-chain-traversal) from *MSDN Magazine*
+- [MSDN Magazine 2007 July - Bugslayer: Wait Chain Traversal](/archive/msdn-magazine/2007/july/bugslayer-wait-chain-traversal)

@@ -29,7 +29,7 @@ Redistribution of WinHTTP 5.1 outside of these operating systems is not supporte
 The WinHTTP 5.0 redistributable, "winhttp5.dll", runs on Windows 2000 or later, or Windows NT 4.0 with Microsoft Internet Explorer 5.01 or later.
 
 > [!IMPORTANT]
-> The WinHTTP 5.0 download is no longer available. As of October 1, 2004, Microsoft has removed the WinHTTP 5.0 SDK download from MSDN and has terminated product support for version 5.0.
+> The WinHTTP 5.0 download is no longer available. As of October 1, 2004, Microsoft has removed the WinHTTP 5.0 SDK download and has terminated product support for version 5.0.
 
  
 

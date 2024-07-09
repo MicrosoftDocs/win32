@@ -33,7 +33,7 @@ switch (uMsg)
 }
 ```
 
-Additional data for the message is contained in the *lParam* and *wParam* parameters. Both parameters are integer values the size of a pointer width (32 bits or 64 bits). The meaning of each depends on the message code (*uMsg*). For each message, you will need to look up the message code on MSDN and cast the parameters to the correct data type. Usually the data is either a numeric value or a pointer to a structure. Some messages do not have any data.
+Additional data for the message is contained in the *lParam* and *wParam* parameters. Both parameters are integer values the size of a pointer width (32 bits or 64 bits). The meaning of each depends on the message code (*uMsg*). For each message, you will need to look up the message code and cast the parameters to the correct data type. Usually the data is either a numeric value or a pointer to a structure. Some messages do not have any data.
 
 For example, the documentation for the [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) message states that:
 
@@ -65,7 +65,7 @@ void OnSize(HWND hwnd, UINT flag, int width, int height)
 }
 ```
 
-The [**LOWORD**](../winmsg/loword.md) and [**HIWORD**](../winmsg/hiword.md) macros get the 16-bit width and height values from *lParam*. (You can look up these kinds of details in the MSDN documentation for each message code.) The window procedure extracts the width and height, and then passes these values to the `OnSize` function.
+The [**LOWORD**](../winmsg/loword.md) and [**HIWORD**](../winmsg/hiword.md) macros get the 16-bit width and height values from *lParam*. The window procedure extracts the width and height, and then passes these values to the `OnSize` function.
 
 ## Default Message Handling
 

@@ -15,7 +15,7 @@ This section provides information that enables you to develop graphical user int
 | Topic | Description |
 |-|-|
 | [Getting Started Developing User Interfaces for Windows Applications](./appuistart/getting-started-developing-user-interfaces-portal.md) | Provides general guidance to developers who are designing, implementing, and testing the user interface of a Windows application. |
-| [Windows User Experience Interaction Guidelines](uxguide/guidelines.md) | Provides user experience guidelines for Windows-based desktop applications. |
+| [Windows User Experience Interaction Guidelines](../uxguide/interaction.md) | Provides user experience guidelines for Windows-based desktop applications. |
 | [Internationalization for Windows Applications](./intl/international-support.md) | Describes the technologies that enable you to support the many cultures and written languages of the international marketplace in your Windows-based applications. |
 | [Accessibility](./accessibility/accessibility.md) | Describes accessibility features that make it easier for persons with disabilities to use computers. |
 | [User Interaction](./user-interaction.md) | Describes features that enable the user to interact with an application, through devices such as the keyboard, mouse, and touch screens. |

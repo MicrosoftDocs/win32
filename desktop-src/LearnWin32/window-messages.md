@@ -47,7 +47,7 @@ TranslateMessage(&msg);
 DispatchMessage(&msg);
 ```
 
-The [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function is related to keyboard input. It translates keystrokes (key down, key up) into characters. You do not really have to know how this function works; just remember to call it before [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage). The link to the MSDN documentation will give you more information, if you are curious.
+The [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function is related to keyboard input. It translates keystrokes (key down, key up) into characters. You do not really have to know how this function works; just remember to call it before [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage).
 
 The [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function tells the operating system to call the window procedure of the window that is the target of the message. In other words, the operating system looks up the window handle in its table of windows, finds the function pointer associated with the window, and invokes the function.
 

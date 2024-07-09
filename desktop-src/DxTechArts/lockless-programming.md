@@ -112,7 +112,7 @@ In this code, one thread adds a new entry to the sprite array:
 
 ``` syntax
 // Create a new sprite by writing its position into an empty
-// entry and then setting the ‘alive' flag. If ‘alive' is
+// entry and then setting the 'alive' flag. If 'alive' is
 // written before x or y then errors may occur.
 g_sprites[nextSprite].x = x;
 g_sprites[nextSprite].y = y;
@@ -123,7 +123,7 @@ In this next code block, another thread reads from the sprite array:
 
 ``` syntax
 // Draw all sprites. If the reads of x and y are moved ahead of
-// the read of ‘alive' then errors may occur.
+// the read of 'alive' then errors may occur.
 for( int i = 0; i < numSprites; ++i )
 {
     if( g_sprites[nextSprite].alive )
@@ -172,7 +172,7 @@ Even though x86 and x64 CPUs do reorder instructions, they generally do not reor
 
 ### Other Reordering
 
-Even though x86 and x64 CPUs do not reorder writes relative to other writes, or reorder reads relative to other reads, they can reorder reads relative to writes. Specifically, if a program writes to one location followed by reading from a different location, the read data may come from shared memory before the written data makes it there. This reordering can break some algorithms, such as Dekker’s mutual exclusion algorithms. In Dekker's algorithm, each thread sets a flag to indicate that it wants to enter the critical region, and then checks the other thread’s flag to see if the other thread is in the critical region or trying to enter it. The initial code follows.
+Even though x86 and x64 CPUs do not reorder writes relative to other writes, or reorder reads relative to other reads, they can reorder reads relative to writes. Specifically, if a program writes to one location followed by reading from a different location, the read data may come from shared memory before the written data makes it there. This reordering can break some algorithms, such as Dekker's mutual exclusion algorithms. In Dekker's algorithm, each thread sets a flag to indicate that it wants to enter the critical region, and then checks the other thread's flag to see if the other thread is in the critical region or trying to enter it. The initial code follows.
 
 ``` syntax
 volatile bool f0 = false;
@@ -206,7 +206,7 @@ void P1Acquire()
 }
 ```
 
-The problem is that the read of f1 in P0Acquire can read from shared storage before the write to f0 makes it to shared storage. Meanwhile, the read of f0 in P1Acquire can read from shared storage before the write to f1 makes it to shared storage. The net effect is that both threads set their flags to TRUE, and both threads see the other thread's flag as being FALSE, so they both enter the critical region. Therefore, while problems with reordering on x86- and x64-based systems are less common than on Xbox 360, they definitely can still happen. Dekker’s algorithm will not work without hardware memory barriers on any of these platforms.
+The problem is that the read of f1 in P0Acquire can read from shared storage before the write to f0 makes it to shared storage. Meanwhile, the read of f0 in P1Acquire can read from shared storage before the write to f1 makes it to shared storage. The net effect is that both threads set their flags to TRUE, and both threads see the other thread's flag as being FALSE, so they both enter the critical region. Therefore, while problems with reordering on x86- and x64-based systems are less common than on Xbox 360, they definitely can still happen. Dekker's algorithm will not work without hardware memory barriers on any of these platforms.
 
 x86 and x64 CPUs will not reorder a write ahead of a previous read. x86 and x64 CPUs only reorder reads ahead of previous writes if they target different locations.
 
@@ -470,11 +470,11 @@ Lockless algorithms are not guaranteed to be faster than algorithms that use loc
 
 ## References
 
--   MSDN Library. "[**volatile (C++)**](https://msdn.microsoft.com/library/12a04hfd(v=VS.71).aspx)." C++ Language Reference.
+-   "[**volatile (C++)**](https://msdn.microsoft.com/library/12a04hfd(v=VS.71).aspx)." C++ Language Reference.
 -   Vance Morrison. "[Understand the Impact of Low-Lock Techniques in Multithreaded Apps](/archive/msdn-magazine/2005/october/understanding-low-lock-techniques-in-multithreaded-apps)." MSDN Magazine, October 2005.
 -   Lyons, Michael. "[PowerPC Storage Model and AIX Programming](https://www-128.ibm.com/developerworks/eserver/articles/powerpc.mdl)." IBM developerWorks, 16 Nov 2005.
 -   McKenney, Paul E. "[Memory Ordering in Modern Microprocessors, Part II](https://www.linuxjournal.com/article/8212)." Linux Journal, September 2005. \[This article has some x86 details.\]
--   Intel Corporation. "[Intel® 64 Architecture Memory Ordering](https://www.cs.cmu.edu/~410-f10/doc/Intel_Reordering_318147.pdf)." August 2007. \[Applies to both IA-32 and Intel 64 processors.\]
+-   Intel Corporation. "[Intel&reg; 64 Architecture Memory Ordering](https://www.cs.cmu.edu/~410-f10/doc/Intel_Reordering_318147.pdf)." August 2007. \[Applies to both IA-32 and Intel 64 processors.\]
 -   Niebler, Eric. "[Trip Report: Ad-Hoc Meeting on Threads in C++](https://www.artima.com/cppsource/threads_meeting.html)." The C++ Source, 17 Oct 2006.
 -   Hart, Thomas E. 2006. "[Making Lockless Synchronization Fast: Performance Implications of Memory Reclamation](https://www.cs.toronto.edu/~tomhart/papers/hart_ipdps06.pdf)." Proceedings of the 2006 International Parallel and Distributed Processing Symposium (IPDPS 2006), Rhodes Island, Greece, April 2006.
 

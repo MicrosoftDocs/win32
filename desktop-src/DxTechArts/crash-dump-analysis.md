@@ -115,7 +115,7 @@ If you archive the product during your daily build process, also be sure to incl
 3.  Click **Optimization**, and set **References** to E**liminate Unreferenced Data (/OPT:REF)**.
 4.  Set **Enable COMDAT Folding** to **Remove Redundant COMDATs (/OPT:ICF)**.
 
-MSDN has more detailed information on the [**MINIDUMP\_EXCEPTION\_INFORMATION**](/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information) structure and the [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function.
+For more information, see the [**MINIDUMP\_EXCEPTION\_INFORMATION**](/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information) structure and the [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function.
 
 ## Using Dumpchk.exe
 

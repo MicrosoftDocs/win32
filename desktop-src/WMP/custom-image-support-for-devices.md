@@ -42,13 +42,13 @@ The following guidelines apply to custom image support in general:
 
 ## Creating the Device Icon Image
 
-The device icon image file, DevIcon.fil, must contain a file in Windows icon format. The MSDN article [Icons in Win32](/previous-versions/ms997538(v=msdn.10)) describes how to create such a file. The MSDN article [Creating Windows XP Icons](/previous-versions/ms997636(v=msdn.10)) provides style guidelines for Windows XP icons. The device icon image file incorporates twelve images in a single file by providing four different sizes with three different color depths each.
+The device icon image file, DevIcon.fil, must contain a file in Windows icon format. [Icons in Win32](/previous-versions/ms997538(v=msdn.10)) describes how to create such a file. [Creating Windows XP Icons](/previous-versions/ms997636(v=msdn.10)) provides style guidelines for Windows XP icons. The device icon image file incorporates twelve images in a single file by providing four different sizes with three different color depths each.
 
 Be certain to pay particular attention to the following guidelines:
 
 -   Recommended sizes (in pixels) are 16x16, 32x32, 48x48, and 256x256.
 -   Recommended color depths are 24-bit with 8-bit alpha channel, 8-bit with 1-bit transparency, and 4-bit with 1-bit transparency.
--   Use the perspective angle and drop shadow recommendations described in the MSDN articles mentioned previously.
+-   Use the perspective angle and drop shadow recommendations mentioned previously.
 
 Once you have created the icon file, simply rename it DevIcon.fil.
 

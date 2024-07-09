@@ -40,7 +40,7 @@ Before you attempt to run this sample, note the following:
 
 ```VB
 Set updateSession = CreateObject("Microsoft.Update.Session")
-updateSession.ClientApplicationID = "MSDN Sample Script"
+updateSession.ClientApplicationID = "Sample Script"
 
 'Get update title to search for
 WScript.Echo "Enter the title of the update: " & _

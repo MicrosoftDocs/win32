@@ -875,12 +875,6 @@ m_p11to9Queue->OpenProducer(m_pD3D11Device, &m_pD3D11Producer);
 m_p11to9Queue->OpenConsumer(m_pD3D9Device, &m_pD3D9Consumer);
 ```
 
-
-
 ## Conclusion
 
-You can create solutions that use interoperability to employ the power of multiple DirectX APIs. Windows graphics API interoperability now offers a common surface management runtime DXGI 1.1. This runtime enables synchronized surface sharing support within newly developed APIs, such as Direct3D 11, Direct3D 10.1 and Direct2D. Interoperability improvements between new APIs and existing APIs aid application migration and backward compatibility. Direct3D 9Ex and DXGI 1.1 consumer APIs can interoperate, as shown with the synchronization mechanism provided through sample helper code on MSDN Code Gallery.
-
- 
-
- 
+You can create solutions that use interoperability to employ the power of multiple DirectX APIs. Windows graphics API interoperability now offers a common surface management runtime DXGI 1.1. This runtime enables synchronized surface sharing support within newly developed APIs, such as Direct3D 11, Direct3D 10.1 and Direct2D. Interoperability improvements between new APIs and existing APIs aid application migration and backward compatibility. Direct3D 9Ex and DXGI 1.1 consumer APIs can interoperate, as shown with the synchronization mechanism available in older Win32 sample apps that can be found in the archived [MSDN Code Gallery Microsoft Samples](https://github.com/microsoftarchive/msdn-code-gallery-microsoft) repo.

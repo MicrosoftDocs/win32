@@ -188,7 +188,7 @@ Some GDI+ methods return **ObjectBusy** if a thread attempts to call a method wh
 
 <dl> <dt>
 
-[MSDN Security Developer Center](https://msdn.microsoft.com/security/)
+[Security developer documentation](https://learn.microsoft.com/en-us/security/)
 </dt> <dt>
 
 [Security How-To Resources](/previous-versions/msp-n-p/ff650055(v=pandp.10))

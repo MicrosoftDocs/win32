@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Overview of Parental Controls Changes for Windows 7
 
-The purpose of this document is to give an overview of the changes to the Windows Parental Controls introduced in Windows 7 and to enable third-party parental control solution providers to take advantage of these changes. This document assumes readers' familiarity with Parental Controls for Windows Vista and will only reflect changes made to this functionality in Windows 7 that are relevant for third-party parental control solutions development. A full update of MSDN Windows Parental Control documentation will follow at a later date.
+The purpose of this document is to give an overview of the changes to the Windows Parental Controls introduced in Windows 7 and to enable third-party parental control solution providers to take advantage of these changes. This document assumes readers' familiarity with Parental Controls for Windows Vista and will only reflect changes made to this functionality in Windows 7 that are relevant for third-party parental control solutions development.
 
 ## Key Design Decisions for Windows 7 Parental Control Changes
 

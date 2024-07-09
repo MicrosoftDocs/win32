@@ -83,7 +83,7 @@ Coding Task
 
 **To modify your existing code base from IPv4 to IPv4- and IPv6-interoperability**
 
-1.  Acquire the Checkv4.exe utility. The utility is included with the Microsoft Windows Software Development Kit (SDK) which is made available through your MSDN subscription, or from the web as a download.
+1.  Acquire the Checkv4.exe utility. The utility is included with the Microsoft Windows Software Development Kit (SDK).
 2.  Run the Checkv4.exe utility against your code. Learn about how to run the Checkv4.exe utility against your files in the section on [Using the Checkv4.exe Utility](using-the-checkv4-exe-utility-2.md).
 3.  The utility alerts you to usage of **sockaddr** or **sockaddr\_in** structures, and provides recommendations on how to replace either with the IPv6 compatible structure [**SOCKADDR\_STORAGE**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)).
 4.  Replace any such instances, and associated code as appropriate, to use the **SOCKADDR\_STORAGE** structure.

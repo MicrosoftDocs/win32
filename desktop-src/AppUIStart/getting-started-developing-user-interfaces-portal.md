@@ -15,7 +15,7 @@ The following sections offer general guidance to developers who are designing, i
 In addition to basic user interface design principles, numerous recommendations and suggestions are provided that will help developers provide a user experience that is as simple, efficient, and enjoyable as possible.
 
 > [!Note]  
-> These guidelines are not intended to be comprehensive and are subject to the specific scope and functionality of an application. For more comprehensive guidelines, see the [Windows User Experience Interaction Guidelines](../uxguide/guidelines.md).
+> These guidelines are not intended to be comprehensive and are subject to the specific scope and functionality of an application. For more comprehensive guidelines, see the [Windows User Experience Interaction Guidelines](../uxguide/interaction.md).
 
  
 

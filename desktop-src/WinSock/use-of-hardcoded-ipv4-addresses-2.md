@@ -20,7 +20,7 @@ Code To Avoid
 
 **To modify your existing code base from IPv4 to IPv4- and IPv6-interoperability**
 
-1.  Acquire the *Checkv4.exe* utility. The *Checkv4.exe* utility is installed as part of the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later. The Windows SDK is available through an MSDN subscription and can also be downloaded from the Microsoft website (https://msdn.microsoft.com).
+1.  Acquire the *Checkv4.exe* utility. The *Checkv4.exe* utility is installed as part of the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later.
 2.  Run the *Checkv4.exe* utility against your code. Learn about how to run the *Checkv4.exe* utility against your files in the section on [Using the Checkv4.exe Utility](using-the-checkv4-exe-utility-2.md).
 3.  The *Checkv4.exe* utility alerts you to the presence of common defines for IPv4 addresses, such as INADDR\_LOOPBACK. Modify any code that uses literal strings with code that is protocol-version agnostic.
 4.  Search your code base for other potential literal strings, as appropriate.

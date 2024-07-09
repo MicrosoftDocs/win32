@@ -10,30 +10,13 @@ ms.date: 05/31/2018
 
 The **Help** menu provides the following commands:
 
-
-
 | Command      | Description                                                                      |
 |--------------|----------------------------------------------------------------------------------|
-| **Help...**  | Opens TopoEdit help on the MSDN website.                                         |
+| **Help...**  | Opens [TopoEdit](topoedit.md).                                         |
 | **About...** | Opens the **About** dialog box that displays version information about TopoEdit. |
-
-
-
- 
 
 ## Related topics
 
-<dl> <dt>
-
 [TopoEdit Menus](topoedit-menus.md)
-</dt> <dt>
 
 [TopoEdit](topoedit.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
