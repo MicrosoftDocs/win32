@@ -17,7 +17,7 @@ ms.date: 05/31/2018
 
 With Windows Media 10 technology, you can now meter content usage on a portable device. If a Windows Media 10 license allows metering, the device can store the play count for songs and upload usage back to the license issuer over the Internet. This system enables content providers to adjust their royalty fees by accurately measuring content usage.
 
-To meter content, the application must have a metering certificate provided by a licensing service built on the Windows Media Rights Manager 10 SDK. Only content licensed by this same service can be metered. For more information on how metering works, and how to build a license metering service, see the [Windows Media Rights Manager SDK documentation](/previous-versions/ms986509(v=msdn.10)) on MSDN. The SDK can be acquired by filling out the necessary information on the [Windows Media Licensing Page](https://www.microsoft.com/licensing/default).
+To meter content, the application must have a metering certificate provided by a licensing service built on the Windows Media Rights Manager 10 SDK. Only content licensed by this same service can be metered. For more information on how metering works, and how to build a license metering service, see the [Windows Media Rights Manager SDK documentation](/previous-versions/ms986509(v=msdn.10)). The SDK can be acquired by filling out the necessary information on the [Windows Media Licensing Page](https://www.microsoft.com/licensing/default).
 
 An application can have metering built in to it, or you can build a COM plug-in for an existing application, such as the Windows Media Player, if the application accepts metering plug-ins.
 

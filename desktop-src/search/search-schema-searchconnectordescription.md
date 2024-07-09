@@ -152,7 +152,7 @@ The following is an example of a Search Connector Description file for a federat
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <searchConnectorDescription xmlns="http://schemas.microsoft.com/windows/2009/searchConnector">
-  <description>Search MSDN. Powered by live.com</description>
+  <description>Search powered by live.com</description>
   <isSearchOnlyItem>true</isSearchOnlyItem>
   <domain>https://social.msdn.microsoft.com</domain>
   <supportsAdvancedQuerySyntax>false</supportsAdvancedQuerySyntax>

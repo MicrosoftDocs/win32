@@ -105,7 +105,7 @@ Using the **/GS** flag causes the compiler to construct a check for some forms o
 
 Using the **/SAFESEH** flag will instruct the linker to only generate an executable or DLL if it can also generate a table of the safe exception handlers of the executable or DLL. Safe Structured Exception Handling (SafeSEH) eliminates exception handling as a target of buffer overrun attacks by ensuring that, before an exception is dispatched, the exception handler is registered in the function table located within the image file. These protection benefits are enabled with Windows XP SP2, Windows Server 2003, Windows Vista, and Windows 7. Also for **/SAFESEH** to work properly, it must be used in an all-or-nothing method. All libraries containing code bound to an executable or DLL must be compiled with **/SAFESEH** or the table will not be generated.
 
-More information about [Buffer Security Check](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) (**/GS**) and [Image has Safe Exception Handlers](https://msdn.microsoft.com/library/9a89h429(vs.71).aspx) (**/SAFESEH**) can be found in MSDN.
+For more information see [Buffer Security Check](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) (**/GS**) and [Image has Safe Exception Handlers](https://msdn.microsoft.com/library/9a89h429(vs.71).aspx) (**/SAFESEH**).
 
 See also info about Microsoft Visual Studio 2012's [**/SDL** flag](/cpp/build/reference/sdl-enable-additional-security-checks) and Visual Studio 2012's [enhancements to the **/GS** flag](https://www.microsoft.com/security/blog/2012/01/26/enhancements-to-gs-in-visual-studio-11/).
 
@@ -130,7 +130,7 @@ Through the use of header annotation (particularly for buffer pointer arguments)
 
 The Windows Application Verifier, or AppVerifier, can help testers by providing multiple functions in one tool. The AppVerifier is a tool that was developed to make common programming errors more testable. AppVerifier can check parameters passed to API calls, inject erroneous input to check error handling ability, and log changes to the registry and file system. AppVerifier can also detect buffer overruns in the heap, check that an Access Control List (ACL) has been properly defined, and enforce the safe use of socket APIs. While not exhaustive, AppVerifier can be one tool in the tester's toolbox to help a development studio release a quality product.
 
-For more information about Application Verifier, see [Application Verifier](/previous-versions/visualstudio/visual-studio-2008/ms220948(v=vs.90)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN.
+For more information about Application Verifier, see [Application Verifier](/previous-versions/visualstudio/visual-studio-2008/ms220948(v=vs.90)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)).
 
 </dd> <dt>
 

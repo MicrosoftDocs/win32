@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 ## Description
 
-The new File History feature replaces the existing Backup and Restore function, and offers protection for user files stored in user libraries. A set of APIs is provided that allows developers to programmatically enable File History and select a specific storage target. Documentation for these APIs is available on MSDN.
+The new File History feature replaces the existing Backup and Restore function, and offers protection for user files stored in user libraries. A set of APIs is provided that allows developers to programmatically enable File History and select a specific storage target.
 
 It may affect workflows related to data protection and documentation that depend on the Windows Backup and Restore feature.
 
