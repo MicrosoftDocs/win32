@@ -32,7 +32,7 @@ ms.date: 05/31/2018
 
 ## Description
 
-The registry reflection process copies registry keys and values between two registry views to keep them in synch. In previous 64-bit installations of Windows, the process reflected a subset of the redirected registry keys between the 32-bit and 64-bit views. However, the implementation of this caused some inconsistencies in the state of the registry. (For details on Registry Reflection, please refer to the corresponding MSDN article in the *Links to Other Resources* section below.)
+The registry reflection process copies registry keys and values between two registry views to keep them in synch. In previous 64-bit installations of Windows, the process reflected a subset of the redirected registry keys between the 32-bit and 64-bit views. However, the implementation of this caused some inconsistencies in the state of the registry. For more details on Registry Reflection, see [Registry Reflection](../winprog64/registry-reflection.md).
 
 Starting with Windows 7, we have removed registry reflection completely and merged the keys that used to be reflected:
 

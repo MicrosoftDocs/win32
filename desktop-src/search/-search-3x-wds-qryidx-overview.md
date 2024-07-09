@@ -30,7 +30,7 @@ This section provides the conceptual framework for querying the index programmat
     -   [Property System](../properties/building-property-handlers.md)
     -   [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
 -   For information on how to create and modify search folders, see [**ISearchFolderItemFactory Interface**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory).
--   For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
+-   For community-supported question and discussion message boards on Search technologies, see [Microsoft Q&A](/answers/).
 -   To download the Search SDK Code Samples:
     -   For Windows 7: [Windows Search Samples on GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)
 -   To download the Windows SDK:

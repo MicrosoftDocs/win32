@@ -13,7 +13,7 @@ You can find resources and examples for using WMI in the following print and onl
 
 -   [Print](#print)
 -   [Online Documentation and Examples](#online-documentation-and-examples)
--   [MSDN Scripting](#msdn-scripting)
+-   [WMI scripting](#wmi-scripting)
 -   [Downloads](#downloads)
 -   [Related topics](#related-topics)
 
@@ -69,7 +69,7 @@ The following printed material is available to help you learn more about WMI:
 
 The following online documentation and examples are available to help you learn to use WMI:
 
--   The most up-to-date version of WMI SDK documentation is on the MSDN Library. This documentation is located under Win32 and COM Development \| Administration and Management \| Windows Management Instrumentation.
+-   The most up-to-date version of WMI SDK documentation is located under Win32 and COM Development \| Administration and Management \| Windows Management Instrumentation.
 -   [TechNet ScriptCenter](https://www.microsoft.com/technet/scriptcenter)
 
     Search by category and task to find short administrative scripts. For example, in the Monitoring category, you can find a script titled "Monitor Available Disk Space".
@@ -92,7 +92,7 @@ The following online documentation and examples are available to help you learn 
 
     A comprehensive overview of the scripting technologies available in the Windows operating systems, including WMI. This Microsoft TechNet website offers hundreds of administrator scripting examples and information about how to modify them for the needs of your system.
 
-## MSDN scripting
+## WMI scripting
 
 The Scripting Clinic under [Columns](https://msdn.microsoft.com/library/aa902519.aspx) includes advanced scripting topics besides the WMI Scripting Primers, such as [Creating user accounts](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974568(v=msdn.10)) from Excel data.
 

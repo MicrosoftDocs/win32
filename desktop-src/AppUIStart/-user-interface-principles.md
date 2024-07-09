@@ -168,7 +168,7 @@ In the same **System Properties** applet, each tab has multiple GroupBoxes with 
 
 Choosing the right icon is also important. Microsoft provides many standard graphics as part of Visual Studio 2005. These would be the best choice. If you create your own icons, it is highly recommended that you follow the operating system-level or application-level standards for these graphics as mentioned in the [Use Standards](#use-standards) section above.
 
-The [Windows User Experience Interaction Guidelines](/windows/apps/desktop/) contains a very helpful guide for creating Windows style [icons](https://msdn.microsoft.com/library/aa511280.aspx).
+The [Windows User Experience Interaction Guidelines](../uxguide/interaction.md) contains a very helpful guide for creating Windows style [icons](../uxguide/vis-icons.md).
 
 ### Simplify Recognition with Headers
 
@@ -276,13 +276,13 @@ Another method that is becoming popular is a fixed 'toast' window that displays 
 
 It is safe to assume that if faced with a plethora of controls on a single form, a typical user will be confused to no end. Sometimes, no amount of grouping, sizing, or spacing can help you when you have many important controls.
 
-A Wizard is the best thing for such scenarios. You can divide controls by task or categories as applicable, and place them in separate steps. This can help the user stay focused and not be daunted by the task. You can provide step- or task-specific help with a Help button. You can find Wizard creation guidelines in the MSDN Library.
+A Wizard is the best thing for such scenarios. You can divide controls by task or categories as applicable, and place them in separate steps. This can help the user stay focused and not be daunted by the task. You can provide step- or task-specific help with a Help button. For more detail, see [Wizards](../uxguide/win-wizards.md).
 
 Wizards are also a good way to help set up the initial configuration of your application. Many applications use such a wizard to set up personalized configuration just after setup is completed, or on first use. Such an initial wizard should also be made optional, if possible—if the user cancels at any point, the unspecified settings go to default values. If you can make the wizard a bit graphical (see the [Use Pretty Graphics](#use-pretty-graphics) section), it makes the configuration task that much easier.
 
 ### Get the Tone of Your Text Right
 
-In the [Windows User Experience Interaction Guidelines](/windows/apps/desktop/), a very important point has been made about "Text Tone". This is the impression and feeling given by the text in your application. This can be anything from a simple tooltip, to an instruction label control.
+In the [Windows User Experience Interaction Guidelines](../uxguide/interaction.md), a very important point has been made about "Text Tone". This is the impression and feeling given by the text in your application. This can be anything from a simple tooltip, to an instruction label control.
 
 Earlier we discussed the change of text in the Webcam option in MSN Messenger. That is called proper text tone. When dealing with non-technical or novice users, getting the message across takes on a different aspect.
 
@@ -290,7 +290,7 @@ If you write "Destination Path" above a text box in a self-extracting applicatio
 
 Providing a clear description of what you want the user to do also lessens the need for Help files, or at least lessens the details you need to include in Help files.
 
-A very good suggestion from the [Windows User Experience Interaction Guidelines](/windows/apps/desktop/) applies to any software. It states that the writer should keep the text conversational. The Guidelines defines this as, "Avoid words you wouldn't say to someone else in person."
+A very good suggestion from the [Windows User Experience Interaction Guidelines](../uxguide/interaction.md) applies to any software. It states that the writer should keep the text conversational. The Guidelines defines this as, "Avoid words you wouldn't say to someone else in person."
 
 A few tips for writing text:
 

@@ -16,19 +16,17 @@ The following supplemental information sources may also be helpful to software d
 
 You can check the Windows Developer Center for information about using Windows Installer when building applications for Windows.
 
--   [Windows Developer Center](https://msdn.microsoft.com/windows/default.aspx)
+-   [Windows Developer Center](https://developer.microsoft.com/windows/)
 
-## Windows Installer Technical Chats
+## Microsoft Support Community
 
-You can participate in live MSDN technical chat sessions about the Windows Installer:
+You can ask community members about the Windows Installer:
 
--   [Technical Chats](https://msdn.microsoft.com/chats/default.aspx)
-
-    Experts from the Windows Installer team at Microsoft answer questions you ask about Windows Installer.
+-   [Microsoft Support Community](https://answers.microsoft.com/)
 
 <!-- -->
 
--   [Archive of MSDN Windows Installer Chats](/previous-versions/msdn10/aa497439(v=msdn.10))
+-   [Archive of Windows Installer Chats](/previous-versions/msdn10/bb264384(v=msdn.10))
 
     Transcripts of previous chats about the Windows Installer are archived for you to read at any time.
 
@@ -36,15 +34,7 @@ You can participate in live MSDN technical chat sessions about the Windows Insta
 
 You can search the Microsoft Q&A site for articles and newsgroups about the Windows Installer:
 
--  [Microsoft Q&A](/answers/)
-
-## Knowledge Base Articles
-
-You can search the Knowledge Base (KB) for articles about the Windows Installer:
-
--   [Search the Knowledge Base](https://support.microsoft.com)
-
-    Search for both Windows Installer and MSI.
+-  [Microsoft Q&A](/answers/questions/)
 
 ## White Papers
 

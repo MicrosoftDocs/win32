@@ -42,7 +42,7 @@ Requesters can explicitly do the following:
 
     Note that internal COM callbacks implemented by VSS are secured by default.
 
-    To allow all processes COM access to a requester, you can pass a **NULL** security descriptor as the first parameter of [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). (Note that **CoInitializeSecurity** must be called at most once for the entire process. Please see the COM documentation or MSDN for more information on **CoInitializeSecurity** calls.)
+    To allow all processes COM access to a requester, you can pass a **NULL** security descriptor as the first parameter of [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). (Note that **CoInitializeSecurity** must be called at most once for the entire process.)
 
     The following code example shows how a requester should call [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) in Windows 8 and Windows Server 2012 and later, in order to be compatible with VSS for remote file shares (RVSS):
 

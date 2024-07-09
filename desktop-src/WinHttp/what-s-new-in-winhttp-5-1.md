@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 This topic describes the most important differences between WinHTTP version 5.1 and version 5.0. Many of these differences require code changes in applications migrating from version 5.0 to version 5.1. Some of the features in version 5.1 are only available starting with Windows Server 2003 and Windows XP with Service Pack 2 (SP2), particularly features related to improving the security of the client against malicious Web servers.
 
 > [!IMPORTANT]
-> With the release of WinHTTP Version 5.1, the WinHTTP 5.0 download is no longer available. As of October 1, 2004, Microsoft has removed the WinHTTP 5.0 SDK download from MSDN and has terminated product support for version 5.0.
+> With the release of WinHTTP Version 5.1, the WinHTTP 5.0 download is no longer available. As of October 1, 2004, Microsoft has removed the WinHTTP 5.0 SDK download and has terminated product support for version 5.0.
 
  
 

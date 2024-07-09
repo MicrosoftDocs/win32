@@ -32,7 +32,7 @@ Also see [DirectX samples](/windows/uwp/gaming/directx-samples).
 
 ## Older samples
 
-You can find some older Win32 sample apps in the [MSDN Code Gallery Microsoft samples](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20desktop%20samples/%5BC%2B%2B%5D-Windows%208.1%20desktop%20samples) repo.
+Older Win32 sample apps can be found in the archived [MSDN Code Gallery Microsoft Samples](https://github.com/microsoftarchive/msdn-code-gallery-microsoft) repo.
 
 ## See also
 
@@ -41,4 +41,3 @@ You can find some older Win32 sample apps in the [MSDN Code Gallery Microsoft sa
 * [Windows classic samples](https://github.com/Microsoft/Windows-classic-samples)
 * [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
 * [DirectX samples](/windows/uwp/gaming/directx-samples)
-* [MSDN Code Gallery Microsoft samples](https://github.com/microsoftarchive/msdn-code-gallery-microsoft)

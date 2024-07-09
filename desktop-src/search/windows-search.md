@@ -22,7 +22,7 @@ Windows Search is a desktop search platform that has instant search capabilities
 
 ## Additional Resources
 
-- For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
+- For community-supported question and discussion message boards on Search technologies, see [Microsoft Q&A](/answers/).
 - To download the Search Code Samples:
   - [Windows Search Samples](-search-samples-ovw.md)
 - To download the Windows SDK:

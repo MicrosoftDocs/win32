@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 # Tracing
 
-Tracing uses Event Tracing for Windows (ETW). To take advantage of the tracing tools available with Windows Server 2008 R2, install the Microsoft Windows SDK from the [MSDN Downloads](https://www.microsoft.com/download/details.aspx?id=8279) site.
+Tracing uses Event Tracing for Windows (ETW). To take advantage of the tracing tools available with Windows Server 2008 R2, install the Microsoft Windows SDK.
 
 
 There are three tracing levels supported:

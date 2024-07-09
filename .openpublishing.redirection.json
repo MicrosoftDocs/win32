@@ -1,6 +1,11 @@
 {
   "redirections": [
       {
+            "source_path": "desktop-src/SecBP/how-to-optimize-your-msdn-library-search.md",
+            "redirect_url": "/windows/win32/secbp/best-practices-for-the-security-apis",
+            "redirect_document_id": false
+      },
+      {
             "source_path": "desktop-src/SecAuthN/tls-cipher-suites.md",
             "redirect_url": "/windows/win32/secauthn/cipher-suites-in-schannel",
             "redirect_document_id": false

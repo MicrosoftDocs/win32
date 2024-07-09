@@ -27,7 +27,7 @@ The **meta** element includes a **content** attribute that enables you to specif
 
  
 
-For more information about compatibility and the X-UA-Compatible header, see [Defining Document Compatibility](/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85)) in the MSDN Library.
+For more information about compatibility and the X-UA-Compatible header, see [Defining Document Compatibility](/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85)).
 
 The following code example demonstrates how to force a webpage to be rendered in Internet Explorer 8 mode.
 

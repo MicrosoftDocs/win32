@@ -87,11 +87,11 @@ We have added a new Print Verifier. This layer helps find and troubleshoot issue
 
 *Print API Layer*
 
-Print Verifier tests the interface between a program and Winspool.drv and prntvpt.dll and tests the interfaces of those DLLs. You can review the rules for calling functions in this interface in the MSDN help section for APIs exported by winspool.drv and prntvpt.dll.
+Print Verifier tests the interface between a program and Winspool.drv and prntvpt.dll and tests the interfaces of those DLLs.
 
 *Print Driver Layer*
 
-Print Verifier also tests the interface between a core print driver such as UNIDRV.DLL, UNIDRUI.DLL, PSCRIPT5.DLL, PS5UI.DLL, or MXDWDRV.DLL, and the print driver plug-ins. You can find information about this interface in the MSDN and the WDK.
+Print Verifier also tests the interface between a core print driver such as UNIDRV.DLL, UNIDRUI.DLL, PSCRIPT5.DLL, PS5UI.DLL, or MXDWDRV.DLL, and the print driver plug-ins.
 
 Note that some of these checks are for Windows 7 only, and others will simply perform better under Windows 7.
 
@@ -114,7 +114,7 @@ One further note: Application Verifier is only as good as the code paths you run
 **Debugging Tools for Windows:**
 
 -   [Overview and download site](https://msdn.microsoft.com/windows/hardware/bg127145)
--   [MSDN online documentation](/windows-hardware/drivers/debugger/)
+-   [Install the Windows debugger](/windows-hardware/drivers/debugger/)
 
 **Application Verifier:**
 

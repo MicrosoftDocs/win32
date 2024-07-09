@@ -29,14 +29,6 @@ This issue causes problems for people who rely on a screen-reader and keyboard f
 
 ## Related topics
 
-<dl> <dt>
+[Keyboard](../uxguide/inter-keyboard.md)
 
 [Guidelines for Keyboard User Interface Design](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
-</dt> <dt>
-
-[Windows User Experience Interaction Guidelines - Keyboard](/#guidelines)
-</dt> </dl>
-
- 
-
- 

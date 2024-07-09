@@ -12,11 +12,11 @@ Web Authentication Broker is built on the top of the same technologies that powe
 
 ## Internet Explorer 10 standard document mode
 
-The Web Authentication Broker displays all pages in the "IE10 Standards Mode". You can use the developer tools in Internet Explorer to see how your page works under different document modes. For more information on Internet Explorer 10 compatibility, see the MSDN topics for [Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673527(v=vs.85)).
+The Web Authentication Broker displays all pages in the "IE10 Standards Mode". You can use the developer tools in Internet Explorer to see how your page works under different document modes. For more information on Internet Explorer 10 compatibility, see [Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673527(v=vs.85)).
 
 ## Disabled and locked down features
 
-Several features of Internet Explorer are either completely disabled or locked down to specific values that can’t be changed in the Internet Options of the operating system.
+Several features of Internet Explorer are either completely disabled or locked down to specific values that can't be changed in the Internet Options of the operating system.
 
 
 
@@ -45,7 +45,7 @@ A Windows 8 app may appear in several different sizes such as full screen, a re
 
 The web page should use CSS media queries to check the size it has to work with and lay itself out accordingly. However, the page should not be designed based on the exact pixels documented here and should be able to scale to different sizes. The sizes specified in this document are subject to change in future OS versions.
 
-If a page can’t fit all of the information in the allotted space (for example, a long list of permissions that an application is requesting), the Web Authentication Broker will provide scroll bars to allow the user to scroll the page as needed. Zooming is also provided by pinch zoom for touch-based devices and Ctrl + mouse wheel for desktop and laptop PCs.
+If a page can't fit all of the information in the allotted space (for example, a long list of permissions that an application is requesting), the Web Authentication Broker will provide scroll bars to allow the user to scroll the page as needed. Zooming is also provided by pinch zoom for touch-based devices and Ctrl + mouse wheel for desktop and laptop PCs.
 
 To test different scaling factors use the [Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) loaded in Microsoft Visual Studio Professional 2012 which allows simulating the full screen and resized states.
 

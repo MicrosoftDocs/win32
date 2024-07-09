@@ -49,7 +49,7 @@ The [**TextUnit**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-tex
 
 If a particular text-based control does not support the specified text unit, the provider should respond by substituting the next larger text unit that is supported by the control. For example, if [**TextUnit\_Paragraph**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) is specified but not supported, the method can substitute [**TextUnit\_Page**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) or [**TextUnit\_Document**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit).
 
-The linguistic characteristics of the source text can make it difficult for a provider to determine text boundaries based on the specified text unit. For help in determining text boundaries, a provider can use Uniscribe API functions such as [**ScriptBreak**](/windows/desktop/api/usp10/nf-usp10-scriptbreak). For more information, see [Uniscribe](/windows/desktop/Intl/uniscribe) on the MSDN website.
+The linguistic characteristics of the source text can make it difficult for a provider to determine text boundaries based on the specified text unit. For help in determining text boundaries, a provider can use Uniscribe API functions such as [**ScriptBreak**](/windows/desktop/api/usp10/nf-usp10-scriptbreak). For more information, see [Uniscribe](/windows/desktop/Intl/uniscribe).
 
 ## Endpoint inclusivity
 
@@ -58,7 +58,7 @@ A text unit endpoint can serve as both a [Start](/windows/desktop/api/uiautomati
 For example, a text stream, "Hello **world**", contains two word units with different font weight attributes (normal and bold). In this case, the [End](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Hello" and the [Start](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "**world**" are the same, which results in the following:
 
 - The range of "Hello" does not share the bold attribute of the word unit "world" and does not return the mixed attribute value for the font weight text attribute.
-- The range of "**world**" has a single font weight (bold), and does not share the font weight of the preceding word unit “Hello”.
+- The range of "**world**" has a single font weight (bold), and does not share the font weight of the preceding word unit "Hello".
 
 Here's another example where a text stream contains two word units, one of which is a link: `[Foo]() Bar`. In this case, the [End](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit `[Foo]()` and the [Start](/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint) endpoint of the word unit "Bar" are the same, which results in the following:
 

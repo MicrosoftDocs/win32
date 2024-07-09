@@ -12,7 +12,7 @@ The *User Agent String* contains information about a browser's identity. The Use
 
 ![screen shot of the internet explorer diaog box that has the user agent string](images/useragent-alert.png)
 
-Typically, the User Agent String is parsed specifically for the MSIE substring. Based on the reported version of the browser, the client-side or server-side programming logic takes a different action. For more information about the User Agent String, see [What Will Windows Internet Explorer Report as the User-Agent String?](/previous-versions/cc817582(v=msdn.10)) in the MSDN Library.
+Typically, the User Agent String is parsed specifically for the MSIE substring. Based on the reported version of the browser, the client-side or server-side programming logic takes a different action. For more information about the User Agent String, see [What Will Windows Internet Explorer Report as the User-Agent String?](/previous-versions/cc817582(v=msdn.10)).
 
 ## Related topics
 

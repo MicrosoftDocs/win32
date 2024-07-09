@@ -37,7 +37,7 @@ Consider the following suggestions early in the design phase to optimize the use
 
 -   Follow UI design guidelines.
 
-    Become familiar with the [Windows User Experience Interaction Guidelines](../uxguide/guidelines.md) and refer to them often as the design, implementation, and testing of the application UI progresses.
+    Become familiar with the [Windows User Experience Interaction Guidelines](../uxguide/interaction.md) and refer to them often as the design, implementation, and testing of the application UI progresses.
 
 -   Ensure that the UI is accessible.
 

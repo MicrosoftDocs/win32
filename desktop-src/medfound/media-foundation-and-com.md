@@ -164,7 +164,7 @@ Media Foundation components cannot be STA objects. Many Media Foundation objects
 
 There may be additional requirements depending upon the implementation. For example, if a media sink implements another interface that enables the application to make direct function calls to the sink, the sink would need to be free-threaded or neutral, so that it could handle direct cross-process calls. Any object may be free-threaded; this table specifies the minimum requirements.
 
-The recommended way to implement free-threaded or neutral objects is by aggregating the free-threaded marshaler. For more details, see the MSDN documentation on [**CoCreateFreeThreadedMarshaler**](/windows/win32/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler). In accordance with the requirement not to pass STA objects or proxies to Media Foundation APIs, free-threaded objects do not need to worry about marshaling STA input pointers in free-threaded components.
+The recommended way to implement free-threaded or neutral objects is by aggregating the free-threaded marshaler. For more details, see [**CoCreateFreeThreadedMarshaler**](/windows/win32/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler). In accordance with the requirement not to pass STA objects or proxies to Media Foundation APIs, free-threaded objects do not need to worry about marshaling STA input pointers in free-threaded components.
 
 Components that use the long-function work queue (**MFASYNC\_CALLBACK\_QUEUE\_LONG\_FUNCTION**) must exercise more care. Threads in the long function workqueue create their own STA. Components that use the long function workqueue for callbacks should avoid creating COM objects on these threads, and need to be careful to marshal proxies to the STA as necessary.
 

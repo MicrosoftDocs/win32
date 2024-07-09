@@ -23,7 +23,7 @@ The three most common mistakes made by a development team when releasing a produ
 
 -   Requiring administrative privileges. Games should not require administrative privileges. For more details, see [User Account Control for Game Developers](./user-account-control-for-game-developers.md).
 -   Not using automated protection. Developers are generally not using **/GS**, **/SAFESEH**, or **/NX**. Using these compile/link flags can spot or eliminate many basic security holes without significantly increasing workload. These flags are discussed later in this article.
--   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](/archive/msdn-magazine/2005/may/repel-attacks-with-visual-studio-2005-safe-c-and-c-libraries) by Martyn Lovell. Also, you can get the `banned.h` header file that can help you remove banned functions from code (see [Microsoft’s Free Security Tools – banned.h](https://www.microsoft.com/security/blog/2012/08/30/microsofts-free-security-tools-banned-h/)).
+-   Using forbidden APIs. There are many APIs (**strcpy**, **strncpy**, and so on) that are prone to programmer error and easily generate security holes. Developers should replace these APIs with the safe versions. Visual Studio 2005 comes with a tool for analyzing binary files that can automatically check object files for references to unsafe APIs. For more information on what to do with information generated with this tool, see [Repel Attacks on Your Code with the Visual Studio 2005 Safe C and C++ Libraries](/archive/msdn-magazine/2005/may/repel-attacks-with-visual-studio-2005-safe-c-and-c-libraries) by Martyn Lovell. Also, you can get the `banned.h` header file that can help you remove banned functions from code (see [Microsoft's Free Security Tools – banned.h](https://www.microsoft.com/security/blog/2012/08/30/microsofts-free-security-tools-banned-h/)).
 
 Each of the listed mistakes is not only common but is easily correctable with no significant change in development workload, coding standards, or functionality.
 
@@ -83,7 +83,7 @@ When threat modeling, pay special attention to:
 
 These are the areas that have good potential for security weaknesses.
 
-More on Threat Modeling can be found at [Threat Modeling](https://technet.microsoft.com/security/) on the MSDN Security Development Center and in the book [Threat Modeling](https://www.amazon.com/Threat-Modeling-Microsoft-Professional-Swiderski/dp/0735619913) by Frank Swiderski and Window Snyder.
+More on Threat Modeling can be found at [Threat Modeling](https://technet.microsoft.com/security/) and in the book [Threat Modeling](https://www.amazon.com/Threat-Modeling-Microsoft-Professional-Swiderski/dp/0735619913) by Frank Swiderski and Window Snyder.
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ See also info about Microsoft Visual Studio 2012's [**/SDL** flag](/cpp/build/r
 PREfast is a free tool offered by Microsoft that analyzes execution paths in compiled C or C++ to help find run-time bugs. PREfast operates by working through all execution paths in all functions and assessing each path for problems. Originally used to develop drivers and other kernel code, this tool can help game developers save time by eliminating some bugs that are hard to find or are ignored by the compiler. Using PREfast is an excellent way of reducing workload and focusing the efforts of both the development team and test team. PREfast is available in Visual Studio Team Suite and Visual Studio Team Edition for Software Developers as Code Analysis, enabled by the compiler switch **/analyze**. (This option is also available in the free version of the compiler that ships with the Windows Software Development Kit.)
 
 > [!Note]  
-> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What’s New in Code Analysis](/archive/blogs/codeanalysis/?m=20123).
+> Visual Studio 2012 supports **/analyze** in all editions. For more info about code analysis availability in all editions of Visual Studio, see [What's New in Code Analysis](/archive/blogs/codeanalysis/?m=20123).
 
  
 

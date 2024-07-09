@@ -76,7 +76,7 @@ for (int i = 0; i < NUM_VISUALS; i++)
         goto Cleanup;
     }
 }
-```	
+```    
 
 The following application defined function shows how to create the Microsoft DirectComposition surface and render a Windows Graphics Device Interface (GDI) bitmap to the surface.
 
@@ -239,7 +239,6 @@ SafeRelease(&m_pCompTarget);
 
 #pragma once
 // Modify the following definitions if you need to target a platform prior to the ones specified below.
-// Refer to MSDN for the latest info on corresponding values for different platforms.
 #ifndef WINVER              // Allow use of features specific to Windows 7 or later.
 #define WINVER 0x0700       // Change this to the appropriate value to target other versions of Windows.
 #endif

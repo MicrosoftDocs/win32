@@ -133,7 +133,7 @@ Once the game has detected that a new update is available, it should immediately
 
 ## Other Resources
 
-For more information on the technologies referenced in this article, refer to the relevant sections of the MSDN Library:
+For more information on the technologies referenced in this article, see the following topics:
 
 -   [Windows Installer](/windows/desktop/Msi/windows-installer-portal)
 -   [Task Scheduler](/windows/desktop/TaskSchd/task-scheduler-start-page)

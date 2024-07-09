@@ -996,7 +996,7 @@ System reboots are a major disruption. They lead to a bad user experience, and s
 
 If a game installer uses the Windows Installer technology (MSI) without any custom actions, this functionality is provided automatically. Microsoft redistribution packages also support the Restart Manager.
 
-For more information about the Restart Manager, see the MSDN article [About Restart Manager](/windows/desktop/RstMgr/about-restart-manager).
+For more information about the Restart Manager, see [About Restart Manager](/windows/desktop/RstMgr/about-restart-manager).
 
 </dd> </dl>
 

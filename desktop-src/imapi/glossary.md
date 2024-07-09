@@ -1,6 +1,6 @@
 ---
 title: Glossary (IMAPI)
-description: Glossary page
+description: This topic includes common terms and acronyms used when discussing Image Mastering APIs (IMAPI).
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3e780705-09f9-4368-9bae-ad20c45e4fe1
 ms.topic: article
@@ -8,6 +8,8 @@ ms.date: 05/31/2018
 ---
 
 # Glossary (IMAPI)
+
+This topic includes common terms and acronyms used when discussing Image Mastering APIs (IMAPI).
 
 <dl> <dt>
 
@@ -98,14 +100,14 @@ A generic term for round magnetic media, such as a floppy diskette or a hard dri
 <span id="imapi.imapi2_glossary_Dispatch"></span><span id="imapi.imapi2_glossary_dispatch"></span><span id="IMAPI.IMAPI2_GLOSSARY_DISPATCH"></span>**Dispatch** 
 </dt> <dd>
 
-A COM interface designation where a given interface supports the **IDispatch** method of calling a function. See MSDN for more information regarding this advanced COM topic.
+A COM interface designation where a given interface supports the **IDispatch** method of calling a function.
 
 </dd> <dt>
 
 <span id="imapi.imapi2_glossary_Dual"></span><span id="imapi.imapi2_glossary_dual"></span><span id="IMAPI.IMAPI2_GLOSSARY_DUAL"></span>**Dual** 
 </dt> <dd>
 
-A COM interface designation where a given interface supports both the VTable and the **IDispatch** methods of calling a function. See MSDN for more information regarding these advanced COM topics.
+A COM interface designation where a given interface supports both the VTable and the **IDispatch** methods of calling a function.
 
 </dd> <dt>
 
@@ -315,7 +317,7 @@ This file system is defined by OSTA (the Optical Storage Technology Association)
 <span id="imapi.imapi2_glossary_VTable"></span><span id="imapi.imapi2_glossary_vtable"></span><span id="IMAPI.IMAPI2_GLOSSARY_VTABLE"></span>**VTable** 
 </dt> <dd>
 
-A COM interface designation where a given interface supports the vtable method of calling a function. See MSDN for more information regarding this advanced COM topic.
+A COM interface designation where a given interface supports the vtable method of calling a function.
 
 </dd> </dl>
 

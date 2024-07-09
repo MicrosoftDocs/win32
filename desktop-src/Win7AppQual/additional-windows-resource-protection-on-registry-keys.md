@@ -60,15 +60,5 @@ For the two scenarios identified above:
 How to detect if an application had WRP mitigation applied to it:
 
 -   Windows Installer is aware of WRP; it automatically and silently ignores attempts to write or modify a protected resource. If the application was installed with Windows Installer and logging was enabled, then a warning will be logged for each registry key write operation that was ignored due to its being a WRP-protected resource.
--   The WRP API incorporates SfCIsKeyProtected, which can query if a registry key is WRP-protected on the current system. See the WRP entry in MSDN in the links below for additional information on using this API.
+-   The [Windows Resource Protection](/windows/desktop/Wfp/windows-resource-protection-portal) API incorporates SfCIsKeyProtected, which can query if a registry key is WRP-protected on the current system.
 
-## Links to Other Resources
-
-<dl>
-
-[Windows Resource Protection](/windows/desktop/Wfp/windows-resource-protection-portal)  
-</dl>
-
- 
-
- 

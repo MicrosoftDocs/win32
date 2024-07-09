@@ -75,13 +75,13 @@ As illustrated above, this process involves some work by the storage device that
 
 ## The Resiliency Impact of Read-Modify-Write
 
-Resiliency speaks of the ability for an application to recover state between sessions. We have seen what is necessary for a 512e storage device to perform a 512-byte sector write – the Read-Modify-Write cycle. Let’s look at what would happen if the process of overwriting the previous physical sector on the media was interrupted. What would be the consequences?
+Resiliency speaks of the ability for an application to recover state between sessions. We have seen what is necessary for a 512e storage device to perform a 512-byte sector write – the Read-Modify-Write cycle. Let's look at what would happen if the process of overwriting the previous physical sector on the media was interrupted. What would be the consequences?
 
 -   Because most hard disk drives update in place, the physical sector – that is, the portion of the media where the physical sector was located – could have been corrupted with incomplete information due to a partial overwrite. Put another way, you can think of it as potentially having lost all 8 logical sectors (which the physical sector logically contains).
 
 -   While most applications with a data store are designed with the capability to recover from media errors, the loss of eight sectors, or put another way, the loss of eight commit records, can potentially make it impossible for the data store to recover gracefully. An administrator may need to manually restore the database from a backup or may even need to perform a lengthy rebuild.
 
--   One more important impact is that the act of another application causing a Read-Modify-Write cycle can potentially cause your data to be lost – even if your application is not running! This is simply because your data and the other application’s data could be located within the same physical sector.
+-   One more important impact is that the act of another application causing a Read-Modify-Write cycle can potentially cause your data to be lost – even if your application is not running! This is simply because your data and the other application's data could be located within the same physical sector.
 
 With this in mind, it is important that application software reevaluate any assumptions taken in the code, and be aware of the logical-physical sector size distinction, along with some interesting customer scenarios discussed later in this article.
 
@@ -116,14 +116,14 @@ Moreover, if you are currently aligning the writes to the sector size, this sect
 
 **How to Query for the Physical Sector Size**
 
-Microsoft has provided a code sample on MSDN detailing how an application can query for the physical sector size of the volume. The code sample is located at <https://msdn.microsoft.com/library/ff800831.aspx>.
+For a code sample that shows how an application can query for the physical sector size of the volume, see <https://msdn.microsoft.com/library/ff800831.aspx>.
 
 While the code sample above allows you to get the physical sector size of the volume, you should do some basic sanity checking on the reported physical sector size before using it, as it has been observed that some drivers may not return correctly formatted data:
 
 -   Make sure that the reported physical sector size is >= the reported logical sector size. If it is not, your application should use a physical sector size equal to the reported logical sector size.
 -   Make sure that the reported physical sector size is a power of two. If it is not, your application should use a physical sector size equal to the reported logical sector size.
 -   If the physical sector size is a power-of-two value between 512-bytes and 4 KB, you should consider using a physical sector size rounded down to the reported logical sector size.
--   If the physical sector size is a power-of-two value greater than 4 KB, you should evaluate your application’s ability to handle this scenario before using that value. Otherwise, you should consider using a physical sector size rounded down to 4 KB.
+-   If the physical sector size is a power-of-two value greater than 4 KB, you should evaluate your application's ability to handle this scenario before using that value. Otherwise, you should consider using a physical sector size rounded down to 4 KB.
 
 Using this IOCTL to get the physical sector size does have several limitations:
 
@@ -167,7 +167,7 @@ This is not the easiest scenario to support, and is mentioned here as an advisor
 
 -   The logical and physical sector sizes are both 4 KB
 -   Because there is no emulation layer, unaligned writes will be failed by the storage
--   No hidden resiliency hit – applications either work or they don’t work
+-   No hidden resiliency hit – applications either work or they don't work
 
 Although Microsoft is currently investigating support for these types of media in a future version of Windows and will issue a KB article when appropriate, application developers should consider preemptively providing support for these types of media.
 

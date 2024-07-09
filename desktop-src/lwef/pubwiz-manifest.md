@@ -20,7 +20,7 @@ The Web Publishing Wizard and Online Print Ordering Wizard use the transfer mani
 
 The transfer manifest describes files involved in the transfer, including details such as the destination hierarchy and the file's metadata. Server-side script can modify the manifest by removing inappropriate files from the list and adding information about how and where the files should be transferred.
 
-The manifest is exposed as the property **window.external.Property("TransferManifest")**, an XML Document Object Model (DOM) document. For more information on the XML DOM, see the MSDN documentation for [IXMLDOMDocument/DOMDocument](/previous-versions/windows/desktop/ms756987(v=vs.85)).
+The manifest is exposed as the property **window.external.Property("TransferManifest")**, an XML Document Object Model (DOM) document. For more information on the XML DOM, see [IXMLDOMDocument/DOMDocument](/previous-versions/windows/desktop/ms756987(v=vs.85)).
 
 The top-level organization of the transfer manifest is as follows:
 
