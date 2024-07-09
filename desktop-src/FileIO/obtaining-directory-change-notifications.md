@@ -16,7 +16,8 @@ Use [**FindCloseChangeNotification**](/windows/desktop/api/FileAPI/nf-fileapi-fi
 
 To retrieve information about the specific change as part of the notification, use the [**ReadDirectoryChangesW**](/windows/desktop/api/WinBase/nf-winbase-readdirectorychangesw) function. This function also enables you to provide a completion routine.
 
-Note that FindFirstChangeNotification and ReadDirectoryChangesW are mutually exclusive. You would use one or the other, but not both.
+> [!NOTE]
+> The **FindFirstChangeNotification** and **ReadDirectoryChangesW** functions are mutually exclusive. You should use one or the other, but not both.
 
 To track changes on a volume, see [change journals](change-journals.md).
 
