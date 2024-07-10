@@ -68,7 +68,7 @@ Indicates that the referenced setting is currently used in the operation of the 
 
 There shall be at most one instance of ElementSettingData which references a managed element and an instance of a SettingData subclass where the IsCurrent property has a value of "Is Current" and the IsMinimum property does not have a value of "Is Minimum" and the IsMaximum property does not have a value of "Is Maximum".
 
-This property inherits from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+This property inherits from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 <dl> <dt>
 
@@ -92,7 +92,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates that the referenced setting is a default setting for the element or that this information is unknown. This property inherits from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+Indicates that the referenced setting is a default setting for the element or that this information is unknown. This property inherits from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 <dl> <dt>
 
@@ -120,7 +120,7 @@ Indicates whether or not the referenced setting is the next setting to be applie
 
 If this flag is specified (that is, set to a value other than "Unknown"), then this takes precedence over any SettingData that may have been specified as Default. For example: If the managed element is a computer system, and the value of this flag is "Is Next", then the setting will be effective next time the system resets. Unless this flag is changed, it will persist for subsequent system resets. However, if this flag is set to "Is Next For Single Use", then this setting will only be used once and the flag would be reset after that to "Is Not Next". In the preceding example, if the system restarts in a quick succession, the setting will not be used at the second restart.
 
-This property inherits from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+This property inherits from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 <dl> <dt>
 
@@ -150,7 +150,7 @@ Access type: Read-only
 Qualifiers: **Key**, **Override**
 </dt> </dl>
 
-The managed element. This property overrides the property from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+The managed element. This property overrides the property from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 </dd> <dt>
 
@@ -166,7 +166,7 @@ Access type: Read-only
 Qualifiers: **Key**, **Override**
 </dt> </dl>
 
-The SettingData object associated with the element. This property overrides the property from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+The SettingData object associated with the element. This property overrides the property from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 </dd> </dl>
 

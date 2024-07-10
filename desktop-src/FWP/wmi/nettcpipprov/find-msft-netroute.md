@@ -65,7 +65,7 @@ The remote address of the route.
 *CmdletOutput* \[out\]
 </dt> <dd>
 
-The [**CIM\_ManagedElement**](../iscsitarg/cim-managedelement.md) object that receives the route.
+The [**CIM\_ManagedElement**](/previous-versions/cc136871(v=vs.85)) object that receives the route.
 
 </dd> </dl>
 

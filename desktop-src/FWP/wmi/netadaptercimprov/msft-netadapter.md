@@ -246,7 +246,7 @@ Access type: Read-only
 Qualifiers: **Units** ( "Bytes" )
 </dt> </dl>
 
-The active or negotiated maximum transmission unit (MTU) that can be supported. This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+The active or negotiated maximum transmission unit (MTU) that can be supported. This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 </dd> <dt>
 
@@ -272,7 +272,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-A Boolean that indicates whether the network port is capable of automatically determining the speed or other communications characteristics of the attached network media. This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+A Boolean that indicates whether the network port is capable of automatically determining the speed or other communications characteristics of the attached network media. This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 </dd> <dt>
 
@@ -324,7 +324,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description of the object. This property is inherited from [**CIM\_ManagedElement**](../iscsitarg/cim-managedelement.md).
+Short textual description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/cc136871(v=vs.85)).
 
 </dd> <dt>
 
@@ -443,7 +443,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Textual description of the object. This property is inherited from [**CIM\_ManagedElement**](../iscsitarg/cim-managedelement.md).
+Textual description of the object. This property is inherited from [**CIM\_ManagedElement**](/previous-versions/cc136871(v=vs.85)).
 
 </dd> <dt>
 
@@ -638,7 +638,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Boolean that indicates that the port is operating in full duplex mode. This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+Boolean that indicates that the port is operating in full duplex mode. This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 </dd> <dt>
 
@@ -867,7 +867,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-An enumeration of the types of links. When set to 1 ("Other"), the related property **OtherLinkTechnology** contains a string description of the type of link. This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+An enumeration of the types of links. When set to 1 ("Other"), the related property **OtherLinkTechnology** contains a string description of the type of link. This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 <dl> <dt>
 
@@ -1215,7 +1215,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** ( 64 )
 </dt> </dl>
 
-An array of strings that indicates the network addresses for the port. This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+An array of strings that indicates the network addresses for the port. This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 </dd> <dt>
 
@@ -1293,7 +1293,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A string value that describes **LinkTechnology** when it is set to 1, "Other". This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+A string value that describes **LinkTechnology** when it is set to 1, "Other". This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 </dd> <dt>
 
@@ -1306,7 +1306,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Note: The use of this property is deprecated in lieu of CIM\_LogicalPort.PortType. Deprecated description: The type of module, when PortType is set to 1 ("Other".) This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+Note: The use of this property is deprecated in lieu of CIM\_LogicalPort.PortType. Deprecated description: The type of module, when PortType is set to 1 ("Other".) This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 </dd> <dt>
 
@@ -1335,7 +1335,7 @@ Access type: Read-only
 Qualifiers: **MaxLen** ( 64 )
 </dt> </dl>
 
-The network address that is hardcoded into a port. This hardcoded address can be changed using a firmware upgrade or a software configuration. When this change is made, the field should be updated at the same time. **PermanentAddress** should be left blank if no hardcoded address exists for the network adapter. This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+The network address that is hardcoded into a port. This hardcoded address can be changed using a firmware upgrade or a software configuration. When this change is made, the field should be updated at the same time. **PermanentAddress** should be left blank if no hardcoded address exists for the network adapter. This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 </dd> <dt>
 
@@ -1376,7 +1376,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Network ports are often numbered relative to either a logical module or a network element. This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+Network ports are often numbered relative to either a logical module or a network element. This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 </dd> <dt>
 
@@ -1637,7 +1637,7 @@ Access type: Read-only
 Qualifiers: **Units** ( "Bytes" )
 </dt> </dl>
 
-The maximum transmission unit (MTU) that can be supported. This property inherits from [**CIM\_NetworkPort**](../iscsitarg/cim-networkport.md).
+The maximum transmission unit (MTU) that can be supported. This property inherits from [**CIM\_NetworkPort**](/previous-versions/cc136873(v=vs.85)).
 
 </dd> <dt>
 

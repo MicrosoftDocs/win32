@@ -223,7 +223,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Gets a value that indicates the ability of the server interface to communicate with the underlying [**CIM\_ManagedElement**](../iscsitarg/cim-managedelement.md) object.
+Gets a value that indicates the ability of the server interface to communicate with the underlying [**CIM\_ManagedElement**](/previous-versions/cc136871(v=vs.85)) object.
 
 This property is inherited from **CIM\_ManagedSystemElement**.
 

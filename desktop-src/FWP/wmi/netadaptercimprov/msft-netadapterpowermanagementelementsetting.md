@@ -73,7 +73,7 @@ Indicates that the referenced setting is currently used in the operation of the 
 
 There shall be at most one instance of ElementSettingData which references a managed element and an instance of a SettingData subclass where the IsCurrent property has a value of "Is Current" and the IsMinimum property does not have a value of "Is Minimum" and the IsMaximum property does not have a value of "Is Maximum".
 
-This property inherits from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+This property inherits from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 <dl> <dt>
 
@@ -97,7 +97,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Indicates that the referenced setting is a default setting for the element or that this information is unknown. This property inherits from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+Indicates that the referenced setting is a default setting for the element or that this information is unknown. This property inherits from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 <dl> <dt>
 
@@ -123,7 +123,7 @@ Access type: Read-only
 
 This property affects the interpretation of all non-null, non-enumerated, non-binary, numeric, non-key properties of the associated SettingData instance. All other properties of the associated SettingData instance are not affected by this property. Note: It is assumed that the semantics of each property of this set are designed to be compared mathematically. When IsMaximum = "Is Maximum", this property indicates that the affected property values specified in the associated SettingData instance shall define maximum setting values. When IsMaximum = "Is Not Maximum", this property indicates that the affected property values specified in the associated SettingData instance shall not define maximum setting values. When IsMaximum = "Unknown", this property indicates that the affected property values specified in the associated SettingData instance may correspond to maximum setting values. When IsMaximum = "Not Applicable", this property indicates that the affected property values specified in the associated SettingData instance shall not be interpreted with respect to whether each defines a maximum.
 
-This property inherits from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+This property inherits from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 <dl> <dt>
 
@@ -152,7 +152,7 @@ Access type: Read-only
 
 This property affects the interpretation of all non-null, non-enumerated, non-binary, numeric, non-key properties of the associated SettingData instance. All other properties of the associated SettingData instance are not affected by this property. Be aware that it is assumed that the semantics of each property of this set are designed to be compared mathematically. When IsMinimum = "Is Minimum", this property indicates that the affected property values specified in the associated SettingData instance shall define minimum setting values. When IsMinimum = "Is Not Minimum", this property indicates that the affected property values specified in the associated SettingData instance shall not define minimum setting values. When IsMinimum = "Unknown", this property indicates that the affected property values specified in the associated SettingData instance may correspond to minimum setting values. When IsMinimum = "Not Applicable", this property indicates that the affected property values specified in the associated SettingData instance shall not be interpreted with respect to whether each defines a minimum.
 
-This property inherits from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+This property inherits from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 <dl> <dt>
 
@@ -183,7 +183,7 @@ Indicates whether or not the referenced setting is the next setting to be applie
 
 If this flag is specified (that is, set to a value other than "Unknown"), then this takes precedence over any SettingData that may have been specified as Default. For example: If the managed element is a computer system, and the value of this flag is "Is Next", then the setting will be effective next time the system resets. Unless this flag is changed, it will persist for subsequent system resets. However, if this flag is set to "Is Next For Single Use", then this setting will only be used once and the flag would be reset after that to "Is Not Next". In the preceding example, if the system restarts in a quick succession, the setting will not be used at the second restart.
 
-This property inherits from [**CIM\_ElementSettingData**](../iscsitarg/cim-elementsettingdata.md).
+This property inherits from [**CIM\_ElementSettingData**](/previous-versions/windows/desktop/virtual/cim-elementsettingdata).
 
 <dl> <dt>
 
