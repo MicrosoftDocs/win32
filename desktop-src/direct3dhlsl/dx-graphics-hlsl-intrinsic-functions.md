@@ -163,6 +163,89 @@ The following table lists the intrinsic functions available in HLSL. Each functi
 | [**texCUBEproj**](dx-graphics-hlsl-texcubeproj.md)                                     | Cube texture lookup with projective divide.                                                                                                                     | 2¹                   |
 | [**transpose**](dx-graphics-hlsl-transpose.md)                                         | Returns the transpose of the matrix m.                                                                                                                          | 1                    |
 | [**trunc**](dx-graphics-hlsl-trunc.md)                                                 | Truncates floating-point value(s) to integer value(s)                                                                                                           | 1                    |
+| [**NonUniformResourceIndex**]()                                              | Ensures non-uniform indexing for resources like textures in shaders | 6.0    |
+| [**AddUint64**]()                                                            | Unsigned add of 32-bit operand with the carry |  6.0   |
+| [**GetAttributeAtVertex**]()                                                 | Returns the values of the attributes at the vertex | 6.1 |
+| [**asfloat16**]()                                                            | Converts integer bit patterns to half-precision floating-point values. | 6.2 |
+| [**asint16**]()                                                              | Converts bit patterns to 16-bit integer values. | 6.2 |
+| [**asuint16**]()                                                             | Converts bit patterns to 16-bit unsigned integer values.| 6.2 |
+| [**WaveGetLaneCount**](../direct3dhlsl/wavegetlanecount.md)                  | Returns the number of lanes in the current wave. | 6.0 |
+| [**WaveGetLaneIndex**](../direct3dhlsl/wavegetlaneindex.md)                  | Returns the index of the current lane within its wave. | 6.0 |
+| [**WaveIsFirstLane**](../direct3dhlsl/waveisfirstlane.md)                    | Checks if the current lane is the first lane in its wave. | 6.0 |
+| [**WaveActiveAnyTrue**](../direct3dhlsl/waveanytrue.md)                      | Returns true if any lane in the wave evaluates to true. | 6.0 |
+| [**WaveActiveAllTrue**](../direct3dhlsl/wavealltrue.md)                      | Returns true if all lanes in the wave evaluate to true. | 6.0 |
+| [**WaveActiveBallot**](../direct3dhlsl/waveballot.md)                        | Returns a bitmask where each bit represents whether the condition is true for each lane. | 6.0 |
+| [**WaveReadLaneAt**](../direct3dhlsl/wavereadlaneat.md)                      | Reads the value of a specific lane within the wave using an index. | 6.0 |
+| [**WaveReadLaneFirst**](../direct3dhlsl/wavereadfirstlane.md)                | Reads the value from the first lane in the current wave. | 6.0 |
+| [**WaveActiveAllEqual**](../direct3dhlsl/waveactiveallequal.md)              | Checks if all lanes in the wave have equal values. | 6.0 |
+| [**WaveActiveBitAnd**](../direct3dhlsl/waveallbitand.md)                     | Performs a bitwise AND operation across all lanes in the wave and returns the result. | 6.0 |
+| [**WaveActiveBitOr**](../direct3dhlsl/waveallbitor.md)                       | Performs a bitwise OR operation across all lanes in the wave and returns the result. | 6.0 |
+| [**WaveActiveBitXor**](../direct3dhlsl/waveallbitxor.md)                     | Performs a bitwise XOR operation across all lanes in the wave and returns the result. | 6.0 |
+| [**WaveActiveCountBits**](../direct3dhlsl/waveactivecountbits.md)            | Counts the number of active lanes (lanes where the condition is true) in the wave. | 6.0 |
+| [**WaveActiveMax**](../direct3dhlsl/waveallmax.md)                           | Returns the maximum value among all active lanes in the wave. | 6.0 |
+| [**WaveActiveMin**](../direct3dhlsl/waveactivemin.md)                        | Returns the minimum value among all active lanes in the wave. | 6.0 |
+| [**WaveActiveProduct**](../direct3dhlsl/waveallproduct.md)                   | Computes the product of values across all active lanes in the wave. | 6.0 |
+| [**WaveActiveSum**](../direct3dhlsl/waveallsum.md)                           | Computes the sum of values across all active lanes in the wave.| 6.0 |
+| [**WavePrefixCountBits**](../direct3dhlsl/waveprefixcountbytes.md)           | Computes the prefix count of active bits up to the current lane in the wave. | 6.0 |
+| [**WavePrefixSum**](../direct3dhlsl/waveprefixsum.md)                        | Computes the prefix sum up to the current lane in the wave. | 6.0 |
+| [**WavePrefixProduct**](../direct3dhlsl/waveprefixproduct.md)                | Computes the prefix product up to the current lane in the wave. | 6.0 |
+| [**QuadReadLaneAt**](../direct3dhlsl/quadreadlaneat.md)                      | Reads the value of a specific lane within the quad using an index. | 6.0 |
+| [**QuadReadAcrossDiagonal**](../direct3dhlsl/quadreadacrossdiagonal.md)      | Reads values across the diagonal of a quad group. | 6.0 |
+| [**QuadReadAcrossX**](../direct3dhlsl/quadswapx.md)                          | Reads values across the X axis of a quad group. | 6.0 |
+| [**QuadReadAcrossY**](../direct3dhlsl/quadswapy.md)                          | Reads values across the Y axis of a quad group.| 6.0 |
+| [**dot4add_u8packed**]()                                                     | Unsigned dot product of 4 x u8 vectors packed into i32, with accumulate to i32.	| 6.4 |
+| [**dot4add_i8packed**]()                                                     | Signed dot product of 4 x i8 vectors packed into i32, with accumulate to i32. | 6.4 |
+| [**dot2add**]()                                                              | 2D half dot product with accumulate to float. | 6.4 |
+| [**WaveMultiPrefixCountBits**]()                                             | Returns the count of bits set to 1 on groups of lanes identified by a bitmask.	| 6.5 |
+| [**WaveMultiPrefixProduct**]()                                               | Returns the result of the operation on groups of lanes identified by a bitmask. | 6.5 |
+| [**WaveMatch**]()                                                            | Checks if all lanes in the wave have the same value. | 6.5 |
+| [**WaveMultiPrefixBitAnd**]()                                                | Performs a multi-wave prefix AND operation across all lanes in the wave and returns the result. | 6.5 |
+| [**WaveMultiPrefixBitOr**]()                                                 | Performs a multi-wave prefix OR operation across all lanes in the wave and returns the result. | 6.5 |
+| [**WaveMultiPrefixBitXor**]()                                                | Performs a multi-wave prefix XOR operation across all lanes in the wave and returns the result. | 6.5 |
+| [**WaveMultiPrefixSum**]()                                                   | Performs a multi-wave prefix sum operation across all lanes in the wave and returns the result.| 6.5 |
+| [**IsHelperLane**]()                                                         | Returns true on helper lanes in pixel shaders. | 6.6 |
+| [**QuadAny**]()                                                              | Compares boolean accross a quad. | 6.7 |
+| [**QuadAll**]()                                                              | Compares boolean accross a quad. | 6.7 |
+| [**TraceRay**](../direct3d12/traceray-function.md)                           | Initiates ray tracing, allowing intersection testing and tracing rays into the scene geometry. | 6.6 |
+| [**ReportHit**](../direct3d12/reporthit-function.md)                         | Used to report a hit when a ray intersects with geometry to record info about the intersection. | 6.6 |
+| [**CallShader**](../direct3d12/callshader-function.md)                       | Used to invoke a function or a callable shader, allowing shaders to be modular and reusable within a ray tracing pipeline. | 6.6 |
+| [**IgnoreHit**](../direct3d12/ignorehit-function.md)                         | Used to skip uneeded calculations by indicating a hit should be ignored or not processed further. | 6.6 |
+| [**AcceptHitAndEndSearch**](../direct3d12/accepthitandendsearch-function.md) | Used to indicate that a hit has been accepted and to terminate further intersection testing. | 6.6 |
+| [**DispatchRaysIndex**](../direct3d12/dispatchraysindex.md)                  | Used to dispatch rays with an index indicating the starting point for ray dispatch. | 6.6 |
+| [**DispatchRaysDimensions**](../direct3d12/dispatchraysdimensions.md)        | Used to dispatch rays specifying the dimensions (width and height) for the ray dispatch. | 6.6 |
+| [**WorldRayOrigin**](../direct3d12/worldrayorigin.md)                        | Represents the origin point of a ray in world coordinates. | 6.6 |
+| [**WorldRayDirection**](../direct3d12/worldraydirection.md)                  | Represents the direction vector of a ray in world coordinates. | 6.6 |
+| [**ObjectRayOrigin**](../direct3d12/objectrayorigin.md)                      | Origin of a ray in object-local coordinates, used in ray tracing shaders | 6.6 |
+| [**ObjectRayDirection**](../direct3d12/objectraydirection.md)                | Direction of a ray in object-local coordinates, used in ray tracing shaders. | 6.6 |
+| [**RayTMin**](../direct3d12/raytmin.md)                                      | Minimum t-value along a ray's direction, used in ray tracing shaders. | 6.6 |
+| [**RayTCurrent**](../direct3d12/raytcurrent.md)                              | Current t-value along a ray's direction, used in ray tracing shaders. | 6.6 |
+| [**PrimitiveIndex**](../direct3d12/primitiveindex.md)                        | Index of the primitive being processed, used in geometry shaders. | 6.6 |
+| [**InstanceID**](../direct3d12/instanceid.md)                                | ID of the instance being processed, used in instanced rendering. | 6.6 |
+| [**InstanceIndex**](../direct3d12/instanceindex.md)                          | Index of the instance being processed, used in instanced rendering. | 6.6 |
+| [**GeometryIndex**](../direct3d12/geometryindex.md)                          | Index of the geometry being processed, used in geometry shaders. | 6.6 |
+| [**HitKind**](../direct3d12/hitkind.md)                                      | Hit result reported in a ray tracing shader, indicating what type of intersection was found. | 6.6 |
+| [**RayFlags**](../direct3d12/rayflags.md)                                    | Represents flags associated with a ray, used to convey how the ray should be processed. | 6.6 |
+| [**ObjectToWorld3x4**](../direct3d12/objecttoworld3x4.md)                    | Represents a 3x4 matrix used to transform coordinates from object-local space to world space. | 6.6 |
+| [**WorldToObject3x4**](../direct3d12/worldtoobject3x4.md)                    | Represents a 3x4 matrix used to transform coordinates from world space to object-local space. | 6.6 |
+| [**ObjectToWorld4x3**](../direct3d12/objecttoworld4x3.md)                    | Represents a 4x3 matrix used to transform coordinates from object-local space to world space. | 6.6 |
+| [**WorldToObject4x3**](../direct3d12/worldtoobject4x3.md)                    | Represents a 4x3 matrix used to transform coordinates from world space to object-local space. | 6.6 |
+| [**unpack_s8s16**]()                                                         | Unpacks a signed 8-bit value into a signed 16-bit value. | 6.6 |
+| [**unpack_u8u16**]()                                                         | Unpacks an unsigned 8-bit value into an unsigned 16-bit value. | 6.6 |
+| [**unpack_s8s32**]()                                                         | Unpacks a signed 8-bit value into a signed 32-bit value. | 6.6 |
+| [**unpack_u8u32**]()                                                         | Unpacks an unsigned 8-bit value into an unsigned 32-bit value. | 6.6 |
+| [**pack_s8**]()                                                              | Packs a signed 8-bit value. | 6.6 |
+| [**pack_u8**]()                                                              | Packs an unsigned 8-bit value. | 6.6 |
+| [**pack_clamp_s8**]()                                                        | Packs and clamps a signed 8-bit value. | 6.6 |
+| [**pack_clamp_u8**]()                                                        | Packs and clamps an unsigned 8-bit value.| 6.6 |
+| [**SetMeshOutputCounts**](../direct3d12/setmeshoutputcounts.md)              | Is used to set the output counts for different types of mesh primitives in geometry shaders. | 6.5 |
+| [**DispatchMesh**]()                                                         | Is used to dispatch mesh shader threads for processing mesh primitives. | 6.5 |
+| [**AllocateRayQuery**]()                                                     | Allocates resources for ray queries in ray tracing shaders. | 6.5 |
+| [**CreateResourceFromHeap**]()                                               | Creates a resource from a heap, typically used for dynamic resource allocation. | 6.6 |
+| [**and**]()                                                                  | |     |
+| [**or**]()                                                                   | |     |
+| [**select**]()                                                               | A conditional selection function that chooses between two values based on a condition. |     |
+| [**Barrier**]()                                                              | Rquaequest a barrier for a set of memory types and/or thread group execution sync | 6.8 |
+| [**GetRemainingRecursionLevels**]()                                          | Returns how many levels of recursion remain | 6.8 |
 
 
 
