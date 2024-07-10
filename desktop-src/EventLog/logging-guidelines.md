@@ -3,7 +3,7 @@ description: Event logs store records of significant events on behalf of the sys
 ms.assetid: 58a6569a-2775-4687-bf99-579fa4153191
 title: Logging Guidelines
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/09/2024
 ---
 
 # Logging Guidelines

@@ -6,7 +6,7 @@ keywords:
 - Bluetooth Bluetooth , described
 - Bluetooth Bluetooth , about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/09/2024
 ---
 
 # About Bluetooth
