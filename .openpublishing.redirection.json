@@ -42889,6 +42889,2146 @@
       "source_path": "desktop-src/srvnodes/what-s-new-for-windows-server-2012-r2.md",
       "redirect_url": "/windows-server/get-started/whats-new-in-windows-server-2022",
       "redirect_document_id": false
-}
+},
+{
+      "source_path": "sdk-api-src/content/wmp/index.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/index",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpburnformat.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnformat",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpburnstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpdevicestatus.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpdevicestatus",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpfolderscanstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpfolderscanstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmplibrarytype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmplibrarytype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpopenstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpopenstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpplaylistchangeeventtype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaylistchangeeventtype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpplaystate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaystate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpripstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpripstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpstringcollectionchangeeventtype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpstringcollectionchangeeventtype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/ne-wmp-wmpsyncstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpsyncstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdrom-eject.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdrom-eject",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdrom-get_drivespecifier.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdrom-get_drivespecifier",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdrom-get_playlist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdrom-get_playlist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-erase.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-erase",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-getiteminfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-getiteminfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-get_burnformat.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnformat",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-get_burnplaylist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnplaylist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-get_burnprogress.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnprogress",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-get_burnstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-get_label.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_label",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-isavailable.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-isavailable",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-put_burnformat.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-put_burnplaylist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnplaylist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-put_label.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_label",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-refreshstatus.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-refreshstatus",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-startburn.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-startburn",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromburn-stopburn.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-stopburn",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromcollection-getbydrivespecifier.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-getbydrivespecifier",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromcollection-get_count.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-get_count",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromcollection-item.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-item",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromrip-get_ripprogress.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripprogress",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromrip-get_ripstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromrip-startrip.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-startrip",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcdromrip-stoprip.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-stoprip",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption-get_captioningid.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_captioningid",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption-get_samifilename.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samifilename",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption-get_samilang.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samilang",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption-get_samistyle.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samistyle",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption-put_captioningid.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_captioningid",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption-put_samifilename.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samifilename",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption-put_samilang.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samilang",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption-put_samistyle.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samistyle",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption2-getsamilangid.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption2-getsamilangid",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption2-getsamilangname.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption2-getsamilangname",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption2-getsamistylename.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption2-getsamistylename",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption2-get_samilangcount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption2-get_samilangcount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpclosedcaption2-get_samistylecount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption2-get_samistylecount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-fastforward.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastforward",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-fastreverse.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastreverse",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-get_currentitem.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentitem",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-get_currentmarker.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentmarker",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-get_currentposition.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentposition",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-get_currentpositionstring.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentpositionstring",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-get_isavailable.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_isavailable",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-next.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-next",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-pause.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-pause",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-play.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-play",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-playitem.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-playitem",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-previous.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-previous",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-put_currentitem.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentitem",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-put_currentmarker.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentmarker",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-put_currentposition.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentposition",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols-stop.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-stop",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols2-step.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols2-step",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-getaudiolanguagedescription.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguagedescription",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-getaudiolanguageid.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguageid",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-getlanguagename.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getlanguagename",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-get_audiolanguagecount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_audiolanguagecount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguage.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguage",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguageindex.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguageindex",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-get_currentpositiontimecode.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentpositiontimecode",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-put_currentaudiolanguage.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentaudiolanguage",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-put_currentaudiolanguageindex.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentaudiolanguageindex",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcontrols3-put_currentpositiontimecode.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentpositiontimecode",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-close.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-close",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_cdromcollection.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_closedcaption.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_closedcaption",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_controls.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_controls",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_currentmedia.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_currentmedia",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_currentplaylist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_currentplaylist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_error.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_error",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_isonline.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_isonline",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_mediacollection.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_mediacollection",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_network.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_network",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_openstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_openstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_playlistcollection.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_playlistcollection",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_playstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_playstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_settings.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_settings",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_status.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_status",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_url.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_url",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-get_versioninfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_versioninfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-launchurl.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-launchurl",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-put_currentmedia.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_currentmedia",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-put_currentplaylist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_currentplaylist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore-put_url.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore2-get_dvd.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore2-get_dvd",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore3-newmedia.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore3-newmedia",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpcore3-newplaylist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore3-newplaylist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpdvd-back.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpdvd-back",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpdvd-get_domain.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpdvd-get_domain",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpdvd-get_isavailable.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpdvd-get_isavailable",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpdvd-resume.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpdvd-resume",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpdvd-titlemenu.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpdvd-titlemenu",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpdvd-topmenu.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpdvd-topmenu",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperror-clearerrorqueue.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperror-clearerrorqueue",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperror-get_errorcount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperror-get_errorcount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperror-get_item.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperror-get_item",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperror-webhelp.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperror-webhelp",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperroritem-get_customurl.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_customurl",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperroritem-get_errorcode.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errorcode",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperroritem-get_errorcontext.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errorcontext",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperroritem-get_errordescription.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_errordescription",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperroritem-get_remedy.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperroritem-get_remedy",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmperroritem2-get_condition.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmperroritem2-get_condition",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-audiolanguagechange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-audiolanguagechange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-buffering.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-buffering",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-cdrommediachange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-cdrommediachange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-click.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-click",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-currentitemchange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-currentitemchange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-currentmediaitemavailable.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-currentmediaitemavailable",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-currentplaylistchange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-currentplaylistchange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-currentplaylistitemavailable.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-currentplaylistitemavailable",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-disconnect.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-disconnect",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-domainchange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-domainchange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-doubleclick.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-doubleclick",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-durationunitchange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-durationunitchange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-endofstream.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-endofstream",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-error.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-error",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-keydown.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-keydown",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-keypress.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-keypress",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-keyup.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-keyup",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-markerhit.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-markerhit",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-mediachange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediachange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-mediacollectionattributestringadded.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediacollectionattributestringadded",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-mediacollectionattributestringchanged.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediacollectionattributestringchanged",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-mediacollectionattributestringremoved.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediacollectionattributestringremoved",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-mediacollectionchange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediacollectionchange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-mediaerror.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mediaerror",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-modechange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-modechange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-mousedown.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mousedown",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-mousemove.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mousemove",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-mouseup.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-mouseup",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-newstream.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-newstream",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-openplaylistswitch.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-openplaylistswitch",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-openstatechange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-openstatechange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-playerdockedstatechange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-playerdockedstatechange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-playerreconnect.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-playerreconnect",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-playlistchange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistchange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-playlistcollectionchange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistcollectionchange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-playlistcollectionplaylistadded.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistcollectionplaylistadded",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-playlistcollectionplaylistremoved.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistcollectionplaylistremoved",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-playlistcollectionplaylistsetasdeleted.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistcollectionplaylistsetasdeleted",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-playstatechange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-playstatechange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-positionchange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-positionchange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-scriptcommand.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-scriptcommand",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-statuschange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-statuschange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-switchedtocontrol.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-switchedtocontrol",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-switchedtoplayerapplication.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-switchedtoplayerapplication",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents-warning.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents-warning",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents2-createpartnershipcomplete.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents2-createpartnershipcomplete",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents2-deviceconnect.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents2-deviceconnect",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents2-devicedisconnect.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicedisconnect",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents2-devicestatuschange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicestatuschange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents2-devicesyncerror.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicesyncerror",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents2-devicesyncstatechange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents2-devicesyncstatechange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-cdromburnerror.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromburnerror",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-cdromburnmediaerror.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromburnmediaerror",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-cdromburnstatechange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromburnstatechange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-cdromripmediaerror.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromripmediaerror",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-cdromripstatechange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-cdromripstatechange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-folderscanstatechange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-folderscanstatechange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-libraryconnect.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-libraryconnect",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-librarydisconnect.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-librarydisconnect",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-mediacollectionmediaadded.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-mediacollectionmediaadded",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-mediacollectionmediaremoved.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-mediacollectionmediaremoved",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpevents3-stringcollectionchange.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpevents3-stringcollectionchange",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-add.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-add",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-get_addedfilescount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_addedfilescount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-get_count.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_count",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-get_currentfolder.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_currentfolder",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-get_scannedfilescount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_scannedfilescount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-get_scanstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_scanstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-get_updateprogress.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-get_updateprogress",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-item.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-item",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-remove.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-remove",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-startscan.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-startscan",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpfoldermonitorservices-stopscan.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-stopscan",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibrary-get_mediacollection.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_mediacollection",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibrary-get_name.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibrary-get_type.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibrary-isidentical.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary-isidentical",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibrary2-getiteminfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrary2-getiteminfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibraryservices-getcountbytype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getcountbytype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibrarysharingservices-islibraryshared.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrarysharingservices-islibraryshared",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibrarysharingservices-islibrarysharingenabled.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrarysharingservices-islibrarysharingenabled",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmplibrarysharingservices-showlibrarysharing.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibrarysharingservices-showlibrarysharing",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-getattributename.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getattributename",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-getiteminfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-getiteminfobyatom.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfobyatom",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-getmarkername.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getmarkername",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-getmarkertime.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getmarkertime",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-get_attributecount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_attributecount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-get_duration.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_duration",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-get_durationstring.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_durationstring",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-get_imagesourceheight.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_imagesourceheight",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-get_imagesourcewidth.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_imagesourcewidth",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-get_isidentical.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_isidentical",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-get_markercount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_markercount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-get_name.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_name",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-get_sourceurl.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_sourceurl",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-ismemberof.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-ismemberof",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-isreadonlyitem.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-isreadonlyitem",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-put_name.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-put_name",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia-setiteminfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-setiteminfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia2-get_error.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia2-get_error",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia3-getattributecountbytype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getattributecountbytype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmedia3-getiteminfobytype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getiteminfobytype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-add.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-add",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-getall.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getall",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-getattributestringcollection.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getattributestringcollection",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-getbyalbum.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyalbum",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-getbyattribute.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyattribute",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-getbyauthor.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyauthor",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-getbygenre.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbygenre",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-getbyname.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyname",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-getmediaatom.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getmediaatom",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-remove.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-remove",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection-setdeleted.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-setdeleted",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection2-createquery.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-createquery",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection2-getbyattributeandmediatype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getbyattributeandmediatype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection2-getplaylistbyquery.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getplaylistbyquery",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmediacollection2-getstringcollectionbyquery.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getstringcollectionbyquery",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmetadatapicture-get_description.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_description",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmetadatapicture-get_mimetype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_mimetype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmetadatapicture-get_picturetype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_picturetype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmetadatapicture-get_url.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmetadatapicture-get_url",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmetadatatext-get_description.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmetadatatext-get_description",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpmetadatatext-get_text.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmetadatatext-get_text",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-getproxybypassforlocal.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxybypassforlocal",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-getproxyexceptionlist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxyexceptionlist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-getproxyname.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxyname",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-getproxyport.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxyport",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-getproxysettings.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxysettings",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_bandwidth.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bandwidth",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_bitrate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bitrate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_bufferingcount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bufferingcount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_bufferingprogress.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bufferingprogress",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_bufferingtime.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bufferingtime",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_downloadprogress.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_downloadprogress",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_encodedframerate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_encodedframerate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_framerate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_framerate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_framesskipped.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_framesskipped",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_lostpackets.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_lostpackets",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_maxbandwidth.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_maxbandwidth",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_maxbitrate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_maxbitrate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_receivedpackets.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_receivedpackets",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_receptionquality.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_receptionquality",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_recoveredpackets.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_recoveredpackets",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-get_sourceprotocol.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_sourceprotocol",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-put_bufferingtime.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-put_bufferingtime",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-put_maxbandwidth.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-put_maxbandwidth",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-setproxybypassforlocal.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxybypassforlocal",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-setproxyexceptionlist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxyexceptionlist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-setproxyname.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxyname",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-setproxyport.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxyport",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpnetwork-setproxysettings.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxysettings",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer-get_enablecontextmenu.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enablecontextmenu",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer-get_enabled.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enabled",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer-get_fullscreen.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_fullscreen",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer-get_uimode.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_uimode",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer-put_enablecontextmenu.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_enablecontextmenu",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer-put_enabled.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_enabled",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer-put_fullscreen.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_fullscreen",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer-put_uimode.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_uimode",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer2-get_stretchtofit.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_stretchtofit",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer2-get_windowlessvideo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_windowlessvideo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer2-put_stretchtofit.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-put_stretchtofit",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer2-put_windowlessvideo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-put_windowlessvideo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer4-get_isremote.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_isremote",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer4-get_playerapplication.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-get_playerapplication",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayer4-openplayer.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayer4-openplayer",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayerapplication-get_hasdisplay.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerapplication-get_hasdisplay",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayerapplication-get_playerdocked.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerapplication-get_playerdocked",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayerapplication-switchtocontrol.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerapplication-switchtocontrol",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayerapplication-switchtoplayerapplication.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerapplication-switchtoplayerapplication",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayerservices-activateuiplugin.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-activateuiplugin",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayerservices-settaskpane.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpane",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayerservices-settaskpaneurl.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpaneurl",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplayerservices2-setbackgroundprocessingpriority.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices2-setbackgroundprocessingpriority",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-appenditem.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-appenditem",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-clear.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-clear",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-getiteminfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-getiteminfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-get_attributecount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_attributecount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-get_attributename.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_attributename",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-get_count.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_count",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-get_isidentical.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_isidentical",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-get_item.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_item",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-get_name.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-get_name",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-insertitem.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-insertitem",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-moveitem.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-moveitem",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-put_name.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-put_name",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-removeitem.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-removeitem",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylist-setiteminfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-setiteminfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylistarray-get_count.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-get_count",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylistarray-item.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-item",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylistcollection-getall.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getall",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylistcollection-getbyname.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylistcollection-importplaylist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-importplaylist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylistcollection-isdeleted.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-isdeleted",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylistcollection-newplaylist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-newplaylist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpplaylistcollection-remove.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-remove",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpquery-addcondition.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpquery-addcondition",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpquery-beginnextgroup.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpquery-beginnextgroup",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpremotemediaservices-getapplicationname.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getapplicationname",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpremotemediaservices-getcustomuimode.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getcustomuimode",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpremotemediaservices-getscriptableobject.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getscriptableobject",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpremotemediaservices-getservicetype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getservicetype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-getmode.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-getmode",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_autostart.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_autostart",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_balance.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_balance",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_baseurl.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_baseurl",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_defaultframe.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_defaultframe",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_enableerrordialogs.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_enableerrordialogs",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_invokeurls.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_invokeurls",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_isavailable.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_isavailable",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_mute.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_mute",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_playcount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_playcount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_rate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_rate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-get_volume.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_volume",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_autostart.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_autostart",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_balance.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_balance",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_baseurl.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_baseurl",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_defaultframe.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_defaultframe",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_enableerrordialogs.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_enableerrordialogs",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_invokeurls.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_invokeurls",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_mute.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_playcount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_playcount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_rate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_rate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-put_volume.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_volume",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings-setmode.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings-setmode",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings2-get_defaultaudiolanguage.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-get_defaultaudiolanguage",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings2-get_mediaaccessrights.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-get_mediaaccessrights",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsettings2-requestmediaaccessrights.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-requestmediaaccessrights",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpskinmanager-setvisualstyle.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpskinmanager-setvisualstyle",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpstringcollection-get_count.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection-get_count",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpstringcollection-item.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection-item",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpstringcollection2-getattributecountbytype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-getattributecountbytype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpstringcollection2-getiteminfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-getiteminfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpstringcollection2-getiteminfobytype.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-getiteminfobytype",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpstringcollection2-isidentical.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-isidentical",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-createpartnership.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-createpartnership",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-deletepartnership.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-deletepartnership",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-getiteminfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-getiteminfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-get_connected.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_connected",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-get_deviceid.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_deviceid",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-get_devicename.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_devicename",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-get_partnershipindex.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_partnershipindex",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-get_progress.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_progress",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-get_status.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_status",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-get_syncstate.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_syncstate",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-isidentical.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-isidentical",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-showsettings.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-showsettings",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-start.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-start",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice-stop.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-stop",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice2-setiteminfo.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice2-setiteminfo",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice3-cancelestimation.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-cancelestimation",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncservices-getdevice.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-getdevice",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nf-wmp-iwmpsyncservices-get_devicecount.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-get_devicecount",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcdrom.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdrom",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcdromburn.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcdromcollection.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcdromrip.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpclosedcaption.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpclosedcaption2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcontrols.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcontrols",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcontrols2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcontrols3.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcore.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcore",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcore2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcore2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpcore3.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcore3",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpdvd.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpdvd",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmperror.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmperror",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmperroritem.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmperroritem",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmperroritem2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmperroritem2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpevents.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpevents2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpevents3.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents3",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpevents4.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpevents4",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpfoldermonitorservices.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpfoldermonitorservices",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmplibrary.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmplibrary2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmplibraryservices.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmplibrarysharingservices.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpmedia.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpmedia2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpmedia3.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmedia3",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpmediacollection.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpmediacollection2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpmetadatapicture.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmetadatapicture",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpmetadatatext.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpmetadatatext",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpnetwork.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpnetwork",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplayer.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplayer2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplayer3.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer3",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplayer4.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayer4",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplayerapplication.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayerapplication",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplayerservices.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplayerservices2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplaylist.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplaylist",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplaylistarray.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplaylistarray",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpplaylistcollection.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpplaylistcollection",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpquery.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpquery",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpremotemediaservices.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpremotemediaservices",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpsettings.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpsettings2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsettings2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpskinmanager.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpskinmanager",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpstringcollection.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpstringcollection2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpsyncdevice.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpsyncdevice2.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpsyncdevice3.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3",
+      "redirect_document_id": true
+  },
+  {
+      "source_path": "sdk-api-src/content/wmp/nn-wmp-iwmpsyncservices.md",
+      "redirect_url": "/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices",
+      "redirect_document_id": true
+  }
   ]
 }
