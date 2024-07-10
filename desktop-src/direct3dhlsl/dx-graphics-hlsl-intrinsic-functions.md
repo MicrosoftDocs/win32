@@ -163,18 +163,18 @@ The following table lists the intrinsic functions available in HLSL. Each functi
 | [**texCUBEproj**](dx-graphics-hlsl-texcubeproj.md)                                     | Cube texture lookup with projective divide.                                                                                                                     | 2¹                   |
 | [**transpose**](dx-graphics-hlsl-transpose.md)                                         | Returns the transpose of the matrix m.                                                                                                                          | 1                    |
 | [**trunc**](dx-graphics-hlsl-trunc.md)                                                 | Truncates floating-point value(s) to integer value(s)                                                                                                           | 1                    |
-| [**NonUniformResourceIndex**]()                                              | Ensures non-uniform indexing for resources like textures in shaders | 6.0    |
-| [**AddUint64**]()                                                            | Unsigned add of 32-bit operand with the carry |  6.0   |
-| [**GetAttributeAtVertex**]()                                                 | Returns the values of the attributes at the vertex | 6.1 |
-| [**asfloat16**]()                                                            | Converts integer bit patterns to half-precision floating-point values. | 6.2 |
-| [**asint16**]()                                                              | Converts bit patterns to 16-bit integer values. | 6.2 |
-| [**asuint16**]()                                                             | Converts bit patterns to 16-bit unsigned integer values.| 6.2 |
+| [**NonUniformResourceIndex**](NonUniformResourceIndex.md)                    | Ensures non-uniform indexing for resources like textures in shaders | 6.0    |
+| [**AddUint64**](AddUint64)                                                   | Unsigned add of 32-bit operand with the carry |  6.0   |
+| [**GetAttributeAtVertex**](GetAttributeAtVertex.md)                          | Returns the values of the attributes at the vertex | 6.1 |
+| [**asfloat16**](GetAttributeAtVertex.md)                                     | Converts integer bit patterns to half-precision floating-point values. | 6.2 |
+| [**asint16**](asint16.md)                                                    | Converts bit patterns to 16-bit integer values. | 6.2 |
+| [**asuint16**](asuint16.md)                                                  | Converts bit patterns to 16-bit unsigned integer values.| 6.2 |
 | [**WaveGetLaneCount**](../direct3dhlsl/wavegetlanecount.md)                  | Returns the number of lanes in the current wave. | 6.0 |
 | [**WaveGetLaneIndex**](../direct3dhlsl/wavegetlaneindex.md)                  | Returns the index of the current lane within its wave. | 6.0 |
 | [**WaveIsFirstLane**](../direct3dhlsl/waveisfirstlane.md)                    | Checks if the current lane is the first lane in its wave. | 6.0 |
 | [**WaveActiveAnyTrue**](../direct3dhlsl/waveanytrue.md)                      | Returns true if any lane in the wave evaluates to true. | 6.0 |
 | [**WaveActiveAllTrue**](../direct3dhlsl/wavealltrue.md)                      | Returns true if all lanes in the wave evaluate to true. | 6.0 |
-| [**WaveActiveBallot**](../direct3dhlsl/waveballot.md)                        | Returns a bitmask where each bit represents whether the condition is true for each lane. | 6.0 |
+| [**WaveActiveBallot**](../direct3dhlsl/waveballot.md)                        | Returns a bitmask where each bit represents if the condition is true for each lane. | 6.0 |
 | [**WaveReadLaneAt**](../direct3dhlsl/wavereadlaneat.md)                      | Reads the value of a specific lane within the wave using an index. | 6.0 |
 | [**WaveReadLaneFirst**](../direct3dhlsl/wavereadfirstlane.md)                | Reads the value from the first lane in the current wave. | 6.0 |
 | [**WaveActiveAllEqual**](../direct3dhlsl/waveactiveallequal.md)              | Checks if all lanes in the wave have equal values. | 6.0 |
@@ -193,19 +193,19 @@ The following table lists the intrinsic functions available in HLSL. Each functi
 | [**QuadReadAcrossDiagonal**](../direct3dhlsl/quadreadacrossdiagonal.md)      | Reads values across the diagonal of a quad group. | 6.0 |
 | [**QuadReadAcrossX**](../direct3dhlsl/quadswapx.md)                          | Reads values across the X axis of a quad group. | 6.0 |
 | [**QuadReadAcrossY**](../direct3dhlsl/quadswapy.md)                          | Reads values across the Y axis of a quad group.| 6.0 |
-| [**dot4add_u8packed**]()                                                     | Unsigned dot product of 4 x u8 vectors packed into i32, with accumulate to i32.	| 6.4 |
-| [**dot4add_i8packed**]()                                                     | Signed dot product of 4 x i8 vectors packed into i32, with accumulate to i32. | 6.4 |
-| [**dot2add**]()                                                              | 2D half dot product with accumulate to float. | 6.4 |
-| [**WaveMultiPrefixCountBits**]()                                             | Returns the count of bits set to 1 on groups of lanes identified by a bitmask.	| 6.5 |
-| [**WaveMultiPrefixProduct**]()                                               | Returns the result of the operation on groups of lanes identified by a bitmask. | 6.5 |
-| [**WaveMatch**]()                                                            | Checks if all lanes in the wave have the same value. | 6.5 |
-| [**WaveMultiPrefixBitAnd**]()                                                | Performs a multi-wave prefix AND operation across all lanes in the wave and returns the result. | 6.5 |
-| [**WaveMultiPrefixBitOr**]()                                                 | Performs a multi-wave prefix OR operation across all lanes in the wave and returns the result. | 6.5 |
-| [**WaveMultiPrefixBitXor**]()                                                | Performs a multi-wave prefix XOR operation across all lanes in the wave and returns the result. | 6.5 |
-| [**WaveMultiPrefixSum**]()                                                   | Performs a multi-wave prefix sum operation across all lanes in the wave and returns the result.| 6.5 |
-| [**IsHelperLane**]()                                                         | Returns true on helper lanes in pixel shaders. | 6.6 |
-| [**QuadAny**]()                                                              | Compares boolean accross a quad. | 6.7 |
-| [**QuadAll**]()                                                              | Compares boolean accross a quad. | 6.7 |
+| [**dot4add_u8packed**](dot4add_u8packed.md)                                  | Unsigned dot product of 4 x u8 vectors packed into i32, with accumulate to i32.	| 6.4 |
+| [**dot4add_i8packed**](dot4add_i8packed.md)                                  | Signed dot product of 4 x i8 vectors packed into i32, with accumulate to i32. | 6.4 |
+| [**dot2add**](dot2add.md)                                                    | 2D half dot product with accumulate to float. | 6.4 |
+| [**WaveMultiPrefixCountBits**](WaveMultiPrefixCountBits.md)                  | Returns the count of bits set to 1 on groups of lanes identified by a bitmask.	| 6.5 |
+| [**WaveMultiPrefixProduct**](WaveMultiPrefixProduct.md)                      | Returns the result of the operation on groups of lanes identified by a bitmask. | 6.5 |
+| [**WaveMatch**](WaveMatch.md)                                                | Checks if all lanes in the wave have the same value. | 6.5 |
+| [**WaveMultiPrefixBitAnd**](WaveMultiPrefixBitAnd.md)                        | Performs a multi-wave prefix AND operation across all lanes in the wave and returns the result. | 6.5 |
+| [**WaveMultiPrefixBitOr**](WaveMultiPrefixBitOr.md)                          | Performs a multi-wave prefix OR operation across all lanes in the wave and returns the result. | 6.5 |
+| [**WaveMultiPrefixBitXor**](WaveMultiPrefixBitXor.md)                        | Performs a multi-wave prefix XOR operation across all lanes in the wave and returns the result. | 6.5 |
+| [**WaveMultiPrefixSum**](WaveMultiPrefixSum.md)                              | Performs a multi-wave prefix sum operation across all lanes in the wave and returns the result.| 6.5 |
+| [**IsHelperLane**](IsHelperLane.md)                                          | Returns true on helper lanes in pixel shaders. | 6.6 |
+| [**QuadAny**](QuadAny.md)                                                    | Compares boolean accross a quad. | 6.7 |
+| [**QuadAll**](QuadAll.md)                                                    | Compares boolean accross a quad. | 6.7 |
 | [**TraceRay**](../direct3d12/traceray-function.md)                           | Initiates ray tracing, allowing intersection testing and tracing rays into the scene geometry. | 6.6 |
 | [**ReportHit**](../direct3d12/reporthit-function.md)                         | Used to report a hit when a ray intersects with geometry to record info about the intersection. | 6.6 |
 | [**CallShader**](../direct3d12/callshader-function.md)                       | Used to invoke a function or a callable shader, allowing shaders to be modular and reusable within a ray tracing pipeline. | 6.6 |
@@ -229,23 +229,23 @@ The following table lists the intrinsic functions available in HLSL. Each functi
 | [**WorldToObject3x4**](../direct3d12/worldtoobject3x4.md)                    | Represents a 3x4 matrix used to transform coordinates from world space to object-local space. | 6.6 |
 | [**ObjectToWorld4x3**](../direct3d12/objecttoworld4x3.md)                    | Represents a 4x3 matrix used to transform coordinates from object-local space to world space. | 6.6 |
 | [**WorldToObject4x3**](../direct3d12/worldtoobject4x3.md)                    | Represents a 4x3 matrix used to transform coordinates from world space to object-local space. | 6.6 |
-| [**unpack_s8s16**]()                                                         | Unpacks a signed 8-bit value into a signed 16-bit value. | 6.6 |
-| [**unpack_u8u16**]()                                                         | Unpacks an unsigned 8-bit value into an unsigned 16-bit value. | 6.6 |
-| [**unpack_s8s32**]()                                                         | Unpacks a signed 8-bit value into a signed 32-bit value. | 6.6 |
-| [**unpack_u8u32**]()                                                         | Unpacks an unsigned 8-bit value into an unsigned 32-bit value. | 6.6 |
-| [**pack_s8**]()                                                              | Packs a signed 8-bit value. | 6.6 |
-| [**pack_u8**]()                                                              | Packs an unsigned 8-bit value. | 6.6 |
-| [**pack_clamp_s8**]()                                                        | Packs and clamps a signed 8-bit value. | 6.6 |
-| [**pack_clamp_u8**]()                                                        | Packs and clamps an unsigned 8-bit value.| 6.6 |
+| [**unpack_s8s16**](unpack_s8s16.md)                                          | Unpacks a signed 8-bit value into a signed 16-bit value. | 6.6 |
+| [**unpack_u8u16**](unpack_u8u16.md)                                          | Unpacks an unsigned 8-bit value into an unsigned 16-bit value. | 6.6 |
+| [**unpack_s8s32**](unpack_s8s32.md)                                          | Unpacks a signed 8-bit value into a signed 32-bit value. | 6.6 |
+| [**unpack_u8u32**](unpack_u8u32.md)                                          | Unpacks an unsigned 8-bit value into an unsigned 32-bit value. | 6.6 |
+| [**pack_s8**](pack_s8.md)                                                    | Packs a signed 8-bit value. | 6.6 |
+| [**pack_u8**](pack_u8.md)                                                    | Packs an unsigned 8-bit value. | 6.6 |
+| [**pack_clamp_s8**](pack_clamp_s8.md)                                        | Packs and clamps a signed 8-bit value. | 6.6 |
+| [**pack_clamp_u8**](pack_clamp_u8.md)                                        | Packs and clamps an unsigned 8-bit value.| 6.6 |
 | [**SetMeshOutputCounts**](../direct3d12/setmeshoutputcounts.md)              | Is used to set the output counts for different types of mesh primitives in geometry shaders. | 6.5 |
-| [**DispatchMesh**]()                                                         | Is used to dispatch mesh shader threads for processing mesh primitives. | 6.5 |
-| [**AllocateRayQuery**]()                                                     | Allocates resources for ray queries in ray tracing shaders. | 6.5 |
-| [**CreateResourceFromHeap**]()                                               | Creates a resource from a heap, typically used for dynamic resource allocation. | 6.6 |
+| [**DispatchMesh**](DispatchMesh.md)                                          | Is used to dispatch mesh shader threads for processing mesh primitives. | 6.5 |
+| [**AllocateRayQuery**](AllocateRayQuery.md)                                  | Allocates resources for ray queries in ray tracing shaders. | 6.5 |
+| [**CreateResourceFromHeap**](CreateResourceFromHeap.md)                      | Creates a resource from a heap, typically used for dynamic resource allocation. | 6.6 |
 | [**and**]()                                                                  | |     |
 | [**or**]()                                                                   | |     |
-| [**select**]()                                                               | A conditional selection function that chooses between two values based on a condition. |     |
-| [**Barrier**]()                                                              | Rquaequest a barrier for a set of memory types and/or thread group execution sync | 6.8 |
-| [**GetRemainingRecursionLevels**]()                                          | Returns how many levels of recursion remain | 6.8 |
+| [**select**](select.md)                                                      | A conditional selection function that chooses between two values based on a condition. |     |
+| [**Barrier**](Barrier.md)                                                    | Rquaequest a barrier for a set of memory types and/or thread group execution sync | 6.8 |
+| [**GetRemainingRecursionLevels**](GetRemainingRecursionLevels.md)            | Returns how many levels of recursion remain | 6.8 |
 
 
 
