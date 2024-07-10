@@ -15,7 +15,7 @@ keywords:
 - threading issues
 - event handler threading model
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/09/2024
 ---
 
 # Understanding Threading Issues
@@ -24,10 +24,10 @@ This topic describes common threading scenarios for Microsoft UI Automation clie
 
 This topic contains the following sections:
 
--   [UI Automation and the UI Thread](#ui-automation-and-the-ui-thread)
--   [Threading Model for Event Handlers](#threading-model-for-event-handlers)
--   [COM Apartment Affinity on 64-bit Windows](#com-apartment-affinity-on-64-bit-windows)
--   [Related topics](#related-topics)
+- [UI Automation and the UI Thread](#ui-automation-and-the-ui-thread)
+- [Threading Model for Event Handlers](#threading-model-for-event-handlers)
+- [COM Apartment Affinity on 64-bit Windows](#com-apartment-affinity-on-64-bit-windows)
+- [Related topics](#related-topics)
 
 ## UI Automation and the UI Thread
 
@@ -53,26 +53,14 @@ The same issue can occur with a 32-bit UI Automation client that has 64-bit elem
 
 ## Related topics
 
-<dl> <dt>
-
-**Conceptual**
-</dt> <dt>
+**Conceptual:**
 
 [Obtaining UI Automation Elements](uiauto-obtainingelements.md)
-</dt> <dt>
 
 [Subscribing to UI Automation Events](uiauto-eventsforclients.md)
-</dt> <dt>
 
 [UI Automation Events Overview](uiauto-eventsoverview.md)
-</dt> <dt>
 
-**Other Resources**
-</dt> <dt>
+**Other Resources:**
 
-[INFO: Descriptions and Workings of OLE Threading Models](https://support.microsoft.com/kb/150777)
-</dt> </dl>
-
- 
-
- 
+[Descriptions and Workings of OLE Threading Models](/previous-versions/troubleshoot/windows/win32/descriptions-workings-ole-threading-models)
