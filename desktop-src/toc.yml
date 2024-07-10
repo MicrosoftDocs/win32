@@ -604,6 +604,8 @@
           href: ./winrm/portal.md
         - name: "Windows Resource Protection"
           href: ./wfp/windows-resource-protection-portal.md
+        - name: "Packet Monitor (Pktmon)"
+          href: ./pktmon/pktmon.md
     - name: "API Index"
       href: ./apiindex/api-index-portal.md
     - name: "Windows Runtime C++ reference"
