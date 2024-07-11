@@ -130,24 +130,24 @@ In our enclave Sample, we create a simple enclave which XORs the input with `0xD
 
     You can then export the function using a `.DEF` file. In the sample code, refer to `Samples/VbsEnclave/Test enclave/vbsenclave.def`. For more information, refer to [Exporting from a DLL Using DEF Files](/cpp/build/exporting-from-a-dll-using-def-files).
 
-And that’s how you write a basic VBS enclave.
+And that’s how you write a basic VBS enclave DLL.
 
 ## Step 2: Compiling VBS enclaves
 
-Now that we’ve written our VBS enclave, let’s compile it.
+Now that we’ve written our VBS enclave DLL, let’s compile it.
 
 ### Compiling the enclave host
 
 Compiling the host app is the same as compiling any Windows application, but with the addition of `onecore.lib` to the list of dependencies while linking.
 
-### Compiling the test enclave
+### Compiling the test enclave DLL
 
-Before we can build the test enclave, some changes to the compiler and linker configurations are required:
+Before we can build the test enclave DLL, some changes to the compiler and linker configurations are required:
 
 1. The MSVC linker provides an `/ENCLAVE` flag which picks up the enclave configuration details. The `/ENCLAVE` flag is incompatible with incremental linking, so we need to set `/INCREMENTAL:NO`.
 1. *[Debug config only]* `/EDITANDCONTINUE` is incompatible with `/INCREMENTAL:NO`, so we use `/Zi` instead of `/ZI` for **Debug Information Format** in the compiler.
 1. *[Debug config only]* The **Basic Runtime Checks** configuration needs to be set to **Default**. Runtime error checks are not supported in VBS enclaves.
-1. An enclave's digital signature must be checked at load time and requires setting the `/INTEGRITYCHECK` flag in the linker.
+1. An enclave DLL's digital signature must be checked at load time and requires setting the `/INTEGRITYCHECK` flag in the linker.
 1. Enclave DLLs must be instrumented for **Control Flow Guard (CFG)**, for which we use the `/GUARD:MIXED` flag in the linker.
 1. Enclaves have their own versions of platform, startup, runtime and UCRT libs. To ensure that we don't link the non-enclave versions, use the `/NODEFAULTLIB` flag. Subsequently, add the correct libs under `AdditionalDependencies`. In the sample code, these libraries are encapsulated under the **VBS_Enclave_Dependencies** macro. The following are the VBS enclave libraries:
 
@@ -182,9 +182,9 @@ You can now compile the enclave DLL.
 In the sample code, this is done automatically as a post-build event.
 
 > [!NOTE]
-> It is strongly recommended to avoid using dependency DLLs apart from the platform DLLs. Instead, keep all your code within the enclave DLL itself.
+> It is strongly recommended to avoid using your own non-primary DLLs apart from the platform DLLs. Instead, keep all your code within the enclave DLL itself.
 
-## Step 3: Signing VBS enclaves
+## Step 3: Signing VBS enclave DLLs
 
 VBS enclaves must be signed to be successfully loaded. The signature on an enclave contains information about the enclave author. This is used to derive the Author ID for an enclave. You can test-sign your enclave before you sign it for production.
 
@@ -223,11 +223,11 @@ Trusted Signing also allows you to sign your enclave at the command line. This o
 
 ## Step 4: Debugging VBS enclaves
 
-Typically, an enclave’s memory is hidden from debuggers and is protected from VTL0. However, if you wish to debug your VBS enclave, you can build them to be debugged during development. Enclaves are a VTL1 user-mode process, and therefore can be debugged with a user-mode debugger.
+Typically, an enclave’s memory is hidden from debuggers and is protected from VTL0. However, if you wish to debug your VBS enclave DLL, you can build them to be debugged during development. Enclaves are a VTL1 user-mode process, and therefore can be debugged with a user-mode debugger.
 
 To make your enclave debuggable:
 
-1. **The enclave image configuration needs to allow debugging** – This is done by setting the **IMAGE_ENCLAVE_POLICY_DEBUGGABLE** flag in [IMAGE_ENCLAVE_CONFIG](/windows/win32/api/winnt/ns-winnt-image_enclave_config64).
+1. **The enclave DLL image configuration needs to allow debugging** – This is done by setting the **IMAGE_ENCLAVE_POLICY_DEBUGGABLE** flag in [IMAGE_ENCLAVE_CONFIG](/windows/win32/api/winnt/ns-winnt-image_enclave_config64).
 1. **Debugging needs to be allowed during enclave creation** – This is done by setting the **ENCLAVE_VBS_FLAG_DEBUG** flag in the [ENCLAVE_CREATE_VBS_INFO](/windows/win32/api/winnt/ns-winnt-enclave_create_info_vbs) structure passed to the [CreateEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-createenclave) call.
 
 To debug your enclave:
