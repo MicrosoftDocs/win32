@@ -3,7 +3,7 @@ description: Returns how many levels of recursion remain.
 nms.assetid:
 title: GetRemainingRecursionLevels
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,12 +18,14 @@ api_type:
 
 Returns how many levels of recursion remain.
 
+
 ## Syntax
 
 
 ```syntax
 uint GetRemainingRecursionLevels();
 ```
+
 
 ## Parameters
 
@@ -37,7 +39,7 @@ This function has no parameters.
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *ret* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
 
 ## Minimum Shader Model
 
@@ -53,6 +55,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 GetRemainingRecursionLevels retrieves the remaining levels of recursion in a shader program, useful for managing recursive algorithms.
+
 ## See also
 
 

@@ -3,7 +3,7 @@ description: Returns the values of the attributes at the vertex.
 nms.assetid:
 title: GetAttributeAtVertex
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Returns the values of the attributes at the vertex.
 
+
 ## Syntax
 
 
@@ -25,11 +26,14 @@ Returns the values of the attributes at the vertex.
 numeric<> GetAttributeAtVertex(numeric<> value, uint VertexID);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
-| *value* | [in] A scalar, vector, or matrix input from which to retrieve the attribute.  || *VertexID* | [in] The ID of the vertex at which to retrieve the attribute. Must be an integer.  |
+| *value* | [in] A scalar, vector, or matrix input from which to retrieve the attribute.  |
+| *VertexID* | [in] The ID of the vertex at which to retrieve the attribute. Must be an integer.  |
+
 ## Return value
 
  Returns the attribute of the specified vertex. The return type can be a scalar, vector, or matrix with a component type of float or int.
@@ -37,9 +41,9 @@ numeric<> GetAttributeAtVertex(numeric<> value, uint VertexID);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
-| *value*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
-| *VertexID*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *ret* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
+| *value* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
+| *VertexID* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
 
 ## Minimum Shader Model
 
@@ -55,6 +59,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 GetAttributeAtVertex retrieves vertex attributes at specific vertices, useful for per-vertex operations in vertex shaders.
+
 ## See also
 
 

@@ -3,7 +3,7 @@ description: Returns the result of the operation on groups of lanes identified b
 nms.assetid:
 title: WaveMultiPrefixProduct
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Returns the result of the operation on groups of lanes identified by a bitmask.
 
+
 ## Syntax
 
 
@@ -25,11 +26,14 @@ Returns the result of the operation on groups of lanes identified by a bitmask.
 numeric<> WaveMultiPrefixProduct(numeric<> value, uint<4> mask);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
-| *value* | [in] The input value. This value can be a scalar, vector, or matrix with component type of float or int.  || *mask* | [in] A boolean mask that determines the lanes from which to calculate the prefix product.  |
+| *value* | [in] The input value. This value can be a scalar, vector, or matrix with component type of float or int.  |
+| *mask* | [in] A boolean mask that determines the lanes from which to calculate the prefix product.  |
+
 ## Return value
 
  Returns the prefix product of the specified input value over the active lanes, as determined by the mask. The return type will be the same type as the input value (scalar, vector, or matrix) with a component type of float or int.
@@ -37,9 +41,9 @@ numeric<> WaveMultiPrefixProduct(numeric<> value, uint<4> mask);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
-| *value*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
-| *mask*   | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
+| *ret* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
+| *value* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
+| *mask* | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
 
 ## Minimum Shader Model
 
@@ -70,6 +74,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 WaveMultiPrefixProduct computes the product of values across wavefront threads, useful for parallel reduction operations.
+
 ## See also
 
 

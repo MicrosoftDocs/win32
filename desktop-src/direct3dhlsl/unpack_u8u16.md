@@ -3,7 +3,7 @@ description: Unpacks an unsigned 8-bit value into an unsigned 16-bit value.
 nms.assetid:
 title: unpack_u8u16
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Unpacks an unsigned 8-bit value into an unsigned 16-bit value.
 
+
 ## Syntax
 
 
@@ -25,11 +26,13 @@ Unpacks an unsigned 8-bit value into an unsigned 16-bit value.
 uint16_t<4> unpack_u8u16(p32u8 pk);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
 | *pk* | [in] A packed uint32_t value from which to extract a four-component unsigned 16-bit integer vector.  |
+
 ## Return value
 
  Returns a four-component vector of type uint16_t. Each component contains a 16-bit integer extracted from the input packed uint32_t value, 'pk'.
@@ -37,8 +40,8 @@ uint16_t<4> unpack_u8u16(p32u8 pk);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types) | 4 |
-| *pk*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint8_t4_packed**](../WinProg/windows-data-types) | 1 |
+| *ret* | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types) | 4 |
+| *pk* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint8_t4_packed**](../WinProg/windows-data-types) | 1 |
 
 ## Minimum Shader Model
 
@@ -53,6 +56,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 unpack_u8u16 unpacks an unsigned 8-bit value into an unsigned 16-bit value, useful for data conversion in shaders.
+
 ## See also
 
 

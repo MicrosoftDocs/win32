@@ -3,7 +3,7 @@ description: Performs a multi-wave prefix OR operation across all lanes in the w
 nms.assetid:
 title: WaveMultiPrefixBitOr
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Performs a multi-wave prefix OR operation across all lanes in the wave and returns the result.
 
+
 ## Syntax
 
 
@@ -25,11 +26,14 @@ Performs a multi-wave prefix OR operation across all lanes in the wave and retur
 any_int<> WaveMultiPrefixBitOr(any_int<> value, uint<4> mask);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
-| *value* | [in] This is the value to perform the bitwise OR operation on. This intrinisic will perform the operation across all active lanes in the wave  || *mask* | [in] This mask determines which lanes in the wave should input their value into the bitwise OR operation. It should be of the same type as the 'value' parameter  |
+| *value* | [in] This is the value to perform the bitwise OR operation on. This intrinisic will perform the operation across all active lanes in the wave  |
+| *mask* | [in] This mask determines which lanes in the wave should input their value into the bitwise OR operation. It should be of the same type as the 'value' parameter  |
+
 ## Return value
 
  This function returns a scalar, vector, or matrix with component type of int or uint that represents the result of the bitwise OR operation performed on the parameter 'value' across the appropriate lanes in the wave as determined by the parameter 'mask'
@@ -37,9 +41,9 @@ any_int<> WaveMultiPrefixBitOr(any_int<> value, uint<4> mask);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**int**](../WinProg/windows-data-types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int64_t**](../WinProg/windows-data-types), [**uint**](../WinProg/windows-data-types), [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint64_t**](../WinProg/windows-data-types) | any |
-| *value*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**int**](../WinProg/windows-data-types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int64_t**](../WinProg/windows-data-types), [**uint**](../WinProg/windows-data-types), [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint64_t**](../WinProg/windows-data-types) | any |
-| *mask*   | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
+| *ret* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**int**](../WinProg/windows-data-types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int64_t**](../WinProg/windows-data-types), [**uint**](../WinProg/windows-data-types), [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint64_t**](../WinProg/windows-data-types) | any |
+| *value* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**int**](../WinProg/windows-data-types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int64_t**](../WinProg/windows-data-types), [**uint**](../WinProg/windows-data-types), [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint64_t**](../WinProg/windows-data-types) | any |
+| *mask* | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
 
 ## Minimum Shader Model
 
@@ -70,6 +74,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 WaveMultiPrefixBitOr computes the bitwise OR across wavefront threads, useful for parallel bit aggregation operations.
+
 ## See also
 
 

@@ -3,7 +3,7 @@ description: Unsigned dot product of 4 x u8 vectors packed into i32, with accumu
 nms.assetid:
 title: dot4add_u8packed
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Unsigned dot product of 4 x u8 vectors packed into i32, with accumulate to i32.
 
+
 ## Syntax
 
 
@@ -25,11 +26,15 @@ Unsigned dot product of 4 x u8 vectors packed into i32, with accumulate to i32.
 uint dot4add_u8packed(uint a, uint b, uint c);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
-| *a* | [in] The first input parameter of scalar and component type uint.  || *b* | [in] The second input parameter of scalar and component type uint.  || *c* | [in] The third input parameter of scalar and component type uint.  |
+| *a* | [in] The first input parameter of scalar and component type uint.  |
+| *b* | [in] The second input parameter of scalar and component type uint.  |
+| *c* | [in] The third input parameter of scalar and component type uint.  |
+
 ## Return value
 
  Returns a scalar with component type uint. The result is the sum of the products of the corresponding entries of the two input vectors along with the addition of the third parameter.
@@ -37,10 +42,10 @@ uint dot4add_u8packed(uint a, uint b, uint c);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
-| *a*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
-| *b*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
-| *c*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *ret* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *a* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *b* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *c* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
 
 ## Minimum Shader Model
 
@@ -55,6 +60,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 dot4add_u8packed computes a dot product with four 8-bit packed unsigned integer vectors, useful for SIMD optimizations.
+
 ## See also
 
 

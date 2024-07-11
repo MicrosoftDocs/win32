@@ -3,7 +3,7 @@ description: Is used to set the output counts for different types of mesh primit
 nms.assetid:
 title: SetMeshOutputCounts
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Is used to set the output counts for different types of mesh primitives in geometry shaders.
 
+
 ## Syntax
 
 
@@ -25,11 +26,14 @@ Is used to set the output counts for different types of mesh primitives in geome
 void SetMeshOutputCounts(uint numVertices, uint numPrimitives);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
-| *numVertices* | [in] An integer that specifies the number of vertices to be output by the mesh shader.  || *numPrimitives* | [in] An integer that specifies the number of primitives to be output by the mesh shader.  |
+| *numVertices* | [in] An integer that specifies the number of vertices to be output by the mesh shader.  |
+| *numPrimitives* | [in] An integer that specifies the number of primitives to be output by the mesh shader.  |
+
 ## Return value
 
  This function does not return a value.
@@ -37,9 +41,9 @@ void SetMeshOutputCounts(uint numVertices, uint numPrimitives);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | **void** | **void** | 0 |
-| *numVertices*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
-| *numPrimitives*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *ret* | **void** | **void** | 0 |
+| *numVertices* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *numPrimitives* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
 
 ## Minimum Shader Model
 
@@ -55,6 +59,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 SetMeshOutputCounts configures the number of output vertices and primitives per mesh shader invocation, enabling dynamic mesh generation.
+
 ## See also
 
 

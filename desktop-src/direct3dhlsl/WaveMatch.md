@@ -3,7 +3,7 @@ description: Checks if all lanes in the wave have the same value.
 nms.assetid:
 title: WaveMatch
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Checks if all lanes in the wave have the same value.
 
+
 ## Syntax
 
 
@@ -25,11 +26,13 @@ Checks if all lanes in the wave have the same value.
 uint<4> WaveMatch(numeric<> value);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
 | *value* | [in] An input parameter of vector type. This input value is used as the basis for the WaveMatch operation.  |
+
 ## Return value
 
  The function returns a vector of type uint. Each component of the returned vector represents a binary mask indicating which lanes of the wave have the same value as the called lane.
@@ -37,8 +40,8 @@ uint<4> WaveMatch(numeric<> value);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
-| *value*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
+| *ret* | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
+| *value* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**float**](../WinProg/windows-data-types) or [**int**](../WinProg/windows-data-types) | any |
 
 ## Minimum Shader Model
 
@@ -69,6 +72,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 WaveMatch checks if all threads within a wavefront match a given predicate, enabling synchronized control flow in shaders.
+
 ## See also
 
 

@@ -3,7 +3,7 @@ description: Request a barrier for a set of memory types and/or thread group exe
 nms.assetid:
 title: Barrier
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Request a barrier for a set of memory types and/or thread group execution sync.
 
+
 ## Syntax
 
 
@@ -25,11 +26,14 @@ Request a barrier for a set of memory types and/or thread group execution sync.
 void Barrier(NodeRecordOrUAV o, uint SemanticFlags);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
-| *o* | [in] This is the optional argument, which is typically used to specify a location of an array or a specific area in memory.  || *SemanticFlags* | [in] This is used to apply a specific semantic to the function, for example, ordering and grouping threads.  |
+| *o* | [in] This is the optional argument, which is typically used to specify a location of an array or a specific area in memory.  |
+| *SemanticFlags* | [in] This is used to apply a specific semantic to the function, for example, ordering and grouping threads.  |
+
 ## Return value
 
  This function does not return a value.
@@ -37,9 +41,9 @@ void Barrier(NodeRecordOrUAV o, uint SemanticFlags);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | **void** | **void** | 0 |
-| *o*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) |  | 1 |
-| *SemanticFlags*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *ret* | **void** | **void** | 0 |
+| *o* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) |  | 1 |
+| *SemanticFlags* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
 
 ## Minimum Shader Model
 
@@ -54,6 +58,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 Barrier synchronizes threads within a shader, ensuring data consistency and facilitating parallel computation.
+
 ## See also
 
 

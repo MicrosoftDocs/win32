@@ -243,8 +243,6 @@ The following table lists the intrinsic functions available in HLSL. Each functi
 | [**pack_clamp_u8**](pack_clamp_u8.md)                                  | Packs and clamps an unsigned 8-bit value.| 6.6 |
 | [**SetMeshOutputCounts**](../direct3d12/setmeshoutputcounts.md)        | Is used to set the output counts for different types of mesh primitives in geometry shaders. | 6.5 |
 | [**DispatchMesh**](DispatchMesh.md)                                    | Is used to dispatch mesh shader threads for processing mesh primitives. | 6.5 |
-| [**AllocateRayQuery**](AllocateRayQuery.md)                            | Allocates resources for ray queries in ray tracing shaders. | 6.5 |
-| [**CreateResourceFromHeap**](CreateResourceFromHeap.md)                | Creates a resource from a heap, typically used for dynamic resource allocation. | 6.6 |
 | [**and**](and.md)                                                      | A replacement for logical `and` for vector and matrix types.| HLSL 2021 |
 | [**or**](or.md)                                                        | A replacement for logical `or` for vector and matrix types.| HLSL 2021 |
 | [**select**](select.md)                                                | A conditional selection function that chooses between two values based on a condition. | HLSL 2021 |

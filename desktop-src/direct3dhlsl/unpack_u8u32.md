@@ -3,7 +3,7 @@ description: Unpacks an unsigned 8-bit value into an unsigned 32-bit value.
 nms.assetid:
 title: unpack_u8u32
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Unpacks an unsigned 8-bit value into an unsigned 32-bit value.
 
+
 ## Syntax
 
 
@@ -25,11 +26,13 @@ Unpacks an unsigned 8-bit value into an unsigned 32-bit value.
 uint<4> unpack_u8u32(p32u8 pk);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
 | *pk* | [in] The parameter pk is an input to the 'unpack_u8u32' function. It is a uint input value, packed with 4 8-bit values which need to be unpacked.  |
+
 ## Return value
 
  This HLSL intrinsic function 'unpack_u8u32' returns a vector of 4 unsigned integers. Each component in the vector corresponds to an 8-bit value unpacked from the input uint parameter 'pk'. The returned values range from 0 to 255.
@@ -37,8 +40,8 @@ uint<4> unpack_u8u32(p32u8 pk);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
-| *pk*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint8_t4_packed**](../WinProg/windows-data-types) | 1 |
+| *ret* | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
+| *pk* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint8_t4_packed**](../WinProg/windows-data-types) | 1 |
 
 ## Minimum Shader Model
 
@@ -53,6 +56,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 unpack_u8u32 unpacks an unsigned 8-bit value into an unsigned 32-bit value, useful for data conversion in shaders.
+
 ## See also
 
 

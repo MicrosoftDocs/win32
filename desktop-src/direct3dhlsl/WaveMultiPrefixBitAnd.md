@@ -3,7 +3,7 @@ description: Performs a multi-wave prefix AND operation across all lanes in the 
 nms.assetid:
 title: WaveMultiPrefixBitAnd
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Performs a multi-wave prefix AND operation across all lanes in the wave and returns the result.
 
+
 ## Syntax
 
 
@@ -25,11 +26,14 @@ Performs a multi-wave prefix AND operation across all lanes in the wave and retu
 any_int<> WaveMultiPrefixBitAnd(any_int<> value, uint<4> mask);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
-| *value* | [in] A template type parameter representing the input value. It can be a scalar, vector, or matrix.  || *mask* | [in] A template type parameter used to determine which active lanes to perform the operation on. Also can be a scalar, vector, or matrix.  |
+| *value* | [in] A template type parameter representing the input value. It can be a scalar, vector, or matrix.  |
+| *mask* | [in] A template type parameter used to determine which active lanes to perform the operation on. Also can be a scalar, vector, or matrix.  |
+
 ## Return value
 
  The return type is a scalar, vector, or matrix of the type 'int' or 'uint'. This operation returns the result of a bitwise AND operation performed across all active lanes specified by the mask parameter.
@@ -37,9 +41,9 @@ any_int<> WaveMultiPrefixBitAnd(any_int<> value, uint<4> mask);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**int**](../WinProg/windows-data-types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int64_t**](../WinProg/windows-data-types), [**uint**](../WinProg/windows-data-types), [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint64_t**](../WinProg/windows-data-types) | any |
-| *value*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**int**](../WinProg/windows-data-types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int64_t**](../WinProg/windows-data-types), [**uint**](../WinProg/windows-data-types), [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint64_t**](../WinProg/windows-data-types) | any |
-| *mask*   | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
+| *ret* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**int**](../WinProg/windows-data-types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int64_t**](../WinProg/windows-data-types), [**uint**](../WinProg/windows-data-types), [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint64_t**](../WinProg/windows-data-types) | any |
+| *value* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**int**](../WinProg/windows-data-types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int64_t**](../WinProg/windows-data-types), [**uint**](../WinProg/windows-data-types), [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint64_t**](../WinProg/windows-data-types) | any |
+| *mask* | [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md) | [**uint**](../WinProg/windows-data-types) | 4 |
 
 ## Minimum Shader Model
 
@@ -70,6 +74,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 WaveMultiPrefixBitAnd computes the bitwise AND across wavefront threads, useful for parallel bit masking operations.
+
 ## See also
 
 

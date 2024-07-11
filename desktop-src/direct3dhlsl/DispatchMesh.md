@@ -3,7 +3,7 @@ description: Is used to dispatch mesh shader threads for processing mesh primiti
 nms.assetid:
 title: DispatchMesh
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Is used to dispatch mesh shader threads for processing mesh primitives.
 
+
 ## Syntax
 
 
@@ -25,11 +26,16 @@ Is used to dispatch mesh shader threads for processing mesh primitives.
 void DispatchMesh(uint threadGroupCountX, uint threadGroupCountY, uint threadGroupCountZ, udt meshPayload);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
-| *threadGroupCountX* | [in] Specifies the number of thread groups dispatched in the x dimension.  || *threadGroupCountY* | [in] Specifies the number of thread groups dispatched in the y dimension.  || *threadGroupCountZ* | [in] Specifies the number of thread groups dispatched in the z dimension.  || *meshPayload* | [in] A structure that includes shader data for the dispatched mesh shader.  |
+| *threadGroupCountX* | [in] Specifies the number of thread groups dispatched in the x dimension.  |
+| *threadGroupCountY* | [in] Specifies the number of thread groups dispatched in the y dimension.  |
+| *threadGroupCountZ* | [in] Specifies the number of thread groups dispatched in the z dimension.  |
+| *meshPayload* | [in] A structure that includes shader data for the dispatched mesh shader.  |
+
 ## Return value
 
  This function does not return a value.
@@ -37,11 +43,11 @@ void DispatchMesh(uint threadGroupCountX, uint threadGroupCountY, uint threadGro
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | **void** | **void** | 0 |
-| *threadGroupCountX*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
-| *threadGroupCountY*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
-| *threadGroupCountZ*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
-| *meshPayload*   | [**RayPayload**](../direct3d12/ray-payload.md) [**Struct**](../direct3dhlsl/dx-graphics-hlsl-struct.md) | **RayPayload** | 1 |
+| *ret* | **void** | **void** | 0 |
+| *threadGroupCountX* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *threadGroupCountY* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *threadGroupCountZ* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
+| *meshPayload* | [**RayPayload**](../direct3d12/ray-payload.md) [**Struct**](../direct3dhlsl/dx-graphics-hlsl-struct.md) | **RayPayload** | 1 |
 
 ## Minimum Shader Model
 
@@ -57,6 +63,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 DispatchMesh dispatches thread groups for mesh shaders, allowing flexible thread group generation based on runtime conditions.
+
 ## See also
 
 

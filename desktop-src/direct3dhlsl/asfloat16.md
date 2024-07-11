@@ -3,7 +3,7 @@ description: Converts integer bit patterns to half-precision floating-point valu
 nms.assetid:
 title: asfloat16
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,6 +18,7 @@ api_type:
 
 Converts integer bit patterns to half-precision floating-point values.
 
+
 ## Syntax
 
 
@@ -25,11 +26,13 @@ Converts integer bit patterns to half-precision floating-point values.
 float16_t<> asfloat16(numeric16_only<> x);
 ```
 
+
 ## Parameters
 
 | Item | Description |
 |------|-------------|
 | *x* | [in] The input vector or scalar to be converted to a float16 type.  |
+
 ## Return value
 
  Returns a scalar, elementwise vector, or elementwise matrix with its value(s) converted to a float16 type.
@@ -37,8 +40,8 @@ float16_t<> asfloat16(numeric16_only<> x);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**half**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types) | any |
-| *x*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**half**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types) | any |
+| *ret* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**half**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types) | any |
+| *x* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md), [**vector**](../direct3dhlsl/dx-graphics-hlsl-vector.md), or [**matrix**](../direct3dhlsl/dx-graphics-hlsl-matrix.md) | [**half**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), [**int16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types), or [**uint16_t**](https://github.com/microsoft/DirectXShaderCompiler/wiki/16-Bit-Scalar-Types) | any |
 
 ## Minimum Shader Model
 
@@ -52,6 +55,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 asfloat16 converts 16-bit integer values to half-precision floating point values, optimizing storage and arithmetic in shaders.
+
 ## See also
 
 

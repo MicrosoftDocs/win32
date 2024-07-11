@@ -3,7 +3,7 @@ description: Returns true on helper lanes in pixel shaders.
 nms.assetid:
 title: IsHelperLane
 ms.topic: reference
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 topic_type:
 - APIRef
 - kbSyntax
@@ -18,12 +18,14 @@ api_type:
 
 Returns true on helper lanes in pixel shaders.
 
+
 ## Syntax
 
 
 ```syntax
 bool IsHelperLane();
 ```
+
 
 ## Parameters
 
@@ -37,7 +39,7 @@ This function has no parameters.
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | **bool** | 1 |
+| *ret* | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | **bool** | 1 |
 
 ## Minimum Shader Model
 
@@ -52,6 +54,7 @@ This function is supported in the following shader models.
 ## Remarks
 
 IsHelperLane identifies whether the current thread is executing as a helper lane, useful for adaptive shading techniques.
+
 ## See also
 
 
