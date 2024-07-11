@@ -52,7 +52,7 @@ In our enclave Sample, we create a simple enclave which XORs the input with `0xD
 
 1. Start by including `winenclave.h`. In the sample code, refer to `Samples/VbsEnclave/Test enclave/precomp.h`:
 
-    ```cpp
+    ```c
     #include <winenclave.h>
     ```
 
@@ -60,7 +60,7 @@ In our enclave Sample, we create a simple enclave which XORs the input with `0xD
 
 1. Every DLL loaded in an enclave requires a configuration. This configuration is defined using a global `const` variable named `__enclave_config` of type [IMAGE_ENCLAVE_CONFIG](/windows/win32/api/winnt/ns-winnt-image_enclave_config64). In the sample code, refer to `Samples/VbsEnclave/Test enclave/enclave.c`:
 
-    ```cpp
+    ```c
     const IMAGE_ENCLAVE_CONFIG __enclave_config = {
         sizeof(IMAGE_ENCLAVE_CONFIG),
         IMAGE_ENCLAVE_MINIMUM_CONFIG_SIZE,
@@ -83,7 +83,7 @@ In our enclave Sample, we create a simple enclave which XORs the input with `0xD
 
 1. The `DllMain()` function is mandatory and defines the entry point into the enclave. It's called during `InitializeEnclave()`. In the sample code, refer to `Samples/VbsEnclave/Test enclave/enclave.c`.
 
-    ```cpp
+    ```c
     BOOL
     DllMain(
         _In_ HINSTANCE hinstDLL,
@@ -104,13 +104,13 @@ In our enclave Sample, we create a simple enclave which XORs the input with `0xD
 
 1. Any functions inside the enclave that are called from the host application must be exported and be of type **LPENCLAVE_ROUTINE**. The function signature looks like this:
 
-    ```cpp
+    ```c
     void* CALLBACK enclaveFunctionName(_In_ void* Context)
     ```
 
     In the sample code, refer to `Samples/VbsEnclave/Test enclave/enclave.c`.
 
-    ```cpp
+    ```c
     void*
     CALLBACK
     CallEnclaveTest(
