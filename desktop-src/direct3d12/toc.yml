@@ -323,7 +323,7 @@
           - name: "GetCopyableFootprints"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getcopyablefootprints
           - name: "GetCustomHeapProperties"
-            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type)(uint_d3d12_heap_type)
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties(uint_d3d12_heap_type)
           - name: "GetDescriptorHandleIncrementSize"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize
           - name: "GetDeviceRemovedReason"
