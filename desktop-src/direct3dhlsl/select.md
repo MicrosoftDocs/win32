@@ -53,8 +53,13 @@ This function is supported in the following shader models.
 
 ## Remarks
 
-select chooses between two values based on a condition, providing conditional assignment in shader computations.
+In HLSL 2021 `int3 Z = select(X, 1, 0);` is a replacement for
+```hlsl
+int3 X = {1, 1, 1};
+int3 Z = X ? 1 : 0;
+```
 ## See also
 
 
 - [**Intrinsic Functions (DirectX HLSL)**](../direct3dhlsl/dx-graphics-hlsl-intrinsic-functions.md)
+- ** See [HLSL 2021 Logical operation short-circuiting for scalars](https://github.com/microsoft/DirectXShaderCompiler/wiki/HLSL-2021#logical-operation-short-circuiting-for-scalars)**

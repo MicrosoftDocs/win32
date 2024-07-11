@@ -37,7 +37,7 @@ resource CreateResourceFromHeap(uint index);
 
 | Name  | [**Template Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md)| [**Component Type**](../direct3dhlsl/dx-graphics-hlsl-data-types.md) | Size |
 |-------|--------------------------------------------------------------------|----------------------------------------------------------------------|------|
-| *ret*   | [**Resource Types](../direct3d12/resource-binding-in-hlsl.md) | **resource** | 1 |
+| *ret*   | [**Resource Types**](../direct3d12/resource-binding-in-hlsl.md) | **resource** | 1 |
 | *index*   | [**scalar**](../direct3dhlsl/dx-graphics-hlsl-scalar.md) | [**uint**](../WinProg/windows-data-types) | 1 |
 
 ## Minimum Shader Model

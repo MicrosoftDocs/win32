@@ -46,7 +46,7 @@ numeric<> GetAttributeAtVertex(numeric<> value, uint VertexID);
 This function is supported in the following shader models.
 |Shader Model |	Supported|
 |-------------|----------|
-|Shader Model 6.1 and higher shader models | yes |
+|[Shader Model 6.1](https://github.com/microsoft/DirectXShaderCompiler/wiki/Shader-Model-6.1) and higher shader models | yes |
 
 ## Shader Stages
 
