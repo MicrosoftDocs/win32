@@ -16,80 +16,47 @@ ms.date: 05/31/2018
 
 # Vector Type
 
-A vector contains between one and four scalar components; every component of a vector must be of the same type.
+A vector is a data type that contains between one and four [scalar](dx-graphics-hlsl-scalar.md) components. Every component of a vector must be of the same type.
 
+## Type Declaration
 
+You can declare vector variables by using the [scalar type](dx-graphics-hlsl-scalar.md) name of the vector's contents with the number of components it contains:
 
-|                     |
-|---------------------|
-| **TypeNumber Name** |
-
-
-
- 
-
-
-```
+```syntax
 TypeComponents Name
 ```
 
+Where `Type` is the [scalar type](dx-graphics-hlsl-scalar.md) of each of the components, `Components` is an integer between 1 and 4 inclusive indicating the number of components and `Name` is an ASCII string that uniquely identifies the variable name.
 
+Examples:
 
-## Components
-
-
-
-| Item                                                                                                                             | Description                                                                                                                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="TypeComponents"></span><span id="typecomponents"></span><span id="TYPECOMPONENTS"></span>**TypeComponents**<br/> | A single name that contains two parts. The first part is one of the [scalar](dx-graphics-hlsl-data-types.md) types. The second part is the number of components, which must be between 1 and 4 inclusive.<br/> |
-| <span id="Name"></span><span id="name"></span><span id="NAME"></span>**Name**<br/>                                         | An ASCII string that uniquely identifies the variable name.<br/>                                                                                                                                                |
-
-
-
- 
-
-## Examples
-
-Here are some examples:
-
-
-```
+```hlsl
 bool    bVector;   // scalar containing 1 Boolean
 int1    iVector = 1;
 float3  fVector = { 0.2f, 0.3f, 0.4f };
 ```
 
+## Template-style Declaration
 
+An alternate declaration syntax uses the `vector` keyword and template arguments to indicate scalar type and number of components:
 
-A vector can be declared using this syntax also:
-
-
+```syntax
+vector <Type=float, Components=4> Name
 ```
-vector <Type, Number> VariableName
-```
 
+Where again `Type` is the scalar type of each of the components, `Components` is an integer between 1 and 4 inclusive indicating the number of components, but they are specified within template-style angle brackets. `Name` is an ASCII string that uniquely identifies the variable name,
 
+Note that the template parameter defaults allow specifying 4-component vectors of a given type by leaving off the last parameter or 4-component float vectors by leaving off both.
 
 Here are some examples:
 
-
-```
+```hlsl
 vector <int,    1> iVector = 1;
-vector <double, 4> dVector = { 0.2, 0.3, 0.4, 0.5 };
+vector <double, 4> dVector = { 0.2f, 0.3f, 0.4f, 0.5f };
+vector <float16_t> hVector = { 0.1f, 0.2f, 0.3f, 0.4f };     // Defaults to 4-component float16 vector
+vector             fVector = { -0.4f, -0.3f, -0.2f, -0.1f }; // Defaults to 4-component float vector
 ```
 
 ## See also
 
-<dl> <dt>
-
 [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
