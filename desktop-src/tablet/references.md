@@ -3,7 +3,7 @@ description: Overview of references for the Microsoft Speech software developmen
 ms.assetid: 9bb10c52-5340-40dc-bb14-20d076c63528
 title: References (Tablet PC)
 ms.topic: article
-ms.date: 11/06/2023
+ms.date: 07/09/2024
 ---
 
 # References (Tablet PC)
