@@ -31,9 +31,9 @@ Where `Type` is the [scalar type](dx-graphics-hlsl-scalar.md) of each of the com
 Examples:
 
 ```hlsl
-bool    bVector;   // scalar containing 1 Boolean
-int1    iVector = 1;
-float3  fVector = { 0.2f, 0.3f, 0.4f };
+int     iScalar;     // integer scalar
+int1    iVector = 1; // vector containing one integer
+float3  fVector = { 0.2f, 0.3f, 0.4f }; // vector containing three floats
 ```
 
 ## Template-style Declaration
