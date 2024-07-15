@@ -4,13 +4,13 @@ description: Learn how to use the WMI command-line (WMIC) utility as a command-l
 ms.assetid: a0f5c1e2-9a4d-4c2b-b324-58ec01e67b6e
 ms.tgt_platform: multiple
 ms.topic: article
-ms.date: 02/06/2023
+ms.date: 07/15/2024
 ---
 
 # WMIC: WMI command-line utility
 
 > [!IMPORTANT]
-> WMIC is deprecated as of Windows 10, version 21H1, and as of the 21H1 [semi-annual channel release of Windows Server](/windows-server/get-started/servicing-channels-comparison). This utility is superseded by Windows PowerShell for WMI; see [Chapter 7 - Working with WMI](/powershell/scripting/learn/ps101/07-working-with-wmi). This deprecation applies only to the WMIC utility. Windows Management Instrumentation (WMI) itself is not affected. Also see [Windows 10 features we're no longer developing](/windows/deployment/planning/windows-10-deprecated-features).
+> WMIC is deprecated as of Windows 10, version 21H1; and as of the 21H1 [semi-annual channel release of Windows Server](/windows-server/get-started/servicing-channels-comparison). This utility is superseded by Windows PowerShell for WMI; see [Chapter 7 - Working with WMI](/powershell/scripting/learn/ps101/07-working-with-wmi). This deprecation applies only to the WMIC utility. Windows Management Instrumentation (WMI) itself is not affected. Also see [Windows 10 features we're no longer developing](/windows/deployment/planning/windows-10-deprecated-features).
 
 The WMI command-line (WMIC) utility provides a command-line interface for Windows Management Instrumentation (WMI). WMIC is compatible with existing shells and utility commands. The following information is a general reference guide for WMIC. For more information and guidelines on how to use WMIC, including additional information on aliases, verbs, switches, and commands, see [Using Windows Management Instrumentation command-line](/previous-versions/windows/it-pro/windows-server-2003/cc779482(v=ws.10)) and [WMIC - Take command-line control over WMI](/previous-versions/windows/it-pro/windows-2000-server/bb742610(v=technet.10)).
 
@@ -24,7 +24,7 @@ A switch is a WMIC option that you can set globally or optionally. For a list of
 
 ## Verbs
 
-To use verbs in WMIC, enter the alias name followed by the verb. If an alias doesn't support a verb, you receive the message "provider is not capable of the attempted operation." For more information, see [WMIC verbs](/previous-versions/windows/it-pro/windows-server-2003/cc784966(v=ws.10)).
+To use verbs in WMIC, enter the alias name followed by the verb. If an alias doesn't support a verb, you receive the message "provider is not capable of the attempted operation." For more info, see [WMIC verbs](/previous-versions/windows/it-pro/windows-server-2003/cc784966(v=ws.10)).
 
 Most aliases support the following verbs:
 
@@ -34,10 +34,10 @@ Returns the result of the `Associators of (<wmi_object>)` query where *<wmi\_obj
 
 The `ASSOC` verb has the following switches:
 
-| Switch                         | Description               |
-|--------------------------------|---------------------------|
-| `/RESULTCLASS:<classname>` | Returned endpoints associated with the source object must belong to, or be derived from, the specified class.  |
-| `/RESULTROLE:<rolename>`   | Returned endpoints must play a specific role in associations with the source object.   |
+| Switch | Description |
+|-|-|
+| `/RESULTCLASS:<classname>` | Returned endpoints associated with the source object must belong to, or be derived from, the specified class. |
+| `/RESULTROLE:<rolename>` | Returned endpoints must play a specific role in associations with the source object. |
 | `/ASSOCCLASS:<assocclass>` | Returned endpoints must be associated with the source through the specified class, or one of its derived classes. |
 
 Example: `os assoc`
@@ -48,7 +48,7 @@ Executes a method.
 
 Example: `service where caption="telnet" call startservice`
 
-> [!NOTE]  
+> [!NOTE] 
 > To determine the methods available for a given class, use `/?`. For example, `service where caption="telnet" call /?` lists the available functions for the service class.
 
 ### CREATE
@@ -69,13 +69,13 @@ Retrieves specific property values.
 
 `GET` has the following switches:
 
-| Switch                               | Description                                        |
-|--------------------------------------|----------------------------------------------------|
-| `/VALUE`                               | Output is formatted with each value listed on a separate line and with the name of the property.   |
-| `/ALL`                                 | Output is formatted as a table.                    |
+| Switch | Description |
+|-|-|
+| `/VALUE` | Output is formatted with each value listed on a separate line and with the name of the property. |
+| `/ALL` | Output is formatted as a table. |
 | `/TRANSLATE:<translation table>` | Translates the output using the translation table named by the command. The translation tables *BasicXml* and *NoComma* are included with WMIC. |
-| `/EVERY:<interval>`              | Repeats the command every *&lt;interval&gt;* seconds.            |
-| `/FORMAT:<format specifier>`     | Specifies a key word or XSL file name to format the data.     |
+| `/EVERY:<interval>` | Repeats the command every *&lt;interval&gt;* seconds. |
+| `/FORMAT:<format specifier>` | Specifies a key word or XSL file name to format the data. |
 
 Example: `process get name`
 
@@ -85,21 +85,21 @@ Shows data. `LIST` is the default verb.
 
 `LIST` has the following adverbs:
 
-| Adverb   | Description                                                  |
-|----------|--------------------------------------------------------------|
-| `BRIEF `   | Core set of the properties                                  |
-| `FULL`     | Full set of properties. This is the default adverb for `LIST` |
-| `INSTANCE` | Instance paths only                                         |
-| `STATUS`   | Status of the objects                                       |
-| `SYSTEM`   | System properties                                           |
+| Adverb | Description |
+|-|-|
+| `BRIEF ` | Core set of the properties |
+| `FULL` | Full set of properties. This is the default adverb for `LIST` |
+| `INSTANCE` | Instance paths only |
+| `STATUS` | Status of the objects |
+| `SYSTEM` | System properties |
 
 `LIST` has the following switches:
 
-| Switch                               | Description                      |
-|--------------------------------------|----------------------------------|
+| Switch | Description |
+|-|-|
 | `/TRANSLATE:<translation table>` | Translate the output using the translation table named by the command. The translation tables *BasicXml* and *NoComma* are included with WMIC. |
-| `/EVERY:<interval>`           | Repeat the command every *&lt;interval&gt;* seconds.      |
-| `/FORMAT:<format specifier>`    | Specifies a key word or XSL file name to format the data.         |
+| `/EVERY:<interval>` | Repeat the command every *&lt;interval&gt;* seconds. |
+| `/FORMAT:<format specifier>` | Specifies a key word or XSL file name to format the data. |
 
 Example: `process list brief`
 
@@ -244,7 +244,6 @@ Example: `wmic exit`
 ## Requirements
 
 | Requirement | Value |
-|-------------------------------------|--------------------------------|
-| Minimum supported client<br> | Windows Vista<br>       |
-| Minimum supported server<br> | Windows Server 2008<br> |
-
+|-|-|
+| Minimum supported client | Windows Vista |
+| Minimum supported server | Windows Server 2008 |

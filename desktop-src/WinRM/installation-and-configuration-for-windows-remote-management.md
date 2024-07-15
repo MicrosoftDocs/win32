@@ -1,7 +1,7 @@
 ---
 title: Installation and configuration for Windows Remote Management
 description: Learn how to install and configure Windows Remote Management in order to run Windows Remote Management scripts and for the Winrm tool to perform data operations.
-ms.date: 02/08/2023
+ms.date: 07/15/2024
 ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
 ms.topic: conceptual
 ---
@@ -10,11 +10,10 @@ ms.topic: conceptual
 
 For Windows Remote Management (WinRM) scripts to run, and for the *Winrm* command-line tool to perform data operations, WinRM has to be both installed and configured.
 
-These elements also depend on WinRM configuration.
-
+The following elements also depend on WinRM configuration:
 - The [Windows Remote Shell](./windows-remote-management-glossary.md#w) command-line tool, *Winrs*.
 - [Event forwarding](./windows-remote-management-glossary.md#e).
-- Windows PowerShell 2.0 remoting.
+- [Windows PowerShell 2.0 remoting](/powershell/scripting/security/remoting/powershell-remoting-faq).
 
 ## The install location of WinRM
 
@@ -22,19 +21,18 @@ WinRM is automatically installed with all currently-supported versions of the Wi
 
 ## Configuration of WinRM and IPMI
 
-These WinRM and [Intelligent Platform Management Interface (IPMI)](./windows-remote-management-glossary.md#i) [WMI provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) components are installed with the operating system.
-
-- The WinRM service starts automatically on Windows Server 2008 and later. On earlier versions of Windows (client or server), you need to start the service manually.
+The following WinRM and [Intelligent Platform Management Interface (IPMI)](./windows-remote-management-glossary.md#i) [WMI provider](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) components are installed with the operating system:
+- The WinRM service starts automatically on Windows Server 2008, and later. On earlier versions of Windows (client or server), you need to start the service manually.
 - By default, no WinRM [listener](./windows-remote-management-glossary.md#l) is configured. Even if the WinRM service is running, WS-Management protocol [messages](./windows-remote-management-glossary.md#m) that request data can't be received or sent.
 - Internet Connection Firewall (ICF) blocks access to ports.
 
-Use the `winrm` command to locate listeners and the addresses by typing the following command at a command prompt.
+Use the `winrm` command to locate listeners and the addresses by typing the following command at a command prompt:
 
 ```console
 winrm enumerate winrm/config/listener
 ```
 
-To check the state of configuration settings, type the following command.
+To check the state of configuration settings, type the following command:
 
 ```console
 winrm get winrm/config
@@ -44,16 +42,15 @@ winrm get winrm/config
 
 Enable the WS-Management protocol on the local computer, and set up the default configuration for remote management with the command `winrm quickconfig`.
 
-The `winrm quickconfig` command (which can be abbreviated to `winrm qc`) performs these operations:
-
+The `winrm quickconfig` command (which can be abbreviated to `winrm qc`) performs the following operations:
 - Starts the WinRM service, and sets the service startup type to *auto-start*.
 - Configures a listener for the ports that send and receive WS-Management protocol [messages](./windows-remote-management-glossary.md#m) using either HTTP or HTTPS on any IP address.
 - Defines ICF exceptions for the WinRM service, and opens the ports for HTTP and HTTPS.
 
 > [!NOTE]
-> The `winrm quickconfig` command creates a firewall exception only for the current user profile. If the firewall profile is changed for any reason, then run `winrm quickconfig` to enable the firewall exception for the new profile (otherwise the exception might not be enabled).
+> The command `winrm quickconfig` creates a firewall exception only for the current user profile. If the firewall profile is changed for any reason, then to enable the firewall exception for the new profile, run `winrm quickconfig` (otherwise the exception might not be enabled).
 
-To retrieve information about customizing a configuration, type the following command at a command prompt.
+To retrieve information about customizing a configuration, type the following command at a command prompt:
 
 ```console
 winrm help config
@@ -67,11 +64,11 @@ winrm help config
    winrm quickconfig
    ```
 
-   If you're not running as the local computer Administrator, either select **Run as Administrator** from the **Start** menu, or use the `Runas` command at a command prompt.
+   If you're not running as the local computer Administrator, then either select **Run as Administrator** from the **Start** menu, or use the `Runas` command at a command prompt.
 
 2. When the tool displays **Make these changes \[y/n\]?**, type **y**.
 
-   If configuration is successful, the following output is displayed.
+   If configuration is successful, then the following output is displayed.
 
    ```output
    WinRM has been updated for remote management.
@@ -116,7 +113,7 @@ Specifies the TCP port for which this listener is created.
 
 ### Hostname
 
-Specifies the host name of the computer on which the WinRM service is running. The value must be: a fully-qualified domain name; an IPv4 or IPv6 literal string; or a wildcard character.
+Specifies the host name of the computer on which the WinRM service is running. The value must be either a fully-qualified domain name, or an IPv4 or IPv6 literal string, or a wildcard character.
 
 ### Enabled
 
@@ -132,7 +129,7 @@ Specifies the thumbprint of the service certificate. This value represents a str
 
 ### ListeningOn
 
-Specifies the IPv4 and IPv6 addresses that the listener uses. For example: `111.0.0.1, 111.222.333.444, ::1, 1000:2000:2c:3:c19:9ec8:a715:5e24, 3ffe:8311:ffff:f70f:0:5efe:111.222.333.444, fe80::5efe:111.222.333.444%8, fe80::c19:9ec8:a715:5e24%6`.
+Specifies the IPv4 and IPv6 addresses that the listener uses. For example, `111.0.0.1, 111.222.333.444, ::1, 1000:2000:2c:3:c19:9ec8:a715:5e24, 3ffe:8311:ffff:f70f:0:5efe:111.222.333.444, fe80::5efe:111.222.333.444%8, fe80::c19:9ec8:a715:5e24%6`.
 
 ## Protocol default settings
 
@@ -212,16 +209,16 @@ Allows the client to use Credential Security Support Provider (CredSSP) authenti
 
 Specifies the ports that the client uses for either HTTP or HTTPS.
 
-WinRM 2.0: The default HTTP port is 5985, and the default HTTPS port is 5986.
+**WinRM 2.0**: The default HTTP port is 5985, and the default HTTPS port is 5986.
 
 ### TrustedHosts
 
 Specifies the list of remote computers that are trusted. Other computers in a workgroup or computers in a different domain should be added to this list.
 
 > [!NOTE]
-> The computers in the trusted hosts list aren't authenticated. The client might send credential information to these computers.
+> The computers in the trusted hosts list aren't authenticated. The client might send credential information to those computers.
 
-If an IPv6 address is specified for a trusted host, the address must be enclosed in square brackets as demonstrated by the following `Winrm` utility command:
+If an IPv6 address is specified for a trusted host, then the address must be enclosed in square brackets as demonstrated by the following `Winrm` utility command:
 
 ```console
 winrm set winrm/config/client '@{TrustedHosts ="[0:0:0:0:0:0:0:0]"}'
@@ -255,7 +252,7 @@ Specifies the idle time-out in milliseconds between `Pull` messages. The default
 
 Specifies the maximum number of active requests that the service can process simultaneously. The default is 300.
 
-WinRM 2.0: The default is 25.
+**WinRM 2.0**: The default is 25.
 
 ### MaxPacketRetrievalTimeSeconds
 
@@ -293,7 +290,7 @@ Sets the policy for channel-binding token requirements in authentication request
 
 Specifies the ports that the WinRM service uses for either HTTP or HTTPS.
 
-WinRM 2.0: The default HTTP port is 5985. The default HTTPS port is 5986.
+**WinRM 2.0**: The default HTTP port is 5985. The default HTTPS port is 5986.
 
 ### IPv4Filter and IPv6Filter
 
@@ -322,7 +319,7 @@ Enables access to remote shells. If you set this parameter to `False`, the serve
 
 Specifies the maximum time in milliseconds that the remote shell remains open when there's no user activity in the remote shell. The remote shell is deleted after that time.
 
-WinRM 2.0: The default is 180000. The minimum value is 60000. Setting this value lower than 60000 have no effect on the time-out behavior.
+**WinRM 2.0**: The default is 180000. The minimum value is 60000. Setting this value lower than 60000 have no effect on the time-out behavior.
 
 ### MaxConcurrentUsers
 
@@ -332,7 +329,7 @@ Specifies the maximum number of users who can concurrently perform remote operat
 
 Specifies the maximum time in milliseconds that the remote command or script is allowed to run. The default is 28800000.
 
-WinRM 2.0: The `MaxShellRunTime` setting is set to read-only. Changing the value for `MaxShellRunTime` has no effect on the remote shells.
+**WinRM 2.0**: The `MaxShellRunTime` setting is set to read-only. Changing the value for `MaxShellRunTime` has no effect on the remote shells.
 
 ### MaxProcessesPerShell
 
