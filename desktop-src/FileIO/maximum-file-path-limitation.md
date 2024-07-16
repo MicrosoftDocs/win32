@@ -1,8 +1,8 @@
 ---
-description: Maximum path length limitation.
+description: Starting in Windows 10, version 1607, MAX_PATH limitations have been removed from many common Win32 file and directory functions. However, your app must opt-in to support the new behavior.
 title: Maximum Path Length Limitation
 ms.topic: article
-ms.date: 09/15/2020
+ms.date: 07/15/2024
 ---
 
 # Maximum Path Length Limitation
@@ -14,7 +14,7 @@ For example, you may hit this limitation if you are cloning a git repo that has 
 > [!NOTE]
 > File I/O functions in the Windows API convert "/" to "\\" as part of converting the name to an NT-style name, except when using the "\\\\?\\" prefix as detailed in the following sections.
 
-The Windows API has many functions that also have Unicode versions to permit an extended-length path for a maximum total path length of 32,767 characters. This type of path is composed of components separated by backslashes, each up to the value returned in the *lpMaximumComponentLength* parameter of the [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) function (this value is commonly 255 characters). To specify an extended-length path, use the "\\\\?\\" prefix. For example, "\\\\?\\D:\\*very long path*".
+The Windows API has many functions that also have Unicode versions to permit an extended-length path for a maximum total path length of 32,767 characters. This type of path is composed of components separated by backslashes, each up to the value returned in the *lpMaximumComponentLength* parameter of the [GetVolumeInformation](/windows/win32/api/FileAPI/nf-fileapi-getvolumeinformationa) function (this value is commonly 255 characters). To specify an extended-length path, use the "\\\\?\\" prefix. For example, "\\\\?\\D:\\*very long path*".
 
 > [!NOTE]
 > The maximum path of 32,767 characters is approximate, because the "\\\\?\\" prefix may be expanded to a longer string by the system at run time, and this expansion applies to the total length.
@@ -27,13 +27,18 @@ When using an API to create a directory, the specified path cannot be so long th
 
 The shell and the file system have different requirements. It is possible to create a path with the Windows API that the shell user interface is not able to interpret properly.
 
-## Enable Long Paths in Windows 10, Version 1607, and Later
+## Enable long paths in Windows 10, version 1607, and later
 
-Starting in Windows 10, version 1607, **MAX_PATH** limitations have been removed from common Win32 file and directory functions. However, you must opt-in to the new behavior.
+Starting in Windows 10, version 1607, **MAX_PATH** limitations have been removed from many common Win32 file and directory functions. However, your app must opt-in to the new behavior.
 
-To enable the new long path behavior, both of the following conditions must be met:
+To enable the new long path behavior per application, two conditions must be met. A registry value must be set, and the application manifest must include the `longPathAware` element.
 
-* The registry key `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled (Type: REG_DWORD)` must exist and be set to 1. The key's value will be cached by the system (per process) after the first call to an affected Win32 file or directory function (see below for the list of functions). The registry key will not be reloaded during the lifetime of the process. In order for all apps on the system to recognize the value of the key, a reboot might be required because some processes may have started before the key was set.
+### Registry setting to enable long paths
+
+> [!IMPORTANT]
+> Understand that enabling this registry setting will only affect applications that have been modified to take advantage of the new feature. Developers must declare their apps to be long path aware, as outlined in the application manifest settings [below](#application-manifest-updates-to-declare-long-path-capability). This isn't a change that will affect all applications.
+
+The registry value `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem LongPathsEnabled (Type: REG_DWORD)` must exist and be set to `1`. The registry value will be cached by the system (per process) after the first call to an affected Win32 file or directory function (see below for the list of functions). The registry value will not be reloaded during the lifetime of the process. In order for all apps on the system to recognize the value, a reboot might be required because some processes may have started before the key was set.
 
 You can also copy this code to a `.reg` file which can set this for you, or use the PowerShell command from a terminal window with elevated privileges:
 
@@ -44,7 +49,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
 "LongPathsEnabled"=dword:00000001
-
 ```
 
 ### [PowerShell](#tab/powershell)
@@ -52,24 +56,35 @@ Windows Registry Editor Version 5.00
 ```powershell
 New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
 -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
-
 ```
 
 ---
 
 > [!NOTE]  
-> This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
+> This registry setting can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
 
-* The [application manifest](../sbscs/application-manifests.md) must also include the `longPathAware` element.
+### Application manifest updates to declare long path capability
 
-    ```XML
-    <application xmlns="urn:schemas-microsoft-com:asm.v3">
-        <windowsSettings xmlns:ws2="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
-            <ws2:longPathAware>true</ws2:longPathAware>
-        </windowsSettings>
-    </application>
-    ```
+The [application manifest](../sbscs/application-manifests.md) must also include the `longPathAware` element.
+
+```XML
+<application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings xmlns:ws2="http://schemas.microsoft.com/SMI/2016/WindowsSettings">
+        <ws2:longPathAware>true</ws2:longPathAware>
+    </windowsSettings>
+</application>
+```
+
+## Functions without MAX_PATH restrictions
 
 These are the directory management functions that no longer have **MAX_PATH** restrictions if you opt-in to long path behavior: CreateDirectoryW, CreateDirectoryExW GetCurrentDirectoryW RemoveDirectoryW SetCurrentDirectoryW.
 
 These are the file management functions that no longer have **MAX_PATH** restrictions if you opt-in to long path behavior: CopyFileW, CopyFile2, CopyFileExW, CreateFileW, CreateFile2, CreateHardLinkW, CreateSymbolicLinkW, DeleteFileW, FindFirstFileW, FindFirstFileExW, FindNextFileW, GetFileAttributesW, GetFileAttributesExW, SetFileAttributesW, GetFullPathNameW, GetLongPathNameW, MoveFileW, MoveFileExW, MoveFileWithProgressW, ReplaceFileW, SearchPathW, FindFirstFileNameW, FindNextFileNameW, FindFirstStreamW, FindNextStreamW, GetCompressedFileSizeW, GetFinalPathNameByHandleW.
+
+## See also
+
+[File Management Functions](file-management-functions.md)
+
+[Directory Management Functions](directory-management-functions.md)
+
+[GetVolumeInformation](/windows/win32/api/FileAPI/nf-fileapi-getvolumeinformationa)
