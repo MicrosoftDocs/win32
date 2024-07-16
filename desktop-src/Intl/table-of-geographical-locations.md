@@ -225,7 +225,7 @@ This topic lists the available geographical locations with identifiers (data typ
 | 0x105                                  | 261                                        | Yemen                                        | Republic of Yemen                                     |
 | 0x107                                  | 263                                        | Zambia                                       | Republic of Zambia                                    |
 | 0x108                                  | 264                                        | Zimbabwe                                     | Republic of Zimbabwe                                  |
-| 0x10d                                  | 269                                        | Serbia              | Serbia                        |
+| 0x10d                                  | 269                                        | Serbia and Montenegro (Former)             | Serbia                        |
 | 0x10e                                  | 270                                        | Montenegro                                   | Montenegro                                            |
 | 0x10f                                  | 271                                        | Serbia                                       | Serbia                                                |
 | 0x111                                  | 273                                        | Curaçao                                      |                                                       |
