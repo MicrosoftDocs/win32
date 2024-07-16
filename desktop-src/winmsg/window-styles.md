@@ -1,9 +1,9 @@
 ---
-description: The following are the window styles. After the window has been created, these styles cannot be modified, except as noted.
+description: This topic provides a list of the various styles that can be applied to a window.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstyles.htm'
 title: Window Styles (Winuser.h)
 ms.topic: article
-ms.date: 10/26/2021
+ms.date: 07/15/2024
 ---
 
 # Window Styles
