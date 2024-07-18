@@ -3,7 +3,7 @@ title: Windows SDK components for Windows Installer developers
 description: The components of the Microsoft Windows Installer (SDK) are included in the Windows SDK.
 ms.assetid: d2947c01-8a2b-42b1-b94e-06a100f70f4f
 ms.topic: article
-ms.date: 02/03/2023
+ms.date: 07/18/2024
 ---
 
 # Windows SDK components for Windows Installer developers
