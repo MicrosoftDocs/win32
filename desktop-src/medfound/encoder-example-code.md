@@ -23,7 +23,7 @@ This topic shows some example code that wraps the Windows Media Audio (WMA) enco
 
 This code is referenced by several topics:
 
--   [Tutorial: Writing a WMA File by Using CBR Encoding](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)
+- [Tutorial: Writing a WMA File by Using CBR Encoding](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)
 
 In Media Foundation, encoders are implemented as [Media Foundation Transforms](media-foundation-transforms.md) (MFTs) and expose the [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) interface.
 
