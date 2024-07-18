@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The LockPermissions Table is used to secure individual portions of an application in a locked-down environment. It can be used with the installation of files, registry keys, and created folders.
 
-A package intended for installation in Windows Server 2008 R2 or Windows 7 should use the [MsiLockPermissionsEx Table](msilockpermissionsex-table.md) rather than the LockPermissions Table. Windows Installer versions earlier than Windows Installer 5.0 ignore the MsiLockPermissionsEx Table. Windows Installer 5.0 can install an package that contains the LockPermissions Table. Beginning with Windows Installer 5.0, installation of a package that contains both the MsiLockPermissionsEx Table and the LockPermissions Table fails and returns Windows Installer error message 1941.
+A package intended for installation in Windows Server 2008 R2 or Windows 7 should use the [MsiLockPermissionsEx Table](msilockpermissionsex-table.md) rather than the LockPermissions Table. Windows Installer versions earlier than Windows Installer 5.0 ignore the MsiLockPermissionsEx Table. Windows Installer 5.0 can install a package that contains the LockPermissions Table. Beginning with Windows Installer 5.0, installation of a package that contains both the MsiLockPermissionsEx Table and the LockPermissions Table fails and returns Windows Installer error message 1941.
 
 The LockPermissions Table has the following columns.
 

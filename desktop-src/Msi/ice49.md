@@ -12,7 +12,7 @@ ICE49 checks for default registry entries that are not a **REG\_SZ** type.
 
 ## Result
 
-ICE49 posts an warning if there is a default registry entry that is not a **REG\_SZ** type.
+ICE49 posts a warning if there is a default registry entry that is not a **REG\_SZ** type.
 
 ## Example
 

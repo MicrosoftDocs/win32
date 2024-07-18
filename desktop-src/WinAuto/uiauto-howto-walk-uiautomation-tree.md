@@ -71,7 +71,7 @@ cleanup:
 
 ## Walking through Ancestor Elements
 
-The following code example is a function that walks through the ancestors of a element to identify the parent element. This is useful when you need to identify the parent window of a control. The function returns **NULL** for top-level elements; that is, elements whose parent is the desktop.
+The following code example is a function that walks through the ancestors of an element to identify the parent element. This is useful when you need to identify the parent window of a control. The function returns **NULL** for top-level elements; that is, elements whose parent is the desktop.
 
 
 ```C++
