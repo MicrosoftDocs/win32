@@ -3,7 +3,7 @@ description: Orca.exe is a database table editor for creating and editing Window
 ms.assetid: 4dddc262-1271-4e00-a986-53380b957b17
 title: Orca.exe
 ms.topic: article
-ms.date: 09/10/2021
+ms.date: 07/18/2024
 ---
 
 # Orca.exe
@@ -61,13 +61,11 @@ If Orca displays the error message “The validation engine could not start” a
 
 ## Related topics
 
-<dl> <dt>
-
 [Windows Installer Development Tools](windows-installer-development-tools.md)
-</dt> <dt>
+
 
 [Released Versions, Tools, and Redistributables](released-versions-tools-and-redistributables.md)
-</dt> </dl>
+
 
  
 

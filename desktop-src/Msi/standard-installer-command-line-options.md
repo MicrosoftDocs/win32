@@ -3,7 +3,7 @@ description: See standard command-line options for the Microsoft Standard Instal
 ms.assetid: b1707c88-1cca-45ab-bb23-6002bfd5204e
 title: Microsoft Standard Installer command-line options
 ms.topic: article
-ms.date: 02/02/2023
+ms.date: 07/18/2024
 ---
 
 # Microsoft Standard Installer command-line options

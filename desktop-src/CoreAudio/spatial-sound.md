@@ -3,7 +3,7 @@ description: Developer guidance for Microsoft Spatial Sound, Microsoft’s platf
 ms.assetid: 4F962F1A-CA4A-4018-BA97-516EA3519650
 title: Spatial Sound for app developers for Windows, Xbox, and Hololens 2
 ms.topic: article
-ms.date: 01/25/2022
+ms.date: 07/18/2024
 ---
 
 # Spatial Sound for app developers for Windows, Xbox, and Hololens 2
