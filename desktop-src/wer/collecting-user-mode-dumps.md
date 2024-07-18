@@ -3,7 +3,8 @@ title: Collecting User-Mode Dumps
 description: Starting with Windows Server 2008 and Windows Vista with Service Pack 1 (SP1), Windows Error Reporting (WER) can be configured so that full user-mode dumps are collected and stored locally after a user-mode application crashes.
 ms.assetid: 8dad892b-04df-4aeb-b6c4-82f7676d382a
 ms.topic: article
-ms.date: 05/31/2018
+ai-usage: ai-assisted
+ms.date: 07/18/2024
 ---
 
 # Collecting User-Mode Dumps
@@ -33,5 +34,16 @@ After an application crashes and prior to its termination, the system will check
 
 These dumps are configured and controlled independently of the rest of the WER infrastructure. You can make use of the local dump collection even if WER is disabled or if the user cancels WER reporting. The local dump can be different than the dump sent to Microsoft.
 
- 
+## More information
 
+### Task Manager enhancements
+
+Windows 11 includes a new feature in Task Manager that allows users to create live memory dumps for both kernel and user-mode processes. This can be done by navigating to the Processes or Details tab, right-clicking the desired process, and selecting **Create live memory dump file.** This feature simplifies the process of capturing memory dumps directly from the Task Manager interface. See [Task Manager live memory dump](/windows-hardware/drivers/debugger/task-manager-live-dump) for more information​.
+
+### ProcDump improvements
+
+The Sysinternals ProcDump utility has been enhanced to support various new options for creating dumps, such as triggering dumps on thread creation or exit, using specific performance counters, or capturing dumps of hung windows. ProcDump in Windows 11 supports all trigger types introduced in Windows 8.1 and later. For more details, see [ProcDump v11.0](/sysinternals/downloads/procdump).
+
+### Debugging enhancements
+
+Windows 11 supports advanced debugging features with tools like WinDbg and CDB, which allow for detailed analysis of both full and minidump files. These tools have been updated to better handle the nuances of user-mode dumps in Windows 11, including the ability to read dump files directly from CAB files and to analyze multiple dump files simultaneously. Learn more:​ [Analyze crash dump files by using WinDbg](/windows-hardware/drivers/debugger/crash-dump-files)​.
