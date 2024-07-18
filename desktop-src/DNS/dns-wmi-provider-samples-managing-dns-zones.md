@@ -1310,7 +1310,7 @@ Private Sub DnsPause(strServer        , _
     ' Open a text file for output if the file is requested.
     If Not IsEmpty(strOutputFile) Then
         If (NOT blnOpenFile(strOutputFile, objOutputFile)) Then
-            Call Wscript.Echo ("Camnot open an output file.")
+            Call Wscript.Echo ("Cannot open an output file.")
             Exit Sub
         End If
     End If
@@ -2507,7 +2507,7 @@ End Sub
 '*
 '* Purpose: Returns the input or a "<NULL>" string.
 '*
-'* Input:   strProperty     the property to be evaualted
+'* Input:   strProperty     the property to be evaluated
 '*
 '* Output:  The input or a "<NULL"> string.
 '*

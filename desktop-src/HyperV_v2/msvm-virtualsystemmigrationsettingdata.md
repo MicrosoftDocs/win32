@@ -109,7 +109,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-Do not remove any VHDs during the migration, i.e. VHDs on the source in successand VHDs on the destination in failure.
+Do not remove any VHDs during the migration, i.e. VHDs on the source in success and VHDs on the destination in failure.
 
 > [!Note]  
 > Added in Windows 10, version 1703 and Windows Server 2016.

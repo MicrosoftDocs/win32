@@ -279,7 +279,7 @@ $$RC_END_HIGHLIGHT
             }
             else if (requestMessageDescription == &PurchaseOrder_wsdl.messages.GetOrderStatus)
             {
-                // The message was a order status request.  Get the pointer to the deserialized value.
+                // The message was an order status request.  Get the pointer to the deserialized value.
                 _GetOrderStatusType* getOrderStatus = (_GetOrderStatusType*)requestBodyPointer;
         
                 // Generate a fault if we don't recognize the order ID
