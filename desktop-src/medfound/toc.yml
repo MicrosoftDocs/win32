@@ -2815,6 +2815,8 @@
           href: mf-devicestream-transform-stream-id.md
         - name: "MF_DEVSOURCE_ATTRIBUTE_ENABLE_MS_CAMERA_EFFECTS"
           href: mf-devsource-attribute-enable-ms-camera-effects.md
+        - name: "MF_DEVSOURCE_ATTRIBUTE_FRAMESERVER_SHARE_MODE"
+          href: mf-devsource-attribute-frameserver-share-mode.md
         - name: "MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME"
           href: mf-devsource-attribute-friendly-name.md
         - name: "MF_DEVSOURCE_ATTRIBUTE_MEDIA_TYPE"
