@@ -86,7 +86,7 @@ To activate the **IMFMediaSource** in sharing mode using [IMFCaptureEngine](/win
 
 ### Configure sharing mode using MediaCapture
 
-When accessing the camera using the [MediaCapture](/uwp/api/windows.media.capture.mediacapture) class, set sharing mode using the [MediaCaptureInitializationSettings.SharingMode](uwp/api/windows.media.capture.mediacaptureinitializationsettings.sharingmode) property.
+When accessing the camera using the [MediaCapture](/uwp/api/windows.media.capture.mediacapture) class, set sharing mode using the [MediaCaptureInitializationSettings.SharingMode](/uwp/api/windows.media.capture.mediacaptureinitializationsettings.sharingmode) property.
 
 
 ## Requirements
