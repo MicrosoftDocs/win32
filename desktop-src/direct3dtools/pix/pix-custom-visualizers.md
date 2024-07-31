@@ -1,57 +1,57 @@
 ---
-title: Custom texture/mesh visualizers
+title: Custom texture/mesh visualizers in PIX
 description: Documenting how to use custom texture/mesh visualizers with PIX
 ms.topic: article
 ms.date: 07/30/2024
 ---
 
-# Custom Texture/Mesh Visualizers
+# Custom texture/mesh visualizers in PIX
 
 Custom visualizers allow you to do mainly two things: 
 
-1. Extend the pipeline view texture viewer to run a custom compute shader which can read any resource bound to any stage of the pipeline and output a 2D texture displayed in the viewer. 
+1. Extend the pipeline view texture viewer to run a custom compute shader, which can read any resource bound to any stage of the pipeline, and output a 2D texture displayed in the viewer.
 
-2. Extend the pipeline view buffer viewer to run a custom compute shader which can read any resource bound to any stage of the pipeline and output both an index buffer and a vertex buffer to be displayed in the mesh viewer. 
+2. Extend the pipeline view buffer viewer to run a custom compute shader, which can read any resource bound to any stage of the pipeline, and output both an index buffer and a vertex buffer to be displayed in the mesh viewer.
 
-## PIX Extensibility Settings 
+## PIX extensibility settings 
 
-You can specify any number of folders for PIX to search for visualizers (*.hlsl files) in the *Extensibility Paths* setting. 
+By using the *Extensibility Paths* setting, you can specify any number of folders for PIX to search for visualizers (`*.hlsl` files).
 
-If your visualizer shaders use any ```#include``` of files not sitting next to the main HLSL visualizer files, you can specify search paths to those in the *Extensibility Include Search Paths* setting. 
+If your visualizer shaders `#include` any file that's not sitting next to the main HLSL visualizer files, then you can use the *Extensibility Include Search Paths* setting to add search paths for those files.
 
 ![Where to modify the extensions paths in PIX](images/custom-visualizers-paths.png)
 
-## Custom Texture Visualizer 
+## Custom texture vVisualizer 
 
-Assuming you have setup paths to your visualizer shaders in the settings, you can now see your visualizers listed in the Visualization panel. 
+Assuming that you've configured paths to your visualizer shaders in the settings, you can now see your visualizers listed in the **Visualization** panel.
 
 ![Example of some visualizers in the dropdown menu](images/custom-visualizers-dropdown.png)
 
-### Visualization Panel 
+### Visualization panel 
 
-Once you have selected a custom visualizer from the list in the Visualization panel, the *Custom Visualization* section appears. From there, you can select to override the default texture format for your visualizer output. By default, the selected output format will be compatible with the pipeline view currently selected texture. That's also where any shader compilation warnings/errors will be displayed. 
+Once you've selected a custom visualizer from the list in the **Visualization** panel, the *Custom Visualization* section appears. From there, you can select to override the default texture format for your visualizer output. By default, the selected output format will be compatible with the pipeline view's currently selected texture. That's also where any shader compilation warnings/errors will be displayed.
 
 ![Example of a custom extension compiler error](images/custom-visualizers-compiler-error.png)
 
-### Creating a Custom Texture Visualizer 
+### Creating a custom texture visualizer 
 
-A visualizer is a compute shader running against the selected event (i.e. draw, dispatch, dispatch mesh) and which output will be displayed in the texture viewer in place of the currently selected texture / render target. Your entry point must be named main to be successfully recognized by PIX. 
+A visualizer is a compute shader running against the selected event (that is, draw, dispatch, dispatch mesh) and which output will be displayed in the texture viewer in place of the currently selected texture/render target. In order to be successfully recognized by PIX, your entry point must be named **main**.
 
-You can select the thread group size of your compute shader as you do with any compute shader by specifying it as an attribute (e.g. ```[numthreads(8, 8, 1)]```). PIX will invoke your compute shader so one thread can execute per pixel.  
+You can select the thread group size of your compute shader the same way you do with any compute shader by specifying it as an attribute (for example, `[numthreads(8, 8, 1)]`). PIX will invoke your compute shader so that one thread can execute per pixel.  
 
-For instance, if you have a texture of size 512x512 pixels and your compute shader uses a threadgroup size of (8, 8, 1), the resulting invocation done internally by the PIX engine would be ```Dispatch(64, 64, 1)```. If the texture size is not a multiple of the threadgroup size, more threads than pixels are invoked to cover all of them. 
+For instance, if you have a texture of size 512x512 pixels, and your compute shader uses a threadgroup size of `(8, 8, 1)`, then the resulting invocation done internally by the PIX engine would be `Dispatch(64, 64, 1)`. If the texture size isn't a multiple of the threadgroup size, then more threads than pixels are invoked to cover all of them.
 
-The output texture generated by your compute shader will reflect the largest coordinates it outputs through the HLSL API (e.g. ```PixExt_StorePixel_Float(uint2 offset, float4 pixel)```). 
+The output texture generated by your compute shader will reflect the largest coordinates that it outputs through the HLSL API (for example, `PixExt_StorePixel_Float(uint2 offset, float4 pixel)`).
 
-When your shader code is compiled in the PIX engine, the root signature used is a modified version of the one bound at the selected event. That means you get access to all resources as they are available to that event plus all resources bound to the IA and OM stages through the PIX HLSL API. 
+When your shader code is compiled in the PIX engine, the root signature used is a modified version of the one bound at the selected event. That means that (through the PIX HLSL API) you get access to all resources as they are available to that event plus all resources bound to the IA and OM stages.
 
-If you have errors in your shader (displayed in the *Visualization* panel, *Custom Visualization* section in the *DXC Output* text box), you can simply edit the file to correct the errors and hit the refresh button in the texture viewer to rebuild and re-execute your visualizer.
+If you have errors in your shader (displayed in the **Visualization** panel > **Custom Visualization** section in the **DXC Output** text box), then you can simply edit the file to correct the errors, and use the refresh button in the texture viewer to rebuild and re-execute your visualizer.
 
 #### Example
 
-Let's see a basic example of a visualizer shader. 
+Here's a basic example of a visualizer shader. 
 
-```
+```hlsl
 Texture2D<float4> SelectedTexture : PixExt_SelectedResourceRegister;
 Texture2D<float4> SRV0 : register(t0);
 
@@ -73,41 +73,41 @@ void main(PixExt_ComputeInput input)
 }
 ```
 
-In this example, we declare ```SelectedTexture``` to point to the pipeline view currently selected texture using the PIX HLSL API special register ```PixExt_SelectedResourceRegister```. We also declare SRV0 at t0, knowing it will be present in the root signature of the GPU capture we're working against. You can always make your extension as generic or specific as your use case dictates. Finally, we output to the texture viewer using the ```PixExt_StorePixel_Float``` function, which takes a pixel position and a value as arguments. 
+In the example above, we declare `SelectedTexture` to point to the pipeline view's currently selected texture by using the PIX HLSL API special register `PixExt_SelectedResourceRegister`. We also declare SRV0 at t0, knowing it will be present in the root signature of the GPU capture we're working against. You can always make your extension as generic or specific as your use case dictates. Finally, we output to the texture viewer using the `PixExt_StorePixel_Float` function, which takes a pixel position and a value as arguments.
 
-To get more information on the API, refer to the HLSL API section. 
+To get more information on the API, refer to the HLSL API section.
 
 ![Example output from the texture visualizer above](images/custom-visualizers-compiler-texture-example.png)
 
-## Custom Buffer Visualizer 
+## Custom buffer visualizer 
 
-Assuming you have setup paths to your visualizer shaders in the settings, you can now see your visualizers listed in the *Custom Visualization* panel, which you can open using the following buffer viewer toolbar icon: {} 
+Assuming you've set up paths to your visualizer shaders in the settings, you can now see your visualizers listed in the *Custom Visualization* panel, which you can open using the following buffer viewer toolbar icon: `{}`.
 
-### Custom Visualization Panel 
+### Custom Visualization panel 
 
-From that panel, you can select any available custom visualizer and see any warning/error messages from the shader compiler. 
+From that panel, you can select any available custom visualizer, and see any warning/error messages from the shader compiler. 
 
 ![Example error from a buffer visualizer](images/custom-visualizers-buffer-error.png)
 
-### Creating a Custom Buffer Visualizer 
+### Creating a custom buffer visualizer 
 
-A visualizer is a compute shader running against the selected event and which output will be displayed in the mesh viewer in place of the buffer viewer showing the currently selected buffer data. Your entry point must be named ```main``` to be successfully recognized by PIX. 
+A visualizer is a compute shader running against the selected event, and whose output will be displayed in the mesh viewer in place of the buffer viewer showing the currently selected buffer data. To be successfully recognized by PIX, your entry point must be named **main**.
 
-You can select the thread group size of your compute shader as you do for any compute shader by specifying it as an attribute (e.g. ```[numthreads(32, 1, 1)]```). PIX will invoke your compute shader so one thread can execute per buffer element. 
+You can select the thread group size of your compute shader as you do for any compute shader by specifying it as an attribute (for example, `[numthreads(32, 1, 1)]`). PIX will invoke your compute shader so that one thread can execute per buffer element.
 
-For instance, if you have a buffer of 100 elements and your compute shader uses a threadgroup size of (32, 1, 1), the resulting invocation done internally by the PIX engine would be ```Dispatch(4, 1, 1)```. If the buffer size is not a multiple of the threadgroup size, more threads than buffer elements are invoked to cover all of them. 
+For instance, if you have a buffer of 100 elements, and your compute shader uses a threadgroup size of `(32, 1, 1)`, then the resulting invocation done internally by the PIX engine would be `Dispatch(4, 1, 1)`. If the buffer size is not a multiple of the threadgroup size, then more threads than buffer elements are invoked to cover all of them. 
 
-The output index and vertex buffers allocated to your compute shader are dynamically growing to fit all the data you output. You can output as much data as you need. Indices are 32-bit and vertices are only allowed to be float4 positions. 
+The output index and vertex buffers allocated to your compute shader dynamically grow to fit all the data you output. You can output as much data as you need. Indices are 32-bit, and vertices are allowed to be only float4 positions. 
 
-When your shader code is compiled in the PIX engine, the root signature used is a modified version of the one bound at the selected event. That means you get access to all resources as they are available to that event plus all resources bound to the IA and OM stages through the PIX HLSL API. 
+When your shader code is compiled in the PIX engine, the root signature used is a modified version of the one bound at the selected event. That means that (through the PIX HLSL API) you get access to all resources as they are available to that event plus all resources bound to the IA and OM stages.
 
-If you have errors in your shader (displayed in the *Custom Visualization* panel, in the *DXC Output* text box), you can simply edit the file to correct the errors and hit the refresh button  in the mesh viewer to rebuild and re-execute your visualizer.
+If you have errors in your shader (displayed in the **Custom Visualization** panel > **DXC Output** text box), then you can simply edit the file to correct the errors, and hit the refresh button  in the mesh viewer to rebuild and re-execute your visualizer.
 
 #### Example
 
-Let's see a basic example of a visualizer shader. 
+Here's a basic example of a visualizer shader
 
-```
+```hlsl
 struct Vertex
 {
     float3 position;
@@ -134,25 +134,25 @@ void main(PixExt_ComputeInput input)
 }
 ```
 
-In this example, we access vertices declaring ```Vertices``` to point to the pipeline view currently bound vertex buffer 0 using the PIX HLSL API special register ```PixExt_VertexBufferRegister0```. We then output to the mesh viewer using the ```PixExt_StoreIndex``` and ```PixExt_StoreVertex``` functions, which take buffer offsets and respectively index and vertex values as arguments. 
+In the example above, we access vertices declaring `Vertices` to point to the pipeline view currently bound vertex buffer 0 using the PIX HLSL API special register `PixExt_VertexBufferRegister0`. We then output to the mesh viewer using the `PixExt_StoreIndex` and `PixExt_StoreVertex` functions, which take buffer offsets and respectively index and vertex values as arguments.
 
-To get more information on the API, refer to the HLSL API section. 
+To get more information on the API, refer to the HLSL API section.
 
 ![Example output from the buffer visualizer above](images/custom-visualizers-buffer-example.png)
 
 ## PIX HLSL API 
 
-PIX will inject internal implementation code when compiling your shader to give you access to all resources and have a standard mean of outputting data to the viewers. The implementation is always subject to change, but the following documented API is stable across PIX versions.
+To give you access to all resources, and to have a standard mean of outputting data to the viewers, PIX will inject internal implementation code when compiling your shader. The implementation is always subject to change, but the following documented API is stable across PIX versions.
 
-### Resource Access 
+### Resource access 
 
-The API defines a set of special registers you can use to get access to resources of different pipeline stages that are not inherently accessible. 
+The API defines a set of special registers that you can use to get access to resources of different pipeline stages that are not inherently accessible.
 
-#### Selected Resource 
+#### Selected resource 
 
-```PixExt_SelectedResourceRegister```: Gives access to the resource currently selected in the pipeline view. 
+`PixExt_SelectedResourceRegister`: Gives access to the resource currently selected in the pipeline view. 
 
-#### Render Targets 
+#### Render targets 
 
 ```PixExt_RenderTargetRegister0```<br>
 ```PixExt_RenderTargetRegister1```<br>
@@ -163,12 +163,12 @@ The API defines a set of special registers you can use to get access to resource
 ```PixExt_RenderTargetRegister6```<br>
 ```PixExt_RenderTargetRegister7```
 
-#### Depth / Stencil 
+#### Depth/stencil 
 
 ```PixExt_DepthRegister```<br>
 ```PixExt_StencilRegister```
 
-#### Input Assembly Stage Resources 
+#### Input assembly stage resources 
 
 ```PixExt_IndexBufferRegister```<br>
 ```PixExt_VertexBufferRegister0```<br>
@@ -204,11 +204,11 @@ The API defines a set of special registers you can use to get access to resource
 ```PixExt_VertexBufferRegister30```<br>
 ```PixExt_VertexBufferRegister31```<br>
 
-#### Shader Inputs 
+#### Shader inputs 
 
-You can use the ```PixExt_ComputeInput``` structure as an input to your main shader function. This is a helper and is not mandatory. 
+You can use the `PixExt_ComputeInput` structure as an input to your main shader function. This is a helper, and isn't mandatory. 
 
-```
+```hlsl
 struct PixExt_ComputeInput
 {
     uint3 dispatchThreadId : SV_DispatchThreadID;
@@ -218,9 +218,9 @@ struct PixExt_ComputeInput
 };
 ```
 
-#### Selected texture Information 
+#### Selected texture information 
 
-```
+```hlsl
 // Returns the currently selected sample.
 uint PixExt_GetSelectedSample();
 
@@ -231,9 +231,9 @@ uint PixExt_GetSelectedMip();
 uint PixExt_GetSelectedSlice();
 ```
 
-#### Selected Event Arguments 
+#### Selected event arguments 
 
-```
+```hlsl
 // For a DrawIndexedInstanced event,
 // returns the IndexCountPerInstance.
 uint PixExt_GetIndexCountPerInstance();
@@ -271,13 +271,13 @@ uint PixExt_GetThreadGroupCountY();
 uint PixExt_GetThreadGroupCountZ();
 ```
 
-#### Shader Outputs 
+#### Shader outputs 
 
 You output data to the viewers using the following functions. 
 
 ##### Texture
 
-```
+```hlsl
 // Stores the given INT pixel data for texture viewer display.
 //
 // offset: Pixel position to write to.
@@ -298,7 +298,8 @@ void PixExt_StorePixel_Float(uint2 offset, float4 pixel);
 ```
 
 ##### Mesh
-```
+
+```hlsl
 // Stores the given index for mesh viewer display.
 //
 // offset: Offset into the index buffer to write to.

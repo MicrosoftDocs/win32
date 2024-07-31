@@ -9,5 +9,5 @@ items:
     href: pix-gpu-captures.md
   - name: "Profile the CPU and GPU with timing captures"
     href: pix-timing-captures.md
-  - name: "Custom Texture/Mesh Visualizers in PIX"
+  - name: "Custom texture/mesh visualizers in PIX"
     href: pix-custom-visualizers.md
