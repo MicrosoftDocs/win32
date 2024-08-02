@@ -18,18 +18,16 @@ Here is the complete code for the program:
 
 
 ```C++
-#ifndef UNICODE
-#define UNICODE
-#endif 
-
 #include <windows.h>
+#include <tchar.h>
+
+// Global variable of the window class
+const TCHAR CLASS_NAME[] = _T("Sample Window Class");
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
-int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR pCmdLine, int nCmdShow)
 {
-    // Register the window class.
-    const wchar_t CLASS_NAME[]  = L"Sample Window Class";
     
     WNDCLASS wc = { };
 
@@ -44,7 +42,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
     HWND hwnd = CreateWindowEx(
         0,                              // Optional window styles.
         CLASS_NAME,                     // Window class
-        L"Learn to Program Windows",    // Window text
+        _T("Learn to Program Windows"),    // Window text
         WS_OVERLAPPEDWINDOW,            // Window style
 
         // Size and position
@@ -109,7 +107,7 @@ You can download the complete Visual Studio project from [Windows Hello World Sa
 
 It may be useful to give a brief outline of what this code does. Later topics will examine the code in detail.
 
-1.  **wWinMain** is the program entry point. When the program starts, it registers some information about the behavior of the application window. One of the most important items is the address of a function, named `WindowProc` in this example. This function defines the behavior of the window—its appearance, how it interacts with the user, and so forth.
+1.  **WinMain** is the program entry point. When the program starts, it registers some information about the behavior of the application window. One of the most important items is the address of a function, named `WindowProc` in this example. This function defines the behavior of the window—its appearance, how it interacts with the user, and so forth.
 2.  Next, the program creates the window and receives a handle that uniquely identifies the window.
 3.  If the window is created successfully, the program enters a **while** loop. The program remains in this loop until the user closes the window and exits the application.
 
