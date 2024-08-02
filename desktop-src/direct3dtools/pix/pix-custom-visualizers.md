@@ -21,7 +21,7 @@ If your visualizer shaders `#include` any file that's not sitting next to the ma
 
 ![Where to modify the extensions paths in PIX](images/custom-visualizers-paths.png)
 
-## Custom texture vVisualizer 
+## Custom texture visualizer 
 
 Assuming that you've configured paths to your visualizer shaders in the settings, you can now see your visualizers listed in the **Visualization** panel.
 
@@ -312,3 +312,7 @@ void PixExt_StoreIndex(uint offset, uint index);
 // vertex: Vertex position to write.
 void PixExt_StoreVertex(uint offset, float4 vertex);
 ```
+
+## Requirements
+
+Custom visualizer shaders will be compiled using Shader Model 6.6 (namely cs_6_6) and HLSL version 2021. We plan to support newer shader models and relax the restriction on HLSL 2021 in a future release.
