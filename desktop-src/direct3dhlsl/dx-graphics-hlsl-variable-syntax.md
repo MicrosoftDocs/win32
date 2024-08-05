@@ -1,5 +1,5 @@
 ---
-title: Variable Syntax
+title: Variable syntax
 description: Use the following syntax rules to declare HLSL variables.
 ms.assetid: 684c42d1-2dd4-42e1-9cff-580edb5c6bcd
 keywords:
@@ -20,15 +20,11 @@ api_type:
 api_location: 
 ---
 
-# Variable Syntax
+# Variable syntax
 
 Use the following syntax rules to declare HLSL variables.
 
 \[*Storage\_Class*\] \[*Type\_Modifier*\] *Type Name*\[*Index*\]     \[*: Semantic*\]     \[*: Packoffset*\]     \[*: Register*\];    \[*Annotations*\]     \[*= Initial\_Value*\]
-
-
-
- 
 
 ## Parameters
 
@@ -38,9 +34,6 @@ Use the following syntax rules to declare HLSL variables.
 </dt> <dd>
 
 Optional storage-class modifiers that give the compiler hints about variable scope and lifetime; the modifiers can be specified in any order.
-
-
-
 
 | Value | Description | 
 |-------|-------------|
@@ -53,11 +46,6 @@ Optional storage-class modifiers that give the compiler hints about variable sco
 | <strong>uniform</strong> | Mark a variable whose data is constant throughout the execution of a shader (such as a material color in a vertex shader); global variables are considered <strong>uniform</strong> by default. | 
 | **volatile** | Mark a variable that changes frequently; this is a hint to the compiler. This storage class modifier only applies to a local variable.<br> **Note:** The HLSL compiler currently ignores this storage class modifier.<br> | 
 
-
-
-
- 
-
 </dd> <dt>
 
 <span id="Type_Modifier"></span><span id="type_modifier"></span><span id="TYPE_MODIFIER"></span>*Type\_Modifier*
@@ -65,22 +53,14 @@ Optional storage-class modifiers that give the compiler hints about variable sco
 
 Optional variable-type modifier.
 
-
-
 | Value             | Description                                                                                                                                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **const**         | Mark a variable that cannot be changed by a shader, therefore, it must be initialized in the variable declaration. Global variables are considered **const** by default (suppress this behavior by supplying the /Gec flag to the compiler). |
 | **row\_major**    | Mark a variable that stores four components in a single row so they can be stored in a single constant register.                                                                                                                             |
 | **column\_major** | Mark a variable that stores 4 components in a single column to optimize matrix math.                                                                                                                                                         |
 
-
-
- 
-
-> [!Note]  
-> If you do not specify a type-modifier value, the compiler uses **column\_major** as the default value.
-
- 
+> [!NOTE]
+> If you don't specify a type-modifier value, the compiler uses **column\_major** as the default value.
 
 </dd> <dt>
 
@@ -135,36 +115,34 @@ Global variables that are not marked **static** or **extern** are not compiled i
 
 You can also use the [effects framework](../direct3d11/d3d11-graphics-programming-guide-effects.md) to automatically process the reflecting and setting the initial value. For example, you can use the [**ID3DX11EffectPass::Apply**](/windows/desktop/direct3d11/id3dx11effectpass-apply) method.
 
+> [!IMPORTANT]
+> Support for this feature was removed in Direct3D 12, including the ability to reflect default initializers.
+
 </dd> </dl>
 
 ## Examples
 
 Here are several examples of shader-variable declarations.
 
-
 ```
 float fVar;
 ```
 
-
-
-
 ```
 float4 color;
-float fVar = 3.1f;
 
 int iVar[3];
 
-int iVar[3] = {1,2,3};
-
 uniform float4 position : SV_POSITION; 
+
+//Default initializers; supported up to Direct3D 11.
+
+float fVar = 3.1f;
+int iVar[3] = {1,2,3};
 const float4 lightDirection = {0,0,1};
-      
 ```
 
-
-
-### Group Shared
+### Group shared
 
 HLSL enables threads of a compute shader to exchange values via shared memory. HLSL provides barrier primitives such as [**GroupMemoryBarrierWithGroupSync**](groupmemorybarrierwithgroupsync.md), and so on to ensure the correct ordering of reads and writes to shared memory in the shader and to avoid data races.
 
@@ -174,10 +152,7 @@ HLSL enables threads of a compute shader to exchange values via shared memory. H
 > -   This omission results in non-portable code, which might not work on some hardware and doesn't work on software rasterizers that typically execute threads in smaller groups.
 > -   The performance improvements that you might achieve with this omission will be minor compared to using all-thread barrier.
 
- 
-
 In Direct3D 10 there is no synchronization of threads when writing to **groupshared**, so this means that each thread is limited to a single location in an array for writing. Use the [SV\_GroupIndex](dx-graphics-hlsl-semantics.md) system value to index into this array when writing to ensure that no two threads can collide. In terms of reading, all threads have access to the entire array for reading.
-
 
 ```
 struct GSData
@@ -198,12 +173,9 @@ void main( uint index : SV_GroupIndex )
 }
 ```
 
-
-
 ### Packing
 
 Pack subcomponents of vectors and scalars whose size is large enough to prevent crossing register boundarys. For example, these are all valid:
-
 
 ```
 cbuffer MyBuffer
@@ -212,17 +184,13 @@ cbuffer MyBuffer
     float1 Element2 : packoffset(c1);
     float1 Element3 : packoffset(c1.y);
 }
-        
 ```
 
-
-
-Cannot mix packing types.
+Can't mix packing types.
 
 Like the register keyword, a packoffset can be target specific. Subcomponent packing is only available with the packoffset keyword, not the register keyword. Inside a cbuffer declaration, the register keyword is ignored for Direct3D 10 targets as it is assumed to be for cross-platform compatibility.
 
 Packed elements may overlap and the compiler will give no error or warning. In this example, Element2 and Element3 will overlap with Element1.x and Element1.y.
-
 
 ```
 cbuffer MyBuffer
@@ -231,19 +199,10 @@ cbuffer MyBuffer
     float1 Element2 : packoffset(c0);
     float1 Element3 : packoffset(c0.y);
 }
-        
 ```
-
-
 
 A sample that uses packoffset is: [HLSLWithoutFX10 Sample](https://msdn.microsoft.com/library/Ee416414(v=VS.85).aspx).
 
 ## Related topics
 
-<dl> <dt>
-
-[Variables (DirectX HLSL)](dx-graphics-hlsl-variables.md)
-</dt> </dl>
-
- 
-
+* [Variables (DirectX HLSL)](dx-graphics-hlsl-variables.md)
