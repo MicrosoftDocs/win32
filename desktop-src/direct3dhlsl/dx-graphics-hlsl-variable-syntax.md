@@ -135,6 +135,8 @@ Global variables that are not marked **static** or **extern** are not compiled i
 
 You can also use the [effects framework](../direct3d11/d3d11-graphics-programming-guide-effects.md) to automatically process the reflecting and setting the initial value. For example, you can use the [**ID3DX11EffectPass::Apply**](/windows/desktop/direct3d11/id3dx11effectpass-apply) method.
 
+Support for this feature was dropped in D3D12, including ability to reflect default initializers.
+
 </dd> </dl>
 
 ## Examples
@@ -151,13 +153,15 @@ float fVar;
 
 ```
 float4 color;
-float fVar = 3.1f;
 
 int iVar[3];
 
-int iVar[3] = {1,2,3};
-
 uniform float4 position : SV_POSITION; 
+
+//Default initializers; supported only in D3D11.
+
+float fVar = 3.1f;
+int iVar[3] = {1,2,3};
 const float4 lightDirection = {0,0,1};
       
 ```
