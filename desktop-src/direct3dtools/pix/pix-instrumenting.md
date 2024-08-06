@@ -11,4 +11,4 @@ To take full advantage of PIX's functionality, and enable you to have the best p
 
 ## Annotate your code with PixEvents
 
-For installation and usage information, see [WinPixEventRuntime](https://devblogs.microsoft.com/pix/winpixeventruntime/). The source code is also available in the GitHub reposirory [PixEvents](https://github.com/microsoft/PixEvents).
+For installation and usage information, see [WinPixEventRuntime](https://devblogs.microsoft.com/pix/winpixeventruntime/). The source code is also available in the GitHub repository [PixEvents](https://github.com/microsoft/PixEvents).

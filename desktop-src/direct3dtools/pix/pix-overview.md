@@ -9,7 +9,7 @@ ms.date: 07/09/2024
 
 PIX is a debugging and profiling tool designed for game developers using Direct3D 12. You can [debug rendering issues and analyze frame performance with GPU Captures](pix-gpu-captures.md), or you can take a more [traditional profiling approach with Timing Captures](pix-timing-captures.md).
 
-PIX's CPU profiling capabilities work for any Windows application, and the GPU capabilities work on any application using Direct3D 12 (or Direct3D 11 via [Direct3D 11 on 12](../../direct3d12/direct3d-11-on-12.md)). That includes AI and ML workloads using [DirectML](/windows/ai/directml/dml), and games made with popular engines such asUnreal, Unity, and Godot.
+PIX's CPU profiling capabilities work for any Windows application, and the GPU capabilities work on any application using Direct3D 12 (or Direct3D 11 via [Direct3D 11 on 12](../../direct3d12/direct3d-11-on-12.md)). That includes AI and ML workloads using [DirectML](/windows/ai/directml/dml), and games made with popular engines such as Unreal, Unity, and Godot.
 
 While PIX can help you with no prior setup, you might want to check out [Instrument your app](pix-instrumenting.md) and [Configure PIX](pix-configuring.md) to ensure that you have the best experience with things such as PixEvents and debug symbols.
 
