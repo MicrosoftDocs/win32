@@ -24,14 +24,14 @@ Configure your timing capture options as necessary and, when ready, click the **
 | Callstacks on Context Switches | Collect callstacks when a thread switches contexts. |
 | File accesses | Track file accesses. |
 | GPU timings | Collect detailed timing information about when GPU work starts and stops. |
-| GPU resources | Collected *detailed* information about D3D objects like heaps and resources. Also track GPU residency, demoted allocations, and allocation migrations. |
+| GPU resources | Collect *detailed* information about D3D objects like heaps and resources. Also track GPU residency, demoted allocations, and allocation migrations. |
 | VirtualAlloc/VirtualFree events | Tracks allocations made via the VirtualAlloc and VirtualFree functions. |
 | HeapAlloc/HeapFree events | Tracks allocations made via the HeapAlloc and HeapFree functions. |
 | Custom allocator events | Tracks allocations made by [custom memory allocators instrumented with PixEvents](https://devblogs.microsoft.com/pix/memory-profiling-support-for-allocations-made-from-a-titles-custom-allocator/).|
 | Page Fault events | Collect data on page faults that occur when the capture is running. The page faults are shown in the timeline and in the element details view. |
 | Callstacks for non-title processes | Capture callstacks for processes other than the title process (the launched or attached to process). |
 | Kernel image information | Collect information need to show callstacks for kernel binaries. |
-| Generate .etl file instead of .wpix file | The generated .etl file can later be converted to a .wpix file in the File \| Convert menu. This option is useful when reporting bug repros to the WinPIX team or if you have other tooling for processing ETW data. |
+| Generate .etl file instead of .wpix file | The generated .etl file can later be converted to a .wpix file in the File \| Convert menu. This option is useful when reporting bug repros to the PIX team or if you have other tooling for processing ETW data. |
 
 ### Programmatic captures
 
@@ -50,7 +50,7 @@ There are several blog posts that cover those features in detail:
 
 ## GPU profiling
 
-Is your app experiencing intermittent frame drops? Excessive VRAM usage? Unexpected paging operations between system memory and VRAM? The GPU profiling features in WinPIX can help you get to the bottom of these common and difficult-to-analyze situations.
+Is your app experiencing intermittent frame drops? Excessive VRAM usage? Unexpected paging operations between system memory and VRAM? The GPU profiling features in PIX can help you get to the bottom of these common and difficult-to-analyze situations.
 
 ### GPU timings
 
@@ -72,7 +72,7 @@ Vsyncs are displayed as markers in a separate **Monitor** lane, and can be found
 
 ### GPU memory and Direct3D objects
 
-Enable the **GPU resources** option when taking a capture to collect information about Direct3D objects. To graph overall memory usage, you can find several counters in **Metrics** view. You can configure various budget lines to get a quick idea of whether you're meeting your memory usage goals. When you find an area of interest, you might want to investigate further by selecting the time range, clicking **Zoom Timeline View to Select Range** in the right-click context menu, and setting the **Selected Time Range** drop-down to **Select Visible Range**.
+Enable the **GPU resources** option when taking a capture to collect information about Direct3D objects. To graph overall memory usage, you can find several counters in **Metrics** view. You can configure various budget lines to get a quick idea of whether you're meeting your memory usage goals. When you find an area of interest, you might want to investigate further by selecting the time range, clicking **Zoom Timeline view to Select Range** in the right-click context menu, and setting the **Selected Time Range** drop-down to **Select Visible Range**.
 
 ![Viewing D3D API Object Memory Usage in Metrics view](images/timing-d3dresources-metrics-markedup.png)
 
@@ -81,7 +81,7 @@ Enable the **GPU resources** option when taking a capture to collect information
 
 In **Range Details** view, you can view various information about Direct3D API objects such as heaps, resources, and pipeline state objects. To make it easier to pinpoint any suspicious objects, that information is grouped by when it was allocated and freed.
 
-![Viewing D3D API Objects in Range Details View](images/timing-d3dresources-timeline-markedup.png)
+![Viewing D3D API Objects in Range Details view](images/timing-d3dresources-timeline-markedup.png)
 
 #### Residency
 
@@ -90,6 +90,24 @@ For residency related issues, see out the **Residence Operations**, **Demoted Al
 Residence operations include the MakeResident and Evict operations (initiated via the Direct3D 12 API) as well as any PageIn and PageOut operations (For more details, see [Residency](../../direct3d12/residency.md)). Demoted allocations occur when the graphics kernel (DXGK) can't allocate a resource in your GPU's VRAM (due to either memory pressure or fragmentation). If that happens, then DXGK will also attempt to perform allocation migrations for those demoted allocations. Note that those migrations are expensive operations, because they require suspending the GPU.
 
 ![Viewing allocation migrations](images/timing-residence-markedup.png)
+
+### GPU utilization and presentation counters
+
+Enable the **Capture SysMon counters** option when taking a capture to collect counters present in the System Monitor (aka SysMon), which includes various counters related to GPU performance. Notably, there are counters for:
+- GPU utilization broken down by GPU engine for both the target process and all processes.
+- Presentation data, like frames per second (and the inverse, in milliseconds, MsBetweenPresents) and MsUntilRenderComplete (time between a present start and GPU work completion).
+- GPU Memory information, including local and non-local memory usage, residence, and budgets.
+
+![Viewing frames per second and GPU utilization in Metrics view](images/timing-sysmoncounters.png)
+
+> [!TIP]
+> Hover over the counter names in the **System Monitor** for a description.
+
+These counters can also be monitored in real-time, either while taking a timing capture or by clicking the **Start Counter Collection** button in the **System Monitor** view. The graphs can be rearranged and counters can be added or removed dynamically. Click **Counters** to view all available counters.
+
+![Viewing System Monitor graphs and counters](images/sysmon.png)
+
+
 
 ## Win32 file-I/O
 
