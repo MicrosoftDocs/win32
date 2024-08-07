@@ -13,7 +13,11 @@ The Microsoft XPS Document Writer (MXDW) is a print-to-file driver that enables 
 If you create an XPS file, but don't have an app to save or store the contents, you can use the Microsoft XPS Document Writer printer to save all content of the XPS file. Microsoft XPS Document Writer comes pre-installed on Windows 10 and Windows 11, just press `Ctrl` + `P` to print/save an XPS file.
 
 > [!NOTE]
-> To install or reinstall the XPS Document Writer, Press Windows key + `R`, Type: "control printers", select `Enter`, select `Add printer`, select `The printer what I want isn't listed`, select `Add a local printer or network printer with manual settings`, select `Use an existing port`, select `Next`, select `Microsoft` from the left column, select `microsoft xps document writer` from the right column, select `Next` and the Microsoft XPS Document Writer will download.
+> You can repair the XPS Document Writer by removing and re-adding it via the Settings app.  
+>1. Launch 'Settings' -> 'System' -> 'Optional Features' 
+>2. Select 'More Windows features' under 'Related Settings'
+>3. Uncheck 'Microsoft XPS Document Writer' to remove it 
+>4. Recheck 'Microsoft XPS Document Writer' to reinstall it
 
 For more information about V4 print driver, see [Exploring the Driver Options in the Wizard](/windows-hardware/drivers/print/exploring-the-driver-options-in-the-wizard).
 
