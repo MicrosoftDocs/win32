@@ -3,7 +3,7 @@ title: Multi-engine synchronization
 description: This topic discusses synchronizing access to the multiple independent engines found in most modern GPUs.
 ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
 ms.topic: article
-ms.date: 09/25/2019
+ms.date: 08/09/2024
 ---
 
 # Multi-engine synchronization
@@ -309,7 +309,7 @@ void AsyncPipelinedComputeGraphics()
             // the graphics queue is DONE with
             pGraphicsQueue->Signal(pGraphicsComputeFence, CompletedComputeFrames - 1);
             pGraphicsQueue->ExecuteCommandLists(1,
-                rgpGraphicsCommandLists + PipeBufferIndex);
+                rgpGraphicsCommandLists + CommandListIndex);
             pGraphicsQueue->Signal(pGraphicsFence, FrameNumbers[Stage]);
             break;
         }
