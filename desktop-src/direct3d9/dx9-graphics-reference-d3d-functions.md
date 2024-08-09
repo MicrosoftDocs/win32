@@ -10,6 +10,7 @@ ms.date: 05/31/2018
 
 This section contains reference information for the functions that you need to use when you work with Direct3D. The following functions are implemented:
 
+- [**D3D9GetSWInfo**](./d3d9/nf-d3d9-d3d9getswinfo.md)
 - [**D3DPERF_BeginEvent**](./d3d9/nf-d3d9-d3dperf_beginevent.md)
 - [**D3DPERF_EndEvent**](./d3d9/nf-d3d9-d3dperf_endevent.md)
 - [**D3DPERF_GetStatus**](./d3d9/nf-d3d9-d3dperf_getstatus.md)
