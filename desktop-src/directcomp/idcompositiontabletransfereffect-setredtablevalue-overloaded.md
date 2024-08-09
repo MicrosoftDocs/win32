@@ -46,6 +46,3 @@ Sets a value in the red table.
 [**IDCompositionTableTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositiontabletransfereffect)
 </dt> </dl>
 
-�
-
-�

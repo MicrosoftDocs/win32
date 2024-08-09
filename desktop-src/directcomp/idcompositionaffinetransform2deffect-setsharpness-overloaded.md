@@ -1,5 +1,5 @@
 ---
-title: idcompositionaffinetransform2deffect SetSharpness methods
+title: IDCompositionAffineTransform2DEffect SetSharpness methods
 description: Sets the sharpness of the effect.
 ms.assetid: a18c61f6-f4cd-676b-bd5b-fcc952fa30f5
 keywords:
@@ -14,7 +14,7 @@ api_name:
 api_location: 
 ---
 
-# idcompositionaffinetransform2deffect::SetSharpness methods
+# IDCompositionAffineTransform2DEffect::SetSharpness methods
 
 Sets the sharpness of the effect.
 
@@ -33,7 +33,7 @@ Sets the sharpness of the effect.
 
 <dl> <dt>
 
-[**idcompositionaffinetransform2deffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionaffinetransform2deffect)
+[**IDCompositionAffineTransform2DEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionaffinetransform2deffect)
 </dt> </dl>
 
  

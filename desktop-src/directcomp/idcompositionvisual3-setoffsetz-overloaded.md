@@ -46,6 +46,3 @@ Sets the value of the visual's OffsetZ property.
 [**IDCompositionVisual3**](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual3)
 </dt> </dl>
 
-�
-
-�

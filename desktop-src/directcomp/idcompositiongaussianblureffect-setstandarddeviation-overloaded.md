@@ -1,5 +1,5 @@
 ---
-title: idcompositiongaussianblureffect SetStandardDeviation methods (Dcomp.h)
+title: IDCompositionGaussianBlurEffect SetStandardDeviation methods (Dcomp.h)
 description: Sets the amount of blur to be applied to the image.
 ms.assetid: 2e911c48-69c2-1c71-cc41-a501b13a0ee2
 keywords:
@@ -14,7 +14,7 @@ ms.date: 07/02/2019
 ms.topic: reference
 ---
 
-# idcompositiongaussianblureffect::SetStandardDeviation methods
+# IDCompositionGaussianBlurEffect::SetStandardDeviation methods
 
 Sets the amount of blur to be applied to the image.
 
@@ -43,9 +43,6 @@ Sets the amount of blur to be applied to the image.
 
 <dl> <dt>
 
-[**idcompositiongaussianblureffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositiongaussianblureffect)
+[**IDCompositionGaussianBlurEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositiongaussianblureffect)
 </dt> </dl>
 
-�
-
-�

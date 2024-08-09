@@ -35,8 +35,8 @@ Sets the Clip property of this visual to the specified rectangular region or cli
 
 | Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Dcomp.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Dcomp.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |
@@ -53,6 +53,3 @@ Sets the Clip property of this visual to the specified rectangular region or cli
 [**IDCompositionVisual**](/windows/win32/api/dcomp/nn-dcomp-idcompositionvisual)
 </dt> </dl>
 
-�
-
-�
