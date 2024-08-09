@@ -53,6 +53,9 @@ Here's a basic example of a visualizer shader.
 
 ```hlsl
 Texture2D<float4> SelectedTexture : PixExt_SelectedResourceRegister;
+
+// For the custom PSO to successfully build, the root signature 
+// of the selected event must have a valid binding for t0.
 Texture2D<float4> SRV0 : register(t0);
 
 [numthreads(8, 8, 1)]
