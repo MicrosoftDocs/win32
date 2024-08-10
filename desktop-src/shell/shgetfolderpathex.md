@@ -46,7 +46,7 @@ Microsoft makes no warranties, express or implied, with respect to the informati
 Retrieves the full path of a known folder identified by the folder's [KNOWNFOLDERID](/windows/desktop/shell/knownfolderid).
 This extends [SHGetKnownFolderPath](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath) by allowing you to set the initial size of the string buffer.
 
-```cpp
+```c
 HRESULT WINAPI SHGetFolderPathEx(
   _In_     REFKNOWNFOLDERID rfid,
   _In_     DWORD            dwFlags,
