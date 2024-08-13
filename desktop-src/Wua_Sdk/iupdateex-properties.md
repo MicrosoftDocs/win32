@@ -10,9 +10,8 @@ ms.date: 08/13/2024
 The [**IUpdateEx**](/windows/win32/api/wuapi/nn-wuapi-iupdateex) interface defines the following properties.
 
 
-
-| Property                                        | Description                                                                                            |
-|-------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| Property | Description |
+|----------|-------------|
 | [**ExtendedStaticProperty**](/windows/win32/api/Wuapi/nf-wuapi-iupdatedownloaderex-begindownload2)   | Gets the value for the extended property being queried.                                         |
  
 
