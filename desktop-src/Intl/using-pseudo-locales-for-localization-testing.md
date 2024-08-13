@@ -34,19 +34,19 @@ LCID lcid{ ::LocaleNameToLCID(L"qps-plocm", 0) };
 
 ## Enable pseudo-locales for enumeration
 
-In your application, you can call [**EnumSystemLocalesEx**](/windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesex) to enumerate the locales that the system recognizes. The regional and language options portion of the Control Panel also calls **EnumSystemLocalesEx** to build the list of locales that it displays. However, by default, the four pseudo-locales listed above are not recognized by the system, so they won't be returned by **EnumSystemLocalesEx**. For systems from Windows Vista up to and including Windows 10, version 1709, the solution is to enable pseudo-locales by adding keys to the Windows Registry.
+In your application, you can call [**EnumSystemLocalesEx**](/windows/desktop/api/Winnls/nf-winnls-enumsystemlocalesex) to enumerate the locales that the system recognizes. The regional and language options portion of the Control Panel also calls **EnumSystemLocalesEx** to build the list of locales that it displays. However, by default, the four pseudo-locales listed above are not recognized by the system, so they won't be returned by **EnumSystemLocalesEx**.
 
-The edits are made under the HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Control\\Nls key for the languages installed on the operating system. You can make these settings to enable the pseudo-locales. Each key shown below is the hexadecimal LCID corresponding to the pseudo-locale being enabled. Each value is of type string (REG\_SZ).
-
-```
-[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\Locale]
-"00000501"="1" // qps-ploc (Windows Vista and later)
-"000005fe"="7" // qps-ploca (Windows Vista and later)
-"00000901"="1" // qps-Latn-x-sh (Windows 10 and later)
-"000009ff"="d" // qps-plocm (Windows Vista and later)
-```
-
-For Windows 10, version 1803, editing the Windows Registry like this has no effect. But you can still call the non-enumerating NLS APIs with the names of the pseudo-locales (see the code examples above) to populate your user interface (UI).
+> [!NOTE]
+> **Windows 10, version 1709 and older**: Enable pseudo-locales by adding keys to the Windows Registry. The edits are made under the `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls` key for the languages installed on the operating system. Each key shown below is the hexadecimal LCID corresponding to the pseudo-locale being enabled. Each value is of type string (REG\_SZ).
+> ```syntax
+> [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\Locale]
+> "00000501"="1" // qps-ploc (Windows Vista and later)
+> "000005fe"="7" // qps-ploca (Windows Vista and later)
+> "00000901"="1" // qps-Latn-x-sh (Windows 10 and later)
+> "000009ff"="d" // qps-plocm (Windows Vista and later)
+> ```
+>
+> **Windows 10, version 1803 and newer**: Editing the Windows Registry has no effect. However, you can still call the non-enumerating NLS APIs with the names of the pseudo-locales to populate your user interface (UI).
 
 ## Related topics
 
