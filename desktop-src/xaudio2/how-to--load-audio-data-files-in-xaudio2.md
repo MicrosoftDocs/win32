@@ -1,21 +1,25 @@
 ---
 title: 'How to: Load audio data files in XAudio2'
-description: This topic describes the steps to populate the structures required to play audio data in XAudio2.
+description: This topic describes one way to populate the structures required to play audio data in XAudio2.
 ms.assetid: caeb522e-d4f6-91e2-5e85-ea0af0f61300
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/15/2024
 ---
 
 # How to: Load audio data files in XAudio2
 
 > [!NOTE]  
-> This content applies only to desktop apps, and will require revision in order to function in a UWP app. Please refer to the documentation for [**CreateFile2**](/windows/win32/api/fileapi/nf-fileapi-createfile2), [**CreateEventEx**](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [**SetFilePointerEx**](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex), and [**GetOverlappedResultEx**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex). See SoundFileReader.h/.cpp in the BasicSound Windows 8 sample from the [Windows SDK Samples Gallery](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20file%20playback%20sample%20(Windows%208)).
+> This content applies only to desktop apps (and would require revision in order to function in a UWP app). Please refer to the documentation for [**CreateFile2**](/windows/win32/api/fileapi/nf-fileapi-createfile2), [**CreateEventEx**](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [**SetFilePointerEx**](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex), and [**GetOverlappedResultEx**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex). See `SoundFileReader.h` and `.cpp` in the [BasicSound Windows 8 sample app](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20file%20playback%20sample%20(Windows%208)/C%2B%2B) from now-archived Windows SDK Samples Gallery.
 
-This topic describes one way to populate the structures required to play audio data in XAudio2. The following steps load the 'fmt' and 'data' chunks of an audio file, and uses them to populate a **WAVEFORMATEXTENSIBLE** structure and an [**XAUDIO2_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure.
+To populate the structures required to play audio data in XAudio2:
+* You can load or stream an audio file,
+* or you can generate a waveform of your own and represent that waveform as samples in a buffer.
+
+This topic focuses on the method of loading an audio file. The following steps load the `fmt` and `data` chunks of an audio file, and use them to populate a [**WAVEFORMATEXTENSIBLE**](/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) structure and an [**XAUDIO2_BUFFER**](/windows/win32/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure.
 
 ## Preparing to parse the audio file
 
-Audio files supported by XAudio2 use the Resource Interchange File Format (RIFF). RIFF is described in the [Resource Interchange File Format (RIFF)](resource-interchange-file-format--riff-.md) overview. Audio data in a RIFF file is loaded by finding the RIFF chunk and then looping through the chunk to find individual chunks contained in the RIFF chunk. The following functions are examples of code to find chunks and load data contained in the chunks.
+Audio files supported by XAudio2 are formatted with the Resource Interchange File Format (RIFF). RIFF is described in the topic [Resource Interchange File Format (RIFF)](./resource-interchange-file-format--riff-.md). Audio data in a RIFF file is loaded by finding the RIFF chunk, and then looping through the chunk to find individual chunks contained in the RIFF chunk. The following functions are examples of code to find chunks and load data contained in the chunks.
 
 -   To find a chunk in a RIFF file:
 
@@ -111,13 +115,13 @@ Audio files supported by XAudio2 use the Resource Interchange File Format (RIFF)
 
 ## Populating XAudio2 structures with the contents of RIFF chunks
 
-In order for XAudio2 to play audio with a source voice, it needs a **WAVEFORMATEX** structure and an [**XAUDIO2_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure. The **WAVEFORMATEX** structure may be a larger structure such as **WAVEFORMATEXTENSIBLE** that contains a **WAVEFORMATEX** structure as its first member. See the **WAVEFORMATEX** reference page for more information.
+In order for XAudio2 to play audio with a source voice, it needs a **WAVEFORMATEX** structure and an [**XAUDIO2_BUFFER**](/windows/win32/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure. The **WAVEFORMATEX** structure may be a larger structure such as **WAVEFORMATEXTENSIBLE** that contains a **WAVEFORMATEX** structure as its first member. See the **WAVEFORMATEX** reference page for more information.
 
 In this example a **WAVEFORMATEXTENSIBLE** is being used to allow loading of PCM audio files with more than two channels.
 
-The following steps illustrate using the functions described above to populate a **WAVEFORMATEXTENSIBLE** structure and an [**XAUDIO2_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure. In this case, the audio file being loaded contains PCM data, and will only contain a 'RIFF', 'fmt ', and 'data' chunk. Other formats may contain additional chunk types as described in [Resource Interchange File Format (RIFF)](resource-interchange-file-format--riff-.md).
+The following steps illustrate using the functions described above to populate a **WAVEFORMATEXTENSIBLE** structure and an [**XAUDIO2_BUFFER**](/windows/win32/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure. In this case, the audio file being loaded contains PCM data, and will only contain a 'RIFF', 'fmt ', and 'data' chunk. Other formats may contain additional chunk types as described in [Resource Interchange File Format (RIFF)](resource-interchange-file-format--riff-.md).
 
-1.  Declare **WAVEFORMATEXTENSIBLE** and [**XAUDIO2_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structures.
+1.  Declare **WAVEFORMATEXTENSIBLE** and [**XAUDIO2_BUFFER**](/windows/win32/api/xaudio2/ns-xaudio2-xaudio2_buffer) structures.
     ```
     WAVEFORMATEXTENSIBLE wfx = {0};
     XAUDIO2_BUFFER buffer = {0};
@@ -173,7 +177,7 @@ The following steps illustrate using the functions described above to populate a
     ReadChunkData(hFile, pDataBuffer, dwChunkSize, dwChunkPosition);
     ```
 
-6.  Populate an [**XAUDIO2_BUFFER**](/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure.
+6.  Populate an [**XAUDIO2_BUFFER**](/windows/win32/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure.
     ```
     buffer.AudioBytes = dwChunkSize;  //size of the audio buffer in bytes
     buffer.pAudioData = pDataBuffer;  //buffer containing audio data

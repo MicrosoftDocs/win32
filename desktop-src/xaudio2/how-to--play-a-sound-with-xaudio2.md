@@ -3,7 +3,7 @@ title: 'How to: Play a sound with XAudio2'
 description: This topic describes the minimum steps required to play previously-loaded audio data in XAudio2.
 ms.assetid: 5172b31c-d2af-45aa-5bd4-b62502f3c047
 ms.topic: article
-ms.date: 08/14/2024
+ms.date: 08/15/2024
 ---
 
 # How to: Play a sound with XAudio2
