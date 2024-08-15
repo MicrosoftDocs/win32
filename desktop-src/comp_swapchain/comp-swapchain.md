@@ -17,7 +17,7 @@ At the heart of presentation is synchronization. That is, drawing operations are
 
 Your application will generally issue many presents over time, and have multiple textures to select from when issuing presents. Your application must use the synchronization mechanisms that this API provides to ensure that once you draw to and present a buffer, you don't draw to that buffer again until that present has been shown and subsequently replaced with a new buffer from a subsequent present. Otherwise, the buffer contents that your application meant to present initially can be overwritten as that present is shown on screen.
 
-## Presentation modes&mdash;composition, multiplane overlay, and iflip
+## Presentation modes&mdash;composition, multiplane overlay, and independent flip
 
 Buffers presented by your application can be displayed by the system in a few different ways.
 
@@ -28,6 +28,9 @@ A more performant mode of displaying a present would be to scan out the presenta
 An even more performant way to display a present would be to have presents be displayed directly by the graphics kernel, and bypass the DWM entirely. This method of presentation is known as *independent flip* (iflip). Both multiplane overlay and iflip are described in [For best performance, use DXGI flip model](https://devblogs.microsoft.com/directx/dxgi-flip-model/).
 
 Composition is the most easily supported, but also the least efficient. The surface needs to be specially allocated to be eligible for direct scanout or iflip, and this type of special allocation has stricter system-requirements than composition swapchain. It is only available on WDDM 3.0 and greater hardware. As a result, your application can query API support for Composition-only presentation, as well as presentation that qualifies for direct scanout or iflip.
+
+> [!NOTE]
+> In order for your surfaces to be able to take advantage of these more optimized presentation modes automatically, the surfaces need to be allocated as being directly displayable by the GPU. For Direct3D 11 surfaces, you must allocate your surfaces as [displayable](/windows/win32/direct3d11/displayable-surfaces.md). Surfaces that are not allocated as displayable can still be composited by the system compositor onscreen but will never get the benefits of independent flip mode.
 
 ## Presentation factory, checking capability, and presentation manager
 
