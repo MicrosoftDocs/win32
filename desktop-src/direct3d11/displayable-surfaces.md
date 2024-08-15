@@ -23,6 +23,8 @@ Textures with **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** are restricted to an ar
 
 When you use the [**D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE**](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) flag on the texture, you can show the texture on any active output (including multiple outputs simultaneously). Depending on the scenario, the texture might end up being consumed by the compositor (DWM), scanned out, or bound to various parts of the pipeline&mdash;potentially all simultaneously. For example, a capture texture from a camera might be shown on two displays, and a thumbnail of it shown on a third display, all at the same time&mdash;and all from the same allocation with no additional copies. In the case where a displayable surface is to be scanned out on multiple displays, the OS will coordinate the collection of flip completes from the involved outputs before alerting your application that the surface is released back to it&mdash;no coordination of flip completion is required from the driver.
 
+To present a displayable texture to the screen, you can use the [Composition Swapchain API](/windows/win32/comp_swapchain/comp-swapchain-portal.md). By using displayable surfaces rather than plain surfaces, the system is able to optimize presentation in some situations to bypass the system compositor and scanout the surfaces directly which reduces GPU/CPU overhead as well as overall latency. This is similar to using DXGI swapchains with the "flip" presentation modes. See [For best performance, use DXGI flip model](https://devblogs.microsoft.com/directx/dxgi-flip-model/) for more information.
+
 Such textures as described above must be displayable for flexible presentation use. These textures are not required to have the same properties&mdash;for example, formats and sizes can differ, and these textures must be able to be displayed in arbitrary order ("out-of-order presentation"). Presentation will occur using the existing **Present1** DDI, with its existing calling patterns. For example, consider a pool of six buffers, three that are 720p (A, B, and C) and three that are 4K (D, E, and F): a valid presentation order could be A-\>E-\>C-\>B-\>F-\>E-\>D-\>C.
 
 ## Formats
@@ -63,3 +65,8 @@ Existing supported usages of shared resources with the **D3D11_BIND_VIDEO_ENCODE
 **D3D11_BIND_VIDEO_ENCODER** and **D3D11_BIND_SHADER_RESOURCE** were previously mutually exclusive, except when combined with certain other bind flags. The exception has been extended to allow **D3D11_BIND_VIDEO_ENCODER** and **D3D11_BIND_SHADER_RESOURCE** to be used together when **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** is used.
 
 The **D3D11_RESOURCE_MISC_HW_PROTECTED** flag is supported with the **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** flag.
+
+## Related topics
+
+* [Composition swapchain](/win32/desktop-src/comp-swapchain/comp-swapchain-portal.md)
+* [For best performance, use DXGI flip model](https://devblogs.microsoft.com/directx/dxgi-flip-model/)
