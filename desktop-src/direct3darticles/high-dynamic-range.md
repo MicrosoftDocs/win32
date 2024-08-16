@@ -216,7 +216,7 @@ To handle changes in Advanced Color capabilities, register for the [**DisplayInf
 
 Handle that event by obtaining a new instance of **AdvancedColorInfo**, and checking which values have changed.
 
-### IDXGIOutput6
+### Option 2: IDXGIOutput6
 
 > [!NOTE]
 > The DirectX Graphics Infrastructure [**IDXGIOutput6**](/windows/win32/api/dxgi1_6/nn-dxgi1_6-idxgioutput6) interface is available for any app that uses DirectX, whether it's desktop or Universal Windows Platform (UWP). However, **IDXGIOutput6** *doesn't* support SDR displays with Advanced Color capabilities such as auto color management; it can identify only HDR displays.
@@ -297,6 +297,135 @@ ThrowIfFailed(bestOutput.As(&output6));
 
 DXGI_OUTPUT_DESC1 desc1;
 ThrowIfFailed(output6->GetDesc1(&desc1));
+```
+
+### Option 3: IDXGISwapChain3
+
+If you have a swap chain, and want to know whether a certain Advanced Color color space is supported even if not active, you can use [**IDXGISwapChain3::CheckColorSpaceSupport**](/windows/win32/api//dxgi1_4/nf-dxgi1_4-idxgiswapchain3-checkcolorspacesupport).
+
+```cpp
+UINT colorSpaceSupport = 0;
+HRESULT hr = swapChain3->CheckColorSpaceSupport(DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020, &colorSpaceSupport);
+if (SUCCEEDED(hr) && (colorSpaceSupport & DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG_PRESENT))
+{
+   // The queried color space is supported, but not necessarily active
+}
+```
+
+### Option 4: Display Config Device Info
+
+With this method, it's possible to know whether Advanced Color is supported and or is active on every display. It's also possible to toggle the Advanced Color state from it, in case we didn't want the user to have to do it manually.
+For more information, see [**DisplayConfigGetDeviceInfo**](/windows/win32/api/winuser/nf-winuser-querydisplayconfig) and [**DISPLAYCONFIG_DEVICE_INFO_TYPE**](/windows/win32/api/wingdi/ne-wingdi-displayconfig_device_info_type).
+
+```cpp
+bool getDisplayConfigPathInfoFromWindow(HWND hWnd, DISPLAYCONFIG_PATH_INFO& outPath)
+{
+  uint32_t pathCount = 0;
+  uint32_t modeCount = 0;
+  if (ERROR_SUCCESS != GetDisplayConfigBufferSizes(QDC_ONLY_ACTIVE_PATHS, &pathCount, &modeCount))
+    return false;
+  std::vector<DISPLAYCONFIG_PATH_INFO> paths(pathCount);
+  std::vector<DISPLAYCONFIG_MODE_INFO> modes(modeCount);
+
+  if (ERROR_SUCCESS != QueryDisplayConfig(QDC_ONLY_ACTIVE_PATHS, &pathCount, paths.data(), &modeCount, modes.data(), nullptr))
+    return false;
+
+  const HMONITOR windowMonitor = MonitorFromWindow(hWnd, MONITOR_DEFAULTTONULL);
+  // Find the path that matches our window
+  for (const DISPLAYCONFIG_PATH_INFO& path : paths)
+  {
+    if ((path.flags & DISPLAYCONFIG_PATH_ACTIVE) && (path.sourceInfo.statusFlags & DISPLAYCONFIG_SOURCE_IN_USE))
+    {
+      const bool bVirtual = path.flags & DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE;
+      const DISPLAYCONFIG_SOURCE_MODE& sourceMode = modes[bVirtual ? path.sourceInfo.sourceModeInfoIdx : path.sourceInfo.modeInfoIdx].sourceMode;
+
+      RECT rect;
+      rect.left = sourceMode.position.x;
+      rect.top = sourceMode.position.y;
+      rect.right = sourceMode.position.x + sourceMode.width;
+      rect.bottom = sourceMode.position.y + sourceMode.height;
+
+      if (!IsRectEmpty(&rect))
+      {
+        HMONITOR modeMonitor = MonitorFromRect(&rect, MONITOR_DEFAULTTONULL);
+        if (modeMonitor != 0 && modeMonitor == windowMonitor)
+        {
+          outPath = path;
+          return true;
+        }
+      }
+    }
+  }
+  return false;
+}
+
+bool isHDRSupportedDisplay(HWND hWnd)
+{
+  DISPLAYCONFIG_PATH_INFO path;
+  if (getDisplayConfigPathInfoFromWindow(hWnd, path))
+  {
+    DISPLAYCONFIG_GET_ADVANCED_COLOR_INFO getColorInfo = {};
+    getColorInfo.header.type = DISPLAYCONFIG_DEVICE_INFO_GET_ADVANCED_COLOR_INFO;
+    getColorInfo.header.size = sizeof(getColorInfo);
+    getColorInfo.header.adapterId = path.targetInfo.adapterId;
+    getColorInfo.header.id = path.targetInfo.id;
+
+    if (ERROR_SUCCESS == DisplayConfigGetDeviceInfo(&getColorInfo.header))
+    {
+      return getColorInfo.advancedColorSupported;
+    }
+  }
+  return false;
+}
+
+bool isHDREnabledDisplay(HWND hWnd)
+{
+  DISPLAYCONFIG_PATH_INFO path;
+  if (getDisplayConfigPathInfoFromWindow(hWnd, path))
+  {
+    DISPLAYCONFIG_GET_ADVANCED_COLOR_INFO getColorInfo = {};
+    getColorInfo.header.type = DISPLAYCONFIG_DEVICE_INFO_GET_ADVANCED_COLOR_INFO;
+    getColorInfo.header.size = sizeof(getColorInfo);
+    getColorInfo.header.adapterId = path.targetInfo.adapterId;
+    getColorInfo.header.id = path.targetInfo.id;
+
+    if (ERROR_SUCCESS == DisplayConfigGetDeviceInfo(&getColorInfo.header))
+    {
+      return getColorInfo.advancedColorEnabled;
+    }
+  }
+  return false;
+}
+
+// Returns true if the HDR state always was, or now is, equal to the target one
+bool setHDREnabledDisplay(HWND hWnd, bool enable)
+{
+  DISPLAYCONFIG_PATH_INFO path;
+  if (getDisplayConfigPathInfoFromWindow(hWnd, path))
+  {
+    DISPLAYCONFIG_GET_ADVANCED_COLOR_INFO getColorInfo = {};
+    getColorInfo.header.type = DISPLAYCONFIG_DEVICE_INFO_GET_ADVANCED_COLOR_INFO;
+    getColorInfo.header.size = sizeof(getColorInfo);
+    getColorInfo.header.adapterId = path.targetInfo.adapterId;
+    getColorInfo.header.id = path.targetInfo.id;
+
+    if (ERROR_SUCCESS == DisplayConfigGetDeviceInfo(&getColorInfo.header))
+    {
+      if (getColorInfo.advancedColorSupported && static_cast<bool>(getColorInfo.advancedColorEnabled) != enable)
+      {
+        DISPLAYCONFIG_SET_ADVANCED_COLOR_STATE setColorState = {};
+        setColorState.header.type = DISPLAYCONFIG_DEVICE_INFO_SET_ADVANCED_COLOR_STATE;
+        setColorState.header.size = sizeof(setColorState);
+        setColorState.header.adapterId = getColorInfo.header.adapterId;
+        setColorState.header.id = getColorInfo.header.id;
+        setColorState.enableAdvancedColor = enable;
+        return (ERROR_SUCCESS == DisplayConfigSetDeviceInfo(&setColorState.header));
+      }
+      return static_cast<bool>(getColorInfo.advancedColorEnabled) == enable;
+    }
+  }
+  return false;
+}
 ```
 
 ## Setting up Your DirectX swap chain
