@@ -13,7 +13,7 @@ ms.date: 08/15/2024
 
 To populate the structures required to play audio data in XAudio2:
 * You can load or stream an audio file,
-* or you can generate a waveform of your own and represent that waveform as samples in a buffer.
+* or you can generate a waveform of your own and represent that waveform as samples in a buffer (see [A simple XAudio2 project in full](./full-project.md)).
 
 This topic focuses on the method of loading an audio file. The following steps load the `fmt` and `data` chunks of an audio file, and use them to populate a [**WAVEFORMATEXTENSIBLE**](/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) structure and an [**XAUDIO2_BUFFER**](/windows/win32/api/xaudio2/ns-xaudio2-xaudio2_buffer) structure.
 
@@ -186,6 +186,7 @@ The following steps illustrate using the functions described above to populate a
 
 ## Related topics
 
-* [Getting started](getting-started.md)
-* [How to: Play a sound with XAudio2](how-to--play-a-sound-with-xaudio2.md)
-* [XAudio2 programming reference](programming-reference.md)
+* [Getting started](./getting-started.md)
+* [A simple XAudio2 project in full](./full-project.md)
+* [How to: Play a sound with XAudio2](./how-to--play-a-sound-with-xaudio2.md)
+* [XAudio2 programming reference](./programming-reference.md)
