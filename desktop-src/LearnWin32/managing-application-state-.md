@@ -267,7 +267,7 @@ public:
 To create the window, call `BaseWindow::Create`:
 
 ```C++
-int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow)
+int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow)
 {
     MainWindow win;
 
