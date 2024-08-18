@@ -48,7 +48,7 @@ Flag that specifies which duration value will be retrieved. This parameter can h
 
 ## Return value
 
-Returns and INT value with the specified duration in milliseconds.
+Returns an INT value with the specified duration in milliseconds.
 
 ## Requirements
 
