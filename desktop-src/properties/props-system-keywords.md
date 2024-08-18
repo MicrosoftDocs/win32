@@ -27,7 +27,7 @@ propertyDescription
 
 ## Remarks
 
-PKEY values are defined in Propkey.h.
+PKEY values are defined in Propkey.h.  A maximum of 20 keywords can be stored.
 
 ## Related topics
 
