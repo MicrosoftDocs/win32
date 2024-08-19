@@ -38,12 +38,6 @@ The low byte of the low-order word specifies the virtual-key code to associate w
 
 The high byte of the low-order word can be one or more of the following values from CommCtrl.h.
 
-The high-order word of *wParam* is ignored.
-
-Setting *wParam* to **NULL** removes the hot key associated with a window.
-
-
-
 | Value                                                                                                                                                                                                                         | Meaning                 |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
 | <span id="HOTKEYF_ALT"></span><span id="hotkeyf_alt"></span><dl> <dt>**HOTKEYF\_ALT**</dt> <dt>0x04</dt> </dl>             | ALT key<br/>      |
@@ -52,7 +46,9 @@ Setting *wParam* to **NULL** removes the hot key associated with a window.
 | <span id="HOTKEYF_SHIFT"></span><span id="hotkeyf_shift"></span><dl> <dt>**HOTKEYF\_SHIFT**</dt> <dt>0x01</dt> </dl>       | SHIFT key<br/>    |
 
 
+The high-order word of *wParam* is ignored.
 
+Setting *wParam* to **NULL** removes the hot key associated with a window.
  
 
 </dd> <dt>
