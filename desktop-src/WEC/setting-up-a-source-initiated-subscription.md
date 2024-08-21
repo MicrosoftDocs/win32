@@ -182,24 +182,25 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 ### Configure certificate mapping on the Event Collector
 
 1. Create new local user.
-2. Make it local Administrator on the collector.
-3. Create the certificate mapping using a certificate that is present in the machine’s “Trusted Root Certification Authorities” or “Intermediate Certification Authorities”.
+2. Make this new user a local Administrator on the collector.
+3. Create the certificate mapping using a certificate that is present in the “Trusted Root Certification Authorities” or “Intermediate Certification Authorities” of the machine.
 
-    This is the certificate of the Root or Intermediate CA that issued the certificates installed on the Event Source computers *(to avoid confusion, this is the CA immediately above the certificate in the certificate chain)*:
+    > [!NOTE]
+    > This is the certificate of the Root or Intermediate Certification Authorities (CA) that issued the certificates installed on the Event Source computers (the CA immediately above the certificate in the certificate chain):
 
     **winrm create winrm/config/service/certmapping?Issuer**=&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=&#42; @{UserName="**&lt;_username_&gt;**";Password="**&lt;_password_&gt;**"} -remote:localhost**
 
-4. From a client test the listener and the certificate mapping with the following command:
+4. From a client, use the following command to test the listener and the certificate mapping:
 
     **winrm g winrm/config -r:https://**&lt;_Event Collector FQDN_&gt;**:5986 -a:certificate -certificate:"**&lt;_Thumbprint of the client authentication certificate_&gt;**"**
 
     This should return the WinRM configuration of the Event collector. **Do not** move past this step if the configuration is not displayed.
 
     **What happens at this step?**
-    - The client connects to the Event Collector and sends the specified certificate
-    - The Event Collector looks for the issuing CA and checks if the is a matching certificate mapping
-    - The Event Collector validates the client certificate chain and revocations status
-    - If the above steps succeeds the authentication is completed.
+    - The client connects to the Event Collector and sends the specified certificate.
+    - The Event Collector looks for the issuing CA and checks if the is a matching certificate mapping.
+    - The Event Collector validates the client certificate chain and revocations status.
+    - If these steps succeed the authentication is completed.
 
 > [!NOTE]
 > You might get an Access denied error complaining about the authentication method, which could be misleading. To troubleshoot, check the CAPI log on the Event Collector.
@@ -208,7 +209,7 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
   **winrm enum winrm/config/service/certmapping**
 
 > [!NOTE]
-> Local user created in step 1. is never used to impersonate the user connecting using certificate authentication in a EventLog Forwarding scenario. For that reason, it can be deleted afterwards. If you plan to use certificate authentication in a different scenario, like Remote Powershell for example, you'll need to keep this user.
+> The Local user created in step 1 is never used to impersonate the user connecting through certificate authentication in an EventLog Forwarding scenario and can be deleted afterwards. If you plan to use certificate authentication in a different scenario, such as Remote Powershell, do not delete the Local user.
 
 ### Event Source computer Configuration
 
