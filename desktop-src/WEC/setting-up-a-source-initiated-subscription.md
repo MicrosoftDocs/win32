@@ -182,13 +182,14 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 ### Configure certificate mapping on the Event Collector
 
 1. Create new local user.
-2. Create the certificate mapping using a certificate that is present in the machine’s “Trusted Root Certification Authorities” or “Intermediate Certification Authorities”.
+2. Make it local Administrator on the collector.
+3. Create the certificate mapping using a certificate that is present in the machine’s “Trusted Root Certification Authorities” or “Intermediate Certification Authorities”.
 
     This is the certificate of the Root or Intermediate CA that issued the certificates installed on the Event Source computers *(to avoid confusion, this is the CA immediately above the certificate in the certificate chain)*:
 
     **winrm create winrm/config/service/certmapping?Issuer**=&lt;_Thumbprint of the issuing CA certificate_&gt;**+Subject=&#42;+URI=&#42; @{UserName="**&lt;_username_&gt;**";Password="**&lt;_password_&gt;**"} -remote:localhost**
 
-3. From a client test the listener and the certificate mapping with the following command:
+4. From a client test the listener and the certificate mapping with the following command:
 
     **winrm g winrm/config -r:https://**&lt;_Event Collector FQDN_&gt;**:5986 -a:certificate -certificate:"**&lt;_Thumbprint of the client authentication certificate_&gt;**"**
 
@@ -203,8 +204,11 @@ Find more information in this article: https://technet.microsoft.com/library/dn7
 > [!NOTE]
 > You might get an Access denied error complaining about the authentication method, which could be misleading. To troubleshoot, check the CAPI log on the Event Collector.
 
-4. List the configured certmapping entries with the command:
+5. List the configured certmapping entries with the command:
   **winrm enum winrm/config/service/certmapping**
+
+> [!NOTE]
+> Local user created in step 1. is never used to impersonate the user connecting using certificate authentication in a EventLog Forwarding scenario. For that reason, it can be deleted afterwards. If you plan to use certificate authentication in a different scenario, like Remote Powershell for example, you'll need to keep this user.
 
 ### Event Source computer Configuration
 
