@@ -43,8 +43,8 @@ For more details, see [Windows umbrella libraries](windows-umbrella-libraries.md
 API sets are identified by a strong contract name that follows these standard conventions recognized by the library loader. 
 
 - The name must begin either with the string **api-** or **ext-**. 
-    - Names that begin with **api-** represent APIs that are guaranteed to exist on all Windows versions.
-    - Names that begin with **ext-** represent APIs that may not exist on all Windows versions.
+    - Names that begin with **api-** represent APIs that exist on all Windows editions that satisfy the API's version requirements.
+    - Names that begin with **ext-** represent APIs that may not exist on all Windows editions.
 - The name must end with the sequence **l\<n\>-\<n\>-\<n\>**, where **n** consists of decimal digits.
 - The body of the name can be alphanumeric characters, or dashes (**-**).
 - The name is case insensitive.
