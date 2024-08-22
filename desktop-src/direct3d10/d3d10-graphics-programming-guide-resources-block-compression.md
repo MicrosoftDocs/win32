@@ -236,9 +236,6 @@ The algorithm uses the 3-bit indices to look up colors from a color table that c
 
 The algorithm determines the number of interpolated color values by examining the two reference values. If red\_0 is greater than red\_1, then BC4 interpolates 6 color values; otherwise, it interpolates 4. When BC4 interpolates only 4 color values, it sets two additional color values (0.0f for fully transparent and 1.0f for fully opaque). BC4 compresses the alpha values in the 4×4 texel area by storing the bit code corresponding to the interpolated alpha values that most closely matches the original alpha for a given texel.
 
--   [BC4\_UNORM](/windows)
--   [BC4\_SNORM](/windows)
-
 ### BC4\_UNORM
 
 The interpolation of the single-component data is done as in the following code sample.
