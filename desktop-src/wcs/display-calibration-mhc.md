@@ -4,7 +4,7 @@ description: This topic covers display color calibration using a new GPU display
 keywords:
 - Windows hardware display color calibration pipeline
 ms.topic: article
-ms.date: 09/22/2022
+ms.date: 08/28/2024
 ---
 
 # Windows hardware display color calibration pipeline
@@ -221,7 +221,7 @@ An MHC ICC profile must contain one MHC2 tag structure. The matrix and 1DLUT col
 
 | Byte Position | Field Length (bytes) | Content | Data type        |
 | ------------- | -------------------- | ------- | ---------------- |
-| 0 to 23       | 24                   | 3x4 XYZ to XYZ adjustment matrix <br /> stored in row major order, column 4 is ignored **[1]** | s15Fixed16Number |
+| 0 to 47       | 48                   | 3x4 XYZ to XYZ adjustment matrix <br /> stored in row major order, column 4 is ignored **[1]** | s15Fixed16Number |
 
 **[1]** The matrix structure is sized to fit 12 elements for a 3x4 matrix in row major order. However, Windows uses only data from the left three columns, effectively defining a 3x3 matrix. For example, storing these 12 values in linear order:
 
