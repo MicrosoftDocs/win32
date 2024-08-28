@@ -61,7 +61,7 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
 ---
 
 > [!NOTE]  
-> This registry setting can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
+> This registry setting can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`. The policy can also be applied with Microsoft Intune using [Policy Configuration Service Provider (CSP)](/windows/client-management/mdm/policy-configuration-service-provider).
 
 ### Application manifest updates to declare long path capability
 
