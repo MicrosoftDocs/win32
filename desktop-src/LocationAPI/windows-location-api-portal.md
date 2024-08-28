@@ -3,12 +3,13 @@ description: Location API
 ms.assetid: 0182461a-df06-46ea-a9c2-7aedbde5033b
 title: Location API
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/28/2024
 ---
 
 # Location API
 
-\[The Win32 Location API and is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [**Windows.Devices.Geolocation**](/uwp/api/Windows.Devices.Geolocation) API. To access location from a website, use the [W3C Geolocation API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). \]
+> [!IMPORTANT]
+> This documentation is for the Win32/COM Location API. It's available for use in the operating systems (OSes) that are specified in the Requirements section of each individual API reference topic. This API might be altered or unavailable in later OS versions. So we recommend that you use the Windows Runtime [**Windows.Devices.Geolocation**](/uwp/api/Windows.Devices.Geolocation) API instead. To access location from a website, you can use the W3C Geolocation API (see [Introduction to the Geolocation API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85))).
 
 ## Purpose
 
@@ -29,9 +30,5 @@ The Location API provides its functionality through a set of COM interfaces. Loc
 
 ## In this section
 
--   [Location API C++ Programming Reference](windows-location-programming-reference.md)
--   [Location API Object Model Reference](windows-location-script-programming-reference.md)
-
- 
-
- 
+* [Location API C++ programming reference](./windows-location-programming-reference.md)
+* [Location API object model reference](./windows-location-script-programming-reference.md)
