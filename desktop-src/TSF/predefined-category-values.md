@@ -41,11 +41,11 @@ GUIDs for the property category. Each category contains Property GUID.
 
 GUIDs for the property style.
 
-|  Identifier                      |
-|----------------------------------|
-GUID_TFCAT_PROPSTYLE_CUSTOM        |
-GUID_TFCAT_PROPSTYLE_STATIC        |
-GUID_TFCAT_PROPSTYLE_STATICCOMPACT |
+|  Identifier                        |
+|------------------------------------|
+| GUID_TFCAT_PROPSTYLE_CUSTOM        |
+| GUID_TFCAT_PROPSTYLE_STATIC        |
+| GUID_TFCAT_PROPSTYLE_STATICCOMPACT |
 
 GUIDs for the display attribute provider category.
 
