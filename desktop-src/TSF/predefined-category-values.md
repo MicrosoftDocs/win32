@@ -20,7 +20,7 @@ GUIDs for the Tips category. Each category contains Tips classes.
 | GUID_TFCAT_TIP_SPEECH      |
 | GUID_TFCAT_TIP_HANDWRITING |
 
-**Starting Windows 8:** GUIDs for the tip capability category. Each category contains Property GUID.
+GUIDs for the tip capability category. Each category contains Property GUID.
 
 |  Identifier                            |
 |----------------------------------------|
