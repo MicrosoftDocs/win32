@@ -42,11 +42,11 @@ Handle to the pktmon driver which was obtained by first calling ‘PacketMonitor
 
 ### [in] name
 
-Name to identify the session.  The maximum length allowed is 256. Minimum is 1. 
+Name to identify the session. The maximum length allowed is 256. Minimum is 1. 
 
 ### [out] session
 
-This is declared in packetmonitor.h as ‘DECLARE_HANDLE(PACKETMONITOR_SESSION)’.
+This is declared as ‘DECLARE_HANDLE(PACKETMONITOR_SESSION)’.
 
 If SUCCESS, this will contain the object to the session. Later, the session can be controlled through the same object for functions like:
 

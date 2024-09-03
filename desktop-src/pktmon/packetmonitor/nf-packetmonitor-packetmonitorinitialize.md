@@ -47,7 +47,7 @@ This parameter is reserved and must be NULL.
 ### [out] handle
 
 A pointer to a variable that receives a handle to the packet monitor driver. This will be of type - PACKETMONITOR_HANDLE.
-This is declared in packetmonitor.h as ‘DECLARE_HANDLE(PACKETMONITOR_HANDLE)’.
+This is declared in as ‘DECLARE_HANDLE(PACKETMONITOR_HANDLE)’.
 
 ## Returns
 
