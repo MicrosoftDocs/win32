@@ -8,7 +8,7 @@ keywords:
 - Active Directory, Using, Schema
 - Active Directory, Using, Schema, Extending the Schema, How to Extend
 ms.topic: article
-ms.date: 02/09/2023
+ms.date: 09/05/2024
 ---
 
 # How to extend the schema
@@ -33,7 +33,7 @@ To verify Active Directory functionality before you apply the schema extension:
 
    All domain controllers should show `0` in the `Fails` column, and the largest deltas (which indicate the number of changes that have been made to the Active Directory database since the last successful replication) should be less than or roughly equal to the replication frequency of the site link that is used by the domain controller for replication. The default replication frequency is 180 minutes.
 
-   For more information about additional steps that you can take to verify Active Directory functionality before you apply the schema extension, see [article 325379 in the Microsoft Knowledge Base](https://support.microsoft.com/kb/325379).
+   For more information about additional steps that you can take to verify Active Directory functionality before you apply the schema extension, see [How to upgrade Windows 2000 domain controllers to Windows Server 2003](/troubleshoot/windows-server/active-directory/add-domain-controllers-to-windows-2000-domain#domain-and-forest-inventory).
 
 ## Extending the schema
 

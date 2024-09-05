@@ -6,7 +6,7 @@ keywords:
 - System Restore
 - System Restore, start page
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/05/2024
 ---
 
 # System Restore
@@ -15,10 +15,8 @@ ms.date: 05/31/2018
 
 System Restore automatically monitors and records key system changes on a user's computer. It is designed to reduce support costs and increase customer satisfaction by enabling a user to undo a change that may have caused a problem with the system, or revert to a day when the system was performing optimally.
 
-> [!Note]  
-> The following documentation is targeted for developers. If you are an end-user looking for information on how to use System Restore, see [What Is System Restore?](https://windows.microsoft.com/windows/What-is-System-Restore#1TC=windows-7)
-
- 
+> [!NOTE]
+> The following documentation is targeted for developers. If you are an end-user looking for information on how to use Windows Backup, see [Back up your Windows PC](https://support.microsoft.com/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338).
 
 ## Developer audience
 
@@ -30,24 +28,14 @@ The System Restore API is supported on client operating systems starting with Wi
 
 ## In this section
 
-
-
-| Topic                                                | Description                                                                    |
-|------------------------------------------------------|--------------------------------------------------------------------------------|
-| [Overview](about-system-restore.md)<br/>      | An overview of how System Restore works.<br/>                            |
-| [Reference](system-restore-reference.md)<br/> | Documentation of System Restore functions, structures, and classes.<br/> |
-| [Samples](using-system-restore.md)<br/>       | A sample program written in C.<br/>                                      |
-
-
-
- 
+| Topic                                    | Description                                                         |
+|------------------------------------------|---------------------------------------------------------------------|
+| [Overview](about-system-restore.md)      | An overview of how System Restore works.                            |
+| [Reference](system-restore-reference.md) | Documentation of System Restore functions, structures, and classes. |
+| [Samples](using-system-restore.md)       | A sample program written in C.                                      |
 
 ## Related topics
 
-<dl> <dt>
+[WMI](/windows/win32/WmiSdk/wmi-start-page)
 
-[WMI](/windows/desktop/WmiSdk/wmi-start-page)
-</dt> </dl>
-
- 
-
+[Back up your Windows PC](https://support.microsoft.com/windows/back-up-your-windows-pc-87a81f8a-78fa-456e-b521-ac0560e32338)

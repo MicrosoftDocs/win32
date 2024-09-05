@@ -24,18 +24,18 @@ ms.date: 05/31/2018
 
 Applications that request or perform backup and restore operations should use the following registry keys and values to communicate with each other or with features such as the [Volume Shadow Copy Service (VSS)](/windows/desktop/VSS/volume-shadow-copy-service-portal) and Windows Backup:
 
--   [CustomPerformanceSettings](#customperformancesettings)
--   [DisableMonitoring](#disablemonitoring)
--   [FilesNotToBackup](#filesnottobackup)
--   [FilesNotToSnapshot](#filesnottosnapshot)
--   [IdleTimeout](#idletimeout)
--   [KeysNotToRestore](#keysnottorestore)
--   [LastInstance](#lastinstance)
--   [LastRestoreId](#lastrestoreid)
--   [MaxShadowCopies](#maxshadowcopies)
--   [MinDiffAreaFileSize](#mindiffareafilesize)
--   [OverallPerformanceSetting and CustomPerformanceSettings](#overallperformancesetting-and-customperformancesettings)
--   [SYSVOL](#sysvol)
+- [CustomPerformanceSettings](#customperformancesettings)
+- [DisableMonitoring](#disablemonitoring)
+- [FilesNotToBackup](#filesnottobackup)
+- [FilesNotToSnapshot](#filesnottosnapshot)
+- [IdleTimeout](#idletimeout)
+- [KeysNotToRestore](#keysnottorestore)
+- [LastInstance](#lastinstance)
+- [LastRestoreId](#lastrestoreid)
+- [MaxShadowCopies](#maxshadowcopies)
+- [MinDiffAreaFileSize](#mindiffareafilesize)
+- [OverallPerformanceSetting and CustomPerformanceSettings](#overallperformancesetting-and-customperformancesettings)
+- [SYSVOL](#sysvol)
 
 ## CustomPerformanceSettings
 
@@ -53,8 +53,8 @@ This value does not exist by default, so it must be created under the following 
 
 The **DisableMonitoring** registry value has the data type REG\_DWORD and is interpreted as follows:
 
--   If the value's data is set to 1 and if users have not already configured the Windows Backup feature, the automatic notifications are turned off. If an automatic notification is already present in Action Center, setting this registry value causes the notification to be removed at 10:00 the following morning.
--   If the value does not exist, if its data is not set, or if its data is set to zero, the automatic notifications are not turned off.
+- If the value's data is set to 1 and if users have not already configured the Windows Backup feature, the automatic notifications are turned off. If an automatic notification is already present in Action Center, setting this registry value causes the notification to be removed at 10:00 the following morning.
+- If the value does not exist, if its data is not set, or if its data is set to zero, the automatic notifications are not turned off.
 
 **Windows Vista and Windows XP:** This registry value is not supported.
 
@@ -64,11 +64,11 @@ The **FilesNotToBackup** registry key specifies the names of the files and direc
 
 \[*Drive*\]\[*Path*\]\\*FileName* \[/s\]
 
--   *Drive* specifies the drive and is optional. For example, c:. To specify all drives, use a backslash (\\); no drive letters are needed.
--   *Path* specifies the path and is optional. It cannot contain wildcard characters.
--   *FileName* specifies the file or directory and is required. It can contain wildcard characters.
--   /s specifies that all subdirectories of the specified path are to be included.
--   Environment variables such as %Systemroot% can be substituted for all or part of the entire string.
+- *Drive* specifies the drive and is optional. For example, c:. To specify all drives, use a backslash (\\); no drive letters are needed.
+- *Path* specifies the path and is optional. It cannot contain wildcard characters.
+- *FileName* specifies the file or directory and is required. It can contain wildcard characters.
+- /s specifies that all subdirectories of the specified path are to be included.
+- Environment variables such as %Systemroot% can be substituted for all or part of the entire string.
 
 The following table shows some typical entries.
 
@@ -82,14 +82,8 @@ The following table shows some typical entries.
 | Single Instance Storage                | \\SIS Common Store\\\*.\* /s                                                              |
 | Temporary Files                        | %TEMP%\\\* /s                                                                             |
 
-
-
- 
-
-> [!Note]  
+> [!NOTE]
 > Applications that perform volume-level backups generally do so by copying the entire volume at the block level, so they cannot honor the **FilesNotToBackup** registry key at backup time. Instead, they wait until restore time to delete the files that were not to be backed up. In most cases, this is a reasonable strategy. However, in the case of Single Instance Storage files, the SIS Common Store files must not be deleted at restore time.
-
- 
 
 For block-level volume backups, Windows Server Backup and the Windows Wbadmin utility honor the **FilesNotToBackup** registry key by deleting the appropriate files at restore time. System Restore and System State Backup do not honor the **FilesNotToBackup** registry key.
 
@@ -113,17 +107,17 @@ This registry value can be found under the following registry key:
 
 If this registry value does not exist:
 
--   The actual timeout value that is used is 180 seconds (3 minutes) by default.
--   You can create a value with the name **IdleTimeout** and the type DWORD and set it to the desired value.
+- The actual timeout value that is used is 180 seconds (3 minutes) by default.
+- You can create a value with the name **IdleTimeout** and the type DWORD and set it to the desired value.
 
 If this registry value is set to 0 seconds:
 
--   The actual timeout value that is used is 180 seconds (3 minutes).
+- The actual timeout value that is used is 180 seconds (3 minutes).
 
 If you set this registry value:
 
--   VSS uses the timeout value that you set.
--   You can specify any value between 1 and FFFFFFFF seconds. However, it is recommended that you choose a value between 1 and 180 seconds.
+- VSS uses the timeout value that you set.
+- You can specify any value between 1 and FFFFFFFF seconds. However, it is recommended that you choose a value between 1 and 180 seconds.
 
 **Windows Server 2003 and Windows XP:** This registry key is not supported.
 
@@ -171,14 +165,13 @@ If the **MaxShadowCopies** registry value does not exist, the backup application
 
 Create a value with the name **MaxShadowCopies** and type DWORD. The default data for this value is 64. The minimum is 1. The maximum is 512.
 
-> [!Note]  
+> [!NOTE]
 > For other types of shadow copies, there is no registry value that corresponds to **MaxShadowCopies**. The maximum number of shadow copies is 512 per volume.
 
- 
+> [!NOTE]
+> The **MaxShadowCopies** setting is supported on Windows Server 2003 or later.
 
-**Note**  The **MaxShadowCopies** setting is supported on Windows Server 2003 or later.
-
-**Windows Server 2003:** On cluster servers, **MaxShadowCopies** registry value's data may need to be set to a lower number. For more information, see "When you use the Volume Shadow Copy Service on Windows Server 2003-based computers that run many I/O operations, disk volumes take longer to go online" in the Help and Support Knowledge Base at [https://support.microsoft.com/kb/945058](https://support.microsoft.com/kb/945058).
+**Windows Server 2003:** On cluster servers, **MaxShadowCopies** registry value's data may need to be set to a lower number. For more information, see [Disk volumes take longer to go online when you use the Volume Shadow Copy Service on computers that run many I/O operations](/troubleshoot/windows-server/backup-and-storage/volume-shadow-copy-service-take-longer-online).
 
 **Windows XP:** This registry value is not supported.
 
@@ -214,27 +207,23 @@ If these registry values do not exist, the backup application can create them un
 
 To specify performances settings for all volumes, create a value with the name **OverallPerformanceSetting** and type REG\_DWORD. The value's data should be set to one of the following values.
 
-| Value | Meaning                                                                                                                                                                                                                                   |
-|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Value | Meaning |
+|-------|---------|
 | 1     | Normal backup performance (by using full backups). This setting corresponds to the Normal backup performance setting described in [Optimizing Backup and Server Performance](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)).            |
 | 2     | Faster backup performance (by using incremental backups). This setting corresponds to the Faster backup performance setting described in [Optimizing Backup and Server Performance](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)).     |
 | 3     | Custom backup performance (by specifying a performance setting for each volume). This setting corresponds to the Custom setting described in [Optimizing Backup and Server Performance](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)). |
 
-
-
- 
-
 If you set **OverallPerformanceSetting** to 3, you must also specify performances settings for each volume individually. To do this, create a value with the name **CustomPerformanceSettings** and type REG\_MULTI\_SZ. This value's data should be set as follows:
 
--   Each string in the REG\_MULTI\_SZ sequence of strings contains the setting for a volume.
--   Each string consists of a volume GUID, followed by a comma, followed by a DWORD value.
--   Each of the DWORD values is either 1 (full backup) or 2 (incremental backup).
+- Each string in the REG\_MULTI\_SZ sequence of strings contains the setting for a volume.
+- Each string consists of a volume GUID, followed by a comma, followed by a DWORD value.
+- Each of the DWORD values is either 1 (full backup) or 2 (incremental backup).
 
 For example, suppose the computer has two volumes as follows:
 
--   The two volumes are C:\\ and D:\\.
--   The GUID for volume C:\\ is 07c473ca4-2df8-11de-9d80-806e6f6e6963, and the GUID for volume D:\\ is 0ac22ea6c-712f-11de-adb0-00215a67606e.
--   You want to specify normal backup perfornance for volume C:\\ and faster backup performance for volume D:\\.
+- The two volumes are C:\\ and D:\\.
+- The GUID for volume C:\\ is 07c473ca4-2df8-11de-9d80-806e6f6e6963, and the GUID for volume D:\\ is 0ac22ea6c-712f-11de-adb0-00215a67606e.
+- You want to specify normal backup perfornance for volume C:\\ and faster backup performance for volume D:\\.
 
 To do this, you would set **OverallPerformanceSetting** to 3 and **CustomPerformanceSettings** to "07c473ca4-2df8-11de-9d80-806e6f6e6963,1\\00ac22ea6c-712f-11de-adb0-00215a67606e,2".
 
@@ -251,7 +240,3 @@ If the **SYSVOL** registry value does not exist, the backup application should c
 Create a value with the name **SYSVOL** and type REG\_SZ. The value's data should be set to either "authoritative" or "non-authoritative" based on the system administrator's request.
 
 **Windows Vista, Windows Server 2003 and Windows XP:** This registry value is not supported.
-
- 
-
- 
