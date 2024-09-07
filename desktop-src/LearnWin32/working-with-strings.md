@@ -33,6 +33,9 @@ The following table lists some other string-related typedefs:
 | **PWSTR** or **LPWSTR**   | `wchar_t*`       |
 | **PCWSTR** or **LPCWSTR** | `const wchar_t*` |
 
+> [!IMPORTANT]
+> The **WCHAR** and **wchar_t** types are typically described as representing Unicode _characters_. However, it is more precise to say that they represent Unicode UTF-16 _code units_. The Unicode® Standard uses the term **character** to refer to the abstract text elements encoded by the standard, and **code unit** to refer to the typed values used to represent them in a Unicode encoding form. In UTF-16 encoding, Unicode characters are encoded as _one or two_ 16-bit code units. In Windows, WCHAR and wchar_t are always a single 16-bit code unit. While many Unicode characters are represented using a single WCHAR or wchar_t value, many other Unicode characters require a sequence of two such values. These pairs of UTF-16 code units are often referred to as **surrogate pairs**, and each of the 16-bit values in a surrogate pair is known as a **surrogate code unit**. When working with Unicode strings, it is important never to treat a single surrogate code unit as a complete character. See [Surrogates and Supplementary Characters](windows/win32/intl/surrogates-and-supplementary-characters) for more information.
+
 ## Unicode and ANSI Functions
 
 When Microsoft introduced Unicode support to Windows, it eased the transition by providing two parallel sets of APIs, one for ANSI strings and the other for Unicode strings. For example, there are two functions to set the text of a window's title bar:
