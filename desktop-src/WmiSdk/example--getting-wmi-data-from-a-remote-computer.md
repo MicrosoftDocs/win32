@@ -1,8 +1,7 @@
 ---
-description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on a remote computer, gets data semisynchronously, and then cleans up.
-ms.assetid: 30e65b9e-9372-46d1-843a-bda0d6ec1c69
-ms.tgt_platform: multiple
 title: 'Example: Getting WMI Data from a Remote Computer'
+description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on a remote computer, gets data semisynchronously, and then cleans up.
+ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -12,7 +11,7 @@ ms.date: 05/31/2018
 You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on a remote computer, gets data semisynchronously, and then cleans up. For more information about how to get data from the local computer, see [Example: Getting WMI Data from the Local Computer](example--getting-wmi-data-from-the-local-computer.md). For more information about how to get the data asynchronously, see [Example: Getting WMI Data from the Local Computer Asynchronously](example--getting-wmi-data-from-the-local-computer-asynchronously.md).
 
 > [!Note]  
-> If you are trying to connect to a remote computer refer to the information in[Connecting to WMI Remotely](connecting-to-wmi-remotely-starting-with-vista.md).
+> If you are trying to connect to a remote computer refer to the information in [Connecting to WMI Remotely](connecting-to-wmi-remotely-starting-with-vista.md).
 
  
 
@@ -410,9 +409,3 @@ int __cdecl main(int argc, char **argv)
     
 }
 ```
-
-
-
- 
-
- 

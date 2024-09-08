@@ -1,7 +1,6 @@
 ---
 title: Content of Descriptive Properties
 description: The IAccessible interface provides descriptive properties, which describe various aspects of an object.
-ms.assetid: e6c1d1a3-417d-4aea-abac-f84a55f666b7
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -27,12 +26,4 @@ When designing accessible objects, server developers should also refer to the fo
 -   [Choosing Which Properties to Support](choosing-which-properties-to-support.md)
 -   [Choosing the Content for Descriptive Properties](choosing-the-content-for-descriptive-properties.md)
 
-For information about the parameters and return values of these properties, see the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) section of the Microsoft Active Accessibility[C/C++ Reference](c-c---reference.md).
-
- 
-
- 
-
-
-
-
+For information about the parameters and return values of these properties, see the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) section of the Microsoft Active Accessibility [C/C++ Reference](c-c---reference.md).

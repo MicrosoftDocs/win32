@@ -1,7 +1,6 @@
 ---
-description: Configuring Video Encoding
-ms.assetid: 917600f5-5580-4ca5-bce9-70eadec40df7
 title: Configuring Video Encoding (Microsoft Media Foundation)
+description: Configuring Video Encoding
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -12,7 +11,7 @@ To configure the video encoder, perform the following steps:
 
 1.  Set any properties on the encoder DMO by using **IPropertyBag::Write**. The following list summarizes the minimum set of properties that are required to encode a CBR video stream (all of these values have defaults that can be used):
 
-    -   The[MFPKEY\_VIDEOWINDOW](mfpkey-videowindowproperty.md) property specifies the buffer window to use for the stream. For more information about the buffer windows setting and how it affects content, see [Encoding Methods](encodingmethods.md). The default buffer window is three seconds, which is appropriate for many scenarios.
+    -   The [MFPKEY\_VIDEOWINDOW](mfpkey-videowindowproperty.md) property specifies the buffer window to use for the stream. For more information about the buffer windows setting and how it affects content, see [Encoding Methods](encodingmethods.md). The default buffer window is three seconds, which is appropriate for many scenarios.
     -   Video complexity is set to determine the tradeoff between the quality of the encoded content and the time that is required to encode. If you do not set a value, the default value is used. However, you can find the recommended modes for a specific codec by calling [IWMCodecProps::GetCodecProp](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprops-getcodecprop) to retrieve g\_wszWMVCComplexityExLive, g\_wszWMVCComplexityExOffline, and g\_wszWMVCComplexityExMax. Then you can set [MFPKEY\_COMPLEXITYEX](mfpkey-complexityexproperty.md) to a value between 0 and the reported maximum complexity.
     -   [MFPKEY\_CRISP](mfpkey-crispproperty.md) specifies the relative importance of video smoothness and the image quality of encoded frames. In most cases, the default value works fine.
     -   For video content stored in a container other than ASF, the [MFPKEY\_ASFOVERHEADPERFRAME](mfpkey-asfoverheadperframeproperty.md) property must be set to 0. This is not the default value.
@@ -28,15 +27,9 @@ To configure the video encoder, perform the following steps:
 > [!Note]  
 > The video encoder object supports two outputs. The second output is for encoder "post view". It delivers the uncompressed samples as they will be delivered from the decoder. This enables you to monitor the quality of the encoding without having to wait until the entire stream is processed. This output is optional. If you want to use it, configure its type following the same process used to set the encoder input type.
 
- 
-
 ## Related topics
 
 <dl> <dt>
 
 [Working with Video](workingwithvideo.md)
 </dt> </dl>
-
- 
-
- 

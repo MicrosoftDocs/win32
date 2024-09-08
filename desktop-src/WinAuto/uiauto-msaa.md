@@ -1,7 +1,6 @@
 ---
 title: UI Automation and Active Accessibility
 description: Microsoft Active Accessibility is the legacy API that was introduced in Windows 95, and was designed to make Windows applications accessible.
-ms.assetid: 6fc92e67-b94b-4ba3-9f5d-42be6072f110
 keywords:
 - UI Automation,Microsoft Active Accessibility
 - UI Automation,accessibility
@@ -76,7 +75,7 @@ In contrast, UI Automation decouples the control type of the element, which is d
 
 UI Automation supports custom controls, which are identified by the [**UIA\_CustomControlTypeId**](uiauto-controltype-ids.md) constant and can be described by the [**IUIAutomationElement::CurrentLocalizedControlType**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentlocalizedcontroltype) (or [**IUIAutomationElement::CachedLocalizedControlType**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedlocalizedcontroltype)) property.
 
-The following table maps Microsoft Active Accessibility[object roles](object-roles.md) to UI Automation control types.
+The following table maps Microsoft Active Accessibility [object roles](object-roles.md) to UI Automation control types.
 
 
 
@@ -286,7 +285,3 @@ Changes in the properties of an [**IUIAutomationLegacyIAccessiblePattern**](/win
 
 [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 </dt> </dl>
-
- 
-
- 

@@ -1,7 +1,6 @@
 ---
 title: Installation and Maintenance of Games
 description: This article describes a set of best practices that can help reduce user frustration about the time required to install a game, prevent unnecessary support calls, and allow users to start playing your game as quickly and painlessly as possible.
-ms.assetid: c953165d-2318-ca06-a895-abedcbcb594c
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -40,7 +39,7 @@ Common aspects of existing game installation UIs interfere with the desired end-
 
     For typical users, the default settings for installation path, Start menu location, and so on, are all fine. Offer advanced options for users who want to change these settings.
 
-The installation UI should be designed to allow the typical user to begin playing the game as soon as possible. If AutoRun is enabled on the user's computer, which is the default, the setup program should assume that the user wants to be playing the game as soon as possible, bypassing any unnecessary questions. The setup progra[Install on Demand](#install-on-demand)m should begin installing the game to the default installation path, preferably using a setup like that described in . It is appropriate to give users a chance to change the installation settings before automatically starting the installation. However, this should be accomplished by prompting the user to hit a key for advanced setup options, and then proceeding automatically with the default options if the user does not hit that key within five to ten seconds.
+The installation UI should be designed to allow the typical user to begin playing the game as soon as possible. If AutoRun is enabled on the user's computer, which is the default, the setup program should assume that the user wants to be playing the game as soon as possible, bypassing any unnecessary questions. The setup program should begin installing the game to the default installation path, preferably using a setup like that described in [Install on Demand](#install-on-demand). It is appropriate to give users a chance to change the installation settings before automatically starting the installation. However, this should be accomplished by prompting the user to hit a key for advanced setup options, and then proceeding automatically with the default options if the user does not hit that key within five to ten seconds.
 
 If AutoRun is not enabled on the user's computer, the setup program should assume that the user does not want the setup program to begin installing the game automatically. If the setup program is started by some means other than AutoRun, it should launch the advanced setup UI.
 
@@ -156,7 +155,3 @@ For more information on using Windows Installer for games, tune in to next month
 
 [**MsiGetComponentPath**](/windows/desktop/api/msi/nf-msi-msigetcomponentpatha)
 </dt> </dl>
-
- 
-
- 
