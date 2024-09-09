@@ -16,7 +16,7 @@ Retrieving an instance is one of the most common retrieval procedures you are li
 
  
 
-Retrieve a local copy of the instance with a call to the PowerShell [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) cmdlet.
+Retrieve a local copy of the instance with a call to the PowerShell [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject) cmdlet.
 
 **To retrieve an instance of a WMI class using PowerShell**
 
@@ -123,11 +123,3 @@ In C++, call [**IWbemServices::GetObject**](/windows/desktop/api/WbemCli/nf-wbem
 -   Retrieve a local copy of the instance with a call to [**IWbemServices::GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject) or [**IWbemServices::GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync). The WMI path to the object must be included.
 
     As the name implies, [**GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync) retrieves the instance asynchronously, while [**GetObject**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobject) retrieves the instance synchronously. If you want to use asynchronous retrieval, you must implement the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
-
-## Examples
-
-For a VBScript example to use as a template to retrieve class and instance information, see the [WMI Template Script](https://Gallery.TechNet.Microsoft.Com/aded1ef3-d2af-4821-8a92-b5c22ca2ecd8) example on TechNet Gallery. This particular example uses GetObject to retrieve the WMI Service.
-
- 
-
- 

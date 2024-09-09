@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Volume Plex Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A volume plex object models a volume plex that is contained by a volume. Only a mirrored volume can have multiple plexes; all other volume types have one plex. Each plex contains a copy of the data on the volume. VDS supports four volume plex types: simple, spanned, striped, and striped with parity. For a description of each of these volume types, see the [Volume Object](volume-object.md).
 

@@ -38,10 +38,10 @@ Assigns vector component data to the current instance of [**XMUNIBBLE4**](/windo
 <tr class="odd">
 <td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-operator-assign(uint16_t)"><strong>XMUNIBBLE4::operator = (const uint16_t)</strong></a></td>
 <td >Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMUNIBBLE4</code>. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This operator is only available under C++.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">

@@ -12,7 +12,7 @@ Declare the join phase instance count in a hull shader join phase.
 
 
 
-| dcl\_hs\_join\_phase\_instance\_count {1... max 32-bit UINT} |
+| dcl\_hs\_join\_phase\_instance\_count N |
 |--------------------------------------------------------------|
 
 
@@ -23,7 +23,7 @@ Declare the join phase instance count in a hull shader join phase.
 
 | Item                                                   | Description                           |
 |--------------------------------------------------------|---------------------------------------|
-| <span id="N"></span><span id="n"></span>*N*<br/> | \[in\] The instance count.<br/> |
+| <span id="N"></span><span id="n"></span>*N*<br/> | \[in\] The instance count (UINT greater than 0).<br/> |
 
 
 

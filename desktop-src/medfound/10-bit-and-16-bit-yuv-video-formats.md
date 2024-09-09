@@ -149,7 +149,7 @@ This format is a packed 16-bit representation that includes 16 bits of alpha. Ea
 
 Bits 0-15 contain the U sample, bits 16-31 contain the Y sample, bits 32-47 contain the V sample, and bits 48-63 contain the alpha value.
 
-To indicate that a pixel is fully opaque, an application must set the two alpha bits equal to 0xFFFF. This format is intended primarily as an intermediate format during image processing to avoid the accumulation of errors.
+To indicate that a pixel is fully opaque, an application must set the two alpha bytes equal to 0xFFFF. This format is intended primarily as an intermediate format during image processing to avoid the accumulation of errors.
 
 ## Preferred YUV Formats
 

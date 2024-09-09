@@ -703,17 +703,9 @@ foreach ($objItem in $colItems)
 </tbody>
 </table>
 
-
-
- 
-
 ## Examples
 
-The following TechNet Gallery [example code](https://Gallery.TechNet.Microsoft.Com/scriptcenter/List-for-several-machines-1baf6df0) describes how to list the free space of all drives for several machines.
-
-The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software to display information about a local or remote system.
-
-The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechNet.Microsoft.Com/Multithreaded-System-Asset-856a8f7c) PowerShell sample on TechNetGallery gathers a plethora of useful system information via WMI and multithreading with powershell.
+The "Multithreaded System Asset Gathering with PowerShell" PowerShell sample gathers a plethora of useful system information via WMI and multithreading with powershell.
 
 ## Related topics
 

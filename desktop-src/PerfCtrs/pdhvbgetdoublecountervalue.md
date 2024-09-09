@@ -22,7 +22,7 @@ The **PdhVbGetDoubleCounterValue** function returns the current value of the spe
 > [!IMPORTANT]
 > The function that this topic describes may be altered or unavailable in the future. Instead, Microsoft recommends that you use the functions described in [Performance Counters Functions](performance-counters-functions.md).
 
-Function PdhVbGetDoubleCounterValue( \_ ByVal CounterHandle As Long, \_ ByVal CounterStatus As Long \_ ) As Double
+Function PdhVbGetDoubleCounterValue( \_ ByVal CounterHandle As Long, \_ ByRef CounterStatus As Long \_ ) As Double
 
 ## Parameters
 

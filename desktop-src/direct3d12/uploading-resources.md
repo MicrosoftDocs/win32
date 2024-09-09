@@ -300,7 +300,7 @@ Also, a three element array with two single-texel 64KB aligned textures and a si
 Reference the following APIs.
 
 - [**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_allocation_info)
-- [**GetResourceAllocationInfo**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo)
+- [**GetResourceAllocationInfo**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo(uint_uint_constd3d12_resource_desc))
 
 ## Buffer alignment
 

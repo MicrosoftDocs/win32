@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # VDS Enumerations
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 VDS enumerations represent object types, flags, status, and other entities in the VDS object model. For more information about VDS objects and their associated enumerations, see [VDS Object Model](vds-object-model.md).
 

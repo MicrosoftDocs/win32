@@ -50,7 +50,7 @@ The **JournalReader** class enables you to load a Journal document stream and to
 
 ## Examples
 
-The following example of a handler for a button's [**Click**](/dotnet/api/system.windows.forms.control.click?view=netcore-3.1) event creates an instance of the **JournalReader** class and uses it to read an existing Journal file.
+The following example of a handler for a button's [**Click**](/dotnet/api/system.windows.forms.control.click?view=netcore-3.1&preserve-view=true) event creates an instance of the **JournalReader** class and uses it to read an existing Journal file.
 
 > [!Note]  
 > The **DisplayXml** method called from this example is not shown. The specific implementation of such a method is dependent on your application's needs.

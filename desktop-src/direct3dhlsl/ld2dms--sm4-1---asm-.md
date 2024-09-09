@@ -12,7 +12,7 @@ Reads individual samples out of 2-dimensional multi-sample textures.
 
 
 
-| ld2dms\[\_aoffimmi(u,v)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource\[.swizzle\], sampleIndex (scalar operand) |
+| ld2dms\[\_aoffimmi(u,v)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource\[.swizzle\], sampleIndex |
 |------------------------------------------------------------------------------------------------------------------------|
 
 
@@ -26,7 +26,7 @@ Reads individual samples out of 2-dimensional multi-sample textures.
 | <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                    | \[in\] The address of result of the operation. <br/>                                                                 |
 | <span id="srcAddress"></span><span id="srcaddress"></span><span id="SRCADDRESS"></span>*srcAddress*<br/>     | \[in\] The texture coordinates needed to perform the sample.<br/>                                                    |
 | <span id="srcResource"></span><span id="srcresource"></span><span id="SRCRESOURCE"></span>*srcResource*<br/> | \[in\] A texture register (t\#) which must have been declared identifying which Texture or Buffer to fetch from<br/> |
-| <span id="sampleIndex"></span><span id="sampleindex"></span><span id="SAMPLEINDEX"></span>*sampleIndex*<br/> | \[in\] Idendifies the samples to read from *srcResource*.<br/>                                                       |
+| <span id="sampleIndex"></span><span id="sampleindex"></span><span id="SAMPLEINDEX"></span>*sampleIndex*<br/> | \[in\] Idendifies the samples to read from *srcResource* (scalar operand).<br/>                                                       |
 
 
 

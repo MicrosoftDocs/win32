@@ -49,9 +49,9 @@
                   tocHref: /windows/win32/accessibility/
                   topicHref: /windows/win32/accessibility
                   items:
-                    - name: Windows Accessibility features
+                    - name: Accessibility and automation for Windows developers
                       tocHref: /windows/win32/winauto/
-                      topicHref: /windows/win32/winauto/about-windows-accessibility-features
+                      topicHref: /windows/win32/winauto/accessibility
                 - name: Desktop App User Interface
                   # Topic in top-level TOC
                   topicHref: /windows/win32/windows-application-ui-development
@@ -318,7 +318,7 @@
                       items:
                         - name: TraceLogging
                           tocHref: /windows/win32/tracelogging/
-                          topicHref: /windows/win32/tracelogging/trace-logging-porta
+                          topicHref: /windows/win32/tracelogging/trace-logging-portal
                         - name: Event Tracing
                           tocHref: /windows/win32/etw/
                           topicHref: /windows/win32/etw/event-tracing-portal
@@ -616,6 +616,9 @@
                     - name: Dynamic-Link Libraries
                       tocHref: /windows/win32/dlls/
                       topicHref: /windows/win32/dlls/dynamic-link-libraries
+                    - name: Enclaves
+                      tocHref: /windows/win32/trusted-execution/
+                      topicHref: /windows/win32/trusted-execution/enclaves
                     - name: Interprocess Communications
                       tocHref: /windows/win32/ipc/
                       topicHref: /windows/win32/ipc/interprocess-communications
@@ -714,6 +717,9 @@
                     - name: Windows Deployment Services
                       tocHref: /windows/win32/wds/
                       topicHref: /windows/win32/wds/windows-deployment-services-portal
+                    - name: What's New
+                      tocHref: /windows-server/get-started/
+                      topicHref: /windows-server/get-started/whats-new-in-windows-server-2022
                     - name: Windows Management Instrumentation
                       tocHref: /windows/win32/wmisdk/
                       topicHref: /windows/win32/wmisdk/wmi-start-page

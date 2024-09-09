@@ -3,7 +3,7 @@ title: Delivery Optimization Enumerations
 description: The Delivery Optimization interfaces use the following enumerations.
 ms.assetid: 0B0C627D-F6B7-4A10-83C0-03BFE329E974
 ms.topic: article
-ms.date: 07/02/2019
+ms.date: 05/04/2022
 ---
 
 # Delivery Optimization Enumerations
@@ -22,9 +22,9 @@ The [Delivery Optimization interfaces](do-interfaces.md) use the following enume
 | [**BITS_JOB_PROPERTY_ID**](bits-job-property-id.md) | The **BITS_JOB_PROPERTY_ID** enumeration specifies the ID of the property for the Delivery Optimization job. This enumeration is used in the [**BITS_JOB_PROPERTY_VALUE**](bits-job-property-value-.md) union to determine the type of value contained in the union. |
 | [**BITS_JOB_TRANSFER_POLICY**](bits-job-transfer-policy-.md) | The **BITS_JOB_TRANSFER_POLICY** enumeration defines ID values corresponding to Delivery Optimization properties. |
 | [**DeliveryOptimizationFileProperty**](deliveryoptimizationfileproperty.md) | Specifies the ID of an optional property for the Delivery Optimization file. |
-| [**DODownloadCostPolicy**](./deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadcostpolicy.md) | Specifies the ID of cost policies options associated with the **DODownloadProperty_CostPolicy** property. |
-| [**DODownloadProperty**](./deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadproperty.md) | Specifies the ID of properties for the Delivery Optimization download operation. |
+| [**DODownloadCostPolicy**](/windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadcostpolicy) | Specifies the ID of cost policies options associated with the **DODownloadProperty_CostPolicy** property. |
+| [**DODownloadProperty**](/windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadproperty) | Specifies the ID of properties for the Delivery Optimization download operation. |
 | [**DODownloadPropertyEx**](./dodownloadinternal/ne-dodownloadinternal-dodownloadpropertyex.md) | Specifies the ID of extended properties for the Delivery Optimization download operation. |
-| [**DODownloadState**](./deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadstate.md) | Specifies the ID of the current download state, which is part of the **DO_DOWNLOAD_STATUS** structure. |
+| [**DODownloadState**](/windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadstate) | Specifies the ID of the current download state, which is part of the **DO_DOWNLOAD_STATUS** structure. |
 | [**DownloadMode**](downloadmode.md) | Defines the different download modes that Delivery Optimization uses.  |
 | [**SwarmStatus**](swarmstatus.md) | Defines the status of a file within the delivery optimization client. |

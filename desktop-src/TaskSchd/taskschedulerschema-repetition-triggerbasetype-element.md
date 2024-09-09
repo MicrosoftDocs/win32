@@ -88,7 +88,7 @@ The following XML defines a boot trigger element that specifies a repetition pat
     <Repetition>
         <Interval></Interval>
         <Duration></Duration>
-        <StopAtDurationEnd>true</StopAtDirationEnd>
+        <StopAtDurationEnd>true</StopAtDurationEnd>
     </Repetition>
     <ExecutionTimeLimit></ExecutionTimeLimit>
     <Delay><Delay>

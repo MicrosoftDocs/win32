@@ -4,18 +4,21 @@ ms.assetid: 53d3176a-f727-498e-8bea-0e30e0a1c66e
 title: D3DXCOLOR structure (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXCOLOR
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
 # D3DXCOLOR structure (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Describes color values.
 

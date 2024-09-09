@@ -1,0 +1,85 @@
+- name: "Enclaves"
+  href: enclaves.md
+  items: 
+  - name: "Enclaves reference"
+    href: enclaves-reference.md
+    items: 
+    - name: "Enclaves enumerations"
+      href: enclaves-enumerations.md
+      items: 
+      - name: "ENCLAVE_SEALING_IDENTITY_POLICY"
+        href: /windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy
+    - name: "Enclaves functions"
+      href: enclaves-functions.md
+      items: 
+      - name: "CallEnclave"
+        href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-callenclave
+      - name: "CreateEnclave"
+        href: /windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave
+      - name: "DeleteEnclave"
+        href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-deleteenclave
+      - name: "EnclaveGetAttestationReport"
+        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport
+      - name: "EnclaveGetEnclaveInformation"
+        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetenclaveinformation
+      - name: "EnclaveSealData"
+        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavesealdata
+      - name: "EnclaveUnsealData"
+        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaveunsealdata
+      - name: "EnclaveVerifyAttestationReport"
+        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaveverifyattestationreport
+      - name: "InitializeEnclave"
+        href: /windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave
+      - name: "IsEnclaveTypeSupported"
+        href: /windows/desktop/api/enclaveapi/nf-enclaveapi-isenclavetypesupported
+      - name: "LoadEnclaveData"
+        href: /windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata
+      - name: "LoadEnclaveImage"
+        href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-loadenclaveimagew
+      - name: "TerminateEnclave"
+        href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-terminateenclave
+    - name: "Enclaves structures"
+      href: enclaves-structures.md
+      items: 
+      - name: "ENCLAVE_CREATE_INFO_SGX"
+        href: /windows/win32/api/winnt/ns-winnt-enclave_create_info_sgx
+      - name: "ENCLAVE_CREATE_INFO_VBS"
+        href: /windows/win32/api/winnt/ns-winnt-enclave_create_info_vbs
+      - name: "ENCLAVE_IDENTITY"
+        href: /windows/desktop/api/ntenclv/ns-ntenclv-enclave_identity
+      - name: "ENCLAVE_INFORMATION"
+        href: /windows/desktop/api/ntenclv/ns-ntenclv-enclave_information
+      - name: "ENCLAVE_INIT_INFO_SGX"
+        href: /windows/win32/api/winnt/ns-winnt-enclave_init_info_sgx
+      - name: "ENCLAVE_INIT_INFO_VBS"
+        href: /windows/win32/api/winnt/ns-winnt-enclave_init_info_vbs
+      - name: "IMAGE_ENCLAVE_CONFIG32"
+        href: /windows/win32/api/winnt/ns-winnt-image_enclave_config32
+      - name: "IMAGE_ENCLAVE_CONFIG64"
+        href: /previous-versions/windows/desktop/legacy/mt844244(v=vs.85)
+      - name: "IMAGE_ENCLAVE_IMPORT"
+        href: /windows/win32/api/winnt/ns-winnt-image_enclave_import
+      - name: "VBS_ENCLAVE_REPORT"
+        href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report
+      - name: "VBS_ENCLAVE_REPORT_MODULE"
+        href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_module
+      - name: "VBS_ENCLAVE_REPORT_PKG_HEADER"
+        href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_pkg_header
+      - name: "VBS_ENCLAVE_REPORT_VARDATA_HEADER"
+        href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header
+  - name: "VBS enclaves"
+    href: vbs-enclaves.md
+    items:
+    - name: "VBS enclaves development guide"
+      href: vbs-enclaves-dev-guide.md
+    - name: "APIs available in VBS enclaves"
+      href: available-in-enclaves.md
+      items: 
+      - name: "Vertdll APIs"
+        href: enclaves-available-in-vertdll.md
+      - name: "Bcrypt APIs"
+        href: enclaves-available-in-bcrypt.md
+      - name: "UCRT APIs"
+        href: enclaves-available-in-ucrt.md
+      - name: "libvcruntime APIs"
+        href: enclaves-available-in-libvcruntime.md

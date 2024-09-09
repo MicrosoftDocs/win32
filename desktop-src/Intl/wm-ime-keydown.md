@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_KEYDOWN message
 
-Sent to an application by the IME to notify the application of a key press and to keep message order. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+Sent to an application by the IME to notify the application of a key press and to keep message order. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -87,12 +87,7 @@ An application can process this message or pass it to the [**DefWindowProc**](/w
 
 <dl> <dt>
 
-[Input Method Manager](input-method-manager.md)
-</dt> <dt>
-
-[Input Method Manager Messages](input-method-manager-messages.md)
-</dt> </dl>
-
- 
-
- 
+- [Input Method Manager](input-method-manager.md)
+- [Input Method Manager Messages](input-method-manager-messages.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)

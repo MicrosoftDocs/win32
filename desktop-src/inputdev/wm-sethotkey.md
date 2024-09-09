@@ -34,13 +34,9 @@ Sent to a window to associate a hot key with the window. When the user presses t
 *wParam* 
 </dt> <dd>
 
-The low-order word specifies the virtual-key code to associate with the window.
+The low byte of the low-order word specifies the virtual-key code to associate with the window.
 
-The high-order word can be one or more of the following values from CommCtrl.h.
-
-Setting *wParam* to **NULL** removes the hot key associated with a window.
-
-
+The high byte of the low-order word can be one or more of the following values from CommCtrl.h.
 
 | Value                                                                                                                                                                                                                         | Meaning                 |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
@@ -50,7 +46,9 @@ Setting *wParam* to **NULL** removes the hot key associated with a window.
 | <span id="HOTKEYF_SHIFT"></span><span id="hotkeyf_shift"></span><dl> <dt>**HOTKEYF\_SHIFT**</dt> <dt>0x01</dt> </dl>       | SHIFT key<br/>    |
 
 
+The high-order word of *wParam* is ignored.
 
+Setting *wParam* to **NULL** removes the hot key associated with a window.
  
 
 </dd> <dt>

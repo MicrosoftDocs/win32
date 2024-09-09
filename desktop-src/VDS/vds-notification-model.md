@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # VDS Notifications
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A provider can send an event notification to VDS, and VDS can in turn forward the notification to applications. The notification model that is used by VDS resembles the connection-point model that is used by COM objects.
 

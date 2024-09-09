@@ -22,7 +22,7 @@ A four dimensional vector, used to represent a rotation.
 
 A quaternion can efficiently rotate an object about the (x, y, z) vector by the angle theta, where w = cos(theta/2). Quaternions are typically used for smooth interpolation between two angles, and for avoiding the gimbal lock problem that can occur with Euler angles.
 
-This type is available only in C++. Its .NET equivalent is [System.Numerics.Quaternion](/dotnet/api/system.numerics.quaternion?view=netframework-4.8).
+This type is available only in C++. Its .NET equivalent is [System.Numerics.Quaternion](/dotnet/api/system.numerics.quaternion).
 
 ## Constructors
 

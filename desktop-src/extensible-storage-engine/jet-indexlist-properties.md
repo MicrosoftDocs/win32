@@ -80,7 +80,7 @@ The [JET_INDEXLIST](./jet-indexlist-class.md) type exposes the following members
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335170(v=exchg.10).md">columnidiColumn</a></td>
-<td>Gets the columnid of the column in the temporary table which stores the index of of this column in the index key. The column is of type <a href="hh577895(v=exchg.10).md">Long</a>.</td>
+<td>Gets the columnid of the column in the temporary table which stores the index of this column in the index key. The column is of type <a href="hh577895(v=exchg.10).md">Long</a>.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>

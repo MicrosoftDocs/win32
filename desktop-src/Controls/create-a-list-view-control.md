@@ -42,7 +42,7 @@ The following C++ code example creates a list-view control in report view.
 // TO DO:  The calling procedure should determine whether the handle is NULL, in case 
 // of an error in creation.
 //
-// HINST hInst: The global handle to the applicadtion instance.
+// HINST hInst: The global handle to the application instance.
 // HWND  hWndParent: The handle to the control's parent window. 
 //
 HWND CreateListView (HWND hwndParent) 
@@ -98,7 +98,7 @@ VOID SetView(HWND hWndListView, DWORD dwView)
                       (dwStyle & ~LVS_TYPEMASK) | dwView);
     }               // Logical OR'ing of dwView with the result of 
 }                   // a bitwise AND between dwStyle and 
-                    // the Unary complenent of LVS_TYPEMASK.
+                    // the Unary complement of LVS_TYPEMASK.
 
 ```
 

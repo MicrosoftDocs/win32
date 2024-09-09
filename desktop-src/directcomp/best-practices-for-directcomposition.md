@@ -1,6 +1,6 @@
 ---
 title: Best practices for DirectComposition
-description: This topic describes best practices for using Microsoft DirectComposition.
+description: This topic describes best practices for using Microsoft DirectComposition and provides links to articles on writing secure C++ code.
 ms.assetid: D3A1ECD4-9358-44B9-8A84-7D901219D5CD
 keywords:
 - best practices for DirectComposition
@@ -44,7 +44,7 @@ The following table presents the practices recommended for working with Microsof
 
 The following articles provide guidance for writing secure C++ code.
 
--   [Security Best Practices for C++](/cpp/security/security-best-practices-for-cpp?view=vs-2019)
+-   [Security Best Practices for C++](/cpp/security/security-best-practices-for-cpp)
 -   [Patterns & Practices Security Guidance for Applications](/previous-versions/msp-n-p/ff650760(v=pandp.10))
 
 ## Related topics

@@ -45,9 +45,9 @@ To make your applications DPI-aware:
 
     | Setting                                              | What to look for                                                                                                                                                      |
     |------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | 1024x768 @ 120 DPI (125% scaling)                    | This is an effective resolution of ~800x600, so look for UI clipped off the screen or layout issues. Also look for pixilated bitmaps & icons.                         |
+    | 1024x768 @ 120 DPI (125% scaling)                    | This is an effective resolution of ~800x600, so look for UI clipped off the screen or layout issues. Also look for pixelated bitmaps & icons.                         |
     | 1600x1200 @144 DPI (150% scaling)                    | Blurry UI. Verify that all mouse operations work, especially drag & drop operations. Also verify full-screen modes work properly.                                     |
-    | 1600x1200 @ 144 DPI with DPI Virtualization Disabled | Often buttons and UI won't scale in relation to larger text & there will be significant text clipping. Look for layout issues in general & pixilated bitmats & icons. |
+    | 1600x1200 @ 144 DPI with DPI Virtualization Disabled | Often buttons and UI won't scale in relation to larger text & there will be significant text clipping. Look for layout issues in general & pixilated bitmaps & icons. |
 
     
 

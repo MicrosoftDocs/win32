@@ -1912,10 +1912,6 @@ A logical drive is a subdivision of a partition that has been assigned its own d
 
 You can find other examples using **Win32\_LogicalDisk** to obtain disk or volume data in the [WMI Tasks: Disks and File Systems](/windows/desktop/WmiSdk/wmi-tasks--disks-and-file-systems) topic.
 
-The [WMI Information Retriever](https://Gallery.TechNet.Microsoft.Com/e493376c-1286-456b-bd4b-4ac3b0e9bb45) VBScript code example on the TechNet Gallery uses the **Win32\_LogicalDisk** class to retrieve hardware information from a number of remote computers.
-
-The [Get Disk info using wmi/cim...](https://Gallery.TechNet.Microsoft.Com/Get-Disk-info-using-wmicim-ff0bd352) PowerShell code example on the TechNet Gallery uses **Win32\_LogicalDisk** to retrieve **DeviceID**, **VolumeName**, and **Size** from a target device. In particular, this sample includes rigorous exception handling, and returns a single object per computer, rather than per disk.
-
 Enterprise scripting often involves configuring hardware and software on remote computers; in turn, this requires you to know, in advance, the type of disk drives installed on a computer. For example, a script that installs an application on drive E works only if drive E is a hard disk. If drive E happens to represent a floppy disk or a CD-ROM drive, the script fails. The following code identifies the drives and drive types installed on a computer
 
 
@@ -1951,32 +1947,32 @@ Next
 using System.Management;
 ...
 {
-   string strComputer = &quot;.&quot;;
+   string strComputer = ".";
             
-   ManagementScope namespaceScope = new ManagementScope(&quot;\\\\&quot; + strComputer + &quot;\\ROOT\\CIMV2&quot;);
-   ObjectQuery diskQuery = new ObjectQuery(&quot;SELECT * FROM Win32_LogicalDisk&quot;);
+   ManagementScope namespaceScope = new ManagementScope("\\\\" + strComputer + "\\ROOT\\CIMV2");
+   ObjectQuery diskQuery = new ObjectQuery("SELECT * FROM Win32_LogicalDisk");
    ManagementObjectSearcher mgmtObjSearcher = new ManagementObjectSearcher(namespaceScope, diskQuery);
    ManagementObjectCollection colDisks = mgmtObjSearcher.Get();
 
    foreach (ManagementObject objDisk in colDisks)
    {
-      Console.WriteLine(&quot;Device ID : {0}&quot;, objDisk[&quot;DeviceID&quot;]);
+      Console.WriteLine("Device ID : {0}", objDisk["DeviceID"]);
                 
-      switch ((uint)(objDisk[&quot;DriveType&quot;]))
+      switch ((uint)(objDisk["DriveType"]))
       {
-         case 1: {   Console.WriteLine(&quot;No root directory.&quot;);
+         case 1: {   Console.WriteLine("No root directory.");
                      break;}
-         case 2: {   Console.WriteLine(&quot;DriveType: Removable drive.&quot;); 
+         case 2: {   Console.WriteLine("DriveType: Removable drive."); 
                      break;}
-         case 3: {   Console.WriteLine(&quot;DriveType: Local hard disk.&quot;);
+         case 3: {   Console.WriteLine("DriveType: Local hard disk.");
                      break;}
-         case 4: {   Console.WriteLine(&quot;DriveType: Network disk.&quot;);
+         case 4: {   Console.WriteLine("DriveType: Network disk.");
                      break;}
-         case 5: {   Console.WriteLine(&quot;DriveType: Compact disk.&quot;);
+         case 5: {   Console.WriteLine("DriveType: Compact disk.");
                      break;}
-         case 6: {   Console.WriteLine(&quot;DriveType: RAM disk.&quot;);
+         case 6: {   Console.WriteLine("DriveType: RAM disk.");
                      break;}
-         default: {  Console.WriteLine(&quot;Drive type could not be determined.&quot;);
+         default: {  Console.WriteLine("Drive type could not be determined.");
                      break;}
       }
       //Readline is in here so the user can see the result before the code exists
@@ -2011,17 +2007,17 @@ using System.Management;
 ...
 
 const int HARD_DISK = 3;
-string strComputer = &quot;.&quot;;
+string strComputer = ".";
 
-ManagementScope namespaceScope = new ManagementScope(&quot;\\\\&quot; + strComputer + &quot;\\ROOT\\CIMV2&quot;);
-ObjectQuery diskQuery = new ObjectQuery(&quot;SELECT * FROM Win32_LogicalDisk WHERE DriveType = &quot; + HARD_DISK + &quot;&quot;);
+ManagementScope namespaceScope = new ManagementScope("\\\\" + strComputer + "\\ROOT\\CIMV2");
+ObjectQuery diskQuery = new ObjectQuery("SELECT * FROM Win32_LogicalDisk WHERE DriveType = " + HARD_DISK + "");
 ManagementObjectSearcher mgmtObjSearcher = new ManagementObjectSearcher(namespaceScope, diskQuery);
 ManagementObjectCollection colDisks = mgmtObjSearcher.Get();
 
 foreach (ManagementObject objDisk in colDisks)
 {
-    Console.WriteLine(&quot;Device ID : {0}&quot;, objDisk[&quot;DeviceID&quot;]);
-    Console.WriteLine(&quot;Free Disk Space : {0}&quot;, objDisk[&quot;FreeSpace&quot;]);
+    Console.WriteLine("Device ID : {0}", objDisk["DeviceID"]);
+    Console.WriteLine("Free Disk Space : {0}", objDisk["FreeSpace"]);
     Console.ReadLine();
 }
 ```

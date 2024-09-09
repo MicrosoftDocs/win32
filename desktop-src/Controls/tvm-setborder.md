@@ -47,13 +47,13 @@ Action flags. This parameter can be one or more of the following values:
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **SHORT** that specifies the size of the left border, in pixels. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) is a **SHORT** that specifies the size of the top border, in pixels.
+The [**LOWORD**](../winmsg/loword.md) is a **SHORT** that specifies the size of the left border, in pixels. The [**HIWORD**](../winmsg/hiword.md) is a **SHORT** that specifies the size of the top border, in pixels.
 
 </dd> </dl>
 
 ## Return value
 
-Returns a **LONG** value that contains the previous border size, in pixels. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the previous size of the horizontal border, and the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contains the previous size of the vertical border.
+Returns a **LONG** value that contains the previous border size, in pixels. The [**LOWORD**](../winmsg/loword.md) contains the previous size of the horizontal border, and the [**HIWORD**](../winmsg/hiword.md) contains the previous size of the vertical border.
 
 ## Remarks
 

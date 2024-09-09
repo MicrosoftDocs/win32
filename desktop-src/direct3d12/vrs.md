@@ -26,11 +26,13 @@ The variable-rate shading (VRS) model extends supersampling-with-MSAA into the o
 
 A coarse-shading API allows your application to specify the number of pixels that belong to a shaded group, or *coarse pixel*. You can vary the coarse pixel size after you've allocated the render target. So, different portions of the screen or different draw passes can have different shading rates.
 
-Here's a table describing which MSAA level is supported with which coarse pixel size. Some are not supported on any platform; while others are conditionally enabled based on a capability (*AdditionalShadingRatesSupported*), indicated by "Cap".
+Following is a table describing which MSAA level is supported with which coarse pixel size, for platforms that support coarse shading:
+* For cells marked *Y*, that combination is enabled.
+* For cells marked *Cap*, that combination is conditionally enabled based on a cap (AdditionalShadingRatesSupported).
+* For cells that are blank, that combination is unsupported.
+* For cells that are halftone-shaded, that combination is unsupported, *and* it involves tracking more than 16 samples per pixel shader invocation. For tracking more than 16 samples there are additional hardware alignment barriers to support, compared to the other cases.
 
 ![Table shows coarse pixel size for M S A A levels.](images/CoarsePixelSizeSupport.PNG "Coarse pixel sizes")
-
-For the feature tiers discussed in the next section, there's no coarse-pixel-size-and-sample-count combination where hardware needs to track more than 16 samples per pixel shader invocation. Those combinations are halftone-shaded in the table above.
 
 ## Feature tiers
 There are two tiers to the VRS implementation, and two capabilities that you can query for. Each tier is described in greater detail after the table.
@@ -71,7 +73,7 @@ Your application can specify a coarse pixel size using the [**ID3D12GraphicsComm
 Values for this state are expressed through the [**D3D12_SHADING_RATE**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_shading_rate) enumeration.
 
 #### Coarse pixel size support
-The shading rates 1x1, 1x2, 2x2, and 2x2 are supported on all tiers.
+The shading rates 1x1, 1x2, 2x1, and 2x2 are supported on all tiers.
 
 There is a capability, *AdditionalShadingRatesSupported*, to indicate whether 2x4, 4x2, and 4x4 are supported on the device.
 

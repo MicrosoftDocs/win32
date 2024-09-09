@@ -25,7 +25,7 @@ Adds data to a specified hash object.
 ```C++
 void RSA32API A_SHAUpdate(
   _Inout_ A_SHA_CTX     *Context,
-  _Out_   UNSIGNED CHAR *Buffer,
+  _In_    UNSIGNED CHAR *Buffer,
           UNSIGNED INT  BufferSize
 );
 ```
@@ -43,10 +43,10 @@ The SHA context.
 
 </dd> <dt>
 
-*Buffer* \[out\]
+*Buffer* \[in\]
 </dt> <dd>
 
-The hash table.
+A pointer to a buffer that contains the data to be added to the hash object.
 
 </dd> <dt>
 

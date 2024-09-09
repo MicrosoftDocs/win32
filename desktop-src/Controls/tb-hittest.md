@@ -30,7 +30,7 @@ Determines where a point lies in a toolbar control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure that contains the x-coordinate of the hit test in the **x** member and the y-coordinate of the hit test in the **y** member. The coordinates are relative to the toolbar's client area.
+Pointer to a [**POINT**](/windows/win32/api/windef/ns-windef-point) structure that contains the x-coordinate of the hit test in the **x** member and the y-coordinate of the hit test in the **y** member. The coordinates are relative to the toolbar's client area.
 
 </dd> </dl>
 

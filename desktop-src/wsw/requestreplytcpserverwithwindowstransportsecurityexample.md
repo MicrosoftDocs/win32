@@ -112,7 +112,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     WS_HEAP* heap = NULL;
     
 $$RC_START_HIGHLIGHT
-    // declare and initialize an Windows SSPI transport security binding
+    // declare and initialize a Windows SSPI transport security binding
     WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING tcpSspiBinding = {}; // zero out the struct
     tcpSspiBinding.binding.bindingType = WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     
@@ -283,7 +283,7 @@ $$RC_END_HIGHLIGHT
             }
             else if (requestMessageDescription == &PurchaseOrder_wsdl.messages.GetOrderStatus)
             {
-                // The message was a order status request.  Get the pointer to the deserialized value.
+                // The message was an order status request.  Get the pointer to the deserialized value.
                 _GetOrderStatusType* getOrderStatus = (_GetOrderStatusType*)requestBodyPointer;
         
                 // Generate a fault if we don't recognize the order ID

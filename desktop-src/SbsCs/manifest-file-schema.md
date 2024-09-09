@@ -82,7 +82,7 @@ The following is the complete listing of the manifest file schema.
   </ElementType>
   <ElementType name="assemblyIdentity" model="closed">
   <attribute type="name" required="yes" /> 
-  <attribute type="version" required="no" /> 
+  <attribute type="version" required="yes" /> 
   <attribute type="type" required="no" /> 
   <attribute type="processorArchitecture" required="no" /> 
   <attribute type="publicKeyToken" required="no" /> 
@@ -154,14 +154,17 @@ The following is the complete listing of the manifest file schema.
   <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2005/WindowsSettings
   --> 
   <ElementType name="dpiAware" /> 
+  <ElementType name="autoElevate" /> 
+  <ElementType name="disableTheming" /> 
 
   <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2011/WindowsSettings
   --> 
-  <ElementType name="autoElevate" /> 
-  <ElementType name="disableTheming" /> 
   <ElementType name="disableWindowFiltering" /> 
-  <ElementType name="highResolutionScrollingAware" /> 
   <ElementType name="printerDriverIsolation" /> 
+    
+  <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2013/WindowsSettings
+  --> 
+  <ElementType name="highResolutionScrollingAware" /> 
   <ElementType name="ultraHighResolutionScrollingAware" /> 
 
   <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2016/WindowsSettings

@@ -12,7 +12,7 @@ Random-access write of 1-4 32bit components into typeless memory.
 
 
 
-| store\_raw dst0\[.write\_mask\], dstByteOffset\[.select\_component\], src0\[.swizzle\] |
+| store\_raw dest\[.write\_mask\], dstByteOffset\[.select\_component\], src0\[.swizzle\] |
 |----------------------------------------------------------------------------------------|
 
 
@@ -23,7 +23,7 @@ Random-access write of 1-4 32bit components into typeless memory.
 
 | Item                                                                                                                       | Description                                |
 |----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| <span id="dst0"></span><span id="DST0"></span>*dst0*<br/>                                                            | \[in\] The memory address.<br/>      |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                            | \[in\] The memory address.<br/>      |
 | <span id="dstByteOffset"></span><span id="dstbyteoffset"></span><span id="DSTBYTEOFFSET"></span>*dstByteOffset*<br/> | \[in\] The offset.<br/>              |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/>                                                            | \[in\] The components to write.<br/> |
 
@@ -33,9 +33,9 @@ Random-access write of 1-4 32bit components into typeless memory.
 
 ## Remarks
 
-This instruction performs 1-4 component \*32-bit components written from *src0* to *dst0* at the offset in *dstByteOffset*. There is no format conversion.
+This instruction performs 1-4 component \*32-bit components written from *src0* to *dest* at the offset in *dstByteOffset*. There is no format conversion.
 
-*dst0* must be a UAV (u\#), or in the compute shader it can also be thread group shared memory (g\#).
+*dest* must be a UAV (u\#), or in the compute shader it can also be thread group shared memory (g\#).
 
 *dstByteOffset* specifies the base 32-bit value in memory for a window of 4 sequential 32-bit values in which data may be written, depending on the swizzle and mask on other parameters.
 
@@ -66,7 +66,7 @@ The location of the data written is equivalent to the following pseudocode which
                              WriteComponents * sizeof(UINT32));
 ```
 
-This pseudocode shows how the operation functions, but the actual data does not have to be stored linearly. *dst0* can only have a write mask that is one of the following: .x, .xy, .xyz, .xyzw. The write mask determines the number of 32bit components to write without gaps.
+This pseudocode shows how the operation functions, but the actual data does not have to be stored linearly. *dest* can only have a write mask that is one of the following: .x, .xy, .xyz, .xyzw. The write mask determines the number of 32bit components to write without gaps.
 
 Out of bounds addressing on u\# means nothing is written to the out of bounds memory; any part that is in bounds is written correctly.
 

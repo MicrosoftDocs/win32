@@ -23,8 +23,8 @@ The default case is that [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunkno
 
 The only exceptions to the default case require that the managing code know the relationships of the lifetimes of two or more copies of a pointer to the same interface on an object and simply ensure that the object is not destroyed by allowing its reference count to go to zero. There are generally two cases, as follows:
 
--   When one copy of a pointer already exists and a second is created subsequently and then is destroyed while the first copy still exists, calls to [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release)for the second copy can be omitted.
--   When one copy of a pointer exists and a second is created and then the first is destroyed before the second, the calls to [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)for the second copy and to [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) for the first copy can be omitted.
+-   When one copy of a pointer already exists and a second is created subsequently and then is destroyed while the first copy still exists, calls to [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) for the second copy can be omitted.
+-   When one copy of a pointer exists and a second is created and then the first is destroyed before the second, the calls to [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) for the second copy and to [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) for the first copy can be omitted.
 
 The following are specific examples of these situations, the first two being especially common:
 

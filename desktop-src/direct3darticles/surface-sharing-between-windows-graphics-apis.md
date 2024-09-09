@@ -31,7 +31,7 @@ In this document, Windows graphics API interoperability refers to the sharing of
 
 In Windows 7 (and Windows Vista SP2 with Windows 7 Interop Pack, Vista 7IP), the graphics rendering APIs are Direct3D 11, Direct2D, Direct3D 10.1, Direct3D 10.0, Direct3D 9Ex, Direct3D 9c and earlier Direct3D APIs, as well GDI and GDI+. Windows Imaging Component (WIC) and DirectWrite are related technologies for image processing, and Direct2D performs text rendering. DirectX Video Acceleration API (DXVA), based on Direct3D 9c and Direct3D 9Ex, is used for video processing.
 
-As Windows graphics APIs evolve towards being Direct3D-based, Microsoft is investing more effort in ensuring interoperability across APIs. Newly developed Direct3D APIs and higher level APIs based on Direct3D APIs also provide support where needed for bridging compatibility with older APIs. To illustrate, Direct2D applications can use Direct3D 10.1 by sharing a Direct3D 10.1 device. Also, Direct3D 11, Direct2D, and Direct3D 10.1 APIs can all take advantage of DirectX Graphics Infrastructure (DXGI) 1.1, which enables synchronized shared surfaces that fully support interoperability among these APIs. DXGI 1.1-based APIs interoperate with GDI, and with GDI+ by association, by obtaining the GDI device context from a DXGI 1.1 surface. For more information, see the DXGI and GDI interoperability documentation available on MSDN.
+As Windows graphics APIs evolve towards being Direct3D-based, Microsoft is investing more effort in ensuring interoperability across APIs. Newly developed Direct3D APIs and higher level APIs based on Direct3D APIs also provide support where needed for bridging compatibility with older APIs. To illustrate, Direct2D applications can use Direct3D 10.1 by sharing a Direct3D 10.1 device. Also, Direct3D 11, Direct2D, and Direct3D 10.1 APIs can all take advantage of DirectX Graphics Infrastructure (DXGI) 1.1, which enables synchronized shared surfaces that fully support interoperability among these APIs. DXGI 1.1-based APIs interoperate with GDI, and with GDI+ by association, by obtaining the GDI device context from a DXGI 1.1 surface.
 
 Unsynchronized surface sharing is supported by the Direct3D 9Ex runtime. DXVA-based video applications can use the Direct3D 9Ex and DXGI interoperability helper for Direct3D 9Ex-based DXVA interoperability with Direct3D 11 for compute shader, or can interoperate with Direct2D for 2D controls or text rendering. WIC and DirectWrite also interoperate with GDI, Direct2D, and by association, other Direct3D APIs.
 
@@ -875,12 +875,6 @@ m_p11to9Queue->OpenProducer(m_pD3D11Device, &m_pD3D11Producer);
 m_p11to9Queue->OpenConsumer(m_pD3D9Device, &m_pD3D9Consumer);
 ```
 
-
-
 ## Conclusion
 
-You can create solutions that use interoperability to employ the power of multiple DirectX APIs. Windows graphics API interoperability now offers a common surface management runtime DXGI 1.1. This runtime enables synchronized surface sharing support within newly developed APIs, such as Direct3D 11, Direct3D 10.1 and Direct2D. Interoperability improvements between new APIs and existing APIs aid application migration and backward compatibility. Direct3D 9Ex and DXGI 1.1 consumer APIs can interoperate, as shown with the synchronization mechanism provided through sample helper code on MSDN Code Gallery.
-
- 
-
- 
+You can create solutions that use interoperability to employ the power of multiple DirectX APIs. Windows graphics API interoperability now offers a common surface management runtime DXGI 1.1. This runtime enables synchronized surface sharing support within newly developed APIs, such as Direct3D 11, Direct3D 10.1 and Direct2D. Interoperability improvements between new APIs and existing APIs aid application migration and backward compatibility. Direct3D 9Ex and DXGI 1.1 consumer APIs can interoperate, as shown with the synchronization mechanism available in older Win32 sample apps that can be found in the archived [MSDN Code Gallery Microsoft Samples](https://github.com/microsoftarchive/msdn-code-gallery-microsoft) repo.

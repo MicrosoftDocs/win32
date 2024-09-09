@@ -27,7 +27,7 @@ For an overview of the [Microsoft.StylusInput](/previous-versions/ms824750(v=msd
 
 The packet filter plug-in is a synchronous plug-in that demonstrates packet modification. Specifically, it defines a rectangle on the form. Any packets that are drawn outside the region are rendered inside the region. The plug-in class, `PacketFilterPlugin`, registers for notification of `StylusDown`, `StylusUp`, and `Packets` pen input events. The class implements the [StylusDown](/previous-versions/ms824761(v=msdn.10)), [StylusUp](/previous-versions/ms824764(v=msdn.10)), and [Packets](/previous-versions/ms824756(v=msdn.10)) methods defined on [**IStylusSyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylussyncplugin) class.
 
-The public constructor for `PacketFilterPlugin` requires a [Rectangle](/dotnet/api/system.drawing.rectangle?view=netcore-3.1) structure. This rectangle defines the rectangular area, in ink space coordinates (.01mm = 1 HIMETRIC unit), in which packets will be contained. The rectangle is held in a private field, `rectangle`.
+The public constructor for `PacketFilterPlugin` requires a [Rectangle](/dotnet/api/system.drawing.rectangle?view=netcore-3.1&preserve-view=true) structure. This rectangle defines the rectangular area, in ink space coordinates (.01mm = 1 HIMETRIC unit), in which packets will be contained. The rectangle is held in a private field, `rectangle`.
 
 
 ```C++
@@ -142,9 +142,9 @@ public void Packets(RealTimeStylus sender,  PacketsData data)
 
 The RealTimeStylusPluginApp project demonstrates the plug-ins previously described, as well as the [**GestureRecognizer**](gesturerecognizer-class.md) and [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)) plug-ins. The project's user interface consists of:
 
--   A Form that contains a [GroupBox](/dotnet/api/system.windows.forms.groupbox?view=netcore-3.1) control used to define the ink entry area.
--   A [CheckedListBox](/dotnet/api/system.windows.forms.checkedlistbox?view=netcore-3.1) control to list and select the available plug-ins.
--   A pair of [Button objects](/dotnet/api/system.windows.forms.button?view=netcore-3.1) to enable re-ordering the plug-ins.
+-   A Form that contains a [GroupBox](/dotnet/api/system.windows.forms.groupbox?view=netcore-3.1&preserve-view=true) control used to define the ink entry area.
+-   A [CheckedListBox](/dotnet/api/system.windows.forms.checkedlistbox?view=netcore-3.1&preserve-view=true) control to list and select the available plug-ins.
+-   A pair of [Button objects](/dotnet/api/system.windows.forms.button?view=netcore-3.1&preserve-view=true) to enable re-ordering the plug-ins.
 
 The project defines a structure, `PlugInListItem`, to make managing the plug-ins used in the project easier. The `PlugInListItem` structure contains the plug-in and a description.
 

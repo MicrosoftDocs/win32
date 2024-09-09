@@ -1,24 +1,14 @@
 ---
-description: "Learn more about: How the Windows Imaging Component Works"
+description: "Learn more about: How the Windows Imaging Component works"
 ms.assetid: c233e25b-bec6-4e67-8fbf-2bf9b70c7522
-title: How the Windows Imaging Component Works
+title: How the Windows Imaging Component works
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How the Windows Imaging Component Works
+# How the Windows Imaging Component works
 
-This topic contains the following sections:
-
--   [Discovery and Arbitration](#discovery-and-arbitration)
--   [Decoding](#decoding)
--   [Encoding](#encoding)
--   [The Lifetime of a Codec](#the-lifetime-of-a-codec)
--   [How to WIC-enabled a Codec](#how-to-wic-enabled-a-codec)
--   [Multi-Threaded Apartment Support in WIC](#multi-threaded-apartment-support-in-wic)
--   [Related topics](#related-topics)
-
-## Discovery and Arbitration
+## Discovery and arbitration
 
 Before an image can be decoded, an appropriate codec must be found that can decode that image format. In most systems, because the supported image formats are hard-coded, no discovery process is required. Because the Windows Imaging Component (WIC) platform is extensible, it’s necessary to be able to identify the format of an image and match it with an appropriate codec.
 
@@ -47,7 +37,7 @@ Decoders are not required to natively support transform operations, but doing so
 
 Progress notifications and cancellation support enable an application to request progress notifications for lengthy operations, and also enable the application to give the user an opportunity to cancel an operation that is taking too long. This is important because if a user cannot cancel an operation, he or she may feel the process has hung, and try to cancel it by closing the application.
 
-These interfaces are described in detail in the section on [Implementing a WIC-Enabled Decoder](-wic-implementingwicdecoder.md).
+These interfaces are described in detail in the section on [Implementing a WIC-enabled decoder](-wic-implementingwicdecoder.md).
 
 Raw processing services include adjusting camera settings, such as exposure, contrast, and sharpening, or changing the color space before processing the raw bits.
 
@@ -66,15 +56,15 @@ Frame-level services for an encoder mirror those for the decoder, except that th
 
 Also, metadata enumeration services for an encoder include iterating through the metadata blocks to be written, and invoking the appropriate metadata writers to serialize the metadata to disk.
 
-These interfaces are described in detail in the section on [Implementing a WIC-Enabled Encoder](-wic-implementingwicencoder.md).
+These interfaces are described in detail in the section on [Implementing a WIC-enabled encoder](-wic-implementingwicencoder.md).
 
-## The Lifetime of a Codec
+## The lifetime of a codec
 
 A WIC codec is instantiated to handle a single image, and usually has a short lifetime. It’s created when an image is loaded and is released when the image is closed. An application may use a large number of codecs simultaneously with overlapping lifetimes (think of scrolling through a directory containing hundreds of images), and multiple applications may be doing this at the same time.
 
 Although some codecs have a lifetime that is scoped to the lifetime of the process in which they live, this is not the case with WIC codecs. The Windows Vista Photo Gallery, Windows Explorer, and Photo Viewer, as well as numerous other applications, are built on WIC and will be using your codec to display images and thumbnails. If the lifetime of your codec were scoped to the lifetime of the process, every time an image or thumbnail was displayed in the Windows Vista Explorer, the codec instantiated to decode that image would remain in memory until the next time the user restarted his or her computer. If your codec is never unloaded, its resources are, in effect, "leaked" because they can't be used by any other component in the system.
 
-## How to WIC-enabled a Codec
+## How to WIC-enable a codec
 
 1.  Implement a container-level decoder class and a frame-level decoder class that exposes the required WIC interfaces for decoding images and iterating through blocks of metadata. This enables all WIC-based applications to interact with your codec the same way they interact with standard image formats.
 2.  Implement a container-level encoder class and a frame-level encoder class that exposes the required WIC interfaces for encoding images and serializing blocks of metadata into an image file.
@@ -84,7 +74,7 @@ Although some codecs have a lifetime that is scoped to the lifetime of the proce
 6.  As of Windows 7, WIC requires that codecs be of COM apartment type "Both". This means that you must do the appropriate locking to handle cross-apartment callers and callers in multi-threaded scenarios. For more information, see the next section on multi-threaded apartment support.
 7.  Support for 64-bit platforms: For Windows 7, WIC will require that third-party WIC codecs be delivered as both 32-bit and 64-bit native binaries. Further, the 32-bit form must install and run on 64-bit systems, and the third party Windows 7 codec installer must install both the 32-bit and 64-bit binaries on 64-bit systems.
 
-## Multi-Threaded Apartment Support in WIC
+## Multi-threaded apartment support in WIC
 
 Objects within a Multi-Threaded Apartment (MTA) may be called concurrently by any number of threads within the MTA. This allows for better performance on multi-core systems and certain server scenarios. In addition, WIC codecs in an MTA can call other objects in the MTA without the marshalling cost associated with calling between threads in different STA apartments. In Windows 7, all in-box WIC codecs have been updated to support MTAs, including JPEG, TIFF, PNG, GIF, ICO, and BMP. It is highly recommended that third-party codecs be written to support MTAs. Third-party codecs that do not to support MTAs cause significant performance costs in multi-threaded applications because of marshaling. Enabling MTA support requires proper synchronization to be implemented in the third-party codec. Exact implementation of these synchronization techniques is beyond the scope of this paper. For more information on synchronizing COM objects, see [Understanding and Using COM Threading Models](/previous-versions/ms809971(v=msdn.10)).
 
@@ -95,24 +85,17 @@ Objects within a Multi-Threaded Apartment (MTA) may be called concurrently by an
 **Conceptual**
 </dt> <dt>
 
-[Introduction (How to Write a WIC-Enabled CODEC)](-wic-howtowriteacodec-intro.md)
+[Introduction (how to write a WIC-enabled codec)](-wic-howtowriteacodec-intro.md)
 </dt> <dt>
 
-[Implementing a WIC-Enabled Decoder](-wic-implementingwicdecoder.md)
+[Implementing a WIC-enabled decoder](-wic-implementingwicdecoder.md)
 </dt> <dt>
 
-[How to Write a WIC-Enabled CODEC](-wic-howtowriteacodec.md)
+[How to write a WIC-enabled codec](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows Imaging Component Overview](-wic-about-windows-imaging-codec.md)
+[Windows Imaging Component overview](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
-[WIC Metadata Overview](-wic-about-metadata.md)
+[WIC metadata overview](-wic-about-metadata.md)
 </dt> </dl>
-
- 
-
- 
-
-
-

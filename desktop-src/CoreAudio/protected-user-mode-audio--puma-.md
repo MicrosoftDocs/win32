@@ -203,7 +203,7 @@ The media application must perform the following tasks.
 
             
 
-        2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](/previous-versions//bb219818(v=vs.85)) on MSDN.
+        2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](/previous-versions//bb219818(v=vs.85)).
     -   For WASAPI:
         1.  Create an [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) COM object by calling [**IMMDevice::Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) and specifying IID\_IAudioClient as the interface identifier.
             ```cpp
@@ -505,7 +505,7 @@ int __cdecl wmain(int argc, char* argv[])
     hr = ClearOTAPolicy(pMFTrustedOutput,pMFOutputTrustAuthority,pMFOutputPolicy);
     IF_FAILED_JUMP(hr, Exit);
 
-    // After above release operations, the following Play() will succeed without without device-in-use error message 0x8889000A
+    // After above release operations, the following Play() will succeed without device-in-use error message 0x8889000A
     DSBuffer->SetCurrentPosition(0);
     hr = DSBuffer->Play(0, 0, DSBPLAY_LOOPING);
     IF_FAILED_JUMP(hr, Exit);

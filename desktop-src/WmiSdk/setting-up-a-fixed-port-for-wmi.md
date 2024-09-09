@@ -27,12 +27,6 @@ The following procedure is an automated setup to allow WMI to have a fixed port.
 
 To undo any changes you make to WMI, type **winmgmt /sharedhost**, then stop and start the winmgmt service again.
 
-## Examples
-
-For a script that sets up a fixed port for WMI, see the following Scripting Gallery [code sample](https://Gallery.TechNet.Microsoft.Com/Set-WmiSinglePortps1-20fa8389 ).
-
-or a PowerShell code example that enables or disables the WMI port settings, see the [Set-WmiSinglePort](https://Gallery.TechNet.Microsoft.Com/Set-WmiSinglePortps1-20fa8389) example on TechNet Gallery.
-
 ## Related topics
 
 <dl> <dt>
@@ -45,10 +39,3 @@ or a PowerShell code example that enables or disables the WMI port settings, see
 
 [Provider Hosting and Security](provider-hosting-and-security.md)
 </dt> </dl>
-
- 
-
- 
-
-
-

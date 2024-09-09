@@ -4,19 +4,22 @@ ms.assetid: 1b8f328c-2fe1-462e-b464-c8dd9dc03e67
 title: D3DXComputeBoundingBox function (D3DX10math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXComputeBoundingBox
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXComputeBoundingBox function (D3DX10math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Computes a coordinate-axis oriented bounding box.
 

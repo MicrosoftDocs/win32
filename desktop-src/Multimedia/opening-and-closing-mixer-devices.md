@@ -17,10 +17,13 @@ keywords:
 - audio mixers,device identifiers vs. device handles
 - mixers,device identifiers vs. device handles
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Opening and Closing Mixer Devices
+
+\[The feature associated with this page, [Audio Mixers](/windows/win32/multimedia/audio-mixers), is a legacy feature. It has been superseded by [Volume Controls](/windows/win32/coreaudio/volume-controls). **Volume Controls** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Volume Controls** instead of **Audio Mixers**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 When you want to use a mixer device, you can either simply begin using it or you can explicitly open the device before using it. Explicitly opening a mixer device offers two main benefits:
 

@@ -138,10 +138,10 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](loword.md)
 </dt> <dt>
 
 [**MoveWindow**](/windows/win32/api/winuser/nf-winuser-movewindow)

@@ -47,7 +47,7 @@ In the descriptions below, the following terms are used:
 
 If the source file is a symbolic link, the actual file copied is the target of the symbolic link.
 
-If the destination file already exists and is a symbolic link, the symbolic link is overwritten by the source file.
+If the destination file already exists and is a symbolic link, the target of the symbolic link is overwritten by the source file.
 
 ## CopyFileEx
 

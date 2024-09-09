@@ -15,7 +15,6 @@ Windows Installer records errors and events in its own error log and in the Even
 -   [Preventing Confidential Information from Being Written into the Log File](preventing-confidential-information-from-being-written-into-the-log-file.md)
 -   [Wilogutl.exe](wilogutl-exe.md) assists the analysis of log files from a Windows Installer installation, and displays suggested solutions to errors that are found in a log file.
 
-For more information about interpreting Windows Installer log files, see the white paper available on the TechNet site: [Windows Installer: Benefits and Implementation for System Administrators](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/winmsi.mspx).
 
 ## Related topics
 

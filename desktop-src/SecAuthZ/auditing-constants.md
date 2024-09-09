@@ -133,7 +133,9 @@ Audit logon attempts by privileged accounts that log on to the domain controller
 
 The following constants represent subcategories of audit-policy events. These constants are defined as **GUID** structures in Ntsecapi.h.
 
-<dl> <span id="Audit_System_SecurityStateChange"></span><span id="audit_system_securitystatechange"></span><span id="AUDIT_SYSTEM_SECURITYSTATECHANGE"></span>**Audit\_System\_SecurityStateChange** (0cce9210-69ae-11d9-bed3-505054503030)  
+<dl> 
+
+<span id="Audit_System_SecurityStateChange"></span><span id="audit_system_securitystatechange"></span><span id="AUDIT_SYSTEM_SECURITYSTATECHANGE"></span>**Audit\_System\_SecurityStateChange** (0cce9210-69ae-11d9-bed3-505054503030)  
 <span id="Audit_System_SecuritySubsystemExtension"></span><span id="audit_system_securitysubsystemextension"></span><span id="AUDIT_SYSTEM_SECURITYSUBSYSTEMEXTENSION"></span>**Audit\_System\_SecuritySubsystemExtension** (0cce9211-69ae-11d9-bed3-505054503030)  
 <span id="Audit_System_Integrity"></span><span id="audit_system_integrity"></span><span id="AUDIT_SYSTEM_INTEGRITY"></span>**Audit\_System\_Integrity** (0cce9212-69ae-11d9-bed3-505054503030)  
 <span id="Audit_System_IPSecDriverEvents"></span><span id="audit_system_ipsecdriverevents"></span><span id="AUDIT_SYSTEM_IPSECDRIVEREVENTS"></span>**Audit\_System\_IPSecDriverEvents** (0cce9213-69ae-11d9-bed3-505054503030)  

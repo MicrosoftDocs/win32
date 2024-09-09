@@ -16,7 +16,7 @@ Specifies the encrypted byte block size for sample-based pattern encryption.
 
 ## Remarks
 
-The number of clear (non-encrypted) bytes in the subsample mapping block are specified in the [MFSampleExtension\_Encryption\_SkipByteBlock](mfsampleextension-encryption-skipbyteblock.md) attribute. If either of these attributes are not present or have a value of 0, it means that the sample data is not encrypted. Either both of these values must be non-zero, positive values, or both must have a value of zero.
+The number of clear (non-encrypted) bytes in the subsample mapping block are specified in the [MFSampleExtension\_Encryption\_SkipByteBlock](mfsampleextension-encryption-skipbyteblock.md) attribute. If either of these attributes are not present or have a value of 0, it means that the sample is either 'cenc' or 'cbc1' depending on value of [MFSampleExtension_Encryption_ProtectionScheme attribute](mfsampleextension-encryption-protectionscheme.md).
 
 In cases where the Source is MP4-based, the value is set based off the values of default\_crypt\_byte\_block within the track encryption box (‘tenc’) in the MP4 header. For more information, see [MFSampleExtension\_Encryption\_ProtectionScheme](mfsampleextension-encryption-protectionscheme.md).
 

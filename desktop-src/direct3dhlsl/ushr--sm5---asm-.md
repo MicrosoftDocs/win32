@@ -12,7 +12,7 @@ Shift right.
 
 
 
-| ubfe dest\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
+| ushr dest\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
 |--------------------------------------------------------|
 
 

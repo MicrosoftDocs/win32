@@ -83,7 +83,7 @@ The following function is obsolete.
 
 | Name | Description | 
 |------|-------------|
-| <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> | Inserts a new menu item into a menu, moving other items down the menu.<blockquote>[!Note]<br />The <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenua"><strong>InsertMenu</strong></a> function has been superseded by the <a href="/windows/desktop/api/Winuser/nf-winuser-insertmenuitema"><strong>InsertMenuItem</strong></a> function. You can still use <strong>InsertMenu</strong>, however, if you do not need any of the extended features of <strong>InsertMenuItem</strong>.</blockquote><br /><br /> | 
+| [**InsertMenu**](/windows/desktop/api/Winuser/nf-winuser-insertmenua) | Inserts a new menu item into a menu, moving other items down the menu. **Note:** The [**InsertMenu**](/windows/desktop/api/Winuser/nf-winuser-insertmenua) function has been superseded by the [**InsertMenuItem**](/windows/desktop/api/Winuser/nf-winuser-insertmenuitema) function. You can still use **InsertMenu**, however, if you do not need any of the extended features of **InsertMenuItem**.<br> | 
 
 
 
@@ -100,7 +100,7 @@ The following function is obsolete.
 | [**WM\_CONTEXTMENU**](wm-contextmenu.md)             | Informs a window that the user clicked the right mouse button (*right-clicked*) in the window.<br/>                                                                            |
 | [**WM\_ENTERMENULOOP**](wm-entermenuloop.md)         | Informs an application's main window procedure that a menu modal loop has been entered. <br/>                                                                                  |
 | [**WM\_EXITMENULOOP**](wm-exitmenuloop.md)           | Informs an application's main window procedure that a menu modal loop has been exited. <br/>                                                                                   |
-| [**WM\_GETTITLEBARINFOEX**](wm-gettitlebarinfoex.md) | Sent to request extended title bar information. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.<br/>                                  |
+| [**WM\_GETTITLEBARINFOEX**](wm-gettitlebarinfoex.md) | Sent to request extended title bar information. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.<br/>                                  |
 | [**WM\_MENUCOMMAND**](wm-menucommand.md)             | Sent when the user makes a selection from a menu. <br/>                                                                                                                        |
 | [**WM\_MENUDRAG**](wm-menudrag.md)                   | Sent to the owner of a drag-and-drop menu when the user drags a menu item. <br/>                                                                                               |
 | [**WM\_MENUGETOBJECT**](wm-menugetobject.md)         | Sent to the owner of a drag-and-drop menu when the mouse cursor enters a menu item or moves from the center of the item to the top or bottom of the item. <br/>                |

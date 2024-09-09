@@ -3,7 +3,7 @@ description: The CImageDisplay class is a helper class for GDI video renderers t
 ms.assetid: c9221e5c-30c6-489a-89d7-132203314dc8
 title: CImageDisplay class (Winutil.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -16,9 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
+ms.custom: UpdateFrequency5
 ---
 
 # CImageDisplay class
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 ![cimagedisplayclasshierarchy](images/wutil06.png)
 
@@ -43,7 +46,7 @@ The `CImageDisplay` class is a helper class for GDI video renderers to manage th
 | [**GetColourMask**](cimagedisplay-getcolourmask.md)             | Retrieves the color masks for the current display format.                              |
 | [**GetDisplayDepth**](cimagedisplay-getdisplaydepth.md)         | Retrieves the bit depth of the current display mode.                                   |
 | [**GetDisplayFormat**](cimagedisplay-getdisplayformat.md)       | Retrieves a video format that describes the current display mode.                      |
-| [**IsPalettised**](cimagedisplay-ispalettised.md)               | Retermines whether the current display format is palettized.                           |
+| [**IsPalettised**](cimagedisplay-ispalettised.md)               | Determines whether the current display format is palettized.                           |
 | [**RefreshDisplayType**](cimagedisplay-refreshdisplaytype.md)   | Updates the object's video format to match the specified display                       |
 
 

@@ -111,7 +111,7 @@ Windows Search includes wordbreakers to support the following languages.
 | **Tamil\_Default**       | Tamil (India)                                     | 0x0449 |
 | **Telugu\_Default**      | Telugu (India)                                    | 0x044A |
 | **Thai\_Default**        | Thai (Thailand)                                   | 0x041E |
-| **Turkish\_Default**     | Turkish (Turkey)                                  | 0x041F |
+| **Turkish\_Default**     | Turkish (Türkiye)                                 | 0x041F |
 | **Ukrainian\_Default**   | Ukrainian (Ukraine)                               | 0x0422 |
 | **Urdu\_Default**        | Urdu (Pakistan)                                   | 0x0420 |
 | **Vietnamese\_Default**  | Vietnamese (Vietnam)                              | 0x042A |
@@ -132,7 +132,7 @@ For more information about languages and associated identifiers, see [Language I
 
  
 
-**Beginning in Windows 8.1**, the preferred way to use wordbreakers is via the WinRT API [**WordsSegmenter class**](/uwp/api/Windows.Data.Text.WordsSegmenter?view=winrt-19041).
+**Beginning in Windows 8.1**, the preferred way to use wordbreakers is via the WinRT API [**WordsSegmenter class**](/uwp/api/Windows.Data.Text.WordsSegmenter).
 
 ## Additional Resources
 

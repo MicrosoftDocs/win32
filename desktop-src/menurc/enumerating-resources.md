@@ -17,6 +17,6 @@ In certain situations, you might want to discover the resource contents of an un
 
 These functions and their associated callback functions enable your application to create a list of all resources in a module. This process is described in [Creating a resource list](using-resources.md).
 
-## -see-also
+## See also
 
 [Msistuff.exe sample app](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/sysmgmt/msi/msistuff)

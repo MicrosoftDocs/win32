@@ -1,5 +1,5 @@
 ---
-title: DirectWrite Glossary
+title: DirectWrite glossary
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bf50f374-440b-44f3-a365-47588eaa071f
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# DirectWrite Glossary
+# DirectWrite glossary
 
 <dl> <dt>
 
@@ -143,11 +143,3 @@ A character-encoding standard developed by the Unicode Consortium that represent
 A GUI framework used by the .NET Micro Framework 3.0, Windows Vista, and Microsoft Silverlight. The .NET Micro Framework GUI classes are loosely based on WPF.
 
 </dd> </dl>
-
- 
-
- 
-
-
-
-

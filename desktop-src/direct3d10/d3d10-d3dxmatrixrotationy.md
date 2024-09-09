@@ -4,19 +4,22 @@ ms.assetid: b58def9b-29dc-4c7d-89a3-188ef9b9f94f
 title: D3DXMatrixRotationY function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixRotationY
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXMatrixRotationY function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a matrix that rotates around the y-axis.
 

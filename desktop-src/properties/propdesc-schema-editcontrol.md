@@ -87,7 +87,7 @@ If \<typeInfo isInnate="true"\>, this element is ignored because an innate prope
 <tbody>
 <tr class="odd">
 <td>Default</td>
-<td>Default. Uses the default control, based upon the \<typeInfo type=&quot;&quot;\> attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. 
+<td>Default. Uses the default control, based upon the &lt;typeInfo type=&quot;&quot;&gt; attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. &lt;&gt;
 <table>
 <thead>
 <tr class="header">

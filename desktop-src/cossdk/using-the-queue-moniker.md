@@ -32,7 +32,7 @@ The GetObject display name parameter is "queue:/new:", followed by the program I
 
 ## C/C++
 
-The [**CoGetObject**](https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetobject) display name parameter is "queue:/new:", followed by the program ID or string-form GUID, with or without braces, of the server object to be instantiated. The following examples show three valid activations of a component with the queue moniker:
+The [**CoGetObject**](/windows/win32/api/objbase/nf-objbase-cogetobject) display name parameter is "queue:/new:", followed by the program ID or string-form GUID, with or without braces, of the server object to be instantiated. The following examples show three valid activations of a component with the queue moniker:
 
 1.  ``` syntax
     hr = CoGetObject (
@@ -71,7 +71,7 @@ The following table lists the queue moniker parameters that affect the destinati
 |-----------|-------------|
 | <em>ComputerName</em><br /> | Specifies the computer name portion of a Message Queuing queue path name. The Message Queuing queue path name is formatted as <em>ComputerName</em>\<em>QueueName</em>. If not specified, the computer name associated with the configured application is used.<br /> | 
 | <em>QueueName</em><br /> | Specifies the Message Queuing queue name. The Message Queuing queue path name is formatted as <em>ComputerName</em>\<em>QueueName</em>. If not specified, the queue name associated with the configured application is used.<br /> To get a non-transactional queue, you can specify the queue name first and then create a COM+ application of the same name.<br /> | 
-| <em>PathName</em><br /> | Specifies the complete Message Queuing queue path name. If not specified, the Message Queuing queue path name associated with the configured application is used. To override the destination name, the path can be specified in the following form for a Message Queuing workgroup installation:<br /> Queue:<em>PathName</em>=<em>ComputerName</em>\PRIVATE$\AppName/new:Myproject.CMyClass<br /><blockquote>[!Note]<br />Both the C and Microsoft Visual C++ programming languages require two backslashes to represent one backslash within string literals for example, chicago\\payroll.</blockquote><br /> | 
+| **PathName**<br> | Specifies the complete Message Queuing queue path name. If not specified, the Message Queuing queue path name associated with the configured application is used. To override the destination name, the path can be specified in the following form for a Message Queuing workgroup installation:<br> Queue:**PathName**=**ComputerName**\PRIVATE$\AppName/new:Myproject.CMyClass<br> **Note:** Both the C and Microsoft Visual C++ programming languages require two backslashes to represent one backslash within string literals for example, chicago\\payroll.<br> | 
 | <em>FormatName</em><br /> | When you mark a COM+ application as queued, COM+ creates a Message Queuing queue whose name is the same as the application. The Message Queuing format name of that queue is in the COM+ catalog, associated with the COM+ application. To override the destination name, the format name can be specified in the following form for a Message Queuing workgroup installation:<br /> Queue:<em>FormatName</em>=DIRECT=OS:<em>ComputerName</em>\PRIVATE$\AppName/new:ProgId<br /> In an Active Directory configuration, "PRIVATE$" is not specified as part of the queue name. <br /> | 
 
 
@@ -124,11 +124,3 @@ The complete set of COM+ Administrative SDK functions is available by using COM 
 
 [Activating Component Queues](activating-component-queues.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

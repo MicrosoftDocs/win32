@@ -12,7 +12,6 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # D1101: Unknown Handle
@@ -42,7 +41,3 @@ Invalid resource usage. The resource created outside of Direct2D is used with a 
  
 
  
-
-
-
-

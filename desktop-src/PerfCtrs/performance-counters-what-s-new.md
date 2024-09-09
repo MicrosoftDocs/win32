@@ -10,6 +10,12 @@ ms.date: 05/31/2018
 
 This section describes the new features that were added to Performance Counters for each release.
 
+## Windows 10 20H1
+
+If you are reading performance data directly from the [registry](using-the-registry-functions-to-consume-counter-data.md), you can now perform a metadata-only collection to avoid unnecessary work when making a list of available performance objects and counters. If you use `MetadataGlobal` instead of `Global` in your query, all metadata-enabled provider DLLs will skip the data collection step, potentially improving query performance on systems with many processes or threads. Provider DLLs that are not metadata-enabled will continue to work as before.
+
+If you are providing performance data using a [performance DLL](providing-counter-data-using-a-performance-dll.md), you can implement support for metadata-only collection to avoid unnecessary data collection. Update your `Collect` function to respond to `MetadataGlobal` and `MetadataCostly` queries with just the metadata (use `PERF_METADATA_NO_INSTANCES` or `PERF_METADATA_MULTIPLE_INSTANCES` for `NumInstances` and omit all `PERF_INSTANCE_DEFINITION` blocks from the response), then add a `Collect Supports Metadata` registry value with `REG_DWORD` value of 1 to your service's `Performance` subkey.
+
 ## Windows 7 and Windows Server 2008 R2
 
 The [CTRPP](ctrpp.md) tool was changed to improve and simplify code generation. The tool now generates only a header and resource file. If you want to old code generation behavior (not recommended), you can use the new `-legacy` argument.

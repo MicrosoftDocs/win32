@@ -88,13 +88,13 @@ case WM_INPUT:
 
 The advantage to using WM\_INPUT is that your game receives raw data from the mouse at the lowest level possible.
 
-The disadvantage is that WM\_INPUT has no ballistics applied to its data, so if you want to drive a cursor with this data, extra effort will be required to make the cursor behave like it does in Windows. For more information about applying pointer ballistics, see [Pointer Ballistics for Windows XP](https://www.microsoft.com/whdc/archive/pointer-bal.mspx).
+The disadvantage is that WM\_INPUT has no ballistics applied to its data, so if you want to drive a cursor with this data, extra effort will be required to make the cursor behave like it does in Windows. For more information about applying pointer ballistics, see [Pointer ballistics for Windows XP](https://web.archive.org/web/20110623221617/http://msdn.microsoft.com/en-us/windows/hardware/gg463319.aspx).
 
-For more info about WM\_INPUT, see [About Raw Input](/windows/desktop/inputdev/about-raw-input).
+For more info about WM\_INPUT, see [About raw input](/windows/desktop/inputdev/about-raw-input).
 
 ### DirectInput
 
-[DirectInput](/windows-hardware/drivers/hid/directinput) is a set of API calls that abstracts input devices on the system. Internally, DirectInput creates a second thread to read WM\_INPUT data, and using the DirectInput APIs will add more overhead than simply reading WM\_INPUT directly. DirectInput is only useful for reading data from DirectInput joysticks; however, if you only need to support the Xbox 360 controller for Windows, use [XInput](/windows/desktop/xinput/xinput-game-controller-apis-portal) instead. Overall, using DirectInput offers no advantages when reading data from mouse or keyboard devices, and the use of DirectInput in these scenarios is discouraged.
+[DirectInput](/windows-hardware/drivers/hid/directinput) is a set of API calls that abstracts input devices on the system. Internally, DirectInput creates a second thread to read WM\_INPUT data, and using the DirectInput APIs will add more overhead than simply reading WM\_INPUT directly. DirectInput is only useful for reading data from DirectInput joysticks; however, if you only need to support controllers for Windows, use [XInput](/windows/desktop/xinput/xinput-game-controller-apis-portal) instead. Overall, using DirectInput offers no advantages when reading data from mouse or keyboard devices, and the use of DirectInput in these scenarios is discouraged.
 
 Compare the complexity of using [DirectInput](/windows-hardware/drivers/hid/directinput), shown in the following code, to the methods previously described. The following set of calls are needed to create a DirectInput mouse:
 

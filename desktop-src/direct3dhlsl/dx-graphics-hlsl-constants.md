@@ -22,15 +22,7 @@ In Shader Model 4, shader constants are stored in one or more buffer resources i
 
 Declaring a constant buffer or a texture buffer looks very much like a structure declaration in C, with the addition of the **register** and **packoffset** keywords for manually assigning registers or packing data.
 
-
-
-|                                                                                                                         |
-|-------------------------------------------------------------------------------------------------------------------------|
-| *BufferType* \[*Name*\] \[: **register**(b\#)\] {     *VariableDeclaration* \[: **packoffset**(c\#.xyzw)\];      ... }; |
-
-
-
- 
+*BufferType* *Name* \[: **register**(b\#)\] { *VariableDeclaration* \[: **packoffset**(c\#.xyzw)\]; ... };
 
 ## Parameters
 
@@ -57,7 +49,7 @@ Declaring a constant buffer or a texture buffer looks very much like a structure
 <span id="Name"></span><span id="name"></span><span id="NAME"></span>*Name*
 </dt> <dd>
 
-\[in\] Optional, ASCII string containing a unique buffer name.
+\[in\] ASCII string containing a unique buffer name.
 
 </dd> <dt>
 

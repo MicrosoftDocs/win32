@@ -4,7 +4,6 @@ description: Shows how to create a linear gradient brush using Direct2D.
 ms.assetid: 3cf5acc6-2f17-49d4-aca5-a84a846d1749
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # How to Create a Linear Gradient Brush
@@ -24,7 +23,7 @@ The code produces the output shown in the following illustration.
 
 2.  Use the [**ID2D1RenderTarget::CreateGradientStopCollection**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_id2d1gradientstopcollection)) method to create the [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) collection with a declared array of [**D2D1\_GRADIENT\_STOP**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) structures, as shown in the following code.
     > [!Note]  
-    > Starting with Windows 8, you can use the [**ID2D1DeviceContext::CreateGradientStopCollection**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) method to create a [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) collection instead. This interface adds high-color gradients and the interpolation of gradients in either straight or prmultiplied colors. See the **ID2DDeviceContext::CreateGradientStopCollection** page for more information.
+    > Starting with Windows 8, you can use the [**ID2D1DeviceContext::CreateGradientStopCollection**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) method to create a [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) collection instead. This interface adds high-color gradients and the interpolation of gradients in either straight or premultiplied colors. See the **ID2DDeviceContext::CreateGradientStopCollection** page for more information.
 
      
 

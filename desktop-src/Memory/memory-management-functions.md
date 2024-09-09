@@ -3,7 +3,7 @@ description: 'This topic describes the memory management functions:'
 ms.assetid: 5a2a7a62-0bda-4a0d-93d2-25b4898871fd
 title: Memory Management Functions
 ms.topic: article
-ms.date: 11/06/2018
+ms.date: 01/19/2024
 ---
 
 # Memory Management Functions
@@ -25,22 +25,30 @@ ms.date: 11/06/2018
 | Function | Description |
 |-|-|
 | [**AddSecureMemoryCacheCallback**](/windows/desktop/api/WinBase/nf-winbase-addsecurememorycachecallback) | Registers a callback function to be called when a secured memory range is freed or its protections are changed. |
+| [**CopyDeviceMemory**](winbase-copydevicememory.md) | Copies memory from one location to another without interference from compiler optimizations in situations where the developer needs to additionally be sure that alignment faults will not be generated when accessing device memory. |
 | [**CopyMemory**](/previous-versions/windows/desktop/legacy/aa366535(v=vs.85)) | Copies a block of memory from one location to another. |
+| [**CopyVolatileMemory**](winbase-copyvolatilememory.md) | Copies the contents of a source memory block to a destination memory block. |
 | [**CreateMemoryResourceNotification**](/windows/win32/api/memoryapi/nf-memoryapi-creatememoryresourcenotification) | Creates a memory resource notification object. |
+| [**FillDeviceMemory**](winbase-filldevicememory.md) | Sets the contents of a buffer without interference from compiler optimizations in situations where the developer needs to additionally be sure that alignment faults will not be generated when accessing device memory. |
 | [**FillMemory**](/previous-versions/windows/desktop/legacy/aa366561(v=vs.85)) | Fills a block of memory with a specified value. |
+| [**FillVolatileMemory**](winbase-fillvolatilememory.md) | Fills a block of memory with the specified fill value. |
 | [**GetLargePageMinimum**](/windows/win32/api/memoryapi/nf-memoryapi-getlargepageminimum) | Retrieves the minimum size of a large page. |
 | [**GetPhysicallyInstalledSystemMemory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getphysicallyinstalledsystemmemory) | Retrieves the amount of RAM that is physically installed on the computer. |
 | [**GetSystemFileCacheSize**](/windows/win32/api/memoryapi/nf-memoryapi-getsystemfilecachesize) | Retrieves the current size limits for the working set of the system cache. |
 | [**GetWriteWatch**](/windows/win32/api/memoryapi/nf-memoryapi-getwritewatch) | Retrieves the addresses of the pages that have been written to in a region of virtual memory. |
 | [**GlobalMemoryStatusEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex) | Obtains information about the system's current usage of both physical and virtual memory. |
 | [**MoveMemory**](/previous-versions/windows/desktop/legacy/aa366788(v=vs.85)) | Moves a block of memory from one location to another. |
+| [**MoveVolatileMemory**](winbase-movevolatilememory.md) | Copies the contents of a source memory block to a destination memory block, and supports overlapping source and destination memory blocks. |
 | [**QueryMemoryResourceNotification**](/windows/win32/api/memoryapi/nf-memoryapi-querymemoryresourcenotification) | Retrieves the state of the specified memory resource object. |
 | [**RemoveSecureMemoryCacheCallback**](/windows/desktop/api/WinBase/nf-winbase-removesecurememorycachecallback) | Unregisters a callback function that was previously registered with the [**AddSecureMemoryCacheCallback**](/windows/desktop/api/WinBase/nf-winbase-addsecurememorycachecallback) function. |
 | [**ResetWriteWatch**](/windows/win32/api/memoryapi/nf-memoryapi-resetwritewatch) | Resets the write-tracking state for a region of virtual memory. |
 | [**SecureMemoryCacheCallback**](/windows/desktop/api/WinNT/nc-winnt-psecure_memory_cache_callback) | An application-defined function that is called when a secured memory range is freed or its protections are changed. |
 | [**SecureZeroMemory**](/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) | Fills a block of memory with zeros. |
+| [**SecureZeroMemory2**](winbase-securezeromemory2.md) | Fills a block of memory with zeros in a way that is guaranteed to be secure. |
 | [**SetSystemFileCacheSize**](/windows/win32/api/memoryapi/nf-memoryapi-setsystemfilecachesize) | Limits the size of the working set for the file system cache. |
+| [**ZeroDeviceMemory**](winbase-zerodevicememory.md) | Sets the contents of a buffer to zeros without interference from compiler optimizations in situations where the developer needs to additionally be sure that alignment faults will not be generated when accessing device memory. |
 | [**ZeroMemory**](/previous-versions/windows/desktop/legacy/aa366920(v=vs.85)) | Fills a block of memory with zeros. |
+| [**ZeroVolatileMemory**](winbase-zerovolatilememory.md) | Fills a block of memory with zeros. |
 
 ## Data execution prevention functions
 
@@ -60,7 +68,7 @@ These functions are used in [file mapping](file-mapping.md).
 |-|-|
 | [**CreateFileMappingA**](/windows/win32/api/winbase/nf-winbase-createfilemappinga) | Creates or opens a named or unnamed file-mapping object for a specified file. |
 | [**CreateFileMappingW**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw) | Creates or opens a named or unnamed file-mapping object for a specified file. |
-| [**CreateFileMapping2**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2) | Creates or opens a named or unnamed file mapping object for a specified file. You can specify specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter. |
+| [**CreateFileMapping2**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2) | Creates or opens a named or unnamed file mapping object for a specified file. You can specify a preferred NUMA node for the physical memory as an extended parameter; see the *ExtendedParameters* parameter. |
 | [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | Creates or opens a named or unnamed file-mapping object for a specified file from a Windows Store app. |
 | [**CreateFileMappingNuma**](/windows/desktop/api/WinBase/nf-winbase-createfilemappingnumaa) | Creates or opens a named or unnamed file-mapping object for a specified file, and specifies the NUMA node for the physical memory. |
 | [**FlushViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-flushviewoffile) | Writes to the disk a byte range within a mapped view of a file. |

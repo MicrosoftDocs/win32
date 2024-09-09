@@ -4,19 +4,22 @@ ms.assetid: f3f06f1b-8824-47f0-b2ed-c212fa4c3225
 title: D3DXVec3Lerp function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3Lerp
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec3Lerp function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Performs a linear interpolation between two 3D vectors.
 

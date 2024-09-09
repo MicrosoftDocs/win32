@@ -19,7 +19,7 @@ The Active Directory provider, also known as the Directory Services (DS) provide
 
 </dd> <dt>
 
-<span id="Application_Inventory"></span><span id="application_inventory"></span><span id="APPLICATION_INVENTORY"></span>[Application Inventory](/previous-versions/windows/desktop/appdevinvprov/applicationanddeviceinventory-portal)
+<span id="Application_Inventory"></span><span id="application_inventory"></span><span id="APPLICATION_INVENTORY"></span>[Application Inventory](/windows/win32/wmisdk/applicationanddeviceinventory-portal)
 </dt> <dd>
 
 The WMI classes for Application Inventory enable discovery of the installed Win32 applications and Windows store applications on a Windows system.
@@ -733,7 +733,7 @@ The MsftStrgMan provider provides management for storage systems on Windows Serv
 
 </dd> <dt>
 
-<span id="Windows_Storage_Management__StrgMgmt_"></span><span id="windows_storage_management__strgmgmt_"></span><span id="WINDOWS_STORAGE_MANAGEMENT__STRGMGMT_"></span>[Windows Storage Management (StrgMgmt)](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
+<span id="Windows_Storage_Management__StrgMgmt_"></span><span id="windows_storage_management__strgmgmt_"></span><span id="WINDOWS_STORAGE_MANAGEMENT__STRGMGMT_"></span>[Windows Storage Management (StrgMgmt)](/windows-hardware/drivers/storage/windows-storage-management-api-portal)
 </dt> <dd>
 
 The StrgMgmt provider can be used to manage a wide range of storage configurations, from tablets to external storage arrays on servers.

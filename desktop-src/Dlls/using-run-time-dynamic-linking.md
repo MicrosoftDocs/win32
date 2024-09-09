@@ -22,7 +22,7 @@ This example illustrates an important difference between run-time and load-time 
 #include <windows.h> 
 #include <stdio.h> 
  
-typedef int (__cdecl *MYPROC)(LPWSTR); 
+typedef int (__cdecl *MYPROC)(LPCWSTR); 
  
 int main( void ) 
 { 

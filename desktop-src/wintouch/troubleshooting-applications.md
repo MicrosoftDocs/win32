@@ -241,10 +241,10 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 </table>
 
 <div class="alert">
-<blockquote>
-[!Note]<br />
-In order to use the <a href="/windows/desktop/api/winuser/nf-winuser-screentoclient"><strong>ScreenToClient</strong></a> function, you must have high DPI support in your application. For more information on supporting high DPI, visit the <a href=" /windows/win32/hidpi/high-dpi-desktop-application-development-on-windows">High DPI</a> section of MSDN.
-</blockquote>
+
+<strong>Note:</strong><br />
+To use the <a href="/windows/desktop/api/winuser/nf-winuser-screentoclient"><strong>ScreenToClient</strong></a> function, you must have high DPI support in your application. For more information on supporting high DPI, see <a href=" /windows/win32/hidpi/high-dpi-desktop-application-development-on-windows">High DPI</a>.
+
 </div>
 <div>
  

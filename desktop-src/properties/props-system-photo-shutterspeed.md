@@ -51,7 +51,7 @@ See the Exchangeable Image File (EXIF) 2.2 specification, Annex C, for the conve
 
 <dl> <dt>
 
-[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://www.exif.org/Exif2-2.PDF)
+[Exchangeable Image File Format for Digital Still Cameras: Exif Version 2.2](https://exiv2.org/Exif2-2.PDF)
 </dt> <dt>
 
 [propertyDescription](./propdesc-schema-propertydescription.md)

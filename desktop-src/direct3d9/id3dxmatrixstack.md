@@ -4,19 +4,22 @@ ms.assetid: 4d382d39-a9da-4a3b-b7b6-d6890357d467
 title: ID3DXMATRIXStack interface (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # ID3DXMATRIXStack interface
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Applications use the methods of the ID3DXMATRIXStack interface to manipulate a matrix stack.
 

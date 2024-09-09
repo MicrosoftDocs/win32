@@ -22,7 +22,7 @@ This section describes the Windows Shell color palette handling functions. The p
 
 | Topic                                                           | Description                                                                           |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [**ColorAdjustLuma**](/windows/desktop/api/Shlwapi/nf-shlwapi-coloradjustluma)<br/>           | Changes the luminance of a RGB value. Hue and saturation are not affected.<br/> |
+| [**ColorAdjustLuma**](/windows/desktop/api/Shlwapi/nf-shlwapi-coloradjustluma)<br/>           | Changes the luminance of an RGB value. Hue and saturation are not affected.<br/> |
 | [**ColorHLSToRGB**](/windows/desktop/api/Shlwapi/nf-shlwapi-colorhlstorgb)<br/>               | Converts colors from hue-luminance-saturation (HLS) to RGB format.<br/>         |
 | [**ColorRGBToHLS**](/windows/desktop/api/Shlwapi/nf-shlwapi-colorrgbtohls)<br/>               | Converts colors from RGB to hue-luminance-saturation (HLS) format.<br/>         |
 | [**SHCreateShellPalette**](/windows/desktop/api/Shlwapi/nf-shlwapi-shcreateshellpalette)<br/> | Creates a halftone palette for the specified device context.<br/>               |

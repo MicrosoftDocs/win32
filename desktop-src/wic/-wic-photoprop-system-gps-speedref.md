@@ -81,10 +81,10 @@ Values from different schemas are reconciled.
 
 
 
-| Order | Path                      |         |
-|-------|---------------------------|---------|
-| 1     | /ifd/gps/{ushort=12}      | ascii   |
-| 2     | /ifd/xmp/exif:GPSSpeedRef | unicode |
+| Order | Path                      | Disk Format |
+|-------|---------------------------|-------------|
+| 1     | /ifd/gps/{ushort=12}      | ascii       |
+| 2     | /ifd/xmp/exif:GPSSpeedRef | unicode     |
 
 
 

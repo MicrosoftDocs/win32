@@ -83,19 +83,19 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 <li>SECONDARY-URL-LIST</li>
 </ul>
 If a type value starts with the prefix PRIMARY, the compiled dictionary, after it is installed, will replace the system dictionary for that language. The value PRIMARY-DICTIONARY represents the main system dictionary for a language.
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Replacing a system dictionary does nothing to the original system dictionary content, as the replacement is in effect only until the custom dictionary has been removed.
-</blockquote>
+
 <br/> If a type value starts with the prefix SECONDARY, the compiled dictionary will supplement the system dictionary without replacing it.</td>
 </tr>
 <tr class="odd">
-<td>-comment \<comment>\</td>
+<td>-comment &lt;comment&gt;</td>
 <td>The specified comment is compiled into the dictionary file. The comment must be a single string and no longer than 64 characters.</td>
 </tr>
 <tr class="even">
-<td>-o <dictfile.hwrdict></td>
-<td>Output is written to the file name specified by <dictfile.hwrdict>.<br/> If this option is missing, the output file name is derived from the original input file name, with the input file extension replaced by .hwrdict.<br/></td>
+<td>-o &lt;dictfile.hwrdict&gt;</td>
+<td>Output is written to the file name specified by &lt;dictfile.hwrdict&gt;.<br/> If this option is missing, the output file name is derived from the original input file name, with the input file extension replaced by .hwrdict.<br/></td>
 </tr>
 </tbody>
 </table>

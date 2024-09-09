@@ -178,6 +178,8 @@
           href: /windows/desktop/api/Winreg/nf-winreg-regqueryvaluea
         - name: "RegQueryValueEx"
           href: /windows/desktop/api/Winreg/nf-winreg-regqueryvalueexa
+        - name: "RegRenameKey"
+          href: /windows/desktop/api/Winreg/nf-winreg-regrenamekey
         - name: "RegReplaceKey"
           href: /windows/desktop/api/Winreg/nf-winreg-regreplacekeya
         - name: "RegRestoreKey"
@@ -316,6 +318,8 @@
           href: /windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64guestmachinesupported
         - name: "NtQuerySystemInformation"
           href: /windows/desktop/api/Winternl/nf-winternl-ntquerysysteminformation
+        - name: "NtSetSystemInformation"
+          href: ntsetsysteminformation.md
         - name: "QueryPerformanceCounter"
           href: /windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter
         - name: "QueryPerformanceFrequency"

@@ -27,7 +27,7 @@ The following error codes are defined by the Windows Media Device Manager SDK.
 | WMDM\_E\_BUSY                          | The device is busy and cannot satisfy the new request.                                                                                               |
 | WMDM\_E\_CALL\_OUT\_OF\_SEQUENCE       | Operations were called in the wrong order. (For example, calling Read without Open.)                                                                 |
 | WMDM\_E\_INCORRECT\_APPSEC             | The minimum level of application security is not correct. This can be caused if a device's key/certificate pair is not a high enough security level. |
-| WMDM\_E\_CANTOPEN\_PMSN\_SERVICE\_PIPE | PMSN service pipe can not be opened.                                                                                                                 |
+| WMDM\_E\_CANTOPEN\_PMSN\_SERVICE\_PIPE | PMSN service pipe cannot be opened.                                                                                                                 |
 | WMDM\_E\_INCORRECT\_RIGHTS             | The rights for a file are not correct.                                                                                                               |
 | WMDM\_E\_INTERFACEDEAD                 | The object has disconnected itself from the clients.                                                                                                 |
 | WMDM\_E\_INVALIDTYPE                   | The type is not valid.                                                                                                                               |
@@ -248,7 +248,7 @@ The following error codes are defined in the Windows Media DRM for Portable Devi
 
 **Windows Media Rights Manager SDK errors**
 
-Occasionally, you might encounter an error defined in the Windows Media Rights Manager SDK. A list of errors defined by that SDK is given in the [MSDN library](/previous-versions//bb614577(v=vs.85)). However, the following Windows Media Rights Manager SDK errors were not documented.
+Occasionally, you might encounter an error defined in the Windows Media Rights Manager SDK. A list of errors defined by that SDK can be found at [Error Codes and Messages](/previous-versions//bb614577(v=vs.85)). However, the following Windows Media Rights Manager SDK errors were not documented.
 
 
 

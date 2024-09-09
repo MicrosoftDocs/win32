@@ -4,19 +4,22 @@ ms.assetid: 07bbbca8-ad1e-4177-97d4-601b33179b47
 title: D3DXMatrixPerspectiveLH function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixPerspectiveLH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXMatrixPerspectiveLH function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a left-handed perspective projection matrix
 

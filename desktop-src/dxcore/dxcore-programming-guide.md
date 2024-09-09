@@ -2,7 +2,7 @@
 title: DXCore programming guide
 description: Guidance for programming with DXCore.
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 08/17/2023
 ---
 
 # DXCore programming guide

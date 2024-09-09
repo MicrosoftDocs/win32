@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 A vector with three components.
 
-This type is available only in C++. Its .NET equivalent is [System.Numerics.Vector3](/dotnet/api/system.numerics.vector3?view=netframework-4.8).
+This type is available only in C++. Its .NET equivalent is [System.Numerics.Vector3](/dotnet/api/system.numerics.vector3).
 
 ## Constructors
 

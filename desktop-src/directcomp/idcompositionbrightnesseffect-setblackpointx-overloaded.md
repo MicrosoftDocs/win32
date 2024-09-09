@@ -1,5 +1,5 @@
 ---
-title: idcompositionbrightnesseffect SetBlackPointX methods (Dcomp.h)
+title: IDCompositionBrightnessEffect SetBlackPointX methods (Dcomp.h)
 description: Sets the x value of the black point.
 ms.assetid: 05fc473f-4dc6-b64d-830e-4153b1e0e392
 keywords:
@@ -14,7 +14,7 @@ ms.date: 07/02/2019
 ms.topic: reference
 ---
 
-# idcompositionbrightnesseffect::SetBlackPointX methods
+# IDCompositionBrightnessEffect::SetBlackPointX methods
 
 Sets the x value of the black point.
 
@@ -43,9 +43,6 @@ Sets the x value of the black point.
 
 <dl> <dt>
 
-[**idcompositionbrightnesseffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionbrightnesseffect)
+[**IDCompositionBrightnessEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionbrightnesseffect)
 </dt> </dl>
 
-�
-
-�

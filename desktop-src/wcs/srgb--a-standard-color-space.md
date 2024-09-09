@@ -34,7 +34,7 @@ WCS 1.0 provides native support for sRGB. There are two ways to use WCS 1.0 for 
 
 **To render an image outside the device context**
 
-1.  Create a transform using [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw). The **lcsCSType** member of the [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) structure pointed to by the *pLogColorSpace* parameter should be set to **LCS\_sRGB**. The *hDestProfile* parameter indicates the display device's color space.
+1.  Create a transform using [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw). The **lcsCSType** member of the [**LOGCOLORSPACE**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea) structure pointed to by the *pLogColorSpace* parameter should be set to **LCS\_sRGB**. The *hDestProfile* parameter indicates the display device's color space.
 2.  Use the created color transform to color match the image before displaying it on the device.
 
 ## WCS 1.0 Defaults for Input Color Space and Output Profile
@@ -62,7 +62,7 @@ Beginning with ICM version 2.0, applications that utilize WCS can embed profiles
 
 Images that use the sRGB color space do not need an embedded color profile. Because they have no embedded profile, sRGB-based images are smaller and more readily transferable across data channels with limited bandwidth.
 
-Applications should set the **LCS\_sRGB** flag in the image's bitmap header to indicate that the image uses the sRGB color space. For details, see [Windows Bitmap Header Structures](using-structures-in-wcs-1-0.md) and [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea).
+Applications should set the **LCS\_sRGB** flag in the image's bitmap header to indicate that the image uses the sRGB color space. For details, see [Windows Bitmap Header Structures](using-structures-in-wcs-1-0.md) and [LOGCOLORSPACE](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea).
 
  
 

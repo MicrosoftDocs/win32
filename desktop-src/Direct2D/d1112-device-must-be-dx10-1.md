@@ -12,7 +12,6 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # D1112: Device Must Be DX11
@@ -36,7 +35,3 @@ There was an attempt to use the [**CreateDxgiSurfaceRenderTarget**](/windows/win
  
 
  
-
-
-
-

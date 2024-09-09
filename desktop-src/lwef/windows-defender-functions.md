@@ -29,7 +29,7 @@ Functions called by apps to request scans, signature updates, or information fro
 | <a href="mpthreatquery.md"><strong>MpThreatQuery</strong></a> | Used to query static (such as severity and category) or localized (such as category description and advice) information about a particular threat.<br /> | 
 | <a href="mpupdatecontrol.md"><strong>MpUpdateControl</strong></a> | Allows the control of a signature update operation that was asynchronously initiated via <a href="mpupdatestart.md"><strong>MpUpdateStart</strong></a>.<br /> | 
 | <a href="mpupdatestart.md"><strong>MpUpdateStart</strong></a> | Starts a signature update operation.<br /> | 
-| <a href="/windows/desktop/api/Windowsdefender/nf-windowsdefender-wdenable"><strong>WDEnable</strong></a> | Changes Windows Defender status to on or off.<br /><blockquote>[!Note]<br />Beginning in Windows 10, version 1607 and Windows Server 2016, the <a href="/windows/desktop/api/Windowsdefender/nf-windowsdefender-wdenable"><strong>WDEnable</strong></a> function always returns <strong>E_NOTIMPL</strong>.</blockquote><br /><br /> | 
+| [**WDEnable**](/windows/desktop/api/Windowsdefender/nf-windowsdefender-wdenable) | Changes Windows Defender status to on or off.<br> **Note:** Beginning in Windows 10, version 1607 and Windows Server 2016, the [**WDEnable**](/windows/desktop/api/Windowsdefender/nf-windowsdefender-wdenable) function always returns **E_NOTIMPL**.<br> | 
 | <a href="/windows/desktop/api/Windowsdefender/nf-windowsdefender-wdstatus"><strong>WDStatus</strong></a> | Returns the current status of Windows Defender.<br /> | 
 
 

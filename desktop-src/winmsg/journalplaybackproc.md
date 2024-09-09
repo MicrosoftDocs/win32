@@ -38,18 +38,22 @@ req.redist:
 
 ## Description
 
-An application-defined or library-defined callback function used with the [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) function.
-Typically, an application uses this function to play back a series of mouse and keyboard messages recorded previously by the **JournalRecordProc** hook procedure.
+> [!WARNING]  
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+
+An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The function records messages the system removes from the system message queue. Later, an application can use a [*JournalPlaybackProc*](journalplaybackproc.md) hook procedure to play back the messages.
+
+> [!NOTE]
+> Typically, an application uses this function to play back a series of mouse and keyboard messages recorded previously by the **JournalRecordProc** hook procedure.
 As long as a **JournalPlaybackProc** hook procedure is installed, regular mouse and keyboard input is disabled.
 
-The **HOOKPROC** type defines a pointer to this callback function.
-**JournalPlaybackProc** is a placeholder for the application-defined or library-defined function name.
+The **HOOKPROC** type defines a pointer to this callback function. *JournalRecordProc* is a placeholder for the application-defined or library-defined function name.
 
-```cpp
-LRESULT CALLBACK JournalPlaybackProc(
-  _In_ int    code,
-       WPARAM wParam,
-  _In_ LPARAM lParam
+``` c++
+LRESULT CALLBACK JournalRecordProc(
+  _In_ int    code,
+       WPARAM wParam,
+  _In_ LPARAM lParam
 );
 ```
 
@@ -60,7 +64,9 @@ LRESULT CALLBACK JournalPlaybackProc(
 Type: **int**
 
 A code the hook procedure uses to determine how to process the message.
-If *code* is less than zero, the hook procedure must pass the message to the [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
+
+If *code* is less than zero, the hook procedure must pass the message to the [**CallNextHookEx**](/windows/desktop/api/winuser/nf-winuser-callnexthookex) function without further processing and should return the value returned by **CallNextHookEx**.
+
 This parameter can be one of the following values.
 
 | Value | Meaning |

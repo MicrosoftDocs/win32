@@ -23,15 +23,19 @@ We have improved the process to qualify software applications for the "Compatibl
 
 When software applications are ready to be tested, go to the Microsoft Connect Windows 7 Software Logo Program page and follow the instructions:
 
-1.  Start early Review the requirements and identify any code changes necessary to meet them.
-2.  Use the alpha self-test tool for verification Download and install the latest release of the toolkit. Note the 64-bit architecture and operating system requirements in the readme.txt file. Run your application through the toolkit as explained in the overview to verify the application's compliance against the requirements.
-3.  Make any code changes (if necessary) and retest If any changes to the application are needed to comply with the requirements, make the necessary changes and retest with the toolkit to verify compliance.
-4.  Opt-in to receive email notifications Microsoft will begin accepting Logo submissions with the release of the beta toolkit due out the end of May. We strongly encourage you to opt-in to receive email notifications when the toolkit is released and when the program opens for submissions.
+1.  Start early. Review the requirements and identify any code changes necessary to meet them.
 
-    The following steps can be taken only after the beta toolkit is released:
+1.  Use the alpha self-test tool for verification. Download and install the latest release of the toolkit. Note the 64-bit architecture and operating system requirements in the readme.txt file. Run your application through the toolkit as explained in the overview to verify the application's compliance against the requirements.
 
-5.  Download the beta toolkit, test, and submit for the Logo Once the beta toolkit is available, download, install, and test your application. Submit the passing results to Microsoft.
-6.  Sign the Software Logo License Agreement Once passing results have been submitted, sign the [license agreement](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-). You can then download and begin to use the Logo artwork and will be eligible to receive all the available Logo benefits.
+1.  Make any code changes (if necessary) and retest. If any changes to the application are needed to comply with the requirements, make the necessary changes and retest with the toolkit to verify compliance.
+
+1.  Opt-in to receive email notifications. Microsoft will begin accepting Logo submissions with the release of the beta toolkit due out the end of May. We strongly encourage you to opt-in to receive email notifications when the toolkit is released and when the program opens for submissions.
+
+The following steps can be taken only after the beta toolkit is released:
+
+1.  Download the beta toolkit, test, and submit for the Logo. After the beta toolkit is available, download, install, and test your application. Submit the passing results to Microsoft.
+
+1.  Sign the Software Logo License Agreement. After passing results are submitted, sign [the license agreement](/windows-hardware/drivers/dashboard/hardware-program-register), which is a registration requirement for the Microsoft Windows Hardware Developer Program. You can then download and begin to use the Logo artwork and will be eligible to receive all the available Logo benefits.
 
 ## Links to Other Resources
 

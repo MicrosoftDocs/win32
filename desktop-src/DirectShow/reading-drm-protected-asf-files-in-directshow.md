@@ -3,10 +3,13 @@ description: This topic describes how to use DirectShow to play media files that
 ms.assetid: a014942a-01e5-49d4-8a25-4604cd40f374
 title: Reading DRM-Protected ASF Files in DirectShow
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Reading DRM-Protected ASF Files in DirectShow
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic describes how to use DirectShow to play media files that are protected with Windows Media Digital Rights Management (DRM).
 
@@ -35,7 +38,7 @@ The content provider sets a minimum security level needed to acquire the license
 
 To increase security, an application may update the DRM components on the client's computer. This update, called individualization, differentiates the user's copy of the application from all other copies of the same application. The DRM header of a protected file may specify may specify a minimum individualization level. (For more information, see the documentation for WMRMHeader.IndividualizedVersion in the Windows Media Rights Manager SDK.)
 
-Because the Microsoft Individualization Service handles information from the user, you must display the Microsoft privacy policy or provide a link to that page at the Microsoft website before your application individualizes: <https://go.microsoft.com/fwlink/p/?linkid=10240>.
+The Microsoft Individualization Service handles information from the user. So before your application individualizes, you must display the Microsoft Privacy Statement, or provide a link to it (see [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)).
 
 ## Provide the Software Certificate
 

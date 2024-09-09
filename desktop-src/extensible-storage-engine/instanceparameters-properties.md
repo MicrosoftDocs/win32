@@ -210,7 +210,7 @@ The [InstanceParameters](./instanceparameters-class.md) type exposes the followi
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn350985(v=exchg.10).md">WaypointLatency</a></td>
-<td>Gets or sets a the number of logs that esent will defer database flushes for. This can be used to increase database recoverability if failures cause logfiles to be lost. Supported on Windows 7 and up. Ignored on Windows XP, Windows Server 2003, Windows Vista and Windows Server 2008.</td>
+<td>Gets or sets the number of logs that esent will defer database flushes for. This can be used to increase database recoverability if failures cause logfiles to be lost. Supported on Windows 7 and up. Ignored on Windows XP, Windows Server 2003, Windows Vista and Windows Server 2008.</td>
 </tr>
 </tbody>
 </table>

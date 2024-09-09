@@ -3,7 +3,7 @@ description: IShellDispatch.FindComputer method Displays the Search Results Comp
 ms.assetid: 9B687A8A-BB29-49a0-8AE3-11A75FAF3257
 title: IShellDispatch.FindComputer method (Shldisp.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 04/07/2022
 topic_type: 
 - APIRef
 - kbSyntax

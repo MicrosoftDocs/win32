@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 A static control, or an edit control that is read-only or disabled, sends the **WM\_CTLCOLORSTATIC** message to its parent window when the control is about to be drawn. By responding to this message, the parent window can use the specified device context handle to set the text foreground and background colors of the static control.
 
-A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [*WindowProc*](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

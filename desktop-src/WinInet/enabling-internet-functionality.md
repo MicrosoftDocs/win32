@@ -103,7 +103,7 @@ The server port is the Transmission Control Protocol/Internet Protocol (TCP/IP) 
 | Value | Meaning | 
 |-------|---------|
 | INTERNET_DEFAULT_FTP_PORT | Use the default port for ftp servers (port 21). | 
-| INTERNET_DEFAULT_GOPHER_PORT | Use the default port for gopher servers (port 70).<blockquote>[!Note]<br />Windows XP and Windows Server 2003 R2 and earlier only.</blockquote><br /> | 
+| INTERNET_DEFAULT_GOPHER_PORT | Use the default port for gopher servers (port 70). **Note:** Windows XP and Windows Server 2003 R2 and earlier only.<br> | 
 | INTERNET_DEFAULT_HTTP_PORT | Use the default port for http servers (port 80). | 
 | INTERNET_DEFAULT_HTTPS_PORT | Use the default port for https servers (port 443). | 
 | INTERNET_DEFAULT_SOCKS_PORT | Use the default port for SOCKS firewall servers (port 1080). | 

@@ -3,8 +3,7 @@ description: The schannel SSP implements versions of the TLS, DTLS and SSL proto
 ms.assetid: FF716A4E-ABF2-4773-9588-9D200945A866
 title: Protocols in TLS/SSL (Schannel SSP)
 ms.topic: article
-ms.date: 01/20/2021
-ms.custom: contperf-fy21q3
+ms.date: 01/31/2024
 ---
 
 # Protocols in TLS/SSL (Schannel SSP)
@@ -15,8 +14,14 @@ The Schannel SSP implements versions of the TLS, DTLS and SSL protocols. Differe
 
 The following table displays the Microsoft Schannel Provider support of TLS protocol versions.
 
+> [!IMPORTANT]
+> Starting with Windows 11 Insider Preview releases in 2024, TLS versions 1.0 and 1.1 will be disabled by default. This change applies to both server and client devices but won't impact in-market operating system versions. For more information, see [TLS 1.0 and TLS 1.1 deprecation in Windows](tls-10-11-deprecation-in-windows.md).
+
+> [!NOTE]
+> TLS 1.3 is supported starting in Windows 11 and Windows Server 2022. Enabling TLS 1.3 on earlier versions of Windows is not a safe system configuration.
+
 > [!TIP]
-> You may need to scroll horizontally to view all columns in the table.
+> You may need to scroll horizontally or select **Expand table** to view all columns in the table.
 
 | Windows OS | TLS 1.0 Client | TLS 1.0 Server | TLS 1.1 Client | TLS 1.1 Server | TLS 1.2 Client | TLS 1.2 Server | TLS 1.3 Client | TLS 1.3 Server |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -31,20 +36,25 @@ The following table displays the Microsoft Schannel Provider support of TLS prot
 | Windows 10, version 1703                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows 10, version 1709                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows 10, version 1803                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
-| Windows 10, version 1809//Windows Server 2019         | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 1809/Windows Server 2019          | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows 10, version 1903                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows 10, version 1909                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows 10, version 2004                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows 10, version 20H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows 10, version 21H1                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 21H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
+| Windows 10, version 22H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Not supported  | Not supported  |
 | Windows Server 2022                                   | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
-| Windows 11                                            | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
+| Windows 11, version 21H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
+| Windows 11, version 22H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
+| Windows 11, version 23H2                              | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        | Enabled        |
 
 ## DTLS protocol version support
 
 The following lists the Microsoft Schannel Provider support of DTLS protocol versions.
 
-*Tip: you may need to scroll horizontally to view all columns in this table:*
+> [!TIP]
+> You may need to scroll horizontally or select **Expand table** to view all columns in this table.
 
 | Windows OS                                            | DTLS 1.0 Client | DTLS 1.0 Server | DTLS 1.2 Client | DTLS 1.2 Server |
 |-------------------------------------------------------|-----------------|-----------------|-----------------|-----------------|
@@ -69,9 +79,10 @@ The following lists the Microsoft Schannel Provider support of DTLS protocol ver
 
 ## Pre-TLS standard protocols support
 
-The following lists the Microsoft Schannel Provider support of pre-TLS standard protocols:
+The following lists the Microsoft Schannel Provider support of pre-TLS standard protocols.
 
-*Tip: you may need to scroll horizontally to view all columns in this table:*
+> [!TIP]
+> You may need to scroll horizontally or select **Expand table** to view all columns in this table.
 
 | Windows OS                                            | PCT 1.0       | SSL2 Client   | SSL2 Server   | SSL3 Client | SSL3 Server |
 |-------------------------------------------------------|---------------|---------------|---------------|-------------|-------------|
@@ -94,9 +105,12 @@ The following lists the Microsoft Schannel Provider support of pre-TLS standard 
 | Windows Server 2022                                   | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 | Windows 11                                            | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 
-
 > [!IMPORTANT]
 > Beginning with Windows 10, version 1607 and Windows Server 2016, SSL 2.0 has been removed and is no longer supported.
 
 > [!TIP]  
 > All versions of Windows will accept a unified format "ClientHello" message even when SSL version 2 is disabled or no longer supported.
+
+## See also
+
+- [TLS 1.0 and TLS 1.1 deprecation in Windows](tls-10-11-deprecation-in-windows.md)

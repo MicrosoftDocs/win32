@@ -67,7 +67,7 @@ int __cdecl main(void)
         return 1;
     }
 
-    // Create a SOCKET for connecting to server
+    // Create a SOCKET for the server to listen for client connections.
     ListenSocket = socket(result->ai_family, result->ai_socktype, result->ai_protocol);
     if (ListenSocket == INVALID_SOCKET) {
         printf("socket failed with error: %ld\n", WSAGetLastError());

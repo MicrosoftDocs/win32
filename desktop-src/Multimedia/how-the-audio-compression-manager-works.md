@@ -23,10 +23,13 @@ keywords:
 - compressor drivers
 - decompressor drivers
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # How the Audio Compression Manager Works
+
+\[The feature associated with this page, [﻿Audio Compression Manager](/windows/win32/multimedia/audio-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The ACM uses existing driver interface hooks to override the default mapping algorithm for waveform-audio devices. This allows the ACM to intercept device-open calls. After a call has been intercepted, the ACM can perform a variety of tasks to process the audio data, such as inserting an external compressor or decompressor into the sequence.
 

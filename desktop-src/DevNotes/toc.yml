@@ -360,6 +360,8 @@
       href: etweventwrite.md
     - name: "EtwEventWriteFull"
       href: etweventwritefull.md
+    - name: "EtwLogTraceEvent"
+      href: etwlogtraceevent.md
   - name: "Drivers"
     href: drivers.md
     items: 
@@ -550,6 +552,12 @@
         href: standard-information.md
     - name: "NtCreateFile"
       href: /windows/win32/api/Winternl/nf-winternl-ntcreatefile
+    - name: "NtCancelIoFile"
+      href: nt-cancel-io-file.md
+    - name: "NtCancelIoFileEx"
+      href: nt-cancel-io-file-ex.md
+    - name: "NtCreateNamedPipeFile"
+      href: nt-create-named-pipe-file.md
     - name: "NtOpenDirectoryObject"
       href: ntopendirectoryobject.md
     - name: "NtOpenFile"
@@ -564,6 +572,8 @@
       href: ntreadfile.md
     - name: "RtlIsNameLegalDOS8Dot3"
       href: /windows/win32/api/Winternl/nf-winternl-rtlisnamelegaldos8dot3
+  - name: "Game Bar Presence Writer"
+    href: gamebar-presencewriter.md
   - name: "IME Share"
     href: ime-share.md
     items: 
@@ -769,6 +779,8 @@
       href: -win32-alldiv.md
     - name: "_chkstk Routine"
       href: -win32-chkstk.md
+    - name: "__chkstk Routine"
+      href: -win32-__chkstk.md
     - name: "_lclose"
       href: /windows/win32/api/winbase/nf-winbase-_lclose
     - name: "_lread"
@@ -791,12 +803,26 @@
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-instantiatecomponentfrompackage
     - name: "IsMediaBehaviorEnabled"
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-ismediabehaviorenabled
+    - name: NtAssociateWaitCompletionPacket
+      href: ntassociatewaitcompletionpacket.md
+    - name: NtCancelWaitCompletionPacket
+      href: ntcancelwaitcompletionpacket.md
+    - name: NtCreateWaitCompletionPacket
+      href: ntcreatewaitcompletionpacket.md
     - name: "NtClose"
       href: /windows/win32/api/Winternl/nf-winternl-ntclose
     - name: "NtDeviceIoControlFile"
       href: /windows/win32/api/Winternl/nf-winternl-ntdeviceiocontrolfile
+    - name: NtQuerySection
+      href: ntquerysection.md
+    - name: NtRemoveIoCompletion
+      href: ntremoveiocompletion.md
     - name: "NtWaitForSingleObject"
       href: /windows/win32/api/Winternl/nf-winternl-ntwaitforsingleobject
+    - name: "ObOpenObjectByName Function"
+      href: obopenobjectbyname-function.md
+    - name: "PROCESS_TELEMETRY_ID_INFORMATION_TYPE structure"
+      href: process_telemetry_id_information_type.md
     - name: "RegisterServerForPMP"
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-registerserverforpmp
     - name: "RequireNetworkDuringMediaTaskCompletion"
@@ -807,6 +833,12 @@
       href: /windows/win32/api/Winternl/nf-winternl-rtlchartointeger
     - name: "RtlCompareUnicodeString"
       href: rtlcompareunicodestring.md
+    - name: "RtlDllShutdownInProgress"
+      href: rtldllshutdowninprogress.md
+    - name: RtlIsDosDeviceName_U
+      href: rtlisdosdevicename_u.md
+    - name: RtlDosPathNameToNtPathName_U_WithStatus
+      href: rtldospathnametontpathname_u_withstatus.md
     - name: "RtlFreeAnsiString"
       href: /windows/win32/api/Winternl/nf-winternl-rtlfreeansistring
     - name: "RtlFreeHeap"
@@ -815,6 +847,10 @@
       href: /windows/win32/api/Winternl/nf-winternl-rtlfreeoemstring
     - name: "RtlFreeUnicodeString"
       href: /windows/win32/api/Winternl/nf-winternl-rtlfreeunicodestring
+    - name: "RtlGetDeviceFamilyInfoEnum"
+      href: rtlgetdevicefamilyinfoenum.md
+    - name: "RtlGetReturnAddressHijackTarget"
+      href: rtlgetreturnaddresshijacktarget.md
     - name: "RtlGetVersion"
       href: rtlgetversion.md
     - name: "RtlInitString"
@@ -841,10 +877,37 @@
       href: /windows/win32/api/Ime/nf-ime-sendimemessageexa
     - name: "STRING"
       href: /windows/win32/api/Winternl/ns-winternl-string
+    - name: "TellsOsIsInProcessorMode"
+      href: tellsIsosinprocessormode.md
     - name: "UnregisterServerForPMP"
       href: /windows/win32/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp
+    - name: "VBAGetExprSrv"
+      href: vbagetexprsrv.md
     - name: "WINNLSEnableIME"
       href: /windows/win32/api/Winnls32/nf-winnls32-winnlsenableime
+  - name: "Miscellaneous Virtualization APIs"
+    items:
+    - name: GetVmWorkerProcess
+      href: getvmworkerprocess.md
+    - name: IVmFiovGuestMemoryFastNotification
+      href: ivmfiovguestmemoryfastnotification.md
+      items:
+      - name: RegisterDoorbell
+        href: ivmfiovguestmemoryfastnotification-registerdoorbell.md
+      - name: UnregisterDoorbell
+        href: ivmfiovguestmemoryfastnotification-unregisterdoorbell.md
+    - name: IVmFiovGuestMmioMappings
+      href: ivmfiovguestmmiomappings.md
+      items:
+      - name: CreateSectionBackedMmioRange
+        href: ivmfiovguestmmiomappings-createsectionbackedmmiorange.md
+      - name: DestroySectionBackedMmioRange
+        href: ivmfiovguestmmiomappings-destroysectionbackedmmiorange.md
+    - name: IVmVirtualDeviceAccess
+      href: ivmvirtualdeviceaccess.md
+      items:
+      - name: GetDevice
+        href: ivmvirtualdeviceaccess-getdevice.md
   - name: "MSHTML"
     href: mshtml2.md
     items: 
@@ -948,8 +1011,12 @@
     items: 
     - name: "ApplyDeltaB"
       href: msdelta-applydeltab.md
+    - name: "ApplyDeltaW"
+      href: msdelta-applydeltaw.md
     - name: "CreateDeltaB"
       href: msdelta-createdeltab.md
+    - name: "CreateDeltaW"
+      href: msdelta-createdeltaw.md
     - name: "DeltaFree"
       href: msdelta-deltafree.md
   - name: "MSN"
@@ -1231,10 +1298,10 @@
       items: 
       - name: "SaferiSearchMatchingHashRules"
         href: saferisearchmatchinghashrules.md
-    - name: "Windows Security Center"
+    - name: "Windows Security app"
       href: windows-security-center.md
       items: 
-      - name: "Windows Security Center Enumerations"
+      - name: "Windows Security app enumerations"
         href: windows-security-center-enumerations.md
         items: 
         - name: "WSC_SECURITY_PRODUCT_STATE"
@@ -1245,7 +1312,7 @@
           href: /windows/win32/api/Wscapi/ne-wscapi-wsc_security_provider_health
         - name: "WSC_SECURITY_SIGNATURE_STATUS"
           href: /windows/win32/api/Iwscapi/ne-iwscapi-wsc_security_signature_status
-      - name: "Windows Security Center Interfaces"
+      - name: "Windows Security app interfaces"
         href: windows-security-center-interfaces.md
         items: 
         - name: "IWscProduct"
@@ -1406,6 +1473,8 @@
     - name: "DLL Load Notification"
       href: dll-load-notification.md
       items: 
+      - name: "LdrDisableThreadCalloutsForDll"
+        href: ldrdisablethreadcalloutsfordll.md
       - name: "LdrDllNotification"
         href: ldrdllnotification.md
       - name: "LdrFastFailInLoaderCallout"
@@ -1509,6 +1578,8 @@
         href: /windows/win32/api/Winternl/nf-winternl-ntsetinformationkey
       - name: "RtlGetFunctionTableListHead"
         href: rtlgetfunctiontablelisthead.md
+      - name: "RtlGetSystemGlobalData"
+        href: rtlgetsystemglobaldata.md
       - name: "RtlGetUnloadEventTrace"
         href: rtlgetunloadeventtrace.md
       - name: "RtlGetUnloadEventTraceEx"
@@ -1573,6 +1644,27 @@
       href: ctxgetinimapping.md
     - name: "TermsrvAppInstallMode"
       href: termsrvappinstallmode.md
+  - name: "Test In Production (TIP) APIs"
+    href: test-in-production-api.md
+    items:
+      - name: "TestClose Function"
+        href: tip-testclose-function.md
+      - name: "TestControlReporting function"
+        href: tip-testcontrolreporting-function.md
+      - name: "TestCreate Function"
+        href: tip-testcreate-function.md
+      - name: "TestInfo Structure"
+        href: tip-testinfo-structure.md
+      - name: "TestOpen Function"
+        href: tip-testopen-function.md
+      - name: "TestQueryData function"
+        href: tip-testquerydata-function.md
+      - name: "TestReport Function"
+        href: tip-testreport-function.md
+      - name: "TestUnlockData Function"
+        href: tip-testunlockdata-function.md
+      - name: "TipReportingInfo Structure"
+        href: tip-tipreportinginfo-structure.md
   - name: "User Interface"
     href: user-interface.md
     items: 
@@ -1625,27 +1717,96 @@
         href: iprovidepropertybuilder-executebuilder.md
       - name: "MapPropertyToBuilder Method"
         href: iprovidepropertybuilder-mappropertytobuilder.md
+  - name: "Windows Information Protection (WIP) APIs"
+    href: windows-information-protection-api.md
+    items:
+    - name: "EDP_AUDIT_ACTION enumeration"
+      href: edp_audit_action-enum.md
+    - name: "EDP_CONTEXT_STATES enumeration"
+      href: edp_context_states-enum.md
+    - name: "EDP_CONTEXT structure"
+      href: edp_context_structure.md
+    - name: "EDP_POLICY_RESULT enumeration"
+      href: edp_policy_result-enum.md
+    - name: "EdpAuditAction function"
+      href: edpauditaction-function.md
+    - name: "EdpCheckAccess function"
+      href: edpcheckaccess-function.md
+    - name: "EdpClearClipboardMetaData function"
+      href: edpclearclipboardmetadata-function.md
+    - name: "EdpFreeContext function"
+      href: edpfreecontext-function.md
+    - name: "EdpGetClipboardAccessDeniedData function"
+      href: edpgetclipboardaccessdenieddata-function.md
+    - name: "EdpGetContextForProcess function"
+      href: edpgetcontextforprocess-function.md
+    - name: "EdpGetDataInfoFromWin32Clipboard function"
+      href: edpgetdatainfofromwin32clipboard-function.md
+    - name: "EdpGetEnterpriseIdForClipboard function"
+      href: edpgetenterpriseidforclipboard-function.md
+    - name: "EdpGetIsManaged function"
+      href: edpgetismanaged-function.md
+    - name: "EdpGetPrimaryIdentities function"
+      href: edpgetprimaryidentities-function.md
+    - name: "EdpGetPrimaryIdentityIfManaged function"
+      href: edpgetprimaryidentityifmanager-function.md
+    - name: "EdpGetSourceAppIdForClipboard function"
+      href: edpgetsourceappidforclipboard-function.md
+    - name: "EdpGetSourceIsEnlightenedForClipboard function"
+      href: edpgetsourceisenlightenedforclipboard-function.md
+    - name: "EdpSetEnterpriseIdForClipboard function"
+      href: edpsetenterpriseidforclipboard-function.md
+    - name: "EdpSetSourceIsEnlightenedForClipboard function"
+      href: edpsetsourceisenlightenedforclipboard-function.md
+    - name: "ENCRYPTION_PROTECTOR_LIST structure"
+      href: encryption_protector_list-structure.md
+    - name: "ENCRYPTION_PROTECTOR structure"
+      href: encryption_protector-structure.md
+    - name: "EnterpriseDataGetStatus function"
+      href: enterprisedatagetstatus-function.md
+    - name: "FileProtectionStatus enumeration"
+      href: fileprotectionstatus-enum.md
+    - name: "FreeIdentityProtectorList function"
+      href: freeidentityprotectorlist-function.md
+    - name: "GetEnterpriseIdForNetworkPath function"
+      href: getenterpriseidfornetworkpath-function.md
+    - name: "QueryIdentityProtectors function"
+      href: queryidentityprotectors-function.md
   - name: "Windows Secure Mode Policy"
     href: windows-lockdown-policy.md
     items: 
+    - name: "WLDP host GUIDs"
+      href: wldp-host-guids.md
+    - name: "WLDP_EXECUTION_EVALUATION_OPTIONS"
+      href: /windows/win32/api/wldp/ne-wldp-wldp_execution_evaluation_options
+    - name: "WLDP_EXECUTION_POLICY"
+      href: /windows/win32/api/wldp/ne-wldp-wldp_execution_policy
     - name: "WLDP_HOST_ID"
-      href: wldp-host-id.md
+      href: /windows/win32/api/wldp/ne-wldp-wldp_host_id
     - name: "WLDP_HOST_INFORMATION"
-      href: wldp-host-information.md
+      href: /windows/win32/api/wldp/ns-wldp-wldp_host_information
     - name: "WLDP_WINDOWS_LOCKDOWN_MODE"
-      href: wldp-windows-lockdown-mode.md
-    - name: "WldpIsDynamicCodePolicyEnabled"
-      href: wldpisdynamiccodepolicyenabled.md
-    - name: "WlpdIsClassInApprovedList"
-      href: wldpisclassinapprovedlist.md
+      href: /windows/win32/api/wldp/ne-wldp-wldp_windows_lockdown_mode
+    - name: "WldpCanExecuteBuffer"
+      href: /windows/win32/api/wldp/nf-wldp-wldpcanexecutebuffer
+    - name: "WldpCanExecuteFile"
+      href: /windows/win32/api/wldp/nf-wldp-wldpcanexecutefile
+    - name: "WldpCanExecuteStream"
+      href: /windows/win32/api/wldp/nf-wldp-wldpcanexecutestream
     - name: "WlpdGetLockdownPolicy"
-      href: wlpdgetlockdownpolicy.md
+      href: /windows/win32/api/wldp/nf-wldp-wldpgetlockdownpolicy
+    - name: "WlpdIsClassInApprovedList"
+      href: /windows/win32/api/wldp/nf-wldp-wldpisclassinapprovedlist
+    - name: "WlpdIsDebuggingAllowed"
+      href: wldpisdebugallowed.md
+    - name: "WldpIsDynamicCodePolicyEnabled"
+      href: /windows/win32/api/wldp/nf-wldp-wldpisdynamiccodepolicyenabled
     - name: "WldpQueryDynamicCodeTrust"
-      href: wldpquerydynamiccodetrust.md
+      href: /windows/win32/api/wldp/nf-wldp-wldpquerydynamiccodetrust
     - name: "WldpQueryWindowsLockdownMode"
-      href: wldpquerywindowslockdownmode.md
+      href: /windows/win32/api/wldp/nf-wldp-wldpquerywindowslockdownmode
     - name: "WldpSetDynamicCodeTrust"
-      href: wldpsetdynamiccodetrust.md
+      href: /windows/win32/api/wldp/nf-wldp-wldpsetdynamiccodetrust
   - name: "Word Breaker"
     href: word-breaker.md
     items: 

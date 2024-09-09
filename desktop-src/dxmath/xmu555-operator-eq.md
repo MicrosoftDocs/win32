@@ -42,10 +42,10 @@ Assigns vector component data to the current instance of [**XMU555**](/windows/w
 <tr class="even">
 <td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu555-operator-assign(uint16_t)"><strong>XMU555::operator = (const uint16_t)</strong></a></td>
 <td >Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <code>XMU555</code>. <br/> Assigns the vector component data packed in an instance of <code>uint16_t</code> to the current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a>. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This operator is only available under C++.
-</blockquote>
+
 <br/></td>
 </tr>
 </tbody>

@@ -3,7 +3,7 @@ title: User input extended example
 description: Extended example of user input combining everything learned so far to create a simple drawing program.
 ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/07/2022
 ---
 
 # User input: extended example
@@ -56,7 +56,7 @@ The ellipses are stored in an STL **list** container:
 
 
 > [!Note]  
-> **shared\_ptr** is a smart-pointer class that was added to C++ in TR1 and formalized in C++0x. Visual Studio 2010 adds support for **shared\_pt**r and other C++0x features. For more information, see [Exploring New C++ and MFC Features in Visual Studio 2010](/archive/msdn-magazine/2010/april/visual-c-exploring-new-c-and-mfc-features-in-visual-studio-2010) in *MSDN Magazine*. (This resource may not be available in some languages and countries.)
+> **shared\_ptr** is a smart-pointer class that was added to C++ in TR1 and formalized in C++0x. Visual Studio 2010 adds support for **shared\_pt**r and other C++0x features. For more information, see the MSDN Magazine article [Exploring New C++ and MFC Features in Visual Studio 2010](/archive/msdn-magazine/2010/april/visual-c-exploring-new-c-and-mfc-features-in-visual-studio-2010).
 
  
 

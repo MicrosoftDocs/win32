@@ -1,55 +1,35 @@
 ---
-title: Level constant (Adomd.h)
-description: Contains the value of the level that will be used in the activity s start and stop events.
+title: Level constant (TraceLoggingActivity.h)
+description:
+  Contains the value of the level that will be used in the activity's start and
+  stop events.
 ms.assetid: DBBBE6C8-B952-493F-AE98-89D54536F1E5
 topic_type:
-- apiref
+  - apiref
 api_name:
-- Level
+  - Level
 api_location:
-- adomd.h
+  - traceloggingactivity.h
 api_type:
-- HeaderDef
+  - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 06/06/2022
 ---
 
 # Level constant
 
-Contains the value of the level that will be used in the activity s start and stop events.
+Contains the value of the level that will be used in the activity's start and
+stop events.
 
-<dl> <dt>
+- **Level:** UINT8
 
-<span id="Level"></span><span id="level"></span><span id="LEVEL"></span>**Level**
-</dt> <dd> <dl> <dt>
-
-UINT8
-</dt> <dt>
-
-
-
-The value of the level that will be used in the activity s start and stop events.
-
-
-</dt> </dl> </dd> </dl>
+  The value of the level that will be used in the activity's start and stop
+  events.
 
 ## Requirements
 
-
-
-| Requirement | Value |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                                   |
-| Header<br/>                   | <dl> <dt>Adomd.h (include Traceloggingactivity.h)</dt> </dl> |
-
-
-
- 
-
- 
-
-
-
-
-
+| Requirement              | Value                  |
+| ------------------------ | ---------------------- |
+| Minimum supported client | Windows Vista          |
+| Minimum supported server | Windows Server 2012 R2 |
+| Header                   | TraceLoggingActivity.h |

@@ -10,10 +10,13 @@ keywords:
 - DrawDibGetPalette function
 - DrawDibChangePalette function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Palettes
+
+\[The feature associated with this page, [DrawDib](/windows/win32/multimedia/drawdib), is a legacy feature. It has been superseded by [MediaComposition class](/uwp/api/Windows.Media.Editing.MediaComposition). **MediaComposition class** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaComposition class** instead of **DrawDib**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The DrawDib functions require that an application respond to two palette-oriented messages: [**WM\_QUERYNEWPALETTE**](/windows/desktop/gdi/wm-querynewpalette) and [**WM\_PALETTECHANGED**](/windows/desktop/gdi/wm-palettechanged). If your application is not palette-aware, you will need to add a handler for each of these messages. For more information about processing the **WM\_QUERYNEWPALETTE** and **WM\_PALETTECHANGED** messages, see [Adding Palette Message Handlers](adding-palette-message-handlers.md).
 

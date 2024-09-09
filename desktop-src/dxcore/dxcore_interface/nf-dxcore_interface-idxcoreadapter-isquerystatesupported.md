@@ -20,9 +20,9 @@ virtual bool STDMETHODCALLTYPE IsQueryStateSupported(
 
 ### state
 
-Type: **[DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md)**
+Type: **[DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate)**
 
-The kind of state item that you're querying about support for. See the table in [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) for more info about each adapter state kind.
+The kind of state item that you're querying about support for. See the table in [DXCoreAdapterState](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterstate) for more info about each adapter state kind.
 
 ## Returns
 

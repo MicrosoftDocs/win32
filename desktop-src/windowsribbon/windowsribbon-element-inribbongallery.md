@@ -70,10 +70,10 @@ Represents the [In-Ribbon Gallery](windowsribbon-controls-inribbongallery.md), a
 <td>Boolean<br/></td>
 <td>No<br/></td>
 <td>Determines whether the large or small image resource of the Command is displayed in the gallery control. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Applies only to galleries where the value of the <em>Type</em> attribute is equal to <code>Command</code>.
-</blockquote>
+
 <br/> Restricted to one of the following values (0 and 1 are not valid):<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd> Default. <br/> </dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -82,10 +82,10 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 <td>xs:integer<br/></td>
 <td>No<br/></td>
 <td>Together with <em>ItemWidth</em>, determines the size of the item image that is displayed in the gallery control. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Applies only to galleries where the value of the <em>Type</em> attribute is equal to <code>Item</code>.
-</blockquote>
+
 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:integer)<br/> </dt> <dd> The default is -1. <br/> </dd> </dl></td>
 </tr>
@@ -94,10 +94,10 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 <td>xs:integer<br/></td>
 <td>No<br/></td>
 <td>Together with <em>ItemHeight</em>, determines the size of the item image that is displayed in the gallery control. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Applies only to galleries where the value of the <em>Type</em> attribute is equal to <code>Item</code>.
-</blockquote>
+
 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:integer)<br/> </dt> <dd> The default is -1. <br/> </dd> </dl></td>
 </tr>
@@ -196,10 +196,10 @@ Applies only to galleries where the value of the <em>Type</em> attribute is equa
 </tr>
 <tr class="odd">
 <td><a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>QuickAccessToolbar.ApplicationDefaults</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 Windows 8 and newer.
-</blockquote>
+
 <br/> <br/></td>
 </tr>
 </tbody>

@@ -39,7 +39,11 @@ The method has the form:
 
 The **ISearchDesktop.ExecuteSQLQuery** method is used to send direct WDS database queries. The syntax for the queries is similar to that used for SharePoint Server, along with the ability to use Monarch-style SQL GROUP BY clauses. The query is executed against the index exactly as it is passed in with no additional processing of Advanced Query Syntax as the ExecuteQuery API does.
 
-https://msdn.microsoft.com/library/default.asp?url=/library/spssdk/html/\_tahoe\_search\_sql\_syntax.asp
+<!-- Outdated link
+
+`https://msdn.microsoft.com/library/default.asp?url=/library/spssdk/html/_tahoe_search_sql_syntax.asp`
+
+-->
 
 The method has the form:
 
@@ -53,13 +57,14 @@ The method has the form:
 | Out       | ppiRs      | The resulting record set                       |
 
 
-
- 
+<!-- Outdated links
 
 Resources:
 
 -   Support files for the ISearchDesktop interface: https://addins.msn.com/support/WDSSDK.zip
 -   ISearchDesktop C# Sample: https://addins.msn.com/support/WDSSample.zip
+
+-->
 
 ## Sample C++ Code
 

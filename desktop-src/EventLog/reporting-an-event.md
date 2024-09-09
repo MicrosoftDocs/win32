@@ -113,6 +113,7 @@ SymbolicName=GALLONS_UNITS
 Language=English
 gallons%0
 .
+
 ```
 
 
@@ -284,17 +285,17 @@ The following example shows how to use the [**ReportEvent**](/windows/desktop/ap
 #define PROVIDER_NAME L"MyEventProvider"
 
 // Hardcoded insert string for the event messages.
-CONST LPWSTR pBadCommand = L"The command that was not valid";
-CONST LPWSTR pFilename = L"c:\\folder\\file.ext";
-CONST LPWSTR pNumberOfRetries = L"3";
-CONST LPWSTR pSuccessfulRetries = L"0";
-CONST LPWSTR pQuarts = L"8";
-CONST LPWSTR pGallons = L"2";
+CONST LPCWSTR pBadCommand = L"The command that was not valid";
+CONST LPCWSTR pFilename = L"c:\\folder\\file.ext";
+CONST LPCWSTR pNumberOfRetries = L"3";
+CONST LPCWSTR pSuccessfulRetries = L"0";
+CONST LPCWSTR pQuarts = L"8";
+CONST LPCWSTR pGallons = L"2";
 
 void wmain(void)
 {
     HANDLE hEventLog = NULL;
-    LPWSTR pInsertStrings[2] = {NULL, NULL};
+    LPCWSTR pInsertStrings[2] = { NULL, NULL };
     DWORD dwEventDataSize = 0;
 
     // The source name (provider) must exist as a subkey of Application.
@@ -308,7 +309,7 @@ void wmain(void)
     // This event includes user-defined data as part of the event. The event message
     // does not use insert strings.
     dwEventDataSize = ((DWORD)wcslen(pBadCommand) + 1) * sizeof(WCHAR);
-    if (!ReportEvent(hEventLog, EVENTLOG_ERROR_TYPE, UI_CATEGORY, MSG_INVALID_COMMAND, NULL, 0, dwEventDataSize, NULL, pBadCommand))
+    if (!ReportEvent(hEventLog, EVENTLOG_ERROR_TYPE, UI_CATEGORY, MSG_INVALID_COMMAND, NULL, 0, dwEventDataSize, NULL, const_cast<LPWSTR>(pBadCommand)))
     {
         wprintf(L"ReportEvent failed with 0x%x for event 0x%x.\n", GetLastError(), MSG_INVALID_COMMAND);
         goto cleanup;

@@ -30,7 +30,7 @@ Retrieves the size and position of the bounding rectangle for the slider in a tr
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. The message fills this structure with the bounding rectangle of the trackbar's slider in client coordinates of the trackbar's window.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. The message fills this structure with the bounding rectangle of the trackbar's slider in client coordinates of the trackbar's window.
 
 </dd> </dl>
 

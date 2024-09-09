@@ -3,7 +3,7 @@ description: You can use the IX509Extension interface to define an arbitrary ext
 ms.assetid: 025447f4-98d0-4cb8-b546-4797b7e60722
 title: Supported Extensions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 04/21/2023
 ---
 
 # Supported Extensions
@@ -84,7 +84,7 @@ The key usage extension can be used to define restrictions on the operations tha
 
 ## MSApplicationPolicies
 
-The Microsoft application policies extension can be used by an application to filter certificates on the basis of permitted use. Permitted uses are identified by OIDs. This extension is similar to the **EnhancedKeyUsage** extension but with stricter semantics applied to the parent CA. The extension is Microsoft specific.
+The Microsoft application policies extension can be used by an application to filter certificates on the basis of permitted use. Permitted uses are identified by OIDs. This extension is similar to the **EnhancedKeyUsage** extension but with stricter semantics applied to the parent CA. The extension is Microsoft specific. For non-Windows-based verifiers that do not support this extension, this extension can be ignored—even when marked critical—if the ExtendedKeyUsage extension is also present.
 
 **Interface:** [**IX509ExtensionMSApplicationPolicies**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionmsapplicationpolicies)
 

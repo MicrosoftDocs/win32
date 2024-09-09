@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Windows Imaging Component Overview
 
-The Windows Imaging Component (WIC) provides an extensible framework for working with images and image metadata. WIC makes it possible for independent software vendors (ISVs) and independent hardware vendors (IHVs) to develop their own image codecs and get the same platform support as standard image formats (for example, TIFF, JPEG, PNG, GIF, BMP, and HDPhoto). A single, consistent set of interfaces is used for all image processing, regardless of image format, so any application using the WIC gets automatic support for new image formats as soon as the codec is installed. The extensible metadata framework makes it possible for applications to read and write their own proprietary metadata directly to image files, so the metadata never gets lost or separated from the image.
+The Windows Imaging Component (WIC) is available in Windows Vista and later operating systems (OSes). WIC provides an extensible framework for working with images and image metadata. WIC makes it possible for independent software vendors (ISVs) and independent hardware vendors (IHVs) to develop their own image codecs and get the same platform support as standard image formats (for example, TIFF, JPEG, PNG, GIF, BMP, and HDPhoto). A single, consistent set of interfaces is used for all image processing, regardless of image format, so any application using the WIC gets automatic support for new image formats as soon as the codec is installed. The extensible metadata framework makes it possible for applications to read and write their own proprietary metadata directly to image files, so the metadata never gets lost or separated from the image.
 
 This topic includes the following sections.
 
@@ -36,9 +36,10 @@ WIC includes several built-in codecs. The following standard codecs are provided
 | GIF (Graphics Interchange Format 89a), GIF Specification 89a/89m                                  | image/gif                        | Yes      | Yes      |
 | ICO (Icon Format)                                                                                 | image/ico                        | Yes      | No       |
 | JPEG (Joint Photographic Experts Group), JFIF Specification 1.02                                  | image/jpeg, image/jpe, image/jpg | Yes      | Yes      |
+| JPEG XR (JPEG Extended Range)                                                                     | image/jxr                        | Yes      | Yes      |
 | PNG (Portable Network Graphics), PNG Specification 1.2                                            | image/png                        | Yes      | Yes      |
 | TIFF (Tagged Image File Format), TIFF Specification 6.0                                           | image/tiff, image/tif            | Yes      | Yes      |
-| Windows Media Photo, [HD Photo Specification 1.0](https://www.microsoft.com/whdc/xps/wmphoto.mspx) | image/vnd.ms-photo               | Yes      | Yes      |
+| Windows Media Photo, [HD Photo format overview](/windows/win32/wic/hdphoto-format-overview) | image/vnd.ms-photo               | Yes      | Yes      |
 | DDS (DirectDraw Surface)                                                                          | image/vnd.ms-dds                 | Yes      | Yes      |
 
 

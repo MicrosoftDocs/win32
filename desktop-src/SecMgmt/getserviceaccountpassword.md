@@ -46,8 +46,8 @@ NTSTATUS NTAPI GetServiceAccountPassword(
 Null-terminated account name of the Group Managed Service Account (gMSA) account. The user name can be one of the following forms:
 
 -   SAM account name of the gMSA.
--   User name in a fully qualified domain name (FQDN), such as *DomainName***\\***UserName* or **www.***domain***.com\\***name*. The user name must be a SAM name only. The domain name can be a DNS name or a NetBIOS name.
--   Implicit user principal name (UPN) for the gMSA account, for example, *SomeName***@***Domain***.com** where, according to the definition of an implicit UPN, the *Domain***.com** is the actual domain DNS name.
+-   User name in a fully qualified domain name (FQDN), such as *DomainName*__\\__*UserName* or __www.__*domain*__.com\\__*name*. The user name must be a SAM name only. The domain name can be a DNS name or a NetBIOS name.
+-   Implicit user principal name (UPN) for the gMSA account, for example, *SomeName*__@__*Domain*__.com__ where, according to the definition of an implicit UPN, the *Domain*__.com__ is the actual domain DNS name.
 
 </dd> <dt>
 

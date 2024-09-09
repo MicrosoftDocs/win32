@@ -7,34 +7,25 @@ keywords:
 - Internet Authentication Service IAS , tasks
 - Internet Authentication Service IAS , using
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/27/2024
 ---
 
 # Using NPS Extensions
 
 Internet Authentication Service (IAS) was renamed Network Policy Server (NPS). The content of this topic applies to both IAS and NPS. Throughout the text, NPS is used to refer to all versions of the service, including the versions originally referred to as IAS.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:**
 
 The DialIn and MapName samples extend NPS functionality.
 
+| Sample | Description |
+|--------|-------------|
+| DialIn | This sample implements a RADIUS extension DLL that checks the dial-in bit for the user. |
+| MapName | This sample extension DLL searches all trusted domains for the designated account. This allows users from multiple domains to be authenticated without the users having to supply their domain name. |
 
+You can find the source code for the MapName and DialIn sample applications in the following list. *Location*, `%Install Path%`, designates the base installation directory for x64 computers. See also [Windows Software Development Kit (SDK) and emulator archive](https://developer.microsoft.com/windows/downloads/sdk-archive/) and [Downloads and tools for Windows development](https://developer.microsoft.com/windows/downloads/).
 
-| Sample             | Description                                                                                                                                                                                                     |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DialIn<br/>  | This sample implements a RADIUS extension DLL that checks the dial-in bit for the user.<br/>                                                                                                              |
-| MapName<br/> | This sample extension DLL searches all trusted domains for the designated account. This allows users from multiple domains to be authenticated without the users having to supply their domain name.<br/> |
-
-
-
- 
-
-You can find the source code for the MapName and DialIn sample applications in the following list. *Location*, %Install Path%, designates the base installation directory for x64 computers. See also [Windows Software Development Kit (SDK) for Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk), Microsoft Windows Software Development Kit (SDK), and [Downloads for Windows Store app development](https://msdn.microsoft.com/windows/apps/br229516).
-
-<dl> <dt>
-
-Windows SDK for Windows 8
-</dt> <dd>
+## Windows SDK for Windows 8
 
 Windows Server 2012
 
@@ -46,25 +37,19 @@ DialIn: No
 
 Location: N/A
 
-</dd> <dt>
-
-Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0
-</dt> <dd>
+## Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0
 
 Windows Server 2008 R2
 
-Download link: <https://www.microsoft.com/download/en/confirmation.aspx?id=8279>
+Download link: [download](https://www.microsoft.com/download/en/confirmation.aspx?id=8279)
 
 MapName: Yes
 
 DialIn: No
 
-Location: %Install Path%\\Microsoft SDKs\\Windows\\v7.1\\Samples\\netds\\ias
+Location: `%Install Path%\Microsoft SDKs\Windows\v7.1\Samples\netds\ias`
 
-</dd> <dt>
-
-Windows SDK
-</dt> <dd>
+## Windows SDK
 
 Windows Server 2008
 
@@ -74,25 +59,9 @@ MapName: Yes
 
 DialIn: No
 
-Location: %Install Path%\\Microsoft SDKs\\Windows\\v6.1\\Samples\\NetDs\\IAS
-
-</dd> </dl>
+Location: `%Install Path%\Microsoft SDKs\Windows\v6.1\Samples\NetDs\IAS`
 
 ## Related topics
 
-<dl> <dt>
-
-[Downloads for Developers](https://msdn.microsoft.com/windows/apps/br229516)
-</dt> <dt>
-
-[Windows SDK for Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+- [Downloads and tools for Windows development](https://developer.microsoft.com/windows/downloads/)
+- [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/)

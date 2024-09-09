@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 | <a href="/previous-versions/windows/desktop/legacy/hh780443(v=vs.85)"><strong>MathBuildDown</strong></a><br /> | Translates the built-up math, ruby, and other inline objects in the specified range to linear form.<br /> | 
 | <a href="/previous-versions/windows/desktop/legacy/hh780445(v=vs.85)"><strong>MathBuildUp</strong></a><br /> | Converts the linear-format math in a range to a built-up form, or modifies the current built-up form. <br /> | 
 | <a href="/previous-versions/windows/desktop/legacy/hh780446(v=vs.85)"><strong>MathTranslate</strong></a><br /> | Translates the math characters in the specified range.<br /> | 
-| <a href="reextendedregisterclass.md"><strong>REExtendedRegisterClass</strong></a><br /> | Registers two class names, REListBox20W and RECombobox20W, that could be used to create Rich Edit listbox or combobox windows. <br /><blockquote>[!Note]<br />Intended for internal use; not recommended for use in applications. This function may not be supported in future versions.</blockquote><br /> | 
+| [**REExtendedRegisterClass**](reextendedregisterclass.md)<br> | Registers two class names, REListBox20W and RECombobox20W, that could be used to create Rich Edit listbox or combobox windows. <br> **Note:** Intended for internal use; not recommended for use in applications. This function may not be supported in future versions.<br> | 
 
 
 

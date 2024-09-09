@@ -24,12 +24,12 @@ Returns the alpha components of the four texel values that would be used in a bi
 
 ``` syntax
 TemplateType GatherAlpha(
-  in SamplerState S,
-  in float        Location,
-  in int2         Offset1,
-  in int2         Offset2,
-  in int2         Offset3,
-  in int2         Offset4
+  in SamplerState S,
+  in float2       Location,
+  in int2         Offset1,
+  in int2         Offset2,
+  in int2         Offset3,
+  in int2         Offset4
 );
 ```
 
@@ -113,7 +113,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -122,9 +122,9 @@ This function is supported for the following types of shaders:
 [GatherAlpha methods](texture2d-gatheralpha.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 

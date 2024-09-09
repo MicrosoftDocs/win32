@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Windows applications normally use UTF-16 to represent [Unicode](unicode.md) character data. The use of 16 bits allows direct representation of 65,536 unique characters, but this Basic Multilingual Plane (BMP) is not nearly enough to cover all the symbols used in human languages. Unicode version 4.1 includes over 97,000 characters, with over 70,000 characters for Chinese alone.
 
-The Unicode standard has established 16 additional "planes" of characters, each the same size as the BMP. Naturally, most code points beyond the BMP do not yet have characters assigned to them, but definition of the planes gives Unicode the potential to define 1,114,112 characters (that is, 2¹⁶ \* 17 characters) within the code point range U+0000 to U+10FFFF. For UTF-16 to represent this larger set of characters, the Unicode Standard defines "supplementary characters".
+The Unicode standard has established 16 additional "planes" of characters, each the same size as the BMP. Naturally, most code points beyond the BMP do not yet have characters assigned to them, but definition of the planes gives Unicode the potential to define 1,114,112 characters (that is, 2<sup>16</sup> * 17 characters) within the code point range U+0000 to U+10FFFF. For UTF-16 to represent this larger set of characters, the Unicode Standard defines "supplementary characters".
 
 ## About Supplementary Characters
 

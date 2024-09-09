@@ -16,10 +16,7 @@ The **uintVal** member of the **PROPVARIANT** structure contains a channel-confi
 
 A full-range speaker is capable of playing sounds over the full range from bass to treble. Typically, larger speakers are full range but smaller speakers are significantly less capable of playing bass sounds. In Windows Vista, the audio engine uses this property to manage bass levels in the audio output stream that is played by the audio endpoint device.
 
-The channel-configuration mask for this property is in the same format as the channel-configuration mask for the [**PKEY\_AudioEndpoint\_PhysicalSpeakers**](pkey-audioendpoint-physicalspeakers.md) property. For more information about channel-configuration masks, see the following:
-
--   The description of the KSPROPERTY\_AUDIO\_CHANNEL\_CONFIG property in the Windows DDK documentation.
--   The white paper titled "Audio Driver Support for Home Theater Speaker Configurations" at the [Audio Device Technologies for Windows](https://www.microsoft.com/whdc/device/audio/default.mspx) website.
+The channel-configuration mask for this property is in the same format as the channel-configuration mask for the [**PKEY\_AudioEndpoint\_PhysicalSpeakers**](pkey-audioendpoint-physicalspeakers.md) property. For more information about channel-configuration masks, see [KSPROPERTY_AUDIO_CHANNEL_CONFIG](/windows-hardware/drivers/audio/ksproperty-audio-channel-config).
 
 The system obtains the channel-configuration mask for the PKEY\_AudioEndpoint\_FullRangeSpeakers property from the user. The user enters this information through the Windows multimedia control panel, Mmsys.cpl. For more information about Mmsys.cpl, see the Windows DDK documentation.
 

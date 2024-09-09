@@ -59,7 +59,7 @@ Address of a pointer to a [**IDirect3DTexture9**](/windows/win32/api/d3d9helper/
 *pBlackBox* \[out\]
 </dt> <dd>
 
-Type: **[**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **[**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
 Pointer to the smallest rectangle object that completely encloses the glyph.
 

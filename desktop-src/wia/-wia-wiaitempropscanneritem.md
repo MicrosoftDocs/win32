@@ -81,10 +81,10 @@ The prefix "WIA\_IPS\_" indicates an Item Property for Scanner devices and is th
 <tbody>
 <tr class="odd">
 <td ><span id="WIA_IPS_AUTO_DESKEW"></span><span id="wia_ips_auto_deskew"></span><dl> <dt><strong>WIA_IPS_AUTO_DESKEW</strong></dt> <dt>ScannerPictureAutoDeskew</dt> </dl></td>
-<td ><blockquote>
-[!Note]<br />
+<td >
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 <br/> Turns automatic deskew on or off.<br/> Optional for WIA_CATEGORY_FEEDER only.<br/> Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a><br/> The following table has the constants that are valid with this property. 
 <table>
 <thead>
@@ -131,10 +131,10 @@ This property is supported only by Windows Vista and later.
 <p>The driver chooses the bit depth, in dots per inch, and other settings that it determines are appropriate for the selected intent. It is up to the application to read the current settings to determine which properties were changed. An application sets this property to auto-set the WIA properties for specific acquisition intent. This property is required for all scanners.</p>
 <p>An application sets this property to auto-set the WIA properties for specific acquisition intent</p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The flags can be combined with a bitwise <strong>OR</strong> operator, but an image cannot be both grayscale and color.
-</blockquote>
+
 </div>
 <div>
  
@@ -208,10 +208,10 @@ The flags can be combined with a bitwise <strong>OR</strong> operator, but an im
 <tr class="odd">
 <td ><span id="WIA_IPS_DESKEW_X"></span><span id="wia_ips_deskew_x"></span><dl> <dt><strong>WIA_IPS_DESKEW_X</strong></dt> <dt>ScannerPictureDeskewX</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -224,10 +224,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_DESKEW_Y"></span><span id="wia_ips_deskew_y"></span><dl> <dt><strong>WIA_IPS_DESKEW_Y</strong></dt> <dt>ScannerPictureDeskewY</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -240,10 +240,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_ips_document_handling_select"></span><dl> <dt><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerPictureDocumentHandlingSelect</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -292,10 +292,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_FILM_NODE_NAME"></span><span id="wia_ips_film_node_name"></span><dl> <dt><strong>WIA_IPS_FILM_NODE_NAME</strong></dt> <dt>ScannerPictureFilmNodeName</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -308,10 +308,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>ScannerPictureFilmScanMode</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -353,10 +353,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -367,10 +367,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_LAMP"></span><span id="wia_ips_lamp"></span><dl> <dt><strong>WIA_IPS_LAMP</strong></dt> <dt>ScannerPictureLamp</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -403,10 +403,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_LAMP_AUTO_OFF"></span><span id="wia_ips_lamp_auto_off"></span><dl> <dt><strong>WIA_IPS_LAMP_AUTO_OFF</strong></dt> <dt>ScannerPictureLampAutoOff</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -418,10 +418,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_MAX_HORIZONTAL_SIZE"></span><span id="wia_ips_max_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMaxHorizontalSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -432,10 +432,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_MAX_VERTICAL_SIZE"></span><span id="wia_ips_max_vertical_size"></span><dl> <dt><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMaxVerticalSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -446,10 +446,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_MIN_HORIZONTAL_SIZE"></span><span id="wia_ips_min_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMinHorizontalSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -460,10 +460,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_MIN_VERTICAL_SIZE"></span><span id="wia_ips_min_vertical_size"></span><dl> <dt><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMinVerticalSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -479,10 +479,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_OPTICAL_XRES"></span><span id="wia_ips_optical_xres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_XRES</strong></dt> <dt>ScannerPictureOpticalXres</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -493,10 +493,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_OPTICAL_YRES"></span><span id="wia_ips_optical_yres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_YRES</strong></dt> <dt>ScannerPictureOpticalYres</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -509,10 +509,10 @@ This property is supported only by Windows Vista and later.
 <td ><p>Specifies the current orientation of the documents to be scanned. The minidriver creates and maintains this property.</p>
 <p>An application sets this property to define the original orientation of a page or image to be acquired. For information on how to use WIA_IPS_ORIENTATION, see <strong>WIA_IPS_PAGE_SIZE</strong>.</p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 WIA_IPS_ORIENTATION refers to the position of the document to be scanned on the scanner bed or feeder. It is the orientation of the document relative to the direction of the scan. WIA_IPS_ROTATION refers to rotation that is applied to the image after it is scanned, just before the image is transferred to the application.
-</blockquote>
+
 </div>
 <div>
  
@@ -552,10 +552,10 @@ WIA_IPS_ORIENTATION refers to the position of the document to be scanned on the 
 <tr class="even">
 <td ><span id="WIA_IPS_PAGE_SIZE"></span><span id="wia_ips_page_size"></span><dl> <dt><strong>WIA_IPS_PAGE_SIZE</strong></dt> <dt>ScannerPicturePageSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -589,10 +589,10 @@ This property is supported only by Windows Vista and later.
 <p> </p>
 <p>The value of the <strong>WIA_IPS_ORIENTATION</strong> property determines the orientation of the currently selected page. The <strong>WIA_IPS_PAGE_WIDTH</strong> and <strong>WIA_IPS_PAGE_HEIGHT</strong> properties report the page's dimensions, in thousandths of an inch. These properties must be in agreement with <strong>WIA_IPS_XEXTENT</strong> and <strong>WIA_IPS_YEXTENT</strong>, which contain the page's dimensions in pixels.</p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Valid values of type WIA_PROP_LIST depend on valid settings of the <strong>WIA_IPS_ORIENTATION</strong> property. If, for example, the device cannot scan landscape-oriented documents with a WIA_PAGE_A4 setting, WIA_PAGE_A4 is not a valid value for the <strong>WIA_IPS_PAGE_SIZE</strong> property when <strong>WIA_IPS_ORIENTATION</strong> is set to LANDSCAPE.
-</blockquote>
+
 </div>
 <div>
  
@@ -601,10 +601,10 @@ Valid values of type WIA_PROP_LIST depend on valid settings of the <strong>WIA_I
 <p>If an extent setting (<strong>WIA_IPS_XEXTENT</strong> or <strong>WIA_IPS_YEXTENT</strong>) is changed to a value that does not match the current page size setting, the minidriver should change the value of the <strong>WIA_IPS_PAGE_SIZE</strong> property to WIA_PAGE_CUSTOM. The minidriver should also modify <a href="-wia-wiaitempropscannerdevice.md"><strong>WIA_IPS_PAGE_WIDTH</strong></a> or <strong>WIA_IPS_PAGE_HEIGHT</strong> in accordance with the new extent setting.</p>
 <p>If <strong>WIA_IPS_ORIENTATION</strong> is set to LANDSCAPE, the extent settings will be exchanged relative to their usual values. For example, if an application sets <strong>WIA_IPS_PAGE_SIZE</strong> to WIA_PAGE_A4, the minidriver sets <strong>WIA_IPS_PAGE_WIDTH</strong> to 11692 and <strong>WIA_IPS_PAGE_HEIGHT</strong> to 8267. (The minidriver should also adjust <strong>WIA_IPS_XEXTENT</strong> and <strong>WIA_IPS_YEXTENT</strong> accordingly.)</p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If <a href="-wia-wiaitempropscannerdevice.md"><strong>WIA_IPS_PAGE_SIZE</strong></a> is set to WIA_PAGE_CUSTOM, the orientation setting is not used to determine the extent dimensions of the page to be scanned.
-</blockquote>
+
 </div>
 <div>
  
@@ -721,10 +721,10 @@ WIA_IPS_YRES = 100</code></pre></td>
 <tr class="odd">
 <td ><span id="WIA_IPS_PAGE_HEIGHT"></span><span id="wia_ips_page_height"></span><dl> <dt><strong>WIA_IPS_PAGE_HEIGHT</strong></dt> <dt>ScannerPicturePageHeight</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -736,10 +736,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_PAGE_WIDTH"></span><span id="wia_ips_page_width"></span><dl> <dt><strong>WIA_IPS_PAGE_WIDTH</strong></dt> <dt>ScannerPicturePageWidth</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -751,10 +751,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_PAGES"></span><span id="wia_ips_pages"></span><dl> <dt><strong>WIA_IPS_PAGES</strong></dt> <dt>ScannerPicturePages</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -763,10 +763,10 @@ This property is supported only by Windows Vista and later.
 <p>Type: <strong>VT_I4</strong>; Access: Read/Write; Valid values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> This is zero through the maximum number of pages that the scanner can scan. The value is ALL_PAGES (= 0) if the scanner can scan continuously.</p>
 <p>An application reads this property to determine the document feeder's page capacity. The application also sets this property to the number of pages it is going to scan.</p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If duplex mode is enabled (<strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong> is set to FEEDER | DUPLEX | ADVANCED_DUPLEX), <strong>WIA_IPS_PAGES</strong> is still equal to the number of pages to scan.
-</blockquote>
+
 </div>
 <div>
  
@@ -806,10 +806,10 @@ If duplex mode is enabled (<strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong> is 
 <tr class="odd">
 <td ><span id="WIA_IPS_PREVIEW"></span><span id="wia_ips_preview"></span><dl> <dt><strong>WIA_IPS_PREVIEW</strong></dt> <dt>ScannerPicturePreview</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -842,10 +842,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_PREVIEW_TYPE"></span><span id="wia_ips_preview_type"></span><dl> <dt><strong>WIA_IPS_PREVIEW_TYPE</strong></dt> <dt>ScannerPicturePreviewType</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -880,10 +880,10 @@ This property is supported only by Windows Vista and later.
 <td ><p>Contains the current rotation setting, if it is implemented. The minidriver creates and maintains this property.</p>
 <p>An application sets this property to inform the driver how much (if at all) to rotate the image before the driver returns it to the application.</p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 WIA_IPS_ORIENTATION refers to the position of the document to be scanned on the scanner bed or feeder. It is the orientation of the document relative to the direction of the scan. WIA_IPS_ROTATION refers to rotation that is applied to the image after it is scanned, just before the image is transferred to the application.
-</blockquote>
+
 </div>
 <div>
  
@@ -927,10 +927,10 @@ WIA_IPS_ORIENTATION refers to the position of the document to be scanned on the 
 <tr class="even">
 <td ><span id="WIA_IPS_SEGMENTATION"></span><span id="wia_ips_segmentation"></span><dl> <dt><strong>WIA_IPS_SEGMENTATION</strong></dt> <dt>ScannerPictureSegmentation</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -960,10 +960,10 @@ This property is supported only by Windows Vista and later.
 
 <p> </p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 It is possible for a driver to come with a segmentation filter, but still have WIA_IPS_SEGMENTATION set to WIA_DONT_USE_SEGMENTATION_FILTER for one of its items (such as, the WIA_CATEGORY_FILM item). This could be the case if the scanner uses fixed frames for film scanning, but not for regular scanning from WIA_CATEGORY_FLATBED items.
-</blockquote>
+
 </div>
 <div>
  
@@ -972,10 +972,10 @@ It is possible for a driver to come with a segmentation filter, but still have W
 <tr class="odd">
 <td ><span id="WIA_IPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_ips_sheet_feeder_registration"></span><dl> <dt><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerPictureSheetFeederRegistration</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -1013,10 +1013,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_ips_show_preview_control"></span><dl> <dt><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerPictureShowPreviewControl</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -1049,10 +1049,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION"></span><span id="wia_ips_supports_child_item_creation"></span><dl> <dt><strong>WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION</strong></dt> <dt>ScannerPictureSupportsChildItemCreation</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -1065,10 +1065,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPS_THRESHOLD"></span><span id="wia_ips_threshold"></span><dl> <dt><strong>WIA_IPS_THRESHOLD</strong></dt> <dt>ScannerPictureThreshold</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -1080,10 +1080,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_TRANSFER_CAPABILITIES"></span><span id="wia_ips_transfer_capabilities"></span><dl> <dt><strong>WIA_IPS_TRANSFER_CAPABILITIES</strong></dt> <dt>ScannerPictureTransferCapabilities</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -1095,10 +1095,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -1135,10 +1135,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_XSCALING"></span><span id="wia_ips_xscaling"></span><dl> <dt><strong>WIA_IPS_XSCALING</strong></dt> <dt>ScannerPictureXscaling</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -1170,10 +1170,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_IPS_YSCALING"></span><span id="wia_ips_yscaling"></span><dl> <dt><strong>WIA_IPS_YSCALING</strong></dt> <dt>ScannerPictureYscaling</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  

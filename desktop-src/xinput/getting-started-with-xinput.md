@@ -1,19 +1,18 @@
 ---
 title: Getting Started With XInput in Windows applications
-description: Overview of how XInput enables Windows applications to process Xbox Controller interactions (including controller rumble effects and voice input and output).
+description: Overview of how XInput enables Windows applications to process controller interactions (including controller rumble effects and voice input and output).
 ms.topic: article
-ms.date: 11/24/2021
-ms.custom: seo-windows-dev
+ms.date: 10/23/2023
 ---
 
 # Getting Started With XInput in Windows applications
 
-XInput enables Windows applications to process Xbox Controller interactions (including controller rumble effects and voice input and output).
+XInput enables Windows applications to process controller interactions (including controller rumble effects and voice input and output).
 
 This topic provides a brief overview of the capabilities of XInput and how to set it up in an application. It includes the following:
 
 -   [Introduction to XInput](#introduction-to-xinput)
-    -   [The Xbox Controller](#the-xbox-controller)
+    -   [Controller Layout](#controller-layout)
 -   [Using XInput](#using-xinput)
     -   [Multiple Controllers](#multiple-controllers)
     -   [Getting Controller State](#getting-controller-state)
@@ -25,13 +24,13 @@ This topic provides a brief overview of the capabilities of XInput and how to se
 
 ## Introduction to XInput
 
-The Xbox console uses a gaming controller that is compatible with Windows. Applications can use the XInput API to communicate with these controllers when they are plugged into a Windows PC (up to four unique controllers can be plugged in at a time).
+Applications can use the XInput API to communicate with gaming controllers when they are plugged into a Windows PC (up to four unique controllers can be plugged in at a time).
 
-Using this API, any connected Xbox Controller can be queried for its state, and vibration effects can be set. Controllers that have the headset attached can also be queried for sound input and output devices that can be used with the headset for voice processing.
+Using this API, any compatible connected controller can be queried for its state, and vibration effects can be set. Controllers that have the headset attached can also be queried for sound input and output devices that can be used with the headset for voice processing.
 
-### The Xbox Controller
+### Controller Layout
 
-The Xbox Controller has two analog directional sticks, each with a digital button, two analog triggers, a digital directional pad with four directions, and eight digital buttons. The states of each of these inputs are returned in the [**XINPUT\_GAMEPAD**](/windows/desktop/api/XInput/ns-xinput-xinput_gamepad) structure when the [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) function is called.
+Compatible controllers have two analog directional sticks, each with a digital button, two analog triggers, a digital directional pad with four directions, and eight digital buttons. The states of each of these inputs are returned in the [**XINPUT\_GAMEPAD**](/windows/desktop/api/XInput/ns-xinput-xinput_gamepad) structure when the [**XInputGetState**](/windows/desktop/api/XInput/nf-xinput-xinputgetstate) function is called.
 
 The controller also has two vibration motors to supply force feedback effects to the user. The speeds of these motors are specified in the [**XINPUT\_VIBRATION**](/windows/desktop/api/XInput/ns-xinput-xinput_vibration) structure that is passed to the [**XInputSetState**](/windows/desktop/api/XInput/nf-xinput-xinputsetstate) function to set vibration effects.
 
@@ -89,7 +88,7 @@ For performance reasons, don't call [**XInputGetState**](/windows/desktop/api/XI
 In order for users to have a consistent gameplay experience, your game must implement dead zone correctly. The dead zone is "movement" values reported by the controller even when the analog thumbsticks are untouched and centered. There is also a dead zone for the 2 analog triggers.
 
 > [!Note]  
-> Games that use XInput that do not filter dead zone at all will experience poor gameplay. Please note that some controllers are more sensitive than others, thus the dead zone may vary from unit to unit. It is recommended that you test your games with several Xbox controllers on different systems.
+> Games that use XInput that do not filter dead zone at all will experience poor gameplay. Please note that some controllers are more sensitive than others, thus the dead zone may vary from unit to unit. It is recommended that you test your games with several different controllers on different systems.
 
 Applications should use "dead zones" on analog inputs (triggers, sticks) to indicate when a movement has been made sufficiently on the stick or trigger to be considered valid.
 
@@ -164,7 +163,7 @@ Note that the right motor is the high-frequency motor, the left motor is the low
 
 ### Getting Audio Device Identifiers
 
-The headset for an Xbox Controller has these functions:
+The headset for a controller has these functions:
 
 -   Record sound using a microphone
 -   Play back sound using a headphone
@@ -197,7 +196,7 @@ For info about how to use the captureId device identifier, see [Capturing a Stre
 
 ### Getting DirectSound GUIDs (legacy DirectX SDK only)
 
-The headset that can be connected to an Xbox Controller has two functions: it can record sound using a microphone, and it can play back sound using a headphone. In the XInput API, these functions are accomplished through [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)), using the **IDirectSound8** and **IDirectSoundCapture8** interfaces.
+The headset that can be connected to a controller has two functions: it can record sound using a microphone, and it can play back sound using a headphone. In the XInput API, these functions are accomplished through [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)), using the **IDirectSound8** and **IDirectSoundCapture8** interfaces.
 
 To associate the headset microphone and headphone with their appropriate [DirectSound](/previous-versions/windows/desktop/ee416960(v=vs.85)) interfaces, you must get the DirectSoundGUIDs for the capture and render devices by calling [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids).
 

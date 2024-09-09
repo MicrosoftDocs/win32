@@ -17,7 +17,7 @@ Declares the primitive type geometry-shader output data.
 
 
 
-| dcl\_outputTopology *Type* |
+| dcl\_outputTopology *type* |
 |----------------------------|
 
 
@@ -29,7 +29,7 @@ Declares the primitive type geometry-shader output data.
 
 | Item | Description | 
 |------|-------------|
-| <span id="Type"></span><span id="type"></span><span id="TYPE"></span><em>Type</em><br /> | [in] An output primitive topology, which is one of the following values: <br /><ul><li><em>pointlist</em></li><li><em>linestrip</em></li><li><em>trianglestrip</em></li></ul> | 
+| <span id="type"></span><span id="type"></span><span id="TYPE"></span><em>type</em><br /> | [in] An output primitive topology, which is one of the following values: <br /><ul><li><em>pointlist</em></li><li><em>linestrip</em></li><li><em>trianglestrip</em></li></ul> | 
 
 
 

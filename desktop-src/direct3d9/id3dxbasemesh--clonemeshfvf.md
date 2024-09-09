@@ -82,7 +82,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 ## Remarks
 
-**ID3DXBaseMesh::CloneMeshFVF** is used to reformat and change the vertex data layout. This is done by creating a new mesh object. For example, use it to to add space for normals, texture coordinates, colors, weights, etc. that were not present before.
+**ID3DXBaseMesh::CloneMeshFVF** is used to reformat and change the vertex data layout. This is done by creating a new mesh object. For example, use it to add space for normals, texture coordinates, colors, weights, etc. that were not present before.
 
 [**ID3DXBaseMesh::UpdateSemantics**](id3dxbasemesh--updatesemantics.md) updates the vertex declaration with different semantic information without changing the layout of the vertex buffer. This method does not modify the contents of the vertex buffer. For example, use it to relabel a 3D texture coordinate as a binormal or tangent or vice versa.
 

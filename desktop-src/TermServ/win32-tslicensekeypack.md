@@ -218,6 +218,7 @@ Product type of the Remote Desktop Services license key pack.
 | 0 | The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license. |
 | 1 | The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license. |
 | 2 | This product type is not valid. |
+| 3 | BuiltIn product type |
 
 **ProductVersion**
 </dt> <dd> <dl> <dt>
@@ -232,6 +233,9 @@ Product version for the Remote Desktop Services license key pack.
 
 | Value | Description |
 |-------|-------------|
+| "Windows Server 2022" | Only servers running Windows Server 2022 or lower are supported with this license. |
+| "Windows Server 2019" | Only servers running Windows Server 2019 or lower are supported with this license. |
+| "Windows Server 2016" | Only servers running Windows Server 2016 or lower are supported with this license. |
 | "Windows Server 2012" | Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license. |
 | "Windows Server 7" | Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license. |
 | "Windows Server 2008" | Only servers running Windows Server 2008 are supported by this key pack. |
@@ -256,6 +260,7 @@ Product version identifier for the Remote Desktop Services license key pack.
 | 4 | Windows Server 2012/Windows Server 2012 R2 |
 | 5 | Windows Server 2016 |
 | 6 | Windows Server 2019 |
+| 7 | Windows Server 2022 |
 
 **TotalLicenses**
 </dt> <dd> <dl> <dt>

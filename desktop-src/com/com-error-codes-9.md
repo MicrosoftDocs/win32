@@ -1099,7 +1099,7 @@ Too many attributes have been used.
 
 
 
-The connection can not be found.
+The connection cannot be found.
 
 
 </dt> </dl> </dd> <dt>
@@ -1918,7 +1918,7 @@ The app invite request was canceld by the user.
 
 
 
-No respose ot the invite was received.
+No response to the invite was received.
 
 
 </dt> </dl> </dd> <dt>

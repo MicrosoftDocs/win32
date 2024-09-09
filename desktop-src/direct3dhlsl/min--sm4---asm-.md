@@ -47,7 +47,7 @@ The following table shows the results obtained when executing the instruction wi
 |--------------------|----------|--------------|----------|---------|
 | **-inf**           | -inf     | -inf         | -inf     | -inf    |
 | **F**              | -inf     | src0 or src1 | src0     | src0    |
-| **-inf**           | -inf     | src1         | +inf     | +inf    |
+| **+inf**           | -inf     | src1         | +inf     | +inf    |
 | **NaN**            | -inf     | src1         | +inf     | NaN     |
 
 

@@ -74,7 +74,7 @@ if (result == TRUE) // Wrong!
 
 ### Pointer Types
 
-Windows defines many data types of the form *pointer-to-X*. These usually have the prefix *P-* or *LP-* in the name. For example, **LPRECT** is a pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)), where **RECT** is a structure that describes a rectangle. The following variable declarations are equivalent.
+Windows defines many data types of the form *pointer-to-X*. These usually have the prefix *P-* or *LP-* in the name. For example, **LPRECT** is a pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect), where **RECT** is a structure that describes a rectangle. The following variable declarations are equivalent.
 
 ```C++
 RECT*  rect;  // Pointer to a RECT structure.

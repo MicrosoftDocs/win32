@@ -1,28 +1,30 @@
 ---
-title: Taking a Snapshot and Viewing Processes
-description: The following simple console application obtains a list of running processes.
+title: Taking a snapshot, viewing processes
+description: This code example retrieves a list of running processes.
 ms.assetid: 318d166f-858f-4f33-9422-977e0c4beb3f
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/19/2023
 ---
 
-# Taking a Snapshot and Viewing Processes
+# Taking a snapshot, viewing processes
 
-The following simple console application obtains a list of running processes. First, the `GetProcessList` function takes a snapshot of currently executing processes in the system using [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot), and then it walks through the list recorded in the snapshot using [**Process32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-process32first) and [**Process32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-process32next). For each process in turn, `GetProcessList` calls the `ListProcessModules` function which is described in [Traversing the Module List](traversing-the-module-list.md), and the `ListProcessThreads` function which is described in [Traversing the Thread List](traversing-the-thread-list.md).
+This code example retrieves a list of running processes. First, the **GetProcessList** function takes a snapshot of currently executing processes in the system. To do that, it uses the [**CreateToolhelp32Snapshot**](/windows/win32/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) function, and then it walks through the list recorded in the snapshot by using [**Process32First**](/windows/win32/api/TlHelp32/nf-tlhelp32-process32first) and [**Process32Next**](/windows/win32/api/TlHelp32/nf-tlhelp32-process32next). For each process in turn, **GetProcessList** calls the **ListProcessModules** function, which is described in [Traversing the module list](traversing-the-module-list.md), and the **ListProcessThreads** function, which is described in [Traversing the thread list](traversing-the-thread-list.md).
 
-A simple error-reporting function, `printError`, displays the reason for any failures, which usually result from security restrictions. For example, [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them.
+A simple error-reporting function, **printError**, displays the reason for any failures (which typically result from security restrictions). For example, [**OpenProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess) fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them.
 
+To follow along with the code example, use Visual Studio to create a new project from the C++ **Console App** project template, and add the code below to it.
 
-```C++
+```cpp
 #include <windows.h>
 #include <tlhelp32.h>
 #include <tchar.h>
+#include <stdio.h>
 
 //  Forward declarations:
 BOOL GetProcessList( );
 BOOL ListProcessModules( DWORD dwPID );
 BOOL ListProcessThreads( DWORD dwOwnerPID );
-void printError( TCHAR* msg );
+void printError( TCHAR const* msg );
 
 int main( void )
 {
@@ -179,7 +181,7 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
   return( TRUE );
 }
 
-void printError( TCHAR* msg )
+void printError( TCHAR const* msg )
 {
   DWORD eNum;
   TCHAR sysMsg[256];
@@ -203,15 +205,6 @@ void printError( TCHAR* msg )
 }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Snapshots of the System](snapshots-of-the-system.md)
-</dt> </dl>
-
- 
-
- 
+* [Snapshots of the system](snapshots-of-the-system.md)

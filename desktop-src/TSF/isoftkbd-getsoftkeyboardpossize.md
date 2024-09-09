@@ -42,7 +42,7 @@ HRESULT GetSoftKeyboardPosSize(
 *lpStartPoint* \[out\]
 </dt> <dd>
 
-Pointer to a buffer in which this method retrieves a [POINT](/previous-versions//dd162805(v=vs.85)) structure indicating the coordinates of the upper left position of the soft keyboard.
+Pointer to a buffer in which this method retrieves a [POINT](/windows/win32/api/windef/ns-windef-point) structure indicating the coordinates of the upper left position of the soft keyboard.
 
 </dd> <dt>
 

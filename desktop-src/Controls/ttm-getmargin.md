@@ -30,16 +30,16 @@ Retrieves the top, left, bottom, and right margins set for a tooltip window. A m
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that will receive the margin information. The members of the **RECT** structure do not define a bounding rectangle. For the purpose of this message, the structure members are interpreted as follows:
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that will receive the margin information. The members of the **RECT** structure do not define a bounding rectangle. For the purpose of this message, the structure members are interpreted as follows:
 
 
 
 | Value                                                                                                                                   | Meaning                                                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| <span id="top"></span><span id="TOP"></span><dl> <dt>**top**</dt> </dl>          | Distance between top border and top of tooltip text, in pixels.<br/>         |
 | <span id="left"></span><span id="LEFT"></span><dl> <dt>**left**</dt> </dl>       | Distance between left border and left end of tooltip text, in pixels.<br/>   |
-| <span id="bottom"></span><span id="BOTTOM"></span><dl> <dt>**bottom**</dt> </dl> | Distance between bottom border and bottom of tooltip text, in pixels.<br/>   |
+| <span id="top"></span><span id="TOP"></span><dl> <dt>**top**</dt> </dl>          | Distance between top border and top of tooltip text, in pixels.<br/>         |
 | <span id="right"></span><span id="RIGHT"></span><dl> <dt>**right**</dt> </dl>    | Distance between right border and right end of tooltip text, in pixels.<br/> |
+| <span id="bottom"></span><span id="BOTTOM"></span><dl> <dt>**bottom**</dt> </dl> | Distance between bottom border and bottom of tooltip text, in pixels.<br/>   |
 
 
 

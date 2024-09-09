@@ -3,10 +3,13 @@ description: The following tables list the CLSIDs for the DirectShow filter cate
 ms.assetid: cab4e2c9-eab9-4836-adfc-870490ca5b6b
 title: Filter Categories
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Filter Categories
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following tables list the CLSIDs for the DirectShow filter categories.
 
@@ -36,7 +39,7 @@ The following categories are declared in Uuids.h. Include the header file Dshow.
 | Midi Renderers | <strong>CLSID_MidiRendererCategory</strong> | <strong>MERIT_NORMAL</strong> | 
 | Video Capture Sources | <strong>CLSID_VideoInputDeviceCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
 | Video Compressors | <strong>CLSID_VideoCompressorCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
-| WDM Stream Decompression Devices | <strong>CLSID_DVDHWDecodersCategory</strong><blockquote>[!Note]<br />This category contains hardware DVD decoders.</blockquote><br /> | <strong>MERIT_DO_NOT_USE</strong> | 
+| WDM Stream Decompression Devices | **CLSID_DVDHWDecodersCategory** **Note:** This category contains hardware DVD decoders.<br> | **MERIT_DO_NOT_USE** | 
 | WDM Streaming Capture Devices | <strong>AM_KSCATEGORY_CAPTURE</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
 | WDM Streaming Crossbar Devices | <strong>AM_KSCATEGORY_CROSSBAR</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
 | WDM Streaming Rendering Devices | <strong>AM_KSCATEGORY_RENDER</strong> | <strong>MERIT_DO_NOT_USE</strong> | 

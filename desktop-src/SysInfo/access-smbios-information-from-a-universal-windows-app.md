@@ -40,7 +40,7 @@ To declare the **smbios** restricted capability in the app manifest, add the **r
 
 <dl> <dt>
 
-[Special and restricted capabilities](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities)
+[Restricted capabilities](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities)
 </dt> <dt>
 
 [GetSystemFirmwareTable](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable)

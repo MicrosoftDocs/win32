@@ -4,7 +4,6 @@ description: Shows how to transform a geometry using Direct2D.
 ms.assetid: de434615-14b1-4b66-b09b-e90468e03d58
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # How to Transform a Geometry

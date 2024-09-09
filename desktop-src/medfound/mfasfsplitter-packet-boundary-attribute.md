@@ -22,7 +22,7 @@ If a media buffer exposes the [**IMFAttributes**](/windows/desktop/api/mfobjects
 
 This attribute applies if you are using the ASF splitter to parse ASF data. If your ASF data has variable packet lengths, you must set this attribute on the media buffers that you pass to the [**IMFASFSplitter::ParseData**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-parsedata) method. Set the attribute to **TRUE** if the buffer contains the start of a new packet. If the buffer contains a continuation of the previous packet, set the attribute to **FALSE**. The buffers cannot span multiple packets.
 
-For ASF data with fixed packet sizes, this attribute is not required, and a buffer can can span multiple packets.
+For ASF data with fixed packet sizes, this attribute is not required, and a buffer can span multiple packets.
 
 Note that the standard implementations of the [**IMFMediaBuffer**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer) provided by Media Foundation do not expose [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes). To use this attribute, you must provide your own implementation of **IMFMediaBuffer**; for example, by wrapping the buffers returned by [**MFCreateMemoryBuffer**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatememorybuffer).
 

@@ -86,7 +86,7 @@ bRtnBool = LookupAccountSid(
 // Reallocate memory for the buffers.
 AcctName = (LPTSTR)GlobalAlloc(
           GMEM_FIXED,
-          dwAcctName);
+          dwAcctName * sizeof(wchar_t));
 
 // Check GetLastError for GlobalAlloc error condition.
 if (AcctName == NULL) {
@@ -99,7 +99,7 @@ if (AcctName == NULL) {
 
     DomainName = (LPTSTR)GlobalAlloc(
            GMEM_FIXED,
-           dwDomainName);
+           dwDomainName * sizeof(wchar_t));
 
     // Check GetLastError for GlobalAlloc error condition.
     if (DomainName == NULL) {

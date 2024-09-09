@@ -30,10 +30,10 @@ The following table lists formats that are available for each factoid used in Ge
 <td><strong>Currency</strong></td>
 <td>Currency in euros, dollars, pounds, and yen as written in German.<br/></td>
 <td>.234  <br/> 1.234,50  <br/> 236,50  <br/> 123  <br/> 0,25  <br/> 1.234,-  <br/>   1.234<br/>   1.234,50<br/>   236,50<br/>   123<br/>   0,25<br/>   1.234,-<br/> EUR 1.234<br/> EUR 1.234,50<br/> $ 1.234<br/> $ 1.234,50<br/> $ 1.234,-<br/> $ 236,50<br/> $ 0,25<br/> 2 Ct.<br/> 10,5 Ct.<br/> 1,25 Ct.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The examples above that use $ will also work with   and  .
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 Posted to the window with the keyboard focus when the user releases a key that was pressed while the ALT key was held down. It also occurs when no window currently has the keyboard focus; in this case, the **WM\_SYSKEYUP** message is sent to the active window. The window that receives the message can distinguish between these two contexts by checking the context code in the *lParam* parameter.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -101,29 +101,12 @@ For non-U.S. enhanced 102-key keyboards, the right ALT key is handled as a CTRL+
 
 
 ## See also
-
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
-</dt> <dt>
-
-[**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
-</dt> <dt>
-
-[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
-</dt> <dt>
-
-[**WM\_SYSKEYDOWN**](wm-syskeydown.md)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
+- [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+- [**TranslateAccelerator**](/windows/desktop/api/winuser/nf-winuser-translateacceleratora)
+- [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
+- [**WM\_SYSKEYDOWN**](wm-syskeydown.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)
 
  
 

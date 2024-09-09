@@ -156,7 +156,7 @@ if (SUCCEEDED(hr))
                                                      &cbOptimalTransferSize,    // Returned optimal buffer size to use during transfer
                                                      NULL);
 
-    // Once we have a the IStream returned from CreateObjectWithPropertiesAndData,
+    // Once we have the IStream returned from CreateObjectWithPropertiesAndData,
     // QI for IPortableDeviceDataStream so we can use the additional methods
     // to get more information about the object (i.e. The newly created object
     // identifier on the device)

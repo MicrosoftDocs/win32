@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: CimInstance.SetCimSessionComputerName method (String)"
+description: Describes the **CimInstance.SetCimSessionComputerName** method, and provides its syntax, parameters, and related articles.
 title: CimInstance.SetCimSessionComputerName method (Microsoft.Management.Infrastructure)
 TOCTitle: CimInstance.SetCimSessionComputerName method (Microsoft.Management.Infrastructure)
 ms:assetid: M:Microsoft.Management.Infrastructure.CimInstance.SetCimSessionComputerName(System.String)
@@ -61,7 +61,7 @@ Public Sub SetCimSessionComputerName (
 #### Parameters
 
   - computerName  
-    Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    Type: [System.String](/dotnet/api/system.string)
     
     The name of the computer used for the CIM session. **null** if the current instance is client-side only, or if the instance was retrieved from localhost.
 

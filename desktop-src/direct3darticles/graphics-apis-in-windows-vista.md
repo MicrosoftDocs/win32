@@ -3,7 +3,7 @@ title: Graphics APIs in Windows
 description: This articles discusses Windows graphics features and APIs.
 ms.assetid: 54cd5027-cdcf-fc4a-40a9-beacfaa08681
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/08/2024
 ---
 
 # Graphics APIs in Windows
@@ -35,7 +35,7 @@ Over the years, the power of 3D video cards has grown dramatically to the point 
 
 ![wddm](images/graphics-apis-in-windows-vista.gif)
 
-For more information about the WDDM, see [Windows Vista Display Driver Model (WDDM) Design Guide](/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide) on MSDN.
+For more information about the WDDM, see [Windows Vista Display Driver Model (WDDM) Design Guide](/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide).
 
 ## Direct3D 9
 
@@ -52,11 +52,7 @@ The Direct3D 9Ex interface provides access to a slight extension of the standard
 The primary reason for creating the new Direct3D 9Ex API was to allow full access to the new capabilities of WDDM while maintaining compatibility for existing Direct3D applications. The new 3D desktop and many Windows Vista-specific applications make use of this version of Direct3D 9, but they are not functional when running on older XPDM drivers. Because the Direct3D 9Ex API will never appear on older versions of Windows due to a lack of support for the WDDM, the standard Direct3D 9 interfaces cover a much broader set of systems. For high-performance applications that can take advantage of the next generation of video hardware, the entirely new version 10 of Direct3D provides many new capabilities not exposed by Direct3D 9Ex. As a result, for games and most other applications, Direct3D 9 or Direct3D 10 is the recommended API.
 
 > [!Note]  
-> The DirectX SDK does not provide samples, headers, or libraries for the Direct3D 9Ex interface. The MSDN Library and Windows SDK (formerly known as the Platform SDK) contain the available documentation, headers, and libraries.
-
- 
-
-For more information about Direct3D 9Ex, see [DirectX for Windows Vista](/previous-versions//ms681824(v=vs.85)) on MDSN.
+> The DirectX SDK does not provide samples, headers, or libraries for the Direct3D 9Ex interface. For more information about Direct3D 9Ex, see [DirectX for Windows Vista](/previous-versions//ms681824(v=vs.85)).
 
 ## Direct3D 10
 
@@ -64,11 +60,11 @@ To fully realize the potential of the new Windows Vista driver model and next-ge
 
 The new API completely eliminates all but a few fixed-function aspects, replacing them with programmable constructs and greatly streamlining the internal implementation. The hundreds of capability bits in previous versions of Direct3D have been completely eliminated and replaced with a well-defined, inclusive set of functionality that has only a few optional usage scenarios for specific resource formats. CPU-intensive resource creation and validation now have explicit semantics in the new API. This allows for much more predictable performance behavior, and greatly reduced per-draw overhead. Resources can be reconfigured into multiple forms to allow efficient use at various stages, and the feature set imposes far fewer restrictions on usage scenarios for formats. There are also new block-compressed normal-map texture formats.
 
-In the new API, shader constants and device state are explicit resources, allowing for far more efficient caching on the hardware and greatly simplified driver validation. The programmable shader model has been unified across both vertex and pixel shaders, and made more expressive with a well-defined computational model and operator set. Also, a new geometry shader stage has been added to operate on primitives after the vertex shader stage. The results of the GPU’s work in the vertex and geometry shader stages of the pipeline can be streamed out to video RAM for reuse, allowing for the possibility of extremely complex multi-pass GPU operations with minimal CPU interaction.
+In the new API, shader constants and device state are explicit resources, allowing for far more efficient caching on the hardware and greatly simplified driver validation. The programmable shader model has been unified across both vertex and pixel shaders, and made more expressive with a well-defined computational model and operator set. Also, a new geometry shader stage has been added to operate on primitives after the vertex shader stage. The results of the GPU's work in the vertex and geometry shader stages of the pipeline can be streamed out to video RAM for reuse, allowing for the possibility of extremely complex multi-pass GPU operations with minimal CPU interaction.
 
 All of these enhancements enable next-generation graphics technology and expand the ability of applications to off-load work to the GPU. Offloading allows more complex GPU-based character skinning, accelerated morphing techniques, shadow volume generation and extrusion, particle and physics systems that are entirely GPU-based, more complex materials combined into efficient large-draw batches, procedural detailing, real-time ray-traced displacement mapping, single-pass cube-map generation, and many more techniques—all while freeing up CPU resources for more complex applications.
 
-To provide this level of innovation in Direct3D 10, older hardware cannot be expressed as a partial implementation of a new interface. A video card is either capable of supporting all of the new features, or it’s not a Direct3D 10–capable card. Therefore, while Direct3D 9 could drive DirectX7-era hardware with many missing capability bits and usage limitations, Direct3D 10 only works on a new generation of video cards. For an application to support older video hardware, it must also support the Direct3D 9 interfaces. Future versions of Direct3D will build on version 10, extending it to new versions of the API while ensuring a strict superset of Direct3D 10 functionality.
+To provide this level of innovation in Direct3D 10, older hardware cannot be expressed as a partial implementation of a new interface. A video card is either capable of supporting all of the new features, or it's not a Direct3D 10–capable card. Therefore, while Direct3D 9 could drive DirectX7-era hardware with many missing capability bits and usage limitations, Direct3D 10 only works on a new generation of video cards. For an application to support older video hardware, it must also support the Direct3D 9 interfaces. Future versions of Direct3D will build on version 10, extending it to new versions of the API while ensuring a strict superset of Direct3D 10 functionality.
 
 For more information about Direct3D 10, see [Direct3D 10](/windows/desktop/direct3d10/d3d10-graphics).
 
@@ -93,7 +89,7 @@ Windows 7 supports a new revision of Direct3D, Direct3D 11, built on the design 
 In addition to the Direct3D 11 API, Windows 7 includes DXGI 1.1, Direct2D, DirectWrite, and support for WDDM 1.1 drivers.
 
 > [!Note]  
-> The Direct3D 11 and related APIs are also available as an update to Windows Vista (see [KB 971644](https://support.microsoft.com/kb/971644)).
+> The Direct3D 11 and related APIs are also available as an update to Windows Vista (see [How to install the latest version of DirectX](https://support.microsoft.com/topic/how-to-install-the-latest-version-of-directx-d1f5ffa5-dae2-246c-91b1-ee1e973ed8c2)).
 
  
 

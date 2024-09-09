@@ -36,7 +36,7 @@ You can write ADSI client applications in many languages. For most administrativ
 
 ## Run-time requirements
 
-Active Directory runs on Windows Server domain controllers. However, client applications using ADSI may be written and run on Windows. In addition, developers will want the Platform Software Development Kit (SDK), also available on the MSDN website. To investigate the contents of Active Directory, use the Active Directory Users and Computers MMC snap-in. This snap-in replaces the Adsvw tool that was available for previous versions of Windows.
+Active Directory runs on Windows Server domain controllers. However, client applications using ADSI may be written and run on Windows. In addition, developers will want the Platform Software Development Kit (SDK). To investigate the contents of Active Directory, use the Active Directory Users and Computers MMC snap-in. This snap-in replaces the Adsvw tool that was available for previous versions of Windows.
 
 ## In this section
 

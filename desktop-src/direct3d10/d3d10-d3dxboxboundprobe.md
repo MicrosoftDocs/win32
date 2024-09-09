@@ -4,19 +4,22 @@ ms.assetid: d3cdcf89-461b-44b0-b5d0-ca2e3869a5ad
 title: D3DXBoxBoundProbe function (D3DX10math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXBoxBoundProbe
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXBoxBoundProbe function (D3DX10math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Determines whether a ray intersects the volume of a box's bounding box.
 

@@ -4,19 +4,22 @@ ms.assetid: bb24204f-0c8e-4dc5-bcae-12e3033d1a39
 title: D3DXVec2TransformCoord function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2TransformCoord
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXVec2TransformCoord function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms a 2D vector by a given matrix, projecting the result back into w = 1.
 

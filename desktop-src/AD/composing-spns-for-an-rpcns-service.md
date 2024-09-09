@@ -42,7 +42,7 @@ This code example calls the [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsa
     SPNs. This array must freed with the DsFreeSpnArray function when 
     it is no longer required.
 
-    pulSpn - Pointer to a unsigned long that receives the number of 
+    pulSpn - Pointer to an unsigned long that receives the number of 
     elements in the pspn array.
 
 ***********/

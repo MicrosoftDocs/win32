@@ -1,6 +1,6 @@
 ---
 title: DirectInput and XUSB Devices
-description: The driver for the Xbox Common Controller class (XUSB) on Windows implements the kernel-mode interface for the XINPUT DLL.
+description: The driver for XUSB on Windows implements the kernel-mode interface for the XINPUT DLL.
 ms.assetid: 8bf47b07-a1b6-7721-2136-3853e72c71ad
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DirectInput and XUSB Devices
 
-The driver for the Xbox Common Controller class (XUSB) on Windows implements the kernel-mode interface for the XINPUT DLL. To provide a good experience for legacy titles that use the [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) API with the common controller device, the driver also exports a Human Interface Device (HID) class interface, which is picked up by DirectInput. We chose the mapping of XUSB to HID based on typical behavior in a set of gaming applications for the original XINPUT version, and we updated the mapping for newer subtypes. This topic describes the mapping.
+The driver for XUSB on Windows implements the kernel-mode interface for the XINPUT DLL. To provide a good experience for legacy titles that use the [DirectInput](/previous-versions/windows/desktop/ee416842(v=vs.85)) API with the common controller device, the driver also exports a Human Interface Device (HID) class interface, which is picked up by DirectInput. We chose the mapping of XUSB to HID based on typical behavior in a set of gaming applications for the original XINPUT version, and we updated the mapping for newer subtypes. This topic describes the mapping.
 
 ## Human Interface Device (HID)
 
@@ -41,7 +41,7 @@ The XUSB driver implements both an XUSB class interface and a HID class interfac
 
 ## Gamepad
 
-This is the default mapping and is designed around the standard Xbox Common Controller gamepad, and is exposed as a *Gamepad* HID usage type.
+This is the default mapping and is designed around a standard gamepad, and is exposed as a *Gamepad* HID usage type.
 
 | Control                      | HID Usage Name | Usage Page | Usage ID   |
 |------------------------------|----------------|------------|------------|
@@ -85,7 +85,7 @@ These devices may or may not support additional controls, but these are not expo
 
 ## Wheel
 
-This mapping is designed around the Xbox Racing Wheel, and is exposed as a *Gamepad* HID usage type.
+This mapping is designed around a racing wheel, and is exposed as a *Gamepad* HID usage type.
 
 | Control                                                        | HID Usage Name | Usage Page | Usage ID |
 |----------------------------------------------------------------|----------------|------------|----------|
@@ -108,7 +108,7 @@ This mapping is designed around the Xbox Racing Wheel, and is exposed as a *Game
 
 ## Flight Stick
 
-This mapping is designed around the Xbox Flight Stick, and is exposed as a *Joystick* HID usage type.
+This mapping is designed around a flight stick, and is exposed as a *Joystick* HID usage type.
 
 | Control                     | Usage Name | Usage Page | Usage ID   |
 |-----------------------------|------------|------------|------------|

@@ -85,13 +85,6 @@ Exposes methods that notify the protocol provider about the status of session sh
 
 </dd> <dt>
 
-[**IWRdsRemoteFXGraphicsConnection**](/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsremotefxgraphicsconnection)
-</dt> <dd>
-
-Exposes methods relating to the manipulation and understanding of graphics on the client connection.
-
-</dd> <dt>
-
 [Deprecated Desktop Protocol Provider Interfaces](deprecated-desktop-protocol-provider-interfaces.md)
 </dt> <dd>
 

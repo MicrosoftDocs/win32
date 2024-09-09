@@ -4,7 +4,6 @@ description: This topic describes how to draw a basic shape.
 ms.assetid: 8a68fc3f-118c-447b-856c-05417ae4ef29
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # How to Draw and Fill a Basic Shape

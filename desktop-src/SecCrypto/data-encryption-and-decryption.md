@@ -4,7 +4,6 @@ description: Encryption is the process of translating plain text data (plaintext
 ms.assetid: 6a4b5c82-f74c-4cc8-b824-690f165453bd
 ms.topic: article
 ms.date: 01/25/2022
-ms.custom: seo-windows-dev
 ---
 
 # Data encryption and decryption

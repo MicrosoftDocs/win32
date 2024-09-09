@@ -40,10 +40,10 @@ The following table lists formats that are available for each factoid used in Un
 <td>NUMBER<br/></td>
 <td>All numbers, including ordinals such as 1st and 2nd, and math symbols. The DATE, TIME, TELEPHONE, and CURRENCY factoid formats are also included in this factoid.<br/></td>
 <td>123<br/> -123.456<br/> 123rd<br/> 25th<br/> 1st<br/> 22nd<br/> 15TH<br/> 90<br/> #12<br/> 25%<br/> '91<br/> 3/14/2001<br/> 3-14-2001<br/> 3/14<br/> 3/14/01<br/> 3-14-01<br/> 12-3-01<br/> 03/14/01<br/> 03-14-01<br/> 2001<br/> 2001-2002<br/> (1+3)/5<br/> 1+1=2<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Formats such as 300kb and 1Mb are not supported.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">

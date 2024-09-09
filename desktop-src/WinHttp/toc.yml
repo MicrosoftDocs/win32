@@ -44,6 +44,8 @@
         href: cookie-handling-in-winhttp.md
       - name: "Error Handling in WinHTTP"
         href: error-handling-in-winhttp.md
+      - name: "Concurrency in WinHTTP"
+        href: concurrency-in-winhttp.md
       - name: "WinHTTP AutoProxy Support"
         href: winhttp-autoproxy-support.md
         items: 
@@ -87,12 +89,14 @@
     - name: "Using WinHTTP Tools"
       href: using-winhttp-tools.md
       items: 
-      - name: "WinHttpCertCfg.exe, a Certificate Configuration Tool"
+      - name: "WinHttpCertCfg.exe, a certificate configuration tool"
         href: winhttpcertcfg-exe--a-certificate-configuration-tool.md
-      - name: "Netsh.exe and ProxyCfg.exe Proxy Configuration Tools"
+      - name: "Netsh.exe commands"
+        href: netsh-exe-commands.md
+      - name: "ProxyCfg.exe proxy configuration tool"
         href: proxycfg-exe--a-proxy-configuration-tool.md
-      - name: "WinHttpTraceCfg.exe, a Trace Configuration Tool"
-        href: winhttptracecfg-exe--a-trace-configuration-tool.md
+      - name: "Collect WinHTTP traces"
+        href: collect-traces.md
   - name: "WinHTTP Reference"
     href: winhttp-reference.md
     items: 
@@ -181,6 +185,8 @@
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpdetectautoproxyconfigurl
         - name: "WinHttpFreeProxyResult"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpfreeproxyresult
+        - name: "WinHttpFreeProxySettingsEx"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpfreeproxysettingsex
         - name: "WinHttpFreeQueryConnectionGroupResult"
           href: /windows/win32/api/Winhttp/nf-winhttp-winhttpfreequeryconnectiongroupresult
         - name: "WinHttpGetDefaultProxyConfiguration"
@@ -193,6 +199,10 @@
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetproxyforurlex
         - name: "WinHttpGetProxyResult"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetproxyresult
+        - name: "WinHttpGetProxySettingsEx"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetproxysettingsex
+        - name: "WinHttpGetProxySettingsResultEx"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetproxysettingsresultex
         - name: "WinHttpOpen"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpopen
         - name: "WinHttpOpenRequest"
@@ -215,6 +225,8 @@
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpreaddataex
         - name: "WinHttpReceiveResponse"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpreceiveresponse
+        - name: "WinHttpRegisterProxyChangeNotification"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpregisterproxychangenotification
         - name: "WinHttpResetAutoProxy"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpresetautoproxy
         - name: "WinHttpSendRequest"
@@ -233,6 +245,8 @@
           href: /windows/win32/api/winhttp/nf-winhttp-winhttptimefromsystemtime
         - name: "WinHttpTimeToSystemTime"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttptimetosystemtime
+        - name: "WinHttpUnregisterProxyChangeNotification"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpunregisterproxychangenotification
         - name: "WinHttpWriteData"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpwritedata
         - name: "WinHttpWebSocketClose"
@@ -247,9 +261,11 @@
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpwebsocketsend
         - name: "WinHttpWebSocketShutdown"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpwebsocketshutdown
-      - name: "WinHTTP Callbacks"
+      - name: "WinHTTP callbacks"
         href: winhttp-prototypes.md
         items: 
+        - name: "WINHTTP_PROXY_CHANGE_CALLBACK"
+          href: /windows/win32/api/winhttp/nc-winhttp-winhttp_proxy_change_callback
         - name: "WINHTTP_STATUS_CALLBACK"
           href: /windows/win32/api/winhttp/nc-winhttp-winhttp_status_callback
       - name: "WinHTTP structures"
@@ -282,13 +298,17 @@
         - name: "WINHTTP_HOST_CONNECTION_GROUP"
           href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_host_connection_group
         - name: "WINHTTP_MATCH_CONNECTION_GUID"
-          href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_match_connection_group
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_match_connection_guid
         - name: "WINHTTP_PROXY_INFO"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info
         - name: "WINHTTP_PROXY_RESULT"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_result
         - name: "WINHTTP_PROXY_RESULT_ENTRY"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_result_entry
+        - name: "WINHTTP_PROXY_SETTINGS_EX"
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_settings_ex
+        - name: "WINHTTP_PROXY_SETTINGS_PARAM"
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_settings_param
         - name: "WINHTTP_QUERY_CONNECTION_GROUP_RESULT"
           href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_query_connection_group_result
         - name: "WINHTTP_REQUEST_STATS"
@@ -301,19 +321,21 @@
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_web_socket_async_result
         - name: "WINHTTP_WEB_SOCKET_STATUS"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_web_socket_status
-      - name: "WinHTTP Enumerations"
+      - name: "WinHTTP enumerations"
         href: winhttp-enumerations.md
         items: 
-        - name: "WinHttpRequestAutoLogonPolicy"
-          href: winhttprequestautologonpolicy.md
-        - name: "WinHttpRequestOption"
-          href: winhttprequestoption.md
+        - name: "WINHTTP_PROXY_SETTINGS_TYPE"
+          href: /windows/win32/api/winhttp/ne-winhttp-winhttp_proxy_settings_type
         - name: "WINHTTP_WEB_SOCKET_BUFFER_TYPE"
           href: /windows/win32/api/winhttp/ne-winhttp-winhttp_web_socket_buffer_type
         - name: "WINHTTP_WEB_SOCKET_CLOSE_STATUS"
           href: /windows/win32/api/winhttp/ne-winhttp-winhttp_web_socket_close_status
         - name: "WINHTTP_WEB_SOCKET_OPERATION"
           href: /windows/win32/api/winhttp/ne-winhttp-winhttp_web_socket_operation
+        - name: "WinHttpRequestAutoLogonPolicy"
+          href: winhttprequestautologonpolicy.md
+        - name: "WinHttpRequestOption"
+          href: winhttprequestoption.md
       - name: "WinHTTP Constants"
         href: winhttp-constants.md
         items: 

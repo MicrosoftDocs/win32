@@ -182,7 +182,7 @@ This table specifies the non-system fonts that GDI+ supports.
 
 
 
-|                     | GDI | GDI+ on Windows 7 | GDI+ on Windows 8 | DirectWrite |
+| Format              | GDI | GDI+ on Windows 7 | GDI+ on Windows 8 | DirectWrite |
 |---------------------|-----|-------------------|-------------------|-------------|
 | .FON                | yes | no                | no                | no          |
 | .FNT                | yes | no                | no                | no          |

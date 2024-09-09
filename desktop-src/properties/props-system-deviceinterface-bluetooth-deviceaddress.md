@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.DeviceInterface.Bluetooth.DeviceAddress
 
-Bluetooth device address.
+Bluetooth device address that represents the serial number for a particular instance of the device.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507
 

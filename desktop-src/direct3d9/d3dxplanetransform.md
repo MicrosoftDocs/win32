@@ -4,19 +4,22 @@ ms.assetid: 3581b397-cbd8-4aed-80dd-1841f331a367
 title: D3DXPlaneTransform function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneTransform
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXPlaneTransform function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.
 
@@ -83,7 +86,7 @@ D3DXPLANE   plane(0,1,1,0);
 D3DXPlaneNormalize(&plane, &plane);
 
 D3DXMATRIX  matrix;
-D3DXMatrixScaling(&matrix, 1.0f,2.0f,3.0f); 
+D3DXMatrixScaling(&matrix, 1.0f,2.0f,3.0f);
 D3DXMatrixInverse(&matrix, NULL, &matrix);
 D3DXMatrixTranspose(&matrix, &matrix);
 D3DXPlaneTransform(&planeNew, &plane, &matrix);
@@ -134,7 +137,3 @@ The parameter pM contains the inverse transpose of the transformation matrix. Th
  
 
  
-
-
-
-

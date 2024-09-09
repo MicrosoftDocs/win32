@@ -18,7 +18,7 @@ ms.date: 07/29/2019
 # IDODownloadInternal interface
 
 > [!IMPORTANT]
-> The **IDODownloadInternal** interface is deprecated. Instead, use the [IDODownload](../do/nn-do-idodownload.md) interface.
+> The **IDODownloadInternal** interface is deprecated. Instead, use the [IDODownload](/windows/win32/api/deliveryoptimization/nn-deliveryoptimization-idodownload) interface.
 
 The **IDODownloadInternal** interface is used to get or set extended download properties.
 

@@ -4,19 +4,25 @@ ms.assetid: f30ba32c-d6b0-4e4e-b5cd-839ed7821855
 title: D3DXSHEvalDirection function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXSHEvalDirection
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXSHEvalDirection function (D3dx9math.h)
+
+> [!Note]
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated and is not supported for Windows Store apps.
+
+> [!Note]
+> Instead of using this function, we recommend that you use the [Spherical Harmonics Math](https://github.com/Microsoft/DirectXMath/tree/main/SHMath) library function **XMSHEvalDirection**.
 
 Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
 

@@ -12,7 +12,7 @@ Random-access read of an element from a typed unordered access view (UAV).
 
 
 
-| ld\_uav\_typed dst0\[.mask\], srcAddress\[.swizzle\], srcUAV\[.swizzle\] |
+| ld\_uav\_typed dest\[.mask\], srcAddress\[.swizzle\], srcUAV\[.swizzle\] |
 |--------------------------------------------------------------------------|
 
 
@@ -23,7 +23,7 @@ Random-access read of an element from a typed unordered access view (UAV).
 
 | Item                                                                                                           | Description                                                    |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| <span id="dst0"></span><span id="DST0"></span>*dst0*<br/>                                                | \[in\] The address of the results of the operation.<br/> |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                | \[in\] The address of the results of the operation.<br/> |
 | <span id="srcAddress"></span><span id="srcaddress"></span><span id="SRCADDRESS"></span>*srcAddress*<br/> | \[in\] Specifies the address to read from.<br/>          |
 | <span id="srcUAV"></span><span id="srcuav"></span><span id="SRCUAV"></span>*srcUAV*<br/>                 | \[in\] The source to read from. <br/>                    |
 
@@ -33,7 +33,7 @@ Random-access read of an element from a typed unordered access view (UAV).
 
 ## Remarks
 
-This instruction performs a 4-component element read from *srcUAV* at the unsigned integer address in *srcAddress*, converted to 32bit per component based on the format, then written to *dst0* in the shader.
+This instruction performs a 4-component element read from *srcUAV* at the unsigned integer address in *srcAddress*, converted to 32bit per component based on the format, then written to *dest* in the shader.
 
 *srcUAV* is a UAV (u\#) declared as typed. However, the type of the bound resource must be R32\_UINT/SINT/FLOAT.
 
@@ -41,7 +41,7 @@ The number of 32-bit unsigned integer components taken from the address are dete
 
 Out of bounds addressing is the same as the **ld** instruction.
 
-The behavior of this instruction is identical to the **ld** instruction if called as **ld dst0\[.mask\], srcAddress\[.swizzle\], srcUAV\[.swizzle\]**
+The behavior of this instruction is identical to the **ld** instruction if called as **ld dest\[.mask\], srcAddress\[.swizzle\], srcUAV\[.swizzle\]**
 
 It is invalid and undefined to use this instruction on a UAV that is not declared as typed. Doing this on a structured or typeless UAV is invalid.
 

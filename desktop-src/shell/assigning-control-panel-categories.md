@@ -23,7 +23,7 @@ To register a Control Panel item in one or more categories, add values as explai
 
 | Category ID | Category Name (Windows 7) | Category Name (Windows Vista) | Category Name (Windows XP) | 
 |-------------|---------------------------|-------------------------------|----------------------------|
-| 0 | "All Control Panel Items" | "Additional Options"<blockquote>[!Note]<br />Any Control Panel item that does not specify a category ID appears in this category.</blockquote><br /> | "Other Control Panel Options"<blockquote>[!Note]<br />Any Control Panel item that does not specify a category ID appears in this category.</blockquote><br /> | 
+| 0 | "All Control Panel Items" | "Additional Options" **Note:** Any Control Panel item that does not specify a category ID appears in this category.<br> | "Other Control Panel Options" **Note:** Any Control Panel item that does not specify a category ID appears in this category.<br> | 
 | 1 | "Appearance and Personalization" | "Appearance and Personalization" | "Appearance and Themes" | 
 | 2 | "Hardware and Sound" | "Hardware and Sound" | "Printers and Other Hardware" | 
 | 3 | "Network and Internet" | "Network and Internet" | "Network and Internet Connections" | 
@@ -32,9 +32,9 @@ To register a Control Panel item in one or more categories, add values as explai
 | 6 | "Clock, Language, and Region" | "Clock, Language, and Region" | "Date, Time, Language, and Regional Options" | 
 | 7 | "Ease of Access" | "Ease of Access" | "Accessibility Options" | 
 | 8 | "Programs" | "Programs" | "Add or Remove Programs" | 
-| 9 | "User Accounts"<blockquote>[!Note]<br />When not connected to a domain, this is called "User Accounts and Family Safety".</blockquote><br /> | "User Accounts"<blockquote>[!Note]<br />When not connected to a domain, this is called "User Accounts and Family Safety".</blockquote><br /> | "User Accounts" | 
-| 10 | No longer used. Items registered in this category appear in category 5 (System and Security). | "Security" | "Security Center"<blockquote>[!Note]<br />Available only in Windows XP Service Pack 2 (SP2) or later.</blockquote><br /> | 
-| 11 | No longer used. Items registered in this category appear in category 0 (All Control Panel Items). | "Mobile PC"<blockquote>[!Note]<br />This category is only visible on mobile PCs.</blockquote><br /> | Not used. | 
+| 9 | "User Accounts" **Note:** When not connected to a domain, this is called "User Accounts and Family Safety".<br> | "User Accounts" **Note:** When not connected to a domain, this is called "User Accounts and Family Safety".<br> | "User Accounts" | 
+| 10 | No longer used. Items registered in this category appear in category 5 (System and Security). | "Security" | "Security Center" **Note:** Available only in Windows XP Service Pack 2 (SP2) or later.<br> | 
+| 11 | No longer used. Items registered in this category appear in category 0 (All Control Panel Items). | "Mobile PC" **Note:** This category is only visible on mobile PCs.<br> | Not used. | 
 
 
 
@@ -79,7 +79,3 @@ The **Security Center** category, available only in Windows XP SP2, is also so
  
 
  
-
-
-
-

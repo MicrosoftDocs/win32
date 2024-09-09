@@ -3,16 +3,16 @@ description: A cipher suite is a set of cryptographic algorithms.
 ms.assetid: 513e5e73-12f8-4b64-86e4-179518c3582d
 title: Cipher Suites in TLS/SSL (Schannel SSP)
 ms.topic: article
-ms.date: 09/10/2021
+ms.date: 02/13/2024
 ---
 
 # Cipher Suites in TLS/SSL (Schannel SSP)
 
 A cipher suite is a set of cryptographic algorithms. The schannel SSP implementation of the TLS/SSL protocols use algorithms from a cipher suite to create keys and encrypt information. A cipher suite specifies one algorithm for each of the following tasks:
 
--   Key exchange
--   Bulk encryption
--   Message authentication
+- Key exchange
+- Bulk encryption
+- Message authentication
 
 [*Key exchange algorithms*](/windows/desktop/SecGloss/k-gly) protect information required to create shared keys. These algorithms are asymmetric ([*public key algorithms*](/windows/desktop/SecGloss/p-gly)) and perform well for relatively small amounts of data.
 
@@ -28,11 +28,19 @@ In earlier versions of Windows, TLS cipher suites and elliptical curves were con
 
 Different Windows versions support different TLS cipher suites and priority order. See the corresponding Windows version for the default order in which they are chosen by the Microsoft Schannel Provider.
 
+**Windows 11, version 22H2:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 11 v22H2](tls-cipher-suites-in-windows-11-v22H2.md)
+
+**Windows 11:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 11](tls-cipher-suites-in-windows-11.md)
+
 **Windows Server 2022:** For information about supported cipher suites, see [TLS Cipher Suites in Windows Server 2022](tls-cipher-suites-in-windows-server-2022.md)
+
+**Windows 10, version 22H2:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v22H2](tls-cipher-suites-in-windows-10-v22H2.md)
+
+**Windows 10, versions 20H2, 21H1, and 21H2:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v20H2, v21H1, and v21H2](tls-cipher-suites-in-windows-10-v20H2.md)
 
 **Windows 10, version 1903:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v1903](tls-cipher-suites-in-windows-10-v1903.md)
 
-**Windows 10, version 1809:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v1809](tls-cipher-suites-in-windows-10-v1809.md)
+**Windows Server 2019 and Windows 10, version 1809:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v1809](tls-cipher-suites-in-windows-10-v1809.md)
 
 **Windows 10, version 1803:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v1803](tls-cipher-suites-in-windows-10-v1803.md)
 
@@ -54,14 +62,5 @@ Different Windows versions support different TLS cipher suites and priority orde
 
 **Windows Server 2008 and Windows Vista:** For information about supported cipher suites, see [TLS Cipher Suites in Windows Vista](schannel-cipher-suites-in-windows-vista.md)
 
-**Windows Server 2003 and Windows XP:** For information about supported cipher suites, see the following topics.
-
-| Topic | Description |
-| ----- | ----- |
-| [TLS Cipher Suites](/windows/win32/secauthn/cipher-suites-in-schannel) | Information about the cipher suites available with the TLS protocol in Windows Server 2003 and Windows XP. |
-| [Secure Sockets Layer Protocol](secure-sockets-layer-protocol.md) | General information about SSL 2.0 and 3.0, including the available cipher suites in Windows Server 2003 and Windows XP. |
-
-
-> [!Note]  
+> [!NOTE]
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.
-

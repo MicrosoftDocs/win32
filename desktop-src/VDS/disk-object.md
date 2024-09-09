@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Disk Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A disk object models a host-based, physical disk. The software provider that is running on the local host can access a LUN as a disk when the LUN object is unmasked to the local host. For more information about LUN masking, see the [LUN Object](lun-object.md).
 

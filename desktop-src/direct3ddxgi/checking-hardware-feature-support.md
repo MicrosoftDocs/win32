@@ -105,10 +105,10 @@ For D3D11, use [**ID3D11Device::CheckFormatSupport**](/windows/desktop/api/d3d11
 </tr>
 <tr class="even">
 <td>Mipmap Auto-Generation</td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 D3D12 no longer has a dedicated mipmap generation functionality. Applications must implement it on their own using shaders.
-</blockquote>
+
 <br/></td>
 <td>D3D11_FORMAT_SUPPORT_MIP_AUTOGEN (<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
@@ -189,10 +189,10 @@ D3D12 no longer has a dedicated mipmap generation functionality. Applications mu
 </tr>
 <tr class="even">
 <td>CPU Lockable</td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 Only a single format precludes cpu access (420_OPAQUE).
-</blockquote>
+
 <br/></td>
 <td>D3D11_FORMAT_SUPPORT_CPU_LOCKABLE (<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support"><strong>D3D11_FORMAT_SUPPORT</strong></a>)</td>
 </tr>
@@ -248,20 +248,20 @@ Only a single format precludes cpu access (420_OPAQUE).
 </tr>
 <tr class="odd">
 <td>Shared Resource</td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 Textures of all formats may be shared committed resources or be placed in shared heaps.
-</blockquote>
+
 <br/></td>
 <td>D3D11_FORMAT_SUPPORT2_SHAREABLE (<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="even">
 <td>BackBuffer Castable Even Fully Typed</td>
 <td>D3D12_FORMAT_SUPPORT1_BACK_BUFFER_CAST (<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support1"><strong>D3D12_FORMAT_SUPPORT1</strong></a>)</td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 No API available.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">

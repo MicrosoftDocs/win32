@@ -123,12 +123,12 @@ The OpenType and TrueType font formats have long supported the ability for multi
 
 ### Windows font service integration
 
-Starting in Windows 10, fonts that are included with Windows are available in an online service and are accessible via DirectWrite on any Windows 10 device. This applies to all Windows 10 editions, including Windows 10 Mobile, Xbox and HoloLens as well as the desktop client. This allows applications to display content using any Windows font even if the font is not currently installed on the device.
+Starting in Windows 10, fonts that are included with Windows are available in an online service and are accessible via DirectWrite on any Windows 10 device. This applies to all Windows 10 editions. This allows applications to display content using any Windows font even if the font is not currently installed on the device.
 
 Support for the DirectWrite font-service mechanisms has been implemented in the XAML framework, which means that any applications that use XAML require no code changes in order to take advantage of the font service. The [Downloadable fonts (XAML) code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCloudFontIntegration) demonstrates this. Applications that call DirectWrite APIs directly will need to use new APIs to make use of the font-service mechanisms. For more information, see the following topics:
 
 -   [**IDWriteFactory3::GetSystemFontCollection**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-getsystemfontcollection) method
--   [**IDWriteTextLayout3**](idwritetextlayout3.md) interface
+-   [**IDWriteTextLayout3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextlayout3) interface
 -   [**IDWriteFontDownloadQueue**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue) interface
 -   [**IDWriteFontDownloadListener**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener) interface
 
@@ -151,12 +151,12 @@ For more information, see the following topics:
 
 DirectWrite’s text format and text layout interfaces support new line-spacing modes. In earlier versions, DirectWrite’s text layout implementation allowed for line spacing in which the height of each line was set automatically based on the tallest item within a line (the “default” mode), or line spacing with all lines set to a uniform height determined by the application (the “uniform” mode). In Windows 10, an additional “proportional” line-spacing mode is supported that gives applications more options for line-spacing behavior. For more information, see the following topics:
 
--   [**IDWriteTextLayout3**](idwritetextlayout3.md) interface
--   [**IDWriteTextLayout3::SetLineSpacing**](idwritetextlayout3-setlinespacing.md) method
+-   [**IDWriteTextLayout3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextlayout3) interface
+-   [**IDWriteTextLayout3::SetLineSpacing**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextlayout3-setlinespacing) method
 -   [**DWRITE\_LINE\_SPACING**](/windows/win32/api/Dwrite_3/ns-dwrite_3-dwrite_line_spacing) structure
 -   [**DWRITE\_LINE\_SPACING\_METHOD**](/windows/win32/api/dwrite/ne-dwrite-dwrite_line_spacing_method) enumeration
 -   [**DWRITE\_FONT\_LINE\_GAP\_USAGE**](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_line_gap_usage) enumeration
--   [**IDWriteTextLayout3::GetLineMetrics**](idwritetextlayout3-getlinemetrics.md) method
+-   [**IDWriteTextLayout3::GetLineMetrics**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextlayout3-getlinemetrics) method
 -   [**DWRITE\_LINE\_METRICS1**](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_line_metrics1) structure
 
 The [Line spacing (DirectWrite) code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteLineSpacingModes) illustrates use of several of the new APIs, and also provides a visualization of all of the different line-spacing modes that makes it much easier to understand the various line-spacing options that are available.

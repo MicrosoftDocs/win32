@@ -1,24 +1,25 @@
 ---
-title: Traversing the Thread List
-description: The following example function lists running threads for a specified process.
+title: Traversing the thread list
+description: This code example lists the running threads for a specified process.
 ms.assetid: 67194627-8239-46d2-93e7-eb8e5f6c56e6
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 12/19/2023
 ---
 
-# Traversing the Thread List
+# Traversing the thread list
 
-The following example function lists running threads for a specified process. First, the `ListProcessThreads` function takes a snapshot of the currently executing threads in the system using [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot), and then it walks through the list recorded in the snapshot using the [**Thread32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32first) and [**Thread32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32next) functions. The parameter for `ListProcessThreads` is the process identifier of the process whose threads are to be listed.
+This code example lists the running threads for a specified process. First, the **ListProcessThreads** function takes a snapshot of the currently executing threads in the system. To do that, it uses the [**CreateToolhelp32Snapshot**](/windows/desktop/api/TlHelp32/nf-tlhelp32-createtoolhelp32snapshot) function, and then it walks through the list recorded in the snapshot using the [**Thread32First**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32first) and [**Thread32Next**](/windows/desktop/api/TlHelp32/nf-tlhelp32-thread32next) functions. The parameter for **ListProcessThreads** is the process identifier of the process whose threads are to be listed.
 
+To follow along with the code example, use Visual Studio to create a new project from the C++ **Console App** project template, and add the code below to it.
 
-```C++
+```cpp
 #include <windows.h>
 #include <tlhelp32.h>
 #include <tchar.h>
 
 //  Forward declarations:
 BOOL ListProcessThreads( DWORD dwOwnerPID );
-void printError( TCHAR* msg );
+void printError( TCHAR const* msg );
 
 int main( void )
 {
@@ -68,7 +69,7 @@ BOOL ListProcessThreads( DWORD dwOwnerPID )
   return( TRUE );
 }
 
-void printError( TCHAR* msg )
+void printError( TCHAR const* msg )
 {
   DWORD eNum;
   TCHAR sysMsg[256];
@@ -92,19 +93,6 @@ void printError( TCHAR* msg )
 }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Thread Walking](thread-walking.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Thread-walking](thread-walking.md)

@@ -42,8 +42,8 @@ The following tables describe the resource-definition statements.
 | **PLUGPLAY**                                  | Obsolete.                                                                                                                                                                       |
 | [**RCDATA**](rcdata-resource.md)             | Defines data resources. Data resources let you include binary data in the executable file.                                                                                      |
 | [**STRINGTABLE**](stringtable-resource.md)   | Defines string resources. String resources are Unicode or ASCII strings that can be loaded from the executable file.                                                            |
-| **TEXTINCLUDE**                               | A special resource that is interpreted by Visual C++. For more information, see [TN035](/cpp/mfc/tn035-using-multiple-resource-files-and-header-files-with-visual-cpp?view=vs-2019).                                        |
-| **TYPELIB**                                   | A special resource that is used with the [/TLBID](/cpp/build/reference/tlbid-specify-resource-id-for-typelib?view=vs-2019) and [/TLBOUT](/cpp/build/reference/tlbout-name-dot-tlb-file?view=vs-2019) linker options. |
+| **TEXTINCLUDE**                               | A special resource that is interpreted by Visual C++. For more information, see [TN035](/cpp/mfc/tn035-using-multiple-resource-files-and-header-files-with-visual-cpp).                                        |
+| **TYPELIB**                                   | A special resource that is used with the [/TLBID](/cpp/build/reference/tlbid-specify-resource-id-for-typelib) and [/TLBOUT](/cpp/build/reference/tlbout-name-dot-tlb-file) linker options. |
 | [**User-Defined**](user-defined-resource.md) | Defines a resource that contains application-specific data.                                                                                                                     |
 | [**VERSIONINFO**](versioninfo-resource.md)   | Defines a version-information resource. Contains information such as the version number, intended operating system, and so on.                                                  |
 | **VXD**                                       | Obsolete.                                                                                                                                                                       |
@@ -52,7 +52,7 @@ The following tables describe the resource-definition statements.
 
  
 
-For more information about predefined MFC resources, see [TN023](/cpp/mfc/tn023-standard-mfc-resources?view=vs-2019) and [TN024](/cpp/mfc/tn024-mfc-defined-messages-and-resources?view=vs-2019).
+For more information about predefined MFC resources, see [TN023](/cpp/mfc/tn023-standard-mfc-resources) and [TN024](/cpp/mfc/tn024-mfc-defined-messages-and-resources).
 
 ## Controls
 

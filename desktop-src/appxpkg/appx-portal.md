@@ -16,7 +16,7 @@ Typically, developers create and sign app packages using Visual Studio. For more
 
 The Microsoft Store makes it easy to build, submit, and sell your apps to customers around the world. For more info, see [App submissions](/windows/uwp/publish/app-submissions).
 
-Windows PowerShell cmdlets enable you to install and manage line-of-business Windows apps without using the Store. For more info, see [Appx Module Cmdlets](/powershell/module/appx/index?view=win10-ps).
+Windows PowerShell cmdlets enable you to install and manage line-of-business Windows apps without using the Store. For more info, see [Appx Module Cmdlets](/powershell/module/appx/index).
 
 Using the packaging, deployment, and query APIs, you can programmatically perform these tasks:
 
@@ -37,6 +37,7 @@ Using the packaging, deployment, and query APIs, you can programmatically perfor
 | [How to troubleshoot app package signature errors](how-to-troubleshoot-app-package-signature-errors.md) | An app deployment failure can be caused by a failure to validate the digital signature of the app package. Learn how to recognize these failures, and what to do about them.          |
 | [How to programmatically sign an app package (C++)](how-to-programmatically-sign-a-package.md)          | Learn how to sign an app package by using the [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) function.                                                                                   |
 | [How to develop an OEM app that uses a custom file](how-to-develop-oem-app-with-custom-file.md)         | Learn how to develop an app that uses a custom file to pass info from the OEM to the app.                                                                                             |
+| [How to use the Appx module in a netfx host other than powershell.exe](how-to-use-appx-module-without-powershell.md)         | Learn how to use the Appx module in a netfx host other than powershell.exe.                                                                                             |
 | [Extract app package contents (C++)](how-to-extract-content-from-a-package.md)                          | Learn how to extract files from an app package using the packaging API.                                                                                                               |
 | [Query app package manifest info (C++)](how-to-query-package-identity-information.md)                   | Learn how to get info from an app package manifest using the packaging API                                                                                                            |
 | [Troubleshooting](troubleshooting.md)                                                                   | Provides info to help you troubleshoot problems you experience when packaging, deploying, or querying an app package.                                                                 |

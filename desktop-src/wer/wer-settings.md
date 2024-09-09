@@ -355,7 +355,13 @@ The name of the value is used to fetch the pwszOutOfProcessCallbackDll value.
 
 WER's Live Kernel Reports settings, which are described next, are both located under the following registry subkey:
 
+For Windows 10 1703, Windows Server 2019, and later:
+
 -   **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Control**\\**CrashControl**
+
+For Windows 10 builds 1607 and older, Windows 8.1, Windows Server 2016, and Windows Server 2012 R2:
+
+-   **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**\\**Windows**\\**Windows Error Reporting**
 
 ## FullLiveKernelReports subkey
 
@@ -375,7 +381,7 @@ The threshold (in hours) of how often any single component can create a full liv
 
 **REG\_DWORD**
 
-The maximum number of full live dumps that may be on disk at any given time. The default is 1. Setting this value to zero (0) will disable the live dump feature.
+The maximum number of full live dumps that may be on disk at any given time. The default is 1. On Windows 10 1803, Windows Server 2019, and later, setting this value to zero (0) will disable the live dump feature.
 
 </dd> <dt>
 

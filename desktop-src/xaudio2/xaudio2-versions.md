@@ -28,7 +28,7 @@ XAudio2 version 2.8 ships today as a system component in Windows 8, XAUDIO2\_8.D
 
 XAudio2 2.8 has been updated with the following changes:
 
--   This version supports Windows Store app development; the XAudio2 API can be used in C++/DirectX Windows Store apps.
+-   This version supports UWP app development; the XAudio2 API can be used in C++/DirectX UWP apps.
 -   [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) is a flat Win32 API call and no longer creates an XAudio2 CLSID. Support for instantiating XAudio2 by CoCreateInstance has been removed.
 -   The Initialize function is now implicitly called by the creation process and has been removed from the [**IXAudio2**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2) interface.
 -   Device enumeration functionality has been removed from XAudio2; the GetDeviceDetails and GetDeviceCount functions have been removed from the [**IXAudio2**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2) interface. Apps that want to render to other audio devices on the system must pass a device identifier string to [**CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice) instead of a device index. The default audio render device can still be created without enumeration.
@@ -43,7 +43,7 @@ All previous versions of XAudio2 for use in apps have been provided as redistrib
 
 The legacy DirectX SDK is no longer available on Microsoft Downloads due to the retirement of all SHA-1 signed content. June 2010 was the end-of-life release.
 
-Previous versions of XAudio2 cannot be used to build Windows Store apps for Windows 8.
+Previous versions of XAudio2 can't be used to build Windows Runtime (WinRT) apps for Windows 8.
 
 ## Related topics
 
@@ -57,6 +57,3 @@ Previous versions of XAudio2 cannot be used to build Windows Store apps for Wind
 
 [Developer guide for redistributable version of XAudio 2.9](xaudio2-redistributable.md)
 </dt> </dl>
- 
-
- 

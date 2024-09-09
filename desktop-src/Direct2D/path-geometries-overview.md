@@ -4,7 +4,6 @@ description: Describes how to use path geometries to define complex shapes.
 ms.assetid: 38a290be-b915-4317-b9b1-0e49e40dc8ec
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # Path Geometries Overview
@@ -24,7 +23,7 @@ This topic describes how to use Direct2D path geometries to create complex drawi
 
 ## Prerequisites
 
-This overview assumes that you are familiar with creating basic Direct2D applications, as described in [Creating a Simple Direct2D Application](direct2d-quickstart.md). It also assumes that you are familiar with the basic features of Direct2D geometries, as described in the [Geometries Overview](direct2d-geometries-overview.md).
+This overview assumes that you are familiar with creating basic Direct2D applications, as described in [Create a simple Direct2D application](direct2d-quickstart.md). It also assumes that you are familiar with the basic features of Direct2D geometries, as described in the [Geometries Overview](direct2d-geometries-overview.md).
 
 ## Path Geometries in Direct2D
 
@@ -34,7 +33,7 @@ Path geometries are represented by the [**ID2D1PathGeometry**](/windows/win32/ap
 
 [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink) describes a geometric path that can contain lines, arcs, cubic Bezier curves, and quadratic Bezier curves.
 
-A geometry sink consists of one or more figures. Each figure is made up of one or more line, curve, or arc segments. To create a figure, call the [**BeginFigure**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure) method, passing in the figure's starting point, and then use its Add methods (such as [**AddLine**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometrysink-addline) and [**AddBezier**](/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) to add segments. When you are finished adding segments, call the [**EndFigure**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure) method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the [**Close**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close) method.
+A geometry sink consists of one or more figures. Each figure is made up of one or more line, curve, or arc segments. To create a figure, call the [**BeginFigure**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure) method, passing in the figure's starting point, and then use its Add methods (such as [**AddLine**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometrysink-addline) and [**AddBezier**](/windows/win32/api/d2d1/nf-d2d1-id2d1geometrysink-addbezier(constd2d1_bezier_segment_))) to add segments. When you are finished adding segments, call the [**EndFigure**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure) method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the [**Close**](/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close) method.
 
 ## Example: Create a Complex Drawing
 
@@ -379,7 +378,7 @@ The complete example outputs the following illustration.
 
 <dl> <dt>
 
-[Creating a Simple Direct2D Application](direct2d-quickstart.md)
+[Create a simple Direct2D application](direct2d-quickstart.md)
 </dt> <dt>
 
 [Geometries Overview](direct2d-geometries-overview.md)

@@ -4,19 +4,22 @@ ms.assetid: 3694769f-56e7-4983-924e-021c129462a2
 title: D3DXMatrixDecompose function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixDecompose
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXMatrixDecompose function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Breaks down a general 3D transformation matrix into its scalar, rotational, and translational components.
 

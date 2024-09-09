@@ -12,7 +12,7 @@ This application demonstrates ink collection and rendering when using the [**Rea
 
 ## The InkCollection Project
 
-This sample consists of a single solution that contains one project, InkCollection. The application defines the `InkCollection` namespace that contains a single class, also called `InkCollection`. The class inherits from the [Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) class and implements the [**IStylusAsyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylusasyncplugin) interface.
+This sample consists of a single solution that contains one project, InkCollection. The application defines the `InkCollection` namespace that contains a single class, also called `InkCollection`. The class inherits from the [Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1&preserve-view=true) class and implements the [**IStylusAsyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylusasyncplugin) interface.
 
 
 ```C++
@@ -57,7 +57,7 @@ private Ink myInk;
 
 ## The Form Load Event
 
-In the [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1) event handler for the form, `myDynamicRenderer` is instantiated by using the [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)) that takes a control as an argument, and `myRenderer` is constructed with a no-argument constructor.
+In the [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1&preserve-view=true) event handler for the form, `myDynamicRenderer` is instantiated by using the [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)) that takes a control as an argument, and `myRenderer` is constructed with a no-argument constructor.
 
 
 ```C++
@@ -108,7 +108,7 @@ The form is then added to the asynchronous plug-in notification queue. Specifica
 
 
 
-Aside from hooking up the menu handlers for changing ink color and size, one more brief block of code is required before implementing the interface. The sample must handle the form's [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) event. In the event handler, the application must refresh `myDynamicRenderer` because it is possible that a [Stroke](/previous-versions/ms552692(v=vs.100)) object is being collected at the time the Paint event occurs. In that case, the portion of the Stroke object that has already been collected needs to be redrawn. The static [Renderer](/previous-versions/ms828481(v=msdn.10)) is used to re-draw Stroke objects that have already been collected. These strokes are in the [Ink](/previous-versions/aa515768(v=msdn.10)) object because they are placed there when drawn, as shown in the next section.
+Aside from hooking up the menu handlers for changing ink color and size, one more brief block of code is required before implementing the interface. The sample must handle the form's [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1&preserve-view=true) event. In the event handler, the application must refresh `myDynamicRenderer` because it is possible that a [Stroke](/previous-versions/ms552692(v=vs.100)) object is being collected at the time the Paint event occurs. In that case, the portion of the Stroke object that has already been collected needs to be redrawn. The static [Renderer](/previous-versions/ms828481(v=msdn.10)) is used to re-draw Stroke objects that have already been collected. These strokes are in the [Ink](/previous-versions/aa515768(v=msdn.10)) object because they are placed there when drawn, as shown in the next section.
 
 
 ```C++

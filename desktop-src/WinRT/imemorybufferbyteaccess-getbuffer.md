@@ -16,7 +16,7 @@ api_location:
 
 # IMemoryBufferByteAccess::GetBuffer method
 
-Gets an [**IMemoryBuffer**](/uwp/api/Windows.Foundation.IMemoryBuffer?view=winrt-19041) as an array of bytes.
+Gets an [**IMemoryBuffer**](/uwp/api/Windows.Foundation.IMemoryBuffer) as an array of bytes.
 
 ## Syntax
 
@@ -54,7 +54,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Remarks
 
-When [**MemoryBuffer::Close**](/uwp/api/Windows.Foundation.MemoryBuffer?view=winrt-19041) is called, the code using this buffer should set the *value* pointer to null.
+When [**MemoryBuffer::Close**](/uwp/api/Windows.Foundation.MemoryBuffer) is called, the code using this buffer should set the *value* pointer to null.
 
 ## See also
 

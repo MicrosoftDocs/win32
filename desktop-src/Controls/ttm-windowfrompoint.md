@@ -30,7 +30,7 @@ Allows a subclass procedure to cause a tooltip to display text for a window othe
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure that defines the point to be checked.
+Pointer to a [**POINT**](/windows/win32/api/windef/ns-windef-point) structure that defines the point to be checked.
 
 </dd> </dl>
 

@@ -220,8 +220,6 @@ The **Win32\_BootConfiguration** class is derived from [**CIM\_Setting**](cim-se
 
 ## Examples
 
-The [List the Boot Configuration Properties of a Computer](https://Gallery.TechNet.Microsoft.Com/55c35de3-bb6a-47f0-89f9-d2c49ab4cf19) Perl sample returns boot configuration information for a computer.
-
 The following VBScript sample returns boot configuration information for a computer.
 
 

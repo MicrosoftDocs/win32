@@ -32,7 +32,7 @@ When you are using a waitable timer with an APC, the thread that sets the timer 
 #define _SECOND 10000000
 
 typedef struct _MYDATA {
-   TCHAR *szText;
+   LPCTSTR szText;
    DWORD dwValue;
 } MYDATA;
 

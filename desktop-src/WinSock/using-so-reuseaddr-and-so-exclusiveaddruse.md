@@ -16,18 +16,18 @@ Client applications are less likely to be the targets of such attacks — not be
 
 This section describes the default level of security on various Microsoft Windows platforms and how the specific socket options **SO\_REUSEADDR** and [SO\_EXCLUSIVEADDRUSE](so-exclusiveaddruse.md) impact and affect network application security. An additional feature called enhanced socket security is available on Windows Server 2003 and later. The availability of these socket options and enhanced socket security varies across versions of Microsoft operating systems, as shown in the table below.
 
-| Platform            | SO\_REUSEADDR | SO\_EXCLUSIVEADDRUSE                  | Enhanced socket security |
-|---------------------|---------------|---------------------------------------|--------------------------|
-| Windows 95          | Available     | Not Available                         | Not Available            |
-| Windows 98          | Available     | Not Available                         | Not Available            |
-| Windows Me          | Available     | Not Available                         | Not Available            |
-| Windows NT 4.0      | Available     | Available in Service Pack 4 and later | Not Available            |
-| Windows 2000        | Available     | Available                             | Not Available            |
-| Windows XP          | Available     | Available                             | Not Available            |
-| Windows Server 2003 | Available     | Available                             | Available                |
-| Windows Vista       | Available     | Available                             | Available                |
-| Windows Server 2008 | Available     | Available                             | Available                |
-| Windows 7and newer  | Available     | Available                             | Available                |
+| Platform             | SO\_REUSEADDR | SO\_EXCLUSIVEADDRUSE                  | Enhanced socket security |
+|----------------------|---------------|---------------------------------------|--------------------------|
+| Windows 95           | Available     | Not Available                         | Not Available            |
+| Windows 98           | Available     | Not Available                         | Not Available            |
+| Windows Me           | Available     | Not Available                         | Not Available            |
+| Windows NT 4.0       | Available     | Available in Service Pack 4 and later | Not Available            |
+| Windows 2000         | Available     | Available                             | Not Available            |
+| Windows XP           | Available     | Available                             | Not Available            |
+| Windows Server 2003  | Available     | Available                             | Available                |
+| Windows Vista        | Available     | Available                             | Available                |
+| Windows Server 2008  | Available     | Available                             | Available                |
+| Windows 7 and newer  | Available     | Available                             | Available                |
 
 ## Using SO\_REUSEADDR
 
@@ -139,7 +139,7 @@ This issue can become complicated because the underlying transport protocol may 
 
 To avoid this situation, network applications should ensure a graceful shutdown by calling [**shutdown**](/windows/win32/api/winsock/nf-winsock-shutdown) with the SD\_SEND flag set, and then wait in a [**recv**](/windows/win32/api/winsock/nf-winsock-recv) loop until zero bytes are returned over the connection. This guarantees that all data is received by the peer and likewise confirms with the peer that it has received all of the transmitted data, as well as avoiding the aforementioned port reuse issue.
 
-The SO\_LINGER socket option may be set on a socket to prevent the port from transitioning to an "active" wait state; however, this is discouraged as it can lead to desired effects, such as reset connections. For example, if data is received by the peer but remains unacknowledged by it, and the local computer closes the socket with SO\_LINGER set on it, the connection between the two computers is reset and the unacknowledged data discarded by the peer. Picking a suitable time to linger is difficult as a smaller timeout value often results in suddenly aborted connections, whereas larger timeout values leave the system vulnerable to denial-of-service attacks (by establishing many connections and potentially stalling/blocking application threads). Closing a socket that has a nonzero linger timeout value may also cause the [**closesocket**](/windows/win32/api/winsock/nf-winsock-closesocket) call to block.
+The SO\_LINGER socket option may be set on a socket to prevent the port from transitioning to an "active" wait state; however, this is discouraged as it can lead to undesired effects, such as reset connections. For example, if data is received by the peer but remains unacknowledged by it, and the local computer closes the socket with SO\_LINGER set on it, the connection between the two computers is reset and the unacknowledged data discarded by the peer. Picking a suitable time to linger is difficult as a smaller timeout value often results in suddenly aborted connections, whereas larger timeout values leave the system vulnerable to denial-of-service attacks (by establishing many connections and potentially stalling/blocking application threads). Closing a socket that has a nonzero linger timeout value may also cause the [**closesocket**](/windows/win32/api/winsock/nf-winsock-closesocket) call to block.
 
 ## Enhanced Socket Security
 

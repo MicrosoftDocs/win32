@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Windows Extensions to OpenGL
 
-The following sections describe extentions to OpenGL:
+The following sections describe extensions to OpenGL:
 
 -   [OpenGL on Windows](opengl-on-windows-nt--windows-2000--and-windows-95-98.md)
 -   [WGL and Windows Reference](wgl-and-windows-reference.md)

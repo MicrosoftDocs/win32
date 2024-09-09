@@ -16,6 +16,9 @@ Use [**FindCloseChangeNotification**](/windows/desktop/api/FileAPI/nf-fileapi-fi
 
 To retrieve information about the specific change as part of the notification, use the [**ReadDirectoryChangesW**](/windows/desktop/api/WinBase/nf-winbase-readdirectorychangesw) function. This function also enables you to provide a completion routine.
 
+> [!NOTE]
+> The **FindFirstChangeNotification** and **ReadDirectoryChangesW** functions are mutually exclusive. You should use one or the other, but not both.
+
 To track changes on a volume, see [change journals](change-journals.md).
 
 The following example monitors the directory tree for directory name changes. It also monitors a directory for file name changes. The example uses the [**FindFirstChangeNotification**](/windows/desktop/api/FileAPI/nf-fileapi-findfirstchangenotificationa) function to create two notification handles and the [**WaitForMultipleObjects**](/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects) function to wait on the handles. Whenever a directory is created or deleted in the tree, the example should update the entire directory tree. Whenever a file is created or deleted in the directory, the example should refresh the directory.

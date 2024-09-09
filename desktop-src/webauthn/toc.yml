@@ -1,0 +1,87 @@
+- name: "WebAuthN API"
+  href: -webauthn-portal.md
+  items: 
+  - name: "WebAuthN constants"
+    href: webauthn-constants.md
+  - name: "WebAuthN functions"
+    href: webauthn-functions.md
+    items: 
+    - name: "WebAuthNAuthenticatorGetAssertion"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthnauthenticatorgetassertion
+    - name: "WebAuthNAuthenticatorMakeCredential"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthnauthenticatormakecredential
+    - name: "WebAuthNCancelCurrentOperation"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthncancelcurrentoperation
+    - name: "WebAuthNDeletePlatformCredential"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthndeleteplatformcredential
+    - name: "WebAuthNFreeAssertion"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthnfreeassertion
+    - name: "WebAuthNFreeCredentialAttestation"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthnfreecredentialattestation
+    - name: "WebAuthNFreePlatformCredentialList"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthnfreeplatformcredentiallist
+    - name: "WebAuthNGetApiVersionNumber"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthngetapiversionnumber
+    - name: "WebAuthNGetCancellationId"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthngetcancellationid
+    - name: "WebAuthNGetErrorName"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthngeterrorname
+    - name: "WebAuthNGetPlatformCredentialList"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthngetplatformcredentiallist
+    - name: "WebAuthNGetW3CExceptionDomError"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthngetw3cexceptiondomerror
+    - name: "WebAuthNIsUserVerifyingPlatformAuthenticatorAvailable"
+      href: /windows/win32/api/webauthn/nf-webauthn-webauthnisuserverifyingplatformauthenticatoravailable
+  - name: "WebAuthN structures"
+    href: webauthn-structures.md
+    items: 
+    - name: "WEBAUTHN_ASSERTION"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_assertion
+    - name: "WEBAUTHN_AUTHENTICATOR_GET_ASSERTION_OPTIONS"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_authenticator_get_assertion_options
+    - name: "WEBAUTHN_AUTHENTICATOR_MAKE_CREDENTIAL_OPTIONS"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_authenticator_make_credential_options
+    - name: "WEBAUTHN_CLIENT_DATA"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_client_data
+    - name: "WEBAUTHN_COMMON_ATTESTATION"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_common_attestation
+    - name: "WEBAUTHN_COSE_CREDENTIAL_PARAMETER"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_cose_credential_parameter
+    - name: "WEBAUTHN_COSE_CREDENTIAL_PARAMETERS"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_cose_credential_parameters
+    - name: "WEBAUTHN_CRED_BLOB_EXTENSION"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_cred_blob_extension
+    - name: "WEBAUTHN_CRED_PROTECT_EXTENSION_IN"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_cred_protect_extension_in
+    - name: "WEBAUTHN_CRED_WITH_HMAC_SECRET_SALT"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_cred_with_hmac_secret_salt
+    - name: "WEBAUTHN_CREDENTIAL"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_credential
+    - name: "WEBAUTHN_CREDENTIAL_ATTESTATION"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_credential_attestation
+    - name: "WEBAUTHN_CREDENTIAL_DETAILS"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_credential_details
+    - name: "WEBAUTHN_CREDENTIAL_DETAILS_LIST"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_credential_details_list
+    - name: "WEBAUTHN_CREDENTIAL_EX"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_credential_ex
+    - name: "WEBAUTHN_CREDENTIAL_LIST"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_credential_list
+    - name: "WEBAUTHN_CREDENTIALS"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_credentials
+    - name: "WEBAUTHN_EXTENSION"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_extension
+    - name: "WEBAUTHN_EXTENSIONS"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_extensions
+    - name: "WEBAUTHN_GET_CREDENTIALS_OPTIONS"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_get_credentials_options
+    - name: "WEBAUTHN_HMAC_SECRET_SALT"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_hmac_secret_salt
+    - name: "WEBAUTHN_HMAC_SECRET_SALT_VALUES"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_hmac_secret_salt_values
+    - name: "WEBAUTHN_RP_ENTITY_INFORMATION"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_rp_entity_information
+    - name: "WEBAUTHN_USER_ENTITY_INFORMATION"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_user_entity_information
+    - name: "WEBAUTHN_X5C"
+      href: /windows/win32/api/webauthn/ns-webauthn-webauthn_x5c

@@ -12,7 +12,7 @@ Gathers the four texels that would be used in a bi-linear filtering operation an
 
 
 
-| gather4\[\_aoffimmi(u,v)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource\[.swizzle\] srcSampler.r |
+| gather4\[\_aoffimmi(u,v)\] dest\[.mask\], srcAddress\[.swizzle\], srcResource\[.swizzle\], srcSampler.r |
 |--------------------------------------------------------------------------------------------------------|
 
 

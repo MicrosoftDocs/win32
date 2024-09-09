@@ -1,6 +1,6 @@
 ---
 title: IDWriteGeometrySink interface
-description: IDWriteGeometrySink is a typedef of the ID2D1SimplifiedGeometrySink interface. Please see the ID2D1SimplifiedGeometrySink reference page for more information.
+description: IDWriteGeometrySink is a typedef of the ID2D1SimplifiedGeometrySink interface. See the ID2D1SimplifiedGeometrySink reference page for more information.
 ms.assetid: 78bd0236-459f-4c89-94d8-d2ca1e51af5e
 keywords:
 - IDWriteGeometrySink interface Direct Write
@@ -14,12 +14,12 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/14/2023
 ---
 
 # IDWriteGeometrySink interface
 
-**IDWriteGeometrySink** is a **typedef** of the [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) interface. Please see the [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) reference page for more information.
+**IDWriteGeometrySink** is a **typedef** of the [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) interface. For more info, see the [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) reference topic.
 
 ## Members
 
@@ -27,20 +27,7 @@ The **IDWriteGeometrySink** interface inherits from the [**IUnknown**](/windows/
 
 ## Requirements
 
-
-
 | Requirement | Value |
-|--------------------|---------------------------------------------------------------------------------------|
-| Library<br/> | <dl> <dt>Dwrite.lib</dt> </dl> |
-| DLL<br/>     | <dl> <dt>Dwrite.dll</dt> </dl> |
-
-
-
- 
-
- 
-
-
-
-
-
+|-|-|
+| Library | Dwrite.lib |
+| DLL | Dwrite.dll |

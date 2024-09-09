@@ -79,7 +79,7 @@ Query for any and all asynchronous events that have been issued from API calls.
 <span id="D3DQUERYTYPE_OCCLUSION"></span><span id="d3dquerytype_occlusion"></span>**D3DQUERYTYPE\_OCCLUSION**
 </dt> <dd>
 
-An occlusion query returns the number of pixels that pass z-testing. These pixels are for primitives drawn between the issue of [**D3DISSUE\_BEGIN**](d3dissue-begin.md) and [**D3DISSUE\_END**](d3dissue-end.md). This enables an application to check the occlusion result against 0. Zero is fully occluded, which means the pixels are not visible from the current camera position.
+An occlusion query returns the number of pixels (or samples when multisampling is enabled) that pass z-testing. These pixels/samples are for primitives drawn between the issue of [**D3DISSUE\_BEGIN**](d3dissue-begin.md) and [**D3DISSUE\_END**](d3dissue-end.md). This enables an application to check the occlusion result against 0. Zero is fully occluded, which means the pixels/samples are not visible from the current camera position. To get the number of pixels when a multisampled render target is used, the result should be divided by the sample count of the target.
 
 </dd> <dt>
 

@@ -1783,7 +1783,7 @@
             href: /windows/desktop/api/d3d12video/nn-d3d12video-id3d12videoprocessor1
             items:
               - name: "ID3D12VideoProcessor1::GetProtectedResourceSession"
-                href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdes/nf-d3d12video-id3d12videoprocessor1-getprotectedresourcesession
+                href: /windows/win32/api/d3d12video/nf-d3d12video-id3d12videoprocessor1-getprotectedresourcesession
       - name: "Direct3D 12 Video Structures"
         href: direct3d-12-video-structures.md
         items:
@@ -2813,6 +2813,10 @@
           href: mf-devicestream-takephoto-trigger.md
         - name: "MF_DEVICESTREAM_TRANSFORM_STREAM_ID"
           href: mf-devicestream-transform-stream-id.md
+        - name: "MF_DEVSOURCE_ATTRIBUTE_ENABLE_MS_CAMERA_EFFECTS"
+          href: mf-devsource-attribute-enable-ms-camera-effects.md
+        - name: "MF_DEVSOURCE_ATTRIBUTE_FRAMESERVER_SHARE_MODE"
+          href: mf-devsource-attribute-frameserver-share-mode.md
         - name: "MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME"
           href: mf-devsource-attribute-friendly-name.md
         - name: "MF_DEVSOURCE_ATTRIBUTE_MEDIA_TYPE"
@@ -3121,6 +3125,8 @@
           href: mf-mt-pan-scan-enabled-attribute.md
         - name: "MF_MT_PIXEL_ASPECT_RATIO"
           href: mf-mt-pixel-aspect-ratio-attribute.md
+        - name: "MF_MT_REALTIME_CONTENT"
+          href: mf-mt-realtime-content.md
         - name: "MF_MT_SAMPLE_SIZE"
           href: mf-mt-sample-size-attribute.md
         - name: "MF_MT_SOURCE_CONTENT_HINT"
@@ -3377,6 +3383,8 @@
           href: mf-source-reader-mediasource-characteristics.md
         - name: "MF_SOURCE_READER_MEDIASOURCE_CONFIG"
           href: mf-source-reader-mediasource-config.md
+        - name: "MF_SOURCE_READER_PASSTHROUGH_MODE"
+          href: mf-source-reader-passthrough-mode.md
         - name: "MF_SOURCE_STREAM_SUPPORTS_HW_CONNECTION"
           href: mf-source-stream-supports-hw-connection.md
         - name: "MF_STF_VERSION_DATE"
@@ -3503,8 +3511,12 @@
           href: mf-video-processor-algorithm.md
         - name: "MF_VIDEODSP_MODE"
           href: mf-videodsp-mode.md
+        - name: "MF_VIRTUALCAMERA_ASSOCIATED_CAMERA_SOURCES"
+          href: mf-virtualcamera-associated-camera-sources.md
         - name: "MF_VIRTUALCAMERA_APP_PACKAGE_FAMILY_NAME"
           href: mf-virtualcamera-configuration-app-package-family-name.md
+        - name: "MF_VIRTUALCAMERA_PROVIDE_ASSOCIATED_CAMERA_SOURCES"
+          href: mf-virtualcamera-provide-associated-camera-sources.md
         - name: "MF_XVP_CALLER_ALLOCATES_OUTPUT"
           href: mf-xvp-caller-allocates-output.md
         - name: "MF_XVP_DISABLE_FRC"
@@ -3579,6 +3591,8 @@
           href: mfsampleextension-encryption-skipbyteblock.md
         - name: "MFSampleExtension_Encryption_SubSampleMappingSplit"
           href: mfsampleextension-encryption-subsamplemappingsplit.md
+        - name: "MFSampleExtension_FeatureMap"
+          href: mfsampleextension-featuremap.md
         - name: "MFSampleExtension_ForwardedDecodeUnits"
           href: mfsampleextension-forwardeddecodeunits.md
         - name: "MFSampleExtension_ForwardedDecodeUnitType"
@@ -3607,8 +3621,12 @@
           href: mfsampleextension-roirectangle.md
         - name: "MFSampleExtension_SingleField"
           href: mfsampleextension-singlefield-attribute.md
+        - name: "MFSampleExtension_SpatialLayerId"
+          href: mfsampleextension-spatiallayerid.md
         - name: "MFSampleExtension_TargetGlobalLuminance"
           href: mfsampleextension-targetgloballuminance.md
+        - name: "MFSampleExtension_TemporalLayerId"
+          href: mfsampleextension-temporallayerid.md
         - name: "MFSampleExtension_Token"
           href: mfsampleextension-token-attribute.md
         - name: "MFSampleExtension_VideoDSPMode"
@@ -3621,16 +3639,26 @@
           href: mfstreamextension-cameraextrinsics.md
         - name: "MFStreamExtension_PinholeCameraIntrinsics"
           href: mfstreamextension-pinholecameraintrinsics.md
+        - name: "MFT_AUDIO_DECODER_AUDIO_ENDPOINT_FORMFACTOR"
+          href: mft-audio-decoder-audio-endpoint-formfactor-attribute.md
+        - name: "MFT_AUDIO_DECODER_AUDIO_ENDPOINT_ID"
+          href: mft-audio-decoder-audio-endpoint-id-attribute.md
+        - name: "MFT_AUDIO_DECODER_AUDIO_ENDPOINT_DIGITAL_STEREO_ONLY"
+          href: mft-audio-decoder-audio-endpoint-is-digital-stereo-only-attribute.md
         - name: "MFT_CODEC_MERIT_Attribute"
           href: mft-codec-merit-attribute.md
         - name: "MFT_CONNECTED_STREAM_ATTRIBUTE"
           href: mft-connected-stream-attribute.md
         - name: "MFT_CONNECTED_TO_HW_STREAM"
           href: mft-connected-to-hw-stream.md
+        - name: "MFT_DECODER_AUTOMATIC_SOFTWARE_FALLBACK"
+          href: mft-decoder-automatic-software-fallback.md
         - name: "MFT_DECODER_EXPOSE_OUTPUT_TYPES_IN_NATIVE_ORDER"
           href: mft-decoder-expose-output-types-in-native-order.md
         - name: "MFT_DECODER_FINAL_VIDEO_RESOLUTION_HINT"
           href: mft-decoder-final-video-resolution-hint.md
+        - name: "MFT_DECODER_OPERATING_POINT"
+          href: mft-decoder-operating-point.md
         - name: "MFT_ENCODER_SUPPORTS_CONFIG_EVENT"
           href: mft-encoder-supports-config-event.md
         - name: "MFT_ENUM_ADAPTER_LUID"
@@ -3677,6 +3705,8 @@
         href: asf-attributes.md
       - name: "Audio Renderer Attributes"
         href: audio-renderer-attributes.md
+      - name: "Audio Decoder Attributes"
+        href: audio-decoder-attributes.md
       - name: "Byte Stream Attributes"
         href: byte-stream-attributes.md
       - name: "Capture Device Attributes"
@@ -8215,6 +8245,8 @@
         href: codecapi-avdecvideomaxcodedheight.md
       - name: "CODECAPI_AVDecVideoMaxCodedWidth"
         href: codecapi-avdecvideomaxcodedwidth.md
+      - name: "CODECAPI_AVEncAACEnableVBR"
+        href: codecapi-avencaacenablevbr.md 
       - name: "CODECAPI_AVEncAdaptiveMode"
         href: codecapi-avencadaptivemode.md
       - name: "CODECAPI_AVEncCommonTranscodeEncodingProfile"
@@ -8269,6 +8301,8 @@
         href: codecapi-avencvideouseltrframe.md
       - name: "CODECAPI_AVLowLatencyMode"
         href: codecapi-avlowlatencymode.md
+      - name: "CODECAPI_FeatureMapFlagsUsed"
+        href: codecapi-featuremapflagsused.md
       - name: "CODECAPI_VideoEncoderDisplayContentType"
         href: codecapi-videoencoderdisplaycontenttype.md
       - name: "MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH"
@@ -8972,4 +9006,4 @@
       - name: "DXVAHD_COLOR"
         href: /windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_color_rgba
       - name: "MFPaletteEntry Union"
-        href: /windows/desktop/api/mfobjects/mfobjects/ns-mfobjects-mfargb
+        href: /windows/win32/api/mfobjects/ns-mfobjects-mfpaletteentry

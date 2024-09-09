@@ -3,10 +3,13 @@ description: The Sample Grabber filter is a transform filter that can be used to
 ms.assetid: ec0e367e-9ef9-4de6-9132-b462c233bc98
 title: Using the Sample Grabber
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Using the Sample Grabber
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 \[This API is not supported and may be altered or unavailable in the future.\]
 
@@ -206,7 +209,7 @@ This article describes buffering mode. (Before using callback mode, be aware tha
 
 Optionally, call the [**ISampleGrabber::SetOneShot**](isamplegrabber-setoneshot.md) method with the value **TRUE**. This causes the Sample Grabber to halt after it receives the first media sample, which is useful if you want to grab a single frame from the stream. Seek to the desired time, run the graph, and wait for the [**EC\_COMPLETE**](ec-complete.md) event. Note that the level of frame accuracy depends on the source. For example, seeking an MPEG file is often not frame accurate.
 
-To run the graph as fast as possible, turn of the graph clock as described in [Setting the Graph Clock](setting-the-graph-clock.md).
+To run the graph as fast as possible, turn off the graph clock as described in [Setting the graph clock](setting-the-graph-clock.md).
 
 The following example enables one-shot mode and buffering mode, runs the filter graph, and waits for completion.
 

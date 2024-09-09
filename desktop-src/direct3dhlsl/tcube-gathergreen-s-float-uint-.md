@@ -24,9 +24,9 @@ Returns the green components of the four texel values that would be used in a bi
 
 ``` syntax
 TemplateType GatherGreen(
-  in  SamplerState S,
-  in  float        Location,
-  out uint         Status
+  in  SamplerState S,
+  in  float3       Location,
+  out uint         Status
 );
 ```
 
@@ -83,7 +83,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -95,6 +95,6 @@ This function is supported for the following types of shaders:
 [**TextureCube**](texturecube.md)
 </dt> </dl>
 
- 
 
- 
+
+

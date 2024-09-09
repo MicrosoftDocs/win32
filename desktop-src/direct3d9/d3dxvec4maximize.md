@@ -4,19 +4,22 @@ ms.assetid: a08ceba0-938c-42af-8f32-b1fd8c12d926
 title: D3DXVec4Maximize function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4Maximize
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec4Maximize function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns a 4D vector that is made up of the largest components of two 4D vectors.
 
@@ -98,7 +101,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

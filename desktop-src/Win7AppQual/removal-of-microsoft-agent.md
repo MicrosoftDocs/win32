@@ -45,11 +45,11 @@ Microsoft has decided to discontinue development of Microsoft Agent technologies
 
 Developers can still use the following resources for previous versions of Windows:
 
--   [Microsoft Agent Core Components (for use only on Microsoft Windows 95, Windows 98 and Windows NT 4.0)](https://www.microsoft.com/downloads/details.aspx?familyid=E11BF712-7862-45BA-826D-44AE3A11836F)
--   [Merlin Character File](https://www.microsoft.com/downloads/details.aspx?FamilyID=fee1dadd-2f23-41d0-8a81-2affd74c0aa5)
--   [Peedy Character File](https://www.microsoft.com/downloads/details.aspx?FamilyID=bd3c4655-79e4-4791-ab9d-abc7bbd133ef)
--   [Genie Character File](https://www.microsoft.com/downloads/details.aspx?FamilyID=da86ba4e-bc2d-4c1d-b5a0-3183fe206414)
--   [Robby Character File](https://www.microsoft.com/downloads/details.aspx?FamilyID=fa36d1d5-d828-494a-ad0a-7b571db5bd2e)
+-   [Microsoft Agent Core Components (for use only on Microsoft Windows 95, Windows 98 and Windows NT 4.0)](https://download.cnet.com/agent-2-0-core-components-self-installing-executable/3000-2206_4-10728316.html)
+-   [Merlin Character File](https://download.cnet.com/agent-2-0-character-merlin-character-file/3000-2206_4-10728306.html)
+-   [Peedy Character File](https://archive.org/download/Peedy/Peedy.exe)
+-   [Genie Character File](https://download.cnet.com/agent-2-0-character-genie-character-file/3000-2206_4-10728304.html)
+-   [Robby Character File](https://download.cnet.com/agent-2-0-character-robby-character-file/3000-2206_4-10728312.html)
 
 ## Links to Other Resources
 

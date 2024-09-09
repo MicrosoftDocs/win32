@@ -19,8 +19,6 @@ The NT File System (NTFS) team has added a new feature to Windows. USN Journal w
 
 The feature is not enabled by default; users must invoke a file system control (FSCTL) command to enable it. However, because other Windows components may turn on range tracking, users and developers may perceive that the feature is always enabled. Windows will allow developers to query USN journal to find out if range tracking is enabled.
 
-MSDN documentation will be provided at a later date to instruct developers in how to access USN\_RECORD\_V4 records.
-
 ## Manifestation
 
 All existing applications that use USN Journal will continue to work well without any compatibility issues.

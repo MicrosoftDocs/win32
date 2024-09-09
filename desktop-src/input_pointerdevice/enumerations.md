@@ -15,7 +15,7 @@ The topics in this section provide the reference specifications for [Pointer Dev
 | Topic | Description |
 |---|---|
 | [**POINTER_DEVICE_CURSOR_TYPE**](/windows/win32/api/winuser/ne-winuser-pointer_device_cursor_type)<br/> | Identifies the cursor types.<br/>         |
-| [**POINTER_DEVICE_TYPE**](/windows/win32/api/winuser/ne-winuser-pointer_device_cursor_type)<br/> | Identifies the pointer device types.<br/> |
+| [**POINTER_DEVICE_TYPE**](/windows/win32/api/winuser/ne-winuser-pointer_device_type)<br/> | Identifies the pointer device types.<br/> |
 | [POINTER_FEEDBACK_MODE](/windows/win32/api/winuser/ne-winuser-pointer_feedback_mode) | Identifies the visual feedback behaviors available to [CreateSyntheticPointerDevice](/windows/win32/api/winuser/nf-winuser-createsyntheticpointerdevice). |
 
 ## Related topics

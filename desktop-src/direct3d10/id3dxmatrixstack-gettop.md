@@ -4,19 +4,22 @@ ms.assetid: cf379742-3e7d-4309-a7af-b97348428682
 title: ID3DXMATRIXStack::GetTop method (D3DX10.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - ID3DXMATRIXStack.GetTop
-api_type: 
+api_type:
 - COM
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # ID3DXMATRIXStack::GetTop method (D3DX10.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead along with this header from [GitHub](https://github.com/microsoft/DirectXMath/tree/main/MatrixStack).
 
 Retrieves the current matrix at the top of the stack.
 

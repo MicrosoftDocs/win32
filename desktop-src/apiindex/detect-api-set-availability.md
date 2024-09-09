@@ -2,14 +2,14 @@
 description: Describes how to detect whether a specific API set is available on the current device.
 title: Detect API set availability
 ms.topic: article
-ms.date: 10/14/2020
+ms.date: 05/31/2023
 ---
 
 # Detect API set availability
 
-In some cases, a given API set contract name may be intentionally mapped to an empty module name on some Windows 10 devices. The reasons for this vary, but a common example is that an expensive feature in terms of system resources may be removed from the Windows OS when configured for a resource-constrained device. This poses a challenge for applications to gracefully handle optional features at the API level.
+In some cases, a given API set contract name may be intentionally mapped to an empty module name on some Windows devices. The reasons for this vary, but a common example is that an expensive feature in terms of system resources may be removed from the Windows OS when configured for a resource-constrained device. This poses a challenge for applications to gracefully handle optional features at the API level.
 
-The traditional approach for testing whether a Win32 API is available is to use [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) or [GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress). However, these are not a reliable means for testing API sets because of the [reverse forwarding](api-set-loader-operation.md#reverse-forwarding) support in Windows 10. When reverse forwarding is applied to a given API, **LoadLibrary** or **GetProcAddress** may resolve to a valid function pointer even in cases where the internal implementation has been removed. In this case, the function pointer will be pointing to a stub function that simply returns an error.
+The traditional approach for testing whether a Win32 API is available is to use [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) or [GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress). However, these are not a reliable means for testing API sets because of the [reverse forwarding](api-set-loader-operation.md#reverse-forwarding) support in Windows 10, and later. When reverse forwarding is applied to a given API, **LoadLibrary** or **GetProcAddress** may resolve to a valid function pointer even in cases where the internal implementation has been removed. In this case, the function pointer will be pointing to a stub function that simply returns an error.
 
 In order to detect this case, you can use the [IsApiSetImplemented](/windows/win32/api/apiquery2/nf-apiquery2-isapisetimplemented) function to query the underlying availability of a given API implementation. This test validates that calling this function will result in executing a functional implementation of the API.
 

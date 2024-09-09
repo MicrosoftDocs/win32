@@ -33,6 +33,8 @@
         href: how-to--load-audio-data-files-in-xaudio2.md
       - name: "How to: Play a Sound with XAudio2"
         href: how-to--play-a-sound-with-xaudio2.md
+      - name: "A simple XAudio2 project in full"
+        href: full-project.md
     - name: "Voices"
       href: voices.md
       items: 

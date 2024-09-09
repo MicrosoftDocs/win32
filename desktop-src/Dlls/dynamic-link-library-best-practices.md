@@ -39,10 +39,11 @@ You should never perform the following tasks from within [**DllMain**](dllmain.m
 -   Synchronize with other threads. This can cause a deadlock.
 -   Acquire a synchronization object that is owned by code that is waiting to acquire the loader lock. This can cause a deadlock.
 -   Initialize COM threads by using [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex). Under certain conditions, this function can call [**LoadLibraryEx**](/windows/desktop/api/LibLoaderAPI/nf-libloaderapi-loadlibraryexa).
--   Call the registry functions. These functions are implemented in Advapi32.dll. If Advapi32.dll is not initialized before your DLL, the DLL can access uninitialized memory and cause the process to crash.
+-   Call the registry functions.
 -   Call [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa). Creating a process can load another DLL.
 -   Call [**ExitThread**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread). Exiting a thread during DLL detach can cause the loader lock to be acquired again, causing a deadlock or a crash.
 -   Call [**CreateThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread). Creating a thread can work if you do not synchronize with other threads, but it is risky.
+-   Call [**ShGetFolderPathW**](/windows/win32/api/shlobj_core/nf-shlobj_core-shgetfolderpathw). Calling shell/known folder APIs can result in thread synchronization, and can therefore cause deadlocks.
 -   Create a named pipe or other named object (Windows 2000 only). In Windows 2000, named objects are provided by the Terminal Services DLL. If this DLL is not initialized, calls to the DLL can cause the process to crash.
 -   Use the memory management function from the dynamic C Run-Time (CRT). If the CRT DLL is not initialized, calls to these functions can cause the process to crash.
 -   Call functions in User32.dll or Gdi32.dll. Some functions load another DLL, which may not be initialized.

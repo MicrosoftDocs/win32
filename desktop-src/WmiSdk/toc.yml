@@ -687,7 +687,7 @@
     - name: "Using the WMI Command-line Tools"
       href: using-the-wmi-command-line-tools.md
       items: 
-      - name: "Starting and Stopping the WMI Service"
+      - name: "Starting and stopping WMI service"
         href: starting-and-stopping-the-wmi-service.md
       - name: "Compiling MOF Files"
         href: compiling-mof-files.md

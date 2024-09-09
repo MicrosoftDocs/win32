@@ -86,28 +86,9 @@ Applications must pass *wParam* to [**TranslateMessage**](/windows/desktop/api/w
 
 ## See also
 
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
-</dt> <dt>
-
-[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
-</dt> <dt>
-
-[**WM\_KEYDOWN**](wm-keydown.md)
-</dt> <dt>
-
-[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
-
- 
-
+- [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+- [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
+- [**WM\_KEYDOWN**](wm-keydown.md)
+- [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)

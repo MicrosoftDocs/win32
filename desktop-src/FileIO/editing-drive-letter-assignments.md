@@ -74,7 +74,7 @@ Parameters
       Array of pointers to the individual command-line arguments
 
 --------------------------------------------------------------------*/
-void _tmain (int argc, TCHAR *argv[])
+int _tmain (int argc, TCHAR *argv[])
 {
    TCHAR * pszDriveLetter,
         * pszNTDevice,
@@ -90,7 +90,7 @@ void _tmain (int argc, TCHAR *argv[])
    if (argc != 3)
    {
       PrintHelp(argv[0]);
-      return;
+      return 0;
    }
 
    // Use the command line to see if user wants to add or remove the 

@@ -8,10 +8,13 @@ keywords:
 - ICM_CONFIGURE message
 - ICQueryConfigure macro
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Compressor and Decompressor Configuration
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Your application can configure the compressor or decompressor automatically, or it can allow the user to configure them. If it is practical, allow the user to configure the compressor or decompressor; this frees you from considering all the options for the compressor or decompressor.
 

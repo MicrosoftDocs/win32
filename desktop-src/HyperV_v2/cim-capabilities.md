@@ -56,7 +56,7 @@ Access type: Read-only
 Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers), [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("ElementName")
 </dt> </dl>
 
-The user friendly name for this class instance. In addition, the user friendly name can be used as a index property for a query. This value does not have to be unique within its namespace.
+The user friendly name for this class instance. In addition, the user friendly name can be used as an index property for a query. This value does not have to be unique within its namespace.
 
 </dd> <dt>
 

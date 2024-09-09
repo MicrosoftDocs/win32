@@ -4,19 +4,22 @@ ms.assetid: c9623f35-c8fc-4fbe-87b6-0e5bb8ebd5e8
 title: D3DXVec3Cross function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3Cross
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec3Cross function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Determines the cross-product of two 3D vectors.
 
@@ -77,11 +80,11 @@ This function determines the cross-product with the following code.
 
 ```
 D3DXVECTOR3 v;
-    
+
 v.x = pV1->y * pV2->z - pV1->z * pV2->y;
 v.y = pV1->z * pV2->x - pV1->x * pV2->z;
 v.z = pV1->x * pV2->y - pV1->y * pV2->x;
-    
+
 *pOut = v;
 ```
 
@@ -113,7 +116,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

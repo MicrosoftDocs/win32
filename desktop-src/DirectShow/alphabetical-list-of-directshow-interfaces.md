@@ -3,10 +3,13 @@ description: Alphabetical List of DirectShow Interfaces
 ms.assetid: 9c7f56f4-92af-40c6-8124-f2715ac3f6d7
 title: Alphabetical List of DirectShow Interfaces
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Alphabetical List of DirectShow Interfaces
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The following is an alphabetical list of DirectShow interfaces.
 
@@ -123,7 +126,7 @@ The following is an alphabetical list of DirectShow interfaces.
 | <a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-iksnodecontrol"><strong>IKsNodeControl</strong></a> | Exposed by USB Video Class (UVC) extension units. | 
 | <a href="ikspin.md"><strong>IKsPin</strong></a> | Retrieves the mediums supported by a kernel-mode pin. | 
 | <a href="ikspropertyset.md"><strong>IKsPropertySet</strong></a> | Sets properties on a kernel-mode filter. | 
-| <a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo"><strong>IKsTopologyInfo</strong></a> | Enumerates the nodes in a stream class driver. | 
+| <a href="/windows/win32/api/vidcap/nn-vidcap-ikstopologyinfo"><strong>IKsTopologyInfo</strong></a> | Enumerates the nodes in a stream class driver. | 
 | <a href="/windows/desktop/api/Control/nn-control-imediacontrol"><strong>IMediaControl</strong></a> | Controls the flow of data through the filter graph. | 
 | <a href="/windows/desktop/api/Control/nn-control-imediaevent"><strong>IMediaEvent</strong></a> | Retrieves event notifications from the filter graph. | 
 | <a href="/windows/desktop/api/Control/nn-control-imediaeventex"><strong>IMediaEventEx</strong></a> | Extends the <a href="/windows/desktop/api/Control/nn-control-imediaevent"><strong>IMediaEvent</strong></a> interface. | 
@@ -136,8 +139,8 @@ The following is an alphabetical list of DirectShow interfaces.
 | <a href="/windows/desktop/api/Strmif/nn-strmif-imediasample2config"><strong>IMediaSample2Config</strong></a> | Returns a pointer to a Direct3D surface representing a VRAM capture buffer. | 
 | <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a> | Controls seeking in the filter graph. | 
 | <a href="/windows/desktop/api/Strmif/nn-strmif-imemallocator"><strong>IMemAllocator</strong></a> | Allocates media samples. | 
-| <a href="/windows/desktop/api/Strmif/nn-strmif-imemallocatorcallbacktemp"><strong>IMemAllocatorCallbackTemp</strong></a> | Enables a filter to receive a callback notification from an allocator.<blockquote>[!Note]<br />Deprecated.</blockquote><br /> | 
-| <a href="/windows/desktop/api/Strmif/nn-strmif-imemallocatornotifycallbacktemp"><strong>IMemAllocatorNotifyCallbackTemp</strong></a> | Callback interface for the <a href="/windows/desktop/api/Strmif/nn-strmif-imemallocatorcallbacktemp"><strong>IMemAllocatorCallbackTemp</strong></a> interface.<blockquote>[!Note]<br />Deprecated.</blockquote><br /> | 
+| [**IMemAllocatorCallbackTemp**](/windows/desktop/api/Strmif/nn-strmif-imemallocatorcallbacktemp) | Enables a filter to receive a callback notification from an allocator. **Note:** Deprecated.<br> | 
+| [**IMemAllocatorNotifyCallbackTemp**](/windows/desktop/api/Strmif/nn-strmif-imemallocatornotifycallbacktemp) | Callback interface for the [**IMemAllocatorCallbackTemp**](/windows/desktop/api/Strmif/nn-strmif-imemallocatorcallbacktemp) interface. **Note:** Deprecated.<br> | 
 | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a> | Delivers media data to an input pin. | 
 | <a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a> | Exposed by the Overlay Mixer filter. | 
 | <a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify"><strong>IMixerOCXNotify</strong></a> | Callback interface for the <a href="/previous-versions/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx"><strong>IMixerOCX</strong></a> interface. | 
@@ -204,7 +207,7 @@ The following is an alphabetical list of DirectShow interfaces.
 | <a href="/windows/desktop/api/Strmif/nn-strmif-ivpmanager"><strong>IVPManager</strong></a> | Exposed by the Video Port Manager filter. | 
 | <a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a> | Enables the Overlay Mixer to control the properties of a hardware device that uses a video port. | 
 | <a href="/previous-versions/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2"><strong>IVPNotify2</strong></a> | Extends the <a href="/previous-versions/windows/desktop/api/Vpnotify/nn-vpnotify-ivpnotify"><strong>IVPNotify</strong></a> interface. | 
-| <a href="/previous-versions/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder"><strong>IXMLGraphBuilder</strong></a> | Persists a DirectShow filter graph using an XML file format.<blockquote>[!Note]<br />Deprecated.</blockquote><br /> | 
+| [**IXMLGraphBuilder**](/previous-versions/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder) | Persists a DirectShow filter graph using an XML file format. **Note:** Deprecated.<br> | 
 
 
 

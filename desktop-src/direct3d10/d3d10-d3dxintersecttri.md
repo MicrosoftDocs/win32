@@ -4,19 +4,22 @@ ms.assetid: 819f2543-8046-47c9-93b8-7d888264786f
 title: D3DXIntersectTri function (D3DX10math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXIntersectTri
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXIntersectTri function (D3DX10math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Computes the intersection of a ray and a triangle.
 

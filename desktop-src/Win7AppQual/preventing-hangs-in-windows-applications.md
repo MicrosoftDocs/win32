@@ -200,7 +200,7 @@ The sample code below illustrates this issue. The unbounded access to the "buffe
 -   [Synchronization Objects](../sync/about-synchronization.md)
 -   [**TerminateThread Function**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminatethread)
 -   [Windows Error Reporting](../wer/windows-error-reporting.md)
--   [Winqual](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
+-   [Winqual](/windows-hardware/drivers/dashboard/hardware-submission-wlk)
 
  
 

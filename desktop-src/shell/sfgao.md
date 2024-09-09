@@ -8,10 +8,7 @@ ms.date: 05/31/2018
 
 # SFGAO
 
-Attributes that can be retrieved on an item (file or folder) or set of items.
-
-
-
+`SFGAO` bitfield values represent attributes that can be retrieved on an item (file or folder) or set of items. They are used with the IShellFolder and IShellItem APIs, most notably <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof"><strong>IShellFolder::GetAttributesOf</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getattributes"><strong>IShellItem::GetAttributes</strong></a>.
 
 | Constant/value | Description | 
 |----------------|-------------|
@@ -26,7 +23,7 @@ Attributes that can be retrieved on an item (file or folder) or set of items.
 | <span id="SFGAO_CAPABILITYMASK"></span><span id="sfgao_capabilitymask"></span><dl><dt><strong>SFGAO_CAPABILITYMASK</strong></dt><dt>0x00000177</dt></dl> | This flag is a mask for the capability attributes: SFGAO_CANCOPY, SFGAO_CANMOVE, SFGAO_CANLINK, SFGAO_CANRENAME, SFGAO_CANDELETE, SFGAO_HASPROPSHEET, and SFGAO_DROPTARGET. Callers normally do not use this value.<br /> | 
 | <span id="SFGAO_SYSTEM"></span><span id="sfgao_system"></span><dl><dt><strong>SFGAO_SYSTEM</strong></dt><dt>0x00001000</dt></dl> | <strong>Windows 7 and later</strong>. The specified items are system items.<br /> | 
 | <span id="SFGAO_ENCRYPTED"></span><span id="sfgao_encrypted"></span><dl><dt><strong>SFGAO_ENCRYPTED</strong></dt><dt>0x00002000</dt></dl> | The specified items are encrypted and might require special presentation.<br /> | 
-| <span id="SFGAO_ISSLOW"></span><span id="sfgao_isslow"></span><dl><dt><strong>SFGAO_ISSLOW</strong></dt><dt>0x00004000</dt></dl> | Accessing the item (through <a href="/windows/desktop/api/objidl/nn-objidl-istream"><strong>IStream</strong></a> or other storage interfaces) is expected to be a slow operation. Applications should avoid accessing items flagged with SFGAO_ISSLOW. <br /><blockquote>[!Note]<br />Opening a stream for an item is generally a slow operation at all times. SFGAO_ISSLOW indicates that it is expected to be especially slow, for example in the case of slow network connections or offline (FILE_ATTRIBUTE_OFFLINE) files. However, querying SFGAO_ISSLOW is itself a slow operation. Applications should query SFGAO_ISSLOW only on a background thread. An alternate method, such as retrieving the <a href="/windows/desktop/properties/props-system-fileattributes"><strong>PKEY_FileAttributes</strong></a> property and testing for FILE_ATTRIBUTE_OFFLINE, could be used in place of a method call that involves SFGAO_ISSLOW.</blockquote><br /> | 
+| **SFGAO_ISSLOW**<br>0x00004000<br> | Accessing the item (through [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) or other storage interfaces) is expected to be a slow operation. Applications should avoid accessing items flagged with SFGAO_ISSLOW. <br> **Note:** Opening a stream for an item is generally a slow operation at all times. SFGAO_ISSLOW indicates that it is expected to be especially slow, for example in the case of slow network connections or offline (FILE_ATTRIBUTE_OFFLINE) files. However, querying SFGAO_ISSLOW is itself a slow operation. Applications should query SFGAO_ISSLOW only on a background thread. An alternate method, such as retrieving the [**PKEY_FileAttributes**](/windows/desktop/properties/props-system-fileattributes) property and testing for FILE_ATTRIBUTE_OFFLINE, could be used in place of a method call that involves SFGAO_ISSLOW.<br> | 
 | <span id="SFGAO_GHOSTED"></span><span id="sfgao_ghosted"></span><dl><dt><strong>SFGAO_GHOSTED</strong></dt><dt>0x00008000</dt></dl> | The specified items are shown as dimmed and unavailable to the user.<br /> | 
 | <span id="SFGAO_LINK"></span><span id="sfgao_link"></span><dl><dt><strong>SFGAO_LINK</strong></dt><dt>0x00010000</dt></dl> | The specified items are shortcuts.<br /> | 
 | <span id="SFGAO_SHARE"></span><span id="sfgao_share"></span><dl><dt><strong>SFGAO_SHARE</strong></dt><dt>0x00020000</dt></dl> | The specified objects are shared.<br /> | 
@@ -75,6 +72,9 @@ Attributes that can be retrieved on an item (file or folder) or set of items.
 </dt> <dt>
 
 [**IShellFolder::ParseDisplayName**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname)
+</dt> <dt>
+
+[**IShellItem::GetAttributes**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getattributes)
 </dt> <dt>
 
 [**IShellItemArray::GetAttributes**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getattributes)

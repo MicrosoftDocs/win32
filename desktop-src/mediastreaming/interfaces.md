@@ -3,10 +3,13 @@ title: Media Streaming Interfaces
 description: The Media Streaming API provides the following interfaces.
 ms.assetid: 1E25B452-D23C-4A1D-BC39-A5B719DF2C5D
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Media Streaming Interfaces
+
+\[The feature associated with this page, [Windows Media Streaming API](/windows/win32/mediastreaming/media-streaming-api-portal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). **Media Casting** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Media Casting** instead of **Windows Media Streaming API**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The [Media Streaming API](media-streaming-api-portal.md) provides the following interfaces.
 

@@ -3,10 +3,13 @@ description: WM ASF Writer Filter
 ms.assetid: 1b12f65f-8d77-4d38-aad9-92bb15cc0426
 title: WM ASF Writer Filter (DirectShow)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # WM ASF Writer Filter (DirectShow)
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The WM ASF Writer is a wrapper filter for the writer object provided with the Windows Media™ Format SDK. The filter accepts a variable number of input streams and creates an Advanced Systems Format (ASF) file. The filter handles all compression and multiplexing (although the compression mechanism can be bypassed). You can use the WM ASF Writer in various scenarios including digital video (DV) capture, audio recompression, and conversion of Audio-Video Interleaved (AVI) or MPEG multimedia files for network streaming. This filter provides the only way to create Microsoft® Windows Media™ Audio and Windows Media Video files in Microsoft DirectShow.
 
@@ -71,7 +74,7 @@ if (SUCCEEDED(hr))
 
 
 
-Applications should not use any of the **IWMWriterAdvanced** methods that the **IWMWriterAdvanced2** interface inherits. Calling any these methods could interere with the operation of the filter.
+Applications should not use any of the **IWMWriterAdvanced** methods that the **IWMWriterAdvanced2** interface inherits. Calling any these methods could interfere with the operation of the filter.
 
 The only file-writing mode supported by this filter is AM\_FILE\_OVERWRITE. See [**IFileSinkFilter2::GetMode**](/windows/desktop/api/Strmif/nf-strmif-ifilesinkfilter2-getmode).
 

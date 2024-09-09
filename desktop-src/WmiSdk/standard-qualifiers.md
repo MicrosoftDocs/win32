@@ -349,7 +349,7 @@ Set of values that indicate correspondence between an object's property and othe
 
 Object properties are identified using the following syntax.
 
-<schema name> "\_" <class or association name> "." <property name>
+&lt;schema name&gt; "\_" &lt;class or association name&gt; "." &lt;property name&gt;
 
 </dd> <dt>
 
@@ -669,10 +669,6 @@ Applies to: properties
 Indicates whether the property is writeable at instance update. This qualifier may be used in conjunction with the **WriteAtCreate** qualifier. The default is **FALSE**.
 
 </dd> </dl>
-
-## Examples
-
-For more information on retrieving qualifiers, see the [Get-WmiClassMethodsAndWritableWmiProperties](https://Gallery.TechNet.Microsoft.Com/10670e14-4cf1-4ce5-99d0-fc4ca80dac2c) PowerShell code sample on the TechNet Gallery.
 
 ## Requirements
 

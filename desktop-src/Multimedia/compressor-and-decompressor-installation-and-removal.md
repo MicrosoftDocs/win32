@@ -8,10 +8,13 @@ keywords:
 - ICInstall function
 - ICRemove function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Compressor and Decompressor Installation and Removal
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 An application can use compressors and decompressors that are already installed on a system running the Microsoft Windows operating system. An application can also install compressors and decompressors for general or special uses. Most applications will not need to install or remove compressors or decompressors because they are usually installed by a setup program. An application might, however, install a compressor directly or install a function as a compressor.
 

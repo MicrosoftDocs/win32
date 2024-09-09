@@ -32,7 +32,7 @@ The following example uses an [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d
 
 ```C++
 // This method discards device-specific
-// resources if the Direct3D device dissapears during execution and
+// resources if the Direct3D device disappears during execution and
 // recreates the resources the next time it's invoked.
 HRESULT DemoApp::OnRender()
 {
@@ -111,7 +111,7 @@ HRESULT DemoApp::OnRender()
 
 
 
-For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-quickstart.md).
+For a related tutorial, see [Create a simple Direct2D application](direct2d-quickstart.md).
 
 ## Requirements
 
@@ -133,7 +133,7 @@ For a related tutorial, see [Creating a Simple Direct2D Application](direct2d-qu
 [**D2D\_RECT\_F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_rect_f)
 </dt> <dt>
 
-[Creating a Simple Direct2D Application](direct2d-quickstart.md)
+[Create a simple Direct2D application](direct2d-quickstart.md)
 </dt> </dl>
 
  

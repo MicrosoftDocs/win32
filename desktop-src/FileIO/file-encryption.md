@@ -24,6 +24,9 @@ Sparse files can be encrypted.
 
 TxF does not support most operations on Encrypted File System (EFS) files. The only operations TxF supports are read operations, such as [**ReadEncryptedFileRaw**](/windows/desktop/api/WinBase/nf-winbase-readencryptedfileraw).
 
+> [!NOTE]
+> When the source file is encrypted, **CopyFile** and **CopyFileEx** rely on the EFS service (hosted in lsass.exe) to create the target file and apply keys used in encryption of the source file. These operations are performed by EFS service while impersonating the caller of **CopyFile** or **CopyFileEx**.
+
 ## In this section
 
 

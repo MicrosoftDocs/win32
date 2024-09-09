@@ -4,19 +4,22 @@ ms.assetid: f6dc3834-42f2-4ad0-8098-8c5e25e10d58
 title: D3DXMatrixReflect function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixReflect
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXMatrixReflect function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a matrix that reflects the coordinate system about a plane.
 
@@ -71,7 +74,7 @@ This function uses the following formula to compute the returned matrix.
 
 ```
 P = normalize(Plane);
-    
+
 -2 * P.a * P.a + 1  -2 * P.b * P.a      -2 * P.c * P.a        0
 -2 * P.a * P.b      -2 * P.b * P.b + 1  -2 * P.c * P.b        0
 -2 * P.a * P.c      -2 * P.b * P.c      -2 * P.c * P.c + 1    0
@@ -101,7 +104,3 @@ P = normalize(Plane);
  
 
  
-
-
-
-

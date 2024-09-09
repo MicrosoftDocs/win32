@@ -1,12 +1,12 @@
 ---
-title: dcl_resource raw (sm5 - asm)
-description: Declare a shader resource input and assign it to a t\ - a placeholder register for the resource. | dcl_resource raw (sm5 - asm)
+title: dcl_resource_raw (sm5 - asm)
+description: Declare a shader resource input and assign it to a t\ - a placeholder register for the resource. | dcl_resource_raw (sm5 - asm)
 ms.assetid: ECBA9DAB-F217-47FB-9588-F35866004E72
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# dcl\_resource raw (sm5 - asm)
+# dcl\_resource\_raw (sm5 - asm)
 
 Declare a shader resource input and assign it to a t\# - a placeholder register for the resource.
 

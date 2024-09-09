@@ -4,19 +4,22 @@ ms.assetid: 24c26e70-b02c-4621-8b7e-db16f99dddb5
 title: D3DXVec4CatmullRom function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4CatmullRom
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec4CatmullRom function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Performs a Catmull-Rom interpolation, using the specified 4D vectors.
 
@@ -106,10 +109,10 @@ Given four points (p1, p2, p3, p4), find a function Q(s) such that:
 
 
 ```
-Q(s) is a cubic function. 
-Q(s) interpolates between p2 and p3 as s ranges from 0 to 1. 
-Q(s) is parallel to the line joining p1 to p3 when s is 0. 
-Q(s) is parallel to the line joining p2 to p4 when s is 1. 
+Q(s) is a cubic function.
+Q(s) interpolates between p2 and p3 as s ranges from 0 to 1.
+Q(s) is parallel to the line joining p1 to p3 when s is 0.
+Q(s) is parallel to the line joining p2 to p4 when s is 1.
 ```
 
 

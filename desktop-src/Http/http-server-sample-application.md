@@ -323,8 +323,8 @@ DWORD DoReceiveRequests(
                                 hReqQueue, 
                                 pRequest, 
                                 200,
-                                "OK",
-                                "Hey! You hit the server \r\n"
+                                PSTR("OK"),
+                                PSTR("Hey! You hit the server \r\n")
                                 );
                     break;
 
@@ -344,7 +344,7 @@ DWORD DoReceiveRequests(
                                 hReqQueue, 
                                 pRequest,
                                 503,
-                                "Not Implemented",
+                                PSTR("Not Implemented"),
                                 NULL
                                 );
                     break;

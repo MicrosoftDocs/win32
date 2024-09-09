@@ -1621,6 +1621,46 @@
         href: endpointdlp-dlpnotifypresaveasdocument.md
       - name: "DlpNotifyPreStashClipboard"
         href: endpointdlp-dlpnotifyprestashclipboard.md
+      - name: "DlpInitialize"
+        href: endpointdlp-dlpinitialize.md
+      - name: "DlpGetFileCloudApplicationPolicy"
+        href: endpointdlp-dlpgetfilecloudapplicationpolicy.md
+      - name: "DlpGetFileCloudApplicationPolicyEx"
+        href: endpointdlp-dlpgetfilecloudapplicationpolicyex.md
+      - name: "DlpGetFileApplicationAccessEx"
+        href: endpointdlp-dlpgetfileapplicationaccessex.md
+      - name: "DlpAuditFileAccessEvent"
+        href: endpointdlp-dlpauditfileaccessevent.md
+      - name: "DlpAuditFileAccessEventEx"
+        href: endpointdlp-dlpauditfileaccesseventex.md
+      - name: "DlpAuditOperationEnforcementEvent"
+        href: endpointdlp-dlpauditoperationenforcementevent.md
+      - name: "DlpAuditOperationEnforcementEventEx2"
+        href: endpointdlp-dlpauditoperationenforcementeventex.md
+      - name: "DlpGetFileLocation"
+        href: endpointdlp-dlpgetfilelocation.md
+      - name: "DlpDelegateEnforcement"
+        href: endpointdlp-dlpdelegateenforcement.md
+      - name: "AuditBrowserOperationEvent"
+        href: endpointdlp-auditbrowseroperationevent.md
+      - name: "AuditBrowserFileOperationEvent"
+        href: endpointdlp-auditbrowserfileoperationevent.md
+      - name: "GetBrowserExtensionConfiguration"
+        href: endpointdlp-getbrowserextensionconfiguration.md
+      - name: "DlpIsWebsitePolicyConfigured"
+        href: endpointdlp-dlpiswebsitepolicyconfigured.md
+      - name: "DlpGetWebSiteAccess"
+        href: endpointdlp-dlpgetwebsiteaccess.md
+      - name: "DlpFreeArchiveFileTraceInfo"
+        href: endpointdlp-dlpfreearchivefiletraceinfo.md
+      - name: "DlpGetNotificationSettings"
+        href: endpointdlp-dlpgetnotificationsettings.md
+      - name: "DlpGetWebSiteNotificationSettings"
+        href: endpointdlp-dlpgetwebsitenotificationsettings.md
+      - name: "AuditBrowserWebSiteOperation"
+        href: endpointdlp-auditbrowserwebsiteoperation.md
+      - name: "DlpIsSensitiveStream"
+        href: endpointdlp-dlpissensitivestream.md
     - name: "Endpoint data loss prevention structures"
       href: endpointdlp-structures.md
       items: 

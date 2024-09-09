@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This section describes the enrollment workflow from the perspective of the adapter plugins.
 
-In Windows 10, we ve implemented a V4 engine interface that provides 2 new engine adapter functions, [**EngineAdapterCreateKey**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn) and [**EngineAdapterIdentifyFeatureSetSecure**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_secure_fn). These new functions allow support for secure biometrics using TPM 2.0. The following table shows the adapter-side enrollment workflow.
+In Windows 10, we have implemented a V4 engine interface that provides 2 new engine adapter functions, [**EngineAdapterCreateKey**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn) and [**EngineAdapterIdentifyFeatureSetSecure**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_secure_fn). These new functions allow support for secure biometrics using TPM 2.0. The following table shows the adapter-side enrollment workflow.
 
 
 

@@ -7,7 +7,7 @@ ms.assetid: na
 ms.date: 02/20/2018
 ms.keywords: EtwEventUnregister
 ms.topic: reference
-req.header: ntetw.h
+req.header: none
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1803 [desktop apps \| UWP apps]
@@ -28,9 +28,9 @@ topic_type:
 - APIRef
 - kbSyntax
 api_type:
-- HeaderDef
+- DllExport
 api_location:
-- ntetw.h
+- ntdll.dll
 api_name:
 - EtwEventUnregister
 targetos: Windows
@@ -40,40 +40,30 @@ req.redist:
 
 # EtwEventUnregister function
 
-
 ## Description
 
+Unregisters an event.
 
-The 
-<b>EtwEventUnregister</b> unregisters an event.
-			
+## Syntax
 
-Providers can only call this function from their 
-<a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
-
+```
+ULONG EVNTAPI EtwEventUnregister(
+    [in] REGHANDLE RegHandle
+);
+```
 
 ## Parameters
-
-
-
 
 ### RegHandle [in]
 
 Handle to an event.
 
-
 ## Returns
-
-
 
 Returns an HRESULT.
 
-
-
-
-
 ## Remarks
 
-
+Providers can only call this function from their [ControlCallback](/windows/desktop/ETW/controlcallback) function.
 
 ## See also

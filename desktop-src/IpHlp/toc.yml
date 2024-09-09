@@ -84,7 +84,7 @@
       - name: "SCOPE_LEVEL"
         href: /windows/win32/api/Ws2def/ne-ws2def-scope_level
       - name: "TCP_BOOLEAN_OPTIONAL"
-        href: /windows/win32/api/Tcpestats/ne-tcpestats-_tcp_boolean_optional
+        href: /windows/win32/api/tcpestats/ne-tcpestats-tcp_boolean_optional
       - name: "TCP_ESTATS_TYPE"
         href: /windows/win32/api/Tcpestats/ne-tcpestats-tcp_estats_type
       - name: "TCP_SOFT_ERROR"
@@ -455,7 +455,7 @@
       - name: "UnenableRouter"
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-unenablerouter
       - name: "UnregisterInterfaceTimestampConfigChange"
-        href: /windows/win32/api/iphlpapi/unregisterinterfacetimestampconfigchange
+        href: /windows/win32/api/iphlpapi/nf-iphlpapi-unregisterinterfacetimestampconfigchange
     - name: "IP Helper structures"
       href: ip-helper-structures.md
       items: 

@@ -18,7 +18,7 @@ When these subtypes are used, set the [MF\_MT\_MAJOR\_TYPE](mf-mt-major-type-att
 | GUID | Description | Format Tag (FOURCC) | 
 |------|-------------|---------------------|
 | <strong>MEDIASUBTYPE_RAW_AAC1</strong> | Advanced Audio Coding (AAC).<br /> This subtype is used for AAC contained in an AVI file with an audio format tag equal to 0x00FF. <br /> For more information, see <a href="aac-decoder.md"><strong>AAC Decoder</strong></a>.<br /> Defined in wmcodecdsp.h<br /> | WAVE_FORMAT_RAW_AAC1 (0x00FF) | 
-| <strong>MFAudioFormat_AAC</strong> | Advanced Audio Coding (AAC).<br /><blockquote>[!Note]<br />Equivalent to MEDIASUBTYPE_MPEG_HEAAC, defined in wmcodecdsp.h.</blockquote><br /> The stream can contain raw AAC data or AAC data in an Audio Data Transport Stream (ADTS) stream.<br /> For more information, see:<br /><ul><li><a href="aac-decoder.md"><strong>AAC Decoder</strong></a></li><li><a href="mpeg-4-file-source.md">MPEG-4 File Source</a></li></ul> | WAVE_FORMAT_MPEG_HEAAC (0x1610) | 
+| **MFAudioFormat_AAC** | Advanced Audio Coding (AAC).<br> **Note:** Equivalent to MEDIASUBTYPE_MPEG_HEAAC, defined in wmcodecdsp.h.<br> The stream can contain raw AAC data or AAC data in an Audio Data Transport Stream (ADTS) stream.<br> For more information, see:<br>- [**AAC Decoder**](aac-decoder.md)<br>- [MPEG-4 File Source](mpeg-4-file-source.md)<br> | WAVE_FORMAT_MPEG_HEAAC (0x1610) | 
 | <strong>MFAudioFormat_ADTS</strong> | Not used. | WAVE_FORMAT_MPEG_ADTS_AAC (0x1600) | 
 | <strong>MFAudioFormat_ALAC</strong> | Apple Lossless Audio Codec<br /> Supported in Windows 10 and later.<br /> | WAVE_FORMAT_ALAC (0x6C61) | 
 | <strong>MFAudioFormat_AMR_NB</strong> | Adaptative Multi-Rate audio<br /> Supported in Windows 8.1 and later.<br /> | WAVE_FORMAT_AMR_NB | 

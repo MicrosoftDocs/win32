@@ -300,7 +300,7 @@ HRESULT AddItemsToCommonPlaces()
 
 ### State Persistence
 
-Prior to Windows Vista, a state, such as the last visited folder, was saved on a per-process basis. However, that information was used regardless of the particular action. For example, a video editing application would present the same folder in the **Render As** dialog as is would in the **Import Media** dialog. In Windows Vista you can be more specific through the use of GUIDs. To assign a **GUID** to the dialog, call [**iFileDialog::SetClientGuid**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid).
+Prior to Windows Vista, a state, such as the last visited folder, was saved on a per-process basis. However, that information was used regardless of the particular action. For example, a video editing application would present the same folder in the **Render As** dialog as it would in the **Import Media** dialog. In Windows Vista you can be more specific through the use of GUIDs. To assign a **GUID** to the dialog, call [**iFileDialog::SetClientGuid**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid).
 
 ### Multiselect Capabilities
 

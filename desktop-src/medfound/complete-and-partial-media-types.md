@@ -23,7 +23,7 @@ For compressed (or *encoded*) streams, the definition of a complete media type i
 
 ## Partial Media Types
 
-A *partial* media type is lacks one or more of the attributes needed for a complete media type. When enumerating possible media types, a Microsoft Media Foundation component may leave a value unset, to indicate that it can handle any value. For example, a video processor might leave the [**MF\_MT\_FRAME\_RATE**](mf-mt-frame-rate-attribute.md) attribute unset, to indicate that it can handle any frame rate, and will perform a frame-rate conversion if necessary.
+A *partial* media type lacks one or more of the attributes needed for a complete media type. When enumerating possible media types, a Microsoft Media Foundation component may leave a value unset, to indicate that it can handle any value. For example, a video processor might leave the [**MF\_MT\_FRAME\_RATE**](mf-mt-frame-rate-attribute.md) attribute unset, to indicate that it can handle any frame rate, and will perform a frame-rate conversion if necessary.
 
 If you create a partial media type, you should still include as much information as you know. However, a media type must not include information that is uncertain. It is better for information to be missing than wrong.
 

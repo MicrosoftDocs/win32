@@ -20,7 +20,7 @@ The following table provides codec identification information.
 |------------------------|--------------------|
 | Formal Name(s)         | DirectDraw Surface |
 | File Name Extension(s) | dds                |
-| MIME type              | image/vnd-ms.dds   |
+| MIME type              | image/vnd.ms-dds   |
 
 
 

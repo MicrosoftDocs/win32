@@ -18,7 +18,7 @@ ms.date: 07/29/2019
 # DODownloadPropertyEx enumeration
 
 > [!IMPORTANT]
-> The **DODownloadPropertyEx** enumeration is deprecated. Instead, use the [DODownloadProperty](../deliveryoptimizationdownloadtypes/ne-deliveryoptimizationdownloadtypes-dodownloadproperty.md) enumeration with [IDODownload::GetProperty](../do/nf-do-idodownload-getproperty.md) and [IDODownload::SetProperty](../do/nf-do-idodownload-setproperty.md).
+> The **DODownloadPropertyEx** enumeration is deprecated. Instead, use the [DODownloadProperty](/windows/win32/api/deliveryoptimization/ne-deliveryoptimization-dodownloadproperty) enumeration with [IDODownload::GetProperty](/windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-getproperty) and [IDODownload::SetProperty](/windows/win32/api/deliveryoptimization/nf-deliveryoptimization-idodownload-setproperty).
 
 The **DODownloadPropertyEx** enumeration specifies the ID of extended properties for the Delivery Optimization download operation. This enumeration is used by the **IDODownloadInternal** interface, and a **VARIANT** value is used to get and set the property value.
 

@@ -47,7 +47,7 @@ You can import the localized Error and ActionText tables into your database by u
 | 1051             | 0x41B                | 1250            | SKY          | Slovak - Slovakia             | sk-SK            |
 | 1053\*           | 0x41D                | 1252            | SVE          | Swedish - Sweden              | sv-SE            |
 | 1054             | 0x41E                | 874             | THA          | Thai - Thailand               | th-TH            |
-| 1055             | 0x41F                | 1254            | TRK          | Turkish - Turkey              | tr-TR            |
+| 1055             | 0x41F                | 1254            | TRK          | Turkish - Türkiye              | tr-TR            |
 | 1060             | 0x424                | 1250            | SLV          | Slovenian - Slovenia          | sl-SI            |
 | 1066             | 0x42A                | 1258            | VIT          | Vietnamese - Viet Nam         | vi-VN            |
 | 1069             | 0x42D                | 1252            | EUQ          | Basque (Basque)               | eu-ES            |

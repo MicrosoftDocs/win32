@@ -159,6 +159,8 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
             break; 
  
         // Process other messages. 
+    }
+}
         
 ```
 

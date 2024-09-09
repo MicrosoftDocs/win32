@@ -34,7 +34,7 @@ System.Threading.Thread.CurrentThread.ApartmentState = System.Threading.Apartmen
 
 
 
-In managed code, to avoid a memory leak you must explicitly call the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method on any Tablet PC control to which an event handler has been attached before the control goes out of scope.
+In managed code, to avoid a memory leak you must explicitly call the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1&preserve-view=true) method on any Tablet PC control to which an event handler has been attached before the control goes out of scope.
 
 The following sections describe ink controls and the use of ink controls in applications:
 

@@ -1,6 +1,6 @@
 ---
 title: CD3DX12_RESOURCE_DESC1 structure (D3dx12.h)
-description: A helper structure to enable easy initialization of a [**D3DX12_RESOURCE_DESC1**](/windows/win32/api/d3d12/ns-d3d12-d3d12_view_instancing_desc) structure.
+description: A helper structure to enable easy initialization of a [**D3D12_RESOURCE_DESC1**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc1) structure.
 keywords:
 - CD3DX12_RESOURCE_DESC1 structure
 topic_type:
@@ -17,7 +17,7 @@ ms.date: 07/29/2021
 
 # CD3DX12_RESOURCE_DESC1 structure
 
-A helper structure to enable easy initialization of a [**D3DX12_RESOURCE_DESC1**](/windows/win32/api/d3d12/D3DX12_RESOURCE_DESC1/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc1) structure.
+A helper structure to enable easy initialization of a [**D3D12_RESOURCE_DESC1**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc1) structure.
 
 ## Syntax
 
@@ -97,7 +97,7 @@ Default constructor. Creates a new, uninitialized, instance of a **CD3DX12_RESOU
 
 `CD3DX12_RESOURCE_DESC1(const D3D12_RESOURCE_DESC1&)`
 
-Constructor that creates a new instance of a **CD3DX12_RESOURCE_DESC1** initialized with the contents of a [**D3DX12_RESOURCE_DESC1**](/windows/win32/api/d3d12/D3DX12_RESOURCE_DESC1/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc1) structure.
+Constructor that creates a new instance of a **CD3DX12_RESOURCE_DESC1** initialized with the contents of a [**D3D12_RESOURCE_DESC1**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc1) structure.
 
 `CD3DX12_RESOURCE_DESC1(D3D12_RESOURCE_DIMENSION, UINT64, UINT64, UINT, UINT16, UINT16, DXGI_FORMAT, UINT, UINT, D3D12_TEXTURE_LAYOUT, D3D12_RESOURCE_FLAGS, UINT = 0, UINT = 0, UINT = 0)`
 
@@ -244,5 +244,5 @@ A free function that returns `true` if the two parameters are member-wise not eq
 
 ## See also
 
-* [D3DX12_RESOURCE_DESC1](/windows/win32/api/d3d12/D3DX12_RESOURCE_DESC1/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc1)
+* [D3D12_RESOURCE_DESC1](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc1)
 * [Helper structures for Direct3D 12](helper-structures-for-d3d12.md)

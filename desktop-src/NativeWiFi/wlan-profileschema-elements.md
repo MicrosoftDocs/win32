@@ -1,69 +1,82 @@
 ---
+title: WLAN_profile schema elements
 description: The WLAN\_profile schema defines the following elements.
-ms.assetid: 9eb0f446-1202-4770-b09e-250e83524119
-title: WLAN_profile Schema Elements
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 06/25/2023
 topic_type: 
-- kbArticle
+- APIRef
+- kbSyntax
 api_name: 
 api_type: 
+- Schema
 api_location: 
+ms.assetid: 9eb0f446-1202-4770-b09e-250e83524119
 ---
 
-# WLAN\_profile Schema Elements
+# WLAN_profile schema elements
 
-The WLAN\_profile schema defines the following elements. Most elements are in the namespace `https://www.microsoft.com/networking/WLAN/profile/v1`, except for [**FIPSMode (authEncryption)**](wlan-profileschema-fipsmode-authencryption-element.md), which is in the namespace `https://www.microsoft.com/networking/WLAN/profile/v2`.
+The WLAN\_profile schema defines the following elements. Most elements are in the namespace `https://www.microsoft.com/networking/WLAN/profile/v1`, with some exceptions. For example, [**FIPSMode (authEncryption)**](wlan-profileschema-authencryption-security-element.md#fipsmode) is in the namespace `https://www.microsoft.com/networking/WLAN/profile/v2`.
 
 The following list shows the defined elements in the order in which the elements appear in a profile. The ordering of elements is enforced. Not all elements are in every profile, as some elements are optional.
 
-This list does not show all possible elements that can appear in a wireless profile, as elements can be added in **xs:any** insertion points.
+This list doesn't show all possible elements that can appear in a wireless profile, since elements can be added in **xs:any** insertion points.
 
--   [**WLANProfile**](wlan-profileschema-wlanprofile-element.md)
-    -   [**name (WLANProfile)**](wlan-profileschema-name-wlanprofile-element.md)
-    -   [**SSIDConfig (WLANProfile)**](wlan-profileschema-ssidconfig-wlanprofile-element.md)
-        -   [**SSID (SSIDConfig)**](wlan-profileschema-ssid-ssidconfig-element.md)
-            -   [**hex (SSID)**](wlan-profileschema-hex-ssid-element.md)
-            -   [**name (SSID)**](wlan-profileschema-name-ssid-element.md)
-        -   [**nonBroadcast (SSIDConfig)**](wlan-profileschema-nonbroadcast-ssidconfig-element.md)
-    -   [**Hotspot2 (WLANProfile)**](wlan-profileschema-hotspot2-element.md)
-        -   [**DomainName (Hotspot2)**](wlan-profileschema-hotspot2-domainname-element.md)
-        -   [**NAIRealm (Hotspot2)**](wlan-profileschema-hotspot2-nairealm-element.md)
-        -   [**Network3GPP (Hotspot2)**](wlan-profileschema-hotspot2-network3gpp-element.md)
-        -   [**RoamingConsortium (Hotspot2)**](wlan-profileschema-hotspot2-roamingconsortium-element.md)
-    -   [**connectionType (WLANProfile)**](wlan-profileschema-connectiontype-wlanprofile-element.md)
-    -   [**connectionMode (WLANProfile)**](wlan-profileschema-connectionmode-wlanprofile-element.md)
-    -   [**autoSwitch (WLANProfile)**](wlan-profileschema-autoswitch-wlanprofile-element.md)
-    -   [**MSM (WLANProfile)**](wlan-profileschema-msm-wlanprofile-element.md)
-        -   [**connectivity (MSM)**](wlan-profileschema-connectivity-msm-element.md)
-            -   [**phyType (connectivity)**](wlan-profileschema-phytype-connectivity-element.md)
-        -   [**security (MSM)**](wlan-profileschema-security-msm-element.md)
-            -   [**authEncryption (security)**](wlan-profileschema-authencryption-security-element.md)
-                -   [**authentication (authEncryption)**](wlan-profileschema-authentication-authencryption-element.md)
-                -   [**encryption (authEncryption)**](wlan-profileschema-encryption-authencryption-element.md)
-                -   [**useOneX (authEncryption)**](wlan-profileschema-useonex-authencryption-element.md)
-                -   [**FIPSMode (authEncryption)**](wlan-profileschema-fipsmode-authencryption-element.md)
-            -   [**sharedKey (security)**](wlan-profileschema-sharedkey-security-element.md)
-                -   [**keyType (sharedKey)**](wlan-profileschema-keytype-sharedkey-element.md)
-                -   [**protected (sharedKey)**](wlan-profileschema-protected-sharedkey-element.md)
-                -   [**keyMaterial (sharedKey)**](wlan-profileschema-keymaterial-sharedkey-element.md)
-            -   [**keyIndex (security)**](wlan-profileschema-keyindex-security-element.md)
-            -   [**PMKCacheMode (security)**](wlan-profileschema-pmkcachemode-security-element.md)
-            -   [**PMKCacheTTL (security)**](wlan-profileschema-pmkcachettl-security-element.md)
-            -   [**PMKCacheSize (security)**](wlan-profileschema-pmkcachesize-security-element.md)
-            -   [**preAuthMode (security)**](wlan-profileschema-preauthmode-security-element.md)
-            -   [**preAuthThrottle (security)**](wlan-profileschema-preauththrottle-security-element.md)
-    -   [**IHV (WLANProfile)**](wlan-profileschema-ihv-wlanprofile-element.md)
-        -   [**OUIHeader (IHV)**](wlan-profileschema-ouiheader-ihv-element.md)
-            -   [**OUI (OUIHeader)**](wlan-profileschema-oui-ouiheader-element.md)
-            -   [**type (OUIHeader)**](wlan-profileschema-type-ouiheader-element.md)
-        -   [**connectivity (IHV)**](wlan-profileschema-connectivity-ihv-element.md)
-        -   [**security (IHV)**](wlan-profileschema-security-ihv-element.md)
-        -   [**useMSOneX (IHV)**](wlan-profileschema-usemsonex-ihv-element.md)
+> [!NOTE]
+> The **OneX** configuration parameters must be present immediately under `security` (MSM) if the `useOneX` (authEncryption) flag is set to "true".
 
- 
+## All elements
 
- 
-
-
-
+* [**WLANProfile**](./wlan-profileschema-wlanprofile-element.md)
+  * [**name (WLANProfile)**](./wlan-profileschema-wlanprofile-element.md#name)
+  * [**SSIDConfig (WLANProfile)**](./wlan-profileschema-ssidconfig-wlanprofile-element.md)
+    * [**SSID (SSIDConfig)**](./wlan-profileschema-ssid-ssidconfig-element.md)
+      * [**hex (SSID)**](./wlan-profileschema-ssid-ssidconfig-element.md#hex)
+      * [**name (SSID)**](./wlan-profileschema-ssid-ssidconfig-element.md#name)
+    * [**SSIDPrefix (SSIDConfig)**](./wlan-profileschema-ssidprefix-ssidconfig-element.md)
+      * [**hex (SSIDPrefix)**](./wlan-profileschema-ssidprefix-ssidconfig-element.md#hex)
+      * [**name (SSIDPrefix)**](./wlan-profileschema-ssidprefix-ssidconfig-element.md#name)
+    * [**nonBroadcast (SSIDConfig)**](./wlan-profileschema-ssidconfig-wlanprofile-element.md#nonbroadcast)
+  * [**Hotspot2 (WLANProfile)**](./wlan-profileschema-hotspot2-wlanprofile-element.md)
+    * [**DomainName (Hotspot2)**](./wlan-profileschema-hotspot2-wlanprofile-element.md#domainname)
+    * [**NAIRealm (Hotspot2)**](./wlan-profileschema-nairealm-hotspot2-element.md)
+      * [**name (NAIRealm)**](./wlan-profileschema-nairealm-hotspot2-element.md#name)
+    * [**Network3GPP (Hotspot2)**](./wlan-profileschema-network3gpp-hotspot2-element.md)
+      * [**PLMNID (Network3GPP)**](./wlan-profileschema-network3gpp-hotspot2-element.md#plmnid)
+    * [**RoamingConsortium (Hotspot2)**](./wlan-profileschema-roamingconsortium-hotspot2-element.md)
+      * [**OUI (RoamingConsortium)**](./wlan-profileschema-roamingconsortium-hotspot2-element.md#oui)
+  * [**connectionType (WLANProfile)**](./wlan-profileschema-wlanprofile-element.md#connectiontype)
+  * [**connectionMode (WLANProfile)**](./wlan-profileschema-wlanprofile-element.md#connectionmode)
+  * [**autoSwitch (WLANProfile)**](./wlan-profileschema-wlanprofile-element.md#autoswitch)
+  * [**MSM (WLANProfile)**](./wlan-profileschema-msm-wlanprofile-element.md)
+    * [**connectivity (MSM)**](./wlan-profileschema-connectivity-msm-element.md)
+      * [**phyType (connectivity)**](./wlan-profileschema-connectivity-msm-element.md#phytype)
+      * [**QoSDSCPToUPMappingAllowed (connectivity)**](./wlan-profileschema-connectivity-msm-element.md#qosdscptoupmappingallowed)
+    * [**security (MSM)**](./wlan-profileschema-security-msm-element.md)
+      * [**authEncryption (security)**](./wlan-profileschema-authencryption-security-element.md)
+        * [**authentication (authEncryption)**](./wlan-profileschema-authencryption-security-element.md#authentication)
+        * [**encryption (authEncryption)**](./wlan-profileschema-authencryption-security-element.md#encryption)
+        * [**useOneX (authEncryption)**](./wlan-profileschema-authencryption-security-element.md#useonex)
+        * [**FIPSMode (authEncryption)**](./wlan-profileschema-authencryption-security-element.md#fipsmode)
+        * [**transitionMode (authEncryption)**](./wlan-profileschema-authencryption-security-element.md#transitionmode)
+      * [**sharedKey (security)**](./wlan-profileschema-sharedkey-security-element.md)
+        * [**keyType (sharedKey)**](./wlan-profileschema-sharedkey-security-element.md#keytype)
+        * [**protected (sharedKey)**](./wlan-profileschema-sharedkey-security-element.md#protected)
+        * [**keyMaterial (sharedKey)**](./wlan-profileschema-sharedkey-security-element.md#keymaterial)
+      * [**keyIndex (security)**](./wlan-profileschema-security-msm-element.md#keyindex)
+      * [**PMKCacheMode (security)**](./wlan-profileschema-security-msm-element.md#pmkcachemode)
+      * [**PMKCacheTTL (security)**](./wlan-profileschema-security-msm-element.md#pmkcachettl)
+      * [**PMKCacheSize (security)**](./wlan-profileschema-security-msm-element.md#pmkcachesize)
+      * [**preAuthMode (security)**](./wlan-profileschema-security-msm-element.md#preauthmode)
+      * [**preAuthThrottle (security)**](./wlan-profileschema-security-msm-element.md#preauththrottle)
+      * [**OneX**](/windows/win32/nativewifi/onexschema-onex-element)
+  * [**IHV (WLANProfile)**](./wlan-profileschema-ihv-wlanprofile-element.md)
+    * [**OUIHeader (IHV)**](./wlan-profileschema-ouiheader-ihv-element.md)
+      * [**OUI (OUIHeader)**](./wlan-profileschema-ouiheader-ihv-element.md#oui)
+      * [**type (OUIHeader)**](./wlan-profileschema-ouiheader-ihv-element.md#type)
+    * [**connectivity (IHV)**](./wlan-profileschema-ihv-wlanprofile-element.md#connectivity)
+    * [**security (IHV)**](./wlan-profileschema-ihv-wlanprofile-element.md#security)
+    * [**useMSOneX (IHV)**](./wlan-profileschema-ihv-wlanprofile-element.md#usemsonex)
+  * [**MacRandomization (WLANProfile)**](./wlan-profileschema-macrandomization-wlanprofile-element.md)
+    * [**enableRandomization (MacRandomization)**](./wlan-profileschema-macrandomization-wlanprofile-element.md#enablerandomization)
+    * [**randomizeEveryday (MacRandomization)**](./wlan-profileschema-macrandomization-wlanprofile-element.md#randomizeeveryday)
+    * [**randomizationSeed (MacRandomization)**](./wlan-profileschema-macrandomization-wlanprofile-element.md#randomizationseed)

@@ -7,17 +7,16 @@ keywords:
 - connection caching ADSI
 - connection caching
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 03/12/2024
 ---
 
 # Connection Caching
 
-When a connection to a server is made, the connection handle is cached on the client computer for that process until that connection is closed. If the same server, port, and credentials are used in a subsequent connection, and only the **ADS\_FAST\_BIND** or **ADS\_SERVER\_BIND** authentication flags differ, ADSI will reuse the existing connection. ADSI performs this connection caching on a per-process basis.
+When a connection to a server is made, the connection handle is cached on the client computer for that process until that connection is closed. If the same server, port, and credentials are used in a subsequent connection, and only the **ADS_FAST_BIND** or **ADS_SERVER_BIND** authentication flags differ, ADSI will reuse the existing connection. ADSI performs this connection caching on a per-process basis.
 
 To increase performance, reuse existing connections when possible.
 
-The following code example shows how connection caching works.
-
+The following is an example using IADs in Visual Basic (also see [Using the IADs Interfaces](using-the-iads-interfaces.md)):
 
 ```VB
 Dim cachedConn As IADs
@@ -57,12 +56,43 @@ Set cachedConn = Nothing
 ' The connection to MyMachine is closed.
 ```
 
+The following alternative example shows how connection caching works using the [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) object in .NET:
 
+```csharp
+// Connect to the server and maintain this handle to cache the connection.
+using (DirectoryEntry? cachedConn = new DirectoryEntry("LDAP://MyMachine/DC=MyDomain,DC=Fabrikam,DC=com")) 
+{
+    DirectoryEntry? secondConn;
+    string? cachedName;
+    string? objName;
 
- 
+    cachedName = cachedConn.Properties["distinguishedName"].Value?.ToString();
+    Debug.WriteLine(cachedName);
 
- 
+    // Reuse the connection to MyMachine opened by cachedConn.
+    // Be aware that this line executes quickly because it is not required
+    // to transmit over the network again.
+    using (secondConn = new DirectoryEntry("LDAP://MyMachine/CN=Bob,CN=Users,DC=MyDomain,DC=Fabrikam,DC=com"))
+    {
+        objName = secondConn.Properties["distinguishedName"].Value?.ToString();
+        Debug.WriteLine(objName);
 
+        // Release the second connection.
+        secondConn = null;
 
+        // Reuse the connection to MyMachine opened by cachedConn again.
+        secondConn = new DirectoryEntry("LDAP://MyMachine/CN=Administrator,CN=Users,DC=MyDomain,DC=Fabrikam,DC=com");
 
+        objName = secondConn.Properties["distinguishedName"].Value?.ToString();
+        Debug.WriteLine(objName);
+    }
+    // Release and dispose the second connection
+}
+// The connection to MyMachine is closed and disposed
+```
 
+## See also
+
+[DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry)
+
+[Using the IADs Interfaces](using-the-iads-interfaces.md)

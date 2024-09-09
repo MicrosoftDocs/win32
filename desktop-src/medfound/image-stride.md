@@ -39,8 +39,8 @@ void ProcessVideoImage(
 {
     for (DWORD y = 0; y < dwHeightInPixels; y++)
     {
-        SOURCE_PIXEL_TYPE *pSrcPixel = (SOURCE_PIXEL_TYPE*)pDestScanLine0;
-        DEST_PIXEL_TYPE *pDestPixel = (DEST_PIXEL_TYPE*)pSrcScanLine0;
+        SOURCE_PIXEL_TYPE *pSrcPixel = (SOURCE_PIXEL_TYPE*)pSrcScanLine0;
+        DEST_PIXEL_TYPE *pDestPixel = (DEST_PIXEL_TYPE*)pDestScanLine0;
 
         for (DWORD x = 0; x < dwWidthInPixels; x +=2)
         {
@@ -67,7 +67,7 @@ The general idea is to process one row at a time, iterating over each pixel in t
 
 This example calls a hypothetical function named TransformPixelValue for each pixel. This could be any function that calculates a target pixel from a source pixel. Of course, the exact details will depend on the particular task. For example, if you have a planar YUV format, you must access the chroma planes independently from the luma plane; with interlaced video, you might need to process the fields separately; and so forth.
 
-To give a more concrete example, the following code converts a 32-bit RGB image into an AYUV image. The RGB pixels are accessed using an [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) structure, and the AYUV pixels are accessed using a [**DXVA2\_AYUVSample8**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_ayuvsample8) structure structure.
+To give a more concrete example, the following code converts a 32-bit RGB image into an AYUV image. The RGB pixels are accessed using an [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) structure, and the AYUV pixels are accessed using a [**DXVA2\_AYUVSample8**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_ayuvsample8) structure.
 
 
 ```C++

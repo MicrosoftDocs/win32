@@ -401,8 +401,6 @@ In C++, set the authentication at **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** either 
 
 ## Examples
 
-The [Join a computer to a domain](https://Gallery.TechNet.Microsoft.Com/Join-a-computer-to-a-domain-6e19d905) PowerShell example joins a computer to a domain.
-
 The following VBScript code example joins a computer to a domain and creates the computer's account in Active Directory.
 
 

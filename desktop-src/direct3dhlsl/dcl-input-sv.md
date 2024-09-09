@@ -17,7 +17,7 @@ Declares a shader-input register that expects a [system-value](dx-graphics-hlsl-
 
 
 
-| dcl\_input\_sv v*N\[.mask\]*, *systemValueName\[, interpolationMode\]* |
+| dcl\_input\_sv vN\[.mask\], systemValueName\[, interpolationMode\] |
 |------------------------------------------------------------------------|
 
 
@@ -29,7 +29,7 @@ Declares a shader-input register that expects a [system-value](dx-graphics-hlsl-
 
 | Item | Description | 
 |------|-------------|
-| <span id="vN_.mask_"></span><span id="vn_.mask_"></span><span id="VN_.MASK_"></span>v<em>N[.mask]</em><br /> | [in] A vertex data register. <br /><ul><li><em>N</em> is an integer that identifies the register number.</li><li><em>[.mask]</em> is an optional component mask (.xyzw) that specifies which of the register components to use.</li></ul> | 
+| <span id="vN"></span><span id="vn"></span><span id="VN"></span>v*N*<br /> | [in] A vertex data register. <br /><ul><li><em>N</em> is an integer that identifies the register number.</li><li><em>[.mask]</em> is an optional component mask (.xyzw) that specifies which of the register components to use.</li></ul> | 
 | <span id="systemValueName"></span><span id="systemvaluename"></span><span id="SYSTEMVALUENAME"></span><em>systemValueName</em><br /> | [in] The system-value name which is a string (see <a href="dx-graphics-hlsl-semantics.md">system-value semantics</a>) without the "SV_" prefix.<br /> | 
 | <span id="interpolationMode"></span><span id="interpolationmode"></span><span id="INTERPOLATIONMODE"></span><em>interpolationMode</em><br /> | [in] Optional. The interpolation mode which affects how values are calculated during rasterization; the mode is only used by a pixel shader. It can be one of the following values: <br /><ul><li>constant - do not interpolate between register values.</li><li>linear - interpolate linearly between register values.</li><li>linearCentroid - same as linear but centroid clamped when multisampling.</li><li>linearNoperspective - same as linear but with no perspective correction.</li><li>linearNoperspectiveCentroid - same as linear but with no perspective correction and centroid clamped when multisampling.</li></ul> | 
 

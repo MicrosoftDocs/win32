@@ -6,7 +6,7 @@ keywords:
 - Bluetooth Bluetooth , described
 - Bluetooth Bluetooth , about
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/09/2024
 ---
 
 # About Bluetooth
@@ -21,7 +21,7 @@ Key Bluetooth features include:
 
 Bluetooth on Windows provides core services that are similar to those exposed by Transmission Control Protocol (the TCP part of TCP/IP). Like many networking protocols and services, Bluetooth connectivity and data transfer are programmed through Windows Sockets function calls, using common Windows Sockets programming techniques and specific Bluetooth extensions. However, because significant differences exist between a wired, fixed network and a wireless ad-hoc network, Bluetooth provides extensions such as service/device discovery and notification that enable applications to operate properly in the wireless environment. These extensions also pave the way for simple porting to similar technologies, such as IrDA, or future wireless transports.
 
-Microsoft provides support for Bluetooth on Windows XP with Service Pack 1 (SP1) and later, on Windows XP Embedded with Service Pack 2, and on Windows CE. Bluetooth applications that run on Windows XP should be able to run on a Windows XP Embedded-based run-time image that includes the required dependencies. For more information about Windows XP Embedded, see the Windows XP Embedded Help documentation on MSDN. For more information about Windows CE programming, consult the Windows CE SDK.
+Microsoft provides support for Bluetooth on Windows XP with Service Pack 1 (SP1) and later, on Windows XP Embedded with Service Pack 2, and on Windows CE. Bluetooth applications that run on Windows XP should be able to run on a Windows XP Embedded-based run-time image that includes the required dependencies. For more information see [Windows XP Embedded](/lifecycle/products/windows-xp-embedded). For more information about Windows CE programming, consult the [Windows CE SDK](https://www.microsoft.com/download/details.aspx?id=17310).
 
 Microsoft provides two approaches for programming Bluetooth on Windows:
 

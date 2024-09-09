@@ -48,7 +48,7 @@ Constructor that creates a new instance of a **CD3DX12_RAYTRACING_PIPELINE_CONFI
 
 `Config(UINT, D3D12_RAYTRACING_PIPELINE_FLAGS)`
 
-Function for configuring the limit on ray recursion for the raytracing pipeline. Also takes a [D3D12_RAYTRACING_PIPELINE_FLAGS](/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_flags) parameter.
+Function for configuring the limit on ray recursion for the raytracing pipeline. Also takes a [D3D12_RAYTRACING_PIPELINE_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_pipeline_flags) parameter.
 
 `Type`
 

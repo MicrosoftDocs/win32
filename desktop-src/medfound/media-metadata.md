@@ -28,7 +28,7 @@ The following table compares the features and limitations of each metadata API.
 
 | Media Foundation v1 Metadata | Shell Metadata | 
 |------------------------------|----------------|
-| Requires Windows Vista or later. | Requires Windows 7.<blockquote>[!Note]<br />Shell metadata in general does not require Windows 7, but Media Foundation did not support Shell metadata prior to Windows 7.</blockquote><br /> | 
+| Requires Windows Vista or later. | Requires Windows 7. **Note:** Shell metadata in general does not require Windows 7, but Media Foundation did not support Shell metadata prior to Windows 7.<br> | 
 | Properties are not compatible with Shell property system. | Properties are compatible with the Shell property system. | 
 | Properties can apply to the entire file, or at the stream level. | Only file-level properties are supported. Stream-level properties are not supported. | 
 | Properties can have values in multiple languages. | Values in multiple languages are not supported. | 

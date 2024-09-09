@@ -441,7 +441,7 @@ Values include the following:
 
 ## Examples
 
-The [List Logon Session Information](https://Gallery.TechNet.Microsoft.Com/scriptcenter/64cc7ab5-f1cd-460c-9d37-e6f989444de3) PowerShell sample returns information about logon sessions associated with the user currently logged on to a computer.
+The List Logon Session Information (`List Logon Session Information.ps1`) PowerShell sample returns information about logon sessions associated with the user currently logged on to a computer.
 
 The following PowerShell example checks for remote session open for a specified user.
 

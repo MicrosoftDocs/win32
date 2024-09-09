@@ -3,7 +3,7 @@ description: The INonDelegatingUnknown interface is a version of IUnknown that i
 ms.assetid: a2faf9d1-2130-4c6c-8fcd-3e118d592b7f
 title: INonDelegatingUnknown (Combase.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -16,9 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
+ms.custom: UpdateFrequency5
 ---
 
 # INonDelegatingUnknown
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The `INonDelegatingUnknown` interface is a version of **IUnknown** that is renamed to enable support for both nondelegating and delegating **IUnknown** interfaces in the same COM object.
 
@@ -28,9 +31,9 @@ The `INonDelegatingUnknown` interface is a version of **IUnknown** that is renam
 ```C++
 interface INonDelegatingUnknown
 {
-    virtual HRESULT NonDelegatingQueryInterface) (REFIID riid, LPVOID *ppv) PURE;
-    virtual ULONG NonDelegatingAddRef)(void) PURE;
-    virtual ULONG NonDelegatingRelease)(void) PURE;
+    virtual HRESULT NonDelegatingQueryInterface(REFIID riid, LPVOID *ppv) PURE;
+    virtual ULONG NonDelegatingAddRef(void) PURE;
+    virtual ULONG NonDelegatingRelease(void) PURE;
 };
 ```
 

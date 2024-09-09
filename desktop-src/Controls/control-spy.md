@@ -55,7 +55,7 @@ The **Size/Color** tab can be used to change the size of the control as well as 
 
 ## Where to Get Control Spy
 
-You can download [Control Spy 2.0](https://www.microsoft.com/download/details.aspx?id=4635) from MSDN. Both versions are contained in the download.
+Download [Control Spy 2.0](https://www.microsoft.com/download/details.aspx?id=4635) (both versions are contained in the download).
 
 ## Related topics
 

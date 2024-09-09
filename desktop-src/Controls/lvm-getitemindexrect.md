@@ -34,7 +34,7 @@ A pointer to a [**LVITEMINDEX**](/windows/win32/api/commctrl/ns-commctrl-lvitemi
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure to receive the coordinates. The calling process is responsible for allocating this structure. *lParam* must not be **NULL**. Set the **top** member to the index of the subitem. Set the **left** member to one of the following values, indicating the part of the subitem for which the bounding rectangle is to be retrieved.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure to receive the coordinates. The calling process is responsible for allocating this structure. *lParam* must not be **NULL**. Set the **top** member to the index of the subitem. Set the **left** member to one of the following values, indicating the part of the subitem for which the bounding rectangle is to be retrieved.
 
 
 

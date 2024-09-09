@@ -959,6 +959,8 @@
           href: props-system-devices-apppackagefamilyname.md
         - name: "System.Devices.AudioDevice.Microphone.SensitivityInDbfs"
           href: props-system-devices-audiodevice-microphone-sensitivityindbfs.md
+        - name: "System.Devices.AudioDevice.Microphone.SensitivityInDbfs2"
+          href: props-system-devices-audiodevice-microphone-sensitivityindbfs2.md
         - name: "System.Devices.AudioDevice.Microphone.SignalToNoiseRatioInDb"
           href: props-system-devices-audiodevice-microphone-signaltonoiseratioindb.md
         - name: "System.Devices.AudioDevice.RawProcessingSupported"

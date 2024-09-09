@@ -129,7 +129,7 @@ For advanced user installation scenarios, a user may want to specify the games i
 
 Windows provides the [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) function for checking the validity of signed code and is based on the cryptographic services in the operating system. The function is fully documented on MSDN: **WinVerifyTrust** Function.
 
-The following example program on MSDN details the use of the function to determine whether a program executable is signed with a valid certificate: [Example C Program: Verifying the Signature of a PE File](/windows/desktop/SecCrypto/example-c-program--verifying-the-signature-of-a-pe-file).
+For more details on the use of the function to determine whether a program executable is signed with a valid certificate, see [Example C Program: Verifying the Signature of a PE File](/windows/desktop/SecCrypto/example-c-program--verifying-the-signature-of-a-pe-file).
 
 For the purposes of verifying that the signed game executable is trustworthy to be executed from within the loader, the Generic Verify action will suffice:
 
@@ -151,7 +151,7 @@ Verify a file or object using the Authenticode policy provider.
 
 The function takes an input structure argument which contains information that the trust provider needs to process the specified action. Typically, as in the preceding example case, the structure includes information that identifies the object that the trust provider must evaluate.
 
-The format of the structure is specific to the action identifier. The following topic on MSDN details the example structure for the WinTrust provider: [**WINTRUST\_DATA**](/windows/desktop/api/wintrust/ns-wintrust-wintrust_data) Structure.
+The format of the structure is specific to the action identifier. For more details on an example structure for the WinTrust provider, see [**WINTRUST\_DATA**](/windows/desktop/api/wintrust/ns-wintrust-wintrust_data) Structure.
 
 If the trust provider verifies that the subject is trusted for the specified action, the return value is zero. No other value besides zero should be considered a successful return.
 

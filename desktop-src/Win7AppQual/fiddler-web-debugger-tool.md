@@ -4,7 +4,6 @@ ms.assetid: AC23504B-ADFD-4204-954C-79167EBFB31A
 title: Fiddler web debugger tool for Internet Explorer
 ms.topic: article
 ms.date: 01/25/2022
-ms.custom: seo-windows-dev
 ---
 
 # About the Fiddler web debugger tool
@@ -25,6 +24,3 @@ To download the Fiddler add-on, go to the [Internet Explorer add-ons](https://ww
  
 
  
-
-
-

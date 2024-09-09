@@ -4,7 +4,6 @@ description: Here are some of the new additions to Direct2D.
 ms.assetid: BA459FF0-9457-4652-A97C-BD4EC57EC8E2
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # What's new in Direct2D

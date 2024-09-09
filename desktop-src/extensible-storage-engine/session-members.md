@@ -162,7 +162,7 @@ Top
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
-<td><a href="dn351178(v=exchg.10).md">Implicit(Session to JET_SESID)</a></td>
+<td><a href="/windows/win32/extensible-storage-engine/session-implicit-conversion-session-to-jet-sesid">Implicit(Session to JET_SESID)</a></td>
 <td>Implicit conversion operator from a Session to a JET_SESID. This allows a Session to be used with APIs which expect a JET_SESID.</td>
 </tr>
 </tbody>

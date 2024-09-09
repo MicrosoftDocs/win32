@@ -1,14 +1,14 @@
 ---
-title: Hue rotatation effect
+title: Hue rotation effect
 description: Use the hue rotate effect to alter the hue of an image by applying a color matrix based on the rotation angle.
 ms.assetid: D322DB2C-2B8B-4101-BFB2-97E49CAC7BF6
 keywords:
-- hue rotatation effect
+- hue rotation effect
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Hue rotatation effect
+# Hue rotation effect
 
 Use the hue rotate effect to alter the hue of an image by applying a color matrix based on the rotation angle.
 

@@ -12,7 +12,7 @@ Component-wise float16 to float32 conversion.
 
 
 
-| f32tof16 dest\[.mask\], \[-\]src\[.swizzle\] |
+| f32tof16 dest\[.mask\], \[-\]src0\[.swizzle\] |
 |----------------------------------------------|
 
 
@@ -24,7 +24,7 @@ Component-wise float16 to float32 conversion.
 | Item                                                            | Description                                      |
 |-----------------------------------------------------------------|--------------------------------------------------|
 | <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The address of float16 result.<br/> |
-| <span id="src"></span><span id="SRC"></span>*src*<br/>    | \[in\] The float32 value to convert.<br/>  |
+| <span id="src0"></span><span id="SRC0"></span>*src0*<br/>    | \[in\] The float32 value to convert.<br/>  |
 
 
 

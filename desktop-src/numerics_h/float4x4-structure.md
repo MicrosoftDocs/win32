@@ -22,7 +22,7 @@ A 4x4 matrix, used for 3D transforms.
 
 This matrix type uses a row vector layout. The x, y, and z of this matrix's translation vector correspond to the fields m41, m42, m43.
 
-This type is available only in C++. Its .NET equivalent is [System.Numerics.Matrix4x4](/dotnet/api/system.numerics.matrix4x4?view=netframework-4.8).
+This type is available only in C++. Its .NET equivalent is [System.Numerics.Matrix4x4](/dotnet/api/system.numerics.matrix4x4).
 
 ## Constructors
 

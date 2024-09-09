@@ -46,6 +46,3 @@ Sets the slope of the linear function for the green channel.
 [**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
-�
-
-�

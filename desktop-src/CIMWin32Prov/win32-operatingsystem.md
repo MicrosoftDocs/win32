@@ -871,7 +871,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI")
 </dt> </dl>
 
-Multilingual User Interface Pack (MUI Pack ) languages installed on the computer. For example, "en-us". MUI Pack languages are resource files that can be installed on the English version of the operating system. When an MUI Pack is installed, you can can change the user interface language to one of 33 supported languages.
+Multilingual User Interface Pack (MUI Pack ) languages installed on the computer. For example, "en-us". MUI Pack languages are resource files that can be installed on the English version of the operating system. When an MUI Pack is installed, you can change the user interface language to one of 33 supported languages.
 
 </dd> <dt>
 
@@ -1351,7 +1351,7 @@ Storage Server Workgroup Edition (Server Core installation)
 
 </dt> <dd>
 
-Storage Server Workgroup Edition (Server Core installation)
+Storage Server Enterprise Edition (Server Core installation)
 
 </dd> <dt>
 
@@ -1497,6 +1497,28 @@ Windows Server Datacenter Edition (Server Core installation)
 Windows Server Standard Edition (Server Core installation)
 
 </dd> </dl>
+
+</dd> <dt>
+  
+<span id="PRODUCT_ENTERPRISE_FOR_VIRTUAL_DESKTOPS"></span><span id="product_enterprise_for_virtual_desktops"></span>
+
+<span id="PRODUCT_ENTERPRISE_FOR_VIRTUAL_DESKTOPS"></span><span id="product_enterprise_for_virtual_desktops"></span>**PRODUCT\_ENTERPRISE\_FOR\_VIRTUAL\_DESKTOPS** (175)
+
+</dt> <dd>
+
+Windows Enterprise for Virtual Desktops (Azure Virtual Desktop)
+
+</dd> </dl>
+
+</dd> <dt>
+
+<span id="PRODUCT_DATACENTER_SERVER_AZURE_EDITION"></span><span id="product_datacenter_server_azure_edition"></span>
+
+<span id="PRODUCT_DATACENTER_SERVER_AZURE_EDITION"></span><span id="product_datacenter_server_azure_edition"></span>**PRODUCT\_DATACENTER\_SERVER\_AZURE\_EDITION** (407)
+
+</dt> <dd>
+
+Windows Server Datacenter: Azure Edition
 
 </dd> <dt>
 
@@ -3010,7 +3032,7 @@ Data type: **Boolean**
 Access type: Read-only
 </dt> </dl>
 
-If **True**, the physical address extensions (PAE) are enabled by the operating system running on Intel processors. PAE allows applications to address more than 4 GB of physical memory. When PAE is enabled, the operating system uses three-level linear address translation rather than two-level. Providing more physical memory to an application reduces the need to swap memory to the page file and increases performance. To enable, PAE, use the "/PAE" switch in the Boot.ini file. For more information about the Physical Address Extension feature, see <https://Go.Microsoft.Com/FWLink/p/?LinkID=45912>.
+If **True**, the physical address extensions (PAE) are enabled by the operating system running on Intel processors. PAE allows applications to address more than 4 GB of physical memory. When PAE is enabled, the operating system uses three-level linear address translation rather than two-level. Providing more physical memory to an application reduces the need to swap memory to the page file and increases performance. To enable, PAE, use the "/PAE" switch in the Boot.ini file. For more information about the Physical Address Extension feature, see [Physical Address Extension](/windows/win32/memory/physical-address-extension).
 
 </dd> <dt>
 
@@ -3650,12 +3672,6 @@ WMI.OperatingSystem os = new ROOT.CIMV2.win32.OperatingSystem();
 ## Examples
 
 You can find a VBScript example that obtains operating system and processor data from [**Win32\_ComputerSystem**](win32-computersystem.md), [**Win32\_Processor**](win32-processor.md), and **Win32\_OperatingSystem** in the [**Win32\_Processor**](win32-processor.md) topic examples.
-
-The [Generate Exchange Environment Reports using Powershell](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Generate-Exchange-2388e7c9) PowerShell sample on TechNet Gallery uses a **Win32\_OperatingSystem** class as part of a larger application to generate exchange environment reports.
-
-The [Get Server Uptime Using WMI](https://Gallery.TechNet.Microsoft.Com/Get-Server-Uptime-Using-WMI-15aaa8ac) sample in the TechNet Gallery uses the **LastBootupTime** property to determine how long the server has been active. The sample also uses the timeout option to ensure that the WMI call does not hang.
-
-The [WMI Information Retriever](https://Gallery.TechNet.Microsoft.Com/e493376c-1286-456b-bd4b-4ac3b0e9bb45) VBScript code example on the TechNet Gallery uses the **Win32\_OperatingSystem** class to retrieve OS information from a number of remote computers.
 
 The following script obtains the instances of **Win32\_OperatingSystem** in the default "Root\\CIMv2" namespace, and then displays information about the operating system.
 

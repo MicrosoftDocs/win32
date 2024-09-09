@@ -4,19 +4,22 @@ ms.assetid: 9673ef89-458f-4a25-960e-8f03179e78ba
 title: D3DXQuaternionRotationAxis function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionRotationAxis
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXQuaternionRotationAxis function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Rotates a quaternion about an arbitrary axis.
 

@@ -3,10 +3,13 @@ title: Events (Media Streaming API)
 description: The Media Streaming API generates the following events.
 ms.assetid: 8954B079-5CCB-4D0C-9F48-A8DEA101C3FA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Events (Media Streaming API)
+
+\[The feature associated with this page, [Windows Media Streaming API](/windows/win32/mediastreaming/media-streaming-api-portal), is a legacy feature. It has been superseded by [Media Casting](/windows/uwp/audio-video-camera/media-casting). **Media Casting** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Media Casting** instead of **Windows Media Streaming API**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The [Media Streaming API](media-streaming-api-portal.md) generates the following events.
 

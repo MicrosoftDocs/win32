@@ -34,7 +34,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure. After calling **EM\_GETSCROLLPOS**, this parameters contains a point in the virtual text space of the document, expressed in pixels. This point will be the point that is currently located in the upper-left corner of the edit control window.
+Pointer to a [**POINT**](/windows/win32/api/windef/ns-windef-point) structure. After calling **EM\_GETSCROLLPOS**, this parameters contains a point in the virtual text space of the document, expressed in pixels. This point will be the point that is currently located in the upper-left corner of the edit control window.
 
 </dd> </dl>
 
@@ -44,7 +44,7 @@ This message always returns 1.
 
 ## Remarks
 
-The values returned in the [**POINT**](/previous-versions//dd162805(v=vs.85)) structure are 16-bit values (even in the 32-bit wide fields).
+The values returned in the [**POINT**](/windows/win32/api/windef/ns-windef-point) structure are 16-bit values (even in the 32-bit wide fields).
 
 ## Requirements
 

@@ -30,7 +30,7 @@ The IIS log file format records the following data. The data in the table is in 
 | Windows status code  | A value of 0 (zero) indicates that the request was fulfilled successfully.                                                                                                        |
 | Request type         | The request verb.                                                                                                                                                                 |
 | Target of operation  | The target of the verb, for example, Default.htm.                                                                                                                                 |
-| Parameters           | The parameters that are passed to a scrip.                                                                                                                                        |
+| Parameters           | The parameters that are passed to a script.                                                                                                                                        |
 
 
 

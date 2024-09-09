@@ -81,7 +81,7 @@ ms.date: 05/31/2018
 
 This topic describes the constant values used to describe the roles of various UI objects in an application. The role constants are defined in the Oleacc.h file.
 
-You should use only the listed role constants listed here; do not add custom roles or roles that are not predefined.
+You should use only role constants listed here; do not add custom roles or roles that are not predefined.
 
 Before using these object roles, developers of client applications must use the [Inspect](inspect-objects.md) tool to verify that object roles are being used by UI elements.
 

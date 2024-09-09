@@ -213,7 +213,7 @@ The Web view template controls what is displayed in a Web view and how. It uses 
 
         <!-- The Info region. This displays the information
          associated with a folder or file. Javascript in the header
-         is used to generate the regions contents by by assigning
+         is used to generate the regions contents by assigning
          a text block to TextBlock.innerHTML -->
         <div id="Info">
             <p style="margin-top: 16px");

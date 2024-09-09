@@ -66,7 +66,7 @@ DWORD main()
     if (!CryptCreateHash(hProv, CALG_MD5, 0, 0, &hHash))
     {
         dwStatus = GetLastError();
-        printf("CryptAcquireContext failed: %d\n", dwStatus); 
+        printf("CryptCreateHash failed: %d\n", dwStatus); 
         CloseHandle(hFile);
         CryptReleaseContext(hProv, 0);
         return dwStatus;

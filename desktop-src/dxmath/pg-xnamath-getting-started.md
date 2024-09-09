@@ -114,7 +114,7 @@ Many operations require the use of constants in vector computations, and there a
 
      
 
--   DirectXMath includes a number of pre-defined global constants you can make use of in your code (g\_XMOne, g\_XMOne3, g\_XMTwo, g\_XMOneHalf, g\_XMHalfPi, g\_XMPi, and so on). Search the DirectXMath.h header for the **XMGLOBALCONSTANT** values.
+-   DirectXMath includes a number of pre-defined global constants you can make use of in your code (g\_XMOne, g\_XMOne3, g\_XMTwo, g\_XMOneHalf, g\_XMHalfPi, g\_XMPi, and so on). Search the DirectXMath.h header for the **XMGLOBALCONST** values.
 -   There are a set of vector constants for common RGB colors (Red, Green, Blue, Yellow, and so on). For more info about these vector constants, see DirectXColors.h and the DirectX::Colors namespace.
 
 ### VECTORS FROM VARIABLES

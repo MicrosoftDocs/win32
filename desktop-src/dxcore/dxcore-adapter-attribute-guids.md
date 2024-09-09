@@ -12,7 +12,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 06/20/2019
+ms.date: 08/17/2023
 ---
 
 # DXCore adapter attribute GUIDs

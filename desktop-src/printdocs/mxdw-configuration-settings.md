@@ -12,7 +12,7 @@ The Microsoft XPS Document Writer (MXDW) enables users to create XPS document fi
 
 ## JobInterleaving
 
-The JobInterleaving setting controls the content interleaving order for the XPS Documents. For information about job interleaving, see the [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf). MXDW supports the following two options for this setting:
+The JobInterleaving setting controls the content interleaving order for the XPS Documents. For information about job interleaving, see the [XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification). MXDW supports the following two options for this setting:
 
 -   **Off** - This option disables interleaving so that all data for each content element in the document is contiguous, which improves the efficiency of random access. This option is best for viewing an XPS document.
 -   **On** - This option enables interleaving so that data for each content element is broken up and reordered for more efficient sequential processing. This option is best for web download and printing.
@@ -122,7 +122,7 @@ xmlns:ns0000=http://schemas.microsoft.com/windows/2006/06/printing/printschemake
 
 <dl> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> <dt>
 
 [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
@@ -131,7 +131,7 @@ xmlns:ns0000=http://schemas.microsoft.com/windows/2006/06/printing/printschemake
 [Print Schema](./printschema.md)
 </dt> <dt>
 
-[XPS Specification and License Downloads](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XPS Specification and License Downloads](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

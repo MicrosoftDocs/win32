@@ -21,7 +21,7 @@ Messages have a set of properties which can be used to specify optional settings
 
 A message is addressed to a specific [Endpoint Address](endpoint-address.md).
 
-A [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) is a special sort of message content used to represent failures returned from from a remote endpoint.
+A [**WS\_FAULT**](/windows/desktop/api/WebServices/ns-webservices-ws_fault) is a special sort of message content used to represent failures returned from a remote endpoint.
 
 Messages undergo encoding that transforms the XML to a linear wire format before being transmitted.
 

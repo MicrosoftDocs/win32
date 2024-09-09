@@ -14,7 +14,7 @@ First, initialize values for the [**D3DPRESENT\_PARAMETERS**](d3dpresent-paramet
 
 
 ```
-LPDIRECT3DDEVICE9 pDevice = NULL;
+LPDIRECT3DDEVICE9 d3dDevice = NULL;
 
 D3DPRESENT_PARAMETERS d3dpp; 
 

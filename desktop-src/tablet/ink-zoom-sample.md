@@ -58,7 +58,7 @@ private const float MediumInkWidth = 100;
 
 
 
-Then the sample creates and enables the [InkCollector](/previous-versions/ms583683(v=vs.100)) in the form's [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1) event handler. Also, the [Width](/previous-versions/ms837941(v=msdn.10)) property of the InkCollector object's [DefaultDrawingAttributes](/previous-versions/ms836500(v=msdn.10)) property is set. Finally, the scroll bar ranges are defined and the application's `UpdateZoomAndScroll` method is called.
+Then the sample creates and enables the [InkCollector](/previous-versions/ms583683(v=vs.100)) in the form's [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1&preserve-view=true) event handler. Also, the [Width](/previous-versions/ms837941(v=msdn.10)) property of the InkCollector object's [DefaultDrawingAttributes](/previous-versions/ms836500(v=msdn.10)) property is set. Finally, the scroll bar ranges are defined and the application's `UpdateZoomAndScroll` method is called.
 
 
 ```C++
@@ -194,7 +194,7 @@ The `pnlDrawingArea` panel event handlers manage drawing the rectangle to the wi
 
 ## Closing the Form
 
-The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method disposes the [InkCollector](/previous-versions/ms583683(v=vs.100)) object.
+The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1&preserve-view=true) method disposes the [InkCollector](/previous-versions/ms583683(v=vs.100)) object.
 
  
 

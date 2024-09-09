@@ -37,7 +37,7 @@ The Windows Presentation Foundation version references IAWinFX.dll in addition t
 
 ## User Interface
 
-The UI for this application consists of a [TabControl](/dotnet/api/system.windows.forms.tabcontrol?view=netcore-3.1) with two [TabPage](/dotnet/api/system.windows.forms.tabpage?view=netcore-3.1) objects associated with it: Ink Form and Converted Text Form. The Ink Form tab contains
+The UI for this application consists of a [TabControl](/dotnet/api/system.windows.forms.tabcontrol?view=netcore-3.1&preserve-view=true) with two [TabPage](/dotnet/api/system.windows.forms.tabpage?view=netcore-3.1&preserve-view=true) objects associated with it: Ink Form and Converted Text Form. The Ink Form tab contains
 
 -   A panel that contains an image of a scanned paper form used for taking telephone messages.
 -   A check box that has the application show the analysis hint bounds when selected.
@@ -51,7 +51,7 @@ This application uses an [InkOverlay](/previous-versions/ms552322(v=vs.100)) to 
 
 The application initializes two arrays, one of strings and one of rectangles. The string array, `factoidStrings`, is made of [Factoid](/previous-versions/ms583657(v=vs.100)) objects that are passed into the [InkAnalyzer](/previous-versions/ms583671(v=vs.100)) as [AnalysisHintNode](/previous-versions/ms573018(v=vs.100)) objects. The AnalysisHintNode objects bias the InkAnalyzer toward particular input. This sample uses the date, time, and telephone hints, as well as some others.
 
-Each [AnalysisHintNode](/previous-versions/ms573018(v=vs.100)) is associated with a specific area of the form. The areas are represented by the array of rectangles, `rects`. By creating a [TextBox](/dotnet/api/system.windows.forms.textbox?view=netcore-3.1) for each rectangle, the sample outputs the recognized text in the correct location.
+Each [AnalysisHintNode](/previous-versions/ms573018(v=vs.100)) is associated with a specific area of the form. The areas are represented by the array of rectangles, `rects`. By creating a [TextBox](/dotnet/api/system.windows.forms.textbox?view=netcore-3.1&preserve-view=true) for each rectangle, the sample outputs the recognized text in the correct location.
 
 
 ```C++

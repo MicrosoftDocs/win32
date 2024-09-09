@@ -981,10 +981,10 @@ Describes how to draw the path if something beyond a solid line with a solid col
 <td>Weight</td>
 <td><a href="msdn-online-vml-vglength.md">VgLength</a>. Width of line. Ranges from 0 to 1584.
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The DashStyle attribute allows the user to specify a custom-defined dash pattern. This is done using a series of numbers. Dash styles are defined in terms of the length of the dash (the drawn part of the stroke) and the length of the space between the dashes. The lengths are relative to the line width; a length of &quot;1&quot; is equal to the line width. The EndCap style is applied to each dash, arrow styles are not. The string first defines the length of the dash then the length of the space. This may be repeated to form complex dash styles. The string should always contain a pair of numbers; if it contains an odd number of numbers the last may be disregarded. The following table lists some typical values and a description of the intended effect. &quot;0&quot; implies a dot that should be fourfold symmetrical (with round endcaps it should be a circle). If the line endcap is Flat, a viewer should choose a built-in operating system dash where possible (i.e., something that is fast to draw). The following shows some examples.
-</blockquote>
+
 </div>
 <div>
  

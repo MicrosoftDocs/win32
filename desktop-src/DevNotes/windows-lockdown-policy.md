@@ -10,17 +10,24 @@ ms.date: 05/31/2018
 
 ## In this section
 
--   [**WLDP\_HOST\_ID**](wldp-host-id.md)
--   [**WLDP\_HOST\_INFORMATION**](wldp-host-information.md)
--   [**WLDP\_WINDOWS\_LOCKDOWN\_MODE**](wldp-windows-lockdown-mode.md)
--   [**WldpIsDynamicCodePolicyEnabled**](wldpisdynamiccodepolicyenabled.md)
--   [**WldpIsClassInApprovedList**](wldpisclassinapprovedlist.md)
--   [**WldpGetLockdownPolicy**](wlpdgetlockdownpolicy.md)
--   [**WldpQueryDynamicCodeTrust**](wldpquerydynamiccodetrust.md)
--   [**WldpQueryWindowsLockdownMode**](wldpquerywindowslockdownmode.md)
--   [**WldpSetDynamicCodeTrust**](wldpsetdynamiccodetrust.md)
+-   [WLDP host GUIDs](wldp-host-guids.md)
+-   [**WLDP\_EXECUTION\_EVALUATION\_OPTIONS**](/windows/win32/api/wldp/ne-wldp-wldp_execution_evaluation_options)
+-   [**WLDP\_EXECUTION\_POLICY**](/windows/win32/api/wldp/ne-wldp-wldp_execution_policy)
+-   [**WLDP\_HOST\_ID**](/windows/win32/api/wldp/ne-wldp-wldp_host_id)
+-   [**WLDP\_HOST\_INFORMATION**](/windows/win32/api/wldp/ns-wldp-wldp_host_information)
+-   [**WLDP\_WINDOWS\_LOCKDOWN\_MODE**](/windows/win32/api/wldp/ne-wldp-wldp_windows_lockdown_mode)
+-   [**WldpCanExecuteBuffer**](/windows/win32/api/wldp/nf-wldp-wldpcanexecutebuffer)
+-   [**WldpCanExecuteFiler**](/windows/win32/api/wldp/nf-wldp-wldpcanexecutefile)
+-   [**WldpCanExecuteStream**](/windows/win32/api/wldp/nf-wldp-wldpcanexecutestream)
+-   [**WldpGetLockdownPolicy**](/windows/win32/api/wldp/nf-wldp-wldpgetlockdownpolicy)
+-   [**WldpIsDynamicCodePolicyEnabled**](/windows/win32/api/wldp/nf-wldp-wldpisdynamiccodepolicyenabled)
+-   [**WldpIsClassInApprovedList**](/windows/win32/api/wldp/nf-wldp-wldpisclassinapprovedlist)
+-   [**WldpQueryDynamicCodeTrust**](/windows/win32/api/wldp/nf-wldp-wldpquerydynamiccodetrust)
+-   [**WldpQueryWindowsLockdownMode**](/windows/win32/api/wldp/nf-wldp-wldpquerywindowslockdownmode)
+-   [**WldpSetDynamicCodeTrust**](/windows/win32/api/wldp/nf-wldp-wldpsetdynamiccodetrust)
 
- 
+
+
 
  
 

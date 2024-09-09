@@ -50,7 +50,7 @@ The SIMD instruction sets on versions of windows supporting SSE2 typically have 
 
 The DirectXMath Library provides access aligned and unaligned functionality through variant vector types, structure, and functions. These variants are indicated by an "A" at the end of the name.
 
-For example, there are an unaligned [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) structure and an aligned [**XMFLOAT4X4A**](/previous-versions/windows/desktop/legacy/ee419623(v=vs.85)) structure, which are used by the [**XMStoreFloat4**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4) and [**XMStoreFloat4A**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4a) functions respectively.
+For example, there are an unaligned [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4) structure and an aligned [**XMFLOAT4X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4a) structure, which are used by the [**XMStoreFloat4**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4) and [**XMStoreFloat4A**](/windows/win32/api/directxmath/nf-directxmath-xmstorefloat4a) functions respectively.
 
 ## Properly Align Allocations
 
@@ -97,7 +97,7 @@ DirectXMath supports vectors of 4 single-precision floating-point or four 32-bit
 
 Because the instruction sets used to implement the DirectXMath Library have the ability to treat the same data as multiple different types-for example, treat the same vector as floating-point and integer data-certain optimizations can be achieved. You can get these optimizations by using the integer vector initialization routines and bit-wise operators to manipulate floating-point values.
 
-The binary format of single-precision floating-point numbers used by the DirectXMath Library completely conforms to the IEEE 764 standard:
+The binary format of single-precision floating-point numbers used by the DirectXMath Library completely conforms to the IEEE 754 standard:
 
 ``` syntax
      SIGN    EXPONENT   MANTISSA
@@ -105,7 +105,7 @@ The binary format of single-precision floating-point numbers used by the DirectX
      1 bit   8 bits     23 bits
 ```
 
-When working with the IEEE 764 single precision floating-point number, it is important to keep in mind, that some representations have special meaning (that is, they do not conform to the preceding description). Examples include:
+When working with the IEEE 754 single precision floating-point number, it is important to keep in mind, that some representations have special meaning (that is, they do not conform to the preceding description). Examples include:
 
 -   Positive zero is 0
 -   Negative zero is 0x80000000

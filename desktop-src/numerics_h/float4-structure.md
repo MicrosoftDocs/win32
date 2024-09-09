@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 A vector with four components.
 
-This type is available only in C++. Its .NET equivalent is [System.Numerics.Vector4](/dotnet/api/system.numerics.vector4?view=netframework-4.8).
+This type is available only in C++. Its .NET equivalent is [System.Numerics.Vector4](/dotnet/api/system.numerics.vector4).
 
 ## Constructors
 

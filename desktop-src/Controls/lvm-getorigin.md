@@ -30,7 +30,7 @@ Retrieves the current view origin for a list-view control. You can send this mes
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**POINT**](/previous-versions//dd162805(v=vs.85)) structure that receives the view origin.
+Pointer to a [**POINT**](/windows/win32/api/windef/ns-windef-point) structure that receives the view origin.
 
 </dd> </dl>
 

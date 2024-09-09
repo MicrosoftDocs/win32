@@ -59,10 +59,10 @@ The difference between the two syntax forms is the order in which the preprocess
 <li>in the directories of any files that contain a #include directive for the file that contains the #include directive.</li>
 <li>in paths specified by the /I compiler option, in the order in which they are listed.</li>
 <li><p>in paths specified by the INCLUDE environment variable, in the order in which they are listed.</p>
-<blockquote>
-[!NOTE]<br />
+
+<strong>NOTE:</strong><br />
 The INCLUDE environment variable is ignored in an development environment. Refer to your development environment's documentation for information about how to set the include paths for your project.
-</blockquote>
+
 <p><br/></p></li>
 </ol></td>
 </tr>
@@ -72,10 +72,10 @@ The INCLUDE environment variable is ignored in an development environment. Refer
 <ol>
 <li>in paths specified by the /I compiler option, in the order in which they are listed.</li>
 <li><p>in paths specified by the INCLUDE environment variable, in the order in which they are listed.</p>
-<blockquote>
-[!NOTE]<br />
+
+<strong>NOTE:</strong><br />
 The INCLUDE environment variable is ignored in an development environment. Refer to your development environment's documentation for information about how to set the include paths for your project.
-</blockquote>
+
 <p><br/></p></li>
 </ol></td>
 </tr>

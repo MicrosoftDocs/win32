@@ -7,10 +7,13 @@ keywords:
 - VCM (video compression manager),image-data compression
 - ICCompress function
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Image-Data Compression
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Your application can use a series of [**ICCompress**](/windows/desktop/api/Vfw/nf-vfw-iccompress) functions and macros to compress data. The functions and macros can help you perform the following tasks:
 

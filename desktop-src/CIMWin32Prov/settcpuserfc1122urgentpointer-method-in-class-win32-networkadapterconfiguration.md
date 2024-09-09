@@ -403,10 +403,6 @@ DHCP not enabled on adapter.
 
 RFC 1122 and BSD interpret the urgent pointer in the TCP header and the length of the urgent data differently. They are not interoperable. The default is BSD mode.
 
-## Examples
-
-The [Modify Urgent Pointer Use for All Network Adapters](https://Gallery.TechNet.Microsoft.Com/0ff22a90-0be6-4914-8db7-aaf72cbea9cb) VBScript sample configures a computer to use the RFC 1122 specification for urgent data.
-
 ## Requirements
 
 

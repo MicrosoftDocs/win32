@@ -3,10 +3,13 @@ description: Video Renderer Filter
 ms.assetid: '7719ed9d-e3b9-4c84-b587-4e120b5cabf8'
 title: Video Renderer Filter
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Video Renderer Filter
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The Video Renderer filter is a robust, all-purpose video renderer.
 
@@ -17,7 +20,7 @@ The Video Renderer filter is a robust, all-purpose video renderer.
 
 The Video Renderer uses DirectDraw and overlay surfaces, if the video card supports them. The Filter Graph Manager exposes the [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) interface, which enables applications to set and retrieve properties on the Video Renderer. With newer video cards, the Video Renderer supports full-screen rendering. Otherwise, the Filter Graph Manager automatically switches to the [Full Screen Renderer](full-screen-renderer-filter.md) filter for full-screen mode. See [**IVideoWindow::put\_FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode) for more information.
 
--   \[!Important\]  
+-   ![Important]  
     > Normally, this filter's video window processes messages on a worker thread created by the Filter Graph Manager. Howerver, if an application directly creates the filter using **CoCreateInstance**, the video window processes messages on the application thread. In that case, the application thread must have a message loop, to dispatch messages to the video window. Also, the thread must not exit until the final **Release** call to the Video Renderer, which occurs when the Filter Graph Manager shuts down. Otherwise, the application might deadlock.
 
      

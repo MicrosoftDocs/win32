@@ -12,7 +12,7 @@ Building applications that are easy to use, visually appealing, and offer high p
 
 The Windows 7 platform makes it easy for developers to create engaging, user-friendly applications by providing familiar tools and rich development features that allow them to take advantage of the latest PC capabilities.
 
-For a downloadable version of the Windows 7 Developer Guide, visit [Code Gallery](/samples/browse/?redirectedfrom=MSDN-samples) on MSDN.
+For a downloadable version of the Windows 7 Developer Guide, visit [Code Gallery](/samples/browse/?redirectedfrom=MSDN-samples).
 
 In the Windows 7 Developer Guide:
 

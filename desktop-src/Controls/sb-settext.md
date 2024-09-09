@@ -29,9 +29,9 @@ Sets the text in the specified part of a status window.
 *wParam* 
 </dt> <dd>
 
-The [**LOBYTE**](/previous-versions/windows/desktop/legacy/ms632658(v=vs.85)) of the low-order word specifies the zero-based index of the part to set. If the **LOBYTE** is set to SB\_SIMPLEID, the status window is assumed to be a simple mode status bar; that is, a status bar with only one part.
+The [**LOBYTE**](../winmsg/lobyte.md) of the low-order word specifies the zero-based index of the part to set. If the **LOBYTE** is set to SB\_SIMPLEID, the status window is assumed to be a simple mode status bar; that is, a status bar with only one part.
 
-The [**HIBYTE**](/previous-versions/windows/desktop/legacy/ms632656(v=vs.85)) of the low-order word specifies the type of the drawing operation. This parameter can be one of the following values.
+The [**HIBYTE**](../winmsg/hibyte.md) of the low-order word specifies the type of the drawing operation. This parameter can be one of the following values.
 
 The high-order word of *wParam* is ignored.
 
@@ -42,7 +42,7 @@ The high-order word of *wParam* is ignored.
 |-------|---------|
 | <span id="0"></span><dl><dt><strong>0</strong></dt></dl> | The text is drawn with a border to appear lower than the plane of the window.<br /> | 
 | <span id="SBT_NOBORDERS"></span><span id="sbt_noborders"></span><dl><dt><strong>SBT_NOBORDERS</strong></dt></dl> | The text is drawn without borders.<br /> | 
-| <span id="SBT_OWNERDRAW"></span><span id="sbt_ownerdraw"></span><dl><dt><strong>SBT_OWNERDRAW</strong></dt></dl> | The text is drawn by the parent window. <br /><blockquote>[!Note]<br />A simple mode status bar does not support owner drawing.</blockquote><br /> | 
+| **SBT_OWNERDRAW**<br> | The text is drawn by the parent window. <br> **Note:** A simple mode status bar does not support owner drawing.<br> | 
 | <span id="SBT_POPOUT"></span><span id="sbt_popout"></span><dl><dt><strong>SBT_POPOUT</strong></dt></dl> | The text is drawn with a border to appear higher than the plane of the window.<br /> | 
 | <span id="SBT_RTLREADING"></span><span id="sbt_rtlreading"></span><dl><dt><strong>SBT_RTLREADING</strong></dt></dl> | The text will be displayed in the opposite direction to the text in the parent window.<br /> | 
 | <span id="SBT_NOTABPARSING"></span><span id="sbt_notabparsing"></span><dl><dt><strong>SBT_NOTABPARSING</strong></dt></dl> | Tab characters are ignored.<br /> | 

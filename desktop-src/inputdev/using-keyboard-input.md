@@ -32,73 +32,51 @@ When the window procedure receives the [**WM\_KEYDOWN**](wm-keydown.md) message,
 The following example shows the window procedure framework that a typical application uses to receive and process keystroke messages.
 
 
-```
-        case WM_KEYDOWN: 
-            switch (wParam) 
-            { 
-                case VK_LEFT: 
-                    
-                    // Process the LEFT ARROW key. 
-                     
-                    break; 
- 
-                case VK_RIGHT: 
-                    
-                    // Process the RIGHT ARROW key. 
-                     
-                    break; 
- 
-                case VK_UP: 
-                    
-                    // Process the UP ARROW key. 
-                     
-                    break; 
- 
-                case VK_DOWN: 
-                    
-                    // Process the DOWN ARROW key. 
-                     
-                    break; 
- 
-                case VK_HOME: 
-                    
-                    // Process the HOME key. 
-                     
-                    break; 
- 
-                case VK_END: 
-                    
-                    // Process the END key. 
-                     
-                    break; 
- 
-                case VK_INSERT: 
-                    
-                    // Process the INS key. 
-                     
-                    break; 
- 
-                case VK_DELETE: 
-                    
-                    // Process the DEL key. 
-                     
-                    break; 
- 
-                case VK_F2: 
-                    
-                    // Process the F2 key. 
-                    
-                    break; 
- 
-                
-                // Process other non-character keystrokes. 
-                 
-                default: 
-                    break; 
-            } 
-```
+```cpp
+case WM_KEYDOWN: 
+	switch (wParam) 
+	{ 
+		case VK_LEFT: 
+			// Process the LEFT ARROW key. 
+			break; 
 
+		case VK_RIGHT: 
+			// Process the RIGHT ARROW key. 
+			break; 
 
+		case VK_UP: 
+			// Process the UP ARROW key. 
+			break; 
+
+		case VK_DOWN: 
+			// Process the DOWN ARROW key. 
+			break; 
+
+		case VK_HOME: 
+			// Process the HOME key. 
+			break; 
+
+		case VK_END: 
+			// Process the END key. 
+			break; 
+
+		case VK_INSERT: 
+			// Process the INS key. 
+			break; 
+
+		case VK_DELETE: 
+			// Process the DEL key. 
+			break; 
+
+		case VK_F2: 
+			// Process the F2 key. 
+			break; 
+
+		default: 
+			// Process other non-character keystrokes. 
+			break; 
+	}
+```
 
 ## Translating Character Messages
 
@@ -107,11 +85,11 @@ Any thread that receives character input from the user must include the [**Trans
 In general, a thread's message loop should use the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function to translate every message, not just virtual-key messages. Although **TranslateMessage** has no effect on other types of messages, it guarantees that keyboard input is translated correctly. The following example shows how to include the **TranslateMessage** function in a typical thread message loop.
 
 
-```
+```cpp
 MSG msg;
 BOOL bRet;
 
-while (( bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0) 
+while ((bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0) 
 {
     if (bRet == -1);
     {
@@ -128,8 +106,6 @@ while (( bRet = GetMessage(&msg, (HWND) NULL, 0, 0)) != 0)
 }
 ```
 
-
-
 ## Processing Character Messages
 
 A window procedure receives a character message when the [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage) function translates a virtual-key code corresponding to a character key. The character messages are [**WM\_CHAR**](wm-char.md), [**WM\_DEADCHAR**](wm-deadchar.md), [**WM\_SYSCHAR**](/windows/desktop/menurc/wm-syschar), and [**WM\_SYSDEADCHAR**](wm-sysdeadchar.md). A typical window procedure ignores all character messages except **WM\_CHAR**. The **TranslateMessage** function generates a **WM\_CHAR** message when the user presses any of the following keys:
@@ -145,50 +121,35 @@ When a window procedure receives the [**WM\_CHAR**](wm-char.md) message, it shou
 
 The following example shows the window procedure framework that a typical application uses to receive and process character messages.
 
+```cpp
+case WM_CHAR:
+	switch (wParam)
+	{
+		case 0x08: // or '\b'
+			// Process a backspace.
+			break;
+			
+		case 0x09: // or '\t'
+			// Process a tab.
+			break;
 
+		case 0x0A: // or '\n'
+			// Process a linefeed.
+			break;
+			
+		case 0x0D:
+			// Process a carriage return.
+			break;
+
+		case 0x1B:
+			// Process an escape.
+			break;
+
+		default:
+			// Process displayable characters.
+			break;
+	}
 ```
-        case WM_CHAR: 
-            switch (wParam) 
-            { 
-                case 0x08: 
-                    
-                    // Process a backspace. 
-                     
-                    break; 
- 
-                case 0x0A: 
-                    
-                    // Process a linefeed. 
-                     
-                    break; 
- 
-                case 0x1B: 
-                    
-                    // Process an escape. 
-                    
-                    break; 
- 
-                case 0x09: 
-                    
-                    // Process a tab. 
-                     
-                    break; 
- 
-                case 0x0D: 
-                    
-                    // Process a carriage return. 
-                     
-                    break; 
- 
-                default: 
-                    
-                    // Process displayable characters. 
-                     
-                    break; 
-            } 
-```
-
-
 
 ## Using the Caret
 
@@ -209,7 +170,7 @@ The window procedure performs the left, right, end, and home caret movements whe
 Note that the following code is written so that it can be compiled either as Unicode or as ANSI. If the source code defines UNICODE, strings are handled as Unicode characters; otherwise, they are handled as ANSI characters.
 
 
-```
+```cpp
 #define BUFSIZE 65535 
 #define SHIFTED 0x8000 
  
@@ -553,9 +514,3 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
     return NULL; 
 } 
 ```
-
-
-
- 
-
- 

@@ -19,7 +19,7 @@ sections:
 
       - question: What is the worst way to organize constant buffers?
         answer: |
-          The worst performance is realized by putting all constants for a particular shader into one constant buffer. While this often is the easiest way to port from D3D9 to D3D10, it can cripple performance. For example, consider a scenario that uses the following constant buffer:
+          The worst performance is realized by putting all constants for a particular shader into one constant buffer. While this often is the easiest way to port from D3D9 to D3D10, it can impede performance. For example, consider a scenario that uses the following constant buffer:
           
           ``` syntax
           cbuffer VSGlobalsCB

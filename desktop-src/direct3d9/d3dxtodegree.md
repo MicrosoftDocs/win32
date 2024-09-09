@@ -4,18 +4,21 @@ ms.assetid: 1b19af39-ca23-4364-9121-f532d7fed099
 title: D3DXToDegree (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXToDegree
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
 # D3DXToDegree
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Converts radians into degrees.
 
@@ -65,7 +68,3 @@ The macro returns the radian value in degrees.
  
 
  
-
-
-
-

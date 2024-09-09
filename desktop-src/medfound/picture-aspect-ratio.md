@@ -37,7 +37,7 @@ Stretching the image to fit the display area is almost always wrong, because it 
 
 ### Letterboxing
 
-The process of scaling a widescreen image to fit a 4:3 display is called *letterboxing*, shown in the next diagram. The resulting rectanglular areas at the top and bottom of the image are typically filled with black, although other colors can be used.
+The process of scaling a widescreen image to fit a 4:3 display is called *letterboxing*, shown in the next diagram. The resulting rectangular areas at the top and bottom of the image are typically filled with black, although other colors can be used.
 
 ![diagram showing the correct way to letterbox](images/aspect-ratio02.png)
 
@@ -74,7 +74,7 @@ Here is a real-world example: NTSC-M analog video contains 480 scan lines in the
 -   Height in pixels: 480
 -   PAR: 10/11
 
-4/3 = (704/420) x (10/11)
+4/3 = (704/480) x (10/11)
 
 To display this image correctly on a display device with square pixels, you must scale either the width by 10/11 or the height by 11/10.
 

@@ -11,7 +11,6 @@ ms.date: 05/31/2018
 The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-fontsignature) and [**LOCALESIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-localesignature) structures.
 
 
-
 <table>
 <thead>
 <tr class="header">
@@ -42,42 +41,35 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Latin Extended-B</td>
 </tr>
 <tr class="odd">
-<td rowspan="3">4${REMOVE}$<br />
-</td>
+<td rowspan="3">4</td>
 <td>0250 - 02AF</td>
 <td>IPA Extensions</td>
 </tr>
 <tr class="even">
 <td>1D00 - 1D7F</td>
 <td>Phonetic Extensions</td>
-
 </tr>
 <tr class="odd">
 <td>1D80 - 1DBF</td>
 <td>Phonetic Extensions Supplement</td>
-
 </tr>
 <tr class="even">
-<td rowspan="2">5${REMOVE}$<br />
-</td>
+<td rowspan="2">5</td>
 <td>02B0 - 02FF</td>
 <td>Spacing Modifier Letters</td>
 </tr>
 <tr class="odd">
 <td>A700 - A71F</td>
 <td>Modifier Tone Letters</td>
-
 </tr>
 <tr class="even">
-<td rowspan="2">6${REMOVE}$<br />
-</td>
+<td rowspan="2">6</td>
 <td>0300 - 036F</td>
 <td>Combining Diacritical Marks</td>
 </tr>
 <tr class="odd">
 <td>1DC0 - 1DFF</td>
 <td>Combining Diacritical Marks Supplement</td>
-
 </tr>
 <tr class="even">
 <td>7</td>
@@ -90,25 +82,21 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Coptic</td>
 </tr>
 <tr class="even">
-<td rowspan="4">9${REMOVE}$<br />
-</td>
+<td rowspan="4">9</td>
 <td>0400 - 04FF</td>
 <td>Cyrillic</td>
 </tr>
 <tr class="odd">
 <td>0500 - 052F</td>
 <td>Cyrillic Supplement</td>
-
 </tr>
 <tr class="even">
 <td>2DE0 - 2DFF</td>
 <td>Cyrillic Extended-A</td>
-
 </tr>
 <tr class="odd">
 <td>A640 - A69F</td>
 <td>Cyrillic Extended-B</td>
-
 </tr>
 <tr class="even">
 <td>10</td>
@@ -126,15 +114,13 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Vai</td>
 </tr>
 <tr class="odd">
-<td rowspan="2">13${REMOVE}$<br />
-</td>
+<td rowspan="2">13</td>
 <td>0600 - 06FF</td>
 <td>Arabic</td>
 </tr>
 <tr class="even">
 <td>0750 - 077F</td>
 <td>Arabic Supplement</td>
-
 </tr>
 <tr class="odd">
 <td>14</td>
@@ -197,15 +183,13 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Lao</td>
 </tr>
 <tr class="odd">
-<td rowspan="2">26${REMOVE}$<br />
-</td>
+<td rowspan="2">26</td>
 <td>10A0 - 10FF</td>
 <td>Georgian</td>
 </tr>
 <tr class="even">
 <td>2D00 - 2D2F</td>
 <td>Georgian Supplement</td>
-
 </tr>
 <tr class="odd">
 <td>27</td>
@@ -218,20 +202,17 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Hangul Jamo</td>
 </tr>
 <tr class="odd">
-<td rowspan="3">29${REMOVE}$<br />
-</td>
+<td rowspan="3">29</td>
 <td>1E00 - 1EFF</td>
 <td>Latin Extended Additional</td>
 </tr>
 <tr class="even">
 <td>2C60 - 2C7F</td>
 <td>Latin Extended-C</td>
-
 </tr>
 <tr class="odd">
 <td>A720 - A7FF</td>
 <td>Latin Extended-D</td>
-
 </tr>
 <tr class="even">
 <td>30</td>
@@ -239,15 +220,13 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Greek Extended</td>
 </tr>
 <tr class="odd">
-<td rowspan="2">31${REMOVE}$<br />
-</td>
+<td rowspan="2">31</td>
 <td>2000 - 206F</td>
 <td>General Punctuation</td>
 </tr>
 <tr class="even">
 <td>2E00 - 2E7F</td>
 <td>Supplemental Punctuation</td>
-
 </tr>
 <tr class="odd">
 <td>32</td>
@@ -275,46 +254,38 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Number Forms</td>
 </tr>
 <tr class="even">
-<td rowspan="4">37${REMOVE}$<br />
-</td>
+<td rowspan="4">37</td>
 <td>2190 - 21FF</td>
 <td>Arrows</td>
 </tr>
 <tr class="odd">
 <td>27F0 - 27FF</td>
 <td>Supplemental Arrows-A</td>
-
 </tr>
 <tr class="even">
 <td>2900 - 297F</td>
 <td>Supplemental Arrows-B</td>
-
 </tr>
 <tr class="odd">
 <td>2B00 - 2BFF</td>
 <td>Miscellaneous Symbols and Arrows</td>
-
 </tr>
 <tr class="even">
-<td rowspan="4">38${REMOVE}$<br />
-</td>
+<td rowspan="4">38</td>
 <td>2200 - 22FF</td>
 <td>Mathematical Operators</td>
 </tr>
 <tr class="odd">
 <td>27C0 - 27EF</td>
 <td>Miscellaneous Mathematical Symbols-A</td>
-
 </tr>
 <tr class="even">
 <td>2980 - 29FF</td>
 <td>Miscellaneous Mathematical Symbols-B</td>
-
 </tr>
 <tr class="odd">
 <td>2A00 - 2AFF</td>
 <td>Supplemental Mathematical Operators</td>
-
 </tr>
 <tr class="even">
 <td>39</td>
@@ -372,26 +343,22 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Hiragana</td>
 </tr>
 <tr class="odd">
-<td rowspan="2">50${REMOVE}$<br />
-</td>
+<td rowspan="2">50</td>
 <td>30A0 - 30FF</td>
 <td>Katakana</td>
 </tr>
 <tr class="even">
 <td>31F0 - 31FF</td>
 <td>Katakana Phonetic Extensions</td>
-
 </tr>
 <tr class="odd">
-<td rowspan="2">51${REMOVE}$<br />
-</td>
+<td rowspan="2">51</td>
 <td>3100 - 312F</td>
 <td>Bopomofo</td>
 </tr>
 <tr class="even">
 <td>31A0 - 31BF</td>
 <td>Bopomofo Extended</td>
-
 </tr>
 <tr class="odd">
 <td>52</td>
@@ -429,40 +396,33 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Phoenician</td>
 </tr>
 <tr class="even">
-<td rowspan="7">59${REMOVE}$<br />
-</td>
+<td rowspan="7">59</td>
 <td>2E80 - 2EFF</td>
 <td>CJK Radicals Supplement</td>
 </tr>
 <tr class="odd">
 <td>2F00 - 2FDF</td>
 <td>Kangxi Radicals</td>
-
 </tr>
 <tr class="even">
 <td>2FF0 - 2FFF</td>
 <td>Ideographic Description Characters</td>
-
 </tr>
 <tr class="odd">
 <td>3190 - 319F</td>
 <td>Kanbun</td>
-
 </tr>
 <tr class="even">
 <td>3400 - 4DBF</td>
 <td>CJK Unified Ideographs Extension A</td>
-
 </tr>
 <tr class="odd">
 <td>4E00 - 9FFF</td>
 <td>CJK Unified Ideographs</td>
-
 </tr>
 <tr class="even">
 <td>20000 - 2A6DF</td>
 <td>CJK Unified Ideographs Extension B</td>
-
 </tr>
 <tr class="odd">
 <td>60</td>
@@ -470,20 +430,17 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Private Use Area</td>
 </tr>
 <tr class="even">
-<td rowspan="3">61${REMOVE}$<br />
-</td>
+<td rowspan="3">61</td>
 <td>31C0 - 31EF</td>
 <td>CJK Strokes</td>
 </tr>
 <tr class="odd">
 <td>F900 - FAFF</td>
 <td>CJK Compatibility Ideographs</td>
-
 </tr>
 <tr class="even">
 <td>2F800 - 2FA1F</td>
 <td>CJK Compatibility Ideographs Supplement</td>
-
 </tr>
 <tr class="odd">
 <td>62</td>
@@ -501,15 +458,13 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Combining Half Marks</td>
 </tr>
 <tr class="even">
-<td rowspan="2">65${REMOVE}$<br />
-</td>
+<td rowspan="2">65</td>
 <td>FE10 - FE1F</td>
 <td>Vertical Forms</td>
 </tr>
 <tr class="odd">
 <td>FE30 - FE4F</td>
 <td>CJK Compatibility Forms</td>
-
 </tr>
 <tr class="even">
 <td>66</td>
@@ -557,20 +512,17 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Myanmar</td>
 </tr>
 <tr class="odd">
-<td rowspan="3">75${REMOVE}$<br />
-</td>
+<td rowspan="3">75</td>
 <td>1200 - 137F</td>
 <td>Ethiopic</td>
 </tr>
 <tr class="even">
 <td>1380 - 139F</td>
 <td>Ethiopic Supplement</td>
-
 </tr>
 <tr class="odd">
 <td>2D80 - 2DDF</td>
 <td>Ethiopic Extended</td>
-
 </tr>
 <tr class="even">
 <td>76</td>
@@ -593,15 +545,13 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Runic</td>
 </tr>
 <tr class="even">
-<td rowspan="2">80${REMOVE}$<br />
-</td>
+<td rowspan="2">80</td>
 <td>1780 - 17FF</td>
 <td>Khmer</td>
 </tr>
 <tr class="odd">
 <td>19E0 - 19FF</td>
 <td>Khmer Symbols</td>
-
 </tr>
 <tr class="even">
 <td>81</td>
@@ -614,36 +564,30 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Braille Patterns</td>
 </tr>
 <tr class="even">
-<td rowspan="2">83${REMOVE}$<br />
-</td>
+<td rowspan="2">83</td>
 <td>A000 - A48F</td>
 <td>Yi Syllables</td>
 </tr>
 <tr class="odd">
 <td>A490 - A4CF</td>
 <td>Yi Radicals</td>
-
 </tr>
 <tr class="even">
-<td rowspan="4">84${REMOVE}$<br />
-</td>
+<td rowspan="4">84</td>
 <td>1700 - 171F</td>
 <td>Tagalog</td>
 </tr>
 <tr class="odd">
 <td>1720 - 173F</td>
 <td>Hanunoo</td>
-
 </tr>
 <tr class="even">
 <td>1740 - 175F</td>
 <td>Buhid</td>
-
 </tr>
 <tr class="odd">
 <td>1760 - 177F</td>
 <td>Tagbanwa</td>
-
 </tr>
 <tr class="even">
 <td>85</td>
@@ -661,20 +605,17 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Deseret</td>
 </tr>
 <tr class="odd">
-<td rowspan="3">88${REMOVE}$<br />
-</td>
+<td rowspan="3">88</td>
 <td>1D000 - 1D0FF</td>
 <td>Byzantine Musical Symbols</td>
 </tr>
 <tr class="even">
 <td>1D100 - 1D1FF</td>
 <td>Musical Symbols</td>
-
 </tr>
 <tr class="odd">
 <td>1D200 - 1D24F</td>
 <td>Ancient Greek Musical Notation</td>
-
 </tr>
 <tr class="even">
 <td>89</td>
@@ -682,26 +623,22 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Mathematical Alphanumeric Symbols</td>
 </tr>
 <tr class="odd">
-<td rowspan="2">90${REMOVE}$<br />
-</td>
+<td rowspan="2">90</td>
 <td>FF000 - FFFFD</td>
 <td>Private Use (plane 15)</td>
 </tr>
 <tr class="even">
 <td>100000 - 10FFFD</td>
 <td>Private Use (plane 16)</td>
-
 </tr>
 <tr class="odd">
-<td rowspan="2">91${REMOVE}$<br />
-</td>
+<td rowspan="2">91</td>
 <td>FE00 - FE0F</td>
 <td>Variation Selectors</td>
 </tr>
 <tr class="even">
 <td>E0100 - E01EF</td>
 <td>Variation Selectors Supplement</td>
-
 </tr>
 <tr class="odd">
 <td>92</td>
@@ -749,20 +686,17 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Syloti Nagri</td>
 </tr>
 <tr class="even">
-<td rowspan="3">101${REMOVE}$<br />
-</td>
+<td rowspan="3">101</td>
 <td>10000 - 1007F</td>
 <td>Linear B Syllabary</td>
 </tr>
 <tr class="odd">
 <td>10080 - 100FF</td>
 <td>Linear B Ideograms</td>
-
 </tr>
 <tr class="even">
 <td>10100 - 1013F</td>
 <td>Aegean Numbers</td>
-
 </tr>
 <tr class="odd">
 <td>102</td>
@@ -805,15 +739,13 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Tai Xuan Jing Symbols</td>
 </tr>
 <tr class="odd">
-<td rowspan="2">110${REMOVE}$<br />
-</td>
+<td rowspan="2">110</td>
 <td>12000 - 123FF</td>
 <td>Cuneiform</td>
 </tr>
 <tr class="even">
 <td>12400 - 1247F</td>
 <td>Cuneiform Numbers and Punctuation</td>
-
 </tr>
 <tr class="odd">
 <td>111</td>
@@ -866,62 +798,42 @@ The Unicode subset bitfields (USBs) are used in the [**FONTSIGNATURE**](/windows
 <td>Phaistos Disc</td>
 </tr>
 <tr class="odd">
-<td rowspan="3">121${REMOVE}$<br />
-</td>
+<td rowspan="3">121</td>
 <td>10280 - 1029F</td>
 <td>Lycian</td>
 </tr>
 <tr class="even">
 <td>102A0 - 102DF</td>
 <td>Carian</td>
-
 </tr>
 <tr class="odd">
 <td>10920 - 1093F</td>
 <td>Lydian</td>
-
 </tr>
 <tr class="even">
-<td rowspan="2">122${REMOVE}$<br />
-</td>
+<td rowspan="2">122</td>
 <td>1F000 - 1F02F</td>
 <td>Mahjong Tiles</td>
 </tr>
 <tr class="odd">
 <td>1F030 - 1F09F</td>
 <td>Domino Tiles</td>
-
 </tr>
 <tr class="even">
 <td>123</td>
-
-<td><strong>Windows 2000 and later:</strong> Layout progress, horizontal from right to left</td>
+<td colspan="2"><strong>Windows 2000 and later:</strong> Layout progress, horizontal from right to left</td>
 </tr>
 <tr class="odd">
 <td>124</td>
-
-<td><strong>Windows 2000 and later:</strong> Layout progress, vertical before horizontal</td>
+<td colspan="2"><strong>Windows 2000 and later:</strong> Layout progress, vertical before horizontal</td>
 </tr>
 <tr class="even">
 <td>125</td>
-
-<td><strong>Windows 2000 and later:</strong> Layout progress, vertical bottom to top</td>
+<td colspan="2"><strong>Windows 2000 and later:</strong> Layout progress, vertical bottom to top</td>
 </tr>
 <tr class="odd">
 <td>126-127</td>
-
-<td>Reserved for process-internal usage</td>
+<td colspan="2">Reserved for process-internal usage</td>
 </tr>
 </tbody>
 </table>
-
-
-
- 
-
- 
-
- 
-
-
-

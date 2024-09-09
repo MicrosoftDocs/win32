@@ -38,19 +38,19 @@ Assigns vector component data to the current instance of [**XMFLOAT3PK**](/windo
 <tr class="odd">
 <td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-operator-assign(uint32_t)"><strong>XMFLOAT3PK::operator = (const uint32_t)</strong></a></td>
 <td >Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <code>XMFLOAT3PK</code>. <br/> This operator assigns the vector component data packed in an instance of <code>uint64_t</code> to the current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a>. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This operator is only available under C++.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmfloat3pk-operator-assign(xmfloat3pk__)"><strong>XMFLOAT3PK::operator = (const XMFLOAT3PK&)</strong></a></td>
 <td >Assigns the vector component data from one instance of <code>XMFLOAT3PK</code> to the current instance of <code>XMFLOAT3PK</code>. <br/> This operator assigns the vector component data from one instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk"><strong>XMFLOAT3PK</strong></a> to the current instance of <code>XMFLOAT3PK</code>. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This operator is only available under C++.
-</blockquote>
+
 <br/></td>
 </tr>
 </tbody>

@@ -78,9 +78,9 @@ Pointer to a [**PALETTEENTRY**](/windows/win32/api/wingdi/ns-wingdi-paletteentry
 *pSrcRect* \[in\]
 </dt> <dd>
 
-Type: **const [**RECT**](/previous-versions//dd162897(v=vs.85))\***
+Type: **const [**RECT**](/windows/win32/api/windef/ns-windef-rect)\***
 
-Pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
+Pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure. Specifies the source rectangle. Set this parameter to **NULL** to specify the entire image.
 
 </dd> </dl>
 

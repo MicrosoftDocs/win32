@@ -101,10 +101,10 @@ To enumerate protocols and discover supported properties for each installed prot
 <td>yes</td>
 <td>DWORD</td>
 <td>Gets or sets the number of seconds a TCP connection will remain idle before keepalive probes are sent to the remote.
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This option is available starting with Windows 10, version 1709.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr>
@@ -113,10 +113,10 @@ This option is available starting with Windows 10, version 1709.
 <td>yes</td>
 <td>DWORD</td>
 <td>Gets or sets the number of seconds a TCP connection will wait for a keepalive response before sending another keepalive probe.
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This option is available starting with Windows 10, version 1709.
-</blockquote>
+
 <br/></td>
 </tr>
 </tbody>

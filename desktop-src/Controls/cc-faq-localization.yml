@@ -29,7 +29,7 @@ sections:
           1.  Initialize the native font control by calling [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex). Set the **dwICC** member of the [**INITCOMMONCONTROLSEX**](/windows/win32/api/commctrl/ns-commctrl-initcommoncontrolsex) structure pointed to by *lpInitCtrls* to ICC\_NATIVEFNTCTL\_CLASS.
           2.  Add the control to the resource script for the dialog box. Set one or more of the following style flags to specify which controls will be affected. 
           
-                <style type="text/css">
+                &lt;style type="text/css"&gt;
                 .tg  {border-collapse:collapse;border-spacing:0;}
                 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
                 overflow:hidden;padding:10px 5px;word-break:normal;}

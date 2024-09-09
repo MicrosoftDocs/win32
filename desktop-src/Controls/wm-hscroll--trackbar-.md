@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The **WM\_HSCROLL** message is sent to the owner of a horizontal trackbar control when the slider changes position.
 
-A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [*WindowProc*](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -39,9 +39,9 @@ WM_HSCROLL
 *wParam* 
 </dt> <dd>
 
-The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the current position of the slider if the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is TB\_THUMBPOSITION or TB\_THUMBTRACK. For all other notification codes, the high-order word is zero; send the [**TBM\_GETPOS**](tbm-getpos.md) message to determine the slider position.
+The [**HIWORD**](../winmsg/hiword.md) specifies the current position of the slider if the [**LOWORD**](../winmsg/loword.md) is TB\_THUMBPOSITION or TB\_THUMBTRACK. For all other notification codes, the high-order word is zero; send the [**TBM\_GETPOS**](tbm-getpos.md) message to determine the slider position.
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies a notification code that indicates the user's interaction with the trackbar. This word can be one of the following values.
+The [**LOWORD**](../winmsg/loword.md) specifies a notification code that indicates the user's interaction with the trackbar. This word can be one of the following values.
 
 
 

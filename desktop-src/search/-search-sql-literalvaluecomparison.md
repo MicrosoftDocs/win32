@@ -56,6 +56,8 @@ In conjunction with the "=" operator, Windows Search Structured Query Language (
 ...WHERE <column> <comparison operator> [BEFORE | AFTER](<https://msdn.microsoft.com/library/Ff637626(v=MSDN.10).aspx>)
 ```
 
+Note: to compare dates, you must use [DATEADD](/windows/win32/search/-search-sql-dateadd).
+
 
 
 ## Examples

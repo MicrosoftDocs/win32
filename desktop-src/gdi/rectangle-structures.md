@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 The following structures are used with rectangles.
 
--   [**POINT**](/previous-versions//dd162805(v=vs.85))
--   [**POINTS**](/previous-versions//dd162808(v=vs.85))
--   [**RECT**](/previous-versions//dd162897(v=vs.85))
+-   [**POINT**](/windows/win32/api/windef/ns-windef-point)
+-   [**POINTS**](/windows/win32/api/windef/ns-windef-points)
+-   [**RECT**](/windows/win32/api/windef/ns-windef-rect)
 
  
 

@@ -44,7 +44,7 @@ For example, you can:
 -   Set or retrieve the user agent string used by servers to identify the features of the client application or browser.
 -   Retrieve the handle type of the specified [**HINTERNET**](appendix-a-hinternet-handles.md) handle.
 
-For more information and a list of the Internet options, see [**Option Flags**](option-flags.md).
+For more information and a list of the Internet options, see [**Option flags**](option-flags.md).
 
 In Internet Explorer 5 and later, some options can be set or retrieved from a specific Internet connection using the [**INTERNET\_PER\_CONN\_OPTION\_LIST**](/windows/desktop/api/Wininet/ns-wininet-internet_per_conn_option_lista) and [**INTERNET\_PER\_CONN\_OPTION**](/windows/desktop/api/Wininet/ns-wininet-internet_per_conn_optiona) structures. For more information and a list of options that can be set or retrieved from a specific Internet connection, see the **dwOptions** member of the [**INTERNET\_PER\_CONN\_OPTION**](/windows/desktop/api/Wininet/ns-wininet-internet_per_conn_optiona) structure.
 
@@ -79,17 +79,17 @@ The following table lists the type of [**HINTERNET**](appendix-a-hinternet-handl
 |-------------|-------|
 | <strong>NULL</strong> | The default option settings for Internet Explorer. | 
 | INTERNET_HANDLE_TYPE_CONNECT_FTP | The option settings for this connection to an FTP server. These options affect any operations initiated from this <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> handle, such as file downloads. | 
-| INTERNET_HANDLE_TYPE_CONNECT_GOPHER | The option settings for this connection to a Gopher server. These options affect any operations initiated from this <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> handle, such as file downloads.<blockquote>[!Note]<br />Windows XP and Windows Server 2003 R2 and earlier only.</blockquote><br /> | 
+| INTERNET_HANDLE_TYPE_CONNECT_GOPHER | The option settings for this connection to a Gopher server. These options affect any operations initiated from this [**HINTERNET**](appendix-a-hinternet-handles.md) handle, such as file downloads. **Note:** Windows XP and Windows Server 2003 R2 and earlier only.<br> | 
 | INTERNET_HANDLE_TYPE_CONNECT_HTTP | The option settings for this connection to an HTTP server. These options affect any operations initiated from this <a href="appendix-a-hinternet-handles.md"><strong>HINTERNET</strong></a> handle, such as file downloads. | 
 | INTERNET_HANDLE_TYPE_FILE_REQUEST | The option settings associated with this file request. | 
 | INTERNET_HANDLE_TYPE_FTP_FILE | The option settings associated with this FTP resource download. | 
 | INTERNET_HANDLE_TYPE_FTP_FILE_HTML | The option settings associated with this FTP resource download formatted in HTML. | 
 | INTERNET_HANDLE_TYPE_FTP_FIND | The option settings associated with this search of files on an FTP server. | 
 | INTERNET_HANDLE_TYPE_FTP_FIND_HTML | The option settings associated with this search of files on an FTP server formatted in HTML. | 
-| INTERNET_HANDLE_TYPE_GOPHER_FILE | The option settings associated with this Gopher resource download.<blockquote>[!Note]<br />Windows XP and Windows Server 2003 R2 and earlier only.</blockquote><br /> | 
-| INTERNET_HANDLE_TYPE_GOPHER_FILE_HTML | The option settings associated with this Gopher resource download formatted in HTML.<blockquote>[!Note]<br />Windows XP and Windows Server 2003 R2 and earlier only.</blockquote><br /> | 
-| INTERNET_HANDLE_TYPE_GOPHER_FIND | The option settings associated with this search of files on an Gopher server.<blockquote>[!Note]<br />Windows XP and Windows Server 2003 R2 and earlier only.</blockquote><br /> | 
-| INTERNET_HANDLE_TYPE_GOPHER_FIND_HTML | The option settings associated with this search of files on an Gopher server formatted in HTML.<blockquote>[!Note]<br />Windows XP and Windows Server 2003 R2 and earlier only.</blockquote><br /> | 
+| INTERNET_HANDLE_TYPE_GOPHER_FILE | The option settings associated with this Gopher resource download. **Note:** Windows XP and Windows Server 2003 R2 and earlier only.<br> | 
+| INTERNET_HANDLE_TYPE_GOPHER_FILE_HTML | The option settings associated with this Gopher resource download formatted in HTML. **Note:** Windows XP and Windows Server 2003 R2 and earlier only.<br> | 
+| INTERNET_HANDLE_TYPE_GOPHER_FIND | The option settings associated with this search of files on an Gopher server. **Note:** Windows XP and Windows Server 2003 R2 and earlier only.<br> | 
+| INTERNET_HANDLE_TYPE_GOPHER_FIND_HTML | The option settings associated with this search of files on an Gopher server formatted in HTML. **Note:** Windows XP and Windows Server 2003 R2 and earlier only.<br> | 
 | INTERNET_HANDLE_TYPE_HTTP_REQUEST | The option settings associated with this HTTP request. | 
 | INTERNET_HANDLE_TYPE_INTERNET | The option settings associated with this instance of the WinINet functions. | 
 

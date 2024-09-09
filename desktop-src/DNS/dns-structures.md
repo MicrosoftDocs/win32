@@ -1,6 +1,6 @@
 ---
-title: DNS Structures
-description: Domain Name System (DNS) structures navigation page.
+title: DNS structures
+description: The following structures are defined for use with DNS.
 ms.assetid: 636399be-43a5-4ddf-b652-f8efb81fbf42
 keywords:
 - Domain Name System Structures
@@ -8,33 +8,37 @@ keywords:
 - Domain Name System, reference, structures
 ms.topic: article
 ms.date: 04/19/2019
-ms.custom: 19H1
 ---
 
-# DNS Structures
+# DNS structures
 
-The following structures are defined for use with DNS:
+The following structures are defined for use with DNS.
 
 - [**DNS_ADDR**](/windows/win32/api/windns/ns-windns-dns_addr)
 - [**DNS_ADDR_ARRAY**](/windows/win32/api/windns/ns-windns-dns_addr_array)
-- [**DNS_APPLICATION_SETTINGS**](/windows/win32/api/Windns/ns-windns-dns_application_settings)
+- [**DNS_APPLICATION_SETTINGS**](/windows/win32/api/windns/ns-windns-dns_application_settings)
 - [**DNS_CUSTOM_SERVER**](/windows/win32/api/windns/ns-windns-dns_custom_server)
-- [**DNS_HEADER**](/windows/win32/api/Windns/ns-windns-dns_header)
-- [**DNS_MESSAGE_BUFFER**](/windows/win32/api/Windns/ns-windns-dns_message_buffer)
-- [**DNS_PROXY_INFORMATION**](/windows/win32/api/Windns/ns-windns-dns_proxy_information)
-- [**DNS_QUERY_REQUEST**](/windows/win32/api/Windns/ns-windns-dns_query_request)
-- [**DNS_QUERY_REQUEST3**](/windows/win32/api/Windns/ns-windns-dns_query_request3)
+- [**DNS_HEADER**](/windows/win32/api/windns/ns-windns-dns_header)
+- [**DNS_MESSAGE_BUFFER**](/windows/win32/api/windns/ns-windns-dns_message_buffer)
+- [**DNS_PROXY_INFORMATION**](/windows/win32/api/windns/ns-windns-dns_proxy_information)
+- [**DNS_QUERY_CANCEL**](/windows/win32/api/windns/ns-windns-dns_query_cancel)
+- [**DNS_QUERY_RAW_CANCEL**](/windows/win32/api/windns/ns-windns-dns_query_raw_cancel)
+- [**DNS_QUERY_RAW_REQUEST**](/windows/win32/api/windns/ns-windns-dns_query_raw_request)
+- [**DNS_QUERY_RAW_RESULT**](/windows/win32/api/windns/ns-windns-dns_query_raw_result)
+- [**DNS_QUERY_REQUEST**](/windows/win32/api/windns/ns-windns-dns_query_request)
+- [**DNS_QUERY_REQUEST3**](/windows/win32/api/windns/ns-windns-dns_query_request3)
+- [**DNS_QUERY_RESULT**](/windows/win32/api/windns/ns-windns-dns_query_result)
 - [**DNS_RECORD**](/windows/win32/api/windns/ns-windns-dns_recorda)
 - [**DNS_RECORD_FLAGS**](/windows/win32/api/windns/ns-windns-dns_record_flags)
-- [**DNS_SERVICE_BROWSE_REQUEST**](/windows/win32/api/Windns/ns-windns-dns_service_browse_request)
-- [**DNS_SERVICE_CANCEL**](/windows/win32/api/Windns/ns-windns-dns_service_cancel)
-- [**DNS_SERVICE_INSTANCE**](/windows/win32/api/Windns/ns-windns-dns_service_instance)
-- [**DNS_SERVICE_REGISTER_REQUEST**](/windows/win32/api/Windns/ns-windns-dns_service_register_request)
-- [**DNS_SERVICE_RESOLVE_REQUEST**](/windows/win32/api/Windns/ns-windns-dns_service_resolve_request)
-- [**IP4_ARRAY**](/windows/win32/api/Windns/ns-windns-ip4_array)
+- [**DNS_SERVICE_BROWSE_REQUEST**](/windows/win32/api/windns/ns-windns-dns_service_browse_request)
+- [**DNS_SERVICE_CANCEL**](/windows/win32/api/windns/ns-windns-dns_service_cancel)
+- [**DNS_SERVICE_INSTANCE**](/windows/win32/api/windns/ns-windns-dns_service_instance)
+- [**DNS_SERVICE_REGISTER_REQUEST**](/windows/win32/api/windns/ns-windns-dns_service_register_request)
+- [**DNS_SERVICE_RESOLVE_REQUEST**](/windows/win32/api/windns/ns-windns-dns_service_resolve_request)
+- [**IP4_ARRAY**](/windows/win32/api/windns/ns-windns-ip4_array)
 - [**IP6_ADDRESS**](/windows/win32/api/windns/ns-windns-ip6_address)
-- [**MDNS_QUERY_HANDLE**](/windows/win32/api/Windns/ns-windns-mdns_query_handle)
-- [**MDNS_QUERY_REQUEST**](/windows/win32/api/Windns/ns-windns-mdns_query_request)
+- [**MDNS_QUERY_HANDLE**](/windows/win32/api/windns/ns-windns-mdns_query_handle)
+- [**MDNS_QUERY_REQUEST**](/windows/win32/api/windns/ns-windns-mdns_query_request)
 
 The following Resource Record (RR) structures are also included in the DNS API. These structures are used with the **DNS_RECORD** structure to programmatically manage DNS resource records.
 
@@ -64,6 +68,6 @@ The following Resource Record (RR) structures are also included in the DNS API. 
 - [**DNS_TXT_DATA**](/windows/win32/api/windns/ns-windns-dns_txt_dataw)
 - [**DNS_WINS_DATA**](/windows/win32/api/windns/ns-windns-dns_wins_data)
 - [**DNS_WINSR_DATA**](/windows/win32/api/windns/ns-windns-dns_winsr_dataw)
-- [**DNS_WIRE_QUESTION**](/windows/win32/api/Windns/ns-windns-dns_wire_question)
-- [**DNS_WIRE_RECORD**](/windows/win32/api/Windns/ns-windns-dns_wire_record)
+- [**DNS_WIRE_QUESTION**](/windows/win32/api/windns/ns-windns-dns_wire_question)
+- [**DNS_WIRE_RECORD**](/windows/win32/api/windns/ns-windns-dns_wire_record)
 - [**DNS_WKS_DATA**](/windows/win32/api/windns/ns-windns-dns_wks_data)

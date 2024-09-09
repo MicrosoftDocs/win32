@@ -17,7 +17,7 @@ api_location:
 
 # Buffer::GetDimensions function
 
-Gets the length of the buffer.
+The length, in elements, of the Buffer as set in the Shader Resource View.
 
 ## Syntax
 

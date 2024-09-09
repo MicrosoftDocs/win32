@@ -3,10 +3,13 @@ description: DVD Playback Enhancements in Windows Vista
 ms.assetid: b3cf043f-c974-4240-8291-5c717bd8afaa
 title: DVD Playback Enhancements in Windows Vista
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DVD Playback Enhancements in Windows Vista
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This sections describes the improvements to DVD playback and navigation in Windows Vista.
 
@@ -67,7 +70,7 @@ In Windows Vista, the DVD Navigator enables the following improvements to power 
 
 By default, the reference clock in DirectShow sets the timer resolution to 1 millisecond. At that resolution, the CPU will not enter any power-saving modes. Starting in Windows Vista, the DVD Navigator overrides the reference clock's default behavior by calling [**IReferenceClockTimerControl::SetDefaultTimerResolution**](/windows/desktop/api/Strmif/nf-strmif-ireferenceclocktimercontrol-setdefaulttimerresolution) on the reference clock. This removes the clock's request for a 1-millisecond timer resolution. This might allow the CPU to enter a power-saving mode.
 
-Timer resolution is a global setting; Windows picks the lowest requested value. The Video Mixing Renderer (VMR) filters (VMR-7 and VMR-9) set the timer resolution to 1 millisecond. The EVR typically sets the resolution to a value between 4 and 8 milliseconds, depending on the whether desktop composition is enabled and whether the EVR is in full-screen mode. Other applications might also set the resolution.
+Timer resolution is a global setting; Windows picks the lowest requested value. The Video Mixing Renderer (VMR) filters (VMR-7 and VMR-9) set the timer resolution to 1 millisecond. The EVR typically sets the resolution to a value between 4 and 8 milliseconds, depending on whether the desktop composition is enabled and whether the EVR is in full-screen mode. Other applications might also set the resolution.
 
 **Cache size**: Applications can specify how much data the DVD Navigator caches by setting the DVD\_CacheSizeInMB option in the [**IDvdControl2::SetOption**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) method. If the application sets this flag to a large value (> 50 MB), the DVD drive may spin down after the initial pre-fetch, depending on the hardware, which can reduce power consumption.
 

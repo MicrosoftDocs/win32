@@ -44,7 +44,7 @@ The **TaskCompletionClient** interface has these methods.
 
 The GUID for this interface is "E97D552D-9AE9-46AA-9151-D2DA4BBB5E96".
 
-This API is deprecated and may not be available in future versions of Windows. Apps should use the APIs in the [**Windows.ApplicationModel.ExtendedExecution**](/uwp/api/Windows.ApplicationModel.ExtendedExecution?view=winrt-19041) namespace instead.
+This API is deprecated and may not be available in future versions of Windows. Apps should use the APIs in the [**Windows.ApplicationModel.ExtendedExecution**](/uwp/api/Windows.ApplicationModel.ExtendedExecution) namespace instead.
 
 ## Requirements
 

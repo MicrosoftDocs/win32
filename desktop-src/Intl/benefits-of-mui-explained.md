@@ -26,7 +26,7 @@ Prior to the Windows Vista release, the lack of built-in support for this latte
 -   Flexibility is increased in releasing additional languages for an application. Additional languages can be released independently of the core code, which means that support for new languages can be added over time as needed.
 -   Cost is reduced in creating and servicing more language releases.
 -   OEMs and enterprises can easily integrate applications into their globalized PC image—ready for shipment to different countries.
--   Tools and guidelines that help you migrate your application to the Windows Vista MUI model are available. In particular, MSDN provides a [significant set of documentation](multilingual-user-interface.md) on MUI.
+-   Tools and guidelines that help you migrate your application to the Windows Vista MUI model are available. For more info, see [Multilingual User Interface](multilingual-user-interface.md).
 
 ## MUI benefits for enterprises
 

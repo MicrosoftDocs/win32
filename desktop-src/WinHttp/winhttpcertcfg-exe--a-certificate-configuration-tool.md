@@ -17,7 +17,7 @@ The Microsoft Management Console (MMC) enables administrators to import client c
 
 ## Using the Certificate Configuration Tool
 
-The WinHTTP certificate configuration tool, WinHttpCertCfg.exe, is available as a download on the [Windows Server 2003 Resource Kit Tools](https://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd) website. The following example code shows the valid command line parameters to use with this tool.
+The WinHTTP certificate configuration tool, WinHttpCertCfg.exe, was previously available as part of the Windows Server 2003 Resource Kit Tools. The following example code shows the valid command line parameters to use with this tool.
 
 ``` syntax
 winhttpcertcfg [-?]
@@ -40,7 +40,7 @@ The following table lists parameters for the configuration tool.
 | -r | Specifies that access is removed for a private key. When this parameter is specified, "-a", "-c", and "-s" must also be specified. | 
 | -l | Specifies that accounts with access to a private key are listed. When this parameter is specified, "-c" and "-s" must also be specified. | 
 | -a | Specifies the user account on the machine being configured. This could be a local machine or domain account, such as "IWAM_TESTMACHINE", "TESTUSER", or "TESTDOMAIN\DOMAINUSER". | 
-| -c | Specifies the location and name of the <a href="glossary.md"><em>certificate store</em></a>. Use "LOCAL_MACHINE" or "CURRENT_USER" to designate which registry branch to use for the location. The <em>certificate store</em> can be any installed on the machine. Typical name examples are "MY", "Root", and "TrustedPeople". The location and name of the <em>certificate store</em> are separated with a backward slash, for example, "LOCAL_MACHINE\Root".<blockquote>[!Note]<br />Although the "CURRENT_USER" branch of the registry can be specified with this parameter, extending access to private keys is primarily intended for certificates installed in a local computer <a href="glossary.md"><em>certificate store</em></a> that can be accessed by multiple users.</blockquote><br /> | 
+| -c | Specifies the location and name of the [**certificate store**](glossary.md). Use "LOCAL_MACHINE" or "CURRENT_USER" to designate which registry branch to use for the location. The **certificate store** can be any installed on the machine. Typical name examples are "MY", "Root", and "TrustedPeople". The location and name of the **certificate store** are separated with a backward slash, for example, "LOCAL_MACHINE\Root". **Note:** Although the "CURRENT_USER" branch of the registry can be specified with this parameter, extending access to private keys is primarily intended for certificates installed in a local computer [**certificate store**](glossary.md) that can be accessed by multiple users.<br> | 
 | -s | Specifies a case-insensitive search string for finding the first enumerated certificate with a subject name that contains this substring. | 
 | -p | Specifies a password that is used to import the certificate and the private key. This is only used with the import option. | 
 

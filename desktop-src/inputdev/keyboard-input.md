@@ -1,5 +1,5 @@
 ---
-title: Keyboard Input (Keyboard and Mouse Input)
+title: Keyboard Input
 description: This section discusses how the system generates keyboard input and how an application receives and processes that input.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\userinput\keyboardinput.htm'
 keywords:
@@ -7,14 +7,14 @@ keywords:
 - capturing user input,keyboard input
 - keyboard input
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/01/2022
 ---
 
-# Keyboard Input (Keyboard and Mouse Input)
+# Keyboard Input
 
 This section describes how the system generates keyboard input and how an application receives and processes that input.
 
-### In This Section
+## In This Section
 
 
 
@@ -76,7 +76,7 @@ The following functions are obsolete.
 | Function                               | Description                                                                                                                                                                                                                                                                   |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetKBCodePage**](/windows/win32/api/winuser/nf-winuser-getkbcodepage) | Retrieves the current code page.<br/>                                                                                                                                                                                                                                   |
-| [**keybd\_event**](/windows/win32/api/winuser/nf-winuser-keybd_event)    | Synthesizes a keystroke. The system can use such a synthesized keystroke to generate a [**WM\_KEYUP**](wm-keyup.md) or [**WM\_KEYDOWN**](wm-keydown.md) message. The keyboard driver's interrupt handler calls the [**keybd\_event**](/windows/win32/api/winuser/nf-winuser-keybd_event) function.<br/> |
+| [**keybd_event**](/windows/win32/api/winuser/nf-winuser-keybd_event)    | Synthesizes a keystroke. The system can use such a synthesized keystroke to generate a [**WM\_KEYUP**](wm-keyup.md) or [**WM\_KEYDOWN**](wm-keydown.md) message. The keyboard driver's interrupt handler calls the [**keybd_event**](/windows/win32/api/winuser/nf-winuser-keybd_event) function.<br/> |
 | [**VkKeyScan**](/windows/win32/api/winuser/nf-winuser-vkkeyscana)         | Translates a character to the corresponding virtual-key code and shift state for the current keyboard.<br/>                                                                                                                                                             |
 
 
@@ -145,6 +145,12 @@ The following functions are obsolete.
 | [**Virtual-Key Codes**](virtual-key-codes.md) | The symbolic constant names, hexadecimal values, and mouse or keyboard equivalents for the virtual-key codes used by the system. The codes are listed in numeric order. <br/> |
 
 
+
+## See also
+
+- [About Keyboard Input](about-keyboard-input.md)
+
+ 
 
  
 

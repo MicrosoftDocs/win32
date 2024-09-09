@@ -24,10 +24,10 @@ Returns the green components of the four texel values that would be used in a bi
 
 ``` syntax
 TemplateType GatherGreen(
-  in  SamplerState S,
-  in  float        Location,
-  in  int          Offset,
-  out uint         Status
+  in  SamplerState S,
+  in  float2       Location,
+  in  int          Offset,
+  out uint         Status
 );
 ```
 
@@ -93,7 +93,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+
 
 ## See also
 
@@ -102,6 +102,6 @@ This function is supported for the following types of shaders:
 [GatherGreen methods](texture2d-gathergreen.md)
 </dt> </dl>
 
- 
 
- 
+
+

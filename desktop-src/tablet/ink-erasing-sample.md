@@ -20,10 +20,10 @@ The most interesting parts of this sample lie in the `InkErase` form's `OnPaint`
 
 The form's `OnPaint` event handler first paints the strokes, and depending on the application mode, may find and mark all of the cusps or intersections with a small red circle. A cusp marks the point where a stroke changes direction abruptly. An intersection marks a point where one stroke intersects with itself or another stroke.
 
-The [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) event occurs whenever a control is redrawn.
+The [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1&preserve-view=true) event occurs whenever a control is redrawn.
 
 > [!Note]  
-> The sample forces the form to redraw itself whenever a stroke is erased, or when the application mode changes, using the form's [Refresh](/dotnet/api/system.windows.forms.control.refresh?view=netcore-3.1) method.
+> The sample forces the form to redraw itself whenever a stroke is erased, or when the application mode changes, using the form's [Refresh](/dotnet/api/system.windows.forms.control.refresh?view=netcore-3.1&preserve-view=true) method.
 
  
 
@@ -186,7 +186,7 @@ private void EraseAtCusps(Point pt)
 
 ## Closing the Form
 
-The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method disposes the [InkCollector](/previous-versions/ms836493(v=msdn.10)) object, `myInkCollector`.
+The form's [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1&preserve-view=true) method disposes the [InkCollector](/previous-versions/ms836493(v=msdn.10)) object, `myInkCollector`.
 
  
 

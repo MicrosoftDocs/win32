@@ -4,18 +4,21 @@ ms.assetid: afd5cccb-e22f-4726-a84e-9eac1c1c277f
 title: D3DXVec4TransformArray function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec4TransformArray
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
 # D3DXVec4TransformArray function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Transforms an array (x, y, z, w) by a given matrix.
 

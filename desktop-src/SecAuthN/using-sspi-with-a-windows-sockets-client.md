@@ -40,6 +40,8 @@ This sample program uses limited error handling.
 #include <winsock.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <schannel.h>
+#include <Security.h>
 #include "SspiExample.h"
 
 CredHandle hCred;
@@ -83,7 +85,7 @@ void main()
     if (!ConnectAuthSocket (
         &Client_Socket,
         &hCred,
-        &hCtxt))
+        &hcText))
     {
         MyHandleError("Authenticated server connection ");
     }
@@ -96,7 +98,7 @@ void main()
     //   trailer blocks for this SSP.
 
     ss = QueryContextAttributes(
-        &hCtxt,
+        &hcText,
         SECPKG_ATTR_NEGOTIATION_INFO,
         &SecPkgNegInfo );
 
@@ -110,7 +112,7 @@ void main()
     }
 
     ss = QueryContextAttributes(
-        &hCtxt,
+        &hcText,
         SECPKG_ATTR_SIZES,
         &SecPkgContextSizes );
 
@@ -144,7 +146,7 @@ void main()
     pMessage = (PCHAR) DecryptThis(
         Data, 
         &cbRead,
-        &hCtxt,
+        &hcText,
         cbSecurityTrailer);
 
     printf ("The message from the server is \n ->  %.*s \n",
@@ -153,7 +155,7 @@ void main()
     //--------------------------------------------------------------------
     //  Terminate socket and security package.
 
-    DeleteSecurityContext (&hCtxt);
+    DeleteSecurityContext (&hcText);
     FreeCredentialHandle (&hCred); 
     shutdown (Client_Socket, 2);
     closesocket (Client_Socket);
@@ -262,7 +264,7 @@ BOOL DoAuthentication (SOCKET s)
         pOutBuf,  
         &cbOut, 
         &fDone, 
-        TargetName,
+        (SEC_WCHAR*)TargetName,
         &hCred,
         &hcText
         ))
@@ -294,7 +296,7 @@ BOOL DoAuthentication (SOCKET s)
             pOutBuf, 
             &cbOut, 
             &fDone, 
-            TargetName,
+            (SEC_WCHAR*)TargetName,
             &hCred,
             &hcText))
         {
@@ -320,7 +322,7 @@ BOOL GenClientContext (
     BYTE       *pOut,
     DWORD      *pcbOut,
     BOOL       *pfDone,
-    CHAR       *pszTarget,
+    SEC_WCHAR  *pszTarget,
     CredHandle *hCred,
 struct _SecHandle *hcText)
 {
@@ -331,11 +333,10 @@ struct _SecHandle *hcText)
     SecBufferDesc     InBuffDesc;
     SecBuffer         InSecBuff;
     ULONG             ContextAttributes;
-    static TCHAR      lpPackageName[1024];
+    static PTCHAR     lpPackageName = (PTCHAR) NEGOSSP_NAME;
 
     if( NULL == pIn )  
     {   
-        strcpy_s(lpPackageName, 1024 * sizeof(TCHAR), "Negotiate");
         ss = AcquireCredentialsHandle (
             NULL, 
             lpPackageName,
@@ -381,7 +382,7 @@ struct _SecHandle *hcText)
         ss = InitializeSecurityContext (
             hCred,
             hcText,
-            pszTarget,
+            (SEC_WCHAR*)pszTarget,
             MessageAttribute, 
             0,
             SECURITY_NATIVE_DREP,
@@ -397,7 +398,7 @@ struct _SecHandle *hcText)
         ss = InitializeSecurityContext (
             hCred,
             NULL,
-            pszTarget,
+            (SEC_WCHAR*)pszTarget,
             MessageAttribute, 
             0, 
             SECURITY_NATIVE_DREP,
@@ -780,7 +781,7 @@ BOOL ReceiveBytes (
 }  // end ReceiveBytes
 
 
-void MyHandleError(char *s)
+void MyHandleError(const char *s)
 {
 
     fprintf(stderr,"%s error. Exiting.\n",s);

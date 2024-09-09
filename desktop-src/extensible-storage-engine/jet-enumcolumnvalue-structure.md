@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: JET_ENUMCOLUMNVALUE Structure"
+description: Describes the JET_ENUMCOLUMNVALUE structure and provides its members, requirements, and related articles.
 title: JET_ENUMCOLUMNVALUE Structure
 TOCTitle: JET_ENUMCOLUMNVALUE Structure
 ms:assetid: a9882d7b-0c53-4a5d-bc98-0979e6e68c88
@@ -24,7 +24,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_ENUMCOLUMNVALUE Structure
 
-The **JET_ENUMCOLUMNVALUE** structure enumerates the column values of a record using the [JetEnumerateColumns](./jetenumeratecolumns-function.md) function. [JetEnumerateColumns](./jetenumeratecolumns-function.md) returns an array of **JET_ENUMCOLUMNVALUE** structures. The array is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to that function.
+The **JET_ENUMCOLUMNVALUE** structure enumerates the column values of a record using the [JetEnumerateColumns](./jetenumeratecolumns-function.md) function. [JetEnumerateColumns](./jetenumeratecolumns-function.md) returns an array of **JET_ENUMCOLUMNVALUE** structures. The array is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc) compatible callback that was supplied to that function.
 
 ```cpp
     typedef struct {
@@ -58,13 +58,13 @@ The column status code resulting from the enumeration of the column value.
 
 The column value that was enumerated for the column.
 
-The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](./jetenumeratecolumns-function.md).
+The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc) compatible callback that was supplied to [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
 **pvData**
 
 The column value that was enumerated for the column.
 
-The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](./jetenumeratecolumns-function.md).
+The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc) compatible callback that was supplied to [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
 ### Requirements
 
@@ -83,4 +83,4 @@ The output buffer is returned in memory that was allocated using the [realloc](/
 [JET_ENUMCOLUMNVALUE]()  
 [JET_ERR](./jet-err.md)  
 [JetEnumerateColumns](./jetenumeratecolumns-function.md)  
-[realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019)
+[realloc](/cpp/c-runtime-library/reference/realloc)

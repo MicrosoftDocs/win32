@@ -58,10 +58,10 @@ In addition to standard offsets, this parameter can also be set with one of the 
 
 | <p>Value</p> | <p>Meaning</p> | 
 |--------------|----------------|
-| <p>JET_MoveFirst</p> | <p>Moves the cursor to the first index entry in the index (if one exists).</p><p><strong>Note</strong>   The literal value of -2147483648 is used to denote this option. Do not use this value as an ordinary offset or unintended behavior may result.</p> | 
-| <p>JET_MoveLast</p> | <p>Moves the cursor to the last index entry in the index (if one exists).</p><p><strong>Note</strong>   The literal value of 2147483647 is used to denote this option. Do not use this value as an ordinary offset or unintended behavior may result.</p> | 
-| <p>JET_MoveNext</p> | <p>Moves the cursor to the next index entry in the index (if one exists). This value is exactly equal to an ordinary offset of +1.</p> | 
-| <p>JET_MovePrevious</p> | <p>Moves the cursor to the previous index entry in the index (if one exists).</p><p>This value is exactly equal to an ordinary offset of -1, or 0 (Zero).</p><p>The cursor remains at the current logical position and the existence of the index entry that corresponds to that logical position will be tested.</p> | 
+| <p>JET_MoveFirst</p> | <p>Moves the cursor to the first index entry in the index (if one exists). This resets any index range set with [JetSetIndexRange](./jetsetindexrange-function.md).</p><p><strong>Note</strong>   The literal value of -2147483648 is used to denote this option. Do not use this value as an ordinary offset or unintended behavior may result.</p> | 
+| <p>JET_MoveLast</p> | <p>Moves the cursor to the last index entry in the index (if one exists). This resets any index range set with [JetSetIndexRange](./jetsetindexrange-function.md).</p><p><strong>Note</strong>   The literal value of 2147483647 is used to denote this option. Do not use this value as an ordinary offset or unintended behavior may result.</p> | 
+| <p>JET_MoveNext</p> | <p>Moves the cursor to the next index entry in the index (if one exists). This value is exactly equal to an ordinary offset of +1. It respects index ranges set with [JetSetIndexRange](./jetsetindexrange-function.md).</p> | 
+| <p>JET_MovePrevious</p> | <p>Moves the cursor to the previous index entry in the index (if one exists). It respects index ranges set with [JetSetIndexRange](./jetsetindexrange-function.md).</p><p>This value is exactly equal to an ordinary offset of -1, or 0 (Zero).</p><p>The cursor remains at the current logical position and the existence of the index entry that corresponds to that logical position will be tested.</p> | 
 
 
 

@@ -71,7 +71,7 @@ d07433d0-a98e-11d2-917a-00a0c9068ff3
 
 
 
-There are several possible causes for this event; for more information, refer to T10 MMC specification of the GET EVENT STATUS NOTIFICATION Command, at [https://www.t10.org/](https://www.t10.org/).
+There are several possible causes for this event; for more information, refer to the T10 MMC specification of the GET EVENT STATUS NOTIFICATION Command.
 
 
 </dt> </dl> </dd> <dt>

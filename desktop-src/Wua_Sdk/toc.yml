@@ -69,7 +69,7 @@
       - name: "SearchScope"
         href: /windows/win32/api/Wuapi/ne-wuapi-searchscope
       - name: "ServerSelection"
-        href: /windows/win32/api/wuapicommon/ne-wuapicommon-serverselection
+        href: /previous-versions/windows/desktop/aa387280(v%3dvs.85)
       - name: "UpdateEndpointAuthTokenType"
         href: updateendpointauthtokentype.md
       - name: "UpdateEndpointType"

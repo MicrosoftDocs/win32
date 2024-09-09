@@ -214,6 +214,8 @@
             href: tier-1.md
           - name: "Tier 2"
             href: tier-2.md
+      - name: "Displayable surfaces"
+        href: displayable-surfaces.md
     - name: "Graphics pipeline"
       href: overviews-direct3d-11-graphics-pipeline.md
       items: 
@@ -926,6 +928,8 @@
             href: /windows/win32/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4
           - name: "D3D11_FEATURE_DATA_D3D11_OPTIONS5"
             href: /windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options5
+          - name: "D3D11_FEATURE_DATA_DISPLAYABLE"
+            href: /windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_displayable
           - name: "D3D11_FEATURE_DATA_DOUBLES"
             href: /windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_doubles
           - name: "D3D11_FEATURE_DATA_FORMAT_SUPPORT"
@@ -1899,8 +1903,8 @@
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(constd3d11_depth_stencil_desc_)
           - name: "CD3D11_DEPTH_STENCIL_DESC(CD3D11_DEFAULT) constructor"
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(cd3d11_default)
-          - name: "CD3D11_DEPTH_STENCIL_DESC(BOOL, D3D11_DEPTH_WRITE_MASK, D3D11_COMPARISON_FUNC, BOOL, UINT8, UINT8, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC) constructor"
-            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(bool_d3d11_depth_write_mask_d3d11_comparison_func_bool_uint8_uint8_d3d11_stencil_op_d3d11_stencil_op_d3d11_stencil_op_d3d11_compa
+#          - name: "CD3D11_DEPTH_STENCIL_DESC(BOOL, D3D11_DEPTH_WRITE_MASK, D3D11_COMPARISON_FUNC, BOOL, UINT8, UINT8, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_STENCIL_OP, D3D11_COMPARISON_FUNC) constructor"
+#            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-cd3d11_depth_stencil_desc(bool_d3d11_depth_write_mask_d3d11_comparison_func_bool_uint8_uint8_d3d11_stencil_op_d3d11_stencil_op_d3d11_stencil_op_d3d11_compa
           - name: "~CD3D11_DEPTH_STENCIL_DESC() destructor"
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_depth_stencil_desc-~cd3d11_depth_stencil_desc
           - name: "operator const D3D11_DEPTH_STENCIL_DESC&() method"
@@ -1917,7 +1921,7 @@
           - name: "~CD3D11_BLEND_DESC() destructor"
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-~cd3d11_blend_desc
           - name: "operator const D3D11_BLEND_DESC&() method"
-            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_blend_desc-operatorconstd3d11_blend_desc_
+            href: /windows/win32/api/d3d11/ns-d3d11-d3d11_blend_desc
         - name: "CD3D11_RASTERIZER_DESC"
           href: /previous-versions/windows/desktop/legacy/jj151654(v=vs.85)
           items: 
@@ -1945,7 +1949,7 @@
           - name: "~CD3D11_BUFFER_DESC() destructor"
             href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-~cd3d11_buffer_desc
           - name: "operator const D3D11_BUFFER_DESC&() method"
-            href: /windows/win32/api/d3d11/nf-d3d11-cd3d11_buffer_desc-operatorconstd3d11_buffer_desc_
+            href: /windows/win32/api/d3d11/ns-d3d11-cd3d11_buffer_desc
         - name: "CD3D11_TEXTURE1D_DESC"
           href: /previous-versions/windows/desktop/legacy/jj151694(v=vs.85)
           items: 

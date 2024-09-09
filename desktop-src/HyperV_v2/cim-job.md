@@ -86,7 +86,7 @@ The **CIM\_Job** class has these methods.
 
 | Method | Description | 
 |--------|-------------|
-| <a href="cim-job-killjob.md"><strong>KillJob</strong></a> | This method is deprecated. Instead, use the <strong>RequestStateChange</strong> method.<br /><blockquote>[!Note]<br />Deprecated description: Shuts down a job.</blockquote><br /> | 
+| [**KillJob**](cim-job-killjob.md) | This method is deprecated. Instead, use the **RequestStateChange** method.<br> **Note:** Deprecated description: Shuts down a job.<br> | 
 
 
 

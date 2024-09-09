@@ -28,7 +28,7 @@ Sets group information. Send this message explicitly or by using the [**ListView
 </dt> <dd>ID that specifies the group whose information is to be set.</dd> <dt>
 
 *lParam* \[in, out\]
-</dt> <dd>Pointer to a [**LVGROUP**](windows/win32/api/commctrl/ns-commctrl-lvgroup) structure that contains the information to set.</dd> </dl>
+ </dt> <dd>Pointer to a <a href="/windows/win32/api/commctrl/ns-commctrl-lvgroup"><b>LVGROUP</b></a> structure that contains the information to set.</dd> </dl>
 
 ## Return value
 

@@ -3,10 +3,13 @@ description: The DVD Copy Protection property set provides authentication of cop
 ms.assetid: da3abefd-8f25-449d-8787-84d2cef928da
 title: DVD Copy Protection Property Set (Dvdmedia.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # DVD Copy Protection Property Set
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The DVD Copy Protection property set provides authentication of copy protection information from hardware or software decrypters. Use this property set to prevent unauthorized copying from prerecorded DVD-Video.
 
@@ -41,7 +44,7 @@ The following information presents the necessary constants and data types to use
 | AM_PROPERTY_DVDCOPY_DVD_KEY1 | This is a set-only property. This property provides the DVD drive bus key 1 to the decoder. The data passed will be a structure of type <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey"><strong>AM_DVDCOPY_BUSKEY</strong></a>. | 
 | AM_PROPERTY_DVDCOPY_REGION | Region code requests the region definition that the decoder is allowed to play in as defined by the DVD consortium. This region is defined as a <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-dvd_region"><strong>DVD_REGION</strong></a> structure. | 
 | AM_PROPERTY_DVDCOPY_SET_COPY_STATE | Both get and set are supported on this property. Get is called first to determine if authentication is required. The set properties are indications as to which phase of copy protection negotiation the filter is entering. The data passed will be a structure of type <a href="/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_set_copy_state"><strong>AM_DVDCOPY_SET_COPY_STATE</strong></a>. | 
-| AM_PROPERTY_DVDCOPY_SUPPORTS_NEW_KEYCOUNT | If this property is <strong>TRUE</strong>, the DVD Navigator does not send <strong>AM_UseNewCSSKey</strong> samples before negotiating the disc key. See <a href="/windows/win32/api/strmif/ns-strmif-am_sample2_properties"><strong>AM_SAMPLE2_PROPERTIES</strong></a>.<br /> Read-only. The property data is a <strong>BOOL</strong> value.<br /><blockquote>[!Note]<br />Applies to Windows 7.</blockquote><br /> | 
+| AM_PROPERTY_DVDCOPY_SUPPORTS_NEW_KEYCOUNT | If this property is **TRUE**, the DVD Navigator does not send **AM_UseNewCSSKey** samples before negotiating the disc key. See [**AM_SAMPLE2_PROPERTIES**](/windows/win32/api/strmif/ns-strmif-am_sample2_properties).<br> Read-only. The property data is a **BOOL** value.<br> **Note:** Applies to Windows 7.<br> | 
 | AM_PROPERTY_DVDCOPY_TITLE_KEY | This is a set-only property. This provides title key from current content. The key is a structure of type <a href="/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_titlekey"><strong>AM_DVDCOPY_TITLEKEY</strong></a>. | 
 
 

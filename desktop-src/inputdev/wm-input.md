@@ -20,7 +20,7 @@ ms.date: 04/17/2020
 
 Sent to the window that is getting raw input.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```cpp

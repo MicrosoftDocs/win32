@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # How to Write an EVR Presenter
 
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
+
+
 This article describes how to write a custom presenter for the enhanced video renderer (EVR). A custom presenter can be used with both DirectShow and Media Foundation; the interfaces and object model are the same for both technologies, although the exact sequence of operations might vary.
 
 The example code in this topic is adapted from the [EVRPresenter Sample](evrpresenter-sample.md), which is provided in the Windows SDK.
@@ -419,16 +422,13 @@ The presenter must implement the [**IMFClockStateSink**](/windows/desktop/api/mf
 
 Here are some guidelines for implementing the methods in this interface. All of the methods should fail if the presenter is shut down.
 
-
-
-
-| 
-|
+| Method| Description |
+|-----|-----|
 | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> | <ol><li>Set the presenter state to started.</li><li>If the <em>llClockStartOffset</em> is not <strong>PRESENTATION_CURRENT_POSITION</strong>, flush the presenter's queue of samples. (This is equivalent to receiving an <strong>MFVP_MESSAGE_FLUSH</strong> message.)</li><li>If a previous frame-step request is still pending, process the request (see <a href="#frame-stepping">Frame Stepping</a>). Otherwise, try to process output from the mixer (see <a href="#processing-output">Processing Output</a>.</li></ol> | 
 | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>OnClockStop</strong></a> | <ol><li>Set the presenter state to stopped.</li><li>Flush the presenter's queue of samples.</li><li>Cancel any pending frame-step operation.</li></ol> | 
 | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a> | Set the presenter state to paused. | 
 | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a> | Treat the same as <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> but do not flush the queue of samples. | 
-| <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a> | <ol><li>If the rate is changing from zero to nonzero, cancel frame stepping.</li><li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see <a href="#scheduling-samples">Scheduling Samples</a>.</li></ol> | 
+| <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a> | <ol><li>If the rate is changing from zero to nonzero, cancel frame stepping.</li><li>Store the new clock rate. The clock rate affects when samples are presented. For more information, see <a href="#scheduling-samples">Scheduling Samples</a>.</li></ol>|
 
 
 
@@ -573,7 +573,7 @@ The following table lists the events that the presenter sends, along with the ev
 | <a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a> | Specifies the amount of time that the presenter is taking to render each frame. (Optional.)<br /><ul><li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the amount of time to process the frame, in 100-nanosecond units.</li><li><em>Param2</em>: Not used.</li></ul>For more information, see <a href="#processing-output">Processing Output</a>.<br /> | 
 | <a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a> | Specifies the current lag time in rendering samples. If the value is positive, samples are behind schedule. If the value is negative, samples are ahead of schedule. (Optional.)<br /><ul><li><em>Param1</em>: Pointer to a constant <strong>LONGLONG</strong> value that contains the lag time, in 100-nanosecond units.</li><li><em>Param2</em>: Not used.</li></ul> | 
 | <a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a> | Sent immediately after <strong>EC_STEP_COMPLETE</strong> if the playback rate is zero. This event contains the time stamp of the frame that was displayed.<br /><ul><li><em>Param1</em>: Lower 32 bits of the time stamp.</li><li><em>Param2</em>: Upper 32 bits of the time stamp.</li></ul>For more information, see <a href="#frame-stepping">Frame Stepping</a>.<br /> | 
-| <a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a> | The presenter has completed or canceled a frame step.<br /><ul><li><em>Param1</em>: Not used.</li><li><em>Param2</em>: Not used.</li></ul>For more information, see <a href="#frame-stepping">Frame Stepping</a>.<br /><blockquote>[!Note]<br />A previous version of the documentation described <em>Param1</em> incorrectly. This parameter is not used for this event.</blockquote><br /> | 
+| [**EC_STEP_COMPLETE**](/windows/desktop/DirectShow/ec-step-complete) | The presenter has completed or canceled a frame step.<br>- **Param1**: Not used.<br>- **Param2**: Not used.<br>For more information, see [Frame Stepping](#frame-stepping).<br> **Note:** A previous version of the documentation described **Param1** incorrectly. This parameter is not used for this event.<br> | 
 
 
 
@@ -1192,7 +1192,7 @@ To get the duration of each sample, call [**IMFSample::GetSampleDuration**](/win
 
 When you schedule samples, keep in mind the following:
 
--   If the playback rate is faster or slower than normal speed, the clock runs at a faster or slower rate. That means the time stamp on a sample always gives the correct target time relative to the presentation clock. However, if you translate presentation times into some other clock time (for example, the high-resolution performace counter), then you must scale the times based on the clock speed. If the clock speed changes, the EVR calls the presenter's [**IMFClockStateSink::OnClockSetRate**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate) method.
+-   If the playback rate is faster or slower than normal speed, the clock runs at a faster or slower rate. That means the time stamp on a sample always gives the correct target time relative to the presentation clock. However, if you translate presentation times into some other clock time (for example, the high-resolution performance counter), then you must scale the times based on the clock speed. If the clock speed changes, the EVR calls the presenter's [**IMFClockStateSink::OnClockSetRate**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate) method.
 -   The playback rate can be negative for reverse playback. When the playback rate is negative, the presentation clock runs backward. In other words, time *N* + 1 occurs before time *N*.
 
 The following example calculates how early or late a sample is, relative to the presentation clock:

@@ -46,13 +46,13 @@ Although private parties are not permitted to introduce new definitions into ano
 <li>name attributes are required to appear in each of the element types that contain them, except in the case of some previously defined public Print Schema Option elements, such as DocumentNUp.<br/></li>
 </ul>
 The following example shows how to identify an Option instance using a 'name' attribute. This is the correct way to define Option elements. A provider should not have unnamed Options, unless they are publicly defined in the Print Schema, such as DocumentNUp.<br/>
-<pre class="syntax" data-space="preserve"><code>  <psf:Option name=&quot;psk:StapleBottomRight&quot;>
-    \<psf:ScoredProperty name=&quot;psk:Angle&quot;\>
-      <psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_</psf:Value>
-    </psf:ScoredProperty>
-    <psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; >
-      <psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_</psf:Value>
-    </psf:ScoredProperty>
+<pre class="syntax" data-space="preserve"><code>  &lt;psf:Option name=&quot;psk:StapleBottomRight&quot;&gt;
+    \&lt;psf:ScoredProperty name=&quot;psk:Angle&quot;&gt;
+      &lt;psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_&lt;psf:Value&gt;
+    &lt;/psf:ScoredProperty&gt;
+    &lt;psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; &gt;
+      &lt;psf:Value xsi:type=&quot;xs:integer&quot;&gt;_Undefined_&lt;psf:Value&gt;
+    &lt;psf:ScoredProperty&gt;
   &lt;/psf:Option&gt;</code></pre></td>
 </tr>
 <tr class="even">
@@ -92,7 +92,7 @@ When the PrintCapabilities provider reports values of the constrained attribute,
 <tr class="even">
 <td>xmlns <br/></td>
 <td>URI<br/></td>
-<td>This XML attribute establishes a link between a namespace uniform resource identifier (URI) and the namespace prefix that appears in the XML QName. You must establish such a link to the namespace URI defined for the Print Schema Framework before you can use any of the Framework-defined element tags, Attributes, name attributes, and so on. You may declare this namespace to be the default to avoid actually qualifying the element tags with a namespace prefix, although all other QNames must be explicitly qualified. The standard namespace must be defined in the appropriate root element. Observe all XML rules and conventions regarding use of the xmlns attribute.<br/> The URI for the Print Schema Framework is http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework.<br/> The URI for the Print Schema Keywords is https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords.<br/></td>
+<td>This XML attribute establishes a link between a namespace uniform resource identifier (URI) and the namespace prefix that appears in the XML QName. You must establish such a link to the namespace URI defined for the Print Schema Framework before you can use any of the Framework-defined element tags, Attributes, name attributes, and so on. You may declare this namespace to be the default to avoid actually qualifying the element tags with a namespace prefix, although all other QNames must be explicitly qualified. The standard namespace must be defined in the appropriate root element. Observe all XML rules and conventions regarding use of the xmlns attribute.<br/> The URI for the Print Schema Framework is http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework.<br/> The URI for the Print Schema Keywords is `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords`.<br/></td>
 
 </tr>
 </tbody>

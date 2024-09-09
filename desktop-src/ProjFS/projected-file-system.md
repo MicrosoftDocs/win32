@@ -8,7 +8,7 @@ ms.topic: article
 
 # Windows Projected File System (ProjFS)
 
-The Windows Projected File System (ProjFS) allows a user-mode application called a "provider" to project hierarchical data from a backing data store into the file system, making it appear as files and directories in the file system. For example, a simple provider could project the Windows registry into the file system, making registry keys and values appear as files and directories, respectively. An example of a more complex provider is [VFS for Git](https://github.com/Microsoft/VFSForGit), which is used to virtualize very large git repos.
+The Windows Projected File System (ProjFS) allows a user-mode application called a "provider" to project hierarchical data from a backing data store into the file system, making it appear as files and directories in the file system. For example, a simple provider could project the Windows registry into the file system, making registry keys and values appear as directories and files, respectively. An example of a more complex provider is [VFS for Git](https://github.com/Microsoft/VFSForGit), which is used to virtualize very large git repos.
 
 > [!NOTE]
 > ProjFS is designed for use with high-speed backing data stores. One of its design goals is to make the projected data appear as if it were locally present, hiding the fact that the data may be remote. As such, ProjFS doesn't provide: mechanisms for reporting progress of data recall; indication of the online versus offline state of a file; nor other features that may be desirable when working with backing data stores that are slow. For such scenarios, consider instead using the [Cloud Files API](../cfapi/cloud-files-api-portal.md).

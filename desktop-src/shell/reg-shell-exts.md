@@ -162,58 +162,6 @@ HKEY_CLASSES_ROOT
                (Default) = {11111111-2222-3333-4444-555555555555}
 ```
 
-### Registering Shell Extension Handlers
-
-The registration procedure discussed in this section must be followed for all Windows systems. However, with later systems, an additional step might be necessary. Because these later versions of Windows are designed to be used in a managed environment, access to the registry could be administratively restricted, requiring a somewhat different approach to installation than described in the previous section.
-
-> [!Note]  
-> Setup programs should generally not write directly to the registry. Instead, setup should be accomplished with Windows Installer packages. These tools ensure that software runs well and provides access to capabilities such as per-user class registration.
-
- 
-
-Shell extension handlers run in the Shell process. Because it is a system process, the administrator of a system can limit Shell extension handlers to those on an approved list by setting the EnforceShellExtensionSecurity value of the **Explorer** key to 1 as shown here:
-
-```
-HKEY_CURRENT_USER
-   Software
-      Microsoft
-         Windows
-            CurrentVersion
-               Policies
-                  Explorer
-                     EnforceShellExtensionSecurity = 1
-```
-
-To place a Shell extension handler on the approved list, create a **REG\_SZ** value whose name is the string form of the handler's GUID under the **Approved** subkey.
-
-```
-HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Windows
-            CurrentVersion
-               Shell Extensions
-                  Approved
-```
-
-For example, the following example adds the *MyCommand* and *MyPropSheet* handlers to the approved list.
-
-```
-HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Windows
-            CurrentVersion
-               Shell Extensions
-                  Approved
-                     {00000000-1111-2222-3333-444444444444} = MyCommand
-                     {11111111-2222-3333-4444-555555555555} = MyPropSheet
-```
-
-The Shell does not use the value that is assigned to the GUID, but it should be set to make inspecting the registry easier.
-
-Your setup application can add values to the **Approved** subkey only if the person installing the application has sufficient privileges. If the attempt to add an extension handler fails, you should inform the user that administrative privileges are required to fully install the application. If the handler is essential to the application, you should fail the setup and notify the user to contact an administrator.
-
 ## Related topics
 
 <dl> <dt>

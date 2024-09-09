@@ -127,7 +127,7 @@ The **StatusCode** property, inherited from the [**\_\_NotifyStatus**](--notifys
 
 ## Examples
 
-The following code sample, taken from the [FND:How to Handle Configuration Manager Asynchronous Errors by Using WMI](https://Gallery.TechNet.Microsoft.Com/0bc05d07-1479-43c9-8e01-0f01d0fc3daa) VBScript code example on TechNet Gallery, describes using **\_\_ExtendedStatus** to retrieve error information.
+The following VBScript code example describes using **\_\_ExtendedStatus** to retrieve error information.
 
 
 ```VB

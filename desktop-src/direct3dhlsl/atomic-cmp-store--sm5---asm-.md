@@ -12,7 +12,7 @@ Atomic compare and write to memory.
 
 
 
-| atomic\_cmp\_store dst, dstAddress\[.swizzle\], src0\[.select\_component\], src1\[.select\_component\] |
+| atomic\_cmp\_store dest, dstAddress\[.swizzle\], src0\[.select\_component\], src1\[.select\_component\] |
 |--------------------------------------------------------------------------------------------------------|
 
 
@@ -23,9 +23,9 @@ Atomic compare and write to memory.
 
 | Item                                                                                                           | Description                                                                                                                                                                               |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="dst"></span><span id="DST"></span>*dst*<br/>                                                   | \[in\] The components to compare with *src0*. This value must be an unordered access view (UAV) (u\#). In the compute shader it can also be thread group shared memory (g\#). <br/> |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                   | \[in\] The components to compare with *src0*. This value must be an unordered access view (UAV) (u\#). In the compute shader it can also be thread group shared memory (g\#). <br/> |
 | <span id="dstAddress"></span><span id="dstaddress"></span><span id="DSTADDRESS"></span>*dstAddress*<br/> | \[in\] The memory address.<br/>                                                                                                                                                     |
-| <span id="src0"></span><span id="SRC0"></span>*src0*<br/>                                                | \[in\] The 32-bit value to compare with *dst*.<br/>                                                                                                                                 |
+| <span id="src0"></span><span id="SRC0"></span>*src0*<br/>                                                | \[in\] The 32-bit value to compare with *dest*.<br/>                                                                                                                                 |
 | <span id="src1"></span><span id="SRC1"></span>*src1*<br/>                                                | \[in\] The value to write to memory if the compared values are identical. <br/>                                                                                                     |
 
 
@@ -34,21 +34,21 @@ Atomic compare and write to memory.
 
 ## Remarks
 
-This instruction performs a single component 32-bit value compare of operand *src0* with *dst* at 32-bit per component address *dstAddress*.
+This instruction performs a single component 32-bit value compare of operand *src0* with *dest* at 32-bit per component address *dstAddress*.
 
 If the compared values are identical, the single-component 32-bit value in *src1* is written to destination memory. Otherwise, the destination is not changed.
 
 The entire compare and write operation is performed atomically.
 
-If *dst* is a u\#, it can be declared as raw, typed or structured. If typed, it must be declared as UINT/SINT with the bound resource format being R32\_UINT/\_SINT.
+If *dest* is a u\#, it can be declared as raw, typed or structured. If typed, it must be declared as UINT/SINT with the bound resource format being R32\_UINT/\_SINT.
 
-If *dst* is g\#, it must be declared as raw or structured.
+If *dest* is g\#, it must be declared as raw or structured.
 
-The number of components taken from the address is determined by the dimensionality of dst u\# or g\#.
+The number of components taken from the address is determined by the dimensionality of dest u\# or g\#.
 
 Nothing is returned to the shader.
 
-If the shader invocation is inactive, for example if the pixel has been discarded earlier in its execution, or a pixel/sample instruction does not alter the *dst* memory at all (silently).
+If the shader invocation is inactive, for example if the pixel has been discarded earlier in its execution, or a pixel/sample instruction does not alter the *dest* memory at all (silently).
 
 Out of bounds addressing on u\# causes nothing to be written to memory, except if the u\# is structured, and byte offset into the struct (second component of the address) is causing the out of bounds access, then the entire contents of the UAV become undefined.
 

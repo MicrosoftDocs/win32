@@ -4,18 +4,21 @@ ms.assetid: e61ec1c8-00b5-491f-8fb1-be97218f6c68
 title: D3DXVECTOR2 structure (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVECTOR2
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - d3dx9math.h
 ---
 
 # D3DXVECTOR2 structure (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Describes a two-component vector including operator overloads and type casts.
 
@@ -127,7 +130,7 @@ public:
     D3DXFLOAT16 x, y;
 
 } D3DXVECTOR2_16F, *LPD3DXVECTOR2_16F;
-        
+
 ```
 
 

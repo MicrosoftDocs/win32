@@ -60,10 +60,10 @@ The following table lists formats that are available for each factoid used in Sp
 <td><strong>Telephone</strong></td>
 <td>Telephone numbers as written in Spanish.<br/></td>
 <td>987 12345<br/> 987 123456<br/> 987 1234567<br/> 987 12 34 56<br/> 987 123 4567<br/> 98 12345<br/> 98 123456<br/> 98 1234567<br/> 98 123 4567<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Each of the above formats can be preceded by one of the following international country/region codes and a space.
-</blockquote>
+
 <br/> 00 1<br/> 00 11<br/></td>
 </tr>
 <tr class="even">

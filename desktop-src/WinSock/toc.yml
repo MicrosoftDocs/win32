@@ -405,7 +405,7 @@
   - name: "Using Winsock"
     href: using-winsock.md
     items: 
-    - name: "Getting Started With Winsock"
+    - name: "Getting started with Winsock"
       href: getting-started-with-winsock.md
       items: 
       - name: "About Servers and Clients"
@@ -1161,7 +1161,7 @@
       - name: "CSADDR_INFO"
         href: /windows/win32/api/nspapi/ns-nspapi-csaddr_info
       - name: "fd_set"
-        href: /windows/win32/api/winsock/nf-winsock-fd_set
+        href: /windows/win32/api/winsock2/ns-winsock2-fd_set
       - name: "GROUP_FILTER"
         href: /windows/win32/api/Ws2ipdef/ns-ws2ipdef-group_filter
       - name: "GROUP_REQ"

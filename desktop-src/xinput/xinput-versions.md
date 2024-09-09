@@ -23,7 +23,7 @@ XInput 1.4 ships today as a system component in Windows 8 as XINPUT1\_4.DLL. It
 XInput 1.4 has these primary advantages over other versions of XInput:
 
 -   This is the only version that can be used in C++/DirectX Windows Store apps.
--   The new [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) function provides an audio device ID string that you can use to open an XAudio2 mastering voice or audio device for a headset attached to an Xbox common controller. The [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function is not available in this version.
+-   The new [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) function provides an audio device ID string that you can use to open an XAudio2 mastering voice or audio device for a headset attached to a controller. The [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function is not available in this version.
 -   Provides improved device capabilities reporting including XINPUT\_CAPS\_WIRELESS, XINPUT\_CAPS\_FFB\_SUPPORTED, XINPUT\_CAPS\_PMD\_SUPPORTED, and XINPUT\_CAPS\_NO\_NAVIGATION flags and more accurate reporting of XINPUT\_CAPS\_VOICE\_SUPPORTED. These flags are combined in the **Flags** member of the [**XINPUT\_CAPABILITIES**](/windows/desktop/api/XInput/ns-xinput-xinput_capabilities) structure. The [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) function returns **XINPUT\_CAPABILITIES**.
 
 ### XInput 9.1.0
@@ -34,7 +34,7 @@ The Windows SDK contains the header and import library for statically linking ag
 
 XInput 9.1.0 has these disadvantages over other versions of XInput:
 
--   For backward compatibility reasons, [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) in this version of XInput returns fixed capability information. Regardless of Xbox common controller device attached, **XInputGetCapabilities** in XInput 9.1.0 will always report a device subtype of GAMEPAD. It will not return the XINPUT\_CAPS\_WIRELESS capability bit even if a wireless device is connected.
+-   For backward compatibility reasons, [**XInputGetCapabilities**](/windows/desktop/api/XInput/nf-xinput-xinputgetcapabilities) in this version of XInput returns fixed capability information. Regardless of the controller device attached, **XInputGetCapabilities** in XInput 9.1.0 will always report a device subtype of GAMEPAD. It will not return the XINPUT\_CAPS\_WIRELESS capability bit even if a wireless device is connected.
 -   You can't determine the headset for a given user ID. The [**XInputGetAudioDeviceIds**](/windows/desktop/api/XInput/nf-xinput-xinputgetaudiodeviceids) function is not available and [**XInputGetDSoundAudioDeviceGuids**](/windows/desktop/api/XInput/nf-xinput-xinputgetdsoundaudiodeviceguids) function will return no results on Windows 8.x or Windows 10.
 -   The [**XInputEnable**](/windows/desktop/api/XInput/nf-xinput-xinputenable), [**XInputGetBatteryInformation**](/windows/desktop/api/XInput/nf-xinput-xinputgetbatteryinformation), and [**XInputGetKeystroke**](/windows/desktop/api/XInput/nf-xinput-xinputgetkeystroke) functions are not available.
 

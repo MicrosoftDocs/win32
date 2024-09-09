@@ -38,7 +38,7 @@ typedef enum _ExtendedDisconnectReasonCode {
   exDiscReasonServerInsufficientPrivileges      = 9,
   exDiscReasonServerFreshCredsRequired          = 10,
   exDiscReasonRpcInitiatedDisconnectByUser      = 11,
-  exDiscReasonLogoffByUser                      = 2,
+  exDiscReasonLogoffByUser                      = 12,
   exDiscReasonLicenseInternal                   = 256,
   exDiscReasonLicenseNoLicenseServer            = 257,
   exDiscReasonLicenseNoLicense                  = 258,

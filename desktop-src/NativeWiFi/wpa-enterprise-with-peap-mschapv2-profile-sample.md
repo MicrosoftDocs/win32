@@ -12,7 +12,7 @@ This sample profile uses Protected Extensible Authentication Protocol with Micro
 
 This sample is configured to use Wi-Fi Protected Access security running in Enterprise mode (WPA-Enterprise). The WPA-Enterprise security type uses 802.1X for the authentication exchange with the backend. Temporal Key Integrity Protocol (TKIP) is used for encryption.
 
-**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-name-wlanprofile-element.md) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored. The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-name-ssid-element.md) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element.
+**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-wlanprofile-element.md#name) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored. The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-ssid-ssidconfig-element.md#name) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element.
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
@@ -77,7 +77,7 @@ This sample is configured to use Wi-Fi Protected Access security running in Ente
 
 <dl> <dt>
 
-[Wireless Profile Samples](wireless-profile-samples.md)
+[Wireless profile samples](wireless-profile-samples.md)
 </dt> </dl>
 
  

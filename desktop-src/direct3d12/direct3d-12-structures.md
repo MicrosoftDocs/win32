@@ -3,8 +3,7 @@ title: Core structures (Direct3D 12 Graphics)
 description: The following structures are declared in d3d12.h.
 ms.assetid: 7FE8796A-98D1-4333-8755-2A47567460B3
 ms.topic: article
-ms.date: 04/19/2019
-ms.custom: 19H1
+ms.date: 11/03/2022
 ---
 
 # Core structures
@@ -16,8 +15,11 @@ The following structures are declared in d3d12.h.
 | Topic and description |
 |-|
 | [**D3D12_AUTO_BREADCRUMB_NODE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_auto_breadcrumb_node). Represents Device Removed Extended Data (DRED) auto-breadcrumb data as a node in a linked list. |
+| [**D3D12_BARRIER_GROUP**](/windows/win32/api/d3d12/ns-d3d12-d3d12_barrier_group). Describes a group of barriers of a given type. |
+| [**D3D12_BARRIER_SUBRESOURCE_RANGE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_barrier_subresource_range). Allows you to transition logically-adjacent ranges of subresources. |
 | [**D3D12_BLEND_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_blend_desc). Describes the blend state. |
 | [**D3D12_BOX**](/windows/win32/api/d3d12/ns-d3d12-d3d12_box). Describes a 3D box. |
+| [**D3D12_BUFFER_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_buffer_barrier). Describes a buffer memory access barrier. Used by buffer barriers to indicate when resource memory must be made visible for a specific access type. |
 | [**D3D12_BUFFER_RTV**](/windows/win32/api/d3d12/ns-d3d12-d3d12_buffer_rtv). Describes the elements in a buffer resource to use in a render-target view. |
 | [**D3D12_BUFFER_SRV**](/windows/win32/api/d3d12/ns-d3d12-d3d12_buffer_srv). Describes the elements in a buffer resource to use in a shader-resource view. |
 | [**D3D12_BUFFER_UAV**](/windows/win32/api/d3d12/ns-d3d12-d3d12_buffer_uav). Describes the elements in a buffer to use in a unordered-access view. |
@@ -61,6 +63,8 @@ The following structures are declared in d3d12.h.
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS9**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9). Indicates whether or not support exists for mesh shaders, values of *SV_RenderTargetArrayIndex* that are 8 or greater, typed resource 64-bit integer atomics, derivative and derivative-dependent texture sample operations, and the level of support for WaveMMA (wave_matrix) operations. |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS10**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options10). Indicates whether or not the SUM combiner can be used, and whether or not *SV_ShadingRate* can be set from a mesh shader. |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS11**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options11). Indicates whether or not 64-bit integer atomics on resources in descriptor heaps are supported. |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS12**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options12). Indicates whether or not Enhanced Barriers are supported. |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS13**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options13). TBD |
 | [**D3D12_FEATURE_DATA_EXISTING_HEAPS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps). Used to determinine whether the adapter supports creating heaps from existing system memory. Such heaps are not intended for general use, but are exceptionally useful for diagnostic purposes because they are guaranteed to persist even after the adapter faults or experiences a device-removal event. |
 | [**D3D12_FEATURE_DATA_FEATURE_LEVELS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_feature_levels). Describes info about the [feature levels](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) supported by the current graphics driver. |
 | [**D3D12_FEATURE_DATA_FORMAT_INFO**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_format_info). Describes the DXGI data format. |
@@ -75,6 +79,7 @@ The following structures are declared in d3d12.h.
 | [**D3D12_FEATURE_DATA_SERIALIZATION**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_serialization). Indicates the level of support for heap serialization. |
 | [**D3D12_FEATURE_DATA_SHADER_CACHE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache). Describes the level of shader caching supported in the current graphics driver. |
 | [**D3D12_FEATURE_DATA_SHADER_MODEL**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_model). Contains the supported shader model. |
+| [**D3D12_GLOBAL_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_global_barrier). Describes a resource memory access barrier. Used by global, texture, and buffer barriers to indicate when resource memory must be made visible for a specific access type. |
 | [**D3D12_GPU_DESCRIPTOR_HANDLE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle). Describes a GPU descriptor handle. |
 | [**D3D12_GRAPHICS_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc). Describes a graphics pipeline state object. |
 | [**D3D12_HEAP_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_desc). Describes a heap. |
@@ -179,6 +184,7 @@ The following structures are declared in d3d12.h.
 | [**D3D12_TEX3D_UAV**](/windows/win32/api/d3d12/ns-d3d12-d3d12_tex3d_uav). Describes a unordered-access 3D texture resource. |
 | [**D3D12_TEXCUBE_ARRAY_SRV**](/windows/win32/api/d3d12/ns-d3d12-d3d12_texcube_array_srv). Describes the subresources from an array of cube textures to use in a shader-resource view. |
 | [**D3D12_TEXCUBE_SRV**](/windows/win32/api/d3d12/ns-d3d12-d3d12_texcube_srv). Describes the subresource from a cube texture to use in a shader-resource view. |
+| [**D3D12_TEXTURE_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_texture_barrier). Describes a texture memory access barrier. Used by texture barriers to indicate when resource memory must be made visible for a specific access type. |
 | [**D3D12_TEXTURE_COPY_LOCATION**](/windows/win32/api/d3d12/ns-d3d12-d3d12_texture_copy_location). Describes a portion of a texture for the purpose of texture copies. |
 | [**D3D12_TILE_REGION_SIZE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_tile_region_size). Describes the size of a tiled region. |
 | [**D3D12_TILE_SHAPE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_tile_shape). Describes the shape of a tile by specifying its dimensions. |

@@ -17,7 +17,7 @@ The error handling macros are described in the following table.
 
 | Macro | Description | 
 |-------|-------------|
-| <a href="/windows/desktop/api/dmerror/nf-dmerror-make_hresult"><strong>MAKE_HRESULT</strong></a><br /> | Returns an <strong>HRESULT</strong> given the severity bit, facility code, and error code that comprise the <strong>HRESULT</strong>.<br /><blockquote>[!Note]<br />Calling <a href="/windows/desktop/api/dmerror/nf-dmerror-make_hresult"><strong>MAKE_HRESULT</strong></a> for S_OK verification carries a performance penalty. You should not routinely use <strong>MAKE_HRESULT</strong> for successful results.</blockquote><br /> | 
+| [**MAKE_HRESULT**](/windows/desktop/api/dmerror/nf-dmerror-make_hresult)<br> | Returns an **HRESULT** given the severity bit, facility code, and error code that comprise the **HRESULT**.<br> **Note:** Calling [**MAKE_HRESULT**](/windows/desktop/api/dmerror/nf-dmerror-make_hresult) for S_OK verification carries a performance penalty. You should not routinely use **MAKE_HRESULT** for successful results.<br> | 
 | <a href="/windows/desktop/api/Winerror/nf-winerror-make_scode"><strong>MAKE_SCODE</strong></a><br /> | Returns an <strong>SCODE</strong> given the severity bit, facility code, and error code that comprise the <strong>SCODE</strong>.<br /> | 
 | <a href="/windows/desktop/api/Winerror/nf-winerror-hresult_code"><strong>HRESULT_CODE</strong></a><br /> | Extracts the error code portion of the <strong>HRESULT</strong>.<br /> | 
 | <a href="/windows/desktop/api/Winerror/nf-winerror-hresult_facility"><strong>HRESULT_FACILITY</strong></a><br /> | Extracts the facility code of the <strong>HRESULT</strong>.<br /> | 

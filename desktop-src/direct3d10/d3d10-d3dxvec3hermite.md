@@ -4,18 +4,21 @@ ms.assetid: d2212299-0478-48a6-b303-60c212528058
 title: D3DXVec3Hermite function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3Hermite
-api_type: 
+api_type:
 - HeaderDef
-api_location: 
+api_location:
 - D3DX10Math.h
 ---
 
 # D3DXVec3Hermite function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Performs a Hermite spline interpolation, using the specified 3D vectors.
 
@@ -129,9 +132,9 @@ Plug in the solutions for A,B,C and D to generate Q(s).
 
 
 ```
-A = 2v1 - 2v2 + t2 + t1 
+A = 2v1 - 2v2 + t2 + t1
 B = 3v2 - 3v1 - 2t1 - t2
-C = t1 
+C = t1
 D = v1
 ```
 

@@ -494,7 +494,7 @@ STDMETHODIMP CSampleShellFolder::SetNameOf(
 
 ## Additional Resources
 
--   For Search code samples, see [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+-   For Search code samples, see [Windows Search Code Samples](-search-samples-ovw.md).
 -   For Shell code samples, see [Shell SDK Samples](/previous-versions/windows/desktop/legacy/dd940376(v=vs.85)).
 
 ## Related topics

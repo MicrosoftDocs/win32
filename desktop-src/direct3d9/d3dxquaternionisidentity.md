@@ -4,19 +4,22 @@ ms.assetid: 1cd39e1b-9b68-434d-b7b0-3ec6cddb8757
 title: D3DXQuaternionIsIdentity function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionIsIdentity
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXQuaternionIsIdentity function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Determines if a quaternion is an identity quaternion.
 

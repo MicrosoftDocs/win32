@@ -12,7 +12,7 @@ Computes a component-wise double-precision reciprocal.
 
 
 
-| rcp\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle\] |
+| drcp\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle\] |
 |------------------------------------------------------------|
 
 

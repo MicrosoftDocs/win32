@@ -4,19 +4,22 @@ ms.assetid: c929d9d4-b9cb-4de6-86c1-26fec3617846
 title: D3DXQuaternionRotationYawPitchRoll function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXQuaternionRotationYawPitchRoll
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXQuaternionRotationYawPitchRoll function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a quaternion with the given yaw, pitch, and roll.
 

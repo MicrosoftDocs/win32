@@ -62,7 +62,7 @@ This method can return one of these values.
 
 ## Remarks
 
-Each process receives the [**Suspending**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) event. It can be useful for developers to step through how their apps respond to this event.
+Each process receives the [**Suspending**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication) event. It can be useful for developers to step through how their apps respond to this event.
 
 ## Requirements
 

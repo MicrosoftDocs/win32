@@ -25,16 +25,16 @@ Windows Installer 4.5 and earlier is available as a redistributable software upd
 -   The name of the redistributable that installs Windows Installer 4.5 on x64-based computers running Windows Server 2003 with SP1 and Windows Server 2003 with SP2 is WindowsServer2003-KB942288-v4-x64.exe.
 -   The name of the redistributable that installs Windows Installer 4.5 on Itanium-Based Systems computers running Windows Server 2003 with SP1 and Windows Server 2003 with SP2 is WindowsServer2003-KB942288-v4-ia64.exe.
 -   There is no redistributable that installs Windows Installer 4.0. This version of the Windows Installer ships with Windows Vista.
--   The name of the redistributable that installs Windows Installer 3.1 is WindowsInstaller-KB893803-v2-x86.exe. The download for the [Windows Installer 3.1 Redistributable (v2)](https://www.microsoft.com/downloads/details.aspx?FamilyID=889482fc-5f56-4a38-b838-de776fd4138c) package is available at: https://www.microsoft.com/downloads/details.aspx?FamilyID=889482fc-5f56-4a38-b838-de776fd4138c.
+-   The name of the redistributable that installs Windows Installer 3.1 is WindowsInstaller-KB893803-v2-x86.exe. The download for the [Windows Installer 3.1 Redistributable (v2)](https://www.catalog.update.microsoft.com/Search.aspx?q=893803) package is available at: https://www.catalog.update.microsoft.com/Search.aspx?q=893803.
     > [!Note]  
-    > If you upgraded to Windows Installer 3.1 by installing Windows Server 2003 with SP1, or an earlier version of this redistributable, you may also need to install the [Update for Windows Server 2003 Service Pack 1 (KB898715)](https://www.microsoft.com/downloads/details.aspx?FamilyID=8b4e6b93-1886-4d47-a18d-35581c42eca0) to obtain all the updates available in [Windows Installer 3.1 Redistributable (v2)](https://www.microsoft.com/downloads/details.aspx?FamilyID=889482fc-5f56-4a38-b838-de776fd4138c).
+    > If you upgraded to Windows Installer 3.1 by installing Windows Server 2003 with SP1, or an earlier version of this redistributable, you may also need to install the [Update for Windows Server 2003 Service Pack 1 (KB898715)](https://www.microsoft.com/es-es/download/details.aspx?id=5344) to obtain all the updates available in [Windows Installer 3.1 Redistributable (v2)](https://www.catalog.update.microsoft.com/Search.aspx?q=893803).
 
      
 
--   The redistributable that installs Windows Installer 3.0 is WindowsInstaller-KB884016-v2-x86.exe. The download for the [Windows Installer 3.0 Redistributable](https://www.microsoft.com/downloads/details.aspx?FamilyID=5fbc5470-b259-4733-a914-a956122e08e8) is available at: https://www.microsoft.com/downloads/details.aspx?FamilyID=5fbc5470-b259-4733-a914-a956122e08e8.
+-   The redistributable that installs Windows Installer 3.0 is WindowsInstaller-KB884016-v2-x86.exe. The download for the Windows Installer 3.0 Redistributable is available at: https://archive.org/download/windows-installer-3.0/WindowsInstaller-KB884016-v2-x86.exe.
 -   The Windows Installer 2.0 used a previous naming convention for the redistributable: [Instmsi.exe](instmsi-exe.md). The redistributable for installing or upgrading to Windows Installer 2.0 on Windows 2000 should not be used to install or upgrade Windows Installer 2.0 on Windows Server 2003 and Windows XP.
 
-    The download for the [Windows Installer 2.0 Redistributable for Windows NT 4.0 and Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f) is available at https://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f.
+    The download for the Windows Installer 2.0 Redistributable for Windows NT 4.0 and Windows 2000 is available at https://archive.org/download/instmsi/instmsi.exe.
 
 ## Installing the Windows Installer Redistributable (4.5 and earlier)
 

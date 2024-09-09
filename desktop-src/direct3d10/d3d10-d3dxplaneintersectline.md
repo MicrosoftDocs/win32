@@ -4,19 +4,22 @@ ms.assetid: aea1c4e1-f8c0-46df-bb33-2b517396d69e
 title: D3DXPlaneIntersectLine function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneIntersectLine
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXPlaneIntersectLine function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Finds the intersection between a plane and a line.
 

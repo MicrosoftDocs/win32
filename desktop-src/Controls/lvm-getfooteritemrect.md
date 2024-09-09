@@ -34,7 +34,7 @@ The index of the item in the list-view control.
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure to receive the coordinates. The calling application is responsible for allocating this structure. The coordinates received are expressed as client coordinates.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure to receive the coordinates. The calling application is responsible for allocating this structure. The coordinates received are expressed as client coordinates.
 
 </dd> </dl>
 

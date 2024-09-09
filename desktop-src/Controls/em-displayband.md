@@ -34,7 +34,7 @@ This parameter is not used; it must be zero.
 *lParam* 
 </dt> <dd>
 
-A [**RECT**](/previous-versions//dd162897(v=vs.85)) structure specifying the display area of the device.
+A [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure specifying the display area of the device.
 
 </dd> </dl>
 

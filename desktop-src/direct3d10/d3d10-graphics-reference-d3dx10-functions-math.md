@@ -8,8 +8,8 @@ ms.date: 05/31/2018
 
 # Math Functions (Direct3D 10 Graphics)
 
-> [!Note]  
-> The math functions of the D3DX utility library are deprecated for Windows 8. We recommend that you use [DirectXMath](../dxmath/directxmath-portal.md) instead.
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
  
 

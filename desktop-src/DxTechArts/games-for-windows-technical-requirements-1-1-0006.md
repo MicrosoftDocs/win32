@@ -604,7 +604,7 @@ Poorly written or malware drivers can severely affect the stability and security
 
 Both 32-bit and 64-bit native versions of all kernel-mode drivers are needed per requirement 2.2.
 
-More information about Microsoft driver signing programs can be found at the [Windows Hardware Developer portal](https://www.microsoft.com/whdc/winlogo/hwrequirements.mspx).
+More information about Microsoft driver signing programs can be found at the [Windows Hardware Dev Center](https://developer.microsoft.com/windows/hardware/).
 
 </dd> </dl>
 
@@ -996,7 +996,7 @@ System reboots are a major disruption. They lead to a bad user experience, and s
 
 If a game installer uses the Windows Installer technology (MSI) without any custom actions, this functionality is provided automatically. Microsoft redistribution packages also support the Restart Manager.
 
-For more information about the Restart Manager, see the MSDN article [About Restart Manager](/windows/desktop/RstMgr/about-restart-manager).
+For more information about the Restart Manager, see [About Restart Manager](/windows/desktop/RstMgr/about-restart-manager).
 
 </dd> </dl>
 
@@ -1024,7 +1024,7 @@ AppVerifier tests for many known issues that cause crashes and hangs in Windows 
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-For more information about Application Verifier, see [Application Verifier](/previous-versions/ms220948(v=vs.80)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
+For more information about Application Verifier, see [Application Verifier](/windows-hardware/drivers/devtest/application-verifier) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)).
 
 This requirement does not apply to pure managed applications without native interop.
 
@@ -1216,7 +1216,7 @@ The primary benefit of 64-bit addressing is the ability to directly access more 
 
 Existing 32-bit applications can benefit from x64 editions by having the capability to process addresses with full 32-bit data when built with the Enable Large Addresses (**/LARGEADDRESSAWARE**) linker option. On 32-bit versions of Windows XP, special boot modes allowed such applications to address up to 3 GB of RAM, and x64 editions provide access up to 4 GB of RAM for Large Address Aware (LAA) apps. While use of LAA in a 32-bit application does not meet this showcase requirement, this bridge technology is an extremely useful way of providing additional scaling benefits on x64 versions of Windows for those not fully implementing this showcase requirement.
 
-For more information, see [64-bit programming for Game Developers](/windows/desktop/DxTechArts/sixty-four-bit-programming-for-game-developers) and [RAM, VRAM, and More RAM: 64-bit Gaming Is Here](https://www.gamasutra.com/view/feature/3602/sponsored_feature_ram_vram_and_.php) in Gamasutra.
+For more information, see [64-bit programming for Game Developers](/windows/desktop/DxTechArts/sixty-four-bit-programming-for-game-developers) and [RAM, VRAM, and More RAM: 64-Bit Gaming Is Here](https://www.gamedeveloper.com/disciplines/sponsored-feature-ram-vram-and-more-ram-64-bit-gaming-is-here) at the Game Developer website.
 
 > [!Note]  
 > A key challenge for this showcase is ensuring any third-party libraries or components your game relies on are available for 64-bit native development. Many legacy Microsoft APIs also have been eliminated from the 64-bit native environment, which can prove a challenge for engine code bases containing older implementations of key systems.
@@ -1352,7 +1352,6 @@ In addition to meeting the Technical Requirements and adopting one or more Showc
 | <span id="Games_for_Windows__Test_Cases__"></span><span id="games_for_windows__test_cases__"></span><span id="GAMES_FOR_WINDOWS__TEST_CASES__"></span>Games for Windows: Test Cases <br/>                              | Best Practices for Games on Windows XP, Windows Vista, and Windows 7<br/>                                                                               |
 | <span id="Windows_SDK__"></span><span id="windows_sdk__"></span><span id="WINDOWS_SDK__"></span>Windows SDK <br/>                                                                                                      | [Windows SDKs](https://msdn.microsoft.com/bb980924.aspx)<br/>                                                                                      |
 | <span id="User_Account_Control_Guidelines__"></span><span id="user_account_control_guidelines__"></span><span id="USER_ACCOUNT_CONTROL_GUIDELINES__"></span>User Account Control Guidelines <br/>                      | [Windows Vista Application Development Requirements for User Account Control Compatibility](/previous-versions/dotnet/articles/bb530410(v=msdn.10))<br/> |
-| <span id="WinQual_Developer_Portal__"></span><span id="winqual_developer_portal__"></span><span id="WINQUAL_DEVELOPER_PORTAL__"></span>WinQual Developer Portal <br/>                                                  | [Windows Quality Online Services (Winqual)](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)<br/>                                                                         |
 | <span id="DirectX_Developer_Portal__"></span><span id="directx_developer_portal__"></span><span id="DIRECTX_DEVELOPER_PORTAL__"></span>DirectX Developer Portal <br/>                                                  | [Directx Developer Center](/previous-versions/windows/apps/hh452744(v=win.10))<br/>                                                                               |
 | <span id="Games_for_Windows_and_DirectX_SDK_Blog"></span><span id="games_for_windows_and_directx_sdk_blog"></span><span id="GAMES_FOR_WINDOWS_AND_DIRECTX_SDK_BLOG"></span>Games for Windows and DirectX SDK Blog<br/> | [Games for Windows and the DirectX SDK](https://walbourn.github.io/)<br/>                                                                           |
 | <span id="Additional_DirectX_Articles"></span><span id="additional_directx_articles"></span><span id="ADDITIONAL_DIRECTX_ARTICLES"></span>Additional DirectX Articles<br/>                                             | [DirectX Technical Articles](/windows/desktop/DxTechArts/dx9-technical-articles)<br/>                                                                                    |

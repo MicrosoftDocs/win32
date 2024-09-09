@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 The **SBM\_SETPOS** message is sent to set the position of the scroll box (thumb) and, if requested, redraw the scroll bar to reflect the new position of the scroll box.
 
-Applications should not send this message directly. Instead, they should use the [**SetScrollPos**](/windows/desktop/api/Winuser/nf-winuser-setscrollpos) function. A window receives this message through its [*WindowProc*](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollPos** function to work properly.
+Applications should not send this message directly. Instead, they should use the [**SetScrollPos**](/windows/desktop/api/Winuser/nf-winuser-setscrollpos) function. A window receives this message through its [*WindowProc*](/windows/win32/api/winuser/nc-winuser-wndproc) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollPos** function to work properly.
 
 ## Parameters
 

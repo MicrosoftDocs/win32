@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Using the Video Mixer Controls
 
+[The component described on this page, [Enhanced Video Renderer](/windows/win32/medfound/enhanced-video-renderer), is a legacy feature. It has been superseded by the Simple Video Renderer (SVR) exposed through the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components. To play video content you should send data into one of these components and allow them to instantiate the new video renderer.  These components have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** or the lower level **IMFMediaEngine** APIs to play video media in Windows instead of the EVR, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.]
+
+
 The EVR mixer provides several interfaces that an application can use to control how the mixer processes video. These interfaces can be used in either DirectShow or Media Foundation.
 
 
@@ -46,7 +49,7 @@ If you use a Direct3D surface for the bitmap, the surface can contain per-pixel 
 
 To set the bitmap, call [**IMFVideoMixerBitmap::SetAlphaBitmap**](/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap). This method takes a pointer to an [**MFVideoAlphaBitmap**](/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmap) structure that specifies the bitmap and the alpha-blending parameters. For example code, see the reference topic for the **SetAlphaBitmap** method.
 
-After you set the bitmap, you can update the blending parameters, including the source and destination recangles, by calling [**IMFVideoMixerBitmap::UpdateAlphaBitmapParameters**](/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters). The update takes effect on the next video frame. The video must be playing for the update to occur. You can use this method to perform simple animations on the bitmap. (If you need more sophisticated effects, consider writing a custom EVR mixer.)
+After you set the bitmap, you can update the blending parameters, including the source and destination rectangles, by calling [**IMFVideoMixerBitmap::UpdateAlphaBitmapParameters**](/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters). The update takes effect on the next video frame. The video must be playing for the update to occur. You can use this method to perform simple animations on the bitmap. (If you need more sophisticated effects, consider writing a custom EVR mixer.)
 
 To clear the bitmap, call [**IMFVideoMixerBitmap::ClearAlphaBitmap**](/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-clearalphabitmap).
 

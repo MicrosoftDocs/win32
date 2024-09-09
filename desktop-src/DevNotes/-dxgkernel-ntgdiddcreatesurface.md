@@ -63,7 +63,7 @@ Previous handle to the same surface. Used if the surface is being re-created aft
 *puSurfaceDescription* \[in, out\]
 </dt> <dd>
 
-Pointer to the [**DDSURFACEDESC**](/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)) structure describing the surface or buffer that the driver should create.
+Pointer to the [**DDSURFACEDESC**](/windows/win32/api/ddraw/ns-ddraw-ddsurfacedesc) structure describing the surface or buffer that the driver should create.
 
 </dd> <dt>
 

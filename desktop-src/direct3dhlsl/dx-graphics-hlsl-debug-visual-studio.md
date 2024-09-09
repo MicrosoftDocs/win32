@@ -13,7 +13,7 @@ api_location:
 
 # Debugging Shaders in Visual Studio
 
-The latest tool for debugging shaders now ships as a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new tool is a replacement for the [PIX](/windows/desktop/directx-sdk--august-2009-) for Windows tool. Visual Studio Graphics Debugger has greatly improved usability, support for Windows 8 and Direct3D 11.1, and integration with traditional Visual Studio features such as call stacks and debugging windows for [HLSL](dx-graphics-hlsl.md) debugging. For more info about this new feature, see [Debugging DirectX Graphics](/visualstudio/debugger/visual-studio-graphics-diagnostics?view=vs-2015).
+The latest tool for debugging shaders now ships as a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new tool is a replacement for the [PIX](/windows/desktop/directx-sdk--august-2009-) for Windows tool. Visual Studio Graphics Debugger has greatly improved usability, support for Windows 8 and Direct3D 11.1, and integration with traditional Visual Studio features such as call stacks and debugging windows for [HLSL](dx-graphics-hlsl.md) debugging. For more info about this new feature, see [Debugging DirectX Graphics](/visualstudio/debugger/visual-studio-graphics-diagnostics).
 
 ## Related topics
 

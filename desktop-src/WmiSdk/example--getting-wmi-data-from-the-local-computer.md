@@ -49,7 +49,7 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     ```C++
     VARIANT vtProp;
-
+    VariantInit(&vtProp);
     // Get the value of the Name property
     hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
     ```
@@ -227,6 +227,7 @@ int main(int argc, char **argv)
 
         VARIANT vtProp;
 
+        VariantInit(&vtProp);
         // Get the value of the Name property
         hr = pclsObj->Get(L"Name", 0, &vtProp, 0, 0);
         wcout << " OS Name : " << vtProp.bstrVal << endl;

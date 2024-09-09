@@ -33,7 +33,7 @@ The Direct3D 11 API builds on the infrastructural improvements made in Direct3D 
 -   State management based on immutable objects rather than individual state toggles.
 -   Updating to comply with strict linkage requirements of vertex buffer input layouts and shader signatures.
 -   Associating shader resource views with all texture resources.
--   Mapping all image content to a DXGI\_FORMAT, including the removal of all 16-bit color formats (5/5/5/1, 5/6/5, 4/4/4/4), removal of all 24-bit color formats (8/8/8), and strict RGB color ordering.
+-   Mapping all image content to a DXGI\_FORMAT, including the removal of all 24-bit color formats (8/8/8), and strict RGB color ordering for most scenarios.
 -   Breaking up global constant state usage into several small, more efficiently updated constant buffers.
 
 For more information about moving from Direct3D 9 to Direct3D 10, see [Direct3D 9 to Direct3D 10 Considerations](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-d3d9-to-d3d10-considerations).
@@ -107,8 +107,8 @@ Converting programs written to use the Direct3D 10 or 10.1 API is a straight-for
 
 | 10/10.1 Solution | 11 Solution | 
 |------------------|-------------|
-| HLSL Complier (D3D10Compile*, D3DX10Compile*) and shader reflection APIs | D3DCompiler (see D3DCompiler.h)<blockquote>[!Note]<br />For Windows Store apps, the <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">D3DCompiler APIs</a> are supported only for development, not deployment.</blockquote><br /> | 
-| Effects 10 | <a href="https://github.com/Microsoft/FX11">Effects 11</a> is available as shared source online.<blockquote>[!Note]<br />This solution is not suited to Windows Store apps because it requires the <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">D3DCompiler APIs</a> at runtime (deployment).</blockquote><br /> | 
+| HLSL Complier (D3D10Compile*, D3DX10Compile*) and shader reflection APIs | D3DCompiler (see D3DCompiler.h) **Note:** For Windows Store apps, the [D3DCompiler APIs](/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference) are supported only for development, not deployment.<br> | 
+| Effects 10 | [Effects 11](https://github.com/Microsoft/FX11) is available as shared source online. **Note:** This solution is not suited to Windows Store apps because it requires the [D3DCompiler APIs](/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference) at runtime (deployment).<br> | 
 | D3DX9/D3DX10 Math | <a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a> | 
 | D3DX10 | D3DX11 in the legacy DirectX SDK <a href="https://github.com/Microsoft/DirectXTex">DirectXTex</a>, <a href="https://github.com/Microsoft/DirectXTK">DirectXTK</a>, and <a href="https://github.com/Microsoft/DirectXMesh">DirectXMesh</a> offer alternatives to many technologies in the legacy D3DX10 and D3DX11 libraries.<br /><a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> and <a href="/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> offer high-quality support for rendering styled lines and fonts.<br /> | 
 

@@ -37,7 +37,7 @@ The following structures are used with fonts and text.
 [**POINTFX**](/windows/win32/api/wingdi/ns-wingdi-pointfx)  
 [**POLYTEXT**](/windows/win32/api/wingdi/ns-wingdi-polytexta)  
 [**RASTERIZER\_STATUS**](/windows/desktop/api/Wingdi/ns-wingdi-rasterizer_status)  
-[**SIZE**](/previous-versions//dd145106(v=vs.85))  
+[**SIZE**](/windows/win32/api/windef/ns-windef-size)  
 [**TEXTMETRIC**](/windows/win32/api/wingdi/ns-wingdi-textmetrica)  
 [**TTPOLYCURVE**](/windows/win32/api/wingdi/ns-wingdi-ttpolycurve)  
 [**TTPOLYGONHEADER**](/windows/win32/api/wingdi/ns-wingdi-ttpolygonheader)  

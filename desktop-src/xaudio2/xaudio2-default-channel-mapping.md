@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XAudio2 Default Channel Mapping
 
-An XAudio2 client has full control of the mapping from the channels of a voice to the channels of each of its destination voicesIt controls the mapping through the use of the [**IXAudio2Voice::SetOutputMatrix**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix) method. In some circumstances, however, XAudio2 simplifies this task by setting up a default send matrix automatically. It does this by using the channel mask, if any, associated with a voice's audio channels. A channel mask is a combination of SPEAKER\_xxx bit masks as defined in X3DAudio.h and elsewhere. XAudio2 requires channel masks to be 0 or have the same number of bits set as the number of channels.
+An XAudio2 client has full control of the mapping from the channels of a voice to the channels of each of its destination voices. It controls the mapping through the use of the [**IXAudio2Voice::SetOutputMatrix**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix) method. In some circumstances, however, XAudio2 simplifies this task by setting up a default send matrix automatically. It does this by using the channel mask, if any, associated with a voice's audio channels. A channel mask is a combination of SPEAKER\_xxx bit masks as defined in X3DAudio.h and elsewhere. XAudio2 requires channel masks to be 0 or have the same number of bits set as the number of channels.
 
 The following table shows the channel mask requirements and defaults for the formats supported by XAudio2. 
 

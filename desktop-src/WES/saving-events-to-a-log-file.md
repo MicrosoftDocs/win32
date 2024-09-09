@@ -72,7 +72,7 @@ cleanup:
 }
 
 
-// Dump all the events in the from the log file.
+// Dump all the events from the log file.
 DWORD DumpEvents(LPCWSTR pwsPath)
 {
     EVT_HANDLE hResults = NULL;

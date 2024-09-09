@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # Using an Input Method Editor in a Game
 
 > [!Note]  
-> This article details working with the Windows XP Input Method Editor (IME). Changes were made to the IME for Windows Vista that are not fully detailed in this article. For more info about changes to the IME for Windows Vista, see [Input Method Editors (IME)](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx#e4eac) in [Windows Vista - An Ever-Expanding View of Internationalization](https://www.microsoft.com/globaldev/vista/Whats_New_Vista.mspx) on the Microsoft Global Development and Computing Portal.
+> This article details working with the Windows XP Input Method Editor (IME). Changes were made to the IME for Windows Vista that are not fully detailed in this article.
 
  
 

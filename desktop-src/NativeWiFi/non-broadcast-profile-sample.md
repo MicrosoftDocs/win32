@@ -12,7 +12,7 @@ The non-broadcast profile sample can be used to connect to networks which do not
 
 This sample profile is configured to use Wi-Fi Protected Access security running in Personal mode (WPA-Personal). Temporal Key Integrity Protocol (TKIP) is used for encryption. Profiles that use other security and cipher types can also be configured as non-broadcast profiles.
 
-**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-name-wlanprofile-element.md) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored. The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-name-ssid-element.md) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element.
+**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-wlanprofile-element.md#name) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored. The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-ssid-ssidconfig-element.md#name) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element.
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
@@ -54,7 +54,7 @@ The following snippet shows a [**sharedKey**](wlan-profileschema-sharedkey-secur
 
 <dl> <dt>
 
-[Wireless Profile Samples](wireless-profile-samples.md)
+[Wireless profile samples](wireless-profile-samples.md)
 </dt> </dl>
 
  

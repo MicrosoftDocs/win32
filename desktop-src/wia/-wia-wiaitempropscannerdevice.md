@@ -71,10 +71,10 @@ The prefix "WIA\_DPS\_" indicates a Device Property for Scanner devices and is t
 <tbody>
 <tr class="odd">
 <td ><span id="WIA_DPS_DEVICE_ID"></span><span id="wia_dps_device_id"></span><dl> <dt><strong>WIA_DPS_DEVICE_ID</strong></dt> <dt>ScannerDeviceDeviceId</dt> </dl></td>
-<td ><blockquote>
-[!Note]<br />
+<td >
+<strong>Note:</strong><br />
 This property is supported only on Windows Vista and later.
-</blockquote>
+
 <br/> Contains a unique function instance identifier for a web services scanner device. This identifier represents the web service on the scanner device with which the WIA mini-driver is communicating. No assumptions about the form of this identifier should be made. The WIA mini-driver creates and maintains this property. <br/> WIA applications can use the value of WIA_DPS_DEVICE_ID to find, using the Function Discovery API, the function instance object representing the web services scanner device used in the current WIA 2.0 session.<br/> Type: <strong>VT_BSTR</strong>, Access: Read Only, Valid values: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="even">
@@ -206,10 +206,10 @@ This property is supported only on Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_DPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_dps_document_handling_select"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerDeviceDocumentHandlingSelect</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported in Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -394,10 +394,10 @@ This property is not supported in Windows Vista and later. Use <a href="-wia-wi
 <tr class="even">
 <td ><span id="WIA_DPS_GLOBAL_IDENTITY"></span><span id="wia_dps_global_identity"></span><dl> <dt><strong>WIA_DPS_GLOBAL_IDENTITY</strong></dt> <dt>ScannerDeviceGlobalIdentity</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only on Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -408,10 +408,10 @@ This property is supported only on Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_DPS_HORIZONTAL_BED_REGISTRATION"></span><span id="wia_dps_horizontal_bed_registration"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceHorizontalBedRegistration</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported with Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -450,10 +450,10 @@ This property is not supported with Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_DPS_HORIZONTAL_BED_SIZE"></span><span id="wia_dps_horizontal_bed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalBedSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -464,10 +464,10 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <tr class="odd">
 <td ><span id="WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceHorizontalSheetFeedSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -483,10 +483,10 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <tr class="odd">
 <td ><span id="WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinHorizontalSheetFeedSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -499,10 +499,10 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <tr class="even">
 <td ><span id="WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceMinVerticalSheetFeedSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -515,10 +515,10 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <tr class="odd">
 <td ><span id="WIA_DPS_OPTICAL_XRES"></span><span id="wia_dps_optical_xres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_XRES</strong></dt> <dt>ScannerDeviceOpticalXres</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_XRES</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -529,10 +529,10 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <tr class="even">
 <td ><span id="WIA_DPS_OPTICAL_YRES"></span><span id="wia_dps_optical_yres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_YRES</strong></dt> <dt>ScannerDeviceOpticalYres</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_YRES</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -587,10 +587,10 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <tr class="odd">
 <td ><span id="WIA_DPS_PAGE_HEIGHT"></span><span id="wia_dps_page_height"></span><dl> <dt><strong>WIA_DPS_PAGE_HEIGHT</strong></dt> <dt>ScannerDevicePageHeight</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_HEIGHT</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -601,10 +601,10 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <tr class="even">
 <td ><span id="WIA_DPS_PAGE_SIZE"></span><span id="wia_dps_page_size"></span><dl> <dt><strong>WIA_DPS_PAGE_SIZE</strong></dt> <dt>ScannerDevicePageSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_SIZE</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -752,10 +752,10 @@ WIA_IPS_YRES = 100</code></pre></td>
 <tr class="odd">
 <td ><span id="WIA_DPS_PAGE_WIDTH"></span><span id="wia_dps_page_width"></span><dl> <dt><strong>WIA_DPS_PAGE_WIDTH</strong></dt> <dt>ScannerDevicePageWidth</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_WIDTH</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -766,10 +766,10 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <tr class="even">
 <td ><span id="WIA_DPS_PAGES"></span><span id="wia_dps_pages"></span><dl> <dt><strong>WIA_DPS_PAGES</strong></dt> <dt>ScannerDevicePages</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGES</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -778,10 +778,10 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <p>Type: <strong>VT_I4</strong>; Access: Read/Write; Valid values: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> (zero through the maximum number of pages that the document feeder can hold)</p>
 <p>An application reads this property to determine the document feeder's page capacity. The application also sets this property to the number of pages it is going to scan.</p>
 <div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If duplex mode is enabled (<strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong> is set to FEEDER | DUPLEX ), <strong>WIA_DPS_PAGES</strong> is still equal to the number of pages to scan.
-</blockquote>
+
 </div>
 <div>
  
@@ -798,10 +798,10 @@ If duplex mode is enabled (<strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong> is 
 <tr class="even">
 <td ><span id="WIA_DPS_PREVIEW"></span><span id="wia_dps_preview"></span><dl> <dt><strong>WIA_DPS_PREVIEW</strong></dt> <dt>ScannerDevicePreview</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PREVIEW</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -839,10 +839,10 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <tr class="even">
 <td ><span id="WIA_DPS_SCAN_AVAILABLE_ITEM"></span><span id="wia_dps_scan_available_item"></span><dl> <dt><strong>WIA_DPS_SCAN_AVAILABLE_ITEM</strong></dt> <dt>ScannerDeviceScanAvailableItem</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows 7 and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -854,10 +854,10 @@ This property is supported only by Windows 7 and later.
 <tr class="odd">
 <td ><span id="WIA_DPS_SERVICE_ID"></span><span id="wia_dps_service_id"></span><dl> <dt><strong>WIA_DPS_SERVICE_ID</strong></dt> <dt>ScannerDeviceServiceId</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -868,10 +868,10 @@ This property is supported only by Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_DPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_dps_sheet_feeder_registration"></span><dl> <dt><strong>WIA_DPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerDeviceSheetFeederRegistration</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -909,10 +909,10 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <tr class="odd">
 <td ><span id="WIA_DPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_dps_show_preview_control"></span><dl> <dt><strong>WIA_DPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerDeviceShowPreviewControl</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported by Windows Vista. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -944,10 +944,10 @@ This property is not supported by Windows Vista. Use <a href="-wia-wiaitemprops
 <tr class="even">
 <td ><span id="WIA_DPS_USER_NAME"></span><span id="wia_dps_user_name"></span><dl> <dt><strong>WIA_DPS_USER_NAME</strong></dt> <dt>ScannerDeviceUserName</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is supported only by Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -959,10 +959,10 @@ This property is supported only by Windows Vista and later.
 <tr class="odd">
 <td ><span id="WIA_DPS_VERTICAL_BED_REGISTRATION"></span><span id="wia_dps_vertical_bed_registration"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></dt> <dt>ScannerDeviceVerticalBedRegistration</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported with Windows Vista and later.
-</blockquote>
+
 </div>
 <div>
  
@@ -1000,10 +1000,10 @@ This property is not supported with Windows Vista and later.
 <tr class="even">
 <td ><span id="WIA_DPS_VERTICAL_BED_SIZE"></span><span id="wia_dps_vertical_bed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_SIZE</strong></dt> <dt>ScannerDeviceVerticalBedSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>.
-</blockquote>
+
 </div>
 <div>
  
@@ -1014,10 +1014,10 @@ This property is not supported with Windows Vista and later. Use <a href="-wia-
 <tr class="odd">
 <td ><span id="WIA_DPS_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>ScannerDeviceVerticalSheetFeedSize</dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This property is not supported with Windows Vista and later. Use <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>.
-</blockquote>
+
 </div>
 <div>
  

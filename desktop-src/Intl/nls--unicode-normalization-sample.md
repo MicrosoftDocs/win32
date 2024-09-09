@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The sample application described in this topic demonstrates the representation of strings using [Unicode normalization](using-unicode-normalization-to-represent-strings.md).
 
-The sample application calls all four Unicode normalization forms with the same input string. A call is then made with invalid Unicode to demonstrate how the index of bad character code works. Finally the application passes a string that expands to be abnormally long, requiring multiple string normalization calls to to get an appropriate buffer size.
+The sample application calls all four Unicode normalization forms with the same input string. A call is then made with invalid Unicode to demonstrate how the index of bad character code works. Finally the application passes a string that expands to be abnormally long, requiring multiple string normalization calls to get an appropriate buffer size.
 
 This sample demonstrates the following NLS API functions:
 

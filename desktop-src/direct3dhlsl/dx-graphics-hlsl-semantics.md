@@ -98,7 +98,7 @@ These semantics have meaning when attached to a vertex-shader parameter. These s
 |-|-|-|
 | COLOR\[n\] | Diffuse or specular color | float4 |
 | FOG | Vertex fog | float |
-| POSITION\[n\] | Position of a vertex in homogenous space. Compute position in screen-space by dividing (x,y,z) by w. Every vertex shader must write out a parameter with this semantic. | float4 |
+| POSITION\[n\] | Position of a vertex in homogenous space. Compute position in screen-space by dividing (x,y,z) by w. Every vertex shader must write out a parameter with this semantic. **NOTE: This semantic is available in Direct3D 9. For Direct3D 10 and later, use SV_Position instead.**| float4 |
 | PSIZE | Point size | float |
 | TESSFACTOR\[n\] | Tessellation factor | float |
 
@@ -135,10 +135,10 @@ These semantics have meaning when attached to a pixel-shader input parameter. Th
 <tr class="odd">
 <td>VFACE</td>
 <td>Floating-point scalar that indicates a back-facing primitive. A negative value faces backwards, while a positive value faces the camera.
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This semantic is available in <a href="dx-graphics-hlsl-sm3.md">Direct3D 9 Shader Model 3.0</a>. For Direct3D 10 and later, use <a href="#semantics-supported-only-for-direct3d-10-and-newer">SV_IsFrontFace</a> instead.
-</blockquote>
+
 <br/></td>
 <td>float</td>
 </tr>
@@ -245,7 +245,7 @@ A few of the Direct3D 10 and later semantics map directly to Direct3D 9 semantic
 | SV\_Target | COLOR |
 
 > [!]
-> Note to Direct3D 9 developers: For Direct3D 9 targets, shader semantics must map to valid Direct3D 9 semantics. For backwards compatibility POSITION0 (and its variant names) is treated as SV\_Position, COLOR is treated as SV\_TARGET.
+> Note to Direct3D 9 developers: For Direct3D 9 targets, shader semantics must map to valid Direct3D 9 semantics. For backwards compatibility, FXC treats POSITION0 (and its variant names) as SV\_Position. FXC treats COLOR as SV\_TARGET. DXC and newer compilers consider POSITION\[n\] and COLOR as user-defined semantics.
 
 - [Mapping to Direct3D 9 Semantics](#mapping-to-direct3d-9-semantics)
 - [Direct3D 9 VPOS and Direct3D 10 SV\_Position](#direct3d-9-vpos-and-direct3d-10-sv_position)

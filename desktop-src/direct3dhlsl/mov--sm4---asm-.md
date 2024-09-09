@@ -12,7 +12,7 @@ Component-wise move.
 
 
 
-| Instruction: mov\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle\] |
+| mov\[\_sat\] dest\[.mask\], \[-\]src0\[\_abs\]\[.swizzle\] |
 |-------------------------------------------------------------------------|
 
 

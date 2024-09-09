@@ -17,7 +17,7 @@ Declares a range of registers that will be accessed by index (an integer compute
 
 
 
-| dcl\_indexRange *minRegisterM*, *maxRegisterN* |
+| dcl\_indexRange minRegisterM, maxRegisterN |
 |------------------------------------------------|
 
 

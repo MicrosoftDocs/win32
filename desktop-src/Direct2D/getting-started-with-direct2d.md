@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 Direct2D is a native-code, immediate-mode API for creating 2D graphics. This topic illustrates how to use Direct2D within a typical Win32 application to draw to an **HWND**.
 
 > [!Note]  
-> If you want to create a Windows Store app that uses Direct2D, see the [Direct2D Quickstart for Windows 8](direct2d-quickstart-with-device-context.md) topic.
+> If you want to create a Windows Store app that uses Direct2D, see the [Direct2D quickstart for Windows 8](direct2d-quickstart-with-device-context.md) topic.
 
  
 
@@ -230,13 +230,13 @@ SafeRelease(pD2DFactory);
 
 ## Create a Simple Direct2D Application
 
-The code in this topic shows the basic elements of a Direct2D application. For brevity, the topic omits the application framework and error handling code that is characteristic of a well-written application. For a more detailed walk-through that shows the complete code for creating a simple Direct2D application and demonstrates best design practices, see [Creating a Simple Direct2D Application](direct2d-quickstart.md).
+The code in this topic shows the basic elements of a Direct2D application. For brevity, the topic omits the application framework and error handling code that is characteristic of a well-written application. For a more detailed walk-through that shows the complete code for creating a simple Direct2D application and demonstrates best design practices, see [Create a simple Direct2D application](direct2d-quickstart.md).
 
 ## Related topics
 
 <dl> <dt>
 
-[Creating a Simple Direct2D Application](direct2d-quickstart.md)
+[Create a simple Direct2D application](direct2d-quickstart.md)
 </dt> </dl>
 
  

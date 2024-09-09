@@ -218,14 +218,6 @@ foreach ($colItem in $colSoftware)
 </tbody>
 </table>
 
-
-
- 
-
-## Examples
-
-The [Powershell Remote PC Info Script](https://Gallery.TechNet.Microsoft.Com/2a8a008c-ee30-4b50-a81a-1b7545ef3436) PowerShell code sample uses a number of hardware and software classes, including Win32Product, to find various information about a remote PC using WMI and the remote registry.
-
 ## Related topics
 
 <dl> <dt>

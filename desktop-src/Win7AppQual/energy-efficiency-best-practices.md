@@ -23,7 +23,7 @@ The Windows platform is highly reliable and enables fast on-and-off performance.
 
 Energy efficiency is a complex problem, with factors affected by and affecting all elements of the PC ecosystem. Small enhancements across multiple scenarios can improve energy efficiency, but a single poorly performing application, device, or system feature can increase energy consumption significantly.
 
-Hardware and devices form the foundation for energy efficiency. However, application and service software must also be efficient to allow the system to achieve optimal battery life. Each software component on the system, including the operating system and value-added applications and services, must conform to basic efficiency guidelines. A single misbehaving application or service can eliminate any energy efficiency gains that the latest processor, devices, or platform hardware achieved. For more detailed information regarding battery life and energy efficiency please refer to the [Battery Life Solutions Guide](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-and-charging#).
+Hardware and devices form the foundation for energy efficiency. However, application and service software must also be efficient to allow the system to achieve optimal battery life. Each software component on the system, including the operating system and value-added applications and services, must conform to basic efficiency guidelines. A single misbehaving application or service can eliminate any energy efficiency gains that the latest processor, devices, or platform hardware achieved. For more detailed information regarding battery life and energy efficiency please refer to the [Battery Life Solutions Guide](/windows-hardware/design/component-guidelines/battery-and-charging#).
 
 The principle issues and components that affect battery life in a mobile PC are:
 
@@ -106,13 +106,6 @@ To ensure that your application is optimized on Windows platforms, follow these 
 
 ## Links to Other Resources
 
--   [Battery Life Solutions Guide](https://docs.microsoft.com/windows-hardware/design/component-guidelines/battery-and-charging#)
+-   [Battery Life Solutions Guide](/windows-hardware/design/component-guidelines/battery-and-charging#)
 -   [Energy Efficiency Portal](https://www.microsoft.com/whdc/system/pnppwr/mobilepwr.mspx)
 -   [Windows Performance Toolkit](https://www.microsoft.com/whdc/system/sysperf/perftools.mspx)
-
- 
-
- 
-
-
-

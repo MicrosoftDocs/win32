@@ -46,7 +46,7 @@ This section provides in-depth guidance and code examples about Windows features
 
 | Security and identity | Diagnostics and testing  |  Packaging and installation  |
 |----------------------------------|---|----|
-| [Security and identity overview](security.md)<br/>[Antimalware Scan Interface](amsi/antimalware-scan-interface-portal.md)<br/>[Authentication](secauthn/authentication-portal.md)<br/>[Authorization](secauthz/authorization-portal.md)<br/>[Certificate Enrollment API](seccertenroll/certenroll-portal.md)<br/>[Cryptography (CNG)](seccng/cng-portal.md)<br/>[Rights Management](SrvNodes/rights-management.md)<br/>[Security Management](secmgmt/management-portal.md)<br/>[TPM Base Services](tbs/tpm-base-services-portal.md)<br/>[Windows Biometric Framework](secbiomet/biometric-service-api-portal.md) | [Diagnostics overview](diagnostics.md)<br/>[Debugging and error handling](debugging-and-error-handling.md)<br/>[Network Monitor](netmon2/network-monitor.md)<br/>[System Monitor](sysmon/system-monitor-portal.md)<br/>[Performance counters](perfctrs/performance-counters-portal.md)<br/>[Windows error reporting](wer/windows-error-reporting.md)<br/>[Windows events](events/windows-events.md)<br/>[TraceLogging](tracelogging/trace-logging-portal.md)<br/>[Debugging tools for Windows](//docs.microsoft.com/windows-hardware/drivers/debugger/index) | [MSIX packaging](//docs.microsoft.com/windows/msix)<br/>[Application install and servicing](application-installing-and-servicing.md)<br/>[Side-by-side assemblies](sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)<br/>[Packaging and query of UWP apps](appxpkg/appx-portal.md)<br/>[Windows Installer](msi/windows-installer-portal.md)<br/>[Desktop Application Program](appxpkg/windows-desktop-application-program.md)<br/>[Windows containers](//docs.microsoft.com/virtualization/windowscontainers/about/) |
+| [Security and identity overview](security.md)<br/>[Antimalware Scan Interface](amsi/antimalware-scan-interface-portal.md)<br/>[Authentication](secauthn/authentication-portal.md)<br/>[Authorization](secauthz/authorization-portal.md)<br/>[Certificate Enrollment API](seccertenroll/certenroll-portal.md)<br/>[Cryptography (CNG)](seccng/cng-portal.md)<br/>[Rights Management](SrvNodes/rights-management.md)<br/>[Security Management](secmgmt/management-portal.md)<br/>[TPM Base Services](tbs/tpm-base-services-portal.md)<br/>[Windows Biometric Framework](secbiomet/biometric-service-api-portal.md) | [Diagnostics overview](diagnostics.md)<br/>[Debugging and error handling](debugging-and-error-handling.md)<br/>[Network Monitor](netmon2/network-monitor.md)<br/>[System Monitor](sysmon/system-monitor-portal.md)<br/>[Performance counters](perfctrs/performance-counters-portal.md)<br/>[Windows error reporting](wer/windows-error-reporting.md)<br/>[Windows events](events/windows-events.md)<br/>[TraceLogging](tracelogging/trace-logging-portal.md)<br/>[Debugging tools for Windows](/windows-hardware/drivers/debugger/index) | [MSIX packaging](/windows/msix)<br/>[Application install and servicing](application-installing-and-servicing.md)<br/>[Side-by-side assemblies](sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)<br/>[Packaging and query of UWP apps](appxpkg/appx-portal.md)<br/>[Windows Installer](msi/windows-installer-portal.md)<br/>[Desktop Application Program](appxpkg/windows-desktop-application-program.md)<br/>[Windows containers](/virtualization/windowscontainers/about/) |
 
 -->
 
@@ -164,18 +164,18 @@ This section provides in-depth guidance and code examples about Windows features
         * [Windows error reporting](wer/windows-error-reporting.md)
         * [Windows events](events/windows-events.md)
         * [TraceLogging](tracelogging/trace-logging-portal.md)
-        * [Debugging tools for Windows](//docs.microsoft.com/windows-hardware/drivers/debugger/index)
+        * [Debugging tools for Windows](/windows-hardware/drivers/debugger/index)
     :::column-end:::
     :::column:::
         ![Packaging and installation](/media/illustrations/biztalk-host-integration-install-configure.svg?branch=master)
         ### Packaging and installation
-        * [MSIX packaging and deployment](//docs.microsoft.com/windows/msix)
+        * [MSIX packaging and deployment](/windows/msix)
         * [Application Installation and Servicing](application-installing-and-servicing.md)
         * [Isolated Applications and Side-by-side Assemblies](sbscs/isolated-applications-and-side-by-side-assemblies-portal.md)
         * [Packaging, deployment, and query of UWP apps](appxpkg/appx-portal.md)
         * [Windows Installer](msi/windows-installer-portal.md)
         * [Windows Desktop Application Program](appxpkg/windows-desktop-application-program.md)
-        * [Windows containers](//docs.microsoft.com/virtualization/windowscontainers/about/)
+        * [Windows containers](/virtualization/windowscontainers/about/)
     :::column-end:::
 :::row-end:::
 -->

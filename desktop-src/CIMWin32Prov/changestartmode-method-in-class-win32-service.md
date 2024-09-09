@@ -339,7 +339,7 @@ The service is currently paused in the system.
 
 ## Examples
 
-The following [Change StartMode of a Service](https://Gallery.TechNet.Microsoft.Com/6d0f06ed-f840-4228-ad2d-e16ebe6a3aed) PowerShell sample, pulled from TechNet Gallery, changes the start mode of a service.
+The following Change StartMode of a Service PowerShell sample changes the start mode of a service.
 
 
 ```PowerShell

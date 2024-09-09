@@ -64,8 +64,8 @@ In Windows Vista, the subclasses of certain classes internal to Windows Interne
 
 
 
-| 
-|
+| **Class** | **Subclass** |  
+|--------|---------|
 | AddressBand | <ul><li>AB</li><li>ABGreen</li><li>ABGreenComposited</li><li>ABRed</li><li>ABRedComposited</li><li>ABYellow</li><li>ABYellowComposited</li></ul> | 
 | SearchBox | <ul><li>InactiveSearchBox</li><li>InactiveSearchBoxComposited</li><li>MaxInactiveSearchBox</li><li>MaxInactiveSearchBoxComposited</li><li>MaxSearchBox</li><li>MaxSearchBoxComposited</li><li>SearchBoxComposited</li></ul> | 
 

@@ -23,7 +23,7 @@ Component-wise 2exponent.
 
 | Item                                                            | Description                                                                |
 |-----------------------------------------------------------------|----------------------------------------------------------------------------|
-| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The result of the operation.<br/> *dest* = 2*src0*<br/> |
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[in\] The result of the operation.<br/> *dest* = 2 ^ *src0*<br/> |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[in\] The exponent.<br/>                                            |
 
 

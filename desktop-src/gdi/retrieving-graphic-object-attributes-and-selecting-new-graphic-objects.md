@@ -38,7 +38,7 @@ The following example shows how an application can retrieve the current brush at
         hbrushOld = SelectObject(hdc, hbrushNew); 
     } 
  
-    // Perform painting operations with the white brush.  
+    // Perform painting operations with the solid-black brush.  
  
  
     // After completing the last painting operation with the new  

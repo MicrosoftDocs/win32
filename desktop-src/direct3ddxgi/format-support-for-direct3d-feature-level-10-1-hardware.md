@@ -16,8 +16,8 @@ The table summarizes the feature support, using the following key.
 |-----------------------------------|-------------------------------------------------------------------------------|
 | **-**                             | Disallowed or not available.                                                  |
 | ![required](images/letter-r.jpg)  | Hardware support is required.                                                 |
-| ![optional](images/letter-o.jpg)  | Hardware support optional, the format may or may not be hardware accelerated. |
-| ![dependant](images/letter-d.jpg) | Required if related optional feature is supported.                            |
+| ![optional](images/letter-o.jpg)  | Hardware support optional; the format may or may not be hardware accelerated. |
+| ![dependant](images/letter-d.jpg) | Required if a related optional feature is supported.                            |
 
 This topic contains a section per format. A format *target* (the tables contain one row per target) can be a resource type, an HLSL intrinsic function, or a particular functionality that is dependent on a particular format.
 

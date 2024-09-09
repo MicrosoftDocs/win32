@@ -7,10 +7,13 @@ keywords:
 - ASF (Advanced Systems Format),identifying inputs by number
 - profiles,identifying inputs by number
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # To Identify Inputs By Number
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Every sample you pass to the writer must be associated with an input number. Each input number corresponds to one or more streams in the profile that the writer is using to write the file. In a profile, media sources are identified by a connection name. The writer associates an input number with each connection name when you set the profile for the writer. Before you can pass samples to the writer, you must determine what data each input is expecting. You cannot assume that the inputs will be in the same order as the streams in a profile, even if this is often the case. Therefore, the only reliable way to match inputs with streams is to compare the connection name of the input with the connection name of the stream.
 

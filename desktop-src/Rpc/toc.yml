@@ -63,7 +63,7 @@
         href: choosing-an-authentication-level.md
       - name: "Choosing Security QOS Options"
         href: choosing-security-qos-options.md
-      - name: "Common Mistake: Assuming RpcServerRegisterAuthInfo Prevents Unauthorized Users from Calling your Server"
+      - name: "RpcServerRegisterAuthInfo doesn't deny unauthorized users"
         href: common-mistake-assuming-rpcserverregisterauthinfo-prevents-unauthorized-users-from-calling-your-server.md
       - name: "Callbacks"
         href: callbacks.md
@@ -827,6 +827,8 @@
         items: 
         - name: "RPC_ASYNC_EVENT"
           href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_async_event
+        - name: "RPC_HTTP_REDIRECTOR_STAGE"
+          href: rpc-http-redirector-stage.md
         - name: "RPC_NOTIFICATION_TYPES"
           href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_notification_types
         - name: "RPC_NOTIFICATIONS"
@@ -856,6 +858,8 @@
           href: rpc-ns-handle.md
         - name: "RPC_STATUS"
           href: rpc-status.md
+        - name: "RPC_WSTR"
+          href: rpc-wstr.md
         - name: "String Binding"
           href: string-binding.md
         - name: "String UUID"
@@ -1005,6 +1009,8 @@
           href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcfreeauthorizationcontext
         - name: "RpcGetAuthorizationContextForClient"
           href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient
+        - name: "RpcHttpProxyFreeString"
+          href: rpc-http-proxy-free-string.md
         - name: "RpcIfInqId"
           href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcifinqid
         - name: "RpcImpersonateClient"
@@ -1053,6 +1059,8 @@
           href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnetworkinqprotseqs
         - name: "RpcNetworkIsProtseqValid"
           href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid
+        - name: "RpcNewHttpProxyChannel"
+          href: rpc-new-http-proxy-channel.md
         - name: "RpcNsBindingExport"
           href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingexporta
         - name: "RpcNsBindingExportPnP"

@@ -120,7 +120,7 @@ The operators are evaluated in the following order of precedence, with operation
 5.  &&
 6.  \|\|
 
-In addition, any portion of a conditional expression can be enclosed in parenthesis. Expressions within parentheses are evaluated first.
+In addition, any portion of a conditional expression can be enclosed in parentheses. Expressions within parentheses are evaluated first.
 
 ## Unknown Values
 

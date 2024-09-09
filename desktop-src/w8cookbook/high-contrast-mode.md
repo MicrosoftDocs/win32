@@ -93,7 +93,7 @@ While testing an app, make sure that it renders correctly in all the in-box them
 -   [Using Visual Styles with Custom and Owner-Drawn Controls](../controls/using-visual-styles.md)
 -   [GetSysColor function](/windows/win32/api/winuser/nf-winuser-getsyscolor)
 -   [W3C CSS Color Module Level 3](https://www.w3.org/TR/css3-color/)
--   [SystemColors Class](/dotnet/api/system.windows.systemcolors?view=netcore-3.1)
+-   [SystemColors Class](/dotnet/api/system.windows.systemcolors)
 -   [SystemParametersInfo function](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa)
 -   [Microsoft Accessibility](https://www.microsoft.com/enable/)
 

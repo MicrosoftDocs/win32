@@ -75,9 +75,8 @@ The effect system groups the information required for rendering into an effect w
 > 
 >
 > 
-| 
-|
-| <pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;&gt;     pIUnknown-&gt;AddRef();</code></pre> | 
+ 
+ <pre><code>    IUnknown* pIUnknown = (IUnknown*)pEffect;&gt;     pIUnknown-&gt;AddRef();</code></pre> | 
 
 >
 > 

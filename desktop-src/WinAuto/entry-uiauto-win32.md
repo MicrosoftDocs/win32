@@ -23,7 +23,7 @@ By using UI Automation and following accessible design practices, developers can
 
 UI Automation is designed for experienced C/C++ developers. In general, developers need a moderate level of understanding about Component Object Model (COM) objects and interfaces, Unicode, and Windows API programming.
 
-For information about UI Automation for managed code, please see [Accessibility](/dotnet/framework/ui-automation/) in the .NET Framework Developer's Guide section of MSDN.
+For information about UI Automation for managed code, see [Accessibility](/dotnet/framework/ui-automation/) in the .NET Framework Developer's Guide.
 
 ## Run-Time Requirements
 

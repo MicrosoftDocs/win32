@@ -35,7 +35,7 @@ The **ShellUIHelper** object has these methods.
 
 | Method | Description | 
 |--------|-------------|
-| <a href="shelluihelper-addchannel.md"><strong>AddChannel</strong></a> | Adds a new channel to the list of channels in the Internet Explorer <strong>Favorites</strong> menu and to the <strong>Channel</strong> bar on the desktop.<br /><blockquote>[!Note]<br />This method is no longer supported under Windows Vista. Under that operating system, it returns E_NOTIMPL.</blockquote><br /> | 
+| [**AddChannel**](shelluihelper-addchannel.md) | Adds a new channel to the list of channels in the Internet Explorer **Favorites** menu and to the **Channel** bar on the desktop.<br> **Note:** This method is no longer supported under Windows Vista. Under that operating system, it returns E_NOTIMPL.<br> | 
 | <a href="shelluihelper-adddesktopcomponent.md"><strong>AddDesktopComponent</strong></a> | Adds an item to the Active Desktop.<br /> | 
 | <a href="shelluihelper-addfavorite.md"><strong>AddFavorite</strong></a> | Displays the default user interface for creating a favorite item. The user interface is initialized to the specified parameters.<br /> | 
 | <a href="shelluihelper-issubscribed.md"><strong>IsSubscribed</strong></a> | Indicates whether a specified URL is subscribed to.<br /> | 

@@ -1081,11 +1081,11 @@
       - name: "VSS_MGMT_OBJECT_PROP"
         href: /windows/win32/api/VsMgmt/ns-vsmgmt-vss_mgmt_object_prop
       - name: "VSS_MGMT_OBJECT_UNION"
-        href: /windows/desktop/api/VsMgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001
+        href: /openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396
       - name: "VSS_OBJECT_PROP"
         href: /windows/win32/api/Vss/ns-vss-vss_object_prop
       - name: "VSS_OBJECT_UNION"
-        href: /windows/desktop/api/Vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001
+        href: /openspecs/windows_protocols/ms-scmp/f63af19f-bc5c-4a20-afaf-4f6e0f7c1045
       - name: "VSS_PROVIDER_PROP"
         href: /windows/win32/api/Vss/ns-vss-vss_provider_prop
       - name: "VSS_SNAPSHOT_PROP"

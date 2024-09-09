@@ -35,15 +35,15 @@ Managed applications created by using the wizards contained in Microsoft Visual 
 
 If your application runs in an MTA, you must write thread-safe code; however, by doing so you can improve certain event handling performance issues.
 
-For more information about the STA thread and MTA thread attributes, see [STAThreadAttribute](/dotnet/api/system.stathreadattribute?view=netcore-3.1) class and [MTAThreadAttribute](/dotnet/api/system.mtathreadattribute?view=netcore-3.1) Class.
+For more information about the STA thread and MTA thread attributes, see [STAThreadAttribute](/dotnet/api/system.stathreadattribute?view=netcore-3.1&preserve-view=true) class and [MTAThreadAttribute](/dotnet/api/system.mtathreadattribute?view=netcore-3.1&preserve-view=true) Class.
 
 ## Windows Forms Threading Considerations
 
 The [InkPicture](/previous-versions/aa514604(v=msdn.10)) and [InkEdit](/previous-versions/ms552265(v=vs.100)) controls extend Windows Forms controls. Windows Forms controls use the single-threaded apartment (STA) model because Windows Forms are based on native Win32 windows that are inherently single threaded. In managed code, ink controls should be created in the same thread as the main thread for the form.
 
-In an STA application, certain events happen on a thread other than the application's user interface (UI) thread. When calling any Windows Forms object or control, including the [InkPicture](/previous-versions/aa514604(v=msdn.10)) and [InkEdit](/previous-versions/ms552265(v=vs.100)) controls, from within a Tablet PC event handler, use the object or control's inherited [Control.Invoke](/dotnet/api/system.windows.forms.control.invoke?view=netcore-3.1) method. The [InvokeRequired](/dotnet/api/system.windows.forms.control.invokerequired?view=netcore-3.1) property, inherited from the Control class, can be used to determine if this is necessary.
+In an STA application, certain events happen on a thread other than the application's user interface (UI) thread. When calling any Windows Forms object or control, including the [InkPicture](/previous-versions/aa514604(v=msdn.10)) and [InkEdit](/previous-versions/ms552265(v=vs.100)) controls, from within a Tablet PC event handler, use the object or control's inherited [Control.Invoke](/dotnet/api/system.windows.forms.control.invoke?view=netcore-3.1&preserve-view=true) method. The [InvokeRequired](/dotnet/api/system.windows.forms.control.invokerequired?view=netcore-3.1&preserve-view=true) property, inherited from the Control class, can be used to determine if this is necessary.
 
-For example, in the following event handler for the [Recognition](/previous-versions/ms829424(v=msdn.10)) event, the [InvokeRequired](/dotnet/api/system.windows.forms.control.invokerequired?view=netcore-3.1) property is tested and if **TRUE**, the event handler is re-invoked from the user interface thread.
+For example, in the following event handler for the [Recognition](/previous-versions/ms829424(v=msdn.10)) event, the [InvokeRequired](/dotnet/api/system.windows.forms.control.invokerequired?view=netcore-3.1&preserve-view=true) property is tested and if **TRUE**, the event handler is re-invoked from the user interface thread.
 
 
 ```C++
@@ -63,7 +63,7 @@ void recoContext_Recognition(object sender,
 
 
 
-If you put a [UserControl](/dotnet/api/system.web.ui.usercontrol?view=netframework-4.8) onto awebpagein a browser (see [Web Controls](web-controls.md)), then it runs as an STA application. For smart client applications (see [No Touch Deployment](no-touch-deployment.md)), the developer has full control over the [ApartmentState](/dotnet/api/system.threading.apartmentstate?view=netcore-3.1). (The default is generally STA, but may be MTA, depending on your version of CLR.) For threading issues involving the [**RealTimeStylus**](realtimestylus-class.md), see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
+If you put a [UserControl](/dotnet/api/system.web.ui.usercontrol?view=netframework-4.8&preserve-view=true) onto awebpagein a browser (see [Web Controls](web-controls.md)), then it runs as an STA application. For smart client applications (see [No Touch Deployment](no-touch-deployment.md)), the developer has full control over the [ApartmentState](/dotnet/api/system.threading.apartmentstate?view=netcore-3.1&preserve-view=true). (The default is generally STA, but may be MTA, depending on your version of CLR.) For threading issues involving the [**RealTimeStylus**](realtimestylus-class.md), see [Threading Considerations for the StylusInput APIs](threading-considerations-for-the-stylusinput-apis.md).
 
 For more information about calling Windows Forms from an MTA application, see [Multithreaded Windows Forms Control Sample](/previous-versions/dotnet/netframework-1.1/3s8xdz5c(v=vs.71)).
 
@@ -81,9 +81,9 @@ Exceptions cannot be thrown from within Tablet PC event handlers. For example, i
 
 ## Disposing Objects and Controls
 
-To avoid a memory leak you must explicitly call the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
+To avoid a memory leak you must explicitly call the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1&preserve-view=true) method on any Tablet PC object or control to which an event handler has been attached before the object or control goes out of scope.
 
-To improve performance in your application, manually dispose of any Tablet PC object or control that implements the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) method when the object or control is no longer needed.
+To improve performance in your application, manually dispose of any Tablet PC object or control that implements the [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1&preserve-view=true) method when the object or control is no longer needed.
 
 ## StylusInput APIs
 

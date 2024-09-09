@@ -33,6 +33,15 @@ Set NewUpdateService = ServiceManager.AddService2("7971f918-a847-4430-9279-4a52d
 
 ```
 
+```Powershell
+$ServiceManager = New-Object -ComObject Microsoft.Update.ServiceManager
+$ServiceManager.ClientApplicationID = "My App"
+
+# Add the Microsoft Update Service, GUID
+$NewUpdateService = $ServiceManager.AddService2("7971f918-a847-4430-9279-4a52d1efe18d", 7, "")
+
+```
+
 
 
 In earlier versions of WUA (a minimum WUA version of 7.0.6000), you can simplify the opt-in process by using a registry setting. After the registry key and values are configured, the Microsoft Update opt-in process occurs the next time WUA performs a search. The opt-in process may be triggered by Automatic Updates or by an API caller.

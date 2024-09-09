@@ -1,6 +1,6 @@
 ---
 title: Developing RPC Windows Applications
-description: When you install the Platform Software Development Kit (SDK), the following RPC development environment, the run-time libraries, and tools are automatically installed
+description: When you install the Windows Software Development Kit (SDK), the following RPC development environment, the run-time libraries, and tools are automatically installed
 ms.assetid: d5da3bca-5251-4ba4-b873-0817fe0f298d
 ms.topic: article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Developing RPC Windows Applications
 
-When you install the Platform Software Development Kit (SDK), the following RPC development environment, the run-time libraries, and tools are automatically installed:
+When you install the [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk/), the following RPC development environment, the run-time libraries, and tools are automatically installed:
 
 -   C/C++ language header (.H) files
 -   RPC import libraries (.lib) files

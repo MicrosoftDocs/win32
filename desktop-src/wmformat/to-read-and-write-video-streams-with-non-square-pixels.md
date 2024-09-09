@@ -26,10 +26,13 @@ keywords:
 - non-square pixels
 - pixels (non-square)
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # To Read and Write Video Streams with Non-Square Pixels
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Computer monitors have square pixels, but other types of video screens, including NTSC televisions, have rectangular or non-square pixels. Also, some input devices, such as Digital Video (DV) cameras, have charged couple devices with non-square pixels. When you are writing files that are either based on non-square pixel source data or else intended for display on devices with non-square pixels, the pixel aspect ratio information must be included in the ASF file. Reader applications must examine that information and use it to adjust the aspect ratio of the video rectangle as necessary.
 

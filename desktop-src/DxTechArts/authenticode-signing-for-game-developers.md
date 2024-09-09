@@ -21,9 +21,7 @@ Data authentication is increasingly important for game developers. Windows Vista
 -   [More information](#more-information)
 
 > [!Note]  
-> As of January 1, 2016, Windows 7 and later no longer trust any SHA-1 code signing certificate with an expiration date of January 1, 2016 or later. See [Windows Enforcement of Authenticode Code Signing and Timestamping](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx) for more information.
-
- 
+> As of January 1, 2016, Windows 7 and later no longer trust any SHA-1 code signing certificate with an expiration date of January 1, 2016 or later. See [Windows Enforcement of Authenticode Code Signing and Timestamping](https://techcommunity.microsoft.com/t5/sql-server-blog/windows-enforcement-of-authenticode-code-signing-and/ba-p/384602) for more information.
 
 ## Background
 
@@ -171,9 +169,9 @@ In the event that the security of the private key is compromised or some securit
 
 Drivers can and should be Authenticode-signed. Kernel-mode drivers have additional requirements: 64-bit editions of Windows Vista and Windows 7 will prevent installation of all unsigned kernel-mode drivers, and all versions of Windows will present a warning prompt when a user attempts to install an unsigned driver. In addition, administrators can set Group Policy to prevent unsigned drivers from being installed on Microsoft Windows Server 2003, Windows XP Professional x64 Edition, and 32-bit editions of Windows Vista and Windows 7.
 
-Many types of drivers can be signed with a Microsoft-trusted signature — as part of the Windows Certification Program of [Windows Hardware Quality Labs](https://www.microsoft.com/whdc/whql/) (WHQL) or the [Unclassified Signature Program](https://www.microsoft.com/whdc/winlogo/drvsign/dqs.mspx) (formerly named Driver Reliability Signature) — which allows the system to fully trust these drivers and install them even without administrative credentials.
+Many types of drivers can be signed with a Microsoft-trusted signature&mdash;as part of the Windows Certification Program of [Windows Hardware Quality Labs](https://www.microsoft.com/whdc/whql/) (WHQL) or the Unclassified Signature Program (formerly named Driver Reliability Signature)&mdash;which allows the system to fully trust these drivers, and install them even without administrative credentials.
 
-At a minimum, drivers should be Authenticode-signed, because drivers that are unsigned or self-signed (that is, signed with a test certificate) will fail to install on many Windows-based platforms. For more information about signing drivers and code and related feature, see [Driver Signing Requirements for Windows](https://www.microsoft.com/whdc/winlogo/drvsign/drvsign.mspx) on [Windows Hardware Developer Central](https://www.microsoft.com/whdc/).
+At a minimum, drivers should be Authenticode-signed, because drivers that are unsigned or self-signed (that is, signed with a test certificate) will fail to install on many Windows-based platforms. For more information about signing drivers and code and related feature, see [Driver Signing Requirements for Windows](/windows-hardware/drivers/install/driver-signing) on [Windows Hardware Developer Central](https://www.microsoft.com/whdc/).
 
 ## Summary
 
@@ -185,11 +183,6 @@ More information about tools and processes related to signing code, see the foll
 
 -   [Cryptography Tools](/windows/desktop/SecCrypto/cryptography-tools)
 -   [Crypto API Tools Reference](/windows/desktop/SecCrypto/cryptoapi-tools-reference)
--   [Authenticode Overview and Turtorials](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537360(v=vs.85))
+-   [Authenticode Overview and Tutorials](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537360(v=vs.85))
 -   [Digital Certificates](/windows/desktop/SecCrypto/digital-certificates)
--   [Deploying Authenticode](https://www.microsoft.com/technet/security/topics/cryptographyetc/authenticodets.mspx)
 -   [How To: Create Temporary Certificates for Use During Development](/dotnet/framework/wcf/feature-details/how-to-create-temporary-certificates-for-use-during-development)
-
- 
-
- 

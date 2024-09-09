@@ -4,19 +4,22 @@ ms.assetid: 06888a97-66ef-447f-be8b-ea458ce16b4b
 title: D3DXMatrixLookAtLH function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXMatrixLookAtLH
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXMatrixLookAtLH function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Builds a left-handed, look-at matrix.
 
@@ -91,7 +94,7 @@ This function uses the following formula to compute the returned matrix.
 zaxis = normal(At - Eye)
 xaxis = normal(cross(Up, zaxis))
 yaxis = cross(zaxis, xaxis)
-    
+
  xaxis.x           yaxis.x           zaxis.x          0
  xaxis.y           yaxis.y           zaxis.y          0
  xaxis.z           yaxis.z           zaxis.z          0

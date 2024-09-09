@@ -219,6 +219,8 @@
         - name: "Secure Channel"
           href: secure-channel.md
           items: 
+          - name: "TLS 1.0 and 1.1 deprecation in Windows"
+            href: tls-10-11-deprecation-in-windows.md
           - name: "Protocols in TLS/SSL (Schannel SSP)"
             href: protocols-in-tls-ssl--schannel-ssp-.md
             items: 
@@ -244,11 +246,15 @@
             items: 
             - name: "Prioritizing Schannel Cipher Suites"
               href: prioritizing-schannel-cipher-suites.md
+            - name: "TLS Cipher Suites in Windows 11 v22H2"
+              href: tls-cipher-suites-in-windows-11-v22H2.md
             - name: "TLS Cipher Suites in Windows 11"
               href: tls-cipher-suites-in-windows-11.md
             - name: "TLS Cipher Suites in Windows Server 2022"
               href: tls-cipher-suites-in-windows-server-2022.md
-            - name: "TLS Cipher Suites in Windows 10 v20H2 and v21H1"
+            - name: "TLS Cipher Suites in Windows 10 v22H2"
+              href: tls-cipher-suites-in-windows-10-v22H2.md
+            - name: "TLS Cipher Suites in Windows 10 v20H2, v21H1, and v21H2"
               href: tls-cipher-suites-in-windows-10-v20H2.md
             - name: "TLS Cipher Suites in Windows 10 v1903"
               href: tls-cipher-suites-in-windows-10-v1903.md
@@ -539,6 +545,8 @@
           href: extra-buffers-returned-by-schannel.md
         - name: "PSDK Samples Using Schannel"
           href: psdk-samples-using-schannel.md
+      - name: "Supporting Extended Protection for Authentication (EPA) in a service"
+        href: epa-support-in-service.md
     - name: "Protecting the Automatic Logon Password"
       href: protecting-the-automatic-logon-password.md
   - name: "Authentication Reference"
@@ -1155,6 +1163,10 @@
         href: /windows/desktop/api/Winscard/nf-winscard-scarduidlgselectcarda
       - name: "SCardWriteCache"
         href: /windows/desktop/api/Winscard/nf-winscard-scardwritecachea
+      - name: "SeciAllocateAndSetIPAddress"
+        href: SeciAllocateAndSetIPAddress.md
+      - name: "SeciFreeCallContext"
+        href: SeciFreeCallContext.md
       - name: "SendSAS"
         href: /windows/desktop/api/Sas/nf-sas-sendsas
       - name: "SetContextAttributes"
@@ -1283,6 +1295,8 @@
         href: /windows/desktop/api/Sspi/nf-sspi-sspiprepareforcredwrite
       - name: "SspiPromptForCredentials"
         href: /windows/desktop/api/Sspi/nf-sspi-sspipromptforcredentialsa
+      - name: "SspiSetChannelBindingFlags"
+        href: sspi-sspisetchannelbindingflags.md
       - name: "SspiUnmarshalAuthIdentity"
         href: /windows/desktop/api/Sspi/nf-sspi-sspiunmarshalauthidentity
       - name: "SspiUnmarshalCredUIContext"
@@ -2020,7 +2034,7 @@
       - name: "SEC_WINNT_AUTH_IDENTITY"
         href: /windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_a
       - name: "SEC_WINNT_AUTH_IDENTITY_EX"
-        href: /windows/desktop/api/Sspi/ns-sspi-_sec_winnt_auth_identity_exa
+        href: /windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_exa
       - name: "SEC_WINNT_AUTH_IDENTITY_EX2"
         href: /windows/win32/api/Sspi/ns-sspi-sec_winnt_auth_identity_ex2
       - name: "SEC_WINNT_AUTH_PACKED_CREDENTIALS"
@@ -2100,7 +2114,7 @@
       - name: "SecPkgContext_ConnectionInfo"
         href: /windows/win32/api/Schannel/ns-schannel-secpkgcontext_connectioninfo
       - name: "SecPkgContext_CredentialName"
-        href: /windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_credentialnamea
+        href: /windows/win32/api/sspi/ns-sspi-_secpkgcontext_credentialnamea
       - name: "SecPkgContext_CredInfo"
         href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_credinfo
       - name: "SecPkgContext_DceInfo"
@@ -2128,7 +2142,7 @@
       - name: "SecPkgContext_Names"
         href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_namesa
       - name: "SecPkgContext_NativeNames"
-        href: /windows/desktop/api/Sspi/ns-sspi-_secpkgcontext_nativenamesa
+        href: /windows/win32/api/sspi/ns-sspi-_secpkgcontext_nativenamesa
       - name: "SecPkgContext_NegoStatus"
         href: /windows/win32/api/Sspi/ns-sspi-secpkgcontext_negostatus
       - name: "SecPkgContext_NegotiationInfo"

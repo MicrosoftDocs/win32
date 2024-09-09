@@ -15,7 +15,7 @@ The following structures are used with the Remote Desktop Services API.
 
 <dl> <dt>
 
-[**CHANNEL\_DEF**](/windows/desktop/api/Pchannel/ns-pchannel-tagchannel_def)
+[**CHANNEL\_DEF**](/previous-versions/windows/embedded/aa513856(v=msdn.10))
 </dt> <dd>
 
 Contains the name and options of a Remote Desktop Services virtual channel.

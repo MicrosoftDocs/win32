@@ -63,7 +63,15 @@ Reserved; must be 0.
 
 ## Return value
 
-The address of the delay-load descriptor, if it is found; otherwise, **NULL**.
+Returns an **NTSTATUS** or error code.
+
+| Return code | Description |
+|--------------|--------------|
+| STATUS_SUCCESS | The operation completed successfully |
+| STATUS_DLL_NOT_FOUND | The Target DLL could not be found |
+
+The forms and significance of **NTSTATUS** error codes are listed in the Ntstatus.h header file available in the WDK, and are described in the WDK documentation.
+
 
 ## Requirements
 
@@ -71,9 +79,10 @@ The address of the delay-load descriptor, if it is found; otherwise, **NULL**.
 
 | Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
+| Minimum supported client<br/> | Windows 8<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                    |
 | Library<br/> | <dl> <dt>Kernel32.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Kernel32.dll</dt> </dl> |
-
 
 
 ## See also

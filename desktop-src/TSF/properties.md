@@ -176,7 +176,7 @@ When storing property data, an application should perform the following steps.
 6.  Write the contents of the **TF\_PERSISTENT\_PROPERTY\_HEADER\_ACP** structure into persistent memory.
 7.  Write the contents of the stream object into persistent memory.
 8.  Continue the previous steps for all of the ranges in all of the properties.
-9.  The application should write some type of terminiator into the stream so that, when the data is restored, a stopping point can be identified.
+9.  The application should write some type of terminator into the stream so that, when the data is restored, a stopping point can be identified.
 
 
 ```C++

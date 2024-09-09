@@ -3,7 +3,7 @@ description: The follow constants are used with Certified Output Protection Prot
 ms.assetid: a3cd63d8-22a5-473c-83c2-3499f3d32671
 title: COPP Protection Type Flags (Dxva.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 4/26/2023
 topic_type: 
 - APIRef
 - kbSyntax
@@ -19,9 +19,12 @@ api_type:
 - HeaderDef
 api_location: 
 - dxva.h
+ms.custom: UpdateFrequency5
 ---
 
 # COPP Protection Type Flags
+
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The follow constants are used with Certified Output Protection Protocol (COPP) to specific output protection mechanisms.
 

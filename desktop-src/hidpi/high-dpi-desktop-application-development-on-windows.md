@@ -64,7 +64,6 @@ When running in Per-Monitor v2 Awareness mode, applications are notified when th
 
 The following table shows how applications will render under different scenarios:
 
-
 | DPI Awareness Mode | Windows Version Introduced | Application's view of DPI | Behavior on DPI change | 
 |--------------------|----------------------------|---------------------------|------------------------|
 | Unaware | N/A | All displays are 96 DPI | Bitmap-stretching (blurry) | 
@@ -100,11 +99,6 @@ The table below shows the level of per-monitor DPI awareness support offered by 
 | GDI+ | None | N/A | Application | See <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">GDI High-DPI Scaling</a> | 
 | MFC | None | N/A | Application | N/A | 
 
-
-
-
- 
-
 ## Updating Existing Applications
 
 In order to update an existing desktop application to handle DPI scaling properly, it needs to be updated such that, at a minimum, the important parts of its UI are updated to respond to DPI changes.
@@ -113,27 +107,20 @@ Most desktop applications run under system DPI awareness mode. System-DPI-aware 
 
 Also, in the case of Win32 programming, many Win32 APIs do not have any DPI or display context so they will only return values relative to the System DPI. It can be useful to grep through your code to look for some of these APIs and replace them with DPI-aware variants. Some of the common APIs that have DPI-aware variants are:
 
-
-
 | Single DPI version   | Per-Monitor version        |
 |----------------------|----------------------------|
-| GetSystemMetrics     | GetSystemMetricsForDpi     |
-| AdjustWindowRectEx   | AdjustWindowRectExForDpi   |
-| SystemParametersInfo | SystemParametersInfoForDpi |
-| GetDpiForMonitor     | GetDpiForWindow            |
-
-
-
- 
+| [GetSystemMetrics](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) | [GetSystemMetricsForDpi](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) |
+| [AdjustWindowRectEx](/windows/win32/api/winuser/nf-winuser-adjustwindowrectex) | [AdjustWindowRectExForDpi](/windows/win32/api/winuser/nf-winuser-adjustwindowrectexfordpi) |
+| [SystemParametersInfo](/windows/win32/api/winuser/nf-winuser-systemparametersinfow) | [SystemParametersInfoForDpi](/windows/win32/api/winuser/nf-winuser-systemparametersinfofordpi) |
+| [GetDpiForMonitor](/windows/win32/api/shellscalingapi/nf-shellscalingapi-getdpiformonitor) | [GetDpiForWindow](/windows/win32/api/winuser/nf-winuser-getdpiforwindow) |
 
 It is also a good idea to search for hard-coded sizes in your codebase that assume a constant DPI, replacing them with code that correctly accounts for DPI scaling. Below is an example that incorporates all of these suggestions:
 
 ### Example:
 
-The example below shows a simplified Win32 case of creating a child HWND. The call to CreateWindow assumes that the application is running at 96 DPI, and neither the button's size nor position will be correct at higher DPIs:
+The example below shows a simplified Win32 case of creating a child HWND. The call to CreateWindow assumes that the application is running at 96 DPI (`USER_DEFAULT_SCREEN_DPI` constant), and neither the button's size nor position will be correct at higher DPIs:
 
-
-```
+```cpp
 case WM_CREATE: 
 { 
     // Add a button 
@@ -147,30 +134,26 @@ case WM_CREATE:
 } 
 ```
 
-
-
 The updated code below shows:
 
 1.  The window-creation code DPI scaling the position and size of the child HWND for the DPI of its parent window
 2.  Responding to DPI change by repositioning and resizing the child HWND
 3.  Hard-coded sizes removed and replaced with code that responds to DPI changes
 
-
-```
+```cpp
 #define INITIALX_96DPI 50 
 #define INITIALY_96DPI 50 
 #define INITIALWIDTH_96DPI 100 
 #define INITIALHEIGHT_96DPI 50 
- 
- 
+
 // DPI scale the position and size of the button control 
 void UpdateButtonLayoutForDpi(HWND hWnd) 
 { 
     int iDpi = GetDpiForWindow(hWnd); 
-    int dpiScaledX = MulDiv(INITIALX_96DPI, iDpi, 96); 
-    int dpiScaledY = MulDiv(INITIALY_96DPI, iDpi, 96); 
-    int dpiScaledWidth = MulDiv(INITIALWIDTH_96DPI, iDpi, 96); 
-    int dpiScaledHeight = MulDiv(INITIALHEIGHT_96DPI, iDpi, 96); 
+    int dpiScaledX = MulDiv(INITIALX_96DPI, iDpi, USER_DEFAULT_SCREEN_DPI); 
+    int dpiScaledY = MulDiv(INITIALY_96DPI, iDpi, USER_DEFAULT_SCREEN_DPI); 
+    int dpiScaledWidth = MulDiv(INITIALWIDTH_96DPI, iDpi, USER_DEFAULT_SCREEN_DPI); 
+    int dpiScaledHeight = MulDiv(INITIALHEIGHT_96DPI, iDpi, USER_DEFAULT_SCREEN_DPI); 
     SetWindowPos(hWnd, hWnd, dpiScaledX, dpiScaledY, dpiScaledWidth, dpiScaledHeight, SWP_NOZORDER | SWP_NOACTIVATE); 
 } 
  
@@ -204,8 +187,6 @@ case WM_DPICHANGED:
 } 
 break; 
 ```
-
-
 
 When updating a System DPI-aware application, some common steps to follow are:
 
@@ -255,7 +236,7 @@ If you have application-specific requirements that prevent you from using the su
 
 When an HWND or process is running as either DPI unaware or system DPI aware, it can be bitmap stretched by Windows. When this happens, Windows scales and converts DPI-sensitive information from some APIs to the coordinate space of the calling thread. For example, if a DPI-unaware thread queries the screen size while running on a high-DPI display, Windows will virtualize the answer given to the application as if the screen were in 96 DPI units. Alternatively, when a System DPI-aware thread is interacting with a display at a different DPI than was in use when the current user's session was started, Windows will DPI-scale some API calls into the coordinate space that the HWND would be using if it were running at its original DPI scale factor.
 
-When you update your desktop application to DPI scale properly, it can difficult to know which API calls can return virtualized values based on the thread context; this information is not currently sufficiently documented by Microsoft. Be aware that if you call any system API from a DPI-unaware or system-DPI-aware thread context, the return value might be virtualized. As such, make sure your thread is running in the DPI context you expect when interacting with the screen or individual windows. When temporarily changing a thread's DPI context using [SetThreadDpiAwarenessContext](/windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext), be sure to restore the old context when you're done to avoid causing incorrect behavior elsewhere in your application.
+When you update your desktop application to DPI scale properly, it can be difficult to know which API calls can return virtualized values based on the thread context; this information is not currently sufficiently documented by Microsoft. Be aware that if you call any system API from a DPI-unaware or system-DPI-aware thread context, the return value might be virtualized. As such, make sure your thread is running in the DPI context you expect when interacting with the screen or individual windows. When temporarily changing a thread's DPI context using [SetThreadDpiAwarenessContext](/windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext), be sure to restore the old context when you're done to avoid causing incorrect behavior elsewhere in your application.
 
 **Many Windows APIs do not have an DPI context**
 
@@ -270,8 +251,6 @@ In general, the DPI awareness mode of your process cannot be changed after proce
 
 The table below shows what happens if you attempt to violate this rule:
 
-
-
 | Operation                 | Windows 8.1                                  | Windows 10 (1607 and earlier)                | Windows 10 (1703 and later)                  |
 |---------------------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|
 | CreateWindow (In-Proc)    | N/A                                          | **Child inherits** (mixed mode)              | **Child inherits** (mixed mode)              |
@@ -279,17 +258,8 @@ The table below shows what happens if you attempt to violate this rule:
 | SetParent (In-Proc)       | N/A                                          | **Forced reset** (of current process)        | **Fail** (ERROR\_INVALID\_STATE)             |
 | SetParent (Cross-Proc)    | **Forced reset** (of child window's process) | **Forced reset** (of child window's process) | **Forced reset** (of child window's process) |
 
-
-
- 
-
 ## Related topics
 
-<dl> <dt>
-
 [High DPI API Reference](high-dpi-reference.md)
-</dt> <dt>
 
 [Mixed-Mode DPI Scaling and DPI-aware APIs.](high-dpi-improvements-for-desktop-applications.md)
-</dt> </dl>
-

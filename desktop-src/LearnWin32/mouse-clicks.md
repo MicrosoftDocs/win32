@@ -43,7 +43,7 @@ int yPos = GET_Y_LPARAM(lParam);
 
 These macros are defined in the header file WindowsX.h.
 
-On 64-bit Windows, *lParam* is 64-bit value. The upper 32 bits of *lParam* are not used. The MSDN documentation mentions the "low-order word" and "high-order word" of *lParam*. In the 64-bit case, this means the low- and high-order words of the lower 32 bits. The macros extract the right values, so if you use them, you will be safe.
+On 64-bit Windows, *lParam* is 64-bit value. The upper 32 bits of *lParam* are not used. Where the Windows documentation mentions the "low-order word" and "high-order word" of *lParam*, the 64-bit case means the low- and high-order words of the lower 32 bits. The macros extract the right values, so if you use them, you will be safe.
 
 Mouse coordinates are given in pixels, not device-independent pixels (DIPs), and are measured relative to the client area of the window. Coordinates are signed values. Positions above and to the left of the client area have negative coordinates, which is important if you track the mouse position outside the window. We will see how to do that in a later topic, [Capturing Mouse Movement Outside the Window](mouse-movement.md).
 

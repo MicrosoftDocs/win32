@@ -70,14 +70,14 @@ Public Function DeserializeInstances (
 #### Parameters
 
   - serializedData  
-    Type: [System.Byte](/dotnet/api/system.byte?view=netframework-4.8)\[\]
+    Type: [System.Byte](/dotnet/api/system.byte)\[\]
     
     A buffer that contains the serialized data.
 
 <!-- end list -->
 
   - offset  
-    Type: [System.UInt32](/dotnet/api/system.uint32?view=netframework-4.8)
+    Type: [System.UInt32](/dotnet/api/system.uint32)
     
     The byte offset to the location at which to begin reading the data. When the method returns, the offset will be pointing to the next byte after the deserialized instances.
 
@@ -97,9 +97,9 @@ Public Function DeserializeInstances (
 
 #### Return value
 
-Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8)\<[CimInstance](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832336(v=vs.85))\>
+Type: [System.Collections.Generic.IEnumerable](/dotnet/api/system.collections.generic.ienumerable-1)\<[CimInstance](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832336(v=vs.85))\>
 
-An [IEnumerable\<T\>](/dotnet/api/system.collections.generic.ienumerable-1?view=netframework-4.8) interface that can be used to enumerate the CIM classes.
+An [IEnumerable\<T\>](/dotnet/api/system.collections.generic.ienumerable-1) interface that can be used to enumerate the CIM classes.
 
 ## See also
 

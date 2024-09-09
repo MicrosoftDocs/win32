@@ -3,7 +3,7 @@ description: A list of the reference content for the Windows API.
 ms.assetid: 9CA123F9-92F1-4761-9468-266DA422F70E
 title: Windows API index
 ms.topic: article
-ms.date: 09/10/2021
+ms.date: 01/04/2023
 ---
 
 # Windows API index
@@ -14,7 +14,7 @@ Using the Windows API, you can develop applications that run successfully on all
 
 ## User interface
 
-The Windows UI API create and use windows to display output, prompt for user input, and carry out the other tasks that support interaction with the user. Most applications create at least one window.
+The Windows UI API creates and uses windows to display output, prompt for user input, and carry out the other tasks that support interaction with the user. Most applications create at least one window.
 
 -   [Accessibility](../winauto/windows-accessibility-features-reference.md)
 -   [Desktop Window Manager (DWM)](../dwm/reference.md)
@@ -90,6 +90,7 @@ The Windows UI API create and use windows to display output, prompt for user inp
 ## Data access and storage
 
 -   [Background Intelligent Transfer Service (BITS)](../bits/bits-reference.md)
+-   [Bind Link](../bindlink/index.md)
 -   [Data Backup](../backup/backup.md)
     -   [Backup](../backup/backup-reference.md)
     -   [Data Deduplication](/previous-versions/windows/desktop/dedup/data-deduplication-api-reference)
@@ -114,7 +115,7 @@ The Windows UI API create and use windows to display output, prompt for user inp
 -   [Transactional NTFS](../fileio/transactional-ntfs-reference.md)
 -   [Volume Management](../fileio/volume-management-reference.md)
 -   [Virtual Hard Disk (VHD)](/previous-versions/windows/desktop/legacy/dd323700(v=vs.85))
--   [Windows Storage Management](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
+-   [Windows Storage Management](/windows-hardware/drivers/storage/windows-storage-management-api-portal)
 -   [Windows Data Access Components](/previous-versions/windows/desktop/legacy/aa968814(v=vs.85))
     -   [Microsoft Open Database Connectivity (ODBC)](/sql/odbc/reference/syntax/odbc-reference)
     -   [Microsoft OLE DB](/previous-versions/windows/desktop/ms718050(v=vs.85))
@@ -203,11 +204,13 @@ The [Graphics, multimedia,](/previous-versions//aa969176(v=vs.85)) [audio, and 
 
 The [System Services](../system-services.md) APIs give applications access to the resources of the computer and the features of the underlying operating system, such as memory, file systems, devices, processes, and threads.
 
+-   [Activity Coordinator](../activity_coordinator/-activity-coordinator-portal.md)
 -   [COM](../com/reference.md)
 -   [COM+](../cossdk/com--reference.md)
 -   [Compression API](../cmpapi/-compression-portal.md)
 -   [Distributed Transaction Coordinator (DTC)](/previous-versions/windows/desktop/ms686108(v=vs.85))
 -   [Dynamic-Link Libraries (DLLs)](../dlls/dynamic-link-library-functions.md)
+-   [Hardware Requirement Evaluator (HWREQCHK)](../hwreqchkapi/index.md)
 -   [Help API](/previous-versions/windows/desktop/helpapi/help-api-reference)
 -   [Interprocess Communications](../ipc/interprocess-communications.md):
     -   [Mailslots](../ipc/mailslot-functions.md)
@@ -347,7 +350,7 @@ The following are technologies and APIs that are outdated or have been replaced 
 -   [Microsoft UDDI SDK](/previous-versions/windows/desktop/aa966237(v=bts.10)) is now included with [Microsoft BizTalk Server](/previous-versions/bb905520(v=msdn.10)).
 -   [Network Dynamic Data Exchange (DDE)](../ipc/network-dde-reference.md)
 -   [Remote Installation Service](/previous-versions/windows/it-pro/windows-server-2003/cc786442(v=ws.10)): Use [Windows Deployment Services](../wds/windows-deployment-services-portal.md) instead.
--   [Virtual Disk Service (VDS)](../vds/vds-reference.md): Use [Windows Storage Management](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal) instead.
+-   [Virtual Disk Service (VDS)](../vds/vds-reference.md): Use [Windows Storage Management](/windows-hardware/drivers/storage/windows-storage-management-api-portal) instead.
 -   Terminal Services: Use [Remote Desktop Services](../termserv/terminal-services-reference.md).
 -   [Windows Media Rights Manager](/previous-versions//bb614742(v=vs.85))
 -   [Windows Messaging (MAPI)](/previous-versions/windows/desktop/windowsmapi/mapi-stub-library-and-simple-mapi): Use [Office MAPI](/previous-versions/office/developer/office-2007/cc765775(v=office.12)) instead.

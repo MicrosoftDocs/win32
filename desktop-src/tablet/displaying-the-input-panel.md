@@ -12,14 +12,14 @@ ms.date: 05/31/2018
 
 The order of the various focus events for a control is as follows:
 
--   [Control.Enter](/dotnet/api/system.windows.forms.control.enter?view=netcore-3.1)
--   [Control.GotFocus](/dotnet/api/system.windows.forms.control.gotfocus?view=netcore-3.1)
--   [Control.Leave](/dotnet/api/system.windows.forms.control.leave?view=netcore-3.1)
--   [Control.Validating](/dotnet/api/system.windows.forms.control.validating?view=netcore-3.1)
--   [Control.Validated](/dotnet/api/system.windows.forms.control.validated?view=netcore-3.1)
--   [Control.LostFocus](/dotnet/api/system.windows.forms.control.lostfocus?view=netcore-3.1)
+-   [Control.Enter](/dotnet/api/system.windows.forms.control.enter?view=netcore-3.1&preserve-view=true)
+-   [Control.GotFocus](/dotnet/api/system.windows.forms.control.gotfocus?view=netcore-3.1&preserve-view=true)
+-   [Control.Leave](/dotnet/api/system.windows.forms.control.leave?view=netcore-3.1&preserve-view=true)
+-   [Control.Validating](/dotnet/api/system.windows.forms.control.validating?view=netcore-3.1&preserve-view=true)
+-   [Control.Validated](/dotnet/api/system.windows.forms.control.validated?view=netcore-3.1&preserve-view=true)
+-   [Control.LostFocus](/dotnet/api/system.windows.forms.control.lostfocus?view=netcore-3.1&preserve-view=true)
 
-There is no guarantee that the control actually has focus by the time the [Control.Visible](/dotnet/api/system.windows.forms.control.visible?view=netcore-3.1) property is written when it is set in the [Control.Enter](/dotnet/api/system.windows.forms.control.enter?view=netcore-3.1) event handler. The Control.Enter event is the best place to attach the [PenInputPanel](/previous-versions/ms583923(v=vs.100)) object to a control, but the [Control.GotFocus](/dotnet/api/system.windows.forms.control.gotfocus?view=netcore-3.1) event is the best place to change the [PenInputPanel.Visible](/previous-versions/ms571984(v=vs.100)) property.
+There is no guarantee that the control actually has focus by the time the [Control.Visible](/dotnet/api/system.windows.forms.control.visible?view=netcore-3.1&preserve-view=true) property is written when it is set in the [Control.Enter](/dotnet/api/system.windows.forms.control.enter?view=netcore-3.1&preserve-view=true) event handler. The Control.Enter event is the best place to attach the [PenInputPanel](/previous-versions/ms583923(v=vs.100)) object to a control, but the [Control.GotFocus](/dotnet/api/system.windows.forms.control.gotfocus?view=netcore-3.1&preserve-view=true) event is the best place to change the [PenInputPanel.Visible](/previous-versions/ms571984(v=vs.100)) property.
 
  
 

@@ -4,19 +4,22 @@ ms.assetid: 09e2cede-a0a3-4a5e-a7e1-e7a98cdc433b
 title: D3DXVec3Subtract function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec3Subtract
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXVec3Subtract function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Subtracts two 3D vectors.
 
@@ -101,7 +104,3 @@ The return value for this function is the same value returned in the *pOut* para
  
 
  
-
-
-
-

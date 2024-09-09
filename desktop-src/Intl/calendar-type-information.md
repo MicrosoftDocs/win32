@@ -66,7 +66,7 @@ The following CALTYPE constants are mutually exclusive and cannot be used in com
 | CAL_SDAYNAME7 | Native name of the seventh day of the week. | 
 | CAL_SERASTRING | One or more null-terminated strings that specify each of the Unicode code points specifying the era associated with CAL_IYEAROFFSETRANGE. The last string has an extra terminating null character. This value varies in format depending on the type of optional calendar. | 
 | CAL_SLONGDATE | Long date formats for the calendar type. | 
-| CAL_SMONTHDAY | <strong>Windows 7 and later:</strong> Format of the month and day for the calendar type. The formatting is similar to that for CAL_SLONGDATE. For example, if the Month/Day pattern is the full month name followed by the day number with leading zeros, for example, "September 03", the format is "MMMM dd". Single quotation marks can be used to insert non-format characters, for example, 'de' in Spanish.<blockquote>[!Note]<br />This calendar type supports only one format.</blockquote><br /> | 
+| CAL_SMONTHDAY | **Windows 7 and later:** Format of the month and day for the calendar type. The formatting is similar to that for CAL_SLONGDATE. For example, if the Month/Day pattern is the full month name followed by the day number with leading zeros, for example, "September 03", the format is "MMMM dd". Single quotation marks can be used to insert non-format characters, for example, 'de' in Spanish. **Note:** This calendar type supports only one format.<br> | 
 | CAL_SMONTHNAME1 | Native name of the first month of the year. | 
 | CAL_SMONTHNAME2 | Native name of the second month of the year. | 
 | CAL_SMONTHNAME3 | Native name of the third month of the year. | 

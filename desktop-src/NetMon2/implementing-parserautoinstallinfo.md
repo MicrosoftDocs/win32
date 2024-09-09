@@ -39,7 +39,7 @@ The following procedure identifies the steps necessary to implement [**ParserAut
     -   If the preceding protocols can determine that your protocol follows from data in the preceding protocols, set the **pWhoHandsOffToMe** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, your protocol is then added to the [*handoff sets*](h.md) of the preceding protocols.
     -   If the preceding protocols cannot determine that your protocol follows from data in the preceding protocols, set **pWhoCanPrecedeMe** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, the your protocol is then added to the [*follow sets*](f.md) of the protocols.
 7.  Specify the protocols that follow each DLL protocol. One of the following conditions applies to an outgoing follow-set.
-    -   If your protocol can determine which protocols follow based on data in your protocol, set the **pWhoDoIHandOffTo** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, the these protocols are added to the [*handoff set*](h.md) of your protocols.
+    -   If your protocol can determine which protocols follow based on data in your protocol, set the **pWhoDoIHandOffTo** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, these protocols are added to the [*handoff set*](h.md) of your protocols.
     -   If your protocol cannot determine which protocols follow based on data in your protocol, set the **pWhoCanFollowMe** member of [**PF\_PARSERINFO**](pf-parserinfo.md). In this case, these protocols are added to the [*follow set*](f.md) of your protocol.
 8.  Return the [**PF\_PARSERDLLINFO**](pf-parserdllinfo.md) structure to Network Monitor.
 

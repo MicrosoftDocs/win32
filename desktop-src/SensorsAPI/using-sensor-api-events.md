@@ -242,7 +242,7 @@ if(SUCCEEDED(hr))
 
 ## Requesting a Report Interval
 
-You can suggest a value for how frequently your applicaton receives data-updated events. However, sensors are not required to provide events at any particular interval. You should be aware that your suggested value might not match the actual report interval the sensor uses to raise events. To know the actual report interval, retrieve the value for the SENSOR\_PROPERTY\_CURRENT\_REPORT\_INTERVAL property, as described in [Retrieving and Setting Sensor Properties](setting-and-retrieving-sensor-properties.md).
+You can suggest a value for how frequently your application receives data-updated events. However, sensors are not required to provide events at any particular interval. You should be aware that your suggested value might not match the actual report interval the sensor uses to raise events. To know the actual report interval, retrieve the value for the SENSOR\_PROPERTY\_CURRENT\_REPORT\_INTERVAL property, as described in [Retrieving and Setting Sensor Properties](setting-and-retrieving-sensor-properties.md).
 
 The following example code creates a helper function that requests a new value for the SENSOR\_PROPERTY\_CURRENT\_REPORT\_INTERVAL property. The function takes a pointer to the sensor for which to set the property, and a **ULONG** value that indicates the new report interval to be set.
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # WM\_IME\_CHAR message
 
-Sent to an application when the IME gets a character of the conversion result. A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+Sent to an application when the IME gets a character of the conversion result. A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++
@@ -84,14 +84,10 @@ For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte ch
 
 
 ## See also
-
-<dl> <dt>
-
-[Input Method Manager](input-method-manager.md)
-</dt> <dt>
-
-[Input Method Manager Messages](input-method-manager-messages.md)
-</dt> </dl>
+- [Input Method Manager](input-method-manager.md)
+- [Input Method Manager Messages](input-method-manager-messages.md)
+- [Keyboard Input (Keyboard and Mouse Input)](../inputdev/keyboard-input.md)
+- [About Keyboard Input](../inputdev/about-keyboard-input.md)
 
  
 

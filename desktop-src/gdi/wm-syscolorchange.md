@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The **WM\_SYSCOLORCHANGE** message is sent to all top-level windows when a change is made to a system color setting.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

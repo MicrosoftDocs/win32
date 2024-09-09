@@ -4,7 +4,6 @@ ms.assetid: f831cc62-4b19-4285-8bb1-6080567ac985
 title: Windows Installer Properties for the Uninstall Registry Key
 ms.topic: article
 ms.date: 05/31/2018
-ms.custom: contperf-fy21q3
 ---
 
 # Windows Installer Properties for the Uninstall Registry Key
@@ -65,7 +64,3 @@ The values are stored in a subkey identified by the application's product code G
  
 
  
-
-
-
-

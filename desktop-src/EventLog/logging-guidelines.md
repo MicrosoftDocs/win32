@@ -3,7 +3,7 @@ description: Event logs store records of significant events on behalf of the sys
 ms.assetid: 58a6569a-2775-4687-bf99-579fa4153191
 title: Logging Guidelines
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/09/2024
 ---
 
 # Logging Guidelines
@@ -27,7 +27,7 @@ Avoid writing a cryptic message such as "A driver packet received from the I/O s
 
 Do not use tabs or commas in the message text, because event logs can be saved as comma or tab-separated text files. Many organizations import these files into databases, and the extra formatting characters will require manual manipulation.
 
-When using UNC names, or other links that contain spaces, enclose the name in angle brackets. For example, <\\\\*sharename*\\*servername*>. You can write a URL to the end of the message that points the user to related help material. The URL must be a fully qualified DNS host name. For example, you could append the following text to your messages: "For additional information on this message, please visit our support site at https://www.microsoft.com/Support/ProdRedirect/ContentSearch.asp." The link would lead to an ASP page that redirects the user to content relating to the error message. It would parse additional parameters (passed when the URL is clicked) to determine where to redirect the user.
+When using UNC names, or other links that contain spaces, enclose the name in angle brackets. For example, <\\\\*sharename*\\*servername*>. You can write a URL to the end of the message that points the user to related help material. The URL must be a fully qualified DNS host name. For example, you could append the following text to your messages: "For additional information on this message, please visit our support site at `https://www.microsoft.com/Support/ProdRedirect/ContentSearch.asp`." The link would lead to an ASP page that redirects the user to content relating to the error message. It would parse additional parameters (passed when the URL is clicked) to determine where to redirect the user.
 
 The arguments passed to the [**ReportEvent**](/windows/desktop/api/Winbase/nf-winbase-reporteventa) function are appended to the URL as follows:
 

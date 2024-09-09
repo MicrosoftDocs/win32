@@ -151,7 +151,7 @@ To begin saving events to a text file, open the **File** menu and select **Start
 ## Related topics
 
 - [Accessible Event Watcher](accessible-event-watcher.md)
-- [Testing Tools](testing-tools.md)
+- [Testing for accessibility](accessibility-testingtools.md)
 - [UI Accessibility Checker](ui-accessibility-checker.md)
 - [UI Automation Events Overview](uiauto-eventsoverview.md)
 - [UI Automation Verify](ui-automation-verify.md)

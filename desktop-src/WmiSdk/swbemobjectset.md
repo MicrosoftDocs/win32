@@ -59,6 +59,7 @@ The **SWbemObjectSet** object has these methods.
 | Method                              | Description                                                                                                                      |
 |:------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
 | [**Item**](swbemobjectset-item.md) | Retrieves an [**SWbemObject**](swbemobject.md) object from the collection. This is the default method of the object.<br/> |
+| [**ItemIndex**](swbemobjectset-itemindex.md) | Retrieves the [**SWbemObject**](swbemobject.md) object associated with the specified index into the collection.<br/> |
 
 
 

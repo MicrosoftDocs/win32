@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Managing DNS Zones
+# Managing DNS Zones using WMI
 
 A DNS zone is a database of RR entries that corresponds to part of the DNS hierarchical name space. DNS zones are used to delineate which DNS Servers are authoritative for resolving name-resolution queries for a given section of the DNS hierarchy.
 

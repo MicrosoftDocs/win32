@@ -15,10 +15,13 @@ keywords:
 - scripts,commands
 - scripts,streams
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Script Commands
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 The script commands supported by the Windows Media Format SDK are simple name and value string pairs. For example, a common script command is "URL", which is used by Windows Media Player and other playing applications to open Web pages. The other half of the script pair for "URL" command contains a valid uniform resource locator (URL), such as `https://www.adatum.com`. No support is provided by the objects of this SDK for any specific commands; your application must include logic to handle whatever commands you use. You can use the commands supported by Windows Media Player to maintain compatibility with most players.
 

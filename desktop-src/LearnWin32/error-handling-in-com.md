@@ -69,7 +69,7 @@ else
 
 
 
-Some **HRESULT** values are specific to a particular feature or subsystem of Windows. For example, the Direct2D graphics API defines the error code **D2DERR\_UNSUPPORTED\_PIXEL\_FORMAT**, which means that the program used an unsupported pixel format. MSDN documentation often gives a list of specific error codes that a method might return. However, you should not consider these lists to be definitive. A method can always return an **HRESULT** value that is not listed in the documentation. Again, use the [**SUCCEEDED**](/windows/desktop/api/winerror/nf-winerror-succeeded) and [**FAILED**](/windows/desktop/api/winerror/nf-winerror-failed) macros. If you test for a specific error code, include a default case as well.
+Some **HRESULT** values are specific to a particular feature or subsystem of Windows. For example, the Direct2D graphics API defines the error code **D2DERR\_UNSUPPORTED\_PIXEL\_FORMAT**, which means that the program used an unsupported pixel format. The Windows documentation often gives a list of specific error codes that a method might return. However, you should not consider these lists to be definitive. A method can always return an **HRESULT** value that is not listed in the documentation. Again, use the [**SUCCEEDED**](/windows/desktop/api/winerror/nf-winerror-succeeded) and [**FAILED**](/windows/desktop/api/winerror/nf-winerror-failed) macros. If you test for a specific error code, include a default case as well.
 
 
 ```C++

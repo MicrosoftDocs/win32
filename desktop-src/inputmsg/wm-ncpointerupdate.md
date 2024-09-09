@@ -22,7 +22,7 @@ Posted to provide an update on a pointer that made contact over the non-client a
 
 If a window has captured this pointer, this message is not posted. Instead, a [**WM_POINTERUPDATE**](wm-pointerupdate.md) is posted to the window that has captured this pointer.
 
-> \[!Important\]  
+> ![Important]  
 > Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](/previous-versions//dd464660(v=vs.85)).
 
  
@@ -45,7 +45,7 @@ Contains the pointer identifier and additional information. Use the following ma
 
 [**GET_POINTERID_WPARAM**](/windows/win32/api/winuser/nf-winuser-get_pointerid_wparam)(wParam): pointer identifier
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](../inputdev/wm-nchittest.md) message.
+[**HIWORD**](../winmsg/hiword.md)(wParam): hit-test value returned from processing the [**WM_NCHITTEST**](../inputdev/wm-nchittest.md) message.
 
 </dd> <dt>
 

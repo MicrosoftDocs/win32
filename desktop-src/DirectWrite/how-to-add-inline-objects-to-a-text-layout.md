@@ -86,7 +86,7 @@ In addition to QueryInterface, AddRef, and Release inherited from IUnknown, this
 
 -   [**Draw**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-draw)
 -   [**GetMetrics**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getmetrics)
--   [**GetOverhangMetrics**](idwriteinlineobject-getoverhangmetrics.md)
+-   [**GetOverhangMetrics**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getoverhangmetrics)
 -   [**GetBreakConditions**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getbreakconditions)
 
 ## Step 3: Implement the Inline Object Class.
@@ -193,7 +193,7 @@ HRESULT STDMETHODCALLTYPE InlineImage::GetOverhangMetrics(
 
 
 
-In this case, no overhang is necessary, so the [**GetOverhangMetrics**](idwriteinlineobject-getoverhangmetrics.md) method returns all zeros.
+In this case, no overhang is necessary, so the [**GetOverhangMetrics**](/windows/win32/api/dwrite/nf-dwrite-idwriteinlineobject-getoverhangmetrics) method returns all zeros.
 
 ### The GetBreakConditions Method.
 

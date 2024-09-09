@@ -33,7 +33,7 @@ For an example that uses myPuts, see [Using Load-Time Dynamic Linking](using-loa
 extern "C" {          // we need to export the C interface
 #endif
  
-__declspec(dllexport) int __cdecl myPuts(LPWSTR lpszMsg)
+__declspec(dllexport) int __cdecl myPuts(LPCWSTR lpszMsg)
 {
     DWORD cchWritten;
     HANDLE hConout;

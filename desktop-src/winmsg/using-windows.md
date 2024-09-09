@@ -157,7 +157,7 @@ BOOL CALLBACK EnumChildProc(HWND hwndChild, LPARAM lParam)
 
 You can use the [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) function to destroy a window. Typically, an application sends the [**WM\_CLOSE**](wm-close.md) message before destroying a window, giving the window the opportunity to prompt the user for confirmation before the window is destroyed. A window that includes a window menu automatically receives the **WM\_CLOSE** message when the user clicks **Close** from the window menu. If the user confirms that the window should be destroyed, the application calls **DestroyWindow**. The system sends the [**WM\_DESTROY**](wm-destroy.md) message to the window after removing it from the screen. In response to **WM\_DESTROY**, the window saves its data and frees any resources it allocated. A main window concludes its processing of **WM\_DESTROY** by calling the [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage) function to quit the application.
 
-The following example shows how to prompt for user confirmation before destroying a window. In response to [**WM\_CLOSE**](wm-close.md), the example displays a dialog box that contains **Yes**, **No**, and **Cancel** buttons. If the user clicks **Yes**, [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) is called; otherwise, the window is not destroyed. Because the window being destroyed is a main window, the example calls [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage) in response to [**WM\_DESTROY**](wm-destroy.md).
+The following example shows how to prompt for user confirmation before destroying a window. In response to [**WM\_CLOSE**](wm-close.md), a dialog box is displayed that contains **Yes**, **No**, and **Cancel** buttons. If the user clicks **Yes**, [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) is called; otherwise, the window is not destroyed. As the application is handling the [**WM\_CLOSE**](wm-close.md) message, `0` is returned in all cases. Because the window being destroyed is a main window, the example calls [**PostQuitMessage**](/windows/win32/api/winuser/nf-winuser-postquitmessage) in response to [**WM\_DESTROY**](wm-destroy.md).
 
 
 ```
@@ -168,8 +168,7 @@ case WM_CLOSE:
  
     if (MessageBox(hwnd, szConfirm, szAppName, MB_YESNOCANCEL) == IDYES) 
         DestroyWindow(hwndMain); 
-    else 
-        return 0; 
+    return 0; 
  
 case WM_DESTROY: 
  
@@ -221,6 +220,18 @@ RedrawWindow(hwnd,
 
 In order to use layered child windows, the application has to declare itself Windows 8-aware in the manifest.
 
+For windows 10/11, one can include this compatibility snippet in its `app.manifest` to make it Windows 10-aware :
+```
+...
+<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Windows 10 GUID -->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+    </application>
+</compatibility>
+...
+```
+More about modifying app manifest can be read here :  [Application manifests](/windows/win32/sbscs/application-manifests)
  
 
  

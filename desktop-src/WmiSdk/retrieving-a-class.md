@@ -1,5 +1,5 @@
 ---
-description: The first type of object you can retrieve is a WMI class.
+description: Provides a list of steps on how to retrieve a WMI class definition using Powershell, C#, VBScript, and C++.
 ms.assetid: cfe4bcca-692e-45cd-a840-93ebfe4ae267
 ms.tgt_platform: multiple
 title: Retrieving a WMI Class
@@ -15,7 +15,7 @@ PowerShell uses a standard query to retrieve class definitions, using the **meta
 
 **To retrieve a class definition in PowerShell**
 
--   Use the [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) with a query to **meta\_class**, with the WHERE clause containing the name of the class you with to retrieve.
+-   Use the [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject) with a query to **meta\_class**, with the WHERE clause containing the name of the class you with to retrieve.
 
     ```PowerShell
     Get-WmiObject -query "SELECT * FROM meta_class WHERE __class = 'Win32_LogicalDisk'"
@@ -23,7 +23,7 @@ PowerShell uses a standard query to retrieve class definitions, using the **meta
 
     
 
-    [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1) is the standard cmdlet PowerShell uses to retrieve class and instance information from WMI. The **meta\_class** class defines the query as a schema query. Without the **meta\_class** class, this query would return all instances of Win32\_LogicalDisk. For more information about querying WMI, see [SELECT Statement for Schema Queries](select-statement-for-schema-queries.md).
+    [Get-WmiObject](/powershell/module/microsoft.powershell.management/get-wmiobject) is the standard cmdlet PowerShell uses to retrieve class and instance information from WMI. The **meta\_class** class defines the query as a schema query. Without the **meta\_class** class, this query would return all instances of Win32\_LogicalDisk. For more information about querying WMI, see [SELECT Statement for Schema Queries](select-statement-for-schema-queries.md).
 
 The current process for retrieving a WMI definition in C# is to use **CIMInstance** class.
 

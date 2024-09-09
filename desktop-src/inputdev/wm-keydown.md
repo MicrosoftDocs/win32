@@ -114,35 +114,12 @@ Applications must pass *wParam* to [**TranslateMessage**](/windows/desktop/api/w
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
-
-
 ## See also
 
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
-</dt> <dt>
-
-[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
-</dt> <dt>
-
-[**WM\_CHAR**](wm-char.md)
-</dt> <dt>
-
-[**WM\_KEYUP**](wm-keyup.md)
-</dt> <dt>
-
-[**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
-
- 
-
+- [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+- [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
+- [**WM\_CHAR**](wm-char.md)
+- [**WM\_KEYUP**](wm-keyup.md)
+- [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)

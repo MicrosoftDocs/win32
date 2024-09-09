@@ -38,7 +38,7 @@ DWORD. The **ConfigurationType** DWORD is stored under the **Resource UUID** key
 
 **HKLM\\SOFTWARE\\Microsoft\\Rpc\\RpcProxy\\LBSConfiguration\\XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\\ServerFarm**
 
-REG\_SZ. The **ServerFarm** registry value contains a semicolon delimitated list of server identifiers. The format for the server identifiers is:
+REG\_SZ. The **ServerFarm** registry value contains a semicolon delimited list of server identifiers. The format for the server identifiers is:
 
 "ServerID1,ServerPort1,LBSPort1,\[LBSPort2, …LBSPortN\];"
 

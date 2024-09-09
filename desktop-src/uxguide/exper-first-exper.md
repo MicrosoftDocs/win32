@@ -70,7 +70,7 @@ If so, consider presenting the tasks and settings during the first use experienc
 
 In the ideal first experience, users install your program (or even just start it if it doesn't require installation) and use it productively immediately without answering a bunch of questions or learning a bunch of things.
 
-This ideal is obtainable for most programs, so you should strive for this ideal experience whenever you can. However, this goal is often not obtainable for programs that require significant system integration, have many optional features, or have privacy implications. For example, if your program has features that might reveal personal information to untrusted parties, the tenets of [trustworthy computing](https://www.microsoft.com/mscorp/twc/default.mspx) require that you obtain user consent before enabling these features.
+This ideal is obtainable for most programs, so you should strive for this ideal experience whenever you can. However, this goal is often not obtainable for programs that require significant system integration, have many optional features, or have privacy implications. For example, if your program has features that might reveal personal information to untrusted parties, the tenets of trustworthy computing require that you obtain user consent before enabling these features.
 
 ### Questions aren't choices
 

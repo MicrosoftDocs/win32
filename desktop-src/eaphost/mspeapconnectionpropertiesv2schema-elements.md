@@ -15,30 +15,16 @@ api_location:
 
 The mspeapconnectionpropertiesv2 schema consists of the following schema elements.
 
--   [**AcceptServerName (PeapExtensionsType)**](mspeapconnectionpropertiesv2-acceptservername-peapextensionstype-element.md)
--   [**AnonymousUserName (IdentityPrivacyParameters)**](mspeapconnectionpropertiesv2-anonymoususername-identityprivacyparameters-element.md)
--   [**EnableIdentityPrivacy (IdentityPrivacyParameters)**](mspeapconnectionpropertiesv2-enableidentityprivacy-identityprivacyparameters-element.md)
--   [**IdentityPrivacy (PeapExtensionsType)**](mspeapconnectionpropertiesv2-identityprivacy-peapextensionstype-element.md)
--   [**PeapExtensionsV2 (PeapExtensionsType)**](mspeapconnectionpropertiesv2-peapextensionsv2-peapextensionstype-element.md)
--   [**PerformServerValidation (PeapExtensionsType)**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md)
+- [**AcceptServerName (PeapExtensionsType)**](mspeapconnectionpropertiesv2-acceptservername-peapextensionstype-element.md)
+- [**AnonymousUserName (IdentityPrivacyParameters)**](mspeapconnectionpropertiesv2-anonymoususername-identityprivacyparameters-element.md)
+- [**EnableIdentityPrivacy (IdentityPrivacyParameters)**](mspeapconnectionpropertiesv2-enableidentityprivacy-identityprivacyparameters-element.md)
+- [**IdentityPrivacy (PeapExtensionsType)**](mspeapconnectionpropertiesv2-identityprivacy-peapextensionstype-element.md)
+- [**PeapExtensionsV2 (PeapExtensionsType)**](mspeapconnectionpropertiesv2-peapextensionsv2-peapextensionstype-element.md)
+- [**PerformServerValidation (PeapExtensionsType)**](mspeapconnectionpropertiesv2-performservervalidation-peapextensionstype-element.md)
 
-## Related topics
+## See also
 
-<dl> <dt>
-
-[EAPHost and Legacy Schema](eaphost-schemas.md)
-</dt> <dt>
-
-[mspeapconnectionpropertiesv1 Schema](mspeapconnectionpropertiesv1schema-schema.md)
-</dt> <dt>
-
-[mspeapconnectionpropertiesv2 Schema](mspeapconnectionpropertiesv2schema-schema.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [EAPHost and Legacy Schema](eaphost-schemas.md)
+- [mspeapconnectionpropertiesv1 Schema](mspeapconnectionpropertiesv1schema-schema.md)
+- [mspeapconnectionpropertiesv2 Schema](mspeapconnectionpropertiesv2schema-schema.md)
+- [mspeapconnectionpropertiesv3 Schema](mspeapconnectionpropertiesv3schema-schema.md)

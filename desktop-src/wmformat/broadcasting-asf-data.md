@@ -10,10 +10,13 @@ keywords:
 - Advanced Systems Format (ASF),sending data
 - ASF (Advanced Systems Format),sending data
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Broadcasting ASF Data
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This topic describes how to send ASF data across a network using the HTTP protocol. Sending files over a network requires the use of the writer object, so you should have a general understanding of this object before reading this topic. For more information, see [Writing ASF Files](writing-asf-files.md).
 

@@ -23,10 +23,13 @@ keywords:
 - interlaced video,decoding
 - interlaced video,field order
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # To Use Interlaced Video
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 There are two basic types of video encoding: progressive and interlaced. In progressive encoding, each frame is an encoded representation of one frame of video. In interlaced encoding, each frame is an encoded representation of either all of the even rows of pixels in the video, or all of the odd rows. Each interlaced frame is called a *field*, so there are odd fields and even fields. An interlaced display (like a television) renders the fields one at a time, alternating fields. A progressive display renders frames all at once.
 

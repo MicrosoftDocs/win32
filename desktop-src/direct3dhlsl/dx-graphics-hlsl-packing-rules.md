@@ -1,9 +1,9 @@
 ---
-title: Packing Rules for Constant Variables
+title: Packing rules for constant variables
 description: Packing rules dictate how tightly data can be arranged when it is stored.
 ms.assetid: 5c399342-06e1-47d2-8ecf-e093ed04be50
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 01/31/2024
 topic_type: 
 - kbArticle
 api_name: 
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# Packing Rules for Constant Variables
+# Packing rules for constant variables
 
 Packing rules dictate how tightly data can be arranged when it is stored. HLSL implements packing rules for VS output data, GS input and output data, and PS input and output data. (Data is not packed for VS inputs because the IA stage cannot unpack data.)
 
@@ -22,7 +22,6 @@ Each structure forces the next variable to start on the next four-component vect
 Arrays are not packed in HLSL by default. To avoid forcing the shader to take on ALU overhead for offset computations, every element in an array is stored in a four-component vector. Note that you can achieve packing for arrays (and incur the addressing calculations) by using casting.
 
 Following are examples of structures and their corresponding packed sizes (given: a **float1** occupies 4 bytes):
-
 
 ```
 //  2 x 16byte elements
@@ -123,41 +122,25 @@ cbuffer IE
 };
 ```
 
+## More aggressive packing
 
-
-## More Aggressive Packing
-
-You could pack an array more aggressively. For instance, given an array of float variables:
-
+You can pack an array more aggressively; here's an example. Say that you want to access an array like this from the constant buffer:
 
 ```
-float4 array[16];
+// Original array: not efficiently packed.
+float2 myArray[32];
 ```
 
-
-
-You could choose to pack it like this, without any spaces in the array:
-
+In the constant buffer, the declaration above will consume 32 4-element vectors. That's because each array element will be placed at the beginning of one of these vectors. Now, if you want these values packed tightly (without any spaces) in the constant buffer, and you still want to access the array in the shader as a `float2[32]` array, then you could write this instead:
 
 ```
-static float2 aggressivePackArray[32] = (float2[32])array;  
+float4 packedArrayInCBuffer[16];
+// shader uses myArray here:
+static const float2 myArray[32] = (float2[32])packedArrayInCBuffer;
 ```
 
-
-
-The tighter packing is a trade off versus the need for additional shader instructions for address computation.
+The tighter packing is a tradeoff versus the need for additional shader instructions for address computation.
 
 ## Related topics
 
-<dl> <dt>
-
-[Shader Model 4](dx-graphics-hlsl-sm4.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Shader Model 4](dx-graphics-hlsl-sm4.md)

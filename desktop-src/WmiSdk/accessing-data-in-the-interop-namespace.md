@@ -19,7 +19,7 @@ Windows PowerShell provides a simple mechanism to traverse through the appropria
 
 ## Enumerating profiles in the root/interop namespace
 
-The following Windows PowerShell command enumerates the Distributed Management Task Force ([DMTF](https://www.dmtf.org/standards/wsman))-supported profiles on a Windows 7 computer:
+The following Windows PowerShell command enumerates the Distributed Management Task Force ([DMTF](https://www.dmtf.org/standards/ws-man))-supported profiles on a Windows 7 computer:
 
 
 ```PowerShell

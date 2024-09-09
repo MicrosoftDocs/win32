@@ -38,7 +38,7 @@ This message is processed only by multiline edit controls. You can send this mes
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure that specifies the new dimensions of the rectangle. If this parameter is **NULL**, the formatting rectangle is set to its default values.
+A pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure that specifies the new dimensions of the rectangle. If this parameter is **NULL**, the formatting rectangle is set to its default values.
 
 </dd> </dl>
 
@@ -48,7 +48,7 @@ This message does not return a value.
 
 ## Remarks
 
-Setting *lParam* to **NULL** has no effect if a touch device is installed, or if **EM\_SETRECT** is sent from a thread that has a hook installed (see [**SetWindowsHookEx**](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa)). In these cases, *lParam* should contain a valid pointer to a [**RECT**](/previous-versions//dd162897(v=vs.85)) structure.
+Setting *lParam* to **NULL** has no effect if a touch device is installed, or if **EM\_SETRECT** is sent from a thread that has a hook installed (see [**SetWindowsHookEx**](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa)). In these cases, *lParam* should contain a valid pointer to a [**RECT**](/windows/win32/api/windef/ns-windef-rect) structure.
 
 The **EM\_SETRECT** message causes the text of the edit control to be redrawn. To change the size of the formatting rectangle without redrawing the text, use the [**EM\_SETRECTNP**](em-setrectnp.md) message.
 
@@ -88,7 +88,7 @@ If the edit control contains a border, the formatting rectangle is reduced by th
 **Other Resources**
 </dt> <dt>
 
-[**RECT**](/previous-versions//dd162897(v=vs.85))
+[**RECT**](/windows/win32/api/windef/ns-windef-rect)
 </dt> </dl>
 
  

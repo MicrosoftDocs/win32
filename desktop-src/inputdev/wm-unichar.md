@@ -91,25 +91,8 @@ For enhanced 101- and 102-key keyboards, extended keys are the right ALT and the
 
 ## See also
 
-<dl> <dt>
-
-**Reference**
-</dt> <dt>
-
-[**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
-</dt> <dt>
-
-[**WM\_CHAR**](wm-char.md)
-</dt> <dt>
-
-[**WM\_KEYDOWN**](wm-keydown.md)
-</dt> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Keyboard Input](keyboard-input.md)
-</dt> </dl>
-
- 
-
+- [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemessage)
+- [**WM\_CHAR**](wm-char.md)
+- [**WM\_KEYDOWN**](wm-keydown.md)
+- [Keyboard Input](keyboard-input.md)
+- [About Keyboard Input](about-keyboard-input.md)

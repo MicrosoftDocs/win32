@@ -46,6 +46,3 @@ Sets the amount of blur to be applied to the alpha channel of the image.
 [**IDCompositionShadowEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionshadoweffect)
 </dt> </dl>
 
-�
-
-�

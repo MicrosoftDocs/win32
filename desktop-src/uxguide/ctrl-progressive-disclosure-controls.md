@@ -13,7 +13,7 @@ ms.date: 10/20/2020
 
 With a progressive disclosure control, users can show or hide additional information including data, options, or commands. Progressive disclosure promotes simplicity by focusing on the essential, yet revealing additional detail as needed.
 
-![screen shot of progressive disclosure controls](images/progressive-disclosure-controls-image1.png)
+![screen shot of progressive disclosure controls ](images/progressive-disclosure-controls-image1.png)
 
 Examples of progressive disclosure controls.
 
@@ -28,9 +28,9 @@ To decide, consider these questions:
 
 -   **Do users need to see the information in some but not all scenarios, or some but not all of the time?** If so, displaying the information using progressive disclosure simplifies the baseline experience, yet allows users to access the information easily.
 
-    ![Screenshot that shows the security center status display.](images/progressive-disclosure-controls-image2.png)
+    ![screen shot that shows the Windows Security app status display ](images/progressive-disclosure-controls-image2.png)
 
-    In this example, Security Center displays the important security status all the time, but uses progressive disclosure to display details on demand.
+    In this example, the Windows Security app displays the important security status all the time, but uses progressive disclosure to display details on demand.
 
 -   **If the information is displayed by default, are users ever likely to choose to hide it?** Are there scenarios where users will need more space? Are users sufficiently motivated to customize the user interface (UI)? If not, display the information without using progressive disclosure.
 
@@ -121,7 +121,7 @@ Chevrons are used in the following ways:
 
 |      Usage                                                                                                                                                          |    Example                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **In-place UI**<br/> the associated object receives input focus and the single chevron is activated with the space bar.<br/>                       | ![screen shot of security center status display ](images/progressive-disclosure-controls-image11.png)<br/> In these examples, the in-place single chevrons are positioned to the right of their associated control.<br/>                                                                            |
+| **In-place UI**<br/> the associated object receives input focus and the single chevron is activated with the space bar.<br/>                       | ![screen shot of the Windows Security app status display ](images/progressive-disclosure-controls-image11.png)<br/> In these examples, the in-place single chevrons are positioned to the right of their associated control.<br/>                                                                            |
 | **Command buttons with external labels**<br/> the command button receives input focus and the single chevron is activated with the space bar.<br/> | ![screen shot of chevron with 'more options' label ](images/progressive-disclosure-controls-image12.png)<br/> In this example, the single chevron button is labeled and positioned to the left of the label. With this pattern, the button would be difficult to understand without its label.<br/> |
 | **Command buttons with internal labels**<br/> the command button receives input focus and is activated with the space bar.<br/>                    | ![screen shot of 'more' and 'less' command buttons ](images/progressive-disclosure-controls-image13.png)<br/> In these examples, regular command buttons have the double chevron positioned to suggest their meaning.<br/>                                                                          |
 
@@ -357,4 +357,3 @@ Examples:
 -   (For a chevron) To determine the file size, click **Details**.
 -   (For an arrow) To see all the options, click the arrow next to the **Search** box.
 -   (For plus/minus) To view your picture, click **Pictures**.
-

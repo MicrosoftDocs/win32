@@ -1294,10 +1294,10 @@ Example from [Windows classic samples](https://github.com/microsoft/Windows-clas
 <tr class="odd">
 <td ><span id="FOLDERID_Games"></span><span id="folderid_games"></span><span id="FOLDERID_GAMES"></span><dl> <dt><strong>FOLDERID_Games</strong></dt> </dl></td>
 <td ><div class="alert">
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 This FOLDERID is deprecated in Windows 10, version 1803 and later versions. In these versions, it returns <strong>0x80070057 - E_INVALIDARG</strong>
-</blockquote>
+
 </div>
 <div>
  

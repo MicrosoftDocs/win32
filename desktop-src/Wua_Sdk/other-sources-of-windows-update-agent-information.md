@@ -14,43 +14,26 @@ The [Windows Update Agent API](portal-client.md)SDK contains the most complete a
 
 The following resources describe how to deploy and administer Windows Server Update Services and WUA:
 
--   [Windows Server Update Services](/documentation/)
+-   [Windows Server Update Services](/docs/)
 
     You can download the Windows Server Update Services SDK and review other documents that describe how to install, deploy, and maintain Windows Update Services.
 
--   [MSDN Download and Code Center](/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget)
+-   [Subscribe to SDK assembly updates using NuGet](/power-apps/developer/data-platform/org-service/subscribe-sdk-assembly-updates-using-nuget)
 
-    You can download updates to the WUA SDK samples, headers, and libraries. Downloads in the MSDN Download and Code Center are organized by topic. You can also find downloads on MSDN, the Microsoft Developer Network, by using the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=83468) search tool.
+    You can download updates to the WUA SDK samples, headers, and libraries. You can also find downloads on MSDN, the Microsoft Developer Network, by using the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=83468) search tool.
 
-## Windows Update Agent (WUA) Newsgroups
 
-You can read and post information to a newsgroup that discusses WUA or search archived newsgroup posts.
+## TechNet Articles and Newsgroups
 
-MSDN provides access to the following public newsgroup:
+You can search the Microsoft Q&A site for articles and newsgroups about WUA:
 
--   [MSDN Newsgroups](https://go.microsoft.com/fwlink/p/?linkid=83943)
-
-    This newsgroup is oriented toward developers with questions about application and infrastructure development.
-
-## Windows Technical Chats
-
-You can participate in live MSDN technical chat sessions:
-
--   [Technical Chats](https://go.microsoft.com/fwlink/p/?linkid=83854)
-
-    Experts from Microsoft answer questions about WUA.
-
-<!-- -->
-
--   [Archive of MSDN Windows Chats](https://go.microsoft.com/fwlink/p/?linkid=84300)
-
-    Transcripts of previous chats are archived for you to read.
+-  [Microsoft Q&A](/answers/questions/)
 
 ## Knowledge Base Articles
 
 You can search the Microsoft Knowledge Base for articles about WUA:
 
--   [Search the Knowledge Base](https://go.microsoft.com/fwlink/p/?linkid=83983)
+-   [Search the Knowledge Base](https://support.microsoft.com)
 
     Search for Windows Update Agent.
 

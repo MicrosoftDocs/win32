@@ -60,7 +60,7 @@ int _tmain(VOID)
 { 
    DWORD i, dwWait, cbRet, dwErr; 
    BOOL fSuccess; 
-   LPTSTR lpszPipename = TEXT("\\\\.\\pipe\\mynamedpipe"); 
+   LPCTSTR lpszPipename = TEXT("\\\\.\\pipe\\mynamedpipe"); 
  
 // The initial loop creates several instances of a named pipe 
 // along with an event object for each instance.  An 
@@ -85,6 +85,8 @@ int _tmain(VOID)
       }
  
       Pipe[i].oOverlap.hEvent = hEvents[i]; 
+      Pipe[i].oOverlap.Offset = 0;
+      Pipe[i].oOverlap.OffsetHigh = 0;
  
       Pipe[i].hPipeInst = CreateNamedPipe( 
          lpszPipename,            // pipe name 

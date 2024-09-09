@@ -21,7 +21,7 @@ virtual HRESULT STDMETHODCALLTYPE GetPropertySize(
 
 ### property
 
-Type: **[DXCoreAdapterProperty](./ne-dxcore_interface-dxcoreadapterproperty.md)**
+Type: **[DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty)**
 
 The type of the property whose size, in bytes, you wish to retrieve.
 

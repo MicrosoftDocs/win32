@@ -11,10 +11,13 @@ keywords:
 - ICDrawFlush macro
 - ICDrawEnd macro
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Drawing Data
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 The following example uses the [**ICDraw**](/windows/desktop/api/Vfw/nf-vfw-icdraw) function and the [**ICDrawStart**](/windows/desktop/api/Vfw/nf-vfw-icdrawstart), [**ICDrawStop**](/windows/desktop/api/Vfw/nf-vfw-icdrawstop), [**ICDrawFlush**](/windows/desktop/api/Vfw/nf-vfw-icdrawflush), and [**ICDrawEnd**](/windows/desktop/api/Vfw/nf-vfw-icdrawend) macros to draw data on the screen.
 

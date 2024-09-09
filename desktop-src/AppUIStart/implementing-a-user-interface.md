@@ -48,7 +48,7 @@ When you implement the user interface for an application, consider the following
 
 -   Support for standard user input devices
 
-    Most Windows applications need to support user input through the keyboard and mouse. The ability to navigate and access all application functionality through the keyboard alone is especially important for users who are vision-impaired or have mobility issues. For more information, see [User Input](../inputdev/user-input.md) and the [Engineering Software for Accessibility eBook](https://www.microsoft.com/download/details.aspx?id=19262).
+    Most Windows applications need to support user input through the keyboard and mouse. The ability to navigate and access all application functionality through the keyboard alone is especially important for users with visual impairment or have mobility issues. For more information, see [User Input](../inputdev/user-input.md) and the [Engineering Software for Accessibility eBook](https://www.microsoft.com/download/details.aspx?id=19262).
 
 -   Visual styles, animations, and visual effects
 

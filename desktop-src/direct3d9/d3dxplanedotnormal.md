@@ -4,19 +4,22 @@ ms.assetid: 7aba1e94-6531-4c07-83b0-6100805e8bbd
 title: D3DXPlaneDotNormal function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXPlaneDotNormal
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXPlaneDotNormal function
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Computes the dot product of a plane and a 3D vector. The w parameter of the vector is assumed to be 0.
 

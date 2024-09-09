@@ -1,12 +1,12 @@
 ---
+title: Registry files
 description: Applications can save part of the registry in a file and then load the contents of the file back into the registry.
 ms.assetid: a71a564d-934a-46e8-b555-989a6fa82337
-title: Registry Files
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Registry Files
+# Registry files
 
 Applications can save part of the registry in a file and then load the contents of the file back into the registry. A registry file is useful when a large amount of data is being manipulated, when many entries are being made in the registry, or when the data is transitory and must be loaded and then unloaded again. Applications that back up and restore parts of the registry are likely to use registry files.
 

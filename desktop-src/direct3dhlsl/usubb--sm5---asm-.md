@@ -12,7 +12,7 @@ Unsigned integer subtract with borrow.
 
 
 
-| usubb dest0\[.mask\], dest1\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
+| usubb dst0\[.mask\], dst1\[.mask\], src0\[.swizzle\], src1\[.swizzle\] |
 |--------------------------------------------------------------------------|
 
 
@@ -23,8 +23,8 @@ Unsigned integer subtract with borrow.
 
 | Item                                                               | Description                                                                                       |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| <span id="dest0"></span><span id="DEST0"></span>*dest0*<br/> | \[in\] Contains the LSAB results of the instruction.<br/>                                   |
-| <span id="dest1"></span><span id="DEST1"></span>*dest1*<br/> | \[in\] The corresponding component of *dest0* that specifies if a borrow was produced.<br/> |
+| <span id="dst0"></span><span id="dst0"></span>*dst0*<br/> | \[in\] Contains the LSAB results of the instruction.<br/>                                   |
+| <span id="dst1"></span><span id="dst1"></span>*dst1*<br/> | \[in\] The corresponding component of *dst0* that specifies if a borrow was produced.<br/> |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/>    | \[in\] The value from which to subtract.<br/>                                               |
 | <span id="src1"></span><span id="SRC1"></span>*src1*<br/>    | \[in\] The amount to subtract from *src0*.<br/>                                             |
 
@@ -34,11 +34,11 @@ Unsigned integer subtract with borrow.
 
 ## Remarks
 
-This instruction performs a component-wise unsigned subtract of 32-bit operands *src1* from *src0*, placing the LSB part of the 32-bit result in *dest0*.
+This instruction performs a component-wise unsigned subtract of 32-bit operands *src1* from *src0*, placing the LSB part of the 32-bit result in *dst0*.
 
-The corresponding component in *dest1* is written with 1 if a borrow is produced, 0 otherwise.
+The corresponding component in *dst1* is written with 1 if a borrow is produced, 0 otherwise.
 
-*dest1* can be NULL if the borrow is not needed.
+*dst1* can be NULL if the borrow is not needed.
 
 This instruction applies to the following shader stages:
 

@@ -45,13 +45,5 @@ For additional information on the Native Wifi API on older versions of Windows, 
 
 <dl> <dt>
 
-[Wireless Networking](https://www.microsoft.com/technet/itsolutions/network/wifi/default.mspx)
+[Wireless Networking](/windows/win32/wireless-networking)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

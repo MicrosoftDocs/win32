@@ -4,19 +4,22 @@ ms.assetid: 1f66c3b4-2f02-4993-80c6-c484180c2459
 title: D3DXColorAdjustSaturation function (D3dx9math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXColorAdjustSaturation
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - d3dx9.lib
 - d3dx9.dll
 ---
 
 # D3DXColorAdjustSaturation function (D3dx9math.h)
+
+> [!Note]
+> The D3DX utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Adjusts the saturation value of a color.
 
@@ -83,7 +86,7 @@ This function interpolates the red, green, and blue color components of a [**D3D
     // Approximate values for each component's contribution to luminance.
     // Based upon the NTSC standard described in ITU-R Recommendation BT.709.
     FLOAT grey = pC->r * 0.2125f + pC->g * 0.7154f + pC->b * 0.0721f;
-    
+
     pOut->r = grey + s * (pC->r - grey);
 ```
 

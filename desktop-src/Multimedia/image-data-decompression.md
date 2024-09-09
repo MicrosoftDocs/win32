@@ -7,10 +7,13 @@ keywords:
 - VCM (video compression manager),image-data decompression
 - ICDecompressEx functions
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Image-Data Decompression
+
+\[The feature associated with this page, [Video Compression Manager](/windows/win32/multimedia/video-compression-manager), is a legacy feature. Microsoft strongly recommends that new code does not use this feature.\]
 
 Your application uses a series of [**ICDecompressEx**](/windows/desktop/api/Vfw/nf-vfw-icdecompressex) functions to control the decompressor. The functions can help you perform the following tasks:
 

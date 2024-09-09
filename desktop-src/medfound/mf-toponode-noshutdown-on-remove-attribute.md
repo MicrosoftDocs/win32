@@ -18,7 +18,7 @@ Treat as a Boolean value.
 
 ## Remarks
 
-This attribute applies to the following types of toplogy node:
+This attribute applies to the following types of topology node:
 
 -   Output nodes
 -   Any transform node that contains an *asynchronous* Media Foundation transform (MFT).

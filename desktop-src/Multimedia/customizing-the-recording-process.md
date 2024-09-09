@@ -6,10 +6,13 @@ keywords:
 - MCIWndCreate function
 - MCIWndNew macro
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Customizing the Recording Process
+
+\[The feature associated with this page, [MCIWnd Window Class](/windows/win32/multimedia/mciwnd-window-class), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer). **MediaPlayer** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** instead of **MCIWnd Window Class**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can customize the recording process, taking complete control of most everything — from creating the MCIWnd window to saving the recorded information in a file. The following example queries the MCI device for recording and saving capabilities, and includes menu commands to record at the beginning or end of the content.
 

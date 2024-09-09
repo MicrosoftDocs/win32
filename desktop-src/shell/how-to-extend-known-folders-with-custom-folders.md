@@ -30,7 +30,7 @@ Give consideration to why you want your folder to be included in the known folde
 
 <dl> <dt>
 
-[Known Folders Sample](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
+[Known Folders Sample](/windows/win32/shell/samples-knownfolders)
 </dt> </dl>
 
  

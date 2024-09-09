@@ -9,10 +9,13 @@ keywords:
 - mixers,Windows Vista
 - Windows Vista audio mixers
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Audio Mixers in Windows Vista
+
+\[The feature associated with this page, [Audio Mixers](/windows/win32/multimedia/audio-mixers), is a legacy feature. It has been superseded by [Volume Controls](/windows/win32/coreaudio/volume-controls). **Volume Controls** has been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Volume Controls** instead of **Audio Mixers**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Starting in Windows Vista, some mixer controls are implemented in software rather than hardware. For example, the volume controls are implemented using the Windows audio session API (WASAPI). These controls do not directly affect hardware settings. In addition, they are associated with a process-specific audio session, so changes affect the calling application but do not affect other applications.
 

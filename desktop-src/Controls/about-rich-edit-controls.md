@@ -176,36 +176,33 @@ Microsoft Rich Edit 3.0 is a single, scalable, world-wide DLL that offers high p
 
 Microsoft Rich Edit 3.0 includes the following features in addition to the features provided by [Rich Edit Version 2.0](#rich-edit-version-20).
 
-
-
-
-| 
-|
-| Zoom | The zoom factor is given by a ratio. | 
-| Paragraph numbering (single-level) | Numeric, upper and lower alphabetic, or Roman numeral. | 
-| Simple tables | Deleting and inserting rows is possible, but not resizing nor wrapping inside cells. With advanced typography turned on (see <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>), Microsoft Rich Edit 3.0 can align columns centered or flush right, and include decimals. Cells are simulated by tabs, so text tabs and carriage returns are replaced by blanks. | 
-| Normal and heading styles | Built-in normal style and heading styles 1 through 9 are supported by the <a href="em-setparaformat.md"><strong>EM_SETPARAFORMAT</strong></a> and <a href="text-object-model.md">Text Object Model</a> (TOM) interfaces. | 
-| More underline types | Dashed, dash-dot, dash-dot-dot, and dot underlining has been added. | 
-| Underline coloring | Underlined text can be tagged with one of 15 document choices for underline colors. | 
+|    Feature                                           |    Description                                                                                                                                                                                                                                                                                                                                                                                  |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Zoom | The zoom factor is given by a ratio.|
+| Paragraph numbering (single-level) | Numeric, upper and lower alphabetic, or Roman numeral.|
+| Simple tables | Deleting and inserting rows is possible, but not resizing nor wrapping inside cells. With advanced typography turned on (see <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>), Microsoft Rich Edit 3.0 can align columns centered or flush right, and include decimals. Cells are simulated by tabs, so text tabs and carriage returns are replaced by blanks. |
+| Normal and heading styles | Built-in normal style and heading styles 1 through 9 are supported by the <a href="em-setparaformat.md"><strong>EM_SETPARAFORMAT</strong></a> and <a href="text-object-model.md">Text Object Model</a> (TOM) interfaces. |
+| More underline types | Dashed, dash-dot, dash-dot-dot, and dot underlining has been added. |
+| Underline coloring | Underlined text can be tagged with one of 15 document choices for underline colors. |
 | Hidden text | Marked by CHARFORMAT2 attribute. Handy for roundtripping (writing out to a file what was read in) of information that ordinarily should not be displayed. | 
-| More default hot keys | These hot keys function the same as those in Word. For example, European accent dead keys (U.S. keyboards only). Number hot key (CTRL+L) cycles through numbering options available, starting with bullet. | 
-| HexToUnicode IME | Allows a user to convert between hexadecimal and Unicode by using hot keys. | 
-| Smart quotes | This feature is toggled on and off by CTRL+ALT+' for U.S. keyboards. | 
-| Soft hyphens | For plain text, use 0xAD. For RTF, use \-. | 
-| Italics cursor | In addition, the mouse cursor changes to a hand when over URLs. | 
-| Advanced typography option | Microsoft Rich Edit 3.0 can use an advanced typography option for line breaking and display (see <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>). This elegant option was added primarily to facilitate handling complex scripts (bidirectional, Indic, and Thai). In addition, a number of improvements occur for simple scripts. Examples are:<ul><li>Center, right, decimal tabs</li><li>Fully justified text</li><li>Underline averaging, which provides a uniform underline even when adjacent text runs have different font sizes.</li></ul> | 
-| Complex script support | Microsoft Rich Edit 3.0 supports bidirectional (text with Arabic and/or Hebrew mixed with other scripts), Indic (Indian scripts like Devangari), and Thai text. For support of these complex scripts, the advanced typography and Uniscribe components are used. | 
-| Font binding | Microsoft Rich Edit 3.0 will automatically choose an appropriate font for characters that clearly do not belong to the current character set stamp. This is done by assigning character sets to text runs and associating fonts with those character sets. For more information, see <a href="using-rich-edit-controls.md">Font Binding</a>. | 
-| Plain-text read/write options specific to character sets | This allows reading a file using one character set, and writing with a different character set. | 
-| UTF-8 RTF | This is recommended for cutting, copying, and pasting operations. This file format is more compact than ordinary RTF, faster, and compatible with Unicode. | 
-| Microsoft Office 9 IME support (IME98) | This more powerful IME capability has been separated into an independent module. Features include:<ul><li>Reconversion In the earlier versions, the user needed to delete the final string first and then type in a new string to get to the correct candidate. This new feature enables the user to convert the final string back to composition mode, thereby allowing easy selection of a different candidate string.<br /></li><li>Document feed This feature provides IME98 with the text for the current paragraph, which helps IME98 perform more accurate conversion during typing.<br /></li><li>Mouse operation This feature provides better control over the candidate and UI windows during typing.<br /></li><li>Caret position This feature provides the current caret and line information, which IME98 uses to position UI windows (for example, a candidate list).<br /></li></ul> | 
-| Active Input Method Manager (IMM) support | Users can invoke the Active IMM object, which enables users to enter Asian characters on U.S. systems. | 
-| HexToUnicode support | Users can convert between hexadecimal notation and Unicode by using hot keys. | 
-| More RTF roundtripping | RTF text that is read in from a file will be written back out intact. | 
+| More default hot keys | These hot keys function the same as those in Word. For example, European accent dead keys (U.S. keyboards only). Number hot key (CTRL+L) cycles through numbering options available, starting with bullet. |
+| HexToUnicode IME | Allows a user to convert between hexadecimal and Unicode by using hot keys. |
+| Smart quotes | This feature is toggled on and off by CTRL+ALT+' for U.S. keyboards. |
+| Soft hyphens | For plain text, use 0xAD. For RTF, use \-. |
+| Italics cursor | In addition, the mouse cursor changes to a hand when over URLs. |
+| Advanced typography option | Microsoft Rich Edit 3.0 can use an advanced typography option for line breaking and display (see <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>). This elegant option was added primarily to facilitate handling complex scripts (bidirectional, Indic, and Thai). In addition, a number of improvements occur for simple scripts. Examples are:<ul><li>Center, right, decimal tabs</li><li>Fully justified text</li><li>Underline averaging, which provides a uniform underline even when adjacent text runs have different font sizes.</li></ul>| 
+| Complex script support | Microsoft Rich Edit 3.0 supports bidirectional (text with Arabic and/or Hebrew mixed with other scripts), Indic (Indian scripts like Devangari), and Thai text. For support of these complex scripts, the advanced typography and Uniscribe components are used.| 
+| Font binding | Microsoft Rich Edit 3.0 will automatically choose an appropriate font for characters that clearly do not belong to the current character set stamp. This is done by assigning character sets to text runs and associating fonts with those character sets. For more information, see <a href="using-rich-edit-controls.md">Font Binding</a>.| 
+| Plain-text read/write options specific to character sets | This allows reading a file using one character set, and writing with a different character set. |
+| UTF-8 RTF | This is recommended for cutting, copying, and pasting operations. This file format is more compact than ordinary RTF, faster, and compatible with Unicode. |
+| Microsoft Office 9 IME support (IME98) | This more powerful IME capability has been separated into an independent module. Features include:<ul><li>Reconversion In the earlier versions, the user needed to delete the final string first and then type in a new string to get to the correct candidate. This new feature enables the user to convert the final string back to composition mode, thereby allowing easy selection of a different candidate string.<br /></li><li>Document feed This feature provides IME98 with the text for the current paragraph, which helps IME98 perform more accurate conversion during typing.<br /></li><li>Mouse operation This feature provides better control over the candidate and UI windows during typing.<br /></li><li>Caret position This feature provides the current caret and line information, which IME98 uses to position UI windows (for example, a candidate list).<br /></li></ul>|
+| Active Input Method Manager (IMM) support | Users can invoke the Active IMM object, which enables users to enter Asian characters on U.S. systems.|
+| HexToUnicode support | Users can convert between hexadecimal notation and Unicode by using hot keys.|
+| More RTF roundtripping | RTF text that is read in from a file will be written back out intact. |
 | Improved 1.0 compatibility mode | Microsoft Rich Edit 3.0 can emulate Microsoft Rich Edit 1.0 behavior. For example, it is possible to change between MBCS and Unicode character-position (cp) mappings. | 
-| Increased freeze control | The display can be frozen over multiple API calls and then unfrozen to display the updates. | 
-| Increased undo control | Undo can be suspended and resumed (an IME requirement). | 
-| Increase/decrease font size | Increases or decreases font size to one of six standard values (12, 28, 36, 48, 72, and 80 points). | 
+| Increased freeze control | The display can be frozen over multiple API calls and then unfrozen to display the updates.|
+| Increased undo control | Undo can be suspended and resumed (an IME requirement).|
+| Increase/decrease font size | Increases or decreases font size to one of six standard values (12, 28, 36, 48, 72, and 80 points).|
 
 
 
@@ -219,11 +216,9 @@ The window class for Microsoft Rich Edit 4.1 is MSFTEDIT\_CLASS. New features fo
 Microsoft Rich Edit 4.1 includes the following features in addition to the features provided by [Rich Edit Version 3.0](#rich-edit-version-30).
 
 
-
-
-| 
-|
-| Hyphenation | Hyphenation is supported through the following APIs: <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a>, <a href="em-sethyphenateinfo.md"><strong>EM_SETHYPHENATEINFO</strong></a>, and <a href="em-gethyphenateinfo.md"><strong>EM_GETHYPHENATEINFO</strong></a>. | 
+|    Feature                                           |    Description                                                                                                                                                                                                                                                                                                                                                                                  |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Hyphenation | Hyphenation is supported through the following APIs: <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a>, <a href="em-sethyphenateinfo.md"><strong>EM_SETHYPHENATEINFO</strong></a>, and <a href="em-gethyphenateinfo.md"><strong>EM_GETHYPHENATEINFO</strong></a>. | 
 | Page rotation | Top-to-bottom and bottom-to-top layout is supported through <a href="em-setpagerotate.md"><strong>EM_SETPAGEROTATE</strong></a> and <a href="em-getpagerotate.md"><strong>EM_GETPAGEROTATE</strong></a>. | 
 | Text Services Framework support | <ul><li>To turn on TSF and certain TSF features, use the following styles in <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a>: SES_USECTF, SES_CTFALLOWEMBED, SES_CTFALLOWPROOFING, and SES_CTFALLOWSMARTTAG.</li><li>To set and get the TSF mode bias, use <a href="em-setctfmodebias.md"><strong>EM_SETCTFMODEBIAS</strong></a> and <a href="em-getctfmodebias.md"><strong>EM_GETCTFMODEBIAS</strong></a>.</li><li>To set and get the TSF keyboard status, use <a href="em-setctfopenstatus.md"><strong>EM_SETCTFOPENSTATUS</strong></a> and <a href="em-getctfopenstatus.md"><strong>EM_GETCTFOPENSTATUS</strong></a>.</li></ul> | 
 | Additional IME support | <ul><li>To set and get the IME mode bias, use <a href="em-setimemodebias.md"><strong>EM_SETIMEMODEBIAS</strong></a> and <a href="em-getimemodebias.md"><strong>EM_GETIMEMODEBIAS</strong></a>.</li><li>To get the properties and capabilities of the IME, use <a href="em-getimeproperty.md"><strong>EM_GETIMEPROPERTY</strong></a>.</li><li>To get the IME composition text, use <a href="em-getimecomptext.md"><strong>EM_GETIMECOMPTEXT</strong></a>.</li><li>To determine whether the locale is an East Asian locale, use <a href="em-isime.md"><strong>EM_ISIME</strong></a>.</li></ul> | 

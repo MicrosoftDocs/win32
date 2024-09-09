@@ -7,26 +7,26 @@ keywords:
 - Authentication ADSI
 - ADSI, Using, Authentication
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 08/20/2024
 ---
 
 # Authentication (ADSI)
 
-In ADSI, credentials that consist of a user name and password are used to provide or restrict access to objects in the directory service. The [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) function uses the credentials of the calling thread for authentication. The [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) function and [**IADsOpenDSObject::OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) method can be used to specify credentials other than those of the calling thread. When an object is bound to with an authenticated user, the user is allowed access to the object as supported by the underlying directory service security requirements.
+In ADSI, credentials that consist of a user name and password are used to provide or restrict access to objects in the directory service. The [ADsGetObject](/windows/win32/api/Adshlp/nf-adshlp-adsgetobject) function uses the credentials of the calling thread for authentication. The [ADsOpenObject](/windows/win32/api/Adshlp/nf-adshlp-adsopenobject) function and [IADsOpenDSObject::OpenDSObject](/windows/win32/api/Iads/nf-iads-iadsopendsobject-opendsobject) method can be used to specify credentials other than those of the calling thread. When an object is bound to with an authenticated user, the user is allowed access to the object as supported by the underlying directory service security requirements.
 
-> [!Note]  
-> The [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) function and [**IADsOpenDSObject::OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) method should not be used to validate user credentials.
+> [!NOTE]
+> The [ADsOpenObject](/windows/win32/api/Adshlp/nf-adshlp-adsopenobject) function and [IADsOpenDSObject::OpenDSObject](/windows/win32/api/Iads/nf-iads-iadsopendsobject-opendsobject) method should not be used to validate user credentials.
 
- 
+> [!IMPORTANT]
+> Microsoft does not recommend the username and password flow because the application will be asking a user for their password directly, which is an insecure pattern. In most scenarios, there exist more secure flows that you can use.
 
-The following code example shows how to use the [**OpenDSObject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) method to authenticate a user.
-
+The following code example shows how to use the [OpenDSObject](/windows/win32/api/Iads/nf-iads-iadsopendsobject-opendsobject) method to authenticate a user.
 
 ```VB
 Dim MyNamespace As IADsOpenDSObject
 Dim X
-oUsername="MyUserName"
-oPassword="MyPassword"
+oUsername=GetUsernameFromSecureConfig() ' Get the username from a secure location (not shown)
+oPassword=GetPasswordFromSecureConfig() ' Get the password from a secure location (not shown)
 
 OnError GoTo CleanuUp
  
@@ -42,13 +42,3 @@ CleanUp:
     Set MyNamespace = Nothing
     Set X = Nothing
 ```
-
-
-
- 
-
- 
-
-
-
-

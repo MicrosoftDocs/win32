@@ -163,7 +163,7 @@ typedef struct _FILE_FS_SECTOR_SIZE_INFORMATION {
 
 **Legacy method for Windows 7 and Windows Vista**
 
-Windows Vista and Windows Server 2008 introduced APIs to query for the physical sector size of the attached storage device for AHCI-based storage controllers. With Windows 7 and Windows Server 2008 R2, as of SP1 (or Microsoft Knowledge Base 982018), this support is extended to Storport-based storage controllers. Microsoft has provided a [code sample](/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor) on MSDN detailing how an app can query for the physical sector size of the volume.
+Windows Vista and Windows Server 2008 introduced APIs to query for the physical sector size of the attached storage device for AHCI-based storage controllers. With Windows 7 and Windows Server 2008 R2, as of SP1 (or Microsoft Knowledge Base 982018), this support is extended to Storport-based storage controllers. For a code sample that shows how an app can query for the physical sector size of the volume, see [STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure](/windows/desktop/api/winioctl/ns-winioctl-storage_access_alignment_descriptor).
 
 While the code sample above allows you to get the physical sector size of the volume, you should do some basic sanity checking of the reported physical sector size before using it, as it has been observed that some drivers may not return correctly formatted data:
 

@@ -88,7 +88,7 @@ In summary, be careful to use aligned memory blocks when copying regions that co
 
 ## Compression Algorithms
 
-Block compression techniques in Direct3D break up uncompressed texture data into 4×4 blocks, compress each block, and then store the data. For this reason, textures are expected to be compressed must have texture dimensions that are multiples of 4.
+Block compression techniques in Direct3D break up uncompressed texture data into 4×4 blocks, compress each block, and then store the data. For this reason, textures that are expected to be compressed must have texture dimensions that are multiples of 4.
 
 ![diagram of block compression](images/d3d10-compression-1.png)
 
@@ -151,18 +151,12 @@ color_3 = 0;
 ```
 
 
+**Differences between Direct3D 9 and Direct3D 10:**
 
+This format exists in both Direct3D 9 and 10.
 
-
-
-| 
-|
-| Differences between Direct3D 9 and Direct3D 10:<br /> This format exists in both Direct3D 9 and 10.<br /><ul><li>In Direct3D 9, the BC1 format is called D3DFMT_DXT1.</li><li>In Direct3D 10, the BC1 format is represented by DXGI_FORMAT_BC1_UNORM or DXGI_FORMAT_BC1_UNORM_SRGB.</li></ul> | 
-
-
-
-
- 
+- In **Direct3D 9**, the BC1 format is called **D3DFMT_DXT1**.
+- In **Direct3D 10**, the BC1 format is represented by **DXGI_FORMAT_BC1_UNORM** or **DXGI_FORMAT_BC1_UNORM_SRGB**.
 
 ### BC2
 
@@ -173,14 +167,13 @@ The BC2 format stores colors with the same number of bits and data layout as the
 ![diagram of the layout for bc2 compression](images/d3d10-compression-bc2.png)
 
 
-| 
-|
-| Differences between Direct3D 9 and Direct3D 10:<br /> This format exists in both Direct3D 9 and 10.<br /><ul><li>In Direct3D 9, the BC2 format is called D3DFMT_DXT2 and D3DFMT_DXT3.</li><li>In Direct3D 10, the BC2 format is represented by DXGI_FORMAT_BC2_UNORM or DXGI_FORMAT_BC2_UNORM_SRGB.</li></ul> | 
+**Differences between Direct3D 9 and Direct3D 10:** 
 
+This format exists in both Direct3D 9 and 10. 
 
+* In **Direct3D 9**, the BC2 format is called **D3DFMT_DXT2** and **D3DFMT_DXT3**.
 
-
- 
+* In **Direct3D 10**, the BC2 format is represented by **DXGI_FORMAT_BC2_UNORM** or **DXGI_FORMAT_BC2_UNORM_SRGB**
 
 ### BC3
 
@@ -225,14 +218,11 @@ else
 
 
 
-| 
-|
-| Differences between Direct3D 9 and Direct3D 10:<br /><ul><li>In Direct3D 9, the BC3 format is called D3DFMT_DXT4 and D3DFMT_DXT5.</li><li>In Direct3D 10, the BC3 format is represented by DXGI_FORMAT_BC3_UNORM or DXGI_FORMAT_BC3_UNORM_SRGB.</li></ul> | 
+**Differences between Direct3D 9 and Direct3D 10:** 
 
+- In **Direct3D 9**, the BC3 format is called **D3DFMT_DXT4** and **D3DFMT_DXT5**.
 
-
-
- 
+- In **Direct3D 10**, the BC3 format is represented by **DXGI_FORMAT_BC3_UNORM** or **DXGI_FORMAT_BC3_UNORM_SRGB**. 
 
 ### BC4
 
@@ -245,9 +235,6 @@ The algorithm works on 4×4 blocks of texels. Instead of storing 16 colors, the 
 The algorithm uses the 3-bit indices to look up colors from a color table that contains 8 colors. The first two colors—red\_0 and red\_1—are the minimum and maximum colors. The algorithm calculates the remaining colors using linear interpolation.
 
 The algorithm determines the number of interpolated color values by examining the two reference values. If red\_0 is greater than red\_1, then BC4 interpolates 6 color values; otherwise, it interpolates 4. When BC4 interpolates only 4 color values, it sets two additional color values (0.0f for fully transparent and 1.0f for fully opaque). BC4 compresses the alpha values in the 4×4 texel area by storing the bit code corresponding to the interpolated alpha values that most closely matches the original alpha for a given texel.
-
--   [BC4\_UNORM](/windows)
--   [BC4\_SNORM](/windows)
 
 ### BC4\_UNORM
 

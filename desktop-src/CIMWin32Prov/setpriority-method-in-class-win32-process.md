@@ -141,10 +141,6 @@ Returns one of the values listed in the following list, or a different value to 
 
 To set the priority to Realtime, the caller must have **SeIncreaseBasePriorityPrivilege** (**SE\_INC\_BASE\_PRIORITY\_PRIVILEGE**). Without this privilege, the highest the priority can be set to is High Priority.
 
-## Examples
-
-The [Modify the Priority Of a Running Process](https://Gallery.TechNet.Microsoft.Com/23615ee7-cccb-43c2-b994-6106ce2fc05e) VBScript sample changes the priority of a running instance of Notepad.exe from Normal to Above Normal.
-
 ## Requirements
 
 

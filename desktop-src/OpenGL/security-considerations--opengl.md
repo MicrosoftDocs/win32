@@ -15,13 +15,4 @@ This document provides a list of topics that contain security information. These
 
 ## Related Topics
 
--   [MSDN Security Home Page](https://technet.microsoft.com/security/)
--   [TechNet Security Resources](https://technet.microsoft.com/security/default.aspx)
-
- 
-
- 
-
-
-
-
+- [Microsoft Security Response Center](https://www.microsoft.com/msrc)

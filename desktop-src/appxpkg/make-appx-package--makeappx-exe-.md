@@ -19,7 +19,7 @@ The MakeAppx.exe tool is typically found in operating system version specific lo
 
 - C:\Program Files (x86)\Windows Kits\10\bin\<build number>\<architecture>\makeappx.exe
 
-Where <architecture> = x86, x64, arm, ar64 or chpe. Alternatively, it may be located in:
+Where \<architecture> = x86, x64, arm, ar64 or chpe. Alternatively, it may be located in:
 
 C:\Program Files (x86)\Windows Kits\10\App Certification Kit\makeappx.exe
 

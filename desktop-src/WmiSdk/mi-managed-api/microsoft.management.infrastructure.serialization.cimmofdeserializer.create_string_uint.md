@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: CimMofDeserializer.Create method (String, UInt32)"
+description: Describes the **CimMofDeserializer.Create** method, and provides its syntax, parameters, and return value.
 title: CimMofDeserializer.Create method (String, UInt32) (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.Create method (String, UInt32) (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: M:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.Create(System.String,System.UInt32)
@@ -65,14 +65,14 @@ Public Shared Function Create (
 #### Parameters
 
   - format  
-    Type: [System.String](/dotnet/api/system.string?view=netframework-4.8)
+    Type: [System.String](/dotnet/api/system.string)
     
     The serialization format. Only "MI_XML" is supported.
 
 <!-- end list -->
 
   - flags  
-    Type: [System.UInt32](/dotnet/api/system.uint32?view=netframework-4.8)
+    Type: [System.UInt32](/dotnet/api/system.uint32)
     
     The serialization flags. Must be 0.
 

@@ -53,7 +53,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
     // Create a layer.
     ID2D1Layer *pLayer = NULL;
-    hr = pRT->CreateLayer(NULL, &amp;pLayer);
+    hr = pRT->CreateLayer(NULL, &pLayer);
 
     if (SUCCEEDED(hr))
     {
@@ -78,7 +78,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
         pRT->PopLayer();
     }
 
-    SafeRelease(&amp;pLayer);
+    SafeRelease(&pLayer);
 
     return hr;
 }
@@ -107,7 +107,3 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 [Layers Overview](direct2d-layers-overview.md)
 </dt> </dl>
-
-�
-
-�

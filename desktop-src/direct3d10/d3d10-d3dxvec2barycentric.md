@@ -4,19 +4,22 @@ ms.assetid: 8eceb2c0-26a0-4a7f-9830-85327dcb31ab
 title: D3DXVec2BaryCentric function (D3DX10Math.h)
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - D3DXVec2BaryCentric
-api_type: 
+api_type:
 - LibDef
-api_location: 
+api_location:
 - D3DX10.lib
 - D3DX10.dll
 ---
 
 # D3DXVec2BaryCentric function (D3DX10Math.h)
+
+> [!Note]
+> The D3DX10 utility library is deprecated. We recommend that you use [DirectXMath](../dxmath/pg-xnamath-migration-d3dx.md) instead.
 
 Returns a point in Barycentric coordinates, using the specified 2D vectors.
 

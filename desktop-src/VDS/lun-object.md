@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LUN Object
 
-\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[Beginning with Windows 8 and Windows Server 2012, the [Virtual Disk Service](virtual-disk-service-portal.md) COM interface is superseded by the [Windows Storage Management API](/windows-hardware/drivers/storage/windows-storage-management-api-portal).\]
 
 A LUN (logical unit number) object models a logical unit of addressable storage space that is created by a hardware provider and surfaced by a subsystem. Each LUN comprises at least one LUN plex, which is in turn composed of extents from one or more drives.
 

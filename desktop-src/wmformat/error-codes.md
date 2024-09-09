@@ -23,10 +23,13 @@ keywords:
 - digital rights management (DRM),success codes
 - DRM (digital rights management),success codes
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 4/26/2023
+ms.custom: UpdateFrequency5
 ---
 
 # Error Codes (Windows Media Format 11 SDK)
+
+\[The feature associated with this page, [Windows Media Format 11 SDK](/windows/win32/wmformat/windows-media-format-11-sdk), is a legacy feature. It has been superseded by [Source Reader](/windows/win32/medfound/source-reader) and [Sink Writer](/windows/win32/medfound/sink-writer). **Source Reader** and **Sink Writer** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **Source Reader** and **Sink Writer** instead of **Windows Media Format 11 SDK**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 Microsoft has defined the following error and success codes for use in the Windows Media Format SDK. These codes are a subset of a larger collection that can be viewed in the header files asferr.h (ASF codes) and nserror.h (other codes) that are included in the Windows Media Format SDK. Additional common error codes can be viewed in Winerror.h.
 
@@ -280,7 +283,7 @@ DRM-Related Error and Success Codes
 | NS\_E\_DRM\_ATTRIBUTE\_TOO\_LONG                             | 0xC00D28B2        | The length of the attribute name or value is too long.                                                                                                                                                                                                                                                            |
 | NS\_E\_DRM\_EXPIRED\_LICENSEBLOB                             | 0xC00D28B3        | The license binary large object (BLOB) BLOB passed is expired.                                                                                                                                                                                                                                                    |
 | NS\_E\_DRM\_INVALID\_LICENSEBLOB                             | 0xC00D28B4        | The license BLOB passed in the request is invalid. Contact Microsoft product support.                                                                                                                                                                                                                             |
-| NS\_E\_DRM\_INCLUSION\_LIST\_REQUIRED                        | 0xC00D28B5        | The requested operation can not be performed because the license does not contain an inclusion list.                                                                                                                                                                                                              |
+| NS\_E\_DRM\_INCLUSION\_LIST\_REQUIRED                        | 0xC00D28B5        | The requested operation cannot be performed because the license does not contain an inclusion list.                                                                                                                                                                                                              |
 | NS\_E\_DRM\_DRMV2CLT\_REVOKED                                | 0xC00D28B6        | A problem has occurred in the Digital Rights Management component. Contact Microsoft product support.                                                                                                                                                                                                             |
 | NS\_E\_DRM\_RIV\_TOO\_SMALL                                  | 0xC00D28B7        | The license that is associated with an existing piece of content requires a more recent certificate revocation list (CRL) version that is not present on the system. Your application can download a more recent CRL using [**IWMDRMSecurity::PerformSecurityUpdate**](iwmdrmsecurity-performsecurityupdate.md). |
 

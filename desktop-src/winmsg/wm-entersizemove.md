@@ -12,7 +12,7 @@ Sent one time to a window after it enters the moving or sizing modal loop. The w
 
 The system sends the **WM\_ENTERSIZEMOVE** message regardless of whether the dragging of full windows is enabled.
 
-A window receives this message through its [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) function.
+A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
 
 ```C++

@@ -1,0 +1,179 @@
+- name: "DirectStorage"
+  items: 
+  - name: "DirectStorage overview"
+    href: dstorage-portal.md
+    items: 
+    - name: "Using DirectStorage"
+      href: using-dstorage.md
+    - name: "DirectStorage API reference"
+      href: dstorage-api-reference.md
+      items: 
+      - name: "DirectStorage constants"
+        href: dstorage-constants.md
+      - name: "DirectStorage enumerations"
+        href: dstorage-enumerations.md
+        items: 
+        - name: "DSTORAGE_COMMAND_TYPE"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_command_type
+        - name: "DSTORAGE_COMPRESSION"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_compression
+        - name: "DSTORAGE_COMPRESSION_FORMAT"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_compression_format
+        - name: "DSTORAGE_COMPRESSION_SUPPORT"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_compression_support
+        - name: "DSTORAGE_CUSTOM_DECOMPRESSION_FLAGS"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_custom_decompression_flags
+        - name: "DSTORAGE_DEBUG"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_debug
+        - name: "DSTORAGE_GET_REQUEST_FLAGS"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_get_request_flags
+        - name: "DSTORAGE_PRIORITY"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_priority
+        - name: "DSTORAGE_REQUEST_DESTINATION_TYPE"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_request_destination_type
+        - name: "DSTORAGE_REQUEST_SOURCE_TYPE"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_request_source_type
+        - name: "DSTORAGE_STAGING_BUFFER_SIZE"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_staging_buffer_size
+      - name: "DirectStorage functions"
+        href: dstorage-functions.md
+        items: 
+        - name: "DStorageCreateCompressionCodec"
+          href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragecreatecompressioncodec
+        - name: "DStorageGetFactory"
+          href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragegetfactory
+        - name: "DStorageSetConfiguration"
+          href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragesetconfiguration
+        - name: "DStorageSetConfiguration1"
+          href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragesetconfiguration1
+      - name: "DirectStorage interfaces"
+        href: dstorage-interfaces.md
+        items: 
+        - name: "IDStorageCompressionCodec"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragecompressioncodec
+          items: 
+          - name: "CompressBuffer"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecompressioncodec-compressbuffer
+          - name: "CompressBufferBound"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecompressioncodec-compressbufferbound
+          - name: "DecompressBuffer"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecompressioncodec-decompressbuffer
+        - name: "IDStorageCustomDecompressionQueue"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragecustomdecompressionqueue
+          items: 
+          - name: "GetEvent"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecustomdecompressionqueue-getevent
+          - name: "GetRequests"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecustomdecompressionqueue-getrequests
+          - name: "SetRequestResults"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecustomdecompressionqueue-setrequestresults
+        - name: "IDStorageCustomDecompressionQueue1"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragecustomdecompressionqueue1
+          items: 
+          - name: "GetRequests1"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragecustomdecompressionqueue1-getrequests1
+        - name: "IDStorageFactory"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragefactory
+          items: 
+          - name: "CreateQueue"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefactory-createqueue
+          - name: "CreateStatusArray"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefactory-createstatusarray
+          - name: "OpenFile"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefactory-openfile
+          - name: "SetDebugFlags"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefactory-setdebugflags
+          - name: "SetStagingBufferSize"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefactory-setstagingbuffersize
+        - name: "IDStorageFile"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragefile
+          items: 
+          - name: "Close"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefile-close
+          - name: "GetFileInformation"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefile-getfileinformation
+        - name: "IDStorageQueue"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue
+          items: 
+          - name: "CancelRequestsWithTag"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-cancelrequestswithtag
+          - name: "Close"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-close
+          - name: "EnqueueRequest"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-enqueuerequest
+          - name: "EnqueueSignal"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-enqueuesignal
+          - name: "EnqueueStatus"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-enqueuestatus
+          - name: "GetErrorEvent"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-geterrorevent
+          - name: "Query"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-query
+          - name: "RetrieveErrorRecord"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-retrieveerrorrecord
+          - name: "Submit"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue-submit
+        - name: "IDStorageQueue1"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue1
+          items: 
+          - name: "EnqeueSetEvent"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue1-enqueuesetevent
+        - name: "IDStorageQueue2"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue2
+          items: 
+          - name: "GetCompressionSupport"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue2-getcompressionsupport
+        - name: "IDStorageStatusArray"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragestatusarray
+          items: 
+          - name: "GetHResult"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragestatusarray-gethresult
+          - name: "IsComplete"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragestatusarray-iscomplete
+      - name: "DirectStorage structures and unions"
+        href: dstorage-structures-unions.md
+        items: 
+        - name: "DSTORAGE_CONFIGURATION structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration
+        - name: "DSTORAGE_CONFIGURATION1 structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration1
+        - name: "DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_custom_decompression_request
+        - name: "DSTORAGE_CUSTOM_DECOMPRESSION_RESULT structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_custom_decompression_result
+        - name: "DSTORAGE_DESTINATION union"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination
+        - name: "DSTORAGE_DESTINATION_BUFFER structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_buffer
+        - name: "DSTORAGE_DESTINATION_MEMORY structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_memory
+        - name: "DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_multiple_subresources
+        - name: "DSTORAGE_DESTINATION_TEXTURE_REGION structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_texture_region
+        - name: "DSTORAGE_DESTINATION_TILES structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_tiles
+        - name: "DSTORAGE_ERROR_FIRST_FAILURE structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_error_first_failure
+        - name: "DSTORAGE_ERROR_PARAMETERS_REQUEST structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_error_parameters_request
+        - name: "DSTORAGE_ERROR_PARAMETERS_SIGNAL structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_error_parameters_signal
+        - name: "DSTORAGE_ERROR_PARAMETERS_STATUS structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_error_parameters_status
+        - name: "DSTORAGE_ERROR_RECORD structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_error_record
+        - name: "DSTORAGE_QUEUE_DESC structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_desc
+        - name: "DSTORAGE_QUEUE_INFO structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_info
+        - name: "DSTORAGE_REQUEST structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_request
+        - name: "DSTORAGE_REQUEST_OPTIONS structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_request_options
+        - name: "DSTORAGE_SOURCE union"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_source
+        - name: "DSTORAGE_SOURCE_FILE structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_source_file
+        - name: "DSTORAGE_SOURCE_MEMORY structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_source_memory

@@ -106,11 +106,11 @@ The **Msvm\_VirtualSystemSnapshotService** class has these methods.
 |--------|-------------|
 | <a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>ApplySnapshot</strong></a> | Applies a virtual machine snapshot to the virtual machine that it was created from.<br /> | 
 | <a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>ClearSnapshotState</strong></a> | Clears save state from an existing snapshot.<br /> | 
-| <a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>ConvertToReferencePoint</strong></a> | Convert an existing virtual system snapshot to a reference point. The snapshot gets deleted as a side effect. Only recovery snapshots can be converted to reference points.<br /><blockquote>[!Note]<br />Support for this method was added in Windows 10.</blockquote><br /> | 
+| [**ConvertToReferencePoint**](msvm-virtualsystemsnapshotservice-converttoreferencepoint.md) | Convert an existing virtual system snapshot to a reference point. The snapshot gets deleted as a side effect. Only recovery snapshots can be converted to reference points.<br> **Note:** Support for this method was added in Windows 10.<br> | 
 | <a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>CreateSnapshot</strong></a> | Creates a snapshot of a virtual machine.<br /> | 
 | <a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshot</strong></a> | Destroy an existing virtual machine snapshot. This method may, as a side effect, destroy other snapshots that are dependent on the affected snapshot.<br /> | 
 | <a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>DestroySnapshotTree</strong></a> | Removes an existing snapshot, and all its children, of a virtual machine.<br /> | 
-| <a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>RequestStateChange</strong></a> | Requests a state change for the element.<br /><blockquote>[!Note]<br />Support for this method was added in Windows 10.</blockquote><br /> | 
+| [**RequestStateChange**](msvm-virtualsystemsnapshotservice-requeststatechange.md) | Requests a state change for the element.<br> **Note:** Support for this method was added in Windows 10.<br> | 
 | <strong>StartService</strong> | This method is not supported.<br /> | 
 | <strong>StopService</strong> | This method is not supported.<br /> | 
 

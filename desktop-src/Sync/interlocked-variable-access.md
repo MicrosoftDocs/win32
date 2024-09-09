@@ -34,7 +34,7 @@ Most of the interlocked functions provide full memory barriers on all Windows pl
 
 <dl> <dt>
 
-[Compiler Intrinsics](/cpp/intrinsics/compiler-intrinsics?view=vs-2019)
+[Compiler Intrinsics](/cpp/intrinsics/compiler-intrinsics)
 </dt> <dt>
 
 [Synchronization and Multiprocessor Issues](synchronization-and-multiprocessor-issues.md)

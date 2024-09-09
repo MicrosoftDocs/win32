@@ -468,7 +468,7 @@ If these keys are set, users can restore the OEM configuration by selecting the 
 
 The **OEMShowIcons** entry, if present, sets the icon show state for the specified client that is applied if the user selects **Computer Manufacturer**. A value of 1 causes icons to be shown, and a value of 0 causes icons to not be shown. If **OEMShowIcons** is absent, selecting **Computer Manufacturer** has no effect on the icon show setting. **OEMShowIcons** is of type **REG\_DWORD**.
 
-The **OEMDefault** entry, if present and set to 1, establishes the OEM preference for the default client of the indicated type. Only one client of a particular type can be marked as the OEM default. If more then one client's registration contains the **OEMDefault** entry, then all are ignored and the current client continues to be used as default client. If the **OEMDefault** entry is not present or is present and set to 0, then that particular client is not used as the default client if the user selects **Computer Manufacturer**. **OEMDefault** is of type **REG\_DWORD**.
+The **OEMDefault** entry, if present and set to 1, establishes the OEM preference for the default client of the indicated type. Only one client of a particular type can be marked as the OEM default. If more than one client's registration contains the **OEMDefault** entry, then all are ignored and the current client continues to be used as default client. If the **OEMDefault** entry is not present or is present and set to 0, then that particular client is not used as the default client if the user selects **Computer Manufacturer**. **OEMDefault** is of type **REG\_DWORD**.
 
 In addition to the option to reset their computers to the default configuration established by the OEM, users have three other configuration options:
 
@@ -570,7 +570,7 @@ HKEY_LOCAL_MACHINE
                   mailto
 ```
 
-This registry hierarchy replaces the existing `mailto` registry hierarchy found at **HKEY\_CLASSES\_ROOT**\\**mailto**. The hierarchy remains the same, only the location has changed. The format of this hierarchy is documented on MSDN under [Asynchronous Pluggable Protocol Overviews and Tutorials](/previous-versions//aa767913(v=vs.85)). Typically, the `mailto` protocol is registered to a program rather than an asynchronous protocol, in which case the documentation on [Registering an Application to a URI Scheme](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85)) applies.
+This registry hierarchy replaces the existing `mailto` registry hierarchy found at **HKEY\_CLASSES\_ROOT**\\**mailto**. The hierarchy remains the same, only the location has changed. For more details on the format of this hierarchy, see [Asynchronous Pluggable Protocol Overviews and Tutorials](/previous-versions//aa767913(v=vs.85)). Typically, the `mailto` protocol is registered to a program rather than an asynchronous protocol, in which case the documentation on [Registering an Application to a URI Scheme](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85)) applies.
 
 The following example shows the `mailto` section of the registration for a `mailto` handler registered to a program.
 

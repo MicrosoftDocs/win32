@@ -41,12 +41,12 @@ The DXVA 1 documentation describes the decoding structures used for the followin
 
 The following specifications define DXVA extensions for other video standards:
 
--   [DXVA Specification for H.264/AVC Decoding](https://www.microsoft.com/downloads/details.aspx?FamilyID=3d1c290b-310b-4ea2-bf76-714063a6d7a6&displaylang=en)
+-   [DXVA Specification for H.264/AVC Decoding](https://www.microsoft.com/download/details.aspx?id=11323)
 -   [DXVA Specification for H.264/MPEG-4 AVC Multiview Video Coding (MVC), Including the Stereo High Profile](https://www.microsoft.com/download/details.aspx?id=25200)
 -   [DXVA Specification for MPEG-1 VLD and Combined MPEG-1/MPEG-2 VLD Video Decoding](https://www.microsoft.com/download/details.aspx?id=9374).
 -   [DXVA Specification for Off-Host VLD Mode for MPEG-4 Part 2 Video Decoding](https://www.microsoft.com/download/details.aspx?id=21100)
--   [DXVA Specification for Windows Media Video® v8, v9 and vA Decoding (Including SMPTE 421M "VC-1")](https://www.microsoft.com/downloads/details.aspx?FamilyID=8792dfdb-8459-4cb7-adb4-fef30b609b31&displaylang=en)
--   [DirectX Video Acceleration (DXVA) Specification for H.264/MPEG-4 Scalable Video Coding (SVC) Off-Host VLD Mode Decoding](https://www.microsoft.com/downloads/details.aspx?FamilyID=a38538b6-f52c-470b-94be-0cf7c28d46cc&displaylang=en)
+-   [DXVA Specification for Windows Media Video® v8, v9 and vA Decoding (Including SMPTE 421M "VC-1")](https://download.microsoft.com/download/5/d/c/5dc91455-0a8c-4d57-8975-0afe1cfaf0dd/dxva_wmv.pdf)
+-   [DirectX Video Acceleration (DXVA) Specification for H.264/MPEG-4 Scalable Video Coding (SVC) Off-Host VLD Mode Decoding](https://www.microsoft.com/download/details.aspx?id=30154)
 -   [DirectX Video Acceleration Specification for VP8 and VP9 Video Coding](https://www.microsoft.com/download/details.aspx?id=49188)
 
 DXVA 1 and DXVA 2 use the same data structures for decoding. However, the procedure for configuring the decoding session has changed. DXVA 1 uses a "probe and lock" mechanism, wherein the host decoder can test various configurations before setting the desired configuration on the accelerator. In DXVA 2, the accelerator returns a list of supported configurations and the host decoder selects one from the list. Details are given in the following sections:

@@ -27,9 +27,9 @@ HRESULT GetProperty(
 
 ### property
 
-Type: **[DXCoreAdapterProperty](./ne-dxcore_interface-dxcoreadapterproperty.md)**
+Type: **[DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty)**
 
-The type of the property whose value you wish to retrieve. See the table in [DXCoreAdapterProperty](./ne-dxcore_interface-dxcoreadapterproperty.md) for more info about each adapter property.
+The type of the property whose value you wish to retrieve. See the table in [DXCoreAdapterProperty](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) for more info about each adapter property.
 
 ### bufferSize
 

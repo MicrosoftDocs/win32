@@ -58,7 +58,7 @@ The following steps describe asynchronous one-time initialization.
 
 ## Calling One-Time Initialization from multiple sites
 
-One-time initialization guarded by a single **INIT\_ONCE** structure may be performed from mutiple sites; different callback may be passed from each site, and synchronization with and without callback may be mixed. Initialization is still guaranted to perform sucesfully just once.
+One-time initialization guarded by a single **INIT\_ONCE** structure may be performed from multiple sites; different callback may be passed from each site, and synchronization with and without callback may be mixed. Initialization is still guaranteed to perform successfully just once.
 
 However, asynchronous and synchronous initialization cannot be mixed: once asynchronous initialization is attempted, attempts to start synchronous initialization would fail.
 
