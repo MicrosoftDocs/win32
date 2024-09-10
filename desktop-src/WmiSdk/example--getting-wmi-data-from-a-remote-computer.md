@@ -1,6 +1,7 @@
 ---
 title: 'Example: Getting WMI Data from a Remote Computer'
 description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on a remote computer, gets data semisynchronously, and then cleans up.
+ms.assetid: 30e65b9e-9372-46d1-843a-bda0d6ec1c69
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018

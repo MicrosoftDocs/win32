@@ -1,6 +1,7 @@
 ---
 title: Installation and Maintenance of Games
 description: This article describes a set of best practices that can help reduce user frustration about the time required to install a game, prevent unnecessary support calls, and allow users to start playing your game as quickly and painlessly as possible.
+ms.assetid: c953165d-2318-ca06-a895-abedcbcb594c
 ms.topic: article
 ms.date: 05/31/2018
 ---

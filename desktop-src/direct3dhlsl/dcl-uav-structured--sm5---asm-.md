@@ -1,6 +1,7 @@
 ---
 title: dcl_uav_structured (sm5 - asm)
 description: Declare an unordered access view (UAV) for use by a shader. | dcl_uav_structured (sm5 - asm)
+ms.assetid: 40d6b8f7-8a41-4efe-a8a3-44a646b4d43b
 ms.topic: reference
 ms.date: 05/31/2018
 ---

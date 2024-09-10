@@ -1,6 +1,7 @@
 ---
 title: Common Dialog Box Library
 description: This section discusses the Common Dialog Box Library. The Common Dialog Box Library contains a set of dialog boxes for performing common tasks, such as opening files and printing documents.
+ms.assetid: 28573019-f0bd-4a8e-a1a1-48559f658a81
 keywords:
 - Common Dialog Box Library
 - common dialog boxes

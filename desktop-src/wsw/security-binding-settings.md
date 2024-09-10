@@ -1,6 +1,7 @@
 ---
 title: Security Binding Settings
 description: Security binding settings control the way a security token is obtained or used.
+ms.assetid: 4bc03cb4-1ac2-4ad1-a45d-eae8f50f5355
 keywords:
 - Security Binding Settings Web Services for Windows
 - WWSAPI

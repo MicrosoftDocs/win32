@@ -1,6 +1,7 @@
 ---
 title: Supported Pixel Formats and Alpha Modes
 description: Describes the pixel formats and alpha modes supported by each render target type.
+ms.assetid: 09b1f9c6-1780-4733-ac22-9e8c21466b67
 keywords:
 - Direct2D,pixel formats
 - Direct2D,alpha modes

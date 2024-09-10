@@ -1,6 +1,7 @@
 ---
 title: Interfaces (Ribbon Framework)
 description: Reference documentation for the Windows Ribbon framework interfaces.
+ms.assetid: d5fd6e4f-ca10-4010-aab4-d2728b0ac53c
 ms.topic: article
 ms.date: 05/31/2018
 ---

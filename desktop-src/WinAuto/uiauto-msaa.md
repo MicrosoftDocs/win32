@@ -1,6 +1,7 @@
 ---
 title: UI Automation and Active Accessibility
 description: Microsoft Active Accessibility is the legacy API that was introduced in Windows 95, and was designed to make Windows applications accessible.
+ms.assetid: 6fc92e67-b94b-4ba3-9f5d-42be6072f110
 keywords:
 - UI Automation,Microsoft Active Accessibility
 - UI Automation,accessibility

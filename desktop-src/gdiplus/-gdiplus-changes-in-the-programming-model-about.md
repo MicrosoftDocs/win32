@@ -1,6 +1,7 @@
 ---
 title: Changes in the Programming Model
 description: The following sections describe several ways that programming with Windows GDI+ is different from programming with Windows Graphics Device Interface (GDI).
+ms.assetid: 89a154c1-6a49-45d6-a73c-94b0b1567408
 ms.topic: article
 ms.date: 05/31/2018
 ---

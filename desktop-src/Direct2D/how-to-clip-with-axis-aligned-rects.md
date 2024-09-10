@@ -1,6 +1,7 @@
 ---
 title: How to Clip with an Axis-Aligned Clip Rectangle
 description: Shows how to clip a region with an axis-aligned clip rectangle.
+ms.assetid: 4196653a-9177-4a41-9db9-4738a41313aa
 ms.topic: article
 ms.date: 05/31/2018
 ---

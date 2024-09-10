@@ -1,6 +1,7 @@
 ---
 title: Configuring Video Encoding (Microsoft Media Foundation)
 description: Configuring Video Encoding
+ms.assetid: 917600f5-5580-4ca5-bce9-70eadec40df7
 ms.topic: article
 ms.date: 05/31/2018
 ---

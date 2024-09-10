@@ -1,6 +1,7 @@
 ---
 title: Content of Descriptive Properties
 description: The IAccessible interface provides descriptive properties, which describe various aspects of an object.
+ms.assetid: e6c1d1a3-417d-4aea-abac-f84a55f666b7
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,6 +1,7 @@
 ---
 title: MDM Bridge WMI Provider
 description: MDM Bridge WMI Provider enables mobile device management of a network bridge. This provider is defined in DMWmiBridgeProv.mof and implemented in DMWmiBridgeProv.dll.
+ms.assetid: 422e7fc6-c5e9-495a-903b-2d7d42d565e3
 ms.topic: article
 ms.date: 05/31/2018
 ---
