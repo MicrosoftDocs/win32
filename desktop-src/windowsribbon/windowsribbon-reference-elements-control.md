@@ -18,11 +18,11 @@ Reference documentation for control markup elements in the Windows Ribbon framew
 | [**ApplicationMenu.RecentItems**](windowsribbon-element-applicationmenu-recentitems.md)                       | Represents a container for the [Recent Items](windowsribbon-controls-recentitems.md) control in the [Application Menu](windowsribbon-controls-applicationmenu.md).<br/>                                                                              |
 | [**Button**](windowsribbon-element-button.md)                                                                 | Represents a [Button](windowsribbon-controls-button.md) control.<br/>                                                                                                                                                                                 |
 | [**CheckBox**](windowsribbon-element-checkbox.md)                                                             | Represents a [Check Box](windowsribbon-controls-checkbox.md) control.<br/>                                                                                                                                                                            |
-| [**ComboBox**](windowsribbon-element-combobox.md)                                                             | Represents a[Combo Box](windowsribbon-controls-combobox.md)control.<br/>                                                                                                                                                                              |
+| [**ComboBox**](windowsribbon-element-combobox.md)                                                             | Represents a [Combo Box](windowsribbon-controls-combobox.md) control.<br/>                                                                                                                                                                              |
 | [**ContextMap**](windowsribbon-element-contextmap.md)                                                         | Represents a [**ContextMenu**](windowsribbon-element-contextmenu.md) and [**MiniToolbar**](windowsribbon-element-minitoolbar.md) pair mapping.<br/>                                                                                                  |
 | [**ContextMenu**](windowsribbon-element-contextmenu.md)                                                       | Represents a context menu control.<br/>                                                                                                                                                                                                                |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)                                                 | Represents a standard [Drop-Down Button](windowsribbon-controls-dropdownbutton.md) control.<br/>                                                                                                                                                      |
-| [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)                                       | Represents a [Drop-Down Color Picker](windowsribbon-controls-dropdowncolorpicker.md)control that when clicked displays a palette of color swatches.<br/>                                                                                              |
+| [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)                                       | Represents a [Drop-Down Color Picker](windowsribbon-controls-dropdowncolorpicker.md) control that when clicked displays a palette of color swatches.<br/>                                                                                              |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)                                               | Represents a [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md) control with a gallery-based menu.<br/>                                                                                                                                   |
 | [**DropDownGallery.MenuGroups**](windowsribbon-element-dropdowngallery-menugroups.md)                         | Represents a container for a set of drop-down menu items in a [Drop-Down Gallery](windowsribbon-controls-dropdowngallery.md) control. <br/>                                                                                                           |
 | [**DropDownGallery.MenuLayout**](windowsribbon-element-dropdowngallery-menulayout.md)                         | Represents a container for [**DropDownGallery**](windowsribbon-element-dropdowngallery.md) drop-down menu layouts.<br/>                                                                                                                               |
@@ -48,16 +48,3 @@ Reference documentation for control markup elements in the Windows Ribbon framew
 | [**Tab.ScalingPolicy**](windowsribbon-element-tab-scalingpolicy.md)                                           | Represents a container for [Tab](windowsribbon-controls-tab.md) scaling specifications.<br/>                                                                                                                                                          |
 | [**TabGroup**](windowsribbon-element-tabgroup.md)                                                             | Represents a contextual set of [Tab](windowsribbon-controls-tabgroup.md) controls.<br/>                                                                                                                                                               |
 | [**ToggleButton**](windowsribbon-element-togglebutton.md)                                                     | Represents a [Toggle Button](windowsribbon-controls-togglebutton.md) control.<br/>                                                                                                                                                                    |
-
-
-
- 
-
- 
-
- 
-
-
-
-
-

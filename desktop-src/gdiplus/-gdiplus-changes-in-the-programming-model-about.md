@@ -1,7 +1,7 @@
 ---
+title: Changes in the Programming Model
 description: The following sections describe several ways that programming with Windows GDI+ is different from programming with Windows Graphics Device Interface (GDI).
 ms.assetid: 89a154c1-6a49-45d6-a73c-94b0b1567408
-title: Changes in the Programming Model
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -145,7 +145,7 @@ myGraphics.DrawRectangle(myPen, 100, 50, 100, 30);
 
 
 
-Note that the [FillRectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangle(inconstbrush_inreal_inreal_inreal_inreal)) and [DrawRectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inreal_inreal_inreal_inreal)) methods in GDI+ receive arguments that specify the rectangle's left edge, top, width, and height. This is in contrast to the GDI[Rectangle](/windows/win32/api/wingdi/nf-wingdi-rectangle) function, which takes arguments that specify the rectangle's left edge, right edge, top, and bottom. Also note that the constructor for the [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) class in GDI+ has four parameters. The last three parameters are the usual red, green, and blue values; the first parameter is the alpha value, which specifies the extent to which the color being drawn is blended with the background color.
+Note that the [FillRectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangle(inconstbrush_inreal_inreal_inreal_inreal)) and [DrawRectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inreal_inreal_inreal_inreal)) methods in GDI+ receive arguments that specify the rectangle's left edge, top, width, and height. This is in contrast to the GDI [Rectangle](/windows/win32/api/wingdi/nf-wingdi-rectangle) function, which takes arguments that specify the rectangle's left edge, right edge, top, and bottom. Also note that the constructor for the [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) class in GDI+ has four parameters. The last three parameters are the usual red, green, and blue values; the first parameter is the alpha value, which specifies the extent to which the color being drawn is blended with the background color.
 
 ## Constructing Regions
 
@@ -160,9 +160,3 @@ Region  region2(rect2);
 region1.Union(onePath);
 region2.Intersect(onePath);
 ```
-
-
-
- 
-
- 

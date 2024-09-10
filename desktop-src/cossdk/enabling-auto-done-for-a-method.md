@@ -1,7 +1,7 @@
 ---
+title: Enabling Auto-Done for a Method
 description: You can enable the auto-done feature for any method exposed by a component for which COM+ JIT activation is enabled. If JIT activation is disabled, auto-done is unavailable.
 ms.assetid: d699b85c-441f-4ea6-8d03-d1fa9a8a357f
-title: Enabling Auto-Done for a Method
 ms.topic: article
 ms.date: 05/31/2018
 ---
@@ -23,7 +23,7 @@ When you enable auto-done, you are changing the default behavior of both JIT act
 
 2.  In the method properties dialog box, click the **General** tab.
 
-3.  To enable auto-done, select the **Automatically deactivate this object when this method returns** check box. If the check box is unavailable, you must first enable JIT Activation for the component. (See[Enabling JIT Activation for a Component](enabling-jit-activation-for-a-component.md) for detailed instructions.)
+3.  To enable auto-done, select the **Automatically deactivate this object when this method returns** check box. If the check box is unavailable, you must first enable JIT Activation for the component. (See [Enabling JIT Activation for a Component](enabling-jit-activation-for-a-component.md) for detailed instructions.)
 
 4.  Click **OK**.
 
@@ -39,10 +39,3 @@ When you enable auto-done, you are changing the default behavior of both JIT act
 
 [Setting the Done Bit](setting-the-done-bit.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
