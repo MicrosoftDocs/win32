@@ -6,23 +6,21 @@ ms.tgt_platform: multiple
 keywords:
 - User Naming Attributes AD
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 09/10/2024
 ---
 
 # User Naming Attributes
 
 User naming attributes identify user objects, such as logon names and IDs used for security purposes. The **cn**, **name**, and **distinguishedName** attributes are examples of user naming attributes. A user object is a security principal object, so it also includes the following user naming attributes:
 
--   [userPrincipalName](#userprincipalname) — the logon name for the user
--   [objectGUID](#objectguid) — the unique identifier of a user
--   [sAMAccountName](#samaccountname) — a logon name that supports previous version of Windows
--   [objectSid](#objectsid) — security identifier (SID) of the user
--   [sIDHistory](#sidhistory) — the previous SIDs for the user object
+- [userPrincipalName](#userprincipalname) — the logon name for the user
+- [objectGUID](#objectguid) — the unique identifier of a user
+- [sAMAccountName](#samaccountname) — a logon name that supports previous version of Windows
+- [objectSid](#objectsid) — security identifier (SID) of the user
+- [sIDHistory](#sidhistory) — the previous SIDs for the user object
 
-> [!Note]  
+> [!NOTE]
 > You can view and manage these attributes using the Active Directory User and Computers MMC snap-in, which is available in the [Remote Server Administration Tools (RSAT)](https://www.microsoft.com/download/details.aspx?id=45520).
-
- 
 
 ## userPrincipalName
 
@@ -36,8 +34,8 @@ A UPN consists of a UPN prefix (the user account name) and a UPN suffix (a DNS d
 
 A UPN suffix has the following restrictions:
 
--   It must be the DNS name of a domain, but does not need to be the name of the domain that contains the user.
--   It must be the name of a domain in the current domain forest, or an alternate name listed in the **upnSuffixes** attribute of the Partitions container within the Configuration container.
+- It must be the DNS name of a domain, but does not need to be the name of the domain that contains the user.
+- It must be the name of a domain in the current domain forest, or an alternate name listed in the **upnSuffixes** attribute of the Partitions container within the Configuration container.
 
 ### UPN Management
 
@@ -53,7 +51,7 @@ Because an object's distinguished name changes if the object is renamed or moved
 
 ## sAMAccountName
 
-The **sAMAccountName** attribute is a logon name used to support clients and servers from previous version of Windows, such as Windows NT 4.0, Windows 95, Windows 98, and LAN Manager. The logon name must be 20 or fewer characters and be unique among all security principal objects within the domain.
+The **sAMAccountName** attribute is a logon name used to support clients and servers from previous version of Windows, such as Windows NT 4.0, Windows 95, Windows 98, and LAN Manager. The logon name must be 20 or fewer characters long and be unique among all security principal objects within the domain.
 
 ## objectSid
 
@@ -67,11 +65,4 @@ The **sIDHistory** attribute contains the previous SIDs for the user object. Thi
 
 ## Related topics
 
-<dl> <dt>
-
 [User Object Attributes](user-object-attributes.md)
-</dt> </dl>
-
- 
-
- 
