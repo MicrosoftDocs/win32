@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # How to Clip with an Axis-Aligned Clip Rectangle
 
-This topic describes how to clip an image with an axis-aligned clip rectangle. This approach produces only rectangular clips, because the content bounds are aligned to the axis of the rectangle. This approach is more efficient than using layers with the content bounds. For more information, see[Layers Overview](direct2d-layers-overview.md).
+This topic describes how to clip an image with an axis-aligned clip rectangle. This approach produces only rectangular clips, because the content bounds are aligned to the axis of the rectangle. This approach is more efficient than using layers with the content bounds. For more information, see [Layers Overview](direct2d-layers-overview.md).
 
 **To clip with an axis-aligned clip rectangle**
 
@@ -43,7 +43,3 @@ pRT->PopAxisAlignedClip();
 
 [Direct2D Reference](reference.md)
 </dt> </dl>
-
- 
-
- 

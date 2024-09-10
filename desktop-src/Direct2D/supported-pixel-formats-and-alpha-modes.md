@@ -253,7 +253,7 @@ A WIC bitmap render target is an [**ID2D1RenderTarget**](/windows/win32/api/d2d1
 
 The pixel format of the WIC bitmap target must match the pixel format of the WIC bitmap.
 
-The[DXGI\_FORMAT\_UNKNOWN](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) format uses the WIC bitmap format by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses WIC bitmap alpha mode by default.
+The [DXGI\_FORMAT\_UNKNOWN](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) format uses the WIC bitmap format by default and the [**D2D1\_ALPHA\_MODE\_UNKNOWN**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha mode uses WIC bitmap alpha mode by default.
 
 ## Supported Formats for ID2D1DCRenderTarget
 
@@ -383,7 +383,3 @@ You can use the [**SetTextAntialiasMode**](/windows/win32/api/d2d1/nf-d2d1-id2d1
 
 [DXGI\_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)
 </dt> </dl>
-
- 
-
- 

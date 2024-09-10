@@ -1,7 +1,7 @@
 ---
 title: dcl_uav_structured (sm5 - asm)
 description: Declare an unordered access view (UAV) for use by a shader. | dcl_uav_structured (sm5 - asm)
-ms.assetid: 40D6B8F7-8A41-4EFE-A8A3-44A646B4D43B
+ms.assetid: 40d6b8f7-8a41-4efe-a8a3-44a646b4d43b
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -44,7 +44,7 @@ The \_glc flag means for"globally coherent". The absence of \_glc means the UAV 
 
 The \_opc flag is the order preserving counter. It indicates that if a UAV is bound to slot \# (u\#), it must have been created with the COUNTER flag. This means that [imm\_atomic\_alloc](imm-atomic-alloc--sm5---asm-.md) or [imm\_atomic\_consume](imm-atomic-consume--sm5---asm-.md) operations in the shader manipulate a counter whose values can be used in the shader as a permanent reference to a location in the UAV. Data cannot be reordered after the shader is over.
 
-The absence of the \_opc flag means that if the shader uses[imm\_atomic\_alloc](imm-atomic-alloc--sm5---asm-.md) or [imm\_atomic\_consume](imm-atomic-consume--sm5---asm-.md) instructions and a UAV is bound to slot \# (u), it must have been created with the APPEND flag, which provides a counter that does not guarantee order is preserved after the shader invocation.
+The absence of the \_opc flag means that if the shader uses [imm\_atomic\_alloc](imm-atomic-alloc--sm5---asm-.md) or [imm\_atomic\_consume](imm-atomic-consume--sm5---asm-.md) instructions and a UAV is bound to slot \# (u), it must have been created with the APPEND flag, which provides a counter that does not guarantee order is preserved after the shader invocation.
 
 If the \_opc flag is absent and the shader does not contain [imm\_atomic\_alloc](imm-atomic-alloc--sm5---asm-.md) or [imm\_atomic\_consume](imm-atomic-consume--sm5---asm-.md) instructions, a UAV bound to slot \# (u) is permitted to have been created with the COUNTER flag (the counter will go unused by this shader), no flag (no counter), but not with the APPEND flag.
 
@@ -107,12 +107,3 @@ This instruction is supported in the following shader models:
 
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
-
