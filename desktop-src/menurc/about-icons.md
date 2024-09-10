@@ -61,10 +61,10 @@ The system uses four icon sizes:
 -   **Starting Windows Vista:** Jumbo (256x256 pixels size)
 
 The *system small* icon is displayed in the window caption.
-The *system large* icon is mainly used by applications, but it is also displayed in the Alt+Tab dialog. 
+The *system large* icon is mainly used by applications, but it is also displayed in the classic Alt+Tab dialog. 
 The *shell* and *jumbo* icons are used in the Windows Explorer and the common dialogs.
 
-When filling in the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexw) structure to be used in registering your window class, set the `hIcon` member to the system large icon and the `hIconSm` member to the system small icon. For more information about class icons, see [Class Icons](/windows/desktop/winmsg/about-window-classes).
+When filling in the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexw) structure to be used in registering your window class, set the `hIcon` member to the system large icon and the `hIconSm` member to the system small icon. For more information about class icons, see [Class Icons](/windows/desktop/winmsg/about-window-classes#class-icons).
 
 As of Windows Vista, *shell small*, *shell large*, and *extra large* scale with dots per inch (dpi) if the process is [marked as dpi-aware](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows). *Jumbo* icon is fixed at 256 pixels regardless of the dpi-aware setting.
 
@@ -72,7 +72,7 @@ See [Icon scaling](/windows/apps/design/style/iconography/app-icon-construction#
 
 ### To retrieve the size of the system icon
 
--   Call the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function with `SM_CXSMICON`/`SM_CYSMICON` or `SM_CXICON`/`SM_CYICON`.
+-   Call the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function with `SM_CXICON`/`SM_CYICON` or `SM_CXSMICON`/`SM_CYSMICON`.
 
 The [**CreateIconFromResource**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresource), [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon), [**ExtractAssociatedIcon**](/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconw), [**ExtractIcon**](/windows/desktop/api/Shellapi/nf-shellapi-extracticonw), [**ExtractIconEx**](/windows/desktop/api/Shellapi/nf-shellapi-extracticonexw), and [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadiconw) functions all use *system large* icons.
 
