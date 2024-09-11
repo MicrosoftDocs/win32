@@ -1,5 +1,5 @@
 ---
-description: Always prefix a Unicode plain text file with a byte order mark, which informs an application receiving the file that the file is byte-ordered.
+description: Unicode text files may be encoded in several formats, including UTF-8, UTF-16, and UTF-32. Each of these formats can be prefixed with a byte order mark (BOM).
 ms.assetid: d9f1ef5c-6367-4183-9c07-01c73cb4debc
 title: Using Byte Order Marks
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Byte Order Marks
 
-Always prefix a Unicode plain text file with a byte order mark, which informs an application receiving the file that the file is byte-ordered. Available byte order marks are listed in the following table. Because Unicode plain text is a sequence of 16-bit code values, it is sensitive to the byte ordering used when the text is written.
+Unicode text files may be encoded in several formats, including UTF-8, UTF-16, and UTF-32. Each of these formats can be prefixed with a byte order mark (BOM) that indicates the byte ordering used when the text was written. Available byte order marks are listed in the following table. For UTF-8, the byte order mark is optional, since the bytes may only be in one order. For UTF-16 and UTF-32, the byte order mark is required because those formats are sensitive to the byte ordering.
 
 > [!Note]  
 > A byte order mark is not a control character that selects the byte order of the text.
@@ -30,7 +30,7 @@ Always prefix a Unicode plain text file with a byte order mark, which informs an
  
 
 > [!Note]  
-> Microsoft uses UTF-16, little endian byte order.
+> Legacy Microsoft products either use Windows-1252 or UCS-2 (fixed-with UTF-16), little endian byte order, for "Unicode". For new applications, UTF-8 is recommended.
 
  
 
