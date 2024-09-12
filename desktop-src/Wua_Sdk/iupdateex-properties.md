@@ -12,7 +12,7 @@ The [**IUpdateEx**](/windows/win32/api/wuapi/nn-wuapi-iupdateex) interface defin
 
 | Property | Description |
 |----------|-------------|
-| [**ExtendedStaticProperty**](/windows/win32/api/Wuapi/nf-wuapi-iupdatedownloaderex-begindownload2)   | Gets the value for the extended property being queried.                                         |
+| [**ExtendedStaticProperty**](/windows/win32/api/Wuapi/nf-wuapi-iupdateex-get_extendedstaticproperty.md)   | Gets the value of an extended static property.                                         |
  
 
 For information about the members inherited by this interface, see the following interfaces:
