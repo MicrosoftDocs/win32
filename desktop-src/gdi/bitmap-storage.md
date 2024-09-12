@@ -75,8 +75,8 @@ The following table shows the data bytes associated with the structures in a bit
 | Structure                                    | Corresponding bytes |
 |----------------------------------------------|---------------------|
 | [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader) | 0x00 0x0D           |
-| [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) | 0x0E 0x35           |
-| [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) array             | 0x36 0x75           |
+| [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) | 0x0E 0x36           |
+| [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) array             | 0x37 0x75           |
 | Color-index array                            | 0x76 0x275          |
 
 
