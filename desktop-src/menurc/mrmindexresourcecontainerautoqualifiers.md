@@ -1,6 +1,6 @@
 ---
 title: MrmIndexResourceContainerAutoQualifiers function (MrmResourceIndexer.h)
-description: Indexes the string resources contained inside a Resources File (.resw/.resjson), or a .priinfo or .prifile, belonging to a UWP app.
+description: Adds the string resources embedded in a resource container to a Resource Indexer, inferring the resource names and qualifiers from the file path.
 ms.assetid: 7FCAA2B5-FF45-4961-84BA-B444B550C91D
 keywords:
 - MrmIndexResourceContainerAutoQualifiers function Menus and Other Resources
@@ -18,9 +18,11 @@ ms.date: 05/31/2018
 
 # MrmIndexResourceContainerAutoQualifiers function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
-
-Indexes the string resources contained inside a Resources File (.resw/.resjson), or a .priinfo or .prifile, belonging to a UWP app. Infers a list of resource qualifiers from the *containerPath* parameter. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Adds the string resources embedded in a resource container to a Resource Indexer, inferring
+the resource names and qualifiers from the container path. A resource container is a file such as a
+`resw` or `resjson` file that contains a list of resource name / value pairs. You can also add the
+contents of an existing existing PRI file to the indexer with this function. Note that it is the 
+resource names inside the container that are indexed, not the values.
 
 ## Syntax
 
@@ -43,7 +45,9 @@ HRESULT HRESULT MrmIndexResourceContainerAutoQualifiers(
 
 Type: **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)**
 
-A handle identifying the resource indexer that will index the string resources.
+A handle identifying the resource indexer to add the resources to. This handle is returned via a call to 
+[**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md) or one of the related **MrmCreateResourceIndexer...*** functions.
+
 
 </dd> <dt>
 
@@ -52,7 +56,9 @@ A handle identifying the resource indexer that will index the string resources.
 
 Type: **PCWSTR**
 
-A relative path to a .resw, .resjson, .priinfo, or .prifile containing string resources that you want to index. This path is relative to the project root of the UWP app for which you are generating PRI files. That project root is the value of *projectRoot* that you passed to [**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md).
+A path to a `resw`, `resjson`, or `.pri` file containing string resources that you want to add to the index. 
+This path is relative to the project root specified when creating the indexer via one of the 
+**MrmCreateResourceIndexer...** functions. The file must exist.
 
 </dd> </dl>
 
@@ -60,16 +66,68 @@ A relative path to a .resw, .resjson, .priinfo, or .prifile containing string re
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) 
+to determine success or failure.
 
 ## Remarks
 
-Resource qualifiers are inferred from *containerPath*. For example, a value of L"en-US\\\\resources.resw" adds string resources with the qualifier "language-en-US".
+This function infers the resource names and qualifiers from both *containerPath* and the resources inside the
+container itself. The file identified by *containerPath* does not need to be included in your final app installation 
+package.
 
-The name of the Resources File will be used as the resource map subtree name for these resources when you later generate a PRI file from this resource indexer.
+The algorithm for computing resource names differs depending on the file type:
+
+### For resw and resjson files:
+
+Given a *containerPath* of the form `path1\path2\pathn\filename.ext`, the following basic algorithm is used:
+
+1. Let `resourceName` be the string `ms-resource:///`.
+1. Let `qualifiers` be an empty string.
+1. For each `path` segment in *filePath*, check if it consists of a valid qualifier list string
+(see [Qualifiers in MRM](mrmqualifiers.md) for more info). If so, append those qualifiers to `qualifiers`,
+otherwise ignore it.
+1. For `filename`, split it up into segments separated by dots (`.`). Note that `.ext` is ignored.
+   * If there are exactly two segments, and the second segment is a valid qualifier list, 
+   add it to `qualifiers` and append the first segment to`resourceName`.
+   * Otherwise, append the entire `filename` (but not `.ext`) `resourceName`.
+1. For each resource name inside `filename`, replaces any dots (`.`) with forward slashes (`/`) and append
+it to `resourceName`, then add to the indexer with the specified value and `qualifiers`.
+    * Note there is no attempt to infer qualifiers from the resource name inside the container; the
+    name is just added verbatim to the `resourceName`
+
+For example:
+
+| filePath | resource name (inside file) | resourceName | qualifiers |
+|-|-|-|-|
+| resources.resw | my_string | ms-resource:///resources/my_string | \<N/A> |
+| images.resw | logo.scale-200.png | ms-resource:///images/logo/scale-200/png | \<N/A> |
+| **language-es**\\text.**homeregion-mx**.resjson | greeting | ms-resource:///text/greeting | language-es_homeregion-mx |
+| content\\**language-jp**\\menu.scale-100.submenu.resjson | title.text | ms-resource:///menu.scale-100.submenu/title/text | language-jp |
+
+The last line of the table illustrates three of the more subtle parts of the algorithm:
+
+1. Directory names that aren't qualifiers are ignored (in this case, "content").
+1. Embedded qualifiers in filenames are ignored if there are additional segments (in this case, ".submenu").
+1. Dots inside resource names are turned into slashes (but dots inside file paths are retained).
+    
+In some cases, having embedded dots or slashes inside a resource name inside a container will lead to
+an error **0x80073b39** when creating the resource file (not when adding it to the index). In general,
+it is best to avoid embedded slashes or dots in names, and to avoid embedded qualifiers since they will
+be ignored.
+
+### For PRI files:
+
+Because PRI files already contain resources with qualifier information, no qualifiers are inferred
+from *filePath*; it is simply the name of the file to read. When indexing resources from within the PRI file,
+for a given resource name `ms-resource:///rootPath/theRest...` the following algorithm is used:
+
+1. If the type of resource is `String`, then replace `rootPath` with "strings" and use the result as the
+resource name.
+1. Otherwise (the type of the resource is `Path` or `EmbeddedData`), use the resource name as-is.
+
+The value and qualifiers are added verbatim from the PRI file, with this new resource name.
 
 ## Requirements
-
 
 
 | Requirement | Value |
@@ -83,11 +141,32 @@ The name of the Resources File will be used as the resource map subtree name for
 
 
 ## See also
+<dt><dt>
 
-<dl> <dt>
+[**MrmIndexEmbeddedData**](mrmindexembeddeddata.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexFile**](mrmindexfile.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexFileAutoQualifiers**](mrmindexfileautoqualifiers.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexString**](mrmindexstring.md)
+</dt></dl>
+
+<dt><dt>
+
+[File resources in MRM](mrmfiles.md)
+</dt></dl>
+
+<dt><dt>
 
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
-</dt> </dl>
-
- 
-
+</dt></dl>

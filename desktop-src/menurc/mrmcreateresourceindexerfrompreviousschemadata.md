@@ -1,6 +1,6 @@
 ---
 title: MrmCreateResourceIndexerFromPreviousSchemaData function (MrmResourceIndexer.h)
-description: Creates a resource indexer from in-memory schema data created with a previous call to either MrmDumpPriFileInMemory or MrmDumpPriDataInMemory.
+description: Creates a resource indexer that can create PRI files that are compatible with existing PRI files.
 ms.assetid: D9C90C12-CEFE-4794-9553-8BFBE9E43D99
 keywords:
 - MrmCreateResourceIndexerFromPreviousSchemaData function Menus and Other Resources
@@ -18,9 +18,12 @@ ms.date: 05/31/2018
 
 # MrmCreateResourceIndexerFromPreviousSchemaData function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Creates a resource indexer that can create PRI files that are compatible with existing PRI files. This function
+is only needed in fairly limited scenarios; see the **Remarks** section of 
+[**MrmCreateResourceIndexerFromPreviousSchemaFile**](mrmcreateresourceindexerfrompreviousschemafile.md) for more info.
 
-Creates a resource indexer from in-memory schema data created with a previous call to either [**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md) or [**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md). For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+COM must be initialized (e.g. by calling **[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)**) 
+before using this function.
 
 ## Syntax
 
@@ -47,7 +50,8 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousSchemaData(
 
 Type: **PCWSTR**
 
-The project root of the UWP app for which you will be generating PRI files. In other words, the path to that app's resource files. You specify this so that you can then specify paths relative to that root in subsequent API calls to the same resource indexer.
+The root directory from which some file paths will be computed. Typically this will be the root directory of your
+source project, but may differ. See [File resources in MRM](mrmfiles.md) for more information.
 
 </dd> <dt>
 
@@ -56,7 +60,8 @@ The project root of the UWP app for which you will be generating PRI files. In o
 
 Type: **[**MrmPlatformVersion**](mrmplatformversion.md)**
 
-The target platform version for the resource indexer.
+The platform version (*targetOsVersion*) to use for the generated configuration file. Most callers should just 
+use **MrmPlatformVersion_Windows10_0_0_5**
 
 </dd> <dt>
 
@@ -65,7 +70,8 @@ The target platform version for the resource indexer.
 
 Type: **PCWSTR**
 
-A list of default resource qualifiers. For example, L"language-en-US\_scale-100\_contrast-standard"
+A list of default resource qualifiers. For example, "language-en-US_scale-100". For more information about qualifiers, 
+see [Qualifiers in MRM](mrmqualifiers.md).
 
 </dd> <dt>
 
@@ -74,7 +80,10 @@ A list of default resource qualifiers. For example, L"language-en-US\_scale-100\
 
 Type: **BYTE\***
 
-A pointer to schema data created by a previous call to either [**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md) or [**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md). Don't free *schemaXmlData* until after you've finished using the resource indexer created by this function.
+A pointer to an in-memory PRI file or in-memory Schema XML dump. You can obtain an in-memory PRI file either by manually loading
+an existing PRI file from disk, or by creating it in-memory with [**MrmCreateResourceFileInMemory**](mrmcreateconfig.md). You
+can obtain an in-memory Schema XML dump either by manually loading an existing file from disk, or by using one of the 
+**MrmDump...** functions.
 
 </dd> <dt>
 
@@ -92,7 +101,8 @@ The size of the data pointed to by *schemaXmlData*.
 
 Type: **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)\***
 
-A pointer to a resource indexer handle.
+A pointer to a resource indexer handle. On successful return, this will contain a handle to a resource indexer.
+You must free the indexer via [**MrmDestroyIndexerAndMessages**](mrmdestroyindexerandmessages.md) after using it.
 
 </dd> </dl>
 
@@ -100,14 +110,16 @@ A pointer to a resource indexer handle.
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) 
+to determine success or failure.
 
 ## Remarks
 
-Don't free *schemaXmlData* until after you've finished using the resource indexer created by this function.
+See the **Remarks** section
+of [**MrmCreateResourceIndexerFromPreviousSchemaFile**](mrmcreateresourceindexerfrompreviousschemafile.md) for more info,
+as this function is essentially the same (except it uses in-memory reference PRI rather than an on-disk file).
 
 ## Requirements
-
 
 
 | Requirement | Value |
@@ -124,8 +136,25 @@ Don't free *schemaXmlData* until after you've finished using the resource indexe
 
 <dl> <dt>
 
+[**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousPriData**](mrmcreateresourceindexerfrompreviouspridata-.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousSchemaFile**](mrmcreateresourceindexerfrompreviousschemafile.md)
+</dt></dl>
+
+<dl> <dt>
+
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
-</dt> </dl>
-
- 
-
+</dt></dl>

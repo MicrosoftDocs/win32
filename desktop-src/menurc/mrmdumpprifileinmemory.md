@@ -1,6 +1,6 @@
 ---
 title: MrmDumpPriFileInMemory function (MrmResourceIndexer.h)
-description: Dumps a PRI file (which is binary) to its XML equivalent (as in-memory data), in order to make it more easily readable.
+description: Dumps a binary PRI file to its XML equivalent in memory.
 ms.assetid: 04FD048F-1473-47B1-9CAB-03FEF98A9B48
 keywords:
 - MrmDumpPriFileInMemory function Menus and Other Resources
@@ -18,9 +18,12 @@ ms.date: 05/31/2018
 
 # MrmDumpPriFileInMemory function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Dumps a PRI file to its XML equivalent, storing the result in memory. PRI files are stored in an undocumented binary
+format, so in order to view the contents of a file for debugging etc. it must be saved ("dumped") as XML. 
 
-Dumps a PRI file (which is binary) to its XML equivalent (as in-memory data), in order to make it more easily readable. The function allocates memory and returns a pointer to that memory in *outputXmlData*. Call [**MrmFreeMemory**](mrmfreememory.md) with the same pointer to free that memory. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+This function performs the equivalent of the `makepri dump` command, with the results being stored in memory.
+
+COM must be initialized (e.g. by calling **[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)**) before using this function.
 
 ## Syntax
 
@@ -46,7 +49,7 @@ HRESULT HRESULT MrmDumpPriFileInMemory(
 
 Type: **PCWSTR**
 
-A full file path to a PRI file. This is the PRI file that will be dumped to XML.
+The path to the PRI file to dump. If this file does not have an embedded schema, then *schemaPriFile* is required.
 
 </dd> <dt>
 
@@ -55,7 +58,8 @@ A full file path to a PRI file. This is the PRI file that will be dumped to XML.
 
 Type: **PCWSTR**
 
-An optional full file path to a schema file (or to a PRI file representing a schema; see Remarks).
+The path to the PRI file that provides the schema for the *indexFileName* if needed, otherwise **NULL**. 
+See the **Remarks** section of [**MrmDumpPriFile**](mrmdumpprifile.md) for more info.
 
 </dd> <dt>
 
@@ -64,7 +68,8 @@ An optional full file path to a schema file (or to a PRI file representing a sch
 
 Type: **[**MrmDumpType**](mrmdumptype.md)**
 
-Specifies how detailed the XML dump should be, or whether a schema should be dumped.
+Specified the kind of dump to create. For most use-cases, **MrmDumpTypeBasic** is sufficient. See the 
+[**MrmDumpType** reference](mrmdumptype.md) for more info.
 
 </dd> <dt>
 
@@ -73,7 +78,9 @@ Specifies how detailed the XML dump should be, or whether a schema should be dum
 
 Type: **BYTE\*\***
 
-The address of a pointer to BYTE. The function allocates memory and returns a pointer to that memory in *outputXmlData*. Call [**MrmFreeMemory**](mrmfreememory.md) with your pointer to BYTE to free that memory.
+The address of a **BYTE** pointer. On successful return, contains a pointer to the buffer allocated by
+the function that contains the generated XML content. You must free the memory by calling 
+[**MrmFreeMemory**](mrmfreememory.md) when you are done with it.
 
 </dd> <dt>
 
@@ -82,7 +89,8 @@ The address of a pointer to BYTE. The function allocates memory and returns a po
 
 Type: **ULONG\***
 
-The address of a ULONG. In *outputXmlSize*, the function returns the size of the allocated memory pointed to by *outputXmlData*.
+The address of a **ULONG**. On successful return, contains the size of the allocated memory buffer pointed to by
+ *outputXmlData*.
 
 </dd> </dl>
 
@@ -90,11 +98,13 @@ The address of a ULONG. In *outputXmlSize*, the function returns the size of the
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) 
+to determine success or failure.
 
 ## Remarks
 
-A schema-free resource pack is one that was created with the [**MrmPackagingOptionsOmitSchemaFromResourcePacks**](mrmpackagingoptions.md) argument passed to [**MrmCreateResourceFile**](mrmcreateresourcefile.md) or [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md) (or with the *omitSchemaFromResourcePacks* switch in the PRI config file). To dump a schema-free resource pack, pass the path to your main package PRI data as the argument for the *schemaPriFile* parameter.
+See the **Remarks** section of [**MrmDumpPriFile**](mrmdumpprifile.md) for more info,
+as this function is essentially the same (except it dumps the XML to memory instead of to a disk file).
 
 ## Requirements
 
@@ -111,11 +121,16 @@ A schema-free resource pack is one that was created with the [**MrmPackagingOpti
 
 
 ## See also
+<dl> <dt>
 
+[**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmDumpPriFile**](mrmdumpprifile.md)
+</dt></dl>
 <dl> <dt>
 
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
-
- 
-
