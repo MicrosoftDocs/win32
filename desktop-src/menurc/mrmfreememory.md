@@ -18,9 +18,10 @@ ms.date: 05/31/2018
 
 # MrmFreeMemory function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Frees memory allocated by [**MrmCreateConfigInMemory**](mrmcreateconfiginmemory.md), [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md), 
+[**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md), and [**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md).
 
-Frees memory allocated by [**MrmCreateConfigInMemory**](mrmcreateconfiginmemory.md), [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md), [**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md), and [**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md). For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+To free the indexer handle, use [**MrmDestroyIndexerAndMessages**](mrmdestroyindexerandmessages.md).
 
 ## Syntax
 
@@ -30,8 +31,6 @@ HRESULT HRESULT MrmFreeMemory(
   _In_ BYTE *data
 );
 ```
-
-
 
 ## Parameters
 
@@ -50,7 +49,8 @@ A pointer to memory allocated and returned by [**MrmCreateConfigInMemory**](mrmc
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) 
+to determine success or failure.
 
 ## Requirements
 
@@ -70,8 +70,10 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 
 <dl> <dt>
 
-[Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
+[**MrmDestroyIndexerAndMessages**](mrmdestroyindexerandmessages.md)
 </dt> </dl>
 
- 
+<dl> <dt>
 
+[Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
+</dt> </dl>

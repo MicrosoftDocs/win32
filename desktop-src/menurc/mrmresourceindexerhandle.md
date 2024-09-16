@@ -1,6 +1,6 @@
 ---
 title: MrmResourceIndexerHandle structure (MrmResourceIndexer.h)
-description: Represents an opaque handle to a resource indexer object. The handle is managed by the operating system. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
+description: Represents a handle to a resource indexer object.
 ms.assetid: E3ED8AB8-39B8-419C-9570-1CC6B2CFE8D0
 keywords:
 - MrmResourceIndexerHandle structure Menus and Other Resources
@@ -19,9 +19,8 @@ ms.date: 05/31/2018
 
 # MrmResourceIndexerHandle structure
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
-
-Represents an opaque handle to a resource indexer object. The handle is managed by the operating system. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Represents a handle to a resource indexer object. Most MRM functions require an indexer handle, which can 
+be obtained via one of the **MrmCreateResourceIndexer...** functions.
 
 ## Syntax
 
@@ -45,7 +44,7 @@ Type: **PVOID**
 
 </dd> <dd>
 
-An opaque handle to a resource indexer object.
+An opaque handle to a resource indexer object. Do not use this value directly.
 
 </dd> </dl>
 
@@ -65,8 +64,35 @@ An opaque handle to a resource indexer object.
 
 <dl> <dt>
 
+[**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousPriData**](mrmcreateresourceindexerfrompreviouspridata-.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousSchemaData**](mrmcreateresourceindexerfrompreviousschemadata.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousSchemaFile**](mrmcreateresourceindexerfrompreviousschemafile.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmDestroyIndexerAndMessages**](mrmresourceindexermessage.md)
+</dt></dl>
+
+<dl> <dt>
+
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
-</dt> </dl>
-
- 
-
+</dt></dl>

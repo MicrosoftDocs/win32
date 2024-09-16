@@ -18,9 +18,8 @@ ms.date: 05/31/2018
 
 # MrmPackagingMode enumeration
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
-
-Defines constants that specify what kind of PRI file(s) should be created by [**MrmCreateResourceFile**](mrmcreateresourcefile.md) and [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Defines constants that specify what kind of PRI file(s) should be created by [**MrmCreateResourceFile**](mrmcreateresourcefile.md) and 
+[**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). 
 
 ## Syntax
 
@@ -42,23 +41,64 @@ typedef enum _MrmPackagingMode {
 <span id="MrmPackagingModeStandaloneFile"></span><span id="mrmpackagingmodestandalonefile"></span><span id="MRMPACKAGINGMODESTANDALONEFILE"></span>**MrmPackagingModeStandaloneFile**
 </dt> <dd>
 
-Specifies that a single PRI file should be created.
+A single PRI file should be created containing all resources. This is the most common usage, and the only supported mode
+for unpackaged desktop apps.
 
 </dd> <dt>
 
 <span id="MrmPackagingModeAutoSplit"></span><span id="mrmpackagingmodeautosplit"></span><span id="MRMPACKAGINGMODEAUTOSPLIT"></span>**MrmPackagingModeAutoSplit**
 </dt> <dd>
 
-Specifies that multiple PRI files should be created; split automatically by all supported qualifiers (specifically, language and scale).
+One or more PRI files should be created, determined by language or scale. See **Remarks** for more info.
 
 </dd> <dt>
 
 <span id="MrmPackagingModeResourcePack"></span><span id="mrmpackagingmoderesourcepack"></span><span id="MRMPACKAGINGMODERESOURCEPACK"></span>**MrmPackagingModeResourcePack**
 </dt> <dd>
 
-Specifies that an add-on satellite PRI file should be created.
+A single resource-pack PRI file should be created. See **Remarks** for more info.
 
 </dd> </dl>
+
+## Remarks
+
+PRI files created for unpackaged apps must use **MrmPackagingModeStandaloneFile** as MRT Core only supports a single PRI file. 
+For packaged apps, you should also use **MrmPackagingModeStandaloneFile** unless you plan on building Resource Packs to minimize 
+download / install size. A single stand-alone PRI file contains all resources in all languages / scales, and so is usable in all 
+target markets. If you are building a packaged app and want to create Resource Packs, you can use one of the other two values.
+
+**MrmPackagingModeAutoSplit** creates a PRI file for each of the following kinds of resources:
+
+1. A main PRI, including all resources with the default language qualifier and all neutral resources.
+1. One language-specific PRI for each set of resources using a non-default language qualifier.
+1. One scale-specific PRI for each scale factor that is not a default qualifier and did not also have a language specifier.
+
+For example, assume the indexer was created with English as the default qualifer, and it contains resources with all the 
+following qualifiers:
+
+1. \<none>
+1. language-en
+1. language-en_scale-100
+1. language-de
+1. language-de_scale-200
+1. scale-400
+
+In this case, 3 PRI files will be created:
+
+* The file `resources.pri` will contain resources #1 (neutral) and #2 & #3 (default language).
+* The file `resources.language-de.pri` will contain resources #4 & #5 (non-default language).
+* The file `resources.scale-400.pri` will contain resource #6 (scale but no language).
+
+Note that if the option **MrmPackagingOptionsSplitLanguageVariants** is specified when creating the PRI files,
+a PRI file will be created for each language variant (eg, en-US, en-AU, and en-GB) instead of just one for each
+language.
+
+**MrmPackagingModeResourcePack** produces a single PRI file that contains resources in a single language. All
+resources must have the same language as the default qualifier language. The resource indexer *must* have been created using 
+[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md) or
+[**MrmCreateResourceIndexerFromPreviousPriData**](mrmcreateresourceindexerfrompreviouspridata-.md) and passing
+the main PRI file as the *priFile* or *priData* parameters, respectively. Unlike the **AutoSplit** mode, there is no
+mechanism to create individual scale-based resource packs.
 
 ## Requirements
 
@@ -76,8 +116,13 @@ Specifies that an add-on satellite PRI file should be created.
 
 <dl> <dt>
 
+[**MrmCreateResourceFile**](mrmcreateresourcefile.md)
+</dt> </dl>
+<dl> <dt>
+
+[**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md)
+</dt> </dl>
+<dl> <dt>
+
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
-
- 
-
