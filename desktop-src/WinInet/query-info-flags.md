@@ -91,7 +91,9 @@ api_name:
 - HTTP_QUERY_X_FRAME_OPTIONS
 - HTTP_QUERY_X_XSS_PROTECTION
 - HTTP_QUERY_FLAG_COALESCE
+- HTTP_QUERY_FLAG_COALESCE_WITH_COMMA
 - HTTP_QUERY_FLAG_NUMBER
+- HTTP_QUERY_FLAG_NUMBER64
 - HTTP_QUERY_FLAG_REQUEST_HEADERS
 - HTTP_QUERY_FLAG_SYSTEMTIME
 api_location:
@@ -1227,7 +1229,20 @@ The modifier flags are used in conjunction with an attribute flag to modify the 
 
 
 
-Not implemented.
+Combine the values from several headers of the same name into the output buffer.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="HTTP_QUERY_FLAG_COALESCE_WITH_COMMA"></span><span id="http_query_flag_coalesce_with_comma"></span>**HTTP\_QUERY\_FLAG\_COALESCE\_WITH\_COMMA**
+</dt> <dd> <dl> <dt>
+
+0x04000000
+</dt> <dt>
+
+
+
+Combine the values from several headers of the same name using comma as the delimiter.
 
 
 </dt> </dl> </dd> <dt>
@@ -1241,6 +1256,19 @@ Not implemented.
 
 
 Returns the data as a 32-bit number for headers whose value is a number, such as the status code.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="HTTP_QUERY_FLAG_NUMBER64"></span><span id="http_query_flag_number64"></span>**HTTP\_QUERY\_FLAG\_NUMBER64**
+</dt> <dd> <dl> <dt>
+
+0x08000000
+</dt> <dt>
+
+
+
+Returns the data as a 64-bit number for headers whose value is a number.
 
 
 </dt> </dl> </dd> <dt>
