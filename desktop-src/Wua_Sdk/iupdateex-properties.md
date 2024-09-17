@@ -1,6 +1,6 @@
 ---
 description: The IUpdateEx interface defines the following properties.
-title: IUpdateEX Properties
+title: IUpdateEx Properties
 ms.topic: article
 ms.date: 08/13/2024
 ---
@@ -9,10 +9,9 @@ ms.date: 08/13/2024
 
 The [**IUpdateEx**](/windows/win32/api/wuapi/nn-wuapi-iupdateex) interface defines the following properties.
 
-
-| Property | Description |
-|----------|-------------|
-| [**ExtendedStaticProperty**](/windows/win32/api/Wuapi/nf-wuapi-iupdateex-get_extendedstaticproperty.md)   | Gets the value of an extended static property.                                         |
+| Property                                                    | Description                                                                          |
+|-----------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [**ExtendedStaticProperty**](/windows/win32/api/Wuapi/nf-wuapi-iupdateex-get_extendedstaticproperty.md)    | Gets the value of an extended static property.                           |
  
 
 For information about the members inherited by this interface, see the following interfaces:
