@@ -13,5 +13,5 @@ The [**IUpdateDownloaderEx**](/windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloa
 
 | Method                                                    | Description                                                                          |
 |-----------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [**BeginDownload2**](/windows/win32/api/Wuapi/nf-wuapi-iupdatedownloaderex-begindownload2.md)     | Starts an asynchronous download of the content files that are associated with the updates.                           |
-| [**Download2**](/windows/win32/api/Wuapi/nf-wuapi-iupdatedownloaderex-download2.md)     | Starts a synchronous download of the content files that are associated with the updates.                           |
+| [**BeginDownload2**](/windows/win32/api/Wuapi/nf-wuapi-iupdatedownloaderex-begindownload2)     | Starts an asynchronous download of the content files that are associated with the updates.                           |
+| [**Download2**](/windows/win32/api/Wuapi/nf-wuapi-iupdatedownloaderex-download2)     | Starts a synchronous download of the content files that are associated with the updates.                           |

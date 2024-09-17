@@ -1,6 +1,6 @@
 ---
 description: The IUpdateEx interface defines the following properties.
-title: IUpdateEX Properties
+title: IUpdateEx Properties
 ms.topic: article
 ms.date: 08/13/2024
 ---
