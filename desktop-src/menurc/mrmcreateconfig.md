@@ -1,6 +1,6 @@
 ---
 title: MrmCreateConfig function (MrmResourceIndexer.h)
-description: Creates a new, initialized PRI config file defining the qualifier defaults that you specify. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
+description: Creates a new, initialized PRI config file for use with the makepri tool.
 ms.assetid: F8FB4E9C-1C04-460A-BFA1-FB663653DA3C
 keywords:
 - MrmCreateConfig function Menus and Other Resources
@@ -18,9 +18,11 @@ ms.date: 05/31/2018
 
 # MrmCreateConfig function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Creates a new, initialized PRI config file for use with the Windows SDK **MakePri** tool. None of the other MRM functions work with config files.
 
-Creates a new, initialized PRI config file defining the qualifier defaults that you specify. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+This function performs the equivalent of the `makepri createconfig` command.
+
+COM must be initialized (e.g. by calling **[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)**) before using this function.
 
 ## Syntax
 
@@ -44,7 +46,7 @@ HRESULT HRESULT MrmCreateConfig(
 
 Type: **[**MrmPlatformVersion**](mrmplatformversion.md)**
 
-The platform version (*targetOsVersion*) to use for the generated configuration file.
+The platform version (*targetOsVersion*) to use for the generated configuration file. Most callers should just use **MrmPlatformVersion_Windows10_0_0_5**
 
 </dd> <dt>
 
@@ -53,7 +55,7 @@ The platform version (*targetOsVersion*) to use for the generated configuration 
 
 Type: **PCWSTR**
 
-A list of default resource qualifiers. For example, L"language-en-US\_scale-100\_contrast-standard"
+A list of default resource qualifiers. For example, "language-en-US_scale-100". For more information about qualifiers, see [Qualifiers in MRM](mrmqualifiers.md).
 
 </dd> <dt>
 
@@ -62,7 +64,8 @@ A list of default resource qualifiers. For example, L"language-en-US\_scale-100\
 
 Type: **PCWSTR**
 
-The path of the configuration file to create.
+The path of the configuration file to create. The file will be overwritten if it already exists.
+The directory must already exist.
 
 </dd> </dl>
 
@@ -70,7 +73,7 @@ The path of the configuration file to create.
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+**S\_OK** if the function succeeded, otherwise an error value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) to determine success or failure.
 
 ## Requirements
 

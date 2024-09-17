@@ -8,9 +8,24 @@ ms.date: 05/31/2018
 
 # Package resource indexing (PRI) reference
 
-A set of APIs for working with a resource indexer. A resource indexer is used to generate package resource index (PRI) files for a UWP app. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+A set of APIs for creating PRI files via a resource indexer. PRI files are used by both packaged and unpackaged
+apps to locate resources (such as strings or image files) at runtime.
+
+These APIs are used to create build tools that perform similar functions to the Windows SDK **MakePri** tool
+and to Visual Studio MSIX projects. They are not intended to be used by applications themselves; at runtime
+apps should use either [**Windows.ApplicationModel.Resources**](/uwp/api/windows.applicationmodel.resources) (for
+UWP apps) or 
+[**Microsoft.Windows.ApplicationModel.Resources**](/windows/windows-app-sdk/api/winrt/microsoft.windows.applicationmodel.resources) (for WinApp SDK apps) to resolve resources.
+
+For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
 ## In this section
+
+**Conceptual**
+
+-   [Qualifiers in MRM](mrmqualifiers.md)
+-   [Resource names in MRM](mrmresourcenames.md)
+-   [File resources in MRM](mrmfiles.md)
 
 **Functions**
 
