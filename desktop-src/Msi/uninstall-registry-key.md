@@ -12,7 +12,7 @@ The following installer properties give the values written under the registry ke
 
 **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Uninstall**
 
-The values are stored in a subkey identified by the application's product code GUID.
+The values are stored in a subkey identified by the application's [product code](productcode.md) GUID.
 
 
 
