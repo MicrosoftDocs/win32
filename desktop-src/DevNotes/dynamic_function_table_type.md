@@ -132,7 +132,7 @@ Reserved.
 For function tables which are `RF_CALLBACK`, this contains an optional pointer to a string that specifies the path of a DLL that provides function table entries from outside of the target process.
 
 When a debugger unwinds to a function in the range of addresses managed by the callback function, it loads this DLL and calls the **OUT_OF_PROCESS_FUNCTION_TABLE_CALLBACK_EXPORT_NAME**
-function, whose type is **POUT_OF_PROCESS_FUNCTION_TABLE_CALLBACK**. For more information, see the definitions of these items in WinNT.h.
+function, whose type is [**POUT_OF_PROCESS_FUNCTION_TABLE_CALLBACK**](pout_of_process_function_table_callback.md).
 
 </dd>
 
