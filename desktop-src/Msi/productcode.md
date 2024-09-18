@@ -14,6 +14,8 @@ A product upgrade that updates a product into an entirely new product must also 
 
 The **ProductCode** is advertised as a product property, and is the primary method of specifying the product. This property is REQUIRED.
 
+The product code is used as the name of the product's [uninstall registry key](uninstall-registry-key.md).
+
 ## Requirements
 
 
