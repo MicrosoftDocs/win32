@@ -273,5 +273,5 @@ int main()
 ## Related topics
 
 * [Using DXCore to enumerate adapters](dxcore-enum-adapters.md)
-* [DXCore Reference](./dxcore-reference.md)
+* [DXCore reference](./dxcore-reference.md)
 * [Direct3D 12 graphics](../direct3d12/direct3d-12-graphics.md)

@@ -11,4 +11,4 @@ The **IDXCoreAdapterList** interface implements methods for retrieving adapter
 
 ## See also
 
-[DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)
+[DXCore reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

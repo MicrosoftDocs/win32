@@ -17,6 +17,6 @@ The following free functions are declared in dxcore.h.
 
 ## Related topics
 
-* [DXCore Reference](./dxcore-reference.md)
+* [DXCore reference](./dxcore-reference.md)
 * [Using DXCore to enumerate adapters](./dxcore-enum-adapters.md)
 * [Direct3D 12 graphics](../direct3d12/direct3d-12-graphics.md)
