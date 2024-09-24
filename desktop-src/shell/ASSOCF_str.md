@@ -112,7 +112,7 @@ Specifies that the BaseClass value should be ignored.
 
  <span id="ASSOCF_APP_TO_APP"></span><span id="assocf_app_to_app"></span>**ASSOCF\_APP\_TO\_APP** 
 
-**Introduced in Windows 10 April 2018 Update**  For http/https uri associations, this enables selecting the OS default browser, that is a controlled by policy settings, instead of the default browser.
+**Introduced in Windows 10 April 2018 Update** Include app-to-app (apps for websites, URI handlers from packaged apps) when resolving.
 
 ## Requirements
 
