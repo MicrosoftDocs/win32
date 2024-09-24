@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Devices.AudioDevice.RawProcessingSupported
 
-Raw processing mode support for the audio device. If VARIANT\_TRUE the device supports raw processing mode.
+Raw processing mode support for the audio device. If VARIANT\_TRUE the device supports raw processing mode which allows the calling app to obtain unprocessed samples from the capture device.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
 
