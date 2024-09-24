@@ -184,12 +184,9 @@ The following is the complete listing of the manifest file schema.
   -->
   <ElementType name="heapType" />
 
+  <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2024/WindowsSettings
+  -->
+  <ElementType name="supportedArchitectures" />
+
   </Schema>
 ```
-
- 
-
- 
-
-
-
