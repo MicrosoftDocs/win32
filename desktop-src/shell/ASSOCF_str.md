@@ -29,7 +29,10 @@ typedef enum  {
     ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,  
     ASSOCF_INIT_FIXED_PROGID     = 0x00000800,  
     ASSOCF_IS_PROTOCOL           = 0x00001000,  
-    ASSOCF_INIT_FOR_FILE         = 0x00002000
+    ASSOCF_INIT_FOR_FILE         = 0x00002000,
+    ASSOCF_IS_FULL_URI           = 0x00004000,
+    ASSOCF_PER_MACHINE_ONLY      = 0x00008000,
+    ASSOCF_APP_TO_APP            = 0x00010000,
 } ASSOCF;
 ```
 
@@ -99,7 +102,17 @@ Specifies that the BaseClass value should be ignored.
 
 **Introduced in Windows 8.1**. Specifies that the ProgID corresponds with a file extension based association. Use together with **ASSOCF\_INIT\_FIXED\_PROGID**.
 
- 
+ <span id="ASSOCF_IS_FULL_URI"></span><span id="assocf_is_full_uri"></span>**ASSOCF\_IS\_FULL\_URI** 
+
+**Introduced in Windows 10 Anniversary Update**. Used to specify that full http/https URI is being passed for target resolution. Only one of ASSOCF_INIT_FIXED_PROGID, ASSOCF_IS_PROTOCOL or ASSOCF_IS_FULL_URI can be specified at a time.
+
+ <span id="ASSOCF_PER_MACHINE_ONLY"></span><span id="assocf_per_machine_only"></span>**ASSOCF\_PER\_MACHINE\_ONLY** 
+
+**Introduced in Windows 10 Anniversary Update**. Enforces per-machine association look-up only and avoid HKCU.
+
+ <span id="ASSOCF_APP_TO_APP"></span><span id="assocf_app_to_app"></span>**ASSOCF\_APP\_TO\_APP** 
+
+**Introduced in Windows 10 April 2018 Update**  For http/https uri associations, this enables selecting the OS default browser, that is a controlled by policy settings, instead of the default browser.
 
 ## Requirements
 
