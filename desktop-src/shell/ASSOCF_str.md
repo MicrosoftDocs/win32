@@ -104,15 +104,15 @@ Specifies that the BaseClass value should be ignored.
 
  <span id="ASSOCF_IS_FULL_URI"></span><span id="assocf_is_full_uri"></span>**ASSOCF\_IS\_FULL\_URI** 
 
-**Introduced in Windows 10 Anniversary Update**. Used to specify that full http/https URI is being passed for target resolution. Only one of ASSOCF_INIT_FIXED_PROGID, ASSOCF_IS_PROTOCOL or ASSOCF_IS_FULL_URI can be specified at a time.
+**Introduced in Windows 10 Anniversary Update**. Specifies that the full http/https URI is being passed for target resolution. Only one of ASSOCF_INIT_FIXED_PROGID, ASSOCF_IS_PROTOCOL, or ASSOCF_IS_FULL_URI can be specified at a time.
 
  <span id="ASSOCF_PER_MACHINE_ONLY"></span><span id="assocf_per_machine_only"></span>**ASSOCF\_PER\_MACHINE\_ONLY** 
 
-**Introduced in Windows 10 Anniversary Update**. Enforces per-machine association look-up only and avoid HKCU.
+**Introduced in Windows 10 Anniversary Update**. Enforces per-machine association look-up only and avoids **HKEY\_CURRENT\_USER**.
 
  <span id="ASSOCF_APP_TO_APP"></span><span id="assocf_app_to_app"></span>**ASSOCF\_APP\_TO\_APP** 
 
-**Introduced in Windows 10 April 2018 Update** Include app-to-app (apps for websites, URI handlers from packaged apps) when resolving.
+**Introduced in Windows 10 April 2018 Update**. Instructs [**IQueryAssociations**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) methods to include app-to-app (apps for websites, URI handlers from packaged apps) when resolving.
 
 ## Requirements
 
