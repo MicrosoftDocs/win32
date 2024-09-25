@@ -41,13 +41,13 @@ winrt::check_hresult(
 
 This section demonstrates how, given an adapter list object, you could find the first hardware adapter in the list.
 
-The [**IDXCoreAdapterList::GetAdapterCount**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadaptercount) method tells you the number of elements in the list, and [**IDXCoreAdapterList::GetAdapter**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadapter) retrieves a specific adapter by index.
+The [**IDXCoreAdapterList::GetAdapterCount**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadaptercount) method tells you the number of elements in the list, and [**IDXCoreAdapterList::GetAdapter**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getadapter) retrieves a specific adapter by index.
 
 You can then query the properties of that adapter, by following these steps.
 
-- First, to confirm that it's valid to retrieve the value of a given property for this adapter on this operating system version, you call [**IDXCoreAdapter::IsPropertySupported**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported). Pass a value of the [**DXCoreAdapterProperty**](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) enumeration to identify which property you're querying about.
-- Optionally confirm the size of the property value with a call to [**IDXCoreAdapter::GetPropertySize**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize). For a property such as **DXCoreAdapterProperty::IsHardware**, which is a simple Boolean, this step isn't necessary.
-- And, finally, retrieve the property's value by calling [**IDXCoreAdapter::GetProperty**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty).
+- First, to confirm that it's valid to retrieve the value of a given property for this adapter on this operating system version, you call [**IDXCoreAdapter::IsPropertySupported**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-ispropertysupported). Pass a value of the [**DXCoreAdapterProperty**](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) enumeration to identify which property you're querying about.
+- Optionally confirm the size of the property value with a call to [**IDXCoreAdapter::GetPropertySize**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getpropertysize). For a property such as **DXCoreAdapterProperty::IsHardware**, which is a simple Boolean, this step isn't necessary.
+- And, finally, retrieve the property's value by calling [**IDXCoreAdapter::GetProperty**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty).
 
 ```cppwinrt
 winrt::com_ptr<IDXCoreAdapter> preferredAdapter;
@@ -83,11 +83,11 @@ for (uint32_t i = 0; i < count; ++i)
 
 ## Select the preferred adapter by sorting an adapter list
 
-You can sort a DXCore adapter list by calling the [IDXCoreAdapterList::Sort](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-sort) method.
+You can sort a DXCore adapter list by calling the [IDXCoreAdapterList::Sort](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-sort) method.
 
 The [DXCoreAdapterPreference](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterpreference) enumeration defines values that representing sort criteria. Pass an array of those values to **Sort**, and then read off the first adapter in the resulting sorted list.
 
-To determine whether a sort type is going to be understood by **Sort**, first call [IDXCoreAdapterList::IsAdapterPreferenceSupported](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isadapterpreferencesupported).
+To determine whether a sort type is going to be understood by **Sort**, first call [IDXCoreAdapterList::IsAdapterPreferenceSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isadapterpreferencesupported).
 
 ```cppwinrt
 winrt::com_ptr<IDXCoreAdapter> TryFindHardwareHighPerformanceGraphicsAdapter()
@@ -123,7 +123,7 @@ winrt::com_ptr<IDXCoreAdapter> TryFindHardwareHighPerformanceGraphicsAdapter()
 
 ## Query and set adapter state (properties)
 
-You can retrieve and set the state of a specified state item of an adapter by calling the [**IDXCoreAdapter::QueryState**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate) and [**IDXCoreAdapter::SetState**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate) methods.
+You can retrieve and set the state of a specified state item of an adapter by calling the [**IDXCoreAdapter::QueryState**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate) and [**IDXCoreAdapter::SetState**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate) methods.
 
 ```cppwinrt
 void SetDesiredMemoryReservation(winrt::com_ptr<IDXCoreAdapter> const& adapter, uint64_t reservation)
@@ -148,13 +148,13 @@ void SetDesiredMemoryReservation(winrt::com_ptr<IDXCoreAdapter> const& adapter, 
 }
 ```
 
-In practice, before calling **QueryState** and **SetState**, you should call [IsQueryStateSupported](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported) to confirm that querying the state kind is available for this adapter and operating system (OS).
+In practice, before calling **QueryState** and **SetState**, you should call [IsQueryStateSupported](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-isquerystatesupported) to confirm that querying the state kind is available for this adapter and operating system (OS).
 
 ## Adapter list freshness
 
-Should an adapter list become stale due to changing system conditions, it will be marked as such. You can determine an adapter list's freshness by polling its [**IDXCoreAdapterList::IsStale**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isstale) method.
+Should an adapter list become stale due to changing system conditions, it will be marked as such. You can determine an adapter list's freshness by polling its [**IDXCoreAdapterList::IsStale**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-isstale) method.
 
-More conveniently, though, you can subscribe to notifications for conditions such as staleness. To do that, pass [**DXCoreNotificationType::AdapterListStale**](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype) to [**IDXCoreAdapterFactory::RegisterEventNotification**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification), and safely store the returned cookie for use later.
+More conveniently, though, you can subscribe to notifications for conditions such as staleness. To do that, pass [**DXCoreNotificationType::AdapterListStale**](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype) to [**IDXCoreAdapterFactory::RegisterEventNotification**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification), and safely store the returned cookie for use later.
 
 ```cppwinrt
 uint32_t m_eventCookie = 0;
@@ -177,7 +177,7 @@ static void WINAPI OnAdapterListStale(
 
 You can then generate a new, current, adapter list object from the factory object that you already have. Handling these conditions is critical to your ability to seamlessly respond to events such as adapter arrival and removal (whether that be a GPU, or a specialized compute adapter), and to appropriately shift workloads in response.
 
-Before you destroy the adapter list object, you must use the cookie value to unregister that object from notifications by calling [IDXCoreAdapterFactory::UnregisterEventNotification](/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification). If you don't unregister, then a fatal exception is raised when the situation is detected.
+Before you destroy the adapter list object, you must use the cookie value to unregister that object from notifications by calling [IDXCoreAdapterFactory::UnregisterEventNotification](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification). If you don't unregister, then a fatal exception is raised when the situation is detected.
 
 ```cppwinrt
 HRESULT hr = factory->UnregisterEventNotification(m_eventCookie);
@@ -186,11 +186,11 @@ HRESULT hr = factory->UnregisterEventNotification(m_eventCookie);
 ## Display information
 
 > [!NOTE]
-> DXCore doesn't itself provide any display information. Where necessary, you should use the Windows Runtime [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor) class to retrieve this information. An adapter's [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) provides a common identifier that you can use to map a DXCore adapter to [**DisplayMonitor.DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) information. To obtain an adapter's LUID, pass [**DXCoreAdapterProperty::InstanceLuid**](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) to the [**IDXCoreAdapter::GetProperty**](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty) method.
+> DXCore doesn't itself provide any display information. Where necessary, you should use the Windows Runtime [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor) class to retrieve this information. An adapter's [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) provides a common identifier that you can use to map a DXCore adapter to [**DisplayMonitor.DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) information. To obtain an adapter's LUID, pass [**DXCoreAdapterProperty::InstanceLuid**](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty) to the [**IDXCoreAdapter::GetProperty**](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty) method.
 
 ## Enumerate adapters for media workloads
 
-While the [IDXCoreAdapterFactory1::CreateAdapterListByWorkload](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory1-createadapterlistbyworkload) method allows you to provide specific filters for workload, runtime, and hardware-type, we recommend that you limit the filtering to what's essential. The primary reason for this is to help guarantee compatibility across a wide range of end-user configurations. You can rely on DXCore providing your app with the most suitable adapter in the first entry of the adapter list; and you can ignore the rest, if necessary. In this example, we'll create an adapter list for a media (that is, video processing) workload where media accelerators will be prioritized by DXCore.
+While the [IDXCoreAdapterFactory1::CreateAdapterListByWorkload](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory1-createadapterlistbyworkload) method allows you to provide specific filters for workload, runtime, and hardware-type, we recommend that you limit the filtering to what's essential. The primary reason for this is to help guarantee compatibility across a wide range of end-user configurations. You can rely on DXCore providing your app with the most suitable adapter in the first entry of the adapter list; and you can ignore the rest, if necessary. In this example, we'll create an adapter list for a media (that is, video processing) workload where media accelerators will be prioritized by DXCore.
 
 ```cppwinrt
 void EnumerateAcceleratorsForMedia(ComPtr<IDXCoreAdapterList> &accelsForMedia)
@@ -214,7 +214,7 @@ void EnumerateAcceleratorsForMedia(ComPtr<IDXCoreAdapterList> &accelsForMedia)
 
 ## Enumerate NPUs for ML workloads
 
-In some cases it's appropriate to further narrow down the adapter list for [IDXCoreAdapterFactory1::CreateAdapterListByWorkload](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory1-createadapterlistbyworkload), such as in the case where you only want efficient processing of machine learning workloads on an NPU. This example will provide an adapter list consisting of NPUs capable of processing ML workloads through DirectX meta-commands, omitting GPUs and compute accelerators.
+In some cases it's appropriate to further narrow down the adapter list for [IDXCoreAdapterFactory1::CreateAdapterListByWorkload](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory1-createadapterlistbyworkload), such as in the case where you only want efficient processing of machine learning workloads on an NPU. This example will provide an adapter list consisting of NPUs capable of processing ML workloads through DirectX meta-commands, omitting GPUs and compute accelerators.
 
 ```cppwinrt
 void EnumerateNPUsForML(ComPtr<IDXCoreAdapterList> &npus)
@@ -236,7 +236,7 @@ void EnumerateNPUsForML(ComPtr<IDXCoreAdapterList> &npus)
 
 ## Enumerate adapters with/without DirectX user-mode drivers
 
-DXCore supports enumeration of MCDM/WDDM devices that don't provide a Direct 3D user mode driver (but instead rely on private interfaces or other libraries for interaction). Those devices aren't enumerable through [IDXCoreAdapterFactory1::CreateAdapterListByWorkload](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory1-createadapterlistbyworkload) because that method is designed to support use cases involving the DirectX stack. However, this narrow class of adapters will be enumerable through the [IDXCoreAdapterFactory::CreateAdapterList](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist) method by using the new [hardware-type attributes](./dxcore-adapter-attribute-guids.md#runtime-agnostic-hardware-types). This example enumerates every adapter on the system regardless of Direct 3D runtime support, and adds it to a map with the hardware-type attribute GUID as a key.
+DXCore supports enumeration of MCDM/WDDM devices that don't provide a Direct 3D user mode driver (but instead rely on private interfaces or other libraries for interaction). Those devices aren't enumerable through [IDXCoreAdapterFactory1::CreateAdapterListByWorkload](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory1-createadapterlistbyworkload) because that method is designed to support use cases involving the DirectX stack. However, this narrow class of adapters will be enumerable through the [IDXCoreAdapterFactory::CreateAdapterList](/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-createadapterlist) method by using the new [hardware-type attributes](./dxcore-adapter-attribute-guids.md#runtime-agnostic-hardware-types). This example enumerates every adapter on the system regardless of Direct 3D runtime support, and adds it to a map with the hardware-type attribute GUID as a key.
 
 ```cppwinrt
 void EnumerateAllAdapters(std::map<GUID, ComPtr<IDXCoreAdapterList>> &adapterListByType)
