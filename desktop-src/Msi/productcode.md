@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ProductCode property
 
-The **ProductCode** property is a unique identifier for the particular product release, represented as a string [GUID](guid.md), for example "{12345678-1234-1234-1234-123456789012}". Letters used in this GUID must be uppercase. This ID must vary for different versions and languages.
+The **ProductCode** property contains the [product code](product-codes.md), a unique identifier for the particular product release, represented as a string [GUID](guid.md), for example "{12345678-1234-1234-1234-123456789012}". Letters used in this GUID must be uppercase. This ID must vary for different versions and languages.
 
 A product upgrade that updates a product into an entirely new product must also change the product code. The 32-bit and 64-bit versions of an application's package must be assigned different product codes.
 
