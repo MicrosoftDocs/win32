@@ -8,11 +8,11 @@ ms.date: 05/31/2018
 
 # Predefined Category Values
 
-The following values identify categories implemented by Text Services Framework.
+The following values identify categories implemented by Text Services Framework (TSF).
 
-**GUID_TFCAT_CATEGORY_OF_TIP** categrorize the types of tips.
+**GUID_TFCAT_CATEGORY_OF_TIP** specifies the type of text input processor (TIP).
 
-GUIDs for the Tips category. Each category contains Tips classes.
+GUIDs for the TIP category. Each category contains TIP classes.
 
 |  Identifier                |
 |----------------------------|
@@ -20,7 +20,7 @@ GUIDs for the Tips category. Each category contains Tips classes.
 | GUID_TFCAT_TIP_SPEECH      |
 | GUID_TFCAT_TIP_HANDWRITING |
 
-GUIDs for the tip capability category. Each category contains Property GUID.
+GUIDs for the TIP Capability category. Each category contains a Property GUID.
 
 |  Identifier                            |
 |----------------------------------------|
@@ -32,14 +32,14 @@ GUIDs for the tip capability category. Each category contains Property GUID.
 | GUID_TFCAT_TIPCAP_IMMERSIVESUPPORT     |
 | GUID_TFCAT_TIPCAP_SYSTRAYSUPPORT       |
 
-GUIDs for the property category. Each category contains Property GUID.
+GUIDs for the Property category. Each category contains a Property GUID.
 
 |  Identifier               |
 |---------------------------|
 | GUID_TFCAT_PROP_AUDIODATA |
 | GUID_TFCAT_PROP_INKDATA   |
 
-GUIDs for the property style.
+GUIDs for the Property style.
 
 |  Identifier                        |
 |------------------------------------|
@@ -47,7 +47,7 @@ GUIDs for the property style.
 | GUID_TFCAT_PROPSTYLE_STATIC        |
 | GUID_TFCAT_PROPSTYLE_STATICCOMPACT |
 
-GUIDs for the display attribute provider category.
+GUIDs for the Display Attribute Provider category.
 
 |  Identifier                         |
 |-------------------------------------|
@@ -62,16 +62,9 @@ GUIDs for the display attribute provider category.
 
 ## Related topics
 
-<dl> <dt>
-
-[**ITfCategoryMgr::EnumItemsInCategory**](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-enumitemsincategory)
-</dt> <dt>
-
-[**ITfCategoryMgr::RegisterCategory**](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-registercategory)
-</dt> <dt>
-
-[**ITfInputProcessorProfiles::GetDefaultLanguageProfile**](/windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getdefaultlanguageprofile)
-</dt> </dl>
+- [**ITfCategoryMgr::EnumItemsInCategory**](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-enumitemsincategory)
+- [**ITfCategoryMgr::RegisterCategory**](/windows/desktop/api/Msctf/nf-msctf-itfcategorymgr-registercategory)
+- [**ITfInputProcessorProfiles::GetDefaultLanguageProfile**](/windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getdefaultlanguageprofile)
 
  
 
