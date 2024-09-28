@@ -62,6 +62,11 @@
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-querystate
         - name: "SetState"
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-setstate
+      - name: "IDXCoreAdapter1"
+        href: /windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapter1
+        items: 
+        - name: "GetPropertyWithInput"
+          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter1-getpropertywithinput
       - name: "IDXCoreAdapterFactory"
         href: /windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory.md
         items: 
@@ -80,8 +85,6 @@
         items: 
         - name: "CreateAdapterListByWorkload"
           href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory1-createadapterlistbyworkload
-        - name: "CreateAdapterListByWorkload(DXCoreWorkload,DXCoreRuntimeFilterFlags,DXCoreHardwareTypeFilterFlags,T)"
-          href: /windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory1-createadapterlistbyworkload(dxcoreworkload_dxcoreruntimefilterflags_dxcorehardwaretypefilterflags_t)
       - name: "IDXCoreAdapterList"
         href: /windows/win32/dxcore/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist.md
         items: 
