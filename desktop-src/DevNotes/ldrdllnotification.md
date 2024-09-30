@@ -63,16 +63,17 @@ The reason that the notification callback function was called. This parameter ca
 
 A pointer to a constant **LDR\_DLL\_NOTIFICATION** union that contains notification data. This union has the following definition:
 
-``` syntax
+```C++
 typedef union _LDR_DLL_NOTIFICATION_DATA {
     LDR_DLL_LOADED_NOTIFICATION_DATA Loaded;
     LDR_DLL_UNLOADED_NOTIFICATION_DATA Unloaded;
 } LDR_DLL_NOTIFICATION_DATA, *PLDR_DLL_NOTIFICATION_DATA;
+typedef const LDR_DLL_NOTIFICATION_DATA *PCLDR_DLL_NOTIFICATION_DATA;
 ```
 
 The **LDR\_DLL\_LOADED\_NOTIFICATION\_DATA** structure has the following definition:
 
-``` syntax
+```C++
 typedef struct _LDR_DLL_LOADED_NOTIFICATION_DATA {
     ULONG Flags;                    //Reserved.
     PCUNICODE_STRING FullDllName;   //The full path name of the DLL module.
@@ -84,7 +85,7 @@ typedef struct _LDR_DLL_LOADED_NOTIFICATION_DATA {
 
 The **LDR\_DLL\_UNLOADED\_NOTIFICATION\_DATA** structure has the following definition:
 
-``` syntax
+```C++
 typedef struct _LDR_DLL_UNLOADED_NOTIFICATION_DATA {
     ULONG Flags;                    //Reserved.
     PCUNICODE_STRING FullDllName;   //The full path name of the DLL module.
