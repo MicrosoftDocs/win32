@@ -196,13 +196,38 @@
             href: business-rules.md
           - name: "Collections"
             href: collections.md
-    - name: "AppContainer for legacy apps"
-      href: appcontainer-for-legacy-applications-.md
-      items: 
+    - name: "AppContainer"
+      items:
+      - name: "AppContainer for legacy apps"
+        href: appcontainer-for-legacy-applications-.md
       - name: "AppContainer isolation"
         href: appcontainer-isolation.md
       - name: "Implement an AppContainer"
         href: implementing-an-appcontainer.md
+      - name: "App Isolation"
+        items:
+        - name: "App Isolation overview"
+          href: app-isolation-overview.md
+        - name: "Consent for Isolated Win32 apps"
+          href: app-isolation-app-consent.md
+        - name: "Package isolated Win32 apps with MSIX"
+          href: app-isolation-msix-packaging.md
+        - name: "Package isolated Win32 apps with Visual Studio"
+          href: app-isolation-packaging-with-vs.md
+        - name: "Application capability profiler (ACP)"
+          href: app-isolation-capability-profiler.md
+        - name: "App Isolation profiling reference"
+          items:
+          - name: "Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler module"
+            href: app-isolation-reference/Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler.md
+          - name: "Get-ProfilingResults"
+            href: app-isolation-reference/Get-ProfilingResults.md
+          - name: "Merge-ProfilingResults"
+            href: app-isolation-reference/Merge-ProfilingResults.md
+          - name: "Start-Profiling"
+            href: app-isolation-reference/Start-Profiling.md
+          - name: "Stop-Profiling"
+            href: app-isolation-reference/Stop-Profiling.md
     - name: "Mandatory Integrity Control"
       href: mandatory-integrity-control.md
     - name: "User Account Control"
