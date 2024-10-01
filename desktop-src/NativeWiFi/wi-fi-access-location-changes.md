@@ -7,12 +7,6 @@ ms.date: 04/01/2024
 
 # Changes to API behavior for Wi-Fi access and location
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
 ## A summary of the changes
 
 In order to better manage which apps have access to location, Windows is planning to add new privacy controls.
