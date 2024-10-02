@@ -82,4 +82,4 @@ To add cipher suites, either deploy a group policy or use the TLS cmdlets:
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.
 
 > [!IMPORTANT]
-> HTTP/2 web services are incompatible with custom TLS cipher suite orders. For more information see [How to deploy custom cipher suite ordering](https://support.microsoft.com/help/4032720/how-to-deploy-custom-cipher-suite-ordering-in-windows-server-2016).
+> HTTP/2 web services are incompatible with custom TLS cipher suite orders. For more information see [How to deploy custom cipher suite ordering](/troubleshoot/windows-server/windows-security/deploy-custom-cipher-suite-ordering).

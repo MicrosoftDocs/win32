@@ -25,20 +25,18 @@ In situations where an I/O request is expected to take a large amount of time, s
 
 If a file or device is opened for synchronous I/O (that is, **FILE\_FLAG\_OVERLAPPED** is not specified), subsequent calls to functions such as [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) can block execution of the calling thread until one of the following events occurs:
 
--   The I/O operation completes (in this example, a data write).
--   An I/O error occurs. (For example, the pipe is closed from the other end.)
--   An error was made in the call itself (for example, one or more parameters are not valid).
--   Another thread in the process calls the [**CancelSynchronousIo**](cancelsynchronousio-func.md) function using the blocked thread's thread handle, which terminates I/O for that thread, failing the I/O operation.
--   The blocked thread is terminated by the system; for example, the process itself is terminated, or another thread calls the [**TerminateThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread) function using the blocked thread's handle. (This is generally considered a last resort and not good application design.)
+- The I/O operation completes (in this example, a data write).
+- An I/O error occurs. (For example, the pipe is closed from the other end.)
+- An error was made in the call itself (for example, one or more parameters are not valid).
+- Another thread in the process calls the [**CancelSynchronousIo**](cancelsynchronousio-func.md) function using the blocked thread's thread handle, which terminates I/O for that thread, failing the I/O operation.
+- The blocked thread is terminated by the system; for example, the process itself is terminated, or another thread calls the [**TerminateThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread) function using the blocked thread's handle. (This is generally considered a last resort and not good application design.)
 
 In some cases, this delay may be unacceptable to the application's design and purpose, so application designers should consider using asynchronous I/O with appropriate thread synchronization objects such as [I/O completion ports](i-o-completion-ports.md). For more information about thread synchronization, see [About Synchronization](/windows/desktop/Sync/about-synchronization).
 
 A process opens a file for asynchronous I/O in its call to [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) by specifying the **FILE\_FLAG\_OVERLAPPED** flag in the *dwFlagsAndAttributes* parameter. If **FILE\_FLAG\_OVERLAPPED** is not specified, the file is opened for synchronous I/O. When the file has been opened for asynchronous I/O, a pointer to an [**OVERLAPPED**](/windows/desktop/api/MinWinBase/ns-minwinbase-overlapped_entry) structure is passed into the call to [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) and [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile). When performing synchronous I/O, this structure is not required in calls to **ReadFile** and **WriteFile**.
 
-> [!Note]  
-> If a file or device is opened for asynchronous I/O, subsequent calls to functions such as [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) using that handle generally return immediately but can also behave synchronously with respect to blocked execution. For more information, see [https://support.microsoft.com/kb/156932](https://support.microsoft.com/kb/156932).
-
- 
+> [!NOTE]
+> If a file or device is opened for asynchronous I/O, subsequent calls to functions such as [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) using that handle generally return immediately but can also behave synchronously with respect to blocked execution. For more information, see [Asynchronous disk I/O appears as synchronous on Windows](/previous-versions/troubleshoot/windows/win32/asynchronous-disk-io-synchronous).
 
 Although [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) is the most common function to use for opening files, disk volumes, anonymous pipes, and other similar devices, I/O operations can also be performed using a handle *typecast* from other system objects such as a socket created by the [**socket**](/windows/desktop/api/winsock2/nf-winsock2-socket) or [**accept**](/windows/desktop/api/winsock2/nf-winsock2-accept) functions.
 
@@ -46,8 +44,8 @@ Handles to directory objects are obtained by calling the [**CreateFile**](/windo
 
 After opening the file object for asynchronous I/O, an [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure must be properly created, initialized, and passed into each call to functions such as [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) and [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile). Keep the following in mind when using the [**OVERLAPPED**](/windows/desktop/api/MinWinBase/ns-minwinbase-overlapped_entry) structure in asynchronous read and write operations:
 
--   Do not deallocate or modify the [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure or the data buffer until all asynchronous I/O operations to the file object have been completed.
--   If you declare your pointer to the [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure as a local variable, do not exit the local function until all asynchronous I/O operations to the file object have been completed. If the local function is exited prematurely, the **OVERLAPPED** structure will go out of scope and it will be inaccessible to any [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) or [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) functions it encounters outside of that function.
+- Do not deallocate or modify the [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure or the data buffer until all asynchronous I/O operations to the file object have been completed.
+- If you declare your pointer to the [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure as a local variable, do not exit the local function until all asynchronous I/O operations to the file object have been completed. If the local function is exited prematurely, the **OVERLAPPED** structure will go out of scope and it will be inaccessible to any [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) or [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) functions it encounters outside of that function.
 
 You can also create an event and put the handle in the [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure; the [wait functions](/windows/desktop/Sync/wait-functions) can then be used to wait for the I/O operation to complete by waiting on the event handle.
 
@@ -61,13 +59,9 @@ An application can also wait on the file handle to synchronize the completion of
 
 To cancel all pending asynchronous I/O operations, use either:
 
--   [**CancelIo**](cancelio.md)—this function only cancels operations issued by the calling thread for the specified file handle.
--   [**CancelIoEx**](cancelioex-func.md)—this function cancels all operations issued by the threads for the specified file handle.
+- [**CancelIo**](cancelio.md)—this function only cancels operations issued by the calling thread for the specified file handle.
+- [**CancelIoEx**](cancelioex-func.md)—this function cancels all operations issued by the threads for the specified file handle.
 
 Use [**CancelSynchronousIo**](cancelsynchronousio-func.md) to cancel pending synchronous I/O operations.
 
 The [**ReadFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-readfileex) and [**WriteFileEx**](/windows/desktop/api/FileAPI/nf-fileapi-writefileex) functions enable an application to specify a routine to execute (see [**FileIOCompletionRoutine**](/windows/win32/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine)) when the asynchronous I/O request is completed.
-
- 
-
- 
