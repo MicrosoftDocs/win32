@@ -33,9 +33,9 @@ Indicates when a title bar or icon needs to be changed to indicate an active or 
 *lParam* 
 </dt> <dd>
 
-When a [visual style](../controls/themes-overview.md) is active for this window, this parameter is not used.
+If this parameter is set to -1, [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) does not repaint the nonclient area to reflect the state change.
 
-When a visual style is not active for this window, this parameter is a handle to an optional update region for the nonclient area of the window. If this parameter is set to -1, [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) does not repaint the nonclient area to reflect the state change.
+In other case. if *wParam* is **TRUE**, it indicates the **HWND** handle of the previously active window. If *wParam* is **FALSE**, it indicates the **HWND** handle of the window that is going to be activated. This can be **NULL** if the window that was previously active (or is going to be activated) is from other application.
 
 </dd> </dl>
 
