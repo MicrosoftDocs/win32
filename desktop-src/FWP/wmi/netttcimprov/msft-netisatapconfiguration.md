@@ -59,7 +59,7 @@ The **MSFT\_NetISATAPConfiguration** class has these methods.
 
 | Method                                                                       | Description                                                            |
 |:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------|
-| [**GetConfig**](../raserverpsprov/getconfigurationversion-ps-remoteaccesslocal.md) | Obtains the configuration given the specified policy store.<br/> |
+| [**GetConfig**](/previous-versions/windows/desktop/raserverpsprov/getconfigurationversion-ps-remoteaccesslocal) | Obtains the configuration given the specified policy store.<br/> |
 
 
 

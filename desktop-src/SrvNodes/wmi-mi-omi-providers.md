@@ -138,7 +138,7 @@ Enables administrators and programmers to configure Domain Name System (DNS) res
 
 </dd> <dt>
 
-<span id="Dnsclientcim_Provider_Classes"></span><span id="dnsclientcim_provider_classes"></span><span id="DNSCLIENTCIM_PROVIDER_CLASSES"></span>[Dnsclientcim Provider Classes](/previous-versions/windows/desktop/dnsclientcimprov/dns-client-classes)
+<span id="Dnsclientcim_Provider_Classes"></span><span id="dnsclientcim_provider_classes"></span><span id="DNSCLIENTCIM_PROVIDER_CLASSES"></span>[Dnsclientcim Provider Classes](/windows/win32/fwp/wmi/dnsclientcimprov/dns-client-classes)
 </dt> <dd>
 
 The Dnsclientcim provider supports classes that interact with a Domain Name System (DNS) client.
@@ -341,17 +341,17 @@ The [MSFT\_PCSVDevice](/previous-versions/windows/desktop/pcsvdeviceprov/device-
 
 </dd> <dt>
 
-<span id="MsNetImPlatform"></span><span id="msnetimplatform"></span><span id="MSNETIMPLATFORM"></span>[MsNetImPlatform](/previous-versions/windows/desktop/ndisimplatcimprov/lbfo-classes)
+<span id="MsNetImPlatform"></span><span id="msnetimplatform"></span><span id="MSNETIMPLATFORM"></span>[MsNetImPlatform](/windows/win32/fwp/wmi/ndisimplatcimprov/lbfo-classes)
 </dt> <dd>
 
-The [MsNetImPlatform](/previous-versions/windows/desktop/ndisimplatcimprov/lbfo-classes) provider section provides reference information for MsNetImPlatform provider classes implemented in NdisIMPlatCim.dll.
+The [MsNetImPlatform](/windows/win32/fwp/wmi/ndisimplatcimprov/lbfo-classes) provider section provides reference information for MsNetImPlatform provider classes implemented in NdisIMPlatCim.dll.
 
 </dd> <dt>
 
-<span id="NetAdapterCim"></span><span id="netadaptercim"></span><span id="NETADAPTERCIM"></span>[NetAdapterCim](/previous-versions/windows/desktop/netadaptercimprov/network-adapter-classes)
+<span id="NetAdapterCim"></span><span id="netadaptercim"></span><span id="NETADAPTERCIM"></span>[NetAdapterCim](/windows/win32/fwp/wmi/netadaptercimprov/msft-netadapter-vmqfilter)
 </dt> <dd>
 
-The [NetAdapterCim](/previous-versions/windows/desktop/netadaptercimprov/network-adapter-classes) provider supports classes that access network adapters.
+The [NetAdapterCim](/windows/win32/fwp/wmi/netadaptercimprov/msft-netadapter-vmqfilter) provider supports classes that access network adapters.
 
 </dd> <dt>
 
@@ -383,21 +383,21 @@ The [NetQosCim](/previous-versions/windows/desktop/qoswmiprov/net-qos-classes) p
 
 </dd> <dt>
 
-<span id="NetSwitchTeam"></span><span id="netswitchteam"></span><span id="NETSWITCHTEAM"></span>[NetSwitchTeam](/previous-versions/windows/desktop/netswitchteamprov/network-switch-team-classes)
+<span id="NetSwitchTeam"></span><span id="netswitchteam"></span><span id="NETSWITCHTEAM"></span>[NetSwitchTeam](/windows/win32/fwp/wmi/netswitchteamprov/network-switch-team-classes)
 </dt> <dd>
 
 This section provides reference information for NetSwitchTeam provider classes declared in NetSwitchTeam.mof and implemented in NetSwitchTeamCim.dll.
 
 </dd> <dt>
 
-<span id="NetTCPIP"></span><span id="nettcpip"></span><span id="NETTCPIP"></span>[NetTCPIP](/previous-versions/windows/desktop/nettcpipprov/net-tcpip-classes)
+<span id="NetTCPIP"></span><span id="nettcpip"></span><span id="NETTCPIP"></span>[NetTCPIP](/windows/win32/fwp/wmi/nettcpipprov/net-tcpip-classes)
 </dt> <dd>
 
 The NetTCPIP provider supports classes that interact with TCPIP connections.
 
 </dd> <dt>
 
-<span id="NetTtCim"></span><span id="netttcim"></span><span id="NETTTCIM"></span>[NetTtCim](/previous-versions/windows/desktop/netttcimprov/network-transition-classes)
+<span id="NetTtCim"></span><span id="netttcim"></span><span id="NETTTCIM"></span>[NetTtCim](/windows/win32/fwp/wmi/netttcimprov/network-transition-classes)
 </dt> <dd>
 
 This section provides reference information for NetTtCim provider classes defined in NetTtCim.mof and implemented in NetTtCim.dll.
@@ -670,10 +670,10 @@ Provides access to the classes, instances, methods, and events of hardware drive
 
 </dd> <dt>
 
-<span id="WFasCim"></span><span id="wfascim"></span><span id="WFASCIM"></span>[WFasCim](/previous-versions/windows/desktop/wfascimprov/network-security-classes)
+<span id="WFasCim"></span><span id="wfascim"></span><span id="WFASCIM"></span>[WFasCim](/windows/win32/fwp/wmi/wfascimprov/network-security-classes)
 </dt> <dd>
 
-The [WFasCim](/previous-versions/windows/desktop/wfascimprov/network-security-classes) provider exposes network security and filtering features.
+The [WFasCim](/windows/win32/fwp/wmi/wfascimprov/network-security-classes) provider exposes network security and filtering features.
 
 </dd> <dt>
 
