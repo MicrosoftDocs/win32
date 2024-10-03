@@ -9,6 +9,9 @@ ms.date: 08/27/2024
 
 The **Merge-ProfilingResults** cmdlet is used to merge multiple **Get-ProfilingResults** output files into a single output file.
 
+> [!IMPORTANT]
+> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 Module Name: [Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler](Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler.md)
 
 ## Syntax

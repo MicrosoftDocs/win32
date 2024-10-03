@@ -11,6 +11,9 @@ Packaging an existing MSIX or Win32 application into a Win32 app isolation appli
 
 You can find the download for MPT, as well as the profiler, in the [releases](https://github.com/microsoft/win32-app-isolation/releases) section of the Win32 app isolation GitHub repository.
 
+> [!IMPORTANT]
+> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 ## Convert an existing Win32 installer into an MSIX app
 
 1. Select "Application Package" on the far left and choose where the package will be created. This flow will follow the "Create package on this computer" option.

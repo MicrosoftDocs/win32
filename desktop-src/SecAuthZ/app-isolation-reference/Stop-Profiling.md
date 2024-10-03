@@ -9,6 +9,9 @@ ms.date: 08/27/2024
 
 The **Stop-Profiling** cmdlet is used to stop access attempt profiling for a specified application package. The cmdlet stops an active trace logging session started via [Start-Profiling](Start-Profiling.md), collects the resulting Event Trace Log (ETL) file, and takes away access attempt trace logging instrumentation from all currently instrumented packages.
 
+> [!IMPORTANT]
+> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
 > [!NOTE]
 > **Stop-Profiling** requires administrator privileges and that Developer Mode be enabled in Windows settings. See [Enable your device for development](/windows/apps/get-started/enable-your-device-for-development) for more information.
 
