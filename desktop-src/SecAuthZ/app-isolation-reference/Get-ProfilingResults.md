@@ -10,7 +10,7 @@ ms.date: 08/27/2024
 The **Get-ProfilingResults** cmdlet parses one or more specified ETL (Event Tracing for Windows) files to find access denied events for application packages and identifies capabilities that would allow the package to perform those accesses. It also outputs relevant information about the access denied events found for the packages.
 
 > [!IMPORTANT]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> **This feature is in preview:** Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 Module Name: [Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler](Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler.md)
 

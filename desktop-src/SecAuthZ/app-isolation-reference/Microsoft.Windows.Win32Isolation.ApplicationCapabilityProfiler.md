@@ -10,7 +10,7 @@ ms.date: 08/27/2024
 This section contains information about the cmdlets that are installed with **Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler** PowerShell module. These cmdlets enable access attempt profiling for an application package in order to identify what access capabilities should be declared the in application package manifest.
 
 > [!IMPORTANT]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> **This feature is in preview:** Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 ## Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler Cmdlets
 

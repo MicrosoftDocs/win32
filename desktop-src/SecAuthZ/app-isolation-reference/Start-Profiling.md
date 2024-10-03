@@ -10,7 +10,7 @@ ms.date: 08/27/2024
 The **Start-Profiling** cmdlet is used to start access attempt profiling for an application package. The cmdlet both starts an access attempt trace logging session and instruments the application package so it's able to log to the session.
 
 > [!IMPORTANT]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> **This feature is in preview:** Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 > [!NOTE]
 > **Start-Profiling** requires administrator privileges and that Developer Mode be enabled in Windows settings. See [Enable your device for development](/windows/apps/get-started/enable-your-device-for-development) for more information.

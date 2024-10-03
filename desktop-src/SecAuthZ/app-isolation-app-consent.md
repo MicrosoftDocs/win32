@@ -10,7 +10,7 @@ ms.date: 08/26/2024
 Consent for Win32 app isolation can be granted or removed in several ways. This document describes how consent is granted and how it can be revoked.
 
 > [!IMPORTANT]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> **This feature is in preview:** Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 ## How file access consent is granted
 

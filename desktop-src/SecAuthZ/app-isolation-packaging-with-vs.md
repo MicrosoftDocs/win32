@@ -10,7 +10,7 @@ ms.date: 08/26/2024
 This page will cover everything needed to package an application to leverage Win32 app isolation.
 
 > [!IMPORTANT]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> **This feature is in preview:** Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 ## Required prerequisites
 

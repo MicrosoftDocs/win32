@@ -12,7 +12,7 @@ Packaged applications may need to access resources outside of the sandbox. Examp
 Application capability profiler is a set of tools that help identify what capabilities may need to be declared by an application package, so it's granted the resource access it needs. Furthermore, it provides useful diagnostic information on failed access attempts by the application package.
 
 > [!IMPORTANT]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> **This feature is in preview:** Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 ## Prepare the target system for profiling
 
