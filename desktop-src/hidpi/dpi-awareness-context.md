@@ -32,7 +32,7 @@ Identifies the awareness context for a window.
 </dl>
 
 **DPI\_AWARENESS\_CONTEXT\_PER\_MONITOR\_AWARE\_V2**<dl> Also known as **Per Monitor v2**. An advancement over the original per-monitor DPI awareness mode, which enables applications to access new DPI-related scaling behaviors on a per top-level window basis.  
-Per Monitor v2 was made available in the Creators Update of Windows 10, and is not available on earlier versions of the operating system.  
+Per Monitor v2 was made available in the Creators Update of Windows 10 (also known as version 1703), and is not available on earlier versions of the operating system.  
 The additional behaviors introduced are as follows:
 
 -   **Child window DPI change notifications** - In Per Monitor v2 contexts, the entire window tree is notified of any DPI changes that occur.
