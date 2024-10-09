@@ -55,8 +55,7 @@ The **Publisher** attribute string that is defined for the [**Identity**](/uwp/s
 Use the [**MakeCert**](/windows-hardware/drivers/devtest/makecert) utility to create a self-signed test certificate and private key:
 
 ``` syntax
-MakeCert /n publisherName /r /h 0 /eku "1.3.6.1.5.5.7.3.3,1.3.6.1.4.1.311.10.3.13" /e 
-expirationDate /sv MyKey.pvk MyKey.cer
+MakeCert /n publisherName /r /h 0 /eku "1.3.6.1.5.5.7.3.3,1.3.6.1.4.1.311.10.3.13" /e <expirationDate> /sv MyKey.pvk MyKey.cer
 ```
 
 This command prompts you to provide a password for the .pvk file. We recommend that you choose a [strong password](/previous-versions/windows/embedded/bb499367(v=winembedded.5)) and keep your private key in a secure location.
