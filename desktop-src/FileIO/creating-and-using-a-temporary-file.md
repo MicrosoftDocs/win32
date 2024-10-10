@@ -23,7 +23,7 @@ Each of the previous steps is checked for success before moving to the next step
 
 Note that text file manipulation was chosen for ease of demonstration only and can be replaced with any desired data manipulation procedure required. The data file can be of any data type, not only text.
 
-For more information, see [**GetTempPath2**](/windows/desktop/api/FileAPI/nf-fileapi-gettemppath2a). In the following example, an error is regarded as a terminal condition and the application exits after sending a descriptive message to standard output. However, many other options exist, such as prompting the user for a temporary directory or simply attempting to use the current directory.
+The [**GetTempPath2**](/windows/desktop/api/FileAPI/nf-fileapi-gettemppath2a) function retrieves a fully qualified path string from an environment variable but does not check in advance for the existence of the path or adequate access rights to that path, which is the responsibility of the application developer. For more information, see [**GetTempPath2**](/windows/desktop/api/FileAPI/nf-fileapi-gettemppath2a). In the following example, an error is regarded as a terminal condition and the application exits after sending a descriptive message to standard output. However, many other options exist, such as prompting the user for a temporary directory or simply attempting to use the current directory.
 
 > [!Note]  
 > The [**GetTempFileName**](/windows/desktop/api/FileAPI/nf-fileapi-gettempfilenamea) function does not require that the [**GetTempPath2**](/windows/desktop/api/FileAPI/nf-fileapi-gettemppath2a) function be used.
