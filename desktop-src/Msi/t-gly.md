@@ -29,14 +29,14 @@ Template of the differences between two [*installer databases*](i-gly.md) that c
 <span id="_msi_transform_error_condition_flags_gly"></span><span id="_MSI_TRANSFORM_ERROR_CONDITION_FLAGS_GLY"></span>**transform error condition flags**
 </dt> <dd>
 
-Set of properties used to flag the error conditions of a [*transform*](/windows). For more information, see [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa).
+Set of properties used to flag the error conditions of a **transform**. For more information, see [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa).
 
 </dd> <dt>
 
 <span id="_msi_transform_validation_flags_gly"></span><span id="_MSI_TRANSFORM_VALIDATION_FLAGS_GLY"></span>**transform validation flags**
 </dt> <dd>
 
-Set of properties used to verify that the [*transform*](/windows) can be applied to the database. For a list of these properties, see [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa).
+Set of properties used to verify that the **transform** can be applied to the database. For a list of these properties, see [**MsiCreateTransformSummaryInfo**](/windows/desktop/api/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa).
 
 </dd> </dl>
 
