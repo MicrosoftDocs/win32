@@ -634,6 +634,8 @@
         href: retrieving-an-issued-certificate-from-the-active-directory.md
       - name: "Retrieving a Certificate Revocation List"
         href: retrieving-a-certificate-revocation-list.md
+      - name: "Crypt32 Certificate Revocation List Semantics"
+        href: certificate-revocation-list-semantics.md
       - name: "Customizing the Certificate Services Web Enrollment Pages"
         href: customizing-the-certificate-services-web-enrollment-pages.md
       - name: "Setting the Type Tag Field"
