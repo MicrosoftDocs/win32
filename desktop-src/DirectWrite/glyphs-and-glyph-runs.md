@@ -39,7 +39,7 @@ A glyph run represents a contiguous set of glyphs that all have the same font fa
 
 ### The IDWriteFontFace Interface
 
-[DirectWrite](direct-write-portal.md) uses the same system for font classification as Windows Pesentation Foundation (WPF), so there can be multiple physical fonts per each font family. A font face, such as the [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) interface in DirectWrite, represents a physical font, with a specific weight, slant, and stretch. It contains the font face type, appropriate file references, face identification data and various font data such as metrics, names and glyph outlines.
+[DirectWrite](direct-write-portal.md) uses the same system for font classification as Windows Presentation Foundation (WPF), so there can be multiple physical fonts per each font family. A font face, such as the [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) interface in DirectWrite, represents a physical font, with a specific weight, slant, and stretch. It contains the font face type, appropriate file references, face identification data and various font data such as metrics, names and glyph outlines.
 
 The [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) can be created directly from a font name or obtained from a font collection.
 
