@@ -55,7 +55,7 @@ HTREEITEM AddItemToTree(HWND hwndTV, LPTSTR lpszItem, int nLevel)
 
     // Set the text of the item. 
     tvi.pszText = lpszItem; 
-    tvi.cchTextMax = sizeof(tvi.pszText)/sizeof(tvi.pszText[0]); 
+    tvi.cchTextMax = _tcslen(tvi.pszText) + 1; 
 
     // Assume the item is not a parent item, so give it a 
     // document image. 
