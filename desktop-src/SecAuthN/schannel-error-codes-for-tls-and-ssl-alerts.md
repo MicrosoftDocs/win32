@@ -3,7 +3,7 @@ description: Schannel returns the following error messages when the correspondin
 ms.assetid: 0a6ac61d-a00c-4fc8-a995-d25d17e405df
 title: Schannel Error Codes for TLS and SSL Alerts
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 10/23/2024
 ---
 
 # Schannel Error Codes for TLS and SSL Alerts
@@ -37,6 +37,8 @@ ms.date: 05/31/2018
 | TLS1\_ALERT\_USER\_CANCELED<br/> 90<br/>       | SEC\_E\_UNFINISHED\_CONTEXT\_DELETED<br/> 0x80090333<br/> |
 | TLS1\_ALERT\_NO\_RENEGOTIATION<br/> 100<br/>   | SEC\_E\_ILLEGAL\_MESSAGE<br/> 0x80090326<br/>             |
 | TLS1\_ALERT\_UNSUPPORTED\_EXT<br/> 110<br/>    | SEC\_E\_ILLEGAL\_MESSAGE<br/> 0x80090326<br/>             |
+| TLS1\_ALERT\_UNKNOWN\_PSK\_IDENTITY<br/> 115<br/>   | SEC\_E\_ILLEGAL\_MESSAGE<br/> 0x80090326<br/>             |
+| TLS1\_ALERT\_NO\_APP\_PROTOCOL<br/> 120<br/>    | SEC\_E\_ILLEGAL\_MESSAGE<br/> 0x80090367<br/>             |
 | Default<br/>                                         | SEC\_E\_ILLEGAL\_MESSAGE<br/> 0x80090326<br/>             |
 
 
