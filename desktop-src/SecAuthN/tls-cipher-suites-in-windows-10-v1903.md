@@ -2,17 +2,17 @@
 description: Learn about TLS cipher suites in Windows 10 v1903, v1909, and v2004. Cipher suites can only be negotiated for TLS versions which support them.
 title: TLS Cipher Suites in Windows 10 v1903, v1909, and v2004
 ms.topic: article
-ms.date: 10/09/2018
+ms.date: 10/23/2024
 ---
 
 # TLS Cipher Suites in Windows 10 v1903, v1909, and v2004
 
 Cipher suites can only be negotiated for TLS versions which support them. The highest supported TLS version is always preferred in the TLS handshake.
 
-Availability of cipher suites should be controlled in one of two ways:
+Availability of cipher suites are controlled by combining the two configurations below:
 
-- Default priority order is overridden when a priority list is configured. Cipher suites not in the priority list will not be used.
-- Allowed when the application passes SCH\_USE\_STRONG\_CRYPTO: The Microsoft Schannel provider will filter out known weak cipher suites when the application uses the SCH\_USE\_STRONG\_CRYPTO flag. RC4, DES, export and null cipher suites are filtered out.
+- LSA Configuration: Default priority order is overridden when a priority list is configured. Cipher suites not in the priority list will not be used.
+- App Configuration: Applications can pass [SCHANNEL\_CRED](https://learn.microsoft.com/en-us/windows/win32/api/schannel/ns-schannel-schannel_cred) or [SCH\_CREDENTIALS](https://learn.microsoft.com/en-us/windows/win32/api/schannel/ns-schannel-sch_credentials) to specify the flags and enable (or disabled) specific protocols/algorithms during [AcquireCredentialsHandle (Schannel) function](https://learn.microsoft.com/en-us/windows/win32/secauthn/acquirecredentialshandle--schannel). More details can be referred at: [Creating a Secure Connection Using Schannel](https://learn.microsoft.com/en-us/windows/win32/secauthn/creating-a-secure-connection-using-schannel)
 
 > [!IMPORTANT]
 > HTTP/2 web services fail with non-HTTP/2-compatible cipher suites. To ensure your web services function with HTTP/2 clients and browsers, see [How to deploy custom cipher suite ordering](/troubleshoot/windows-server/windows-security/deploy-custom-cipher-suite-ordering).
