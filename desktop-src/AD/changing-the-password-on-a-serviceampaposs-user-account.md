@@ -58,8 +58,16 @@ if( !szServerDNS ||
 // Use the distinguished name to bind to the account object.
 _tcsncpy_s(szAccountPath, TEXT("LDAP://"), MAX_PATH);
 _tcscat_s(szAccountPath, 
-    szAccountDN, 
-    MAX_PATH - _tcslen(szAccountPath));
+    MAX_PATH, 
+    szAccountDN);
+
+hr = CoInitialize(NULL);
+if (FAILED(hr)) 
+{
+    _tprintf(TEXT("Initializing COM failed - 0x%x\n"), dwStatus = hr);
+       goto cleanup;
+}
+
 hr = ADsGetObject(szAccountPath, IID_IADsUser, (void**)&pUser);
 if (FAILED(hr)) 
 {
