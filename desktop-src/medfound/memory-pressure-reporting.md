@@ -52,6 +52,9 @@ HRESULT BeginMemoryPressureQuery(
     IDirect3DQuery9 **ppQuery
     )
 {
+    if (!pDevice || !ppQuery)
+        return E_POINTER;
+
     HRESULT hr = pDevice->CreateQuery(D3DQUERYTYPE_MEMORYPRESSURE, ppQuery);
 
     if (SUCCEEDED(hr))
