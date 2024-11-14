@@ -10,9 +10,9 @@ ms.date: 05/31/2018
 
 An administrator can use the following methods to enable a non-administrator user to install an application with elevated system privileges.
 
--   In Windows Vista with Windows Installer, a member of the Administrators group can provide authorization for a non-administrator to elevate the installation through [*User Account Control*](u-gly.md) (UAC) as described in [Using Windows Installer with UAC](using-windows-installer-with-uac.md).
+-   In Windows Vista and later versions, with Windows Installer, a member of the Administrators group can provide authorization for a non-administrator to elevate the installation through [*User Account Control*](u-gly.md) (UAC) as described in [Using Windows Installer with UAC](using-windows-installer-with-uac.md).
 
-    **Windows Vista:** Required.
+    **Windows Vista and newer versions:** Required.
 
 The following methods can also be used to install an application with elevated system privileges.
 
