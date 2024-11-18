@@ -51,20 +51,19 @@ Also, starting with Windows Vista, an additional set of **standard system shell 
 
 ## Icon Sizes
 
-The system uses four icon sizes:
+The system uses two icon sizes:
 
--   System small (usually 16x16 pixels size)
--   System large (usually 32x32 pixels size)
+-   System small (usually 16x16 pixels size) - is displayed in the window caption
+-   System large (usually 32x32 pixels size) - is mainly used by applications, but it is also displayed in the classic Alt+Tab dialog
+
+When filling in the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexw) structure to be used in registering your window class, set the `hIcon` member to the system large icon and the `hIconSm` member to the system small icon. For more information about class icons, see [Class Icons](/windows/desktop/winmsg/about-window-classes#class-icons).
+
+Windows Explorer shell and common dialogs are using four icon sizes:
+
 -   Shell small (usually 16x16 pixels size)
 -   Shell large (usually 32x32 pixels size)
 -   Shell extra-large (usually 48x48 pixels size)
 -   **Starting Windows Vista:** Jumbo (256x256 pixels size)
-
-The *system small* icon is displayed in the window caption.
-The *system large* icon is mainly used by applications, but it is also displayed in the classic Alt+Tab dialog. 
-The *shell* and *jumbo* icons are used in the Windows Explorer and the common dialogs.
-
-When filling in the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexw) structure to be used in registering your window class, set the `hIcon` member to the system large icon and the `hIconSm` member to the system small icon. For more information about class icons, see [Class Icons](/windows/desktop/winmsg/about-window-classes#class-icons).
 
 As of Windows Vista, *shell small*, *shell large*, and *extra large* scale with dots per inch (dpi) if the process is [marked as dpi-aware](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows). *Jumbo* icon is fixed at 256 pixels regardless of the dpi-aware setting.
 
