@@ -81,7 +81,7 @@ The equivalent Windows Installer command line has `REBOOT=Force` set on the comm
 
 Prompt before restarting option. Displays a message that a restart is required to complete the installation and asks the user whether to restart the system now. You can't use this option with the `/quiet` option.
 
-The equivalent Windows Installer command line has `REBOOTPROMPT = ""` set on the command line.
+The equivalent Windows Installer command line has `REBOOTPROMPT=""` set on the command line.
 
 ## /uninstall (product)
 
