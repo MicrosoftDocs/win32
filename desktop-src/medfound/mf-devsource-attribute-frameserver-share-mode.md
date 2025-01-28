@@ -23,9 +23,9 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/
 
 When this attribute is either not set or set to 0 value, the camera device source is configured in controlling mode.  This is the default mode for camera sources.  When in controlling mode, all camera operations are available and the application may change media types and/or extended camera controls.
 
-Only one controlling mode instance of **IMFMediaSource** can be in an active state at a any time. An **IMFMediaSource** is not considered active after it has been created an initialized. The media source only becomes active after the stream has been started, with a call to [IMFMediaSource::Start](/windows/win32/api/mfidl/nf-mfidl-imfmediasource-start), or after a camera control value is set either by issuing of a camera control by calling [IKsControl::KsProperty](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikscontrol-ksproperty) with the property set [KSPROPERTYSETID_ExtendedCameraControl](/windows-hardware/drivers/stream/kspropertysetid-extendedcameracontrol) or by using the [IMFExtendedCameraControl](/windows/win32/api/mfidl/nn-mfidl-imfextendedcameracontrol) interface. For information on getting instance of **IMFExtendedCameraControl**, see [IMFExtendedCameraController](/windows/win32/api/mfidl/nn-mfidl-imfextendedcameracontroller)
+Only one controlling mode instance of **IMFMediaSource** can be in an active state at any time. An **IMFMediaSource** is not considered active after it has been created an initialized. The media source only becomes active after the stream has been started, with a call to [IMFMediaSource::Start](/windows/win32/api/mfidl/nf-mfidl-imfmediasource-start), or after a camera control value is set either by the issuing of a camera control by calling [IKsControl::KsProperty](/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikscontrol-ksproperty) with the property set [KSPROPERTYSETID_ExtendedCameraControl](/windows-hardware/drivers/stream/kspropertysetid-extendedcameracontrol) or by using the [IMFExtendedCameraControl](/windows/win32/api/mfidl/nn-mfidl-imfextendedcameracontrol) interface. For information on getting instance of **IMFExtendedCameraControl**, see [IMFExtendedCameraController](/windows/win32/api/mfidl/nn-mfidl-imfextendedcameracontroller)
 
-Attempting to activate an **IMFMediaSource** when another controlling mode instance is already active will result in a sharing violation.
+Attempting to render active an **IMFMediaSource** instance when another controlling mode instance is already active will result in a sharing violation.
 
 At any time there can be an arbitrary number of active sharing mode instances of **IMFMediaSource** and newly created sharing mode instances can be activated while a controlling mode instance is active. Sharing mode instances cannot change media types and must use the current media type in use. Sharing mode instances cannot change **KSPROPERTYSETID_ExtendedCameraControl** controls.  Legacy camera controls such as [PROPSETID_VIDCAP_CAMERACONTROL](/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol) and [PROPSETID_VIDCAP_VIDEOPROCAMP](/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp) and OEM/IHV-specific controls can be changed by sharing mode instances.
 
@@ -52,7 +52,7 @@ SampleCreateSharedModeCamera(
     RETURN_IF_FAILED (initAttributes->SetGUID(MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_GUID));
     RETURN_IF_FAILED (initAttributes->SetString(MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK, cameraSymbolicName));
     RETURN_IF_FAILED (initAttributes->SetUINT32(MF_DEVSOURCE_ATTRIBUTE_FRAMESERVER_SHARE_MODE, 1));
-    RETURN_IF_FAILED (MFCreateDeviceSource(initAttributes.get(), deviceSource));
+    RETURN_IF_FAILED (MFCreateDeviceSource(initAttributes.get(), cameraSource));
 
     return S_OK;
 }
@@ -74,7 +74,7 @@ SampleCreateSharedModeCameraFromActivate(
     *cameraSource = nullptr;
 
     RETURN_IF_FAILED (activate->SetUINT32(MF_DEVSOURCE_ATTRIBUTE_FRAMESERVER_SHARE_MODE, 1));
-    RETURN_IF_FAILED (activate->ActivateObject(IID_PPV_ARGS(deviceSource)));
+    RETURN_IF_FAILED (activate->ActivateObject(IID_PPV_ARGS(cameraSource)));
 
     return S_OK;
 }
