@@ -26,7 +26,7 @@ If a mutex is abandoned, the thread that owned the mutex did not properly releas
 #define THREADCOUNT 2
 
 HANDLE ghMutex; 
-
+DWORD dwCount = 0;
 DWORD WINAPI WriteToDatabase( LPVOID );
 
 int main( void )
@@ -86,7 +86,7 @@ DWORD WINAPI WriteToDatabase( LPVOID lpParam )
     // lpParam not used in this example
     UNREFERENCED_PARAMETER(lpParam);
 
-    DWORD dwCount=0, dwWaitResult; 
+    DWORD dwWaitResult; 
 
     // Request ownership of mutex.
 
