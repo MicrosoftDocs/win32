@@ -33,18 +33,13 @@ RtlGetImageFileMachines (
 
 ## Parameters
 
-<dl> <dt>
-
-*DosFileName* \[in\]
-</dt> <dd>
+### DosFileName \[in\]
 
 Pointer to the first string.
 
-</dd> <dt>
+### MachineTypeFlags \[out\]
 
-*MachineTypeFlags* \[out\]
-</dt> <dd>
-
+TBD. For more information, see the **Remarks** section.
 
 ## Return value
 
@@ -61,7 +56,25 @@ TBD
 
 This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
 
- 
+
+The **IMAGE_FILE_MACHINES** struct returned in the *MachineTypeFlags* parameter has the following definition.
+
+```cpp
+typedef struct _IMAGE_FILE_MACHINES {
+    union {
+        ULONG Value;
+#if !defined(SORTPP_PASS)
+        struct {
+            ULONG x86 : 1;
+            ULONG amd64 : 1;
+            ULONG arm : 1;
+            ULONG arm64 : 1;
+            ULONG arm64ec : 1;
+        } DUMMYSTRUCTNAME;
+#endif
+    } DUMMYUNIONNAME;
+} IMAGE_FILE_MACHINES;
+```
 
 ## Requirements
 

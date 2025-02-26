@@ -38,67 +38,37 @@ NTSYSAPI PEXCEPTION_ROUTINE RtlVirtualUnwind2(
 
 ## Parameters
 
-<dl> <dt>
-
-*HandlerType* \[in\]
-</dt> <dd>
+### HandlerType \[in\]
 
 TBD
 
-</dd> <dt>
-
-*ImageBase* \[in\]
-</dt> <dd>
+### ImageBase \[in\]
 
 TBD
 
-</dd> <dt>
-
-*ControlPc* \[in\]
-</dt> <dd>
+### ControlPc \[in\]
 
 TBD
 
-</dd> <dt>
-
-*FunctionEntry* \[in\]
-</dt> <dd>
+### FunctionEntry \[in\]
 
 TBD
 
-</dd> <dt>
-
-*ContextRecord* \[in, out\]
-</dt> <dd>
+### ContextRecord \[in, out\]
 
 TBD
 
-</dd> <dt>
-
-*HandlerData* \[out\]
-</dt> <dd>
+### HandlerData \[out\]
 
 TBD
 
-</dd> <dt>
-
-*EstablisherFrame* \[out\]
-</dt> <dd>
+### EstablisherFrame* \[out\]
 
 TBD
 
-</dd>
-
-<dt>
-
-*ContextPointers* \[in, out, optional\]
-</dt> <dd>
+### ContextPointers* \[in, out, optional\]
 
 TBD
-
-</dd>
-</dl>
-
 
 
 ## Return value
@@ -116,7 +86,7 @@ TBD
 ## Remarks
 
 This function has no associated import library or header file; you must call it using the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions.
- 
+
 
 ## Requirements
 
