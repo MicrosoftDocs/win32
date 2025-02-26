@@ -135,6 +135,8 @@
                 href: -search-sql-isabout.md
               - name: "NEAR Term"
                 href: -search-sql-near.md
+            - name: "CONTAINSSEMANTIC Predicate"
+              href: -search-sql-containssemantic.md
             - name: "FREETEXT Predicate"
               href: -search-sql-freetext.md
           - name: "Non-Full-Text Predicates"
@@ -156,6 +158,8 @@
           href: -search-sql-orderby.md
         - name: "RANK BY Clause"
           href: -search-sql-rankby.md
+        - name: "MERGE Clause"
+          href: -search-sql-merge.md
         - name: "SET Statement"
           href: -search-sql-set.md
         - name: "Rowset Properties"
