@@ -6,14 +6,14 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# System.StorageProviderStatus
+# System.StorageProviderState
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
 
 ```
 propertyDescription
    name = System.StorageProviderStatus
-   shellPKey = PKEY_StorageProviderStatus
+   shellPKey = PKEY_StorageProviderState
    formatID = FCEFF153-E839-4CF3-A9E7-EA22832094B8
    propID = 110
    SearchInfo
