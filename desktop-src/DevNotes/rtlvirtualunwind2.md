@@ -45,23 +45,76 @@ NTSYSAPI NTSTATUS RtlVirtualUnwind2(
 
 ### HandlerType \[in\]
 
-TBD
+The handler type. This parameter can be one of the following values.
+
+This parameter is only present on x64.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="UNW_FLAG_NHANDLER"></a><a id="unw_flag_nhandler"></a><dl>
+<dt><b>UNW_FLAG_NHANDLER</b></dt>
+<dt>0x0</dt>
+</dl>
+</td>
+<td width="60%">
+The function has no handler.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="UNW_FLAG_EHANDLER"></a><a id="unw_flag_ehandler"></a><dl>
+<dt><b>UNW_FLAG_EHANDLER</b></dt>
+<dt>0x1</dt>
+</dl>
+</td>
+<td width="60%">
+The function has an exception handler that should be called.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="UNW_FLAG_UHANDLER"></a><a id="unw_flag_uhandler"></a><dl>
+<dt><b>UNW_FLAG_UHANDLER</b></dt>
+<dt>0x2</dt>
+</dl>
+</td>
+<td width="60%">
+The function has a termination handler that should be called when unwinding an exception.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="UNW_FLAG_CHAININFO"></a><a id="unw_flag_chaininfo"></a><dl>
+<dt><b>UNW_FLAG_CHAININFO</b></dt>
+<dt>0x4</dt>
+</dl>
+</td>
+<td width="60%">
+The <b>FunctionEntry</b> member is the contents of a previous function table entry.
+
+</td>
+</tr>
+</table>
 
 ### ImageBase \[in\]
 
-TBD
+The base address of the module to which the function belongs.
 
 ### ControlPc \[in\]
 
-TBD
+The virtual address where control left the specified function.
 
 ### FunctionEntry \[in\]
 
-TBD
+The address of the function table entry for the specified function. To obtain the function table entry, call the [RtlLookupFunctionEntry](nf-winnt-rtllookupfunctionentry.md) function.
 
 ### ContextRecord \[in, out\]
 
-TBD
+A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure that represents the context of the previous frame.
 
 ### HandlerData \[out\]
 
@@ -72,6 +125,22 @@ TBD
 TBD
 
 ### ContextPointers* \[in, out, optional\]
+
+An optional pointer to a context pointers structure.
+
+### LowLimit [in, optional]
+
+TBD
+
+### HighLimit [in, optional]
+
+TBD
+
+### HandlerRoutine [out, optional]
+
+TBD
+
+### UnwindFlags [in]
 
 TBD
 
