@@ -1,5 +1,5 @@
 ---
-title: Use OBJID\_NATIVEOM to expose a native interface for a window
+title: Use OBJID_NATIVEOM to expose a native interface for a window
 description: This technique allows clients to get a custom object for a window. Servers can use this to expose a pointer to a custom document object for a window.
 ms.assetid: 91713fe5-f03f-464e-88ee-9d8d66d5b19d
 ms.topic: article
