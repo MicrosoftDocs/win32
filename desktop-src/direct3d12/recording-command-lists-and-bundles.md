@@ -3,7 +3,7 @@ title: Creating and recording command lists and bundles
 description: This topic describes recording command lists and bundles in Direct3D 12 apps. Command lists and bundles both allow apps to record drawing or state-changing calls for later execution on the graphics processing unit (GPU).
 ms.assetid: 0074B796-33A4-4AA1-A4E7-48A2A63F25B7
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 02/27/2025
 ---
 
 # Creating and recording command lists and bundles
@@ -216,71 +216,71 @@ Some command list APIs can only be called on certain types of command lists. The
 
 | API Name                                         | Graphics | Compute | Copy | Bundle | In Render Pass |
 |--------------------------------------------------|:--------:|:-------:|:----:|:------:|:--------------:|
-| AtomicCopyBufferUINT                             | ✓        | ✓       | ✓    |        |                |
-| AtomicCopyBufferUINT64                           | ✓        | ✓       | ✓    |        |                |
-| BeginQuery                                       | ✓        |         |      |        | ✓              |
-| BeginRenderPass                                  | ✓        |         |      |        |                |
-| BuildRaytracingAccelerationStructure             | ✓        | ✓       |      |        |                |
-| ClearDepthStencilView                            | ✓        |         |      |        |                |
-| ClearRenderTargetView                            | ✓        |         |      |        |                |
-| ClearState                                       | ✓        | ✓       |      |        |                |
-| ClearUnorderedAccessViewFloat                    | ✓        | ✓       |      |        |                |
-| ClearUnorderedAccessViewUint                     | ✓        | ✓       |      |        |                |
-| CopyBufferRegion                                 | ✓        | ✓       | ✓    |        |                |
-| CopyRaytracingAccelerationStructure              | ✓        | ✓       |      |        |                |
-| CopyResource                                     | ✓        | ✓       | ✓    |        |                |
-| CopyTextureRegion                                | ✓        | ✓       | ✓    |        |                |
-| CopyTiles                                        | ✓        | ✓       | ✓    |        |                |
-| DiscardResource                                  | ✓        | ✓       |      |        |                |
-| Dispatch                                         | ✓        | ✓       |      | ✓      |                |
-| DispatchRays                                     | ✓        | ✓       |      | ✓      |                |
-| DrawIndexedInstanced                             | ✓        |         |      | ✓      | ✓              |
-| DrawInstanced                                    | ✓        |         |      | ✓      | ✓              |
-| EmitRaytracingAccelerationStructurePostbuildInfo | ✓        | ✓       |      |        |                |
-| EndQuery                                         | ✓        | ✓       | ✓    |        | ✓              |
-| EndRenderPass                                    | ✓        |         |      |        | ✓              |
-| ExecuteBundle                                    | ✓        |         |      |        | ✓              |
-| ExecuteIndirect                                  | ✓        | ✓       |      | ✓      | ✓              |
-| ExecuteMetaCommand                               | ✓        | ✓       |      |        |                |
-| IASetIndexBuffer                                 | ✓        |         |      | ✓      | ✓              |
-| IASetPrimitiveTopology                           | ✓        |         |      | ✓      | ✓              |
-| IASetVertexBuffers                               | ✓        |         |      | ✓      | ✓              |
-| InitializeMetaCommand                            | ✓        | ✓       |      |        |                |
-| OMSetBlendFactor                                 | ✓        |         |      | ✓      | ✓              |
-| OMSetDepthBounds                                 | ✓        |         |      | ✓      | ✓              |
-| OMSetRenderTargets                               | ✓        |         |      |        |                |
-| OMSetStencilRef                                  | ✓        |         |      | ✓      | ✓              |
-| ResolveQueryData                                 | ✓        | ✓       | ✓    |        |                |
-| ResolveSubresource                               | ✓        |         |      |        |                |
-| ResolveSubresourceRegion                         | ✓        |         |      |        |                |
-| ResourceBarrier                                  | ✓        | ✓       | ✓    |        | ✓              |
-| RSSetScissorRects                                | ✓        |         |      |        | ✓              |
-| RSSetShadingRate                                 | ✓        |         |      | ✓      | ✓              |
-| RSSetShadingRateImage                            | ✓        |         |      | ✓      | ✓              |
-| RSSetViewports                                   | ✓        |         |      |        | ✓              |
-| SetComputeRoot32BitConstant                      | ✓        | ✓       |      | ✓      | ✓              |
-| SetComputeRoot32BitConstants                     | ✓        | ✓       |      | ✓      | ✓              |
-| SetComputeRootConstantBufferView                 | ✓        | ✓       |      | ✓      | ✓              |
-| SetComputeRootDescriptorTable                    | ✓        | ✓       |      | ✓      | ✓              |
-| SetComputeRootShaderResourceView                 | ✓        | ✓       |      | ✓      | ✓              |
-| SetComputeRootSignature                          | ✓        | ✓       |      | ✓      | ✓              |
-| SetComputeRootUnorderedAccessView                | ✓        | ✓       |      | ✓      | ✓              |
-| SetDescriptorHeaps                               | ✓        | ✓       |      | ✓      | ✓              |
-| SetGraphicsRoot32BitConstant                     | ✓        |         |      | ✓      | ✓              |
-| SetGraphicsRoot32BitConstants                    | ✓        |         |      | ✓      | ✓              |
-| SetGraphicsRootConstantBufferView                | ✓        |         |      | ✓      | ✓              |
-| SetGraphicsRootDescriptorTable                   | ✓        |         |      | ✓      | ✓              |
-| SetGraphicsRootShaderResourceView                | ✓        |         |      | ✓      | ✓              |
-| SetGraphicsRootSignature                         | ✓        |         |      | ✓      | ✓              |
-| SetGraphicsRootUnorderedAccessView               | ✓        |         |      | ✓      | ✓              |
-| SetPipelineState                                 | ✓        | ✓       |      | ✓      | ✓              |
-| SetPipelineState1                                | ✓        | ✓       |      | ✓      |                |
-| SetPredication                                   | ✓        | ✓       |      |        | ✓              |
-| SetProtectedResourceSession                      | ✓        | ✓       | ✓    |        |                |
-| SetSamplePositions                               | ✓        |         |      | ✓      | ✓              |
-| SetViewInstanceMask                              | ✓        |         |      | ✓      | ✓              |
-| SOSetTargets                                     | ✓        |         |      |        | ✓              |
-| WriteBufferImmediate                             | ✓        | ✓       | ✓    | ✓      | ✓              |
+| AtomicCopyBufferUINT                             | ✓ Valid        | ✓ Valid       | ✓ Valid    |        |                |
+| AtomicCopyBufferUINT64                           | ✓ Valid        | ✓ Valid       | ✓ Valid    |        |                |
+| BeginQuery                                       | ✓ Valid        |         |      |        | ✓ Valid              |
+| BeginRenderPass                                  | ✓ Valid        |         |      |        |                |
+| BuildRaytracingAccelerationStructure             | ✓ Valid        | ✓ Valid       |      |        |                |
+| ClearDepthStencilView                            | ✓ Valid        |         |      |        |                |
+| ClearRenderTargetView                            | ✓ Valid        |         |      |        |                |
+| ClearState                                       | ✓ Valid        | ✓ Valid       |      |        |                |
+| ClearUnorderedAccessViewFloat                    | ✓ Valid        | ✓ Valid       |      |        |                |
+| ClearUnorderedAccessViewUint                     | ✓ Valid        | ✓ Valid       |      |        |                |
+| CopyBufferRegion                                 | ✓ Valid        | ✓ Valid       | ✓ Valid    |        |                |
+| CopyRaytracingAccelerationStructure              | ✓ Valid        | ✓ Valid       |      |        |                |
+| CopyResource                                     | ✓ Valid        | ✓ Valid       | ✓ Valid    |        |                |
+| CopyTextureRegion                                | ✓ Valid        | ✓ Valid       | ✓ Valid    |        |                |
+| CopyTiles                                        | ✓ Valid        | ✓ Valid       | ✓ Valid    |        |                |
+| DiscardResource                                  | ✓ Valid        | ✓ Valid       |      |        |                |
+| Dispatch                                         | ✓ Valid        | ✓ Valid       |      | ✓ Valid      |                |
+| DispatchRays                                     | ✓ Valid        | ✓ Valid       |      | ✓ Valid      |                |
+| DrawIndexedInstanced                             | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| DrawInstanced                                    | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| EmitRaytracingAccelerationStructurePostbuildInfo | ✓ Valid        | ✓ Valid       |      |        |                |
+| EndQuery                                         | ✓ Valid        | ✓ Valid       | ✓ Valid    |        | ✓ Valid              |
+| EndRenderPass                                    | ✓ Valid        |         |      |        | ✓ Valid              |
+| ExecuteBundle                                    | ✓ Valid        |         |      |        | ✓ Valid              |
+| ExecuteIndirect                                  | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| ExecuteMetaCommand                               | ✓ Valid        | ✓ Valid       |      |        |                |
+| IASetIndexBuffer                                 | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| IASetPrimitiveTopology                           | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| IASetVertexBuffers                               | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| InitializeMetaCommand                            | ✓ Valid        | ✓ Valid       |      |        |                |
+| OMSetBlendFactor                                 | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| OMSetDepthBounds                                 | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| OMSetRenderTargets                               | ✓ Valid        |         |      |        |                |
+| OMSetStencilRef                                  | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| ResolveQueryData                                 | ✓ Valid        | ✓ Valid       | ✓ Valid    |        |                |
+| ResolveSubresource                               | ✓ Valid        |         |      |        |                |
+| ResolveSubresourceRegion                         | ✓ Valid        |         |      |        |                |
+| ResourceBarrier                                  | ✓ Valid        | ✓ Valid       | ✓ Valid    |        | ✓ Valid              |
+| RSSetScissorRects                                | ✓ Valid        |         |      |        | ✓ Valid              |
+| RSSetShadingRate                                 | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| RSSetShadingRateImage                            | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| RSSetViewports                                   | ✓ Valid        |         |      |        | ✓ Valid              |
+| SetComputeRoot32BitConstant                      | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| SetComputeRoot32BitConstants                     | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| SetComputeRootConstantBufferView                 | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| SetComputeRootDescriptorTable                    | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| SetComputeRootShaderResourceView                 | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| SetComputeRootSignature                          | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| SetComputeRootUnorderedAccessView                | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| SetDescriptorHeaps                               | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| SetGraphicsRoot32BitConstant                     | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| SetGraphicsRoot32BitConstants                    | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| SetGraphicsRootConstantBufferView                | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| SetGraphicsRootDescriptorTable                   | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| SetGraphicsRootShaderResourceView                | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| SetGraphicsRootSignature                         | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| SetGraphicsRootUnorderedAccessView               | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| SetPipelineState                                 | ✓ Valid        | ✓ Valid       |      | ✓ Valid      | ✓ Valid              |
+| SetPipelineState1                                | ✓ Valid        | ✓ Valid       |      | ✓ Valid      |                |
+| SetPredication                                   | ✓ Valid        | ✓ Valid       |      |        | ✓ Valid              |
+| SetProtectedResourceSession                      | ✓ Valid        | ✓ Valid       | ✓ Valid    |        |                |
+| SetSamplePositions                               | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| SetViewInstanceMask                              | ✓ Valid        |         |      | ✓ Valid      | ✓ Valid              |
+| SOSetTargets                                     | ✓ Valid        |         |      |        | ✓ Valid              |
+| WriteBufferImmediate                             | ✓ Valid        | ✓ Valid       | ✓ Valid    | ✓ Valid      | ✓ Valid              |
 
 ## Bundle restrictions
 
