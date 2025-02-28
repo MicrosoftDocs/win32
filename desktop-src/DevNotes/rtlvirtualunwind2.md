@@ -26,7 +26,7 @@ NTSYSAPI NTSTATUS RtlVirtualUnwind2(
   [in]                DWORD                          HandlerType,
   [in]                DWORD64                        ImageBase,
   [in]                DWORD64                        ControlPc,
-  [in]                PRUNTIME_FUNCTION              FunctionEntry,
+  [in, optional]      PRUNTIME_FUNCTION              FunctionEntry,
   [in, out]           PCONTEXT                       ContextRecord,
   [in, out, optional] PBOOLEAN                       MachineFrameUnwound
   [out]               PVOID                          *HandlerData,
@@ -47,74 +47,28 @@ NTSYSAPI NTSTATUS RtlVirtualUnwind2(
 
 The handler type. This parameter can be one of the following values.
 
-This parameter is only present on x64.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="UNW_FLAG_NHANDLER"></a><a id="unw_flag_nhandler"></a><dl>
-<dt><b>UNW_FLAG_NHANDLER</b></dt>
-<dt>0x0</dt>
-</dl>
-</td>
-<td width="60%">
-The function has no handler.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="UNW_FLAG_EHANDLER"></a><a id="unw_flag_ehandler"></a><dl>
-<dt><b>UNW_FLAG_EHANDLER</b></dt>
-<dt>0x1</dt>
-</dl>
-</td>
-<td width="60%">
-The function has an exception handler that should be called.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="UNW_FLAG_UHANDLER"></a><a id="unw_flag_uhandler"></a><dl>
-<dt><b>UNW_FLAG_UHANDLER</b></dt>
-<dt>0x2</dt>
-</dl>
-</td>
-<td width="60%">
-The function has a termination handler that should be called when unwinding an exception.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="UNW_FLAG_CHAININFO"></a><a id="unw_flag_chaininfo"></a><dl>
-<dt><b>UNW_FLAG_CHAININFO</b></dt>
-<dt>0x4</dt>
-</dl>
-</td>
-<td width="60%">
-The <b>FunctionEntry</b> member is the contents of a previous function table entry.
-
-</td>
-</tr>
-</table>
+|Value |Meaning|
+|------|-------|
+|UNW_FLAG_NHANDLER|The function has no handler.|
+|UNW_FLAG_EHANDLER|The function has an exception handler that should be called.|
+|UNW_FLAG_UHANDLER|The function has a termination handler that should be called when unwinding an exception.|
+|UNW_FLAG_CHAININFO|The FunctionEntry member is the contents of a previous function table entry.|
 
 ### ImageBase \[in\]
 
-The base address of the module to which the function belongs.
+The base address of the module that includes the function represented by the execution context in the ContextRecord.
 
 ### ControlPc \[in\]
 
-The virtual address where control left the specified function.
+The address within the function represented by ContextRecord's that should be regarded as the Instruction Pointer for the unwind operation. This takes precedence over the Instruction Pointer field in the ContextRecord.
 
 ### FunctionEntry \[in\]
 
-The address of the function table entry for the specified function. To obtain the function table entry, call the [RtlLookupFunctionEntry](nf-winnt-rtllookupfunctionentry.md) function.
+The address of the function table entry for the function represented by the execution context in the ContextRecord. To obtain the function table entry, call the [RtlLookupFunctionEntry](nf-winnt-rtllookupfunctionentry.md) function. If NULL, the function will be assumed to be a leaf function with no stack of its own and a trivial unwind will be performed (e.g. emulate a solitary RET).
 
 ### ContextRecord \[in, out\]
 
-A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure that represents the context of the previous frame.
+A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure. On entry, this should represent the state of the CPU withing a given function. On succesful return, the context will represent the CPU context of the caller (parent) frame.
 
 ### HandlerData \[out\]
 
