@@ -5895,36 +5895,6 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ✔️ Hardware support required. |
 
-## Format notes
-
-The purpose of the format can change from one hardware feature level to the next.
-
-<dl> <dt>
-
-<sup>L</sup> : typeless format
-</dt> <dt>
-
-<sup>PCS</sup> : partially typed, castable and simple layout
-</dt> <dt>
-
- <sup>FCS</sup> : fully typed, castable and simple layout
-</dt> <dt>
-
-<sup>FNS</sup> : fully typed, non-castable and simple layout
-</dt> <dt>
-
-<sup>PCC</sup> : partially typed, castable and complex layout
-</dt> <dt>
-
- <sup>FCC</sup> : fully typed, castable and complex layout
-</dt> <dt>
-
-<sup>FNC</sup> : fully typed, non-castable and complex layout
-</dt> <dt>
-
-<sup>V</sup> : video format
-</dt> </dl>
-
 ## Related topics
 
 [D3D12 Hardware Feature Levels](../direct3d12/hardware-feature-levels.md)
