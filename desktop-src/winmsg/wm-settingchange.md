@@ -29,7 +29,7 @@ A window receives this message through its [**WindowProc**](/windows/win32/api/w
 *wParam* 
 </dt> <dd>
 
-When the system sends this message as a result of a [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) call, the *wParam* parameter is the value of the *uiAction* parameter passed to the **SystemParametersInfo** function. For a list of values, see **SystemParametersInfo**.
+When the system sends this message as a result of a [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) call, the *wParam* parameter is the value of the *uiAction* parameter passed to the **SystemParametersInfo** function. For a list of values, see [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa).
 
 When the system sends this message as a result of a change in policy settings, this parameter indicates the type of policy that was applied. This value is 1 if computer policy was applied or zero if user policy was applied.
 
