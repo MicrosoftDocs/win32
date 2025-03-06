@@ -7,9 +7,9 @@ ms.date: 05/31/2018
 
 # CONTAINSSEMANTIC Predicate
 
-TThe CONTAINSSEMANTIC predicate is part of the WHERE clause and supports semantic searching within indexed content. The clause can be used to search for text or images based on their semantic meaning, rather than just exact keyword matches.
+The CONTAINSSEMANTIC predicate is part of the WHERE clause and supports semantic searching within indexed content. The clause can be used to search for text or images based on their semantic meaning, rather than just exact keyword matches.
 
-The following is the basic syntax of the CONTAINS predicate:
+The following is the basic syntax of the CONTAINSSEMANTIC predicate:
 
 ```SQL
 ...CONTAINSSEMANTIC (ContentType, [<fulltext_column or #list>,] 'search text phrase', LCID) ...
@@ -17,7 +17,7 @@ The following is the basic syntax of the CONTAINS predicate:
 
 The *ContentType* parameter specifies whether the search is for text or images. Allowed values are "text" or "image".
 
-The *fulltext_column* reference is optional. With it, you can specify columnns or properties against which the CONTAINSSEMANTIC predicate is tested. When *fulltext_column* is specified as "ALL" or "\*", all indexed text properties are searched. Although the column is not required to be a text property, the results might be meaningless if the column is some other data type. The column name can be either a regular or delimited [identifier](-search-sql-identifiers.md), and you must separate it from the condition by a comma. If no *fulltext_column* is specified, the System.Search.Contents column, which is the body of the document, is used.
+The *fulltext_column* reference is optional. With it, you can limit the search to a single column or a column group against which the CONTAINSSEMANTIC predicate is tested. When *fulltext_column* is specified as "\*", all indexed text properties are searched. Although the column is not required to be a text property, the results might be meaningless if the column is some other data type. The column name can be either a regular or delimited [identifier](-search-sql-identifiers.md), and you must separate it from the condition by a comma. If no *fulltext_column* is specified, the System.Search.Contents column, which is the body of the document, is used.
 
 The LCID portion of the predicate specifies the search locale. This instructs the search engine to use the appropriate word breaker and inflectional forms for the search query. To specify the locale, provide the Windows standard language code identifier (LCID). For example, 1033 is the LCID for United States-English. Place the LCID as the last item inside the parentheses of the CONTAINSSEMANTIC clause. For important information about searching and languages, see [Using Localized Searches](-search-sql-usinglocsearches.md).
 
@@ -33,7 +33,7 @@ The traditional indexing and search continue to work seamlessly for all supporte
 > [!NOTE]  
 > The default search locale is the system default locale.
 
-The contains\_condition portion must be enclosed in single quotation marks for single words or double quotation marks for phrases, and consists of one or more content search terms that are combined using the logical operators **AND** or **OR**. You can use the optional unary operator **NOT** after an **AND** operator to negate the logical value of a content search term.
+The 'search text phrase' portion must be enclosed in single quotation marks for single words or double quotation marks for phrases, and consists of one or more content search terms that are combined using the logical operators **AND** or **OR**. You can use the optional unary operator **NOT** after an **AND** operator to negate the logical value of a content search term.
 
 > [!NOTE]  
 > The **NOT** operator can occur only after **AND**. You cannot use the **NOT** operator if there is only one match condition, or after the **OR** operator.

@@ -105,7 +105,7 @@ The following table describes the available coercion operation settings.
 | ABSOLUTE           | The rank value returned is the value specified in the coercion value.                          | 0 to 1000    |
 | ADD                | The rank value returned is the sum of the raw rank value and the specified coercion value.     | 0.001 to 1.0 |
 | MULTIPLY           | The rank value returned is the product of the raw rank value and the specified coercion value. | 0.001 to 1.0 |
-| MINMAX | The rank returned is linear mapping of the raw rank value between the specified minimum and maximum coercion values. | 0 to 1000 |
+| MINMAX | The rank value returned is the linear mapping of the raw rank value between the specified minimum and maximum coercion values. | 0 to 1000 |
 
 
 
