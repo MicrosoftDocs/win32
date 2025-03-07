@@ -53,7 +53,7 @@ if (r == -1       /* (but see below) */
 
 
 
-Although error constants consistent with Berkeley Sockets 4.3 are provided for compatibility purposes, applications are strongly encouraged to use the WSA error code definitions. This is because error codes returned by certain Windows Sockets functions fall into the standard range of error codes as defined by Microsoft C©. Thus, a better version of the preceding source code fragment is:
+The styles above need the redefinition of BSD socket error constants to WSA error constants in order to work correctly. Although error constants consistent with Berkeley Sockets 4.3 are provided for compatibility purposes, applications are strongly encouraged to use the WSA error code definitions. This is because error codes returned by certain Windows Sockets functions fall into the standard range of error codes as defined by Microsoft C©. Thus, a better version of the preceding source code fragment is:
 
 
 ```C++
