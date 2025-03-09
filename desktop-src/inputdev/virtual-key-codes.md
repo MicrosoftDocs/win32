@@ -246,7 +246,7 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `-` | 0x5E | Reserved |
 | `VK_SLEEP` | 0x5F | Computer Sleep key |
 | `VK_NUMPAD0` | 0x60 | Numeric keypad 0 key |
-| `VK_NUMPAD1` | 0x61 | Numeric keypad 1 key |
+| `VK_NUMPAD1` | 0x61 | 1 |
 | `VK_NUMPAD2` | 0x62 | Numeric keypad 2 key |
 | `VK_NUMPAD3` | 0x63 | Numeric keypad 3 key |
 | `VK_NUMPAD4` | 0x64 | Numeric keypad 4 key |
