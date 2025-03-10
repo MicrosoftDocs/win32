@@ -12,7 +12,7 @@ The CONTAINSSEMANTIC predicate is part of the WHERE clause and supports semantic
 The following is the basic syntax of the CONTAINSSEMANTIC predicate:
 
 ```SQL
-...CONTAINSSEMANTIC (ContentType, [<fulltext_column or #list>,] 'search text phrase', LCID) ...
+...CONTAINSSEMANTIC (ContentType, [<fulltext_column or #list>,] search_text_phrase, LCID) ...
 ```
 
 The *ContentType* parameter specifies whether the search is for text or images. Allowed values are "text" or "image".
@@ -33,7 +33,7 @@ The traditional indexing and search continue to work seamlessly for all supporte
 > [!NOTE]  
 > The default search locale is the system default locale.
 
-The 'search text phrase' portion must be enclosed in single quotation marks for single words or double quotation marks for phrases, and consists of one or more content search terms that are combined using the logical operators **AND** or **OR**. You can use the optional unary operator **NOT** after an **AND** operator to negate the logical value of a content search term.
+The *search_text_phrase* portion must be enclosed in single quotation marks for single words or double quotation marks for phrases, and consists of one or more content search terms that are combined using the logical operators **AND** or **OR**. You can use the optional unary operator **NOT** after an **AND** operator to negate the logical value of a content search term.
 
 > [!NOTE]  
 > The **NOT** operator can occur only after **AND**. You cannot use the **NOT** operator if there is only one match condition, or after the **OR** operator.

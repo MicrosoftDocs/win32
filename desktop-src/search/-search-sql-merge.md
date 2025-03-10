@@ -10,7 +10,7 @@ ms.date: 02/26/2025
 Used with the [RANK BY](-search-sql-rankby.md) clause to aggregate the ranks from all of the results to generate a final ranked list of merge results.
 
 
-The syntax for the MERGE clause is as follows:
+The syntax for the MERGE function is as follows:
 
 
 ```
