@@ -10,9 +10,7 @@ ms.date: 05/31/2018
 
 A cabinet is a single file, usually with a .cab extension, that stores compressed files in a file library. The cabinet format is an efficient way to package multiple files because compression is performed across file boundaries, which significantly improves the compression ratio.
 
-Developers can use a cabinet file creation tool such as Makecab.exe to make cabinet files for use with installer packages. The Makecab.exe utility is included in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md).
-
-Developers can also use a cabinet file creation tool such as Cabarc.exe to make cabinet files for use with installer packages. This tool writes to the Diamond cabinet structure.
+Developers can use a cabinet file creation tool such as Makecab.exe to make cabinet files for use with installer packages. The Makecab.exe utility is included with Windows.
 
 The file keys of the files stored inside of a cabinet file must match the entries in the File column of the [File table](file-table.md) and the sequence of files in the cabinet must match the file sequence specified in the Sequence column. For more information, see [Using Cabinets and Compressed Sources](using-cabinets-and-compressed-sources.md).
 
