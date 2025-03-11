@@ -2,7 +2,7 @@
 description: WPD\_CONTENT\_TYPE\_APPOINTMENT
 ms.assetid: d41c26ef-9f51-4ba7-b1a4-57abec91925e
 title: WPD_CONTENT_TYPE_APPOINTMENT
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

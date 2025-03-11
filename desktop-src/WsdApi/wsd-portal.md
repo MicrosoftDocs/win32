@@ -2,7 +2,7 @@
 description: Read about how to implement web services on devices (WSD). Understand its purpose, where it's applicable, the developer audience, and run-time requirements.
 ms.assetid: 590e0b0b-763c-44fb-a49f-606415f57b26
 title: Web Services on Devices
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

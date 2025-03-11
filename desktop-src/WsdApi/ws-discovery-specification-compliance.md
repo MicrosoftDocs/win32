@@ -2,7 +2,7 @@
 description: "Learn more about: WS-Discovery Specification Compliance"
 ms.assetid: b795a385-b48d-4a16-9d91-e48bca120572
 title: WS-Discovery Specification Compliance
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

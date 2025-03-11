@@ -2,7 +2,7 @@
 title: Retrieving WPD object properties
 description: The WpdServiceApiSample application demonstrates how an application can retrieve the content-object properties supported by a given Contacts service.
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

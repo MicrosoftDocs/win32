@@ -2,7 +2,7 @@
 description: WPD\_CONTENT\_TYPE\_AUDIO\_ALBUM
 ms.assetid: 41b7a587-01e0-4eee-b750-2f6be06c3227
 title: WPD_CONTENT_TYPE_AUDIO_ALBUM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

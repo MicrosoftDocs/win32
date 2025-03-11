@@ -2,7 +2,7 @@
 description: WPD\_FUNCTIONAL\_CATEGORY\_NETWORK\_CONFIGURATION
 ms.assetid: c5c93ebf-0072-49c2-a109-a2edb7e1bd8d
 title: WPD_FUNCTIONAL_CATEGORY_NETWORK_CONFIGURATION
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

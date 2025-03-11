@@ -2,7 +2,7 @@
 description: The purpose of this topic is to describe the discovery functionality implemented by WSDAPI but not otherwise described in the DPWS or WS-Discovery specifications.
 ms.assetid: ae7eff53-c932-4cba-9e71-c60f308f0e2d
 title: Additional WS-Discovery Functionality
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
