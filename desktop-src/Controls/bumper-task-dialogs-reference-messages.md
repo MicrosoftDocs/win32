@@ -2,7 +2,7 @@
 title: Task Dialog Messages
 description: Task Dialog Messages
 ms.assetid: fd26f006-1c01-4ee8-b2a0-00bbb7227693
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

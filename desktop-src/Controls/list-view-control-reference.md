@@ -2,7 +2,7 @@
 title: List View
 description: This section contains information about the programming elements used with list-view controls.
 ms.assetid: 2ea7d782-4ee8-407e-b6c0-e5e8061e9096
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

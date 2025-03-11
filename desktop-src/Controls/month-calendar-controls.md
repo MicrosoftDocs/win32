@@ -2,7 +2,7 @@
 title: About Month Calendar Controls
 description: A month calendar control implements a calendar-like user interface.
 ms.assetid: 81b8f233-272e-4043-92ff-5ff47b0610d6
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

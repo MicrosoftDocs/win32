@@ -2,7 +2,7 @@
 title: Parts and States
 description: This topic describes the parts and states that you use to change the appearance of controls when visual styles are enabled.
 ms.assetid: 'vs|controls|~\controls\userex\topics\partsandstates.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 07/14/2022
 ---
 

@@ -2,7 +2,7 @@
 title: Default List-View Message Processing
 description: This section lists the window message processing performed by a list-view control.
 ms.assetid: c634c446-37e5-4f7c-b337-306c29961e58
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

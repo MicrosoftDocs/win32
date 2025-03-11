@@ -2,7 +2,7 @@
 title: How to Process Date and Time Picker Notifications
 description: This section demonstrates how to process date and time picker notifications.
 ms.assetid: DBF624F0-89E0-435B-BE96-60B7A4CEDA61
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
