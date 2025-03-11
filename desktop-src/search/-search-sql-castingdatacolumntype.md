@@ -2,7 +2,7 @@
 description: "Learn more about: Casting the Data Type of a Column"
 ms.assetid: 78a137a9-ef69-4ce3-8a96-73e722951300
 title: Casting the Data Type of a Column
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

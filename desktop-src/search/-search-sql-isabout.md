@@ -2,7 +2,7 @@
 description: The ISABOUT term matches columns against a group of one or more search terms.
 ms.assetid: e2629c4c-4b44-4427-ac1d-17f55fd969e3
 title: ISABOUT Term
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: You can specify the language used in search queries.
 ms.assetid: 3a7ecf8f-38ae-41d1-be70-e9ab23977a01
 title: Specifying Languages
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

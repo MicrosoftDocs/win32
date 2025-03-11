@@ -1,7 +1,7 @@
 ---
 description: Creating an AutoRun-enabled application is a straightforward procedure. This topic uses CD-ROM as an example (it was the first medium to implement this technology) but today there are many different media types that can use it.
 title: Creating an AutoRun-Enabled Application
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 0d01f4a2-64c4-4b31-9fc9-361da6825ab8
 api_name: 

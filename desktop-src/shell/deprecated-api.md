@@ -1,7 +1,7 @@
 ---
 description: The following APIs are either deprecated or superseded by newer APIs.
 title: Deprecated Shell APIs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 30B02395-8407-4B70-A70F-F0DEE20D8ACC
 api_name: 

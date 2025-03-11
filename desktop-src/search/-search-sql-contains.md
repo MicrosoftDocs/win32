@@ -2,7 +2,7 @@
 description: The CONTAINS predicate is part of the WHERE clause and supports searching for words and phrases in text columns.
 ms.assetid: 53083966-54cc-4a16-a161-caa663bea7ea
 title: CONTAINS Predicate
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

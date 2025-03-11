@@ -2,7 +2,7 @@
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 title: Shell Glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ms.assetid: 2F463941-A4BA-4b34-B391-7E599E87BEEA
 api_name: 

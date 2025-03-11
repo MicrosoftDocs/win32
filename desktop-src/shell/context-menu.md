@@ -1,7 +1,7 @@
 ---
 description: This section discusses the creation of shortcut (context) menus, and the implementation of shortcut menu (verb) handlers.
 title: Shortcut (Context) Menus and Shortcut Menu Handlers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 956f3b10-2bc6-4f1f-a6ed-7184f94b545a
 api_name: 
