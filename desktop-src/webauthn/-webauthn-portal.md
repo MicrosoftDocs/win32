@@ -2,7 +2,7 @@
 description: The WebAuthn technology (webauthn.h) provides Win32 apps with APIs for communicating to Windows Hello and external security keys as part of WebAuthN and CTAP specifications.
 ms.assetid: c4655297-58a3-4dec-8278-a6e65d21d4d5
 title: WebAuthN API
-ms.topic: article
+ms.topic: reference
 ms.date: 08/22/2022
 ---
 

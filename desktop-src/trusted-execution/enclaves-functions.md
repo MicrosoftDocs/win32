@@ -3,7 +3,7 @@ description: The following functions are used when working with enclaves that ar
 ms.assetid: DF6CDEE1-CAAA-429C-9939-DDC844302027
 title: Enclave Functions (Trusted Execution)
 titleSuffix: Secure Enclaves
-ms.topic: article
+ms.topic: reference
 ms.date: 11/20/2024
 ---
 

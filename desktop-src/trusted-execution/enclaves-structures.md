@@ -3,7 +3,7 @@ description: The following structures are used when working with enclaves that a
 ms.assetid: 61F99132-E947-4EA4-86A0-914CE316B53A
 title: Enclave Structures (Trusted Execution)
 titleSuffix: Secure Enclaves
-ms.topic: article
+ms.topic: reference
 ms.date: 11/20/2024
 ---
 

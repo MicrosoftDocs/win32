@@ -3,7 +3,7 @@ description: Enclaves are used to create trusted execution environments. These V
 ms.assetid: 8e5588b6-0b1a-4ba6-9729-33f4e41e867c
 title: Vertdll APIs available in VBS enclaves
 titleSuffix: Secure Enclaves
-ms.topic: article
+ms.topic: reference
 ms.date: 11/20/2024
 ---
 
