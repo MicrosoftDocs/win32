@@ -2,7 +2,7 @@
 title: WDS Transport Server Functions
 description: Functions provided by the multicast server that interface with content providers.
 ms.assetid: 6d5bcda4-6be4-49e2-9e0f-77b16057952d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

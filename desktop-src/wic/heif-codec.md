@@ -1,7 +1,7 @@
 ---
 title: HEIF extension codec
 description: Info about the HEIF extension codec available through WIC.
-ms.topic: article
+ms.topic: reference
 ms.date: 01/29/2024
 ---
 

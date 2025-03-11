@@ -2,7 +2,7 @@
 description: Provides information about the native DDS codec available through the Windows Imaging Component (WIC).
 ms.assetid: 6CFDD674-C8AE-4F29-B2E5-C9C9431CB85A
 title: DDS Format Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

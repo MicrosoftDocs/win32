@@ -2,7 +2,7 @@
 description: "Learn more about: Implementing a WIC-Enabled Decoder"
 ms.assetid: a26a592d-42ef-4690-95b4-48a5324be75a
 title: Implementing a WIC-Enabled Decoder
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

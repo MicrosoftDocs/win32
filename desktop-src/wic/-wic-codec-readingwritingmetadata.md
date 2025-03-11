@@ -2,7 +2,7 @@
 description: This topic provides an overview of how you can use the Windows Imaging Component (WIC) APIs to read and write metadata that is embedded in image files.
 ms.assetid: b1e0b936-a13a-42dd-8470-957ba1d90423
 title: Overview of Reading and Writing Image Metadata
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

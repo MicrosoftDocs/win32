@@ -6,7 +6,7 @@ keywords:
 - WebDAV WebDAV
 - WebDAV WebDAV , home page
 - Web Distributed Authoring and Versioning WebDAV See WebDAV
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
