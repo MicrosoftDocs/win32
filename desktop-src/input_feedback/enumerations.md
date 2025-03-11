@@ -10,7 +10,7 @@ keywords:
 - mouse
 - pen
 - stylus
-ms.topic: article
+ms.topic: reference
 ms.date: 02/03/2020
 ---
 

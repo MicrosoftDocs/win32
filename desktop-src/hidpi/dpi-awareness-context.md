@@ -2,7 +2,7 @@
 title: DPI_AWARENESS_CONTEXT handle (windef.h)
 description: Identifies the awareness context for a window.
 ms.assetid: BFD54A9F-642B-4A3A-BBB9-F3A80779251D
-ms.topic: article
+ms.topic: reference
 ms.date: 10/04/2018
 ---
 

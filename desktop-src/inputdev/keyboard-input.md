@@ -6,7 +6,7 @@ keywords:
 - user input,keyboard input
 - capturing user input,keyboard input
 - keyboard input
-ms.topic: article
+ms.topic: reference
 ms.date: 08/01/2022
 ---
 

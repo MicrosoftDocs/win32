@@ -2,7 +2,7 @@
 description: Your applications can use Uniscribe API functions to support typography and the display and editing of international text. Uniscribe uses the paragraph as the unit for text display, and the Uniscribe functionality must be used for the entire paragraph.
 ms.assetid: e1adc567-0445-4deb-8634-25653f82127c
 title: Displaying Text with Uniscribe
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

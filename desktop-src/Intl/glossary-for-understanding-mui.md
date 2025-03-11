@@ -2,7 +2,7 @@
 description: Glossary for Understanding MUI
 ms.assetid: 7e435787-afdc-42cc-bdbc-9b8b81d23ebd
 title: Glossary for Understanding MUI
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

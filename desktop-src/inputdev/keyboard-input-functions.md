@@ -2,7 +2,7 @@
 title: Keyboard Input Functions
 description: Keyboard Input Functions
 ms.assetid: 731b8209-1ca8-4667-bd39-7bd0cef45380
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

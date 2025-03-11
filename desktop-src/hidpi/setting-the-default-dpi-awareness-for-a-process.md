@@ -6,7 +6,7 @@ ms:assetid: C9488338-D863-45DF-B5CB-7ED9B869A5E2
 ms:mtpsurl: https://msdn.microsoft.com/library/Mt846517(v=VS.85)
 ms:contentKeyID: 74520139
 ms.date: 03/30/2018
-ms.topic: article
+ms.topic: concept-article
 mtps_version: v=VS.85
 ---
 
