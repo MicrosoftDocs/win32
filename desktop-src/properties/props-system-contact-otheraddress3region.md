@@ -2,7 +2,7 @@
 description: System.Contact.OtherAddress3Region
 ms.assetid: c31a435d-2110-4147-ac28-deafa22e1030
 title: System.Contact.OtherAddress3Region
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: WinUSB device interface GUID(s) used to open a handle to the device.
 ms.assetid: 744b30c3-916d-418a-9a74-904de51b8494
 title: System.DeviceInterface.WinUsb.DeviceInterfaceClasses
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

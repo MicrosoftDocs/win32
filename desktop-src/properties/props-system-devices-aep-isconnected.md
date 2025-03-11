@@ -2,7 +2,7 @@
 description: Whether the device is currently connected to the system or not.
 ms.assetid: 67562a20-19d3-495b-9618-f13603946ecc
 title: System.Devices.Aep.IsConnected
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
