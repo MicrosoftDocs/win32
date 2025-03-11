@@ -2,7 +2,7 @@
 description: System gestures map to traditional mouse messages.
 ms.assetid: 2ae217ba-6cc7-4057-bb52-880da7ff8fd0
 title: System Gestures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

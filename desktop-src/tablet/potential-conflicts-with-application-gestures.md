@@ -2,7 +2,7 @@
 description: Overview of potential conflicts with application gestures.
 ms.assetid: 23692348-96ed-4f59-b3b2-4e0e11ddcef5
 title: Potential Conflicts with Application Gestures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

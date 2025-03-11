@@ -2,7 +2,7 @@
 description: This section documents the XML namespace elements used by the Journal Reader component.
 ms.assetid: 18fe7f81-a039-44e4-9a98-1dd137e4e97a
 title: Journal Reader Namespace Elements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

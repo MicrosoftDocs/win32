@@ -2,7 +2,7 @@
 title: Taking a snapshot, viewing processes
 description: This code example retrieves a list of running processes.
 ms.assetid: 318d166f-858f-4f33-9422-977e0c4beb3f
-ms.topic: article
+ms.topic: concept-article
 ms.date: 12/19/2023
 ---
 

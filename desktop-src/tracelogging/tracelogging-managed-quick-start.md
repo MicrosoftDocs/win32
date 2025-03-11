@@ -4,7 +4,7 @@ description:
   The following section describes the basic steps required to add TraceLogging
   to managed code.
 ms.assetid: E144214D-8DCC-4263-8232-9F468C1A3CC0
-ms.topic: article
+ms.topic: reference
 ms.date: 06/06/2022
 topic_type:
   - kbSyntax
