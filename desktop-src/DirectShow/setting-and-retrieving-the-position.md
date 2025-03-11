@@ -2,7 +2,7 @@
 description: Setting and Retrieving the Position
 ms.assetid: 06b0e2d7-9539-41ad-a631-7e8da556feeb
 title: Setting and Retrieving the Position
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

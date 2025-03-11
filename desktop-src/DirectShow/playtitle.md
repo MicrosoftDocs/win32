@@ -2,7 +2,7 @@
 description: The PlayTitle event is sent when the PlayTitle command has been enabled or disabled.
 ms.assetid: 'd9c47aa6-1401-498f-b9d9-f70dd844a51f'
 title: PlayTitle
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

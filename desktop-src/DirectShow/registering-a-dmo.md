@@ -2,7 +2,7 @@
 description: Registering a DMO
 ms.assetid: 9f74fc1c-b903-4725-b667-3c56a2726dbc
 title: Registering a DMO
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

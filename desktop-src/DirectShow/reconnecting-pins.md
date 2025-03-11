@@ -2,7 +2,7 @@
 description: Reconnecting Pins
 ms.assetid: 34b3e4de-e4eb-48c5-aaef-fc99b63e8691
 title: Reconnecting Pins
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Multimedia Streaming Error and Success Codes
 ms.assetid: 3b7a11d2-55b9-4505-8eb2-46be423c662b
 title: Multimedia Streaming Error and Success Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

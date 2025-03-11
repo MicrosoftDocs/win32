@@ -2,7 +2,7 @@
 description: Setting Properties on Effects and Transitions
 ms.assetid: ce773140-7e50-4b72-8cb5-e34cba51644d
 title: Setting Properties on Effects and Transitions
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Pull Model
 ms.assetid: b5246dfe-e6ee-4b91-bfe3-2ec8b8723938
 title: Pull Model
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

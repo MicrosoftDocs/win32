@@ -2,7 +2,7 @@
 description: Overlay Mixer Filter
 ms.assetid: e80938b7-31f0-467b-a3fa-c4511d14758d
 title: Overlay Mixer Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

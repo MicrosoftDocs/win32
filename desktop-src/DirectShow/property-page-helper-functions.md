@@ -2,7 +2,7 @@
 description: Property Page Helper Functions
 ms.assetid: 97450126-0d11-448e-a7bc-7372e84c07ae
 title: Property Page Helper Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

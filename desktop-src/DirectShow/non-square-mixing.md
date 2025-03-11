@@ -2,7 +2,7 @@
 description: Non-Square Mixing
 ms.assetid: 8d27a921-5638-43ac-807d-e3bd7b9b2de8
 title: Non-Square Mixing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: PlayCap Sample
 ms.assetid: 3faba514-23b7-4107-aca6-5b113a0ca164
 title: PlayCap Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Metronome Filter Sample
 ms.assetid: bb279898-875a-4ce4-ac69-6c58f640fbbd
 title: Metronome Filter Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

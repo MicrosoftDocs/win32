@@ -2,7 +2,7 @@
 description: Pointer Validation Macros
 ms.assetid: 53b080ba-d8cf-48a3-a895-2c14d54f7e21
 title: Pointer Validation Macros
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

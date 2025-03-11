@@ -2,7 +2,7 @@
 description: Sending COPP Commands
 ms.assetid: aba0bd34-f5bb-4233-bde2-0dfd8f1ff0bf
 title: Sending COPP Commands
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

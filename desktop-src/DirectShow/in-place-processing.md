@@ -2,7 +2,7 @@
 description: In-Place Processing
 ms.assetid: 61e5c12c-e42a-42d8-ac5b-e60afaceda82
 title: In-Place Processing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

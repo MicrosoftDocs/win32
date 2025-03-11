@@ -2,7 +2,7 @@
 description: Other Source Objects
 ms.assetid: 67482227-9df6-4e89-b16f-160a0bae6609
 title: Other Source Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

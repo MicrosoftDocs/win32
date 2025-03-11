@@ -2,7 +2,7 @@
 description: Overview of Error Logging
 ms.assetid: 1037f354-0415-4a5c-a96c-20ae714981af
 title: Overview of Error Logging
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: ReceiveConnection
 ms.assetid: '90a6a09a-95e1-4adf-8e0b-269f971aaa67'
 title: ReceiveConnection
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

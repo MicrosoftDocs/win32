@@ -2,7 +2,7 @@
 description: Infinite Pin Tee Filter
 ms.assetid: 5f3e06ec-adee-4bc7-8ea8-cce3030d3baa
 title: Infinite Pin Tee Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

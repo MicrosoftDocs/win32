@@ -2,7 +2,7 @@
 description: Providing a Custom Video Resizer
 ms.assetid: 4009f93f-cd50-440f-b943-7e3700e0e2cb
 title: Providing a Custom Video Resizer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

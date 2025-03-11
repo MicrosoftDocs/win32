@@ -2,7 +2,7 @@
 description: Memory Allocator
 ms.assetid: 2dc055a2-b77a-443d-b602-d9636cbe4db3
 title: Memory Allocator
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

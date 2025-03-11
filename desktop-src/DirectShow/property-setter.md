@@ -2,7 +2,7 @@
 description: Property Setter
 ms.assetid: 625f3774-4f8a-4208-ab30-43559b1fd6ce
 title: Property Setter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
