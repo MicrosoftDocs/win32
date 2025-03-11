@@ -2,7 +2,7 @@
 description: This programming reference describes the core audio APIs in Windows SDK. The audio core APIs are implemented in Mmdevapi.dll and Audioses.dll.
 ms.assetid: 80a0df34-5f67-4f61-b9c7-a586d1870765
 title: Core Audio Programming Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

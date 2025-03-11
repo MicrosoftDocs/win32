@@ -2,7 +2,7 @@
 title: Troubleshooting packaging, deployment, and query of Windows apps
 description: Use these suggestions to troubleshoot problems you experience when packaging, deploying, or querying an app package.
 ms.assetid: 38E327C6-0345-4FA6-BCDB-5FA2FCD421FB
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 09/10/2021
 manager: dcscontentpm
 ms.custom:

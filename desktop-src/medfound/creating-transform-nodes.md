@@ -2,7 +2,7 @@
 description: Creating Transform Nodes
 ms.assetid: d70a3c2b-2f0e-4e29-9a8f-84a50d9f1682
 title: Creating Transform Nodes
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

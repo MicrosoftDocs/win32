@@ -2,7 +2,7 @@
 description: This sample application uses the Core Audio APIs to capture audio data from an input device specified by the user and writes it to a uniquely named .wav file in the current directory. This sample demonstrates event-driven buffering.
 ms.assetid: 6ff3bc23-550e-41b7-b37c-35d552b29e20
 title: CaptureSharedEventDriven
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

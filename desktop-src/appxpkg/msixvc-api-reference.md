@@ -1,7 +1,7 @@
 ---
 title: MSIXVC API reference
 description: This section is a reference for APIs for programming Microsoft Installer for Xbox Virtual Console (MSIXVC).
-ms.topic: article
+ms.topic: reference
 ms.date: 08/25/2022
 ---
 

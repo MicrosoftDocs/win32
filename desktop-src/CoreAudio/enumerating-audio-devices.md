@@ -2,7 +2,7 @@
 description: Enumerating Audio Devices
 ms.assetid: 20110ffc-5eff-4279-abea-53115803b6ee
 title: Enumerating Audio Devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

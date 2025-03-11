@@ -2,7 +2,7 @@
 description: Working with Device Roles
 ms.assetid: 3b2cb1fe-0f11-4509-a6f3-513d2755cd29
 title: Working with Device Roles
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
