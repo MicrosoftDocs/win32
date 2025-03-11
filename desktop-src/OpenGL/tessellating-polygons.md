@@ -11,7 +11,7 @@ keywords:
 - OpenGL Utility (GLU),complex polygons
 - GLU (OpenGL Utility),complex polygons
 - complex polygons OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

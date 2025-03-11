@@ -8,7 +8,7 @@ keywords:
 - porting from IRIS GL,OpenGL differences
 - porting to OpenGL from IRIS GL,IRIS GL differences
 - OpenGL porting from IRIS GL,IRIS GL differences
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

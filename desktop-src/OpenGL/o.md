@@ -7,7 +7,7 @@ keywords:
 - objects
 - object coordinates
 - orthographic
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -9,7 +9,7 @@ keywords:
 - OpenGL porting from IRIS GL,bgn/end commands
 - drawing functions,bgn/end commands
 - bgn/end commands
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

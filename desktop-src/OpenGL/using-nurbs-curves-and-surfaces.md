@@ -7,7 +7,7 @@ keywords:
 - GLU (OpenGL Utility),Non-Uniform Rational B-Spline (NURBS)
 - Non-Uniform Rational B-Spline (NURBS) OpenGL
 - NURBS (Non-Uniform Rational B-Spline) OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

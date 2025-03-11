@@ -6,7 +6,7 @@ keywords:
 - OpenGL Utility (GLU),tessellation objects
 - GLU (OpenGL Utility),tessellation objects
 - tessellation objects OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -15,7 +15,7 @@ keywords:
 - OpenGL reference,pixel functions
 - reference for OpenGL,pixel functions
 - pixels,functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

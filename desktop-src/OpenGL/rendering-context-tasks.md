@@ -5,7 +5,7 @@ ms.assetid: b1903cfb-5b9a-4918-9590-362409743b39
 keywords:
 - OpenGL on Windows,rendering contexts
 - rendering contexts OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

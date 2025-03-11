@@ -5,7 +5,7 @@ ms.assetid: a04b2db9-d253-41cb-a7db-d39a1ac50ac9
 keywords:
 - OpenGL on Windows,auxiliary library
 - auxiliary library OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

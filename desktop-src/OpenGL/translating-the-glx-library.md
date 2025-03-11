@@ -8,7 +8,7 @@ keywords:
 - OpenGL porting,GLX library
 - GLX library OpenGL
 - Xlib functions OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/06/2024
 ---
 

@@ -2,7 +2,7 @@
 description: The Peer Collaboration Infrastructure provides a peer network-based framework for collaborative serverless activities, such as network game matchmaking, conferencing, and other interactive multi-participant activities.
 ms.assetid: e61a1d6c-52c6-4ea5-9d92-b047697de78f
 title: About the Peer Collaboration API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
