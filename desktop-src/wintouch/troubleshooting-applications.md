@@ -11,7 +11,7 @@ keywords:
 - inertia,troubleshooting applications
 - manipulations,troubleshooting applications
 - gestures,troubleshooting applications
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 05/31/2018
 ---
 

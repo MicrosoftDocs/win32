@@ -2,7 +2,7 @@
 title: DirectInput and XUSB Devices
 description: The driver for XUSB on Windows implements the kernel-mode interface for the XINPUT DLL.
 ms.assetid: 8bf47b07-a1b6-7721-2136-3853e72c71ad
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

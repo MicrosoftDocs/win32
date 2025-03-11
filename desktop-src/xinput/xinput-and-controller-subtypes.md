@@ -2,7 +2,7 @@
 title: XINPUT and Controller Subtypes
 description: A table of controller subtypes available in XInput.
 ms.assetid: 4674028b-98cf-5346-7b93-f940150f3051
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

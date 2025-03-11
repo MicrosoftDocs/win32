@@ -2,7 +2,7 @@
 title: Touch Input
 description: Windows Touch is a set of interfaces introduced in Windows 7.
 ms.assetid: e4fa4615-6d12-4f21-a899-cfa2282baa6d
-ms.topic: article
+ms.topic: reference
 ms.date: 02/18/2020
 ---
 

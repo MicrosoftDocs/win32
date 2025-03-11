@@ -8,7 +8,7 @@ keywords:
 - Windows Touch,panning
 - boundary feedback,about
 - panning,boundary feedback
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

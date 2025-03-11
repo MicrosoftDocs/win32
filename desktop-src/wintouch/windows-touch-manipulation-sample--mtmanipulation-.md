@@ -10,7 +10,7 @@ keywords:
 - manipulations,sample code
 - manipulations,code samples
 - Manipulation sample
-ms.topic: article
+ms.topic: sample
 ms.date: 02/18/2020
 ---
 
