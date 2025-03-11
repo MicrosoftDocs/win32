@@ -2,7 +2,7 @@
 description: Changes to the system palette for the display device can have dramatic and sometimes undesirable effects on the colors used in windows on the desktop.
 ms.assetid: 9c470b6f-c0d3-462e-9649-1f39b06bd543
 title: Palette Messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

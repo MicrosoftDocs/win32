@@ -2,7 +2,7 @@
 description: An application inverts the colors that appear within a region by calling the InvertRgn function.
 ms.assetid: bcd9fe61-0f92-41bc-b953-a66e01e43a75
 title: Inverting Regions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: 'The following messages are used with painting and drawing:'
 ms.assetid: ff1f72d2-163d-40c4-ab65-f406f9b78a84
 title: Painting and Drawing Messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

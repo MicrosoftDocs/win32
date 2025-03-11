@@ -2,7 +2,7 @@
 description: The following functions are used with lines and curves.
 ms.assetid: 90f123e2-c3c7-4ba1-a42b-7d6bc0074d5b
 title: Line and Curve Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: 'The following structures are used with pens:'
 ms.assetid: dcc65b2d-958a-4681-962f-a94895f0f243
 title: Pen Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

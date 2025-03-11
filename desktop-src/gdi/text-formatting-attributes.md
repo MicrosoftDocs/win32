@@ -2,7 +2,7 @@
 description: 'An application can use six functions to set the text-formatting attributes for a device context: SetBkColor, SetBkMode, SetTextAlign, SetTextCharacterExtra, SetTextColor, and SetTextJustification.'
 ms.assetid: fd4d81ee-7f8f-41e8-88a5-d3ed89f4c7bd
 title: Text-Formatting Attributes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

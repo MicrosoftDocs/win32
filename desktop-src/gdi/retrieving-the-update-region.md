@@ -2,7 +2,7 @@
 description: The GetUpdateRect and GetUpdateRgn functions retrieve the current update region for the window.
 ms.assetid: c0729c4f-3b00-4ab9-91b2-4a2fecee8727
 title: Retrieving the Update Region
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

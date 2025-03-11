@@ -2,7 +2,7 @@
 description: The color attribute specifies the pen's color.
 ms.assetid: ce775359-65fc-40d0-8725-b392cc0464a6
 title: Pen Color
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

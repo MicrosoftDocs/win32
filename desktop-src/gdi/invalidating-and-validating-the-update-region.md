@@ -2,7 +2,7 @@
 description: An application invalidates a portion of a window and sets the update region by using the InvalidateRect or InvalidateRgn function.
 ms.assetid: ec8abb77-47bc-4198-9daf-f2ccb0864ccc
 title: Invalidating and Validating the Update Region
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
