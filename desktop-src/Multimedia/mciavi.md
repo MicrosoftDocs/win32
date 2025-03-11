@@ -6,7 +6,7 @@ keywords:
 - MCI devices,MCIAVI driver
 - MCI commands,MCIAVI driver
 - MCIAVI driver
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

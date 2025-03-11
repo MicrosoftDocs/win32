@@ -8,7 +8,7 @@ keywords:
 - installable drivers,functions
 - installable driver reference,functions
 - reference for installable drivers,functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

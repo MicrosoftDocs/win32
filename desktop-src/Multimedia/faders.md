@@ -13,7 +13,7 @@ keywords:
 - bass volume fade control
 - treble volume fade control
 - graphic equalizer control
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

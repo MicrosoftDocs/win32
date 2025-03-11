@@ -7,7 +7,7 @@ keywords:
 - MPC (Multimedia PC),Level 2
 - Multimedia PC Marketing Council,Level 2
 - MPC Level 2,audio requirements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: bd45e813-5807-43cd-bef1-03285df9a018
 keywords:
 - MCIWnd window,creating
 - MCIWndCreate function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

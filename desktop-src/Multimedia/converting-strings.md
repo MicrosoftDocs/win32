@@ -4,7 +4,7 @@ description: Converting Strings
 ms.assetid: 40621c71-4264-40bc-b6c3-6b639d2f28fa
 keywords:
 - mciSendString function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

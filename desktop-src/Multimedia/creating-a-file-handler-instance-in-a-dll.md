@@ -2,7 +2,7 @@
 title: Creating a File-Handler Instance in a DLL
 description: Creating a File-Handler Instance in a DLL
 ms.assetid: 0cf7ef72-c675-4a67-97b3-18cccfb7ddc1
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -7,7 +7,7 @@ keywords:
 - VCM (video compression manager),configuring compressors
 - ICM_CONFIGURE message
 - ICQueryConfigure macro
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

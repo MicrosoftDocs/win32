@@ -10,7 +10,7 @@ keywords:
 - installing custom I/O procedures
 - custom I/O
 - mmioInstallIOProc function
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

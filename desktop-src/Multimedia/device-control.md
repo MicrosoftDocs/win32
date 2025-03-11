@@ -2,7 +2,7 @@
 title: Device Control (Windows Multimedia)
 description: Device Control
 ms.assetid: b4479803-f1da-4646-909e-c4ef412ebdcd
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

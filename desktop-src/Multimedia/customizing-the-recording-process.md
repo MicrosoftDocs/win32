@@ -5,7 +5,7 @@ ms.assetid: 9453b9d3-ae9c-4f57-8dd6-f84b9a76618e
 keywords:
 - MCIWndCreate function
 - MCIWndNew macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

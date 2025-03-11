@@ -4,7 +4,7 @@ description: Getting the Driver Capabilities
 ms.assetid: 761886db-b2e5-449c-b526-6e992cc1b42f
 keywords:
 - joysticks,drivers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
