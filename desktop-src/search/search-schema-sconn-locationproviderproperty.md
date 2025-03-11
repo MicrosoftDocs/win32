@@ -2,7 +2,7 @@
 description: The optional &lt;property&gt; element specifies the properties used by the location provider.
 ms.assetid: c1120dea-cb0b-4746-a5c1-4c83cda6dd7c
 title: property Element of locationProvider (Search Connector Schema)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Filter handlers, which are implementations of the IFilter interface, scan documents for text and properties.
 ms.assetid: 2ee9ea19-ae03-4f14-8f06-f8aa670e204e
 title: Understanding Filter Handlers in Windows Search
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

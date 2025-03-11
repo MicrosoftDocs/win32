@@ -2,7 +2,7 @@
 description: Data that represents the thumbnail in VT\_STREAM format, supported by Windows GDI+ and Windows codecs such as .jpg and .png.
 ms.assetid: 7ffdf9e4-69b1-4946-8867-73696cd241e0
 title: System.ThumbnailStream
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

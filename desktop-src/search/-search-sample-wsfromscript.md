@@ -2,7 +2,7 @@
 description: The WSFromScript code sample demonstrates how to query Windows Search from a Microsoft Visual Basic script using Microsoft ActiveX Data Objects (ADO).
 ms.assetid: 93ee63f2-ab05-478a-99d0-4f4d09c11506
 title: WSFromScript
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

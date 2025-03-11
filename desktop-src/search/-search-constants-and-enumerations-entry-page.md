@@ -2,7 +2,7 @@
 description: Windows Search Constants and Enumerations
 ms.assetid: 27b25e6b-49e6-4c70-947e-d67bd1335924
 title: Windows Search Constants and Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

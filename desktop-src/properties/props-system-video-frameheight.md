@@ -2,7 +2,7 @@
 description: Indicates the frame height for the video stream.
 ms.assetid: 83c26a8a-7724-4566-bc3e-3a26a7cc9223
 title: System.Video.FrameHeight
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
