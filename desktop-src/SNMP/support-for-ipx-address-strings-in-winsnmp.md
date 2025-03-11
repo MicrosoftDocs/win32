@@ -2,7 +2,7 @@
 title: Support for IPX Address Strings in WinSNMP
 description: WinSNMP 2.0 formalizes the use of IPX address strings.
 ms.assetid: b90b8e95-dab0-483b-9336-07e20c122cba
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Wait functions allow a thread to block its own execution.
 ms.assetid: 9c66c71d-fdfd-42ae-895c-2fc842b5bc7a
 title: Wait Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 06/25/2020
 ---
 

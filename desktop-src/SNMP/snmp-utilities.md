@@ -2,7 +2,7 @@
 title: SNMP Utilities
 description: The following table lists the SNMP utilities that are available in the Microsoft Windows Resource Kit.
 ms.assetid: 8b7d279c-a453-46c3-a287-5b4e17b5a36a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

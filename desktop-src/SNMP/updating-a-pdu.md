@@ -2,7 +2,7 @@
 title: Updating a PDU
 description: A WinSNMP application can retrieve and update selected PDU fields by using the SnmpGetPduData and the SnmpSetPduData functions.
 ms.assetid: 001f5252-aa54-490b-8ff0-39a7780baff8
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
