@@ -17,7 +17,7 @@ keywords:
 - multimedia audio,auxiliary audio devices
 - audio,auxiliary audio devices
 - waveform audio,auxiliary audio devices
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

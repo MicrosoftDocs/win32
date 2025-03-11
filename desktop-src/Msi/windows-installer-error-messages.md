@@ -2,7 +2,7 @@
 description: Message codes, message text, and remarks for Windows Installer error messages. Errors include ship errors, internal errors, and errors resulting from installing or uninstalling applications.
 ms.assetid: 20863e0d-05a8-42a5-aa6e-16c2724a9778
 title: Windows Installer Error Messages (for Developers)
-ms.topic: article
+ms.topic: reference
 ms.date: 09/11/2020
 ---
 
