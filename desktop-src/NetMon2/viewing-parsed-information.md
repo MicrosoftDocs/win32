@@ -2,7 +2,7 @@
 description: The Network Monitor frame viewer displays parsed data in three panes.
 ms.assetid: 72770b6f-1cec-4fa4-a91e-85367d531c7f
 title: Viewing Parsed Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

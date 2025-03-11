@@ -2,7 +2,7 @@
 description: The following figure shows the relationship between expert and parser applications and other components of the Network Monitor architecture.
 ms.assetid: f943f0e6-5fdc-48f9-ba5d-5effdf8229f3
 title: Expert and Parser Architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

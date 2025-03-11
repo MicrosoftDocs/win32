@@ -5,7 +5,7 @@ ms.assetid: f98c272b-3d6c-40ac-93cc-5206765e697b
 keywords:
 - OpenGL,evaluators reference
 - evaluators reference OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
