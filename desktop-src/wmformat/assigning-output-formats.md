@@ -10,7 +10,7 @@ keywords:
 - ASF (Advanced Systems Format),output numbers and formats
 - output numbers and formats,assigning
 - codecs,output numbers and formats
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

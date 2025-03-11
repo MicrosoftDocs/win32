@@ -2,7 +2,7 @@
 description: A publisher configuration file is an XML file that globally redirects applications and assemblies from using one version of a side-by-side assembly to another version of the same assembly.
 ms.assetid: b10752af-80a7-4027-b525-90333d0d010a
 title: Publisher Configuration Files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

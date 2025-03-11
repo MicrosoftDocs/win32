@@ -9,7 +9,7 @@ keywords:
 - streams,data unit extensions
 - codecs,data unit extensions
 - data unit extensions,file transfer streams
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -12,7 +12,7 @@ keywords:
 - ASF (Advanced Systems Format),features
 - Advanced Systems Format (ASF),multiple objects
 - ASF (Advanced Systems Format),multiple objects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

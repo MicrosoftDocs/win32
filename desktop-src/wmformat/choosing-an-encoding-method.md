@@ -9,7 +9,7 @@ keywords:
 - codecs,encoding methods
 - profiles,selecting encoding methods
 - codecs,selecting encoding methods
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

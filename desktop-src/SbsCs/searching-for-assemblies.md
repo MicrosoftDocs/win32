@@ -2,7 +2,7 @@
 description: There are two methods by which a hosting application can search for side-by-side assemblies.
 ms.assetid: f34f8f39-f03c-4adf-afa8-9cb9ed48d149
 title: Searching for Assemblies
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
