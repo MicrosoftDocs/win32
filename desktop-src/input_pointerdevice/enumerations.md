@@ -2,7 +2,7 @@
 description: The topics in this section provide the reference specifications for Pointer Device Input Stack enumerations.
 ms.assetid: 39A3FB53-DFC9-4189-A05B-6E01DB0DF922
 title: Pointer Device Input Stack enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

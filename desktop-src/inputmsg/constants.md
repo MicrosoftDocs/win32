@@ -2,7 +2,7 @@
 title: Pointer Input Messages and Notifications constants
 description: The topics in this section provide the reference specifications for Pointer Input Messages and Notifications constants.
 ms.assetid: 2224DCD0-DAE1-4AC2-AB36-23D114803138
-ms.topic: article
+ms.topic: reference
 ms.date: 02/03/2020
 ---
 

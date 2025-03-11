@@ -2,7 +2,7 @@
 description: This section describes the structures used with IMM functions and messages.
 ms.assetid: 1be3ae8b-e083-4420-bc8a-7f49c4264cab
 title: Input Method Manager Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

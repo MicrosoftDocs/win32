@@ -14,7 +14,7 @@ keywords:
 - nonsystem character messages
 - dead keys
 - dead-character messages
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/01/2022
 ---
 

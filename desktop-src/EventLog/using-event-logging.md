@@ -2,7 +2,7 @@
 description: Using Event Logging
 ms.assetid: 23faa271-ef25-43cd-b6c9-b65e6a12dd9a
 title: Using Event Logging
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

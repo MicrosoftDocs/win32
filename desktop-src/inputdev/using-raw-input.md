@@ -12,7 +12,7 @@ keywords:
 - reading raw input
 - joystick raw input
 - game pad raw input
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

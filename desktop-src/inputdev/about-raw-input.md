@@ -13,7 +13,7 @@ keywords:
 - microphone raw input
 - Human Interface Device (HID)
 - HID (Human Interface Device)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

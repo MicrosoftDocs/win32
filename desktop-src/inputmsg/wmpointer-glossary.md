@@ -3,7 +3,7 @@ title: Pointer Input Messages and Notifications Glossary
 description: Terms and definitions specific to Pointer Input Messages and Notifications.
 Robots: noindex, nofollow
 ms.assetid: 15E35DCF-C6C1-446A-B09B-6428F9C8A633
-ms.topic: article
+ms.topic: glossary
 ms.date: 02/03/2020
 ---
 

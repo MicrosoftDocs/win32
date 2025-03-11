@@ -2,7 +2,7 @@
 description: To report events, you must first define the events in a message text file. For details on writing a message text file, see Message Text Files. The following shows the message text file used in this example.
 ms.assetid: ace31e17-a638-414f-8518-9b944118047b
 title: Reporting Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

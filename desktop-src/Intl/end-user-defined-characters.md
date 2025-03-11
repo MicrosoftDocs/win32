@@ -2,7 +2,7 @@
 description: End-user-defined characters (EUDC) in double-byte character sets (DBCSs) and private use area (PUA) characters in Unicode are custom characters.
 ms.assetid: e76ea1ed-5962-440a-a722-b59b314babd6
 title: End-User-Defined and Private Use Area Characters
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

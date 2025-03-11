@@ -8,7 +8,7 @@ keywords:
 - user input,raw input
 - capturing user input,raw input
 - raw input
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -9,7 +9,7 @@ keywords:
 - input
 - pointer
 - touch
-ms.topic: article
+ms.topic: reference
 ms.date: 02/07/2020
 ---
 
