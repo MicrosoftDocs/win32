@@ -4,7 +4,7 @@ description: Before a client can access the routing table, it first must registe
 ms.assetid: 9bdbe138-d31b-42bb-9c51-5f1c5e8a4ca7
 keywords:
 - Routing Table Manager Version 2 RRAS , registering
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

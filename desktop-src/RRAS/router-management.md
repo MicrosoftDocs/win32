@@ -2,7 +2,7 @@
 title: Router Management
 description: Router Management
 ms.assetid: '17a88eaf-6bb2-4c9d-9fce-5e2d86a36fc7'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

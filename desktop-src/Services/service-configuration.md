@@ -2,7 +2,7 @@
 description: The system uses the configuration information to determine how to start the service.
 ms.assetid: 'fc8c631e-076c-4745-8db0-90f46a202e6a'
 title: Service Configuration
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

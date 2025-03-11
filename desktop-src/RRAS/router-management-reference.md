@@ -5,7 +5,7 @@ ms.assetid: 352505a9-616a-4d47-9857-f88d345333fd
 keywords:
 - Routing and Remote Access Service RRAS ,Router Management,reference
 - Router Management RRAS ,reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

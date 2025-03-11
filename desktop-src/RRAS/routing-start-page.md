@@ -7,7 +7,7 @@ keywords:
 - Routing RAS , start page
 - RRAS RAS
 - RRAS RAS , See Routing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

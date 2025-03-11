@@ -2,7 +2,7 @@
 title: Updating Routes
 description: A client can use either of the following methods to update or remove routes that it owns.
 ms.assetid: b011d452-675d-4ddb-ba46-237ba5a5c178
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
