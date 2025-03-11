@@ -2,7 +2,7 @@
 title: List-View Control Reference
 description: List-View Control Reference
 ms.assetid: 313f0359-5cb7-4ad1-9925-f9e496635bb1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

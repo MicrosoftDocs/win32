@@ -4,7 +4,7 @@ description: This API is the initial public release of the composition swapchain
 keywords:
 - Composition swapchain
 - Composition swapchain API
-ms.topic: article
+ms.topic: reference
 ms.date: 09/10/2021
 ---
 

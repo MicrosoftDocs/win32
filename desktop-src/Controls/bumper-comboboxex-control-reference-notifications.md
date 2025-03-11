@@ -2,7 +2,7 @@
 title: ComboBoxEx Notifications
 description: ComboBoxEx Notifications
 ms.assetid: abeb29b3-d11c-4d68-8817-d0b2601362f4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

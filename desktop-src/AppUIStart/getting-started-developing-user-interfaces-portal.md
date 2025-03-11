@@ -2,7 +2,7 @@
 title: Get Started Developing UI for Windows Apps
 description: Getting Started Developing User Interfaces for Windows Applications
 ms.assetid: 29d6f67b-46fa-4f39-a319-306c832eff9a
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

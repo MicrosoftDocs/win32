@@ -2,7 +2,7 @@
 title: Month Calendar Constants
 description: Month Calendar Constants
 ms.assetid: 0de46c3c-1756-4847-b986-80343c09b3ff
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

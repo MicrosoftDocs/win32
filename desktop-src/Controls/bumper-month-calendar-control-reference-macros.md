@@ -2,7 +2,7 @@
 title: Month Calendar Macros
 description: Month Calendar Macros
 ms.assetid: e6c856aa-8518-44bc-86cf-3cce8ee31063
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: ComboBox Control Functions
 description: ComboBox Control Functions
 ms.assetid: 102793c0-157b-4430-b016-e80a95e3886f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

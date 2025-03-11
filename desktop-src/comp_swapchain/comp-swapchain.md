@@ -1,7 +1,7 @@
 ---
 title: Composition swapchain programming guide
 description: The composition swapchain API is a spiritual successor to the DXGI swapchain, which allows applications to render and present content to the screen.
-ms.topic: article
+ms.topic: reference
 ms.date: 09/10/2021
 ---
 

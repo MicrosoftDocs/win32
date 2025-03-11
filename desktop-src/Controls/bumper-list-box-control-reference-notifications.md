@@ -2,7 +2,7 @@
 title: List Box Notifications
 description: List Box Notifications
 ms.assetid: 933cf4f6-9796-427f-a5f4-c01090554154
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
