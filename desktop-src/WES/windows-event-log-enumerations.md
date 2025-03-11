@@ -2,7 +2,7 @@
 title: Windows Event Log Enumerations
 description: Windows Event Log defines the following enumerations.
 ms.assetid: 2dd0e9ef-057b-4d0a-8b21-e7f14e5ae6e3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

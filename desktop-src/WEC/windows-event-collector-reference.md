@@ -3,7 +3,7 @@ title: Windows Event Collector Reference
 description: The following table lists the sections in the Windows Event Collector code reference.
 ms.assetid: badc0f00-0979-4a94-9ea6-6f2077119db2
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

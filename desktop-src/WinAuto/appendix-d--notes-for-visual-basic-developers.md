@@ -2,7 +2,7 @@
 title: Appendix D Notes for Visual Basic Developers
 description: This section provides information about Microsoft Active Accessibility for Microsoft Visual Basic developers.
 ms.assetid: 82a016a2-872d-4ba6-ac93-78b59f7ec639
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

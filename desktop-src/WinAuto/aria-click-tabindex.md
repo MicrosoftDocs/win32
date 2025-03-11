@@ -4,7 +4,7 @@ description: ARIA Tabindex Error
 ms.assetid: CCBC56E8-8899-4962-8315-762538CA666C
 keywords:
 - AriaTabIndexErrorId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

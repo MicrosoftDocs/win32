@@ -4,7 +4,7 @@ description: The developer guide provides an overview of Windows Animation and p
 ms.assetid: 6d7bc6b8-0f60-408a-85a5-41213dfacdd9
 keywords:
 - Windows Animation Windows Animation ,guide
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

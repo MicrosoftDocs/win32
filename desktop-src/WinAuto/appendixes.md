@@ -2,7 +2,7 @@
 title: Appendixes (Microsoft Active Accessibility)
 description: This section provides supplemental information about Microsoft Active Accessibility.
 ms.assetid: 1e4af3df-6946-4098-a617-b340e2761cc0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

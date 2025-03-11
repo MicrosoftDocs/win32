@@ -2,7 +2,7 @@
 title: Touch
 description: All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
 ms.assetid: a87d0726-1c57-4cf8-9e35-4e73a09ff1a3
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

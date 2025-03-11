@@ -4,7 +4,7 @@ description: ARIA Container Role Error
 ms.assetid: AF207293-1172-43D0-B92C-C3070876DF54
 keywords:
 - AriaContainerRoleErrorId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

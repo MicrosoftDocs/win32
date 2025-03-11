@@ -2,7 +2,7 @@
 title: Accessibility parameters
 description: The system maintains a set of accessibility parameters that indicate whether the user has special needs or preferences that require applications to change their default behavior.
 ms.assetid: efa289bb-5965-4002-93df-116ab2621efc
-ms.topic: article
+ms.topic: reference
 ms.date: 10/18/2023
 ---
 

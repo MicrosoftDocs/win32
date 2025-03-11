@@ -5,7 +5,7 @@ ms.assetid: c4f746c3-e47c-4b82-a41b-e2c0d177d097
 keywords:
 - animation manager objects Windows Animation ,updating
 - animation timer objects Windows Animation ,connecting
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

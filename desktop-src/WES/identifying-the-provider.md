@@ -2,7 +2,7 @@
 title: Identifying the Provider
 description: A manifest can identify one or more providers. To identify a provider, use the provider element.
 ms.assetid: 3bd40405-2b7a-4709-aef7-8615de8c5b6a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

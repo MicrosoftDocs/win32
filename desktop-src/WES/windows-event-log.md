@@ -2,7 +2,7 @@
 title: Windows Event Log
 description: The Windows Event Log API defines the schema that you use to write an instrumentation manifest.
 ms.assetid: '738c8afa-4714-4d4f-9231-b8fbdb5159c5'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

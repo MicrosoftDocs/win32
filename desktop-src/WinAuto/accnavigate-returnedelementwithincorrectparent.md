@@ -2,7 +2,7 @@
 title: AccNavigate_ReturnedElementWithIncorrectParent
 description: AccNavigate\_ReturnedElementWithIncorrectParent
 ms.assetid: 44447E47-04D5-4784-B5E9-E8C62A9834CE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
