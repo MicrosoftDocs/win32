@@ -3,7 +3,7 @@ description: Access to WMI namespaces and their data is controlled by security d
 ms.assetid: 3c2dc148-df6a-4bcb-a657-59b56c358d14
 ms.tgt_platform: multiple
 title: Securing WMI Namespaces
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

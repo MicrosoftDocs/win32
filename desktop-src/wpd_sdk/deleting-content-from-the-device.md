@@ -2,7 +2,7 @@
 description: Deleting Content from the Device
 ms.assetid: 195f68d5-f139-456e-b000-86c91732a292
 title: Deleting Content from the Device
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

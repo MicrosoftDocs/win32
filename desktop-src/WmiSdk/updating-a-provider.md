@@ -3,7 +3,7 @@ description: Sometimes you may need to install a newer version of a provider ont
 ms.assetid: 44c4c16a-fd79-483a-81ef-a0f74a2cdf45
 ms.tgt_platform: multiple
 title: Updating a Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

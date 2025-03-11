@@ -3,7 +3,7 @@ description: Both C++ providers and client applications must perform many of the
 ms.assetid: 0199f469-2666-4794-b364-36c54aa360a8
 ms.tgt_platform: multiple
 title: Securing C++ Clients and Providers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

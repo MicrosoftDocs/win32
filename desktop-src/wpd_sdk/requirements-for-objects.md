@@ -2,7 +2,7 @@
 description: Requirements for Objects
 ms.assetid: 4c3da994-fe12-4cb8-8f11-c4930cae96af
 title: Requirements for Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

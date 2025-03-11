@@ -3,7 +3,7 @@ description: Starting with Windows Vista, WMI contains many new features based 
 ms.assetid: 604a86d2-9a8e-4266-93b8-13676f768b29
 ms.tgt_platform: multiple
 title: Whats New in Windows Vista
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

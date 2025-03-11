@@ -3,7 +3,7 @@ description: WMI tasks for services obtain information about services, including
 ms.assetid: 1cd92981-c074-4ff7-a32c-ce492e6d6aa5
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Services'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

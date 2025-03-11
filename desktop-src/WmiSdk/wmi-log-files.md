@@ -3,7 +3,7 @@ description: WMI uses Event Tracing (ETW) and events can be obtained through the
 ms.assetid: 315b8355-03b9-40f9-a6c1-29a49f5a2cd8
 ms.tgt_platform: multiple
 title: WMI Log Files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

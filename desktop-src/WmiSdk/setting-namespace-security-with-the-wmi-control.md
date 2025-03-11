@@ -3,7 +3,7 @@ description: The WMI Control is an MMC snap-in located in the Control Panel and 
 ms.assetid: 87c23919-c482-4278-b005-894a8ac21da4
 ms.tgt_platform: multiple
 title: Setting Namespace Security with the WMI Control
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Whats New in Windows 7
 ms.assetid: C3FE15EF-CBF0-4A5D-ADCC-108795F8CE7A
 ms.tgt_platform: multiple
 title: Whats New in Windows 7
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

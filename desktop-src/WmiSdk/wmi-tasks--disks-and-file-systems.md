@@ -3,7 +3,7 @@ description: WMI tasks for disks and file systems obtain information about disk 
 ms.assetid: d310e5e6-3b67-41bc-b5f2-cea33d0a7a2b
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Disks and File Systems'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

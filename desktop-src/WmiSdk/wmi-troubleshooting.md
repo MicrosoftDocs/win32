@@ -3,7 +3,7 @@ description: When accessing WMI local or remote data in an application or script
 ms.assetid: b0aecdf6-ec30-49be-af4e-7eac5d124057
 ms.tgt_platform: multiple
 title: WMI Troubleshooting
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 09/25/2023
 ---
 

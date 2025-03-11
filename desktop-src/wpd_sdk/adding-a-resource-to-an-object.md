@@ -2,7 +2,7 @@
 title: Adding a Resource to an Object
 description: Adding a Resource to an Object
 ms.assetid: 81476f50-5ea0-4e02-9e38-2b1dfcc32c4f
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

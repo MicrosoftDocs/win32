@@ -3,7 +3,7 @@ description: WMI tasks for event logs obtain event data from event log files and
 ms.assetid: f6d4e68e-d757-44aa-be74-3b26168626b8
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Event Logs'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
