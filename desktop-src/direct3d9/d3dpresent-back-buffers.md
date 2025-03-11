@@ -2,7 +2,7 @@
 description: Specifies the number of back buffers that can be used by the device.
 ms.assetid: 47843a7a-619b-40ba-8111-56e021865353
 title: D3DPRESENT_BACK_BUFFERS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

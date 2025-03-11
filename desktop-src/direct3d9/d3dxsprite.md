@@ -2,7 +2,7 @@
 description: 'The following flags are used to specify sprite rendering options to the flags parameter in the Begin method:'
 ms.assetid: 195ee969-30e8-4828-a0be-f0d2a82e247c
 title: D3DXSPRITE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

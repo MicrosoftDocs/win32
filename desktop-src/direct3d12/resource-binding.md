@@ -2,7 +2,7 @@
 title: Resource Binding
 description: Binding is the process of linking resource objects to the shaders of the graphics pipeline.
 ms.assetid: CB0065EF-4E53-4E16-9F7E-09A261C360FB
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

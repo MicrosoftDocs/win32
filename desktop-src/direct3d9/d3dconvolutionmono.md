@@ -2,7 +2,7 @@
 description: Specifies the maximum dimensions of texture convolution filters.
 ms.assetid: bc7c36fd-b905-47e7-a38f-1139a8337121
 title: D3DCONVOLUTIONMONO
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

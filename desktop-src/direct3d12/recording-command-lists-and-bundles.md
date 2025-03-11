@@ -2,7 +2,7 @@
 title: Creating and recording command lists and bundles
 description: This topic describes recording command lists and bundles in Direct3D 12 apps. Command lists and bundles both allow apps to record drawing or state-changing calls for later execution on the graphics processing unit (GPU).
 ms.assetid: 0074B796-33A4-4AA1-A4E7-48A2A63F25B7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/27/2025
 ---
 

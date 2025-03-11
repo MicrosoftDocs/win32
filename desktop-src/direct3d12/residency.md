@@ -2,7 +2,7 @@
 title: Residency
 description: An object is considered to be resident when it is accessible by the GPU.
 ms.assetid: 956F80D7-EEC8-4D88-B251-EE325614F31E
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

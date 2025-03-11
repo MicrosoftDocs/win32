@@ -2,7 +2,7 @@
 description: Learn about alpha blending. Alpha blending is used to display an image that has transparent or semi-transparent pixels.
 ms.assetid: 553b0bc8-1bd8-4282-9260-cdc5f2b8788d
 title: Alpha Blending (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This section contains reference information for the constants defined in Direct3D.
 ms.assetid: 77b80ffa-edb7-42bc-943a-5abfdbe5cf42
 title: Direct3D Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
