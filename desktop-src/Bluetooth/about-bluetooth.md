@@ -5,7 +5,7 @@ ms.assetid: 424168a1-e55c-4947-9a80-8594b4d83bbd
 keywords:
 - Bluetooth Bluetooth , described
 - Bluetooth Bluetooth , about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/09/2024
 ---
 

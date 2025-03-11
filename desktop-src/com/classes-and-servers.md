@@ -2,7 +2,7 @@
 title: Classes and Servers
 description: Classes and Servers
 ms.assetid: cc88be56-0d96-47d2-b23b-6a6ad376bdae
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

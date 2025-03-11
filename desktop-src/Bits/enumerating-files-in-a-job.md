@@ -7,7 +7,7 @@ keywords:
 - enumerating files BITS
 - enumerating BITS , files
 - file transfer BITS , enumerating
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

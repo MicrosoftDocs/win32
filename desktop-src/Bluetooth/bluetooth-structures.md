@@ -4,7 +4,7 @@ description: This section provides definitions for structures used for managing 
 ms.assetid: bab27f5c-04c1-4fdc-91ff-249d1bfaef24
 keywords:
 - Bluetooth, reference, structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

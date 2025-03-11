@@ -2,7 +2,7 @@
 title: Cloaking (COM)
 description: Cloaking is a COM security capability that determines what identity the client projects toward the server during impersonation.
 ms.assetid: 5b97d9d6-8fa9-4da2-8351-64772227d9a2
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
