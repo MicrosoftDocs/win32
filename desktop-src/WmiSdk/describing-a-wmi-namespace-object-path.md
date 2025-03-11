@@ -3,7 +3,7 @@ description: A namespace object path describes the location of a particular name
 ms.assetid: 6d8da19e-0914-4267-870e-c203176b895e
 ms.tgt_platform: multiple
 title: Describing a WMI Namespace Object Path
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

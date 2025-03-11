@@ -9,7 +9,7 @@ keywords:
 - service providers,logging
 - programming guide,logging
 - logging
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

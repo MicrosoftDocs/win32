@@ -3,7 +3,7 @@ description: Counter algorithm counter types may calculate rates or averages byt
 ms.assetid: 4423e35e-2a93-4f68-8494-89df05268cc9
 ms.tgt_platform: multiple
 title: Counter Algorithm Counter Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

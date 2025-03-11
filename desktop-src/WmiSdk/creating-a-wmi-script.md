@@ -3,7 +3,7 @@ description: Describes how to create a new WMI script using either the PowerShel
 ms.assetid: 90e71e17-c2e7-42ad-a72e-2b475e6163fe
 ms.tgt_platform: multiple
 title: Creating a WMI Script
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

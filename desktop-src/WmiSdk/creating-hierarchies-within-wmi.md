@@ -3,7 +3,7 @@ description: WMI namespace is a programming object that defines the scope for a 
 ms.assetid: a00f26e6-bb81-45bc-a530-9346a074bb3c
 ms.tgt_platform: multiple
 title: Creating Hierarchies Within WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

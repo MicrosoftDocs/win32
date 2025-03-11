@@ -3,7 +3,7 @@ description: Describes how to create Microsoft Active Server Pages (ASP) that di
 ms.assetid: add08566-6408-43e4-9d0d-4c0851540602
 ms.tgt_platform: multiple
 title: Creating Active Server Pages for WMI
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

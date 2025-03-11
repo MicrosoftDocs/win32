@@ -18,7 +18,7 @@ keywords:
 - Windows Media Device Manager,plug-ins
 - Device Manager,plug-insp
 - plug-ins,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

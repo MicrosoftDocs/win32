@@ -3,7 +3,7 @@ description: The Managed Object Format (MOF) compiler, Mofcomp.exe, parses a fil
 ms.assetid: 8c107611-36f8-4657-8b54-dbf54b3dfb7b
 ms.tgt_platform: multiple
 title: Compiling MOF Files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

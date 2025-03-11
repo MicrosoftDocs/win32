@@ -3,7 +3,7 @@ description: Provides instructions on how to enumerate WMI instances of a class 
 ms.assetid: fe7e3259-9a7c-4f73-af30-192bbbace1b3
 ms.tgt_platform: multiple
 title: Enumerating WMI
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Like many other techniques in Managed Object Format (MOF), applying
 ms.assetid: aaa5c921-bdcd-40e6-ab4b-9441a1957e5b
 ms.tgt_platform: multiple
 title: Applying a Qualifier
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

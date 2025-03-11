@@ -3,7 +3,7 @@ description: The COOKER\_VARIANCE counter type formula provides variability that
 ms.assetid: 6b184a36-7d22-41ab-98e7-b185d1063bcb
 ms.tgt_platform: multiple
 title: COOKER_VARIANCE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

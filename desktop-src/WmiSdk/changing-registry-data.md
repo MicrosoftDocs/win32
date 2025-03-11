@@ -3,7 +3,7 @@ description: 'The System Registry Provider class StdRegProv for WMI has methods 
 ms.assetid: d42248b3-2f96-4771-aee9-a0db139b149e
 ms.tgt_platform: multiple
 title: Changing Registry Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

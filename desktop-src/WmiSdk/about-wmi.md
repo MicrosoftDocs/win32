@@ -3,7 +3,7 @@ description: Windows Management Instrumentation (WMI) is the Microsoft implement
 ms.assetid: d745cf25-a139-439d-9ac5-e7720b640516
 ms.tgt_platform: multiple
 title: About WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
