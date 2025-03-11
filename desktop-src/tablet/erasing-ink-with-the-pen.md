@@ -2,7 +2,7 @@
 description: In addition to enabling handwriting and drawing, you can build your application to support using the tablet pen to erase ink. Use the InkOverlay object to do this.
 ms.assetid: 9851c871-4d1c-43b6-9615-5d231cbc01ae
 title: Erasing Ink with the Pen
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
