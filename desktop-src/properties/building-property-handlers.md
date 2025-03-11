@@ -2,7 +2,7 @@
 description: Learn how to create a property handler that reads and writes properties to and from a file stream. Each handlers is associated with a given file type.
 ms.assetid: 9dacd399-2cf3-40dd-9501-f26f0281500d
 title: Implementing Property Handlers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

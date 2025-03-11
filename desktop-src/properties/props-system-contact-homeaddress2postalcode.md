@@ -2,7 +2,7 @@
 description: System.Contact.HomeAddress2PostalCode
 ms.assetid: ef459811-4891-4c4f-bce0-e5a826654b6b
 title: System.Contact.HomeAddress2PostalCode
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

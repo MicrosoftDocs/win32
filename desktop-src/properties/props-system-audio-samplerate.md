@@ -2,7 +2,7 @@
 description: Indicates the sample rate for the audio file in samples per second.
 ms.assetid: 534f157c-6982-4423-b8e7-66591c0cb184
 title: System.Audio.SampleRate
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

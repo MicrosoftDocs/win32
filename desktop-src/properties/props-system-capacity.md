@@ -2,7 +2,7 @@
 description: The amount of total storage space, expressed in bytes.
 ms.assetid: 14cd6b5d-0534-4527-8439-e7ba8cdef8da
 title: System.Capacity
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.ApplicationDefinedProperties
 ms.assetid: 0da23c09-1d6c-4d5e-8ceb-058bc0f89577
 title: System.ApplicationDefinedProperties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

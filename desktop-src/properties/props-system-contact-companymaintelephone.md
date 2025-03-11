@@ -2,7 +2,7 @@
 description: Indicates the main telephone number of the contact's company.
 ms.assetid: 13eef5c1-45d5-4bf4-960d-acb9ddc80943
 title: System.Contact.CompanyMainTelephone
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

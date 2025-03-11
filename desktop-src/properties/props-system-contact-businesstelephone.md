@@ -2,7 +2,7 @@
 description: Business telephone number of the contact.
 ms.assetid: 36f425c3-c45c-4442-81f8-09d5b4ca4731
 title: System.Contact.BusinessTelephone
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.Contact.BusinessAddress3Region
 ms.assetid: 09fb62e1-da4f-4b81-92f7-0379d2b2827e
 title: System.Contact.BusinessAddress3Region
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
