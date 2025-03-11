@@ -9,7 +9,7 @@ keywords:
 - service providers,authentication
 - creating service providers,authentication
 - authentication
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

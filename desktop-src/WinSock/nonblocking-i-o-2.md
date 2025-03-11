@@ -2,7 +2,7 @@
 description: If a socket is in nonblocking mode, any I/O operation must either complete immediately or return the error code WSAEWOULDBLOCK indicating that the operation cannot be finished right away.
 ms.assetid: badd279b-ec71-4761-9066-d501aa2485c2
 title: Nonblocking Input/Output
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

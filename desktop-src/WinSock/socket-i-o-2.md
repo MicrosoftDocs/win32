@@ -2,7 +2,7 @@
 description: Using blocking I/O, nonblocking I/O with asynchronous notification of network events, and overlapped I/O with completion indication in Windows Sockets 2 (Winsock).
 ms.assetid: 07f34177-72bc-4b2a-b655-57e53d1742b0
 title: Socket I/O
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

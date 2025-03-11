@@ -2,7 +2,7 @@
 description: Establishing a PGM session is similar to the connection establishment routine associated with a TCP session.
 ms.assetid: 777e0106-0314-4ec8-b064-88ceb694614b
 title: PGM Senders and Receivers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: TCP/IP raw sockets
 description: A raw socket is a type of socket that allows access to the underlying transport provider.
 ms.assetid: 4cbe5505-75e7-454f-9e6b-f38bdc60bf6d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
