@@ -2,7 +2,7 @@
 description: A chord is a region bounded by the intersection of an ellipse and a line segment called a secant. The following illustration shows a chord drawn by using the Chord function.
 ms.assetid: 9aa35b39-06f2-48bf-b32c-3e3e32fab68b
 title: About Chords
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

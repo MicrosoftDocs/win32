@@ -2,7 +2,7 @@
 description: You can use a bitmap to capture an image, and you can store the captured image in memory, display it at a different location in your application's window, or display it in another window.
 ms.assetid: 672fc2e4-c35c-4d5d-98fa-85f2ad56d9b0
 title: Capturing an Image
-ms.topic: article
+ms.topic: concept-article
 ms.date: 12/03/2020
 ---
 

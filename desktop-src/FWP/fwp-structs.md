@@ -4,7 +4,7 @@ description: The Windows Filtering Platform (WFP) API structures are as follows.
 ms.assetid: e957132f-417b-40c1-afe3-5aec0e2192f7
 keywords:
 - Windows Filtering Platform API Enumerated Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

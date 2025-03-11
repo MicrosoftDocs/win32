@@ -2,7 +2,7 @@
 description: The accumulated bounding rectangle is the smallest rectangle enclosing the portion of a window or client area affected by recent drawing operations.
 ms.assetid: 8ae13486-a9e2-4841-ada3-c70d30450ac8
 title: Accumulated Bounding Rectangle
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

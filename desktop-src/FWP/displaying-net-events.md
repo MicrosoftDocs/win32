@@ -2,7 +2,7 @@
 title: Displaying Net Events
 description: Following sample code demonstrates how a server application could locate recent net events that might have affected it.
 ms.assetid: 24c1cf68-a67f-415a-a45d-0e0eb4aae636
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

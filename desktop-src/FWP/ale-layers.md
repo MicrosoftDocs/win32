@@ -2,7 +2,7 @@
 title: ALE Layers
 description: Application Layer Enforcement (ALE) consists of several filtering layers and many matching discard layers.
 ms.assetid: 3ac71787-2350-4a60-b0bf-b00b52d30b83
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
