@@ -2,7 +2,7 @@
 title: Playing a Movie
 description: Playing a Movie
 ms.assetid: 779c49b1-3fbd-48a7-b9fc-04bb952aaa9e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

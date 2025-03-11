@@ -6,7 +6,7 @@ keywords:
 - waveform audio,playing files
 - waveform-audio interface,playing files
 - playing waveform-audio files,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

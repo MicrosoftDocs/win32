@@ -5,7 +5,7 @@ ms.assetid: 76ef7cc9-9afd-462a-b9fe-2b62f8113a9a
 keywords:
 - AVIPutFileOnClipboard function
 - AVIGetFromClipboard function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

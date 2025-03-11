@@ -4,7 +4,7 @@ description: Reading from a Stream
 ms.assetid: be961f06-cf5f-4093-9b31-7d1d69e62fec
 keywords:
 - AVIStreamInfo function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

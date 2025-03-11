@@ -6,7 +6,7 @@ keywords:
 - MCI_STOP command
 - MCI_PAUSE command
 - MCI_RESUME command
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

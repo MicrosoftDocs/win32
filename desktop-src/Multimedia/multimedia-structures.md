@@ -8,7 +8,7 @@ keywords:
 - multimedia reference,structures
 - reference for multimedia,structures
 - multimedia structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

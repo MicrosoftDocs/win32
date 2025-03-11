@@ -16,7 +16,7 @@ keywords:
 - device identifiers vs. device handles
 - audio mixers,device identifiers vs. device handles
 - mixers,device identifiers vs. device handles
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

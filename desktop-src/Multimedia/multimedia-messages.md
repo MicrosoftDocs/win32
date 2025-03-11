@@ -8,7 +8,7 @@ keywords:
 - multimedia reference,messages
 - reference for multimedia,messages
 - multimedia messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
