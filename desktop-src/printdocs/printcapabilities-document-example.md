@@ -2,7 +2,7 @@
 description: This article includes an example of a PrintCapabilities document. Instance names in the sample are for illustration only.
 ms.assetid: 86577c09-919b-4f07-9388-47879c656f32
 title: PrintCapabilities Document Example
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

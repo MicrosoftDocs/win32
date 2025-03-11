@@ -2,7 +2,7 @@
 description: This section describes how to use the XPS&\#160;Print&\#160;API in an application to create and monitor a print job.
 ms.assetid: e700635d-5ee4-40b6-94ad-22f6588a0bae
 title: Using the XPS Print API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: XPS Document API Reference
 ms.assetid: 99cf64c8-44ea-4686-81cd-ccadb4e3cd7f
 title: XPS Document API Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

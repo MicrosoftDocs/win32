@@ -2,7 +2,7 @@
 description: Get information about the PagePoster user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 66a3ac9a-674e-4f16-a2d8-8f5b753f876c
 title: PagePoster
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
