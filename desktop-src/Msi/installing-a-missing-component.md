@@ -2,7 +2,7 @@
 description: You can use the Windows Installer to detect missing components or files, and then reinstall features that contain the missing components.
 ms.assetid: b197c9d0-fcc2-4ca7-a870-e1af82343455
 title: Installing a Missing Component
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.date: 05/31/2018
 ---
 

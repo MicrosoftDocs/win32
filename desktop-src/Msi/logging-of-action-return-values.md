@@ -2,7 +2,7 @@
 description: The Installer writes the following values into the log when an action returns these error codes. For the entire list of error codes returned by the Windows Installer function calls MsiExec.exe, and InstMsi.exe, see Error Codes.
 ms.assetid: 653bbf45-ac2c-4f8a-a978-960e0c42e6e4
 title: Logging of Action Return Values
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

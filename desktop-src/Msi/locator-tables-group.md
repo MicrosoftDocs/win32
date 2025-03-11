@@ -2,7 +2,7 @@
 description: The Locator Tables group is used to locate files and applications.
 ms.assetid: 44ab770b-1a7f-4590-9681-8f6bd343bf86
 title: Locator Tables Group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
