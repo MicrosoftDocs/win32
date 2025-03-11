@@ -2,7 +2,7 @@
 description: 'The following are the DbgHelp structures:'
 ms.assetid: 61ae3f25-c807-4b9c-897e-2b65d4e7cd2e
 title: DbgHelp Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

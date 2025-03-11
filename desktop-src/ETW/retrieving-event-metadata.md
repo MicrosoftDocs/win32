@@ -2,7 +2,7 @@
 description: The following example shows how to use the trace data helper functions to retrieve metadata for each event.
 ms.assetid: 599e0405-b125-4742-b134-964e25413f59
 title: Retrieving Event Metadata
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

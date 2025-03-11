@@ -2,7 +2,7 @@
 description: The SystemTraceProvider is a kernel provider with a predefined sets of kernel events supported on Windows 7, Windows Server 2008 R2, and later.
 ms.assetid: 6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8
 title: Configuring and Starting a SystemTraceProvider Session
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/02/2021
 ---
 

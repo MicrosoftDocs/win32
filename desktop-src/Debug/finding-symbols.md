@@ -2,7 +2,7 @@
 description: After a symbol file has been loaded into the symbol handler, an application can use the symbol locator functions to return symbol information for a specified address.
 ms.assetid: bfc068e1-eced-4ab2-80a3-acc2ed07c841
 title: Finding Symbols
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Manifest-based providers use a manifest to publish the schema for their events.
 ms.assetid: 37d1a504-ecc7-4df3-bf31-546debb62123
 title: Publishing Your Event Schema for a Manifest-based Provider
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

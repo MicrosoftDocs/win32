@@ -2,7 +2,7 @@
 title: Declaring the Device Capability
 description: This topic explains how to declare the device capability GUID.
 ms.assetid: C663F8D2-2CB6-4C3C-A1EB-A3D93AA71FC8
-ms.topic: article
+ms.topic: how-to
 ms.date: 02/11/2020
 ---
 

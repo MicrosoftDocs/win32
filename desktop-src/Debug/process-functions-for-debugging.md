@@ -2,7 +2,7 @@
 description: The CreateProcess function enables a debugger to start a process and debug it.
 ms.assetid: 7056e181-9bc5-4530-a7b8-d5ff1e345eef
 title: Process Functions for Debugging
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

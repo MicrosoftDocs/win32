@@ -2,7 +2,7 @@
 description: The following Direct Manipulation Class GUIDs are defined in DirectManipulation.idl.
 ms.assetid: 6747D082-4B7B-4C7E-A230-2E8C8412FABD
 title: Direct Manipulation GUIDs
-ms.topic: article
+ms.topic: reference
 ms.date: 02/03/2020
 ---
 
