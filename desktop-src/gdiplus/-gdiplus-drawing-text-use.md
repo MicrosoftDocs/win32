@@ -2,7 +2,7 @@
 description: You can use the DrawString method of the Graphics class to draw text at a specified location or within a specified rectangle.
 ms.assetid: a873c132-f232-4144-bcc3-ca200055074c
 title: Drawing Text (GDI+)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

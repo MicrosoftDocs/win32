@@ -2,7 +2,7 @@
 title: Configuring Properties
 description: Configuring Properties
 ms.assetid: 9d659887-a696-4344-9c71-a2cc6131d8b1
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: A translation adds a value to one or more of the four color components. The color matrix entries that represent translations are given in the following table.
 ms.assetid: a0d89989-9b98-42fb-8d87-206581e3c91e
 title: Translating Colors
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

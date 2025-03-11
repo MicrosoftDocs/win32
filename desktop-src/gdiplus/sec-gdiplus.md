@@ -2,7 +2,7 @@
 description: This topic provides information about security considerations related to programming with Windows GDI+.
 ms.assetid: 411e16e4-ad8f-4567-8964-564f08283ba5
 title: 'Security Considerations: GDI+'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

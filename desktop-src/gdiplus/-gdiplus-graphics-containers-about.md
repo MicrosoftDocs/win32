@@ -2,7 +2,7 @@
 description: Graphics state &\#8212; clipping region, transformations, and quality settings &\#8212; is stored in a Graphics object.
 ms.assetid: 98b9fa12-02e7-42bf-9cbd-03ee696188f6
 title: Graphics Containers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

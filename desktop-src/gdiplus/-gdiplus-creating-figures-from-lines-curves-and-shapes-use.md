@@ -2,7 +2,7 @@
 description: To create a path, construct a GraphicsPath object, and then call methods, such as AddLine and AddCurve, to add primitives to the path.
 ms.assetid: 66faeb73-16fb-4b7f-a4d5-a90ec2590d8c
 title: Creating Figures from Lines, Curves, and Shapes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
