@@ -6,7 +6,7 @@ keywords:
 - MetadataImportWithX509OverSslExample Windows Web Services API
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

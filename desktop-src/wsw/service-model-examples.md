@@ -2,7 +2,7 @@
 title: Service Model Examples
 ms.assetid: 019918e1-fff5-40d7-b466-866de8e2e5e5
 description: "Learn more about: Service Model Examples"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
