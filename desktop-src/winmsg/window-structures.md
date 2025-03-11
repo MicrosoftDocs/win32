@@ -2,7 +2,7 @@
 description: Window Structures
 ms.assetid: 8254174d-d19f-4177-91b0-dc87aa1e40e0
 title: Window Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

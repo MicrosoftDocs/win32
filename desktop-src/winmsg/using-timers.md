@@ -2,7 +2,7 @@
 description: This topic shows how to create and destroy timers, and how to use a timer to trap mouse input at specified intervals.
 ms.assetid: eee54078-759f-4fd4-9cf4-10a8bde888b7
 title: Using Timers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -23,7 +23,7 @@ keywords:
 - Ribbon,APIs
 - Windows Ribbon,security
 - Ribbon,security
-ms.topic: article
+ms.topic: reference
 ms.date: 07/13/2021
 ---
 

@@ -2,7 +2,7 @@
 title: Check Box
 description: The Check Box is a control the user can click to provide input to an application. The control provides a toggle state that is represented visually.
 ms.assetid: fe07aa5c-1818-41e2-b48d-5fefe50d733f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

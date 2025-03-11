@@ -2,7 +2,7 @@
 description: This topic discusses how hooks should be used.
 ms.assetid: 9ced0ac4-e602-425f-b954-6af9c741699a
 title: Hooks Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

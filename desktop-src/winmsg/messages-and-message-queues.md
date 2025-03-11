@@ -2,7 +2,7 @@
 description: This section describes messages and message queues and how to use them in your applications.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues.htm'
 title: Messages and Message Queues
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

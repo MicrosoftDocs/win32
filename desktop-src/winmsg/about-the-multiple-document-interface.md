@@ -2,7 +2,7 @@
 description: Each document in an multiple-document interface (MDI) application is displayed in a separate child window within the client area of the application's main window.
 ms.assetid: 35dff281-3b11-4954-85cf-a0f1c9ed346a
 title: About the Multiple Document Interface
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: MDI Messages
 ms.assetid: 75504cf2-e656-440d-a2dc-16e9ca801565
 title: MDI Messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

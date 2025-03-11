@@ -2,7 +2,7 @@
 title: UI_PKEY_FontProperties_Italic
 description: Identifies the UI\_PKEY\_FontProperties\_Italic property.
 ms.assetid: 53edd88e-ed7e-4385-9fd9-bfa90be348cd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

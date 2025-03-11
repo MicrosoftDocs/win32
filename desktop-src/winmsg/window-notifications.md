@@ -2,7 +2,7 @@
 description: Window Notifications
 ms.assetid: f99a572e-110d-4971-a660-e861dbe32cfe
 title: Window Notifications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

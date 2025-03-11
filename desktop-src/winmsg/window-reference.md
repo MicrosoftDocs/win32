@@ -2,7 +2,7 @@
 description: Window Reference
 ms.assetid: aedbac92-2aaa-4df2-a9f2-efee760152d5
 title: Window Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
