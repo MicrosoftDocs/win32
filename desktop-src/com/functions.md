@@ -2,7 +2,7 @@
 title: Functions (COM)
 description: The following functions are provided by COM.
 ms.assetid: 36563ef5-1523-4b77-bca9-472c39e04785
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

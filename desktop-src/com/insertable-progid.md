@@ -4,7 +4,7 @@ description: Indicates that this class is insertable in OLE 2 containers.
 ms.assetid: 08aa22a6-4f11-4fdf-8690-677224469392
 keywords:
 - Insertable registry key COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

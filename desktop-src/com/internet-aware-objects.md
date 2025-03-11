@@ -2,7 +2,7 @@
 title: Internet-Aware Objects
 description: Internet-Aware Objects
 ms.assetid: a8228431-5a07-4816-938d-c789ab6a8eaa
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

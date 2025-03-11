@@ -2,7 +2,7 @@
 title: Implementing and Activating a Handler with No Extra Server Data
 description: Implementing and Activating a Handler with No Extra Server Data
 ms.assetid: 9d91260a-4cec-4a10-bb57-d02999efae47
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

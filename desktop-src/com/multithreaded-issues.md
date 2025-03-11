@@ -2,7 +2,7 @@
 title: Multi-Threaded Issues
 description: Multi-Threaded Issues
 ms.assetid: 17e74d2a-af4f-4188-89fa-b4f50abc424f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

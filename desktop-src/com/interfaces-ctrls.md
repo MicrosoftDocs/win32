@@ -2,7 +2,7 @@
 title: Interfaces (Controls and Property Pages)
 description: The following interfaces are used to create standard COM objects and property pages.
 ms.assetid: f0d655b3-fa92-4553-ba21-617649a922a0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

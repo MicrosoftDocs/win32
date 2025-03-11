@@ -2,7 +2,7 @@
 title: Data Binding through IPropertyNotifySink
 description: Data Binding through IPropertyNotifySink
 ms.assetid: 275a84b3-65d8-43de-bfba-72e3e5ee59fe
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

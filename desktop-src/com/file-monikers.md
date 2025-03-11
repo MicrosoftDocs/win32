@@ -2,7 +2,7 @@
 title: File Monikers
 description: File Monikers
 ms.assetid: 923f798d-d789-4e6d-b27e-dd5a72f92abf
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

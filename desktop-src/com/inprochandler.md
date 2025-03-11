@@ -4,7 +4,7 @@ description: InprocHandler specifies whether an application uses a custom handle
 ms.assetid: b371b331-148b-46f2-a21e-b88b285bcfc9
 keywords:
 - InprocHandler registry key COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Overview of Control and Control Container Guidelines
 description: Overview of Control and Control Container Guidelines
 ms.assetid: c4cf2409-0085-43e6-afa2-f9c03cc50565
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
