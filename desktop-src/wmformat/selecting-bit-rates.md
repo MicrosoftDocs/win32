@@ -12,7 +12,7 @@ keywords:
 - bit rates,selecting
 - bit rates,profiles
 - bit rates,codecs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

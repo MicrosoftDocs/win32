@@ -8,7 +8,7 @@ keywords:
 - Advanced Systems Format (ASF),synchronous readers
 - ASF (Advanced Systems Format),synchronous readers
 - synchronous readers,seeking by time
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

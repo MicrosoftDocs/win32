@@ -13,7 +13,7 @@ keywords:
 - Web streams,DirectShow
 - Web streams,playback in DirectShow
 - streams,Web stream playback in DirectShow
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

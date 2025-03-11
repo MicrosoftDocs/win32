@@ -2,7 +2,7 @@
 description: The ICategoryCollection interface defines the following properties.
 ms.assetid: 78cdf8cf-4a70-40a4-aaa2-e2b6c8293af9
 title: ICategoryCollection Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

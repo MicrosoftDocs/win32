@@ -12,7 +12,7 @@ keywords:
 - scripts,commands
 - scripts,Windows Media Player
 - Windows Media Player
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

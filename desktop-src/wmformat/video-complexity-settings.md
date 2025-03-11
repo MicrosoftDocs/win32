@@ -8,7 +8,7 @@ keywords:
 - codecs,video complexity settings
 - codecs,complexity settings for video
 - video complexity settings
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

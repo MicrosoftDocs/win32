@@ -2,7 +2,7 @@
 description: The IUpdateInstaller2 interface defines the following property.
 ms.assetid: 54aa215a-e457-44e9-bb73-b74a6ed56b26
 title: IUpdateInstaller2 Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

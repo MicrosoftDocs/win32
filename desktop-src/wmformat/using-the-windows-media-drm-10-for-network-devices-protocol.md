@@ -15,7 +15,7 @@ keywords:
 - DRM (digital rights management),DRM 10 for Network Devices
 - Windows Media DRM 10 for Network Devices,protocols
 - DRM 10 for Network Devices,protocols
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

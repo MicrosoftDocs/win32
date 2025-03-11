@@ -7,7 +7,7 @@ keywords:
 - ASF (Advanced Systems Format),writing samples
 - Advanced Systems Format (ASF),passing samples to the writer
 - ASF (Advanced Systems Format),passing samples to the writer
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

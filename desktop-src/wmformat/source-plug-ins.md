@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),source plug-ins
 - ASF (Advanced Systems Format),source plug-ins
 - source plug-ins
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
