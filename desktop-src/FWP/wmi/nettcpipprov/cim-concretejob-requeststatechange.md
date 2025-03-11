@@ -3,7 +3,7 @@ description: Requests that the state of the job be changed to the specified valu
 ms.assetid: b36a5f86-2385-485f-852e-c842ccc6bc00
 title: RequestStateChange method of the CIM_ConcreteJob WMI class
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

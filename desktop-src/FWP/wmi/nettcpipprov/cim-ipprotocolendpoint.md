@@ -3,7 +3,7 @@ description: A ProtocolEndpoint that is dedicated to running IP.
 ms.assetid: 54499dbb-ef81-4e31-a1ef-76ec1884ec31
 title: CIM_IPProtocolEndpoint WMI class
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

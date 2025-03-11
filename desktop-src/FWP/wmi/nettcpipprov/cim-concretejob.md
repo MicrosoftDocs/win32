@@ -3,7 +3,7 @@ description: A concrete version of Job. This class represents a generic and inst
 ms.assetid: 7a4cb679-b8d2-47de-bfa8-865df910b041
 title: CIM_ConcreteJob WMI class
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
