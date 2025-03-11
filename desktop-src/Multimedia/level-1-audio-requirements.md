@@ -7,7 +7,7 @@ keywords:
 - MPC (Multimedia PC),Level 1
 - Multimedia PC Marketing Council,Level 1
 - MPC Level 1,audio requirements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

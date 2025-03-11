@@ -2,7 +2,7 @@
 title: Creating a File or Stream Handler
 description: Creating a File or Stream Handler
 ms.assetid: 9ec1af9a-f428-4323-a4f8-3eb923ce78d7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

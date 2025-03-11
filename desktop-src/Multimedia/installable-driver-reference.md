@@ -8,7 +8,7 @@ keywords:
 - installable drivers,reference
 - installable driver reference,about
 - reference for installable drivers,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

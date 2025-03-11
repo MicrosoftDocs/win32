@@ -2,7 +2,7 @@
 title: MCI Devices
 description: MCI Devices
 ms.assetid: 'd63eabe8-b085-4db9-a377-75112a7195e0'
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

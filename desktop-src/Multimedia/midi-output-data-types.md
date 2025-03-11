@@ -9,7 +9,7 @@ keywords:
 - MIDI output data types
 - MIDIHDR data type
 - MIDIOUTCAPS data type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

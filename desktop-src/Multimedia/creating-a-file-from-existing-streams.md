@@ -5,7 +5,7 @@ ms.assetid: 5149a766-7809-42b7-8e5c-b67b847b9218
 keywords:
 - AVISave function
 - AVISaveV function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

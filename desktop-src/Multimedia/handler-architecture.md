@@ -2,7 +2,7 @@
 title: Handler Architecture
 description: Handler Architecture
 ms.assetid: 93839b82-09cb-41af-ac0e-a8e9448bf04b
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -4,7 +4,7 @@ description: Creating a Status Callback Function
 ms.assetid: 9aa98340-a5a0-4084-9670-b3c27a1351ed
 keywords:
 - capSetCallbackOnStatus macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

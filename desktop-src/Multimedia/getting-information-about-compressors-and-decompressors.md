@@ -6,7 +6,7 @@ keywords:
 - video compression manager (VCM),getting information about compressors
 - VCM (video compression manager),getting information about compressors
 - ICGetInfo function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

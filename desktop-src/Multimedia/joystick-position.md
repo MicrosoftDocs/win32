@@ -5,7 +5,7 @@ ms.assetid: db0d1125-e39f-445b-bd65-373633cad578
 keywords:
 - joysticks,position
 - joysticks,buttons
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

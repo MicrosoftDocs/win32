@@ -5,7 +5,7 @@ ms.assetid: e86740e5-633e-465d-94ef-8065a8c05b31
 keywords:
 - MCI structures
 - MCI reference,structures
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

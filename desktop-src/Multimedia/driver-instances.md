@@ -6,7 +6,7 @@ keywords:
 - installable drivers,instances
 - installable drivers,multiple instances
 - multiple driver instances
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
