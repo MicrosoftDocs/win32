@@ -7,7 +7,7 @@ keywords:
 - Windows Media Format SDK,Advanced Systems Format (ASF)
 - Advanced Systems Format (ASF),reading files
 - ASF (Advanced Systems Format),reading files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

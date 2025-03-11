@@ -14,7 +14,7 @@ keywords:
 - ASF (Advanced Systems Format),constants
 - global constants,GUID values
 - constants,GUID values
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

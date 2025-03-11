@@ -13,7 +13,7 @@ keywords:
 - Client Extended APIs,non-silent license acquisition
 - non-silent license acquisition
 - licenses,non-silent license acquisition
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

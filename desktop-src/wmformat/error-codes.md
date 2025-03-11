@@ -22,7 +22,7 @@ keywords:
 - DRM (digital rights management),error codes
 - digital rights management (DRM),success codes
 - DRM (digital rights management),success codes
-ms.topic: article
+ms.topic: error-reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -11,7 +11,7 @@ keywords:
 - digital rights management (DRM),protected file licensing
 - DRM (digital rights management),protected file licensing
 - licenses,DRM
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

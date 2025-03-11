@@ -9,7 +9,7 @@ keywords:
 - DRM (digital rights management),import
 - DRM Client Extended APIs,import
 - Client Extended APIs,import
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

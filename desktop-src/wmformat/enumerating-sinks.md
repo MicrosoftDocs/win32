@@ -8,7 +8,7 @@ keywords:
 - Advanced Systems Format (ASF),sinks
 - ASF (Advanced Systems Format),sinks
 - sinks,enumerating
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

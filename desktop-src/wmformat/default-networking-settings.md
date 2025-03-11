@@ -9,7 +9,7 @@ keywords:
 - Windows Media Format SDK,networking settings
 - Advanced Systems Format (ASF),networking settings
 - ASF (Advanced Systems Format),networking settings
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

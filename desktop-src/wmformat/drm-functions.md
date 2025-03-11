@@ -8,7 +8,7 @@ keywords:
 - DRM (digital rights management),functions
 - DRM Client Extended APIs,functions
 - Client Extended APIs,functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

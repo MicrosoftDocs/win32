@@ -8,7 +8,7 @@ keywords:
 - DRM (digital rights management),structures
 - DRM Client Extended APIs,structures
 - Client Extended APIs,structures
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
