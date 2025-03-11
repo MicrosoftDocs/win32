@@ -2,7 +2,7 @@
 description: This topic describes when and how to use a H.264/AVC Remux MFT and MP4 Sink.
 ms.assetid: 1DD236D9-775B-4417-BC49-BF52A6B3C8AD
 title: When and How to Use H.264/AVC Remux MFT and MP4 Sink
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Describes equivalent Direct3D 12 video APIs to previous versions.
 ms.assetid: 
 title: Migrating to Direct3D 12 video
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/03/2019
 ---
 

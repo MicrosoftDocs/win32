@@ -2,7 +2,7 @@
 description: The pipeline layer in Microsoft Media Foundation is the layer of the architecture that directly generates or processes media data.
 ms.assetid: d6396246-ddc4-4e24-9371-35ddbef59b8a
 title: Media Foundation Pipeline
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

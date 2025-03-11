@@ -2,7 +2,7 @@
 description: Instantiating Codec MFTs
 ms.assetid: 171f9a0f-effb-4ed7-8aff-d7b1ee6e4973
 title: Instantiating Codec MFTs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

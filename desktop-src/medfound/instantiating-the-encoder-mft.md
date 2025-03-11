@@ -2,7 +2,7 @@
 description: Instantiating an Encoder MFT
 ms.assetid: 50b71c00-b7cf-4c38-8114-bb36b358fda5
 title: Instantiating an Encoder MFT
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

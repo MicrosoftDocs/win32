@@ -2,7 +2,7 @@
 description: This topic describes how to play a sequence of audio/video files using MFPlay.
 ms.assetid: ee16eaa3-0506-4444-b139-f8a8498d6597
 title: How to Play a Sequence of Files
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

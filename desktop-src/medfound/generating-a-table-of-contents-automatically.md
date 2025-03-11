@@ -2,7 +2,7 @@
 description: Generating a Table of Contents Automatically
 ms.assetid: 3acb9c12-0158-4b89-87c4-4abd35ae8c2f
 title: Generating a Table of Contents Automatically
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

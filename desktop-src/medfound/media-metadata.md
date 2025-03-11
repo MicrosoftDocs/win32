@@ -2,7 +2,7 @@
 description: Media Metadata
 ms.assetid: dd7c4bc9-e2a6-49cd-8f29-865a44d5b5c9
 title: Media Metadata
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Media Foundation Attributes
 ms.assetid: '445fc879-3c9e-409d-8d05-ecd1ff9afc19'
 title: Media Foundation Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

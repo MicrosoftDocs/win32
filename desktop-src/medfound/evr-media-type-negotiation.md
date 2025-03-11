@@ -2,7 +2,7 @@
 description: EVR Media Type Negotiation
 ms.assetid: 3a12b80d-7aac-437d-b515-aab37c1e81b2
 title: EVR Media Type Negotiation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Describes Media Foundation functions and provides a list of functions and links to related reference articles.
 ms.assetid: 3018ffa7-e709-45b0-8b2b-7640d5633378
 title: Media Foundation Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

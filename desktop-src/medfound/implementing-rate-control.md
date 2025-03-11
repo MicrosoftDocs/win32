@@ -2,7 +2,7 @@
 description: This topic describes how custom pipeline objects can support variable playback rates, including reverse playback. For information about using rate control from an application, see Rate Control.
 ms.assetid: 077678db-ca5a-423b-9430-93497113d639
 title: Implementing Rate Control
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
