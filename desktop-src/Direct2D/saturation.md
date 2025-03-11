@@ -4,7 +4,7 @@ description: Use this effect to alter the saturation of an image.
 ms.assetid: 03A374D9-BED4-49ED-B90E-21193909C8AB
 keywords:
 - saturation effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

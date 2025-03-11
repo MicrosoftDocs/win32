@@ -4,7 +4,7 @@ description: Direct2D provides the following interfaces.
 ms.assetid: 82e91a22-1af8-457a-9aac-e583d5e12270
 keywords:
 - Direct2D,interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

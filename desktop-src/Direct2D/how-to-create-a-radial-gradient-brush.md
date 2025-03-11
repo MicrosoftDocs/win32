@@ -2,7 +2,7 @@
 title: How to Create a Radial Gradient Brush
 description: Shows how to create a radial gradient brush using Direct2D.
 ms.assetid: 663743c9-16e9-4e3a-90b2-883ef0b8d5cf
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

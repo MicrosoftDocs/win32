@@ -4,7 +4,7 @@ description: Use the hue rotate effect to alter the hue of an image by applying 
 ms.assetid: D322DB2C-2B8B-4101-BFB2-97E49CAC7BF6
 keywords:
 - hue rotation effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

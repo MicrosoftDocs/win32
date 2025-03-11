@@ -2,7 +2,7 @@
 title: Getting Started with the Stream-Output Stage
 description: This section describes how to use a geometry shader with the stream output stage.
 ms.assetid: 37146486-5922-4833-850c-cc4a51de0957
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

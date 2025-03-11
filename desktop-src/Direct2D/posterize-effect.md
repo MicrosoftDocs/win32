@@ -2,7 +2,7 @@
 title: Posterize effect
 description: The posterize effect reduces the number of unique colors in an image.
 ms.assetid: e6686998-1246-b3b7-6f4f-212568c3191c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

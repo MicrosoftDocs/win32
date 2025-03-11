@@ -2,7 +2,7 @@
 title: Differences Between Effects 10 and Effects 11
 description: This topic shows the differences between Effects 10 and Effects 11.
 ms.assetid: c3e5e6bc-c544-49ee-b6d9-021ce87f9b12
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
