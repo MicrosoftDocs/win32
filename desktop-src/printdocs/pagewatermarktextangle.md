@@ -2,7 +2,7 @@
 description: Get more information about the PageWatermarkTextAngle parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 157bb79c-68d2-4121-8a85-cd2f48095541
 title: PageWatermarkTextAngle
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

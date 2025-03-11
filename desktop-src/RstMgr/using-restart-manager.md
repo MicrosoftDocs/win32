@@ -4,7 +4,7 @@ description: The following sections describe using the Restart Manager API.
 ms.assetid: 78448d5e-20f6-45b6-b833-7d7791e5e4c6
 keywords:
 - Restart Manager Restart Mgr , using
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

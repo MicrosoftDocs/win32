@@ -2,7 +2,7 @@
 description: Learn about the PageScaling element. This element describes the scaling characteristics of the output.
 ms.assetid: cf35bb37-bf67-4e86-bfef-9838606982a5
 title: PageScaling
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

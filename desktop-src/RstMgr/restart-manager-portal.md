@@ -4,7 +4,7 @@ description: Write custom installers to eliminate system restarts that are requi
 ms.assetid: 44b7975a-0093-4c8f-9a14-2a6bfd7a68a5
 keywords:
 - Restart Manager Restart Mgr
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following example discusses how to generate a signed side-by-side assembly consisting of the assembly manifest, the verification catalog, and the assembly files.
 ms.assetid: fa95f292-36e6-4e88-8a0d-aa8bd08def2b
 title: Assembly Signing Example
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

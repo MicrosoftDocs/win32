@@ -2,7 +2,7 @@
 description: Learn about the PageTrueTypeFontMode user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 36b1de5d-8575-42cf-b158-dcf7705ec157
 title: PageTrueTypeFontMode
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

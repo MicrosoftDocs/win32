@@ -2,7 +2,7 @@
 description: XPS Print API Functions
 ms.assetid: 0d9a18eb-57fc-4086-825d-0ca6ae849ce0
 title: XPS Print API Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

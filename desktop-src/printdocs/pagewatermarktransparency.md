@@ -2,7 +2,7 @@
 description: Get information about the PageWatermarkTransparency parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: f94c1450-9648-4aee-8f88-2a9213eba4a9
 title: PageWatermarkTransparency
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
