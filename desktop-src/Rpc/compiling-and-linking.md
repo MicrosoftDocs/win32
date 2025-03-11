@@ -4,7 +4,7 @@ description: The following makefile shows the dependencies among the files neede
 ms.assetid: 9182baea-7307-4db0-8d66-7fba14227ac9
 keywords:
 - Remote Procedure Call RPC , tasks, compiling and linking
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

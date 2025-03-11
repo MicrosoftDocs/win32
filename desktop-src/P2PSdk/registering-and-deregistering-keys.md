@@ -2,7 +2,7 @@
 description: Registering and Deregistering Keys
 ms.assetid: 90fd8df0-e2a8-4183-a50c-e6f8ea5041cc
 title: Registering and Deregistering Keys
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: Programming DirectX with COM.
 title: Programming DirectX with COM
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/29/2019
 ---
 

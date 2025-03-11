@@ -2,7 +2,7 @@
 description: The Peer Infrastructure uses the following common programming constructs.
 ms.assetid: 09bdb2fc-9c38-4632-89bd-f9d9123d3b22
 title: Peer Infrastructure Common Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

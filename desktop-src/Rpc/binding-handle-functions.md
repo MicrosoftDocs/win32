@@ -2,7 +2,7 @@
 title: Binding Handle Functions
 description: The following table contains the list of RPC run-time routines that operate on binding handles and specifies the type of binding handle allowed.
 ms.assetid: 16effe59-ebe2-48c3-b97a-90656b6d3b51
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

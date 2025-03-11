@@ -2,7 +2,7 @@
 description: Peer-to-Peer
 ms.assetid: a85fe46c-ce5f-4978-aa37-a3666560426b
 title: Peer-to-Peer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

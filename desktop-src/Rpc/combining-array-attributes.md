@@ -2,7 +2,7 @@
 title: Combining Array Attributes
 description: Field attributes can be supplied in various combinations as long as the stub can use the information to determine the size of the array and the number of bytes to transmit to the server.
 ms.assetid: ff4f971f-9e46-4454-9d57-d8ebdf70b261
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

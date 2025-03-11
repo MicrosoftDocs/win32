@@ -1,7 +1,7 @@
 ---
 title: Packet Monitor (Pktmon)
 description: Packet Monitor (Pktmon) is an in-box, cross-component network diagnostics tool for Windows.
-ms.topic: article
+ms.topic: reference
 ms.date: 07/03/2024
 ---
 
