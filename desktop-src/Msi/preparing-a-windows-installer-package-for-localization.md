@@ -2,7 +2,7 @@
 description: Adhere to these guidelines to facilitate the localization of Windows Installer packages.
 ms.assetid: f00b44b4-e8ec-46d2-b329-00728a83275b
 title: Preparing a Windows Installer Package for Localization
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

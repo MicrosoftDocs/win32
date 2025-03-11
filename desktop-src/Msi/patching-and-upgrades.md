@@ -2,7 +2,7 @@
 description: Because an installation package can contain the files that make up an application as well the information needed for their installation, Windows Installer can be used to update the application.
 ms.assetid: da946739-9efc-4bf0-8a9a-6f6ead3c4a34
 title: Patching and Upgrades
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

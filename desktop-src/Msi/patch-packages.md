@@ -2,7 +2,7 @@
 description: A Windows Installer patch (.msp file) is a file used to deliver updates to Windows Installer applications.
 ms.assetid: f59736d7-0b5a-466c-ab60-f210ccccb07f
 title: Patch Packages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
