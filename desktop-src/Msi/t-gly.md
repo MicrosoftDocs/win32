@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter T, such as transaction processing and transform.
 ms.assetid: 06fd0284-5af9-409a-8748-c0b40e0fa317
 title: T (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

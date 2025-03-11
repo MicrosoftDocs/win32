@@ -2,7 +2,7 @@
 description: The Time/Date data type has the time and the date stored individually, using unsigned integers as bit fields, packed as follows.
 ms.assetid: 02c6076e-7f81-489c-9997-1435dec81852
 title: Time/Date
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

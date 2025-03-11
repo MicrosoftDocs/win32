@@ -2,7 +2,7 @@
 description: If this bit is set, the control is displayed with a sunken, three dimensional look.
 ms.assetid: 00052b01-f2f0-4749-8826-084e5ebb300a
 title: Sunken Control Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

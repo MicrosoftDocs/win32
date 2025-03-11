@@ -2,7 +2,7 @@
 description: The installer uses the TimeRemaining event to publish the approximate time remaining, in seconds, for the current progress sequence.
 ms.assetid: ec5fc2b3-13a9-4681-89f0-fd39bab1de5f
 title: TimeRemaining ControlEvent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

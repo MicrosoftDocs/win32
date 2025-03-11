@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter R, such as reduced UI and resiliency.
 ms.assetid: 868cb5b7-d5ab-41c7-a6d4-d7964a8ff6de
 title: R (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 
