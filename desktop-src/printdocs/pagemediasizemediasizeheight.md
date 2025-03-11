@@ -2,7 +2,7 @@
 description: Get information about the PageMediaSizeMediaSizeHeight parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 209b3024-60cf-47e0-8738-cd7795e38c2a
 title: PageMediaSizeMediaSizeHeight
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Virtual Function Tables
 description: Virtual Function Tables
 ms.assetid: 1b7c6da6-3156-46fe-a9ca-0c1717fe28b5
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

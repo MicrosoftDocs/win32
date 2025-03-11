@@ -2,7 +2,7 @@
 description: This topic describes how to initialize the signature manager for use with an XPS document.
 ms.assetid: 4c4c6e8f-4ee0-4089-a283-1082baee5054
 title: Initialize the Signature Manager
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

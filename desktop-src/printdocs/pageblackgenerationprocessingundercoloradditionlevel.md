@@ -2,7 +2,7 @@
 description: Learn about the PageBlackGenerationProcessingUnderColorAdditionLevel element, which describes the amount chromatic ink to add to areas with BlackInkLimit.
 ms.assetid: da957aca-1655-4e8d-9e7b-4da0f253293b
 title: PageBlackGenerationProcessingUnderColorAdditionLevel
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

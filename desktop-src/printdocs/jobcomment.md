@@ -2,7 +2,7 @@
 description: Learn about the JobComment element, which specifies a comment associated with the job, for example, Please deliver to room 1234 when completed.
 ms.assetid: 100fe310-8e64-453f-8eaf-10abaf8b10b7
 title: JobComment
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

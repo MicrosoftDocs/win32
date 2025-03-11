@@ -2,7 +2,7 @@
 description: Learn about the JobOutputBin element, which describes the installed output bin in a device or the full list of supported bins for a device.
 ms.assetid: 324ec426-b7c8-43af-96b9-74929358e262
 title: JobOutputBin
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

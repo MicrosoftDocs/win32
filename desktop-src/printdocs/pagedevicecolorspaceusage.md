@@ -2,7 +2,7 @@
 description: Review the PageDeviceColorSpaceUsage user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: c529c731-fcf0-463e-a251-6a05215e4d23
 title: PageDeviceColorSpaceUsage
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

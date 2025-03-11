@@ -2,7 +2,7 @@
 description: Review the PageDestinationColorProfile user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 1a6ff76a-0818-464a-bf75-534dc7ea383f
 title: PageDestinationColorProfile
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

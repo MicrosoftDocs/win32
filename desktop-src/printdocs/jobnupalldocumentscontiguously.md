@@ -2,7 +2,7 @@
 description: Learn about the JobNUpAllDocumentsContiguously element, which describes the output of multiple logical pages to a single physical sheet.
 ms.assetid: e73e1736-9be5-4831-8277-23a62658b7b5
 title: JobNUpAllDocumentsContiguously
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

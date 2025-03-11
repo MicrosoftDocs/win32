@@ -4,7 +4,7 @@ description: Videodisc Command Set
 ms.assetid: 44e3b052-5fb1-4cad-939e-41954800ab5d
 keywords:
 - videodisc command set
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

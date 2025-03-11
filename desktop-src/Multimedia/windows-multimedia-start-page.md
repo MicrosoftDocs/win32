@@ -7,7 +7,7 @@ keywords:
 - multimedia,about
 - Windows multimedia,Start page
 - multimedia,Start page
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

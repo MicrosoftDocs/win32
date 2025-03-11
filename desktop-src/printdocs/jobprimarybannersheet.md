@@ -2,7 +2,7 @@
 description: Learn about the JobPrimaryBannerSheet element, which describes  the banner sheet to be output for the job.
 ms.assetid: c8f9001e-9f92-405a-8f3a-bc59b47c9e35
 title: JobPrimaryBannerSheet
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
