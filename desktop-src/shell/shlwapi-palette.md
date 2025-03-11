@@ -1,7 +1,7 @@
 ---
 description: This section describes the Windows Shell color palette handling functions. The programming elements explained in this documentation are exported by Shlwapi.dll and defined in Shlwapi.h and Shlwapi.lib.
 title: Shell Color Palette Handling Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 93848cb3-60c6-4b2f-82d9-abfee97e372a
 api_name: 

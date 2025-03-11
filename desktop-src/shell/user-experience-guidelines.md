@@ -1,7 +1,7 @@
 ---
 description: The primary responsibility of any Control Panel item is to display a window that allows the user to view and manipulate settings.
 title: User Experience Guidelines
-ms.topic: article
+ms.topic: reference
 ms.date: 09/24/2020
 ms.assetid: f03a154b-9781-4718-8244-3d57fee0755e
 api_name: 

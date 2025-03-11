@@ -2,7 +2,7 @@
 title: Windows 7 Drop-down Lists Combo Boxes
 description: Windows 7 drop-down lists help users make a choice among a list of mutually exclusive values.
 ms.assetid: dbe88cf1-7946-4343-bc16-ce12be7ce205
-ms.topic: article
+ms.topic: reference
 ms.date: 01/25/2022
 ---
 

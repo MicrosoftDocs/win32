@@ -2,7 +2,7 @@
 title: Taskbar
 description: The taskbar is the access point for programs displayed on the desktop. With the new Windows 7 taskbar features, users can give commands, access resources, and view program status directly from the taskbar.
 ms.assetid: c00e558a-313f-4741-a4b2-7d738f4544fa
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

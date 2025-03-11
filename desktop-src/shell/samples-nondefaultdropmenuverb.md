@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to extend the drag-and-drop shortcut menu (sometimes referred to as a context menu).
 title: NonDefaultDropMenuVerb Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: F19B7561-D280-41df-A829-15960FEB12F8
 api_name: 

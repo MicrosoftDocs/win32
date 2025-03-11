@@ -2,7 +2,7 @@
 title: Tooltips and Infotips
 description: A tooltip is a small pop-up window that labels the unlabeled control being pointed to, such as unlabeled toolbar controls or command buttons.
 ms.assetid: 80979281-eefb-485a-b42f-7f9e05665357
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

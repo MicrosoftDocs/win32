@@ -1,7 +1,7 @@
 ---
 description: This section describes the Windows Shell string handling functions. The programming elements explained in this documentation are exported by Shlwapi.dll and defined in Shlwapi.h and Shlwapi.lib.
 title: Shell String Handling Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: c7329e22-c9bf-4845-bc0a-a155d1bd2005
 api_name: 

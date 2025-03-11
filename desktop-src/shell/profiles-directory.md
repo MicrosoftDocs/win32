@@ -1,7 +1,7 @@
 ---
 description: 'The system stores user profile information in a specific directory, which has different names in different versions of Windows: &\#0034;Documents and Settings&\#0034; in Windows XP and &\#0034;Users&\#0034; in Windows Vista and later.'
 title: Profiles Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 41056f40-fa1a-488a-b213-49cbdd8d4fdf
 api_name: 

@@ -1,7 +1,7 @@
 ---
 description: When you provide a preview, the following guidelines should be followed.
 title: Preview Handler Guidelines
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 3538cc5d-afb6-4d43-b527-6c6e1d773b41
 api_name: 

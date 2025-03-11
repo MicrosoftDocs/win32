@@ -1,7 +1,7 @@
 ---
 description: Understand how to use the stackedby argument in the Windows Shell UI. This argument specifies the property column to stack results by.
 title: STACKEDBY Argument (The Windows Shell)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 781ea9f7-3d82-401b-995f-89bad7d47b3f
 api_name: 

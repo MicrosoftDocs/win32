@@ -1,7 +1,7 @@
 ---
 description: A temporary user profile is issued each time an error condition prevents the user's profile from loading.
 title: Temporary User Profiles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: d1f08d21-6963-4069-92fa-17c367255e28
 api_name: 

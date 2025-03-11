@@ -1,7 +1,7 @@
 ---
 description: The following API elements are used with user profiles.
 title: User Profiles Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 86871866-bb90-4287-9640-0a6cd136a800
 api_name: 
