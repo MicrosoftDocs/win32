@@ -2,7 +2,7 @@
 description: 'The following elements are used with power management:'
 ms.assetid: f37bf4dc-0f30-4762-bed1-3373b16be37c
 title: Power Management Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

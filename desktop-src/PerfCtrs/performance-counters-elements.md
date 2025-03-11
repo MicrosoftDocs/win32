@@ -2,7 +2,7 @@
 description: "Learn more about: Performance Counters Elements"
 ms.assetid: dc5dd33c-a2ed-4c0c-9f54-aca3df57d4fb
 title: Performance Counters Elements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

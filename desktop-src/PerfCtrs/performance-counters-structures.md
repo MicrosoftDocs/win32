@@ -2,7 +2,7 @@
 description: You use the following structures when working with performance data.
 ms.assetid: 97118b64-3a2f-49c0-92e7-324df08bdb12
 title: Performance Counters Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 08/17/2020
 ---
 
