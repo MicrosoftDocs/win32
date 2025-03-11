@@ -9,7 +9,7 @@ keywords:
 - Ribbon,controls overview
 - command system for Windows Ribbon
 - controls for Windows Ribbon
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic discusses timers. A timer is an internal routine that repeatedly measures a specified interval, in milliseconds.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\timers.htm'
 title: Timers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

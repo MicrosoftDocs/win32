@@ -6,7 +6,7 @@ keywords:
 - Windows Ribbon,reconfiguring with application modes
 - Ribbon,reconfiguring with application modes
 - reconfiguring Windows Ribbon with application modes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

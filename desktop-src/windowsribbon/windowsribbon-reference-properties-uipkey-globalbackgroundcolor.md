@@ -2,7 +2,7 @@
 title: UI_PKEY_GlobalBackgroundColor
 description: Identifies the UI\_PKEY\_GlobalBackgroundColor property.
 ms.assetid: c449db6d-cdb8-4794-a804-86b718ea12aa
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
