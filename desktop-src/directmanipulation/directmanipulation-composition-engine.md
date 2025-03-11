@@ -2,7 +2,7 @@
 description: In order to drive visual updates, the application should use IDirectManipulationCompositor.
 ms.assetid: 6D8FB359-F52B-43F9-8A62-6BB2AEDE4F2B
 title: Composition engine
-ms.topic: article
+ms.topic: reference
 ms.date: 02/03/2020
 ---
 

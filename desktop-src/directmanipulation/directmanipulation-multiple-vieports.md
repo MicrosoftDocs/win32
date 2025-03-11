@@ -2,7 +2,7 @@
 description: When using multiple viewports, Hit testingdetermines which viewport(s) are affected by user input by taking the screen location of a contact and determining which viewport rectangle the contact hits.
 ms.assetid: 960EF92D-F439-4A84-AAF9-1469E2830573
 title: Using multiple viewports in DirectManipulation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/03/2020
 ---
 

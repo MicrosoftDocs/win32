@@ -2,7 +2,7 @@
 title: Create a Windows Runtime component for device access
 description: You can create a Windows Runtime component to wrap the component that accesses your driver. You can then write a Windows Store device app for your device in C\ or JavaScript.
 ms.assetid: 6CDFF247-DC78-4E90-B806-C25AB4F1129E
-ms.topic: article
+ms.topic: how-to
 ms.date: 02/11/2020
 ---
 

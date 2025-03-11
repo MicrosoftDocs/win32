@@ -2,7 +2,7 @@
 description: The following constants are used in event tracing.
 ms.assetid: 34e28c8a-036f-48ab-a162-140bfaf3ca12
 title: Event Tracing Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

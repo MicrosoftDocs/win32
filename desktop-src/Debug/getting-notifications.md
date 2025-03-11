@@ -2,7 +2,7 @@
 description: The following code shows how to obtain and report verbose status information from the symbol handler about searching for and loading of modules and the corresponding symbol files.
 ms.assetid: 1dd8af0e-280b-4fc4-bf75-45c5c7517365
 title: Getting Notifications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

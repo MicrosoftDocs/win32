@@ -2,7 +2,7 @@
 description: The debugging functions can be used to create a basic, event-driven debugger.
 ms.assetid: 3c9e186b-6844-4126-b035-a3541880e109
 title: About Basic Debugging
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following code demonstrates how to retrieve an undecorated symbol name from a symbol name using UnDecorateSymbolName.
 ms.assetid: fcb0591a-dac3-45eb-b4c0-4a35c42450e5
 title: Retrieving Undecorated Symbol Names
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

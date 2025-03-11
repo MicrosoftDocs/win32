@@ -2,7 +2,7 @@
 description: Message tables are special string resources used when displaying error messages. They are declared in a resource file using the MESSAGETABLE resource-definition statement. To access the message strings, use the FormatMessage function.
 ms.assetid: db84f190-1d1e-4192-8dba-baaee0a3e3ea
 title: Message Tables
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

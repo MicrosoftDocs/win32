@@ -2,7 +2,7 @@
 description: 'This is an overview of what to expect for the end-to-end journey of an event for each of the four tracing technologies furnished by Microsoft: TraceLogging, Manifest-based, WPP, and MOF.'
 ms.assetid: 6102593C-C6D5-4BDB-A0EF-067AF91DE00B
 title: Event Metadata Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

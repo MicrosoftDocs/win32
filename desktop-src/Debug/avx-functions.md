@@ -2,7 +2,7 @@
 description: Intel AVX functions.
 ms.assetid: 237f356a-9ee8-4c52-b08c-a6695c52713a
 title: AVX Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

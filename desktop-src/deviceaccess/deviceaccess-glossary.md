@@ -3,7 +3,7 @@ title: Device Access Glossary
 description: The following are terms used throughout the documentation for the Device Access API.
 Robots: noindex, nofollow
 ms.assetid: A6311538-D7CC-4A23-A145-14AF3BBFC4C4
-ms.topic: article
+ms.topic: glossary
 ms.date: 02/11/2020
 ---
 

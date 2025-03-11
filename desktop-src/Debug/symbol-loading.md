@@ -2,7 +2,7 @@
 description: The symbol handler will load symbols when you call the SymInitialize function with the fInvadeProcess parameter set to TRUE or when you call the SymLoadModuleEx function to specify a module.
 ms.assetid: 'fae1895e-9fed-45e3-8ecf-4c6cc67a6094'
 title: Symbol Loading
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
