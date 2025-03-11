@@ -2,7 +2,7 @@
 description: Setting an Output Type for a WMA Encoder
 ms.assetid: 0a1a22bb-460f-4ac2-be76-4249997441de
 title: Setting an Output Type for a WMA Encoder
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

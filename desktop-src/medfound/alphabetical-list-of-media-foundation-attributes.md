@@ -2,7 +2,7 @@
 description: This section contains an alphabetical list of Microsoft Media Foundation.
 ms.assetid: 386ecdb9-dde5-470e-9ae8-d2e0acc065b1
 title: Alphabetical List of Media Foundation Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Windows Desktop Application Program
 description: You can get detailed telemetry data and analytics reports that let you see how your Windows desktop applications are doing through the new Windows Desktop Application Program.
 ms.assetid: F1ED72A5-E1CD-4924-A81B-ED6FAF5E2AA3
-ms.topic: article
+ms.topic: reference
 ms.date: 11/02/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Endpoint ID Strings
 ms.assetid: 3c955e2d-daaa-4b77-8ca5-890383bb2d39
 title: Endpoint ID Strings
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

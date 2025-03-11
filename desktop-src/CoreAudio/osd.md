@@ -2,7 +2,7 @@
 description: This sample uses the Core Audio APIs to implement an on-screen display that shows volume changes to the output stream that plays through the default audio-rendering endpoint device.
 ms.assetid: 33a1e843-f7c7-4da9-a51e-83a3f0a6ac70
 title: OSD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

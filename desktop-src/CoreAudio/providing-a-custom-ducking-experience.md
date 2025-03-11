@@ -2,7 +2,7 @@
 description: An application can opt out of the Default Ducking Experience handled by the system and replace it with a custom implementation.
 ms.assetid: 18290d05-b114-476b-8365-6bbb5fe6cffc
 title: Providing a Custom Ducking Behavior
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Core Audio Constants
 ms.assetid: 9dc9f182-3adf-4171-8829-35debae123da
 title: Core Audio Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

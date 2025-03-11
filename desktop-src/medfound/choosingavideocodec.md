@@ -2,7 +2,7 @@
 description: Choosing a Video Codec
 ms.assetid: 3a4b925a-4fb4-4189-a571-8083454fed0e
 title: Choosing a Video Codec (Microsoft Media Foundation)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
