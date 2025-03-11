@@ -2,7 +2,7 @@
 description: 'The names of people in the Cc: field.'
 ms.assetid: a9675268-7006-4a6a-9a7a-68541f43311b
 title: System.Message.CcName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

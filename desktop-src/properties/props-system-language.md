@@ -2,7 +2,7 @@
 description: The primary language of the file, particularly if that file is a document.
 ms.assetid: fc25ebaa-42f6-42fc-8a3e-7704dbfbc0d8
 title: System.Language
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

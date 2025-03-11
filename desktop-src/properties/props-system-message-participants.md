@@ -2,7 +2,7 @@
 description: Participants in communication.
 ms.assetid: 43196979-d1f0-4a30-9358-07de376d1233
 title: System.Message.Participants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

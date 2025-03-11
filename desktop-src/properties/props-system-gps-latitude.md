@@ -2,7 +2,7 @@
 description: Indicates latitude.
 ms.assetid: f36f81b3-4e3d-4e06-a039-c243fd69c937
 title: System.GPS.Latitude
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

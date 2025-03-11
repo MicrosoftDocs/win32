@@ -2,7 +2,7 @@
 description: System.Link.TargetUrl
 ms.assetid: 3354af97-df38-42ed-bd0c-3fc70f296882
 title: System.Link.TargetUrl
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

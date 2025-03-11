@@ -2,7 +2,7 @@
 description: Class type of the item.
 ms.assetid: 081c7b33-582f-457c-9918-f7d5bb8879ab
 title: System.ItemClassType
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

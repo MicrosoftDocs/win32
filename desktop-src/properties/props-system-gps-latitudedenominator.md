@@ -2,7 +2,7 @@
 description: The denominator of PKEY\_GPS\_Latitude.
 ms.assetid: 68bab91f-959a-4374-bd0e-035d25745147
 title: System.GPS.LatitudeDenominator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

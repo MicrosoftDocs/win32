@@ -2,7 +2,7 @@
 description: The user-friendly form of System.Image.Compression. Not intended to be parsed programmatically.
 ms.assetid: 4031fb56-d21c-4b7e-80a6-0ff5673fc09e
 title: System.Image.CompressionText
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
