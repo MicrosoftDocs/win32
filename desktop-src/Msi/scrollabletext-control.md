@@ -2,7 +2,7 @@
 description: This control displays a long string of text that cannot fit entirely on the page. A common use for this control is displaying the license agreement.
 ms.assetid: a49209f3-043c-4360-b1e3-9fa9538c2c9b
 title: ScrollableText Control
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

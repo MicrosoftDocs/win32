@@ -2,7 +2,7 @@
 description: Each Windows Installer Feature uses one or more Windows Installer Components, and features may share components.
 ms.assetid: 7ab4b359-e729-4ca5-8ef3-fa8e988be6da
 title: Specifying Feature-Component Relationships
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

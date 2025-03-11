@@ -2,7 +2,7 @@
 description: The UnregisterMIMEInfo action unregisters MIME-related registry information from the system. The action unregisters MIME information for servers from the MIME table for which the corresponding feature is currently selected to be uninstalled.
 ms.assetid: 9a5c12da-e78f-4c99-9b82-d41624593c61
 title: UnregisterMIMEInfo Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

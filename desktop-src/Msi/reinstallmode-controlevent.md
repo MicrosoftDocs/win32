@@ -2,7 +2,7 @@
 description: Allows the author to specify the validation mode or modes during a reinstallation, and while the current dialog box is running.
 ms.assetid: d7cd41c6-c019-49d6-b593-a1d31c8f5a81
 title: ReinstallMode ControlEvent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

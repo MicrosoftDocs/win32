@@ -2,7 +2,7 @@
 description: The \_Storages table lists embedded OLE data storages. This is a temporary table, created only when referenced by a SQL statement.
 ms.assetid: b2f2907d-6966-4b63-9589-c1580f8db574
 title: '_Storages Table'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
