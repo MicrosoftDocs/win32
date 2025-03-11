@@ -2,7 +2,7 @@
 description: This section describes how to configure VBR streams.
 ms.assetid: 9dd3ff5b-4c7c-41a8-b1b9-7ea380175193
 title: Using VBR Encoding (Microsoft Media Foundation)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

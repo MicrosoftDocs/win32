@@ -2,7 +2,7 @@
 description: Sample Attributes
 ms.assetid: 64aead5a-61c4-4e83-a556-af33e0aa82be
 title: Sample Attributes
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic is step 7 of the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: c31444df-8717-4ca8-a9ec-72cbb0ee4125
 title: 'Step 7: Shut Down the Media Session'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic describes how to use work queues in Microsoft Media Foundation.
 ms.assetid: 6be05df7-e8ff-4110-8f73-a62eb31fd414
 title: Using Work Queues
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
