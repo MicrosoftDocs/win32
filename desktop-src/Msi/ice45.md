@@ -2,7 +2,7 @@
 description: ICE45 validates that bit field columns in the database do not set any reserved bits to 1.
 ms.assetid: 43fa5e9c-2059-4217-8f8e-c194e37f238a
 title: ICE45
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
