@@ -10,7 +10,7 @@ keywords:
 - DRM (digital rights management),KID
 - key ID (KID)
 - KID (key ID)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

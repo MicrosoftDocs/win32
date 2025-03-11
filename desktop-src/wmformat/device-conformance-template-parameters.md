@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),device conformance templates
 - device conformance templates,parameters
 - codecs,device conformance template parameters
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

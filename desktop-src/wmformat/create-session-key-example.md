@@ -25,7 +25,7 @@ keywords:
 - Client Extended APIs,code examples
 - session keys
 - content keys
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

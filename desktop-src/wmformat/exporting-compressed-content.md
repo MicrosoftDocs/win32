@@ -14,7 +14,7 @@ keywords:
 - Client Extended APIs,compressed content
 - DRM Client Extended APIs,export
 - Client Extended APIs,export
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

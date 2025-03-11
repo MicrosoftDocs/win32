@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),attributes
 - attributes,ID3 tags
 - ID3 tags
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

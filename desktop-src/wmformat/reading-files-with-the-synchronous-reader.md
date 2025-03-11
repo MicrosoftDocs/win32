@@ -12,7 +12,7 @@ keywords:
 - synchronous readers,IWMReaderCallback interface
 - IWMReaderCallback,synchronous readers
 - synchronous readers,reading files
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

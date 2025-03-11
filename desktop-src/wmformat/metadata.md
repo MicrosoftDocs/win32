@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),metadata overview
 - ASF (Advanced Systems Format),metadata overview
 - metadata,about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

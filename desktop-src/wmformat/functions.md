@@ -6,7 +6,7 @@ keywords:
 - Windows Media Format SDK,functions
 - Advanced Systems Format (ASF),functions
 - ASF (Advanced Systems Format),functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

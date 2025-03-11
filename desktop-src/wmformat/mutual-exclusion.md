@@ -21,7 +21,7 @@ keywords:
 - mutual exclusion,unknown
 - mutual exclusion,features
 - mutual exclusion,advanced features
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

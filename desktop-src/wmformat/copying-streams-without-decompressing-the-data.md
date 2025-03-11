@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),copying streams
 - ASF (Advanced Systems Format),copying streams
 - streams,copying without decompressing data
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

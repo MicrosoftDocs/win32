@@ -6,7 +6,7 @@ keywords:
 - Windows Media Format SDK,project considerations
 - Advanced Systems Format (ASF),project considerations
 - ASF (Advanced Systems Format),project considerations
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
