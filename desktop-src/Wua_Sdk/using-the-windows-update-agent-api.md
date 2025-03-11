@@ -2,7 +2,7 @@
 description: To use the Windows Update Agent (WUA) API, first create an instance of one of the interfaces by creating the object from the appropriate coclass.
 ms.assetid: b304971d-584a-4d0f-be5b-26f0ab315ec9
 title: Using the Windows Update Agent API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

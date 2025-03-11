@@ -2,7 +2,7 @@
 description: The IWindowsDriverUpdateEntryCollection interface defines the following properties.
 ms.assetid: 22443912-8e81-4ad6-81ab-98bc00d1fd2b
 title: IWindowsDriverUpdateEntryCollection Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

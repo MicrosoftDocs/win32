@@ -2,7 +2,7 @@
 title: 'How to: Load audio data files in XAudio2'
 description: This topic describes one way to populate the structures required to play audio data in XAudio2.
 ms.assetid: caeb522e-d4f6-91e2-5e85-ea0af0f61300
-ms.topic: article
+ms.topic: how-to
 ms.date: 08/15/2024
 ---
 

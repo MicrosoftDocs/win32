@@ -2,7 +2,7 @@
 title: XAudio2 functions
 description: This section contains information about functions provided by the Microsoft XAudio2 API.
 ms.assetid: 870a0425-3226-7848-bcc0-0ba7145135cb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
