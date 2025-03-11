@@ -2,7 +2,7 @@
 description: Video Interlacing
 ms.assetid: 2911ae57-1703-4a9d-bd33-94af1e0f8804
 title: Video Interlacing
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The installer can add or remove registry values after all selected components and their related files are installed.
 ms.assetid: 3d0791b1-8706-4a80-9938-07481594e408
 title: Add or Remove Registry Keys after Installing or Removing Components
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

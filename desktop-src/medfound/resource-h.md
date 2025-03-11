@@ -2,7 +2,7 @@
 description: This topic contains resource definitions for the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: 6eeee05d-0f19-4417-a7b9-34ec2243e366
 title: resource.h
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

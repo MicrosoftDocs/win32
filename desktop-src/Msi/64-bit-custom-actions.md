@@ -2,7 +2,7 @@
 description: On 64-bit operating systems, Windows Installer may call custom actions that have been compiled for 32-bit or 64-bit systems.
 ms.assetid: fc370ab4-93f3-4e1e-9468-3454d4fee0be
 title: 64-Bit Custom Actions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

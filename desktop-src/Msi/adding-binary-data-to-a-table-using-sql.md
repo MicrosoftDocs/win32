@@ -2,7 +2,7 @@
 description: Binary data cannot be inserted into a table directly using the INSERT INTO or UPDATE SQL queries.
 ms.assetid: cc055de8-eaba-48eb-a982-4d584ac7a881
 title: Adding Binary Data to a Table Using SQL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

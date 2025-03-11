@@ -2,7 +2,7 @@
 description: Topology Attributes
 ms.assetid: 50102096-a29f-4c00-a685-179ba5d71089
 title: Topology Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
