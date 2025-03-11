@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Example Code for Extending the Schema Programmatically AD
 - Extending the Schema Programmatically AD , Example Code for
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: e56cefcf-ea34-4217-9aa7-2f0d4a4d06a4
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Detecting Schema Naming Collisions AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

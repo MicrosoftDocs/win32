@@ -7,7 +7,7 @@ keywords:
 - Directory Object Picker AD
 - object picker AD
 - objects AD , object picker
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

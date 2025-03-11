@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Application Directory Partition Security AD
 - Application directory partitions AD , Security
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

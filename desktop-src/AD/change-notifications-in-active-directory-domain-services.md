@@ -3,7 +3,7 @@ title: Change Notifications in Active Directory Domain Services
 description: Active Directory Domain Services provide a mechanism for a client application to register with a domain controller to receive change notifications.
 ms.assetid: 27f6c7c1-b32e-457a-9be5-47836d097ab1
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

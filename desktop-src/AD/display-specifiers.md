@@ -3,7 +3,7 @@ title: Display Specifiers
 description: In Active Directory Domain Services, an object class, or class, defines a type of object that can be created in Active Directory Domain Services.
 ms.assetid: 0c31b02b-9fd3-4547-9ebc-d511a10d7106
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Defining a New Class
 description: When you define a new class, specify the legal parent classes of the new class, that is, the classes that can contain instances of your new class.
 ms.assetid: 24e346b3-2de2-41f9-a0a2-7b7d8ab5668b
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

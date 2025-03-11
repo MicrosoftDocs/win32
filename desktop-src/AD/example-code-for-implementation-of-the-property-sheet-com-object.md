@@ -5,7 +5,7 @@ ms.assetid: aeee870e-1a0e-437f-a724-0bbac30f5e34
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Implementation of the Property Sheet COM Object AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

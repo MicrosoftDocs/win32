@@ -5,7 +5,7 @@ ms.assetid: c20dec14-50ad-4f63-bd5c-222c2f2c83e4
 ms.tgt_platform: multiple
 keywords:
 - Detecting the Operation Mode of a Domain AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

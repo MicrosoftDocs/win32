@@ -5,7 +5,7 @@ ms.assetid: ac5779b6-f226-414c-92a9-091719b1515b
 ms.tgt_platform: multiple
 keywords:
 - dynamic objects AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

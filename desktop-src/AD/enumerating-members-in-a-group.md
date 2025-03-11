@@ -5,7 +5,7 @@ ms.assetid: 28cafdbe-e599-4b1d-a384-264f41d81c79
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Members in a Group
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

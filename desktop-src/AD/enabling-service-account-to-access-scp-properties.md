@@ -5,7 +5,7 @@ ms.assetid: 663dcf55-5f0d-49af-8b51-4c1e35b79ef1
 ms.tgt_platform: multiple
 keywords:
 - Enabling Service Account to Access SCP Properties AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

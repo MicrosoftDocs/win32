@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Composing the SPNs for a Service with an SCP AD
 - Service Principal Name AD , Composing SPNs for a Service with an SCP
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

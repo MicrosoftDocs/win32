@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Attributes Included in the Global Catalog AD
 - Attributes AD ,included in the global catalog
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

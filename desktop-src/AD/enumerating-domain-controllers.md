@@ -5,7 +5,7 @@ ms.assetid: bfc92777-6944-406a-8b93-949a1cf3e2c3
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , enumerating domain controllers Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

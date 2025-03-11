@@ -5,7 +5,7 @@ ms.assetid: 3629ffde-c516-4566-8b40-a913b8355656
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Enumerating the ACL of an Active Directory Object AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

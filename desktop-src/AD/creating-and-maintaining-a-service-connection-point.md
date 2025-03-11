@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Creating and Maintaining a Service Connection Point AD
 - service connection point AD , creating and maintaining
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

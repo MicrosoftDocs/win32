@@ -5,7 +5,7 @@ ms.assetid: 5ce923d6-bede-4acb-b297-e93f2f506ea9
 ms.tgt_platform: multiple
 keywords:
 - About Mutual Authentication Using Kerberos AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

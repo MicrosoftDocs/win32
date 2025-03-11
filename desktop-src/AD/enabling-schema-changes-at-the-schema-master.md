@@ -5,7 +5,7 @@ ms.assetid: 08806a9e-283c-48d9-9557-bcb9719fc13c
 ms.tgt_platform: multiple
 keywords:
 - Enabling Schema Changes at the Schema Master AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

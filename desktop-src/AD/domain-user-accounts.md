@@ -3,7 +3,7 @@ title: Using a domain user account as a service logon account
 description: A domain user account enables the service to take full advantage of the service security features of Windows and Microsoft Active Directory Domain Services.
 ms.assetid: 03c486fd-faec-450c-9348-314680eb73cb
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/09/2021
 ---
 
