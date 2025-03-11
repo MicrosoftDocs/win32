@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.Photo.FocalLengthInFilm property.
 ms.assetid: 3ad63a7a-5ced-4e7f-a4a0-e1463f3d3fa3
 title: System.Photo.FocalLengthInFilm Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

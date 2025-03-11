@@ -2,7 +2,7 @@
 description: The property proxy for the System.GPS.DestLatitude photo metadata policy.
 ms.assetid: 640b9b30-d633-4a5b-a1c8-593d48461c7b
 title: System.GPS.DestLatitude Proxy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

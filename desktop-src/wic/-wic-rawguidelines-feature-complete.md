@@ -2,7 +2,7 @@
 description: 'Feature Completeness: Recommended Interfaces'
 ms.assetid: 759bf253-7450-4895-a550-9f81f3498f79
 title: 'Feature Completeness: Recommended Interfaces'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

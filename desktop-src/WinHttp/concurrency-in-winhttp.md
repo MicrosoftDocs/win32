@@ -2,7 +2,7 @@
 title: Concurrency in WinHTTP
 description: Microsoft Windows HTTP Services (WinHTTP) supports multithreaded applications. This topic explains what concurrency requirements must be followed by applications that use WinHTTP.
 ms.assetid: d8493979-24d7-4fe9-a6fa-29c30535de24
-ms.topic: article
+ms.topic: reference
 ms.date: 02/09/2023
 ---
 

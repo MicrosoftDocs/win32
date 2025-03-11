@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.GPS.Differential property.
 ms.assetid: 330d1f88-5f54-4e29-b57f-eb7112203e04
 title: System.GPS.Differential Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
