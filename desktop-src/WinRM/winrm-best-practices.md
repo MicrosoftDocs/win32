@@ -3,7 +3,7 @@ title: WinRM Best Practices
 description: This topic explains some of the best practices for using the various features of the WinRM API.
 ms.assetid: FC2CD030-199F-43C2-804E-9827EA2A46D5
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

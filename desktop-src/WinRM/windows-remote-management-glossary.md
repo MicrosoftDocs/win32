@@ -4,7 +4,7 @@ description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bbda0db7-f473-444b-85ab-f3c5240c4b18
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

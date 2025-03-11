@@ -3,7 +3,7 @@ title: Advanced Winsock sample app using secure socket extensions
 description: A more advanced Winsock sample app that demonstrates the use of secure socket extensions is available in the Windows-classic-samples GitHub repo.
 ms.date: 05/31/2024
 ms.assetid: 9c429363-f9bb-4394-89be-f87507f5cbdd
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Advanced Winsock sample app using secure socket extensions

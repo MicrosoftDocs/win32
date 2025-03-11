@@ -3,7 +3,7 @@ title: DMTF Profile Discovery Through Association Traversal
 description: A key component of the Windows Management Instrumentation (WMI) infrastructure is an object-oriented model of the manageable entities in a system.
 ms.assetid: 21e03d78-bce1-471e-a826-e676d32990ba
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

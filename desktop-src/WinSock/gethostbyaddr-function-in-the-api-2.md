@@ -2,7 +2,7 @@
 description: The gethostbyaddr function uses the WSALookupServiceBegin function to query SVCID\_INET\_HOSTNAMEBYADDR as the service class GUID.
 ms.assetid: 9b1e3f3f-bfc0-4099-b699-af56019055e6
 title: gethostbyaddr Function in the API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

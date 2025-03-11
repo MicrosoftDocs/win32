@@ -3,7 +3,7 @@ title: URI prefixes
 description: The resource URI prefix is different depending on which XML schema describes the resource.
 ms.assetid: 47c32da6-98c9-4f66-82ac-647976127cb7
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

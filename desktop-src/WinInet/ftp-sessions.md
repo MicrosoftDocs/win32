@@ -2,7 +2,7 @@
 title: FTP Sessions
 description: WinINet enables applications to navigate and manipulate directories and files on an ftp server. Because CERN proxies do not support FTP, applications that use a CERN proxy exclusively must use the InternetOpenUrl function.
 ms.assetid: 23763672-765f-4bbc-95c9-c28775e91f3d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
