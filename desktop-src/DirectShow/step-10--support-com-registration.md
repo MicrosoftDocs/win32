@@ -2,7 +2,7 @@
 description: Step 10.
 ms.assetid: 2959f574-1a39-4db1-9e4a-a303d0c7f8f3
 title: Step 10. Support COM Registration
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

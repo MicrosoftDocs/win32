@@ -2,7 +2,7 @@
 description: WHQL tests
 ms.assetid: ca24fe89-d2fe-4aa9-8643-319ed16ba1a3
 title: WHQL tests
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

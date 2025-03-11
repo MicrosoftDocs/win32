@@ -2,7 +2,7 @@
 description: Testing Whether a Graphics Driver Supports COPP
 ms.assetid: e3e1c795-5cfa-4e4b-86aa-948dd2bf91a4
 title: Testing Whether a Graphics Driver Supports COPP
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Expose a filter's new interfaces to clients as part of creating a filter property page for a custom DirectShow filter.
 ms.assetid: a0e52ba9-9f7c-4cf3-ba5f-b0035ed1794c
 title: Step 3. Support QueryInterface
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

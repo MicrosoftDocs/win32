@@ -2,7 +2,7 @@
 description: This article contains code for the video.h file for the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 5f7d5647-cdf0-4bb7-a4d5-09656c0ed702
 title: video.h
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

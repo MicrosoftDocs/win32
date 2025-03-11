@@ -2,7 +2,7 @@
 description: Supported Formats in DirectShow
 ms.assetid: cd8af779-2fb5-4724-a838-5d0c8244f0d3
 title: Supported Formats in DirectShow
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: VideoInfo2 Format Type
 ms.assetid: edd2013a-f0c5-4176-ba3a-a3af719ce31d
 title: VideoInfo2 Format Type
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

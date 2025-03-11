@@ -2,7 +2,7 @@
 description: Step 3B.
 ms.assetid: 0ec57083-b192-404a-938f-bc6bb1cf0ddb
 title: Step 3B. Implement the GetMediaType Method
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

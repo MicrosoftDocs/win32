@@ -2,7 +2,7 @@
 description: WDM Video Capture Filter
 ms.assetid: 97432b99-e89b-4d69-963d-a959f887e580
 title: WDM Video Capture Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

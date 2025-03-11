@@ -2,7 +2,7 @@
 description: 'Step 1: Create the Windows Framework'
 ms.assetid: 678c6261-cbd0-4865-a1dd-03de55eca996
 title: 'Step 1: Create the Windows Framework'
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

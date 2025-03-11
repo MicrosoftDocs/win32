@@ -2,7 +2,7 @@
 description: Stopping
 ms.assetid: e2796b69-05e5-4ced-b238-257952d81211
 title: Stopping
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

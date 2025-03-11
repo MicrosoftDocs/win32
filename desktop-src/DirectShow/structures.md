@@ -2,7 +2,7 @@
 description: This article includes reference articles for DirectShow structures such as DEXTER_PARAM, DEXTER_VALUE, and SCompFmt0.
 ms.assetid: '74f999c8-2602-42b0-97e4-2c626013fab3'
 title: DirectShow structures
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

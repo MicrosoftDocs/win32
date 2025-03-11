@@ -2,7 +2,7 @@
 description: Timeline Objects
 ms.assetid: 'da426964-d5bd-45ca-a914-c19062f3564b'
 title: Timeline Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Using the DirectShow Base Classes
 ms.assetid: 7eab0e55-1566-4b4c-b37c-32c5a1f37363
 title: Using the DirectShow Base Classes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

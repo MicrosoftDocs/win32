@@ -2,7 +2,7 @@
 description: Video Capabilities
 ms.assetid: 305bd009-f58e-4dcc-9b70-252de87dc86d
 title: Video Capabilities
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

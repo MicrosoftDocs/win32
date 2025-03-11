@@ -2,7 +2,7 @@
 description: Using Windowless Mode
 ms.assetid: f53cecaa-dee7-4b02-a4ac-ffbd917f73aa
 title: Using Windowless Mode
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

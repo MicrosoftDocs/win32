@@ -2,7 +2,7 @@
 description: Override the CBasePropertyPage::OnActivate method to initialize the dialog as part of creating a filter property page for a custom DirectShow filter.
 ms.assetid: 8462958d-3958-453b-8034-3cfc2fb5ae2e
 title: Step 6. Initialize the Dialog
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

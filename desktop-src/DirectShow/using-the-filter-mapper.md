@@ -2,7 +2,7 @@
 description: Using the Filter Mapper
 ms.assetid: 3f774350-4508-437f-98d1-cca91220f339
 title: Using the Filter Mapper
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

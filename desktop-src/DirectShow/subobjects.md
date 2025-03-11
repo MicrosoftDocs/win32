@@ -2,7 +2,7 @@
 description: Subobjects
 ms.assetid: 03cbd590-b573-4a98-9ab7-fe548800cfcb
 title: Subobjects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

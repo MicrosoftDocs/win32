@@ -2,7 +2,7 @@
 description: Top-Down vs.
 ms.assetid: c292f145-f385-4f18-8f98-e414d86860e2
 title: Top-Down vs. Bottom-Up DIBs
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

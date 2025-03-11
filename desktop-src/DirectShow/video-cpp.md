@@ -2,7 +2,7 @@
 description: This article contains code for the video.cpp file for the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: c406a099-4956-46a8-b1f4-6d2e6ab3427a
 title: video.cpp
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

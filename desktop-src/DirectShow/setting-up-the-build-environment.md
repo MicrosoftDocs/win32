@@ -2,7 +2,7 @@
 description: Building DirectShow Applications
 ms.assetid: 2fbdbe49-0d4d-4dce-afc3-7049c793ace0
 title: Building DirectShow Applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

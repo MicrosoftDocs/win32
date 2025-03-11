@@ -2,7 +2,7 @@
 description: Synchronizing DVD Commands
 ms.assetid: 37e8f940-617d-43f6-92bd-aadccafe0059
 title: Synchronizing DVD Commands
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

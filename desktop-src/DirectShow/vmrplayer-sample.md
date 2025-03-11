@@ -2,7 +2,7 @@
 description: VMRPlayer Sample
 ms.assetid: 7fc893a6-afa5-4ada-9295-29122b43b21e
 title: VMRPlayer Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

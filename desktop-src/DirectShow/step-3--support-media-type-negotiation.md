@@ -2,7 +2,7 @@
 description: Implement support for media type negotiation as part of writing a transform filter. The media type describes the format of the data.
 ms.assetid: b2b5dafc-d38d-4ec3-a390-55229495b4f9
 title: Step 3. Support Media Type Negotiation
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

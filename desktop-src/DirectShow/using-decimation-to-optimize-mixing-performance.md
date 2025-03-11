@@ -2,7 +2,7 @@
 description: Using Decimation to Optimize Mixing Performance
 ms.assetid: 94d4ce86-9d60-4fd4-ab01-851dc073680b
 title: Using Decimation to Optimize Mixing Performance
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
