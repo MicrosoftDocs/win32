@@ -2,7 +2,7 @@
 description: Windows 10 introduced a new security feature named Virtual Secure Mode (VSM).
 ms.assetid: 58374CC4-593F-4B91-A5E4-85E29C44F8B4
 title: Isolated User Mode (IUM) Processes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

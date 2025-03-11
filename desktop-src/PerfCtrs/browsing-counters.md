@@ -2,7 +2,7 @@
 description: To display a dialog box that lists the performance objects and counters defined on the computer, call the PdhBrowseCounters function.
 ms.assetid: f2fac1d3-f643-43c9-a445-112015baecdd
 title: Browsing Counters
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

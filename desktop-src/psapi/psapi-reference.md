@@ -2,7 +2,7 @@
 title: PSAPI Reference
 description: Links to the PSAPI functions and structures.
 ms.assetid: 8dfd5055-d02e-4450-bdc4-e18e0b60df0d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Performance objects can define one or more counters.
 ms.assetid: a3a598b2-5623-4472-a814-620c6a003a7e
 title: Retrieving Counter Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

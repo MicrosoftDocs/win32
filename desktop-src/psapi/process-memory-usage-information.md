@@ -2,7 +2,7 @@
 title: Process Memory Usage Information
 description: The GetProcessMemoryInfo function takes a process handle as input and fills a PROCESS\_MEMORY\_COUNTERS structure with information about the memory statistics for the process.
 ms.assetid: 683c899e-a7e8-4440-8f13-2a713c1618bf
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

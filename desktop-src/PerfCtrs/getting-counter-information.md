@@ -2,7 +2,7 @@
 description: To retrieve information about a counter, such as the counter type, help text, and path, call the PdhGetCounterInfo function. The function returns the counter information as a PDH\_COUNTER\_INFO structure.
 ms.assetid: 55e7b905-da9e-4c59-84b0-e5b4c662fbd9
 title: Getting Counter Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

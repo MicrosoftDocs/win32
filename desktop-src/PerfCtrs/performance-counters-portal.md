@@ -2,7 +2,7 @@
 description: Use Windows Performance Counters to collect system data such as CPU, memory, and disk usage to identify performance bottlenecks and fine tune performance.
 ms.assetid: 9dcb7e84-a7d6-43b5-8fe9-4e33d683c74c
 title: Performance Counters
-ms.topic: article
+ms.topic: reference
 ms.date: 01/04/2022
 ---
 

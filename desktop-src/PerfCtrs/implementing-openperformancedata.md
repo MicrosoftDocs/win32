@@ -2,7 +2,7 @@
 description: The OpenPerformanceData function gives the provider an opportunity to initialize its performance data structures.
 ms.assetid: 0849d9cb-90d1-4b79-810d-b43f69cc9055
 title: Implementing OpenPerformanceData
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

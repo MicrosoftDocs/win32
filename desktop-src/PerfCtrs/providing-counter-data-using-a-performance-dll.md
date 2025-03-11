@@ -2,7 +2,7 @@
 description: A service, driver, or application that wants to provide counter data can write a performance DLL to provide the data.
 ms.assetid: 030316e5-f9f3-4333-9bb4-7ad301bbe7bf
 title: Providing Counter Data Using a Performance DLL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/17/2020
 ---
 

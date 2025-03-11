@@ -2,7 +2,7 @@
 description: Most counter types use a formula for calculating a displayable value for the counter.
 ms.assetid: b65a6874-fffb-41af-8620-27d4036cc7b2
 title: Calculating Counter Values
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/17/2020
 ---
 

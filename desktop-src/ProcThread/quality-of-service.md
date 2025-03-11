@@ -1,7 +1,7 @@
 ---
 description: Quality of Service indicates the performance and power efficiency of a thread, which can influence thread scheduling and processor power management.
 title: Quality of Service
-ms.topic: article
+ms.topic: reference
 ms.date: 07/09/2021
 ---
 

@@ -2,7 +2,7 @@
 description: Review how to use the CreateThread function to create a new thread for a process. Examine a code example that shows its usage.
 ms.assetid: eb0cc3c0-14f2-4913-a592-4ba3eaf67002
 title: Creating Threads
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
