@@ -2,7 +2,7 @@
 description: System.Document.DocumentID
 ms.assetid: 1aa50e38-fa21-4aa1-8ac1-ca8625641423
 title: System.Document.DocumentID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

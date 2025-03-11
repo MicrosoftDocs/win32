@@ -2,7 +2,7 @@
 description: Geometry data for the microphone array.
 ms.assetid: dbb08929-60fa-4652-a9c5-21916cc30097
 title: System.Devices.MicrophoneArray.Geometry
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

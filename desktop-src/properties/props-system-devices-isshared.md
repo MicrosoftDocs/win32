@@ -2,7 +2,7 @@
 description: If this property is true, the device is a shared device.
 ms.assetid: d1da0747-ad07-49e5-8082-5f39bf0a84d8
 title: System.Devices.IsShared
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
