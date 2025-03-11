@@ -2,7 +2,7 @@
 description: Used to authenticate to a wireless network for the first time before the computer has joined a domain.
 ms.assetid: e1a5ce76-9761-4c65-8b26-a44bf2eb1835
 title: Bootstrap profile sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

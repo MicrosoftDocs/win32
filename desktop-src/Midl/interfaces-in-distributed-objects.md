@@ -4,7 +4,7 @@ description: In distributed computing, an interface is a collection of definitio
 ms.assetid: d7cd6bf3-58ec-426d-850a-9c5456ed816d
 keywords:
 - interfaces MIDL , in distributed objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

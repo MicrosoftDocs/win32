@@ -4,7 +4,7 @@ description: Binding handles are data objects that represent the binding between
 ms.assetid: 178f4838-3deb-43d4-804f-ad6404b377bd
 keywords:
 - data types MIDL , binding handles
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

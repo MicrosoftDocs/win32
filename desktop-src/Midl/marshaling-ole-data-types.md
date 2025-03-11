@@ -6,7 +6,7 @@ keywords:
 - MIDL and COM MIDL , marshaling OLE data types
 - marshaling MIDL
 - OLE data MIDL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

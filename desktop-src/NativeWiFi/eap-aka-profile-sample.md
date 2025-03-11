@@ -1,7 +1,7 @@
 ---
 description: Uses Extensible Authentication Protocol Authentication and Key Agreement (EAP-AKA).
 title: EAP-AKA Profile Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 11/03/2021
 ---
 

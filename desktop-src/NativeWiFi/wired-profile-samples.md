@@ -2,7 +2,7 @@
 description: Show sample XML profiles for various wired network configurations.
 ms.assetid: d96e56c3-3d38-4b4e-be31-05f825fec211
 title: Wired Profile Samples
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

@@ -9,7 +9,7 @@ keywords:
 - ODL MIDL , keywords
 - ODL MIDL , statements
 - ODL MIDL , directives
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: About the Wireless Ad Hoc API
 ms.assetid: 9e6e32c5-454b-41c8-b00e-70a2e82266f1
 title: About the Wireless Ad Hoc API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

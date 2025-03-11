@@ -1,7 +1,7 @@
 ---
 title: Provision a Wi-Fi profile via a website
 description: Allow your users to download a profile from a website, and provision it.
-ms.topic: article
+ms.topic: how-to
 ms.date: 01/22/2020
 ---
 

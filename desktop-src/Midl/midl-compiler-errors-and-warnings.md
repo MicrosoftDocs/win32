@@ -7,7 +7,7 @@ keywords:
 - MIDL compiler MIDL , errors
 - compiler MIDL , errors
 - errors MIDL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
