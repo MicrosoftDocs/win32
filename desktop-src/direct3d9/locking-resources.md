@@ -2,7 +2,7 @@
 description: Locking a resource means granting CPU access to its storage.
 ms.assetid: b17d8262-e514-4b9c-9237-653a4258a14e
 title: Locking Resources (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

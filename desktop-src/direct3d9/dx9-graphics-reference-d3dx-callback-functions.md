@@ -2,7 +2,7 @@
 description: This section contains information about the following callback functions.
 ms.assetid: dc930d15-d2c4-4c14-910d-05470a0a3120
 title: Callback Functions (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

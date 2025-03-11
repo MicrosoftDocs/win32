@@ -2,7 +2,7 @@
 description: Lighting in the real world contains a very high dynamic range (HDR) of luminance values.
 ms.assetid: 537700e2-802d-4fd1-b026-142d6f4f0559
 title: HDR Lighting (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
