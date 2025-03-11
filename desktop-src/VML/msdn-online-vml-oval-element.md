@@ -2,7 +2,7 @@
 title: VML Oval Element
 description: VML Oval Element
 ms.assetid: 6c25f8a7-b8a5-4e6b-90ef-7f513f603b01
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

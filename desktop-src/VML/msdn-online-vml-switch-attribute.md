@@ -2,7 +2,7 @@
 title: VML Switch Attribute
 description: VML Switch Attribute
 ms.assetid: fc099c0a-6789-41e8-ab08-36f4fd2d3bfa
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

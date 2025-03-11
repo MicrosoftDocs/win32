@@ -2,7 +2,7 @@
 title: VML V Attribute
 description: VML V Attribute
 ms.assetid: be55704f-71f3-4c0b-8a1b-d7de5efa85dc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

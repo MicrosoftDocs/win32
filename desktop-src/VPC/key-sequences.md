@@ -4,7 +4,7 @@ description: A key sequence string is a comma-delimited set of key identifiers w
 ms.assetid: 6f5301d1-af6e-4b43-8884-c76b2300ba92
 keywords:
 - Windows Virtual PC Virtual PC , key sequences
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

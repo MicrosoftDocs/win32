@@ -40,7 +40,7 @@ keywords:
 - vector graphics,arc element
 - arc element
 - VML elements,arc
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

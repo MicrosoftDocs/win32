@@ -2,7 +2,7 @@
 title: VML Trim Attribute
 description: VML Trim Attribute
 ms.assetid: c8038361-00bd-4787-9759-506a8a47b19a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -13,7 +13,7 @@ keywords:
 - vector graphics,VML benefits
 - Vector Markup Language (VML),benefits
 - VML (Vector Markup Language),benefits
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

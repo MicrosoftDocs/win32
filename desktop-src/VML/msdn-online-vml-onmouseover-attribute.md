@@ -2,7 +2,7 @@
 title: VML OnMouseOver Attribute
 description: VML OnMouseOver Attribute
 ms.assetid: 68f0fa7a-0d22-4ede-8404-e007296960e5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
