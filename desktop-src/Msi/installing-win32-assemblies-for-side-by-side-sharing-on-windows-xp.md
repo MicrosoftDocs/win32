@@ -2,7 +2,7 @@
 description: The following describes how to create a Windows Installer package to install a Win32 assembly.
 ms.assetid: 1234e904-fc7f-4eb7-8c50-0c959bbf5261
 title: Installing Win32 Assemblies for Side-by-Side Sharing
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.date: 05/31/2018
 ---
 

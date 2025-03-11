@@ -2,7 +2,7 @@
 description: An ICE is used to validate installation packages. The table in this topic identifies each ICE. For information about ICEMs used to validate merge modules, see Merge Module ICE Reference.
 ms.assetid: f287c1cf-c464-42a3-985d-f892db5e1f5f
 title: ICE Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following tables are required in a standard merge module.
 ms.assetid: 2af6cea0-6d93-4aa5-a708-d305f11986ef
 title: Merge Module Database Tables
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

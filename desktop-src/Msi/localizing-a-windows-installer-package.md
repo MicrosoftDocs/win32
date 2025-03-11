@@ -2,7 +2,7 @@
 description: For general information about localization, see Globalization Services.
 ms.assetid: 734961f6-de0a-4c54-9866-ade994c41c7e
 title: Localizing a Windows Installer Package
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
