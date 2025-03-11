@@ -2,7 +2,7 @@
 title: VML Gap Attribute
 description: VML Gap Attribute
 ms.assetid: 0b7f80c0-bb1c-42ef-b284-2c6943cec806
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Using the Device Host API
 description: This section contains detailed information for using the Device Host API with UPnP technology.
 ms.assetid: b6d93825-a8dd-4ba8-bea9-09e3fbb62407
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

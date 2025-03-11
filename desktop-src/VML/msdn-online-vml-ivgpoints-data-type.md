@@ -2,7 +2,7 @@
 title: VML IVgPoints Data Type
 description: VML IVgPoints Data Type
 ms.assetid: 59441960-5646-4104-ad24-33d96157cc20
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: VML HRAlign Attribute
 description: VML HRAlign Attribute
 ms.assetid: 7a638a7f-82bd-410f-be02-7427c376ceb3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: VML Callout Element
 description: VML Callout Element
 ms.assetid: 0e93fb2f-494c-44eb-b7ef-0e3786c64ce5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Finding Devices
 description: The UPnP architecture is a dynamic network architecture that allows devices to join and leave the network at any time.
 ms.assetid: b89d9ec3-ce1a-4162-bf82-b08a49207d7d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
