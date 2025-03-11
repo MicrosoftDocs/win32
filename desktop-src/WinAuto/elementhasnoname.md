@@ -2,7 +2,7 @@
 title: ElementHasNoName
 description: ElementHasNoName
 ms.assetid: 893A758F-BD34-4ABE-A99E-8CABE33966E0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

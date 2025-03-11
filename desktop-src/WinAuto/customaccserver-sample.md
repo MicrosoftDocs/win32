@@ -2,7 +2,7 @@
 title: CustomAccServer Sample
 description: CustomAccServer Sample
 ms.assetid: 8c3636ef-0993-4ded-a3c0-05cf2de777bb
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: FirstChildLastChildMismatch
 description: FirstChildLastChildMismatch
 ms.assetid: 98726C1A-DC43-4FC7-8ECA-628F63D0AFE3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

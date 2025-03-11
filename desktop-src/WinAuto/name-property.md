@@ -2,7 +2,7 @@
 title: Name Property
 description: The Name property is a string used by clients to identify, find, or announce an object for the user. All objects support the Name property.
 ms.assetid: 7533955a-9538-4ead-a6ca-f61dd1b4d5c5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

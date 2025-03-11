@@ -2,7 +2,7 @@
 title: Pop-up Menu (MSAA UI Element Reference)
 description: A pop-up menu displays a list of menu commands.
 ms.assetid: 9dbfa2d7-a086-4348-8b84-7e36d33e2d27
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

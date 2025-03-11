@@ -2,7 +2,7 @@
 title: ElementsChildHasDifferentParent
 description: ElementsChildHasDifferentParent
 ms.assetid: 2347A33C-8FBD-4C30-8B40-9CB35F121C8E
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: IAccessibleEx Implementation Guidelines
 description: The Microsoft UI Automation core can retrieve all Microsoft Active Accessibility properties for any accessible object exposed by a server through the IAccessible interface.
 ms.assetid: d047127c-1be2-4f34-bb97-330b5509ca0d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

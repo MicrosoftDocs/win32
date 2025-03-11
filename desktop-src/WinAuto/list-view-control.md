@@ -2,7 +2,7 @@
 title: List-View Control (MSAA UI Element Reference)
 description: A list-view control displays a collection of items, each consisting of an icon and a label, and provides several ways to display and arrange the items.
 ms.assetid: 412a029f-fb64-4365-aa64-26cbdf3a50d5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

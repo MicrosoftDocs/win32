@@ -2,7 +2,7 @@
 title: Create New Accessible Objects
 description: Create New Accessible Objects
 ms.assetid: d34a52d1-1eb2-4bb4-989c-a1ca4b5d815f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

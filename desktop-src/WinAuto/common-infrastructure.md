@@ -2,7 +2,7 @@
 title: Common Infrastructure
 description: Windows offers two API specifications for user interface accessibility and software test automation Microsoft Active Accessibility, and Microsoft UI Automation.
 ms.assetid: ba67b10b-4a4d-4859-ae9c-7e92eb7f2e49
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
