@@ -2,7 +2,7 @@
 description: LOCALE\_ILDATE
 ms.assetid: 3ad4400f-da26-4ec2-bace-f4852c41f0f2
 title: LOCALE_ILDATE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

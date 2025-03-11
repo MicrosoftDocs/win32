@@ -2,7 +2,7 @@
 description: This topic provides actions to take to create code that supports multiple markets. Consider these statements as a guide during code design, and as metrics when you evaluate the builds.
 ms.assetid: cf2ac58e-7fc3-4635-8b82-586a0732b2a3
 title: Internationalization Checklist
-ms.topic: article
+ms.topic: checklist
 ms.date: 05/31/2018
 ---
 

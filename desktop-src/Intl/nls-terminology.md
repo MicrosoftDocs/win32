@@ -2,7 +2,7 @@
 description: This topic defines terms that are important when working with NLS functionality.
 ms.assetid: daf929b2-8ff9-4a17-b294-f2c0eaef5848
 title: NLS Terminology
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Locating Non-Win32 PE Resources
 ms.assetid: 12f0b78e-ca85-443a-94ea-6bec5aa40c06
 title: Locating Non-Win32 PE Resources
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

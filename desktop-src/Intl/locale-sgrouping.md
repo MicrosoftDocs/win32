@@ -2,7 +2,7 @@
 description: LOCALE\_SGROUPING
 ms.assetid: 3f07ecae-38f4-477b-8b23-a9cd87613c24
 title: LOCALE_SGROUPING
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

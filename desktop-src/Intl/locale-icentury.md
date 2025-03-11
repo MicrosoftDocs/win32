@@ -2,7 +2,7 @@
 description: LOCALE\_ICENTURY
 ms.assetid: 7eee6c25-468e-4cb8-8735-d61d7a1091e1
 title: LOCALE_ICENTURY
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
