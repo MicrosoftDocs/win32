@@ -2,7 +2,7 @@
 title: Using Binding Handles and Making RPC Calls
 description: A common mistake among RPC programmers is handling all exceptions.
 ms.assetid: 5b452129-4060-49f9-9400-8585fb5714a4
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

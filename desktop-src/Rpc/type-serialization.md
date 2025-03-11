@@ -2,7 +2,7 @@
 title: Type Serialization
 description: The MIDL compiler generates up to three functions for each type to which the \ encode\ or \ decode\ attribute is applied.
 ms.assetid: 948f1dd7-c8b0-4fa0-88d8-9d122de52ba1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Multicast Group Manager Enumerations
 description: The MGM API use the following enumeration
 ms.assetid: 7a4eb1ae-cfb9-4d7e-a1ba-4c303a355305
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

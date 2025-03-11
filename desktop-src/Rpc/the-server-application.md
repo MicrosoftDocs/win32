@@ -2,7 +2,7 @@
 title: The Server Application
 description: View the server application part of a remote procedure call (RPC) example. The example is from the 'Hello World' application in the Platform SDK.
 ms.assetid: '82ccfd67-6626-49c4-8974-86ebc5841444'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: In theory, the versioning scheme of RPC helps prevent miscommunicat
 ms.assetid: 0c7d6716-e4ed-447e-bf64-906d55bec907
 keywords:
 - Remote Procedure Call RPC , best practices, backward compatibility
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

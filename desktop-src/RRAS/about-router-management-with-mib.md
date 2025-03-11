@@ -10,7 +10,7 @@ keywords:
 - MIB, See Management Information Base
 - Management Information Base RRAS
 - Management Information Base RRAS , described
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

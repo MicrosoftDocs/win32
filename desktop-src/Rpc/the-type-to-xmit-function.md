@@ -4,7 +4,7 @@ description: The stubs call the type\_to\_xmit function to convert the type that
 ms.assetid: fb5b3760-d660-4e4e-b5c5-768e8e598e23
 keywords:
 - type_to_xmit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

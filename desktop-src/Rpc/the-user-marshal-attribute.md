@@ -5,7 +5,7 @@ ms.assetid: 5a381b44-e271-4713-954f-a55840a92bb7
 keywords:
 - Remote Procedure Call RPC , attributes, user_marshal
 - user_marshal
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

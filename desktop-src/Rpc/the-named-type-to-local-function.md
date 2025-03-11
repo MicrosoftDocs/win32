@@ -4,7 +4,7 @@ description: The stubs call the named\_type\_to\_local function to convert data 
 ms.assetid: c272cc1f-e47b-4d5a-a4e2-cefeaeb8c175
 keywords:
 - named_type_to_local
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

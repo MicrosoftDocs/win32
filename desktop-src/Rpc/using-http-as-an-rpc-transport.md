@@ -2,7 +2,7 @@
 title: Using HTTP as an RPC Transport
 description: RPC-over-HTTP enables client programs to use the Internet to execute procedures provided by server programs on distant networks.
 ms.assetid: b5062d70-7625-4a9f-a8c1-025ef8342fcb
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
