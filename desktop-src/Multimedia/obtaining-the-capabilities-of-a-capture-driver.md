@@ -6,7 +6,7 @@ keywords:
 - WM_CAP_DRIVER_GET_CAPS message
 - capDriverGetCaps macro
 - CAPDRIVERCAPS structure
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

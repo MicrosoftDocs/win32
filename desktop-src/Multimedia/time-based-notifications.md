@@ -7,7 +7,7 @@ keywords:
 - joysticks,messages
 - joysticks,time-based notifications
 - time-based joystick notifications
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

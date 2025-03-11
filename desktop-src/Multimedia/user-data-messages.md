@@ -7,7 +7,7 @@ keywords:
 - WM_CAP_SET_USER_DATA message
 - capGetUserData macro
 - capSetUserData macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

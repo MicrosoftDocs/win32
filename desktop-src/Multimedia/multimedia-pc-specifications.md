@@ -16,7 +16,7 @@ keywords:
 - Multimedia PC Marketing Council,Level 2
 - MPC Level 1,about
 - MPC Level 2,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

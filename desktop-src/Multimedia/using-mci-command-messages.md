@@ -5,7 +5,7 @@ ms.assetid: 216af1d5-39e7-49ba-8673-41d78f89169e
 keywords:
 - MCI command messages,about
 - MCI command messages,examples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

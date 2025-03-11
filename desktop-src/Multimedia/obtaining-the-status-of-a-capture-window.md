@@ -5,7 +5,7 @@ ms.assetid: 5095dbd2-7cd4-48b6-bbb4-1f0bddfcfd06
 keywords:
 - capGetStatus macro
 - CAPSTATUS structure
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

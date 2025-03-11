@@ -2,7 +2,7 @@
 title: Playing a Waveform-Audio File
 description: Playing a Waveform-Audio File
 ms.assetid: b28ee3e8-1633-4eb8-af1c-d1441ef752e1
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -11,7 +11,7 @@ keywords:
 - capEditCopy macro
 - WM_CAP_FILE_SAVEDIB message
 - capFileSaveDIB macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

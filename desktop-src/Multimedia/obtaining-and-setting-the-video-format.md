@@ -5,7 +5,7 @@ ms.assetid: 0e6baf24-7a79-45ab-9fc7-69334419956d
 keywords:
 - capGetVideoFormat macro
 - capGetVideoFormatSize macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
