@@ -2,7 +2,7 @@
 description: A major upgrade can be applied to an application by patching the local installation of the application from the command line or by using an executable.
 ms.assetid: be651457-5c66-478b-89d5-3d7607702b8e
 title: Applying Major Upgrades by Patching the Local Installation of the Product
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

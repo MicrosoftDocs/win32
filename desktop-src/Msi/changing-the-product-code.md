@@ -2,7 +2,7 @@
 description: The product code is a GUID that is the principal identification of an application or product. See Product Codes.
 ms.assetid: 4de84885-587d-405f-ba85-d62e09e8ba92
 title: Changing the Product Code
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

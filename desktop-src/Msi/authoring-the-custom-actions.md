@@ -2,7 +2,7 @@
 description: 'The table below lists the five custom actions used to meet the sample specifications: ProcessAccounts, UninstallAccounts, CreateAccounts, RemoveAccounts, and RollbackAccounts.'
 ms.assetid: 389ec652-243e-4392-aec9-3a7eb90e6c68
 title: Authoring the Custom Actions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

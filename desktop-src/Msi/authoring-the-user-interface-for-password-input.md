@@ -2,7 +2,7 @@
 description: For each password that must be entered by the user, add an edit control on a dialog that stores the value of the password into a property.
 ms.assetid: aa4ff8b8-cbbb-4b18-83b3-279e52d9f6d3
 title: Authoring the User Interface for Password Input
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
