@@ -2,7 +2,7 @@
 title: Output Registers
 description: Output Registers
 ms.assetid: 44148185-1051-44b9-afde-a2ecd76c829f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

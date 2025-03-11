@@ -2,7 +2,7 @@
 title: Direct3D 9Ex improvements
 description: This topic describes Windows 7's added support for Flip Mode Present and its associated present statistics in Direct3D 9Ex and Desktop Window Manager.
 ms.assetid: cb92a162-57eb-4aee-af7a-c8ece37075a7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

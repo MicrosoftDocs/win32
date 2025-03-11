@@ -2,7 +2,7 @@
 description: This section contains info about the enumerations provided by DXGI.
 ms.assetid: c4574c89-dee2-4841-9318-5383cf417111
 title: DXGI Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

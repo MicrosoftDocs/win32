@@ -2,7 +2,7 @@
 title: Use DirectX with Advanced Color on high/standard dynamic range displays
 description: This topic shows how to use DirectX with Advanced Color scenarios&mdash;including high dynamic range, wide color gamut with automatic system color management, and high bit-depth.
 ms.assetid: 
-ms.topic: article
+ms.topic: concept-article
 ms.date: 10/10/2022
 ---
 

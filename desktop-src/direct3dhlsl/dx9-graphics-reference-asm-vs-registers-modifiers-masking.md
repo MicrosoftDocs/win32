@@ -2,7 +2,7 @@
 title: Destination Register Masking
 description: Masking specifies which components of the destination register will be updated with the result of an instruction. Texture registers have one set of rules and nontexture registers have another set of rules.
 ms.assetid: 989ebe55-1f80-4063-b116-4284520f52cc
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

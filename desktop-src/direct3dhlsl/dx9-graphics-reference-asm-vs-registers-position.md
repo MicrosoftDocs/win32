@@ -2,7 +2,7 @@
 title: Position Register
 description: This vertex shader output register contains per-vertex position data.
 ms.assetid: 98f71027-d94b-4dd0-a6b6-4b263954eff9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -2,7 +2,7 @@
 title: Source Register Scale x 2
 description: Multiply the value by two before using it in the instruction.
 ms.assetid: a02c9572-e03d-410b-8b65-7ea1a0bfaa0f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
