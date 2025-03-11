@@ -2,7 +2,7 @@
 description: This section describes the syntax of conditional statements used by the MsiEvaluateCondition function and the action sequence tables. For more information, see, Examples of Conditional Statement Syntax.
 ms.assetid: 6f1657f9-063b-4d57-ad76-95e3dbe25786
 title: Conditional Statement Syntax
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

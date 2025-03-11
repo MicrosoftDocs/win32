@@ -2,7 +2,7 @@
 description: This topic identifies the option flags that you can use to control the processing of the custom action thread.
 ms.assetid: a09b3a0e-564e-41aa-af0d-2e46776f291b
 title: Custom Action Return Processing Options
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

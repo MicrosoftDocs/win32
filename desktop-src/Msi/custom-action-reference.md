@@ -2,7 +2,7 @@
 description: 'The following sections contain information on custom actions:'
 ms.assetid: f4815190-4900-4129-83e2-8b05302a88ca
 title: Custom Action Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

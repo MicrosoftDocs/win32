@@ -2,7 +2,7 @@
 description: The following procedure describes the general steps to authoring merge modules.
 ms.assetid: 4b3871c0-f452-4935-9ee3-78b0ac847e67
 title: Authoring Merge Modules
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

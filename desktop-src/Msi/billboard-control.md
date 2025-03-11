@@ -2,7 +2,7 @@
 description: The Billboard control displays commonly used controls that are added and removed from the dialog box by ControlEvents.
 ms.assetid: c4c0ed5a-2518-499f-805f-dcbe0b0f9393
 title: Billboard Control
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

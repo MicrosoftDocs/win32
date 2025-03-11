@@ -2,7 +2,7 @@
 description: This section contains reference material for Windows Installer objects.
 ms.assetid: ec97371d-554d-42d5-88ac-4a8ab35eb147
 title: Automation Interface Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
