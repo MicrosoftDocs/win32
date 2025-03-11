@@ -2,7 +2,7 @@
 description: Developer guide for redistributable version of XAudio 2.9
 ms.assetid: 
 title: Developer guide for redistributable version of XAudio 2.9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 10/17/2019
 ---
 

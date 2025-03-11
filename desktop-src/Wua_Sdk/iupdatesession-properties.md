@@ -2,7 +2,7 @@
 description: The IUpdateSession interface defines the following properties.
 ms.assetid: f4482c30-8a67-45d9-b87e-8e5bc9c86d1c
 title: IUpdateSession Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
