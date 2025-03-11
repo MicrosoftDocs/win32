@@ -12,7 +12,7 @@ keywords:
 - control types,UIA_LocalizedControlTypePropertyId property
 - predefined control types
 - UIA_LocalizedControlTypePropertyId property
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Window control type
 - control types,support for Window
 - control types,Window
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

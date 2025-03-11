@@ -15,7 +15,7 @@ keywords:
 - obtaining UI Automation elements
 - root elements
 - search scope
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
 ---

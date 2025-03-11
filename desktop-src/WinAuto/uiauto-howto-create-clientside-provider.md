@@ -2,7 +2,7 @@
 title: How to Create a Client-Side (Proxy) UI Automation Provider
 description: This topic contains example code that shows how to implement a client-side, or proxy, Microsoft UI Automation provider.
 ms.assetid: 37e54a0f-3d41-4f47-ba73-7f1bf6c365e7
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

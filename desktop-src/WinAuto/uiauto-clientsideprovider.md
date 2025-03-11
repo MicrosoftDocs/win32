@@ -13,7 +13,7 @@ keywords:
 - providers,implementing
 - implementing client-side providers
 - implementing providers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

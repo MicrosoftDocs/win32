@@ -8,7 +8,7 @@ keywords:
 - specifications for UI Automation
 - community promise for UI Automation
 - UI Automation,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

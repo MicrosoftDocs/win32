@@ -15,7 +15,7 @@ keywords:
 - Provider API
 - Client API
 - header files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

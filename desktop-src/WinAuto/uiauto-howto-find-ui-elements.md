@@ -2,7 +2,7 @@
 title: How to Find UI Elements
 description: This topic contains example code that shows how to find a UI elements in the UI Automation tree.
 ms.assetid: b613eb18-e14d-468e-833d-072bad29ba06
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Determine the installed version of Active Accessibility
 description: To find out which version of Microsoft Active Accessibility is installed on your system, you should check the version of the Oleacc.dll file in the system32 folder on your hard disk.
 ms.assetid: 7d38a696-475f-4539-b815-17abb4f8968e
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2019
 ---
 

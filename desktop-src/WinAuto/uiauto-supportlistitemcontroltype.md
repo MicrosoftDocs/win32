@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for ListItem control type
 - control types,support for ListItem
 - control types,ListItem
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

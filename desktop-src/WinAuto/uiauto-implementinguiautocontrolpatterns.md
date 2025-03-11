@@ -7,7 +7,7 @@ keywords:
 - UI Automation,control patterns
 - implementing UI Automation control patterns
 - control patterns,implementing UI Automation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

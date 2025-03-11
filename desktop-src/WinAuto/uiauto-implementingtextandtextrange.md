@@ -23,7 +23,7 @@ keywords:
 - control patterns,TextRange
 - interfaces,ITextProvider
 - interfaces,ITextRangeProvider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

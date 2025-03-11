@@ -14,7 +14,7 @@ keywords:
 - UI Automation,caching control patterns
 - UI Automation,control pattern caching
 - control patterns,caching
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

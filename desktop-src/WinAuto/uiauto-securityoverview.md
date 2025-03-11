@@ -17,7 +17,7 @@ keywords:
 - security,user account control
 - security,manifest files
 - security,requestedExecutionLevel tag
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for TabItem control type
 - control types,support for TabItem
 - control types,TabItem
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

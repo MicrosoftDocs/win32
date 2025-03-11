@@ -13,7 +13,7 @@ keywords:
 - control patterns,implementing UI Automation Drag
 - control patterns,Drag
 - interfaces,IDragProvider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

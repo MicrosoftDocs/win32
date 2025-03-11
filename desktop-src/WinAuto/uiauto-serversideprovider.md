@@ -17,7 +17,7 @@ keywords:
 - providers,implementing
 - implementing server-side providers
 - implementing providers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

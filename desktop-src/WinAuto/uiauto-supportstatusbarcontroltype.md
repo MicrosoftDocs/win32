@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for StatusBar control type
 - control types,support for StatusBar
 - control types,StatusBar
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

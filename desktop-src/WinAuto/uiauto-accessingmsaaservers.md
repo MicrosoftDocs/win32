@@ -12,7 +12,7 @@ keywords:
 - Microsoft Active Accessibility
 - Active Accessibility
 - clients,accessing Active Accessibility servers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

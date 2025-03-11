@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for SemanticZoom control type
 - control types,support for SemanticZoom
 - control types,SemanticZoom
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

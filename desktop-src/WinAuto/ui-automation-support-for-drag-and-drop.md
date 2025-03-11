@@ -12,7 +12,7 @@ keywords:
 - DropTarget control pattern
 - control patterns,Drag
 - control patterns,DropTarget
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

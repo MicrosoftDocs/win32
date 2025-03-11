@@ -22,7 +22,7 @@ keywords:
 - client wrappers
 - pattern handlers
 - implementing pattern handlers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -17,7 +17,7 @@ keywords:
 - UI Automation testing tools
 - MSAA testing tools
 - Microsoft Active Accessibility testing tools
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

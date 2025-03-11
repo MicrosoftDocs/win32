@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for ProgressBar control type
 - control types,support for ProgressBar
 - control types,ProgressBar
-ms.topic: article
+ms.topic: reference
 ms.date: 12/04/2019
 ---
 

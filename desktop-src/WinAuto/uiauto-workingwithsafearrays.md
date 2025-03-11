@@ -11,7 +11,7 @@ keywords:
 - providers,UI Automation
 - safe arrays
 - data types
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 

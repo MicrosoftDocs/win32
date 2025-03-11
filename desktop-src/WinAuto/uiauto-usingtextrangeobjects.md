@@ -7,7 +7,7 @@ keywords:
 - text-based controls
 - clients,text ranges
 - clients,TextRange control pattern
-ms.topic: article
+ms.topic: concept-article
 ms.date: 12/13/2022
 ---
 

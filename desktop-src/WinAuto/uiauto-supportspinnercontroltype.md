@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Spinner control type
 - control types,support for Spinner
 - control types,Spinner
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

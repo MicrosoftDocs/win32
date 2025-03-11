@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Image control type
 - control types,support for Image
 - control types,Image
-ms.topic: article
+ms.topic: reference
 ms.date: 10/08/2019
 ---
 

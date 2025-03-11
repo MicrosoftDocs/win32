@@ -9,7 +9,7 @@ keywords:
 - UI Automation,creating CUIAutomation object
 - creating CUIAutomation object
 - CUIAutomation object
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
