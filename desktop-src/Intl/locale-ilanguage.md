@@ -2,7 +2,7 @@
 description: LOCALE\_ILANGUAGE
 ms.assetid: 8f80a941-8ba6-4a0d-92fa-77230fe0a9d1
 title: LOCALE_ILANGUAGE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

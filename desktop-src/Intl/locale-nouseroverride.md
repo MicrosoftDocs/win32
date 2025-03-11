@@ -2,7 +2,7 @@
 description: LOCALE\_NOUSEROVERRIDE
 ms.assetid: ab68d16b-5e1e-4af3-b048-43975cded00a
 title: LOCALE_NOUSEROVERRIDE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

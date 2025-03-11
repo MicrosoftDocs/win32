@@ -2,7 +2,7 @@
 description: LOCALE\_IGEOID
 ms.assetid: 418f1fb4-a88f-4a13-ad75-b4cbba9b04d5
 title: LOCALE_IGEOID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

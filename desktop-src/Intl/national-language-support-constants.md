@@ -2,7 +2,7 @@
 description: National Language Support Constants
 ms.assetid: 4cdecae5-f993-491b-bb54-6eb2e742c57d
 title: National Language Support Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

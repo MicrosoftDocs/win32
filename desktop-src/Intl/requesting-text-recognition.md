@@ -2,7 +2,7 @@
 description: Requesting Text Recognition
 ms.assetid: 9db9045d-b289-4c6c-9b17-ddbc2c1d3089
 title: Requesting Text Recognition
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Uniscribe Reference
 ms.assetid: c57212ea-1b7b-4861-8e93-18c9b0f87317
 title: Uniscribe Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
