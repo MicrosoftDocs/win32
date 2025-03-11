@@ -2,7 +2,7 @@
 description: YUV Mixing Mode
 ms.assetid: 296b1d96-1824-4000-8bec-158925555177
 title: YUV Mixing Mode
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

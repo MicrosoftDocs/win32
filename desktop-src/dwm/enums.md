@@ -9,7 +9,7 @@ keywords:
 - DWM (Desktop Window Manager),constants
 - Desktop Window Manager (DWM),enumerations
 - DWM (Desktop Window Manager),enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/13/2022
 ---
 

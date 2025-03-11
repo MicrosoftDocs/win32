@@ -4,7 +4,7 @@ description: The DNS WMI Provider is defined in Dnsprov.mof, which is included o
 ms.assetid: 0258fa1d-dc22-4e20-a454-cfa4427c2215
 keywords:
 - Domain Name System, reference, WMI provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

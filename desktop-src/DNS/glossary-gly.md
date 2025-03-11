@@ -2,7 +2,7 @@
 title: Glossary (DNS)
 description: Domain Name System (DNS) glossary navigation page.
 ms.assetid: 8677cd12-479d-46c2-9611-6864789feba1
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

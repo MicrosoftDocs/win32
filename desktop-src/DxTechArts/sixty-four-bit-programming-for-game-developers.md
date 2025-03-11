@@ -2,7 +2,7 @@
 title: 64-bit programming for Game Developers
 description: This article addresses compatibility and porting issues and helps developers ease their transition to 64-bit platforms.
 ms.assetid: 23a7ed41-6637-0607-327e-983b622e9104
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

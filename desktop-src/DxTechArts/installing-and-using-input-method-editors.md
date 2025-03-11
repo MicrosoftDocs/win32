@@ -2,7 +2,7 @@
 title: Installing and Using Input Method Editors
 description: This article offers a tutorial for how to install and use the standard Windows Input Method Editor (IME).
 ms.assetid: 0dc430ce-bed4-8d02-f45e-4eefb0ad0369
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.date: 05/31/2018
 ---
 

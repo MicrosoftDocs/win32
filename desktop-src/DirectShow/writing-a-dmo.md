@@ -2,7 +2,7 @@
 description: Writing a DMO
 ms.assetid: 77966a77-5400-43b1-bdbd-ace27ddc8ae7
 title: Writing a DMO
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

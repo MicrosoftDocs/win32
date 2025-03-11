@@ -2,7 +2,7 @@
 description: WST Codec Filter
 ms.assetid: 0a06acbf-b842-4ab6-bcf9-d2d006301d83
 title: WST Codec Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -1,7 +1,7 @@
 ---
 title: DirectStorage interfaces
 description: The following interfaces are declared in dstorage.h for DirectStorage-based programming.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/25/2022
 ---
 

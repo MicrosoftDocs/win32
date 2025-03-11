@@ -2,7 +2,7 @@
 title: DNS Enumerations
 description: Domain Name System (DNS) enumerations navigation page.
 ms.assetid: 6ab53b19-7838-4e9f-9923-96a9267d2dbb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

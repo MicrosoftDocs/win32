@@ -4,7 +4,7 @@ description: This section provides scripting examples that demonstrate how to sc
 ms.assetid: 55485b95-7092-468a-b090-9f880ce61a89
 keywords:
 - Domain Name System, examples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
