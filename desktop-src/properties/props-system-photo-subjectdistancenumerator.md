@@ -2,7 +2,7 @@
 description: The numerator of PKEY\_Photo\_SubjectDistance.
 ms.assetid: 98d2c1e3-0068-45ed-a13f-b5a09261f30f
 title: System.Photo.SubjectDistanceNumerator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

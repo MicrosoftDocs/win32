@@ -2,7 +2,7 @@
 description: Read about the System.PropGroup.FileSystem property. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: 7e3602aa-b04a-49ad-a0f8-7fd13841f2bb
 title: System.PropGroup.FileSystem
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

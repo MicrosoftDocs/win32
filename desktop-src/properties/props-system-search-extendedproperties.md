@@ -2,7 +2,7 @@
 description: System.Search.ExtendedProperties
 ms.assetid: 35e38d70-3029-4e22-ab70-718911654979
 title: System.Search.ExtendedProperties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.OfflineAvailability
 ms.assetid: 4d0c880b-923d-4f83-91da-dd99bf111f13
 title: System.OfflineAvailability
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

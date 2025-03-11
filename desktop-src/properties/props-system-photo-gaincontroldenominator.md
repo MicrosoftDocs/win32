@@ -2,7 +2,7 @@
 description: The denominator of PKEY\_Photo\_GainControl.
 ms.assetid: 7ab2ea1e-8455-4724-b249-0c78688f6627
 title: System.Photo.GainControlDenominator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

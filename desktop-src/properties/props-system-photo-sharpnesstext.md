@@ -2,7 +2,7 @@
 description: The user-friendly form of System.Photo.Sharpness. Not intended to be parsed programmatically.
 ms.assetid: a0e150bd-3ff8-4b9c-b1ea-b3852a47fee3
 title: System.Photo.SharpnessText
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
