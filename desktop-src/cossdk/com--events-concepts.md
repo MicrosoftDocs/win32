@@ -2,7 +2,7 @@
 description: COM+ Events Concepts
 ms.assetid: 6bfe4852-4029-4dd4-92ad-3061618b1b23
 title: COM+ Events Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

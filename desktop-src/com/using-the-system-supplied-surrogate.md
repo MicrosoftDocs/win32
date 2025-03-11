@@ -2,7 +2,7 @@
 title: Using the system-supplied surrogate
 description: Using the system-supplied surrogate
 ms.assetid: 6709e5e2-50e0-470f-b618-3d3043f6e180
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/30/2024
 ---
 

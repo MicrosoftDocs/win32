@@ -2,7 +2,7 @@
 title: Turning Off Call Security
 description: Call security determines whether a client has permission to call a server's methods. There are two ways to disable call security One involves using Dcomcnfg.exe to modify the registry, and the other requires calls to CoInitializeSecurity.
 ms.assetid: 7ce162d0-20e0-4385-ad9f-472f2c17b060
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

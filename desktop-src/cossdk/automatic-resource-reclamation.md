@@ -2,7 +2,7 @@
 description: Automatic Resource Reclamation
 ms.assetid: c889dd3f-82d1-4bc3-ac2c-6f468d5b2c7f
 title: Automatic Resource Reclamation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

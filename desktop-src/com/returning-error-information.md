@@ -2,7 +2,7 @@
 title: Returning Error Information
 description: Returning Error Information
 ms.assetid: 4206f2e5-db01-458c-93cb-10c5cd4a4536
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

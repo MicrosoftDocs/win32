@@ -4,7 +4,7 @@ description: Configures a class to run under a specific user account when activa
 ms.assetid: 2325a7da-8acd-41f4-a658-36a02532505a
 keywords:
 - RunAs registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: COM+ Application Pooling allows single-threaded processes to scale and can also help you recover from failures in single-threaded processes by providing other running processes able to handle activations.
 ms.assetid: ee49ab53-0a8f-4eab-8f16-2d7481abb5dd
 title: COM+ Application Pooling
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

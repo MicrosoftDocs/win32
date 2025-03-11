@@ -2,7 +2,7 @@
 description: "Learn more about: COM+ Enumerations"
 ms.assetid: d78e3120-fc4d-4acf-ba49-b22222e95dec
 title: COM+ Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

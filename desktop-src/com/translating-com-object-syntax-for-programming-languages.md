@@ -2,7 +2,7 @@
 title: Translating COM Object Syntax for Programming Languages
 description: Translating COM Object Syntax for Programming Languages
 ms.assetid: 021e0085-c720-401e-9637-76580e67b307
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

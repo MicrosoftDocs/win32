@@ -2,7 +2,7 @@
 title: Turning Off Activation Security
 description: Turning Off Activation Security
 ms.assetid: 3474f8ad-f041-4886-ad39-ff0603c5c69e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
