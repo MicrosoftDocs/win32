@@ -2,7 +2,7 @@
 description: A recognizer may find several ways to break an ink sample into recognition segments. Because of this, the number of recognition alternates may be staggering, even for a small ink sample.
 ms.assetid: 7ecffe3f-cbe4-4e65-a1cc-9b08534b26c9
 title: Ink Segments and Alternates
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic describes how to request permissions from the user to use sensors. For background information about permissions in the Sensor API, see Managing User Permissions.
 ms.assetid: e43ad497-86f1-4804-a67a-0aeb56b80d7f
 title: Requesting User Permissions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

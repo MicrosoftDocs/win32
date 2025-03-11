@@ -2,7 +2,7 @@
 description: This section provides information you will need to start using the Sensor API.
 ms.assetid: 5bccb1d0-ae53-448e-8a43-afb3c1ce98f9
 title: Getting Started (Sensor API)
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Ink Blog sample demonstrates several useful techniques that can be used in ink-enabled Web applications.
 ms.assetid: 4a5a453d-e3c1-40e6-b0eb-99009f0024dd
 title: Ink-Enabled Web Applications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

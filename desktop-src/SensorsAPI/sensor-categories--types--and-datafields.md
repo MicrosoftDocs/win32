@@ -2,7 +2,7 @@
 description: This section describes platform-defined categories. Each category page includes information about sensor types and data fields that belong to the category.
 ms.assetid: 38d87fb4-8f9f-412f-98e5-84651be2c759
 title: Sensor Categories, Types, and Data Fields
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

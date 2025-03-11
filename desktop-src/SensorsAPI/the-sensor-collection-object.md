@@ -2,7 +2,7 @@
 description: The sensor collection object contains a group of sensor objects.
 ms.assetid: 8893860c-c8c0-4460-b59b-0b988e6d31b8
 title: The Sensor Collection Object
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

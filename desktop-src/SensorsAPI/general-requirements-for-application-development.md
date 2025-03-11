@@ -2,7 +2,7 @@
 description: This topic describes what you must do to start to create programs that use the Sensor API.
 ms.assetid: a8d3228a-5f8b-4850-9e47-5dfb2335e655
 title: General Requirements for Application Development (Sensor API)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

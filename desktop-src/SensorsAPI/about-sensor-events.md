@@ -2,7 +2,7 @@
 description: The Sensor API can provide event notifications.
 ms.assetid: 2400619c-ee9c-4662-ae57-6d4bc317e730
 title: About Sensor API Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

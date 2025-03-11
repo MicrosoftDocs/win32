@@ -2,7 +2,7 @@
 description: The Sensor API provides its functionality through a set of COM interfaces.
 ms.assetid: 128478c3-c890-4df3-bbb8-1bb57a17d8e9
 title: About the Sensor API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

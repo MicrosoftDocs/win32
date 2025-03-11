@@ -2,7 +2,7 @@
 description: The Sensor API provides event notifications through callback interfaces.
 ms.assetid: 0c396d54-cb2e-4b07-999f-3f4001db2a02
 title: Using Sensor API Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
