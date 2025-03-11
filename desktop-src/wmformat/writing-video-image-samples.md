@@ -8,7 +8,7 @@ keywords:
 - video images,writing samples
 - streams,writing video image samples
 - codecs,writing video image samples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

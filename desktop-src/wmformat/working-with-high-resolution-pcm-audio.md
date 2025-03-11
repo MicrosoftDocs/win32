@@ -13,7 +13,7 @@ keywords:
 - codecs,PCM audio
 - high-resolution PCM audio
 - PCM audio
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

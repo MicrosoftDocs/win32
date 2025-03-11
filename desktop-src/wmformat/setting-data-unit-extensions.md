@@ -7,7 +7,7 @@ keywords:
 - ASF (Advanced Systems Format),data unit extensions
 - data unit extensions,setting
 - streams,data unit extensions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
