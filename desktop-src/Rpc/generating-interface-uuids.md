@@ -2,7 +2,7 @@
 title: Generating Interface UUIDs
 description: Generating interface Universal Unique Identifiers (UUIDs) and using Uuidgen.
 ms.assetid: a973b7f9-71c5-46a0-aa0c-51f150560dbc
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

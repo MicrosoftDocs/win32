@@ -4,7 +4,7 @@ description: In conjunction with its operating systems, Microsoft offers the Sec
 ms.assetid: 79ed7c51-4191-40b2-8d5f-06157f5b99be
 keywords:
 - Remote Procedure Call RPC , described, security support provider interface
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

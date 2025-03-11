@@ -3,7 +3,7 @@ title: F (RPC)
 description: Words starting with F in Remote Procedure Call (RPC) glossary.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: d1afec41-c36d-40da-a51f-e6c24d9ad756
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

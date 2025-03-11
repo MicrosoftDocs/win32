@@ -2,7 +2,7 @@
 title: Selecting a Protocol Sequence
 description: A protocol sequence is the language that a network operating system uses to talk over the network to other computers.
 ms.assetid: 9c788b9b-82c5-4a4b-86c6-e9a9df699da3
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

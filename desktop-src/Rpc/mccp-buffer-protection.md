@@ -2,7 +2,7 @@
 title: MCCP Buffer Protection
 description: Starting with Windows Vista, the RPC Marshalling Engine takes further steps to try to prevent client-side buffer overruns due to returned data. This facility is called Mini Compute Conformance Protection (MCCP).
 ms.assetid: 37fe743b-c64e-469d-b8f4-abab9f05c813
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
