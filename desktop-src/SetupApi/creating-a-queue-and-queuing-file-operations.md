@@ -2,7 +2,7 @@
 description: Queuing the file operations is useful because it enables you to process the installation as a whole, instead of by INF section.
 ms.assetid: 6519c2fb-142d-4071-865f-c00a98c2fe35
 title: Creating a Queue and Queuing File Operations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

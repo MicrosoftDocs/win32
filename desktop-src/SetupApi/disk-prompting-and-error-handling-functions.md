@@ -2,7 +2,7 @@
 description: The following functions provide disk prompting and an error handling user interface.
 ms.assetid: b254f3ee-45bc-4567-88e5-6d7d38cec750
 title: Disk Prompting and Error Handling Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

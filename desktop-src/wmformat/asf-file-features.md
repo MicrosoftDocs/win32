@@ -9,7 +9,7 @@ keywords:
 - ASF (Advanced Systems Format),file features
 - Advanced Systems Format (ASF),features
 - ASF (Advanced Systems Format),features
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

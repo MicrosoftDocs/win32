@@ -2,7 +2,7 @@
 description: The Install section of an INF File defines the steps of the installation procedure.
 ms.assetid: 24d40dc6-ac09-4cf8-9229-f81da2925576
 title: INF Install Section Example
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
