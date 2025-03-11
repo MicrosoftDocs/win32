@@ -2,7 +2,7 @@
 title: Using Direct Annotation
 description: Using Direct Annotation
 ms.assetid: d9d78e74-dcab-4974-945f-e8c5d42c04b7
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

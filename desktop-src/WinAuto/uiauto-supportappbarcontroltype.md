@@ -10,7 +10,7 @@ keywords:
 - support for AppBar control type
 - AppBar control type
 - control types,AppBar
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

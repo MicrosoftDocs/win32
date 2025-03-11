@@ -2,7 +2,7 @@
 title: Using Custom Control Patterns
 description: This topic describes how UIAutomation (UIA) custom control patterns can be used in scenarios where the predefined UIAutomation patterns do not support the functionality provided by custom UI elements and application scenarios.
 keywords:
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/11/2023
 ---
 

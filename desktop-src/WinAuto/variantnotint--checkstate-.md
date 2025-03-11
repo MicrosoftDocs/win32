@@ -2,7 +2,7 @@
 title: VariantNotInt (CheckState)
 description: VariantNotInt (CheckState)
 ms.assetid: 77140193-22E8-427D-AE9C-FEC6B93483DD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for CheckBox control type
 - control types,support for CheckBox
 - control types,CheckBox
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

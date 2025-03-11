@@ -14,7 +14,7 @@ keywords:
 - UI Automation,affinity
 - threading issues
 - event handler threading model
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/09/2024
 ---
 

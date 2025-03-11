@@ -9,7 +9,7 @@ keywords:
 - UI Automation,screen scaling
 - UI Automation,scaling
 - screen scaling
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

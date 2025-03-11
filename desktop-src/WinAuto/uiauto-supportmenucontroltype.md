@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Menu control type
 - control types,support for Menu
 - control types,Menu
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

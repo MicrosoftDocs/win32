@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Edit control type
 - control types,support for Edit
 - control types,Edit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

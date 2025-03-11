@@ -2,7 +2,7 @@
 title: Deprecated GUIDs
 description: This topic describes the GUIDs that are used with the UiaLookupId function.
 ms.assetid: b8e9e33c-9781-4f50-bbb7-a9950409f2e6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

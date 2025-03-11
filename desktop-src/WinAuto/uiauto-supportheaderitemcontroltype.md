@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for HeaderItem control type
 - control types,support for HeaderItem
 - control types,HeaderItem
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

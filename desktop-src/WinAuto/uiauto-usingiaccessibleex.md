@@ -15,7 +15,7 @@ keywords:
 - Active Accessibility
 - exposing IAccessibleEx
 - implementing IAccessibleEx
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

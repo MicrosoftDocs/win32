@@ -8,7 +8,7 @@ keywords:
 - support for control type
 - control types,support
 - control types,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

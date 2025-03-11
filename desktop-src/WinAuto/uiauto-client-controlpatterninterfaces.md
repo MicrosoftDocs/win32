@@ -2,7 +2,7 @@
 title: Control Pattern Interfaces for Clients
 description: This section describes control pattern interfaces for unmanaged UI Automation client applications.
 ms.assetid: 14358ef0-aa54-42c1-a3da-0f835f5f5ef6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

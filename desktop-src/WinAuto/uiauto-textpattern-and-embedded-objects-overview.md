@@ -15,7 +15,7 @@ keywords:
 - control patterns,Text
 - embedded objects
 - exposing embedded objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/31/2019
 ---
 

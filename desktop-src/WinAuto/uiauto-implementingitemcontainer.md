@@ -13,7 +13,7 @@ keywords:
 - control patterns,implementing UI Automation ItemContainer
 - control patterns,ItemContainer
 - interfaces,IItemContainerProvider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

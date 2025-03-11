@@ -4,7 +4,7 @@ description: Describes how to use the Microsoft Active Accessibility \ 32;API to
 ms.assetid: 30F874F9-EA45-4365-8798-FEA011C62DA9
 keywords:
 - ActiveX Control, accessibility
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

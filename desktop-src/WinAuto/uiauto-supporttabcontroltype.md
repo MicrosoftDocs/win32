@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Tab control type
 - control types,support for Tab
 - control types,Tab
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

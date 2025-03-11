@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for ComboBox control type
 - control types,support for ComboBox
 - control types,ComboBox
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

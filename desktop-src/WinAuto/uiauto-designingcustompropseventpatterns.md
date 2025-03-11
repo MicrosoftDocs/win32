@@ -15,7 +15,7 @@ keywords:
 - events,WinEvents
 - control patterns,designing
 - WinEvents
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
