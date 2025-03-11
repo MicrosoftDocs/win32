@@ -7,7 +7,7 @@ keywords:
 - Task Scheduler for development
 - Developing with Task Scheduler
 - Task Scheduler, portal page
-ms.topic: article
+ms.topic: reference
 ms.date: 07/15/2024
 ---
 

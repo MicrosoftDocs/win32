@@ -5,7 +5,7 @@ ms.assetid: ad9eb4a7-f42b-4f5a-86a3-05d02dc88f97
 keywords:
 - retrieving task run times Task Scheduler
 - retrieving work item properties Task Scheduler , task run times
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

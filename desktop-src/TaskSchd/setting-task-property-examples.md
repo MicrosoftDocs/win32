@@ -4,7 +4,7 @@ description: To set the properties of a task, call ITaskScheduler Activate to re
 ms.assetid: df438bff-1ce1-4336-93ee-1e6cab1f1ddd
 keywords:
 - setting task properties Task Scheduler
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: 'The following elements are used with system information:'
 ms.assetid: 29467115-e779-44fe-91ba-6e1526b5dfff
 title: System Information Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

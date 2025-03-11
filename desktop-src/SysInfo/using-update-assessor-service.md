@@ -2,7 +2,7 @@
 description: To use the WaaS Assessment Platform API, create an instance of the IWaaSAssessor interface, and then call the GetOSUpdateAssessment method.
 ms.assetid: 810D4057-8319-4B9B-9098-CD7987CB292C
 title: Using the WaaS Assessment Platform
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

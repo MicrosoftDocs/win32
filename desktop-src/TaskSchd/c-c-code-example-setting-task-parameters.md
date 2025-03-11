@@ -4,7 +4,7 @@ description: This example clears all command-line parameters associated with a k
 ms.assetid: cd71379a-7eb2-4966-a28b-5b7d31d60c16
 keywords:
 - setting task properties Task Scheduler , parameters
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Asynchronous Searching
 description: The Device Finder object enables both synchronous and asynchronous searches. Asynchronous searches return control to the calling application immediately.
 ms.assetid: 809cfb65-9d08-427b-90d9-b8a836176341
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

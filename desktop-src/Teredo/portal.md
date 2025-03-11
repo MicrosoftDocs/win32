@@ -2,7 +2,7 @@
 title: Teredo
 description: Teredo
 ms.assetid: fc213675-dbdb-42a1-a09f-dda598b95b94
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

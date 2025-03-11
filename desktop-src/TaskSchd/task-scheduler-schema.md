@@ -4,7 +4,7 @@ description: The Task Scheduler schema defines valid XML used to register tasks 
 ms.assetid: 9b1b8e34-c635-413a-a230-79a58017cf21
 keywords:
 - Task Scheduler Task Scheduler , reference, XML schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

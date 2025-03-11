@@ -25,7 +25,7 @@ keywords:
 - idle trigger Task Scheduler
 - idle trigger Task Scheduler , described
 - day-of-week trigger Task Scheduler
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

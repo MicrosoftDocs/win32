@@ -4,7 +4,7 @@ description: To retrieve the properties of a work item, call ITaskScheduler Acti
 ms.assetid: d9723dea-1a82-4993-b4d0-bc7d944e775f
 keywords:
 - retrieving work item properties Task Scheduler
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

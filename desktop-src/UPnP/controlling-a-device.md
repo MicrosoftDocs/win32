@@ -2,7 +2,7 @@
 title: Controlling a Device
 description: Once you have discovered devices, you can control them.
 ms.assetid: 6d0efb80-d6f5-4b36-a184-19f06afeb2a7
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
