@@ -2,7 +2,7 @@
 description: COM+ Transactions Tasks
 ms.assetid: fe4374f1-2452-4316-be57-b866c438404d
 title: COM+ Transactions Tasks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

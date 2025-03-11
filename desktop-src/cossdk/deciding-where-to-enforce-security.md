@@ -2,7 +2,7 @@
 description: Trade-offs are inherent in enforcing security.
 ms.assetid: f01573f3-aae6-400e-bdd9-6f34f4e262f6
 title: Deciding Where to Enforce Security
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
