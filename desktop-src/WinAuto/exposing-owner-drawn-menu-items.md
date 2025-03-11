@@ -2,7 +2,7 @@
 title: Exposing Owner-Drawn Menu Items
 description: Exposing Owner-Drawn Menu Items
 ms.assetid: 93b51cbb-b7b4-4a38-ba69-d6345a269944
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

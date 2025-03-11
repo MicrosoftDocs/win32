@@ -2,7 +2,7 @@
 title: Setting Properties for Animated or Moving Objects
 description: For animation controls, such as the animation control displayed when copying files, use the ROLE\_SYSTEM\_ANIMATION object role.
 ms.assetid: 8c5ebbc3-4066-452b-8f37-2fb595adea53
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

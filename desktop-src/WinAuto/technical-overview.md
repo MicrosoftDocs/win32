@@ -2,7 +2,7 @@
 title: Technical Overview
 description: Microsoft Active Accessibility improves the way accessibility aids (specialized programs that help people with disabilities use computers more effectively) work with applications running on Microsoft Windows.
 ms.assetid: d71ef40e-4c58-4ee6-8909-04ff4f8d20d3
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

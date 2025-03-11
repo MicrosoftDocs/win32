@@ -2,7 +2,7 @@
 title: DragPattern/DragDropPattern elements requires Name
 description: DragPattern/DragDropPattern elements requires Name
 ms.assetid: DEF58FB2-5830-4162-87D0-40DEC1237529
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 38edacbc-cf24-4818-b029-561b21e3704c
 keywords:
 - Inspect Tool
 - Accessibility
-ms.topic: article
+ms.topic: reference
 ms.date: 02/09/2023
 ---
 

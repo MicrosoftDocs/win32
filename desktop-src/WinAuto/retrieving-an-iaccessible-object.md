@@ -2,7 +2,7 @@
 title: Retrieving an IAccessible Object
 description: Microsoft Active Accessibility provides functions such as AccessibleObjectFromWindow and AccessibleObjectFromPoint that allow clients to retrieve accessible objects.
 ms.assetid: 971cbead-128b-465a-8e77-2a20217f8d0f
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

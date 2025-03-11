@@ -2,7 +2,7 @@
 title: Server Annotation
 description: This section provides information about using server annotation.
 ms.assetid: d8de90af-f5ed-42ef-bd74-e383360e8128
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

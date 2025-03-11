@@ -2,7 +2,7 @@
 title: Ease of Access   Assistive Technology Registration
 description: This article explains how to register an accessibility application with the Ease of Access Center. It also explains how to tailor your accessibility application so it works well with the secure desktop.
 ms.assetid: 6F1F2AAE-B2E4-4F26-8BDF-A3DE8F5C5460
-ms.topic: article
+ms.topic: reference
 ms.date: 04/02/2019
 ---
 

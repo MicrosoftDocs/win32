@@ -2,7 +2,7 @@
 title: BoundingRectNotHitTestable
 description: BoundingRectNotHitTestable
 ms.assetid: E728F250-6D92-4C8A-BAA3-C7D8F64C50FB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Checking IAccessible Return Values
 description: Client developers should not rely on the Component Object Model (COM) macros SUCCEEDED and FAILED to test IAccessible return values, because values other than S\_OK are considered a success.
 ms.assetid: 0def0349-178b-4be5-aa1d-6602dc015981
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

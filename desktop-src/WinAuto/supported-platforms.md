@@ -2,7 +2,7 @@
 title: Supported Platforms
 description: Microsoft Active Accessibility supports most Microsoft platforms and is included as part of the Windows operating system beginning with Windows XP.
 ms.assetid: 04133938-8b2f-49d2-86cd-592e47d5d70f
-ms.topic: article
+ms.topic: reference
 ms.date: 11/06/2023
 ---
 
