@@ -4,7 +4,7 @@ description: The 2D affine transform effect applies a spatial transform to an im
 ms.assetid: E8973EBE-764C-4220-BB1E-3BFD4853582D
 keywords:
 - 2D affine transform effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

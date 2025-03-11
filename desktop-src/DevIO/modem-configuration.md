@@ -2,7 +2,7 @@
 description: Modem configuration functions enable you to configure a modem before making a connection.
 ms.assetid: 67d8f3c4-0295-4028-8b12-1a5e26979df5
 title: Modem Configuration
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

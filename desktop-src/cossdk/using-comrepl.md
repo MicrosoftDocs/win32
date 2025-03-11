@@ -2,7 +2,7 @@
 description: Using COMREPL
 ms.assetid: bf67b434-c082-472d-9eae-ae31969d9cb8
 title: Using COMREPL
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

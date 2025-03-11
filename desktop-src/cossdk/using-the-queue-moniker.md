@@ -2,7 +2,7 @@
 description: The queue moniker is used to activate a queued component programmatically.
 ms.assetid: d3d22ae6-7d16-4f25-9f15-21b2163cb0f5
 title: Using the Queue Moniker
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

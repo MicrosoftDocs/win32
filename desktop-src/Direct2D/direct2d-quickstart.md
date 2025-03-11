@@ -8,7 +8,7 @@ keywords:
 - Direct2D,creating applications
 - Direct2D,applications
 - applications for Direct2D
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/25/2022
 ---
 

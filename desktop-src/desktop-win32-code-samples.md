@@ -1,7 +1,7 @@
 ---
 title: Desktop Win32 code samples
 description: About the samples repos for Win32, and how to search in them.
-ms.topic: article
+ms.topic: sample
 ms.date: 03/19/2021
 ---
 

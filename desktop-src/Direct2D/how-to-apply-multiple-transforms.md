@@ -2,7 +2,7 @@
 title: How to Apply Multiple Transforms to an Object
 description: Shows how to apply multiple transforms to an object.
 ms.assetid: a3875072-bb73-4698-944e-102ab5539d80
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

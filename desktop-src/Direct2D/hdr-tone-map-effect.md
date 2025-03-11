@@ -1,7 +1,7 @@
 ---
 title: HDR tone map effect
 description: This effect adjusts the dynamic range of an image to better suit its content to the capability of the output display.
-ms.topic: article
+ms.topic: reference
 ms.date: 02/01/2019
 ---
 

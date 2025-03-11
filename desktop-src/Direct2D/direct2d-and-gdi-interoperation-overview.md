@@ -11,7 +11,7 @@ keywords:
 - interoperability,Graphics Device Interface (GDI)
 - Direct3D,interoperability
 - Direct3D,Direct2D interoperation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

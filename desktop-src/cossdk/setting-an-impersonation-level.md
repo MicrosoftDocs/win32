@@ -2,7 +2,7 @@
 description: When you set an impersonation level for an application, you determine what degree of authority the application grants other applications to use its identity when it calls them.
 ms.assetid: 5b5b2c2d-dc3d-4edd-9e13-e6cb13022ceb
 title: Setting an Impersonation Level
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
