@@ -2,7 +2,7 @@
 description: This overview of PrintTicket functionality describes the format for expressing device configuration information and use of a PrintTicket.
 ms.assetid: c48b9821-9194-47d9-a3ec-b10dbbdf14cc
 title: Overview of PrintTicket Functionality
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

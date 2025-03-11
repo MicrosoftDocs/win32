@@ -2,7 +2,7 @@
 description: Learn about more elaborate option definitions. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: fafced09-97fd-44f6-a41b-e17757c85c38
 title: More Elaborate Option Definitions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

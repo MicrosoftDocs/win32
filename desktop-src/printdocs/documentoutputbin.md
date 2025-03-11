@@ -2,7 +2,7 @@
 description: Learn about the DocumentOutputBin, which describes the full list of supported bins for the device and allows specification of output bin on a per document basis.
 ms.assetid: 73840548-f68b-4af8-acb4-6f7faa2e8879
 title: DocumentOutputBin
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

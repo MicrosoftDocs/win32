@@ -2,7 +2,7 @@
 description: Get information about the JobHolePunch user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 26e9e7d6-7c01-4687-aa64-7aea867b4e58
 title: JobHolePunch
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

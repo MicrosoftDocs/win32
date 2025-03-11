@@ -2,7 +2,7 @@
 description: Read reference information about the PageCopies parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: a15fe075-6696-4c70-b658-ae62d542bb4e
 title: PageCopies
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

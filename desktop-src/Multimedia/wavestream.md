@@ -4,7 +4,7 @@ description: Wavestream
 ms.assetid: '81267149-793e-4611-848b-58085561d84b'
 keywords:
 - AVICap callback functions,wavestream
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

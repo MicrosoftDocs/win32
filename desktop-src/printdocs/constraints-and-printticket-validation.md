@@ -2,7 +2,7 @@
 description: In order to prevent constraint conflicts, PrintTicket providers must support validation that clients use to perform validation on their PrintTicket.
 ms.assetid: f4c66812-8782-4a85-8a74-3505c4e73e56
 title: Constraints and PrintTicket Validation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

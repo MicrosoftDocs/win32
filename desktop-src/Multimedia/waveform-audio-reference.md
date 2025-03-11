@@ -34,7 +34,7 @@ keywords:
 - reference for wavefore audio,current position
 - waveform audio reference,recording
 - reference for wavefore audio,recording
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

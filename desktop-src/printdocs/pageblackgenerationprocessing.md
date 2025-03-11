@@ -2,7 +2,7 @@
 description: Learn about the PageBlackGenerationProcessing element, which specifies black generation behavior for CMYK separations.
 ms.assetid: 4edd1fdf-9601-440d-b967-82ffa6dceeb1
 title: PageBlackGenerationProcessing
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
