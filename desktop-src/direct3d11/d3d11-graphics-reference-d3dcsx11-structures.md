@@ -2,7 +2,7 @@
 title: D3DCSX 11 Structures
 description: This section contains information about the D3DCSX 11 structures.
 ms.assetid: ED42B8D1-F4C9-489F-999B-A53BC96BA337
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

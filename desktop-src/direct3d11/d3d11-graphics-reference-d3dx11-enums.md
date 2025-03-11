@@ -4,7 +4,7 @@ description: This section contains information about D3DX 11 enumerations.
 ms.assetid: c8cabd56-5e7d-4fd5-968d-2c5c17a63650
 keywords:
 - enumerations, DirectX 11 D3DX
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

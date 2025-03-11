@@ -2,7 +2,7 @@
 title: How To Create a Hull Shader
 description: This topic shows how to create a hull shader.
 ms.assetid: 221cb578-fcfc-411a-8515-7880a96e32ce
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

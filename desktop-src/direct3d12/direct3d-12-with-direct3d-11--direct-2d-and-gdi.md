@@ -2,7 +2,7 @@
 title: Direct3D 12 interop
 description: D3D12 can be used to write componentized applications.
 ms.assetid: 51F7E715-82B6-48D8-A06A-CBBEDF6968F5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Texture2D and Texture2DArray subresource tiling
 description: These tables show how Texture2D and Texture2DArray subresources are tiled.
 ms.assetid: 3CFA384D-2C49-4BB2-9A92-FC45B1A499B5
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

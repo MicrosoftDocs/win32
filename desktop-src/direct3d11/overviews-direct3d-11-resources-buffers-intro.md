@@ -6,7 +6,7 @@ keywords:
 - constant buffer, what is
 - vertex buffer, what is
 - index buffer, what is
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

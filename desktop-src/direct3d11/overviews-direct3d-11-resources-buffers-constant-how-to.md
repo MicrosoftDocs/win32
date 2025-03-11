@@ -4,7 +4,7 @@ description: This topic shows how to initialize a constant buffer in preparation
 ms.assetid: 78694ac2-e850-402d-8c99-6afb0bd5d660
 keywords:
 - constant buffer, creating
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

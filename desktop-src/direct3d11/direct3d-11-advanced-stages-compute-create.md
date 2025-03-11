@@ -2,7 +2,7 @@
 title: How To Create a Compute Shader
 description: This topic shows how to create a compute shader.
 ms.assetid: 6114dd90-626b-4c9e-9da5-7d2d33153e79
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
