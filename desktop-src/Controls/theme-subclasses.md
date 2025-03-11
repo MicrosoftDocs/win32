@@ -2,7 +2,7 @@
 title: Using Theme Subclasses
 description: Theme classes that represent controls such as ComboBox, Edit, ExplorerBar, Rebar, Tab, and Toolbar can be subclassed in order to provide theme variations for that particular control.
 ms.assetid: 4f5e26c1-72ae-48de-a407-9ac3c0d5f502
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

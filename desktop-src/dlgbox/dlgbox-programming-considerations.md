@@ -19,7 +19,7 @@ keywords:
 - dialog boxes,custom
 - custom dialog boxes
 - dialog boxes,settings
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/25/2020
 ---
 

@@ -6,7 +6,7 @@ keywords:
 - Common Dialog Box Library,customizing
 - common dialog boxes,customizing
 - customizing common dialog boxes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

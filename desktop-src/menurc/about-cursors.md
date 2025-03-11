@@ -1,7 +1,7 @@
 ---
 title: About Cursors
 description: This topic discusses the standard cursors.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 03/13/2024
 ---
 

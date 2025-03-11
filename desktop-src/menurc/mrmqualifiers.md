@@ -3,7 +3,7 @@ title: Qualifiers in MRM
 description: Description of qualifiers used by MRM.
 keywords:
 - MrmCreateResourceIndexer MrmCreateConfig MrmIndexString MrmIndexFile MrmIndexEmbeddedData Menus and Other Resources
-ms.topic: article
+ms.topic: reference
 ---
 
 # Qualifiers in MRM

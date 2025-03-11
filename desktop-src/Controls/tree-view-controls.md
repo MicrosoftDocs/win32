@@ -2,7 +2,7 @@
 title: About Tree-View Controls
 description: A tree-view control is a window that displays a hierarchical list of items, such as the headings in a document, the entries in an index, or the files and directories on a disk.
 ms.assetid: 10cc7949-dd77-412d-bad1-db8d8a049582
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Resource names in MRM
 description: Description of resource names in MRM.
 keywords:
 - MrmIndexString MrmIndexFile MrmIndexEmbeddedData Menus and Other Resources
-ms.topic: article
+ms.topic: reference
 ---
 
 # Resource names in MRM

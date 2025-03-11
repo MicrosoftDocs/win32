@@ -32,7 +32,7 @@ keywords:
 - clearing menu items
 - owner drawn menus
 - menus,owner drawn
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Using Trackbar Controls
 description: This section provides implementation details and examples for Trackbar controls.
 ms.assetid: 28078f3e-a3d1-4bb5-96c6-2191ff9f8d38
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

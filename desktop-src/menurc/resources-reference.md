@@ -2,7 +2,7 @@
 title: Resource Reference (Menus and Other Resources)
 description: Resource Reference (Menus and Other Resources)
 ms.assetid: 977021bf-fd1a-44d9-bfa1-6a727661fde7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

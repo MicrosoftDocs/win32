@@ -2,7 +2,7 @@
 title: Icon Functions
 description: Icon Functions
 ms.assetid: 3d27c185-52de-4b04-9b96-38bf284b1866
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
