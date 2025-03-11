@@ -4,7 +4,7 @@ description: Restore points are created to allow users a choice of previous syst
 ms.assetid: 5f68b377-4293-493e-afaf-f4414c2af1fb
 author: Teresa-Motiv
 ms.author: misatran
-ms.topic: article
+ms.topic: concept-article
 ms.date: 12/06/2019
 manager: dcscontentpm
 ms.custom: CSSTroubleshooting
