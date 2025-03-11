@@ -2,7 +2,7 @@
 description: This event selects and highlights a directory in the DirectoryList control that the user has chosen to open. For related information, see Browse Dialog.
 ms.assetid: 95cdf345-e1bb-41d8-b1e0-2acf97e33110
 title: DirectoryListOpen ControlEvent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
