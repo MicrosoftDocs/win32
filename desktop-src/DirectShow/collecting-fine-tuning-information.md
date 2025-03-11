@@ -2,7 +2,7 @@
 description: Collecting Fine-Tuning Information
 ms.assetid: 0d9ea896-e0a9-411b-9a10-e366e3686a34
 title: Collecting Fine-Tuning Information
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

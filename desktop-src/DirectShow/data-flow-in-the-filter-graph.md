@@ -2,7 +2,7 @@
 description: Data Flow in the Filter Graph
 ms.assetid: 3fcfd874-39bc-42d2-9fc9-2d8945ffa8e3
 title: Data Flow in the Filter Graph
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

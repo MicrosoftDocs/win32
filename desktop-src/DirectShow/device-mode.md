@@ -2,7 +2,7 @@
 description: Device Mode
 ms.assetid: d56021be-616b-41cd-8cf0-9e0d314f62cd
 title: Device Mode
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

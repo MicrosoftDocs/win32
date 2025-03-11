@@ -2,7 +2,7 @@
 title: DirectShow sample apps
 description: DirectShow sample apps
 ms.assetid: 4166d5ca-5e02-49f6-bcb1-d448f8175a0c
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

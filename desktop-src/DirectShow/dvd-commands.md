@@ -2,7 +2,7 @@
 description: DVD Commands
 ms.assetid: 1204c73e-c3de-4488-8ee3-e76edbf72da0
 title: DVD Commands
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

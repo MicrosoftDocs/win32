@@ -2,7 +2,7 @@
 description: CutScene Sample
 ms.assetid: 7a73c9f0-4d3c-4c39-bcd3-168f112bf667
 title: CutScene Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

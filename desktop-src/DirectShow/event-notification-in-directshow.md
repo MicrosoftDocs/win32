@@ -2,7 +2,7 @@
 description: Event Notification in DirectShow
 ms.assetid: 301116a5-24e3-4c6d-8c80-bec77c7d62d7
 title: Event Notification in DirectShow
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: How to Implement IUnknown
 ms.assetid: 4e363ccb-9725-4be6-bb31-283bf1d658f5
 title: How to Implement IUnknown
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

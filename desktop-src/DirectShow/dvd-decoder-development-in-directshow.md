@@ -2,7 +2,7 @@
 description: DVD Decoder Development in DirectShow
 ms.assetid: c00ff132-fee1-47b5-8a8a-df7cb920ad89
 title: DVD Decoder Development in DirectShow
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

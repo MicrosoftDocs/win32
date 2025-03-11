@@ -2,7 +2,7 @@
 description: Envelope Segments
 ms.assetid: 1b59cd1c-7c37-4c70-a36c-2ee1f42b42c5
 title: Envelope Segments
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

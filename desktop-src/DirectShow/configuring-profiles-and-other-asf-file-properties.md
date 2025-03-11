@@ -2,7 +2,7 @@
 description: Configuring Profiles and Other ASF File Properties
 ms.assetid: c43df556-9d8a-4010-9ed6-f84d8ac6d9bc
 title: Configuring Profiles and Other ASF File Properties
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Displaying a Filter's Property Pages
 ms.assetid: 4a5f6938-7b33-4350-b8fa-cf78c5c44bcd
 title: Displaying a Filter's Property Pages
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Combining Video Capture and Preview
 ms.assetid: bffc1900-be05-4d7e-ab8d-3177365aeb7a
 title: Combining Video Capture and Preview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

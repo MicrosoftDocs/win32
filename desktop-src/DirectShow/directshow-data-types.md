@@ -2,7 +2,7 @@
 description: DirectShow Data Types
 ms.assetid: 33c79747-9187-47bb-acb1-c63b39e7cd81
 title: DirectShow Data Types
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

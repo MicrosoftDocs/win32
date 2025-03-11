@@ -2,7 +2,7 @@
 description: How To Play a File
 ms.assetid: 3d8c5d06-8690-4298-a1d1-f21af35bcfd4
 title: How To Play a File
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

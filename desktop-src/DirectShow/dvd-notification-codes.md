@@ -2,7 +2,7 @@
 description: DVD Event Notification Codes
 ms.assetid: c028918e-aba2-49b2-a6ce-c620ab38b558
 title: DVD Event Notification Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

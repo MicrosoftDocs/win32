@@ -2,7 +2,7 @@
 description: Factory Template Array
 ms.assetid: 310afccd-42a6-426e-b455-7bf98062bf36
 title: Factory Template Array
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

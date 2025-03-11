@@ -2,7 +2,7 @@
 description: Configuring a Video Capture Device
 ms.assetid: b409ff15-c5f0-4fe7-8251-9e7bf3295a6d
 title: Configuring a Video Capture Device
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

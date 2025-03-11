@@ -2,7 +2,7 @@
 description: How to Register DirectShow Filters
 ms.assetid: 2b6304c0-4b67-4723-94a0-7b1fff534f91
 title: How to Register DirectShow Filters
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

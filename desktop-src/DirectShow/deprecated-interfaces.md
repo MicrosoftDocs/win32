@@ -2,7 +2,7 @@
 description: Deprecated Interfaces
 ms.assetid: 5b798477-9b36-4f59-b9cc-2938b5e4009f
 title: Deprecated Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Dynamic Graph Building
 ms.assetid: 13fed430-979b-40f7-91ba-aff2d811bd92
 title: Dynamic Graph Building
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

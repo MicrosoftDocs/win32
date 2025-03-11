@@ -2,7 +2,7 @@
 description: Custom File Formats
 ms.assetid: 4dc77cfa-0cab-4055-9e11-f036e2d1dcca
 title: Custom File Formats
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

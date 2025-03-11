@@ -2,7 +2,7 @@
 description: DVApp Sample
 ms.assetid: 80375170-d0d6-4371-abe3-078703e158b1
 title: DVApp Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

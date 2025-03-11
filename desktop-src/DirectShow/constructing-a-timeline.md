@@ -2,7 +2,7 @@
 description: Constructing a Timeline
 ms.assetid: 4909f797-d296-4c9f-83fb-543e48bbe75d
 title: Constructing a Timeline
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

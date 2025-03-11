@@ -2,7 +2,7 @@
 description: DVD Graph Builder
 ms.assetid: c74cf1d8-2560-4302-ba68-8a1693f7ca6f
 title: DVD Graph Builder
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
