@@ -6,7 +6,7 @@ keywords:
 - Windows Touch,messages
 - Windows Touch,registering for touch input
 - Windows Touch,testing input digitizers
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

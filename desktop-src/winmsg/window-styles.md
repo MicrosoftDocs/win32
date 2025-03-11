@@ -2,7 +2,7 @@
 description: This topic provides a list of the various styles that can be applied to a window.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstyles.htm'
 title: Window Styles (Winuser.h)
-ms.topic: article
+ms.topic: reference
 ms.date: 07/15/2024
 ---
 
