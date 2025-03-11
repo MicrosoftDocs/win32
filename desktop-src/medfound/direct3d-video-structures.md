@@ -2,7 +2,7 @@
 description: Describes the structures used by the Microsoft Direct3D 9 video interfaces.
 ms.assetid: 584c087e-53f0-42d8-99ed-a0d013379363
 title: Direct3D 9 Video Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

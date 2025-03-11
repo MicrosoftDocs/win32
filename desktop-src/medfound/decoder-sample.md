@@ -2,7 +2,7 @@
 description: Shows how to write a decoder for Microsoft Media Foundation.
 ms.assetid: 941e5400-e679-41f4-9830-3548dc6037aa
 title: Decoder Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

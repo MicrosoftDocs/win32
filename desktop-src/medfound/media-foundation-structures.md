@@ -2,7 +2,7 @@
 description: Media Foundation Structures
 ms.assetid: 39fdd724-13ca-48ab-8a55-93529d1da3b4
 title: Media Foundation Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

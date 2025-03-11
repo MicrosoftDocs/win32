@@ -2,7 +2,7 @@
 description: Media Type Negotiation on the Encoder
 ms.assetid: c8ae543e-68f7-4c74-9cb7-2a200bd51820
 title: Media Type Negotiation on the Encoder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
