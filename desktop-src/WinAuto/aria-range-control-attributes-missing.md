@@ -4,7 +4,7 @@ description: ARIA Range Control Attributes Missing
 ms.assetid: B79F6277-5339-406A-B5FC-A3657BFC5034
 keywords:
 - AriaRangeControlAttributesAbsentId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

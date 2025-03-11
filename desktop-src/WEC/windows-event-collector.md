@@ -3,7 +3,7 @@ title: Windows Event Collector
 description: You can subscribe to receive and store events on a local computer (event collector) that are forwarded from a remote computer (event source).
 ms.assetid: '7725e06d-4df1-4b3e-9f2f-2b8bdd805cb6'
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -15,7 +15,7 @@ keywords:
 - registering text services
 - registering language profiles
 - registering categories
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

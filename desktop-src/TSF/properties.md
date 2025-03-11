@@ -18,7 +18,7 @@ keywords:
 - text services,persistent storage of properties
 - TSF-enabled applications,persistent storage of properties
 - persistent storage of properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

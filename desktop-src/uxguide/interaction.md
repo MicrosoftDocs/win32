@@ -2,7 +2,7 @@
 title: Interaction
 description: Interaction is the variety of ways users interact with your app, including touch, keyboard, mouse, and so on. Use these guidelines to create intuitive and distinctive experiences that are optimized for touch but work consistently across input devices.
 ms.assetid: 1509c885-f4dc-4cf9-86a3-cc6754d3b4a0
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

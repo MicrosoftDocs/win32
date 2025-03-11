@@ -3,7 +3,7 @@ title: Retrying an Event Collector Subscription
 description: If a problem occurs with an event source that is associated to an Event Collector subscription, you can retry the subscription after the problem has been solved.
 ms.assetid: 8a3570af-bde3-40e5-8129-84ec313d853f
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Display event collector subscription properties
 description: You can view useful information about an Event Collector subscription and its event sources by retrieving and displaying the properties of the subscription.
 ms.assetid: 984e21cf-3671-4aca-9e8e-bcad1fa2f02c
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

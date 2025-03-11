@@ -4,7 +4,7 @@ description: Each time your application paints, it should read the current value
 ms.assetid: 7abf084a-31f5-4e32-bfd1-e88fbc2bf63d
 keywords:
 - animation variables Windows Animation ,reading
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

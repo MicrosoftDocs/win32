@@ -9,7 +9,7 @@ keywords:
 - reference for TSF,enumerations
 - text services,enumerations
 - TSF-enabled applications,enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Collecting User-Mode Dumps
 description: Starting with Windows Server 2008 and Windows Vista with Service Pack 1 (SP1), Windows Error Reporting (WER) can be configured so that full user-mode dumps are collected and stored locally after a user-mode application crashes.
 ms.assetid: 8dad892b-04df-4aeb-b6c4-82f7676d382a
-ms.topic: article
+ms.topic: concept-article
 ai-usage: ai-assisted
 ms.date: 07/18/2024
 ---

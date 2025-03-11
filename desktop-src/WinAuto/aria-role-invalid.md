@@ -4,7 +4,7 @@ description: ARIA Role Error
 ms.assetid: FEEB4F28-4A71-4417-A2F9-ABCB86B44F0F
 keywords:
 - AriaRoleErrorId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

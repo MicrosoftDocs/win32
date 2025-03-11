@@ -2,7 +2,7 @@
 title: Accessibility (Design basics)
 description: Designing software for accessibility means ensuring that programs and functionality are easily available to the widest range of users, including those who have disabilities and impairments.
 ms.assetid: df6947ec-6a1d-4645-ae3e-863839c32588
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

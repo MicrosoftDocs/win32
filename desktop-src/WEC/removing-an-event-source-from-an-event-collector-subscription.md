@@ -3,7 +3,7 @@ title: Removing an Event Source from a Collector Initiated Subscription
 description: You can remove an event source from a collector initiated subscription without deleting the entire subscription.
 ms.assetid: 6c9e0dbf-59a2-4db9-8fb8-0dbfda5cf38b
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

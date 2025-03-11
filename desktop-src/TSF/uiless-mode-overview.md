@@ -19,7 +19,7 @@ keywords:
 - TSF (Text Services Framework),predefined UI elements
 - TSF-enabled applications,predefined UI elements
 - predefined UI elements
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
