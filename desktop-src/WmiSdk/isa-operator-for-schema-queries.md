@@ -3,7 +3,7 @@ description: The ISA operator is a WQL-specific operator that can be used in dat
 ms.assetid: 0520470c-ebfc-4c45-8a1f-47fd66bf8414
 ms.tgt_platform: multiple
 title: ISA Operator for Schema Queries
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

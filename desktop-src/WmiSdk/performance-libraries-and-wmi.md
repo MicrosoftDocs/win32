@@ -3,7 +3,7 @@ description: The WMIPerfClass Provider and the WMIPerfInst Provider dynamically 
 ms.assetid: 8bf6d218-9a31-4efd-a809-222aca364138
 ms.tgt_platform: multiple
 title: Performance Libraries and WMI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

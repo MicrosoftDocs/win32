@@ -3,7 +3,7 @@ description: Providers can call methods implemented by WMI from within their met
 ms.assetid: 5bfd9d9b-ffe5-4def-a97d-85c4c01223f0
 ms.tgt_platform: multiple
 title: Making Calls to WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Using WMI, you can access system counter data programmatically from
 ms.assetid: a0ed14e9-d2ec-43eb-8c8e-eac3c134ea1d
 ms.tgt_platform: multiple
 title: Monitoring Performance Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

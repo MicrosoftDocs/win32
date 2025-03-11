@@ -3,7 +3,7 @@ description: The ISA operator is a WQL-specific operator that can be used in eve
 ms.assetid: 68b7a903-a206-4491-95c4-4a412537f6f5
 ms.tgt_platform: multiple
 title: ISA Operator for Event Queries
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

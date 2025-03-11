@@ -3,7 +3,7 @@ description: You can obtain or modify registry data by using the WMI StdRegProv 
 ms.assetid: 7cba9dcb-741b-4118-9769-8830c6dc0752
 ms.tgt_platform: multiple
 title: Obtaining registry data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

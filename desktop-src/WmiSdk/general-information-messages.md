@@ -3,7 +3,7 @@ description: The following information messages describe the compiler operation.
 ms.assetid: 838e598d-871d-4015-a372-4d94cacf8048
 ms.tgt_platform: multiple
 title: General Information Messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

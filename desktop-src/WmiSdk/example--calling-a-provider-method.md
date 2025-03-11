@@ -3,7 +3,7 @@ description: You can use the procedure and code examples in this topic to create
 ms.assetid: ee8faa14-74ec-49a2-88d6-187627c40071
 ms.tgt_platform: multiple
 title: 'Example: Calling a Provider Method'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

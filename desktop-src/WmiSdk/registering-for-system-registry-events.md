@@ -3,7 +3,7 @@ description: To receive notifications from the System Registry provider, a manag
 ms.assetid: 4cac5fdd-c842-4d7e-a56e-2e1312df68b4
 ms.tgt_platform: multiple
 title: Registering for System Registry Events
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

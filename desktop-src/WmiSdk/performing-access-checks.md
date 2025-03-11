@@ -3,7 +3,7 @@ description: An access check determines whether a security descriptor grants a s
 ms.assetid: d0259bb1-fd74-4440-ac2a-d6aa84a48d9b
 ms.tgt_platform: multiple
 title: Performing Access Checks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

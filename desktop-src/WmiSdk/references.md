@@ -3,7 +3,7 @@ description: The MOF ref key word describes an object path and maps to a VT\_BST
 ms.assetid: 9da25435-4ccc-4251-a4be-37239156e320
 ms.tgt_platform: multiple
 title: References (WMI)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

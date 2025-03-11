@@ -3,7 +3,7 @@ description: The Managed Object Format (MOF) language supports many data types t
 ms.assetid: c09209ea-5283-4779-9481-71a24b03002f
 ms.tgt_platform: multiple
 title: MOF Data Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

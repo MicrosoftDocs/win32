@@ -3,7 +3,7 @@ description: Because WMI loads a high-performance provider in-process to either 
 ms.assetid: c37e3652-8c76-4125-ba62-ae860858797e
 ms.tgt_platform: multiple
 title: Implementing the High-Performance Interface
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

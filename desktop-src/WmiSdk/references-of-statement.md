@@ -3,7 +3,7 @@ description: The REFERENCES OF statement retrieves all association instances tha
 ms.assetid: 674be546-e7fd-4150-9d7c-2888d24bf1b3
 ms.tgt_platform: multiple
 title: REFERENCES OF Statement
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

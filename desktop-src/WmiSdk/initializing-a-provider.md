@@ -3,7 +3,7 @@ description: One of the first tasks you must code for a provider is the initiali
 ms.assetid: 3dc145b8-1ce4-4caa-b2ac-31a3681e76f1
 ms.tgt_platform: multiple
 title: Initializing a Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

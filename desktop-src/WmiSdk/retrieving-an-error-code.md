@@ -3,7 +3,7 @@ description: As with all applications, WMI receives error codes from the Windows
 ms.assetid: f54b8e7c-c531-47d5-bab8-780652b94555
 ms.tgt_platform: multiple
 title: Retrieving an Error Code
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

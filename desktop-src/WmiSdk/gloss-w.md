@@ -4,7 +4,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 5354bc0b-8fcf-4982-8611-839458bb2ef7
 ms.tgt_platform: multiple
 title: W (WMI)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

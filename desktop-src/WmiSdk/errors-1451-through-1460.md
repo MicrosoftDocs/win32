@@ -3,7 +3,7 @@ description: Describes WMI SNMP provider errors 1451 through 1460.
 ms.assetid: 5987d86d-b63a-4d74-96c1-5c20b10d3636
 ms.tgt_platform: multiple
 title: Errors 1451 through 1460
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

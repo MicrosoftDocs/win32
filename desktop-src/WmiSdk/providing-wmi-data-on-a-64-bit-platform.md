@@ -3,7 +3,7 @@ description: Scripts and applications written for 32-bit operating systems shoul
 ms.assetid: b437b9ed-b9e4-4fc5-9b86-0eb77bb41b8e
 ms.tgt_platform: multiple
 title: Providing WMI Data on a 64-bit Platform
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

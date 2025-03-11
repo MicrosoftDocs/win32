@@ -3,7 +3,7 @@ description: The System Registry provider is registered as part of the WMI insta
 ms.assetid: ce5d0785-6e1b-411c-91df-f25767310530
 ms.tgt_platform: multiple
 title: Registering the System Registry Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

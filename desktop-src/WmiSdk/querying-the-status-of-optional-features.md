@@ -3,7 +3,7 @@ description: In Windows 7, WMI implemented the Win32\_OptionalFeature class. Th
 ms.assetid: d756b0c0-b9f4-4b71-9f07-963a0dd5e585
 ms.tgt_platform: multiple
 title: Querying the Status of Optional Features
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

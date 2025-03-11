@@ -3,7 +3,7 @@ description: Describes WMI SNMP provider errors 1041 through 1050.
 ms.assetid: e7e70fb3-12c6-40b1-91a4-c550e8210c09
 ms.tgt_platform: multiple
 title: Errors 1041 through 1050
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

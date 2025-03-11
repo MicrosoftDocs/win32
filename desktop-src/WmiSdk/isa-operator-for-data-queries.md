@@ -3,7 +3,7 @@ description: Use the ISA operator in the WHERE clause of a data query to request
 ms.assetid: a4eb4c34-2ed0-4e85-84c6-6b8f17c8b07d
 ms.tgt_platform: multiple
 title: ISA Operator for Data Queries
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

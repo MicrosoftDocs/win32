@@ -3,7 +3,7 @@ description: If you use the scripting API for WMI, you can set specific security
 ms.assetid: 65b923d5-5244-498d-9644-d4978fb84f85
 ms.tgt_platform: multiple
 title: Executing Privileged Operations Using VBScript
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
