@@ -2,7 +2,7 @@
 description: Building the DVD Filter Graph
 ms.assetid: 1d2f8284-2deb-4207-b067-24a54d6b286c
 title: Building the DVD Filter Graph
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

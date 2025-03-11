@@ -2,7 +2,7 @@
 description: DirectShow Base Class Reference
 ms.assetid: 56f3685f-3df8-4358-b04e-3efc04b58008
 title: DirectShow Base Class Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

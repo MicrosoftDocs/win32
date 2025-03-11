@@ -2,7 +2,7 @@
 description: Alpha Setter Effect
 ms.assetid: dd3ab119-328b-4782-811a-f06909c17dec
 title: Alpha Setter Effect
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

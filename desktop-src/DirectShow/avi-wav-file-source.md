@@ -2,7 +2,7 @@
 description: AVI/WAV File Source
 ms.assetid: b8abf5d8-ba7f-441d-beef-9f85859318d5
 title: AVI/WAV File Source
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

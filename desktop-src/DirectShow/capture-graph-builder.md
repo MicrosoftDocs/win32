@@ -2,7 +2,7 @@
 description: Capture Graph Builder
 ms.assetid: 'df59afcf-6e11-463f-80ac-8b1fcc496d5b'
 title: Capture Graph Builder
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

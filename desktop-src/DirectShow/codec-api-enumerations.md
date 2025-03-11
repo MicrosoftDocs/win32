@@ -2,7 +2,7 @@
 description: Codec API Enumerations
 ms.assetid: 5d6e48cb-d181-448e-a96e-e5ab500427d7
 title: Codec API Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: ACM Wrapper Filter
 ms.assetid: f3cd8e90-8949-482a-8ada-47711f6c935f
 title: ACM Wrapper Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

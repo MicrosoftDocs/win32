@@ -1,7 +1,7 @@
 ---
 title: HLSL Shader Model 6.4
 description: Describes the machine learning intrinsics added to HLSL Shader Model 6.4.
-ms.topic: article
+ms.topic: reference
 ms.date: 02/21/2019
 ---
 

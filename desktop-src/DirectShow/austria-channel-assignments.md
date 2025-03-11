@@ -2,7 +2,7 @@
 description: This topic lists the frequency tables used for analog TV tuning for Austria.
 ms.assetid: 200355f8-e472-4497-8d36-c77f6b2cf5c7
 title: Austria Channel Assignments
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

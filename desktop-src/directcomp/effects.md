@@ -2,7 +2,7 @@
 title: Effects (DirectComposition)
 description: This topic discusses the basics of Microsoft DirectComposition effects, and describes the types of effects that DirectComposition supports.
 ms.assetid: 805B17D2-2F6B-4C25-8C6D-41FFA5DFC774
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

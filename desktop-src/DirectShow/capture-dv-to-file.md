@@ -2,7 +2,7 @@
 description: Capture DV to File
 ms.assetid: f7a8bcbb-a744-43c4-a226-354ae2d94df8
 title: Capture DV to File
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

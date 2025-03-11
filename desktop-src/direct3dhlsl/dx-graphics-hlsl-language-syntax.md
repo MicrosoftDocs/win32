@@ -2,7 +2,7 @@
 title: Language Syntax
 description: HLSL shaders are made up of variables, and functions, which in turn are made up of statements.
 ms.assetid: a0058fe5-7692-4c4d-b09a-9698104478f5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

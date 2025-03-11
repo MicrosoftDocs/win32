@@ -2,7 +2,7 @@
 description: This article links to articles about DirectShow, including the Filter Graph, event notifications, and other topics.
 ms.assetid: 505c0a49-8e61-4c28-ada6-e8aa96d60a58
 title: About DirectShow (DirectShow)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

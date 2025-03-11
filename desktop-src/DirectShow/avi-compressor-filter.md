@@ -2,7 +2,7 @@
 description: AVI Compressor Filter
 ms.assetid: addde51d-2982-4964-b16a-406fea89a0ce
 title: AVI Compressor Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: Clipping (DirectComposition)
 description: This topic describes Microsoft DirectComposition support for clipping visuals.
 ms.assetid: B6E0D8F5-B6B9-40CC-B079-850AC8F2D538
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

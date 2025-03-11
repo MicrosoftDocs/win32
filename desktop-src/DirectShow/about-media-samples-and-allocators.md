@@ -2,7 +2,7 @@
 description: About Media Samples and Allocators
 ms.assetid: d6283bf0-0460-4519-9a56-fd4c78cfaabc
 title: About Media Samples and Allocators
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

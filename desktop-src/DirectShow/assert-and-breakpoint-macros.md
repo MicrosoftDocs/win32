@@ -2,7 +2,7 @@
 description: Assert and Breakpoint Macros
 ms.assetid: c34db182-1f65-4a2f-9534-268638c2502d
 title: Assert and Breakpoint Macros
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

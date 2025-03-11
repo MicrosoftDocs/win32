@@ -2,7 +2,7 @@
 description: Capturing an Image From a Still Image Pin
 ms.assetid: cbcb4d6d-dc85-4ae2-b0a8-110f15092733
 title: Capturing an Image From a Still Image Pin
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

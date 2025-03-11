@@ -2,7 +2,7 @@
 description: AmCap Sample
 ms.assetid: 611b252f-1ae0-439e-ba02-8ad9bb8cec6d
 title: AmCap Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

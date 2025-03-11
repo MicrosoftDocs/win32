@@ -4,7 +4,7 @@ description: The effect-compiler tool (fxc.exe) is designed for offline compilat
 ms.assetid: 56806335-a0c7-4247-b40d-ba93486a88ac
 keywords:
 - fxc, offline compiling
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
