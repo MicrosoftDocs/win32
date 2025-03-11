@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter O, such as Over The Shoulder.
 ms.assetid: 67f9755c-2f0f-4ee6-8252-b4e5b84a2acc
 title: O (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

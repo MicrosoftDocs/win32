@@ -2,7 +2,7 @@
 description: The ODBCDataSource table lists the data sources belonging to the installation.
 ms.assetid: dea28324-e48d-49e8-a4d2-309f7e7cb4b0
 title: ODBCDataSource Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The product code is a GUID that is the principal identification of an application or product.
 ms.assetid: 6fbad59b-27b7-4ac1-bad5-8a608c7b270f
 title: Product Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

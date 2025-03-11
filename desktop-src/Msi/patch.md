@@ -2,7 +2,7 @@
 description: The installer sets the PATCH property to a list of patches being applied by calling MsiApplyPatch, MsiApplyMultiplePatches or the /p Command Line Option.
 ms.assetid: 'f2993544-2124-4fb0-8bb3-59f5d8e76b83'
 title: PATCH property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

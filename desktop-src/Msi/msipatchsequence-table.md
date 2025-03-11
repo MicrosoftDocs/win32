@@ -2,7 +2,7 @@
 description: The MsiPatchSequence table contains all the information the installer requires to determine the sequence of application of a small update patch relative to all other patches.
 ms.assetid: ae8319ad-8136-4201-9fcf-ea58ce05f88b
 title: MsiPatchSequence Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
