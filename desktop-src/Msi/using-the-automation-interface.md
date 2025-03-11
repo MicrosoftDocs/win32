@@ -2,7 +2,7 @@
 description: To access automation, the DLL must be self registered. The COM ProgId used to create the installer object is WindowsInstaller.Installer.
 ms.assetid: 6825c852-6123-4d44-9491-3488cf18db03
 title: Using the Automation Interface
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

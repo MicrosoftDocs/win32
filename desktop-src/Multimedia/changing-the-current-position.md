@@ -4,7 +4,7 @@ description: Changing the Current Position
 ms.assetid: f8c4b9b5-c5fb-4292-8418-41650dcd65c0
 keywords:
 - MCI_SEEK command message
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: CD Audio Command Set
 description: CD Audio Command Set
 ms.assetid: f8b97449-d695-4ec9-874a-de81ed9b95dd
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

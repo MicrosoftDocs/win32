@@ -14,7 +14,7 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),data blocks
 - MIDI (Musical Instrument Digital Interface),data blocks
 - MIDI services,data blocks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

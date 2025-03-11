@@ -5,7 +5,7 @@ ms.assetid: 2b7cdbb6-8c53-49ad-a171-b58357531887
 keywords:
 - AVIFile reference,structures
 - reference for AVIFile,structures
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

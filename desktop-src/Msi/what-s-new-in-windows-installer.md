@@ -2,7 +2,7 @@
 description: The following pages list changes to the Windows Installer API by Windows Installer version.
 ms.assetid: 6e1bdfb5-1a6a-414f-a93c-cf87b18b6663
 title: What's New in Windows Installer
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

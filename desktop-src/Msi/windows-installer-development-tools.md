@@ -2,7 +2,7 @@
 description: The following tools are only available in the Windows SDK Components for Windows Installer Developers.
 ms.assetid: b1305eaf-cd25-4684-a593-d8b1aac83592
 title: Windows Installer Development Tools
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - capFileSetCaptureFile macro
 - WM_CAP_FILE_GET_CAPTURE_FILE message
 - capFileGetCaptureFile macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

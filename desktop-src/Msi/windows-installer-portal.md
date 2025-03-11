@@ -2,7 +2,7 @@
 description: Learn about the Windows Installer, versions 3.0 to 5.0, which is used to install applications or updates or services run on Windows. 
 ms.assetid: c90b8cbe-d7a1-44ad-ae65-80115bd55e4f
 title: Windows Installer
-ms.topic: conceptual
+ms.topic: overview
 ms.date: 02/08/2023
 ---
 
