@@ -2,7 +2,7 @@
 title: TraceLogging
 description: TraceLogging
 ms.assetid: c516424a-9eba-4b56-80de-8c713fd3461a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/06/2022
 ---
 

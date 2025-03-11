@@ -2,7 +2,7 @@
 title: C/C++ TraceLogging Examples
 description: This topic contains C/C++ TraceLogging examples.
 ms.assetid: FB0A29B9-D1F7-4F13-AA75-5963A0699F7A
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/06/2022
 ---
 

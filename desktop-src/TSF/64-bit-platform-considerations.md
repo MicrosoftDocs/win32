@@ -16,7 +16,7 @@ keywords:
 - TSF (Text Services Framework),international keyboards
 - text services,international keyboards
 - international keyboards
-ms.topic: article
+ms.topic: reference
 ms.date: 04/14/2022
 ---
 

@@ -2,7 +2,7 @@
 description: Plug-ins for the RealTimeStylus class must implement the IStylusSyncPlugin or IStylusAsyncPlugin interface, or both.
 ms.assetid: 827ac817-e0e6-4750-9d48-b939ccd5e679
 title: Plug-in Data and the RealTimeStylus Class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

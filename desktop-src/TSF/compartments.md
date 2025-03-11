@@ -18,7 +18,7 @@ keywords:
 - text services,compartment change notifications
 - TSF-enabled applications,compartment change notifications
 - compartment change notifications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
