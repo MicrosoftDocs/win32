@@ -5,7 +5,7 @@ ms.assetid: 57a5f34d-c3db-47c5-9836-6e2163732d30
 keywords:
 - Structured Storage Strctd Stg
 - Structured Storage Strctd Stg , start page
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

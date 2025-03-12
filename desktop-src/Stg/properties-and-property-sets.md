@@ -4,7 +4,7 @@ description: While the kinds of run-time properties that Automation and Microsof
 ms.assetid: 350cfb84-2f8e-46e7-a70d-09beb14a8eee
 keywords:
 - Structured Storage Strctd Stg ,fundamentals,properties and property sets
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

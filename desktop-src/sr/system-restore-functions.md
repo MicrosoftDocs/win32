@@ -4,7 +4,7 @@ description: The following functions are used with System Restore.
 ms.assetid: 861b490b-0b33-41a5-bc21-f5bf12aab6ab
 keywords:
 - System Restore, reference, functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

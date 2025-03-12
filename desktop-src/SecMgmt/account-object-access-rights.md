@@ -2,7 +2,7 @@
 description: The Account Object Access Rights type has the following access types.
 ms.assetid: 42fb22bb-8135-4a8f-bce6-e767d6c5aaea
 title: Account Object Access Rights
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

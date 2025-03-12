@@ -2,7 +2,7 @@
 description: Lists the objects provided by LSA.
 ms.assetid: cfda8839-6da1-47e6-bae3-3e426c896ef2
 title: Security Management Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

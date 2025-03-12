@@ -2,7 +2,7 @@
 description: The Windows password filter DLL, Passfilt.dll, runs in the security context of the local system account and helps you filter domain or local account passwords.
 ms.assetid: 12a6fe6d-5b37-4fcf-bd04-0a22d84ba323
 title: Installing and Registering a Password Filter DLL
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: One of the most common current uses of persistent properties is to 
 ms.assetid: 95136e9a-4c80-4704-ae65-9759487cf8f8
 keywords:
 - COM Objects and Structured Storage
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

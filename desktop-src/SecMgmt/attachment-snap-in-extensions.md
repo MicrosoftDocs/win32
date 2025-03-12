@@ -2,7 +2,7 @@
 description: An attachment snap-in extension is the component of an attachment that displays the service-specific user interface.
 ms.assetid: 1cafa02f-f240-476c-8ce2-ba088afaf889
 title: Attachment Snap-in Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

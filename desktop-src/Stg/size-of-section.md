@@ -2,7 +2,7 @@
 title: Size of Section
 description: The section size data type indicates the size, in bytes, of the section.
 ms.assetid: 6438fbce-42b9-4b16-a6b0-80c80246e546
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
