@@ -5,7 +5,7 @@ ms.assetid: d5d53354-fa97-4e46-9632-20ac49f7db5a
 ms.tgt_platform: multiple
 keywords:
 - Security Effects in Active Directory Domain Services Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

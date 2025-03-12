@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - context menu COM object AD
 - context menu COM object AD ,implementing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

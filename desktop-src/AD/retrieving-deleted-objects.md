@@ -7,7 +7,7 @@ keywords:
 - Retrieving Deleted Objects AD
 - object AD , retrieving deleted objects
 - Active Directory, using, retrieving deleted objects
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

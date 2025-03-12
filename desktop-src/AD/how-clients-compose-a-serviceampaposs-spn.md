@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - How Clients Compose a Service's SPN AD
 - service principal name AD , how clients compose a service's SPN
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

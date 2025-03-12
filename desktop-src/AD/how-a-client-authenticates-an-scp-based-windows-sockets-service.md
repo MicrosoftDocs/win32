@@ -3,7 +3,7 @@ title: How a Client Authenticates an SCP-based Windows Sockets Service
 description: This topic shows the code that a client application uses to compose an SPN for a service.
 ms.assetid: b5ef79c6-e321-435c-b3de-817fdea8836a
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

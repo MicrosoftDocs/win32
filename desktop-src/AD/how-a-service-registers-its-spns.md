@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - How a Service Registers its SPNs AD
 - service principal name AD , how a service registers its SPNs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

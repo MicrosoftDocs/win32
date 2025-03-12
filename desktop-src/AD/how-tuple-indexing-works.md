@@ -7,7 +7,7 @@ keywords:
 - tuple indexing
 - Searching Active Directory Active Directory , optimization
 - Active Directory, search optimization Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

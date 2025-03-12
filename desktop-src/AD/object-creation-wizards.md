@@ -5,7 +5,7 @@ ms.assetid: 7ac7ec21-72a9-4d1f-80f1-1eb5bfa2b296
 ms.tgt_platform: multiple
 keywords:
 - objects AD ,creation wizards
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

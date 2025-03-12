@@ -3,7 +3,7 @@ title: Group Objects
 description: A group is represented as a group object in Active Directory Domain Services.
 ms.assetid: 2dd5a293-047a-4639-9c95-7074578952be
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

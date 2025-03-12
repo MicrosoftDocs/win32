@@ -3,7 +3,7 @@ title: Limitations of Mutual Authentication with Kerberos
 description: Both the client's account and the service's account must be in Windows 2000 native or mixed-mode domains because Kerberos services are not available in downlevel domains.
 ms.assetid: 54685e88-b289-4db9-b4cb-f5c22a216a0d
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

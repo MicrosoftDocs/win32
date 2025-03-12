@@ -5,7 +5,7 @@ ms.assetid: 0a8ed0ed-9dcb-4373-b549-7da3f3d9f641
 ms.tgt_platform: multiple
 keywords:
 - Implementing the Object Creation Extension COM Object AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

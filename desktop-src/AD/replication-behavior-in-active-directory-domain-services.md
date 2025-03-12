@@ -5,7 +5,7 @@ ms.assetid: 4e9f2e43-6375-4663-93ca-55112fd00abe
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services Active Directory , Replication
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

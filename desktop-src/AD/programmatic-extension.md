@@ -5,7 +5,7 @@ ms.assetid: e2837757-f887-4d17-a9d2-8989533a3d8e
 ms.tgt_platform: multiple
 keywords:
 - Programmatic Extension
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

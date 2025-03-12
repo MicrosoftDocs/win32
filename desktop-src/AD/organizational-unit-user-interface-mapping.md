@@ -3,7 +3,7 @@ title: Organizational Unit User Interface Mapping
 description: This topic describes the Organizational Unit (OU) object property sheets in the Active Directory Users and Computers snap-in.
 ms.assetid: 105c0f01-55d5-4dc2-887e-5e204ba82c4c
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

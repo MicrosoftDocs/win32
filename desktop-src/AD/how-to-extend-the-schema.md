@@ -7,7 +7,7 @@ keywords:
 - Schema AD , How to Extend
 - Active Directory, Using, Schema
 - Active Directory, Using, Schema, Extending the Schema, How to Extend
-ms.topic: article
+ms.topic: how-to
 ms.date: 09/05/2024
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 2192743c-cedd-4b03-a402-3992d64a4801
 ms.tgt_platform: multiple
 keywords:
 - User Naming Attributes AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 09/10/2024
 ---
 

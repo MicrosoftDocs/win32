@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Guidelines for Binding to the Schema AD
 - Schema AD , Binding to
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

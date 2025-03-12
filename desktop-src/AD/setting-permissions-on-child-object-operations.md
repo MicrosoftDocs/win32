@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Setting Permissions on Child Object Operations AD
 - objects AD , child, setting permissions on child object operations
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: b927073a-8bbc-45d4-b9d3-25f3aa6c6f53
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Logging and Recovery Errors AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

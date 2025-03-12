@@ -5,7 +5,7 @@ ms.assetid: 99d35e16-9d1e-40d9-b1b0-600966165e45
 ms.tgt_platform: multiple
 keywords:
 - Active Directory,using,replication and data integrity
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Impact of Schema Changes AD
 - schema AD , impact of changing the schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

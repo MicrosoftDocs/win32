@@ -5,7 +5,7 @@ ms.assetid: b7beb305-0022-477a-85bf-779821202b26
 ms.tgt_platform: multiple
 keywords:
 - forests Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 35d3d16b-d7fc-4967-ba5c-5a77e058a9ae
 ms.tgt_platform: multiple
 keywords:
 - Security Descriptor Components AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

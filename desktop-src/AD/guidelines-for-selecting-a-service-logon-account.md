@@ -5,7 +5,7 @@ ms.assetid: aa2b93c7-335f-4e03-9198-fe2b396e296e
 ms.tgt_platform: multiple
 keywords:
 - Guidelines for Selecting a Service Logon Account AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

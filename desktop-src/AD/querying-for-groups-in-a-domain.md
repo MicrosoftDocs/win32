@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Querying for Groups in a Domain AD
 - Groups AD , Querying for Groups in a Domain
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
