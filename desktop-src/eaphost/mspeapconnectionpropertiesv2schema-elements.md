@@ -2,7 +2,7 @@
 title: mspeapconnectionpropertiesv2 Schema Elements
 description: Learn about the mspeapconnectionpropertiesv2 schema elements. See a list of schema elements and view additional available resources.
 ms.assetid: f22a14d4-a7d5-4cac-8086-a1436e6b5718
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

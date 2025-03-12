@@ -2,7 +2,7 @@
 title: eapttlsconnectionpropertiesv1 Schema Complex Types
 description: Learn about the eapttlsconnectionpropertiesv1 schema. This schema defines the complex types in v1.
 ms.assetid: 90d0dce3-2fc2-4fc0-a2f0-41eefc0fcacd
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 topic_type: 
 - kbArticle

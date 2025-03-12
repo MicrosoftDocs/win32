@@ -2,7 +2,7 @@
 title: EAP Peer Method Registry Values
 description: Learn about the specific registry values that are required for EAP peer methods. See a list of registry values and view additional available resources.
 ms.assetid: 16bdd6bf-9eab-40a8-a2d3-8942d2f5f37a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

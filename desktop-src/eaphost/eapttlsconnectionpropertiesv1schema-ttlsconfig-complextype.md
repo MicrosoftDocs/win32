@@ -2,7 +2,7 @@
 title: TtlsConfig Complex Type
 description: Learn about the TtlsConfig complex type. This type specifies the EAP configuration required for EAP-TTLS.
 ms.assetid: 901d9342-3fb6-4872-9278-06099c5a64c9
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 ---
 

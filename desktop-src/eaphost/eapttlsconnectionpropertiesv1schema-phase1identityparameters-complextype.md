@@ -2,7 +2,7 @@
 title: Phase1IdentityParameters Complex Type
 description: Learn about the Phase1IdentityParameters complex type. This optional type specifies identity parameters for EAP-TTLS.
 ms.assetid: 221e5b93-0953-434f-a030-2c9bbffbca77
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 ---
 

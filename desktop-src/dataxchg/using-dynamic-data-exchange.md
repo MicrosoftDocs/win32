@@ -14,7 +14,7 @@ keywords:
 - DDE (Dynamic Data Exchange),data links
 - Dynamic Data Exchange (DDE),items
 - DDE (Dynamic Data Exchange),items
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

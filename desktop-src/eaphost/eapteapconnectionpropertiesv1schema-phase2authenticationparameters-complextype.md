@@ -2,7 +2,7 @@
 title: Phase2AuthenticationParameters Complex Type for EAP-TEAP
 description: Learn about the Phase2AuthenticationParameters complex type. This optional type specifies authentication information for EAP-TEAP.
 ms.assetid: 2f6b6e3c-0e6f-469d-9615-3f299993f225
-ms.topic: article
+ms.topic: reference
 ms.date: 07/11/2023
 ---
 

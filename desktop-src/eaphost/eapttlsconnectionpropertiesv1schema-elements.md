@@ -2,7 +2,7 @@
 title: eapttlsconnectionpropertiesv1 Schema Elements
 description: Learn about eapttlsconnectionpropertiesv1 schema elements. See a list of the elements and view additional available resources.
 ms.assetid: a8cca49f-990d-403c-afdb-63ed217e12e4
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 topic_type: 
 - kbArticle

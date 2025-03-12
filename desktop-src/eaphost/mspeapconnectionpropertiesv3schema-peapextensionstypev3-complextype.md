@@ -2,7 +2,7 @@
 title: PeapExtensionsTypeV3 Complex Type
 description: Learn about the PeapExtensionsTypeV3 complex type. This type enables future enhancements to the schema.
 ms.assetid: 7b4bfe0f-e63c-40f0-930a-ee190879f5b1
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 ---
 

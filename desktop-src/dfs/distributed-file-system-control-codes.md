@@ -2,7 +2,7 @@
 title: Distributed File System Control Codes
 description:  Distributed File System DFS control codes
 ms.assetid: 1d9bebe6-f494-41e5-8a8d-51bf98eaa374
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

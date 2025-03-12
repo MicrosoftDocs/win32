@@ -2,7 +2,7 @@
 title: EKUListPair Complex Type
 description: Learn about the EKUListPair complex type. This type holds a list of Name / ID pairs.
 ms.assetid: b587d521-f94a-48d7-9cc2-2898e5bdf0e7
-ms.topic: article
+ms.topic: reference
 ms.date: 07/07/2023
 ---
 

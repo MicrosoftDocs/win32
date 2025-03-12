@@ -2,7 +2,7 @@
 title: EKUListParams Complex Type
 description: Learn about the EKUListParams complex type. This type holds a list of EKUListPair elements for specifying the EKUs to be used for filtering certificates on the client.
 ms.assetid: 46d713b9-6701-4f70-bcff-305c2f613220
-ms.topic: article
+ms.topic: reference
 ms.date: 07/07/2023
 ---
 

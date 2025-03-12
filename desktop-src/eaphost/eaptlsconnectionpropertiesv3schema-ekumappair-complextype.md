@@ -2,7 +2,7 @@
 title: EKUMapPair Complex Type
 description: Learn about the EKUMapPair complex type. This type holds a Name / ID pair.
 ms.assetid: 3afd5dbf-c82b-4542-a5a0-a01c2608df45
-ms.topic: article
+ms.topic: reference
 ms.date: 07/07/2023
 ---
 

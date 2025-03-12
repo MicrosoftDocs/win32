@@ -2,7 +2,7 @@
 title: eaptlsconnectionpropertiesv1 Schema Complex Types
 description: Learn about the eaptlsconnectionpropertiesv1 schema. It defines the CertSelection, CredentialsSourceParameters, and ServerValidationParameters complex types.
 ms.assetid: a6e68791-8089-47eb-a06b-ba9b236285fe
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

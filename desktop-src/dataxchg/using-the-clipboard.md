@@ -10,7 +10,7 @@ keywords:
 - clipboard,Edit menu commands
 - clipboard,viewers
 - clipboard,viewer windows
-ms.topic: article
+ms.topic: how-to
 ms.date: 02/11/2022
 ---
 

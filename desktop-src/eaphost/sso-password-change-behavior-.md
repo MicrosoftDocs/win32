@@ -2,7 +2,7 @@
 title: SSO Password Change Behavior
 description: Provides a step-by-step approach for resolving SSO password change behavior.
 ms.assetid: c52ffeb8-ecee-4398-a7df-388b523c737c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: EAPHost Supplicant Run-Time Functions
 description: Learn about EAPHost Supplicant run-time functions, like EapHostPeerBeginSession and EapHostPeerGetResult. 
 ms.assetid: b1c473ba-9a12-4929-b4d0-27262117e9c0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

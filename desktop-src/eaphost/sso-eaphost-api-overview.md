@@ -2,7 +2,7 @@
 title: SSO EAPHost API Overview
 description: Provides an overview of the EAPHost APIs that support Single-Sign-On (SSO).
 ms.assetid: 3c01d10a-9098-4965-8983-c7f65be31884
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

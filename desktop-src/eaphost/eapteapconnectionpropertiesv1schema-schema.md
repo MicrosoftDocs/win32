@@ -2,7 +2,7 @@
 title: eapteapconnectionpropertiesv1 Schema
 description: Defines authentication configuration data using EAP-Tunnel Extensible Authentication Protocol (EAP-TEAP).
 ms.assetid: d15a627b-2056-471b-bf10-349d75a30f49
-ms.topic: article
+ms.topic: reference
 ms.date: 07/11/2023
 topic_type: 
 - kbArticle

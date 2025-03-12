@@ -4,7 +4,7 @@ description: Extensible Authentication Protocol (EAP), a standard supported by m
 ms.assetid: a2f41808-4316-431a-ab58-f1e25d3c61f6
 keywords:
 - Extensible Authentication Protocol,described
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

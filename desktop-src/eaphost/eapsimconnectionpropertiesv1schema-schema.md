@@ -2,7 +2,7 @@
 title: eapsimconnectionpropertiesv1 Schema
 description: Defines authentication configuration data using Extensible Authentication Protocol (EAP) method for Global System for Mobile Communications (GSM) Subscriber Identity Modules (EAP-SIM).
 ms.assetid: aee4d7da-da04-48e4-aca1-5bdd31dc9258
-ms.topic: article
+ms.topic: reference
 ms.date: 07/12/2023
 topic_type: 
 - kbArticle

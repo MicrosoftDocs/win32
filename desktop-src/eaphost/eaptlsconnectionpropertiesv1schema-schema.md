@@ -2,7 +2,7 @@
 title: eaptlsconnectionpropertiesv1 Schema
 description: Defines authentication configuration data using EAP-Transport Layer Security (EAP-TLS).
 ms.assetid: 9624dde8-0106-4f18-8647-47d3ab63126a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

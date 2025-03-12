@@ -2,7 +2,7 @@
 title: EapTtls Complex Type
 description: Learn about the EapTtls complex type. This type contains the EAP configuration required for EAP-TTLS.
 ms.assetid: e1380c07-95c4-4d32-b846-35d0e9b0d96d
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 ---
 

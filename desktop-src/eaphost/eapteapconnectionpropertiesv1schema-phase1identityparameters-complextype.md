@@ -2,7 +2,7 @@
 title: Phase1IdentityParameters Complex Type for EAP-TEAP
 description: Learn about the Phase1IdentityParameters complex type. This optional type specifies identity parameters for EAP-TEAP.
 ms.assetid: 74bbfa9d-7bcf-4893-9699-a65e40d3d570
-ms.topic: article
+ms.topic: reference
 ms.date: 07/11/2023
 ---
 
