@@ -5,7 +5,7 @@ ms.assetid: 1439d6b8-50dd-4d37-bcc9-dd0f63af865f
 ms.tgt_platform: multiple
 keywords:
 - Retrieving Large Results Sets ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

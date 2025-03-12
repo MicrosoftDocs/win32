@@ -2,7 +2,7 @@
 description: The Bindlink API coordinates execution of deferrable tasks, called activities, on a Windows system.
 ms.assetid: e80b0855-e843-4b11-ab31-82dbf249fc96
 title: Overview of the Bindlink API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/27/2024
 ---
 

@@ -3,7 +3,7 @@ title: Mapping ADSI Visual Basic Code to C++ Code
 description: ADSI consists of more than 50 interfaces.
 ms.assetid: 6316f504-265e-44d4-ba24-e6289065981b
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

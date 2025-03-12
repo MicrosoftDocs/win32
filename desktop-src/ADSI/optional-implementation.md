@@ -5,7 +5,7 @@ ms.assetid: 6123bdda-06cf-4b8b-b2a8-89882b6341b4
 ms.tgt_platform: multiple
 keywords:
 - Optional Implementation ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Resolution of Multiple Aggregation Components Supporting the Same Interface ADSI
 - resolution of multiple aggregation components supporting the same interface ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

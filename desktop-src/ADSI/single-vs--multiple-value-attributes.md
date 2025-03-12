@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - single vs. multiple value attributes ADSI
 - attributes ADSI , single vs. multiple value attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

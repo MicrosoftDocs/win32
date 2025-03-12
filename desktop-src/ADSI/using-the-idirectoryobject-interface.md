@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - IDirectoryObject ADSI , using
 - ADSI ADSI , using,using the IDirectoryObject interface
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -59,7 +59,7 @@ keywords:
 - Exchange ADSI ,message size
 - Exchange ADSI ,troubleshooting problems
 - security descriptors ADSI , for Exchange objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

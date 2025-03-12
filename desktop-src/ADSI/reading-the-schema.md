@@ -3,7 +3,7 @@ title: Reading the Schema
 description: Most providers support the schema that is shipped with Active Directory.
 ms.assetid: cc35789e-5cfe-49e9-9fb3-489b949768c5
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

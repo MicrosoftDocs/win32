@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Search Filter Syntax ADSI
 - queries, search filter syntax
-ms.topic: article
+ms.topic: reference
 ms.date: 09/25/2020
 ---
 

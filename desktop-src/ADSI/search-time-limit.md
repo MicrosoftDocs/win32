@@ -5,7 +5,7 @@ ms.assetid: 199ac73b-3624-4cd5-a1ee-6db418cd77ba
 ms.tgt_platform: multiple
 keywords:
 - Search Time Limit ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

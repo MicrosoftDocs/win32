@@ -4,7 +4,7 @@ description: An application must use the CreateFile function to create a handle 
 ms.assetid: 5e7eddd2-8137-4e79-b1ee-c371bc4c7f75
 keywords:
 - tape initialization Backup
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

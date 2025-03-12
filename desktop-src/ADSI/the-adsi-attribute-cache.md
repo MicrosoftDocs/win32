@@ -7,7 +7,7 @@ keywords:
 - The ADSI Attribute Cache ADSI
 - ADSI ADSI , using, accessing and manipulating data with ADSI, attribute cache
 - attributes ADSI , attribute caching
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

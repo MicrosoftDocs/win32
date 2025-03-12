@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - User Cannot Change Password ADSI ,LDAP provider
 - LDAP provider ADSI ,user management examples,User Cannot Change Password
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

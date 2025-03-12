@@ -3,7 +3,7 @@ title: Using ADSI Functions to Bind Directly to an Object
 description: Binding directly to a directory object with ADSI can be performed in several ways.
 ms.assetid: 265f1346-b309-4fe3-9601-744e8a23bea9
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

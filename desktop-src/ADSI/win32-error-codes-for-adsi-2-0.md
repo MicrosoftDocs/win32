@@ -5,7 +5,7 @@ ms.assetid: 99d97ea8-1dcc-49f4-a2bf-36ff8076e83a
 ms.tgt_platform: multiple
 keywords:
 - Win32 Error Codes for ADSI 2.0 ADSI
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

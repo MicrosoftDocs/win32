@@ -7,7 +7,7 @@ keywords:
 - IADsExtension ADSI ,using
 - ADSI ADSI ,example code C/C++ ,using IADsExtension
 - extensions ADSI ,IADsExtension
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

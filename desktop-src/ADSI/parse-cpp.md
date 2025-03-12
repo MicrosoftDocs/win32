@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - parse.cpp ADSI
 - path parser ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
