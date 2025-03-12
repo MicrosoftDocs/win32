@@ -2,7 +2,7 @@
 description: Lists the changes to the capabilities for enveloping data.
 ms.assetid: b025a9c6-d6a3-40b2-9b7f-1e6caa706b59
 title: Enveloped Data Additions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

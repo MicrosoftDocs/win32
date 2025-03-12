@@ -2,7 +2,7 @@
 description: Describes steps to take to encrypt a message with the Base Cryptography Functions.
 ms.assetid: 34167767-96c5-4a20-b629-07e4d036b4d1
 title: Encrypting Data
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

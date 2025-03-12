@@ -2,7 +2,7 @@
 description: A master key is key data material from which other keys are derived.
 ms.assetid: c8445f74-659a-470b-9007-07ea98d36dcd
 title: Creating the Master Key
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following HRESULT values are the most common. More values are contained in the header file Winerror.h.
 ms.assetid: ce52efc3-92c7-40e4-ac49-0c54049e169f
 title: Common HRESULT Values
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

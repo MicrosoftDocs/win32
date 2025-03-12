@@ -2,7 +2,7 @@
 description: Cryptographic keys are central to cryptographic operations.
 ms.assetid: dda7b527-1522-4b43-8d8e-44ce7983a9aa
 title: Cryptographic Keys
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

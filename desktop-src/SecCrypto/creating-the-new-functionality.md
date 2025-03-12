@@ -2,7 +2,7 @@
 description: The following functions are among the CryptoAPI functions that can be extended.
 ms.assetid: eb4c1352-1432-4f45-a309-fa17b694a35e
 title: Creating the New Functionality
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
