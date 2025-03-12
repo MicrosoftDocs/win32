@@ -2,7 +2,7 @@
 title: Hard links and junctions
 description: Provides an overview of hard links and junctions.
 ms.assetid: f9e40a86-a4a6-4524-8045-312da72dc655
-ms.topic: article
+ms.topic: reference
 ms.date: 06/21/2024
 ---
 

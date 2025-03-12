@@ -6,7 +6,7 @@ ms:assetid: 9141b1d6-81b6-49ad-a5d4-2409fe0d511a
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269342(v=EXCHG.10)
 ms:contentKeyID: 32765631
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Searching Records in the Index

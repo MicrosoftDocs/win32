@@ -2,7 +2,7 @@
 description: An MS-DOS device name is a junction that points to the path of an MS-DOS device. These junctions make up the MS-DOS device namespace.
 ms.assetid: 7d802e9f-dc09-4e3d-b064-e9b57af396e2
 title: Defining an MS-DOS Device Name
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

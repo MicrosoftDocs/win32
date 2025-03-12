@@ -2,7 +2,7 @@
 description: Control codes used in disk management.
 ms.assetid: 488a7d32-cbb5-4f32-9655-0aca8ac69640
 title: Disk Management Control Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
