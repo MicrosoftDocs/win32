@@ -1,7 +1,7 @@
 ---
 description: Learn about TLS cipher suites in Windows 11 v22H2 and later. Cipher suites can only be negotiated for TLS versions which support them.
 title: TLS Cipher Suites in Windows 11 v22H2 and later.
-ms.topic: article
+ms.topic: reference
 ms.date: 11/13/2024
 ---
 

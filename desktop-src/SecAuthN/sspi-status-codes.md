@@ -2,7 +2,7 @@
 description: Status codes used in SSPI applications.
 ms.assetid: b5f8ed5c-797a-46fa-8a73-a054ecc50265
 title: SSPI Status Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

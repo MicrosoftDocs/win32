@@ -2,7 +2,7 @@
 description: Explains the differences between SSP/APs and SSPs.
 ms.assetid: 0ed4291b-6562-440f-b892-4e6e5b4b49c8
 title: SSP/APs vs. SSPs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

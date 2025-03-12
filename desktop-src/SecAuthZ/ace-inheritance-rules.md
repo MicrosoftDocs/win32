@@ -2,7 +2,7 @@
 description: The system propagates inheritable access control entries (ACEs) to child objects according to a set of inheritance rules.
 ms.assetid: 08f76aaa-8379-4ba8-9735-7568001bcd53
 title: ACE Inheritance Rules
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about TLS cipher suites in Windows 10 v1607. Cipher suites can only be negotiated for TLS versions which support them.
 ms.assetid: C7B6D1DE-E8CC-47EA-827A-A220F7AFB06B
 title: TLS Cipher Suites in Windows 10 v1607
-ms.topic: article
+ms.topic: reference
 ms.date: 06/26/2024
 ---
 

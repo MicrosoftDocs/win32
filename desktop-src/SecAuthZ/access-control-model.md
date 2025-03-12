@@ -2,7 +2,7 @@
 description: The access control model enables you to control the ability of a process to access securable objects or to perform various system administration tasks.
 ms.assetid: fd3b718a-5eff-4894-9fc6-d157ddb67330
 title: Access Control Model
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

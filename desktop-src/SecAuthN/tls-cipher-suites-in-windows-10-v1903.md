@@ -1,7 +1,7 @@
 ---
 description: Learn about TLS cipher suites in Windows 10 v1903, v1909, and v2004. Cipher suites can only be negotiated for TLS versions which support them.
 title: TLS Cipher Suites in Windows 10 v1903, v1909, and v2004
-ms.topic: article
+ms.topic: reference
 ms.date: 10/23/2024
 ---
 
