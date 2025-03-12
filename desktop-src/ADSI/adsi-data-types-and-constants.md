@@ -8,7 +8,7 @@ keywords:
 - ADSI ADSI ,reference,data types
 - constants ADSI
 - data types ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

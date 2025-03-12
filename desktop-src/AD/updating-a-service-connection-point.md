@@ -3,7 +3,7 @@ title: Updating a Service Connection Point
 description: The following code example shows how to update a service connection point. This code is typically executed by a service when it starts.
 ms.assetid: 315fb2b5-d071-4420-95fb-ab680296b3cf
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

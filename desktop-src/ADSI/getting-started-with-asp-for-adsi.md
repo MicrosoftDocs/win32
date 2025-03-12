@@ -7,7 +7,7 @@ keywords:
 - ASP ADSI
 - ADSI, ASP Pages
 - ADSI, ASP Pages, ASP Code Example
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

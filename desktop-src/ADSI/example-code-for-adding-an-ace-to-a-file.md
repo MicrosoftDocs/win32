@@ -5,7 +5,7 @@ ms.assetid: d47d3ebe-cc14-412d-be27-841e25b43c3a
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Adding an ACE to a File ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

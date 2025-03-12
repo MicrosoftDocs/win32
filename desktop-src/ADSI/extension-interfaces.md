@@ -5,7 +5,7 @@ ms.assetid: 4e00d5da-3040-4725-9c6a-abec0b335c01
 ms.tgt_platform: multiple
 keywords:
 - extension interfaces ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

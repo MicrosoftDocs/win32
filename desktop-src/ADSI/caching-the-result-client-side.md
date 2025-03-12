@@ -5,7 +5,7 @@ ms.assetid: 6e61b2f6-dd58-466e-9cef-5bc6301e983f
 ms.tgt_platform: multiple
 keywords:
 - Caching the Result (Client Side) ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

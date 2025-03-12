@@ -3,7 +3,7 @@ title: Extended Rights
 description: The following extended rights are defined by Active Directory.
 ms.assetid: 4834f0c6-4cda-4ef2-96d1-e3f66e09af92
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

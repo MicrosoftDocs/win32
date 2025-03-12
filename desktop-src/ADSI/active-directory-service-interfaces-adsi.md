@@ -7,7 +7,7 @@ keywords:
 - ADSI ADSI
 - Active Directory Service Interfaces (See ADSI)
 - ADSI ADSI ,start page
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

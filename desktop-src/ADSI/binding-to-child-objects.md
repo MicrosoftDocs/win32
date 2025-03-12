@@ -7,7 +7,7 @@ keywords:
 - ADSI ADSI , using, binding to child objects
 - Binding to Child Objects
 - Child Objects, Binding to
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

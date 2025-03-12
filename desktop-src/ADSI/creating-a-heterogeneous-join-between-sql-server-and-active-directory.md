@@ -3,7 +3,7 @@ title: Creating a Heterogeneous Join between SQL Server & Active Directory
 description: All employees at the Fabrikam corporation are reviewed every six months.
 ms.assetid: 16f605ae-7f6c-4429-a379-47686618b15d
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

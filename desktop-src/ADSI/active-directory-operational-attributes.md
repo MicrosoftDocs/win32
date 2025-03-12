@@ -5,7 +5,7 @@ ms.assetid: 07453dc0-747e-4b34-946e-1adb90ea532c
 ms.tgt_platform: multiple
 keywords:
 - attributes ADSI ,operational attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

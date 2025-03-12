@@ -5,7 +5,7 @@ ms.assetid: 39798237-a181-43b4-8441-ac711f923d4d
 ms.tgt_platform: multiple
 keywords:
 - core implementation ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

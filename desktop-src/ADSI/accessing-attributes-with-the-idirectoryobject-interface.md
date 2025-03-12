@@ -7,7 +7,7 @@ keywords:
 - Accessing Attributes With the IDirectoryObject Interface ADSI
 - IDirectoryObject ADSI , accessing attributes with
 - ADSI ADSI , using, using the IDirectoryObject interface for accessing attributes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

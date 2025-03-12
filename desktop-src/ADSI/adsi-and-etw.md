@@ -5,7 +5,7 @@ ms.assetid: 743aeeba-5b48-47c7-aaf5-0e9b48e206db
 ms.tgt_platform: multiple
 keywords:
 - event tracing ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - User Object Attributes AD
 - Users AD , User Object Attributes
 - Objects AD , User, Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 09/02/2022
 ---
 

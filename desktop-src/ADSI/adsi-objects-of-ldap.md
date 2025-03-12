@@ -7,7 +7,7 @@ keywords:
 - ADSI Objects of LDAP ADSI
 - LDAP service provider ADSI , ADSI objects of
 - objects, ADSI objects of LDAP ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

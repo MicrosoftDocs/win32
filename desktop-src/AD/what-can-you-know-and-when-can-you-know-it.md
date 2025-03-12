@@ -3,7 +3,7 @@ title: What Can You Know, and When Can You Know It
 description: Applications that are sensitive to latency-induced states must recognize problem states and take appropriate action.
 ms.assetid: d1d0135e-2d67-47dd-82ac-4869203ce85e
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

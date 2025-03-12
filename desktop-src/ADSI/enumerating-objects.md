@@ -5,7 +5,7 @@ ms.assetid: 06995281-d269-42ce-839f-2938a2f6af22
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
