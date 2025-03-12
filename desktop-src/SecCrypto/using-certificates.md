@@ -2,7 +2,7 @@
 description: Lists topics that explain how to create and use certificates.
 ms.assetid: eeeed3ce-1f85-4c1b-9ef3-b16772b462bb
 title: Using Certificates
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following example shows how the Certificate Enrollment Control can be used with the ICertRequest object to create and submit a certificate request.
 ms.assetid: 2816e1f8-c4be-4905-b070-6e67255811d4
 title: Request Sample in C++
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

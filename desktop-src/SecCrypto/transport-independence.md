@@ -2,7 +2,7 @@
 description: Certificates can be requested and distributed through any transport mechanism.
 ms.assetid: 2cbd0cdb-eefa-4434-893d-20e8b34f4cfe
 title: Transport Independence
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

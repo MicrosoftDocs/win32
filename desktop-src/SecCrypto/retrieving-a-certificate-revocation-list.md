@@ -2,7 +2,7 @@
 description: Demonstrates how to retrieve a certificate revocation list.
 ms.assetid: b8fbffae-d968-453d-81f0-af9d60be5fa9
 title: Retrieving a Certificate Revocation List
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/21/2024
 ---
 

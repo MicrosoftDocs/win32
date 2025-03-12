@@ -2,7 +2,7 @@
 title: SignTool
 description: Learn how to use SignTool, a command-line tool that digitally signs files, verifies the signatures in files, and time stamps files.
 ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
-ms.topic: article
+ms.topic: reference
 ms.date: 11/21/2024
 ---
 
