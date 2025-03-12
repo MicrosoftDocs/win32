@@ -156,7 +156,8 @@ The following table describes the supported operations for the *merge_operation*
 | MAX | This merging algorithm is the default behavior in the case of an OR cursor. It selects the maximum rank from all results. |
 
 > [!NOTE]
-> Using RANK BY MERGE(MIN) with an OR cursor or RANK BY MERGE(MAX) with an AND cursor will not yield the expected results. It is recommended to explicitly use the MERGE function with the RANK BY clause only in conjunction with the CONVEXCOMBINATION operator when merging lexical and semantic search results into a single result set.
+> Using RANK BY MERGE\(MIN\) with an OR cursor or RANK BY MERGE\(MAX\) with an AND cursor will not yield the expected results. It is recommended to explicitly use the MERGE function with the RANK BY clause only in conjunction with the CONVEXCOMBINATION operator when merging lexical and semantic search results into a single result set.
+
 
 ### Example
 
