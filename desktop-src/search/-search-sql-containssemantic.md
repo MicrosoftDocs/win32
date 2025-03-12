@@ -33,12 +33,14 @@ The traditional indexing and search continue to work seamlessly for all supporte
 | French (CA) | 3084 |
 | German (DE) | 1031 |
 | Spanish (ES) | 3082 |
-| Spanish (MX) | 2058 | 
+| Spanish (MX) | 2058 |
 | Japanese (JP) | 1041 |
 | Chinese (Simplified) | 2052 |
- 
+
 > [!NOTE]  
 > The default search locale is the system default locale.
+
+For more information on LCID values, see [Windows Language Code Identifier (LCID) Reference](/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f).
 
 The *search_text_phrase* portion must be enclosed in single quotation marks for single words or double quotation marks for phrases, and consists of one or more content search terms that are combined using the logical operators **AND** or **OR**. You can use the optional unary operator **NOT** after an **AND** operator to negate the logical value of a content search term.
 
