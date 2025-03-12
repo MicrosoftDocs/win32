@@ -2,7 +2,7 @@
 description: To fully implement a backup requires participation of the system's writers.
 ms.assetid: ea504f8e-26d9-499e-b3e9-03515b480a75
 title: Writer Backup Schema Support
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

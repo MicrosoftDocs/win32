@@ -3,7 +3,7 @@ description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: d7d9c8bf-993f-469c-aea1-5d86ca856690
 title: B (Volume Shadow Copy Service)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

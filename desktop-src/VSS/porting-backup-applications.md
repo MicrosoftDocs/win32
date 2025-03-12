@@ -2,7 +2,7 @@
 description: Binaries from Windows Server 2003 with Service Pack 1 (SP1) are compatible with Windows Vista and Windows Server 2008. However, binaries from earlier versions of Windows must be recompiled.
 ms.assetid: ef40fdf6-b039-4664-bafb-b88c9286c010
 title: Porting Backup Applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
