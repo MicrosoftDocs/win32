@@ -2,7 +2,7 @@
 description: Authorization sets what resources you have access to.
 ms.assetid: DD6836EE-DF73-4A07-9DF1-0F5A959DDE8F
 title: Authorization for web pages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

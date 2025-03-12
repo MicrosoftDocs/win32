@@ -2,7 +2,7 @@
 description: Contains links to overviews of Platform Software Development Kit (SDK) authentication technologies.
 ms.assetid: d05f518a-53cc-4478-8375-173c754ea95a
 title: About Authentication
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

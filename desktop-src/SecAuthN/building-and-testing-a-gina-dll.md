@@ -2,7 +2,7 @@
 description: All functions, prototypes, structures, and constants are defined in the Winwlx.h header file.
 ms.assetid: 13b5bc92-583d-4031-94f9-f84dbfbf7ee7
 title: Building and Testing a GINA DLL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

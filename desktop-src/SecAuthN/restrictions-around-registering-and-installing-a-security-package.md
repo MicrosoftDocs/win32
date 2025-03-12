@@ -2,7 +2,7 @@
 description: Actions by security packages that are not supported in Windows.
 ms.assetid: E2BF8041-DF2F-4282-A3CC-A15FF2D7F4A2
 title: Restrictions around Registering and Installing a Security Package
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

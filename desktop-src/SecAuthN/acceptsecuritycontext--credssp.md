@@ -2,7 +2,7 @@
 description: Lets the server component of a transport application establish a security context between the server and a remote client.
 ms.assetid: 'a53f733e-b646-4431-b021-a2c446308849'
 title: AcceptSecurityContext (CredSSP) function
-ms.topic: article
+ms.topic: reference
 ms.date: 03/17/2023
 ---
 

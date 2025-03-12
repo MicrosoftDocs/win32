@@ -2,7 +2,7 @@
 description: Based on the return code from a previous call to AcceptSecurityContext (General), the server can wait for a response from the client and can participate in additional exchanges with the client.
 ms.assetid: 281e1f81-3524-4034-bee5-cef6b13cf402
 title: Server Continuation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
