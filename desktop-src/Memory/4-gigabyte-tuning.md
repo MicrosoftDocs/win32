@@ -2,7 +2,7 @@
 description: '4-Gigabyte Tuning: BCDEdit and Boot.ini'
 ms.assetid: 991eb86f-9e6f-4084-8b6f-f979e42104b5
 title: '4-Gigabyte Tuning: BCDEdit and Boot.ini'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

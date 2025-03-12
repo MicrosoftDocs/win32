@@ -2,7 +2,7 @@
 description: Examples that illustrate the mounted folder functions.
 ms.assetid: 82fb6f67-f71b-40ae-9f58-5ba0bd18785e
 title: Mounted Folder Examples
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

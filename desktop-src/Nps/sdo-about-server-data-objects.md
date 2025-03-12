@@ -5,7 +5,7 @@ ms.assetid: e90a11aa-ed47-4ed3-9736-ca23c85232a1
 ms.tgt_platform: multiple
 keywords:
 - Server Data Objects SDO ,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

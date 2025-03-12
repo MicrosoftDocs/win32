@@ -2,7 +2,7 @@
 description: Describes Read-Write-Handle, Read-Write, Read-Handle, Read, and the legacy Level 1, Level 2, Batch, and Filter opportunistic locks.
 ms.assetid: 06136348-0c08-4e9c-9c96-fd3af33cbdc0
 title: Types of Opportunistic Locks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

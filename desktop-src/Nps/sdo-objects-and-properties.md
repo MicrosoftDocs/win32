@@ -3,7 +3,7 @@ title: Objects and Properties
 description: The characteristics of an object in SDO are determined by the object's properties, and the values associated with those properties.
 ms.assetid: 9faa7759-cad5-4429-94b0-6cba145cfadb
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: What's New - Image Mastering API (IMAPI)
 description: The included table identifies what features and APIs are new for each release of the Image Mastering API.
 ms.assetid: a90daec2-5916-4c24-b2ad-94199641a2ab
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

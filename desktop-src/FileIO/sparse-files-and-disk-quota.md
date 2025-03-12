@@ -2,7 +2,7 @@
 description: A sparse file affects user quotas by the nominal size of the file, not the actual allocated amount of disk space.
 ms.assetid: 7dbe1133-f5cb-4925-9448-5d40f1c553ff
 title: Sparse Files and Disk Quotas
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The virtual memory functions enable a process to manipulate or determine the status of pages in its virtual address space.
 ms.assetid: 9488a854-1ef0-488f-b3d1-57c1acb82a88
 title: Virtual Memory Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

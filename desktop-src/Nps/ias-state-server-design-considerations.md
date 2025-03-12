@@ -3,7 +3,7 @@ title: State Server Design Considerations
 description: Depending on your design, you may need a server to track the users that are currently logged onto the network.
 ms.assetid: 2f8d268b-5518-4ad2-aed6-5971c913db6d
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
