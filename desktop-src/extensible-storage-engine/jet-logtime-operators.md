@@ -6,7 +6,7 @@ ms:assetid: a1323f48-4e9c-9fb8-c3a3-3d59154e7b2b
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh565530(v=EXCHG.10)
 ms:contentKeyID: 39514215
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_LOGTIME operators
