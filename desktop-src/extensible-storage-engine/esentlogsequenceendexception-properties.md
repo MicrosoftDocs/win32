@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndExcepti
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentlogsequenceendexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102170
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentLogSequenceEndException properties
