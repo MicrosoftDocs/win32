@@ -158,8 +158,6 @@
           href: -search-sql-orderby.md
         - name: "RANK BY Clause"
           href: -search-sql-rankby.md
-        - name: "MERGE Clause"
-          href: -search-sql-merge.md
         - name: "SET Statement"
           href: -search-sql-set.md
         - name: "Rowset Properties"

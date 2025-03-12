@@ -23,13 +23,20 @@ The LCID portion of the predicate specifies the search locale. This instructs th
 
 The traditional indexing and search continue to work seamlessly for all supported language packs on Windows. However, the improved search is optimized only for these languages: 
 
-* English (US, CA, AU, GB)
-* French (FR, CA)
-* German (DE)
-* Spanish (ES, MX)
-* Japanese (JP) 
-* Chinese (Simplified).  
-
+| Language | LCID value |
+|----------|------------|
+| English (US) | 1033 |
+| English (CA) | 4105 |
+| English (AU) | 3081 |
+| English (GB) | 2057 |
+| French (FR) | 1036 |
+| French (CA) | 3084 |
+| German (DE) | 1031 |
+| Spanish (ES) | 3082 |
+| Spanish (MX) | 2058 | 
+| Japanese (JP) | 1041 |
+| Chinese (Simplified) | 2052 |
+ 
 > [!NOTE]  
 > The default search locale is the system default locale.
 
@@ -50,7 +57,7 @@ Logical operators of the same type are associative, and there is no specified ca
 
 ## Example
 
-The following example shows a query for documents and images related to the phrase "family on a beach" using the **CONTAINSSEMANTIC** claus.
+The following example shows a query for documents and images related to the phrase "family on a beach" using the **CONTAINSSEMANTIC** clause.
 
 ```sql
 SELECT * FROM SystemIndex  

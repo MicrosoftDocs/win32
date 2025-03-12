@@ -122,7 +122,6 @@ The following table describes the available coercion operation settings.
 
 The following example uses the COERCION function to set all documents with "computer" in the title to have a rank of 1000, while reducing by one-quarter the rank of documents containing both "computer" and "software" in the title.
 
-
 ```
 WHERE CONTAINS ( System.Title, 'computer' )
         RANK BY COERCION ( ABSOLUTE , 1000 )
@@ -134,7 +133,44 @@ WHERE CONTAINS ( System.Title, 'computer' )
 
 
  
+## MERGE(<merge_operation>)
 
+Used with the [RANK BY](-search-sql-rankby.md) clause to aggregate the ranks from all of the results to generate a final ranked list of merge results.
+
+
+The syntax for the MERGE function is as follows:
+
+
+```
+RANK BY MERGE ( <merge_operation>) 
+```
+
+### Merge operations
+
+The following table describes the supported operations for the *merge_operation* parameter.
+
+| Merge operation | Description |
+|-----------------|-------------|
+| CONVEXCOMBINATION | This merging algorith should be used exclusively when the query includes the following clauses: CONTAINS (lexical search), CONTAINSSEMANTIC('Text',...), and CONTAINSSEMANTIC('Image'...) (semantic search across text and images). It combines scores from these three clauses using a weighted sum approach, giving higher priority to lexical scores by assigning them greater weights when compared to semantic scores.  |
+| MIN | This merging algorithm is the default behavior in the case of an AND cursor. It selects the minimum rank from all results.|
+| MAX | This merging algorithm is the default behavior in the case of an OR cursor. It selects the maximum rank from all results. |
+
+> [!NOTE] Using RANK BY MERGE(MIN) with an OR cursor or RANK BY MERGE(MAX) with an AND cursor will not yield the expected results. It is recommended to explicitly use the MERGE function with the RANK BY clause only in conjunction with the CONVEXCOMBINATION operator when merging lexical and semantic search results into a single result set.
+
+### Example
+
+The following example demonstrates the use of the MERGE function to search for items lexically and semantically matching with the word "computer" in either the "Image" or "Text" fields. The search results are then ranked using RANK BY MERGE operator which aggregates scores from all the results to generate a final ranked list. 
+
+
+```sql
+WHERE (CONTAINS(*,'computer', 1033)  
+OR CONTAINSSEMANTIC('Image', *, 'computer', 1033)  
+OR CONTAINSSEMANTIC('Text', System.ItemNameDisplay, 'computer', 1033)  
+OR CONTAINSSEMANTIC('Text', *, 'computer', 1033))  
+RANK BY MERGE(CONVEXCOMBINATION) 
+```
+
+For more information on the CONTAINSSEMANTIC predicate, see [CONTAINSSEMANTIC predicate](-search-sql-containssemantic.md).
  
 
 
