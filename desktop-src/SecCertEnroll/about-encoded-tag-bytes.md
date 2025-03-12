@@ -2,7 +2,7 @@
 description: The Tag field in a TLV triplet identifies the type of the data structure being sent between computers.
 ms.assetid: 4723cc02-8c48-488e-95b8-c646a99b6aab
 title: Encoded Tag Bytes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Biometric Framework terminology
 description: The following terms are used throughout the Windows Biometric Framework API documentation.
 ms.assetid: D6F2BAF0-8ABB-4810-86B1-A46854FBC328
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

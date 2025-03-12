@@ -1,7 +1,7 @@
 ---
 description: This article provides additional details for Control Flow Guard metadata in PE images.
 title: PE metadata
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 # PE metadata

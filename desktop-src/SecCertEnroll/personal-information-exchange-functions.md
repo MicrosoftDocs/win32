@@ -2,7 +2,7 @@
 description: Each of the following sections discusses a function exported by Xenroll.dll to manage Personal Information Exchange (PFX) messages.
 ms.assetid: f7e6b3a6-eae4-49f8-a624-609742741560
 title: Personal Information Exchange Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

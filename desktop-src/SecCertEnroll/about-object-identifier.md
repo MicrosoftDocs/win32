@@ -2,7 +2,7 @@
 description: The OBJECT IDENTIFIER data type is encoded into a TLV triplet that begins with a Tag value of 0x06.
 ms.assetid: 42c015c8-3de1-4482-bf27-b19c422b8cdb
 title: OBJECT IDENTIFIER
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

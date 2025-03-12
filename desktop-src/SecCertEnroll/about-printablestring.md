@@ -2,7 +2,7 @@
 description: The ASN.1 PrintableString data type is encoded into a TLV triplet that begins with a Tag byte of 0x13.
 ms.assetid: 998fef66-7a24-462f-96f2-92c739bbefa2
 title: PrintableString
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

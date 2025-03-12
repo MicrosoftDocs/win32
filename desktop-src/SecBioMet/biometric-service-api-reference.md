@@ -4,7 +4,7 @@ description: Detailed descriptions of functions, structures, and capabilities th
 ms.assetid: e495f3a5-64f5-4181-bf3a-c0c2bbe09016
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

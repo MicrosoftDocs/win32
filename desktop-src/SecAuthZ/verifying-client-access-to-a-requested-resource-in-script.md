@@ -2,7 +2,7 @@
 description: Call the IAzClientContext::AccessCheck method to check whether the client has access to one or more operations.
 ms.assetid: cf1070fe-3737-4ae6-a8ef-f0782418a1d5
 title: Verifying Client Access to Requested Resources in Script
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

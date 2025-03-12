@@ -2,7 +2,7 @@
 description: You can use the IX509Extension interface to define an arbitrary extension.
 ms.assetid: 025447f4-98d0-4cb8-b546-4797b7e60722
 title: Supported Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 04/21/2023
 ---
 
