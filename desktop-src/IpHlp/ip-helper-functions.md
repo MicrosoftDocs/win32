@@ -1,7 +1,7 @@
 ---
 title: IP Helper functions
 description: The following functions retrieve and modify configuration settings for the TCP/IP transport on the local computer.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
 ---

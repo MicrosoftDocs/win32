@@ -2,7 +2,7 @@
 description: The following C# sample demonstrates how to use the MigrateVirtualSystemToHost method to perform a simple migration of a virtual machine.
 ms.assetid: A3E4AAA2-3AE6-4D7D-8D7B-1ED367D398C0
 title: Migrating virtual machines
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Namespace Reservations, Registrations, and Routing
 description: Reservation and registration are the operations by which the HTTP Server API gives access to the URL namespace on a machine.
 ms.assetid: dc66960b-36cd-4c09-be0a-3aec9a8a25d8
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

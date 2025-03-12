@@ -1,7 +1,7 @@
 ---
 title: IP Helper callbacks
 description: The following callback functions are for use with IP Helper.
-ms.topic: article
+ms.topic: reference
 ms.date: 10/04/2019
 ---
 

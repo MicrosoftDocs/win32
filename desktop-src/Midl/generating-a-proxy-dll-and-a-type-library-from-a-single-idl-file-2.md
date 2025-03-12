@@ -4,7 +4,7 @@ description: You can use a single IDL file to generate both the proxy stubs and 
 ms.assetid: faa647ac-765a-45bd-8193-b6ea90d064ff
 keywords:
 - Microsoft Interface Definition Language MIDL , tasks, generating a proxy DLL and a type library
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

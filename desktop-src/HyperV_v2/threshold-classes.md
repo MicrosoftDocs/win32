@@ -2,7 +2,7 @@
 description: Contains the classes introduced in Windows 10.
 ms.assetid: A83106CC-46CC-4323-BE29-FE0ED655AC44
 title: Threshold classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

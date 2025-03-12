@@ -2,7 +2,7 @@
 description: The following function is used with anonymous pipes.
 ms.assetid: 9e80783e-9641-4cbd-9c28-a8efe6b9efaa
 title: Pipe Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Firewall dynamic keywords structures
 description: Firewall dynamic keywords contains the following structures.
 keywords:
 - Firewall dynamic keywords, structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/13/2021
 ---
 
