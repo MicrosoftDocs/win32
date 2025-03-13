@@ -2,7 +2,7 @@
 description: This topic contains information about low-level APIs that are used by the Windows client infrastructure.
 ms.assetid: 14a6e970-2032-420e-9930-a15909dbbb97
 title: Miscellaneous Low-Level Client Support
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

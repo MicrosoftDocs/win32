@@ -2,7 +2,7 @@
 title: Working with Strings
 description: Working with Strings
 ms.assetid: 876ff8bb-67c3-4dcc-aa94-7fbd915c67dc
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/03/2024
 ---
 

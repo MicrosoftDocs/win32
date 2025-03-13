@@ -1,7 +1,7 @@
 ---
 description: Called by the compiler when you have more than one page of local variables in your function. (__chkstk)
 title: '__chkstk Routine'
-ms.topic: article
+ms.topic: reference
 ms.date: 03/02/2023
 topic_type: 
 - APIRef

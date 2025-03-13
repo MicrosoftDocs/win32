@@ -2,7 +2,7 @@
 title: AutoPopupMenu Property
 description: AutoPopupMenu Property
 ms.assetid: 499092cb-0990-4edb-915c-12e3011de142
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

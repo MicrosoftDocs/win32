@@ -2,7 +2,7 @@
 title: User input extended example
 description: Extended example of user input combining everything learned so far to create a simple drawing program.
 ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
-ms.topic: article
+ms.topic: reference
 ms.date: 04/07/2022
 ---
 

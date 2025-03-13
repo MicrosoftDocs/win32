@@ -2,7 +2,7 @@
 title: ActivateInput Event
 description: ActivateInput Event
 ms.assetid: bc395750-5da0-4379-8eca-3195e936052c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: "Learn more about: Cabinet API Structures"
 ms.assetid: b6d636e6-2af0-427c-a529-56c80b349b58
 title: Cabinet API Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

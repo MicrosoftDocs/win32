@@ -2,7 +2,7 @@
 title: Example The Open Dialog Box
 description: The Shapes example that we have been using is somewhat contrived. Let's turn to a COM object that you might use in a real Windows program the Open dialog box.
 ms.assetid: f426cf83-ed24-4eeb-bc28-b5871b824525
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

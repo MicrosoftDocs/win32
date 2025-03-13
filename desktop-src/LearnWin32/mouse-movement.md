@@ -2,7 +2,7 @@
 title: Mouse movement
 description: Mouse movement
 ms.assetid: 54366E9B-470A-4155-8A5F-425BAC8AC1A5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/26/2022
 ---
 
