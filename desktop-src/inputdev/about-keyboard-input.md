@@ -371,6 +371,8 @@ The [**TranslateMessage**](/windows/desktop/api/winuser/nf-winuser-translatemess
 
 While processing a keyboard message, an application may need to determine the status of another key besides the one that generated the current message. For example, a word-processing application that allows the user to press SHIFT+END to select a block of text must check the status of the SHIFT key whenever it receives a keystroke message from the END key. The application can use the [**GetKeyState**](/windows/win32/api/winuser/nf-winuser-getkeystate) function to determine the status of a virtual key at the time the current message was generated; it can use the [**GetAsyncKeyState**](/windows/win32/api/winuser/nf-winuser-getasynckeystate) function to retrieve the current status of a virtual key.
 
+Some keys are considered toggle keys that change the state of the keyboard layout. Toggle keys usually include Caps Lock (**VK_CAPITAL**), Num Lock (**VK_NUMLOCK**), and Scroll Lock (**VK_SCROLL**) keys. Most keyboards have corresponding LED indicators for these keys.
+
 The keyboard layout maintains a list of names. The name of a key that produces a single character is the same as the character produced by the key. The name of a noncharacter key such as TAB and ENTER is stored as a character string. An application can retrieve the name of any key from the device driver by calling the [**GetKeyNameText**](/windows/win32/api/winuser/nf-winuser-getkeynametexta) function.
 
 ## Keystroke and Character Translations
