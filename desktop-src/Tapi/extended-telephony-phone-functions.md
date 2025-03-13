@@ -2,7 +2,7 @@
 description: The Extended phone services (or Device-Specific phone services) include all extensions to the TAPI defined by the service provider.
 ms.assetid: 5464c60c-f416-4088-b983-3a535aa1d059
 title: Extended Telephony Phone Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
