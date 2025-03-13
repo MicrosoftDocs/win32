@@ -2,7 +2,7 @@
 description: ChooseFont() Win32 Common Dialog
 ms.assetid: ee1df9f2-585f-4208-ad49-a0f6ba76f53a
 title: ChooseFont() Win32 Common Dialog
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

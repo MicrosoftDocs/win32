@@ -2,7 +2,7 @@
 title: Best practices for Windows 8 compatibility
 description: Tools, best practices, and guidance
 ms.assetid: 2C71D81A-570E-431E-9DF6-BD337D859E12
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 

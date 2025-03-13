@@ -3,7 +3,7 @@ title: Remote Desktop Services permissions
 description: You can use the permissions provided for Remote Desktop Services to control how users and groups access the server.
 ms.assetid: 448a7f9b-bf12-48eb-a3e7-4512ec288d95
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

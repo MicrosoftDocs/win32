@@ -2,7 +2,7 @@
 description: Fixing ActiveX Installation Compatibility Issues for Standard Users
 ms.assetid: 4199521A-58E6-4475-9B95-A724AB52969A
 title: Fixing ActiveX Installation Compatibility Issues for Standard Users
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

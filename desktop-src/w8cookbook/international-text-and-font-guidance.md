@@ -2,7 +2,7 @@
 title: International text and font guidance
 description: International text and font guidance
 ms.assetid: 0540C9AD-8774-4F0F-B013-48C3EAE59BF2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - Remote Desktop Services Remote Desktop Services
 - Remote Desktop Services Remote Desktop Services , home page
 - Terminal Services See Remote Desktop Services Remote Desktop Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

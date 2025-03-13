@@ -2,7 +2,7 @@
 description: This article describes the Fiddler Web Debugger Tool for Internet Explorer that helps you debug web applications by capturing network traffic between the Internet and test computers.
 ms.assetid: AC23504B-ADFD-4204-954C-79167EBFB31A
 title: Fiddler web debugger tool for Internet Explorer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/25/2022
 ---
 

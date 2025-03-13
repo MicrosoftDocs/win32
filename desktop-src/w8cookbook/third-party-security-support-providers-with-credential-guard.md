@@ -2,7 +2,7 @@
 title: Credential Guard and third party apps
 description: Credential Guard does not allow 3rd party SSPs to ask for password hashes from LSA.
 ms.assetid: DA518005-C603-41CF-BBB9-2B46414653A5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - kbArticle

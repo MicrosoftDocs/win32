@@ -2,7 +2,7 @@
 title: URIs in Windows 8.1
 description: Windows 8.1 allows only https URIs, not http URIs
 ms.assetid: 06BDD3A3-67B7-4085-83DA-F322F718C876
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

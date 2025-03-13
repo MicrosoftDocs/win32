@@ -7,7 +7,7 @@ keywords:
 - Remote Desktop Services Remote Desktop Services , using Remote Desktop ActiveX control
 - Remote Desktop Web Connection Remote Desktop Services , using
 - Remote Desktop Protocol Remote Desktop Services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
