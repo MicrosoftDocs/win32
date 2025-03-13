@@ -3,7 +3,7 @@ title: Application compatibility layer
 description: To run legacy applications in a Remote Desktop Services environment you can use the Remote Desktop Services Application Compatibility layer.
 ms.assetid: 6e61ed45-4fcb-4aee-b8cc-638a9b87ce00
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Implementing scriptable virtual channels by using Remote Desktop Web Conn
 description: Code examples that show the steps for implementing scriptable virtual channels with Remote Desktop Web Connection.
 ms.assetid: a482b84d-96b6-4f42-8841-7039a1882789
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following material provides assistance in using TAPI 3 call controls.
 ms.assetid: bdf0587d-f701-4413-bc7e-04a7e42c4ea4
 title: Using Call And Media Controls
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

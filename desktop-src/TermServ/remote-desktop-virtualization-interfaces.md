@@ -3,7 +3,7 @@ title: Remote Desktop Virtualization Interfaces
 description: The Remote Desktop Virtualization API supports the following interfaces.
 ms.assetid: 150a3c9a-d504-4854-adaa-92e3a7e8ea70
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

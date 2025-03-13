@@ -2,7 +2,7 @@
 description: This section contains descriptions of the Telephony SPI callback functions.
 ms.assetid: 0694e703-b99c-41f3-8c65-9407add27077
 title: TSPI Callback Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

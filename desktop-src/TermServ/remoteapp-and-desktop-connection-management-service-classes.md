@@ -3,7 +3,7 @@ title: RemoteApp and Desktop Connection Management Service classes
 description: The RemoteApp and Desktop Connection Management Service WMI provider provides the following classes.
 ms.assetid: F14E378A-0BA4-4CD6-A3B7-71A2E71FAA2A
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

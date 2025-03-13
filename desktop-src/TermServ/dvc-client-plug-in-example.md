@@ -3,7 +3,7 @@ title: DVC Client Plug-in Example
 description: C++ code sample that shows how to create a Remote Desktop Connection (RDC) client dynamic virtual channel (DVC) plug-in.
 ms.assetid: ecc673ec-1bea-4e7c-b1b5-a2342445f6cf
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

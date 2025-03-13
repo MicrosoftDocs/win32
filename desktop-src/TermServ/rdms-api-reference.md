@@ -3,7 +3,7 @@ title: Remote Desktop Management Services Provider
 description: The Remote Desktop Management Services (RDMS) Provider manages virtual desktop infrastructure (VDI) environments.
 ms.assetid: BC1DD9B7-FC4C-4DC1-A0B2-4B0640CC38F0
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

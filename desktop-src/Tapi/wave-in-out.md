@@ -2,7 +2,7 @@
 description: The wave/in/out device class consists of full duplex audio devices.
 ms.assetid: 1b49c9ae-da64-4415-95ce-785ffedc65bc
 title: wave/in/out
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

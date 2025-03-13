@@ -3,7 +3,7 @@ title: Guidelines for background tasks in Remote Desktop Services
 description: To maximize CPU availability for all users, either disable background tasks when running in a Remote Desktop Services environment or create efficient background tasks that are not resource-intensive.
 ms.assetid: c3688319-dbe7-4be5-8895-622a8f8797d2
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

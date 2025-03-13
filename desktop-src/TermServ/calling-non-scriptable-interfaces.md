@@ -1,7 +1,7 @@
 ---
 title: Calling Remote Desktop ActiveX control non-scriptable interfaces
 description: Provides guidance for calling non-scriptable Remote Desktop ActiveX controls from native and managed code.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 09/11/2023
 ---
 
