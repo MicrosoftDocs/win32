@@ -12,7 +12,7 @@ keywords:
 - register,Preview verb
 - register,Slideshow verb
 - Slideshow verb
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

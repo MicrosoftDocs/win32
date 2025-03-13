@@ -2,7 +2,7 @@
 title: Show Event
 description: Show Event
 ms.assetid: 'vs|msagent|~\pacontrol_7wrw.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Pit Tag
 description: Pit Tag
 ms.assetid: bad439e0-5e5d-4413-aed4-c29bf694cb2a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

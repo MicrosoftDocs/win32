@@ -2,7 +2,7 @@
 title: Installing the Sound Editor
 description: Installing the Sound Editor
 ms.assetid: 0ce35b29-1cf3-4068-91b8-04231cb02a9d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

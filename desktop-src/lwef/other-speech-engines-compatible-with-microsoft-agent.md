@@ -2,7 +2,7 @@
 title: Other Speech Engines Compatible with Microsoft Agent
 description: Other Speech Engines Compatible with Microsoft Agent
 ms.assetid: fa87c592-c819-4dea-a1d0-6ccb25cc0bcc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

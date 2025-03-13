@@ -2,7 +2,7 @@
 title: Extending the Index (Legacy Windows Environment Features)
 description: Learn how to extend the index in Windows Desktop Search 2.x. For Windows releases later than Windows XP and Windows Server 2003, use Windows Search instead.
 ms.assetid: 'vs|search|~\search\wds2x\extending_index_ovr.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

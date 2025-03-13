@@ -2,7 +2,7 @@
 title: Play Method (Legacy Windows Environment Features)
 description: Play Method
 ms.assetid: 7e89341a-b4d3-4bea-8e7f-31c649ff06b3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

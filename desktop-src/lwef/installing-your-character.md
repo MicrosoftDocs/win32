@@ -2,7 +2,7 @@
 title: Installing Your Character
 description: Installing Your Character
 ms.assetid: 8e1414e7-d315-4fa5-8803-2c0147a5fb54
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

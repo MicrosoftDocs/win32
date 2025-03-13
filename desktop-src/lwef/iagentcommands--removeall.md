@@ -2,7 +2,7 @@
 title: IAgentCommands RemoveAll
 description: IAgentCommands RemoveAll
 ms.assetid: fab43363-6325-4566-b7bb-599591f67321
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

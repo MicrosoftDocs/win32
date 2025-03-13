@@ -9,7 +9,7 @@ keywords:
 - register,static search handlers
 - dynamic search handlers
 - register,dynamic search handlers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

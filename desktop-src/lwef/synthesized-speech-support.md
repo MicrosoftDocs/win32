@@ -2,7 +2,7 @@
 title: Synthesized Speech Support
 description: Synthesized Speech Support
 ms.assetid: 38172e04-a5b6-41e4-9d7c-539d9d4117be
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

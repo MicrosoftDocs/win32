@@ -2,7 +2,7 @@
 title: Insert Method
 description: Insert Method
 ms.assetid: d58cfe50-ace7-4b0f-8539-c2e13a180c96
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
