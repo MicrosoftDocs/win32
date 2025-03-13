@@ -1,7 +1,7 @@
 ---
 title: Profile the CPU and GPU with timing captures
 description: Documenting how to use PIX timing captures.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/09/2024
 ---
 

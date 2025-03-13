@@ -2,7 +2,7 @@
 title: Command Blocking
 description: To preserve integrity of operations, certain TPM commands are not allowed to be executed by software on the platform.
 ms.assetid: 47402a4a-5f8d-4648-b3ea-06c95b2a1fc1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

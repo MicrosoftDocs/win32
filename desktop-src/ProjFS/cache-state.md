@@ -3,7 +3,7 @@ title: Cache State in the Virtualization Root
 description: Describes the different cache states a file or directory managed by the provider may have. 
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
-ms.topic: article
+ms.topic: reference
 ---
 
 # Cache State In the Virtualization Root

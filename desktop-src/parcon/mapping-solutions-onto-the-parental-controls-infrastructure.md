@@ -2,7 +2,7 @@
 description: Mapping Solutions onto the Parental Controls Infrastructure
 ms.assetid: 09677019-2cf9-43fe-b16c-e802767bef3a
 title: Mapping Solutions onto the Parental Controls Infrastructure
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

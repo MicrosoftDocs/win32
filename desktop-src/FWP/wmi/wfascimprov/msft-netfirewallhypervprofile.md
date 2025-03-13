@@ -1,7 +1,7 @@
 ---
 title: MSFT_NetFirewallHyperVProfile class
 description: Represents Windows Defender Firewall Hyper-V settings that are applicable to a VM Creator and profile type.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/16/2024
 topic_type: 
 - APIRef

@@ -1,7 +1,7 @@
 ---
 title: Compositor clock
 description: The compositor clock API offers statistics and frame rate control for presenting on-screen content smoothly, at the fastest possible cadence, and on a variety of hardware configurations.
-ms.topic: article
+ms.topic: reference
 ms.date: 09/10/2021
 ---
 

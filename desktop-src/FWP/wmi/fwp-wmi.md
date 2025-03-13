@@ -1,7 +1,7 @@
 ---
 title: WFP WMI providers
 description: The Windows Filtering Platform WMI providers are as follows.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/14/2024
 ---
 

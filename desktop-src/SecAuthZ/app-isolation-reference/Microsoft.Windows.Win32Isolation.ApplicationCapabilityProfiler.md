@@ -1,7 +1,7 @@
 ---
 title: Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler module
 description: This module contains the cmdlets that are installed with the Microsoft.Windows.Win32Isolation.ApplicationCapabilityProfiler PowerShell module.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/27/2024
 ---
 

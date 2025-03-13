@@ -1,7 +1,7 @@
 ---
 title: Custom texture/mesh visualizers in PIX
 description: Documenting how to use custom texture/mesh visualizers with PIX
-ms.topic: article
+ms.topic: reference
 ms.date: 10/18/2024
 ---
 

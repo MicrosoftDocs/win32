@@ -2,7 +2,7 @@
 description: LUN Plex Object
 ms.assetid: db6eabaa-1b84-4613-ab2a-8d5904305e08
 title: LUN Plex Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

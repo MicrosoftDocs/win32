@@ -1,7 +1,7 @@
 ---
 title: Start-Profiling cmdlet
 description: The Start-Profiling cmdlet is used to start access attempt profiling for an application package.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/27/2024
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Windows API sets
 description: API sets are functional groups of Win32 APIs in the core OS. They provide an architectural separation from the host DLL in which a given Win32 API is defined and the functional group to which the API belongs.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2023
 ---
 

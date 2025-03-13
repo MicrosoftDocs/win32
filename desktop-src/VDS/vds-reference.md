@@ -2,7 +2,7 @@
 description: This section describes the application programming interface to the Virtual Disk Service (VDS).
 ms.assetid: d00fc772-331f-4d71-a418-e34acdfb6652
 title: VDS Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

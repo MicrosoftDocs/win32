@@ -1,7 +1,7 @@
 ---
 title: Analyze frames with GPU captures
 description: Documenting PIX GPU captures.
-ms.topic: article
+ms.topic: how-to
 ms.date: 07/09/2024
 ---
 

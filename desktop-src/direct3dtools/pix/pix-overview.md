@@ -1,7 +1,7 @@
 ---
 title: Get started with PIX
 description: An overview of how developers can use PIX to improve their Direct3D 12 applications.
-ms.topic: article
+ms.topic: get-started
 ms.date: 07/09/2024
 ---
 

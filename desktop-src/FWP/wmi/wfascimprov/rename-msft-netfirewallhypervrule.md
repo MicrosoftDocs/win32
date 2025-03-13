@@ -1,7 +1,7 @@
 ---
 title: Rename method of the MSFT_NetFirewallHyperVRule class
 description: Rename this rule.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/16/2024
 topic_type: 
 - APIRef

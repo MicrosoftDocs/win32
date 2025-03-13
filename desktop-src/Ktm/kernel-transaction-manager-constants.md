@@ -2,7 +2,7 @@
 description: 'KTM uses the following constants:'
 ms.assetid: e0284716-fc21-403f-8188-70a08595dd2a
 title: Kernel Transaction Manager Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

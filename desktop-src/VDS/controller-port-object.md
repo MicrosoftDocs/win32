@@ -2,7 +2,7 @@
 description: Controller Port Object
 ms.assetid: 5f94bcdc-93ab-4522-88bd-009a049b5dc9
 title: Controller Port Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
