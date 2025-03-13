@@ -317,7 +317,7 @@ Notes:
 
 ### Extended-Key Flag
 
-The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the *Alt* and *Cotrol* keys on the right-hand side of the keyboard; the *Insert**, *Delete**, *Home*, *End*, *Page Up*, *Page Down*, and *Arrow* keys in the clusters to the left of the numeric keypad; the *Num Lock* key; the *Break* (*Control+Pause*) key; the *Print Screen* key; and the *Divide* (/) and *Enter* keys on the numeric keypad. The right-hand *Shift* key is not considered an extended-key, it has a separate scan code instead.
+The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the *Alt* and *Control* keys on the right-hand side of the keyboard; the *Insert**, *Delete**, *Home*, *End*, *Page Up*, *Page Down*, and *Arrow* keys in the clusters to the left of the numeric keypad; the *Num Lock* key; the *Break* (*Control+Pause*) key; the *Print Screen* key; and the *Divide* (/) and *Enter* keys on the numeric keypad. The right-hand *Shift* key is not considered an extended-key, it has a separate scan code instead.
 
 If specified, the scan code consists of a sequence of two bytes, where the first byte has a value of 0xE0.
 
