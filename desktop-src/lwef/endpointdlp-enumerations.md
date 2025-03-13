@@ -1,7 +1,7 @@
 ---
 title: Endpoint data loss prevention enumerations
 description: Enumerations used by the endpoint data loss prevention feature.
-ms.topic: article
+ms.topic: reference
 ms.date: 03/18/2021
 ---
 

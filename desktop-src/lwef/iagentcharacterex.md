@@ -2,7 +2,7 @@
 title: IAgentCharacterEx
 description: IAgentCharacterEx
 ms.assetid: 8defc836-cc54-40c7-8afc-ec90f941861b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

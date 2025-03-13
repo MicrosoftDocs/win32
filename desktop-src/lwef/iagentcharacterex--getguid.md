@@ -2,7 +2,7 @@
 title: IAgentCharacterEx GetGUID
 description: IAgentCharacterEx GetGUID
 ms.assetid: 25fb2531-a81c-4add-8134-77b1cd57cfe3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

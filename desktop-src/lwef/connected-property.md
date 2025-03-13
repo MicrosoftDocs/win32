@@ -2,7 +2,7 @@
 title: Connected Property
 description: Connected Property
 ms.assetid: 61b7f550-d8d6-4719-a0d4-0bf3a8cf096c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

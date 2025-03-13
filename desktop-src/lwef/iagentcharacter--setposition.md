@@ -2,7 +2,7 @@
 title: IAgentCharacter SetPosition
 description: IAgentCharacter SetPosition
 ms.assetid: cc47b537-8154-4dfb-93e1-5ac3c3b50788
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

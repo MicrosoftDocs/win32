@@ -2,7 +2,7 @@
 title: DefaultCommand Property
 description: DefaultCommand Property
 ms.assetid: ba4d51fc-7178-4dbb-9ae5-f1991f40aad6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

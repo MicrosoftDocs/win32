@@ -2,7 +2,7 @@
 title: IAgentCharacterEx GetActive
 description: IAgentCharacterEx GetActive
 ms.assetid: b14ae69a-a50e-4488-b5a7-33702e6555eb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

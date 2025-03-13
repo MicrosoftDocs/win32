@@ -2,7 +2,7 @@
 title: IAgentCharacter Interrupt
 description: IAgentCharacter Interrupt
 ms.assetid: ae05d317-e2d9-4d11-a6df-f9b25e43467a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
