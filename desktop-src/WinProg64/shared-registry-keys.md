@@ -8,7 +8,7 @@ keywords:
 - redirected registry keys 64-bit Windows Programming
 - reflected registry keys 64-bit Windows Programming
 - shared registry keys 64-bit Windows Programming
-ms.topic: article
+ms.topic: reference
 ms.date: 01/23/2021
 ---
 
