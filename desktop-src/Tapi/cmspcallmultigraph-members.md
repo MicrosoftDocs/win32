@@ -2,7 +2,7 @@
 description: CMSPCallMultiGraph Members
 ms.assetid: 49451585-3084-4426-8617-79b60eb77518
 title: CMSPCallMultiGraph Members
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

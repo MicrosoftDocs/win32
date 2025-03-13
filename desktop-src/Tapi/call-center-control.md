@@ -2,7 +2,7 @@
 description: Basic TAPI 2.2 can be used to manage call centers and other elements of Telephony network infrastructure (such as IVR and voice mail servers) through third-party call control.
 ms.assetid: e920dc4a-adb4-4a36-ac04-f265538531eb
 title: Call Center Control
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

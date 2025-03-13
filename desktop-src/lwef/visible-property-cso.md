@@ -2,7 +2,7 @@
 title: Visible Property (Commands Object)
 description: Learn about the Visible Property of the Commands object, which determines whether your Commands collection's caption appears in the character's pop-up menu.
 ms.assetid: 0178a789-141b-4d4c-ba7c-05c7995f13bc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

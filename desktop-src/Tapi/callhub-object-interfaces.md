@@ -2,7 +2,7 @@
 description: The CallHub object exposes methods that retrieve information concerning participants in a multi-party call.
 ms.assetid: 928c3abb-1b4e-42f3-a8cc-41889ad573ed
 title: CallHub Object Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

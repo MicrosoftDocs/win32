@@ -2,7 +2,7 @@
 title: The Command Object
 description: The Command Object
 ms.assetid: a757846a-c2d0-4239-9533-babf5dc8399f
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

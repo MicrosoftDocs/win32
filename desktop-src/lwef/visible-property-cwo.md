@@ -2,7 +2,7 @@
 title: Visible Property (CommandsWindow Object)
 description: Learn about the Visible Property of the CommandsWindow object, which returns or sets whether the Voice Commands Window is visible (open).
 ms.assetid: 820a5298-6aaf-4aea-9e71-38a07148a08c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

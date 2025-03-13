@@ -2,7 +2,7 @@
 description: The country or region code is relevant only when the address type is LINEADDRESSTYPE\_PHONENUMBER. It identifies an area of the world.
 ms.assetid: d838c2ac-4ee3-4314-8573-deed6c7430e3
 title: Country or Region Code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

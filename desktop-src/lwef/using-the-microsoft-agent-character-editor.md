@@ -2,7 +2,7 @@
 title: Using the Microsoft Agent Character Editor
 description: Using the Microsoft Agent Character Editor
 ms.assetid: c606c90b-0fd2-4899-9ffd-153fdaf9c80c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

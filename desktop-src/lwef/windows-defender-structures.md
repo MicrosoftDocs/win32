@@ -2,7 +2,7 @@
 title: Windows Defender Structures
 description: Structures used by apps when calling to request scans, signature updates, or information from Windows Defender.
 ms.assetid: EF4116D3-DA50-4078-A024-2D624945D8C1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

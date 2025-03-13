@@ -2,7 +2,7 @@
 title: Windows Defender
 description: Windows Defender helps protect computers against pop-ups, slow performance, and security threats caused by spyware and other unwanted software.
 ms.assetid: 4c56145d-7c64-4ae0-b718-27530653279a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
