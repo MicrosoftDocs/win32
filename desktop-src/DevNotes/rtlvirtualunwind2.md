@@ -68,11 +68,11 @@ The address of the function table entry for the function represented by the exec
 
 ### ContextRecord \[in, out\]
 
-A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure. On entry, this should represent the state of the CPU withing a given function. On succesful return, the context will represent the CPU context at the parent (caller) frame.
+A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure. On entry, this should represent the state of the CPU withing a given function. On successful return, the context will represent the CPU context at the parent (caller) frame.
 
 ### HandlerData \[out\]
 
-TBD
+This parameter provides a function pointer that, on return, receives the Exception Handler Data associated with function that was running in the stack frame the unwinder unwound from (input). The format of the data is opaque to the unwinder and is expected to be processed and understood by the `HandlerRoutine`.
 
 ### EstablisherFrame* \[out\]
 
@@ -84,31 +84,30 @@ When performing the virtual unwind operation, the unwinder will recover the valu
 
 ### LowLimit [in, optional]
 
-TBD
+This optional parameter provides a value to test for stack **overflow**. If, during unwinding, the Stack Pointer moves beyond (lower numeric value, in architectures where the stack grows towards lower values) the value of `LowLimit`, the unwind will fail with `STATUS_BAD_STACK`.
 
 ### HighLimit [in, optional]
 
-TBD
+This optional parameter provides a value to test for stack **underflow**. If, during unwinding, the Stack Pointer moves prior (higher numeric value, in architectures where the stack grows towards lower values) the value of `HighLimit`, the unwind will fail with `STATUS_BAD_STACK`.
 
 ### HandlerRoutine [out, optional]
 
-TBD
+This optional parameter provides a function pointer that, on return, receives the Exception Handler routine associated with function that was running in the stack frame the unwinder unwound from (input).
 
 ### UnwindFlags [in]
 
-TBD
+A bitmask of option flags with the following values and meanings:
+
+|Name|Value|Meaning|Notes|
+|----|-----|-------|-----|
+|RTL_VIRTUAL_UNWIND2_VALIDATE_PAC|0x00000001UL|During stack unwinding, verify the PAC signature of return address values. Without this flag, the PAC signature is removed from the return address values without verification.|Arm64 only|
 
 
 ## Return value
 
-TBD
+This function returns zero on success. (More detail).
 
-
-
-| Return code                                                                               | Description                                     |
-|-------------------------------------------------------------------------------------------|-------------------------------------------------|
-| TBD       | TBD          |
-
+See http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx for a list of NTSTATUS values.
 
 
 ## Remarks
@@ -122,8 +121,8 @@ This function has no associated import library or header file; you must call it 
 
 | Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                    |
+| Minimum supported client<br/> | Windows 11 \[desktop apps only\]<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2022 \[desktop apps only\]<br/>                                                                                    |
 | Target platform<br/>          | <dl> <dt>[Universal](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
 | Header<br/>                   | <dl> <dt>Wdm.h (include Wdm.h, Ntddk.h, or Ntifs.h)</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl>                                                    |
