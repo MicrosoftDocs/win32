@@ -173,7 +173,7 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_CONTROL` | 0x11 | Ctrl key |
 | `VK_MENU` | 0x12 | Alt key |
 | `VK_PAUSE` | 0x13 | Pause key |
-| `VK_CAPITAL` | 0x14 | Caps Lock key |
+| `VK_CAPITAL` | 0x14 | Caps lock key |
 | `VK_KANA` | 0x15 | IME Kana mode |
 | `VK_HANGUL` | 0x15 | IME Hangul mode |
 | `VK_IME_ON` | 0x16 | IME On |
