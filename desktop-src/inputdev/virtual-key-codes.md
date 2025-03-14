@@ -162,18 +162,18 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_MBUTTON` | 0x04 | Middle mouse button |
 | `VK_XBUTTON1` | 0x05 | X1 mouse button |
 | `VK_XBUTTON2` | 0x06 | X2 mouse button |
-| `-` | 0x07 | Reserved |
-| `VK_BACK` | 0x08 | BACKSPACE key |
-| `VK_TAB` | 0x09 | TAB key |
-| `-` | 0x0A-0B | Reserved |
-| `VK_CLEAR` | 0x0C | CLEAR key |
-| `VK_RETURN` | 0x0D | ENTER key |
-| `-` | 0x0E-0F | Unassigned |
-| `VK_SHIFT` | 0x10 | SHIFT key |
-| `VK_CONTROL` | 0x11 | CTRL key |
-| `VK_MENU` | 0x12 | ALT key |
-| `VK_PAUSE` | 0x13 | PAUSE key |
-| `VK_CAPITAL` | 0x14 | CAPS LOCK key |
+|  | 0x07 | Reserved |
+| `VK_BACK` | 0x08 | Backspace key |
+| `VK_TAB` | 0x09 | Tab key |
+|  | 0x0A-0B | Reserved |
+| `VK_CLEAR` | 0x0C | Clear key |
+| `VK_RETURN` | 0x0D | Enter key |
+|  | 0x0E-0F | Unassigned |
+| `VK_SHIFT` | 0x10 | Shift key |
+| `VK_CONTROL` | 0x11 | Ctrl key |
+| `VK_MENU` | 0x12 | Alt key |
+| `VK_PAUSE` | 0x13 | Pause key |
+| `VK_CAPITAL` | 0x14 | Caps Lock key |
 | `VK_KANA` | 0x15 | IME Kana mode |
 | `VK_HANGUL` | 0x15 | IME Hangul mode |
 | `VK_IME_ON` | 0x16 | IME On |
@@ -182,68 +182,68 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_HANJA` | 0x19 | IME Hanja mode |
 | `VK_KANJI` | 0x19 | IME Kanji mode |
 | `VK_IME_OFF` | 0x1A | IME Off |
-| `VK_ESCAPE` | 0x1B | ESC key |
+| `VK_ESCAPE` | 0x1B | Esc key |
 | `VK_CONVERT` | 0x1C | IME convert |
 | `VK_NONCONVERT` | 0x1D | IME nonconvert |
 | `VK_ACCEPT` | 0x1E | IME accept |
 | `VK_MODECHANGE` | 0x1F | IME mode change request |
-| `VK_SPACE` | 0x20 | SPACEBAR |
-| `VK_PRIOR` | 0x21 | PAGE UP key |
-| `VK_NEXT` | 0x22 | PAGE DOWN key |
-| `VK_END` | 0x23 | END key |
-| `VK_HOME` | 0x24 | HOME key |
-| `VK_LEFT` | 0x25 | LEFT ARROW key |
-| `VK_UP` | 0x26 | UP ARROW key |
-| `VK_RIGHT` | 0x27 | RIGHT ARROW key |
-| `VK_DOWN` | 0x28 | DOWN ARROW key |
-| `VK_SELECT` | 0x29 | SELECT key |
-| `VK_PRINT` | 0x2A | PRINT key |
-| `VK_EXECUTE` | 0x2B | EXECUTE key |
-| `VK_SNAPSHOT` | 0x2C | PRINT SCREEN key |
-| `VK_INSERT` | 0x2D | INS key |
-| `VK_DELETE` | 0x2E | DEL key |
-| `VK_HELP` | 0x2F | HELP key |
-|  | 0x30 | 0 key |
-|  | 0x31 | 1 key |
-|  | 0x32 | 2 key |
-|  | 0x33 | 3 key |
-|  | 0x34 | 4 key |
-|  | 0x35 | 5 key |
-|  | 0x36 | 6 key |
-|  | 0x37 | 7 key |
-|  | 0x38 | 8 key |
-|  | 0x39 | 9 key |
-| `-` | 0x3A-40 | Undefined |
-|  | 0x41 | A key |
-|  | 0x42 | B key |
-|  | 0x43 | C key |
-|  | 0x44 | D key |
-|  | 0x45 | E key |
-|  | 0x46 | F key |
-|  | 0x47 | G key |
-|  | 0x48 | H key |
-|  | 0x49 | I key |
-|  | 0x4A | J key |
-|  | 0x4B | K key |
-|  | 0x4C | L key |
-|  | 0x4D | M key |
-|  | 0x4E | N key |
-|  | 0x4F | O key |
-|  | 0x50 | P key |
-|  | 0x51 | Q key |
-|  | 0x52 | R key |
-|  | 0x53 | S key |
-|  | 0x54 | T key |
-|  | 0x55 | U key |
-|  | 0x56 | V key |
-|  | 0x57 | W key |
-|  | 0x58 | X key |
-|  | 0x59 | Y key |
-|  | 0x5A | Z key |
-| `VK_LWIN` | 0x5B | Left Windows key |
-| `VK_RWIN` | 0x5C | Right Windows key |
-| `VK_APPS` | 0x5D | Applications key |
-| `-` | 0x5E | Reserved |
+| `VK_SPACE` | 0x20 | Spacebar key |
+| `VK_PRIOR` | 0x21 | Page up key |
+| `VK_NEXT` | 0x22 | Page down key |
+| `VK_END` | 0x23 | End key |
+| `VK_HOME` | 0x24 | Home key |
+| `VK_LEFT` | 0x25 | Left arrow key |
+| `VK_UP` | 0x26 | Up arrow key |
+| `VK_RIGHT` | 0x27 | Right arrow key |
+| `VK_DOWN` | 0x28 | Down arrow key |
+| `VK_SELECT` | 0x29 | Select key |
+| `VK_PRINT` | 0x2A | Print key |
+| `VK_EXECUTE` | 0x2B | Execute key |
+| `VK_SNAPSHOT` | 0x2C | Print screen key |
+| `VK_INSERT` | 0x2D | Insert key |
+| `VK_DELETE` | 0x2E | Delete key |
+| `VK_HELP` | 0x2F | Help key |
+| `` `0` `` | 0x30 | 0 key |
+| `` `1` `` | 0x31 | 1 key |
+| `` `2` `` | 0x32 | 2 key |
+| `` `3` `` | 0x33 | 3 key |
+| `` `4` `` | 0x34 | 4 key |
+| `` `5` `` | 0x35 | 5 key |
+| `` `6` `` | 0x36 | 6 key |
+| `` `7` `` | 0x37 | 7 key |
+| `` `8` `` | 0x38 | 8 key |
+| `` `9` `` | 0x39 | 9 key |
+|  | 0x3A-40 | Undefined |
+| `` `A` `` | 0x41 | A key |
+| `` `B` `` | 0x42 | B key |
+| `` `C` `` | 0x43 | C key |
+| `` `D` `` | 0x44 | D key |
+| `` `E` `` | 0x45 | E key |
+| `` `F` `` | 0x46 | F key |
+| `` `G` `` | 0x47 | G key |
+| `` `H` `` | 0x48 | H key |
+| `` `I` `` | 0x49 | I key |
+| `` `J` `` | 0x4A | J key |
+| `` `K` `` | 0x4B | K key |
+| `` `L` `` | 0x4C | L key |
+| `` `M` `` | 0x4D | M key |
+| `` `N` `` | 0x4E | N key |
+| `` `O` `` | 0x4F | O key |
+| `` `P` `` | 0x50 | P key |
+| `` `Q` `` | 0x51 | Q key |
+| `` `R` `` | 0x52 | R key |
+| `` `S` `` | 0x53 | S key |
+| `` `T` `` | 0x54 | T key |
+| `` `U` `` | 0x55 | U key |
+| `` `V` `` | 0x56 | V key |
+| `` `W` `` | 0x57 | W key |
+| `` `X` `` | 0x58 | X key |
+| `` `Y` `` | 0x59 | Y key |
+| `` `Z` `` | 0x5A | Z key |
+| `VK_LWIN` | 0x5B | Left Windows logo key |
+| `VK_RWIN` | 0x5C | Right Windows logo key |
+| `VK_APPS` | 0x5D | Application key |
+|  | 0x5E | Reserved |
 | `VK_SLEEP` | 0x5F | Computer Sleep key |
 | `VK_NUMPAD0` | 0x60 | Numeric keypad 0 key |
 | `VK_NUMPAD1` | 0x61 | Numeric keypad 1 key |
@@ -285,17 +285,17 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_F22` | 0x85 | F22 key |
 | `VK_F23` | 0x86 | F23 key |
 | `VK_F24` | 0x87 | F24 key |
-| `-` | 0x88-8F | Reserved |
-| `VK_NUMLOCK` | 0x90 | NUM LOCK key |
-| `VK_SCROLL` | 0x91 | SCROLL LOCK key |
-| `-` | 0x92-96 | OEM specific |
-| `-` | 0x97-9F | Unassigned |
-| `VK_LSHIFT` | 0xA0 | Left SHIFT key |
-| `VK_RSHIFT` | 0xA1 | Right SHIFT key |
-| `VK_LCONTROL` | 0xA2 | Left CONTROL key |
-| `VK_RCONTROL` | 0xA3 | Right CONTROL key |
-| `VK_LMENU` | 0xA4 | Left ALT key |
-| `VK_RMENU` | 0xA5 | Right ALT key |
+|  | 0x88-8F | Reserved |
+| `VK_NUMLOCK` | 0x90 | Num lock key |
+| `VK_SCROLL` | 0x91 | Scroll lock key |
+|  | 0x92-96 | OEM specific |
+|  | 0x97-9F | Unassigned |
+| `VK_LSHIFT` | 0xA0 | Left Shift key |
+| `VK_RSHIFT` | 0xA1 | Right Shift key |
+| `VK_LCONTROL` | 0xA2 | Left Ctrl key |
+| `VK_RCONTROL` | 0xA3 | Right Ctrl key |
+| `VK_LMENU` | 0xA4 | Left Alt key |
+| `VK_RMENU` | 0xA5 | Right Alt key |
 | `VK_BROWSER_BACK` | 0xA6 | Browser Back key |
 | `VK_BROWSER_FORWARD` | 0xA7 | Browser Forward key |
 | `VK_BROWSER_REFRESH` | 0xA8 | Browser Refresh key |
@@ -314,7 +314,7 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_LAUNCH_MEDIA_SELECT` | 0xB5 | Select Media key |
 | `VK_LAUNCH_APP1` | 0xB6 | Start Application 1 key |
 | `VK_LAUNCH_APP2` | 0xB7 | Start Application 2 key |
-| `-` | 0xB8-B9 | Reserved |
+|  | 0xB8-B9 | Reserved |
 | `VK_OEM_1` | 0xBA | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `;:` key |
 | `VK_OEM_PLUS` | 0xBB | For any country/region, the `+` key |
 | `VK_OEM_COMMA` | 0xBC | For any country/region, the `,` key |
@@ -322,21 +322,21 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_OEM_PERIOD` | 0xBE | For any country/region, the `.` key |
 | `VK_OEM_2` | 0xBF | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `/?` key |
 | `VK_OEM_3` | 0xC0 | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `` `~ `` key |
-| `-` | 0xC1-DA | Reserved |
+|  | 0xC1-DA | Reserved |
 | `VK_OEM_4` | 0xDB | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `[{` key |
 | `VK_OEM_5` | 0xDC | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `\\|` key |
 | `VK_OEM_6` | 0xDD | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `]}` key |
 | `VK_OEM_7` | 0xDE | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `'"` key |
 | `VK_OEM_8` | 0xDF | Used for miscellaneous characters; it can vary by keyboard. |
-| `-` | 0xE0 | Reserved |
-| `-` | 0xE1 | OEM specific |
+|  | 0xE0 | Reserved |
+|  | 0xE1 | OEM specific |
 | `VK_OEM_102` | 0xE2 | The `<>` keys on the US standard keyboard, or the `\\|` key on the non-US 102-key keyboard |
-| `-` | 0xE3-E4 | OEM specific |
+|  | 0xE3-E4 | OEM specific |
 | `VK_PROCESSKEY` | 0xE5 | IME PROCESS key |
-| `-` | 0xE6 | OEM specific |
+|  | 0xE6 | OEM specific |
 | `VK_PACKET` | 0xE7 | Used to pass Unicode characters as if they were keystrokes. The `VK_PACKET` key is the low word of a 32-bit Virtual Key value used for non-keyboard input methods. For more information, see Remark in [`KEYBDINPUT`](/windows/win32/api/winuser/ns-winuser-keybdinput), [`SendInput`](/windows/win32/api/winuser/nf-winuser-sendinput), [`WM_KEYDOWN`](wm-keydown.md), and [`WM_KEYUP`](wm-keyup.md) |
-| `-` | 0xE8 | Unassigned |
-| `-` | 0xE9-F5 | OEM specific |
+|  | 0xE8 | Unassigned |
+|  | 0xE9-F5 | OEM specific |
 | `VK_ATTN` | 0xF6 | Attn key |
 | `VK_CRSEL` | 0xF7 | CrSel key |
 | `VK_EXSEL` | 0xF8 | ExSel key |
