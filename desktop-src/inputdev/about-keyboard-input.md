@@ -309,7 +309,7 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 Notes:
 
 1. *SysRq* key scan code is emitted on *Alt+Print screen* keystroke
-2. *Break* key scan code is emitted on *Control+Pause* keystroke
+2. *Break* key scan code is emitted on *Ctrl+Pause* keystroke
 3. As seen in [legacy keyboard messages](keyboard-input-notifications.md)
 4. The key is present on Brazilian keyboards
 5. The key is present on Japanese keyboards
@@ -317,7 +317,7 @@ Notes:
 
 ### Extended-Key Flag
 
-The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the *Alt* and *Control* keys on the right-hand side of the keyboard; the *Insert**, *Delete**, *Home*, *End*, *Page Up*, *Page Down*, and *Arrow* keys in the clusters to the left of the numeric keypad; the *Num Lock* key; the *Break* (*Control+Pause*) key; the *Print Screen* key; and the *Divide* (/) and *Enter* keys on the numeric keypad. The right-hand *Shift* key is not considered an extended-key, it has a separate scan code instead.
+The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the *Alt* and *Ctrl* keys on the right-hand side of the keyboard; the *Insert**, *Delete**, *Home*, *End*, *Page up*, *Page down*, and *Arrow* keys in the clusters to the left of the numeric keypad; the *Num lock* key; the *Break* (*Ctrl+Pause*) key; the *Print screen* key; and the *Divide* (/) and *Enter* keys on the numeric keypad. The right-hand *Shift* key is not considered an extended-key, it has a separate scan code instead.
 
 If specified, the scan code consists of a sequence of two bytes, where the first byte has a value of 0xE0.
 
@@ -383,7 +383,7 @@ In addition, Microsoft Rich Edit 3.0 supports the [HexToUnicode IME](/windows/de
 
 ## Hot-Key Support
 
-A *hot key* is a key combination that generates a [**WM\_HOTKEY**](wm-hotkey.md) message, a message the system places at the top of a thread's message queue, bypassing any existing messages in the queue. Applications use hot keys to obtain high-priority keyboard input from the user. For example, by defining a hot key consisting of the *Control+C* keystroke, an application can allow the user to cancel a lengthy operation.
+A *hot key* is a key combination that generates a [**WM\_HOTKEY**](wm-hotkey.md) message, a message the system places at the top of a thread's message queue, bypassing any existing messages in the queue. Applications use hot keys to obtain high-priority keyboard input from the user. For example, by defining a hot key consisting of the *Ctrl+C* keystroke, an application can allow the user to cancel a lengthy operation.
 
 To define a hot key, an application calls the [**RegisterHotKey**](/windows/win32/api/winuser/nf-winuser-registerhotkey) function, specifying the combination of keys that generates the [**WM\_HOTKEY**](wm-hotkey.md) message, the handle to the window to receive the message, and the identifier of the hot key. When the user presses the hot key, a **WM\_HOTKEY** message is placed in the message queue of the thread that created the window. The *wParam* parameter of the message contains the identifier of the hot key. The application can define multiple hot keys for a thread, but each hot key in the thread must have a unique identifier. Before the application terminates, it should use the [**UnregisterHotKey**](/windows/win32/api/winuser/nf-winuser-unregisterhotkey) function to destroy the hot key.
 
