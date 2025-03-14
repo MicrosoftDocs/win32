@@ -16,7 +16,7 @@ api_location:
 
 # RtlVirtualUnwind2 function
 
-Given a representation of the CPU context within a function, it calculates CPU context representing the parent stack frame.
+Given a representation of the CPU context within a function, it calculates CPU context representing the parent (caller) stack frame.
 
 ## Syntax
 
@@ -56,19 +56,19 @@ The handler type. This parameter can be one of the following values.
 
 ### ImageBase \[in\]
 
-The base address of the module that includes the function represented by the execution context in the ContextRecord.
+The base address of the module that includes the function represented by the execution context in the ContextRecord at the time the call is made (input).
 
 ### ControlPc \[in\]
 
-The address within the function represented by ContextRecord's that should be regarded as the Instruction Pointer for the unwind operation. This takes precedence over the Instruction Pointer field in the ContextRecord.
+The address within the function represented by the ContextRecord state which should be regarded as the Instruction Pointer for the unwind operation. This takes precedence over the Instruction Pointer field in the ContextRecord itself.
 
 ### FunctionEntry \[in\]
 
-The address of the function table entry for the function represented by the execution context in the ContextRecord. To obtain the function table entry, call the [RtlLookupFunctionEntry](nf-winnt-rtllookupfunctionentry.md) function. If NULL, the function will be assumed to be a leaf function with no stack of its own and a trivial unwind will be performed (e.g. emulate a solitary RET).
+The address of the function table entry for the function represented by the execution context in the ContextRecord. To obtain the function table entry, call the [RtlLookupFunctionEntry](nf-winnt-rtllookupfunctionentry.md) function. If NULL, the function will be assumed to be a leaf function with no stack frame of its own and a trivial unwind will be performed (e.g. emulate a solitary RET).
 
 ### ContextRecord \[in, out\]
 
-A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure. On entry, this should represent the state of the CPU withing a given function. On succesful return, the context will represent the CPU context at the caller (parent) frame.
+A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure. On entry, this should represent the state of the CPU withing a given function. On succesful return, the context will represent the CPU context at the parent (caller) frame.
 
 ### HandlerData \[out\]
 
@@ -80,7 +80,7 @@ TBD
 
 ### ContextPointers* \[in, out, optional\]
 
-An optional pointer to a context pointers structure.
+When performing the virtual unwind operation, the unwinder will recover the values for the (callee-saved) registers which were spilled in the stack as part of the transition between the two frames. The stack addresses which each register was restored from will be stored in this structure. This parameter is optional.
 
 ### LowLimit [in, optional]
 
