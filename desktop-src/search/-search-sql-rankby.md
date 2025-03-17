@@ -148,7 +148,7 @@ The following table describes the supported operations for the *merge_operation*
 
 | Merge operation | Description |
 |-----------------|-------------|
-| CONVEXCOMBINATION | This merging algorithm should be used exclusively when the query includes the following clauses: CONTAINS (lexical search), CONTAINSSEMANTIC('Text',...), and CONTAINSSEMANTIC('Image'...) (semantic search across text and images). It combines scores from these three clauses using a weighted sum approach, giving higher priority to lexical scores by assigning them greater weights when compared to semantic scores.  |
+| CONVEXCOMBINATION | This merging algorithm should be used exclusively when the query includes the following clauses: CONTAINS (lexical search), CONTAINSSEMANTIC('Text',...), and CONTAINSSEMANTIC('Image'...) (semantic search across text and images). It combines scores from these three clauses using a weighted sum approach, giving higher priority to lexical scores by assigning them greater weights when compared to semantic scores.  The final rank will be between 0 and 1000. |
 | MIN | This merging algorithm is the default behavior in the case of an AND cursor. It selects the minimum rank from all results.|
 | MAX | This merging algorithm is the default behavior in the case of an OR cursor. It selects the maximum rank from all results. |
 
