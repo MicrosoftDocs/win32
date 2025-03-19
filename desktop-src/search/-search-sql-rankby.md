@@ -91,13 +91,9 @@ The syntax of the COERCION function is:
 COERCION ( <coercion_operation> , <coercion_value> )
 ```
 
-
-
 The coercion value is an integer value.
 
 The following table describes the available coercion operation settings.
-
-
 
 | Coercion operation | Description                                                                                    | Value range  |
 |--------------------|------------------------------------------------------------------------------------------------|--------------|

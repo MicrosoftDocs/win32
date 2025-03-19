@@ -7,7 +7,7 @@ ms.date: 05/31/2018
 
 # CONTAINSSEMANTIC Predicate
 
-The CONTAINSSEMANTIC predicate is part of the WHERE clause and supports semantic searching within indexed content. The clause can be used to search for text or images based on their semantic meaning, rather than just exact keyword matches.
+The CONTAINSSEMANTIC predicate is part of the WHERE clause and supports semantic searching within indexed content. The clause can be used to search for text or images based on their semantic similarity, rather than just exact keyword matches.
 
 The following is the basic syntax of the CONTAINSSEMANTIC predicate:
 
