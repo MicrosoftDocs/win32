@@ -76,7 +76,13 @@ This parameter provides a function pointer that, on return, receives the Excepti
 
 ### EstablisherFrame* \[out\]
 
-TBD
+This parameter provides a function pointer that, on return, receives the `Establisher Frame` associated with function that was running in the stack frame the unwinder unwound from (input).
+Windows uses the `Establisher Frame` to uniquely identify a specific stack frame in a given stack. For example, this value can be then provided to [**RtlUnwindEx**](nf-winnt-rtlunwindex.md) to identify the frame at which the stack unwind operation should stop at. This value is also provided to the Exception Handlers when unwinding the stack so they can locate particular data in the stack. An example of this is the /GS cookie validation handler using the `Establisher Frame` to locate the position of the cookie in the stack.
+The actual definition of the `Establisher Frame` is platform specific:
+|Platform|Definition|
+|--------|----------|
+|Arm64|It always represents the value of the `Stack Pointer` when the function was entered. This value does not change regardless of where in the function `ControlPc` points at, including within the Prolog and Epilog of the function|
+|x86-64|This value depends on where `ControlPc` points at in the function. When the `ControlPc` points to the Body of a function, the value is well defined as the value of the stack pointer within the Body, when the function doesn't have a `Frame Pointer`, or the value of the `Frame Pointer` when it has one. In the Prolog of a function `Establisher Frame` is the same as the `Stack Pointer` up to the point where a `Frame Pointer` is defined after which is remains constant - if one is never defined, `Establisher Frame` continues to *shadow* the Stack Pointer all the way to the body of the function, after which it must remain constant until it reaches the Epilog. `Establisher Frame` is not well defined in the Epilog of a function.|
 
 ### ContextPointers* \[in, out, optional\]
 
