@@ -63,16 +63,14 @@ The **IMAGE_FILE_MACHINES** struct returned in the *MachineTypeFlags* parameter 
 typedef struct _IMAGE_FILE_MACHINES {
     union {
         ULONG Value;
-#if !defined(SORTPP_PASS)
         struct {
-            ULONG x86 : 1;
-            ULONG amd64 : 1;
-            ULONG arm : 1;
-            ULONG arm64 : 1;
-            ULONG arm64ec : 1;
-        } DUMMYSTRUCTNAME;
-#endif
-    } DUMMYUNIONNAME;
+            ULONG MachineX86 : 1;
+            ULONG MachineAmd64 : 1;
+            ULONG MachineArm : 1;
+            ULONG MachineArm64 : 1;
+            ULONG MachineArm64EC : 1;
+        };
+    };
 } IMAGE_FILE_MACHINES;
 ```
 
