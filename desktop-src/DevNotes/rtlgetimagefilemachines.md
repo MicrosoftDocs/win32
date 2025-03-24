@@ -35,13 +35,13 @@ RtlGetImageFileMachines (
 
 ### DosFileName \[in\]
 
-Full pathname of the binary (UNICODE string)
+Provides a pointer to a UNICODE string containing the full binary pathname to be inspected.
 
 ### MachineTypeFlags \[out\]
 
-Bitfield indicating the architectures this binary contains / is compatible with.
+Provides a pointer to a `IMAGE_FILE_MACHINES` structure which contains a Bitfield through which the API will indicate the architectures this binary contains / is compatible with.
 
-The **IMAGE_FILE_MACHINES** struct returned in the *MachineTypeFlags* parameter has the following definition.
+The `IMAGE_FILE_MACHINES` struct has the following definition.
 
 ```cpp
 typedef struct _IMAGE_FILE_MACHINES {
