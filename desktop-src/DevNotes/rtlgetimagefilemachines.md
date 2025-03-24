@@ -16,7 +16,7 @@ api_location:
 
 # RtlGetImageFileMachines function
 
-This function identifies the architectures which an image is compatible with / can execute under. Most binaries contain code which can be used on a single architecture. However, there are cases, such as ILOnly-AnyCPU and Arm64X / Chameleon binaries, there a single binary may support executing are more than one architecture.
+This function identifies the architectures which an image is compatible with / can execute under. Most binaries contain code which can be used on a single architecture. However, there are cases, such as ILOnly-AnyCPU and [Arm64X](/windows/arm/arm64x-build) / Chameleon binaries, there a single binary may support executing are more than one architecture.
 
 ## Syntax
 
