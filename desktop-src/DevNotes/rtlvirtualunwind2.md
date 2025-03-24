@@ -1,5 +1,5 @@
 ---
-description: TBD.
+description: Given a representation of the CPU context within a function, calculates CPU context representing the parent (caller) stack frame.
 title: RtlVirtualUnwind2 function (Wdm.h)
 ms.topic: reference
 ms.date: 02/20/2025
@@ -16,7 +16,7 @@ api_location:
 
 # RtlVirtualUnwind2 function
 
-Given a representation of the CPU context within a function, it calculates CPU context representing the parent (caller) stack frame.
+Given a representation of the CPU context within a function, calculates CPU context representing the parent (caller) stack frame.
 
 ## Syntax
 
@@ -64,7 +64,7 @@ The address within the function represented by the ContextRecord state which sho
 
 ### FunctionEntry \[in\]
 
-The address of the function table entry for the function represented by the execution context in the ContextRecord. To obtain the function table entry, call the [RtlLookupFunctionEntry](nf-winnt-rtllookupfunctionentry.md) function. If NULL, the function will be assumed to be a leaf function with no stack frame of its own and a trivial unwind will be performed (e.g. emulate a solitary RET).
+The address of the function table entry for the function represented by the execution context in the ContextRecord. To obtain the function table entry, call the [RtlLookupFunctionEntry](/windows/win32/api/winnt/nf-winnt-rtllookupfunctionentry) function. If NULL, the function will be assumed to be a leaf function with no stack frame of its own and a trivial unwind will be performed (e.g. emulate a solitary RET).
 
 ### ContextRecord \[in, out\]
 
@@ -77,8 +77,10 @@ This parameter provides a pointer that, on return, receives the Exception Handle
 ### EstablisherFrame* \[out\]
 
 This parameter provides a pointer that, on return, receives the `Establisher Frame` associated with function that was running in the stack frame the unwinder unwound from (input).
-Windows uses the `Establisher Frame` to uniquely identify a specific stack frame in a given stack. For example, this value can be then provided to [**RtlUnwindEx**](nf-winnt-rtlunwindex.md) to identify the frame at which the stack unwind operation should stop at. This value is also provided to the Exception Handlers when unwinding the stack so they can locate particular data in the stack. An example of this is the /GS cookie validation handler using the `Establisher Frame` to locate the position of the cookie in the stack.
-The actual definition of the `Establisher Frame` is platform specific:
+Windows uses the `Establisher Frame` to uniquely identify a specific stack frame in a given stack. For example, this value can be then provided to [**RtlUnwindEx**](/windows/win32/api/winnt/nf-winnt-rtlunwindex) to identify the frame at which the stack unwind operation should stop at. This value is also provided to the Exception Handlers when unwinding the stack so they can locate particular data in the stack. An example of this is the /GS cookie validation handler using the `Establisher Frame` to locate the position of the cookie in the stack.
+
+The actual definition of the `Establisher Frame` is platform-specific:
+
 |Platform|Definition|
 |--------|----------|
 |Arm64|It always represents the value of the `Stack Pointer` when the function was entered. This value does not change regardless of where in the function `ControlPc` points at, including within the Prolog and Epilog of the function|
@@ -113,7 +115,7 @@ A bitmask of option flags with the following values and meanings:
 
 This function returns zero on success. (More detail).
 
-See http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx for a list of NTSTATUS values.
+See [NTSTATUS Values](/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55) for a list of NTSTATUS values.
 
 
 ## Remarks

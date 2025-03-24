@@ -1,5 +1,5 @@
 ---
-description: TBD
+description: Identifies the architectures which an image is compatible with / can execute under.
 title: RtlGetImageFileMachines function (Wdm.h)
 ms.topic: reference
 ms.date: 02/22/2025
@@ -62,7 +62,7 @@ typedef struct _IMAGE_FILE_MACHINES {
 
 This function returns zero on success. (More detail).
 
-See http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx for a list of NTSTATUS values.
+See [NTSTATUS Values](/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55) for a list of NTSTATUS values.
 
 
 ## Remarks
