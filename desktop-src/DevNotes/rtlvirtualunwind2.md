@@ -72,7 +72,7 @@ A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure. On entry, this
 
 ### HandlerData \[out\]
 
-This parameter provides a function pointer that, on return, receives the Exception Handler Data associated with function that was running in the stack frame the unwinder unwound from (input). The format of the data is opaque to the unwinder and is expected to be processed and understood by the `HandlerRoutine`.
+This parameter provides a pointer that, on return, receives the Exception Handler Data associated with function that was running in the stack frame the unwinder unwound from (input). The format of the data is opaque to the unwinder and is expected to be processed and understood by the `HandlerRoutine`.
 
 ### EstablisherFrame* \[out\]
 
