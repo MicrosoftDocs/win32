@@ -76,7 +76,7 @@ This parameter provides a function pointer that, on return, receives the Excepti
 
 ### EstablisherFrame* \[out\]
 
-This parameter provides a function pointer that, on return, receives the `Establisher Frame` associated with function that was running in the stack frame the unwinder unwound from (input).
+This parameter provides a pointer that, on return, receives the `Establisher Frame` associated with function that was running in the stack frame the unwinder unwound from (input).
 Windows uses the `Establisher Frame` to uniquely identify a specific stack frame in a given stack. For example, this value can be then provided to [**RtlUnwindEx**](nf-winnt-rtlunwindex.md) to identify the frame at which the stack unwind operation should stop at. This value is also provided to the Exception Handlers when unwinding the stack so they can locate particular data in the stack. An example of this is the /GS cookie validation handler using the `Establisher Frame` to locate the position of the cookie in the stack.
 The actual definition of the `Establisher Frame` is platform specific:
 |Platform|Definition|
