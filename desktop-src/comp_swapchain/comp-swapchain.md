@@ -30,7 +30,7 @@ An even more performant way to display a present would be to have presents be di
 Composition is the most easily supported, but also the least efficient. The surface needs to be specially allocated to be eligible for direct scanout or iflip, and this type of special allocation has stricter system-requirements than composition swapchain. It is only available on WDDM 3.0 and greater hardware. As a result, your application can query API support for Composition-only presentation, as well as presentation that qualifies for direct scanout or iflip.
 
 > [!NOTE]
-> In order for your surfaces to be able to take advantage of these more optimized presentation modes automatically, the surfaces need to be allocated as being directly displayable by the GPU. For Direct3D 11 surfaces, you must allocate your surfaces as [displayable](/windows/win32/direct3d11/displayable-surfaces.md). Surfaces that are not allocated as displayable can still be composited by the system compositor onscreen but will never get the benefits of independent flip mode.
+> In order for your surfaces to be able to take advantage of these more optimized presentation modes automatically, the surfaces need to be allocated as being directly displayable by the GPU. For Direct3D 11 surfaces, you must allocate your surfaces as [displayable](/windows/win32/direct3d11/displayable-surfaces). Surfaces that are not allocated as displayable can still be composited by the system compositor onscreen but will never get the benefits of independent flip mode.
 
 ## Presentation factory, checking capability, and presentation manager
 
