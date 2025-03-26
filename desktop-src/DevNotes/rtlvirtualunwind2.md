@@ -68,7 +68,7 @@ The address of the function table entry for the function represented by the exec
 
 ### ContextRecord \[in, out\]
 
-A pointer to a [CONTEXT](ns-winnt-arm64_nt_context.md) structure. On entry, this should represent the state of the CPU withing a given function. On successful return, the context will represent the CPU context at the parent (caller) frame.
+A pointer to a [CONTEXT](/windows/win32/api/winnt/ns-winnt-context) structure. On entry, this should represent the state of the CPU withing a given function. On successful return, the context will represent the CPU context at the parent (caller) frame.
 
 ### HandlerData \[out\]
 
