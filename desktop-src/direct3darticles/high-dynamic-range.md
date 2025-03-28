@@ -315,7 +315,7 @@ We recommend that general-purpose apps use Option 1. It's the only option that w
 
 That combination provides you with the numeric range and precision to specify any physically possible color, and perform arbitrary processing including blending. 
 
-However, that option consumes 64 bits per pixel, which doubles GPU bandwidth and memory consumption compared to the traditional UINT8 pixel formats. In addition, scRGB uses numeric values that are outside the normalized [0, 1] range to represent colors that are outside the sRGB gamut and/or greater than 80 nits of luminance. For example, scRGB (1.0, 1.0, 1.0) encodes the standard D65 white at 80 nits; but scRGB (12.5, 12.5, 12.5) encodes the same D65 white at a much brighter 1000 nits. Some graphics operations require a normalized numeric range, and you must either modify the operation, or re-normalize color values.
+However, that option consumes 64 bits per pixel, which doubles GPU bandwidth and memory consumption compared to the traditional UINT8 pixel formats. In addition, scRGB uses numeric values that are outside the normalized [0, 1] range to represent colors that are outside the sRGB gamut and/or greater than 80 nits of luminance. There is no enforced clamp on values below -0.5 or beyond 7.5 as specified in the old scRGB standard documents. For example, scRGB (1.0, 1.0, 1.0) encodes the standard D65 white at 80 nits; but scRGB (12.5, 12.5, 12.5) encodes the same D65 white at a much brighter 1000 nits. Some graphics operations require a normalized numeric range, and you must either modify the operation, or re-normalize color values.
 
 The way that luminance values are interpreted with that option differs between SDR and HDR displays; see below.
 
