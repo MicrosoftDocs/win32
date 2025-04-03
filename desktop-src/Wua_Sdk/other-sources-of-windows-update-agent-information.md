@@ -20,7 +20,7 @@ The following resources describe how to deploy and administer Windows Server Upd
 
 -   [Subscribe to SDK assembly updates using NuGet](/power-apps/developer/data-platform/org-service/subscribe-sdk-assembly-updates-using-nuget)
 
-    You can download updates to the WUA SDK samples, headers, and libraries. You can also find downloads on MSDN, the Microsoft Developer Network, by using the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=83468) search tool.
+    You can download updates to the WUA SDK samples, headers, and libraries. You can also find downloads on MSDN, the Microsoft Developer Network, by searching [Microsoft Download Center](https://www.microsoft.com/download).
 
 
 ## TechNet Articles and Newsgroups
