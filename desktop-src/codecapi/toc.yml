@@ -409,40 +409,41 @@
       href: /windows/win32/api/codecapi/ne-codecapi-eavencvideosourcescantype
     - name: "eAVFastDecodeMode"
       href: /windows/win32/api/codecapi/ne-codecapi-eavfastdecodemode
-    - name: "ICodecAPI"
-        href: /windows/win32/api/strmif/nn-strmif-icodecapi
   - name: "Codec API Interfaces"
     items: 
-    - name: "GetAllSettings"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-getallsettings
-    - name: "GetDefaultValue"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-getdefaultvalue
-    - name: "GetParameterRange"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-getparameterrange
-    - name: "GetParameterValues"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-getparametervalues
-    - name: "GetValue"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-getvalue
-    - name: "IsModifiable"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-ismodifiable
-    - name: "IsSupported"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-issupported
-    - name: "RegisterForEvent"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-registerforevent
-    - name: "SetAllDefaults"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-setalldefaults
-    - name: "SetAllDefaultsWithNotify"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-setalldefaultswithnotify
-    - name: "SetAllSettings"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-setallsettings
-    - name: "SetAllSettingsWithNotify"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-setallsettingswithnotify
-    - name: "SetValue"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-setvalue
-    - name: "SetValueWithNotify"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-setvaluewithnotify
-    - name: "UnregisterForEvent"
-      href: /windows/win32/api/strmif/nf-strmif-icodecapi-unregisterforevent
+    - name: "ICodecAPI"
+      href: /windows/win32/api/strmif/nn-strmif-icodecapi
+      items:
+      - name: "GetAllSettings"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-getallsettings
+      - name: "GetDefaultValue"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-getdefaultvalue
+      - name: "GetParameterRange"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-getparameterrange
+      - name: "GetParameterValues"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-getparametervalues
+      - name: "GetValue"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-getvalue
+      - name: "IsModifiable"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-ismodifiable
+      - name: "IsSupported"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-issupported
+      - name: "RegisterForEvent"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-registerforevent
+      - name: "SetAllDefaults"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-setalldefaults
+      - name: "SetAllDefaultsWithNotify"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-setalldefaultswithnotify
+      - name: "SetAllSettings"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-setallsettings
+      - name: "SetAllSettingsWithNotify"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-setallsettingswithnotify
+      - name: "SetValue"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-setvalue
+      - name: "SetValueWithNotify"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-setvaluewithnotify
+      - name: "UnregisterForEvent"
+        href: /windows/win32/api/strmif/nf-strmif-icodecapi-unregisterforevent
   - name: "Codec API Structures"
     items:
     - name: "CodecAPIEventData"
