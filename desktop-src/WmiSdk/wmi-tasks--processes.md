@@ -327,7 +327,7 @@ Next</code></pre></td>
 <tbody>
 <tr class="odd">
 <td><pre><code>$strComputer = &quot;.&quot;
-Get-WmiObject -Class &quot;Win32s_Process&quot; -ComputerName $strComputer | `
+Get-WmiObject -Class &quot;Win32_Process&quot; -ComputerName $strComputer | `
      Format-List -Property Name, KernelModeTime, UserModeTime, ProcessID, WorkingSetSize, PageFileUsage, PageFaults</code></pre></td>
 </tr>
 </tbody>
