@@ -412,39 +412,39 @@
   - name: "Codec API Interfaces"
     items: 
     - name: "ICodecAPI"
-      href: /windows/win32/api/codecapi/nn-codecapi-icodecapi
+      href: /windows/win32/api/icodecapi/nn-icodecapi-icodecapi
       items:
       - name: "GetAllSettings"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-getallsettings
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getallsettings
       - name: "GetDefaultValue"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-getdefaultvalue
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getdefaultvalue
       - name: "GetParameterRange"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-getparameterrange
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getparameterrange
       - name: "GetParameterValues"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-getparametervalues
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getparametervalues
       - name: "GetValue"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-getvalue
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getvalue
       - name: "IsModifiable"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-ismodifiable
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-ismodifiable
       - name: "IsSupported"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-issupported
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-issupported
       - name: "RegisterForEvent"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-registerforevent
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-registerforevent
       - name: "SetAllDefaults"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-setalldefaults
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setalldefaults
       - name: "SetAllDefaultsWithNotify"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-setalldefaultswithnotify
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setalldefaultswithnotify
       - name: "SetAllSettings"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-setallsettings
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setallsettings
       - name: "SetAllSettingsWithNotify"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-setallsettingswithnotify
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setallsettingswithnotify
       - name: "SetValue"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-setvalue
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setvalue
       - name: "SetValueWithNotify"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-setvaluewithnotify
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setvaluewithnotify
       - name: "UnregisterForEvent"
-        href: /windows/win32/api/codecapi/nf-codecapi-icodecapi-unregisterforevent
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-unregisterforevent
   - name: "Codec API Structures"
     items:
     - name: "CodecAPIEventData"
-      href: /windows/win32/api/codecapi/ns-codecapi-codecapieventdata
+      href: /windows/win32/api/strmif/ns-strmif-codecapieventdata
