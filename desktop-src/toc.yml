@@ -137,6 +137,8 @@
         items: 
         - name: "Overview"
           href: ./audio-and-video.md
+        - name: "Codec API Reference"
+          href: ./codecapi/codec-api-reference.md
         - name: "Core Audio APIs"
           href: ./coreaudio/core-audio-apis-in-windows-vista.md
         - name: "DirectShow"
