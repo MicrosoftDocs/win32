@@ -13,18 +13,12 @@ ms.custom: UpdateFrequency5
 
 This section contains reference information for the Encoder API.
 
--   [Codec API Properties](codec-api-properties.md)
--   [Codec API Enumerations](codec-api-enumerations.md)
+- [Codec API Properties](codec-api-properties.md)
+- [Codec API Enumerations](codec-api-enumerations.md)
 
 ## Related topics
 
-<dl> <dt>
-
-[Encoder API](encoder-api.md)
-</dt> <dt>
-
 [**ICodecAPI Interface**](/windows/desktop/api/Strmif/nn-strmif-icodecapi)
-</dt> </dl>
 
  
 
