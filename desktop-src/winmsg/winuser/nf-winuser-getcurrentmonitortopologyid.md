@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.GetCurrentMonitorTopologyId
 description: Retrieves the ID of the current monitor topology.
-tech.root: gdi
+tech.root: winmsg
 title: GetCurrentMonitorTopologyId function
 ms.topic: reference
 ms.date: 10/28/2024
