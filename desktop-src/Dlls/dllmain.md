@@ -19,6 +19,9 @@ api_location:
 
 An optional entry point into a dynamic-link library (DLL). When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process. The system also calls the entry-point function for a DLL when it is loaded or unloaded using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**FreeLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary) functions.
 
+> [!WARNING]
+> There are significant limits on what you can safely do in a DLL entry point. See [General Best Practices](dynamic-link-library-best-practices.md) for specific Windows APIs that are unsafe to call in DllMain. If you need anything but the simplest initialization then do that in an initialization function for the DLL. You can require applications to call the initialization function after DllMain has run and before they call any other functions in the DLL.
+
 ## Example
 
 ```cpp
@@ -59,9 +62,6 @@ BOOL WINAPI DllMain(
 
 This is an example from the [Dynamic-Link Library Entry-Point Function](dynamic-link-library-entry-point-function.md).
 
-
-> [!WARNING]
-> There are significant limits on what you can safely do in a DLL entry point. See [General Best Practices](dynamic-link-library-best-practices.md) for specific Windows APIs that are unsafe to call in DllMain. If you need anything but the simplest initialization then do that in an initialization function for the DLL. You can require applications to call the initialization function after DllMain has run and before they call any other functions in the DLL.
 
  
 
