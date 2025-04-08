@@ -15,6 +15,8 @@ This section contains reference information for the Encoder API.
 
 - [Codec API Properties](codec-api-properties.md)
 - [Codec API Enumerations](codec-api-enumerations.md)
+- [Codec API Interfaces](codec-api-interfaces.md)
+- [Codec API Structures](codec-api-structures.md)
 
 ## Related topics
 
