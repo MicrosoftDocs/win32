@@ -191,7 +191,7 @@ if (FAILED(hResult)
 GlobalUnlock(hData); 
 if ((atomItem = GlobalAddAtom((LPSTR) szItemName)) != 0) 
 { 
-    lParam = PackDDElParam(WM_DDE_ACK, (UINT) hData, atomItem); 
+    lParam = PackDDElParam(WM_DDE_ACK, (UINT_PTR) hData, atomItem); 
     if (!PostMessage(hwndClientDDE, 
             WM_DDE_DATA, 
             (WPARAM) hwndServerDDE, 
@@ -237,8 +237,8 @@ Upon receiving a [**WM\_DDE\_DATA**](wm-dde-data.md) message, the client process
 
 
 ```
-UnpackDDElParam(WM_DDE_DATA, lParam, (PUINT) &hData, 
-    (PUINT) &atomItem); 
+UnpackDDElParam(WM_DDE_DATA, lParam, (PUINT_PTR) &hData, 
+    (PUINT_PTR) &atomItem); 
 if (!(lpDDEData = (DDEDATA FAR*) GlobalLock(hData)) 
         || (lpDDEData->cfFormat != CF_TEXT)) 
 { 
@@ -329,7 +329,7 @@ if ((atomItem = GlobalAddAtom((LPSTR) szItem)) != 0)
         if (!PostMessage(hwndServerDDE, 
                 WM_DDE_POKE, 
                 (WPARAM) hwndClientDDE, 
-                PackDDElParam(WM_DDE_POKE, (UINT) hPokeData, 
+                PackDDElParam(WM_DDE_POKE, (UINT_PTR) hPokeData, 
                     atomItem))) 
         { 
             GlobalDeleteAtom(atomItem); 
@@ -354,8 +354,8 @@ If the server is able to accept the data-item value in the format rendered by th
 
 
 ```
-UnpackDDElParam(WM_DDE_POKE, lParam, (PUINT) &hPokeData, 
-    (PUINT) &atomItem); 
+UnpackDDElParam(WM_DDE_POKE, lParam, (PUINT_PTR) &hPokeData, 
+    (PUINT_PTR) &atomItem); 
 GlobalGetAtomName(atomItem, szItemName, ITEM_NAME_MAX_SIZE); 
 if (!(lpPokeData = (DDEPOKE *) GlobalLock(hPokeData)) 
         || lpPokeData->cfFormat != CF_TEXT 
@@ -426,7 +426,7 @@ if ((atomItem = GlobalAddAtom(szItemName)) != 0)
     if (!(PostMessage(hwndServerDDE, 
             WM_DDE_ADVISE, 
             (WPARAM) hwndClientDDE, 
-            PackDDElParam(WM_DDE_ADVISE, (UINT) hOptions, 
+            PackDDElParam(WM_DDE_ADVISE, (UINT_PTR) hOptions, 
                 atomItem)))) 
     { 
         GlobalDeleteAtom(atomItem); 
@@ -647,7 +647,7 @@ if ((atomItem = GlobalAddAtom(szItemName)) != 0)
     if (!PostMessage(hwndClientDDE, 
             WM_DDE_DATA, 
             (WPARAM) hwndServerDDE, 
-            PackDDElParam(WM_DDE_DATA, (UINT) hData, atomItem))) 
+            PackDDElParam(WM_DDE_DATA, (UINT_PTR) hData, atomItem))) 
     { 
         GlobalFree(hData); 
         GlobalDeleteAtom(atomItem); 
@@ -758,7 +758,7 @@ GlobalUnlock(hCommand);
 if (!PostMessage(hwndServerDDE, 
         WM_DDE_EXECUTE, 
         (WPARAM) hwndClientDDE, 
-        PackDDElParam(WM_DDE_EXECUTE, 0, (UINT) hCommand))) 
+        PackDDElParam(WM_DDE_EXECUTE, 0, (UINT_PTR) hCommand))) 
 { 
     GlobalFree(hCommand); 
     FreeDDElParam(WM_DDE_EXECUTE, lParam); 
