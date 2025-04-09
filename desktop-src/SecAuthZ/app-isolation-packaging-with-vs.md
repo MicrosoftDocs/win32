@@ -91,4 +91,4 @@ After publishing the App Packages, the *Output location* displayed shows the roo
 
 [Application Capability Profiler](app-isolation-capability-profiler.md)
 
-[Packaging an isolated Win32 app with MSIX](app-isolation-msix-packaging.md)
+[Supported Capabilities](app-isolation-supported-capabilities.md)
