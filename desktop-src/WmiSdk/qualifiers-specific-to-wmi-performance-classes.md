@@ -3,7 +3,7 @@ description: Raw performance counter classes, derived from Win32\_PerfRawData, c
 ms.assetid: 565b867f-0aab-4fa4-b797-7feb3852e1fd
 ms.tgt_platform: multiple
 title: Qualifiers Specific to WMI Performance Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

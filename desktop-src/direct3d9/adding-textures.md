@@ -2,7 +2,7 @@
 description: To add textures, use the hierarchical nature of the file format and add an optional TextureFilename data object to the Material data objects.
 ms.assetid: 741f4c05-49f8-4c76-be5c-ce5b496124bb
 title: Adding Textures (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Bindlink library.
 ms.assetid: d38b3a2b-0526-4ce7-8f18-7b5d845e4d01
 title: Bindlink API (bindlink.h)
-ms.topic: article
+ms.topic: reference
 ms.date: 02/27/2024
 ---
 

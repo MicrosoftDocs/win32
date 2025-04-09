@@ -2,7 +2,7 @@
 description: Metadata Support
 ms.assetid: f3b4a3d9-a353-4af8-9998-cb7da7a062b7
 title: Metadata Support
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

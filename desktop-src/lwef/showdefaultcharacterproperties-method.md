@@ -2,7 +2,7 @@
 title: ShowDefaultCharacterProperties Method
 description: ShowDefaultCharacterProperties Method
 ms.assetid: a3b109c0-5701-4a72-baae-bcbb97b025a3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

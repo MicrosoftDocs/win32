@@ -2,7 +2,7 @@
 description: The Internet Protocol Helper (IP Helper) API enables the retrieval and modification of network configuration settings for the local computer.
 ms.assetid: 4896a9f8-0486-4380-bf49-d1c9ef114acc
 title: IP Helper
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

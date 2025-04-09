@@ -9,7 +9,7 @@ keywords:
 - Windows Touch,zoom support
 - Windows Touch,legacy support
 - Windows Touch,RealTimeStylus plug-in
-ms.topic: article
+ms.topic: concept-article
 ms.date: 10/01/2021
 ---
 

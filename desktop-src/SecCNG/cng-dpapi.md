@@ -2,7 +2,7 @@
 description: Microsoft introduced the data protection application programming interface (DPAPI) in Windows.
 ms.assetid: 048DEA72-39E1-4129-A554-F7D08442C2D9
 title: CNG DPAPI
-ms.topic: article
+ms.topic: reference
 ms.date: 06/06/2023
 ---
 

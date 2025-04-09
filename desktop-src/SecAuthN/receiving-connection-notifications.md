@@ -2,7 +2,7 @@
 description: Some applications need to receive notification of connection events, either before the event, just after it occurs, or both. You can create a DLL to receive advance and after-the-fact notification of connection events.
 ms.assetid: 692eb8f2-1c53-4535-b44d-babb30eecd9c
 title: Receiving Connection Notifications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

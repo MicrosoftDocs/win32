@@ -2,7 +2,7 @@
 description: Debug and trace facilities and Windows Sockets 2.
 ms.assetid: eb29fc21-92d6-4471-860a-fd1c531686f6
 title: Debug and Trace Facilities
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

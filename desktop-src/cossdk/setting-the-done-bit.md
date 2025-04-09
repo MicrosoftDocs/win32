@@ -2,7 +2,7 @@
 description: Setting the Done Bit
 ms.assetid: badd3b5a-ce6f-4be7-9dd8-a3b17344b185
 title: Setting the Done Bit
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

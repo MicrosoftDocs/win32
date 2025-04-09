@@ -2,7 +2,7 @@
 title: Name Service Entry Cleanup
 description: A name service entry should contain information that does not change frequently.
 ms.assetid: b581bc10-e537-4714-b89a-d998fec23360
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

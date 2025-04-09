@@ -2,7 +2,7 @@
 description: Microsoft Message Queuing (MSMQ) - Improved Queue Handling
 ms.assetid: 49bdfdfa-c77e-4a57-8079-bf4ff6b5010b
 title: Microsoft Message Queuing (MSMQ) - Improved Queue Handling
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

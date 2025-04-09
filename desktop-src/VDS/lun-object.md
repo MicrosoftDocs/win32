@@ -2,7 +2,7 @@
 description: LUN Object
 ms.assetid: ea22bd6d-4a7a-4674-82e9-08460914ff8e
 title: LUN Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

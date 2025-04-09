@@ -2,7 +2,7 @@
 description: While Windows Sockets service providers are encouraged to implement sockets as installable file system (IFS) objects, the Winsock architecture also accommodates service providers whose socket handles are not IFS objects.
 ms.assetid: ed5e10f4-fa17-4a07-9cac-43767915b8e9
 title: Descriptor Allocation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

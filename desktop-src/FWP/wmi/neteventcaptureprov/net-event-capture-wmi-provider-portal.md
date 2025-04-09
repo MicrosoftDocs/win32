@@ -5,7 +5,7 @@ ms.assetid: 301e2fb3-c268-424a-bee6-792bdbd13b61
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

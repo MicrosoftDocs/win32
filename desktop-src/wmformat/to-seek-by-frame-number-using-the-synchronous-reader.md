@@ -10,7 +10,7 @@ keywords:
 - synchronous readers,seeking by frame numbers
 - video streams,seeking by frame numbers
 - video streams,synchronous readers
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

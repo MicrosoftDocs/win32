@@ -2,7 +2,7 @@
 description: A security descriptor contains the security information associated with a securable object.
 ms.assetid: '4ab0e7b1-1b44-4368-b2bd-106c9d2c652c'
 title: Security Descriptors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

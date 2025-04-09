@@ -2,7 +2,7 @@
 description: The following functions are used with the default queue callback routine.
 ms.assetid: 2122c1cf-3ea9-4601-8a2e-dd991b09edc2
 title: Default Queue Callback Routine Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

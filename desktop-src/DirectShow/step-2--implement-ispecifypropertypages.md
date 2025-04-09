@@ -2,7 +2,7 @@
 description: Implement the ISpecifyPropertyPages interface in your filter as part of creating a filter property page for a custom DirectShow filter.
 ms.assetid: 8be83564-07ad-47cf-9538-73136f42ba79
 title: Step 2. Implement ISpecifyPropertyPages
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

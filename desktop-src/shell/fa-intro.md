@@ -2,7 +2,7 @@
 description: 'This section on file types and file associations is organized as follows:'
 ms.assetid: 45d8b729-1e9d-40c0-8306-9a475262ac40
 title: File Types and File Associations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

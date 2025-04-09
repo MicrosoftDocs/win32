@@ -2,7 +2,7 @@
 description: Installation of a new service provider is highly device- and operating-system-specific, so the details are outside the scope of this SDK.
 ms.assetid: 5b48e144-5092-4462-b74c-d3295d23afe1
 title: Installation and Initialization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

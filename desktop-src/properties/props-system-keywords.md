@@ -2,7 +2,7 @@
 description: The set of keywords (also known as &\#0034;tags&\#0034;) assigned to the item.
 ms.assetid: 427ed6c9-88cb-4b33-998f-663b59e677c9
 title: System.Keywords
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

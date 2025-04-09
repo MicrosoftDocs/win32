@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - User Account Management Examples ADSI ,LDAP provider
 - LDAP provider ADSI ,user management examples
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

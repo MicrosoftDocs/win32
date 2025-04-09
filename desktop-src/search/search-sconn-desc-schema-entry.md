@@ -2,7 +2,7 @@
 description: Introduces the Search Connector Description schema that is used by Windows Explorer libraries and federated search providers.
 ms.assetid: b85a04c6-9398-4cc7-a894-881216600203
 title: Search Connector Description Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

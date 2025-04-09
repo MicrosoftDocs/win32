@@ -2,7 +2,7 @@
 description: The RMCCPSearch action uses file signatures to validate that qualifying products are installed on a system before an upgrade installation is performed.
 ms.assetid: d37b2434-86eb-4c6e-b817-77c75dcebbf5
 title: RMCCPSearch Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

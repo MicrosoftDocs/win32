@@ -6,7 +6,7 @@ keywords:
 - OpenGL,OpenGL Utility (GLU)
 - OpenGL Utility (GLU)
 - GLU library OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

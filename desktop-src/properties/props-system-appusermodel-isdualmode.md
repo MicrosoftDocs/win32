@@ -2,7 +2,7 @@
 description: Indicates that an application supports dual desktop and immersive modes. In Windows 8, this property is only applicable for web browsers.
 ms.assetid: 91e29f22-2873-4ab4-8285-61c54e710f87
 title: System.AppUserModel.IsDualMode
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

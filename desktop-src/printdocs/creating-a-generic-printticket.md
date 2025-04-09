@@ -2,7 +2,7 @@
 description: Learn how to construct a generic PrintTicket, in case the PrintCapabilities document for the device is unavailable.
 ms.assetid: 1f991b6b-8443-4234-ad46-dc4220e34c5c
 title: Creating a Generic PrintTicket
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

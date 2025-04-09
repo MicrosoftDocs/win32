@@ -2,7 +2,7 @@
 title: VML Viewpoint Attribute
 description: VML Viewpoint Attribute
 ms.assetid: 6c814f02-d410-4dd5-a3a2-8cf8ce50586a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

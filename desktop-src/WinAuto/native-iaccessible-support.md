@@ -2,7 +2,7 @@
 title: Native IAccessible Support
 description: Oleacc.dll implements IAccIdentity on behalf of OBJID\_CLIENT \ 160;IAccessible interface pointers and their immediate simple element children.
 ms.assetid: 98c6d68b-b64d-44d4-93c3-6c7c6732d59d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

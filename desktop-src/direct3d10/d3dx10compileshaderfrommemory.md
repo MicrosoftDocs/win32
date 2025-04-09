@@ -2,7 +2,7 @@
 description: Learn about the D3DX10CompileEffectFromResource function, which has been deprecated. See D3DX10CompileFromMemory.
 ms.assetid: 863d471f-b8c4-4670-85fc-cd8535a1ff78
 title: D3DX10CompileShaderFromMemory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Object Handlers
 description: Object Handlers
 ms.assetid: a5b51e07-246d-42a2-b33f-2bd0c608f41a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

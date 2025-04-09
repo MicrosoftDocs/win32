@@ -5,7 +5,7 @@ ms.assetid: f6bba6fc-fec2-4dd9-b7f2-da7782a6caa5
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

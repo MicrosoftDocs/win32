@@ -3,7 +3,7 @@ description: The system registry contains resource-related data.
 ms.assetid: e66f1db8-a5f3-41d3-9835-34b81b9da5ed
 ms.tgt_platform: multiple
 title: Describing a Resource for the Registry
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

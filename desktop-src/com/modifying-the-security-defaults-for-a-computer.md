@@ -2,7 +2,7 @@
 title: Modifying the Security Defaults for a Computer
 description: Modifying the Security Defaults for a Computer
 ms.assetid: c6d84375-59ea-42d5-87f9-af514b6f7d7c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

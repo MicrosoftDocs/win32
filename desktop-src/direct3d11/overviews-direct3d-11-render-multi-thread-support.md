@@ -2,7 +2,7 @@
 title: How To Check for Driver Support
 description: This topic shows how to determine whether multithreading features (including resource creation and command lists) are supported for hardware acceleration.
 ms.assetid: f577357c-c2e5-4e58-9870-2e995bdc6782
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

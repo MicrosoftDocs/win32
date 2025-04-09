@@ -2,7 +2,7 @@
 description: Video Media Types
 ms.assetid: 'b8cfe0d1-013d-4706-bb76-6d426836ab6a'
 title: Video Media Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Basic DirectShow Tasks
 ms.assetid: eb064064-1b18-4e89-8555-258e8538338c
 title: Basic DirectShow Tasks
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

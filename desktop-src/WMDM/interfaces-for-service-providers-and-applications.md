@@ -15,7 +15,7 @@ keywords:
 - programming reference,application interfaces
 - reference for Windows Media Device Manager,application interfaces
 - application interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Obtaining the Address of a Virtual Function Table
 description: Obtaining the Address of a Virtual Function Table
 ms.assetid: c9e9e2df-75e6-4684-a465-6905e76b10a2
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: DMO Wrapper Filter
 ms.assetid: ffa6234d-9040-4838-8f51-0cf87df40a5c
 title: DMO Wrapper Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

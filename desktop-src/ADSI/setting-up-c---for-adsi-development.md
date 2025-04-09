@@ -5,7 +5,7 @@ ms.assetid: 6f1ab3eb-2e0b-4f3e-b93c-e24c8b3b1a27
 ms.tgt_platform: multiple
 keywords:
 - Setting Up C++ for ADSI Development
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

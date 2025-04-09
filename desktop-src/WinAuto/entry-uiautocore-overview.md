@@ -13,7 +13,7 @@ keywords:
 - Microsoft Win32 API
 - UI Automation for Microsoft Win32 API
 - Microsoft UI Automation for Microsoft Win32 API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

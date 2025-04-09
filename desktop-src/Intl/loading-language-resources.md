@@ -2,7 +2,7 @@
 description: Loading Language Resources
 ms.assetid: 2655b2a3-2926-43f6-aef4-8b756c02a162
 title: Loading Language Resources
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

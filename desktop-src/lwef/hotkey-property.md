@@ -2,7 +2,7 @@
 title: HotKey Property
 description: HotKey Property
 ms.assetid: 76d1fe57-f74c-4bfe-b5e5-1e60ac7ef63c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to create a custom Jump List for an application, including adding a custom category and tasks.
 title: Custom Jump List Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 60DEDB01-8F8F-4c25-8FCC-8EAC461A99B7
 api_name: 

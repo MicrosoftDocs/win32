@@ -2,7 +2,7 @@
 description: Using the Windows Media Audio Voice Codec
 ms.assetid: 771acb04-33a4-4ea3-8f50-e5e3dbdf9495
 title: Using the Windows Media Audio Voice Codec
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

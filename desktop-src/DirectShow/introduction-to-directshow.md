@@ -2,7 +2,7 @@
 description: Introduction to DirectShow
 ms.assetid: 39a701b3-2633-426f-9733-2172ad3ea372
 title: Introduction to DirectShow
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

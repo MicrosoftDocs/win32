@@ -4,7 +4,7 @@ description: The getaddrinfo function provides translation from host name to add
 ms.assetid: e17d8542-d4bc-499c-bae4-1f41bff493c3
 keywords:
 - Bluetooth and getaddrinfo Bluetooth
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

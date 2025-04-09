@@ -2,7 +2,7 @@
 description: File Writer Filter
 ms.assetid: 2bfbea8a-679f-4656-9ff3-fdf34aa0eb26
 title: File Writer Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

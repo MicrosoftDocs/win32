@@ -2,7 +2,7 @@
 title: Using IProvideClassInfo
 description: Using IProvideClassInfo
 ms.assetid: 16541aab-474f-4ae5-a6b6-fb2fea6d38ab
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

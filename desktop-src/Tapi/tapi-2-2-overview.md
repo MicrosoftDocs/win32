@@ -2,7 +2,7 @@
 description: The Microsoft Telephony Application Programming Interface (TAPI) version 2.2 is a C-based interface that allows developers to implement a range of communications applications.
 ms.assetid: bc67ffbf-c29c-4545-911e-b70ecd43cdfc
 title: TAPI 2.2 Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

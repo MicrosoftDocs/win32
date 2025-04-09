@@ -2,7 +2,7 @@
 description: The Encrypted File System (EFS) provides cryptographic protection of individual files on NTFS file system volumes by using a public-key system.
 ms.assetid: 5f20109f-727d-44a9-90a1-0adc19b00d28
 title: File Encryption
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

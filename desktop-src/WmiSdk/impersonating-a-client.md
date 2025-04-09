@@ -3,7 +3,7 @@ description: When a user application requests data from objects on the system th
 ms.assetid: 6d54f234-45aa-445b-ad50-7d5a9946c134
 ms.tgt_platform: multiple
 title: Impersonating a Client
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

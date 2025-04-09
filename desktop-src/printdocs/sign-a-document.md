@@ -2,7 +2,7 @@
 description: This topic describes how to sign an XPS document.
 ms.assetid: fbe64aed-6b07-49de-910c-18be68cb65a2
 title: Sign a Document
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

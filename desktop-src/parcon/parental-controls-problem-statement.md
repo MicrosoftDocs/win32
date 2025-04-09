@@ -2,7 +2,7 @@
 description: Parental Controls Problem Statement
 ms.assetid: 45918739-de36-4b92-824f-ad7c23995ec2
 title: Parental Controls Problem Statement
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

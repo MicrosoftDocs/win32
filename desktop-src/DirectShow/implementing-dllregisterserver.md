@@ -2,7 +2,7 @@
 description: Implementing DllRegisterServer
 ms.assetid: aaa4069e-0b6a-4a76-b950-1a85a9ed969d
 title: Implementing DllRegisterServer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Introduction (WIC Guidelines for Camera RAW Image Formats)
 ms.assetid: 3c588386-1d4d-4ee0-b633-bfc94ca751ea
 title: Introduction (WIC Guidelines for Camera RAW Image Formats)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

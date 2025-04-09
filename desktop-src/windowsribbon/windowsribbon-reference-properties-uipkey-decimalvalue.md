@@ -2,7 +2,7 @@
 title: UI_PKEY_DecimalValue
 description: Identifies the UI\_PKEY\_DecimalValue property.
 ms.assetid: 1bfa99c2-a31c-4524-9d1c-1b320e97c41a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

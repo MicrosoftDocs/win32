@@ -2,7 +2,7 @@
 description: Read about the PageNegativeImage user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 4f6ff85c-8cad-4b9b-8a1d-ce41ed7dfbed
 title: PageNegativeImage
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

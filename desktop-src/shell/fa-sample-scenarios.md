@@ -2,7 +2,7 @@
 description: In the following example, a hypothetical software development company called Litware, Inc.
 ms.assetid: e4392907-a84f-40ea-aa88-2ad0510bca3c
 title: File Association Example
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

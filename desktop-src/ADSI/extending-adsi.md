@@ -3,7 +3,7 @@ title: Extending ADSI
 description: With the ADSI extension model, you can associate a directory class with your own COM object.
 ms.assetid: bf9a324d-14eb-4eb9-a80d-b0431db3af26
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

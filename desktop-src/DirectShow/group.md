@@ -2,7 +2,7 @@
 description: Group
 ms.assetid: d1391664-df1d-4b2f-9625-d3be09cc1110
 title: Group (DirectShow)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: 'The Direct3D 10 API is described in the following sections:'
 ms.assetid: ff729810-bd9d-4396-a6aa-bbeb558bd3fa
 title: Reference for Direct3D 10
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

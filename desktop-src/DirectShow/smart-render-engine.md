@@ -2,7 +2,7 @@
 description: Smart Render Engine
 ms.assetid: 279be879-9728-4fa1-bdf7-6b48485fc75f
 title: Smart Render Engine
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

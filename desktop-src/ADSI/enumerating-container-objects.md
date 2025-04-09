@@ -3,7 +3,7 @@ title: Enumerating Container Objects
 description: By convention, all items in an enumeration in ADSI must be of the same Automation data type. For example, an enumeration should not return some items as a VARIANT of type VT\_I4 and others as a VARIANT of type VT\_BSTR.
 ms.assetid: 155caa67-05db-432b-b813-0d891a502301
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

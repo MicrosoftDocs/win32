@@ -8,7 +8,7 @@ keywords:
 - MCI MIDI sequencer,division type
 - MCI_STATUS command
 - sequence division type
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

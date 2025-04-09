@@ -2,7 +2,7 @@
 title: Cross-fade effect
 description: This effect combines two images by adding weighted pixels from input images. It has two inputs, named Destination and Source.
 ms.assetid: 5214b70a-d024-ba3e-771f-07d98d2278ba
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

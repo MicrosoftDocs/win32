@@ -2,7 +2,7 @@
 description: Learn about the PageSourceColorProfile element. This element defines the characteristics of the source color profile.
 ms.assetid: aa4f5425-6ca1-4820-b15d-bbead1f6d735
 title: PageSourceColorProfile
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: d9b9db51-ed1b-4db4-a4de-b8798c9647ac
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services, using, backing up and restoring
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

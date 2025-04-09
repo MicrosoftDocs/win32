@@ -8,7 +8,7 @@ keywords:
 - codecs,low-delay audio
 - codecs,audio support
 - low-delay audio
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

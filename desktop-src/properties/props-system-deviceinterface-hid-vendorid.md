@@ -2,7 +2,7 @@
 description: HID device Vendor Id.
 ms.assetid: d9aaf5ea-4c74-45af-84a5-7fbf542cae1d
 title: System.DeviceInterface.Hid.VendorId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

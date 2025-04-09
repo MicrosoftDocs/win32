@@ -4,7 +4,7 @@ description: Registering the server program in the endpoint map of the server ho
 ms.assetid: d09874f8-2b55-4af2-bfe1-8978301d6692
 keywords:
 - Remote Procedure Call RPC , tasks, registering endpoints
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

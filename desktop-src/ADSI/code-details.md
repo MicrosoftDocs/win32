@@ -5,7 +5,7 @@ ms.assetid: 207912e5-ac17-48c7-9536-981a8e92e8cf
 ms.tgt_platform: multiple
 keywords:
 - Code Details ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

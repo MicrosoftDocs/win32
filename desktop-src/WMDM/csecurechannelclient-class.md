@@ -9,7 +9,7 @@ keywords:
 - programming reference,CSecureChannelClient class
 - reference for Windows Media Device Manager,CSecureChannelClient class
 - CSecureChannelClient class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

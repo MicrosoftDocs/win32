@@ -2,7 +2,7 @@
 title: Block compression
 description: Describes how block compression works and how to use it in WIC and Direct2D.
 ms.assetid: 52AF86A5-16E8-4AC8-BB67-CC2F1A3635B5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Controlling Devices
 description: UPnP-based devices are controlled by the services they expose.
 ms.assetid: 4edca439-f767-41e6-97bb-ead751930714
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

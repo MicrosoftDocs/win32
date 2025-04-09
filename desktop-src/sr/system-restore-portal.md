@@ -5,7 +5,7 @@ ms.assetid: 6861eedc-2bd9-49c7-8682-ea557fa29d28
 keywords:
 - System Restore
 - System Restore, start page
-ms.topic: article
+ms.topic: reference
 ms.date: 09/05/2024
 ---
 

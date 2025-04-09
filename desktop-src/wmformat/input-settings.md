@@ -15,7 +15,7 @@ keywords:
 - Advanced Systems Format (ASF),input settings
 - ASF (Advanced Systems Format),input settings
 - input settings
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

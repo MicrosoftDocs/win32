@@ -5,7 +5,7 @@ ms.assetid: c42dce45-8f9e-4920-ac3d-ff7549aae3e9
 keywords:
 - porting to OpenGL,sample
 - OpenGL porting,sample
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

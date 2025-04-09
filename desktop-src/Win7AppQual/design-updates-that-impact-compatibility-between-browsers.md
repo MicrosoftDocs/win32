@@ -2,7 +2,7 @@
 description: Design Updates that Impact Compatibility between Browsers
 ms.assetid: F2C13FEC-5537-4B0D-BFDB-E17A42A289CB
 title: Design Updates that Impact Compatibility between Browsers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

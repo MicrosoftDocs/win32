@@ -2,7 +2,7 @@
 title: URL Monikers
 description: The OLE moniker architecture provides a convenient programming model for working with URLs.
 ms.assetid: 8e0e2bad-9275-4b96-a96b-35d9c933ae31
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

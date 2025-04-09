@@ -2,7 +2,7 @@
 description: Remove All the Filters in the Graph
 ms.assetid: a11af581-c331-4607-be8b-5f65961bd422
 title: Remove All the Filters in the Graph
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

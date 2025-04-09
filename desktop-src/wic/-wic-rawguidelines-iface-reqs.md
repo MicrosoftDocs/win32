@@ -2,7 +2,7 @@
 description: Interface Method Requirements
 ms.assetid: 8c2afeb3-3e0b-4f8a-a2f4-df7c9ce4b098
 title: Interface Method Requirements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

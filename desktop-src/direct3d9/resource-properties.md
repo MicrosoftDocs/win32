@@ -2,7 +2,7 @@
 description: All resources share the following properties.
 ms.assetid: 6ef6ce68-44fa-4964-8b61-2a37382eda1c
 title: Resource Properties (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

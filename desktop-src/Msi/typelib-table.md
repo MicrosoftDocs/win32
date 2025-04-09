@@ -2,7 +2,7 @@
 description: The TypeLib table contains the information that needs to be placed in the registry registration of type libraries.
 ms.assetid: 86b827ed-e707-4627-9488-78eafb444d32
 title: TypeLib Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

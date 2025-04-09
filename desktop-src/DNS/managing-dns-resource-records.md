@@ -2,7 +2,7 @@
 title: Managing DNS Resource Records
 description:  Learn about managing resource records. A resource record is the unit of information entry in DNS zone files, which used to resolve all DNS queries.
 ms.assetid: 'ddad5f14-5a2d-4966-87b7-b354666f9e24'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

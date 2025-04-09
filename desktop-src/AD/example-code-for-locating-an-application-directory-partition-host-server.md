@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Example Code for Locating an Application Directory Partition Host Server AD
 - Application Directory Partition AD , Example Code for Locating an Application Directory Partition Host Server
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

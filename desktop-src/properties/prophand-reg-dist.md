@@ -2,7 +2,7 @@
 description: This article explains how to register and distribute property handlers to work with the Windows property system.
 ms.assetid: E6E81E04-9CC1-4df5-9A87-DE0CBD177356
 title: Registering and Distributing Property Handlers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

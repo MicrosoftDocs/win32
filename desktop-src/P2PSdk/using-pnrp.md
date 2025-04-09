@@ -2,7 +2,7 @@
 description: The following topics describe solutions to common tasks encountered when developing applications using PNRP.
 ms.assetid: 107287ef-1a71-4974-8830-a0c2a45c4981
 title: Using PNRP
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

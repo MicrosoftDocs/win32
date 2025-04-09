@@ -2,7 +2,7 @@
 description: Offline Registry Library
 ms.assetid: 5861e0a9-6a3f-4bc8-ae8b-d51c9de28217
 title: Offline Registry Library
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

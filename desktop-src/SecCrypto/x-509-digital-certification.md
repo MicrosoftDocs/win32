@@ -2,7 +2,7 @@
 description: Digital certification involves a process for signing the certificate. This process is described.
 ms.assetid: bb0382fd-2924-429f-933b-84ab61debf20
 title: X.509 Digital Certification
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

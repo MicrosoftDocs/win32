@@ -2,7 +2,7 @@
 description: Windows Search provides content crawling and search features that support full-text searching. The query language used by Windows Search extends the standard SQL-92 and SQL-99 database query syntax to enhance its usefulness with text-based searches.
 ms.assetid: a2eb550a-bb55-4dbd-9ca1-60b776eb9339
 title: Querying the Index with Windows Search SQL Syntax
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

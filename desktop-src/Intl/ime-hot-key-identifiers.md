@@ -2,7 +2,7 @@
 description: These identifiers are used with the ImmSimulateHotKey function.
 ms.assetid: a262ef4e-d8ab-4eb6-88c6-023b90850cc6
 title: IME Hot Key Identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

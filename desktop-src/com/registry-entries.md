@@ -2,7 +2,7 @@
 title: Registry Entries (COM)
 ms.assetid: f4f8875c-6416-4919-b49b-bcd675efcbd2
 description: "Learn more about: Registry Entries (COM)"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

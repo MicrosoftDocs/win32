@@ -2,7 +2,7 @@
 description: Transmit from Type-2 File
 ms.assetid: c14c1798-aeff-44d8-a2e4-2fe4c146dfb9
 title: Transmit from Type-2 File
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

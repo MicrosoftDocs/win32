@@ -2,7 +2,7 @@
 title: Base Types
 description: To prevent the problems that implementation-dependent data types can cause on different computer architectures, MIDL defines its own base data types.
 ms.assetid: 0b2778c7-8cee-415f-bb5e-01f6c9eedc70
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

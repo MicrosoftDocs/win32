@@ -2,7 +2,7 @@
 title: VML Skew Element
 description: VML Skew Element
 ms.assetid: ab58bbd9-5fb2-434f-adea-9b3d2d170804
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

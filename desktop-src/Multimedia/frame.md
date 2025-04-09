@@ -4,7 +4,7 @@ description: Frame
 ms.assetid: '9a48da30-8163-4399-abe3-3bf061eb4aaf'
 keywords:
 - AVICap callback functions,frame notification messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

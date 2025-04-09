@@ -5,7 +5,7 @@ ms.assetid: f6f558d8-2e34-4314-9583-f815921aac7e
 keywords:
 - retrieving task comment Task Scheduler
 - retrieving work item properties Task Scheduler , task comment
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

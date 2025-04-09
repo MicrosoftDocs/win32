@@ -2,7 +2,7 @@
 description: System.Media.SubTitle
 ms.assetid: e98bf6ca-0572-419b-8bc0-bc0239f8a6ff
 title: System.Media.SubTitle
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

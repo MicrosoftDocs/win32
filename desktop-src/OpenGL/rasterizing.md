@@ -5,7 +5,7 @@ ms.assetid: 8d4e3033-2afe-4526-8862-799c45ea9a6a
 keywords:
 - OpenGL processing pipeline,rasterizing
 - rasterizing OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

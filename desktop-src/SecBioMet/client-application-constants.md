@@ -4,7 +4,7 @@ description: Constants defined in the Winbio\_types.h header file.
 ms.assetid: 5632f425-6247-49f5-b9dd-63e2187e1672
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , client application constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

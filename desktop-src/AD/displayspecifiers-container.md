@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - DisplaySpecifiers Container
 - Container, Display Specifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

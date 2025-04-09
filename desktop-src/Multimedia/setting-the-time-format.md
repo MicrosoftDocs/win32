@@ -4,7 +4,7 @@ description: Setting the Time Format
 ms.assetid: c670d47e-30fc-4637-b468-b6a415605dca
 keywords:
 - MCI_SET command message
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

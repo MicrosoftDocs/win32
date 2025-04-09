@@ -2,7 +2,7 @@
 description: The IInstallationProgress interface defines the following properties.
 ms.assetid: f16c682f-3e9f-4767-8f26-d7af0a14d720
 title: IInstallationProgress Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

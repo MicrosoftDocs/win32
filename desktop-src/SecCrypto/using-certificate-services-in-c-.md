@@ -2,7 +2,7 @@
 description: The Certificate Services API elements can be used in C++, C, Visual Basic, or other COM-compliant languages.
 ms.assetid: cfe02086-87ff-40cb-9116-694158e9ae1f
 title: Using Certificate Services in C++
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

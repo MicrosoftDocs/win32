@@ -2,7 +2,7 @@
 description: Learn about the System.ZoneIdentifier property, which is the mark of the web zone, as a URLZONE enumeration value.
 ms.assetid: 9d13d739-3d94-4fe2-9f63-21ed2fe5d44f
 title: System.ZoneIdentifier
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

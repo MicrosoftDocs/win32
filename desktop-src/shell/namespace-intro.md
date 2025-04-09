@@ -2,7 +2,7 @@
 description: Learn about the Shell namespace and its data source objects. This namespace offers extensibility options in the Windows Shell UI.
 ms.assetid: 539c4455-e1c7-45a0-b3c3-781f2b7a1617
 title: Introduction to the Shell Namespace
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

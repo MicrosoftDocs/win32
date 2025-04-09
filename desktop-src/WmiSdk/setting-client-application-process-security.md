@@ -3,7 +3,7 @@ description: Client applications that call WMI interfaces can control the securi
 ms.assetid: 790b4e40-9b92-464a-a774-dec0b75cedee
 ms.tgt_platform: multiple
 title: Setting Client Application Process Security
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

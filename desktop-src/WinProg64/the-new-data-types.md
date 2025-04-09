@@ -5,7 +5,7 @@ ms.assetid: 016977d4-e7bf-463e-9755-7ef13f16e9e5
 keywords:
 - 64-bit Windows programming guide 64-bit Windows Programming , data types
 - data types 64-bit Windows Programming
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

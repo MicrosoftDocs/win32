@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),media type identifiers
 - ASF (Advanced Systems Format),media type identifiers
 - media types,identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

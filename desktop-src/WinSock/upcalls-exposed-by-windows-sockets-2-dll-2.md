@@ -2,7 +2,7 @@
 description: This section lists the upcalls that service providers may make into the Windows Sockets client.
 ms.assetid: a2069814-de95-40a2-ab09-c5187ecd56a7
 title: Upcalls Exposed by Windows Sockets 2 DLL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

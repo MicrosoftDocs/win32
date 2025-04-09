@@ -2,7 +2,7 @@
 description: System.EndDate
 ms.assetid: bc2e0d1a-e6b5-4529-9787-6493dbcbf964
 title: System.EndDate
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

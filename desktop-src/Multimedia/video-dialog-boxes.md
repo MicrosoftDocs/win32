@@ -11,7 +11,7 @@ keywords:
 - capDlgVideoDisplay macro
 - WM_CAP_DLG_VIDEOCOMPRESSION message
 - capDlgVideoCompression macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

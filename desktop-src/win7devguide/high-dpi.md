@@ -2,7 +2,7 @@
 title: High DPI
 description: High DPI
 ms.assetid: 476fe65c-2acd-4a7a-8a76-72d9f010b772
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

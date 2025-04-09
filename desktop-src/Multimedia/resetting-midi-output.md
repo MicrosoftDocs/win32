@@ -13,7 +13,7 @@ keywords:
 - MIDI output devices
 - EOX (end-of-exclusive)
 - end-of-exclusive (EOX)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

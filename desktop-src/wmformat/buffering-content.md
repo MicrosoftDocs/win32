@@ -5,7 +5,7 @@ ms.assetid: e14e0130-aefd-4e46-b288-4302d2333de2
 keywords:
 - Windows Media Format SDK,buffering content
 - buffering content
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

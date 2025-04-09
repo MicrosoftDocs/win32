@@ -2,7 +2,7 @@
 title: User-Defined Type
 description: Use the following syntax to declare a user-defined type.
 ms.assetid: 8ef18864-f456-4b52-af83-f9b1050a0bba
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

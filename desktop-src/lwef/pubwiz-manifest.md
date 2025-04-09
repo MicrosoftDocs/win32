@@ -8,7 +8,7 @@ keywords:
 - transfer manifest
 - manifest
 - window.external,transfer manifest
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

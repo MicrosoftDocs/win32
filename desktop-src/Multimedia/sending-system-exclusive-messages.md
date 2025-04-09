@@ -11,7 +11,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),system-exclusive messages
 - playing MIDI files,system-exclusive messages
 - system-exclusive MIDI messages
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

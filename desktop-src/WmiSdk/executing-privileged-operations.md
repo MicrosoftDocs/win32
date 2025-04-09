@@ -3,7 +3,7 @@ description: Privileged operations require security privileges such as SeLoadDri
 ms.assetid: 11bb8723-f329-4083-8219-2256ce44a5e3
 ms.tgt_platform: multiple
 title: Executing Privileged Operations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

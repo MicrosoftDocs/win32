@@ -2,7 +2,7 @@
 description: To avoid race conditions and deadlocks, it is necessary to synchronize access by multiple threads to shared resources. Synchronization is also necessary to ensure that interdependent code is executed in the proper sequence.
 ms.assetid: 74af0502-dae1-438c-8e4b-7663093b3fe3
 title: Synchronizing Execution of Multiple Threads
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

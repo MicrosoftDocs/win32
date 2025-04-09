@@ -24,7 +24,7 @@ keywords:
 - text services,TSF manager
 - TSF-enabled applications,TSF manager
 - TSF manager
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

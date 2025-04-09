@@ -2,7 +2,7 @@
 title: IP Address Control
 description: This section contains information about the programming elements used with IP address controls.
 ms.assetid: 'vs|controls|~\controls\ipaddress\reflist.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

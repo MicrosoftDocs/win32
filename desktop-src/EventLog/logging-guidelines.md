@@ -2,7 +2,7 @@
 description: Event logs store records of significant events on behalf of the system and applications running on the system.
 ms.assetid: 58a6569a-2775-4687-bf99-579fa4153191
 title: Logging Guidelines
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/09/2024
 ---
 

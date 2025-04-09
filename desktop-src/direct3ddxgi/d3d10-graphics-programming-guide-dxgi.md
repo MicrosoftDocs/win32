@@ -2,7 +2,7 @@
 description: This topic contains the following sections.
 ms.assetid: 0522ccbf-e754-470a-8199-004fcbaa927d
 title: DXGI overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

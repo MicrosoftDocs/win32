@@ -16,7 +16,7 @@ keywords:
 - vector graphics,defining paths for shapes
 - VML shapes,defining paths
 - defining paths for shapes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

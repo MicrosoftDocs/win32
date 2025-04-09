@@ -2,7 +2,7 @@
 description: An application configuration file is an XML file used to control assembly binding.
 ms.assetid: b7453f2b-52a4-4af9-8410-ebbb430ada67
 title: Application Configuration Files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

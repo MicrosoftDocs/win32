@@ -5,7 +5,7 @@ ms.assetid: 3957af10-974a-415f-b8fb-d9b52ac5a82d
 ms.tgt_platform: multiple
 keywords:
 - service principal names AD ,composing and registering SPNs for an SCP-based Windows sockets service
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

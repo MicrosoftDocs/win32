@@ -2,7 +2,7 @@
 description: Creates a CMC request object from an inner nested PKCS \#10 request.
 ms.assetid: 8a0dc078-22ca-4bff-9cc0-46823912d3da
 title: createCNGCustomCMC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

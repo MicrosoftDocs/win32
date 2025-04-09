@@ -1,7 +1,7 @@
 ---
 title: High-performance HTTP Server code example
 description: The code example in this topic builds into an app that demonstrates how to use the HTTP Server APIs asynchronously from multiple threads to achieve high performance and throughput when performing server-side tasks.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/28/2024
 ---
 

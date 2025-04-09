@@ -2,7 +2,7 @@
 title: Accessing Speech Services (Microsoft Agent Server Interface)
 description: Learn about accessing speech services with Microsoft Agent Server Interface. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 99cf630d-3bd1-403a-833a-9173a84fe3c0
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

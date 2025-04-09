@@ -3,7 +3,7 @@ title: Creating a Connection Request Policy
 description: Creating a Connection Request Policy
 ms.assetid: 659e7d1e-d985-4cb1-95ad-355c5b44d55a
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

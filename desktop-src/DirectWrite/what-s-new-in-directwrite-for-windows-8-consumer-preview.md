@@ -2,7 +2,7 @@
 title: What's new in DirectWrite
 description: Here are some of the new additions to DirectWrite.
 ms.assetid: 2512D222-C6EB-4C2D-80A6-7978FED56F7A
-ms.topic: article
+ms.topic: whats-new
 ms.date: 09/23/2019
 ---
 

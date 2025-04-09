@@ -2,7 +2,7 @@
 description: When a document or text needs to have privacy protected by a single user or when the document is to be shared among a small group of people who all have access to the same secret password, simple encryption/decryption can be done.
 ms.assetid: 68eefd24-c924-4dd1-8cb3-cc20106f9605
 title: Encrypting and Decrypting Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

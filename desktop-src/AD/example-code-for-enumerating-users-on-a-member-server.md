@@ -5,7 +5,7 @@ ms.assetid: a856281a-7f84-44d0-9123-b27fda56e0ea
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , enumerating users on a member server
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

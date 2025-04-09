@@ -2,7 +2,7 @@
 description: Building Filter Graphs to Write ASF Files
 ms.assetid: c4885152-d7d2-4749-a79a-e0effd38837d
 title: Building Filter Graphs to Write ASF Files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

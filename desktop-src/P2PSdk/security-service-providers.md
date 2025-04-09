@@ -2,7 +2,7 @@
 description: The Security Service Provider Interface (SSPI) provides a universal, industry-standard interface for secure distributed applications.
 ms.assetid: c3cebb9d-9094-493f-96d3-763a0c282dfb
 title: Security Service Providers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

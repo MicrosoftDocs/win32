@@ -3,7 +3,7 @@ description: You can create a remote connection to WMI with VBScript by creating
 ms.assetid: b2ad262b-148d-47cc-8be7-6df99245aa7f
 ms.tgt_platform: multiple
 title: Connecting to WMI Remotely with VBScript
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

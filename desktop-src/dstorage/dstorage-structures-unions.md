@@ -2,7 +2,7 @@
 title: DirectStorage structures and unions
 description: The following structures and unions are declared in dstorage.h for DirectStorage-based programming.
 ms.assetid: 7FE8796A-98D1-4333-8755-2A47567460B3
-ms.topic: article
+ms.topic: reference
 ms.date: 08/25/2022
 ---
 

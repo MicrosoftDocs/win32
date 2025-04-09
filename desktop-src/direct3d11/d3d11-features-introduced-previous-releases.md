@@ -2,7 +2,7 @@
 title: Features Introduced In Previous Releases
 ms.assetid: c70a7f7d-1833-478f-bd71-7462d860b5f4
 description: "Learn more about: Features Introduced In Previous Releases"
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

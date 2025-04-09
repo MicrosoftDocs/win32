@@ -2,7 +2,7 @@
 title: 'How to: Stream a sound from disk'
 description: You can stream audio data in XAudio2 by creating a separate thread and perform buffer reads of the audio data in the streaming thread, and then use callbacks to control that thread.
 ms.assetid: 48b80a66-91c1-973f-069b-6f63422d7154
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

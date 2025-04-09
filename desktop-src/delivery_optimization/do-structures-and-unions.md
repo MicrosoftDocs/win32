@@ -2,7 +2,7 @@
 title: Delivery Optimization Structures and Unions
 description: The Delivery Optimization interfaces use the following structures.
 ms.assetid: 58A5361E-871A-4911-85BD-83F18CB9A2F5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/04/2022
 ---
 

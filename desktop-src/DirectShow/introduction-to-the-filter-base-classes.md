@@ -2,7 +2,7 @@
 description: Introduction to the Filter Base Classes
 ms.assetid: db6324d7-1914-44a8-a202-dff752b61c1a
 title: Introduction to the Filter Base Classes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

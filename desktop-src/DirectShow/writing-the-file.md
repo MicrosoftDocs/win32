@@ -2,7 +2,7 @@
 description: Writing the File
 ms.assetid: d3dbe6ab-810c-4798-a769-c3f00c52a93a
 title: Writing the File
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

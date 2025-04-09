@@ -1,7 +1,7 @@
 ---
 description: Learn how to build a cloud files sync engine that uses placeholder files using the cloud files API.
 title: Build a Cloud Sync Engine that Supports Placeholder Files
-ms.topic: article
+ms.topic: how-to
 ms.date: 11/12/2020
 ---
 

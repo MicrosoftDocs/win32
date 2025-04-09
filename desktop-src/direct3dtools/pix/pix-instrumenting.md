@@ -1,7 +1,7 @@
 ---
 title: Instrument your app
 description: Documenting how to instrument applications for use with PIX.
-ms.topic: article
+ms.topic: reference
 ms.date: 07/09/2024
 ---
 

@@ -2,7 +2,7 @@
 description: Country/Region Assignments
 ms.assetid: a71784eb-e6b4-4dab-91fc-103c39dd1591
 title: Country/Region Assignments
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

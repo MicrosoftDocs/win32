@@ -2,7 +2,7 @@
 title: Looking Up Text for Error Code Numbers
 description: It is sometimes necessary to display error text associated with error codes returned from networking-related functions. You may need to perform this task with the network management functions provided by the system.
 ms.assetid: 90ed87ca-7a08-4a66-b06a-e1bf668fb81a
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

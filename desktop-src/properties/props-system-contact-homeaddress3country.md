@@ -2,7 +2,7 @@
 description: System.Contact.HomeAddress3Country
 ms.assetid: 32c9f8ed-c5a8-43a4-9347-d631ff56827b
 title: System.Contact.HomeAddress3Country
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

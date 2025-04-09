@@ -2,7 +2,7 @@
 description: This topic lists the frequency tables used for analog TV tuning for Switzerland.
 ms.assetid: 67f7b6f0-9dd5-49de-b29c-e2a7343aaf73
 title: Switzerland Channel Assignments
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

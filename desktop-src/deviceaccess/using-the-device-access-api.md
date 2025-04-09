@@ -2,7 +2,7 @@
 title: How to Use the Device Access API
 description: This topic contains tasks and design considerations for using the Device Access API.
 ms.assetid: 8D951EB5-4AFB-4051-8F1F-30F847F1A757
-ms.topic: article
+ms.topic: how-to
 ms.date: 02/11/2020
 ---
 

@@ -3,7 +3,7 @@ description: This association makes explicit the dependency of a SAP or protocol
 ms.assetid: a24168ee-9100-44ee-8877-c3fb1952f4b5
 title: CIM_BindsToLANEndpoint WMI class
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

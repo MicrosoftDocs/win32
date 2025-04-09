@@ -1,7 +1,7 @@
 ---
 title: Displayable surfaces
 description: The displayable surfaces feature means that buffers that are presented may have varying properties, and you may present them in any order.
-ms.topic: article
+ms.topic: reference
 ms.date: 04/30/2024
 ---
 

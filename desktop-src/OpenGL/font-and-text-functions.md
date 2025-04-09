@@ -5,7 +5,7 @@ ms.assetid: 42e16967-1eeb-4d37-bbd6-33c473eb2757
 keywords:
 - WGL functions,text
 - WGL functions,font
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Scroll Bar
 description: This section contains information about the programming elements used with scroll bars.
 ms.assetid: 'vs|controls|~\controls\scrollbars\scrollbars.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

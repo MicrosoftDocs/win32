@@ -5,7 +5,7 @@ ms.assetid: 030da25a-a606-4521-a243-d902c772fd00
 ms.tgt_platform: multiple
 keywords:
 - Deleting Local Groups AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

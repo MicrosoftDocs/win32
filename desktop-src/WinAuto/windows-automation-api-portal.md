@@ -2,7 +2,7 @@
 title: Windows Automation API overview
 description: Microsoft Windows offers two API specifications for user interface accessibility and software test automation Microsoft Active Accessibility, and Microsoft UI Automation.
 ms.assetid: 73acc580-9573-40ea-8727-b0e7292b2a4c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

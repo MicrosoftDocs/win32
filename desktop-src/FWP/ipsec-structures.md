@@ -2,7 +2,7 @@
 title: IPsec Structures
 description: IPsec Structures
 ms.assetid: FF1FE626-B9F9-4091-8B82-BEB9D229B93D
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

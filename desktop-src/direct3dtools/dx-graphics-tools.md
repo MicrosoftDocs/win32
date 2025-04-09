@@ -2,7 +2,7 @@
 title: Tools for DirectX graphics
 description: This section lists tools and utilities provided for DirectX graphics.
 ms.assetid: 89fb8587-f475-45f7-8faf-fe195a2b4b66
-ms.topic: article
+ms.topic: reference
 ms.date: 07/09/2024
 ---
 

@@ -2,7 +2,7 @@
 description: AVI Mux Filter
 ms.assetid: 31d30c91-fc6a-45ec-a2e0-34e6a1e902a4
 title: AVI Mux Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: Supplicant API Call Sequence
 description: Learn about the supplicant API call sequence. See an overview of the call sequence and view additional available resources.
 ms.assetid: 83276783-aee5-43ac-982d-1144df982a7d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

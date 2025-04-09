@@ -3,7 +3,7 @@ title: What's new in Windows Vista for Terminal Services
 description: Windows Vista introduces the following new programming elements for Terminal Services.
 ms.assetid: f5c0311e-ae54-4871-acac-ed5dcbe353d7
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

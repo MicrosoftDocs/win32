@@ -2,7 +2,7 @@
 title: Asynchronous and Synchronous Binding
 description: Asynchronous and Synchronous Binding
 ms.assetid: 9852df19-5ae4-4425-9ce0-cac160d68456
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

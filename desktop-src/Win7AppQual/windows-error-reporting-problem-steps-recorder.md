@@ -2,7 +2,7 @@
 description: Windows Error Reporting Problem Steps Recorder
 ms.assetid: ce5db84a-53b6-4a7f-bee4-d198d8a6781e
 title: Windows Error Reporting Problem Steps Recorder
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

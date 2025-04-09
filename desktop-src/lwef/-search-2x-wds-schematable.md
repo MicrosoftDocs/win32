@@ -2,7 +2,7 @@
 title: Schema (Legacy Windows Environment Features)
 description: The schema documents the values and properties that the index uses to store data for indexing or sorting.
 ms.assetid: dfd8862c-8f84-441e-a4b4-4af3c76c48f9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

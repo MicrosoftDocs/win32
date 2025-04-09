@@ -2,7 +2,7 @@
 description: 'For a Tablet PC application to operate with ink effectively, that application should be able to:'
 ms.assetid: 64a7b773-35c9-42f7-aec4-7fed34fa84d9
 title: Important Interoperability Scenarios
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Device Formats
 ms.assetid: 591437e4-21ef-42f1-a752-7f50440cbd63
 title: Device Formats
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

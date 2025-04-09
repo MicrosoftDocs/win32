@@ -2,7 +2,7 @@
 description: The following example creates a timer that will be signaled after a 10 second delay.
 ms.assetid: 3c84c2ad-6bac-4f14-a633-51d4529314af
 title: Using Waitable Timer Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

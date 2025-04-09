@@ -2,7 +2,7 @@
 title: Create a directory listing in a ListBox
 description: This topic demonstrates how to use a single-selection list box to display and access the contents of a directory.
 ms.assetid: 11C0DB10-59BA-47C4-8687-101A2A85D660
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

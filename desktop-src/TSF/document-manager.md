@@ -8,7 +8,7 @@ keywords:
 - text services,document manager
 - TSF-enabled applications,document manager
 - document manager
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

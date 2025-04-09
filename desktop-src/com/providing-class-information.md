@@ -2,7 +2,7 @@
 title: Providing Class Information
 description: Providing Class Information
 ms.assetid: 808d9a39-4511-4aba-a23f-3c929970503b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

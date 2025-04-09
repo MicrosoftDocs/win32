@@ -3,7 +3,7 @@ description: Queue-length algorithm counter types increment the number of items 
 ms.assetid: 514b1a79-ed9d-4ec6-a6ea-b3490291ce18
 ms.tgt_platform: multiple
 title: Queue-length Algorithm Counter Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

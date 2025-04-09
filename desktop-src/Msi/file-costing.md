@@ -2,7 +2,7 @@
 description: Costing is the process of determining the total disk space requirements for an installation.
 ms.assetid: 53ebb532-9eb3-46b7-9dcc-f593bfd25c60
 title: File Costing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

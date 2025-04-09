@@ -2,7 +2,7 @@
 title: Predefined Category Values
 description: Predefined Category Values
 ms.assetid: 04c0632d-ac64-4081-ba95-c11feb3f40dd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

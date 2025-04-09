@@ -2,7 +2,7 @@
 description: In Winsock applications, error codes are retrieved using the WSAGetLastError function, the Windows Sockets substitute for the Windows GetLastError function.
 ms.assetid: cb73fc92-74bd-4c8b-a1c0-6daf4d298aa1
 title: Error Codes - errno, h_errno and WSAGetLastError
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

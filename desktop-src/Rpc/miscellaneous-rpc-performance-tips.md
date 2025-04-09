@@ -2,7 +2,7 @@
 title: Miscellaneous RPC Performance Tips
 description: This section discusses miscellaneous performance tips for developing high performance RPC servers. This section provides many tips that refer to the RPC client. Developing an RPC client properly enables the RPC server to perform less work.
 ms.assetid: 82278f4b-1273-45e8-9078-ad919a4711f0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

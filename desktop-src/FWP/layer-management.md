@@ -2,7 +2,7 @@
 title: Layer Management
 description: Layer Management
 ms.assetid: E1EE6FFF-A83C-4CC8-88A8-2D11D2B8F7C9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

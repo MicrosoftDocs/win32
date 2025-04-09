@@ -2,7 +2,7 @@
 description: There is another class of asynchronous events besides those described above.
 ms.assetid: eaf4b014-1cab-4707-b750-9088e745083e
 title: Asynchronous Spontaneous Events
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The numerator of PKEY\_Photo\_MaxAperture.
 ms.assetid: 7c58998a-6b06-4e4c-b183-e894bcabba3c
 title: System.Photo.MaxApertureNumerator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

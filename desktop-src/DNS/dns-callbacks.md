@@ -1,8 +1,8 @@
-﻿---
+---
 title: DNS callbacks
 description: The following callbacks are defined for DNS.
 ms.assetid: 0564A588-F372-483E-AC12-9B8E834ECCFF
-ms.topic: article
+ms.topic: reference
 ms.date: 07/13/2023
 ---
 

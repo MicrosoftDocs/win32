@@ -2,7 +2,7 @@
 description: Audio Capture and Rendering Interfaces
 ms.assetid: 79b42ffd-703a-4a7c-bb2d-5cfc2fbeb16c
 title: Audio Capture and Rendering Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Developers of Windows Installer packages may choose to use a custom action type 1 when the standard actions are insufficient to execute the installation.
 ms.assetid: 277b875f-37f1-4f4d-98ae-7a18131de4f0
 title: Custom Action Type 1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

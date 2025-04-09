@@ -2,7 +2,7 @@
 title: FontControl Sample
 description: This code sample demonstrates the markup and code required to implement a FontControl within a Windows Ribbon application.
 ms.assetid: 8fb84bd1-5e63-447c-b7a0-b3d7cb8c3be7
-ms.topic: article
+ms.topic: sample
 ms.date: 07/13/2021
 ---
 

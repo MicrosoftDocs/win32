@@ -3,7 +3,7 @@ description: WMI contains an event infrastructure that produces notifications ab
 ms.assetid: 347808a7-0f7b-4687-93f4-bea55c96795a
 ms.tgt_platform: multiple
 title: Receiving a WMI Event
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

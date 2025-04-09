@@ -2,7 +2,7 @@
 description: System.Sensitivity
 ms.assetid: ad20504c-4920-4d72-86ef-04c82d71be70
 title: System.Sensitivity
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

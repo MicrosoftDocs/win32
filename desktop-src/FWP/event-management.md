@@ -2,7 +2,7 @@
 title: Event Management
 description: Event Management
 ms.assetid: DA6B76B8-E436-44D0-890D-12EE17960EBB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

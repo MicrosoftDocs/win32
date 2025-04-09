@@ -2,7 +2,7 @@
 description: This topic describes some of the things to consider when using libraries in your program.
 ms.assetid: 40ACC8F6-1416-4390-A8D7-8F924DC2C2FE
 title: Using Libraries in your Program
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

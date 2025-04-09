@@ -13,7 +13,7 @@ keywords:
 - UI Automation,properties
 - UI Automation,retrieving properties
 - retrieving properties
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

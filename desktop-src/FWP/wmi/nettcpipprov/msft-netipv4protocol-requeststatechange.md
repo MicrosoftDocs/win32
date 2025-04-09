@@ -5,7 +5,7 @@ title: RequestStateChange method of the MSFT\_NetIPv4Protocol class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

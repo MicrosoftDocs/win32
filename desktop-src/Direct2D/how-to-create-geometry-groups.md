@@ -8,7 +8,7 @@ keywords:
 - Direct2D,geometry groups
 - path geometries
 - Direct2D,path geometries
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

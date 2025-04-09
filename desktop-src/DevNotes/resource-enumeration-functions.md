@@ -2,7 +2,7 @@
 description: 'The following functions are used in resource enumeration:'
 ms.assetid: cc624e25-f53e-4442-ae6b-9e8b65d983da
 title: Resource Enumeration Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

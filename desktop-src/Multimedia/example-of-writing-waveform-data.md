@@ -7,7 +7,7 @@ keywords:
 - auxiliary audio,writing waveform data
 - writing waveform data
 - WAVEHDR structure
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

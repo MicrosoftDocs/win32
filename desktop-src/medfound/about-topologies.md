@@ -2,7 +2,7 @@
 description: About Topologies
 ms.assetid: 4f69b099-0ca7-4ea6-8412-0f1ea02e1600
 title: About Topologies
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

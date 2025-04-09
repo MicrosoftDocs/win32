@@ -2,7 +2,7 @@
 title: COM Clients and Servers
 description: A critical aspect of COM is how clients and servers interact.
 ms.assetid: 5d1d8613-3087-443d-8547-a767c8ba4959
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

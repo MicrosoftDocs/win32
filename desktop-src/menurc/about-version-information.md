@@ -7,7 +7,7 @@ keywords:
 - version information
 - adding version information
 - file conflicts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

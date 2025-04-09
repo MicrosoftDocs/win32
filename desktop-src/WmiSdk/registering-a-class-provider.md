@@ -3,7 +3,7 @@ description: To create a WMI class provider you must register the \_\_Win32Provi
 ms.assetid: ed834969-47e9-47df-9db8-c805b2eb71da
 ms.tgt_platform: multiple
 title: Registering a Class Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

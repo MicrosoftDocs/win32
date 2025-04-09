@@ -2,7 +2,7 @@
 description: Physical Address Extension (PAE) is a processor feature that enables x86 processors to access more than 4 GB of physical memory on capable versions of Windows.
 ms.assetid: 1aec2414-cc93-4a86-955d-2433360c9125
 title: Physical Address Extension
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

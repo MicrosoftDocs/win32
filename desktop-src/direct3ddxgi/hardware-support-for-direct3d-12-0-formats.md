@@ -2,7 +2,7 @@
 description: This section specifies the formats ([**DXGI_FORMAT_***](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) values) that are supported in Direct3D Feature Level 12.0 hardware.
 ms.assetid: A039A82B-2E30-41A6-96B5-AD5538FE2285
 title: Format support for Direct3D Feature Level 12.0 hardware
-ms.topic: article
+ms.topic: reference
 ms.date: 02/28/2025
 ---
 

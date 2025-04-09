@@ -2,7 +2,7 @@
 description: 'This section contains information about the following effect structures:'
 ms.assetid: bbd69b4b-d2f4-471f-a607-328f5fc603b5
 title: Effect Structures (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

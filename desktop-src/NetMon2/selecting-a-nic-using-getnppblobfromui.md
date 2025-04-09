@@ -2,7 +2,7 @@
 description: With Network Monitor, selecting a NIC programmatically is a two-step process. First, create the filter BLOB by calling the CreateBlob method. Then, select the NIC by calling the GetNPPBlobFromUI method.
 ms.assetid: 0556b20a-307e-4bc3-a986-cfee96a8655d
 title: Selecting a NIC Using GetNPPBlobFromUI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

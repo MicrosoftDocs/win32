@@ -2,7 +2,7 @@
 description: About DirectX Video Acceleration
 ms.assetid: 50f402e5-7e85-4e80-ad72-9c3887efcd10
 title: About DirectX Video Acceleration
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

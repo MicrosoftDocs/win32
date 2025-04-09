@@ -2,7 +2,7 @@
 description: System.RecordedTV.RecordingTime
 ms.assetid: 7df8a958-b844-4b56-93a7-cc6c1dbf1e8f
 title: System.RecordedTV.RecordingTime
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

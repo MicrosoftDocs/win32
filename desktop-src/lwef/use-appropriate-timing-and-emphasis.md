@@ -2,7 +2,7 @@
 title: Use Appropriate Timing and Emphasis
 description: Use Appropriate Timing and Emphasis
 ms.assetid: a0b26313-ed1f-4858-b1a1-f519c798e0be
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Step 8.
 ms.assetid: c54745ef-beeb-40b6-9db6-6e3b5da860f8
 title: Step 8. Apply Property Changes
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: DirectShow Editing Services Architecture
 ms.assetid: ba6cc3f1-9130-4197-8501-c2d0a088e847
 title: DirectShow Editing Services Architecture
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

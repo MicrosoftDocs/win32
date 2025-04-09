@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - ADSI,ASP pages,authentication issues
 - ADSI,authentication,ASP issues
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

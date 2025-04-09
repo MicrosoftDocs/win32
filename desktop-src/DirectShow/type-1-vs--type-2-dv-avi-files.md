@@ -2,7 +2,7 @@
 description: Type-1 vs.
 ms.assetid: 3f1cf981-f678-46a6-9784-ffb389438b6d
 title: Type-1 vs. Type-2 DV AVI Files
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

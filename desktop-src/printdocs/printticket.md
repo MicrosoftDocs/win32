@@ -2,7 +2,7 @@
 description: Find information about the PrintTicket element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 'fe6bd921-cbf3-4cca-afae-82d3822206ba'
 title: PrintTicket
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

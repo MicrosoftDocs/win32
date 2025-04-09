@@ -9,7 +9,7 @@ keywords:
 - service providers,IDL files
 - programming guide,IDL files
 - IDL files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

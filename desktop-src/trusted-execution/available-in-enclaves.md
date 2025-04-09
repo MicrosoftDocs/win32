@@ -3,7 +3,7 @@ description: Enclaves are used to create trusted execution environments. These A
 ms.assetid: d9493d81-565f-4451-a888-7eabc8498d1d
 title: APIs available in VBS enclaves
 titleSuffix: Secure Enclaves
-ms.topic: article
+ms.topic: reference
 ms.date: 11/20/2024
 ---
 

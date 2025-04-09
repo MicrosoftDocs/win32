@@ -2,7 +2,7 @@
 description: The following example contains a key generation request shown in ASN.1 format.
 ms.assetid: d08c33f8-f372-44d3-8c8e-a26440e85c34
 title: Key Generation Encoded ASN.1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: UMA Optimizations CPU Accessible Textures and Standard Swizzle
 description: Unified Memory Architecture (UMA) GPUs offer some efficiency advantages over discrete GPUs, especially when optimizing for mobile devices.
 ms.assetid: 26C41948-9625-4786-BBDF-552D1F8A2437
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Remote Desktop Services AudioEndpoint Enumeration Types
 description: The following enumeration types are used with the AudioEndpoint API.
 ms.assetid: a9fc7245-c045-460c-b725-85b18e1a22d4
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

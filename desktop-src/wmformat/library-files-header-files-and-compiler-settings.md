@@ -15,7 +15,7 @@ keywords:
 - DRM (digital rights management),header files
 - digital rights management (DRM),compiler settings
 - DRM (digital rights management),compiler settings
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: After the system successfully calls your OpenPerformanceData function, it calls your CollectPerformanceData function to collect the counter data.
 ms.assetid: 73b022df-0148-4afc-8536-8b1c766b1ee6
 title: Implementing CollectPerformanceData
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

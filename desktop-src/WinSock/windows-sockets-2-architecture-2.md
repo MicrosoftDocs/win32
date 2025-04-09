@@ -2,7 +2,7 @@
 description: The Windows Sockets 2 (Winsock) architecture is compliant with the Windows Open System Architecture (WOSA).
 ms.assetid: d4cf1462-2e83-49a5-b698-350ff37aa497
 title: Windows Sockets 2 Architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

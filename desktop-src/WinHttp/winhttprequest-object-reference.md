@@ -2,7 +2,7 @@
 description: The following topic contains reference documentation for using WinHTTP.
 ms.assetid: 991c3c30-8eb5-4927-bc46-cabc36db020c
 title: WinHttpRequest Object Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 07/22/2020
 topic_type: 
 - kbArticle

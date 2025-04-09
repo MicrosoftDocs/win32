@@ -2,7 +2,7 @@
 description: DirectDraw Exclusive Mode
 ms.assetid: 3ef4f267-4dc2-421b-ade4-6b1efa364733
 title: DirectDraw Exclusive Mode
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Nondeferred custom actions that call dynamic-link libraries or scripts may access a running installation to query or modify the attributes of the current installation session.
 ms.assetid: cf70b0b3-ac81-47ab-a4c8-4db53ed9dc84
 title: Accessing the Current Installer Session from Inside a Custom Action
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: A Component table is required in every merge module.
 ms.assetid: ef4a0678-bf6b-47c9-89e8-40e12da52d9b
 title: Authoring Merge Module Component Tables
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

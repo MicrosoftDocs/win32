@@ -2,7 +2,7 @@
 description: The NT Kernel Logger session is an event tracing session that records a predefined set of kernel events.
 ms.assetid: 3c4258d8-8073-4cc5-a29d-ce485a3fdc14
 title: Configuring and Starting the NT Kernel Logger Session
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

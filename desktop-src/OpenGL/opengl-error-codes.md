@@ -11,7 +11,7 @@ keywords:
 - GL_STACK_OVERFLOW error code
 - GL_STACK_UNDERFLOW error code
 - GL_OUT_OF_MEMORY error code
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

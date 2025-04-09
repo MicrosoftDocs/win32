@@ -2,7 +2,7 @@
 description: Icon overlay handlers are in-process Component Object Model (COM) objects, implemented as DLLs.
 ms.assetid: ADF27BFD-CC96-43F9-9EBB-DEBE0DEA7B92
 title: How to Implement Icon Overlay Handlers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

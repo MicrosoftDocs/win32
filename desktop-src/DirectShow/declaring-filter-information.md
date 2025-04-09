@@ -2,7 +2,7 @@
 description: Declaring Filter Information
 ms.assetid: ed3c1d44-ccef-4dde-819b-f5d4d3be6d1e
 title: Declaring Filter Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -1,7 +1,7 @@
 ---
 description: This section documents several functions that belong to the MSDelta interface.
 title: MSDelta
-ms.topic: article
+ms.topic: reference
 ms.date: 12/03/2020
 ---
 

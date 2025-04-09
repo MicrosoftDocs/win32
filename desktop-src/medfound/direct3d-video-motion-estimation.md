@@ -2,7 +2,7 @@
 description: This article contains guidance for motion vector estimation with Direct3D 12 video APIs.
 ms.assetid: 
 title: Direct3D video motion estimation
-ms.topic: article
+ms.topic: reference
 ms.date: 08/19/2019
 ---
 

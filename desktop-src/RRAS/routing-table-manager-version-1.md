@@ -2,7 +2,7 @@
 title: Routing Table Manager Version 1
 description: Routing Table Manager Version 1
 ms.assetid: 'a288c161-bb06-41fa-8e02-2f3320e8d1f2'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

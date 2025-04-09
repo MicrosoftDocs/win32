@@ -2,7 +2,7 @@
 description: Flushing
 ms.assetid: '868218c4-3e1a-4da0-89fa-30a9848da0e8'
 title: Flushing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

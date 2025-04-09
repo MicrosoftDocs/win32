@@ -2,7 +2,7 @@
 description: ASF Encoding Types
 ms.assetid: ffa99c6b-3b62-4068-96d5-ad57c340d088
 title: ASF Encoding Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

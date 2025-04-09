@@ -16,7 +16,7 @@ keywords:
 - Standard MIDI Files specification
 - General MIDI (GM) specification
 - GM (General MIDI) specification
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

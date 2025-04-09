@@ -2,7 +2,7 @@
 description: On Windows Vista and later, you can use pseudo-locales for testing the localizability of applications. This topic includes procedures for using pseudo-codes.
 ms.assetid: 1eccdbb9-a1bd-443a-a5f6-d64c9e5c87b3
 title: Using pseudo-locales for localizability testing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/05/2018
 ---
 

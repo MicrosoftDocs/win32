@@ -2,7 +2,7 @@
 description: MSTape Driver
 ms.assetid: aa59f322-09b1-4b0a-be6f-d865c20f76e5
 title: MSTape Driver
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

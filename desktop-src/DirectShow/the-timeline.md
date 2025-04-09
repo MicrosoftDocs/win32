@@ -2,7 +2,7 @@
 description: The Timeline
 ms.assetid: a3b8bff2-8593-483c-af49-a975ab2dc330
 title: The Timeline
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

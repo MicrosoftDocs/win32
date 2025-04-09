@@ -2,7 +2,7 @@
 description: Understand how to use the CRUMB argument in Windows Search as a means of controlling the scope of a search.
 ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: CRUMB Argument (Windows Search)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

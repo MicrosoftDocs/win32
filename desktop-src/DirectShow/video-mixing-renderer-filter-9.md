@@ -2,7 +2,7 @@
 description: Video Mixing Renderer Filter 9
 ms.assetid: 3885cca2-74b1-4066-8ecb-84c9841f9e66
 title: Video Mixing Renderer Filter 9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

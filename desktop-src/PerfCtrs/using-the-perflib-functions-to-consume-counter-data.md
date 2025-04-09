@@ -2,7 +2,7 @@
 title: Using the PerfLib Functions to Consume Counter Data
 description: PerfLib API functions can be used to consume V2 Performance Counter data directly when PDH cannot be used.
 ms.date: 08/17/2020
-ms.topic: article
+ms.topic: concept-article
 ---
 # Using the PerfLib Functions to Consume Counter Data
 

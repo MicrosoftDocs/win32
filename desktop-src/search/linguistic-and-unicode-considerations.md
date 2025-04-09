@@ -2,7 +2,7 @@
 description: Linguistic and Unicode Considerations
 ms.assetid: a210bffc-fe71-4909-bc5c-d440890265c9
 title: Linguistic and Unicode Considerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

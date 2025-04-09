@@ -2,7 +2,7 @@
 description: The print spooler monitors the current print jobs and the target printer to determine an appropriate time to print a job.
 ms.assetid: c3ce7c63-b72d-4e91-9509-5189f2ccac8a
 title: Print Processor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Base Multimedia Streaming Interfaces
 ms.assetid: a94dbb64-dfca-4c24-8c11-761835faf8a8
 title: Base Multimedia Streaming Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

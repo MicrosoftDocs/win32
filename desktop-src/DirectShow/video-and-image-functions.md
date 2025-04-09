@@ -2,7 +2,7 @@
 description: Video and Image Functions
 ms.assetid: 02401edc-362b-4f6c-b10b-c46b30b3ebe7
 title: Video and Image Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

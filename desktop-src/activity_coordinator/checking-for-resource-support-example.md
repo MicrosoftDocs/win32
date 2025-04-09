@@ -1,7 +1,7 @@
 ---
 description: An example that shows how apps can use IsActivityCoordinatorResourceSupported to detect support for resources.
 title: Checking for Activity Coordinator resource support
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/12/2024
 ---
 

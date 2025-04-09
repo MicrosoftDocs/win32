@@ -7,7 +7,7 @@ keywords:
 - Active Directory, using, searching, by name
 - object AD , searching by name
 - Finding Objects by Name
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

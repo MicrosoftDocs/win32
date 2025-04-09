@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Registering the Context Menu COM Object in a Display Specifier
 - context menu COM object AD , registering
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

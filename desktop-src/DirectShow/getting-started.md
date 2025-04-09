@@ -2,7 +2,7 @@
 description: Getting started (DirectShow)
 ms.assetid: 1e0451b0-ff2a-4279-a73f-fadf717e9a45
 title: Getting Started
-ms.topic: article
+ms.topic: get-started
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

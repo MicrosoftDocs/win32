@@ -4,7 +4,7 @@ description: Use the switch\_\ attributes to specify the characteristic of a uni
 ms.assetid: e06e5184-fa92-4446-964b-d56d0e5f2872
 keywords:
 - IDL MIDL , attributes, structure and union
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

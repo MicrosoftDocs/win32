@@ -2,7 +2,7 @@
 title: VML Stroked Attribute
 description: VML Stroked Attribute
 ms.assetid: 3a62a04b-8165-4d83-8b6d-d5e9bbde2796
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

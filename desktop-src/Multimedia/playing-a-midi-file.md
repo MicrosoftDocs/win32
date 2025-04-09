@@ -2,7 +2,7 @@
 title: Playing a MIDI File
 description: Playing a MIDI File
 ms.assetid: a11b432f-de31-4637-a9cd-eef5fad7591a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: VML FillColor Attribute
 description: VML FillColor Attribute
 ms.assetid: c18302e1-86a5-4046-811f-576a746ea398
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

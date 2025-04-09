@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Internet Authentication Service IAS , tasks
 - Internet Authentication Service IAS , using
-ms.topic: article
+ms.topic: concept-article
 ms.date: 03/27/2024
 ---
 

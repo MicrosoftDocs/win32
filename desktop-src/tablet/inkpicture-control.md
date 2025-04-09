@@ -2,7 +2,7 @@
 description: Reference topic for InkPicture control for the Tablet PC.
 ms.assetid: 1ced9779-dae5-4f9a-8a68-b2c0d041d5b4
 title: InkPicture Control
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

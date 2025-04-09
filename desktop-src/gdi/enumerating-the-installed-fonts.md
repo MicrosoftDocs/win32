@@ -2,7 +2,7 @@
 description: In some instances, an application must be able to enumerate the available fonts and select the one most appropriate for a particular operation.
 ms.assetid: 18db1b03-6e3c-4be3-b637-a21bf41cc080
 title: Enumerating the Installed Fonts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

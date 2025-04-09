@@ -2,7 +2,7 @@
 description: Properties used in the property system of Windows Vista and later are declared in property schemas.
 ms.assetid: 4e301210-df3a-41db-a58e-015ee8d41714
 title: Creating Custom Properties
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

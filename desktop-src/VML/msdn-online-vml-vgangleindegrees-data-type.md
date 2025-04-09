@@ -2,7 +2,7 @@
 title: VML VgAngleInDegrees Data Type
 description: VML VgAngleInDegrees Data Type
 ms.assetid: 9a29e791-0d39-471f-8d00-1af867144268
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - IADsTSUserEx class Remote Desktop Services
 - Remote Desktop Services Remote Desktop Services , IADsTSUserEx class
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

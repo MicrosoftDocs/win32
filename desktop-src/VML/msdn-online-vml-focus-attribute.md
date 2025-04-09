@@ -2,7 +2,7 @@
 title: VML Focus Attribute
 description: VML Focus Attribute
 ms.assetid: 9ed52203-4142-47cd-851f-74230aac934d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -11,7 +11,7 @@ keywords:
 - ASF (Advanced Systems Format),writer sinks
 - sinks,adding to the writer
 - writer sinks,adding
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

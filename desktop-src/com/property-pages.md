@@ -2,7 +2,7 @@
 title: Property Pages
 description: Property Pages
 ms.assetid: 'e1288b96-c4a1-4016-96dd-1e0de51c34cd'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

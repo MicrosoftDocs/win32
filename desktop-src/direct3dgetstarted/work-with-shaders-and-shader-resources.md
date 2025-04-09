@@ -2,7 +2,7 @@
 title: Work with shaders and shader resources
 description: It's time to learn how to work with shaders and shader resources in developing your Microsoft DirectX game for Windows 8.
 ms.assetid: 25a11983-e3f6-4bd3-86f1-d660edc4cd4b
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

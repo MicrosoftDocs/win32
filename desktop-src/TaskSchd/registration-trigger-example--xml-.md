@@ -2,7 +2,7 @@
 title: Registration Trigger Example (XML)
 description: The XML in this example defines a task that starts Notepad when the task is registered.
 ms.assetid: 976b9767-635f-42a6-84f5-7e0203478594
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

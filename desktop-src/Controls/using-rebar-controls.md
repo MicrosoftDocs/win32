@@ -2,7 +2,7 @@
 title: Using Rebar Controls
 description: This section contains topics that demonstrate how to create and use rebar controls.
 ms.assetid: b821216f-609e-41a4-8d45-69609f3572bf
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

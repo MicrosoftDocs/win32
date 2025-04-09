@@ -2,7 +2,7 @@
 title: Registry value types
 description: How registry values store data in various formats, and how to specify the type of data being stored.
 ms.assetid: 5fd828d6-4d62-4823-a2f1-15782b5cd28c
-ms.topic: article
+ms.topic: reference
 ms.date: 02/08/2023
 ---
 

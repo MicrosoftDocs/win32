@@ -2,7 +2,7 @@
 title: Color font support
 description: This topic describes color fonts, their support in DirectWrite and Direct2D, and how to use them in your app.
 ms.assetid: 74e096c4-9d1c-8854-e9ee-f8b11ac1c71a
-ms.topic: article
+ms.topic: reference
 ms.date: 09/18/2023
 ---
 

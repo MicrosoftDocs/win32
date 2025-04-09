@@ -2,7 +2,7 @@
 description: The Sensor API provides a method you can use to prompt the user for permissions to use a sensor or collection of sensors.
 ms.assetid: c755edcf-18c1-43d5-9dfe-c073e1f96b5f
 title: Managing User Permissions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

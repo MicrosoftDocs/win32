@@ -2,7 +2,7 @@
 description: Implementing IAMErrorLog
 ms.assetid: 0a380854-f3a9-4077-a481-dda67737d4c8
 title: Implementing IAMErrorLog
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

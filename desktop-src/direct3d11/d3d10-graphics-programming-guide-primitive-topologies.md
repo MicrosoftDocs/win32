@@ -2,7 +2,7 @@
 title: Primitive Topologies
 description: Direct3D 10 and higher supports several primitive types (or topologies) that are represented by the D3D\_PRIMITIVE\_TOPOLOGY enumerated type. These types define how vertices are interpreted and rendered by the pipeline.
 ms.assetid: 357ad085-fd91-4420-abc3-1c57e8cbb517
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

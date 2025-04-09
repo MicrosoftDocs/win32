@@ -3,7 +3,7 @@ description: The COOKER\_AVERAGE counter type formula provides the statistical m
 ms.assetid: 5121cd02-b122-48fd-995a-cf6c77948fd8
 ms.tgt_platform: multiple
 title: COOKER_AVERAGE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about adding Property instances. The Print Schema allows Property instances to be present in an Option instance. 
 ms.assetid: dac287a9-77ca-44d8-8019-b05e4c61dc52
 title: Adding Property Instances
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

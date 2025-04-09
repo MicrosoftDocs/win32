@@ -4,7 +4,7 @@ description: Adds names to the list of files that should not be exported when CO
 ms.assetid: c50e20e4-1a25-4978-ab84-8f7b4b2f6069
 keywords:
 - NONREDIST registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

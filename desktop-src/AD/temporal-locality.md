@@ -3,7 +3,7 @@ title: Temporal Locality
 description: Temporal locality is an avoidance strategy that reduces the window for partial updates.
 ms.assetid: 8f454087-46cb-4fa6-b83a-65b2393029c3
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

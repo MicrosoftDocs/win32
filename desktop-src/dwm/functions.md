@@ -7,7 +7,7 @@ keywords:
 - DWM (Desktop Window Manager),reference
 - Desktop Window Manager (DWM),functions
 - DWM (Desktop Window Manager),functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

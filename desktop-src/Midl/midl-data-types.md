@@ -6,7 +6,7 @@ keywords:
 - Microsoft Interface Definition Language MIDL , described, data types
 - MIDL MIDL , data types
 - data types MIDL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

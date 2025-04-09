@@ -2,7 +2,7 @@
 description: The count of items in the view and the estimated total size.
 ms.assetid: F32BEBFB-5D80-4920-A243-62C6AC421E2C
 title: System.StatusBarViewItemCount
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

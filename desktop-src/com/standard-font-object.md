@@ -2,7 +2,7 @@
 title: Standard Font Object
 description: Standard Font Object
 ms.assetid: f9b54dc4-24d4-4eb7-b43f-c481d64e52df
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

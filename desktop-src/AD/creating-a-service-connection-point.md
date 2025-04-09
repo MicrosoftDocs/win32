@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Creating a Service Connection Point AD
 - Service Connection Point, Creating AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

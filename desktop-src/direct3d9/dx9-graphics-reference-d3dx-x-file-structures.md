@@ -2,7 +2,7 @@
 description: This section contains information about the structures used with .x files.
 ms.assetid: 4e8dd540-39f6-4d76-bd39-78c552a679c8
 title: D3DX X File Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

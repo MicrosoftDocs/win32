@@ -5,7 +5,7 @@ ms.assetid: cf96c95e-a43e-43c1-8fcd-387ecbe07dcc
 ms.tgt_platform: multiple
 keywords:
 - WinNT service provider ADSI ,schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

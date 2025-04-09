@@ -5,7 +5,7 @@ ms.assetid: 5049a223-0f3f-4a34-9d5f-f535754fa4dd
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Admin Structures Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

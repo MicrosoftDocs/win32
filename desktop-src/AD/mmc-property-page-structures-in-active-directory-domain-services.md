@@ -5,7 +5,7 @@ ms.assetid: b5f86ccf-ff14-4334-bb2d-28dccad3590b
 ms.tgt_platform: multiple
 keywords:
 - Active Directory MMC Property Page Structures Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

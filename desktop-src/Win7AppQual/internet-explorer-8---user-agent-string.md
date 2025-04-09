@@ -2,7 +2,7 @@
 description: Internet Explorer 8 - User Agent String
 ms.assetid: 1cb0456d-501a-4272-b89d-35e79d29d13a
 title: Internet Explorer 8 - User Agent String
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

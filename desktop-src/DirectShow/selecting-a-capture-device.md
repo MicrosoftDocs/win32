@@ -2,7 +2,7 @@
 description: Selecting a Capture Device
 ms.assetid: 8f92873d-569a-48af-a913-6d4cce65640f
 title: Selecting a Capture Device
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

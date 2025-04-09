@@ -2,7 +2,7 @@
 description: The authoring of the sequence tables is an essential part of developing an installer package because these tables specify the order of execution for the standard actions that control the installation process and display the user interface dialog boxes.
 ms.assetid: db9a9cae-2a66-4e0d-a981-8de66d7c2a13
 title: Using a Sequence Table
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

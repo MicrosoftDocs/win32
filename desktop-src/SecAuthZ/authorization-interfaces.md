@@ -2,7 +2,7 @@
 description: Lists the interfaces provided by authorization APIs.
 ms.assetid: ede464a2-0be5-445a-aff7-d707dfccee13
 title: Authorization Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

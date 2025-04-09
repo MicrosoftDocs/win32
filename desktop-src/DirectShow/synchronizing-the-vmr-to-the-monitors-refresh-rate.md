@@ -2,7 +2,7 @@
 description: Synchronizing the VMR to the Monitor's Refresh Rate
 ms.assetid: 73e73821-fb08-488a-956e-ef33f6651a26
 title: Synchronizing the VMR to the Monitor's Refresh Rate
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

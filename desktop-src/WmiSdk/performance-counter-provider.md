@@ -3,7 +3,7 @@ description: The Performance Counter provider is a high-performance provider tha
 ms.assetid: 2c7206e7-f5f8-4d40-b993-56122e48069b
 ms.tgt_platform: multiple
 title: Performance Counter Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

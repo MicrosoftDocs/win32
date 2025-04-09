@@ -2,7 +2,7 @@
 title: EKUMapParams Complex Type
 description: Learn about the EKUMapParams complex type. This type contains a list of EKUMapPair elements.
 ms.assetid: 5c8c7a6f-9f6e-45eb-8894-503ca6f0e315
-ms.topic: article
+ms.topic: reference
 ms.date: 07/07/2023
 ---
 

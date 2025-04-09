@@ -3,7 +3,7 @@ description: In the WMI infrastructure, the WMI service (Winmgmt) is the operati
 ms.assetid: 6ef157be-fb75-4453-bc20-4568a3dc18c0
 ms.tgt_platform: multiple
 title: WMI Infrastructure
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

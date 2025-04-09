@@ -2,7 +2,7 @@
 title: Statements
 description: HLSL statements are combinations of variables and functions that make up expressions; like a sentence, an HLSL statement requires operators that determine how an expression will be evaluated.
 ms.assetid: a7bb89c8-07e6-4853-9aad-12a4d4271e43
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

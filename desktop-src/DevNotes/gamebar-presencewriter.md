@@ -2,7 +2,7 @@
 title: Game Bar Presence Writer
 description: Game Bar Presence Writer
 ms.assetid: 87e04f78-d2d1-42f7-8d9f-2d46d7fd226d
-ms.topic: article
+ms.topic: reference
 ms.date: 02/22/2024
 ---
 

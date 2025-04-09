@@ -2,7 +2,7 @@
 description: Learn how to use Microsoft DirectShow to write video capture applications by using the articles linked to in this article.
 ms.assetid: '92051a84-5011-42ed-be68-e8841552ca1b'
 title: Video Capture (DirectShow)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: Software Device API Structures
 description: This section describes Software Device API structures.
 ms.assetid: C5145BDB-3FF9-4454-9CFD-1E769FBDA60E
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

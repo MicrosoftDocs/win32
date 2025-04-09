@@ -8,7 +8,7 @@ keywords:
 - Windows Touch,Scratchpad samples
 - Scratchpad samples
 - Windows Touch,Real-time Stylus (RTS) object
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/18/2020
 ---
 

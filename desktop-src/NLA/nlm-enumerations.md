@@ -2,7 +2,7 @@
 title: NLM enumerations
 description: NLM enumerations
 ms.assetid: 15a65dd0-f088-4473-a2d2-757da413b6e9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

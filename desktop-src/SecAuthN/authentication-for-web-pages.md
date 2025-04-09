@@ -2,7 +2,7 @@
 description: Authentication is proving who you are.
 ms.assetid: 5B058197-67B3-40DD-80D8-7BD8EE084CC9
 title: Authentication for web pages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

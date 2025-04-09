@@ -11,7 +11,7 @@ keywords:
 - VFW (Video for Windows),custom stream handler interfaces
 - VFW (Video for Windows),file handler interfaces
 - VFW (Video for Windows),stream handler interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

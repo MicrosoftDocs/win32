@@ -8,7 +8,7 @@ keywords:
 - Online Print Ordering Wizard,about
 - publishing wizards,Web Publishing Wizard
 - publishing wizards,Online Print Ordering Wizard
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

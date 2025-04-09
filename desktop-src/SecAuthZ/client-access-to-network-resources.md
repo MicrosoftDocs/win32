@@ -2,7 +2,7 @@
 description: Explains strategies for accessing network resources.
 ms.assetid: d55b3204-430d-4fa4-b7a7-1e279beed8e3
 title: Client Access to Network Resources
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

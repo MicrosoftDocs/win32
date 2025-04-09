@@ -3,7 +3,7 @@ title: Thread usage
 description: You should tune and balance application thread usage for a multiuser, multiprocessor Remote Desktop Services environment.
 ms.assetid: 88f4e61f-4a59-4a84-8dca-fdb661835b51
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

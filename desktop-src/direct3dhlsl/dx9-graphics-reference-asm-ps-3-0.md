@@ -2,7 +2,7 @@
 title: ps_3_0
 description: Learn about ps_3_0, a programmable pixel shader, which is made up of a set of instructions that operate on pixel data.
 ms.assetid: 3eabf173-9d9d-45b2-bc30-de857428f3ee
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

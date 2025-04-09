@@ -2,7 +2,7 @@
 description: Identifies the possible signer certificates used to digitally sign patches.
 ms.assetid: 8f76c27d-92f1-4de7-a69c-fba877e0325d
 title: MsiPatchCertificate Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

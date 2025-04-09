@@ -2,7 +2,7 @@
 description: Using SymSrv
 ms.assetid: d400f222-c50c-4c7b-8f8a-0c3ed3bba3b9
 title: Using SymSrv
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

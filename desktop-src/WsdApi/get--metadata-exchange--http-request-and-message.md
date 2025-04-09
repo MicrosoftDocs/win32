@@ -2,7 +2,7 @@
 description: A WS-Transfer message used to request metadata.
 ms.assetid: 18bf27aa-6ae5-4419-ae68-6df9eda10cd4
 title: Get (Metadata Exchange) HTTP Request and Message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

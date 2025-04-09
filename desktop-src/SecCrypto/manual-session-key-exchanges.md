@@ -2,7 +2,7 @@
 description: Shows how to send an encrypted message.
 ms.assetid: 928b1863-7a54-4bf0-b447-85b8c2868bcd
 title: Manual Session Key Exchanges
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -22,7 +22,7 @@ keywords:
 - control types,large lists and DataItem control type
 - control types,support for DataItem
 - control types,DataItem
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

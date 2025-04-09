@@ -2,7 +2,7 @@
 description: The sequence tables of the sample upgrade package are the same as in the original product.
 ms.assetid: 6b733638-a665-4638-8257-a36232119ba9
 title: Updating Sequence Tables for an Upgrade
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

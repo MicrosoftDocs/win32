@@ -2,7 +2,7 @@
 title: IAgentNotifySink BalloonVisibleState
 description: IAgentNotifySink BalloonVisibleState
 ms.assetid: 240e049c-7167-41b7-b092-95ed2a83aad3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

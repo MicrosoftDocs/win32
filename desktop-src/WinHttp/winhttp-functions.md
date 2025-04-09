@@ -2,7 +2,7 @@
 description: This topic identifies the functions that WinHTTP provides.
 ms.assetid: dcb56d5d-ed0d-49bb-95bf-940a49c033f1
 title: WinHTTP Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: N (Text Services Framework)
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 'f19eb885-a854-4304-82d1-05065dd496c1'
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

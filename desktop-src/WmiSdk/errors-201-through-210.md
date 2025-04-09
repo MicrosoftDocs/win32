@@ -3,7 +3,7 @@ description: Describes WMI SNMP provider errors 201 through 210.
 ms.assetid: a0e27936-d7b3-4999-a709-85138f4cacaa
 ms.tgt_platform: multiple
 title: Errors 201 through 210
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

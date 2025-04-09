@@ -3,7 +3,7 @@ description: The well-known identifier \_\_CLASS refers to a pseudo-property on 
 ms.assetid: a1d0e934-c5b5-4554-9d6e-3881064419ca
 ms.tgt_platform: multiple
 title: '__CLASS Identifier'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

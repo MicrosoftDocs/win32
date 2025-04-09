@@ -5,7 +5,7 @@ ms.assetid: d1d22d4a-6485-4ee7-bd45-606834ae601a
 ms.tgt_platform: multiple
 keywords:
 - errors and error trapping ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

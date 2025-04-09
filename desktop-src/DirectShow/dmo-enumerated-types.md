@@ -2,7 +2,7 @@
 description: DMO Enumerated Types
 ms.assetid: 5d60c902-5fb0-419b-b54d-5e3b543c5df8
 title: DMO Enumerated Types
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

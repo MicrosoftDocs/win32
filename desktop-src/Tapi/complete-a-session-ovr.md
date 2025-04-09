@@ -2,7 +2,7 @@
 description: Completion operations allow an application to specify how it wants to handle a session when factors such as a busy destination prevent normal connection.
 ms.assetid: 71e61376-7913-42a9-a8e2-2ea6e4918f30
 title: Complete a Session
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

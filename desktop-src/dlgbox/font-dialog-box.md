@@ -15,7 +15,7 @@ keywords:
 - initialization flags
 - predefined dialog boxes
 - dialog boxes,Font
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

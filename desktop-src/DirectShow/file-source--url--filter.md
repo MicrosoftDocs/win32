@@ -2,7 +2,7 @@
 description: File Source (URL) Filter
 ms.assetid: 405fd6ea-aa17-4d11-8f07-067468cb090b
 title: File Source (URL) Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

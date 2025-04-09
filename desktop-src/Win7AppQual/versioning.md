@@ -2,7 +2,7 @@
 description: Versioning (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.assetid: 'd1014801-a93a-40e8-ae96-31784c192753'
 title: Versioning (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

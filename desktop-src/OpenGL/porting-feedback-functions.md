@@ -8,7 +8,7 @@ keywords:
 - porting to OpenGL from IRIS GL,feedback
 - OpenGL porting from IRIS GL,feedback
 - feedback
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

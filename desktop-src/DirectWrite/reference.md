@@ -7,7 +7,7 @@ keywords:
 - DirectWrite, API reference
 - API reference for DirectWrite
 - reference for DirectWrite
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This section contains reference information for the effect format.
 ms.assetid: 7358ac24-3f09-410d-8d19-6597295cc456
 title: Effect Format (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

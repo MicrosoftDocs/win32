@@ -5,7 +5,7 @@ ms.assetid: a5a99d0a-526e-4492-90c4-a6b9fdbdff16
 keywords:
 - OpenGL,evaluators
 - evaluators OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -13,7 +13,7 @@ keywords:
 - IDWriteTypography interface
 - DirectWrite,IDWriteTextFormat interface
 - IDWriteTextFormat interface
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

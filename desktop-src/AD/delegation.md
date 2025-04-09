@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Delegation AD
 - security AD , delegation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

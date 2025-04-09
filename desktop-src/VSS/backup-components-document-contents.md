@@ -2,7 +2,7 @@
 description: The Backup Components Document is maintained by instances of the IVssBackupComponents interface.
 ms.assetid: 8c7ebba8-58c4-4733-ba59-802abf902c5e
 title: Backup Components Document Contents
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

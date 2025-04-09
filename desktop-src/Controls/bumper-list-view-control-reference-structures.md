@@ -2,7 +2,7 @@
 title: List View Structures
 description: List View Structures
 ms.assetid: 12d77514-7281-4873-b456-252ff80ed7f0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

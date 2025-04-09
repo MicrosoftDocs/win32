@@ -2,7 +2,7 @@
 description: Accessing Service Object Properties
 ms.assetid: 66d9802b-ad28-47a4-8151-9df7aff07d61
 title: Accessing Service Object Properties
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

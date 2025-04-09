@@ -2,7 +2,7 @@
 description: DSS version 3 Public Key BLOBs of type PUBLICKEYBLOB are used to export and import information about a DH public key.
 ms.assetid: 9aac1d61-8b61-4f0f-b037-afe4a60302de
 title: DSS Version 3 Public Key BLOBs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

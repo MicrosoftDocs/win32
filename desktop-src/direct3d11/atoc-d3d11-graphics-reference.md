@@ -2,7 +2,7 @@
 title: Direct3D 11, utilities, and effects reference
 description: This section contains the reference pages for Direct3D 11-based graphics programming.
 ms.assetid: cbab1a44-3a79-4b55-94f4-48ad4761cf38
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

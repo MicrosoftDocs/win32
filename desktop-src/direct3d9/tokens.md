@@ -2,7 +2,7 @@
 description: Tokens are written as little-endian WORDs. The following list of token values is divided into record-bearing and stand-alone tokens.
 ms.assetid: 'vs|directx_sdk|~\tokens.htm'
 title: Tokens
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

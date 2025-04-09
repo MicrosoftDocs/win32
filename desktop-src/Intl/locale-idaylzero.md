@@ -2,7 +2,7 @@
 description: LOCALE\_IDAYLZERO
 ms.assetid: c5cfd088-cc62-4852-9bbe-8656bacc7c4e
 title: LOCALE_IDAYLZERO
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

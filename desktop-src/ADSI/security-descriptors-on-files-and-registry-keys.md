@@ -5,7 +5,7 @@ ms.assetid: 7233a82f-fc38-4718-b674-4e6a00666184
 ms.tgt_platform: multiple
 keywords:
 - Security Descriptors on Files and Registry Keys ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

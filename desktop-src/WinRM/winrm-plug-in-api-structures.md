@@ -3,7 +3,7 @@ title: WinRM Plug-in API Structures
 description: WinRM Plug-in API Structures
 ms.assetid: 745619bc-c7b3-48fa-8212-cb1b5b9ed4db
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

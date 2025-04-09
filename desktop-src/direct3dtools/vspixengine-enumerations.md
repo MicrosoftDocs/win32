@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: Direct3D Diagnostics Capture Interface Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: A67402DE-8CBF-470A-97B4-3CF531731F24
 api_name: 

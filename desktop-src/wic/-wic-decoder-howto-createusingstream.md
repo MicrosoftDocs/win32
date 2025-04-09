@@ -2,7 +2,7 @@
 description: This topic describes how to create a bitmap decoder by using a stream.
 ms.assetid: 982d2110-ff2f-43e0-a931-cb2b8146ad0a
 title: How to Create a Decoder Using a Stream
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

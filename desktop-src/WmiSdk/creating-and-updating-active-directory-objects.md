@@ -3,7 +3,7 @@ description: Active Directory objects can be used to locate resources in a compu
 ms.assetid: 96f89537-9419-495e-819c-fd07ba546620
 ms.tgt_platform: multiple
 title: Creating and Updating Active Directory Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

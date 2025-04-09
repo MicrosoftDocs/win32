@@ -2,7 +2,7 @@
 description: This section describes including cabinet files in installations. For more information, see Using Cabinets and Compressed Sources.
 ms.assetid: 17ea7f76-90b2-48fb-8187-64dc6d294443
 title: Including a Cabinet File in an Installation
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

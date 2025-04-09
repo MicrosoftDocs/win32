@@ -2,7 +2,7 @@
 description: AppInit_DLLs in Windows 7 and Windows Server 2008 R2
 ms.assetid: 6d1f9703-6dc9-4fdc-b52f-e6bb60a2fe8d
 title: AppInit_DLLs in Windows 7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

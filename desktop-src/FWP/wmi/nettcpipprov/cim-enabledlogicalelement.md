@@ -3,7 +3,7 @@ description: Abstracts the concept of an element that is enabled and disabled, s
 ms.assetid: 10d88811-124f-40f6-a30d-9db84c0cd448
 title: CIM_EnabledLogicalElement WMI class
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

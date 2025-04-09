@@ -5,7 +5,7 @@ ms.assetid: ec5f03ae-9454-4964-943f-f97821984254
 keywords:
 - Platform Update for Windows Server 2008
 - Platform Update for Windows Vista
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Controlling a Capture Graph
 ms.assetid: e7afafca-e993-4096-bad4-399ee6c67fe9
 title: Controlling a Capture Graph
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -6,7 +6,7 @@ keywords:
 - UI Automation,implementing TextEdit control pattern
 - UI Automation,TextEdit control pattern
 - control patterns,TextEdit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

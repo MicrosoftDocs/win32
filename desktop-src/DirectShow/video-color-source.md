@@ -2,7 +2,7 @@
 description: Video Color Source
 ms.assetid: e6addd55-06ca-4d4b-b2b0-fde281fab244
 title: Video Color Source
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

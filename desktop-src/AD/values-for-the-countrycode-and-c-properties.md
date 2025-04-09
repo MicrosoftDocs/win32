@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - country/region Code AD
 - country/region Code AD , values for
-ms.topic: article
+ms.topic: reference
 ms.date: 02/23/2023
 ---
 

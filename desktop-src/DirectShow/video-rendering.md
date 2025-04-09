@@ -2,7 +2,7 @@
 description: Video Rendering
 ms.assetid: b0dcd757-f039-4a40-a0e9-414443abbc0d
 title: Video Rendering
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

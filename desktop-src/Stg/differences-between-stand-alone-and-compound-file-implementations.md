@@ -5,7 +5,7 @@ ms.assetid: 650d4759-a58a-47a4-922d-5757e356cf56
 keywords:
 - IPropertyStorage Strctd Stg , implementations
 - IPropertyStorage Strctd Stg , implementations, differences
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

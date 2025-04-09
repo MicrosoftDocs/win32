@@ -2,7 +2,7 @@
 title: Up-Down Messages
 description: Up-Down Messages
 ms.assetid: 5d21ee48-5182-4533-82e2-920cb3f028e4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

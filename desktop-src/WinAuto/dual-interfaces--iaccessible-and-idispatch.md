@@ -2,7 +2,7 @@
 title: Dual Interfaces IAccessible and IDispatch
 description: Server developers must provide the standard Component Object Model (COM) interface IDispatch for their accessible objects.
 ms.assetid: 043d6777-6f9a-4e93-aadc-9cbe9a9119c4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Querying for Event Information
 ms.assetid: e03d2ab5-50ea-4916-9774-850506714538
 title: Querying for Event Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

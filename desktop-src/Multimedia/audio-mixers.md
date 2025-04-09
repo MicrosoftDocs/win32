@@ -9,7 +9,7 @@ keywords:
 - audio,audio mixers
 - audio mixers,about
 - mixers,about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

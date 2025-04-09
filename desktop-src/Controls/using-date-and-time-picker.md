@@ -2,7 +2,7 @@
 title: Using Date and Time Picker Controls
 description: This section provides information and example code for implementing date and time picker controls.
 ms.assetid: 42203e84-c799-4f86-a756-3391558c48b5
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Component Object Model (COM) is a binary standard for writing component software in a distributed computing environment.
 ms.assetid: 5a282158-63b0-4c15-9bfc-0d61f5fe8716
 title: Backing Up and Restoring the COM+ Class Registration Database Under VSS
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: MSFT_NetFirewallHyperVRule class
 description: Represents a Windows Defender firewall Hyper-V rule.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/17/2024
 topic_type: 
 - APIRef

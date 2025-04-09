@@ -2,7 +2,7 @@
 title: Map Tag
 description: Map Tag
 ms.assetid: 83e9bcc5-f158-4d08-a3bd-17118a28dd50
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

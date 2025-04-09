@@ -3,7 +3,7 @@ description: After WMI is finished with a provider, it unloads the provider from
 ms.assetid: 6116769f-3402-42b3-835d-9bdb0fc27ce0
 ms.tgt_platform: multiple
 title: Unloading a Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

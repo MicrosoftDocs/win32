@@ -5,7 +5,7 @@ ms.assetid: bdae7bc9-072a-4063-9562-8e0fcb1b7937
 ms.tgt_platform: multiple
 keywords:
 - groups AD , changing a group's scope or type
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

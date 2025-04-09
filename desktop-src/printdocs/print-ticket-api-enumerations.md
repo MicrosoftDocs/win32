@@ -2,7 +2,7 @@
 description: The following enumerations are used by the Print Ticket API.
 ms.assetid: 4121c0e6-0144-4e0f-b6e7-08d686ac354b
 title: Print Ticket API Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

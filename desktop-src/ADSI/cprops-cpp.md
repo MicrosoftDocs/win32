@@ -3,7 +3,7 @@ title: CPROPS.CPP
 description: In the example provider component, an example of a property cache implementation can be found in cprops.cpp. Supported methods are listed in the following table.
 ms.assetid: 51c9aa05-ca30-4d61-b3e3-d2f17a02b28f
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

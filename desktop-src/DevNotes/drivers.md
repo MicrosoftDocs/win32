@@ -2,7 +2,7 @@
 description: Drivers
 ms.assetid: 832F899A-39E6-4D64-BE8D-4693F008BADF
 title: Drivers (Developer Notes)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

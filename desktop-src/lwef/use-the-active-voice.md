@@ -2,7 +2,7 @@
 title: Use the Active Voice
 description: Use the Active Voice
 ms.assetid: 7a89ea83-1cf0-4bfb-8f69-63081f8adf48
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

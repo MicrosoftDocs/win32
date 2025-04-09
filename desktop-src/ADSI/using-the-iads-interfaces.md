@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - IADs ADSI ,using
 - ADSI ADSI ,using,using the IADs interfaces
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

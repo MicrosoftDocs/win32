@@ -3,7 +3,7 @@ description: WMI security focuses on protecting access to namespace data. WMI fi
 ms.assetid: 88a2538a-ae30-4a1a-9d16-f0cd9419b2ed
 ms.tgt_platform: multiple
 title: Maintaining WMI Security
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

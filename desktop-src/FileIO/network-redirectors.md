@@ -2,7 +2,7 @@
 description: Describes the functionality of a network redirector.
 ms.assetid: 3cf36f88-b282-4f75-84fe-8106fea66825
 title: Network Redirectors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

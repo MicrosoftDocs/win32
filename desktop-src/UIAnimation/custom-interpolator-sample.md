@@ -2,7 +2,7 @@
 title: Custom Interpolator Sample
 description: Shows how to use Windows Animation with your own Custom Interpolator, with Direct2D used for rendering.
 ms.assetid: 90c4a53a-5c5e-4dcc-8946-bc8f23a07ea2
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

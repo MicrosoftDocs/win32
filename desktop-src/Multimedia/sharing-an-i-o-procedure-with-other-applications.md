@@ -9,7 +9,7 @@ keywords:
 - I/O (input and output),shared procedures
 - sharing I/O procedures with other applications
 - mmioInstallIOProc function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

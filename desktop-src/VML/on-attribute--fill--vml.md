@@ -2,7 +2,7 @@
 title: On Attribute (Fill)(VML)
 description: On Attribute (Fill)(VML)
 ms.assetid: 9b7d42e5-4fd9-402d-8d1f-af01f6577475
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

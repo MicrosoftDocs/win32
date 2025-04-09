@@ -2,7 +2,7 @@
 description: Learn about the JobPrimaryCoverBack element, which describes the back cover sheet. Each job will have a separate primary sheet. 
 ms.assetid: 83626e3c-1ce8-4c91-b656-9f0c06c5b1ec
 title: JobPrimaryCoverBack
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

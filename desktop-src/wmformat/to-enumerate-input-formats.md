@@ -11,7 +11,7 @@ keywords:
 - ASF (Advanced Systems Format),input format enumerations
 - profiles,input format enumerations
 - codecs,input format enumerations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

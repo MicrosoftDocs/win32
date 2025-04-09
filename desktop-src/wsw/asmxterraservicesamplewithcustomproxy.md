@@ -6,7 +6,7 @@ keywords:
 - AsmxTerraServiceSampleWithCustomProxy Native-Web-Services
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

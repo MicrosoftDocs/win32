@@ -2,7 +2,7 @@
 title: Storyboard Interfaces
 description: This section contains the reference specifications for the Windows Animation Manager interfaces that support storyboards.
 ms.assetid: 372D6348-3DF2-48EB-B495-BAD4E5DAAAD3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

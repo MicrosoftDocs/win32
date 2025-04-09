@@ -2,7 +2,7 @@
 description: This topic describes how to collect print job information from the user.
 ms.assetid: 98ae97e2-25c1-455c-8283-45bb07fb8251
 title: 'How To: Collect Print Job Information from the User'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

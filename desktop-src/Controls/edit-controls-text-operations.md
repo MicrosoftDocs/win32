@@ -2,7 +2,7 @@
 title: Edit Control Text Operations
 description: The system automatically processes all user-initiated text operations and notifies the application when the operations are completed.
 ms.assetid: 9af3a1bc-4c87-4cc9-966d-50742be7c811
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

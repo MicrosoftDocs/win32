@@ -2,7 +2,7 @@
 description: The ISearchManager interface provides methods that make changes across catalogs.
 ms.assetid: e6f4432b-03bf-4711-a79e-1bf9242c5683
 title: Using the Search Manager
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

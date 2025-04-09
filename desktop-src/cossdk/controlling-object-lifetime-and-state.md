@@ -2,7 +2,7 @@
 description: Controlling Object Lifetime and State
 ms.assetid: 172e07a2-1711-4353-9099-ff9d31a564c6
 title: Controlling Object Lifetime and State
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

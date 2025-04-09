@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Slider control type
 - control types,support for Slider
 - control types,Slider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

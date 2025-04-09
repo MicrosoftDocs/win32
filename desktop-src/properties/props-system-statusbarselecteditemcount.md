@@ -2,7 +2,7 @@
 description: The count of selected items in the view and the estimated total size.
 ms.assetid: 3BCB901D-7DAA-4DF2-A920-C77E9A2639A2
 title: System.StatusBarSelectedItemCount
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

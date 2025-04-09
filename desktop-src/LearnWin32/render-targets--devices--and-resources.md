@@ -2,7 +2,7 @@
 title: Render Targets, Devices, and Resources
 description: Render Targets, Devices, and Resources
 ms.assetid: cf48c2ce-16ad-4e61-8900-501c7c27da23
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

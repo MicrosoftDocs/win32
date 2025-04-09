@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Binding to an Object Using a SID AD
 - Active Directory, using, binding, binding to an object using a SID
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -18,7 +18,7 @@ keywords:
 - Windows Media Player SDK
 - Windows Media Format SDK
 - Windows Media Rights Manager SDK
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

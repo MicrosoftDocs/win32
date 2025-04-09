@@ -2,7 +2,7 @@
 description: Although DbgHelp.dll ships with all versions of Windows, callers should consider using one of the more recent versions of this DLL as found in the Debugging Tools For Windows package. For details on distribution of DbgHelp, see DbgHelp Versions.
 ms.assetid: 4e615e75-5ab8-4155-a3d3-b96313b37e9b
 title: Calling the DbgHelp Library
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

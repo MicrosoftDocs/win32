@@ -53714,6 +53714,796 @@
       "source_path": "desktop-src/SecAuthZ/app-isolation-msix-packaging.md",
       "redirect_url": "/windows/win32/secauthz/app-isolation-packaging-with-vs",
       "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/codec-api-reference.md",
+      "redirect_url": "/windows/win32/codecapi/codec-api-reference",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/codec-api-properties.md",
+      "redirect_url": "/windows/win32/codecapi/codec-api-properties",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avaudiochannelconfig-property.md",
+      "redirect_url": "/windows/win32/codecapi/avaudiochannelconfig-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avaudiochannelcount-property.md",
+      "redirect_url": "/windows/win32/codecapi/avaudiochannelcount-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avaudiosamplerate-property.md",
+      "redirect_url": "/windows/win32/codecapi/avaudiosamplerate-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avddsurroundmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avddsurroundmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecaacdownmixmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecaacdownmixmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecaudiodualmono-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecaudiodualmono-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecaudiodualmonorepromode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecaudiodualmonorepromode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdeccommoninputformat-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdeccommoninputformat-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdeccommonmeanbitrate.md",
+      "redirect_url": "/windows/win32/codecapi/avdeccommonmeanbitrate",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdeccommonoutputformat-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdeccommonoutputformat-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecdddynamicrangescalehigh-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecdddynamicrangescalehigh-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecdddynamicrangescalelow-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecdddynamicrangescalelow-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecddoperationalmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecddoperationalmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecheaacdynamicrangecontrol-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecheaacdynamicrangecontrol-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecmmcss-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecmmcss-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideoacceleration-h264-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideoacceleration-h264-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideoacceleration-vc1-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideoacceleration-vc1-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideoacceleration-mpeg2-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideoacceleration-mpeg2-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideodroppicwithmissingref-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideodroppicwithmissingref-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideofastdecodemode.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideofastdecodemode",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideoimagesize.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideoimagesize",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideoinputscantype-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideoinputscantype-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideopixelaspectratio-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideopixelaspectratio-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideosoftwaredeinterlacemode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideosoftwaredeinterlacemode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideoswpowerlevel-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideoswpowerlevel-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdecvideothumbnailgenerationmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdecvideothumbnailgenerationmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdsploudnessequalization-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdsploudnessequalization-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avdspspeakerfill-property.md",
+      "redirect_url": "/windows/win32/codecapi/avdspspeakerfill-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencaudiodualmono-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencaudiodualmono-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencaudioinputcontent-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencaudioinputcontent-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencaudiointervaltoencode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencaudiointervaltoencode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencaudiointervaltoskip-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencaudiointervaltoskip-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencaudiomapdestchanneln-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencaudiomapdestchanneln-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencaudiomeanbitrate.md",
+      "redirect_url": "/windows/win32/codecapi/avencaudiomeanbitrate",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccodectype-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccodectype-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonbufferinlevel-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonbufferinlevel-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonbufferoutlevel-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonbufferoutlevel-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonbuffersize-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonbuffersize-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonformatconstraint-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonformatconstraint-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonlowlatency-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonlowlatency-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonmaxbitrate-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonmaxbitrate-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonmeanbitrate-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonmeanbitrate-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonmeanbitrateinterval-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonmeanbitrateinterval-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonminbitrate-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonminbitrate-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonmultipassmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonmultipassmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonpassend-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonpassend-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonpassstart-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonpassstart-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonquality-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonquality-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonqualityvsspeed-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonqualityvsspeed-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonratecontrolmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonratecontrolmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonrealtime-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonrealtime-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avenccommonstreamendhandling-property.md",
+      "redirect_url": "/windows/win32/codecapi/avenccommonstreamendhandling-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddatodconvertertype-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddatodconvertertype-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddcentredownmixlevel-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddcentredownmixlevel-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddchannelbwlowpassfilter-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddchannelbwlowpassfilter-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddcopyright-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddcopyright-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencdddchighpassfilter-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencdddchighpassfilter-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencdddialognormalization-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencdddialognormalization-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencdddigitaldeemphasis-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencdddigitaldeemphasis-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencdddynamicrangecompressioncontrol-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencdddynamicrangecompressioncontrol-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddheadphonemode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddheadphonemode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddlfelowpassfilter-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddlfelowpassfilter-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddlorocentermixlvl-x10-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddlorocentermixlvl-x10-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddlorosurroundmixlvl-x10-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddlorosurroundmixlvl-x10-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddltrtcentermixlvl-x10-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddltrtcentermixlvl-x10-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddltrtsurroundmixlvl-x10-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddltrtsurroundmixlvl-x10-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddoriginalbitstream-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddoriginalbitstream-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddpreferredstereodownmixmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddpreferredstereodownmixmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddproductioninfoexists-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddproductioninfoexists-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddproductionmixlevel-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddproductionmixlevel-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddproductionroomtype-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddproductionroomtype-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddrfpreemphasisfilter-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddrfpreemphasisfilter-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddservice-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddservice-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddsurround3dbattenuation-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddsurround3dbattenuation-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddsurround90degreeephaseshift-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddsurround90degreeephaseshift-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddsurrounddownmixlevel-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddsurrounddownmixlevel-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencddsurroundexmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencddsurroundexmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencinputvideosystem-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencinputvideosystem-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpacodingmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpacodingmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpacopyright-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpacopyright-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpaemphasistype-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpaemphasistype-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpaenableredundancyprotection-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpaenableredundancyprotection-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpalayer-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpalayer-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpaoriginalbitstream-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpaoriginalbitstream-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpaprivateuserbit-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpaprivateuserbit-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvaddseqendcode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvaddseqendcode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvdefaultbpicturecount-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvdefaultbpicturecount-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvframefieldmode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvframefieldmode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvgenerateheaderpicdispext-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvgenerateheaderpicdispext-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvgenerateheaderpicext-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvgenerateheaderpicext-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvgenerateheaderseqdispext-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvgenerateheaderseqdispext-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvgenerateheaderseqext-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvgenerateheaderseqext-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvgenerateheaderseqscaleext-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvgenerateheaderseqscaleext-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvgopopen-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvgopopen-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvgopsinseq-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvgopsinseq-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvgopsize-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvgopsize-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvintradcprecision-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvintradcprecision-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvintravlctable-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvintravlctable-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvlevel-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvlevel-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvprofile-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvprofile-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvquantmatrixchromaintra-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvquantmatrixchromaintra-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvquantmatrixchromanonintra-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvquantmatrixchromanonintra-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvquantmatrixintra-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvquantmatrixintra-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvquantmatrixnonintra-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvquantmatrixnonintra-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvqscaletype-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvqscaletype-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvscanpattern-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvscanpattern-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvscenedetection-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvscenedetection-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmpvuseconcealmentmotionvectors-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencmpvuseconcealmentmotionvectors-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencmuxoutputstreamtype.md",
+      "redirect_url": "/windows/win32/codecapi/avencmuxoutputstreamtype",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencstataudioaveragebps-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencstataudioaveragebps-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencstataudiopeakpcmvalue-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencstataudiopeakpcmvalue-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencstataudioaveragepcmvalue-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencstataudioaveragepcmvalue-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencstatcommoncompletedpasses-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencstatcommoncompletedpasses-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencstatvideocodedframes-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencstatvideocodedframes-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencstatvideooutputframerate-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencstatvideooutputframerate-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencstatvideototalframes-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencstatvideototalframes-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideocbrmotiontradeoff-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideocbrmotiontradeoff-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideocodedvideoaccessunitsize-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideocodedvideoaccessunitsize-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideodefaultupperfielddominant-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideodefaultupperfielddominant-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideodisplaydimension-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideodisplaydimension-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoencodedimension-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoencodedimension-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoencodeoffsetorigin-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoencodeoffsetorigin-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideofieldswap-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideofieldswap-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoforcesourcescantype-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoforcesourcescantype-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoheaderdropframe-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoheaderdropframe-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoheaderframes-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoheaderframes-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoheaderhours-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoheaderhours-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoheaderminutes-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoheaderminutes-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoheaderseconds-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoheaderseconds-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoinputchromaresolution-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoinputchromaresolution-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoinputchromasubsampling-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoinputchromasubsampling-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoinputcolorlighting-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoinputcolorlighting-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoinputcolornominalrange-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoinputcolornominalrange-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoinputcolorprimaries-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoinputcolorprimaries-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoinputcolortransferfunction-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoinputcolortransferfunction-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoinputcolortransfermatrix-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoinputcolortransfermatrix-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoinversetelecineenable-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoinversetelecineenable-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideoinversetelecinethreshold-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideoinversetelecinethreshold-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideomaxkeyframedistance-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideomaxkeyframedistance-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideonooffieldstoencode-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideonooffieldstoencode-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideonooffieldstoskip-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideonooffieldstoskip-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputchromaresolution-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputchromaresolution-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputchromasubsampling-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputchromasubsampling-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputcolorlighting-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputcolorlighting-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputcolornominalrange-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputcolornominalrange-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputcolorprimaries-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputcolorprimaries-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputcolortransferfunction-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputcolortransferfunction-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputcolortransfermatrix-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputcolortransfermatrix-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputframerate-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputframerate-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputframerateconversion-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputframerateconversion-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideooutputscantype-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideooutputscantype-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideopixelaspectratio-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideopixelaspectratio-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideosourcefilmcontent-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideosourcefilmcontent-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/avencvideosourceisbw-property.md",
+      "redirect_url": "/windows/win32/codecapi/avencvideosourceisbw-property",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/codec-api-enumerations.md",
+      "redirect_url": "/windows/win32/codecapi/codec-api-enumerations",
+      "redirect_document_id": false
+  },
+  {
+      "source_path": "desktop-src/DirectShow/codec-api-interfaces.md",
+      "redirect_url": "/windows/win32/codecapi/codec-api-interfaces",
+      "redirect_document_id": false
   }
   ]
 }

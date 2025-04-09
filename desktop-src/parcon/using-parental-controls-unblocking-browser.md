@@ -1,7 +1,7 @@
 ---
 description: Unblocking blocked browser by attesting to provide safe browsing to member accounts.
 title: Parental Controls - unblocking blocked browser
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/23/2024
 ---
 

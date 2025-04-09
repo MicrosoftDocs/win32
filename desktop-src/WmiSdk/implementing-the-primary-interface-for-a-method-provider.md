@@ -3,7 +3,7 @@ description: A method provider should implement IWbemServices as the primary int
 ms.assetid: 39466513-48f3-4bf6-a3ab-e9d2c387480c
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for a Method Provider
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

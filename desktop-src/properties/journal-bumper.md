@@ -2,7 +2,7 @@
 description: Journal
 ms.assetid: e6398534-4a35-4f63-bfd5-98ea3f5e3488
 title: Journal
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

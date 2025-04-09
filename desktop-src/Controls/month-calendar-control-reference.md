@@ -2,7 +2,7 @@
 title: Month Calendar Control
 description: This section contains information about programming elements used with month calendar controls.
 ms.assetid: 'vs|controls|~\controls\monthcal\reflist.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

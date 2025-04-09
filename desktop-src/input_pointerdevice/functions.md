@@ -4,7 +4,7 @@ ms.assetid: 44942954-3EA6-4C33-8CF1-E8BF72A914CB
 
 title: Functions (Pointer Device Input Stack)
 
-ms.topic: article
+ms.topic: reference
 ms.date: 02/05/2020
 ---
 

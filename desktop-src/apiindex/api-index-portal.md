@@ -1,8 +1,8 @@
-﻿---
+---
 description: The Windows application programming interface (API) lets you develop desktop and server applications that run successfully on all versions of Windows while taking advantage of the features and capabilities unique to each version.
 ms.assetid: 00b345ad-4c53-4fa5-8b7a-d3b3377cb30a
 title: API Index
-ms.topic: article
+ms.topic: reference
 ms.date: 04/19/2019
 ms.custom: 19H1
 ---

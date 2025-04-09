@@ -7,7 +7,7 @@ keywords:
 - VISCA (Video System Control Architecture)
 - MCI VISCA driver
 - VISCA driver
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

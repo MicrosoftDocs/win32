@@ -2,7 +2,7 @@
 title: IAgentCharacter SetSoundEffectsOn
 description: IAgentCharacter SetSoundEffectsOn
 ms.assetid: 141dd9a8-5fd8-42c6-880a-856c61cb8940
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

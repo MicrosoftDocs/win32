@@ -2,7 +2,7 @@
 description: Use the following functions to consume and provide performance data.
 ms.assetid: a2c97b8b-b1b1-4dd8-8f23-edffaa74d028
 title: Performance Counters Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 08/17/2020
 ---
 

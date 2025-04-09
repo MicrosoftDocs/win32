@@ -2,7 +2,7 @@
 description: DVD Applications
 ms.assetid: 6f41e0f1-e550-4ca6-9a80-ce4d498289e2
 title: DVD Applications
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

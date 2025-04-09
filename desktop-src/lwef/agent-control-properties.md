@@ -2,7 +2,7 @@
 title: Agent Control Properties
 description: Agent Control Properties
 ms.assetid: e6a5b2db-9abf-4988-be41-fc7f4530507f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

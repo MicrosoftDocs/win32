@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Group control type
 - control types,support for Group
 - control types,Group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

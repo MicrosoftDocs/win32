@@ -2,7 +2,7 @@
 description: Using the Windows Media Video 9.1 Image Category
 ms.assetid: b77e955b-767b-4b64-9421-bacac9edf09c
 title: Using the Windows Media Video 9.1 Image Category
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

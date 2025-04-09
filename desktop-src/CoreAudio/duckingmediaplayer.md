@@ -2,7 +2,7 @@
 description: This sample application demonstrates stream attenuation by implementing a media player that shows the default attenuation behavior provided by the system, opts out of ducking events, and implements custom handling when ducking events are received.
 ms.assetid: 667c8751-1d17-4b59-8ced-ed5f0c333ae9
 title: DuckingMediaPlayer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

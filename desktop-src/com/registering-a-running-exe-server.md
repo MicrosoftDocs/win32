@@ -2,7 +2,7 @@
 title: Registering a Running EXE Server
 description: Registering a Running EXE Server
 ms.assetid: 277f44bb-72b7-4409-955d-2cd53bc99467
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

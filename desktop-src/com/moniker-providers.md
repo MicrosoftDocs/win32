@@ -2,7 +2,7 @@
 title: Moniker Providers
 description: Moniker Providers
 ms.assetid: 4d4820d2-bf5f-4543-b318-59481dcc51de
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

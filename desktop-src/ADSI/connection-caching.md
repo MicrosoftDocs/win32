@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - connection caching ADSI
 - connection caching
-ms.topic: article
+ms.topic: concept-article
 ms.date: 03/12/2024
 ---
 

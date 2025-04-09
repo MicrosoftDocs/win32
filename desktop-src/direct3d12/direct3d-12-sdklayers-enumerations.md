@@ -2,7 +2,7 @@
 title: Debug Layer Enumerations
 description: The following enumerations are declared in d3d12sdklayers.h.
 ms.assetid: 6E76C857-128E-4F0E-9711-72C4CF6C835C
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

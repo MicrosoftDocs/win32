@@ -2,7 +2,7 @@
 description: Learn about the DocumentID element, which specifies a unique ID for the document. For the most current information, see the Print Schema Specification.
 ms.assetid: 6e7899e3-9b64-48bd-8683-aba627458f2a
 title: DocumentID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

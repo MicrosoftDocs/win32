@@ -12,7 +12,7 @@ keywords:
 - Advanced Systems Format (ASF),buffer allocation
 - ASF (Advanced Systems Format),buffer allocation
 - buffer allocation
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

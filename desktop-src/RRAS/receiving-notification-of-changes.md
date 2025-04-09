@@ -2,7 +2,7 @@
 title: Receiving Notification of Changes
 description: Many clients can simultaneously update the routing table, and clients must be notified when changes to routing information occur.
 ms.assetid: d42e16e2-32b2-4178-967b-e937730b3cca
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

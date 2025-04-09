@@ -4,7 +4,7 @@ description: Enables DLL servers to run in a custom surrogate process, in conjun
 ms.assetid: faf5dde3-bd67-447b-a88c-e8660dc5228e
 keywords:
 - DllSurrogateExecutable registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

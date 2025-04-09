@@ -2,7 +2,7 @@
 description: Unicable Frequency Table
 ms.assetid: 817d5b66-620d-417a-b3ea-25162ec8f0f5
 title: Unicable Frequency Table
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

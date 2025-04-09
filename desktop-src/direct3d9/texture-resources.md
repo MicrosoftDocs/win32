@@ -2,7 +2,7 @@
 description: Texture resources are implemented in the IDirect3DTexture9 interface. To obtain a pointer to a texture interface, call the IDirect3DDevice9::CreateTexture method or any of the following D3DX functions.
 ms.assetid: 'vs|directx_sdk|~\texture_resources.htm'
 title: Texture Resources (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Starting in Windows 7, Windows Management Instrumentation (WMI) im
 ms.assetid: e748b623-5ff3-464d-ba09-96cf226de7b6
 ms.tgt_platform: multiple
 title: Cross-Namespace Association Traversal
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic describes how to start and stop the print job processing thread.
 ms.assetid: CA3A81D6-332F-4867-881F-AC6859A076CF
 title: 'How To: Start and Stop a Printing Thread'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

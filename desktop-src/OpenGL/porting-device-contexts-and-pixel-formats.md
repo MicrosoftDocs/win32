@@ -5,7 +5,7 @@ ms.assetid: b60cac27-1e2e-4da5-81c4-69446b92f820
 keywords:
 - porting to OpenGL,pixels
 - OpenGL porting,pixels
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

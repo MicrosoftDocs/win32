@@ -10,7 +10,7 @@ keywords:
 - mouse cursor
 - double-click message processing
 - mouse wheel
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

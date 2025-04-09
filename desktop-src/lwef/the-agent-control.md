@@ -2,7 +2,7 @@
 title: The Agent Control
 description: The Agent Control
 ms.assetid: f633bbe1-3854-4e93-a953-dbfd997cf718
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The scheme for error reporting differs between the SPI and API interfaces.
 ms.assetid: f4a4b406-3e3a-444f-b75a-0cf51bded1bc
 title: Error Reporting and Parameter Validation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

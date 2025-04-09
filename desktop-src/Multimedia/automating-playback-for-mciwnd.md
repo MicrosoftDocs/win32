@@ -4,7 +4,7 @@ description: Automating Playback for MCIWnd
 ms.assetid: 7e38e8b1-f56d-4008-83a7-4fba8333e328
 keywords:
 - MCIWndCreate macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

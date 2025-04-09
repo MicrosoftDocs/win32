@@ -2,7 +2,7 @@
 description: Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the ILoadFilter interface.
 ms.assetid: 3478b948-73c7-4533-974a-d9b5186a651b
 title: Registering Filter Handlers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

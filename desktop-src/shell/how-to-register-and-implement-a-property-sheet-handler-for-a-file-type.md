@@ -1,7 +1,7 @@
 ---
 description: When the user right-clicks a member of a file type to display the Properties property sheet, the Shell calls the property sheet handlers that are registered for the file type. Each handler can add one custom page to the default property sheet.
 title: How to Register and Implement a Property Sheet Handler for a File Type
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

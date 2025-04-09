@@ -2,7 +2,7 @@
 description: The PlayAtTimeInTitle event is sent when the PlayAtTimeInTitle command has been enabled or disabled.
 ms.assetid: 'f597b45c-e1bf-43b3-bddb-3ec548a3d06c'
 title: PlayAtTimeInTitle
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Note  All of the Windows Sockets 1.1 functions for name resolution are specific to IPv4 TCP/IP networks.
 ms.assetid: 5a2a37f3-85c5-4b27-9ce3-f5b707b1564a
 title: Compatible Name Resolution for TCP/IP in the Windows Sockets 1.1 API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

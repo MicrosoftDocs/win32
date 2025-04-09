@@ -2,7 +2,7 @@
 title: Registers - vs_4_1
 description: This section contains reference information for the input and output registers implemented by vertex shader version 4\_1.
 ms.assetid: ea449195-d012-4a14-9760-b738a8623343
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

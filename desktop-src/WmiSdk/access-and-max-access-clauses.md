@@ -3,7 +3,7 @@ description: Each MIB object definition contains either an ACCESS (SNMPv1) or MA
 ms.assetid: c3b8d65b-c1ca-4131-baf4-1aab54451180
 ms.tgt_platform: multiple
 title: ACCESS and MAX-ACCESS Clauses
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

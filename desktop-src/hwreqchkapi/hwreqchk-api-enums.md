@@ -2,7 +2,7 @@
 description: The native HWREQCHK API contains the following enums.
 ms.assetid: c5218dd3-5765-47c2-bf21-5fcde60a6d3f
 title: HWREQCHK API enums
-ms.topic: article
+ms.topic: reference
 ms.date: 05/09/2023
 ---
 

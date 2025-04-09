@@ -2,7 +2,7 @@
 description: The search-ms  application protocol is a convention for querying the Windows Search index.
 ms.assetid: ab2695ed-4ef3-4687-81b0-416ca7086e5f
 title: Querying the Index with the search-ms Protocol
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

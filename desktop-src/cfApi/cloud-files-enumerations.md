@@ -2,7 +2,7 @@
 description: The following enumerations are used in creating and maintaining placeholder files and directories.
 ms.assetid: 69A34CEA-C774-4810-B562-F5703C3F27F2
 title: Cloud Filter Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

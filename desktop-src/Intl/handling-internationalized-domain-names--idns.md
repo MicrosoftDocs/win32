@@ -2,7 +2,7 @@
 description: This topic describes how you can work with internationalized domain names (IDNs) in your applications.
 ms.assetid: e0ca356e-f8c1-4845-ae1e-ce2ae8987515
 title: Handling Internationalized Domain Names (IDNs)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

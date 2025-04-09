@@ -2,7 +2,7 @@
 title: VML RuleProxy Attribute
 description: VML RuleProxy Attribute
 ms.assetid: 040e80f8-65b6-491d-812d-421800801374
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

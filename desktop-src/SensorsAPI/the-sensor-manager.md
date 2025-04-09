@@ -2,7 +2,7 @@
 description: The sensor manager object provides access to the sensors that are available for your use.
 ms.assetid: dd39d533-9983-41b4-a9a3-d94dcadebaac
 title: The Sensor Manager Object
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Exceptions can be initiated by hardware or software, and can occur in kernel-mode as well as user-mode code. Structured exception handling provides a single mechanism for the handling of kernel-mode and user-mode exceptions.
 ms.assetid: '760ddcaa-a18c-4fdf-836c-9028a2e4b62e'
 title: Exception Handling (Error Handling)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

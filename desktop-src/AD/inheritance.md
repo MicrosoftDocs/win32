@@ -5,7 +5,7 @@ ms.assetid: 9779c5d4-295a-4b87-8fdc-b96d09a4f480
 ms.tgt_platform: multiple
 keywords:
 - security AD ,inheritance
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

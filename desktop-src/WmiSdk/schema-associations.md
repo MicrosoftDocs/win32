@@ -3,7 +3,7 @@ description: 'Schema association queries use the same statements as are used in 
 ms.assetid: b5fc2d86-702a-42cd-82e6-f15c905ba6aa
 ms.tgt_platform: multiple
 title: Schema Associations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

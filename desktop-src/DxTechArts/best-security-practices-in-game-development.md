@@ -2,7 +2,7 @@
 title: Best Security Practices in Game Development
 description: Describes best security practices to use in game development and provides examples of insecure code.
 ms.assetid: 20956529-42ed-722b-cfa3-e3230d89fdd7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

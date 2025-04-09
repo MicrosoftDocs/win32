@@ -8,7 +8,7 @@ keywords:
 - Advanced Systems Format (ASF),asynchronous readers
 - ASF (Advanced Systems Format),asynchronous readers
 - asynchronous readers,retrieving media samples
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

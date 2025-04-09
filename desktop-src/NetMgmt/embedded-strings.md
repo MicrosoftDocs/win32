@@ -2,7 +2,7 @@
 title: Embedded Strings
 description: Information structures will not contain embedded strings. This improves the alignment of the information structures and allows for OEM flexibility in the core functions.
 ms.assetid: a3272a0a-5352-4847-84fd-113b4467c32c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

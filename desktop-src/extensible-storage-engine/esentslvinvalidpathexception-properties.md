@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVInvalidPathExcepti
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvinvalidpathexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102783
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentSLVInvalidPathException properties

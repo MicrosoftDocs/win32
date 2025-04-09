@@ -2,7 +2,7 @@
 description: This section discusses practical considerations for developing applications with the Peer infrastructure, as well as specific techniques to use the APIs more efficiently.
 ms.assetid: 5ce0f8a6-ab61-4091-809f-2e4a990f4886
 title: Using the Peer Infrastructure
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

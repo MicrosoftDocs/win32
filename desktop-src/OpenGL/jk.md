@@ -5,7 +5,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 182cc66c-afff-490b-8338-e592ce43a083
 keywords:
 - jaggies
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

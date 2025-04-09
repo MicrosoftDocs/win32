@@ -2,7 +2,7 @@
 description: WPD\_CONTENT\_TYPE\_MIXED\_CONTENT\_ALBUM
 ms.assetid: 7b9d324c-8a9c-4764-9705-ea891e631ead
 title: WPD_CONTENT_TYPE_MIXED_CONTENT_ALBUM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

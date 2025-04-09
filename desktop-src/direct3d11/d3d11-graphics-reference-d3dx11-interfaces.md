@@ -5,7 +5,7 @@ ms.assetid: 0d3be1e6-b558-4586-9440-251a5611d7cd
 keywords:
 - D3DX interfaces, Direct3D 11
 - interfaces, Direct3D 11 D3DX
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

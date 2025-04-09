@@ -2,7 +2,7 @@
 description: Saving a Filter Graph to a GraphEdit File
 ms.assetid: f7eeae3c-506b-484c-8fe5-ddd391af5a59
 title: Saving a Filter Graph to a GraphEdit File
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

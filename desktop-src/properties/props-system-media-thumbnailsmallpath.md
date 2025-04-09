@@ -2,7 +2,7 @@
 description: The System.Media.ThumbnailSmallPath property contains the filesystem path to the small thumbnail representation of the media item.
 ms.assetid: 5ce12c5a-c9ed-4f96-bdbf-1e14b7b5dbcd
 title: System.Media.ThumbnailSmallPath
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

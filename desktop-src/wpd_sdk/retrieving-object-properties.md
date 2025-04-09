@@ -2,7 +2,7 @@
 title: Retrieving object properties overview
 description: An application can retrieve properties for a single object or multiple objects. Learn about retrieval for a single object.
 ms.assetid: 499644ee-9eef-4267-9c45-7c7ba9ef61af
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

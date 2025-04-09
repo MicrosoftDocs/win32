@@ -2,7 +2,7 @@
 description: The following functions are used with Multilingual User Interface (MUI).
 ms.assetid: 918d1f04-78fe-4b60-bee7-08d2f131437e
 title: Multilingual User Interface Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

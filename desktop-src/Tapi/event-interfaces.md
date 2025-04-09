@@ -2,7 +2,7 @@
 description: The event (notification) interfaces allow a TAPI 3 application to respond to asynchronous events.
 ms.assetid: 27fd91e8-b628-49ee-af4e-9aec0afa5449
 title: Event Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

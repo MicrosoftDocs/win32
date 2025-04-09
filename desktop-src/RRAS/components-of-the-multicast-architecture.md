@@ -4,7 +4,7 @@ description: The major components of the multicast routing architecture are expl
 ms.assetid: 34de56a6-d170-44f8-a537-d62825825c4c
 keywords:
 - Multicast architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

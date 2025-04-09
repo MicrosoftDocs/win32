@@ -2,7 +2,7 @@
 description: Find an Interface on a Filter or Pin
 ms.assetid: 546f5b7d-3bcd-4e97-a012-daca6ae7bca1
 title: Find an Interface on a Filter or Pin
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

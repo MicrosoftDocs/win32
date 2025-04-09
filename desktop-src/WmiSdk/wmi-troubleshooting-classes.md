@@ -3,7 +3,7 @@ description: WMI supplies a set of troubleshooting classes that scripts and appl
 ms.assetid: 631e0cce-0e83-42e5-a381-e96b1f70d6f9
 ms.tgt_platform: multiple
 title: WMI Troubleshooting Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

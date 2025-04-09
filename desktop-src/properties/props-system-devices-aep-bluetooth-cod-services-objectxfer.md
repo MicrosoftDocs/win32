@@ -2,7 +2,7 @@
 description: Bluetooth class of device service object transfer.
 ms.assetid: 2dbaccc5-7fe0-4041-b317-bbfb4a603e1b
 title: System.Devices.Aep.Bluetooth.Cod.Services.ObjectXfer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

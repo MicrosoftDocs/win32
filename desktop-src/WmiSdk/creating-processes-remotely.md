@@ -3,7 +3,7 @@ description: You can use Win32\_Process.Create to execute a script or applicatio
 ms.assetid: 11fea8b1-7d05-4f44-9103-ea804a1d4b38
 ms.tgt_platform: multiple
 title: Creating Processes Remotely using WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

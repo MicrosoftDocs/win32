@@ -1,7 +1,7 @@
 ---
 title: Rich Edit Callbacks
 description: Rich Edit Callbacks
-ms.topic: article
+ms.topic: reference
 ms.date: 10/03/2023
 ---
 

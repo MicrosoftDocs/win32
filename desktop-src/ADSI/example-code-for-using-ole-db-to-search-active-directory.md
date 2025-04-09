@@ -7,7 +7,7 @@ keywords:
 - Example Code for Using OLE DB to Search Active Directory ADSI
 - ADSI ADSI , example code C/C++ , using OLE DB to access Active Directory
 - queries ADSI , searching with OLE DB, example code for using OLE DB to access Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

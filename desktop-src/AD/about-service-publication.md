@@ -3,7 +3,7 @@ title: About Service Publication
 description: A service is an application that makes data or operations available to network clients. Often, a service is implemented as a formal Microsoft Win32-based service, but this is not required.
 ms.assetid: 500f37ff-2551-44a0-91d8-56f0df5afa69
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

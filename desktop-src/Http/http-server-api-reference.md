@@ -4,7 +4,7 @@ description: Use the following reference sections when implementing applications
 ms.assetid: 6f0d320c-8c4a-496b-8398-6d4dedc989d2
 keywords:
 - HTTP Server API, reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

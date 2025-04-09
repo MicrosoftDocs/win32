@@ -2,7 +2,7 @@
 description: Priority inversion occurs when two or more threads with different priorities are in contention to be scheduled.
 ms.assetid: 1cb2f3c9-4641-40d8-892c-768abaf6affb
 title: Priority Inversion
-ms.topic: article
+ms.topic: reference
 ms.date: 03/12/2024
 ---
 

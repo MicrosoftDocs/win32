@@ -5,7 +5,7 @@ ms.assetid: 'b414dffb-3701-4dfd-aa8c-cd8e8918027d'
 keywords:
 - Media Control Interface (MCI),about
 - MCI (Media Control Interface),about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: System.Media.CollectionGroupID
 ms.assetid: 1ef5de55-2cf8-4ed3-ad79-25856058fb03
 title: System.Media.CollectionGroupID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

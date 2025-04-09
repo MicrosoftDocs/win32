@@ -2,7 +2,7 @@
 title: Administrative Application Scenario
 description: Administrative applications call a subset of MGM functions that are related to enumerating multicast forwarding entries (MFEs) and MFE statistics.
 ms.assetid: ed172425-6d1e-45d8-8076-7705e833bfd5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

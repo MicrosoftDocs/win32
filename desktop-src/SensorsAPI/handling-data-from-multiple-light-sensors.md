@@ -2,7 +2,7 @@
 description: Using Light Sensor Data
 ms.assetid: 98272df5-08c0-4392-a74b-2919bbdcb022
 title: Using Light Sensor Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

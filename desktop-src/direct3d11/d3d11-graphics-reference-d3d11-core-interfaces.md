@@ -4,7 +4,7 @@ description: This section contains information about the core interfaces.
 ms.assetid: e96804db-0987-49ca-b1b1-321f36c13024
 keywords:
 - interfaces, Direct3D 11 Core
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

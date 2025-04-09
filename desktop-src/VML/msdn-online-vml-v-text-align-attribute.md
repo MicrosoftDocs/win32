@@ -2,7 +2,7 @@
 title: VML V-Text-Align Attribute
 description: VML V-Text-Align Attribute
 ms.assetid: ca2cbbf6-ddbb-4f2b-942c-3fe0033bd649
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

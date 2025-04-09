@@ -2,7 +2,7 @@
 title: Instruction modifiers (HLSL VS reference)
 description: Instruction modifiers
 ms.assetid: b713d847-c858-4492-918c-7a105f751624
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -4,7 +4,7 @@ description: The following example code illustrates this procedure.
 ms.assetid: a2998232-db71-48ce-b14b-5e17de147172
 keywords:
 - CMainWindow
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

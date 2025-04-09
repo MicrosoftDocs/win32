@@ -2,7 +2,7 @@
 title: AccNameShouldNotContainRole
 description: AccNameShouldNotContainRole
 ms.assetid: 271461FF-5123-482F-B66D-A323CB3361DD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: AVI Splitter Filter
 ms.assetid: df3c7d11-7ecc-499a-af36-b74437e21999
 title: AVI Splitter Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

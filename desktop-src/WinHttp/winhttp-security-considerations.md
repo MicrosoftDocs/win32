@@ -2,7 +2,7 @@
 description: 'The following security considerations apply to applications that use WinHTTP: Server certificates are only verified once per session.'
 ms.assetid: 287e85ed-a324-4785-872a-26e4ab37986d
 title: WinHTTP Security Considerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

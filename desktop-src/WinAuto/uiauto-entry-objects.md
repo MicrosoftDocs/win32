@@ -2,7 +2,7 @@
 title: UI Automation Objects
 description: This section provides reference documentation for the Microsoft UI Automation objects.
 ms.assetid: 5f844721-fbbc-4311-8c53-aea5baf4b347
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

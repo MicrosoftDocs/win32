@@ -2,7 +2,7 @@
 title: Debugging protocol handlers
 description: Understanding how protocol handlers are launched is integral to testing and debugging your protocol handler implementations.
 ms.assetid: 33c99620-7381-4719-9fc6-4c8284481411
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

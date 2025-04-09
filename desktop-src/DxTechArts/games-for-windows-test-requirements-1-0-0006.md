@@ -2,7 +2,7 @@
 title: Games for Windows Test Cases Best Practices for Games on Windows XP, Windows Vista, Windows 7, and Windows 8
 description: This article provides test cases for games for Windows.
 ms.assetid: bbe84d3f-e7ff-f14f-ec25-ae1c980749fe
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 

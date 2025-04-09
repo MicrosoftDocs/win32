@@ -2,7 +2,7 @@
 description: Playback Controls in TopoEdit
 ms.assetid: 36ebfa9e-7092-4a93-b633-8eefef8ac9e6
 title: Playback Controls in TopoEdit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

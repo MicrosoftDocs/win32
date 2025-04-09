@@ -2,7 +2,7 @@
 description: Creates a CMC certificate request and enrolls a computer in a certificate hierarchy.
 ms.assetid: ef09ef04-8925-4d66-97ad-70b4d7cf78b9
 title: enrollCustomCMC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Translating to JavaScript
 description: Translating to JavaScript
 ms.assetid: 5c11ab17-bff5-4caf-8a1a-6461d643de3c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

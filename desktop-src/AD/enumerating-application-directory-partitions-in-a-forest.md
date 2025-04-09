@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Enumerating Application Directory Partitions in a Forest AD
 - Application Directory Partitions AD , Enumerating in a Forest
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Trackbar Control Notifications
 description: Trackbar Control Notifications
 ms.assetid: 82c501b2-37a3-4e15-a9d9-e978f984a3ea
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

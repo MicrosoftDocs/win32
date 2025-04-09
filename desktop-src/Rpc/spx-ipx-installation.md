@@ -4,7 +4,7 @@ description: Applications can utilize Microsoft RPC on networks that use the nca
 ms.assetid: 59708df9-6fb6-4a97-b4b1-f431a5e5bd34
 keywords:
 - Remote Procedure Call RPC , tasks, installing SPX/IPX
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

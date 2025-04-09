@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.INullableJetStruct
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.inullablejetstruct_members(v=EXCHG.10)
 ms:contentKeyID: 39515569
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # INullableJetStruct members

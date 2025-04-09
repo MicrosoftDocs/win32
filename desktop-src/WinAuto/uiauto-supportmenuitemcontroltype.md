@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for MenuItem control type
 - control types,support for MenuItem
 - control types,MenuItem
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

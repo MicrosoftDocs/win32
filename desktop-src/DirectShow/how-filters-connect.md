@@ -2,7 +2,7 @@
 description: How Filters Connect
 ms.assetid: 6a126dd5-00fa-4ea6-b00a-09b7e1246874
 title: How Filters Connect
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

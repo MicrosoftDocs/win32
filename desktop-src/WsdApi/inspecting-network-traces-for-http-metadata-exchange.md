@@ -2,7 +2,7 @@
 description: Learn about inspecting network traces for HTTP metadata exchange. Use a network packet analyzer that displays raw packets.
 ms.assetid: b3b6c4d1-5fa3-41fb-ae1d-067638e385b0
 title: Inspecting Network Traces for HTTP Metadata Exchange
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

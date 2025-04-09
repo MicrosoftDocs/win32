@@ -2,7 +2,7 @@
 description: Setting Properties for Multiple Objects
 ms.assetid: 0686ba54-4782-42a4-8fdb-2325fc8d8bc2
 title: Setting Properties for Multiple Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

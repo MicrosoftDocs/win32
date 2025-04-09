@@ -2,7 +2,7 @@
 title: Provider Management
 description: Provider Management
 ms.assetid: C628647C-FDFD-4E6D-9F2F-EF64AC4CFD80
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

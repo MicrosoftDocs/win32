@@ -8,7 +8,7 @@ keywords:
 - clients,text ranges
 - clients,Text control pattern
 - clients,TextRange control pattern
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

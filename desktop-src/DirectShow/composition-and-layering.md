@@ -2,7 +2,7 @@
 description: Composition and Layering
 ms.assetid: c1aefd92-b47f-4af1-8299-9ba401ad5fe8
 title: Composition and Layering
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

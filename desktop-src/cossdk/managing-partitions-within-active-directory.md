@@ -2,7 +2,7 @@
 description: As an alternative to managing Active Directory partitions through the Active Directory Users and Computers administrative tool, you can manage COM+ partitions programmatically through the use of a set of COM+ objects within Active Directory System Interface (ADSI).
 ms.assetid: 915b4643-cbda-433a-a383-65a6b0fd0874
 title: Managing Partitions Within Active Directory
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

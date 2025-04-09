@@ -3,7 +3,7 @@ title: Linked Attributes (AD Schema)
 description: The following are the linked attributes defined by Active Directory.
 ms.assetid: ed64c0bd-3d55-48c4-83b8-771025f3582a
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

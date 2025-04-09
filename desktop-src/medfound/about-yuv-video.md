@@ -2,7 +2,7 @@
 description: About YUV Video
 ms.assetid: 089f42f2-1e5b-4d4b-98a4-9ef0ca2823c1
 title: About YUV Video
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

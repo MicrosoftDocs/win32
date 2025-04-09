@@ -2,7 +2,7 @@
 title: SRStatus Property
 description: SRStatus Property
 ms.assetid: 67618a35-05e4-4bb3-b910-c75de6e32578
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

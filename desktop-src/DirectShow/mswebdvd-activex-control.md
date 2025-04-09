@@ -2,7 +2,7 @@
 description: MSWebDVD ActiveX Control
 ms.assetid: 34097283-f5df-46e0-aed2-89505d32ac08
 title: MSWebDVD ActiveX Control
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

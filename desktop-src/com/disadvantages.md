@@ -2,7 +2,7 @@
 title: Disadvantages
 description: Disadvantages
 ms.assetid: ce6885d9-7056-42bc-85d1-27ce32b1be5e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

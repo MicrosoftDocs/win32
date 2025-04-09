@@ -2,7 +2,7 @@
 description: The PrintCapabilities describe the configurations or states available on a device, which can often be placed in a number of different configurations.
 ms.assetid: 094472fc-28ca-4d7a-a8be-cc4623d02ff2
 title: Overview of the PrintCapabilities
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

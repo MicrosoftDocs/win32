@@ -2,7 +2,7 @@
 description: Writing Video Renderers
 ms.assetid: 61dfff97-86b2-4d75-ac1c-a69b1dbde02a
 title: Writing Video Renderers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

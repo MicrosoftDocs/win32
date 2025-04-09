@@ -2,7 +2,7 @@
 description: In order for a namespace provider to be accessible through Windows Sockets it must be properly installed on the system and registered with Windows Sockets.
 ms.assetid: c73baf62-b862-476c-b381-be00699e78ca
 title: Name Resolution Configuration and Installation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

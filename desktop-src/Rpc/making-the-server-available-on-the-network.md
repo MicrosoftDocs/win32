@@ -4,7 +4,7 @@ description: Before a server application can accept remote procedure calls, it m
 ms.assetid: 1fad55e2-7221-4153-b530-b36ea42e03e1
 keywords:
 - Remote Procedure Call RPC, tasks, making the server available
-ms.topic: article
+ms.topic: concept-article
 ms.date: 10/17/2023
 ---
 

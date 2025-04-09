@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - extensions ADSI ,late binding, what's happening under the hood
 - binding AD ,late binding
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

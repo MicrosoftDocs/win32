@@ -2,7 +2,7 @@
 description: Mapper Sample
 ms.assetid: f795993f-43d7-4b29-905c-12ec3d43a059
 title: Mapper Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

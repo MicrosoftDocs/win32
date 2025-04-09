@@ -2,7 +2,7 @@
 description: A window or menu that is on more than one monitor causes visual disruption for a viewer. To minimize this problem, the system displays menus and new and maximized windows on one monitor. The following table shows how the monitor is chosen.
 ms.assetid: 9316c8dd-c9b7-49e2-a987-5949a87b0cfc
 title: Positioning Objects on Multiple Display Monitors
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

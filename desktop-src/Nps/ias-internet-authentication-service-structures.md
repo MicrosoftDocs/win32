@@ -3,7 +3,7 @@ title: NPS Extensions Structures
 description: Use the RADIUS\_ATTRIBUTE structures to represent a RADIUS attribute or an extended attribute when developing NPS Extension DLLs.
 ms.assetid: 8b13a21c-edbe-4982-8718-a34d62ecc38d
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

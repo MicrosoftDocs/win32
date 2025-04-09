@@ -1,7 +1,7 @@
 ---
 title: DirectML functions
 description: The following functions are declared in DirectML.h.
-ms.topic: article
+ms.topic: reference
 ms.date: 04/19/2019
 ms.custom: 19H1
 ---

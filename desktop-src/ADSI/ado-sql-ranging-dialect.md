@@ -5,7 +5,7 @@ ms.assetid: 0453aa9e-ed35-45ff-a728-e854bf0bb353
 ms.tgt_platform: multiple
 keywords:
 - ADO SQL Ranging Dialect ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

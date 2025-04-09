@@ -2,7 +2,7 @@
 description: Model Id.
 ms.assetid: eb2b9edf-a217-47d1-bd36-23ba166c0022
 title: System.Devices.ModelId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

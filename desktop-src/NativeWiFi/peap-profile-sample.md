@@ -2,7 +2,7 @@
 description: Used to connect to a network that uses Protected Extensible Authentication Protocol with Microsoft Challenge Handshake Authentication Protocol version 2 (PEAP-MSCHAPv2) with UserName/Password for 802.1X authentication.
 ms.assetid: b5dde0d0-940f-40ec-b24d-95a76325ff1b
 title: PEAP Profile Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

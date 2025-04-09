@@ -4,7 +4,7 @@ description: An IDL file contains one or more interface definitions.
 ms.assetid: ca01766d-ec7f-4906-9927-0835aeda4981
 keywords:
 - IDL files RPC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

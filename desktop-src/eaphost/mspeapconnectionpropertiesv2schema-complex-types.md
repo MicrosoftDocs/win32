@@ -2,7 +2,7 @@
 title: mspeapconnectionpropertiesv2 Schema Complex Types
 description: Learn about the mspeapconnectionpropertiesv2 schema complex types. These types are IdentityPrivacyParameters and PeapExtensionsTypeV2.
 ms.assetid: 43b0c3a0-b978-4692-a4be-03ed8e14d7b9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

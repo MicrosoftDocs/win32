@@ -2,7 +2,7 @@
 title: Windows 8.1 and Windows Server 2012 R2
 description: Windows 8.1 and Windows Server 2012 R2
 ms.assetid: 'fab91746-3cd6-4526-b874-489b189d4ab2'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

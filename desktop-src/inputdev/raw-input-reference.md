@@ -2,7 +2,7 @@
 title: Raw Input Reference
 description: Raw Input Reference
 ms.assetid: 85bcce5f-6fe5-43b9-91d1-ef7025f77c3c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

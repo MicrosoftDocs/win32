@@ -2,7 +2,7 @@
 description: Building a VMR-9 Filter Graph
 ms.assetid: fd83a89c-f1b6-48a3-971e-04ae4ac14c66
 title: Building a VMR-9 Filter Graph
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

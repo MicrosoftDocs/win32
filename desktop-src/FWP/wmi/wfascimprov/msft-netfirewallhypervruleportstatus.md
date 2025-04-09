@@ -1,7 +1,7 @@
 ---
 title: MSFT_NetFirewallHyperVRulePortStatus class
 description: Represents the status of a firewall rule on a particular port.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/16/2024
 topic_type: 
 - APIRef

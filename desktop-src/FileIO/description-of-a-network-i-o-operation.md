@@ -2,7 +2,7 @@
 description: Describes the process of a network I/O operation under Windows.
 ms.assetid: 72dc0c57-28ae-4289-bb0d-b399d294c126
 title: Description of a Network I/O Operation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

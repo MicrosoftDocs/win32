@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - controlling object visibility Active Directory
 - Active Directory Active Directory , using, controlling object visibility
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

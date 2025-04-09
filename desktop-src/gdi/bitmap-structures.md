@@ -2,7 +2,7 @@
 description: 'The following structures are used with bitmaps:'
 ms.assetid: 29f8237f-9c7e-41a7-90b1-5f048fcc74a6
 title: Bitmap Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

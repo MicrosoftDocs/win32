@@ -2,7 +2,7 @@
 description: The following sections contain reference information about the Windows Installer service and the Windows Installer API.
 ms.assetid: dd50d51a-a95e-437e-a3a9-5005e0da3395
 title: Windows Installer Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

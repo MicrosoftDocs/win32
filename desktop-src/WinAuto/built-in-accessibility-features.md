@@ -2,7 +2,7 @@
 title: Built-in Accessibility Features
 description: The built-in accessibility features are extensions to the operating system. These features affect the behavior of the system regardless of which applications are running.
 ms.assetid: cb2a6e26-9698-4917-8799-71fb1be91072
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

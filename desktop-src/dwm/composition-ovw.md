@@ -16,7 +16,7 @@ keywords:
 - Desktop Window Manager (DWM),messaging
 - DWM (Desktop Window Manager),messaging
 - messaging
-ms.topic: article
+ms.topic: reference
 ms.date: 05/30/2019
 ---
 

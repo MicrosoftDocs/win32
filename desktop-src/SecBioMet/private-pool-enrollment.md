@@ -2,7 +2,7 @@
 title: Private Pool Enrollment
 description: Contains the enrollment console project.
 ms.assetid: 666CD6FF-A6A2-4992-81EB-F520C8FE5D95
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

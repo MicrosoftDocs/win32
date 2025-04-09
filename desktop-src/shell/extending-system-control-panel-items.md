@@ -1,7 +1,7 @@
 ---
 description: Some of the system items found in the Control Panel are extensible. To install a Control Panel extension, register your Shell extension as follows, where name is the predefined name of the system item (see table below).
 title: Extending System Control Panel Items
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: b8b18b71-c95f-4c71-8df4-fe9342ce0165
 api_name: 

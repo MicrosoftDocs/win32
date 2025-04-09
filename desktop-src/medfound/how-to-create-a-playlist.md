@@ -2,7 +2,7 @@
 description: This topic describes how to use the Sequence Source to play a sequence of files.
 ms.assetid: 5a760492-bd52-40b8-a652-8a62646db6ae
 title: How to Create a Playlist
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Media
 ms.assetid: cd71978d-09d9-43f1-ab1b-4b213e3a193b
 title: Media
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

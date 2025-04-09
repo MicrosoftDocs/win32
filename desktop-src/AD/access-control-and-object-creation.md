@@ -5,7 +5,7 @@ ms.assetid: 52f56e2a-580c-44b5-ba97-21388f6258bc
 ms.tgt_platform: multiple
 keywords:
 - Access Control and Object Creation AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

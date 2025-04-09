@@ -1,7 +1,7 @@
 ---
 title: Changes to API behavior for Wi-Fi access and location
 description: In order to better manage which apps have access to location, Windows is adding new privacy controls.
-ms.topic: article
+ms.topic: reference
 ms.date: 04/01/2024
 ---
 

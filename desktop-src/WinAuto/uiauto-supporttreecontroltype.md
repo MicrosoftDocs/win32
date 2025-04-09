@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Tree control type
 - control types,support for Tree
 - control types,Tree
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following sections discuss authoring multiple language merge modules in detail.
 ms.assetid: 36a2c785-2627-41ec-93c3-f3724d1826e7
 title: Authoring Multiple Language Merge Modules
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

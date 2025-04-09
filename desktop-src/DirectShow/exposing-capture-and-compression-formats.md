@@ -2,7 +2,7 @@
 description: Exposing Capture and Compression Formats
 ms.assetid: f7466cfe-b13e-4ee9-82f9-0528ed97bf99
 title: Exposing Capture and Compression Formats
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

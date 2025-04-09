@@ -1,7 +1,7 @@
 ---
 description: Library Functions
 title: Library Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 273f8f8a-ea46-40a1-bd62-2c1566bc8c65
 api_name: 

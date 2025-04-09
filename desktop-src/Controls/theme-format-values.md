@@ -2,7 +2,7 @@
 title: Format Values
 description: This section lists the values that are used with the dwTextFlags parameter of the DrawThemeText and GetThemeTextExtent functions.
 ms.assetid: 765b90df-4753-43e6-bcf7-6512f6f378bd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

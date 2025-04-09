@@ -2,7 +2,7 @@
 description: Indicates the name of the method used for finding locations.
 ms.assetid: 8e416d5d-a47d-4f46-8069-d0a82963a8f2
 title: System.GPS.ProcessingMethod
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

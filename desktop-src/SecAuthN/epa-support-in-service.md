@@ -2,7 +2,7 @@
 description: EPA cryptographically binds the TLS session key to the session key of the authentication protocol, allowing TLS to provide the same client authentication as the authentication protocol’s key.
 ms.assetid: 97c616aa-1a8a-45a5-9b31-8813dd679e48
 title: Supporting Extended Protection for Authentication (EPA) in a service
-ms.topic: article
+ms.topic: how-to
 ms.date: 07/14/2023
 ---
 

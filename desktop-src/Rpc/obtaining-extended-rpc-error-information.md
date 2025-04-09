@@ -4,7 +4,7 @@ description: RPC provides the capability to obtain extended error information. T
 ms.assetid: 7a386def-c640-42f4-9869-b6a1c522984a
 keywords:
 - Remote Procedure Call RPC , best practices, extended error information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

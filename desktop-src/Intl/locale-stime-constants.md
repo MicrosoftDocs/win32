@@ -2,7 +2,7 @@
 description: LOCALE\_STIME\* Constants
 ms.assetid: d16e7e0c-93f1-4f08-a319-02b717b7d33b
 title: LOCALE_STIME* Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

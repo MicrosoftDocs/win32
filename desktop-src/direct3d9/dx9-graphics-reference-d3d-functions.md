@@ -2,7 +2,7 @@
 description: This section contains reference information for the functions that you need to use when you work with Direct3D.
 ms.assetid: 258a76f2-2dd6-49cb-bf8c-f437792bba27
 title: Direct3D Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

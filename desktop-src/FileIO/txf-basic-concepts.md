@@ -2,7 +2,7 @@
 description: Describes read-committed consistency, read-committed isolation, and transactional locking concepts in Transactional NTFS.
 ms.assetid: 18579c4a-a832-4c89-8fb1-cd2542e4375e
 title: Basic TxF Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: The Windows 7 Desktop
 description: The Windows 7 desktop is the user's work area for their programs.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/11/2022
 ---
 

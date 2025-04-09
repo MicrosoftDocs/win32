@@ -2,7 +2,7 @@
 description: The semantics for datagram, or connectionless, contexts differ slightly from those for connection-oriented contexts.
 ms.assetid: f312796c-cbe6-4be9-9886-52fdb34ced6b
 title: Datagram Contexts
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

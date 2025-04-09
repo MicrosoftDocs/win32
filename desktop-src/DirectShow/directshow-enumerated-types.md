@@ -2,7 +2,7 @@
 description: DirectShow Enumerated Types
 ms.assetid: 74467006-b077-49c0-8573-f939ac3d3444
 title: DirectShow Enumerated Types
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

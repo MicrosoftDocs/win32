@@ -2,7 +2,7 @@
 title: About Text Object Model
 description: This topic provides a high-level overview of the TOM.
 ms.assetid: e304ec18-ec2e-4ea7-91c6-6f6ab63b72ae
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

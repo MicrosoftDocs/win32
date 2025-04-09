@@ -5,7 +5,7 @@ ms.assetid: 53bbd57b-0bd2-4acb-a69f-89764b85e257
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , searching for users
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

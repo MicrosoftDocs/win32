@@ -5,7 +5,7 @@ ms.assetid: 01dfdfec-cfdf-43ee-bf2f-c05a741bfb22
 ms.tgt_platform: multiple
 keywords:
 - WinNT service provider ADSI ,object class hierarchy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

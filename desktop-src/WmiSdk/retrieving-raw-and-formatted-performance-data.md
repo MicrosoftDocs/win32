@@ -3,7 +3,7 @@ description: The following topic describes how to retrieve the on-line programmi
 ms.assetid: B3CD7E2C-9FCF-42FB-8713-01A696E905B0
 ms.tgt_platform: multiple
 title: Retrieving Documentation for Raw and Formatted Performance Data Objects
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

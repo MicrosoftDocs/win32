@@ -2,7 +2,7 @@
 title: VML Orientation Attribute
 description: VML Orientation Attribute
 ms.assetid: 62298908-6e88-470d-bca2-0cfc1a38c2eb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedExc
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvpagesnotdeletedexception_members(v=EXCHG.10)
 ms:contentKeyID: 55102801
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentSLVPagesNotDeletedException members

@@ -2,7 +2,7 @@
 title: How to Create a Simple Combo Box
 description: This topic describes how to create, add items to, and retrieve items from a simple combo box.
 ms.assetid: E432AEC0-6C06-40C7-BBFE-B66C21DB8ACA
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

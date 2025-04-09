@@ -7,7 +7,7 @@ keywords:
 - memory consumption under WOW64 64-bit Windows Programming
 - WOW64 64-bit Windows Programming , performance
 - WOW64 64-bit Windows Programming , memory consumption
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

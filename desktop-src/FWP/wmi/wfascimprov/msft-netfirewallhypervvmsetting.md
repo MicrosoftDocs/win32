@@ -1,7 +1,7 @@
 ---
 title: MSFT_NetFirewallHyperVVMSetting class
 description: Represents Windows Defender Firewall Hyper-V settings for a VM type.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/17/2024
 topic_type: 
 - APIRef

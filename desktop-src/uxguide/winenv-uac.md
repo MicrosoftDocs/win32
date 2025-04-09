@@ -2,7 +2,7 @@
 title: User Account Control (Design basics)
 description: A well designed User Account Control experience helps prevent unwanted system-wide changes in a way that is predictable and requires minimal effort.
 ms.assetid: c4b83537-c600-4b24-bda6-df7a82719ab1
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

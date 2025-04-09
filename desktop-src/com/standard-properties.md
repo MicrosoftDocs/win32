@@ -2,7 +2,7 @@
 title: Standard Properties
 description: Standard Properties
 ms.assetid: 08b7c388-a362-4d71-ac24-93675984881f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

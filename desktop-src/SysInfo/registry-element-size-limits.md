@@ -2,7 +2,7 @@
 title: Registry element size limits
 description: The following table identifies the size limits for the various registry elements.
 ms.assetid: a6d3a884-f181-46a5-b655-226c68792e08
-ms.topic: article
+ms.topic: reference
 ms.date: 07/22/2022
 ---
 

@@ -2,7 +2,7 @@
 description: The following overviews describe the types of system information available.
 ms.assetid: cb7b50fc-6591-48a9-b3a7-327de9a6dc06
 title: Windows System Information
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

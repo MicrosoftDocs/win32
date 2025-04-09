@@ -3,7 +3,7 @@ title: RemoteApp classes
 description: The RemoteApp WMI provider provides the following classes.
 ms.assetid: 1af50573-04dd-4077-9fc1-2f605427b201
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

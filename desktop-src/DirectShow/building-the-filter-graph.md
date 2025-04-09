@@ -2,7 +2,7 @@
 description: Building the Filter Graph
 ms.assetid: 7e8ad125-4f1c-46dc-8de2-7de499edab24
 title: Building the Filter Graph
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

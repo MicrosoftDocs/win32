@@ -2,7 +2,7 @@
 title: Configuring the Microsoft Locator Name Service Provider
 description: You can change the name service provider you specified by editing the Rpcreg.dat configuration file, which contains the NSP parameters and RPC protocol settings. Use a text editor to change NSP entries.
 ms.assetid: b499e40e-d38f-4e51-bbce-41af3ff12a7e
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

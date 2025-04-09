@@ -2,7 +2,7 @@
 description: Learn about the DocumentHolePunch element, which describes  the hole punching characteristics of the output.
 ms.assetid: 46fd5e22-a2f3-424d-8c2f-2d5ac089a230
 title: DocumentHolePunch
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

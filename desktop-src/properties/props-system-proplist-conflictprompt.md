@@ -2,7 +2,7 @@
 description: The list of properties to show in the file operation conflict resolution dialog. Properties with empty values will not be displayed.
 ms.assetid: 77285dbe-e15a-4314-961f-6f876df511a8
 title: System.PropList.ConflictPrompt
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

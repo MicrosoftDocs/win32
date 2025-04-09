@@ -2,7 +2,7 @@
 title: Hindering Filter Deletion
 description: Following example code demonstrates how to make a filter difficult to delete by setting a DACL.
 ms.assetid: 83c336fa-983e-4e17-86b3-3a42f4824c74
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

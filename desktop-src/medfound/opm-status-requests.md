@@ -2,7 +2,7 @@
 description: OPM Status Requests
 ms.assetid: 428d08c6-e9f0-49fb-9ef9-d0f95416669d
 title: OPM Status Requests
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

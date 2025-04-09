@@ -8,7 +8,7 @@ keywords:
 - DPI-aware applications
 - high DPI
 - writing DPI-aware Win32 applications
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

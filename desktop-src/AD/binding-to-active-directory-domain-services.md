@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - binding to Active Directory Domain Services Active Directory
 - Active Directory Domain Services Active Directory , binding to
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

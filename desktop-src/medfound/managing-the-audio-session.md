@@ -2,7 +2,7 @@
 description: This topic describes how to control audio volume when using MFPlay for audio/video playback.
 ms.assetid: 4cf3dd0f-4c8a-4720-9eb3-d23352f3a85e
 title: Managing the Audio Session
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

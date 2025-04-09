@@ -2,7 +2,7 @@
 title: File and Stream Handler Installation
 description: File and Stream Handler Installation
 ms.assetid: 8d007ea4-b75a-4b3f-965f-8091fcd4cb2f
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

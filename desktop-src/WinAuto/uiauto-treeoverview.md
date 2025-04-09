@@ -8,7 +8,7 @@ keywords:
 - UI Automation,raw view of tree
 - UI Automation,control view of tree
 - UI Automation,content view of tree
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

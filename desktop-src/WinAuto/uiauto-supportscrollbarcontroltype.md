@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for ScrollBar control type
 - control types,support for ScrollBar
 - control types,ScrollBar
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

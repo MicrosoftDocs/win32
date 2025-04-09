@@ -10,7 +10,7 @@ keywords:
 - Advanced Systems Format (ASF),seeking
 - ASF (Advanced Systems Format),seeking
 - DirectShow,seeking in ASF files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

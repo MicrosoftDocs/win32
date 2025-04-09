@@ -3,7 +3,7 @@ description: Scripts can access all WMI classes for hardware and software object
 ms.assetid: dbb29bc8-a675-4538-99f4-00613c83eeaa
 ms.tgt_platform: multiple
 title: Scripting Access to WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

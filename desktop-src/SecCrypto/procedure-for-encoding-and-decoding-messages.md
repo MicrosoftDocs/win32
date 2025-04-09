@@ -2,7 +2,7 @@
 description: Details the procedure for encoding a general message.
 ms.assetid: 554cab0d-cfa2-46a7-80d9-f41430eb4b47
 title: Procedure for Encoding and Decoding Messages
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

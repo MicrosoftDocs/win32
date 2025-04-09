@@ -2,7 +2,7 @@
 description: The following material provides guidelines on using TAPI to write end-user or server communications applications. This information is also highly relevant to service provider programmers.
 ms.assetid: fb97aff7-910e-451f-b183-36324a459423
 title: TAPI Applications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

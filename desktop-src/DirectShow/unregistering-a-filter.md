@@ -2,7 +2,7 @@
 description: Unregistering a Filter
 ms.assetid: 5459d172-7dfe-4786-bcf2-031e441e30a2
 title: Unregistering a Filter
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

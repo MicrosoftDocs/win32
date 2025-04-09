@@ -5,7 +5,7 @@ ms.assetid: dc85ef6d-e7ba-47f8-8de7-6ec4bc64d144
 keywords:
 - backup Backup , single-instance store (SIS)
 - single-instance store (SIS) Backup
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

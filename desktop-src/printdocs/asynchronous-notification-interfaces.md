@@ -2,7 +2,7 @@
 description: Learn about interfaces that are used in asynchronous communication between applications and components that are hosted by the print spooler.
 ms.assetid: e96c957f-3972-4afc-9d76-a4725b8688f8
 title: Asynchronous Printing Notification Interfaces
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

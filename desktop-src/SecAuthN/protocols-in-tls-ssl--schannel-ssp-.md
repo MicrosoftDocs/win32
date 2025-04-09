@@ -3,13 +3,13 @@ description: The schannel SSP implements versions of the TLS, DTLS and SSL proto
 ms.assetid: FF716A4E-ABF2-4773-9588-9D200945A866
 title: Protocols in TLS/SSL (Schannel SSP)
 ms.topic: concept-article
-ms.date: 11/15/2024
+ms.date: 03/20/2025
 # Customer intent: To learn about the Schannel SSP support of TLS, DTLS, and SSL protocols in Windows client and server versions.
 ---
 
 # Protocols in TLS/SSL (Schannel SSP)
 
-The Schannel SSP implements versions of the TLS, DTLS and SSL protocols. Different Windows versions support different protocol versions.
+The Schannel SSP implements versions of the TLS, DTLS and SSL protocols. Different Windows versions support different protocol versions. The following sections describe the support of TLS, DTLS, and SSL protocols in different Windows versions.
 
 ## TLS protocol version support
 
@@ -71,7 +71,7 @@ The following lists the Microsoft Schannel Provider support of DTLS protocol ver
 | Windows 10, version 1607/Windows Server 2016 Standard | Enabled         | Enabled         | Enabled         | Enabled         |
 | Windows 10, version 1703                              | Enabled         | Enabled         | Enabled         | Enabled         |
 | Windows 10, version 1803                              | Enabled         | Enabled         | Enabled         | Enabled         |
-| Windows 10, version 1809                              | Enabled         | Enabled         | Enabled         | Enabled         |
+| Windows 10, version 1809/Windows Server 2019          | Enabled         | Enabled         | Enabled         | Enabled         |
 | Windows 10, version 1903                              | Enabled         | Enabled         | Enabled         | Enabled         |
 | Windows 10, version 1909                              | Enabled         | Enabled         | Enabled         | Enabled         |
 | Windows 10, version 2004                              | Enabled         | Enabled         | Enabled         | Enabled         |
@@ -100,7 +100,7 @@ The following lists the Microsoft Schannel Provider support of pre-TLS standard 
 | Windows 10, version 1607/Windows Server 2016 Standard | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 | Windows 10, version 1703                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 | Windows 10, version 1803                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
-| Windows 10, version 1809                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
+| Windows 10, version 1809/Windows Server 2019          | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 | Windows 10, version 1903                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 | Windows 10, version 1909                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |
 | Windows 10, version 2004                              | Not supported | Not supported | Not supported | Disabled    | Disabled    |

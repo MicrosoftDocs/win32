@@ -2,7 +2,7 @@
 description: Use the Device Power programming elements to manage the way devices perform while the system is in a sleep state.
 ms.assetid: 44479f5d-2e92-4802-a633-3e0bb7d61e94
 title: Using the Device Power API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

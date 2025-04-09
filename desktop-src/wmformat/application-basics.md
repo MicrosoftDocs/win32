@@ -9,7 +9,7 @@ keywords:
 - digital rights management (DRM),WMDRMStartup function
 - DRM (digital rights management),WMDRMStartup function
 - WMDRMStartup
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

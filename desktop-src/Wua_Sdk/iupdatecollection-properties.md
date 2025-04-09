@@ -2,7 +2,7 @@
 description: The IUpdateCollection interface defines the following properties.
 ms.assetid: 38420d5e-4d36-4ed7-be06-e1df903929a7
 title: IUpdateCollection Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

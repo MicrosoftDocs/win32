@@ -2,7 +2,7 @@
 title: Header Control Constants
 description: Header Control Constants
 ms.assetid: 49370810-8a9c-48fb-b18b-f812c6d7cb75
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

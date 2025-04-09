@@ -2,7 +2,7 @@
 description: Configuration of IPSec policies and security associations for IPv6 is done with Ipsec6.exe.
 ms.assetid: 9a0c8e48-bc57-461d-9ade-54b75f7aa56d
 title: Ipsec6.exe
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

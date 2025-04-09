@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),stopping indexing in progress
 - ASF (Advanced Systems Format),stopping indexing in progress
 - indexes,stopping indexing in progress
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

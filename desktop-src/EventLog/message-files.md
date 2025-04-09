@@ -2,7 +2,7 @@
 description: Each event source should register message files that contain description strings for each event identifier, event category, and parameter.
 ms.assetid: 0c251a45-1414-4855-a6f5-86ebdfab2693
 title: Message Files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

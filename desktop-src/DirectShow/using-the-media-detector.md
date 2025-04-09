@@ -2,7 +2,7 @@
 description: Using the Media Detector
 ms.assetid: 462150d5-7315-4c2b-81b0-964a788ec47d
 title: Using the Media Detector
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

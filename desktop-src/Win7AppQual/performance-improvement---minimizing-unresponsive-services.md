@@ -2,7 +2,7 @@
 description: Best Practices for Minimizing Unresponsive Services
 ms.assetid: 51df3fb9-416d-46b8-b3a7-0281401fb390
 title: Best Practices for Minimizing Unresponsive Services
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 

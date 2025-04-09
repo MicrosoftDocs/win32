@@ -2,7 +2,7 @@
 description: Read about the PageResolution user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 88f9a9a3-520e-4044-9ab2-961de03878fa
 title: PageResolution
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

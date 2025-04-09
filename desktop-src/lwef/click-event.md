@@ -2,7 +2,7 @@
 title: Click Event
 description: Click Event
 ms.assetid: 772029d5-97b6-49d8-a989-04f0fc429aca
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

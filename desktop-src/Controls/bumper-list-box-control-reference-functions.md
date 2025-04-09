@@ -2,7 +2,7 @@
 title: List Box Functions
 description: List Box Functions
 ms.assetid: db886f91-e27b-4c53-8a5c-55357ff98ead
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

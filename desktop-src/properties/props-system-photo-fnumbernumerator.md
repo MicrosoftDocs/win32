@@ -2,7 +2,7 @@
 description: The numerator of PKEY\_Photo\_FNumber.
 ms.assetid: d88916eb-bd68-4133-a920-4cdf93a9ea09
 title: System.Photo.FNumberNumerator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

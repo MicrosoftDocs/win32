@@ -2,7 +2,7 @@
 description: Activity Coordinator API
 ms.assetid: 5edef7eb-d32e-4dea-8967-e8a1709d9be4
 title: Activity Coordinator API
-ms.topic: article
+ms.topic: reference
 ms.date: 04/27/2022
 ---
 

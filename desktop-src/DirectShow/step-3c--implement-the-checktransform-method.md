@@ -2,7 +2,7 @@
 description: Step 3C.
 ms.assetid: e780df46-bf47-4334-b788-05ad8179f051
 title: Step 3C. Implement the CheckTransform Method
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

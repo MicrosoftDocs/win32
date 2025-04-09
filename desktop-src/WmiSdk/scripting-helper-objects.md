@@ -3,7 +3,7 @@ description: WMI has several scripting helper objects that supply the conversion
 ms.assetid: 832660b7-2992-4d1f-af16-7b8f0477b187
 ms.tgt_platform: multiple
 title: Scripting Helper Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

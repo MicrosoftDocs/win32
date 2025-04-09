@@ -2,7 +2,7 @@
 title: Custom User Interface Elements
 description: Server developers design accessible objects based on an application's UI.
 ms.assetid: d9453fb0-9b4a-4103-81e3-1255091255a0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

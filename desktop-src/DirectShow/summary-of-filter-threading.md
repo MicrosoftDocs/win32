@@ -2,7 +2,7 @@
 description: Summary of Filter Threading
 ms.assetid: b7e42101-75c9-428d-9dc7-e625242dbc1e
 title: Summary of Filter Threading
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

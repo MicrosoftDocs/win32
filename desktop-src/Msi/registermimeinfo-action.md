@@ -2,7 +2,7 @@
 description: The RegisterMIMEInfo action registers MIME-related registry information with the system.
 ms.assetid: 2ba88b5f-bd8a-4572-af82-9c0b91b9b6d9
 title: RegisterMIMEInfo Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

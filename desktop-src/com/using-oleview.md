@@ -2,7 +2,7 @@
 title: Using OleView
 description: Using OleView
 ms.assetid: e4b80b78-0e66-4e67-a4a0-6acd3263d572
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

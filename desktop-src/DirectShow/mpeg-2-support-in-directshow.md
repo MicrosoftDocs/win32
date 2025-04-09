@@ -2,7 +2,7 @@
 description: MPEG-2 Support in DirectShow
 ms.assetid: a4fe4cc9-86a5-4c83-94be-8901b97c8280
 title: MPEG-2 Support in DirectShow
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

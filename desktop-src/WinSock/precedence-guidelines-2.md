@@ -2,7 +2,7 @@
 description: The two (or more) descriptors that reference a shared socket may be used independently as far as I/O is concerned.
 ms.assetid: 25252552-4b62-441a-b564-e7f4a77cf68a
 title: Precedence Guidelines
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

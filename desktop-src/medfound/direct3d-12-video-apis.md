@@ -2,7 +2,7 @@
 description: The main landing page for Direct3D 12 Video APIs.
 ms.assetid: 
 title: Direct3D 12 Video APIs
-ms.topic: article
+ms.topic: reference
 ms.date: 06/03/2019
 ---
 

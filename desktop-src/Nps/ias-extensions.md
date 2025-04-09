@@ -3,7 +3,7 @@ title: Network Policy Server Extensions
 description: The NPS Extensions API enables software developers to write extension DLLs that can be used for authentication, authorization, and accounting. NPS Extensions API supports the Remote Authentication Dial-In User Service (RADIUS) protocol.
 ms.assetid: f459025f-fe5e-4ffa-a651-c70a4f8234ae
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

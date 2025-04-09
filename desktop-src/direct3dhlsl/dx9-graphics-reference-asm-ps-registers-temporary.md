@@ -2,7 +2,7 @@
 title: Temporary register (HLSL PS reference)
 description: Pixel shader input temporary registers are used to hold intermediate results.
 ms.assetid: e61daaa1-0a9b-4b1c-b91c-56573be59ed9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

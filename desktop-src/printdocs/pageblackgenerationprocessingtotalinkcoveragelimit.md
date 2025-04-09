@@ -2,7 +2,7 @@
 description: Learn about the PageBlackGenerationProcessingTotalInkCoverageLimit element, which specifies the maximum allowed sum of the four ink coverage anywhere in an image.
 ms.assetid: 7ccd02c2-7cec-4d9d-83c1-512f25f4045c
 title: PageBlackGenerationProcessingTotalInkCoverageLimit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

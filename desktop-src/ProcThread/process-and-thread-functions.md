@@ -2,7 +2,7 @@
 description: This topic describes the process and thread functions.
 ms.assetid: 8c8e8af0-bf50-4a4b-945c-83bae1eff7dd
 title: Process and Thread Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

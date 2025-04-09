@@ -2,7 +2,7 @@
 description: The SelectionTree control uses the SelectionBrowse event to spawn a Browse dialog box making it possible to modify the path of the highlighted item.
 ms.assetid: 10a5af2e-3144-4b51-8295-294e56cdf801
 title: SelectionBrowse ControlEvent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

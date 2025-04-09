@@ -2,7 +2,7 @@
 description: This overview discusses window properties.
 ms.assetid: 67ca264e-af8e-41bf-b9d1-d3db8cf1cdc3
 title: About Window Properties
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

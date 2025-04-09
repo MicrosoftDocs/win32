@@ -2,7 +2,7 @@
 description: Using the VMR for DirectShow Filter Developers
 ms.assetid: 0a038f0f-5fb6-44df-8263-03725c5bcb5f
 title: Using the VMR for DirectShow Filter Developers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

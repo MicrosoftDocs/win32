@@ -2,7 +2,7 @@
 description: This topic lists the digital signature interfaces of the XPS Document API.
 ms.assetid: dc27aa2d-66b3-4dbc-afa1-bab3507c44e1
 title: XPS OM Digital Signatures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

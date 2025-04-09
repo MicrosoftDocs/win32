@@ -2,7 +2,7 @@
 description: SymStore (symstore.exe) is a tool for creating symbol stores. It is included in the Debugging Tools for Windows package.
 ms.assetid: fe8a96e9-e780-4e96-98ef-c5128515ee6c
 title: Using SymStore
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

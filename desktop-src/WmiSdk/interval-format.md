@@ -3,7 +3,7 @@ description: Defines date-time intervals with a format similar to the date and t
 ms.assetid: 13a3ca74-e3e9-44d7-9254-e288eb70ae4c
 ms.tgt_platform: multiple
 title: Interval Format
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

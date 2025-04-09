@@ -2,7 +2,7 @@
 title: VML Imagedata Element
 description: VML Imagedata Element
 ms.assetid: 91004646-b031-4973-a32d-7afdd10dab48
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This example builds a video preview graph by using the ICaptureGraphBuilder2::RenderStream method in DirectShow.
 ms.assetid: 9b401de1-910a-41f7-bf80-dda73ee4a204
 title: Previewing Video (DirectShow)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

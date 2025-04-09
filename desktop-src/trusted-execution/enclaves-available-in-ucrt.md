@@ -3,7 +3,7 @@ description: Enclaves are used to create trusted execution environments. These U
 ms.assetid: 2bc9c8fa-b411-4091-a50e-1edf849f6f35
 title: UCRT APIs available in VBS enclaves
 titleSuffix: Secure Enclaves
-ms.topic: article
+ms.topic: reference
 ms.date: 11/20/2024
 ---
 

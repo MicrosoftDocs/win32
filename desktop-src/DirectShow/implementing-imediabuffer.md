@@ -2,7 +2,7 @@
 description: Implementing IMediaBuffer
 ms.assetid: bde7cef8-f43e-4a11-8b77-fed5585d390a
 title: Implementing IMediaBuffer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

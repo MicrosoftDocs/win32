@@ -2,7 +2,7 @@
 description: Microsoft Windows supplies a number of system properties that you can use for your file formats.
 ms.assetid: 3a25c4fb-ffea-4524-b59b-912416b2fc7d
 title: System-Defined Properties for Custom File Formats
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

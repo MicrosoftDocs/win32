@@ -2,7 +2,7 @@
 description: Video Port Pins
 ms.assetid: a6be24e5-7937-48f1-abeb-3f29c3deeafd
 title: Video Port Pins
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

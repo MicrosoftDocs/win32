@@ -2,7 +2,7 @@
 description: Describes the Microsoft implementation of the Server Message Block (SMB) Protocol.
 ms.assetid: 641017fa-3721-40aa-b13c-e26c8b61ce5c
 title: Microsoft SMB Protocol and CIFS Protocol Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

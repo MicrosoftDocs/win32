@@ -9,7 +9,7 @@ keywords:
 - OpenGL porting from IRIS GL,triangles
 - drawing functions,triangles
 - triangles
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

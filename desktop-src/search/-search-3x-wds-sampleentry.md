@@ -2,7 +2,7 @@
 description: This topic describes technologies that are related to Windows Search.
 ms.assetid: 76b39ea6-2aaf-40e0-aa56-2165e188244d
 title: Related Search Technologies
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

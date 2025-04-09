@@ -2,7 +2,7 @@
 title: Administering the Peer Cache
 description: Note  Starting with Windows 7, the Background Intelligent Transfer Service (BITS) 3.0 peer caching model is deprecated.
 ms.assetid: a33a43e5-02f9-4902-ad3a-ec65b0d80520
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

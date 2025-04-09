@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Reading attributeSchema and classSchema Objects AD
 - objects AD , Reading attributeSchema and classSchema Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

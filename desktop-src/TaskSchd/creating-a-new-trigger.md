@@ -2,7 +2,7 @@
 title: Creating a New Trigger
 description: To create a trigger you must use three interfaces.
 ms.assetid: c0f121ff-d0a5-4b6c-935c-6f47b4ea26d5
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

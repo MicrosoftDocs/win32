@@ -2,7 +2,7 @@
 description: To obtain notification of invalidated logical networks, use the WSANSPIoctl function to register for network location change events.
 ms.assetid: 531b6269-5f35-44c1-ad0f-c5f103029893
 title: Querying NLA
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

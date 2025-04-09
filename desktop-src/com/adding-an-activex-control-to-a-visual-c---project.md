@@ -2,7 +2,7 @@
 title: Add an ActiveX control to a C++ project
 description: Links to some topics about adding an ActiveX control to a C++ project.
 ms.assetid: f342d6af-2835-446f-8628-8b1008a2e613
-ms.topic: article
+ms.topic: reference
 ms.date: 10/29/2024
 ---
 

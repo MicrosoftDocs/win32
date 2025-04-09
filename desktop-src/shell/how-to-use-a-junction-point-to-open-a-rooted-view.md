@@ -1,7 +1,7 @@
 ---
 description: You can use the registry to specify that browsing into a junction point will open a rooted view rather than the default view of the contents of the associated extension.
 title: How to Open a Rooted View of a Junction Point Through the Registry
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

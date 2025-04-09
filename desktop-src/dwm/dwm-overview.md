@@ -9,7 +9,7 @@ keywords:
 - DWM (Desktop Window Manager),composition
 - desktop composition
 - composition
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

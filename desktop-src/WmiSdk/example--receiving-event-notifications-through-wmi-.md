@@ -3,7 +3,7 @@ description: You can use the procedure and code example in this topic to complet
 ms.assetid: 4d581965-e22a-4205-908c-661eeeec88cf
 ms.tgt_platform: multiple
 title: 'Example: Receiving Event Notifications Through WMI'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

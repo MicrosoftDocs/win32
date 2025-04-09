@@ -2,7 +2,7 @@
 description: Using the Video Mixer Controls
 ms.assetid: 475996c6-a205-4133-8882-f55beaf9f8fd
 title: Using the Video Mixer Controls
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

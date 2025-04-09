@@ -3,7 +3,7 @@ description: The MSFT\_Providers class and the WMI troubleshooting classes are a
 ms.assetid: 5eaf7026-87bf-416b-9a6d-7f92f85b0882
 ms.tgt_platform: multiple
 title: Provider Configuration and Troubleshooting Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

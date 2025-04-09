@@ -5,7 +5,7 @@ ms.assetid: f99f85a8-9ced-4006-b95b-bd5671ba4c60
 ms.tgt_platform: multiple
 keywords:
 - LDAP provider ADSI ,user object,User Creation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

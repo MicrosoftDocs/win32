@@ -2,7 +2,7 @@
 description: The following example calls the PdhEnumObjectItems function to enumerate the instances and counters of the process objects on the local computer.
 ms.assetid: d7518ba6-a0f1-4985-aa2c-1ca15a0ceb02
 title: Enumerating Process Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/15/2025
 ---
 

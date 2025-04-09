@@ -5,7 +5,7 @@ ms.assetid: da3d9861-dd04-406c-9356-db1e4ff0eebc
 ms.tgt_platform: multiple
 keywords:
 - LDAP provider ADSI ,user object,Setting passwords
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

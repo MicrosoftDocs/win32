@@ -10,7 +10,7 @@ keywords:
 - Active Directory Domain Services examples Active Directory
 - examples Active Directory
 - Active Directory Active Directory , examples see Active Directory Domain Services examples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

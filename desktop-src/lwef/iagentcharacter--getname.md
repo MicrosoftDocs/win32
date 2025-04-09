@@ -2,7 +2,7 @@
 title: IAgentCharacter GetName
 description: IAgentCharacter GetName
 ms.assetid: 6c013a18-8c56-42a8-8723-31d83b3230cb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: 'This topic explains how to register a program in the Windows registry as one of the following client types: browser, email, media playback, instant messaging, or virtual machine for Java.'
 title: Registering Programs with Client Types
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 33fcb63c-3db2-44df-acfe-8c88e2e634e4
 api_name: 

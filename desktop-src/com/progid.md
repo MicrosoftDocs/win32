@@ -4,7 +4,7 @@ description: Learn about the HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID registry 
 ms.assetid: '89060943-7007-418b-a544-effbad548e87'
 keywords:
 - ProgID registry key COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Recommended 8-Bit YUV Formats for Video Rendering
 ms.assetid: 675d4c60-4c58-4f15-9bae-ffb0c389c608
 title: Recommended 8-Bit YUV Formats for Video Rendering
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

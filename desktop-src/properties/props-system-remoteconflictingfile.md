@@ -2,7 +2,7 @@
 description: System.RemoteConflictingFile
 ms.assetid: fc656149-15b7-4460-a572-a83cccf7d14f
 title: System.RemoteConflictingFile
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: e582156d-a298-4d9b-8ed1-4c558fa4f203
 keywords:
 - Bluetooth and WSAQUERYSET for Set Service Bluetooth
 - WSAQUERYSET Bluetooth , for set service
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Floating-point rules (Direct3D 11)
 description: Direct3D 11 supports several floating-point representations. All floating-point computations operate under a defined subset of the IEEE 754 32-bit single precision floating-point rules.
 ms.assetid: 33F21BD0-FDF8-4D35-95C0-0A3920814CB6
-ms.topic: article
+ms.topic: reference
 ms.date: 02/07/2025
 ---
 

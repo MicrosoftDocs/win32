@@ -24,7 +24,7 @@ keywords:
 - IManipulationProcessor interface,sample code
 - IInertiaProcessor interface,code samples
 - IInertiaProcessor interface,sample code
-ms.topic: article
+ms.topic: sample
 ms.date: 02/18/2020
 ---
 

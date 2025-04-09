@@ -2,7 +2,7 @@
 description: A Tablet PC pen may have more than one end that can interact with the digitizer.
 ms.assetid: c1aa0d65-cfea-4720-ad09-7add724e03c7
 title: Multiple Functionality with One Pen
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: 'The event log contains the following standard logs as well as custom logs:'
 ms.assetid: 87d860e3-2495-4e15-bb42-341e92935e55
 title: Eventlog Key
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

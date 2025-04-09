@@ -5,7 +5,7 @@ ms.assetid: 360320b8-32bd-4141-924b-25833a2761c8
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Checking a Control Access Right in an Object's ACL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

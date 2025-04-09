@@ -2,7 +2,7 @@
 description: The following topics describe many of the basic programming tasks for developing and deploying COM+ applications.
 ms.assetid: d4649be7-9fce-4a9e-a57e-49babcda7caf
 title: COM+ General Tasks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

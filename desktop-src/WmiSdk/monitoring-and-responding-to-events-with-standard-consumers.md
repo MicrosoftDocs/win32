@@ -3,7 +3,7 @@ description: You can use the installed standard consumer classes to perform acti
 ms.assetid: 1979dc55-a440-4c31-832b-36fa84def4c9
 ms.tgt_platform: multiple
 title: Monitoring and Responding to Events with Standard Consumers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

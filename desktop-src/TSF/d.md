@@ -3,7 +3,7 @@ title: D (Text Services Framework)
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 9d8cc0b3-7af5-4f5b-bc27-0f1e47efeeb1
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Link text for the device storage-full notification.
 ms.assetid: 08b03990-eb6a-47fc-baed-0649638a428c
 title: System.Devices.Notifications.StorageFullLinkText
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

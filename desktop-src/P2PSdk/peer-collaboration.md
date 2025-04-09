@@ -2,7 +2,7 @@
 description: The Peer Collaboration Infrastructure provides a set of Application Programming Interfaces that can be used in conjunction with the Peer Infrastructure to enable collaborative serverless network applications, such as instant messaging and multiplayer game matchmaking.
 ms.assetid: 24e3a2f4-b14c-4e55-9224-2e18be79e106
 title: Peer Collaboration
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

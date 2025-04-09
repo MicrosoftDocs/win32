@@ -2,7 +2,7 @@
 title: How to Use Font Binding in Rich Edit Controls
 description: Microsoft Rich Edit 3.0 assigns a character set to plain-text characters depending on their context.
 ms.assetid: 975B9C33-6766-4FF1-A93E-2169C140CEE9
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

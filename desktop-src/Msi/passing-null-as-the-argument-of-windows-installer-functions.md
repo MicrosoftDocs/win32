@@ -2,7 +2,7 @@
 description: Windows Installer functions that return data in a user provided–memory location should not be called with null as the value for the pointer.
 ms.assetid: f566c4a4-b90c-4d73-9d7f-f5b836630636
 title: Passing null to Windows Installer Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

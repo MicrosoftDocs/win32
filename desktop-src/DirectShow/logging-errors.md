@@ -2,7 +2,7 @@
 description: Logging Errors
 ms.assetid: 690ea91b-5bc0-45f0-8354-ec625709f7bd
 title: Logging Errors
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

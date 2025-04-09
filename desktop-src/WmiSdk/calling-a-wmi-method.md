@@ -3,7 +3,7 @@ title: How to call a WMI method
 description: The main purpose of WMI is to provide access to classes and instances that represent objects on your network.
 ms.assetid: 8d559eee-3dbf-4132-b1c0-a6925b8feb56
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Stop method stops playback.
 ms.assetid: 'e1ebfacc-4f33-4b4d-8e6c-1d1e1f0a22bd'
 title: Stop Method (DirectShow)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

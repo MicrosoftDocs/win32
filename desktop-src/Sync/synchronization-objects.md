@@ -2,7 +2,7 @@
 description: A synchronization object is an object whose handle can be specified in one of the wait functions to coordinate the execution of multiple threads.
 ms.assetid: 11558ae9-1056-48bf-96f5-94a051df41c3
 title: Synchronization Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

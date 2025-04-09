@@ -4,7 +4,7 @@ description: Lists the interfaces defined by DirectWrite.
 ms.assetid: 7075e771-ce34-4426-8c07-13e85ff4d453
 keywords:
 - DirectWrite,interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

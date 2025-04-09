@@ -2,7 +2,7 @@
 description: The hash code used to identify attachments to be deleted based on a common container url.
 ms.assetid: 17d7c5ab-776d-44d8-bd17-f0359dac3058
 title: System.Search.ContainerHash
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: VML Metal Attribute
 description: VML Metal Attribute
 ms.assetid: 4d2efaed-d391-494f-9f0c-d57ad019f71d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

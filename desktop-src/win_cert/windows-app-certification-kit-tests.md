@@ -2,7 +2,7 @@
 title: Windows App Certification Kit tests
 description: Below are test details for certifying desktop apps.
 ms.assetid: FA160F46-C266-4F89-B77F-166FEA9ED96B
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

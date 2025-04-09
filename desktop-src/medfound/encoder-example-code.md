@@ -2,7 +2,7 @@
 description: This topic shows some example code that wraps the Windows Media Audio (WMA) encoder in a C++ class named CWmaEncoder.
 ms.assetid: 59bd5b6a-86fe-4d39-ab7c-9563ac1a8e94
 title: Encoder Example Code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

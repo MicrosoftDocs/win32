@@ -3,7 +3,7 @@ description: The following elements are used when working with enclaves that are
 ms.assetid: 7AD4D05D-922F-4611-9709-CDB9872B433E
 title: Enclave Reference Overview
 titleSuffix: Secure Enclaves
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/20/2024
 ---
 

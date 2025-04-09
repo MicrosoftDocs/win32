@@ -2,7 +2,7 @@
 title: Image Lists
 description: This section contains information about the programming elements used with image lists.
 ms.assetid: 8a2bdc59-747c-47bb-b125-9b0b97af205e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

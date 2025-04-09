@@ -2,7 +2,7 @@
 description: An effect is created by loading it into the effects framework.
 ms.assetid: b0a12620-4f8f-44d9-bc73-2c3ab30f80af
 title: Create an Effect (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

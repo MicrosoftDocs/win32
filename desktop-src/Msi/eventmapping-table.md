@@ -2,7 +2,7 @@
 description: The EventMapping Table lists the controls that subscribe to some control events, and lists the attribute to be changed when the event is published by another control or the Windows Installer.
 ms.assetid: 63c9ba3e-aa8a-475b-8360-4aec78ed19db
 title: EventMapping Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

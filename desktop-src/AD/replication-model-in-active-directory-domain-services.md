@@ -7,7 +7,7 @@ keywords:
 - Active Directory Domain Services,using,replication and data recovery,replication model
 - replication Active Directory
 - Active Directory Domain Services,using,replication
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

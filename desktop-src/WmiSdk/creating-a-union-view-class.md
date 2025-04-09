@@ -3,7 +3,7 @@ description: A union view class is a logical union of source class instances. A 
 ms.assetid: 54a9804d-644d-4ab6-a3d5-c9c4f7761967
 ms.tgt_platform: multiple
 title: Creating a Union View Class
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

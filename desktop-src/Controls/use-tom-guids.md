@@ -2,7 +2,7 @@
 title: How to Use TOM GUIDs
 description: Text Object Model (TOM) GUIDs are given in Tom.h inside the MIDL\_INTERFACE statements. To use the associated interfaces, you must first declare the interface by using the GUID.
 ms.assetid: 48FF98C9-D42E-4E7F-874F-8E56F730E24E
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

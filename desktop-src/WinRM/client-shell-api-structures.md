@@ -3,7 +3,7 @@ title: Client Shell API Structures and Definitions
 description: The following table provides an overview of the structures and other definitions for the Windows Remote Management (WinRM) Client Shell API.
 ms.assetid: b7a3c92e-6796-482f-9d70-18a48cce4ad8
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

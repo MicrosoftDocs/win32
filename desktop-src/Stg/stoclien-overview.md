@@ -4,7 +4,7 @@ description: The StoClien sample demonstrates how the client uses structured sto
 ms.assetid: 1f540e0f-2189-4f45-aad3-9b4b56732907
 keywords:
 - StoClien Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

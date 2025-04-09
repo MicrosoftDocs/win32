@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSuppor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentfilteredmovenotsupportedexception_members(v=EXCHG.10)
 ms:contentKeyID: 55101722
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentFilteredMoveNotSupportedException members

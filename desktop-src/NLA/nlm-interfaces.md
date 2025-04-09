@@ -2,7 +2,7 @@
 title: NLM interfaces
 description: NLM interfaces
 ms.assetid: 57cc2a07-4551-428c-a303-9b1a4510f225
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

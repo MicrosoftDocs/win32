@@ -4,7 +4,7 @@ description: This topic describes how to use the WSALookupServiceBegin function 
 ms.assetid: 32fa710f-8645-4cf3-a882-cc032d66d979
 keywords:
 - Bluetooth and WSALookupServiceBegin for Device Inquiry Bluetooth
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

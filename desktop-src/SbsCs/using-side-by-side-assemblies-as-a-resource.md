@@ -2,7 +2,7 @@
 description: Using Side-by-Side Assemblies as a Resource
 ms.assetid: f7963d37-93c4-49d6-af7d-fc692f632894
 title: Using Side-by-Side Assemblies as a Resource
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

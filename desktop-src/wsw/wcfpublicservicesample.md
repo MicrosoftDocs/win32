@@ -6,7 +6,7 @@ keywords:
 - WcfPublicServiceSample Windows Web Services API
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

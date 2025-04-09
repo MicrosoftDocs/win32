@@ -2,7 +2,7 @@
 title: InnerMethodConfigParameters Complex Type
 description: Learn about the InnerMethodConfigParameters complex type. This optional type specifies authentication information for EAP-TEAP.
 ms.assetid: f289a967-be7e-4197-8534-a62bc44184c7
-ms.topic: article
+ms.topic: reference
 ms.date: 07/11/2023
 ---
 

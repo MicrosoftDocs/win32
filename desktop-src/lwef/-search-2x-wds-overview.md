@@ -2,7 +2,7 @@
 title: Windows Desktop Search 2.x
 description: Understand Windows Desktop Search 2.x. For Windows releases later than Windows XP and Windows Server 2003, use Windows Search instead.
 ms.assetid: 3d73f850-58b8-4a41-8863-e2914661d4b9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

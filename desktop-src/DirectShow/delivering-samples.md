@@ -2,7 +2,7 @@
 description: Delivering Samples
 ms.assetid: 31aabb6d-dec6-41fa-b24d-35a77b67bc4a
 title: Delivering Samples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

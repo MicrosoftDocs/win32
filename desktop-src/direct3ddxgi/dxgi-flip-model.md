@@ -2,7 +2,7 @@
 description: Windows 8 adds support for flip presentation model and its associated present statistics in DXGI 1.2.
 ms.assetid: E132DAF5-80B7-4C52-A760-3779CC140CE7
 title: DXGI flip model
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

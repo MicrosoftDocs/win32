@@ -2,7 +2,7 @@
 description: This topic is step 4 of the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: fe5e852f-fe0c-439d-b0c5-d32593b587cb
 title: 'Step 4: Create the Media Session'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - Modifying an ADSI Object from ADO ADSI
 - ActiveX data object ADSI , modifying an ADSI object from ADO
 - ADSI ADSI , example code C/C++ , modifying an ADSI object
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

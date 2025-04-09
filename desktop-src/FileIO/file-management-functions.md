@@ -2,7 +2,7 @@
 description: Functions used to manage files.
 ms.assetid: 1cf0547d-54ac-410a-acbe-7b3b3ebb310b
 title: File Management Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

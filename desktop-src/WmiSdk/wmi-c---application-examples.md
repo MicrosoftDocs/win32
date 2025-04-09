@@ -3,7 +3,7 @@ description: The WMI application examples in this section are written in C++.
 ms.assetid: 5c4c4c4c-adbc-4702-a6fe-5f98a6db3ba1
 ms.tgt_platform: multiple
 title: WMI C++ Application Examples
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

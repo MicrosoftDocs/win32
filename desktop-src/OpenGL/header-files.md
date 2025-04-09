@@ -6,7 +6,7 @@ keywords:
 - OpenGL on Windows,header files
 - GLU library,header files
 - WGL functions,header files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

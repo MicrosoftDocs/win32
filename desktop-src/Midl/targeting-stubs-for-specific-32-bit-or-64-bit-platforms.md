@@ -6,7 +6,7 @@ keywords:
 - 32-bit platforms MIDL
 - 64-bit platforms MIDL
 - stubs MIDL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

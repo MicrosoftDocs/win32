@@ -14,7 +14,7 @@ keywords:
 - profiles,getting information at playback
 - mutual exclusion,getting profile information at playback
 - bandwidth sharing,getting profile information at playback
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

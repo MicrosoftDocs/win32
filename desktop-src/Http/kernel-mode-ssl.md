@@ -4,7 +4,7 @@ description: Kernel Mode SSL
 ms.assetid: ada82704-cb7d-4e98-8c87-76c7bfbd098b
 keywords:
 - Kernel Mode SSL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

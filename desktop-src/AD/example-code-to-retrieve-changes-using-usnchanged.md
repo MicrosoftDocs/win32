@@ -5,7 +5,7 @@ ms.assetid: 519fd20f-9eb4-4702-9338-8cda899604bd
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , retrieving changes using USNChanged
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

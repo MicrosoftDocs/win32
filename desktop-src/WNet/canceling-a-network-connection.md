@@ -2,7 +2,7 @@
 title: Canceling a Network Connection
 description: To cancel a connection to a network resource, an application can call the WNetCancelConnection2 function, as shown in the following example.
 ms.assetid: a1c80222-4986-4c51-86a5-a1caacb4b2fe
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

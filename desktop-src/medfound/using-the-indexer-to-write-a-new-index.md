@@ -2,7 +2,7 @@
 description: This topic shows how to write an index for an Advanced Systems Format (ASF) file.
 ms.assetid: a14e3bef-0232-4259-930a-d860ed9230fd
 title: Using the Indexer to Write a New Index
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

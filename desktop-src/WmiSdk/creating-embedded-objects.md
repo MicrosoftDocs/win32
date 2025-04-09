@@ -3,7 +3,7 @@ description: 'When creating an instance with embedded objects, perform the follo
 ms.assetid: 2abf6197-8b95-4c04-b154-508aa85fe12f
 ms.tgt_platform: multiple
 title: Creating Embedded Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

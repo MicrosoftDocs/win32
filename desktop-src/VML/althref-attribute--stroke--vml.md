@@ -2,7 +2,7 @@
 title: AltHRef Attribute (Stroke)(VML)
 description: AltHRef Attribute (Stroke)(VML)
 ms.assetid: ee7c1710-1f8e-42c4-895f-d0f3d15ca6db
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

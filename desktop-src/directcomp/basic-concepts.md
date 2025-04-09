@@ -5,7 +5,7 @@ ms.assetid: F442BDCA-C913-4438-BFFA-D3F28B68EE85
 keywords:
 - DirectComposition concepts
 - DirectComposition basic concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

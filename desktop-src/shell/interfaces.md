@@ -1,7 +1,7 @@
 ---
 description: This section describes the Windows Shell interfaces.
 title: Shell Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 05223970-14f5-44c2-937b-07826b8aecf9
 api_name: 

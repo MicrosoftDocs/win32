@@ -2,7 +2,7 @@
 description: This section identifies the control codes that are used in Hyper-V management.
 ms.assetid: 7E5101CD-D36D-4B31-9975-C6CC48E600A4
 title: Hyper-V management control codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

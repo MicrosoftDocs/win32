@@ -2,7 +2,7 @@
 description: DirectShow System Overview
 ms.assetid: aea1ab83-4c48-4b61-8a20-0ee6ad62ebe3
 title: DirectShow System Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

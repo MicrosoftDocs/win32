@@ -2,7 +2,7 @@
 description: Generally, synchronization is not required when you have a single-threaded apartment (STA) because the apartment provides the synchronization for you.
 ms.assetid: a05de040-0115-44aa-80e2-55eff2ec894d
 title: COM+ Synchronization Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

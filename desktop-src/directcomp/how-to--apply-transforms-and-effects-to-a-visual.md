@@ -8,7 +8,7 @@ keywords:
 - DirectComposition 3D transformations
 - DirectComposition 3D transforms
 - DirectComposition opacity
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

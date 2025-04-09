@@ -2,7 +2,7 @@
 description: Windows Installer contains functionality to display a progress indicator in an action display dialog.
 ms.assetid: cfc2d974-4f2d-4f52-9835-eab1dc091c9b
 title: Authoring a ProgressBar Control
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

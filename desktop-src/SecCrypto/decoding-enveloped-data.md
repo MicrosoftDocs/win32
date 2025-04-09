@@ -2,7 +2,7 @@
 description: General tasks required to decode an enveloped message.
 ms.assetid: cb71ea3a-0edd-4d46-8088-a395fab89d2b
 title: Decoding Enveloped Data
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

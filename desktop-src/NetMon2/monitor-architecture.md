@@ -2,7 +2,7 @@
 description: The following figure shows the relationship between monitors and other components of the Network Monitor architecture.
 ms.assetid: cbd6116c-1a95-4ac4-bc79-632ebe198197
 title: Monitor Architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

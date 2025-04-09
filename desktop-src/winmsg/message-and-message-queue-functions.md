@@ -2,7 +2,7 @@
 description: Message Functions (Windows and Messages)
 ms.assetid: 753d1c5b-e824-4fc3-b731-ae9cb16c0e16
 title: Message Functions (Windows and Messages)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This is a per-machine system policy that can be used to apply upgrade component rules during small updates and minor upgrades.
 ms.assetid: 0d39c059-d936-454c-aed8-efedd3da7473
 title: EnforceUpgradeComponentRules
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

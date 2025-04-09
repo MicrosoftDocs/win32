@@ -6,7 +6,7 @@ keywords:
 - OpenGL,state information
 - OpenGL,state variables
 - state information OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

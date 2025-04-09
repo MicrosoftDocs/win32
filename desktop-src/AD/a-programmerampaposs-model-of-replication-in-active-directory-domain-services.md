@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - A Programmer's Model of Active Directory Replication AD
 - A Programmer's Model of Replication in Active Directory Domain Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

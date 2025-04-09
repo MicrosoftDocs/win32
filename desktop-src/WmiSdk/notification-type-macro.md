@@ -3,7 +3,7 @@ description: The NOTIFICATION-TYPE macro contains the following elements.
 ms.assetid: b7c6ec2b-640b-4373-a1e3-ff6c130b07d0
 ms.tgt_platform: multiple
 title: NOTIFICATION-TYPE Macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

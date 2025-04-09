@@ -2,7 +2,7 @@
 title: WIC structures
 description: This section contains information about the Windows Imaging Component (WIC) structures.
 ms.assetid: 85025aee-6ce3-45ae-bc53-45988b6622ff
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

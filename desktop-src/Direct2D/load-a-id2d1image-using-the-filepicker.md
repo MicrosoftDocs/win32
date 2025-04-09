@@ -5,7 +5,7 @@ ms.assetid: 42158EF0-2FC8-45F3-8C92-E12318D4724F
 keywords:
 - FileOpenPicker
 - FilePicker
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

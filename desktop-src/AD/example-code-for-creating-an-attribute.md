@@ -5,7 +5,7 @@ ms.assetid: 5f679a88-29d1-44ec-918b-091522188ae9
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Creating an Attribute AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

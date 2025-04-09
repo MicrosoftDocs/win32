@@ -2,7 +2,7 @@
 title: IAgentNotifySink ActivateInputState
 description: IAgentNotifySink ActivateInputState
 ms.assetid: 2476e475-d80c-47e9-bb60-e0fca41becc9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

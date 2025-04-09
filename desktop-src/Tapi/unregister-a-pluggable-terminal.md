@@ -2,7 +2,7 @@
 description: In general, this method will be called from DllUnregisterServer. The following sample code can be put into the code for DllUnregisterServer.
 ms.assetid: a5567c3b-edc0-427a-9751-ba221611e92c
 title: Unregister a Pluggable Terminal
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

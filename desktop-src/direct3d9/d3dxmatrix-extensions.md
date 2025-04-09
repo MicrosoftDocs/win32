@@ -2,7 +2,7 @@
 description: D3DXMATRIX Extensions
 ms.assetid: 957f53d2-3310-4be5-8ebe-2c83104e5c29
 title: D3DXMATRIX Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

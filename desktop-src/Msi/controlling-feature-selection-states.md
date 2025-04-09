@@ -2,7 +2,7 @@
 description: You can control which feature installation options are available for users and applications to select by authoring the Feature table and Component table.
 ms.assetid: 3ce441e0-e709-415c-af64-b1ded7b04f6b
 title: Controlling Feature Selection States
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

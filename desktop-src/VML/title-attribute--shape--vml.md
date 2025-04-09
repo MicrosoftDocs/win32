@@ -2,7 +2,7 @@
 title: Title Attribute (Shape)(VML)
 description: Title Attribute (Shape)(VML)
 ms.assetid: 08680706-5274-46d4-9199-4fdbf32f884b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

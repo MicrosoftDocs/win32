@@ -2,7 +2,7 @@
 description: The TSPI specification is very closely related to the specifications for TAPI 2.2 (TAPI/C).
 ms.assetid: 2c51f7e3-c741-4736-9611-2327d65b427e
 title: Overall Comparison with TAPI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

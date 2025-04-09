@@ -1,7 +1,7 @@
 ---
 description: Diagnostics
 title: Diagnostics (Developer Notes)
-ms.topic: article
+ms.topic: reference
 ms.date: 10/12/2018
 ---
 

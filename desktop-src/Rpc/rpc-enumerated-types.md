@@ -4,7 +4,7 @@ description: Navigation page for Remote Procedure Call (RPC) enumerated types.
 ms.assetid: 5af1d701-51f0-4b47-812a-dbb5539750f7
 keywords:
 - Remote Procedure Call RPC , reference, enumerated types
-ms.topic: article
+ms.topic: reference
 ms.date: 03/20/2024
 ---
 

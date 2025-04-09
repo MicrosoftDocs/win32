@@ -1,7 +1,7 @@
 ---
 title: Using DXCore to enumerate adapters
 description: A look at the main features of DXCore with some code examples, as well as a full source code listing of a minimal DXCore application.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 09/19/2024
 ---
 

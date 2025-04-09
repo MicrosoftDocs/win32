@@ -2,7 +2,7 @@
 description: The following table lists TAPI version 3 COM interfaces by category in order of importance.
 ms.assetid: fafb6d6e-934e-4942-8b90-dacb7ba09752
 title: Call and Media Controls Quick Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

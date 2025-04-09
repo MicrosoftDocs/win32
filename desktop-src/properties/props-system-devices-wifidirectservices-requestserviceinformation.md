@@ -2,7 +2,7 @@
 description: Wi-Fi Direct Services Request Service Information.
 ms.assetid: 39be864d-8e30-4554-b824-06c3e72e1b09
 title: System.Devices.WiFiDirectServices.RequestServiceInformation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

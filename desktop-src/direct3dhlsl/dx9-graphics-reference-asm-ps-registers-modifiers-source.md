@@ -2,7 +2,7 @@
 title: Pixel Shader Source Register Modifiers
 description: Use source register modifiers to change the value read from a register before an instruction runs.
 ms.assetid: b45d0919-7878-4184-ad4a-5623aae9d1f1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

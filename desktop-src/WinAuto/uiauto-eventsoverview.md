@@ -13,7 +13,7 @@ keywords:
 - Element action events
 - Structure change events
 - Global desktop change events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

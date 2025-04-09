@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - WinNT service provider ADSI , WinNT ADsPath
 - ADsPath ADSI , WinNT, description
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

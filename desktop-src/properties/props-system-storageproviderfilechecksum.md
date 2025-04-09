@@ -2,7 +2,7 @@
 description: The checksum computed by the storage provider for the file. Files with the same checksum value will have the same contents.
 ms.assetid: 9817cbea-7336-452d-9c63-a31ed284bf54
 title: System.StorageProviderFileChecksum
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

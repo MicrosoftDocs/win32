@@ -2,7 +2,7 @@
 description: This topic describes the most important differences between WinHTTP version 5.1 and version 5.0.
 ms.assetid: df3fcf27-3012-4818-b29c-b8a4dc409828
 title: Whats New in WinHTTP 5.1
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

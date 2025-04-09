@@ -2,7 +2,7 @@
 description: Read about the System.ItemFolderPathDisplay property, which represents the user-friendly display path of an item's parent folder.
 ms.assetid: 16f67edc-ca8a-4c2e-9d9b-be8600446e51
 title: System.ItemFolderPathDisplay
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Creates a CMC certificate request to archive a private key on a certification authority (CA).
 ms.assetid: b063989a-fe92-4c2c-9d66-8a14bc830f6b
 title: enrollKeyArchivalCMC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

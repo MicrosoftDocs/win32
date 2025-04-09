@@ -2,7 +2,7 @@
 description: As existing applications become dated or are no longer being used, you may need to remove them.
 ms.assetid: 5cce94c9-8eff-40b9-946d-a57749da073d
 title: Deleting a COM+ Application
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

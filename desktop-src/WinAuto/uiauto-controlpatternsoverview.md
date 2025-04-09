@@ -14,7 +14,7 @@ keywords:
 - interfaces,control patterns
 - clients,control patterns
 - dynamic control patterns
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

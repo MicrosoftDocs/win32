@@ -2,7 +2,7 @@
 title: Using Windows PowerShell to Create BITS Transfer Jobs
 description: You can use PowerShell cmdlets to create synchronous and asynchronous Background Intelligent Transfer Service (BITS) transfer jobs.
 ms.assetid: 22bcf0d5-36f0-4677-84a7-502b98cfaac2
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

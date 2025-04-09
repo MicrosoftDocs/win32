@@ -9,7 +9,7 @@ keywords:
 - text attributes,data types
 - UI Automation,list of attributes
 - UI Automation,list of text attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

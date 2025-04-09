@@ -2,7 +2,7 @@
 description: Allow applications to interact with the Trusted Platform Module (TPM) and BitLocker Drive Encryption (BDE) through the unified management framework of Windows Management Instrumentation (WMI).
 ms.assetid: acd1bc8e-3311-47f9-88b1-739f224e40e9
 title: About Security WMI Providers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

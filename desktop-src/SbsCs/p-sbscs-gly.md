@@ -3,7 +3,7 @@ description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 9BC3D6A3-D8F5-42C6-9A68-68F1741207D7
 title: P (Isolated Applications and Side-by-side Assemblies)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

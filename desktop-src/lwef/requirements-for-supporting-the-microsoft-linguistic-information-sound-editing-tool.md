@@ -2,7 +2,7 @@
 title: Requirements for Supporting the Microsoft Linguistic Information Sound Editing Tool
 description: Requirements for Supporting the Microsoft Linguistic Information Sound Editing Tool
 ms.assetid: 8ec9801c-e763-4586-b447-1ea6fb8470e6
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

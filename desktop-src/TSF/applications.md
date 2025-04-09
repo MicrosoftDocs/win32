@@ -6,7 +6,7 @@ keywords:
 - Text Services Framework (TSF),applications
 - TSF (Text Services Framework),applications
 - TSF-enabled applications,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

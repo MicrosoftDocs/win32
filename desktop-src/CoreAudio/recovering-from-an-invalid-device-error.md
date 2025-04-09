@@ -2,7 +2,7 @@
 description: Recovering from an Invalid-Device Error
 ms.assetid: 1f5c3458-70ca-45ba-ac33-5c7b9f092320
 title: Recovering from an Invalid-Device Error
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

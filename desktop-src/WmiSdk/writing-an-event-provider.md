@@ -3,7 +3,7 @@ description: An event provider is a COM object that supplies WMI with notificati
 ms.assetid: 075bdc65-4ea3-4f91-9823-1d2d0dc13423
 ms.tgt_platform: multiple
 title: Writing an Event Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

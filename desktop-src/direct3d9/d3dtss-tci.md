@@ -2,7 +2,7 @@
 description: Driver texture coordinate capability flags.
 ms.assetid: b15509b4-7db1-429a-9468-be7a11dee505
 title: D3DTSS_TCI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

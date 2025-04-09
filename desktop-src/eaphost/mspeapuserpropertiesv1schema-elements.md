@@ -2,7 +2,7 @@
 title: mspeapuserpropertiesv1 Schema Elements
 description: Learn about the schema elements of the mspeapuserpropertiesv1 schema, including EapType and PeapExtensions.
 ms.assetid: 39a16a9c-6c04-4318-b347-3e1008e9a5c4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

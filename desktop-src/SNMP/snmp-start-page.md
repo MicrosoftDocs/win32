@@ -5,7 +5,7 @@ ms.assetid: fbaddb10-804b-4230-8986-717edc19a2f5
 keywords:
 - SNMP SNMP
 - SNMP SNMP , start page
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

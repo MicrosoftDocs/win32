@@ -5,7 +5,7 @@ ms.assetid: 9ed2dd0a-620d-4856-a8a1-2d2a4468fd4c
 ms.tgt_platform: multiple
 keywords:
 - Obtaining an Object Identifier from Microsoft
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/19/2021
 ---
 

@@ -3,7 +3,7 @@ description: You can require that client scripts and applications establish an e
 ms.assetid: 07b225a2-3834-4879-beae-f5b9180d112f
 ms.tgt_platform: multiple
 title: Requiring an Encrypted Connection to a Namespace
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

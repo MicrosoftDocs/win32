@@ -8,7 +8,7 @@ keywords:
 - publishing wizards,window.external
 - publishing wizards,navigation script functions
 - scripts,publishing wizards
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Caption Property (Command Object)
 description: Learn about the Caption property of the Command object. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 8dcdf3e0-3111-438b-9d39-ba9a36437ad2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

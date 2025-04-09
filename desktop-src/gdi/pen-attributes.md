@@ -2,7 +2,7 @@
 description: 'There are seven pen attributes that define the type of pen and its characteristics: width, style, color, pattern, hatch, end style, and join style.'
 ms.assetid: 3dbf6ae6-fdcb-4187-9d53-aa420ae430d8
 title: Pen Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

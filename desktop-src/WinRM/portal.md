@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management (WinRM), Start Page
 - WS-Management
-ms.topic: article
+ms.topic: reference
 ms.date: 02/16/2023
 topic_type: 
 - kbOrient

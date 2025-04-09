@@ -4,7 +4,7 @@ description: Remote Procedure Call (RPC) components.
 ms.assetid: 7caaf01a-7f20-470f-afcf-478146cae5eb
 keywords:
 - Remote Procedure Call RPC , described, components
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

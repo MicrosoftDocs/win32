@@ -3,7 +3,7 @@ title: IPPROTO_IPV6 socket options
 description: The following tables describe IPPROTO\_IPV6 socket options that apply to sockets created for the IPv6 address family (AF\_INET6). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
 ms.date: 10/25/2024
 ms.assetid: 65f8f7a4-757b-43a3-9d47-b115754c89d6
-ms.topic: article
+ms.topic: reference
 ---
 
 # IPPROTO\_IPV6 socket options

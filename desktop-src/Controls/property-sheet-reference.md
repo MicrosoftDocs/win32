@@ -2,7 +2,7 @@
 title: Property Sheet
 description: This section contains information about programming elements used with property sheets.
 ms.assetid: f4fa9815-eab8-4b0b-ae5f-0bce4374223a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

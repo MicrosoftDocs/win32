@@ -2,7 +2,7 @@
 title: Required Interfaces (COM)
 description: Learn about the ActiveX Control Container interfaces that can or must be implemented by control containers.
 ms.assetid: ae238882-d0c9-4120-b8a8-001bf9559cfa
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

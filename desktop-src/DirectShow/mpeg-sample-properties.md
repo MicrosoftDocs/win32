@@ -2,7 +2,7 @@
 description: MPEG Sample Properties
 ms.assetid: 339aab84-e5ad-4071-8b67-2b04cb17e450
 title: MPEG Sample Properties
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

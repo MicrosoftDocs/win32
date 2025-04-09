@@ -3,7 +3,7 @@ title: How to use the Remote Desktop Connection Broker client API
 description: The Remote Desktop Connection Broker client API allows third party protocol vendors to leverage the Connection Broker to expedite the handling of connections that use their protocol to connect to virtual machines or Remote Desktop servers in a farm.
 ms.assetid: 05C2D6CA-C9C5-4783-B196-6A02918046EF
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

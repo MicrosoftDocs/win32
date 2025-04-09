@@ -2,7 +2,7 @@
 title: mspeapconnectionpropertiesv3 Schema
 description: Defines authentication configuration data using Protected Extensible Authentication Protocol (PEAP) in Windows 8 and later versions of Windows.
 ms.assetid: 439e0b61-8a77-4b4c-9081-372faa88a05a
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 topic_type: 
 - kbArticle

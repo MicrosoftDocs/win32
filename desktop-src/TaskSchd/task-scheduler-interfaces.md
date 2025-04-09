@@ -4,7 +4,7 @@ description: The interfaces that are described in the following topics provide p
 ms.assetid: 04d23e14-574b-4c50-880b-69cf0f40e782
 keywords:
 - Task Scheduler Task Scheduler , reference, interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: View a code example that illustrates how to extract files from a cabinet using the Cabinet API. To compile, the callback functions must be defined.
 ms.assetid: d9d0e14a-f68c-4b3d-b91d-a3fa824031ea
 title: Extracting Files from a Cabinet
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

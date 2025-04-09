@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.Image.ColorSpace property.
 ms.assetid: 10770f16-8db2-4719-bce3-452f578002ec
 title: System.Image.ColorSpace Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

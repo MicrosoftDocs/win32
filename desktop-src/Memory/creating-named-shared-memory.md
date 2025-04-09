@@ -2,7 +2,7 @@
 description: To share data, multiple processes can use memory-mapped files that the system paging file stores.
 ms.assetid: 17458be2-3ef7-42f2-a717-abf73ac4846f
 title: Creating Named Shared Memory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/30/2024
 ---
 

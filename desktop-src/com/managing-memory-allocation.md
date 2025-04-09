@@ -2,7 +2,7 @@
 title: Managing Memory Allocation
 description: Managing Memory Allocation
 ms.assetid: 8a189fe8-5555-44bb-968b-04408fa7fce4
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

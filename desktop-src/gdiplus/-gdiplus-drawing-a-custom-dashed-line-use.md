@@ -2,7 +2,7 @@
 description: Windows GDI+ provides several dash styles that are listed in the DashStyle enumeration. If those standard dash styles don't suit your needs, you can create a custom dash pattern.
 ms.assetid: 0e75de3b-1006-4c8f-875c-eeb0782f24b0
 title: Drawing a Custom Dashed Line
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

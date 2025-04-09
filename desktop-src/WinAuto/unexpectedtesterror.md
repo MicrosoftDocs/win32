@@ -2,7 +2,7 @@
 title: UnexpectedTestError
 description: UnexpectedTestError
 ms.assetid: 9D94A0CD-B171-4FFF-AB6C-272D5E885F98
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

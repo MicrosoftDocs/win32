@@ -2,7 +2,7 @@
 title: VML AdjustHandles Attribute
 description: VML AdjustHandles Attribute
 ms.assetid: 9a31ca1b-1220-405c-94bf-9d85eac0563f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

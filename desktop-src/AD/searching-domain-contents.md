@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - domain contents Active Directory
 - searching domain contents Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

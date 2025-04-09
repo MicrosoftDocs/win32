@@ -2,7 +2,7 @@
 description: Timeline
 ms.assetid: '6cc36034-224c-4126-873b-0cfeceec9781'
 title: Timeline
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

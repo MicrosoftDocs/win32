@@ -2,7 +2,7 @@
 description: Microsoft Windows Search queries are not case-sensitive.
 ms.assetid: 45a3305c-1cfe-4e11-a476-1a2a64f31de6
 title: Case Sensitivity in Searches
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

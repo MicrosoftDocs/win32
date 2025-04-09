@@ -2,7 +2,7 @@
 description: The master file table (MFT) stores the information required to retrieve files from an NTFS partition.
 ms.assetid: 673fb4d0-7b6f-44fe-bfd6-1962e14ccdf5
 title: Master File Table (Developer Notes)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

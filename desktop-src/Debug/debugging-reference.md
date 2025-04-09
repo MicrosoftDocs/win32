@@ -2,7 +2,7 @@
 description: 'The following elements are used with debugging:'
 ms.assetid: 1d8801dd-7315-4130-aba1-088549b8b932
 title: Debugging Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The error handling functions enable you to receive and display error information for your application.
 ms.assetid: faff149b-254e-44da-a59c-1b738acb6941
 title: About Error Handling
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 2b478c55-4683-48cd-bee9-385eea38d01d
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , getting the distinguished name of the domain
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

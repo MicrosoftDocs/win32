@@ -2,7 +2,7 @@
 description: To understand the Activity Coordinator API, it is important to become familiar with the terms used by the API.
 ms.assetid: 483d721a-7543-44c7-bdb2-16848c84cf81
 title: Activity Coordinator API and terminology
-ms.topic: article
+ms.topic: reference
 ms.date: 05/12/2022
 ---
 

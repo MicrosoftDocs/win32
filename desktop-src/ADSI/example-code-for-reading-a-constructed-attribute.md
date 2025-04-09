@@ -5,7 +5,7 @@ ms.assetid: c4acc848-f89e-4cd1-905a-2ed20443b03c
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Reading a Constructed Attribute ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic lists the frequency tables used for analog TV tuning for India.
 ms.assetid: 4bf7a67e-0434-4177-96c7-dcaad14c6545
 title: India Channel Assignments
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

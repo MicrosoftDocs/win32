@@ -2,7 +2,7 @@
 description: Querying for Seeking Capabilities
 ms.assetid: d1d8c708-75f2-4dc7-a33a-8dd2cea0ee00
 title: Querying for Seeking Capabilities
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

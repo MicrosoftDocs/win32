@@ -2,7 +2,7 @@
 description: Window Class Functions
 ms.assetid: 6d9b4e43-227e-41d0-9c3d-10ae04de6314
 title: Window Class Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

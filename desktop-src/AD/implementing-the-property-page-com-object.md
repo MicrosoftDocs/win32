@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Implementing the Property Page COM Object
 - Property Page COM Object, Implementing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

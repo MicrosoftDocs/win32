@@ -2,7 +2,7 @@
 title: Remote and console terminal differences
 description: The differences between consoles and remote sessions.
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/10/2022
 ---
 

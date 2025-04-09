@@ -1,7 +1,7 @@
 ---
 description: Choose a static or dynamic shortcut menu method when you implement a custom file format in the Windows Shell.
 title: Choosing a Static or Dynamic Shortcut Menu Method
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 44227BCF-D35E-4a9e-B4E6-D50E6AFBAEDF
 api_name: 

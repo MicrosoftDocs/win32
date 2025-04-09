@@ -2,7 +2,7 @@
 description: Certificate Services supports the renewal of a certification authority (CA).
 ms.assetid: b6c76642-9a23-471e-af08-58e91d778f09
 title: Certification Authority Renewal
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

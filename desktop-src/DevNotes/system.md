@@ -2,7 +2,7 @@
 description: System
 ms.assetid: '9257429b-8d5b-4fa6-92f4-f2a4cf57f561'
 title: System (Developer Notes)
-ms.topic: article
+ms.topic: reference
 ms.date: 08/31/2023
 ---
 

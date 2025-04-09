@@ -1,7 +1,7 @@
 ---
 title: Direct3D 12 on Windows 7 reference
 description: This section covers Direct3D 12 APIs declared in d3d12downlevel.h, for use solely on Windows 7.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/29/2019
 ---
 

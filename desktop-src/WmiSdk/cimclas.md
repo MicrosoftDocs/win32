@@ -3,7 +3,7 @@ description: The Distributed Management Task Force (DMTF) Common Information Mod
 ms.assetid: 2335d397-234f-4122-8c3e-44986d6ed0ca
 ms.tgt_platform: multiple
 title: CIM Classes (WMI)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

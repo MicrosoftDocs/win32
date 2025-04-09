@@ -2,7 +2,7 @@
 description: The storage provider identifier for this file.
 ms.assetid: 03863ed4-9d77-4394-9122-6b6f4285e9ec
 title: System.StorageProviderFileIdentifier
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

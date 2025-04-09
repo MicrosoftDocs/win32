@@ -2,7 +2,7 @@
 title: Enumerations (COM)
 ms.assetid: 57faa6ef-76fa-4b81-8aae-aa3263b952fd
 description: "Learn more about: Enumerations (COM)"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

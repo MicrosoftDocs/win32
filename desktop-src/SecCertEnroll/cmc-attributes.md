@@ -2,7 +2,7 @@
 description: In practice, the structure of a CMC request, shown by the following syntax, is relatively complex because it often contains nested requests.
 ms.assetid: faeee338-bce4-4b35-9be9-72a6568fa259
 title: CMC Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Creating DLLs presents a number of challenges for developers.
 ms.assetid: 44EFC4B5-7A2F-43A6-914E-D4EB7446AC35
 title: Dynamic-Link Library Best Practices
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 

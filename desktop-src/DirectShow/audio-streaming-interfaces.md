@@ -2,7 +2,7 @@
 description: Audio Streaming Interfaces
 ms.assetid: eaf510ef-a6a3-45e0-8f0a-281a44b0ff6f
 title: Audio Streaming Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

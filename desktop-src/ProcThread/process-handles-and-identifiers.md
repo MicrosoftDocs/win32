@@ -2,7 +2,7 @@
 description: When a new process is created by the CreateProcess function, handles of the new process and its primary thread are returned.
 ms.assetid: cf6b80de-de02-4222-a414-e940ffaed8fe
 title: Process Handles and Identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

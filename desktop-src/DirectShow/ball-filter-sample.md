@@ -2,7 +2,7 @@
 description: Ball Filter Sample
 ms.assetid: 80a6db64-ef13-46a2-8f2a-e39095e874b2
 title: Ball Filter Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

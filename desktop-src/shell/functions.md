@@ -1,7 +1,7 @@
 ---
 description: This section describes the Windows Shell functions.
 title: Shell Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: f4d6c0c4-8db3-4721-80f5-2a73bb57cd99
 api_name: 

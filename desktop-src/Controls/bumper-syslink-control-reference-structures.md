@@ -2,7 +2,7 @@
 title: SysLink Control Structures
 description: SysLink Control Structures
 ms.assetid: dac32a98-6a5d-4dbe-ada9-4435b20fbe1b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

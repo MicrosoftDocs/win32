@@ -2,7 +2,7 @@
 title: Effects 11 Interfaces
 description: This section contains reference information for the component object model (COM) interfaces of the Effects 11 source.
 ms.assetid: 1b997513-73f7-423a-8af3-1c9fa0d2f469
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: CryptoAPI functions use cryptographic service providers (CSPs) to perform encryption and decryption, and to provide key storage and security.
 ms.assetid: 7977e59b-7ce1-4bb4-aae4-d67b7d646493
 title: CSPs and the Cryptography Process
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

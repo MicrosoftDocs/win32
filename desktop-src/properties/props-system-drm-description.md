@@ -2,7 +2,7 @@
 description: Displays the description for Digital Rights Management (DRM).
 ms.assetid: 5c657042-fa46-4f80-88bc-d10b6e38ee56
 title: System.DRM.Description
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Using BITS from .NET using Reference DLLs
 description: The following examples show how to call into the BITS COM interface from a .NET program
 ms.assetid: 1058970C-CE81-47D6-950E-3B6289E956B6
-ms.topic: article
+ms.topic: how-to
 ms.date: 11/13/2018
 ---
 

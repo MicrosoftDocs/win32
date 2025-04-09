@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Mutual Authentication in RPC Applications AD
 - Active Directory, Using, Mutual Authentication, RPC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

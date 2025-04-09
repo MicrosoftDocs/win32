@@ -5,7 +5,7 @@ ms.assetid: 072cdcab-00d1-4a09-97fb-a6de2d51392e
 keywords:
 - Common Dialog Box Library,initializing
 - common dialog boxes,initializing
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

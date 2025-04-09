@@ -3,7 +3,7 @@ description: Describes how to find the correct WMI class and procedures to use i
 ms.assetid: fe15b67c-8ae6-4360-a2ee-1eda292dd05a
 ms.tgt_platform: multiple
 title: WMI tasks for scripts and applications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

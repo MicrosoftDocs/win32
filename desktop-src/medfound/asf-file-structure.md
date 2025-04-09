@@ -2,7 +2,7 @@
 description: This topic describes the structure of an Advanced Systems Format (ASF) file.
 ms.assetid: 4a817efa-5452-46bf-8921-2ba199c21949
 title: ASF File Structure
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

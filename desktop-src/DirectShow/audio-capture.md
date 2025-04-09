@@ -2,7 +2,7 @@
 description: Audio Capture
 ms.assetid: 2b7fbdcb-7b59-407e-8e82-e66bd5606507
 title: Audio Capture
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

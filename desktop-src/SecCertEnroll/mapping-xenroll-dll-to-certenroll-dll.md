@@ -2,7 +2,7 @@
 description: The Xenroll.dll library has been removed from the operating system and replaced by CertEnroll.dll.
 ms.assetid: ec28fbdc-9198-472a-8976-7b5db09069a6
 title: Mapping Xenroll.dll to CertEnroll.dll
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

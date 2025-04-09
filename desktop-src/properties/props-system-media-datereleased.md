@@ -2,7 +2,7 @@
 description: System.Media.DateReleased
 ms.assetid: 7a947320-ae05-4b17-82bc-f6100a0450da
 title: System.Media.DateReleased
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

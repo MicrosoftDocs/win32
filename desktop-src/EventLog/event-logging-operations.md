@@ -2,7 +2,7 @@
 description: The OpenEventLog, OpenBackupEventLog, RegisterEventSource, DeregisterEventSource, and CloseEventLog functions open and close event log handles.
 ms.assetid: e42a66c2-2f1e-46f8-99c7-4701075c8ec3
 title: Event Logging Operations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 1246d3bb-16aa-4a11-a272-15134b55dd7e
 ms.tgt_platform: multiple
 keywords:
 - Scenario The Fabrikam Corporation AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

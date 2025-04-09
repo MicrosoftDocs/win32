@@ -19,7 +19,7 @@ keywords:
 - control types,control patterns for Pane control type
 - control types,support for Pane
 - control types,Pane
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

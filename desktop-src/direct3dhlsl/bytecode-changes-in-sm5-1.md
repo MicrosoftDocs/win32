@@ -2,7 +2,7 @@
 title: Bytecode changes in SM5.1
 description: SM5.1 changes how resource registers are declared and referenced in instructions.
 ms.assetid: ABECF705-67B8-4419-8D18-74B43B9DC3AF
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

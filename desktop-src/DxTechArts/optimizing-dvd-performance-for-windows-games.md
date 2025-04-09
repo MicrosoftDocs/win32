@@ -2,7 +2,7 @@
 title: Optimizing DVD performance for Windows Games
 description: This article discusses how to optimize DVD performance for Windows games.
 ms.assetid: 01e8dc7d-4ba7-40dd-d845-a20000201ae1
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

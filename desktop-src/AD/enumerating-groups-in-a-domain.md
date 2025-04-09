@@ -5,7 +5,7 @@ ms.assetid: 7f9d3c90-b6f4-4bfa-960f-58f380aa487c
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Groups in a Domain AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

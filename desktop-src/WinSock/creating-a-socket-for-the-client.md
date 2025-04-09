@@ -2,7 +2,7 @@
 description: After initialization, a SOCKET object must be instantiated for use by the client.
 ms.assetid: 088a79ef-b430-4860-8edc-902a1a03ed0d
 title: Creating a Socket for the Client
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

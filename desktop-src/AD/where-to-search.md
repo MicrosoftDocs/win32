@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Deciding Where to Search AD
 - Active Directory AD , Searching, Deciding Where to Search
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

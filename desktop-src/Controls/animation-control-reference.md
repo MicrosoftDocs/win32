@@ -2,7 +2,7 @@
 title: Animation Control
 description: This section contains information about the programming elements used with animation controls.
 ms.assetid: 16994f93-e0fd-4c71-9c8a-15642408b8de
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The ADMIN action is a top-level action used to perform administrative installations.
 ms.assetid: 9925a645-5909-42c7-9de8-f908a5e42be9
 title: ADMIN Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

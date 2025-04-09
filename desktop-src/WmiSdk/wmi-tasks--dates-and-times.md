@@ -3,7 +3,7 @@ description: There are several WMI classes and a scripting object to parse or co
 ms.assetid: dd01a732-5c88-4c24-a551-4d5452e712cc
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Dates and Times'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

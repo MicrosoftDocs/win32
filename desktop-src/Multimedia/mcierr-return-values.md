@@ -22,7 +22,7 @@ keywords:
 - MCI (Media Control Interface),errors
 - reference for MCI,errors
 - MCI reference,errors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

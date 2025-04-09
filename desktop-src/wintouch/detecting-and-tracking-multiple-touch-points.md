@@ -6,7 +6,7 @@ keywords:
 - Windows Touch,multiple touch points
 - detecting multiple touch points
 - tracking multiple touch points
-ms.topic: article
+ms.topic: how-to
 ms.date: 10/01/2021
 ---
 

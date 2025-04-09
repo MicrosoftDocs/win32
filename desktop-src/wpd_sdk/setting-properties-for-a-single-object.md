@@ -2,7 +2,7 @@
 description: Setting Properties for a Single Object
 ms.assetid: 1c003534-96b4-419b-94d1-73b5ffa2eba1
 title: Setting Properties for a Single Object
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

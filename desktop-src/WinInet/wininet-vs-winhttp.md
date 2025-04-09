@@ -3,7 +3,7 @@ title: WinINet vs. WinHTTP
 description: Learn how to choose between WinInet and WinHTTP. Read a comparison of features, and review related topics.
 ms.assetid: 77386b54-2c86-4a30-8c4c-88d5f15313d7
 keywords: WinINet vs. WinHTTP, SOCKS5, SOCKS4
-ms.topic: article
+ms.topic: reference
 ms.date: 12/06/2023
 ---
 

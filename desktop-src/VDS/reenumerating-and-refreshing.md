@@ -2,7 +2,7 @@
 description: Reenumerating and Refreshing
 ms.assetid: 67d34946-47df-43e2-8ca7-628d0671b869
 title: Reenumerating and Refreshing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

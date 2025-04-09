@@ -2,7 +2,7 @@
 description: The following macros are used with fonts and text.
 ms.assetid: e3d05546-7390-48e8-841c-58a2b0fa2349
 title: Font and Text Macros
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

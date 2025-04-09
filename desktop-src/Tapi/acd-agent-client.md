@@ -2,7 +2,7 @@
 description: A call center agent is responsible for receiving and processing incoming calls and, at times, making outgoing calls to customers or prospects.
 ms.assetid: 2dfd51b6-cdda-43cc-a30f-92ac41abf8d8
 title: ACD Agent Client
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

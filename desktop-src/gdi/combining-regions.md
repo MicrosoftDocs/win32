@@ -2,7 +2,7 @@
 description: An application combines two regions by calling the CombineRgn function.
 ms.assetid: d16f9ca5-33e2-4752-900e-743245838377
 title: Combining Regions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

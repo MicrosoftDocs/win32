@@ -1,7 +1,7 @@
 ---
 description: Using the parental controls registry keys.
 title: Using the Parental Controls Registry Keys
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/19/2024
 ---
 

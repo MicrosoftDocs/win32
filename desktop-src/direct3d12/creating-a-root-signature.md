@@ -2,7 +2,7 @@
 title: Creating a Root Signature
 description: Root signatures are a complex data structure containing nested structures.
 ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.Message.ConversationIndex
 ms.assetid: 1bb9a0b7-b62c-403b-923d-59869ef2bf1c
 title: System.Message.ConversationIndex
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

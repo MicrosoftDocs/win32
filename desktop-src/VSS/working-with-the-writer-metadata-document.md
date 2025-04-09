@@ -2,7 +2,7 @@
 description: Each writer produces a Writer Metadata Document.
 ms.assetid: e23a6d79-1014-4023-a59f-dce01cf2889e
 title: Working with the Writer Metadata Document
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

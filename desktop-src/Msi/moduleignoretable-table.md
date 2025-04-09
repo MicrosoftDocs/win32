@@ -2,7 +2,7 @@
 description: If a table in the merge module is listed in the ModuleIgnoreTable table, it is not merged into the .msi file.
 ms.assetid: 9ff87993-74f6-4436-b0a9-d7ebed6555bd
 title: ModuleIgnoreTable Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

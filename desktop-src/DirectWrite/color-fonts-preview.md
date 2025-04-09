@@ -1,7 +1,7 @@
 ---
 title: Color font support (preview)
 description: This topic describes color fonts, their support in DirectWrite and Direct2D, and how to use them in your app (preview).
-ms.topic: article
+ms.topic: reference
 ms.date: 09/20/2023
 ---
 

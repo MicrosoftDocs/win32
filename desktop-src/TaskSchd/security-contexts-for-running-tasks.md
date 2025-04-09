@@ -2,7 +2,7 @@
 title: Security Contexts for Tasks
 description: Tasks are registered and run under a specific security context.
 ms.assetid: be86eb9f-f6ec-4dce-afe8-e3314a74062a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

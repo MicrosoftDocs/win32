@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Service Connection Point Properties
 - service connection points AD , properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

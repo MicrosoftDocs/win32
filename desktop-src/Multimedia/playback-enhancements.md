@@ -2,7 +2,7 @@
 title: Playback Enhancements
 description: Playback Enhancements
 ms.assetid: 9be86f37-d8e5-4506-8e49-4f7ed449b099
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

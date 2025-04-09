@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to use the Shell\_NotifyIcon and Shell\_NotifyIconGetRect APIs to display a notification icon.
 title: NotificationIcon Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 9F31DB2D-4B12-4f65-AC91-25B4B5B1CB46
 api_name: 

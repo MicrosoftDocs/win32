@@ -2,7 +2,7 @@
 description: This section contains the photo metadata policies for System properties.
 ms.assetid: F4F9C95D-FDD4-4862-8399-30A8C2A4A3EC
 title: System (Windows Imaging Component)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.Contact.OtherAddress2Street
 ms.assetid: 6e9b5825-2db7-40a5-ac33-26c3b417fac9
 title: System.Contact.OtherAddress2Street
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

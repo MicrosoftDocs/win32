@@ -5,7 +5,7 @@ ms.assetid: b9e1806c-acfa-4d44-a371-91bad788648c
 keywords:
 - starting Task Scheduler
 - programming considerations Task Scheduler
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

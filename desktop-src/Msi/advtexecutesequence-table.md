@@ -2,7 +2,7 @@
 description: The AdvtExecuteSequence table lists actions the installer calls when the top-level ADVERTISE action is executed.
 ms.assetid: 8873c161-a709-48b8-a66f-fe2ee9be859f
 title: AdvtExecuteSequence Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

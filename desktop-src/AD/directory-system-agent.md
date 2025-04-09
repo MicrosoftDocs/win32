@@ -5,7 +5,7 @@ ms.assetid: a921a822-6b2e-4a84-8112-0ae516443667
 ms.tgt_platform: multiple
 keywords:
 - directory system agent Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

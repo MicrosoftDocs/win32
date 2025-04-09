@@ -2,7 +2,7 @@
 title: Setup Configuration
 description: Setup configuration requires administrator privileges and is persistent across restarts.
 ms.assetid: 96e9c069-829b-4615-b94b-3761bc541440
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

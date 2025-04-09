@@ -2,7 +2,7 @@
 title: High DPI for desktop apps in Windows 8.1
 description: High DPI for desktop apps in Windows 8.1
 ms.assetid: 1E92D3C8-C117-463A-AF31-12D3CAA31E2A
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

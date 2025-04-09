@@ -2,7 +2,7 @@
 title: Windows 7 Menus (Design basics)
 description: Windows 7 Menus are hierarchical lists of commands or options available to users in the current context.
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
-ms.topic: article
+ms.topic: reference
 ms.date: 01/25/2022
 ---
 

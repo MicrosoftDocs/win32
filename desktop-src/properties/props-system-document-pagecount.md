@@ -2,7 +2,7 @@
 description: System.Document.PageCount
 ms.assetid: a812f2b2-fde8-432a-bd1b-1c13d7cbb573
 title: System.Document.PageCount
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

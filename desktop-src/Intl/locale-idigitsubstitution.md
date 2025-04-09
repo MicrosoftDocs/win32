@@ -2,7 +2,7 @@
 description: LOCALE\_IDIGITSUBSTITUTION
 ms.assetid: f3f7d7ac-8f1e-4bfa-84f0-dfe8cff568c3
 title: LOCALE_IDIGITSUBSTITUTION
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

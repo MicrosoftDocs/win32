@@ -2,7 +2,7 @@
 description: At the TAPI level, an application can pass a variety of different parameters, many of which may be invalid.
 ms.assetid: cc52e2a2-08e0-4a66-a75f-975e50dbf654
 title: Error Checking (Telephony API)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

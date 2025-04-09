@@ -2,7 +2,7 @@
 description: Volume Envelope Effect
 ms.assetid: 17b6d842-e79c-49b0-baa4-1535b4a2c6ae
 title: Volume Envelope Effect
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

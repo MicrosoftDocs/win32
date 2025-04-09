@@ -2,7 +2,7 @@
 description: Using the DMO Class Template
 ms.assetid: 5193ad08-aaee-47e3-93eb-a126a66d8f23
 title: Using the DMO Class Template
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

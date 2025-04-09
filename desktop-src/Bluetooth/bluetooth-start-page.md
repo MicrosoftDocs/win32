@@ -5,7 +5,7 @@ ms.assetid: 2a86f30e-2594-405d-a2f5-9e9ce9ad278b
 keywords:
 - Bluetooth Bluetooth , start page
 - start page Bluetooth , Bluetooth
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This article explains how to initialize property handlers to work with the Windows property system.
 ms.assetid: 3b54dd65-b7db-4e6a-bc3d-1008fdabcfa9
 title: Initializing Property Handlers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

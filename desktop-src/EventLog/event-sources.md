@@ -2,7 +2,7 @@
 description: Each log in the Eventlog key contains subkeys called event sources. The event source is the name of the software that logs the event.
 ms.assetid: bc7fdc74-be41-4d17-997c-27171ef73f0f
 title: Event Sources
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: DirectShow Reference
 ms.assetid: 5fd72be3-4ff5-4c93-8055-abe247f3c856
 title: DirectShow Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

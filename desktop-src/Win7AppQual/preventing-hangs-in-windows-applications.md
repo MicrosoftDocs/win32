@@ -2,7 +2,7 @@
 description: Learn how to prevent hangs in Windows applications for Windows 7 and Windows Server 2008 R2 platforms.
 ms.assetid: 698a046b-1934-49cd-a717-d61e7e1ec534
 title: Preventing Hangs in Windows Applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

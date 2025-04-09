@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - extensions ADSI ,getting ADSI interfaces from your extension
 - ADSI ADSI ,example code C/C++ ,getting ADSI interfaces from your extension
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

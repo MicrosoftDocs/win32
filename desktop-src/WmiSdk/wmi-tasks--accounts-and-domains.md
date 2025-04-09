@@ -3,7 +3,7 @@ description: Account and domain administrative tasks obtain information such as 
 ms.assetid: 1a9cc44b-c366-465d-a0d0-536d5dc818b5
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Accounts and Domains'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -7,7 +7,7 @@ keywords:
 - MIDL MIDL , (See Microsoft Interface Definition Language MIDL )
 - Microsoft Interface Definition Language MIDL
 - Microsoft Interface Definition Language MIDL , start page
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

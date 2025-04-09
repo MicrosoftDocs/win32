@@ -2,7 +2,7 @@
 title: Loop counter register (HLSL PS reference)
 description: Read about the loop counter register for pixel shaders. The only register in this bank is the current loop counter (aL) register.
 ms.assetid: 36999873-a251-4939-aac0-faa7f910bc33
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

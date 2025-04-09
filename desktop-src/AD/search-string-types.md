@@ -3,7 +3,7 @@ title: Initial, Medial, and Final Search Strings
 description: There are three types of wildcard searches that are referenced throughout the documentation about construction search string queries. These wildcard searches are initial-, medial-, and final-search strings. This topics describes these searches.
 ms.assetid: 23cc4771-2dd6-478c-9c7a-43052594cb71
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Although providers are encouraged to use unique instance names, not all providers do.
 ms.assetid: 3c8fcb8d-2ea4-4b24-b649-7bd375c1133d
 title: Handling Duplicate Instance Names
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/17/2020
 ---
 

@@ -2,7 +2,7 @@
 description: Unlocking the Windows Media Format SDK
 ms.assetid: 7ede8bda-3b26-452d-8ce9-cd2410ffd9f4
 title: Unlocking the Windows Media Format SDK
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

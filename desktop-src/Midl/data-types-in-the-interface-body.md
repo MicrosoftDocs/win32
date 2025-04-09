@@ -4,7 +4,7 @@ description: The interface body, which is enclosed in braces ( ), contains the d
 ms.assetid: a5130744-6b14-48a4-b439-16f0ecaf08c2
 keywords:
 - interfaces MIDL , data types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

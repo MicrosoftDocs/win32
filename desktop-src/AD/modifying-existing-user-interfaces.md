@@ -7,7 +7,7 @@ keywords:
 - Modifying Existing User Interfaces AD
 - Users and Computers snap-in AD ,modifying display
 - Users and Computers snap-in AD ,adding columns
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

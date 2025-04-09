@@ -3,7 +3,7 @@ description: Specifies a key to select a unique row in a scalar or table collect
 ms.assetid: 3c4edae0-55be-4804-b5fe-07458b918365
 ms.tgt_platform: multiple
 title: INDEX Clause
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

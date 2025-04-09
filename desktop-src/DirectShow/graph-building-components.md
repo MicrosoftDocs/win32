@@ -2,7 +2,7 @@
 description: Graph-Building Components
 ms.assetid: d803c56c-6fb1-4937-92e7-9ed2db2afc46
 title: Graph-Building Components
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

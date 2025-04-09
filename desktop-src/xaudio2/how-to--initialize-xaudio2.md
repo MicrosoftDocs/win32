@@ -2,7 +2,7 @@
 title: 'How to: Initialize XAudio2'
 description: You initialize XAudio2 for audio playback by creating an instance of the XAudio2 engine, and then creating a mastering voice.
 ms.assetid: 4db2e7fc-0a87-0344-a07c-3abf2b21af32
-ms.topic: article
+ms.topic: how-to
 ms.date: 08/14/2024
 ---
 

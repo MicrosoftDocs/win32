@@ -2,7 +2,7 @@
 title: Simple Types
 description: All simple types are represented by a single format character indicating the type by its name.
 ms.assetid: 77c293a1-70c4-4825-bb2e-de36e01d3abb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

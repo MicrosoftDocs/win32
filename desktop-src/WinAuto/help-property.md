@@ -2,7 +2,7 @@
 title: Help Property
 description: The Help property provides information that tells the user about the function of an object.
 ms.assetid: 3df0cc01-cc99-42a1-9d56-591e6e00e53d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Indicates if the Device Association Endpoint Container Supports Information.
 ms.assetid: dd9edddb-d4d8-40de-85f5-34b2584ea853
 title: System.Devices.AepContainer.SupportsInformation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

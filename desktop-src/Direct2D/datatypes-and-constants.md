@@ -5,7 +5,7 @@ ms.assetid: e5ff04d9-6194-4bdf-9db3-213d79199e4b
 keywords:
 - Direct2D,datatypes
 - Direct2D,constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: Navigation page for Remote Procedure Call (RPC) constants.
 ms.assetid: bd851224-3c68-4699-ad52-452caa80f309
 keywords:
 - Remote Procedure Call RPC , reference, constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

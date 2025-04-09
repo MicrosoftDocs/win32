@@ -2,7 +2,7 @@
 description: Proxy Locator Configuration Settings
 ms.assetid: d74a85cf-293e-4322-9aff-55b06d6fda5e
 title: Proxy Locator Configuration Settings
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

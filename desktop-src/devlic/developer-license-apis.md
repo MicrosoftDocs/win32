@@ -2,7 +2,7 @@
 title: Developer License APIs
 description: Use these APIs to check, acquire, and remove a developer license.
 ms.assetid: B9235AD0-5DBB-4A06-8AFE-EEEABD27D573
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Command Object Properties
 description: Command Object Properties
 ms.assetid: 731bd14b-e213-4516-82fa-a904955cb7e4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

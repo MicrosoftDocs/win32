@@ -2,7 +2,7 @@
 title: VML LightLevel2 Attribute
 description: VML LightLevel2 Attribute
 ms.assetid: 8286d4ec-1912-4986-9046-4f194988ef0b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

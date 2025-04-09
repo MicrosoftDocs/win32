@@ -2,7 +2,7 @@
 description: NTSC (United States)
 ms.assetid: 371f91b9-d60b-477e-8f8c-a7fb01121aed
 title: NTSC (United States)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

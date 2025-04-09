@@ -2,7 +2,7 @@
 description: Delivering the End of Stream
 ms.assetid: 23afdb2e-93b0-4a74-94bd-e38eb82a5995
 title: Delivering the End of Stream
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

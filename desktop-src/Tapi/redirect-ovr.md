@@ -2,7 +2,7 @@
 description: Session redirection allows an application to deflect an offered session to another address without answering the call.
 ms.assetid: b52cd5c2-fdd6-4240-b07b-b22733a89d27
 title: Redirect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

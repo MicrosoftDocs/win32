@@ -2,7 +2,7 @@
 description: Home address state name of the contact.
 ms.assetid: bbb1961f-7f80-45c1-8bbd-81dc1b6e5944
 title: System.Contact.HomeAddressState
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

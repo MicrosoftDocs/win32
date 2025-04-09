@@ -2,7 +2,7 @@
 title: FontUnderline Property
 description: FontUnderline Property
 ms.assetid: 6fe6c147-2969-470e-9742-da2e6b3614e1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

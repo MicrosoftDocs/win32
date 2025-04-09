@@ -2,7 +2,7 @@
 description: System.MileageInformation
 ms.assetid: 222ad000-5cd2-4f25-8267-8f68fb800cf4
 title: System.MileageInformation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

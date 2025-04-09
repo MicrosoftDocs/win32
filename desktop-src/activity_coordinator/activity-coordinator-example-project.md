@@ -2,7 +2,7 @@
 title: Activity Coordinator example project
 description: This simple example for the Activity Coordinator demonstrates how the API can be leveraged to retrain a model in the background when system conditions are met.
 ms.assetid: 722acf59-ee17-4033-b191-cb0bf53e22ae
-ms.topic: article
+ms.topic: reference
 ms.date: 04/28/2022
 ---
 

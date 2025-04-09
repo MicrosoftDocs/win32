@@ -2,7 +2,7 @@
 description: The IUpdateHistoryEntry interface defines the following properties.
 ms.assetid: ea4e698c-4a4c-4266-96e0-870dc5709a72
 title: IUpdateHistoryEntry Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

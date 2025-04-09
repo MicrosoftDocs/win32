@@ -11,7 +11,7 @@ keywords:
 - custom properties,about
 - events,about
 - control patterns,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

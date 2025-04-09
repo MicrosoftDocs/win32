@@ -2,7 +2,7 @@
 description: The Event Logging reference is divided into the following sections.
 ms.assetid: 5724bc7a-ba6c-4d4e-b505-bfe10aa460be
 title: Event Logging Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

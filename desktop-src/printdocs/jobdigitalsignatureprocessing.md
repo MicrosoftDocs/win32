@@ -2,7 +2,7 @@
 description: Learn about the JobDigitalSignatureProcessing element, which describes configuring the digital signature processing for the entire job.
 ms.assetid: 0592f7a4-cace-41b0-91e3-2811f72aeb3e
 title: JobDigitalSignatureProcessing
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

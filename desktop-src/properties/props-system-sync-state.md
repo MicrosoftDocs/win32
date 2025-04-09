@@ -2,7 +2,7 @@
 description: State of the system synch.
 ms.assetid: e7659752-ba8c-4b3b-bd1e-2f5044a3ab47
 title: System.Sync.State
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

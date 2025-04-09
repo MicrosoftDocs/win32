@@ -2,7 +2,7 @@
 description: LOCALE\_SDECIMAL
 ms.assetid: afb5b22b-be50-4428-853a-721fc6035507
 title: LOCALE_SDECIMAL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

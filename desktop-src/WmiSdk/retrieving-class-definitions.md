@@ -3,7 +3,7 @@ description: Schema queries are WQL statements that request class definitions an
 ms.assetid: cb65e99f-9046-4c63-ab56-60dedc45bcef
 ms.tgt_platform: multiple
 title: Retrieving Class Definitions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

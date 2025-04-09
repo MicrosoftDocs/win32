@@ -2,7 +2,7 @@
 title: Core data types
 description: The following data types are declared in d3d12.h.
 ms.assetid: 
-ms.topic: article
+ms.topic: reference
 ms.date: 11/27/2018
 ---
 

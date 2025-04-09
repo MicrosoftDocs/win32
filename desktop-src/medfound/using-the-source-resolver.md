@@ -2,7 +2,7 @@
 description: Using the Source Resolver
 ms.assetid: 94e2a411-96b8-4506-8491-78f4f5f286ce
 title: Using the Source Resolver
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

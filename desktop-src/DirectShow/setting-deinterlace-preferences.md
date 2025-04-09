@@ -2,7 +2,7 @@
 description: Setting Deinterlace Preferences
 ms.assetid: 31d59f17-552b-46d1-89e4-751216f54280
 title: Setting Deinterlace Preferences
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

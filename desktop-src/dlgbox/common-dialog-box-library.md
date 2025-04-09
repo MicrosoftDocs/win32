@@ -17,7 +17,7 @@ keywords:
 - Page Setup dialog box
 - Color dialog box
 - Font dialog box
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - multimedia,reference
 - multimedia reference,about
 - reference for multimedia,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Direct3D 11 core reference
 description: Review core reference information about the Direct3D 11 API, which defines several core API elements.
 ms.assetid: 893fff90-6fcb-4f70-8d3a-1d7621baeeb4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

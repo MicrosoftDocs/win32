@@ -1,7 +1,7 @@
 ---
 title: Merge-ProfilingResults cmdlet
 description: Merges multiple Get-ProfilingResults output files into a single file.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/27/2024
 ---
 

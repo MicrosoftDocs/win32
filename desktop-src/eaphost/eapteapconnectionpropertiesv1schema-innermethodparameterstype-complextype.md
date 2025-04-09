@@ -2,7 +2,7 @@
 title: InnerMethodParametersType Complex Type
 description: Learn about the InnerMethodParametersType complex type. This optional type specifies parameter information for EAP-TEAP.
 ms.assetid: 51187304-acfa-4c23-9687-674ad89915b6
-ms.topic: article
+ms.topic: reference
 ms.date: 07/11/2023
 ---
 

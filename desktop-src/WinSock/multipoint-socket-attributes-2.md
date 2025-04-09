@@ -2,7 +2,7 @@
 description: Multipoint socket attributes in Windows Sockets (Winsock).
 ms.assetid: f6e779c6-dd9d-470e-aad9-715b69ad8c5f
 title: Multipoint Socket Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

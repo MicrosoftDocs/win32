@@ -8,7 +8,7 @@ keywords:
 - 64-bit Windows programming guide examples 64-bit Windows Programming , registry redirection on WOW64
 - registry redirection example 64-bit Windows Programming
 - 64-bit Windows programming guide 64-bit Windows Programming , examples See 64-bit Windows programming guide examples
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: To connect to a remote computer using WMI, ensure that the correct 
 ms.assetid: 96ebaa9b-a062-4300-a637-8eb71cb80d1c
 ms.tgt_platform: multiple
 title: Securing a Remote WMI Connection
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

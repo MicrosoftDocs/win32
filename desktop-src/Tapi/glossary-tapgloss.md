@@ -2,7 +2,7 @@
 description: This glossary contains definitions for terms used in the documentation of the Telephony Application Programming Interface (TAPI).
 ms.assetid: 4c2e3479-01b6-4920-b19a-fbf26ae63200
 title: Glossary (Telephony API)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

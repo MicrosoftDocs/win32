@@ -11,7 +11,7 @@ keywords:
 - texture matrix
 - transformations
 - triangles
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

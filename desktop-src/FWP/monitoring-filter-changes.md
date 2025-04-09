@@ -2,7 +2,7 @@
 title: Monitoring Filter Changes
 description: Following sample code demonstrates how to monitor the addition and deletion of filters that might affect a server application.
 ms.assetid: 7ca527e1-217a-4e97-86e9-23b484ffc25d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

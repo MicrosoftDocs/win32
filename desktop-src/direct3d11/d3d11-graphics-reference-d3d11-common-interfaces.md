@@ -2,7 +2,7 @@
 title: Common version interfaces
 description: This section contains information about the common version interfaces.
 ms.assetid: d228c3c2-e2ff-4723-aec1-5c3ce82c321d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -8,7 +8,7 @@ keywords:
 - OpenGL porting,rendering contexts
 - X Window System,rendering contexts
 - GLX functions,rendering contexts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

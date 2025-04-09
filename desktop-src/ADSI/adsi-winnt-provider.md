@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - adsi winnt provider ADSI
 - WinNT service provider ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

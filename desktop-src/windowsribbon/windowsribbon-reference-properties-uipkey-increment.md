@@ -2,7 +2,7 @@
 title: UI_PKEY_Increment
 description: Identifies the UI\_PKEY\_Increment property.
 ms.assetid: 796a8e99-4b41-41fd-8fa7-b81faac202bb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The &lt;libraryDescription&gt; element is the top-level container for the library definition. This element is required.
 ms.assetid: 62098944-E1B2-46e8-AC87-314C55F96B62
 title: libraryDescription Element (Library Schema)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

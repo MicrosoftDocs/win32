@@ -3,7 +3,7 @@ description: Enclaves are used to create trusted execution environments. These l
 ms.assetid: 659f28af-ed6c-46f6-b8c5-bb5784bc6c6b
 title: libvcruntime APIs available in VBS enclaves
 titleSuffix: Secure Enclaves
-ms.topic: article
+ms.topic: reference
 ms.date: 11/20/2024
 ---
 

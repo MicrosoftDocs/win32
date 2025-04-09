@@ -2,7 +2,7 @@
 description: To improve performance, you might want to create more than one swap chain per Direct3D rendering device.
 ms.assetid: 29AB9799-9E4E-4A96-B4AB-F1B754794879
 title: Improving performance with multiple swap chains per rendering device
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

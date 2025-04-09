@@ -2,7 +2,7 @@
 description: Microsoft Windows Search supports full Unicode searching.
 ms.assetid: 6df1a078-7ef0-4f02-bd82-83191183bb47
 title: Using Localized Searches
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

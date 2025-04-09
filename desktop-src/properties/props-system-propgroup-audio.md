@@ -2,7 +2,7 @@
 description: Read about the System.PropGroup.Audio property. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: d15f1a0b-de24-4af2-9482-fc829052dd6c
 title: System.PropGroup.Audio
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

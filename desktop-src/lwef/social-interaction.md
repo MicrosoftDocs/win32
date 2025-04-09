@@ -2,7 +2,7 @@
 title: Social Interaction
 description: Social Interaction
 ms.assetid: 4e8096e8-7bd1-4225-b12c-832f312ef833
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following example demonstrates how to create, schedule, and delete fibers.
 ms.assetid: b09c00ae-a498-499b-ba2b-735028e9fd8f
 title: Using Fibers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

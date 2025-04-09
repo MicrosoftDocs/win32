@@ -2,7 +2,7 @@
 description: The comm device class consists of communications ports. You access these devices by using the file and communications functions.
 ms.assetid: c1cf4998-b752-4cfd-9dd7-c9872b62c44b
 title: comm
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

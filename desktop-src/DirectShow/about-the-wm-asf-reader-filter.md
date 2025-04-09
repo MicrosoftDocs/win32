@@ -2,7 +2,7 @@
 description: About the WM ASF Reader Filter
 ms.assetid: e698c0da-88b2-497a-8a25-9d3b76c85a7d
 title: About the WM ASF Reader Filter
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

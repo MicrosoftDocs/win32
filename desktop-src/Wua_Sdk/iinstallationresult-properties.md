@@ -2,7 +2,7 @@
 description: The IInstallationResult interface defines the following properties.
 ms.assetid: bd6cd5ae-2e43-4ac3-8ce7-ac80b7fc5cb8
 title: IInstallationResult Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

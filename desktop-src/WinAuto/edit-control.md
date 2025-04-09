@@ -2,7 +2,7 @@
 title: Edit Control (MSAA UI Element Reference)
 description: Edit controls let a user view and edit text.
 ms.assetid: a42c73f2-4005-4db9-84bc-637c9c4310f1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

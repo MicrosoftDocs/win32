@@ -2,7 +2,7 @@
 description: The topic Using a Color Matrix to Set Alpha Values in Images shows a nondestructive method for changing the alpha values of an image.
 ms.assetid: 38c6254d-5191-4948-804a-1a4427aab7c6
 title: Setting the Alpha Values of Individual Pixels
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

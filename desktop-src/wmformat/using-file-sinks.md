@@ -14,7 +14,7 @@ keywords:
 - file sinks,starting
 - file sinks,closing
 - sinks,statistics
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Certificate Enrollment API reference pages contain detailed descriptions of interfaces, enumerations, and other programming elements that can be used to enroll a user or computer in a certificate hierarchy.
 ms.assetid: ae6ab5fc-598e-43b8-a260-2cd94dc2648f
 title: Certificate Enrollment API Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

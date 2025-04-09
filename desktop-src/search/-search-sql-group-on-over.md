@@ -2,7 +2,7 @@
 description: The GROUP ON...
 ms.assetid: 37f027c1-c2af-4d62-8b5f-918499fc2d7c
 title: GROUP ON ... OVER ... Statement
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

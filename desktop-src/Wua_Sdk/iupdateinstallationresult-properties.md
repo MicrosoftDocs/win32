@@ -2,7 +2,7 @@
 description: The IUpdateInstallationResult interface defines the following properties.
 ms.assetid: 7e8f7125-f89b-416f-bcc5-422eecabe0c4
 title: IUpdateInstallationResult Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The COM-based telephony API, TAPI 3.x, is available starting with Windows XP.
 ms.assetid: d22ee259-b3fc-4cbc-8510-e9977e70d3f0
 title: TAPI 3.x vs. TAPI 2.x
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

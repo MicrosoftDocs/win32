@@ -2,7 +2,7 @@
 description: Learn about the JobOutputOptimization, which describes the job processing, intended to optimize the output for particular use scenarios as indicated by the option specified.
 ms.assetid: 40925dfe-494c-49b5-ae57-de369723ba76
 title: JobOutputOptimization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

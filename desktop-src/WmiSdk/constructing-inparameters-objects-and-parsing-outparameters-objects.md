@@ -3,7 +3,7 @@ description: Normally, direct access is adequate to call a WMI provider method.
 ms.assetid: be9332b5-8094-44a2-8632-af9957ecf36b
 ms.tgt_platform: multiple
 title: Constructing InParameters Objects and Parsing OutParameters Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

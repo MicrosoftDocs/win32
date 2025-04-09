@@ -2,7 +2,7 @@
 description: Device Representation
 ms.assetid: bf8b9c67-b023-40ed-97c6-9ca030de610a
 title: Device Representation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

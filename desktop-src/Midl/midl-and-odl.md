@@ -6,7 +6,7 @@ keywords:
 - MIDL compiler MIDL , MIDL and ODL MIDL
 - compilers MIDL , MIDL and ODL
 - ODL MIDL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

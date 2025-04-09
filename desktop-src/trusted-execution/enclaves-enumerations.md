@@ -3,7 +3,7 @@ description: The following enumerations are used when working with enclaves that
 ms.assetid: 7B122E1F-AAF8-4834-B262-CD641D16DA4E
 title: Enclave Enumerations (Trusted Execution)
 titleSuffix: Secure Enclaves
-ms.topic: article
+ms.topic: reference
 ms.date: 11/20/2024
 ---
 

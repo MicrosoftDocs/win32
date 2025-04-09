@@ -2,7 +2,7 @@
 description: Learn about the JobErrorSheet element, which describes the error sheet output. The entire job will have a single error sheet.
 ms.assetid: ad30df59-0051-4471-8c0e-3207bcc7bfbe
 title: JobErrorSheet
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

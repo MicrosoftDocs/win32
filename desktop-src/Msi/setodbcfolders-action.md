@@ -2,7 +2,7 @@
 description: The SetODBCFolders action checks for existing ODBC drivers on the system and sets the target directory of each new driver to the location of an existing driver.
 ms.assetid: d1739b37-d89b-400e-a4ac-b417e0fb9918
 title: SetODBCFolders Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

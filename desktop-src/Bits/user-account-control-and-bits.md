@@ -2,7 +2,7 @@
 title: User Account Control and BITS
 description: When an administrator user logs onto the computer, two access tokens are created. One is a filtered standard user access token and the other is a full administrator access token.
 ms.assetid: 02439ab3-b885-4a2f-b507-0c48d2b30b76
-ms.topic: article
+ms.topic: reference
 ms.date: 7/12/2019
 ---
 

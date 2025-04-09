@@ -9,7 +9,7 @@ keywords:
 - DRV_QUERYCONFIGURE message
 - DRVCONFIGINFO message
 - configuring installable drivers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

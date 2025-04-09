@@ -2,7 +2,7 @@
 description: Western Europe
 ms.assetid: 3af46a07-027f-4b31-9958-4a16971c81f8
 title: Western Europe
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: Check Boxes
 description: With a check box, users make a decision between two clearly opposite choices.
 ms.assetid: 7c39987d-807b-41c1-9788-65c3d468b976
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

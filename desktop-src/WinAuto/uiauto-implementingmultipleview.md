@@ -13,7 +13,7 @@ keywords:
 - control patterns,implementing UI Automation MultipleView
 - control patterns,MultipleView
 - interfaces,IMultipleViewProvider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

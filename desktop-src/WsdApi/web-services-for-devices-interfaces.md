@@ -2,7 +2,7 @@
 description: 'The Web Services on Devices programming interface defines and uses the following interfaces:'
 ms.assetid: 85033c35-6012-4146-871d-e95d789a60b2
 title: Web Services on Devices Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

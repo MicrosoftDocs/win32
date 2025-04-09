@@ -2,7 +2,7 @@
 title: IAgentCommand GetCaption
 description: IAgentCommand GetCaption
 ms.assetid: e333faca-e2c2-478a-a803-cbc401793e4d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
