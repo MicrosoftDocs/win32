@@ -517,6 +517,10 @@ It is recommend that the Component Object Model (COM) be used instead of this IO
 
 **Windows XP:** Controls whether UDP PORT\_UNREACHABLE messages are reported. Set to **TRUE** to enable reporting. Set to **FALSE** to disable reporting.
 
+### SIO_UDP_NETRESET
+
+Controls whether **NET_UNREACHABLE** (TTL expired) messages are reported on UDP sockets via recv/WSARecv/etc. Pass **TRUE** in input buffer to enable (default if supported). Pass **FALSE** to disable reporting.
+
 ### SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS (opcode setting: I, T==3)
 
 Sets the redirect record to the new TCP socket used for connecting to the final destination for use by a Windows Filtering Platform (WFP) redirect service.
