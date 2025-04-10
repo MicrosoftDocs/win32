@@ -410,6 +410,7 @@
     - name: "eAVFastDecodeMode"
       href: /windows/win32/api/codecapi/ne-codecapi-eavfastdecodemode
   - name: "Codec API Interfaces"
+    href: codec-api-interfaces.md
     items: 
     - name: "ICodecAPI"
       href: /windows/win32/api/icodecapi/nn-icodecapi-icodecapi
@@ -445,6 +446,7 @@
       - name: "UnregisterForEvent"
         href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-unregisterforevent
   - name: "Codec API Structures"
+    href: codec-api-structures.md
     items:
     - name: "CodecAPIEventData"
-      href: /windows/win32/api/strmif/ns-strmif-codecapieventdata
+      href: /windows/win32/api/icodecapi/ns-icodecapi-codecapieventdata
