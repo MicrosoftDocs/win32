@@ -54504,6 +54504,11 @@
       "source_path": "desktop-src/DirectShow/codec-api-interfaces.md",
       "redirect_url": "/windows/win32/codecapi/codec-api-interfaces",
       "redirect_document_id": false
-  }
+  },
+  {
+      "source_path": "desktop-src/codecapi/index.md",
+      "redirect_url": "/windows/win32/codecapi/codec-api-reference",
+      "redirect_document_id": false
+    }
   ]
 }
