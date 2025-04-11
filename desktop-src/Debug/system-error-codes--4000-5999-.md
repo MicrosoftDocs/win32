@@ -2,7 +2,7 @@
 description: Describes error codes 4000-5999 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 1d2f7160-6322-4c75-abbc-4a882bbdf7ce
 title: System Error Codes (4000-5999) (WinError.h)
-ms.topic: reference
+ms.topic: error-reference
 ms.date: 07/15/2024
 ---
 
