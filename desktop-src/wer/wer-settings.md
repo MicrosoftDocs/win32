@@ -4,7 +4,7 @@ description: Settings to customize the problem reporting experience. All of thes
 ms.assetid: 031c5591-31b0-42f1-9a98-ecf10a5d5571
 keywords:
 - Windows error reporting Windows Error Reporting , settings
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 03/12/2021
 ---
 
