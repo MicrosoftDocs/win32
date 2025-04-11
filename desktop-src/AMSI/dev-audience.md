@@ -1,7 +1,7 @@
 ---
 title: Developer audience, and sample code
 description: This topic describes the groups of developers for whom the Antimalware Scan Interface is designed.
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 12/17/2024
 ---
 

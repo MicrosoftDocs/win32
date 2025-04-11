@@ -3,7 +3,7 @@ title: Active Directory Schema Terminology
 description: The following terms are commonly used to refer to the Active Directory schema.
 ms.assetid: 22c5756f-d663-4cb7-aab0-956b22a01e9d
 ms.tgt_platform: multiple
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

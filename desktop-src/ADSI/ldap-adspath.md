@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - LDAP ADsPath
 - ADsPath, LDAP, description
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -13,7 +13,7 @@ keywords:
 - clipboard,pasting HTML text
 - CF_HTML clipboard format
 - clipboard,CF_HTML format
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 06/30/2023
 ---
 
