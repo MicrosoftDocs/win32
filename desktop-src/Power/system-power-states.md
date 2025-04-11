@@ -2,7 +2,7 @@
 description: Learn about the multiple system power states that correspond to the Advanced Configuration and Power Interface (ACPI) specification.
 ms.assetid: 3d897a88-125e-457f-9ea7-ac2056b0767a
 title: System power states
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 02/08/2023
 ---
 
