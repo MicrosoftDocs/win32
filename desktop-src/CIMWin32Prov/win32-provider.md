@@ -3,7 +3,7 @@ description: The Microsoft&\#160;Win32 provider retrieves and updates data relev
 ms.assetid: 71c13736-0504-4d50-b8a4-5d68d4ba9a90
 ms.tgt_platform: multiple
 title: Win32 Provider
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

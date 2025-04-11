@@ -2,7 +2,7 @@
 title: Operators
 description: Expressions are sequences of variables and literals punctuated by operators.
 ms.assetid: c31aa0b8-1284-48aa-b000-d72433f0f5cc
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

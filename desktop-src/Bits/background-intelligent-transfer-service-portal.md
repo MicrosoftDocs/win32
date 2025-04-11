@@ -9,7 +9,7 @@ keywords:
 - downloading files BITS
 - background file transfer BITS
 - uploading files BITS
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 11/29/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Direct3D 11 deployment for game developers
 description: This article describes how to deploy the Direct3D 11 components on a system if necessary.
 ms.assetid: 1fd43638-0d67-4a94-3be6-8789095f491e
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

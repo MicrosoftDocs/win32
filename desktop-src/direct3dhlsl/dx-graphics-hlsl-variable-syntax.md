@@ -11,7 +11,7 @@ keywords:
 - uniform, Variable Syntax (DirectX HLSL)
 - volatile, Variable Syntax (DirectX HLSL)
 - precise, Variable Syntax (DirectX HLSL)
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type:
 - kbArticle

@@ -4,7 +4,7 @@ description: A CLSID is a globally unique identifier that identifies a COM class
 ms.assetid: b5777d87-abf2-45b9-9d95-61db878a5810
 keywords:
 - CLSID registry key COM
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

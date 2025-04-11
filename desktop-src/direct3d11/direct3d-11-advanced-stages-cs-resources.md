@@ -7,7 +7,7 @@ keywords:
 - Read/Write Buffer (Overview)
 - Structured Buffer (Overview)
 - Unordered Access Buffer
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

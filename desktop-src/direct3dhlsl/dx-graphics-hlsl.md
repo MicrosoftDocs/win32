@@ -2,7 +2,7 @@
 title: High-level shader language (HLSL)
 description: HLSL is the C-like high-level shader language that you use with programmable shaders in DirectX.
 ms.assetid: 09cdd8d6-0cf5-4f7e-b480-f748d2fa9ca9
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 01/11/2021
 topic_type: 
 - kbArticle

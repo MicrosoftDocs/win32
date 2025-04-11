@@ -2,7 +2,7 @@
 description: Windows 8 disables standard Windows 2000 Display Driver Model (XDDM) mirror drivers and offers the desktop duplication API instead.
 ms.assetid: 523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46
 title: Desktop Duplication API
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

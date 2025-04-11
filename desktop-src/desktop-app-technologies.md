@@ -2,7 +2,7 @@
 description: This article provides an index of documentation about the available Win32 APIs for Windows features and technologies.
 ms.assetid: FF115416-220F-4FCD-8690-F9C0890CD6CC
 title: Desktop app technologies
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

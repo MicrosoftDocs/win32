@@ -2,7 +2,7 @@
 title: Dynamic-link library creation
 description: To create a Dynamic-Link Library (DLL), you must create one or more source code files, and possibly a linker file for exporting the functions.
 ms.assetid: b66ea0e8-84c3-40be-bf02-765b9dd61f9f
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 01/26/2024
 ---
 
