@@ -2,7 +2,7 @@
 title: Guidelines
 description: These sections comprise the detailed user experience guidelines for Windows-based desktop applications.
 ms.assetid: 0722fb7f-66a0-4c9d-9c9a-b86ba855a26b
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 10/20/2020
 ---
 

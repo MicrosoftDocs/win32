@@ -2,7 +2,7 @@
 title: Standard Icons
 description: Standard icons are the error, warning, information, and question mark icons that are part of Windows.
 ms.assetid: 63b5c31d-5094-4299-b44b-35b2452ce706
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 10/20/2020
 ---
 
