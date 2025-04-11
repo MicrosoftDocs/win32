@@ -52,7 +52,7 @@ The following fundamental rules enable applications to create and process valid 
 - Use two consecutive periods (..) as a directory *component* in a path to represent the parent of the current directory, for example "..\\temp.txt". For more information, see [Paths](#fully-qualified-vs-relative-paths).
 - Do not use the following reserved names for the name of a file:
 
-  CON, PRN, AUX, NUL, COM0, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, COM¹, COM², COM³, LPT0, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, LPT9, LPT¹, LPT², and LPT³. Also avoid these names followed immediately by an extension; for example, NUL.txt and NUL.tar.gz are both equivalent to NUL. For more information, see [Namespaces](#win32-file-namespaces).
+  CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, COM¹, COM², COM³, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, LPT9, LPT¹, LPT², and LPT³. Also avoid these names followed immediately by an extension; for example, NUL.txt and NUL.tar.gz are both equivalent to NUL. For more information, see [Namespaces](#win32-file-namespaces).
 
   > [!NOTE]
   > Windows recognizes the 8-bit [ISO/IEC 8859-1](https://en.wikipedia.org/wiki/ISO/IEC_8859-1) superscript digits ¹, ², and ³ as digits and treats them as valid parts of COM\# and LPT\# device names, making them reserved in every directory. For example, `echo test > COM¹` fails to create a file.
