@@ -1,7 +1,7 @@
 ---
 title: Configure PIX
 description: Documenting various ways to configure PIX.
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 07/09/2024
 ---
 
