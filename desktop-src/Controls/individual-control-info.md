@@ -2,7 +2,7 @@
 title: Control Library
 description: The topics in this section discuss each control separately. The information for each control contains overviews that describe the control and how to use it, as well as programming elements that are used specifically with that control.
 ms.assetid: db0bd2d5-b6e6-4e34-a721-ed6272e3e8db
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
