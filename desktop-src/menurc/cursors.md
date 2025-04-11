@@ -5,7 +5,7 @@ ms.assetid: 'vs|winui|~\winui\windowsuserinterface\resources\cursors.htm'
 keywords:
 - resources,cursors
 - cursors,about
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
