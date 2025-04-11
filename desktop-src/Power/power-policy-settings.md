@@ -2,7 +2,7 @@
 description: Describes the power policy settings that make up a power scheme.
 ms.assetid: cd515cd6-67f4-45d0-b769-3abc7a56faa8
 title: Power Policy Settings
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

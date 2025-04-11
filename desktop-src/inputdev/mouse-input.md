@@ -6,7 +6,7 @@ keywords:
 - user input,mouse input
 - capturing user input,mouse input
 - mouse input
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 08/01/2022
 ---
 

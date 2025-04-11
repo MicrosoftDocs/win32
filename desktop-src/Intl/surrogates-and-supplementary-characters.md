@@ -2,7 +2,7 @@
 description: Surrogates and Supplementary Characters
 ms.assetid: 0dea39e2-a2b4-47fc-b44a-56af8ba1e346
 title: Surrogates and Supplementary Characters
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

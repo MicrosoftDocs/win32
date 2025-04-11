@@ -18,7 +18,7 @@ keywords:
 - Mouse Sonar accessibility feature
 - mouse wheel
 - WM_MOUSEWHEEL message
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
