@@ -295,7 +295,7 @@ The following values are defined for the DllCharacteristics field of the optiona
 
 Each data directory gives the address and size of a table or string that Windows uses. These data directory entries are all loaded into memory so that the system can use them at run time. A data directory is an 8-byte field that has the following declaration:
 
-```cpp
+```C++
 typedef struct _IMAGE_DATA_DIRECTORY {
     DWORD   VirtualAddress;
     DWORD   Size;
@@ -2164,7 +2164,7 @@ The archive file signature identifies the file type. Any utility (for example, a
 
 The Windows SDK winnt.h header defines the following macros:
 
-```
+```C++
 #define IMAGE_ARCHIVE_START_SIZE             8
 #define IMAGE_ARCHIVE_START                  "!<arch>\n"
 #define IMAGE_ARCHIVE_END                    "`\n"
