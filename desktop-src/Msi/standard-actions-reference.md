@@ -2,7 +2,7 @@
 description: The Windows Installer has the following standard actions.
 ms.assetid: 219b5eb6-501f-4e30-b398-4ed5e0cdf2ab
 title: Standard Actions Reference
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
