@@ -3,7 +3,7 @@ description: The CIMWin32 WMI providers support the classes implemented in CimWi
 ms.assetid: 6259ADE5-B564-46D6-88D3-2C0DA5EFAEA5
 ms.tgt_platform: multiple
 title: CIMWin32 WMI Providers
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: BITSAdmin tool
 description: BITSAdmin is a command-line tool that you can use to create download or upload jobs and monitor their progress.
 ms.assetid: 686d2201-c142-4e1c-a2b1-347d9334caa8
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 03/05/2019
 ---
 

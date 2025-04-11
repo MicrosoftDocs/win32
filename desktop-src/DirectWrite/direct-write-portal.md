@@ -2,7 +2,7 @@
 title: DirectWrite (DWrite)
 description: Today's applications must support high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support. DirectWrite, a [DirectX](../directx.md) API, provides these features and more.
 ms.assetid: 62a8d723-ae1c-4cbc-a9da-3177e80d4a3a
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

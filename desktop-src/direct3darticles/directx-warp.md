@@ -2,7 +2,7 @@
 title: Windows Advanced Rasterization Platform (WARP) Guide
 description: This article describes Windows Advanced Rasterization Platform (WARP) and the following aspects of WARP.
 ms.assetid: C40A96EB-64AA-46EB-85A9-7C996ABC8BFE
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: The HTTP Server API logs error responses to clients, connection tim
 ms.assetid: 58344b4d-7fde-4e32-b513-a471a8cafa14
 keywords:
 - HTTP Server API, types of errors logged
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
