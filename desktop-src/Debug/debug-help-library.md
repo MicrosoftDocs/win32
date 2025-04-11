@@ -2,7 +2,7 @@
 description: Describes the function set provided by the debug help library, DbgHelp, which contains a set of debugging support routines for PE executable images.
 ms.assetid: 71a5513d-bb89-4556-9266-57e7f92acf09
 title: Debug Help Library
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

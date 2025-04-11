@@ -2,7 +2,7 @@
 description: Learn how to use wait chain traversal (WCT) to let debuggers diagnose application hangs and deadlocks.
 ms.assetid: d266a663-b101-4936-9574-f6ce223419ae
 title: Wait chain traversal
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 02/06/2023
 ---
 
