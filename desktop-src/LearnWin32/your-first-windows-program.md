@@ -2,7 +2,7 @@
 title: Module 1. Your First Windows Program
 description: Describes how to make a very basic Windows desktop program, which will create and show a blank window.
 ms.assetid: 73848144-bf02-4382-a476-7f5a35447727
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 09/10/2021
 ---
 

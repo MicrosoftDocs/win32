@@ -2,7 +2,7 @@
 title: Prepare Your Development Environment
 description: Prepare Your Development Environment
 ms.assetid: 5a3fd27e-ec8f-41eb-9d31-86d6d9f70862
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 10/03/2019
 ---
 
