@@ -2,7 +2,7 @@
 title: Implement an AppContainer
 description: An AppContainer is implemented by adding new information to the process token, changing SeAccessCheck() so that all legacy, unmodified access control list (ACL) objects block access requests from AppContainer processes by default, and re-ACL objects that should be available to AppContainers.
 ms.assetid: C70A2F8C-27CB-4298-AA31-8F5099616625
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 07/20/2023
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Consent for Win32 app isolation
 description: Consent for Win32 app isolation can be granted or removed in several ways.
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 08/26/2024
 ---
 

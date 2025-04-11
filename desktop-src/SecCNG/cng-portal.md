@@ -2,7 +2,7 @@
 description: CNG is an encryption API that you can use to create encryption security software for encryption key management, cryptography and data security, and cryptography and network security.
 ms.assetid: eaad88a1-4e1d-4246-9560-8eef60f8b70f
 title: 'Cryptography API: Next Generation'
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

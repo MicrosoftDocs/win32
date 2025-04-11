@@ -2,7 +2,7 @@
 description: The Key Distribution Center (KDC) is implemented as a domain service. It uses the Active Directory as its account database and the Global Catalog for directing referrals to KDCs in other domains.
 ms.assetid: f2a7c87c-9be7-4fd8-8ecd-4edf1f2336ef
 title: Key Distribution Center
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: AppContainer isolation
 description: Isolation is the primary goal of an AppContainer execution environment.
 ms.assetid: 13C579F9-7F9F-4602-9B03-08CD820C3BBA
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 07/20/2023
 ---
 

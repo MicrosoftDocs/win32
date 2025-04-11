@@ -2,7 +2,7 @@
 description: Securable objects use an access mask format in which the four high-order bits specify generic access rights.
 ms.assetid: e18cede9-9bf7-4866-850b-5d7fa43a5b0f
 title: Generic Access Rights
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 02/13/2024
 ---
 

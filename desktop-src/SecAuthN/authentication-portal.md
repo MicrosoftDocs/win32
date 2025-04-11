@@ -2,7 +2,7 @@
 description: Programmers use authentication technologies to create password management software, single sign on authentication, strong authentication, user authentication, and identity verification.
 ms.assetid: 7863dbee-aa48-4024-886c-1056d7141e60
 title: Authentication (Authentication)
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

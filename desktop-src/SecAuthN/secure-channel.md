@@ -2,7 +2,7 @@
 description: Schannel contains a set of security protocols that provide identity authentication and secure, private communication through encryption.
 ms.assetid: 159074a1-6425-409a-8470-02cd485b75e9
 title: Secure Channel
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
