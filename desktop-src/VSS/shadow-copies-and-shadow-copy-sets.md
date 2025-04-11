@@ -2,7 +2,7 @@
 description: A shadow copy is a snapshot of a volume that duplicates all of the data that is held on that volume at one well-defined instant in time. VSS identifies each shadow copy by a persistent GUID.
 ms.assetid: 8ef2478a-c8bc-4517-9a14-e1d9226ec4cd
 title: Shadow Copies and Shadow Copy Sets
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
