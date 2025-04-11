@@ -3,7 +3,7 @@ title: All Classes
 description: The following topics provide lists of the types of classes defined by Active Directory.
 ms.assetid: a7bd3c26-984c-42c8-9903-1bbee40637da
 ms.tgt_platform: multiple
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

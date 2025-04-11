@@ -1,7 +1,7 @@
 ---
 description: Starting in Windows 10, version 1607, MAX_PATH limitations have been removed from many common Win32 file and directory functions. However, your app must opt-in to support the new behavior.
 title: Maximum Path Length Limitation
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 07/15/2024
 ---
 

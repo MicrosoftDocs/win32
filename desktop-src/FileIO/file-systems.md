@@ -1,7 +1,7 @@
 ---
 description: Manage directories with directory entry table, directory handles, reparse points.
 title: Local File Systems
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

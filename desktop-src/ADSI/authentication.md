@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Authentication ADSI
 - ADSI, Using, Authentication
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 08/20/2024
 ---
 

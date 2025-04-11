@@ -2,7 +2,7 @@
 description: Describes reparse points in a file or directory.
 ms.assetid: 3abb3a08-9a00-43eb-9792-82eab1a25f06
 title: Reparse Points
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 01/17/2024
 ---
 
