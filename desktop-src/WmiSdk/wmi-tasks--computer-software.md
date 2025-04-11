@@ -3,7 +3,7 @@ description: WMI tasks for computer software obtain information such as which so
 ms.assetid: 65a61be3-7870-4178-9e96-78b82898271f
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Computer Software'
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

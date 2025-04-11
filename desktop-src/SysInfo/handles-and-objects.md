@@ -2,7 +2,7 @@
 title: Handles and objects
 description: An object is a data structure that represents a system resource, such as a file, thread, or graphic image.
 ms.assetid: '26aaad09-c1e1-46e8-9cd3-7d795a10d900'
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 11/09/2021
 ---
 

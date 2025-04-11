@@ -3,7 +3,7 @@ description: The Common Information Model (CIM) is an extensible, object-oriente
 ms.assetid: 3e619cb7-18a9-40ff-82fe-c10eb5090a93
 ms.tgt_platform: multiple
 title: Common Information Model
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: ICC profile behavior with Advanced Color
 description: This topic discusses how legacy color management and ICC profile behavior changes when Advanced Color scenarios are active.
 keywords:
 - ICC profile behavior with Advanced Color
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 08/16/2022
 ---
 

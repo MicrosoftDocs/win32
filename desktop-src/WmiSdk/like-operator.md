@@ -3,7 +3,7 @@ description: The LIKE operator determines whether or not a character string matc
 ms.assetid: 6cafe696-891d-4b17-8802-4b872f76fc78
 ms.tgt_platform: multiple
 title: LIKE Operator
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

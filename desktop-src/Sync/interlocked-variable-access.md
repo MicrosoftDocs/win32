@@ -2,7 +2,7 @@
 description: Applications must synchronize access to variables that are shared by multiple threads.
 ms.assetid: 729c0e68-ef52-4d6c-b771-a89043a937e6
 title: Interlocked Variable Access
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

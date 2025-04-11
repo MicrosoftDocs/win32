@@ -2,7 +2,7 @@
 description: An asynchronous procedure call (APC) is a function that executes asynchronously in the context of a particular thread.
 ms.assetid: 0197d78e-a4dc-414b-88ba-c5ec5f2ed614
 title: Asynchronous Procedure Calls
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

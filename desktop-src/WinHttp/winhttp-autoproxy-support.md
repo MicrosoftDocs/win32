@@ -2,7 +2,7 @@
 description: To ease the configuration of proxy settings, WinHTTP 5.1 implements the Web Proxy Auto-Discovery (WPAD) protocol, also known as autoproxy.
 ms.assetid: f766f37b-a1aa-420f-ac3b-d03485630d88
 title: WinHTTP AutoProxy Support
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

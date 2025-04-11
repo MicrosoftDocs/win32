@@ -3,7 +3,7 @@ description: You can use the WMI Component Object Model (COM) API to write manag
 ms.assetid: 5fa8f1b5-fd19-4d45-9b53-bc7089eecdb1
 ms.tgt_platform: multiple
 title: COM API for WMI
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

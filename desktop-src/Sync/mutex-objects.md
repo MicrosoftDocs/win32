@@ -2,7 +2,7 @@
 description: A mutex object is a synchronization object whose state is set to signaled when it is not owned by any thread, and nonsignaled when it is owned.
 ms.assetid: eca0795a-1fd0-4034-9d61-9416670919cf
 title: Mutex Objects
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
