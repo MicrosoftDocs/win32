@@ -9,7 +9,7 @@ keywords:
 - testing UI Automation
 - UIA testing tools
 - UI Automation testing tools
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

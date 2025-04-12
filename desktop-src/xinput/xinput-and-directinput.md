@@ -2,7 +2,7 @@
 title: Comparison of XInput and DirectInput features
 description: Compares XInput and DirectInput APIs and features.
 ms.assetid: 0f29a47b-24ed-c0fa-e9e9-8a061619845c
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 11/24/2021
 ---
 

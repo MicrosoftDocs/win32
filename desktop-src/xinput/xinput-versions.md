@@ -2,7 +2,7 @@
 title: XInput Versions
 description: XInput is a cross-platform API that has shipped for use on Xbox and Windows.
 ms.assetid: e89a6c81-f170-4385-f942-3606f9747244
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
