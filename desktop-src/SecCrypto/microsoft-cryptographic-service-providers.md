@@ -2,7 +2,7 @@
 description: Lists the cryptographic service providers available from Microsoft.
 ms.assetid: 1461914e-5506-4f24-97da-3d2148aafd1c
 title: Microsoft Cryptographic Service Providers
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

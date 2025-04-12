@@ -2,7 +2,7 @@
 description: The following algorithms compute hashes and digital signatures. Each of these algorithms is supported in the Microsoft Base, Strong, and Enhanced Cryptographic Providers.
 ms.assetid: 91bf898d-658a-4e45-aa6e-eded46657563
 title: Hash and Signature Algorithms
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
