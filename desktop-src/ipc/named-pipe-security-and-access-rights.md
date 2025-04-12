@@ -2,7 +2,7 @@
 description: You can specify a security descriptor for a named pipe when you call the CreateNamedPipe function. The security descriptor controls access to both client and server ends of the named pipe.
 ms.assetid: f9ea97c9-9a97-4083-82d8-29ffb8be5a77
 title: Named Pipe Security and Access Rights
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
