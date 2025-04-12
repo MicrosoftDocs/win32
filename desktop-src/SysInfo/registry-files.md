@@ -2,7 +2,7 @@
 title: Registry files
 description: Applications can save part of the registry in a file and then load the contents of the file back into the registry.
 ms.assetid: a71a564d-934a-46e8-b555-989a6fa82337
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

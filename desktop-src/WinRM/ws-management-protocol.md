@@ -3,7 +3,7 @@ title: WS-Management Protocol
 description: A public standard for remotely exchanging management data with any computer device that implements the protocol.
 ms.assetid: 2c47acd2-5d52-4e0f-8848-a11aff59f963
 ms.tgt_platform: multiple
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following is the complete source code for the basic Winsock TCP/IP Server application.
 ms.assetid: 949dddec-840e-4f5a-9ab8-e1962a10b599
 title: Complete Winsock Server Code
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

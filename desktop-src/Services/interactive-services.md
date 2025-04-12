@@ -2,7 +2,7 @@
 description: Typically, services are console applications that are designed to run unattended without a graphical user interface (GUI).
 ms.assetid: 3d6e090a-00b1-47d8-a4fb-620f3db8ba9c
 title: Interactive Services
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

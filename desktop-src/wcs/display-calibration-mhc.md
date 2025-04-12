@@ -3,7 +3,7 @@ title: Windows hardware display color calibration pipeline
 description: This topic covers display color calibration using a new GPU display color transform pipeline that's supported by Windows 10, version 2004 (20H1) and later.
 keywords:
 - Windows hardware display color calibration pipeline
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 08/28/2024
 ---
 

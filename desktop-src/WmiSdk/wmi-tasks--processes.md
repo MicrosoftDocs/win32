@@ -3,7 +3,7 @@ description: WMI tasks for processes obtain information such as the account unde
 ms.assetid: 2ae7c302-ab8b-4150-8ece-ffb66374b3f7
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Processes'
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -3,7 +3,7 @@ title: Windows Remote Management and WMI
 description: Windows Remote Management can be used to retrieve data exposed by Windows Management Instrumentation.
 ms.assetid: a625440b-a839-487d-b862-e35934f24e1f
 ms.tgt_platform: multiple
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

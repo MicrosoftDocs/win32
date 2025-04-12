@@ -2,7 +2,7 @@
 description: A critical section object provides synchronization similar to that provided by a mutex object, except that a critical section can be used only by the threads of a single process.
 ms.assetid: 2ec11a42-3d12-4d60-9dd7-dc38926d56e1
 title: Critical Section Objects
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

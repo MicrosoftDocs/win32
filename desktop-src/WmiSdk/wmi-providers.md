@@ -3,7 +3,7 @@ description: WMI has many standard providers that are listed in this topic. For 
 ms.assetid: 9bb3d061-4fc9-4cdf-8f03-a86d53393429
 ms.tgt_platform: multiple
 title: WMI Providers
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 07/23/2020
 ---
 
