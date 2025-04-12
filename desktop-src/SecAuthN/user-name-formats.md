@@ -2,7 +2,7 @@
 description: When an application uses the Credentials Management API to prompt for credentials, the user is expected to enter information that can be validated, either by the operating system or by the application.
 ms.assetid: 53ed2eb4-2c29-48fd-b7fa-0c27bf155758
 title: User Name Formats
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: An access control entry (ACE) is an element in an access control list (ACL).
 ms.assetid: 9cf4d796-3955-456b-9db9-ae9fa83752f6
 title: Access Control Entries
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

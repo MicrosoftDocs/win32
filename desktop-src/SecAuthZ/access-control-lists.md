@@ -2,7 +2,7 @@
 description: Learn about access control lists, which list access control entries that specify trustees and control access rights to them.
 ms.assetid: c9aff246-fe11-4d82-b944-b10c3d9ae170
 title: Access control lists
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 02/06/2023
 ---
 

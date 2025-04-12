@@ -2,7 +2,7 @@
 description: Credential providers are the primary mechanism for user authentication. They currently are the only method for users to prove their identity which is required for logon and other system authentication scenarios.
 ms.assetid: BCF69196-D4E4-41D0-B372-5000FD50164B
 title: Credential Providers in Windows
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 01/31/2024
 ---
 
