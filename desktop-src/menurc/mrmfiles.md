@@ -3,7 +3,7 @@ title: File resources in MRM
 description: Description of file resources in MRM.
 keywords:
 - MrmIndexFile MrmIndexFileAutoQualifiers MrmIndexEmbeddedData MrmIndexResourceContainerAutoQualifiers
-ms.topic: reference
+ms.topic: concept-article
 ---
 
 # File resources in MRM
