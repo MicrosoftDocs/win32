@@ -2,7 +2,7 @@
 description: A component is a piece of the application or product to be installed.
 ms.assetid: f1c9696d-3267-44be-a904-ab26250fae2e
 title: Windows Installer Components
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

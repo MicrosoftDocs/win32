@@ -2,7 +2,7 @@
 description: The Microsoft XPS Document Writer (MXDW) is a print-to-file driver that enables a Windows application to create XML Paper Specification (XPS) document files.
 ms.assetid: cb431700-f10f-4c53-9944-d6769895595d
 title: Microsoft XPS Document Writer (MXDW)
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 10/26/2021
 ---
 

@@ -2,7 +2,7 @@
 description: The CustomAction table provides the means of integrating custom code and data into the installation. The source of the code that is executed can be a stream contained within the database, a recently installed file, or an existing executable file.
 ms.assetid: '0f47abc1-4e06-4ddc-9ea1-9afb9f27d499'
 title: CustomAction Table
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

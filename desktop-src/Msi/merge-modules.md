@@ -2,7 +2,7 @@
 description: Merge modules provide a standard method by which developers deliver shared Windows Installer components and setup logic to their applications.
 ms.assetid: '673de3ff-e58c-4153-9c8d-c3baebba5eb1'
 title: Merge Modules
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

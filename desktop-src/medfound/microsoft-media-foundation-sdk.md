@@ -2,7 +2,7 @@
 description: Microsoft Media Foundation
 ms.assetid: 0d355ad1-d674-432e-809a-9fb27ac5f610
 title: Microsoft Media Foundation
-ms.topic: reference
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
