@@ -21,8 +21,11 @@ The following functions are used when working with enclaves that are used to cre
 | [CallEnclave](/windows/win32/api/Enclaveapi/nf-enclaveapi-callenclave) | Calls a function within an enclave. |
 | [CreateEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-createenclave) | Creates a new uninitialized enclave. An enclave is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave. |
 | [DeleteEnclave](/windows/win32/api/Enclaveapi/nf-enclaveapi-deleteenclave) | Deletes the specified enclave. |
+| [EnclaveCopyIntoEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopyintoenclave) | Copies data from an untrusted address (outside of the enclave) into the enclave. |
+| [EnclaveCopyOutOfEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopoutofenclave) | Copies data from the enclave to an untrusted address (outside of the enclave). |
 | [EnclaveGetAttestationReport](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport) | Gets an enclave attestation report that describes the current enclave and is signed by the authority that is responsible for the type of the enclave. |
 | [EnclaveGetEnclaveInformation](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavegetenclaveinformation) | Gets information about the currently executing enclave. |
+| [EnclaveRestrictContainingProcessAccess](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclaverestrictcontainingprocessaccess) | Restricts (or restores) access by an enclave to the address space of its containing process. |
 | [EnclaveSealData](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavesealdata) | Generates an encrypted binary large object (blob) from unencypted data. |
 | [EnclaveUnsealData](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclaveunsealdata) | Decrypts an encrypted binary large object (blob). |
 | [EnclaveVerifyAttestationReport](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclaveverifyattestationreport) | Verifies an attestation report that was generated on the current system. |

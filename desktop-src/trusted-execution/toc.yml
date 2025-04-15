@@ -18,10 +18,16 @@
         href: /windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave
       - name: "DeleteEnclave"
         href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-deleteenclave
+      - name: "EnclaveCopyIntoEnclave"
+        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavecopynintoenclave
+      - name: "EnclaveCopyOutOfEnclave"
+        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavecopynoutofenclave
       - name: "EnclaveGetAttestationReport"
         href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport
       - name: "EnclaveGetEnclaveInformation"
         href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetenclaveinformation
+      - name: "EnclaveRestrictContainingProcessAccess"
+        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaverestrictcontainingprocessaccess
       - name: "EnclaveSealData"
         href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavesealdata
       - name: "EnclaveUnsealData"
