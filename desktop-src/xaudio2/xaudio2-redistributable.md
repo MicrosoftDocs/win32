@@ -14,11 +14,11 @@ Make sure that you visit the [DirectX Landing Page](https://devblogs.microsoft.c
 
 ## Supported platforms
 
-The XAudio 2.9 NuGet package (*Microsoft.XAudio2.Redist.\*.nupkg*) includes a 32-bit and a 64-bit version of a DLL that implements the XAudio 2.9 API. The DLL is called XAUDIO2\_9REDIST.DLL. This DLL will work on Windows 7 SP1, Windows 8, Windows 8.1 and Windows 10.
+The XAudio 2.9 NuGet package (*Microsoft.XAudio2.Redist.\*.nupkg*) includes a 32-bit and a 64-bit version of a DLL that implements the XAudio 2.9 API. The DLL is called XAUDIO2\_9REDIST.DLL. This DLL will work on Windows 7 SP1, Windows 8, Windows 8.1, Windows 10, and Windows 11. There is also an ARM64 version of the DLL for Windows 11 on ARM.
 
-When the DLL is used on a Windows 10 system, it checks the version number of the XAUDIO2\_9.DLL that is part of the operating system, and if the operating system is newer, it will delegate all API calls to XAUDIO2\_9.DLL in the operating system. This ensures that apps always use the latest version of XAudio 2.9 that is available on the current platform.
+When the DLL is used on a Windows 10/Windows 11 system, it checks the version number of the XAUDIO2\_9.DLL that is part of the operating system, and if the operating system is newer, it will delegate all API calls to XAUDIO2\_9.DLL in the operating system. This ensures that apps always use the latest version of XAudio 2.9 that is available on the current platform.
 
-The DLL is not intended for Xbox One. If used on Xbox One, the DLL will always delegate all API calls to XAUDIO2\_9.DLL in the Xbox One operating system.
+The DLL is not intended for Xbox One or Xbox Series X\|S. If used on Xbox, the DLL will always delegate all API calls to XAUDIO2\_9.DLL in the Xbox operating system.
 
 The DLL is not intended for UWP apps. UWP apps should use the XAUDIO2\_9.DLL that is part of the operating system.
 
